@@ -1,4 +1,3 @@
-# MDK-SE
 **WARNING** Still prerelease and buggy. Not ready for general use yet!
 
 ---

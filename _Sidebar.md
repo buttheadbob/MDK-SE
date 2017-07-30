@@ -10,4 +10,5 @@
 * [Deploying Your Script](https://github.com/malware-dev/MDK-SE/wiki/Deploying-Your-Script)
 * [Script Project Settings](https://github.com/malware-dev/MDK-SE/wiki/Script-Project-Settings)
 * [Mixin Projects (Shared Projects)](https://github.com/malware-dev/MDK-SE/wiki/Mixin-Projects)
+* [Advanced: The Minifier](https://github.com/malware-dev/MDK-SE/wiki/The-Minifier)
 * [Advanced: Utility and Extension Classes](https://github.com/malware-dev/MDK-SE/wiki/Utility-and-Extension-Classes)

@@ -69,4 +69,4 @@ public void Main()
 ```
 The Main method is the main entry point of your script. It might be called many times during a script's lifetime, depending on what your script is and how it is set up.
 This method is required, obviously.
-The argument is passed from the game (depending on your toolbar setup) to your script, enabling a single script to do a bunch of different things. This is beyond the scope of this tutorial.
+The argument is passed from the game (depending on your toolbar setup) to your script, enabling a single script to do a bunch of different things. You can set this argument by dragging your programmable block onto a button panel, sensor or timer toolbar (or any other device toolbar except your suit) and selecting "Run". You will be presented with an input box where you can type in what you want to be passed to your script. It will be passed verbatim, Keep that in mind.

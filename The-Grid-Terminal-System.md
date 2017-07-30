@@ -21,7 +21,7 @@ Now continue by adding a `.` at the end. This is what is important. Now it shoul
 
 These are the methods available to you in the grid terminal system. All of them are ways to retrieve blocks from your grids in various ways.
 
-* `GetBlocks`
+* `GetBlocks`  
     Gets _all_ the available blocks the Grid Terminal System has access to. Requires a target list of the base `IMyTerminalBlock` type.
     ```csharp
     // Create a list containing _all_ blocks in the system
@@ -29,7 +29,7 @@ These are the methods available to you in the grid terminal system. All of them 
     GridTerminalSystem.GetBlocks(blocks);
     ````
 
-* `GetBlocksOfType`
+* `GetBlocksOfType`  
     Allows you to retrieve a list of blocks of a specific type, optionally filtered by a given collect predicate.
     ```csharp
     // Create a list containing all interior lights in the system
@@ -48,7 +48,7 @@ These are the methods available to you in the grid terminal system. All of them 
     GridTerminalSystem.GetBlocksOfType(lights, light => light.Enabled);
     ```
 
-* `SearchBlocksOfName`
+* `SearchBlocksOfName`  
     Searches through all the blocks, returning those whose name _contains_ the entered name. Meaning, a block named "Mynoch" would be returned if you search for "no". Also provides the ability to use a collect predicate, just like `GetBlocksOfType`. Unfortunately, this method can _only_ accept a target list of the base `IMyTerminalBlock` type.
     ```csharp
     // Returns all lights in the system whose name contains the text "no"
@@ -56,7 +56,7 @@ These are the methods available to you in the grid terminal system. All of them 
     GridTerminalSystem.SearchBlocksOfName("no", lights, light => light is IMyInteriorLight);
     ```
 
-* `GetBlockWithName`
+* `GetBlockWithName`  
     Allows you to retrieve a single block having a specific name. Note that the name must be _exact_, case sensitive and including any spacing.
     ```csharp
     // Find a block of a specific name, then check if it's a timer block. If it is, store it in the
@@ -64,10 +64,10 @@ These are the methods available to you in the grid terminal system. All of them 
     IMyTimerBlock timer = GridTerminalSystem.GetBlockWithName("Timer Block") as IMyTimerBlock;
     ```
 
-* `GetBlockWithId`
+* `GetBlockWithId`  
     Allows you to retrieve a block by its `EntityId`. This is an unique id given to a block by the game, and will remain the same even if you rename the block.
 
-* `GetBlockGroups`
+* `GetBlockGroups`  
     Fetches a list of block groups, optionally filtered by a given collect predicate.
     ```csharp
     // Create a list which contains all the block groups in the system
@@ -80,7 +80,7 @@ These are the methods available to you in the grid terminal system. All of them 
     GridTerminalSystem.GetBlockGroups(groups, group => group.Name.Contains("no"));
     ```
 
-* `GetBlockGroupWithName`
+* `GetBlockGroupWithName`  
     Returns a block group by its name. Note that the name must be _exact_, case sensitive and including any spacing.
     ```csharp
     // Retrieve the block group named "Interesting Blocks"

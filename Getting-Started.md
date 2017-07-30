@@ -10,7 +10,7 @@ https://github.com/malware-dev/MDK-SE/releases
 
 In most circumstances you will be interested in downloading the file named **MDK.vsix**. This is a installer package format used by Visual Studio to install extensions.
 
-You should stay away from any pre-release builds unless you know what you're doing, or if you want to test.
+You should stay away from any pre-release builds unless you know what you're doing, or if you are kind enough to want to help me test. Just be aware that pre-release builds are bound to be particularily buggy, and might even break script projects, so you certainly shouldn't use them for your more complicated scripts.
 
 
 
@@ -36,4 +36,4 @@ Now you can select your project's location and names in the boxes below.
 
 Press **OK** to create your project.
 
-You may now write your script directly in this class if you wish. If your scripts are not too large, this is quite fine. However this extension has another couple of tricks up its sleeve for the slightly more advanced users:
+You may now write your script directly in this class if you wish. If your scripts are not too large, this is quite fine. However this extension has another couple of tricks up its sleeve for the slightly more advanced users. Go back to the [MDK/SE Wiki Home](https://github.com/malware-dev/MDK-SE/wiki) to find out more.

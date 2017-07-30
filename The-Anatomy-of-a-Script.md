@@ -1,4 +1,4 @@
-Ok, [so you've learned the basics of C# and know where to get help](https://github.com/malware-dev/MDK-SE/wiki/Quick-Introduction-to-Space-Engineers-Ingame-Scripts), and you've [opened your brand new project](https://github.com/malware-dev/MDK-SE/wiki/Getting-Started) and are looking at this (comments and using removed for brevity):
+Ok, [so you've learned the basics of C# and know where to get help](https://github.com/malware-dev/MDK-SE/wiki/Quick-Introduction-to-Space-Engineers-Ingame-Scripts), and you've [opened your brand new project](https://github.com/malware-dev/MDK-SE/wiki/Getting-Started) and you are looking at this (comments and using removed for brevity):
 
 ```csharp
 namespace IngameScript

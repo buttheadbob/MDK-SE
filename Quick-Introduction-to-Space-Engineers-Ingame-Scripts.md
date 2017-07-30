@@ -46,7 +46,8 @@ The rest of the code should be left as it is. Let me then explain the individual
 
 #### The Constructor
 ```csharp
-public Program() {
+public Program() 
+{
 
 }
 ```
@@ -55,7 +56,8 @@ The constructor is optional, you don't need it to have a working script.
 
 #### The Save Method
 ```csharp
-public void Save() {
+public void Save() 
+{
 }
 ```
 The Save method is called whenever the game is saved. Here you can store any data you need to persist between play sessions. This is a bit out of scope right now, but it's nice to know.
@@ -64,12 +66,14 @@ This save method is also optional.
 
 #### The Main Method
 ```csharp
-public void Main(string argument) {
+public void Main(string argument) 
+{
 }
 ```
 or simply
 ```csharp
-public void Main() {
+public void Main() 
+{
 }
 ```
 The Main method is the main entry point of your script. It might be called many times during a script's lifetime, depending on what your script is and how it is set up.
@@ -82,7 +86,8 @@ Let's start simple. Let's say you have a light, and you want to turn it off and 
 Since it's somewhat... cumbersome... to read scripts in the game's internal editor, let me provide the script here. Again I have removed the comments for brevity.
 
 ```cs
-public void Main() {
+public void Main() 
+{
     IMyInteriorLight light;
 
     light = GridTerminalSystem.GetBlockWithName("That Important Light") as IMyInteriorLight;

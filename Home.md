@@ -18,7 +18,7 @@ Ok, so who is this Malware guy anyway, and why the heck does a software engineer
 
 Well, yes, I promise you can. The nickname is chosen deliberately, both as a sarcastic reference to said malicious software that I hate as much as anyone, and a play on words. You see, my real name initials are MAL, and I am a software engineer through and through, both by vocation and hobby. Cheesy? Oh, yes, absolutely, but I like it.
 
-Like I said, a software engineer through and through. I have been programming since my very early teens (or maybe before, I can't remember exactly). I wrote my first piece of software somewhere between 25 and 30 years ago, alongside my father, with a then brand-new 80286 computer, with gw-basic. I never looked back. I am now a professional business software programmer, and I've been in my current job for a decade. I love this job.
+Like I said, a software engineer through and through. I have been programming since my very early teens (or maybe before, I can't remember exactly). I wrote my first piece of software somewhere between 25 and 30 years ago, alongside my father, with a then brand-new 80286 computer, with gw-basic (well, technically, he wrote it, I suggested and watched with big eyes). I never looked back. I am now a professional business software programmer, and I've been in my current job for a decade. I love this job.
 
 Oh, I guess I should also mention that I'm the author of the current version of Space Engineer's programmable block. To be exact, it's compiler. That is my main contribution, but I have also contributed smaller things here and there.
 

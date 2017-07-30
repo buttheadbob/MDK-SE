@@ -13,3 +13,4 @@
 * [Advanced: Making Your Script Run Faster](https://github.com/malware-dev/MDK-SE/wiki/Making-Your-Script-Run-Faster)
 * [Advanced: Utility and Extension Classes](https://github.com/malware-dev/MDK-SE/wiki/Utility-and-Extension-Classes)
 * [Advanced: The Minifier](https://github.com/malware-dev/MDK-SE/wiki/The-Minifier)
+* [Advanced: The EntityId](https://github.com/malware-dev/MDK-SE/wiki/The-Entity-Id)

@@ -70,9 +70,20 @@ These are the methods available to you in the grid terminal system. All of them 
 * `GetBlockGroups`
     Fetches a list of block groups, optionally filtered by a given collect predicate.
     ```csharp
+    // Create a list which contains all the block groups in the system
+    List<IMyBlockGroup> groups = new List<IMyBlockGroup>();
+    GridTerminalSystem.GetBlockGroups(groups);
+    ```
+    ```csharp
+    // Create a list which contains all the block groups whose name contains the text "no"
+    List<IMyBlockGroup> groups = new List<IMyBlockGroup>();
+    GridTerminalSystem.GetBlockGroups(groups, group => group.Name.Contains("no"));
     ```
 
 * `GetBlockGroupWithName`
     Returns a block group by its name. Note that the name must be _exact_, case sensitive and including any spacing.
     ```csharp
+    // Retrieve the block group named "Interesting Blocks"
+    IMyBlockGroup group;
+    group = GridTerminalSystem.GetBlockGroupWithName("Interesting Blocks");
     ```

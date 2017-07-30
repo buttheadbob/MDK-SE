@@ -51,7 +51,7 @@ public void Save()
 {
 }
 ```
-The Save method is called whenever the game is saved. Here you can store any data you need to persist between play sessions. This is a bit out of scope right now, but it's nice to know.
+The Save method is called whenever the game is saved, or right before you recompile your script. Here you can store any data you need to persist between play sessions. This is a bit out of scope right now, but it's nice to know.
 
 This save method is also optional.
 

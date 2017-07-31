@@ -119,4 +119,4 @@ public void Main() {
 }
 ```
 
-_tutorial completion pending_
+_detailed explanation pending_

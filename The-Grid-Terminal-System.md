@@ -87,3 +87,36 @@ These are the methods available to you in the grid terminal system. All of them 
     IMyBlockGroup group;
     group = GridTerminalSystem.GetBlockGroupWithName("Interesting Blocks");
     ```
+#### The Grid Terminal System and Subclasses
+As your scripts increase in complexity, it's inevitable that you'll want to split your code into classes. Once you do this you will quickly realize that you lose access to the content of your program inside these classes. This is because the program _itself_ is just another class. This very fact, however, provides you with a solution to this problem.
+
+```csharp
+public class SomeUsefulSubclass
+{
+    Program _program;
+
+    public AirlockSystem(Program program) 
+    {
+        _program = program;
+    }
+
+    public SomeUsefulMethod() 
+    {
+        var block = _program.GridTerminalSystem.GetBlockWithName("That Block I Want");
+        // Do useful stuff with that block
+    }
+}
+
+SomeUsefulSubclass _subclass;
+
+public Program() 
+{
+    _subclass = new SomeUsefulSubclass(this);
+}
+
+public void Main() {
+    _subclass.SomeUsefulMethod();
+}
+```
+
+_tutorial completion pending_

@@ -65,7 +65,7 @@ These are the methods available to you in the grid terminal system. All of them 
     ```
 
 * `GetBlockWithId`  
-    Allows you to retrieve a block by its `EntityId`. This is an unique id given to a block by the game, and will remain the same even if you rename the block.
+    Allows you to retrieve a block by its `EntityId`. This is [a unique id](https://github.com/malware-dev/MDK-SE/wiki/The-Entity-Id) given to a block by the game, and will remain the same even if you rename the block.
 
 * `GetBlockGroups`  
     Fetches a list of block groups, optionally filtered by a given collect predicate.

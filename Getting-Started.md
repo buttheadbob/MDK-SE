@@ -34,6 +34,10 @@ Now you can select your project's location and names in the boxes below.
 
 ![Enter your project information](https://github.com/malware-dev/MDK-SE/blob/master/images/wiki-newproject-properties.jpg)
 
+Note the `Location` box. That is where your solution and project will be stored on disk: Visual Studio will add a subfolder there with the name of your solution, and below there it will create a `.sln` file. Make note of this file, because _this_ is the file you need to open when you're going back to your project later, not the individual `.cs` files.
+
 Press **OK** to create your project.
 
 You may now write your script directly in this class if you wish. If your scripts are not too large, this is quite fine. However this extension has another couple of tricks up its sleeve for the slightly more advanced users. Go back to the [MDK/SE Wiki Home](https://github.com/malware-dev/MDK-SE/wiki) to find out more.
+
+Happy Scripting!

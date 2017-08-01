@@ -40,6 +40,8 @@ if (light == null)
     return;
 }
 ```
+You can read [more about Echo here](https://github.com/malware-dev/MDK-SE/wiki/Debugging-Your-Scripts).
+
 Ok, so we have a block, and we know it's a light. So all we have to do now, is to toggle it.   
 ```csharp
 light.Enabled = !light.Enabled;

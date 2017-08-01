@@ -119,4 +119,6 @@ public void Main() {
 }
 ```
 
-_detailed explanation pending_
+What we are doing here is passing the main Program instance into our subclass via its constructor. We choose to pass the program itself rather than just the GridTerminalSystem for two reasons: First; it will provide access to the other scripting facilities like the [Echo](https://github.com/malware-dev/MDK-SE/wiki/Debugging-Your-Scripts), [Storage](https://github.com/malware-dev/MDK-SE/wiki/The-Storage-String) and the [Runtime](https://github.com/malware-dev/MDK-SE/wiki/The-Runtime) _as well_ as the GridTerminalSystem. Second, unfortunately there are situation where the GridTerminalSystem instance will simply be _replaced_. This happens for instance when you use a merge block to merge or split grids, or a connector<sup>1</sup> to dock to another grid. In practice this means that if you pass the GridTerminalSystem _only_, and you do one of these things, you risk that your passed instance will simply stop working.
+
+_<sup>1</sup>: TODO: verify that this is still the case_

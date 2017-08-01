@@ -1,5 +1,5 @@
 
-This is a simplistic attempt to explain the various parts of an ingame script and how it works. It is by no means a complete explanation. To get further help, I recommend connecting to [Keen's official Discord](https://discord.gg/0hIE7GirODUqhfIg) and asking in the #programming-in-game channel. There's usually plenty of people there to help you. I will be assuming that you're familiar with the game itself, and how to _use_ scripts, and how to load a script into a programmable block via the workshop button.
+This is a simplistic attempt to explain the various parts of an ingame script and how it works. It is by no means a complete explanation. To get further help, I recommend connecting to [Keen's official Discord](https://discord.gg/0hIE7GirODUqhfIg) and asking in the **#programming-in-game** channel. There's usually plenty of people there to help you. I will be assuming that you're familiar with the game itself, and how to _use_ scripts, and how to load a script into a programmable block via the workshop button.
 
 ### The Language
 

@@ -5,7 +5,7 @@ This is a simplistic attempt to explain the various parts of an ingame script an
 
 First of all: The programmable block uses the programming language C# in order to provide high-performance automation for your builds. Before continuing you should get a basic grasp of the language itself. There are several tutorials on the web dealing with this, including [Microsoft's own](https://docs.microsoft.com/en-us/dotnet/csharp/csharp). You might be able to find some tutorials which are better at explaining than them though, they tend to be rather obtuse. In the following tutorials I will be assuming at least a basic grasp of C#. If you find I don't explain some things well enough, please let me know - I might try to improve it.
 
-* [The Anatomy Of A Script](https://github.com/malware-dev/MDK-SE/wiki/The-Anatomy-of-a-Script)
+* [The Anatomy of a Script](https://github.com/malware-dev/MDK-SE/wiki/The-Anatomy-of-a-Script)
 * [The Grid Terminal System](https://github.com/malware-dev/MDK-SE/wiki/The-Grid-Terminal-System)
 * [Terminal Properties and Actions](https://github.com/malware-dev/MDK-SE/wiki/Terminal-Properties-and-Actions)
 * [The Running Programmable Block](https://github.com/malware-dev/MDK-SE/wiki/The-Running-Programmable-Block)

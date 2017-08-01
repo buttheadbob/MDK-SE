@@ -17,7 +17,7 @@ block.SetValue<Color>(Color.Red);
 ```
 This code will change the color of the light to red.
 
-#### Listing Terminal Properties
+#### Listing Available Terminal Properties
 _example pending_
 
 #### Terminal Actions
@@ -30,5 +30,5 @@ block.ApplyAction("Open_On");
 ```
 This particular action will open the door retrieved. Note again that if the block you retrieve does not have the action specified, your script will crash with a `NullReferenceException`.
 
-#### Listing Terminal Actions
+#### Listing Available Terminal Actions
 _example pending_

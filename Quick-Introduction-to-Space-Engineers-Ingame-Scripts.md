@@ -7,7 +7,7 @@ First of all: The programmable block uses the programming language C# in order t
 
 * [The Anatomy Of A Script](https://github.com/malware-dev/MDK-SE/wiki/The-Anatomy-of-a-Script)
 * [The Grid Terminal System](https://github.com/malware-dev/MDK-SE/wiki/The-Grid-Terminal-System)
-* [Terminal Properties And Actions](https://github.com/malware-dev/MDK-SE/wiki/Terminal-Properties-And-Actions)
+* [Terminal Properties and Actions](https://github.com/malware-dev/MDK-SE/wiki/Terminal-Properties-and-Actions)
 * [The Running Programmable Block](https://github.com/malware-dev/MDK-SE/wiki/The-Running-Programmable-Block)
 * [The Runtime](https://github.com/malware-dev/MDK-SE/wiki/The-Runtime)
 * [The Storage String](https://github.com/malware-dev/MDK-SE/wiki/The-Storage-String)

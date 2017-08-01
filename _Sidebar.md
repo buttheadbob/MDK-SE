@@ -8,6 +8,7 @@
     * [The Runtime](https://github.com/malware-dev/MDK-SE/wiki/The-Runtime)
     * [The Storage String](https://github.com/malware-dev/MDK-SE/wiki/The-Storage-String)
     * [Your First Script](https://github.com/malware-dev/MDK-SE/wiki/Your-First-Script)
+    * [Debugging Your Scripts](https://github.com/malware-dev/MDK-SE/wiki/Debugging-Your-Scripts)
     * [Making Your Script Run Faster](https://github.com/malware-dev/MDK-SE/wiki/Making-Your-Script-Run-Faster)
     * [Advanced: The EntityId](https://github.com/malware-dev/MDK-SE/wiki/The-Entity-Id)
 * [Deploying Your Script](https://github.com/malware-dev/MDK-SE/wiki/Deploying-Your-Script)

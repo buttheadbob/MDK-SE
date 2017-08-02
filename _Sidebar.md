@@ -11,6 +11,7 @@
     * [Debugging Your Scripts](https://github.com/malware-dev/MDK-SE/wiki/Debugging-Your-Scripts)
     * [Making Your Script Run Faster](https://github.com/malware-dev/MDK-SE/wiki/Making-Your-Script-Run-Faster)
     * [Advanced: The EntityId](https://github.com/malware-dev/MDK-SE/wiki/The-Entity-Id)
+    * [Advanced: Easy and Powerful State Machine Using "yield return"](https://github.com/malware-dev/MDK-SE/wiki/https://github.com/malware-dev/MDK-SE/wiki/Advanced:-Easy-and-Powerful-State-Machine-Using-%22yield-return%22)
 * [Deploying Your Script](https://github.com/malware-dev/MDK-SE/wiki/Deploying-Your-Script)
 * [Script Project Settings](https://github.com/malware-dev/MDK-SE/wiki/Script-Project-Settings)
 * [Mixin Projects (Shared Projects)](https://github.com/malware-dev/MDK-SE/wiki/Mixin-Projects)

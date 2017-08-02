@@ -12,8 +12,8 @@ IMyInteriorLight _panelLight;
 IMyTextPanel _textPanel;
 IEnumerator<bool> _stateMachine;
 
-public Program() {
-
+public Program() 
+{
     // Retrieve the blocks we're going to use.
     _timer = GridTerminalSystem.GetBlockWithName("Timer Block") as IMyTimerBlock;
     _panelLight = GridTerminalSystem.GetBlockWithName("Interior Light") as IMyInteriorLight;
@@ -28,22 +28,25 @@ public Program() {
     _timer.ApplyAction("Start");
 }
 
-
-public void Main(string argument) {
-
+public void Main(string argument) 
+{
     // Usually I verify that the argument is empty or a predefined value before running the state
     // machine. This way we can use arguments to control the script without disturbing the
     // state machine and its timing. For the purpose of this example however, I will omit this.
 
     // ***MARKER: State Machine Execution
     // If there is an active state machine, run its next instruction set.
-    if (_stateMachine != null) {
+    if (_stateMachine != null) 
+    {
         // If there are no more instructions, or the current value of the enumerator is false,
         // we stop and release the state machine.
-        if (!_stateMachine.MoveNext() || !_stateMachine.Current) {
+        if (!_stateMachine.MoveNext() || !_stateMachine.Current) 
+        {
             _stateMachine.Dispose();
             _stateMachine = null;
-        } else {
+        } 
+        else 
+        {
             // The state machine has more work to do. Restart the timer. Again you might choose
             // to use TriggerNow.
             _timer.ApplyAction("Start");
@@ -51,9 +54,9 @@ public void Main(string argument) {
     }
 }
 
-
 // ***MARKER: State Machine Program
-public IEnumerator<bool> RunStuffOverTime() {
+public IEnumerator<bool> RunStuffOverTime() 
+{
     // For the very first instruction set, we will just switch on the light.
     _panelLight.RequestEnable(true);
 
@@ -74,7 +77,8 @@ public IEnumerator<bool> RunStuffOverTime() {
     // The following would seemingly be an illegal operation, because the script would
     // keep running until the instruction count overflows. However, using yield return,
     // you can get around this limitation.
-    while (true) {
+    while (true) 
+    {
         _textPanel.WritePublicText(i.ToString());
         i++;
         // Like before, when this statement is executed, control is returned to the game.

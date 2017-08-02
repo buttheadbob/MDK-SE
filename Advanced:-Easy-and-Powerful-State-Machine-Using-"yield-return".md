@@ -4,7 +4,7 @@ To begin; place a programmable block, a timer block (simply named Timer Block) s
 
 Copy the following script into the programmable block. The comments explain what is happening.
 
-** Remember to dispose your `IEnumerator`s ** or it will come back to haunt you!
+** Remember to dispose your `IEnumerator` after use or it will come back to haunt you! **
 
 ```csharp
 IMyTimerBlock _timer;

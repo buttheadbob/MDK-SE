@@ -1,3 +1,5 @@
+## The MDK / Visual Studio Specific Section
+
 Ok, [so you've learned the basics of C# and know where to get help](https://github.com/malware-dev/MDK-SE/wiki/Quick-Introduction-to-Space-Engineers-Ingame-Scripts), and you've [opened your brand new project](https://github.com/malware-dev/MDK-SE/wiki/Getting-Started) and you are looking at this (comments and using removed for brevity):
 
 ```csharp
@@ -19,7 +21,11 @@ namespace IngameScript
     }
 }
 ```
-The first you need to be aware of, is that the namespace and the `partial class Program : MyGridProgram` parts is _not_ a part of the programmable block script. Only the parts _inside_ the Program class is actually used when this script project is deployed to Space Engineers. The reason is that Space Engineers need strict control of what a script class _is_. A script class is _always_ named `Program`, and it's _always_ inherited from `MyGridProgram`. So the important part of this code file, then, is this:
+The first you need to be aware of, is that the namespace and the `partial class Program : MyGridProgram` parts is _not_ a part of the programmable block script. Only the parts _inside_ the Program class is actually used when this script project is deployed to Space Engineers. The reason is that Space Engineers need strict control of what a script class _is_. A script class is _always_ named `Program`, and it's _always_ inherited from `MyGridProgram`. 
+
+## The General Section (even if you don't use MDK)
+
+This is what you'll see the first time you open a newly placed programmable block (comments removed for brevity):
 ```csharp
 public Program()
 {
@@ -33,7 +39,6 @@ public void Main(string argument)
 {
 }
 ```
-The rest of the code should be left as it is. Let me then explain the individual parts:
 
 #### The Constructor
 ```csharp

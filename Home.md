@@ -10,6 +10,8 @@ This is a project I pretty much made for _myself_. I'm publishing it in case som
 ## Contribution
 Yeah, sure. Absolutely. I will gladly accept contribution to the project. I'll be grateful for any assistance, especially for any features requested that I myself may not have any use for. I have only limited time for this project, and I am forced - for the most part - to stick to features that I myself will be using. This means that any extra features, like for instance mod support, relies on the community contributing. However: I can't merge contributions willy nilly. I will expect a certain minimum standard, and I reserve the right to deny features I don't like. Another fair warning :D
 
+[See here for more info](https://github.com/malware-dev/MDK-SE/blob/master/CONTRIBUTING.md).
+
 ## About Me
 Ok, so who is this Malware guy anyway, and why the heck does a software engineer use a nickname based on malicious software? Can I even trust this person?
 

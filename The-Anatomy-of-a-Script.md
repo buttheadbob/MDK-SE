@@ -1,4 +1,5 @@
 ## The MDK / Visual Studio Specific Section
+_If you're not using MDK, you can skip to the next section_
 
 Ok, [so you've learned the basics of C# and know where to get help](https://github.com/malware-dev/MDK-SE/wiki/Quick-Introduction-to-Space-Engineers-Ingame-Scripts), and you've [opened your brand new project](https://github.com/malware-dev/MDK-SE/wiki/Getting-Started) and you are looking at this (comments and using removed for brevity):
 

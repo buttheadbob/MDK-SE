@@ -1,7 +1,7 @@
 ### Step 1
-First of all, obviously, you need to make sure you have installed Visual Studio 2017. You can find instructions on how to do that here:
-https://www.visualstudio.com/vs/getting-started/new-install/
-
+First of all, obviously, you need to make sure you have installed Visual Studio 2017. You can find instructions on how to do that here. For Space Engineers development you need at least the .NET desktop development workload.  
+https://docs.microsoft.com/en-us/visualstudio/install/install-visual-studio  
+https://www.visualstudio.com/vs/getting-started/
 
 
 ### Step 2

@@ -16,5 +16,4 @@ First of all: The programmable block uses the programming language C# in order t
 * [Debugging Your Scripts](https://github.com/malware-dev/MDK-SE/wiki/Debugging-Your-Scripts)
 * [Making Your Script Run Faster](https://github.com/malware-dev/MDK-SE/wiki/Making-Your-Script-Run-Faster)
 * [Advanced: The EntityId](https://github.com/malware-dev/MDK-SE/wiki/The-Entity-Id)
-* [Advanced: Easy and Powerful State Machine Using "yield return"](https://github.com/malware-dev/MDK-
-SE/wiki/Advanced:-Easy-and-Powerful-State-Machine-Using-%22yield-return%22)
+* [Advanced: Easy and Powerful State Machine Using "yield return"](https://github.com/malware-dev/MDK-SE/wiki/Advanced:-Easy-and-Powerful-State-Machine-Using-%22yield-return%22)

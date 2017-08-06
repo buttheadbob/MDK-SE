@@ -75,13 +75,13 @@ These are the methods available to you in the grid terminal system. All of them 
     GridTerminalSystem.GetBlockGroups(groups);
     ```
     ```csharp
-    // Create a list which contains all the block groups whose name contains the text "no"
+    // Create a list which contains all the [block groups](https://github.com/malware-dev/MDK-SE/wiki/Block-Groups) whose name contains the text "no"
     List<IMyBlockGroup> groups = new List<IMyBlockGroup>();
     GridTerminalSystem.GetBlockGroups(groups, group => group.Name.Contains("no"));
     ```
 
 * `GetBlockGroupWithName`  
-    Returns a block group by its name. Note that the name must be _exact_, case sensitive and including any spacing.
+    Returns a [block group](https://github.com/malware-dev/MDK-SE/wiki/Block-Groups) by its name. Note that the name must be _exact_, case sensitive and including any spacing.
     ```csharp
     // Retrieve the block group named "Interesting Blocks"
     IMyBlockGroup group;

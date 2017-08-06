@@ -7,6 +7,7 @@ First of all: The programmable block uses the programming language C# in order t
 
 * [The Anatomy of a Script](https://github.com/malware-dev/MDK-SE/wiki/The-Anatomy-of-a-Script)
 * [The Grid Terminal System](https://github.com/malware-dev/MDK-SE/wiki/The-Grid-Terminal-System)
+    * [Block Groups](https://github.com/malware-dev/MDK-SE/wiki/Block-Groups)
 * [Terminal Properties and Actions](https://github.com/malware-dev/MDK-SE/wiki/Terminal-Properties-and-Actions)
 * [The Running Programmable Block](https://github.com/malware-dev/MDK-SE/wiki/The-Running-Programmable-Block)
 * [The Runtime](https://github.com/malware-dev/MDK-SE/wiki/The-Runtime)
@@ -15,3 +16,5 @@ First of all: The programmable block uses the programming language C# in order t
 * [Debugging Your Scripts](https://github.com/malware-dev/MDK-SE/wiki/Debugging-Your-Scripts)
 * [Making Your Script Run Faster](https://github.com/malware-dev/MDK-SE/wiki/Making-Your-Script-Run-Faster)
 * [Advanced: The EntityId](https://github.com/malware-dev/MDK-SE/wiki/The-Entity-Id)
+* [Advanced: Easy and Powerful State Machine Using "yield return"](https://github.com/malware-dev/MDK-
+SE/wiki/Advanced:-Easy-and-Powerful-State-Machine-Using-%22yield-return%22)

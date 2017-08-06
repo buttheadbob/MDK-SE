@@ -68,14 +68,14 @@ These are the methods available to you in the grid terminal system. All of them 
     Allows you to retrieve a block by its `EntityId`. This is [a unique id](https://github.com/malware-dev/MDK-SE/wiki/The-Entity-Id) given to a block by the game, and will remain the same even if you rename the block.
 
 * `GetBlockGroups`  
-    Fetches a list of block groups, optionally filtered by a given collect predicate.
+    Fetches a list of [block groups](https://github.com/malware-dev/MDK-SE/wiki/Block-Groups), optionally filtered by a given collect predicate.
     ```csharp
     // Create a list which contains all the block groups in the system
     List<IMyBlockGroup> groups = new List<IMyBlockGroup>();
     GridTerminalSystem.GetBlockGroups(groups);
     ```
     ```csharp
-    // Create a list which contains all the [block groups](https://github.com/malware-dev/MDK-SE/wiki/Block-Groups) whose name contains the text "no"
+    // Create a list which contains all the block groups whose name contains the text "no"
     List<IMyBlockGroup> groups = new List<IMyBlockGroup>();
     GridTerminalSystem.GetBlockGroups(groups, group => group.Name.Contains("no"));
     ```

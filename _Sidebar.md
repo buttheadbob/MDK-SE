@@ -5,6 +5,7 @@
 * [Quick Introduction to Space Engineers Ingame Scripts](https://github.com/malware-dev/MDK-SE/wiki/Quick-Introduction-to-Space-Engineers-Ingame-Scripts)
     * [The Anatomy of a Script](https://github.com/malware-dev/MDK-SE/wiki/The-Anatomy-of-a-Script)
     * [The Grid Terminal System](https://github.com/malware-dev/MDK-SE/wiki/The-Grid-Terminal-System)
+        * [Block Groups](https://github.com/malware-dev/MDK-SE/wiki/Block-Groups)
     * [Terminal Properties and Actions](https://github.com/malware-dev/MDK-SE/wiki/Terminal-Properties-and-Actions)
     * [The Running Programmable Block](https://github.com/malware-dev/MDK-SE/wiki/The-Running-Programmable-Block)
     * [The Runtime](https://github.com/malware-dev/MDK-SE/wiki/The-Runtime)

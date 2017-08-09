@@ -3,9 +3,14 @@ So you've found that perfect script on the workshop, and you really wanna have a
 The trick is understanding [the anatomy of a script](https://github.com/malware-dev/MDK-SE/wiki/The-Anatomy-of-a-Script). An SE script _needs_ the outside wrapper in order to work. So:
 
 ```csharp
-partial class Program : MyGridProgram
+// using...
+
+namespace IngameScript
 {
-    // simply paste the script inside this area.
+    partial class Program : MyGridProgram
+    {
+      // simply remove all the content in here, and paste the script here instead.
+    }
 }
 ```
 

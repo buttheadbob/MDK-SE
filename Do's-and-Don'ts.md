@@ -1,7 +1,7 @@
 ## Do:
 * reuse your lists. You can initialize (`new`) your lists once and reuse them for the rest of the script's lifetime, you don't need to reallocate every time, this is very slow.
 
-* design your own objects to follow the above guideline. Avoid allocation during runtime.
+* design your own objects to follow the above guideline. Avoid allocation during general runtime.
 
 * consider the fact that scripts take time to execute, leaving less time available for the rest of the game. The more you try to do, the more it will impact the game. If your script is just something you're gonna run in your single player game, you have much more time available than if you are going to use your script on a multiplayer server: Other players are bound to use scripts too. Advanced scripters might want to run their operations over multiple ticks using tricks like [yield-based state machines](https://github.com/malware-dev/MDK-SE/wiki/Advanced:-Easy-and-Powerful-State-Machine-Using-%22yield-return%22).
 

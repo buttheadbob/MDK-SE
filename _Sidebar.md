@@ -12,7 +12,7 @@
     * [The Storage String](https://github.com/malware-dev/MDK-SE/wiki/The-Storage-String)
     * [Your First Script](https://github.com/malware-dev/MDK-SE/wiki/Your-First-Script)
     * [Debugging Your Scripts](https://github.com/malware-dev/MDK-SE/wiki/Debugging-Your-Scripts)
-    * [Making Your Script Run Faster](https://github.com/malware-dev/MDK-SE/wiki/Making-Your-Script-Run-Faster)
+    * [Do's and Don'ts](https://github.com/malware-dev/MDK-SE/wiki/Do's-and-Don'ts)
     * [Advanced: The EntityId](https://github.com/malware-dev/MDK-SE/wiki/The-Entity-Id)
     * [Advanced: Easy and Powerful State Machine Using "yield return"](https://github.com/malware-dev/MDK-SE/wiki/Advanced:-Easy-and-Powerful-State-Machine-Using-%22yield-return%22)
 * [Mixin Projects (Shared Projects)](https://github.com/malware-dev/MDK-SE/wiki/Mixin-Projects)

@@ -57,7 +57,7 @@ public void Save()
 {
 }
 ```
-The Save method is called whenever the game is saved, or right before you recompile your script. Here you can store any data you need to persist between play sessions.
+The Save method is called whenever the game is saved, or right before you recompile your script. Here you can store any data you need to persist between play sessions. See [The Storage String](https://github.com/malware-dev/MDK-SE/wiki/The-Storage-String) for more details on how to do this.
 
 This save method is also optional.
 

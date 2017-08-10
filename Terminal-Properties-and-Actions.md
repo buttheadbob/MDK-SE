@@ -13,12 +13,20 @@ Here I'm retrieving the color of an interior light. Note that I did _not_ specif
 Similarily, you can _set_ the value of a terminal property by calling the method `SetValue<T>`.
 ```csharp
 IMyTerminalBlock block = GridTerminalSystem.GetBlockWithName("Interior Light");
-block.SetValue<Color>(Color.Red);
+block.SetValue<Color>("Color", Color.Red);
 ```
 This code will change the color of the light to red.
 
 #### Listing Available Terminal Properties
-_example pending_
+The following example lists out the IDs of all the terminal properties in the block.
+```csharp
+List<ITerminalProperty> properties = new List<ITerminalProperty>();
+block.GetProperties(properties);
+foreach (var property in properties)
+{
+    Echo(property.Id);
+}
+```
 
 #### Terminal Actions
 Terminal actions are the same actions you see when dragging a block from the block area to a toolbar in a sensor, timer block, button panel etc. 
@@ -31,6 +39,7 @@ block.ApplyAction("Open_On");
 This particular action will open the door retrieved. Note again that if the block you retrieve does not have the action specified, your script will crash with a `NullReferenceException`.
 
 #### Listing Available Terminal Actions
+The following example lists out the IDs and display text of all the actions in the block.
 ```csharp
 List<ITerminalAction> actions = new List<ITerminalAction>();
 block.GetActions(actions);

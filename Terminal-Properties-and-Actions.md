@@ -31,4 +31,11 @@ block.ApplyAction("Open_On");
 This particular action will open the door retrieved. Note again that if the block you retrieve does not have the action specified, your script will crash with a `NullReferenceException`.
 
 #### Listing Available Terminal Actions
-_example pending_
+```csharp
+List<ITerminalAction> actions = new List<ITerminalAction>();
+block.GetActions(actions);
+foreach (var action in actions)
+{
+    Echo($"{action.Id}: {action.Name}");
+}
+```

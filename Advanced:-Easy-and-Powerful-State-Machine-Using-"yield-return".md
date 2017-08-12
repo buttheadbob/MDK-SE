@@ -38,11 +38,16 @@ public void Main(string argument)
     // If there is an active state machine, run its next instruction set.
     if (_stateMachine != null) 
     {
-        // If there are no more instructions, or the current value of the enumerator is false,
-        // we stop and release the state machine.
-        if (!_stateMachine.MoveNext() || !_stateMachine.Current) 
+        // If there are no more instructions, we stop and release the state machine.
+        if (!_stateMachine.MoveNext())
         {
             _stateMachine.Dispose();
+
+            // In our case we just want to run this once, so we set the state machine
+            // variable to null. But if we wanted to continously run the same method, we
+            // could as well do
+            // _stateMachine = RunStuffOverTime();
+            // instead.
             _stateMachine = null;
         } 
         else 
@@ -63,14 +68,10 @@ public IEnumerator<bool> RunStuffOverTime()
     // Then we will tell the script to stop execution here and let the game do it's
     // thing. The time until the code continues on the next line after this yield return
     // depends  on your State Machine Execution and the timer setup.
-    // I have chosen the simplest form of state machine here. A return value of
-    // true will tell the script to execute the next step the next time the timer is
-    // invoked. A return value of false will tell the script to halt execution and not
-    // continue. This is actually not really necessary, you could have used the
-    // statement
-    //      yield break;
-    // to do the same. However I wanted to demonstrate how you can use the return
-    // value of the enumerable to control execution.
+    // The `true` portion is there simply because an enumerator needs to return a value
+    // per item, in our case the value simply has no meaning at all. You _could_ utilize
+    // it for a more advanced scheduler if you want, but that is beyond the scope of this
+    // tutorial.
     yield return true;
 
     int i = 0;

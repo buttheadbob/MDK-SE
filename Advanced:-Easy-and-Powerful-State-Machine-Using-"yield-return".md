@@ -1,4 +1,4 @@
-The [yielding enumerator](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/yield) enables some really powerful state machine programming.
+The [yielding enumerator](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/yield) enables some really powerful state machine programming. Before you continue, you should read about the keyword so you understand what it's _true_ purpose is. We're gonna exploit it in a somewhat unintended way!
 
 To begin; place a programmable block, a timer block (simply named Timer Block) set up only to run the programmable block with no argument (don't use "with default argument"), an interior light (simply named Interior Light) and an LCD Panel set up to display its public text.
 

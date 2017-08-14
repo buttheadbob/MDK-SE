@@ -36,7 +36,7 @@ These are the properties and methods available to you from a block group:
     ```csharp
     // Retrieve a named group
     IMyBlockGroup group = GridTerminalSystem.GetBlockGroupWithName("A Group");
-    // Create a list containing all interior lights in the system, but store them
+    // Create a list containing all interior lights in the group, but store them
     // in a generic list containing blocks of the IMyTerminalBlock type
     List<IMyTerminalBlock> lights = new List<IMyTerminalBlock>();
     // Fetch the blocks from that group. Now we _do_ need to specify the block

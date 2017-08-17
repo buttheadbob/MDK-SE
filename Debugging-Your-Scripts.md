@@ -9,7 +9,7 @@ The reasoning for this is simple: Debuggable scripts run _a lot_ slower than opt
 So... We're still going to have bugs, how can we trace them?
 
 ### Echo
-Let's start simple, with the `Echo`. This is a method belonging to the scripts base class, `MyGridProgram` (it's a delegate property actually, but [I'll get back to that](#echo-performance-and-tricks). This method can be used to output text to the programmable block's detail area. For instance, this:
+Let's start simple, with the `Echo`. This is a method belonging to the scripts base class, `MyGridProgram` (it's a delegate property actually, but [I'll get back to that](#echo-performance-and-tricks)). This method can be used to output text to the programmable block's detail area. For instance, this:
 
 ```csharp
 public void Main() 

@@ -59,7 +59,9 @@ As mentioned in the comment, the `throw` statement rethrows the same exception t
 When running this script, this is what will be shown in the programmable block's Details view:
 
 _pending: example image showing the text in the detail area_
+_pending: explanation of the lines of the stack trace_
 
+Unfortunately even this method is inexact. The compiler optimizer is rather clever. Sometimes it takes some of your smaller methods and bakes them into larger methods, because it deems that to be faster. This means that you'll not see that particular method in the stack trace, because as far as the _compiled_ code goes, it doesn't exist. This _will_ give you a relatively decent idea where to start looking though.
 
 ### Echo, performance, and tricks
 Unfortunately there's a slight caveat to using `Echo` a lot. In solo play there's little to no issue, but in multiplayer the text needs to be synchronized from the server where the script is running and to your client. This takes time. If a lot of scripts are echoing a lot of text every frame, it's going to have an impact. For this reason you shouldn't Echo everything always. This is where the thing I mentioned earlier comes into play: `Echo` is actually a property. The method called can be replaced with whatever you want. For instance, if you have lots of diagnostic echoes in your script and want to keep it around for later, you can do this:

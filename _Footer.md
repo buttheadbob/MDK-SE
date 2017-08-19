@@ -1,1 +1,1 @@
-Do you have any comments, suggestions for improvements or other questions? Is there something I can improve, or have I made a mistake? Please [add an issue here](https://github.com/malware-dev/MDK-SE/issues), and prefix your issue title with Wiki. Thank you, your help will be very appreciated!
+Do you have questions, comments, suggestions for improvements? Is there something I can improve? Did I made a mistake? Please [add an issue here](https://github.com/malware-dev/MDK-SE/issues), and prefix your issue title with Wiki. Thank you, your help will be very appreciated!

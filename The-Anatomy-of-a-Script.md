@@ -22,7 +22,7 @@ namespace IngameScript
     }
 }
 ```
-The first you need to be aware of, is that the namespace and the `partial class Program : MyGridProgram` parts is _not_ a part of the programmable block script. Only the parts _inside_ the Program class is actually used when this script project is deployed to Space Engineers. The reason is that Space Engineers need strict control of what a script class _is_. A script class is _always_ named `Program`, and it's _always_ inherited from `MyGridProgram`. 
+The first you need to be aware of, is that the namespace and the `partial class Program : MyGridProgram` parts is _not_ a part of the programmable block script. Only the parts _inside_ the Program class is actually used when this script project is deployed to Space Engineers. The reason is that Space Engineers need strict control of what a script class _is_. A script class is _always_ named `Program`, and it's _always_ inherited from `MyGridProgram`. Space Engineers will add these parts to your script behind the scene. If you're just using the ingame editor, a normal text editor or something like that, you won't need these additions.
 
 ## The General Section (even if you don't use MDK)
 

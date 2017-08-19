@@ -68,11 +68,11 @@ Unfortunately there's a slight caveat to using `Echo` a lot. In solo play there'
 ```csharp
 public Program() 
 {
-    Echo = () => {};
+    Echo = text => {};
 }
 ```
 
-The part `() => {}` is called a [lambda](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-operator). This one creates a method without an argument, and which does nothing on execution. This will effectively make _Echo_ do nothing. Voila, any performance hit by your echoes are now gone - but you can switch it back on simply by removing the line above!
+The part `text => {}` is called a [lambda](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-operator). This one creates a method with a single string argument named `text`, and which does nothing on execution. This will effectively make _Echo_ do nothing. Voila, any performance hit by your echoes are now gone - but you can switch it back on simply by removing the line above!
 
 Another neat trick you can do because of this, is to reroute your echo.
 

@@ -27,29 +27,54 @@ However to provide full coverage you'd need Echo _all over the place_. It'd be n
 ### Stack Trace
 A **stack trace** is a description showing you the route a call has made at the error point. There is actually a way to get at least a limited stack trace out of Space Engineers, this should help you narrow down at least what code member was running when the error occurred. You can do this by adding a `try/catch` to the main callback points of your script - those being `Program()`, `Save()`, and most importantly `Main()`.
 
+For our example, let's start with a simple example _without_ any stack tracing.
 ```csharp
-public void ATestMethod()
-{
-    // Simulate an exception happening by throwing one ourselves
-    throw new Exception("Boom!");
+public void Main()  
+{ 
+    var block = GridTerminalSystem.GetBlockWithName("I Don't Exist");
+    ShowBlockInfo(block);
 }
 
-public void Main() 
+public void ShowBlockInfo(IMyTerminalBlock block)
 {
+    // Let's say this method shows various information about the given
+    // block.
+    // We'll just print it's name in this example for simplicity's sake.
+    Echo(block.CustomName);
+}
+```
+Provided you _do not_ add a block named `I Don't Exist`, this program will obviously fail, since it wouldn't be able to retrieve said block. This means that the following will be the result:
+
+![No Stack Trace](https://github.com/malware-dev/MDK-SE/blob/master/images/pb-nostacktrace.jpg)
+
+That's less than helpful. We know that some object was null somewhere, but that's it. To combat this, we need to add a little bit of code to our example:
+
+```csharp
+public void Main()  
+{ 
     try
     {
-        // Call the test method.
-        ATestMethod();
+        // This is the old Main content.
+        var block = GridTerminalSystem.GetBlockWithName("I Don't Exist");
+        ShowBlockInfo(block);
     }
     catch (Exception e)
     {
         // Dump the exception content to the 
         Echo("An error occurred during script execution.");
-        Echo($"Exception: {e}");
+        Echo($"Exception: {e}\n---");
 
         // Rethrow the exception to make the programmable block halt execution properly
         throw;
     }
+}
+
+public void ShowBlockInfo(IMyTerminalBlock block)
+{
+    // Let's say this method shows various information about the given
+    // block.
+    // We'll just print it's name in this example for simplicity's sake.
+    Echo(block.CustomName);
 }
 ```
 As mentioned in the comment, the `throw` statement rethrows the same exception to force the PB to shut down as it normally would. I recommend doing this because it's highly likely your script is in an undefined state at this point, even if you've tried to take errors into account.
@@ -58,7 +83,24 @@ When running this script, this is what will be shown in the programmable block's
 
 ![Stacktrace](https://github.com/malware-dev/MDK-SE/blob/master/images/pb-stacktrace.jpg)
 
-The last two lines, the `Caught exception...` line, that's how the programmable block itself displays errors. Not really helpful. The rest of the output comes from our changes in the script, and this provides more information. It tells us what exception occurred (`System.Exception`), the specific error message (`Boom!`) and then the stack trace I've been talking about. The first line `at Program.ATestMethod()` tells you which _method_ the error happened in. And it tells you that this particular `ATestMethod` call was run from `Program.Main()`. Now we know which method(s) we need to decorate with Echo's, we don't need to fill our application up completely.
+Yeah. Sorry. Seems like there's a bug with the word wrapper at the time of writing this tutorial. Let me unjumble that for you:
+```
+An error occurred during script execution.
+Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Program.ShowBlockInfo(IMyTerminalBlock block)
+   at Program.Main()
+---
+Caught exception during execution of script:Object reference not set to an instance of an object.
+```
+The last line, after '---', is obviously the same as was shown earlier so we'll simply ignore that. The rest of the output comes from our changes in the script, and this provides more information. It tells us:
+
+* What exception type occurred (`System.NullReferenceException`)
+* The specific error message (`Object reference not set to an instance of an object.`) 
+* The first line `at Program.ShowBlockInfo(IMyTerminalBlock block)` tells you which _method_ the error happened in.
+* The second line `at Program.Main()` tells us where the method in the previous line was called from.
+* If the call chain was deeper, we'd be getting more of these lines.
+
+Now we know which method(s) we need to decorate with Echo's, we don't need to fill our application up completely.
 
 Unfortunately even this method is inexact. The compiler optimizer is rather clever. Sometimes it takes some of your smaller methods and bakes them into larger methods, because it deems that to be faster. This means that you'll not see that particular method in the stack trace, because as far as the _compiled_ code goes, it doesn't exist. This _will_ give you a relatively decent idea where to start looking though.
 

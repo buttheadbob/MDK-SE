@@ -1,5 +1,6 @@
 * [Home](https://github.com/malware-dev/MDK-SE/wiki/)
 * [Getting Started](https://github.com/malware-dev/MDK-SE/wiki/Getting-Started)
+* [Known issue when using "Lightweight Solution Load"](https://github.com/malware-dev/MDK-SE/wiki/Known-issue-when-using-%22Lightweight-Solution-Load%22)
 * [Deploying Your Script](https://github.com/malware-dev/MDK-SE/wiki/Deploying-Your-Script)
 * [Script Project Settings](https://github.com/malware-dev/MDK-SE/wiki/Script-Project-Settings)
 * [Quick Introduction to Space Engineers Ingame Scripts](https://github.com/malware-dev/MDK-SE/wiki/Quick-Introduction-to-Space-Engineers-Ingame-Scripts)

@@ -1,5 +1,3 @@
-_This tutorial is still being written, and certain example code has yet to be properly tested. Thank you for your patience!_
-
 If there's one thing that is certain about being a programmer, it is that you will make mistakes. Bugs are just part of the job. Usually in IDEs like Visual Studio you can enable a "Debug Mode" though, which will give you file names and line numbers, and even breakpoints which enables you to stop at selected points and step-by-step the code to see what went wrong.
 
 _None_ of which is available for Space Engineers ingame scripts.
@@ -20,7 +18,7 @@ public void Main()
 
 results in this:
 
-_pending: example image showing the text in the detail area_
+![Hello World](https://github.com/malware-dev/MDK-SE/blob/master/images/pb-echo.jpg)
 
 By placing outputs like this at strategic locations in your code, you can figure out how far it goes before your error occurs - and in that way narrow down your search range.
 
@@ -58,8 +56,9 @@ As mentioned in the comment, the `throw` statement rethrows the same exception t
 
 When running this script, this is what will be shown in the programmable block's Details view:
 
-_pending: example image showing the text in the detail area_
-_pending: explanation of the lines of the stack trace_
+![Stacktrace](https://github.com/malware-dev/MDK-SE/blob/master/images/pb-stacktrace.jpg)
+
+The last two lines, the `Caught exception...` line, that's how the programmable block itself displays errors. Not really helpful. The rest of the output comes from our changes in the script, and this provides more information. It tells us what exception occurred (`System.Exception`), the specific error message (`Boom!`) and then the stack trace I've been talking about. The first line `at Program.ATestMethod()` tells you which _method_ the error happened in. And it tells you that this particular `ATestMethod` call was run from `Program.Main()`. Now we know which method(s) we need to decorate with Echo's, we don't need to fill our application up completely.
 
 Unfortunately even this method is inexact. The compiler optimizer is rather clever. Sometimes it takes some of your smaller methods and bakes them into larger methods, because it deems that to be faster. This means that you'll not see that particular method in the stack trace, because as far as the _compiled_ code goes, it doesn't exist. This _will_ give you a relatively decent idea where to start looking though.
 

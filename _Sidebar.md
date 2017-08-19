@@ -1,7 +1,7 @@
 * [Home](https://github.com/malware-dev/MDK-SE/wiki/)
 * [Getting Started](https://github.com/malware-dev/MDK-SE/wiki/Getting-Started)
 * [Utility Class or Extension Class?](https://github.com/malware-dev/MDK-SE/wiki/Utility-Class-or-Extension-Class%3F)
-* [Deploying Your Script](https://github.com/malware-dev/MDK-SE/wiki/Deploying-Your-Script)
+* [Deploying Your Script to Space Engineers](https://github.com/malware-dev/MDK-SE/wiki/Deploying-Your-Script-to-Space-Engineers)
 * [Known issue when using "Lightweight Solution Load"](https://github.com/malware-dev/MDK-SE/wiki/Known-issue-when-using-%22Lightweight-Solution-Load%22)
 * [Script Project Settings](https://github.com/malware-dev/MDK-SE/wiki/Script-Project-Settings)
 * [Quick Introduction to Space Engineers Ingame Scripts](https://github.com/malware-dev/MDK-SE/wiki/Quick-Introduction-to-Space-Engineers-Ingame-Scripts)

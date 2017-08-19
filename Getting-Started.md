@@ -38,6 +38,6 @@ Note the `Location` box. That is where your solution and project will be stored 
 
 Press **OK** to create your project.
 
-You may now write your script directly in this class if you wish. If your scripts are not too large, this is quite fine. However this extension has another couple of tricks up its sleeve for the slightly more advanced users. Go back to the [MDK/SE Wiki Home](https://github.com/malware-dev/MDK-SE/wiki) to find out more.
+You may now write your script directly in this class if you wish. If your scripts are not too large, this is quite fine. However this extension has another couple of [tricks up its sleeve](https://github.com/malware-dev/MDK-SE/wiki/Utility-Class-or-Extension-Class%3F) for the slightly more advanced users.
 
 Happy Scripting!

@@ -63,7 +63,7 @@ The last two lines, the `Caught exception...` line, that's how the programmable 
 Unfortunately even this method is inexact. The compiler optimizer is rather clever. Sometimes it takes some of your smaller methods and bakes them into larger methods, because it deems that to be faster. This means that you'll not see that particular method in the stack trace, because as far as the _compiled_ code goes, it doesn't exist. This _will_ give you a relatively decent idea where to start looking though.
 
 ### Echo, performance, and tricks
-Unfortunately there's a slight caveat to using `Echo` a lot. In solo play there's little to no issue, but in multiplayer the text needs to be synchronized from the server where the script is running and to your client. This takes time. If a lot of scripts are echoing a lot of text every frame, it's going to have an impact. For this reason you shouldn't Echo everything always. This is where the thing I mentioned earlier comes into play: `Echo` is actually a property. The method called can be replaced with whatever you want. For instance, if you have lots of diagnostic echoes in your script and want to keep it around for later, you can do this:
+Unfortunately there's a slight caveat to using `Echo` a lot. In solo play there's little to no issue, but in multiplayer the text needs to be synchronized from the server where the script is running and to your client. This takes time. If a lot of scripts are echoing a lot of text every frame, it's going to have an impact. For this reason you shouldn't Echo everything always. This is where the thing I mentioned earlier comes into play: `Echo` is actually a property containing a [delegate](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/), specifically one of the [`Action<string>`](https://msdn.microsoft.com/en-us/library/018hxwa8(v=vs.110).aspx). The method called can be replaced with whatever you want. For instance, if you have lots of diagnostic echoes in your script and want to keep it around for later, you can do this:
 
 ```csharp
 public Program() 
@@ -72,7 +72,7 @@ public Program()
 }
 ```
 
-This will effectively make Echo do _nothing_. Voila, any performance hit by your echoes are now gone - but you can switch it back on simply by removing the line above!
+The part () => {} [is called a lambda](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-operator). This one is essentially representing a method without an argument which does notihg. This will effectively make _Echo_ do nothing. Voila, any performance hit by your echoes are now gone - but you can switch it back on simply by removing the line above!
 
 Another neat trick you can do because of this, is to reroute your echo.
 

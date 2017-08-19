@@ -72,7 +72,7 @@ public Program()
 }
 ```
 
-The part () => {} [is called a lambda](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-operator). This one is essentially representing a method without an argument which does notihg. This will effectively make _Echo_ do nothing. Voila, any performance hit by your echoes are now gone - but you can switch it back on simply by removing the line above!
+The part () => {} is called a [lambda](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-operator). This one is essentially representing a method without an argument which does notihg. This will effectively make _Echo_ do nothing. Voila, any performance hit by your echoes are now gone - but you can switch it back on simply by removing the line above!
 
 Another neat trick you can do because of this, is to reroute your echo.
 

@@ -19,5 +19,4 @@
     * [Advanced: Easy and Powerful State Machine Using "yield return"](https://github.com/malware-dev/MDK-SE/wiki/Advanced:-Easy-and-Powerful-State-Machine-Using-%22yield-return%22)
 * [Adapting Existing Scripts](https://github.com/malware-dev/MDK-SE/wiki/Adapting-Existing-Scripts)
 * [Mixin Projects (Shared Projects)](https://github.com/malware-dev/MDK-SE/wiki/Mixin-Projects)
-* [Advanced: Utility and Extension Classes](https://github.com/malware-dev/MDK-SE/wiki/Utility-and-Extension-Classes)
 * [Advanced: The Minifier](https://github.com/malware-dev/MDK-SE/wiki/The-Minifier)

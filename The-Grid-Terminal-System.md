@@ -95,7 +95,7 @@ public class SomeUsefulSubclass
 {
     Program _program;
 
-    public AirlockSystem(Program program) 
+    public SomeUsefulSubclass(Program program) 
     {
         _program = program;
     }

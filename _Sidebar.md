@@ -20,3 +20,4 @@
 * [Adapting Existing Scripts](https://github.com/malware-dev/MDK-SE/wiki/Adapting-Existing-Scripts)
 * [Mixin Projects (Shared Projects)](https://github.com/malware-dev/MDK-SE/wiki/Mixin-Projects)
 * [Advanced: The Minifier](https://github.com/malware-dev/MDK-SE/wiki/The-Minifier)
+* [Advanced: Setting up Visual Studio for MDK contribution](https://youtu.be/J_bLNULs7Ck)

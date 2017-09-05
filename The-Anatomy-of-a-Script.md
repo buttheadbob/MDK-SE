@@ -76,3 +76,24 @@ public void Main()
 The Main method is the main entry point of your script. It might be called many times during a script's lifetime, depending on what your script is and how it is set up.
 This method is required, obviously.
 The argument is passed from the game (depending on your toolbar setup) to your script, enabling a single script to do a bunch of different things. You can set this argument by dragging your programmable block onto a button panel, sensor or timer toolbar (or any other device toolbar except your suit) and selecting "Run". You will be presented with an input box where you can type in what you want to be passed to your script. It will be passed verbatim, Keep that in mind.
+
+#### The limitations
+This is a game, obviously, so there needs to be limitations. There are three distinct limitations in place for a programmable block script.
+
+The first is the the size of the script itself. No scripts can have any more than 100 000 characters.
+
+The second is what is called the "instruction counter". You may only have a maximum of 50000 code junctions per single run in your script. A code junction includes things like method calls, switches, conditional, loops and similar. Simple statements like 1+1 does not increase this count. **note that this is only a tool**. You should always strive to execute as little as possible code per run as possible. Remember, the game has only about 16 milliseconds per frame to do _everything_, including game logic, physics, rendering and _all_ scripts in your world. Every nanosecond counts!
+
+The third limitation is how much of the .NET framework you have access to. Obviously giving full access to the framework is dangerous, because then people could do bad things to others' computers. This is why Space Engineers uses a whitelist to restrict which parts of the framework you have access to. 
+
+If you use [MDK](https://github.com/malware-dev/MDK-SE/wiki/Getting-Started), it will tell you if you try to reference a type or member that is not allowed. You can try this now by creating a new MDK project, and add this:
+
+```csharp
+public void Main()
+{
+    System.Threading.Thread thread;
+}
+```
+
+With the help of the MDK extension, Visual Studio will mark this with an error telling you that the type `System.Threading.Thread` is prohibited.
+

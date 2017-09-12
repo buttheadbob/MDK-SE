@@ -48,3 +48,5 @@ foreach (var action in actions)
     Echo($"{action.Id}: {action.Name}");
 }
 ```
+
+Or, you could just [search the list I've already generated for you](https://github.com/malware-dev/MDK-SE/wiki/List-Of-Terminal-Properties-and-Actions).

@@ -326,7 +326,7 @@
 |-|-|
 |ControlThrusters|Control thrusters On/Off|
 |ControlWheels|Control wheels On/Off|
-|DampenersOverride|Inertia dampeners on/ off On/Off|
+|DampenersOverride|Inertia dampeners On/Off|
 |HandBrake|Handbrake On/Off|
 |HorizonIndicator|Show horizon and altitude On/Off|
 |MainCockpit|Main cockpit On/Off|
@@ -414,7 +414,7 @@
 |-|-|
 |ControlThrusters|Control thrusters On/Off|
 |ControlWheels|Control wheels On/Off|
-|DampenersOverride|Inertia dampeners on/ off On/Off|
+|DampenersOverride|Inertia dampeners On/Off|
 |HandBrake|Handbrake On/Off|
 |HorizonIndicator|Show horizon and altitude On/Off|
 |MainCockpit|Main cockpit On/Off|
@@ -1489,7 +1489,7 @@
 |CollisionAvoidance_On|Collision avoidance On|
 |ControlThrusters|Control thrusters On/Off|
 |ControlWheels|Control wheels On/Off|
-|DampenersOverride|Inertia dampeners on/ off On/Off|
+|DampenersOverride|Inertia dampeners On/Off|
 |DecreaseSpeedLimit|Decrease Speed limit|
 |DockingMode|Precision Mode On/Off|
 |DockingMode_Off|Precision Mode Off|
@@ -1652,7 +1652,7 @@
 |-|-|
 |ControlThrusters|Control thrusters On/Off|
 |ControlWheels|Control wheels On/Off|
-|DampenersOverride|Inertia dampeners on/ off On/Off|
+|DampenersOverride|Inertia dampeners On/Off|
 |HandBrake|Handbrake On/Off|
 |HorizonIndicator|Show horizon and altitude On/Off|
 |MainCockpit|Main cockpit On/Off|

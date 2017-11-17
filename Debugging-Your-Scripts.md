@@ -127,7 +127,7 @@ public Program()
     Echo = EchoToLCD;
 
     // Fetch a log text panel
-    _logOutput = GridTerminalSystem.GetBlockWithName("Log LCD") as IMyTextBlock;
+    _logOutput = GridTerminalSystem.GetBlockWithName("Log LCD") as IMyTextPanel;
 }
 
 public void EchoToLCD(string text)

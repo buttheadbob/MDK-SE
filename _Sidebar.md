@@ -2,6 +2,7 @@
 * [Getting Started](https://github.com/malware-dev/MDK-SE/wiki/Getting-Started)
 * [The Program Wrapper And Why You Need It](https://github.com/malware-dev/MDK-SE/wiki/The-Program-Wrapper-And-Why-You-Need-It)
 * [Utility Class or Extension Class?](https://github.com/malware-dev/MDK-SE/wiki/Utility-Class-or-Extension-Class)
+* [Continuous Running No Timers Needed](https://github.com/malware-dev/MDK-SE/wiki/Continuous-Running-No-Timers-Needed.md)
 * [Deploying Your Script to Space Engineers](https://github.com/malware-dev/MDK-SE/wiki/Deploying-Your-Script-to-Space-Engineers)
 * [Known issue when using "Lightweight Solution Load"](https://github.com/malware-dev/MDK-SE/wiki/Known-issue-when-using-Lightweight-Solution-Load)
 * [Script Project Settings](https://github.com/malware-dev/MDK-SE/wiki/Script-Project-Settings)

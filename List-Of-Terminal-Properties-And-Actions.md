@@ -1,5 +1,8 @@
 ## Overview
 
+**Note**: Terminal actions and properties are for all intents and purposes obsolete since all vanilla block interfaces now contain proper API access to all this information. It is highly recommended you use those for less overhead.
+
+
 [IMyAdvancedDoor](#imyadvanceddoor)  
 [IMyAirtightHangarDoor](#imyairtighthangardoor)  
 [IMyAirtightSlideDoor](#imyairtightslidedoor)  
@@ -489,12 +492,18 @@
 |-|-|
 |Add Top Part|Add Piston Head|
 |DecreaseLowerLimit|Decrease Minimum distance|
+|DecreaseMaxImpulseAxis|Decrease Max Impulse Axis|
+|DecreaseMaxImpulseNonAxis|Decrease Max Impulse NonAxis|
+|DecreaseSafetyDetach|Decrease Safety detach|
 |DecreaseUpperLimit|Decrease Maximum distance|
 |DecreaseVelocity|Decrease Velocity|
 |DecreaseWeld speed|Decrease Safety lock speed|
 |Extend|Extend|
 |Force weld|Safety lock override On/Off|
 |IncreaseLowerLimit|Increase Minimum distance|
+|IncreaseMaxImpulseAxis|Increase Max Impulse Axis|
+|IncreaseMaxImpulseNonAxis|Increase Max Impulse NonAxis|
+|IncreaseSafetyDetach|Increase Safety detach|
 |IncreaseUpperLimit|Increase Maximum distance|
 |IncreaseVelocity|Increase Velocity|
 |IncreaseWeld speed|Increase Safety lock speed|
@@ -504,6 +513,7 @@
 |ResetVelocity|Reset Velocity|
 |Retract|Retract|
 |Reverse|Reverse|
+|ShareInertiaTensor|Share inertia tensor On/Off|
 
 ### Properties
 
@@ -511,8 +521,12 @@
 |-|-|
 |Force weld|bool|
 |LowerLimit|float|
+|MaxImpulseAxis|float|
+|MaxImpulseNonAxis|float|
 |Name|StringBuilder|
 |OnOff|bool|
+|SafetyDetach|float|
+|ShareInertiaTensor|bool|
 |ShowInInventory|bool|
 |ShowInTerminal|bool|
 |ShowInToolbarConfig|bool|
@@ -904,7 +918,9 @@
 |Name|Description|
 |-|-|
 |ConnectGPS|Connect to coords|
+|DecreaseRange|Decrease Range|
 |Idle|Idle|
+|IncreaseRange|Increase Range|
 |isPerm|Permanent connection On/Off|
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
@@ -920,6 +936,7 @@
 |Name|StringBuilder|
 |OnOff|bool|
 |PBList|long|
+|Range|float|
 |ShowInInventory|bool|
 |ShowInTerminal|bool|
 |ShowInToolbarConfig|bool|
@@ -960,6 +977,7 @@
 |DecreaseBrakingTorque|Decrease Braking tor.|
 |DecreaseDisplacement|Decrease Rotor displacement|
 |DecreaseLowerLimit|Decrease Lower limit|
+|DecreaseSafetyDetach|Decrease Safety detach|
 |DecreaseTorque|Decrease Torque|
 |DecreaseUpperLimit|Decrease Upper limit|
 |DecreaseVelocity|Decrease Velocity|
@@ -969,6 +987,7 @@
 |IncreaseBrakingTorque|Increase Braking tor.|
 |IncreaseDisplacement|Increase Rotor displacement|
 |IncreaseLowerLimit|Increase Lower limit|
+|IncreaseSafetyDetach|Increase Safety detach|
 |IncreaseTorque|Increase Torque|
 |IncreaseUpperLimit|Increase Upper limit|
 |IncreaseVelocity|Increase Velocity|
@@ -978,6 +997,7 @@
 |OnOff_On|Toggle block On|
 |ResetVelocity|Reset Velocity|
 |Reverse|Reverse|
+|ShareInertiaTensor|Share inertia tensor On/Off|
 
 ### Properties
 
@@ -989,6 +1009,8 @@
 |LowerLimit|float|
 |Name|StringBuilder|
 |OnOff|bool|
+|SafetyDetach|float|
+|ShareInertiaTensor|bool|
 |ShowInInventory|bool|
 |ShowInTerminal|bool|
 |ShowInToolbarConfig|bool|
@@ -1010,6 +1032,7 @@
 |DecreaseBrakingTorque|Decrease Braking tor.|
 |DecreaseDisplacement|Decrease Rotor displacement|
 |DecreaseLowerLimit|Decrease Lower limit|
+|DecreaseSafetyDetach|Decrease Safety detach|
 |DecreaseTorque|Decrease Torque|
 |DecreaseUpperLimit|Decrease Upper limit|
 |DecreaseVelocity|Decrease Velocity|
@@ -1019,6 +1042,7 @@
 |IncreaseBrakingTorque|Increase Braking tor.|
 |IncreaseDisplacement|Increase Rotor displacement|
 |IncreaseLowerLimit|Increase Lower limit|
+|IncreaseSafetyDetach|Increase Safety detach|
 |IncreaseTorque|Increase Torque|
 |IncreaseUpperLimit|Increase Upper limit|
 |IncreaseVelocity|Increase Velocity|
@@ -1028,6 +1052,7 @@
 |OnOff_On|Toggle block On|
 |ResetVelocity|Reset Velocity|
 |Reverse|Reverse|
+|ShareInertiaTensor|Share inertia tensor On/Off|
 
 ### Properties
 
@@ -1039,6 +1064,8 @@
 |LowerLimit|float|
 |Name|StringBuilder|
 |OnOff|bool|
+|SafetyDetach|float|
+|ShareInertiaTensor|bool|
 |ShowInInventory|bool|
 |ShowInTerminal|bool|
 |ShowInToolbarConfig|bool|
@@ -1060,6 +1087,7 @@
 |DecreaseHeight|Decrease Height Offset|
 |DecreaseMaxSteerAngle|Decrease Steering Angle|
 |DecreasePower|Decrease Power|
+|DecreaseSafetyDetach|Decrease Safety detach|
 |DecreaseSpeed Limit|Decrease Speed limit|
 |DecreaseSteerReturnSpeed|Decrease Steer Return Speed|
 |DecreaseSteerSpeed|Decrease Steering Speed|
@@ -1072,6 +1100,7 @@
 |IncreaseHeight|Increase Height Offset|
 |IncreaseMaxSteerAngle|Increase Steering Angle|
 |IncreasePower|Increase Power|
+|IncreaseSafetyDetach|Increase Safety detach|
 |IncreaseSpeed Limit|Increase Speed limit|
 |IncreaseSteerReturnSpeed|Increase Steer Return Speed|
 |IncreaseSteerSpeed|Increase Steering Speed|
@@ -1090,6 +1119,7 @@
 |ResetSteerReturnSpeed|Reset Steer Return Speed|
 |ResetSteerSpeed|Reset Steering Speed|
 |ResetTravel|Reset Suspension Travel|
+|ShareInertiaTensor|Share inertia tensor On/Off|
 |Steering|Steering On/Off|
 
 ### Properties
@@ -1107,6 +1137,8 @@
 |OnOff|bool|
 |Power|float|
 |Propulsion|bool|
+|SafetyDetach|float|
+|ShareInertiaTensor|bool|
 |ShowInInventory|bool|
 |ShowInTerminal|bool|
 |ShowInToolbarConfig|bool|
@@ -1254,12 +1286,18 @@
 |-|-|
 |Add Top Part|Add Piston Head|
 |DecreaseLowerLimit|Decrease Minimum distance|
+|DecreaseMaxImpulseAxis|Decrease Max Impulse Axis|
+|DecreaseMaxImpulseNonAxis|Decrease Max Impulse NonAxis|
+|DecreaseSafetyDetach|Decrease Safety detach|
 |DecreaseUpperLimit|Decrease Maximum distance|
 |DecreaseVelocity|Decrease Velocity|
 |DecreaseWeld speed|Decrease Safety lock speed|
 |Extend|Extend|
 |Force weld|Safety lock override On/Off|
 |IncreaseLowerLimit|Increase Minimum distance|
+|IncreaseMaxImpulseAxis|Increase Max Impulse Axis|
+|IncreaseMaxImpulseNonAxis|Increase Max Impulse NonAxis|
+|IncreaseSafetyDetach|Increase Safety detach|
 |IncreaseUpperLimit|Increase Maximum distance|
 |IncreaseVelocity|Increase Velocity|
 |IncreaseWeld speed|Increase Safety lock speed|
@@ -1269,6 +1307,7 @@
 |ResetVelocity|Reset Velocity|
 |Retract|Retract|
 |Reverse|Reverse|
+|ShareInertiaTensor|Share inertia tensor On/Off|
 
 ### Properties
 
@@ -1276,8 +1315,12 @@
 |-|-|
 |Force weld|bool|
 |LowerLimit|float|
+|MaxImpulseAxis|float|
+|MaxImpulseNonAxis|float|
 |Name|StringBuilder|
 |OnOff|bool|
+|SafetyDetach|float|
+|ShareInertiaTensor|bool|
 |ShowInInventory|bool|
 |ShowInTerminal|bool|
 |ShowInToolbarConfig|bool|

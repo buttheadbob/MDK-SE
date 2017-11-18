@@ -35,7 +35,7 @@ public Program()
 
 ### Important: The number of ticks until next run is _not guaranteed_
 
-Due to how the game engine works, and how the game needs to attempt to schedule out script executions to avoid performance hits, setting these flags does _not guarantee_ that the given number of ticks are skipped before the next time your script is called. This means that you should consider the flag a polite suggestion more than an order. In a worst case scenario, rare but quite possible, the interval _could_ become near-double of your request. The exceptions are `UpdateFrequency.Update1`and `UpdateFrequencey.Once`, they are pretty much guaranteed.
+Due to how the game engine works, and how the game needs to attempt to schedule out script executions to avoid performance hits, setting these flags does _not guarantee_ that the given number of ticks are skipped before the next time your script is called. This means that you should consider the flag a polite suggestion more than an order. In a worst case scenario, rare but quite possible, the interval _could_ become near-double of your request. The exceptions are `UpdateFrequency.Update1`and `UpdateFrequency.Once`, they are pretty much guaranteed.
 
 
 ### UpdateType

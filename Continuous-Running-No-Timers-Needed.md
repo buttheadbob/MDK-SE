@@ -35,10 +35,10 @@ public Program()
 
 ### Important: The number of ticks until next run is _not guaranteed_
 
-Due to how the game engine works, and how the game needs to attempt to schedule out script executions to avoid performance hits, setting these flags does _not guarantee_ that the given number of ticks are skipped before the next time your script is called. This means that you should consider the flag a polite suggestion more than an order. In a worst case scenario, rare but quite possible, the interval _could_ become near-double of your request.
+Due to how the game engine works, and how the game needs to attempt to schedule out script executions to avoid performance hits, setting these flags does _not guarantee_ that the given number of ticks are skipped before the next time your script is called. This means that you should consider the flag a polite suggestion more than an order. In a worst case scenario, rare but quite possible, the interval _could_ become near-double of your request. The exception is the 1-tick and Once, they are pretty much guaranteed.
 
 
-###UpdateType
+### UpdateType
 
 Of course, there are many ways to run a script. It can be run from a button, a timer, a sensor...  and much more. For this reason it's important to know _how_ your Main function was called, so you can act accordingly. This is where the Main function's `updateType` argument comes into play.
 

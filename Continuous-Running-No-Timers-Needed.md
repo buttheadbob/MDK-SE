@@ -128,4 +128,22 @@ void RunCommand(string argument)
 }
 ```
 
+*But this is hard, I just want it to work.*
+Ok, then keep this in mind:
+Consider this part: 
+```csharp
+if ((updateType & ()) != 0) 
+{
+    // The code you want to run when the given update types are called should be placed here
+}
+``` 
+Simply see this as mandatory code, you don't really _need_ to understand it, but you need to keep it around. Combine every flag you want this conditional to trigger for, separate them with a `|` symbol. So if you want code to trigger when either the per-tick or per-100-tick automatic update is configured, you put those flags together like this `UpdateType.Update1 | UpdateType.Update100` and simply plug them into the `()` part in the code above, so it looks like this: 
+```csharp
+if ((updateType & (UpdateType.Update1 | UpdateType.Update100)) != 0)
+{
+    // The code you want to run when the given update types are called should be placed here
+}
+```
+Your conditional code will now run whenever the desired flags are set. That's really all you need to understand.
+
 You _do_ have the option of using the [`updateType.HasFlag`](https://docs.microsoft.com/en-us/dotnet/api/system.enum.hasflag?view=netframework-4.6.1#System_Enum_HasFlag_System_Enum_) method, but this has a significant performance impact and is not recommended.

@@ -128,8 +128,9 @@ void RunCommand(string argument)
 }
 ```
 
-*But this is hard, I just want it to work.*
-Ok, then keep this in mind:
+### But this is hard, I just want it to work.
+Yeah, well, some people just have trouble grasping the bitwise operations, there's nothing wrong with that. So let's try to simplify this a bit.  
+
 Consider this part: 
 ```csharp
 if ((updateType & ()) != 0) 

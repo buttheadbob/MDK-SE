@@ -51,10 +51,3 @@ Note the use of [int.TryParse](https://msdn.microsoft.com/en-us/library/f02979c7
 In the same vein, note that we add the [null-coalescing operator](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/null-conditional-operator) `??` to the line containing `_someTextDescription`. This is to handle the case where that field might be null, in which case we store an empty string instead.
 
 This method of using `Storage` should be enough for most smaller scripts.
-
----
-
-For the more advanced user, you might need a little more complicated storage. Let me help you on your way by providing 
-you with the helper classes I most commonly use: The `StorageDictionary`. and the `StorageConfig`.
-
-_adv. storage classes pending_

@@ -8,6 +8,8 @@
 ## Don't:
 * store the GridTerminalSystem. It can actually _change_ during runtime. If you store the instance, you'll eventually find yourself in a situation where it simply doesn't work - or worse - crashes your script.
 
+* fetch blocks every time a method is called. Prefetch and cache, because retrieving a block is a time-consuming operation.
+
 * use `static` fields or properties. Methods are fine, but static fields and properties are a potential source of memory leaks. Pass your instances around, don't be lazy.
 
 * allocate new objects in often running code. Memory allocation is relatively slow, and it will give the [garbage collector](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/) a lot of objects to deal with, slowing down execution.

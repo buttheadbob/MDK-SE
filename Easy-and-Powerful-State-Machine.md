@@ -2,9 +2,17 @@ The [yielding enumerator](https://docs.microsoft.com/en-us/dotnet/csharp/languag
 
 To begin; place a programmable block, a timer block (simply named Timer Block) set up only to run the programmable block with no argument (don't use "with default argument"), an interior light (simply named Interior Light) and an LCD Panel set up to display its public text.
 
+**When do I yield?**
+One of the more common question I've been getting since posting this little snippet is: When should I yield? How much can I do before waiting for the next tick?
+
+Unfortunately this is pretty much an unanswerable question, like asking "how long is a string?". This ties into the quite logical fact that the fastest running code is the code that never runs. So all the advice I can give is this: If you _can_ wait with an operation, then _wait_ with that operation.
+
+
+
 Copy the following script into the programmable block. The comments explain what is happening.
 
 **Remember to dispose your `IEnumerator` after use or it will come back to haunt you!**
+
 
 ```csharp
 IMyTimerBlock _timer;

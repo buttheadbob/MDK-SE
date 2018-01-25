@@ -997,6 +997,7 @@
 |OnOff_On|Toggle block On|
 |ResetVelocity|Reset Velocity|
 |Reverse|Reverse|
+|RotorLock|Rotor lock On/Off|
 |ShareInertiaTensor|Share inertia tensor On/Off|
 
 ### Properties
@@ -1009,6 +1010,7 @@
 |LowerLimit|float|
 |Name|StringBuilder|
 |OnOff|bool|
+|RotorLock|bool|
 |SafetyDetach|float|
 |ShareInertiaTensor|bool|
 |ShowInInventory|bool|
@@ -1052,6 +1054,7 @@
 |OnOff_On|Toggle block On|
 |ResetVelocity|Reset Velocity|
 |Reverse|Reverse|
+|RotorLock|Rotor lock On/Off|
 |ShareInertiaTensor|Share inertia tensor On/Off|
 
 ### Properties
@@ -1064,6 +1067,7 @@
 |LowerLimit|float|
 |Name|StringBuilder|
 |OnOff|bool|
+|RotorLock|bool|
 |SafetyDetach|float|
 |ShareInertiaTensor|bool|
 |ShowInInventory|bool|

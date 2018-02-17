@@ -14,7 +14,6 @@ Copy the following script into the programmable block. The comments explain what
 
 
 ```csharp
-IMyTimerBlock _timer;
 IMyInteriorLight _panelLight;
 IMyTextPanel _textPanel;
 IEnumerator<bool> _stateMachine;
@@ -22,26 +21,40 @@ IEnumerator<bool> _stateMachine;
 public Program() 
 {
     // Retrieve the blocks we're going to use.
-    _timer = GridTerminalSystem.GetBlockWithName("Timer Block") as IMyTimerBlock;
     _panelLight = GridTerminalSystem.GetBlockWithName("Interior Light") as IMyInteriorLight;
     _textPanel = GridTerminalSystem.GetBlockWithName("LCD Panel") as IMyTextPanel;
 
     // Initialize our state machine
     _stateMachine = RunStuffOverTime();
 
-    // Start the timer to run the first instruction set. Depending on your script, you may want to use
-    // TriggerNow rather than Start. Just be very careful with that, you can easily bog down your
-    // game that way.
-    _timer.ApplyAction("Start");
+    // Signal the programmable block to run again in the next tick. Be careful on how much you
+    // do within a single tick, you can easily bog down your game. The more ticks you do your
+    // operation over, the better.
+	//
+	// What is actually happening here is that we are _adding_ the Once flag to the frequencies.
+	// By doing this we can have multiple frequencies going at any time.
+    Runtime.UpdateFrequency |= UpdateFrequency.Once;
 }
 
-public void Main(string argument) 
+public void Main(string argument, UpdateType updateType) 
 {
     // Usually I verify that the argument is empty or a predefined value before running the state
     // machine. This way we can use arguments to control the script without disturbing the
     // state machine and its timing. For the purpose of this example however, I will omit this.
 
-    // ***MARKER: State Machine Execution
+	// We only want to run the state machine(s) when the update type includes the
+	// "Once" flag, to avoid running it more often than it should. It shouldn't run
+	// on any other trigger. This way we can combine state machine running with
+	// other kinds of execution, like tool bar commands, sensors or what have you.
+	if ((updateType & UpdateType.Once) == UpdateType.Once)
+	{
+		RunStateMachine();
+	}
+}
+
+// ***MARKER: State Machine Execution
+public void RunStateMachine()
+{
     // If there is an active state machine, run its next instruction set.
     if (_stateMachine != null) 
     {
@@ -59,9 +72,9 @@ public void Main(string argument)
         } 
         else 
         {
-            // The state machine has more work to do. Restart the timer. Again you might choose
-            // to use TriggerNow.
-            _timer.ApplyAction("Start");
+            // The state machine still has more work to do, so signal another run again, 
+            // just like at the beginning.
+            Runtime.UpdateFrequency |= UpdateFrequency.Once;
         }
     }
 }
@@ -70,7 +83,7 @@ public void Main(string argument)
 public IEnumerator<bool> RunStuffOverTime() 
 {
     // For the very first instruction set, we will just switch on the light.
-    _panelLight.RequestEnable(true);
+    _panelLight.Enabled = true;
 
     // Then we will tell the script to stop execution here and let the game do it's
     // thing. The time until the code continues on the next line after this yield return

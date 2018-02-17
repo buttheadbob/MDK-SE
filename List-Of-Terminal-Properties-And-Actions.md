@@ -641,12 +641,14 @@
 |DecreaseBlink Offset|Decrease Blink Offset|
 |DecreaseFalloff|Decrease Falloff|
 |DecreaseIntensity|Decrease Intensity|
+|DecreaseOffset|Decrease Offset|
 |DecreaseRadius|Decrease Radius|
 |IncreaseBlink Interval|Increase Blink Interval|
 |IncreaseBlink Lenght|Increase Blink Length|
 |IncreaseBlink Offset|Increase Blink Offset|
 |IncreaseFalloff|Increase Falloff|
 |IncreaseIntensity|Increase Intensity|
+|IncreaseOffset|Increase Offset|
 |IncreaseRadius|Increase Radius|
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
@@ -663,6 +665,7 @@
 |Falloff|float|
 |Intensity|float|
 |Name|StringBuilder|
+|Offset|float|
 |OnOff|bool|
 |Radius|float|
 |ShowInInventory|bool|
@@ -1086,30 +1089,24 @@
 |Name|Description|
 |-|-|
 |Add Top Part|Add Wheel|
-|DecreaseDamping|Decrease Damping|
+|AirShock|AirShock On/Off|
+|Braking|Brake On/Off|
 |DecreaseFriction|Decrease Friction|
 |DecreaseHeight|Decrease Height Offset|
 |DecreaseMaxSteerAngle|Decrease Steering Angle|
 |DecreasePower|Decrease Power|
 |DecreaseSafetyDetach|Decrease Safety detach|
 |DecreaseSpeed Limit|Decrease Speed limit|
-|DecreaseSteerReturnSpeed|Decrease Steer Return Speed|
-|DecreaseSteerSpeed|Decrease Steering Speed|
 |DecreaseStrength|Decrease Strength|
-|DecreaseTravel|Decrease Suspension Travel|
 |DecreaseWeld speed|Decrease Safety lock speed|
 |Force weld|Safety lock override On/Off|
-|IncreaseDamping|Increase Damping|
 |IncreaseFriction|Increase Friction|
 |IncreaseHeight|Increase Height Offset|
 |IncreaseMaxSteerAngle|Increase Steering Angle|
 |IncreasePower|Increase Power|
 |IncreaseSafetyDetach|Increase Safety detach|
 |IncreaseSpeed Limit|Increase Speed limit|
-|IncreaseSteerReturnSpeed|Increase Steer Return Speed|
-|IncreaseSteerSpeed|Increase Steering Speed|
 |IncreaseStrength|Increase Strength|
-|IncreaseTravel|Increase Suspension Travel|
 |IncreaseWeld speed|Increase Safety lock speed|
 |InvertPropulsion|Invert Propulsion On/Off|
 |InvertSteering|Invert Steering On/Off|
@@ -1120,9 +1117,6 @@
 |ResetHeight|Reset Height Offset|
 |ResetMaxSteerAngle|Reset Steering Angle|
 |ResetSpeed Limit|Reset Speed limit|
-|ResetSteerReturnSpeed|Reset Steer Return Speed|
-|ResetSteerSpeed|Reset Steering Speed|
-|ResetTravel|Reset Suspension Travel|
 |ShareInertiaTensor|Share inertia tensor On/Off|
 |Steering|Steering On/Off|
 
@@ -1130,7 +1124,8 @@
 
 |Name|Type|
 |-|-|
-|Damping|float|
+|AirShock|bool|
+|Braking|bool|
 |Force weld|bool|
 |Friction|float|
 |Height|float|
@@ -1149,10 +1144,7 @@
 |ShowOnHUD|bool|
 |Speed Limit|float|
 |Steering|bool|
-|SteerReturnSpeed|float|
-|SteerSpeed|float|
 |Strength|float|
-|Travel|float|
 |Weld speed|float|
 
 ## IMyOreDetector
@@ -1492,12 +1484,14 @@
 |DecreaseBlink Offset|Decrease Blink Offset|
 |DecreaseFalloff|Decrease Falloff|
 |DecreaseIntensity|Decrease Intensity|
+|DecreaseOffset|Decrease Offset|
 |DecreaseRadius|Decrease Radius|
 |IncreaseBlink Interval|Increase Blink Interval|
 |IncreaseBlink Lenght|Increase Blink Length|
 |IncreaseBlink Offset|Increase Blink Offset|
 |IncreaseFalloff|Increase Falloff|
 |IncreaseIntensity|Increase Intensity|
+|IncreaseOffset|Increase Offset|
 |IncreaseRadius|Increase Radius|
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
@@ -1514,6 +1508,7 @@
 |Falloff|float|
 |Intensity|float|
 |Name|StringBuilder|
+|Offset|float|
 |OnOff|bool|
 |Radius|float|
 |ShowInInventory|bool|
@@ -1995,6 +1990,7 @@
 
 |Name|Type|
 |-|-|
+|alignment|long|
 |BackgroundColor|Color|
 |ChangeIntervalSlider|float|
 |Font|long|

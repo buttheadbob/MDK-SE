@@ -2,7 +2,7 @@
 
 ## Configuration
 
-The simplest way to configure blocks and behavior in scripts is simply to hard-code the behavior. However some times - especially if you're planning to release your script for public use - there's a need to allow for user configuration of behavior. Keen introduced the Custom Data field specifically for this reason. This is a field available in the terminal of most (if not all) terminal blocks, where users can enter any text. Scripters can use this to their advantage by using this to have users enter configuration there instead of having to open the script and editing code.
+The simplest way to configure blocks and behavior in scripts is simply to hard-code the behavior. However some times - especially if you're planning to release your script for public use - there's a need to allow for user configuration of behavior. Keen introduced the Custom Data field specifically for this reason. This is a field available in the terminal of most (if not all) terminal blocks, where users can enter any text. Scripters can use this to their advantage by having their users enter configuration there instead of having to open the script and editing code.
 
 This field is accessed as a simple `String CustomData` property. For example, as you know, the currently running programmable block is accessed by the script property `Me`. So, to get to the custom data of the programmable block, you do this:
 
@@ -51,7 +51,8 @@ textToOutput=This text will be copied onto the target LCD.
 ```
 Now add an LCD panel too, make sure it's called "LCD Panel" - or change the name in the custom data above to match.
 
-Open the code editor of the programmable block and enter the following piece of code:
+Open the code editor of the programmable block and enter the following piece of code. Don't forget to read the explaining
+comments in the code.
 
 ```cs
 // Instantiate a shared instance of the parser
@@ -113,6 +114,9 @@ public void Main()
 }
 
 ```
+Feel free to change the values of the configuration (leave the section and key names alone) and see the results.
+
+### Type Conversions
 
 In the example above we see the use of `.ToBoolean();` and `.ToBoolean();` in relation to the `_ini.Get` calls. There are several type conversion methods are available for the configuration values. Each type has two variants: The To* and the TryGet*. The former will attempt to convert the value, and if it fails, it will simply fall back to the default value. The second will return a boolean which tells you if the conversion was successful or not. Use whichever suits your script best.
 

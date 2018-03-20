@@ -126,7 +126,7 @@ Feel free to change the values of the configuration (leave the section and key n
 
 ### Type Conversions
 
-In the example above we see the use of `.ToBoolean();` and `.ToBoolean();` in relation to the `_ini.Get` calls. There are several type conversion methods are available for the configuration values. Each type has two variants: The To* and the TryGet*. The former will attempt to convert the value, and if it fails, it will simply fall back to the default value. The second will return a boolean which tells you if the conversion was successful or not. Use whichever suits your script best.
+In the example above we see the use of `.ToBoolean();` and `.ToString();` in relation to the `_ini.Get` calls. There are several type conversion methods are available for the configuration values. Each type has two variants: The To* and the TryGet*. The former will attempt to convert the value, and if it fails, it will simply fall back to the default value. The second will return a boolean which tells you if the conversion was successful or not. Use whichever suits your script best.
 
 * `bool ToBoolean(bool defaultValue = default(bool))`
 * `bool TryGetBoolean(out bool value)`

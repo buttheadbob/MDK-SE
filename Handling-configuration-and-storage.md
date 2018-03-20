@@ -1,4 +1,12 @@
 ** WARNING : DESCRIBES CURRENTLY UNRELEASED FEATURE! **
+## Overview
+[Configuration](#configuration)  
+[The Basics](#thebasics)  
+[Type Conversions](#typeconversions)  
+[Find Blocks With Sections](#findblockswithsections)  
+[Saving to Storage](#savingtostorage)  
+[Saving to CustomData](#savingtocustomdata)
+
 
 ## Configuration
 
@@ -174,6 +182,7 @@ To support this use case there's a fast search method in `MyIni` which searches 
 GridTerminalSystem.GetBlocksOfType<IMyDoor>(doors, door => MyIni.HasSection(door.CustomData, "airlock"));
 ```
 
+
 ## Saving to Storage
 
 So far I've only been talking about the _reading_ of configuration. But `MyIni` can also be used to help you with persistant storage in the `Storage` property. Obviously reading is just a matter of adapting the examples above to work with this property instead.
@@ -229,6 +238,7 @@ public void Save()
     Storage = _ini.ToString();
 }
 ```
+
 
 ## Saving to CustomData
 

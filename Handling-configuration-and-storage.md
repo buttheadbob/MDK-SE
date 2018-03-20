@@ -21,7 +21,7 @@ public void Program()
 }
 ``` 
 
-However just a string is not very useful. In order to help dealing with configuration information more easily, we introduce the `MyIni` class. This class helps you parse and read strings in the old fashioned INI format:
+However just a string is not very useful. In order to help dealing with configuration information more easily, we introduce the `MyIni` class. This class helps you parse and read strings in [the old fashioned INI format](https://en.wikipedia.org/wiki/INI_file):
 
 ```ini
 [FirstDataSection]

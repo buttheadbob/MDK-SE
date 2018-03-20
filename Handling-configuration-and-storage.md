@@ -25,7 +25,7 @@ However just a string is not very useful. In order to help dealing with configur
 
 ```ini
 [FirstDataSection]
-#This is a comment. It is not parsed by the class.
+;This is a comment. It is not parsed by the class.
 SomeKey=The value of this key
 AnotherKey=Another value
 
@@ -36,13 +36,13 @@ SomeKey=15
 You get the idea. This is a very simple format, and it's easy to learn even for those without any coding skills. `MyIni` adds a little extra to this format though:
 ```ini
 [Section]
-#The following line is a special format which allows for multiline text in a single key:
+;The following line is a special format which allows for multiline text in a single key:
 MultiLine=
 |The first line of the value
 |The second line of the value
 |And so on
 
-#The next line terminates the ini stream, allowing for further custom content in customdata if desired:
+;The next line terminates the ini stream, allowing for further custom content in customdata if desired:
 ---
 ```
 

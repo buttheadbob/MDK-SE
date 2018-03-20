@@ -57,7 +57,7 @@ outputNow=true
 output=LCD Panel
 textToOutput=This text will be copied onto the target LCD.
 ```
-Now add an LCD panel too, make sure it's called "LCD Panel" - or change the name in the custom data above to match.
+Now add an LCD panel too, make sure it's called "LCD Panel" - or change the name in the programmable block's custom data to match.
 
 Open the code editor of the programmable block and enter the following piece of code. Don't forget to read the explaining
 comments in the code.

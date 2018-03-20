@@ -1,11 +1,11 @@
 ** WARNING : DESCRIBES CURRENTLY UNRELEASED FEATURE! **
 ## Overview
 [Configuration](#configuration)  
-[The Basics](#thebasics)  
-[Type Conversions](#typeconversions)  
-[Find Blocks With Sections](#findblockswithsections)  
-[Saving to Storage](#savingtostorage)  
-[Saving to CustomData](#savingtocustomdata)
+[The Basics](#the-basics)  
+[Type Conversions](#type-conversions)  
+[Find Blocks With Sections](#find-blocks-with-sections)  
+[Saving to Storage](#saving-to-storage)  
+[Saving to CustomData](#saving-to-customdata)
 
 
 ## Configuration

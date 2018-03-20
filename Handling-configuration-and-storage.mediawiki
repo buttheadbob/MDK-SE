@@ -1,5 +1,7 @@
 ** WARNING : DESCRIBES CURRENTLY UNRELEASED FEATURE! **
 
+## Configuration
+
 The simplest way to configure blocks and behavior in scripts is simply to hard-code the behavior. However some times - especially if you're planning to release your script for public use - there's a need to allow for user configuration of behavior. Keen introduced the Custom Data field specifically for this reason. This is a field available in the terminal of most (if not all) terminal blocks, where users can enter any text. Scripters can use this to their advantage by using this to have users enter configuration there instead of having to open the script and editing code.
 
 This field is accessed as a simple `String CustomData` property. For example, as you know, the currently running programmable block is accessed by the script property `Me`. So, to get to the custom data of the programmable block, you do this:
@@ -68,14 +70,14 @@ public Program()
     // Get the value of the "outputNow" key under the "demo" section.
     // Then, by calling ToBoolean(), we try to convert it into a
     // bool value.
-    _outputNow = cfg.Get("demo", "outputNow").ToBoolean();
+    _outputNow = _ini.Get("demo", "outputNow").ToBoolean();
     
     // Get the value of the "output" key. This time we just want the
     // string.
-    _outputName = cfg.Get("demo", "output").ToString();
+    _outputName = _ini.Get("demo", "output").ToString();
 
     // Then the final value
-    _textToOutput = cfg.Get("demo", "textToOutput").ToString();
+    _textToOutput = _ini.Get("demo", "textToOutput").ToString();
 
     // If the configuration says that the text should be added immediately
     if (_outputNow) 
@@ -112,9 +114,7 @@ public void Main()
 
 ```
 
-There are several type conversion methods are available for the configuration values. Each type has two variants: The To* and the TryGet*. The former will attempt to 
-convert the value, and if it fails, it will simply fall back to the default value. The second will return a boolean which tells you if the conversion was successful or
-not. Use whichever suits your script best.
+In the example above we see the use of `.ToBoolean();` and `.ToBoolean();` in relation to the `_ini.Get` calls. There are several type conversion methods are available for the configuration values. Each type has two variants: The To* and the TryGet*. The former will attempt to convert the value, and if it fails, it will simply fall back to the default value. The second will return a boolean which tells you if the conversion was successful or not. Use whichever suits your script best.
 
 * `bool ToBoolean(bool defaultValue = default(bool))`
 * `bool TryGetBoolean(out bool value)`
@@ -170,3 +170,114 @@ To support this use case there's a fast search method in `MyIni` which searches 
 GridTerminalSystem.GetBlocksOfType<IMyDoor>(doors, door => MyIni.HasSection(door.CustomData, "airlock"));
 ```
 
+## Saving to Storage
+
+So far I've only been talking about the _reading_ of configuration. But `MyIni` can also be used to help you with persistant storage in the `Storage` property. Obviously reading is just a matter of adapting the examples above to work with this property instead.
+
+Changing values in a configuration is - unsurprisingly - done via the `Set` method. Consider the following example:
+
+```csharp
+// Define the default of the _intValue. You don't have to do it this way, it's just defined
+// like this here for the sake of readability.
+const int DefaultIntValue = 5;
+
+// An integer value
+int _intValue;
+
+// The default of _boolValue
+const bool DefaultBoolValue = true;
+
+// A boolean value
+bool _boolValue;
+
+public void Program()
+{
+    // For the sake of Storage the initialization code is simpler. We can make a lot more assumptions 
+    // because players don't have access to change this value. For this reason we just parse, we don't
+    // care whether it's actually successful or not. Obviously this is your choice.
+    _ini.TryParse(Storage);
+
+    // Read the integer value. If it does not exist, return the default for this value.
+    _intValue = _ini.Get("demo", "intValue").ToInt32(DefaultIntValue);
+
+    // Then we do the same for the boolean value.
+    _boolValue = _ini.Get("demo", "boolValue").ToBoolean(DefaultBoolValue);
+}
+
+public void Save()
+{
+    // Assume that the script has been running and potentially changing these values.
+    // We don't want to continually update the _ini during runtime, that's going to be
+    // too slow compared to using the variables directly.
+
+    // First, clear out any old data, we're gonna recreate it in its entirety.
+    _ini.Clear();
+
+    // Then we set the integer value
+    _ini.Set("demo", "intValue", _intValue);
+
+    // and finally the boolean value.
+    _ini.Set("demo", "boolValue", _boolValue);
+
+    // Now we finally commit our configuration to storage, which the game will save to disk.
+    // Next time the script is created, it will be able to recreate this information in the
+    // code we added to the constructor.
+    Storage = _ini.ToString();
+}
+```
+
+## Saving to CustomData
+
+First things first. It would be remiss of me if I didn't tell you that you really shouldn't do that. Depending on how you make your changes to CustomData, it's a bit unpredictable since it's _not_ designed to be used this way. Also, while changes to CustomData runs well in single player, it's synchronized to every player in multiplayer so be very careful. However - there may be situations were you _really_ need this. In this case you should change the example above a little to take into account that CustomData is user editable. Not only may it contain invalid data, it may change during the runtime of your script.
+
+```csharp
+// Define the default of the _intValue. You don't have to do it this way, it's just defined
+// like this here for the sake of readability.
+const int DefaultIntValue = 5;
+
+// An integer value
+int _intValue;
+
+// The default of _boolValue
+const bool DefaultBoolValue = true;
+
+// A boolean value
+bool _boolValue;
+
+public void Program()
+{
+    // This time we _must_ check for failure since the user may have written invalid ini.
+    if (!_ini.TryParse(Me.CustomData, out var result))
+        throw new Exception(result.ToString());
+ 
+    // Read the integer value. If it does not exist, return the default for this value.
+    _intValue = _ini.Get("demo", "intValue").ToInt32(DefaultIntValue);
+
+    // Then we do the same for the boolean value.
+    _boolValue = _ini.Get("demo", "boolValue").ToBoolean(DefaultBoolValue);
+}
+
+public void Save()
+{
+    // Assume that the script has been running and potentially changing these values.
+    // We don't want to continually update the _ini during runtime, that's going to be
+    // too slow compared to using the variables directly.
+
+    // This time we do _not_ clear out the ini. We parse it all over again, because a
+    // user might have made changes to it manually and we'll want to retain those
+    // changes. Once again we fail if we cannot understand the configuration.
+    if (!_ini.TryParse(Me.CustomData, out var result))
+        throw new Exception(result.ToString());
+
+    // Then we set the integer value
+    _ini.Set("demo", "intValue", _intValue);
+
+    // and finally the boolean value.
+    _ini.Set("demo", "boolValue", _boolValue);
+
+    // Now we finally commit our configuration to the CustomData. Again, be careful.
+    // CustomData is unpredictable for use as storage like this, because it simply
+    // isn't designed for it, and it's slow in multiplayer.
+    Me.CustomData = _ini.ToString();
+}
+```

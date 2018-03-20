@@ -36,6 +36,8 @@ MultiLine=
 ---
 ```
 
+### The Basics
+
 To read this data you first need to instantiate an instance of the `MyIni` class. As always it's recommended to make a single instance, and reuse this instance throughout your script's lifetime.
 
 Place down a programmable block. Open the Custom Data editor and add the following configuration:
@@ -157,3 +159,14 @@ not. Use whichever suits your script best.
 * `bool TryGetString(out string value)`
 
 There's also the `void GetLines(List<string> lines)` method, which fills the given list with the individual lines of the configuration value.
+
+### Find Blocks With Sections
+
+My favorite way of using CustomData configuration now is to use _it_ to retrieve blocks for my scripts rather than using hard coded custom names. What I do is use the ini sections to indicate if a certain block is to be included in a certain script module. For example, my airlock script looks for an `[airlock]` configuration in blocks like for example doors and air vents, which configures how those blocks should behave in relation to a given air lock. It allows for the adding and removal of new air locks without the need to manually add code to the script, I simply press a "reset" button and the script finds any new airlocks and discards old ones. Easy - and requires no coding knowledge.
+
+To support this use case there's a fast search method in `MyIni` which searches a string quickly to see if it has the desired section. This allows you to quickly reject blocks which are not relevant for the current model. The method is designed to be performance- and memory friendly.
+
+```csharp
+GridTerminalSystem.GetBlocksOfType<IMyDoor>(doors, door => MyIni.HasSection(door.CustomData, "airlock"));
+```
+

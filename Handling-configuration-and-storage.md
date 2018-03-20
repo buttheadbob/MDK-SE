@@ -33,7 +33,7 @@ AnotherKey=Another value
 SomeKey=15
 ```
 
-You get the idea. This is a very simple format, and it's easy to learn even for those without any coding skills. `MyIni` adds a little extra to this format though:
+You get the idea. This is a very simple format, and it's easy to learn even for those without any coding skills. `MyIni` adds a little extra to this format though. First of all the multiline construct, which looks like this:
 ```ini
 [Section]
 ;The following line is a special format which allows for multiline text in a single key:
@@ -41,8 +41,11 @@ MultiLine=
 |The first line of the value
 |The second line of the value
 |And so on
+```
+Note that there should be nothing after the `=`, the whole value is defined in the section with `|`.
 
-;The next line terminates the ini stream, allowing for further custom content in customdata if desired:
+Secondly it's the terminator token. Three hyphens on a separate line will tell the parser to stop parsing, and just store the rest of the content in the MyIni's `EndContent` property.
+```
 ---
 ```
 

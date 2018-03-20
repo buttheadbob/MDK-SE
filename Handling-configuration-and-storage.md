@@ -242,7 +242,7 @@ public void Save()
 
 ## Saving to CustomData
 
-First things first. It would be remiss of me if I didn't tell you that you really shouldn't do that. Depending on how you make your changes to CustomData, it's a bit unpredictable since it's _not_ designed to be used this way. Also, while changes to CustomData runs well in single player, it's synchronized to every player in multiplayer so be very careful. However - there may be situations were you _really_ need this. In this case you should change the example above a little to take into account that CustomData is user editable. Not only may it contain invalid data, it may change during the runtime of your script.
+First things first. It would be remiss of me if I didn't tell you that you really shouldn't do that. Depending on how you make your changes to CustomData, it's a bit unpredictable since it's _not_ designed to be used this way. For example: There is no guarantee that the CustomData of a block has not _already_ been captured for the save file by the time the programmable block Save is called, meaning that the changes you do won't actually be saved until _next_ time. Also, while changes to CustomData runs well in single player, it's synchronized to every player in multiplayer so be very careful. However - there may be situations were you _really_ need this. In this case you should change the example above a little to take into account that CustomData is user editable. Not only may it contain invalid data, it may change during the runtime of your script.
 
 ```csharp
 // Define the default of the _intValue. You don't have to do it this way, it's just defined

@@ -21,11 +21,9 @@ public void Program()
 }
 ``` 
 
-However just a string is not very useful. In order to help dealing with configuration information more easily, we introduce the `MyIni` class. 
+However just a string is not very useful. In order to help dealing with configuration information more easily, we introduce the `MyIni` class. This class helps you parse and read strings in [the old fashioned INI format](https://en.wikipedia.org/wiki/INI_file).
 
->**Note**: If you are using an IDE like Visual Studio and want to use this class in an existing script, you might need to add `using VRage.Game.ModAPI.Ingame.Utilities;` to the top of your code file(s).
-
-This class helps you parse and read strings in [the old fashioned INI format](https://en.wikipedia.org/wiki/INI_file):
+>**Note**: If you are using an IDE like Visual Studio and want to use this class in an existing script, you might need to add `using VRage.Game.ModAPI.Ingame.Utilities;` to the top of your code file(s).  
 
 ```ini
 [FirstDataSection]
@@ -37,7 +35,7 @@ AnotherKey=Another value
 SomeKey=15
 ```
 
-You get the idea. This is a very simple format, and it's easy to learn even for those without any coding skills. `MyIni` adds a little extra to this format though. First of all the multiline construct, which looks like this:
+You get the idea. This is a very simple format, and it's easy to learn even for those without any coding skills. Only the simple INI format is supported. There are none of the escapes or other advanced features as described being supported by the more complicated use cases - all to maintain high performance. `MyIni` does add a little extra to this format though. First of all the multiline construct, which looks like this:
 ```ini
 [Section]
 ;The following line is a special format which allows for multiline text in a single key:

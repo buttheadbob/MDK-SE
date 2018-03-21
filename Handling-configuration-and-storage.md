@@ -94,10 +94,11 @@ public Program()
     // Then the final value
     _textToOutput = _ini.Get("demo", "textToOutput").ToString();
 
-    // If the configuration says that the text should be added immediately
+    // If the configuration says that the text should be added immediately, so we
+    // tell the programmable block to run itself once automatically.
     if (_outputNow) 
     {
-        Output();
+        Runtime.UpdateFrequency = UpdateFrequency.Once;
     }
 }
 
@@ -128,7 +129,7 @@ public void Main()
 }
 
 ```
-Feel free to change the values of the configuration (leave the section and key names alone) and see the results.
+Feel free to change the values of the configuration (leave the section and key names alone) and see the results. For an explanation of `UpdateFrequency.Once`, see [Continuous Running No Timers Needed](https://github.com/malware-dev/MDK-SE/wiki/Continuous-Running-No-Timers-Needed).
 
 ### Type Conversions
 

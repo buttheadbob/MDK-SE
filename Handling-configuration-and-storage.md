@@ -78,6 +78,8 @@ IMyTextPanel _outputPanel;
 
 public Program()
 {
+    // Call the TryParse method on the custom data. This method will
+    // return false if the source wasn't compatible with the parser.
     MyIniParseResult result;
     if (!_ini.TryParse(Me.CustomData, out result)) 
         throw new Exception(result.ToString());

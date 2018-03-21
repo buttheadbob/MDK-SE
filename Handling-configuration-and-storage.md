@@ -246,6 +246,12 @@ public void Save()
     // code we added to the constructor.
     Storage = _ini.ToString();
 }
+
+public void Main()
+{
+    // Your logic here. Don't use the _ini directly as backing storage, use the loaded fields. The _ini
+    // is too slow for general runtime.
+}
 ```
 
 
@@ -307,5 +313,11 @@ public void Save()
     // CustomData is unpredictable for use as storage like this, because it simply
     // isn't designed for it, and it's slow in multiplayer.
     Me.CustomData = _ini.ToString();
+}
+
+public void Main()
+{
+    // Your logic here. Don't use the _ini directly as backing storage, use the loaded fields. The _ini
+    // is too slow for general runtime.
 }
 ```

@@ -78,7 +78,8 @@ IMyTextPanel _outputPanel;
 
 public Program()
 {
-    if (!_ini.TryParse(Me.CustomData, out var result)) 
+    MyIniParseResult result;
+    if (!_ini.TryParse(Me.CustomData, out result)) 
         throw new Exception(result.ToString());
 
     // Get the value of the "outputNow" key under the "demo" section.
@@ -272,7 +273,8 @@ bool _boolValue;
 public void Program()
 {
     // This time we _must_ check for failure since the user may have written invalid ini.
-    if (!_ini.TryParse(Me.CustomData, out var result))
+    MyIniParseResult result;    
+    if (!_ini.TryParse(Me.CustomData, out result))
         throw new Exception(result.ToString());
  
     // Read the integer value. If it does not exist, return the default for this value.
@@ -291,7 +293,8 @@ public void Save()
     // This time we do _not_ clear out the ini. We parse it all over again, because a
     // user might have made changes to it manually and we'll want to retain those
     // changes. Once again we fail if we cannot understand the configuration.
-    if (!_ini.TryParse(Me.CustomData, out var result))
+    MyIniParseResult result;
+    if (!_ini.TryParse(Me.CustomData, out result))
         throw new Exception(result.ToString());
 
     // Then we set the integer value

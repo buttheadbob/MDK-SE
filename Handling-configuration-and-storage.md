@@ -102,13 +102,14 @@ public Program()
     }
 }
 
-void Output() 
+public void Main() 
 {
+    // Output the configured text every time the script is run
     // If the output text panel has not yet been retrieved, retrieve it now.
     if (_outputPanel == null) 
     {
         // Get the output panel as configured by the CustomData
-        _outputPanel = GridTerminalSystem.GetBlockWithName(_outputName);
+        _outputPanel = GridTerminalSystem.GetBlockWithName(_outputName) as IMyTextPanel;
     }
     if (_outputPanel == null) {
         // No output panel could be found, so we'll just have to exit.
@@ -120,12 +121,6 @@ void Output()
     _outputPanel.WritePublicText(_textToOutput, true);
     // And then add a newline
     _outputPanel.WritePublicText("\n", true);
-}
-
-public void Main() 
-{
-    // Output the configured text every time the script is run
-    Output();
 }
 
 ```

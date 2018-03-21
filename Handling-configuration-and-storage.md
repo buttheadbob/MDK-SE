@@ -21,7 +21,11 @@ public void Program()
 }
 ``` 
 
-However just a string is not very useful. In order to help dealing with configuration information more easily, we introduce the `MyIni` class. This class helps you parse and read strings in [the old fashioned INI format](https://en.wikipedia.org/wiki/INI_file):
+However just a string is not very useful. In order to help dealing with configuration information more easily, we introduce the `MyIni` class. 
+
+>**Note**: If you are using an IDE like Visual Studio and want to use this class in an existing script, you might need to add `using VRage.Game.ModAPI.Ingame.Utilities;` to the top of your code file(s).
+
+This class helps you parse and read strings in [the old fashioned INI format](https://en.wikipedia.org/wiki/INI_file):
 
 ```ini
 [FirstDataSection]
@@ -193,6 +197,9 @@ So far I've only been talking about the _reading_ of configuration. But `MyIni` 
 Changing values in a configuration is - unsurprisingly - done via the `Set` method. Consider the following example:
 
 ```csharp
+// Instantiate a shared instance of the parser
+MyIni _ini = new MyIni();
+
 // Define the default of the _intValue. You don't have to do it this way, it's just defined
 // like this here for the sake of readability.
 const int DefaultIntValue = 5;
@@ -248,6 +255,9 @@ public void Save()
 First things first. It would be remiss of me if I didn't tell you that you really shouldn't do that. Depending on how you make your changes to CustomData, it's a bit unpredictable since it's _not_ designed to be used this way. For example: There is no guarantee that the CustomData of a block has not _already_ been captured for the save file by the time the programmable block Save is called, meaning that the changes you do won't actually be saved until _next_ time. Also, while changes to CustomData runs well in single player, it's synchronized to every player in multiplayer so be very careful. However - there may be situations were you _really_ need this. In this case you should change the example above a little to take into account that CustomData is user editable. Not only may it contain invalid data, it may change during the runtime of your script.
 
 ```csharp
+// Instantiate a shared instance of the parser
+MyIni _ini = new MyIni();
+
 // Define the default of the _intValue. You don't have to do it this way, it's just defined
 // like this here for the sake of readability.
 const int DefaultIntValue = 5;

@@ -35,7 +35,7 @@ AnotherKey=Another value
 SomeKey=15
 ```
 
-You get the idea. This is a very simple format, and it's easy to learn even for those without any coding skills. Only the simple INI format is supported. There are none of the escapes or other advanced features as described being supported by the more complicated use cases - all to maintain high performance. `MyIni` does add a little extra to this format though. First of all the multiline construct, which looks like this:
+This is a very simple format, and it's easy to learn even for those without any coding skills. Only the simple INI format is supported. There are none of the escapes or other advanced features as described being supported by the more complicated use cases - all to maintain high performance. `MyIni` does add a little extra to this format though. First of all the multiline construct, which looks like this:
 ```ini
 [Section]
 ;The following line is a special format which allows for multiline text in a single key:

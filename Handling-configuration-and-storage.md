@@ -126,7 +126,7 @@ public void Main()
 }
 
 ```
-Feel free to change the values of the configuration (leave the section and key names alone) and see the results. For an explanation of `UpdateFrequency.Once`, see [Continuous Running No Timers Needed](https://github.com/malware-dev/MDK-SE/wiki/Continuous-Running-No-Timers-Needed).
+Feel free to change the values of the CustomData configuration (leave the section and key names alone, just change the values) and see the results. For an explanation of `UpdateFrequency.Once`, see [Continuous Running No Timers Needed](https://github.com/malware-dev/MDK-SE/wiki/Continuous-Running-No-Timers-Needed).
 
 ### Type Conversions
 

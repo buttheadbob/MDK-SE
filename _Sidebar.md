@@ -4,6 +4,8 @@
 * [Utility Class or Extension Class?](https://github.com/malware-dev/MDK-SE/wiki/Utility-Class-or-Extension-Class)
 * [Continuous Running No Timers Needed](https://github.com/malware-dev/MDK-SE/wiki/Continuous-Running-No-Timers-Needed)
 * [Deploying Your Script to Space Engineers](https://github.com/malware-dev/MDK-SE/wiki/Deploying-Your-Script-to-Space-Engineers)
+* [Deployment Time Macros](https://github.com/malware-dev/mdk-se/wiki/Deployment-Time-Macros)
+* [File Sorting Order](https://github.com/malware-dev/mdk-se/wiki/File-Sorting-Order)
 * [Known issue when using "Lightweight Solution Load"](https://github.com/malware-dev/MDK-SE/wiki/Known-issue-when-using-Lightweight-Solution-Load)
 * [Script Project Settings](https://github.com/malware-dev/MDK-SE/wiki/Script-Project-Settings)
 * [Quick Introduction to Space Engineers Ingame Scripts](https://github.com/malware-dev/MDK-SE/wiki/Quick-Introduction-to-Space-Engineers-Ingame-Scripts)

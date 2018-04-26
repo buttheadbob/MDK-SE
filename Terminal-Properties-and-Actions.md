@@ -1,5 +1,8 @@
 In addition to the normal C# properties, fields and methods, Space Engineers introduces a couple of unique concepts to the programmable block: The Terminal Properties and Actions. These are usually - but not entirely exclusively - connected directly to user interface components shown in the block's terminal. They are _not_ accessed via normal interfaces, but via specialized methods available for _any_ block. However note that it is highly recommended that you do your best to use the proper C# code wherever possible, since these will always be the most performant and least bug prone to use - not to mention that if you use Visual Studio, these will show up in the intellisense popup, as opposed to the terminal properties and actions which will not. At the time of writing this tutorial, not all Terminal items have gotten their proper C# interface access, in which case you will have to resort to the Terminal access.
 
+**Note: Terminal actions and properties are for all intents and purposes obsolete since all vanilla block interfaces now contain proper API access to all this information. It is highly recommended you use those for less overhead.**
+
+
 #### Terminal Properties
 Terminal properties are ways to access the values of the user interface components.
 

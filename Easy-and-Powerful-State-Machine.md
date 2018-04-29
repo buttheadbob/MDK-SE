@@ -1,6 +1,6 @@
 The [yielding enumerator](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/yield) enables some really powerful state machine programming. Before you continue, you should read about the keyword so you understand what it's _true_ purpose is. We're gonna exploit it in a somewhat unintended way!
 
-To begin; place a programmable block, a timer block (simply named Timer Block) set up only to run the programmable block with no argument (don't use "with default argument"), an interior light (simply named Interior Light) and an LCD Panel set up to display its public text.
+To begin; place a programmable block, an interior light (simply named Interior Light) and an LCD Panel set up to display its public text.
 
 ## When do I yield?
 One of the more common question I've been getting since posting this little snippet is: When should I yield? How much can I do before waiting for the next tick?

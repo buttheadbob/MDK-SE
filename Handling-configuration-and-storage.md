@@ -5,7 +5,9 @@
 [Type Conversions](#type-conversions)  
 [Find Blocks With Sections](#find-blocks-with-sections)  
 [Saving to Storage](#saving-to-storage)  
-[Saving to CustomData](#saving-to-customdata)
+[Saving to CustomData](#saving-to-customdata)  
+[The Multiline Construct](#the-multiline-construct)  
+[The Terminator Token](#the-terminator-token)  
 
 
 ## Configuration
@@ -35,7 +37,9 @@ AnotherKey=Another value
 SomeKey=15
 ```
 
-This is a very simple format, and it's easy to learn even for those without any coding skills. Only the simple INI format is supported. There are none of the escapes or other advanced features as described being supported by the more complicated use cases - all to maintain high performance. `MyIni` does add a little extra to this format though. First of all the multiline construct, which looks like this:
+This is a very simple format, and it's easy to learn even for those without any coding skills. Only the simple INI format is supported. There are none of the escapes or other advanced features as described being supported by the more complicated use cases - all to maintain high performance. `MyIni` does add a little extra to this format though. 
+
+#### The Multiline Construct
 ```ini
 [Section]
 ;The following line is a special format which allows for multiline text in a single key:
@@ -46,7 +50,8 @@ MultiLine=
 ```
 Note that there should be nothing after the `=`, the whole value is defined in the section with `|`.
 
-Secondly it's the terminator token. Three hyphens on a separate line will tell the parser to stop parsing, and just store the rest of the content in the MyIni's `EndContent` property.
+#### The Terminator Token
+Three hyphens on a separate line will tell the parser to stop parsing, and just store the rest of the content in the MyIni's `EndContent` property. This will allow for at least _some_ support for other data alongside the ini.
 ```
 ---
 ```

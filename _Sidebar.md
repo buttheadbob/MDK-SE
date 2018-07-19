@@ -21,7 +21,7 @@
     * [The Running Programmable Block](https://github.com/malware-dev/MDK-SE/wiki/The-Running-Programmable-Block)
     * [The Runtime](https://github.com/malware-dev/MDK-SE/wiki/The-Runtime)
     * [The Storage String](https://github.com/malware-dev/MDK-SE/wiki/The-Storage-String)
-    * [Handling Configuration and Storage)(https://github.com/malware-dev/MDK-SE/wiki/Handling-configuration-and-storage)
+    * [Handling Configuration and Storage](https://github.com/malware-dev/MDK-SE/wiki/Handling-configuration-and-storage)
     * [Your First Script](https://github.com/malware-dev/MDK-SE/wiki/Your-First-Script)
     * [Debugging Your Scripts](https://github.com/malware-dev/MDK-SE/wiki/Debugging-Your-Scripts)
     * [Continuous Running No Timers Needed](https://github.com/malware-dev/MDK-SE/wiki/Continuous-Running-No-Timers-Needed)

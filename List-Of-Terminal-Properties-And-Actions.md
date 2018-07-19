@@ -1,5 +1,8 @@
 ## Overview
 
+**Note: Terminal actions and properties are for all intents and purposes obsolete since all vanilla block interfaces now contain proper API access to all this information. It is highly recommended you use those for less overhead.**
+
+
 [IMyAdvancedDoor](#imyadvanceddoor)  
 [IMyAirtightHangarDoor](#imyairtighthangardoor)  
 [IMyAirtightSlideDoor](#imyairtightslidedoor)  

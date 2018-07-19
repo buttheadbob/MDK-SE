@@ -1,5 +1,3 @@
-** WARNING : DESCRIBES CURRENTLY UNRELEASED FEATURE! **
-
 Once your scripts start to get a little more advanced, you will want to utilize the argument in order to have your script perform multiple operations. For example if you are writing an airlock script, you will want to tell the script to cycle an airlock in or out, and even _which_ airlock to cycle. I won't be telling you how to write an airlock script, but I will be using this as an example in order to show you how to detect and handle the arguments related to such a script. The programmable block API has a built-in command line parser courtesy of yours truly that is designed to be fast and allocation friendly, as well as easy to use.
 
 For those of you who just want to get on with it, [here's a link to the simple demo script used in this tutorial.](MyCommandLine.cs)
@@ -112,7 +110,7 @@ public void Main(string argument)
         {
             Echo("No command specified");
         } 
-        else if (_commands.TryGetValue(_commandLine.Argument(0), out commandAction))
+        else if (_commands.TryGetValue(command, out commandAction))
         {
             // We have found a command. Invoke it.
             commandAction();

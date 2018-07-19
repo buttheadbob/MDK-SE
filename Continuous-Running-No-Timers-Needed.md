@@ -115,7 +115,7 @@ const UpdateType CommandUpdate = UpdateType.Trigger | UpdateType.Terminal;
 
 public void Main(string argument, UpdateType updateType) 
 {
-  // If the update source is either Trigger or Terminal, run the continuous logic
+  // If the update source is either Trigger or Terminal, run the interactive logic
   if ((updateType & CommandUpdate) != 0) 
   {
     RunCommand(argument);

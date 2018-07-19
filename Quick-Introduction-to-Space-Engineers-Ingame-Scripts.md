@@ -13,6 +13,7 @@ While you _can_ use the ingame editor, it's not very good. Its purpose is really
 * [The Grid Terminal System](https://github.com/malware-dev/MDK-SE/wiki/The-Grid-Terminal-System)
 	* [Block Groups](https://github.com/malware-dev/MDK-SE/wiki/Block-Groups)
 * [Terminal Properties and Actions](https://github.com/malware-dev/MDK-SE/wiki/Terminal-Properties-and-Actions)
+	* [List of Available Properties and Actions](https://github.com/malware-dev/MDK-SE/wiki/List-Of-Terminal-Properties-and-Actions)
 * [The Running Programmable Block](https://github.com/malware-dev/MDK-SE/wiki/The-Running-Programmable-Block)
 * [The Runtime](https://github.com/malware-dev/MDK-SE/wiki/The-Runtime)
 * [The Storage String](https://github.com/malware-dev/MDK-SE/wiki/The-Storage-String)
@@ -20,4 +21,4 @@ While you _can_ use the ingame editor, it's not very good. Its purpose is really
 * [Debugging Your Scripts](https://github.com/malware-dev/MDK-SE/wiki/Debugging-Your-Scripts)
 * [Do's and Don'ts](https://github.com/malware-dev/MDK-SE/wiki/Do's-and-Don'ts)
 * [Advanced: The EntityId](https://github.com/malware-dev/MDK-SE/wiki/The-Entity-Id)
-* [Advanced: Easy and Powerful State Machine Using "yield return"](https://github.com/malware-dev/MDK-SE/wiki/Advanced:-Easy-and-Powerful-State-Machine-Using-%22yield-return%22)
+* [Advanced: Easy and Powerful State Machine Using "yield return"](https://github.com/malware-dev/MDK-SE/wiki/Easy-and-Powerful-State-Machine)

@@ -1,8 +1,5 @@
 ## Overview
 
-**Note**: Terminal actions and properties are for all intents and purposes obsolete since all vanilla block interfaces now contain proper API access to all this information. It is highly recommended you use those for less overhead.
-
-
 [IMyAdvancedDoor](#imyadvanceddoor)  
 [IMyAirtightHangarDoor](#imyairtighthangardoor)  
 [IMyAirtightSlideDoor](#imyairtightslidedoor)  
@@ -977,7 +974,7 @@
 |Add Small Top Part|Add Small Head|
 |Add Top Part|Add Rotor Head|
 |Attach|Attach|
-|DecreaseBrakingTorque|Decrease Braking tor.|
+|DecreaseBrakingTorque|Decrease Braking torque|
 |DecreaseDisplacement|Decrease Rotor displacement|
 |DecreaseLowerLimit|Decrease Lower limit|
 |DecreaseSafetyDetach|Decrease Safety detach|
@@ -987,7 +984,7 @@
 |DecreaseWeld speed|Decrease Safety lock speed|
 |Detach|Detach|
 |Force weld|Safety lock override On/Off|
-|IncreaseBrakingTorque|Increase Braking tor.|
+|IncreaseBrakingTorque|Increase Braking torque|
 |IncreaseDisplacement|Increase Rotor displacement|
 |IncreaseLowerLimit|Increase Lower limit|
 |IncreaseSafetyDetach|Increase Safety detach|
@@ -1034,7 +1031,7 @@
 |Add Small Top Part|Add Small Head|
 |Add Top Part|Add Rotor Head|
 |Attach|Attach|
-|DecreaseBrakingTorque|Decrease Braking tor.|
+|DecreaseBrakingTorque|Decrease Braking torque|
 |DecreaseDisplacement|Decrease Rotor displacement|
 |DecreaseLowerLimit|Decrease Lower limit|
 |DecreaseSafetyDetach|Decrease Safety detach|
@@ -1044,7 +1041,7 @@
 |DecreaseWeld speed|Decrease Safety lock speed|
 |Detach|Detach|
 |Force weld|Safety lock override On/Off|
-|IncreaseBrakingTorque|Increase Braking tor.|
+|IncreaseBrakingTorque|Increase Braking torque|
 |IncreaseDisplacement|Increase Rotor displacement|
 |IncreaseLowerLimit|Increase Lower limit|
 |IncreaseSafetyDetach|Increase Safety detach|
@@ -1095,8 +1092,10 @@
 |DecreaseHeight|Decrease Height Offset|
 |DecreaseMaxSteerAngle|Decrease Steering Angle|
 |DecreasePower|Decrease Power|
+|DecreasePropulsion override|Decrease Propulsion override|
 |DecreaseSafetyDetach|Decrease Safety detach|
 |DecreaseSpeed Limit|Decrease Speed limit|
+|DecreaseSteer override|Decrease Steer override|
 |DecreaseStrength|Decrease Strength|
 |DecreaseWeld speed|Decrease Safety lock speed|
 |Force weld|Safety lock override On/Off|
@@ -1104,8 +1103,10 @@
 |IncreaseHeight|Increase Height Offset|
 |IncreaseMaxSteerAngle|Increase Steering Angle|
 |IncreasePower|Increase Power|
+|IncreasePropulsion override|Increase Propulsion override|
 |IncreaseSafetyDetach|Increase Safety detach|
 |IncreaseSpeed Limit|Increase Speed limit|
+|IncreaseSteer override|Increase Steer override|
 |IncreaseStrength|Increase Strength|
 |IncreaseWeld speed|Increase Safety lock speed|
 |InvertPropulsion|Invert Propulsion On/Off|
@@ -1116,7 +1117,9 @@
 |Propulsion|Propulsion On/Off|
 |ResetHeight|Reset Height Offset|
 |ResetMaxSteerAngle|Reset Steering Angle|
+|ResetPropulsion override|Reset Propulsion override|
 |ResetSpeed Limit|Reset Speed limit|
+|ResetSteer override|Reset Steer override|
 |ShareInertiaTensor|Share inertia tensor On/Off|
 |Steering|Steering On/Off|
 
@@ -1136,6 +1139,7 @@
 |OnOff|bool|
 |Power|float|
 |Propulsion|bool|
+|Propulsion override|float|
 |SafetyDetach|float|
 |ShareInertiaTensor|bool|
 |ShowInInventory|bool|
@@ -1143,6 +1147,7 @@
 |ShowInToolbarConfig|bool|
 |ShowOnHUD|bool|
 |Speed Limit|float|
+|Steer override|float|
 |Steering|bool|
 |Strength|float|
 |Weld speed|float|

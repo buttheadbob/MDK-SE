@@ -1,4 +1,3 @@
-** WARNING : DESCRIBES CURRENTLY UNRELEASED FEATURE! **
 ## Overview
 [Configuration](#configuration)  
 [The Basics](#the-basics)  

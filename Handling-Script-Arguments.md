@@ -110,7 +110,7 @@ public void Main(string argument)
         {
             Echo("No command specified");
         } 
-        else if (_commands.TryGetValue(_commandLine.Argument(0), out commandAction))
+        else if (_commands.TryGetValue(command, out commandAction))
         {
             // We have found a command. Invoke it.
             commandAction();

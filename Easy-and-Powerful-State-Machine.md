@@ -80,6 +80,8 @@ public void RunStateMachine()
 }
 
 // ***MARKER: State Machine Program
+// The return value (bool in this case) is not important for this example. It is not
+// actually in use.
 public IEnumerator<bool> RunStuffOverTime() 
 {
     // For the very first instruction set, we will just switch on the light.
@@ -97,7 +99,8 @@ public IEnumerator<bool> RunStuffOverTime()
     int i = 0;
     // The following would seemingly be an illegal operation, because the script would
     // keep running until the instruction count overflows. However, using yield return,
-    // you can get around this limitation.
+    // you can get around this limitation - without breaking the rules and while remaining
+    // performance friendly.
     while (true) 
     {
         _textPanel.WritePublicText(i.ToString());
@@ -109,3 +112,4 @@ public IEnumerator<bool> RunStuffOverTime()
     }
 }
 ```
+

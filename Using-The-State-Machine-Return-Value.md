@@ -11,23 +11,23 @@ The first thing we need is a data type to represent a running operation.
 ```csharp
 public struct Task
 {
-	// Create a new Task
+    // Create a new Task
     public Task(long id, IEnumerator<int> operation, int skip) 
     {
-    	Id = id;
-    	Operation = operation;
-    	Skip = skip;
+        Id = id;
+        Operation = operation;
+        Skip = skip;
     }
 
-	// The unique ID of this particular task
-	public readonly long Id;
+    // The unique ID of this particular task
+    public readonly long Id;
 
-	// Represents the currently running operation itself. Note that the return value is now
-	// int rather than bool. This will be explained later.
-	public readonly IEnumerator<int> Operation;
-	
-	// The number of ticks to skip before moving Operation to the next step.
-	public readonly int Skip;
+    // Represents the currently running operation itself. Note that the return value is now
+    // int rather than bool. This will be explained later.
+    public readonly IEnumerator<int> Operation;
+
+    // The number of ticks to skip before moving Operation to the next step.
+    public readonly int Skip;
 }
 ```
 
@@ -107,6 +107,11 @@ public class TaskManager
                 // makes it much faster than the default RemoveAt which will shift all items
                 // after the index, but preserves order.
                 _runningTasks.RemoveAtFast(i);
+
+                // Since we removed this item and got a new item in its place, we need to 
+                // redo the same index again in order to process that new item. So we
+                // backpedal the iterating index.
+                i--;
                 
                 // Dispose of the operation
                 task.Operation.Dispose();

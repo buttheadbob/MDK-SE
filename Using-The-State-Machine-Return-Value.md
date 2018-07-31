@@ -1,3 +1,5 @@
+** INCOMPLETE DOCUMENT **
+
 In the [yield state machine example](Easy-and-Powerful-State-Machine.md) the return value `bool` in the `IEnumerator<bool>` was not in use. It was just a placeholder simply because the type requires it. In _this_ example I will show how you can use this return value in a more helpful way. We will introduce a simple `TaskManager`, and the return value of the yield will tell this task manager how many ticks should be _skipped_ before the next section of the method is invoked.
 
 

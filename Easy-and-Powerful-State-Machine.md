@@ -64,6 +64,8 @@ public void RunStateMachine()
         // At this point, MoveNext will return `true` since there's more code in your
         // method to execute. Once your method reaches its end and there are no more
         // yields, MoveNext will return false to signal that the method has completed.
+        // The actual return value of your yields are unimportant to the actual state
+        // machine.
 
         // If there are no more instructions, we stop and release the state machine.
         if (!_stateMachine.MoveNext())

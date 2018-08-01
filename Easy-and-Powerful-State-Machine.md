@@ -8,7 +8,7 @@ One of the more common question I've been getting since posting this little snip
 Unfortunately this is pretty much an unanswerable question, like asking "how long is a string?". This ties into the quite logical fact that the fastest running code is the code that never runs. So all the advice I can give is this: If you _can_ wait with an operation, then _wait_ with that operation.
 
 ## The Code
-Copy the following script into the programmable block. The comments explain what is happening.
+Copy the following script into the programmable block. The comments explain what is happening. Note that for the sake of simplicity, this example can only run _one_ state machine at any one given time. It's up to you to extend this to support executing multiple state machines if you need to, once you understand how this works.
 
 **Remember to dispose your `IEnumerator` after use or it will come back to haunt you!**
 
@@ -30,9 +30,9 @@ public Program()
     // Signal the programmable block to run again in the next tick. Be careful on how much you
     // do within a single tick, you can easily bog down your game. The more ticks you do your
     // operation over, the better.
-	//
-	// What is actually happening here is that we are _adding_ the Once flag to the frequencies.
-	// By doing this we can have multiple frequencies going at any time.
+    //
+    // What is actually happening here is that we are _adding_ the Once flag to the frequencies.
+    // By doing this we can have multiple frequencies going at any time.
     Runtime.UpdateFrequency |= UpdateFrequency.Once;
 }
 
@@ -42,14 +42,14 @@ public void Main(string argument, UpdateType updateType)
     // machine. This way we can use arguments to control the script without disturbing the
     // state machine and its timing. For the purpose of this example however, I will omit this.
 
-	// We only want to run the state machine(s) when the update type includes the
-	// "Once" flag, to avoid running it more often than it should. It shouldn't run
-	// on any other trigger. This way we can combine state machine running with
-	// other kinds of execution, like tool bar commands, sensors or what have you.
-	if ((updateType & UpdateType.Once) == UpdateType.Once)
-	{
-		RunStateMachine();
-	}
+    // We only want to run the state machine(s) when the update type includes the
+    // "Once" flag, to avoid running it more often than it should. It shouldn't run
+    // on any other trigger. This way we can combine state machine running with
+    // other kinds of execution, like tool bar commands, sensors or what have you.
+    if ((updateType & UpdateType.Once) == UpdateType.Once)
+    {
+        RunStateMachine();
+    }
 }
 
 // ***MARKER: State Machine Execution

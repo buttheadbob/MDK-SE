@@ -58,6 +58,13 @@ public void RunStateMachine()
     // If there is an active state machine, run its next instruction set.
     if (_stateMachine != null) 
     {
+        // The MoveNext method is the most important part of this system. When you call
+        // MoveNext, your method is invoked until it hits a `yield return` statement.
+        // Once that happens, your method is halted and flow control returns _here_.
+        // At this point, MoveNext will return `true` since there's more code in your
+        // method to execute. Once your method reaches its end and there are no more
+        // yields, MoveNext will return false to signal that the method has completed.
+
         // If there are no more instructions, we stop and release the state machine.
         if (!_stateMachine.MoveNext())
         {

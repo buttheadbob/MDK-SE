@@ -1,4 +1,4 @@
-These are if you're already a bit comfortable with what dnSpy is and how to use its [decompiled code navigation](Advanced-debugging-with-dnSpy#looking-at-the-compiled-code) and [basic debugging](Advanced-debugging-with-dnSpy#catching-errors).
+These are if you're already a bit comfortable with what [dnSpy](Advanced-debugging-with-dnSpy#getting-dnspy) is and how to use its [decompiled code navigation](Advanced-debugging-with-dnSpy#looking-at-the-compiled-code) and [basic debugging](Advanced-debugging-with-dnSpy#catching-errors-exceptions).
 
 
 
@@ -36,11 +36,11 @@ However starting the game directly with dnSpy won't work, it needs a launcher to
 
 1. Get the "SE launcher":
 
-   - Download: https://www.dropbox.com/s/8qwcbfplhdiqs3o/SELauncher.exe?dl=0
+   - Download: [SELauncher.exe](binaries/SELauncher.exe)
 
-   - Or build it yourself from: https://pastebin.com/jq9mmaQL
+   - Or build it yourself from [its source code (SELauncher.cs)](snippets/SELauncher.cs)
 
-2. Place `SE Launcher.exe` in game's Bin64 (e.g. `<Steam>/SteamApps/common/SpaceEngineers/Bin64`)
+2. Place `SELauncher.exe` in the game's Bin64 (e.g. `<Steam>/SteamApps/common/SpaceEngineers/Bin64`)
 
 3. Start dnSpy (but not the game).
 

@@ -28,9 +28,13 @@ The basic steps for attaching dnSpy to the game and to monitor for an exception.
 
    For example: search `null` and check `NullReferenceException`, the most common exception.
 
-4. In-game: Run the script until it throws errors (exceptions).
+4. In-game: Recompile the script (if it's a mod, reload the world to recompile).
 
-5. Once the error occurs dnSpy will pause code execution, now proceed to [Navigating paused code](#navigating-paused-code).
+   (This is only needed once after you attach. Details at [Seeing local variables when code is paused](advanced-dnspy-tips-and-tricks#seeing-local-variables-when-code-is-paused))
+
+5. In-game: Run the script until it throws errors (exceptions).
+
+6. Once the error occurs dnSpy will pause code execution, now proceed to [Navigating paused code](#navigating-paused-code).
 
 
 
@@ -44,7 +48,7 @@ Some things you can do here (in dnSpy):
 
 - `Debug -> Windows -> Locals (Alt+4)` can show values from variables and fields from the current pause context.
 
-  (advanced topic: [Seeing local variables when code is paused](advanced-dnspy-tips-and-tricks#seeing-local-variables-when-code-is-paused))
+  (Advanced topic: [Seeing local variables when code is paused](advanced-dnspy-tips-and-tricks#seeing-local-variables-when-code-is-paused))
 
 - `Debug -> Windows -> Call Stack (Ctrl+Alt+C)` shows the exception stacktrace which you can double-click in to navigate to the mentioned code.
 

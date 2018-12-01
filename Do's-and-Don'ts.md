@@ -11,3 +11,5 @@
 * use `static` fields or properties. Methods are fine, but static fields and properties are a potential source of memory leaks. Pass your instances around, don't be lazy.
 
 * allocate new objects in often running code. Memory allocation is relatively slow, and it will give the [garbage collector](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/) a lot of objects to deal with, slowing down execution.
+
+* use Terminal Properties or -Actions unless you have no other option. Calling members directly from their interfaces are orders of magnitude faster.

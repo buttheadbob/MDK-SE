@@ -10,7 +10,7 @@
 ### Properties
 |Member|Description|
 |---|---|
-|[`DrainAll`](Sandbox.ModAPI.Ingame.DrainAll)|Determines whether the sorter should drain any inventories connected to it and push them to the other side - as long as the items passes the filtering as defined by the filter list ( [void GetFilterList(List<MyInventoryItemFilter> items)](Sandbox.ModAPI.Ingame.GetFilterList) ) and [MyConveyorSorterMode Mode](Sandbox.ModAPI.Ingame.Mode) .|
+|[`DrainAll`](Sandbox.ModAPI.Ingame.DrainAll)|Determines whether the sorter should drain any inventories connected to it and push them to the other side - as long as the items passes the filtering as defined by the filter list ( [void GetFilterList(List<MyInventoryItemFilter> items)](Sandbox.ModAPI.Ingame.GetFilterList) ) and [MyConveyorSorterMode Mode](Sandbox.ModAPI.Ingame.Mode) .|
 |[`Mode`](Sandbox.ModAPI.Ingame.Mode)|Determines the current mode of this sorter. Use `SetWhitelist` or `SetBlacklist` to change the mode.|
 |[`Components`](VRage.Game.ModAPI.Ingame.Components)|_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyConveyorSorter)_|
 |[`EntityId`](VRage.Game.ModAPI.Ingame.EntityId)|_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyConveyorSorter)_|
@@ -53,10 +53,10 @@
 |Member|Description|
 |---|---|
 |[`GetFilterList(List<MyInventoryItemFilter>)`](Sandbox.ModAPI.Ingame.GetFilterList)|Gets the items currently being allowed through or rejected, depending on the [MyConveyorSorterMode Mode](Sandbox.ModAPI.Ingame.Mode) .|
-|[`AddItem(MyInventoryItemFilter)`](Sandbox.ModAPI.Ingame.AddItem)|Adds a single item to the filter list. See [void SetFilter(MyConveyorSorterMode mode, List<MyInventoryItemFilter> items)](Sandbox.ModAPI.Ingame.SetFilter) to change the filter mode and/or fill the entire list in one go.|
-|[`RemoveItem(MyInventoryItemFilter)`](Sandbox.ModAPI.Ingame.RemoveItem)|Removes a single item from the filter list. See [void SetFilter(MyConveyorSorterMode mode, List<MyInventoryItemFilter> items)](Sandbox.ModAPI.Ingame.SetFilter) to change the filter mode and/or clear the entire list in one go.|
-|[`IsAllowed(MyDefinitionId)`](Sandbox.ModAPI.Ingame.IsAllowed)|Determines whether a given item type is allowed through the sorter, depending on the filter list ( [void GetFilterList(List<MyInventoryItemFilter> items)](Sandbox.ModAPI.Ingame.GetFilterList) ) and [MyConveyorSorterMode Mode](Sandbox.ModAPI.Ingame.Mode) .|
-|[`SetFilter(MyConveyorSorterMode, List<MyInventoryItemFilter>)`](Sandbox.ModAPI.Ingame.SetFilter)|Changes the sorter to desired mode and filters the provided items. You can pass in`null`to empty the list.|
+|[`AddItem(MyInventoryItemFilter)`](Sandbox.ModAPI.Ingame.AddItem)|Adds a single item to the filter list. See [void SetFilter(MyConveyorSorterMode mode, List<MyInventoryItemFilter> items)](Sandbox.ModAPI.Ingame.SetFilter) to change the filter mode and/or fill the entire list in one go.|
+|[`RemoveItem(MyInventoryItemFilter)`](Sandbox.ModAPI.Ingame.RemoveItem)|Removes a single item from the filter list. See [void SetFilter(MyConveyorSorterMode mode, List<MyInventoryItemFilter> items)](Sandbox.ModAPI.Ingame.SetFilter) to change the filter mode and/or clear the entire list in one go.|
+|[`IsAllowed(MyDefinitionId)`](Sandbox.ModAPI.Ingame.IsAllowed)|Determines whether a given item type is allowed through the sorter, depending on the filter list ( [void GetFilterList(List<MyInventoryItemFilter> items)](Sandbox.ModAPI.Ingame.GetFilterList) ) and [MyConveyorSorterMode Mode](Sandbox.ModAPI.Ingame.Mode) .|
+|[`SetFilter(MyConveyorSorterMode, List<MyInventoryItemFilter>)`](Sandbox.ModAPI.Ingame.SetFilter)|Changes the sorter to desired mode and filters the provided items. You can pass in`null`to empty the list.|
 |[`GetInventory()`](VRage.Game.ModAPI.Ingame.GetInventory)|Simply get the MyInventoryBase component stored in this entity.<br/><br/>_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyConveyorSorter)_|
 |[`GetInventory(int)`](VRage.Game.ModAPI.Ingame.GetInventory)|Search for inventory component with maching index.<br/><br/>_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyConveyorSorter)_|
 |[`GetPosition()`](VRage.Game.ModAPI.Ingame.GetPosition)|_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyConveyorSorter)_|
@@ -69,10 +69,10 @@
 |[`HasPlayerAccess(long)`](Sandbox.ModAPI.Ingame.HasPlayerAccess)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyConveyorSorter)_|
 |[`SetCustomName(string)`](Sandbox.ModAPI.Ingame.SetCustomName)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyConveyorSorter)_|
 |[`SetCustomName(StringBuilder)`](Sandbox.ModAPI.Ingame.SetCustomName)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyConveyorSorter)_|
-|[`GetActions(List<ITerminalAction>, Func<ITerminalAction, bool>)`](Sandbox.ModAPI.Ingame.GetActions)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyConveyorSorter)_|
-|[`SearchActionsOfName(string, List<ITerminalAction>, Func<ITerminalAction, bool>)`](Sandbox.ModAPI.Ingame.SearchActionsOfName)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyConveyorSorter)_|
+|[`GetActions(List<ITerminalAction>, Func<ITerminalAction, bool>)`](Sandbox.ModAPI.Ingame.GetActions)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyConveyorSorter)_|
+|[`SearchActionsOfName(string, List<ITerminalAction>, Func<ITerminalAction, bool>)`](Sandbox.ModAPI.Ingame.SearchActionsOfName)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyConveyorSorter)_|
 |[`GetActionWithName(string)`](Sandbox.ModAPI.Ingame.GetActionWithName)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyConveyorSorter)_|
 |[`GetProperty(string)`](Sandbox.ModAPI.Ingame.GetProperty)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyConveyorSorter)_|
-|[`GetProperties(List<ITerminalProperty>, Func<ITerminalProperty, bool>)`](Sandbox.ModAPI.Ingame.GetProperties)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyConveyorSorter)_|
+|[`GetProperties(List<ITerminalProperty>, Func<ITerminalProperty, bool>)`](Sandbox.ModAPI.Ingame.GetProperties)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyConveyorSorter)_|
 |[`IsSameConstructAs(IMyTerminalBlock)`](Sandbox.ModAPI.Ingame.IsSameConstructAs)|Determines whether this block is mechanically connected to the other. This is any block connected with rotors or pistons or other mechanical devices, but not things like connectors. This will in most cases constitute your complete construct.<br/>Be aware that using merge blocks combines grids into one, so this function will not filter out grids connected that way. Also be aware that detaching the heads of pistons and rotors will cause this connection to change.<br/><br/>_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyConveyorSorter)_|
 |[`RequestEnable(bool)`](Sandbox.ModAPI.Ingame.RequestEnable)|_Inherited from [`IMyFunctionalBlock`](Sandbox.ModAPI.Ingame.IMyConveyorSorter)_|

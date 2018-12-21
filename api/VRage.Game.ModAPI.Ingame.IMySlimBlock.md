@@ -31,4 +31,4 @@ basic block interface
 ### Methods
 |Member|Description|
 |---|---|
-|[`GetMissingComponents(Dictionary<string, int>)`](VRage.Game.ModAPI.Ingame.GetMissingComponents)|Gets the list of missing components for this block|
+|[`GetMissingComponents(Dictionary<string, int>)`](VRage.Game.ModAPI.Ingame.GetMissingComponents)|Gets the list of missing components for this block|

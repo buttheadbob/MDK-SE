@@ -7,7 +7,7 @@ Defines a frustum and helps determine whether forms intersect with it.
 ### Fields
 |Member|Description|
 |---|---|
-|static [`CornerCount`](VRageMath.CornerCount)|Specifies the total number of corners (8) in the BoundingFrustumD.|
+|static [`CornerCount`](VRageMath.CornerCount)|Specifies the total number of corners (8) in the BoundingFrustumD.|
 ### Properties
 |Member|Description|
 |---|---|
@@ -30,18 +30,18 @@ Defines a frustum and helps determine whether forms intersect with it.
 |[`GetHashCode()`](VRageMath.GetHashCode)|Gets the hash code for this instance.|
 |[`ToString()`](VRageMath.ToString)|Returns a String that represents the current BoundingFrustumD.|
 |[`Intersects(BoundingBoxD)`](VRageMath.Intersects)|Checks whether the current BoundingFrustumD intersects the specified BoundingBoxD.|
-|[`Intersects(ref BoundingBoxD, ref bool)`](VRageMath.Intersects)|Checks whether the current BoundingFrustumD intersects a BoundingBoxD.|
+|[`Intersects(ref BoundingBoxD, ref bool)`](VRageMath.Intersects)|Checks whether the current BoundingFrustumD intersects a BoundingBoxD.|
 |[`Intersects(BoundingFrustumD)`](VRageMath.Intersects)|Checks whether the current BoundingFrustumD intersects the specified BoundingFrustumD.|
 |[`Intersects(PlaneD)`](VRageMath.Intersects)|Checks whether the current BoundingFrustumD intersects the specified Plane.|
-|[`Intersects(ref PlaneD, ref PlaneIntersectionType)`](VRageMath.Intersects)|Checks whether the current BoundingFrustumD intersects a Plane.|
+|[`Intersects(ref PlaneD, ref PlaneIntersectionType)`](VRageMath.Intersects)|Checks whether the current BoundingFrustumD intersects a Plane.|
 |[`Intersects(RayD)`](VRageMath.Intersects)|Checks whether the current BoundingFrustumD intersects the specified Ray.|
-|[`Intersects(ref RayD, ref Nullable<double>)`](VRageMath.Intersects)|Checks whether the current BoundingFrustumD intersects a Ray.|
+|[`Intersects(ref RayD, ref Nullable<double>)`](VRageMath.Intersects)|Checks whether the current BoundingFrustumD intersects a Ray.|
 |[`Intersects(BoundingSphereD)`](VRageMath.Intersects)|Checks whether the current BoundingFrustumD intersects the specified BoundingSphere.|
-|[`Intersects(ref BoundingSphereD, ref bool)`](VRageMath.Intersects)|Checks whether the current BoundingFrustumD intersects a BoundingSphere.|
+|[`Intersects(ref BoundingSphereD, ref bool)`](VRageMath.Intersects)|Checks whether the current BoundingFrustumD intersects a BoundingSphere.|
 |[`Contains(BoundingBoxD)`](VRageMath.Contains)|Checks whether the current BoundingFrustumD contains the specified BoundingBoxD.|
-|[`Contains(ref BoundingBoxD, ref ContainmentType)`](VRageMath.Contains)|Checks whether the current BoundingFrustumD contains the specified BoundingBoxD.|
+|[`Contains(ref BoundingBoxD, ref ContainmentType)`](VRageMath.Contains)|Checks whether the current BoundingFrustumD contains the specified BoundingBoxD.|
 |[`Contains(BoundingFrustumD)`](VRageMath.Contains)|Checks whether the current BoundingFrustumD contains the specified BoundingFrustumD.|
 |[`Contains(Vector3D)`](VRageMath.Contains)|Checks whether the current BoundingFrustumD contains the specified point.|
-|[`Contains(ref Vector3D, ref ContainmentType)`](VRageMath.Contains)|Checks whether the current BoundingFrustumD contains the specified point.|
+|[`Contains(ref Vector3D, ref ContainmentType)`](VRageMath.Contains)|Checks whether the current BoundingFrustumD contains the specified point.|
 |[`Contains(BoundingSphereD)`](VRageMath.Contains)|Checks whether the current BoundingFrustumD contains the specified BoundingSphere.|
-|[`Contains(ref BoundingSphereD, ref ContainmentType)`](VRageMath.Contains)|Checks whether the current BoundingFrustumD contains the specified BoundingSphere.|
+|[`Contains(ref BoundingSphereD, ref ContainmentType)`](VRageMath.Contains)|Checks whether the current BoundingFrustumD contains the specified BoundingSphere.|

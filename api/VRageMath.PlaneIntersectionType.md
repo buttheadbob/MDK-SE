@@ -7,6 +7,6 @@ Describes the intersection between a plane and a bounding volume.
 ### Fields
 |Member|Description|
 |---|---|
-|static [`Front`](VRageMath.Front)||
-|static [`Back`](VRageMath.Back)||
-|static [`Intersecting`](VRageMath.Intersecting)||
+|static [`Front`](VRageMath.Front)||
+|static [`Back`](VRageMath.Back)||
+|static [`Intersecting`](VRageMath.Intersecting)||

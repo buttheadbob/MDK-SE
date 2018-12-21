@@ -17,9 +17,9 @@ Defines a ray.
 |[`GetHashCode()`](VRageMath.GetHashCode)|Gets the hash code for this instance.|
 |[`ToString()`](VRageMath.ToString)|Returns a String that represents the current Ray.|
 |[`Intersects(BoundingBoxD)`](VRageMath.Intersects)|Checks whether the Ray intersects a specified BoundingBox.|
-|[`Intersects(ref BoundingBoxD, ref Nullable<double>)`](VRageMath.Intersects)|Checks whether the current Ray intersects a BoundingBox.|
+|[`Intersects(ref BoundingBoxD, ref Nullable<double>)`](VRageMath.Intersects)|Checks whether the current Ray intersects a BoundingBox.|
 |[`Intersects(BoundingFrustumD)`](VRageMath.Intersects)|Checks whether the Ray intersects a specified BoundingFrustum.|
 |[`Intersects(PlaneD)`](VRageMath.Intersects)|Determines whether this Ray intersects a specified Plane.|
-|[`Intersects(ref PlaneD, ref Nullable<double>)`](VRageMath.Intersects)|Determines whether this Ray intersects a specified Plane.|
+|[`Intersects(ref PlaneD, ref Nullable<double>)`](VRageMath.Intersects)|Determines whether this Ray intersects a specified Plane.|
 |[`Intersects(BoundingSphereD)`](VRageMath.Intersects)|Checks whether the Ray intersects a specified BoundingSphere.|
-|[`Intersects(ref BoundingSphere, ref Nullable<double>)`](VRageMath.Intersects)|Checks whether the current Ray intersects a BoundingSphere.|
+|[`Intersects(ref BoundingSphere, ref Nullable<double>)`](VRageMath.Intersects)|Checks whether the current Ray intersects a BoundingSphere.|

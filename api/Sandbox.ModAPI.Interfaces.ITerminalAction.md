@@ -12,6 +12,6 @@
 |Member|Description|
 |---|---|
 |[`Apply(IMyCubeBlock)`](Sandbox.ModAPI.Interfaces.Apply)||
-|[`Apply(IMyCubeBlock, ListReader<TerminalActionParameter>)`](Sandbox.ModAPI.Interfaces.Apply)||
-|[`WriteValue(IMyCubeBlock, StringBuilder)`](Sandbox.ModAPI.Interfaces.WriteValue)||
+|[`Apply(IMyCubeBlock, ListReader<TerminalActionParameter>)`](Sandbox.ModAPI.Interfaces.Apply)||
+|[`WriteValue(IMyCubeBlock, StringBuilder)`](Sandbox.ModAPI.Interfaces.WriteValue)||
 |[`IsEnabled(IMyCubeBlock)`](Sandbox.ModAPI.Interfaces.IsEnabled)||

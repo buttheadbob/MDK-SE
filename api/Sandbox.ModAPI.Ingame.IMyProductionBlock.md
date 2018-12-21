@@ -56,17 +56,17 @@
 ### Methods
 |Member|Description|
 |---|---|
-|[`MoveQueueItemRequest(uint, int)`](Sandbox.ModAPI.Ingame.MoveQueueItemRequest)|Moves an item in the queue to a target position in the queue.|
+|[`MoveQueueItemRequest(uint, int)`](Sandbox.ModAPI.Ingame.MoveQueueItemRequest)|Moves an item in the queue to a target position in the queue.|
 |[`CanUseBlueprint(MyDefinitionId)`](Sandbox.ModAPI.Ingame.CanUseBlueprint)|Can this production block produce this blueprint?|
-|[`AddQueueItem(MyDefinitionId, MyFixedPoint)`](Sandbox.ModAPI.Ingame.AddQueueItem)|Adds a blueprint to the production queue|
-|[`AddQueueItem(MyDefinitionId, decimal)`](Sandbox.ModAPI.Ingame.AddQueueItem)|Adds a blueprint to the production queue|
-|[`AddQueueItem(MyDefinitionId, double)`](Sandbox.ModAPI.Ingame.AddQueueItem)|Adds a blueprint to the production queue|
-|[`InsertQueueItem(int, MyDefinitionId, MyFixedPoint)`](Sandbox.ModAPI.Ingame.InsertQueueItem)|Inserts a blueprint into the production queue|
-|[`InsertQueueItem(int, MyDefinitionId, decimal)`](Sandbox.ModAPI.Ingame.InsertQueueItem)|Inserts a blueprint into the production queue|
-|[`InsertQueueItem(int, MyDefinitionId, double)`](Sandbox.ModAPI.Ingame.InsertQueueItem)|Inserts a blueprint into the production queue|
-|[`RemoveQueueItem(int, MyFixedPoint)`](Sandbox.ModAPI.Ingame.RemoveQueueItem)|Removes an item from the queue|
-|[`RemoveQueueItem(int, decimal)`](Sandbox.ModAPI.Ingame.RemoveQueueItem)|Removes an item from the queue|
-|[`RemoveQueueItem(int, double)`](Sandbox.ModAPI.Ingame.RemoveQueueItem)|Removes an item from the queue|
+|[`AddQueueItem(MyDefinitionId, MyFixedPoint)`](Sandbox.ModAPI.Ingame.AddQueueItem)|Adds a blueprint to the production queue|
+|[`AddQueueItem(MyDefinitionId, decimal)`](Sandbox.ModAPI.Ingame.AddQueueItem)|Adds a blueprint to the production queue|
+|[`AddQueueItem(MyDefinitionId, double)`](Sandbox.ModAPI.Ingame.AddQueueItem)|Adds a blueprint to the production queue|
+|[`InsertQueueItem(int, MyDefinitionId, MyFixedPoint)`](Sandbox.ModAPI.Ingame.InsertQueueItem)|Inserts a blueprint into the production queue|
+|[`InsertQueueItem(int, MyDefinitionId, decimal)`](Sandbox.ModAPI.Ingame.InsertQueueItem)|Inserts a blueprint into the production queue|
+|[`InsertQueueItem(int, MyDefinitionId, double)`](Sandbox.ModAPI.Ingame.InsertQueueItem)|Inserts a blueprint into the production queue|
+|[`RemoveQueueItem(int, MyFixedPoint)`](Sandbox.ModAPI.Ingame.RemoveQueueItem)|Removes an item from the queue|
+|[`RemoveQueueItem(int, decimal)`](Sandbox.ModAPI.Ingame.RemoveQueueItem)|Removes an item from the queue|
+|[`RemoveQueueItem(int, double)`](Sandbox.ModAPI.Ingame.RemoveQueueItem)|Removes an item from the queue|
 |[`ClearQueue()`](Sandbox.ModAPI.Ingame.ClearQueue)|Clears the Queue|
 |[`GetQueue(List<MyProductionItem>)`](Sandbox.ModAPI.Ingame.GetQueue)|Gets the current production queue|
 |[`GetInventory()`](VRage.Game.ModAPI.Ingame.GetInventory)|Simply get the MyInventoryBase component stored in this entity.<br/><br/>_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
@@ -81,10 +81,10 @@
 |[`HasPlayerAccess(long)`](Sandbox.ModAPI.Ingame.HasPlayerAccess)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
 |[`SetCustomName(string)`](Sandbox.ModAPI.Ingame.SetCustomName)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
 |[`SetCustomName(StringBuilder)`](Sandbox.ModAPI.Ingame.SetCustomName)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
-|[`GetActions(List<ITerminalAction>, Func<ITerminalAction, bool>)`](Sandbox.ModAPI.Ingame.GetActions)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
-|[`SearchActionsOfName(string, List<ITerminalAction>, Func<ITerminalAction, bool>)`](Sandbox.ModAPI.Ingame.SearchActionsOfName)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
+|[`GetActions(List<ITerminalAction>, Func<ITerminalAction, bool>)`](Sandbox.ModAPI.Ingame.GetActions)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
+|[`SearchActionsOfName(string, List<ITerminalAction>, Func<ITerminalAction, bool>)`](Sandbox.ModAPI.Ingame.SearchActionsOfName)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
 |[`GetActionWithName(string)`](Sandbox.ModAPI.Ingame.GetActionWithName)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
 |[`GetProperty(string)`](Sandbox.ModAPI.Ingame.GetProperty)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
-|[`GetProperties(List<ITerminalProperty>, Func<ITerminalProperty, bool>)`](Sandbox.ModAPI.Ingame.GetProperties)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
+|[`GetProperties(List<ITerminalProperty>, Func<ITerminalProperty, bool>)`](Sandbox.ModAPI.Ingame.GetProperties)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
 |[`IsSameConstructAs(IMyTerminalBlock)`](Sandbox.ModAPI.Ingame.IsSameConstructAs)|Determines whether this block is mechanically connected to the other. This is any block connected with rotors or pistons or other mechanical devices, but not things like connectors. This will in most cases constitute your complete construct.<br/>Be aware that using merge blocks combines grids into one, so this function will not filter out grids connected that way. Also be aware that detaching the heads of pistons and rotors will cause this connection to change.<br/><br/>_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
 |[`RequestEnable(bool)`](Sandbox.ModAPI.Ingame.RequestEnable)|_Inherited from [`IMyFunctionalBlock`](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|

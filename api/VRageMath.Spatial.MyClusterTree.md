@@ -12,12 +12,12 @@
 |[`GetEntityReplicableExistsById`](VRageMath.Spatial.GetEntityReplicableExistsById)||
 |[`SingleCluster`](VRageMath.Spatial.SingleCluster)||
 |[`ForcedClusters`](VRageMath.Spatial.ForcedClusters)||
-|static [`IdealClusterSize`](VRageMath.Spatial.IdealClusterSize)||
-|static [`IdealClusterSizeHalfSqr`](VRageMath.Spatial.IdealClusterSizeHalfSqr)||
-|static [`MinimumDistanceFromBorder`](VRageMath.Spatial.MinimumDistanceFromBorder)||
-|static [`MaximumForSplit`](VRageMath.Spatial.MaximumForSplit)||
-|static [`MaximumClusterSize`](VRageMath.Spatial.MaximumClusterSize)||
-|static [`CLUSTERED_OBJECT_ID_UNITIALIZED`](VRageMath.Spatial.CLUSTERED_OBJECT_ID_UNITIALIZED)||
+|static [`IdealClusterSize`](VRageMath.Spatial.IdealClusterSize)||
+|static [`IdealClusterSizeHalfSqr`](VRageMath.Spatial.IdealClusterSizeHalfSqr)||
+|static [`MinimumDistanceFromBorder`](VRageMath.Spatial.MinimumDistanceFromBorder)||
+|static [`MaximumForSplit`](VRageMath.Spatial.MaximumForSplit)||
+|static [`MaximumClusterSize`](VRageMath.Spatial.MaximumClusterSize)||
+|static [`CLUSTERED_OBJECT_ID_UNITIALIZED`](VRageMath.Spatial.CLUSTERED_OBJECT_ID_UNITIALIZED)||
 ### Properties
 |Member|Description|
 |---|---|
@@ -25,9 +25,9 @@
 ### Methods
 |Member|Description|
 |---|---|
-|[`AddObject(BoundingBoxD, IMyActivationHandler, Nullable<ulong>, string, long, bool)`](VRageMath.Spatial.AddObject)||
-|static [`AdjustAABBByVelocity(BoundingBoxD, Vector3, float)`](VRageMath.Spatial.AdjustAABBByVelocity)||
-|[`MoveObject(ulong, BoundingBoxD, Vector3)`](VRageMath.Spatial.MoveObject)||
+|[`AddObject(BoundingBoxD, IMyActivationHandler, Nullable<ulong>, string, long, bool)`](VRageMath.Spatial.AddObject)||
+|static [`AdjustAABBByVelocity(BoundingBoxD, Vector3, float)`](VRageMath.Spatial.AdjustAABBByVelocity)||
+|[`MoveObject(ulong, BoundingBoxD, Vector3)`](VRageMath.Spatial.MoveObject)||
 |[`EnsureClusterSpace(BoundingBoxD)`](VRageMath.Spatial.EnsureClusterSpace)||
 |[`RemoveObject(ulong)`](VRageMath.Spatial.RemoveObject)||
 |[`GetObjectOffset(ulong)`](VRageMath.Spatial.GetObjectOffset)||
@@ -36,10 +36,10 @@
 |[`GetList()`](VRageMath.Spatial.GetList)||
 |[`GetListCopy()`](VRageMath.Spatial.GetListCopy)||
 |[`GetClusters()`](VRageMath.Spatial.GetClusters)||
-|[`CastRay(Vector3D, Vector3D, List<MyClusterQueryResult>)`](VRageMath.Spatial.CastRay)||
-|[`Intersects(Vector3D, List<MyClusterQueryResult>)`](VRageMath.Spatial.Intersects)||
+|[`CastRay(Vector3D, Vector3D, List<MyClusterQueryResult>)`](VRageMath.Spatial.CastRay)||
+|[`Intersects(Vector3D, List<MyClusterQueryResult>)`](VRageMath.Spatial.Intersects)||
 |[`GetAll(List<MyClusterQueryResult>)`](VRageMath.Spatial.GetAll)||
-|[`ReorderClusters(BoundingBoxD, ulong)`](VRageMath.Spatial.ReorderClusters)||
+|[`ReorderClusters(BoundingBoxD, ulong)`](VRageMath.Spatial.ReorderClusters)||
 |[`GetAllStaticObjects(List<BoundingBoxD>)`](VRageMath.Spatial.GetAllStaticObjects)||
 |[`Serialize(List<BoundingBoxD>)`](VRageMath.Spatial.Serialize)||
 |[`Deserialize(List<BoundingBoxD>)`](VRageMath.Spatial.Deserialize)||

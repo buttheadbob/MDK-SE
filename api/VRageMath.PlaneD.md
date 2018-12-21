@@ -17,23 +17,23 @@ Defines a PlaneD.
 |[`GetHashCode()`](VRageMath.GetHashCode)|Gets the hash code for this object.|
 |[`ToString()`](VRageMath.ToString)|Returns a String that represents the current PlaneD.|
 |[`Normalize()`](VRageMath.Normalize)|Changes the coefficients of the Normal vector of this PlaneD to make it of unit length.|
-|static [`Normalize(PlaneD)`](VRageMath.Normalize)|Changes the coefficients of the Normal vector of a PlaneD to make it of unit length.|
-|static [`Normalize(ref PlaneD, ref PlaneD)`](VRageMath.Normalize)|Changes the coefficients of the Normal vector of a PlaneD to make it of unit length.|
-|static [`Transform(PlaneD, MatrixD)`](VRageMath.Transform)|Transforms a normalized PlaneD by a Matrix.|
-|static [`Transform(ref PlaneD, ref MatrixD, ref PlaneD)`](VRageMath.Transform)|Transforms a normalized PlaneD by a Matrix.|
+|static [`Normalize(PlaneD)`](VRageMath.Normalize)|Changes the coefficients of the Normal vector of a PlaneD to make it of unit length.|
+|static [`Normalize(ref PlaneD, ref PlaneD)`](VRageMath.Normalize)|Changes the coefficients of the Normal vector of a PlaneD to make it of unit length.|
+|static [`Transform(PlaneD, MatrixD)`](VRageMath.Transform)|Transforms a normalized PlaneD by a Matrix.|
+|static [`Transform(ref PlaneD, ref MatrixD, ref PlaneD)`](VRageMath.Transform)|Transforms a normalized PlaneD by a Matrix.|
 |[`Dot(Vector4)`](VRageMath.Dot)|Calculates the dot product of a specified Vector4 and this PlaneD.|
-|[`Dot(ref Vector4, ref double)`](VRageMath.Dot)|Calculates the dot product of a specified Vector4 and this PlaneD.|
+|[`Dot(ref Vector4, ref double)`](VRageMath.Dot)|Calculates the dot product of a specified Vector4 and this PlaneD.|
 |[`DotCoordinate(Vector3D)`](VRageMath.DotCoordinate)|Returns the dot product of a specified Vector3D and the Normal vector of this PlaneD plus the distance (D) value of the PlaneD.|
-|[`DotCoordinate(ref Vector3D, ref double)`](VRageMath.DotCoordinate)|Returns the dot product of a specified Vector3D and the Normal vector of this PlaneD plus the distance (D) value of the PlaneD.|
+|[`DotCoordinate(ref Vector3D, ref double)`](VRageMath.DotCoordinate)|Returns the dot product of a specified Vector3D and the Normal vector of this PlaneD plus the distance (D) value of the PlaneD.|
 |[`DotNormal(Vector3D)`](VRageMath.DotNormal)|Returns the dot product of a specified Vector3D and the Normal vector of this PlaneD.|
-|[`DotNormal(ref Vector3D, ref double)`](VRageMath.DotNormal)|Returns the dot product of a specified Vector3D and the Normal vector of this PlaneD.|
+|[`DotNormal(ref Vector3D, ref double)`](VRageMath.DotNormal)|Returns the dot product of a specified Vector3D and the Normal vector of this PlaneD.|
 |[`Intersects(BoundingBoxD)`](VRageMath.Intersects)|Checks whether the current PlaneD intersects a specified BoundingBox.|
-|[`Intersects(ref BoundingBoxD, ref PlaneIntersectionType)`](VRageMath.Intersects)|Checks whether the current PlaneD intersects a BoundingBox.|
+|[`Intersects(ref BoundingBoxD, ref PlaneIntersectionType)`](VRageMath.Intersects)|Checks whether the current PlaneD intersects a BoundingBox.|
 |[`Intersects(BoundingFrustumD)`](VRageMath.Intersects)|Checks whether the current PlaneD intersects a specified BoundingFrustum.|
 |[`Intersects(BoundingSphereD)`](VRageMath.Intersects)|Checks whether the current PlaneD intersects a specified BoundingSphere.|
-|[`Intersects(ref BoundingSphere, ref PlaneIntersectionType)`](VRageMath.Intersects)|Checks whether the current PlaneD intersects a BoundingSphere.|
+|[`Intersects(ref BoundingSphere, ref PlaneIntersectionType)`](VRageMath.Intersects)|Checks whether the current PlaneD intersects a BoundingSphere.|
 |[`RandomPoint()`](VRageMath.RandomPoint)||
 |[`DistanceToPoint(Vector3D)`](VRageMath.DistanceToPoint)||
 |[`DistanceToPoint(ref Vector3D)`](VRageMath.DistanceToPoint)||
 |[`ProjectPoint(ref Vector3D)`](VRageMath.ProjectPoint)||
-|[`Intersection(ref Vector3D, ref Vector3D)`](VRageMath.Intersection)|Gets intersection point in Plane.|
+|[`Intersection(ref Vector3D, ref Vector3D)`](VRageMath.Intersection)|Gets intersection point in Plane.|

@@ -12,7 +12,7 @@
 ### Methods
 |Member|Description|
 |---|---|
-|static [`GetShortestDistanceSquared(LineD, LineD)`](VRageMath.GetShortestDistanceSquared)||
-|static [`GetShortestVector(ref LineD, ref LineD, ref Vector3D, ref Vector3D)`](VRageMath.GetShortestVector)||
+|static [`GetShortestDistanceSquared(LineD, LineD)`](VRageMath.GetShortestDistanceSquared)||
+|static [`GetShortestVector(ref LineD, ref LineD, ref Vector3D, ref Vector3D)`](VRageMath.GetShortestVector)||
 |[`GetBoundingBox()`](VRageMath.GetBoundingBox)||
 |[`GetHash()`](VRageMath.GetHash)||

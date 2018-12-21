@@ -5,10 +5,10 @@
 ### Properties
 |Member|Description|
 |---|---|
-|static [`Languages`](VRage.Languages)||
+|static [`Languages`](VRage.Languages)||
 ### Methods
 |Member|Description|
 |---|---|
-|static [`Get(MyStringId)`](VRage.Get)||
-|static [`GetString(MyStringId)`](VRage.GetString)||
-|static [`Exists(MyStringId)`](VRage.Exists)||
+|static [`Get(MyStringId)`](VRage.Get)||
+|static [`GetString(MyStringId)`](VRage.GetString)||
+|static [`Exists(MyStringId)`](VRage.Exists)||

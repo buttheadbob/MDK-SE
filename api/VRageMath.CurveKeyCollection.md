@@ -19,7 +19,7 @@ Contains the CurveKeys making up a Curve.
 |[`Add(CurveKey)`](VRageMath.Add)|Adds a CurveKey to the CurveKeyCollection.|
 |[`Clear()`](VRageMath.Clear)|Removes all CurveKeys from the CurveKeyCollection.|
 |[`Contains(CurveKey)`](VRageMath.Contains)|Determines whether the CurveKeyCollection contains a specific CurveKey.|
-|[`CopyTo(CurveKey[], int)`](VRageMath.CopyTo)|Copies the CurveKeys of the CurveKeyCollection to an array, starting at the array index provided.|
+|[`CopyTo(CurveKey[], int)`](VRageMath.CopyTo)|Copies the CurveKeys of the CurveKeyCollection to an array, starting at the array index provided.|
 |[`Remove(CurveKey)`](VRageMath.Remove)|Removes the first occurrence of a specific CurveKey from the CurveKeyCollection.|
 |[`GetEnumerator()`](VRageMath.GetEnumerator)|Returns an enumerator that iterates through the CurveKeyCollection.|
 |[`Clone()`](VRageMath.Clone)|Creates a copy of the CurveKeyCollection.|

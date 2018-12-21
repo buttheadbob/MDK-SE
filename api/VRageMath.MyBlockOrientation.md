@@ -7,7 +7,7 @@
 |---|---|
 |[`Forward`](VRageMath.Forward)||
 |[`Up`](VRageMath.Up)||
-|static [`Identity`](VRageMath.Identity)||
+|static [`Identity`](VRageMath.Identity)||
 ### Properties
 |Member|Description|
 |---|---|

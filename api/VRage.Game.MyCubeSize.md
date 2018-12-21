@@ -5,5 +5,5 @@
 ### Fields
 |Member|Description|
 |---|---|
-|static [`Large`](VRage.Game.Large)||
-|static [`Small`](VRage.Game.Small)||
+|static [`Large`](VRage.Game.Large)||
+|static [`Small`](VRage.Game.Small)||

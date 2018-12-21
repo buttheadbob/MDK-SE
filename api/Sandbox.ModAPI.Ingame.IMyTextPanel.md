@@ -58,20 +58,20 @@
 ### Methods
 |Member|Description|
 |---|---|
-|[`WritePublicText(string, bool)`](Sandbox.ModAPI.Ingame.WritePublicText)||
+|[`WritePublicText(string, bool)`](Sandbox.ModAPI.Ingame.WritePublicText)||
 |[`GetPublicText()`](Sandbox.ModAPI.Ingame.GetPublicText)||
-|[`WritePublicText(StringBuilder, bool)`](Sandbox.ModAPI.Ingame.WritePublicText)||
-|[`ReadPublicText(StringBuilder, bool)`](Sandbox.ModAPI.Ingame.ReadPublicText)||
-|[`WritePublicTitle(string, bool)`](Sandbox.ModAPI.Ingame.WritePublicTitle)||
+|[`WritePublicText(StringBuilder, bool)`](Sandbox.ModAPI.Ingame.WritePublicText)||
+|[`ReadPublicText(StringBuilder, bool)`](Sandbox.ModAPI.Ingame.ReadPublicText)||
+|[`WritePublicTitle(string, bool)`](Sandbox.ModAPI.Ingame.WritePublicTitle)||
 |[`GetPublicTitle()`](Sandbox.ModAPI.Ingame.GetPublicTitle)||
-|[`WritePrivateText(string, bool)`](Sandbox.ModAPI.Ingame.WritePrivateText)||
+|[`WritePrivateText(string, bool)`](Sandbox.ModAPI.Ingame.WritePrivateText)||
 |[`GetPrivateText()`](Sandbox.ModAPI.Ingame.GetPrivateText)||
-|[`WritePrivateTitle(string, bool)`](Sandbox.ModAPI.Ingame.WritePrivateTitle)||
+|[`WritePrivateTitle(string, bool)`](Sandbox.ModAPI.Ingame.WritePrivateTitle)||
 |[`GetPrivateTitle()`](Sandbox.ModAPI.Ingame.GetPrivateTitle)||
-|[`AddImageToSelection(string, bool)`](Sandbox.ModAPI.Ingame.AddImageToSelection)||
-|[`AddImagesToSelection(List<string>, bool)`](Sandbox.ModAPI.Ingame.AddImagesToSelection)||
-|[`RemoveImageFromSelection(string, bool)`](Sandbox.ModAPI.Ingame.RemoveImageFromSelection)||
-|[`RemoveImagesFromSelection(List<string>, bool)`](Sandbox.ModAPI.Ingame.RemoveImagesFromSelection)||
+|[`AddImageToSelection(string, bool)`](Sandbox.ModAPI.Ingame.AddImageToSelection)||
+|[`AddImagesToSelection(List<string>, bool)`](Sandbox.ModAPI.Ingame.AddImagesToSelection)||
+|[`RemoveImageFromSelection(string, bool)`](Sandbox.ModAPI.Ingame.RemoveImageFromSelection)||
+|[`RemoveImagesFromSelection(List<string>, bool)`](Sandbox.ModAPI.Ingame.RemoveImagesFromSelection)||
 |[`ClearImagesFromSelection()`](Sandbox.ModAPI.Ingame.ClearImagesFromSelection)||
 |[`GetSelectedImages(List<string>)`](Sandbox.ModAPI.Ingame.GetSelectedImages)|Outputs the selected image ids to the specified list. NOTE: List is not cleared internally.|
 |[`ShowPublicTextOnScreen()`](Sandbox.ModAPI.Ingame.ShowPublicTextOnScreen)||
@@ -91,10 +91,10 @@
 |[`HasPlayerAccess(long)`](Sandbox.ModAPI.Ingame.HasPlayerAccess)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTextPanel)_|
 |[`SetCustomName(string)`](Sandbox.ModAPI.Ingame.SetCustomName)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTextPanel)_|
 |[`SetCustomName(StringBuilder)`](Sandbox.ModAPI.Ingame.SetCustomName)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTextPanel)_|
-|[`GetActions(List<ITerminalAction>, Func<ITerminalAction, bool>)`](Sandbox.ModAPI.Ingame.GetActions)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTextPanel)_|
-|[`SearchActionsOfName(string, List<ITerminalAction>, Func<ITerminalAction, bool>)`](Sandbox.ModAPI.Ingame.SearchActionsOfName)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTextPanel)_|
+|[`GetActions(List<ITerminalAction>, Func<ITerminalAction, bool>)`](Sandbox.ModAPI.Ingame.GetActions)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTextPanel)_|
+|[`SearchActionsOfName(string, List<ITerminalAction>, Func<ITerminalAction, bool>)`](Sandbox.ModAPI.Ingame.SearchActionsOfName)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTextPanel)_|
 |[`GetActionWithName(string)`](Sandbox.ModAPI.Ingame.GetActionWithName)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTextPanel)_|
 |[`GetProperty(string)`](Sandbox.ModAPI.Ingame.GetProperty)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTextPanel)_|
-|[`GetProperties(List<ITerminalProperty>, Func<ITerminalProperty, bool>)`](Sandbox.ModAPI.Ingame.GetProperties)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTextPanel)_|
+|[`GetProperties(List<ITerminalProperty>, Func<ITerminalProperty, bool>)`](Sandbox.ModAPI.Ingame.GetProperties)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTextPanel)_|
 |[`IsSameConstructAs(IMyTerminalBlock)`](Sandbox.ModAPI.Ingame.IsSameConstructAs)|Determines whether this block is mechanically connected to the other. This is any block connected with rotors or pistons or other mechanical devices, but not things like connectors. This will in most cases constitute your complete construct.<br/>Be aware that using merge blocks combines grids into one, so this function will not filter out grids connected that way. Also be aware that detaching the heads of pistons and rotors will cause this connection to change.<br/><br/>_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTextPanel)_|
 |[`RequestEnable(bool)`](Sandbox.ModAPI.Ingame.RequestEnable)|_Inherited from [`IMyFunctionalBlock`](Sandbox.ModAPI.Ingame.IMyTextPanel)_|

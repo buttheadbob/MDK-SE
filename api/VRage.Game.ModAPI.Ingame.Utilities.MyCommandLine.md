@@ -16,5 +16,5 @@ A utility class to parse arguments from a command line string. Switches are defi
 |[`TryParse(string)`](VRage.Game.ModAPI.Ingame.Utilities.TryParse)|Attempts to parse the given string as a command line|
 |[`Argument(int)`](VRage.Game.ModAPI.Ingame.Utilities.Argument)|Returns the argument at the given index. Switches are not counted.|
 |[`Switch(string)`](VRage.Game.ModAPI.Ingame.Utilities.Switch)|Determines whether the given switch is set. Switches are specified without their prefixed hyphen.|
-|[`Switch(string, int)`](VRage.Game.ModAPI.Ingame.Utilities.Switch)|Gets an argument of a switch. For example, using`Switch("key", 0)`on the command line`someOtherArgument -key value`will return`value`.|
+|[`Switch(string, int)`](VRage.Game.ModAPI.Ingame.Utilities.Switch)|Gets an argument of a switch. For example, using`Switch("key", 0)`on the command line`someOtherArgument -key value`will return`value`.|
 |[`Clear()`](VRage.Game.ModAPI.Ingame.Utilities.Clear)|Clears all arguments|

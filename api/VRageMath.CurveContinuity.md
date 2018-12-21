@@ -7,5 +7,5 @@ Defines the continuity of CurveKeys on a Curve.
 ### Fields
 |Member|Description|
 |---|---|
-|static [`Smooth`](VRageMath.Smooth)||
-|static [`Step`](VRageMath.Step)||
+|static [`Smooth`](VRageMath.Smooth)||
+|static [`Step`](VRageMath.Step)||

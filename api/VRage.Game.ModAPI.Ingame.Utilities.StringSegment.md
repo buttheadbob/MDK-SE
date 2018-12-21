@@ -18,7 +18,7 @@
 |Member|Description|
 |---|---|
 |[`IndexOf(char)`](VRage.Game.ModAPI.Ingame.Utilities.IndexOf)||
-|[`IndexOf(char, int)`](VRage.Game.ModAPI.Ingame.Utilities.IndexOf)||
+|[`IndexOf(char, int)`](VRage.Game.ModAPI.Ingame.Utilities.IndexOf)||
 |[`IndexOfAny(Char[])`](VRage.Game.ModAPI.Ingame.Utilities.IndexOfAny)||
 |[`EqualsIgnoreCase(StringSegment)`](VRage.Game.ModAPI.Ingame.Utilities.EqualsIgnoreCase)||
 |[`ToString()`](VRage.Game.ModAPI.Ingame.Utilities.ToString)||

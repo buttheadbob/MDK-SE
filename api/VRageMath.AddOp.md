@@ -5,4 +5,4 @@
 ### Methods
 |Member|Description|
 |---|---|
-|[`Add(T, bool)`](VRageMath.Add)||
+|[`Add(T, bool)`](VRageMath.Add)||

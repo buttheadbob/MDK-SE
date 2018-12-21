@@ -15,7 +15,7 @@
 |Member|Description|
 |---|---|
 |[`CreateFromVertices(Vector3[])`](VRageMath.CreateFromVertices)||
-|[`CreateFromSizes(float, float, float, float, float)`](VRageMath.CreateFromSizes)||
+|[`CreateFromSizes(float, float, float, float, float)`](VRageMath.CreateFromSizes)||
 |[`GetAABB()`](VRageMath.GetAABB)||
 |[`GetLocalAABB()`](VRageMath.GetLocalAABB)||
 |[`CreateTransformed(ref Matrix)`](VRageMath.CreateTransformed)||

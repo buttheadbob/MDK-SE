@@ -7,7 +7,7 @@
 |---|---|
 |[`TypeCode`](Sandbox.ModAPI.Ingame.TypeCode)||
 |[`Value`](Sandbox.ModAPI.Ingame.Value)||
-|static [`Empty`](Sandbox.ModAPI.Ingame.Empty)|Gets an empty parameter.|
+|static [`Empty`](Sandbox.ModAPI.Ingame.Empty)|Gets an empty parameter.|
 ### Properties
 |Member|Description|
 |---|---|
@@ -15,6 +15,6 @@
 ### Methods
 |Member|Description|
 |---|---|
-|static [`Deserialize(string, TypeCode)`](Sandbox.ModAPI.Ingame.Deserialize)|Creates a [TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter) from a serialized value in a string and a type code.|
-|static [`Get(Object)`](Sandbox.ModAPI.Ingame.Get)|Creates a [TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter) from the given value.|
+|static [`Deserialize(string, TypeCode)`](Sandbox.ModAPI.Ingame.Deserialize)|Creates a [TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter) from a serialized value in a string and a type code.|
+|static [`Get(Object)`](Sandbox.ModAPI.Ingame.Get)|Creates a [TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter) from the given value.|
 |[`GetObjectBuilder()`](Sandbox.ModAPI.Ingame.GetObjectBuilder)||

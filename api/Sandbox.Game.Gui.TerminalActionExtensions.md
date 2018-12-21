@@ -5,6 +5,6 @@
 ### Methods
 |Member|Description|
 |---|---|
-|static [`GetAction(IMyTerminalBlock, string)`](Sandbox.Game.Gui.GetAction)||
-|static [`ApplyAction(IMyTerminalBlock, string)`](Sandbox.Game.Gui.ApplyAction)||
-|static [`ApplyAction(IMyTerminalBlock, string, ListReader<TerminalActionParameter>)`](Sandbox.Game.Gui.ApplyAction)||
+|static [`GetAction(IMyTerminalBlock, string)`](Sandbox.Game.Gui.GetAction)||
+|static [`ApplyAction(IMyTerminalBlock, string)`](Sandbox.Game.Gui.ApplyAction)||
+|static [`ApplyAction(IMyTerminalBlock, string, ListReader<TerminalActionParameter>)`](Sandbox.Game.Gui.ApplyAction)||

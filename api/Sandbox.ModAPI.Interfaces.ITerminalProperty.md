@@ -13,7 +13,7 @@
 |Member|Description|
 |---|---|
 |[`GetValue(IMyCubeBlock)`](Sandbox.ModAPI.Interfaces.GetValue)||
-|[`SetValue(IMyCubeBlock, TValue)`](Sandbox.ModAPI.Interfaces.SetValue)||
+|[`SetValue(IMyCubeBlock, TValue)`](Sandbox.ModAPI.Interfaces.SetValue)||
 |[`GetDefaultValue(IMyCubeBlock)`](Sandbox.ModAPI.Interfaces.GetDefaultValue)||
 |[`GetMininum(IMyCubeBlock)`](Sandbox.ModAPI.Interfaces.GetMininum)||
 |[`GetMinimum(IMyCubeBlock)`](Sandbox.ModAPI.Interfaces.GetMinimum)||

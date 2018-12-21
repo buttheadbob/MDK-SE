@@ -12,7 +12,7 @@ Defines a point in 2D space.
 ### Properties
 |Member|Description|
 |---|---|
-|static [`Zero`](VRageMath.Zero)|Returns the point (0,0).|
+|static [`Zero`](VRageMath.Zero)|Returns the point (0,0).|
 ### Methods
 |Member|Description|
 |---|---|

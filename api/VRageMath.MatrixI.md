@@ -25,10 +25,10 @@
 |Member|Description|
 |---|---|
 |[`GetDirection(Direction)`](VRageMath.GetDirection)||
-|[`SetDirection(Direction, Direction)`](VRageMath.SetDirection)||
+|[`SetDirection(Direction, Direction)`](VRageMath.SetDirection)||
 |[`GetBlockOrientation()`](VRageMath.GetBlockOrientation)||
 |[`GetFloatMatrix()`](VRageMath.GetFloatMatrix)||
-|static [`CreateRotation(Direction, Direction, Direction, Direction)`](VRageMath.CreateRotation)||
-|static [`Invert(ref MatrixI, ref MatrixI)`](VRageMath.Invert)||
-|static [`Multiply(ref MatrixI, ref MatrixI, ref MatrixI)`](VRageMath.Multiply)||
-|static [`Transform(ref MyBlockOrientation, ref MatrixI)`](VRageMath.Transform)||
+|static [`CreateRotation(Direction, Direction, Direction, Direction)`](VRageMath.CreateRotation)||
+|static [`Invert(ref MatrixI, ref MatrixI)`](VRageMath.Invert)||
+|static [`Multiply(ref MatrixI, ref MatrixI, ref MatrixI)`](VRageMath.Multiply)||
+|static [`Transform(ref MyBlockOrientation, ref MatrixI)`](VRageMath.Transform)||

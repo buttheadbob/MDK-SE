@@ -11,5 +11,5 @@
 ### Methods
 |Member|Description|
 |---|---|
-|[`Intersect(Ray, ref Vector3, ref Vector3, ref Vector3, ref Vector3)`](VRageMath.Intersect)||
-|[`Intersect(Line, ref Vector3, ref Vector3, ref Vector3, ref Vector3)`](VRageMath.Intersect)||
+|[`Intersect(Ray, ref Vector3, ref Vector3, ref Vector3, ref Vector3)`](VRageMath.Intersect)||
+|[`Intersect(Line, ref Vector3, ref Vector3, ref Vector3, ref Vector3)`](VRageMath.Intersect)||

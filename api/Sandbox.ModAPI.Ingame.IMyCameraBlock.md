@@ -55,11 +55,11 @@
 ### Methods
 |Member|Description|
 |---|---|
-|[`Raycast(double, float, float)`](Sandbox.ModAPI.Ingame.Raycast)|Does a raycast in the direction the camera is facing. Pitch and Yaw are in degrees. Will return an empty struct if distance or angle are out of bounds.|
+|[`Raycast(double, float, float)`](Sandbox.ModAPI.Ingame.Raycast)|Does a raycast in the direction the camera is facing. Pitch and Yaw are in degrees. Will return an empty struct if distance or angle are out of bounds.|
 |[`Raycast(Vector3D)`](Sandbox.ModAPI.Ingame.Raycast)|Does a raycast to the given point. Will return an empty struct if distance or angle are out of bounds.|
-|[`Raycast(double, Vector3D)`](Sandbox.ModAPI.Ingame.Raycast)|Does a raycast in the given direction. Will return an empty struct if distance or angle are out of bounds.|
+|[`Raycast(double, Vector3D)`](Sandbox.ModAPI.Ingame.Raycast)|Does a raycast in the given direction. Will return an empty struct if distance or angle are out of bounds.|
 |[`CanScan(double)`](Sandbox.ModAPI.Ingame.CanScan)|Checks if the camera can scan the given distance.|
-|[`CanScan(double, Vector3D)`](Sandbox.ModAPI.Ingame.CanScan)|Checks if the camera can scan to the given direction and distance.|
+|[`CanScan(double, Vector3D)`](Sandbox.ModAPI.Ingame.CanScan)|Checks if the camera can scan to the given direction and distance.|
 |[`CanScan(Vector3D)`](Sandbox.ModAPI.Ingame.CanScan)|Checks if the camera can scan to the given target|
 |[`TimeUntilScan(double)`](Sandbox.ModAPI.Ingame.TimeUntilScan)|Returns the number of milliseconds until the camera can do a raycast of the given distance.|
 |[`GetInventory()`](VRage.Game.ModAPI.Ingame.GetInventory)|Simply get the MyInventoryBase component stored in this entity.<br/><br/>_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyCameraBlock)_|
@@ -74,10 +74,10 @@
 |[`HasPlayerAccess(long)`](Sandbox.ModAPI.Ingame.HasPlayerAccess)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyCameraBlock)_|
 |[`SetCustomName(string)`](Sandbox.ModAPI.Ingame.SetCustomName)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyCameraBlock)_|
 |[`SetCustomName(StringBuilder)`](Sandbox.ModAPI.Ingame.SetCustomName)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyCameraBlock)_|
-|[`GetActions(List<ITerminalAction>, Func<ITerminalAction, bool>)`](Sandbox.ModAPI.Ingame.GetActions)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyCameraBlock)_|
-|[`SearchActionsOfName(string, List<ITerminalAction>, Func<ITerminalAction, bool>)`](Sandbox.ModAPI.Ingame.SearchActionsOfName)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyCameraBlock)_|
+|[`GetActions(List<ITerminalAction>, Func<ITerminalAction, bool>)`](Sandbox.ModAPI.Ingame.GetActions)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyCameraBlock)_|
+|[`SearchActionsOfName(string, List<ITerminalAction>, Func<ITerminalAction, bool>)`](Sandbox.ModAPI.Ingame.SearchActionsOfName)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyCameraBlock)_|
 |[`GetActionWithName(string)`](Sandbox.ModAPI.Ingame.GetActionWithName)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyCameraBlock)_|
 |[`GetProperty(string)`](Sandbox.ModAPI.Ingame.GetProperty)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyCameraBlock)_|
-|[`GetProperties(List<ITerminalProperty>, Func<ITerminalProperty, bool>)`](Sandbox.ModAPI.Ingame.GetProperties)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyCameraBlock)_|
+|[`GetProperties(List<ITerminalProperty>, Func<ITerminalProperty, bool>)`](Sandbox.ModAPI.Ingame.GetProperties)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyCameraBlock)_|
 |[`IsSameConstructAs(IMyTerminalBlock)`](Sandbox.ModAPI.Ingame.IsSameConstructAs)|Determines whether this block is mechanically connected to the other. This is any block connected with rotors or pistons or other mechanical devices, but not things like connectors. This will in most cases constitute your complete construct.<br/>Be aware that using merge blocks combines grids into one, so this function will not filter out grids connected that way. Also be aware that detaching the heads of pistons and rotors will cause this connection to change.<br/><br/>_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyCameraBlock)_|
 |[`RequestEnable(bool)`](Sandbox.ModAPI.Ingame.RequestEnable)|_Inherited from [`IMyFunctionalBlock`](Sandbox.ModAPI.Ingame.IMyCameraBlock)_|

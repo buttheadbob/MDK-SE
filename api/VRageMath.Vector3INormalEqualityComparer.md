@@ -7,5 +7,5 @@ This can be used only to compare normal vectors of Vector3I, where X, Y and Z ha
 ### Methods
 |Member|Description|
 |---|---|
-|[`Equals(Vector3I, Vector3I)`](VRageMath.Equals)||
+|[`Equals(Vector3I, Vector3I)`](VRageMath.Equals)||
 |[`GetHashCode(Vector3I)`](VRageMath.GetHashCode)||

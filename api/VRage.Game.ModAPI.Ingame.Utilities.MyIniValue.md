@@ -8,7 +8,7 @@ Represents the value of a single configuration item.
 |Member|Description|
 |---|---|
 |[`Key`](VRage.Game.ModAPI.Ingame.Utilities.Key)|Gets the [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) this value was retrieved from|
-|static [`EMPTY`](VRage.Game.ModAPI.Ingame.Utilities.EMPTY)|Represents an empty [MyIniValue](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue)|
+|static [`EMPTY`](VRage.Game.ModAPI.Ingame.Utilities.EMPTY)|Represents an empty [MyIniValue](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue)|
 ### Properties
 |Member|Description|
 |---|---|

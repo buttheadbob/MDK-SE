@@ -1,4 +1,4 @@
-← [Index](ApiIndex)
+← [Index](Api-Index)
 # MyObjectBuilder_Base Class
 **Namespace:** [`VRage.ObjectBuilders`](VRage.ObjectBuilders)  
 **Assembly:** VRage.Game.dll  

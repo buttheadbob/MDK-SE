@@ -1,4 +1,4 @@
-← [Index](ApiIndex)
+← [Index](Api-Index)
 # Capsule Struct
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  

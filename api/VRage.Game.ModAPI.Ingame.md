@@ -1,4 +1,4 @@
-← [Index](ApiIndex)
+← [Index](Api-Index)
 # VRage.Game.ModAPI.Ingame
 _Not yet ready for use_
 

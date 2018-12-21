@@ -1,4 +1,4 @@
-← [Index](ApiIndex)
+← [Index](Api-Index)
 # System.Collections.Generic
 _Not yet ready for use_
 

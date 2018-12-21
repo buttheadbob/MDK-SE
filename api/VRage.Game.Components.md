@@ -1,4 +1,4 @@
-← [Index](ApiIndex)
+← [Index](Api-Index)
 # VRage.Game.Components
 _Not yet ready for use_
 

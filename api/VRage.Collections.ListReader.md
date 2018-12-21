@@ -1,4 +1,4 @@
-← [Index](ApiIndex)
+← [Index](Api-Index)
 # ListReader Struct
 **Namespace:** [`VRage.Collections`](VRage.Collections)  
 **Assembly:** VRage.Library.dll  

@@ -1,4 +1,4 @@
-← [Index](ApiIndex)
+← [Index](Api-Index)
 # VRage.Collections
 _Not yet ready for use_
 

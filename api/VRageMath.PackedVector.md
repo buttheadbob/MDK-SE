@@ -1,4 +1,4 @@
-← [Index](ApiIndex)
+← [Index](Api-Index)
 # VRageMath.PackedVector
 _Not yet ready for use_
 

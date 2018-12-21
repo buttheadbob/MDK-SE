@@ -1,4 +1,4 @@
-← [Index](ApiIndex)
+← [Index](Api-Index)
 # Sandbox.Game.Localization
 _Not yet ready for use_
 

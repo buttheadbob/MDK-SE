@@ -1,4 +1,4 @@
-← [Index](ApiIndex)
+← [Index](Api-Index)
 # MyTupleComparer Class
 **Namespace:** [`VRage`](VRage)  
 **Assembly:** VRage.Library.dll  

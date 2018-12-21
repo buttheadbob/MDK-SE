@@ -1,4 +1,4 @@
-← [Index](ApiIndex)
+← [Index](Api-Index)
 # VRageMath.Spatial
 _Not yet ready for use_
 

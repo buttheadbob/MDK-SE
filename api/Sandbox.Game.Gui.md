@@ -1,4 +1,4 @@
-← [Index](ApiIndex)
+← [Index](Api-Index)
 # Sandbox.Game.Gui
 _Not yet ready for use_
 

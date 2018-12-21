@@ -1,4 +1,4 @@
-← [Index](ApiIndex)
+← [Index](Api-Index)
 # MyTexts Class
 **Namespace:** [`VRage`](VRage)  
 **Assembly:** VRage.dll  

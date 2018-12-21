@@ -2,6 +2,8 @@
 # MyResourceSinkComponentBase Class
 **Namespace:** [`VRage.Game.Components`](VRage.Game.Components)  
 **Assembly:** VRage.Game.dll  
+**Inheritors:**
+* [`Sandbox.Game.EntityComponents.MyResourceSinkComponent`](Sandbox.Game.EntityComponents.MyResourceSinkComponent)
 ### Properties
 |Member|Description|
 |---|---|

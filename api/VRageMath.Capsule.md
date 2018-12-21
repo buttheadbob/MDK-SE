@@ -5,11 +5,11 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`Vector3&nbsp;P0`](VRageMath.P0)||
-|[`Vector3&nbsp;P1`](VRageMath.P1)||
-|[`float&nbsp;Radius`](VRageMath.Radius)||
+|[`Vector3 P0`](VRageMath.P0)||
+|[`Vector3 P1`](VRageMath.P1)||
+|[`float Radius`](VRageMath.Radius)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`bool&nbsp;Intersect(Ray&nbsp;ray,&nbsp;ref&nbsp;Vector3&nbsp;p1,&nbsp;ref&nbsp;Vector3&nbsp;p2,&nbsp;ref&nbsp;Vector3&nbsp;n1,&nbsp;ref&nbsp;Vector3&nbsp;n2)`](VRageMath.Intersect)||
-|[`bool&nbsp;Intersect(Line&nbsp;line,&nbsp;ref&nbsp;Vector3&nbsp;p1,&nbsp;ref&nbsp;Vector3&nbsp;p2,&nbsp;ref&nbsp;Vector3&nbsp;n1,&nbsp;ref&nbsp;Vector3&nbsp;n2)`](VRageMath.Intersect)||
+|[`bool Intersect(Ray ray, ref Vector3 p1, ref Vector3 p2, ref Vector3 n1, ref Vector3 n2)`](VRageMath.Intersect)||
+|[`bool Intersect(Line line, ref Vector3 p1, ref Vector3 p2, ref Vector3 n1, ref Vector3 n2)`](VRageMath.Intersect)||

@@ -5,6 +5,6 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`MyFixedPoint&nbsp;Amount`](Sandbox.ModAPI.Ingame.Amount)||
-|[`MyDefinitionId&nbsp;BlueprintId`](Sandbox.ModAPI.Ingame.BlueprintId)||
-|[`uint&nbsp;ItemId`](Sandbox.ModAPI.Ingame.ItemId)||
+|[`MyFixedPoint Amount`](Sandbox.ModAPI.Ingame.Amount)||
+|[`MyDefinitionId BlueprintId`](Sandbox.ModAPI.Ingame.BlueprintId)||
+|[`uint ItemId`](Sandbox.ModAPI.Ingame.ItemId)||

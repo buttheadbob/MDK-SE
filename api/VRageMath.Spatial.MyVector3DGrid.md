@@ -5,16 +5,16 @@
 ### Properties
 |Member|Description|
 |---|---|
-|[`int&nbsp;Count`](VRageMath.Spatial.Count)||
+|[`int Count`](VRageMath.Spatial.Count)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`void&nbsp;Clear()`](VRageMath.Spatial.Clear)||
-|[`void&nbsp;ClearFast()`](VRageMath.Spatial.ClearFast)||
-|[`void&nbsp;AddPoint(ref&nbsp;Vector3D&nbsp;point,&nbsp;T&nbsp;data)`](VRageMath.Spatial.AddPoint)||
-|[`void&nbsp;RemovePoint(ref&nbsp;Vector3D&nbsp;point)`](VRageMath.Spatial.RemovePoint)||
-|[`Enumerator<T>&nbsp;GetPointsCloserThan(ref&nbsp;Vector3D&nbsp;point,&nbsp;double&nbsp;dist)`](VRageMath.Spatial.GetPointsCloserThan)||
-|[`void&nbsp;RemoveTwo(ref&nbsp;Enumerator<T>&nbsp;en0,&nbsp;ref&nbsp;Enumerator<T>&nbsp;en1)`](VRageMath.Spatial.RemoveTwo)||
-|[`Enumerator<Vector3I,&nbsp;int>&nbsp;EnumerateBins()`](VRageMath.Spatial.EnumerateBins)||
-|[`void&nbsp;GetLocalBinBB(ref&nbsp;Vector3I&nbsp;binPosition,&nbsp;ref&nbsp;BoundingBoxD&nbsp;output)`](VRageMath.Spatial.GetLocalBinBB)||
-|[`void&nbsp;CollectStorage(int&nbsp;startingIndex,&nbsp;ref&nbsp;List<T>&nbsp;output)`](VRageMath.Spatial.CollectStorage)||
+|[`void Clear()`](VRageMath.Spatial.Clear)||
+|[`void ClearFast()`](VRageMath.Spatial.ClearFast)||
+|[`void AddPoint(ref Vector3D point, T data)`](VRageMath.Spatial.AddPoint)||
+|[`void RemovePoint(ref Vector3D point)`](VRageMath.Spatial.RemovePoint)||
+|[`Enumerator<T> GetPointsCloserThan(ref Vector3D point, double dist)`](VRageMath.Spatial.GetPointsCloserThan)||
+|[`void RemoveTwo(ref Enumerator<T> en0, ref Enumerator<T> en1)`](VRageMath.Spatial.RemoveTwo)||
+|[`Enumerator<Vector3I, int> EnumerateBins()`](VRageMath.Spatial.EnumerateBins)||
+|[`void GetLocalBinBB(ref Vector3I binPosition, ref BoundingBoxD output)`](VRageMath.Spatial.GetLocalBinBB)||
+|[`void CollectStorage(int startingIndex, ref List<T> output)`](VRageMath.Spatial.CollectStorage)||

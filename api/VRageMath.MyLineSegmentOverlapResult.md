@@ -5,6 +5,6 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`double&nbsp;Distance`](VRageMath.Distance)||
-|[`T&nbsp;Element`](VRageMath.Element)||
-|static&nbsp;[`MyLineSegmentOverlapResultComparer<T>&nbsp;DistanceComparer`](VRageMath.DistanceComparer)||
+|[`double Distance`](VRageMath.Distance)||
+|[`T Element`](VRageMath.Element)||
+|static [`MyLineSegmentOverlapResultComparer<T> DistanceComparer`](VRageMath.DistanceComparer)||

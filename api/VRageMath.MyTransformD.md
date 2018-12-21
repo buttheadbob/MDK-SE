@@ -5,16 +5,16 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`Quaternion&nbsp;Rotation`](VRageMath.Rotation)||
-|[`Vector3D&nbsp;Position`](VRageMath.Position)||
+|[`Quaternion Rotation`](VRageMath.Rotation)||
+|[`Vector3D Position`](VRageMath.Position)||
 ### Properties
 |Member|Description|
 |---|---|
-|[`MatrixD&nbsp;TransformMatrix`](VRageMath.TransformMatrix)||
+|[`MatrixD TransformMatrix`](VRageMath.TransformMatrix)||
 ### Methods
 |Member|Description|
 |---|---|
-|static&nbsp;[`MyTransformD&nbsp;Transform(ref&nbsp;MyTransformD&nbsp;t1,&nbsp;ref&nbsp;MyTransformD&nbsp;t2)`](VRageMath.Transform)||
-|static&nbsp;[`void&nbsp;Transform(ref&nbsp;MyTransformD&nbsp;t1,&nbsp;ref&nbsp;MyTransformD&nbsp;t2,&nbsp;ref&nbsp;MyTransformD&nbsp;result)`](VRageMath.Transform)||
-|static&nbsp;[`Vector3D&nbsp;Transform(ref&nbsp;Vector3D&nbsp;v,&nbsp;ref&nbsp;MyTransformD&nbsp;t2)`](VRageMath.Transform)||
-|static&nbsp;[`void&nbsp;Transform(ref&nbsp;Vector3D&nbsp;v,&nbsp;ref&nbsp;MyTransformD&nbsp;t2,&nbsp;ref&nbsp;Vector3D&nbsp;result)`](VRageMath.Transform)||
+|static [`MyTransformD Transform(ref MyTransformD t1, ref MyTransformD t2)`](VRageMath.Transform)||
+|static [`void Transform(ref MyTransformD t1, ref MyTransformD t2, ref MyTransformD result)`](VRageMath.Transform)||
+|static [`Vector3D Transform(ref Vector3D v, ref MyTransformD t2)`](VRageMath.Transform)||
+|static [`void Transform(ref Vector3D v, ref MyTransformD t2, ref Vector3D result)`](VRageMath.Transform)||

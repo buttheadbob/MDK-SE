@@ -5,31 +5,31 @@
 ### Methods
 |Member|Description|
 |---|---|
-|static&nbsp;[`ClearToken<T>&nbsp;GetClearToken<T>(List<T>&nbsp;list)`](System.Collections.Generic.GetClearToken)||
-|static&nbsp;[`void&nbsp;RemoveAtFast<T>(List<T>&nbsp;list,&nbsp;int&nbsp;index)`](System.Collections.Generic.RemoveAtFast)||
-|static&nbsp;[`void&nbsp;RemoveAtFast<T>(IList<T>&nbsp;list,&nbsp;int&nbsp;index)`](System.Collections.Generic.RemoveAtFast)||
-|static&nbsp;[`T[]&nbsp;GetInternalArray<T>(List<T>&nbsp;list)`](System.Collections.Generic.GetInternalArray)||
-|static&nbsp;[`void&nbsp;AddOrInsert<T>(List<T>&nbsp;list,&nbsp;T&nbsp;item,&nbsp;int&nbsp;index)`](System.Collections.Generic.AddOrInsert)||
-|static&nbsp;[`void&nbsp;AddArray<T>(List<T>&nbsp;list,&nbsp;T[]&nbsp;itemsToAdd)`](System.Collections.Generic.AddArray)||
-|static&nbsp;[`void&nbsp;AddArray<T>(List<T>&nbsp;list,&nbsp;T[]&nbsp;itemsToAdd,&nbsp;int&nbsp;itemCount)`](System.Collections.Generic.AddArray)||
-|static&nbsp;[`void&nbsp;SetSize<T>(List<T>&nbsp;list,&nbsp;int&nbsp;newSize)`](System.Collections.Generic.SetSize)||
-|static&nbsp;[`void&nbsp;AddList<T>(List<T>&nbsp;list,&nbsp;List<T>&nbsp;itemsToAdd)`](System.Collections.Generic.AddList)||
-|static&nbsp;[`void&nbsp;AddHashset<T>(List<T>&nbsp;list,&nbsp;HashSet<T>&nbsp;hashset)`](System.Collections.Generic.AddHashset)||
-|static&nbsp;[`void&nbsp;AddHashsetCasting<T1,&nbsp;T2>(List<T1>&nbsp;list,&nbsp;HashSet<T2>&nbsp;hashset)`](System.Collections.Generic.AddHashsetCasting)||
-|static&nbsp;[`void&nbsp;Move<T>(List<T>&nbsp;list,&nbsp;int&nbsp;originalIndex,&nbsp;int&nbsp;targetIndex)`](System.Collections.Generic.Move)||
-|static&nbsp;[`bool&nbsp;IsValidIndex<T>(List<T>&nbsp;list,&nbsp;int&nbsp;index)`](System.Collections.Generic.IsValidIndex)||
-|static&nbsp;[`void&nbsp;RemoveIndices<T>(List<T>&nbsp;list,&nbsp;List<int>&nbsp;indices)`](System.Collections.Generic.RemoveIndices)||
-|static&nbsp;[`void&nbsp;Swap<T>(List<T>&nbsp;list,&nbsp;int&nbsp;a,&nbsp;int&nbsp;b)`](System.Collections.Generic.Swap)||
-|static&nbsp;[`int&nbsp;BinaryIntervalSearch<T>(IList<T>&nbsp;self,&nbsp;T&nbsp;value,&nbsp;IComparer<T>&nbsp;comparer)`](System.Collections.Generic.BinaryIntervalSearch)||
-|static&nbsp;[`int&nbsp;BinaryIntervalSearch<T>(IList<T>&nbsp;self,&nbsp;Func<T,&nbsp;bool>&nbsp;less)`](System.Collections.Generic.BinaryIntervalSearch)||
-|static&nbsp;[`int&nbsp;BinaryIntervalSearch<T>(IList<T>&nbsp;self,&nbsp;T&nbsp;value,&nbsp;Comparison<T>&nbsp;comparison)`](System.Collections.Generic.BinaryIntervalSearch)||
-|static&nbsp;[`void&nbsp;InsertInOrder<T>(List<T>&nbsp;self,&nbsp;T&nbsp;value,&nbsp;IComparer<T>&nbsp;comparer)`](System.Collections.Generic.InsertInOrder)||
-|static&nbsp;[`void&nbsp;InsertInOrder<T>(List<T>&nbsp;self,&nbsp;T&nbsp;value)`](System.Collections.Generic.InsertInOrder)||
-|static&nbsp;[`bool&nbsp;IsSorted<T>(List<T>&nbsp;self,&nbsp;IComparer<T>&nbsp;comparer)`](System.Collections.Generic.IsSorted)||
-|static&nbsp;[`void&nbsp;AssertEmpty<T>(List<T>&nbsp;list)`](System.Collections.Generic.AssertEmpty)||
-|static&nbsp;[`void&nbsp;EnsureCapacity<T>(List<T>&nbsp;list,&nbsp;int&nbsp;capacity)`](System.Collections.Generic.EnsureCapacity)||
-|static&nbsp;[`TValue&nbsp;Pop<TValue>(List<TValue>&nbsp;self)`](System.Collections.Generic.Pop)||
-|static&nbsp;[`void&nbsp;SortNoAlloc<T>(List<T>&nbsp;list,&nbsp;Comparison<T>&nbsp;comparator)`](System.Collections.Generic.SortNoAlloc)||
-|static&nbsp;[`T&nbsp;AtMod<T>(List<T>&nbsp;list,&nbsp;int&nbsp;index)`](System.Collections.Generic.AtMod)||
-|static&nbsp;[`T&nbsp;AtMod<T>(ListReader<T>&nbsp;list,&nbsp;int&nbsp;index)`](System.Collections.Generic.AtMod)||
-|static&nbsp;[`T&nbsp;MaxBy<T>(IEnumerable<T>&nbsp;source,&nbsp;Func<T,&nbsp;float>&nbsp;selector)`](System.Collections.Generic.MaxBy)||
+|static [`ClearToken<T> GetClearToken<T>(List<T> list)`](System.Collections.Generic.GetClearToken)||
+|static [`void RemoveAtFast<T>(List<T> list, int index)`](System.Collections.Generic.RemoveAtFast)||
+|static [`void RemoveAtFast<T>(IList<T> list, int index)`](System.Collections.Generic.RemoveAtFast)||
+|static [`T[] GetInternalArray<T>(List<T> list)`](System.Collections.Generic.GetInternalArray)||
+|static [`void AddOrInsert<T>(List<T> list, T item, int index)`](System.Collections.Generic.AddOrInsert)||
+|static [`void AddArray<T>(List<T> list, T[] itemsToAdd)`](System.Collections.Generic.AddArray)||
+|static [`void AddArray<T>(List<T> list, T[] itemsToAdd, int itemCount)`](System.Collections.Generic.AddArray)||
+|static [`void SetSize<T>(List<T> list, int newSize)`](System.Collections.Generic.SetSize)||
+|static [`void AddList<T>(List<T> list, List<T> itemsToAdd)`](System.Collections.Generic.AddList)||
+|static [`void AddHashset<T>(List<T> list, HashSet<T> hashset)`](System.Collections.Generic.AddHashset)||
+|static [`void AddHashsetCasting<T1, T2>(List<T1> list, HashSet<T2> hashset)`](System.Collections.Generic.AddHashsetCasting)||
+|static [`void Move<T>(List<T> list, int originalIndex, int targetIndex)`](System.Collections.Generic.Move)||
+|static [`bool IsValidIndex<T>(List<T> list, int index)`](System.Collections.Generic.IsValidIndex)||
+|static [`void RemoveIndices<T>(List<T> list, List<int> indices)`](System.Collections.Generic.RemoveIndices)||
+|static [`void Swap<T>(List<T> list, int a, int b)`](System.Collections.Generic.Swap)||
+|static [`int BinaryIntervalSearch<T>(IList<T> self, T value, IComparer<T> comparer)`](System.Collections.Generic.BinaryIntervalSearch)||
+|static [`int BinaryIntervalSearch<T>(IList<T> self, Func<T, bool> less)`](System.Collections.Generic.BinaryIntervalSearch)||
+|static [`int BinaryIntervalSearch<T>(IList<T> self, T value, Comparison<T> comparison)`](System.Collections.Generic.BinaryIntervalSearch)||
+|static [`void InsertInOrder<T>(List<T> self, T value, IComparer<T> comparer)`](System.Collections.Generic.InsertInOrder)||
+|static [`void InsertInOrder<T>(List<T> self, T value)`](System.Collections.Generic.InsertInOrder)||
+|static [`bool IsSorted<T>(List<T> self, IComparer<T> comparer)`](System.Collections.Generic.IsSorted)||
+|static [`void AssertEmpty<T>(List<T> list)`](System.Collections.Generic.AssertEmpty)||
+|static [`void EnsureCapacity<T>(List<T> list, int capacity)`](System.Collections.Generic.EnsureCapacity)||
+|static [`TValue Pop<TValue>(List<TValue> self)`](System.Collections.Generic.Pop)||
+|static [`void SortNoAlloc<T>(List<T> list, Comparison<T> comparator)`](System.Collections.Generic.SortNoAlloc)||
+|static [`T AtMod<T>(List<T> list, int index)`](System.Collections.Generic.AtMod)||
+|static [`T AtMod<T>(ListReader<T> list, int index)`](System.Collections.Generic.AtMod)||
+|static [`T MaxBy<T>(IEnumerable<T> source, Func<T, float> selector)`](System.Collections.Generic.MaxBy)||

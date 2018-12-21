@@ -5,10 +5,10 @@
 ### Methods
 |Member|Description|
 |---|---|
-|static&nbsp;[`V&nbsp;GetValueOrDefault<K,&nbsp;V>(Dictionary<K,&nbsp;V>&nbsp;dictionary,&nbsp;K&nbsp;key)`](System.Collections.Generic.GetValueOrDefault)||
-|static&nbsp;[`V&nbsp;GetValueOrDefault<K,&nbsp;V>(Dictionary<K,&nbsp;V>&nbsp;dictionary,&nbsp;K&nbsp;key,&nbsp;V&nbsp;defaultValue)`](System.Collections.Generic.GetValueOrDefault)||
-|static&nbsp;[`KeyValuePair<K,&nbsp;V>&nbsp;FirstPair<K,&nbsp;V>(Dictionary<K,&nbsp;V>&nbsp;dictionary)`](System.Collections.Generic.FirstPair)||
-|static&nbsp;[`V&nbsp;GetValueOrDefault<K,&nbsp;V>(ConcurrentDictionary<K,&nbsp;V>&nbsp;dictionary,&nbsp;K&nbsp;key,&nbsp;V&nbsp;defaultValue)`](System.Collections.Generic.GetValueOrDefault)||
-|static&nbsp;[`void&nbsp;Remove<K,&nbsp;V>(ConcurrentDictionary<K,&nbsp;V>&nbsp;dictionary,&nbsp;K&nbsp;key)`](System.Collections.Generic.Remove)||
-|static&nbsp;[`TValue&nbsp;GetOrAdd<TKey,&nbsp;TValue,&nbsp;TContext>(ConcurrentDictionary<TKey,&nbsp;TValue>&nbsp;dictionary,&nbsp;TKey&nbsp;key,&nbsp;TContext&nbsp;context,&nbsp;Func<TContext,&nbsp;TKey,&nbsp;TValue>&nbsp;activator)`](System.Collections.Generic.GetOrAdd)||
-|static&nbsp;[`void&nbsp;AssertEmpty<K,&nbsp;V>(Dictionary<K,&nbsp;V>&nbsp;collection)`](System.Collections.Generic.AssertEmpty)||
+|static [`V GetValueOrDefault<K, V>(Dictionary<K, V> dictionary, K key)`](System.Collections.Generic.GetValueOrDefault)||
+|static [`V GetValueOrDefault<K, V>(Dictionary<K, V> dictionary, K key, V defaultValue)`](System.Collections.Generic.GetValueOrDefault)||
+|static [`KeyValuePair<K, V> FirstPair<K, V>(Dictionary<K, V> dictionary)`](System.Collections.Generic.FirstPair)||
+|static [`V GetValueOrDefault<K, V>(ConcurrentDictionary<K, V> dictionary, K key, V defaultValue)`](System.Collections.Generic.GetValueOrDefault)||
+|static [`void Remove<K, V>(ConcurrentDictionary<K, V> dictionary, K key)`](System.Collections.Generic.Remove)||
+|static [`TValue GetOrAdd<TKey, TValue, TContext>(ConcurrentDictionary<TKey, TValue> dictionary, TKey key, TContext context, Func<TContext, TKey, TValue> activator)`](System.Collections.Generic.GetOrAdd)||
+|static [`void AssertEmpty<K, V>(Dictionary<K, V> collection)`](System.Collections.Generic.AssertEmpty)||

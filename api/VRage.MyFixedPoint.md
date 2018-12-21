@@ -7,32 +7,32 @@ Fixed point number represented as 64-bit integer with 6 decimal places (one mill
 ### Fields
 |Member|Description|
 |---|---|
-|[`long&nbsp;RawValue`](VRage.RawValue)||
-|static&nbsp;[`MyFixedPoint&nbsp;MinValue`](VRage.MinValue)||
-|static&nbsp;[`MyFixedPoint&nbsp;MaxValue`](VRage.MaxValue)||
-|static&nbsp;[`MyFixedPoint&nbsp;Zero`](VRage.Zero)||
-|static&nbsp;[`MyFixedPoint&nbsp;SmallestPossibleValue`](VRage.SmallestPossibleValue)||
-|static&nbsp;[`MyFixedPoint&nbsp;MaxIntValue`](VRage.MaxIntValue)||
-|static&nbsp;[`MyFixedPoint&nbsp;MinIntValue`](VRage.MinIntValue)||
+|[`long RawValue`](VRage.RawValue)||
+|static [`MyFixedPoint MinValue`](VRage.MinValue)||
+|static [`MyFixedPoint MaxValue`](VRage.MaxValue)||
+|static [`MyFixedPoint Zero`](VRage.Zero)||
+|static [`MyFixedPoint SmallestPossibleValue`](VRage.SmallestPossibleValue)||
+|static [`MyFixedPoint MaxIntValue`](VRage.MaxIntValue)||
+|static [`MyFixedPoint MinIntValue`](VRage.MinIntValue)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`string&nbsp;SerializeString()`](VRage.SerializeString)|For XmlSerialization, format is 123.456789|
-|static&nbsp;[`MyFixedPoint&nbsp;DeserializeStringSafe(string&nbsp;text)`](VRage.DeserializeStringSafe)|For XmlSerialization, format is 123.456789 Handles double and decimal formats too.|
-|static&nbsp;[`MyFixedPoint&nbsp;DeserializeString(string&nbsp;text)`](VRage.DeserializeString)||
-|static&nbsp;[`bool&nbsp;IsIntegral(MyFixedPoint&nbsp;fp)`](VRage.IsIntegral)||
-|static&nbsp;[`MyFixedPoint&nbsp;Ceiling(MyFixedPoint&nbsp;a)`](VRage.Ceiling)||
-|static&nbsp;[`MyFixedPoint&nbsp;Floor(MyFixedPoint&nbsp;a)`](VRage.Floor)||
-|static&nbsp;[`MyFixedPoint&nbsp;Min(MyFixedPoint&nbsp;a,&nbsp;MyFixedPoint&nbsp;b)`](VRage.Min)||
-|static&nbsp;[`MyFixedPoint&nbsp;Max(MyFixedPoint&nbsp;a,&nbsp;MyFixedPoint&nbsp;b)`](VRage.Max)||
-|static&nbsp;[`MyFixedPoint&nbsp;Round(MyFixedPoint&nbsp;a)`](VRage.Round)||
-|static&nbsp;[`MyFixedPoint&nbsp;AddSafe(MyFixedPoint&nbsp;a,&nbsp;MyFixedPoint&nbsp;b)`](VRage.AddSafe)||
-|static&nbsp;[`MyFixedPoint&nbsp;MultiplySafe(MyFixedPoint&nbsp;a,&nbsp;float&nbsp;b)`](VRage.MultiplySafe)||
-|static&nbsp;[`MyFixedPoint&nbsp;MultiplySafe(MyFixedPoint&nbsp;a,&nbsp;int&nbsp;b)`](VRage.MultiplySafe)||
-|static&nbsp;[`MyFixedPoint&nbsp;MultiplySafe(float&nbsp;a,&nbsp;MyFixedPoint&nbsp;b)`](VRage.MultiplySafe)||
-|static&nbsp;[`MyFixedPoint&nbsp;MultiplySafe(int&nbsp;a,&nbsp;MyFixedPoint&nbsp;b)`](VRage.MultiplySafe)||
-|static&nbsp;[`MyFixedPoint&nbsp;MultiplySafe(MyFixedPoint&nbsp;a,&nbsp;MyFixedPoint&nbsp;b)`](VRage.MultiplySafe)||
-|[`int&nbsp;ToIntSafe()`](VRage.ToIntSafe)||
-|[`string&nbsp;ToString()`](VRage.ToString)||
-|[`int&nbsp;GetHashCode()`](VRage.GetHashCode)||
-|[`bool&nbsp;Equals(Object&nbsp;obj)`](VRage.Equals)||
+|[`string SerializeString()`](VRage.SerializeString)|For XmlSerialization, format is 123.456789|
+|static [`MyFixedPoint DeserializeStringSafe(string text)`](VRage.DeserializeStringSafe)|For XmlSerialization, format is 123.456789 Handles double and decimal formats too.|
+|static [`MyFixedPoint DeserializeString(string text)`](VRage.DeserializeString)||
+|static [`bool IsIntegral(MyFixedPoint fp)`](VRage.IsIntegral)||
+|static [`MyFixedPoint Ceiling(MyFixedPoint a)`](VRage.Ceiling)||
+|static [`MyFixedPoint Floor(MyFixedPoint a)`](VRage.Floor)||
+|static [`MyFixedPoint Min(MyFixedPoint a, MyFixedPoint b)`](VRage.Min)||
+|static [`MyFixedPoint Max(MyFixedPoint a, MyFixedPoint b)`](VRage.Max)||
+|static [`MyFixedPoint Round(MyFixedPoint a)`](VRage.Round)||
+|static [`MyFixedPoint AddSafe(MyFixedPoint a, MyFixedPoint b)`](VRage.AddSafe)||
+|static [`MyFixedPoint MultiplySafe(MyFixedPoint a, float b)`](VRage.MultiplySafe)||
+|static [`MyFixedPoint MultiplySafe(MyFixedPoint a, int b)`](VRage.MultiplySafe)||
+|static [`MyFixedPoint MultiplySafe(float a, MyFixedPoint b)`](VRage.MultiplySafe)||
+|static [`MyFixedPoint MultiplySafe(int a, MyFixedPoint b)`](VRage.MultiplySafe)||
+|static [`MyFixedPoint MultiplySafe(MyFixedPoint a, MyFixedPoint b)`](VRage.MultiplySafe)||
+|[`int ToIntSafe()`](VRage.ToIntSafe)||
+|[`string ToString()`](VRage.ToString)||
+|[`int GetHashCode()`](VRage.GetHashCode)||
+|[`bool Equals(Object obj)`](VRage.Equals)||

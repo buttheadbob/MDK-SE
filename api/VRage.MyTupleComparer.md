@@ -5,5 +5,5 @@
 ### Methods
 |Member|Description|
 |---|---|
-|[`bool&nbsp;Equals(MyTuple<T1,&nbsp;T2,&nbsp;T3>&nbsp;x,&nbsp;MyTuple<T1,&nbsp;T2,&nbsp;T3>&nbsp;y)`](VRage.Equals)||
-|[`int&nbsp;GetHashCode(MyTuple<T1,&nbsp;T2,&nbsp;T3>&nbsp;obj)`](VRage.GetHashCode)||
+|[`bool Equals(MyTuple<T1, T2, T3> x, MyTuple<T1, T2, T3> y)`](VRage.Equals)||
+|[`int GetHashCode(MyTuple<T1, T2, T3> obj)`](VRage.GetHashCode)||

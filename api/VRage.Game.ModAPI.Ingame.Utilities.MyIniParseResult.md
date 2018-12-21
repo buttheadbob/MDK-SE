@@ -7,17 +7,17 @@ Represents the results of a configuration parsing.
 ### Fields
 |Member|Description|
 |---|---|
-|[`string&nbsp;Error`](VRage.Game.ModAPI.Ingame.Utilities.Error)|Gets a description of the error that occurred during parsing. Will be`null`if no error occurred.|
+|[`string Error`](VRage.Game.ModAPI.Ingame.Utilities.Error)|Gets a description of the error that occurred during parsing. Will be`null`if no error occurred.|
 ### Properties
 |Member|Description|
 |---|---|
-|[`int&nbsp;LineNo`](VRage.Game.ModAPI.Ingame.Utilities.LineNo)|Gets the line number where an error occured.|
-|[`bool&nbsp;Success`](VRage.Game.ModAPI.Ingame.Utilities.Success)|Determines the success of the configuration parsing.|
-|[`bool&nbsp;IsDefined`](VRage.Game.ModAPI.Ingame.Utilities.IsDefined)|Determines if the value of this result is defined, meaning whether the [bool Success](VRage.Game.ModAPI.Ingame.Utilities.Success) actually holds any meaning.|
+|[`int LineNo`](VRage.Game.ModAPI.Ingame.Utilities.LineNo)|Gets the line number where an error occured.|
+|[`bool Success`](VRage.Game.ModAPI.Ingame.Utilities.Success)|Determines the success of the configuration parsing.|
+|[`bool IsDefined`](VRage.Game.ModAPI.Ingame.Utilities.IsDefined)|Determines if the value of this result is defined, meaning whether the [bool Success](VRage.Game.ModAPI.Ingame.Utilities.Success) actually holds any meaning.|
 ### Methods
 |Member|Description|
 |---|---|
-|[`bool&nbsp;Equals(MyIniParseResult&nbsp;other)`](VRage.Game.ModAPI.Ingame.Utilities.Equals)|Compares this [MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult) with another.|
-|[`bool&nbsp;Equals(Object&nbsp;obj)`](VRage.Game.ModAPI.Ingame.Utilities.Equals)|Compares this [MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult) with another.|
-|[`int&nbsp;GetHashCode()`](VRage.Game.ModAPI.Ingame.Utilities.GetHashCode)|Gets the hash code for this [MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult) .|
-|[`string&nbsp;ToString()`](VRage.Game.ModAPI.Ingame.Utilities.ToString)|Generates a generic error message in the form of`Line N: Error`|
+|[`bool Equals(MyIniParseResult other)`](VRage.Game.ModAPI.Ingame.Utilities.Equals)|Compares this [MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult) with another.|
+|[`bool Equals(Object obj)`](VRage.Game.ModAPI.Ingame.Utilities.Equals)|Compares this [MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult) with another.|
+|[`int GetHashCode()`](VRage.Game.ModAPI.Ingame.Utilities.GetHashCode)|Gets the hash code for this [MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult) .|
+|[`string ToString()`](VRage.Game.ModAPI.Ingame.Utilities.ToString)|Generates a generic error message in the form of`Line N: Error`|

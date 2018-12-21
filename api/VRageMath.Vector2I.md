@@ -5,24 +5,24 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`int&nbsp;X`](VRageMath.X)||
-|[`int&nbsp;Y`](VRageMath.Y)||
-|static&nbsp;[`ComparerClass&nbsp;Comparer`](VRageMath.Comparer)||
-|static&nbsp;[`Vector2I&nbsp;Zero`](VRageMath.Zero)||
-|static&nbsp;[`Vector2I&nbsp;One`](VRageMath.One)||
-|static&nbsp;[`Vector2I&nbsp;UnitX`](VRageMath.UnitX)||
-|static&nbsp;[`Vector2I&nbsp;UnitY`](VRageMath.UnitY)||
+|[`int X`](VRageMath.X)||
+|[`int Y`](VRageMath.Y)||
+|static [`ComparerClass Comparer`](VRageMath.Comparer)||
+|static [`Vector2I Zero`](VRageMath.Zero)||
+|static [`Vector2I One`](VRageMath.One)||
+|static [`Vector2I UnitX`](VRageMath.UnitX)||
+|static [`Vector2I UnitY`](VRageMath.UnitY)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`string&nbsp;ToString()`](VRageMath.ToString)||
-|[`int&nbsp;Size()`](VRageMath.Size)||
-|static&nbsp;[`Vector2I&nbsp;Floor(Vector2&nbsp;value)`](VRageMath.Floor)||
-|static&nbsp;[`Vector2I&nbsp;Round(Vector2&nbsp;value)`](VRageMath.Round)||
-|[`bool&nbsp;Between(ref&nbsp;Vector2I&nbsp;start,&nbsp;ref&nbsp;Vector2I&nbsp;end)`](VRageMath.Between)||
-|[`bool&nbsp;Equals(Object&nbsp;obj)`](VRageMath.Equals)||
-|[`int&nbsp;GetHashCode()`](VRageMath.GetHashCode)||
-|static&nbsp;[`void&nbsp;Min(ref&nbsp;Vector2I&nbsp;v1,&nbsp;ref&nbsp;Vector2I&nbsp;v2,&nbsp;ref&nbsp;Vector2I&nbsp;min)`](VRageMath.Min)||
-|static&nbsp;[`void&nbsp;Max(ref&nbsp;Vector2I&nbsp;v1,&nbsp;ref&nbsp;Vector2I&nbsp;v2,&nbsp;ref&nbsp;Vector2I&nbsp;max)`](VRageMath.Max)||
-|static&nbsp;[`Vector2I&nbsp;Min(Vector2I&nbsp;v1,&nbsp;Vector2I&nbsp;v2)`](VRageMath.Min)||
-|static&nbsp;[`Vector2I&nbsp;Max(Vector2I&nbsp;v1,&nbsp;Vector2I&nbsp;v2)`](VRageMath.Max)||
+|[`string ToString()`](VRageMath.ToString)||
+|[`int Size()`](VRageMath.Size)||
+|static [`Vector2I Floor(Vector2 value)`](VRageMath.Floor)||
+|static [`Vector2I Round(Vector2 value)`](VRageMath.Round)||
+|[`bool Between(ref Vector2I start, ref Vector2I end)`](VRageMath.Between)||
+|[`bool Equals(Object obj)`](VRageMath.Equals)||
+|[`int GetHashCode()`](VRageMath.GetHashCode)||
+|static [`void Min(ref Vector2I v1, ref Vector2I v2, ref Vector2I min)`](VRageMath.Min)||
+|static [`void Max(ref Vector2I v1, ref Vector2I v2, ref Vector2I max)`](VRageMath.Max)||
+|static [`Vector2I Min(Vector2I v1, Vector2I v2)`](VRageMath.Min)||
+|static [`Vector2I Max(Vector2I v1, Vector2I v2)`](VRageMath.Max)||

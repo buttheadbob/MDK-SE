@@ -9,14 +9,14 @@ Packed vector type containing four 8-bit signed normalized values, ranging from 
 ### Properties
 |Member|Description|
 |---|---|
-|[`uint&nbsp;PackedValue`](VRageMath.PackedVector.PackedValue)|Directly gets or sets the packed representation of the value.|
+|[`uint PackedValue`](VRageMath.PackedVector.PackedValue)|Directly gets or sets the packed representation of the value.|
 ### Methods
 |Member|Description|
 |---|---|
-|[`Vector4&nbsp;ToVector4()`](VRageMath.PackedVector.ToVector4)|Expands the packed representation into a Vector4.|
-|[`string&nbsp;ToString()`](VRageMath.PackedVector.ToString)|Returns a string representation of the current instance.|
-|[`int&nbsp;GetHashCode()`](VRageMath.PackedVector.GetHashCode)|Gets the hash code for the current instance.|
-|[`bool&nbsp;Equals(Object&nbsp;obj)`](VRageMath.PackedVector.Equals)|Returns a value that indicates whether the current instance is equal to a specified object.|
-|[`bool&nbsp;Equals(NormalizedByte4&nbsp;other)`](VRageMath.PackedVector.Equals)|Returns a value that indicates whether the current instance is equal to a specified object.|
-|[`Vector4&nbsp;ToVector4()`](VRageMath.PackedVector.ToVector4)|Expands the packed representation into a Vector4.<br/><br/>_Inherited from [`IPackedVector`](VRageMath.PackedVector.NormalizedByte4)_|
-|[`void&nbsp;PackFromVector4(Vector4&nbsp;vector)`](VRageMath.PackedVector.PackFromVector4)|Sets the packed representation from a Vector4.<br/><br/>_Inherited from [`IPackedVector`](VRageMath.PackedVector.NormalizedByte4)_|
+|[`Vector4 ToVector4()`](VRageMath.PackedVector.ToVector4)|Expands the packed representation into a Vector4.|
+|[`string ToString()`](VRageMath.PackedVector.ToString)|Returns a string representation of the current instance.|
+|[`int GetHashCode()`](VRageMath.PackedVector.GetHashCode)|Gets the hash code for the current instance.|
+|[`bool Equals(Object obj)`](VRageMath.PackedVector.Equals)|Returns a value that indicates whether the current instance is equal to a specified object.|
+|[`bool Equals(NormalizedByte4 other)`](VRageMath.PackedVector.Equals)|Returns a value that indicates whether the current instance is equal to a specified object.|
+|[`Vector4 ToVector4()`](VRageMath.PackedVector.ToVector4)|Expands the packed representation into a Vector4.<br/><br/>_Inherited from [`IPackedVector`](VRageMath.PackedVector.NormalizedByte4)_|
+|[`void PackFromVector4(Vector4 vector)`](VRageMath.PackedVector.PackFromVector4)|Sets the packed representation from a Vector4.<br/><br/>_Inherited from [`IPackedVector`](VRageMath.PackedVector.NormalizedByte4)_|

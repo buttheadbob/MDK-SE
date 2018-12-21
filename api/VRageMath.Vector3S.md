@@ -5,19 +5,19 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`short&nbsp;X`](VRageMath.X)||
-|[`short&nbsp;Y`](VRageMath.Y)||
-|[`short&nbsp;Z`](VRageMath.Z)||
-|static&nbsp;[`Vector3S&nbsp;Up`](VRageMath.Up)||
-|static&nbsp;[`Vector3S&nbsp;Down`](VRageMath.Down)||
-|static&nbsp;[`Vector3S&nbsp;Right`](VRageMath.Right)||
-|static&nbsp;[`Vector3S&nbsp;Left`](VRageMath.Left)||
-|static&nbsp;[`Vector3S&nbsp;Forward`](VRageMath.Forward)||
-|static&nbsp;[`Vector3S&nbsp;Backward`](VRageMath.Backward)||
+|[`short X`](VRageMath.X)||
+|[`short Y`](VRageMath.Y)||
+|[`short Z`](VRageMath.Z)||
+|static [`Vector3S Up`](VRageMath.Up)||
+|static [`Vector3S Down`](VRageMath.Down)||
+|static [`Vector3S Right`](VRageMath.Right)||
+|static [`Vector3S Left`](VRageMath.Left)||
+|static [`Vector3S Forward`](VRageMath.Forward)||
+|static [`Vector3S Backward`](VRageMath.Backward)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`string&nbsp;ToString()`](VRageMath.ToString)||
-|[`int&nbsp;GetHashCode()`](VRageMath.GetHashCode)||
-|[`bool&nbsp;Equals(Object&nbsp;obj)`](VRageMath.Equals)||
-|static&nbsp;[`Vector3S&nbsp;Round(Vector3&nbsp;v)`](VRageMath.Round)||
+|[`string ToString()`](VRageMath.ToString)||
+|[`int GetHashCode()`](VRageMath.GetHashCode)||
+|[`bool Equals(Object obj)`](VRageMath.Equals)||
+|static [`Vector3S Round(Vector3 v)`](VRageMath.Round)||

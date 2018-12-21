@@ -5,14 +5,14 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`Vector3D&nbsp;From`](VRageMath.From)||
-|[`Vector3D&nbsp;To`](VRageMath.To)||
-|[`Vector3D&nbsp;Direction`](VRageMath.Direction)||
-|[`double&nbsp;Length`](VRageMath.Length)||
+|[`Vector3D From`](VRageMath.From)||
+|[`Vector3D To`](VRageMath.To)||
+|[`Vector3D Direction`](VRageMath.Direction)||
+|[`double Length`](VRageMath.Length)||
 ### Methods
 |Member|Description|
 |---|---|
-|static&nbsp;[`double&nbsp;GetShortestDistanceSquared(LineD&nbsp;line1,&nbsp;LineD&nbsp;line2)`](VRageMath.GetShortestDistanceSquared)||
-|static&nbsp;[`Vector3D&nbsp;GetShortestVector(ref&nbsp;LineD&nbsp;line1,&nbsp;ref&nbsp;LineD&nbsp;line2,&nbsp;ref&nbsp;Vector3D&nbsp;res1,&nbsp;ref&nbsp;Vector3D&nbsp;res2)`](VRageMath.GetShortestVector)||
-|[`BoundingBoxD&nbsp;GetBoundingBox()`](VRageMath.GetBoundingBox)||
-|[`long&nbsp;GetHash()`](VRageMath.GetHash)||
+|static [`double GetShortestDistanceSquared(LineD line1, LineD line2)`](VRageMath.GetShortestDistanceSquared)||
+|static [`Vector3D GetShortestVector(ref LineD line1, ref LineD line2, ref Vector3D res1, ref Vector3D res2)`](VRageMath.GetShortestVector)||
+|[`BoundingBoxD GetBoundingBox()`](VRageMath.GetBoundingBox)||
+|[`long GetHash()`](VRageMath.GetHash)||

@@ -7,22 +7,22 @@ Prefer getting definition ID using object builder used to create the item. If yo
 ### Fields
 |Member|Description|
 |---|---|
-|[`MyObjectBuilderType&nbsp;TypeId`](VRage.Game.TypeId)||
-|[`MyStringHash&nbsp;SubtypeId`](VRage.Game.SubtypeId)||
-|static&nbsp;[`DefinitionIdComparerType&nbsp;Comparer`](VRage.Game.Comparer)||
+|[`MyObjectBuilderType TypeId`](VRage.Game.TypeId)||
+|[`MyStringHash SubtypeId`](VRage.Game.SubtypeId)||
+|static [`DefinitionIdComparerType Comparer`](VRage.Game.Comparer)||
 ### Properties
 |Member|Description|
 |---|---|
-|[`string&nbsp;SubtypeName`](VRage.Game.SubtypeName)||
+|[`string SubtypeName`](VRage.Game.SubtypeName)||
 ### Methods
 |Member|Description|
 |---|---|
-|static&nbsp;[`MyDefinitionId&nbsp;FromContent(MyObjectBuilder_Base&nbsp;content)`](VRage.Game.FromContent)|Creates a new definition ID from a given content.|
-|static&nbsp;[`MyDefinitionId&nbsp;Parse(string&nbsp;id)`](VRage.Game.Parse)|Attempts to create a definition ID from a definition string, which has the form (using ores as an example) "MyObjectBuilder_Ore/Iron". The first part must represent an existing type. If it does not, an exception will be thrown. The second (the subtype) is not enforced. See [bool TryParse(string id, ref MyDefinitionId definitionId)](VRage.Game.TryParse) for a parsing method that does not throw an exception.|
-|static&nbsp;[`bool&nbsp;TryParse(string&nbsp;id,&nbsp;ref&nbsp;MyDefinitionId&nbsp;definitionId)`](VRage.Game.TryParse)|Attempts to create a definition ID from a definition string, which has the form (using ores as an example) "MyObjectBuilder_Ore/Iron". The first part must represent an existing type, while the second (the subtype) is not enforced.|
-|static&nbsp;[`bool&nbsp;TryParse(string&nbsp;type,&nbsp;string&nbsp;subtype,&nbsp;ref&nbsp;MyDefinitionId&nbsp;definitionId)`](VRage.Game.TryParse)||
-|[`int&nbsp;GetHashCode()`](VRage.Game.GetHashCode)||
-|[`long&nbsp;GetHashCodeLong()`](VRage.Game.GetHashCodeLong)|Safer hash code. It is unique in more situations than GetHashCode would be, but it may still require full check.|
-|[`bool&nbsp;Equals(Object&nbsp;obj)`](VRage.Game.Equals)||
-|[`string&nbsp;ToString()`](VRage.Game.ToString)||
-|[`bool&nbsp;Equals(MyDefinitionId&nbsp;other)`](VRage.Game.Equals)||
+|static [`MyDefinitionId FromContent(MyObjectBuilder_Base content)`](VRage.Game.FromContent)|Creates a new definition ID from a given content.|
+|static [`MyDefinitionId Parse(string id)`](VRage.Game.Parse)|Attempts to create a definition ID from a definition string, which has the form (using ores as an example) "MyObjectBuilder_Ore/Iron". The first part must represent an existing type. If it does not, an exception will be thrown. The second (the subtype) is not enforced. See [bool TryParse(string id, ref MyDefinitionId definitionId)](VRage.Game.TryParse) for a parsing method that does not throw an exception.|
+|static [`bool TryParse(string id, ref MyDefinitionId definitionId)`](VRage.Game.TryParse)|Attempts to create a definition ID from a definition string, which has the form (using ores as an example) "MyObjectBuilder_Ore/Iron". The first part must represent an existing type, while the second (the subtype) is not enforced.|
+|static [`bool TryParse(string type, string subtype, ref MyDefinitionId definitionId)`](VRage.Game.TryParse)||
+|[`int GetHashCode()`](VRage.Game.GetHashCode)||
+|[`long GetHashCodeLong()`](VRage.Game.GetHashCodeLong)|Safer hash code. It is unique in more situations than GetHashCode would be, but it may still require full check.|
+|[`bool Equals(Object obj)`](VRage.Game.Equals)||
+|[`string ToString()`](VRage.Game.ToString)||
+|[`bool Equals(MyDefinitionId other)`](VRage.Game.Equals)||

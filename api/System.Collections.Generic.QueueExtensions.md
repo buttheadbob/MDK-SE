@@ -5,6 +5,6 @@
 ### Methods
 |Member|Description|
 |---|---|
-|static&nbsp;[`bool&nbsp;TryDequeue<T>(Queue<T>&nbsp;queue,&nbsp;ref&nbsp;T&nbsp;result)`](System.Collections.Generic.TryDequeue)||
-|static&nbsp;[`bool&nbsp;TryDequeueSync<T>(Queue<T>&nbsp;queue,&nbsp;ref&nbsp;T&nbsp;result)`](System.Collections.Generic.TryDequeueSync)||
-|static&nbsp;[`List<T>&nbsp;ToList<T>(ConcurrentQueue<T>&nbsp;queue)`](System.Collections.Generic.ToList)||
+|static [`bool TryDequeue<T>(Queue<T> queue, ref T result)`](System.Collections.Generic.TryDequeue)||
+|static [`bool TryDequeueSync<T>(Queue<T> queue, ref T result)`](System.Collections.Generic.TryDequeueSync)||
+|static [`List<T> ToList<T>(ConcurrentQueue<T> queue)`](System.Collections.Generic.ToList)||

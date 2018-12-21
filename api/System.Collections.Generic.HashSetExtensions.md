@@ -5,5 +5,5 @@
 ### Methods
 |Member|Description|
 |---|---|
-|static&nbsp;[`T&nbsp;FirstElement<T>(HashSet<T>&nbsp;hashset)`](System.Collections.Generic.FirstElement)||
-|static&nbsp;[`bool&nbsp;TryGetValue<T>(HashSet<T>&nbsp;hashset,&nbsp;T&nbsp;equalValue,&nbsp;ref&nbsp;T&nbsp;actualValue)`](System.Collections.Generic.TryGetValue)||
+|static [`T FirstElement<T>(HashSet<T> hashset)`](System.Collections.Generic.FirstElement)||
+|static [`bool TryGetValue<T>(HashSet<T> hashset, T equalValue, ref T actualValue)`](System.Collections.Generic.TryGetValue)||

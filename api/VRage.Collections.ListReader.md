@@ -5,15 +5,15 @@
 ### Fields
 |Member|Description|
 |---|---|
-|static&nbsp;[`ListReader<T>&nbsp;Empty`](VRage.Collections.Empty)||
+|static [`ListReader<T> Empty`](VRage.Collections.Empty)||
 ### Properties
 |Member|Description|
 |---|---|
-|[`int&nbsp;Count`](VRage.Collections.Count)||
-|[`T&nbsp;Item`](VRage.Collections.Item)||
+|[`int Count`](VRage.Collections.Count)||
+|[`T Item`](VRage.Collections.Item)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`T&nbsp;ItemAt(int&nbsp;index)`](VRage.Collections.ItemAt)||
-|[`int&nbsp;IndexOf(T&nbsp;item)`](VRage.Collections.IndexOf)||
-|[`Enumerator<T>&nbsp;GetEnumerator()`](VRage.Collections.GetEnumerator)||
+|[`T ItemAt(int index)`](VRage.Collections.ItemAt)||
+|[`int IndexOf(T item)`](VRage.Collections.IndexOf)||
+|[`Enumerator<T> GetEnumerator()`](VRage.Collections.GetEnumerator)||

@@ -5,10 +5,10 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`ushort&nbsp;X`](VRageMath.X)||
-|[`ushort&nbsp;Y`](VRageMath.Y)||
-|[`ushort&nbsp;Z`](VRageMath.Z)||
+|[`ushort X`](VRageMath.X)||
+|[`ushort Y`](VRageMath.Y)||
+|[`ushort Z`](VRageMath.Z)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`string&nbsp;ToString()`](VRageMath.ToString)||
+|[`string ToString()`](VRageMath.ToString)||

@@ -7,8 +7,8 @@ Defines how the value of a Curve will be determined for positions before the fir
 ### Fields
 |Member|Description|
 |---|---|
-|static&nbsp;[`CurveLoopType&nbsp;Constant`](VRageMath.Constant)||
-|static&nbsp;[`CurveLoopType&nbsp;Cycle`](VRageMath.Cycle)||
-|static&nbsp;[`CurveLoopType&nbsp;CycleOffset`](VRageMath.CycleOffset)||
-|static&nbsp;[`CurveLoopType&nbsp;Oscillate`](VRageMath.Oscillate)||
-|static&nbsp;[`CurveLoopType&nbsp;Linear`](VRageMath.Linear)||
+|static [`CurveLoopType Constant`](VRageMath.Constant)||
+|static [`CurveLoopType Cycle`](VRageMath.Cycle)||
+|static [`CurveLoopType CycleOffset`](VRageMath.CycleOffset)||
+|static [`CurveLoopType Oscillate`](VRageMath.Oscillate)||
+|static [`CurveLoopType Linear`](VRageMath.Linear)||

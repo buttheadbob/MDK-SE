@@ -5,13 +5,13 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`Vector3&nbsp;From`](VRageMath.From)||
-|[`Vector3&nbsp;To`](VRageMath.To)||
-|[`Vector3&nbsp;Direction`](VRageMath.Direction)||
-|[`float&nbsp;Length`](VRageMath.Length)||
-|[`BoundingBox&nbsp;BoundingBox`](VRageMath.BoundingBox)||
+|[`Vector3 From`](VRageMath.From)||
+|[`Vector3 To`](VRageMath.To)||
+|[`Vector3 Direction`](VRageMath.Direction)||
+|[`float Length`](VRageMath.Length)||
+|[`BoundingBox BoundingBox`](VRageMath.BoundingBox)||
 ### Methods
 |Member|Description|
 |---|---|
-|static&nbsp;[`float&nbsp;GetShortestDistanceSquared(Line&nbsp;line1,&nbsp;Line&nbsp;line2)`](VRageMath.GetShortestDistanceSquared)||
-|static&nbsp;[`Vector3&nbsp;GetShortestVector(ref&nbsp;Line&nbsp;line1,&nbsp;ref&nbsp;Line&nbsp;line2,&nbsp;ref&nbsp;Vector3&nbsp;res1,&nbsp;ref&nbsp;Vector3&nbsp;res2)`](VRageMath.GetShortestVector)||
+|static [`float GetShortestDistanceSquared(Line line1, Line line2)`](VRageMath.GetShortestDistanceSquared)||
+|static [`Vector3 GetShortestVector(ref Line line1, ref Line line2, ref Vector3 res1, ref Vector3 res2)`](VRageMath.GetShortestVector)||

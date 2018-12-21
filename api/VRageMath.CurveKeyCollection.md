@@ -1,6 +1,6 @@
 ← [Index](index)
 # CurveKeyCollection Class
-**Namespace:** VRageMath  
+**Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ## Summary
 Contains the CurveKeys making up a Curve.

@@ -1,6 +1,6 @@
 ← [Index](index)
 # MyUShort4 Struct
-**Namespace:** VRageMath  
+**Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Fields
 |Member|Description|

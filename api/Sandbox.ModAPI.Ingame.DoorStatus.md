@@ -1,6 +1,6 @@
 ← [Index](index)
 # DoorStatus Enum
-**Namespace:** Sandbox.ModAPI.Ingame  
+**Namespace:** [`Sandbox.ModAPI.Ingame`](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll  
 ## Summary
 Describes the current status of the door.

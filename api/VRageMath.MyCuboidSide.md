@@ -1,6 +1,6 @@
 ← [Index](index)
 # MyCuboidSide Class
-**Namespace:** VRageMath  
+**Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Fields
 |Member|Description|

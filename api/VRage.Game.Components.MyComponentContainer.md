@@ -1,6 +1,6 @@
 ← [Index](index)
 # MyComponentContainer Class
-**Namespace:** VRage.Game.Components  
+**Namespace:** [`VRage.Game.Components`](VRage.Game.Components)  
 **Assembly:** VRage.Game.dll  
 ### Methods
 |Member|Description|

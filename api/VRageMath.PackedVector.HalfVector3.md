@@ -1,6 +1,6 @@
 ← [Index](index)
 # HalfVector3 Struct
-**Namespace:** VRageMath.PackedVector  
+**Namespace:** [`VRageMath.PackedVector`](VRageMath.PackedVector)  
 **Assembly:** VRage.Math.dll  
 ## Summary
 Packed vector type containing four 16-bit floating-point values.

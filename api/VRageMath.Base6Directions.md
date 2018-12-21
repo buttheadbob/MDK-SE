@@ -1,6 +1,6 @@
 ← [Index](index)
 # Base6Directions Class
-**Namespace:** VRageMath  
+**Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Fields
 |Member|Description|

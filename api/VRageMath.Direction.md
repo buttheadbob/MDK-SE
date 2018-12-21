@@ -1,4 +1,4 @@
 ← [Index](index)
 # Direction Enum
-**Namespace:** VRageMath  
+**Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  

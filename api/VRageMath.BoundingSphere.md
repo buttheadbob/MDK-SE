@@ -1,6 +1,6 @@
 ← [Index](index)
 # BoundingSphere Struct
-**Namespace:** VRageMath  
+**Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ## Summary
 Defines a sphere.

@@ -1,6 +1,6 @@
 ← [Index](index)
 # MyResourceSinkComponentBase Class
-**Namespace:** VRage.Game.Components  
+**Namespace:** [`VRage.Game.Components`](VRage.Game.Components)  
 **Assembly:** VRage.Game.dll  
 ### Properties
 |Member|Description|

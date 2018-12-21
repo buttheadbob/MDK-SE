@@ -1,4 +1,4 @@
 ← [Index](index)
 # ComparerClass Class
-**Namespace:** VRageMath  
+**Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  

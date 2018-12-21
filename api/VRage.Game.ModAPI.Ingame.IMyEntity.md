@@ -1,6 +1,6 @@
 ← [Index](index)
 # IMyEntity Interface
-**Namespace:** VRage.Game.ModAPI.Ingame  
+**Namespace:** [`VRage.Game.ModAPI.Ingame`](VRage.Game.ModAPI.Ingame)  
 **Assembly:** VRage.Game.dll  
 ## Summary
 Ingame (Programmable Block) interface for all entities.

@@ -1,6 +1,6 @@
 ← [Index](index)
 # MyVector3Grid Class
-**Namespace:** VRageMath.Spatial  
+**Namespace:** [`VRageMath.Spatial`](VRageMath.Spatial)  
 **Assembly:** VRage.Math.dll  
 ### Properties
 |Member|Description|

@@ -1,6 +1,6 @@
 ← [Index](index)
 # RectangleF Struct
-**Namespace:** VRageMath  
+**Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ## Summary
 Structure using the same layout thanT:System.Drawing.RectangleF

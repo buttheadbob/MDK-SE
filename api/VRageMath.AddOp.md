@@ -1,6 +1,6 @@
 ← [Index](index)
 # AddOp Interface
-**Namespace:** VRageMath  
+**Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Methods
 |Member|Description|

@@ -1,6 +1,6 @@
 ← [Index](index)
 # ListReader Struct
-**Namespace:** VRage.Collections  
+**Namespace:** [`VRage.Collections`](VRage.Collections)  
 **Assembly:** VRage.Library.dll  
 ### Fields
 |Member|Description|

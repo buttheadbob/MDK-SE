@@ -1,6 +1,6 @@
 ← [Index](index)
 # IMyShipWelder Interface
-**Namespace:** Sandbox.ModAPI.Ingame  
+**Namespace:** [`Sandbox.ModAPI.Ingame`](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll  
 **Implements:**
 * [`Sandbox.ModAPI.Ingame.IMyShipToolBase`](Sandbox.ModAPI.Ingame.IMyShipToolBase)

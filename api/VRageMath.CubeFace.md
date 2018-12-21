@@ -1,6 +1,6 @@
 ← [Index](index)
 # CubeFace Enum
-**Namespace:** VRageMath  
+**Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Fields
 |Member|Description|

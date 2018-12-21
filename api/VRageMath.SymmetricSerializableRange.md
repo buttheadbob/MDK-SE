@@ -1,6 +1,6 @@
 ← [Index](index)
 # SymmetricSerializableRange Struct
-**Namespace:** VRageMath  
+**Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Fields
 |Member|Description|

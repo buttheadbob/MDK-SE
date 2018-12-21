@@ -1,6 +1,6 @@
 ← [Index](index)
 # MyRelationsBetweenPlayerAndBlockExtensions Class
-**Namespace:** VRage.Game  
+**Namespace:** [`VRage.Game`](VRage.Game)  
 **Assembly:** VRage.Game.dll  
 ### Methods
 |Member|Description|

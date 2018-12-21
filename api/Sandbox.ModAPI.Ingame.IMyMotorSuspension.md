@@ -1,6 +1,6 @@
 ← [Index](index)
 # IMyMotorSuspension Interface
-**Namespace:** Sandbox.ModAPI.Ingame  
+**Namespace:** [`Sandbox.ModAPI.Ingame`](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll  
 **Implements:**
 * [`Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock`](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)

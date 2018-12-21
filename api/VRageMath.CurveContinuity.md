@@ -1,6 +1,6 @@
 ← [Index](index)
 # CurveContinuity Enum
-**Namespace:** VRageMath  
+**Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ## Summary
 Defines the continuity of CurveKeys on a Curve.

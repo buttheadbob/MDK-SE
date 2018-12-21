@@ -1,6 +1,6 @@
 ← [Index](index)
 # MathHelper Class
-**Namespace:** VRageMath  
+**Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ## Summary
 Contains commonly used precalculated values.

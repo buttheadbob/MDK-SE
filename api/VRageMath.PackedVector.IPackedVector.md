@@ -1,6 +1,6 @@
 ← [Index](index)
 # IPackedVector Interface
-**Namespace:** VRageMath.PackedVector  
+**Namespace:** [`VRageMath.PackedVector`](VRageMath.PackedVector)  
 **Assembly:** VRage.Math.dll  
 **Implements:**
 * [`VRageMath.PackedVector.IPackedVector`](VRageMath.PackedVector.IPackedVector)

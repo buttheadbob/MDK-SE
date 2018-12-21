@@ -1,6 +1,6 @@
 ← [Index](index)
 # ListExtensions Class
-**Namespace:** System.Collections.Generic  
+**Namespace:** [`System.Collections.Generic`](System.Collections.Generic)  
 **Assembly:** VRage.Library.dll  
 ### Methods
 |Member|Description|

@@ -1,4 +1,4 @@
 ← [Index](index)
 # HashSetInternalAccessor Class
-**Namespace:** System.Collections.Generic  
+**Namespace:** [`System.Collections.Generic`](System.Collections.Generic)  
 **Assembly:** VRage.Library.dll  

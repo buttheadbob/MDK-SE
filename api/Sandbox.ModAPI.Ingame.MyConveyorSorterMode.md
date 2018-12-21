@@ -1,6 +1,6 @@
 ← [Index](index)
 # MyConveyorSorterMode Enum
-**Namespace:** Sandbox.ModAPI.Ingame  
+**Namespace:** [`Sandbox.ModAPI.Ingame`](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll  
 ## Summary
 Determines the current mode of a conveyor sorter.

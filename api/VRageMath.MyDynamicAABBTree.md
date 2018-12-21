@@ -1,6 +1,6 @@
 ← [Index](index)
 # MyDynamicAABBTree Class
-**Namespace:** VRageMath  
+**Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ## Summary
 Dynamic aabb tree implementation as a prunning structure

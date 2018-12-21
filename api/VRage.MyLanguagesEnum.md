@@ -1,6 +1,6 @@
 ← [Index](index)
 # MyLanguagesEnum Enum
-**Namespace:** VRage  
+**Namespace:** [`VRage`](VRage)  
 **Assembly:** VRage.dll  
 ### Fields
 |Member|Description|

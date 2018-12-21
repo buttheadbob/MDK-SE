@@ -1,6 +1,6 @@
 ← [Index](index)
 # MyResourceSourceComponent Class
-**Namespace:** Sandbox.Game.EntityComponents  
+**Namespace:** [`Sandbox.Game.EntityComponents`](Sandbox.Game.EntityComponents)  
 **Assembly:** Sandbox.Game.dll  
 **Inheritance: **[`MyResourceSourceComponentBase`](VRage.Game.Components.MyResourceSourceComponentBase)
 ### Properties

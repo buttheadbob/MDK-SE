@@ -1,4 +1,4 @@
 ← [Index](index)
 # DynamicTreeNode Class
-**Namespace:** VRageMath  
+**Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  

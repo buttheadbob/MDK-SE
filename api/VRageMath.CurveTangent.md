@@ -1,6 +1,6 @@
 ← [Index](index)
 # CurveTangent Enum
-**Namespace:** VRageMath  
+**Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ## Summary
 Specifies different tangent types to be calculated for CurveKey points in a Curve.

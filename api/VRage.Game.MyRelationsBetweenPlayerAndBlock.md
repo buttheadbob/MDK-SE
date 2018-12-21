@@ -1,6 +1,6 @@
 ← [Index](index)
 # MyRelationsBetweenPlayerAndBlock Enum
-**Namespace:** VRage.Game  
+**Namespace:** [`VRage.Game`](VRage.Game)  
 **Assembly:** VRage.Game.dll  
 ### Fields
 |Member|Description|

@@ -1,6 +1,6 @@
 ← [Index](index)
 # BoundingFrustumD Class
-**Namespace:** VRageMath  
+**Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ## Summary
 Defines a frustum and helps determine whether forms intersect with it.

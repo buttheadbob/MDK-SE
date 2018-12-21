@@ -1,6 +1,6 @@
 ← [Index](index)
 # MySpaceTexts Class
-**Namespace:** Sandbox.Game.Localization  
+**Namespace:** [`Sandbox.Game.Localization`](Sandbox.Game.Localization)  
 **Assembly:** Sandbox.Game.dll  
 ### Fields
 |Member|Description|

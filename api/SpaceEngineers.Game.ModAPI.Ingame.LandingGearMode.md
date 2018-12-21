@@ -1,6 +1,6 @@
 ← [Index](index)
 # LandingGearMode Enum
-**Namespace:** SpaceEngineers.Game.ModAPI.Ingame  
+**Namespace:** [`SpaceEngineers.Game.ModAPI.Ingame`](SpaceEngineers.Game.ModAPI.Ingame)  
 **Assembly:** SpaceEngineers.ObjectBuilders.dll  
 ### Fields
 |Member|Description|

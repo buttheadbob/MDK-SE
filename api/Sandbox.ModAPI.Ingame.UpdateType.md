@@ -1,6 +1,6 @@
 ← [Index](index)
 # UpdateType Enum
-**Namespace:** Sandbox.ModAPI.Ingame  
+**Namespace:** [`Sandbox.ModAPI.Ingame`](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll  
 ## Summary
 Enum describes what source triggered the script to run.

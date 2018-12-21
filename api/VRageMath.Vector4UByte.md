@@ -1,6 +1,6 @@
 ← [Index](index)
 # Vector4UByte Struct
-**Namespace:** VRageMath  
+**Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Fields
 |Member|Description|

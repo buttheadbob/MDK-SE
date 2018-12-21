@@ -1,6 +1,6 @@
 ← [Index](index)
 # MyTexts Class
-**Namespace:** VRage  
+**Namespace:** [`VRage`](VRage)  
 **Assembly:** VRage.dll  
 ### Properties
 |Member|Description|

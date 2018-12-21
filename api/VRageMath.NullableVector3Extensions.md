@@ -1,6 +1,6 @@
 ← [Index](index)
 # NullableVector3Extensions Class
-**Namespace:** VRageMath  
+**Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Methods
 |Member|Description|

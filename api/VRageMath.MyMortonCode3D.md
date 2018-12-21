@@ -1,6 +1,6 @@
 ← [Index](index)
 # MyMortonCode3D Class
-**Namespace:** VRageMath  
+**Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Methods
 |Member|Description|

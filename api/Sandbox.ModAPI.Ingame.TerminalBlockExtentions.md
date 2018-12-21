@@ -1,6 +1,6 @@
 ← [Index](index)
 # TerminalBlockExtentions Class
-**Namespace:** Sandbox.ModAPI.Ingame  
+**Namespace:** [`Sandbox.ModAPI.Ingame`](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll  
 ### Methods
 |Member|Description|

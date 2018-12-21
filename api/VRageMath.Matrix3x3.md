@@ -1,6 +1,6 @@
 ← [Index](index)
 # Matrix3x3 Struct
-**Namespace:** VRageMath  
+**Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ## Summary
 Defines a matrix.

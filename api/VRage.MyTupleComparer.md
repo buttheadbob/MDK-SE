@@ -1,6 +1,6 @@
 ← [Index](index)
 # MyTupleComparer Class
-**Namespace:** VRage  
+**Namespace:** [`VRage`](VRage)  
 **Assembly:** VRage.Library.dll  
 ### Methods
 |Member|Description|

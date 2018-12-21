@@ -1,6 +1,6 @@
 ← [Index](index)
 # MyClusterTree Class
-**Namespace:** VRageMath.Spatial  
+**Namespace:** [`VRageMath.Spatial`](VRageMath.Spatial)  
 **Assembly:** VRage.Math.dll  
 ### Fields
 |Member|Description|

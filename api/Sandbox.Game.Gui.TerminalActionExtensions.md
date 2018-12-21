@@ -1,6 +1,6 @@
 ← [Index](index)
 # TerminalActionExtensions Class
-**Namespace:** Sandbox.Game.Gui  
+**Namespace:** [`Sandbox.Game.Gui`](Sandbox.Game.Gui)  
 **Assembly:** Sandbox.Game.dll  
 ### Methods
 |Member|Description|

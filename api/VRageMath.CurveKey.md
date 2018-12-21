@@ -1,6 +1,6 @@
 ← [Index](index)
 # CurveKey Class
-**Namespace:** VRageMath  
+**Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ## Summary
 Represents a point in a multi-point curve.

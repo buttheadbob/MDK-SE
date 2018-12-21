@@ -1,6 +1,6 @@
 ← [Index](index)
 # MyIniValue Struct
-**Namespace:** VRage.Game.ModAPI.Ingame.Utilities  
+**Namespace:** [`VRage.Game.ModAPI.Ingame.Utilities`](VRage.Game.ModAPI.Ingame.Utilities)  
 **Assembly:** VRage.Game.dll  
 ## Summary
 Represents the value of a single configuration item.

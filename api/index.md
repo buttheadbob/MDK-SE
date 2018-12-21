@@ -28,7 +28,7 @@ VRage.Math.dll
 [`VRageMath`](VRageMath)  
 [`VRageMath.PackedVector`](VRageMath.PackedVector)  
 [`VRageMath.Spatial`](VRageMath.Spatial)  
-## Typos
+## Types
 [`AddOp<T>`](VRageMath.AddOp)  
 [`Axis`](VRageMath.Axis)  
 [`Base27Directions`](VRageMath.Base27Directions)  

@@ -1,6 +1,6 @@
 ← [Index](index)
 # Vector3Extensions Class
-**Namespace:** VRageMath  
+**Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ## Summary
 Usefull Vector3 extensions

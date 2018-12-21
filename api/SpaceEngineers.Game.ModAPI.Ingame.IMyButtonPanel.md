@@ -1,6 +1,6 @@
 ← [Index](index)
 # IMyButtonPanel Interface
-**Namespace:** SpaceEngineers.Game.ModAPI.Ingame  
+**Namespace:** [`SpaceEngineers.Game.ModAPI.Ingame`](SpaceEngineers.Game.ModAPI.Ingame)  
 **Assembly:** SpaceEngineers.Game.dll  
 **Implements:**
 * [`Sandbox.ModAPI.Ingame.IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTerminalBlock)

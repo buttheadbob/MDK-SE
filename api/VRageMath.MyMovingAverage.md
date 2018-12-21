@@ -1,6 +1,6 @@
 ← [Index](index)
 # MyMovingAverage Class
-**Namespace:** VRageMath  
+**Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Properties
 |Member|Description|

@@ -1,6 +1,6 @@
 ← [Index](index)
 # MyIniParseResult Struct
-**Namespace:** VRage.Game.ModAPI.Ingame.Utilities  
+**Namespace:** [`VRage.Game.ModAPI.Ingame.Utilities`](VRage.Game.ModAPI.Ingame.Utilities)  
 **Assembly:** VRage.Game.dll  
 ## Summary
 Represents the results of a configuration parsing.

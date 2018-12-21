@@ -1,6 +1,6 @@
 ← [Index](index)
 # ClearToken Struct
-**Namespace:** System.Collections.Generic  
+**Namespace:** [`System.Collections.Generic`](System.Collections.Generic)  
 **Assembly:** VRage.Library.dll  
 ### Fields
 |Member|Description|

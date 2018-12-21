@@ -1,6 +1,6 @@
 ← [Index](index)
 # Base27Directions Class
-**Namespace:** VRageMath  
+**Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ## Summary
 Base 26 directions and Vector3.Zero Each component is only 0,-1 or 1;

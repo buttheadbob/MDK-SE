@@ -1,6 +1,6 @@
 ← [Index](index)
 # Color Struct
-**Namespace:** VRageMath  
+**Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 **Implements:**
 * [`VRageMath.PackedVector.IPackedVector`](VRageMath.PackedVector.IPackedVector)

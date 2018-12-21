@@ -1,6 +1,6 @@
 ← [Index](index)
 # IMyGravityGeneratorBase Interface
-**Namespace:** SpaceEngineers.Game.ModAPI.Ingame  
+**Namespace:** [`SpaceEngineers.Game.ModAPI.Ingame`](SpaceEngineers.Game.ModAPI.Ingame)  
 **Assembly:** SpaceEngineers.Game.dll  
 **Implements:**
 * [`Sandbox.ModAPI.Ingame.IMyFunctionalBlock`](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)

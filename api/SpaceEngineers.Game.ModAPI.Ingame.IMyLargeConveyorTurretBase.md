@@ -1,6 +1,6 @@
 ← [Index](index)
 # IMyLargeConveyorTurretBase Interface
-**Namespace:** SpaceEngineers.Game.ModAPI.Ingame  
+**Namespace:** [`SpaceEngineers.Game.ModAPI.Ingame`](SpaceEngineers.Game.ModAPI.Ingame)  
 **Assembly:** SpaceEngineers.Game.dll  
 **Implements:**
 * [`Sandbox.ModAPI.Ingame.IMyLargeTurretBase`](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)

@@ -1,6 +1,6 @@
 ← [Index](index)
 # PlaneIntersectionType Enum
-**Namespace:** VRageMath  
+**Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ## Summary
 Describes the intersection between a plane and a bounding volume.

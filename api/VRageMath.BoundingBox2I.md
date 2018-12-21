@@ -1,6 +1,6 @@
 ← [Index](index)
 # BoundingBox2I Struct
-**Namespace:** VRageMath  
+**Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ## Summary
 Defines an axis-aligned box-shaped 3D volume.

@@ -1,6 +1,6 @@
 ← [Index](index)
 # ITerminalProperty Interface
-**Namespace:** Sandbox.ModAPI.Interfaces  
+**Namespace:** [`Sandbox.ModAPI.Interfaces`](Sandbox.ModAPI.Interfaces)  
 **Assembly:** Sandbox.Common.dll  
 **Implements:**
 * [`Sandbox.ModAPI.Interfaces.ITerminalProperty`](Sandbox.ModAPI.Interfaces.ITerminalProperty)

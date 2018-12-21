@@ -1,6 +1,6 @@
 ← [Index](index)
 # MyTuple Struct
-**Namespace:** VRage  
+**Namespace:** [`VRage`](VRage)  
 **Assembly:** VRage.Library.dll  
 ### Fields
 |Member|Description|

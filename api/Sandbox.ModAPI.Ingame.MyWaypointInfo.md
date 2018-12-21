@@ -1,6 +1,6 @@
 ← [Index](index)
 # MyWaypointInfo Struct
-**Namespace:** Sandbox.ModAPI.Ingame  
+**Namespace:** [`Sandbox.ModAPI.Ingame`](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll  
 ## Summary
 Represents a GPS coordinate

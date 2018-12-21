@@ -90,12 +90,6 @@ Various useful utilities for your scripts
 [`MyIniValue`](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue)  
 [`StringSegment`](VRage.Game.ModAPI.Ingame.Utilities.StringSegment)  
 [`TextPtr`](VRage.Game.ModAPI.Ingame.Utilities.TextPtr)  
-### Entity Component Systems
-
-Gain access to advanced block components
-
-[`MyResourceSinkComponent`](Sandbox.Game.EntityComponents.MyResourceSinkComponent)  
-[`MyResourceSourceComponent`](Sandbox.Game.EntityComponents.MyResourceSourceComponent)  
 ### Grid Program and Terminal System
 
 Types related to the grid program and grid terminal system
@@ -109,6 +103,16 @@ Types related to the grid program and grid terminal system
 [`IMySlimBlock`](VRage.Game.ModAPI.Ingame.IMySlimBlock)  
 [`IMyCubeBlock`](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 [`IMyCubeGrid`](VRage.Game.ModAPI.Ingame.IMyCubeGrid)  
+### Entity Component Systems
+
+Gain access to advanced block components
+
+[`MyComponentBase`](VRage.Game.Components.MyComponentBase)  
+[`MyComponentContainer`](VRage.Game.Components.MyComponentContainer)  
+[`MyResourceSinkComponentBase`](VRage.Game.Components.MyResourceSinkComponentBase)  
+[`MyResourceSourceComponentBase`](VRage.Game.Components.MyResourceSourceComponentBase)  
+[`MyResourceSinkComponent`](Sandbox.Game.EntityComponents.MyResourceSinkComponent)  
+[`MyResourceSourceComponent`](Sandbox.Game.EntityComponents.MyResourceSourceComponent)  
 ### Inventory
 
 Types related to inventory analysis and management.
@@ -251,7 +255,7 @@ Math utilities
 [`NormalizedByte4`](VRageMath.PackedVector.NormalizedByte4)  
 ### Other
 
-Types that don't fit into a specific category
+Currently ungrouped types
 
 [`MyTransmitTarget`](Sandbox.ModAPI.Ingame.MyTransmitTarget)  
 [`MyAssemblerMode`](Sandbox.ModAPI.Ingame.MyAssemblerMode)  
@@ -276,14 +280,10 @@ Types that don't fit into a specific category
 [`LandingGearMode`](SpaceEngineers.Game.ModAPI.Ingame.LandingGearMode)  
 [`MyLanguagesEnum`](VRage.MyLanguagesEnum)  
 [`MyTexts`](VRage.MyTexts)  
-[`MyComponentBase`](VRage.Game.Components.MyComponentBase)  
 [`IMyEntity`](VRage.Game.ModAPI.Ingame.IMyEntity)  
 [`MyObjectBuilder_Base`](VRage.ObjectBuilders.MyObjectBuilder_Base)  
 [`MyRelationsBetweenPlayerAndBlock`](VRage.Game.MyRelationsBetweenPlayerAndBlock)  
 [`MyRelationsBetweenPlayerAndBlockExtensions`](VRage.Game.MyRelationsBetweenPlayerAndBlockExtensions)  
-[`MyComponentContainer`](VRage.Game.Components.MyComponentContainer)  
-[`MyResourceSinkComponentBase`](VRage.Game.Components.MyResourceSinkComponentBase)  
-[`MyResourceSourceComponentBase`](VRage.Game.Components.MyResourceSourceComponentBase)  
 [`MyDefinitionId`](VRage.Game.MyDefinitionId)  
 [`MyObjectBuilder_GasProperties`](VRage.Game.ObjectBuilders.Definitions.MyObjectBuilder_GasProperties)  
 [`MyCubeSize`](VRage.Game.MyCubeSize)  

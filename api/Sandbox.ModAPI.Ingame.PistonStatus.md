@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # PistonStatus Enum
-** Namespace: ** Sandbox.ModAPI.Ingame  
-** Assembly: ** Sandbox.Common.dll  
+**Namespace:** Sandbox.ModAPI.Ingame  
+**Assembly:** Sandbox.Common.dll  
 ## Summary
 Describes the current status of the piston.
 ### Fields

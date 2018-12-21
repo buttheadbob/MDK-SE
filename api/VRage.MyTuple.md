@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # MyTuple Struct
-** Namespace: ** VRage  
-** Assembly: ** VRage.Library.dll  
+**Namespace:** VRage  
+**Assembly:** VRage.Library.dll  
 ### Fields
 |Member|Description|
 |---|---|

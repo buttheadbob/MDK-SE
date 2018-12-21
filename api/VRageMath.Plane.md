@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # Plane Struct
-** Namespace: ** VRageMath  
-** Assembly: ** VRage.Math.dll  
+**Namespace:** VRageMath  
+**Assembly:** VRage.Math.dll  
 ## Summary
 Defines a plane.
 ### Fields

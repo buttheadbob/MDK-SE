@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # Vector2D Struct
-** Namespace: ** VRageMath  
-** Assembly: ** VRage.Math.dll  
+**Namespace:** VRageMath  
+**Assembly:** VRage.Math.dll  
 ## Summary
 Defines a vector with two components.
 ### Fields

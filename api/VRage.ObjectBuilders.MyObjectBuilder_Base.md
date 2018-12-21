@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # MyObjectBuilder_Base Class
-** Namespace: ** VRage.ObjectBuilders  
-** Assembly: ** VRage.Game.dll  
+**Namespace:** VRage.ObjectBuilders  
+**Assembly:** VRage.Game.dll  
 ### Properties
 |Member|Description|
 |---|---|

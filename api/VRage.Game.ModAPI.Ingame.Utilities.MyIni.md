@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # MyIni Class
-** Namespace: ** VRage.Game.ModAPI.Ingame.Utilities  
-** Assembly: ** VRage.Game.dll  
+**Namespace:** VRage.Game.ModAPI.Ingame.Utilities  
+**Assembly:** VRage.Game.dll  
 ## Summary
 A configuration class to parse and create a text string resembling the old fashioned INI format, but with support for multiline values.
 Do not forget that parsing is a time-consuming task. Keep your parsing to a minimum.

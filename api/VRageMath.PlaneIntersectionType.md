@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # PlaneIntersectionType Enum
-** Namespace: ** VRageMath  
-** Assembly: ** VRage.Math.dll  
+**Namespace:** VRageMath  
+**Assembly:** VRage.Math.dll  
 ## Summary
 Describes the intersection between a plane and a bounding volume.
 ### Fields

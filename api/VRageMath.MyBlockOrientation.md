@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # MyBlockOrientation Struct
-** Namespace: ** VRageMath  
-** Assembly: ** VRage.Math.dll  
+**Namespace:** VRageMath  
+**Assembly:** VRage.Math.dll  
 ### Fields
 |Member|Description|
 |---|---|

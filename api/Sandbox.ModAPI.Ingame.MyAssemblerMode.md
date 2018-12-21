@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # MyAssemblerMode Enum
-** Namespace: ** Sandbox.ModAPI.Ingame  
-** Assembly: ** Sandbox.Common.dll  
+**Namespace:** Sandbox.ModAPI.Ingame  
+**Assembly:** Sandbox.Common.dll  
 ## Summary
 Determines what mode an assembler is in.
 ### Fields

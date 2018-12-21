@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # MySpaceTexts Class
-** Namespace: ** Sandbox.Game.Localization  
-** Assembly: ** Sandbox.Game.dll  
+**Namespace:** Sandbox.Game.Localization  
+**Assembly:** Sandbox.Game.dll  
 ### Fields
 |Member|Description|
 |---|---|

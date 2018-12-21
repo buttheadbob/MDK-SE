@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # MyCubeSize Enum
-** Namespace: ** VRage.Game  
-** Assembly: ** VRage.Game.dll  
+**Namespace:** VRage.Game  
+**Assembly:** VRage.Game.dll  
 ### Fields
 |Member|Description|
 |---|---|

@@ -1,8 +1,8 @@
 ← [Index](index.md)
 # IMyRemoteControl Interface
-** Namespace: ** Sandbox.ModAPI.Ingame  
-** Assembly: ** Sandbox.Common.dll  
-** Implements: **
+**Namespace:** Sandbox.ModAPI.Ingame  
+**Assembly:** Sandbox.Common.dll  
+**Implements:**
 * [`Sandbox.ModAPI.Ingame.IMyShipController`](Sandbox.ModAPI.Ingame.IMyShipController.md)
 * [`Sandbox.ModAPI.Ingame.IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTerminalBlock.md)
 * [`VRage.Game.ModAPI.Ingame.IMyCubeBlock`](VRage.Game.ModAPI.Ingame.IMyCubeBlock.md)

@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # UpdateFrequency Enum
-** Namespace: ** Sandbox.ModAPI.Ingame  
-** Assembly: ** Sandbox.Common.dll  
+**Namespace:** Sandbox.ModAPI.Ingame  
+**Assembly:** Sandbox.Common.dll  
 ## Summary
 Flags set how often the script will run itself.
 ### Fields

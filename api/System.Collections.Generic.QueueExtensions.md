@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # QueueExtensions Class
-** Namespace: ** System.Collections.Generic  
-** Assembly: ** VRage.Library.dll  
+**Namespace:** System.Collections.Generic  
+**Assembly:** VRage.Library.dll  
 ### Methods
 |Member|Description|
 |---|---|

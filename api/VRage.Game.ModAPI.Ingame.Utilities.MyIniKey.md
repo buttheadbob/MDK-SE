@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # MyIniKey Struct
-** Namespace: ** VRage.Game.ModAPI.Ingame.Utilities  
-** Assembly: ** VRage.Game.dll  
+**Namespace:** VRage.Game.ModAPI.Ingame.Utilities  
+**Assembly:** VRage.Game.dll  
 ## Summary
 Represents the combination of a section and a key in aT:VRage.Game.ModAPI.Ingame.Utilities.MyInistructure.
 ### Fields

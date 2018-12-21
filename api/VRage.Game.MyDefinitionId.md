@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # MyDefinitionId Struct
-** Namespace: ** VRage.Game  
-** Assembly: ** VRage.Game.dll  
+**Namespace:** VRage.Game  
+**Assembly:** VRage.Game.dll  
 ## Summary
 Prefer getting definition ID using object builder used to create the item. If you have automatic rifle, in its Init method create new MyDefinitionId using TypeId and SubtypeName of object builder. Do not write specific values in code, as data comes from XML and if those change, code needs to change as well.
 ### Fields

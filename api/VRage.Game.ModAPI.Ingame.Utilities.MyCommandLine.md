@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # MyCommandLine Class
-** Namespace: ** VRage.Game.ModAPI.Ingame.Utilities  
-** Assembly: ** VRage.Game.dll  
+**Namespace:** VRage.Game.ModAPI.Ingame.Utilities  
+**Assembly:** VRage.Game.dll  
 ## Summary
 A utility class to parse arguments from a command line string. Switches are defined with hyphen (-switch). Quotes can be placed around an argument to parse verbatim.
 ### Properties

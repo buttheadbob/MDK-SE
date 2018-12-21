@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # IMyGridProgramRuntimeInfo Interface
-** Namespace: ** Sandbox.ModAPI.Ingame  
-** Assembly: ** Sandbox.Common.dll  
+**Namespace:** Sandbox.ModAPI.Ingame  
+**Assembly:** Sandbox.Common.dll  
 ## Summary
 Provides runtime info for a running grid program.
 ### Properties

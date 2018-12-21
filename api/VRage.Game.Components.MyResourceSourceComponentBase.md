@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # MyResourceSourceComponentBase Class
-** Namespace: ** VRage.Game.Components  
-** Assembly: ** VRage.Game.dll  
+**Namespace:** VRage.Game.Components  
+**Assembly:** VRage.Game.dll  
 ### Methods
 |Member|Description|
 |---|---|

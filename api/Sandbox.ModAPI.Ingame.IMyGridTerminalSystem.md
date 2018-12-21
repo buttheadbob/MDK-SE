@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # IMyGridTerminalSystem Interface
-** Namespace: ** Sandbox.ModAPI.Ingame  
-** Assembly: ** Sandbox.Common.dll  
+**Namespace:** Sandbox.ModAPI.Ingame  
+**Assembly:** Sandbox.Common.dll  
 ### Methods
 |Member|Description|
 |---|---|

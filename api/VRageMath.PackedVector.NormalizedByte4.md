@@ -1,8 +1,8 @@
 ← [Index](index.md)
 # NormalizedByte4 Struct
-** Namespace: ** VRageMath.PackedVector  
-** Assembly: ** VRage.Math.dll  
-** Implements: **
+**Namespace:** VRageMath.PackedVector  
+**Assembly:** VRage.Math.dll  
+**Implements:**
 * [`VRageMath.PackedVector.IPackedVector`](VRageMath.PackedVector.IPackedVector.md)
 ## Summary
 Packed vector type containing four 8-bit signed normalized values, ranging from −1 to 1.

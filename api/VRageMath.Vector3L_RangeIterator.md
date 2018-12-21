@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # Vector3L_RangeIterator Struct
-** Namespace: ** VRageMath  
-** Assembly: ** VRage.Math.dll  
+**Namespace:** VRageMath  
+**Assembly:** VRage.Math.dll  
 ## Summary
 A class for simpler traversal of ranges of longeger vectors
 ### Fields

@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # SerializableDefinitionId Struct
-** Namespace: ** VRage.ObjectBuilders  
-** Assembly: ** VRage.Game.dll  
+**Namespace:** VRage.ObjectBuilders  
+**Assembly:** VRage.Game.dll  
 ### Fields
 |Member|Description|
 |---|---|

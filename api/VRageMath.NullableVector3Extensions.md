@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # NullableVector3Extensions Class
-** Namespace: ** VRageMath  
-** Assembly: ** VRage.Math.dll  
+**Namespace:** VRageMath  
+**Assembly:** VRage.Math.dll  
 ### Methods
 |Member|Description|
 |---|---|

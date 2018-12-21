@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # VentStatus Enum
-** Namespace: ** SpaceEngineers.Game.ModAPI.Ingame  
-** Assembly: ** SpaceEngineers.Game.dll  
+**Namespace:** SpaceEngineers.Game.ModAPI.Ingame  
+**Assembly:** SpaceEngineers.Game.dll  
 ### Fields
 |Member|Description|
 |---|---|

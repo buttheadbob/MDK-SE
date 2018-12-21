@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # Curve Class
-** Namespace: ** VRageMath  
-** Assembly: ** VRage.Math.dll  
+**Namespace:** VRageMath  
+**Assembly:** VRage.Math.dll  
 ## Summary
 Stores an arbitrary collection of 2D CurveKey points, and provides methods for evaluating features of the curve they define.
 ### Properties

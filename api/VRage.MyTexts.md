@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # MyTexts Class
-** Namespace: ** VRage  
-** Assembly: ** VRage.dll  
+**Namespace:** VRage  
+**Assembly:** VRage.dll  
 ### Properties
 |Member|Description|
 |---|---|

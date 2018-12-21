@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # MyTupleComparer Class
-** Namespace: ** VRage  
-** Assembly: ** VRage.Library.dll  
+**Namespace:** VRage  
+**Assembly:** VRage.Library.dll  
 ### Methods
 |Member|Description|
 |---|---|

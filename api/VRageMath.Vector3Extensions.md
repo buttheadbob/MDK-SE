@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # Vector3Extensions Class
-** Namespace: ** VRageMath  
-** Assembly: ** VRage.Math.dll  
+**Namespace:** VRageMath  
+**Assembly:** VRage.Math.dll  
 ## Summary
 Usefull Vector3 extensions
 ### Methods

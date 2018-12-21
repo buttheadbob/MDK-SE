@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # ITerminalAction Interface
-** Namespace: ** Sandbox.ModAPI.Interfaces  
-** Assembly: ** Sandbox.Common.dll  
+**Namespace:** Sandbox.ModAPI.Interfaces  
+**Assembly:** Sandbox.Common.dll  
 ### Properties
 |Member|Description|
 |---|---|

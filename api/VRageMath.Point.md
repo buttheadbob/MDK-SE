@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # Point Struct
-** Namespace: ** VRageMath  
-** Assembly: ** VRage.Math.dll  
+**Namespace:** VRageMath  
+**Assembly:** VRage.Math.dll  
 ## Summary
 Defines a point in 2D space.
 ### Fields

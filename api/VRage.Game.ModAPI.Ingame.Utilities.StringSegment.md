@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # StringSegment Struct
-** Namespace: ** VRage.Game.ModAPI.Ingame.Utilities  
-** Assembly: ** VRage.Game.dll  
+**Namespace:** VRage.Game.ModAPI.Ingame.Utilities  
+**Assembly:** VRage.Game.dll  
 ### Fields
 |Member|Description|
 |---|---|

@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # HyperSphereHelpers Class
-** Namespace: ** VRageMath  
-** Assembly: ** VRage.Math.dll  
+**Namespace:** VRageMath  
+**Assembly:** VRage.Math.dll  
 ### Methods
 |Member|Description|
 |---|---|

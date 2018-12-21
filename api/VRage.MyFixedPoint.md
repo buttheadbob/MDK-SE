@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # MyFixedPoint Struct
-** Namespace: ** VRage  
-** Assembly: ** VRage.Library.dll  
+**Namespace:** VRage  
+**Assembly:** VRage.Library.dll  
 ## Summary
 Fixed point number represented as 64-bit integer with 6 decimal places (one millionts)
 ### Fields

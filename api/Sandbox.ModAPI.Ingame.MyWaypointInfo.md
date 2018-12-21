@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # MyWaypointInfo Struct
-** Namespace: ** Sandbox.ModAPI.Ingame  
-** Assembly: ** Sandbox.Common.dll  
+**Namespace:** Sandbox.ModAPI.Ingame  
+**Assembly:** Sandbox.Common.dll  
 ## Summary
 Represents a GPS coordinate
 ### Fields

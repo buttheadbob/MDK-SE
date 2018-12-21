@@ -1,8 +1,8 @@
 ← [Index](index.md)
 # IPackedVector Interface
-** Namespace: ** VRageMath.PackedVector  
-** Assembly: ** VRage.Math.dll  
-** Implements: **
+**Namespace:** VRageMath.PackedVector  
+**Assembly:** VRage.Math.dll  
+**Implements:**
 * [`VRageMath.PackedVector.IPackedVector`](VRageMath.PackedVector.IPackedVector.md)
 ### Properties
 |Member|Description|

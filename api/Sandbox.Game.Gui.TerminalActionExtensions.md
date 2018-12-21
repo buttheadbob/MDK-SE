@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # TerminalActionExtensions Class
-** Namespace: ** Sandbox.Game.Gui  
-** Assembly: ** Sandbox.Game.dll  
+**Namespace:** Sandbox.Game.Gui  
+**Assembly:** Sandbox.Game.dll  
 ### Methods
 |Member|Description|
 |---|---|

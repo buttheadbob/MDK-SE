@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # ContainmentType Enum
-** Namespace: ** VRageMath  
-** Assembly: ** VRage.Math.dll  
+**Namespace:** VRageMath  
+**Assembly:** VRage.Math.dll  
 ## Summary
 Indicates the extent to which bounding volumes intersect or contain one another.
 ### Fields

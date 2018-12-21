@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # TerminalPropertyExtensions Class
-** Namespace: ** Sandbox.ModAPI.Interfaces  
-** Assembly: ** Sandbox.Common.dll  
+**Namespace:** Sandbox.ModAPI.Interfaces  
+**Assembly:** Sandbox.Common.dll  
 ## Summary
 Terminal block extension for property access
 ### Methods

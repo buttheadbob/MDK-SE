@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # MyVector3Grid Class
-** Namespace: ** VRageMath.Spatial  
-** Assembly: ** VRage.Math.dll  
+**Namespace:** VRageMath.Spatial  
+**Assembly:** VRage.Math.dll  
 ### Properties
 |Member|Description|
 |---|---|

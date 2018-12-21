@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # PlaneD Struct
-** Namespace: ** VRageMath  
-** Assembly: ** VRage.Math.dll  
+**Namespace:** VRageMath  
+**Assembly:** VRage.Math.dll  
 ## Summary
 Defines a PlaneD.
 ### Fields

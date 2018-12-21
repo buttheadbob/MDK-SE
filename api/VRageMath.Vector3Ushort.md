@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # Vector3Ushort Struct
-** Namespace: ** VRageMath  
-** Assembly: ** VRage.Math.dll  
+**Namespace:** VRageMath  
+**Assembly:** VRage.Math.dll  
 ### Fields
 |Member|Description|
 |---|---|

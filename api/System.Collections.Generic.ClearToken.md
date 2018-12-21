@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # ClearToken Struct
-** Namespace: ** System.Collections.Generic  
-** Assembly: ** VRage.Library.dll  
+**Namespace:** System.Collections.Generic  
+**Assembly:** VRage.Library.dll  
 ### Fields
 |Member|Description|
 |---|---|

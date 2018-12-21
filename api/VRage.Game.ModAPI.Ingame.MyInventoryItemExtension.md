@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # MyInventoryItemExtension Class
-** Namespace: ** VRage.Game.ModAPI.Ingame  
-** Assembly: ** VRage.Game.dll  
+**Namespace:** VRage.Game.ModAPI.Ingame  
+**Assembly:** VRage.Game.dll  
 ### Methods
 |Member|Description|
 |---|---|

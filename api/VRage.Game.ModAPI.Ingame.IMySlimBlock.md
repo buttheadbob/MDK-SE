@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # IMySlimBlock Interface
-** Namespace: ** VRage.Game.ModAPI.Ingame  
-** Assembly: ** VRage.Game.dll  
+**Namespace:** VRage.Game.ModAPI.Ingame  
+**Assembly:** VRage.Game.dll  
 ## Summary
 basic block interface
 ### Properties

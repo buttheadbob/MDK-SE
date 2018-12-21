@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # MatrixD Struct
-** Namespace: ** VRageMath  
-** Assembly: ** VRage.Math.dll  
+**Namespace:** VRageMath  
+**Assembly:** VRage.Math.dll  
 ## Summary
 Defines a matrix.
 ### Fields

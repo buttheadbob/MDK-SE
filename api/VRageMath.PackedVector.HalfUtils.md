@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # HalfUtils Class
-** Namespace: ** VRageMath.PackedVector  
-** Assembly: ** VRage.Math.dll  
+**Namespace:** VRageMath.PackedVector  
+**Assembly:** VRage.Math.dll  
 ### Methods
 |Member|Description|
 |---|---|

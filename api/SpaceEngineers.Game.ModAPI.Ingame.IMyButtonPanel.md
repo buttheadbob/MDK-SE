@@ -1,8 +1,8 @@
 ← [Index](index.md)
 # IMyButtonPanel Interface
-** Namespace: ** SpaceEngineers.Game.ModAPI.Ingame  
-** Assembly: ** SpaceEngineers.Game.dll  
-** Implements: **
+**Namespace:** SpaceEngineers.Game.ModAPI.Ingame  
+**Assembly:** SpaceEngineers.Game.dll  
+**Implements:**
 * [`Sandbox.ModAPI.Ingame.IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTerminalBlock.md)
 * [`VRage.Game.ModAPI.Ingame.IMyCubeBlock`](VRage.Game.ModAPI.Ingame.IMyCubeBlock.md)
 * [`VRage.Game.ModAPI.Ingame.IMyEntity`](VRage.Game.ModAPI.Ingame.IMyEntity.md)

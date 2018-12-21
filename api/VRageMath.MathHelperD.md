@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # MathHelperD Class
-** Namespace: ** VRageMath  
-** Assembly: ** VRage.Math.dll  
+**Namespace:** VRageMath  
+**Assembly:** VRage.Math.dll  
 ## Summary
 Contains commonly used precalculated values.
 ### Fields

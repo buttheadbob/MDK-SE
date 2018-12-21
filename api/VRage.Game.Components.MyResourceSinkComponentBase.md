@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # MyResourceSinkComponentBase Class
-** Namespace: ** VRage.Game.Components  
-** Assembly: ** VRage.Game.dll  
+**Namespace:** VRage.Game.Components  
+**Assembly:** VRage.Game.dll  
 ### Properties
 |Member|Description|
 |---|---|

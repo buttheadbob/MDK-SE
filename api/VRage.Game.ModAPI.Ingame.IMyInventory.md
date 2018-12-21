@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # IMyInventory Interface
-** Namespace: ** VRage.Game.ModAPI.Ingame  
-** Assembly: ** VRage.Game.dll  
+**Namespace:** VRage.Game.ModAPI.Ingame  
+**Assembly:** VRage.Game.dll  
 ### Properties
 |Member|Description|
 |---|---|

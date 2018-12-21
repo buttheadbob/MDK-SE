@@ -1,8 +1,8 @@
 ← [Index](index.md)
 # MyResourceSinkComponent Class
-** Namespace: ** Sandbox.Game.EntityComponents  
-** Assembly: ** Sandbox.Game.dll  
-** Inheritance:  **[`MyResourceSinkComponentBase`](VRage.Game.Components.MyResourceSinkComponentBase.md)
+**Namespace:** Sandbox.Game.EntityComponents  
+**Assembly:** Sandbox.Game.dll  
+**Inheritance: **[`MyResourceSinkComponentBase`](VRage.Game.Components.MyResourceSinkComponentBase.md)
 ### Properties
 |Member|Description|
 |---|---|

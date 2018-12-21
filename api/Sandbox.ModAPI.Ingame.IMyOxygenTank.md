@@ -1,8 +1,8 @@
 ← [Index](index.md)
 # IMyOxygenTank Interface
-** Namespace: ** Sandbox.ModAPI.Ingame  
-** Assembly: ** Sandbox.Common.dll  
-** Implements: **
+**Namespace:** Sandbox.ModAPI.Ingame  
+**Assembly:** Sandbox.Common.dll  
+**Implements:**
 * [`Sandbox.ModAPI.Ingame.IMyGasTank`](Sandbox.ModAPI.Ingame.IMyGasTank.md)
 * [`Sandbox.ModAPI.Ingame.IMyFunctionalBlock`](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.md)
 * [`Sandbox.ModAPI.Ingame.IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTerminalBlock.md)

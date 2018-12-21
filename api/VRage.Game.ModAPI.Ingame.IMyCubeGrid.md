@@ -1,8 +1,8 @@
 ← [Index](index.md)
 # IMyCubeGrid Interface
-** Namespace: ** VRage.Game.ModAPI.Ingame  
-** Assembly: ** VRage.Game.dll  
-** Implements: **
+**Namespace:** VRage.Game.ModAPI.Ingame  
+**Assembly:** VRage.Game.dll  
+**Implements:**
 * [`VRage.Game.ModAPI.Ingame.IMyEntity`](VRage.Game.ModAPI.Ingame.IMyEntity.md)
 ## Summary
 Grid interface

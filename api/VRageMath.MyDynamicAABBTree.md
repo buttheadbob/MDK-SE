@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # MyDynamicAABBTree Class
-** Namespace: ** VRageMath  
-** Assembly: ** VRage.Math.dll  
+**Namespace:** VRageMath  
+**Assembly:** VRage.Math.dll  
 ## Summary
 Dynamic aabb tree implementation as a prunning structure
 ### Fields

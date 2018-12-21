@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # Rectangle Struct
-** Namespace: ** VRageMath  
-** Assembly: ** VRage.Math.dll  
+**Namespace:** VRageMath  
+**Assembly:** VRage.Math.dll  
 ## Summary
 Defines a rectangle.
 ### Fields

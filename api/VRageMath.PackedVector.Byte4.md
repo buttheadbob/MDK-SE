@@ -1,8 +1,8 @@
 ← [Index](index.md)
 # Byte4 Struct
-** Namespace: ** VRageMath.PackedVector  
-** Assembly: ** VRage.Math.dll  
-** Implements: **
+**Namespace:** VRageMath.PackedVector  
+**Assembly:** VRage.Math.dll  
+**Implements:**
 * [`VRageMath.PackedVector.IPackedVector`](VRageMath.PackedVector.IPackedVector.md)
 ## Summary
 Packed vector type containing four 8-bit unsigned integer values, ranging from 0 to 255.

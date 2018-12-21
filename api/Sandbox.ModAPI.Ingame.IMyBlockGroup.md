@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # IMyBlockGroup Interface
-** Namespace: ** Sandbox.ModAPI.Ingame  
-** Assembly: ** Sandbox.Common.dll  
+**Namespace:** Sandbox.ModAPI.Ingame  
+**Assembly:** Sandbox.Common.dll  
 ### Properties
 |Member|Description|
 |---|---|

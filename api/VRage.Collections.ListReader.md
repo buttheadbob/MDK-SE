@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # ListReader Struct
-** Namespace: ** VRage.Collections  
-** Assembly: ** VRage.Library.dll  
+**Namespace:** VRage.Collections  
+**Assembly:** VRage.Library.dll  
 ### Fields
 |Member|Description|
 |---|---|

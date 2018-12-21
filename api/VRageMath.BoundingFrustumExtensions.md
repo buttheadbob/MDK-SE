@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # BoundingFrustumExtensions Class
-** Namespace: ** VRageMath  
-** Assembly: ** VRage.Math.dll  
+**Namespace:** VRageMath  
+**Assembly:** VRage.Math.dll  
 ### Methods
 |Member|Description|
 |---|---|

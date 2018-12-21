@@ -1,7 +1,7 @@
 ← [Index](index.md)
 # MyLanguagesEnum Enum
-** Namespace: ** VRage  
-** Assembly: ** VRage.dll  
+**Namespace:** VRage  
+**Assembly:** VRage.dll  
 ### Fields
 |Member|Description|
 |---|---|

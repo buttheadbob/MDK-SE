@@ -1,8 +1,8 @@
 ← [Index](index.md)
 # ITerminalProperty Interface
-** Namespace: ** Sandbox.ModAPI.Interfaces  
-** Assembly: ** Sandbox.Common.dll  
-** Implements: **
+**Namespace:** Sandbox.ModAPI.Interfaces  
+**Assembly:** Sandbox.Common.dll  
+**Implements:**
 * [`Sandbox.ModAPI.Interfaces.ITerminalProperty`](Sandbox.ModAPI.Interfaces.ITerminalProperty.md)
 ### Properties
 |Member|Description|

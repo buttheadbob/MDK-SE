@@ -4,6 +4,7 @@
 **Assembly:** VRage.Game.dll  
 **Inheritors:**
 * [`Sandbox.Game.EntityComponents.MyResourceSourceComponent`](Sandbox.Game.EntityComponents.MyResourceSourceComponent)
+
 ### Methods
 |Member|Description|
 |---|---|

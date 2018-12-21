@@ -4,6 +4,7 @@
 **Assembly:** VRage.Math.dll  
 **Implements:**
 * [`VRageMath.PackedVector.IPackedVector`](VRageMath.PackedVector.IPackedVector)
+
 ### Properties
 |Member|Description|
 |---|---|

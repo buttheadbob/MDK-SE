@@ -4,6 +4,7 @@
 **Assembly:** VRage.Math.dll  
 **Implements:**
 * [`VRageMath.PackedVector.IPackedVector`](VRageMath.PackedVector.IPackedVector)
+
 ## Summary
 Packed vector type containing two 16-bit floating-point values.
 ### Properties

@@ -4,6 +4,7 @@
 **Assembly:** Sandbox.Common.dll  
 **Implements:**
 * [`Sandbox.ModAPI.Interfaces.ITerminalProperty`](Sandbox.ModAPI.Interfaces.ITerminalProperty)
+
 ### Properties
 |Member|Description|
 |---|---|

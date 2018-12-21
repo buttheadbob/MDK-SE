@@ -7,8 +7,10 @@
 * [`Sandbox.ModAPI.Ingame.IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 * [`VRage.Game.ModAPI.Ingame.IMyCubeBlock`](VRage.Game.ModAPI.Ingame.IMyCubeBlock)
 * [`VRage.Game.ModAPI.Ingame.IMyEntity`](VRage.Game.ModAPI.Ingame.IMyEntity)
+
 **Inheritors:**
 * [`Sandbox.ModAPI.Ingame.IMyOxygenTank`](Sandbox.ModAPI.Ingame.IMyOxygenTank)
+
 ### Properties
 |Member|Description|
 |---|---|

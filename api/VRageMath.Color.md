@@ -4,6 +4,7 @@
 **Assembly:** VRage.Math.dll  
 **Implements:**
 * [`VRageMath.PackedVector.IPackedVector`](VRageMath.PackedVector.IPackedVector)
+
 ## Summary
 Represents a four-component color using red, green, blue, and alpha data.
 ### Fields

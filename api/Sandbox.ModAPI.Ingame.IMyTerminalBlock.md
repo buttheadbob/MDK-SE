@@ -5,6 +5,7 @@
 **Implements:**
 * [`VRage.Game.ModAPI.Ingame.IMyCubeBlock`](VRage.Game.ModAPI.Ingame.IMyCubeBlock)
 * [`VRage.Game.ModAPI.Ingame.IMyEntity`](VRage.Game.ModAPI.Ingame.IMyEntity)
+
 **Inheritors:**
 * [`Sandbox.ModAPI.Ingame.IMyFunctionalBlock`](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)
 * [`Sandbox.ModAPI.Ingame.IMyDoor`](Sandbox.ModAPI.Ingame.IMyDoor)
@@ -62,6 +63,7 @@
 * [`SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall`](SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall)
 * [`SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock`](SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock)
 * [`SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase`](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase)
+
 ### Properties
 |Member|Description|
 |---|---|

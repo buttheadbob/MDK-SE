@@ -4,6 +4,7 @@
 **Assembly:** VRage.Math.dll  
 **Implements:**
 * [`VRageMath.PackedVector.IPackedVector`](VRageMath.PackedVector.IPackedVector)
+
 ## Summary
 Packed vector type containing four 8-bit unsigned integer values, ranging from 0 to 255.
 ### Properties

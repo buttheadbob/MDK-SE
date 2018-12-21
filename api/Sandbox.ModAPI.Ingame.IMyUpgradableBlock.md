@@ -5,6 +5,7 @@
 **Implements:**
 * [`VRage.Game.ModAPI.Ingame.IMyCubeBlock`](VRage.Game.ModAPI.Ingame.IMyCubeBlock)
 * [`VRage.Game.ModAPI.Ingame.IMyEntity`](VRage.Game.ModAPI.Ingame.IMyEntity)
+
 ## Summary
 interface to retrieve upgrade effects on block
 ### Properties

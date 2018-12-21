@@ -7,9 +7,11 @@
 * [`Sandbox.ModAPI.Ingame.IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 * [`VRage.Game.ModAPI.Ingame.IMyCubeBlock`](VRage.Game.ModAPI.Ingame.IMyCubeBlock)
 * [`VRage.Game.ModAPI.Ingame.IMyEntity`](VRage.Game.ModAPI.Ingame.IMyEntity)
+
 **Inheritors:**
 * [`SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGenerator`](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGenerator)
 * [`SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorSphere`](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorSphere)
+
 ### Properties
 |Member|Description|
 |---|---|

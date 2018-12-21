@@ -7,10 +7,12 @@
 * [`Sandbox.ModAPI.Ingame.IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 * [`VRage.Game.ModAPI.Ingame.IMyCubeBlock`](VRage.Game.ModAPI.Ingame.IMyCubeBlock)
 * [`VRage.Game.ModAPI.Ingame.IMyEntity`](VRage.Game.ModAPI.Ingame.IMyEntity)
+
 **Inheritors:**
 * [`Sandbox.ModAPI.Ingame.IMyMotorStator`](Sandbox.ModAPI.Ingame.IMyMotorStator)
 * [`Sandbox.ModAPI.Ingame.IMyPistonBase`](Sandbox.ModAPI.Ingame.IMyPistonBase)
 * [`Sandbox.ModAPI.Ingame.IMyMotorSuspension`](Sandbox.ModAPI.Ingame.IMyMotorSuspension)
+
 ### Properties
 |Member|Description|
 |---|---|

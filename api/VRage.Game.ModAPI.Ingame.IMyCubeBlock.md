@@ -4,6 +4,7 @@
 **Assembly:** VRage.Game.dll  
 **Implements:**
 * [`VRage.Game.ModAPI.Ingame.IMyEntity`](VRage.Game.ModAPI.Ingame.IMyEntity)
+
 **Inheritors:**
 * [`Sandbox.ModAPI.Ingame.IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 * [`Sandbox.ModAPI.Ingame.IMyFunctionalBlock`](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)
@@ -64,6 +65,7 @@
 * [`SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall`](SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall)
 * [`SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock`](SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock)
 * [`SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase`](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase)
+
 ## Summary
 Basic cube interface
 ### Properties

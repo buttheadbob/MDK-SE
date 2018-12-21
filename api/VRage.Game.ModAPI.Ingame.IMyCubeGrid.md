@@ -4,6 +4,7 @@
 **Assembly:** VRage.Game.dll  
 **Implements:**
 * [`VRage.Game.ModAPI.Ingame.IMyEntity`](VRage.Game.ModAPI.Ingame.IMyEntity)
+
 ## Summary
 Grid interface
 ### Properties

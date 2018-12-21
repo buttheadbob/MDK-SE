@@ -9,16 +9,4 @@ First of all: The programmable block uses the programming language C# in order t
 While you _can_ use the ingame editor, it's not very good. Its purpose is really just to be a storage box for the code. A lot of people uses [Visual Studio](https://docs.microsoft.com/en-us/visualstudio/install/install-visual-studio) (you're going to want the Community edition)-  and here I'm obviously going to point out my own extension, [MDK](https://github.com/malware-dev/MDK-SE/releases), which will help you set everything up for scripting with Visual Studio. There are other options though, other IDEs which works. [Visual Studio Code](https://code.visualstudio.com/) is another more lightweight IDE (don't get confused by the name, it's quite different from Visual Studio). I will not be talking about how to set up any other IDE though, it's beyond the scope of these tutorials. Others simply use a plain text editor like Notepad, but obviously that will give no help with the API.  Personally I used Visual Studio for scripting long before I made my extension. It's a professional IDE, and the Community edition is completely free and fully featured.
 
 ### The tutorials
-* [The Anatomy of a Script](https://github.com/malware-dev/MDK-SE/wiki/The-Anatomy-of-a-Script)
-* [The Grid Terminal System](https://github.com/malware-dev/MDK-SE/wiki/The-Grid-Terminal-System)
-	* [Block Groups](https://github.com/malware-dev/MDK-SE/wiki/Block-Groups)
-* [Terminal Properties and Actions](https://github.com/malware-dev/MDK-SE/wiki/Terminal-Properties-and-Actions)
-	* [List of Available Properties and Actions](https://github.com/malware-dev/MDK-SE/wiki/List-Of-Terminal-Properties-and-Actions)
-* [The Running Programmable Block](https://github.com/malware-dev/MDK-SE/wiki/The-Running-Programmable-Block)
-* [The Runtime](https://github.com/malware-dev/MDK-SE/wiki/The-Runtime)
-* [The Storage String](https://github.com/malware-dev/MDK-SE/wiki/The-Storage-String)
-* [Your First Script](https://github.com/malware-dev/MDK-SE/wiki/Your-First-Script)
-* [Debugging Your Scripts](https://github.com/malware-dev/MDK-SE/wiki/Debugging-Your-Scripts)
-* [Do's and Don'ts](https://github.com/malware-dev/MDK-SE/wiki/Do's-and-Don'ts)
-* [Advanced: The EntityId](https://github.com/malware-dev/MDK-SE/wiki/The-Entity-Id)
-* [Advanced: Easy and Powerful State Machine Using "yield return"](https://github.com/malware-dev/MDK-SE/wiki/Easy-and-Powerful-State-Machine)
+See the other tutorials in the links bar to the right.

@@ -24,17 +24,23 @@ These are the methods available to you in the grid terminal system. All of them 
 * `GetBlocks`  
     Gets _all_ the available blocks the Grid Terminal System has access to. Requires a target list of the base `IMyTerminalBlock` type.
     ```csharp
-    // Create a list containing _all_ blocks in the system
     List<IMyTerminalBlock> blocks = new List<IMyTerminalBlock>();
-    GridTerminalSystem.GetBlocks(blocks);
+    void Main()
+    {
+        // Fill a list with all blocks in the system
+        GridTerminalSystem.GetBlocks(blocks);
+    }
     ````
 
 * `GetBlocksOfType`  
     Allows you to retrieve a list of blocks of a specific type, optionally filtered by a given collect predicate.
     ```csharp
-    // Create a list containing all interior lights in the system
     List<IMyInteriorLight> lights = new List<IMyInteriorLight>();
-    GridTerminalSystem.GetBlocksOfType(lights);
+    void Main()
+    {
+        // Fill a list with all interior lights in the system
+        GridTerminalSystem.GetBlocksOfType(lights);
+    }
     ```
     ```csharp
     // Create a list containing all interior lights in the system, but store them
@@ -43,17 +49,23 @@ These are the methods available to you in the grid terminal system. All of them 
     GridTerminalSystem.GetBlocksOfType<IMyInteriorLight>(lights);
     ```
     ```csharp
-    // Create a list containing all interior lights that are currently on
     List<IMyInteriorLight> lights = new List<IMyInteriorLight>();
-    GridTerminalSystem.GetBlocksOfType(lights, light => light.Enabled);
+    void Main()
+    {
+        // Fill a list with all interior lights that are currently on
+        GridTerminalSystem.GetBlocksOfType(lights, light => light.Enabled);
+    }
     ```
 
 * `SearchBlocksOfName`  
     Searches through all the blocks, returning those whose name _contains_ the entered name. Meaning, a block named "Mynoch" would be returned if you search for "no". Also provides the ability to use a collect predicate, just like `GetBlocksOfType`. Unfortunately, this method can _only_ accept a target list of the base `IMyTerminalBlock` type.
     ```csharp
-    // Returns all lights in the system whose name contains the text "no"
     List<IMyTerminalBlock> lights = new List<IMyTerminalBlock>();
-    GridTerminalSystem.SearchBlocksOfName("no", lights, light => light is IMyInteriorLight);
+    void Main()
+    {
+        // Fill a list with all lights in the system whose name contains the text "no"
+        GridTerminalSystem.SearchBlocksOfName("no", lights, light => light is IMyInteriorLight);
+    }
     ```
 
 * `GetBlockWithName`  
@@ -70,14 +82,20 @@ These are the methods available to you in the grid terminal system. All of them 
 * `GetBlockGroups`  
     Fetches a list of [block groups](https://github.com/malware-dev/MDK-SE/wiki/Block-Groups), optionally filtered by a given collect predicate.
     ```csharp
-    // Create a list which contains all the block groups in the system
     List<IMyBlockGroup> groups = new List<IMyBlockGroup>();
-    GridTerminalSystem.GetBlockGroups(groups);
+    void Main()
+    {
+        // Fill a list with all the block groups in the system
+        GridTerminalSystem.GetBlockGroups(groups);
+    }
     ```
     ```csharp
-    // Create a list which contains all the block groups whose name contains the text "no"
     List<IMyBlockGroup> groups = new List<IMyBlockGroup>();
-    GridTerminalSystem.GetBlockGroups(groups, group => group.Name.Contains("no"));
+    void Main()
+    {
+        // Fill a list with all the block groups whose name contains the text "no"
+        GridTerminalSystem.GetBlockGroups(groups, group => group.Name.Contains("no"));
+    }
     ```
 
 * `GetBlockGroupWithName`  
@@ -87,6 +105,21 @@ These are the methods available to you in the grid terminal system. All of them 
     IMyBlockGroup group;
     group = GridTerminalSystem.GetBlockGroupWithName("Interesting Blocks");
     ```
+#### The Grid Terminal System, Docking, and Multiple Constructs
+By default, the grid terminal system just grabs everything it has access to, whether it's a part of your ship or not. **From version 1.188** you will have access to a new block method called `IsSameConstructAs`. This method will check if the two compared blocks belong to the same _mechanical group_, which means any set of grids connected by rotors and pistons. This mechanical group is called a _construct_ and is usually what your ship, vehicle or station is made out from.
+
+Be aware that you _cannot_ distinguish between grids that are merged with a merge block, since the very purpose of that block is to permanently merge two grids into one.
+```csharp
+List<IMyTerminalBlock> blocks = new List<IMyTerminalBlock>();
+void Main()
+{
+    // Fill a list with all blocks in the current construct (ship, vehicle or station),
+    // ignoring anything that might be docked to it. "Me" is the Program's reference to
+    // the programmable block this script is running in.
+    GridTerminalSystem.GetBlocksOfType(blocks, block => block.IsSameConstructAs(Me));
+}
+```
+
 #### The Grid Terminal System and Subclasses
 As your scripts increase in complexity, it's inevitable that you'll want to split your code into classes. Once you do this you will quickly realize that you lose access to the content of your program inside these classes. This is because the program _itself_ is just another class. This very fact, however, provides you with a solution to this problem.
 

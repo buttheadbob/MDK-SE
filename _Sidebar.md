@@ -24,6 +24,8 @@
     * [Handling Configuration and Storage](https://github.com/malware-dev/MDK-SE/wiki/Handling-configuration-and-storage)
     * [Your First Script](https://github.com/malware-dev/MDK-SE/wiki/Your-First-Script)
     * [Debugging Your Scripts](https://github.com/malware-dev/MDK-SE/wiki/Debugging-Your-Scripts)
+        * [Advanced: Debugging with dnSpy](https://github.com/malware-dev/MDK-SE/wiki/Advanced-debugging-with-dnSpy)
+        * [Advanced: dnSpy tips and tricks](https://github.com/malware-dev/MDK-SE/wiki/Advanced-dnSpy-tips-and-tricks)
     * [Continuous Running No Timers Needed](https://github.com/malware-dev/MDK-SE/wiki/Continuous-Running-No-Timers-Needed)
     * [Do's and Don'ts](https://github.com/malware-dev/MDK-SE/wiki/Do's-and-Don'ts)
     * [Advanced: The EntityId](https://github.com/malware-dev/MDK-SE/wiki/The-Entity-Id)

@@ -1,3 +1,1 @@
-_tutorial pending_
-
-I am sorry this page takes so long to finish, but I'm currently rewriting how this works.
+The script project settings allow you to change some of the settings you chose initially when creating an MDK project. You can find this dialog by right-clicking on the project name in the solution explorer, and selecting the MDK Script Options menu item near the very bottom of the list.

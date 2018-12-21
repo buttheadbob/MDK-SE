@@ -75,6 +75,21 @@ Use these interfaces when you wish to access blocks by a specific function or ca
 [`IMyShipToolBase`](Sandbox.ModAPI.Ingame.IMyShipToolBase)  
 [`IMyGravityGeneratorBase`](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorBase)  
 [`IMyLargeTurretBase`](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)  
+### Utilities
+
+Various useful utilities for your scripts
+
+[`MyCommandLine`](VRage.Game.ModAPI.Ingame.Utilities.MyCommandLine)  
+[`MyCommandLine`](VRage.Game.ModAPI.Ingame.Utilities.ItemCollection).[`ItemCollection`](VRage.Game.ModAPI.Ingame.Utilities.ItemCollection)  
+[`MyCommandLine`](VRage.Game.ModAPI.Ingame.Utilities.SwitchCollection).[`SwitchCollection`](VRage.Game.ModAPI.Ingame.Utilities.SwitchCollection)  
+[`MyCommandLine`](VRage.Game.ModAPI.Ingame.Utilities.SwitchEnumerator).[`SwitchEnumerator`](VRage.Game.ModAPI.Ingame.Utilities.SwitchEnumerator)  
+[`MyCommandLine`](VRage.Game.ModAPI.Ingame.Utilities.Enumerator).[`Enumerator`](VRage.Game.ModAPI.Ingame.Utilities.Enumerator)  
+[`MyIni`](VRage.Game.ModAPI.Ingame.Utilities.MyIni)  
+[`MyIniKey`](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey)  
+[`MyIniParseResult`](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult)  
+[`MyIniValue`](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue)  
+[`StringSegment`](VRage.Game.ModAPI.Ingame.Utilities.StringSegment)  
+[`TextPtr`](VRage.Game.ModAPI.Ingame.Utilities.TextPtr)  
 ### Other
 
 Types that don't fit into a specific category
@@ -120,17 +135,6 @@ Types that don't fit into a specific category
 [`IMySlimBlock`](VRage.Game.ModAPI.Ingame.IMySlimBlock)  
 [`MyInventoryItemExtension`](VRage.Game.ModAPI.Ingame.MyInventoryItemExtension)  
 [`IMyInventoryOwner`](VRage.Game.ModAPI.Ingame.IMyInventoryOwner)  
-[`MyCommandLine`](VRage.Game.ModAPI.Ingame.Utilities.MyCommandLine)  
-[`MyCommandLine`](VRage.Game.ModAPI.Ingame.Utilities.ItemCollection).[`ItemCollection`](VRage.Game.ModAPI.Ingame.Utilities.ItemCollection)  
-[`MyCommandLine`](VRage.Game.ModAPI.Ingame.Utilities.SwitchCollection).[`SwitchCollection`](VRage.Game.ModAPI.Ingame.Utilities.SwitchCollection)  
-[`MyCommandLine`](VRage.Game.ModAPI.Ingame.Utilities.SwitchEnumerator).[`SwitchEnumerator`](VRage.Game.ModAPI.Ingame.Utilities.SwitchEnumerator)  
-[`MyCommandLine`](VRage.Game.ModAPI.Ingame.Utilities.Enumerator).[`Enumerator`](VRage.Game.ModAPI.Ingame.Utilities.Enumerator)  
-[`MyIni`](VRage.Game.ModAPI.Ingame.Utilities.MyIni)  
-[`MyIniKey`](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey)  
-[`MyIniParseResult`](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult)  
-[`MyIniValue`](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue)  
-[`StringSegment`](VRage.Game.ModAPI.Ingame.Utilities.StringSegment)  
-[`TextPtr`](VRage.Game.ModAPI.Ingame.Utilities.TextPtr)  
 [`MyObjectBuilder_Base`](VRage.ObjectBuilders.MyObjectBuilder_Base)  
 [`MyRelationsBetweenPlayerAndBlock`](VRage.Game.MyRelationsBetweenPlayerAndBlock)  
 [`MyRelationsBetweenPlayerAndBlockExtensions`](VRage.Game.MyRelationsBetweenPlayerAndBlockExtensions)  

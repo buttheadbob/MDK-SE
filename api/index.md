@@ -90,6 +90,24 @@ Various useful utilities for your scripts
 [`MyIniValue`](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue)  
 [`StringSegment`](VRage.Game.ModAPI.Ingame.Utilities.StringSegment)  
 [`TextPtr`](VRage.Game.ModAPI.Ingame.Utilities.TextPtr)  
+### Grid Program and Terminal System
+
+Types related to the grid program and grid terminal system
+
+[`IMyBlockGroup`](Sandbox.ModAPI.Ingame.IMyBlockGroup)  
+[`IMyGridTerminalSystem`](Sandbox.ModAPI.Ingame.IMyGridTerminalSystem)  
+[`IMyGridProgramRuntimeInfo`](Sandbox.ModAPI.Ingame.IMyGridProgramRuntimeInfo)  
+[`UpdateFrequency`](Sandbox.ModAPI.Ingame.UpdateFrequency)  
+[`UpdateType`](Sandbox.ModAPI.Ingame.UpdateType)  
+[`MyGridProgram`](Sandbox.ModAPI.Ingame.MyGridProgram)  
+[`IMySlimBlock`](VRage.Game.ModAPI.Ingame.IMySlimBlock)  
+[`IMyCubeBlock`](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
+[`IMyCubeGrid`](VRage.Game.ModAPI.Ingame.IMyCubeGrid)  
+### Terminal Properties and Actions
+
+Types related to the terminal properties and actions. You should endeavour to avoid the use of these if possible due to their extra overhead. There are usually proper interface members available instead, which are orders of magnitude faster in use.
+
+[`TerminalBlockExtentions`](Sandbox.ModAPI.Ingame.TerminalBlockExtentions)  
 ### Math
 
 Math utilities
@@ -216,16 +234,11 @@ Math utilities
 
 Types that don't fit into a specific category
 
-[`IMyBlockGroup`](Sandbox.ModAPI.Ingame.IMyBlockGroup)  
-[`IMyGridTerminalSystem`](Sandbox.ModAPI.Ingame.IMyGridTerminalSystem)  
-[`IMyGridProgramRuntimeInfo`](Sandbox.ModAPI.Ingame.IMyGridProgramRuntimeInfo)  
 [`MyTransmitTarget`](Sandbox.ModAPI.Ingame.MyTransmitTarget)  
 [`MyAssemblerMode`](Sandbox.ModAPI.Ingame.MyAssemblerMode)  
 [`MyConveyorSorterMode`](Sandbox.ModAPI.Ingame.MyConveyorSorterMode)  
 [`MyInventoryItemFilter`](Sandbox.ModAPI.Ingame.MyInventoryItemFilter)  
 [`MyLaserAntennaStatus`](Sandbox.ModAPI.Ingame.MyLaserAntennaStatus)  
-[`UpdateFrequency`](Sandbox.ModAPI.Ingame.UpdateFrequency)  
-[`UpdateType`](Sandbox.ModAPI.Ingame.UpdateType)  
 [`FlightMode`](Sandbox.ModAPI.Ingame.FlightMode)  
 [`MyWaypointInfo`](Sandbox.ModAPI.Ingame.MyWaypointInfo)  
 [`MyShipConnectorStatus`](Sandbox.ModAPI.Ingame.MyShipConnectorStatus)  
@@ -234,11 +247,9 @@ Types that don't fit into a specific category
 [`MyShipVelocities`](Sandbox.ModAPI.Ingame.MyShipVelocities)  
 [`MyJumpDriveStatus`](Sandbox.ModAPI.Ingame.MyJumpDriveStatus)  
 [`PistonStatus`](Sandbox.ModAPI.Ingame.PistonStatus)  
-[`MyGridProgram`](Sandbox.ModAPI.Ingame.MyGridProgram)  
 [`TerminalActionParameter`](Sandbox.ModAPI.Ingame.TerminalActionParameter)  
 [`DoorStatus`](Sandbox.ModAPI.Ingame.DoorStatus)  
 [`MyProductionItem`](Sandbox.ModAPI.Ingame.MyProductionItem)  
-[`TerminalBlockExtentions`](Sandbox.ModAPI.Ingame.TerminalBlockExtentions)  
 [`ITerminalProperty`](Sandbox.ModAPI.Interfaces.ITerminalProperty)  
 [`TerminalPropertyExtensions`](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions)  
 [`ITerminalAction`](Sandbox.ModAPI.Interfaces.ITerminalAction)  
@@ -254,7 +265,6 @@ Types that don't fit into a specific category
 [`IMyInventoryItem`](VRage.Game.ModAPI.Ingame.IMyInventoryItem)  
 [`IMyEntity`](VRage.Game.ModAPI.Ingame.IMyEntity)  
 [`IMyInventory`](VRage.Game.ModAPI.Ingame.IMyInventory)  
-[`IMySlimBlock`](VRage.Game.ModAPI.Ingame.IMySlimBlock)  
 [`MyInventoryItemExtension`](VRage.Game.ModAPI.Ingame.MyInventoryItemExtension)  
 [`IMyInventoryOwner`](VRage.Game.ModAPI.Ingame.IMyInventoryOwner)  
 [`MyObjectBuilder_Base`](VRage.ObjectBuilders.MyObjectBuilder_Base)  
@@ -287,7 +297,5 @@ Types that don't fit into a specific category
 [`ITerminalProperty<TValue>`](Sandbox.ModAPI.Interfaces.ITerminalProperty)  
 [`MyResourceSinkComponent`](Sandbox.Game.EntityComponents.MyResourceSinkComponent)  
 [`MyResourceSourceComponent`](Sandbox.Game.EntityComponents.MyResourceSourceComponent)  
-[`IMyCubeBlock`](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-[`IMyCubeGrid`](VRage.Game.ModAPI.Ingame.IMyCubeGrid)  
 [`IMyAttachableTopBlock`](Sandbox.ModAPI.Ingame.IMyAttachableTopBlock)  
 [`IMyUpgradableBlock`](Sandbox.ModAPI.Ingame.IMyUpgradableBlock)  

@@ -5,13 +5,13 @@
 ## Summary
 Contains the CurveKeys making up a Curve.
 ### Properties
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`CurveKey Item`](VRageMath.Item)</td><td></td></tr>
 <tr><td>[`int Count`](VRageMath.Count)</td><td>Gets the number of elements contained in the CurveKeyCollection.</td></tr>
 <tr><td>[`bool IsReadOnly`](VRageMath.IsReadOnly)</td><td>Returns a value indicating whether the CurveKeyCollection is read-only.</td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`void Add(Object tmp)`](VRageMath.Add)</td><td></td></tr>
 <tr><td>[`int IndexOf(CurveKey item)`](VRageMath.IndexOf)</td><td>Determines the index of a CurveKey in the CurveKeyCollection.</td></tr>
 <tr><td>[`void RemoveAt(int index)`](VRageMath.RemoveAt)</td><td>Removes the CurveKey at the specified index.</td></tr>

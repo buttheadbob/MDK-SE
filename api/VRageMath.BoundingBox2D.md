@@ -5,13 +5,13 @@
 ## Summary
 Defines an axis-aligned box-shaped 3D volume.
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`Vector2D Min`](VRageMath.Min)</td><td>The minimum point the BoundingBox2D contains.</td></tr>
 <tr><td>[`Vector2D Max`](VRageMath.Max)</td><td>The maximum point the BoundingBox2D contains.</td></tr>
 <tr><td>static [`int CornerCount`](VRageMath.CornerCount)</td><td>Specifies the total number of corners (8) in the BoundingBox2D.</td></tr>
 </table>
 ### Properties
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`Vector2D Center`](VRageMath.Center)</td><td>Calculates center</td></tr>
 <tr><td>[`Vector2D HalfExtents`](VRageMath.HalfExtents)</td><td></td></tr>
 <tr><td>[`Vector2D Extents`](VRageMath.Extents)</td><td></td></tr>
@@ -20,7 +20,7 @@ Defines an axis-aligned box-shaped 3D volume.
 <tr><td>[`Vector2D Size`](VRageMath.Size)</td><td>Size</td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`Vector2D[] GetCorners()`](VRageMath.GetCorners)</td><td>Gets an array of points that make up the corners of the BoundingBox2D.</td></tr>
 <tr><td>[`void GetCorners(Vector2D[] corners)`](VRageMath.GetCorners)</td><td>Gets the array of points that make up the corners of the BoundingBox2D.</td></tr>
 <tr><td>[`void GetCornersUnsafe(*Vector2D corners)`](VRageMath.GetCornersUnsafe)</td><td></td></tr>

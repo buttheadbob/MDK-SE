@@ -5,7 +5,7 @@
 ## Summary
 basic block interface
 ### Properties
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`SerializableDefinitionId BlockDefinition`](VRage.Game.ModAPI.Ingame.BlockDefinition)</td><td>Block definition ID</td></tr>
 <tr><td>[`float AccumulatedDamage`](VRage.Game.ModAPI.Ingame.AccumulatedDamage)</td><td>Current accumlated damage, pending application</td></tr>
 <tr><td>[`float BuildIntegrity`](VRage.Game.ModAPI.Ingame.BuildIntegrity)</td><td>Build integrity (of components)</td></tr>
@@ -29,6 +29,6 @@ basic block interface
 <tr><td>[`Vector3 ColorMaskHSV`](VRage.Game.ModAPI.Ingame.ColorMaskHSV)</td><td>Gets the color of the block</td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`void GetMissingComponents(Dictionary<string, int> addToDictionary)`](VRage.Game.ModAPI.Ingame.GetMissingComponents)</td><td>Gets the list of missing components for this block</td></tr>
 </table>

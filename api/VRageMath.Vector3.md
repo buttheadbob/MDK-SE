@@ -5,7 +5,7 @@
 ## Summary
 Defines a vector with three components.
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`float X`](VRageMath.X)</td><td>Gets or sets the x-component of the vector.</td></tr>
 <tr><td>[`float Y`](VRageMath.Y)</td><td>Gets or sets the y-component of the vector.</td></tr>
 <tr><td>[`float Z`](VRageMath.Z)</td><td>Gets or sets the z-component of the vector.</td></tr>
@@ -29,12 +29,12 @@ Defines a vector with three components.
 <tr><td>static [`Vector3 Invalid`](VRageMath.Invalid)</td><td></td></tr>
 </table>
 ### Properties
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`float Sum`](VRageMath.Sum)</td><td></td></tr>
 <tr><td>[`float Volume`](VRageMath.Volume)</td><td></td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>static [`void Negate(ref Vector3 value, ref Vector3 result)`](VRageMath.Negate)</td><td>Returns a vector pointing in the opposite direction.</td></tr>
 <tr><td>static [`Vector3 Add(Vector3 value1, Vector3 value2)`](VRageMath.Add)</td><td>Adds two vectors.</td></tr>
 <tr><td>static [`void Add(ref Vector3 value1, ref Vector3 value2, ref Vector3 result)`](VRageMath.Add)</td><td>Adds two vectors.</td></tr>

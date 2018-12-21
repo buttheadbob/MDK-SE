@@ -5,7 +5,7 @@
 ## Summary
 Defines a four-dimensional vector (x,y,z,w), which is used to efficiently rotate an object about the (x, y, z) vector by the angle theta, where w = cos(theta/2).
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`float X`](VRageMath.X)</td><td>Specifies the x-value of the vector component of the quaternion.</td></tr>
 <tr><td>[`float Y`](VRageMath.Y)</td><td>Specifies the y-value of the vector component of the quaternion.</td></tr>
 <tr><td>[`float Z`](VRageMath.Z)</td><td>Specifies the z-value of the vector component of the quaternion.</td></tr>
@@ -14,13 +14,13 @@ Defines a four-dimensional vector (x,y,z,w), which is used to efficiently rotate
 <tr><td>static [`Quaternion Zero`](VRageMath.Zero)</td><td></td></tr>
 </table>
 ### Properties
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`Vector3 Forward`](VRageMath.Forward)</td><td></td></tr>
 <tr><td>[`Vector3 Right`](VRageMath.Right)</td><td></td></tr>
 <tr><td>[`Vector3 Up`](VRageMath.Up)</td><td></td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`string ToString()`](VRageMath.ToString)</td><td>Retireves a string representation of the current object.</td></tr>
 <tr><td>[`string ToString(string format)`](VRageMath.ToString)</td><td></td></tr>
 <tr><td>[`string ToStringAxisAngle(string format)`](VRageMath.ToStringAxisAngle)</td><td></td></tr>

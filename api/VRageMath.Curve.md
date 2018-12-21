@@ -5,14 +5,14 @@
 ## Summary
 Stores an arbitrary collection of 2D CurveKey points, and provides methods for evaluating features of the curve they define.
 ### Properties
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`CurveLoopType PreLoop`](VRageMath.PreLoop)</td><td>Specifies how to handle weighting values that are less than the first control point in the curve.</td></tr>
 <tr><td>[`CurveLoopType PostLoop`](VRageMath.PostLoop)</td><td>Specifies how to handle weighting values that are greater than the last control point in the curve.</td></tr>
 <tr><td>[`CurveKeyCollection Keys`](VRageMath.Keys)</td><td>The points that make up the curve.</td></tr>
 <tr><td>[`bool IsConstant`](VRageMath.IsConstant)</td><td>Gets a value indicating whether the curve is constant.</td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`Curve Clone()`](VRageMath.Clone)</td><td>Creates a copy of the Curve.</td></tr>
 <tr><td>[`void ComputeTangent(int keyIndex, CurveTangent tangentType)`](VRageMath.ComputeTangent)</td><td>Computes both the TangentIn and the TangentOut for a CurveKey specified by its index.</td></tr>
 <tr><td>[`void ComputeTangent(int keyIndex, CurveTangent tangentInType, CurveTangent tangentOutType)`](VRageMath.ComputeTangent)</td><td>Computes a specified type of TangentIn and a specified type of TangentOut for a given CurveKey.</td></tr>

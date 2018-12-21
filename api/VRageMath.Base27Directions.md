@@ -5,12 +5,12 @@
 ## Summary
 Base 26 directions and Vector3.Zero Each component is only 0,-1 or 1;
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>static [`Vector3[] Directions`](VRageMath.Directions)</td><td></td></tr>
 <tr><td>static [`Vector3I[] DirectionsInt`](VRageMath.DirectionsInt)</td><td></td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>static [`bool IsBaseDirection(ref Vector3 vec)`](VRageMath.IsBaseDirection)</td><td></td></tr>
 <tr><td>static [`bool IsBaseDirection(ref Vector3I vec)`](VRageMath.IsBaseDirection)</td><td></td></tr>
 <tr><td>static [`bool IsBaseDirection(Vector3 vec)`](VRageMath.IsBaseDirection)</td><td></td></tr>

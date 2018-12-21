@@ -5,7 +5,7 @@
 ## Summary
 Defines a matrix.
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`float M11`](VRageMath.M11)</td><td>Value at row 1 column 1 of the matrix.</td></tr>
 <tr><td>[`float M12`](VRageMath.M12)</td><td>Value at row 1 column 2 of the matrix.</td></tr>
 <tr><td>[`float M13`](VRageMath.M13)</td><td>Value at row 1 column 3 of the matrix.</td></tr>
@@ -19,7 +19,7 @@ Defines a matrix.
 <tr><td>static [`Matrix3x3 Zero`](VRageMath.Zero)</td><td></td></tr>
 </table>
 ### Properties
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`Vector3 Up`](VRageMath.Up)</td><td>Gets and sets the up vector of the Matrix3x3.</td></tr>
 <tr><td>[`Vector3 Down`](VRageMath.Down)</td><td>Gets and sets the down vector of the Matrix3x3.</td></tr>
 <tr><td>[`Vector3 Right`](VRageMath.Right)</td><td>Gets and sets the right vector of the Matrix3x3.</td></tr>
@@ -33,7 +33,7 @@ Defines a matrix.
 <tr><td>[`float Item`](VRageMath.Item)</td><td></td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`Vector3 GetDirectionVector(Direction direction)`](VRageMath.GetDirectionVector)</td><td></td></tr>
 <tr><td>[`void SetDirectionVector(Direction direction, Vector3 newValue)`](VRageMath.SetDirectionVector)</td><td></td></tr>
 <tr><td>[`Direction GetClosestDirection(Vector3 referenceVector)`](VRageMath.GetClosestDirection)</td><td></td></tr>

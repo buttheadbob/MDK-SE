@@ -5,7 +5,7 @@
 ## Summary
 Ingame (Programmable Block) interface for all entities.
 ### Properties
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`MyEntityComponentContainer Components`](VRage.Game.ModAPI.Ingame.Components)</td><td></td></tr>
 <tr><td>[`long EntityId`](VRage.Game.ModAPI.Ingame.EntityId)</td><td></td></tr>
 <tr><td>[`string Name`](VRage.Game.ModAPI.Ingame.Name)</td><td></td></tr>
@@ -19,7 +19,7 @@ Ingame (Programmable Block) interface for all entities.
 <tr><td>[`BoundingSphereD WorldVolumeHr`](VRage.Game.ModAPI.Ingame.WorldVolumeHr)</td><td></td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`IMyInventory GetInventory()`](VRage.Game.ModAPI.Ingame.GetInventory)</td><td>Simply get the MyInventoryBase component stored in this entity.</td></tr>
 <tr><td>[`IMyInventory GetInventory(int index)`](VRage.Game.ModAPI.Ingame.GetInventory)</td><td>Search for inventory component with maching index.</td></tr>
 <tr><td>[`Vector3D GetPosition()`](VRage.Game.ModAPI.Ingame.GetPosition)</td><td></td></tr>

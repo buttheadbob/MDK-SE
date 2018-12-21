@@ -5,7 +5,7 @@
 ## Summary
 Contains commonly used precalculated values.
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>static [`double E`](VRageMath.E)</td><td>Represents the mathematical constant e.</td></tr>
 <tr><td>static [`double Pi`](VRageMath.Pi)</td><td>Represents the value of pi.</td></tr>
 <tr><td>static [`double TwoPi`](VRageMath.TwoPi)</td><td>Represents the value of pi times two.</td></tr>
@@ -14,7 +14,7 @@ Contains commonly used precalculated values.
 <tr><td>static [`double PiOver4`](VRageMath.PiOver4)</td><td>Represents the value of pi divided by four.</td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>static [`double ToRadians(double degrees)`](VRageMath.ToRadians)</td><td>Converts degrees to radians.</td></tr>
 <tr><td>static [`double ToDegrees(double radians)`](VRageMath.ToDegrees)</td><td>Converts radians to degrees.</td></tr>
 <tr><td>static [`double Distance(double value1, double value2)`](VRageMath.Distance)</td><td>Calculates the absolute value of the difference of two values.</td></tr>

@@ -3,6 +3,6 @@
 **Namespace:** [`VRage.Game`](VRage.Game)  
 **Assembly:** VRage.Game.dll  
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>static [`bool IsFriendly(MyRelationsBetweenPlayerAndBlock relations)`](VRage.Game.IsFriendly)</td><td></td></tr>
 </table>

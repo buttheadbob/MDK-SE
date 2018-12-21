@@ -5,12 +5,12 @@
 ## Summary
 Defines a ray.
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`Vector3D Position`](VRageMath.Position)</td><td>Specifies the starting point of the Ray.</td></tr>
 <tr><td>[`Vector3D Direction`](VRageMath.Direction)</td><td>Unit vector specifying the direction the Ray is pointing.</td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`bool Equals(RayD other)`](VRageMath.Equals)</td><td>Determines whether the specified Ray is equal to the current Ray.</td></tr>
 <tr><td>[`bool Equals(Object obj)`](VRageMath.Equals)</td><td>Determines whether two instances of Ray are equal.</td></tr>
 <tr><td>[`int GetHashCode()`](VRageMath.GetHashCode)</td><td>Gets the hash code for this instance.</td></tr>

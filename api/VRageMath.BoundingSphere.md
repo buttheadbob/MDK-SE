@@ -5,12 +5,12 @@
 ## Summary
 Defines a sphere.
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`Vector3 Center`](VRageMath.Center)</td><td>The center point of the sphere.</td></tr>
 <tr><td>[`float Radius`](VRageMath.Radius)</td><td>The radius of the sphere.</td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`bool Equals(BoundingSphere other)`](VRageMath.Equals)</td><td>Determines whether the specified BoundingSphere is equal to the current BoundingSphere.</td></tr>
 <tr><td>[`bool Equals(Object obj)`](VRageMath.Equals)</td><td>Determines whether the specified Object is equal to the BoundingSphere.</td></tr>
 <tr><td>[`int GetHashCode()`](VRageMath.GetHashCode)</td><td>Gets the hash code for this instance.</td></tr>

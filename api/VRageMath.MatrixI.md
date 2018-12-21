@@ -3,14 +3,14 @@
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`Direction Right`](VRageMath.Right)</td><td></td></tr>
 <tr><td>[`Direction Up`](VRageMath.Up)</td><td></td></tr>
 <tr><td>[`Direction Backward`](VRageMath.Backward)</td><td></td></tr>
 <tr><td>[`Vector3I Translation`](VRageMath.Translation)</td><td></td></tr>
 </table>
 ### Properties
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`Direction Left`](VRageMath.Left)</td><td></td></tr>
 <tr><td>[`Direction Down`](VRageMath.Down)</td><td></td></tr>
 <tr><td>[`Direction Forward`](VRageMath.Forward)</td><td></td></tr>
@@ -22,7 +22,7 @@
 <tr><td>[`Vector3I ForwardVector`](VRageMath.ForwardVector)</td><td></td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`Direction GetDirection(Direction direction)`](VRageMath.GetDirection)</td><td></td></tr>
 <tr><td>[`void SetDirection(Direction dirToSet, Direction newDirection)`](VRageMath.SetDirection)</td><td></td></tr>
 <tr><td>[`MyBlockOrientation GetBlockOrientation()`](VRageMath.GetBlockOrientation)</td><td></td></tr>

@@ -5,6 +5,6 @@
 ## Summary
 Usefull Vector3 extensions
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>static [`Vector3 Project(Vector3 projectedOntoVector, Vector3 projectedVector)`](VRageMath.Project)</td><td>Calculates projection vector</td></tr>
 </table>

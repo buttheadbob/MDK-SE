@@ -5,14 +5,14 @@
 ## Summary
 Defines a rectangle.
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`int X`](VRageMath.X)</td><td>Specifies the x-coordinate of the rectangle.</td></tr>
 <tr><td>[`int Y`](VRageMath.Y)</td><td>Specifies the y-coordinate of the rectangle.</td></tr>
 <tr><td>[`int Width`](VRageMath.Width)</td><td>Specifies the width of the rectangle.</td></tr>
 <tr><td>[`int Height`](VRageMath.Height)</td><td>Specifies the height of the rectangle.</td></tr>
 </table>
 ### Properties
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`int Left`](VRageMath.Left)</td><td>Returns the x-coordinate of the left side of the rectangle.</td></tr>
 <tr><td>[`int Right`](VRageMath.Right)</td><td>Returns the x-coordinate of the right side of the rectangle.</td></tr>
 <tr><td>[`int Top`](VRageMath.Top)</td><td>Returns the y-coordinate of the top of the rectangle.</td></tr>
@@ -21,7 +21,7 @@ Defines a rectangle.
 <tr><td>[`Point Center`](VRageMath.Center)</td><td>Gets the Point that specifies the center of the rectangle.</td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`void Offset(Point amount)`](VRageMath.Offset)</td><td>Changes the position of the Rectangle.</td></tr>
 <tr><td>[`void Offset(int offsetX, int offsetY)`](VRageMath.Offset)</td><td>Changes the position of the Rectangle.</td></tr>
 <tr><td>[`void Inflate(int horizontalAmount, int verticalAmount)`](VRageMath.Inflate)</td><td>Pushes the edges of the Rectangle out by the horizontal and vertical values specified.</td></tr>

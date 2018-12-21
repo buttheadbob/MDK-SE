@@ -5,7 +5,7 @@
 ## Summary
 Defines a vector with two components.
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`double X`](VRageMath.X)</td><td>Gets or sets the x-component of the vector.</td></tr>
 <tr><td>[`double Y`](VRageMath.Y)</td><td>Gets or sets the y-component of the vector.</td></tr>
 <tr><td>static [`Vector2D Zero`](VRageMath.Zero)</td><td></td></tr>
@@ -15,11 +15,11 @@ Defines a vector with two components.
 <tr><td>static [`Vector2D PositiveInfinity`](VRageMath.PositiveInfinity)</td><td></td></tr>
 </table>
 ### Properties
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`double Item`](VRageMath.Item)</td><td></td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`string ToString()`](VRageMath.ToString)</td><td>Retrieves a string representation of the current object.</td></tr>
 <tr><td>[`bool Equals(Vector2D other)`](VRageMath.Equals)</td><td>Determines whether the specified Object is equal to the Vector2D.</td></tr>
 <tr><td>[`bool Equals(Object obj)`](VRageMath.Equals)</td><td>Returns a value that indicates whether the current instance is equal to a specified object.</td></tr>

@@ -5,7 +5,7 @@
 ## Summary
 Defines a matrix.
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`double M11`](VRageMath.M11)</td><td>Value at row 1 column 1 of the matrix.</td></tr>
 <tr><td>[`double M12`](VRageMath.M12)</td><td>Value at row 1 column 2 of the matrix.</td></tr>
 <tr><td>[`double M13`](VRageMath.M13)</td><td>Value at row 1 column 3 of the matrix.</td></tr>
@@ -26,7 +26,7 @@ Defines a matrix.
 <tr><td>static [`MatrixD Zero`](VRageMath.Zero)</td><td></td></tr>
 </table>
 ### Properties
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`Vector3D Col0`](VRageMath.Col0)</td><td></td></tr>
 <tr><td>[`Vector3D Col1`](VRageMath.Col1)</td><td></td></tr>
 <tr><td>[`Vector3D Col2`](VRageMath.Col2)</td><td></td></tr>
@@ -42,7 +42,7 @@ Defines a matrix.
 <tr><td>[`double Item`](VRageMath.Item)</td><td></td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>static [`Matrix Subtract(Matrix matrix1, Matrix matrix2)`](VRageMath.Subtract)</td><td>Subtracts matrices.</td></tr>
 <tr><td>static [`void Subtract(ref MatrixD matrix1, ref MatrixD matrix2, ref MatrixD result)`](VRageMath.Subtract)</td><td>Subtracts matrices.</td></tr>
 <tr><td>static [`MatrixD Multiply(MatrixD matrix1, MatrixD matrix2)`](VRageMath.Multiply)</td><td>Multiplies a matrix by another matrix.</td></tr>

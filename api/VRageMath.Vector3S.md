@@ -3,7 +3,7 @@
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`short X`](VRageMath.X)</td><td></td></tr>
 <tr><td>[`short Y`](VRageMath.Y)</td><td></td></tr>
 <tr><td>[`short Z`](VRageMath.Z)</td><td></td></tr>
@@ -15,7 +15,7 @@
 <tr><td>static [`Vector3S Backward`](VRageMath.Backward)</td><td></td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`string ToString()`](VRageMath.ToString)</td><td></td></tr>
 <tr><td>[`int GetHashCode()`](VRageMath.GetHashCode)</td><td></td></tr>
 <tr><td>[`bool Equals(Object obj)`](VRageMath.Equals)</td><td></td></tr>

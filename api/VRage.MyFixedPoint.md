@@ -5,7 +5,7 @@
 ## Summary
 Fixed point number represented as 64-bit integer with 6 decimal places (one millionts)
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`long RawValue`](VRage.RawValue)</td><td></td></tr>
 <tr><td>static [`MyFixedPoint MinValue`](VRage.MinValue)</td><td></td></tr>
 <tr><td>static [`MyFixedPoint MaxValue`](VRage.MaxValue)</td><td></td></tr>
@@ -15,7 +15,7 @@ Fixed point number represented as 64-bit integer with 6 decimal places (one mill
 <tr><td>static [`MyFixedPoint MinIntValue`](VRage.MinIntValue)</td><td></td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`string SerializeString()`](VRage.SerializeString)</td><td>For XmlSerialization, format is 123.456789</td></tr>
 <tr><td>static [`MyFixedPoint DeserializeStringSafe(string text)`](VRage.DeserializeStringSafe)</td><td>For XmlSerialization, format is 123.456789 Handles double and decimal formats too.</td></tr>
 <tr><td>static [`MyFixedPoint DeserializeString(string text)`](VRage.DeserializeString)</td><td></td></tr>

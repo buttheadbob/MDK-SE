@@ -5,19 +5,19 @@
 ## Summary
 Structure using the same layout than [System.Drawing.RectangleF](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.rectanglef?view=netframework-4.6) 
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`Vector2 Position`](VRageMath.Position)</td><td>The Position.</td></tr>
 <tr><td>[`Vector2 Size`](VRageMath.Size)</td><td>The Size.</td></tr>
 </table>
 ### Properties
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`float X`](VRageMath.X)</td><td>Left coordinate.</td></tr>
 <tr><td>[`float Y`](VRageMath.Y)</td><td>Top coordinate.</td></tr>
 <tr><td>[`float Width`](VRageMath.Width)</td><td>Width of this rectangle.</td></tr>
 <tr><td>[`float Height`](VRageMath.Height)</td><td>Height of this rectangle.</td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`bool Contains(int x, int y)`](VRageMath.Contains)</td><td></td></tr>
 <tr><td>[`bool Contains(float x, float y)`](VRageMath.Contains)</td><td></td></tr>
 <tr><td>[`bool Contains(Vector2 vector2D)`](VRageMath.Contains)</td><td></td></tr>

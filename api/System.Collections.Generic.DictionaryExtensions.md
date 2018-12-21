@@ -3,7 +3,7 @@
 **Namespace:** [`System.Collections.Generic`](System.Collections.Generic)  
 **Assembly:** VRage.Library.dll  
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>static [`V GetValueOrDefault<K, V>(Dictionary<K, V> dictionary, K key)`](System.Collections.Generic.GetValueOrDefault)</td><td></td></tr>
 <tr><td>static [`V GetValueOrDefault<K, V>(Dictionary<K, V> dictionary, K key, V defaultValue)`](System.Collections.Generic.GetValueOrDefault)</td><td></td></tr>
 <tr><td>static [`KeyValuePair<K, V> FirstPair<K, V>(Dictionary<K, V> dictionary)`](System.Collections.Generic.FirstPair)</td><td></td></tr>

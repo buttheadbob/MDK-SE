@@ -3,7 +3,7 @@
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`Vector3D Center`](VRageMath.Center)</td><td></td></tr>
 <tr><td>[`Vector3D HalfExtent`](VRageMath.HalfExtent)</td><td></td></tr>
 <tr><td>[`Quaternion Orientation`](VRageMath.Orientation)</td><td></td></tr>
@@ -24,7 +24,7 @@
 <tr><td>static [`int CornerCount`](VRageMath.CornerCount)</td><td></td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>static [`bool GetNormalBetweenEdges(int axis, int edge0, int edge1, ref Vector3 normal)`](VRageMath.GetNormalBetweenEdges)</td><td>Returns normal between two cube edge of same direction</td></tr>
 <tr><td>static [`MyOrientedBoundingBoxD CreateFromBoundingBox(BoundingBoxD box)`](VRageMath.CreateFromBoundingBox)</td><td></td></tr>
 <tr><td>[`MyOrientedBoundingBoxD Transform(Quaternion rotation, Vector3D translation)`](VRageMath.Transform)</td><td></td></tr>

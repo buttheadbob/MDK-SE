@@ -3,11 +3,11 @@
 **Namespace:** [`VRage.Game.Components`](VRage.Game.Components)  
 **Assembly:** VRage.Game.dll  
 ### Properties
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`MyComponentContainer ContainerBase`](VRage.Game.Components.ContainerBase)</td><td>This cannot be named Container to not conflict with the definition of Container in MyEntityComponentBase.</td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`void SetContainer(MyComponentContainer container)`](VRage.Game.Components.SetContainer)</td><td>Sets the container of this component. Note that the component is not added to the container here! Therefore, use MyComponentContainer.Add(...) method and it will in turn call this method. Actually, you should seldom have the need to call this method yourself.</td></tr>
 <tr><td>[`T GetAs<T>()`](VRage.Game.Components.GetAs)</td><td></td></tr>
 <tr><td>[`void OnAddedToContainer()`](VRage.Game.Components.OnAddedToContainer)</td><td>Gets called after the container of this component changes</td></tr>

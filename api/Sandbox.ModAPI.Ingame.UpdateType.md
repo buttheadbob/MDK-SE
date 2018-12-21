@@ -5,7 +5,7 @@
 ## Summary
 Enum describes what source triggered the script to run.
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>static [`UpdateType None`](Sandbox.ModAPI.Ingame.None)</td><td></td></tr>
 <tr><td>static [`UpdateType Terminal`](Sandbox.ModAPI.Ingame.Terminal)</td><td>Script run by user in the terminal.</td></tr>
 <tr><td>static [`UpdateType Trigger`](Sandbox.ModAPI.Ingame.Trigger)</td><td>Script run by a block such as timer, sensor.</td></tr>

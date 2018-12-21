@@ -3,17 +3,17 @@
 **Namespace:** [`VRage.Game.ModAPI.Ingame.Utilities`](VRage.Game.ModAPI.Ingame.Utilities)  
 **Assembly:** VRage.Game.dll  
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`string Content`](VRage.Game.ModAPI.Ingame.Utilities.Content)</td><td></td></tr>
 <tr><td>[`int Index`](VRage.Game.ModAPI.Ingame.Utilities.Index)</td><td></td></tr>
 </table>
 ### Properties
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`char Char`](VRage.Game.ModAPI.Ingame.Utilities.Char)</td><td></td></tr>
 <tr><td>[`bool IsEmpty`](VRage.Game.ModAPI.Ingame.Utilities.IsEmpty)</td><td></td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`bool IsOutOfBounds()`](VRage.Game.ModAPI.Ingame.Utilities.IsOutOfBounds)</td><td></td></tr>
 <tr><td>[`int FindLineNo()`](VRage.Game.ModAPI.Ingame.Utilities.FindLineNo)</td><td></td></tr>
 <tr><td>[`TextPtr Find(string str)`](VRage.Game.ModAPI.Ingame.Utilities.Find)</td><td></td></tr>

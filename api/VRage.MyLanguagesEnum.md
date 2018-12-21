@@ -3,7 +3,7 @@
 **Namespace:** [`VRage`](VRage)  
 **Assembly:** VRage.dll  
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>static [`MyLanguagesEnum English`](VRage.English)</td><td></td></tr>
 <tr><td>static [`MyLanguagesEnum Czech`](VRage.Czech)</td><td></td></tr>
 <tr><td>static [`MyLanguagesEnum Slovak`](VRage.Slovak)</td><td></td></tr>

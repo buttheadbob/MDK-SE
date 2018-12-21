@@ -5,7 +5,7 @@
 ## Summary
 Terminal block extension for property access
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>static [`ITerminalProperty<TValue> As<TValue>(ITerminalProperty property)`](Sandbox.ModAPI.Interfaces.As)</td><td></td></tr>
 <tr><td>static [`ITerminalProperty<TValue> Cast<TValue>(ITerminalProperty property)`](Sandbox.ModAPI.Interfaces.Cast)</td><td></td></tr>
 <tr><td>static [`bool Is<TValue>(ITerminalProperty property)`](Sandbox.ModAPI.Interfaces.Is)</td><td></td></tr>

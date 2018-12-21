@@ -5,7 +5,7 @@
 ## Summary
 Defines a vector with three components.
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`double X`](VRageMath.X)</td><td>Gets or sets the x-component of the vector.</td></tr>
 <tr><td>[`double Y`](VRageMath.Y)</td><td>Gets or sets the y-component of the vector.</td></tr>
 <tr><td>[`double Z`](VRageMath.Z)</td><td>Gets or sets the z-component of the vector.</td></tr>
@@ -27,12 +27,12 @@ Defines a vector with three components.
 <tr><td>static [`Vector3D MinValue`](VRageMath.MinValue)</td><td></td></tr>
 </table>
 ### Properties
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`double Sum`](VRageMath.Sum)</td><td></td></tr>
 <tr><td>[`double Volume`](VRageMath.Volume)</td><td></td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>static [`void TransformNormal(ref Vector3D normal, ref MatrixI matrix, ref Vector3D result)`](VRageMath.TransformNormal)</td><td></td></tr>
 <tr><td>static [`Vector3D TransformNormal(Vector3D normal, MyBlockOrientation orientation)`](VRageMath.TransformNormal)</td><td></td></tr>
 <tr><td>static [`void TransformNormal(ref Vector3D normal, MyBlockOrientation orientation, ref Vector3D result)`](VRageMath.TransformNormal)</td><td></td></tr>

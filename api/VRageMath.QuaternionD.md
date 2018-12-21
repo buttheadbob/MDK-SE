@@ -5,7 +5,7 @@
 ## Summary
 Defines a four-dimensional vector (x,y,z,w), which is used to efficiently rotate an object about the (x, y, z) vector by the angle theta, where w = cos(theta/2). Uses double precision floating point numbers for calculation and storage
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`double X`](VRageMath.X)</td><td>Specifies the x-value of the vector component of the quaternion.</td></tr>
 <tr><td>[`double Y`](VRageMath.Y)</td><td>Specifies the y-value of the vector component of the quaternion.</td></tr>
 <tr><td>[`double Z`](VRageMath.Z)</td><td>Specifies the z-value of the vector component of the quaternion.</td></tr>
@@ -13,7 +13,7 @@ Defines a four-dimensional vector (x,y,z,w), which is used to efficiently rotate
 <tr><td>static [`QuaternionD Identity`](VRageMath.Identity)</td><td></td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`string ToString()`](VRageMath.ToString)</td><td>Retireves a string representation of the current object.</td></tr>
 <tr><td>[`bool Equals(QuaternionD other)`](VRageMath.Equals)</td><td>Determines whether the specified Object is equal to the QuaternionD.</td></tr>
 <tr><td>[`bool Equals(Object obj)`](VRageMath.Equals)</td><td>Returns a value that indicates whether the current instance is equal to a specified object.</td></tr>

@@ -3,7 +3,7 @@
 **Namespace:** [`Sandbox.Game.Localization`](Sandbox.Game.Localization)  
 **Assembly:** Sandbox.Game.dll  
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>static [`MyStringId Blank`](Sandbox.Game.Localization.Blank)</td><td></td></tr>
 <tr><td>static [`MyStringId Add`](Sandbox.Game.Localization.Add)</td><td></td></tr>
 <tr><td>static [`MyStringId AddAll`](Sandbox.Game.Localization.AddAll)</td><td></td></tr>

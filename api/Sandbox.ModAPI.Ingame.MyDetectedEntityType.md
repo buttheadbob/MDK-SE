@@ -3,7 +3,7 @@
 **Namespace:** [`Sandbox.ModAPI.Ingame`](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll  
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>static [`MyDetectedEntityType None`](Sandbox.ModAPI.Ingame.None)</td><td></td></tr>
 <tr><td>static [`MyDetectedEntityType Unknown`](Sandbox.ModAPI.Ingame.Unknown)</td><td></td></tr>
 <tr><td>static [`MyDetectedEntityType SmallGrid`](Sandbox.ModAPI.Ingame.SmallGrid)</td><td></td></tr>

@@ -3,7 +3,7 @@
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`int X`](VRageMath.X)</td><td></td></tr>
 <tr><td>[`int Y`](VRageMath.Y)</td><td></td></tr>
 <tr><td>[`int Z`](VRageMath.Z)</td><td></td></tr>
@@ -23,14 +23,14 @@
 <tr><td>static [`Vector3I One`](VRageMath.One)</td><td></td></tr>
 </table>
 ### Properties
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`int Item`](VRageMath.Item)</td><td></td></tr>
 <tr><td>[`bool IsPowerOfTwo`](VRageMath.IsPowerOfTwo)</td><td></td></tr>
 <tr><td>[`int Size`](VRageMath.Size)</td><td>How many cubes are in block with this size</td></tr>
 <tr><td>[`long SizeLong`](VRageMath.SizeLong)</td><td></td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`string ToString()`](VRageMath.ToString)</td><td></td></tr>
 <tr><td>[`bool Equals(Vector3I other)`](VRageMath.Equals)</td><td></td></tr>
 <tr><td>[`bool Equals(Object obj)`](VRageMath.Equals)</td><td></td></tr>

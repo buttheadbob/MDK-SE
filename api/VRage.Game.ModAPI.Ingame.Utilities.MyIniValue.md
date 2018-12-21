@@ -5,16 +5,16 @@
 ## Summary
 Represents the value of a single configuration item.
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`MyIniKey Key`](VRage.Game.ModAPI.Ingame.Utilities.Key)</td><td>Gets the [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) this value was retrieved from</td></tr>
 <tr><td>static [`MyIniValue EMPTY`](VRage.Game.ModAPI.Ingame.Utilities.EMPTY)</td><td>Represents an empty [MyIniValue](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue)</td></tr>
 </table>
 ### Properties
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`bool IsEmpty`](VRage.Game.ModAPI.Ingame.Utilities.IsEmpty)</td><td>Determines whether this value is empty. Be aware that an empty string is not considered to be an empty value.</td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`bool ToBoolean(bool defaultValue)`](VRage.Game.ModAPI.Ingame.Utilities.ToBoolean)</td><td>Attempts to get this value as a [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) . If the value is empty or cannot be understood as this data type, the `defaultValue` will be returned instead.</td></tr>
 <tr><td>[`bool TryGetBoolean(ref bool value)`](VRage.Game.ModAPI.Ingame.Utilities.TryGetBoolean)</td><td>Attempts to get this value as a [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) . Fills the`value`on success.</td></tr>
 <tr><td>[`char ToChar(char defaultValue)`](VRage.Game.ModAPI.Ingame.Utilities.ToChar)</td><td>Attempts to get this value as a [System.Char](https://docs.microsoft.com/en-us/dotnet/api/system.char?view=netframework-4.6) . If the value is empty or cannot be understood as this data type, the `defaultValue` will be returned instead.</td></tr>

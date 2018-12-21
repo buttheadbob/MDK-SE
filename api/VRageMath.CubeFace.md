@@ -3,7 +3,7 @@
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>static [`CubeFace Left`](VRageMath.Left)</td><td></td></tr>
 <tr><td>static [`CubeFace Right`](VRageMath.Right)</td><td></td></tr>
 <tr><td>static [`CubeFace Up`](VRageMath.Up)</td><td></td></tr>

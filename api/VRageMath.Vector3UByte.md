@@ -3,7 +3,7 @@
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`byte X`](VRageMath.X)</td><td></td></tr>
 <tr><td>[`byte Y`](VRageMath.Y)</td><td></td></tr>
 <tr><td>[`byte Z`](VRageMath.Z)</td><td></td></tr>
@@ -11,7 +11,7 @@
 <tr><td>static [`Vector3UByte Zero`](VRageMath.Zero)</td><td></td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`string ToString()`](VRageMath.ToString)</td><td></td></tr>
 <tr><td>[`int GetHashCode()`](VRageMath.GetHashCode)</td><td></td></tr>
 <tr><td>[`bool Equals(Object obj)`](VRageMath.Equals)</td><td></td></tr>

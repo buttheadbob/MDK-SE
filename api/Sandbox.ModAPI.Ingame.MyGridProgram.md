@@ -15,7 +15,7 @@ public void Main()
 ```
 
 ### Properties
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`IMyGridTerminalSystem GridTerminalSystem`](Sandbox.ModAPI.Ingame.GridTerminalSystem)</td><td>Provides access to the grid terminal system as viewed from this programmable block.</td></tr>
 <tr><td>[`IMyProgrammableBlock Me`](Sandbox.ModAPI.Ingame.Me)</td><td>Gets a reference to the currently running programmable block.</td></tr>
 <tr><td>[`TimeSpan ElapsedTime`](Sandbox.ModAPI.Ingame.ElapsedTime)</td><td>Gets the amount of in-game time elapsed from the previous run.</td></tr>

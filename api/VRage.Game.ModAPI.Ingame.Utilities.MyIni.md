@@ -89,12 +89,12 @@ public void Main() {
 ## Remarks
 This class is NOT THREAD SAFE as it's optimized for programmable block use.
 ### Properties
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`string EndContent`](VRage.Game.ModAPI.Ingame.Utilities.EndContent)</td><td>You can terminate a configuration stream by entering "---" on a separate line. This property will contain all the content after this line.</td></tr>
 <tr><td>[`string EndComment`](VRage.Game.ModAPI.Ingame.Utilities.EndComment)</td><td>Get or set a comment to be placed after the last section or item. Is`null`if the section does not exist or has no comment.</td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>static [`bool HasSection(string config, string section)`](VRage.Game.ModAPI.Ingame.Utilities.HasSection)</td><td>Determines if the given configuration contains what looks like the given section. It does not verify that the content is actually in a valid format, just if there's a line starting with [section].</td></tr>
 <tr><td>[`bool ContainsSection(string section)`](VRage.Game.ModAPI.Ingame.Utilities.ContainsSection)</td><td>Determines whether a section of a given name exists in the currently parsed configuration.</td></tr>
 <tr><td>[`bool ContainsKey(string section, string name)`](VRage.Game.ModAPI.Ingame.Utilities.ContainsKey)</td><td>Determines whether a configuration key (section/key) exists in the currently parsed configuration.</td></tr>

@@ -3,7 +3,7 @@
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`long X`](VRageMath.X)</td><td></td></tr>
 <tr><td>[`long Y`](VRageMath.Y)</td><td></td></tr>
 <tr><td>[`long Z`](VRageMath.Z)</td><td></td></tr>
@@ -23,13 +23,13 @@
 <tr><td>static [`Vector3L One`](VRageMath.One)</td><td></td></tr>
 </table>
 ### Properties
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`long Item`](VRageMath.Item)</td><td></td></tr>
 <tr><td>[`long Size`](VRageMath.Size)</td><td>How many cubes are in block with this size</td></tr>
 <tr><td>[`long SizeLong`](VRageMath.SizeLong)</td><td></td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`string ToString()`](VRageMath.ToString)</td><td></td></tr>
 <tr><td>[`bool Equals(Vector3L other)`](VRageMath.Equals)</td><td></td></tr>
 <tr><td>[`bool Equals(Object obj)`](VRageMath.Equals)</td><td></td></tr>

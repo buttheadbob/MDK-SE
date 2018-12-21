@@ -3,7 +3,7 @@
 **Namespace:** [`SpaceEngineers.Game.ModAPI.Ingame`](SpaceEngineers.Game.ModAPI.Ingame)  
 **Assembly:** SpaceEngineers.Game.dll  
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>static [`VentStatus Depressurized`](SpaceEngineers.Game.ModAPI.Ingame.Depressurized)</td><td>Air vent is depressurized</td></tr>
 <tr><td>static [`VentStatus Depressurizing`](SpaceEngineers.Game.ModAPI.Ingame.Depressurizing)</td><td>Air vent is in process of depressurizing</td></tr>
 <tr><td>static [`VentStatus Pressurized`](SpaceEngineers.Game.ModAPI.Ingame.Pressurized)</td><td>Air vent is pressurized</td></tr>

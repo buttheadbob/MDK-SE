@@ -5,7 +5,7 @@
 ## Summary
 Determines the current mode of a conveyor sorter.
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>static [`MyConveyorSorterMode Whitelist`](Sandbox.ModAPI.Ingame.Whitelist)</td><td>The items in the filter list are the only items allowed through this sorter.</td></tr>
 <tr><td>static [`MyConveyorSorterMode Blacklist`](Sandbox.ModAPI.Ingame.Blacklist)</td><td>The items in the filter list are not allowed through this sorter.</td></tr>
 </table>

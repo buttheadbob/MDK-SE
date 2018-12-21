@@ -3,7 +3,7 @@
 **Namespace:** [`Sandbox.ModAPI.Ingame`](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll  
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`void GetBlocks(List<IMyTerminalBlock> blocks)`](Sandbox.ModAPI.Ingame.GetBlocks)</td><td></td></tr>
 <tr><td>[`void GetBlockGroups(List<IMyBlockGroup> blockGroups, Func<IMyBlockGroup, bool> collect)`](Sandbox.ModAPI.Ingame.GetBlockGroups)</td><td></td></tr>
 <tr><td>[`void GetBlocksOfType<T>(List<IMyTerminalBlock> blocks, Func<IMyTerminalBlock, bool> collect)`](Sandbox.ModAPI.Ingame.GetBlocksOfType)</td><td></td></tr>

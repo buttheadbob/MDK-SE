@@ -5,11 +5,11 @@
 ## Summary
 A class for simpler traversal of ranges of integer vectors
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`Vector3I Current`](VRageMath.Current)</td><td>Do not modify, public only for optimization!</td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`bool IsValid()`](VRageMath.IsValid)</td><td></td></tr>
 <tr><td>[`void GetNext(ref Vector3I next)`](VRageMath.GetNext)</td><td></td></tr>
 <tr><td>[`void MoveNext()`](VRageMath.MoveNext)</td><td></td></tr>

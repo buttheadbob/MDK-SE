@@ -3,12 +3,12 @@
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`float Min`](VRageMath.Min)</td><td></td></tr>
 <tr><td>[`float Max`](VRageMath.Max)</td><td></td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`bool ValueBetween(float value)`](VRageMath.ValueBetween)</td><td></td></tr>
 <tr><td>[`string ToString()`](VRageMath.ToString)</td><td></td></tr>
 <tr><td>[`SerializableRange ConvertToCosine()`](VRageMath.ConvertToCosine)</td><td></td></tr>

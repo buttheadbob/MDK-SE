@@ -3,7 +3,7 @@
 **Namespace:** [`VRageMath.Spatial`](VRageMath.Spatial)  
 **Assembly:** VRage.Math.dll  
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`Func<int, BoundingBoxD, Object> OnClusterCreated`](VRageMath.Spatial.OnClusterCreated)</td><td></td></tr>
 <tr><td>[`Action<Object> OnClusterRemoved`](VRageMath.Spatial.OnClusterRemoved)</td><td></td></tr>
 <tr><td>[`Action<Object> OnFinishBatch`](VRageMath.Spatial.OnFinishBatch)</td><td></td></tr>
@@ -19,11 +19,11 @@
 <tr><td>static [`ulong CLUSTERED_OBJECT_ID_UNITIALIZED`](VRageMath.Spatial.CLUSTERED_OBJECT_ID_UNITIALIZED)</td><td></td></tr>
 </table>
 ### Properties
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`bool SuppressClusterReorder`](VRageMath.Spatial.SuppressClusterReorder)</td><td></td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`ulong AddObject(BoundingBoxD bbox, IMyActivationHandler activationHandler, Nullable<ulong> customId, string tag, long entityId, bool batch)`](VRageMath.Spatial.AddObject)</td><td></td></tr>
 <tr><td>static [`BoundingBoxD AdjustAABBByVelocity(BoundingBoxD aabb, Vector3 velocity, float inflate)`](VRageMath.Spatial.AdjustAABBByVelocity)</td><td></td></tr>
 <tr><td>[`void MoveObject(ulong id, BoundingBoxD aabb, Vector3 velocity)`](VRageMath.Spatial.MoveObject)</td><td></td></tr>

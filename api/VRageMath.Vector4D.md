@@ -5,7 +5,7 @@
 ## Summary
 Defines a vector with four components.
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`double X`](VRageMath.X)</td><td>Gets or sets the x-component of the vector.</td></tr>
 <tr><td>[`double Y`](VRageMath.Y)</td><td>Gets or sets the y-component of the vector.</td></tr>
 <tr><td>[`double Z`](VRageMath.Z)</td><td>Gets or sets the z-component of the vector.</td></tr>
@@ -18,7 +18,7 @@ Defines a vector with four components.
 <tr><td>static [`Vector4D UnitW`](VRageMath.UnitW)</td><td></td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>static [`Vector4D PackOrthoMatrix(Vector3D position, Vector3D forward, Vector3D up)`](VRageMath.PackOrthoMatrix)</td><td></td></tr>
 <tr><td>static [`Vector4D PackOrthoMatrix(ref MatrixD matrix)`](VRageMath.PackOrthoMatrix)</td><td></td></tr>
 <tr><td>static [`MatrixD UnpackOrthoMatrix(ref Vector4D packed)`](VRageMath.UnpackOrthoMatrix)</td><td></td></tr>

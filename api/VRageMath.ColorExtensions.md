@@ -3,7 +3,7 @@
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>static [`Vector3 ColorToHSV(Color rgb)`](VRageMath.ColorToHSV)</td><td></td></tr>
 <tr><td>static [`Vector3 ColorToHSVDX11(Color rgb)`](VRageMath.ColorToHSVDX11)</td><td>Use this for HSV in DX11 Renderer, X = Hue 0..1, Y = Saturation -1..1, Z = Value -1..1</td></tr>
 <tr><td>static [`Color HexToColor(string hex)`](VRageMath.HexToColor)</td><td></td></tr>

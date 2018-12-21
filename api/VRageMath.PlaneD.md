@@ -5,12 +5,12 @@
 ## Summary
 Defines a PlaneD.
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`Vector3D Normal`](VRageMath.Normal)</td><td>The normal vector of the PlaneD.</td></tr>
 <tr><td>[`double D`](VRageMath.D)</td><td>The distance of the PlaneD along its normal from the origin. Note: Be careful! The distance is signed and is the opposite of what people usually expect. If you look closely at the plane equation: (n dot P) + D = 0, you'll realize that D = - (n dot P) (that is, negative instead of positive)</td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`bool Equals(PlaneD other)`](VRageMath.Equals)</td><td>Determines whether the specified PlaneD is equal to the PlaneD.</td></tr>
 <tr><td>[`bool Equals(Object obj)`](VRageMath.Equals)</td><td>Determines whether the specified Object is equal to the PlaneD.</td></tr>
 <tr><td>[`int GetHashCode()`](VRageMath.GetHashCode)</td><td>Gets the hash code for this object.</td></tr>

@@ -3,11 +3,11 @@
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>static [`Vector3 Vector3One`](VRageMath.Vector3One)</td><td></td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>static [`void InitializeFastSin()`](VRageMath.InitializeFastSin)</td><td></td></tr>
 <tr><td>static [`float FastSin(float angle)`](VRageMath.FastSin)</td><td></td></tr>
 <tr><td>static [`float FastCos(float angle)`](VRageMath.FastCos)</td><td></td></tr>

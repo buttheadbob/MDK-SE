@@ -3,6 +3,6 @@
 **Namespace:** [`VRage.Game.ObjectBuilders.Definitions`](VRage.Game.ObjectBuilders.Definitions)  
 **Assembly:** VRage.Game.dll  
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`float EnergyDensity`](VRage.Game.ObjectBuilders.Definitions.EnergyDensity)</td><td></td></tr>
 </table>

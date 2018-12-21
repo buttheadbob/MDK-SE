@@ -5,11 +5,11 @@
 ## Summary
 Defines a frustum and helps determine whether forms intersect with it.
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>static [`int CornerCount`](VRageMath.CornerCount)</td><td>Specifies the total number of corners (8) in the BoundingFrustum.</td></tr>
 </table>
 ### Properties
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`Plane[] Planes`](VRageMath.Planes)</td><td></td></tr>
 <tr><td>[`Plane Item`](VRageMath.Item)</td><td></td></tr>
 <tr><td>[`Plane Near`](VRageMath.Near)</td><td>Gets the near plane of the BoundingFrustum.</td></tr>
@@ -21,7 +21,7 @@ Defines a frustum and helps determine whether forms intersect with it.
 <tr><td>[`Matrix Matrix`](VRageMath.Matrix)</td><td>Gets or sets the Matrix that describes this bounding frustum.</td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`Vector3[] GetCorners()`](VRageMath.GetCorners)</td><td>Gets an array of points that make up the corners of the BoundingFrustum. ALLOCATION!</td></tr>
 <tr><td>[`void GetCorners(Vector3[] corners)`](VRageMath.GetCorners)</td><td>Gets an array of points that make up the corners of the BoundingFrustum.</td></tr>
 <tr><td>[`void GetCornersUnsafe(*Vector3 corners)`](VRageMath.GetCornersUnsafe)</td><td></td></tr>

@@ -5,7 +5,7 @@
 ## Summary
 Contains commonly used precalculated values.
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>static [`float E`](VRageMath.E)</td><td>Represents the mathematical constant e.</td></tr>
 <tr><td>static [`float Log2E`](VRageMath.Log2E)</td><td>Represents the log base two of e.</td></tr>
 <tr><td>static [`float Log10E`](VRageMath.Log10E)</td><td>Represents the log base ten of e.</td></tr>
@@ -23,7 +23,7 @@ Contains commonly used precalculated values.
 <tr><td>static [`float EPSILON10`](VRageMath.EPSILON10)</td><td></td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>static [`float ToRadians(float degrees)`](VRageMath.ToRadians)</td><td>Converts degrees to radians.</td></tr>
 <tr><td>static [`Vector3 ToRadians(Vector3 v)`](VRageMath.ToRadians)</td><td></td></tr>
 <tr><td>static [`double ToRadians(double degrees)`](VRageMath.ToRadians)</td><td>Converts degrees to radians.</td></tr>

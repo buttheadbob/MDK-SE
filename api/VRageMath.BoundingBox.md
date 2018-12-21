@@ -5,14 +5,14 @@
 ## Summary
 Defines an axis-aligned box-shaped 3D volume.
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`Vector3 Min`](VRageMath.Min)</td><td>The minimum point the BoundingBox contains.</td></tr>
 <tr><td>[`Vector3 Max`](VRageMath.Max)</td><td>The maximum point the BoundingBox contains.</td></tr>
 <tr><td>static [`ComparerType Comparer`](VRageMath.Comparer)</td><td></td></tr>
 <tr><td>static [`int CornerCount`](VRageMath.CornerCount)</td><td>Specifies the total number of corners (8) in the BoundingBox.</td></tr>
 </table>
 ### Properties
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`BoxCornerEnumerator Corners`](VRageMath.Corners)</td><td></td></tr>
 <tr><td>[`Vector3 Center`](VRageMath.Center)</td><td>Calculates center</td></tr>
 <tr><td>[`Vector3 HalfExtents`](VRageMath.HalfExtents)</td><td></td></tr>
@@ -25,7 +25,7 @@ Defines an axis-aligned box-shaped 3D volume.
 <tr><td>[`float Perimeter`](VRageMath.Perimeter)</td><td>return perimeter of edges</td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`Vector3[] GetCorners()`](VRageMath.GetCorners)</td><td>Gets an array of points that make up the corners of the BoundingBox. ALLOCATION!</td></tr>
 <tr><td>[`void GetCorners(Vector3[] corners)`](VRageMath.GetCorners)</td><td>Gets the array of points that make up the corners of the BoundingBox.</td></tr>
 <tr><td>[`void GetCornersUnsafe(*Vector3 corners)`](VRageMath.GetCornersUnsafe)</td><td></td></tr>

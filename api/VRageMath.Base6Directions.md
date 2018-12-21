@@ -3,13 +3,13 @@
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>static [`Direction[] EnumDirections`](VRageMath.EnumDirections)</td><td></td></tr>
 <tr><td>static [`Vector3[] Directions`](VRageMath.Directions)</td><td></td></tr>
 <tr><td>static [`Vector3I[] IntDirections`](VRageMath.IntDirections)</td><td></td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>static [`bool IsBaseDirection(ref Vector3 vec)`](VRageMath.IsBaseDirection)</td><td></td></tr>
 <tr><td>static [`bool IsBaseDirection(Vector3 vec)`](VRageMath.IsBaseDirection)</td><td></td></tr>
 <tr><td>static [`bool IsBaseDirection(ref Vector3I vec)`](VRageMath.IsBaseDirection)</td><td></td></tr>

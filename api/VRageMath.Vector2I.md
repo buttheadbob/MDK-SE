@@ -3,7 +3,7 @@
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`int X`](VRageMath.X)</td><td></td></tr>
 <tr><td>[`int Y`](VRageMath.Y)</td><td></td></tr>
 <tr><td>static [`ComparerClass Comparer`](VRageMath.Comparer)</td><td></td></tr>
@@ -13,7 +13,7 @@
 <tr><td>static [`Vector2I UnitY`](VRageMath.UnitY)</td><td></td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`string ToString()`](VRageMath.ToString)</td><td></td></tr>
 <tr><td>[`int Size()`](VRageMath.Size)</td><td></td></tr>
 <tr><td>static [`Vector2I Floor(Vector2 value)`](VRageMath.Floor)</td><td></td></tr>

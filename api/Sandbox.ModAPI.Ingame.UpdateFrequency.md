@@ -5,7 +5,7 @@
 ## Summary
 Flags set how often the script will run itself.
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>static [`UpdateFrequency None`](Sandbox.ModAPI.Ingame.None)</td><td>Does not run autonomously.</td></tr>
 <tr><td>static [`UpdateFrequency Update1`](Sandbox.ModAPI.Ingame.Update1)</td><td>Run every game tick.</td></tr>
 <tr><td>static [`UpdateFrequency Update10`](Sandbox.ModAPI.Ingame.Update10)</td><td>Run every 10th game tick.</td></tr>

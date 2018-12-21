@@ -7,11 +7,11 @@
 ## Summary
 Represents a four-component color using red, green, blue, and alpha data.
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`uint PackedValue`](VRageMath.PackedValue)</td><td>Gets the current color as a packed value.</td></tr>
 </table>
 ### Properties
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`byte X`](VRageMath.X)</td><td>Gets or sets the red component value of this Color.</td></tr>
 <tr><td>[`byte Y`](VRageMath.Y)</td><td>Gets or sets the green component value of this Color.</td></tr>
 <tr><td>[`byte Z`](VRageMath.Z)</td><td>Gets or sets the blue component value of this Color.</td></tr>
@@ -162,7 +162,7 @@ Represents a four-component color using red, green, blue, and alpha data.
 <tr><td>static [`Color YellowGreen`](VRageMath.YellowGreen)</td><td>Gets a system-defined color with the value R:154 G:205 B:50 A:255.</td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>static [`Color FromNonPremultiplied(Vector4 vector)`](VRageMath.FromNonPremultiplied)</td><td>Convert a non premultipled color into color data that contains alpha.</td></tr>
 <tr><td>static [`Color FromNonPremultiplied(int r, int g, int b, int a)`](VRageMath.FromNonPremultiplied)</td><td>Converts a non-premultipled alpha color to a color that contains premultiplied alpha.</td></tr>
 <tr><td>[`Vector3 ToVector3()`](VRageMath.ToVector3)</td><td>Gets a three-component vector representation for this object.</td></tr>
@@ -176,6 +176,6 @@ Represents a four-component color using red, green, blue, and alpha data.
 <tr><td>static [`Color Lighten(Color inColor, double inAmount)`](VRageMath.Lighten)</td><td></td></tr>
 <tr><td>static [`Color Darken(Color inColor, double inAmount)`](VRageMath.Darken)</td><td></td></tr>
 <tr><td>[`Color ToGray()`](VRageMath.ToGray)</td><td></td></tr>
-<tr><td>[`Vector4 ToVector4()`](VRageMath.PackedVector.ToVector4)</td><td>Expands the packed representation into a Vector4.<br/><br/>_Inherited from [`IPackedVector`](VRageMath.Color)_</td></tr>
-<tr><td>[`void PackFromVector4(Vector4 vector)`](VRageMath.PackedVector.PackFromVector4)</td><td>Sets the packed representation from a Vector4.<br/><br/>_Inherited from [`IPackedVector`](VRageMath.Color)_</td></tr>
+<tr><td>[`Vector4 ToVector4()`](VRageMath.PackedVector.ToVector4)</td><td>Expands the packed representation into a Vector4.<br/><br/>_Inherited from <a href="VRageMath.PackedVector.IPackedVector"><code>Vector4 ToVector4()</code></a>_</td></tr>
+<tr><td>[`void PackFromVector4(Vector4 vector)`](VRageMath.PackedVector.PackFromVector4)</td><td>Sets the packed representation from a Vector4.<br/><br/>_Inherited from <a href="VRageMath.PackedVector.IPackedVector"><code>void PackFromVector4(Vector4 vector)</code></a>_</td></tr>
 </table>

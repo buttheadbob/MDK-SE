@@ -5,11 +5,11 @@
 ## Summary
 Dynamic aabb tree implementation as a prunning structure
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>static [`int NullNode`](VRageMath.NullNode)</td><td>A dynamic tree arranges data in a binary tree to accelerate queries such as volume queries and ray casts. Leafs are proxies with an BoundingBox. In the tree we expand the proxy BoundingBox by Settings.b2_fatAABBFactor so that the proxy BoundingBox is bigger than the client object. This allows the client object to move by small amounts without triggering a tree update. Nodes are pooled and relocatable, so we use node indices rather than pointers.</td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`int AddProxy(ref BoundingBoxD aabb, Object userData, uint userFlags, bool rebalance)`](VRageMath.AddProxy)</td><td>Create a proxy. Provide a tight fitting BoundingBox and a userData pointer.</td></tr>
 <tr><td>[`void RemoveProxy(int proxyId)`](VRageMath.RemoveProxy)</td><td>Destroy a proxy. This asserts if the id is invalid.</td></tr>
 <tr><td>[`bool MoveProxy(int proxyId, ref BoundingBoxD aabb, Vector3D displacement)`](VRageMath.MoveProxy)</td><td>Move a proxy with a swepted BoundingBox. If the proxy has moved outside of its fattened BoundingBox, then the proxy is removed from the tree and re-inserted. Otherwise the function returns immediately.</td></tr>

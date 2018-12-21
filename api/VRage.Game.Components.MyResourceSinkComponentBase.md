@@ -3,11 +3,11 @@
 **Namespace:** [`VRage.Game.Components`](VRage.Game.Components)  
 **Assembly:** VRage.Game.dll  
 ### Properties
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`ListReader<MyDefinitionId> AcceptedResources`](VRage.Game.Components.AcceptedResources)</td><td></td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`float CurrentInputByType(MyDefinitionId resourceTypeId)`](VRage.Game.Components.CurrentInputByType)</td><td></td></tr>
 <tr><td>[`bool IsPoweredByType(MyDefinitionId resourceTypeId)`](VRage.Game.Components.IsPoweredByType)</td><td></td></tr>
 <tr><td>[`float MaxRequiredInputByType(MyDefinitionId resourceTypeId)`](VRage.Game.Components.MaxRequiredInputByType)</td><td></td></tr>

@@ -5,7 +5,7 @@
 ## Summary
 Describes the current status of a laser antenna.
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>static [`MyLaserAntennaStatus Idle`](Sandbox.ModAPI.Ingame.Idle)</td><td>Not doing anything and not connected.</td></tr>
 <tr><td>static [`MyLaserAntennaStatus RotatingToTarget`](Sandbox.ModAPI.Ingame.RotatingToTarget)</td><td>Currently rotating towards the currently selected target.</td></tr>
 <tr><td>static [`MyLaserAntennaStatus SearchingTargetForAntenna`](Sandbox.ModAPI.Ingame.SearchingTargetForAntenna)</td><td>Currently searching for a laser antenna at the target.</td></tr>

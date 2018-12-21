@@ -3,7 +3,7 @@
 **Namespace:** [`System.Collections.Generic`](System.Collections.Generic)  
 **Assembly:** VRage.Library.dll  
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>static [`ClearToken<T> GetClearToken<T>(List<T> list)`](System.Collections.Generic.GetClearToken)</td><td></td></tr>
 <tr><td>static [`void RemoveAtFast<T>(List<T> list, int index)`](System.Collections.Generic.RemoveAtFast)</td><td></td></tr>
 <tr><td>static [`void RemoveAtFast<T>(IList<T> list, int index)`](System.Collections.Generic.RemoveAtFast)</td><td></td></tr>

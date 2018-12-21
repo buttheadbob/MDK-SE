@@ -3,11 +3,11 @@
 **Namespace:** [`VRageMath.Spatial`](VRageMath.Spatial)  
 **Assembly:** VRage.Math.dll  
 ### Properties
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`int Count`](VRageMath.Spatial.Count)</td><td></td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`void Clear()`](VRageMath.Spatial.Clear)</td><td></td></tr>
 <tr><td>[`void ClearFast()`](VRageMath.Spatial.ClearFast)</td><td></td></tr>
 <tr><td>[`void AddPoint(ref Vector3D point, T data)`](VRageMath.Spatial.AddPoint)</td><td></td></tr>

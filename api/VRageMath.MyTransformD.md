@@ -3,16 +3,16 @@
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Fields
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`Quaternion Rotation`](VRageMath.Rotation)</td><td></td></tr>
 <tr><td>[`Vector3D Position`](VRageMath.Position)</td><td></td></tr>
 </table>
 ### Properties
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>[`MatrixD TransformMatrix`](VRageMath.TransformMatrix)</td><td></td></tr>
 </table>
 ### Methods
-<table style="width: 100%">
+<table style="width:100%;display:table">
 <tr><td>static [`MyTransformD Transform(ref MyTransformD t1, ref MyTransformD t2)`](VRageMath.Transform)</td><td></td></tr>
 <tr><td>static [`void Transform(ref MyTransformD t1, ref MyTransformD t2, ref MyTransformD result)`](VRageMath.Transform)</td><td></td></tr>
 <tr><td>static [`Vector3D Transform(ref Vector3D v, ref MyTransformD t2)`](VRageMath.Transform)</td><td></td></tr>

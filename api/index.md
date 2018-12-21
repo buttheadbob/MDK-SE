@@ -10,7 +10,7 @@ VRage.Game.dll
 VRage.Library.dll  
 VRage.Math.dll  
 ## Types
-### [`Block Bases`](Block Bases)  
+### Block Bases  
 [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 [`IMyFunctionalBlock`](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
 [`IMyShipController`](Sandbox.ModAPI.Ingame.IMyShipController)  
@@ -22,7 +22,7 @@ VRage.Math.dll
 [`IMyGravityGeneratorBase`](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorBase)  
 [`IMyVirtualMass`](SpaceEngineers.Game.ModAPI.Ingame.IMyVirtualMass)  
 [`IMyLargeTurretBase`](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)  
-### [`Blocks`](Blocks)  
+### Blocks  
 [`IMyWarhead`](Sandbox.ModAPI.Ingame.IMyWarhead)  
 [`IMyButtonPanel`](SpaceEngineers.Game.ModAPI.Ingame.IMyButtonPanel)  
 [`IMyOxygenFarm`](SpaceEngineers.Game.ModAPI.Ingame.IMyOxygenFarm)  
@@ -69,7 +69,7 @@ VRage.Math.dll
 [`IMyGravityGeneratorSphere`](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorSphere)  
 [`IMySpaceBall`](SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall)  
 [`IMyLargeConveyorTurretBase`](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase)  
-### [`Other`](Other)  
+### Other  
 [`IMyBlockGroup`](Sandbox.ModAPI.Ingame.IMyBlockGroup)  
 [`IMyGridTerminalSystem`](Sandbox.ModAPI.Ingame.IMyGridTerminalSystem)  
 [`IMyGridProgramRuntimeInfo`](Sandbox.ModAPI.Ingame.IMyGridProgramRuntimeInfo)  

@@ -17,9 +17,9 @@ public void Main()
 ### Properties
 |Member|Description|
 |---|---|
-|[`Sandbox.ModAPI.Ingame.IMyGridTerminalSystem GridTerminalSystem`](Sandbox.ModAPI.Ingame.GridTerminalSystem)|Provides access to the grid terminal system as viewed from this programmable block.|
-|[`Sandbox.ModAPI.Ingame.IMyProgrammableBlock Me`](Sandbox.ModAPI.Ingame.Me)|Gets a reference to the currently running programmable block.|
-|[`System.TimeSpan ElapsedTime`](Sandbox.ModAPI.Ingame.ElapsedTime)|Gets the amount of in-game time elapsed from the previous run.|
-|[`Sandbox.ModAPI.Ingame.IMyGridProgramRuntimeInfo Runtime`](Sandbox.ModAPI.Ingame.Runtime)|Gets runtime information for the running grid program.|
-|[`string Storage`](Sandbox.ModAPI.Ingame.Storage)|Allows you to store data between game sessions.|
-|[`Action<System.String> Echo`](Sandbox.ModAPI.Ingame.Echo)|Prints out text onto the currently running programmable block's detail info area.|
+|[`GridTerminalSystem`](Sandbox.ModAPI.Ingame.GridTerminalSystem)|Provides access to the grid terminal system as viewed from this programmable block.|
+|[`Me`](Sandbox.ModAPI.Ingame.Me)|Gets a reference to the currently running programmable block.|
+|[`ElapsedTime`](Sandbox.ModAPI.Ingame.ElapsedTime)|Gets the amount of in-game time elapsed from the previous run.|
+|[`Runtime`](Sandbox.ModAPI.Ingame.Runtime)|Gets runtime information for the running grid program.|
+|[`Storage`](Sandbox.ModAPI.Ingame.Storage)|Allows you to store data between game sessions.|
+|[`Echo`](Sandbox.ModAPI.Ingame.Echo)|Prints out text onto the currently running programmable block's detail info area.|

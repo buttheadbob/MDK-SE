@@ -7,28 +7,28 @@ basic block interface
 ### Properties
 |Member|Description|
 |---|---|
-|[`VRage.ObjectBuilders.SerializableDefinitionId BlockDefinition`](VRage.Game.ModAPI.Ingame.BlockDefinition)|Block definition ID|
-|[`float AccumulatedDamage`](VRage.Game.ModAPI.Ingame.AccumulatedDamage)|Current accumlated damage, pending application|
-|[`float BuildIntegrity`](VRage.Game.ModAPI.Ingame.BuildIntegrity)|Build integrity (of components)|
-|[`float BuildLevelRatio`](VRage.Game.ModAPI.Ingame.BuildLevelRatio)|Ratio of BuildIntegrity and MaxIntegrity|
-|[`float CurrentDamage`](VRage.Game.ModAPI.Ingame.CurrentDamage)|BuildIntegrity - Integrity|
-|[`float DamageRatio`](VRage.Game.ModAPI.Ingame.DamageRatio)||
-|[`VRage.Game.ModAPI.Ingame.IMyCubeBlock FatBlock`](VRage.Game.ModAPI.Ingame.FatBlock)|Gets the fatblock if there is one|
-|[`bool HasDeformation`](VRage.Game.ModAPI.Ingame.HasDeformation)|If this block is deformed (bones deformed)|
-|[`bool IsDestroyed`](VRage.Game.ModAPI.Ingame.IsDestroyed)|Gets if component stack is empty|
-|[`bool IsFullIntegrity`](VRage.Game.ModAPI.Ingame.IsFullIntegrity)|Integrity is at maximum|
-|[`bool IsFullyDismounted`](VRage.Game.ModAPI.Ingame.IsFullyDismounted)|Gets if component stack is empty|
-|[`float MaxDeformation`](VRage.Game.ModAPI.Ingame.MaxDeformation)|Maximum deformation of block|
-|[`float MaxIntegrity`](VRage.Game.ModAPI.Ingame.MaxIntegrity)|The maximum integrity of block|
-|[`float Mass`](VRage.Game.ModAPI.Ingame.Mass)|Block mass|
-|[`long OwnerId`](VRage.Game.ModAPI.Ingame.OwnerId)|Fatblock owner, if present; otherwise grid owner|
-|[`bool ShowParts`](VRage.Game.ModAPI.Ingame.ShowParts)|Gets if sub parts are shown|
-|[`bool StockpileAllocated`](VRage.Game.ModAPI.Ingame.StockpileAllocated)|A component stockpile has been allocated|
-|[`bool StockpileEmpty`](VRage.Game.ModAPI.Ingame.StockpileEmpty)|The component stockpile is empty (no build components)|
-|[`VRageMath.Vector3I Position`](VRage.Game.ModAPI.Ingame.Position)|Grid relative position of block|
-|[`VRage.Game.ModAPI.Ingame.IMyCubeGrid CubeGrid`](VRage.Game.ModAPI.Ingame.CubeGrid)|Gets the grid the slimblock is on|
-|[`VRageMath.Vector3 ColorMaskHSV`](VRage.Game.ModAPI.Ingame.ColorMaskHSV)|Gets the color of the block|
+|[`BlockDefinition`](VRage.Game.ModAPI.Ingame.BlockDefinition)|Block definition ID|
+|[`AccumulatedDamage`](VRage.Game.ModAPI.Ingame.AccumulatedDamage)|Current accumlated damage, pending application|
+|[`BuildIntegrity`](VRage.Game.ModAPI.Ingame.BuildIntegrity)|Build integrity (of components)|
+|[`BuildLevelRatio`](VRage.Game.ModAPI.Ingame.BuildLevelRatio)|Ratio of BuildIntegrity and MaxIntegrity|
+|[`CurrentDamage`](VRage.Game.ModAPI.Ingame.CurrentDamage)|BuildIntegrity - Integrity|
+|[`DamageRatio`](VRage.Game.ModAPI.Ingame.DamageRatio)||
+|[`FatBlock`](VRage.Game.ModAPI.Ingame.FatBlock)|Gets the fatblock if there is one|
+|[`HasDeformation`](VRage.Game.ModAPI.Ingame.HasDeformation)|If this block is deformed (bones deformed)|
+|[`IsDestroyed`](VRage.Game.ModAPI.Ingame.IsDestroyed)|Gets if component stack is empty|
+|[`IsFullIntegrity`](VRage.Game.ModAPI.Ingame.IsFullIntegrity)|Integrity is at maximum|
+|[`IsFullyDismounted`](VRage.Game.ModAPI.Ingame.IsFullyDismounted)|Gets if component stack is empty|
+|[`MaxDeformation`](VRage.Game.ModAPI.Ingame.MaxDeformation)|Maximum deformation of block|
+|[`MaxIntegrity`](VRage.Game.ModAPI.Ingame.MaxIntegrity)|The maximum integrity of block|
+|[`Mass`](VRage.Game.ModAPI.Ingame.Mass)|Block mass|
+|[`OwnerId`](VRage.Game.ModAPI.Ingame.OwnerId)|Fatblock owner, if present; otherwise grid owner|
+|[`ShowParts`](VRage.Game.ModAPI.Ingame.ShowParts)|Gets if sub parts are shown|
+|[`StockpileAllocated`](VRage.Game.ModAPI.Ingame.StockpileAllocated)|A component stockpile has been allocated|
+|[`StockpileEmpty`](VRage.Game.ModAPI.Ingame.StockpileEmpty)|The component stockpile is empty (no build components)|
+|[`Position`](VRage.Game.ModAPI.Ingame.Position)|Grid relative position of block|
+|[`CubeGrid`](VRage.Game.ModAPI.Ingame.CubeGrid)|Gets the grid the slimblock is on|
+|[`ColorMaskHSV`](VRage.Game.ModAPI.Ingame.ColorMaskHSV)|Gets the color of the block|
 ### Methods
 |Member|Description|
 |---|---|
-|[`void GetMissingComponents(Dictionary<System.String, System.Int32>)`](VRage.Game.ModAPI.Ingame.GetMissingComponents)|Gets the list of missing components for this block|
+|[`GetMissingComponents(Dictionary<string, int>)`](VRage.Game.ModAPI.Ingame.GetMissingComponents)|Gets the list of missing components for this block|

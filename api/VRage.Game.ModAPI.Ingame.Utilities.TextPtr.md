@@ -5,27 +5,27 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`string Content`](VRage.Game.ModAPI.Ingame.Utilities.Content)||
-|[`int Index`](VRage.Game.ModAPI.Ingame.Utilities.Index)||
+|[`Content`](VRage.Game.ModAPI.Ingame.Utilities.Content)||
+|[`Index`](VRage.Game.ModAPI.Ingame.Utilities.Index)||
 ### Properties
 |Member|Description|
 |---|---|
-|[`char Char`](VRage.Game.ModAPI.Ingame.Utilities.Char)||
-|[`bool IsEmpty`](VRage.Game.ModAPI.Ingame.Utilities.IsEmpty)||
+|[`Char`](VRage.Game.ModAPI.Ingame.Utilities.Char)||
+|[`IsEmpty`](VRage.Game.ModAPI.Ingame.Utilities.IsEmpty)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`bool IsOutOfBounds()`](VRage.Game.ModAPI.Ingame.Utilities.IsOutOfBounds)||
-|[`int FindLineNo()`](VRage.Game.ModAPI.Ingame.Utilities.FindLineNo)||
-|[`VRage.Game.ModAPI.Ingame.Utilities.TextPtr Find(string)`](VRage.Game.ModAPI.Ingame.Utilities.Find)||
-|[`VRage.Game.ModAPI.Ingame.Utilities.TextPtr Find(char)`](VRage.Game.ModAPI.Ingame.Utilities.Find)||
-|[`VRage.Game.ModAPI.Ingame.Utilities.TextPtr FindInLine(char)`](VRage.Game.ModAPI.Ingame.Utilities.FindInLine)||
-|[`VRage.Game.ModAPI.Ingame.Utilities.TextPtr FindEndOfLine(bool)`](VRage.Game.ModAPI.Ingame.Utilities.FindEndOfLine)||
-|[`bool StartsWithCaseInsensitive(string)`](VRage.Game.ModAPI.Ingame.Utilities.StartsWithCaseInsensitive)||
-|[`bool StartsWith(string)`](VRage.Game.ModAPI.Ingame.Utilities.StartsWith)||
-|[`VRage.Game.ModAPI.Ingame.Utilities.TextPtr SkipWhitespace(bool)`](VRage.Game.ModAPI.Ingame.Utilities.SkipWhitespace)||
-|[`bool IsEndOfLine()`](VRage.Game.ModAPI.Ingame.Utilities.IsEndOfLine)||
-|[`bool IsStartOfLine()`](VRage.Game.ModAPI.Ingame.Utilities.IsStartOfLine)||
-|[`bool IsNewLine()`](VRage.Game.ModAPI.Ingame.Utilities.IsNewLine)||
-|[`VRage.Game.ModAPI.Ingame.Utilities.TextPtr TrimStart()`](VRage.Game.ModAPI.Ingame.Utilities.TrimStart)||
-|[`VRage.Game.ModAPI.Ingame.Utilities.TextPtr TrimEnd()`](VRage.Game.ModAPI.Ingame.Utilities.TrimEnd)||
+|[`IsOutOfBounds()`](VRage.Game.ModAPI.Ingame.Utilities.IsOutOfBounds)||
+|[`FindLineNo()`](VRage.Game.ModAPI.Ingame.Utilities.FindLineNo)||
+|[`Find(string)`](VRage.Game.ModAPI.Ingame.Utilities.Find)||
+|[`Find(char)`](VRage.Game.ModAPI.Ingame.Utilities.Find)||
+|[`FindInLine(char)`](VRage.Game.ModAPI.Ingame.Utilities.FindInLine)||
+|[`FindEndOfLine(bool)`](VRage.Game.ModAPI.Ingame.Utilities.FindEndOfLine)||
+|[`StartsWithCaseInsensitive(string)`](VRage.Game.ModAPI.Ingame.Utilities.StartsWithCaseInsensitive)||
+|[`StartsWith(string)`](VRage.Game.ModAPI.Ingame.Utilities.StartsWith)||
+|[`SkipWhitespace(bool)`](VRage.Game.ModAPI.Ingame.Utilities.SkipWhitespace)||
+|[`IsEndOfLine()`](VRage.Game.ModAPI.Ingame.Utilities.IsEndOfLine)||
+|[`IsStartOfLine()`](VRage.Game.ModAPI.Ingame.Utilities.IsStartOfLine)||
+|[`IsNewLine()`](VRage.Game.ModAPI.Ingame.Utilities.IsNewLine)||
+|[`TrimStart()`](VRage.Game.ModAPI.Ingame.Utilities.TrimStart)||
+|[`TrimEnd()`](VRage.Game.ModAPI.Ingame.Utilities.TrimEnd)||

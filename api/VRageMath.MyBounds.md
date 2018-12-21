@@ -5,12 +5,12 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`float Min`](VRageMath.Min)||
-|[`float Max`](VRageMath.Max)||
-|[`float Default`](VRageMath.Default)||
+|[`Min`](VRageMath.Min)||
+|[`Max`](VRageMath.Max)||
+|[`Default`](VRageMath.Default)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`float Normalize(float)`](VRageMath.Normalize)|Normalize value inside the bounds so that 0 is Min and 1 is Max.|
-|[`float Clamp(float)`](VRageMath.Clamp)||
-|[`string ToString()`](VRageMath.ToString)||
+|[`Normalize(float)`](VRageMath.Normalize)|Normalize value inside the bounds so that 0 is Min and 1 is Max.|
+|[`Clamp(float)`](VRageMath.Clamp)||
+|[`ToString()`](VRageMath.ToString)||

@@ -5,21 +5,21 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`sbyte X`](VRageMath.X)||
-|[`sbyte Y`](VRageMath.Y)||
-|[`sbyte Z`](VRageMath.Z)||
-|static [`VRageMath.Vector3B Zero`](VRageMath.Zero)||
-|static [`VRageMath.Vector3B Up`](VRageMath.Up)||
-|static [`VRageMath.Vector3B Down`](VRageMath.Down)||
-|static [`VRageMath.Vector3B Right`](VRageMath.Right)||
-|static [`VRageMath.Vector3B Left`](VRageMath.Left)||
-|static [`VRageMath.Vector3B Forward`](VRageMath.Forward)||
-|static [`VRageMath.Vector3B Backward`](VRageMath.Backward)||
+|[`X`](VRageMath.X)||
+|[`Y`](VRageMath.Y)||
+|[`Z`](VRageMath.Z)||
+|static [`Zero`](VRageMath.Zero)||
+|static [`Up`](VRageMath.Up)||
+|static [`Down`](VRageMath.Down)||
+|static [`Right`](VRageMath.Right)||
+|static [`Left`](VRageMath.Left)||
+|static [`Forward`](VRageMath.Forward)||
+|static [`Backward`](VRageMath.Backward)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`string ToString()`](VRageMath.ToString)||
-|[`int GetHashCode()`](VRageMath.GetHashCode)||
-|[`bool Equals(System.Object)`](VRageMath.Equals)||
-|static [`VRageMath.Vector3B Round(VRageMath.Vector3)`](VRageMath.Round)||
-|static [`VRageMath.Vector3B Fit(VRageMath.Vector3, float)`](VRageMath.Fit)|Puts Vector3 into Vector3B, value -127 represents -range, 128 represents range|
+|[`ToString()`](VRageMath.ToString)||
+|[`GetHashCode()`](VRageMath.GetHashCode)||
+|[`Equals(Object)`](VRageMath.Equals)||
+|static [`Round(Vector3)`](VRageMath.Round)||
+|static [`Fit(Vector3, float)`](VRageMath.Fit)|Puts Vector3 into Vector3B, value -127 represents -range, 128 represents range|

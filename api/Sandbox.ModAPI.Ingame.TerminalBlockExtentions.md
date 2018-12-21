@@ -5,12 +5,12 @@
 ### Methods
 |Member|Description|
 |---|---|
-|static [`long GetId(Sandbox.ModAPI.Ingame.IMyTerminalBlock)`](Sandbox.ModAPI.Ingame.GetId)||
-|static [`void ApplyAction(Sandbox.ModAPI.Ingame.IMyTerminalBlock, string)`](Sandbox.ModAPI.Ingame.ApplyAction)||
-|static [`void ApplyAction(Sandbox.ModAPI.Ingame.IMyTerminalBlock, string, List<Sandbox.ModAPI.Ingame.TerminalActionParameter>)`](Sandbox.ModAPI.Ingame.ApplyAction)||
-|static [`bool HasAction(Sandbox.ModAPI.Ingame.IMyTerminalBlock, string)`](Sandbox.ModAPI.Ingame.HasAction)||
-|static [`bool HasInventory(Sandbox.ModAPI.Ingame.IMyTerminalBlock)`](Sandbox.ModAPI.Ingame.HasInventory)||
-|static [`VRage.Game.ModAPI.Ingame.IMyInventory GetInventory(Sandbox.ModAPI.Ingame.IMyTerminalBlock, int)`](Sandbox.ModAPI.Ingame.GetInventory)||
-|static [`int GetInventoryCount(Sandbox.ModAPI.Ingame.IMyTerminalBlock)`](Sandbox.ModAPI.Ingame.GetInventoryCount)||
-|static [`bool GetUseConveyorSystem(Sandbox.ModAPI.Ingame.IMyTerminalBlock)`](Sandbox.ModAPI.Ingame.GetUseConveyorSystem)||
-|static [`void SetUseConveyorSystem(Sandbox.ModAPI.Ingame.IMyTerminalBlock, bool)`](Sandbox.ModAPI.Ingame.SetUseConveyorSystem)||
+|static [`GetId(IMyTerminalBlock)`](Sandbox.ModAPI.Ingame.GetId)||
+|static [`ApplyAction(IMyTerminalBlock, string)`](Sandbox.ModAPI.Ingame.ApplyAction)||
+|static [`ApplyAction(IMyTerminalBlock, string, List<TerminalActionParameter>)`](Sandbox.ModAPI.Ingame.ApplyAction)||
+|static [`HasAction(IMyTerminalBlock, string)`](Sandbox.ModAPI.Ingame.HasAction)||
+|static [`HasInventory(IMyTerminalBlock)`](Sandbox.ModAPI.Ingame.HasInventory)||
+|static [`GetInventory(IMyTerminalBlock, int)`](Sandbox.ModAPI.Ingame.GetInventory)||
+|static [`GetInventoryCount(IMyTerminalBlock)`](Sandbox.ModAPI.Ingame.GetInventoryCount)||
+|static [`GetUseConveyorSystem(IMyTerminalBlock)`](Sandbox.ModAPI.Ingame.GetUseConveyorSystem)||
+|static [`SetUseConveyorSystem(IMyTerminalBlock, bool)`](Sandbox.ModAPI.Ingame.SetUseConveyorSystem)||

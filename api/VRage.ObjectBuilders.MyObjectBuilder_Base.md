@@ -5,5 +5,5 @@
 ### Properties
 |Member|Description|
 |---|---|
-|[`VRage.Utils.MyStringHash SubtypeId`](VRage.ObjectBuilders.SubtypeId)||
-|[`VRage.ObjectBuilders.MyObjectBuilderType TypeId`](VRage.ObjectBuilders.TypeId)||
+|[`SubtypeId`](VRage.ObjectBuilders.SubtypeId)||
+|[`TypeId`](VRage.ObjectBuilders.TypeId)||

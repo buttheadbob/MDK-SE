@@ -5,6 +5,6 @@
 ### Methods
 |Member|Description|
 |---|---|
-|static [`Sandbox.ModAPI.Interfaces.ITerminalAction GetAction(Sandbox.ModAPI.Ingame.IMyTerminalBlock, string)`](Sandbox.Game.Gui.GetAction)||
-|static [`void ApplyAction(Sandbox.ModAPI.Ingame.IMyTerminalBlock, string)`](Sandbox.Game.Gui.ApplyAction)||
-|static [`void ApplyAction(Sandbox.ModAPI.Ingame.IMyTerminalBlock, string, ListReader<Sandbox.ModAPI.Ingame.TerminalActionParameter>)`](Sandbox.Game.Gui.ApplyAction)||
+|static [`GetAction(IMyTerminalBlock, string)`](Sandbox.Game.Gui.GetAction)||
+|static [`ApplyAction(IMyTerminalBlock, string)`](Sandbox.Game.Gui.ApplyAction)||
+|static [`ApplyAction(IMyTerminalBlock, string, ListReader<TerminalActionParameter>)`](Sandbox.Game.Gui.ApplyAction)||

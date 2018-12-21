@@ -5,4 +5,4 @@
 ### Methods
 |Member|Description|
 |---|---|
-|static [`VRage.Game.MyDefinitionId GetDefinitionId(VRage.Game.ModAPI.Ingame.IMyInventoryItem)`](VRage.Game.ModAPI.Ingame.GetDefinitionId)||
+|static [`GetDefinitionId(IMyInventoryItem)`](VRage.Game.ModAPI.Ingame.GetDefinitionId)||

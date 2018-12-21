@@ -5,5 +5,5 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`VRageMath.Vector3D LinearVelocity`](Sandbox.ModAPI.Ingame.LinearVelocity)|Gets the ship's linear velocity (motion).|
-|[`VRageMath.Vector3D AngularVelocity`](Sandbox.ModAPI.Ingame.AngularVelocity)|Gets the ship's angular velocity (rotation).|
+|[`LinearVelocity`](Sandbox.ModAPI.Ingame.LinearVelocity)|Gets the ship's linear velocity (motion).|
+|[`AngularVelocity`](Sandbox.ModAPI.Ingame.AngularVelocity)|Gets the ship's angular velocity (rotation).|

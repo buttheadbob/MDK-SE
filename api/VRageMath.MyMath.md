@@ -5,28 +5,28 @@
 ### Fields
 |Member|Description|
 |---|---|
-|static [`VRageMath.Vector3 Vector3One`](VRageMath.Vector3One)||
+|static [`Vector3One`](VRageMath.Vector3One)||
 ### Methods
 |Member|Description|
 |---|---|
-|static [`void InitializeFastSin()`](VRageMath.InitializeFastSin)||
-|static [`float FastSin(float)`](VRageMath.FastSin)||
-|static [`float FastCos(float)`](VRageMath.FastCos)||
-|static [`float FastTanH(float)`](VRageMath.FastTanH)|Fast approximation of Hyperbolic tangent Max deviation is <3%|
-|static [`float NormalizeAngle(float, float)`](VRageMath.NormalizeAngle)||
-|static [`float ArcTanAngle(float, float)`](VRageMath.ArcTanAngle)|ArcTanAngle|
-|static [`VRageMath.Vector3 Abs(ref VRageMath.Vector3)`](VRageMath.Abs)||
-|static [`VRageMath.Vector3 MaxComponents(ref VRageMath.Vector3, ref VRageMath.Vector3)`](VRageMath.MaxComponents)|Return vector with each component max|
-|static [`VRageMath.Vector3 AngleTo(VRageMath.Vector3, VRageMath.Vector3)`](VRageMath.AngleTo)|AngleTo|
-|static [`float AngleBetween(VRageMath.Vector3, VRageMath.Vector3)`](VRageMath.AngleBetween)||
-|static [`float CosineDistance(ref VRageMath.Vector3, ref VRageMath.Vector3)`](VRageMath.CosineDistance)||
-|static [`double CosineDistance(ref VRageMath.Vector3D, ref VRageMath.Vector3D)`](VRageMath.CosineDistance)||
-|static [`int Mod(int, int)`](VRageMath.Mod)||
-|static [`long Mod(long, int)`](VRageMath.Mod)||
-|static [`VRageMath.Vector3 QuaternionToEuler(VRageMath.Quaternion)`](VRageMath.QuaternionToEuler)|QuaternionToEuler|
-|static [`VRageMath.Vector3 ForwardVectorProjection(VRageMath.Vector3, VRageMath.Vector3)`](VRageMath.ForwardVectorProjection)|This projection results to initial velocity of non-engine objects, which parents move in some velocity We want to add only forward speed of the parent to the forward direction of the object, and if parent is going backward, no speed is added.|
-|static [`VRageMath.BoundingBox CreateFromInsideRadius(float)`](VRageMath.CreateFromInsideRadius)||
-|static [`VRageMath.Vector3 VectorFromColor(byte, byte, byte)`](VRageMath.VectorFromColor)|Calculates color from vector|
-|static [`VRageMath.Vector4 VectorFromColor(byte, byte, byte, byte)`](VRageMath.VectorFromColor)||
-|static [`float DistanceSquaredFromLineSegment(VRageMath.Vector3, VRageMath.Vector3, VRageMath.Vector3)`](VRageMath.DistanceSquaredFromLineSegment)|Return minimum distance between line segment v-w and point p.|
-|static [`float Clamp(float, float, float)`](VRageMath.Clamp)||
+|static [`InitializeFastSin()`](VRageMath.InitializeFastSin)||
+|static [`FastSin(float)`](VRageMath.FastSin)||
+|static [`FastCos(float)`](VRageMath.FastCos)||
+|static [`FastTanH(float)`](VRageMath.FastTanH)|Fast approximation of Hyperbolic tangent Max deviation is <3%|
+|static [`NormalizeAngle(float, float)`](VRageMath.NormalizeAngle)||
+|static [`ArcTanAngle(float, float)`](VRageMath.ArcTanAngle)|ArcTanAngle|
+|static [`Abs(ref Vector3)`](VRageMath.Abs)||
+|static [`MaxComponents(ref Vector3, ref Vector3)`](VRageMath.MaxComponents)|Return vector with each component max|
+|static [`AngleTo(Vector3, Vector3)`](VRageMath.AngleTo)|AngleTo|
+|static [`AngleBetween(Vector3, Vector3)`](VRageMath.AngleBetween)||
+|static [`CosineDistance(ref Vector3, ref Vector3)`](VRageMath.CosineDistance)||
+|static [`CosineDistance(ref Vector3D, ref Vector3D)`](VRageMath.CosineDistance)||
+|static [`Mod(int, int)`](VRageMath.Mod)||
+|static [`Mod(long, int)`](VRageMath.Mod)||
+|static [`QuaternionToEuler(Quaternion)`](VRageMath.QuaternionToEuler)|QuaternionToEuler|
+|static [`ForwardVectorProjection(Vector3, Vector3)`](VRageMath.ForwardVectorProjection)|This projection results to initial velocity of non-engine objects, which parents move in some velocity We want to add only forward speed of the parent to the forward direction of the object, and if parent is going backward, no speed is added.|
+|static [`CreateFromInsideRadius(float)`](VRageMath.CreateFromInsideRadius)||
+|static [`VectorFromColor(byte, byte, byte)`](VRageMath.VectorFromColor)|Calculates color from vector|
+|static [`VectorFromColor(byte, byte, byte, byte)`](VRageMath.VectorFromColor)||
+|static [`DistanceSquaredFromLineSegment(Vector3, Vector3, Vector3)`](VRageMath.DistanceSquaredFromLineSegment)|Return minimum distance between line segment v-w and point p.|
+|static [`Clamp(float, float, float)`](VRageMath.Clamp)||

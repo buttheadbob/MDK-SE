@@ -7,24 +7,24 @@ Structure using the same layout than [System.Drawing.RectangleF](https://docs.mi
 ### Fields
 |Member|Description|
 |---|---|
-|[`VRageMath.Vector2 Position`](VRageMath.Position)|The Position.|
-|[`VRageMath.Vector2 Size`](VRageMath.Size)|The Size.|
+|[`Position`](VRageMath.Position)|The Position.|
+|[`Size`](VRageMath.Size)|The Size.|
 ### Properties
 |Member|Description|
 |---|---|
-|[`float X`](VRageMath.X)|Left coordinate.|
-|[`float Y`](VRageMath.Y)|Top coordinate.|
-|[`float Width`](VRageMath.Width)|Width of this rectangle.|
-|[`float Height`](VRageMath.Height)|Height of this rectangle.|
+|[`X`](VRageMath.X)|Left coordinate.|
+|[`Y`](VRageMath.Y)|Top coordinate.|
+|[`Width`](VRageMath.Width)|Width of this rectangle.|
+|[`Height`](VRageMath.Height)|Height of this rectangle.|
 ### Methods
 |Member|Description|
 |---|---|
-|[`bool Contains(int, int)`](VRageMath.Contains)||
-|[`bool Contains(float, float)`](VRageMath.Contains)||
-|[`bool Contains(VRageMath.Vector2)`](VRageMath.Contains)||
-|[`bool Contains(VRageMath.Point)`](VRageMath.Contains)||
-|[`bool Equals(VRageMath.RectangleF)`](VRageMath.Equals)|Determines whether the specified [System.Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6) is equal to this instance.|
-|static [`bool Intersect(ref VRageMath.RectangleF, ref VRageMath.RectangleF, ref VRageMath.RectangleF)`](VRageMath.Intersect)|Creates a Rectangle defining the area where one rectangle overlaps with another rectangle.|
-|[`bool Equals(System.Object)`](VRageMath.Equals)||
-|[`int GetHashCode()`](VRageMath.GetHashCode)||
-|[`string ToString()`](VRageMath.ToString)||
+|[`Contains(int, int)`](VRageMath.Contains)||
+|[`Contains(float, float)`](VRageMath.Contains)||
+|[`Contains(Vector2)`](VRageMath.Contains)||
+|[`Contains(Point)`](VRageMath.Contains)||
+|[`Equals(RectangleF)`](VRageMath.Equals)|Determines whether the specified [System.Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6) is equal to this instance.|
+|static [`Intersect(ref RectangleF, ref RectangleF, ref RectangleF)`](VRageMath.Intersect)|Creates a Rectangle defining the area where one rectangle overlaps with another rectangle.|
+|[`Equals(Object)`](VRageMath.Equals)||
+|[`GetHashCode()`](VRageMath.GetHashCode)||
+|[`ToString()`](VRageMath.ToString)||

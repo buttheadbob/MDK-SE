@@ -5,7 +5,7 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`short X`](VRageMath.X)||
-|[`short Y`](VRageMath.Y)||
-|[`short Z`](VRageMath.Z)||
-|[`short W`](VRageMath.W)||
+|[`X`](VRageMath.X)||
+|[`Y`](VRageMath.Y)||
+|[`Z`](VRageMath.Z)||
+|[`W`](VRageMath.W)||

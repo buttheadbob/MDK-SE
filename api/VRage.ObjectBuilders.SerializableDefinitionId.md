@@ -5,19 +5,19 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`VRage.ObjectBuilders.MyObjectBuilderType TypeId`](VRage.ObjectBuilders.TypeId)||
-|[`string SubtypeName`](VRage.ObjectBuilders.SubtypeName)||
+|[`TypeId`](VRage.ObjectBuilders.TypeId)||
+|[`SubtypeName`](VRage.ObjectBuilders.SubtypeName)||
 ### Properties
 |Member|Description|
 |---|---|
-|[`string TypeIdStringAttribute`](VRage.ObjectBuilders.TypeIdStringAttribute)||
-|[`string TypeIdString`](VRage.ObjectBuilders.TypeIdString)||
-|[`string SubtypeIdAttribute`](VRage.ObjectBuilders.SubtypeIdAttribute)||
-|[`string SubtypeId`](VRage.ObjectBuilders.SubtypeId)||
+|[`TypeIdStringAttribute`](VRage.ObjectBuilders.TypeIdStringAttribute)||
+|[`TypeIdString`](VRage.ObjectBuilders.TypeIdString)||
+|[`SubtypeIdAttribute`](VRage.ObjectBuilders.SubtypeIdAttribute)||
+|[`SubtypeId`](VRage.ObjectBuilders.SubtypeId)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`bool ShouldSerializeTypeIdString()`](VRage.ObjectBuilders.ShouldSerializeTypeIdString)||
-|[`bool ShouldSerializeSubtypeId()`](VRage.ObjectBuilders.ShouldSerializeSubtypeId)||
-|[`string ToString()`](VRage.ObjectBuilders.ToString)||
-|[`bool IsNull()`](VRage.ObjectBuilders.IsNull)||
+|[`ShouldSerializeTypeIdString()`](VRage.ObjectBuilders.ShouldSerializeTypeIdString)||
+|[`ShouldSerializeSubtypeId()`](VRage.ObjectBuilders.ShouldSerializeSubtypeId)||
+|[`ToString()`](VRage.ObjectBuilders.ToString)||
+|[`IsNull()`](VRage.ObjectBuilders.IsNull)||

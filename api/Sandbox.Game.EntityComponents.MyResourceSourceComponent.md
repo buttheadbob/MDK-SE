@@ -6,16 +6,16 @@
 ### Properties
 |Member|Description|
 |---|---|
-|[`float CurrentOutput`](Sandbox.Game.EntityComponents.CurrentOutput)||
-|[`float MaxOutput`](Sandbox.Game.EntityComponents.MaxOutput)||
-|[`float DefinedOutput`](Sandbox.Game.EntityComponents.DefinedOutput)||
-|[`bool ProductionEnabled`](Sandbox.Game.EntityComponents.ProductionEnabled)||
-|[`float RemainingCapacity`](Sandbox.Game.EntityComponents.RemainingCapacity)||
-|[`bool HasCapacityRemaining`](Sandbox.Game.EntityComponents.HasCapacityRemaining)||
+|[`CurrentOutput`](Sandbox.Game.EntityComponents.CurrentOutput)||
+|[`MaxOutput`](Sandbox.Game.EntityComponents.MaxOutput)||
+|[`DefinedOutput`](Sandbox.Game.EntityComponents.DefinedOutput)||
+|[`ProductionEnabled`](Sandbox.Game.EntityComponents.ProductionEnabled)||
+|[`RemainingCapacity`](Sandbox.Game.EntityComponents.RemainingCapacity)||
+|[`HasCapacityRemaining`](Sandbox.Game.EntityComponents.HasCapacityRemaining)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`float CurrentOutputByType(VRage.Game.MyDefinitionId)`](VRage.Game.Components.CurrentOutputByType)|Currently used power output of the producer in MW or litres/h.<br/><br/>_Inherited from [`MyResourceSourceComponentBase`](Sandbox.Game.EntityComponents.MyResourceSourceComponent)_|
-|[`float MaxOutputByType(VRage.Game.MyDefinitionId)`](VRage.Game.Components.MaxOutputByType)|Maximum power output of the producer in MW or litres/h.<br/><br/>_Inherited from [`MyResourceSourceComponentBase`](Sandbox.Game.EntityComponents.MyResourceSourceComponent)_|
-|[`float DefinedOutputByType(VRage.Game.MyDefinitionId)`](VRage.Game.Components.DefinedOutputByType)|Max resource output defined in definition in MW or litres/h.<br/><br/>_Inherited from [`MyResourceSourceComponentBase`](Sandbox.Game.EntityComponents.MyResourceSourceComponent)_|
-|[`bool ProductionEnabledByType(VRage.Game.MyDefinitionId)`](VRage.Game.Components.ProductionEnabledByType)|Resource production is enabled<br/><br/>_Inherited from [`MyResourceSourceComponentBase`](Sandbox.Game.EntityComponents.MyResourceSourceComponent)_|
+|[`CurrentOutputByType(MyDefinitionId)`](VRage.Game.Components.CurrentOutputByType)|Currently used power output of the producer in MW or litres/h.<br/><br/>_Inherited from [`MyResourceSourceComponentBase`](Sandbox.Game.EntityComponents.MyResourceSourceComponent)_|
+|[`MaxOutputByType(MyDefinitionId)`](VRage.Game.Components.MaxOutputByType)|Maximum power output of the producer in MW or litres/h.<br/><br/>_Inherited from [`MyResourceSourceComponentBase`](Sandbox.Game.EntityComponents.MyResourceSourceComponent)_|
+|[`DefinedOutputByType(MyDefinitionId)`](VRage.Game.Components.DefinedOutputByType)|Max resource output defined in definition in MW or litres/h.<br/><br/>_Inherited from [`MyResourceSourceComponentBase`](Sandbox.Game.EntityComponents.MyResourceSourceComponent)_|
+|[`ProductionEnabledByType(MyDefinitionId)`](VRage.Game.Components.ProductionEnabledByType)|Resource production is enabled<br/><br/>_Inherited from [`MyResourceSourceComponentBase`](Sandbox.Game.EntityComponents.MyResourceSourceComponent)_|

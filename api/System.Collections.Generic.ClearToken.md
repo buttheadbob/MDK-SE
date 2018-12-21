@@ -5,8 +5,8 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`List<T> List`](System.Collections.Generic.List)||
+|[`List`](System.Collections.Generic.List)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`void Dispose()`](System.Collections.Generic.Dispose)||
+|[`Dispose()`](System.Collections.Generic.Dispose)||

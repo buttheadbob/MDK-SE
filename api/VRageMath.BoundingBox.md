@@ -7,90 +7,90 @@ Defines an axis-aligned box-shaped 3D volume.
 ### Fields
 |Member|Description|
 |---|---|
-|[`VRageMath.Vector3 Min`](VRageMath.Min)|The minimum point the BoundingBox contains.|
-|[`VRageMath.Vector3 Max`](VRageMath.Max)|The maximum point the BoundingBox contains.|
-|static [`VRageMath.ComparerType Comparer`](VRageMath.Comparer)||
-|static [`int CornerCount`](VRageMath.CornerCount)|Specifies the total number of corners (8) in the BoundingBox.|
+|[`Min`](VRageMath.Min)|The minimum point the BoundingBox contains.|
+|[`Max`](VRageMath.Max)|The maximum point the BoundingBox contains.|
+|static [`Comparer`](VRageMath.Comparer)||
+|static [`CornerCount`](VRageMath.CornerCount)|Specifies the total number of corners (8) in the BoundingBox.|
 ### Properties
 |Member|Description|
 |---|---|
-|[`VRageMath.BoxCornerEnumerator Corners`](VRageMath.Corners)||
-|[`VRageMath.Vector3 Center`](VRageMath.Center)|Calculates center|
-|[`VRageMath.Vector3 HalfExtents`](VRageMath.HalfExtents)||
-|[`VRageMath.Vector3 Extents`](VRageMath.Extents)||
-|[`float Width`](VRageMath.Width)||
-|[`float Height`](VRageMath.Height)||
-|[`float Depth`](VRageMath.Depth)||
-|[`VRageMath.Vector3 Size`](VRageMath.Size)|Size|
-|[`VRageMath.Matrix Matrix`](VRageMath.Matrix)|Matrix of AABB, respection center and size|
-|[`float Perimeter`](VRageMath.Perimeter)|return perimeter of edges|
+|[`Corners`](VRageMath.Corners)||
+|[`Center`](VRageMath.Center)|Calculates center|
+|[`HalfExtents`](VRageMath.HalfExtents)||
+|[`Extents`](VRageMath.Extents)||
+|[`Width`](VRageMath.Width)||
+|[`Height`](VRageMath.Height)||
+|[`Depth`](VRageMath.Depth)||
+|[`Size`](VRageMath.Size)|Size|
+|[`Matrix`](VRageMath.Matrix)|Matrix of AABB, respection center and size|
+|[`Perimeter`](VRageMath.Perimeter)|return perimeter of edges|
 ### Methods
 |Member|Description|
 |---|---|
-|[`VRageMath.Vector3[] GetCorners()`](VRageMath.GetCorners)|Gets an array of points that make up the corners of the BoundingBox. ALLOCATION!|
-|[`void GetCorners(VRageMath.Vector3[])`](VRageMath.GetCorners)|Gets the array of points that make up the corners of the BoundingBox.|
-|[`void GetCornersUnsafe(*VRageMath.Vector3)`](VRageMath.GetCornersUnsafe)||
-|[`bool Equals(VRageMath.BoundingBox)`](VRageMath.Equals)|Determines whether two instances of BoundingBox are equal.|
-|[`bool Equals(System.Object)`](VRageMath.Equals)|Determines whether two instances of BoundingBox are equal.|
-|[`int GetHashCode()`](VRageMath.GetHashCode)|Gets the hash code for this instance.|
-|[`string ToString()`](VRageMath.ToString)|Returns a String that represents the current BoundingBox.|
-|static [`VRageMath.BoundingBox CreateMerged(VRageMath.BoundingBox, VRageMath.BoundingBox)`](VRageMath.CreateMerged)|Creates the smallest BoundingBox that contains the two specified BoundingBox instances.|
-|static [`void CreateMerged(ref VRageMath.BoundingBox, ref VRageMath.BoundingBox, ref VRageMath.BoundingBox)`](VRageMath.CreateMerged)|Creates the smallest BoundingBox that contains the two specified BoundingBox instances.|
-|static [`VRageMath.BoundingBox CreateFromSphere(VRageMath.BoundingSphere)`](VRageMath.CreateFromSphere)|Creates the smallest BoundingBox that will contain the specified BoundingSphere.|
-|static [`void CreateFromSphere(ref VRageMath.BoundingSphere, ref VRageMath.BoundingBox)`](VRageMath.CreateFromSphere)|Creates the smallest BoundingBox that will contain the specified BoundingSphere.|
-|static [`VRageMath.BoundingBox CreateFromPoints(IEnumerable<VRageMath.Vector3>)`](VRageMath.CreateFromPoints)|Creates the smallest BoundingBox that will contain a group of points.|
-|static [`VRageMath.BoundingBox CreateFromHalfExtent(VRageMath.Vector3, float)`](VRageMath.CreateFromHalfExtent)||
-|static [`VRageMath.BoundingBox CreateFromHalfExtent(VRageMath.Vector3, VRageMath.Vector3)`](VRageMath.CreateFromHalfExtent)||
-|[`VRageMath.BoundingBox Intersect(VRageMath.BoundingBox)`](VRageMath.Intersect)|Returns bounding box which is intersection of this and box It's called 'Prunik' Result is invalid box when there's no intersection (Min > Max)|
-|[`bool Intersects(VRageMath.BoundingBox)`](VRageMath.Intersects)|Checks whether the current BoundingBox intersects another BoundingBox.|
-|[`bool Intersects(ref VRageMath.BoundingBox)`](VRageMath.Intersects)||
-|[`void Intersects(ref VRageMath.BoundingBox, ref bool)`](VRageMath.Intersects)|Checks whether the current BoundingBox intersects another BoundingBox.|
-|[`bool IntersectsTriangle(VRageMath.Vector3, VRageMath.Vector3, VRageMath.Vector3)`](VRageMath.IntersectsTriangle)||
-|[`bool IntersectsTriangle(ref VRageMath.Vector3, ref VRageMath.Vector3, ref VRageMath.Vector3)`](VRageMath.IntersectsTriangle)||
-|[`bool Intersects(VRageMath.BoundingFrustum)`](VRageMath.Intersects)|Checks whether the current BoundingBox intersects a BoundingFrustum.|
-|[`VRageMath.PlaneIntersectionType Intersects(VRageMath.Plane)`](VRageMath.Intersects)|Checks whether the current BoundingBox intersects a Plane.|
-|[`void Intersects(ref VRageMath.Plane, ref VRageMath.PlaneIntersectionType)`](VRageMath.Intersects)|Checks whether the current BoundingBox intersects a Plane.|
-|[`bool Intersects(VRageMath.Line, ref float)`](VRageMath.Intersects)||
-|[`Nullable<System.Single> Intersects(VRageMath.Ray)`](VRageMath.Intersects)|Checks whether the current BoundingBox intersects a Ray.|
-|[`void Intersects(ref VRageMath.Ray, ref Nullable<System.Single>)`](VRageMath.Intersects)|Checks whether the current BoundingBox intersects a Ray.|
-|[`bool Intersects(VRageMath.BoundingSphere)`](VRageMath.Intersects)|Checks whether the current BoundingBox intersects a BoundingSphere.|
-|[`void Intersects(ref VRageMath.BoundingSphere, ref bool)`](VRageMath.Intersects)|Checks whether the current BoundingBox intersects a BoundingSphere.|
-|[`bool Intersects(ref VRageMath.BoundingSphere)`](VRageMath.Intersects)||
-|[`bool Intersects(ref VRageMath.BoundingSphereD)`](VRageMath.Intersects)||
-|[`float Distance(VRageMath.Vector3)`](VRageMath.Distance)||
-|[`float DistanceSquared(VRageMath.Vector3)`](VRageMath.DistanceSquared)||
-|[`VRageMath.ContainmentType Contains(VRageMath.BoundingBox)`](VRageMath.Contains)|Tests whether the BoundingBox contains another BoundingBox.|
-|[`void Contains(ref VRageMath.BoundingBox, ref VRageMath.ContainmentType)`](VRageMath.Contains)|Tests whether the BoundingBox contains a BoundingBox.|
-|[`VRageMath.ContainmentType Contains(VRageMath.BoundingFrustum)`](VRageMath.Contains)|Tests whether the BoundingBox contains a BoundingFrustum.|
-|[`VRageMath.ContainmentType Contains(VRageMath.Vector3)`](VRageMath.Contains)|Tests whether the BoundingBox contains a point.|
-|[`VRageMath.ContainmentType Contains(VRageMath.Vector3D)`](VRageMath.Contains)||
-|[`void Contains(ref VRageMath.Vector3, ref VRageMath.ContainmentType)`](VRageMath.Contains)|Tests whether the BoundingBox contains a point.|
-|[`VRageMath.ContainmentType Contains(VRageMath.BoundingSphere)`](VRageMath.Contains)|Tests whether the BoundingBox contains a BoundingSphere.|
-|[`void Contains(ref VRageMath.BoundingSphere, ref VRageMath.ContainmentType)`](VRageMath.Contains)|Tests whether the BoundingBox contains a BoundingSphere.|
-|[`VRageMath.BoundingBox Translate(VRageMath.Matrix)`](VRageMath.Translate)|Translate|
-|[`VRageMath.BoundingBox Translate(VRageMath.Vector3)`](VRageMath.Translate)|Translate|
-|[`VRageMath.BoundingBox Transform(VRageMath.Matrix)`](VRageMath.Transform)||
-|[`VRageMath.BoundingBoxD Transform(VRageMath.MatrixD)`](VRageMath.Transform)||
-|[`VRageMath.BoundingBox Transform(ref VRageMath.Matrix)`](VRageMath.Transform)||
-|[`void Transform(ref VRageMath.Matrix, ref VRageMath.BoundingBox)`](VRageMath.Transform)||
-|[`VRageMath.BoundingBoxD Transform(ref VRageMath.MatrixD)`](VRageMath.Transform)||
-|[`void Transform(ref VRageMath.MatrixD, ref VRageMath.BoundingBoxD)`](VRageMath.Transform)||
-|[`VRageMath.BoundingBox Include(ref VRageMath.Vector3)`](VRageMath.Include)|return expanded aabb (aabb include point)|
-|[`VRageMath.BoundingBox GetIncluded(VRageMath.Vector3)`](VRageMath.GetIncluded)||
-|[`VRageMath.BoundingBox Include(VRageMath.Vector3)`](VRageMath.Include)||
-|[`VRageMath.BoundingBox Include(VRageMath.Vector3, VRageMath.Vector3, VRageMath.Vector3)`](VRageMath.Include)||
-|[`VRageMath.BoundingBox Include(ref VRageMath.Vector3, ref VRageMath.Vector3, ref VRageMath.Vector3)`](VRageMath.Include)||
-|[`VRageMath.BoundingBox Include(ref VRageMath.BoundingBox)`](VRageMath.Include)|return expanded aabb (aabb include aabb)|
-|[`VRageMath.BoundingBox Include(VRageMath.BoundingBox)`](VRageMath.Include)||
-|[`void Include(ref VRageMath.Line)`](VRageMath.Include)||
-|[`VRageMath.BoundingBox Include(VRageMath.BoundingSphere)`](VRageMath.Include)||
-|[`VRageMath.BoundingBox Include(ref VRageMath.BoundingSphere)`](VRageMath.Include)||
-|[`VRageMath.BoundingBox Include(ref VRageMath.BoundingFrustum)`](VRageMath.Include)||
-|static [`VRageMath.BoundingBox CreateInvalid()`](VRageMath.CreateInvalid)||
-|[`float SurfaceArea()`](VRageMath.SurfaceArea)||
-|[`float Volume()`](VRageMath.Volume)||
-|[`float ProjectedArea(VRageMath.Vector3)`](VRageMath.ProjectedArea)||
-|[`void Inflate(float)`](VRageMath.Inflate)||
-|[`void Inflate(VRageMath.Vector3)`](VRageMath.Inflate)||
-|[`void InflateToMinimum(VRageMath.Vector3)`](VRageMath.InflateToMinimum)||
-|[`void Scale(VRageMath.Vector3)`](VRageMath.Scale)||
+|[`GetCorners()`](VRageMath.GetCorners)|Gets an array of points that make up the corners of the BoundingBox. ALLOCATION!|
+|[`GetCorners(Vector3[])`](VRageMath.GetCorners)|Gets the array of points that make up the corners of the BoundingBox.|
+|[`GetCornersUnsafe(*Vector3)`](VRageMath.GetCornersUnsafe)||
+|[`Equals(BoundingBox)`](VRageMath.Equals)|Determines whether two instances of BoundingBox are equal.|
+|[`Equals(Object)`](VRageMath.Equals)|Determines whether two instances of BoundingBox are equal.|
+|[`GetHashCode()`](VRageMath.GetHashCode)|Gets the hash code for this instance.|
+|[`ToString()`](VRageMath.ToString)|Returns a String that represents the current BoundingBox.|
+|static [`CreateMerged(BoundingBox, BoundingBox)`](VRageMath.CreateMerged)|Creates the smallest BoundingBox that contains the two specified BoundingBox instances.|
+|static [`CreateMerged(ref BoundingBox, ref BoundingBox, ref BoundingBox)`](VRageMath.CreateMerged)|Creates the smallest BoundingBox that contains the two specified BoundingBox instances.|
+|static [`CreateFromSphere(BoundingSphere)`](VRageMath.CreateFromSphere)|Creates the smallest BoundingBox that will contain the specified BoundingSphere.|
+|static [`CreateFromSphere(ref BoundingSphere, ref BoundingBox)`](VRageMath.CreateFromSphere)|Creates the smallest BoundingBox that will contain the specified BoundingSphere.|
+|static [`CreateFromPoints(IEnumerable<Vector3>)`](VRageMath.CreateFromPoints)|Creates the smallest BoundingBox that will contain a group of points.|
+|static [`CreateFromHalfExtent(Vector3, float)`](VRageMath.CreateFromHalfExtent)||
+|static [`CreateFromHalfExtent(Vector3, Vector3)`](VRageMath.CreateFromHalfExtent)||
+|[`Intersect(BoundingBox)`](VRageMath.Intersect)|Returns bounding box which is intersection of this and box It's called 'Prunik' Result is invalid box when there's no intersection (Min > Max)|
+|[`Intersects(BoundingBox)`](VRageMath.Intersects)|Checks whether the current BoundingBox intersects another BoundingBox.|
+|[`Intersects(ref BoundingBox)`](VRageMath.Intersects)||
+|[`Intersects(ref BoundingBox, ref bool)`](VRageMath.Intersects)|Checks whether the current BoundingBox intersects another BoundingBox.|
+|[`IntersectsTriangle(Vector3, Vector3, Vector3)`](VRageMath.IntersectsTriangle)||
+|[`IntersectsTriangle(ref Vector3, ref Vector3, ref Vector3)`](VRageMath.IntersectsTriangle)||
+|[`Intersects(BoundingFrustum)`](VRageMath.Intersects)|Checks whether the current BoundingBox intersects a BoundingFrustum.|
+|[`Intersects(Plane)`](VRageMath.Intersects)|Checks whether the current BoundingBox intersects a Plane.|
+|[`Intersects(ref Plane, ref PlaneIntersectionType)`](VRageMath.Intersects)|Checks whether the current BoundingBox intersects a Plane.|
+|[`Intersects(Line, ref float)`](VRageMath.Intersects)||
+|[`Intersects(Ray)`](VRageMath.Intersects)|Checks whether the current BoundingBox intersects a Ray.|
+|[`Intersects(ref Ray, ref Nullable<float>)`](VRageMath.Intersects)|Checks whether the current BoundingBox intersects a Ray.|
+|[`Intersects(BoundingSphere)`](VRageMath.Intersects)|Checks whether the current BoundingBox intersects a BoundingSphere.|
+|[`Intersects(ref BoundingSphere, ref bool)`](VRageMath.Intersects)|Checks whether the current BoundingBox intersects a BoundingSphere.|
+|[`Intersects(ref BoundingSphere)`](VRageMath.Intersects)||
+|[`Intersects(ref BoundingSphereD)`](VRageMath.Intersects)||
+|[`Distance(Vector3)`](VRageMath.Distance)||
+|[`DistanceSquared(Vector3)`](VRageMath.DistanceSquared)||
+|[`Contains(BoundingBox)`](VRageMath.Contains)|Tests whether the BoundingBox contains another BoundingBox.|
+|[`Contains(ref BoundingBox, ref ContainmentType)`](VRageMath.Contains)|Tests whether the BoundingBox contains a BoundingBox.|
+|[`Contains(BoundingFrustum)`](VRageMath.Contains)|Tests whether the BoundingBox contains a BoundingFrustum.|
+|[`Contains(Vector3)`](VRageMath.Contains)|Tests whether the BoundingBox contains a point.|
+|[`Contains(Vector3D)`](VRageMath.Contains)||
+|[`Contains(ref Vector3, ref ContainmentType)`](VRageMath.Contains)|Tests whether the BoundingBox contains a point.|
+|[`Contains(BoundingSphere)`](VRageMath.Contains)|Tests whether the BoundingBox contains a BoundingSphere.|
+|[`Contains(ref BoundingSphere, ref ContainmentType)`](VRageMath.Contains)|Tests whether the BoundingBox contains a BoundingSphere.|
+|[`Translate(Matrix)`](VRageMath.Translate)|Translate|
+|[`Translate(Vector3)`](VRageMath.Translate)|Translate|
+|[`Transform(Matrix)`](VRageMath.Transform)||
+|[`Transform(MatrixD)`](VRageMath.Transform)||
+|[`Transform(ref Matrix)`](VRageMath.Transform)||
+|[`Transform(ref Matrix, ref BoundingBox)`](VRageMath.Transform)||
+|[`Transform(ref MatrixD)`](VRageMath.Transform)||
+|[`Transform(ref MatrixD, ref BoundingBoxD)`](VRageMath.Transform)||
+|[`Include(ref Vector3)`](VRageMath.Include)|return expanded aabb (aabb include point)|
+|[`GetIncluded(Vector3)`](VRageMath.GetIncluded)||
+|[`Include(Vector3)`](VRageMath.Include)||
+|[`Include(Vector3, Vector3, Vector3)`](VRageMath.Include)||
+|[`Include(ref Vector3, ref Vector3, ref Vector3)`](VRageMath.Include)||
+|[`Include(ref BoundingBox)`](VRageMath.Include)|return expanded aabb (aabb include aabb)|
+|[`Include(BoundingBox)`](VRageMath.Include)||
+|[`Include(ref Line)`](VRageMath.Include)||
+|[`Include(BoundingSphere)`](VRageMath.Include)||
+|[`Include(ref BoundingSphere)`](VRageMath.Include)||
+|[`Include(ref BoundingFrustum)`](VRageMath.Include)||
+|static [`CreateInvalid()`](VRageMath.CreateInvalid)||
+|[`SurfaceArea()`](VRageMath.SurfaceArea)||
+|[`Volume()`](VRageMath.Volume)||
+|[`ProjectedArea(Vector3)`](VRageMath.ProjectedArea)||
+|[`Inflate(float)`](VRageMath.Inflate)||
+|[`Inflate(Vector3)`](VRageMath.Inflate)||
+|[`InflateToMinimum(Vector3)`](VRageMath.InflateToMinimum)||
+|[`Scale(Vector3)`](VRageMath.Scale)||

@@ -5,18 +5,18 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`byte X`](VRageMath.X)||
-|[`byte Y`](VRageMath.Y)||
-|[`byte Z`](VRageMath.Z)||
-|[`byte W`](VRageMath.W)||
+|[`X`](VRageMath.X)||
+|[`Y`](VRageMath.Y)||
+|[`Z`](VRageMath.Z)||
+|[`W`](VRageMath.W)||
 ### Properties
 |Member|Description|
 |---|---|
-|[`byte Item`](VRageMath.Item)||
+|[`Item`](VRageMath.Item)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`string ToString()`](VRageMath.ToString)||
-|static [`VRageMath.Vector4UByte Round(VRageMath.Vector3)`](VRageMath.Round)||
-|static [`VRageMath.Vector4UByte Round(VRageMath.Vector4)`](VRageMath.Round)||
-|static [`VRageMath.Vector4UByte Normalize(VRageMath.Vector3, float)`](VRageMath.Normalize)|Normalizes Vector3 into Vector4UByte, scales vector from (-range, range) to (0, 255)|
+|[`ToString()`](VRageMath.ToString)||
+|static [`Round(Vector3)`](VRageMath.Round)||
+|static [`Round(Vector4)`](VRageMath.Round)||
+|static [`Normalize(Vector3, float)`](VRageMath.Normalize)|Normalizes Vector3 into Vector4UByte, scales vector from (-range, range) to (0, 255)|

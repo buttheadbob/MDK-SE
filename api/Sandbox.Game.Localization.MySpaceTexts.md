@@ -5,2943 +5,2943 @@
 ### Fields
 |Member|Description|
 |---|---|
-|static [`VRage.Utils.MyStringId Blank`](Sandbox.Game.Localization.Blank)||
-|static [`VRage.Utils.MyStringId Add`](Sandbox.Game.Localization.Add)||
-|static [`VRage.Utils.MyStringId AddAll`](Sandbox.Game.Localization.AddAll)||
-|static [`VRage.Utils.MyStringId AddNpcToFaction`](Sandbox.Game.Localization.AddNpcToFaction)||
-|static [`VRage.Utils.MyStringId AddNpcToFactionHelp`](Sandbox.Game.Localization.AddNpcToFactionHelp)||
-|static [`VRage.Utils.MyStringId AdminMenuNotAvailable`](Sandbox.Game.Localization.AdminMenuNotAvailable)||
-|static [`VRage.Utils.MyStringId Afterburner`](Sandbox.Game.Localization.Afterburner)||
-|static [`VRage.Utils.MyStringId AGravity`](Sandbox.Game.Localization.AGravity)||
-|static [`VRage.Utils.MyStringId Align_Center`](Sandbox.Game.Localization.Align_Center)||
-|static [`VRage.Utils.MyStringId Align_Left`](Sandbox.Game.Localization.Align_Left)||
-|static [`VRage.Utils.MyStringId Align_Right`](Sandbox.Game.Localization.Align_Right)||
-|static [`VRage.Utils.MyStringId AngleGrinderPrimaryAction`](Sandbox.Game.Localization.AngleGrinderPrimaryAction)||
-|static [`VRage.Utils.MyStringId AnonymousActivityTracking_Caption`](Sandbox.Game.Localization.AnonymousActivityTracking_Caption)||
-|static [`VRage.Utils.MyStringId AnonymousActivityTracking_PrivacyPolicy`](Sandbox.Game.Localization.AnonymousActivityTracking_PrivacyPolicy)||
-|static [`VRage.Utils.MyStringId AnonymousActivityTracking_Text1`](Sandbox.Game.Localization.AnonymousActivityTracking_Text1)||
-|static [`VRage.Utils.MyStringId AnonymousActivityTracking_Text2`](Sandbox.Game.Localization.AnonymousActivityTracking_Text2)||
-|static [`VRage.Utils.MyStringId Antenna_EnableBroadcast`](Sandbox.Game.Localization.Antenna_EnableBroadcast)||
-|static [`VRage.Utils.MyStringId Antenna_IgnoreAlliedBroadcast`](Sandbox.Game.Localization.Antenna_IgnoreAlliedBroadcast)||
-|static [`VRage.Utils.MyStringId Antenna_IgnoreAlliedBroadcastTooltip`](Sandbox.Game.Localization.Antenna_IgnoreAlliedBroadcastTooltip)||
-|static [`VRage.Utils.MyStringId Antenna_IgnoreOtherBroadcast`](Sandbox.Game.Localization.Antenna_IgnoreOtherBroadcast)||
-|static [`VRage.Utils.MyStringId Antenna_IgnoreOtherBroadcastTooltip`](Sandbox.Game.Localization.Antenna_IgnoreOtherBroadcastTooltip)||
-|static [`VRage.Utils.MyStringId AssemblerState_Disabled`](Sandbox.Game.Localization.AssemblerState_Disabled)||
-|static [`VRage.Utils.MyStringId AssemblerState_InventoryFull`](Sandbox.Game.Localization.AssemblerState_InventoryFull)||
-|static [`VRage.Utils.MyStringId AssemblerState_MissingItems`](Sandbox.Game.Localization.AssemblerState_MissingItems)||
-|static [`VRage.Utils.MyStringId AssemblerState_NotEnoughPower`](Sandbox.Game.Localization.AssemblerState_NotEnoughPower)||
-|static [`VRage.Utils.MyStringId AssemblerState_NothingBeingProduced`](Sandbox.Game.Localization.AssemblerState_NothingBeingProduced)||
-|static [`VRage.Utils.MyStringId AssemblerState_NotWorking`](Sandbox.Game.Localization.AssemblerState_NotWorking)||
-|static [`VRage.Utils.MyStringId Assembler_SlaveMode`](Sandbox.Game.Localization.Assembler_SlaveMode)||
-|static [`VRage.Utils.MyStringId Asteroids`](Sandbox.Game.Localization.Asteroids)||
-|static [`VRage.Utils.MyStringId Asteroid_Amount`](Sandbox.Game.Localization.Asteroid_Amount)||
-|static [`VRage.Utils.MyStringId AttachToSelectedEntity`](Sandbox.Game.Localization.AttachToSelectedEntity)||
-|static [`VRage.Utils.MyStringId AUTO`](Sandbox.Game.Localization.AUTO)||
-|static [`VRage.Utils.MyStringId BatteryBlock`](Sandbox.Game.Localization.BatteryBlock)||
-|static [`VRage.Utils.MyStringId BiggestDistanceFromPlayers`](Sandbox.Game.Localization.BiggestDistanceFromPlayers)||
-|static [`VRage.Utils.MyStringId BiggestGrids`](Sandbox.Game.Localization.BiggestGrids)||
-|static [`VRage.Utils.MyStringId BlindJump`](Sandbox.Game.Localization.BlindJump)||
-|static [`VRage.Utils.MyStringId BlockActionTitle_AddPistonHead`](Sandbox.Game.Localization.BlockActionTitle_AddPistonHead)||
-|static [`VRage.Utils.MyStringId BlockActionTitle_AddRotorHead`](Sandbox.Game.Localization.BlockActionTitle_AddRotorHead)||
-|static [`VRage.Utils.MyStringId BlockActionTitle_AddSmallRotorHead`](Sandbox.Game.Localization.BlockActionTitle_AddSmallRotorHead)||
-|static [`VRage.Utils.MyStringId BlockActionTitle_AddWaypoint`](Sandbox.Game.Localization.BlockActionTitle_AddWaypoint)||
-|static [`VRage.Utils.MyStringId BlockActionTitle_AddWheel`](Sandbox.Game.Localization.BlockActionTitle_AddWheel)||
-|static [`VRage.Utils.MyStringId BlockActionTitle_Attach`](Sandbox.Game.Localization.BlockActionTitle_Attach)||
-|static [`VRage.Utils.MyStringId BlockActionTitle_Detach`](Sandbox.Game.Localization.BlockActionTitle_Detach)||
-|static [`VRage.Utils.MyStringId BlockActionTitle_Extend`](Sandbox.Game.Localization.BlockActionTitle_Extend)||
-|static [`VRage.Utils.MyStringId BlockActionTitle_Jump`](Sandbox.Game.Localization.BlockActionTitle_Jump)||
-|static [`VRage.Utils.MyStringId BlockActionTitle_Lock`](Sandbox.Game.Localization.BlockActionTitle_Lock)||
-|static [`VRage.Utils.MyStringId BlockActionTitle_MoveWaypointDown`](Sandbox.Game.Localization.BlockActionTitle_MoveWaypointDown)||
-|static [`VRage.Utils.MyStringId BlockActionTitle_MoveWaypointUp`](Sandbox.Game.Localization.BlockActionTitle_MoveWaypointUp)||
-|static [`VRage.Utils.MyStringId BlockActionTitle_RemoteCopy`](Sandbox.Game.Localization.BlockActionTitle_RemoteCopy)||
-|static [`VRage.Utils.MyStringId BlockActionTitle_RemotePaste`](Sandbox.Game.Localization.BlockActionTitle_RemotePaste)||
-|static [`VRage.Utils.MyStringId BlockActionTitle_RemoveWaypoint`](Sandbox.Game.Localization.BlockActionTitle_RemoveWaypoint)||
-|static [`VRage.Utils.MyStringId BlockActionTitle_Retract`](Sandbox.Game.Localization.BlockActionTitle_Retract)||
-|static [`VRage.Utils.MyStringId BlockActionTitle_Reverse`](Sandbox.Game.Localization.BlockActionTitle_Reverse)||
-|static [`VRage.Utils.MyStringId BlockActionTitle_SwitchLock`](Sandbox.Game.Localization.BlockActionTitle_SwitchLock)||
-|static [`VRage.Utils.MyStringId BlockActionTitle_Unlock`](Sandbox.Game.Localization.BlockActionTitle_Unlock)||
-|static [`VRage.Utils.MyStringId BlockActionTitle_View`](Sandbox.Game.Localization.BlockActionTitle_View)||
-|static [`VRage.Utils.MyStringId BlockActionTitle_WaypointReset`](Sandbox.Game.Localization.BlockActionTitle_WaypointReset)||
-|static [`VRage.Utils.MyStringId BlockActionTooltip_AddPistonHead`](Sandbox.Game.Localization.BlockActionTooltip_AddPistonHead)||
-|static [`VRage.Utils.MyStringId BlockActionTooltip_AddRotorHead`](Sandbox.Game.Localization.BlockActionTooltip_AddRotorHead)||
-|static [`VRage.Utils.MyStringId BlockActionTooltip_AddSmallRotorHead`](Sandbox.Game.Localization.BlockActionTooltip_AddSmallRotorHead)||
-|static [`VRage.Utils.MyStringId BlockActionTooltip_AddWheel`](Sandbox.Game.Localization.BlockActionTooltip_AddWheel)||
-|static [`VRage.Utils.MyStringId BlockActionTooltip_SelectedJumpTarget`](Sandbox.Game.Localization.BlockActionTooltip_SelectedJumpTarget)||
-|static [`VRage.Utils.MyStringId BlockActionTooltip_WaypointReset`](Sandbox.Game.Localization.BlockActionTooltip_WaypointReset)||
-|static [`VRage.Utils.MyStringId BlockAction_ConveyorSorterBlacklist`](Sandbox.Game.Localization.BlockAction_ConveyorSorterBlacklist)||
-|static [`VRage.Utils.MyStringId BlockAction_ConveyorSorterWhitelist`](Sandbox.Game.Localization.BlockAction_ConveyorSorterWhitelist)||
-|static [`VRage.Utils.MyStringId BlockAction_DoorClosed`](Sandbox.Game.Localization.BlockAction_DoorClosed)||
-|static [`VRage.Utils.MyStringId BlockAction_DoorOpen`](Sandbox.Game.Localization.BlockAction_DoorOpen)||
-|static [`VRage.Utils.MyStringId BlockAction_RemoveFromToolbar`](Sandbox.Game.Localization.BlockAction_RemoveFromToolbar)||
-|static [`VRage.Utils.MyStringId BlockAction_Switch`](Sandbox.Game.Localization.BlockAction_Switch)||
-|static [`VRage.Utils.MyStringId BlockAction_Toggle`](Sandbox.Game.Localization.BlockAction_Toggle)||
-|static [`VRage.Utils.MyStringId BlockComboBoxValue_TextPanelAccessOnlyOwner`](Sandbox.Game.Localization.BlockComboBoxValue_TextPanelAccessOnlyOwner)||
-|static [`VRage.Utils.MyStringId BlockComboBoxValue_TextPanelAccessReadAll`](Sandbox.Game.Localization.BlockComboBoxValue_TextPanelAccessReadAll)||
-|static [`VRage.Utils.MyStringId BlockComboBoxValue_TextPanelAccessReadFaction`](Sandbox.Game.Localization.BlockComboBoxValue_TextPanelAccessReadFaction)||
-|static [`VRage.Utils.MyStringId BlockComboBoxValue_TextPanelAccessReadWriteAll`](Sandbox.Game.Localization.BlockComboBoxValue_TextPanelAccessReadWriteAll)||
-|static [`VRage.Utils.MyStringId BlockComboBoxValue_TextPanelAccessReadWriteFaction`](Sandbox.Game.Localization.BlockComboBoxValue_TextPanelAccessReadWriteFaction)||
-|static [`VRage.Utils.MyStringId BlockComboBoxValue_TextPanelShowTextNone`](Sandbox.Game.Localization.BlockComboBoxValue_TextPanelShowTextNone)||
-|static [`VRage.Utils.MyStringId BlockComboBoxValue_TextPanelShowTextPrivate`](Sandbox.Game.Localization.BlockComboBoxValue_TextPanelShowTextPrivate)||
-|static [`VRage.Utils.MyStringId BlockComboBoxValue_TextPanelShowTextPublic`](Sandbox.Game.Localization.BlockComboBoxValue_TextPanelShowTextPublic)||
-|static [`VRage.Utils.MyStringId BlockCount`](Sandbox.Game.Localization.BlockCount)||
-|static [`VRage.Utils.MyStringId BlockIsNotPowered`](Sandbox.Game.Localization.BlockIsNotPowered)||
-|static [`VRage.Utils.MyStringId BlockOwner_Me`](Sandbox.Game.Localization.BlockOwner_Me)||
-|static [`VRage.Utils.MyStringId BlockOwner_Nobody`](Sandbox.Game.Localization.BlockOwner_Nobody)||
-|static [`VRage.Utils.MyStringId BlockOwner_Owner`](Sandbox.Game.Localization.BlockOwner_Owner)||
-|static [`VRage.Utils.MyStringId BlockOwner_ShareAll`](Sandbox.Game.Localization.BlockOwner_ShareAll)||
-|static [`VRage.Utils.MyStringId BlockOwner_ShareFaction`](Sandbox.Game.Localization.BlockOwner_ShareFaction)||
-|static [`VRage.Utils.MyStringId BlockOwner_ShareNone`](Sandbox.Game.Localization.BlockOwner_ShareNone)||
-|static [`VRage.Utils.MyStringId BlockOwner_Transfer`](Sandbox.Game.Localization.BlockOwner_Transfer)||
-|static [`VRage.Utils.MyStringId BlockOwner_TransferTo`](Sandbox.Game.Localization.BlockOwner_TransferTo)||
-|static [`VRage.Utils.MyStringId BlockOwner_Unknown`](Sandbox.Game.Localization.BlockOwner_Unknown)||
-|static [`VRage.Utils.MyStringId BlockPropertiesText_CurrentJump`](Sandbox.Game.Localization.BlockPropertiesText_CurrentJump)||
-|static [`VRage.Utils.MyStringId BlockPropertiesText_DepletedIn`](Sandbox.Game.Localization.BlockPropertiesText_DepletedIn)||
-|static [`VRage.Utils.MyStringId BlockPropertiesText_Effectiveness`](Sandbox.Game.Localization.BlockPropertiesText_Effectiveness)||
-|static [`VRage.Utils.MyStringId BlockPropertiesText_Efficiency`](Sandbox.Game.Localization.BlockPropertiesText_Efficiency)||
-|static [`VRage.Utils.MyStringId BlockPropertiesText_HeadAttachingAny`](Sandbox.Game.Localization.BlockPropertiesText_HeadAttachingAny)||
-|static [`VRage.Utils.MyStringId BlockPropertiesText_HeadAttachingSpecific`](Sandbox.Game.Localization.BlockPropertiesText_HeadAttachingSpecific)||
-|static [`VRage.Utils.MyStringId BlockPropertiesText_LockState`](Sandbox.Game.Localization.BlockPropertiesText_LockState)||
-|static [`VRage.Utils.MyStringId BlockPropertiesText_LoopTimer`](Sandbox.Game.Localization.BlockPropertiesText_LoopTimer)||
-|static [`VRage.Utils.MyStringId BlockPropertiesText_MainCockpit`](Sandbox.Game.Localization.BlockPropertiesText_MainCockpit)||
-|static [`VRage.Utils.MyStringId BlockPropertiesText_MaxJump`](Sandbox.Game.Localization.BlockPropertiesText_MaxJump)||
-|static [`VRage.Utils.MyStringId BlockPropertiesText_MaxOutput`](Sandbox.Game.Localization.BlockPropertiesText_MaxOutput)||
-|static [`VRage.Utils.MyStringId BlockPropertiesText_MaxRequiredInput`](Sandbox.Game.Localization.BlockPropertiesText_MaxRequiredInput)||
-|static [`VRage.Utils.MyStringId BlockPropertiesText_MaxStoredPower`](Sandbox.Game.Localization.BlockPropertiesText_MaxStoredPower)||
-|static [`VRage.Utils.MyStringId BlockPropertiesText_MotoLockOverrideDisabled`](Sandbox.Game.Localization.BlockPropertiesText_MotoLockOverrideDisabled)||
-|static [`VRage.Utils.MyStringId BlockPropertiesText_MotorAttached`](Sandbox.Game.Localization.BlockPropertiesText_MotorAttached)||
-|static [`VRage.Utils.MyStringId BlockPropertiesText_MotorAttachingAny`](Sandbox.Game.Localization.BlockPropertiesText_MotorAttachingAny)||
-|static [`VRage.Utils.MyStringId BlockPropertiesText_MotorAttachingSpecific`](Sandbox.Game.Localization.BlockPropertiesText_MotorAttachingSpecific)||
-|static [`VRage.Utils.MyStringId BlockPropertiesText_MotorCurrentAngle`](Sandbox.Game.Localization.BlockPropertiesText_MotorCurrentAngle)||
-|static [`VRage.Utils.MyStringId BlockPropertiesText_MotorDetached`](Sandbox.Game.Localization.BlockPropertiesText_MotorDetached)||
-|static [`VRage.Utils.MyStringId BlockPropertiesText_MotorLimitsDisabled`](Sandbox.Game.Localization.BlockPropertiesText_MotorLimitsDisabled)||
-|static [`VRage.Utils.MyStringId BlockPropertiesText_MotorLocked`](Sandbox.Game.Localization.BlockPropertiesText_MotorLocked)||
-|static [`VRage.Utils.MyStringId BlockPropertiesText_OxygenOutput`](Sandbox.Game.Localization.BlockPropertiesText_OxygenOutput)||
-|static [`VRage.Utils.MyStringId BlockPropertiesText_PistonCurrentPosition`](Sandbox.Game.Localization.BlockPropertiesText_PistonCurrentPosition)||
-|static [`VRage.Utils.MyStringId BlockPropertiesText_Productivity`](Sandbox.Game.Localization.BlockPropertiesText_Productivity)||
-|static [`VRage.Utils.MyStringId BlockPropertiesText_RechargedIn`](Sandbox.Game.Localization.BlockPropertiesText_RechargedIn)||
-|static [`VRage.Utils.MyStringId BlockPropertiesText_RequiredInput`](Sandbox.Game.Localization.BlockPropertiesText_RequiredInput)||
-|static [`VRage.Utils.MyStringId BlockPropertiesText_StoredPower`](Sandbox.Game.Localization.BlockPropertiesText_StoredPower)||
-|static [`VRage.Utils.MyStringId BlockPropertiesTooltip_Projector_GetOwnership`](Sandbox.Game.Localization.BlockPropertiesTooltip_Projector_GetOwnership)||
-|static [`VRage.Utils.MyStringId BlockPropertyButtonOff_Retract`](Sandbox.Game.Localization.BlockPropertyButtonOff_Retract)||
-|static [`VRage.Utils.MyStringId BlockPropertyButtonOn_Expand`](Sandbox.Game.Localization.BlockPropertyButtonOn_Expand)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_AnyoneCanUse`](Sandbox.Game.Localization.BlockPropertyDescription_AnyoneCanUse)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_BreakForce`](Sandbox.Game.Localization.BlockPropertyDescription_BreakForce)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_BroadcastRadius`](Sandbox.Game.Localization.BlockPropertyDescription_BroadcastRadius)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_BroadcastUsingAntennas`](Sandbox.Game.Localization.BlockPropertyDescription_BroadcastUsingAntennas)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_Connector_Strength`](Sandbox.Game.Localization.BlockPropertyDescription_Connector_Strength)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_Depressurize`](Sandbox.Game.Localization.BlockPropertyDescription_Depressurize)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_GravityAcceleration`](Sandbox.Game.Localization.BlockPropertyDescription_GravityAcceleration)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_GravityFieldDepth`](Sandbox.Game.Localization.BlockPropertyDescription_GravityFieldDepth)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_GravityFieldHeight`](Sandbox.Game.Localization.BlockPropertyDescription_GravityFieldHeight)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_GravityFieldRadius`](Sandbox.Game.Localization.BlockPropertyDescription_GravityFieldRadius)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_GravityFieldWidth`](Sandbox.Game.Localization.BlockPropertyDescription_GravityFieldWidth)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_GyroOverride`](Sandbox.Game.Localization.BlockPropertyDescription_GyroOverride)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_GyroPitchOverride`](Sandbox.Game.Localization.BlockPropertyDescription_GyroPitchOverride)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_GyroPower`](Sandbox.Game.Localization.BlockPropertyDescription_GyroPower)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_GyroRollOverride`](Sandbox.Game.Localization.BlockPropertyDescription_GyroRollOverride)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_GyroYawOverride`](Sandbox.Game.Localization.BlockPropertyDescription_GyroYawOverride)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_LaserRange`](Sandbox.Game.Localization.BlockPropertyDescription_LaserRange)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_LightBlinkInterval`](Sandbox.Game.Localization.BlockPropertyDescription_LightBlinkInterval)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_LightBlinkLenght`](Sandbox.Game.Localization.BlockPropertyDescription_LightBlinkLenght)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_LightBlinkOffset`](Sandbox.Game.Localization.BlockPropertyDescription_LightBlinkOffset)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_LightColor`](Sandbox.Game.Localization.BlockPropertyDescription_LightColor)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_LightFalloff`](Sandbox.Game.Localization.BlockPropertyDescription_LightFalloff)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_LightIntensity`](Sandbox.Game.Localization.BlockPropertyDescription_LightIntensity)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_LightOffset`](Sandbox.Game.Localization.BlockPropertyDescription_LightOffset)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_LightRadius`](Sandbox.Game.Localization.BlockPropertyDescription_LightRadius)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_LightReflectorRadius`](Sandbox.Game.Localization.BlockPropertyDescription_LightReflectorRadius)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_MotorBrakingTorque`](Sandbox.Game.Localization.BlockPropertyDescription_MotorBrakingTorque)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_MotorLock`](Sandbox.Game.Localization.BlockPropertyDescription_MotorLock)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_MotorLowerLimit`](Sandbox.Game.Localization.BlockPropertyDescription_MotorLowerLimit)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_MotorRotorDisplacement`](Sandbox.Game.Localization.BlockPropertyDescription_MotorRotorDisplacement)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_MotorTorque`](Sandbox.Game.Localization.BlockPropertyDescription_MotorTorque)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_MotorUpperLimit`](Sandbox.Game.Localization.BlockPropertyDescription_MotorUpperLimit)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_MotorUsesWheelCommands`](Sandbox.Game.Localization.BlockPropertyDescription_MotorUsesWheelCommands)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_MotorVelocity`](Sandbox.Game.Localization.BlockPropertyDescription_MotorVelocity)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_Motor_Friction`](Sandbox.Game.Localization.BlockPropertyDescription_Motor_Friction)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_Motor_Height`](Sandbox.Game.Localization.BlockPropertyDescription_Motor_Height)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_Motor_InvertPropulsion`](Sandbox.Game.Localization.BlockPropertyDescription_Motor_InvertPropulsion)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_Motor_InvertSteer`](Sandbox.Game.Localization.BlockPropertyDescription_Motor_InvertSteer)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_Motor_MaxSteerAngle`](Sandbox.Game.Localization.BlockPropertyDescription_Motor_MaxSteerAngle)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_Motor_Power`](Sandbox.Game.Localization.BlockPropertyDescription_Motor_Power)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_Motor_Propulsion`](Sandbox.Game.Localization.BlockPropertyDescription_Motor_Propulsion)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_Motor_PropulsionOverride`](Sandbox.Game.Localization.BlockPropertyDescription_Motor_PropulsionOverride)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_Motor_Steering`](Sandbox.Game.Localization.BlockPropertyDescription_Motor_Steering)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_Motor_SteerOverride`](Sandbox.Game.Localization.BlockPropertyDescription_Motor_SteerOverride)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_Motor_SteerReturnSpeed`](Sandbox.Game.Localization.BlockPropertyDescription_Motor_SteerReturnSpeed)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_Motor_SteerSpeed`](Sandbox.Game.Localization.BlockPropertyDescription_Motor_SteerSpeed)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_Motor_SuspensionSpeed`](Sandbox.Game.Localization.BlockPropertyDescription_Motor_SuspensionSpeed)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_Motor_SuspensionTravel`](Sandbox.Game.Localization.BlockPropertyDescription_Motor_SuspensionTravel)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_OreDetectorRange`](Sandbox.Game.Localization.BlockPropertyDescription_OreDetectorRange)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_SensorFieldBack`](Sandbox.Game.Localization.BlockPropertyDescription_SensorFieldBack)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_SensorFieldBottom`](Sandbox.Game.Localization.BlockPropertyDescription_SensorFieldBottom)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_SensorFieldFront`](Sandbox.Game.Localization.BlockPropertyDescription_SensorFieldFront)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_SensorFieldLeft`](Sandbox.Game.Localization.BlockPropertyDescription_SensorFieldLeft)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_SensorFieldRight`](Sandbox.Game.Localization.BlockPropertyDescription_SensorFieldRight)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_SensorFieldTop`](Sandbox.Game.Localization.BlockPropertyDescription_SensorFieldTop)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_SensorToolbarOpen`](Sandbox.Game.Localization.BlockPropertyDescription_SensorToolbarOpen)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_ShowShipName`](Sandbox.Game.Localization.BlockPropertyDescription_ShowShipName)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_SoundBlockRange`](Sandbox.Game.Localization.BlockPropertyDescription_SoundBlockRange)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_SoundBlockVolume`](Sandbox.Game.Localization.BlockPropertyDescription_SoundBlockVolume)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_SpaceBallFriction`](Sandbox.Game.Localization.BlockPropertyDescription_SpaceBallFriction)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_SpaceBallRestitution`](Sandbox.Game.Localization.BlockPropertyDescription_SpaceBallRestitution)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_SpaceBallVirtualMass`](Sandbox.Game.Localization.BlockPropertyDescription_SpaceBallVirtualMass)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_Stockpile`](Sandbox.Game.Localization.BlockPropertyDescription_Stockpile)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_Suspension_AirShock`](Sandbox.Game.Localization.BlockPropertyDescription_Suspension_AirShock)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_Suspension_Brake`](Sandbox.Game.Localization.BlockPropertyDescription_Suspension_Brake)||
-|static [`VRage.Utils.MyStringId BlockPropertyDescription_ThrustOverride`](Sandbox.Game.Localization.BlockPropertyDescription_ThrustOverride)||
-|static [`VRage.Utils.MyStringId BlockPropertyPopup_AutoPilotToolbarOpen`](Sandbox.Game.Localization.BlockPropertyPopup_AutoPilotToolbarOpen)||
-|static [`VRage.Utils.MyStringId BlockPropertyProperties_CurrentInput`](Sandbox.Game.Localization.BlockPropertyProperties_CurrentInput)||
-|static [`VRage.Utils.MyStringId BlockPropertyProperties_CurrentMass`](Sandbox.Game.Localization.BlockPropertyProperties_CurrentMass)||
-|static [`VRage.Utils.MyStringId BlockPropertyProperties_CurrentOutput`](Sandbox.Game.Localization.BlockPropertyProperties_CurrentOutput)||
-|static [`VRage.Utils.MyStringId BlockPropertyText_AnyoneCanUse`](Sandbox.Game.Localization.BlockPropertyText_AnyoneCanUse)||
-|static [`VRage.Utils.MyStringId BlockPropertyText_Button`](Sandbox.Game.Localization.BlockPropertyText_Button)||
-|static [`VRage.Utils.MyStringId BlockPropertyText_ButtonList`](Sandbox.Game.Localization.BlockPropertyText_ButtonList)||
-|static [`VRage.Utils.MyStringId BlockPropertyText_ButtonName`](Sandbox.Game.Localization.BlockPropertyText_ButtonName)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Alignment`](Sandbox.Game.Localization.BlockPropertyTitle_Alignment)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_AssignedCamera`](Sandbox.Game.Localization.BlockPropertyTitle_AssignedCamera)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_AssignedPB`](Sandbox.Game.Localization.BlockPropertyTitle_AssignedPB)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_AutoPilot`](Sandbox.Game.Localization.BlockPropertyTitle_AutoPilot)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_AutoPilotToolbarOpen`](Sandbox.Game.Localization.BlockPropertyTitle_AutoPilotToolbarOpen)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_AutoRefill`](Sandbox.Game.Localization.BlockPropertyTitle_AutoRefill)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_BackgroundColor`](Sandbox.Game.Localization.BlockPropertyTitle_BackgroundColor)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_BreakForce`](Sandbox.Game.Localization.BlockPropertyTitle_BreakForce)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_BroadcastRadius`](Sandbox.Game.Localization.BlockPropertyTitle_BroadcastRadius)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_CollisionAvoidance`](Sandbox.Game.Localization.BlockPropertyTitle_CollisionAvoidance)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Connector_Strength`](Sandbox.Game.Localization.BlockPropertyTitle_Connector_Strength)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_ConveyorSorterAdd`](Sandbox.Game.Localization.BlockPropertyTitle_ConveyorSorterAdd)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_ConveyorSorterCandidatesList`](Sandbox.Game.Localization.BlockPropertyTitle_ConveyorSorterCandidatesList)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_ConveyorSorterFilterItemsList`](Sandbox.Game.Localization.BlockPropertyTitle_ConveyorSorterFilterItemsList)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_ConveyorSorterFilterMode`](Sandbox.Game.Localization.BlockPropertyTitle_ConveyorSorterFilterMode)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_ConveyorSorterFilterModeBlacklist`](Sandbox.Game.Localization.BlockPropertyTitle_ConveyorSorterFilterModeBlacklist)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_ConveyorSorterFilterModeWhitelist`](Sandbox.Game.Localization.BlockPropertyTitle_ConveyorSorterFilterModeWhitelist)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_ConveyorSorterRemove`](Sandbox.Game.Localization.BlockPropertyTitle_ConveyorSorterRemove)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Depressurize`](Sandbox.Game.Localization.BlockPropertyTitle_Depressurize)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_DestinationGPS`](Sandbox.Game.Localization.BlockPropertyTitle_DestinationGPS)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Discharge`](Sandbox.Game.Localization.BlockPropertyTitle_Discharge)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_EnableDockingMode`](Sandbox.Game.Localization.BlockPropertyTitle_EnableDockingMode)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_FlightMode`](Sandbox.Game.Localization.BlockPropertyTitle_FlightMode)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_FlightMode_Circle`](Sandbox.Game.Localization.BlockPropertyTitle_FlightMode_Circle)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_FlightMode_OneWay`](Sandbox.Game.Localization.BlockPropertyTitle_FlightMode_OneWay)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_FlightMode_Patrol`](Sandbox.Game.Localization.BlockPropertyTitle_FlightMode_Patrol)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Font`](Sandbox.Game.Localization.BlockPropertyTitle_Font)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_FontColor`](Sandbox.Game.Localization.BlockPropertyTitle_FontColor)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Force`](Sandbox.Game.Localization.BlockPropertyTitle_Force)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_ForwardDirection`](Sandbox.Game.Localization.BlockPropertyTitle_ForwardDirection)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_GpsLocations`](Sandbox.Game.Localization.BlockPropertyTitle_GpsLocations)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_GravityAcceleration`](Sandbox.Game.Localization.BlockPropertyTitle_GravityAcceleration)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_GravityFieldDepth`](Sandbox.Game.Localization.BlockPropertyTitle_GravityFieldDepth)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_GravityFieldHeight`](Sandbox.Game.Localization.BlockPropertyTitle_GravityFieldHeight)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_GravityFieldRadius`](Sandbox.Game.Localization.BlockPropertyTitle_GravityFieldRadius)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_GravityFieldWidth`](Sandbox.Game.Localization.BlockPropertyTitle_GravityFieldWidth)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_GyroOverride`](Sandbox.Game.Localization.BlockPropertyTitle_GyroOverride)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_GyroPitchOverride`](Sandbox.Game.Localization.BlockPropertyTitle_GyroPitchOverride)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_GyroPower`](Sandbox.Game.Localization.BlockPropertyTitle_GyroPower)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_GyroRollOverride`](Sandbox.Game.Localization.BlockPropertyTitle_GyroRollOverride)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_GyroYawOverride`](Sandbox.Game.Localization.BlockPropertyTitle_GyroYawOverride)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_JumpDistance`](Sandbox.Game.Localization.BlockPropertyTitle_JumpDistance)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_LandGearAutoLock`](Sandbox.Game.Localization.BlockPropertyTitle_LandGearAutoLock)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_LargeTurretEnableTurretIdleMovement`](Sandbox.Game.Localization.BlockPropertyTitle_LargeTurretEnableTurretIdleMovement)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_LargeTurretRadius`](Sandbox.Game.Localization.BlockPropertyTitle_LargeTurretRadius)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_LargeTurretTargetCharacters`](Sandbox.Game.Localization.BlockPropertyTitle_LargeTurretTargetCharacters)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_LargeTurretTargetDecoys`](Sandbox.Game.Localization.BlockPropertyTitle_LargeTurretTargetDecoys)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_LargeTurretTargetLargeGrids`](Sandbox.Game.Localization.BlockPropertyTitle_LargeTurretTargetLargeGrids)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_LargeTurretTargetMeteors`](Sandbox.Game.Localization.BlockPropertyTitle_LargeTurretTargetMeteors)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_LargeTurretTargetMissiles`](Sandbox.Game.Localization.BlockPropertyTitle_LargeTurretTargetMissiles)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_LargeTurretTargetMoving`](Sandbox.Game.Localization.BlockPropertyTitle_LargeTurretTargetMoving)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_LargeTurretTargetNeutrals`](Sandbox.Game.Localization.BlockPropertyTitle_LargeTurretTargetNeutrals)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_LargeTurretTargetSmallGrids`](Sandbox.Game.Localization.BlockPropertyTitle_LargeTurretTargetSmallGrids)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_LargeTurretTargetStations`](Sandbox.Game.Localization.BlockPropertyTitle_LargeTurretTargetStations)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_LaserRange`](Sandbox.Game.Localization.BlockPropertyTitle_LaserRange)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_LCDScreenDefinitionsTextures`](Sandbox.Game.Localization.BlockPropertyTitle_LCDScreenDefinitionsTextures)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_LCDScreenRefreshInterval`](Sandbox.Game.Localization.BlockPropertyTitle_LCDScreenRefreshInterval)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_LCDScreenRemoveSelectedTextures`](Sandbox.Game.Localization.BlockPropertyTitle_LCDScreenRemoveSelectedTextures)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_LCDScreenSelectedTextures`](Sandbox.Game.Localization.BlockPropertyTitle_LCDScreenSelectedTextures)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_LCDScreenSelectTextures`](Sandbox.Game.Localization.BlockPropertyTitle_LCDScreenSelectTextures)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_LCDScreenTextSize`](Sandbox.Game.Localization.BlockPropertyTitle_LCDScreenTextSize)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_LightBlinkInterval`](Sandbox.Game.Localization.BlockPropertyTitle_LightBlinkInterval)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_LightBlinkLenght`](Sandbox.Game.Localization.BlockPropertyTitle_LightBlinkLenght)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_LightBlinkOffset`](Sandbox.Game.Localization.BlockPropertyTitle_LightBlinkOffset)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_LightColor`](Sandbox.Game.Localization.BlockPropertyTitle_LightColor)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_LightFalloff`](Sandbox.Game.Localization.BlockPropertyTitle_LightFalloff)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_LightIntensity`](Sandbox.Game.Localization.BlockPropertyTitle_LightIntensity)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_LightOffset`](Sandbox.Game.Localization.BlockPropertyTitle_LightOffset)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_LightRadius`](Sandbox.Game.Localization.BlockPropertyTitle_LightRadius)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_LightReflectorRadius`](Sandbox.Game.Localization.BlockPropertyTitle_LightReflectorRadius)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_MaximalDistance`](Sandbox.Game.Localization.BlockPropertyTitle_MaximalDistance)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_MaxImpulseAxis`](Sandbox.Game.Localization.BlockPropertyTitle_MaxImpulseAxis)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_MaxImpulseNonAxis`](Sandbox.Game.Localization.BlockPropertyTitle_MaxImpulseNonAxis)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_MinimalDistance`](Sandbox.Game.Localization.BlockPropertyTitle_MinimalDistance)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_MotorBrakingTorque`](Sandbox.Game.Localization.BlockPropertyTitle_MotorBrakingTorque)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_MotorLock`](Sandbox.Game.Localization.BlockPropertyTitle_MotorLock)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_MotorMaxAngle`](Sandbox.Game.Localization.BlockPropertyTitle_MotorMaxAngle)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_MotorMinAngle`](Sandbox.Game.Localization.BlockPropertyTitle_MotorMinAngle)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_MotorRotorDisplacement`](Sandbox.Game.Localization.BlockPropertyTitle_MotorRotorDisplacement)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_MotorTargetVelocity`](Sandbox.Game.Localization.BlockPropertyTitle_MotorTargetVelocity)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_MotorTorque`](Sandbox.Game.Localization.BlockPropertyTitle_MotorTorque)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_MotorUsesWheelCommands`](Sandbox.Game.Localization.BlockPropertyTitle_MotorUsesWheelCommands)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Motor_Damping`](Sandbox.Game.Localization.BlockPropertyTitle_Motor_Damping)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Motor_Friction`](Sandbox.Game.Localization.BlockPropertyTitle_Motor_Friction)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Motor_Height`](Sandbox.Game.Localization.BlockPropertyTitle_Motor_Height)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Motor_InvertPropulsion`](Sandbox.Game.Localization.BlockPropertyTitle_Motor_InvertPropulsion)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Motor_InvertSteer`](Sandbox.Game.Localization.BlockPropertyTitle_Motor_InvertSteer)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Motor_MaxSteerAngle`](Sandbox.Game.Localization.BlockPropertyTitle_Motor_MaxSteerAngle)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Motor_Power`](Sandbox.Game.Localization.BlockPropertyTitle_Motor_Power)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Motor_Propulsion`](Sandbox.Game.Localization.BlockPropertyTitle_Motor_Propulsion)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Motor_PropulsionOverride`](Sandbox.Game.Localization.BlockPropertyTitle_Motor_PropulsionOverride)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Motor_Steering`](Sandbox.Game.Localization.BlockPropertyTitle_Motor_Steering)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Motor_SteerOverride`](Sandbox.Game.Localization.BlockPropertyTitle_Motor_SteerOverride)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Motor_SteerReturnSpeed`](Sandbox.Game.Localization.BlockPropertyTitle_Motor_SteerReturnSpeed)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Motor_SteerSpeed`](Sandbox.Game.Localization.BlockPropertyTitle_Motor_SteerSpeed)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Motor_Strength`](Sandbox.Game.Localization.BlockPropertyTitle_Motor_Strength)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Motor_SuspensionSpeed`](Sandbox.Game.Localization.BlockPropertyTitle_Motor_SuspensionSpeed)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Motor_SuspensionTravel`](Sandbox.Game.Localization.BlockPropertyTitle_Motor_SuspensionTravel)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_OreDetectorRange`](Sandbox.Game.Localization.BlockPropertyTitle_OreDetectorRange)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_ProjectionOffsetX`](Sandbox.Game.Localization.BlockPropertyTitle_ProjectionOffsetX)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_ProjectionOffsetY`](Sandbox.Game.Localization.BlockPropertyTitle_ProjectionOffsetY)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_ProjectionOffsetZ`](Sandbox.Game.Localization.BlockPropertyTitle_ProjectionOffsetZ)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_ProjectionRotationX`](Sandbox.Game.Localization.BlockPropertyTitle_ProjectionRotationX)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_ProjectionRotationY`](Sandbox.Game.Localization.BlockPropertyTitle_ProjectionRotationY)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_ProjectionRotationZ`](Sandbox.Game.Localization.BlockPropertyTitle_ProjectionRotationZ)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_ProjectionSpawn`](Sandbox.Game.Localization.BlockPropertyTitle_ProjectionSpawn)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Projector_BlocksPerProjection`](Sandbox.Game.Localization.BlockPropertyTitle_Projector_BlocksPerProjection)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Projector_BlocksPerProjection_Tooltip`](Sandbox.Game.Localization.BlockPropertyTitle_Projector_BlocksPerProjection_Tooltip)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Projector_GetOwnership`](Sandbox.Game.Localization.BlockPropertyTitle_Projector_GetOwnership)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Projector_InstantBuilding`](Sandbox.Game.Localization.BlockPropertyTitle_Projector_InstantBuilding)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Projector_InstantBuilding_Tooltip`](Sandbox.Game.Localization.BlockPropertyTitle_Projector_InstantBuilding_Tooltip)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Projector_NumberOfProjections`](Sandbox.Game.Localization.BlockPropertyTitle_Projector_NumberOfProjections)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Projector_NumberOfProjections_Tooltip`](Sandbox.Game.Localization.BlockPropertyTitle_Projector_NumberOfProjections_Tooltip)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Recharge`](Sandbox.Game.Localization.BlockPropertyTitle_Recharge)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Refill`](Sandbox.Game.Localization.BlockPropertyTitle_Refill)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_RemoteBlockSpeedLimit`](Sandbox.Game.Localization.BlockPropertyTitle_RemoteBlockSpeedLimit)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_SafetyDetach`](Sandbox.Game.Localization.BlockPropertyTitle_SafetyDetach)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Semiauto`](Sandbox.Game.Localization.BlockPropertyTitle_Semiauto)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_SensorDetectAsteroids`](Sandbox.Game.Localization.BlockPropertyTitle_SensorDetectAsteroids)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_SensorDetectEnemy`](Sandbox.Game.Localization.BlockPropertyTitle_SensorDetectEnemy)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_SensorDetectFloatingObjects`](Sandbox.Game.Localization.BlockPropertyTitle_SensorDetectFloatingObjects)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_SensorDetectFriendly`](Sandbox.Game.Localization.BlockPropertyTitle_SensorDetectFriendly)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_SensorDetectLargeShips`](Sandbox.Game.Localization.BlockPropertyTitle_SensorDetectLargeShips)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_SensorDetectNeutral`](Sandbox.Game.Localization.BlockPropertyTitle_SensorDetectNeutral)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_SensorDetectOwner`](Sandbox.Game.Localization.BlockPropertyTitle_SensorDetectOwner)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_SensorDetectPlayers`](Sandbox.Game.Localization.BlockPropertyTitle_SensorDetectPlayers)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_SensorDetectSmallShips`](Sandbox.Game.Localization.BlockPropertyTitle_SensorDetectSmallShips)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_SensorDetectStations`](Sandbox.Game.Localization.BlockPropertyTitle_SensorDetectStations)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_SensorDetectSubgrids`](Sandbox.Game.Localization.BlockPropertyTitle_SensorDetectSubgrids)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_SensorFieldDepthMax`](Sandbox.Game.Localization.BlockPropertyTitle_SensorFieldDepthMax)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_SensorFieldDepthMin`](Sandbox.Game.Localization.BlockPropertyTitle_SensorFieldDepthMin)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_SensorFieldHeightMax`](Sandbox.Game.Localization.BlockPropertyTitle_SensorFieldHeightMax)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_SensorFieldHeightMin`](Sandbox.Game.Localization.BlockPropertyTitle_SensorFieldHeightMin)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_SensorFieldWidthMax`](Sandbox.Game.Localization.BlockPropertyTitle_SensorFieldWidthMax)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_SensorFieldWidthMin`](Sandbox.Game.Localization.BlockPropertyTitle_SensorFieldWidthMin)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_SensorPlaySound`](Sandbox.Game.Localization.BlockPropertyTitle_SensorPlaySound)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_SensorToolbarOpen`](Sandbox.Game.Localization.BlockPropertyTitle_SensorToolbarOpen)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_ShareTensor`](Sandbox.Game.Localization.BlockPropertyTitle_ShareTensor)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_ShowShipName`](Sandbox.Game.Localization.BlockPropertyTitle_ShowShipName)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_ShowTextOnScreen`](Sandbox.Game.Localization.BlockPropertyTitle_ShowTextOnScreen)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Silent`](Sandbox.Game.Localization.BlockPropertyTitle_Silent)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_SoundBlockLoopTime`](Sandbox.Game.Localization.BlockPropertyTitle_SoundBlockLoopTime)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_SoundBlockPlay`](Sandbox.Game.Localization.BlockPropertyTitle_SoundBlockPlay)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_SoundBlockRange`](Sandbox.Game.Localization.BlockPropertyTitle_SoundBlockRange)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_SoundBlockSoundList`](Sandbox.Game.Localization.BlockPropertyTitle_SoundBlockSoundList)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_SoundBlockStop`](Sandbox.Game.Localization.BlockPropertyTitle_SoundBlockStop)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_SoundBlockVolume`](Sandbox.Game.Localization.BlockPropertyTitle_SoundBlockVolume)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Stockpile`](Sandbox.Game.Localization.BlockPropertyTitle_Stockpile)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Suspension_AirShock`](Sandbox.Game.Localization.BlockPropertyTitle_Suspension_AirShock)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Suspension_Brake`](Sandbox.Game.Localization.BlockPropertyTitle_Suspension_Brake)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_TextPanelAccessType`](Sandbox.Game.Localization.BlockPropertyTitle_TextPanelAccessType)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_TextPanelPublicTitle`](Sandbox.Game.Localization.BlockPropertyTitle_TextPanelPublicTitle)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_TextPanelShowPublicTextPanel`](Sandbox.Game.Localization.BlockPropertyTitle_TextPanelShowPublicTextPanel)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_TextPanelShowTextPanel`](Sandbox.Game.Localization.BlockPropertyTitle_TextPanelShowTextPanel)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_TextPanelTitle`](Sandbox.Game.Localization.BlockPropertyTitle_TextPanelTitle)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_ThrustOverride`](Sandbox.Game.Localization.BlockPropertyTitle_ThrustOverride)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_TimerStart`](Sandbox.Game.Localization.BlockPropertyTitle_TimerStart)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_TimerStop`](Sandbox.Game.Localization.BlockPropertyTitle_TimerStop)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_TimerToolbarOpen`](Sandbox.Game.Localization.BlockPropertyTitle_TimerToolbarOpen)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_TimerToTrigger`](Sandbox.Game.Localization.BlockPropertyTitle_TimerToTrigger)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_TimerTrigger`](Sandbox.Game.Localization.BlockPropertyTitle_TimerTrigger)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Velocity`](Sandbox.Game.Localization.BlockPropertyTitle_Velocity)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Warning`](Sandbox.Game.Localization.BlockPropertyTitle_Warning)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_Waypoints`](Sandbox.Game.Localization.BlockPropertyTitle_Waypoints)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_WeldForce`](Sandbox.Game.Localization.BlockPropertyTitle_WeldForce)||
-|static [`VRage.Utils.MyStringId BlockPropertyTitle_WeldSpeed`](Sandbox.Game.Localization.BlockPropertyTitle_WeldSpeed)||
-|static [`VRage.Utils.MyStringId BlockPropertyTooltip_MaxImpulseAxis`](Sandbox.Game.Localization.BlockPropertyTooltip_MaxImpulseAxis)||
-|static [`VRage.Utils.MyStringId BlockPropertyTooltip_MaxImpulseNonAxis`](Sandbox.Game.Localization.BlockPropertyTooltip_MaxImpulseNonAxis)||
-|static [`VRage.Utils.MyStringId BlockPropertyTooltip_SafetyDetach`](Sandbox.Game.Localization.BlockPropertyTooltip_SafetyDetach)||
-|static [`VRage.Utils.MyStringId BlockPropertyTooltip_ShareTensor`](Sandbox.Game.Localization.BlockPropertyTooltip_ShareTensor)||
-|static [`VRage.Utils.MyStringId BlockPropertyValue_Locked`](Sandbox.Game.Localization.BlockPropertyValue_Locked)||
-|static [`VRage.Utils.MyStringId BlockPropertyValue_MotorAngleUnlimited`](Sandbox.Game.Localization.BlockPropertyValue_MotorAngleUnlimited)||
-|static [`VRage.Utils.MyStringId BlockPropertyValue_ReadyToLock`](Sandbox.Game.Localization.BlockPropertyValue_ReadyToLock)||
-|static [`VRage.Utils.MyStringId BlockPropertyValue_Unlocked`](Sandbox.Game.Localization.BlockPropertyValue_Unlocked)||
-|static [`VRage.Utils.MyStringId BlockSize_NotAvailable`](Sandbox.Game.Localization.BlockSize_NotAvailable)||
-|static [`VRage.Utils.MyStringId BlueprintInfo_Author`](Sandbox.Game.Localization.BlueprintInfo_Author)||
-|static [`VRage.Utils.MyStringId BlueprintInfo_Name`](Sandbox.Game.Localization.BlueprintInfo_Name)||
-|static [`VRage.Utils.MyStringId BlueprintInfo_NumberOfBlocks`](Sandbox.Game.Localization.BlueprintInfo_NumberOfBlocks)||
-|static [`VRage.Utils.MyStringId BlueprintsScreen`](Sandbox.Game.Localization.BlueprintsScreen)||
-|static [`VRage.Utils.MyStringId BrainSimulatorIntegration_AISchoolButton`](Sandbox.Game.Localization.BrainSimulatorIntegration_AISchoolButton)||
-|static [`VRage.Utils.MyStringId BrainSimulatorIntegration_BrainNotFoundCaption`](Sandbox.Game.Localization.BrainSimulatorIntegration_BrainNotFoundCaption)||
-|static [`VRage.Utils.MyStringId BrainSimulatorIntegration_BrainNotFoundMessage`](Sandbox.Game.Localization.BrainSimulatorIntegration_BrainNotFoundMessage)||
-|static [`VRage.Utils.MyStringId BrainSimulatorIntegration_ChooseBrainAddButton`](Sandbox.Game.Localization.BrainSimulatorIntegration_ChooseBrainAddButton)||
-|static [`VRage.Utils.MyStringId BrainSimulatorIntegration_ChooseBrainCaption`](Sandbox.Game.Localization.BrainSimulatorIntegration_ChooseBrainCaption)||
-|static [`VRage.Utils.MyStringId BrainSimulatorIntegration_ChooseBrainLabel`](Sandbox.Game.Localization.BrainSimulatorIntegration_ChooseBrainLabel)||
-|static [`VRage.Utils.MyStringId BrainSimulatorIntegration_EnabledLabel`](Sandbox.Game.Localization.BrainSimulatorIntegration_EnabledLabel)||
-|static [`VRage.Utils.MyStringId BrainSimulatorIntegration_EnabledTooltip`](Sandbox.Game.Localization.BrainSimulatorIntegration_EnabledTooltip)||
-|static [`VRage.Utils.MyStringId BrainSimulatorIntegration_ExperimentalFeatureCaption`](Sandbox.Game.Localization.BrainSimulatorIntegration_ExperimentalFeatureCaption)||
-|static [`VRage.Utils.MyStringId BrainSimulatorIntegration_ExperimentalFeatureConfirmation`](Sandbox.Game.Localization.BrainSimulatorIntegration_ExperimentalFeatureConfirmation)||
-|static [`VRage.Utils.MyStringId BrainSimulatorIntegration_ExperimentalWarning`](Sandbox.Game.Localization.BrainSimulatorIntegration_ExperimentalWarning)||
-|static [`VRage.Utils.MyStringId BrainSimulatorIntegration_IPLabel`](Sandbox.Game.Localization.BrainSimulatorIntegration_IPLabel)||
-|static [`VRage.Utils.MyStringId BrainSimulatorIntegration_ManualModeAllowed`](Sandbox.Game.Localization.BrainSimulatorIntegration_ManualModeAllowed)||
-|static [`VRage.Utils.MyStringId BrainSimulatorIntegration_NotConnectedCaption`](Sandbox.Game.Localization.BrainSimulatorIntegration_NotConnectedCaption)||
-|static [`VRage.Utils.MyStringId BrainSimulatorIntegration_NotConnectedMessage`](Sandbox.Game.Localization.BrainSimulatorIntegration_NotConnectedMessage)||
-|static [`VRage.Utils.MyStringId BrainSimulatorIntegration_PortLabel`](Sandbox.Game.Localization.BrainSimulatorIntegration_PortLabel)||
-|static [`VRage.Utils.MyStringId BrainSimulatorIntegration_RequirementsNotMet`](Sandbox.Game.Localization.BrainSimulatorIntegration_RequirementsNotMet)||
-|static [`VRage.Utils.MyStringId BrainSimulatorIntegration_RunnerIssueCaption`](Sandbox.Game.Localization.BrainSimulatorIntegration_RunnerIssueCaption)||
-|static [`VRage.Utils.MyStringId BrainSimulatorIntegration_RunnerNotFound`](Sandbox.Game.Localization.BrainSimulatorIntegration_RunnerNotFound)||
-|static [`VRage.Utils.MyStringId BrainSimulatorIntegration_RunnerRestarted`](Sandbox.Game.Localization.BrainSimulatorIntegration_RunnerRestarted)||
-|static [`VRage.Utils.MyStringId BrainSimulatorIntegration_ScreenCaption`](Sandbox.Game.Localization.BrainSimulatorIntegration_ScreenCaption)||
-|static [`VRage.Utils.MyStringId BrainSimulatorIntegration_WrongIpAlert`](Sandbox.Game.Localization.BrainSimulatorIntegration_WrongIpAlert)||
-|static [`VRage.Utils.MyStringId BrainSimulatorIntegration_WrongIpCaption`](Sandbox.Game.Localization.BrainSimulatorIntegration_WrongIpCaption)||
-|static [`VRage.Utils.MyStringId BrainSimulatorIntegration_WrongPortCaption`](Sandbox.Game.Localization.BrainSimulatorIntegration_WrongPortCaption)||
-|static [`VRage.Utils.MyStringId BrainSimulatorIntegration_WrongPortMessage`](Sandbox.Game.Localization.BrainSimulatorIntegration_WrongPortMessage)||
-|static [`VRage.Utils.MyStringId BriefingTutorial01Movements`](Sandbox.Game.Localization.BriefingTutorial01Movements)||
-|static [`VRage.Utils.MyStringId BriefingTutorial02Inventory`](Sandbox.Game.Localization.BriefingTutorial02Inventory)||
-|static [`VRage.Utils.MyStringId BriefingTutorial03Energy`](Sandbox.Game.Localization.BriefingTutorial03Energy)||
-|static [`VRage.Utils.MyStringId BriefingTutorial04Oxygen`](Sandbox.Game.Localization.BriefingTutorial04Oxygen)||
-|static [`VRage.Utils.MyStringId BriefingTutorial05OreRefining`](Sandbox.Game.Localization.BriefingTutorial05OreRefining)||
-|static [`VRage.Utils.MyStringId BriefingTutorial06Conveyors`](Sandbox.Game.Localization.BriefingTutorial06Conveyors)||
-|static [`VRage.Utils.MyStringId BriefingTutorial07Jetpack`](Sandbox.Game.Localization.BriefingTutorial07Jetpack)||
-|static [`VRage.Utils.MyStringId BriefingTutorial08YourFirstShip`](Sandbox.Game.Localization.BriefingTutorial08YourFirstShip)||
-|static [`VRage.Utils.MyStringId BriefingTutorial09ShipFlight`](Sandbox.Game.Localization.BriefingTutorial09ShipFlight)||
-|static [`VRage.Utils.MyStringId BriefingTutorial10Grids`](Sandbox.Game.Localization.BriefingTutorial10Grids)||
-|static [`VRage.Utils.MyStringId BroadcastScreen_NoOwnership`](Sandbox.Game.Localization.BroadcastScreen_NoOwnership)||
-|static [`VRage.Utils.MyStringId BroadcastScreen_Ownership`](Sandbox.Game.Localization.BroadcastScreen_Ownership)||
-|static [`VRage.Utils.MyStringId BroadcastScreen_TakeControlButton`](Sandbox.Game.Localization.BroadcastScreen_TakeControlButton)||
-|static [`VRage.Utils.MyStringId BroadcastScreen_TakeControlButtonDisabled_ToolTip`](Sandbox.Game.Localization.BroadcastScreen_TakeControlButtonDisabled_ToolTip)||
-|static [`VRage.Utils.MyStringId BroadcastScreen_TakeControlButton_NoMainRemoteControl`](Sandbox.Game.Localization.BroadcastScreen_TakeControlButton_NoMainRemoteControl)||
-|static [`VRage.Utils.MyStringId BroadcastScreen_TakeControlButton_NoRemoteToolTip`](Sandbox.Game.Localization.BroadcastScreen_TakeControlButton_NoRemoteToolTip)||
-|static [`VRage.Utils.MyStringId BroadcastScreen_TakeControlButton_RemoteToolTip`](Sandbox.Game.Localization.BroadcastScreen_TakeControlButton_RemoteToolTip)||
-|static [`VRage.Utils.MyStringId BroadcastScreen_TakeControlButton_ToolTip`](Sandbox.Game.Localization.BroadcastScreen_TakeControlButton_ToolTip)||
-|static [`VRage.Utils.MyStringId BroadcastScreen_TerminalButton`](Sandbox.Game.Localization.BroadcastScreen_TerminalButton)||
-|static [`VRage.Utils.MyStringId BroadcastScreen_TerminalButtonDisabled_ToolTip`](Sandbox.Game.Localization.BroadcastScreen_TerminalButtonDisabled_ToolTip)||
-|static [`VRage.Utils.MyStringId BroadcastScreen_TerminalButton_NoStableConnectionToolTip`](Sandbox.Game.Localization.BroadcastScreen_TerminalButton_NoStableConnectionToolTip)||
-|static [`VRage.Utils.MyStringId BroadcastScreen_TerminalButton_PlayerBroadcastOffToolTip`](Sandbox.Game.Localization.BroadcastScreen_TerminalButton_PlayerBroadcastOffToolTip)||
-|static [`VRage.Utils.MyStringId BroadcastScreen_TerminalButton_StableConnectionToolTip`](Sandbox.Game.Localization.BroadcastScreen_TerminalButton_StableConnectionToolTip)||
-|static [`VRage.Utils.MyStringId BroadcastScreen_TerminalButton_ToolTip`](Sandbox.Game.Localization.BroadcastScreen_TerminalButton_ToolTip)||
-|static [`VRage.Utils.MyStringId BroadcastScreen_UnavailableControlButton`](Sandbox.Game.Localization.BroadcastScreen_UnavailableControlButton)||
-|static [`VRage.Utils.MyStringId BroadcastStatus_Connected`](Sandbox.Game.Localization.BroadcastStatus_Connected)||
-|static [`VRage.Utils.MyStringId BroadcastStatus_IsPreviewGrid`](Sandbox.Game.Localization.BroadcastStatus_IsPreviewGrid)||
-|static [`VRage.Utils.MyStringId BroadcastStatus_Me`](Sandbox.Game.Localization.BroadcastStatus_Me)||
-|static [`VRage.Utils.MyStringId BroadcastStatus_OutOfBroadcastingRange`](Sandbox.Game.Localization.BroadcastStatus_OutOfBroadcastingRange)||
-|static [`VRage.Utils.MyStringId BroadcastStatus_OutOfReceivingRange`](Sandbox.Game.Localization.BroadcastStatus_OutOfReceivingRange)||
-|static [`VRage.Utils.MyStringId BroadcastStatus_PhysicallyConnected`](Sandbox.Game.Localization.BroadcastStatus_PhysicallyConnected)||
-|static [`VRage.Utils.MyStringId BuilderModeOff`](Sandbox.Game.Localization.BuilderModeOff)||
-|static [`VRage.Utils.MyStringId BuilderModeOn`](Sandbox.Game.Localization.BuilderModeOn)||
-|static [`VRage.Utils.MyStringId buttonBrowseWorkshop`](Sandbox.Game.Localization.buttonBrowseWorkshop)||
-|static [`VRage.Utils.MyStringId buttonEdit`](Sandbox.Game.Localization.buttonEdit)||
-|static [`VRage.Utils.MyStringId buttonOpenInWorkshop`](Sandbox.Game.Localization.buttonOpenInWorkshop)||
-|static [`VRage.Utils.MyStringId buttonPublish`](Sandbox.Game.Localization.buttonPublish)||
-|static [`VRage.Utils.MyStringId buttonRefresh`](Sandbox.Game.Localization.buttonRefresh)||
-|static [`VRage.Utils.MyStringId buttonRemove`](Sandbox.Game.Localization.buttonRemove)||
-|static [`VRage.Utils.MyStringId CannotFindBlueprint`](Sandbox.Game.Localization.CannotFindBlueprint)||
-|static [`VRage.Utils.MyStringId CannotFindBlueprintSteam`](Sandbox.Game.Localization.CannotFindBlueprintSteam)||
-|static [`VRage.Utils.MyStringId Characters`](Sandbox.Game.Localization.Characters)||
-|static [`VRage.Utils.MyStringId ChatScreen_TerminalSendMessage`](Sandbox.Game.Localization.ChatScreen_TerminalSendMessage)||
-|static [`VRage.Utils.MyStringId ChatScreen_TerminalSendMessageDisabled`](Sandbox.Game.Localization.ChatScreen_TerminalSendMessageDisabled)||
-|static [`VRage.Utils.MyStringId ChatScreen_TerminaMessageBox`](Sandbox.Game.Localization.ChatScreen_TerminaMessageBox)||
-|static [`VRage.Utils.MyStringId Chat_screen`](Sandbox.Game.Localization.Chat_screen)||
-|static [`VRage.Utils.MyStringId Cobalt`](Sandbox.Game.Localization.Cobalt)||
-|static [`VRage.Utils.MyStringId ContainerDropSystemBeaconText`](Sandbox.Game.Localization.ContainerDropSystemBeaconText)||
-|static [`VRage.Utils.MyStringId ContainerDropSystemContainerLarge`](Sandbox.Game.Localization.ContainerDropSystemContainerLarge)||
-|static [`VRage.Utils.MyStringId ContainerDropSystemContainerSmall`](Sandbox.Game.Localization.ContainerDropSystemContainerSmall)||
-|static [`VRage.Utils.MyStringId ContainerDropSystemContainerWasDetected`](Sandbox.Game.Localization.ContainerDropSystemContainerWasDetected)||
-|static [`VRage.Utils.MyStringId ControlDescBrake`](Sandbox.Game.Localization.ControlDescBrake)||
-|static [`VRage.Utils.MyStringId ControlDescCameraZoom`](Sandbox.Game.Localization.ControlDescCameraZoom)||
-|static [`VRage.Utils.MyStringId ControlDescHoldToColor`](Sandbox.Game.Localization.ControlDescHoldToColor)||
-|static [`VRage.Utils.MyStringId ControlDescLargeBrush`](Sandbox.Game.Localization.ControlDescLargeBrush)||
-|static [`VRage.Utils.MyStringId ControlDescLoot`](Sandbox.Game.Localization.ControlDescLoot)||
-|static [`VRage.Utils.MyStringId ControlDescMediumBrush`](Sandbox.Game.Localization.ControlDescMediumBrush)||
-|static [`VRage.Utils.MyStringId ControlDescNetgraph`](Sandbox.Game.Localization.ControlDescNetgraph)||
-|static [`VRage.Utils.MyStringId ControlDescSingleAllMode`](Sandbox.Game.Localization.ControlDescSingleAllMode)||
-|static [`VRage.Utils.MyStringId ControlDescSpectatorSpeed`](Sandbox.Game.Localization.ControlDescSpectatorSpeed)||
-|static [`VRage.Utils.MyStringId ControlDescZoom`](Sandbox.Game.Localization.ControlDescZoom)||
-|static [`VRage.Utils.MyStringId ControlMenuItemLabel_Broadcasting`](Sandbox.Game.Localization.ControlMenuItemLabel_Broadcasting)||
-|static [`VRage.Utils.MyStringId ControlMenuItemLabel_BuildMode`](Sandbox.Game.Localization.ControlMenuItemLabel_BuildMode)||
-|static [`VRage.Utils.MyStringId ControlMenuItemLabel_Connectors`](Sandbox.Game.Localization.ControlMenuItemLabel_Connectors)||
-|static [`VRage.Utils.MyStringId ControlMenuItemLabel_Dampeners`](Sandbox.Game.Localization.ControlMenuItemLabel_Dampeners)||
-|static [`VRage.Utils.MyStringId ControlMenuItemLabel_Helmet`](Sandbox.Game.Localization.ControlMenuItemLabel_Helmet)||
-|static [`VRage.Utils.MyStringId ControlMenuItemLabel_Jetpack`](Sandbox.Game.Localization.ControlMenuItemLabel_Jetpack)||
-|static [`VRage.Utils.MyStringId ControlMenuItemLabel_LandingGear`](Sandbox.Game.Localization.ControlMenuItemLabel_LandingGear)||
-|static [`VRage.Utils.MyStringId ControlMenuItemLabel_Lights`](Sandbox.Game.Localization.ControlMenuItemLabel_Lights)||
-|static [`VRage.Utils.MyStringId ControlMenuItemLabel_OpenInventory`](Sandbox.Game.Localization.ControlMenuItemLabel_OpenInventory)||
-|static [`VRage.Utils.MyStringId ControlMenuItemLabel_Reactors`](Sandbox.Game.Localization.ControlMenuItemLabel_Reactors)||
-|static [`VRage.Utils.MyStringId ControlMenuItemLabel_ScenarioBriefing`](Sandbox.Game.Localization.ControlMenuItemLabel_ScenarioBriefing)||
-|static [`VRage.Utils.MyStringId ControlMenuItemLabel_SetupButtons`](Sandbox.Game.Localization.ControlMenuItemLabel_SetupButtons)||
-|static [`VRage.Utils.MyStringId ControlMenuItemLabel_ShowAdminMenu`](Sandbox.Game.Localization.ControlMenuItemLabel_ShowAdminMenu)||
-|static [`VRage.Utils.MyStringId ControlMenuItemLabel_ShowBlueprints`](Sandbox.Game.Localization.ControlMenuItemLabel_ShowBlueprints)||
-|static [`VRage.Utils.MyStringId ControlMenuItemLabel_ShowBuildScreen`](Sandbox.Game.Localization.ControlMenuItemLabel_ShowBuildScreen)||
-|static [`VRage.Utils.MyStringId ControlMenuItemLabel_ShowControlPanel`](Sandbox.Game.Localization.ControlMenuItemLabel_ShowControlPanel)||
-|static [`VRage.Utils.MyStringId ControlMenuItemLabel_ShowHelp`](Sandbox.Game.Localization.ControlMenuItemLabel_ShowHelp)||
-|static [`VRage.Utils.MyStringId ControlMenuItemLabel_ShowPlayers`](Sandbox.Game.Localization.ControlMenuItemLabel_ShowPlayers)||
-|static [`VRage.Utils.MyStringId ControlMenuItemLabel_ShowSpawnMenu`](Sandbox.Game.Localization.ControlMenuItemLabel_ShowSpawnMenu)||
-|static [`VRage.Utils.MyStringId ControlMenuItemLabel_ShowTerminal`](Sandbox.Game.Localization.ControlMenuItemLabel_ShowTerminal)||
-|static [`VRage.Utils.MyStringId ControlMenuItemLabel_Terminal`](Sandbox.Game.Localization.ControlMenuItemLabel_Terminal)||
-|static [`VRage.Utils.MyStringId ControlMenuItemLabel_Thrusts`](Sandbox.Game.Localization.ControlMenuItemLabel_Thrusts)||
-|static [`VRage.Utils.MyStringId ControlName_Broadcasting`](Sandbox.Game.Localization.ControlName_Broadcasting)||
-|static [`VRage.Utils.MyStringId ControlName_Console`](Sandbox.Game.Localization.ControlName_Console)||
-|static [`VRage.Utils.MyStringId ControlName_CubeDefaultMountpoint`](Sandbox.Game.Localization.ControlName_CubeDefaultMountpoint)||
-|static [`VRage.Utils.MyStringId ControlName_FirePrimaryWeapon`](Sandbox.Game.Localization.ControlName_FirePrimaryWeapon)||
-|static [`VRage.Utils.MyStringId ControlName_FireSecondaryWeapon`](Sandbox.Game.Localization.ControlName_FireSecondaryWeapon)||
-|static [`VRage.Utils.MyStringId ControlName_Helmet`](Sandbox.Game.Localization.ControlName_Helmet)||
-|static [`VRage.Utils.MyStringId ControlName_InertialDampeners`](Sandbox.Game.Localization.ControlName_InertialDampeners)||
-|static [`VRage.Utils.MyStringId ControlName_InertialDampenersOnOff`](Sandbox.Game.Localization.ControlName_InertialDampenersOnOff)||
-|static [`VRage.Utils.MyStringId ControlName_Jetpack`](Sandbox.Game.Localization.ControlName_Jetpack)||
-|static [`VRage.Utils.MyStringId ControlName_LandingGear`](Sandbox.Game.Localization.ControlName_LandingGear)||
-|static [`VRage.Utils.MyStringId ControlName_MissionSettings`](Sandbox.Game.Localization.ControlName_MissionSettings)||
-|static [`VRage.Utils.MyStringId ControlName_PowerSwitchOnOff`](Sandbox.Game.Localization.ControlName_PowerSwitchOnOff)||
-|static [`VRage.Utils.MyStringId ControlName_RollLeft`](Sandbox.Game.Localization.ControlName_RollLeft)||
-|static [`VRage.Utils.MyStringId ControlName_RollRight`](Sandbox.Game.Localization.ControlName_RollRight)||
-|static [`VRage.Utils.MyStringId ControlName_RotationDown`](Sandbox.Game.Localization.ControlName_RotationDown)||
-|static [`VRage.Utils.MyStringId ControlName_RotationLeft`](Sandbox.Game.Localization.ControlName_RotationLeft)||
-|static [`VRage.Utils.MyStringId ControlName_RotationRight`](Sandbox.Game.Localization.ControlName_RotationRight)||
-|static [`VRage.Utils.MyStringId ControlName_RotationUp`](Sandbox.Game.Localization.ControlName_RotationUp)||
-|static [`VRage.Utils.MyStringId ControlName_SymmetrySwitch`](Sandbox.Game.Localization.ControlName_SymmetrySwitch)||
-|static [`VRage.Utils.MyStringId ControlName_TerminalOrInventory`](Sandbox.Game.Localization.ControlName_TerminalOrInventory)||
-|static [`VRage.Utils.MyStringId ControlName_ToggleHeadlights`](Sandbox.Game.Localization.ControlName_ToggleHeadlights)||
-|static [`VRage.Utils.MyStringId ControlName_UseSymmetry`](Sandbox.Game.Localization.ControlName_UseSymmetry)||
-|static [`VRage.Utils.MyStringId ControlPanel`](Sandbox.Game.Localization.ControlPanel)||
-|static [`VRage.Utils.MyStringId ControlRemote`](Sandbox.Game.Localization.ControlRemote)||
-|static [`VRage.Utils.MyStringId ControlScreen_GridBlocksLabel`](Sandbox.Game.Localization.ControlScreen_GridBlocksLabel)||
-|static [`VRage.Utils.MyStringId ControlScreen_ShareCombobox`](Sandbox.Game.Localization.ControlScreen_ShareCombobox)||
-|static [`VRage.Utils.MyStringId ControlScreen_ShareComboboxDisabled`](Sandbox.Game.Localization.ControlScreen_ShareComboboxDisabled)||
-|static [`VRage.Utils.MyStringId ControlScreen_ShareLabel`](Sandbox.Game.Localization.ControlScreen_ShareLabel)||
-|static [`VRage.Utils.MyStringId ControlScreen_TerminalBlockGroup`](Sandbox.Game.Localization.ControlScreen_TerminalBlockGroup)||
-|static [`VRage.Utils.MyStringId ControlScreen_TerminalBlockGroupDelete`](Sandbox.Game.Localization.ControlScreen_TerminalBlockGroupDelete)||
-|static [`VRage.Utils.MyStringId ControlScreen_TerminalBlockGroupDeleteDisabled`](Sandbox.Game.Localization.ControlScreen_TerminalBlockGroupDeleteDisabled)||
-|static [`VRage.Utils.MyStringId ControlScreen_TerminalBlockGroupSave`](Sandbox.Game.Localization.ControlScreen_TerminalBlockGroupSave)||
-|static [`VRage.Utils.MyStringId ControlScreen_TerminalBlockGroupSaveDisabled`](Sandbox.Game.Localization.ControlScreen_TerminalBlockGroupSaveDisabled)||
-|static [`VRage.Utils.MyStringId ControlScreen_TransferCombobox`](Sandbox.Game.Localization.ControlScreen_TransferCombobox)||
-|static [`VRage.Utils.MyStringId CopyObject`](Sandbox.Game.Localization.CopyObject)||
-|static [`VRage.Utils.MyStringId CopyObjectDetached`](Sandbox.Game.Localization.CopyObjectDetached)||
-|static [`VRage.Utils.MyStringId CreateFromClipboard`](Sandbox.Game.Localization.CreateFromClipboard)||
-|static [`VRage.Utils.MyStringId CreateManageBlueprints`](Sandbox.Game.Localization.CreateManageBlueprints)||
-|static [`VRage.Utils.MyStringId CubeBuilder_CubeSizeModeChange`](Sandbox.Game.Localization.CubeBuilder_CubeSizeModeChange)||
-|static [`VRage.Utils.MyStringId CustomShipName_LargeShip`](Sandbox.Game.Localization.CustomShipName_LargeShip)||
-|static [`VRage.Utils.MyStringId CustomShipName_Platform`](Sandbox.Game.Localization.CustomShipName_Platform)||
-|static [`VRage.Utils.MyStringId CustomShipName_SmallShip`](Sandbox.Game.Localization.CustomShipName_SmallShip)||
-|static [`VRage.Utils.MyStringId CustomWorld_CrashedRedShip`](Sandbox.Game.Localization.CustomWorld_CrashedRedShip)||
-|static [`VRage.Utils.MyStringId CustomWorld_DeadDropArena`](Sandbox.Game.Localization.CustomWorld_DeadDropArena)||
-|static [`VRage.Utils.MyStringId CustomWorld_EasyStartAlien`](Sandbox.Game.Localization.CustomWorld_EasyStartAlien)||
-|static [`VRage.Utils.MyStringId CustomWorld_EasyStartEarth`](Sandbox.Game.Localization.CustomWorld_EasyStartEarth)||
-|static [`VRage.Utils.MyStringId CustomWorld_EasyStartGreen`](Sandbox.Game.Localization.CustomWorld_EasyStartGreen)||
-|static [`VRage.Utils.MyStringId CustomWorld_EasyStartMars`](Sandbox.Game.Localization.CustomWorld_EasyStartMars)||
-|static [`VRage.Utils.MyStringId CustomWorld_EasyStartMoon`](Sandbox.Game.Localization.CustomWorld_EasyStartMoon)||
-|static [`VRage.Utils.MyStringId CustomWorld_EasyStartSpace`](Sandbox.Game.Localization.CustomWorld_EasyStartSpace)||
-|static [`VRage.Utils.MyStringId CustomWorld_EmptyWorld`](Sandbox.Game.Localization.CustomWorld_EmptyWorld)||
-|static [`VRage.Utils.MyStringId CustomWorld_LoneSurvivor`](Sandbox.Game.Localization.CustomWorld_LoneSurvivor)||
-|static [`VRage.Utils.MyStringId CustomWorld_RivalPlatforms`](Sandbox.Game.Localization.CustomWorld_RivalPlatforms)||
-|static [`VRage.Utils.MyStringId CustomWorld_StarSystem`](Sandbox.Game.Localization.CustomWorld_StarSystem)||
-|static [`VRage.Utils.MyStringId CutObject`](Sandbox.Game.Localization.CutObject)||
-|static [`VRage.Utils.MyStringId CutsceneToolsButton`](Sandbox.Game.Localization.CutsceneToolsButton)||
-|static [`VRage.Utils.MyStringId CycleHUD`](Sandbox.Game.Localization.CycleHUD)||
-|static [`VRage.Utils.MyStringId Dampeners`](Sandbox.Game.Localization.Dampeners)||
-|static [`VRage.Utils.MyStringId Default_Astronaut`](Sandbox.Game.Localization.Default_Astronaut)||
-|static [`VRage.Utils.MyStringId Default_Astronaut_Female`](Sandbox.Game.Localization.Default_Astronaut_Female)||
-|static [`VRage.Utils.MyStringId DefinitionError_BlockWithComputerNotTerminalBlock`](Sandbox.Game.Localization.DefinitionError_BlockWithComputerNotTerminalBlock)||
-|static [`VRage.Utils.MyStringId DeleteBlueprintQuestion`](Sandbox.Game.Localization.DeleteBlueprintQuestion)||
-|static [`VRage.Utils.MyStringId DeleteEntity`](Sandbox.Game.Localization.DeleteEntity)||
-|static [`VRage.Utils.MyStringId DeleteObject`](Sandbox.Game.Localization.DeleteObject)||
-|static [`VRage.Utils.MyStringId Department_AdditionalArtists`](Sandbox.Game.Localization.Department_AdditionalArtists)||
-|static [`VRage.Utils.MyStringId Department_AdditionalDesigners`](Sandbox.Game.Localization.Department_AdditionalDesigners)||
-|static [`VRage.Utils.MyStringId Department_AdditionalProgrammers`](Sandbox.Game.Localization.Department_AdditionalProgrammers)||
-|static [`VRage.Utils.MyStringId Department_AdditionalTesters`](Sandbox.Game.Localization.Department_AdditionalTesters)||
-|static [`VRage.Utils.MyStringId Department_Artists`](Sandbox.Game.Localization.Department_Artists)||
-|static [`VRage.Utils.MyStringId Department_AssistentProducer`](Sandbox.Game.Localization.Department_AssistentProducer)||
-|static [`VRage.Utils.MyStringId Department_CommunityManagers`](Sandbox.Game.Localization.Department_CommunityManagers)||
-|static [`VRage.Utils.MyStringId Department_CommunityPr`](Sandbox.Game.Localization.Department_CommunityPr)||
-|static [`VRage.Utils.MyStringId Department_ExecutiveProducer`](Sandbox.Game.Localization.Department_ExecutiveProducer)||
-|static [`VRage.Utils.MyStringId Department_GameDesigners`](Sandbox.Game.Localization.Department_GameDesigners)||
-|static [`VRage.Utils.MyStringId Department_LeadProducer`](Sandbox.Game.Localization.Department_LeadProducer)||
-|static [`VRage.Utils.MyStringId Department_LeadProgrammers`](Sandbox.Game.Localization.Department_LeadProgrammers)||
-|static [`VRage.Utils.MyStringId Department_LeadTester`](Sandbox.Game.Localization.Department_LeadTester)||
-|static [`VRage.Utils.MyStringId Department_ModContributors`](Sandbox.Game.Localization.Department_ModContributors)||
-|static [`VRage.Utils.MyStringId Department_MoreInfo`](Sandbox.Game.Localization.Department_MoreInfo)||
-|static [`VRage.Utils.MyStringId Department_Music`](Sandbox.Game.Localization.Department_Music)||
-|static [`VRage.Utils.MyStringId Department_Office`](Sandbox.Game.Localization.Department_Office)||
-|static [`VRage.Utils.MyStringId Department_Programmers`](Sandbox.Game.Localization.Department_Programmers)||
-|static [`VRage.Utils.MyStringId Department_SoundDesign`](Sandbox.Game.Localization.Department_SoundDesign)||
-|static [`VRage.Utils.MyStringId Department_SpecialThanks`](Sandbox.Game.Localization.Department_SpecialThanks)||
-|static [`VRage.Utils.MyStringId Department_Testers`](Sandbox.Game.Localization.Department_Testers)||
-|static [`VRage.Utils.MyStringId Department_Translators`](Sandbox.Game.Localization.Department_Translators)||
-|static [`VRage.Utils.MyStringId Depower`](Sandbox.Game.Localization.Depower)||
-|static [`VRage.Utils.MyStringId Description_NotAvailable`](Sandbox.Game.Localization.Description_NotAvailable)||
-|static [`VRage.Utils.MyStringId Description_Welder`](Sandbox.Game.Localization.Description_Welder)||
-|static [`VRage.Utils.MyStringId Description_AngleGrinder`](Sandbox.Game.Localization.Description_AngleGrinder)||
-|static [`VRage.Utils.MyStringId Description_HandDrill`](Sandbox.Game.Localization.Description_HandDrill)||
-|static [`VRage.Utils.MyStringId Description_Rifle`](Sandbox.Game.Localization.Description_Rifle)||
-|static [`VRage.Utils.MyStringId Description_LightArmor`](Sandbox.Game.Localization.Description_LightArmor)||
-|static [`VRage.Utils.MyStringId Description_HeavyArmor`](Sandbox.Game.Localization.Description_HeavyArmor)||
-|static [`VRage.Utils.MyStringId Description_AdvancedRotor`](Sandbox.Game.Localization.Description_AdvancedRotor)||
-|static [`VRage.Utils.MyStringId Description_AdvancedRotorPart`](Sandbox.Game.Localization.Description_AdvancedRotorPart)||
-|static [`VRage.Utils.MyStringId Description_AirVent`](Sandbox.Game.Localization.Description_AirVent)||
-|static [`VRage.Utils.MyStringId Description_RadioAntenna`](Sandbox.Game.Localization.Description_RadioAntenna)||
-|static [`VRage.Utils.MyStringId Description_VirtualMass`](Sandbox.Game.Localization.Description_VirtualMass)||
-|static [`VRage.Utils.MyStringId Description_Assembler`](Sandbox.Game.Localization.Description_Assembler)||
-|static [`VRage.Utils.MyStringId Description_AtmosphericThrust`](Sandbox.Game.Localization.Description_AtmosphericThrust)||
-|static [`VRage.Utils.MyStringId Description_Battery`](Sandbox.Game.Localization.Description_Battery)||
-|static [`VRage.Utils.MyStringId Description_Beacon`](Sandbox.Game.Localization.Description_Beacon)||
-|static [`VRage.Utils.MyStringId Description_ButtonPanel`](Sandbox.Game.Localization.Description_ButtonPanel)||
-|static [`VRage.Utils.MyStringId Description_Camera`](Sandbox.Game.Localization.Description_Camera)||
-|static [`VRage.Utils.MyStringId Description_SmallCargoContainer`](Sandbox.Game.Localization.Description_SmallCargoContainer)||
-|static [`VRage.Utils.MyStringId Description_MediumCargoContainer`](Sandbox.Game.Localization.Description_MediumCargoContainer)||
-|static [`VRage.Utils.MyStringId Description_LargeCargoContainer`](Sandbox.Game.Localization.Description_LargeCargoContainer)||
-|static [`VRage.Utils.MyStringId Description_SteelCatwalk`](Sandbox.Game.Localization.Description_SteelCatwalk)||
-|static [`VRage.Utils.MyStringId Description_SpaceBall`](Sandbox.Game.Localization.Description_SpaceBall)||
-|static [`VRage.Utils.MyStringId Description_Cockpit`](Sandbox.Game.Localization.Description_Cockpit)||
-|static [`VRage.Utils.MyStringId Description_FighterCockpit`](Sandbox.Game.Localization.Description_FighterCockpit)||
-|static [`VRage.Utils.MyStringId Description_Collector`](Sandbox.Game.Localization.Description_Collector)||
-|static [`VRage.Utils.MyStringId Description_Connector`](Sandbox.Game.Localization.Description_Connector)||
-|static [`VRage.Utils.MyStringId Description_ControlPanel`](Sandbox.Game.Localization.Description_ControlPanel)||
-|static [`VRage.Utils.MyStringId Description_ControlStation`](Sandbox.Game.Localization.Description_ControlStation)||
-|static [`VRage.Utils.MyStringId Descripton_ConveyorJunction`](Sandbox.Game.Localization.Descripton_ConveyorJunction)||
-|static [`VRage.Utils.MyStringId Description_ConveyorSorter`](Sandbox.Game.Localization.Description_ConveyorSorter)||
-|static [`VRage.Utils.MyStringId Description_ConveyorTube`](Sandbox.Game.Localization.Description_ConveyorTube)||
-|static [`VRage.Utils.MyStringId Description_CornerLight`](Sandbox.Game.Localization.Description_CornerLight)||
-|static [`VRage.Utils.MyStringId Description_CryoChamber`](Sandbox.Game.Localization.Description_CryoChamber)||
-|static [`VRage.Utils.MyStringId Description_Decoy`](Sandbox.Game.Localization.Description_Decoy)||
-|static [`VRage.Utils.MyStringId Description_Door`](Sandbox.Game.Localization.Description_Door)||
-|static [`VRage.Utils.MyStringId Description_Drill`](Sandbox.Game.Localization.Description_Drill)||
-|static [`VRage.Utils.MyStringId Description_Ejector`](Sandbox.Game.Localization.Description_Ejector)||
-|static [`VRage.Utils.MyStringId Description_FlightSeat`](Sandbox.Game.Localization.Description_FlightSeat)||
-|static [`VRage.Utils.MyStringId Description_FullCoverWall`](Sandbox.Game.Localization.Description_FullCoverWall)||
-|static [`VRage.Utils.MyStringId Description_GatlingGun`](Sandbox.Game.Localization.Description_GatlingGun)||
-|static [`VRage.Utils.MyStringId Description_GatlingTurret`](Sandbox.Game.Localization.Description_GatlingTurret)||
-|static [`VRage.Utils.MyStringId Description_GravityGenerator`](Sandbox.Game.Localization.Description_GravityGenerator)||
-|static [`VRage.Utils.MyStringId Description_GravityGeneratorSphere`](Sandbox.Game.Localization.Description_GravityGeneratorSphere)||
-|static [`VRage.Utils.MyStringId Description_ShipGrinder`](Sandbox.Game.Localization.Description_ShipGrinder)||
-|static [`VRage.Utils.MyStringId Description_Gyroscope`](Sandbox.Game.Localization.Description_Gyroscope)||
-|static [`VRage.Utils.MyStringId Description_HangarDoor`](Sandbox.Game.Localization.Description_HangarDoor)||
-|static [`VRage.Utils.MyStringId Description_HydrogenTank`](Sandbox.Game.Localization.Description_HydrogenTank)||
-|static [`VRage.Utils.MyStringId Description_HydrogenThrust`](Sandbox.Game.Localization.Description_HydrogenThrust)||
-|static [`VRage.Utils.MyStringId Description_InteriorLight`](Sandbox.Game.Localization.Description_InteriorLight)||
-|static [`VRage.Utils.MyStringId Description_InteriorPillar`](Sandbox.Game.Localization.Description_InteriorPillar)||
-|static [`VRage.Utils.MyStringId Description_InteriorTurret`](Sandbox.Game.Localization.Description_InteriorTurret)||
-|static [`VRage.Utils.MyStringId Description_InteriorWall`](Sandbox.Game.Localization.Description_InteriorWall)||
-|static [`VRage.Utils.MyStringId Description_IonThrust`](Sandbox.Game.Localization.Description_IonThrust)||
-|static [`VRage.Utils.MyStringId Description_JumpDrive`](Sandbox.Game.Localization.Description_JumpDrive)||
-|static [`VRage.Utils.MyStringId Description_TextPanel`](Sandbox.Game.Localization.Description_TextPanel)||
-|static [`VRage.Utils.MyStringId Description_LandingGear`](Sandbox.Game.Localization.Description_LandingGear)||
-|static [`VRage.Utils.MyStringId Description_LaserAntenna`](Sandbox.Game.Localization.Description_LaserAntenna)||
-|static [`VRage.Utils.MyStringId Description_MedicalRoom`](Sandbox.Game.Localization.Description_MedicalRoom)||
-|static [`VRage.Utils.MyStringId Description_MergeBlock`](Sandbox.Game.Localization.Description_MergeBlock)||
-|static [`VRage.Utils.MyStringId Description_MissileTurret`](Sandbox.Game.Localization.Description_MissileTurret)||
-|static [`VRage.Utils.MyStringId Description_ProductivityModule`](Sandbox.Game.Localization.Description_ProductivityModule)||
-|static [`VRage.Utils.MyStringId Description_EffectivenessModule`](Sandbox.Game.Localization.Description_EffectivenessModule)||
-|static [`VRage.Utils.MyStringId Description_PowerEfficiencyModule`](Sandbox.Game.Localization.Description_PowerEfficiencyModule)||
-|static [`VRage.Utils.MyStringId Description_OreDetector`](Sandbox.Game.Localization.Description_OreDetector)||
-|static [`VRage.Utils.MyStringId Description_OxygenFarm`](Sandbox.Game.Localization.Description_OxygenFarm)||
-|static [`VRage.Utils.MyStringId Description_OxygenGenerator`](Sandbox.Game.Localization.Description_OxygenGenerator)||
-|static [`VRage.Utils.MyStringId Description_OxygenTank`](Sandbox.Game.Localization.Description_OxygenTank)||
-|static [`VRage.Utils.MyStringId Description_ParachuteHatch`](Sandbox.Game.Localization.Description_ParachuteHatch)||
-|static [`VRage.Utils.MyStringId Description_Passage`](Sandbox.Game.Localization.Description_Passage)||
-|static [`VRage.Utils.MyStringId Description_PassengerSeat`](Sandbox.Game.Localization.Description_PassengerSeat)||
-|static [`VRage.Utils.MyStringId Description_Piston`](Sandbox.Game.Localization.Description_Piston)||
-|static [`VRage.Utils.MyStringId Description_PistonTop`](Sandbox.Game.Localization.Description_PistonTop)||
-|static [`VRage.Utils.MyStringId Description_ProgrammableBlock`](Sandbox.Game.Localization.Description_ProgrammableBlock)||
-|static [`VRage.Utils.MyStringId Description_Projector`](Sandbox.Game.Localization.Description_Projector)||
-|static [`VRage.Utils.MyStringId Description_Ramp`](Sandbox.Game.Localization.Description_Ramp)||
-|static [`VRage.Utils.MyStringId Description_Reactor`](Sandbox.Game.Localization.Description_Reactor)||
-|static [`VRage.Utils.MyStringId Description_Refinery`](Sandbox.Game.Localization.Description_Refinery)||
-|static [`VRage.Utils.MyStringId Description_RefineryBasic`](Sandbox.Game.Localization.Description_RefineryBasic)||
-|static [`VRage.Utils.MyStringId Description_RocketLauncherReload`](Sandbox.Game.Localization.Description_RocketLauncherReload)||
-|static [`VRage.Utils.MyStringId Description_RemoteControl`](Sandbox.Game.Localization.Description_RemoteControl)||
-|static [`VRage.Utils.MyStringId Description_RocketLauncher`](Sandbox.Game.Localization.Description_RocketLauncher)||
-|static [`VRage.Utils.MyStringId Description_Rotor`](Sandbox.Game.Localization.Description_Rotor)||
-|static [`VRage.Utils.MyStringId Description_RotorPart`](Sandbox.Game.Localization.Description_RotorPart)||
-|static [`VRage.Utils.MyStringId Description_Sensor`](Sandbox.Game.Localization.Description_Sensor)||
-|static [`VRage.Utils.MyStringId Description_SolarPanel`](Sandbox.Game.Localization.Description_SolarPanel)||
-|static [`VRage.Utils.MyStringId Description_Sound`](Sandbox.Game.Localization.Description_Sound)||
-|static [`VRage.Utils.MyStringId Description_ReflectorLight`](Sandbox.Game.Localization.Description_ReflectorLight)||
-|static [`VRage.Utils.MyStringId Description_Stairs`](Sandbox.Game.Localization.Description_Stairs)||
-|static [`VRage.Utils.MyStringId Description_Timer`](Sandbox.Game.Localization.Description_Timer)||
-|static [`VRage.Utils.MyStringId Description_Warhead`](Sandbox.Game.Localization.Description_Warhead)||
-|static [`VRage.Utils.MyStringId Description_ShipWelder`](Sandbox.Game.Localization.Description_ShipWelder)||
-|static [`VRage.Utils.MyStringId Description_Wheel`](Sandbox.Game.Localization.Description_Wheel)||
-|static [`VRage.Utils.MyStringId Description_Suspension`](Sandbox.Game.Localization.Description_Suspension)||
-|static [`VRage.Utils.MyStringId Description_Window`](Sandbox.Game.Localization.Description_Window)||
-|static [`VRage.Utils.MyStringId Description_VerticalWindow`](Sandbox.Game.Localization.Description_VerticalWindow)||
-|static [`VRage.Utils.MyStringId Description_DiagonalWindow`](Sandbox.Game.Localization.Description_DiagonalWindow)||
-|static [`VRage.Utils.MyStringId DetailScreen_Button_Close`](Sandbox.Game.Localization.DetailScreen_Button_Close)||
-|static [`VRage.Utils.MyStringId DetailScreen_Button_Delete`](Sandbox.Game.Localization.DetailScreen_Button_Delete)||
-|static [`VRage.Utils.MyStringId DetailScreen_Button_OpenInWorkshop`](Sandbox.Game.Localization.DetailScreen_Button_OpenInWorkshop)||
-|static [`VRage.Utils.MyStringId DetailScreen_Button_OpenWorkshop`](Sandbox.Game.Localization.DetailScreen_Button_OpenWorkshop)||
-|static [`VRage.Utils.MyStringId DetailScreen_Button_Publish`](Sandbox.Game.Localization.DetailScreen_Button_Publish)||
-|static [`VRage.Utils.MyStringId DetailScreen_Button_Rename`](Sandbox.Game.Localization.DetailScreen_Button_Rename)||
-|static [`VRage.Utils.MyStringId DetailScreen_Button_SendToPlayer`](Sandbox.Game.Localization.DetailScreen_Button_SendToPlayer)||
-|static [`VRage.Utils.MyStringId DetectedEntity_Asteroid`](Sandbox.Game.Localization.DetectedEntity_Asteroid)||
-|static [`VRage.Utils.MyStringId DetectedEntity_CharacterHuman`](Sandbox.Game.Localization.DetectedEntity_CharacterHuman)||
-|static [`VRage.Utils.MyStringId DetectedEntity_CharacterOther`](Sandbox.Game.Localization.DetectedEntity_CharacterOther)||
-|static [`VRage.Utils.MyStringId DetectedEntity_LargeGrid`](Sandbox.Game.Localization.DetectedEntity_LargeGrid)||
-|static [`VRage.Utils.MyStringId DetectedEntity_Meteor`](Sandbox.Game.Localization.DetectedEntity_Meteor)||
-|static [`VRage.Utils.MyStringId DetectedEntity_Planet`](Sandbox.Game.Localization.DetectedEntity_Planet)||
-|static [`VRage.Utils.MyStringId DetectedEntity_SmallGrid`](Sandbox.Game.Localization.DetectedEntity_SmallGrid)||
-|static [`VRage.Utils.MyStringId DetectedEntity_Unknown`](Sandbox.Game.Localization.DetectedEntity_Unknown)||
-|static [`VRage.Utils.MyStringId DialogTextJoinBattleFailed`](Sandbox.Game.Localization.DialogTextJoinBattleFailed)||
-|static [`VRage.Utils.MyStringId DialogTextJoiningBattle`](Sandbox.Game.Localization.DialogTextJoiningBattle)||
-|static [`VRage.Utils.MyStringId DialogTextJoiningScenario`](Sandbox.Game.Localization.DialogTextJoiningScenario)||
-|static [`VRage.Utils.MyStringId DialogText_RunArgument`](Sandbox.Game.Localization.DialogText_RunArgument)||
-|static [`VRage.Utils.MyStringId Difficulty`](Sandbox.Game.Localization.Difficulty)||
-|static [`VRage.Utils.MyStringId DifficultyEasy`](Sandbox.Game.Localization.DifficultyEasy)||
-|static [`VRage.Utils.MyStringId DifficultyHard`](Sandbox.Game.Localization.DifficultyHard)||
-|static [`VRage.Utils.MyStringId DifficultyNormal`](Sandbox.Game.Localization.DifficultyNormal)||
-|static [`VRage.Utils.MyStringId DisableTransformation`](Sandbox.Game.Localization.DisableTransformation)||
-|static [`VRage.Utils.MyStringId DisplayName`](Sandbox.Game.Localization.DisplayName)||
-|static [`VRage.Utils.MyStringId DisplayName_AlienLander`](Sandbox.Game.Localization.DisplayName_AlienLander)||
-|static [`VRage.Utils.MyStringId DisplayName_Animation_SpiderAttackBite`](Sandbox.Game.Localization.DisplayName_Animation_SpiderAttackBite)||
-|static [`VRage.Utils.MyStringId DisplayName_Animation_SpiderAttackLegs`](Sandbox.Game.Localization.DisplayName_Animation_SpiderAttackLegs)||
-|static [`VRage.Utils.MyStringId DisplayName_Animation_SpiderAttackStinger`](Sandbox.Game.Localization.DisplayName_Animation_SpiderAttackStinger)||
-|static [`VRage.Utils.MyStringId DisplayName_Animation_SpiderBurrow`](Sandbox.Game.Localization.DisplayName_Animation_SpiderBurrow)||
-|static [`VRage.Utils.MyStringId DisplayName_Animation_SpiderDeburrow`](Sandbox.Game.Localization.DisplayName_Animation_SpiderDeburrow)||
-|static [`VRage.Utils.MyStringId DisplayName_Animation_ThumbUp`](Sandbox.Game.Localization.DisplayName_Animation_ThumbUp)||
-|static [`VRage.Utils.MyStringId DisplayName_Animation_Victory`](Sandbox.Game.Localization.DisplayName_Animation_Victory)||
-|static [`VRage.Utils.MyStringId DisplayName_Animation_Wave`](Sandbox.Game.Localization.DisplayName_Animation_Wave)||
-|static [`VRage.Utils.MyStringId DisplayName_AstronautBackpack`](Sandbox.Game.Localization.DisplayName_AstronautBackpack)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_AdvancedRotor`](Sandbox.Game.Localization.DisplayName_Block_AdvancedRotor)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_AdvancedRotorPart`](Sandbox.Game.Localization.DisplayName_Block_AdvancedRotorPart)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_AirtightHangarDoor`](Sandbox.Game.Localization.DisplayName_Block_AirtightHangarDoor)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_AirtightSlideDoor`](Sandbox.Game.Localization.DisplayName_Block_AirtightSlideDoor)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_AirVent`](Sandbox.Game.Localization.DisplayName_Block_AirVent)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Ammo_Assembler`](Sandbox.Game.Localization.DisplayName_Block_Ammo_Assembler)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Antenna`](Sandbox.Game.Localization.DisplayName_Block_Antenna)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Arc_Furnace`](Sandbox.Game.Localization.DisplayName_Block_Arc_Furnace)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_ArmorCenter`](Sandbox.Game.Localization.DisplayName_Block_ArmorCenter)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_ArmorCorner`](Sandbox.Game.Localization.DisplayName_Block_ArmorCorner)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_ArmorInvCorner`](Sandbox.Game.Localization.DisplayName_Block_ArmorInvCorner)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_ArmorSide`](Sandbox.Game.Localization.DisplayName_Block_ArmorSide)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Assembler`](Sandbox.Game.Localization.DisplayName_Block_Assembler)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Base_Components_Assembler`](Sandbox.Game.Localization.DisplayName_Block_Base_Components_Assembler)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Battery`](Sandbox.Game.Localization.DisplayName_Block_Battery)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Beacon`](Sandbox.Game.Localization.DisplayName_Block_Beacon)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Big_Arc_Furnace`](Sandbox.Game.Localization.DisplayName_Block_Big_Arc_Furnace)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Big_Gas_Centrifugal_Refinery`](Sandbox.Game.Localization.DisplayName_Block_Big_Gas_Centrifugal_Refinery)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Big_Precious_Furnace`](Sandbox.Game.Localization.DisplayName_Block_Big_Precious_Furnace)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Big_Solids_Refinery`](Sandbox.Game.Localization.DisplayName_Block_Big_Solids_Refinery)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_ButtonPanel`](Sandbox.Game.Localization.DisplayName_Block_ButtonPanel)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Camera`](Sandbox.Game.Localization.DisplayName_Block_Camera)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Cockpit1`](Sandbox.Game.Localization.DisplayName_Block_Cockpit1)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Cockpit2`](Sandbox.Game.Localization.DisplayName_Block_Cockpit2)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Cockpit3`](Sandbox.Game.Localization.DisplayName_Block_Cockpit3)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Collector`](Sandbox.Game.Localization.DisplayName_Block_Collector)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Connector`](Sandbox.Game.Localization.DisplayName_Block_Connector)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_ConnectorSmall`](Sandbox.Game.Localization.DisplayName_Block_ConnectorSmall)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Construction_Components_Assembler`](Sandbox.Game.Localization.DisplayName_Block_Construction_Components_Assembler)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_ControlPanel`](Sandbox.Game.Localization.DisplayName_Block_ControlPanel)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Conveyor`](Sandbox.Game.Localization.DisplayName_Block_Conveyor)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_ConveyorFrame`](Sandbox.Game.Localization.DisplayName_Block_ConveyorFrame)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_ConveyorSmall`](Sandbox.Game.Localization.DisplayName_Block_ConveyorSmall)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_ConveyorSorter`](Sandbox.Game.Localization.DisplayName_Block_ConveyorSorter)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_ConveyorTube`](Sandbox.Game.Localization.DisplayName_Block_ConveyorTube)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_ConveyorTubeCurved`](Sandbox.Game.Localization.DisplayName_Block_ConveyorTubeCurved)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_ConveyorTubeCurvedSmall`](Sandbox.Game.Localization.DisplayName_Block_ConveyorTubeCurvedSmall)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_ConveyorTubeMedium`](Sandbox.Game.Localization.DisplayName_Block_ConveyorTubeMedium)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_ConveyorTubeSmall`](Sandbox.Game.Localization.DisplayName_Block_ConveyorTubeSmall)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_CornerLCD`](Sandbox.Game.Localization.DisplayName_Block_CornerLCD)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_CornerLCD2`](Sandbox.Game.Localization.DisplayName_Block_CornerLCD2)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_CornerLCDFlatBottom`](Sandbox.Game.Localization.DisplayName_Block_CornerLCDFlatBottom)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_CornerLCDFlatTop`](Sandbox.Game.Localization.DisplayName_Block_CornerLCDFlatTop)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_CornerLight`](Sandbox.Game.Localization.DisplayName_Block_CornerLight)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_CornerLightDouble`](Sandbox.Game.Localization.DisplayName_Block_CornerLightDouble)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_CryoChamber`](Sandbox.Game.Localization.DisplayName_Block_CryoChamber)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_DebugSphere1`](Sandbox.Game.Localization.DisplayName_Block_DebugSphere1)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_DebugSphere2`](Sandbox.Game.Localization.DisplayName_Block_DebugSphere2)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_DebugSphere3`](Sandbox.Game.Localization.DisplayName_Block_DebugSphere3)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Decoy`](Sandbox.Game.Localization.DisplayName_Block_Decoy)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_DiagonalWindow`](Sandbox.Game.Localization.DisplayName_Block_DiagonalWindow)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Door`](Sandbox.Game.Localization.DisplayName_Block_Door)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Drill`](Sandbox.Game.Localization.DisplayName_Block_Drill)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_EffectivenessModule`](Sandbox.Game.Localization.DisplayName_Block_EffectivenessModule)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Electronics_Assembler`](Sandbox.Game.Localization.DisplayName_Block_Electronics_Assembler)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_FighterCockpit`](Sandbox.Game.Localization.DisplayName_Block_FighterCockpit)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_FullCoverWall`](Sandbox.Game.Localization.DisplayName_Block_FullCoverWall)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_GatlingGun`](Sandbox.Game.Localization.DisplayName_Block_GatlingGun)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_GatlingTurret`](Sandbox.Game.Localization.DisplayName_Block_GatlingTurret)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_GravityGenerator`](Sandbox.Game.Localization.DisplayName_Block_GravityGenerator)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_GravityGeneratorSphere`](Sandbox.Game.Localization.DisplayName_Block_GravityGeneratorSphere)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Gyroscope`](Sandbox.Game.Localization.DisplayName_Block_Gyroscope)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_HalfCoverWall`](Sandbox.Game.Localization.DisplayName_Block_HalfCoverWall)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_HalfHeavyArmorBlock`](Sandbox.Game.Localization.DisplayName_Block_HalfHeavyArmorBlock)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_HalfLightArmorBlock`](Sandbox.Game.Localization.DisplayName_Block_HalfLightArmorBlock)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_HalfSlopeHeavyArmorBlock`](Sandbox.Game.Localization.DisplayName_Block_HalfSlopeHeavyArmorBlock)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_HalfSlopeLightArmorBlock`](Sandbox.Game.Localization.DisplayName_Block_HalfSlopeLightArmorBlock)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_HeavyAngledArmorCorner`](Sandbox.Game.Localization.DisplayName_Block_HeavyAngledArmorCorner)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_HeavyAngledArmorSlope`](Sandbox.Game.Localization.DisplayName_Block_HeavyAngledArmorSlope)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_HeavyArmorBlock`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorBlock)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_HeavyArmorCorner`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorCorner)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_HeavyArmorCorner2`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorCorner2)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_HeavyArmorCorner2Base`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorCorner2Base)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_HeavyArmorCorner2BaseSmooth`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorCorner2BaseSmooth)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_HeavyArmorCorner2Smooth`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorCorner2Smooth)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_HeavyArmorCorner2Tip`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorCorner2Tip)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_HeavyArmorCorner2TipSmooth`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorCorner2TipSmooth)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_HeavyArmorInvCorner`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorInvCorner)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_HeavyArmorInvCorner2`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorInvCorner2)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_HeavyArmorInvCorner2Base`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorInvCorner2Base)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_HeavyArmorInvCorner2BaseSmooth`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorInvCorner2BaseSmooth)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_HeavyArmorInvCorner2Smooth`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorInvCorner2Smooth)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_HeavyArmorInvCorner2Tip`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorInvCorner2Tip)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_HeavyArmorInvCorner2TipSmooth`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorInvCorner2TipSmooth)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_HeavyArmorSlope`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorSlope)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_HeavyArmorSlope2`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorSlope2)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_HeavyArmorSlope2Base`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorSlope2Base)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_HeavyArmorSlope2BaseSmooth`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorSlope2BaseSmooth)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_HeavyArmorSlope2Smooth`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorSlope2Smooth)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_HeavyArmorSlope2Tip`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorSlope2Tip)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_HeavyArmorSlope2TipSmooth`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorSlope2TipSmooth)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_HeavyRoundArmorCorner`](Sandbox.Game.Localization.DisplayName_Block_HeavyRoundArmorCorner)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_HeavyRoundArmorInvCorner`](Sandbox.Game.Localization.DisplayName_Block_HeavyRoundArmorInvCorner)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_HeavyRoundArmorSlope`](Sandbox.Game.Localization.DisplayName_Block_HeavyRoundArmorSlope)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_HeavyRoundedArmorCorner`](Sandbox.Game.Localization.DisplayName_Block_HeavyRoundedArmorCorner)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_HeavyRoundedArmorSlope`](Sandbox.Game.Localization.DisplayName_Block_HeavyRoundedArmorSlope)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_HydrogenTank`](Sandbox.Game.Localization.DisplayName_Block_HydrogenTank)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_HydrogenTankSmall`](Sandbox.Game.Localization.DisplayName_Block_HydrogenTankSmall)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_InteriorLight`](Sandbox.Game.Localization.DisplayName_Block_InteriorLight)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_InteriorPillar`](Sandbox.Game.Localization.DisplayName_Block_InteriorPillar)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_InteriorTurret`](Sandbox.Game.Localization.DisplayName_Block_InteriorTurret)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_InteriorWall`](Sandbox.Game.Localization.DisplayName_Block_InteriorWall)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_JumpDrive`](Sandbox.Game.Localization.DisplayName_Block_JumpDrive)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LandingGear`](Sandbox.Game.Localization.DisplayName_Block_LandingGear)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LargeAtmoThrust`](Sandbox.Game.Localization.DisplayName_Block_LargeAtmoThrust)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LargeCargoContainer`](Sandbox.Game.Localization.DisplayName_Block_LargeCargoContainer)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LargeHydrogenThrust`](Sandbox.Game.Localization.DisplayName_Block_LargeHydrogenThrust)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LargeReactor`](Sandbox.Game.Localization.DisplayName_Block_LargeReactor)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LargeThrust`](Sandbox.Game.Localization.DisplayName_Block_LargeThrust)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LaserAntenna`](Sandbox.Game.Localization.DisplayName_Block_LaserAntenna)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LightAngledArmorCorner`](Sandbox.Game.Localization.DisplayName_Block_LightAngledArmorCorner)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LightAngledArmorSlope`](Sandbox.Game.Localization.DisplayName_Block_LightAngledArmorSlope)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LightArmorBlock`](Sandbox.Game.Localization.DisplayName_Block_LightArmorBlock)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LightArmorCorner`](Sandbox.Game.Localization.DisplayName_Block_LightArmorCorner)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LightArmorCorner2`](Sandbox.Game.Localization.DisplayName_Block_LightArmorCorner2)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LightArmorCorner2Base`](Sandbox.Game.Localization.DisplayName_Block_LightArmorCorner2Base)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LightArmorCorner2BaseSmooth`](Sandbox.Game.Localization.DisplayName_Block_LightArmorCorner2BaseSmooth)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LightArmorCorner2Smooth`](Sandbox.Game.Localization.DisplayName_Block_LightArmorCorner2Smooth)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LightArmorCorner2Tip`](Sandbox.Game.Localization.DisplayName_Block_LightArmorCorner2Tip)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LightArmorCorner2TipSmooth`](Sandbox.Game.Localization.DisplayName_Block_LightArmorCorner2TipSmooth)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LightArmorCorner3`](Sandbox.Game.Localization.DisplayName_Block_LightArmorCorner3)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LightArmorCorner3Smooth`](Sandbox.Game.Localization.DisplayName_Block_LightArmorCorner3Smooth)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LightArmorInvCorner`](Sandbox.Game.Localization.DisplayName_Block_LightArmorInvCorner)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LightArmorInvCorner2`](Sandbox.Game.Localization.DisplayName_Block_LightArmorInvCorner2)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LightArmorInvCorner2Base`](Sandbox.Game.Localization.DisplayName_Block_LightArmorInvCorner2Base)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LightArmorInvCorner2BaseSmooth`](Sandbox.Game.Localization.DisplayName_Block_LightArmorInvCorner2BaseSmooth)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LightArmorInvCorner2Smooth`](Sandbox.Game.Localization.DisplayName_Block_LightArmorInvCorner2Smooth)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LightArmorInvCorner2Tip`](Sandbox.Game.Localization.DisplayName_Block_LightArmorInvCorner2Tip)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LightArmorInvCorner2TipSmooth`](Sandbox.Game.Localization.DisplayName_Block_LightArmorInvCorner2TipSmooth)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LightArmorInvCorner3`](Sandbox.Game.Localization.DisplayName_Block_LightArmorInvCorner3)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LightArmorInvCorner3Smooth`](Sandbox.Game.Localization.DisplayName_Block_LightArmorInvCorner3Smooth)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LightArmorSlope`](Sandbox.Game.Localization.DisplayName_Block_LightArmorSlope)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LightArmorSlope2`](Sandbox.Game.Localization.DisplayName_Block_LightArmorSlope2)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LightArmorSlope2Base`](Sandbox.Game.Localization.DisplayName_Block_LightArmorSlope2Base)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LightArmorSlope2BaseSmooth`](Sandbox.Game.Localization.DisplayName_Block_LightArmorSlope2BaseSmooth)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LightArmorSlope2Smooth`](Sandbox.Game.Localization.DisplayName_Block_LightArmorSlope2Smooth)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LightArmorSlope2Tip`](Sandbox.Game.Localization.DisplayName_Block_LightArmorSlope2Tip)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LightArmorSlope2TipSmooth`](Sandbox.Game.Localization.DisplayName_Block_LightArmorSlope2TipSmooth)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LightArmorSlope3`](Sandbox.Game.Localization.DisplayName_Block_LightArmorSlope3)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LightArmorSlope3Smooth`](Sandbox.Game.Localization.DisplayName_Block_LightArmorSlope3Smooth)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LightRoundArmorCorner`](Sandbox.Game.Localization.DisplayName_Block_LightRoundArmorCorner)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LightRoundArmorInvCorner`](Sandbox.Game.Localization.DisplayName_Block_LightRoundArmorInvCorner)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LightRoundArmorSlope`](Sandbox.Game.Localization.DisplayName_Block_LightRoundArmorSlope)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LightRoundedArmorCorner`](Sandbox.Game.Localization.DisplayName_Block_LightRoundedArmorCorner)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_LightRoundedArmorSlope`](Sandbox.Game.Localization.DisplayName_Block_LightRoundedArmorSlope)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_MedicalRoom`](Sandbox.Game.Localization.DisplayName_Block_MedicalRoom)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_MediumCargoContainer`](Sandbox.Game.Localization.DisplayName_Block_MediumCargoContainer)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_MergeBlock`](Sandbox.Game.Localization.DisplayName_Block_MergeBlock)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_MissileTurret`](Sandbox.Game.Localization.DisplayName_Block_MissileTurret)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_OreDetector`](Sandbox.Game.Localization.DisplayName_Block_OreDetector)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_OxygenFarm`](Sandbox.Game.Localization.DisplayName_Block_OxygenFarm)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_OxygenGenerator`](Sandbox.Game.Localization.DisplayName_Block_OxygenGenerator)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_OxygenTank`](Sandbox.Game.Localization.DisplayName_Block_OxygenTank)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_ParachuteHatch`](Sandbox.Game.Localization.DisplayName_Block_ParachuteHatch)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Passage`](Sandbox.Game.Localization.DisplayName_Block_Passage)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_PassengerSeat`](Sandbox.Game.Localization.DisplayName_Block_PassengerSeat)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_PistonBase`](Sandbox.Game.Localization.DisplayName_Block_PistonBase)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_PistonTop`](Sandbox.Game.Localization.DisplayName_Block_PistonTop)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_PowerEfficiencyModule`](Sandbox.Game.Localization.DisplayName_Block_PowerEfficiencyModule)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_ProductivityModule`](Sandbox.Game.Localization.DisplayName_Block_ProductivityModule)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Projector`](Sandbox.Game.Localization.DisplayName_Block_Projector)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Ramp`](Sandbox.Game.Localization.DisplayName_Block_Ramp)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Refinery`](Sandbox.Game.Localization.DisplayName_Block_Refinery)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_ReflectorLight`](Sandbox.Game.Localization.DisplayName_Block_ReflectorLight)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_RemoteControl`](Sandbox.Game.Localization.DisplayName_Block_RemoteControl)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_RocketLauncher`](Sandbox.Game.Localization.DisplayName_Block_RocketLauncher)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Rotor`](Sandbox.Game.Localization.DisplayName_Block_Rotor)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_RotorPart`](Sandbox.Game.Localization.DisplayName_Block_RotorPart)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Sensor`](Sandbox.Game.Localization.DisplayName_Block_Sensor)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_ShipGrinder`](Sandbox.Game.Localization.DisplayName_Block_ShipGrinder)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_ShipWelder`](Sandbox.Game.Localization.DisplayName_Block_ShipWelder)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_SmallAtmoThrust`](Sandbox.Game.Localization.DisplayName_Block_SmallAtmoThrust)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_SmallCargoContainer`](Sandbox.Game.Localization.DisplayName_Block_SmallCargoContainer)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_SmallConveyorSorter`](Sandbox.Game.Localization.DisplayName_Block_SmallConveyorSorter)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_SmallHydrogenThrust`](Sandbox.Game.Localization.DisplayName_Block_SmallHydrogenThrust)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_SmallReactor`](Sandbox.Game.Localization.DisplayName_Block_SmallReactor)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_SmallRocketLauncherReload`](Sandbox.Game.Localization.DisplayName_Block_SmallRocketLauncherReload)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_SmallThrust`](Sandbox.Game.Localization.DisplayName_Block_SmallThrust)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_SolarPanel`](Sandbox.Game.Localization.DisplayName_Block_SolarPanel)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_SoundBlock`](Sandbox.Game.Localization.DisplayName_Block_SoundBlock)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_SpaceBall`](Sandbox.Game.Localization.DisplayName_Block_SpaceBall)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Stairs`](Sandbox.Game.Localization.DisplayName_Block_Stairs)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_SteelCatwalk`](Sandbox.Game.Localization.DisplayName_Block_SteelCatwalk)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_SteelCatwalkCorner`](Sandbox.Game.Localization.DisplayName_Block_SteelCatwalkCorner)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_SteelCatwalkPlate`](Sandbox.Game.Localization.DisplayName_Block_SteelCatwalkPlate)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_SteelCatwalkTwoSides`](Sandbox.Game.Localization.DisplayName_Block_SteelCatwalkTwoSides)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Suspension1x1`](Sandbox.Game.Localization.DisplayName_Block_Suspension1x1)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Suspension1x1mirrored`](Sandbox.Game.Localization.DisplayName_Block_Suspension1x1mirrored)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Suspension3x3`](Sandbox.Game.Localization.DisplayName_Block_Suspension3x3)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Suspension3x3mirrored`](Sandbox.Game.Localization.DisplayName_Block_Suspension3x3mirrored)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Suspension5x5`](Sandbox.Game.Localization.DisplayName_Block_Suspension5x5)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Suspension5x5mirrored`](Sandbox.Game.Localization.DisplayName_Block_Suspension5x5mirrored)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_TextPanel`](Sandbox.Game.Localization.DisplayName_Block_TextPanel)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_TimerBlock`](Sandbox.Game.Localization.DisplayName_Block_TimerBlock)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_VerticalCen`](Sandbox.Game.Localization.DisplayName_Block_VerticalCen)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_VerticalWindow`](Sandbox.Game.Localization.DisplayName_Block_VerticalWindow)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_VirtualMass`](Sandbox.Game.Localization.DisplayName_Block_VirtualMass)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Warhead`](Sandbox.Game.Localization.DisplayName_Block_Warhead)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Wheel1x1`](Sandbox.Game.Localization.DisplayName_Block_Wheel1x1)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Wheel1x1mirrored`](Sandbox.Game.Localization.DisplayName_Block_Wheel1x1mirrored)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Wheel3x3`](Sandbox.Game.Localization.DisplayName_Block_Wheel3x3)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Wheel3x3mirrored`](Sandbox.Game.Localization.DisplayName_Block_Wheel3x3mirrored)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Wheel5x5`](Sandbox.Game.Localization.DisplayName_Block_Wheel5x5)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Wheel5x5mirrored`](Sandbox.Game.Localization.DisplayName_Block_Wheel5x5mirrored)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Window1x1Face`](Sandbox.Game.Localization.DisplayName_Block_Window1x1Face)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Window1x1Flat`](Sandbox.Game.Localization.DisplayName_Block_Window1x1Flat)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Window1x1FlatInv`](Sandbox.Game.Localization.DisplayName_Block_Window1x1FlatInv)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Window1x1Inv`](Sandbox.Game.Localization.DisplayName_Block_Window1x1Inv)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Window1x1Side`](Sandbox.Game.Localization.DisplayName_Block_Window1x1Side)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Window1x1SideInv`](Sandbox.Game.Localization.DisplayName_Block_Window1x1SideInv)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Window1x1Slope`](Sandbox.Game.Localization.DisplayName_Block_Window1x1Slope)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Window1x2Face`](Sandbox.Game.Localization.DisplayName_Block_Window1x2Face)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Window1x2Flat`](Sandbox.Game.Localization.DisplayName_Block_Window1x2Flat)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Window1x2FlatInv`](Sandbox.Game.Localization.DisplayName_Block_Window1x2FlatInv)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Window1x2Inv`](Sandbox.Game.Localization.DisplayName_Block_Window1x2Inv)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Window1x2SideLeft`](Sandbox.Game.Localization.DisplayName_Block_Window1x2SideLeft)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Window1x2SideLeftInv`](Sandbox.Game.Localization.DisplayName_Block_Window1x2SideLeftInv)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Window1x2SideRight`](Sandbox.Game.Localization.DisplayName_Block_Window1x2SideRight)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Window1x2SideRightInv`](Sandbox.Game.Localization.DisplayName_Block_Window1x2SideRightInv)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Window1x2Slope`](Sandbox.Game.Localization.DisplayName_Block_Window1x2Slope)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Window2x3Flat`](Sandbox.Game.Localization.DisplayName_Block_Window2x3Flat)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Window2x3FlatInv`](Sandbox.Game.Localization.DisplayName_Block_Window2x3FlatInv)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Window3x3Flat`](Sandbox.Game.Localization.DisplayName_Block_Window3x3Flat)||
-|static [`VRage.Utils.MyStringId DisplayName_Block_Window3x3FlatInv`](Sandbox.Game.Localization.DisplayName_Block_Window3x3FlatInv)||
-|static [`VRage.Utils.MyStringId DisplayName_BlueprintClass_Ammo`](Sandbox.Game.Localization.DisplayName_BlueprintClass_Ammo)||
-|static [`VRage.Utils.MyStringId DisplayName_BlueprintClass_Base_Components`](Sandbox.Game.Localization.DisplayName_BlueprintClass_Base_Components)||
-|static [`VRage.Utils.MyStringId DisplayName_BlueprintClass_CommonMetals`](Sandbox.Game.Localization.DisplayName_BlueprintClass_CommonMetals)||
-|static [`VRage.Utils.MyStringId DisplayName_BlueprintClass_Components`](Sandbox.Game.Localization.DisplayName_BlueprintClass_Components)||
-|static [`VRage.Utils.MyStringId DisplayName_BlueprintClass_Construction_Components`](Sandbox.Game.Localization.DisplayName_BlueprintClass_Construction_Components)||
-|static [`VRage.Utils.MyStringId DisplayName_BlueprintClass_Electronics`](Sandbox.Game.Localization.DisplayName_BlueprintClass_Electronics)||
-|static [`VRage.Utils.MyStringId DisplayName_BlueprintClass_EnergeticIngots`](Sandbox.Game.Localization.DisplayName_BlueprintClass_EnergeticIngots)||
-|static [`VRage.Utils.MyStringId DisplayName_BlueprintClass_HydrogenBottles`](Sandbox.Game.Localization.DisplayName_BlueprintClass_HydrogenBottles)||
-|static [`VRage.Utils.MyStringId DisplayName_BlueprintClass_Ice`](Sandbox.Game.Localization.DisplayName_BlueprintClass_Ice)||
-|static [`VRage.Utils.MyStringId DisplayName_BlueprintClass_Ingots`](Sandbox.Game.Localization.DisplayName_BlueprintClass_Ingots)||
-|static [`VRage.Utils.MyStringId DisplayName_BlueprintClass_LargeBlocks`](Sandbox.Game.Localization.DisplayName_BlueprintClass_LargeBlocks)||
-|static [`VRage.Utils.MyStringId DisplayName_BlueprintClass_OxygenBottles`](Sandbox.Game.Localization.DisplayName_BlueprintClass_OxygenBottles)||
-|static [`VRage.Utils.MyStringId DisplayName_BlueprintClass_PreciousMetals`](Sandbox.Game.Localization.DisplayName_BlueprintClass_PreciousMetals)||
-|static [`VRage.Utils.MyStringId DisplayName_BlueprintClass_SmallBlocks`](Sandbox.Game.Localization.DisplayName_BlueprintClass_SmallBlocks)||
-|static [`VRage.Utils.MyStringId DisplayName_BlueprintClass_Solids`](Sandbox.Game.Localization.DisplayName_BlueprintClass_Solids)||
-|static [`VRage.Utils.MyStringId DisplayName_Category_AllBlocks`](Sandbox.Game.Localization.DisplayName_Category_AllBlocks)||
-|static [`VRage.Utils.MyStringId DisplayName_Category_ArmorBlocks`](Sandbox.Game.Localization.DisplayName_Category_ArmorBlocks)||
-|static [`VRage.Utils.MyStringId DisplayName_Category_CharacterAnimations`](Sandbox.Game.Localization.DisplayName_Category_CharacterAnimations)||
-|static [`VRage.Utils.MyStringId DisplayName_Category_CharacterTools`](Sandbox.Game.Localization.DisplayName_Category_CharacterTools)||
-|static [`VRage.Utils.MyStringId DisplayName_Category_CharacterWeapons`](Sandbox.Game.Localization.DisplayName_Category_CharacterWeapons)||
-|static [`VRage.Utils.MyStringId DisplayName_Category_Cockpit`](Sandbox.Game.Localization.DisplayName_Category_Cockpit)||
-|static [`VRage.Utils.MyStringId DisplayName_Category_ConveyorBlocks`](Sandbox.Game.Localization.DisplayName_Category_ConveyorBlocks)||
-|static [`VRage.Utils.MyStringId DisplayName_Category_GeneratedBlocks`](Sandbox.Game.Localization.DisplayName_Category_GeneratedBlocks)||
-|static [`VRage.Utils.MyStringId DisplayName_Category_LargeBlocks`](Sandbox.Game.Localization.DisplayName_Category_LargeBlocks)||
-|static [`VRage.Utils.MyStringId DisplayName_Category_Power`](Sandbox.Game.Localization.DisplayName_Category_Power)||
-|static [`VRage.Utils.MyStringId DisplayName_Category_Production`](Sandbox.Game.Localization.DisplayName_Category_Production)||
-|static [`VRage.Utils.MyStringId DisplayName_Category_ShipGroups`](Sandbox.Game.Localization.DisplayName_Category_ShipGroups)||
-|static [`VRage.Utils.MyStringId DisplayName_Category_ShipLights`](Sandbox.Game.Localization.DisplayName_Category_ShipLights)||
-|static [`VRage.Utils.MyStringId DisplayName_Category_ShipThrusters`](Sandbox.Game.Localization.DisplayName_Category_ShipThrusters)||
-|static [`VRage.Utils.MyStringId DisplayName_Category_ShipWeapons`](Sandbox.Game.Localization.DisplayName_Category_ShipWeapons)||
-|static [`VRage.Utils.MyStringId DisplayName_Category_ShipTools`](Sandbox.Game.Localization.DisplayName_Category_ShipTools)||
-|static [`VRage.Utils.MyStringId DisplayName_Category_SmallBlocks`](Sandbox.Game.Localization.DisplayName_Category_SmallBlocks)||
-|static [`VRage.Utils.MyStringId DisplayName_Category_VoxelHands`](Sandbox.Game.Localization.DisplayName_Category_VoxelHands)||
-|static [`VRage.Utils.MyStringId DisplayName_Category_WindowBlocks`](Sandbox.Game.Localization.DisplayName_Category_WindowBlocks)||
-|static [`VRage.Utils.MyStringId DisplayName_CloseHelmet`](Sandbox.Game.Localization.DisplayName_CloseHelmet)||
-|static [`VRage.Utils.MyStringId DisplayName_ConvSorterTypes_Ammo`](Sandbox.Game.Localization.DisplayName_ConvSorterTypes_Ammo)||
-|static [`VRage.Utils.MyStringId DisplayName_ConvSorterTypes_Component`](Sandbox.Game.Localization.DisplayName_ConvSorterTypes_Component)||
-|static [`VRage.Utils.MyStringId DisplayName_ConvSorterTypes_HandTool`](Sandbox.Game.Localization.DisplayName_ConvSorterTypes_HandTool)||
-|static [`VRage.Utils.MyStringId DisplayName_ConvSorterTypes_Ingot`](Sandbox.Game.Localization.DisplayName_ConvSorterTypes_Ingot)||
-|static [`VRage.Utils.MyStringId DisplayName_ConvSorterTypes_Ore`](Sandbox.Game.Localization.DisplayName_ConvSorterTypes_Ore)||
-|static [`VRage.Utils.MyStringId DisplayName_Dead_Astronaut`](Sandbox.Game.Localization.DisplayName_Dead_Astronaut)||
-|static [`VRage.Utils.MyStringId DisplayName_Faction_FirstColonyFaction`](Sandbox.Game.Localization.DisplayName_Faction_FirstColonyFaction)||
-|static [`VRage.Utils.MyStringId DisplayName_Faction_FirstColonyFaction_Translation`](Sandbox.Game.Localization.DisplayName_Faction_FirstColonyFaction_Translation)||
-|static [`VRage.Utils.MyStringId DisplayName_Faction_SpacePirates`](Sandbox.Game.Localization.DisplayName_Faction_SpacePirates)||
-|static [`VRage.Utils.MyStringId DisplayName_Faction_SpacePirates_Translation`](Sandbox.Game.Localization.DisplayName_Faction_SpacePirates_Translation)||
-|static [`VRage.Utils.MyStringId DisplayName_Faction_SpaceSpiders`](Sandbox.Game.Localization.DisplayName_Faction_SpaceSpiders)||
-|static [`VRage.Utils.MyStringId DisplayName_Faction_SpaceSpiders_Translation`](Sandbox.Game.Localization.DisplayName_Faction_SpaceSpiders_Translation)||
-|static [`VRage.Utils.MyStringId DisplayName_GridCreateTool_CreateLargeShip`](Sandbox.Game.Localization.DisplayName_GridCreateTool_CreateLargeShip)||
-|static [`VRage.Utils.MyStringId DisplayName_GridCreateTool_CreateSmallShip`](Sandbox.Game.Localization.DisplayName_GridCreateTool_CreateSmallShip)||
-|static [`VRage.Utils.MyStringId DisplayName_GridCreateTool_CreateStation`](Sandbox.Game.Localization.DisplayName_GridCreateTool_CreateStation)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_AngleGrinder`](Sandbox.Game.Localization.DisplayName_Item_AngleGrinder)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_AngleGrinder2`](Sandbox.Game.Localization.DisplayName_Item_AngleGrinder2)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_AngleGrinder3`](Sandbox.Game.Localization.DisplayName_Item_AngleGrinder3)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_AngleGrinder4`](Sandbox.Game.Localization.DisplayName_Item_AngleGrinder4)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_AutomaticRifle`](Sandbox.Game.Localization.DisplayName_Item_AutomaticRifle)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_BulletproofGlass`](Sandbox.Game.Localization.DisplayName_Item_BulletproofGlass)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_CanvasCartridge`](Sandbox.Game.Localization.DisplayName_Item_CanvasCartridge)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_CobaltIngot`](Sandbox.Game.Localization.DisplayName_Item_CobaltIngot)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_CobaltOre`](Sandbox.Game.Localization.DisplayName_Item_CobaltOre)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_Computer`](Sandbox.Game.Localization.DisplayName_Item_Computer)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_ConstructionComponent`](Sandbox.Game.Localization.DisplayName_Item_ConstructionComponent)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_DetectorComponents`](Sandbox.Game.Localization.DisplayName_Item_DetectorComponents)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_Display`](Sandbox.Game.Localization.DisplayName_Item_Display)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_EliteAutomaticRifle`](Sandbox.Game.Localization.DisplayName_Item_EliteAutomaticRifle)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_Explosives`](Sandbox.Game.Localization.DisplayName_Item_Explosives)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_Girder`](Sandbox.Game.Localization.DisplayName_Item_Girder)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_GoldIngot`](Sandbox.Game.Localization.DisplayName_Item_GoldIngot)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_GoldOre`](Sandbox.Game.Localization.DisplayName_Item_GoldOre)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_Gravel`](Sandbox.Game.Localization.DisplayName_Item_Gravel)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_GravityGeneratorComponents`](Sandbox.Game.Localization.DisplayName_Item_GravityGeneratorComponents)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_HandDrill`](Sandbox.Game.Localization.DisplayName_Item_HandDrill)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_HandDrill2`](Sandbox.Game.Localization.DisplayName_Item_HandDrill2)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_HandDrill3`](Sandbox.Game.Localization.DisplayName_Item_HandDrill3)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_HandDrill4`](Sandbox.Game.Localization.DisplayName_Item_HandDrill4)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_Hydrogen`](Sandbox.Game.Localization.DisplayName_Item_Hydrogen)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_HydrogenBottle`](Sandbox.Game.Localization.DisplayName_Item_HydrogenBottle)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_HydrogenBottles`](Sandbox.Game.Localization.DisplayName_Item_HydrogenBottles)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_Ice`](Sandbox.Game.Localization.DisplayName_Item_Ice)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_InteriorPlate`](Sandbox.Game.Localization.DisplayName_Item_InteriorPlate)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_IronIngot`](Sandbox.Game.Localization.DisplayName_Item_IronIngot)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_IronOre`](Sandbox.Game.Localization.DisplayName_Item_IronOre)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_LargeSteelTube`](Sandbox.Game.Localization.DisplayName_Item_LargeSteelTube)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_MagnesiumOre`](Sandbox.Game.Localization.DisplayName_Item_MagnesiumOre)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_MagnesiumPowder`](Sandbox.Game.Localization.DisplayName_Item_MagnesiumPowder)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_MedicalComponents`](Sandbox.Game.Localization.DisplayName_Item_MedicalComponents)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_MetalGrid`](Sandbox.Game.Localization.DisplayName_Item_MetalGrid)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_Missile200mm`](Sandbox.Game.Localization.DisplayName_Item_Missile200mm)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_Motor`](Sandbox.Game.Localization.DisplayName_Item_Motor)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_NATO_25x184mm`](Sandbox.Game.Localization.DisplayName_Item_NATO_25x184mm)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_NATO_5p56x45mm`](Sandbox.Game.Localization.DisplayName_Item_NATO_5p56x45mm)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_NickelIngot`](Sandbox.Game.Localization.DisplayName_Item_NickelIngot)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_NickelOre`](Sandbox.Game.Localization.DisplayName_Item_NickelOre)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_Organic`](Sandbox.Game.Localization.DisplayName_Item_Organic)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_Oxygen`](Sandbox.Game.Localization.DisplayName_Item_Oxygen)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_OxygenBottle`](Sandbox.Game.Localization.DisplayName_Item_OxygenBottle)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_OxygenBottles`](Sandbox.Game.Localization.DisplayName_Item_OxygenBottles)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_PlatinumIngot`](Sandbox.Game.Localization.DisplayName_Item_PlatinumIngot)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_PlatinumOre`](Sandbox.Game.Localization.DisplayName_Item_PlatinumOre)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_Potassium`](Sandbox.Game.Localization.DisplayName_Item_Potassium)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_PowerCell`](Sandbox.Game.Localization.DisplayName_Item_PowerCell)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_PreciseAutomaticRifle`](Sandbox.Game.Localization.DisplayName_Item_PreciseAutomaticRifle)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_RadioCommunicationComponents`](Sandbox.Game.Localization.DisplayName_Item_RadioCommunicationComponents)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_RapidFireAutomaticRifle`](Sandbox.Game.Localization.DisplayName_Item_RapidFireAutomaticRifle)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_ReactorComponents`](Sandbox.Game.Localization.DisplayName_Item_ReactorComponents)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_Scrap`](Sandbox.Game.Localization.DisplayName_Item_Scrap)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_ScrapIngot`](Sandbox.Game.Localization.DisplayName_Item_ScrapIngot)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_SiliconOre`](Sandbox.Game.Localization.DisplayName_Item_SiliconOre)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_SiliconWafer`](Sandbox.Game.Localization.DisplayName_Item_SiliconWafer)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_SilverIngot`](Sandbox.Game.Localization.DisplayName_Item_SilverIngot)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_SilverOre`](Sandbox.Game.Localization.DisplayName_Item_SilverOre)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_SmallSteelTube`](Sandbox.Game.Localization.DisplayName_Item_SmallSteelTube)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_SolarCell`](Sandbox.Game.Localization.DisplayName_Item_SolarCell)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_SteelPlate`](Sandbox.Game.Localization.DisplayName_Item_SteelPlate)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_StoneOre`](Sandbox.Game.Localization.DisplayName_Item_StoneOre)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_Superconductor`](Sandbox.Game.Localization.DisplayName_Item_Superconductor)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_ThrustComponents`](Sandbox.Game.Localization.DisplayName_Item_ThrustComponents)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_UraniumIngot`](Sandbox.Game.Localization.DisplayName_Item_UraniumIngot)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_UraniumOre`](Sandbox.Game.Localization.DisplayName_Item_UraniumOre)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_Welder`](Sandbox.Game.Localization.DisplayName_Item_Welder)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_Welder2`](Sandbox.Game.Localization.DisplayName_Item_Welder2)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_Welder3`](Sandbox.Game.Localization.DisplayName_Item_Welder3)||
-|static [`VRage.Utils.MyStringId DisplayName_Item_Welder4`](Sandbox.Game.Localization.DisplayName_Item_Welder4)||
-|static [`VRage.Utils.MyStringId DisplayName_LCD_Panel`](Sandbox.Game.Localization.DisplayName_LCD_Panel)||
-|static [`VRage.Utils.MyStringId DisplayName_LCD_PanelWide`](Sandbox.Game.Localization.DisplayName_LCD_PanelWide)||
-|static [`VRage.Utils.MyStringId DisplayName_MarsLander`](Sandbox.Game.Localization.DisplayName_MarsLander)||
-|static [`VRage.Utils.MyStringId DisplayName_OpenHelmet`](Sandbox.Game.Localization.DisplayName_OpenHelmet)||
-|static [`VRage.Utils.MyStringId DisplayName_PlanetaryLander`](Sandbox.Game.Localization.DisplayName_PlanetaryLander)||
-|static [`VRage.Utils.MyStringId DisplayName_Programmable_Block`](Sandbox.Game.Localization.DisplayName_Programmable_Block)||
-|static [`VRage.Utils.MyStringId DisplayName_RespawnShip_Assembler`](Sandbox.Game.Localization.DisplayName_RespawnShip_Assembler)||
-|static [`VRage.Utils.MyStringId DisplayName_RespawnShip_EscapePod`](Sandbox.Game.Localization.DisplayName_RespawnShip_EscapePod)||
-|static [`VRage.Utils.MyStringId DisplayName_RespawnShip_RefineryAssembler`](Sandbox.Game.Localization.DisplayName_RespawnShip_RefineryAssembler)||
-|static [`VRage.Utils.MyStringId DisplayName_RespawnShip_ShipDrill`](Sandbox.Game.Localization.DisplayName_RespawnShip_ShipDrill)||
-|static [`VRage.Utils.MyStringId DisplayName_RespawnShip_Yellow`](Sandbox.Game.Localization.DisplayName_RespawnShip_Yellow)||
-|static [`VRage.Utils.MyStringId DisplayName_RewardPunishmentTool`](Sandbox.Game.Localization.DisplayName_RewardPunishmentTool)||
-|static [`VRage.Utils.MyStringId DisplayName_Rifle`](Sandbox.Game.Localization.DisplayName_Rifle)||
-|static [`VRage.Utils.MyStringId DisplayName_Scenario_2Planets`](Sandbox.Game.Localization.DisplayName_Scenario_2Planets)||
-|static [`VRage.Utils.MyStringId DisplayName_Scenario_AlienEasyStart`](Sandbox.Game.Localization.DisplayName_Scenario_AlienEasyStart)||
-|static [`VRage.Utils.MyStringId DisplayName_Scenario_Asteroids`](Sandbox.Game.Localization.DisplayName_Scenario_Asteroids)||
-|static [`VRage.Utils.MyStringId DisplayName_Scenario_BigSmall`](Sandbox.Game.Localization.DisplayName_Scenario_BigSmall)||
-|static [`VRage.Utils.MyStringId DisplayName_Scenario_CrashedRedShip`](Sandbox.Game.Localization.DisplayName_Scenario_CrashedRedShip)||
-|static [`VRage.Utils.MyStringId DisplayName_Scenario_DebugStart`](Sandbox.Game.Localization.DisplayName_Scenario_DebugStart)||
-|static [`VRage.Utils.MyStringId DisplayName_Scenario_EarthEasyStart`](Sandbox.Game.Localization.DisplayName_Scenario_EarthEasyStart)||
-|static [`VRage.Utils.MyStringId DisplayName_Scenario_EasyStart1`](Sandbox.Game.Localization.DisplayName_Scenario_EasyStart1)||
-|static [`VRage.Utils.MyStringId DisplayName_Scenario_EasyStart2`](Sandbox.Game.Localization.DisplayName_Scenario_EasyStart2)||
-|static [`VRage.Utils.MyStringId DisplayName_Scenario_EasyStart3`](Sandbox.Game.Localization.DisplayName_Scenario_EasyStart3)||
-|static [`VRage.Utils.MyStringId DisplayName_Scenario_EmptyWorld`](Sandbox.Game.Localization.DisplayName_Scenario_EmptyWorld)||
-|static [`VRage.Utils.MyStringId DisplayName_Scenario_MarsEasyStart`](Sandbox.Game.Localization.DisplayName_Scenario_MarsEasyStart)||
-|static [`VRage.Utils.MyStringId DisplayName_Scenario_MoonEasyStart`](Sandbox.Game.Localization.DisplayName_Scenario_MoonEasyStart)||
-|static [`VRage.Utils.MyStringId DisplayName_Scenario_Planet`](Sandbox.Game.Localization.DisplayName_Scenario_Planet)||
-|static [`VRage.Utils.MyStringId DisplayName_Scenario_ScaleTest`](Sandbox.Game.Localization.DisplayName_Scenario_ScaleTest)||
-|static [`VRage.Utils.MyStringId DisplayName_Scenario_StarSystem`](Sandbox.Game.Localization.DisplayName_Scenario_StarSystem)||
-|static [`VRage.Utils.MyStringId DisplayName_Scenario_StarSystemAligned`](Sandbox.Game.Localization.DisplayName_Scenario_StarSystemAligned)||
-|static [`VRage.Utils.MyStringId DisplayName_Scenario_Survival`](Sandbox.Game.Localization.DisplayName_Scenario_Survival)||
-|static [`VRage.Utils.MyStringId DisplayName_Scenario_TestStarSystem`](Sandbox.Game.Localization.DisplayName_Scenario_TestStarSystem)||
-|static [`VRage.Utils.MyStringId DisplayName_Scenario_TwoPlatforms`](Sandbox.Game.Localization.DisplayName_Scenario_TwoPlatforms)||
-|static [`VRage.Utils.MyStringId DisplayName_VoxelHand_AutoLevel`](Sandbox.Game.Localization.DisplayName_VoxelHand_AutoLevel)||
-|static [`VRage.Utils.MyStringId DisplayName_VoxelHand_Box`](Sandbox.Game.Localization.DisplayName_VoxelHand_Box)||
-|static [`VRage.Utils.MyStringId DisplayName_VoxelHand_Capsule`](Sandbox.Game.Localization.DisplayName_VoxelHand_Capsule)||
-|static [`VRage.Utils.MyStringId DisplayName_VoxelHand_Ramp`](Sandbox.Game.Localization.DisplayName_VoxelHand_Ramp)||
-|static [`VRage.Utils.MyStringId DisplayName_VoxelHand_Sphere`](Sandbox.Game.Localization.DisplayName_VoxelHand_Sphere)||
-|static [`VRage.Utils.MyStringId DisplaySettings`](Sandbox.Game.Localization.DisplaySettings)||
-|static [`VRage.Utils.MyStringId DistanceFromCenter`](Sandbox.Game.Localization.DistanceFromCenter)||
-|static [`VRage.Utils.MyStringId DistanceFromPlayers`](Sandbox.Game.Localization.DistanceFromPlayers)||
-|static [`VRage.Utils.MyStringId EnableDamageEffects`](Sandbox.Game.Localization.EnableDamageEffects)||
-|static [`VRage.Utils.MyStringId EntityRename`](Sandbox.Game.Localization.EntityRename)||
-|static [`VRage.Utils.MyStringId EntitySpawnOn`](Sandbox.Game.Localization.EntitySpawnOn)||
-|static [`VRage.Utils.MyStringId Factions_EnemyFaction`](Sandbox.Game.Localization.Factions_EnemyFaction)||
-|static [`VRage.Utils.MyStringId Factions_NeutralFaction`](Sandbox.Game.Localization.Factions_NeutralFaction)||
-|static [`VRage.Utils.MyStringId Factions_YourBlock`](Sandbox.Game.Localization.Factions_YourBlock)||
-|static [`VRage.Utils.MyStringId Factions_YourFaction`](Sandbox.Game.Localization.Factions_YourFaction)||
-|static [`VRage.Utils.MyStringId Fastest`](Sandbox.Game.Localization.Fastest)||
-|static [`VRage.Utils.MyStringId FirstApril2014`](Sandbox.Game.Localization.FirstApril2014)||
-|static [`VRage.Utils.MyStringId FlaresIntensity`](Sandbox.Game.Localization.FlaresIntensity)||
-|static [`VRage.Utils.MyStringId FloatingObjects`](Sandbox.Game.Localization.FloatingObjects)||
-|static [`VRage.Utils.MyStringId Gold`](Sandbox.Game.Localization.Gold)||
-|static [`VRage.Utils.MyStringId Gps`](Sandbox.Game.Localization.Gps)||
-|static [`VRage.Utils.MyStringId GpsScreen_GpsListLabel`](Sandbox.Game.Localization.GpsScreen_GpsListLabel)||
-|static [`VRage.Utils.MyStringId GPS_Body_Location_Desc`](Sandbox.Game.Localization.GPS_Body_Location_Desc)||
-|static [`VRage.Utils.MyStringId GPS_Body_Location_Name`](Sandbox.Game.Localization.GPS_Body_Location_Name)||
-|static [`VRage.Utils.MyStringId Grids`](Sandbox.Game.Localization.Grids)||
-|static [`VRage.Utils.MyStringId GuiLabelVideoOnStart`](Sandbox.Game.Localization.GuiLabelVideoOnStart)||
-|static [`VRage.Utils.MyStringId GuiMissionTriggersLostCondition`](Sandbox.Game.Localization.GuiMissionTriggersLostCondition)||
-|static [`VRage.Utils.MyStringId GuiMissionTriggersWinCondition`](Sandbox.Game.Localization.GuiMissionTriggersWinCondition)||
-|static [`VRage.Utils.MyStringId GuiScenarioCannotJoin`](Sandbox.Game.Localization.GuiScenarioCannotJoin)||
-|static [`VRage.Utils.MyStringId GuiScenarioCannotJoinCaption`](Sandbox.Game.Localization.GuiScenarioCannotJoinCaption)||
-|static [`VRage.Utils.MyStringId GuiScenarioDescription`](Sandbox.Game.Localization.GuiScenarioDescription)||
-|static [`VRage.Utils.MyStringId GuiScenarioEdit_CopyIds`](Sandbox.Game.Localization.GuiScenarioEdit_CopyIds)||
-|static [`VRage.Utils.MyStringId GuiScenarioEdit_CopyIdsTooltip`](Sandbox.Game.Localization.GuiScenarioEdit_CopyIdsTooltip)||
-|static [`VRage.Utils.MyStringId GuiScenarioPlayerName`](Sandbox.Game.Localization.GuiScenarioPlayerName)||
-|static [`VRage.Utils.MyStringId GuiScenarioPlayerStatus`](Sandbox.Game.Localization.GuiScenarioPlayerStatus)||
-|static [`VRage.Utils.MyStringId GuiScenarioSend`](Sandbox.Game.Localization.GuiScenarioSend)||
-|static [`VRage.Utils.MyStringId GuiScenarioStart`](Sandbox.Game.Localization.GuiScenarioStart)||
-|static [`VRage.Utils.MyStringId GuiScenarioTimeout`](Sandbox.Game.Localization.GuiScenarioTimeout)||
-|static [`VRage.Utils.MyStringId GuiScenarioTimeout10min`](Sandbox.Game.Localization.GuiScenarioTimeout10min)||
-|static [`VRage.Utils.MyStringId GuiScenarioTimeout3min`](Sandbox.Game.Localization.GuiScenarioTimeout3min)||
-|static [`VRage.Utils.MyStringId GuiScenarioTimeout5min`](Sandbox.Game.Localization.GuiScenarioTimeout5min)||
-|static [`VRage.Utils.MyStringId GuiScenarioTimeoutUnlimited`](Sandbox.Game.Localization.GuiScenarioTimeoutUnlimited)||
-|static [`VRage.Utils.MyStringId GuiTriggerBlockDestroyedSingleMessage`](Sandbox.Game.Localization.GuiTriggerBlockDestroyedSingleMessage)||
-|static [`VRage.Utils.MyStringId GuiTriggerBlockDestroyed_ColumnName`](Sandbox.Game.Localization.GuiTriggerBlockDestroyed_ColumnName)||
-|static [`VRage.Utils.MyStringId GuiTriggerCaptionAllOthersLost`](Sandbox.Game.Localization.GuiTriggerCaptionAllOthersLost)||
-|static [`VRage.Utils.MyStringId GuiTriggerCaptionBlockDestroyed`](Sandbox.Game.Localization.GuiTriggerCaptionBlockDestroyed)||
-|static [`VRage.Utils.MyStringId GuiTriggerCaptionLives`](Sandbox.Game.Localization.GuiTriggerCaptionLives)||
-|static [`VRage.Utils.MyStringId GuiTriggerCaptionNoSpawn`](Sandbox.Game.Localization.GuiTriggerCaptionNoSpawn)||
-|static [`VRage.Utils.MyStringId GuiTriggerCaptionPositionLeft`](Sandbox.Game.Localization.GuiTriggerCaptionPositionLeft)||
-|static [`VRage.Utils.MyStringId GuiTriggerCaptionPositionReached`](Sandbox.Game.Localization.GuiTriggerCaptionPositionReached)||
-|static [`VRage.Utils.MyStringId GuiTriggerCaptionSomeoneWon`](Sandbox.Game.Localization.GuiTriggerCaptionSomeoneWon)||
-|static [`VRage.Utils.MyStringId GuiTriggerCaptionTimeLimit`](Sandbox.Game.Localization.GuiTriggerCaptionTimeLimit)||
-|static [`VRage.Utils.MyStringId GuiTriggerDeleteBlocks`](Sandbox.Game.Localization.GuiTriggerDeleteBlocks)||
-|static [`VRage.Utils.MyStringId GuiTriggerMessage`](Sandbox.Game.Localization.GuiTriggerMessage)||
-|static [`VRage.Utils.MyStringId GuiTriggerNextMission`](Sandbox.Game.Localization.GuiTriggerNextMission)||
-|static [`VRage.Utils.MyStringId GuiTriggerNextMissionTooltip`](Sandbox.Game.Localization.GuiTriggerNextMissionTooltip)||
-|static [`VRage.Utils.MyStringId GuiTriggerNoSpawnTimeLimit`](Sandbox.Game.Localization.GuiTriggerNoSpawnTimeLimit)||
-|static [`VRage.Utils.MyStringId GuiTriggerPasteBlocks`](Sandbox.Game.Localization.GuiTriggerPasteBlocks)||
-|static [`VRage.Utils.MyStringId GuiTriggerPasteBlocksTooltip`](Sandbox.Game.Localization.GuiTriggerPasteBlocksTooltip)||
-|static [`VRage.Utils.MyStringId GuiTriggerPasteGps`](Sandbox.Game.Localization.GuiTriggerPasteGps)||
-|static [`VRage.Utils.MyStringId GuiTriggerPositionRadius`](Sandbox.Game.Localization.GuiTriggerPositionRadius)||
-|static [`VRage.Utils.MyStringId GuiTriggersLives`](Sandbox.Game.Localization.GuiTriggersLives)||
-|static [`VRage.Utils.MyStringId GuiTriggerTimeLimit`](Sandbox.Game.Localization.GuiTriggerTimeLimit)||
-|static [`VRage.Utils.MyStringId GuiTriggerWwwLink`](Sandbox.Game.Localization.GuiTriggerWwwLink)||
-|static [`VRage.Utils.MyStringId HelpScreen_FactionColor_Blue`](Sandbox.Game.Localization.HelpScreen_FactionColor_Blue)||
-|static [`VRage.Utils.MyStringId HelpScreen_FactionColor_Green`](Sandbox.Game.Localization.HelpScreen_FactionColor_Green)||
-|static [`VRage.Utils.MyStringId HelpScreen_FactionColor_Red`](Sandbox.Game.Localization.HelpScreen_FactionColor_Red)||
-|static [`VRage.Utils.MyStringId HelpScreen_FactionColor_White`](Sandbox.Game.Localization.HelpScreen_FactionColor_White)||
-|static [`VRage.Utils.MyStringId HideEmpty`](Sandbox.Game.Localization.HideEmpty)||
-|static [`VRage.Utils.MyStringId Hint00Text`](Sandbox.Game.Localization.Hint00Text)||
-|static [`VRage.Utils.MyStringId Hint01Control0`](Sandbox.Game.Localization.Hint01Control0)||
-|static [`VRage.Utils.MyStringId Hint01Text`](Sandbox.Game.Localization.Hint01Text)||
-|static [`VRage.Utils.MyStringId Hint02Control0`](Sandbox.Game.Localization.Hint02Control0)||
-|static [`VRage.Utils.MyStringId Hint02Text`](Sandbox.Game.Localization.Hint02Text)||
-|static [`VRage.Utils.MyStringId Hint03Text`](Sandbox.Game.Localization.Hint03Text)||
-|static [`VRage.Utils.MyStringId Hint04Control0`](Sandbox.Game.Localization.Hint04Control0)||
-|static [`VRage.Utils.MyStringId Hint04Text`](Sandbox.Game.Localization.Hint04Text)||
-|static [`VRage.Utils.MyStringId Hint05Text`](Sandbox.Game.Localization.Hint05Text)||
-|static [`VRage.Utils.MyStringId Hint06Text`](Sandbox.Game.Localization.Hint06Text)||
-|static [`VRage.Utils.MyStringId Hint07Text`](Sandbox.Game.Localization.Hint07Text)||
-|static [`VRage.Utils.MyStringId Hint08Text`](Sandbox.Game.Localization.Hint08Text)||
-|static [`VRage.Utils.MyStringId Hint09Text`](Sandbox.Game.Localization.Hint09Text)||
-|static [`VRage.Utils.MyStringId Hint10Control0`](Sandbox.Game.Localization.Hint10Control0)||
-|static [`VRage.Utils.MyStringId Hint10Text`](Sandbox.Game.Localization.Hint10Text)||
-|static [`VRage.Utils.MyStringId Hint11Text`](Sandbox.Game.Localization.Hint11Text)||
-|static [`VRage.Utils.MyStringId Hint12Control0`](Sandbox.Game.Localization.Hint12Control0)||
-|static [`VRage.Utils.MyStringId Hint12Text`](Sandbox.Game.Localization.Hint12Text)||
-|static [`VRage.Utils.MyStringId Hint13Text`](Sandbox.Game.Localization.Hint13Text)||
-|static [`VRage.Utils.MyStringId Hint14Text`](Sandbox.Game.Localization.Hint14Text)||
-|static [`VRage.Utils.MyStringId Hint15Text`](Sandbox.Game.Localization.Hint15Text)||
-|static [`VRage.Utils.MyStringId Hint16Text`](Sandbox.Game.Localization.Hint16Text)||
-|static [`VRage.Utils.MyStringId Hint17Text`](Sandbox.Game.Localization.Hint17Text)||
-|static [`VRage.Utils.MyStringId Hint18Text`](Sandbox.Game.Localization.Hint18Text)||
-|static [`VRage.Utils.MyStringId Hint19Text`](Sandbox.Game.Localization.Hint19Text)||
-|static [`VRage.Utils.MyStringId Hint20Text`](Sandbox.Game.Localization.Hint20Text)||
-|static [`VRage.Utils.MyStringId Hint21Text`](Sandbox.Game.Localization.Hint21Text)||
-|static [`VRage.Utils.MyStringId Hint22Text`](Sandbox.Game.Localization.Hint22Text)||
-|static [`VRage.Utils.MyStringId Hint23Text`](Sandbox.Game.Localization.Hint23Text)||
-|static [`VRage.Utils.MyStringId Hint24Text`](Sandbox.Game.Localization.Hint24Text)||
-|static [`VRage.Utils.MyStringId Hint25Text`](Sandbox.Game.Localization.Hint25Text)||
-|static [`VRage.Utils.MyStringId Hint26Control0`](Sandbox.Game.Localization.Hint26Control0)||
-|static [`VRage.Utils.MyStringId Hint26Text`](Sandbox.Game.Localization.Hint26Text)||
-|static [`VRage.Utils.MyStringId HudBlockInfo_Components`](Sandbox.Game.Localization.HudBlockInfo_Components)||
-|static [`VRage.Utils.MyStringId HudBlockInfo_Installed_Required`](Sandbox.Game.Localization.HudBlockInfo_Installed_Required)||
-|static [`VRage.Utils.MyStringId HudBlockInfo_LargeShip_Station`](Sandbox.Game.Localization.HudBlockInfo_LargeShip_Station)||
-|static [`VRage.Utils.MyStringId HudBlockInfo_SmallShip`](Sandbox.Game.Localization.HudBlockInfo_SmallShip)||
-|static [`VRage.Utils.MyStringId HudEnergyGroupBatteries`](Sandbox.Game.Localization.HudEnergyGroupBatteries)||
-|static [`VRage.Utils.MyStringId HudEnergyGroupCharging`](Sandbox.Game.Localization.HudEnergyGroupCharging)||
-|static [`VRage.Utils.MyStringId HudEnergyGroupConveyors`](Sandbox.Game.Localization.HudEnergyGroupConveyors)||
-|static [`VRage.Utils.MyStringId HudEnergyGroupDefense`](Sandbox.Game.Localization.HudEnergyGroupDefense)||
-|static [`VRage.Utils.MyStringId HudEnergyGroupDoors`](Sandbox.Game.Localization.HudEnergyGroupDoors)||
-|static [`VRage.Utils.MyStringId HudEnergyGroupFactory`](Sandbox.Game.Localization.HudEnergyGroupFactory)||
-|static [`VRage.Utils.MyStringId HudEnergyGroupGyroscope`](Sandbox.Game.Localization.HudEnergyGroupGyroscope)||
-|static [`VRage.Utils.MyStringId HudEnergyGroupThrust`](Sandbox.Game.Localization.HudEnergyGroupThrust)||
-|static [`VRage.Utils.MyStringId HudEnergyGroupUtility`](Sandbox.Game.Localization.HudEnergyGroupUtility)||
-|static [`VRage.Utils.MyStringId HudEnergyMissingTotal`](Sandbox.Game.Localization.HudEnergyMissingTotal)||
-|static [`VRage.Utils.MyStringId HudInfoBroadcasting`](Sandbox.Game.Localization.HudInfoBroadcasting)||
-|static [`VRage.Utils.MyStringId HudInfoControllingStation`](Sandbox.Game.Localization.HudInfoControllingStation)||
-|static [`VRage.Utils.MyStringId HudInfoCrouching`](Sandbox.Game.Localization.HudInfoCrouching)||
-|static [`VRage.Utils.MyStringId HudInfoFalling`](Sandbox.Game.Localization.HudInfoFalling)||
-|static [`VRage.Utils.MyStringId HudInfoFlying`](Sandbox.Game.Localization.HudInfoFlying)||
-|static [`VRage.Utils.MyStringId HudInfoGravity`](Sandbox.Game.Localization.HudInfoGravity)||
-|static [`VRage.Utils.MyStringId HudInfoGravityArtificial`](Sandbox.Game.Localization.HudInfoGravityArtificial)||
-|static [`VRage.Utils.MyStringId HudInfoGravityNatural`](Sandbox.Game.Localization.HudInfoGravityNatural)||
-|static [`VRage.Utils.MyStringId HudInfoHelmet`](Sandbox.Game.Localization.HudInfoHelmet)||
-|static [`VRage.Utils.MyStringId HudInfoInventoryVolume`](Sandbox.Game.Localization.HudInfoInventoryVolume)||
-|static [`VRage.Utils.MyStringId HudInfoMagnetic`](Sandbox.Game.Localization.HudInfoMagnetic)||
-|static [`VRage.Utils.MyStringId HudInfoNameBroadcastRange`](Sandbox.Game.Localization.HudInfoNameBroadcastRange)||
-|static [`VRage.Utils.MyStringId HudInfoNameDampeners`](Sandbox.Game.Localization.HudInfoNameDampeners)||
-|static [`VRage.Utils.MyStringId HudInfoNameEnergy`](Sandbox.Game.Localization.HudInfoNameEnergy)||
-|static [`VRage.Utils.MyStringId HudInfoNameFuelTime`](Sandbox.Game.Localization.HudInfoNameFuelTime)||
-|static [`VRage.Utils.MyStringId HudInfoNameGyroscopes`](Sandbox.Game.Localization.HudInfoNameGyroscopes)||
-|static [`VRage.Utils.MyStringId HudInfoNameHealth`](Sandbox.Game.Localization.HudInfoNameHealth)||
-|static [`VRage.Utils.MyStringId HudInfoNameInProximity`](Sandbox.Game.Localization.HudInfoNameInProximity)||
-|static [`VRage.Utils.MyStringId HudInfoNameJetpack`](Sandbox.Game.Localization.HudInfoNameJetpack)||
-|static [`VRage.Utils.MyStringId HudInfoNameLandingGear`](Sandbox.Game.Localization.HudInfoNameLandingGear)||
-|static [`VRage.Utils.MyStringId HudInfoNameLights`](Sandbox.Game.Localization.HudInfoNameLights)||
-|static [`VRage.Utils.MyStringId HudInfoNameLocked`](Sandbox.Game.Localization.HudInfoNameLocked)||
-|static [`VRage.Utils.MyStringId HudInfoNameMass`](Sandbox.Game.Localization.HudInfoNameMass)||
-|static [`VRage.Utils.MyStringId HudInfoNameNumberOfBatteries`](Sandbox.Game.Localization.HudInfoNameNumberOfBatteries)||
-|static [`VRage.Utils.MyStringId HudInfoNamePowerUsage`](Sandbox.Game.Localization.HudInfoNamePowerUsage)||
-|static [`VRage.Utils.MyStringId HudInfoNameReactors`](Sandbox.Game.Localization.HudInfoNameReactors)||
-|static [`VRage.Utils.MyStringId HudInfoNameSpeed`](Sandbox.Game.Localization.HudInfoNameSpeed)||
-|static [`VRage.Utils.MyStringId HudInfoNameThrusts`](Sandbox.Game.Localization.HudInfoNameThrusts)||
-|static [`VRage.Utils.MyStringId HudInfoNoGravity`](Sandbox.Game.Localization.HudInfoNoGravity)||
-|static [`VRage.Utils.MyStringId HudInfoNoPower`](Sandbox.Game.Localization.HudInfoNoPower)||
-|static [`VRage.Utils.MyStringId HudInfoNoReflectors`](Sandbox.Game.Localization.HudInfoNoReflectors)||
-|static [`VRage.Utils.MyStringId HudInfoOff`](Sandbox.Game.Localization.HudInfoOff)||
-|static [`VRage.Utils.MyStringId HudInfoOn`](Sandbox.Game.Localization.HudInfoOn)||
-|static [`VRage.Utils.MyStringId HudInfoOxygen`](Sandbox.Game.Localization.HudInfoOxygen)||
-|static [`VRage.Utils.MyStringId HudInfoPilotingLargeShip`](Sandbox.Game.Localization.HudInfoPilotingLargeShip)||
-|static [`VRage.Utils.MyStringId HudInfoPilotingSmallShip`](Sandbox.Game.Localization.HudInfoPilotingSmallShip)||
-|static [`VRage.Utils.MyStringId HudInfoPowerOverload`](Sandbox.Game.Localization.HudInfoPowerOverload)||
-|static [`VRage.Utils.MyStringId HudInfoReflectorsOff`](Sandbox.Game.Localization.HudInfoReflectorsOff)||
-|static [`VRage.Utils.MyStringId HudInfoReflectorsOn`](Sandbox.Game.Localization.HudInfoReflectorsOn)||
-|static [`VRage.Utils.MyStringId HudInfoStanding`](Sandbox.Game.Localization.HudInfoStanding)||
-|static [`VRage.Utils.MyStringId HudInfoState`](Sandbox.Game.Localization.HudInfoState)||
-|static [`VRage.Utils.MyStringId HudScenarioInfoLivesLeft`](Sandbox.Game.Localization.HudScenarioInfoLivesLeft)||
-|static [`VRage.Utils.MyStringId HudScenarioInfoTimeLeft`](Sandbox.Game.Localization.HudScenarioInfoTimeLeft)||
-|static [`VRage.Utils.MyStringId Ice`](Sandbox.Game.Localization.Ice)||
-|static [`VRage.Utils.MyStringId IconSymbol_Ag`](Sandbox.Game.Localization.IconSymbol_Ag)||
-|static [`VRage.Utils.MyStringId IconSymbol_Au`](Sandbox.Game.Localization.IconSymbol_Au)||
-|static [`VRage.Utils.MyStringId IconSymbol_Co`](Sandbox.Game.Localization.IconSymbol_Co)||
-|static [`VRage.Utils.MyStringId IconSymbol_Fe`](Sandbox.Game.Localization.IconSymbol_Fe)||
-|static [`VRage.Utils.MyStringId IconSymbol_Gravel`](Sandbox.Game.Localization.IconSymbol_Gravel)||
-|static [`VRage.Utils.MyStringId IconSymbol_Ice`](Sandbox.Game.Localization.IconSymbol_Ice)||
-|static [`VRage.Utils.MyStringId IconSymbol_K`](Sandbox.Game.Localization.IconSymbol_K)||
-|static [`VRage.Utils.MyStringId IconSymbol_Mg`](Sandbox.Game.Localization.IconSymbol_Mg)||
-|static [`VRage.Utils.MyStringId IconSymbol_Ni`](Sandbox.Game.Localization.IconSymbol_Ni)||
-|static [`VRage.Utils.MyStringId IconSymbol_Organic`](Sandbox.Game.Localization.IconSymbol_Organic)||
-|static [`VRage.Utils.MyStringId IconSymbol_Pt`](Sandbox.Game.Localization.IconSymbol_Pt)||
-|static [`VRage.Utils.MyStringId IconSymbol_Si`](Sandbox.Game.Localization.IconSymbol_Si)||
-|static [`VRage.Utils.MyStringId IconSymbol_Stone`](Sandbox.Game.Localization.IconSymbol_Stone)||
-|static [`VRage.Utils.MyStringId IconSymbol_U`](Sandbox.Game.Localization.IconSymbol_U)||
-|static [`VRage.Utils.MyStringId IngameHelp_Intro_Detail1`](Sandbox.Game.Localization.IngameHelp_Intro_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_Intro_Detail2`](Sandbox.Game.Localization.IngameHelp_Intro_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_Intro_Title`](Sandbox.Game.Localization.IngameHelp_Intro_Title)||
-|static [`VRage.Utils.MyStringId IngameHelp_Jetpack_Title`](Sandbox.Game.Localization.IngameHelp_Jetpack_Title)||
-|static [`VRage.Utils.MyStringId IngameHelp_Jetpack_Detail1`](Sandbox.Game.Localization.IngameHelp_Jetpack_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_Jetpack_Detail2`](Sandbox.Game.Localization.IngameHelp_Jetpack_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_Jetpack_Detail3`](Sandbox.Game.Localization.IngameHelp_Jetpack_Detail3)||
-|static [`VRage.Utils.MyStringId IngameHelp_Jetpack_Detail4`](Sandbox.Game.Localization.IngameHelp_Jetpack_Detail4)||
-|static [`VRage.Utils.MyStringId IngameHelp_Jetpack_Detail5`](Sandbox.Game.Localization.IngameHelp_Jetpack_Detail5)||
-|static [`VRage.Utils.MyStringId IngameHelp_Movement_Detail1`](Sandbox.Game.Localization.IngameHelp_Movement_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_Movement_Detail2`](Sandbox.Game.Localization.IngameHelp_Movement_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_Movement_Detail3`](Sandbox.Game.Localization.IngameHelp_Movement_Detail3)||
-|static [`VRage.Utils.MyStringId IngameHelp_Movement_Detail4`](Sandbox.Game.Localization.IngameHelp_Movement_Detail4)||
-|static [`VRage.Utils.MyStringId IngameHelp_Movement_Detail5`](Sandbox.Game.Localization.IngameHelp_Movement_Detail5)||
-|static [`VRage.Utils.MyStringId IngameHelp_Camera_Detail1`](Sandbox.Game.Localization.IngameHelp_Camera_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_Camera_Detail2`](Sandbox.Game.Localization.IngameHelp_Camera_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_Camera_Detail3`](Sandbox.Game.Localization.IngameHelp_Camera_Detail3)||
-|static [`VRage.Utils.MyStringId IngameHelp_Movement_Title`](Sandbox.Game.Localization.IngameHelp_Movement_Title)||
-|static [`VRage.Utils.MyStringId INVALID`](Sandbox.Game.Localization.INVALID)||
-|static [`VRage.Utils.MyStringId Inventory`](Sandbox.Game.Localization.Inventory)||
-|static [`VRage.Utils.MyStringId Iron`](Sandbox.Game.Localization.Iron)||
-|static [`VRage.Utils.MyStringId Jump_Achievable`](Sandbox.Game.Localization.Jump_Achievable)||
-|static [`VRage.Utils.MyStringId Jump_Blind`](Sandbox.Game.Localization.Jump_Blind)||
-|static [`VRage.Utils.MyStringId Jump_CrewCount`](Sandbox.Game.Localization.Jump_CrewCount)||
-|static [`VRage.Utils.MyStringId Jump_Destination`](Sandbox.Game.Localization.Jump_Destination)||
-|static [`VRage.Utils.MyStringId Jump_Distance`](Sandbox.Game.Localization.Jump_Distance)||
-|static [`VRage.Utils.MyStringId Jump_DistanceToDest`](Sandbox.Game.Localization.Jump_DistanceToDest)||
-|static [`VRage.Utils.MyStringId Jump_DriveCount`](Sandbox.Game.Localization.Jump_DriveCount)||
-|static [`VRage.Utils.MyStringId Jump_MinDistance`](Sandbox.Game.Localization.Jump_MinDistance)||
-|static [`VRage.Utils.MyStringId Jump_Obstacle`](Sandbox.Game.Localization.Jump_Obstacle)||
-|static [`VRage.Utils.MyStringId Jump_ObstacleTruncation`](Sandbox.Game.Localization.Jump_ObstacleTruncation)||
-|static [`VRage.Utils.MyStringId Jump_Weight`](Sandbox.Game.Localization.Jump_Weight)||
-|static [`VRage.Utils.MyStringId KeepProjectionToggle`](Sandbox.Game.Localization.KeepProjectionToggle)||
-|static [`VRage.Utils.MyStringId KeepProjectionTooltip`](Sandbox.Game.Localization.KeepProjectionTooltip)||
-|static [`VRage.Utils.MyStringId LargeGrids`](Sandbox.Game.Localization.LargeGrids)||
-|static [`VRage.Utils.MyStringId LargeMissileTurretReloadingNotification`](Sandbox.Game.Localization.LargeMissileTurretReloadingNotification)||
-|static [`VRage.Utils.MyStringId LaserAntennaConnectButton`](Sandbox.Game.Localization.LaserAntennaConnectButton)||
-|static [`VRage.Utils.MyStringId LaserAntennaConnectGPS`](Sandbox.Game.Localization.LaserAntennaConnectGPS)||
-|static [`VRage.Utils.MyStringId LaserAntennaCopyCoords`](Sandbox.Game.Localization.LaserAntennaCopyCoords)||
-|static [`VRage.Utils.MyStringId LaserAntennaCopyCoordsHelp`](Sandbox.Game.Localization.LaserAntennaCopyCoordsHelp)||
-|static [`VRage.Utils.MyStringId LaserAntennaCopyTargetCoords`](Sandbox.Game.Localization.LaserAntennaCopyTargetCoords)||
-|static [`VRage.Utils.MyStringId LaserAntennaCopyTargetCoordsHelp`](Sandbox.Game.Localization.LaserAntennaCopyTargetCoordsHelp)||
-|static [`VRage.Utils.MyStringId LaserAntennaIdleButton`](Sandbox.Game.Localization.LaserAntennaIdleButton)||
-|static [`VRage.Utils.MyStringId LaserAntennaModeConnectedTo`](Sandbox.Game.Localization.LaserAntennaModeConnectedTo)||
-|static [`VRage.Utils.MyStringId LaserAntennaModeContactRec`](Sandbox.Game.Localization.LaserAntennaModeContactRec)||
-|static [`VRage.Utils.MyStringId LaserAntennaModeIdle`](Sandbox.Game.Localization.LaserAntennaModeIdle)||
-|static [`VRage.Utils.MyStringId LaserAntennaModeRotGPS`](Sandbox.Game.Localization.LaserAntennaModeRotGPS)||
-|static [`VRage.Utils.MyStringId LaserAntennaModeRotRec`](Sandbox.Game.Localization.LaserAntennaModeRotRec)||
-|static [`VRage.Utils.MyStringId LaserAntennaModeSearchGPS`](Sandbox.Game.Localization.LaserAntennaModeSearchGPS)||
-|static [`VRage.Utils.MyStringId LaserAntennaOnlyPerm`](Sandbox.Game.Localization.LaserAntennaOnlyPerm)||
-|static [`VRage.Utils.MyStringId LaserAntennaOutsideLimits`](Sandbox.Game.Localization.LaserAntennaOutsideLimits)||
-|static [`VRage.Utils.MyStringId LaserAntennaPasteGPS`](Sandbox.Game.Localization.LaserAntennaPasteGPS)||
-|static [`VRage.Utils.MyStringId LaserAntennaPermanentCheckbox`](Sandbox.Game.Localization.LaserAntennaPermanentCheckbox)||
-|static [`VRage.Utils.MyStringId LaserAntennaReceiversList`](Sandbox.Game.Localization.LaserAntennaReceiversList)||
-|static [`VRage.Utils.MyStringId LaserAntennaReceiversListHelp`](Sandbox.Game.Localization.LaserAntennaReceiversListHelp)||
-|static [`VRage.Utils.MyStringId LaserAntennaSelectedCoords`](Sandbox.Game.Localization.LaserAntennaSelectedCoords)||
-|static [`VRage.Utils.MyStringId LCD_Arrow`](Sandbox.Game.Localization.LCD_Arrow)||
-|static [`VRage.Utils.MyStringId LCD_Construction`](Sandbox.Game.Localization.LCD_Construction)||
-|static [`VRage.Utils.MyStringId LCD_Cross`](Sandbox.Game.Localization.LCD_Cross)||
-|static [`VRage.Utils.MyStringId LCD_Danger`](Sandbox.Game.Localization.LCD_Danger)||
-|static [`VRage.Utils.MyStringId LCD_NoEntry`](Sandbox.Game.Localization.LCD_NoEntry)||
-|static [`VRage.Utils.MyStringId LCD_Offline`](Sandbox.Game.Localization.LCD_Offline)||
-|static [`VRage.Utils.MyStringId LCD_Online`](Sandbox.Game.Localization.LCD_Online)||
-|static [`VRage.Utils.MyStringId LCD_WhiteScreen`](Sandbox.Game.Localization.LCD_WhiteScreen)||
-|static [`VRage.Utils.MyStringId LoadingError_ModifiedOriginalContent`](Sandbox.Game.Localization.LoadingError_ModifiedOriginalContent)||
-|static [`VRage.Utils.MyStringId LoadingWheel_Streaming`](Sandbox.Game.Localization.LoadingWheel_Streaming)||
-|static [`VRage.Utils.MyStringId LowMemSwitchToLowQuestion`](Sandbox.Game.Localization.LowMemSwitchToLowQuestion)||
-|static [`VRage.Utils.MyStringId Magnesium`](Sandbox.Game.Localization.Magnesium)||
-|static [`VRage.Utils.MyStringId Mass`](Sandbox.Game.Localization.Mass)||
-|static [`VRage.Utils.MyStringId MaxBackupSaves`](Sandbox.Game.Localization.MaxBackupSaves)||
-|static [`VRage.Utils.MyStringId MaxFloatingObjects`](Sandbox.Game.Localization.MaxFloatingObjects)||
-|static [`VRage.Utils.MyStringId MedicalRoom_factionAssignmentLabel`](Sandbox.Game.Localization.MedicalRoom_factionAssignmentLabel)||
-|static [`VRage.Utils.MyStringId MedicalRoom_factionAssignmentTooltip`](Sandbox.Game.Localization.MedicalRoom_factionAssignmentTooltip)||
-|static [`VRage.Utils.MyStringId MedicalRoom_ownershipAssignmentLabel`](Sandbox.Game.Localization.MedicalRoom_ownershipAssignmentLabel)||
-|static [`VRage.Utils.MyStringId MedicalRoom_ownershipAssignmentTooltip`](Sandbox.Game.Localization.MedicalRoom_ownershipAssignmentTooltip)||
-|static [`VRage.Utils.MyStringId MessageBoxCaptionDoYouWishToPublishScenario`](Sandbox.Game.Localization.MessageBoxCaptionDoYouWishToPublishScenario)||
-|static [`VRage.Utils.MyStringId MessageBoxCaptionDoYouWishToUpdateScenario`](Sandbox.Game.Localization.MessageBoxCaptionDoYouWishToUpdateScenario)||
-|static [`VRage.Utils.MyStringId MessageBoxCaptionRecommend`](Sandbox.Game.Localization.MessageBoxCaptionRecommend)||
-|static [`VRage.Utils.MyStringId MessageBoxCaptionRespawn`](Sandbox.Game.Localization.MessageBoxCaptionRespawn)||
-|static [`VRage.Utils.MyStringId MessageBoxCaptionScenarioPublished`](Sandbox.Game.Localization.MessageBoxCaptionScenarioPublished)||
-|static [`VRage.Utils.MyStringId MessageBoxCaptionScenarioPublishFailed`](Sandbox.Game.Localization.MessageBoxCaptionScenarioPublishFailed)||
-|static [`VRage.Utils.MyStringId MessageBoxCaptionTutorial`](Sandbox.Game.Localization.MessageBoxCaptionTutorial)||
-|static [`VRage.Utils.MyStringId MessageBoxCaptionVideo`](Sandbox.Game.Localization.MessageBoxCaptionVideo)||
-|static [`VRage.Utils.MyStringId MessageBoxTextAreYouSureEnableOxygen`](Sandbox.Game.Localization.MessageBoxTextAreYouSureEnableOxygen)||
-|static [`VRage.Utils.MyStringId MessageBoxTextAreYouSureEnableOxygenPressurization`](Sandbox.Game.Localization.MessageBoxTextAreYouSureEnableOxygenPressurization)||
-|static [`VRage.Utils.MyStringId MessageBoxTextAreYouSureToRemoveAsteroid`](Sandbox.Game.Localization.MessageBoxTextAreYouSureToRemoveAsteroid)||
-|static [`VRage.Utils.MyStringId MessageBoxTextDoYouWishToPublishScenario`](Sandbox.Game.Localization.MessageBoxTextDoYouWishToPublishScenario)||
-|static [`VRage.Utils.MyStringId MessageBoxTextDoYouWishToUpdateScenario`](Sandbox.Game.Localization.MessageBoxTextDoYouWishToUpdateScenario)||
-|static [`VRage.Utils.MyStringId MessageBoxTextRecommend`](Sandbox.Game.Localization.MessageBoxTextRecommend)||
-|static [`VRage.Utils.MyStringId MessageBoxTextRestartNeededAfterLanguageSwitch`](Sandbox.Game.Localization.MessageBoxTextRestartNeededAfterLanguageSwitch)||
-|static [`VRage.Utils.MyStringId MessageBoxTextRestartNeededAfterRendererSwitch`](Sandbox.Game.Localization.MessageBoxTextRestartNeededAfterRendererSwitch)||
-|static [`VRage.Utils.MyStringId MessageBoxTextScenarioNotFound`](Sandbox.Game.Localization.MessageBoxTextScenarioNotFound)||
-|static [`VRage.Utils.MyStringId MessageBoxTextScenarioPublished`](Sandbox.Game.Localization.MessageBoxTextScenarioPublished)||
-|static [`VRage.Utils.MyStringId MessageBoxTextScenarioPublishFailed`](Sandbox.Game.Localization.MessageBoxTextScenarioPublishFailed)||
-|static [`VRage.Utils.MyStringId MessageBoxTextTutorialQuestion`](Sandbox.Game.Localization.MessageBoxTextTutorialQuestion)||
-|static [`VRage.Utils.MyStringId MessageBoxTextWatchVideo`](Sandbox.Game.Localization.MessageBoxTextWatchVideo)||
-|static [`VRage.Utils.MyStringId MessageBoxTextWorkshopDownloadFailed`](Sandbox.Game.Localization.MessageBoxTextWorkshopDownloadFailed)||
-|static [`VRage.Utils.MyStringId MissileLauncherReloadingNotification`](Sandbox.Game.Localization.MissileLauncherReloadingNotification)||
-|static [`VRage.Utils.MyStringId MissionScreenCaption`](Sandbox.Game.Localization.MissionScreenCaption)||
-|static [`VRage.Utils.MyStringId MissionTriggerOtherWon`](Sandbox.Game.Localization.MissionTriggerOtherWon)||
-|static [`VRage.Utils.MyStringId MissionTriggerReachPosition`](Sandbox.Game.Localization.MissionTriggerReachPosition)||
-|static [`VRage.Utils.MyStringId MostActiveDrills`](Sandbox.Game.Localization.MostActiveDrills)||
-|static [`VRage.Utils.MyStringId MostActiveProductionBuildings`](Sandbox.Game.Localization.MostActiveProductionBuildings)||
-|static [`VRage.Utils.MyStringId MostActiveReactors`](Sandbox.Game.Localization.MostActiveReactors)||
-|static [`VRage.Utils.MyStringId MostActiveSensors`](Sandbox.Game.Localization.MostActiveSensors)||
-|static [`VRage.Utils.MyStringId MostActiveThrusters`](Sandbox.Game.Localization.MostActiveThrusters)||
-|static [`VRage.Utils.MyStringId MostWheels`](Sandbox.Game.Localization.MostWheels)||
-|static [`VRage.Utils.MyStringId MultiplayerJoinProductionMultipliers`](Sandbox.Game.Localization.MultiplayerJoinProductionMultipliers)||
-|static [`VRage.Utils.MyStringId MyGuiScreenTriggerBlockDestroyed`](Sandbox.Game.Localization.MyGuiScreenTriggerBlockDestroyed)||
-|static [`VRage.Utils.MyStringId MyGuiScreenTriggerNoSpawn`](Sandbox.Game.Localization.MyGuiScreenTriggerNoSpawn)||
-|static [`VRage.Utils.MyStringId MyGuiScreenTriggerTimeLimit`](Sandbox.Game.Localization.MyGuiScreenTriggerTimeLimit)||
-|static [`VRage.Utils.MyStringId NewVersionAvailable`](Sandbox.Game.Localization.NewVersionAvailable)||
-|static [`VRage.Utils.MyStringId Nickel`](Sandbox.Game.Localization.Nickel)||
-|static [`VRage.Utils.MyStringId None`](Sandbox.Game.Localization.None)||
-|static [`VRage.Utils.MyStringId NotAvailable`](Sandbox.Game.Localization.NotAvailable)||
-|static [`VRage.Utils.MyStringId NotEnoughMaterial`](Sandbox.Game.Localization.NotEnoughMaterial)||
-|static [`VRage.Utils.MyStringId NoticeLine_01`](Sandbox.Game.Localization.NoticeLine_01)||
-|static [`VRage.Utils.MyStringId NoticeLine_02`](Sandbox.Game.Localization.NoticeLine_02)||
-|static [`VRage.Utils.MyStringId NoticeLine_03`](Sandbox.Game.Localization.NoticeLine_03)||
-|static [`VRage.Utils.MyStringId NoticeLine_04`](Sandbox.Game.Localization.NoticeLine_04)||
-|static [`VRage.Utils.MyStringId NoticeLine_05`](Sandbox.Game.Localization.NoticeLine_05)||
-|static [`VRage.Utils.MyStringId NoticeLine_06`](Sandbox.Game.Localization.NoticeLine_06)||
-|static [`VRage.Utils.MyStringId NoticeLine_07`](Sandbox.Game.Localization.NoticeLine_07)||
-|static [`VRage.Utils.MyStringId NotificationArgAngleGrinder`](Sandbox.Game.Localization.NotificationArgAngleGrinder)||
-|static [`VRage.Utils.MyStringId NotificationArgDrill`](Sandbox.Game.Localization.NotificationArgDrill)||
-|static [`VRage.Utils.MyStringId NotificationArgLargeShip`](Sandbox.Game.Localization.NotificationArgLargeShip)||
-|static [`VRage.Utils.MyStringId NotificationArgMissile`](Sandbox.Game.Localization.NotificationArgMissile)||
-|static [`VRage.Utils.MyStringId NotificationArgProjectile`](Sandbox.Game.Localization.NotificationArgProjectile)||
-|static [`VRage.Utils.MyStringId NotificationArgSmallShip`](Sandbox.Game.Localization.NotificationArgSmallShip)||
-|static [`VRage.Utils.MyStringId NotificationArgStation`](Sandbox.Game.Localization.NotificationArgStation)||
-|static [`VRage.Utils.MyStringId NotificationArgWelder`](Sandbox.Game.Localization.NotificationArgWelder)||
-|static [`VRage.Utils.MyStringId NotificationBlockNotAvailableFor`](Sandbox.Game.Localization.NotificationBlockNotAvailableFor)||
-|static [`VRage.Utils.MyStringId NotificationBottleRefill`](Sandbox.Game.Localization.NotificationBottleRefill)||
-|static [`VRage.Utils.MyStringId NotificationCannotJumpFromGravity`](Sandbox.Game.Localization.NotificationCannotJumpFromGravity)||
-|static [`VRage.Utils.MyStringId NotificationCannotJumpIntoGravity`](Sandbox.Game.Localization.NotificationCannotJumpIntoGravity)||
-|static [`VRage.Utils.MyStringId NotificationCannotJumpOutsideWorld`](Sandbox.Game.Localization.NotificationCannotJumpOutsideWorld)||
-|static [`VRage.Utils.MyStringId NotificationCharacterBroadcastingOff`](Sandbox.Game.Localization.NotificationCharacterBroadcastingOff)||
-|static [`VRage.Utils.MyStringId NotificationCharacterBroadcastingOn`](Sandbox.Game.Localization.NotificationCharacterBroadcastingOn)||
-|static [`VRage.Utils.MyStringId NotificationConnectorsDisabled`](Sandbox.Game.Localization.NotificationConnectorsDisabled)||
-|static [`VRage.Utils.MyStringId NotificationConnectorsEnabled`](Sandbox.Game.Localization.NotificationConnectorsEnabled)||
-|static [`VRage.Utils.MyStringId NotificationCopyPasteAsteroidObstructed`](Sandbox.Game.Localization.NotificationCopyPasteAsteroidObstructed)||
-|static [`VRage.Utils.MyStringId NotificationEnergyCritical`](Sandbox.Game.Localization.NotificationEnergyCritical)||
-|static [`VRage.Utils.MyStringId NotificationEnergyLow`](Sandbox.Game.Localization.NotificationEnergyLow)||
-|static [`VRage.Utils.MyStringId NotificationEnergyNo`](Sandbox.Game.Localization.NotificationEnergyNo)||
-|static [`VRage.Utils.MyStringId NotificationFuelCritical`](Sandbox.Game.Localization.NotificationFuelCritical)||
-|static [`VRage.Utils.MyStringId NotificationFuelLow`](Sandbox.Game.Localization.NotificationFuelLow)||
-|static [`VRage.Utils.MyStringId NotificationFuelNo`](Sandbox.Game.Localization.NotificationFuelNo)||
-|static [`VRage.Utils.MyStringId NotificationGasBottleRefill`](Sandbox.Game.Localization.NotificationGasBottleRefill)||
-|static [`VRage.Utils.MyStringId NotificationGridReachedPhysicalLimit`](Sandbox.Game.Localization.NotificationGridReachedPhysicalLimit)||
-|static [`VRage.Utils.MyStringId NotificationHandbrakeOff`](Sandbox.Game.Localization.NotificationHandbrakeOff)||
-|static [`VRage.Utils.MyStringId NotificationHandbrakeOn`](Sandbox.Game.Localization.NotificationHandbrakeOn)||
-|static [`VRage.Utils.MyStringId NotificationHealthCritical`](Sandbox.Game.Localization.NotificationHealthCritical)||
-|static [`VRage.Utils.MyStringId NotificationHealthLow`](Sandbox.Game.Localization.NotificationHealthLow)||
-|static [`VRage.Utils.MyStringId NotificationHelmetOff`](Sandbox.Game.Localization.NotificationHelmetOff)||
-|static [`VRage.Utils.MyStringId NotificationHelmetOn`](Sandbox.Game.Localization.NotificationHelmetOn)||
-|static [`VRage.Utils.MyStringId NotificationHintJoystickPressToOpenButtonPanel`](Sandbox.Game.Localization.NotificationHintJoystickPressToOpenButtonPanel)||
-|static [`VRage.Utils.MyStringId NotificationHintJoystickPressToOpenControlPanel`](Sandbox.Game.Localization.NotificationHintJoystickPressToOpenControlPanel)||
-|static [`VRage.Utils.MyStringId NotificationHintJoystickPressToOpenTerminal`](Sandbox.Game.Localization.NotificationHintJoystickPressToOpenTerminal)||
-|static [`VRage.Utils.MyStringId NotificationHintLeaveCockpit`](Sandbox.Game.Localization.NotificationHintLeaveCockpit)||
-|static [`VRage.Utils.MyStringId NotificationHintLeaveCryoChamber`](Sandbox.Game.Localization.NotificationHintLeaveCryoChamber)||
-|static [`VRage.Utils.MyStringId NotificationHintNoAction`](Sandbox.Game.Localization.NotificationHintNoAction)||
-|static [`VRage.Utils.MyStringId NotificationHintOpenShipControlPanel`](Sandbox.Game.Localization.NotificationHintOpenShipControlPanel)||
-|static [`VRage.Utils.MyStringId NotificationHintPressToClimbUpDown`](Sandbox.Game.Localization.NotificationHintPressToClimbUpDown)||
-|static [`VRage.Utils.MyStringId NotificationHintPressToEnterCockpit`](Sandbox.Game.Localization.NotificationHintPressToEnterCockpit)||
-|static [`VRage.Utils.MyStringId NotificationHintPressToEnterCryochamber`](Sandbox.Game.Localization.NotificationHintPressToEnterCryochamber)||
-|static [`VRage.Utils.MyStringId NotificationHintPressToExitCamera`](Sandbox.Game.Localization.NotificationHintPressToExitCamera)||
-|static [`VRage.Utils.MyStringId NotificationHintPressToGetDownFromLadder`](Sandbox.Game.Localization.NotificationHintPressToGetDownFromLadder)||
-|static [`VRage.Utils.MyStringId NotificationHintPressToJumpOffLadder`](Sandbox.Game.Localization.NotificationHintPressToJumpOffLadder)||
-|static [`VRage.Utils.MyStringId NotificationHintPressToOpenButtonPanel`](Sandbox.Game.Localization.NotificationHintPressToOpenButtonPanel)||
-|static [`VRage.Utils.MyStringId NotificationHintPressToOpenControlPanel`](Sandbox.Game.Localization.NotificationHintPressToOpenControlPanel)||
-|static [`VRage.Utils.MyStringId NotificationHintPressToOpenDoor`](Sandbox.Game.Localization.NotificationHintPressToOpenDoor)||
-|static [`VRage.Utils.MyStringId NotificationHintPressToOpenInventory`](Sandbox.Game.Localization.NotificationHintPressToOpenInventory)||
-|static [`VRage.Utils.MyStringId NotificationHintPressToOpenInventoryConnector`](Sandbox.Game.Localization.NotificationHintPressToOpenInventoryConnector)||
-|static [`VRage.Utils.MyStringId NotificationHintPressToOpenTerminal`](Sandbox.Game.Localization.NotificationHintPressToOpenTerminal)||
-|static [`VRage.Utils.MyStringId NotificationHintPressToRechargeInMedicalRoom`](Sandbox.Game.Localization.NotificationHintPressToRechargeInMedicalRoom)||
-|static [`VRage.Utils.MyStringId NotificationHintPressToShowScreen`](Sandbox.Game.Localization.NotificationHintPressToShowScreen)||
-|static [`VRage.Utils.MyStringId NotificationHintSwitchWeaponMode`](Sandbox.Game.Localization.NotificationHintSwitchWeaponMode)||
-|static [`VRage.Utils.MyStringId NotificationHintTurnPowerOff`](Sandbox.Game.Localization.NotificationHintTurnPowerOff)||
-|static [`VRage.Utils.MyStringId NotificationHintTurnPowerOn`](Sandbox.Game.Localization.NotificationHintTurnPowerOn)||
-|static [`VRage.Utils.MyStringId NotificationHint_CubeDefaultMountpoint`](Sandbox.Game.Localization.NotificationHint_CubeDefaultMountpoint)||
-|static [`VRage.Utils.MyStringId NotificationJetpackOff`](Sandbox.Game.Localization.NotificationJetpackOff)||
-|static [`VRage.Utils.MyStringId NotificationJetpackOffNoHydrogen`](Sandbox.Game.Localization.NotificationJetpackOffNoHydrogen)||
-|static [`VRage.Utils.MyStringId NotificationJetpackOn`](Sandbox.Game.Localization.NotificationJetpackOn)||
-|static [`VRage.Utils.MyStringId NotificationJoystickColorFormat`](Sandbox.Game.Localization.NotificationJoystickColorFormat)||
-|static [`VRage.Utils.MyStringId NotificationJumpAborted`](Sandbox.Game.Localization.NotificationJumpAborted)||
-|static [`VRage.Utils.MyStringId NotificationJumpDriveNotFullyCharged`](Sandbox.Game.Localization.NotificationJumpDriveNotFullyCharged)||
-|static [`VRage.Utils.MyStringId NotificationJumpWarmupTime`](Sandbox.Game.Localization.NotificationJumpWarmupTime)||
-|static [`VRage.Utils.MyStringId NotificationLandingGearSwitchLocked`](Sandbox.Game.Localization.NotificationLandingGearSwitchLocked)||
-|static [`VRage.Utils.MyStringId NotificationLandingGearSwitchUnlocked`](Sandbox.Game.Localization.NotificationLandingGearSwitchUnlocked)||
-|static [`VRage.Utils.MyStringId NotificationLimitsGridSize`](Sandbox.Game.Localization.NotificationLimitsGridSize)||
-|static [`VRage.Utils.MyStringId NotificationLimitsNoFaction`](Sandbox.Game.Localization.NotificationLimitsNoFaction)||
-|static [`VRage.Utils.MyStringId NotificationLimitsPCU`](Sandbox.Game.Localization.NotificationLimitsPCU)||
-|static [`VRage.Utils.MyStringId NotificationLimitsPerBlockType`](Sandbox.Game.Localization.NotificationLimitsPerBlockType)||
-|static [`VRage.Utils.MyStringId NotificationLimitsPlayer`](Sandbox.Game.Localization.NotificationLimitsPlayer)||
-|static [`VRage.Utils.MyStringId NotificationMeteorInbound`](Sandbox.Game.Localization.NotificationMeteorInbound)||
-|static [`VRage.Utils.MyStringId NotificationNextScenarioWillLoad`](Sandbox.Game.Localization.NotificationNextScenarioWillLoad)||
-|static [`VRage.Utils.MyStringId NotificationNoHelmetVariation`](Sandbox.Game.Localization.NotificationNoHelmetVariation)||
-|static [`VRage.Utils.MyStringId NotificationObstructingBlockDuringMerge`](Sandbox.Game.Localization.NotificationObstructingBlockDuringMerge)||
-|static [`VRage.Utils.MyStringId NotificationOxygenCritical`](Sandbox.Game.Localization.NotificationOxygenCritical)||
-|static [`VRage.Utils.MyStringId NotificationOxygenLow`](Sandbox.Game.Localization.NotificationOxygenLow)||
-|static [`VRage.Utils.MyStringId NotificationPlayerDemoted_Moderator`](Sandbox.Game.Localization.NotificationPlayerDemoted_Moderator)||
-|static [`VRage.Utils.MyStringId NotificationPlayerDemoted_None`](Sandbox.Game.Localization.NotificationPlayerDemoted_None)||
-|static [`VRage.Utils.MyStringId NotificationPlayerDemoted_Scripter`](Sandbox.Game.Localization.NotificationPlayerDemoted_Scripter)||
-|static [`VRage.Utils.MyStringId NotificationPlayerDemoted_SpaceMaster`](Sandbox.Game.Localization.NotificationPlayerDemoted_SpaceMaster)||
-|static [`VRage.Utils.MyStringId NotificationPlayerPromoted_Admin`](Sandbox.Game.Localization.NotificationPlayerPromoted_Admin)||
-|static [`VRage.Utils.MyStringId NotificationPlayerPromoted_Moderator`](Sandbox.Game.Localization.NotificationPlayerPromoted_Moderator)||
-|static [`VRage.Utils.MyStringId NotificationPlayerPromoted_Scripter`](Sandbox.Game.Localization.NotificationPlayerPromoted_Scripter)||
-|static [`VRage.Utils.MyStringId NotificationPlayerPromoted_SpaceMaster`](Sandbox.Game.Localization.NotificationPlayerPromoted_SpaceMaster)||
-|static [`VRage.Utils.MyStringId NotificationProjectorGridSize`](Sandbox.Game.Localization.NotificationProjectorGridSize)||
-|static [`VRage.Utils.MyStringId NotificationProjectorMultipleGrids`](Sandbox.Game.Localization.NotificationProjectorMultipleGrids)||
-|static [`VRage.Utils.MyStringId NotificationRespawnShipDelete`](Sandbox.Game.Localization.NotificationRespawnShipDelete)||
-|static [`VRage.Utils.MyStringId NotificationShipEnergyCritical`](Sandbox.Game.Localization.NotificationShipEnergyCritical)||
-|static [`VRage.Utils.MyStringId NotificationShipEnergyCriticalNoDamage`](Sandbox.Game.Localization.NotificationShipEnergyCriticalNoDamage)||
-|static [`VRage.Utils.MyStringId NotificationShipEnergyLow`](Sandbox.Game.Localization.NotificationShipEnergyLow)||
-|static [`VRage.Utils.MyStringId NotificationShipEnergyLowNoDamage`](Sandbox.Game.Localization.NotificationShipEnergyLowNoDamage)||
-|static [`VRage.Utils.MyStringId NotificationStationRotation`](Sandbox.Game.Localization.NotificationStationRotation)||
-|static [`VRage.Utils.MyStringId NotificationStationRotationOff`](Sandbox.Game.Localization.NotificationStationRotationOff)||
-|static [`VRage.Utils.MyStringId NotificationSuitEnergyCritical`](Sandbox.Game.Localization.NotificationSuitEnergyCritical)||
-|static [`VRage.Utils.MyStringId NotificationSuitEnergyCriticalNoDamage`](Sandbox.Game.Localization.NotificationSuitEnergyCriticalNoDamage)||
-|static [`VRage.Utils.MyStringId NotificationSuitEnergyLow`](Sandbox.Game.Localization.NotificationSuitEnergyLow)||
-|static [`VRage.Utils.MyStringId NotificationSuitEnergyLowNoDamage`](Sandbox.Game.Localization.NotificationSuitEnergyLowNoDamage)||
-|static [`VRage.Utils.MyStringId NotificationSuitFuelCritical`](Sandbox.Game.Localization.NotificationSuitFuelCritical)||
-|static [`VRage.Utils.MyStringId NotificationSuitFuelLow`](Sandbox.Game.Localization.NotificationSuitFuelLow)||
-|static [`VRage.Utils.MyStringId NotificationUsingWeaponType`](Sandbox.Game.Localization.NotificationUsingWeaponType)||
-|static [`VRage.Utils.MyStringId NotificationWheelNotPlaced`](Sandbox.Game.Localization.NotificationWheelNotPlaced)||
-|static [`VRage.Utils.MyStringId Notification_BlueprintScriptRemoved`](Sandbox.Game.Localization.Notification_BlueprintScriptRemoved)||
-|static [`VRage.Utils.MyStringId Notification_CockpitIsDamaged`](Sandbox.Game.Localization.Notification_CockpitIsDamaged)||
-|static [`VRage.Utils.MyStringId Notification_NoControl`](Sandbox.Game.Localization.Notification_NoControl)||
-|static [`VRage.Utils.MyStringId Notification_NoControlAutoPilot`](Sandbox.Game.Localization.Notification_NoControlAutoPilot)||
-|static [`VRage.Utils.MyStringId Notification_NoControlLowerPriority`](Sandbox.Game.Localization.Notification_NoControlLowerPriority)||
-|static [`VRage.Utils.MyStringId Notification_NoControlNotMain`](Sandbox.Game.Localization.Notification_NoControlNotMain)||
-|static [`VRage.Utils.MyStringId Notification_NoControlOtherShip`](Sandbox.Game.Localization.Notification_NoControlOtherShip)||
-|static [`VRage.Utils.MyStringId Notification_NoControlStation`](Sandbox.Game.Localization.Notification_NoControlStation)||
-|static [`VRage.Utils.MyStringId Notification_PistonHeadAlreadyExists`](Sandbox.Game.Localization.Notification_PistonHeadAlreadyExists)||
-|static [`VRage.Utils.MyStringId Notification_PistonHeadNotPlaced`](Sandbox.Game.Localization.Notification_PistonHeadNotPlaced)||
-|static [`VRage.Utils.MyStringId Notification_WheelNotPlaced`](Sandbox.Game.Localization.Notification_WheelNotPlaced)||
-|static [`VRage.Utils.MyStringId Number`](Sandbox.Game.Localization.Number)||
-|static [`VRage.Utils.MyStringId O2High`](Sandbox.Game.Localization.O2High)||
-|static [`VRage.Utils.MyStringId O2Low`](Sandbox.Game.Localization.O2Low)||
-|static [`VRage.Utils.MyStringId O2None`](Sandbox.Game.Localization.O2None)||
-|static [`VRage.Utils.MyStringId OFF`](Sandbox.Game.Localization.OFF)||
-|static [`VRage.Utils.MyStringId ON`](Sandbox.Game.Localization.ON)||
-|static [`VRage.Utils.MyStringId OpenAdminScreen`](Sandbox.Game.Localization.OpenAdminScreen)||
-|static [`VRage.Utils.MyStringId OpenBlueprints`](Sandbox.Game.Localization.OpenBlueprints)||
-|static [`VRage.Utils.MyStringId OpenSpawnScreen`](Sandbox.Game.Localization.OpenSpawnScreen)||
-|static [`VRage.Utils.MyStringId OwnerLastLogin`](Sandbox.Game.Localization.OwnerLastLogin)||
-|static [`VRage.Utils.MyStringId OwnerLoginTime`](Sandbox.Game.Localization.OwnerLoginTime)||
-|static [`VRage.Utils.MyStringId OwnerName`](Sandbox.Game.Localization.OwnerName)||
-|static [`VRage.Utils.MyStringId Oxygen_Disabled`](Sandbox.Game.Localization.Oxygen_Disabled)||
-|static [`VRage.Utils.MyStringId Oxygen_Filled`](Sandbox.Game.Localization.Oxygen_Filled)||
-|static [`VRage.Utils.MyStringId Oxygen_NotPressurized`](Sandbox.Game.Localization.Oxygen_NotPressurized)||
-|static [`VRage.Utils.MyStringId Oxygen_Pressure`](Sandbox.Game.Localization.Oxygen_Pressure)||
-|static [`VRage.Utils.MyStringId Parachute_AutoDeploy`](Sandbox.Game.Localization.Parachute_AutoDeploy)||
-|static [`VRage.Utils.MyStringId Parachute_AutoDeployOff`](Sandbox.Game.Localization.Parachute_AutoDeployOff)||
-|static [`VRage.Utils.MyStringId Parachute_AutoDeployOn`](Sandbox.Game.Localization.Parachute_AutoDeployOn)||
-|static [`VRage.Utils.MyStringId Parachute_AutoDeployTooltip`](Sandbox.Game.Localization.Parachute_AutoDeployTooltip)||
-|static [`VRage.Utils.MyStringId Parachute_ConstraintItem`](Sandbox.Game.Localization.Parachute_ConstraintItem)||
-|static [`VRage.Utils.MyStringId Parachute_DeployHeightTitle`](Sandbox.Game.Localization.Parachute_DeployHeightTitle)||
-|static [`VRage.Utils.MyStringId Parachute_DeployHeightTooltip`](Sandbox.Game.Localization.Parachute_DeployHeightTooltip)||
-|static [`VRage.Utils.MyStringId PasteObject`](Sandbox.Game.Localization.PasteObject)||
-|static [`VRage.Utils.MyStringId Person_FB`](Sandbox.Game.Localization.Person_FB)||
-|static [`VRage.Utils.MyStringId Person_Twitter`](Sandbox.Game.Localization.Person_Twitter)||
-|static [`VRage.Utils.MyStringId Person_Web`](Sandbox.Game.Localization.Person_Web)||
-|static [`VRage.Utils.MyStringId PGravity`](Sandbox.Game.Localization.PGravity)||
-|static [`VRage.Utils.MyStringId PickColorFromCube`](Sandbox.Game.Localization.PickColorFromCube)||
-|static [`VRage.Utils.MyStringId Planets`](Sandbox.Game.Localization.Planets)||
-|static [`VRage.Utils.MyStringId Platinum`](Sandbox.Game.Localization.Platinum)||
-|static [`VRage.Utils.MyStringId PlayerCharacterColorBlack`](Sandbox.Game.Localization.PlayerCharacterColorBlack)||
-|static [`VRage.Utils.MyStringId PlayerCharacterColorBlue`](Sandbox.Game.Localization.PlayerCharacterColorBlue)||
-|static [`VRage.Utils.MyStringId PlayerCharacterColorDefault`](Sandbox.Game.Localization.PlayerCharacterColorDefault)||
-|static [`VRage.Utils.MyStringId PlayerCharacterColorGreen`](Sandbox.Game.Localization.PlayerCharacterColorGreen)||
-|static [`VRage.Utils.MyStringId PlayerCharacterColorRed`](Sandbox.Game.Localization.PlayerCharacterColorRed)||
-|static [`VRage.Utils.MyStringId PlayerCharacterColorWhite`](Sandbox.Game.Localization.PlayerCharacterColorWhite)||
-|static [`VRage.Utils.MyStringId PlayerCharacterColorYellow`](Sandbox.Game.Localization.PlayerCharacterColorYellow)||
-|static [`VRage.Utils.MyStringId PressNumberAgain`](Sandbox.Game.Localization.PressNumberAgain)||
-|static [`VRage.Utils.MyStringId ProductionScreen_AssemblerList`](Sandbox.Game.Localization.ProductionScreen_AssemblerList)||
-|static [`VRage.Utils.MyStringId ProductionScreen_TerminalControlScreen`](Sandbox.Game.Localization.ProductionScreen_TerminalControlScreen)||
-|static [`VRage.Utils.MyStringId ProductionScreen_TerminalInventoryScreen`](Sandbox.Game.Localization.ProductionScreen_TerminalInventoryScreen)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_ButtonCreateFromEditor`](Sandbox.Game.Localization.ProgrammableBlock_ButtonCreateFromEditor)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_ButtonDetails`](Sandbox.Game.Localization.ProgrammableBlock_ButtonDetails)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_ButtonRefreshScripts`](Sandbox.Game.Localization.ProgrammableBlock_ButtonRefreshScripts)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_ButtonRename`](Sandbox.Game.Localization.ProgrammableBlock_ButtonRename)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_ButtonReplaceFromEditor`](Sandbox.Game.Localization.ProgrammableBlock_ButtonReplaceFromEditor)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_CodeChanged`](Sandbox.Game.Localization.ProgrammableBlock_CodeChanged)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_CodeEditor_SaveExit`](Sandbox.Game.Localization.ProgrammableBlock_CodeEditor_SaveExit)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_CodeEditor_SaveExit_Tooltip`](Sandbox.Game.Localization.ProgrammableBlock_CodeEditor_SaveExit_Tooltip)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_CodeEditor_Title`](Sandbox.Game.Localization.ProgrammableBlock_CodeEditor_Title)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_DefaultScript_Constructor`](Sandbox.Game.Localization.ProgrammableBlock_DefaultScript_Constructor)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_DefaultScript_Main`](Sandbox.Game.Localization.ProgrammableBlock_DefaultScript_Main)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_DefaultScript_Save`](Sandbox.Game.Localization.ProgrammableBlock_DefaultScript_Save)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_DeleteScriptDialogText`](Sandbox.Game.Localization.ProgrammableBlock_DeleteScriptDialogText)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_Editor_BrowseWorkshop_Tooltip`](Sandbox.Game.Localization.ProgrammableBlock_Editor_BrowseWorkshop_Tooltip)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_Editor_CharacterLimit`](Sandbox.Game.Localization.ProgrammableBlock_Editor_CharacterLimit)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_Editor_CheckCode`](Sandbox.Game.Localization.ProgrammableBlock_Editor_CheckCode)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_Editor_CheckCode_Tooltip`](Sandbox.Game.Localization.ProgrammableBlock_Editor_CheckCode_Tooltip)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_Editor_CompilationFailed`](Sandbox.Game.Localization.ProgrammableBlock_Editor_CompilationFailed)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_Editor_CompilationFailedErrorFormat`](Sandbox.Game.Localization.ProgrammableBlock_Editor_CompilationFailedErrorFormat)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_Editor_CompilationFailedErrorList`](Sandbox.Game.Localization.ProgrammableBlock_Editor_CompilationFailedErrorList)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_Editor_CompilationOk`](Sandbox.Game.Localization.ProgrammableBlock_Editor_CompilationOk)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_Editor_CompilationOkWarningList`](Sandbox.Game.Localization.ProgrammableBlock_Editor_CompilationOkWarningList)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_Editor_Help`](Sandbox.Game.Localization.ProgrammableBlock_Editor_Help)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_Editor_HelpTooltip`](Sandbox.Game.Localization.ProgrammableBlock_Editor_HelpTooltip)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_Editor_LineNo`](Sandbox.Game.Localization.ProgrammableBlock_Editor_LineNo)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_Editor_RememberCode`](Sandbox.Game.Localization.ProgrammableBlock_Editor_RememberCode)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_Editor_RememberCode_Tooltip`](Sandbox.Game.Localization.ProgrammableBlock_Editor_RememberCode_Tooltip)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_Editor_TextTooLong`](Sandbox.Game.Localization.ProgrammableBlock_Editor_TextTooLong)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_Error_NotExperimental`](Sandbox.Game.Localization.ProgrammableBlock_Error_NotExperimental)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_Error_ScriptsDisabled`](Sandbox.Game.Localization.ProgrammableBlock_Error_ScriptsDisabled)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_Exception_AllreadyRunning`](Sandbox.Game.Localization.ProgrammableBlock_Exception_AllreadyRunning)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_Exception_ExceptionCaught`](Sandbox.Game.Localization.ProgrammableBlock_Exception_ExceptionCaught)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_Exception_NestedTooComplex`](Sandbox.Game.Localization.ProgrammableBlock_Exception_NestedTooComplex)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_Exception_NoAssembly`](Sandbox.Game.Localization.ProgrammableBlock_Exception_NoAssembly)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_Exception_NoMain`](Sandbox.Game.Localization.ProgrammableBlock_Exception_NoMain)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_Exception_NotAllowed`](Sandbox.Game.Localization.ProgrammableBlock_Exception_NotAllowed)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_Exception_NoValidConstructor`](Sandbox.Game.Localization.ProgrammableBlock_Exception_NoValidConstructor)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_Exception_Ownershipchanged`](Sandbox.Game.Localization.ProgrammableBlock_Exception_Ownershipchanged)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_Exception_TooComplex`](Sandbox.Game.Localization.ProgrammableBlock_Exception_TooComplex)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_NewScriptName`](Sandbox.Game.Localization.ProgrammableBlock_NewScriptName)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_OpenInWorkshop`](Sandbox.Game.Localization.ProgrammableBlock_OpenInWorkshop)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_PublishScriptDialogText`](Sandbox.Game.Localization.ProgrammableBlock_PublishScriptDialogText)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_PublishScriptPublished`](Sandbox.Game.Localization.ProgrammableBlock_PublishScriptPublished)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_ReplaceScriptDialogText`](Sandbox.Game.Localization.ProgrammableBlock_ReplaceScriptDialogText)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_ReplaceScriptNameDialogText`](Sandbox.Game.Localization.ProgrammableBlock_ReplaceScriptNameDialogText)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_ReplaceScriptNameDialogTitle`](Sandbox.Game.Localization.ProgrammableBlock_ReplaceScriptNameDialogTitle)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_ReplaceScriptNameUsed`](Sandbox.Game.Localization.ProgrammableBlock_ReplaceScriptNameUsed)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_SaveChanges`](Sandbox.Game.Localization.ProgrammableBlock_SaveChanges)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_ScriptNotFound`](Sandbox.Game.Localization.ProgrammableBlock_ScriptNotFound)||
-|static [`VRage.Utils.MyStringId ProgrammableBlock_ScriptsScreenTitle`](Sandbox.Game.Localization.ProgrammableBlock_ScriptsScreenTitle)||
-|static [`VRage.Utils.MyStringId QuickstartDX11NotAvailable`](Sandbox.Game.Localization.QuickstartDX11NotAvailable)||
-|static [`VRage.Utils.MyStringId QuickstartDX11PleaseRestartGame`](Sandbox.Game.Localization.QuickstartDX11PleaseRestartGame)||
-|static [`VRage.Utils.MyStringId QuickstartDX11SwitchQuestion`](Sandbox.Game.Localization.QuickstartDX11SwitchQuestion)||
-|static [`VRage.Utils.MyStringId QuickstartNoDx9SelectDifferent`](Sandbox.Game.Localization.QuickstartNoDx9SelectDifferent)||
-|static [`VRage.Utils.MyStringId QuickstartNoPlanets`](Sandbox.Game.Localization.QuickstartNoPlanets)||
-|static [`VRage.Utils.MyStringId QuickstartSelectDifferent`](Sandbox.Game.Localization.QuickstartSelectDifferent)||
-|static [`VRage.Utils.MyStringId Quote00Author`](Sandbox.Game.Localization.Quote00Author)||
-|static [`VRage.Utils.MyStringId Quote00Text`](Sandbox.Game.Localization.Quote00Text)||
-|static [`VRage.Utils.MyStringId Quote01Author`](Sandbox.Game.Localization.Quote01Author)||
-|static [`VRage.Utils.MyStringId Quote01Text`](Sandbox.Game.Localization.Quote01Text)||
-|static [`VRage.Utils.MyStringId Quote02Author`](Sandbox.Game.Localization.Quote02Author)||
-|static [`VRage.Utils.MyStringId Quote02Text`](Sandbox.Game.Localization.Quote02Text)||
-|static [`VRage.Utils.MyStringId Quote03Author`](Sandbox.Game.Localization.Quote03Author)||
-|static [`VRage.Utils.MyStringId Quote03Text`](Sandbox.Game.Localization.Quote03Text)||
-|static [`VRage.Utils.MyStringId Quote04Author`](Sandbox.Game.Localization.Quote04Author)||
-|static [`VRage.Utils.MyStringId Quote04Text`](Sandbox.Game.Localization.Quote04Text)||
-|static [`VRage.Utils.MyStringId Quote05Author`](Sandbox.Game.Localization.Quote05Author)||
-|static [`VRage.Utils.MyStringId Quote05Text`](Sandbox.Game.Localization.Quote05Text)||
-|static [`VRage.Utils.MyStringId Quote06Author`](Sandbox.Game.Localization.Quote06Author)||
-|static [`VRage.Utils.MyStringId Quote06Text`](Sandbox.Game.Localization.Quote06Text)||
-|static [`VRage.Utils.MyStringId Quote07Author`](Sandbox.Game.Localization.Quote07Author)||
-|static [`VRage.Utils.MyStringId Quote07Text`](Sandbox.Game.Localization.Quote07Text)||
-|static [`VRage.Utils.MyStringId Quote08Author`](Sandbox.Game.Localization.Quote08Author)||
-|static [`VRage.Utils.MyStringId Quote08Text`](Sandbox.Game.Localization.Quote08Text)||
-|static [`VRage.Utils.MyStringId Quote09Author`](Sandbox.Game.Localization.Quote09Author)||
-|static [`VRage.Utils.MyStringId Quote09Text`](Sandbox.Game.Localization.Quote09Text)||
-|static [`VRage.Utils.MyStringId Quote10Author`](Sandbox.Game.Localization.Quote10Author)||
-|static [`VRage.Utils.MyStringId Quote10Text`](Sandbox.Game.Localization.Quote10Text)||
-|static [`VRage.Utils.MyStringId Quote11Author`](Sandbox.Game.Localization.Quote11Author)||
-|static [`VRage.Utils.MyStringId Quote11Text`](Sandbox.Game.Localization.Quote11Text)||
-|static [`VRage.Utils.MyStringId Quote12Author`](Sandbox.Game.Localization.Quote12Author)||
-|static [`VRage.Utils.MyStringId Quote12Text`](Sandbox.Game.Localization.Quote12Text)||
-|static [`VRage.Utils.MyStringId Quote13Author`](Sandbox.Game.Localization.Quote13Author)||
-|static [`VRage.Utils.MyStringId Quote13Text`](Sandbox.Game.Localization.Quote13Text)||
-|static [`VRage.Utils.MyStringId Quote14Author`](Sandbox.Game.Localization.Quote14Author)||
-|static [`VRage.Utils.MyStringId Quote14Text`](Sandbox.Game.Localization.Quote14Text)||
-|static [`VRage.Utils.MyStringId Quote15Author`](Sandbox.Game.Localization.Quote15Author)||
-|static [`VRage.Utils.MyStringId Quote15Text`](Sandbox.Game.Localization.Quote15Text)||
-|static [`VRage.Utils.MyStringId Quote16Author`](Sandbox.Game.Localization.Quote16Author)||
-|static [`VRage.Utils.MyStringId Quote16Text`](Sandbox.Game.Localization.Quote16Text)||
-|static [`VRage.Utils.MyStringId Quote17Author`](Sandbox.Game.Localization.Quote17Author)||
-|static [`VRage.Utils.MyStringId Quote17Text`](Sandbox.Game.Localization.Quote17Text)||
-|static [`VRage.Utils.MyStringId Quote18Author`](Sandbox.Game.Localization.Quote18Author)||
-|static [`VRage.Utils.MyStringId Quote18Text`](Sandbox.Game.Localization.Quote18Text)||
-|static [`VRage.Utils.MyStringId Quote19Author`](Sandbox.Game.Localization.Quote19Author)||
-|static [`VRage.Utils.MyStringId Quote19Text`](Sandbox.Game.Localization.Quote19Text)||
-|static [`VRage.Utils.MyStringId Quote20Author`](Sandbox.Game.Localization.Quote20Author)||
-|static [`VRage.Utils.MyStringId Quote20Text`](Sandbox.Game.Localization.Quote20Text)||
-|static [`VRage.Utils.MyStringId Quote21Author`](Sandbox.Game.Localization.Quote21Author)||
-|static [`VRage.Utils.MyStringId Quote21Text`](Sandbox.Game.Localization.Quote21Text)||
-|static [`VRage.Utils.MyStringId Quote22Author`](Sandbox.Game.Localization.Quote22Author)||
-|static [`VRage.Utils.MyStringId Quote22Text`](Sandbox.Game.Localization.Quote22Text)||
-|static [`VRage.Utils.MyStringId Quote23Author`](Sandbox.Game.Localization.Quote23Author)||
-|static [`VRage.Utils.MyStringId Quote23Text`](Sandbox.Game.Localization.Quote23Text)||
-|static [`VRage.Utils.MyStringId Quote24Author`](Sandbox.Game.Localization.Quote24Author)||
-|static [`VRage.Utils.MyStringId Quote24Text`](Sandbox.Game.Localization.Quote24Text)||
-|static [`VRage.Utils.MyStringId Quote25Author`](Sandbox.Game.Localization.Quote25Author)||
-|static [`VRage.Utils.MyStringId Quote25Text`](Sandbox.Game.Localization.Quote25Text)||
-|static [`VRage.Utils.MyStringId Quote26Author`](Sandbox.Game.Localization.Quote26Author)||
-|static [`VRage.Utils.MyStringId Quote26Text`](Sandbox.Game.Localization.Quote26Text)||
-|static [`VRage.Utils.MyStringId Quote27Author`](Sandbox.Game.Localization.Quote27Author)||
-|static [`VRage.Utils.MyStringId Quote27Text`](Sandbox.Game.Localization.Quote27Text)||
-|static [`VRage.Utils.MyStringId Quote28Author`](Sandbox.Game.Localization.Quote28Author)||
-|static [`VRage.Utils.MyStringId Quote28Text`](Sandbox.Game.Localization.Quote28Text)||
-|static [`VRage.Utils.MyStringId Quote29Author`](Sandbox.Game.Localization.Quote29Author)||
-|static [`VRage.Utils.MyStringId Quote29Text`](Sandbox.Game.Localization.Quote29Text)||
-|static [`VRage.Utils.MyStringId Quote30Author`](Sandbox.Game.Localization.Quote30Author)||
-|static [`VRage.Utils.MyStringId Quote30Text`](Sandbox.Game.Localization.Quote30Text)||
-|static [`VRage.Utils.MyStringId Quote31Author`](Sandbox.Game.Localization.Quote31Author)||
-|static [`VRage.Utils.MyStringId Quote31Text`](Sandbox.Game.Localization.Quote31Text)||
-|static [`VRage.Utils.MyStringId Quote32Author`](Sandbox.Game.Localization.Quote32Author)||
-|static [`VRage.Utils.MyStringId Quote32Text`](Sandbox.Game.Localization.Quote32Text)||
-|static [`VRage.Utils.MyStringId Quote33Author`](Sandbox.Game.Localization.Quote33Author)||
-|static [`VRage.Utils.MyStringId Quote33Text`](Sandbox.Game.Localization.Quote33Text)||
-|static [`VRage.Utils.MyStringId Quote34Author`](Sandbox.Game.Localization.Quote34Author)||
-|static [`VRage.Utils.MyStringId Quote34Text`](Sandbox.Game.Localization.Quote34Text)||
-|static [`VRage.Utils.MyStringId Quote35Author`](Sandbox.Game.Localization.Quote35Author)||
-|static [`VRage.Utils.MyStringId Quote35Text`](Sandbox.Game.Localization.Quote35Text)||
-|static [`VRage.Utils.MyStringId Quote36Author`](Sandbox.Game.Localization.Quote36Author)||
-|static [`VRage.Utils.MyStringId Quote36Text`](Sandbox.Game.Localization.Quote36Text)||
-|static [`VRage.Utils.MyStringId Quote37Author`](Sandbox.Game.Localization.Quote37Author)||
-|static [`VRage.Utils.MyStringId Quote37Text`](Sandbox.Game.Localization.Quote37Text)||
-|static [`VRage.Utils.MyStringId Quote38Author`](Sandbox.Game.Localization.Quote38Author)||
-|static [`VRage.Utils.MyStringId Quote38Text`](Sandbox.Game.Localization.Quote38Text)||
-|static [`VRage.Utils.MyStringId Quote39Author`](Sandbox.Game.Localization.Quote39Author)||
-|static [`VRage.Utils.MyStringId Quote39Text`](Sandbox.Game.Localization.Quote39Text)||
-|static [`VRage.Utils.MyStringId Quote40Author`](Sandbox.Game.Localization.Quote40Author)||
-|static [`VRage.Utils.MyStringId Quote40Text`](Sandbox.Game.Localization.Quote40Text)||
-|static [`VRage.Utils.MyStringId Quote41Author`](Sandbox.Game.Localization.Quote41Author)||
-|static [`VRage.Utils.MyStringId Quote41Text`](Sandbox.Game.Localization.Quote41Text)||
-|static [`VRage.Utils.MyStringId Quote42Author`](Sandbox.Game.Localization.Quote42Author)||
-|static [`VRage.Utils.MyStringId Quote42Text`](Sandbox.Game.Localization.Quote42Text)||
-|static [`VRage.Utils.MyStringId Quote43Author`](Sandbox.Game.Localization.Quote43Author)||
-|static [`VRage.Utils.MyStringId Quote43Text`](Sandbox.Game.Localization.Quote43Text)||
-|static [`VRage.Utils.MyStringId Quote44Author`](Sandbox.Game.Localization.Quote44Author)||
-|static [`VRage.Utils.MyStringId Quote44Text`](Sandbox.Game.Localization.Quote44Text)||
-|static [`VRage.Utils.MyStringId Quote45Author`](Sandbox.Game.Localization.Quote45Author)||
-|static [`VRage.Utils.MyStringId Quote45Text`](Sandbox.Game.Localization.Quote45Text)||
-|static [`VRage.Utils.MyStringId Quote46Author`](Sandbox.Game.Localization.Quote46Author)||
-|static [`VRage.Utils.MyStringId Quote46Text`](Sandbox.Game.Localization.Quote46Text)||
-|static [`VRage.Utils.MyStringId Quote47Author`](Sandbox.Game.Localization.Quote47Author)||
-|static [`VRage.Utils.MyStringId Quote47Text`](Sandbox.Game.Localization.Quote47Text)||
-|static [`VRage.Utils.MyStringId Quote48Author`](Sandbox.Game.Localization.Quote48Author)||
-|static [`VRage.Utils.MyStringId Quote48Text`](Sandbox.Game.Localization.Quote48Text)||
-|static [`VRage.Utils.MyStringId Quote49Author`](Sandbox.Game.Localization.Quote49Author)||
-|static [`VRage.Utils.MyStringId Quote49Text`](Sandbox.Game.Localization.Quote49Text)||
-|static [`VRage.Utils.MyStringId Quote50Author`](Sandbox.Game.Localization.Quote50Author)||
-|static [`VRage.Utils.MyStringId Quote50Text`](Sandbox.Game.Localization.Quote50Text)||
-|static [`VRage.Utils.MyStringId Quote51Author`](Sandbox.Game.Localization.Quote51Author)||
-|static [`VRage.Utils.MyStringId Quote51Text`](Sandbox.Game.Localization.Quote51Text)||
-|static [`VRage.Utils.MyStringId Quote52Author`](Sandbox.Game.Localization.Quote52Author)||
-|static [`VRage.Utils.MyStringId Quote52Text`](Sandbox.Game.Localization.Quote52Text)||
-|static [`VRage.Utils.MyStringId Quote53Author`](Sandbox.Game.Localization.Quote53Author)||
-|static [`VRage.Utils.MyStringId Quote53Text`](Sandbox.Game.Localization.Quote53Text)||
-|static [`VRage.Utils.MyStringId Quote54Author`](Sandbox.Game.Localization.Quote54Author)||
-|static [`VRage.Utils.MyStringId Quote54Text`](Sandbox.Game.Localization.Quote54Text)||
-|static [`VRage.Utils.MyStringId Quote55Author`](Sandbox.Game.Localization.Quote55Author)||
-|static [`VRage.Utils.MyStringId Quote55Text`](Sandbox.Game.Localization.Quote55Text)||
-|static [`VRage.Utils.MyStringId Quote56Author`](Sandbox.Game.Localization.Quote56Author)||
-|static [`VRage.Utils.MyStringId Quote56Text`](Sandbox.Game.Localization.Quote56Text)||
-|static [`VRage.Utils.MyStringId Quote57Author`](Sandbox.Game.Localization.Quote57Author)||
-|static [`VRage.Utils.MyStringId Quote57Text`](Sandbox.Game.Localization.Quote57Text)||
-|static [`VRage.Utils.MyStringId Quote58Author`](Sandbox.Game.Localization.Quote58Author)||
-|static [`VRage.Utils.MyStringId Quote58Text`](Sandbox.Game.Localization.Quote58Text)||
-|static [`VRage.Utils.MyStringId Quote59Author`](Sandbox.Game.Localization.Quote59Author)||
-|static [`VRage.Utils.MyStringId Quote59Text`](Sandbox.Game.Localization.Quote59Text)||
-|static [`VRage.Utils.MyStringId Quote60Author`](Sandbox.Game.Localization.Quote60Author)||
-|static [`VRage.Utils.MyStringId Quote60Text`](Sandbox.Game.Localization.Quote60Text)||
-|static [`VRage.Utils.MyStringId Quote61Author`](Sandbox.Game.Localization.Quote61Author)||
-|static [`VRage.Utils.MyStringId Quote61Text`](Sandbox.Game.Localization.Quote61Text)||
-|static [`VRage.Utils.MyStringId Quote62Author`](Sandbox.Game.Localization.Quote62Author)||
-|static [`VRage.Utils.MyStringId Quote62Text`](Sandbox.Game.Localization.Quote62Text)||
-|static [`VRage.Utils.MyStringId Quote63Author`](Sandbox.Game.Localization.Quote63Author)||
-|static [`VRage.Utils.MyStringId Quote63Text`](Sandbox.Game.Localization.Quote63Text)||
-|static [`VRage.Utils.MyStringId Quote64Author`](Sandbox.Game.Localization.Quote64Author)||
-|static [`VRage.Utils.MyStringId Quote64Text`](Sandbox.Game.Localization.Quote64Text)||
-|static [`VRage.Utils.MyStringId Quote65Author`](Sandbox.Game.Localization.Quote65Author)||
-|static [`VRage.Utils.MyStringId Quote65Text`](Sandbox.Game.Localization.Quote65Text)||
-|static [`VRage.Utils.MyStringId Quote66Author`](Sandbox.Game.Localization.Quote66Author)||
-|static [`VRage.Utils.MyStringId Quote66Text`](Sandbox.Game.Localization.Quote66Text)||
-|static [`VRage.Utils.MyStringId Quote67Author`](Sandbox.Game.Localization.Quote67Author)||
-|static [`VRage.Utils.MyStringId Quote67Text`](Sandbox.Game.Localization.Quote67Text)||
-|static [`VRage.Utils.MyStringId Quote68Author`](Sandbox.Game.Localization.Quote68Author)||
-|static [`VRage.Utils.MyStringId Quote68Text`](Sandbox.Game.Localization.Quote68Text)||
-|static [`VRage.Utils.MyStringId Quote69Author`](Sandbox.Game.Localization.Quote69Author)||
-|static [`VRage.Utils.MyStringId Quote69Text`](Sandbox.Game.Localization.Quote69Text)||
-|static [`VRage.Utils.MyStringId Quote70Author`](Sandbox.Game.Localization.Quote70Author)||
-|static [`VRage.Utils.MyStringId Quote70Text`](Sandbox.Game.Localization.Quote70Text)||
-|static [`VRage.Utils.MyStringId Reactor`](Sandbox.Game.Localization.Reactor)||
-|static [`VRage.Utils.MyStringId RefreshBlueprints`](Sandbox.Game.Localization.RefreshBlueprints)||
-|static [`VRage.Utils.MyStringId RemoteAccess_Description`](Sandbox.Game.Localization.RemoteAccess_Description)||
-|static [`VRage.Utils.MyStringId RemoteControlCoord`](Sandbox.Game.Localization.RemoteControlCoord)||
-|static [`VRage.Utils.MyStringId RemoteControlUsedBy`](Sandbox.Game.Localization.RemoteControlUsedBy)||
-|static [`VRage.Utils.MyStringId RemoteControlWaypoint`](Sandbox.Game.Localization.RemoteControlWaypoint)||
-|static [`VRage.Utils.MyStringId Remove`](Sandbox.Game.Localization.Remove)||
-|static [`VRage.Utils.MyStringId RemoveAll`](Sandbox.Game.Localization.RemoveAll)||
-|static [`VRage.Utils.MyStringId RemoveProjectionButton`](Sandbox.Game.Localization.RemoveProjectionButton)||
-|static [`VRage.Utils.MyStringId RenderQuality`](Sandbox.Game.Localization.RenderQuality)||
-|static [`VRage.Utils.MyStringId RenderQualityExtreme`](Sandbox.Game.Localization.RenderQualityExtreme)||
-|static [`VRage.Utils.MyStringId RenderQualityHigh`](Sandbox.Game.Localization.RenderQualityHigh)||
-|static [`VRage.Utils.MyStringId RenderQualityNormal`](Sandbox.Game.Localization.RenderQualityNormal)||
-|static [`VRage.Utils.MyStringId ReplaceWithClipboard`](Sandbox.Game.Localization.ReplaceWithClipboard)||
-|static [`VRage.Utils.MyStringId RespawnShip`](Sandbox.Game.Localization.RespawnShip)||
-|static [`VRage.Utils.MyStringId RunningLevelScripts`](Sandbox.Game.Localization.RunningLevelScripts)||
-|static [`VRage.Utils.MyStringId RunningStateMachines`](Sandbox.Game.Localization.RunningStateMachines)||
-|static [`VRage.Utils.MyStringId SafeZone_CubeAxis`](Sandbox.Game.Localization.SafeZone_CubeAxis)||
-|static [`VRage.Utils.MyStringId SafeZone_Cubical`](Sandbox.Game.Localization.SafeZone_Cubical)||
-|static [`VRage.Utils.MyStringId SafeZone_ListOfEntities`](Sandbox.Game.Localization.SafeZone_ListOfEntities)||
-|static [`VRage.Utils.MyStringId SafeZone_Mode`](Sandbox.Game.Localization.SafeZone_Mode)||
-|static [`VRage.Utils.MyStringId SafeZone_SafeZoneFilter`](Sandbox.Game.Localization.SafeZone_SafeZoneFilter)||
-|static [`VRage.Utils.MyStringId SafeZone_SelectZoneShape`](Sandbox.Game.Localization.SafeZone_SelectZoneShape)||
-|static [`VRage.Utils.MyStringId SafeZone_Spherical`](Sandbox.Game.Localization.SafeZone_Spherical)||
-|static [`VRage.Utils.MyStringId ScenarioProgressDestroyBlocks`](Sandbox.Game.Localization.ScenarioProgressDestroyBlocks)||
-|static [`VRage.Utils.MyStringId ScenarioProgressLimitedLives`](Sandbox.Game.Localization.ScenarioProgressLimitedLives)||
-|static [`VRage.Utils.MyStringId ScenarioProgressLoseConditions`](Sandbox.Game.Localization.ScenarioProgressLoseConditions)||
-|static [`VRage.Utils.MyStringId ScenarioProgressNoSpawn`](Sandbox.Game.Localization.ScenarioProgressNoSpawn)||
-|static [`VRage.Utils.MyStringId ScenarioProgressOthersLost`](Sandbox.Game.Localization.ScenarioProgressOthersLost)||
-|static [`VRage.Utils.MyStringId ScenarioProgressPositionLeft`](Sandbox.Game.Localization.ScenarioProgressPositionLeft)||
-|static [`VRage.Utils.MyStringId ScenarioProgressPositionReached`](Sandbox.Game.Localization.ScenarioProgressPositionReached)||
-|static [`VRage.Utils.MyStringId ScenarioProgressSomeoneWon`](Sandbox.Game.Localization.ScenarioProgressSomeoneWon)||
-|static [`VRage.Utils.MyStringId ScenarioProgressTimeLimit`](Sandbox.Game.Localization.ScenarioProgressTimeLimit)||
-|static [`VRage.Utils.MyStringId ScenarioProgressWinConditions`](Sandbox.Game.Localization.ScenarioProgressWinConditions)||
-|static [`VRage.Utils.MyStringId ScenarioSettings_CanJoinRunning`](Sandbox.Game.Localization.ScenarioSettings_CanJoinRunning)||
-|static [`VRage.Utils.MyStringId ScenarioSettings_CanJoinRunningShort`](Sandbox.Game.Localization.ScenarioSettings_CanJoinRunningShort)||
-|static [`VRage.Utils.MyStringId ScreenButtonBattle`](Sandbox.Game.Localization.ScreenButtonBattle)||
-|static [`VRage.Utils.MyStringId ScreenCaptionAISchool`](Sandbox.Game.Localization.ScreenCaptionAISchool)||
-|static [`VRage.Utils.MyStringId ScreenCaptionScenario`](Sandbox.Game.Localization.ScreenCaptionScenario)||
-|static [`VRage.Utils.MyStringId ScreenCaptionTutorials`](Sandbox.Game.Localization.ScreenCaptionTutorials)||
-|static [`VRage.Utils.MyStringId ScreenCaptionVideoOptions`](Sandbox.Game.Localization.ScreenCaptionVideoOptions)||
-|static [`VRage.Utils.MyStringId ScreenCaptionWorldGeneratorSettings`](Sandbox.Game.Localization.ScreenCaptionWorldGeneratorSettings)||
-|static [`VRage.Utils.MyStringId ScreenCubeBuilderAddGoodAiBot`](Sandbox.Game.Localization.ScreenCubeBuilderAddGoodAiBot)||
-|static [`VRage.Utils.MyStringId ScreenCubeBuilderNewLargeShip`](Sandbox.Game.Localization.ScreenCubeBuilderNewLargeShip)||
-|static [`VRage.Utils.MyStringId ScreenCubeBuilderNewSmallShip`](Sandbox.Game.Localization.ScreenCubeBuilderNewSmallShip)||
-|static [`VRage.Utils.MyStringId ScreenCubeBuilderNewStation`](Sandbox.Game.Localization.ScreenCubeBuilderNewStation)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_AdminTools`](Sandbox.Game.Localization.ScreenDebugAdminMenu_AdminTools)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_Caption`](Sandbox.Game.Localization.ScreenDebugAdminMenu_Caption)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_Cleanup`](Sandbox.Game.Localization.ScreenDebugAdminMenu_Cleanup)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_Controlled`](Sandbox.Game.Localization.ScreenDebugAdminMenu_Controlled)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_Depower`](Sandbox.Game.Localization.ScreenDebugAdminMenu_Depower)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_DepowerTrash`](Sandbox.Game.Localization.ScreenDebugAdminMenu_DepowerTrash)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_EntityList`](Sandbox.Game.Localization.ScreenDebugAdminMenu_EntityList)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_GlobalSafeZone`](Sandbox.Game.Localization.ScreenDebugAdminMenu_GlobalSafeZone)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_Invulnerable`](Sandbox.Game.Localization.ScreenDebugAdminMenu_Invulnerable)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_InvulnerableToolTip`](Sandbox.Game.Localization.ScreenDebugAdminMenu_InvulnerableToolTip)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_MedbayNotification`](Sandbox.Game.Localization.ScreenDebugAdminMenu_MedbayNotification)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_ModeSelect`](Sandbox.Game.Localization.ScreenDebugAdminMenu_ModeSelect)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_Powered`](Sandbox.Game.Localization.ScreenDebugAdminMenu_Powered)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_RemoveCharacterNotification`](Sandbox.Game.Localization.ScreenDebugAdminMenu_RemoveCharacterNotification)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_RemoveFloating`](Sandbox.Game.Localization.ScreenDebugAdminMenu_RemoveFloating)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_RemoveOwner`](Sandbox.Game.Localization.ScreenDebugAdminMenu_RemoveOwner)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_RemoveOwnerToolTip`](Sandbox.Game.Localization.ScreenDebugAdminMenu_RemoveOwnerToolTip)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_ReplicateEverythingServer_Tooltip`](Sandbox.Game.Localization.ScreenDebugAdminMenu_ReplicateEverythingServer_Tooltip)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_SafeZones`](Sandbox.Game.Localization.ScreenDebugAdminMenu_SafeZones)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_SafeZones_AllowBuilding`](Sandbox.Game.Localization.ScreenDebugAdminMenu_SafeZones_AllowBuilding)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_SafeZones_AllowDamage`](Sandbox.Game.Localization.ScreenDebugAdminMenu_SafeZones_AllowDamage)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_SafeZones_AllowDrilling`](Sandbox.Game.Localization.ScreenDebugAdminMenu_SafeZones_AllowDrilling)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_SafeZones_AllowGrinding`](Sandbox.Game.Localization.ScreenDebugAdminMenu_SafeZones_AllowGrinding)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_SafeZones_AllowShooting`](Sandbox.Game.Localization.ScreenDebugAdminMenu_SafeZones_AllowShooting)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_SafeZones_AllowVoxelHands`](Sandbox.Game.Localization.ScreenDebugAdminMenu_SafeZones_AllowVoxelHands)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_SafeZones_AllowWelding`](Sandbox.Game.Localization.ScreenDebugAdminMenu_SafeZones_AllowWelding)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_SafeZones_ChangePosition`](Sandbox.Game.Localization.ScreenDebugAdminMenu_SafeZones_ChangePosition)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_SafeZones_ConfigureFilter`](Sandbox.Game.Localization.ScreenDebugAdminMenu_SafeZones_ConfigureFilter)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_SafeZones_FilterContained`](Sandbox.Game.Localization.ScreenDebugAdminMenu_SafeZones_FilterContained)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_SafeZones_MoveToSafeZone`](Sandbox.Game.Localization.ScreenDebugAdminMenu_SafeZones_MoveToSafeZone)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_SafeZones_NewSafeZone`](Sandbox.Game.Localization.ScreenDebugAdminMenu_SafeZones_NewSafeZone)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_SafeZones_SelectSafeZone`](Sandbox.Game.Localization.ScreenDebugAdminMenu_SafeZones_SelectSafeZone)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_SafeZones_ZoneEnabled`](Sandbox.Game.Localization.ScreenDebugAdminMenu_SafeZones_ZoneEnabled)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_SafeZones_ZoneRadius`](Sandbox.Game.Localization.ScreenDebugAdminMenu_SafeZones_ZoneRadius)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_ShowPlayers`](Sandbox.Game.Localization.ScreenDebugAdminMenu_ShowPlayers)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_ShowPlayersToolTip`](Sandbox.Game.Localization.ScreenDebugAdminMenu_ShowPlayersToolTip)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_SortBy`](Sandbox.Game.Localization.ScreenDebugAdminMenu_SortBy)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_SortOptions`](Sandbox.Game.Localization.ScreenDebugAdminMenu_SortOptions)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_Stationary`](Sandbox.Game.Localization.ScreenDebugAdminMenu_Stationary)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_Stations`](Sandbox.Game.Localization.ScreenDebugAdminMenu_Stations)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_StopAll`](Sandbox.Game.Localization.ScreenDebugAdminMenu_StopAll)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_TeleportHere`](Sandbox.Game.Localization.ScreenDebugAdminMenu_TeleportHere)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_TeleportHereToolTip`](Sandbox.Game.Localization.ScreenDebugAdminMenu_TeleportHereToolTip)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_TimeOfDay`](Sandbox.Game.Localization.ScreenDebugAdminMenu_TimeOfDay)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_Untargetable`](Sandbox.Game.Localization.ScreenDebugAdminMenu_Untargetable)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_UntargetableToolTip`](Sandbox.Game.Localization.ScreenDebugAdminMenu_UntargetableToolTip)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_UseTerminals`](Sandbox.Game.Localization.ScreenDebugAdminMenu_UseTerminals)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_UseTerminalsToolTip`](Sandbox.Game.Localization.ScreenDebugAdminMenu_UseTerminalsToolTip)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_WithMedBay`](Sandbox.Game.Localization.ScreenDebugAdminMenu_WithMedBay)||
-|static [`VRage.Utils.MyStringId ScreenDebugAdminMenu_WithProduction`](Sandbox.Game.Localization.ScreenDebugAdminMenu_WithProduction)||
-|static [`VRage.Utils.MyStringId ScreenDebugSpawnMenu_Asteroid`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_Asteroid)||
-|static [`VRage.Utils.MyStringId ScreenDebugSpawnMenu_AsteroidAddRandomMaterials`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_AsteroidAddRandomMaterials)||
-|static [`VRage.Utils.MyStringId ScreenDebugSpawnMenu_AsteroidCoreMaterial`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_AsteroidCoreMaterial)||
-|static [`VRage.Utils.MyStringId ScreenDebugSpawnMenu_AsteroidGenerationCanTakeLong`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_AsteroidGenerationCanTakeLong)||
-|static [`VRage.Utils.MyStringId ScreenDebugSpawnMenu_Asteroids`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_Asteroids)||
-|static [`VRage.Utils.MyStringId ScreenDebugSpawnMenu_AsteroidSurfaceMaterial`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_AsteroidSurfaceMaterial)||
-|static [`VRage.Utils.MyStringId ScreenDebugSpawnMenu_Caption`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_Caption)||
-|static [`VRage.Utils.MyStringId ScreenDebugSpawnMenu_CreateLayer`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_CreateLayer)||
-|static [`VRage.Utils.MyStringId ScreenDebugSpawnMenu_CurrentTarget`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_CurrentTarget)||
-|static [`VRage.Utils.MyStringId ScreenDebugSpawnMenu_EmptyVoxelMap`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_EmptyVoxelMap)||
-|static [`VRage.Utils.MyStringId ScreenDebugSpawnMenu_GenerateSeed`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_GenerateSeed)||
-|static [`VRage.Utils.MyStringId ScreenDebugSpawnMenu_InvalidAmount`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_InvalidAmount)||
-|static [`VRage.Utils.MyStringId ScreenDebugSpawnMenu_ItemAmount`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_ItemAmount)||
-|static [`VRage.Utils.MyStringId ScreenDebugSpawnMenu_Items`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_Items)||
-|static [`VRage.Utils.MyStringId ScreenDebugSpawnMenu_ItemType`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_ItemType)||
-|static [`VRage.Utils.MyStringId ScreenDebugSpawnMenu_PickPlanet`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_PickPlanet)||
-|static [`VRage.Utils.MyStringId ScreenDebugSpawnMenu_Planets`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_Planets)||
-|static [`VRage.Utils.MyStringId ScreenDebugSpawnMenu_PredefinedAsteroids`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_PredefinedAsteroids)||
-|static [`VRage.Utils.MyStringId ScreenDebugSpawnMenu_ProceduralAsteroids`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_ProceduralAsteroids)||
-|static [`VRage.Utils.MyStringId ScreenDebugSpawnMenu_ProceduralSeed`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_ProceduralSeed)||
-|static [`VRage.Utils.MyStringId ScreenDebugSpawnMenu_ProceduralSize`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_ProceduralSize)||
-|static [`VRage.Utils.MyStringId ScreenDebugSpawnMenu_RemoveLayer`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_RemoveLayer)||
-|static [`VRage.Utils.MyStringId ScreenDebugSpawnMenu_SelectAsteroidType`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_SelectAsteroidType)||
-|static [`VRage.Utils.MyStringId ScreenDebugSpawnMenu_SpawnAsteroid`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_SpawnAsteroid)||
-|static [`VRage.Utils.MyStringId ScreenDebugSpawnMenu_SpawnFlora`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_SpawnFlora)||
-|static [`VRage.Utils.MyStringId ScreenDebugSpawnMenu_SpawnObject`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_SpawnObject)||
-|static [`VRage.Utils.MyStringId ScreenDebugSpawnMenu_SpawnTargeted`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_SpawnTargeted)||
-|static [`VRage.Utils.MyStringId ScreenDebugSpawnMenu_UpdatePlanet`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_UpdatePlanet)||
-|static [`VRage.Utils.MyStringId ScreenGraphicsOptions_Renderer`](Sandbox.Game.Localization.ScreenGraphicsOptions_Renderer)||
-|static [`VRage.Utils.MyStringId ScreenGraphicsOptions_ShaderQuality`](Sandbox.Game.Localization.ScreenGraphicsOptions_ShaderQuality)||
-|static [`VRage.Utils.MyStringId ScreenGraphicsOptions_ShadowMapResolution`](Sandbox.Game.Localization.ScreenGraphicsOptions_ShadowMapResolution)||
-|static [`VRage.Utils.MyStringId ScreenGraphicsOptions_ShadowMapResolution_Medium`](Sandbox.Game.Localization.ScreenGraphicsOptions_ShadowMapResolution_Medium)||
-|static [`VRage.Utils.MyStringId ScreenGraphicsOptions_VoxelQuality`](Sandbox.Game.Localization.ScreenGraphicsOptions_VoxelQuality)||
-|static [`VRage.Utils.MyStringId ScreenMainMenu_DeluxeLine1`](Sandbox.Game.Localization.ScreenMainMenu_DeluxeLine1)||
-|static [`VRage.Utils.MyStringId ScreenMainMenu_DeluxeLine2`](Sandbox.Game.Localization.ScreenMainMenu_DeluxeLine2)||
-|static [`VRage.Utils.MyStringId ScreenMainMenu_GhostSkinLine1`](Sandbox.Game.Localization.ScreenMainMenu_GhostSkinLine1)||
-|static [`VRage.Utils.MyStringId ScreenMainMenu_GhostSkinLine2`](Sandbox.Game.Localization.ScreenMainMenu_GhostSkinLine2)||
-|static [`VRage.Utils.MyStringId ScreenMainMenu_SkinSaleLine1`](Sandbox.Game.Localization.ScreenMainMenu_SkinSaleLine1)||
-|static [`VRage.Utils.MyStringId ScreenMainMenu_SkinSaleLine2`](Sandbox.Game.Localization.ScreenMainMenu_SkinSaleLine2)||
-|static [`VRage.Utils.MyStringId ScreenMedicals_NoRespawnPlace`](Sandbox.Game.Localization.ScreenMedicals_NoRespawnPlace)||
-|static [`VRage.Utils.MyStringId ScreenMedicals_NoRespawnPlaceHeader`](Sandbox.Game.Localization.ScreenMedicals_NoRespawnPlaceHeader)||
-|static [`VRage.Utils.MyStringId ScreenMedicals_NoRespawnPossible`](Sandbox.Game.Localization.ScreenMedicals_NoRespawnPossible)||
-|static [`VRage.Utils.MyStringId ScreenMedicals_OwnerTimeoutColumn`](Sandbox.Game.Localization.ScreenMedicals_OwnerTimeoutColumn)||
-|static [`VRage.Utils.MyStringId ScreenMedicals_RespawnShipNotReady`](Sandbox.Game.Localization.ScreenMedicals_RespawnShipNotReady)||
-|static [`VRage.Utils.MyStringId ScreenMedicals_RespawnShipReady`](Sandbox.Game.Localization.ScreenMedicals_RespawnShipReady)||
-|static [`VRage.Utils.MyStringId ScreenMedicals_RespawnWhenShipReady`](Sandbox.Game.Localization.ScreenMedicals_RespawnWhenShipReady)||
-|static [`VRage.Utils.MyStringId ScreenOptionsButtonVideo`](Sandbox.Game.Localization.ScreenOptionsButtonVideo)||
-|static [`VRage.Utils.MyStringId ScreenOptionsGame_BrainSimulatorIntegration`](Sandbox.Game.Localization.ScreenOptionsGame_BrainSimulatorIntegration)||
-|static [`VRage.Utils.MyStringId ScreenTerminalError_NoAssemblers`](Sandbox.Game.Localization.ScreenTerminalError_NoAssemblers)||
-|static [`VRage.Utils.MyStringId ScreenTerminalError_ShipHasBeenDisconnected`](Sandbox.Game.Localization.ScreenTerminalError_ShipHasBeenDisconnected)||
-|static [`VRage.Utils.MyStringId ScreenTerminalError_ShipNotConnected`](Sandbox.Game.Localization.ScreenTerminalError_ShipNotConnected)||
-|static [`VRage.Utils.MyStringId ScreenTerminalInventory_Mass`](Sandbox.Game.Localization.ScreenTerminalInventory_Mass)||
-|static [`VRage.Utils.MyStringId ScreenTerminalInventory_Volume`](Sandbox.Game.Localization.ScreenTerminalInventory_Volume)||
-|static [`VRage.Utils.MyStringId ScreenTerminalProduction_AssemblingButton`](Sandbox.Game.Localization.ScreenTerminalProduction_AssemblingButton)||
-|static [`VRage.Utils.MyStringId ScreenTerminalProduction_Blueprints`](Sandbox.Game.Localization.ScreenTerminalProduction_Blueprints)||
-|static [`VRage.Utils.MyStringId ScreenTerminalProduction_ControlPanelButton`](Sandbox.Game.Localization.ScreenTerminalProduction_ControlPanelButton)||
-|static [`VRage.Utils.MyStringId ScreenTerminalProduction_DisassembleAllButton`](Sandbox.Game.Localization.ScreenTerminalProduction_DisassembleAllButton)||
-|static [`VRage.Utils.MyStringId ScreenTerminalProduction_DisassemblingButton`](Sandbox.Game.Localization.ScreenTerminalProduction_DisassemblingButton)||
-|static [`VRage.Utils.MyStringId ScreenTerminalProduction_GainedAndAvailable`](Sandbox.Game.Localization.ScreenTerminalProduction_GainedAndAvailable)||
-|static [`VRage.Utils.MyStringId ScreenTerminalProduction_Inventory`](Sandbox.Game.Localization.ScreenTerminalProduction_Inventory)||
-|static [`VRage.Utils.MyStringId ScreenTerminalProduction_InventoryButton`](Sandbox.Game.Localization.ScreenTerminalProduction_InventoryButton)||
-|static [`VRage.Utils.MyStringId ScreenTerminalProduction_MaterialType`](Sandbox.Game.Localization.ScreenTerminalProduction_MaterialType)||
-|static [`VRage.Utils.MyStringId ScreenTerminalProduction_ProductionQueue`](Sandbox.Game.Localization.ScreenTerminalProduction_ProductionQueue)||
-|static [`VRage.Utils.MyStringId ScreenTerminalProduction_RequiredAndAvailable`](Sandbox.Game.Localization.ScreenTerminalProduction_RequiredAndAvailable)||
-|static [`VRage.Utils.MyStringId ScreenTerminalProduction_StoredMaterials`](Sandbox.Game.Localization.ScreenTerminalProduction_StoredMaterials)||
-|static [`VRage.Utils.MyStringId ScreenTerminal_Infinite`](Sandbox.Game.Localization.ScreenTerminal_Infinite)||
-|static [`VRage.Utils.MyStringId ScreenTerminal_ShipCombobox`](Sandbox.Game.Localization.ScreenTerminal_ShipCombobox)||
-|static [`VRage.Utils.MyStringId ScreenTerminal_ShipList`](Sandbox.Game.Localization.ScreenTerminal_ShipList)||
-|static [`VRage.Utils.MyStringId ScriptingToolsCutscenes`](Sandbox.Game.Localization.ScriptingToolsCutscenes)||
-|static [`VRage.Utils.MyStringId ScriptingToolsTransformations`](Sandbox.Game.Localization.ScriptingToolsTransformations)||
-|static [`VRage.Utils.MyStringId SelectedBlock`](Sandbox.Game.Localization.SelectedBlock)||
-|static [`VRage.Utils.MyStringId SelectedEntity`](Sandbox.Game.Localization.SelectedEntity)||
-|static [`VRage.Utils.MyStringId SelectedTrigger`](Sandbox.Game.Localization.SelectedTrigger)||
-|static [`VRage.Utils.MyStringId ServerDetails_AssemblerEfficiencyMultiplier`](Sandbox.Game.Localization.ServerDetails_AssemblerEfficiencyMultiplier)||
-|static [`VRage.Utils.MyStringId ServerDetails_AssemblerSpeedMultiplier`](Sandbox.Game.Localization.ServerDetails_AssemblerSpeedMultiplier)||
-|static [`VRage.Utils.MyStringId ServerDetails_AutoHealing`](Sandbox.Game.Localization.ServerDetails_AutoHealing)||
-|static [`VRage.Utils.MyStringId ServerDetails_BlockTypeLimits`](Sandbox.Game.Localization.ServerDetails_BlockTypeLimits)||
-|static [`VRage.Utils.MyStringId ServerDetails_CargoShipsEnabled`](Sandbox.Game.Localization.ServerDetails_CargoShipsEnabled)||
-|static [`VRage.Utils.MyStringId ServerDetails_DestructibleBlocks`](Sandbox.Game.Localization.ServerDetails_DestructibleBlocks)||
-|static [`VRage.Utils.MyStringId ServerDetails_Enable3rdPersonView`](Sandbox.Game.Localization.ServerDetails_Enable3rdPersonView)||
-|static [`VRage.Utils.MyStringId ServerDetails_EnableBlockLimits`](Sandbox.Game.Localization.ServerDetails_EnableBlockLimits)||
-|static [`VRage.Utils.MyStringId ServerDetails_EnableConvertToStation`](Sandbox.Game.Localization.ServerDetails_EnableConvertToStation)||
-|static [`VRage.Utils.MyStringId ServerDetails_EnableDrones`](Sandbox.Game.Localization.ServerDetails_EnableDrones)||
-|static [`VRage.Utils.MyStringId ServerDetails_EnableEncounters`](Sandbox.Game.Localization.ServerDetails_EnableEncounters)||
-|static [`VRage.Utils.MyStringId ServerDetails_EnableFlora`](Sandbox.Game.Localization.ServerDetails_EnableFlora)||
-|static [`VRage.Utils.MyStringId ServerDetails_EnableIngameScripts`](Sandbox.Game.Localization.ServerDetails_EnableIngameScripts)||
-|static [`VRage.Utils.MyStringId ServerDetails_EnableJetpack`](Sandbox.Game.Localization.ServerDetails_EnableJetpack)||
-|static [`VRage.Utils.MyStringId ServerDetails_EnableOxygen`](Sandbox.Game.Localization.ServerDetails_EnableOxygen)||
-|static [`VRage.Utils.MyStringId ServerDetails_EnableOxygenPressurization`](Sandbox.Game.Localization.ServerDetails_EnableOxygenPressurization)||
-|static [`VRage.Utils.MyStringId ServerDetails_EnableRemoteBlockRemoval`](Sandbox.Game.Localization.ServerDetails_EnableRemoteBlockRemoval)||
-|static [`VRage.Utils.MyStringId ServerDetails_EnableScripterRole`](Sandbox.Game.Localization.ServerDetails_EnableScripterRole)||
-|static [`VRage.Utils.MyStringId ServerDetails_EnableSpiders`](Sandbox.Game.Localization.ServerDetails_EnableSpiders)||
-|static [`VRage.Utils.MyStringId ServerDetails_EnableSunRotation`](Sandbox.Game.Localization.ServerDetails_EnableSunRotation)||
-|static [`VRage.Utils.MyStringId ServerDetails_EnableToolShake`](Sandbox.Game.Localization.ServerDetails_EnableToolShake)||
-|static [`VRage.Utils.MyStringId ServerDetails_EnableVoxelDestruction`](Sandbox.Game.Localization.ServerDetails_EnableVoxelDestruction)||
-|static [`VRage.Utils.MyStringId ServerDetails_EnableWolfs`](Sandbox.Game.Localization.ServerDetails_EnableWolfs)||
-|static [`VRage.Utils.MyStringId ServerDetails_EnvironmentHostility`](Sandbox.Game.Localization.ServerDetails_EnvironmentHostility)||
-|static [`VRage.Utils.MyStringId ServerDetails_FloraDensity`](Sandbox.Game.Localization.ServerDetails_FloraDensity)||
-|static [`VRage.Utils.MyStringId ServerDetails_GrinderSpeedMultiplier`](Sandbox.Game.Localization.ServerDetails_GrinderSpeedMultiplier)||
-|static [`VRage.Utils.MyStringId ServerDetails_HackSpeedMultiplier`](Sandbox.Game.Localization.ServerDetails_HackSpeedMultiplier)||
-|static [`VRage.Utils.MyStringId ServerDetails_MaxBlocksPerPlayer`](Sandbox.Game.Localization.ServerDetails_MaxBlocksPerPlayer)||
-|static [`VRage.Utils.MyStringId ServerDetails_MaxFloatingObjects`](Sandbox.Game.Localization.ServerDetails_MaxFloatingObjects)||
-|static [`VRage.Utils.MyStringId ServerDetails_MaxGridSize`](Sandbox.Game.Localization.ServerDetails_MaxGridSize)||
-|static [`VRage.Utils.MyStringId ServerDetails_PermanentDeath`](Sandbox.Game.Localization.ServerDetails_PermanentDeath)||
-|static [`VRage.Utils.MyStringId ServerDetails_ProceduralDensity`](Sandbox.Game.Localization.ServerDetails_ProceduralDensity)||
-|static [`VRage.Utils.MyStringId ServerDetails_RealisticSound`](Sandbox.Game.Localization.ServerDetails_RealisticSound)||
-|static [`VRage.Utils.MyStringId ServerDetails_RefinerySpeedMultiplier`](Sandbox.Game.Localization.ServerDetails_RefinerySpeedMultiplier)||
-|static [`VRage.Utils.MyStringId ServerDetails_RespawnShipDelete`](Sandbox.Game.Localization.ServerDetails_RespawnShipDelete)||
-|static [`VRage.Utils.MyStringId ServerDetails_ServerManagement`](Sandbox.Game.Localization.ServerDetails_ServerManagement)||
-|static [`VRage.Utils.MyStringId ServerDetails_ShowPlayerNamesOnHud`](Sandbox.Game.Localization.ServerDetails_ShowPlayerNamesOnHud)||
-|static [`VRage.Utils.MyStringId ServerDetails_SpawnShipTimeMultiplier`](Sandbox.Game.Localization.ServerDetails_SpawnShipTimeMultiplier)||
-|static [`VRage.Utils.MyStringId ServerDetails_SpawnWithTools`](Sandbox.Game.Localization.ServerDetails_SpawnWithTools)||
-|static [`VRage.Utils.MyStringId ServerDetails_StationVoxelSupport`](Sandbox.Game.Localization.ServerDetails_StationVoxelSupport)||
-|static [`VRage.Utils.MyStringId ServerDetails_SunRotationIntervalMinutes`](Sandbox.Game.Localization.ServerDetails_SunRotationIntervalMinutes)||
-|static [`VRage.Utils.MyStringId ServerDetails_ThrusterDamage`](Sandbox.Game.Localization.ServerDetails_ThrusterDamage)||
-|static [`VRage.Utils.MyStringId ServerDetails_ViewDistance`](Sandbox.Game.Localization.ServerDetails_ViewDistance)||
-|static [`VRage.Utils.MyStringId ServerDetails_WeaponsEnabled`](Sandbox.Game.Localization.ServerDetails_WeaponsEnabled)||
-|static [`VRage.Utils.MyStringId ServerDetails_WelderSpeedMultiplier`](Sandbox.Game.Localization.ServerDetails_WelderSpeedMultiplier)||
-|static [`VRage.Utils.MyStringId ServerDetails_WorldSizeKm`](Sandbox.Game.Localization.ServerDetails_WorldSizeKm)||
-|static [`VRage.Utils.MyStringId SetTriggerSizeDialog`](Sandbox.Game.Localization.SetTriggerSizeDialog)||
-|static [`VRage.Utils.MyStringId SharedBlueprint`](Sandbox.Game.Localization.SharedBlueprint)||
-|static [`VRage.Utils.MyStringId SharedBlueprintNotify`](Sandbox.Game.Localization.SharedBlueprintNotify)||
-|static [`VRage.Utils.MyStringId SharedBlueprintQuestion`](Sandbox.Game.Localization.SharedBlueprintQuestion)||
-|static [`VRage.Utils.MyStringId ShowOnlyBuildableBlockToggle`](Sandbox.Game.Localization.ShowOnlyBuildableBlockToggle)||
-|static [`VRage.Utils.MyStringId ShowOnlyBuildableTooltip`](Sandbox.Game.Localization.ShowOnlyBuildableTooltip)||
-|static [`VRage.Utils.MyStringId Signal_Enemy`](Sandbox.Game.Localization.Signal_Enemy)||
-|static [`VRage.Utils.MyStringId Signal_Friendly`](Sandbox.Game.Localization.Signal_Friendly)||
-|static [`VRage.Utils.MyStringId Signal_Mixed`](Sandbox.Game.Localization.Signal_Mixed)||
-|static [`VRage.Utils.MyStringId Signal_Neutral`](Sandbox.Game.Localization.Signal_Neutral)||
-|static [`VRage.Utils.MyStringId Signal_Own`](Sandbox.Game.Localization.Signal_Own)||
-|static [`VRage.Utils.MyStringId Silicon`](Sandbox.Game.Localization.Silicon)||
-|static [`VRage.Utils.MyStringId Silver`](Sandbox.Game.Localization.Silver)||
-|static [`VRage.Utils.MyStringId SmallGrids`](Sandbox.Game.Localization.SmallGrids)||
-|static [`VRage.Utils.MyStringId SoundBlock_SoundName_Alert1`](Sandbox.Game.Localization.SoundBlock_SoundName_Alert1)||
-|static [`VRage.Utils.MyStringId SoundBlock_SoundName_Alert2`](Sandbox.Game.Localization.SoundBlock_SoundName_Alert2)||
-|static [`VRage.Utils.MyStringId SoundBlock_SoundName_Alert3`](Sandbox.Game.Localization.SoundBlock_SoundName_Alert3)||
-|static [`VRage.Utils.MyStringId SoundBlock_SoundName_Drone_Huge`](Sandbox.Game.Localization.SoundBlock_SoundName_Drone_Huge)||
-|static [`VRage.Utils.MyStringId SoundBlock_SoundName_Drone_Large`](Sandbox.Game.Localization.SoundBlock_SoundName_Drone_Large)||
-|static [`VRage.Utils.MyStringId SoundBlock_SoundName_Drone_Medium`](Sandbox.Game.Localization.SoundBlock_SoundName_Drone_Medium)||
-|static [`VRage.Utils.MyStringId SoundBlock_SoundName_Drone_Small`](Sandbox.Game.Localization.SoundBlock_SoundName_Drone_Small)||
-|static [`VRage.Utils.MyStringId SoundBlock_SoundName_EnemyDetected`](Sandbox.Game.Localization.SoundBlock_SoundName_EnemyDetected)||
-|static [`VRage.Utils.MyStringId SoundBlock_SoundName_LightsOff`](Sandbox.Game.Localization.SoundBlock_SoundName_LightsOff)||
-|static [`VRage.Utils.MyStringId SoundBlock_SoundName_LightsOn`](Sandbox.Game.Localization.SoundBlock_SoundName_LightsOn)||
-|static [`VRage.Utils.MyStringId SoundBlock_SoundName_Music1`](Sandbox.Game.Localization.SoundBlock_SoundName_Music1)||
-|static [`VRage.Utils.MyStringId SoundBlock_SoundName_Music2`](Sandbox.Game.Localization.SoundBlock_SoundName_Music2)||
-|static [`VRage.Utils.MyStringId SoundBlock_SoundName_ObjectiveComplete`](Sandbox.Game.Localization.SoundBlock_SoundName_ObjectiveComplete)||
-|static [`VRage.Utils.MyStringId SpawnEntity`](Sandbox.Game.Localization.SpawnEntity)||
-|static [`VRage.Utils.MyStringId SpawnInSpaceSuit`](Sandbox.Game.Localization.SpawnInSpaceSuit)||
-|static [`VRage.Utils.MyStringId SpectatorControls_Free_Desc`](Sandbox.Game.Localization.SpectatorControls_Free_Desc)||
-|static [`VRage.Utils.MyStringId SpectatorControls_None_Desc`](Sandbox.Game.Localization.SpectatorControls_None_Desc)||
-|static [`VRage.Utils.MyStringId SpectatorControls_Static_Desc`](Sandbox.Game.Localization.SpectatorControls_Static_Desc)||
-|static [`VRage.Utils.MyStringId Speed`](Sandbox.Game.Localization.Speed)||
-|static [`VRage.Utils.MyStringId StaticObjects`](Sandbox.Game.Localization.StaticObjects)||
-|static [`VRage.Utils.MyStringId StationRotation_Static`](Sandbox.Game.Localization.StationRotation_Static)||
-|static [`VRage.Utils.MyStringId StationRotation_Static_Desc`](Sandbox.Game.Localization.StationRotation_Static_Desc)||
-|static [`VRage.Utils.MyStringId SteamOverlayDisabledText`](Sandbox.Game.Localization.SteamOverlayDisabledText)||
-|static [`VRage.Utils.MyStringId Stop`](Sandbox.Game.Localization.Stop)||
-|static [`VRage.Utils.MyStringId String1TerminalTab_Factions_LeaveToolTip`](Sandbox.Game.Localization.String1TerminalTab_Factions_LeaveToolTip)||
-|static [`VRage.Utils.MyStringId SunRotationPeriod`](Sandbox.Game.Localization.SunRotationPeriod)||
-|static [`VRage.Utils.MyStringId SwitchBuilderMode`](Sandbox.Game.Localization.SwitchBuilderMode)||
-|static [`VRage.Utils.MyStringId SwitchText_Close`](Sandbox.Game.Localization.SwitchText_Close)||
-|static [`VRage.Utils.MyStringId SwitchText_Off`](Sandbox.Game.Localization.SwitchText_Off)||
-|static [`VRage.Utils.MyStringId SwitchText_On`](Sandbox.Game.Localization.SwitchText_On)||
-|static [`VRage.Utils.MyStringId SwitchText_Open`](Sandbox.Game.Localization.SwitchText_Open)||
-|static [`VRage.Utils.MyStringId SwitchToNormalVT`](Sandbox.Game.Localization.SwitchToNormalVT)||
-|static [`VRage.Utils.MyStringId Terminal`](Sandbox.Game.Localization.Terminal)||
-|static [`VRage.Utils.MyStringId TerminalAccess`](Sandbox.Game.Localization.TerminalAccess)||
-|static [`VRage.Utils.MyStringId TerminalButton_GroupSave`](Sandbox.Game.Localization.TerminalButton_GroupSave)||
-|static [`VRage.Utils.MyStringId TerminalControl`](Sandbox.Game.Localization.TerminalControl)||
-|static [`VRage.Utils.MyStringId TerminalControlPanel_Cockpit_ControlThrusters`](Sandbox.Game.Localization.TerminalControlPanel_Cockpit_ControlThrusters)||
-|static [`VRage.Utils.MyStringId TerminalControlPanel_Cockpit_ControlWheels`](Sandbox.Game.Localization.TerminalControlPanel_Cockpit_ControlWheels)||
-|static [`VRage.Utils.MyStringId TerminalControlPanel_Cockpit_Handbrake`](Sandbox.Game.Localization.TerminalControlPanel_Cockpit_Handbrake)||
-|static [`VRage.Utils.MyStringId TerminalControlPanel_Cockpit_HorizonIndicator`](Sandbox.Game.Localization.TerminalControlPanel_Cockpit_HorizonIndicator)||
-|static [`VRage.Utils.MyStringId TerminalControlPanel_Cockpit_MainCockpit`](Sandbox.Game.Localization.TerminalControlPanel_Cockpit_MainCockpit)||
-|static [`VRage.Utils.MyStringId TerminalControlPanel_Cockpit_MainRemoteControl`](Sandbox.Game.Localization.TerminalControlPanel_Cockpit_MainRemoteControl)||
-|static [`VRage.Utils.MyStringId TerminalControlPanel_EditCode`](Sandbox.Game.Localization.TerminalControlPanel_EditCode)||
-|static [`VRage.Utils.MyStringId TerminalControlPanel_EditCode_Tooltip`](Sandbox.Game.Localization.TerminalControlPanel_EditCode_Tooltip)||
-|static [`VRage.Utils.MyStringId TerminalControlPanel_EditCode_Tooltip_Steam`](Sandbox.Game.Localization.TerminalControlPanel_EditCode_Tooltip_Steam)||
-|static [`VRage.Utils.MyStringId TerminalControlPanel_Recompile`](Sandbox.Game.Localization.TerminalControlPanel_Recompile)||
-|static [`VRage.Utils.MyStringId TerminalControlPanel_Recompile_Tooltip`](Sandbox.Game.Localization.TerminalControlPanel_Recompile_Tooltip)||
-|static [`VRage.Utils.MyStringId TerminalControlPanel_RunArgument`](Sandbox.Game.Localization.TerminalControlPanel_RunArgument)||
-|static [`VRage.Utils.MyStringId TerminalControlPanel_RunArgument_ToolTip`](Sandbox.Game.Localization.TerminalControlPanel_RunArgument_ToolTip)||
-|static [`VRage.Utils.MyStringId TerminalControlPanel_RunCode`](Sandbox.Game.Localization.TerminalControlPanel_RunCode)||
-|static [`VRage.Utils.MyStringId TerminalControlPanel_RunCodeDefault`](Sandbox.Game.Localization.TerminalControlPanel_RunCodeDefault)||
-|static [`VRage.Utils.MyStringId TerminalControlPanel_RunCode_Tooltip`](Sandbox.Game.Localization.TerminalControlPanel_RunCode_Tooltip)||
-|static [`VRage.Utils.MyStringId TerminalControlPanel_TimerDelay`](Sandbox.Game.Localization.TerminalControlPanel_TimerDelay)||
-|static [`VRage.Utils.MyStringId TerminalControlPanel_Warhead_Detonate`](Sandbox.Game.Localization.TerminalControlPanel_Warhead_Detonate)||
-|static [`VRage.Utils.MyStringId TerminalControlPanel_Warhead_DetonationTime`](Sandbox.Game.Localization.TerminalControlPanel_Warhead_DetonationTime)||
-|static [`VRage.Utils.MyStringId TerminalControlPanel_Warhead_Safety`](Sandbox.Game.Localization.TerminalControlPanel_Warhead_Safety)||
-|static [`VRage.Utils.MyStringId TerminalControlPanel_Warhead_SafetyTooltip`](Sandbox.Game.Localization.TerminalControlPanel_Warhead_SafetyTooltip)||
-|static [`VRage.Utils.MyStringId TerminalControlPanel_Warhead_StartCountdown`](Sandbox.Game.Localization.TerminalControlPanel_Warhead_StartCountdown)||
-|static [`VRage.Utils.MyStringId TerminalControlPanel_Warhead_StopCountdown`](Sandbox.Game.Localization.TerminalControlPanel_Warhead_StopCountdown)||
-|static [`VRage.Utils.MyStringId TerminalControlPanel_Warhead_SwitchTextArmed`](Sandbox.Game.Localization.TerminalControlPanel_Warhead_SwitchTextArmed)||
-|static [`VRage.Utils.MyStringId TerminalControlPanel_Warhead_SwitchTextDisarmed`](Sandbox.Game.Localization.TerminalControlPanel_Warhead_SwitchTextDisarmed)||
-|static [`VRage.Utils.MyStringId TerminalDistance`](Sandbox.Game.Localization.TerminalDistance)||
-|static [`VRage.Utils.MyStringId TerminalName`](Sandbox.Game.Localization.TerminalName)||
-|static [`VRage.Utils.MyStringId TerminalScenarioSettingsLabel`](Sandbox.Game.Localization.TerminalScenarioSettingsLabel)||
-|static [`VRage.Utils.MyStringId TerminalStatus`](Sandbox.Game.Localization.TerminalStatus)||
-|static [`VRage.Utils.MyStringId TerminalTab_Chat`](Sandbox.Game.Localization.TerminalTab_Chat)||
-|static [`VRage.Utils.MyStringId TerminalTab_Chat_ChatHistory`](Sandbox.Game.Localization.TerminalTab_Chat_ChatHistory)||
-|static [`VRage.Utils.MyStringId TerminalTab_Chat_GlobalChat`](Sandbox.Game.Localization.TerminalTab_Chat_GlobalChat)||
-|static [`VRage.Utils.MyStringId TerminalTab_Chat_NoFaction`](Sandbox.Game.Localization.TerminalTab_Chat_NoFaction)||
-|static [`VRage.Utils.MyStringId TerminalTab_Chat_Offline`](Sandbox.Game.Localization.TerminalTab_Chat_Offline)||
-|static [`VRage.Utils.MyStringId TerminalTab_Chat_Pending`](Sandbox.Game.Localization.TerminalTab_Chat_Pending)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions`](Sandbox.Game.Localization.TerminalTab_Factions)||
-|static [`VRage.Utils.MyStringId TerminalTab_FactionsTableLabel`](Sandbox.Game.Localization.TerminalTab_FactionsTableLabel)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_AcceptPeaceRequest`](Sandbox.Game.Localization.TerminalTab_Factions_AcceptPeaceRequest)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_AcceptToolTip`](Sandbox.Game.Localization.TerminalTab_Factions_AcceptToolTip)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_AutoAccept`](Sandbox.Game.Localization.TerminalTab_Factions_AutoAccept)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_AutoAcceptRequest`](Sandbox.Game.Localization.TerminalTab_Factions_AutoAcceptRequest)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_AutoAcceptRequestToolTip`](Sandbox.Game.Localization.TerminalTab_Factions_AutoAcceptRequestToolTip)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_AutoAcceptToolTip`](Sandbox.Game.Localization.TerminalTab_Factions_AutoAcceptToolTip)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_BeforeCreateLeave`](Sandbox.Game.Localization.TerminalTab_Factions_BeforeCreateLeave)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_CancelJoin`](Sandbox.Game.Localization.TerminalTab_Factions_CancelJoin)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_CancelPeaceRequest`](Sandbox.Game.Localization.TerminalTab_Factions_CancelPeaceRequest)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_Create`](Sandbox.Game.Localization.TerminalTab_Factions_Create)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_CreateFaction`](Sandbox.Game.Localization.TerminalTab_Factions_CreateFaction)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_CreateFactionDescription`](Sandbox.Game.Localization.TerminalTab_Factions_CreateFactionDescription)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_CreateFactionName`](Sandbox.Game.Localization.TerminalTab_Factions_CreateFactionName)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_CreateFactionPrivateInfo`](Sandbox.Game.Localization.TerminalTab_Factions_CreateFactionPrivateInfo)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_CreateFactionPrivateInfoToolTip`](Sandbox.Game.Localization.TerminalTab_Factions_CreateFactionPrivateInfoToolTip)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_CreateFactionPublicInfoToolTip`](Sandbox.Game.Localization.TerminalTab_Factions_CreateFactionPublicInfoToolTip)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_CreateFactionTag`](Sandbox.Game.Localization.TerminalTab_Factions_CreateFactionTag)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_CreateFactionTagToolTip`](Sandbox.Game.Localization.TerminalTab_Factions_CreateFactionTagToolTip)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_CreateToolTip`](Sandbox.Game.Localization.TerminalTab_Factions_CreateToolTip)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_DemoteToolTip`](Sandbox.Game.Localization.TerminalTab_Factions_DemoteToolTip)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_EditFaction`](Sandbox.Game.Localization.TerminalTab_Factions_EditFaction)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_Enemy`](Sandbox.Game.Localization.TerminalTab_Factions_Enemy)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_EnemyToolTip`](Sandbox.Game.Localization.TerminalTab_Factions_EnemyToolTip)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_Friend`](Sandbox.Game.Localization.TerminalTab_Factions_Friend)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_FriendToolTip`](Sandbox.Game.Localization.TerminalTab_Factions_FriendToolTip)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_Join`](Sandbox.Game.Localization.TerminalTab_Factions_Join)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_JoinLimitsExceeded`](Sandbox.Game.Localization.TerminalTab_Factions_JoinLimitsExceeded)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_JoinToolTip`](Sandbox.Game.Localization.TerminalTab_Factions_JoinToolTip)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_KickToolTip`](Sandbox.Game.Localization.TerminalTab_Factions_KickToolTip)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_Leave`](Sandbox.Game.Localization.TerminalTab_Factions_Leave)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_LeaveToolTip`](Sandbox.Game.Localization.TerminalTab_Factions_LeaveToolTip)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_MaxCountReachedToolTip`](Sandbox.Game.Localization.TerminalTab_Factions_MaxCountReachedToolTip)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_Members`](Sandbox.Game.Localization.TerminalTab_Factions_Members)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_PendingPeace`](Sandbox.Game.Localization.TerminalTab_Factions_PendingPeace)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_Private`](Sandbox.Game.Localization.TerminalTab_Factions_Private)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_PromoteToolTip`](Sandbox.Game.Localization.TerminalTab_Factions_PromoteToolTip)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_SentJoinToolTip`](Sandbox.Game.Localization.TerminalTab_Factions_SentJoinToolTip)||
-|static [`VRage.Utils.MyStringId TerminalTab_Factions_SentPeace`](Sandbox.Game.Localization.TerminalTab_Factions_SentPeace)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS`](Sandbox.Game.Localization.TerminalTab_GPS)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS_Add`](Sandbox.Game.Localization.TerminalTab_GPS_Add)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS_Add_ToolTip`](Sandbox.Game.Localization.TerminalTab_GPS_Add_ToolTip)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS_AlwaysVisible`](Sandbox.Game.Localization.TerminalTab_GPS_AlwaysVisible)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS_AlwaysVisible_Tooltip`](Sandbox.Game.Localization.TerminalTab_GPS_AlwaysVisible_Tooltip)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS_Coordinates`](Sandbox.Game.Localization.TerminalTab_GPS_Coordinates)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS_CopyToClipboard`](Sandbox.Game.Localization.TerminalTab_GPS_CopyToClipboard)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS_CopyToClipboard_ToolTip`](Sandbox.Game.Localization.TerminalTab_GPS_CopyToClipboard_ToolTip)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS_Delete`](Sandbox.Game.Localization.TerminalTab_GPS_Delete)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS_Delete_Disabled_ToolTip`](Sandbox.Game.Localization.TerminalTab_GPS_Delete_Disabled_ToolTip)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS_Delete_ToolTip`](Sandbox.Game.Localization.TerminalTab_GPS_Delete_ToolTip)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS_Description`](Sandbox.Game.Localization.TerminalTab_GPS_Description)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS_FromChatDescPrefix`](Sandbox.Game.Localization.TerminalTab_GPS_FromChatDescPrefix)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS_Name`](Sandbox.Game.Localization.TerminalTab_GPS_Name)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS_NewCoord_Desc`](Sandbox.Game.Localization.TerminalTab_GPS_NewCoord_Desc)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS_NewCoord_Desc_ToolTip`](Sandbox.Game.Localization.TerminalTab_GPS_NewCoord_Desc_ToolTip)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS_NewCoord_Name`](Sandbox.Game.Localization.TerminalTab_GPS_NewCoord_Name)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS_NewCoord_Name_ToolTip`](Sandbox.Game.Localization.TerminalTab_GPS_NewCoord_Name_ToolTip)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS_NewFromBroadcast`](Sandbox.Game.Localization.TerminalTab_GPS_NewFromBroadcast)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS_NewFromClipboard`](Sandbox.Game.Localization.TerminalTab_GPS_NewFromClipboard)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS_NewFromClipboard_Desc`](Sandbox.Game.Localization.TerminalTab_GPS_NewFromClipboard_Desc)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS_NewFromClipboard_ToolTip`](Sandbox.Game.Localization.TerminalTab_GPS_NewFromClipboard_ToolTip)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS_NewFromCurrent`](Sandbox.Game.Localization.TerminalTab_GPS_NewFromCurrent)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS_NewFromCurrent_Desc`](Sandbox.Game.Localization.TerminalTab_GPS_NewFromCurrent_Desc)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS_NewFromCurrent_Name`](Sandbox.Game.Localization.TerminalTab_GPS_NewFromCurrent_Name)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS_NewFromCurrent_ToolTip`](Sandbox.Game.Localization.TerminalTab_GPS_NewFromCurrent_ToolTip)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS_NewFromFactionComms`](Sandbox.Game.Localization.TerminalTab_GPS_NewFromFactionComms)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS_NewFromPrivateComms`](Sandbox.Game.Localization.TerminalTab_GPS_NewFromPrivateComms)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS_SaveWarning`](Sandbox.Game.Localization.TerminalTab_GPS_SaveWarning)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS_SelectGpsEntry`](Sandbox.Game.Localization.TerminalTab_GPS_SelectGpsEntry)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS_ShowOnHud`](Sandbox.Game.Localization.TerminalTab_GPS_ShowOnHud)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS_ShowOnHud_ToolTip`](Sandbox.Game.Localization.TerminalTab_GPS_ShowOnHud_ToolTip)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS_X`](Sandbox.Game.Localization.TerminalTab_GPS_X)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS_X_ToolTip`](Sandbox.Game.Localization.TerminalTab_GPS_X_ToolTip)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS_Y`](Sandbox.Game.Localization.TerminalTab_GPS_Y)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS_Y_ToolTip`](Sandbox.Game.Localization.TerminalTab_GPS_Y_ToolTip)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS_Z`](Sandbox.Game.Localization.TerminalTab_GPS_Z)||
-|static [`VRage.Utils.MyStringId TerminalTab_GPS_Z_ToolTip`](Sandbox.Game.Localization.TerminalTab_GPS_Z_ToolTip)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info`](Sandbox.Game.Localization.TerminalTab_Info)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_Assign`](Sandbox.Game.Localization.TerminalTab_Info_Assign)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_Blocks`](Sandbox.Game.Localization.TerminalTab_Info_Blocks)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_BlocksLower`](Sandbox.Game.Localization.TerminalTab_Info_BlocksLower)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_BlocksTooltip`](Sandbox.Game.Localization.TerminalTab_Info_BlocksTooltip)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_ConvertButton`](Sandbox.Game.Localization.TerminalTab_Info_ConvertButton)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_ConvertButton_TT`](Sandbox.Game.Localization.TerminalTab_Info_ConvertButton_TT)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_ConvertToStationButton`](Sandbox.Game.Localization.TerminalTab_Info_ConvertToStationButton)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_ConvertToStationButton_TT`](Sandbox.Game.Localization.TerminalTab_Info_ConvertToStationButton_TT)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_Conveyors`](Sandbox.Game.Localization.TerminalTab_Info_Conveyors)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_Description`](Sandbox.Game.Localization.TerminalTab_Info_Description)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_DestructibleBlocks`](Sandbox.Game.Localization.TerminalTab_Info_DestructibleBlocks)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_DestructibleBlocks_Tooltip`](Sandbox.Game.Localization.TerminalTab_Info_DestructibleBlocks_Tooltip)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_EnemyAntennaRange`](Sandbox.Game.Localization.TerminalTab_Info_EnemyAntennaRange)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_EnemyAntennaRange_ToolTip`](Sandbox.Game.Localization.TerminalTab_Info_EnemyAntennaRange_ToolTip)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_FriendlyAntennaRange`](Sandbox.Game.Localization.TerminalTab_Info_FriendlyAntennaRange)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_FriendlyAntennaRange_ToolTip`](Sandbox.Game.Localization.TerminalTab_Info_FriendlyAntennaRange_ToolTip)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_GravGens`](Sandbox.Game.Localization.TerminalTab_Info_GravGens)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_GridInfoLabel`](Sandbox.Game.Localization.TerminalTab_Info_GridInfoLabel)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_GridMass`](Sandbox.Game.Localization.TerminalTab_Info_GridMass)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_Lights`](Sandbox.Game.Localization.TerminalTab_Info_Lights)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_NonArmor`](Sandbox.Game.Localization.TerminalTab_Info_NonArmor)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_Overview`](Sandbox.Game.Localization.TerminalTab_Info_Overview)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_OwnedAntennaRange`](Sandbox.Game.Localization.TerminalTab_Info_OwnedAntennaRange)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_OwnedAntennaRange_ToolTip`](Sandbox.Game.Localization.TerminalTab_Info_OwnedAntennaRange_ToolTip)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_PivotBtn`](Sandbox.Game.Localization.TerminalTab_Info_PivotBtn)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_PivotBtn_ToolTip`](Sandbox.Game.Localization.TerminalTab_Info_PivotBtn_ToolTip)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_Reflectors`](Sandbox.Game.Localization.TerminalTab_Info_Reflectors)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_RemoveGrid`](Sandbox.Game.Localization.TerminalTab_Info_RemoveGrid)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_Rotors`](Sandbox.Game.Localization.TerminalTab_Info_Rotors)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_Shapes`](Sandbox.Game.Localization.TerminalTab_Info_Shapes)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_ShipName`](Sandbox.Game.Localization.TerminalTab_Info_ShipName)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_ShowAntenaGizmo`](Sandbox.Game.Localization.TerminalTab_Info_ShowAntenaGizmo)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_ShowAntenaGizmo_ToolTip`](Sandbox.Game.Localization.TerminalTab_Info_ShowAntenaGizmo_ToolTip)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_ShowGravityGizmo`](Sandbox.Game.Localization.TerminalTab_Info_ShowGravityGizmo)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_ShowGravityGizmo_ToolTip`](Sandbox.Game.Localization.TerminalTab_Info_ShowGravityGizmo_ToolTip)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_ShowMassCenter`](Sandbox.Game.Localization.TerminalTab_Info_ShowMassCenter)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_ShowMassCenter_ToolTip`](Sandbox.Game.Localization.TerminalTab_Info_ShowMassCenter_ToolTip)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_ShowSenzorGizmo`](Sandbox.Game.Localization.TerminalTab_Info_ShowSenzorGizmo)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_ShowSenzorGizmo_ToolTip`](Sandbox.Game.Localization.TerminalTab_Info_ShowSenzorGizmo_ToolTip)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_Thrusters`](Sandbox.Game.Localization.TerminalTab_Info_Thrusters)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_Triangles`](Sandbox.Game.Localization.TerminalTab_Info_Triangles)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_TrianglesTooltip`](Sandbox.Game.Localization.TerminalTab_Info_TrianglesTooltip)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_VirtualMass`](Sandbox.Game.Localization.TerminalTab_Info_VirtualMass)||
-|static [`VRage.Utils.MyStringId TerminalTab_Info_YouBuilt`](Sandbox.Game.Localization.TerminalTab_Info_YouBuilt)||
-|static [`VRage.Utils.MyStringId TerminalTab_PlayersTableLabel`](Sandbox.Game.Localization.TerminalTab_PlayersTableLabel)||
-|static [`VRage.Utils.MyStringId TerminalTab_Production`](Sandbox.Game.Localization.TerminalTab_Production)||
-|static [`VRage.Utils.MyStringId Terminal_AuthorshipNotAvailable`](Sandbox.Game.Localization.Terminal_AuthorshipNotAvailable)||
-|static [`VRage.Utils.MyStringId Terminal_BlockAccessDenied`](Sandbox.Game.Localization.Terminal_BlockAccessDenied)||
-|static [`VRage.Utils.MyStringId Terminal_BlockIncomplete`](Sandbox.Game.Localization.Terminal_BlockIncomplete)||
-|static [`VRage.Utils.MyStringId Terminal_CollectAll`](Sandbox.Game.Localization.Terminal_CollectAll)||
-|static [`VRage.Utils.MyStringId Terminal_CustomData`](Sandbox.Game.Localization.Terminal_CustomData)||
-|static [`VRage.Utils.MyStringId Terminal_CustomDataTooltip`](Sandbox.Game.Localization.Terminal_CustomDataTooltip)||
-|static [`VRage.Utils.MyStringId Terminal_DrainAll`](Sandbox.Game.Localization.Terminal_DrainAll)||
-|static [`VRage.Utils.MyStringId Terminal_GroupTitle`](Sandbox.Game.Localization.Terminal_GroupTitle)||
-|static [`VRage.Utils.MyStringId Terminal_RemoteControl_Button`](Sandbox.Game.Localization.Terminal_RemoteControl_Button)||
-|static [`VRage.Utils.MyStringId Terminal_Shoot`](Sandbox.Game.Localization.Terminal_Shoot)||
-|static [`VRage.Utils.MyStringId Terminal_ShootOnce`](Sandbox.Game.Localization.Terminal_ShootOnce)||
-|static [`VRage.Utils.MyStringId Terminal_ShowAllInTerminal`](Sandbox.Game.Localization.Terminal_ShowAllInTerminal)||
-|static [`VRage.Utils.MyStringId Terminal_ShowInInventory`](Sandbox.Game.Localization.Terminal_ShowInInventory)||
-|static [`VRage.Utils.MyStringId Terminal_ShowInInventoryToolTip`](Sandbox.Game.Localization.Terminal_ShowInInventoryToolTip)||
-|static [`VRage.Utils.MyStringId Terminal_ShowInTerminal`](Sandbox.Game.Localization.Terminal_ShowInTerminal)||
-|static [`VRage.Utils.MyStringId Terminal_ShowInTerminalToolTip`](Sandbox.Game.Localization.Terminal_ShowInTerminalToolTip)||
-|static [`VRage.Utils.MyStringId Terminal_ShowInToolbarConfig`](Sandbox.Game.Localization.Terminal_ShowInToolbarConfig)||
-|static [`VRage.Utils.MyStringId Terminal_ShowInToolbarConfigToolTip`](Sandbox.Game.Localization.Terminal_ShowInToolbarConfigToolTip)||
-|static [`VRage.Utils.MyStringId Terminal_ShowOnHUD`](Sandbox.Game.Localization.Terminal_ShowOnHUD)||
-|static [`VRage.Utils.MyStringId Terminal_ShowOnHUDToolTip`](Sandbox.Game.Localization.Terminal_ShowOnHUDToolTip)||
-|static [`VRage.Utils.MyStringId Terminal_ThrowOut`](Sandbox.Game.Localization.Terminal_ThrowOut)||
-|static [`VRage.Utils.MyStringId Terminal_UseConveyorSystem`](Sandbox.Game.Localization.Terminal_UseConveyorSystem)||
-|static [`VRage.Utils.MyStringId ToolbarAction_Decrease`](Sandbox.Game.Localization.ToolbarAction_Decrease)||
-|static [`VRage.Utils.MyStringId ToolbarAction_Increase`](Sandbox.Game.Localization.ToolbarAction_Increase)||
-|static [`VRage.Utils.MyStringId ToolbarAction_Reset`](Sandbox.Game.Localization.ToolbarAction_Reset)||
-|static [`VRage.Utils.MyStringId ToolTipAudioOptionsEnableReverb`](Sandbox.Game.Localization.ToolTipAudioOptionsEnableReverb)||
-|static [`VRage.Utils.MyStringId ToolTipBatteryBlock`](Sandbox.Game.Localization.ToolTipBatteryBlock)||
-|static [`VRage.Utils.MyStringId ToolTipBatteryBlock_Discharge`](Sandbox.Game.Localization.ToolTipBatteryBlock_Discharge)||
-|static [`VRage.Utils.MyStringId ToolTipBatteryBlock_Semiauto`](Sandbox.Game.Localization.ToolTipBatteryBlock_Semiauto)||
-|static [`VRage.Utils.MyStringId ToolTipCharacterScreen_HideDuplicates`](Sandbox.Game.Localization.ToolTipCharacterScreen_HideDuplicates)||
-|static [`VRage.Utils.MyStringId ToolTipCharacterScreen_Model`](Sandbox.Game.Localization.ToolTipCharacterScreen_Model)||
-|static [`VRage.Utils.MyStringId ToolTipCharacterScreen_ShowOnlyDuplicates`](Sandbox.Game.Localization.ToolTipCharacterScreen_ShowOnlyDuplicates)||
-|static [`VRage.Utils.MyStringId ToolTipFlaresIntensity`](Sandbox.Game.Localization.ToolTipFlaresIntensity)||
-|static [`VRage.Utils.MyStringId ToolTipItemFilter_AmmoMagazineInput`](Sandbox.Game.Localization.ToolTipItemFilter_AmmoMagazineInput)||
-|static [`VRage.Utils.MyStringId ToolTipItemFilter_AnyIngot`](Sandbox.Game.Localization.ToolTipItemFilter_AnyIngot)||
-|static [`VRage.Utils.MyStringId ToolTipItemFilter_AnyOre`](Sandbox.Game.Localization.ToolTipItemFilter_AnyOre)||
-|static [`VRage.Utils.MyStringId ToolTipItemFilter_AssembledItems`](Sandbox.Game.Localization.ToolTipItemFilter_AssembledItems)||
-|static [`VRage.Utils.MyStringId ToolTipItemFilter_GenericProductionBlockInput`](Sandbox.Game.Localization.ToolTipItemFilter_GenericProductionBlockInput)||
-|static [`VRage.Utils.MyStringId ToolTipItemFilter_GenericProductionBlockOutput`](Sandbox.Game.Localization.ToolTipItemFilter_GenericProductionBlockOutput)||
-|static [`VRage.Utils.MyStringId ToolTipItemFilter_Missile200mm`](Sandbox.Game.Localization.ToolTipItemFilter_Missile200mm)||
-|static [`VRage.Utils.MyStringId ToolTipItemFilter_NATO_25x184mm`](Sandbox.Game.Localization.ToolTipItemFilter_NATO_25x184mm)||
-|static [`VRage.Utils.MyStringId ToolTipItemFilter_NATO_5p56x45mm`](Sandbox.Game.Localization.ToolTipItemFilter_NATO_5p56x45mm)||
-|static [`VRage.Utils.MyStringId ToolTipItemFilter_UraniumIngot`](Sandbox.Game.Localization.ToolTipItemFilter_UraniumIngot)||
-|static [`VRage.Utils.MyStringId ToolTipJoinGameDirectConnect_Favorite`](Sandbox.Game.Localization.ToolTipJoinGameDirectConnect_Favorite)||
-|static [`VRage.Utils.MyStringId ToolTipJoinGameDirectConnect_IP`](Sandbox.Game.Localization.ToolTipJoinGameDirectConnect_IP)||
-|static [`VRage.Utils.MyStringId ToolTipJoinGameServerDetails_AddFavorite`](Sandbox.Game.Localization.ToolTipJoinGameServerDetails_AddFavorite)||
-|static [`VRage.Utils.MyStringId ToolTipJoinGameServerDetails_Mods`](Sandbox.Game.Localization.ToolTipJoinGameServerDetails_Mods)||
-|static [`VRage.Utils.MyStringId ToolTipJoinGameServerDetails_Players`](Sandbox.Game.Localization.ToolTipJoinGameServerDetails_Players)||
-|static [`VRage.Utils.MyStringId ToolTipJoinGameServerDetails_RemoveFavorite`](Sandbox.Game.Localization.ToolTipJoinGameServerDetails_RemoveFavorite)||
-|static [`VRage.Utils.MyStringId ToolTipJoinGameServerDetails_Settings`](Sandbox.Game.Localization.ToolTipJoinGameServerDetails_Settings)||
-|static [`VRage.Utils.MyStringId ToolTipJoinGameServerSearch_Advanced`](Sandbox.Game.Localization.ToolTipJoinGameServerSearch_Advanced)||
-|static [`VRage.Utils.MyStringId ToolTipJoinGameServerSearch_AllowedGroups`](Sandbox.Game.Localization.ToolTipJoinGameServerSearch_AllowedGroups)||
-|static [`VRage.Utils.MyStringId ToolTipJoinGameServerSearch_CompatibleVersions`](Sandbox.Game.Localization.ToolTipJoinGameServerSearch_CompatibleVersions)||
-|static [`VRage.Utils.MyStringId ToolTipJoinGameServerSearch_Creative`](Sandbox.Game.Localization.ToolTipJoinGameServerSearch_Creative)||
-|static [`VRage.Utils.MyStringId ToolTipJoinGameServerSearch_Defaults`](Sandbox.Game.Localization.ToolTipJoinGameServerSearch_Defaults)||
-|static [`VRage.Utils.MyStringId ToolTipJoinGameServerSearch_EvnironmentHostility`](Sandbox.Game.Localization.ToolTipJoinGameServerSearch_EvnironmentHostility)||
-|static [`VRage.Utils.MyStringId ToolTipJoinGameServerSearch_HasPassword`](Sandbox.Game.Localization.ToolTipJoinGameServerSearch_HasPassword)||
-|static [`VRage.Utils.MyStringId ToolTipJoinGameServerSearch_MaximumFilterValue`](Sandbox.Game.Localization.ToolTipJoinGameServerSearch_MaximumFilterValue)||
-|static [`VRage.Utils.MyStringId ToolTipJoinGameServerSearch_MinimumFilterValue`](Sandbox.Game.Localization.ToolTipJoinGameServerSearch_MinimumFilterValue)||
-|static [`VRage.Utils.MyStringId ToolTipJoinGameServerSearch_Mods`](Sandbox.Game.Localization.ToolTipJoinGameServerSearch_Mods)||
-|static [`VRage.Utils.MyStringId ToolTipJoinGameServerSearch_Ping`](Sandbox.Game.Localization.ToolTipJoinGameServerSearch_Ping)||
-|static [`VRage.Utils.MyStringId ToolTipJoinGameServerSearch_SameGameData`](Sandbox.Game.Localization.ToolTipJoinGameServerSearch_SameGameData)||
-|static [`VRage.Utils.MyStringId ToolTipJoinGameServerSearch_Search`](Sandbox.Game.Localization.ToolTipJoinGameServerSearch_Search)||
-|static [`VRage.Utils.MyStringId ToolTipJoinGameServerSearch_Settings`](Sandbox.Game.Localization.ToolTipJoinGameServerSearch_Settings)||
-|static [`VRage.Utils.MyStringId ToolTipJoinGameServerSearch_Survival`](Sandbox.Game.Localization.ToolTipJoinGameServerSearch_Survival)||
-|static [`VRage.Utils.MyStringId ToolTipJoinGame_Advanced`](Sandbox.Game.Localization.ToolTipJoinGame_Advanced)||
-|static [`VRage.Utils.MyStringId ToolTipJoinGame_DirectConnect`](Sandbox.Game.Localization.ToolTipJoinGame_DirectConnect)||
-|static [`VRage.Utils.MyStringId ToolTipJoinGame_JoinWorld`](Sandbox.Game.Localization.ToolTipJoinGame_JoinWorld)||
-|static [`VRage.Utils.MyStringId ToolTipJoinGame_Refresh`](Sandbox.Game.Localization.ToolTipJoinGame_Refresh)||
-|static [`VRage.Utils.MyStringId ToolTipJoinGame_Search`](Sandbox.Game.Localization.ToolTipJoinGame_Search)||
-|static [`VRage.Utils.MyStringId ToolTipJoinGame_SearchClear`](Sandbox.Game.Localization.ToolTipJoinGame_SearchClear)||
-|static [`VRage.Utils.MyStringId ToolTipJoinGame_ServerDetails`](Sandbox.Game.Localization.ToolTipJoinGame_ServerDetails)||
-|static [`VRage.Utils.MyStringId ToolTipLoadGame_Backups`](Sandbox.Game.Localization.ToolTipLoadGame_Backups)||
-|static [`VRage.Utils.MyStringId ToolTipLoadGame_Delete`](Sandbox.Game.Localization.ToolTipLoadGame_Delete)||
-|static [`VRage.Utils.MyStringId ToolTipLoadGame_EditSettings`](Sandbox.Game.Localization.ToolTipLoadGame_EditSettings)||
-|static [`VRage.Utils.MyStringId ToolTipLoadGame_Load`](Sandbox.Game.Localization.ToolTipLoadGame_Load)||
-|static [`VRage.Utils.MyStringId ToolTipLoadGame_SaveAs`](Sandbox.Game.Localization.ToolTipLoadGame_SaveAs)||
-|static [`VRage.Utils.MyStringId ToolTipMods_Ok`](Sandbox.Game.Localization.ToolTipMods_Ok)||
-|static [`VRage.Utils.MyStringId ToolTipMods_Search`](Sandbox.Game.Localization.ToolTipMods_Search)||
-|static [`VRage.Utils.MyStringId ToolTipNewGameCustomGame_Advanced`](Sandbox.Game.Localization.ToolTipNewGameCustomGame_Advanced)||
-|static [`VRage.Utils.MyStringId ToolTipNewGameCustomGame_Mods`](Sandbox.Game.Localization.ToolTipNewGameCustomGame_Mods)||
-|static [`VRage.Utils.MyStringId ToolTipNewGame_Campaign`](Sandbox.Game.Localization.ToolTipNewGame_Campaign)||
-|static [`VRage.Utils.MyStringId ToolTipNewGame_CustomGame`](Sandbox.Game.Localization.ToolTipNewGame_CustomGame)||
-|static [`VRage.Utils.MyStringId ToolTipNewGame_Start`](Sandbox.Game.Localization.ToolTipNewGame_Start)||
-|static [`VRage.Utils.MyStringId ToolTipNewGame_WorkshopContent`](Sandbox.Game.Localization.ToolTipNewGame_WorkshopContent)||
-|static [`VRage.Utils.MyStringId ToolTipNewGame_NoWorkshopWorld`](Sandbox.Game.Localization.ToolTipNewGame_NoWorkshopWorld)||
-|static [`VRage.Utils.MyStringId ToolTipNewsletter_Close`](Sandbox.Game.Localization.ToolTipNewsletter_Close)||
-|static [`VRage.Utils.MyStringId ToolTipNewsletter_DontAskAgain`](Sandbox.Game.Localization.ToolTipNewsletter_DontAskAgain)||
-|static [`VRage.Utils.MyStringId ToolTipNewsletter_Email`](Sandbox.Game.Localization.ToolTipNewsletter_Email)||
-|static [`VRage.Utils.MyStringId ToolTipNewsletter_Ok`](Sandbox.Game.Localization.ToolTipNewsletter_Ok)||
-|static [`VRage.Utils.MyStringId ToolTipNewWorldQuickstart`](Sandbox.Game.Localization.ToolTipNewWorldQuickstart)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsAudio_EnableVoiceChat`](Sandbox.Game.Localization.ToolTipOptionsAudio_EnableVoiceChat)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsAudio_HudWarnings`](Sandbox.Game.Localization.ToolTipOptionsAudio_HudWarnings)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsAudio_MusicVolume`](Sandbox.Game.Localization.ToolTipOptionsAudio_MusicVolume)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsAudio_MuteWhenInactive`](Sandbox.Game.Localization.ToolTipOptionsAudio_MuteWhenInactive)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsAudio_SoundVolume`](Sandbox.Game.Localization.ToolTipOptionsAudio_SoundVolume)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsAudio_SpeedBasedSounds`](Sandbox.Game.Localization.ToolTipOptionsAudio_SpeedBasedSounds)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsAudio_UseContextualMusic`](Sandbox.Game.Localization.ToolTipOptionsAudio_UseContextualMusic)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsAudio_VoiceChatVolume`](Sandbox.Game.Localization.ToolTipOptionsAudio_VoiceChatVolume)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsControls_Category`](Sandbox.Game.Localization.ToolTipOptionsControls_Category)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsControls_ClickToEdit`](Sandbox.Game.Localization.ToolTipOptionsControls_ClickToEdit)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsControls_Defaults`](Sandbox.Game.Localization.ToolTipOptionsControls_Defaults)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsControls_InvertMouseX`](Sandbox.Game.Localization.ToolTipOptionsControls_InvertMouseX)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsControls_InvertMouseY`](Sandbox.Game.Localization.ToolTipOptionsControls_InvertMouseY)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsControls_JoystickDeadzoneWidth`](Sandbox.Game.Localization.ToolTipOptionsControls_JoystickDeadzoneWidth)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsControls_JoystickGradualPrecision`](Sandbox.Game.Localization.ToolTipOptionsControls_JoystickGradualPrecision)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsControls_JoystickOrGamepad`](Sandbox.Game.Localization.ToolTipOptionsControls_JoystickOrGamepad)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsControls_JoystickSensitivity`](Sandbox.Game.Localization.ToolTipOptionsControls_JoystickSensitivity)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsControls_MouseSensitivity`](Sandbox.Game.Localization.ToolTipOptionsControls_MouseSensitivity)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsDisplay_ScreenshotMultiplier`](Sandbox.Game.Localization.ToolTipOptionsDisplay_ScreenshotMultiplier)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsDisplay_WindowMode`](Sandbox.Game.Localization.ToolTipOptionsDisplay_WindowMode)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsGame_AnonymousActivityTracking`](Sandbox.Game.Localization.ToolTipOptionsGame_AnonymousActivityTracking)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsGame_BuildingMode`](Sandbox.Game.Localization.ToolTipOptionsGame_BuildingMode)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsGame_Language`](Sandbox.Game.Localization.ToolTipOptionsGame_Language)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsGraphics_AmbientOcclusion`](Sandbox.Game.Localization.ToolTipOptionsGraphics_AmbientOcclusion)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsGraphics_AnisotropicFiltering`](Sandbox.Game.Localization.ToolTipOptionsGraphics_AnisotropicFiltering)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsGraphics_Antialiasing`](Sandbox.Game.Localization.ToolTipOptionsGraphics_Antialiasing)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsGraphics_FOV`](Sandbox.Game.Localization.ToolTipOptionsGraphics_FOV)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsGraphics_GrassDensity`](Sandbox.Game.Localization.ToolTipOptionsGraphics_GrassDensity)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsGraphics_GrassDrawDistance`](Sandbox.Game.Localization.ToolTipOptionsGraphics_GrassDrawDistance)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsGraphics_ModelQuality`](Sandbox.Game.Localization.ToolTipOptionsGraphics_ModelQuality)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsGraphics_PostProcessing`](Sandbox.Game.Localization.ToolTipOptionsGraphics_PostProcessing)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsGraphics_QualityPreset`](Sandbox.Game.Localization.ToolTipOptionsGraphics_QualityPreset)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsGraphics_ShaderQuality`](Sandbox.Game.Localization.ToolTipOptionsGraphics_ShaderQuality)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsGraphics_ShadowQuality`](Sandbox.Game.Localization.ToolTipOptionsGraphics_ShadowQuality)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsGraphics_TextureQuality`](Sandbox.Game.Localization.ToolTipOptionsGraphics_TextureQuality)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsGraphics_TreeDrawDistance`](Sandbox.Game.Localization.ToolTipOptionsGraphics_TreeDrawDistance)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsGraphics_VoxelQuality`](Sandbox.Game.Localization.ToolTipOptionsGraphics_VoxelQuality)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsSpace_Audio`](Sandbox.Game.Localization.ToolTipOptionsSpace_Audio)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsSpace_Cancel`](Sandbox.Game.Localization.ToolTipOptionsSpace_Cancel)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsSpace_Controls`](Sandbox.Game.Localization.ToolTipOptionsSpace_Controls)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsSpace_Credits`](Sandbox.Game.Localization.ToolTipOptionsSpace_Credits)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsSpace_Display`](Sandbox.Game.Localization.ToolTipOptionsSpace_Display)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsSpace_Game`](Sandbox.Game.Localization.ToolTipOptionsSpace_Game)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsSpace_Graphics`](Sandbox.Game.Localization.ToolTipOptionsSpace_Graphics)||
-|static [`VRage.Utils.MyStringId ToolTipOptionsSpace_Ok`](Sandbox.Game.Localization.ToolTipOptionsSpace_Ok)||
-|static [`VRage.Utils.MyStringId ToolTipSafeZone_AddContained`](Sandbox.Game.Localization.ToolTipSafeZone_AddContained)||
-|static [`VRage.Utils.MyStringId TooltipScreenMods_Category_All`](Sandbox.Game.Localization.TooltipScreenMods_Category_All)||
-|static [`VRage.Utils.MyStringId TooltipScreenMods_Category_Animation`](Sandbox.Game.Localization.TooltipScreenMods_Category_Animation)||
-|static [`VRage.Utils.MyStringId TooltipScreenMods_Category_Block`](Sandbox.Game.Localization.TooltipScreenMods_Category_Block)||
-|static [`VRage.Utils.MyStringId TooltipScreenMods_Category_Character`](Sandbox.Game.Localization.TooltipScreenMods_Category_Character)||
-|static [`VRage.Utils.MyStringId TooltipScreenMods_Category_Modpack`](Sandbox.Game.Localization.TooltipScreenMods_Category_Modpack)||
-|static [`VRage.Utils.MyStringId TooltipScreenMods_Category_Other`](Sandbox.Game.Localization.TooltipScreenMods_Category_Other)||
-|static [`VRage.Utils.MyStringId TooltipScreenMods_Category_Planet`](Sandbox.Game.Localization.TooltipScreenMods_Category_Planet)||
-|static [`VRage.Utils.MyStringId TooltipScreenMods_Category_Production`](Sandbox.Game.Localization.TooltipScreenMods_Category_Production)||
-|static [`VRage.Utils.MyStringId TooltipScreenMods_Category_RespawnShip`](Sandbox.Game.Localization.TooltipScreenMods_Category_RespawnShip)||
-|static [`VRage.Utils.MyStringId TooltipScreenMods_Category_Script`](Sandbox.Game.Localization.TooltipScreenMods_Category_Script)||
-|static [`VRage.Utils.MyStringId TooltipScreenMods_Category_Skybox`](Sandbox.Game.Localization.TooltipScreenMods_Category_Skybox)||
-|static [`VRage.Utils.MyStringId ToolTipTerminalInventory_FilterAll`](Sandbox.Game.Localization.ToolTipTerminalInventory_FilterAll)||
-|static [`VRage.Utils.MyStringId ToolTipTerminalInventory_FilterEnergy`](Sandbox.Game.Localization.ToolTipTerminalInventory_FilterEnergy)||
-|static [`VRage.Utils.MyStringId ToolTipTerminalInventory_FilterStorage`](Sandbox.Game.Localization.ToolTipTerminalInventory_FilterStorage)||
-|static [`VRage.Utils.MyStringId ToolTipTerminalInventory_FilterSystem`](Sandbox.Game.Localization.ToolTipTerminalInventory_FilterSystem)||
-|static [`VRage.Utils.MyStringId ToolTipTerminalInventory_HideEmpty`](Sandbox.Game.Localization.ToolTipTerminalInventory_HideEmpty)||
-|static [`VRage.Utils.MyStringId ToolTipTerminalInventory_ItemInfo`](Sandbox.Game.Localization.ToolTipTerminalInventory_ItemInfo)||
-|static [`VRage.Utils.MyStringId ToolTipTerminalInventory_ShowCharacter`](Sandbox.Game.Localization.ToolTipTerminalInventory_ShowCharacter)||
-|static [`VRage.Utils.MyStringId ToolTipTerminalInventory_ShowConnected`](Sandbox.Game.Localization.ToolTipTerminalInventory_ShowConnected)||
-|static [`VRage.Utils.MyStringId ToolTipTerminalInventory_ShowConnectedDisabled`](Sandbox.Game.Localization.ToolTipTerminalInventory_ShowConnectedDisabled)||
-|static [`VRage.Utils.MyStringId ToolTipTerminalInventory_ShowInteracted`](Sandbox.Game.Localization.ToolTipTerminalInventory_ShowInteracted)||
-|static [`VRage.Utils.MyStringId ToolTipTerminalInventory_ThrowOut`](Sandbox.Game.Localization.ToolTipTerminalInventory_ThrowOut)||
-|static [`VRage.Utils.MyStringId ToolTipTerminalInventory_ThrowOutDisabled`](Sandbox.Game.Localization.ToolTipTerminalInventory_ThrowOutDisabled)||
-|static [`VRage.Utils.MyStringId ToolTipTerminalProduction_AssemblingMode`](Sandbox.Game.Localization.ToolTipTerminalProduction_AssemblingMode)||
-|static [`VRage.Utils.MyStringId ToolTipTerminalProduction_DisassembleAll`](Sandbox.Game.Localization.ToolTipTerminalProduction_DisassembleAll)||
-|static [`VRage.Utils.MyStringId ToolTipTerminalProduction_DisassemblingMode`](Sandbox.Game.Localization.ToolTipTerminalProduction_DisassemblingMode)||
-|static [`VRage.Utils.MyStringId ToolTipTerminalProduction_RepeatMode`](Sandbox.Game.Localization.ToolTipTerminalProduction_RepeatMode)||
-|static [`VRage.Utils.MyStringId ToolTipTerminalProduction_SlaveMode`](Sandbox.Game.Localization.ToolTipTerminalProduction_SlaveMode)||
-|static [`VRage.Utils.MyStringId ToolTipTimerBlock_Silent`](Sandbox.Game.Localization.ToolTipTimerBlock_Silent)||
-|static [`VRage.Utils.MyStringId ToolTipVideoOptionsEnableDamageEffects`](Sandbox.Game.Localization.ToolTipVideoOptionsEnableDamageEffects)||
-|static [`VRage.Utils.MyStringId ToolTipVideoOptionsRenderer`](Sandbox.Game.Localization.ToolTipVideoOptionsRenderer)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettingsAsteroidAmount`](Sandbox.Game.Localization.ToolTipWorldSettingsAsteroidAmount)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettingsAutoHealing`](Sandbox.Game.Localization.ToolTipWorldSettingsAutoHealing)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettingsDestructibleBlocks`](Sandbox.Game.Localization.ToolTipWorldSettingsDestructibleBlocks)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettingsDifficulty`](Sandbox.Game.Localization.ToolTipWorldSettingsDifficulty)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettingsEnableCargoShips`](Sandbox.Game.Localization.ToolTipWorldSettingsEnableCargoShips)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettingsEnableCopyPaste`](Sandbox.Game.Localization.ToolTipWorldSettingsEnableCopyPaste)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettingsEnableSpectator`](Sandbox.Game.Localization.ToolTipWorldSettingsEnableSpectator)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettingsEnvironment`](Sandbox.Game.Localization.ToolTipWorldSettingsEnvironment)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettingsFriendlyFire`](Sandbox.Game.Localization.ToolTipWorldSettingsFriendlyFire)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettingsHardwareRequirements`](Sandbox.Game.Localization.ToolTipWorldSettingsHardwareRequirements)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettingsHarvestingMode`](Sandbox.Game.Localization.ToolTipWorldSettingsHarvestingMode)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettingsLimitWorldSize`](Sandbox.Game.Localization.ToolTipWorldSettingsLimitWorldSize)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettingsMaxBackupSaves`](Sandbox.Game.Localization.ToolTipWorldSettingsMaxBackupSaves)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettingsMaxBlocksPerPlayer`](Sandbox.Game.Localization.ToolTipWorldSettingsMaxBlocksPerPlayer)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettingsMaxFloatingObjects`](Sandbox.Game.Localization.ToolTipWorldSettingsMaxFloatingObjects)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettingsMaxGridSize`](Sandbox.Game.Localization.ToolTipWorldSettingsMaxGridSize)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettingsMaxPlayer`](Sandbox.Game.Localization.ToolTipWorldSettingsMaxPlayer)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettingsModeCreative`](Sandbox.Game.Localization.ToolTipWorldSettingsModeCreative)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettingsModeSurvival`](Sandbox.Game.Localization.ToolTipWorldSettingsModeSurvival)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettingsOnlineMode`](Sandbox.Game.Localization.ToolTipWorldSettingsOnlineMode)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettingsPermanentDeath`](Sandbox.Game.Localization.ToolTipWorldSettingsPermanentDeath)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettingsPVP`](Sandbox.Game.Localization.ToolTipWorldSettingsPVP)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettingsRemoveTrash`](Sandbox.Game.Localization.ToolTipWorldSettingsRemoveTrash)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettingsResetOwnership`](Sandbox.Game.Localization.ToolTipWorldSettingsResetOwnership)||
-|static [`VRage.Utils.MyStringId TooltipWorldSettingsRespawnShipDelete`](Sandbox.Game.Localization.TooltipWorldSettingsRespawnShipDelete)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettingsShowPlayerNamesOnHud`](Sandbox.Game.Localization.ToolTipWorldSettingsShowPlayerNamesOnHud)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettingsSoundInSpace`](Sandbox.Game.Localization.ToolTipWorldSettingsSoundInSpace)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettingsSoundMode`](Sandbox.Game.Localization.ToolTipWorldSettingsSoundMode)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettingsThrusterDamage`](Sandbox.Game.Localization.ToolTipWorldSettingsThrusterDamage)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettingsTotalPCU`](Sandbox.Game.Localization.ToolTipWorldSettingsTotalPCU)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettingsViewDistance`](Sandbox.Game.Localization.ToolTipWorldSettingsViewDistance)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettingsWeapons`](Sandbox.Game.Localization.ToolTipWorldSettingsWeapons)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_AdaptiveSimulationQuality`](Sandbox.Game.Localization.ToolTipWorldSettings_AdaptiveSimulationQuality)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_AssemblerEfficiency`](Sandbox.Game.Localization.ToolTipWorldSettings_AssemblerEfficiency)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_Assembler_x1`](Sandbox.Game.Localization.ToolTipWorldSettings_Assembler_x1)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_Assembler_x10`](Sandbox.Game.Localization.ToolTipWorldSettings_Assembler_x10)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_Assembler_x3`](Sandbox.Game.Localization.ToolTipWorldSettings_Assembler_x3)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_CargoShipsEnabled`](Sandbox.Game.Localization.ToolTipWorldSettings_CargoShipsEnabled)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_ClientCanSave`](Sandbox.Game.Localization.ToolTipWorldSettings_ClientCanSave)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_DayDuration`](Sandbox.Game.Localization.ToolTipWorldSettings_DayDuration)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_Enable3rdPersonCamera`](Sandbox.Game.Localization.ToolTipWorldSettings_Enable3rdPersonCamera)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_EnableContainerDrops`](Sandbox.Game.Localization.ToolTipWorldSettings_EnableContainerDrops)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_EnableConvertToStation`](Sandbox.Game.Localization.ToolTipWorldSettings_EnableConvertToStation)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_EnableDrones`](Sandbox.Game.Localization.ToolTipWorldSettings_EnableDrones)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_EnableEncounters`](Sandbox.Game.Localization.ToolTipWorldSettings_EnableEncounters)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_EnableFlora`](Sandbox.Game.Localization.ToolTipWorldSettings_EnableFlora)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_EnableIngameScripts`](Sandbox.Game.Localization.ToolTipWorldSettings_EnableIngameScripts)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_EnableJetpack`](Sandbox.Game.Localization.ToolTipWorldSettings_EnableJetpack)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_EnableOxygen`](Sandbox.Game.Localization.ToolTipWorldSettings_EnableOxygen)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_EnableOxygenPressurization`](Sandbox.Game.Localization.ToolTipWorldSettings_EnableOxygenPressurization)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_EnablePlanets`](Sandbox.Game.Localization.ToolTipWorldSettings_EnablePlanets)||
-|static [`VRage.Utils.MyStringId TooltipWorldSettings_EnableRealisticDampeners`](Sandbox.Game.Localization.TooltipWorldSettings_EnableRealisticDampeners)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_EnableRemoteBlockRemoval`](Sandbox.Game.Localization.ToolTipWorldSettings_EnableRemoteBlockRemoval)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_EnableRespawnShips`](Sandbox.Game.Localization.ToolTipWorldSettings_EnableRespawnShips)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_EnableSpiders`](Sandbox.Game.Localization.ToolTipWorldSettings_EnableSpiders)||
-|static [`VRage.Utils.MyStringId TooltipWorldSettings_EnableSubGridDamage`](Sandbox.Game.Localization.TooltipWorldSettings_EnableSubGridDamage)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_EnableSunRotation`](Sandbox.Game.Localization.ToolTipWorldSettings_EnableSunRotation)||
-|static [`VRage.Utils.MyStringId TooltipWorldSettings_EnableTurrerFriendlyDamage`](Sandbox.Game.Localization.TooltipWorldSettings_EnableTurrerFriendlyDamage)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_EnableVoxelDestruction`](Sandbox.Game.Localization.ToolTipWorldSettings_EnableVoxelDestruction)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_EnableWolfs`](Sandbox.Game.Localization.ToolTipWorldSettings_EnableWolfs)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_FloraDensity`](Sandbox.Game.Localization.ToolTipWorldSettings_FloraDensity)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_Grinder_half`](Sandbox.Game.Localization.ToolTipWorldSettings_Grinder_half)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_Grinder_x1`](Sandbox.Game.Localization.ToolTipWorldSettings_Grinder_x1)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_Grinder_x2`](Sandbox.Game.Localization.ToolTipWorldSettings_Grinder_x2)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_Grinder_x5`](Sandbox.Game.Localization.ToolTipWorldSettings_Grinder_x5)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_GrindingSpeed`](Sandbox.Game.Localization.ToolTipWorldSettings_GrindingSpeed)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_InventorySize`](Sandbox.Game.Localization.ToolTipWorldSettings_InventorySize)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_Inventory_x1`](Sandbox.Game.Localization.ToolTipWorldSettings_Inventory_x1)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_Inventory_x10`](Sandbox.Game.Localization.ToolTipWorldSettings_Inventory_x10)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_Inventory_x3`](Sandbox.Game.Localization.ToolTipWorldSettings_Inventory_x3)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_RefinerySpeed`](Sandbox.Game.Localization.ToolTipWorldSettings_RefinerySpeed)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_Refinery_x1`](Sandbox.Game.Localization.ToolTipWorldSettings_Refinery_x1)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_Refinery_x10`](Sandbox.Game.Localization.ToolTipWorldSettings_Refinery_x10)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_Refinery_x3`](Sandbox.Game.Localization.ToolTipWorldSettings_Refinery_x3)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_RespawnShipCooldown`](Sandbox.Game.Localization.ToolTipWorldSettings_RespawnShipCooldown)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_ScenarioEditMode`](Sandbox.Game.Localization.ToolTipWorldSettings_ScenarioEditMode)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_SpawnWithTools`](Sandbox.Game.Localization.ToolTipWorldSettings_SpawnWithTools)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_StartInRespawnScreen`](Sandbox.Game.Localization.ToolTipWorldSettings_StartInRespawnScreen)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_StationVoxelSupport`](Sandbox.Game.Localization.ToolTipWorldSettings_StationVoxelSupport)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_ToolShake`](Sandbox.Game.Localization.ToolTipWorldSettings_ToolShake)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_VoxelHand`](Sandbox.Game.Localization.ToolTipWorldSettings_VoxelHand)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_Welder_half`](Sandbox.Game.Localization.ToolTipWorldSettings_Welder_half)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_Welder_x1`](Sandbox.Game.Localization.ToolTipWorldSettings_Welder_x1)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_Welder_x2`](Sandbox.Game.Localization.ToolTipWorldSettings_Welder_x2)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_Welder_x5`](Sandbox.Game.Localization.ToolTipWorldSettings_Welder_x5)||
-|static [`VRage.Utils.MyStringId ToolTipWorldSettings_WeldingSpeed`](Sandbox.Game.Localization.ToolTipWorldSettings_WeldingSpeed)||
-|static [`VRage.Utils.MyStringId TrainingLevel`](Sandbox.Game.Localization.TrainingLevel)||
-|static [`VRage.Utils.MyStringId TrainingLevel_Advanced`](Sandbox.Game.Localization.TrainingLevel_Advanced)||
-|static [`VRage.Utils.MyStringId TrainingLevel_Basic`](Sandbox.Game.Localization.TrainingLevel_Basic)||
-|static [`VRage.Utils.MyStringId TrainingLevel_Intermediate`](Sandbox.Game.Localization.TrainingLevel_Intermediate)||
-|static [`VRage.Utils.MyStringId TrainingLevel_Planetary`](Sandbox.Game.Localization.TrainingLevel_Planetary)||
-|static [`VRage.Utils.MyStringId TransformationToolsButton`](Sandbox.Game.Localization.TransformationToolsButton)||
-|static [`VRage.Utils.MyStringId TriggerNotSelected`](Sandbox.Game.Localization.TriggerNotSelected)||
-|static [`VRage.Utils.MyStringId Triggers`](Sandbox.Game.Localization.Triggers)||
-|static [`VRage.Utils.MyStringId Turret`](Sandbox.Game.Localization.Turret)||
-|static [`VRage.Utils.MyStringId UnsavedChanges`](Sandbox.Game.Localization.UnsavedChanges)||
-|static [`VRage.Utils.MyStringId UnsavedChangesQuestion`](Sandbox.Game.Localization.UnsavedChangesQuestion)||
-|static [`VRage.Utils.MyStringId Uranium`](Sandbox.Game.Localization.Uranium)||
-|static [`VRage.Utils.MyStringId WelcomeScreen_Signature`](Sandbox.Game.Localization.WelcomeScreen_Signature)||
-|static [`VRage.Utils.MyStringId WelcomeScreen_SignatureTitle`](Sandbox.Game.Localization.WelcomeScreen_SignatureTitle)||
-|static [`VRage.Utils.MyStringId WelcomeScreen_Text1`](Sandbox.Game.Localization.WelcomeScreen_Text1)||
-|static [`VRage.Utils.MyStringId WelcomeScreen_Text2`](Sandbox.Game.Localization.WelcomeScreen_Text2)||
-|static [`VRage.Utils.MyStringId WelcomeScreen_Text3`](Sandbox.Game.Localization.WelcomeScreen_Text3)||
-|static [`VRage.Utils.MyStringId WelderPrimaryActionBuild`](Sandbox.Game.Localization.WelderPrimaryActionBuild)||
-|static [`VRage.Utils.MyStringId WorkshopTag_Asteroid`](Sandbox.Game.Localization.WorkshopTag_Asteroid)||
-|static [`VRage.Utils.MyStringId WorkshopTag_Dev`](Sandbox.Game.Localization.WorkshopTag_Dev)||
-|static [`VRage.Utils.MyStringId WorkshopTag_Exploration`](Sandbox.Game.Localization.WorkshopTag_Exploration)||
-|static [`VRage.Utils.MyStringId WorkshopTag_Hud`](Sandbox.Game.Localization.WorkshopTag_Hud)||
-|static [`VRage.Utils.MyStringId WorkshopTag_Planet`](Sandbox.Game.Localization.WorkshopTag_Planet)||
-|static [`VRage.Utils.MyStringId WorkshopTag_Production`](Sandbox.Game.Localization.WorkshopTag_Production)||
-|static [`VRage.Utils.MyStringId WorkshopTag_RespawnShip`](Sandbox.Game.Localization.WorkshopTag_RespawnShip)||
-|static [`VRage.Utils.MyStringId WorldSettings`](Sandbox.Game.Localization.WorldSettings)||
-|static [`VRage.Utils.MyStringId WorldSettings_Advanced`](Sandbox.Game.Localization.WorldSettings_Advanced)||
-|static [`VRage.Utils.MyStringId WorldSettings_ArcadeSound`](Sandbox.Game.Localization.WorldSettings_ArcadeSound)||
-|static [`VRage.Utils.MyStringId WorldSettings_AssemblerEfficiency`](Sandbox.Game.Localization.WorldSettings_AssemblerEfficiency)||
-|static [`VRage.Utils.MyStringId WorldSettings_AsteroidAmountExtreme`](Sandbox.Game.Localization.WorldSettings_AsteroidAmountExtreme)||
-|static [`VRage.Utils.MyStringId WorldSettings_AsteroidAmountLarge`](Sandbox.Game.Localization.WorldSettings_AsteroidAmountLarge)||
-|static [`VRage.Utils.MyStringId WorldSettings_AsteroidAmountNone`](Sandbox.Game.Localization.WorldSettings_AsteroidAmountNone)||
-|static [`VRage.Utils.MyStringId WorldSettings_AsteroidAmountNormal`](Sandbox.Game.Localization.WorldSettings_AsteroidAmountNormal)||
-|static [`VRage.Utils.MyStringId WorldSettings_AsteroidAmountProceduralHigh`](Sandbox.Game.Localization.WorldSettings_AsteroidAmountProceduralHigh)||
-|static [`VRage.Utils.MyStringId WorldSettings_AsteroidAmountProceduralLow`](Sandbox.Game.Localization.WorldSettings_AsteroidAmountProceduralLow)||
-|static [`VRage.Utils.MyStringId WorldSettings_AsteroidAmountProceduralNone`](Sandbox.Game.Localization.WorldSettings_AsteroidAmountProceduralNone)||
-|static [`VRage.Utils.MyStringId WorldSettings_AsteroidAmountProceduralNormal`](Sandbox.Game.Localization.WorldSettings_AsteroidAmountProceduralNormal)||
-|static [`VRage.Utils.MyStringId WorldSettings_AsteroidAmountProceduralLowest`](Sandbox.Game.Localization.WorldSettings_AsteroidAmountProceduralLowest)||
-|static [`VRage.Utils.MyStringId WorldSettings_AutoHealing`](Sandbox.Game.Localization.WorldSettings_AutoHealing)||
-|static [`VRage.Utils.MyStringId WorldSettings_Battle`](Sandbox.Game.Localization.WorldSettings_Battle)||
-|static [`VRage.Utils.MyStringId WorldSettings_ClientCanSave`](Sandbox.Game.Localization.WorldSettings_ClientCanSave)||
-|static [`VRage.Utils.MyStringId WorldSettings_Description`](Sandbox.Game.Localization.WorldSettings_Description)||
-|static [`VRage.Utils.MyStringId WorldSettings_DestructibleBlocks`](Sandbox.Game.Localization.WorldSettings_DestructibleBlocks)||
-|static [`VRage.Utils.MyStringId WorldSettings_Enable3rdPersonCamera`](Sandbox.Game.Localization.WorldSettings_Enable3rdPersonCamera)||
-|static [`VRage.Utils.MyStringId WorldSettings_EnableAdaptiveSimulationQuality`](Sandbox.Game.Localization.WorldSettings_EnableAdaptiveSimulationQuality)||
-|static [`VRage.Utils.MyStringId WorldSettings_EnableCargoShips`](Sandbox.Game.Localization.WorldSettings_EnableCargoShips)||
-|static [`VRage.Utils.MyStringId WorldSettings_EnableContainerDrops`](Sandbox.Game.Localization.WorldSettings_EnableContainerDrops)||
-|static [`VRage.Utils.MyStringId WorldSettings_EnableConvertToStation`](Sandbox.Game.Localization.WorldSettings_EnableConvertToStation)||
-|static [`VRage.Utils.MyStringId WorldSettings_EnableCopyPaste`](Sandbox.Game.Localization.WorldSettings_EnableCopyPaste)||
-|static [`VRage.Utils.MyStringId WorldSettings_EnableDrones`](Sandbox.Game.Localization.WorldSettings_EnableDrones)||
-|static [`VRage.Utils.MyStringId WorldSettings_EnableFlora`](Sandbox.Game.Localization.WorldSettings_EnableFlora)||
-|static [`VRage.Utils.MyStringId WorldSettings_EnableIngameScripts`](Sandbox.Game.Localization.WorldSettings_EnableIngameScripts)||
-|static [`VRage.Utils.MyStringId WorldSettings_EnableJetpack`](Sandbox.Game.Localization.WorldSettings_EnableJetpack)||
-|static [`VRage.Utils.MyStringId WorldSettings_EnablePlanets`](Sandbox.Game.Localization.WorldSettings_EnablePlanets)||
-|static [`VRage.Utils.MyStringId WorldSettings_EnableRealisticDampeners`](Sandbox.Game.Localization.WorldSettings_EnableRealisticDampeners)||
-|static [`VRage.Utils.MyStringId WorldSettings_EnableRemoteBlockRemoval`](Sandbox.Game.Localization.WorldSettings_EnableRemoteBlockRemoval)||
-|static [`VRage.Utils.MyStringId WorldSettings_EnableRespawnShips`](Sandbox.Game.Localization.WorldSettings_EnableRespawnShips)||
-|static [`VRage.Utils.MyStringId WorldSettings_EnableSpectator`](Sandbox.Game.Localization.WorldSettings_EnableSpectator)||
-|static [`VRage.Utils.MyStringId WorldSettings_EnableSpiders`](Sandbox.Game.Localization.WorldSettings_EnableSpiders)||
-|static [`VRage.Utils.MyStringId WorldSettings_EnableSubGridDamage`](Sandbox.Game.Localization.WorldSettings_EnableSubGridDamage)||
-|static [`VRage.Utils.MyStringId WorldSettings_EnableSunRotation`](Sandbox.Game.Localization.WorldSettings_EnableSunRotation)||
-|static [`VRage.Utils.MyStringId WorldSettings_EnableToolShake`](Sandbox.Game.Localization.WorldSettings_EnableToolShake)||
-|static [`VRage.Utils.MyStringId WorldSettings_EnableTurrerFriendlyDamage`](Sandbox.Game.Localization.WorldSettings_EnableTurrerFriendlyDamage)||
-|static [`VRage.Utils.MyStringId WorldSettings_EnableVoxelDestruction`](Sandbox.Game.Localization.WorldSettings_EnableVoxelDestruction)||
-|static [`VRage.Utils.MyStringId WorldSettings_EnableVoxelHand`](Sandbox.Game.Localization.WorldSettings_EnableVoxelHand)||
-|static [`VRage.Utils.MyStringId WorldSettings_EnableWeapons`](Sandbox.Game.Localization.WorldSettings_EnableWeapons)||
-|static [`VRage.Utils.MyStringId WorldSettings_EnableWolfs`](Sandbox.Game.Localization.WorldSettings_EnableWolfs)||
-|static [`VRage.Utils.MyStringId WorldSettings_Encounters`](Sandbox.Game.Localization.WorldSettings_Encounters)||
-|static [`VRage.Utils.MyStringId WorldSettings_EnvironmentHostility`](Sandbox.Game.Localization.WorldSettings_EnvironmentHostility)||
-|static [`VRage.Utils.MyStringId WorldSettings_EnvironmentHostilityCataclysm`](Sandbox.Game.Localization.WorldSettings_EnvironmentHostilityCataclysm)||
-|static [`VRage.Utils.MyStringId WorldSettings_EnvironmentHostilityCataclysmUnreal`](Sandbox.Game.Localization.WorldSettings_EnvironmentHostilityCataclysmUnreal)||
-|static [`VRage.Utils.MyStringId WorldSettings_EnvironmentHostilityNormal`](Sandbox.Game.Localization.WorldSettings_EnvironmentHostilityNormal)||
-|static [`VRage.Utils.MyStringId WorldSettings_EnvironmentHostilitySafe`](Sandbox.Game.Localization.WorldSettings_EnvironmentHostilitySafe)||
-|static [`VRage.Utils.MyStringId WorldSettings_FloraDensity`](Sandbox.Game.Localization.WorldSettings_FloraDensity)||
-|static [`VRage.Utils.MyStringId WorldSettings_FloraDensity_Extreme`](Sandbox.Game.Localization.WorldSettings_FloraDensity_Extreme)||
-|static [`VRage.Utils.MyStringId WorldSettings_FloraDensity_High`](Sandbox.Game.Localization.WorldSettings_FloraDensity_High)||
-|static [`VRage.Utils.MyStringId WorldSettings_FloraDensity_Low`](Sandbox.Game.Localization.WorldSettings_FloraDensity_Low)||
-|static [`VRage.Utils.MyStringId WorldSettings_FloraDensity_Medium`](Sandbox.Game.Localization.WorldSettings_FloraDensity_Medium)||
-|static [`VRage.Utils.MyStringId WorldSettings_FloraDensity_None`](Sandbox.Game.Localization.WorldSettings_FloraDensity_None)||
-|static [`VRage.Utils.MyStringId WorldSettings_FriendlyFire`](Sandbox.Game.Localization.WorldSettings_FriendlyFire)||
-|static [`VRage.Utils.MyStringId WorldSettings_GameScenario`](Sandbox.Game.Localization.WorldSettings_GameScenario)||
-|static [`VRage.Utils.MyStringId WorldSettings_GameStyle`](Sandbox.Game.Localization.WorldSettings_GameStyle)||
-|static [`VRage.Utils.MyStringId WorldSettings_GameSurvivalTimes1`](Sandbox.Game.Localization.WorldSettings_GameSurvivalTimes1)||
-|static [`VRage.Utils.MyStringId WorldSettings_GameSurvivalTimes10`](Sandbox.Game.Localization.WorldSettings_GameSurvivalTimes10)||
-|static [`VRage.Utils.MyStringId WorldSettings_GameSurvivalTimes3`](Sandbox.Game.Localization.WorldSettings_GameSurvivalTimes3)||
-|static [`VRage.Utils.MyStringId WorldSettings_GrinderSpeed`](Sandbox.Game.Localization.WorldSettings_GrinderSpeed)||
-|static [`VRage.Utils.MyStringId WorldSettings_InventorySize`](Sandbox.Game.Localization.WorldSettings_InventorySize)||
-|static [`VRage.Utils.MyStringId WorldSettings_LimitWorldSize`](Sandbox.Game.Localization.WorldSettings_LimitWorldSize)||
-|static [`VRage.Utils.MyStringId WorldSettings_MaxBlocksPerPlayer`](Sandbox.Game.Localization.WorldSettings_MaxBlocksPerPlayer)||
-|static [`VRage.Utils.MyStringId WorldSettings_MaxGridSize`](Sandbox.Game.Localization.WorldSettings_MaxGridSize)||
-|static [`VRage.Utils.MyStringId WorldSettings_MoonSizeMax`](Sandbox.Game.Localization.WorldSettings_MoonSizeMax)||
-|static [`VRage.Utils.MyStringId WorldSettings_MoonSizeMin`](Sandbox.Game.Localization.WorldSettings_MoonSizeMin)||
-|static [`VRage.Utils.MyStringId WorldSettings_Password`](Sandbox.Game.Localization.WorldSettings_Password)||
-|static [`VRage.Utils.MyStringId WorldSettings_PermanentDeath`](Sandbox.Game.Localization.WorldSettings_PermanentDeath)||
-|static [`VRage.Utils.MyStringId WorldSettings_PlanetSizeMax`](Sandbox.Game.Localization.WorldSettings_PlanetSizeMax)||
-|static [`VRage.Utils.MyStringId WorldSettings_PlanetSizeMin`](Sandbox.Game.Localization.WorldSettings_PlanetSizeMin)||
-|static [`VRage.Utils.MyStringId WorldSettings_Realistic`](Sandbox.Game.Localization.WorldSettings_Realistic)||
-|static [`VRage.Utils.MyStringId WorldSettings_RealisticSound`](Sandbox.Game.Localization.WorldSettings_RealisticSound)||
-|static [`VRage.Utils.MyStringId WorldSettings_Realistic_half`](Sandbox.Game.Localization.WorldSettings_Realistic_half)||
-|static [`VRage.Utils.MyStringId WorldSettings_Realistic_x10`](Sandbox.Game.Localization.WorldSettings_Realistic_x10)||
-|static [`VRage.Utils.MyStringId WorldSettings_Realistic_x2`](Sandbox.Game.Localization.WorldSettings_Realistic_x2)||
-|static [`VRage.Utils.MyStringId WorldSettings_Realistic_x3`](Sandbox.Game.Localization.WorldSettings_Realistic_x3)||
-|static [`VRage.Utils.MyStringId WorldSettings_Realistic_x5`](Sandbox.Game.Localization.WorldSettings_Realistic_x5)||
-|static [`VRage.Utils.MyStringId WorldSettings_RefinerySpeed`](Sandbox.Game.Localization.WorldSettings_RefinerySpeed)||
-|static [`VRage.Utils.MyStringId WorldSettings_RemoveTrash`](Sandbox.Game.Localization.WorldSettings_RemoveTrash)||
-|static [`VRage.Utils.MyStringId WorldSettings_ResetOwnership`](Sandbox.Game.Localization.WorldSettings_ResetOwnership)||
-|static [`VRage.Utils.MyStringId WorldSettings_RespawnShipCooldown`](Sandbox.Game.Localization.WorldSettings_RespawnShipCooldown)||
-|static [`VRage.Utils.MyStringId WorldSettings_RespawnShipDelete`](Sandbox.Game.Localization.WorldSettings_RespawnShipDelete)||
-|static [`VRage.Utils.MyStringId WorldSettings_RespawnShip_CooldownsDisabled`](Sandbox.Game.Localization.WorldSettings_RespawnShip_CooldownsDisabled)||
-|static [`VRage.Utils.MyStringId WorldSettings_RespawnShip_Default`](Sandbox.Game.Localization.WorldSettings_RespawnShip_Default)||
-|static [`VRage.Utils.MyStringId WorldSettings_RespawnShip_x01`](Sandbox.Game.Localization.WorldSettings_RespawnShip_x01)||
-|static [`VRage.Utils.MyStringId WorldSettings_RespawnShip_x02`](Sandbox.Game.Localization.WorldSettings_RespawnShip_x02)||
-|static [`VRage.Utils.MyStringId WorldSettings_RespawnShip_x05`](Sandbox.Game.Localization.WorldSettings_RespawnShip_x05)||
-|static [`VRage.Utils.MyStringId WorldSettings_RespawnShip_x10`](Sandbox.Game.Localization.WorldSettings_RespawnShip_x10)||
-|static [`VRage.Utils.MyStringId WorldSettings_RespawnShip_x100`](Sandbox.Game.Localization.WorldSettings_RespawnShip_x100)||
-|static [`VRage.Utils.MyStringId WorldSettings_RespawnShip_x2`](Sandbox.Game.Localization.WorldSettings_RespawnShip_x2)||
-|static [`VRage.Utils.MyStringId WorldSettings_RespawnShip_x20`](Sandbox.Game.Localization.WorldSettings_RespawnShip_x20)||
-|static [`VRage.Utils.MyStringId WorldSettings_RespawnShip_x5`](Sandbox.Game.Localization.WorldSettings_RespawnShip_x5)||
-|static [`VRage.Utils.MyStringId WorldSettings_RespawnShip_x50`](Sandbox.Game.Localization.WorldSettings_RespawnShip_x50)||
-|static [`VRage.Utils.MyStringId WorldSettings_Scenario`](Sandbox.Game.Localization.WorldSettings_Scenario)||
-|static [`VRage.Utils.MyStringId WorldSettings_ScenarioEditMode`](Sandbox.Game.Localization.WorldSettings_ScenarioEditMode)||
-|static [`VRage.Utils.MyStringId WorldSettings_ShowPlayerNamesOnHud`](Sandbox.Game.Localization.WorldSettings_ShowPlayerNamesOnHud)||
-|static [`VRage.Utils.MyStringId WorldSettings_SoundInSpace`](Sandbox.Game.Localization.WorldSettings_SoundInSpace)||
-|static [`VRage.Utils.MyStringId WorldSettings_SoundMode`](Sandbox.Game.Localization.WorldSettings_SoundMode)||
-|static [`VRage.Utils.MyStringId WorldSettings_SpawnWithTools`](Sandbox.Game.Localization.WorldSettings_SpawnWithTools)||
-|static [`VRage.Utils.MyStringId WorldSettings_StartInRespawnScreen`](Sandbox.Game.Localization.WorldSettings_StartInRespawnScreen)||
-|static [`VRage.Utils.MyStringId WorldSettings_StationVoxelSupport`](Sandbox.Game.Localization.WorldSettings_StationVoxelSupport)||
-|static [`VRage.Utils.MyStringId WorldSettings_ThrusterDamage`](Sandbox.Game.Localization.WorldSettings_ThrusterDamage)||
-|static [`VRage.Utils.MyStringId WorldSettings_TotalPCU`](Sandbox.Game.Localization.WorldSettings_TotalPCU)||
-|static [`VRage.Utils.MyStringId WorldSettings_ViewDistance`](Sandbox.Game.Localization.WorldSettings_ViewDistance)||
-|static [`VRage.Utils.MyStringId WorldSettings_ViewDistance_10_Km`](Sandbox.Game.Localization.WorldSettings_ViewDistance_10_Km)||
-|static [`VRage.Utils.MyStringId WorldSettings_ViewDistance_15_Km`](Sandbox.Game.Localization.WorldSettings_ViewDistance_15_Km)||
-|static [`VRage.Utils.MyStringId WorldSettings_ViewDistance_20_Km`](Sandbox.Game.Localization.WorldSettings_ViewDistance_20_Km)||
-|static [`VRage.Utils.MyStringId WorldSettings_ViewDistance_30_Km`](Sandbox.Game.Localization.WorldSettings_ViewDistance_30_Km)||
-|static [`VRage.Utils.MyStringId WorldSettings_ViewDistance_40_Km`](Sandbox.Game.Localization.WorldSettings_ViewDistance_40_Km)||
-|static [`VRage.Utils.MyStringId WorldSettings_ViewDistance_50_Km`](Sandbox.Game.Localization.WorldSettings_ViewDistance_50_Km)||
-|static [`VRage.Utils.MyStringId WorldSettings_ViewDistance_5_Km`](Sandbox.Game.Localization.WorldSettings_ViewDistance_5_Km)||
-|static [`VRage.Utils.MyStringId WorldSettings_ViewDistance_7_Km`](Sandbox.Game.Localization.WorldSettings_ViewDistance_7_Km)||
-|static [`VRage.Utils.MyStringId WorldSettings_ViewDistance_Custom`](Sandbox.Game.Localization.WorldSettings_ViewDistance_Custom)||
-|static [`VRage.Utils.MyStringId WorldSettings_WarningChangingWorldSize`](Sandbox.Game.Localization.WorldSettings_WarningChangingWorldSize)||
-|static [`VRage.Utils.MyStringId WorldSettings_WelderSpeed`](Sandbox.Game.Localization.WorldSettings_WelderSpeed)||
-|static [`VRage.Utils.MyStringId WorldSettings_WorldGenerator`](Sandbox.Game.Localization.WorldSettings_WorldGenerator)||
-|static [`VRage.Utils.MyStringId WorldSettings_WorldSize100Km`](Sandbox.Game.Localization.WorldSettings_WorldSize100Km)||
-|static [`VRage.Utils.MyStringId WorldSettings_WorldSize10Km`](Sandbox.Game.Localization.WorldSettings_WorldSize10Km)||
-|static [`VRage.Utils.MyStringId WorldSettings_WorldSize20Km`](Sandbox.Game.Localization.WorldSettings_WorldSize20Km)||
-|static [`VRage.Utils.MyStringId WorldSettings_WorldSize50Km`](Sandbox.Game.Localization.WorldSettings_WorldSize50Km)||
-|static [`VRage.Utils.MyStringId WorldSettings_WorldSizeCustom`](Sandbox.Game.Localization.WorldSettings_WorldSizeCustom)||
-|static [`VRage.Utils.MyStringId WorldSettings_WorldSizeUnlimited`](Sandbox.Game.Localization.WorldSettings_WorldSizeUnlimited)||
-|static [`VRage.Utils.MyStringId World_Settings_EnableOxygen`](Sandbox.Game.Localization.World_Settings_EnableOxygen)||
-|static [`VRage.Utils.MyStringId World_Settings_EnableOxygenPressurization`](Sandbox.Game.Localization.World_Settings_EnableOxygenPressurization)||
-|static [`VRage.Utils.MyStringId WwwLinkNotAllowed`](Sandbox.Game.Localization.WwwLinkNotAllowed)||
-|static [`VRage.Utils.MyStringId WwwLinkNotAllowed_Steam`](Sandbox.Game.Localization.WwwLinkNotAllowed_Steam)||
-|static [`VRage.Utils.MyStringId IngameHelp_HUD_Detail1`](Sandbox.Game.Localization.IngameHelp_HUD_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_HUD_Detail2`](Sandbox.Game.Localization.IngameHelp_HUD_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_HUD_Detail3`](Sandbox.Game.Localization.IngameHelp_HUD_Detail3)||
-|static [`VRage.Utils.MyStringId IngameHelp_HUD_Title`](Sandbox.Game.Localization.IngameHelp_HUD_Title)||
-|static [`VRage.Utils.MyStringId IngameHelp_Jetpack2_Detail1`](Sandbox.Game.Localization.IngameHelp_Jetpack2_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_Jetpack2_Detail2`](Sandbox.Game.Localization.IngameHelp_Jetpack2_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_Building2_Detail1`](Sandbox.Game.Localization.IngameHelp_Building2_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_Building2_Detail2`](Sandbox.Game.Localization.IngameHelp_Building2_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_Building2_Detail3`](Sandbox.Game.Localization.IngameHelp_Building2_Detail3)||
-|static [`VRage.Utils.MyStringId IngameHelp_Building_Detail1`](Sandbox.Game.Localization.IngameHelp_Building_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_Building_Detail2`](Sandbox.Game.Localization.IngameHelp_Building_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_Building_Detail3`](Sandbox.Game.Localization.IngameHelp_Building_Detail3)||
-|static [`VRage.Utils.MyStringId IngameHelp_Building_Title`](Sandbox.Game.Localization.IngameHelp_Building_Title)||
-|static [`VRage.Utils.MyStringId IngameHelp_Building3_Detail1`](Sandbox.Game.Localization.IngameHelp_Building3_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_Building3_Detail2`](Sandbox.Game.Localization.IngameHelp_Building3_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_Ownership_Detail1`](Sandbox.Game.Localization.IngameHelp_Ownership_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_Ownership_Detail2`](Sandbox.Game.Localization.IngameHelp_Ownership_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_Ownership_Title`](Sandbox.Game.Localization.IngameHelp_Ownership_Title)||
-|static [`VRage.Utils.MyStringId IngameHelp_CameraTip_Detail1`](Sandbox.Game.Localization.IngameHelp_CameraTip_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_CameraTip_Detail2`](Sandbox.Game.Localization.IngameHelp_CameraTip_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_Camera_Title`](Sandbox.Game.Localization.IngameHelp_Camera_Title)||
-|static [`VRage.Utils.MyStringId IngameHelp_Power_Detail1`](Sandbox.Game.Localization.IngameHelp_Power_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_Power_Detail2`](Sandbox.Game.Localization.IngameHelp_Power_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_Power_Title`](Sandbox.Game.Localization.IngameHelp_Power_Title)||
-|static [`VRage.Utils.MyStringId IngameHelp_BuildingTip_Detail1`](Sandbox.Game.Localization.IngameHelp_BuildingTip_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_BuildingTip_Detail2`](Sandbox.Game.Localization.IngameHelp_BuildingTip_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_Building_Detail4`](Sandbox.Game.Localization.IngameHelp_Building_Detail4)||
-|static [`VRage.Utils.MyStringId IngameHelp_HUDTip_Detail1`](Sandbox.Game.Localization.IngameHelp_HUDTip_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_HUDTip_Detail2`](Sandbox.Game.Localization.IngameHelp_HUDTip_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_IntroTip_Detail1`](Sandbox.Game.Localization.IngameHelp_IntroTip_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_IntroTip_Detail2`](Sandbox.Game.Localization.IngameHelp_IntroTip_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_JetpackTip_Detail1`](Sandbox.Game.Localization.IngameHelp_JetpackTip_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_JetpackTip_Detail2`](Sandbox.Game.Localization.IngameHelp_JetpackTip_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_InventoryTip_Detail1`](Sandbox.Game.Localization.IngameHelp_InventoryTip_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_InventoryTip_Detail2`](Sandbox.Game.Localization.IngameHelp_InventoryTip_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_Inventory_Detail1`](Sandbox.Game.Localization.IngameHelp_Inventory_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_Inventory_Detail2`](Sandbox.Game.Localization.IngameHelp_Inventory_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_Inventory_Detail3`](Sandbox.Game.Localization.IngameHelp_Inventory_Detail3)||
-|static [`VRage.Utils.MyStringId IngameHelp_Inventory_Title`](Sandbox.Game.Localization.IngameHelp_Inventory_Title)||
-|static [`VRage.Utils.MyStringId IngameHelp_EnergyTip_Detail1`](Sandbox.Game.Localization.IngameHelp_EnergyTip_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_EnergyTip_Detail2`](Sandbox.Game.Localization.IngameHelp_EnergyTip_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_Energy_Detail1`](Sandbox.Game.Localization.IngameHelp_Energy_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_Energy_Detail2`](Sandbox.Game.Localization.IngameHelp_Energy_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_Energy_Title`](Sandbox.Game.Localization.IngameHelp_Energy_Title)||
-|static [`VRage.Utils.MyStringId IngameHelp_HealthTip_Detail1`](Sandbox.Game.Localization.IngameHelp_HealthTip_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_HealthTip_Detail2`](Sandbox.Game.Localization.IngameHelp_HealthTip_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_Health_Detail1`](Sandbox.Game.Localization.IngameHelp_Health_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_Health_Detail2`](Sandbox.Game.Localization.IngameHelp_Health_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_Health_Title`](Sandbox.Game.Localization.IngameHelp_Health_Title)||
-|static [`VRage.Utils.MyStringId IngameHelp_HydrogenTip_Detail1`](Sandbox.Game.Localization.IngameHelp_HydrogenTip_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_HydrogenTip_Detail2`](Sandbox.Game.Localization.IngameHelp_HydrogenTip_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_Hydrogen_Detail1`](Sandbox.Game.Localization.IngameHelp_Hydrogen_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_Hydrogen_Detail2`](Sandbox.Game.Localization.IngameHelp_Hydrogen_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_Hydrogen_Title`](Sandbox.Game.Localization.IngameHelp_Hydrogen_Title)||
-|static [`VRage.Utils.MyStringId IngameHelp_MagneticBootsTip_Detail1`](Sandbox.Game.Localization.IngameHelp_MagneticBootsTip_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_MagneticBootsTip_Detail2`](Sandbox.Game.Localization.IngameHelp_MagneticBootsTip_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_MagneticBoots_Detail1`](Sandbox.Game.Localization.IngameHelp_MagneticBoots_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_MagneticBoots_Detail2`](Sandbox.Game.Localization.IngameHelp_MagneticBoots_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_MagneticBoots_Title`](Sandbox.Game.Localization.IngameHelp_MagneticBoots_Title)||
-|static [`VRage.Utils.MyStringId IngameHelp_OxygenTip_Detail1`](Sandbox.Game.Localization.IngameHelp_OxygenTip_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_OxygenTip_Detail2`](Sandbox.Game.Localization.IngameHelp_OxygenTip_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_Oxygen_Detail1`](Sandbox.Game.Localization.IngameHelp_Oxygen_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_Oxygen_Detail2`](Sandbox.Game.Localization.IngameHelp_Oxygen_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_Oxygen_Title`](Sandbox.Game.Localization.IngameHelp_Oxygen_Title)||
-|static [`VRage.Utils.MyStringId IngameHelp_FlyingAShipTip_Detail1`](Sandbox.Game.Localization.IngameHelp_FlyingAShipTip_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_FlyingAShipTip_Detail2`](Sandbox.Game.Localization.IngameHelp_FlyingAShipTip_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_FlyingAShip_Detail1`](Sandbox.Game.Localization.IngameHelp_FlyingAShip_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_FlyingAShip_Detail2`](Sandbox.Game.Localization.IngameHelp_FlyingAShip_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_FlyingAShip_Detail3`](Sandbox.Game.Localization.IngameHelp_FlyingAShip_Detail3)||
-|static [`VRage.Utils.MyStringId IngameHelp_FlyingAShip_Detail4`](Sandbox.Game.Localization.IngameHelp_FlyingAShip_Detail4)||
-|static [`VRage.Utils.MyStringId IngameHelp_FlyingAShip_Title`](Sandbox.Game.Localization.IngameHelp_FlyingAShip_Title)||
-|static [`VRage.Utils.MyStringId IngameHelp_Grinder_Detail1`](Sandbox.Game.Localization.IngameHelp_Grinder_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_Grinder_Detail2`](Sandbox.Game.Localization.IngameHelp_Grinder_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_Grinder_Title`](Sandbox.Game.Localization.IngameHelp_Grinder_Title)||
-|static [`VRage.Utils.MyStringId IngameHelp_GrinderTip_Detail1`](Sandbox.Game.Localization.IngameHelp_GrinderTip_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_GrinderTip_Detail2`](Sandbox.Game.Localization.IngameHelp_GrinderTip_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_HandDrill_Detail1`](Sandbox.Game.Localization.IngameHelp_HandDrill_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_HandDrill_Detail2`](Sandbox.Game.Localization.IngameHelp_HandDrill_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_HandDrill_Detail3`](Sandbox.Game.Localization.IngameHelp_HandDrill_Detail3)||
-|static [`VRage.Utils.MyStringId IngameHelp_HandDrill_Detail4`](Sandbox.Game.Localization.IngameHelp_HandDrill_Detail4)||
-|static [`VRage.Utils.MyStringId IngameHelp_HandDrill_Title`](Sandbox.Game.Localization.IngameHelp_HandDrill_Title)||
-|static [`VRage.Utils.MyStringId IngameHelp_Rifle_Detail1`](Sandbox.Game.Localization.IngameHelp_Rifle_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_Rifle_Detail2`](Sandbox.Game.Localization.IngameHelp_Rifle_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_Rifle_Title`](Sandbox.Game.Localization.IngameHelp_Rifle_Title)||
-|static [`VRage.Utils.MyStringId IngameHelp_WelderTip_Detail1`](Sandbox.Game.Localization.IngameHelp_WelderTip_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_WelderTip_Detail2`](Sandbox.Game.Localization.IngameHelp_WelderTip_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_Welder_Detail1`](Sandbox.Game.Localization.IngameHelp_Welder_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_Welder_Detail2`](Sandbox.Game.Localization.IngameHelp_Welder_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_Welder_Title`](Sandbox.Game.Localization.IngameHelp_Welder_Title)||
-|static [`VRage.Utils.MyStringId IngameHelp_RefiningOre_Detail1`](Sandbox.Game.Localization.IngameHelp_RefiningOre_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_RefiningOre_Detail2`](Sandbox.Game.Localization.IngameHelp_RefiningOre_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_RefiningOre_Title`](Sandbox.Game.Localization.IngameHelp_RefiningOre_Title)||
-|static [`VRage.Utils.MyStringId IngameHelp_ComponentsTip_Detail1`](Sandbox.Game.Localization.IngameHelp_ComponentsTip_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_ComponentsTip_Detail2`](Sandbox.Game.Localization.IngameHelp_ComponentsTip_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_Components_Detail1`](Sandbox.Game.Localization.IngameHelp_Components_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_Components_Detail2`](Sandbox.Game.Localization.IngameHelp_Components_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_Components_Title`](Sandbox.Game.Localization.IngameHelp_Components_Title)||
-|static [`VRage.Utils.MyStringId IngameHelp_FlashlightTip_Detail1`](Sandbox.Game.Localization.IngameHelp_FlashlightTip_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_FlashlightTip_Detail2`](Sandbox.Game.Localization.IngameHelp_FlashlightTip_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_Flashlight_Detail1`](Sandbox.Game.Localization.IngameHelp_Flashlight_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_Flashlight_Detail2`](Sandbox.Game.Localization.IngameHelp_Flashlight_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_Flashlight_Title`](Sandbox.Game.Localization.IngameHelp_Flashlight_Title)||
-|static [`VRage.Utils.MyStringId IngameHelp_Ingots_Detail1`](Sandbox.Game.Localization.IngameHelp_Ingots_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_Ingots_Detail2`](Sandbox.Game.Localization.IngameHelp_Ingots_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_Ingots_Detail3`](Sandbox.Game.Localization.IngameHelp_Ingots_Detail3)||
-|static [`VRage.Utils.MyStringId IngameHelp_Ingots_Title`](Sandbox.Game.Localization.IngameHelp_Ingots_Title)||
-|static [`VRage.Utils.MyStringId IngameHelp_InteractiveTip_Detail1`](Sandbox.Game.Localization.IngameHelp_InteractiveTip_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_InteractiveTip_Detail2`](Sandbox.Game.Localization.IngameHelp_InteractiveTip_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_Interactive_Detail1`](Sandbox.Game.Localization.IngameHelp_Interactive_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_Interactive_Detail2`](Sandbox.Game.Localization.IngameHelp_Interactive_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_Interactive_Detail3`](Sandbox.Game.Localization.IngameHelp_Interactive_Detail3)||
-|static [`VRage.Utils.MyStringId IngameHelp_Interactive_Detail4`](Sandbox.Game.Localization.IngameHelp_Interactive_Detail4)||
-|static [`VRage.Utils.MyStringId IngameHelp_Interactive_Title`](Sandbox.Game.Localization.IngameHelp_Interactive_Title)||
-|static [`VRage.Utils.MyStringId IngameHelp_PowerTip_Detail1`](Sandbox.Game.Localization.IngameHelp_PowerTip_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_PowerTip_Detail2`](Sandbox.Game.Localization.IngameHelp_PowerTip_Detail2)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_Author`](Sandbox.Game.Localization.ScreenBlueprintsRew_Author)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_ButDelete`](Sandbox.Game.Localization.ScreenBlueprintsRew_ButDelete)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_ButEdit`](Sandbox.Game.Localization.ScreenBlueprintsRew_ButEdit)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_ButInfo`](Sandbox.Game.Localization.ScreenBlueprintsRew_ButInfo)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_ButOpenInWorkshop`](Sandbox.Game.Localization.ScreenBlueprintsRew_ButOpenInWorkshop)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_ButPublish`](Sandbox.Game.Localization.ScreenBlueprintsRew_ButPublish)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_ButRename`](Sandbox.Game.Localization.ScreenBlueprintsRew_ButRename)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_ButReplace`](Sandbox.Game.Localization.ScreenBlueprintsRew_ButReplace)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_ButScreenshot`](Sandbox.Game.Localization.ScreenBlueprintsRew_ButScreenshot)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_ButToClipboard`](Sandbox.Game.Localization.ScreenBlueprintsRew_ButToClipboard)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_Caption`](Sandbox.Game.Localization.ScreenBlueprintsRew_Caption)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_Delete`](Sandbox.Game.Localization.ScreenBlueprintsRew_Delete)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_DeleteMessage`](Sandbox.Game.Localization.ScreenBlueprintsRew_DeleteMessage)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_GridType`](Sandbox.Game.Localization.ScreenBlueprintsRew_GridType)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_Name`](Sandbox.Game.Localization.ScreenBlueprintsRew_Name)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_NotAvailable`](Sandbox.Game.Localization.ScreenBlueprintsRew_NotAvailable)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_NumOfBlocks`](Sandbox.Game.Localization.ScreenBlueprintsRew_NumOfBlocks)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_PCU`](Sandbox.Game.Localization.ScreenBlueprintsRew_PCU)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_Replace`](Sandbox.Game.Localization.ScreenBlueprintsRew_Replace)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_ReplaceMessage1`](Sandbox.Game.Localization.ScreenBlueprintsRew_ReplaceMessage1)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_ReplaceMessage2`](Sandbox.Game.Localization.ScreenBlueprintsRew_ReplaceMessage2)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_Search`](Sandbox.Game.Localization.ScreenBlueprintsRew_Search)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_Tooltip_ButDelete`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_ButDelete)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_Tooltip_ButEdit`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_ButEdit)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_Tooltip_ButFolders`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_ButFolders)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_Tooltip_ButGrouping`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_ButGrouping)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_Tooltip_ButInfo`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_ButInfo)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_Tooltip_ButNewBlueprint`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_ButNewBlueprint)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_Tooltip_ButOpenInWorkshop`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_ButOpenInWorkshop)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_Tooltip_ButOpenWorkshop`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_ButOpenWorkshop)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_Tooltip_ButPublish`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_ButPublish)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_Tooltip_ButRefresh`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_ButRefresh)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_Tooltip_ButRename`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_ButRename)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_Tooltip_ButReplace`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_ButReplace)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_Tooltip_ButScreenshot`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_ButScreenshot)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_Tooltip_ButSort`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_ButSort)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_Tooltip_ButToClipboard`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_ButToClipboard)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_Tooltip_ButVisibility`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_ButVisibility)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_Tooltip_SendToPlayer`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_SendToPlayer)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_NoBlueprints`](Sandbox.Game.Localization.ScreenBlueprintsRew_NoBlueprints)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_NoWorkshopBlueprints`](Sandbox.Game.Localization.ScreenBlueprintsRew_NoWorkshopBlueprints)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_NoWorkshopScripts`](Sandbox.Game.Localization.ScreenBlueprintsRew_NoWorkshopScripts)||
-|static [`VRage.Utils.MyStringId ScreenFolders_ButOpen`](Sandbox.Game.Localization.ScreenFolders_ButOpen)||
-|static [`VRage.Utils.MyStringId ScreenFolders_Caption`](Sandbox.Game.Localization.ScreenFolders_Caption)||
-|static [`VRage.Utils.MyStringId ScreenFolders_Tooltip_Open`](Sandbox.Game.Localization.ScreenFolders_Tooltip_Open)||
-|static [`VRage.Utils.MyStringId ScreenFolders_Tooltip_Refresh`](Sandbox.Game.Localization.ScreenFolders_Tooltip_Refresh)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_ButToEditor`](Sandbox.Game.Localization.ScreenBlueprintsRew_ButToEditor)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_Tooltip_ButNewScript`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_ButNewScript)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_Tooltip_ButToEditor`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_ButToEditor)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_ScreenBeingTaken`](Sandbox.Game.Localization.ScreenBlueprintsRew_ScreenBeingTaken)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_ScreenBeingTaken_Caption`](Sandbox.Game.Localization.ScreenBlueprintsRew_ScreenBeingTaken_Caption)||
-|static [`VRage.Utils.MyStringId ChatBotName`](Sandbox.Game.Localization.ChatBotName)||
-|static [`VRage.Utils.MyStringId ChatBotUnavailable`](Sandbox.Game.Localization.ChatBotUnavailable)||
-|static [`VRage.Utils.MyStringId ChatBot_Generic`](Sandbox.Game.Localization.ChatBot_Generic)||
-|static [`VRage.Utils.MyStringId ChatBot_HowAreYou`](Sandbox.Game.Localization.ChatBot_HowAreYou)||
-|static [`VRage.Utils.MyStringId ChatBot_Rude`](Sandbox.Game.Localization.ChatBot_Rude)||
-|static [`VRage.Utils.MyStringId ChatBot_ThankYou`](Sandbox.Game.Localization.ChatBot_ThankYou)||
-|static [`VRage.Utils.MyStringId ChatBotMisunderstanding0`](Sandbox.Game.Localization.ChatBotMisunderstanding0)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Electricity`](Sandbox.Game.Localization.Description_FAQ_Electricity)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Asteroids`](Sandbox.Game.Localization.Description_FAQ_Asteroids)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Gravity`](Sandbox.Game.Localization.Description_FAQ_Gravity)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Oxygen`](Sandbox.Game.Localization.Description_FAQ_Oxygen)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Damage`](Sandbox.Game.Localization.Description_FAQ_Damage)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Repair`](Sandbox.Game.Localization.Description_FAQ_Repair)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Welding`](Sandbox.Game.Localization.Description_FAQ_Welding)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Mining`](Sandbox.Game.Localization.Description_FAQ_Mining)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Healing`](Sandbox.Game.Localization.Description_FAQ_Healing)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Recharging`](Sandbox.Game.Localization.Description_FAQ_Recharging)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Grinding`](Sandbox.Game.Localization.Description_FAQ_Grinding)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Hydrogen`](Sandbox.Game.Localization.Description_FAQ_Hydrogen)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Jetpack`](Sandbox.Game.Localization.Description_FAQ_Jetpack)||
-|static [`VRage.Utils.MyStringId Description_FAQ_MagneticBoots`](Sandbox.Game.Localization.Description_FAQ_MagneticBoots)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Ore`](Sandbox.Game.Localization.Description_FAQ_Ore)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Ice`](Sandbox.Game.Localization.Description_FAQ_Ice)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Voxel`](Sandbox.Game.Localization.Description_FAQ_Voxel)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Grid`](Sandbox.Game.Localization.Description_FAQ_Grid)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Clang`](Sandbox.Game.Localization.Description_FAQ_Clang)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Visor`](Sandbox.Game.Localization.Description_FAQ_Visor)||
-|static [`VRage.Utils.MyStringId Description_FAQ_RoomPressure`](Sandbox.Game.Localization.Description_FAQ_RoomPressure)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Thrusters`](Sandbox.Game.Localization.Description_FAQ_Thrusters)||
-|static [`VRage.Utils.MyStringId Description_FAQ_ShipMovement`](Sandbox.Game.Localization.Description_FAQ_ShipMovement)||
-|static [`VRage.Utils.MyStringId Description_FAQ_RoverMovement`](Sandbox.Game.Localization.Description_FAQ_RoverMovement)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Planets`](Sandbox.Game.Localization.Description_FAQ_Planets)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Pirates`](Sandbox.Game.Localization.Description_FAQ_Pirates)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Fuel`](Sandbox.Game.Localization.Description_FAQ_Fuel)||
-|static [`VRage.Utils.MyStringId Description_FAQ_PCU`](Sandbox.Game.Localization.Description_FAQ_PCU)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Ownership`](Sandbox.Game.Localization.Description_FAQ_Ownership)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Factions`](Sandbox.Game.Localization.Description_FAQ_Factions)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Bottles`](Sandbox.Game.Localization.Description_FAQ_Bottles)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Help`](Sandbox.Game.Localization.Description_FAQ_Help)||
-|static [`VRage.Utils.MyStringId Description_FAQ_SaveBlueprints`](Sandbox.Game.Localization.Description_FAQ_SaveBlueprints)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Lost`](Sandbox.Game.Localization.Description_FAQ_Lost)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Mass`](Sandbox.Game.Localization.Description_FAQ_Mass)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Skins`](Sandbox.Game.Localization.Description_FAQ_Skins)||
-|static [`VRage.Utils.MyStringId Description_FAQ_ShipInventories`](Sandbox.Game.Localization.Description_FAQ_ShipInventories)||
-|static [`VRage.Utils.MyStringId Description_FAQ_ShipBuilding`](Sandbox.Game.Localization.Description_FAQ_ShipBuilding)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Script`](Sandbox.Game.Localization.Description_FAQ_Script)||
-|static [`VRage.Utils.MyStringId Description_FAQ_GridMovement`](Sandbox.Game.Localization.Description_FAQ_GridMovement)||
-|static [`VRage.Utils.MyStringId Description_FAQ_StopMoving`](Sandbox.Game.Localization.Description_FAQ_StopMoving)||
-|static [`VRage.Utils.MyStringId Description_FAQ_RelativeDampeners`](Sandbox.Game.Localization.Description_FAQ_RelativeDampeners)||
-|static [`VRage.Utils.MyStringId Description_FAQ_InertiaDampeners`](Sandbox.Game.Localization.Description_FAQ_InertiaDampeners)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Flashlight`](Sandbox.Game.Localization.Description_FAQ_Flashlight)||
-|static [`VRage.Utils.MyStringId Description_FAQ_FindOtherPlayers`](Sandbox.Game.Localization.Description_FAQ_FindOtherPlayers)||
-|static [`VRage.Utils.MyStringId Description_FAQ_HowToPlayGame`](Sandbox.Game.Localization.Description_FAQ_HowToPlayGame)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Thing`](Sandbox.Game.Localization.Description_FAQ_Thing)||
-|static [`VRage.Utils.MyStringId Description_FAQ_ShipWontFly`](Sandbox.Game.Localization.Description_FAQ_ShipWontFly)||
-|static [`VRage.Utils.MyStringId Description_FAQ_WhatIsABlock`](Sandbox.Game.Localization.Description_FAQ_WhatIsABlock)||
-|static [`VRage.Utils.MyStringId Description_FAQ_MirrorMode`](Sandbox.Game.Localization.Description_FAQ_MirrorMode)||
-|static [`VRage.Utils.MyStringId Description_FAQ_ProtectingMyself`](Sandbox.Game.Localization.Description_FAQ_ProtectingMyself)||
-|static [`VRage.Utils.MyStringId Description_FAQ_LosingHealth`](Sandbox.Game.Localization.Description_FAQ_LosingHealth)||
-|static [`VRage.Utils.MyStringId Description_FAQ_VoxelHands`](Sandbox.Game.Localization.Description_FAQ_VoxelHands)||
-|static [`VRage.Utils.MyStringId Description_FAQ_AirTightnessPressure`](Sandbox.Game.Localization.Description_FAQ_AirTightnessPressure)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Components`](Sandbox.Game.Localization.Description_FAQ_Components)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Station`](Sandbox.Game.Localization.Description_FAQ_Station)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Ship`](Sandbox.Game.Localization.Description_FAQ_Ship)||
-|static [`VRage.Utils.MyStringId Description_FAQ_CarRover`](Sandbox.Game.Localization.Description_FAQ_CarRover)||
-|static [`VRage.Utils.MyStringId Description_FAQ_GPSSignals`](Sandbox.Game.Localization.Description_FAQ_GPSSignals)||
-|static [`VRage.Utils.MyStringId Description_FAQ_GridSize`](Sandbox.Game.Localization.Description_FAQ_GridSize)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Suit`](Sandbox.Game.Localization.Description_FAQ_Suit)||
-|static [`VRage.Utils.MyStringId Description_FAQ_HandTools`](Sandbox.Game.Localization.Description_FAQ_HandTools)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Inventory`](Sandbox.Game.Localization.Description_FAQ_Inventory)||
-|static [`VRage.Utils.MyStringId Description_FAQ_ShipToolsWeapons`](Sandbox.Game.Localization.Description_FAQ_ShipToolsWeapons)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Ingots`](Sandbox.Game.Localization.Description_FAQ_Ingots)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Armor`](Sandbox.Game.Localization.Description_FAQ_Armor)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Meteor`](Sandbox.Game.Localization.Description_FAQ_Meteor)||
-|static [`VRage.Utils.MyStringId Description_FAQ_UnknownSignals`](Sandbox.Game.Localization.Description_FAQ_UnknownSignals)||
-|static [`VRage.Utils.MyStringId Description_FAQ_GPSColors`](Sandbox.Game.Localization.Description_FAQ_GPSColors)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Drones`](Sandbox.Game.Localization.Description_FAQ_Drones)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Objective`](Sandbox.Game.Localization.Description_FAQ_Objective)||
-|static [`VRage.Utils.MyStringId Description_FAQ_GoodBot`](Sandbox.Game.Localization.Description_FAQ_GoodBot)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Math`](Sandbox.Game.Localization.Description_FAQ_Math)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Begin`](Sandbox.Game.Localization.Description_FAQ_Begin)||
-|static [`VRage.Utils.MyStringId Description_FAQ_BasicMovement`](Sandbox.Game.Localization.Description_FAQ_BasicMovement)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Time`](Sandbox.Game.Localization.Description_FAQ_Time)||
-|static [`VRage.Utils.MyStringId Description_FAQ_SteamWorkshop`](Sandbox.Game.Localization.Description_FAQ_SteamWorkshop)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Painting`](Sandbox.Game.Localization.Description_FAQ_Painting)||
-|static [`VRage.Utils.MyStringId Description_FAQ_InvalidMaterial`](Sandbox.Game.Localization.Description_FAQ_InvalidMaterial)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Test`](Sandbox.Game.Localization.Description_FAQ_Test)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Broadcasting`](Sandbox.Game.Localization.Description_FAQ_Broadcasting)||
-|static [`VRage.Utils.MyStringId Description_FAQ_BlockRotation`](Sandbox.Game.Localization.Description_FAQ_BlockRotation)||
-|static [`VRage.Utils.MyStringId Description_FAQ_HUD`](Sandbox.Game.Localization.Description_FAQ_HUD)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Bug`](Sandbox.Game.Localization.Description_FAQ_Bug)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Messages`](Sandbox.Game.Localization.Description_FAQ_Messages)||
-|static [`VRage.Utils.MyStringId Description_FAQ_AutoPilot`](Sandbox.Game.Localization.Description_FAQ_AutoPilot)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Experimental`](Sandbox.Game.Localization.Description_FAQ_Experimental)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Marek`](Sandbox.Game.Localization.Description_FAQ_Marek)||
-|static [`VRage.Utils.MyStringId Description_FAQ_GoodAI`](Sandbox.Game.Localization.Description_FAQ_GoodAI)||
-|static [`VRage.Utils.MyStringId Description_FAQ_DisableHints`](Sandbox.Game.Localization.Description_FAQ_DisableHints)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Permissions`](Sandbox.Game.Localization.Description_FAQ_Permissions)||
-|static [`VRage.Utils.MyStringId Description_FAQ_LeavePlanet`](Sandbox.Game.Localization.Description_FAQ_LeavePlanet)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Groups`](Sandbox.Game.Localization.Description_FAQ_Groups)||
-|static [`VRage.Utils.MyStringId Description_FAQ_MergeGrids`](Sandbox.Game.Localization.Description_FAQ_MergeGrids)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Camera`](Sandbox.Game.Localization.Description_FAQ_Camera)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Ammo`](Sandbox.Game.Localization.Description_FAQ_Ammo)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Airlock`](Sandbox.Game.Localization.Description_FAQ_Airlock)||
-|static [`VRage.Utils.MyStringId JoinScreen_GTXGamingBanner`](Sandbox.Game.Localization.JoinScreen_GTXGamingBanner)||
-|static [`VRage.Utils.MyStringId ChatBot_ThankYou_Q0`](Sandbox.Game.Localization.ChatBot_ThankYou_Q0)||
-|static [`VRage.Utils.MyStringId ChatBot_ThankYou_Q1`](Sandbox.Game.Localization.ChatBot_ThankYou_Q1)||
-|static [`VRage.Utils.MyStringId ChatBot_ThankYou_Q2`](Sandbox.Game.Localization.ChatBot_ThankYou_Q2)||
-|static [`VRage.Utils.MyStringId ChatBot_ThankYou_Q3`](Sandbox.Game.Localization.ChatBot_ThankYou_Q3)||
-|static [`VRage.Utils.MyStringId ChatBot_ThankYou_Q4`](Sandbox.Game.Localization.ChatBot_ThankYou_Q4)||
-|static [`VRage.Utils.MyStringId ChatBot_ThankYou_Q5`](Sandbox.Game.Localization.ChatBot_ThankYou_Q5)||
-|static [`VRage.Utils.MyStringId ChatBot_ThankYou_Q6`](Sandbox.Game.Localization.ChatBot_ThankYou_Q6)||
-|static [`VRage.Utils.MyStringId ChatBot_ThankYou_Q7`](Sandbox.Game.Localization.ChatBot_ThankYou_Q7)||
-|static [`VRage.Utils.MyStringId ChatBot_ThankYou_Q8`](Sandbox.Game.Localization.ChatBot_ThankYou_Q8)||
-|static [`VRage.Utils.MyStringId ChatBot_ThankYou_Q9`](Sandbox.Game.Localization.ChatBot_ThankYou_Q9)||
-|static [`VRage.Utils.MyStringId ChatBot_Generic_Q0`](Sandbox.Game.Localization.ChatBot_Generic_Q0)||
-|static [`VRage.Utils.MyStringId ChatBot_Generic_Q1`](Sandbox.Game.Localization.ChatBot_Generic_Q1)||
-|static [`VRage.Utils.MyStringId ChatBot_Generic_Q2`](Sandbox.Game.Localization.ChatBot_Generic_Q2)||
-|static [`VRage.Utils.MyStringId ChatBot_Generic_Q3`](Sandbox.Game.Localization.ChatBot_Generic_Q3)||
-|static [`VRage.Utils.MyStringId ChatBot_Generic_Q4`](Sandbox.Game.Localization.ChatBot_Generic_Q4)||
-|static [`VRage.Utils.MyStringId ChatBot_Generic_Q5`](Sandbox.Game.Localization.ChatBot_Generic_Q5)||
-|static [`VRage.Utils.MyStringId ChatBot_Generic_Q6`](Sandbox.Game.Localization.ChatBot_Generic_Q6)||
-|static [`VRage.Utils.MyStringId ChatBot_Generic_Q7`](Sandbox.Game.Localization.ChatBot_Generic_Q7)||
-|static [`VRage.Utils.MyStringId ChatBot_Generic_Q8`](Sandbox.Game.Localization.ChatBot_Generic_Q8)||
-|static [`VRage.Utils.MyStringId ChatBot_Generic_Q9`](Sandbox.Game.Localization.ChatBot_Generic_Q9)||
-|static [`VRage.Utils.MyStringId ChatBot_Generic_Q10`](Sandbox.Game.Localization.ChatBot_Generic_Q10)||
-|static [`VRage.Utils.MyStringId ChatBot_Generic_Q11`](Sandbox.Game.Localization.ChatBot_Generic_Q11)||
-|static [`VRage.Utils.MyStringId ChatBot_Generic_Q12`](Sandbox.Game.Localization.ChatBot_Generic_Q12)||
-|static [`VRage.Utils.MyStringId ChatBot_HowAreYou_Q0`](Sandbox.Game.Localization.ChatBot_HowAreYou_Q0)||
-|static [`VRage.Utils.MyStringId ChatBot_HowAreYou_Q1`](Sandbox.Game.Localization.ChatBot_HowAreYou_Q1)||
-|static [`VRage.Utils.MyStringId ChatBot_HowAreYou_Q2`](Sandbox.Game.Localization.ChatBot_HowAreYou_Q2)||
-|static [`VRage.Utils.MyStringId ChatBot_HowAreYou_Q3`](Sandbox.Game.Localization.ChatBot_HowAreYou_Q3)||
-|static [`VRage.Utils.MyStringId ChatBot_HowAreYou_Q4`](Sandbox.Game.Localization.ChatBot_HowAreYou_Q4)||
-|static [`VRage.Utils.MyStringId ChatBot_HowAreYou_Q5`](Sandbox.Game.Localization.ChatBot_HowAreYou_Q5)||
-|static [`VRage.Utils.MyStringId ChatBot_HowAreYou_Q6`](Sandbox.Game.Localization.ChatBot_HowAreYou_Q6)||
-|static [`VRage.Utils.MyStringId ChatBot_HowAreYou_Q7`](Sandbox.Game.Localization.ChatBot_HowAreYou_Q7)||
-|static [`VRage.Utils.MyStringId ChatBot_HowAreYou_Q8`](Sandbox.Game.Localization.ChatBot_HowAreYou_Q8)||
-|static [`VRage.Utils.MyStringId ChatBot_HowAreYou_Q9`](Sandbox.Game.Localization.ChatBot_HowAreYou_Q9)||
-|static [`VRage.Utils.MyStringId ChatBot_Rude_Q0`](Sandbox.Game.Localization.ChatBot_Rude_Q0)||
-|static [`VRage.Utils.MyStringId ChatBot_Rude_Q1`](Sandbox.Game.Localization.ChatBot_Rude_Q1)||
-|static [`VRage.Utils.MyStringId ChatBot_Rude_Q2`](Sandbox.Game.Localization.ChatBot_Rude_Q2)||
-|static [`VRage.Utils.MyStringId ChatBot_Rude_Q3`](Sandbox.Game.Localization.ChatBot_Rude_Q3)||
-|static [`VRage.Utils.MyStringId ChatBot_Rude_Q4`](Sandbox.Game.Localization.ChatBot_Rude_Q4)||
-|static [`VRage.Utils.MyStringId ChatBot_Rude_Q5`](Sandbox.Game.Localization.ChatBot_Rude_Q5)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Objective_Q0`](Sandbox.Game.Localization.Description_FAQ_Objective_Q0)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Objective_Q1`](Sandbox.Game.Localization.Description_FAQ_Objective_Q1)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Objective_Q2`](Sandbox.Game.Localization.Description_FAQ_Objective_Q2)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Objective_Q3`](Sandbox.Game.Localization.Description_FAQ_Objective_Q3)||
-|static [`VRage.Utils.MyStringId Description_FAQ_GoodBot_Q0`](Sandbox.Game.Localization.Description_FAQ_GoodBot_Q0)||
-|static [`VRage.Utils.MyStringId Description_FAQ_GoodBot_Q1`](Sandbox.Game.Localization.Description_FAQ_GoodBot_Q1)||
-|static [`VRage.Utils.MyStringId Description_FAQ_GoodBot_Q2`](Sandbox.Game.Localization.Description_FAQ_GoodBot_Q2)||
-|static [`VRage.Utils.MyStringId Description_FAQ_GoodBot_Q3`](Sandbox.Game.Localization.Description_FAQ_GoodBot_Q3)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Begin_Q0`](Sandbox.Game.Localization.Description_FAQ_Begin_Q0)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Bug_Q0`](Sandbox.Game.Localization.Description_FAQ_Bug_Q0)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Bug_Q1`](Sandbox.Game.Localization.Description_FAQ_Bug_Q1)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Bug_Q2`](Sandbox.Game.Localization.Description_FAQ_Bug_Q2)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Bug_Q3`](Sandbox.Game.Localization.Description_FAQ_Bug_Q3)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Bug_Q4`](Sandbox.Game.Localization.Description_FAQ_Bug_Q4)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Bug_Q5`](Sandbox.Game.Localization.Description_FAQ_Bug_Q5)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Bug_Q6`](Sandbox.Game.Localization.Description_FAQ_Bug_Q6)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Bug_Q7`](Sandbox.Game.Localization.Description_FAQ_Bug_Q7)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Bug_Q8`](Sandbox.Game.Localization.Description_FAQ_Bug_Q8)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Test_Q0`](Sandbox.Game.Localization.Description_FAQ_Test_Q0)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Test_Q1`](Sandbox.Game.Localization.Description_FAQ_Test_Q1)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Test_Q2`](Sandbox.Game.Localization.Description_FAQ_Test_Q2)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Test_Q3`](Sandbox.Game.Localization.Description_FAQ_Test_Q3)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Clang_Q0`](Sandbox.Game.Localization.Description_FAQ_Clang_Q0)||
-|static [`VRage.Utils.MyStringId Description_FAQ_Clang_Q1`](Sandbox.Game.Localization.Description_FAQ_Clang_Q1)||
-|static [`VRage.Utils.MyStringId ChatBot_Substitute0_S`](Sandbox.Game.Localization.ChatBot_Substitute0_S)||
-|static [`VRage.Utils.MyStringId ChatBot_Substitute0_D`](Sandbox.Game.Localization.ChatBot_Substitute0_D)||
-|static [`VRage.Utils.MyStringId ChatBot_Substitute1_S`](Sandbox.Game.Localization.ChatBot_Substitute1_S)||
-|static [`VRage.Utils.MyStringId ChatBot_Substitute1_D`](Sandbox.Game.Localization.ChatBot_Substitute1_D)||
-|static [`VRage.Utils.MyStringId ChatBot_Substitute2_S`](Sandbox.Game.Localization.ChatBot_Substitute2_S)||
-|static [`VRage.Utils.MyStringId ChatBot_Substitute2_D`](Sandbox.Game.Localization.ChatBot_Substitute2_D)||
-|static [`VRage.Utils.MyStringId ChatBot_Substitute3_S`](Sandbox.Game.Localization.ChatBot_Substitute3_S)||
-|static [`VRage.Utils.MyStringId ChatBot_Substitute3_D`](Sandbox.Game.Localization.ChatBot_Substitute3_D)||
-|static [`VRage.Utils.MyStringId IngameHelp_BuildingTip2_Detail1`](Sandbox.Game.Localization.IngameHelp_BuildingTip2_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_BuildingTip2_Detail2`](Sandbox.Game.Localization.IngameHelp_BuildingTip2_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_FlyingAShipLGTip_Detail1`](Sandbox.Game.Localization.IngameHelp_FlyingAShipLGTip_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_FlyingAShipLGTip_Detail2`](Sandbox.Game.Localization.IngameHelp_FlyingAShipLGTip_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_FlyingAShipLG_Detail1`](Sandbox.Game.Localization.IngameHelp_FlyingAShipLG_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_FlyingAShipLG_Detail2`](Sandbox.Game.Localization.IngameHelp_FlyingAShipLG_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_WheeledVehicles2_Detail1`](Sandbox.Game.Localization.IngameHelp_WheeledVehicles2_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_WheeledVehicles2_Detail2`](Sandbox.Game.Localization.IngameHelp_WheeledVehicles2_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_WheeledVehiclesTip_Detail1`](Sandbox.Game.Localization.IngameHelp_WheeledVehiclesTip_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_WheeledVehiclesTip_Detail2`](Sandbox.Game.Localization.IngameHelp_WheeledVehiclesTip_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_WheeledVehicles_Detail1`](Sandbox.Game.Localization.IngameHelp_WheeledVehicles_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_WheeledVehicles_Detail2`](Sandbox.Game.Localization.IngameHelp_WheeledVehicles_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_WheeledVehicles_Detail3`](Sandbox.Game.Localization.IngameHelp_WheeledVehicles_Detail3)||
-|static [`VRage.Utils.MyStringId IngameHelp_WheeledVehicles_Detail4`](Sandbox.Game.Localization.IngameHelp_WheeledVehicles_Detail4)||
-|static [`VRage.Utils.MyStringId IngameHelp_WheeledVehicles_Detail5`](Sandbox.Game.Localization.IngameHelp_WheeledVehicles_Detail5)||
-|static [`VRage.Utils.MyStringId IngameHelp_WheeledVehicles_Title`](Sandbox.Game.Localization.IngameHelp_WheeledVehicles_Title)||
-|static [`VRage.Utils.MyStringId IngameHelp_OwnershipTip_Detail1`](Sandbox.Game.Localization.IngameHelp_OwnershipTip_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_OwnershipTip_Detail2`](Sandbox.Game.Localization.IngameHelp_OwnershipTip_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_HelmetVisorTip_Detail1`](Sandbox.Game.Localization.IngameHelp_HelmetVisorTip_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_HelmetVisorTip_Detail2`](Sandbox.Game.Localization.IngameHelp_HelmetVisorTip_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_HelmetVisor_Detail1`](Sandbox.Game.Localization.IngameHelp_HelmetVisor_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_HelmetVisor_Detail2`](Sandbox.Game.Localization.IngameHelp_HelmetVisor_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_HelmetVisor_Title`](Sandbox.Game.Localization.IngameHelp_HelmetVisor_Title)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_Caption_Blueprint`](Sandbox.Game.Localization.ScreenBlueprintsRew_Caption_Blueprint)||
-|static [`VRage.Utils.MyStringId ScreenBlueprintsRew_Caption_Script`](Sandbox.Game.Localization.ScreenBlueprintsRew_Caption_Script)||
-|static [`VRage.Utils.MyStringId BlueprintInfo_SendTo`](Sandbox.Game.Localization.BlueprintInfo_SendTo)||
-|static [`VRage.Utils.MyStringId ControlName_RelativeDampening`](Sandbox.Game.Localization.ControlName_RelativeDampening)||
-|static [`VRage.Utils.MyStringId IngameHelp_StuckTip_Detail1`](Sandbox.Game.Localization.IngameHelp_StuckTip_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_StuckTip_Detail2`](Sandbox.Game.Localization.IngameHelp_StuckTip_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_Stuck_Detail1`](Sandbox.Game.Localization.IngameHelp_Stuck_Detail1)||
-|static [`VRage.Utils.MyStringId IngameHelp_Stuck_Detail2`](Sandbox.Game.Localization.IngameHelp_Stuck_Detail2)||
-|static [`VRage.Utils.MyStringId IngameHelp_Stuck_Detail3`](Sandbox.Game.Localization.IngameHelp_Stuck_Detail3)||
-|static [`VRage.Utils.MyStringId IngameHelp_Stuck_Title`](Sandbox.Game.Localization.IngameHelp_Stuck_Title)||
-|static [`VRage.Utils.MyStringId IngameHelp_IntroTip2_Detail1`](Sandbox.Game.Localization.IngameHelp_IntroTip2_Detail1)||
-|static [`VRage.Utils.MyStringId NotificationJumpAbortedAlreadyJumping`](Sandbox.Game.Localization.NotificationJumpAbortedAlreadyJumping)||
-|static [`VRage.Utils.MyStringId NotificationJumpAbortedLocked`](Sandbox.Game.Localization.NotificationJumpAbortedLocked)||
-|static [`VRage.Utils.MyStringId NotificationJumpAbortedNoLocation`](Sandbox.Game.Localization.NotificationJumpAbortedNoLocation)||
-|static [`VRage.Utils.MyStringId NotificationJumpAbortedShortDistance`](Sandbox.Game.Localization.NotificationJumpAbortedShortDistance)||
-|static [`VRage.Utils.MyStringId NotificationJumpAbortedStatic`](Sandbox.Game.Localization.NotificationJumpAbortedStatic)||
+|static [`Blank`](Sandbox.Game.Localization.Blank)||
+|static [`Add`](Sandbox.Game.Localization.Add)||
+|static [`AddAll`](Sandbox.Game.Localization.AddAll)||
+|static [`AddNpcToFaction`](Sandbox.Game.Localization.AddNpcToFaction)||
+|static [`AddNpcToFactionHelp`](Sandbox.Game.Localization.AddNpcToFactionHelp)||
+|static [`AdminMenuNotAvailable`](Sandbox.Game.Localization.AdminMenuNotAvailable)||
+|static [`Afterburner`](Sandbox.Game.Localization.Afterburner)||
+|static [`AGravity`](Sandbox.Game.Localization.AGravity)||
+|static [`Align_Center`](Sandbox.Game.Localization.Align_Center)||
+|static [`Align_Left`](Sandbox.Game.Localization.Align_Left)||
+|static [`Align_Right`](Sandbox.Game.Localization.Align_Right)||
+|static [`AngleGrinderPrimaryAction`](Sandbox.Game.Localization.AngleGrinderPrimaryAction)||
+|static [`AnonymousActivityTracking_Caption`](Sandbox.Game.Localization.AnonymousActivityTracking_Caption)||
+|static [`AnonymousActivityTracking_PrivacyPolicy`](Sandbox.Game.Localization.AnonymousActivityTracking_PrivacyPolicy)||
+|static [`AnonymousActivityTracking_Text1`](Sandbox.Game.Localization.AnonymousActivityTracking_Text1)||
+|static [`AnonymousActivityTracking_Text2`](Sandbox.Game.Localization.AnonymousActivityTracking_Text2)||
+|static [`Antenna_EnableBroadcast`](Sandbox.Game.Localization.Antenna_EnableBroadcast)||
+|static [`Antenna_IgnoreAlliedBroadcast`](Sandbox.Game.Localization.Antenna_IgnoreAlliedBroadcast)||
+|static [`Antenna_IgnoreAlliedBroadcastTooltip`](Sandbox.Game.Localization.Antenna_IgnoreAlliedBroadcastTooltip)||
+|static [`Antenna_IgnoreOtherBroadcast`](Sandbox.Game.Localization.Antenna_IgnoreOtherBroadcast)||
+|static [`Antenna_IgnoreOtherBroadcastTooltip`](Sandbox.Game.Localization.Antenna_IgnoreOtherBroadcastTooltip)||
+|static [`AssemblerState_Disabled`](Sandbox.Game.Localization.AssemblerState_Disabled)||
+|static [`AssemblerState_InventoryFull`](Sandbox.Game.Localization.AssemblerState_InventoryFull)||
+|static [`AssemblerState_MissingItems`](Sandbox.Game.Localization.AssemblerState_MissingItems)||
+|static [`AssemblerState_NotEnoughPower`](Sandbox.Game.Localization.AssemblerState_NotEnoughPower)||
+|static [`AssemblerState_NothingBeingProduced`](Sandbox.Game.Localization.AssemblerState_NothingBeingProduced)||
+|static [`AssemblerState_NotWorking`](Sandbox.Game.Localization.AssemblerState_NotWorking)||
+|static [`Assembler_SlaveMode`](Sandbox.Game.Localization.Assembler_SlaveMode)||
+|static [`Asteroids`](Sandbox.Game.Localization.Asteroids)||
+|static [`Asteroid_Amount`](Sandbox.Game.Localization.Asteroid_Amount)||
+|static [`AttachToSelectedEntity`](Sandbox.Game.Localization.AttachToSelectedEntity)||
+|static [`AUTO`](Sandbox.Game.Localization.AUTO)||
+|static [`BatteryBlock`](Sandbox.Game.Localization.BatteryBlock)||
+|static [`BiggestDistanceFromPlayers`](Sandbox.Game.Localization.BiggestDistanceFromPlayers)||
+|static [`BiggestGrids`](Sandbox.Game.Localization.BiggestGrids)||
+|static [`BlindJump`](Sandbox.Game.Localization.BlindJump)||
+|static [`BlockActionTitle_AddPistonHead`](Sandbox.Game.Localization.BlockActionTitle_AddPistonHead)||
+|static [`BlockActionTitle_AddRotorHead`](Sandbox.Game.Localization.BlockActionTitle_AddRotorHead)||
+|static [`BlockActionTitle_AddSmallRotorHead`](Sandbox.Game.Localization.BlockActionTitle_AddSmallRotorHead)||
+|static [`BlockActionTitle_AddWaypoint`](Sandbox.Game.Localization.BlockActionTitle_AddWaypoint)||
+|static [`BlockActionTitle_AddWheel`](Sandbox.Game.Localization.BlockActionTitle_AddWheel)||
+|static [`BlockActionTitle_Attach`](Sandbox.Game.Localization.BlockActionTitle_Attach)||
+|static [`BlockActionTitle_Detach`](Sandbox.Game.Localization.BlockActionTitle_Detach)||
+|static [`BlockActionTitle_Extend`](Sandbox.Game.Localization.BlockActionTitle_Extend)||
+|static [`BlockActionTitle_Jump`](Sandbox.Game.Localization.BlockActionTitle_Jump)||
+|static [`BlockActionTitle_Lock`](Sandbox.Game.Localization.BlockActionTitle_Lock)||
+|static [`BlockActionTitle_MoveWaypointDown`](Sandbox.Game.Localization.BlockActionTitle_MoveWaypointDown)||
+|static [`BlockActionTitle_MoveWaypointUp`](Sandbox.Game.Localization.BlockActionTitle_MoveWaypointUp)||
+|static [`BlockActionTitle_RemoteCopy`](Sandbox.Game.Localization.BlockActionTitle_RemoteCopy)||
+|static [`BlockActionTitle_RemotePaste`](Sandbox.Game.Localization.BlockActionTitle_RemotePaste)||
+|static [`BlockActionTitle_RemoveWaypoint`](Sandbox.Game.Localization.BlockActionTitle_RemoveWaypoint)||
+|static [`BlockActionTitle_Retract`](Sandbox.Game.Localization.BlockActionTitle_Retract)||
+|static [`BlockActionTitle_Reverse`](Sandbox.Game.Localization.BlockActionTitle_Reverse)||
+|static [`BlockActionTitle_SwitchLock`](Sandbox.Game.Localization.BlockActionTitle_SwitchLock)||
+|static [`BlockActionTitle_Unlock`](Sandbox.Game.Localization.BlockActionTitle_Unlock)||
+|static [`BlockActionTitle_View`](Sandbox.Game.Localization.BlockActionTitle_View)||
+|static [`BlockActionTitle_WaypointReset`](Sandbox.Game.Localization.BlockActionTitle_WaypointReset)||
+|static [`BlockActionTooltip_AddPistonHead`](Sandbox.Game.Localization.BlockActionTooltip_AddPistonHead)||
+|static [`BlockActionTooltip_AddRotorHead`](Sandbox.Game.Localization.BlockActionTooltip_AddRotorHead)||
+|static [`BlockActionTooltip_AddSmallRotorHead`](Sandbox.Game.Localization.BlockActionTooltip_AddSmallRotorHead)||
+|static [`BlockActionTooltip_AddWheel`](Sandbox.Game.Localization.BlockActionTooltip_AddWheel)||
+|static [`BlockActionTooltip_SelectedJumpTarget`](Sandbox.Game.Localization.BlockActionTooltip_SelectedJumpTarget)||
+|static [`BlockActionTooltip_WaypointReset`](Sandbox.Game.Localization.BlockActionTooltip_WaypointReset)||
+|static [`BlockAction_ConveyorSorterBlacklist`](Sandbox.Game.Localization.BlockAction_ConveyorSorterBlacklist)||
+|static [`BlockAction_ConveyorSorterWhitelist`](Sandbox.Game.Localization.BlockAction_ConveyorSorterWhitelist)||
+|static [`BlockAction_DoorClosed`](Sandbox.Game.Localization.BlockAction_DoorClosed)||
+|static [`BlockAction_DoorOpen`](Sandbox.Game.Localization.BlockAction_DoorOpen)||
+|static [`BlockAction_RemoveFromToolbar`](Sandbox.Game.Localization.BlockAction_RemoveFromToolbar)||
+|static [`BlockAction_Switch`](Sandbox.Game.Localization.BlockAction_Switch)||
+|static [`BlockAction_Toggle`](Sandbox.Game.Localization.BlockAction_Toggle)||
+|static [`BlockComboBoxValue_TextPanelAccessOnlyOwner`](Sandbox.Game.Localization.BlockComboBoxValue_TextPanelAccessOnlyOwner)||
+|static [`BlockComboBoxValue_TextPanelAccessReadAll`](Sandbox.Game.Localization.BlockComboBoxValue_TextPanelAccessReadAll)||
+|static [`BlockComboBoxValue_TextPanelAccessReadFaction`](Sandbox.Game.Localization.BlockComboBoxValue_TextPanelAccessReadFaction)||
+|static [`BlockComboBoxValue_TextPanelAccessReadWriteAll`](Sandbox.Game.Localization.BlockComboBoxValue_TextPanelAccessReadWriteAll)||
+|static [`BlockComboBoxValue_TextPanelAccessReadWriteFaction`](Sandbox.Game.Localization.BlockComboBoxValue_TextPanelAccessReadWriteFaction)||
+|static [`BlockComboBoxValue_TextPanelShowTextNone`](Sandbox.Game.Localization.BlockComboBoxValue_TextPanelShowTextNone)||
+|static [`BlockComboBoxValue_TextPanelShowTextPrivate`](Sandbox.Game.Localization.BlockComboBoxValue_TextPanelShowTextPrivate)||
+|static [`BlockComboBoxValue_TextPanelShowTextPublic`](Sandbox.Game.Localization.BlockComboBoxValue_TextPanelShowTextPublic)||
+|static [`BlockCount`](Sandbox.Game.Localization.BlockCount)||
+|static [`BlockIsNotPowered`](Sandbox.Game.Localization.BlockIsNotPowered)||
+|static [`BlockOwner_Me`](Sandbox.Game.Localization.BlockOwner_Me)||
+|static [`BlockOwner_Nobody`](Sandbox.Game.Localization.BlockOwner_Nobody)||
+|static [`BlockOwner_Owner`](Sandbox.Game.Localization.BlockOwner_Owner)||
+|static [`BlockOwner_ShareAll`](Sandbox.Game.Localization.BlockOwner_ShareAll)||
+|static [`BlockOwner_ShareFaction`](Sandbox.Game.Localization.BlockOwner_ShareFaction)||
+|static [`BlockOwner_ShareNone`](Sandbox.Game.Localization.BlockOwner_ShareNone)||
+|static [`BlockOwner_Transfer`](Sandbox.Game.Localization.BlockOwner_Transfer)||
+|static [`BlockOwner_TransferTo`](Sandbox.Game.Localization.BlockOwner_TransferTo)||
+|static [`BlockOwner_Unknown`](Sandbox.Game.Localization.BlockOwner_Unknown)||
+|static [`BlockPropertiesText_CurrentJump`](Sandbox.Game.Localization.BlockPropertiesText_CurrentJump)||
+|static [`BlockPropertiesText_DepletedIn`](Sandbox.Game.Localization.BlockPropertiesText_DepletedIn)||
+|static [`BlockPropertiesText_Effectiveness`](Sandbox.Game.Localization.BlockPropertiesText_Effectiveness)||
+|static [`BlockPropertiesText_Efficiency`](Sandbox.Game.Localization.BlockPropertiesText_Efficiency)||
+|static [`BlockPropertiesText_HeadAttachingAny`](Sandbox.Game.Localization.BlockPropertiesText_HeadAttachingAny)||
+|static [`BlockPropertiesText_HeadAttachingSpecific`](Sandbox.Game.Localization.BlockPropertiesText_HeadAttachingSpecific)||
+|static [`BlockPropertiesText_LockState`](Sandbox.Game.Localization.BlockPropertiesText_LockState)||
+|static [`BlockPropertiesText_LoopTimer`](Sandbox.Game.Localization.BlockPropertiesText_LoopTimer)||
+|static [`BlockPropertiesText_MainCockpit`](Sandbox.Game.Localization.BlockPropertiesText_MainCockpit)||
+|static [`BlockPropertiesText_MaxJump`](Sandbox.Game.Localization.BlockPropertiesText_MaxJump)||
+|static [`BlockPropertiesText_MaxOutput`](Sandbox.Game.Localization.BlockPropertiesText_MaxOutput)||
+|static [`BlockPropertiesText_MaxRequiredInput`](Sandbox.Game.Localization.BlockPropertiesText_MaxRequiredInput)||
+|static [`BlockPropertiesText_MaxStoredPower`](Sandbox.Game.Localization.BlockPropertiesText_MaxStoredPower)||
+|static [`BlockPropertiesText_MotoLockOverrideDisabled`](Sandbox.Game.Localization.BlockPropertiesText_MotoLockOverrideDisabled)||
+|static [`BlockPropertiesText_MotorAttached`](Sandbox.Game.Localization.BlockPropertiesText_MotorAttached)||
+|static [`BlockPropertiesText_MotorAttachingAny`](Sandbox.Game.Localization.BlockPropertiesText_MotorAttachingAny)||
+|static [`BlockPropertiesText_MotorAttachingSpecific`](Sandbox.Game.Localization.BlockPropertiesText_MotorAttachingSpecific)||
+|static [`BlockPropertiesText_MotorCurrentAngle`](Sandbox.Game.Localization.BlockPropertiesText_MotorCurrentAngle)||
+|static [`BlockPropertiesText_MotorDetached`](Sandbox.Game.Localization.BlockPropertiesText_MotorDetached)||
+|static [`BlockPropertiesText_MotorLimitsDisabled`](Sandbox.Game.Localization.BlockPropertiesText_MotorLimitsDisabled)||
+|static [`BlockPropertiesText_MotorLocked`](Sandbox.Game.Localization.BlockPropertiesText_MotorLocked)||
+|static [`BlockPropertiesText_OxygenOutput`](Sandbox.Game.Localization.BlockPropertiesText_OxygenOutput)||
+|static [`BlockPropertiesText_PistonCurrentPosition`](Sandbox.Game.Localization.BlockPropertiesText_PistonCurrentPosition)||
+|static [`BlockPropertiesText_Productivity`](Sandbox.Game.Localization.BlockPropertiesText_Productivity)||
+|static [`BlockPropertiesText_RechargedIn`](Sandbox.Game.Localization.BlockPropertiesText_RechargedIn)||
+|static [`BlockPropertiesText_RequiredInput`](Sandbox.Game.Localization.BlockPropertiesText_RequiredInput)||
+|static [`BlockPropertiesText_StoredPower`](Sandbox.Game.Localization.BlockPropertiesText_StoredPower)||
+|static [`BlockPropertiesTooltip_Projector_GetOwnership`](Sandbox.Game.Localization.BlockPropertiesTooltip_Projector_GetOwnership)||
+|static [`BlockPropertyButtonOff_Retract`](Sandbox.Game.Localization.BlockPropertyButtonOff_Retract)||
+|static [`BlockPropertyButtonOn_Expand`](Sandbox.Game.Localization.BlockPropertyButtonOn_Expand)||
+|static [`BlockPropertyDescription_AnyoneCanUse`](Sandbox.Game.Localization.BlockPropertyDescription_AnyoneCanUse)||
+|static [`BlockPropertyDescription_BreakForce`](Sandbox.Game.Localization.BlockPropertyDescription_BreakForce)||
+|static [`BlockPropertyDescription_BroadcastRadius`](Sandbox.Game.Localization.BlockPropertyDescription_BroadcastRadius)||
+|static [`BlockPropertyDescription_BroadcastUsingAntennas`](Sandbox.Game.Localization.BlockPropertyDescription_BroadcastUsingAntennas)||
+|static [`BlockPropertyDescription_Connector_Strength`](Sandbox.Game.Localization.BlockPropertyDescription_Connector_Strength)||
+|static [`BlockPropertyDescription_Depressurize`](Sandbox.Game.Localization.BlockPropertyDescription_Depressurize)||
+|static [`BlockPropertyDescription_GravityAcceleration`](Sandbox.Game.Localization.BlockPropertyDescription_GravityAcceleration)||
+|static [`BlockPropertyDescription_GravityFieldDepth`](Sandbox.Game.Localization.BlockPropertyDescription_GravityFieldDepth)||
+|static [`BlockPropertyDescription_GravityFieldHeight`](Sandbox.Game.Localization.BlockPropertyDescription_GravityFieldHeight)||
+|static [`BlockPropertyDescription_GravityFieldRadius`](Sandbox.Game.Localization.BlockPropertyDescription_GravityFieldRadius)||
+|static [`BlockPropertyDescription_GravityFieldWidth`](Sandbox.Game.Localization.BlockPropertyDescription_GravityFieldWidth)||
+|static [`BlockPropertyDescription_GyroOverride`](Sandbox.Game.Localization.BlockPropertyDescription_GyroOverride)||
+|static [`BlockPropertyDescription_GyroPitchOverride`](Sandbox.Game.Localization.BlockPropertyDescription_GyroPitchOverride)||
+|static [`BlockPropertyDescription_GyroPower`](Sandbox.Game.Localization.BlockPropertyDescription_GyroPower)||
+|static [`BlockPropertyDescription_GyroRollOverride`](Sandbox.Game.Localization.BlockPropertyDescription_GyroRollOverride)||
+|static [`BlockPropertyDescription_GyroYawOverride`](Sandbox.Game.Localization.BlockPropertyDescription_GyroYawOverride)||
+|static [`BlockPropertyDescription_LaserRange`](Sandbox.Game.Localization.BlockPropertyDescription_LaserRange)||
+|static [`BlockPropertyDescription_LightBlinkInterval`](Sandbox.Game.Localization.BlockPropertyDescription_LightBlinkInterval)||
+|static [`BlockPropertyDescription_LightBlinkLenght`](Sandbox.Game.Localization.BlockPropertyDescription_LightBlinkLenght)||
+|static [`BlockPropertyDescription_LightBlinkOffset`](Sandbox.Game.Localization.BlockPropertyDescription_LightBlinkOffset)||
+|static [`BlockPropertyDescription_LightColor`](Sandbox.Game.Localization.BlockPropertyDescription_LightColor)||
+|static [`BlockPropertyDescription_LightFalloff`](Sandbox.Game.Localization.BlockPropertyDescription_LightFalloff)||
+|static [`BlockPropertyDescription_LightIntensity`](Sandbox.Game.Localization.BlockPropertyDescription_LightIntensity)||
+|static [`BlockPropertyDescription_LightOffset`](Sandbox.Game.Localization.BlockPropertyDescription_LightOffset)||
+|static [`BlockPropertyDescription_LightRadius`](Sandbox.Game.Localization.BlockPropertyDescription_LightRadius)||
+|static [`BlockPropertyDescription_LightReflectorRadius`](Sandbox.Game.Localization.BlockPropertyDescription_LightReflectorRadius)||
+|static [`BlockPropertyDescription_MotorBrakingTorque`](Sandbox.Game.Localization.BlockPropertyDescription_MotorBrakingTorque)||
+|static [`BlockPropertyDescription_MotorLock`](Sandbox.Game.Localization.BlockPropertyDescription_MotorLock)||
+|static [`BlockPropertyDescription_MotorLowerLimit`](Sandbox.Game.Localization.BlockPropertyDescription_MotorLowerLimit)||
+|static [`BlockPropertyDescription_MotorRotorDisplacement`](Sandbox.Game.Localization.BlockPropertyDescription_MotorRotorDisplacement)||
+|static [`BlockPropertyDescription_MotorTorque`](Sandbox.Game.Localization.BlockPropertyDescription_MotorTorque)||
+|static [`BlockPropertyDescription_MotorUpperLimit`](Sandbox.Game.Localization.BlockPropertyDescription_MotorUpperLimit)||
+|static [`BlockPropertyDescription_MotorUsesWheelCommands`](Sandbox.Game.Localization.BlockPropertyDescription_MotorUsesWheelCommands)||
+|static [`BlockPropertyDescription_MotorVelocity`](Sandbox.Game.Localization.BlockPropertyDescription_MotorVelocity)||
+|static [`BlockPropertyDescription_Motor_Friction`](Sandbox.Game.Localization.BlockPropertyDescription_Motor_Friction)||
+|static [`BlockPropertyDescription_Motor_Height`](Sandbox.Game.Localization.BlockPropertyDescription_Motor_Height)||
+|static [`BlockPropertyDescription_Motor_InvertPropulsion`](Sandbox.Game.Localization.BlockPropertyDescription_Motor_InvertPropulsion)||
+|static [`BlockPropertyDescription_Motor_InvertSteer`](Sandbox.Game.Localization.BlockPropertyDescription_Motor_InvertSteer)||
+|static [`BlockPropertyDescription_Motor_MaxSteerAngle`](Sandbox.Game.Localization.BlockPropertyDescription_Motor_MaxSteerAngle)||
+|static [`BlockPropertyDescription_Motor_Power`](Sandbox.Game.Localization.BlockPropertyDescription_Motor_Power)||
+|static [`BlockPropertyDescription_Motor_Propulsion`](Sandbox.Game.Localization.BlockPropertyDescription_Motor_Propulsion)||
+|static [`BlockPropertyDescription_Motor_PropulsionOverride`](Sandbox.Game.Localization.BlockPropertyDescription_Motor_PropulsionOverride)||
+|static [`BlockPropertyDescription_Motor_Steering`](Sandbox.Game.Localization.BlockPropertyDescription_Motor_Steering)||
+|static [`BlockPropertyDescription_Motor_SteerOverride`](Sandbox.Game.Localization.BlockPropertyDescription_Motor_SteerOverride)||
+|static [`BlockPropertyDescription_Motor_SteerReturnSpeed`](Sandbox.Game.Localization.BlockPropertyDescription_Motor_SteerReturnSpeed)||
+|static [`BlockPropertyDescription_Motor_SteerSpeed`](Sandbox.Game.Localization.BlockPropertyDescription_Motor_SteerSpeed)||
+|static [`BlockPropertyDescription_Motor_SuspensionSpeed`](Sandbox.Game.Localization.BlockPropertyDescription_Motor_SuspensionSpeed)||
+|static [`BlockPropertyDescription_Motor_SuspensionTravel`](Sandbox.Game.Localization.BlockPropertyDescription_Motor_SuspensionTravel)||
+|static [`BlockPropertyDescription_OreDetectorRange`](Sandbox.Game.Localization.BlockPropertyDescription_OreDetectorRange)||
+|static [`BlockPropertyDescription_SensorFieldBack`](Sandbox.Game.Localization.BlockPropertyDescription_SensorFieldBack)||
+|static [`BlockPropertyDescription_SensorFieldBottom`](Sandbox.Game.Localization.BlockPropertyDescription_SensorFieldBottom)||
+|static [`BlockPropertyDescription_SensorFieldFront`](Sandbox.Game.Localization.BlockPropertyDescription_SensorFieldFront)||
+|static [`BlockPropertyDescription_SensorFieldLeft`](Sandbox.Game.Localization.BlockPropertyDescription_SensorFieldLeft)||
+|static [`BlockPropertyDescription_SensorFieldRight`](Sandbox.Game.Localization.BlockPropertyDescription_SensorFieldRight)||
+|static [`BlockPropertyDescription_SensorFieldTop`](Sandbox.Game.Localization.BlockPropertyDescription_SensorFieldTop)||
+|static [`BlockPropertyDescription_SensorToolbarOpen`](Sandbox.Game.Localization.BlockPropertyDescription_SensorToolbarOpen)||
+|static [`BlockPropertyDescription_ShowShipName`](Sandbox.Game.Localization.BlockPropertyDescription_ShowShipName)||
+|static [`BlockPropertyDescription_SoundBlockRange`](Sandbox.Game.Localization.BlockPropertyDescription_SoundBlockRange)||
+|static [`BlockPropertyDescription_SoundBlockVolume`](Sandbox.Game.Localization.BlockPropertyDescription_SoundBlockVolume)||
+|static [`BlockPropertyDescription_SpaceBallFriction`](Sandbox.Game.Localization.BlockPropertyDescription_SpaceBallFriction)||
+|static [`BlockPropertyDescription_SpaceBallRestitution`](Sandbox.Game.Localization.BlockPropertyDescription_SpaceBallRestitution)||
+|static [`BlockPropertyDescription_SpaceBallVirtualMass`](Sandbox.Game.Localization.BlockPropertyDescription_SpaceBallVirtualMass)||
+|static [`BlockPropertyDescription_Stockpile`](Sandbox.Game.Localization.BlockPropertyDescription_Stockpile)||
+|static [`BlockPropertyDescription_Suspension_AirShock`](Sandbox.Game.Localization.BlockPropertyDescription_Suspension_AirShock)||
+|static [`BlockPropertyDescription_Suspension_Brake`](Sandbox.Game.Localization.BlockPropertyDescription_Suspension_Brake)||
+|static [`BlockPropertyDescription_ThrustOverride`](Sandbox.Game.Localization.BlockPropertyDescription_ThrustOverride)||
+|static [`BlockPropertyPopup_AutoPilotToolbarOpen`](Sandbox.Game.Localization.BlockPropertyPopup_AutoPilotToolbarOpen)||
+|static [`BlockPropertyProperties_CurrentInput`](Sandbox.Game.Localization.BlockPropertyProperties_CurrentInput)||
+|static [`BlockPropertyProperties_CurrentMass`](Sandbox.Game.Localization.BlockPropertyProperties_CurrentMass)||
+|static [`BlockPropertyProperties_CurrentOutput`](Sandbox.Game.Localization.BlockPropertyProperties_CurrentOutput)||
+|static [`BlockPropertyText_AnyoneCanUse`](Sandbox.Game.Localization.BlockPropertyText_AnyoneCanUse)||
+|static [`BlockPropertyText_Button`](Sandbox.Game.Localization.BlockPropertyText_Button)||
+|static [`BlockPropertyText_ButtonList`](Sandbox.Game.Localization.BlockPropertyText_ButtonList)||
+|static [`BlockPropertyText_ButtonName`](Sandbox.Game.Localization.BlockPropertyText_ButtonName)||
+|static [`BlockPropertyTitle_Alignment`](Sandbox.Game.Localization.BlockPropertyTitle_Alignment)||
+|static [`BlockPropertyTitle_AssignedCamera`](Sandbox.Game.Localization.BlockPropertyTitle_AssignedCamera)||
+|static [`BlockPropertyTitle_AssignedPB`](Sandbox.Game.Localization.BlockPropertyTitle_AssignedPB)||
+|static [`BlockPropertyTitle_AutoPilot`](Sandbox.Game.Localization.BlockPropertyTitle_AutoPilot)||
+|static [`BlockPropertyTitle_AutoPilotToolbarOpen`](Sandbox.Game.Localization.BlockPropertyTitle_AutoPilotToolbarOpen)||
+|static [`BlockPropertyTitle_AutoRefill`](Sandbox.Game.Localization.BlockPropertyTitle_AutoRefill)||
+|static [`BlockPropertyTitle_BackgroundColor`](Sandbox.Game.Localization.BlockPropertyTitle_BackgroundColor)||
+|static [`BlockPropertyTitle_BreakForce`](Sandbox.Game.Localization.BlockPropertyTitle_BreakForce)||
+|static [`BlockPropertyTitle_BroadcastRadius`](Sandbox.Game.Localization.BlockPropertyTitle_BroadcastRadius)||
+|static [`BlockPropertyTitle_CollisionAvoidance`](Sandbox.Game.Localization.BlockPropertyTitle_CollisionAvoidance)||
+|static [`BlockPropertyTitle_Connector_Strength`](Sandbox.Game.Localization.BlockPropertyTitle_Connector_Strength)||
+|static [`BlockPropertyTitle_ConveyorSorterAdd`](Sandbox.Game.Localization.BlockPropertyTitle_ConveyorSorterAdd)||
+|static [`BlockPropertyTitle_ConveyorSorterCandidatesList`](Sandbox.Game.Localization.BlockPropertyTitle_ConveyorSorterCandidatesList)||
+|static [`BlockPropertyTitle_ConveyorSorterFilterItemsList`](Sandbox.Game.Localization.BlockPropertyTitle_ConveyorSorterFilterItemsList)||
+|static [`BlockPropertyTitle_ConveyorSorterFilterMode`](Sandbox.Game.Localization.BlockPropertyTitle_ConveyorSorterFilterMode)||
+|static [`BlockPropertyTitle_ConveyorSorterFilterModeBlacklist`](Sandbox.Game.Localization.BlockPropertyTitle_ConveyorSorterFilterModeBlacklist)||
+|static [`BlockPropertyTitle_ConveyorSorterFilterModeWhitelist`](Sandbox.Game.Localization.BlockPropertyTitle_ConveyorSorterFilterModeWhitelist)||
+|static [`BlockPropertyTitle_ConveyorSorterRemove`](Sandbox.Game.Localization.BlockPropertyTitle_ConveyorSorterRemove)||
+|static [`BlockPropertyTitle_Depressurize`](Sandbox.Game.Localization.BlockPropertyTitle_Depressurize)||
+|static [`BlockPropertyTitle_DestinationGPS`](Sandbox.Game.Localization.BlockPropertyTitle_DestinationGPS)||
+|static [`BlockPropertyTitle_Discharge`](Sandbox.Game.Localization.BlockPropertyTitle_Discharge)||
+|static [`BlockPropertyTitle_EnableDockingMode`](Sandbox.Game.Localization.BlockPropertyTitle_EnableDockingMode)||
+|static [`BlockPropertyTitle_FlightMode`](Sandbox.Game.Localization.BlockPropertyTitle_FlightMode)||
+|static [`BlockPropertyTitle_FlightMode_Circle`](Sandbox.Game.Localization.BlockPropertyTitle_FlightMode_Circle)||
+|static [`BlockPropertyTitle_FlightMode_OneWay`](Sandbox.Game.Localization.BlockPropertyTitle_FlightMode_OneWay)||
+|static [`BlockPropertyTitle_FlightMode_Patrol`](Sandbox.Game.Localization.BlockPropertyTitle_FlightMode_Patrol)||
+|static [`BlockPropertyTitle_Font`](Sandbox.Game.Localization.BlockPropertyTitle_Font)||
+|static [`BlockPropertyTitle_FontColor`](Sandbox.Game.Localization.BlockPropertyTitle_FontColor)||
+|static [`BlockPropertyTitle_Force`](Sandbox.Game.Localization.BlockPropertyTitle_Force)||
+|static [`BlockPropertyTitle_ForwardDirection`](Sandbox.Game.Localization.BlockPropertyTitle_ForwardDirection)||
+|static [`BlockPropertyTitle_GpsLocations`](Sandbox.Game.Localization.BlockPropertyTitle_GpsLocations)||
+|static [`BlockPropertyTitle_GravityAcceleration`](Sandbox.Game.Localization.BlockPropertyTitle_GravityAcceleration)||
+|static [`BlockPropertyTitle_GravityFieldDepth`](Sandbox.Game.Localization.BlockPropertyTitle_GravityFieldDepth)||
+|static [`BlockPropertyTitle_GravityFieldHeight`](Sandbox.Game.Localization.BlockPropertyTitle_GravityFieldHeight)||
+|static [`BlockPropertyTitle_GravityFieldRadius`](Sandbox.Game.Localization.BlockPropertyTitle_GravityFieldRadius)||
+|static [`BlockPropertyTitle_GravityFieldWidth`](Sandbox.Game.Localization.BlockPropertyTitle_GravityFieldWidth)||
+|static [`BlockPropertyTitle_GyroOverride`](Sandbox.Game.Localization.BlockPropertyTitle_GyroOverride)||
+|static [`BlockPropertyTitle_GyroPitchOverride`](Sandbox.Game.Localization.BlockPropertyTitle_GyroPitchOverride)||
+|static [`BlockPropertyTitle_GyroPower`](Sandbox.Game.Localization.BlockPropertyTitle_GyroPower)||
+|static [`BlockPropertyTitle_GyroRollOverride`](Sandbox.Game.Localization.BlockPropertyTitle_GyroRollOverride)||
+|static [`BlockPropertyTitle_GyroYawOverride`](Sandbox.Game.Localization.BlockPropertyTitle_GyroYawOverride)||
+|static [`BlockPropertyTitle_JumpDistance`](Sandbox.Game.Localization.BlockPropertyTitle_JumpDistance)||
+|static [`BlockPropertyTitle_LandGearAutoLock`](Sandbox.Game.Localization.BlockPropertyTitle_LandGearAutoLock)||
+|static [`BlockPropertyTitle_LargeTurretEnableTurretIdleMovement`](Sandbox.Game.Localization.BlockPropertyTitle_LargeTurretEnableTurretIdleMovement)||
+|static [`BlockPropertyTitle_LargeTurretRadius`](Sandbox.Game.Localization.BlockPropertyTitle_LargeTurretRadius)||
+|static [`BlockPropertyTitle_LargeTurretTargetCharacters`](Sandbox.Game.Localization.BlockPropertyTitle_LargeTurretTargetCharacters)||
+|static [`BlockPropertyTitle_LargeTurretTargetDecoys`](Sandbox.Game.Localization.BlockPropertyTitle_LargeTurretTargetDecoys)||
+|static [`BlockPropertyTitle_LargeTurretTargetLargeGrids`](Sandbox.Game.Localization.BlockPropertyTitle_LargeTurretTargetLargeGrids)||
+|static [`BlockPropertyTitle_LargeTurretTargetMeteors`](Sandbox.Game.Localization.BlockPropertyTitle_LargeTurretTargetMeteors)||
+|static [`BlockPropertyTitle_LargeTurretTargetMissiles`](Sandbox.Game.Localization.BlockPropertyTitle_LargeTurretTargetMissiles)||
+|static [`BlockPropertyTitle_LargeTurretTargetMoving`](Sandbox.Game.Localization.BlockPropertyTitle_LargeTurretTargetMoving)||
+|static [`BlockPropertyTitle_LargeTurretTargetNeutrals`](Sandbox.Game.Localization.BlockPropertyTitle_LargeTurretTargetNeutrals)||
+|static [`BlockPropertyTitle_LargeTurretTargetSmallGrids`](Sandbox.Game.Localization.BlockPropertyTitle_LargeTurretTargetSmallGrids)||
+|static [`BlockPropertyTitle_LargeTurretTargetStations`](Sandbox.Game.Localization.BlockPropertyTitle_LargeTurretTargetStations)||
+|static [`BlockPropertyTitle_LaserRange`](Sandbox.Game.Localization.BlockPropertyTitle_LaserRange)||
+|static [`BlockPropertyTitle_LCDScreenDefinitionsTextures`](Sandbox.Game.Localization.BlockPropertyTitle_LCDScreenDefinitionsTextures)||
+|static [`BlockPropertyTitle_LCDScreenRefreshInterval`](Sandbox.Game.Localization.BlockPropertyTitle_LCDScreenRefreshInterval)||
+|static [`BlockPropertyTitle_LCDScreenRemoveSelectedTextures`](Sandbox.Game.Localization.BlockPropertyTitle_LCDScreenRemoveSelectedTextures)||
+|static [`BlockPropertyTitle_LCDScreenSelectedTextures`](Sandbox.Game.Localization.BlockPropertyTitle_LCDScreenSelectedTextures)||
+|static [`BlockPropertyTitle_LCDScreenSelectTextures`](Sandbox.Game.Localization.BlockPropertyTitle_LCDScreenSelectTextures)||
+|static [`BlockPropertyTitle_LCDScreenTextSize`](Sandbox.Game.Localization.BlockPropertyTitle_LCDScreenTextSize)||
+|static [`BlockPropertyTitle_LightBlinkInterval`](Sandbox.Game.Localization.BlockPropertyTitle_LightBlinkInterval)||
+|static [`BlockPropertyTitle_LightBlinkLenght`](Sandbox.Game.Localization.BlockPropertyTitle_LightBlinkLenght)||
+|static [`BlockPropertyTitle_LightBlinkOffset`](Sandbox.Game.Localization.BlockPropertyTitle_LightBlinkOffset)||
+|static [`BlockPropertyTitle_LightColor`](Sandbox.Game.Localization.BlockPropertyTitle_LightColor)||
+|static [`BlockPropertyTitle_LightFalloff`](Sandbox.Game.Localization.BlockPropertyTitle_LightFalloff)||
+|static [`BlockPropertyTitle_LightIntensity`](Sandbox.Game.Localization.BlockPropertyTitle_LightIntensity)||
+|static [`BlockPropertyTitle_LightOffset`](Sandbox.Game.Localization.BlockPropertyTitle_LightOffset)||
+|static [`BlockPropertyTitle_LightRadius`](Sandbox.Game.Localization.BlockPropertyTitle_LightRadius)||
+|static [`BlockPropertyTitle_LightReflectorRadius`](Sandbox.Game.Localization.BlockPropertyTitle_LightReflectorRadius)||
+|static [`BlockPropertyTitle_MaximalDistance`](Sandbox.Game.Localization.BlockPropertyTitle_MaximalDistance)||
+|static [`BlockPropertyTitle_MaxImpulseAxis`](Sandbox.Game.Localization.BlockPropertyTitle_MaxImpulseAxis)||
+|static [`BlockPropertyTitle_MaxImpulseNonAxis`](Sandbox.Game.Localization.BlockPropertyTitle_MaxImpulseNonAxis)||
+|static [`BlockPropertyTitle_MinimalDistance`](Sandbox.Game.Localization.BlockPropertyTitle_MinimalDistance)||
+|static [`BlockPropertyTitle_MotorBrakingTorque`](Sandbox.Game.Localization.BlockPropertyTitle_MotorBrakingTorque)||
+|static [`BlockPropertyTitle_MotorLock`](Sandbox.Game.Localization.BlockPropertyTitle_MotorLock)||
+|static [`BlockPropertyTitle_MotorMaxAngle`](Sandbox.Game.Localization.BlockPropertyTitle_MotorMaxAngle)||
+|static [`BlockPropertyTitle_MotorMinAngle`](Sandbox.Game.Localization.BlockPropertyTitle_MotorMinAngle)||
+|static [`BlockPropertyTitle_MotorRotorDisplacement`](Sandbox.Game.Localization.BlockPropertyTitle_MotorRotorDisplacement)||
+|static [`BlockPropertyTitle_MotorTargetVelocity`](Sandbox.Game.Localization.BlockPropertyTitle_MotorTargetVelocity)||
+|static [`BlockPropertyTitle_MotorTorque`](Sandbox.Game.Localization.BlockPropertyTitle_MotorTorque)||
+|static [`BlockPropertyTitle_MotorUsesWheelCommands`](Sandbox.Game.Localization.BlockPropertyTitle_MotorUsesWheelCommands)||
+|static [`BlockPropertyTitle_Motor_Damping`](Sandbox.Game.Localization.BlockPropertyTitle_Motor_Damping)||
+|static [`BlockPropertyTitle_Motor_Friction`](Sandbox.Game.Localization.BlockPropertyTitle_Motor_Friction)||
+|static [`BlockPropertyTitle_Motor_Height`](Sandbox.Game.Localization.BlockPropertyTitle_Motor_Height)||
+|static [`BlockPropertyTitle_Motor_InvertPropulsion`](Sandbox.Game.Localization.BlockPropertyTitle_Motor_InvertPropulsion)||
+|static [`BlockPropertyTitle_Motor_InvertSteer`](Sandbox.Game.Localization.BlockPropertyTitle_Motor_InvertSteer)||
+|static [`BlockPropertyTitle_Motor_MaxSteerAngle`](Sandbox.Game.Localization.BlockPropertyTitle_Motor_MaxSteerAngle)||
+|static [`BlockPropertyTitle_Motor_Power`](Sandbox.Game.Localization.BlockPropertyTitle_Motor_Power)||
+|static [`BlockPropertyTitle_Motor_Propulsion`](Sandbox.Game.Localization.BlockPropertyTitle_Motor_Propulsion)||
+|static [`BlockPropertyTitle_Motor_PropulsionOverride`](Sandbox.Game.Localization.BlockPropertyTitle_Motor_PropulsionOverride)||
+|static [`BlockPropertyTitle_Motor_Steering`](Sandbox.Game.Localization.BlockPropertyTitle_Motor_Steering)||
+|static [`BlockPropertyTitle_Motor_SteerOverride`](Sandbox.Game.Localization.BlockPropertyTitle_Motor_SteerOverride)||
+|static [`BlockPropertyTitle_Motor_SteerReturnSpeed`](Sandbox.Game.Localization.BlockPropertyTitle_Motor_SteerReturnSpeed)||
+|static [`BlockPropertyTitle_Motor_SteerSpeed`](Sandbox.Game.Localization.BlockPropertyTitle_Motor_SteerSpeed)||
+|static [`BlockPropertyTitle_Motor_Strength`](Sandbox.Game.Localization.BlockPropertyTitle_Motor_Strength)||
+|static [`BlockPropertyTitle_Motor_SuspensionSpeed`](Sandbox.Game.Localization.BlockPropertyTitle_Motor_SuspensionSpeed)||
+|static [`BlockPropertyTitle_Motor_SuspensionTravel`](Sandbox.Game.Localization.BlockPropertyTitle_Motor_SuspensionTravel)||
+|static [`BlockPropertyTitle_OreDetectorRange`](Sandbox.Game.Localization.BlockPropertyTitle_OreDetectorRange)||
+|static [`BlockPropertyTitle_ProjectionOffsetX`](Sandbox.Game.Localization.BlockPropertyTitle_ProjectionOffsetX)||
+|static [`BlockPropertyTitle_ProjectionOffsetY`](Sandbox.Game.Localization.BlockPropertyTitle_ProjectionOffsetY)||
+|static [`BlockPropertyTitle_ProjectionOffsetZ`](Sandbox.Game.Localization.BlockPropertyTitle_ProjectionOffsetZ)||
+|static [`BlockPropertyTitle_ProjectionRotationX`](Sandbox.Game.Localization.BlockPropertyTitle_ProjectionRotationX)||
+|static [`BlockPropertyTitle_ProjectionRotationY`](Sandbox.Game.Localization.BlockPropertyTitle_ProjectionRotationY)||
+|static [`BlockPropertyTitle_ProjectionRotationZ`](Sandbox.Game.Localization.BlockPropertyTitle_ProjectionRotationZ)||
+|static [`BlockPropertyTitle_ProjectionSpawn`](Sandbox.Game.Localization.BlockPropertyTitle_ProjectionSpawn)||
+|static [`BlockPropertyTitle_Projector_BlocksPerProjection`](Sandbox.Game.Localization.BlockPropertyTitle_Projector_BlocksPerProjection)||
+|static [`BlockPropertyTitle_Projector_BlocksPerProjection_Tooltip`](Sandbox.Game.Localization.BlockPropertyTitle_Projector_BlocksPerProjection_Tooltip)||
+|static [`BlockPropertyTitle_Projector_GetOwnership`](Sandbox.Game.Localization.BlockPropertyTitle_Projector_GetOwnership)||
+|static [`BlockPropertyTitle_Projector_InstantBuilding`](Sandbox.Game.Localization.BlockPropertyTitle_Projector_InstantBuilding)||
+|static [`BlockPropertyTitle_Projector_InstantBuilding_Tooltip`](Sandbox.Game.Localization.BlockPropertyTitle_Projector_InstantBuilding_Tooltip)||
+|static [`BlockPropertyTitle_Projector_NumberOfProjections`](Sandbox.Game.Localization.BlockPropertyTitle_Projector_NumberOfProjections)||
+|static [`BlockPropertyTitle_Projector_NumberOfProjections_Tooltip`](Sandbox.Game.Localization.BlockPropertyTitle_Projector_NumberOfProjections_Tooltip)||
+|static [`BlockPropertyTitle_Recharge`](Sandbox.Game.Localization.BlockPropertyTitle_Recharge)||
+|static [`BlockPropertyTitle_Refill`](Sandbox.Game.Localization.BlockPropertyTitle_Refill)||
+|static [`BlockPropertyTitle_RemoteBlockSpeedLimit`](Sandbox.Game.Localization.BlockPropertyTitle_RemoteBlockSpeedLimit)||
+|static [`BlockPropertyTitle_SafetyDetach`](Sandbox.Game.Localization.BlockPropertyTitle_SafetyDetach)||
+|static [`BlockPropertyTitle_Semiauto`](Sandbox.Game.Localization.BlockPropertyTitle_Semiauto)||
+|static [`BlockPropertyTitle_SensorDetectAsteroids`](Sandbox.Game.Localization.BlockPropertyTitle_SensorDetectAsteroids)||
+|static [`BlockPropertyTitle_SensorDetectEnemy`](Sandbox.Game.Localization.BlockPropertyTitle_SensorDetectEnemy)||
+|static [`BlockPropertyTitle_SensorDetectFloatingObjects`](Sandbox.Game.Localization.BlockPropertyTitle_SensorDetectFloatingObjects)||
+|static [`BlockPropertyTitle_SensorDetectFriendly`](Sandbox.Game.Localization.BlockPropertyTitle_SensorDetectFriendly)||
+|static [`BlockPropertyTitle_SensorDetectLargeShips`](Sandbox.Game.Localization.BlockPropertyTitle_SensorDetectLargeShips)||
+|static [`BlockPropertyTitle_SensorDetectNeutral`](Sandbox.Game.Localization.BlockPropertyTitle_SensorDetectNeutral)||
+|static [`BlockPropertyTitle_SensorDetectOwner`](Sandbox.Game.Localization.BlockPropertyTitle_SensorDetectOwner)||
+|static [`BlockPropertyTitle_SensorDetectPlayers`](Sandbox.Game.Localization.BlockPropertyTitle_SensorDetectPlayers)||
+|static [`BlockPropertyTitle_SensorDetectSmallShips`](Sandbox.Game.Localization.BlockPropertyTitle_SensorDetectSmallShips)||
+|static [`BlockPropertyTitle_SensorDetectStations`](Sandbox.Game.Localization.BlockPropertyTitle_SensorDetectStations)||
+|static [`BlockPropertyTitle_SensorDetectSubgrids`](Sandbox.Game.Localization.BlockPropertyTitle_SensorDetectSubgrids)||
+|static [`BlockPropertyTitle_SensorFieldDepthMax`](Sandbox.Game.Localization.BlockPropertyTitle_SensorFieldDepthMax)||
+|static [`BlockPropertyTitle_SensorFieldDepthMin`](Sandbox.Game.Localization.BlockPropertyTitle_SensorFieldDepthMin)||
+|static [`BlockPropertyTitle_SensorFieldHeightMax`](Sandbox.Game.Localization.BlockPropertyTitle_SensorFieldHeightMax)||
+|static [`BlockPropertyTitle_SensorFieldHeightMin`](Sandbox.Game.Localization.BlockPropertyTitle_SensorFieldHeightMin)||
+|static [`BlockPropertyTitle_SensorFieldWidthMax`](Sandbox.Game.Localization.BlockPropertyTitle_SensorFieldWidthMax)||
+|static [`BlockPropertyTitle_SensorFieldWidthMin`](Sandbox.Game.Localization.BlockPropertyTitle_SensorFieldWidthMin)||
+|static [`BlockPropertyTitle_SensorPlaySound`](Sandbox.Game.Localization.BlockPropertyTitle_SensorPlaySound)||
+|static [`BlockPropertyTitle_SensorToolbarOpen`](Sandbox.Game.Localization.BlockPropertyTitle_SensorToolbarOpen)||
+|static [`BlockPropertyTitle_ShareTensor`](Sandbox.Game.Localization.BlockPropertyTitle_ShareTensor)||
+|static [`BlockPropertyTitle_ShowShipName`](Sandbox.Game.Localization.BlockPropertyTitle_ShowShipName)||
+|static [`BlockPropertyTitle_ShowTextOnScreen`](Sandbox.Game.Localization.BlockPropertyTitle_ShowTextOnScreen)||
+|static [`BlockPropertyTitle_Silent`](Sandbox.Game.Localization.BlockPropertyTitle_Silent)||
+|static [`BlockPropertyTitle_SoundBlockLoopTime`](Sandbox.Game.Localization.BlockPropertyTitle_SoundBlockLoopTime)||
+|static [`BlockPropertyTitle_SoundBlockPlay`](Sandbox.Game.Localization.BlockPropertyTitle_SoundBlockPlay)||
+|static [`BlockPropertyTitle_SoundBlockRange`](Sandbox.Game.Localization.BlockPropertyTitle_SoundBlockRange)||
+|static [`BlockPropertyTitle_SoundBlockSoundList`](Sandbox.Game.Localization.BlockPropertyTitle_SoundBlockSoundList)||
+|static [`BlockPropertyTitle_SoundBlockStop`](Sandbox.Game.Localization.BlockPropertyTitle_SoundBlockStop)||
+|static [`BlockPropertyTitle_SoundBlockVolume`](Sandbox.Game.Localization.BlockPropertyTitle_SoundBlockVolume)||
+|static [`BlockPropertyTitle_Stockpile`](Sandbox.Game.Localization.BlockPropertyTitle_Stockpile)||
+|static [`BlockPropertyTitle_Suspension_AirShock`](Sandbox.Game.Localization.BlockPropertyTitle_Suspension_AirShock)||
+|static [`BlockPropertyTitle_Suspension_Brake`](Sandbox.Game.Localization.BlockPropertyTitle_Suspension_Brake)||
+|static [`BlockPropertyTitle_TextPanelAccessType`](Sandbox.Game.Localization.BlockPropertyTitle_TextPanelAccessType)||
+|static [`BlockPropertyTitle_TextPanelPublicTitle`](Sandbox.Game.Localization.BlockPropertyTitle_TextPanelPublicTitle)||
+|static [`BlockPropertyTitle_TextPanelShowPublicTextPanel`](Sandbox.Game.Localization.BlockPropertyTitle_TextPanelShowPublicTextPanel)||
+|static [`BlockPropertyTitle_TextPanelShowTextPanel`](Sandbox.Game.Localization.BlockPropertyTitle_TextPanelShowTextPanel)||
+|static [`BlockPropertyTitle_TextPanelTitle`](Sandbox.Game.Localization.BlockPropertyTitle_TextPanelTitle)||
+|static [`BlockPropertyTitle_ThrustOverride`](Sandbox.Game.Localization.BlockPropertyTitle_ThrustOverride)||
+|static [`BlockPropertyTitle_TimerStart`](Sandbox.Game.Localization.BlockPropertyTitle_TimerStart)||
+|static [`BlockPropertyTitle_TimerStop`](Sandbox.Game.Localization.BlockPropertyTitle_TimerStop)||
+|static [`BlockPropertyTitle_TimerToolbarOpen`](Sandbox.Game.Localization.BlockPropertyTitle_TimerToolbarOpen)||
+|static [`BlockPropertyTitle_TimerToTrigger`](Sandbox.Game.Localization.BlockPropertyTitle_TimerToTrigger)||
+|static [`BlockPropertyTitle_TimerTrigger`](Sandbox.Game.Localization.BlockPropertyTitle_TimerTrigger)||
+|static [`BlockPropertyTitle_Velocity`](Sandbox.Game.Localization.BlockPropertyTitle_Velocity)||
+|static [`BlockPropertyTitle_Warning`](Sandbox.Game.Localization.BlockPropertyTitle_Warning)||
+|static [`BlockPropertyTitle_Waypoints`](Sandbox.Game.Localization.BlockPropertyTitle_Waypoints)||
+|static [`BlockPropertyTitle_WeldForce`](Sandbox.Game.Localization.BlockPropertyTitle_WeldForce)||
+|static [`BlockPropertyTitle_WeldSpeed`](Sandbox.Game.Localization.BlockPropertyTitle_WeldSpeed)||
+|static [`BlockPropertyTooltip_MaxImpulseAxis`](Sandbox.Game.Localization.BlockPropertyTooltip_MaxImpulseAxis)||
+|static [`BlockPropertyTooltip_MaxImpulseNonAxis`](Sandbox.Game.Localization.BlockPropertyTooltip_MaxImpulseNonAxis)||
+|static [`BlockPropertyTooltip_SafetyDetach`](Sandbox.Game.Localization.BlockPropertyTooltip_SafetyDetach)||
+|static [`BlockPropertyTooltip_ShareTensor`](Sandbox.Game.Localization.BlockPropertyTooltip_ShareTensor)||
+|static [`BlockPropertyValue_Locked`](Sandbox.Game.Localization.BlockPropertyValue_Locked)||
+|static [`BlockPropertyValue_MotorAngleUnlimited`](Sandbox.Game.Localization.BlockPropertyValue_MotorAngleUnlimited)||
+|static [`BlockPropertyValue_ReadyToLock`](Sandbox.Game.Localization.BlockPropertyValue_ReadyToLock)||
+|static [`BlockPropertyValue_Unlocked`](Sandbox.Game.Localization.BlockPropertyValue_Unlocked)||
+|static [`BlockSize_NotAvailable`](Sandbox.Game.Localization.BlockSize_NotAvailable)||
+|static [`BlueprintInfo_Author`](Sandbox.Game.Localization.BlueprintInfo_Author)||
+|static [`BlueprintInfo_Name`](Sandbox.Game.Localization.BlueprintInfo_Name)||
+|static [`BlueprintInfo_NumberOfBlocks`](Sandbox.Game.Localization.BlueprintInfo_NumberOfBlocks)||
+|static [`BlueprintsScreen`](Sandbox.Game.Localization.BlueprintsScreen)||
+|static [`BrainSimulatorIntegration_AISchoolButton`](Sandbox.Game.Localization.BrainSimulatorIntegration_AISchoolButton)||
+|static [`BrainSimulatorIntegration_BrainNotFoundCaption`](Sandbox.Game.Localization.BrainSimulatorIntegration_BrainNotFoundCaption)||
+|static [`BrainSimulatorIntegration_BrainNotFoundMessage`](Sandbox.Game.Localization.BrainSimulatorIntegration_BrainNotFoundMessage)||
+|static [`BrainSimulatorIntegration_ChooseBrainAddButton`](Sandbox.Game.Localization.BrainSimulatorIntegration_ChooseBrainAddButton)||
+|static [`BrainSimulatorIntegration_ChooseBrainCaption`](Sandbox.Game.Localization.BrainSimulatorIntegration_ChooseBrainCaption)||
+|static [`BrainSimulatorIntegration_ChooseBrainLabel`](Sandbox.Game.Localization.BrainSimulatorIntegration_ChooseBrainLabel)||
+|static [`BrainSimulatorIntegration_EnabledLabel`](Sandbox.Game.Localization.BrainSimulatorIntegration_EnabledLabel)||
+|static [`BrainSimulatorIntegration_EnabledTooltip`](Sandbox.Game.Localization.BrainSimulatorIntegration_EnabledTooltip)||
+|static [`BrainSimulatorIntegration_ExperimentalFeatureCaption`](Sandbox.Game.Localization.BrainSimulatorIntegration_ExperimentalFeatureCaption)||
+|static [`BrainSimulatorIntegration_ExperimentalFeatureConfirmation`](Sandbox.Game.Localization.BrainSimulatorIntegration_ExperimentalFeatureConfirmation)||
+|static [`BrainSimulatorIntegration_ExperimentalWarning`](Sandbox.Game.Localization.BrainSimulatorIntegration_ExperimentalWarning)||
+|static [`BrainSimulatorIntegration_IPLabel`](Sandbox.Game.Localization.BrainSimulatorIntegration_IPLabel)||
+|static [`BrainSimulatorIntegration_ManualModeAllowed`](Sandbox.Game.Localization.BrainSimulatorIntegration_ManualModeAllowed)||
+|static [`BrainSimulatorIntegration_NotConnectedCaption`](Sandbox.Game.Localization.BrainSimulatorIntegration_NotConnectedCaption)||
+|static [`BrainSimulatorIntegration_NotConnectedMessage`](Sandbox.Game.Localization.BrainSimulatorIntegration_NotConnectedMessage)||
+|static [`BrainSimulatorIntegration_PortLabel`](Sandbox.Game.Localization.BrainSimulatorIntegration_PortLabel)||
+|static [`BrainSimulatorIntegration_RequirementsNotMet`](Sandbox.Game.Localization.BrainSimulatorIntegration_RequirementsNotMet)||
+|static [`BrainSimulatorIntegration_RunnerIssueCaption`](Sandbox.Game.Localization.BrainSimulatorIntegration_RunnerIssueCaption)||
+|static [`BrainSimulatorIntegration_RunnerNotFound`](Sandbox.Game.Localization.BrainSimulatorIntegration_RunnerNotFound)||
+|static [`BrainSimulatorIntegration_RunnerRestarted`](Sandbox.Game.Localization.BrainSimulatorIntegration_RunnerRestarted)||
+|static [`BrainSimulatorIntegration_ScreenCaption`](Sandbox.Game.Localization.BrainSimulatorIntegration_ScreenCaption)||
+|static [`BrainSimulatorIntegration_WrongIpAlert`](Sandbox.Game.Localization.BrainSimulatorIntegration_WrongIpAlert)||
+|static [`BrainSimulatorIntegration_WrongIpCaption`](Sandbox.Game.Localization.BrainSimulatorIntegration_WrongIpCaption)||
+|static [`BrainSimulatorIntegration_WrongPortCaption`](Sandbox.Game.Localization.BrainSimulatorIntegration_WrongPortCaption)||
+|static [`BrainSimulatorIntegration_WrongPortMessage`](Sandbox.Game.Localization.BrainSimulatorIntegration_WrongPortMessage)||
+|static [`BriefingTutorial01Movements`](Sandbox.Game.Localization.BriefingTutorial01Movements)||
+|static [`BriefingTutorial02Inventory`](Sandbox.Game.Localization.BriefingTutorial02Inventory)||
+|static [`BriefingTutorial03Energy`](Sandbox.Game.Localization.BriefingTutorial03Energy)||
+|static [`BriefingTutorial04Oxygen`](Sandbox.Game.Localization.BriefingTutorial04Oxygen)||
+|static [`BriefingTutorial05OreRefining`](Sandbox.Game.Localization.BriefingTutorial05OreRefining)||
+|static [`BriefingTutorial06Conveyors`](Sandbox.Game.Localization.BriefingTutorial06Conveyors)||
+|static [`BriefingTutorial07Jetpack`](Sandbox.Game.Localization.BriefingTutorial07Jetpack)||
+|static [`BriefingTutorial08YourFirstShip`](Sandbox.Game.Localization.BriefingTutorial08YourFirstShip)||
+|static [`BriefingTutorial09ShipFlight`](Sandbox.Game.Localization.BriefingTutorial09ShipFlight)||
+|static [`BriefingTutorial10Grids`](Sandbox.Game.Localization.BriefingTutorial10Grids)||
+|static [`BroadcastScreen_NoOwnership`](Sandbox.Game.Localization.BroadcastScreen_NoOwnership)||
+|static [`BroadcastScreen_Ownership`](Sandbox.Game.Localization.BroadcastScreen_Ownership)||
+|static [`BroadcastScreen_TakeControlButton`](Sandbox.Game.Localization.BroadcastScreen_TakeControlButton)||
+|static [`BroadcastScreen_TakeControlButtonDisabled_ToolTip`](Sandbox.Game.Localization.BroadcastScreen_TakeControlButtonDisabled_ToolTip)||
+|static [`BroadcastScreen_TakeControlButton_NoMainRemoteControl`](Sandbox.Game.Localization.BroadcastScreen_TakeControlButton_NoMainRemoteControl)||
+|static [`BroadcastScreen_TakeControlButton_NoRemoteToolTip`](Sandbox.Game.Localization.BroadcastScreen_TakeControlButton_NoRemoteToolTip)||
+|static [`BroadcastScreen_TakeControlButton_RemoteToolTip`](Sandbox.Game.Localization.BroadcastScreen_TakeControlButton_RemoteToolTip)||
+|static [`BroadcastScreen_TakeControlButton_ToolTip`](Sandbox.Game.Localization.BroadcastScreen_TakeControlButton_ToolTip)||
+|static [`BroadcastScreen_TerminalButton`](Sandbox.Game.Localization.BroadcastScreen_TerminalButton)||
+|static [`BroadcastScreen_TerminalButtonDisabled_ToolTip`](Sandbox.Game.Localization.BroadcastScreen_TerminalButtonDisabled_ToolTip)||
+|static [`BroadcastScreen_TerminalButton_NoStableConnectionToolTip`](Sandbox.Game.Localization.BroadcastScreen_TerminalButton_NoStableConnectionToolTip)||
+|static [`BroadcastScreen_TerminalButton_PlayerBroadcastOffToolTip`](Sandbox.Game.Localization.BroadcastScreen_TerminalButton_PlayerBroadcastOffToolTip)||
+|static [`BroadcastScreen_TerminalButton_StableConnectionToolTip`](Sandbox.Game.Localization.BroadcastScreen_TerminalButton_StableConnectionToolTip)||
+|static [`BroadcastScreen_TerminalButton_ToolTip`](Sandbox.Game.Localization.BroadcastScreen_TerminalButton_ToolTip)||
+|static [`BroadcastScreen_UnavailableControlButton`](Sandbox.Game.Localization.BroadcastScreen_UnavailableControlButton)||
+|static [`BroadcastStatus_Connected`](Sandbox.Game.Localization.BroadcastStatus_Connected)||
+|static [`BroadcastStatus_IsPreviewGrid`](Sandbox.Game.Localization.BroadcastStatus_IsPreviewGrid)||
+|static [`BroadcastStatus_Me`](Sandbox.Game.Localization.BroadcastStatus_Me)||
+|static [`BroadcastStatus_OutOfBroadcastingRange`](Sandbox.Game.Localization.BroadcastStatus_OutOfBroadcastingRange)||
+|static [`BroadcastStatus_OutOfReceivingRange`](Sandbox.Game.Localization.BroadcastStatus_OutOfReceivingRange)||
+|static [`BroadcastStatus_PhysicallyConnected`](Sandbox.Game.Localization.BroadcastStatus_PhysicallyConnected)||
+|static [`BuilderModeOff`](Sandbox.Game.Localization.BuilderModeOff)||
+|static [`BuilderModeOn`](Sandbox.Game.Localization.BuilderModeOn)||
+|static [`buttonBrowseWorkshop`](Sandbox.Game.Localization.buttonBrowseWorkshop)||
+|static [`buttonEdit`](Sandbox.Game.Localization.buttonEdit)||
+|static [`buttonOpenInWorkshop`](Sandbox.Game.Localization.buttonOpenInWorkshop)||
+|static [`buttonPublish`](Sandbox.Game.Localization.buttonPublish)||
+|static [`buttonRefresh`](Sandbox.Game.Localization.buttonRefresh)||
+|static [`buttonRemove`](Sandbox.Game.Localization.buttonRemove)||
+|static [`CannotFindBlueprint`](Sandbox.Game.Localization.CannotFindBlueprint)||
+|static [`CannotFindBlueprintSteam`](Sandbox.Game.Localization.CannotFindBlueprintSteam)||
+|static [`Characters`](Sandbox.Game.Localization.Characters)||
+|static [`ChatScreen_TerminalSendMessage`](Sandbox.Game.Localization.ChatScreen_TerminalSendMessage)||
+|static [`ChatScreen_TerminalSendMessageDisabled`](Sandbox.Game.Localization.ChatScreen_TerminalSendMessageDisabled)||
+|static [`ChatScreen_TerminaMessageBox`](Sandbox.Game.Localization.ChatScreen_TerminaMessageBox)||
+|static [`Chat_screen`](Sandbox.Game.Localization.Chat_screen)||
+|static [`Cobalt`](Sandbox.Game.Localization.Cobalt)||
+|static [`ContainerDropSystemBeaconText`](Sandbox.Game.Localization.ContainerDropSystemBeaconText)||
+|static [`ContainerDropSystemContainerLarge`](Sandbox.Game.Localization.ContainerDropSystemContainerLarge)||
+|static [`ContainerDropSystemContainerSmall`](Sandbox.Game.Localization.ContainerDropSystemContainerSmall)||
+|static [`ContainerDropSystemContainerWasDetected`](Sandbox.Game.Localization.ContainerDropSystemContainerWasDetected)||
+|static [`ControlDescBrake`](Sandbox.Game.Localization.ControlDescBrake)||
+|static [`ControlDescCameraZoom`](Sandbox.Game.Localization.ControlDescCameraZoom)||
+|static [`ControlDescHoldToColor`](Sandbox.Game.Localization.ControlDescHoldToColor)||
+|static [`ControlDescLargeBrush`](Sandbox.Game.Localization.ControlDescLargeBrush)||
+|static [`ControlDescLoot`](Sandbox.Game.Localization.ControlDescLoot)||
+|static [`ControlDescMediumBrush`](Sandbox.Game.Localization.ControlDescMediumBrush)||
+|static [`ControlDescNetgraph`](Sandbox.Game.Localization.ControlDescNetgraph)||
+|static [`ControlDescSingleAllMode`](Sandbox.Game.Localization.ControlDescSingleAllMode)||
+|static [`ControlDescSpectatorSpeed`](Sandbox.Game.Localization.ControlDescSpectatorSpeed)||
+|static [`ControlDescZoom`](Sandbox.Game.Localization.ControlDescZoom)||
+|static [`ControlMenuItemLabel_Broadcasting`](Sandbox.Game.Localization.ControlMenuItemLabel_Broadcasting)||
+|static [`ControlMenuItemLabel_BuildMode`](Sandbox.Game.Localization.ControlMenuItemLabel_BuildMode)||
+|static [`ControlMenuItemLabel_Connectors`](Sandbox.Game.Localization.ControlMenuItemLabel_Connectors)||
+|static [`ControlMenuItemLabel_Dampeners`](Sandbox.Game.Localization.ControlMenuItemLabel_Dampeners)||
+|static [`ControlMenuItemLabel_Helmet`](Sandbox.Game.Localization.ControlMenuItemLabel_Helmet)||
+|static [`ControlMenuItemLabel_Jetpack`](Sandbox.Game.Localization.ControlMenuItemLabel_Jetpack)||
+|static [`ControlMenuItemLabel_LandingGear`](Sandbox.Game.Localization.ControlMenuItemLabel_LandingGear)||
+|static [`ControlMenuItemLabel_Lights`](Sandbox.Game.Localization.ControlMenuItemLabel_Lights)||
+|static [`ControlMenuItemLabel_OpenInventory`](Sandbox.Game.Localization.ControlMenuItemLabel_OpenInventory)||
+|static [`ControlMenuItemLabel_Reactors`](Sandbox.Game.Localization.ControlMenuItemLabel_Reactors)||
+|static [`ControlMenuItemLabel_ScenarioBriefing`](Sandbox.Game.Localization.ControlMenuItemLabel_ScenarioBriefing)||
+|static [`ControlMenuItemLabel_SetupButtons`](Sandbox.Game.Localization.ControlMenuItemLabel_SetupButtons)||
+|static [`ControlMenuItemLabel_ShowAdminMenu`](Sandbox.Game.Localization.ControlMenuItemLabel_ShowAdminMenu)||
+|static [`ControlMenuItemLabel_ShowBlueprints`](Sandbox.Game.Localization.ControlMenuItemLabel_ShowBlueprints)||
+|static [`ControlMenuItemLabel_ShowBuildScreen`](Sandbox.Game.Localization.ControlMenuItemLabel_ShowBuildScreen)||
+|static [`ControlMenuItemLabel_ShowControlPanel`](Sandbox.Game.Localization.ControlMenuItemLabel_ShowControlPanel)||
+|static [`ControlMenuItemLabel_ShowHelp`](Sandbox.Game.Localization.ControlMenuItemLabel_ShowHelp)||
+|static [`ControlMenuItemLabel_ShowPlayers`](Sandbox.Game.Localization.ControlMenuItemLabel_ShowPlayers)||
+|static [`ControlMenuItemLabel_ShowSpawnMenu`](Sandbox.Game.Localization.ControlMenuItemLabel_ShowSpawnMenu)||
+|static [`ControlMenuItemLabel_ShowTerminal`](Sandbox.Game.Localization.ControlMenuItemLabel_ShowTerminal)||
+|static [`ControlMenuItemLabel_Terminal`](Sandbox.Game.Localization.ControlMenuItemLabel_Terminal)||
+|static [`ControlMenuItemLabel_Thrusts`](Sandbox.Game.Localization.ControlMenuItemLabel_Thrusts)||
+|static [`ControlName_Broadcasting`](Sandbox.Game.Localization.ControlName_Broadcasting)||
+|static [`ControlName_Console`](Sandbox.Game.Localization.ControlName_Console)||
+|static [`ControlName_CubeDefaultMountpoint`](Sandbox.Game.Localization.ControlName_CubeDefaultMountpoint)||
+|static [`ControlName_FirePrimaryWeapon`](Sandbox.Game.Localization.ControlName_FirePrimaryWeapon)||
+|static [`ControlName_FireSecondaryWeapon`](Sandbox.Game.Localization.ControlName_FireSecondaryWeapon)||
+|static [`ControlName_Helmet`](Sandbox.Game.Localization.ControlName_Helmet)||
+|static [`ControlName_InertialDampeners`](Sandbox.Game.Localization.ControlName_InertialDampeners)||
+|static [`ControlName_InertialDampenersOnOff`](Sandbox.Game.Localization.ControlName_InertialDampenersOnOff)||
+|static [`ControlName_Jetpack`](Sandbox.Game.Localization.ControlName_Jetpack)||
+|static [`ControlName_LandingGear`](Sandbox.Game.Localization.ControlName_LandingGear)||
+|static [`ControlName_MissionSettings`](Sandbox.Game.Localization.ControlName_MissionSettings)||
+|static [`ControlName_PowerSwitchOnOff`](Sandbox.Game.Localization.ControlName_PowerSwitchOnOff)||
+|static [`ControlName_RollLeft`](Sandbox.Game.Localization.ControlName_RollLeft)||
+|static [`ControlName_RollRight`](Sandbox.Game.Localization.ControlName_RollRight)||
+|static [`ControlName_RotationDown`](Sandbox.Game.Localization.ControlName_RotationDown)||
+|static [`ControlName_RotationLeft`](Sandbox.Game.Localization.ControlName_RotationLeft)||
+|static [`ControlName_RotationRight`](Sandbox.Game.Localization.ControlName_RotationRight)||
+|static [`ControlName_RotationUp`](Sandbox.Game.Localization.ControlName_RotationUp)||
+|static [`ControlName_SymmetrySwitch`](Sandbox.Game.Localization.ControlName_SymmetrySwitch)||
+|static [`ControlName_TerminalOrInventory`](Sandbox.Game.Localization.ControlName_TerminalOrInventory)||
+|static [`ControlName_ToggleHeadlights`](Sandbox.Game.Localization.ControlName_ToggleHeadlights)||
+|static [`ControlName_UseSymmetry`](Sandbox.Game.Localization.ControlName_UseSymmetry)||
+|static [`ControlPanel`](Sandbox.Game.Localization.ControlPanel)||
+|static [`ControlRemote`](Sandbox.Game.Localization.ControlRemote)||
+|static [`ControlScreen_GridBlocksLabel`](Sandbox.Game.Localization.ControlScreen_GridBlocksLabel)||
+|static [`ControlScreen_ShareCombobox`](Sandbox.Game.Localization.ControlScreen_ShareCombobox)||
+|static [`ControlScreen_ShareComboboxDisabled`](Sandbox.Game.Localization.ControlScreen_ShareComboboxDisabled)||
+|static [`ControlScreen_ShareLabel`](Sandbox.Game.Localization.ControlScreen_ShareLabel)||
+|static [`ControlScreen_TerminalBlockGroup`](Sandbox.Game.Localization.ControlScreen_TerminalBlockGroup)||
+|static [`ControlScreen_TerminalBlockGroupDelete`](Sandbox.Game.Localization.ControlScreen_TerminalBlockGroupDelete)||
+|static [`ControlScreen_TerminalBlockGroupDeleteDisabled`](Sandbox.Game.Localization.ControlScreen_TerminalBlockGroupDeleteDisabled)||
+|static [`ControlScreen_TerminalBlockGroupSave`](Sandbox.Game.Localization.ControlScreen_TerminalBlockGroupSave)||
+|static [`ControlScreen_TerminalBlockGroupSaveDisabled`](Sandbox.Game.Localization.ControlScreen_TerminalBlockGroupSaveDisabled)||
+|static [`ControlScreen_TransferCombobox`](Sandbox.Game.Localization.ControlScreen_TransferCombobox)||
+|static [`CopyObject`](Sandbox.Game.Localization.CopyObject)||
+|static [`CopyObjectDetached`](Sandbox.Game.Localization.CopyObjectDetached)||
+|static [`CreateFromClipboard`](Sandbox.Game.Localization.CreateFromClipboard)||
+|static [`CreateManageBlueprints`](Sandbox.Game.Localization.CreateManageBlueprints)||
+|static [`CubeBuilder_CubeSizeModeChange`](Sandbox.Game.Localization.CubeBuilder_CubeSizeModeChange)||
+|static [`CustomShipName_LargeShip`](Sandbox.Game.Localization.CustomShipName_LargeShip)||
+|static [`CustomShipName_Platform`](Sandbox.Game.Localization.CustomShipName_Platform)||
+|static [`CustomShipName_SmallShip`](Sandbox.Game.Localization.CustomShipName_SmallShip)||
+|static [`CustomWorld_CrashedRedShip`](Sandbox.Game.Localization.CustomWorld_CrashedRedShip)||
+|static [`CustomWorld_DeadDropArena`](Sandbox.Game.Localization.CustomWorld_DeadDropArena)||
+|static [`CustomWorld_EasyStartAlien`](Sandbox.Game.Localization.CustomWorld_EasyStartAlien)||
+|static [`CustomWorld_EasyStartEarth`](Sandbox.Game.Localization.CustomWorld_EasyStartEarth)||
+|static [`CustomWorld_EasyStartGreen`](Sandbox.Game.Localization.CustomWorld_EasyStartGreen)||
+|static [`CustomWorld_EasyStartMars`](Sandbox.Game.Localization.CustomWorld_EasyStartMars)||
+|static [`CustomWorld_EasyStartMoon`](Sandbox.Game.Localization.CustomWorld_EasyStartMoon)||
+|static [`CustomWorld_EasyStartSpace`](Sandbox.Game.Localization.CustomWorld_EasyStartSpace)||
+|static [`CustomWorld_EmptyWorld`](Sandbox.Game.Localization.CustomWorld_EmptyWorld)||
+|static [`CustomWorld_LoneSurvivor`](Sandbox.Game.Localization.CustomWorld_LoneSurvivor)||
+|static [`CustomWorld_RivalPlatforms`](Sandbox.Game.Localization.CustomWorld_RivalPlatforms)||
+|static [`CustomWorld_StarSystem`](Sandbox.Game.Localization.CustomWorld_StarSystem)||
+|static [`CutObject`](Sandbox.Game.Localization.CutObject)||
+|static [`CutsceneToolsButton`](Sandbox.Game.Localization.CutsceneToolsButton)||
+|static [`CycleHUD`](Sandbox.Game.Localization.CycleHUD)||
+|static [`Dampeners`](Sandbox.Game.Localization.Dampeners)||
+|static [`Default_Astronaut`](Sandbox.Game.Localization.Default_Astronaut)||
+|static [`Default_Astronaut_Female`](Sandbox.Game.Localization.Default_Astronaut_Female)||
+|static [`DefinitionError_BlockWithComputerNotTerminalBlock`](Sandbox.Game.Localization.DefinitionError_BlockWithComputerNotTerminalBlock)||
+|static [`DeleteBlueprintQuestion`](Sandbox.Game.Localization.DeleteBlueprintQuestion)||
+|static [`DeleteEntity`](Sandbox.Game.Localization.DeleteEntity)||
+|static [`DeleteObject`](Sandbox.Game.Localization.DeleteObject)||
+|static [`Department_AdditionalArtists`](Sandbox.Game.Localization.Department_AdditionalArtists)||
+|static [`Department_AdditionalDesigners`](Sandbox.Game.Localization.Department_AdditionalDesigners)||
+|static [`Department_AdditionalProgrammers`](Sandbox.Game.Localization.Department_AdditionalProgrammers)||
+|static [`Department_AdditionalTesters`](Sandbox.Game.Localization.Department_AdditionalTesters)||
+|static [`Department_Artists`](Sandbox.Game.Localization.Department_Artists)||
+|static [`Department_AssistentProducer`](Sandbox.Game.Localization.Department_AssistentProducer)||
+|static [`Department_CommunityManagers`](Sandbox.Game.Localization.Department_CommunityManagers)||
+|static [`Department_CommunityPr`](Sandbox.Game.Localization.Department_CommunityPr)||
+|static [`Department_ExecutiveProducer`](Sandbox.Game.Localization.Department_ExecutiveProducer)||
+|static [`Department_GameDesigners`](Sandbox.Game.Localization.Department_GameDesigners)||
+|static [`Department_LeadProducer`](Sandbox.Game.Localization.Department_LeadProducer)||
+|static [`Department_LeadProgrammers`](Sandbox.Game.Localization.Department_LeadProgrammers)||
+|static [`Department_LeadTester`](Sandbox.Game.Localization.Department_LeadTester)||
+|static [`Department_ModContributors`](Sandbox.Game.Localization.Department_ModContributors)||
+|static [`Department_MoreInfo`](Sandbox.Game.Localization.Department_MoreInfo)||
+|static [`Department_Music`](Sandbox.Game.Localization.Department_Music)||
+|static [`Department_Office`](Sandbox.Game.Localization.Department_Office)||
+|static [`Department_Programmers`](Sandbox.Game.Localization.Department_Programmers)||
+|static [`Department_SoundDesign`](Sandbox.Game.Localization.Department_SoundDesign)||
+|static [`Department_SpecialThanks`](Sandbox.Game.Localization.Department_SpecialThanks)||
+|static [`Department_Testers`](Sandbox.Game.Localization.Department_Testers)||
+|static [`Department_Translators`](Sandbox.Game.Localization.Department_Translators)||
+|static [`Depower`](Sandbox.Game.Localization.Depower)||
+|static [`Description_NotAvailable`](Sandbox.Game.Localization.Description_NotAvailable)||
+|static [`Description_Welder`](Sandbox.Game.Localization.Description_Welder)||
+|static [`Description_AngleGrinder`](Sandbox.Game.Localization.Description_AngleGrinder)||
+|static [`Description_HandDrill`](Sandbox.Game.Localization.Description_HandDrill)||
+|static [`Description_Rifle`](Sandbox.Game.Localization.Description_Rifle)||
+|static [`Description_LightArmor`](Sandbox.Game.Localization.Description_LightArmor)||
+|static [`Description_HeavyArmor`](Sandbox.Game.Localization.Description_HeavyArmor)||
+|static [`Description_AdvancedRotor`](Sandbox.Game.Localization.Description_AdvancedRotor)||
+|static [`Description_AdvancedRotorPart`](Sandbox.Game.Localization.Description_AdvancedRotorPart)||
+|static [`Description_AirVent`](Sandbox.Game.Localization.Description_AirVent)||
+|static [`Description_RadioAntenna`](Sandbox.Game.Localization.Description_RadioAntenna)||
+|static [`Description_VirtualMass`](Sandbox.Game.Localization.Description_VirtualMass)||
+|static [`Description_Assembler`](Sandbox.Game.Localization.Description_Assembler)||
+|static [`Description_AtmosphericThrust`](Sandbox.Game.Localization.Description_AtmosphericThrust)||
+|static [`Description_Battery`](Sandbox.Game.Localization.Description_Battery)||
+|static [`Description_Beacon`](Sandbox.Game.Localization.Description_Beacon)||
+|static [`Description_ButtonPanel`](Sandbox.Game.Localization.Description_ButtonPanel)||
+|static [`Description_Camera`](Sandbox.Game.Localization.Description_Camera)||
+|static [`Description_SmallCargoContainer`](Sandbox.Game.Localization.Description_SmallCargoContainer)||
+|static [`Description_MediumCargoContainer`](Sandbox.Game.Localization.Description_MediumCargoContainer)||
+|static [`Description_LargeCargoContainer`](Sandbox.Game.Localization.Description_LargeCargoContainer)||
+|static [`Description_SteelCatwalk`](Sandbox.Game.Localization.Description_SteelCatwalk)||
+|static [`Description_SpaceBall`](Sandbox.Game.Localization.Description_SpaceBall)||
+|static [`Description_Cockpit`](Sandbox.Game.Localization.Description_Cockpit)||
+|static [`Description_FighterCockpit`](Sandbox.Game.Localization.Description_FighterCockpit)||
+|static [`Description_Collector`](Sandbox.Game.Localization.Description_Collector)||
+|static [`Description_Connector`](Sandbox.Game.Localization.Description_Connector)||
+|static [`Description_ControlPanel`](Sandbox.Game.Localization.Description_ControlPanel)||
+|static [`Description_ControlStation`](Sandbox.Game.Localization.Description_ControlStation)||
+|static [`Descripton_ConveyorJunction`](Sandbox.Game.Localization.Descripton_ConveyorJunction)||
+|static [`Description_ConveyorSorter`](Sandbox.Game.Localization.Description_ConveyorSorter)||
+|static [`Description_ConveyorTube`](Sandbox.Game.Localization.Description_ConveyorTube)||
+|static [`Description_CornerLight`](Sandbox.Game.Localization.Description_CornerLight)||
+|static [`Description_CryoChamber`](Sandbox.Game.Localization.Description_CryoChamber)||
+|static [`Description_Decoy`](Sandbox.Game.Localization.Description_Decoy)||
+|static [`Description_Door`](Sandbox.Game.Localization.Description_Door)||
+|static [`Description_Drill`](Sandbox.Game.Localization.Description_Drill)||
+|static [`Description_Ejector`](Sandbox.Game.Localization.Description_Ejector)||
+|static [`Description_FlightSeat`](Sandbox.Game.Localization.Description_FlightSeat)||
+|static [`Description_FullCoverWall`](Sandbox.Game.Localization.Description_FullCoverWall)||
+|static [`Description_GatlingGun`](Sandbox.Game.Localization.Description_GatlingGun)||
+|static [`Description_GatlingTurret`](Sandbox.Game.Localization.Description_GatlingTurret)||
+|static [`Description_GravityGenerator`](Sandbox.Game.Localization.Description_GravityGenerator)||
+|static [`Description_GravityGeneratorSphere`](Sandbox.Game.Localization.Description_GravityGeneratorSphere)||
+|static [`Description_ShipGrinder`](Sandbox.Game.Localization.Description_ShipGrinder)||
+|static [`Description_Gyroscope`](Sandbox.Game.Localization.Description_Gyroscope)||
+|static [`Description_HangarDoor`](Sandbox.Game.Localization.Description_HangarDoor)||
+|static [`Description_HydrogenTank`](Sandbox.Game.Localization.Description_HydrogenTank)||
+|static [`Description_HydrogenThrust`](Sandbox.Game.Localization.Description_HydrogenThrust)||
+|static [`Description_InteriorLight`](Sandbox.Game.Localization.Description_InteriorLight)||
+|static [`Description_InteriorPillar`](Sandbox.Game.Localization.Description_InteriorPillar)||
+|static [`Description_InteriorTurret`](Sandbox.Game.Localization.Description_InteriorTurret)||
+|static [`Description_InteriorWall`](Sandbox.Game.Localization.Description_InteriorWall)||
+|static [`Description_IonThrust`](Sandbox.Game.Localization.Description_IonThrust)||
+|static [`Description_JumpDrive`](Sandbox.Game.Localization.Description_JumpDrive)||
+|static [`Description_TextPanel`](Sandbox.Game.Localization.Description_TextPanel)||
+|static [`Description_LandingGear`](Sandbox.Game.Localization.Description_LandingGear)||
+|static [`Description_LaserAntenna`](Sandbox.Game.Localization.Description_LaserAntenna)||
+|static [`Description_MedicalRoom`](Sandbox.Game.Localization.Description_MedicalRoom)||
+|static [`Description_MergeBlock`](Sandbox.Game.Localization.Description_MergeBlock)||
+|static [`Description_MissileTurret`](Sandbox.Game.Localization.Description_MissileTurret)||
+|static [`Description_ProductivityModule`](Sandbox.Game.Localization.Description_ProductivityModule)||
+|static [`Description_EffectivenessModule`](Sandbox.Game.Localization.Description_EffectivenessModule)||
+|static [`Description_PowerEfficiencyModule`](Sandbox.Game.Localization.Description_PowerEfficiencyModule)||
+|static [`Description_OreDetector`](Sandbox.Game.Localization.Description_OreDetector)||
+|static [`Description_OxygenFarm`](Sandbox.Game.Localization.Description_OxygenFarm)||
+|static [`Description_OxygenGenerator`](Sandbox.Game.Localization.Description_OxygenGenerator)||
+|static [`Description_OxygenTank`](Sandbox.Game.Localization.Description_OxygenTank)||
+|static [`Description_ParachuteHatch`](Sandbox.Game.Localization.Description_ParachuteHatch)||
+|static [`Description_Passage`](Sandbox.Game.Localization.Description_Passage)||
+|static [`Description_PassengerSeat`](Sandbox.Game.Localization.Description_PassengerSeat)||
+|static [`Description_Piston`](Sandbox.Game.Localization.Description_Piston)||
+|static [`Description_PistonTop`](Sandbox.Game.Localization.Description_PistonTop)||
+|static [`Description_ProgrammableBlock`](Sandbox.Game.Localization.Description_ProgrammableBlock)||
+|static [`Description_Projector`](Sandbox.Game.Localization.Description_Projector)||
+|static [`Description_Ramp`](Sandbox.Game.Localization.Description_Ramp)||
+|static [`Description_Reactor`](Sandbox.Game.Localization.Description_Reactor)||
+|static [`Description_Refinery`](Sandbox.Game.Localization.Description_Refinery)||
+|static [`Description_RefineryBasic`](Sandbox.Game.Localization.Description_RefineryBasic)||
+|static [`Description_RocketLauncherReload`](Sandbox.Game.Localization.Description_RocketLauncherReload)||
+|static [`Description_RemoteControl`](Sandbox.Game.Localization.Description_RemoteControl)||
+|static [`Description_RocketLauncher`](Sandbox.Game.Localization.Description_RocketLauncher)||
+|static [`Description_Rotor`](Sandbox.Game.Localization.Description_Rotor)||
+|static [`Description_RotorPart`](Sandbox.Game.Localization.Description_RotorPart)||
+|static [`Description_Sensor`](Sandbox.Game.Localization.Description_Sensor)||
+|static [`Description_SolarPanel`](Sandbox.Game.Localization.Description_SolarPanel)||
+|static [`Description_Sound`](Sandbox.Game.Localization.Description_Sound)||
+|static [`Description_ReflectorLight`](Sandbox.Game.Localization.Description_ReflectorLight)||
+|static [`Description_Stairs`](Sandbox.Game.Localization.Description_Stairs)||
+|static [`Description_Timer`](Sandbox.Game.Localization.Description_Timer)||
+|static [`Description_Warhead`](Sandbox.Game.Localization.Description_Warhead)||
+|static [`Description_ShipWelder`](Sandbox.Game.Localization.Description_ShipWelder)||
+|static [`Description_Wheel`](Sandbox.Game.Localization.Description_Wheel)||
+|static [`Description_Suspension`](Sandbox.Game.Localization.Description_Suspension)||
+|static [`Description_Window`](Sandbox.Game.Localization.Description_Window)||
+|static [`Description_VerticalWindow`](Sandbox.Game.Localization.Description_VerticalWindow)||
+|static [`Description_DiagonalWindow`](Sandbox.Game.Localization.Description_DiagonalWindow)||
+|static [`DetailScreen_Button_Close`](Sandbox.Game.Localization.DetailScreen_Button_Close)||
+|static [`DetailScreen_Button_Delete`](Sandbox.Game.Localization.DetailScreen_Button_Delete)||
+|static [`DetailScreen_Button_OpenInWorkshop`](Sandbox.Game.Localization.DetailScreen_Button_OpenInWorkshop)||
+|static [`DetailScreen_Button_OpenWorkshop`](Sandbox.Game.Localization.DetailScreen_Button_OpenWorkshop)||
+|static [`DetailScreen_Button_Publish`](Sandbox.Game.Localization.DetailScreen_Button_Publish)||
+|static [`DetailScreen_Button_Rename`](Sandbox.Game.Localization.DetailScreen_Button_Rename)||
+|static [`DetailScreen_Button_SendToPlayer`](Sandbox.Game.Localization.DetailScreen_Button_SendToPlayer)||
+|static [`DetectedEntity_Asteroid`](Sandbox.Game.Localization.DetectedEntity_Asteroid)||
+|static [`DetectedEntity_CharacterHuman`](Sandbox.Game.Localization.DetectedEntity_CharacterHuman)||
+|static [`DetectedEntity_CharacterOther`](Sandbox.Game.Localization.DetectedEntity_CharacterOther)||
+|static [`DetectedEntity_LargeGrid`](Sandbox.Game.Localization.DetectedEntity_LargeGrid)||
+|static [`DetectedEntity_Meteor`](Sandbox.Game.Localization.DetectedEntity_Meteor)||
+|static [`DetectedEntity_Planet`](Sandbox.Game.Localization.DetectedEntity_Planet)||
+|static [`DetectedEntity_SmallGrid`](Sandbox.Game.Localization.DetectedEntity_SmallGrid)||
+|static [`DetectedEntity_Unknown`](Sandbox.Game.Localization.DetectedEntity_Unknown)||
+|static [`DialogTextJoinBattleFailed`](Sandbox.Game.Localization.DialogTextJoinBattleFailed)||
+|static [`DialogTextJoiningBattle`](Sandbox.Game.Localization.DialogTextJoiningBattle)||
+|static [`DialogTextJoiningScenario`](Sandbox.Game.Localization.DialogTextJoiningScenario)||
+|static [`DialogText_RunArgument`](Sandbox.Game.Localization.DialogText_RunArgument)||
+|static [`Difficulty`](Sandbox.Game.Localization.Difficulty)||
+|static [`DifficultyEasy`](Sandbox.Game.Localization.DifficultyEasy)||
+|static [`DifficultyHard`](Sandbox.Game.Localization.DifficultyHard)||
+|static [`DifficultyNormal`](Sandbox.Game.Localization.DifficultyNormal)||
+|static [`DisableTransformation`](Sandbox.Game.Localization.DisableTransformation)||
+|static [`DisplayName`](Sandbox.Game.Localization.DisplayName)||
+|static [`DisplayName_AlienLander`](Sandbox.Game.Localization.DisplayName_AlienLander)||
+|static [`DisplayName_Animation_SpiderAttackBite`](Sandbox.Game.Localization.DisplayName_Animation_SpiderAttackBite)||
+|static [`DisplayName_Animation_SpiderAttackLegs`](Sandbox.Game.Localization.DisplayName_Animation_SpiderAttackLegs)||
+|static [`DisplayName_Animation_SpiderAttackStinger`](Sandbox.Game.Localization.DisplayName_Animation_SpiderAttackStinger)||
+|static [`DisplayName_Animation_SpiderBurrow`](Sandbox.Game.Localization.DisplayName_Animation_SpiderBurrow)||
+|static [`DisplayName_Animation_SpiderDeburrow`](Sandbox.Game.Localization.DisplayName_Animation_SpiderDeburrow)||
+|static [`DisplayName_Animation_ThumbUp`](Sandbox.Game.Localization.DisplayName_Animation_ThumbUp)||
+|static [`DisplayName_Animation_Victory`](Sandbox.Game.Localization.DisplayName_Animation_Victory)||
+|static [`DisplayName_Animation_Wave`](Sandbox.Game.Localization.DisplayName_Animation_Wave)||
+|static [`DisplayName_AstronautBackpack`](Sandbox.Game.Localization.DisplayName_AstronautBackpack)||
+|static [`DisplayName_Block_AdvancedRotor`](Sandbox.Game.Localization.DisplayName_Block_AdvancedRotor)||
+|static [`DisplayName_Block_AdvancedRotorPart`](Sandbox.Game.Localization.DisplayName_Block_AdvancedRotorPart)||
+|static [`DisplayName_Block_AirtightHangarDoor`](Sandbox.Game.Localization.DisplayName_Block_AirtightHangarDoor)||
+|static [`DisplayName_Block_AirtightSlideDoor`](Sandbox.Game.Localization.DisplayName_Block_AirtightSlideDoor)||
+|static [`DisplayName_Block_AirVent`](Sandbox.Game.Localization.DisplayName_Block_AirVent)||
+|static [`DisplayName_Block_Ammo_Assembler`](Sandbox.Game.Localization.DisplayName_Block_Ammo_Assembler)||
+|static [`DisplayName_Block_Antenna`](Sandbox.Game.Localization.DisplayName_Block_Antenna)||
+|static [`DisplayName_Block_Arc_Furnace`](Sandbox.Game.Localization.DisplayName_Block_Arc_Furnace)||
+|static [`DisplayName_Block_ArmorCenter`](Sandbox.Game.Localization.DisplayName_Block_ArmorCenter)||
+|static [`DisplayName_Block_ArmorCorner`](Sandbox.Game.Localization.DisplayName_Block_ArmorCorner)||
+|static [`DisplayName_Block_ArmorInvCorner`](Sandbox.Game.Localization.DisplayName_Block_ArmorInvCorner)||
+|static [`DisplayName_Block_ArmorSide`](Sandbox.Game.Localization.DisplayName_Block_ArmorSide)||
+|static [`DisplayName_Block_Assembler`](Sandbox.Game.Localization.DisplayName_Block_Assembler)||
+|static [`DisplayName_Block_Base_Components_Assembler`](Sandbox.Game.Localization.DisplayName_Block_Base_Components_Assembler)||
+|static [`DisplayName_Block_Battery`](Sandbox.Game.Localization.DisplayName_Block_Battery)||
+|static [`DisplayName_Block_Beacon`](Sandbox.Game.Localization.DisplayName_Block_Beacon)||
+|static [`DisplayName_Block_Big_Arc_Furnace`](Sandbox.Game.Localization.DisplayName_Block_Big_Arc_Furnace)||
+|static [`DisplayName_Block_Big_Gas_Centrifugal_Refinery`](Sandbox.Game.Localization.DisplayName_Block_Big_Gas_Centrifugal_Refinery)||
+|static [`DisplayName_Block_Big_Precious_Furnace`](Sandbox.Game.Localization.DisplayName_Block_Big_Precious_Furnace)||
+|static [`DisplayName_Block_Big_Solids_Refinery`](Sandbox.Game.Localization.DisplayName_Block_Big_Solids_Refinery)||
+|static [`DisplayName_Block_ButtonPanel`](Sandbox.Game.Localization.DisplayName_Block_ButtonPanel)||
+|static [`DisplayName_Block_Camera`](Sandbox.Game.Localization.DisplayName_Block_Camera)||
+|static [`DisplayName_Block_Cockpit1`](Sandbox.Game.Localization.DisplayName_Block_Cockpit1)||
+|static [`DisplayName_Block_Cockpit2`](Sandbox.Game.Localization.DisplayName_Block_Cockpit2)||
+|static [`DisplayName_Block_Cockpit3`](Sandbox.Game.Localization.DisplayName_Block_Cockpit3)||
+|static [`DisplayName_Block_Collector`](Sandbox.Game.Localization.DisplayName_Block_Collector)||
+|static [`DisplayName_Block_Connector`](Sandbox.Game.Localization.DisplayName_Block_Connector)||
+|static [`DisplayName_Block_ConnectorSmall`](Sandbox.Game.Localization.DisplayName_Block_ConnectorSmall)||
+|static [`DisplayName_Block_Construction_Components_Assembler`](Sandbox.Game.Localization.DisplayName_Block_Construction_Components_Assembler)||
+|static [`DisplayName_Block_ControlPanel`](Sandbox.Game.Localization.DisplayName_Block_ControlPanel)||
+|static [`DisplayName_Block_Conveyor`](Sandbox.Game.Localization.DisplayName_Block_Conveyor)||
+|static [`DisplayName_Block_ConveyorFrame`](Sandbox.Game.Localization.DisplayName_Block_ConveyorFrame)||
+|static [`DisplayName_Block_ConveyorSmall`](Sandbox.Game.Localization.DisplayName_Block_ConveyorSmall)||
+|static [`DisplayName_Block_ConveyorSorter`](Sandbox.Game.Localization.DisplayName_Block_ConveyorSorter)||
+|static [`DisplayName_Block_ConveyorTube`](Sandbox.Game.Localization.DisplayName_Block_ConveyorTube)||
+|static [`DisplayName_Block_ConveyorTubeCurved`](Sandbox.Game.Localization.DisplayName_Block_ConveyorTubeCurved)||
+|static [`DisplayName_Block_ConveyorTubeCurvedSmall`](Sandbox.Game.Localization.DisplayName_Block_ConveyorTubeCurvedSmall)||
+|static [`DisplayName_Block_ConveyorTubeMedium`](Sandbox.Game.Localization.DisplayName_Block_ConveyorTubeMedium)||
+|static [`DisplayName_Block_ConveyorTubeSmall`](Sandbox.Game.Localization.DisplayName_Block_ConveyorTubeSmall)||
+|static [`DisplayName_Block_CornerLCD`](Sandbox.Game.Localization.DisplayName_Block_CornerLCD)||
+|static [`DisplayName_Block_CornerLCD2`](Sandbox.Game.Localization.DisplayName_Block_CornerLCD2)||
+|static [`DisplayName_Block_CornerLCDFlatBottom`](Sandbox.Game.Localization.DisplayName_Block_CornerLCDFlatBottom)||
+|static [`DisplayName_Block_CornerLCDFlatTop`](Sandbox.Game.Localization.DisplayName_Block_CornerLCDFlatTop)||
+|static [`DisplayName_Block_CornerLight`](Sandbox.Game.Localization.DisplayName_Block_CornerLight)||
+|static [`DisplayName_Block_CornerLightDouble`](Sandbox.Game.Localization.DisplayName_Block_CornerLightDouble)||
+|static [`DisplayName_Block_CryoChamber`](Sandbox.Game.Localization.DisplayName_Block_CryoChamber)||
+|static [`DisplayName_Block_DebugSphere1`](Sandbox.Game.Localization.DisplayName_Block_DebugSphere1)||
+|static [`DisplayName_Block_DebugSphere2`](Sandbox.Game.Localization.DisplayName_Block_DebugSphere2)||
+|static [`DisplayName_Block_DebugSphere3`](Sandbox.Game.Localization.DisplayName_Block_DebugSphere3)||
+|static [`DisplayName_Block_Decoy`](Sandbox.Game.Localization.DisplayName_Block_Decoy)||
+|static [`DisplayName_Block_DiagonalWindow`](Sandbox.Game.Localization.DisplayName_Block_DiagonalWindow)||
+|static [`DisplayName_Block_Door`](Sandbox.Game.Localization.DisplayName_Block_Door)||
+|static [`DisplayName_Block_Drill`](Sandbox.Game.Localization.DisplayName_Block_Drill)||
+|static [`DisplayName_Block_EffectivenessModule`](Sandbox.Game.Localization.DisplayName_Block_EffectivenessModule)||
+|static [`DisplayName_Block_Electronics_Assembler`](Sandbox.Game.Localization.DisplayName_Block_Electronics_Assembler)||
+|static [`DisplayName_Block_FighterCockpit`](Sandbox.Game.Localization.DisplayName_Block_FighterCockpit)||
+|static [`DisplayName_Block_FullCoverWall`](Sandbox.Game.Localization.DisplayName_Block_FullCoverWall)||
+|static [`DisplayName_Block_GatlingGun`](Sandbox.Game.Localization.DisplayName_Block_GatlingGun)||
+|static [`DisplayName_Block_GatlingTurret`](Sandbox.Game.Localization.DisplayName_Block_GatlingTurret)||
+|static [`DisplayName_Block_GravityGenerator`](Sandbox.Game.Localization.DisplayName_Block_GravityGenerator)||
+|static [`DisplayName_Block_GravityGeneratorSphere`](Sandbox.Game.Localization.DisplayName_Block_GravityGeneratorSphere)||
+|static [`DisplayName_Block_Gyroscope`](Sandbox.Game.Localization.DisplayName_Block_Gyroscope)||
+|static [`DisplayName_Block_HalfCoverWall`](Sandbox.Game.Localization.DisplayName_Block_HalfCoverWall)||
+|static [`DisplayName_Block_HalfHeavyArmorBlock`](Sandbox.Game.Localization.DisplayName_Block_HalfHeavyArmorBlock)||
+|static [`DisplayName_Block_HalfLightArmorBlock`](Sandbox.Game.Localization.DisplayName_Block_HalfLightArmorBlock)||
+|static [`DisplayName_Block_HalfSlopeHeavyArmorBlock`](Sandbox.Game.Localization.DisplayName_Block_HalfSlopeHeavyArmorBlock)||
+|static [`DisplayName_Block_HalfSlopeLightArmorBlock`](Sandbox.Game.Localization.DisplayName_Block_HalfSlopeLightArmorBlock)||
+|static [`DisplayName_Block_HeavyAngledArmorCorner`](Sandbox.Game.Localization.DisplayName_Block_HeavyAngledArmorCorner)||
+|static [`DisplayName_Block_HeavyAngledArmorSlope`](Sandbox.Game.Localization.DisplayName_Block_HeavyAngledArmorSlope)||
+|static [`DisplayName_Block_HeavyArmorBlock`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorBlock)||
+|static [`DisplayName_Block_HeavyArmorCorner`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorCorner)||
+|static [`DisplayName_Block_HeavyArmorCorner2`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorCorner2)||
+|static [`DisplayName_Block_HeavyArmorCorner2Base`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorCorner2Base)||
+|static [`DisplayName_Block_HeavyArmorCorner2BaseSmooth`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorCorner2BaseSmooth)||
+|static [`DisplayName_Block_HeavyArmorCorner2Smooth`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorCorner2Smooth)||
+|static [`DisplayName_Block_HeavyArmorCorner2Tip`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorCorner2Tip)||
+|static [`DisplayName_Block_HeavyArmorCorner2TipSmooth`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorCorner2TipSmooth)||
+|static [`DisplayName_Block_HeavyArmorInvCorner`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorInvCorner)||
+|static [`DisplayName_Block_HeavyArmorInvCorner2`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorInvCorner2)||
+|static [`DisplayName_Block_HeavyArmorInvCorner2Base`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorInvCorner2Base)||
+|static [`DisplayName_Block_HeavyArmorInvCorner2BaseSmooth`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorInvCorner2BaseSmooth)||
+|static [`DisplayName_Block_HeavyArmorInvCorner2Smooth`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorInvCorner2Smooth)||
+|static [`DisplayName_Block_HeavyArmorInvCorner2Tip`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorInvCorner2Tip)||
+|static [`DisplayName_Block_HeavyArmorInvCorner2TipSmooth`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorInvCorner2TipSmooth)||
+|static [`DisplayName_Block_HeavyArmorSlope`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorSlope)||
+|static [`DisplayName_Block_HeavyArmorSlope2`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorSlope2)||
+|static [`DisplayName_Block_HeavyArmorSlope2Base`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorSlope2Base)||
+|static [`DisplayName_Block_HeavyArmorSlope2BaseSmooth`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorSlope2BaseSmooth)||
+|static [`DisplayName_Block_HeavyArmorSlope2Smooth`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorSlope2Smooth)||
+|static [`DisplayName_Block_HeavyArmorSlope2Tip`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorSlope2Tip)||
+|static [`DisplayName_Block_HeavyArmorSlope2TipSmooth`](Sandbox.Game.Localization.DisplayName_Block_HeavyArmorSlope2TipSmooth)||
+|static [`DisplayName_Block_HeavyRoundArmorCorner`](Sandbox.Game.Localization.DisplayName_Block_HeavyRoundArmorCorner)||
+|static [`DisplayName_Block_HeavyRoundArmorInvCorner`](Sandbox.Game.Localization.DisplayName_Block_HeavyRoundArmorInvCorner)||
+|static [`DisplayName_Block_HeavyRoundArmorSlope`](Sandbox.Game.Localization.DisplayName_Block_HeavyRoundArmorSlope)||
+|static [`DisplayName_Block_HeavyRoundedArmorCorner`](Sandbox.Game.Localization.DisplayName_Block_HeavyRoundedArmorCorner)||
+|static [`DisplayName_Block_HeavyRoundedArmorSlope`](Sandbox.Game.Localization.DisplayName_Block_HeavyRoundedArmorSlope)||
+|static [`DisplayName_Block_HydrogenTank`](Sandbox.Game.Localization.DisplayName_Block_HydrogenTank)||
+|static [`DisplayName_Block_HydrogenTankSmall`](Sandbox.Game.Localization.DisplayName_Block_HydrogenTankSmall)||
+|static [`DisplayName_Block_InteriorLight`](Sandbox.Game.Localization.DisplayName_Block_InteriorLight)||
+|static [`DisplayName_Block_InteriorPillar`](Sandbox.Game.Localization.DisplayName_Block_InteriorPillar)||
+|static [`DisplayName_Block_InteriorTurret`](Sandbox.Game.Localization.DisplayName_Block_InteriorTurret)||
+|static [`DisplayName_Block_InteriorWall`](Sandbox.Game.Localization.DisplayName_Block_InteriorWall)||
+|static [`DisplayName_Block_JumpDrive`](Sandbox.Game.Localization.DisplayName_Block_JumpDrive)||
+|static [`DisplayName_Block_LandingGear`](Sandbox.Game.Localization.DisplayName_Block_LandingGear)||
+|static [`DisplayName_Block_LargeAtmoThrust`](Sandbox.Game.Localization.DisplayName_Block_LargeAtmoThrust)||
+|static [`DisplayName_Block_LargeCargoContainer`](Sandbox.Game.Localization.DisplayName_Block_LargeCargoContainer)||
+|static [`DisplayName_Block_LargeHydrogenThrust`](Sandbox.Game.Localization.DisplayName_Block_LargeHydrogenThrust)||
+|static [`DisplayName_Block_LargeReactor`](Sandbox.Game.Localization.DisplayName_Block_LargeReactor)||
+|static [`DisplayName_Block_LargeThrust`](Sandbox.Game.Localization.DisplayName_Block_LargeThrust)||
+|static [`DisplayName_Block_LaserAntenna`](Sandbox.Game.Localization.DisplayName_Block_LaserAntenna)||
+|static [`DisplayName_Block_LightAngledArmorCorner`](Sandbox.Game.Localization.DisplayName_Block_LightAngledArmorCorner)||
+|static [`DisplayName_Block_LightAngledArmorSlope`](Sandbox.Game.Localization.DisplayName_Block_LightAngledArmorSlope)||
+|static [`DisplayName_Block_LightArmorBlock`](Sandbox.Game.Localization.DisplayName_Block_LightArmorBlock)||
+|static [`DisplayName_Block_LightArmorCorner`](Sandbox.Game.Localization.DisplayName_Block_LightArmorCorner)||
+|static [`DisplayName_Block_LightArmorCorner2`](Sandbox.Game.Localization.DisplayName_Block_LightArmorCorner2)||
+|static [`DisplayName_Block_LightArmorCorner2Base`](Sandbox.Game.Localization.DisplayName_Block_LightArmorCorner2Base)||
+|static [`DisplayName_Block_LightArmorCorner2BaseSmooth`](Sandbox.Game.Localization.DisplayName_Block_LightArmorCorner2BaseSmooth)||
+|static [`DisplayName_Block_LightArmorCorner2Smooth`](Sandbox.Game.Localization.DisplayName_Block_LightArmorCorner2Smooth)||
+|static [`DisplayName_Block_LightArmorCorner2Tip`](Sandbox.Game.Localization.DisplayName_Block_LightArmorCorner2Tip)||
+|static [`DisplayName_Block_LightArmorCorner2TipSmooth`](Sandbox.Game.Localization.DisplayName_Block_LightArmorCorner2TipSmooth)||
+|static [`DisplayName_Block_LightArmorCorner3`](Sandbox.Game.Localization.DisplayName_Block_LightArmorCorner3)||
+|static [`DisplayName_Block_LightArmorCorner3Smooth`](Sandbox.Game.Localization.DisplayName_Block_LightArmorCorner3Smooth)||
+|static [`DisplayName_Block_LightArmorInvCorner`](Sandbox.Game.Localization.DisplayName_Block_LightArmorInvCorner)||
+|static [`DisplayName_Block_LightArmorInvCorner2`](Sandbox.Game.Localization.DisplayName_Block_LightArmorInvCorner2)||
+|static [`DisplayName_Block_LightArmorInvCorner2Base`](Sandbox.Game.Localization.DisplayName_Block_LightArmorInvCorner2Base)||
+|static [`DisplayName_Block_LightArmorInvCorner2BaseSmooth`](Sandbox.Game.Localization.DisplayName_Block_LightArmorInvCorner2BaseSmooth)||
+|static [`DisplayName_Block_LightArmorInvCorner2Smooth`](Sandbox.Game.Localization.DisplayName_Block_LightArmorInvCorner2Smooth)||
+|static [`DisplayName_Block_LightArmorInvCorner2Tip`](Sandbox.Game.Localization.DisplayName_Block_LightArmorInvCorner2Tip)||
+|static [`DisplayName_Block_LightArmorInvCorner2TipSmooth`](Sandbox.Game.Localization.DisplayName_Block_LightArmorInvCorner2TipSmooth)||
+|static [`DisplayName_Block_LightArmorInvCorner3`](Sandbox.Game.Localization.DisplayName_Block_LightArmorInvCorner3)||
+|static [`DisplayName_Block_LightArmorInvCorner3Smooth`](Sandbox.Game.Localization.DisplayName_Block_LightArmorInvCorner3Smooth)||
+|static [`DisplayName_Block_LightArmorSlope`](Sandbox.Game.Localization.DisplayName_Block_LightArmorSlope)||
+|static [`DisplayName_Block_LightArmorSlope2`](Sandbox.Game.Localization.DisplayName_Block_LightArmorSlope2)||
+|static [`DisplayName_Block_LightArmorSlope2Base`](Sandbox.Game.Localization.DisplayName_Block_LightArmorSlope2Base)||
+|static [`DisplayName_Block_LightArmorSlope2BaseSmooth`](Sandbox.Game.Localization.DisplayName_Block_LightArmorSlope2BaseSmooth)||
+|static [`DisplayName_Block_LightArmorSlope2Smooth`](Sandbox.Game.Localization.DisplayName_Block_LightArmorSlope2Smooth)||
+|static [`DisplayName_Block_LightArmorSlope2Tip`](Sandbox.Game.Localization.DisplayName_Block_LightArmorSlope2Tip)||
+|static [`DisplayName_Block_LightArmorSlope2TipSmooth`](Sandbox.Game.Localization.DisplayName_Block_LightArmorSlope2TipSmooth)||
+|static [`DisplayName_Block_LightArmorSlope3`](Sandbox.Game.Localization.DisplayName_Block_LightArmorSlope3)||
+|static [`DisplayName_Block_LightArmorSlope3Smooth`](Sandbox.Game.Localization.DisplayName_Block_LightArmorSlope3Smooth)||
+|static [`DisplayName_Block_LightRoundArmorCorner`](Sandbox.Game.Localization.DisplayName_Block_LightRoundArmorCorner)||
+|static [`DisplayName_Block_LightRoundArmorInvCorner`](Sandbox.Game.Localization.DisplayName_Block_LightRoundArmorInvCorner)||
+|static [`DisplayName_Block_LightRoundArmorSlope`](Sandbox.Game.Localization.DisplayName_Block_LightRoundArmorSlope)||
+|static [`DisplayName_Block_LightRoundedArmorCorner`](Sandbox.Game.Localization.DisplayName_Block_LightRoundedArmorCorner)||
+|static [`DisplayName_Block_LightRoundedArmorSlope`](Sandbox.Game.Localization.DisplayName_Block_LightRoundedArmorSlope)||
+|static [`DisplayName_Block_MedicalRoom`](Sandbox.Game.Localization.DisplayName_Block_MedicalRoom)||
+|static [`DisplayName_Block_MediumCargoContainer`](Sandbox.Game.Localization.DisplayName_Block_MediumCargoContainer)||
+|static [`DisplayName_Block_MergeBlock`](Sandbox.Game.Localization.DisplayName_Block_MergeBlock)||
+|static [`DisplayName_Block_MissileTurret`](Sandbox.Game.Localization.DisplayName_Block_MissileTurret)||
+|static [`DisplayName_Block_OreDetector`](Sandbox.Game.Localization.DisplayName_Block_OreDetector)||
+|static [`DisplayName_Block_OxygenFarm`](Sandbox.Game.Localization.DisplayName_Block_OxygenFarm)||
+|static [`DisplayName_Block_OxygenGenerator`](Sandbox.Game.Localization.DisplayName_Block_OxygenGenerator)||
+|static [`DisplayName_Block_OxygenTank`](Sandbox.Game.Localization.DisplayName_Block_OxygenTank)||
+|static [`DisplayName_Block_ParachuteHatch`](Sandbox.Game.Localization.DisplayName_Block_ParachuteHatch)||
+|static [`DisplayName_Block_Passage`](Sandbox.Game.Localization.DisplayName_Block_Passage)||
+|static [`DisplayName_Block_PassengerSeat`](Sandbox.Game.Localization.DisplayName_Block_PassengerSeat)||
+|static [`DisplayName_Block_PistonBase`](Sandbox.Game.Localization.DisplayName_Block_PistonBase)||
+|static [`DisplayName_Block_PistonTop`](Sandbox.Game.Localization.DisplayName_Block_PistonTop)||
+|static [`DisplayName_Block_PowerEfficiencyModule`](Sandbox.Game.Localization.DisplayName_Block_PowerEfficiencyModule)||
+|static [`DisplayName_Block_ProductivityModule`](Sandbox.Game.Localization.DisplayName_Block_ProductivityModule)||
+|static [`DisplayName_Block_Projector`](Sandbox.Game.Localization.DisplayName_Block_Projector)||
+|static [`DisplayName_Block_Ramp`](Sandbox.Game.Localization.DisplayName_Block_Ramp)||
+|static [`DisplayName_Block_Refinery`](Sandbox.Game.Localization.DisplayName_Block_Refinery)||
+|static [`DisplayName_Block_ReflectorLight`](Sandbox.Game.Localization.DisplayName_Block_ReflectorLight)||
+|static [`DisplayName_Block_RemoteControl`](Sandbox.Game.Localization.DisplayName_Block_RemoteControl)||
+|static [`DisplayName_Block_RocketLauncher`](Sandbox.Game.Localization.DisplayName_Block_RocketLauncher)||
+|static [`DisplayName_Block_Rotor`](Sandbox.Game.Localization.DisplayName_Block_Rotor)||
+|static [`DisplayName_Block_RotorPart`](Sandbox.Game.Localization.DisplayName_Block_RotorPart)||
+|static [`DisplayName_Block_Sensor`](Sandbox.Game.Localization.DisplayName_Block_Sensor)||
+|static [`DisplayName_Block_ShipGrinder`](Sandbox.Game.Localization.DisplayName_Block_ShipGrinder)||
+|static [`DisplayName_Block_ShipWelder`](Sandbox.Game.Localization.DisplayName_Block_ShipWelder)||
+|static [`DisplayName_Block_SmallAtmoThrust`](Sandbox.Game.Localization.DisplayName_Block_SmallAtmoThrust)||
+|static [`DisplayName_Block_SmallCargoContainer`](Sandbox.Game.Localization.DisplayName_Block_SmallCargoContainer)||
+|static [`DisplayName_Block_SmallConveyorSorter`](Sandbox.Game.Localization.DisplayName_Block_SmallConveyorSorter)||
+|static [`DisplayName_Block_SmallHydrogenThrust`](Sandbox.Game.Localization.DisplayName_Block_SmallHydrogenThrust)||
+|static [`DisplayName_Block_SmallReactor`](Sandbox.Game.Localization.DisplayName_Block_SmallReactor)||
+|static [`DisplayName_Block_SmallRocketLauncherReload`](Sandbox.Game.Localization.DisplayName_Block_SmallRocketLauncherReload)||
+|static [`DisplayName_Block_SmallThrust`](Sandbox.Game.Localization.DisplayName_Block_SmallThrust)||
+|static [`DisplayName_Block_SolarPanel`](Sandbox.Game.Localization.DisplayName_Block_SolarPanel)||
+|static [`DisplayName_Block_SoundBlock`](Sandbox.Game.Localization.DisplayName_Block_SoundBlock)||
+|static [`DisplayName_Block_SpaceBall`](Sandbox.Game.Localization.DisplayName_Block_SpaceBall)||
+|static [`DisplayName_Block_Stairs`](Sandbox.Game.Localization.DisplayName_Block_Stairs)||
+|static [`DisplayName_Block_SteelCatwalk`](Sandbox.Game.Localization.DisplayName_Block_SteelCatwalk)||
+|static [`DisplayName_Block_SteelCatwalkCorner`](Sandbox.Game.Localization.DisplayName_Block_SteelCatwalkCorner)||
+|static [`DisplayName_Block_SteelCatwalkPlate`](Sandbox.Game.Localization.DisplayName_Block_SteelCatwalkPlate)||
+|static [`DisplayName_Block_SteelCatwalkTwoSides`](Sandbox.Game.Localization.DisplayName_Block_SteelCatwalkTwoSides)||
+|static [`DisplayName_Block_Suspension1x1`](Sandbox.Game.Localization.DisplayName_Block_Suspension1x1)||
+|static [`DisplayName_Block_Suspension1x1mirrored`](Sandbox.Game.Localization.DisplayName_Block_Suspension1x1mirrored)||
+|static [`DisplayName_Block_Suspension3x3`](Sandbox.Game.Localization.DisplayName_Block_Suspension3x3)||
+|static [`DisplayName_Block_Suspension3x3mirrored`](Sandbox.Game.Localization.DisplayName_Block_Suspension3x3mirrored)||
+|static [`DisplayName_Block_Suspension5x5`](Sandbox.Game.Localization.DisplayName_Block_Suspension5x5)||
+|static [`DisplayName_Block_Suspension5x5mirrored`](Sandbox.Game.Localization.DisplayName_Block_Suspension5x5mirrored)||
+|static [`DisplayName_Block_TextPanel`](Sandbox.Game.Localization.DisplayName_Block_TextPanel)||
+|static [`DisplayName_Block_TimerBlock`](Sandbox.Game.Localization.DisplayName_Block_TimerBlock)||
+|static [`DisplayName_Block_VerticalCen`](Sandbox.Game.Localization.DisplayName_Block_VerticalCen)||
+|static [`DisplayName_Block_VerticalWindow`](Sandbox.Game.Localization.DisplayName_Block_VerticalWindow)||
+|static [`DisplayName_Block_VirtualMass`](Sandbox.Game.Localization.DisplayName_Block_VirtualMass)||
+|static [`DisplayName_Block_Warhead`](Sandbox.Game.Localization.DisplayName_Block_Warhead)||
+|static [`DisplayName_Block_Wheel1x1`](Sandbox.Game.Localization.DisplayName_Block_Wheel1x1)||
+|static [`DisplayName_Block_Wheel1x1mirrored`](Sandbox.Game.Localization.DisplayName_Block_Wheel1x1mirrored)||
+|static [`DisplayName_Block_Wheel3x3`](Sandbox.Game.Localization.DisplayName_Block_Wheel3x3)||
+|static [`DisplayName_Block_Wheel3x3mirrored`](Sandbox.Game.Localization.DisplayName_Block_Wheel3x3mirrored)||
+|static [`DisplayName_Block_Wheel5x5`](Sandbox.Game.Localization.DisplayName_Block_Wheel5x5)||
+|static [`DisplayName_Block_Wheel5x5mirrored`](Sandbox.Game.Localization.DisplayName_Block_Wheel5x5mirrored)||
+|static [`DisplayName_Block_Window1x1Face`](Sandbox.Game.Localization.DisplayName_Block_Window1x1Face)||
+|static [`DisplayName_Block_Window1x1Flat`](Sandbox.Game.Localization.DisplayName_Block_Window1x1Flat)||
+|static [`DisplayName_Block_Window1x1FlatInv`](Sandbox.Game.Localization.DisplayName_Block_Window1x1FlatInv)||
+|static [`DisplayName_Block_Window1x1Inv`](Sandbox.Game.Localization.DisplayName_Block_Window1x1Inv)||
+|static [`DisplayName_Block_Window1x1Side`](Sandbox.Game.Localization.DisplayName_Block_Window1x1Side)||
+|static [`DisplayName_Block_Window1x1SideInv`](Sandbox.Game.Localization.DisplayName_Block_Window1x1SideInv)||
+|static [`DisplayName_Block_Window1x1Slope`](Sandbox.Game.Localization.DisplayName_Block_Window1x1Slope)||
+|static [`DisplayName_Block_Window1x2Face`](Sandbox.Game.Localization.DisplayName_Block_Window1x2Face)||
+|static [`DisplayName_Block_Window1x2Flat`](Sandbox.Game.Localization.DisplayName_Block_Window1x2Flat)||
+|static [`DisplayName_Block_Window1x2FlatInv`](Sandbox.Game.Localization.DisplayName_Block_Window1x2FlatInv)||
+|static [`DisplayName_Block_Window1x2Inv`](Sandbox.Game.Localization.DisplayName_Block_Window1x2Inv)||
+|static [`DisplayName_Block_Window1x2SideLeft`](Sandbox.Game.Localization.DisplayName_Block_Window1x2SideLeft)||
+|static [`DisplayName_Block_Window1x2SideLeftInv`](Sandbox.Game.Localization.DisplayName_Block_Window1x2SideLeftInv)||
+|static [`DisplayName_Block_Window1x2SideRight`](Sandbox.Game.Localization.DisplayName_Block_Window1x2SideRight)||
+|static [`DisplayName_Block_Window1x2SideRightInv`](Sandbox.Game.Localization.DisplayName_Block_Window1x2SideRightInv)||
+|static [`DisplayName_Block_Window1x2Slope`](Sandbox.Game.Localization.DisplayName_Block_Window1x2Slope)||
+|static [`DisplayName_Block_Window2x3Flat`](Sandbox.Game.Localization.DisplayName_Block_Window2x3Flat)||
+|static [`DisplayName_Block_Window2x3FlatInv`](Sandbox.Game.Localization.DisplayName_Block_Window2x3FlatInv)||
+|static [`DisplayName_Block_Window3x3Flat`](Sandbox.Game.Localization.DisplayName_Block_Window3x3Flat)||
+|static [`DisplayName_Block_Window3x3FlatInv`](Sandbox.Game.Localization.DisplayName_Block_Window3x3FlatInv)||
+|static [`DisplayName_BlueprintClass_Ammo`](Sandbox.Game.Localization.DisplayName_BlueprintClass_Ammo)||
+|static [`DisplayName_BlueprintClass_Base_Components`](Sandbox.Game.Localization.DisplayName_BlueprintClass_Base_Components)||
+|static [`DisplayName_BlueprintClass_CommonMetals`](Sandbox.Game.Localization.DisplayName_BlueprintClass_CommonMetals)||
+|static [`DisplayName_BlueprintClass_Components`](Sandbox.Game.Localization.DisplayName_BlueprintClass_Components)||
+|static [`DisplayName_BlueprintClass_Construction_Components`](Sandbox.Game.Localization.DisplayName_BlueprintClass_Construction_Components)||
+|static [`DisplayName_BlueprintClass_Electronics`](Sandbox.Game.Localization.DisplayName_BlueprintClass_Electronics)||
+|static [`DisplayName_BlueprintClass_EnergeticIngots`](Sandbox.Game.Localization.DisplayName_BlueprintClass_EnergeticIngots)||
+|static [`DisplayName_BlueprintClass_HydrogenBottles`](Sandbox.Game.Localization.DisplayName_BlueprintClass_HydrogenBottles)||
+|static [`DisplayName_BlueprintClass_Ice`](Sandbox.Game.Localization.DisplayName_BlueprintClass_Ice)||
+|static [`DisplayName_BlueprintClass_Ingots`](Sandbox.Game.Localization.DisplayName_BlueprintClass_Ingots)||
+|static [`DisplayName_BlueprintClass_LargeBlocks`](Sandbox.Game.Localization.DisplayName_BlueprintClass_LargeBlocks)||
+|static [`DisplayName_BlueprintClass_OxygenBottles`](Sandbox.Game.Localization.DisplayName_BlueprintClass_OxygenBottles)||
+|static [`DisplayName_BlueprintClass_PreciousMetals`](Sandbox.Game.Localization.DisplayName_BlueprintClass_PreciousMetals)||
+|static [`DisplayName_BlueprintClass_SmallBlocks`](Sandbox.Game.Localization.DisplayName_BlueprintClass_SmallBlocks)||
+|static [`DisplayName_BlueprintClass_Solids`](Sandbox.Game.Localization.DisplayName_BlueprintClass_Solids)||
+|static [`DisplayName_Category_AllBlocks`](Sandbox.Game.Localization.DisplayName_Category_AllBlocks)||
+|static [`DisplayName_Category_ArmorBlocks`](Sandbox.Game.Localization.DisplayName_Category_ArmorBlocks)||
+|static [`DisplayName_Category_CharacterAnimations`](Sandbox.Game.Localization.DisplayName_Category_CharacterAnimations)||
+|static [`DisplayName_Category_CharacterTools`](Sandbox.Game.Localization.DisplayName_Category_CharacterTools)||
+|static [`DisplayName_Category_CharacterWeapons`](Sandbox.Game.Localization.DisplayName_Category_CharacterWeapons)||
+|static [`DisplayName_Category_Cockpit`](Sandbox.Game.Localization.DisplayName_Category_Cockpit)||
+|static [`DisplayName_Category_ConveyorBlocks`](Sandbox.Game.Localization.DisplayName_Category_ConveyorBlocks)||
+|static [`DisplayName_Category_GeneratedBlocks`](Sandbox.Game.Localization.DisplayName_Category_GeneratedBlocks)||
+|static [`DisplayName_Category_LargeBlocks`](Sandbox.Game.Localization.DisplayName_Category_LargeBlocks)||
+|static [`DisplayName_Category_Power`](Sandbox.Game.Localization.DisplayName_Category_Power)||
+|static [`DisplayName_Category_Production`](Sandbox.Game.Localization.DisplayName_Category_Production)||
+|static [`DisplayName_Category_ShipGroups`](Sandbox.Game.Localization.DisplayName_Category_ShipGroups)||
+|static [`DisplayName_Category_ShipLights`](Sandbox.Game.Localization.DisplayName_Category_ShipLights)||
+|static [`DisplayName_Category_ShipThrusters`](Sandbox.Game.Localization.DisplayName_Category_ShipThrusters)||
+|static [`DisplayName_Category_ShipWeapons`](Sandbox.Game.Localization.DisplayName_Category_ShipWeapons)||
+|static [`DisplayName_Category_ShipTools`](Sandbox.Game.Localization.DisplayName_Category_ShipTools)||
+|static [`DisplayName_Category_SmallBlocks`](Sandbox.Game.Localization.DisplayName_Category_SmallBlocks)||
+|static [`DisplayName_Category_VoxelHands`](Sandbox.Game.Localization.DisplayName_Category_VoxelHands)||
+|static [`DisplayName_Category_WindowBlocks`](Sandbox.Game.Localization.DisplayName_Category_WindowBlocks)||
+|static [`DisplayName_CloseHelmet`](Sandbox.Game.Localization.DisplayName_CloseHelmet)||
+|static [`DisplayName_ConvSorterTypes_Ammo`](Sandbox.Game.Localization.DisplayName_ConvSorterTypes_Ammo)||
+|static [`DisplayName_ConvSorterTypes_Component`](Sandbox.Game.Localization.DisplayName_ConvSorterTypes_Component)||
+|static [`DisplayName_ConvSorterTypes_HandTool`](Sandbox.Game.Localization.DisplayName_ConvSorterTypes_HandTool)||
+|static [`DisplayName_ConvSorterTypes_Ingot`](Sandbox.Game.Localization.DisplayName_ConvSorterTypes_Ingot)||
+|static [`DisplayName_ConvSorterTypes_Ore`](Sandbox.Game.Localization.DisplayName_ConvSorterTypes_Ore)||
+|static [`DisplayName_Dead_Astronaut`](Sandbox.Game.Localization.DisplayName_Dead_Astronaut)||
+|static [`DisplayName_Faction_FirstColonyFaction`](Sandbox.Game.Localization.DisplayName_Faction_FirstColonyFaction)||
+|static [`DisplayName_Faction_FirstColonyFaction_Translation`](Sandbox.Game.Localization.DisplayName_Faction_FirstColonyFaction_Translation)||
+|static [`DisplayName_Faction_SpacePirates`](Sandbox.Game.Localization.DisplayName_Faction_SpacePirates)||
+|static [`DisplayName_Faction_SpacePirates_Translation`](Sandbox.Game.Localization.DisplayName_Faction_SpacePirates_Translation)||
+|static [`DisplayName_Faction_SpaceSpiders`](Sandbox.Game.Localization.DisplayName_Faction_SpaceSpiders)||
+|static [`DisplayName_Faction_SpaceSpiders_Translation`](Sandbox.Game.Localization.DisplayName_Faction_SpaceSpiders_Translation)||
+|static [`DisplayName_GridCreateTool_CreateLargeShip`](Sandbox.Game.Localization.DisplayName_GridCreateTool_CreateLargeShip)||
+|static [`DisplayName_GridCreateTool_CreateSmallShip`](Sandbox.Game.Localization.DisplayName_GridCreateTool_CreateSmallShip)||
+|static [`DisplayName_GridCreateTool_CreateStation`](Sandbox.Game.Localization.DisplayName_GridCreateTool_CreateStation)||
+|static [`DisplayName_Item_AngleGrinder`](Sandbox.Game.Localization.DisplayName_Item_AngleGrinder)||
+|static [`DisplayName_Item_AngleGrinder2`](Sandbox.Game.Localization.DisplayName_Item_AngleGrinder2)||
+|static [`DisplayName_Item_AngleGrinder3`](Sandbox.Game.Localization.DisplayName_Item_AngleGrinder3)||
+|static [`DisplayName_Item_AngleGrinder4`](Sandbox.Game.Localization.DisplayName_Item_AngleGrinder4)||
+|static [`DisplayName_Item_AutomaticRifle`](Sandbox.Game.Localization.DisplayName_Item_AutomaticRifle)||
+|static [`DisplayName_Item_BulletproofGlass`](Sandbox.Game.Localization.DisplayName_Item_BulletproofGlass)||
+|static [`DisplayName_Item_CanvasCartridge`](Sandbox.Game.Localization.DisplayName_Item_CanvasCartridge)||
+|static [`DisplayName_Item_CobaltIngot`](Sandbox.Game.Localization.DisplayName_Item_CobaltIngot)||
+|static [`DisplayName_Item_CobaltOre`](Sandbox.Game.Localization.DisplayName_Item_CobaltOre)||
+|static [`DisplayName_Item_Computer`](Sandbox.Game.Localization.DisplayName_Item_Computer)||
+|static [`DisplayName_Item_ConstructionComponent`](Sandbox.Game.Localization.DisplayName_Item_ConstructionComponent)||
+|static [`DisplayName_Item_DetectorComponents`](Sandbox.Game.Localization.DisplayName_Item_DetectorComponents)||
+|static [`DisplayName_Item_Display`](Sandbox.Game.Localization.DisplayName_Item_Display)||
+|static [`DisplayName_Item_EliteAutomaticRifle`](Sandbox.Game.Localization.DisplayName_Item_EliteAutomaticRifle)||
+|static [`DisplayName_Item_Explosives`](Sandbox.Game.Localization.DisplayName_Item_Explosives)||
+|static [`DisplayName_Item_Girder`](Sandbox.Game.Localization.DisplayName_Item_Girder)||
+|static [`DisplayName_Item_GoldIngot`](Sandbox.Game.Localization.DisplayName_Item_GoldIngot)||
+|static [`DisplayName_Item_GoldOre`](Sandbox.Game.Localization.DisplayName_Item_GoldOre)||
+|static [`DisplayName_Item_Gravel`](Sandbox.Game.Localization.DisplayName_Item_Gravel)||
+|static [`DisplayName_Item_GravityGeneratorComponents`](Sandbox.Game.Localization.DisplayName_Item_GravityGeneratorComponents)||
+|static [`DisplayName_Item_HandDrill`](Sandbox.Game.Localization.DisplayName_Item_HandDrill)||
+|static [`DisplayName_Item_HandDrill2`](Sandbox.Game.Localization.DisplayName_Item_HandDrill2)||
+|static [`DisplayName_Item_HandDrill3`](Sandbox.Game.Localization.DisplayName_Item_HandDrill3)||
+|static [`DisplayName_Item_HandDrill4`](Sandbox.Game.Localization.DisplayName_Item_HandDrill4)||
+|static [`DisplayName_Item_Hydrogen`](Sandbox.Game.Localization.DisplayName_Item_Hydrogen)||
+|static [`DisplayName_Item_HydrogenBottle`](Sandbox.Game.Localization.DisplayName_Item_HydrogenBottle)||
+|static [`DisplayName_Item_HydrogenBottles`](Sandbox.Game.Localization.DisplayName_Item_HydrogenBottles)||
+|static [`DisplayName_Item_Ice`](Sandbox.Game.Localization.DisplayName_Item_Ice)||
+|static [`DisplayName_Item_InteriorPlate`](Sandbox.Game.Localization.DisplayName_Item_InteriorPlate)||
+|static [`DisplayName_Item_IronIngot`](Sandbox.Game.Localization.DisplayName_Item_IronIngot)||
+|static [`DisplayName_Item_IronOre`](Sandbox.Game.Localization.DisplayName_Item_IronOre)||
+|static [`DisplayName_Item_LargeSteelTube`](Sandbox.Game.Localization.DisplayName_Item_LargeSteelTube)||
+|static [`DisplayName_Item_MagnesiumOre`](Sandbox.Game.Localization.DisplayName_Item_MagnesiumOre)||
+|static [`DisplayName_Item_MagnesiumPowder`](Sandbox.Game.Localization.DisplayName_Item_MagnesiumPowder)||
+|static [`DisplayName_Item_MedicalComponents`](Sandbox.Game.Localization.DisplayName_Item_MedicalComponents)||
+|static [`DisplayName_Item_MetalGrid`](Sandbox.Game.Localization.DisplayName_Item_MetalGrid)||
+|static [`DisplayName_Item_Missile200mm`](Sandbox.Game.Localization.DisplayName_Item_Missile200mm)||
+|static [`DisplayName_Item_Motor`](Sandbox.Game.Localization.DisplayName_Item_Motor)||
+|static [`DisplayName_Item_NATO_25x184mm`](Sandbox.Game.Localization.DisplayName_Item_NATO_25x184mm)||
+|static [`DisplayName_Item_NATO_5p56x45mm`](Sandbox.Game.Localization.DisplayName_Item_NATO_5p56x45mm)||
+|static [`DisplayName_Item_NickelIngot`](Sandbox.Game.Localization.DisplayName_Item_NickelIngot)||
+|static [`DisplayName_Item_NickelOre`](Sandbox.Game.Localization.DisplayName_Item_NickelOre)||
+|static [`DisplayName_Item_Organic`](Sandbox.Game.Localization.DisplayName_Item_Organic)||
+|static [`DisplayName_Item_Oxygen`](Sandbox.Game.Localization.DisplayName_Item_Oxygen)||
+|static [`DisplayName_Item_OxygenBottle`](Sandbox.Game.Localization.DisplayName_Item_OxygenBottle)||
+|static [`DisplayName_Item_OxygenBottles`](Sandbox.Game.Localization.DisplayName_Item_OxygenBottles)||
+|static [`DisplayName_Item_PlatinumIngot`](Sandbox.Game.Localization.DisplayName_Item_PlatinumIngot)||
+|static [`DisplayName_Item_PlatinumOre`](Sandbox.Game.Localization.DisplayName_Item_PlatinumOre)||
+|static [`DisplayName_Item_Potassium`](Sandbox.Game.Localization.DisplayName_Item_Potassium)||
+|static [`DisplayName_Item_PowerCell`](Sandbox.Game.Localization.DisplayName_Item_PowerCell)||
+|static [`DisplayName_Item_PreciseAutomaticRifle`](Sandbox.Game.Localization.DisplayName_Item_PreciseAutomaticRifle)||
+|static [`DisplayName_Item_RadioCommunicationComponents`](Sandbox.Game.Localization.DisplayName_Item_RadioCommunicationComponents)||
+|static [`DisplayName_Item_RapidFireAutomaticRifle`](Sandbox.Game.Localization.DisplayName_Item_RapidFireAutomaticRifle)||
+|static [`DisplayName_Item_ReactorComponents`](Sandbox.Game.Localization.DisplayName_Item_ReactorComponents)||
+|static [`DisplayName_Item_Scrap`](Sandbox.Game.Localization.DisplayName_Item_Scrap)||
+|static [`DisplayName_Item_ScrapIngot`](Sandbox.Game.Localization.DisplayName_Item_ScrapIngot)||
+|static [`DisplayName_Item_SiliconOre`](Sandbox.Game.Localization.DisplayName_Item_SiliconOre)||
+|static [`DisplayName_Item_SiliconWafer`](Sandbox.Game.Localization.DisplayName_Item_SiliconWafer)||
+|static [`DisplayName_Item_SilverIngot`](Sandbox.Game.Localization.DisplayName_Item_SilverIngot)||
+|static [`DisplayName_Item_SilverOre`](Sandbox.Game.Localization.DisplayName_Item_SilverOre)||
+|static [`DisplayName_Item_SmallSteelTube`](Sandbox.Game.Localization.DisplayName_Item_SmallSteelTube)||
+|static [`DisplayName_Item_SolarCell`](Sandbox.Game.Localization.DisplayName_Item_SolarCell)||
+|static [`DisplayName_Item_SteelPlate`](Sandbox.Game.Localization.DisplayName_Item_SteelPlate)||
+|static [`DisplayName_Item_StoneOre`](Sandbox.Game.Localization.DisplayName_Item_StoneOre)||
+|static [`DisplayName_Item_Superconductor`](Sandbox.Game.Localization.DisplayName_Item_Superconductor)||
+|static [`DisplayName_Item_ThrustComponents`](Sandbox.Game.Localization.DisplayName_Item_ThrustComponents)||
+|static [`DisplayName_Item_UraniumIngot`](Sandbox.Game.Localization.DisplayName_Item_UraniumIngot)||
+|static [`DisplayName_Item_UraniumOre`](Sandbox.Game.Localization.DisplayName_Item_UraniumOre)||
+|static [`DisplayName_Item_Welder`](Sandbox.Game.Localization.DisplayName_Item_Welder)||
+|static [`DisplayName_Item_Welder2`](Sandbox.Game.Localization.DisplayName_Item_Welder2)||
+|static [`DisplayName_Item_Welder3`](Sandbox.Game.Localization.DisplayName_Item_Welder3)||
+|static [`DisplayName_Item_Welder4`](Sandbox.Game.Localization.DisplayName_Item_Welder4)||
+|static [`DisplayName_LCD_Panel`](Sandbox.Game.Localization.DisplayName_LCD_Panel)||
+|static [`DisplayName_LCD_PanelWide`](Sandbox.Game.Localization.DisplayName_LCD_PanelWide)||
+|static [`DisplayName_MarsLander`](Sandbox.Game.Localization.DisplayName_MarsLander)||
+|static [`DisplayName_OpenHelmet`](Sandbox.Game.Localization.DisplayName_OpenHelmet)||
+|static [`DisplayName_PlanetaryLander`](Sandbox.Game.Localization.DisplayName_PlanetaryLander)||
+|static [`DisplayName_Programmable_Block`](Sandbox.Game.Localization.DisplayName_Programmable_Block)||
+|static [`DisplayName_RespawnShip_Assembler`](Sandbox.Game.Localization.DisplayName_RespawnShip_Assembler)||
+|static [`DisplayName_RespawnShip_EscapePod`](Sandbox.Game.Localization.DisplayName_RespawnShip_EscapePod)||
+|static [`DisplayName_RespawnShip_RefineryAssembler`](Sandbox.Game.Localization.DisplayName_RespawnShip_RefineryAssembler)||
+|static [`DisplayName_RespawnShip_ShipDrill`](Sandbox.Game.Localization.DisplayName_RespawnShip_ShipDrill)||
+|static [`DisplayName_RespawnShip_Yellow`](Sandbox.Game.Localization.DisplayName_RespawnShip_Yellow)||
+|static [`DisplayName_RewardPunishmentTool`](Sandbox.Game.Localization.DisplayName_RewardPunishmentTool)||
+|static [`DisplayName_Rifle`](Sandbox.Game.Localization.DisplayName_Rifle)||
+|static [`DisplayName_Scenario_2Planets`](Sandbox.Game.Localization.DisplayName_Scenario_2Planets)||
+|static [`DisplayName_Scenario_AlienEasyStart`](Sandbox.Game.Localization.DisplayName_Scenario_AlienEasyStart)||
+|static [`DisplayName_Scenario_Asteroids`](Sandbox.Game.Localization.DisplayName_Scenario_Asteroids)||
+|static [`DisplayName_Scenario_BigSmall`](Sandbox.Game.Localization.DisplayName_Scenario_BigSmall)||
+|static [`DisplayName_Scenario_CrashedRedShip`](Sandbox.Game.Localization.DisplayName_Scenario_CrashedRedShip)||
+|static [`DisplayName_Scenario_DebugStart`](Sandbox.Game.Localization.DisplayName_Scenario_DebugStart)||
+|static [`DisplayName_Scenario_EarthEasyStart`](Sandbox.Game.Localization.DisplayName_Scenario_EarthEasyStart)||
+|static [`DisplayName_Scenario_EasyStart1`](Sandbox.Game.Localization.DisplayName_Scenario_EasyStart1)||
+|static [`DisplayName_Scenario_EasyStart2`](Sandbox.Game.Localization.DisplayName_Scenario_EasyStart2)||
+|static [`DisplayName_Scenario_EasyStart3`](Sandbox.Game.Localization.DisplayName_Scenario_EasyStart3)||
+|static [`DisplayName_Scenario_EmptyWorld`](Sandbox.Game.Localization.DisplayName_Scenario_EmptyWorld)||
+|static [`DisplayName_Scenario_MarsEasyStart`](Sandbox.Game.Localization.DisplayName_Scenario_MarsEasyStart)||
+|static [`DisplayName_Scenario_MoonEasyStart`](Sandbox.Game.Localization.DisplayName_Scenario_MoonEasyStart)||
+|static [`DisplayName_Scenario_Planet`](Sandbox.Game.Localization.DisplayName_Scenario_Planet)||
+|static [`DisplayName_Scenario_ScaleTest`](Sandbox.Game.Localization.DisplayName_Scenario_ScaleTest)||
+|static [`DisplayName_Scenario_StarSystem`](Sandbox.Game.Localization.DisplayName_Scenario_StarSystem)||
+|static [`DisplayName_Scenario_StarSystemAligned`](Sandbox.Game.Localization.DisplayName_Scenario_StarSystemAligned)||
+|static [`DisplayName_Scenario_Survival`](Sandbox.Game.Localization.DisplayName_Scenario_Survival)||
+|static [`DisplayName_Scenario_TestStarSystem`](Sandbox.Game.Localization.DisplayName_Scenario_TestStarSystem)||
+|static [`DisplayName_Scenario_TwoPlatforms`](Sandbox.Game.Localization.DisplayName_Scenario_TwoPlatforms)||
+|static [`DisplayName_VoxelHand_AutoLevel`](Sandbox.Game.Localization.DisplayName_VoxelHand_AutoLevel)||
+|static [`DisplayName_VoxelHand_Box`](Sandbox.Game.Localization.DisplayName_VoxelHand_Box)||
+|static [`DisplayName_VoxelHand_Capsule`](Sandbox.Game.Localization.DisplayName_VoxelHand_Capsule)||
+|static [`DisplayName_VoxelHand_Ramp`](Sandbox.Game.Localization.DisplayName_VoxelHand_Ramp)||
+|static [`DisplayName_VoxelHand_Sphere`](Sandbox.Game.Localization.DisplayName_VoxelHand_Sphere)||
+|static [`DisplaySettings`](Sandbox.Game.Localization.DisplaySettings)||
+|static [`DistanceFromCenter`](Sandbox.Game.Localization.DistanceFromCenter)||
+|static [`DistanceFromPlayers`](Sandbox.Game.Localization.DistanceFromPlayers)||
+|static [`EnableDamageEffects`](Sandbox.Game.Localization.EnableDamageEffects)||
+|static [`EntityRename`](Sandbox.Game.Localization.EntityRename)||
+|static [`EntitySpawnOn`](Sandbox.Game.Localization.EntitySpawnOn)||
+|static [`Factions_EnemyFaction`](Sandbox.Game.Localization.Factions_EnemyFaction)||
+|static [`Factions_NeutralFaction`](Sandbox.Game.Localization.Factions_NeutralFaction)||
+|static [`Factions_YourBlock`](Sandbox.Game.Localization.Factions_YourBlock)||
+|static [`Factions_YourFaction`](Sandbox.Game.Localization.Factions_YourFaction)||
+|static [`Fastest`](Sandbox.Game.Localization.Fastest)||
+|static [`FirstApril2014`](Sandbox.Game.Localization.FirstApril2014)||
+|static [`FlaresIntensity`](Sandbox.Game.Localization.FlaresIntensity)||
+|static [`FloatingObjects`](Sandbox.Game.Localization.FloatingObjects)||
+|static [`Gold`](Sandbox.Game.Localization.Gold)||
+|static [`Gps`](Sandbox.Game.Localization.Gps)||
+|static [`GpsScreen_GpsListLabel`](Sandbox.Game.Localization.GpsScreen_GpsListLabel)||
+|static [`GPS_Body_Location_Desc`](Sandbox.Game.Localization.GPS_Body_Location_Desc)||
+|static [`GPS_Body_Location_Name`](Sandbox.Game.Localization.GPS_Body_Location_Name)||
+|static [`Grids`](Sandbox.Game.Localization.Grids)||
+|static [`GuiLabelVideoOnStart`](Sandbox.Game.Localization.GuiLabelVideoOnStart)||
+|static [`GuiMissionTriggersLostCondition`](Sandbox.Game.Localization.GuiMissionTriggersLostCondition)||
+|static [`GuiMissionTriggersWinCondition`](Sandbox.Game.Localization.GuiMissionTriggersWinCondition)||
+|static [`GuiScenarioCannotJoin`](Sandbox.Game.Localization.GuiScenarioCannotJoin)||
+|static [`GuiScenarioCannotJoinCaption`](Sandbox.Game.Localization.GuiScenarioCannotJoinCaption)||
+|static [`GuiScenarioDescription`](Sandbox.Game.Localization.GuiScenarioDescription)||
+|static [`GuiScenarioEdit_CopyIds`](Sandbox.Game.Localization.GuiScenarioEdit_CopyIds)||
+|static [`GuiScenarioEdit_CopyIdsTooltip`](Sandbox.Game.Localization.GuiScenarioEdit_CopyIdsTooltip)||
+|static [`GuiScenarioPlayerName`](Sandbox.Game.Localization.GuiScenarioPlayerName)||
+|static [`GuiScenarioPlayerStatus`](Sandbox.Game.Localization.GuiScenarioPlayerStatus)||
+|static [`GuiScenarioSend`](Sandbox.Game.Localization.GuiScenarioSend)||
+|static [`GuiScenarioStart`](Sandbox.Game.Localization.GuiScenarioStart)||
+|static [`GuiScenarioTimeout`](Sandbox.Game.Localization.GuiScenarioTimeout)||
+|static [`GuiScenarioTimeout10min`](Sandbox.Game.Localization.GuiScenarioTimeout10min)||
+|static [`GuiScenarioTimeout3min`](Sandbox.Game.Localization.GuiScenarioTimeout3min)||
+|static [`GuiScenarioTimeout5min`](Sandbox.Game.Localization.GuiScenarioTimeout5min)||
+|static [`GuiScenarioTimeoutUnlimited`](Sandbox.Game.Localization.GuiScenarioTimeoutUnlimited)||
+|static [`GuiTriggerBlockDestroyedSingleMessage`](Sandbox.Game.Localization.GuiTriggerBlockDestroyedSingleMessage)||
+|static [`GuiTriggerBlockDestroyed_ColumnName`](Sandbox.Game.Localization.GuiTriggerBlockDestroyed_ColumnName)||
+|static [`GuiTriggerCaptionAllOthersLost`](Sandbox.Game.Localization.GuiTriggerCaptionAllOthersLost)||
+|static [`GuiTriggerCaptionBlockDestroyed`](Sandbox.Game.Localization.GuiTriggerCaptionBlockDestroyed)||
+|static [`GuiTriggerCaptionLives`](Sandbox.Game.Localization.GuiTriggerCaptionLives)||
+|static [`GuiTriggerCaptionNoSpawn`](Sandbox.Game.Localization.GuiTriggerCaptionNoSpawn)||
+|static [`GuiTriggerCaptionPositionLeft`](Sandbox.Game.Localization.GuiTriggerCaptionPositionLeft)||
+|static [`GuiTriggerCaptionPositionReached`](Sandbox.Game.Localization.GuiTriggerCaptionPositionReached)||
+|static [`GuiTriggerCaptionSomeoneWon`](Sandbox.Game.Localization.GuiTriggerCaptionSomeoneWon)||
+|static [`GuiTriggerCaptionTimeLimit`](Sandbox.Game.Localization.GuiTriggerCaptionTimeLimit)||
+|static [`GuiTriggerDeleteBlocks`](Sandbox.Game.Localization.GuiTriggerDeleteBlocks)||
+|static [`GuiTriggerMessage`](Sandbox.Game.Localization.GuiTriggerMessage)||
+|static [`GuiTriggerNextMission`](Sandbox.Game.Localization.GuiTriggerNextMission)||
+|static [`GuiTriggerNextMissionTooltip`](Sandbox.Game.Localization.GuiTriggerNextMissionTooltip)||
+|static [`GuiTriggerNoSpawnTimeLimit`](Sandbox.Game.Localization.GuiTriggerNoSpawnTimeLimit)||
+|static [`GuiTriggerPasteBlocks`](Sandbox.Game.Localization.GuiTriggerPasteBlocks)||
+|static [`GuiTriggerPasteBlocksTooltip`](Sandbox.Game.Localization.GuiTriggerPasteBlocksTooltip)||
+|static [`GuiTriggerPasteGps`](Sandbox.Game.Localization.GuiTriggerPasteGps)||
+|static [`GuiTriggerPositionRadius`](Sandbox.Game.Localization.GuiTriggerPositionRadius)||
+|static [`GuiTriggersLives`](Sandbox.Game.Localization.GuiTriggersLives)||
+|static [`GuiTriggerTimeLimit`](Sandbox.Game.Localization.GuiTriggerTimeLimit)||
+|static [`GuiTriggerWwwLink`](Sandbox.Game.Localization.GuiTriggerWwwLink)||
+|static [`HelpScreen_FactionColor_Blue`](Sandbox.Game.Localization.HelpScreen_FactionColor_Blue)||
+|static [`HelpScreen_FactionColor_Green`](Sandbox.Game.Localization.HelpScreen_FactionColor_Green)||
+|static [`HelpScreen_FactionColor_Red`](Sandbox.Game.Localization.HelpScreen_FactionColor_Red)||
+|static [`HelpScreen_FactionColor_White`](Sandbox.Game.Localization.HelpScreen_FactionColor_White)||
+|static [`HideEmpty`](Sandbox.Game.Localization.HideEmpty)||
+|static [`Hint00Text`](Sandbox.Game.Localization.Hint00Text)||
+|static [`Hint01Control0`](Sandbox.Game.Localization.Hint01Control0)||
+|static [`Hint01Text`](Sandbox.Game.Localization.Hint01Text)||
+|static [`Hint02Control0`](Sandbox.Game.Localization.Hint02Control0)||
+|static [`Hint02Text`](Sandbox.Game.Localization.Hint02Text)||
+|static [`Hint03Text`](Sandbox.Game.Localization.Hint03Text)||
+|static [`Hint04Control0`](Sandbox.Game.Localization.Hint04Control0)||
+|static [`Hint04Text`](Sandbox.Game.Localization.Hint04Text)||
+|static [`Hint05Text`](Sandbox.Game.Localization.Hint05Text)||
+|static [`Hint06Text`](Sandbox.Game.Localization.Hint06Text)||
+|static [`Hint07Text`](Sandbox.Game.Localization.Hint07Text)||
+|static [`Hint08Text`](Sandbox.Game.Localization.Hint08Text)||
+|static [`Hint09Text`](Sandbox.Game.Localization.Hint09Text)||
+|static [`Hint10Control0`](Sandbox.Game.Localization.Hint10Control0)||
+|static [`Hint10Text`](Sandbox.Game.Localization.Hint10Text)||
+|static [`Hint11Text`](Sandbox.Game.Localization.Hint11Text)||
+|static [`Hint12Control0`](Sandbox.Game.Localization.Hint12Control0)||
+|static [`Hint12Text`](Sandbox.Game.Localization.Hint12Text)||
+|static [`Hint13Text`](Sandbox.Game.Localization.Hint13Text)||
+|static [`Hint14Text`](Sandbox.Game.Localization.Hint14Text)||
+|static [`Hint15Text`](Sandbox.Game.Localization.Hint15Text)||
+|static [`Hint16Text`](Sandbox.Game.Localization.Hint16Text)||
+|static [`Hint17Text`](Sandbox.Game.Localization.Hint17Text)||
+|static [`Hint18Text`](Sandbox.Game.Localization.Hint18Text)||
+|static [`Hint19Text`](Sandbox.Game.Localization.Hint19Text)||
+|static [`Hint20Text`](Sandbox.Game.Localization.Hint20Text)||
+|static [`Hint21Text`](Sandbox.Game.Localization.Hint21Text)||
+|static [`Hint22Text`](Sandbox.Game.Localization.Hint22Text)||
+|static [`Hint23Text`](Sandbox.Game.Localization.Hint23Text)||
+|static [`Hint24Text`](Sandbox.Game.Localization.Hint24Text)||
+|static [`Hint25Text`](Sandbox.Game.Localization.Hint25Text)||
+|static [`Hint26Control0`](Sandbox.Game.Localization.Hint26Control0)||
+|static [`Hint26Text`](Sandbox.Game.Localization.Hint26Text)||
+|static [`HudBlockInfo_Components`](Sandbox.Game.Localization.HudBlockInfo_Components)||
+|static [`HudBlockInfo_Installed_Required`](Sandbox.Game.Localization.HudBlockInfo_Installed_Required)||
+|static [`HudBlockInfo_LargeShip_Station`](Sandbox.Game.Localization.HudBlockInfo_LargeShip_Station)||
+|static [`HudBlockInfo_SmallShip`](Sandbox.Game.Localization.HudBlockInfo_SmallShip)||
+|static [`HudEnergyGroupBatteries`](Sandbox.Game.Localization.HudEnergyGroupBatteries)||
+|static [`HudEnergyGroupCharging`](Sandbox.Game.Localization.HudEnergyGroupCharging)||
+|static [`HudEnergyGroupConveyors`](Sandbox.Game.Localization.HudEnergyGroupConveyors)||
+|static [`HudEnergyGroupDefense`](Sandbox.Game.Localization.HudEnergyGroupDefense)||
+|static [`HudEnergyGroupDoors`](Sandbox.Game.Localization.HudEnergyGroupDoors)||
+|static [`HudEnergyGroupFactory`](Sandbox.Game.Localization.HudEnergyGroupFactory)||
+|static [`HudEnergyGroupGyroscope`](Sandbox.Game.Localization.HudEnergyGroupGyroscope)||
+|static [`HudEnergyGroupThrust`](Sandbox.Game.Localization.HudEnergyGroupThrust)||
+|static [`HudEnergyGroupUtility`](Sandbox.Game.Localization.HudEnergyGroupUtility)||
+|static [`HudEnergyMissingTotal`](Sandbox.Game.Localization.HudEnergyMissingTotal)||
+|static [`HudInfoBroadcasting`](Sandbox.Game.Localization.HudInfoBroadcasting)||
+|static [`HudInfoControllingStation`](Sandbox.Game.Localization.HudInfoControllingStation)||
+|static [`HudInfoCrouching`](Sandbox.Game.Localization.HudInfoCrouching)||
+|static [`HudInfoFalling`](Sandbox.Game.Localization.HudInfoFalling)||
+|static [`HudInfoFlying`](Sandbox.Game.Localization.HudInfoFlying)||
+|static [`HudInfoGravity`](Sandbox.Game.Localization.HudInfoGravity)||
+|static [`HudInfoGravityArtificial`](Sandbox.Game.Localization.HudInfoGravityArtificial)||
+|static [`HudInfoGravityNatural`](Sandbox.Game.Localization.HudInfoGravityNatural)||
+|static [`HudInfoHelmet`](Sandbox.Game.Localization.HudInfoHelmet)||
+|static [`HudInfoInventoryVolume`](Sandbox.Game.Localization.HudInfoInventoryVolume)||
+|static [`HudInfoMagnetic`](Sandbox.Game.Localization.HudInfoMagnetic)||
+|static [`HudInfoNameBroadcastRange`](Sandbox.Game.Localization.HudInfoNameBroadcastRange)||
+|static [`HudInfoNameDampeners`](Sandbox.Game.Localization.HudInfoNameDampeners)||
+|static [`HudInfoNameEnergy`](Sandbox.Game.Localization.HudInfoNameEnergy)||
+|static [`HudInfoNameFuelTime`](Sandbox.Game.Localization.HudInfoNameFuelTime)||
+|static [`HudInfoNameGyroscopes`](Sandbox.Game.Localization.HudInfoNameGyroscopes)||
+|static [`HudInfoNameHealth`](Sandbox.Game.Localization.HudInfoNameHealth)||
+|static [`HudInfoNameInProximity`](Sandbox.Game.Localization.HudInfoNameInProximity)||
+|static [`HudInfoNameJetpack`](Sandbox.Game.Localization.HudInfoNameJetpack)||
+|static [`HudInfoNameLandingGear`](Sandbox.Game.Localization.HudInfoNameLandingGear)||
+|static [`HudInfoNameLights`](Sandbox.Game.Localization.HudInfoNameLights)||
+|static [`HudInfoNameLocked`](Sandbox.Game.Localization.HudInfoNameLocked)||
+|static [`HudInfoNameMass`](Sandbox.Game.Localization.HudInfoNameMass)||
+|static [`HudInfoNameNumberOfBatteries`](Sandbox.Game.Localization.HudInfoNameNumberOfBatteries)||
+|static [`HudInfoNamePowerUsage`](Sandbox.Game.Localization.HudInfoNamePowerUsage)||
+|static [`HudInfoNameReactors`](Sandbox.Game.Localization.HudInfoNameReactors)||
+|static [`HudInfoNameSpeed`](Sandbox.Game.Localization.HudInfoNameSpeed)||
+|static [`HudInfoNameThrusts`](Sandbox.Game.Localization.HudInfoNameThrusts)||
+|static [`HudInfoNoGravity`](Sandbox.Game.Localization.HudInfoNoGravity)||
+|static [`HudInfoNoPower`](Sandbox.Game.Localization.HudInfoNoPower)||
+|static [`HudInfoNoReflectors`](Sandbox.Game.Localization.HudInfoNoReflectors)||
+|static [`HudInfoOff`](Sandbox.Game.Localization.HudInfoOff)||
+|static [`HudInfoOn`](Sandbox.Game.Localization.HudInfoOn)||
+|static [`HudInfoOxygen`](Sandbox.Game.Localization.HudInfoOxygen)||
+|static [`HudInfoPilotingLargeShip`](Sandbox.Game.Localization.HudInfoPilotingLargeShip)||
+|static [`HudInfoPilotingSmallShip`](Sandbox.Game.Localization.HudInfoPilotingSmallShip)||
+|static [`HudInfoPowerOverload`](Sandbox.Game.Localization.HudInfoPowerOverload)||
+|static [`HudInfoReflectorsOff`](Sandbox.Game.Localization.HudInfoReflectorsOff)||
+|static [`HudInfoReflectorsOn`](Sandbox.Game.Localization.HudInfoReflectorsOn)||
+|static [`HudInfoStanding`](Sandbox.Game.Localization.HudInfoStanding)||
+|static [`HudInfoState`](Sandbox.Game.Localization.HudInfoState)||
+|static [`HudScenarioInfoLivesLeft`](Sandbox.Game.Localization.HudScenarioInfoLivesLeft)||
+|static [`HudScenarioInfoTimeLeft`](Sandbox.Game.Localization.HudScenarioInfoTimeLeft)||
+|static [`Ice`](Sandbox.Game.Localization.Ice)||
+|static [`IconSymbol_Ag`](Sandbox.Game.Localization.IconSymbol_Ag)||
+|static [`IconSymbol_Au`](Sandbox.Game.Localization.IconSymbol_Au)||
+|static [`IconSymbol_Co`](Sandbox.Game.Localization.IconSymbol_Co)||
+|static [`IconSymbol_Fe`](Sandbox.Game.Localization.IconSymbol_Fe)||
+|static [`IconSymbol_Gravel`](Sandbox.Game.Localization.IconSymbol_Gravel)||
+|static [`IconSymbol_Ice`](Sandbox.Game.Localization.IconSymbol_Ice)||
+|static [`IconSymbol_K`](Sandbox.Game.Localization.IconSymbol_K)||
+|static [`IconSymbol_Mg`](Sandbox.Game.Localization.IconSymbol_Mg)||
+|static [`IconSymbol_Ni`](Sandbox.Game.Localization.IconSymbol_Ni)||
+|static [`IconSymbol_Organic`](Sandbox.Game.Localization.IconSymbol_Organic)||
+|static [`IconSymbol_Pt`](Sandbox.Game.Localization.IconSymbol_Pt)||
+|static [`IconSymbol_Si`](Sandbox.Game.Localization.IconSymbol_Si)||
+|static [`IconSymbol_Stone`](Sandbox.Game.Localization.IconSymbol_Stone)||
+|static [`IconSymbol_U`](Sandbox.Game.Localization.IconSymbol_U)||
+|static [`IngameHelp_Intro_Detail1`](Sandbox.Game.Localization.IngameHelp_Intro_Detail1)||
+|static [`IngameHelp_Intro_Detail2`](Sandbox.Game.Localization.IngameHelp_Intro_Detail2)||
+|static [`IngameHelp_Intro_Title`](Sandbox.Game.Localization.IngameHelp_Intro_Title)||
+|static [`IngameHelp_Jetpack_Title`](Sandbox.Game.Localization.IngameHelp_Jetpack_Title)||
+|static [`IngameHelp_Jetpack_Detail1`](Sandbox.Game.Localization.IngameHelp_Jetpack_Detail1)||
+|static [`IngameHelp_Jetpack_Detail2`](Sandbox.Game.Localization.IngameHelp_Jetpack_Detail2)||
+|static [`IngameHelp_Jetpack_Detail3`](Sandbox.Game.Localization.IngameHelp_Jetpack_Detail3)||
+|static [`IngameHelp_Jetpack_Detail4`](Sandbox.Game.Localization.IngameHelp_Jetpack_Detail4)||
+|static [`IngameHelp_Jetpack_Detail5`](Sandbox.Game.Localization.IngameHelp_Jetpack_Detail5)||
+|static [`IngameHelp_Movement_Detail1`](Sandbox.Game.Localization.IngameHelp_Movement_Detail1)||
+|static [`IngameHelp_Movement_Detail2`](Sandbox.Game.Localization.IngameHelp_Movement_Detail2)||
+|static [`IngameHelp_Movement_Detail3`](Sandbox.Game.Localization.IngameHelp_Movement_Detail3)||
+|static [`IngameHelp_Movement_Detail4`](Sandbox.Game.Localization.IngameHelp_Movement_Detail4)||
+|static [`IngameHelp_Movement_Detail5`](Sandbox.Game.Localization.IngameHelp_Movement_Detail5)||
+|static [`IngameHelp_Camera_Detail1`](Sandbox.Game.Localization.IngameHelp_Camera_Detail1)||
+|static [`IngameHelp_Camera_Detail2`](Sandbox.Game.Localization.IngameHelp_Camera_Detail2)||
+|static [`IngameHelp_Camera_Detail3`](Sandbox.Game.Localization.IngameHelp_Camera_Detail3)||
+|static [`IngameHelp_Movement_Title`](Sandbox.Game.Localization.IngameHelp_Movement_Title)||
+|static [`INVALID`](Sandbox.Game.Localization.INVALID)||
+|static [`Inventory`](Sandbox.Game.Localization.Inventory)||
+|static [`Iron`](Sandbox.Game.Localization.Iron)||
+|static [`Jump_Achievable`](Sandbox.Game.Localization.Jump_Achievable)||
+|static [`Jump_Blind`](Sandbox.Game.Localization.Jump_Blind)||
+|static [`Jump_CrewCount`](Sandbox.Game.Localization.Jump_CrewCount)||
+|static [`Jump_Destination`](Sandbox.Game.Localization.Jump_Destination)||
+|static [`Jump_Distance`](Sandbox.Game.Localization.Jump_Distance)||
+|static [`Jump_DistanceToDest`](Sandbox.Game.Localization.Jump_DistanceToDest)||
+|static [`Jump_DriveCount`](Sandbox.Game.Localization.Jump_DriveCount)||
+|static [`Jump_MinDistance`](Sandbox.Game.Localization.Jump_MinDistance)||
+|static [`Jump_Obstacle`](Sandbox.Game.Localization.Jump_Obstacle)||
+|static [`Jump_ObstacleTruncation`](Sandbox.Game.Localization.Jump_ObstacleTruncation)||
+|static [`Jump_Weight`](Sandbox.Game.Localization.Jump_Weight)||
+|static [`KeepProjectionToggle`](Sandbox.Game.Localization.KeepProjectionToggle)||
+|static [`KeepProjectionTooltip`](Sandbox.Game.Localization.KeepProjectionTooltip)||
+|static [`LargeGrids`](Sandbox.Game.Localization.LargeGrids)||
+|static [`LargeMissileTurretReloadingNotification`](Sandbox.Game.Localization.LargeMissileTurretReloadingNotification)||
+|static [`LaserAntennaConnectButton`](Sandbox.Game.Localization.LaserAntennaConnectButton)||
+|static [`LaserAntennaConnectGPS`](Sandbox.Game.Localization.LaserAntennaConnectGPS)||
+|static [`LaserAntennaCopyCoords`](Sandbox.Game.Localization.LaserAntennaCopyCoords)||
+|static [`LaserAntennaCopyCoordsHelp`](Sandbox.Game.Localization.LaserAntennaCopyCoordsHelp)||
+|static [`LaserAntennaCopyTargetCoords`](Sandbox.Game.Localization.LaserAntennaCopyTargetCoords)||
+|static [`LaserAntennaCopyTargetCoordsHelp`](Sandbox.Game.Localization.LaserAntennaCopyTargetCoordsHelp)||
+|static [`LaserAntennaIdleButton`](Sandbox.Game.Localization.LaserAntennaIdleButton)||
+|static [`LaserAntennaModeConnectedTo`](Sandbox.Game.Localization.LaserAntennaModeConnectedTo)||
+|static [`LaserAntennaModeContactRec`](Sandbox.Game.Localization.LaserAntennaModeContactRec)||
+|static [`LaserAntennaModeIdle`](Sandbox.Game.Localization.LaserAntennaModeIdle)||
+|static [`LaserAntennaModeRotGPS`](Sandbox.Game.Localization.LaserAntennaModeRotGPS)||
+|static [`LaserAntennaModeRotRec`](Sandbox.Game.Localization.LaserAntennaModeRotRec)||
+|static [`LaserAntennaModeSearchGPS`](Sandbox.Game.Localization.LaserAntennaModeSearchGPS)||
+|static [`LaserAntennaOnlyPerm`](Sandbox.Game.Localization.LaserAntennaOnlyPerm)||
+|static [`LaserAntennaOutsideLimits`](Sandbox.Game.Localization.LaserAntennaOutsideLimits)||
+|static [`LaserAntennaPasteGPS`](Sandbox.Game.Localization.LaserAntennaPasteGPS)||
+|static [`LaserAntennaPermanentCheckbox`](Sandbox.Game.Localization.LaserAntennaPermanentCheckbox)||
+|static [`LaserAntennaReceiversList`](Sandbox.Game.Localization.LaserAntennaReceiversList)||
+|static [`LaserAntennaReceiversListHelp`](Sandbox.Game.Localization.LaserAntennaReceiversListHelp)||
+|static [`LaserAntennaSelectedCoords`](Sandbox.Game.Localization.LaserAntennaSelectedCoords)||
+|static [`LCD_Arrow`](Sandbox.Game.Localization.LCD_Arrow)||
+|static [`LCD_Construction`](Sandbox.Game.Localization.LCD_Construction)||
+|static [`LCD_Cross`](Sandbox.Game.Localization.LCD_Cross)||
+|static [`LCD_Danger`](Sandbox.Game.Localization.LCD_Danger)||
+|static [`LCD_NoEntry`](Sandbox.Game.Localization.LCD_NoEntry)||
+|static [`LCD_Offline`](Sandbox.Game.Localization.LCD_Offline)||
+|static [`LCD_Online`](Sandbox.Game.Localization.LCD_Online)||
+|static [`LCD_WhiteScreen`](Sandbox.Game.Localization.LCD_WhiteScreen)||
+|static [`LoadingError_ModifiedOriginalContent`](Sandbox.Game.Localization.LoadingError_ModifiedOriginalContent)||
+|static [`LoadingWheel_Streaming`](Sandbox.Game.Localization.LoadingWheel_Streaming)||
+|static [`LowMemSwitchToLowQuestion`](Sandbox.Game.Localization.LowMemSwitchToLowQuestion)||
+|static [`Magnesium`](Sandbox.Game.Localization.Magnesium)||
+|static [`Mass`](Sandbox.Game.Localization.Mass)||
+|static [`MaxBackupSaves`](Sandbox.Game.Localization.MaxBackupSaves)||
+|static [`MaxFloatingObjects`](Sandbox.Game.Localization.MaxFloatingObjects)||
+|static [`MedicalRoom_factionAssignmentLabel`](Sandbox.Game.Localization.MedicalRoom_factionAssignmentLabel)||
+|static [`MedicalRoom_factionAssignmentTooltip`](Sandbox.Game.Localization.MedicalRoom_factionAssignmentTooltip)||
+|static [`MedicalRoom_ownershipAssignmentLabel`](Sandbox.Game.Localization.MedicalRoom_ownershipAssignmentLabel)||
+|static [`MedicalRoom_ownershipAssignmentTooltip`](Sandbox.Game.Localization.MedicalRoom_ownershipAssignmentTooltip)||
+|static [`MessageBoxCaptionDoYouWishToPublishScenario`](Sandbox.Game.Localization.MessageBoxCaptionDoYouWishToPublishScenario)||
+|static [`MessageBoxCaptionDoYouWishToUpdateScenario`](Sandbox.Game.Localization.MessageBoxCaptionDoYouWishToUpdateScenario)||
+|static [`MessageBoxCaptionRecommend`](Sandbox.Game.Localization.MessageBoxCaptionRecommend)||
+|static [`MessageBoxCaptionRespawn`](Sandbox.Game.Localization.MessageBoxCaptionRespawn)||
+|static [`MessageBoxCaptionScenarioPublished`](Sandbox.Game.Localization.MessageBoxCaptionScenarioPublished)||
+|static [`MessageBoxCaptionScenarioPublishFailed`](Sandbox.Game.Localization.MessageBoxCaptionScenarioPublishFailed)||
+|static [`MessageBoxCaptionTutorial`](Sandbox.Game.Localization.MessageBoxCaptionTutorial)||
+|static [`MessageBoxCaptionVideo`](Sandbox.Game.Localization.MessageBoxCaptionVideo)||
+|static [`MessageBoxTextAreYouSureEnableOxygen`](Sandbox.Game.Localization.MessageBoxTextAreYouSureEnableOxygen)||
+|static [`MessageBoxTextAreYouSureEnableOxygenPressurization`](Sandbox.Game.Localization.MessageBoxTextAreYouSureEnableOxygenPressurization)||
+|static [`MessageBoxTextAreYouSureToRemoveAsteroid`](Sandbox.Game.Localization.MessageBoxTextAreYouSureToRemoveAsteroid)||
+|static [`MessageBoxTextDoYouWishToPublishScenario`](Sandbox.Game.Localization.MessageBoxTextDoYouWishToPublishScenario)||
+|static [`MessageBoxTextDoYouWishToUpdateScenario`](Sandbox.Game.Localization.MessageBoxTextDoYouWishToUpdateScenario)||
+|static [`MessageBoxTextRecommend`](Sandbox.Game.Localization.MessageBoxTextRecommend)||
+|static [`MessageBoxTextRestartNeededAfterLanguageSwitch`](Sandbox.Game.Localization.MessageBoxTextRestartNeededAfterLanguageSwitch)||
+|static [`MessageBoxTextRestartNeededAfterRendererSwitch`](Sandbox.Game.Localization.MessageBoxTextRestartNeededAfterRendererSwitch)||
+|static [`MessageBoxTextScenarioNotFound`](Sandbox.Game.Localization.MessageBoxTextScenarioNotFound)||
+|static [`MessageBoxTextScenarioPublished`](Sandbox.Game.Localization.MessageBoxTextScenarioPublished)||
+|static [`MessageBoxTextScenarioPublishFailed`](Sandbox.Game.Localization.MessageBoxTextScenarioPublishFailed)||
+|static [`MessageBoxTextTutorialQuestion`](Sandbox.Game.Localization.MessageBoxTextTutorialQuestion)||
+|static [`MessageBoxTextWatchVideo`](Sandbox.Game.Localization.MessageBoxTextWatchVideo)||
+|static [`MessageBoxTextWorkshopDownloadFailed`](Sandbox.Game.Localization.MessageBoxTextWorkshopDownloadFailed)||
+|static [`MissileLauncherReloadingNotification`](Sandbox.Game.Localization.MissileLauncherReloadingNotification)||
+|static [`MissionScreenCaption`](Sandbox.Game.Localization.MissionScreenCaption)||
+|static [`MissionTriggerOtherWon`](Sandbox.Game.Localization.MissionTriggerOtherWon)||
+|static [`MissionTriggerReachPosition`](Sandbox.Game.Localization.MissionTriggerReachPosition)||
+|static [`MostActiveDrills`](Sandbox.Game.Localization.MostActiveDrills)||
+|static [`MostActiveProductionBuildings`](Sandbox.Game.Localization.MostActiveProductionBuildings)||
+|static [`MostActiveReactors`](Sandbox.Game.Localization.MostActiveReactors)||
+|static [`MostActiveSensors`](Sandbox.Game.Localization.MostActiveSensors)||
+|static [`MostActiveThrusters`](Sandbox.Game.Localization.MostActiveThrusters)||
+|static [`MostWheels`](Sandbox.Game.Localization.MostWheels)||
+|static [`MultiplayerJoinProductionMultipliers`](Sandbox.Game.Localization.MultiplayerJoinProductionMultipliers)||
+|static [`MyGuiScreenTriggerBlockDestroyed`](Sandbox.Game.Localization.MyGuiScreenTriggerBlockDestroyed)||
+|static [`MyGuiScreenTriggerNoSpawn`](Sandbox.Game.Localization.MyGuiScreenTriggerNoSpawn)||
+|static [`MyGuiScreenTriggerTimeLimit`](Sandbox.Game.Localization.MyGuiScreenTriggerTimeLimit)||
+|static [`NewVersionAvailable`](Sandbox.Game.Localization.NewVersionAvailable)||
+|static [`Nickel`](Sandbox.Game.Localization.Nickel)||
+|static [`None`](Sandbox.Game.Localization.None)||
+|static [`NotAvailable`](Sandbox.Game.Localization.NotAvailable)||
+|static [`NotEnoughMaterial`](Sandbox.Game.Localization.NotEnoughMaterial)||
+|static [`NoticeLine_01`](Sandbox.Game.Localization.NoticeLine_01)||
+|static [`NoticeLine_02`](Sandbox.Game.Localization.NoticeLine_02)||
+|static [`NoticeLine_03`](Sandbox.Game.Localization.NoticeLine_03)||
+|static [`NoticeLine_04`](Sandbox.Game.Localization.NoticeLine_04)||
+|static [`NoticeLine_05`](Sandbox.Game.Localization.NoticeLine_05)||
+|static [`NoticeLine_06`](Sandbox.Game.Localization.NoticeLine_06)||
+|static [`NoticeLine_07`](Sandbox.Game.Localization.NoticeLine_07)||
+|static [`NotificationArgAngleGrinder`](Sandbox.Game.Localization.NotificationArgAngleGrinder)||
+|static [`NotificationArgDrill`](Sandbox.Game.Localization.NotificationArgDrill)||
+|static [`NotificationArgLargeShip`](Sandbox.Game.Localization.NotificationArgLargeShip)||
+|static [`NotificationArgMissile`](Sandbox.Game.Localization.NotificationArgMissile)||
+|static [`NotificationArgProjectile`](Sandbox.Game.Localization.NotificationArgProjectile)||
+|static [`NotificationArgSmallShip`](Sandbox.Game.Localization.NotificationArgSmallShip)||
+|static [`NotificationArgStation`](Sandbox.Game.Localization.NotificationArgStation)||
+|static [`NotificationArgWelder`](Sandbox.Game.Localization.NotificationArgWelder)||
+|static [`NotificationBlockNotAvailableFor`](Sandbox.Game.Localization.NotificationBlockNotAvailableFor)||
+|static [`NotificationBottleRefill`](Sandbox.Game.Localization.NotificationBottleRefill)||
+|static [`NotificationCannotJumpFromGravity`](Sandbox.Game.Localization.NotificationCannotJumpFromGravity)||
+|static [`NotificationCannotJumpIntoGravity`](Sandbox.Game.Localization.NotificationCannotJumpIntoGravity)||
+|static [`NotificationCannotJumpOutsideWorld`](Sandbox.Game.Localization.NotificationCannotJumpOutsideWorld)||
+|static [`NotificationCharacterBroadcastingOff`](Sandbox.Game.Localization.NotificationCharacterBroadcastingOff)||
+|static [`NotificationCharacterBroadcastingOn`](Sandbox.Game.Localization.NotificationCharacterBroadcastingOn)||
+|static [`NotificationConnectorsDisabled`](Sandbox.Game.Localization.NotificationConnectorsDisabled)||
+|static [`NotificationConnectorsEnabled`](Sandbox.Game.Localization.NotificationConnectorsEnabled)||
+|static [`NotificationCopyPasteAsteroidObstructed`](Sandbox.Game.Localization.NotificationCopyPasteAsteroidObstructed)||
+|static [`NotificationEnergyCritical`](Sandbox.Game.Localization.NotificationEnergyCritical)||
+|static [`NotificationEnergyLow`](Sandbox.Game.Localization.NotificationEnergyLow)||
+|static [`NotificationEnergyNo`](Sandbox.Game.Localization.NotificationEnergyNo)||
+|static [`NotificationFuelCritical`](Sandbox.Game.Localization.NotificationFuelCritical)||
+|static [`NotificationFuelLow`](Sandbox.Game.Localization.NotificationFuelLow)||
+|static [`NotificationFuelNo`](Sandbox.Game.Localization.NotificationFuelNo)||
+|static [`NotificationGasBottleRefill`](Sandbox.Game.Localization.NotificationGasBottleRefill)||
+|static [`NotificationGridReachedPhysicalLimit`](Sandbox.Game.Localization.NotificationGridReachedPhysicalLimit)||
+|static [`NotificationHandbrakeOff`](Sandbox.Game.Localization.NotificationHandbrakeOff)||
+|static [`NotificationHandbrakeOn`](Sandbox.Game.Localization.NotificationHandbrakeOn)||
+|static [`NotificationHealthCritical`](Sandbox.Game.Localization.NotificationHealthCritical)||
+|static [`NotificationHealthLow`](Sandbox.Game.Localization.NotificationHealthLow)||
+|static [`NotificationHelmetOff`](Sandbox.Game.Localization.NotificationHelmetOff)||
+|static [`NotificationHelmetOn`](Sandbox.Game.Localization.NotificationHelmetOn)||
+|static [`NotificationHintJoystickPressToOpenButtonPanel`](Sandbox.Game.Localization.NotificationHintJoystickPressToOpenButtonPanel)||
+|static [`NotificationHintJoystickPressToOpenControlPanel`](Sandbox.Game.Localization.NotificationHintJoystickPressToOpenControlPanel)||
+|static [`NotificationHintJoystickPressToOpenTerminal`](Sandbox.Game.Localization.NotificationHintJoystickPressToOpenTerminal)||
+|static [`NotificationHintLeaveCockpit`](Sandbox.Game.Localization.NotificationHintLeaveCockpit)||
+|static [`NotificationHintLeaveCryoChamber`](Sandbox.Game.Localization.NotificationHintLeaveCryoChamber)||
+|static [`NotificationHintNoAction`](Sandbox.Game.Localization.NotificationHintNoAction)||
+|static [`NotificationHintOpenShipControlPanel`](Sandbox.Game.Localization.NotificationHintOpenShipControlPanel)||
+|static [`NotificationHintPressToClimbUpDown`](Sandbox.Game.Localization.NotificationHintPressToClimbUpDown)||
+|static [`NotificationHintPressToEnterCockpit`](Sandbox.Game.Localization.NotificationHintPressToEnterCockpit)||
+|static [`NotificationHintPressToEnterCryochamber`](Sandbox.Game.Localization.NotificationHintPressToEnterCryochamber)||
+|static [`NotificationHintPressToExitCamera`](Sandbox.Game.Localization.NotificationHintPressToExitCamera)||
+|static [`NotificationHintPressToGetDownFromLadder`](Sandbox.Game.Localization.NotificationHintPressToGetDownFromLadder)||
+|static [`NotificationHintPressToJumpOffLadder`](Sandbox.Game.Localization.NotificationHintPressToJumpOffLadder)||
+|static [`NotificationHintPressToOpenButtonPanel`](Sandbox.Game.Localization.NotificationHintPressToOpenButtonPanel)||
+|static [`NotificationHintPressToOpenControlPanel`](Sandbox.Game.Localization.NotificationHintPressToOpenControlPanel)||
+|static [`NotificationHintPressToOpenDoor`](Sandbox.Game.Localization.NotificationHintPressToOpenDoor)||
+|static [`NotificationHintPressToOpenInventory`](Sandbox.Game.Localization.NotificationHintPressToOpenInventory)||
+|static [`NotificationHintPressToOpenInventoryConnector`](Sandbox.Game.Localization.NotificationHintPressToOpenInventoryConnector)||
+|static [`NotificationHintPressToOpenTerminal`](Sandbox.Game.Localization.NotificationHintPressToOpenTerminal)||
+|static [`NotificationHintPressToRechargeInMedicalRoom`](Sandbox.Game.Localization.NotificationHintPressToRechargeInMedicalRoom)||
+|static [`NotificationHintPressToShowScreen`](Sandbox.Game.Localization.NotificationHintPressToShowScreen)||
+|static [`NotificationHintSwitchWeaponMode`](Sandbox.Game.Localization.NotificationHintSwitchWeaponMode)||
+|static [`NotificationHintTurnPowerOff`](Sandbox.Game.Localization.NotificationHintTurnPowerOff)||
+|static [`NotificationHintTurnPowerOn`](Sandbox.Game.Localization.NotificationHintTurnPowerOn)||
+|static [`NotificationHint_CubeDefaultMountpoint`](Sandbox.Game.Localization.NotificationHint_CubeDefaultMountpoint)||
+|static [`NotificationJetpackOff`](Sandbox.Game.Localization.NotificationJetpackOff)||
+|static [`NotificationJetpackOffNoHydrogen`](Sandbox.Game.Localization.NotificationJetpackOffNoHydrogen)||
+|static [`NotificationJetpackOn`](Sandbox.Game.Localization.NotificationJetpackOn)||
+|static [`NotificationJoystickColorFormat`](Sandbox.Game.Localization.NotificationJoystickColorFormat)||
+|static [`NotificationJumpAborted`](Sandbox.Game.Localization.NotificationJumpAborted)||
+|static [`NotificationJumpDriveNotFullyCharged`](Sandbox.Game.Localization.NotificationJumpDriveNotFullyCharged)||
+|static [`NotificationJumpWarmupTime`](Sandbox.Game.Localization.NotificationJumpWarmupTime)||
+|static [`NotificationLandingGearSwitchLocked`](Sandbox.Game.Localization.NotificationLandingGearSwitchLocked)||
+|static [`NotificationLandingGearSwitchUnlocked`](Sandbox.Game.Localization.NotificationLandingGearSwitchUnlocked)||
+|static [`NotificationLimitsGridSize`](Sandbox.Game.Localization.NotificationLimitsGridSize)||
+|static [`NotificationLimitsNoFaction`](Sandbox.Game.Localization.NotificationLimitsNoFaction)||
+|static [`NotificationLimitsPCU`](Sandbox.Game.Localization.NotificationLimitsPCU)||
+|static [`NotificationLimitsPerBlockType`](Sandbox.Game.Localization.NotificationLimitsPerBlockType)||
+|static [`NotificationLimitsPlayer`](Sandbox.Game.Localization.NotificationLimitsPlayer)||
+|static [`NotificationMeteorInbound`](Sandbox.Game.Localization.NotificationMeteorInbound)||
+|static [`NotificationNextScenarioWillLoad`](Sandbox.Game.Localization.NotificationNextScenarioWillLoad)||
+|static [`NotificationNoHelmetVariation`](Sandbox.Game.Localization.NotificationNoHelmetVariation)||
+|static [`NotificationObstructingBlockDuringMerge`](Sandbox.Game.Localization.NotificationObstructingBlockDuringMerge)||
+|static [`NotificationOxygenCritical`](Sandbox.Game.Localization.NotificationOxygenCritical)||
+|static [`NotificationOxygenLow`](Sandbox.Game.Localization.NotificationOxygenLow)||
+|static [`NotificationPlayerDemoted_Moderator`](Sandbox.Game.Localization.NotificationPlayerDemoted_Moderator)||
+|static [`NotificationPlayerDemoted_None`](Sandbox.Game.Localization.NotificationPlayerDemoted_None)||
+|static [`NotificationPlayerDemoted_Scripter`](Sandbox.Game.Localization.NotificationPlayerDemoted_Scripter)||
+|static [`NotificationPlayerDemoted_SpaceMaster`](Sandbox.Game.Localization.NotificationPlayerDemoted_SpaceMaster)||
+|static [`NotificationPlayerPromoted_Admin`](Sandbox.Game.Localization.NotificationPlayerPromoted_Admin)||
+|static [`NotificationPlayerPromoted_Moderator`](Sandbox.Game.Localization.NotificationPlayerPromoted_Moderator)||
+|static [`NotificationPlayerPromoted_Scripter`](Sandbox.Game.Localization.NotificationPlayerPromoted_Scripter)||
+|static [`NotificationPlayerPromoted_SpaceMaster`](Sandbox.Game.Localization.NotificationPlayerPromoted_SpaceMaster)||
+|static [`NotificationProjectorGridSize`](Sandbox.Game.Localization.NotificationProjectorGridSize)||
+|static [`NotificationProjectorMultipleGrids`](Sandbox.Game.Localization.NotificationProjectorMultipleGrids)||
+|static [`NotificationRespawnShipDelete`](Sandbox.Game.Localization.NotificationRespawnShipDelete)||
+|static [`NotificationShipEnergyCritical`](Sandbox.Game.Localization.NotificationShipEnergyCritical)||
+|static [`NotificationShipEnergyCriticalNoDamage`](Sandbox.Game.Localization.NotificationShipEnergyCriticalNoDamage)||
+|static [`NotificationShipEnergyLow`](Sandbox.Game.Localization.NotificationShipEnergyLow)||
+|static [`NotificationShipEnergyLowNoDamage`](Sandbox.Game.Localization.NotificationShipEnergyLowNoDamage)||
+|static [`NotificationStationRotation`](Sandbox.Game.Localization.NotificationStationRotation)||
+|static [`NotificationStationRotationOff`](Sandbox.Game.Localization.NotificationStationRotationOff)||
+|static [`NotificationSuitEnergyCritical`](Sandbox.Game.Localization.NotificationSuitEnergyCritical)||
+|static [`NotificationSuitEnergyCriticalNoDamage`](Sandbox.Game.Localization.NotificationSuitEnergyCriticalNoDamage)||
+|static [`NotificationSuitEnergyLow`](Sandbox.Game.Localization.NotificationSuitEnergyLow)||
+|static [`NotificationSuitEnergyLowNoDamage`](Sandbox.Game.Localization.NotificationSuitEnergyLowNoDamage)||
+|static [`NotificationSuitFuelCritical`](Sandbox.Game.Localization.NotificationSuitFuelCritical)||
+|static [`NotificationSuitFuelLow`](Sandbox.Game.Localization.NotificationSuitFuelLow)||
+|static [`NotificationUsingWeaponType`](Sandbox.Game.Localization.NotificationUsingWeaponType)||
+|static [`NotificationWheelNotPlaced`](Sandbox.Game.Localization.NotificationWheelNotPlaced)||
+|static [`Notification_BlueprintScriptRemoved`](Sandbox.Game.Localization.Notification_BlueprintScriptRemoved)||
+|static [`Notification_CockpitIsDamaged`](Sandbox.Game.Localization.Notification_CockpitIsDamaged)||
+|static [`Notification_NoControl`](Sandbox.Game.Localization.Notification_NoControl)||
+|static [`Notification_NoControlAutoPilot`](Sandbox.Game.Localization.Notification_NoControlAutoPilot)||
+|static [`Notification_NoControlLowerPriority`](Sandbox.Game.Localization.Notification_NoControlLowerPriority)||
+|static [`Notification_NoControlNotMain`](Sandbox.Game.Localization.Notification_NoControlNotMain)||
+|static [`Notification_NoControlOtherShip`](Sandbox.Game.Localization.Notification_NoControlOtherShip)||
+|static [`Notification_NoControlStation`](Sandbox.Game.Localization.Notification_NoControlStation)||
+|static [`Notification_PistonHeadAlreadyExists`](Sandbox.Game.Localization.Notification_PistonHeadAlreadyExists)||
+|static [`Notification_PistonHeadNotPlaced`](Sandbox.Game.Localization.Notification_PistonHeadNotPlaced)||
+|static [`Notification_WheelNotPlaced`](Sandbox.Game.Localization.Notification_WheelNotPlaced)||
+|static [`Number`](Sandbox.Game.Localization.Number)||
+|static [`O2High`](Sandbox.Game.Localization.O2High)||
+|static [`O2Low`](Sandbox.Game.Localization.O2Low)||
+|static [`O2None`](Sandbox.Game.Localization.O2None)||
+|static [`OFF`](Sandbox.Game.Localization.OFF)||
+|static [`ON`](Sandbox.Game.Localization.ON)||
+|static [`OpenAdminScreen`](Sandbox.Game.Localization.OpenAdminScreen)||
+|static [`OpenBlueprints`](Sandbox.Game.Localization.OpenBlueprints)||
+|static [`OpenSpawnScreen`](Sandbox.Game.Localization.OpenSpawnScreen)||
+|static [`OwnerLastLogin`](Sandbox.Game.Localization.OwnerLastLogin)||
+|static [`OwnerLoginTime`](Sandbox.Game.Localization.OwnerLoginTime)||
+|static [`OwnerName`](Sandbox.Game.Localization.OwnerName)||
+|static [`Oxygen_Disabled`](Sandbox.Game.Localization.Oxygen_Disabled)||
+|static [`Oxygen_Filled`](Sandbox.Game.Localization.Oxygen_Filled)||
+|static [`Oxygen_NotPressurized`](Sandbox.Game.Localization.Oxygen_NotPressurized)||
+|static [`Oxygen_Pressure`](Sandbox.Game.Localization.Oxygen_Pressure)||
+|static [`Parachute_AutoDeploy`](Sandbox.Game.Localization.Parachute_AutoDeploy)||
+|static [`Parachute_AutoDeployOff`](Sandbox.Game.Localization.Parachute_AutoDeployOff)||
+|static [`Parachute_AutoDeployOn`](Sandbox.Game.Localization.Parachute_AutoDeployOn)||
+|static [`Parachute_AutoDeployTooltip`](Sandbox.Game.Localization.Parachute_AutoDeployTooltip)||
+|static [`Parachute_ConstraintItem`](Sandbox.Game.Localization.Parachute_ConstraintItem)||
+|static [`Parachute_DeployHeightTitle`](Sandbox.Game.Localization.Parachute_DeployHeightTitle)||
+|static [`Parachute_DeployHeightTooltip`](Sandbox.Game.Localization.Parachute_DeployHeightTooltip)||
+|static [`PasteObject`](Sandbox.Game.Localization.PasteObject)||
+|static [`Person_FB`](Sandbox.Game.Localization.Person_FB)||
+|static [`Person_Twitter`](Sandbox.Game.Localization.Person_Twitter)||
+|static [`Person_Web`](Sandbox.Game.Localization.Person_Web)||
+|static [`PGravity`](Sandbox.Game.Localization.PGravity)||
+|static [`PickColorFromCube`](Sandbox.Game.Localization.PickColorFromCube)||
+|static [`Planets`](Sandbox.Game.Localization.Planets)||
+|static [`Platinum`](Sandbox.Game.Localization.Platinum)||
+|static [`PlayerCharacterColorBlack`](Sandbox.Game.Localization.PlayerCharacterColorBlack)||
+|static [`PlayerCharacterColorBlue`](Sandbox.Game.Localization.PlayerCharacterColorBlue)||
+|static [`PlayerCharacterColorDefault`](Sandbox.Game.Localization.PlayerCharacterColorDefault)||
+|static [`PlayerCharacterColorGreen`](Sandbox.Game.Localization.PlayerCharacterColorGreen)||
+|static [`PlayerCharacterColorRed`](Sandbox.Game.Localization.PlayerCharacterColorRed)||
+|static [`PlayerCharacterColorWhite`](Sandbox.Game.Localization.PlayerCharacterColorWhite)||
+|static [`PlayerCharacterColorYellow`](Sandbox.Game.Localization.PlayerCharacterColorYellow)||
+|static [`PressNumberAgain`](Sandbox.Game.Localization.PressNumberAgain)||
+|static [`ProductionScreen_AssemblerList`](Sandbox.Game.Localization.ProductionScreen_AssemblerList)||
+|static [`ProductionScreen_TerminalControlScreen`](Sandbox.Game.Localization.ProductionScreen_TerminalControlScreen)||
+|static [`ProductionScreen_TerminalInventoryScreen`](Sandbox.Game.Localization.ProductionScreen_TerminalInventoryScreen)||
+|static [`ProgrammableBlock_ButtonCreateFromEditor`](Sandbox.Game.Localization.ProgrammableBlock_ButtonCreateFromEditor)||
+|static [`ProgrammableBlock_ButtonDetails`](Sandbox.Game.Localization.ProgrammableBlock_ButtonDetails)||
+|static [`ProgrammableBlock_ButtonRefreshScripts`](Sandbox.Game.Localization.ProgrammableBlock_ButtonRefreshScripts)||
+|static [`ProgrammableBlock_ButtonRename`](Sandbox.Game.Localization.ProgrammableBlock_ButtonRename)||
+|static [`ProgrammableBlock_ButtonReplaceFromEditor`](Sandbox.Game.Localization.ProgrammableBlock_ButtonReplaceFromEditor)||
+|static [`ProgrammableBlock_CodeChanged`](Sandbox.Game.Localization.ProgrammableBlock_CodeChanged)||
+|static [`ProgrammableBlock_CodeEditor_SaveExit`](Sandbox.Game.Localization.ProgrammableBlock_CodeEditor_SaveExit)||
+|static [`ProgrammableBlock_CodeEditor_SaveExit_Tooltip`](Sandbox.Game.Localization.ProgrammableBlock_CodeEditor_SaveExit_Tooltip)||
+|static [`ProgrammableBlock_CodeEditor_Title`](Sandbox.Game.Localization.ProgrammableBlock_CodeEditor_Title)||
+|static [`ProgrammableBlock_DefaultScript_Constructor`](Sandbox.Game.Localization.ProgrammableBlock_DefaultScript_Constructor)||
+|static [`ProgrammableBlock_DefaultScript_Main`](Sandbox.Game.Localization.ProgrammableBlock_DefaultScript_Main)||
+|static [`ProgrammableBlock_DefaultScript_Save`](Sandbox.Game.Localization.ProgrammableBlock_DefaultScript_Save)||
+|static [`ProgrammableBlock_DeleteScriptDialogText`](Sandbox.Game.Localization.ProgrammableBlock_DeleteScriptDialogText)||
+|static [`ProgrammableBlock_Editor_BrowseWorkshop_Tooltip`](Sandbox.Game.Localization.ProgrammableBlock_Editor_BrowseWorkshop_Tooltip)||
+|static [`ProgrammableBlock_Editor_CharacterLimit`](Sandbox.Game.Localization.ProgrammableBlock_Editor_CharacterLimit)||
+|static [`ProgrammableBlock_Editor_CheckCode`](Sandbox.Game.Localization.ProgrammableBlock_Editor_CheckCode)||
+|static [`ProgrammableBlock_Editor_CheckCode_Tooltip`](Sandbox.Game.Localization.ProgrammableBlock_Editor_CheckCode_Tooltip)||
+|static [`ProgrammableBlock_Editor_CompilationFailed`](Sandbox.Game.Localization.ProgrammableBlock_Editor_CompilationFailed)||
+|static [`ProgrammableBlock_Editor_CompilationFailedErrorFormat`](Sandbox.Game.Localization.ProgrammableBlock_Editor_CompilationFailedErrorFormat)||
+|static [`ProgrammableBlock_Editor_CompilationFailedErrorList`](Sandbox.Game.Localization.ProgrammableBlock_Editor_CompilationFailedErrorList)||
+|static [`ProgrammableBlock_Editor_CompilationOk`](Sandbox.Game.Localization.ProgrammableBlock_Editor_CompilationOk)||
+|static [`ProgrammableBlock_Editor_CompilationOkWarningList`](Sandbox.Game.Localization.ProgrammableBlock_Editor_CompilationOkWarningList)||
+|static [`ProgrammableBlock_Editor_Help`](Sandbox.Game.Localization.ProgrammableBlock_Editor_Help)||
+|static [`ProgrammableBlock_Editor_HelpTooltip`](Sandbox.Game.Localization.ProgrammableBlock_Editor_HelpTooltip)||
+|static [`ProgrammableBlock_Editor_LineNo`](Sandbox.Game.Localization.ProgrammableBlock_Editor_LineNo)||
+|static [`ProgrammableBlock_Editor_RememberCode`](Sandbox.Game.Localization.ProgrammableBlock_Editor_RememberCode)||
+|static [`ProgrammableBlock_Editor_RememberCode_Tooltip`](Sandbox.Game.Localization.ProgrammableBlock_Editor_RememberCode_Tooltip)||
+|static [`ProgrammableBlock_Editor_TextTooLong`](Sandbox.Game.Localization.ProgrammableBlock_Editor_TextTooLong)||
+|static [`ProgrammableBlock_Error_NotExperimental`](Sandbox.Game.Localization.ProgrammableBlock_Error_NotExperimental)||
+|static [`ProgrammableBlock_Error_ScriptsDisabled`](Sandbox.Game.Localization.ProgrammableBlock_Error_ScriptsDisabled)||
+|static [`ProgrammableBlock_Exception_AllreadyRunning`](Sandbox.Game.Localization.ProgrammableBlock_Exception_AllreadyRunning)||
+|static [`ProgrammableBlock_Exception_ExceptionCaught`](Sandbox.Game.Localization.ProgrammableBlock_Exception_ExceptionCaught)||
+|static [`ProgrammableBlock_Exception_NestedTooComplex`](Sandbox.Game.Localization.ProgrammableBlock_Exception_NestedTooComplex)||
+|static [`ProgrammableBlock_Exception_NoAssembly`](Sandbox.Game.Localization.ProgrammableBlock_Exception_NoAssembly)||
+|static [`ProgrammableBlock_Exception_NoMain`](Sandbox.Game.Localization.ProgrammableBlock_Exception_NoMain)||
+|static [`ProgrammableBlock_Exception_NotAllowed`](Sandbox.Game.Localization.ProgrammableBlock_Exception_NotAllowed)||
+|static [`ProgrammableBlock_Exception_NoValidConstructor`](Sandbox.Game.Localization.ProgrammableBlock_Exception_NoValidConstructor)||
+|static [`ProgrammableBlock_Exception_Ownershipchanged`](Sandbox.Game.Localization.ProgrammableBlock_Exception_Ownershipchanged)||
+|static [`ProgrammableBlock_Exception_TooComplex`](Sandbox.Game.Localization.ProgrammableBlock_Exception_TooComplex)||
+|static [`ProgrammableBlock_NewScriptName`](Sandbox.Game.Localization.ProgrammableBlock_NewScriptName)||
+|static [`ProgrammableBlock_OpenInWorkshop`](Sandbox.Game.Localization.ProgrammableBlock_OpenInWorkshop)||
+|static [`ProgrammableBlock_PublishScriptDialogText`](Sandbox.Game.Localization.ProgrammableBlock_PublishScriptDialogText)||
+|static [`ProgrammableBlock_PublishScriptPublished`](Sandbox.Game.Localization.ProgrammableBlock_PublishScriptPublished)||
+|static [`ProgrammableBlock_ReplaceScriptDialogText`](Sandbox.Game.Localization.ProgrammableBlock_ReplaceScriptDialogText)||
+|static [`ProgrammableBlock_ReplaceScriptNameDialogText`](Sandbox.Game.Localization.ProgrammableBlock_ReplaceScriptNameDialogText)||
+|static [`ProgrammableBlock_ReplaceScriptNameDialogTitle`](Sandbox.Game.Localization.ProgrammableBlock_ReplaceScriptNameDialogTitle)||
+|static [`ProgrammableBlock_ReplaceScriptNameUsed`](Sandbox.Game.Localization.ProgrammableBlock_ReplaceScriptNameUsed)||
+|static [`ProgrammableBlock_SaveChanges`](Sandbox.Game.Localization.ProgrammableBlock_SaveChanges)||
+|static [`ProgrammableBlock_ScriptNotFound`](Sandbox.Game.Localization.ProgrammableBlock_ScriptNotFound)||
+|static [`ProgrammableBlock_ScriptsScreenTitle`](Sandbox.Game.Localization.ProgrammableBlock_ScriptsScreenTitle)||
+|static [`QuickstartDX11NotAvailable`](Sandbox.Game.Localization.QuickstartDX11NotAvailable)||
+|static [`QuickstartDX11PleaseRestartGame`](Sandbox.Game.Localization.QuickstartDX11PleaseRestartGame)||
+|static [`QuickstartDX11SwitchQuestion`](Sandbox.Game.Localization.QuickstartDX11SwitchQuestion)||
+|static [`QuickstartNoDx9SelectDifferent`](Sandbox.Game.Localization.QuickstartNoDx9SelectDifferent)||
+|static [`QuickstartNoPlanets`](Sandbox.Game.Localization.QuickstartNoPlanets)||
+|static [`QuickstartSelectDifferent`](Sandbox.Game.Localization.QuickstartSelectDifferent)||
+|static [`Quote00Author`](Sandbox.Game.Localization.Quote00Author)||
+|static [`Quote00Text`](Sandbox.Game.Localization.Quote00Text)||
+|static [`Quote01Author`](Sandbox.Game.Localization.Quote01Author)||
+|static [`Quote01Text`](Sandbox.Game.Localization.Quote01Text)||
+|static [`Quote02Author`](Sandbox.Game.Localization.Quote02Author)||
+|static [`Quote02Text`](Sandbox.Game.Localization.Quote02Text)||
+|static [`Quote03Author`](Sandbox.Game.Localization.Quote03Author)||
+|static [`Quote03Text`](Sandbox.Game.Localization.Quote03Text)||
+|static [`Quote04Author`](Sandbox.Game.Localization.Quote04Author)||
+|static [`Quote04Text`](Sandbox.Game.Localization.Quote04Text)||
+|static [`Quote05Author`](Sandbox.Game.Localization.Quote05Author)||
+|static [`Quote05Text`](Sandbox.Game.Localization.Quote05Text)||
+|static [`Quote06Author`](Sandbox.Game.Localization.Quote06Author)||
+|static [`Quote06Text`](Sandbox.Game.Localization.Quote06Text)||
+|static [`Quote07Author`](Sandbox.Game.Localization.Quote07Author)||
+|static [`Quote07Text`](Sandbox.Game.Localization.Quote07Text)||
+|static [`Quote08Author`](Sandbox.Game.Localization.Quote08Author)||
+|static [`Quote08Text`](Sandbox.Game.Localization.Quote08Text)||
+|static [`Quote09Author`](Sandbox.Game.Localization.Quote09Author)||
+|static [`Quote09Text`](Sandbox.Game.Localization.Quote09Text)||
+|static [`Quote10Author`](Sandbox.Game.Localization.Quote10Author)||
+|static [`Quote10Text`](Sandbox.Game.Localization.Quote10Text)||
+|static [`Quote11Author`](Sandbox.Game.Localization.Quote11Author)||
+|static [`Quote11Text`](Sandbox.Game.Localization.Quote11Text)||
+|static [`Quote12Author`](Sandbox.Game.Localization.Quote12Author)||
+|static [`Quote12Text`](Sandbox.Game.Localization.Quote12Text)||
+|static [`Quote13Author`](Sandbox.Game.Localization.Quote13Author)||
+|static [`Quote13Text`](Sandbox.Game.Localization.Quote13Text)||
+|static [`Quote14Author`](Sandbox.Game.Localization.Quote14Author)||
+|static [`Quote14Text`](Sandbox.Game.Localization.Quote14Text)||
+|static [`Quote15Author`](Sandbox.Game.Localization.Quote15Author)||
+|static [`Quote15Text`](Sandbox.Game.Localization.Quote15Text)||
+|static [`Quote16Author`](Sandbox.Game.Localization.Quote16Author)||
+|static [`Quote16Text`](Sandbox.Game.Localization.Quote16Text)||
+|static [`Quote17Author`](Sandbox.Game.Localization.Quote17Author)||
+|static [`Quote17Text`](Sandbox.Game.Localization.Quote17Text)||
+|static [`Quote18Author`](Sandbox.Game.Localization.Quote18Author)||
+|static [`Quote18Text`](Sandbox.Game.Localization.Quote18Text)||
+|static [`Quote19Author`](Sandbox.Game.Localization.Quote19Author)||
+|static [`Quote19Text`](Sandbox.Game.Localization.Quote19Text)||
+|static [`Quote20Author`](Sandbox.Game.Localization.Quote20Author)||
+|static [`Quote20Text`](Sandbox.Game.Localization.Quote20Text)||
+|static [`Quote21Author`](Sandbox.Game.Localization.Quote21Author)||
+|static [`Quote21Text`](Sandbox.Game.Localization.Quote21Text)||
+|static [`Quote22Author`](Sandbox.Game.Localization.Quote22Author)||
+|static [`Quote22Text`](Sandbox.Game.Localization.Quote22Text)||
+|static [`Quote23Author`](Sandbox.Game.Localization.Quote23Author)||
+|static [`Quote23Text`](Sandbox.Game.Localization.Quote23Text)||
+|static [`Quote24Author`](Sandbox.Game.Localization.Quote24Author)||
+|static [`Quote24Text`](Sandbox.Game.Localization.Quote24Text)||
+|static [`Quote25Author`](Sandbox.Game.Localization.Quote25Author)||
+|static [`Quote25Text`](Sandbox.Game.Localization.Quote25Text)||
+|static [`Quote26Author`](Sandbox.Game.Localization.Quote26Author)||
+|static [`Quote26Text`](Sandbox.Game.Localization.Quote26Text)||
+|static [`Quote27Author`](Sandbox.Game.Localization.Quote27Author)||
+|static [`Quote27Text`](Sandbox.Game.Localization.Quote27Text)||
+|static [`Quote28Author`](Sandbox.Game.Localization.Quote28Author)||
+|static [`Quote28Text`](Sandbox.Game.Localization.Quote28Text)||
+|static [`Quote29Author`](Sandbox.Game.Localization.Quote29Author)||
+|static [`Quote29Text`](Sandbox.Game.Localization.Quote29Text)||
+|static [`Quote30Author`](Sandbox.Game.Localization.Quote30Author)||
+|static [`Quote30Text`](Sandbox.Game.Localization.Quote30Text)||
+|static [`Quote31Author`](Sandbox.Game.Localization.Quote31Author)||
+|static [`Quote31Text`](Sandbox.Game.Localization.Quote31Text)||
+|static [`Quote32Author`](Sandbox.Game.Localization.Quote32Author)||
+|static [`Quote32Text`](Sandbox.Game.Localization.Quote32Text)||
+|static [`Quote33Author`](Sandbox.Game.Localization.Quote33Author)||
+|static [`Quote33Text`](Sandbox.Game.Localization.Quote33Text)||
+|static [`Quote34Author`](Sandbox.Game.Localization.Quote34Author)||
+|static [`Quote34Text`](Sandbox.Game.Localization.Quote34Text)||
+|static [`Quote35Author`](Sandbox.Game.Localization.Quote35Author)||
+|static [`Quote35Text`](Sandbox.Game.Localization.Quote35Text)||
+|static [`Quote36Author`](Sandbox.Game.Localization.Quote36Author)||
+|static [`Quote36Text`](Sandbox.Game.Localization.Quote36Text)||
+|static [`Quote37Author`](Sandbox.Game.Localization.Quote37Author)||
+|static [`Quote37Text`](Sandbox.Game.Localization.Quote37Text)||
+|static [`Quote38Author`](Sandbox.Game.Localization.Quote38Author)||
+|static [`Quote38Text`](Sandbox.Game.Localization.Quote38Text)||
+|static [`Quote39Author`](Sandbox.Game.Localization.Quote39Author)||
+|static [`Quote39Text`](Sandbox.Game.Localization.Quote39Text)||
+|static [`Quote40Author`](Sandbox.Game.Localization.Quote40Author)||
+|static [`Quote40Text`](Sandbox.Game.Localization.Quote40Text)||
+|static [`Quote41Author`](Sandbox.Game.Localization.Quote41Author)||
+|static [`Quote41Text`](Sandbox.Game.Localization.Quote41Text)||
+|static [`Quote42Author`](Sandbox.Game.Localization.Quote42Author)||
+|static [`Quote42Text`](Sandbox.Game.Localization.Quote42Text)||
+|static [`Quote43Author`](Sandbox.Game.Localization.Quote43Author)||
+|static [`Quote43Text`](Sandbox.Game.Localization.Quote43Text)||
+|static [`Quote44Author`](Sandbox.Game.Localization.Quote44Author)||
+|static [`Quote44Text`](Sandbox.Game.Localization.Quote44Text)||
+|static [`Quote45Author`](Sandbox.Game.Localization.Quote45Author)||
+|static [`Quote45Text`](Sandbox.Game.Localization.Quote45Text)||
+|static [`Quote46Author`](Sandbox.Game.Localization.Quote46Author)||
+|static [`Quote46Text`](Sandbox.Game.Localization.Quote46Text)||
+|static [`Quote47Author`](Sandbox.Game.Localization.Quote47Author)||
+|static [`Quote47Text`](Sandbox.Game.Localization.Quote47Text)||
+|static [`Quote48Author`](Sandbox.Game.Localization.Quote48Author)||
+|static [`Quote48Text`](Sandbox.Game.Localization.Quote48Text)||
+|static [`Quote49Author`](Sandbox.Game.Localization.Quote49Author)||
+|static [`Quote49Text`](Sandbox.Game.Localization.Quote49Text)||
+|static [`Quote50Author`](Sandbox.Game.Localization.Quote50Author)||
+|static [`Quote50Text`](Sandbox.Game.Localization.Quote50Text)||
+|static [`Quote51Author`](Sandbox.Game.Localization.Quote51Author)||
+|static [`Quote51Text`](Sandbox.Game.Localization.Quote51Text)||
+|static [`Quote52Author`](Sandbox.Game.Localization.Quote52Author)||
+|static [`Quote52Text`](Sandbox.Game.Localization.Quote52Text)||
+|static [`Quote53Author`](Sandbox.Game.Localization.Quote53Author)||
+|static [`Quote53Text`](Sandbox.Game.Localization.Quote53Text)||
+|static [`Quote54Author`](Sandbox.Game.Localization.Quote54Author)||
+|static [`Quote54Text`](Sandbox.Game.Localization.Quote54Text)||
+|static [`Quote55Author`](Sandbox.Game.Localization.Quote55Author)||
+|static [`Quote55Text`](Sandbox.Game.Localization.Quote55Text)||
+|static [`Quote56Author`](Sandbox.Game.Localization.Quote56Author)||
+|static [`Quote56Text`](Sandbox.Game.Localization.Quote56Text)||
+|static [`Quote57Author`](Sandbox.Game.Localization.Quote57Author)||
+|static [`Quote57Text`](Sandbox.Game.Localization.Quote57Text)||
+|static [`Quote58Author`](Sandbox.Game.Localization.Quote58Author)||
+|static [`Quote58Text`](Sandbox.Game.Localization.Quote58Text)||
+|static [`Quote59Author`](Sandbox.Game.Localization.Quote59Author)||
+|static [`Quote59Text`](Sandbox.Game.Localization.Quote59Text)||
+|static [`Quote60Author`](Sandbox.Game.Localization.Quote60Author)||
+|static [`Quote60Text`](Sandbox.Game.Localization.Quote60Text)||
+|static [`Quote61Author`](Sandbox.Game.Localization.Quote61Author)||
+|static [`Quote61Text`](Sandbox.Game.Localization.Quote61Text)||
+|static [`Quote62Author`](Sandbox.Game.Localization.Quote62Author)||
+|static [`Quote62Text`](Sandbox.Game.Localization.Quote62Text)||
+|static [`Quote63Author`](Sandbox.Game.Localization.Quote63Author)||
+|static [`Quote63Text`](Sandbox.Game.Localization.Quote63Text)||
+|static [`Quote64Author`](Sandbox.Game.Localization.Quote64Author)||
+|static [`Quote64Text`](Sandbox.Game.Localization.Quote64Text)||
+|static [`Quote65Author`](Sandbox.Game.Localization.Quote65Author)||
+|static [`Quote65Text`](Sandbox.Game.Localization.Quote65Text)||
+|static [`Quote66Author`](Sandbox.Game.Localization.Quote66Author)||
+|static [`Quote66Text`](Sandbox.Game.Localization.Quote66Text)||
+|static [`Quote67Author`](Sandbox.Game.Localization.Quote67Author)||
+|static [`Quote67Text`](Sandbox.Game.Localization.Quote67Text)||
+|static [`Quote68Author`](Sandbox.Game.Localization.Quote68Author)||
+|static [`Quote68Text`](Sandbox.Game.Localization.Quote68Text)||
+|static [`Quote69Author`](Sandbox.Game.Localization.Quote69Author)||
+|static [`Quote69Text`](Sandbox.Game.Localization.Quote69Text)||
+|static [`Quote70Author`](Sandbox.Game.Localization.Quote70Author)||
+|static [`Quote70Text`](Sandbox.Game.Localization.Quote70Text)||
+|static [`Reactor`](Sandbox.Game.Localization.Reactor)||
+|static [`RefreshBlueprints`](Sandbox.Game.Localization.RefreshBlueprints)||
+|static [`RemoteAccess_Description`](Sandbox.Game.Localization.RemoteAccess_Description)||
+|static [`RemoteControlCoord`](Sandbox.Game.Localization.RemoteControlCoord)||
+|static [`RemoteControlUsedBy`](Sandbox.Game.Localization.RemoteControlUsedBy)||
+|static [`RemoteControlWaypoint`](Sandbox.Game.Localization.RemoteControlWaypoint)||
+|static [`Remove`](Sandbox.Game.Localization.Remove)||
+|static [`RemoveAll`](Sandbox.Game.Localization.RemoveAll)||
+|static [`RemoveProjectionButton`](Sandbox.Game.Localization.RemoveProjectionButton)||
+|static [`RenderQuality`](Sandbox.Game.Localization.RenderQuality)||
+|static [`RenderQualityExtreme`](Sandbox.Game.Localization.RenderQualityExtreme)||
+|static [`RenderQualityHigh`](Sandbox.Game.Localization.RenderQualityHigh)||
+|static [`RenderQualityNormal`](Sandbox.Game.Localization.RenderQualityNormal)||
+|static [`ReplaceWithClipboard`](Sandbox.Game.Localization.ReplaceWithClipboard)||
+|static [`RespawnShip`](Sandbox.Game.Localization.RespawnShip)||
+|static [`RunningLevelScripts`](Sandbox.Game.Localization.RunningLevelScripts)||
+|static [`RunningStateMachines`](Sandbox.Game.Localization.RunningStateMachines)||
+|static [`SafeZone_CubeAxis`](Sandbox.Game.Localization.SafeZone_CubeAxis)||
+|static [`SafeZone_Cubical`](Sandbox.Game.Localization.SafeZone_Cubical)||
+|static [`SafeZone_ListOfEntities`](Sandbox.Game.Localization.SafeZone_ListOfEntities)||
+|static [`SafeZone_Mode`](Sandbox.Game.Localization.SafeZone_Mode)||
+|static [`SafeZone_SafeZoneFilter`](Sandbox.Game.Localization.SafeZone_SafeZoneFilter)||
+|static [`SafeZone_SelectZoneShape`](Sandbox.Game.Localization.SafeZone_SelectZoneShape)||
+|static [`SafeZone_Spherical`](Sandbox.Game.Localization.SafeZone_Spherical)||
+|static [`ScenarioProgressDestroyBlocks`](Sandbox.Game.Localization.ScenarioProgressDestroyBlocks)||
+|static [`ScenarioProgressLimitedLives`](Sandbox.Game.Localization.ScenarioProgressLimitedLives)||
+|static [`ScenarioProgressLoseConditions`](Sandbox.Game.Localization.ScenarioProgressLoseConditions)||
+|static [`ScenarioProgressNoSpawn`](Sandbox.Game.Localization.ScenarioProgressNoSpawn)||
+|static [`ScenarioProgressOthersLost`](Sandbox.Game.Localization.ScenarioProgressOthersLost)||
+|static [`ScenarioProgressPositionLeft`](Sandbox.Game.Localization.ScenarioProgressPositionLeft)||
+|static [`ScenarioProgressPositionReached`](Sandbox.Game.Localization.ScenarioProgressPositionReached)||
+|static [`ScenarioProgressSomeoneWon`](Sandbox.Game.Localization.ScenarioProgressSomeoneWon)||
+|static [`ScenarioProgressTimeLimit`](Sandbox.Game.Localization.ScenarioProgressTimeLimit)||
+|static [`ScenarioProgressWinConditions`](Sandbox.Game.Localization.ScenarioProgressWinConditions)||
+|static [`ScenarioSettings_CanJoinRunning`](Sandbox.Game.Localization.ScenarioSettings_CanJoinRunning)||
+|static [`ScenarioSettings_CanJoinRunningShort`](Sandbox.Game.Localization.ScenarioSettings_CanJoinRunningShort)||
+|static [`ScreenButtonBattle`](Sandbox.Game.Localization.ScreenButtonBattle)||
+|static [`ScreenCaptionAISchool`](Sandbox.Game.Localization.ScreenCaptionAISchool)||
+|static [`ScreenCaptionScenario`](Sandbox.Game.Localization.ScreenCaptionScenario)||
+|static [`ScreenCaptionTutorials`](Sandbox.Game.Localization.ScreenCaptionTutorials)||
+|static [`ScreenCaptionVideoOptions`](Sandbox.Game.Localization.ScreenCaptionVideoOptions)||
+|static [`ScreenCaptionWorldGeneratorSettings`](Sandbox.Game.Localization.ScreenCaptionWorldGeneratorSettings)||
+|static [`ScreenCubeBuilderAddGoodAiBot`](Sandbox.Game.Localization.ScreenCubeBuilderAddGoodAiBot)||
+|static [`ScreenCubeBuilderNewLargeShip`](Sandbox.Game.Localization.ScreenCubeBuilderNewLargeShip)||
+|static [`ScreenCubeBuilderNewSmallShip`](Sandbox.Game.Localization.ScreenCubeBuilderNewSmallShip)||
+|static [`ScreenCubeBuilderNewStation`](Sandbox.Game.Localization.ScreenCubeBuilderNewStation)||
+|static [`ScreenDebugAdminMenu_AdminTools`](Sandbox.Game.Localization.ScreenDebugAdminMenu_AdminTools)||
+|static [`ScreenDebugAdminMenu_Caption`](Sandbox.Game.Localization.ScreenDebugAdminMenu_Caption)||
+|static [`ScreenDebugAdminMenu_Cleanup`](Sandbox.Game.Localization.ScreenDebugAdminMenu_Cleanup)||
+|static [`ScreenDebugAdminMenu_Controlled`](Sandbox.Game.Localization.ScreenDebugAdminMenu_Controlled)||
+|static [`ScreenDebugAdminMenu_Depower`](Sandbox.Game.Localization.ScreenDebugAdminMenu_Depower)||
+|static [`ScreenDebugAdminMenu_DepowerTrash`](Sandbox.Game.Localization.ScreenDebugAdminMenu_DepowerTrash)||
+|static [`ScreenDebugAdminMenu_EntityList`](Sandbox.Game.Localization.ScreenDebugAdminMenu_EntityList)||
+|static [`ScreenDebugAdminMenu_GlobalSafeZone`](Sandbox.Game.Localization.ScreenDebugAdminMenu_GlobalSafeZone)||
+|static [`ScreenDebugAdminMenu_Invulnerable`](Sandbox.Game.Localization.ScreenDebugAdminMenu_Invulnerable)||
+|static [`ScreenDebugAdminMenu_InvulnerableToolTip`](Sandbox.Game.Localization.ScreenDebugAdminMenu_InvulnerableToolTip)||
+|static [`ScreenDebugAdminMenu_MedbayNotification`](Sandbox.Game.Localization.ScreenDebugAdminMenu_MedbayNotification)||
+|static [`ScreenDebugAdminMenu_ModeSelect`](Sandbox.Game.Localization.ScreenDebugAdminMenu_ModeSelect)||
+|static [`ScreenDebugAdminMenu_Powered`](Sandbox.Game.Localization.ScreenDebugAdminMenu_Powered)||
+|static [`ScreenDebugAdminMenu_RemoveCharacterNotification`](Sandbox.Game.Localization.ScreenDebugAdminMenu_RemoveCharacterNotification)||
+|static [`ScreenDebugAdminMenu_RemoveFloating`](Sandbox.Game.Localization.ScreenDebugAdminMenu_RemoveFloating)||
+|static [`ScreenDebugAdminMenu_RemoveOwner`](Sandbox.Game.Localization.ScreenDebugAdminMenu_RemoveOwner)||
+|static [`ScreenDebugAdminMenu_RemoveOwnerToolTip`](Sandbox.Game.Localization.ScreenDebugAdminMenu_RemoveOwnerToolTip)||
+|static [`ScreenDebugAdminMenu_ReplicateEverythingServer_Tooltip`](Sandbox.Game.Localization.ScreenDebugAdminMenu_ReplicateEverythingServer_Tooltip)||
+|static [`ScreenDebugAdminMenu_SafeZones`](Sandbox.Game.Localization.ScreenDebugAdminMenu_SafeZones)||
+|static [`ScreenDebugAdminMenu_SafeZones_AllowBuilding`](Sandbox.Game.Localization.ScreenDebugAdminMenu_SafeZones_AllowBuilding)||
+|static [`ScreenDebugAdminMenu_SafeZones_AllowDamage`](Sandbox.Game.Localization.ScreenDebugAdminMenu_SafeZones_AllowDamage)||
+|static [`ScreenDebugAdminMenu_SafeZones_AllowDrilling`](Sandbox.Game.Localization.ScreenDebugAdminMenu_SafeZones_AllowDrilling)||
+|static [`ScreenDebugAdminMenu_SafeZones_AllowGrinding`](Sandbox.Game.Localization.ScreenDebugAdminMenu_SafeZones_AllowGrinding)||
+|static [`ScreenDebugAdminMenu_SafeZones_AllowShooting`](Sandbox.Game.Localization.ScreenDebugAdminMenu_SafeZones_AllowShooting)||
+|static [`ScreenDebugAdminMenu_SafeZones_AllowVoxelHands`](Sandbox.Game.Localization.ScreenDebugAdminMenu_SafeZones_AllowVoxelHands)||
+|static [`ScreenDebugAdminMenu_SafeZones_AllowWelding`](Sandbox.Game.Localization.ScreenDebugAdminMenu_SafeZones_AllowWelding)||
+|static [`ScreenDebugAdminMenu_SafeZones_ChangePosition`](Sandbox.Game.Localization.ScreenDebugAdminMenu_SafeZones_ChangePosition)||
+|static [`ScreenDebugAdminMenu_SafeZones_ConfigureFilter`](Sandbox.Game.Localization.ScreenDebugAdminMenu_SafeZones_ConfigureFilter)||
+|static [`ScreenDebugAdminMenu_SafeZones_FilterContained`](Sandbox.Game.Localization.ScreenDebugAdminMenu_SafeZones_FilterContained)||
+|static [`ScreenDebugAdminMenu_SafeZones_MoveToSafeZone`](Sandbox.Game.Localization.ScreenDebugAdminMenu_SafeZones_MoveToSafeZone)||
+|static [`ScreenDebugAdminMenu_SafeZones_NewSafeZone`](Sandbox.Game.Localization.ScreenDebugAdminMenu_SafeZones_NewSafeZone)||
+|static [`ScreenDebugAdminMenu_SafeZones_SelectSafeZone`](Sandbox.Game.Localization.ScreenDebugAdminMenu_SafeZones_SelectSafeZone)||
+|static [`ScreenDebugAdminMenu_SafeZones_ZoneEnabled`](Sandbox.Game.Localization.ScreenDebugAdminMenu_SafeZones_ZoneEnabled)||
+|static [`ScreenDebugAdminMenu_SafeZones_ZoneRadius`](Sandbox.Game.Localization.ScreenDebugAdminMenu_SafeZones_ZoneRadius)||
+|static [`ScreenDebugAdminMenu_ShowPlayers`](Sandbox.Game.Localization.ScreenDebugAdminMenu_ShowPlayers)||
+|static [`ScreenDebugAdminMenu_ShowPlayersToolTip`](Sandbox.Game.Localization.ScreenDebugAdminMenu_ShowPlayersToolTip)||
+|static [`ScreenDebugAdminMenu_SortBy`](Sandbox.Game.Localization.ScreenDebugAdminMenu_SortBy)||
+|static [`ScreenDebugAdminMenu_SortOptions`](Sandbox.Game.Localization.ScreenDebugAdminMenu_SortOptions)||
+|static [`ScreenDebugAdminMenu_Stationary`](Sandbox.Game.Localization.ScreenDebugAdminMenu_Stationary)||
+|static [`ScreenDebugAdminMenu_Stations`](Sandbox.Game.Localization.ScreenDebugAdminMenu_Stations)||
+|static [`ScreenDebugAdminMenu_StopAll`](Sandbox.Game.Localization.ScreenDebugAdminMenu_StopAll)||
+|static [`ScreenDebugAdminMenu_TeleportHere`](Sandbox.Game.Localization.ScreenDebugAdminMenu_TeleportHere)||
+|static [`ScreenDebugAdminMenu_TeleportHereToolTip`](Sandbox.Game.Localization.ScreenDebugAdminMenu_TeleportHereToolTip)||
+|static [`ScreenDebugAdminMenu_TimeOfDay`](Sandbox.Game.Localization.ScreenDebugAdminMenu_TimeOfDay)||
+|static [`ScreenDebugAdminMenu_Untargetable`](Sandbox.Game.Localization.ScreenDebugAdminMenu_Untargetable)||
+|static [`ScreenDebugAdminMenu_UntargetableToolTip`](Sandbox.Game.Localization.ScreenDebugAdminMenu_UntargetableToolTip)||
+|static [`ScreenDebugAdminMenu_UseTerminals`](Sandbox.Game.Localization.ScreenDebugAdminMenu_UseTerminals)||
+|static [`ScreenDebugAdminMenu_UseTerminalsToolTip`](Sandbox.Game.Localization.ScreenDebugAdminMenu_UseTerminalsToolTip)||
+|static [`ScreenDebugAdminMenu_WithMedBay`](Sandbox.Game.Localization.ScreenDebugAdminMenu_WithMedBay)||
+|static [`ScreenDebugAdminMenu_WithProduction`](Sandbox.Game.Localization.ScreenDebugAdminMenu_WithProduction)||
+|static [`ScreenDebugSpawnMenu_Asteroid`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_Asteroid)||
+|static [`ScreenDebugSpawnMenu_AsteroidAddRandomMaterials`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_AsteroidAddRandomMaterials)||
+|static [`ScreenDebugSpawnMenu_AsteroidCoreMaterial`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_AsteroidCoreMaterial)||
+|static [`ScreenDebugSpawnMenu_AsteroidGenerationCanTakeLong`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_AsteroidGenerationCanTakeLong)||
+|static [`ScreenDebugSpawnMenu_Asteroids`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_Asteroids)||
+|static [`ScreenDebugSpawnMenu_AsteroidSurfaceMaterial`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_AsteroidSurfaceMaterial)||
+|static [`ScreenDebugSpawnMenu_Caption`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_Caption)||
+|static [`ScreenDebugSpawnMenu_CreateLayer`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_CreateLayer)||
+|static [`ScreenDebugSpawnMenu_CurrentTarget`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_CurrentTarget)||
+|static [`ScreenDebugSpawnMenu_EmptyVoxelMap`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_EmptyVoxelMap)||
+|static [`ScreenDebugSpawnMenu_GenerateSeed`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_GenerateSeed)||
+|static [`ScreenDebugSpawnMenu_InvalidAmount`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_InvalidAmount)||
+|static [`ScreenDebugSpawnMenu_ItemAmount`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_ItemAmount)||
+|static [`ScreenDebugSpawnMenu_Items`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_Items)||
+|static [`ScreenDebugSpawnMenu_ItemType`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_ItemType)||
+|static [`ScreenDebugSpawnMenu_PickPlanet`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_PickPlanet)||
+|static [`ScreenDebugSpawnMenu_Planets`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_Planets)||
+|static [`ScreenDebugSpawnMenu_PredefinedAsteroids`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_PredefinedAsteroids)||
+|static [`ScreenDebugSpawnMenu_ProceduralAsteroids`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_ProceduralAsteroids)||
+|static [`ScreenDebugSpawnMenu_ProceduralSeed`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_ProceduralSeed)||
+|static [`ScreenDebugSpawnMenu_ProceduralSize`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_ProceduralSize)||
+|static [`ScreenDebugSpawnMenu_RemoveLayer`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_RemoveLayer)||
+|static [`ScreenDebugSpawnMenu_SelectAsteroidType`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_SelectAsteroidType)||
+|static [`ScreenDebugSpawnMenu_SpawnAsteroid`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_SpawnAsteroid)||
+|static [`ScreenDebugSpawnMenu_SpawnFlora`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_SpawnFlora)||
+|static [`ScreenDebugSpawnMenu_SpawnObject`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_SpawnObject)||
+|static [`ScreenDebugSpawnMenu_SpawnTargeted`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_SpawnTargeted)||
+|static [`ScreenDebugSpawnMenu_UpdatePlanet`](Sandbox.Game.Localization.ScreenDebugSpawnMenu_UpdatePlanet)||
+|static [`ScreenGraphicsOptions_Renderer`](Sandbox.Game.Localization.ScreenGraphicsOptions_Renderer)||
+|static [`ScreenGraphicsOptions_ShaderQuality`](Sandbox.Game.Localization.ScreenGraphicsOptions_ShaderQuality)||
+|static [`ScreenGraphicsOptions_ShadowMapResolution`](Sandbox.Game.Localization.ScreenGraphicsOptions_ShadowMapResolution)||
+|static [`ScreenGraphicsOptions_ShadowMapResolution_Medium`](Sandbox.Game.Localization.ScreenGraphicsOptions_ShadowMapResolution_Medium)||
+|static [`ScreenGraphicsOptions_VoxelQuality`](Sandbox.Game.Localization.ScreenGraphicsOptions_VoxelQuality)||
+|static [`ScreenMainMenu_DeluxeLine1`](Sandbox.Game.Localization.ScreenMainMenu_DeluxeLine1)||
+|static [`ScreenMainMenu_DeluxeLine2`](Sandbox.Game.Localization.ScreenMainMenu_DeluxeLine2)||
+|static [`ScreenMainMenu_GhostSkinLine1`](Sandbox.Game.Localization.ScreenMainMenu_GhostSkinLine1)||
+|static [`ScreenMainMenu_GhostSkinLine2`](Sandbox.Game.Localization.ScreenMainMenu_GhostSkinLine2)||
+|static [`ScreenMainMenu_SkinSaleLine1`](Sandbox.Game.Localization.ScreenMainMenu_SkinSaleLine1)||
+|static [`ScreenMainMenu_SkinSaleLine2`](Sandbox.Game.Localization.ScreenMainMenu_SkinSaleLine2)||
+|static [`ScreenMedicals_NoRespawnPlace`](Sandbox.Game.Localization.ScreenMedicals_NoRespawnPlace)||
+|static [`ScreenMedicals_NoRespawnPlaceHeader`](Sandbox.Game.Localization.ScreenMedicals_NoRespawnPlaceHeader)||
+|static [`ScreenMedicals_NoRespawnPossible`](Sandbox.Game.Localization.ScreenMedicals_NoRespawnPossible)||
+|static [`ScreenMedicals_OwnerTimeoutColumn`](Sandbox.Game.Localization.ScreenMedicals_OwnerTimeoutColumn)||
+|static [`ScreenMedicals_RespawnShipNotReady`](Sandbox.Game.Localization.ScreenMedicals_RespawnShipNotReady)||
+|static [`ScreenMedicals_RespawnShipReady`](Sandbox.Game.Localization.ScreenMedicals_RespawnShipReady)||
+|static [`ScreenMedicals_RespawnWhenShipReady`](Sandbox.Game.Localization.ScreenMedicals_RespawnWhenShipReady)||
+|static [`ScreenOptionsButtonVideo`](Sandbox.Game.Localization.ScreenOptionsButtonVideo)||
+|static [`ScreenOptionsGame_BrainSimulatorIntegration`](Sandbox.Game.Localization.ScreenOptionsGame_BrainSimulatorIntegration)||
+|static [`ScreenTerminalError_NoAssemblers`](Sandbox.Game.Localization.ScreenTerminalError_NoAssemblers)||
+|static [`ScreenTerminalError_ShipHasBeenDisconnected`](Sandbox.Game.Localization.ScreenTerminalError_ShipHasBeenDisconnected)||
+|static [`ScreenTerminalError_ShipNotConnected`](Sandbox.Game.Localization.ScreenTerminalError_ShipNotConnected)||
+|static [`ScreenTerminalInventory_Mass`](Sandbox.Game.Localization.ScreenTerminalInventory_Mass)||
+|static [`ScreenTerminalInventory_Volume`](Sandbox.Game.Localization.ScreenTerminalInventory_Volume)||
+|static [`ScreenTerminalProduction_AssemblingButton`](Sandbox.Game.Localization.ScreenTerminalProduction_AssemblingButton)||
+|static [`ScreenTerminalProduction_Blueprints`](Sandbox.Game.Localization.ScreenTerminalProduction_Blueprints)||
+|static [`ScreenTerminalProduction_ControlPanelButton`](Sandbox.Game.Localization.ScreenTerminalProduction_ControlPanelButton)||
+|static [`ScreenTerminalProduction_DisassembleAllButton`](Sandbox.Game.Localization.ScreenTerminalProduction_DisassembleAllButton)||
+|static [`ScreenTerminalProduction_DisassemblingButton`](Sandbox.Game.Localization.ScreenTerminalProduction_DisassemblingButton)||
+|static [`ScreenTerminalProduction_GainedAndAvailable`](Sandbox.Game.Localization.ScreenTerminalProduction_GainedAndAvailable)||
+|static [`ScreenTerminalProduction_Inventory`](Sandbox.Game.Localization.ScreenTerminalProduction_Inventory)||
+|static [`ScreenTerminalProduction_InventoryButton`](Sandbox.Game.Localization.ScreenTerminalProduction_InventoryButton)||
+|static [`ScreenTerminalProduction_MaterialType`](Sandbox.Game.Localization.ScreenTerminalProduction_MaterialType)||
+|static [`ScreenTerminalProduction_ProductionQueue`](Sandbox.Game.Localization.ScreenTerminalProduction_ProductionQueue)||
+|static [`ScreenTerminalProduction_RequiredAndAvailable`](Sandbox.Game.Localization.ScreenTerminalProduction_RequiredAndAvailable)||
+|static [`ScreenTerminalProduction_StoredMaterials`](Sandbox.Game.Localization.ScreenTerminalProduction_StoredMaterials)||
+|static [`ScreenTerminal_Infinite`](Sandbox.Game.Localization.ScreenTerminal_Infinite)||
+|static [`ScreenTerminal_ShipCombobox`](Sandbox.Game.Localization.ScreenTerminal_ShipCombobox)||
+|static [`ScreenTerminal_ShipList`](Sandbox.Game.Localization.ScreenTerminal_ShipList)||
+|static [`ScriptingToolsCutscenes`](Sandbox.Game.Localization.ScriptingToolsCutscenes)||
+|static [`ScriptingToolsTransformations`](Sandbox.Game.Localization.ScriptingToolsTransformations)||
+|static [`SelectedBlock`](Sandbox.Game.Localization.SelectedBlock)||
+|static [`SelectedEntity`](Sandbox.Game.Localization.SelectedEntity)||
+|static [`SelectedTrigger`](Sandbox.Game.Localization.SelectedTrigger)||
+|static [`ServerDetails_AssemblerEfficiencyMultiplier`](Sandbox.Game.Localization.ServerDetails_AssemblerEfficiencyMultiplier)||
+|static [`ServerDetails_AssemblerSpeedMultiplier`](Sandbox.Game.Localization.ServerDetails_AssemblerSpeedMultiplier)||
+|static [`ServerDetails_AutoHealing`](Sandbox.Game.Localization.ServerDetails_AutoHealing)||
+|static [`ServerDetails_BlockTypeLimits`](Sandbox.Game.Localization.ServerDetails_BlockTypeLimits)||
+|static [`ServerDetails_CargoShipsEnabled`](Sandbox.Game.Localization.ServerDetails_CargoShipsEnabled)||
+|static [`ServerDetails_DestructibleBlocks`](Sandbox.Game.Localization.ServerDetails_DestructibleBlocks)||
+|static [`ServerDetails_Enable3rdPersonView`](Sandbox.Game.Localization.ServerDetails_Enable3rdPersonView)||
+|static [`ServerDetails_EnableBlockLimits`](Sandbox.Game.Localization.ServerDetails_EnableBlockLimits)||
+|static [`ServerDetails_EnableConvertToStation`](Sandbox.Game.Localization.ServerDetails_EnableConvertToStation)||
+|static [`ServerDetails_EnableDrones`](Sandbox.Game.Localization.ServerDetails_EnableDrones)||
+|static [`ServerDetails_EnableEncounters`](Sandbox.Game.Localization.ServerDetails_EnableEncounters)||
+|static [`ServerDetails_EnableFlora`](Sandbox.Game.Localization.ServerDetails_EnableFlora)||
+|static [`ServerDetails_EnableIngameScripts`](Sandbox.Game.Localization.ServerDetails_EnableIngameScripts)||
+|static [`ServerDetails_EnableJetpack`](Sandbox.Game.Localization.ServerDetails_EnableJetpack)||
+|static [`ServerDetails_EnableOxygen`](Sandbox.Game.Localization.ServerDetails_EnableOxygen)||
+|static [`ServerDetails_EnableOxygenPressurization`](Sandbox.Game.Localization.ServerDetails_EnableOxygenPressurization)||
+|static [`ServerDetails_EnableRemoteBlockRemoval`](Sandbox.Game.Localization.ServerDetails_EnableRemoteBlockRemoval)||
+|static [`ServerDetails_EnableScripterRole`](Sandbox.Game.Localization.ServerDetails_EnableScripterRole)||
+|static [`ServerDetails_EnableSpiders`](Sandbox.Game.Localization.ServerDetails_EnableSpiders)||
+|static [`ServerDetails_EnableSunRotation`](Sandbox.Game.Localization.ServerDetails_EnableSunRotation)||
+|static [`ServerDetails_EnableToolShake`](Sandbox.Game.Localization.ServerDetails_EnableToolShake)||
+|static [`ServerDetails_EnableVoxelDestruction`](Sandbox.Game.Localization.ServerDetails_EnableVoxelDestruction)||
+|static [`ServerDetails_EnableWolfs`](Sandbox.Game.Localization.ServerDetails_EnableWolfs)||
+|static [`ServerDetails_EnvironmentHostility`](Sandbox.Game.Localization.ServerDetails_EnvironmentHostility)||
+|static [`ServerDetails_FloraDensity`](Sandbox.Game.Localization.ServerDetails_FloraDensity)||
+|static [`ServerDetails_GrinderSpeedMultiplier`](Sandbox.Game.Localization.ServerDetails_GrinderSpeedMultiplier)||
+|static [`ServerDetails_HackSpeedMultiplier`](Sandbox.Game.Localization.ServerDetails_HackSpeedMultiplier)||
+|static [`ServerDetails_MaxBlocksPerPlayer`](Sandbox.Game.Localization.ServerDetails_MaxBlocksPerPlayer)||
+|static [`ServerDetails_MaxFloatingObjects`](Sandbox.Game.Localization.ServerDetails_MaxFloatingObjects)||
+|static [`ServerDetails_MaxGridSize`](Sandbox.Game.Localization.ServerDetails_MaxGridSize)||
+|static [`ServerDetails_PermanentDeath`](Sandbox.Game.Localization.ServerDetails_PermanentDeath)||
+|static [`ServerDetails_ProceduralDensity`](Sandbox.Game.Localization.ServerDetails_ProceduralDensity)||
+|static [`ServerDetails_RealisticSound`](Sandbox.Game.Localization.ServerDetails_RealisticSound)||
+|static [`ServerDetails_RefinerySpeedMultiplier`](Sandbox.Game.Localization.ServerDetails_RefinerySpeedMultiplier)||
+|static [`ServerDetails_RespawnShipDelete`](Sandbox.Game.Localization.ServerDetails_RespawnShipDelete)||
+|static [`ServerDetails_ServerManagement`](Sandbox.Game.Localization.ServerDetails_ServerManagement)||
+|static [`ServerDetails_ShowPlayerNamesOnHud`](Sandbox.Game.Localization.ServerDetails_ShowPlayerNamesOnHud)||
+|static [`ServerDetails_SpawnShipTimeMultiplier`](Sandbox.Game.Localization.ServerDetails_SpawnShipTimeMultiplier)||
+|static [`ServerDetails_SpawnWithTools`](Sandbox.Game.Localization.ServerDetails_SpawnWithTools)||
+|static [`ServerDetails_StationVoxelSupport`](Sandbox.Game.Localization.ServerDetails_StationVoxelSupport)||
+|static [`ServerDetails_SunRotationIntervalMinutes`](Sandbox.Game.Localization.ServerDetails_SunRotationIntervalMinutes)||
+|static [`ServerDetails_ThrusterDamage`](Sandbox.Game.Localization.ServerDetails_ThrusterDamage)||
+|static [`ServerDetails_ViewDistance`](Sandbox.Game.Localization.ServerDetails_ViewDistance)||
+|static [`ServerDetails_WeaponsEnabled`](Sandbox.Game.Localization.ServerDetails_WeaponsEnabled)||
+|static [`ServerDetails_WelderSpeedMultiplier`](Sandbox.Game.Localization.ServerDetails_WelderSpeedMultiplier)||
+|static [`ServerDetails_WorldSizeKm`](Sandbox.Game.Localization.ServerDetails_WorldSizeKm)||
+|static [`SetTriggerSizeDialog`](Sandbox.Game.Localization.SetTriggerSizeDialog)||
+|static [`SharedBlueprint`](Sandbox.Game.Localization.SharedBlueprint)||
+|static [`SharedBlueprintNotify`](Sandbox.Game.Localization.SharedBlueprintNotify)||
+|static [`SharedBlueprintQuestion`](Sandbox.Game.Localization.SharedBlueprintQuestion)||
+|static [`ShowOnlyBuildableBlockToggle`](Sandbox.Game.Localization.ShowOnlyBuildableBlockToggle)||
+|static [`ShowOnlyBuildableTooltip`](Sandbox.Game.Localization.ShowOnlyBuildableTooltip)||
+|static [`Signal_Enemy`](Sandbox.Game.Localization.Signal_Enemy)||
+|static [`Signal_Friendly`](Sandbox.Game.Localization.Signal_Friendly)||
+|static [`Signal_Mixed`](Sandbox.Game.Localization.Signal_Mixed)||
+|static [`Signal_Neutral`](Sandbox.Game.Localization.Signal_Neutral)||
+|static [`Signal_Own`](Sandbox.Game.Localization.Signal_Own)||
+|static [`Silicon`](Sandbox.Game.Localization.Silicon)||
+|static [`Silver`](Sandbox.Game.Localization.Silver)||
+|static [`SmallGrids`](Sandbox.Game.Localization.SmallGrids)||
+|static [`SoundBlock_SoundName_Alert1`](Sandbox.Game.Localization.SoundBlock_SoundName_Alert1)||
+|static [`SoundBlock_SoundName_Alert2`](Sandbox.Game.Localization.SoundBlock_SoundName_Alert2)||
+|static [`SoundBlock_SoundName_Alert3`](Sandbox.Game.Localization.SoundBlock_SoundName_Alert3)||
+|static [`SoundBlock_SoundName_Drone_Huge`](Sandbox.Game.Localization.SoundBlock_SoundName_Drone_Huge)||
+|static [`SoundBlock_SoundName_Drone_Large`](Sandbox.Game.Localization.SoundBlock_SoundName_Drone_Large)||
+|static [`SoundBlock_SoundName_Drone_Medium`](Sandbox.Game.Localization.SoundBlock_SoundName_Drone_Medium)||
+|static [`SoundBlock_SoundName_Drone_Small`](Sandbox.Game.Localization.SoundBlock_SoundName_Drone_Small)||
+|static [`SoundBlock_SoundName_EnemyDetected`](Sandbox.Game.Localization.SoundBlock_SoundName_EnemyDetected)||
+|static [`SoundBlock_SoundName_LightsOff`](Sandbox.Game.Localization.SoundBlock_SoundName_LightsOff)||
+|static [`SoundBlock_SoundName_LightsOn`](Sandbox.Game.Localization.SoundBlock_SoundName_LightsOn)||
+|static [`SoundBlock_SoundName_Music1`](Sandbox.Game.Localization.SoundBlock_SoundName_Music1)||
+|static [`SoundBlock_SoundName_Music2`](Sandbox.Game.Localization.SoundBlock_SoundName_Music2)||
+|static [`SoundBlock_SoundName_ObjectiveComplete`](Sandbox.Game.Localization.SoundBlock_SoundName_ObjectiveComplete)||
+|static [`SpawnEntity`](Sandbox.Game.Localization.SpawnEntity)||
+|static [`SpawnInSpaceSuit`](Sandbox.Game.Localization.SpawnInSpaceSuit)||
+|static [`SpectatorControls_Free_Desc`](Sandbox.Game.Localization.SpectatorControls_Free_Desc)||
+|static [`SpectatorControls_None_Desc`](Sandbox.Game.Localization.SpectatorControls_None_Desc)||
+|static [`SpectatorControls_Static_Desc`](Sandbox.Game.Localization.SpectatorControls_Static_Desc)||
+|static [`Speed`](Sandbox.Game.Localization.Speed)||
+|static [`StaticObjects`](Sandbox.Game.Localization.StaticObjects)||
+|static [`StationRotation_Static`](Sandbox.Game.Localization.StationRotation_Static)||
+|static [`StationRotation_Static_Desc`](Sandbox.Game.Localization.StationRotation_Static_Desc)||
+|static [`SteamOverlayDisabledText`](Sandbox.Game.Localization.SteamOverlayDisabledText)||
+|static [`Stop`](Sandbox.Game.Localization.Stop)||
+|static [`String1TerminalTab_Factions_LeaveToolTip`](Sandbox.Game.Localization.String1TerminalTab_Factions_LeaveToolTip)||
+|static [`SunRotationPeriod`](Sandbox.Game.Localization.SunRotationPeriod)||
+|static [`SwitchBuilderMode`](Sandbox.Game.Localization.SwitchBuilderMode)||
+|static [`SwitchText_Close`](Sandbox.Game.Localization.SwitchText_Close)||
+|static [`SwitchText_Off`](Sandbox.Game.Localization.SwitchText_Off)||
+|static [`SwitchText_On`](Sandbox.Game.Localization.SwitchText_On)||
+|static [`SwitchText_Open`](Sandbox.Game.Localization.SwitchText_Open)||
+|static [`SwitchToNormalVT`](Sandbox.Game.Localization.SwitchToNormalVT)||
+|static [`Terminal`](Sandbox.Game.Localization.Terminal)||
+|static [`TerminalAccess`](Sandbox.Game.Localization.TerminalAccess)||
+|static [`TerminalButton_GroupSave`](Sandbox.Game.Localization.TerminalButton_GroupSave)||
+|static [`TerminalControl`](Sandbox.Game.Localization.TerminalControl)||
+|static [`TerminalControlPanel_Cockpit_ControlThrusters`](Sandbox.Game.Localization.TerminalControlPanel_Cockpit_ControlThrusters)||
+|static [`TerminalControlPanel_Cockpit_ControlWheels`](Sandbox.Game.Localization.TerminalControlPanel_Cockpit_ControlWheels)||
+|static [`TerminalControlPanel_Cockpit_Handbrake`](Sandbox.Game.Localization.TerminalControlPanel_Cockpit_Handbrake)||
+|static [`TerminalControlPanel_Cockpit_HorizonIndicator`](Sandbox.Game.Localization.TerminalControlPanel_Cockpit_HorizonIndicator)||
+|static [`TerminalControlPanel_Cockpit_MainCockpit`](Sandbox.Game.Localization.TerminalControlPanel_Cockpit_MainCockpit)||
+|static [`TerminalControlPanel_Cockpit_MainRemoteControl`](Sandbox.Game.Localization.TerminalControlPanel_Cockpit_MainRemoteControl)||
+|static [`TerminalControlPanel_EditCode`](Sandbox.Game.Localization.TerminalControlPanel_EditCode)||
+|static [`TerminalControlPanel_EditCode_Tooltip`](Sandbox.Game.Localization.TerminalControlPanel_EditCode_Tooltip)||
+|static [`TerminalControlPanel_EditCode_Tooltip_Steam`](Sandbox.Game.Localization.TerminalControlPanel_EditCode_Tooltip_Steam)||
+|static [`TerminalControlPanel_Recompile`](Sandbox.Game.Localization.TerminalControlPanel_Recompile)||
+|static [`TerminalControlPanel_Recompile_Tooltip`](Sandbox.Game.Localization.TerminalControlPanel_Recompile_Tooltip)||
+|static [`TerminalControlPanel_RunArgument`](Sandbox.Game.Localization.TerminalControlPanel_RunArgument)||
+|static [`TerminalControlPanel_RunArgument_ToolTip`](Sandbox.Game.Localization.TerminalControlPanel_RunArgument_ToolTip)||
+|static [`TerminalControlPanel_RunCode`](Sandbox.Game.Localization.TerminalControlPanel_RunCode)||
+|static [`TerminalControlPanel_RunCodeDefault`](Sandbox.Game.Localization.TerminalControlPanel_RunCodeDefault)||
+|static [`TerminalControlPanel_RunCode_Tooltip`](Sandbox.Game.Localization.TerminalControlPanel_RunCode_Tooltip)||
+|static [`TerminalControlPanel_TimerDelay`](Sandbox.Game.Localization.TerminalControlPanel_TimerDelay)||
+|static [`TerminalControlPanel_Warhead_Detonate`](Sandbox.Game.Localization.TerminalControlPanel_Warhead_Detonate)||
+|static [`TerminalControlPanel_Warhead_DetonationTime`](Sandbox.Game.Localization.TerminalControlPanel_Warhead_DetonationTime)||
+|static [`TerminalControlPanel_Warhead_Safety`](Sandbox.Game.Localization.TerminalControlPanel_Warhead_Safety)||
+|static [`TerminalControlPanel_Warhead_SafetyTooltip`](Sandbox.Game.Localization.TerminalControlPanel_Warhead_SafetyTooltip)||
+|static [`TerminalControlPanel_Warhead_StartCountdown`](Sandbox.Game.Localization.TerminalControlPanel_Warhead_StartCountdown)||
+|static [`TerminalControlPanel_Warhead_StopCountdown`](Sandbox.Game.Localization.TerminalControlPanel_Warhead_StopCountdown)||
+|static [`TerminalControlPanel_Warhead_SwitchTextArmed`](Sandbox.Game.Localization.TerminalControlPanel_Warhead_SwitchTextArmed)||
+|static [`TerminalControlPanel_Warhead_SwitchTextDisarmed`](Sandbox.Game.Localization.TerminalControlPanel_Warhead_SwitchTextDisarmed)||
+|static [`TerminalDistance`](Sandbox.Game.Localization.TerminalDistance)||
+|static [`TerminalName`](Sandbox.Game.Localization.TerminalName)||
+|static [`TerminalScenarioSettingsLabel`](Sandbox.Game.Localization.TerminalScenarioSettingsLabel)||
+|static [`TerminalStatus`](Sandbox.Game.Localization.TerminalStatus)||
+|static [`TerminalTab_Chat`](Sandbox.Game.Localization.TerminalTab_Chat)||
+|static [`TerminalTab_Chat_ChatHistory`](Sandbox.Game.Localization.TerminalTab_Chat_ChatHistory)||
+|static [`TerminalTab_Chat_GlobalChat`](Sandbox.Game.Localization.TerminalTab_Chat_GlobalChat)||
+|static [`TerminalTab_Chat_NoFaction`](Sandbox.Game.Localization.TerminalTab_Chat_NoFaction)||
+|static [`TerminalTab_Chat_Offline`](Sandbox.Game.Localization.TerminalTab_Chat_Offline)||
+|static [`TerminalTab_Chat_Pending`](Sandbox.Game.Localization.TerminalTab_Chat_Pending)||
+|static [`TerminalTab_Factions`](Sandbox.Game.Localization.TerminalTab_Factions)||
+|static [`TerminalTab_FactionsTableLabel`](Sandbox.Game.Localization.TerminalTab_FactionsTableLabel)||
+|static [`TerminalTab_Factions_AcceptPeaceRequest`](Sandbox.Game.Localization.TerminalTab_Factions_AcceptPeaceRequest)||
+|static [`TerminalTab_Factions_AcceptToolTip`](Sandbox.Game.Localization.TerminalTab_Factions_AcceptToolTip)||
+|static [`TerminalTab_Factions_AutoAccept`](Sandbox.Game.Localization.TerminalTab_Factions_AutoAccept)||
+|static [`TerminalTab_Factions_AutoAcceptRequest`](Sandbox.Game.Localization.TerminalTab_Factions_AutoAcceptRequest)||
+|static [`TerminalTab_Factions_AutoAcceptRequestToolTip`](Sandbox.Game.Localization.TerminalTab_Factions_AutoAcceptRequestToolTip)||
+|static [`TerminalTab_Factions_AutoAcceptToolTip`](Sandbox.Game.Localization.TerminalTab_Factions_AutoAcceptToolTip)||
+|static [`TerminalTab_Factions_BeforeCreateLeave`](Sandbox.Game.Localization.TerminalTab_Factions_BeforeCreateLeave)||
+|static [`TerminalTab_Factions_CancelJoin`](Sandbox.Game.Localization.TerminalTab_Factions_CancelJoin)||
+|static [`TerminalTab_Factions_CancelPeaceRequest`](Sandbox.Game.Localization.TerminalTab_Factions_CancelPeaceRequest)||
+|static [`TerminalTab_Factions_Create`](Sandbox.Game.Localization.TerminalTab_Factions_Create)||
+|static [`TerminalTab_Factions_CreateFaction`](Sandbox.Game.Localization.TerminalTab_Factions_CreateFaction)||
+|static [`TerminalTab_Factions_CreateFactionDescription`](Sandbox.Game.Localization.TerminalTab_Factions_CreateFactionDescription)||
+|static [`TerminalTab_Factions_CreateFactionName`](Sandbox.Game.Localization.TerminalTab_Factions_CreateFactionName)||
+|static [`TerminalTab_Factions_CreateFactionPrivateInfo`](Sandbox.Game.Localization.TerminalTab_Factions_CreateFactionPrivateInfo)||
+|static [`TerminalTab_Factions_CreateFactionPrivateInfoToolTip`](Sandbox.Game.Localization.TerminalTab_Factions_CreateFactionPrivateInfoToolTip)||
+|static [`TerminalTab_Factions_CreateFactionPublicInfoToolTip`](Sandbox.Game.Localization.TerminalTab_Factions_CreateFactionPublicInfoToolTip)||
+|static [`TerminalTab_Factions_CreateFactionTag`](Sandbox.Game.Localization.TerminalTab_Factions_CreateFactionTag)||
+|static [`TerminalTab_Factions_CreateFactionTagToolTip`](Sandbox.Game.Localization.TerminalTab_Factions_CreateFactionTagToolTip)||
+|static [`TerminalTab_Factions_CreateToolTip`](Sandbox.Game.Localization.TerminalTab_Factions_CreateToolTip)||
+|static [`TerminalTab_Factions_DemoteToolTip`](Sandbox.Game.Localization.TerminalTab_Factions_DemoteToolTip)||
+|static [`TerminalTab_Factions_EditFaction`](Sandbox.Game.Localization.TerminalTab_Factions_EditFaction)||
+|static [`TerminalTab_Factions_Enemy`](Sandbox.Game.Localization.TerminalTab_Factions_Enemy)||
+|static [`TerminalTab_Factions_EnemyToolTip`](Sandbox.Game.Localization.TerminalTab_Factions_EnemyToolTip)||
+|static [`TerminalTab_Factions_Friend`](Sandbox.Game.Localization.TerminalTab_Factions_Friend)||
+|static [`TerminalTab_Factions_FriendToolTip`](Sandbox.Game.Localization.TerminalTab_Factions_FriendToolTip)||
+|static [`TerminalTab_Factions_Join`](Sandbox.Game.Localization.TerminalTab_Factions_Join)||
+|static [`TerminalTab_Factions_JoinLimitsExceeded`](Sandbox.Game.Localization.TerminalTab_Factions_JoinLimitsExceeded)||
+|static [`TerminalTab_Factions_JoinToolTip`](Sandbox.Game.Localization.TerminalTab_Factions_JoinToolTip)||
+|static [`TerminalTab_Factions_KickToolTip`](Sandbox.Game.Localization.TerminalTab_Factions_KickToolTip)||
+|static [`TerminalTab_Factions_Leave`](Sandbox.Game.Localization.TerminalTab_Factions_Leave)||
+|static [`TerminalTab_Factions_LeaveToolTip`](Sandbox.Game.Localization.TerminalTab_Factions_LeaveToolTip)||
+|static [`TerminalTab_Factions_MaxCountReachedToolTip`](Sandbox.Game.Localization.TerminalTab_Factions_MaxCountReachedToolTip)||
+|static [`TerminalTab_Factions_Members`](Sandbox.Game.Localization.TerminalTab_Factions_Members)||
+|static [`TerminalTab_Factions_PendingPeace`](Sandbox.Game.Localization.TerminalTab_Factions_PendingPeace)||
+|static [`TerminalTab_Factions_Private`](Sandbox.Game.Localization.TerminalTab_Factions_Private)||
+|static [`TerminalTab_Factions_PromoteToolTip`](Sandbox.Game.Localization.TerminalTab_Factions_PromoteToolTip)||
+|static [`TerminalTab_Factions_SentJoinToolTip`](Sandbox.Game.Localization.TerminalTab_Factions_SentJoinToolTip)||
+|static [`TerminalTab_Factions_SentPeace`](Sandbox.Game.Localization.TerminalTab_Factions_SentPeace)||
+|static [`TerminalTab_GPS`](Sandbox.Game.Localization.TerminalTab_GPS)||
+|static [`TerminalTab_GPS_Add`](Sandbox.Game.Localization.TerminalTab_GPS_Add)||
+|static [`TerminalTab_GPS_Add_ToolTip`](Sandbox.Game.Localization.TerminalTab_GPS_Add_ToolTip)||
+|static [`TerminalTab_GPS_AlwaysVisible`](Sandbox.Game.Localization.TerminalTab_GPS_AlwaysVisible)||
+|static [`TerminalTab_GPS_AlwaysVisible_Tooltip`](Sandbox.Game.Localization.TerminalTab_GPS_AlwaysVisible_Tooltip)||
+|static [`TerminalTab_GPS_Coordinates`](Sandbox.Game.Localization.TerminalTab_GPS_Coordinates)||
+|static [`TerminalTab_GPS_CopyToClipboard`](Sandbox.Game.Localization.TerminalTab_GPS_CopyToClipboard)||
+|static [`TerminalTab_GPS_CopyToClipboard_ToolTip`](Sandbox.Game.Localization.TerminalTab_GPS_CopyToClipboard_ToolTip)||
+|static [`TerminalTab_GPS_Delete`](Sandbox.Game.Localization.TerminalTab_GPS_Delete)||
+|static [`TerminalTab_GPS_Delete_Disabled_ToolTip`](Sandbox.Game.Localization.TerminalTab_GPS_Delete_Disabled_ToolTip)||
+|static [`TerminalTab_GPS_Delete_ToolTip`](Sandbox.Game.Localization.TerminalTab_GPS_Delete_ToolTip)||
+|static [`TerminalTab_GPS_Description`](Sandbox.Game.Localization.TerminalTab_GPS_Description)||
+|static [`TerminalTab_GPS_FromChatDescPrefix`](Sandbox.Game.Localization.TerminalTab_GPS_FromChatDescPrefix)||
+|static [`TerminalTab_GPS_Name`](Sandbox.Game.Localization.TerminalTab_GPS_Name)||
+|static [`TerminalTab_GPS_NewCoord_Desc`](Sandbox.Game.Localization.TerminalTab_GPS_NewCoord_Desc)||
+|static [`TerminalTab_GPS_NewCoord_Desc_ToolTip`](Sandbox.Game.Localization.TerminalTab_GPS_NewCoord_Desc_ToolTip)||
+|static [`TerminalTab_GPS_NewCoord_Name`](Sandbox.Game.Localization.TerminalTab_GPS_NewCoord_Name)||
+|static [`TerminalTab_GPS_NewCoord_Name_ToolTip`](Sandbox.Game.Localization.TerminalTab_GPS_NewCoord_Name_ToolTip)||
+|static [`TerminalTab_GPS_NewFromBroadcast`](Sandbox.Game.Localization.TerminalTab_GPS_NewFromBroadcast)||
+|static [`TerminalTab_GPS_NewFromClipboard`](Sandbox.Game.Localization.TerminalTab_GPS_NewFromClipboard)||
+|static [`TerminalTab_GPS_NewFromClipboard_Desc`](Sandbox.Game.Localization.TerminalTab_GPS_NewFromClipboard_Desc)||
+|static [`TerminalTab_GPS_NewFromClipboard_ToolTip`](Sandbox.Game.Localization.TerminalTab_GPS_NewFromClipboard_ToolTip)||
+|static [`TerminalTab_GPS_NewFromCurrent`](Sandbox.Game.Localization.TerminalTab_GPS_NewFromCurrent)||
+|static [`TerminalTab_GPS_NewFromCurrent_Desc`](Sandbox.Game.Localization.TerminalTab_GPS_NewFromCurrent_Desc)||
+|static [`TerminalTab_GPS_NewFromCurrent_Name`](Sandbox.Game.Localization.TerminalTab_GPS_NewFromCurrent_Name)||
+|static [`TerminalTab_GPS_NewFromCurrent_ToolTip`](Sandbox.Game.Localization.TerminalTab_GPS_NewFromCurrent_ToolTip)||
+|static [`TerminalTab_GPS_NewFromFactionComms`](Sandbox.Game.Localization.TerminalTab_GPS_NewFromFactionComms)||
+|static [`TerminalTab_GPS_NewFromPrivateComms`](Sandbox.Game.Localization.TerminalTab_GPS_NewFromPrivateComms)||
+|static [`TerminalTab_GPS_SaveWarning`](Sandbox.Game.Localization.TerminalTab_GPS_SaveWarning)||
+|static [`TerminalTab_GPS_SelectGpsEntry`](Sandbox.Game.Localization.TerminalTab_GPS_SelectGpsEntry)||
+|static [`TerminalTab_GPS_ShowOnHud`](Sandbox.Game.Localization.TerminalTab_GPS_ShowOnHud)||
+|static [`TerminalTab_GPS_ShowOnHud_ToolTip`](Sandbox.Game.Localization.TerminalTab_GPS_ShowOnHud_ToolTip)||
+|static [`TerminalTab_GPS_X`](Sandbox.Game.Localization.TerminalTab_GPS_X)||
+|static [`TerminalTab_GPS_X_ToolTip`](Sandbox.Game.Localization.TerminalTab_GPS_X_ToolTip)||
+|static [`TerminalTab_GPS_Y`](Sandbox.Game.Localization.TerminalTab_GPS_Y)||
+|static [`TerminalTab_GPS_Y_ToolTip`](Sandbox.Game.Localization.TerminalTab_GPS_Y_ToolTip)||
+|static [`TerminalTab_GPS_Z`](Sandbox.Game.Localization.TerminalTab_GPS_Z)||
+|static [`TerminalTab_GPS_Z_ToolTip`](Sandbox.Game.Localization.TerminalTab_GPS_Z_ToolTip)||
+|static [`TerminalTab_Info`](Sandbox.Game.Localization.TerminalTab_Info)||
+|static [`TerminalTab_Info_Assign`](Sandbox.Game.Localization.TerminalTab_Info_Assign)||
+|static [`TerminalTab_Info_Blocks`](Sandbox.Game.Localization.TerminalTab_Info_Blocks)||
+|static [`TerminalTab_Info_BlocksLower`](Sandbox.Game.Localization.TerminalTab_Info_BlocksLower)||
+|static [`TerminalTab_Info_BlocksTooltip`](Sandbox.Game.Localization.TerminalTab_Info_BlocksTooltip)||
+|static [`TerminalTab_Info_ConvertButton`](Sandbox.Game.Localization.TerminalTab_Info_ConvertButton)||
+|static [`TerminalTab_Info_ConvertButton_TT`](Sandbox.Game.Localization.TerminalTab_Info_ConvertButton_TT)||
+|static [`TerminalTab_Info_ConvertToStationButton`](Sandbox.Game.Localization.TerminalTab_Info_ConvertToStationButton)||
+|static [`TerminalTab_Info_ConvertToStationButton_TT`](Sandbox.Game.Localization.TerminalTab_Info_ConvertToStationButton_TT)||
+|static [`TerminalTab_Info_Conveyors`](Sandbox.Game.Localization.TerminalTab_Info_Conveyors)||
+|static [`TerminalTab_Info_Description`](Sandbox.Game.Localization.TerminalTab_Info_Description)||
+|static [`TerminalTab_Info_DestructibleBlocks`](Sandbox.Game.Localization.TerminalTab_Info_DestructibleBlocks)||
+|static [`TerminalTab_Info_DestructibleBlocks_Tooltip`](Sandbox.Game.Localization.TerminalTab_Info_DestructibleBlocks_Tooltip)||
+|static [`TerminalTab_Info_EnemyAntennaRange`](Sandbox.Game.Localization.TerminalTab_Info_EnemyAntennaRange)||
+|static [`TerminalTab_Info_EnemyAntennaRange_ToolTip`](Sandbox.Game.Localization.TerminalTab_Info_EnemyAntennaRange_ToolTip)||
+|static [`TerminalTab_Info_FriendlyAntennaRange`](Sandbox.Game.Localization.TerminalTab_Info_FriendlyAntennaRange)||
+|static [`TerminalTab_Info_FriendlyAntennaRange_ToolTip`](Sandbox.Game.Localization.TerminalTab_Info_FriendlyAntennaRange_ToolTip)||
+|static [`TerminalTab_Info_GravGens`](Sandbox.Game.Localization.TerminalTab_Info_GravGens)||
+|static [`TerminalTab_Info_GridInfoLabel`](Sandbox.Game.Localization.TerminalTab_Info_GridInfoLabel)||
+|static [`TerminalTab_Info_GridMass`](Sandbox.Game.Localization.TerminalTab_Info_GridMass)||
+|static [`TerminalTab_Info_Lights`](Sandbox.Game.Localization.TerminalTab_Info_Lights)||
+|static [`TerminalTab_Info_NonArmor`](Sandbox.Game.Localization.TerminalTab_Info_NonArmor)||
+|static [`TerminalTab_Info_Overview`](Sandbox.Game.Localization.TerminalTab_Info_Overview)||
+|static [`TerminalTab_Info_OwnedAntennaRange`](Sandbox.Game.Localization.TerminalTab_Info_OwnedAntennaRange)||
+|static [`TerminalTab_Info_OwnedAntennaRange_ToolTip`](Sandbox.Game.Localization.TerminalTab_Info_OwnedAntennaRange_ToolTip)||
+|static [`TerminalTab_Info_PivotBtn`](Sandbox.Game.Localization.TerminalTab_Info_PivotBtn)||
+|static [`TerminalTab_Info_PivotBtn_ToolTip`](Sandbox.Game.Localization.TerminalTab_Info_PivotBtn_ToolTip)||
+|static [`TerminalTab_Info_Reflectors`](Sandbox.Game.Localization.TerminalTab_Info_Reflectors)||
+|static [`TerminalTab_Info_RemoveGrid`](Sandbox.Game.Localization.TerminalTab_Info_RemoveGrid)||
+|static [`TerminalTab_Info_Rotors`](Sandbox.Game.Localization.TerminalTab_Info_Rotors)||
+|static [`TerminalTab_Info_Shapes`](Sandbox.Game.Localization.TerminalTab_Info_Shapes)||
+|static [`TerminalTab_Info_ShipName`](Sandbox.Game.Localization.TerminalTab_Info_ShipName)||
+|static [`TerminalTab_Info_ShowAntenaGizmo`](Sandbox.Game.Localization.TerminalTab_Info_ShowAntenaGizmo)||
+|static [`TerminalTab_Info_ShowAntenaGizmo_ToolTip`](Sandbox.Game.Localization.TerminalTab_Info_ShowAntenaGizmo_ToolTip)||
+|static [`TerminalTab_Info_ShowGravityGizmo`](Sandbox.Game.Localization.TerminalTab_Info_ShowGravityGizmo)||
+|static [`TerminalTab_Info_ShowGravityGizmo_ToolTip`](Sandbox.Game.Localization.TerminalTab_Info_ShowGravityGizmo_ToolTip)||
+|static [`TerminalTab_Info_ShowMassCenter`](Sandbox.Game.Localization.TerminalTab_Info_ShowMassCenter)||
+|static [`TerminalTab_Info_ShowMassCenter_ToolTip`](Sandbox.Game.Localization.TerminalTab_Info_ShowMassCenter_ToolTip)||
+|static [`TerminalTab_Info_ShowSenzorGizmo`](Sandbox.Game.Localization.TerminalTab_Info_ShowSenzorGizmo)||
+|static [`TerminalTab_Info_ShowSenzorGizmo_ToolTip`](Sandbox.Game.Localization.TerminalTab_Info_ShowSenzorGizmo_ToolTip)||
+|static [`TerminalTab_Info_Thrusters`](Sandbox.Game.Localization.TerminalTab_Info_Thrusters)||
+|static [`TerminalTab_Info_Triangles`](Sandbox.Game.Localization.TerminalTab_Info_Triangles)||
+|static [`TerminalTab_Info_TrianglesTooltip`](Sandbox.Game.Localization.TerminalTab_Info_TrianglesTooltip)||
+|static [`TerminalTab_Info_VirtualMass`](Sandbox.Game.Localization.TerminalTab_Info_VirtualMass)||
+|static [`TerminalTab_Info_YouBuilt`](Sandbox.Game.Localization.TerminalTab_Info_YouBuilt)||
+|static [`TerminalTab_PlayersTableLabel`](Sandbox.Game.Localization.TerminalTab_PlayersTableLabel)||
+|static [`TerminalTab_Production`](Sandbox.Game.Localization.TerminalTab_Production)||
+|static [`Terminal_AuthorshipNotAvailable`](Sandbox.Game.Localization.Terminal_AuthorshipNotAvailable)||
+|static [`Terminal_BlockAccessDenied`](Sandbox.Game.Localization.Terminal_BlockAccessDenied)||
+|static [`Terminal_BlockIncomplete`](Sandbox.Game.Localization.Terminal_BlockIncomplete)||
+|static [`Terminal_CollectAll`](Sandbox.Game.Localization.Terminal_CollectAll)||
+|static [`Terminal_CustomData`](Sandbox.Game.Localization.Terminal_CustomData)||
+|static [`Terminal_CustomDataTooltip`](Sandbox.Game.Localization.Terminal_CustomDataTooltip)||
+|static [`Terminal_DrainAll`](Sandbox.Game.Localization.Terminal_DrainAll)||
+|static [`Terminal_GroupTitle`](Sandbox.Game.Localization.Terminal_GroupTitle)||
+|static [`Terminal_RemoteControl_Button`](Sandbox.Game.Localization.Terminal_RemoteControl_Button)||
+|static [`Terminal_Shoot`](Sandbox.Game.Localization.Terminal_Shoot)||
+|static [`Terminal_ShootOnce`](Sandbox.Game.Localization.Terminal_ShootOnce)||
+|static [`Terminal_ShowAllInTerminal`](Sandbox.Game.Localization.Terminal_ShowAllInTerminal)||
+|static [`Terminal_ShowInInventory`](Sandbox.Game.Localization.Terminal_ShowInInventory)||
+|static [`Terminal_ShowInInventoryToolTip`](Sandbox.Game.Localization.Terminal_ShowInInventoryToolTip)||
+|static [`Terminal_ShowInTerminal`](Sandbox.Game.Localization.Terminal_ShowInTerminal)||
+|static [`Terminal_ShowInTerminalToolTip`](Sandbox.Game.Localization.Terminal_ShowInTerminalToolTip)||
+|static [`Terminal_ShowInToolbarConfig`](Sandbox.Game.Localization.Terminal_ShowInToolbarConfig)||
+|static [`Terminal_ShowInToolbarConfigToolTip`](Sandbox.Game.Localization.Terminal_ShowInToolbarConfigToolTip)||
+|static [`Terminal_ShowOnHUD`](Sandbox.Game.Localization.Terminal_ShowOnHUD)||
+|static [`Terminal_ShowOnHUDToolTip`](Sandbox.Game.Localization.Terminal_ShowOnHUDToolTip)||
+|static [`Terminal_ThrowOut`](Sandbox.Game.Localization.Terminal_ThrowOut)||
+|static [`Terminal_UseConveyorSystem`](Sandbox.Game.Localization.Terminal_UseConveyorSystem)||
+|static [`ToolbarAction_Decrease`](Sandbox.Game.Localization.ToolbarAction_Decrease)||
+|static [`ToolbarAction_Increase`](Sandbox.Game.Localization.ToolbarAction_Increase)||
+|static [`ToolbarAction_Reset`](Sandbox.Game.Localization.ToolbarAction_Reset)||
+|static [`ToolTipAudioOptionsEnableReverb`](Sandbox.Game.Localization.ToolTipAudioOptionsEnableReverb)||
+|static [`ToolTipBatteryBlock`](Sandbox.Game.Localization.ToolTipBatteryBlock)||
+|static [`ToolTipBatteryBlock_Discharge`](Sandbox.Game.Localization.ToolTipBatteryBlock_Discharge)||
+|static [`ToolTipBatteryBlock_Semiauto`](Sandbox.Game.Localization.ToolTipBatteryBlock_Semiauto)||
+|static [`ToolTipCharacterScreen_HideDuplicates`](Sandbox.Game.Localization.ToolTipCharacterScreen_HideDuplicates)||
+|static [`ToolTipCharacterScreen_Model`](Sandbox.Game.Localization.ToolTipCharacterScreen_Model)||
+|static [`ToolTipCharacterScreen_ShowOnlyDuplicates`](Sandbox.Game.Localization.ToolTipCharacterScreen_ShowOnlyDuplicates)||
+|static [`ToolTipFlaresIntensity`](Sandbox.Game.Localization.ToolTipFlaresIntensity)||
+|static [`ToolTipItemFilter_AmmoMagazineInput`](Sandbox.Game.Localization.ToolTipItemFilter_AmmoMagazineInput)||
+|static [`ToolTipItemFilter_AnyIngot`](Sandbox.Game.Localization.ToolTipItemFilter_AnyIngot)||
+|static [`ToolTipItemFilter_AnyOre`](Sandbox.Game.Localization.ToolTipItemFilter_AnyOre)||
+|static [`ToolTipItemFilter_AssembledItems`](Sandbox.Game.Localization.ToolTipItemFilter_AssembledItems)||
+|static [`ToolTipItemFilter_GenericProductionBlockInput`](Sandbox.Game.Localization.ToolTipItemFilter_GenericProductionBlockInput)||
+|static [`ToolTipItemFilter_GenericProductionBlockOutput`](Sandbox.Game.Localization.ToolTipItemFilter_GenericProductionBlockOutput)||
+|static [`ToolTipItemFilter_Missile200mm`](Sandbox.Game.Localization.ToolTipItemFilter_Missile200mm)||
+|static [`ToolTipItemFilter_NATO_25x184mm`](Sandbox.Game.Localization.ToolTipItemFilter_NATO_25x184mm)||
+|static [`ToolTipItemFilter_NATO_5p56x45mm`](Sandbox.Game.Localization.ToolTipItemFilter_NATO_5p56x45mm)||
+|static [`ToolTipItemFilter_UraniumIngot`](Sandbox.Game.Localization.ToolTipItemFilter_UraniumIngot)||
+|static [`ToolTipJoinGameDirectConnect_Favorite`](Sandbox.Game.Localization.ToolTipJoinGameDirectConnect_Favorite)||
+|static [`ToolTipJoinGameDirectConnect_IP`](Sandbox.Game.Localization.ToolTipJoinGameDirectConnect_IP)||
+|static [`ToolTipJoinGameServerDetails_AddFavorite`](Sandbox.Game.Localization.ToolTipJoinGameServerDetails_AddFavorite)||
+|static [`ToolTipJoinGameServerDetails_Mods`](Sandbox.Game.Localization.ToolTipJoinGameServerDetails_Mods)||
+|static [`ToolTipJoinGameServerDetails_Players`](Sandbox.Game.Localization.ToolTipJoinGameServerDetails_Players)||
+|static [`ToolTipJoinGameServerDetails_RemoveFavorite`](Sandbox.Game.Localization.ToolTipJoinGameServerDetails_RemoveFavorite)||
+|static [`ToolTipJoinGameServerDetails_Settings`](Sandbox.Game.Localization.ToolTipJoinGameServerDetails_Settings)||
+|static [`ToolTipJoinGameServerSearch_Advanced`](Sandbox.Game.Localization.ToolTipJoinGameServerSearch_Advanced)||
+|static [`ToolTipJoinGameServerSearch_AllowedGroups`](Sandbox.Game.Localization.ToolTipJoinGameServerSearch_AllowedGroups)||
+|static [`ToolTipJoinGameServerSearch_CompatibleVersions`](Sandbox.Game.Localization.ToolTipJoinGameServerSearch_CompatibleVersions)||
+|static [`ToolTipJoinGameServerSearch_Creative`](Sandbox.Game.Localization.ToolTipJoinGameServerSearch_Creative)||
+|static [`ToolTipJoinGameServerSearch_Defaults`](Sandbox.Game.Localization.ToolTipJoinGameServerSearch_Defaults)||
+|static [`ToolTipJoinGameServerSearch_EvnironmentHostility`](Sandbox.Game.Localization.ToolTipJoinGameServerSearch_EvnironmentHostility)||
+|static [`ToolTipJoinGameServerSearch_HasPassword`](Sandbox.Game.Localization.ToolTipJoinGameServerSearch_HasPassword)||
+|static [`ToolTipJoinGameServerSearch_MaximumFilterValue`](Sandbox.Game.Localization.ToolTipJoinGameServerSearch_MaximumFilterValue)||
+|static [`ToolTipJoinGameServerSearch_MinimumFilterValue`](Sandbox.Game.Localization.ToolTipJoinGameServerSearch_MinimumFilterValue)||
+|static [`ToolTipJoinGameServerSearch_Mods`](Sandbox.Game.Localization.ToolTipJoinGameServerSearch_Mods)||
+|static [`ToolTipJoinGameServerSearch_Ping`](Sandbox.Game.Localization.ToolTipJoinGameServerSearch_Ping)||
+|static [`ToolTipJoinGameServerSearch_SameGameData`](Sandbox.Game.Localization.ToolTipJoinGameServerSearch_SameGameData)||
+|static [`ToolTipJoinGameServerSearch_Search`](Sandbox.Game.Localization.ToolTipJoinGameServerSearch_Search)||
+|static [`ToolTipJoinGameServerSearch_Settings`](Sandbox.Game.Localization.ToolTipJoinGameServerSearch_Settings)||
+|static [`ToolTipJoinGameServerSearch_Survival`](Sandbox.Game.Localization.ToolTipJoinGameServerSearch_Survival)||
+|static [`ToolTipJoinGame_Advanced`](Sandbox.Game.Localization.ToolTipJoinGame_Advanced)||
+|static [`ToolTipJoinGame_DirectConnect`](Sandbox.Game.Localization.ToolTipJoinGame_DirectConnect)||
+|static [`ToolTipJoinGame_JoinWorld`](Sandbox.Game.Localization.ToolTipJoinGame_JoinWorld)||
+|static [`ToolTipJoinGame_Refresh`](Sandbox.Game.Localization.ToolTipJoinGame_Refresh)||
+|static [`ToolTipJoinGame_Search`](Sandbox.Game.Localization.ToolTipJoinGame_Search)||
+|static [`ToolTipJoinGame_SearchClear`](Sandbox.Game.Localization.ToolTipJoinGame_SearchClear)||
+|static [`ToolTipJoinGame_ServerDetails`](Sandbox.Game.Localization.ToolTipJoinGame_ServerDetails)||
+|static [`ToolTipLoadGame_Backups`](Sandbox.Game.Localization.ToolTipLoadGame_Backups)||
+|static [`ToolTipLoadGame_Delete`](Sandbox.Game.Localization.ToolTipLoadGame_Delete)||
+|static [`ToolTipLoadGame_EditSettings`](Sandbox.Game.Localization.ToolTipLoadGame_EditSettings)||
+|static [`ToolTipLoadGame_Load`](Sandbox.Game.Localization.ToolTipLoadGame_Load)||
+|static [`ToolTipLoadGame_SaveAs`](Sandbox.Game.Localization.ToolTipLoadGame_SaveAs)||
+|static [`ToolTipMods_Ok`](Sandbox.Game.Localization.ToolTipMods_Ok)||
+|static [`ToolTipMods_Search`](Sandbox.Game.Localization.ToolTipMods_Search)||
+|static [`ToolTipNewGameCustomGame_Advanced`](Sandbox.Game.Localization.ToolTipNewGameCustomGame_Advanced)||
+|static [`ToolTipNewGameCustomGame_Mods`](Sandbox.Game.Localization.ToolTipNewGameCustomGame_Mods)||
+|static [`ToolTipNewGame_Campaign`](Sandbox.Game.Localization.ToolTipNewGame_Campaign)||
+|static [`ToolTipNewGame_CustomGame`](Sandbox.Game.Localization.ToolTipNewGame_CustomGame)||
+|static [`ToolTipNewGame_Start`](Sandbox.Game.Localization.ToolTipNewGame_Start)||
+|static [`ToolTipNewGame_WorkshopContent`](Sandbox.Game.Localization.ToolTipNewGame_WorkshopContent)||
+|static [`ToolTipNewGame_NoWorkshopWorld`](Sandbox.Game.Localization.ToolTipNewGame_NoWorkshopWorld)||
+|static [`ToolTipNewsletter_Close`](Sandbox.Game.Localization.ToolTipNewsletter_Close)||
+|static [`ToolTipNewsletter_DontAskAgain`](Sandbox.Game.Localization.ToolTipNewsletter_DontAskAgain)||
+|static [`ToolTipNewsletter_Email`](Sandbox.Game.Localization.ToolTipNewsletter_Email)||
+|static [`ToolTipNewsletter_Ok`](Sandbox.Game.Localization.ToolTipNewsletter_Ok)||
+|static [`ToolTipNewWorldQuickstart`](Sandbox.Game.Localization.ToolTipNewWorldQuickstart)||
+|static [`ToolTipOptionsAudio_EnableVoiceChat`](Sandbox.Game.Localization.ToolTipOptionsAudio_EnableVoiceChat)||
+|static [`ToolTipOptionsAudio_HudWarnings`](Sandbox.Game.Localization.ToolTipOptionsAudio_HudWarnings)||
+|static [`ToolTipOptionsAudio_MusicVolume`](Sandbox.Game.Localization.ToolTipOptionsAudio_MusicVolume)||
+|static [`ToolTipOptionsAudio_MuteWhenInactive`](Sandbox.Game.Localization.ToolTipOptionsAudio_MuteWhenInactive)||
+|static [`ToolTipOptionsAudio_SoundVolume`](Sandbox.Game.Localization.ToolTipOptionsAudio_SoundVolume)||
+|static [`ToolTipOptionsAudio_SpeedBasedSounds`](Sandbox.Game.Localization.ToolTipOptionsAudio_SpeedBasedSounds)||
+|static [`ToolTipOptionsAudio_UseContextualMusic`](Sandbox.Game.Localization.ToolTipOptionsAudio_UseContextualMusic)||
+|static [`ToolTipOptionsAudio_VoiceChatVolume`](Sandbox.Game.Localization.ToolTipOptionsAudio_VoiceChatVolume)||
+|static [`ToolTipOptionsControls_Category`](Sandbox.Game.Localization.ToolTipOptionsControls_Category)||
+|static [`ToolTipOptionsControls_ClickToEdit`](Sandbox.Game.Localization.ToolTipOptionsControls_ClickToEdit)||
+|static [`ToolTipOptionsControls_Defaults`](Sandbox.Game.Localization.ToolTipOptionsControls_Defaults)||
+|static [`ToolTipOptionsControls_InvertMouseX`](Sandbox.Game.Localization.ToolTipOptionsControls_InvertMouseX)||
+|static [`ToolTipOptionsControls_InvertMouseY`](Sandbox.Game.Localization.ToolTipOptionsControls_InvertMouseY)||
+|static [`ToolTipOptionsControls_JoystickDeadzoneWidth`](Sandbox.Game.Localization.ToolTipOptionsControls_JoystickDeadzoneWidth)||
+|static [`ToolTipOptionsControls_JoystickGradualPrecision`](Sandbox.Game.Localization.ToolTipOptionsControls_JoystickGradualPrecision)||
+|static [`ToolTipOptionsControls_JoystickOrGamepad`](Sandbox.Game.Localization.ToolTipOptionsControls_JoystickOrGamepad)||
+|static [`ToolTipOptionsControls_JoystickSensitivity`](Sandbox.Game.Localization.ToolTipOptionsControls_JoystickSensitivity)||
+|static [`ToolTipOptionsControls_MouseSensitivity`](Sandbox.Game.Localization.ToolTipOptionsControls_MouseSensitivity)||
+|static [`ToolTipOptionsDisplay_ScreenshotMultiplier`](Sandbox.Game.Localization.ToolTipOptionsDisplay_ScreenshotMultiplier)||
+|static [`ToolTipOptionsDisplay_WindowMode`](Sandbox.Game.Localization.ToolTipOptionsDisplay_WindowMode)||
+|static [`ToolTipOptionsGame_AnonymousActivityTracking`](Sandbox.Game.Localization.ToolTipOptionsGame_AnonymousActivityTracking)||
+|static [`ToolTipOptionsGame_BuildingMode`](Sandbox.Game.Localization.ToolTipOptionsGame_BuildingMode)||
+|static [`ToolTipOptionsGame_Language`](Sandbox.Game.Localization.ToolTipOptionsGame_Language)||
+|static [`ToolTipOptionsGraphics_AmbientOcclusion`](Sandbox.Game.Localization.ToolTipOptionsGraphics_AmbientOcclusion)||
+|static [`ToolTipOptionsGraphics_AnisotropicFiltering`](Sandbox.Game.Localization.ToolTipOptionsGraphics_AnisotropicFiltering)||
+|static [`ToolTipOptionsGraphics_Antialiasing`](Sandbox.Game.Localization.ToolTipOptionsGraphics_Antialiasing)||
+|static [`ToolTipOptionsGraphics_FOV`](Sandbox.Game.Localization.ToolTipOptionsGraphics_FOV)||
+|static [`ToolTipOptionsGraphics_GrassDensity`](Sandbox.Game.Localization.ToolTipOptionsGraphics_GrassDensity)||
+|static [`ToolTipOptionsGraphics_GrassDrawDistance`](Sandbox.Game.Localization.ToolTipOptionsGraphics_GrassDrawDistance)||
+|static [`ToolTipOptionsGraphics_ModelQuality`](Sandbox.Game.Localization.ToolTipOptionsGraphics_ModelQuality)||
+|static [`ToolTipOptionsGraphics_PostProcessing`](Sandbox.Game.Localization.ToolTipOptionsGraphics_PostProcessing)||
+|static [`ToolTipOptionsGraphics_QualityPreset`](Sandbox.Game.Localization.ToolTipOptionsGraphics_QualityPreset)||
+|static [`ToolTipOptionsGraphics_ShaderQuality`](Sandbox.Game.Localization.ToolTipOptionsGraphics_ShaderQuality)||
+|static [`ToolTipOptionsGraphics_ShadowQuality`](Sandbox.Game.Localization.ToolTipOptionsGraphics_ShadowQuality)||
+|static [`ToolTipOptionsGraphics_TextureQuality`](Sandbox.Game.Localization.ToolTipOptionsGraphics_TextureQuality)||
+|static [`ToolTipOptionsGraphics_TreeDrawDistance`](Sandbox.Game.Localization.ToolTipOptionsGraphics_TreeDrawDistance)||
+|static [`ToolTipOptionsGraphics_VoxelQuality`](Sandbox.Game.Localization.ToolTipOptionsGraphics_VoxelQuality)||
+|static [`ToolTipOptionsSpace_Audio`](Sandbox.Game.Localization.ToolTipOptionsSpace_Audio)||
+|static [`ToolTipOptionsSpace_Cancel`](Sandbox.Game.Localization.ToolTipOptionsSpace_Cancel)||
+|static [`ToolTipOptionsSpace_Controls`](Sandbox.Game.Localization.ToolTipOptionsSpace_Controls)||
+|static [`ToolTipOptionsSpace_Credits`](Sandbox.Game.Localization.ToolTipOptionsSpace_Credits)||
+|static [`ToolTipOptionsSpace_Display`](Sandbox.Game.Localization.ToolTipOptionsSpace_Display)||
+|static [`ToolTipOptionsSpace_Game`](Sandbox.Game.Localization.ToolTipOptionsSpace_Game)||
+|static [`ToolTipOptionsSpace_Graphics`](Sandbox.Game.Localization.ToolTipOptionsSpace_Graphics)||
+|static [`ToolTipOptionsSpace_Ok`](Sandbox.Game.Localization.ToolTipOptionsSpace_Ok)||
+|static [`ToolTipSafeZone_AddContained`](Sandbox.Game.Localization.ToolTipSafeZone_AddContained)||
+|static [`TooltipScreenMods_Category_All`](Sandbox.Game.Localization.TooltipScreenMods_Category_All)||
+|static [`TooltipScreenMods_Category_Animation`](Sandbox.Game.Localization.TooltipScreenMods_Category_Animation)||
+|static [`TooltipScreenMods_Category_Block`](Sandbox.Game.Localization.TooltipScreenMods_Category_Block)||
+|static [`TooltipScreenMods_Category_Character`](Sandbox.Game.Localization.TooltipScreenMods_Category_Character)||
+|static [`TooltipScreenMods_Category_Modpack`](Sandbox.Game.Localization.TooltipScreenMods_Category_Modpack)||
+|static [`TooltipScreenMods_Category_Other`](Sandbox.Game.Localization.TooltipScreenMods_Category_Other)||
+|static [`TooltipScreenMods_Category_Planet`](Sandbox.Game.Localization.TooltipScreenMods_Category_Planet)||
+|static [`TooltipScreenMods_Category_Production`](Sandbox.Game.Localization.TooltipScreenMods_Category_Production)||
+|static [`TooltipScreenMods_Category_RespawnShip`](Sandbox.Game.Localization.TooltipScreenMods_Category_RespawnShip)||
+|static [`TooltipScreenMods_Category_Script`](Sandbox.Game.Localization.TooltipScreenMods_Category_Script)||
+|static [`TooltipScreenMods_Category_Skybox`](Sandbox.Game.Localization.TooltipScreenMods_Category_Skybox)||
+|static [`ToolTipTerminalInventory_FilterAll`](Sandbox.Game.Localization.ToolTipTerminalInventory_FilterAll)||
+|static [`ToolTipTerminalInventory_FilterEnergy`](Sandbox.Game.Localization.ToolTipTerminalInventory_FilterEnergy)||
+|static [`ToolTipTerminalInventory_FilterStorage`](Sandbox.Game.Localization.ToolTipTerminalInventory_FilterStorage)||
+|static [`ToolTipTerminalInventory_FilterSystem`](Sandbox.Game.Localization.ToolTipTerminalInventory_FilterSystem)||
+|static [`ToolTipTerminalInventory_HideEmpty`](Sandbox.Game.Localization.ToolTipTerminalInventory_HideEmpty)||
+|static [`ToolTipTerminalInventory_ItemInfo`](Sandbox.Game.Localization.ToolTipTerminalInventory_ItemInfo)||
+|static [`ToolTipTerminalInventory_ShowCharacter`](Sandbox.Game.Localization.ToolTipTerminalInventory_ShowCharacter)||
+|static [`ToolTipTerminalInventory_ShowConnected`](Sandbox.Game.Localization.ToolTipTerminalInventory_ShowConnected)||
+|static [`ToolTipTerminalInventory_ShowConnectedDisabled`](Sandbox.Game.Localization.ToolTipTerminalInventory_ShowConnectedDisabled)||
+|static [`ToolTipTerminalInventory_ShowInteracted`](Sandbox.Game.Localization.ToolTipTerminalInventory_ShowInteracted)||
+|static [`ToolTipTerminalInventory_ThrowOut`](Sandbox.Game.Localization.ToolTipTerminalInventory_ThrowOut)||
+|static [`ToolTipTerminalInventory_ThrowOutDisabled`](Sandbox.Game.Localization.ToolTipTerminalInventory_ThrowOutDisabled)||
+|static [`ToolTipTerminalProduction_AssemblingMode`](Sandbox.Game.Localization.ToolTipTerminalProduction_AssemblingMode)||
+|static [`ToolTipTerminalProduction_DisassembleAll`](Sandbox.Game.Localization.ToolTipTerminalProduction_DisassembleAll)||
+|static [`ToolTipTerminalProduction_DisassemblingMode`](Sandbox.Game.Localization.ToolTipTerminalProduction_DisassemblingMode)||
+|static [`ToolTipTerminalProduction_RepeatMode`](Sandbox.Game.Localization.ToolTipTerminalProduction_RepeatMode)||
+|static [`ToolTipTerminalProduction_SlaveMode`](Sandbox.Game.Localization.ToolTipTerminalProduction_SlaveMode)||
+|static [`ToolTipTimerBlock_Silent`](Sandbox.Game.Localization.ToolTipTimerBlock_Silent)||
+|static [`ToolTipVideoOptionsEnableDamageEffects`](Sandbox.Game.Localization.ToolTipVideoOptionsEnableDamageEffects)||
+|static [`ToolTipVideoOptionsRenderer`](Sandbox.Game.Localization.ToolTipVideoOptionsRenderer)||
+|static [`ToolTipWorldSettingsAsteroidAmount`](Sandbox.Game.Localization.ToolTipWorldSettingsAsteroidAmount)||
+|static [`ToolTipWorldSettingsAutoHealing`](Sandbox.Game.Localization.ToolTipWorldSettingsAutoHealing)||
+|static [`ToolTipWorldSettingsDestructibleBlocks`](Sandbox.Game.Localization.ToolTipWorldSettingsDestructibleBlocks)||
+|static [`ToolTipWorldSettingsDifficulty`](Sandbox.Game.Localization.ToolTipWorldSettingsDifficulty)||
+|static [`ToolTipWorldSettingsEnableCargoShips`](Sandbox.Game.Localization.ToolTipWorldSettingsEnableCargoShips)||
+|static [`ToolTipWorldSettingsEnableCopyPaste`](Sandbox.Game.Localization.ToolTipWorldSettingsEnableCopyPaste)||
+|static [`ToolTipWorldSettingsEnableSpectator`](Sandbox.Game.Localization.ToolTipWorldSettingsEnableSpectator)||
+|static [`ToolTipWorldSettingsEnvironment`](Sandbox.Game.Localization.ToolTipWorldSettingsEnvironment)||
+|static [`ToolTipWorldSettingsFriendlyFire`](Sandbox.Game.Localization.ToolTipWorldSettingsFriendlyFire)||
+|static [`ToolTipWorldSettingsHardwareRequirements`](Sandbox.Game.Localization.ToolTipWorldSettingsHardwareRequirements)||
+|static [`ToolTipWorldSettingsHarvestingMode`](Sandbox.Game.Localization.ToolTipWorldSettingsHarvestingMode)||
+|static [`ToolTipWorldSettingsLimitWorldSize`](Sandbox.Game.Localization.ToolTipWorldSettingsLimitWorldSize)||
+|static [`ToolTipWorldSettingsMaxBackupSaves`](Sandbox.Game.Localization.ToolTipWorldSettingsMaxBackupSaves)||
+|static [`ToolTipWorldSettingsMaxBlocksPerPlayer`](Sandbox.Game.Localization.ToolTipWorldSettingsMaxBlocksPerPlayer)||
+|static [`ToolTipWorldSettingsMaxFloatingObjects`](Sandbox.Game.Localization.ToolTipWorldSettingsMaxFloatingObjects)||
+|static [`ToolTipWorldSettingsMaxGridSize`](Sandbox.Game.Localization.ToolTipWorldSettingsMaxGridSize)||
+|static [`ToolTipWorldSettingsMaxPlayer`](Sandbox.Game.Localization.ToolTipWorldSettingsMaxPlayer)||
+|static [`ToolTipWorldSettingsModeCreative`](Sandbox.Game.Localization.ToolTipWorldSettingsModeCreative)||
+|static [`ToolTipWorldSettingsModeSurvival`](Sandbox.Game.Localization.ToolTipWorldSettingsModeSurvival)||
+|static [`ToolTipWorldSettingsOnlineMode`](Sandbox.Game.Localization.ToolTipWorldSettingsOnlineMode)||
+|static [`ToolTipWorldSettingsPermanentDeath`](Sandbox.Game.Localization.ToolTipWorldSettingsPermanentDeath)||
+|static [`ToolTipWorldSettingsPVP`](Sandbox.Game.Localization.ToolTipWorldSettingsPVP)||
+|static [`ToolTipWorldSettingsRemoveTrash`](Sandbox.Game.Localization.ToolTipWorldSettingsRemoveTrash)||
+|static [`ToolTipWorldSettingsResetOwnership`](Sandbox.Game.Localization.ToolTipWorldSettingsResetOwnership)||
+|static [`TooltipWorldSettingsRespawnShipDelete`](Sandbox.Game.Localization.TooltipWorldSettingsRespawnShipDelete)||
+|static [`ToolTipWorldSettingsShowPlayerNamesOnHud`](Sandbox.Game.Localization.ToolTipWorldSettingsShowPlayerNamesOnHud)||
+|static [`ToolTipWorldSettingsSoundInSpace`](Sandbox.Game.Localization.ToolTipWorldSettingsSoundInSpace)||
+|static [`ToolTipWorldSettingsSoundMode`](Sandbox.Game.Localization.ToolTipWorldSettingsSoundMode)||
+|static [`ToolTipWorldSettingsThrusterDamage`](Sandbox.Game.Localization.ToolTipWorldSettingsThrusterDamage)||
+|static [`ToolTipWorldSettingsTotalPCU`](Sandbox.Game.Localization.ToolTipWorldSettingsTotalPCU)||
+|static [`ToolTipWorldSettingsViewDistance`](Sandbox.Game.Localization.ToolTipWorldSettingsViewDistance)||
+|static [`ToolTipWorldSettingsWeapons`](Sandbox.Game.Localization.ToolTipWorldSettingsWeapons)||
+|static [`ToolTipWorldSettings_AdaptiveSimulationQuality`](Sandbox.Game.Localization.ToolTipWorldSettings_AdaptiveSimulationQuality)||
+|static [`ToolTipWorldSettings_AssemblerEfficiency`](Sandbox.Game.Localization.ToolTipWorldSettings_AssemblerEfficiency)||
+|static [`ToolTipWorldSettings_Assembler_x1`](Sandbox.Game.Localization.ToolTipWorldSettings_Assembler_x1)||
+|static [`ToolTipWorldSettings_Assembler_x10`](Sandbox.Game.Localization.ToolTipWorldSettings_Assembler_x10)||
+|static [`ToolTipWorldSettings_Assembler_x3`](Sandbox.Game.Localization.ToolTipWorldSettings_Assembler_x3)||
+|static [`ToolTipWorldSettings_CargoShipsEnabled`](Sandbox.Game.Localization.ToolTipWorldSettings_CargoShipsEnabled)||
+|static [`ToolTipWorldSettings_ClientCanSave`](Sandbox.Game.Localization.ToolTipWorldSettings_ClientCanSave)||
+|static [`ToolTipWorldSettings_DayDuration`](Sandbox.Game.Localization.ToolTipWorldSettings_DayDuration)||
+|static [`ToolTipWorldSettings_Enable3rdPersonCamera`](Sandbox.Game.Localization.ToolTipWorldSettings_Enable3rdPersonCamera)||
+|static [`ToolTipWorldSettings_EnableContainerDrops`](Sandbox.Game.Localization.ToolTipWorldSettings_EnableContainerDrops)||
+|static [`ToolTipWorldSettings_EnableConvertToStation`](Sandbox.Game.Localization.ToolTipWorldSettings_EnableConvertToStation)||
+|static [`ToolTipWorldSettings_EnableDrones`](Sandbox.Game.Localization.ToolTipWorldSettings_EnableDrones)||
+|static [`ToolTipWorldSettings_EnableEncounters`](Sandbox.Game.Localization.ToolTipWorldSettings_EnableEncounters)||
+|static [`ToolTipWorldSettings_EnableFlora`](Sandbox.Game.Localization.ToolTipWorldSettings_EnableFlora)||
+|static [`ToolTipWorldSettings_EnableIngameScripts`](Sandbox.Game.Localization.ToolTipWorldSettings_EnableIngameScripts)||
+|static [`ToolTipWorldSettings_EnableJetpack`](Sandbox.Game.Localization.ToolTipWorldSettings_EnableJetpack)||
+|static [`ToolTipWorldSettings_EnableOxygen`](Sandbox.Game.Localization.ToolTipWorldSettings_EnableOxygen)||
+|static [`ToolTipWorldSettings_EnableOxygenPressurization`](Sandbox.Game.Localization.ToolTipWorldSettings_EnableOxygenPressurization)||
+|static [`ToolTipWorldSettings_EnablePlanets`](Sandbox.Game.Localization.ToolTipWorldSettings_EnablePlanets)||
+|static [`TooltipWorldSettings_EnableRealisticDampeners`](Sandbox.Game.Localization.TooltipWorldSettings_EnableRealisticDampeners)||
+|static [`ToolTipWorldSettings_EnableRemoteBlockRemoval`](Sandbox.Game.Localization.ToolTipWorldSettings_EnableRemoteBlockRemoval)||
+|static [`ToolTipWorldSettings_EnableRespawnShips`](Sandbox.Game.Localization.ToolTipWorldSettings_EnableRespawnShips)||
+|static [`ToolTipWorldSettings_EnableSpiders`](Sandbox.Game.Localization.ToolTipWorldSettings_EnableSpiders)||
+|static [`TooltipWorldSettings_EnableSubGridDamage`](Sandbox.Game.Localization.TooltipWorldSettings_EnableSubGridDamage)||
+|static [`ToolTipWorldSettings_EnableSunRotation`](Sandbox.Game.Localization.ToolTipWorldSettings_EnableSunRotation)||
+|static [`TooltipWorldSettings_EnableTurrerFriendlyDamage`](Sandbox.Game.Localization.TooltipWorldSettings_EnableTurrerFriendlyDamage)||
+|static [`ToolTipWorldSettings_EnableVoxelDestruction`](Sandbox.Game.Localization.ToolTipWorldSettings_EnableVoxelDestruction)||
+|static [`ToolTipWorldSettings_EnableWolfs`](Sandbox.Game.Localization.ToolTipWorldSettings_EnableWolfs)||
+|static [`ToolTipWorldSettings_FloraDensity`](Sandbox.Game.Localization.ToolTipWorldSettings_FloraDensity)||
+|static [`ToolTipWorldSettings_Grinder_half`](Sandbox.Game.Localization.ToolTipWorldSettings_Grinder_half)||
+|static [`ToolTipWorldSettings_Grinder_x1`](Sandbox.Game.Localization.ToolTipWorldSettings_Grinder_x1)||
+|static [`ToolTipWorldSettings_Grinder_x2`](Sandbox.Game.Localization.ToolTipWorldSettings_Grinder_x2)||
+|static [`ToolTipWorldSettings_Grinder_x5`](Sandbox.Game.Localization.ToolTipWorldSettings_Grinder_x5)||
+|static [`ToolTipWorldSettings_GrindingSpeed`](Sandbox.Game.Localization.ToolTipWorldSettings_GrindingSpeed)||
+|static [`ToolTipWorldSettings_InventorySize`](Sandbox.Game.Localization.ToolTipWorldSettings_InventorySize)||
+|static [`ToolTipWorldSettings_Inventory_x1`](Sandbox.Game.Localization.ToolTipWorldSettings_Inventory_x1)||
+|static [`ToolTipWorldSettings_Inventory_x10`](Sandbox.Game.Localization.ToolTipWorldSettings_Inventory_x10)||
+|static [`ToolTipWorldSettings_Inventory_x3`](Sandbox.Game.Localization.ToolTipWorldSettings_Inventory_x3)||
+|static [`ToolTipWorldSettings_RefinerySpeed`](Sandbox.Game.Localization.ToolTipWorldSettings_RefinerySpeed)||
+|static [`ToolTipWorldSettings_Refinery_x1`](Sandbox.Game.Localization.ToolTipWorldSettings_Refinery_x1)||
+|static [`ToolTipWorldSettings_Refinery_x10`](Sandbox.Game.Localization.ToolTipWorldSettings_Refinery_x10)||
+|static [`ToolTipWorldSettings_Refinery_x3`](Sandbox.Game.Localization.ToolTipWorldSettings_Refinery_x3)||
+|static [`ToolTipWorldSettings_RespawnShipCooldown`](Sandbox.Game.Localization.ToolTipWorldSettings_RespawnShipCooldown)||
+|static [`ToolTipWorldSettings_ScenarioEditMode`](Sandbox.Game.Localization.ToolTipWorldSettings_ScenarioEditMode)||
+|static [`ToolTipWorldSettings_SpawnWithTools`](Sandbox.Game.Localization.ToolTipWorldSettings_SpawnWithTools)||
+|static [`ToolTipWorldSettings_StartInRespawnScreen`](Sandbox.Game.Localization.ToolTipWorldSettings_StartInRespawnScreen)||
+|static [`ToolTipWorldSettings_StationVoxelSupport`](Sandbox.Game.Localization.ToolTipWorldSettings_StationVoxelSupport)||
+|static [`ToolTipWorldSettings_ToolShake`](Sandbox.Game.Localization.ToolTipWorldSettings_ToolShake)||
+|static [`ToolTipWorldSettings_VoxelHand`](Sandbox.Game.Localization.ToolTipWorldSettings_VoxelHand)||
+|static [`ToolTipWorldSettings_Welder_half`](Sandbox.Game.Localization.ToolTipWorldSettings_Welder_half)||
+|static [`ToolTipWorldSettings_Welder_x1`](Sandbox.Game.Localization.ToolTipWorldSettings_Welder_x1)||
+|static [`ToolTipWorldSettings_Welder_x2`](Sandbox.Game.Localization.ToolTipWorldSettings_Welder_x2)||
+|static [`ToolTipWorldSettings_Welder_x5`](Sandbox.Game.Localization.ToolTipWorldSettings_Welder_x5)||
+|static [`ToolTipWorldSettings_WeldingSpeed`](Sandbox.Game.Localization.ToolTipWorldSettings_WeldingSpeed)||
+|static [`TrainingLevel`](Sandbox.Game.Localization.TrainingLevel)||
+|static [`TrainingLevel_Advanced`](Sandbox.Game.Localization.TrainingLevel_Advanced)||
+|static [`TrainingLevel_Basic`](Sandbox.Game.Localization.TrainingLevel_Basic)||
+|static [`TrainingLevel_Intermediate`](Sandbox.Game.Localization.TrainingLevel_Intermediate)||
+|static [`TrainingLevel_Planetary`](Sandbox.Game.Localization.TrainingLevel_Planetary)||
+|static [`TransformationToolsButton`](Sandbox.Game.Localization.TransformationToolsButton)||
+|static [`TriggerNotSelected`](Sandbox.Game.Localization.TriggerNotSelected)||
+|static [`Triggers`](Sandbox.Game.Localization.Triggers)||
+|static [`Turret`](Sandbox.Game.Localization.Turret)||
+|static [`UnsavedChanges`](Sandbox.Game.Localization.UnsavedChanges)||
+|static [`UnsavedChangesQuestion`](Sandbox.Game.Localization.UnsavedChangesQuestion)||
+|static [`Uranium`](Sandbox.Game.Localization.Uranium)||
+|static [`WelcomeScreen_Signature`](Sandbox.Game.Localization.WelcomeScreen_Signature)||
+|static [`WelcomeScreen_SignatureTitle`](Sandbox.Game.Localization.WelcomeScreen_SignatureTitle)||
+|static [`WelcomeScreen_Text1`](Sandbox.Game.Localization.WelcomeScreen_Text1)||
+|static [`WelcomeScreen_Text2`](Sandbox.Game.Localization.WelcomeScreen_Text2)||
+|static [`WelcomeScreen_Text3`](Sandbox.Game.Localization.WelcomeScreen_Text3)||
+|static [`WelderPrimaryActionBuild`](Sandbox.Game.Localization.WelderPrimaryActionBuild)||
+|static [`WorkshopTag_Asteroid`](Sandbox.Game.Localization.WorkshopTag_Asteroid)||
+|static [`WorkshopTag_Dev`](Sandbox.Game.Localization.WorkshopTag_Dev)||
+|static [`WorkshopTag_Exploration`](Sandbox.Game.Localization.WorkshopTag_Exploration)||
+|static [`WorkshopTag_Hud`](Sandbox.Game.Localization.WorkshopTag_Hud)||
+|static [`WorkshopTag_Planet`](Sandbox.Game.Localization.WorkshopTag_Planet)||
+|static [`WorkshopTag_Production`](Sandbox.Game.Localization.WorkshopTag_Production)||
+|static [`WorkshopTag_RespawnShip`](Sandbox.Game.Localization.WorkshopTag_RespawnShip)||
+|static [`WorldSettings`](Sandbox.Game.Localization.WorldSettings)||
+|static [`WorldSettings_Advanced`](Sandbox.Game.Localization.WorldSettings_Advanced)||
+|static [`WorldSettings_ArcadeSound`](Sandbox.Game.Localization.WorldSettings_ArcadeSound)||
+|static [`WorldSettings_AssemblerEfficiency`](Sandbox.Game.Localization.WorldSettings_AssemblerEfficiency)||
+|static [`WorldSettings_AsteroidAmountExtreme`](Sandbox.Game.Localization.WorldSettings_AsteroidAmountExtreme)||
+|static [`WorldSettings_AsteroidAmountLarge`](Sandbox.Game.Localization.WorldSettings_AsteroidAmountLarge)||
+|static [`WorldSettings_AsteroidAmountNone`](Sandbox.Game.Localization.WorldSettings_AsteroidAmountNone)||
+|static [`WorldSettings_AsteroidAmountNormal`](Sandbox.Game.Localization.WorldSettings_AsteroidAmountNormal)||
+|static [`WorldSettings_AsteroidAmountProceduralHigh`](Sandbox.Game.Localization.WorldSettings_AsteroidAmountProceduralHigh)||
+|static [`WorldSettings_AsteroidAmountProceduralLow`](Sandbox.Game.Localization.WorldSettings_AsteroidAmountProceduralLow)||
+|static [`WorldSettings_AsteroidAmountProceduralNone`](Sandbox.Game.Localization.WorldSettings_AsteroidAmountProceduralNone)||
+|static [`WorldSettings_AsteroidAmountProceduralNormal`](Sandbox.Game.Localization.WorldSettings_AsteroidAmountProceduralNormal)||
+|static [`WorldSettings_AsteroidAmountProceduralLowest`](Sandbox.Game.Localization.WorldSettings_AsteroidAmountProceduralLowest)||
+|static [`WorldSettings_AutoHealing`](Sandbox.Game.Localization.WorldSettings_AutoHealing)||
+|static [`WorldSettings_Battle`](Sandbox.Game.Localization.WorldSettings_Battle)||
+|static [`WorldSettings_ClientCanSave`](Sandbox.Game.Localization.WorldSettings_ClientCanSave)||
+|static [`WorldSettings_Description`](Sandbox.Game.Localization.WorldSettings_Description)||
+|static [`WorldSettings_DestructibleBlocks`](Sandbox.Game.Localization.WorldSettings_DestructibleBlocks)||
+|static [`WorldSettings_Enable3rdPersonCamera`](Sandbox.Game.Localization.WorldSettings_Enable3rdPersonCamera)||
+|static [`WorldSettings_EnableAdaptiveSimulationQuality`](Sandbox.Game.Localization.WorldSettings_EnableAdaptiveSimulationQuality)||
+|static [`WorldSettings_EnableCargoShips`](Sandbox.Game.Localization.WorldSettings_EnableCargoShips)||
+|static [`WorldSettings_EnableContainerDrops`](Sandbox.Game.Localization.WorldSettings_EnableContainerDrops)||
+|static [`WorldSettings_EnableConvertToStation`](Sandbox.Game.Localization.WorldSettings_EnableConvertToStation)||
+|static [`WorldSettings_EnableCopyPaste`](Sandbox.Game.Localization.WorldSettings_EnableCopyPaste)||
+|static [`WorldSettings_EnableDrones`](Sandbox.Game.Localization.WorldSettings_EnableDrones)||
+|static [`WorldSettings_EnableFlora`](Sandbox.Game.Localization.WorldSettings_EnableFlora)||
+|static [`WorldSettings_EnableIngameScripts`](Sandbox.Game.Localization.WorldSettings_EnableIngameScripts)||
+|static [`WorldSettings_EnableJetpack`](Sandbox.Game.Localization.WorldSettings_EnableJetpack)||
+|static [`WorldSettings_EnablePlanets`](Sandbox.Game.Localization.WorldSettings_EnablePlanets)||
+|static [`WorldSettings_EnableRealisticDampeners`](Sandbox.Game.Localization.WorldSettings_EnableRealisticDampeners)||
+|static [`WorldSettings_EnableRemoteBlockRemoval`](Sandbox.Game.Localization.WorldSettings_EnableRemoteBlockRemoval)||
+|static [`WorldSettings_EnableRespawnShips`](Sandbox.Game.Localization.WorldSettings_EnableRespawnShips)||
+|static [`WorldSettings_EnableSpectator`](Sandbox.Game.Localization.WorldSettings_EnableSpectator)||
+|static [`WorldSettings_EnableSpiders`](Sandbox.Game.Localization.WorldSettings_EnableSpiders)||
+|static [`WorldSettings_EnableSubGridDamage`](Sandbox.Game.Localization.WorldSettings_EnableSubGridDamage)||
+|static [`WorldSettings_EnableSunRotation`](Sandbox.Game.Localization.WorldSettings_EnableSunRotation)||
+|static [`WorldSettings_EnableToolShake`](Sandbox.Game.Localization.WorldSettings_EnableToolShake)||
+|static [`WorldSettings_EnableTurrerFriendlyDamage`](Sandbox.Game.Localization.WorldSettings_EnableTurrerFriendlyDamage)||
+|static [`WorldSettings_EnableVoxelDestruction`](Sandbox.Game.Localization.WorldSettings_EnableVoxelDestruction)||
+|static [`WorldSettings_EnableVoxelHand`](Sandbox.Game.Localization.WorldSettings_EnableVoxelHand)||
+|static [`WorldSettings_EnableWeapons`](Sandbox.Game.Localization.WorldSettings_EnableWeapons)||
+|static [`WorldSettings_EnableWolfs`](Sandbox.Game.Localization.WorldSettings_EnableWolfs)||
+|static [`WorldSettings_Encounters`](Sandbox.Game.Localization.WorldSettings_Encounters)||
+|static [`WorldSettings_EnvironmentHostility`](Sandbox.Game.Localization.WorldSettings_EnvironmentHostility)||
+|static [`WorldSettings_EnvironmentHostilityCataclysm`](Sandbox.Game.Localization.WorldSettings_EnvironmentHostilityCataclysm)||
+|static [`WorldSettings_EnvironmentHostilityCataclysmUnreal`](Sandbox.Game.Localization.WorldSettings_EnvironmentHostilityCataclysmUnreal)||
+|static [`WorldSettings_EnvironmentHostilityNormal`](Sandbox.Game.Localization.WorldSettings_EnvironmentHostilityNormal)||
+|static [`WorldSettings_EnvironmentHostilitySafe`](Sandbox.Game.Localization.WorldSettings_EnvironmentHostilitySafe)||
+|static [`WorldSettings_FloraDensity`](Sandbox.Game.Localization.WorldSettings_FloraDensity)||
+|static [`WorldSettings_FloraDensity_Extreme`](Sandbox.Game.Localization.WorldSettings_FloraDensity_Extreme)||
+|static [`WorldSettings_FloraDensity_High`](Sandbox.Game.Localization.WorldSettings_FloraDensity_High)||
+|static [`WorldSettings_FloraDensity_Low`](Sandbox.Game.Localization.WorldSettings_FloraDensity_Low)||
+|static [`WorldSettings_FloraDensity_Medium`](Sandbox.Game.Localization.WorldSettings_FloraDensity_Medium)||
+|static [`WorldSettings_FloraDensity_None`](Sandbox.Game.Localization.WorldSettings_FloraDensity_None)||
+|static [`WorldSettings_FriendlyFire`](Sandbox.Game.Localization.WorldSettings_FriendlyFire)||
+|static [`WorldSettings_GameScenario`](Sandbox.Game.Localization.WorldSettings_GameScenario)||
+|static [`WorldSettings_GameStyle`](Sandbox.Game.Localization.WorldSettings_GameStyle)||
+|static [`WorldSettings_GameSurvivalTimes1`](Sandbox.Game.Localization.WorldSettings_GameSurvivalTimes1)||
+|static [`WorldSettings_GameSurvivalTimes10`](Sandbox.Game.Localization.WorldSettings_GameSurvivalTimes10)||
+|static [`WorldSettings_GameSurvivalTimes3`](Sandbox.Game.Localization.WorldSettings_GameSurvivalTimes3)||
+|static [`WorldSettings_GrinderSpeed`](Sandbox.Game.Localization.WorldSettings_GrinderSpeed)||
+|static [`WorldSettings_InventorySize`](Sandbox.Game.Localization.WorldSettings_InventorySize)||
+|static [`WorldSettings_LimitWorldSize`](Sandbox.Game.Localization.WorldSettings_LimitWorldSize)||
+|static [`WorldSettings_MaxBlocksPerPlayer`](Sandbox.Game.Localization.WorldSettings_MaxBlocksPerPlayer)||
+|static [`WorldSettings_MaxGridSize`](Sandbox.Game.Localization.WorldSettings_MaxGridSize)||
+|static [`WorldSettings_MoonSizeMax`](Sandbox.Game.Localization.WorldSettings_MoonSizeMax)||
+|static [`WorldSettings_MoonSizeMin`](Sandbox.Game.Localization.WorldSettings_MoonSizeMin)||
+|static [`WorldSettings_Password`](Sandbox.Game.Localization.WorldSettings_Password)||
+|static [`WorldSettings_PermanentDeath`](Sandbox.Game.Localization.WorldSettings_PermanentDeath)||
+|static [`WorldSettings_PlanetSizeMax`](Sandbox.Game.Localization.WorldSettings_PlanetSizeMax)||
+|static [`WorldSettings_PlanetSizeMin`](Sandbox.Game.Localization.WorldSettings_PlanetSizeMin)||
+|static [`WorldSettings_Realistic`](Sandbox.Game.Localization.WorldSettings_Realistic)||
+|static [`WorldSettings_RealisticSound`](Sandbox.Game.Localization.WorldSettings_RealisticSound)||
+|static [`WorldSettings_Realistic_half`](Sandbox.Game.Localization.WorldSettings_Realistic_half)||
+|static [`WorldSettings_Realistic_x10`](Sandbox.Game.Localization.WorldSettings_Realistic_x10)||
+|static [`WorldSettings_Realistic_x2`](Sandbox.Game.Localization.WorldSettings_Realistic_x2)||
+|static [`WorldSettings_Realistic_x3`](Sandbox.Game.Localization.WorldSettings_Realistic_x3)||
+|static [`WorldSettings_Realistic_x5`](Sandbox.Game.Localization.WorldSettings_Realistic_x5)||
+|static [`WorldSettings_RefinerySpeed`](Sandbox.Game.Localization.WorldSettings_RefinerySpeed)||
+|static [`WorldSettings_RemoveTrash`](Sandbox.Game.Localization.WorldSettings_RemoveTrash)||
+|static [`WorldSettings_ResetOwnership`](Sandbox.Game.Localization.WorldSettings_ResetOwnership)||
+|static [`WorldSettings_RespawnShipCooldown`](Sandbox.Game.Localization.WorldSettings_RespawnShipCooldown)||
+|static [`WorldSettings_RespawnShipDelete`](Sandbox.Game.Localization.WorldSettings_RespawnShipDelete)||
+|static [`WorldSettings_RespawnShip_CooldownsDisabled`](Sandbox.Game.Localization.WorldSettings_RespawnShip_CooldownsDisabled)||
+|static [`WorldSettings_RespawnShip_Default`](Sandbox.Game.Localization.WorldSettings_RespawnShip_Default)||
+|static [`WorldSettings_RespawnShip_x01`](Sandbox.Game.Localization.WorldSettings_RespawnShip_x01)||
+|static [`WorldSettings_RespawnShip_x02`](Sandbox.Game.Localization.WorldSettings_RespawnShip_x02)||
+|static [`WorldSettings_RespawnShip_x05`](Sandbox.Game.Localization.WorldSettings_RespawnShip_x05)||
+|static [`WorldSettings_RespawnShip_x10`](Sandbox.Game.Localization.WorldSettings_RespawnShip_x10)||
+|static [`WorldSettings_RespawnShip_x100`](Sandbox.Game.Localization.WorldSettings_RespawnShip_x100)||
+|static [`WorldSettings_RespawnShip_x2`](Sandbox.Game.Localization.WorldSettings_RespawnShip_x2)||
+|static [`WorldSettings_RespawnShip_x20`](Sandbox.Game.Localization.WorldSettings_RespawnShip_x20)||
+|static [`WorldSettings_RespawnShip_x5`](Sandbox.Game.Localization.WorldSettings_RespawnShip_x5)||
+|static [`WorldSettings_RespawnShip_x50`](Sandbox.Game.Localization.WorldSettings_RespawnShip_x50)||
+|static [`WorldSettings_Scenario`](Sandbox.Game.Localization.WorldSettings_Scenario)||
+|static [`WorldSettings_ScenarioEditMode`](Sandbox.Game.Localization.WorldSettings_ScenarioEditMode)||
+|static [`WorldSettings_ShowPlayerNamesOnHud`](Sandbox.Game.Localization.WorldSettings_ShowPlayerNamesOnHud)||
+|static [`WorldSettings_SoundInSpace`](Sandbox.Game.Localization.WorldSettings_SoundInSpace)||
+|static [`WorldSettings_SoundMode`](Sandbox.Game.Localization.WorldSettings_SoundMode)||
+|static [`WorldSettings_SpawnWithTools`](Sandbox.Game.Localization.WorldSettings_SpawnWithTools)||
+|static [`WorldSettings_StartInRespawnScreen`](Sandbox.Game.Localization.WorldSettings_StartInRespawnScreen)||
+|static [`WorldSettings_StationVoxelSupport`](Sandbox.Game.Localization.WorldSettings_StationVoxelSupport)||
+|static [`WorldSettings_ThrusterDamage`](Sandbox.Game.Localization.WorldSettings_ThrusterDamage)||
+|static [`WorldSettings_TotalPCU`](Sandbox.Game.Localization.WorldSettings_TotalPCU)||
+|static [`WorldSettings_ViewDistance`](Sandbox.Game.Localization.WorldSettings_ViewDistance)||
+|static [`WorldSettings_ViewDistance_10_Km`](Sandbox.Game.Localization.WorldSettings_ViewDistance_10_Km)||
+|static [`WorldSettings_ViewDistance_15_Km`](Sandbox.Game.Localization.WorldSettings_ViewDistance_15_Km)||
+|static [`WorldSettings_ViewDistance_20_Km`](Sandbox.Game.Localization.WorldSettings_ViewDistance_20_Km)||
+|static [`WorldSettings_ViewDistance_30_Km`](Sandbox.Game.Localization.WorldSettings_ViewDistance_30_Km)||
+|static [`WorldSettings_ViewDistance_40_Km`](Sandbox.Game.Localization.WorldSettings_ViewDistance_40_Km)||
+|static [`WorldSettings_ViewDistance_50_Km`](Sandbox.Game.Localization.WorldSettings_ViewDistance_50_Km)||
+|static [`WorldSettings_ViewDistance_5_Km`](Sandbox.Game.Localization.WorldSettings_ViewDistance_5_Km)||
+|static [`WorldSettings_ViewDistance_7_Km`](Sandbox.Game.Localization.WorldSettings_ViewDistance_7_Km)||
+|static [`WorldSettings_ViewDistance_Custom`](Sandbox.Game.Localization.WorldSettings_ViewDistance_Custom)||
+|static [`WorldSettings_WarningChangingWorldSize`](Sandbox.Game.Localization.WorldSettings_WarningChangingWorldSize)||
+|static [`WorldSettings_WelderSpeed`](Sandbox.Game.Localization.WorldSettings_WelderSpeed)||
+|static [`WorldSettings_WorldGenerator`](Sandbox.Game.Localization.WorldSettings_WorldGenerator)||
+|static [`WorldSettings_WorldSize100Km`](Sandbox.Game.Localization.WorldSettings_WorldSize100Km)||
+|static [`WorldSettings_WorldSize10Km`](Sandbox.Game.Localization.WorldSettings_WorldSize10Km)||
+|static [`WorldSettings_WorldSize20Km`](Sandbox.Game.Localization.WorldSettings_WorldSize20Km)||
+|static [`WorldSettings_WorldSize50Km`](Sandbox.Game.Localization.WorldSettings_WorldSize50Km)||
+|static [`WorldSettings_WorldSizeCustom`](Sandbox.Game.Localization.WorldSettings_WorldSizeCustom)||
+|static [`WorldSettings_WorldSizeUnlimited`](Sandbox.Game.Localization.WorldSettings_WorldSizeUnlimited)||
+|static [`World_Settings_EnableOxygen`](Sandbox.Game.Localization.World_Settings_EnableOxygen)||
+|static [`World_Settings_EnableOxygenPressurization`](Sandbox.Game.Localization.World_Settings_EnableOxygenPressurization)||
+|static [`WwwLinkNotAllowed`](Sandbox.Game.Localization.WwwLinkNotAllowed)||
+|static [`WwwLinkNotAllowed_Steam`](Sandbox.Game.Localization.WwwLinkNotAllowed_Steam)||
+|static [`IngameHelp_HUD_Detail1`](Sandbox.Game.Localization.IngameHelp_HUD_Detail1)||
+|static [`IngameHelp_HUD_Detail2`](Sandbox.Game.Localization.IngameHelp_HUD_Detail2)||
+|static [`IngameHelp_HUD_Detail3`](Sandbox.Game.Localization.IngameHelp_HUD_Detail3)||
+|static [`IngameHelp_HUD_Title`](Sandbox.Game.Localization.IngameHelp_HUD_Title)||
+|static [`IngameHelp_Jetpack2_Detail1`](Sandbox.Game.Localization.IngameHelp_Jetpack2_Detail1)||
+|static [`IngameHelp_Jetpack2_Detail2`](Sandbox.Game.Localization.IngameHelp_Jetpack2_Detail2)||
+|static [`IngameHelp_Building2_Detail1`](Sandbox.Game.Localization.IngameHelp_Building2_Detail1)||
+|static [`IngameHelp_Building2_Detail2`](Sandbox.Game.Localization.IngameHelp_Building2_Detail2)||
+|static [`IngameHelp_Building2_Detail3`](Sandbox.Game.Localization.IngameHelp_Building2_Detail3)||
+|static [`IngameHelp_Building_Detail1`](Sandbox.Game.Localization.IngameHelp_Building_Detail1)||
+|static [`IngameHelp_Building_Detail2`](Sandbox.Game.Localization.IngameHelp_Building_Detail2)||
+|static [`IngameHelp_Building_Detail3`](Sandbox.Game.Localization.IngameHelp_Building_Detail3)||
+|static [`IngameHelp_Building_Title`](Sandbox.Game.Localization.IngameHelp_Building_Title)||
+|static [`IngameHelp_Building3_Detail1`](Sandbox.Game.Localization.IngameHelp_Building3_Detail1)||
+|static [`IngameHelp_Building3_Detail2`](Sandbox.Game.Localization.IngameHelp_Building3_Detail2)||
+|static [`IngameHelp_Ownership_Detail1`](Sandbox.Game.Localization.IngameHelp_Ownership_Detail1)||
+|static [`IngameHelp_Ownership_Detail2`](Sandbox.Game.Localization.IngameHelp_Ownership_Detail2)||
+|static [`IngameHelp_Ownership_Title`](Sandbox.Game.Localization.IngameHelp_Ownership_Title)||
+|static [`IngameHelp_CameraTip_Detail1`](Sandbox.Game.Localization.IngameHelp_CameraTip_Detail1)||
+|static [`IngameHelp_CameraTip_Detail2`](Sandbox.Game.Localization.IngameHelp_CameraTip_Detail2)||
+|static [`IngameHelp_Camera_Title`](Sandbox.Game.Localization.IngameHelp_Camera_Title)||
+|static [`IngameHelp_Power_Detail1`](Sandbox.Game.Localization.IngameHelp_Power_Detail1)||
+|static [`IngameHelp_Power_Detail2`](Sandbox.Game.Localization.IngameHelp_Power_Detail2)||
+|static [`IngameHelp_Power_Title`](Sandbox.Game.Localization.IngameHelp_Power_Title)||
+|static [`IngameHelp_BuildingTip_Detail1`](Sandbox.Game.Localization.IngameHelp_BuildingTip_Detail1)||
+|static [`IngameHelp_BuildingTip_Detail2`](Sandbox.Game.Localization.IngameHelp_BuildingTip_Detail2)||
+|static [`IngameHelp_Building_Detail4`](Sandbox.Game.Localization.IngameHelp_Building_Detail4)||
+|static [`IngameHelp_HUDTip_Detail1`](Sandbox.Game.Localization.IngameHelp_HUDTip_Detail1)||
+|static [`IngameHelp_HUDTip_Detail2`](Sandbox.Game.Localization.IngameHelp_HUDTip_Detail2)||
+|static [`IngameHelp_IntroTip_Detail1`](Sandbox.Game.Localization.IngameHelp_IntroTip_Detail1)||
+|static [`IngameHelp_IntroTip_Detail2`](Sandbox.Game.Localization.IngameHelp_IntroTip_Detail2)||
+|static [`IngameHelp_JetpackTip_Detail1`](Sandbox.Game.Localization.IngameHelp_JetpackTip_Detail1)||
+|static [`IngameHelp_JetpackTip_Detail2`](Sandbox.Game.Localization.IngameHelp_JetpackTip_Detail2)||
+|static [`IngameHelp_InventoryTip_Detail1`](Sandbox.Game.Localization.IngameHelp_InventoryTip_Detail1)||
+|static [`IngameHelp_InventoryTip_Detail2`](Sandbox.Game.Localization.IngameHelp_InventoryTip_Detail2)||
+|static [`IngameHelp_Inventory_Detail1`](Sandbox.Game.Localization.IngameHelp_Inventory_Detail1)||
+|static [`IngameHelp_Inventory_Detail2`](Sandbox.Game.Localization.IngameHelp_Inventory_Detail2)||
+|static [`IngameHelp_Inventory_Detail3`](Sandbox.Game.Localization.IngameHelp_Inventory_Detail3)||
+|static [`IngameHelp_Inventory_Title`](Sandbox.Game.Localization.IngameHelp_Inventory_Title)||
+|static [`IngameHelp_EnergyTip_Detail1`](Sandbox.Game.Localization.IngameHelp_EnergyTip_Detail1)||
+|static [`IngameHelp_EnergyTip_Detail2`](Sandbox.Game.Localization.IngameHelp_EnergyTip_Detail2)||
+|static [`IngameHelp_Energy_Detail1`](Sandbox.Game.Localization.IngameHelp_Energy_Detail1)||
+|static [`IngameHelp_Energy_Detail2`](Sandbox.Game.Localization.IngameHelp_Energy_Detail2)||
+|static [`IngameHelp_Energy_Title`](Sandbox.Game.Localization.IngameHelp_Energy_Title)||
+|static [`IngameHelp_HealthTip_Detail1`](Sandbox.Game.Localization.IngameHelp_HealthTip_Detail1)||
+|static [`IngameHelp_HealthTip_Detail2`](Sandbox.Game.Localization.IngameHelp_HealthTip_Detail2)||
+|static [`IngameHelp_Health_Detail1`](Sandbox.Game.Localization.IngameHelp_Health_Detail1)||
+|static [`IngameHelp_Health_Detail2`](Sandbox.Game.Localization.IngameHelp_Health_Detail2)||
+|static [`IngameHelp_Health_Title`](Sandbox.Game.Localization.IngameHelp_Health_Title)||
+|static [`IngameHelp_HydrogenTip_Detail1`](Sandbox.Game.Localization.IngameHelp_HydrogenTip_Detail1)||
+|static [`IngameHelp_HydrogenTip_Detail2`](Sandbox.Game.Localization.IngameHelp_HydrogenTip_Detail2)||
+|static [`IngameHelp_Hydrogen_Detail1`](Sandbox.Game.Localization.IngameHelp_Hydrogen_Detail1)||
+|static [`IngameHelp_Hydrogen_Detail2`](Sandbox.Game.Localization.IngameHelp_Hydrogen_Detail2)||
+|static [`IngameHelp_Hydrogen_Title`](Sandbox.Game.Localization.IngameHelp_Hydrogen_Title)||
+|static [`IngameHelp_MagneticBootsTip_Detail1`](Sandbox.Game.Localization.IngameHelp_MagneticBootsTip_Detail1)||
+|static [`IngameHelp_MagneticBootsTip_Detail2`](Sandbox.Game.Localization.IngameHelp_MagneticBootsTip_Detail2)||
+|static [`IngameHelp_MagneticBoots_Detail1`](Sandbox.Game.Localization.IngameHelp_MagneticBoots_Detail1)||
+|static [`IngameHelp_MagneticBoots_Detail2`](Sandbox.Game.Localization.IngameHelp_MagneticBoots_Detail2)||
+|static [`IngameHelp_MagneticBoots_Title`](Sandbox.Game.Localization.IngameHelp_MagneticBoots_Title)||
+|static [`IngameHelp_OxygenTip_Detail1`](Sandbox.Game.Localization.IngameHelp_OxygenTip_Detail1)||
+|static [`IngameHelp_OxygenTip_Detail2`](Sandbox.Game.Localization.IngameHelp_OxygenTip_Detail2)||
+|static [`IngameHelp_Oxygen_Detail1`](Sandbox.Game.Localization.IngameHelp_Oxygen_Detail1)||
+|static [`IngameHelp_Oxygen_Detail2`](Sandbox.Game.Localization.IngameHelp_Oxygen_Detail2)||
+|static [`IngameHelp_Oxygen_Title`](Sandbox.Game.Localization.IngameHelp_Oxygen_Title)||
+|static [`IngameHelp_FlyingAShipTip_Detail1`](Sandbox.Game.Localization.IngameHelp_FlyingAShipTip_Detail1)||
+|static [`IngameHelp_FlyingAShipTip_Detail2`](Sandbox.Game.Localization.IngameHelp_FlyingAShipTip_Detail2)||
+|static [`IngameHelp_FlyingAShip_Detail1`](Sandbox.Game.Localization.IngameHelp_FlyingAShip_Detail1)||
+|static [`IngameHelp_FlyingAShip_Detail2`](Sandbox.Game.Localization.IngameHelp_FlyingAShip_Detail2)||
+|static [`IngameHelp_FlyingAShip_Detail3`](Sandbox.Game.Localization.IngameHelp_FlyingAShip_Detail3)||
+|static [`IngameHelp_FlyingAShip_Detail4`](Sandbox.Game.Localization.IngameHelp_FlyingAShip_Detail4)||
+|static [`IngameHelp_FlyingAShip_Title`](Sandbox.Game.Localization.IngameHelp_FlyingAShip_Title)||
+|static [`IngameHelp_Grinder_Detail1`](Sandbox.Game.Localization.IngameHelp_Grinder_Detail1)||
+|static [`IngameHelp_Grinder_Detail2`](Sandbox.Game.Localization.IngameHelp_Grinder_Detail2)||
+|static [`IngameHelp_Grinder_Title`](Sandbox.Game.Localization.IngameHelp_Grinder_Title)||
+|static [`IngameHelp_GrinderTip_Detail1`](Sandbox.Game.Localization.IngameHelp_GrinderTip_Detail1)||
+|static [`IngameHelp_GrinderTip_Detail2`](Sandbox.Game.Localization.IngameHelp_GrinderTip_Detail2)||
+|static [`IngameHelp_HandDrill_Detail1`](Sandbox.Game.Localization.IngameHelp_HandDrill_Detail1)||
+|static [`IngameHelp_HandDrill_Detail2`](Sandbox.Game.Localization.IngameHelp_HandDrill_Detail2)||
+|static [`IngameHelp_HandDrill_Detail3`](Sandbox.Game.Localization.IngameHelp_HandDrill_Detail3)||
+|static [`IngameHelp_HandDrill_Detail4`](Sandbox.Game.Localization.IngameHelp_HandDrill_Detail4)||
+|static [`IngameHelp_HandDrill_Title`](Sandbox.Game.Localization.IngameHelp_HandDrill_Title)||
+|static [`IngameHelp_Rifle_Detail1`](Sandbox.Game.Localization.IngameHelp_Rifle_Detail1)||
+|static [`IngameHelp_Rifle_Detail2`](Sandbox.Game.Localization.IngameHelp_Rifle_Detail2)||
+|static [`IngameHelp_Rifle_Title`](Sandbox.Game.Localization.IngameHelp_Rifle_Title)||
+|static [`IngameHelp_WelderTip_Detail1`](Sandbox.Game.Localization.IngameHelp_WelderTip_Detail1)||
+|static [`IngameHelp_WelderTip_Detail2`](Sandbox.Game.Localization.IngameHelp_WelderTip_Detail2)||
+|static [`IngameHelp_Welder_Detail1`](Sandbox.Game.Localization.IngameHelp_Welder_Detail1)||
+|static [`IngameHelp_Welder_Detail2`](Sandbox.Game.Localization.IngameHelp_Welder_Detail2)||
+|static [`IngameHelp_Welder_Title`](Sandbox.Game.Localization.IngameHelp_Welder_Title)||
+|static [`IngameHelp_RefiningOre_Detail1`](Sandbox.Game.Localization.IngameHelp_RefiningOre_Detail1)||
+|static [`IngameHelp_RefiningOre_Detail2`](Sandbox.Game.Localization.IngameHelp_RefiningOre_Detail2)||
+|static [`IngameHelp_RefiningOre_Title`](Sandbox.Game.Localization.IngameHelp_RefiningOre_Title)||
+|static [`IngameHelp_ComponentsTip_Detail1`](Sandbox.Game.Localization.IngameHelp_ComponentsTip_Detail1)||
+|static [`IngameHelp_ComponentsTip_Detail2`](Sandbox.Game.Localization.IngameHelp_ComponentsTip_Detail2)||
+|static [`IngameHelp_Components_Detail1`](Sandbox.Game.Localization.IngameHelp_Components_Detail1)||
+|static [`IngameHelp_Components_Detail2`](Sandbox.Game.Localization.IngameHelp_Components_Detail2)||
+|static [`IngameHelp_Components_Title`](Sandbox.Game.Localization.IngameHelp_Components_Title)||
+|static [`IngameHelp_FlashlightTip_Detail1`](Sandbox.Game.Localization.IngameHelp_FlashlightTip_Detail1)||
+|static [`IngameHelp_FlashlightTip_Detail2`](Sandbox.Game.Localization.IngameHelp_FlashlightTip_Detail2)||
+|static [`IngameHelp_Flashlight_Detail1`](Sandbox.Game.Localization.IngameHelp_Flashlight_Detail1)||
+|static [`IngameHelp_Flashlight_Detail2`](Sandbox.Game.Localization.IngameHelp_Flashlight_Detail2)||
+|static [`IngameHelp_Flashlight_Title`](Sandbox.Game.Localization.IngameHelp_Flashlight_Title)||
+|static [`IngameHelp_Ingots_Detail1`](Sandbox.Game.Localization.IngameHelp_Ingots_Detail1)||
+|static [`IngameHelp_Ingots_Detail2`](Sandbox.Game.Localization.IngameHelp_Ingots_Detail2)||
+|static [`IngameHelp_Ingots_Detail3`](Sandbox.Game.Localization.IngameHelp_Ingots_Detail3)||
+|static [`IngameHelp_Ingots_Title`](Sandbox.Game.Localization.IngameHelp_Ingots_Title)||
+|static [`IngameHelp_InteractiveTip_Detail1`](Sandbox.Game.Localization.IngameHelp_InteractiveTip_Detail1)||
+|static [`IngameHelp_InteractiveTip_Detail2`](Sandbox.Game.Localization.IngameHelp_InteractiveTip_Detail2)||
+|static [`IngameHelp_Interactive_Detail1`](Sandbox.Game.Localization.IngameHelp_Interactive_Detail1)||
+|static [`IngameHelp_Interactive_Detail2`](Sandbox.Game.Localization.IngameHelp_Interactive_Detail2)||
+|static [`IngameHelp_Interactive_Detail3`](Sandbox.Game.Localization.IngameHelp_Interactive_Detail3)||
+|static [`IngameHelp_Interactive_Detail4`](Sandbox.Game.Localization.IngameHelp_Interactive_Detail4)||
+|static [`IngameHelp_Interactive_Title`](Sandbox.Game.Localization.IngameHelp_Interactive_Title)||
+|static [`IngameHelp_PowerTip_Detail1`](Sandbox.Game.Localization.IngameHelp_PowerTip_Detail1)||
+|static [`IngameHelp_PowerTip_Detail2`](Sandbox.Game.Localization.IngameHelp_PowerTip_Detail2)||
+|static [`ScreenBlueprintsRew_Author`](Sandbox.Game.Localization.ScreenBlueprintsRew_Author)||
+|static [`ScreenBlueprintsRew_ButDelete`](Sandbox.Game.Localization.ScreenBlueprintsRew_ButDelete)||
+|static [`ScreenBlueprintsRew_ButEdit`](Sandbox.Game.Localization.ScreenBlueprintsRew_ButEdit)||
+|static [`ScreenBlueprintsRew_ButInfo`](Sandbox.Game.Localization.ScreenBlueprintsRew_ButInfo)||
+|static [`ScreenBlueprintsRew_ButOpenInWorkshop`](Sandbox.Game.Localization.ScreenBlueprintsRew_ButOpenInWorkshop)||
+|static [`ScreenBlueprintsRew_ButPublish`](Sandbox.Game.Localization.ScreenBlueprintsRew_ButPublish)||
+|static [`ScreenBlueprintsRew_ButRename`](Sandbox.Game.Localization.ScreenBlueprintsRew_ButRename)||
+|static [`ScreenBlueprintsRew_ButReplace`](Sandbox.Game.Localization.ScreenBlueprintsRew_ButReplace)||
+|static [`ScreenBlueprintsRew_ButScreenshot`](Sandbox.Game.Localization.ScreenBlueprintsRew_ButScreenshot)||
+|static [`ScreenBlueprintsRew_ButToClipboard`](Sandbox.Game.Localization.ScreenBlueprintsRew_ButToClipboard)||
+|static [`ScreenBlueprintsRew_Caption`](Sandbox.Game.Localization.ScreenBlueprintsRew_Caption)||
+|static [`ScreenBlueprintsRew_Delete`](Sandbox.Game.Localization.ScreenBlueprintsRew_Delete)||
+|static [`ScreenBlueprintsRew_DeleteMessage`](Sandbox.Game.Localization.ScreenBlueprintsRew_DeleteMessage)||
+|static [`ScreenBlueprintsRew_GridType`](Sandbox.Game.Localization.ScreenBlueprintsRew_GridType)||
+|static [`ScreenBlueprintsRew_Name`](Sandbox.Game.Localization.ScreenBlueprintsRew_Name)||
+|static [`ScreenBlueprintsRew_NotAvailable`](Sandbox.Game.Localization.ScreenBlueprintsRew_NotAvailable)||
+|static [`ScreenBlueprintsRew_NumOfBlocks`](Sandbox.Game.Localization.ScreenBlueprintsRew_NumOfBlocks)||
+|static [`ScreenBlueprintsRew_PCU`](Sandbox.Game.Localization.ScreenBlueprintsRew_PCU)||
+|static [`ScreenBlueprintsRew_Replace`](Sandbox.Game.Localization.ScreenBlueprintsRew_Replace)||
+|static [`ScreenBlueprintsRew_ReplaceMessage1`](Sandbox.Game.Localization.ScreenBlueprintsRew_ReplaceMessage1)||
+|static [`ScreenBlueprintsRew_ReplaceMessage2`](Sandbox.Game.Localization.ScreenBlueprintsRew_ReplaceMessage2)||
+|static [`ScreenBlueprintsRew_Search`](Sandbox.Game.Localization.ScreenBlueprintsRew_Search)||
+|static [`ScreenBlueprintsRew_Tooltip_ButDelete`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_ButDelete)||
+|static [`ScreenBlueprintsRew_Tooltip_ButEdit`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_ButEdit)||
+|static [`ScreenBlueprintsRew_Tooltip_ButFolders`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_ButFolders)||
+|static [`ScreenBlueprintsRew_Tooltip_ButGrouping`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_ButGrouping)||
+|static [`ScreenBlueprintsRew_Tooltip_ButInfo`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_ButInfo)||
+|static [`ScreenBlueprintsRew_Tooltip_ButNewBlueprint`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_ButNewBlueprint)||
+|static [`ScreenBlueprintsRew_Tooltip_ButOpenInWorkshop`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_ButOpenInWorkshop)||
+|static [`ScreenBlueprintsRew_Tooltip_ButOpenWorkshop`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_ButOpenWorkshop)||
+|static [`ScreenBlueprintsRew_Tooltip_ButPublish`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_ButPublish)||
+|static [`ScreenBlueprintsRew_Tooltip_ButRefresh`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_ButRefresh)||
+|static [`ScreenBlueprintsRew_Tooltip_ButRename`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_ButRename)||
+|static [`ScreenBlueprintsRew_Tooltip_ButReplace`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_ButReplace)||
+|static [`ScreenBlueprintsRew_Tooltip_ButScreenshot`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_ButScreenshot)||
+|static [`ScreenBlueprintsRew_Tooltip_ButSort`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_ButSort)||
+|static [`ScreenBlueprintsRew_Tooltip_ButToClipboard`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_ButToClipboard)||
+|static [`ScreenBlueprintsRew_Tooltip_ButVisibility`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_ButVisibility)||
+|static [`ScreenBlueprintsRew_Tooltip_SendToPlayer`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_SendToPlayer)||
+|static [`ScreenBlueprintsRew_NoBlueprints`](Sandbox.Game.Localization.ScreenBlueprintsRew_NoBlueprints)||
+|static [`ScreenBlueprintsRew_NoWorkshopBlueprints`](Sandbox.Game.Localization.ScreenBlueprintsRew_NoWorkshopBlueprints)||
+|static [`ScreenBlueprintsRew_NoWorkshopScripts`](Sandbox.Game.Localization.ScreenBlueprintsRew_NoWorkshopScripts)||
+|static [`ScreenFolders_ButOpen`](Sandbox.Game.Localization.ScreenFolders_ButOpen)||
+|static [`ScreenFolders_Caption`](Sandbox.Game.Localization.ScreenFolders_Caption)||
+|static [`ScreenFolders_Tooltip_Open`](Sandbox.Game.Localization.ScreenFolders_Tooltip_Open)||
+|static [`ScreenFolders_Tooltip_Refresh`](Sandbox.Game.Localization.ScreenFolders_Tooltip_Refresh)||
+|static [`ScreenBlueprintsRew_ButToEditor`](Sandbox.Game.Localization.ScreenBlueprintsRew_ButToEditor)||
+|static [`ScreenBlueprintsRew_Tooltip_ButNewScript`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_ButNewScript)||
+|static [`ScreenBlueprintsRew_Tooltip_ButToEditor`](Sandbox.Game.Localization.ScreenBlueprintsRew_Tooltip_ButToEditor)||
+|static [`ScreenBlueprintsRew_ScreenBeingTaken`](Sandbox.Game.Localization.ScreenBlueprintsRew_ScreenBeingTaken)||
+|static [`ScreenBlueprintsRew_ScreenBeingTaken_Caption`](Sandbox.Game.Localization.ScreenBlueprintsRew_ScreenBeingTaken_Caption)||
+|static [`ChatBotName`](Sandbox.Game.Localization.ChatBotName)||
+|static [`ChatBotUnavailable`](Sandbox.Game.Localization.ChatBotUnavailable)||
+|static [`ChatBot_Generic`](Sandbox.Game.Localization.ChatBot_Generic)||
+|static [`ChatBot_HowAreYou`](Sandbox.Game.Localization.ChatBot_HowAreYou)||
+|static [`ChatBot_Rude`](Sandbox.Game.Localization.ChatBot_Rude)||
+|static [`ChatBot_ThankYou`](Sandbox.Game.Localization.ChatBot_ThankYou)||
+|static [`ChatBotMisunderstanding0`](Sandbox.Game.Localization.ChatBotMisunderstanding0)||
+|static [`Description_FAQ_Electricity`](Sandbox.Game.Localization.Description_FAQ_Electricity)||
+|static [`Description_FAQ_Asteroids`](Sandbox.Game.Localization.Description_FAQ_Asteroids)||
+|static [`Description_FAQ_Gravity`](Sandbox.Game.Localization.Description_FAQ_Gravity)||
+|static [`Description_FAQ_Oxygen`](Sandbox.Game.Localization.Description_FAQ_Oxygen)||
+|static [`Description_FAQ_Damage`](Sandbox.Game.Localization.Description_FAQ_Damage)||
+|static [`Description_FAQ_Repair`](Sandbox.Game.Localization.Description_FAQ_Repair)||
+|static [`Description_FAQ_Welding`](Sandbox.Game.Localization.Description_FAQ_Welding)||
+|static [`Description_FAQ_Mining`](Sandbox.Game.Localization.Description_FAQ_Mining)||
+|static [`Description_FAQ_Healing`](Sandbox.Game.Localization.Description_FAQ_Healing)||
+|static [`Description_FAQ_Recharging`](Sandbox.Game.Localization.Description_FAQ_Recharging)||
+|static [`Description_FAQ_Grinding`](Sandbox.Game.Localization.Description_FAQ_Grinding)||
+|static [`Description_FAQ_Hydrogen`](Sandbox.Game.Localization.Description_FAQ_Hydrogen)||
+|static [`Description_FAQ_Jetpack`](Sandbox.Game.Localization.Description_FAQ_Jetpack)||
+|static [`Description_FAQ_MagneticBoots`](Sandbox.Game.Localization.Description_FAQ_MagneticBoots)||
+|static [`Description_FAQ_Ore`](Sandbox.Game.Localization.Description_FAQ_Ore)||
+|static [`Description_FAQ_Ice`](Sandbox.Game.Localization.Description_FAQ_Ice)||
+|static [`Description_FAQ_Voxel`](Sandbox.Game.Localization.Description_FAQ_Voxel)||
+|static [`Description_FAQ_Grid`](Sandbox.Game.Localization.Description_FAQ_Grid)||
+|static [`Description_FAQ_Clang`](Sandbox.Game.Localization.Description_FAQ_Clang)||
+|static [`Description_FAQ_Visor`](Sandbox.Game.Localization.Description_FAQ_Visor)||
+|static [`Description_FAQ_RoomPressure`](Sandbox.Game.Localization.Description_FAQ_RoomPressure)||
+|static [`Description_FAQ_Thrusters`](Sandbox.Game.Localization.Description_FAQ_Thrusters)||
+|static [`Description_FAQ_ShipMovement`](Sandbox.Game.Localization.Description_FAQ_ShipMovement)||
+|static [`Description_FAQ_RoverMovement`](Sandbox.Game.Localization.Description_FAQ_RoverMovement)||
+|static [`Description_FAQ_Planets`](Sandbox.Game.Localization.Description_FAQ_Planets)||
+|static [`Description_FAQ_Pirates`](Sandbox.Game.Localization.Description_FAQ_Pirates)||
+|static [`Description_FAQ_Fuel`](Sandbox.Game.Localization.Description_FAQ_Fuel)||
+|static [`Description_FAQ_PCU`](Sandbox.Game.Localization.Description_FAQ_PCU)||
+|static [`Description_FAQ_Ownership`](Sandbox.Game.Localization.Description_FAQ_Ownership)||
+|static [`Description_FAQ_Factions`](Sandbox.Game.Localization.Description_FAQ_Factions)||
+|static [`Description_FAQ_Bottles`](Sandbox.Game.Localization.Description_FAQ_Bottles)||
+|static [`Description_FAQ_Help`](Sandbox.Game.Localization.Description_FAQ_Help)||
+|static [`Description_FAQ_SaveBlueprints`](Sandbox.Game.Localization.Description_FAQ_SaveBlueprints)||
+|static [`Description_FAQ_Lost`](Sandbox.Game.Localization.Description_FAQ_Lost)||
+|static [`Description_FAQ_Mass`](Sandbox.Game.Localization.Description_FAQ_Mass)||
+|static [`Description_FAQ_Skins`](Sandbox.Game.Localization.Description_FAQ_Skins)||
+|static [`Description_FAQ_ShipInventories`](Sandbox.Game.Localization.Description_FAQ_ShipInventories)||
+|static [`Description_FAQ_ShipBuilding`](Sandbox.Game.Localization.Description_FAQ_ShipBuilding)||
+|static [`Description_FAQ_Script`](Sandbox.Game.Localization.Description_FAQ_Script)||
+|static [`Description_FAQ_GridMovement`](Sandbox.Game.Localization.Description_FAQ_GridMovement)||
+|static [`Description_FAQ_StopMoving`](Sandbox.Game.Localization.Description_FAQ_StopMoving)||
+|static [`Description_FAQ_RelativeDampeners`](Sandbox.Game.Localization.Description_FAQ_RelativeDampeners)||
+|static [`Description_FAQ_InertiaDampeners`](Sandbox.Game.Localization.Description_FAQ_InertiaDampeners)||
+|static [`Description_FAQ_Flashlight`](Sandbox.Game.Localization.Description_FAQ_Flashlight)||
+|static [`Description_FAQ_FindOtherPlayers`](Sandbox.Game.Localization.Description_FAQ_FindOtherPlayers)||
+|static [`Description_FAQ_HowToPlayGame`](Sandbox.Game.Localization.Description_FAQ_HowToPlayGame)||
+|static [`Description_FAQ_Thing`](Sandbox.Game.Localization.Description_FAQ_Thing)||
+|static [`Description_FAQ_ShipWontFly`](Sandbox.Game.Localization.Description_FAQ_ShipWontFly)||
+|static [`Description_FAQ_WhatIsABlock`](Sandbox.Game.Localization.Description_FAQ_WhatIsABlock)||
+|static [`Description_FAQ_MirrorMode`](Sandbox.Game.Localization.Description_FAQ_MirrorMode)||
+|static [`Description_FAQ_ProtectingMyself`](Sandbox.Game.Localization.Description_FAQ_ProtectingMyself)||
+|static [`Description_FAQ_LosingHealth`](Sandbox.Game.Localization.Description_FAQ_LosingHealth)||
+|static [`Description_FAQ_VoxelHands`](Sandbox.Game.Localization.Description_FAQ_VoxelHands)||
+|static [`Description_FAQ_AirTightnessPressure`](Sandbox.Game.Localization.Description_FAQ_AirTightnessPressure)||
+|static [`Description_FAQ_Components`](Sandbox.Game.Localization.Description_FAQ_Components)||
+|static [`Description_FAQ_Station`](Sandbox.Game.Localization.Description_FAQ_Station)||
+|static [`Description_FAQ_Ship`](Sandbox.Game.Localization.Description_FAQ_Ship)||
+|static [`Description_FAQ_CarRover`](Sandbox.Game.Localization.Description_FAQ_CarRover)||
+|static [`Description_FAQ_GPSSignals`](Sandbox.Game.Localization.Description_FAQ_GPSSignals)||
+|static [`Description_FAQ_GridSize`](Sandbox.Game.Localization.Description_FAQ_GridSize)||
+|static [`Description_FAQ_Suit`](Sandbox.Game.Localization.Description_FAQ_Suit)||
+|static [`Description_FAQ_HandTools`](Sandbox.Game.Localization.Description_FAQ_HandTools)||
+|static [`Description_FAQ_Inventory`](Sandbox.Game.Localization.Description_FAQ_Inventory)||
+|static [`Description_FAQ_ShipToolsWeapons`](Sandbox.Game.Localization.Description_FAQ_ShipToolsWeapons)||
+|static [`Description_FAQ_Ingots`](Sandbox.Game.Localization.Description_FAQ_Ingots)||
+|static [`Description_FAQ_Armor`](Sandbox.Game.Localization.Description_FAQ_Armor)||
+|static [`Description_FAQ_Meteor`](Sandbox.Game.Localization.Description_FAQ_Meteor)||
+|static [`Description_FAQ_UnknownSignals`](Sandbox.Game.Localization.Description_FAQ_UnknownSignals)||
+|static [`Description_FAQ_GPSColors`](Sandbox.Game.Localization.Description_FAQ_GPSColors)||
+|static [`Description_FAQ_Drones`](Sandbox.Game.Localization.Description_FAQ_Drones)||
+|static [`Description_FAQ_Objective`](Sandbox.Game.Localization.Description_FAQ_Objective)||
+|static [`Description_FAQ_GoodBot`](Sandbox.Game.Localization.Description_FAQ_GoodBot)||
+|static [`Description_FAQ_Math`](Sandbox.Game.Localization.Description_FAQ_Math)||
+|static [`Description_FAQ_Begin`](Sandbox.Game.Localization.Description_FAQ_Begin)||
+|static [`Description_FAQ_BasicMovement`](Sandbox.Game.Localization.Description_FAQ_BasicMovement)||
+|static [`Description_FAQ_Time`](Sandbox.Game.Localization.Description_FAQ_Time)||
+|static [`Description_FAQ_SteamWorkshop`](Sandbox.Game.Localization.Description_FAQ_SteamWorkshop)||
+|static [`Description_FAQ_Painting`](Sandbox.Game.Localization.Description_FAQ_Painting)||
+|static [`Description_FAQ_InvalidMaterial`](Sandbox.Game.Localization.Description_FAQ_InvalidMaterial)||
+|static [`Description_FAQ_Test`](Sandbox.Game.Localization.Description_FAQ_Test)||
+|static [`Description_FAQ_Broadcasting`](Sandbox.Game.Localization.Description_FAQ_Broadcasting)||
+|static [`Description_FAQ_BlockRotation`](Sandbox.Game.Localization.Description_FAQ_BlockRotation)||
+|static [`Description_FAQ_HUD`](Sandbox.Game.Localization.Description_FAQ_HUD)||
+|static [`Description_FAQ_Bug`](Sandbox.Game.Localization.Description_FAQ_Bug)||
+|static [`Description_FAQ_Messages`](Sandbox.Game.Localization.Description_FAQ_Messages)||
+|static [`Description_FAQ_AutoPilot`](Sandbox.Game.Localization.Description_FAQ_AutoPilot)||
+|static [`Description_FAQ_Experimental`](Sandbox.Game.Localization.Description_FAQ_Experimental)||
+|static [`Description_FAQ_Marek`](Sandbox.Game.Localization.Description_FAQ_Marek)||
+|static [`Description_FAQ_GoodAI`](Sandbox.Game.Localization.Description_FAQ_GoodAI)||
+|static [`Description_FAQ_DisableHints`](Sandbox.Game.Localization.Description_FAQ_DisableHints)||
+|static [`Description_FAQ_Permissions`](Sandbox.Game.Localization.Description_FAQ_Permissions)||
+|static [`Description_FAQ_LeavePlanet`](Sandbox.Game.Localization.Description_FAQ_LeavePlanet)||
+|static [`Description_FAQ_Groups`](Sandbox.Game.Localization.Description_FAQ_Groups)||
+|static [`Description_FAQ_MergeGrids`](Sandbox.Game.Localization.Description_FAQ_MergeGrids)||
+|static [`Description_FAQ_Camera`](Sandbox.Game.Localization.Description_FAQ_Camera)||
+|static [`Description_FAQ_Ammo`](Sandbox.Game.Localization.Description_FAQ_Ammo)||
+|static [`Description_FAQ_Airlock`](Sandbox.Game.Localization.Description_FAQ_Airlock)||
+|static [`JoinScreen_GTXGamingBanner`](Sandbox.Game.Localization.JoinScreen_GTXGamingBanner)||
+|static [`ChatBot_ThankYou_Q0`](Sandbox.Game.Localization.ChatBot_ThankYou_Q0)||
+|static [`ChatBot_ThankYou_Q1`](Sandbox.Game.Localization.ChatBot_ThankYou_Q1)||
+|static [`ChatBot_ThankYou_Q2`](Sandbox.Game.Localization.ChatBot_ThankYou_Q2)||
+|static [`ChatBot_ThankYou_Q3`](Sandbox.Game.Localization.ChatBot_ThankYou_Q3)||
+|static [`ChatBot_ThankYou_Q4`](Sandbox.Game.Localization.ChatBot_ThankYou_Q4)||
+|static [`ChatBot_ThankYou_Q5`](Sandbox.Game.Localization.ChatBot_ThankYou_Q5)||
+|static [`ChatBot_ThankYou_Q6`](Sandbox.Game.Localization.ChatBot_ThankYou_Q6)||
+|static [`ChatBot_ThankYou_Q7`](Sandbox.Game.Localization.ChatBot_ThankYou_Q7)||
+|static [`ChatBot_ThankYou_Q8`](Sandbox.Game.Localization.ChatBot_ThankYou_Q8)||
+|static [`ChatBot_ThankYou_Q9`](Sandbox.Game.Localization.ChatBot_ThankYou_Q9)||
+|static [`ChatBot_Generic_Q0`](Sandbox.Game.Localization.ChatBot_Generic_Q0)||
+|static [`ChatBot_Generic_Q1`](Sandbox.Game.Localization.ChatBot_Generic_Q1)||
+|static [`ChatBot_Generic_Q2`](Sandbox.Game.Localization.ChatBot_Generic_Q2)||
+|static [`ChatBot_Generic_Q3`](Sandbox.Game.Localization.ChatBot_Generic_Q3)||
+|static [`ChatBot_Generic_Q4`](Sandbox.Game.Localization.ChatBot_Generic_Q4)||
+|static [`ChatBot_Generic_Q5`](Sandbox.Game.Localization.ChatBot_Generic_Q5)||
+|static [`ChatBot_Generic_Q6`](Sandbox.Game.Localization.ChatBot_Generic_Q6)||
+|static [`ChatBot_Generic_Q7`](Sandbox.Game.Localization.ChatBot_Generic_Q7)||
+|static [`ChatBot_Generic_Q8`](Sandbox.Game.Localization.ChatBot_Generic_Q8)||
+|static [`ChatBot_Generic_Q9`](Sandbox.Game.Localization.ChatBot_Generic_Q9)||
+|static [`ChatBot_Generic_Q10`](Sandbox.Game.Localization.ChatBot_Generic_Q10)||
+|static [`ChatBot_Generic_Q11`](Sandbox.Game.Localization.ChatBot_Generic_Q11)||
+|static [`ChatBot_Generic_Q12`](Sandbox.Game.Localization.ChatBot_Generic_Q12)||
+|static [`ChatBot_HowAreYou_Q0`](Sandbox.Game.Localization.ChatBot_HowAreYou_Q0)||
+|static [`ChatBot_HowAreYou_Q1`](Sandbox.Game.Localization.ChatBot_HowAreYou_Q1)||
+|static [`ChatBot_HowAreYou_Q2`](Sandbox.Game.Localization.ChatBot_HowAreYou_Q2)||
+|static [`ChatBot_HowAreYou_Q3`](Sandbox.Game.Localization.ChatBot_HowAreYou_Q3)||
+|static [`ChatBot_HowAreYou_Q4`](Sandbox.Game.Localization.ChatBot_HowAreYou_Q4)||
+|static [`ChatBot_HowAreYou_Q5`](Sandbox.Game.Localization.ChatBot_HowAreYou_Q5)||
+|static [`ChatBot_HowAreYou_Q6`](Sandbox.Game.Localization.ChatBot_HowAreYou_Q6)||
+|static [`ChatBot_HowAreYou_Q7`](Sandbox.Game.Localization.ChatBot_HowAreYou_Q7)||
+|static [`ChatBot_HowAreYou_Q8`](Sandbox.Game.Localization.ChatBot_HowAreYou_Q8)||
+|static [`ChatBot_HowAreYou_Q9`](Sandbox.Game.Localization.ChatBot_HowAreYou_Q9)||
+|static [`ChatBot_Rude_Q0`](Sandbox.Game.Localization.ChatBot_Rude_Q0)||
+|static [`ChatBot_Rude_Q1`](Sandbox.Game.Localization.ChatBot_Rude_Q1)||
+|static [`ChatBot_Rude_Q2`](Sandbox.Game.Localization.ChatBot_Rude_Q2)||
+|static [`ChatBot_Rude_Q3`](Sandbox.Game.Localization.ChatBot_Rude_Q3)||
+|static [`ChatBot_Rude_Q4`](Sandbox.Game.Localization.ChatBot_Rude_Q4)||
+|static [`ChatBot_Rude_Q5`](Sandbox.Game.Localization.ChatBot_Rude_Q5)||
+|static [`Description_FAQ_Objective_Q0`](Sandbox.Game.Localization.Description_FAQ_Objective_Q0)||
+|static [`Description_FAQ_Objective_Q1`](Sandbox.Game.Localization.Description_FAQ_Objective_Q1)||
+|static [`Description_FAQ_Objective_Q2`](Sandbox.Game.Localization.Description_FAQ_Objective_Q2)||
+|static [`Description_FAQ_Objective_Q3`](Sandbox.Game.Localization.Description_FAQ_Objective_Q3)||
+|static [`Description_FAQ_GoodBot_Q0`](Sandbox.Game.Localization.Description_FAQ_GoodBot_Q0)||
+|static [`Description_FAQ_GoodBot_Q1`](Sandbox.Game.Localization.Description_FAQ_GoodBot_Q1)||
+|static [`Description_FAQ_GoodBot_Q2`](Sandbox.Game.Localization.Description_FAQ_GoodBot_Q2)||
+|static [`Description_FAQ_GoodBot_Q3`](Sandbox.Game.Localization.Description_FAQ_GoodBot_Q3)||
+|static [`Description_FAQ_Begin_Q0`](Sandbox.Game.Localization.Description_FAQ_Begin_Q0)||
+|static [`Description_FAQ_Bug_Q0`](Sandbox.Game.Localization.Description_FAQ_Bug_Q0)||
+|static [`Description_FAQ_Bug_Q1`](Sandbox.Game.Localization.Description_FAQ_Bug_Q1)||
+|static [`Description_FAQ_Bug_Q2`](Sandbox.Game.Localization.Description_FAQ_Bug_Q2)||
+|static [`Description_FAQ_Bug_Q3`](Sandbox.Game.Localization.Description_FAQ_Bug_Q3)||
+|static [`Description_FAQ_Bug_Q4`](Sandbox.Game.Localization.Description_FAQ_Bug_Q4)||
+|static [`Description_FAQ_Bug_Q5`](Sandbox.Game.Localization.Description_FAQ_Bug_Q5)||
+|static [`Description_FAQ_Bug_Q6`](Sandbox.Game.Localization.Description_FAQ_Bug_Q6)||
+|static [`Description_FAQ_Bug_Q7`](Sandbox.Game.Localization.Description_FAQ_Bug_Q7)||
+|static [`Description_FAQ_Bug_Q8`](Sandbox.Game.Localization.Description_FAQ_Bug_Q8)||
+|static [`Description_FAQ_Test_Q0`](Sandbox.Game.Localization.Description_FAQ_Test_Q0)||
+|static [`Description_FAQ_Test_Q1`](Sandbox.Game.Localization.Description_FAQ_Test_Q1)||
+|static [`Description_FAQ_Test_Q2`](Sandbox.Game.Localization.Description_FAQ_Test_Q2)||
+|static [`Description_FAQ_Test_Q3`](Sandbox.Game.Localization.Description_FAQ_Test_Q3)||
+|static [`Description_FAQ_Clang_Q0`](Sandbox.Game.Localization.Description_FAQ_Clang_Q0)||
+|static [`Description_FAQ_Clang_Q1`](Sandbox.Game.Localization.Description_FAQ_Clang_Q1)||
+|static [`ChatBot_Substitute0_S`](Sandbox.Game.Localization.ChatBot_Substitute0_S)||
+|static [`ChatBot_Substitute0_D`](Sandbox.Game.Localization.ChatBot_Substitute0_D)||
+|static [`ChatBot_Substitute1_S`](Sandbox.Game.Localization.ChatBot_Substitute1_S)||
+|static [`ChatBot_Substitute1_D`](Sandbox.Game.Localization.ChatBot_Substitute1_D)||
+|static [`ChatBot_Substitute2_S`](Sandbox.Game.Localization.ChatBot_Substitute2_S)||
+|static [`ChatBot_Substitute2_D`](Sandbox.Game.Localization.ChatBot_Substitute2_D)||
+|static [`ChatBot_Substitute3_S`](Sandbox.Game.Localization.ChatBot_Substitute3_S)||
+|static [`ChatBot_Substitute3_D`](Sandbox.Game.Localization.ChatBot_Substitute3_D)||
+|static [`IngameHelp_BuildingTip2_Detail1`](Sandbox.Game.Localization.IngameHelp_BuildingTip2_Detail1)||
+|static [`IngameHelp_BuildingTip2_Detail2`](Sandbox.Game.Localization.IngameHelp_BuildingTip2_Detail2)||
+|static [`IngameHelp_FlyingAShipLGTip_Detail1`](Sandbox.Game.Localization.IngameHelp_FlyingAShipLGTip_Detail1)||
+|static [`IngameHelp_FlyingAShipLGTip_Detail2`](Sandbox.Game.Localization.IngameHelp_FlyingAShipLGTip_Detail2)||
+|static [`IngameHelp_FlyingAShipLG_Detail1`](Sandbox.Game.Localization.IngameHelp_FlyingAShipLG_Detail1)||
+|static [`IngameHelp_FlyingAShipLG_Detail2`](Sandbox.Game.Localization.IngameHelp_FlyingAShipLG_Detail2)||
+|static [`IngameHelp_WheeledVehicles2_Detail1`](Sandbox.Game.Localization.IngameHelp_WheeledVehicles2_Detail1)||
+|static [`IngameHelp_WheeledVehicles2_Detail2`](Sandbox.Game.Localization.IngameHelp_WheeledVehicles2_Detail2)||
+|static [`IngameHelp_WheeledVehiclesTip_Detail1`](Sandbox.Game.Localization.IngameHelp_WheeledVehiclesTip_Detail1)||
+|static [`IngameHelp_WheeledVehiclesTip_Detail2`](Sandbox.Game.Localization.IngameHelp_WheeledVehiclesTip_Detail2)||
+|static [`IngameHelp_WheeledVehicles_Detail1`](Sandbox.Game.Localization.IngameHelp_WheeledVehicles_Detail1)||
+|static [`IngameHelp_WheeledVehicles_Detail2`](Sandbox.Game.Localization.IngameHelp_WheeledVehicles_Detail2)||
+|static [`IngameHelp_WheeledVehicles_Detail3`](Sandbox.Game.Localization.IngameHelp_WheeledVehicles_Detail3)||
+|static [`IngameHelp_WheeledVehicles_Detail4`](Sandbox.Game.Localization.IngameHelp_WheeledVehicles_Detail4)||
+|static [`IngameHelp_WheeledVehicles_Detail5`](Sandbox.Game.Localization.IngameHelp_WheeledVehicles_Detail5)||
+|static [`IngameHelp_WheeledVehicles_Title`](Sandbox.Game.Localization.IngameHelp_WheeledVehicles_Title)||
+|static [`IngameHelp_OwnershipTip_Detail1`](Sandbox.Game.Localization.IngameHelp_OwnershipTip_Detail1)||
+|static [`IngameHelp_OwnershipTip_Detail2`](Sandbox.Game.Localization.IngameHelp_OwnershipTip_Detail2)||
+|static [`IngameHelp_HelmetVisorTip_Detail1`](Sandbox.Game.Localization.IngameHelp_HelmetVisorTip_Detail1)||
+|static [`IngameHelp_HelmetVisorTip_Detail2`](Sandbox.Game.Localization.IngameHelp_HelmetVisorTip_Detail2)||
+|static [`IngameHelp_HelmetVisor_Detail1`](Sandbox.Game.Localization.IngameHelp_HelmetVisor_Detail1)||
+|static [`IngameHelp_HelmetVisor_Detail2`](Sandbox.Game.Localization.IngameHelp_HelmetVisor_Detail2)||
+|static [`IngameHelp_HelmetVisor_Title`](Sandbox.Game.Localization.IngameHelp_HelmetVisor_Title)||
+|static [`ScreenBlueprintsRew_Caption_Blueprint`](Sandbox.Game.Localization.ScreenBlueprintsRew_Caption_Blueprint)||
+|static [`ScreenBlueprintsRew_Caption_Script`](Sandbox.Game.Localization.ScreenBlueprintsRew_Caption_Script)||
+|static [`BlueprintInfo_SendTo`](Sandbox.Game.Localization.BlueprintInfo_SendTo)||
+|static [`ControlName_RelativeDampening`](Sandbox.Game.Localization.ControlName_RelativeDampening)||
+|static [`IngameHelp_StuckTip_Detail1`](Sandbox.Game.Localization.IngameHelp_StuckTip_Detail1)||
+|static [`IngameHelp_StuckTip_Detail2`](Sandbox.Game.Localization.IngameHelp_StuckTip_Detail2)||
+|static [`IngameHelp_Stuck_Detail1`](Sandbox.Game.Localization.IngameHelp_Stuck_Detail1)||
+|static [`IngameHelp_Stuck_Detail2`](Sandbox.Game.Localization.IngameHelp_Stuck_Detail2)||
+|static [`IngameHelp_Stuck_Detail3`](Sandbox.Game.Localization.IngameHelp_Stuck_Detail3)||
+|static [`IngameHelp_Stuck_Title`](Sandbox.Game.Localization.IngameHelp_Stuck_Title)||
+|static [`IngameHelp_IntroTip2_Detail1`](Sandbox.Game.Localization.IngameHelp_IntroTip2_Detail1)||
+|static [`NotificationJumpAbortedAlreadyJumping`](Sandbox.Game.Localization.NotificationJumpAbortedAlreadyJumping)||
+|static [`NotificationJumpAbortedLocked`](Sandbox.Game.Localization.NotificationJumpAbortedLocked)||
+|static [`NotificationJumpAbortedNoLocation`](Sandbox.Game.Localization.NotificationJumpAbortedNoLocation)||
+|static [`NotificationJumpAbortedShortDistance`](Sandbox.Game.Localization.NotificationJumpAbortedShortDistance)||
+|static [`NotificationJumpAbortedStatic`](Sandbox.Game.Localization.NotificationJumpAbortedStatic)||

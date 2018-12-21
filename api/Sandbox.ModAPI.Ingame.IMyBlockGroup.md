@@ -5,10 +5,10 @@
 ### Properties
 |Member|Description|
 |---|---|
-|[`string Name`](Sandbox.ModAPI.Ingame.Name)||
+|[`Name`](Sandbox.ModAPI.Ingame.Name)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`void GetBlocks(List<Sandbox.ModAPI.Ingame.IMyTerminalBlock>, Func<Sandbox.ModAPI.Ingame.IMyTerminalBlock, System.Boolean>)`](Sandbox.ModAPI.Ingame.GetBlocks)||
-|[`void GetBlocksOfType<T>(List<Sandbox.ModAPI.Ingame.IMyTerminalBlock>, Func<Sandbox.ModAPI.Ingame.IMyTerminalBlock, System.Boolean>)`](Sandbox.ModAPI.Ingame.GetBlocksOfType)||
-|[`void GetBlocksOfType<T>(List<T>, Func<T, System.Boolean>)`](Sandbox.ModAPI.Ingame.GetBlocksOfType)||
+|[`GetBlocks(List<IMyTerminalBlock>, Func<IMyTerminalBlock, bool>)`](Sandbox.ModAPI.Ingame.GetBlocks)||
+|[`GetBlocksOfType<T>(List<IMyTerminalBlock>, Func<IMyTerminalBlock, bool>)`](Sandbox.ModAPI.Ingame.GetBlocksOfType)||
+|[`GetBlocksOfType<T>(List<T>, Func<T, bool>)`](Sandbox.ModAPI.Ingame.GetBlocksOfType)||

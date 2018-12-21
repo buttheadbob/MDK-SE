@@ -5,11 +5,11 @@
 ### Properties
 |Member|Description|
 |---|---|
-|[`int InventoryCount`](VRage.Game.ModAPI.Ingame.InventoryCount)||
-|[`long EntityId`](VRage.Game.ModAPI.Ingame.EntityId)||
-|[`bool UseConveyorSystem`](VRage.Game.ModAPI.Ingame.UseConveyorSystem)||
-|[`bool HasInventory`](VRage.Game.ModAPI.Ingame.HasInventory)||
+|[`InventoryCount`](VRage.Game.ModAPI.Ingame.InventoryCount)||
+|[`EntityId`](VRage.Game.ModAPI.Ingame.EntityId)||
+|[`UseConveyorSystem`](VRage.Game.ModAPI.Ingame.UseConveyorSystem)||
+|[`HasInventory`](VRage.Game.ModAPI.Ingame.HasInventory)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`VRage.Game.ModAPI.Ingame.IMyInventory GetInventory(int)`](VRage.Game.ModAPI.Ingame.GetInventory)||
+|[`GetInventory(int)`](VRage.Game.ModAPI.Ingame.GetInventory)||

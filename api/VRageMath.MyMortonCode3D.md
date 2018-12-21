@@ -5,5 +5,5 @@
 ### Methods
 |Member|Description|
 |---|---|
-|static [`int Encode(ref VRageMath.Vector3I)`](VRageMath.Encode)||
-|static [`void Decode(int, ref VRageMath.Vector3I)`](VRageMath.Decode)||
+|static [`Encode(ref Vector3I)`](VRageMath.Encode)||
+|static [`Decode(int, ref Vector3I)`](VRageMath.Decode)||

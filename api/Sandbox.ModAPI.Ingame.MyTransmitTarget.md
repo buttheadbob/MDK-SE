@@ -5,10 +5,10 @@
 ### Fields
 |Member|Description|
 |---|---|
-|static [`Sandbox.ModAPI.Ingame.MyTransmitTarget None`](Sandbox.ModAPI.Ingame.None)||
-|static [`Sandbox.ModAPI.Ingame.MyTransmitTarget Owned`](Sandbox.ModAPI.Ingame.Owned)||
-|static [`Sandbox.ModAPI.Ingame.MyTransmitTarget Ally`](Sandbox.ModAPI.Ingame.Ally)||
-|static [`Sandbox.ModAPI.Ingame.MyTransmitTarget Neutral`](Sandbox.ModAPI.Ingame.Neutral)||
-|static [`Sandbox.ModAPI.Ingame.MyTransmitTarget Enemy`](Sandbox.ModAPI.Ingame.Enemy)||
-|static [`Sandbox.ModAPI.Ingame.MyTransmitTarget Everyone`](Sandbox.ModAPI.Ingame.Everyone)||
-|static [`Sandbox.ModAPI.Ingame.MyTransmitTarget Default`](Sandbox.ModAPI.Ingame.Default)||
+|static [`None`](Sandbox.ModAPI.Ingame.None)||
+|static [`Owned`](Sandbox.ModAPI.Ingame.Owned)||
+|static [`Ally`](Sandbox.ModAPI.Ingame.Ally)||
+|static [`Neutral`](Sandbox.ModAPI.Ingame.Neutral)||
+|static [`Enemy`](Sandbox.ModAPI.Ingame.Enemy)||
+|static [`Everyone`](Sandbox.ModAPI.Ingame.Everyone)||
+|static [`Default`](Sandbox.ModAPI.Ingame.Default)||

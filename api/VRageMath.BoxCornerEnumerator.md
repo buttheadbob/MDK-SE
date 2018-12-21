@@ -5,10 +5,10 @@
 ### Properties
 |Member|Description|
 |---|---|
-|[`VRageMath.Vector3 Current`](VRageMath.Current)||
+|[`Current`](VRageMath.Current)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`void Add(System.Object)`](VRageMath.Add)||
-|[`bool MoveNext()`](VRageMath.MoveNext)||
-|[`VRageMath.BoxCornerEnumerator GetEnumerator()`](VRageMath.GetEnumerator)||
+|[`Add(Object)`](VRageMath.Add)||
+|[`MoveNext()`](VRageMath.MoveNext)||
+|[`GetEnumerator()`](VRageMath.GetEnumerator)||

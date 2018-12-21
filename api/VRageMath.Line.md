@@ -5,13 +5,13 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`VRageMath.Vector3 From`](VRageMath.From)||
-|[`VRageMath.Vector3 To`](VRageMath.To)||
-|[`VRageMath.Vector3 Direction`](VRageMath.Direction)||
-|[`float Length`](VRageMath.Length)||
-|[`VRageMath.BoundingBox BoundingBox`](VRageMath.BoundingBox)||
+|[`From`](VRageMath.From)||
+|[`To`](VRageMath.To)||
+|[`Direction`](VRageMath.Direction)||
+|[`Length`](VRageMath.Length)||
+|[`BoundingBox`](VRageMath.BoundingBox)||
 ### Methods
 |Member|Description|
 |---|---|
-|static [`float GetShortestDistanceSquared(VRageMath.Line, VRageMath.Line)`](VRageMath.GetShortestDistanceSquared)||
-|static [`VRageMath.Vector3 GetShortestVector(ref VRageMath.Line, ref VRageMath.Line, ref VRageMath.Vector3, ref VRageMath.Vector3)`](VRageMath.GetShortestVector)||
+|static [`GetShortestDistanceSquared(Line, Line)`](VRageMath.GetShortestDistanceSquared)||
+|static [`GetShortestVector(ref Line, ref Line, ref Vector3, ref Vector3)`](VRageMath.GetShortestVector)||

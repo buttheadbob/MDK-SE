@@ -5,7 +5,7 @@
 ### Properties
 |Member|Description|
 |---|---|
-|[`VRage.MyFixedPoint Amount`](VRage.Game.ModAPI.Ingame.Amount)||
-|[`float Scale`](VRage.Game.ModAPI.Ingame.Scale)||
-|[`VRage.ObjectBuilders.MyObjectBuilder_Base Content`](VRage.Game.ModAPI.Ingame.Content)||
-|[`uint ItemId`](VRage.Game.ModAPI.Ingame.ItemId)||
+|[`Amount`](VRage.Game.ModAPI.Ingame.Amount)||
+|[`Scale`](VRage.Game.ModAPI.Ingame.Scale)||
+|[`Content`](VRage.Game.ModAPI.Ingame.Content)||
+|[`ItemId`](VRage.Game.ModAPI.Ingame.ItemId)||

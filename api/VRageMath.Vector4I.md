@@ -5,17 +5,17 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`int X`](VRageMath.X)||
-|[`int Y`](VRageMath.Y)||
-|[`int Z`](VRageMath.Z)||
-|[`int W`](VRageMath.W)||
-|static [`VRageMath.EqualityComparer Comparer`](VRageMath.Comparer)||
+|[`X`](VRageMath.X)||
+|[`Y`](VRageMath.Y)||
+|[`Z`](VRageMath.Z)||
+|[`W`](VRageMath.W)||
+|static [`Comparer`](VRageMath.Comparer)||
 ### Properties
 |Member|Description|
 |---|---|
-|[`int Item`](VRageMath.Item)||
+|[`Item`](VRageMath.Item)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`int CompareTo(VRageMath.Vector4I)`](VRageMath.CompareTo)||
-|[`string ToString()`](VRageMath.ToString)||
+|[`CompareTo(Vector4I)`](VRageMath.CompareTo)||
+|[`ToString()`](VRageMath.ToString)||

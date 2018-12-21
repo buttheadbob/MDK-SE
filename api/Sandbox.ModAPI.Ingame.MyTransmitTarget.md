@@ -5,10 +5,10 @@
 ### Fields
 |Member|Description|
 |---|---|
-|static [`None`](Sandbox.ModAPI.Ingame.None)||
-|static [`Owned`](Sandbox.ModAPI.Ingame.Owned)||
-|static [`Ally`](Sandbox.ModAPI.Ingame.Ally)||
-|static [`Neutral`](Sandbox.ModAPI.Ingame.Neutral)||
-|static [`Enemy`](Sandbox.ModAPI.Ingame.Enemy)||
-|static [`Everyone`](Sandbox.ModAPI.Ingame.Everyone)||
-|static [`Default`](Sandbox.ModAPI.Ingame.Default)||
+|[`None`](Sandbox.ModAPI.Ingame.None)||
+|[`Owned`](Sandbox.ModAPI.Ingame.Owned)||
+|[`Ally`](Sandbox.ModAPI.Ingame.Ally)||
+|[`Neutral`](Sandbox.ModAPI.Ingame.Neutral)||
+|[`Enemy`](Sandbox.ModAPI.Ingame.Enemy)||
+|[`Everyone`](Sandbox.ModAPI.Ingame.Everyone)||
+|[`Default`](Sandbox.ModAPI.Ingame.Default)||

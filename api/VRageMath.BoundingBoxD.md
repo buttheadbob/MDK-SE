@@ -9,8 +9,8 @@ Defines an axis-aligned box-shaped 3D volume.
 |---|---|
 |[`Min`](VRageMath.Min)|The minimum point the BoundingBox contains.|
 |[`Max`](VRageMath.Max)|The maximum point the BoundingBox contains.|
-|static [`Comparer`](VRageMath.Comparer)||
-|static [`CornerCount`](VRageMath.CornerCount)|Specifies the total number of corners (8) in the BoundingBox.|
+|[`Comparer`](VRageMath.Comparer)||
+|[`CornerCount`](VRageMath.CornerCount)|Specifies the total number of corners (8) in the BoundingBox.|
 ### Properties
 |Member|Description|
 |---|---|
@@ -33,11 +33,11 @@ Defines an axis-aligned box-shaped 3D volume.
 |[`Equals(Object)`](VRageMath.Equals)|Determines whether two instances of BoundingBox are equal.|
 |[`GetHashCode()`](VRageMath.GetHashCode)|Gets the hash code for this instance.|
 |[`ToString()`](VRageMath.ToString)|Returns a String that represents the current BoundingBox.|
-|static [`CreateMerged(BoundingBoxD, BoundingBoxD)`](VRageMath.CreateMerged)|Creates the smallest BoundingBox that contains the two specified BoundingBox instances.|
-|static [`CreateMerged(ref BoundingBoxD, ref BoundingBoxD, ref BoundingBoxD)`](VRageMath.CreateMerged)|Creates the smallest BoundingBox that contains the two specified BoundingBox instances.|
-|static [`CreateFromSphere(BoundingSphereD)`](VRageMath.CreateFromSphere)|Creates the smallest BoundingBox that will contain the specified BoundingSphere.|
-|static [`CreateFromSphere(ref BoundingSphereD, ref BoundingBoxD)`](VRageMath.CreateFromSphere)|Creates the smallest BoundingBox that will contain the specified BoundingSphere.|
-|static [`CreateFromPoints(IEnumerable<Vector3D>)`](VRageMath.CreateFromPoints)|Creates the smallest BoundingBox that will contain a group of points.|
+|[`CreateMerged(BoundingBoxD, BoundingBoxD)`](VRageMath.CreateMerged)|Creates the smallest BoundingBox that contains the two specified BoundingBox instances.|
+|[`CreateMerged(ref BoundingBoxD, ref BoundingBoxD, ref BoundingBoxD)`](VRageMath.CreateMerged)|Creates the smallest BoundingBox that contains the two specified BoundingBox instances.|
+|[`CreateFromSphere(BoundingSphereD)`](VRageMath.CreateFromSphere)|Creates the smallest BoundingBox that will contain the specified BoundingSphere.|
+|[`CreateFromSphere(ref BoundingSphereD, ref BoundingBoxD)`](VRageMath.CreateFromSphere)|Creates the smallest BoundingBox that will contain the specified BoundingSphere.|
+|[`CreateFromPoints(IEnumerable<Vector3D>)`](VRageMath.CreateFromPoints)|Creates the smallest BoundingBox that will contain a group of points.|
 |[`Intersect(BoundingBoxD)`](VRageMath.Intersect)|Returns bounding box which is intersection of this and box It's called 'Prunik' Result is invalid box when there's no intersection (Min > Max)|
 |[`Intersects(BoundingBoxD)`](VRageMath.Intersects)|Checks whether the current BoundingBox intersects another BoundingBox.|
 |[`Intersects(ref BoundingBoxD)`](VRageMath.Intersects)||
@@ -86,7 +86,7 @@ Defines an axis-aligned box-shaped 3D volume.
 |[`Include(BoundingSphereD)`](VRageMath.Include)||
 |[`Include(ref BoundingSphereD)`](VRageMath.Include)||
 |[`Include(ref BoundingFrustumD)`](VRageMath.Include)||
-|static [`CreateInvalid()`](VRageMath.CreateInvalid)||
+|[`CreateInvalid()`](VRageMath.CreateInvalid)||
 |[`ProjectedArea(Vector3D)`](VRageMath.ProjectedArea)||
 |[`Inflate(double)`](VRageMath.Inflate)||
 |[`Inflate(Vector3)`](VRageMath.Inflate)||

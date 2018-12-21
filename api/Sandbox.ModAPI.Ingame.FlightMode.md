@@ -5,6 +5,6 @@
 ### Fields
 |Member|Description|
 |---|---|
-|static [`Patrol`](Sandbox.ModAPI.Ingame.Patrol)||
-|static [`Circle`](Sandbox.ModAPI.Ingame.Circle)||
-|static [`OneWay`](Sandbox.ModAPI.Ingame.OneWay)||
+|[`Patrol`](Sandbox.ModAPI.Ingame.Patrol)||
+|[`Circle`](Sandbox.ModAPI.Ingame.Circle)||
+|[`OneWay`](Sandbox.ModAPI.Ingame.OneWay)||

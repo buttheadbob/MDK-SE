@@ -5,9 +5,9 @@
 ### Fields
 |Member|Description|
 |---|---|
-|static [`Left`](VRageMath.Left)||
-|static [`Right`](VRageMath.Right)||
-|static [`Up`](VRageMath.Up)||
-|static [`Down`](VRageMath.Down)||
-|static [`Forward`](VRageMath.Forward)||
-|static [`Backward`](VRageMath.Backward)||
+|[`Left`](VRageMath.Left)||
+|[`Right`](VRageMath.Right)||
+|[`Up`](VRageMath.Up)||
+|[`Down`](VRageMath.Down)||
+|[`Forward`](VRageMath.Forward)||
+|[`Backward`](VRageMath.Backward)||

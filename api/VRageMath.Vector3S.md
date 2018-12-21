@@ -8,16 +8,16 @@
 |[`X`](VRageMath.X)||
 |[`Y`](VRageMath.Y)||
 |[`Z`](VRageMath.Z)||
-|static [`Up`](VRageMath.Up)||
-|static [`Down`](VRageMath.Down)||
-|static [`Right`](VRageMath.Right)||
-|static [`Left`](VRageMath.Left)||
-|static [`Forward`](VRageMath.Forward)||
-|static [`Backward`](VRageMath.Backward)||
+|[`Up`](VRageMath.Up)||
+|[`Down`](VRageMath.Down)||
+|[`Right`](VRageMath.Right)||
+|[`Left`](VRageMath.Left)||
+|[`Forward`](VRageMath.Forward)||
+|[`Backward`](VRageMath.Backward)||
 ### Methods
 |Member|Description|
 |---|---|
 |[`ToString()`](VRageMath.ToString)||
 |[`GetHashCode()`](VRageMath.GetHashCode)||
 |[`Equals(Object)`](VRageMath.Equals)||
-|static [`Round(Vector3)`](VRageMath.Round)||
+|[`Round(Vector3)`](VRageMath.Round)||

@@ -17,10 +17,10 @@ Defines a PlaneD.
 |[`GetHashCode()`](VRageMath.GetHashCode)|Gets the hash code for this object.|
 |[`ToString()`](VRageMath.ToString)|Returns a String that represents the current PlaneD.|
 |[`Normalize()`](VRageMath.Normalize)|Changes the coefficients of the Normal vector of this PlaneD to make it of unit length.|
-|static [`Normalize(PlaneD)`](VRageMath.Normalize)|Changes the coefficients of the Normal vector of a PlaneD to make it of unit length.|
-|static [`Normalize(ref PlaneD, ref PlaneD)`](VRageMath.Normalize)|Changes the coefficients of the Normal vector of a PlaneD to make it of unit length.|
-|static [`Transform(PlaneD, MatrixD)`](VRageMath.Transform)|Transforms a normalized PlaneD by a Matrix.|
-|static [`Transform(ref PlaneD, ref MatrixD, ref PlaneD)`](VRageMath.Transform)|Transforms a normalized PlaneD by a Matrix.|
+|[`Normalize(PlaneD)`](VRageMath.Normalize)|Changes the coefficients of the Normal vector of a PlaneD to make it of unit length.|
+|[`Normalize(ref PlaneD, ref PlaneD)`](VRageMath.Normalize)|Changes the coefficients of the Normal vector of a PlaneD to make it of unit length.|
+|[`Transform(PlaneD, MatrixD)`](VRageMath.Transform)|Transforms a normalized PlaneD by a Matrix.|
+|[`Transform(ref PlaneD, ref MatrixD, ref PlaneD)`](VRageMath.Transform)|Transforms a normalized PlaneD by a Matrix.|
 |[`Dot(Vector4)`](VRageMath.Dot)|Calculates the dot product of a specified Vector4 and this PlaneD.|
 |[`Dot(ref Vector4, ref double)`](VRageMath.Dot)|Calculates the dot product of a specified Vector4 and this PlaneD.|
 |[`DotCoordinate(Vector3D)`](VRageMath.DotCoordinate)|Returns the dot product of a specified Vector3D and the Normal vector of this PlaneD plus the distance (D) value of the PlaneD.|

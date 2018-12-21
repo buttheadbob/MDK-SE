@@ -8,26 +8,26 @@
 |[`Center`](VRageMath.Center)||
 |[`HalfExtent`](VRageMath.HalfExtent)||
 |[`Orientation`](VRageMath.Orientation)||
-|static [`StartVertices`](VRageMath.StartVertices)||
-|static [`EndVertices`](VRageMath.EndVertices)||
-|static [`StartXVertices`](VRageMath.StartXVertices)||
-|static [`EndXVertices`](VRageMath.EndXVertices)||
-|static [`StartYVertices`](VRageMath.StartYVertices)||
-|static [`EndYVertices`](VRageMath.EndYVertices)||
-|static [`StartZVertices`](VRageMath.StartZVertices)||
-|static [`EndZVertices`](VRageMath.EndZVertices)||
-|static [`XNeighbourVectorsBack`](VRageMath.XNeighbourVectorsBack)||
-|static [`XNeighbourVectorsForw`](VRageMath.XNeighbourVectorsForw)||
-|static [`YNeighbourVectorsBack`](VRageMath.YNeighbourVectorsBack)||
-|static [`YNeighbourVectorsForw`](VRageMath.YNeighbourVectorsForw)||
-|static [`ZNeighbourVectorsBack`](VRageMath.ZNeighbourVectorsBack)||
-|static [`ZNeighbourVectorsForw`](VRageMath.ZNeighbourVectorsForw)||
-|static [`CornerCount`](VRageMath.CornerCount)||
+|[`StartVertices`](VRageMath.StartVertices)||
+|[`EndVertices`](VRageMath.EndVertices)||
+|[`StartXVertices`](VRageMath.StartXVertices)||
+|[`EndXVertices`](VRageMath.EndXVertices)||
+|[`StartYVertices`](VRageMath.StartYVertices)||
+|[`EndYVertices`](VRageMath.EndYVertices)||
+|[`StartZVertices`](VRageMath.StartZVertices)||
+|[`EndZVertices`](VRageMath.EndZVertices)||
+|[`XNeighbourVectorsBack`](VRageMath.XNeighbourVectorsBack)||
+|[`XNeighbourVectorsForw`](VRageMath.XNeighbourVectorsForw)||
+|[`YNeighbourVectorsBack`](VRageMath.YNeighbourVectorsBack)||
+|[`YNeighbourVectorsForw`](VRageMath.YNeighbourVectorsForw)||
+|[`ZNeighbourVectorsBack`](VRageMath.ZNeighbourVectorsBack)||
+|[`ZNeighbourVectorsForw`](VRageMath.ZNeighbourVectorsForw)||
+|[`CornerCount`](VRageMath.CornerCount)||
 ### Methods
 |Member|Description|
 |---|---|
-|static [`GetNormalBetweenEdges(int, int, int, ref Vector3)`](VRageMath.GetNormalBetweenEdges)|Returns normal between two cube edge of same direction|
-|static [`CreateFromBoundingBox(BoundingBoxD)`](VRageMath.CreateFromBoundingBox)||
+|[`GetNormalBetweenEdges(int, int, int, ref Vector3)`](VRageMath.GetNormalBetweenEdges)|Returns normal between two cube edge of same direction|
+|[`CreateFromBoundingBox(BoundingBoxD)`](VRageMath.CreateFromBoundingBox)||
 |[`Transform(Quaternion, Vector3D)`](VRageMath.Transform)||
 |[`Transform(float, Quaternion, Vector3D)`](VRageMath.Transform)||
 |[`Transform(MatrixD)`](VRageMath.Transform)||
@@ -39,22 +39,22 @@
 |[`Intersects(ref BoundingBoxD)`](VRageMath.Intersects)||
 |[`Contains(ref BoundingBox)`](VRageMath.Contains)||
 |[`Contains(ref BoundingBoxD)`](VRageMath.Contains)||
-|static [`Contains(ref BoundingBox, ref MyOrientedBoundingBox)`](VRageMath.Contains)||
+|[`Contains(ref BoundingBox, ref MyOrientedBoundingBox)`](VRageMath.Contains)||
 |[`Intersects(ref MyOrientedBoundingBoxD)`](VRageMath.Intersects)||
 |[`Contains(ref MyOrientedBoundingBoxD)`](VRageMath.Contains)||
 |[`Contains(BoundingFrustumD)`](VRageMath.Contains)||
 |[`Intersects(BoundingFrustumD)`](VRageMath.Intersects)||
-|static [`Contains(BoundingFrustumD, ref MyOrientedBoundingBoxD)`](VRageMath.Contains)||
+|[`Contains(BoundingFrustumD, ref MyOrientedBoundingBoxD)`](VRageMath.Contains)||
 |[`Contains(ref BoundingSphereD)`](VRageMath.Contains)||
 |[`Intersects(ref BoundingSphereD)`](VRageMath.Intersects)||
-|static [`Contains(ref BoundingSphere, ref MyOrientedBoundingBox)`](VRageMath.Contains)||
+|[`Contains(ref BoundingSphere, ref MyOrientedBoundingBox)`](VRageMath.Contains)||
 |[`Contains(ref Vector3)`](VRageMath.Contains)||
 |[`Contains(ref Vector3D)`](VRageMath.Contains)||
 |[`Intersects(ref RayD)`](VRageMath.Intersects)||
 |[`Intersects(ref LineD)`](VRageMath.Intersects)||
 |[`Intersects(ref PlaneD)`](VRageMath.Intersects)||
 |[`GetCorners(Vector3D[], int)`](VRageMath.GetCorners)||
-|static [`ContainsRelativeBox(ref Vector3D, ref Vector3D, ref MatrixD)`](VRageMath.ContainsRelativeBox)||
+|[`ContainsRelativeBox(ref Vector3D, ref Vector3D, ref MatrixD)`](VRageMath.ContainsRelativeBox)||
 |[`ConvertToFrustum()`](VRageMath.ConvertToFrustum)||
 |[`GetAABB()`](VRageMath.GetAABB)||
-|static [`Create(BoundingBoxD, MatrixD)`](VRageMath.Create)||
+|[`Create(BoundingBoxD, MatrixD)`](VRageMath.Create)||

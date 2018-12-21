@@ -12,12 +12,12 @@
 |[`GetEntityReplicableExistsById`](VRageMath.Spatial.GetEntityReplicableExistsById)||
 |[`SingleCluster`](VRageMath.Spatial.SingleCluster)||
 |[`ForcedClusters`](VRageMath.Spatial.ForcedClusters)||
-|static [`IdealClusterSize`](VRageMath.Spatial.IdealClusterSize)||
-|static [`IdealClusterSizeHalfSqr`](VRageMath.Spatial.IdealClusterSizeHalfSqr)||
-|static [`MinimumDistanceFromBorder`](VRageMath.Spatial.MinimumDistanceFromBorder)||
-|static [`MaximumForSplit`](VRageMath.Spatial.MaximumForSplit)||
-|static [`MaximumClusterSize`](VRageMath.Spatial.MaximumClusterSize)||
-|static [`CLUSTERED_OBJECT_ID_UNITIALIZED`](VRageMath.Spatial.CLUSTERED_OBJECT_ID_UNITIALIZED)||
+|[`IdealClusterSize`](VRageMath.Spatial.IdealClusterSize)||
+|[`IdealClusterSizeHalfSqr`](VRageMath.Spatial.IdealClusterSizeHalfSqr)||
+|[`MinimumDistanceFromBorder`](VRageMath.Spatial.MinimumDistanceFromBorder)||
+|[`MaximumForSplit`](VRageMath.Spatial.MaximumForSplit)||
+|[`MaximumClusterSize`](VRageMath.Spatial.MaximumClusterSize)||
+|[`CLUSTERED_OBJECT_ID_UNITIALIZED`](VRageMath.Spatial.CLUSTERED_OBJECT_ID_UNITIALIZED)||
 ### Properties
 |Member|Description|
 |---|---|
@@ -26,7 +26,7 @@
 |Member|Description|
 |---|---|
 |[`AddObject(BoundingBoxD, IMyActivationHandler, Nullable<ulong>, string, long, bool)`](VRageMath.Spatial.AddObject)||
-|static [`AdjustAABBByVelocity(BoundingBoxD, Vector3, float)`](VRageMath.Spatial.AdjustAABBByVelocity)||
+|[`AdjustAABBByVelocity(BoundingBoxD, Vector3, float)`](VRageMath.Spatial.AdjustAABBByVelocity)||
 |[`MoveObject(ulong, BoundingBoxD, Vector3)`](VRageMath.Spatial.MoveObject)||
 |[`EnsureClusterSpace(BoundingBoxD)`](VRageMath.Spatial.EnsureClusterSpace)||
 |[`RemoveObject(ulong)`](VRageMath.Spatial.RemoveObject)||

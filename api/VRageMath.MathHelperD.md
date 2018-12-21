@@ -7,19 +7,19 @@ Contains commonly used precalculated values.
 ### Fields
 |Member|Description|
 |---|---|
-|static [`E`](VRageMath.E)|Represents the mathematical constant e.|
-|static [`Pi`](VRageMath.Pi)|Represents the value of pi.|
-|static [`TwoPi`](VRageMath.TwoPi)|Represents the value of pi times two.|
-|static [`FourPi`](VRageMath.FourPi)|Represents the value of pi times four.|
-|static [`PiOver2`](VRageMath.PiOver2)|Represents the value of pi divided by two.|
-|static [`PiOver4`](VRageMath.PiOver4)|Represents the value of pi divided by four.|
+|[`E`](VRageMath.E)|Represents the mathematical constant e.|
+|[`Pi`](VRageMath.Pi)|Represents the value of pi.|
+|[`TwoPi`](VRageMath.TwoPi)|Represents the value of pi times two.|
+|[`FourPi`](VRageMath.FourPi)|Represents the value of pi times four.|
+|[`PiOver2`](VRageMath.PiOver2)|Represents the value of pi divided by two.|
+|[`PiOver4`](VRageMath.PiOver4)|Represents the value of pi divided by four.|
 ### Methods
 |Member|Description|
 |---|---|
-|static [`ToRadians(double)`](VRageMath.ToRadians)|Converts degrees to radians.|
-|static [`ToDegrees(double)`](VRageMath.ToDegrees)|Converts radians to degrees.|
-|static [`Distance(double, double)`](VRageMath.Distance)|Calculates the absolute value of the difference of two values.|
-|static [`Min(double, double)`](VRageMath.Min)|Returns the lesser of two values.|
-|static [`Max(double, double)`](VRageMath.Max)|Returns the greater of two values.|
-|static [`Clamp(double, double, double)`](VRageMath.Clamp)|Restricts a value to be within a specified range. Reference page contains links to related code samples.|
-|static [`MonotonicAcos(float)`](VRageMath.MonotonicAcos)||
+|[`ToRadians(double)`](VRageMath.ToRadians)|Converts degrees to radians.|
+|[`ToDegrees(double)`](VRageMath.ToDegrees)|Converts radians to degrees.|
+|[`Distance(double, double)`](VRageMath.Distance)|Calculates the absolute value of the difference of two values.|
+|[`Min(double, double)`](VRageMath.Min)|Returns the lesser of two values.|
+|[`Max(double, double)`](VRageMath.Max)|Returns the greater of two values.|
+|[`Clamp(double, double, double)`](VRageMath.Clamp)|Restricts a value to be within a specified range. Reference page contains links to related code samples.|
+|[`MonotonicAcos(float)`](VRageMath.MonotonicAcos)||

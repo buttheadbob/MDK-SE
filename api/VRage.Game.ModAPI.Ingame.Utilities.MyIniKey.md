@@ -7,7 +7,7 @@ Represents the combination of a section and a key in a [MyIni](VRage.Game.ModAPI
 ### Fields
 |Member|Description|
 |---|---|
-|static [`EMPTY`](VRage.Game.ModAPI.Ingame.Utilities.EMPTY)||
+|[`EMPTY`](VRage.Game.ModAPI.Ingame.Utilities.EMPTY)||
 ### Properties
 |Member|Description|
 |---|---|
@@ -17,8 +17,8 @@ Represents the combination of a section and a key in a [MyIni](VRage.Game.ModAPI
 ### Methods
 |Member|Description|
 |---|---|
-|static [`TryParse(string, ref MyIniKey)`](VRage.Game.ModAPI.Ingame.Utilities.TryParse)|Parses a string in the form of`section/key`into a [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) object.|
-|static [`Parse(string)`](VRage.Game.ModAPI.Ingame.Utilities.Parse)|Parses a string in the form of`section/key`into a [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) object.|
+|[`TryParse(string, ref MyIniKey)`](VRage.Game.ModAPI.Ingame.Utilities.TryParse)|Parses a string in the form of`section/key`into a [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) object.|
+|[`Parse(string)`](VRage.Game.ModAPI.Ingame.Utilities.Parse)|Parses a string in the form of`section/key`into a [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) object.|
 |[`Equals(MyIniKey)`](VRage.Game.ModAPI.Ingame.Utilities.Equals)|Compares this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) with another. Note that this is equality in the sense of a configuration key, which means the comparison is implicitly case insensitive.|
 |[`Equals(Object)`](VRage.Game.ModAPI.Ingame.Utilities.Equals)|Compares this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) with another. Note that this is equality in the sense of a configuration key, which means the comparison is implicitly case insensitive.|
 |[`GetHashCode()`](VRage.Game.ModAPI.Ingame.Utilities.GetHashCode)|Gets the hash code representing this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey)|

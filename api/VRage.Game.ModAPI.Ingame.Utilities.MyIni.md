@@ -96,7 +96,7 @@ This class is NOT THREAD SAFE as it's optimized for programmable block use.
 ### Methods
 |Member|Description|
 |---|---|
-|static [`HasSection(string, string)`](VRage.Game.ModAPI.Ingame.Utilities.HasSection)|Determines if the given configuration contains what looks like the given section. It does not verify that the content is actually in a valid format, just if there's a line starting with [section].|
+|[`HasSection(string, string)`](VRage.Game.ModAPI.Ingame.Utilities.HasSection)|Determines if the given configuration contains what looks like the given section. It does not verify that the content is actually in a valid format, just if there's a line starting with [section].|
 |[`ContainsSection(string)`](VRage.Game.ModAPI.Ingame.Utilities.ContainsSection)|Determines whether a section of a given name exists in the currently parsed configuration.|
 |[`ContainsKey(string, string)`](VRage.Game.ModAPI.Ingame.Utilities.ContainsKey)|Determines whether a configuration key (section/key) exists in the currently parsed configuration.|
 |[`ContainsKey(MyIniKey)`](VRage.Game.ModAPI.Ingame.Utilities.ContainsKey)|Determines whether a configuration key (section/key) exists in the currently parsed configuration.|

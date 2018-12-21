@@ -17,6 +17,6 @@
 |Member|Description|
 |---|---|
 |[`ToString()`](VRageMath.ToString)||
-|static [`Round(Vector3)`](VRageMath.Round)||
-|static [`Round(Vector4)`](VRageMath.Round)||
-|static [`Normalize(Vector3, float)`](VRageMath.Normalize)|Normalizes Vector3 into Vector4UByte, scales vector from (-range, range) to (0, 255)|
+|[`Round(Vector3)`](VRageMath.Round)||
+|[`Round(Vector4)`](VRageMath.Round)||
+|[`Normalize(Vector3, float)`](VRageMath.Normalize)|Normalizes Vector3 into Vector4UByte, scales vector from (-range, range) to (0, 255)|

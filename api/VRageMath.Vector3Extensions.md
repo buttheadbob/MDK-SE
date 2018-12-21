@@ -7,4 +7,4 @@ Usefull Vector3 extensions
 ### Methods
 |Member|Description|
 |---|---|
-|static [`Project(Vector3, Vector3)`](VRageMath.Project)|Calculates projection vector|
+|[`Project(Vector3, Vector3)`](VRageMath.Project)|Calculates projection vector|

@@ -5,7 +5,7 @@
 ### Fields
 |Member|Description|
 |---|---|
-|static [`Empty`](VRage.Collections.Empty)||
+|[`Empty`](VRage.Collections.Empty)||
 ### Properties
 |Member|Description|
 |---|---|

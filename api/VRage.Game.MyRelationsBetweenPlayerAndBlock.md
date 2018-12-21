@@ -5,8 +5,8 @@
 ### Fields
 |Member|Description|
 |---|---|
-|static [`NoOwnership`](VRage.Game.NoOwnership)||
-|static [`Owner`](VRage.Game.Owner)||
-|static [`FactionShare`](VRage.Game.FactionShare)||
-|static [`Neutral`](VRage.Game.Neutral)||
-|static [`Enemies`](VRage.Game.Enemies)||
+|[`NoOwnership`](VRage.Game.NoOwnership)||
+|[`Owner`](VRage.Game.Owner)||
+|[`FactionShare`](VRage.Game.FactionShare)||
+|[`Neutral`](VRage.Game.Neutral)||
+|[`Enemies`](VRage.Game.Enemies)||

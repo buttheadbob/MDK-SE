@@ -5,6 +5,6 @@
 ### Fields
 |Member|Description|
 |---|---|
-|static [`Unlocked`](SpaceEngineers.Game.ModAPI.Ingame.Unlocked)||
-|static [`ReadyToLock`](SpaceEngineers.Game.ModAPI.Ingame.ReadyToLock)||
-|static [`Locked`](SpaceEngineers.Game.ModAPI.Ingame.Locked)||
+|[`Unlocked`](SpaceEngineers.Game.ModAPI.Ingame.Unlocked)||
+|[`ReadyToLock`](SpaceEngineers.Game.ModAPI.Ingame.ReadyToLock)||
+|[`Locked`](SpaceEngineers.Game.ModAPI.Ingame.Locked)||

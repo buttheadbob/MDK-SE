@@ -9,7 +9,7 @@ Defines an axis-aligned box-shaped 3D volume.
 |---|---|
 |[`Min`](VRageMath.Min)|The minimum point the BoundingBox2I contains.|
 |[`Max`](VRageMath.Max)|The maximum point the BoundingBox2I contains.|
-|static [`CornerCount`](VRageMath.CornerCount)|Specifies the total number of corners (8) in the BoundingBox2I.|
+|[`CornerCount`](VRageMath.CornerCount)|Specifies the total number of corners (8) in the BoundingBox2I.|
 ### Properties
 |Member|Description|
 |---|---|
@@ -29,11 +29,11 @@ Defines an axis-aligned box-shaped 3D volume.
 |[`Equals(Object)`](VRageMath.Equals)|Determines whether two instances of BoundingBox2I are equal.|
 |[`GetHashCode()`](VRageMath.GetHashCode)|Gets the hash code for this instance.|
 |[`ToString()`](VRageMath.ToString)|Returns a String that represents the current BoundingBox2I.|
-|static [`CreateMerged(BoundingBox2I, BoundingBox2I)`](VRageMath.CreateMerged)|Creates the smallest BoundingBox2I that contains the two specified BoundingBox2I instances.|
-|static [`CreateMerged(ref BoundingBox2I, ref BoundingBox2I, ref BoundingBox2I)`](VRageMath.CreateMerged)|Creates the smallest BoundingBox2I that contains the two specified BoundingBox2I instances.|
-|static [`CreateFromPoints(IEnumerable<Vector2I>)`](VRageMath.CreateFromPoints)|Creates the smallest BoundingBox2I that will contain a group of points.|
-|static [`CreateFromHalfExtent(Vector2I, int)`](VRageMath.CreateFromHalfExtent)||
-|static [`CreateFromHalfExtent(Vector2I, Vector2I)`](VRageMath.CreateFromHalfExtent)||
+|[`CreateMerged(BoundingBox2I, BoundingBox2I)`](VRageMath.CreateMerged)|Creates the smallest BoundingBox2I that contains the two specified BoundingBox2I instances.|
+|[`CreateMerged(ref BoundingBox2I, ref BoundingBox2I, ref BoundingBox2I)`](VRageMath.CreateMerged)|Creates the smallest BoundingBox2I that contains the two specified BoundingBox2I instances.|
+|[`CreateFromPoints(IEnumerable<Vector2I>)`](VRageMath.CreateFromPoints)|Creates the smallest BoundingBox2I that will contain a group of points.|
+|[`CreateFromHalfExtent(Vector2I, int)`](VRageMath.CreateFromHalfExtent)||
+|[`CreateFromHalfExtent(Vector2I, Vector2I)`](VRageMath.CreateFromHalfExtent)||
 |[`Intersect(BoundingBox2I)`](VRageMath.Intersect)|Returns bounding box which is intersection of this and box It's called 'Prunik' Result is invalid box when there's no intersection (Min > Max)|
 |[`Intersects(BoundingBox2I)`](VRageMath.Intersects)|Checks whether the current BoundingBox2I intersects another BoundingBox2I.|
 |[`Intersects(ref BoundingBox2I)`](VRageMath.Intersects)||
@@ -50,7 +50,7 @@ Defines an axis-aligned box-shaped 3D volume.
 |[`Include(ref Vector2I, ref Vector2I, ref Vector2I)`](VRageMath.Include)||
 |[`Include(ref BoundingBox2I)`](VRageMath.Include)|return expanded aabb (abb include point)|
 |[`Include(BoundingBox2I)`](VRageMath.Include)||
-|static [`CreateInvalid()`](VRageMath.CreateInvalid)||
+|[`CreateInvalid()`](VRageMath.CreateInvalid)||
 |[`Perimeter()`](VRageMath.Perimeter)||
 |[`Area()`](VRageMath.Area)||
 |[`Inflate(int)`](VRageMath.Inflate)||

@@ -16,12 +16,12 @@ Defines a sphere.
 |[`Equals(Object)`](VRageMath.Equals)|Determines whether the specified Object is equal to the BoundingSphere.|
 |[`GetHashCode()`](VRageMath.GetHashCode)|Gets the hash code for this instance.|
 |[`ToString()`](VRageMath.ToString)|Returns a String that represents the current BoundingSphere.|
-|static [`CreateMerged(BoundingSphere, BoundingSphere)`](VRageMath.CreateMerged)|Creates a BoundingSphere that contains the two specified BoundingSphere instances.|
-|static [`CreateMerged(ref BoundingSphere, ref BoundingSphere, ref BoundingSphere)`](VRageMath.CreateMerged)|Creates a BoundingSphere that contains the two specified BoundingSphere instances.|
-|static [`CreateFromBoundingBox(BoundingBox)`](VRageMath.CreateFromBoundingBox)|Creates the smallest BoundingSphere that can contain a specified BoundingBox.|
-|static [`CreateFromBoundingBox(ref BoundingBox, ref BoundingSphere)`](VRageMath.CreateFromBoundingBox)|Creates the smallest BoundingSphere that can contain a specified BoundingBox.|
-|static [`CreateFromPoints(IEnumerable<Vector3>)`](VRageMath.CreateFromPoints)|Creates a BoundingSphere that can contain a specified list of points.|
-|static [`CreateFromFrustum(BoundingFrustum)`](VRageMath.CreateFromFrustum)|Creates the smallest BoundingSphere that can contain a specified BoundingFrustum.|
+|[`CreateMerged(BoundingSphere, BoundingSphere)`](VRageMath.CreateMerged)|Creates a BoundingSphere that contains the two specified BoundingSphere instances.|
+|[`CreateMerged(ref BoundingSphere, ref BoundingSphere, ref BoundingSphere)`](VRageMath.CreateMerged)|Creates a BoundingSphere that contains the two specified BoundingSphere instances.|
+|[`CreateFromBoundingBox(BoundingBox)`](VRageMath.CreateFromBoundingBox)|Creates the smallest BoundingSphere that can contain a specified BoundingBox.|
+|[`CreateFromBoundingBox(ref BoundingBox, ref BoundingSphere)`](VRageMath.CreateFromBoundingBox)|Creates the smallest BoundingSphere that can contain a specified BoundingBox.|
+|[`CreateFromPoints(IEnumerable<Vector3>)`](VRageMath.CreateFromPoints)|Creates a BoundingSphere that can contain a specified list of points.|
+|[`CreateFromFrustum(BoundingFrustum)`](VRageMath.CreateFromFrustum)|Creates the smallest BoundingSphere that can contain a specified BoundingFrustum.|
 |[`Intersects(BoundingBox)`](VRageMath.Intersects)|Checks whether the current BoundingSphere intersects with a specified BoundingBox.|
 |[`Intersects(ref BoundingBox, ref bool)`](VRageMath.Intersects)|Checks whether the current BoundingSphere intersects a BoundingBox.|
 |[`Intersects(BoundingFrustum)`](VRageMath.Intersects)|Checks whether the current BoundingSphere intersects with a specified BoundingFrustum.|
@@ -43,5 +43,5 @@ Defines a sphere.
 |[`Translate(ref Vector3)`](VRageMath.Translate)||
 |[`IntersectRaySphere(Ray, ref float, ref float)`](VRageMath.IntersectRaySphere)||
 |[`Include(BoundingSphere)`](VRageMath.Include)||
-|static [`Include(ref BoundingSphere, ref BoundingSphere)`](VRageMath.Include)||
-|static [`CreateInvalid()`](VRageMath.CreateInvalid)||
+|[`Include(ref BoundingSphere, ref BoundingSphere)`](VRageMath.Include)||
+|[`CreateInvalid()`](VRageMath.CreateInvalid)||

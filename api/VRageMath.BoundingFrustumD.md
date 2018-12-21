@@ -7,7 +7,7 @@ Defines a frustum and helps determine whether forms intersect with it.
 ### Fields
 |Member|Description|
 |---|---|
-|static [`CornerCount`](VRageMath.CornerCount)|Specifies the total number of corners (8) in the BoundingFrustumD.|
+|[`CornerCount`](VRageMath.CornerCount)|Specifies the total number of corners (8) in the BoundingFrustumD.|
 ### Properties
 |Member|Description|
 |---|---|

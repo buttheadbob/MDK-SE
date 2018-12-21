@@ -14,7 +14,7 @@
 ### Methods
 |Member|Description|
 |---|---|
-|static [`Transform(ref MyTransformD, ref MyTransformD)`](VRageMath.Transform)||
-|static [`Transform(ref MyTransformD, ref MyTransformD, ref MyTransformD)`](VRageMath.Transform)||
-|static [`Transform(ref Vector3D, ref MyTransformD)`](VRageMath.Transform)||
-|static [`Transform(ref Vector3D, ref MyTransformD, ref Vector3D)`](VRageMath.Transform)||
+|[`Transform(ref MyTransformD, ref MyTransformD)`](VRageMath.Transform)||
+|[`Transform(ref MyTransformD, ref MyTransformD, ref MyTransformD)`](VRageMath.Transform)||
+|[`Transform(ref Vector3D, ref MyTransformD)`](VRageMath.Transform)||
+|[`Transform(ref Vector3D, ref MyTransformD, ref Vector3D)`](VRageMath.Transform)||

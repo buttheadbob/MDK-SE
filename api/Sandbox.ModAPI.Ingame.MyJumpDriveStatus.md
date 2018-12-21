@@ -5,6 +5,6 @@
 ### Fields
 |Member|Description|
 |---|---|
-|static [`Charging`](Sandbox.ModAPI.Ingame.Charging)||
-|static [`Ready`](Sandbox.ModAPI.Ingame.Ready)||
-|static [`Jumping`](Sandbox.ModAPI.Ingame.Jumping)||
+|[`Charging`](Sandbox.ModAPI.Ingame.Charging)||
+|[`Ready`](Sandbox.ModAPI.Ingame.Ready)||
+|[`Jumping`](Sandbox.ModAPI.Ingame.Jumping)||

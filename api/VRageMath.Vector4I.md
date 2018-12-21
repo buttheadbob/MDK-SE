@@ -9,7 +9,7 @@
 |[`Y`](VRageMath.Y)||
 |[`Z`](VRageMath.Z)||
 |[`W`](VRageMath.W)||
-|static [`Comparer`](VRageMath.Comparer)||
+|[`Comparer`](VRageMath.Comparer)||
 ### Properties
 |Member|Description|
 |---|---|

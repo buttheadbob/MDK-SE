@@ -7,4 +7,4 @@
 |---|---|
 |[`Distance`](VRageMath.Distance)||
 |[`Element`](VRageMath.Element)||
-|static [`DistanceComparer`](VRageMath.DistanceComparer)||
+|[`DistanceComparer`](VRageMath.DistanceComparer)||

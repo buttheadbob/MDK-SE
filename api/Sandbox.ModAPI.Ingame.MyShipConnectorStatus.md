@@ -7,6 +7,6 @@ Describes the current status of the connector.
 ### Fields
 |Member|Description|
 |---|---|
-|static [`Unconnected`](Sandbox.ModAPI.Ingame.Unconnected)|This connector is not connected to anything, nor is it near anything connectable.|
-|static [`Connectable`](Sandbox.ModAPI.Ingame.Connectable)|This connector is currently near something that it can connect to.|
-|static [`Connected`](Sandbox.ModAPI.Ingame.Connected)|This connector is currently connected to something.|
+|[`Unconnected`](Sandbox.ModAPI.Ingame.Unconnected)|This connector is not connected to anything, nor is it near anything connectable.|
+|[`Connectable`](Sandbox.ModAPI.Ingame.Connectable)|This connector is currently near something that it can connect to.|
+|[`Connected`](Sandbox.ModAPI.Ingame.Connected)|This connector is currently connected to something.|

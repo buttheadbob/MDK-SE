@@ -17,10 +17,10 @@ Defines a plane.
 |[`GetHashCode()`](VRageMath.GetHashCode)|Gets the hash code for this object.|
 |[`ToString()`](VRageMath.ToString)|Returns a String that represents the current Plane.|
 |[`Normalize()`](VRageMath.Normalize)|Changes the coefficients of the Normal vector of this Plane to make it of unit length.|
-|static [`Normalize(Plane)`](VRageMath.Normalize)|Changes the coefficients of the Normal vector of a Plane to make it of unit length.|
-|static [`Normalize(ref Plane, ref Plane)`](VRageMath.Normalize)|Changes the coefficients of the Normal vector of a Plane to make it of unit length.|
-|static [`Transform(Plane, Matrix)`](VRageMath.Transform)|Transforms a normalized Plane by a Matrix.|
-|static [`Transform(ref Plane, ref Matrix, ref Plane)`](VRageMath.Transform)|Transforms a normalized Plane by a Matrix.|
+|[`Normalize(Plane)`](VRageMath.Normalize)|Changes the coefficients of the Normal vector of a Plane to make it of unit length.|
+|[`Normalize(ref Plane, ref Plane)`](VRageMath.Normalize)|Changes the coefficients of the Normal vector of a Plane to make it of unit length.|
+|[`Transform(Plane, Matrix)`](VRageMath.Transform)|Transforms a normalized Plane by a Matrix.|
+|[`Transform(ref Plane, ref Matrix, ref Plane)`](VRageMath.Transform)|Transforms a normalized Plane by a Matrix.|
 |[`Dot(Vector4)`](VRageMath.Dot)|Calculates the dot product of a specified Vector4 and this Plane.|
 |[`Dot(ref Vector4, ref float)`](VRageMath.Dot)|Calculates the dot product of a specified Vector4 and this Plane.|
 |[`DotCoordinate(Vector3)`](VRageMath.DotCoordinate)|Returns the dot product of a specified Vector3 and the Normal vector of this Plane plus the distance (D) value of the Plane.|

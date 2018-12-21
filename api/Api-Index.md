@@ -1,6 +1,8 @@
 _Not yet ready for use_
 
 ## Assemblies
+
+These are the game assemblies used by programmable block scripts.
 Sandbox.Common.dll  
 Sandbox.Game.dll  
 SpaceEngineers.Game.dll  

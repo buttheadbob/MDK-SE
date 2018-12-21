@@ -20,59 +20,59 @@ This class is NOT THREAD SAFE as it's optimized for programmable block use.
 ### Properties
 |Member|Description|
 |---|---|
-|[`string EndContent`](VRage.Game.ModAPI.Ingame.Utilities.EndContent.md)||
-|[`string EndComment`](VRage.Game.ModAPI.Ingame.Utilities.EndComment.md)||
+|[`string EndContent`](VRage.Game.ModAPI.Ingame.Utilities.EndContent)||
+|[`string EndComment`](VRage.Game.ModAPI.Ingame.Utilities.EndComment)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`bool HasSection(string config, string section)`](VRage.Game.ModAPI.Ingame.Utilities.HasSection.md)||
-|[`bool ContainsSection(string section)`](VRage.Game.ModAPI.Ingame.Utilities.ContainsSection.md)|Determines whether a section of a given name exists in the currently parsed configuration.|
-|[`bool ContainsKey(string section, string name)`](VRage.Game.ModAPI.Ingame.Utilities.ContainsKey.md)||
-|[`bool ContainsKey(MyIniKey key)`](VRage.Game.ModAPI.Ingame.Utilities.ContainsKey.md)|Determines whether a configuration key (section/key) exists in the currently parsed configuration.|
-|[`void GetKeys(string section, List<MyIniKey> keys)`](VRage.Game.ModAPI.Ingame.Utilities.GetKeys.md)||
-|[`void GetKeys(List<MyIniKey> keys)`](VRage.Game.ModAPI.Ingame.Utilities.GetKeys.md)|Fills the provided list with all configuration keys within the currently parsed configuration.|
-|[`void GetSections(List<string> names)`](VRage.Game.ModAPI.Ingame.Utilities.GetSections.md)|Fills the provided list with the names of all the sections in the currently parsed configuration.|
-|[`void SetEndComment(string comment)`](VRage.Game.ModAPI.Ingame.Utilities.SetEndComment.md)|Sets a comment to be placed after the last section or item. Set the comment tonullto remove it.|
-|[`string GetSectionComment(string section)`](VRage.Game.ModAPI.Ingame.Utilities.GetSectionComment.md)|Get any comment that might be associated with the given section. Returnsnullif the section does not exist or has no comment.|
-|[`void SetSectionComment(string section, string comment)`](VRage.Game.ModAPI.Ingame.Utilities.SetSectionComment.md)||
-|[`string GetComment(string section, string name)`](VRage.Game.ModAPI.Ingame.Utilities.GetComment.md)||
-|[`string GetComment(MyIniKey key)`](VRage.Game.ModAPI.Ingame.Utilities.GetComment.md)|Gets any comment that might be associated with the given key. Returnsnullif the key does not exist or has no comment.|
-|[`void SetComment(string section, string name, string comment)`](VRage.Game.ModAPI.Ingame.Utilities.SetComment.md)||
-|[`void SetComment(MyIniKey key, string comment)`](VRage.Game.ModAPI.Ingame.Utilities.SetComment.md)||
-|[`MyIniValue Get(string section, string name)`](VRage.Game.ModAPI.Ingame.Utilities.Get.md)||
-|[`MyIniValue Get(MyIniKey key)`](VRage.Game.ModAPI.Ingame.Utilities.Get.md)|Gets theT:VRage.Game.ModAPI.Ingame.Utilities.MyIniValueof the given configuration key.|
-|[`void Delete(string section, string name)`](VRage.Game.ModAPI.Ingame.Utilities.Delete.md)||
-|[`void Delete(MyIniKey key)`](VRage.Game.ModAPI.Ingame.Utilities.Delete.md)|Deletes the given configuration key.|
-|[`void Set(string section, string name, string value)`](VRage.Game.ModAPI.Ingame.Utilities.Set.md)||
-|[`void Set(MyIniKey key, string value)`](VRage.Game.ModAPI.Ingame.Utilities.Set.md)||
-|[`void Set(string section, string name, bool value)`](VRage.Game.ModAPI.Ingame.Utilities.Set.md)||
-|[`void Set(MyIniKey key, bool value)`](VRage.Game.ModAPI.Ingame.Utilities.Set.md)||
-|[`void Set(string section, string name, byte value)`](VRage.Game.ModAPI.Ingame.Utilities.Set.md)||
-|[`void Set(MyIniKey key, byte value)`](VRage.Game.ModAPI.Ingame.Utilities.Set.md)||
-|[`void Set(string section, string name, sbyte value)`](VRage.Game.ModAPI.Ingame.Utilities.Set.md)||
-|[`void Set(MyIniKey key, sbyte value)`](VRage.Game.ModAPI.Ingame.Utilities.Set.md)||
-|[`void Set(string section, string name, ushort value)`](VRage.Game.ModAPI.Ingame.Utilities.Set.md)||
-|[`void Set(MyIniKey key, ushort value)`](VRage.Game.ModAPI.Ingame.Utilities.Set.md)||
-|[`void Set(string section, string name, short value)`](VRage.Game.ModAPI.Ingame.Utilities.Set.md)||
-|[`void Set(MyIniKey key, short value)`](VRage.Game.ModAPI.Ingame.Utilities.Set.md)||
-|[`void Set(string section, string name, uint value)`](VRage.Game.ModAPI.Ingame.Utilities.Set.md)||
-|[`void Set(MyIniKey key, uint value)`](VRage.Game.ModAPI.Ingame.Utilities.Set.md)||
-|[`void Set(string section, string name, int value)`](VRage.Game.ModAPI.Ingame.Utilities.Set.md)||
-|[`void Set(MyIniKey key, int value)`](VRage.Game.ModAPI.Ingame.Utilities.Set.md)||
-|[`void Set(string section, string name, ulong value)`](VRage.Game.ModAPI.Ingame.Utilities.Set.md)||
-|[`void Set(MyIniKey key, ulong value)`](VRage.Game.ModAPI.Ingame.Utilities.Set.md)||
-|[`void Set(string section, string name, long value)`](VRage.Game.ModAPI.Ingame.Utilities.Set.md)||
-|[`void Set(MyIniKey key, long value)`](VRage.Game.ModAPI.Ingame.Utilities.Set.md)||
-|[`void Set(string section, string name, float value)`](VRage.Game.ModAPI.Ingame.Utilities.Set.md)||
-|[`void Set(MyIniKey key, float value)`](VRage.Game.ModAPI.Ingame.Utilities.Set.md)||
-|[`void Set(string section, string name, double value)`](VRage.Game.ModAPI.Ingame.Utilities.Set.md)||
-|[`void Set(MyIniKey key, double value)`](VRage.Game.ModAPI.Ingame.Utilities.Set.md)||
-|[`void Set(string section, string name, decimal value)`](VRage.Game.ModAPI.Ingame.Utilities.Set.md)||
-|[`void Set(MyIniKey key, decimal value)`](VRage.Game.ModAPI.Ingame.Utilities.Set.md)||
-|[`void Clear()`](VRage.Game.ModAPI.Ingame.Utilities.Clear.md)||
-|[`bool TryParse(string content)`](VRage.Game.ModAPI.Ingame.Utilities.TryParse.md)|Attempts to parse the given content as a configuration file.|
-|[`bool TryParse(string content, ref MyIniParseResult result)`](VRage.Game.ModAPI.Ingame.Utilities.TryParse.md)||
-|[`bool TryParse(string content, string section, ref MyIniParseResult result)`](VRage.Game.ModAPI.Ingame.Utilities.TryParse.md)||
-|[`bool TryParse(string content, string section)`](VRage.Game.ModAPI.Ingame.Utilities.TryParse.md)||
-|[`void Invalidate()`](VRage.Game.ModAPI.Ingame.Utilities.Invalidate.md)||
-|[`string ToString()`](VRage.Game.ModAPI.Ingame.Utilities.ToString.md)||
+|[`bool HasSection(string config, string section)`](VRage.Game.ModAPI.Ingame.Utilities.HasSection)||
+|[`bool ContainsSection(string section)`](VRage.Game.ModAPI.Ingame.Utilities.ContainsSection)|Determines whether a section of a given name exists in the currently parsed configuration.|
+|[`bool ContainsKey(string section, string name)`](VRage.Game.ModAPI.Ingame.Utilities.ContainsKey)||
+|[`bool ContainsKey(MyIniKey key)`](VRage.Game.ModAPI.Ingame.Utilities.ContainsKey)|Determines whether a configuration key (section/key) exists in the currently parsed configuration.|
+|[`void GetKeys(string section, List<MyIniKey> keys)`](VRage.Game.ModAPI.Ingame.Utilities.GetKeys)||
+|[`void GetKeys(List<MyIniKey> keys)`](VRage.Game.ModAPI.Ingame.Utilities.GetKeys)|Fills the provided list with all configuration keys within the currently parsed configuration.|
+|[`void GetSections(List<string> names)`](VRage.Game.ModAPI.Ingame.Utilities.GetSections)|Fills the provided list with the names of all the sections in the currently parsed configuration.|
+|[`void SetEndComment(string comment)`](VRage.Game.ModAPI.Ingame.Utilities.SetEndComment)|Sets a comment to be placed after the last section or item. Set the comment tonullto remove it.|
+|[`string GetSectionComment(string section)`](VRage.Game.ModAPI.Ingame.Utilities.GetSectionComment)|Get any comment that might be associated with the given section. Returnsnullif the section does not exist or has no comment.|
+|[`void SetSectionComment(string section, string comment)`](VRage.Game.ModAPI.Ingame.Utilities.SetSectionComment)||
+|[`string GetComment(string section, string name)`](VRage.Game.ModAPI.Ingame.Utilities.GetComment)||
+|[`string GetComment(MyIniKey key)`](VRage.Game.ModAPI.Ingame.Utilities.GetComment)|Gets any comment that might be associated with the given key. Returnsnullif the key does not exist or has no comment.|
+|[`void SetComment(string section, string name, string comment)`](VRage.Game.ModAPI.Ingame.Utilities.SetComment)||
+|[`void SetComment(MyIniKey key, string comment)`](VRage.Game.ModAPI.Ingame.Utilities.SetComment)||
+|[`MyIniValue Get(string section, string name)`](VRage.Game.ModAPI.Ingame.Utilities.Get)||
+|[`MyIniValue Get(MyIniKey key)`](VRage.Game.ModAPI.Ingame.Utilities.Get)|Gets theT:VRage.Game.ModAPI.Ingame.Utilities.MyIniValueof the given configuration key.|
+|[`void Delete(string section, string name)`](VRage.Game.ModAPI.Ingame.Utilities.Delete)||
+|[`void Delete(MyIniKey key)`](VRage.Game.ModAPI.Ingame.Utilities.Delete)|Deletes the given configuration key.|
+|[`void Set(string section, string name, string value)`](VRage.Game.ModAPI.Ingame.Utilities.Set)||
+|[`void Set(MyIniKey key, string value)`](VRage.Game.ModAPI.Ingame.Utilities.Set)||
+|[`void Set(string section, string name, bool value)`](VRage.Game.ModAPI.Ingame.Utilities.Set)||
+|[`void Set(MyIniKey key, bool value)`](VRage.Game.ModAPI.Ingame.Utilities.Set)||
+|[`void Set(string section, string name, byte value)`](VRage.Game.ModAPI.Ingame.Utilities.Set)||
+|[`void Set(MyIniKey key, byte value)`](VRage.Game.ModAPI.Ingame.Utilities.Set)||
+|[`void Set(string section, string name, sbyte value)`](VRage.Game.ModAPI.Ingame.Utilities.Set)||
+|[`void Set(MyIniKey key, sbyte value)`](VRage.Game.ModAPI.Ingame.Utilities.Set)||
+|[`void Set(string section, string name, ushort value)`](VRage.Game.ModAPI.Ingame.Utilities.Set)||
+|[`void Set(MyIniKey key, ushort value)`](VRage.Game.ModAPI.Ingame.Utilities.Set)||
+|[`void Set(string section, string name, short value)`](VRage.Game.ModAPI.Ingame.Utilities.Set)||
+|[`void Set(MyIniKey key, short value)`](VRage.Game.ModAPI.Ingame.Utilities.Set)||
+|[`void Set(string section, string name, uint value)`](VRage.Game.ModAPI.Ingame.Utilities.Set)||
+|[`void Set(MyIniKey key, uint value)`](VRage.Game.ModAPI.Ingame.Utilities.Set)||
+|[`void Set(string section, string name, int value)`](VRage.Game.ModAPI.Ingame.Utilities.Set)||
+|[`void Set(MyIniKey key, int value)`](VRage.Game.ModAPI.Ingame.Utilities.Set)||
+|[`void Set(string section, string name, ulong value)`](VRage.Game.ModAPI.Ingame.Utilities.Set)||
+|[`void Set(MyIniKey key, ulong value)`](VRage.Game.ModAPI.Ingame.Utilities.Set)||
+|[`void Set(string section, string name, long value)`](VRage.Game.ModAPI.Ingame.Utilities.Set)||
+|[`void Set(MyIniKey key, long value)`](VRage.Game.ModAPI.Ingame.Utilities.Set)||
+|[`void Set(string section, string name, float value)`](VRage.Game.ModAPI.Ingame.Utilities.Set)||
+|[`void Set(MyIniKey key, float value)`](VRage.Game.ModAPI.Ingame.Utilities.Set)||
+|[`void Set(string section, string name, double value)`](VRage.Game.ModAPI.Ingame.Utilities.Set)||
+|[`void Set(MyIniKey key, double value)`](VRage.Game.ModAPI.Ingame.Utilities.Set)||
+|[`void Set(string section, string name, decimal value)`](VRage.Game.ModAPI.Ingame.Utilities.Set)||
+|[`void Set(MyIniKey key, decimal value)`](VRage.Game.ModAPI.Ingame.Utilities.Set)||
+|[`void Clear()`](VRage.Game.ModAPI.Ingame.Utilities.Clear)||
+|[`bool TryParse(string content)`](VRage.Game.ModAPI.Ingame.Utilities.TryParse)|Attempts to parse the given content as a configuration file.|
+|[`bool TryParse(string content, ref MyIniParseResult result)`](VRage.Game.ModAPI.Ingame.Utilities.TryParse)||
+|[`bool TryParse(string content, string section, ref MyIniParseResult result)`](VRage.Game.ModAPI.Ingame.Utilities.TryParse)||
+|[`bool TryParse(string content, string section)`](VRage.Game.ModAPI.Ingame.Utilities.TryParse)||
+|[`void Invalidate()`](VRage.Game.ModAPI.Ingame.Utilities.Invalidate)||
+|[`string ToString()`](VRage.Game.ModAPI.Ingame.Utilities.ToString)||

@@ -5,10 +5,10 @@
 ### Properties
 |Member|Description|
 |---|---|
-|[`DictionaryReader<MyLanguagesEnum, LanguageDescription> Languages`](VRage.Languages.md)||
+|[`DictionaryReader<MyLanguagesEnum, LanguageDescription> Languages`](VRage.Languages)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`StringBuilder Get(MyStringId id)`](VRage.Get.md)||
-|[`string GetString(MyStringId id)`](VRage.GetString.md)||
-|[`bool Exists(MyStringId id)`](VRage.Exists.md)||
+|[`StringBuilder Get(MyStringId id)`](VRage.Get)||
+|[`string GetString(MyStringId id)`](VRage.GetString)||
+|[`bool Exists(MyStringId id)`](VRage.Exists)||

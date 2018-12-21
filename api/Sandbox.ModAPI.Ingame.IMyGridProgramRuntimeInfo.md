@@ -7,10 +7,10 @@ Provides runtime info for a running grid program.
 ### Properties
 |Member|Description|
 |---|---|
-|[`TimeSpan TimeSinceLastRun`](Sandbox.ModAPI.Ingame.TimeSinceLastRun.md)||
-|[`double LastRunTimeMs`](Sandbox.ModAPI.Ingame.LastRunTimeMs.md)||
-|[`int MaxInstructionCount`](Sandbox.ModAPI.Ingame.MaxInstructionCount.md)||
-|[`int CurrentInstructionCount`](Sandbox.ModAPI.Ingame.CurrentInstructionCount.md)||
-|[`int MaxCallChainDepth`](Sandbox.ModAPI.Ingame.MaxCallChainDepth.md)||
-|[`int CurrentCallChainDepth`](Sandbox.ModAPI.Ingame.CurrentCallChainDepth.md)||
-|[`UpdateFrequency UpdateFrequency`](Sandbox.ModAPI.Ingame.UpdateFrequency.md)||
+|[`TimeSpan TimeSinceLastRun`](Sandbox.ModAPI.Ingame.TimeSinceLastRun)||
+|[`double LastRunTimeMs`](Sandbox.ModAPI.Ingame.LastRunTimeMs)||
+|[`int MaxInstructionCount`](Sandbox.ModAPI.Ingame.MaxInstructionCount)||
+|[`int CurrentInstructionCount`](Sandbox.ModAPI.Ingame.CurrentInstructionCount)||
+|[`int MaxCallChainDepth`](Sandbox.ModAPI.Ingame.MaxCallChainDepth)||
+|[`int CurrentCallChainDepth`](Sandbox.ModAPI.Ingame.CurrentCallChainDepth)||
+|[`UpdateFrequency UpdateFrequency`](Sandbox.ModAPI.Ingame.UpdateFrequency)||

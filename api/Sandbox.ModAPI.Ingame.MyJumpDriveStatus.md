@@ -5,6 +5,6 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`MyJumpDriveStatus Charging`](Sandbox.ModAPI.Ingame.Charging.md)||
-|[`MyJumpDriveStatus Ready`](Sandbox.ModAPI.Ingame.Ready.md)||
-|[`MyJumpDriveStatus Jumping`](Sandbox.ModAPI.Ingame.Jumping.md)||
+|[`MyJumpDriveStatus Charging`](Sandbox.ModAPI.Ingame.Charging)||
+|[`MyJumpDriveStatus Ready`](Sandbox.ModAPI.Ingame.Ready)||
+|[`MyJumpDriveStatus Jumping`](Sandbox.ModAPI.Ingame.Jumping)||

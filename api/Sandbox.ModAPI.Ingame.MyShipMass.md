@@ -5,6 +5,6 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`float BaseMass`](Sandbox.ModAPI.Ingame.BaseMass.md)||
-|[`float TotalMass`](Sandbox.ModAPI.Ingame.TotalMass.md)||
-|[`float PhysicalMass`](Sandbox.ModAPI.Ingame.PhysicalMass.md)||
+|[`float BaseMass`](Sandbox.ModAPI.Ingame.BaseMass)||
+|[`float TotalMass`](Sandbox.ModAPI.Ingame.TotalMass)||
+|[`float PhysicalMass`](Sandbox.ModAPI.Ingame.PhysicalMass)||

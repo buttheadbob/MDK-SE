@@ -5,5 +5,5 @@
 ### Methods
 |Member|Description|
 |---|---|
-|[`bool IsValid(Nullable<Vector3D> value)`](VRageMath.IsValid.md)||
-|[`void AssertIsValid(Nullable<Vector3D> value)`](VRageMath.AssertIsValid.md)||
+|[`bool IsValid(Nullable<Vector3D> value)`](VRageMath.IsValid)||
+|[`void AssertIsValid(Nullable<Vector3D> value)`](VRageMath.AssertIsValid)||

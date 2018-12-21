@@ -7,5 +7,5 @@ Describes what detail level to retrieve the planet elevation for.
 ### Fields
 |Member|Description|
 |---|---|
-|[`MyPlanetElevation Sealevel`](Sandbox.ModAPI.Ingame.Sealevel.md)||
-|[`MyPlanetElevation Surface`](Sandbox.ModAPI.Ingame.Surface.md)||
+|[`MyPlanetElevation Sealevel`](Sandbox.ModAPI.Ingame.Sealevel)||
+|[`MyPlanetElevation Surface`](Sandbox.ModAPI.Ingame.Surface)||

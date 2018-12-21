@@ -5,6 +5,6 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`LandingGearMode Unlocked`](SpaceEngineers.Game.ModAPI.Ingame.Unlocked.md)||
-|[`LandingGearMode ReadyToLock`](SpaceEngineers.Game.ModAPI.Ingame.ReadyToLock.md)||
-|[`LandingGearMode Locked`](SpaceEngineers.Game.ModAPI.Ingame.Locked.md)||
+|[`LandingGearMode Unlocked`](SpaceEngineers.Game.ModAPI.Ingame.Unlocked)||
+|[`LandingGearMode ReadyToLock`](SpaceEngineers.Game.ModAPI.Ingame.ReadyToLock)||
+|[`LandingGearMode Locked`](SpaceEngineers.Game.ModAPI.Ingame.Locked)||

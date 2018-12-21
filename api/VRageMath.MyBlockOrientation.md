@@ -5,21 +5,21 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`Direction Forward`](VRageMath.Forward.md)||
-|[`Direction Up`](VRageMath.Up.md)||
-|[`MyBlockOrientation Identity`](VRageMath.Identity.md)||
+|[`Direction Forward`](VRageMath.Forward)||
+|[`Direction Up`](VRageMath.Up)||
+|[`MyBlockOrientation Identity`](VRageMath.Identity)||
 ### Properties
 |Member|Description|
 |---|---|
-|[`Direction Left`](VRageMath.Left.md)||
-|[`bool IsValid`](VRageMath.IsValid.md)||
+|[`Direction Left`](VRageMath.Left)||
+|[`bool IsValid`](VRageMath.IsValid)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`void GetQuaternion(ref Quaternion result)`](VRageMath.GetQuaternion.md)||
-|[`void GetMatrix(ref Matrix result)`](VRageMath.GetMatrix.md)||
-|[`int GetHashCode()`](VRageMath.GetHashCode.md)||
-|[`bool Equals(Object obj)`](VRageMath.Equals.md)||
-|[`string ToString()`](VRageMath.ToString.md)||
-|[`Direction TransformDirection(Direction baseDirection)`](VRageMath.TransformDirection.md)||
-|[`Direction TransformDirectionInverse(Direction baseDirection)`](VRageMath.TransformDirectionInverse.md)||
+|[`void GetQuaternion(ref Quaternion result)`](VRageMath.GetQuaternion)||
+|[`void GetMatrix(ref Matrix result)`](VRageMath.GetMatrix)||
+|[`int GetHashCode()`](VRageMath.GetHashCode)||
+|[`bool Equals(Object obj)`](VRageMath.Equals)||
+|[`string ToString()`](VRageMath.ToString)||
+|[`Direction TransformDirection(Direction baseDirection)`](VRageMath.TransformDirection)||
+|[`Direction TransformDirectionInverse(Direction baseDirection)`](VRageMath.TransformDirectionInverse)||

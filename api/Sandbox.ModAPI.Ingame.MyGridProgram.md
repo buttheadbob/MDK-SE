@@ -10,9 +10,9 @@ public void Main() { // Print out the time elapsed since the currently running p
 ### Properties
 |Member|Description|
 |---|---|
-|[`IMyGridTerminalSystem GridTerminalSystem`](Sandbox.ModAPI.Ingame.GridTerminalSystem.md)||
-|[`IMyProgrammableBlock Me`](Sandbox.ModAPI.Ingame.Me.md)||
-|[`TimeSpan ElapsedTime`](Sandbox.ModAPI.Ingame.ElapsedTime.md)||
-|[`IMyGridProgramRuntimeInfo Runtime`](Sandbox.ModAPI.Ingame.Runtime.md)||
-|[`string Storage`](Sandbox.ModAPI.Ingame.Storage.md)||
-|[`Action<string> Echo`](Sandbox.ModAPI.Ingame.Echo.md)||
+|[`IMyGridTerminalSystem GridTerminalSystem`](Sandbox.ModAPI.Ingame.GridTerminalSystem)||
+|[`IMyProgrammableBlock Me`](Sandbox.ModAPI.Ingame.Me)||
+|[`TimeSpan ElapsedTime`](Sandbox.ModAPI.Ingame.ElapsedTime)||
+|[`IMyGridProgramRuntimeInfo Runtime`](Sandbox.ModAPI.Ingame.Runtime)||
+|[`string Storage`](Sandbox.ModAPI.Ingame.Storage)||
+|[`Action<string> Echo`](Sandbox.ModAPI.Ingame.Echo)||

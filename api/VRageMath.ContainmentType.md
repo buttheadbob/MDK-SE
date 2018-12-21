@@ -7,6 +7,6 @@ Indicates the extent to which bounding volumes intersect or contain one another.
 ### Fields
 |Member|Description|
 |---|---|
-|[`ContainmentType Disjoint`](VRageMath.Disjoint.md)||
-|[`ContainmentType Contains`](VRageMath.Contains.md)||
-|[`ContainmentType Intersects`](VRageMath.Intersects.md)||
+|[`ContainmentType Disjoint`](VRageMath.Disjoint)||
+|[`ContainmentType Contains`](VRageMath.Contains)||
+|[`ContainmentType Intersects`](VRageMath.Intersects)||

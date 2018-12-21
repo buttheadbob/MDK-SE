@@ -5,5 +5,5 @@
 ### Methods
 |Member|Description|
 |---|---|
-|[`T Get<T>()`](VRage.Game.Components.Get.md)||
-|[`bool Has<T>()`](VRage.Game.Components.Has.md)||
+|[`T Get<T>()`](VRage.Game.Components.Get)||
+|[`bool Has<T>()`](VRage.Game.Components.Has)||

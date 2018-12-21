@@ -5,9 +5,9 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`Plane Plane`](VRageMath.Plane.md)||
-|[`Line[] Lines`](VRageMath.Lines.md)||
+|[`Plane Plane`](VRageMath.Plane)||
+|[`Line[] Lines`](VRageMath.Lines)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`void CreatePlaneFromLines()`](VRageMath.CreatePlaneFromLines.md)||
+|[`void CreatePlaneFromLines()`](VRageMath.CreatePlaneFromLines)||

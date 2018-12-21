@@ -7,14 +7,14 @@ A utility class to parse arguments from a command line string. Switches are defi
 ### Properties
 |Member|Description|
 |---|---|
-|[`ItemCollection Items`](VRage.Game.ModAPI.Ingame.Utilities.Items.md)||
-|[`SwitchCollection Switches`](VRage.Game.ModAPI.Ingame.Utilities.Switches.md)||
-|[`int ArgumentCount`](VRage.Game.ModAPI.Ingame.Utilities.ArgumentCount.md)||
+|[`ItemCollection Items`](VRage.Game.ModAPI.Ingame.Utilities.Items)||
+|[`SwitchCollection Switches`](VRage.Game.ModAPI.Ingame.Utilities.Switches)||
+|[`int ArgumentCount`](VRage.Game.ModAPI.Ingame.Utilities.ArgumentCount)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`bool TryParse(string argument)`](VRage.Game.ModAPI.Ingame.Utilities.TryParse.md)|Attempts to parse the given string as a command line|
-|[`string Argument(int index)`](VRage.Game.ModAPI.Ingame.Utilities.Argument.md)|Returns the argument at the given index. Switches are not counted.|
-|[`bool Switch(string name)`](VRage.Game.ModAPI.Ingame.Utilities.Switch.md)|Determines whether the given switch is set. Switches are specified without their prefixed hyphen.|
-|[`string Switch(string name, int relativeArgument)`](VRage.Game.ModAPI.Ingame.Utilities.Switch.md)||
-|[`void Clear()`](VRage.Game.ModAPI.Ingame.Utilities.Clear.md)||
+|[`bool TryParse(string argument)`](VRage.Game.ModAPI.Ingame.Utilities.TryParse)|Attempts to parse the given string as a command line|
+|[`string Argument(int index)`](VRage.Game.ModAPI.Ingame.Utilities.Argument)|Returns the argument at the given index. Switches are not counted.|
+|[`bool Switch(string name)`](VRage.Game.ModAPI.Ingame.Utilities.Switch)|Determines whether the given switch is set. Switches are specified without their prefixed hyphen.|
+|[`string Switch(string name, int relativeArgument)`](VRage.Game.ModAPI.Ingame.Utilities.Switch)||
+|[`void Clear()`](VRage.Game.ModAPI.Ingame.Utilities.Clear)||

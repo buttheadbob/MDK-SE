@@ -5,9 +5,9 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`CubeFace Left`](VRageMath.Left.md)||
-|[`CubeFace Right`](VRageMath.Right.md)||
-|[`CubeFace Up`](VRageMath.Up.md)||
-|[`CubeFace Down`](VRageMath.Down.md)||
-|[`CubeFace Forward`](VRageMath.Forward.md)||
-|[`CubeFace Backward`](VRageMath.Backward.md)||
+|[`CubeFace Left`](VRageMath.Left)||
+|[`CubeFace Right`](VRageMath.Right)||
+|[`CubeFace Up`](VRageMath.Up)||
+|[`CubeFace Down`](VRageMath.Down)||
+|[`CubeFace Forward`](VRageMath.Forward)||
+|[`CubeFace Backward`](VRageMath.Backward)||

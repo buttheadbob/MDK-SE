@@ -7,21 +7,21 @@ Base 26 directions and Vector3.Zero Each component is only 0,-1 or 1;
 ### Fields
 |Member|Description|
 |---|---|
-|[`Vector3[] Directions`](VRageMath.Directions.md)||
-|[`Vector3I[] DirectionsInt`](VRageMath.DirectionsInt.md)||
+|[`Vector3[] Directions`](VRageMath.Directions)||
+|[`Vector3I[] DirectionsInt`](VRageMath.DirectionsInt)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`bool IsBaseDirection(ref Vector3 vec)`](VRageMath.IsBaseDirection.md)||
-|[`bool IsBaseDirection(ref Vector3I vec)`](VRageMath.IsBaseDirection.md)||
-|[`bool IsBaseDirection(Vector3 vec)`](VRageMath.IsBaseDirection.md)||
-|[`Vector3 GetVector(int direction)`](VRageMath.GetVector.md)||
-|[`Vector3I GetVectorInt(int direction)`](VRageMath.GetVectorInt.md)||
-|[`Vector3 GetVector(Direction dir)`](VRageMath.GetVector.md)||
-|[`Vector3I GetVectorInt(Direction dir)`](VRageMath.GetVectorInt.md)||
-|[`Direction GetDirection(Vector3 vec)`](VRageMath.GetDirection.md)|Vector must be normalized, allowed values for components are: 0, 1, -1, 0.707, -0.707, 0.577, -0.577|
-|[`Direction GetDirection(Vector3I vec)`](VRageMath.GetDirection.md)||
-|[`Direction GetDirection(ref Vector3 vec)`](VRageMath.GetDirection.md)||
-|[`Direction GetDirection(ref Vector3I vec)`](VRageMath.GetDirection.md)||
-|[`Direction GetForward(ref Quaternion rot)`](VRageMath.GetForward.md)||
-|[`Direction GetUp(ref Quaternion rot)`](VRageMath.GetUp.md)||
+|[`bool IsBaseDirection(ref Vector3 vec)`](VRageMath.IsBaseDirection)||
+|[`bool IsBaseDirection(ref Vector3I vec)`](VRageMath.IsBaseDirection)||
+|[`bool IsBaseDirection(Vector3 vec)`](VRageMath.IsBaseDirection)||
+|[`Vector3 GetVector(int direction)`](VRageMath.GetVector)||
+|[`Vector3I GetVectorInt(int direction)`](VRageMath.GetVectorInt)||
+|[`Vector3 GetVector(Direction dir)`](VRageMath.GetVector)||
+|[`Vector3I GetVectorInt(Direction dir)`](VRageMath.GetVectorInt)||
+|[`Direction GetDirection(Vector3 vec)`](VRageMath.GetDirection)|Vector must be normalized, allowed values for components are: 0, 1, -1, 0.707, -0.707, 0.577, -0.577|
+|[`Direction GetDirection(Vector3I vec)`](VRageMath.GetDirection)||
+|[`Direction GetDirection(ref Vector3 vec)`](VRageMath.GetDirection)||
+|[`Direction GetDirection(ref Vector3I vec)`](VRageMath.GetDirection)||
+|[`Direction GetForward(ref Quaternion rot)`](VRageMath.GetForward)||
+|[`Direction GetUp(ref Quaternion rot)`](VRageMath.GetUp)||

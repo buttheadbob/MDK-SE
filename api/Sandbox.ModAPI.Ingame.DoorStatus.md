@@ -7,7 +7,7 @@ Describes the current status of the door.
 ### Fields
 |Member|Description|
 |---|---|
-|[`DoorStatus Opening`](Sandbox.ModAPI.Ingame.Opening.md)||
-|[`DoorStatus Open`](Sandbox.ModAPI.Ingame.Open.md)||
-|[`DoorStatus Closing`](Sandbox.ModAPI.Ingame.Closing.md)||
-|[`DoorStatus Closed`](Sandbox.ModAPI.Ingame.Closed.md)||
+|[`DoorStatus Opening`](Sandbox.ModAPI.Ingame.Opening)||
+|[`DoorStatus Open`](Sandbox.ModAPI.Ingame.Open)||
+|[`DoorStatus Closing`](Sandbox.ModAPI.Ingame.Closing)||
+|[`DoorStatus Closed`](Sandbox.ModAPI.Ingame.Closed)||

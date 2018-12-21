@@ -7,12 +7,12 @@ Packed vector type containing four 16-bit floating-point values.
 ### Fields
 |Member|Description|
 |---|---|
-|[`ushort X`](VRageMath.PackedVector.X.md)||
-|[`ushort Y`](VRageMath.PackedVector.Y.md)||
-|[`ushort Z`](VRageMath.PackedVector.Z.md)||
+|[`ushort X`](VRageMath.PackedVector.X)||
+|[`ushort Y`](VRageMath.PackedVector.Y)||
+|[`ushort Z`](VRageMath.PackedVector.Z)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`Vector3 ToVector3()`](VRageMath.PackedVector.ToVector3.md)||
-|[`HalfVector4 ToHalfVector4()`](VRageMath.PackedVector.ToHalfVector4.md)||
-|[`string ToString()`](VRageMath.PackedVector.ToString.md)||
+|[`Vector3 ToVector3()`](VRageMath.PackedVector.ToVector3)||
+|[`HalfVector4 ToHalfVector4()`](VRageMath.PackedVector.ToHalfVector4)||
+|[`string ToString()`](VRageMath.PackedVector.ToString)||

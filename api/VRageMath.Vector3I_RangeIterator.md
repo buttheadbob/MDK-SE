@@ -7,10 +7,10 @@ A class for simpler traversal of ranges of integer vectors
 ### Fields
 |Member|Description|
 |---|---|
-|[`Vector3I Current`](VRageMath.Current.md)||
+|[`Vector3I Current`](VRageMath.Current)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`bool IsValid()`](VRageMath.IsValid.md)||
-|[`void GetNext(ref Vector3I next)`](VRageMath.GetNext.md)||
-|[`void MoveNext()`](VRageMath.MoveNext.md)||
+|[`bool IsValid()`](VRageMath.IsValid)||
+|[`void GetNext(ref Vector3I next)`](VRageMath.GetNext)||
+|[`void MoveNext()`](VRageMath.MoveNext)||

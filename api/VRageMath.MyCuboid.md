@@ -5,17 +5,17 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`MyCuboidSide[] Sides`](VRageMath.Sides.md)||
+|[`MyCuboidSide[] Sides`](VRageMath.Sides)||
 ### Properties
 |Member|Description|
 |---|---|
-|[`IEnumerable<Line> UniqueLines`](VRageMath.UniqueLines.md)||
-|[`IEnumerable<Vector3> Vertices`](VRageMath.Vertices.md)||
+|[`IEnumerable<Line> UniqueLines`](VRageMath.UniqueLines)||
+|[`IEnumerable<Vector3> Vertices`](VRageMath.Vertices)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`void CreateFromVertices(Vector3[] vertices)`](VRageMath.CreateFromVertices.md)||
-|[`void CreateFromSizes(float width1, float depth1, float width2, float depth2, float length)`](VRageMath.CreateFromSizes.md)||
-|[`BoundingBox GetAABB()`](VRageMath.GetAABB.md)||
-|[`BoundingBox GetLocalAABB()`](VRageMath.GetLocalAABB.md)||
-|[`MyCuboid CreateTransformed(ref Matrix worldMatrix)`](VRageMath.CreateTransformed.md)||
+|[`void CreateFromVertices(Vector3[] vertices)`](VRageMath.CreateFromVertices)||
+|[`void CreateFromSizes(float width1, float depth1, float width2, float depth2, float length)`](VRageMath.CreateFromSizes)||
+|[`BoundingBox GetAABB()`](VRageMath.GetAABB)||
+|[`BoundingBox GetLocalAABB()`](VRageMath.GetLocalAABB)||
+|[`MyCuboid CreateTransformed(ref Matrix worldMatrix)`](VRageMath.CreateTransformed)||

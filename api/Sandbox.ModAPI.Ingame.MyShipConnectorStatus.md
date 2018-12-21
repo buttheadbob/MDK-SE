@@ -7,6 +7,6 @@ Describes the current status of the connector.
 ### Fields
 |Member|Description|
 |---|---|
-|[`MyShipConnectorStatus Unconnected`](Sandbox.ModAPI.Ingame.Unconnected.md)||
-|[`MyShipConnectorStatus Connectable`](Sandbox.ModAPI.Ingame.Connectable.md)||
-|[`MyShipConnectorStatus Connected`](Sandbox.ModAPI.Ingame.Connected.md)||
+|[`MyShipConnectorStatus Unconnected`](Sandbox.ModAPI.Ingame.Unconnected)||
+|[`MyShipConnectorStatus Connectable`](Sandbox.ModAPI.Ingame.Connectable)||
+|[`MyShipConnectorStatus Connected`](Sandbox.ModAPI.Ingame.Connected)||

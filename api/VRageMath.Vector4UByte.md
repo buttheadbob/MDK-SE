@@ -5,18 +5,18 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`byte X`](VRageMath.X.md)||
-|[`byte Y`](VRageMath.Y.md)||
-|[`byte Z`](VRageMath.Z.md)||
-|[`byte W`](VRageMath.W.md)||
+|[`byte X`](VRageMath.X)||
+|[`byte Y`](VRageMath.Y)||
+|[`byte Z`](VRageMath.Z)||
+|[`byte W`](VRageMath.W)||
 ### Properties
 |Member|Description|
 |---|---|
-|[`byte Item`](VRageMath.Item.md)||
+|[`byte Item`](VRageMath.Item)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`string ToString()`](VRageMath.ToString.md)||
-|[`Vector4UByte Round(Vector3 vec)`](VRageMath.Round.md)||
-|[`Vector4UByte Round(Vector4 vec)`](VRageMath.Round.md)||
-|[`Vector4UByte Normalize(Vector3 vec, float range)`](VRageMath.Normalize.md)||
+|[`string ToString()`](VRageMath.ToString)||
+|[`Vector4UByte Round(Vector3 vec)`](VRageMath.Round)||
+|[`Vector4UByte Round(Vector4 vec)`](VRageMath.Round)||
+|[`Vector4UByte Normalize(Vector3 vec, float range)`](VRageMath.Normalize)||

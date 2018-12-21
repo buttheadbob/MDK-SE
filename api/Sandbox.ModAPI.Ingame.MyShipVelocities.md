@@ -5,5 +5,5 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`Vector3D LinearVelocity`](Sandbox.ModAPI.Ingame.LinearVelocity.md)||
-|[`Vector3D AngularVelocity`](Sandbox.ModAPI.Ingame.AngularVelocity.md)||
+|[`Vector3D LinearVelocity`](Sandbox.ModAPI.Ingame.LinearVelocity)||
+|[`Vector3D AngularVelocity`](Sandbox.ModAPI.Ingame.AngularVelocity)||

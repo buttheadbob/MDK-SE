@@ -5,16 +5,16 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`float Min`](VRageMath.Min.md)||
-|[`float Max`](VRageMath.Max.md)||
+|[`float Min`](VRageMath.Min)||
+|[`float Max`](VRageMath.Max)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`bool ValueBetween(float value)`](VRageMath.ValueBetween.md)||
-|[`string ToString()`](VRageMath.ToString.md)||
-|[`SerializableRange ConvertToCosine()`](VRageMath.ConvertToCosine.md)||
-|[`SerializableRange ConvertToSine()`](VRageMath.ConvertToSine.md)||
-|[`SerializableRange ConvertToCosineLongitude()`](VRageMath.ConvertToCosineLongitude.md)||
-|[`string ToStringAsin()`](VRageMath.ToStringAsin.md)||
-|[`string ToStringAcos()`](VRageMath.ToStringAcos.md)||
-|[`string ToStringLongitude()`](VRageMath.ToStringLongitude.md)||
+|[`bool ValueBetween(float value)`](VRageMath.ValueBetween)||
+|[`string ToString()`](VRageMath.ToString)||
+|[`SerializableRange ConvertToCosine()`](VRageMath.ConvertToCosine)||
+|[`SerializableRange ConvertToSine()`](VRageMath.ConvertToSine)||
+|[`SerializableRange ConvertToCosineLongitude()`](VRageMath.ConvertToCosineLongitude)||
+|[`string ToStringAsin()`](VRageMath.ToStringAsin)||
+|[`string ToStringAcos()`](VRageMath.ToStringAcos)||
+|[`string ToStringLongitude()`](VRageMath.ToStringLongitude)||

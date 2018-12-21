@@ -7,14 +7,14 @@ Defines a matrix.
 ### Fields
 |Member|Description|
 |---|---|
-|[`Vector3 Position`](VRageMath.Position.md)||
-|[`HalfVector4 Orientation`](VRageMath.Orientation.md)||
+|[`Vector3 Position`](VRageMath.Position)||
+|[`HalfVector4 Orientation`](VRageMath.Orientation)||
 ### Properties
 |Member|Description|
 |---|---|
-|[`Matrix Matrix`](VRageMath.Matrix.md)||
+|[`Matrix Matrix`](VRageMath.Matrix)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`void FromMatrix(ref Matrix matrix)`](VRageMath.FromMatrix.md)||
-|[`void ToMatrix(ref Matrix result)`](VRageMath.ToMatrix.md)||
+|[`void FromMatrix(ref Matrix matrix)`](VRageMath.FromMatrix)||
+|[`void ToMatrix(ref Matrix result)`](VRageMath.ToMatrix)||

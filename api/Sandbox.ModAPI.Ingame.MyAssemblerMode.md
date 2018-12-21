@@ -7,5 +7,5 @@ Determines what mode an assembler is in.
 ### Fields
 |Member|Description|
 |---|---|
-|[`MyAssemblerMode Assembly`](Sandbox.ModAPI.Ingame.Assembly.md)||
-|[`MyAssemblerMode Disassembly`](Sandbox.ModAPI.Ingame.Disassembly.md)||
+|[`MyAssemblerMode Assembly`](Sandbox.ModAPI.Ingame.Assembly)||
+|[`MyAssemblerMode Disassembly`](Sandbox.ModAPI.Ingame.Disassembly)||

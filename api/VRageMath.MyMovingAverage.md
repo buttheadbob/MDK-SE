@@ -5,10 +5,10 @@
 ### Properties
 |Member|Description|
 |---|---|
-|[`float Avg`](VRageMath.Avg.md)||
-|[`double Sum`](VRageMath.Sum.md)||
+|[`float Avg`](VRageMath.Avg)||
+|[`double Sum`](VRageMath.Sum)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`void Enqueue(float value)`](VRageMath.Enqueue.md)||
-|[`void Reset()`](VRageMath.Reset.md)||
+|[`void Enqueue(float value)`](VRageMath.Enqueue)||
+|[`void Reset()`](VRageMath.Reset)||

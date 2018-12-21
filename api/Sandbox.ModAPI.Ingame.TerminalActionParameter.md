@@ -5,16 +5,16 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`TypeCode TypeCode`](Sandbox.ModAPI.Ingame.TypeCode.md)||
-|[`Object Value`](Sandbox.ModAPI.Ingame.Value.md)||
-|[`TerminalActionParameter Empty`](Sandbox.ModAPI.Ingame.Empty.md)||
+|[`TypeCode TypeCode`](Sandbox.ModAPI.Ingame.TypeCode)||
+|[`Object Value`](Sandbox.ModAPI.Ingame.Value)||
+|[`TerminalActionParameter Empty`](Sandbox.ModAPI.Ingame.Empty)||
 ### Properties
 |Member|Description|
 |---|---|
-|[`bool IsEmpty`](Sandbox.ModAPI.Ingame.IsEmpty.md)||
+|[`bool IsEmpty`](Sandbox.ModAPI.Ingame.IsEmpty)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`TerminalActionParameter Deserialize(string serializedValue, TypeCode typeCode)`](Sandbox.ModAPI.Ingame.Deserialize.md)||
-|[`TerminalActionParameter Get(Object value)`](Sandbox.ModAPI.Ingame.Get.md)|Creates aT:Sandbox.ModAPI.Ingame.TerminalActionParameterfrom the given value.|
-|[`MyObjectBuilder_ToolbarItemActionParameter GetObjectBuilder()`](Sandbox.ModAPI.Ingame.GetObjectBuilder.md)||
+|[`TerminalActionParameter Deserialize(string serializedValue, TypeCode typeCode)`](Sandbox.ModAPI.Ingame.Deserialize)||
+|[`TerminalActionParameter Get(Object value)`](Sandbox.ModAPI.Ingame.Get)|Creates aT:Sandbox.ModAPI.Ingame.TerminalActionParameterfrom the given value.|
+|[`MyObjectBuilder_ToolbarItemActionParameter GetObjectBuilder()`](Sandbox.ModAPI.Ingame.GetObjectBuilder)||

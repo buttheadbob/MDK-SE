@@ -7,5 +7,5 @@ Determines the current mode of a conveyor sorter.
 ### Fields
 |Member|Description|
 |---|---|
-|[`MyConveyorSorterMode Whitelist`](Sandbox.ModAPI.Ingame.Whitelist.md)||
-|[`MyConveyorSorterMode Blacklist`](Sandbox.ModAPI.Ingame.Blacklist.md)||
+|[`MyConveyorSorterMode Whitelist`](Sandbox.ModAPI.Ingame.Whitelist)||
+|[`MyConveyorSorterMode Blacklist`](Sandbox.ModAPI.Ingame.Blacklist)||

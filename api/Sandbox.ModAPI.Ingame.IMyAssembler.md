@@ -3,94 +3,94 @@
 **Namespace:** Sandbox.ModAPI.Ingame  
 **Assembly:** Sandbox.Common.dll  
 **Implements:**
-* [`Sandbox.ModAPI.Ingame.IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyProductionBlock.md)
-* [`Sandbox.ModAPI.Ingame.IMyFunctionalBlock`](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.md)
-* [`Sandbox.ModAPI.Ingame.IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTerminalBlock.md)
-* [`VRage.Game.ModAPI.Ingame.IMyCubeBlock`](VRage.Game.ModAPI.Ingame.IMyCubeBlock.md)
-* [`VRage.Game.ModAPI.Ingame.IMyEntity`](VRage.Game.ModAPI.Ingame.IMyEntity.md)
+* [`Sandbox.ModAPI.Ingame.IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyProductionBlock)
+* [`Sandbox.ModAPI.Ingame.IMyFunctionalBlock`](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)
+* [`Sandbox.ModAPI.Ingame.IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
+* [`VRage.Game.ModAPI.Ingame.IMyCubeBlock`](VRage.Game.ModAPI.Ingame.IMyCubeBlock)
+* [`VRage.Game.ModAPI.Ingame.IMyEntity`](VRage.Game.ModAPI.Ingame.IMyEntity)
 ### Properties
 |Member|Description|
 |---|---|
-|[`bool DisassembleEnabled`](Sandbox.ModAPI.Ingame.DisassembleEnabled.md)||
-|[`float CurrentProgress`](Sandbox.ModAPI.Ingame.CurrentProgress.md)||
-|[`MyAssemblerMode Mode`](Sandbox.ModAPI.Ingame.Mode.md)||
-|[`bool CooperativeMode`](Sandbox.ModAPI.Ingame.CooperativeMode.md)||
-|[`bool Repeating`](Sandbox.ModAPI.Ingame.Repeating.md)||
-|[`MyEntityComponentContainer Components`](VRage.Game.ModAPI.Ingame.Components.md)|_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`long EntityId`](VRage.Game.ModAPI.Ingame.EntityId.md)|_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`string Name`](VRage.Game.ModAPI.Ingame.Name.md)|_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`string DisplayName`](VRage.Game.ModAPI.Ingame.DisplayName.md)|_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`bool HasInventory`](VRage.Game.ModAPI.Ingame.HasInventory.md)|_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`int InventoryCount`](VRage.Game.ModAPI.Ingame.InventoryCount.md)|_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`BoundingBoxD WorldAABB`](VRage.Game.ModAPI.Ingame.WorldAABB.md)|_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`BoundingBoxD WorldAABBHr`](VRage.Game.ModAPI.Ingame.WorldAABBHr.md)|_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`MatrixD WorldMatrix`](VRage.Game.ModAPI.Ingame.WorldMatrix.md)|_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`BoundingSphereD WorldVolume`](VRage.Game.ModAPI.Ingame.WorldVolume.md)|_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`BoundingSphereD WorldVolumeHr`](VRage.Game.ModAPI.Ingame.WorldVolumeHr.md)|_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`SerializableDefinitionId BlockDefinition`](VRage.Game.ModAPI.Ingame.BlockDefinition.md)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`bool CheckConnectionAllowed`](VRage.Game.ModAPI.Ingame.CheckConnectionAllowed.md)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`IMyCubeGrid CubeGrid`](VRage.Game.ModAPI.Ingame.CubeGrid.md)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`string DefinitionDisplayNameText`](VRage.Game.ModAPI.Ingame.DefinitionDisplayNameText.md)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`float DisassembleRatio`](VRage.Game.ModAPI.Ingame.DisassembleRatio.md)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`string DisplayNameText`](VRage.Game.ModAPI.Ingame.DisplayNameText.md)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`bool IsBeingHacked`](VRage.Game.ModAPI.Ingame.IsBeingHacked.md)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`bool IsFunctional`](VRage.Game.ModAPI.Ingame.IsFunctional.md)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`bool IsWorking`](VRage.Game.ModAPI.Ingame.IsWorking.md)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`Vector3I Max`](VRage.Game.ModAPI.Ingame.Max.md)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`float Mass`](VRage.Game.ModAPI.Ingame.Mass.md)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`Vector3I Min`](VRage.Game.ModAPI.Ingame.Min.md)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`int NumberInGrid`](VRage.Game.ModAPI.Ingame.NumberInGrid.md)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`MyBlockOrientation Orientation`](VRage.Game.ModAPI.Ingame.Orientation.md)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`long OwnerId`](VRage.Game.ModAPI.Ingame.OwnerId.md)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`Vector3I Position`](VRage.Game.ModAPI.Ingame.Position.md)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`string CustomName`](Sandbox.ModAPI.Ingame.CustomName.md)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`string CustomNameWithFaction`](Sandbox.ModAPI.Ingame.CustomNameWithFaction.md)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`string DetailedInfo`](Sandbox.ModAPI.Ingame.DetailedInfo.md)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`string CustomInfo`](Sandbox.ModAPI.Ingame.CustomInfo.md)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`string CustomData`](Sandbox.ModAPI.Ingame.CustomData.md)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`bool ShowOnHUD`](Sandbox.ModAPI.Ingame.ShowOnHUD.md)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`bool ShowInTerminal`](Sandbox.ModAPI.Ingame.ShowInTerminal.md)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`bool ShowInToolbarConfig`](Sandbox.ModAPI.Ingame.ShowInToolbarConfig.md)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`bool ShowInInventory`](Sandbox.ModAPI.Ingame.ShowInInventory.md)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`bool Enabled`](Sandbox.ModAPI.Ingame.Enabled.md)|_Inherited from [`IMyFunctionalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`IMyInventory InputInventory`](Sandbox.ModAPI.Ingame.InputInventory.md)|_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`IMyInventory OutputInventory`](Sandbox.ModAPI.Ingame.OutputInventory.md)|_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`bool IsProducing`](Sandbox.ModAPI.Ingame.IsProducing.md)|_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`bool IsQueueEmpty`](Sandbox.ModAPI.Ingame.IsQueueEmpty.md)|_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`uint NextItemId`](Sandbox.ModAPI.Ingame.NextItemId.md)|_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`bool UseConveyorSystem`](Sandbox.ModAPI.Ingame.UseConveyorSystem.md)|_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
+|[`bool DisassembleEnabled`](Sandbox.ModAPI.Ingame.DisassembleEnabled)||
+|[`float CurrentProgress`](Sandbox.ModAPI.Ingame.CurrentProgress)||
+|[`MyAssemblerMode Mode`](Sandbox.ModAPI.Ingame.Mode)||
+|[`bool CooperativeMode`](Sandbox.ModAPI.Ingame.CooperativeMode)||
+|[`bool Repeating`](Sandbox.ModAPI.Ingame.Repeating)||
+|[`MyEntityComponentContainer Components`](VRage.Game.ModAPI.Ingame.Components)|_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`long EntityId`](VRage.Game.ModAPI.Ingame.EntityId)|_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`string Name`](VRage.Game.ModAPI.Ingame.Name)|_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`string DisplayName`](VRage.Game.ModAPI.Ingame.DisplayName)|_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`bool HasInventory`](VRage.Game.ModAPI.Ingame.HasInventory)|_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`int InventoryCount`](VRage.Game.ModAPI.Ingame.InventoryCount)|_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`BoundingBoxD WorldAABB`](VRage.Game.ModAPI.Ingame.WorldAABB)|_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`BoundingBoxD WorldAABBHr`](VRage.Game.ModAPI.Ingame.WorldAABBHr)|_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`MatrixD WorldMatrix`](VRage.Game.ModAPI.Ingame.WorldMatrix)|_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`BoundingSphereD WorldVolume`](VRage.Game.ModAPI.Ingame.WorldVolume)|_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`BoundingSphereD WorldVolumeHr`](VRage.Game.ModAPI.Ingame.WorldVolumeHr)|_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`SerializableDefinitionId BlockDefinition`](VRage.Game.ModAPI.Ingame.BlockDefinition)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`bool CheckConnectionAllowed`](VRage.Game.ModAPI.Ingame.CheckConnectionAllowed)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`IMyCubeGrid CubeGrid`](VRage.Game.ModAPI.Ingame.CubeGrid)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`string DefinitionDisplayNameText`](VRage.Game.ModAPI.Ingame.DefinitionDisplayNameText)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`float DisassembleRatio`](VRage.Game.ModAPI.Ingame.DisassembleRatio)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`string DisplayNameText`](VRage.Game.ModAPI.Ingame.DisplayNameText)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`bool IsBeingHacked`](VRage.Game.ModAPI.Ingame.IsBeingHacked)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`bool IsFunctional`](VRage.Game.ModAPI.Ingame.IsFunctional)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`bool IsWorking`](VRage.Game.ModAPI.Ingame.IsWorking)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`Vector3I Max`](VRage.Game.ModAPI.Ingame.Max)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`float Mass`](VRage.Game.ModAPI.Ingame.Mass)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`Vector3I Min`](VRage.Game.ModAPI.Ingame.Min)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`int NumberInGrid`](VRage.Game.ModAPI.Ingame.NumberInGrid)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`MyBlockOrientation Orientation`](VRage.Game.ModAPI.Ingame.Orientation)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`long OwnerId`](VRage.Game.ModAPI.Ingame.OwnerId)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`Vector3I Position`](VRage.Game.ModAPI.Ingame.Position)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`string CustomName`](Sandbox.ModAPI.Ingame.CustomName)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`string CustomNameWithFaction`](Sandbox.ModAPI.Ingame.CustomNameWithFaction)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`string DetailedInfo`](Sandbox.ModAPI.Ingame.DetailedInfo)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`string CustomInfo`](Sandbox.ModAPI.Ingame.CustomInfo)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`string CustomData`](Sandbox.ModAPI.Ingame.CustomData)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`bool ShowOnHUD`](Sandbox.ModAPI.Ingame.ShowOnHUD)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`bool ShowInTerminal`](Sandbox.ModAPI.Ingame.ShowInTerminal)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`bool ShowInToolbarConfig`](Sandbox.ModAPI.Ingame.ShowInToolbarConfig)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`bool ShowInInventory`](Sandbox.ModAPI.Ingame.ShowInInventory)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`bool Enabled`](Sandbox.ModAPI.Ingame.Enabled)|_Inherited from [`IMyFunctionalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`IMyInventory InputInventory`](Sandbox.ModAPI.Ingame.InputInventory)|_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`IMyInventory OutputInventory`](Sandbox.ModAPI.Ingame.OutputInventory)|_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`bool IsProducing`](Sandbox.ModAPI.Ingame.IsProducing)|_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`bool IsQueueEmpty`](Sandbox.ModAPI.Ingame.IsQueueEmpty)|_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`uint NextItemId`](Sandbox.ModAPI.Ingame.NextItemId)|_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`bool UseConveyorSystem`](Sandbox.ModAPI.Ingame.UseConveyorSystem)|_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
 ### Methods
 |Member|Description|
 |---|---|
-|[`IMyInventory GetInventory()`](VRage.Game.ModAPI.Ingame.GetInventory.md)|_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`IMyInventory GetInventory(int index)`](VRage.Game.ModAPI.Ingame.GetInventory.md)|Search for inventory component with maching index.<br/><br/>_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`Vector3D GetPosition()`](VRage.Game.ModAPI.Ingame.GetPosition.md)|_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`string GetOwnerFactionTag()`](VRage.Game.ModAPI.Ingame.GetOwnerFactionTag.md)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`MyRelationsBetweenPlayerAndBlock GetPlayerRelationToOwner()`](VRage.Game.ModAPI.Ingame.GetPlayerRelationToOwner.md)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`MyRelationsBetweenPlayerAndBlock GetUserRelationToOwner(long playerId)`](VRage.Game.ModAPI.Ingame.GetUserRelationToOwner.md)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`void UpdateIsWorking()`](VRage.Game.ModAPI.Ingame.UpdateIsWorking.md)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`void UpdateVisual()`](VRage.Game.ModAPI.Ingame.UpdateVisual.md)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`bool HasLocalPlayerAccess()`](Sandbox.ModAPI.Ingame.HasLocalPlayerAccess.md)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`bool HasPlayerAccess(long playerId)`](Sandbox.ModAPI.Ingame.HasPlayerAccess.md)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`void SetCustomName(string text)`](Sandbox.ModAPI.Ingame.SetCustomName.md)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`void SetCustomName(StringBuilder text)`](Sandbox.ModAPI.Ingame.SetCustomName.md)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`void GetActions(List<ITerminalAction> resultList, Func<ITerminalAction, bool> collect)`](Sandbox.ModAPI.Ingame.GetActions.md)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`void SearchActionsOfName(string name, List<ITerminalAction> resultList, Func<ITerminalAction, bool> collect)`](Sandbox.ModAPI.Ingame.SearchActionsOfName.md)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`ITerminalAction GetActionWithName(string name)`](Sandbox.ModAPI.Ingame.GetActionWithName.md)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`ITerminalProperty GetProperty(string id)`](Sandbox.ModAPI.Ingame.GetProperty.md)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`void GetProperties(List<ITerminalProperty> resultList, Func<ITerminalProperty, bool> collect)`](Sandbox.ModAPI.Ingame.GetProperties.md)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`bool IsSameConstructAs(IMyTerminalBlock other)`](Sandbox.ModAPI.Ingame.IsSameConstructAs.md)|Determines whether this block is mechanically connected to the other. This is any block connected with rotors or pistons or other mechanical devices, but not things like connectors. This will in most cases constitute your complete construct.<br/>Be aware that using merge blocks combines grids into one, so this function will not filter out grids connected that way. Also be aware that detaching the heads of pistons and rotors will cause this connection to change.<br/><br/>_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`void RequestEnable(bool enable)`](Sandbox.ModAPI.Ingame.RequestEnable.md)|_Inherited from [`IMyFunctionalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`void MoveQueueItemRequest(uint queueItemId, int targetIdx)`](Sandbox.ModAPI.Ingame.MoveQueueItemRequest.md)|_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`bool CanUseBlueprint(MyDefinitionId blueprint)`](Sandbox.ModAPI.Ingame.CanUseBlueprint.md)|Can this production block produce this blueprint?<br/><br/>_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`void AddQueueItem(MyDefinitionId blueprint, MyFixedPoint amount)`](Sandbox.ModAPI.Ingame.AddQueueItem.md)|_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`void AddQueueItem(MyDefinitionId blueprint, decimal amount)`](Sandbox.ModAPI.Ingame.AddQueueItem.md)|_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`void AddQueueItem(MyDefinitionId blueprint, double amount)`](Sandbox.ModAPI.Ingame.AddQueueItem.md)|_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`void InsertQueueItem(int idx, MyDefinitionId blueprint, MyFixedPoint amount)`](Sandbox.ModAPI.Ingame.InsertQueueItem.md)|_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`void InsertQueueItem(int idx, MyDefinitionId blueprint, decimal amount)`](Sandbox.ModAPI.Ingame.InsertQueueItem.md)|_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`void InsertQueueItem(int idx, MyDefinitionId blueprint, double amount)`](Sandbox.ModAPI.Ingame.InsertQueueItem.md)|_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`void RemoveQueueItem(int idx, MyFixedPoint amount)`](Sandbox.ModAPI.Ingame.RemoveQueueItem.md)|_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`void RemoveQueueItem(int idx, decimal amount)`](Sandbox.ModAPI.Ingame.RemoveQueueItem.md)|_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`void RemoveQueueItem(int idx, double amount)`](Sandbox.ModAPI.Ingame.RemoveQueueItem.md)|_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`void ClearQueue()`](Sandbox.ModAPI.Ingame.ClearQueue.md)|_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-|[`void GetQueue(List<MyProductionItem> items)`](Sandbox.ModAPI.Ingame.GetQueue.md)|Gets the current production queue<br/><br/>_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
+|[`IMyInventory GetInventory()`](VRage.Game.ModAPI.Ingame.GetInventory)|_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`IMyInventory GetInventory(int index)`](VRage.Game.ModAPI.Ingame.GetInventory)|Search for inventory component with maching index.<br/><br/>_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`Vector3D GetPosition()`](VRage.Game.ModAPI.Ingame.GetPosition)|_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`string GetOwnerFactionTag()`](VRage.Game.ModAPI.Ingame.GetOwnerFactionTag)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`MyRelationsBetweenPlayerAndBlock GetPlayerRelationToOwner()`](VRage.Game.ModAPI.Ingame.GetPlayerRelationToOwner)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`MyRelationsBetweenPlayerAndBlock GetUserRelationToOwner(long playerId)`](VRage.Game.ModAPI.Ingame.GetUserRelationToOwner)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`void UpdateIsWorking()`](VRage.Game.ModAPI.Ingame.UpdateIsWorking)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`void UpdateVisual()`](VRage.Game.ModAPI.Ingame.UpdateVisual)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`bool HasLocalPlayerAccess()`](Sandbox.ModAPI.Ingame.HasLocalPlayerAccess)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`bool HasPlayerAccess(long playerId)`](Sandbox.ModAPI.Ingame.HasPlayerAccess)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`void SetCustomName(string text)`](Sandbox.ModAPI.Ingame.SetCustomName)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`void SetCustomName(StringBuilder text)`](Sandbox.ModAPI.Ingame.SetCustomName)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`void GetActions(List<ITerminalAction> resultList, Func<ITerminalAction, bool> collect)`](Sandbox.ModAPI.Ingame.GetActions)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`void SearchActionsOfName(string name, List<ITerminalAction> resultList, Func<ITerminalAction, bool> collect)`](Sandbox.ModAPI.Ingame.SearchActionsOfName)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`ITerminalAction GetActionWithName(string name)`](Sandbox.ModAPI.Ingame.GetActionWithName)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`ITerminalProperty GetProperty(string id)`](Sandbox.ModAPI.Ingame.GetProperty)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`void GetProperties(List<ITerminalProperty> resultList, Func<ITerminalProperty, bool> collect)`](Sandbox.ModAPI.Ingame.GetProperties)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`bool IsSameConstructAs(IMyTerminalBlock other)`](Sandbox.ModAPI.Ingame.IsSameConstructAs)|Determines whether this block is mechanically connected to the other. This is any block connected with rotors or pistons or other mechanical devices, but not things like connectors. This will in most cases constitute your complete construct.<br/>Be aware that using merge blocks combines grids into one, so this function will not filter out grids connected that way. Also be aware that detaching the heads of pistons and rotors will cause this connection to change.<br/><br/>_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`void RequestEnable(bool enable)`](Sandbox.ModAPI.Ingame.RequestEnable)|_Inherited from [`IMyFunctionalBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`void MoveQueueItemRequest(uint queueItemId, int targetIdx)`](Sandbox.ModAPI.Ingame.MoveQueueItemRequest)|_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`bool CanUseBlueprint(MyDefinitionId blueprint)`](Sandbox.ModAPI.Ingame.CanUseBlueprint)|Can this production block produce this blueprint?<br/><br/>_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`void AddQueueItem(MyDefinitionId blueprint, MyFixedPoint amount)`](Sandbox.ModAPI.Ingame.AddQueueItem)|_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`void AddQueueItem(MyDefinitionId blueprint, decimal amount)`](Sandbox.ModAPI.Ingame.AddQueueItem)|_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`void AddQueueItem(MyDefinitionId blueprint, double amount)`](Sandbox.ModAPI.Ingame.AddQueueItem)|_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`void InsertQueueItem(int idx, MyDefinitionId blueprint, MyFixedPoint amount)`](Sandbox.ModAPI.Ingame.InsertQueueItem)|_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`void InsertQueueItem(int idx, MyDefinitionId blueprint, decimal amount)`](Sandbox.ModAPI.Ingame.InsertQueueItem)|_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`void InsertQueueItem(int idx, MyDefinitionId blueprint, double amount)`](Sandbox.ModAPI.Ingame.InsertQueueItem)|_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`void RemoveQueueItem(int idx, MyFixedPoint amount)`](Sandbox.ModAPI.Ingame.RemoveQueueItem)|_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`void RemoveQueueItem(int idx, decimal amount)`](Sandbox.ModAPI.Ingame.RemoveQueueItem)|_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`void RemoveQueueItem(int idx, double amount)`](Sandbox.ModAPI.Ingame.RemoveQueueItem)|_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`void ClearQueue()`](Sandbox.ModAPI.Ingame.ClearQueue)|_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|
+|[`void GetQueue(List<MyProductionItem> items)`](Sandbox.ModAPI.Ingame.GetQueue)|Gets the current production queue<br/><br/>_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler)_|

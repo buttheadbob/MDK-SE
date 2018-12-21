@@ -7,16 +7,16 @@ Defines a point in 2D space.
 ### Fields
 |Member|Description|
 |---|---|
-|[`int X`](VRageMath.X.md)||
-|[`int Y`](VRageMath.Y.md)||
+|[`int X`](VRageMath.X)||
+|[`int Y`](VRageMath.Y)||
 ### Properties
 |Member|Description|
 |---|---|
-|[`Point Zero`](VRageMath.Zero.md)||
+|[`Point Zero`](VRageMath.Zero)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`bool Equals(Point other)`](VRageMath.Equals.md)|Determines whether two Point instances are equal.|
-|[`bool Equals(Object obj)`](VRageMath.Equals.md)|Determines whether two Point instances are equal.|
-|[`int GetHashCode()`](VRageMath.GetHashCode.md)||
-|[`string ToString()`](VRageMath.ToString.md)||
+|[`bool Equals(Point other)`](VRageMath.Equals)|Determines whether two Point instances are equal.|
+|[`bool Equals(Object obj)`](VRageMath.Equals)|Determines whether two Point instances are equal.|
+|[`int GetHashCode()`](VRageMath.GetHashCode)||
+|[`string ToString()`](VRageMath.ToString)||

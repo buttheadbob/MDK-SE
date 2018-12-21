@@ -7,9 +7,9 @@ Describes the current status of a laser antenna.
 ### Fields
 |Member|Description|
 |---|---|
-|[`MyLaserAntennaStatus Idle`](Sandbox.ModAPI.Ingame.Idle.md)||
-|[`MyLaserAntennaStatus RotatingToTarget`](Sandbox.ModAPI.Ingame.RotatingToTarget.md)||
-|[`MyLaserAntennaStatus SearchingTargetForAntenna`](Sandbox.ModAPI.Ingame.SearchingTargetForAntenna.md)||
-|[`MyLaserAntennaStatus Connecting`](Sandbox.ModAPI.Ingame.Connecting.md)||
-|[`MyLaserAntennaStatus Connected`](Sandbox.ModAPI.Ingame.Connected.md)||
-|[`MyLaserAntennaStatus OutOfRange`](Sandbox.ModAPI.Ingame.OutOfRange.md)||
+|[`MyLaserAntennaStatus Idle`](Sandbox.ModAPI.Ingame.Idle)||
+|[`MyLaserAntennaStatus RotatingToTarget`](Sandbox.ModAPI.Ingame.RotatingToTarget)||
+|[`MyLaserAntennaStatus SearchingTargetForAntenna`](Sandbox.ModAPI.Ingame.SearchingTargetForAntenna)||
+|[`MyLaserAntennaStatus Connecting`](Sandbox.ModAPI.Ingame.Connecting)||
+|[`MyLaserAntennaStatus Connected`](Sandbox.ModAPI.Ingame.Connected)||
+|[`MyLaserAntennaStatus OutOfRange`](Sandbox.ModAPI.Ingame.OutOfRange)||

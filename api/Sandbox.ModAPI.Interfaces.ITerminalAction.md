@@ -5,13 +5,13 @@
 ### Properties
 |Member|Description|
 |---|---|
-|[`string Id`](Sandbox.ModAPI.Interfaces.Id.md)||
-|[`string Icon`](Sandbox.ModAPI.Interfaces.Icon.md)||
-|[`StringBuilder Name`](Sandbox.ModAPI.Interfaces.Name.md)||
+|[`string Id`](Sandbox.ModAPI.Interfaces.Id)||
+|[`string Icon`](Sandbox.ModAPI.Interfaces.Icon)||
+|[`StringBuilder Name`](Sandbox.ModAPI.Interfaces.Name)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`void Apply(IMyCubeBlock block)`](Sandbox.ModAPI.Interfaces.Apply.md)||
-|[`void Apply(IMyCubeBlock block, ListReader<TerminalActionParameter> terminalActionParameters)`](Sandbox.ModAPI.Interfaces.Apply.md)||
-|[`void WriteValue(IMyCubeBlock block, StringBuilder appendTo)`](Sandbox.ModAPI.Interfaces.WriteValue.md)||
-|[`bool IsEnabled(IMyCubeBlock block)`](Sandbox.ModAPI.Interfaces.IsEnabled.md)||
+|[`void Apply(IMyCubeBlock block)`](Sandbox.ModAPI.Interfaces.Apply)||
+|[`void Apply(IMyCubeBlock block, ListReader<TerminalActionParameter> terminalActionParameters)`](Sandbox.ModAPI.Interfaces.Apply)||
+|[`void WriteValue(IMyCubeBlock block, StringBuilder appendTo)`](Sandbox.ModAPI.Interfaces.WriteValue)||
+|[`bool IsEnabled(IMyCubeBlock block)`](Sandbox.ModAPI.Interfaces.IsEnabled)||

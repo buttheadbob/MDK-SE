@@ -5,4 +5,4 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`float EnergyDensity`](VRage.Game.ObjectBuilders.Definitions.EnergyDensity.md)||
+|[`float EnergyDensity`](VRage.Game.ObjectBuilders.Definitions.EnergyDensity)||

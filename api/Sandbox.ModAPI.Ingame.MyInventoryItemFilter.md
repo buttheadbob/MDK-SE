@@ -5,5 +5,5 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`bool AllSubTypes`](Sandbox.ModAPI.Ingame.AllSubTypes.md)||
-|[`MyDefinitionId ItemId`](Sandbox.ModAPI.Ingame.ItemId.md)||
+|[`bool AllSubTypes`](Sandbox.ModAPI.Ingame.AllSubTypes)||
+|[`MyDefinitionId ItemId`](Sandbox.ModAPI.Ingame.ItemId)||

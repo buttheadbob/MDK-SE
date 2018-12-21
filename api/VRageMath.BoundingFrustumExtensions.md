@@ -5,4 +5,4 @@
 ### Methods
 |Member|Description|
 |---|---|
-|[`BoundingSphere ToBoundingSphere(BoundingFrustum frustum, Vector3[] corners)`](VRageMath.ToBoundingSphere.md)||
+|[`BoundingSphere ToBoundingSphere(BoundingFrustum frustum, Vector3[] corners)`](VRageMath.ToBoundingSphere)||

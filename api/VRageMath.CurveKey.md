@@ -1,10 +1,10 @@
 ← [Index](index.md)
-#CurveKey Class
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-##Summary
+# CurveKey Class
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+## Summary
 Represents a point in a multi-point curve.
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`float Position`](VRageMath.Position.md)||
@@ -12,7 +12,7 @@ Represents a point in a multi-point curve.
 |[`float TangentIn`](VRageMath.TangentIn.md)||
 |[`float TangentOut`](VRageMath.TangentOut.md)||
 |[`CurveContinuity Continuity`](VRageMath.Continuity.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`CurveKey Clone()`](VRageMath.Clone.md)||

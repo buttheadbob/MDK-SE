@@ -1,8 +1,8 @@
 ← [Index](index.md)
-#CubeFace Enum
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-###Fields
+# CubeFace Enum
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+### Fields
 |Member|Description|
 |---|---|
 |[`CubeFace Left`](VRageMath.Left.md)||

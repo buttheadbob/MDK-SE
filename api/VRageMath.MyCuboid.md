@@ -1,17 +1,17 @@
 ← [Index](index.md)
-#MyCuboid Class
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-###Fields
+# MyCuboid Class
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+### Fields
 |Member|Description|
 |---|---|
 |[`MyCuboidSide[] Sides`](VRageMath.Sides.md)||
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`IEnumerable<Line> UniqueLines`](VRageMath.UniqueLines.md)||
 |[`IEnumerable<Vector3> Vertices`](VRageMath.Vertices.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`void CreateFromVertices(Vector3[] vertices)`](VRageMath.CreateFromVertices.md)||

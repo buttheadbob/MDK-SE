@@ -1,8 +1,8 @@
 ← [Index](index.md)
-#Vector2I Struct
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-###Fields
+# Vector2I Struct
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+### Fields
 |Member|Description|
 |---|---|
 |[`int X`](VRageMath.X.md)||
@@ -12,7 +12,7 @@
 |[`Vector2I One`](VRageMath.One.md)||
 |[`Vector2I UnitX`](VRageMath.UnitX.md)||
 |[`Vector2I UnitY`](VRageMath.UnitY.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`string ToString()`](VRageMath.ToString.md)||

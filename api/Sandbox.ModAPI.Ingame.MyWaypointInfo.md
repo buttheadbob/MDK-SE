@@ -1,16 +1,16 @@
 ← [Index](index.md)
-#MyWaypointInfo Struct
-**Namespace:** Sandbox.ModAPI.Ingame  
-**Assembly:** Sandbox.Common.dll  
-##Summary
+# MyWaypointInfo Struct
+** Namespace: ** Sandbox.ModAPI.Ingame  
+** Assembly: ** Sandbox.Common.dll  
+## Summary
 Represents a GPS coordinate
-###Fields
+### Fields
 |Member|Description|
 |---|---|
 |[`string Name`](Sandbox.ModAPI.Ingame.Name.md)||
 |[`Vector3D Coords`](Sandbox.ModAPI.Ingame.Coords.md)||
 |[`MyWaypointInfo Empty`](Sandbox.ModAPI.Ingame.Empty.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`void FindAll(string source, List<MyWaypointInfo> gpsList)`](Sandbox.ModAPI.Ingame.FindAll.md)||

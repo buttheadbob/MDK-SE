@@ -1,10 +1,10 @@
 ← [Index](index.md)
-#TerminalPropertyExtensions Class
-**Namespace:** Sandbox.ModAPI.Interfaces  
-**Assembly:** Sandbox.Common.dll  
-##Summary
+# TerminalPropertyExtensions Class
+** Namespace: ** Sandbox.ModAPI.Interfaces  
+** Assembly: ** Sandbox.Common.dll  
+## Summary
 Terminal block extension for property access
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`ITerminalProperty<TValue> As<TValue>(ITerminalProperty property)`](Sandbox.ModAPI.Interfaces.As.md)||

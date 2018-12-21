@@ -1,14 +1,14 @@
 ← [Index](index.md)
-#IMyOxygenTank Interface
-**Namespace:** Sandbox.ModAPI.Ingame  
-**Assembly:** Sandbox.Common.dll  
-**Implements:**
+# IMyOxygenTank Interface
+** Namespace: ** Sandbox.ModAPI.Ingame  
+** Assembly: ** Sandbox.Common.dll  
+** Implements: **
 * [`Sandbox.ModAPI.Ingame.IMyGasTank`](Sandbox.ModAPI.Ingame.IMyGasTank.md)
 * [`Sandbox.ModAPI.Ingame.IMyFunctionalBlock`](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.md)
 * [`Sandbox.ModAPI.Ingame.IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTerminalBlock.md)
 * [`VRage.Game.ModAPI.Ingame.IMyCubeBlock`](VRage.Game.ModAPI.Ingame.IMyCubeBlock.md)
 * [`VRage.Game.ModAPI.Ingame.IMyEntity`](VRage.Game.ModAPI.Ingame.IMyEntity.md)
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`MyEntityComponentContainer Components`](VRage.Game.ModAPI.Ingame.Components.md)|_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyOxygenTank.md)_|
@@ -52,7 +52,7 @@
 |[`bool AutoRefillBottles`](Sandbox.ModAPI.Ingame.AutoRefillBottles.md)|_Inherited from [`IMyGasTank`](Sandbox.ModAPI.Ingame.IMyOxygenTank.md)_|
 |[`float Capacity`](Sandbox.ModAPI.Ingame.Capacity.md)|_Inherited from [`IMyGasTank`](Sandbox.ModAPI.Ingame.IMyOxygenTank.md)_|
 |[`double FilledRatio`](Sandbox.ModAPI.Ingame.FilledRatio.md)|_Inherited from [`IMyGasTank`](Sandbox.ModAPI.Ingame.IMyOxygenTank.md)_|
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`double GetOxygenLevel()`](Sandbox.ModAPI.Ingame.GetOxygenLevel.md)||

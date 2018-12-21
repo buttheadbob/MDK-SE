@@ -1,20 +1,20 @@
 ← [Index](index.md)
-#MyIniKey Struct
-**Namespace:** VRage.Game.ModAPI.Ingame.Utilities  
-**Assembly:** VRage.Game.dll  
-##Summary
+# MyIniKey Struct
+** Namespace: ** VRage.Game.ModAPI.Ingame.Utilities  
+** Assembly: ** VRage.Game.dll  
+## Summary
 Represents the combination of a section and a key in aT:VRage.Game.ModAPI.Ingame.Utilities.MyInistructure.
-###Fields
+### Fields
 |Member|Description|
 |---|---|
 |[`MyIniKey EMPTY`](VRage.Game.ModAPI.Ingame.Utilities.EMPTY.md)||
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`string Section`](VRage.Game.ModAPI.Ingame.Utilities.Section.md)||
 |[`string Name`](VRage.Game.ModAPI.Ingame.Utilities.Name.md)||
 |[`bool IsEmpty`](VRage.Game.ModAPI.Ingame.Utilities.IsEmpty.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`bool TryParse(string input, ref MyIniKey key)`](VRage.Game.ModAPI.Ingame.Utilities.TryParse.md)||

@@ -1,8 +1,8 @@
 ← [Index](index.md)
-#FlightMode Enum
-**Namespace:** Sandbox.ModAPI.Ingame  
-**Assembly:** Sandbox.Common.dll  
-###Fields
+# FlightMode Enum
+** Namespace: ** Sandbox.ModAPI.Ingame  
+** Assembly: ** Sandbox.Common.dll  
+### Fields
 |Member|Description|
 |---|---|
 |[`FlightMode Patrol`](Sandbox.ModAPI.Ingame.Patrol.md)||

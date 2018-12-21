@@ -1,14 +1,14 @@
 ← [Index](index.md)
-#BoundingFrustum Class
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-##Summary
+# BoundingFrustum Class
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+## Summary
 Defines a frustum and helps determine whether forms intersect with it.
-###Fields
+### Fields
 |Member|Description|
 |---|---|
 |[`int CornerCount`](VRageMath.CornerCount.md)||
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`Plane[] Planes`](VRageMath.Planes.md)||
@@ -20,7 +20,7 @@ Defines a frustum and helps determine whether forms intersect with it.
 |[`Plane Top`](VRageMath.Top.md)||
 |[`Plane Bottom`](VRageMath.Bottom.md)||
 |[`Matrix Matrix`](VRageMath.Matrix.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`Vector3[] GetCorners()`](VRageMath.GetCorners.md)||

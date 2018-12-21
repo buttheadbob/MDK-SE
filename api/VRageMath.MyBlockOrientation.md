@@ -1,19 +1,19 @@
 ← [Index](index.md)
-#MyBlockOrientation Struct
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-###Fields
+# MyBlockOrientation Struct
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+### Fields
 |Member|Description|
 |---|---|
 |[`Direction Forward`](VRageMath.Forward.md)||
 |[`Direction Up`](VRageMath.Up.md)||
 |[`MyBlockOrientation Identity`](VRageMath.Identity.md)||
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`Direction Left`](VRageMath.Left.md)||
 |[`bool IsValid`](VRageMath.IsValid.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`void GetQuaternion(ref Quaternion result)`](VRageMath.GetQuaternion.md)||

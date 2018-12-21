@@ -1,8 +1,8 @@
 ← [Index](index.md)
-#Vector3S Struct
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-###Fields
+# Vector3S Struct
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+### Fields
 |Member|Description|
 |---|---|
 |[`short X`](VRageMath.X.md)||
@@ -14,7 +14,7 @@
 |[`Vector3S Left`](VRageMath.Left.md)||
 |[`Vector3S Forward`](VRageMath.Forward.md)||
 |[`Vector3S Backward`](VRageMath.Backward.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`string ToString()`](VRageMath.ToString.md)||

@@ -1,18 +1,18 @@
 ← [Index](index.md)
-#TextPtr Struct
-**Namespace:** VRage.Game.ModAPI.Ingame.Utilities  
-**Assembly:** VRage.Game.dll  
-###Fields
+# TextPtr Struct
+** Namespace: ** VRage.Game.ModAPI.Ingame.Utilities  
+** Assembly: ** VRage.Game.dll  
+### Fields
 |Member|Description|
 |---|---|
 |[`string Content`](VRage.Game.ModAPI.Ingame.Utilities.Content.md)||
 |[`int Index`](VRage.Game.ModAPI.Ingame.Utilities.Index.md)||
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`char Char`](VRage.Game.ModAPI.Ingame.Utilities.Char.md)||
 |[`bool IsEmpty`](VRage.Game.ModAPI.Ingame.Utilities.IsEmpty.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`bool IsOutOfBounds()`](VRage.Game.ModAPI.Ingame.Utilities.IsOutOfBounds.md)||

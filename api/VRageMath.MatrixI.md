@@ -1,15 +1,15 @@
 ← [Index](index.md)
-#MatrixI Struct
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-###Fields
+# MatrixI Struct
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+### Fields
 |Member|Description|
 |---|---|
 |[`Direction Right`](VRageMath.Right.md)||
 |[`Direction Up`](VRageMath.Up.md)||
 |[`Direction Backward`](VRageMath.Backward.md)||
 |[`Vector3I Translation`](VRageMath.Translation.md)||
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`Direction Left`](VRageMath.Left.md)||
@@ -21,7 +21,7 @@
 |[`Vector3I DownVector`](VRageMath.DownVector.md)||
 |[`Vector3I BackwardVector`](VRageMath.BackwardVector.md)||
 |[`Vector3I ForwardVector`](VRageMath.ForwardVector.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`Direction GetDirection(Direction direction)`](VRageMath.GetDirection.md)||

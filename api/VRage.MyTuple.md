@@ -1,8 +1,8 @@
 ← [Index](index.md)
-#MyTuple Struct
-**Namespace:** VRage  
-**Assembly:** VRage.Library.dll  
-###Fields
+# MyTuple Struct
+** Namespace: ** VRage  
+** Assembly: ** VRage.Library.dll  
+### Fields
 |Member|Description|
 |---|---|
 |[`T1 Item1`](VRage.Item1.md)||

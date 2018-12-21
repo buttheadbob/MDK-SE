@@ -1,8 +1,8 @@
 ← [Index](index.md)
-#MySpaceTexts Class
-**Namespace:** Sandbox.Game.Localization  
-**Assembly:** Sandbox.Game.dll  
-###Fields
+# MySpaceTexts Class
+** Namespace: ** Sandbox.Game.Localization  
+** Assembly: ** Sandbox.Game.dll  
+### Fields
 |Member|Description|
 |---|---|
 |[`MyStringId Blank`](Sandbox.Game.Localization.Blank.md)||

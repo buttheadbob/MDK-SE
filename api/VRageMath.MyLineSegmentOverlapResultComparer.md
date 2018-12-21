@@ -1,4 +1,4 @@
 ← [Index](index.md)
-#MyLineSegmentOverlapResultComparer Class
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
+# MyLineSegmentOverlapResultComparer Class
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  

@@ -1,8 +1,8 @@
 ← [Index](index.md)
-#ColorExtensions Class
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-###Methods
+# ColorExtensions Class
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+### Methods
 |Member|Description|
 |---|---|
 |[`Vector3 ColorToHSV(Color rgb)`](VRageMath.ColorToHSV.md)||

@@ -1,8 +1,8 @@
 ← [Index](index.md)
-#MyDetectedEntityType Enum
-**Namespace:** Sandbox.ModAPI.Ingame  
-**Assembly:** Sandbox.Common.dll  
-###Fields
+# MyDetectedEntityType Enum
+** Namespace: ** Sandbox.ModAPI.Ingame  
+** Assembly: ** Sandbox.Common.dll  
+### Fields
 |Member|Description|
 |---|---|
 |[`MyDetectedEntityType None`](Sandbox.ModAPI.Ingame.None.md)||

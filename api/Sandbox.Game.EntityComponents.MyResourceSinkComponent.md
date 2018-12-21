@@ -1,9 +1,9 @@
 ← [Index](index.md)
-#MyResourceSinkComponent Class
-**Namespace:** Sandbox.Game.EntityComponents  
-**Assembly:** Sandbox.Game.dll  
-**Inheritance: **[`MyResourceSinkComponentBase`](VRage.Game.Components.MyResourceSinkComponentBase.md)
-###Properties
+# MyResourceSinkComponent Class
+** Namespace: ** Sandbox.Game.EntityComponents  
+** Assembly: ** Sandbox.Game.dll  
+** Inheritance:  **[`MyResourceSinkComponentBase`](VRage.Game.Components.MyResourceSinkComponentBase.md)
+### Properties
 |Member|Description|
 |---|---|
 |[`float RequiredInput`](Sandbox.Game.EntityComponents.RequiredInput.md)||
@@ -12,7 +12,7 @@
 |[`bool IsPowered`](Sandbox.Game.EntityComponents.IsPowered.md)||
 |[`ListReader<MyDefinitionId> AcceptedResources`](Sandbox.Game.EntityComponents.AcceptedResources.md)||
 |[`ListReader<MyDefinitionId> AcceptedResources`](VRage.Game.Components.AcceptedResources.md)|_Inherited from [`MyResourceSinkComponentBase`](Sandbox.Game.EntityComponents.MyResourceSinkComponent.md)_|
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`float CurrentInputByType(MyDefinitionId resourceTypeId)`](VRage.Game.Components.CurrentInputByType.md)|_Inherited from [`MyResourceSinkComponentBase`](Sandbox.Game.EntityComponents.MyResourceSinkComponent.md)_|

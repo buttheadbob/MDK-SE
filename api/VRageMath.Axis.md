@@ -1,4 +1,4 @@
 ← [Index](index.md)
-#Axis Enum
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
+# Axis Enum
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  

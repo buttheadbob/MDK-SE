@@ -1,14 +1,14 @@
 ← [Index](index.md)
-#IMySmallMissileLauncher Interface
-**Namespace:** Sandbox.ModAPI.Ingame  
-**Assembly:** Sandbox.Common.dll  
-**Implements:**
+# IMySmallMissileLauncher Interface
+** Namespace: ** Sandbox.ModAPI.Ingame  
+** Assembly: ** Sandbox.Common.dll  
+** Implements: **
 * [`Sandbox.ModAPI.Ingame.IMyUserControllableGun`](Sandbox.ModAPI.Ingame.IMyUserControllableGun.md)
 * [`Sandbox.ModAPI.Ingame.IMyFunctionalBlock`](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.md)
 * [`Sandbox.ModAPI.Ingame.IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTerminalBlock.md)
 * [`VRage.Game.ModAPI.Ingame.IMyCubeBlock`](VRage.Game.ModAPI.Ingame.IMyCubeBlock.md)
 * [`VRage.Game.ModAPI.Ingame.IMyEntity`](VRage.Game.ModAPI.Ingame.IMyEntity.md)
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`bool UseConveyorSystem`](Sandbox.ModAPI.Ingame.UseConveyorSystem.md)||
@@ -50,7 +50,7 @@
 |[`bool ShowInInventory`](Sandbox.ModAPI.Ingame.ShowInInventory.md)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMySmallMissileLauncher.md)_|
 |[`bool Enabled`](Sandbox.ModAPI.Ingame.Enabled.md)|_Inherited from [`IMyFunctionalBlock`](Sandbox.ModAPI.Ingame.IMySmallMissileLauncher.md)_|
 |[`bool IsShooting`](Sandbox.ModAPI.Ingame.IsShooting.md)|_Inherited from [`IMyUserControllableGun`](Sandbox.ModAPI.Ingame.IMySmallMissileLauncher.md)_|
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`IMyInventory GetInventory()`](VRage.Game.ModAPI.Ingame.GetInventory.md)|_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMySmallMissileLauncher.md)_|

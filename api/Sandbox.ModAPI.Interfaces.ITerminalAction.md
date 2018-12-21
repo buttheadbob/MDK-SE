@@ -1,14 +1,14 @@
 ← [Index](index.md)
-#ITerminalAction Interface
-**Namespace:** Sandbox.ModAPI.Interfaces  
-**Assembly:** Sandbox.Common.dll  
-###Properties
+# ITerminalAction Interface
+** Namespace: ** Sandbox.ModAPI.Interfaces  
+** Assembly: ** Sandbox.Common.dll  
+### Properties
 |Member|Description|
 |---|---|
 |[`string Id`](Sandbox.ModAPI.Interfaces.Id.md)||
 |[`string Icon`](Sandbox.ModAPI.Interfaces.Icon.md)||
 |[`StringBuilder Name`](Sandbox.ModAPI.Interfaces.Name.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`void Apply(IMyCubeBlock block)`](Sandbox.ModAPI.Interfaces.Apply.md)||

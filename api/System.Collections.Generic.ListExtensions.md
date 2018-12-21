@@ -1,8 +1,8 @@
 ← [Index](index.md)
-#ListExtensions Class
-**Namespace:** System.Collections.Generic  
-**Assembly:** VRage.Library.dll  
-###Methods
+# ListExtensions Class
+** Namespace: ** System.Collections.Generic  
+** Assembly: ** VRage.Library.dll  
+### Methods
 |Member|Description|
 |---|---|
 |[`ClearToken<T> GetClearToken<T>(List<T> list)`](System.Collections.Generic.GetClearToken.md)||

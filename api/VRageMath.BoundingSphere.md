@@ -1,15 +1,15 @@
 ← [Index](index.md)
-#BoundingSphere Struct
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-##Summary
+# BoundingSphere Struct
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+## Summary
 Defines a sphere.
-###Fields
+### Fields
 |Member|Description|
 |---|---|
 |[`Vector3 Center`](VRageMath.Center.md)||
 |[`float Radius`](VRageMath.Radius.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`bool Equals(BoundingSphere other)`](VRageMath.Equals.md)|Determines whether the specified BoundingSphere is equal to the current BoundingSphere.|

@@ -1,10 +1,10 @@
 ← [Index](index.md)
-#PlaneIntersectionType Enum
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-##Summary
+# PlaneIntersectionType Enum
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+## Summary
 Describes the intersection between a plane and a bounding volume.
-###Fields
+### Fields
 |Member|Description|
 |---|---|
 |[`PlaneIntersectionType Front`](VRageMath.Front.md)||

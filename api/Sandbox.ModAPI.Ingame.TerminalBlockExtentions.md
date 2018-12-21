@@ -1,8 +1,8 @@
 ← [Index](index.md)
-#TerminalBlockExtentions Class
-**Namespace:** Sandbox.ModAPI.Ingame  
-**Assembly:** Sandbox.Common.dll  
-###Methods
+# TerminalBlockExtentions Class
+** Namespace: ** Sandbox.ModAPI.Ingame  
+** Assembly: ** Sandbox.Common.dll  
+### Methods
 |Member|Description|
 |---|---|
 |[`long GetId(IMyTerminalBlock block)`](Sandbox.ModAPI.Ingame.GetId.md)||

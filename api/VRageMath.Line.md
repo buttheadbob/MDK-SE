@@ -1,8 +1,8 @@
 ← [Index](index.md)
-#Line Struct
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-###Fields
+# Line Struct
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+### Fields
 |Member|Description|
 |---|---|
 |[`Vector3 From`](VRageMath.From.md)||
@@ -10,7 +10,7 @@
 |[`Vector3 Direction`](VRageMath.Direction.md)||
 |[`float Length`](VRageMath.Length.md)||
 |[`BoundingBox BoundingBox`](VRageMath.BoundingBox.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`float GetShortestDistanceSquared(Line line1, Line line2)`](VRageMath.GetShortestDistanceSquared.md)||

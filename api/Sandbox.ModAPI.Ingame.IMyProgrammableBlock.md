@@ -1,13 +1,13 @@
 ← [Index](index.md)
-#IMyProgrammableBlock Interface
-**Namespace:** Sandbox.ModAPI.Ingame  
-**Assembly:** Sandbox.Common.dll  
-**Implements:**
+# IMyProgrammableBlock Interface
+** Namespace: ** Sandbox.ModAPI.Ingame  
+** Assembly: ** Sandbox.Common.dll  
+** Implements: **
 * [`Sandbox.ModAPI.Ingame.IMyFunctionalBlock`](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.md)
 * [`Sandbox.ModAPI.Ingame.IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTerminalBlock.md)
 * [`VRage.Game.ModAPI.Ingame.IMyCubeBlock`](VRage.Game.ModAPI.Ingame.IMyCubeBlock.md)
 * [`VRage.Game.ModAPI.Ingame.IMyEntity`](VRage.Game.ModAPI.Ingame.IMyEntity.md)
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`bool IsRunning`](Sandbox.ModAPI.Ingame.IsRunning.md)||
@@ -49,7 +49,7 @@
 |[`bool ShowInToolbarConfig`](Sandbox.ModAPI.Ingame.ShowInToolbarConfig.md)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyProgrammableBlock.md)_|
 |[`bool ShowInInventory`](Sandbox.ModAPI.Ingame.ShowInInventory.md)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyProgrammableBlock.md)_|
 |[`bool Enabled`](Sandbox.ModAPI.Ingame.Enabled.md)|_Inherited from [`IMyFunctionalBlock`](Sandbox.ModAPI.Ingame.IMyProgrammableBlock.md)_|
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`bool TryRun(string argument)`](Sandbox.ModAPI.Ingame.TryRun.md)|Attempts to run this programmable block using the given argument. An already running programmable block cannot be run again. This is equivalent to runningblock.ApplyAction("Run", argumentsList);This should be called from an ingame script. Do not use in mods.|

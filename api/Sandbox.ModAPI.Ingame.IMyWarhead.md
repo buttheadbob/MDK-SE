@@ -1,12 +1,12 @@
 ← [Index](index.md)
-#IMyWarhead Interface
-**Namespace:** Sandbox.ModAPI.Ingame  
-**Assembly:** Sandbox.Common.dll  
-**Implements:**
+# IMyWarhead Interface
+** Namespace: ** Sandbox.ModAPI.Ingame  
+** Assembly: ** Sandbox.Common.dll  
+** Implements: **
 * [`Sandbox.ModAPI.Ingame.IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTerminalBlock.md)
 * [`VRage.Game.ModAPI.Ingame.IMyCubeBlock`](VRage.Game.ModAPI.Ingame.IMyCubeBlock.md)
 * [`VRage.Game.ModAPI.Ingame.IMyEntity`](VRage.Game.ModAPI.Ingame.IMyEntity.md)
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`bool IsCountingDown`](Sandbox.ModAPI.Ingame.IsCountingDown.md)||
@@ -48,7 +48,7 @@
 |[`bool ShowInTerminal`](Sandbox.ModAPI.Ingame.ShowInTerminal.md)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyWarhead.md)_|
 |[`bool ShowInToolbarConfig`](Sandbox.ModAPI.Ingame.ShowInToolbarConfig.md)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyWarhead.md)_|
 |[`bool ShowInInventory`](Sandbox.ModAPI.Ingame.ShowInInventory.md)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyWarhead.md)_|
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`bool StartCountdown()`](Sandbox.ModAPI.Ingame.StartCountdown.md)||

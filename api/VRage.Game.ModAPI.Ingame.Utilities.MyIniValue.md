@@ -1,19 +1,19 @@
 ← [Index](index.md)
-#MyIniValue Struct
-**Namespace:** VRage.Game.ModAPI.Ingame.Utilities  
-**Assembly:** VRage.Game.dll  
-##Summary
+# MyIniValue Struct
+** Namespace: ** VRage.Game.ModAPI.Ingame.Utilities  
+** Assembly: ** VRage.Game.dll  
+## Summary
 Represents the value of a single configuration item.
-###Fields
+### Fields
 |Member|Description|
 |---|---|
 |[`MyIniKey Key`](VRage.Game.ModAPI.Ingame.Utilities.Key.md)||
 |[`MyIniValue EMPTY`](VRage.Game.ModAPI.Ingame.Utilities.EMPTY.md)||
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`bool IsEmpty`](VRage.Game.ModAPI.Ingame.Utilities.IsEmpty.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`bool ToBoolean(bool defaultValue)`](VRage.Game.ModAPI.Ingame.Utilities.ToBoolean.md)|Attempts to get this value as aT:System.Boolean. If the value is empty or cannot be understood as this data type, the!:defaultValuewill be returned instead.|

@@ -1,8 +1,8 @@
 ← [Index](index.md)
-#MyProductionItem Struct
-**Namespace:** Sandbox.ModAPI.Ingame  
-**Assembly:** Sandbox.Common.dll  
-###Fields
+# MyProductionItem Struct
+** Namespace: ** Sandbox.ModAPI.Ingame  
+** Assembly: ** Sandbox.Common.dll  
+### Fields
 |Member|Description|
 |---|---|
 |[`MyFixedPoint Amount`](Sandbox.ModAPI.Ingame.Amount.md)||

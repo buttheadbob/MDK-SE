@@ -1,16 +1,16 @@
 ← [Index](index.md)
-#Color Struct
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-**Implements:**
+# Color Struct
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+** Implements: **
 * [`VRageMath.PackedVector.IPackedVector`](VRageMath.PackedVector.IPackedVector.md)
-##Summary
+## Summary
 Represents a four-component color using red, green, blue, and alpha data.
-###Fields
+### Fields
 |Member|Description|
 |---|---|
 |[`uint PackedValue`](VRageMath.PackedValue.md)||
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`byte X`](VRageMath.X.md)||
@@ -161,7 +161,7 @@ Represents a four-component color using red, green, blue, and alpha data.
 |[`Color WhiteSmoke`](VRageMath.WhiteSmoke.md)||
 |[`Color Yellow`](VRageMath.Yellow.md)||
 |[`Color YellowGreen`](VRageMath.YellowGreen.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`Color FromNonPremultiplied(Vector4 vector)`](VRageMath.FromNonPremultiplied.md)|Convert a non premultipled color into color data that contains alpha.|

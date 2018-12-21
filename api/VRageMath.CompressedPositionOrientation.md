@@ -1,19 +1,19 @@
 ← [Index](index.md)
-#CompressedPositionOrientation Struct
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-##Summary
+# CompressedPositionOrientation Struct
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+## Summary
 Defines a matrix.
-###Fields
+### Fields
 |Member|Description|
 |---|---|
 |[`Vector3 Position`](VRageMath.Position.md)||
 |[`HalfVector4 Orientation`](VRageMath.Orientation.md)||
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`Matrix Matrix`](VRageMath.Matrix.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`void FromMatrix(ref Matrix matrix)`](VRageMath.FromMatrix.md)||

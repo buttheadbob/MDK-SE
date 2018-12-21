@@ -1,8 +1,8 @@
 ← [Index](index.md)
-#DictionaryExtensions Class
-**Namespace:** System.Collections.Generic  
-**Assembly:** VRage.Library.dll  
-###Methods
+# DictionaryExtensions Class
+** Namespace: ** System.Collections.Generic  
+** Assembly: ** VRage.Library.dll  
+### Methods
 |Member|Description|
 |---|---|
 |[`V GetValueOrDefault<K, V>(Dictionary<K, V> dictionary, K key)`](System.Collections.Generic.GetValueOrDefault.md)||

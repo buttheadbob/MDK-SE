@@ -1,15 +1,15 @@
 ← [Index](index.md)
-#Base27Directions Class
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-##Summary
+# Base27Directions Class
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+## Summary
 Base 26 directions and Vector3.Zero Each component is only 0,-1 or 1;
-###Fields
+### Fields
 |Member|Description|
 |---|---|
 |[`Vector3[] Directions`](VRageMath.Directions.md)||
 |[`Vector3I[] DirectionsInt`](VRageMath.DirectionsInt.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`bool IsBaseDirection(ref Vector3 vec)`](VRageMath.IsBaseDirection.md)||

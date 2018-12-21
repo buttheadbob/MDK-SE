@@ -1,12 +1,12 @@
 ← [Index](index.md)
-#MyVector3DGrid Class
-**Namespace:** VRageMath.Spatial  
-**Assembly:** VRage.Math.dll  
-###Properties
+# MyVector3DGrid Class
+** Namespace: ** VRageMath.Spatial  
+** Assembly: ** VRage.Math.dll  
+### Properties
 |Member|Description|
 |---|---|
 |[`int Count`](VRageMath.Spatial.Count.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`void Clear()`](VRageMath.Spatial.Clear.md)||

@@ -1,8 +1,8 @@
 ← [Index](index.md)
-#MyLineSegmentOverlapResult Struct
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-###Fields
+# MyLineSegmentOverlapResult Struct
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+### Fields
 |Member|Description|
 |---|---|
 |[`double Distance`](VRageMath.Distance.md)||

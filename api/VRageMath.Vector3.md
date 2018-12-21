@@ -1,10 +1,10 @@
 ← [Index](index.md)
-#Vector3 Struct
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-##Summary
+# Vector3 Struct
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+## Summary
 Defines a vector with three components.
-###Fields
+### Fields
 |Member|Description|
 |---|---|
 |[`float X`](VRageMath.X.md)||
@@ -28,12 +28,12 @@ Defines a vector with three components.
 |[`Vector3 MaxValue`](VRageMath.MaxValue.md)||
 |[`Vector3 MinValue`](VRageMath.MinValue.md)||
 |[`Vector3 Invalid`](VRageMath.Invalid.md)||
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`float Sum`](VRageMath.Sum.md)||
 |[`float Volume`](VRageMath.Volume.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`void Negate(ref Vector3 value, ref Vector3 result)`](VRageMath.Negate.md)||

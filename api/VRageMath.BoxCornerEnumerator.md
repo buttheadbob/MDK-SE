@@ -1,12 +1,12 @@
 ← [Index](index.md)
-#BoxCornerEnumerator Struct
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-###Properties
+# BoxCornerEnumerator Struct
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+### Properties
 |Member|Description|
 |---|---|
 |[`Vector3 Current`](VRageMath.Current.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`void Add(Object tmp)`](VRageMath.Add.md)||

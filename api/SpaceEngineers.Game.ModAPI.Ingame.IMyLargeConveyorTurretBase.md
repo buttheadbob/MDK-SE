@@ -1,15 +1,15 @@
 ← [Index](index.md)
-#IMyLargeConveyorTurretBase Interface
-**Namespace:** SpaceEngineers.Game.ModAPI.Ingame  
-**Assembly:** SpaceEngineers.Game.dll  
-**Implements:**
+# IMyLargeConveyorTurretBase Interface
+** Namespace: ** SpaceEngineers.Game.ModAPI.Ingame  
+** Assembly: ** SpaceEngineers.Game.dll  
+** Implements: **
 * [`Sandbox.ModAPI.Ingame.IMyLargeTurretBase`](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.md)
 * [`Sandbox.ModAPI.Ingame.IMyUserControllableGun`](Sandbox.ModAPI.Ingame.IMyUserControllableGun.md)
 * [`Sandbox.ModAPI.Ingame.IMyFunctionalBlock`](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.md)
 * [`Sandbox.ModAPI.Ingame.IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTerminalBlock.md)
 * [`VRage.Game.ModAPI.Ingame.IMyCubeBlock`](VRage.Game.ModAPI.Ingame.IMyCubeBlock.md)
 * [`VRage.Game.ModAPI.Ingame.IMyEntity`](VRage.Game.ModAPI.Ingame.IMyEntity.md)
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`bool UseConveyorSystem`](SpaceEngineers.Game.ModAPI.Ingame.UseConveyorSystem.md)||
@@ -60,7 +60,7 @@
 |[`float Azimuth`](Sandbox.ModAPI.Ingame.Azimuth.md)|_Inherited from [`IMyLargeTurretBase`](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase.md)_|
 |[`bool EnableIdleRotation`](Sandbox.ModAPI.Ingame.EnableIdleRotation.md)|_Inherited from [`IMyLargeTurretBase`](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase.md)_|
 |[`bool AIEnabled`](Sandbox.ModAPI.Ingame.AIEnabled.md)|_Inherited from [`IMyLargeTurretBase`](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase.md)_|
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`IMyInventory GetInventory()`](VRage.Game.ModAPI.Ingame.GetInventory.md)|_Inherited from [`IMyEntity`](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase.md)_|

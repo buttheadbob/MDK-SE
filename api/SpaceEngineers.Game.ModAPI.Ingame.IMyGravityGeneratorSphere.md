@@ -1,14 +1,14 @@
 ← [Index](index.md)
-#IMyGravityGeneratorSphere Interface
-**Namespace:** SpaceEngineers.Game.ModAPI.Ingame  
-**Assembly:** SpaceEngineers.Game.dll  
-**Implements:**
+# IMyGravityGeneratorSphere Interface
+** Namespace: ** SpaceEngineers.Game.ModAPI.Ingame  
+** Assembly: ** SpaceEngineers.Game.dll  
+** Implements: **
 * [`SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorBase`](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorBase.md)
 * [`Sandbox.ModAPI.Ingame.IMyFunctionalBlock`](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.md)
 * [`Sandbox.ModAPI.Ingame.IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTerminalBlock.md)
 * [`VRage.Game.ModAPI.Ingame.IMyCubeBlock`](VRage.Game.ModAPI.Ingame.IMyCubeBlock.md)
 * [`VRage.Game.ModAPI.Ingame.IMyEntity`](VRage.Game.ModAPI.Ingame.IMyEntity.md)
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`float Radius`](SpaceEngineers.Game.ModAPI.Ingame.Radius.md)||
@@ -51,7 +51,7 @@
 |[`bool Enabled`](Sandbox.ModAPI.Ingame.Enabled.md)|_Inherited from [`IMyFunctionalBlock`](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorSphere.md)_|
 |[`float Gravity`](SpaceEngineers.Game.ModAPI.Ingame.Gravity.md)|_Inherited from [`IMyGravityGeneratorBase`](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorSphere.md)_|
 |[`float GravityAcceleration`](SpaceEngineers.Game.ModAPI.Ingame.GravityAcceleration.md)|_Inherited from [`IMyGravityGeneratorBase`](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorSphere.md)_|
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`IMyInventory GetInventory()`](VRage.Game.ModAPI.Ingame.GetInventory.md)|_Inherited from [`IMyEntity`](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorSphere.md)_|

@@ -1,8 +1,8 @@
 ← [Index](index.md)
-#MyRelationsBetweenPlayerAndBlock Enum
-**Namespace:** VRage.Game  
-**Assembly:** VRage.Game.dll  
-###Fields
+# MyRelationsBetweenPlayerAndBlock Enum
+** Namespace: ** VRage.Game  
+** Assembly: ** VRage.Game.dll  
+### Fields
 |Member|Description|
 |---|---|
 |[`MyRelationsBetweenPlayerAndBlock NoOwnership`](VRage.Game.NoOwnership.md)||

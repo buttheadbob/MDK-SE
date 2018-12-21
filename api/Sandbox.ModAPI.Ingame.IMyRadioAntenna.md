@@ -1,15 +1,15 @@
 ← [Index](index.md)
-#IMyRadioAntenna Interface
-**Namespace:** Sandbox.ModAPI.Ingame  
-**Assembly:** Sandbox.Common.dll  
-**Implements:**
+# IMyRadioAntenna Interface
+** Namespace: ** Sandbox.ModAPI.Ingame  
+** Assembly: ** Sandbox.Common.dll  
+** Implements: **
 * [`Sandbox.ModAPI.Ingame.IMyFunctionalBlock`](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.md)
 * [`Sandbox.ModAPI.Ingame.IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTerminalBlock.md)
 * [`VRage.Game.ModAPI.Ingame.IMyCubeBlock`](VRage.Game.ModAPI.Ingame.IMyCubeBlock.md)
 * [`VRage.Game.ModAPI.Ingame.IMyEntity`](VRage.Game.ModAPI.Ingame.IMyEntity.md)
-##Summary
+## Summary
 Antenna block interface
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`float Radius`](Sandbox.ModAPI.Ingame.Radius.md)||
@@ -56,7 +56,7 @@ Antenna block interface
 |[`bool ShowInToolbarConfig`](Sandbox.ModAPI.Ingame.ShowInToolbarConfig.md)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyRadioAntenna.md)_|
 |[`bool ShowInInventory`](Sandbox.ModAPI.Ingame.ShowInInventory.md)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyRadioAntenna.md)_|
 |[`bool Enabled`](Sandbox.ModAPI.Ingame.Enabled.md)|_Inherited from [`IMyFunctionalBlock`](Sandbox.ModAPI.Ingame.IMyRadioAntenna.md)_|
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`bool TransmitMessage(string message, MyTransmitTarget target)`](Sandbox.ModAPI.Ingame.TransmitMessage.md)||

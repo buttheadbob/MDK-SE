@@ -1,4 +1,4 @@
 ← [Index](index.md)
-#ComparerType Class
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
+# ComparerType Class
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  

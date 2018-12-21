@@ -1,12 +1,12 @@
 ← [Index](index.md)
-#IMyCubeGrid Interface
-**Namespace:** VRage.Game.ModAPI.Ingame  
-**Assembly:** VRage.Game.dll  
-**Implements:**
+# IMyCubeGrid Interface
+** Namespace: ** VRage.Game.ModAPI.Ingame  
+** Assembly: ** VRage.Game.dll  
+** Implements: **
 * [`VRage.Game.ModAPI.Ingame.IMyEntity`](VRage.Game.ModAPI.Ingame.IMyEntity.md)
-##Summary
+## Summary
 Grid interface
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`string CustomName`](VRage.Game.ModAPI.Ingame.CustomName.md)||
@@ -26,7 +26,7 @@ Grid interface
 |[`MatrixD WorldMatrix`](VRage.Game.ModAPI.Ingame.WorldMatrix.md)|_Inherited from [`IMyEntity`](VRage.Game.ModAPI.Ingame.IMyCubeGrid.md)_|
 |[`BoundingSphereD WorldVolume`](VRage.Game.ModAPI.Ingame.WorldVolume.md)|_Inherited from [`IMyEntity`](VRage.Game.ModAPI.Ingame.IMyCubeGrid.md)_|
 |[`BoundingSphereD WorldVolumeHr`](VRage.Game.ModAPI.Ingame.WorldVolumeHr.md)|_Inherited from [`IMyEntity`](VRage.Game.ModAPI.Ingame.IMyCubeGrid.md)_|
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`bool CubeExists(Vector3I pos)`](VRage.Game.ModAPI.Ingame.CubeExists.md)|Returns true if there is any block occupying given position|

@@ -1,12 +1,12 @@
 ← [Index](index.md)
-#IMyBlockGroup Interface
-**Namespace:** Sandbox.ModAPI.Ingame  
-**Assembly:** Sandbox.Common.dll  
-###Properties
+# IMyBlockGroup Interface
+** Namespace: ** Sandbox.ModAPI.Ingame  
+** Assembly: ** Sandbox.Common.dll  
+### Properties
 |Member|Description|
 |---|---|
 |[`string Name`](Sandbox.ModAPI.Ingame.Name.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`void GetBlocks(List<IMyTerminalBlock> blocks, Func<IMyTerminalBlock, bool> collect)`](Sandbox.ModAPI.Ingame.GetBlocks.md)||

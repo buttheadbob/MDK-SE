@@ -1,14 +1,14 @@
 ← [Index](index.md)
-#MyDynamicAABBTreeD Class
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-##Summary
+# MyDynamicAABBTreeD Class
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+## Summary
 Dynamic aabb tree implementation as a prunning structure
-###Fields
+### Fields
 |Member|Description|
 |---|---|
 |[`int NullNode`](VRageMath.NullNode.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`int AddProxy(ref BoundingBoxD aabb, Object userData, uint userFlags, bool rebalance)`](VRageMath.AddProxy.md)||

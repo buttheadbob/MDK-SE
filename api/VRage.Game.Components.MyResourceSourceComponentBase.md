@@ -1,8 +1,8 @@
 ← [Index](index.md)
-#MyResourceSourceComponentBase Class
-**Namespace:** VRage.Game.Components  
-**Assembly:** VRage.Game.dll  
-###Methods
+# MyResourceSourceComponentBase Class
+** Namespace: ** VRage.Game.Components  
+** Assembly: ** VRage.Game.dll  
+### Methods
 |Member|Description|
 |---|---|
 |[`float CurrentOutputByType(MyDefinitionId resourceTypeId)`](VRage.Game.Components.CurrentOutputByType.md)|Currently used power output of the producer in MW or litres/h.|

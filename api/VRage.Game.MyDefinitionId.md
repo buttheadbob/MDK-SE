@@ -1,20 +1,20 @@
 ← [Index](index.md)
-#MyDefinitionId Struct
-**Namespace:** VRage.Game  
-**Assembly:** VRage.Game.dll  
-##Summary
+# MyDefinitionId Struct
+** Namespace: ** VRage.Game  
+** Assembly: ** VRage.Game.dll  
+## Summary
 Prefer getting definition ID using object builder used to create the item. If you have automatic rifle, in its Init method create new MyDefinitionId using TypeId and SubtypeName of object builder. Do not write specific values in code, as data comes from XML and if those change, code needs to change as well.
-###Fields
+### Fields
 |Member|Description|
 |---|---|
 |[`MyObjectBuilderType TypeId`](VRage.Game.TypeId.md)||
 |[`MyStringHash SubtypeId`](VRage.Game.SubtypeId.md)||
 |[`DefinitionIdComparerType Comparer`](VRage.Game.Comparer.md)||
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`string SubtypeName`](VRage.Game.SubtypeName.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`MyDefinitionId FromContent(MyObjectBuilder_Base content)`](VRage.Game.FromContent.md)|Creates a new definition ID from a given content.|

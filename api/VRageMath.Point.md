@@ -1,19 +1,19 @@
 ← [Index](index.md)
-#Point Struct
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-##Summary
+# Point Struct
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+## Summary
 Defines a point in 2D space.
-###Fields
+### Fields
 |Member|Description|
 |---|---|
 |[`int X`](VRageMath.X.md)||
 |[`int Y`](VRageMath.Y.md)||
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`Point Zero`](VRageMath.Zero.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`bool Equals(Point other)`](VRageMath.Equals.md)|Determines whether two Point instances are equal.|

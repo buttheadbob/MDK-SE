@@ -1,8 +1,8 @@
 ← [Index](index.md)
-#MyObjectBuilder_Base Class
-**Namespace:** VRage.ObjectBuilders  
-**Assembly:** VRage.Game.dll  
-###Properties
+# MyObjectBuilder_Base Class
+** Namespace: ** VRage.ObjectBuilders  
+** Assembly: ** VRage.Game.dll  
+### Properties
 |Member|Description|
 |---|---|
 |[`MyStringHash SubtypeId`](VRage.ObjectBuilders.SubtypeId.md)||

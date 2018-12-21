@@ -1,8 +1,8 @@
 ← [Index](index.md)
-#MyOrientedBoundingBoxD Struct
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-###Fields
+# MyOrientedBoundingBoxD Struct
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+### Fields
 |Member|Description|
 |---|---|
 |[`Vector3D Center`](VRageMath.Center.md)||
@@ -23,7 +23,7 @@
 |[`Vector3[] ZNeighbourVectorsBack`](VRageMath.ZNeighbourVectorsBack.md)||
 |[`Vector3[] ZNeighbourVectorsForw`](VRageMath.ZNeighbourVectorsForw.md)||
 |[`int CornerCount`](VRageMath.CornerCount.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`bool GetNormalBetweenEdges(int axis, int edge0, int edge1, ref Vector3 normal)`](VRageMath.GetNormalBetweenEdges.md)||

@@ -1,8 +1,8 @@
 ← [Index](index.md)
-#IMyInventoryItem Interface
-**Namespace:** VRage.Game.ModAPI.Ingame  
-**Assembly:** VRage.Game.dll  
-###Properties
+# IMyInventoryItem Interface
+** Namespace: ** VRage.Game.ModAPI.Ingame  
+** Assembly: ** VRage.Game.dll  
+### Properties
 |Member|Description|
 |---|---|
 |[`MyFixedPoint Amount`](VRage.Game.ModAPI.Ingame.Amount.md)||

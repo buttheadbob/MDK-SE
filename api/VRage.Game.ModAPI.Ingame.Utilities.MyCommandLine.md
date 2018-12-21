@@ -1,16 +1,16 @@
 ← [Index](index.md)
-#MyCommandLine Class
-**Namespace:** VRage.Game.ModAPI.Ingame.Utilities  
-**Assembly:** VRage.Game.dll  
-##Summary
+# MyCommandLine Class
+** Namespace: ** VRage.Game.ModAPI.Ingame.Utilities  
+** Assembly: ** VRage.Game.dll  
+## Summary
 A utility class to parse arguments from a command line string. Switches are defined with hyphen (-switch). Quotes can be placed around an argument to parse verbatim.
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`ItemCollection Items`](VRage.Game.ModAPI.Ingame.Utilities.Items.md)||
 |[`SwitchCollection Switches`](VRage.Game.ModAPI.Ingame.Utilities.Switches.md)||
 |[`int ArgumentCount`](VRage.Game.ModAPI.Ingame.Utilities.ArgumentCount.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`bool TryParse(string argument)`](VRage.Game.ModAPI.Ingame.Utilities.TryParse.md)|Attempts to parse the given string as a command line|

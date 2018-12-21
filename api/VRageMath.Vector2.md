@@ -1,10 +1,10 @@
 ← [Index](index.md)
-#Vector2 Struct
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-##Summary
+# Vector2 Struct
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+## Summary
 Defines a vector with two components.
-###Fields
+### Fields
 |Member|Description|
 |---|---|
 |[`float X`](VRageMath.X.md)||
@@ -14,11 +14,11 @@ Defines a vector with two components.
 |[`Vector2 UnitX`](VRageMath.UnitX.md)||
 |[`Vector2 UnitY`](VRageMath.UnitY.md)||
 |[`Vector2 PositiveInfinity`](VRageMath.PositiveInfinity.md)||
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`float Item`](VRageMath.Item.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`string ToString()`](VRageMath.ToString.md)||

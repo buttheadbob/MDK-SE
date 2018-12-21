@@ -1,16 +1,16 @@
 ← [Index](index.md)
-#IMySpaceBall Interface
-**Namespace:** SpaceEngineers.Game.ModAPI.Ingame  
-**Assembly:** SpaceEngineers.Game.dll  
-**Implements:**
+# IMySpaceBall Interface
+** Namespace: ** SpaceEngineers.Game.ModAPI.Ingame  
+** Assembly: ** SpaceEngineers.Game.dll  
+** Implements: **
 * [`SpaceEngineers.Game.ModAPI.Ingame.IMyVirtualMass`](SpaceEngineers.Game.ModAPI.Ingame.IMyVirtualMass.md)
 * [`Sandbox.ModAPI.Ingame.IMyFunctionalBlock`](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.md)
 * [`Sandbox.ModAPI.Ingame.IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTerminalBlock.md)
 * [`VRage.Game.ModAPI.Ingame.IMyCubeBlock`](VRage.Game.ModAPI.Ingame.IMyCubeBlock.md)
 * [`VRage.Game.ModAPI.Ingame.IMyEntity`](VRage.Game.ModAPI.Ingame.IMyEntity.md)
-##Summary
+## Summary
 Spaceball interface
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`float Friction`](SpaceEngineers.Game.ModAPI.Ingame.Friction.md)||
@@ -56,7 +56,7 @@ Spaceball interface
 |[`bool ShowInInventory`](Sandbox.ModAPI.Ingame.ShowInInventory.md)|_Inherited from [`IMyTerminalBlock`](SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall.md)_|
 |[`bool Enabled`](Sandbox.ModAPI.Ingame.Enabled.md)|_Inherited from [`IMyFunctionalBlock`](SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall.md)_|
 |[`float VirtualMass`](SpaceEngineers.Game.ModAPI.Ingame.VirtualMass.md)|_Inherited from [`IMyVirtualMass`](SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall.md)_|
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`IMyInventory GetInventory()`](VRage.Game.ModAPI.Ingame.GetInventory.md)|_Inherited from [`IMyEntity`](SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall.md)_|

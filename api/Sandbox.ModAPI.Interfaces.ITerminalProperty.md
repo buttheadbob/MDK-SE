@@ -1,15 +1,15 @@
 ← [Index](index.md)
-#ITerminalProperty Interface
-**Namespace:** Sandbox.ModAPI.Interfaces  
-**Assembly:** Sandbox.Common.dll  
-**Implements:**
+# ITerminalProperty Interface
+** Namespace: ** Sandbox.ModAPI.Interfaces  
+** Assembly: ** Sandbox.Common.dll  
+** Implements: **
 * [`Sandbox.ModAPI.Interfaces.ITerminalProperty`](Sandbox.ModAPI.Interfaces.ITerminalProperty.md)
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`string Id`](Sandbox.ModAPI.Interfaces.Id.md)|_Inherited from [`ITerminalProperty`](Sandbox.ModAPI.Interfaces.ITerminalProperty.md)_|
 |[`string TypeName`](Sandbox.ModAPI.Interfaces.TypeName.md)|_Inherited from [`ITerminalProperty`](Sandbox.ModAPI.Interfaces.ITerminalProperty.md)_|
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`TValue GetValue(IMyCubeBlock block)`](Sandbox.ModAPI.Interfaces.GetValue.md)||

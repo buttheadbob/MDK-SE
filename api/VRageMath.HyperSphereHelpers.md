@@ -1,8 +1,8 @@
 ← [Index](index.md)
-#HyperSphereHelpers Class
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-###Methods
+# HyperSphereHelpers Class
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+### Methods
 |Member|Description|
 |---|---|
 |[`double DistanceToTangentProjected(ref Vector3D center, ref Vector3D point, double radius, ref double distance)`](VRageMath.DistanceToTangentProjected.md)||

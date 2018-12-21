@@ -1,8 +1,8 @@
 ← [Index](index.md)
-#HashSetExtensions Class
-**Namespace:** System.Collections.Generic  
-**Assembly:** VRage.Library.dll  
-###Methods
+# HashSetExtensions Class
+** Namespace: ** System.Collections.Generic  
+** Assembly: ** VRage.Library.dll  
+### Methods
 |Member|Description|
 |---|---|
 |[`T FirstElement<T>(HashSet<T> hashset)`](System.Collections.Generic.FirstElement.md)||

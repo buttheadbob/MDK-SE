@@ -1,13 +1,13 @@
 ← [Index](index.md)
-#IMyUpgradableBlock Interface
-**Namespace:** Sandbox.ModAPI.Ingame  
-**Assembly:** Sandbox.Common.dll  
-**Implements:**
+# IMyUpgradableBlock Interface
+** Namespace: ** Sandbox.ModAPI.Ingame  
+** Assembly: ** Sandbox.Common.dll  
+** Implements: **
 * [`VRage.Game.ModAPI.Ingame.IMyCubeBlock`](VRage.Game.ModAPI.Ingame.IMyCubeBlock.md)
 * [`VRage.Game.ModAPI.Ingame.IMyEntity`](VRage.Game.ModAPI.Ingame.IMyEntity.md)
-##Summary
+## Summary
 interface to retrieve upgrade effects on block
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`uint UpgradeCount`](Sandbox.ModAPI.Ingame.UpgradeCount.md)||
@@ -38,7 +38,7 @@ interface to retrieve upgrade effects on block
 |[`MyBlockOrientation Orientation`](VRage.Game.ModAPI.Ingame.Orientation.md)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyUpgradableBlock.md)_|
 |[`long OwnerId`](VRage.Game.ModAPI.Ingame.OwnerId.md)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyUpgradableBlock.md)_|
 |[`Vector3I Position`](VRage.Game.ModAPI.Ingame.Position.md)|_Inherited from [`IMyCubeBlock`](Sandbox.ModAPI.Ingame.IMyUpgradableBlock.md)_|
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`void GetUpgrades(ref Dictionary<string, float> upgrades)`](Sandbox.ModAPI.Ingame.GetUpgrades.md)||

@@ -1,16 +1,16 @@
 ← [Index](index.md)
-#CurveKeyCollection Class
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-##Summary
+# CurveKeyCollection Class
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+## Summary
 Contains the CurveKeys making up a Curve.
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`CurveKey Item`](VRageMath.Item.md)||
 |[`int Count`](VRageMath.Count.md)||
 |[`bool IsReadOnly`](VRageMath.IsReadOnly.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`void Add(Object tmp)`](VRageMath.Add.md)||

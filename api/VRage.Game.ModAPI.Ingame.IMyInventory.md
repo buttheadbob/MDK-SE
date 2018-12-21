@@ -1,8 +1,8 @@
 ← [Index](index.md)
-#IMyInventory Interface
-**Namespace:** VRage.Game.ModAPI.Ingame  
-**Assembly:** VRage.Game.dll  
-###Properties
+# IMyInventory Interface
+** Namespace: ** VRage.Game.ModAPI.Ingame  
+** Assembly: ** VRage.Game.dll  
+### Properties
 |Member|Description|
 |---|---|
 |[`bool IsFull`](VRage.Game.ModAPI.Ingame.IsFull.md)||
@@ -11,7 +11,7 @@
 |[`MyFixedPoint MaxVolume`](VRage.Game.ModAPI.Ingame.MaxVolume.md)||
 |[`MyFixedPoint CurrentVolume`](VRage.Game.ModAPI.Ingame.CurrentVolume.md)||
 |[`IMyInventoryOwner Owner`](VRage.Game.ModAPI.Ingame.Owner.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`bool IsItemAt(int position)`](VRage.Game.ModAPI.Ingame.IsItemAt.md)||

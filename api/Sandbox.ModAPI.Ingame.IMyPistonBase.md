@@ -1,14 +1,14 @@
 ← [Index](index.md)
-#IMyPistonBase Interface
-**Namespace:** Sandbox.ModAPI.Ingame  
-**Assembly:** Sandbox.Common.dll  
-**Implements:**
+# IMyPistonBase Interface
+** Namespace: ** Sandbox.ModAPI.Ingame  
+** Assembly: ** Sandbox.Common.dll  
+** Implements: **
 * [`Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock`](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.md)
 * [`Sandbox.ModAPI.Ingame.IMyFunctionalBlock`](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.md)
 * [`Sandbox.ModAPI.Ingame.IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTerminalBlock.md)
 * [`VRage.Game.ModAPI.Ingame.IMyCubeBlock`](VRage.Game.ModAPI.Ingame.IMyCubeBlock.md)
 * [`VRage.Game.ModAPI.Ingame.IMyEntity`](VRage.Game.ModAPI.Ingame.IMyEntity.md)
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`float Velocity`](Sandbox.ModAPI.Ingame.Velocity.md)||
@@ -63,7 +63,7 @@
 |[`bool IsAttached`](Sandbox.ModAPI.Ingame.IsAttached.md)|_Inherited from [`IMyMechanicalConnectionBlock`](Sandbox.ModAPI.Ingame.IMyPistonBase.md)_|
 |[`bool IsLocked`](Sandbox.ModAPI.Ingame.IsLocked.md)|_Inherited from [`IMyMechanicalConnectionBlock`](Sandbox.ModAPI.Ingame.IMyPistonBase.md)_|
 |[`bool PendingAttachment`](Sandbox.ModAPI.Ingame.PendingAttachment.md)|_Inherited from [`IMyMechanicalConnectionBlock`](Sandbox.ModAPI.Ingame.IMyPistonBase.md)_|
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`void Extend()`](Sandbox.ModAPI.Ingame.Extend.md)||

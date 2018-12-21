@@ -1,10 +1,10 @@
 ← [Index](index.md)
-#Vector4 Struct
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-##Summary
+# Vector4 Struct
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+## Summary
 Defines a vector with four components.
-###Fields
+### Fields
 |Member|Description|
 |---|---|
 |[`float X`](VRageMath.X.md)||
@@ -17,11 +17,11 @@ Defines a vector with four components.
 |[`Vector4 UnitY`](VRageMath.UnitY.md)||
 |[`Vector4 UnitZ`](VRageMath.UnitZ.md)||
 |[`Vector4 UnitW`](VRageMath.UnitW.md)||
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`float Item`](VRageMath.Item.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`Vector4 PackOrthoMatrix(Vector3 position, Vector3 forward, Vector3 up)`](VRageMath.PackOrthoMatrix.md)||

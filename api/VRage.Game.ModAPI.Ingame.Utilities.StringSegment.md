@@ -1,20 +1,20 @@
 ← [Index](index.md)
-#StringSegment Struct
-**Namespace:** VRage.Game.ModAPI.Ingame.Utilities  
-**Assembly:** VRage.Game.dll  
-###Fields
+# StringSegment Struct
+** Namespace: ** VRage.Game.ModAPI.Ingame.Utilities  
+** Assembly: ** VRage.Game.dll  
+### Fields
 |Member|Description|
 |---|---|
 |[`string Text`](VRage.Game.ModAPI.Ingame.Utilities.Text.md)||
 |[`int Start`](VRage.Game.ModAPI.Ingame.Utilities.Start.md)||
 |[`int Length`](VRage.Game.ModAPI.Ingame.Utilities.Length.md)||
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`bool IsEmpty`](VRage.Game.ModAPI.Ingame.Utilities.IsEmpty.md)||
 |[`bool IsCached`](VRage.Game.ModAPI.Ingame.Utilities.IsCached.md)||
 |[`char Item`](VRage.Game.ModAPI.Ingame.Utilities.Item.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`int IndexOf(char ch)`](VRage.Game.ModAPI.Ingame.Utilities.IndexOf.md)||

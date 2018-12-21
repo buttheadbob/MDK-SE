@@ -1,16 +1,16 @@
 ← [Index](index.md)
-#BoundingBoxI Struct
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-##Summary
+# BoundingBoxI Struct
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+## Summary
 Defines an axis-aligned box-shaped 3D volume.
-###Fields
+### Fields
 |Member|Description|
 |---|---|
 |[`Vector3I Min`](VRageMath.Min.md)||
 |[`Vector3I Max`](VRageMath.Max.md)||
 |[`int CornerCount`](VRageMath.CornerCount.md)||
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`Vector3I Center`](VRageMath.Center.md)||
@@ -18,7 +18,7 @@ Defines an axis-aligned box-shaped 3D volume.
 |[`Vector3I Size`](VRageMath.Size.md)||
 |[`float Perimeter`](VRageMath.Perimeter.md)||
 |[`bool IsValid`](VRageMath.IsValid.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`Vector3I[] GetCorners()`](VRageMath.GetCorners.md)||

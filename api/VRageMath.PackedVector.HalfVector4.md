@@ -1,16 +1,16 @@
 ← [Index](index.md)
-#HalfVector4 Struct
-**Namespace:** VRageMath.PackedVector  
-**Assembly:** VRage.Math.dll  
-**Implements:**
+# HalfVector4 Struct
+** Namespace: ** VRageMath.PackedVector  
+** Assembly: ** VRage.Math.dll  
+** Implements: **
 * [`VRageMath.PackedVector.IPackedVector`](VRageMath.PackedVector.IPackedVector.md)
-##Summary
+## Summary
 Packed vector type containing four 16-bit floating-point values.
-###Fields
+### Fields
 |Member|Description|
 |---|---|
 |[`ulong PackedValue`](VRageMath.PackedVector.PackedValue.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`Vector4 ToVector4()`](VRageMath.PackedVector.ToVector4.md)||

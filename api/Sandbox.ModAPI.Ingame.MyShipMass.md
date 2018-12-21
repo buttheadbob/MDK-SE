@@ -1,8 +1,8 @@
 ← [Index](index.md)
-#MyShipMass Struct
-**Namespace:** Sandbox.ModAPI.Ingame  
-**Assembly:** Sandbox.Common.dll  
-###Fields
+# MyShipMass Struct
+** Namespace: ** Sandbox.ModAPI.Ingame  
+** Assembly: ** Sandbox.Common.dll  
+### Fields
 |Member|Description|
 |---|---|
 |[`float BaseMass`](Sandbox.ModAPI.Ingame.BaseMass.md)||

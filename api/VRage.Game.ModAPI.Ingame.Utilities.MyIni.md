@@ -1,12 +1,12 @@
 ← [Index](index.md)
-#MyIni Class
-**Namespace:** VRage.Game.ModAPI.Ingame.Utilities  
-**Assembly:** VRage.Game.dll  
-##Summary
+# MyIni Class
+** Namespace: ** VRage.Game.ModAPI.Ingame.Utilities  
+** Assembly: ** VRage.Game.dll  
+## Summary
 A configuration class to parse and create a text string resembling the old fashioned INI format, but with support for multiline values.
 Do not forget that parsing is a time-consuming task. Keep your parsing to a minimum.
 
-##Example
+## Example
 Using MyIni to deal with CustomData end-user configuration:
 The CustomData:
 [kernel] output=DebugTextPanel bootText= |-- HAL9000 -- |Good morning, Dave.
@@ -15,14 +15,14 @@ MyIni _ini = new MyIni(); IMyTextPanel _outputTextPanel; public Program() { MyIn
 Using MyIni to deal with internal storage:
 MyIni _storage = new MyIni(); Vector3D _startupPosition; bool _hasTarget; Vector3D _currentTarget; public Program() { // You only need to parse here in the constructor. if (_ini.TryParse(Storage) { var str = _ini.Get("state", "startupPosition").ToString(); Vector3D.TryParse(str, out _startupPosition); str = _ini.Get("state", "currentTarget").ToString(); Vector3D.TryParse(str, out _currentTarget); _hasTarget = _ini.Get("state", "hasTarget").ToBoolean(); } else { // Set up defaults, the storage is nonexistent or corrupt _startupPosition = Me.CubeGrid.Position; } } public void Save() { // You only need to update Storage when the Save method is called. _ini.Set("state", "startupPosition", _startupPosition); _ini.Set("state", "currentTarget", _currentTarget); Storage = _ini.ToString(); } public void Main() { // Do your stuff }
 
-##Remarks
+## Remarks
 This class is NOT THREAD SAFE as it's optimized for programmable block use.
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`string EndContent`](VRage.Game.ModAPI.Ingame.Utilities.EndContent.md)||
 |[`string EndComment`](VRage.Game.ModAPI.Ingame.Utilities.EndComment.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`bool HasSection(string config, string section)`](VRage.Game.ModAPI.Ingame.Utilities.HasSection.md)||

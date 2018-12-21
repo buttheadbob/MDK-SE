@@ -1,15 +1,15 @@
 ← [Index](index.md)
-#LineD Struct
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-###Fields
+# LineD Struct
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+### Fields
 |Member|Description|
 |---|---|
 |[`Vector3D From`](VRageMath.From.md)||
 |[`Vector3D To`](VRageMath.To.md)||
 |[`Vector3D Direction`](VRageMath.Direction.md)||
 |[`double Length`](VRageMath.Length.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`double GetShortestDistanceSquared(LineD line1, LineD line2)`](VRageMath.GetShortestDistanceSquared.md)||

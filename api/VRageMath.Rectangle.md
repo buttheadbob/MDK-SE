@@ -1,17 +1,17 @@
 ← [Index](index.md)
-#Rectangle Struct
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-##Summary
+# Rectangle Struct
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+## Summary
 Defines a rectangle.
-###Fields
+### Fields
 |Member|Description|
 |---|---|
 |[`int X`](VRageMath.X.md)||
 |[`int Y`](VRageMath.Y.md)||
 |[`int Width`](VRageMath.Width.md)||
 |[`int Height`](VRageMath.Height.md)||
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`int Left`](VRageMath.Left.md)||
@@ -20,7 +20,7 @@ Defines a rectangle.
 |[`int Bottom`](VRageMath.Bottom.md)||
 |[`Point Location`](VRageMath.Location.md)||
 |[`Point Center`](VRageMath.Center.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`void Offset(Point amount)`](VRageMath.Offset.md)|Changes the position of the Rectangle.|

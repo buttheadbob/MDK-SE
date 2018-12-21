@@ -1,12 +1,12 @@
 ← [Index](index.md)
-#MyTexts Class
-**Namespace:** VRage  
-**Assembly:** VRage.dll  
-###Properties
+# MyTexts Class
+** Namespace: ** VRage  
+** Assembly: ** VRage.dll  
+### Properties
 |Member|Description|
 |---|---|
 |[`DictionaryReader<MyLanguagesEnum, LanguageDescription> Languages`](VRage.Languages.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`StringBuilder Get(MyStringId id)`](VRage.Get.md)||

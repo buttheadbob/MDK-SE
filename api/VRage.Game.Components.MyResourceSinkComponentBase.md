@@ -1,12 +1,12 @@
 ← [Index](index.md)
-#MyResourceSinkComponentBase Class
-**Namespace:** VRage.Game.Components  
-**Assembly:** VRage.Game.dll  
-###Properties
+# MyResourceSinkComponentBase Class
+** Namespace: ** VRage.Game.Components  
+** Assembly: ** VRage.Game.dll  
+### Properties
 |Member|Description|
 |---|---|
 |[`ListReader<MyDefinitionId> AcceptedResources`](VRage.Game.Components.AcceptedResources.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`float CurrentInputByType(MyDefinitionId resourceTypeId)`](VRage.Game.Components.CurrentInputByType.md)||

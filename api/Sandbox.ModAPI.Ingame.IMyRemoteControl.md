@@ -1,13 +1,13 @@
 ← [Index](index.md)
-#IMyRemoteControl Interface
-**Namespace:** Sandbox.ModAPI.Ingame  
-**Assembly:** Sandbox.Common.dll  
-**Implements:**
+# IMyRemoteControl Interface
+** Namespace: ** Sandbox.ModAPI.Ingame  
+** Assembly: ** Sandbox.Common.dll  
+** Implements: **
 * [`Sandbox.ModAPI.Ingame.IMyShipController`](Sandbox.ModAPI.Ingame.IMyShipController.md)
 * [`Sandbox.ModAPI.Ingame.IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTerminalBlock.md)
 * [`VRage.Game.ModAPI.Ingame.IMyCubeBlock`](VRage.Game.ModAPI.Ingame.IMyCubeBlock.md)
 * [`VRage.Game.ModAPI.Ingame.IMyEntity`](VRage.Game.ModAPI.Ingame.IMyEntity.md)
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`bool IsAutoPilotEnabled`](Sandbox.ModAPI.Ingame.IsAutoPilotEnabled.md)||
@@ -64,7 +64,7 @@
 |[`float RollIndicator`](Sandbox.ModAPI.Ingame.RollIndicator.md)|_Inherited from [`IMyShipController`](Sandbox.ModAPI.Ingame.IMyRemoteControl.md)_|
 |[`Vector3D CenterOfMass`](Sandbox.ModAPI.Ingame.CenterOfMass.md)|_Inherited from [`IMyShipController`](Sandbox.ModAPI.Ingame.IMyRemoteControl.md)_|
 |[`bool IsMainCockpit`](Sandbox.ModAPI.Ingame.IsMainCockpit.md)|_Inherited from [`IMyShipController`](Sandbox.ModAPI.Ingame.IMyRemoteControl.md)_|
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`bool GetNearestPlayer(ref Vector3D playerPosition)`](Sandbox.ModAPI.Ingame.GetNearestPlayer.md)||

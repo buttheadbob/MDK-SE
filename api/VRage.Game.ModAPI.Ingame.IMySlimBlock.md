@@ -1,10 +1,10 @@
 ← [Index](index.md)
-#IMySlimBlock Interface
-**Namespace:** VRage.Game.ModAPI.Ingame  
-**Assembly:** VRage.Game.dll  
-##Summary
+# IMySlimBlock Interface
+** Namespace: ** VRage.Game.ModAPI.Ingame  
+** Assembly: ** VRage.Game.dll  
+## Summary
 basic block interface
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`SerializableDefinitionId BlockDefinition`](VRage.Game.ModAPI.Ingame.BlockDefinition.md)||
@@ -28,7 +28,7 @@ basic block interface
 |[`Vector3I Position`](VRage.Game.ModAPI.Ingame.Position.md)||
 |[`IMyCubeGrid CubeGrid`](VRage.Game.ModAPI.Ingame.CubeGrid.md)||
 |[`Vector3 ColorMaskHSV`](VRage.Game.ModAPI.Ingame.ColorMaskHSV.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`void GetMissingComponents(Dictionary<string, int> addToDictionary)`](VRage.Game.ModAPI.Ingame.GetMissingComponents.md)||

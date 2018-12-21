@@ -1,17 +1,17 @@
 ← [Index](index.md)
-#MyTransformD Struct
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-###Fields
+# MyTransformD Struct
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+### Fields
 |Member|Description|
 |---|---|
 |[`Quaternion Rotation`](VRageMath.Rotation.md)||
 |[`Vector3D Position`](VRageMath.Position.md)||
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`MatrixD TransformMatrix`](VRageMath.TransformMatrix.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`MyTransformD Transform(ref MyTransformD t1, ref MyTransformD t2)`](VRageMath.Transform.md)||

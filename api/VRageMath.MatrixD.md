@@ -1,10 +1,10 @@
 ← [Index](index.md)
-#MatrixD Struct
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-##Summary
+# MatrixD Struct
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+## Summary
 Defines a matrix.
-###Fields
+### Fields
 |Member|Description|
 |---|---|
 |[`double M11`](VRageMath.M11.md)||
@@ -25,7 +25,7 @@ Defines a matrix.
 |[`double M44`](VRageMath.M44.md)||
 |[`MatrixD Identity`](VRageMath.Identity.md)||
 |[`MatrixD Zero`](VRageMath.Zero.md)||
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`Vector3D Col0`](VRageMath.Col0.md)||
@@ -41,7 +41,7 @@ Defines a matrix.
 |[`Vector3D Translation`](VRageMath.Translation.md)||
 |[`Matrix3x3 Rotation`](VRageMath.Rotation.md)||
 |[`double Item`](VRageMath.Item.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`Matrix Subtract(Matrix matrix1, Matrix matrix2)`](VRageMath.Subtract.md)||

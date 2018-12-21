@@ -1,10 +1,10 @@
 ← [Index](index.md)
-#IMyEntity Interface
-**Namespace:** VRage.Game.ModAPI.Ingame  
-**Assembly:** VRage.Game.dll  
-##Summary
+# IMyEntity Interface
+** Namespace: ** VRage.Game.ModAPI.Ingame  
+** Assembly: ** VRage.Game.dll  
+## Summary
 Ingame (Programmable Block) interface for all entities.
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`MyEntityComponentContainer Components`](VRage.Game.ModAPI.Ingame.Components.md)||
@@ -18,7 +18,7 @@ Ingame (Programmable Block) interface for all entities.
 |[`MatrixD WorldMatrix`](VRage.Game.ModAPI.Ingame.WorldMatrix.md)||
 |[`BoundingSphereD WorldVolume`](VRage.Game.ModAPI.Ingame.WorldVolume.md)||
 |[`BoundingSphereD WorldVolumeHr`](VRage.Game.ModAPI.Ingame.WorldVolumeHr.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`IMyInventory GetInventory()`](VRage.Game.ModAPI.Ingame.GetInventory.md)||

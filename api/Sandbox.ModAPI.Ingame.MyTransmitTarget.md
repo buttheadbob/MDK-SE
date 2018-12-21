@@ -1,8 +1,8 @@
 ← [Index](index.md)
-#MyTransmitTarget Enum
-**Namespace:** Sandbox.ModAPI.Ingame  
-**Assembly:** Sandbox.Common.dll  
-###Fields
+# MyTransmitTarget Enum
+** Namespace: ** Sandbox.ModAPI.Ingame  
+** Assembly: ** Sandbox.Common.dll  
+### Fields
 |Member|Description|
 |---|---|
 |[`MyTransmitTarget None`](Sandbox.ModAPI.Ingame.None.md)||

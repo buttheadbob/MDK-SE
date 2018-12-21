@@ -1,13 +1,13 @@
 ← [Index](index.md)
-#SerializableRange Struct
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-###Fields
+# SerializableRange Struct
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+### Fields
 |Member|Description|
 |---|---|
 |[`float Min`](VRageMath.Min.md)||
 |[`float Max`](VRageMath.Max.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`bool ValueBetween(float value)`](VRageMath.ValueBetween.md)||

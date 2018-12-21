@@ -1,8 +1,8 @@
 ← [Index](index.md)
-#MyShipVelocities Struct
-**Namespace:** Sandbox.ModAPI.Ingame  
-**Assembly:** Sandbox.Common.dll  
-###Fields
+# MyShipVelocities Struct
+** Namespace: ** Sandbox.ModAPI.Ingame  
+** Assembly: ** Sandbox.Common.dll  
+### Fields
 |Member|Description|
 |---|---|
 |[`Vector3D LinearVelocity`](Sandbox.ModAPI.Ingame.LinearVelocity.md)||

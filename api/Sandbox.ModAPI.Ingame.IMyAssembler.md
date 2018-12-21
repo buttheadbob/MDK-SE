@@ -1,14 +1,14 @@
 ← [Index](index.md)
-#IMyAssembler Interface
-**Namespace:** Sandbox.ModAPI.Ingame  
-**Assembly:** Sandbox.Common.dll  
-**Implements:**
+# IMyAssembler Interface
+** Namespace: ** Sandbox.ModAPI.Ingame  
+** Assembly: ** Sandbox.Common.dll  
+** Implements: **
 * [`Sandbox.ModAPI.Ingame.IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyProductionBlock.md)
 * [`Sandbox.ModAPI.Ingame.IMyFunctionalBlock`](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.md)
 * [`Sandbox.ModAPI.Ingame.IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTerminalBlock.md)
 * [`VRage.Game.ModAPI.Ingame.IMyCubeBlock`](VRage.Game.ModAPI.Ingame.IMyCubeBlock.md)
 * [`VRage.Game.ModAPI.Ingame.IMyEntity`](VRage.Game.ModAPI.Ingame.IMyEntity.md)
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`bool DisassembleEnabled`](Sandbox.ModAPI.Ingame.DisassembleEnabled.md)||
@@ -59,7 +59,7 @@
 |[`bool IsQueueEmpty`](Sandbox.ModAPI.Ingame.IsQueueEmpty.md)|_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
 |[`uint NextItemId`](Sandbox.ModAPI.Ingame.NextItemId.md)|_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
 |[`bool UseConveyorSystem`](Sandbox.ModAPI.Ingame.UseConveyorSystem.md)|_Inherited from [`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`IMyInventory GetInventory()`](VRage.Game.ModAPI.Ingame.GetInventory.md)|_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyAssembler.md)_|

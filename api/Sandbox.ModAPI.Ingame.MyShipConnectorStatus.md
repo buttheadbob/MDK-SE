@@ -1,10 +1,10 @@
 ← [Index](index.md)
-#MyShipConnectorStatus Enum
-**Namespace:** Sandbox.ModAPI.Ingame  
-**Assembly:** Sandbox.Common.dll  
-##Summary
+# MyShipConnectorStatus Enum
+** Namespace: ** Sandbox.ModAPI.Ingame  
+** Assembly: ** Sandbox.Common.dll  
+## Summary
 Describes the current status of the connector.
-###Fields
+### Fields
 |Member|Description|
 |---|---|
 |[`MyShipConnectorStatus Unconnected`](Sandbox.ModAPI.Ingame.Unconnected.md)||

@@ -1,8 +1,8 @@
 ← [Index](index.md)
-#MyClusterTree Class
-**Namespace:** VRageMath.Spatial  
-**Assembly:** VRage.Math.dll  
-###Fields
+# MyClusterTree Class
+** Namespace: ** VRageMath.Spatial  
+** Assembly: ** VRage.Math.dll  
+### Fields
 |Member|Description|
 |---|---|
 |[`Func<int, BoundingBoxD, Object> OnClusterCreated`](VRageMath.Spatial.OnClusterCreated.md)||
@@ -18,11 +18,11 @@
 |[`Vector3 MaximumForSplit`](VRageMath.Spatial.MaximumForSplit.md)||
 |[`float MaximumClusterSize`](VRageMath.Spatial.MaximumClusterSize.md)||
 |[`ulong CLUSTERED_OBJECT_ID_UNITIALIZED`](VRageMath.Spatial.CLUSTERED_OBJECT_ID_UNITIALIZED.md)||
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`bool SuppressClusterReorder`](VRageMath.Spatial.SuppressClusterReorder.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`ulong AddObject(BoundingBoxD bbox, IMyActivationHandler activationHandler, Nullable<ulong> customId, string tag, long entityId, bool batch)`](VRageMath.Spatial.AddObject.md)||

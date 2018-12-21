@@ -1,15 +1,15 @@
 ← [Index](index.md)
-#BoundingSphereD Struct
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-##Summary
+# BoundingSphereD Struct
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+## Summary
 Defines a sphere.
-###Fields
+### Fields
 |Member|Description|
 |---|---|
 |[`Vector3D Center`](VRageMath.Center.md)||
 |[`double Radius`](VRageMath.Radius.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`bool Equals(BoundingSphereD other)`](VRageMath.Equals.md)|Determines whether the specified BoundingSphereD is equal to the current BoundingSphereD.|

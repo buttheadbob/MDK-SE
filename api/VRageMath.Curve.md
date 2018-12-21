@@ -1,17 +1,17 @@
 ← [Index](index.md)
-#Curve Class
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-##Summary
+# Curve Class
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+## Summary
 Stores an arbitrary collection of 2D CurveKey points, and provides methods for evaluating features of the curve they define.
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`CurveLoopType PreLoop`](VRageMath.PreLoop.md)||
 |[`CurveLoopType PostLoop`](VRageMath.PostLoop.md)||
 |[`CurveKeyCollection Keys`](VRageMath.Keys.md)||
 |[`bool IsConstant`](VRageMath.IsConstant.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`Curve Clone()`](VRageMath.Clone.md)||

@@ -1,8 +1,8 @@
 ← [Index](index.md)
-#MyShort4 Struct
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-###Fields
+# MyShort4 Struct
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+### Fields
 |Member|Description|
 |---|---|
 |[`short X`](VRageMath.X.md)||

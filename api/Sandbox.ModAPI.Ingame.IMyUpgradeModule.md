@@ -1,15 +1,15 @@
 ← [Index](index.md)
-#IMyUpgradeModule Interface
-**Namespace:** Sandbox.ModAPI.Ingame  
-**Assembly:** Sandbox.Common.dll  
-**Implements:**
+# IMyUpgradeModule Interface
+** Namespace: ** Sandbox.ModAPI.Ingame  
+** Assembly: ** Sandbox.Common.dll  
+** Implements: **
 * [`Sandbox.ModAPI.Ingame.IMyFunctionalBlock`](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.md)
 * [`Sandbox.ModAPI.Ingame.IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTerminalBlock.md)
 * [`VRage.Game.ModAPI.Ingame.IMyCubeBlock`](VRage.Game.ModAPI.Ingame.IMyCubeBlock.md)
 * [`VRage.Game.ModAPI.Ingame.IMyEntity`](VRage.Game.ModAPI.Ingame.IMyEntity.md)
-##Summary
+## Summary
 Interface to access module upgrades properties
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`uint UpgradeCount`](Sandbox.ModAPI.Ingame.UpgradeCount.md)||
@@ -51,7 +51,7 @@ Interface to access module upgrades properties
 |[`bool ShowInToolbarConfig`](Sandbox.ModAPI.Ingame.ShowInToolbarConfig.md)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyUpgradeModule.md)_|
 |[`bool ShowInInventory`](Sandbox.ModAPI.Ingame.ShowInInventory.md)|_Inherited from [`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyUpgradeModule.md)_|
 |[`bool Enabled`](Sandbox.ModAPI.Ingame.Enabled.md)|_Inherited from [`IMyFunctionalBlock`](Sandbox.ModAPI.Ingame.IMyUpgradeModule.md)_|
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`void GetUpgradeList(ref List<MyUpgradeModuleInfo> upgrades)`](Sandbox.ModAPI.Ingame.GetUpgradeList.md)||

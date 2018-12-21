@@ -1,8 +1,8 @@
 ← [Index](index.md)
-#Vector3UByte Struct
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-###Fields
+# Vector3UByte Struct
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+### Fields
 |Member|Description|
 |---|---|
 |[`byte X`](VRageMath.X.md)||
@@ -10,7 +10,7 @@
 |[`byte Z`](VRageMath.Z.md)||
 |[`EqualityComparer Comparer`](VRageMath.Comparer.md)||
 |[`Vector3UByte Zero`](VRageMath.Zero.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`string ToString()`](VRageMath.ToString.md)||

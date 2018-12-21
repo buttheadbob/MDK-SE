@@ -1,14 +1,14 @@
 ← [Index](index.md)
-#Base6Directions Class
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-###Fields
+# Base6Directions Class
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+### Fields
 |Member|Description|
 |---|---|
 |[`Direction[] EnumDirections`](VRageMath.EnumDirections.md)||
 |[`Vector3[] Directions`](VRageMath.Directions.md)||
 |[`Vector3I[] IntDirections`](VRageMath.IntDirections.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`bool IsBaseDirection(ref Vector3 vec)`](VRageMath.IsBaseDirection.md)||

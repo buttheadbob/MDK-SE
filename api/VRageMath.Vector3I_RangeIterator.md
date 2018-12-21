@@ -1,14 +1,14 @@
 ← [Index](index.md)
-#Vector3I_RangeIterator Struct
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-##Summary
+# Vector3I_RangeIterator Struct
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+## Summary
 A class for simpler traversal of ranges of integer vectors
-###Fields
+### Fields
 |Member|Description|
 |---|---|
 |[`Vector3I Current`](VRageMath.Current.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`bool IsValid()`](VRageMath.IsValid.md)||

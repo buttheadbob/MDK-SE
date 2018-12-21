@@ -1,13 +1,13 @@
 ← [Index](index.md)
-#IMySoundBlock Interface
-**Namespace:** SpaceEngineers.Game.ModAPI.Ingame  
-**Assembly:** SpaceEngineers.Game.dll  
-**Implements:**
+# IMySoundBlock Interface
+** Namespace: ** SpaceEngineers.Game.ModAPI.Ingame  
+** Assembly: ** SpaceEngineers.Game.dll  
+** Implements: **
 * [`Sandbox.ModAPI.Ingame.IMyFunctionalBlock`](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.md)
 * [`Sandbox.ModAPI.Ingame.IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTerminalBlock.md)
 * [`VRage.Game.ModAPI.Ingame.IMyCubeBlock`](VRage.Game.ModAPI.Ingame.IMyCubeBlock.md)
 * [`VRage.Game.ModAPI.Ingame.IMyEntity`](VRage.Game.ModAPI.Ingame.IMyEntity.md)
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`float Volume`](SpaceEngineers.Game.ModAPI.Ingame.Volume.md)||
@@ -52,7 +52,7 @@
 |[`bool ShowInToolbarConfig`](Sandbox.ModAPI.Ingame.ShowInToolbarConfig.md)|_Inherited from [`IMyTerminalBlock`](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock.md)_|
 |[`bool ShowInInventory`](Sandbox.ModAPI.Ingame.ShowInInventory.md)|_Inherited from [`IMyTerminalBlock`](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock.md)_|
 |[`bool Enabled`](Sandbox.ModAPI.Ingame.Enabled.md)|_Inherited from [`IMyFunctionalBlock`](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock.md)_|
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`void Play()`](SpaceEngineers.Game.ModAPI.Ingame.Play.md)||

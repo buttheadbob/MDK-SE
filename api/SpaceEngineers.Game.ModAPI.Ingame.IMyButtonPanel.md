@@ -1,12 +1,12 @@
 ← [Index](index.md)
-#IMyButtonPanel Interface
-**Namespace:** SpaceEngineers.Game.ModAPI.Ingame  
-**Assembly:** SpaceEngineers.Game.dll  
-**Implements:**
+# IMyButtonPanel Interface
+** Namespace: ** SpaceEngineers.Game.ModAPI.Ingame  
+** Assembly: ** SpaceEngineers.Game.dll  
+** Implements: **
 * [`Sandbox.ModAPI.Ingame.IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTerminalBlock.md)
 * [`VRage.Game.ModAPI.Ingame.IMyCubeBlock`](VRage.Game.ModAPI.Ingame.IMyCubeBlock.md)
 * [`VRage.Game.ModAPI.Ingame.IMyEntity`](VRage.Game.ModAPI.Ingame.IMyEntity.md)
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`bool AnyoneCanUse`](SpaceEngineers.Game.ModAPI.Ingame.AnyoneCanUse.md)||
@@ -46,7 +46,7 @@
 |[`bool ShowInTerminal`](Sandbox.ModAPI.Ingame.ShowInTerminal.md)|_Inherited from [`IMyTerminalBlock`](SpaceEngineers.Game.ModAPI.Ingame.IMyButtonPanel.md)_|
 |[`bool ShowInToolbarConfig`](Sandbox.ModAPI.Ingame.ShowInToolbarConfig.md)|_Inherited from [`IMyTerminalBlock`](SpaceEngineers.Game.ModAPI.Ingame.IMyButtonPanel.md)_|
 |[`bool ShowInInventory`](Sandbox.ModAPI.Ingame.ShowInInventory.md)|_Inherited from [`IMyTerminalBlock`](SpaceEngineers.Game.ModAPI.Ingame.IMyButtonPanel.md)_|
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`string GetButtonName(int index)`](SpaceEngineers.Game.ModAPI.Ingame.GetButtonName.md)|Gets the button name.|

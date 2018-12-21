@@ -1,22 +1,22 @@
 ← [Index](index.md)
-#RectangleF Struct
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-##Summary
+# RectangleF Struct
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+## Summary
 Structure using the same layout thanT:System.Drawing.RectangleF
-###Fields
+### Fields
 |Member|Description|
 |---|---|
 |[`Vector2 Position`](VRageMath.Position.md)||
 |[`Vector2 Size`](VRageMath.Size.md)||
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`float X`](VRageMath.X.md)||
 |[`float Y`](VRageMath.Y.md)||
 |[`float Width`](VRageMath.Width.md)||
 |[`float Height`](VRageMath.Height.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`bool Contains(int x, int y)`](VRageMath.Contains.md)||

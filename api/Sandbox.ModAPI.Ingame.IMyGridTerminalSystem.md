@@ -1,8 +1,8 @@
 ← [Index](index.md)
-#IMyGridTerminalSystem Interface
-**Namespace:** Sandbox.ModAPI.Ingame  
-**Assembly:** Sandbox.Common.dll  
-###Methods
+# IMyGridTerminalSystem Interface
+** Namespace: ** Sandbox.ModAPI.Ingame  
+** Assembly: ** Sandbox.Common.dll  
+### Methods
 |Member|Description|
 |---|---|
 |[`void GetBlocks(List<IMyTerminalBlock> blocks)`](Sandbox.ModAPI.Ingame.GetBlocks.md)||

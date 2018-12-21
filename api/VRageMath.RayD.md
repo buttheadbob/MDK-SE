@@ -1,15 +1,15 @@
 ← [Index](index.md)
-#RayD Struct
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-##Summary
+# RayD Struct
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+## Summary
 Defines a ray.
-###Fields
+### Fields
 |Member|Description|
 |---|---|
 |[`Vector3D Position`](VRageMath.Position.md)||
 |[`Vector3D Direction`](VRageMath.Direction.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`bool Equals(RayD other)`](VRageMath.Equals.md)|Determines whether the specified Ray is equal to the current Ray.|

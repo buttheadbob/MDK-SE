@@ -1,16 +1,16 @@
 ← [Index](index.md)
-#HalfVector2 Struct
-**Namespace:** VRageMath.PackedVector  
-**Assembly:** VRage.Math.dll  
-**Implements:**
+# HalfVector2 Struct
+** Namespace: ** VRageMath.PackedVector  
+** Assembly: ** VRage.Math.dll  
+** Implements: **
 * [`VRageMath.PackedVector.IPackedVector`](VRageMath.PackedVector.IPackedVector.md)
-##Summary
+## Summary
 Packed vector type containing two 16-bit floating-point values.
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`uint PackedValue`](VRageMath.PackedVector.PackedValue.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`Vector2 ToVector2()`](VRageMath.PackedVector.ToVector2.md)||

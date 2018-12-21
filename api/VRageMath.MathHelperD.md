@@ -1,10 +1,10 @@
 ← [Index](index.md)
-#MathHelperD Class
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-##Summary
+# MathHelperD Class
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+## Summary
 Contains commonly used precalculated values.
-###Fields
+### Fields
 |Member|Description|
 |---|---|
 |[`double E`](VRageMath.E.md)||
@@ -13,7 +13,7 @@ Contains commonly used precalculated values.
 |[`double FourPi`](VRageMath.FourPi.md)||
 |[`double PiOver2`](VRageMath.PiOver2.md)||
 |[`double PiOver4`](VRageMath.PiOver4.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`double ToRadians(double degrees)`](VRageMath.ToRadians.md)|Converts degrees to radians.|

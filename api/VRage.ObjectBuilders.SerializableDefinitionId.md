@@ -1,20 +1,20 @@
 ← [Index](index.md)
-#SerializableDefinitionId Struct
-**Namespace:** VRage.ObjectBuilders  
-**Assembly:** VRage.Game.dll  
-###Fields
+# SerializableDefinitionId Struct
+** Namespace: ** VRage.ObjectBuilders  
+** Assembly: ** VRage.Game.dll  
+### Fields
 |Member|Description|
 |---|---|
 |[`MyObjectBuilderType TypeId`](VRage.ObjectBuilders.TypeId.md)||
 |[`string SubtypeName`](VRage.ObjectBuilders.SubtypeName.md)||
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`string TypeIdStringAttribute`](VRage.ObjectBuilders.TypeIdStringAttribute.md)||
 |[`string TypeIdString`](VRage.ObjectBuilders.TypeIdString.md)||
 |[`string SubtypeIdAttribute`](VRage.ObjectBuilders.SubtypeIdAttribute.md)||
 |[`string SubtypeId`](VRage.ObjectBuilders.SubtypeId.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`bool ShouldSerializeTypeIdString()`](VRage.ObjectBuilders.ShouldSerializeTypeIdString.md)||

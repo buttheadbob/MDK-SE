@@ -1,8 +1,8 @@
 ← [Index](index.md)
-#MyTupleComparer Class
-**Namespace:** VRage  
-**Assembly:** VRage.Library.dll  
-###Methods
+# MyTupleComparer Class
+** Namespace: ** VRage  
+** Assembly: ** VRage.Library.dll  
+### Methods
 |Member|Description|
 |---|---|
 |[`bool Equals(MyTuple<T1, T2, T3> x, MyTuple<T1, T2, T3> y)`](VRage.Equals.md)||

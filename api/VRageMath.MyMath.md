@@ -1,12 +1,12 @@
 ← [Index](index.md)
-#MyMath Class
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-###Fields
+# MyMath Class
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+### Fields
 |Member|Description|
 |---|---|
 |[`Vector3 Vector3One`](VRageMath.Vector3One.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`void InitializeFastSin()`](VRageMath.InitializeFastSin.md)||

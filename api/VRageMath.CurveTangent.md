@@ -1,10 +1,10 @@
 ← [Index](index.md)
-#CurveTangent Enum
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-##Summary
+# CurveTangent Enum
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+## Summary
 Specifies different tangent types to be calculated for CurveKey points in a Curve.
-###Fields
+### Fields
 |Member|Description|
 |---|---|
 |[`CurveTangent Flat`](VRageMath.Flat.md)||

@@ -1,13 +1,13 @@
 ← [Index](index.md)
-#IMyCockpit Interface
-**Namespace:** Sandbox.ModAPI.Ingame  
-**Assembly:** Sandbox.Common.dll  
-**Implements:**
+# IMyCockpit Interface
+** Namespace: ** Sandbox.ModAPI.Ingame  
+** Assembly: ** Sandbox.Common.dll  
+** Implements: **
 * [`Sandbox.ModAPI.Ingame.IMyShipController`](Sandbox.ModAPI.Ingame.IMyShipController.md)
 * [`Sandbox.ModAPI.Ingame.IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTerminalBlock.md)
 * [`VRage.Game.ModAPI.Ingame.IMyCubeBlock`](VRage.Game.ModAPI.Ingame.IMyCubeBlock.md)
 * [`VRage.Game.ModAPI.Ingame.IMyEntity`](VRage.Game.ModAPI.Ingame.IMyEntity.md)
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`bool IsMainCockpit`](Sandbox.ModAPI.Ingame.IsMainCockpit.md)||
@@ -62,7 +62,7 @@
 |[`float RollIndicator`](Sandbox.ModAPI.Ingame.RollIndicator.md)|_Inherited from [`IMyShipController`](Sandbox.ModAPI.Ingame.IMyCockpit.md)_|
 |[`Vector3D CenterOfMass`](Sandbox.ModAPI.Ingame.CenterOfMass.md)|_Inherited from [`IMyShipController`](Sandbox.ModAPI.Ingame.IMyCockpit.md)_|
 |[`bool IsMainCockpit`](Sandbox.ModAPI.Ingame.IsMainCockpit.md)|_Inherited from [`IMyShipController`](Sandbox.ModAPI.Ingame.IMyCockpit.md)_|
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`IMyInventory GetInventory()`](VRage.Game.ModAPI.Ingame.GetInventory.md)|_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyCockpit.md)_|

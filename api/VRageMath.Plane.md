@@ -1,15 +1,15 @@
 ← [Index](index.md)
-#Plane Struct
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-##Summary
+# Plane Struct
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+## Summary
 Defines a plane.
-###Fields
+### Fields
 |Member|Description|
 |---|---|
 |[`Vector3 Normal`](VRageMath.Normal.md)||
 |[`float D`](VRageMath.D.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`bool Equals(Plane other)`](VRageMath.Equals.md)|Determines whether the specified Plane is equal to the Plane.|

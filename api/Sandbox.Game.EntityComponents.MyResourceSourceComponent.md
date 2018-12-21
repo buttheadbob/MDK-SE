@@ -1,9 +1,9 @@
 ← [Index](index.md)
-#MyResourceSourceComponent Class
-**Namespace:** Sandbox.Game.EntityComponents  
-**Assembly:** Sandbox.Game.dll  
-**Inheritance: **[`MyResourceSourceComponentBase`](VRage.Game.Components.MyResourceSourceComponentBase.md)
-###Properties
+# MyResourceSourceComponent Class
+** Namespace: ** Sandbox.Game.EntityComponents  
+** Assembly: ** Sandbox.Game.dll  
+** Inheritance:  **[`MyResourceSourceComponentBase`](VRage.Game.Components.MyResourceSourceComponentBase.md)
+### Properties
 |Member|Description|
 |---|---|
 |[`float CurrentOutput`](Sandbox.Game.EntityComponents.CurrentOutput.md)||
@@ -12,7 +12,7 @@
 |[`bool ProductionEnabled`](Sandbox.Game.EntityComponents.ProductionEnabled.md)||
 |[`float RemainingCapacity`](Sandbox.Game.EntityComponents.RemainingCapacity.md)||
 |[`bool HasCapacityRemaining`](Sandbox.Game.EntityComponents.HasCapacityRemaining.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`float CurrentOutputByType(MyDefinitionId resourceTypeId)`](VRage.Game.Components.CurrentOutputByType.md)|Currently used power output of the producer in MW or litres/h.<br/><br/>_Inherited from [`MyResourceSourceComponentBase`](Sandbox.Game.EntityComponents.MyResourceSourceComponent.md)_|

@@ -1,17 +1,17 @@
 ← [Index](index.md)
-#SymmetricSerializableRange Struct
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-###Fields
+# SymmetricSerializableRange Struct
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+### Fields
 |Member|Description|
 |---|---|
 |[`float Min`](VRageMath.Min.md)||
 |[`float Max`](VRageMath.Max.md)||
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`bool Mirror`](VRageMath.Mirror.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`bool ValueBetween(float value)`](VRageMath.ValueBetween.md)||

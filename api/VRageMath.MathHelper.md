@@ -1,10 +1,10 @@
 ← [Index](index.md)
-#MathHelper Class
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-##Summary
+# MathHelper Class
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+## Summary
 Contains commonly used precalculated values.
-###Fields
+### Fields
 |Member|Description|
 |---|---|
 |[`float E`](VRageMath.E.md)||
@@ -22,7 +22,7 @@ Contains commonly used precalculated values.
 |[`float RPMToRadiansPerMillisec`](VRageMath.RPMToRadiansPerMillisec.md)||
 |[`float EPSILON`](VRageMath.EPSILON.md)||
 |[`float EPSILON10`](VRageMath.EPSILON10.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`float ToRadians(float degrees)`](VRageMath.ToRadians.md)|Converts degrees to radians.|

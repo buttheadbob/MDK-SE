@@ -1,10 +1,10 @@
 ← [Index](index.md)
-#MyLaserAntennaStatus Enum
-**Namespace:** Sandbox.ModAPI.Ingame  
-**Assembly:** Sandbox.Common.dll  
-##Summary
+# MyLaserAntennaStatus Enum
+** Namespace: ** Sandbox.ModAPI.Ingame  
+** Assembly: ** Sandbox.Common.dll  
+## Summary
 Describes the current status of a laser antenna.
-###Fields
+### Fields
 |Member|Description|
 |---|---|
 |[`MyLaserAntennaStatus Idle`](Sandbox.ModAPI.Ingame.Idle.md)||

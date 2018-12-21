@@ -1,15 +1,15 @@
 ← [Index](index.md)
-#PlaneD Struct
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-##Summary
+# PlaneD Struct
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+## Summary
 Defines a PlaneD.
-###Fields
+### Fields
 |Member|Description|
 |---|---|
 |[`Vector3D Normal`](VRageMath.Normal.md)||
 |[`double D`](VRageMath.D.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`bool Equals(PlaneD other)`](VRageMath.Equals.md)|Determines whether the specified PlaneD is equal to the PlaneD.|

@@ -1,10 +1,10 @@
 ← [Index](index.md)
-#QuaternionD Struct
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-##Summary
+# QuaternionD Struct
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+## Summary
 Defines a four-dimensional vector (x,y,z,w), which is used to efficiently rotate an object about the (x, y, z) vector by the angle theta, where w = cos(theta/2). Uses double precision floating point numbers for calculation and storage
-###Fields
+### Fields
 |Member|Description|
 |---|---|
 |[`double X`](VRageMath.X.md)||
@@ -12,7 +12,7 @@ Defines a four-dimensional vector (x,y,z,w), which is used to efficiently rotate
 |[`double Z`](VRageMath.Z.md)||
 |[`double W`](VRageMath.W.md)||
 |[`QuaternionD Identity`](VRageMath.Identity.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`string ToString()`](VRageMath.ToString.md)||

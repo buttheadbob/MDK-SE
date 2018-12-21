@@ -1,10 +1,10 @@
 ← [Index](index.md)
-#Matrix3x3 Struct
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-##Summary
+# Matrix3x3 Struct
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+## Summary
 Defines a matrix.
-###Fields
+### Fields
 |Member|Description|
 |---|---|
 |[`float M11`](VRageMath.M11.md)||
@@ -18,7 +18,7 @@ Defines a matrix.
 |[`float M33`](VRageMath.M33.md)||
 |[`Matrix3x3 Identity`](VRageMath.Identity.md)||
 |[`Matrix3x3 Zero`](VRageMath.Zero.md)||
-###Properties
+### Properties
 |Member|Description|
 |---|---|
 |[`Vector3 Up`](VRageMath.Up.md)||
@@ -32,7 +32,7 @@ Defines a matrix.
 |[`Vector3 Backward`](VRageMath.Backward.md)||
 |[`Vector3 Scale`](VRageMath.Scale.md)||
 |[`float Item`](VRageMath.Item.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`Vector3 GetDirectionVector(Direction direction)`](VRageMath.GetDirectionVector.md)||

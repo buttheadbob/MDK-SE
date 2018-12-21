@@ -1,10 +1,10 @@
 ← [Index](index.md)
-#DoorStatus Enum
-**Namespace:** Sandbox.ModAPI.Ingame  
-**Assembly:** Sandbox.Common.dll  
-##Summary
+# DoorStatus Enum
+** Namespace: ** Sandbox.ModAPI.Ingame  
+** Assembly: ** Sandbox.Common.dll  
+## Summary
 Describes the current status of the door.
-###Fields
+### Fields
 |Member|Description|
 |---|---|
 |[`DoorStatus Opening`](Sandbox.ModAPI.Ingame.Opening.md)||

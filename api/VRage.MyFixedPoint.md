@@ -1,10 +1,10 @@
 ← [Index](index.md)
-#MyFixedPoint Struct
-**Namespace:** VRage  
-**Assembly:** VRage.Library.dll  
-##Summary
+# MyFixedPoint Struct
+** Namespace: ** VRage  
+** Assembly: ** VRage.Library.dll  
+## Summary
 Fixed point number represented as 64-bit integer with 6 decimal places (one millionts)
-###Fields
+### Fields
 |Member|Description|
 |---|---|
 |[`long RawValue`](VRage.RawValue.md)||
@@ -14,7 +14,7 @@ Fixed point number represented as 64-bit integer with 6 decimal places (one mill
 |[`MyFixedPoint SmallestPossibleValue`](VRage.SmallestPossibleValue.md)||
 |[`MyFixedPoint MaxIntValue`](VRage.MaxIntValue.md)||
 |[`MyFixedPoint MinIntValue`](VRage.MinIntValue.md)||
-###Methods
+### Methods
 |Member|Description|
 |---|---|
 |[`string SerializeString()`](VRage.SerializeString.md)||

@@ -1,8 +1,8 @@
 ← [Index](index.md)
-#MyQuadD Struct
-**Namespace:** VRageMath  
-**Assembly:** VRage.Math.dll  
-###Fields
+# MyQuadD Struct
+** Namespace: ** VRageMath  
+** Assembly: ** VRage.Math.dll  
+### Fields
 |Member|Description|
 |---|---|
 |[`Vector3D Point0`](VRageMath.Point0.md)||

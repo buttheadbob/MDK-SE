@@ -47,6 +47,7 @@ Use these interfaces when you wish to access specific block types.
 [`IMyLandingGear`](SpaceEngineers.Game.ModAPI.Ingame.IMyLandingGear)  
 [`IMyShipMergeBlock`](SpaceEngineers.Game.ModAPI.Ingame.IMyShipMergeBlock)  
 [`IMySoundBlock`](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock)  
+[`IMyVirtualMass`](SpaceEngineers.Game.ModAPI.Ingame.IMyVirtualMass)  
 [`IMyTimerBlock`](SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock)  
 [`IMyAssembler`](Sandbox.ModAPI.Ingame.IMyAssembler)  
 [`IMyMotorStator`](Sandbox.ModAPI.Ingame.IMyMotorStator)  
@@ -73,7 +74,6 @@ Use these interfaces when you wish to access blocks by a specific function or ca
 [`IMyGasTank`](Sandbox.ModAPI.Ingame.IMyGasTank)  
 [`IMyShipToolBase`](Sandbox.ModAPI.Ingame.IMyShipToolBase)  
 [`IMyGravityGeneratorBase`](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorBase)  
-[`IMyVirtualMass`](SpaceEngineers.Game.ModAPI.Ingame.IMyVirtualMass)  
 [`IMyLargeTurretBase`](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)  
 ### Other
 

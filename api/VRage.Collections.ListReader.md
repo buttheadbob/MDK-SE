@@ -5,7 +5,7 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`ListReader<T> Empty`](VRage.Collections.Empty)||
+|static [`ListReader<T> Empty`](VRage.Collections.Empty)||
 ### Properties
 |Member|Description|
 |---|---|

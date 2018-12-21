@@ -13,5 +13,5 @@
 ### Methods
 |Member|Description|
 |---|---|
-|[`float GetShortestDistanceSquared(Line line1, Line line2)`](VRageMath.GetShortestDistanceSquared)||
-|[`Vector3 GetShortestVector(ref Line line1, ref Line line2, ref Vector3 res1, ref Vector3 res2)`](VRageMath.GetShortestVector)||
+|static [`float GetShortestDistanceSquared(Line line1, Line line2)`](VRageMath.GetShortestDistanceSquared)||
+|static [`Vector3 GetShortestVector(ref Line line1, ref Line line2, ref Vector3 res1, ref Vector3 res2)`](VRageMath.GetShortestVector)||

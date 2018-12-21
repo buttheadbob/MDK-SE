@@ -7,7 +7,7 @@
 |---|---|
 |[`Direction Forward`](VRageMath.Forward)||
 |[`Direction Up`](VRageMath.Up)||
-|[`MyBlockOrientation Identity`](VRageMath.Identity)||
+|static [`MyBlockOrientation Identity`](VRageMath.Identity)||
 ### Properties
 |Member|Description|
 |---|---|

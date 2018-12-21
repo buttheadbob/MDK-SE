@@ -28,7 +28,7 @@
 |[`void SetDirection(Direction dirToSet, Direction newDirection)`](VRageMath.SetDirection)||
 |[`MyBlockOrientation GetBlockOrientation()`](VRageMath.GetBlockOrientation)||
 |[`Matrix GetFloatMatrix()`](VRageMath.GetFloatMatrix)||
-|[`MatrixI CreateRotation(Direction oldA, Direction oldB, Direction newA, Direction newB)`](VRageMath.CreateRotation)||
-|[`void Invert(ref MatrixI matrix, ref MatrixI result)`](VRageMath.Invert)||
-|[`void Multiply(ref MatrixI leftMatrix, ref MatrixI rightMatrix, ref MatrixI result)`](VRageMath.Multiply)||
-|[`MyBlockOrientation Transform(ref MyBlockOrientation orientation, ref MatrixI transform)`](VRageMath.Transform)||
+|static [`MatrixI CreateRotation(Direction oldA, Direction oldB, Direction newA, Direction newB)`](VRageMath.CreateRotation)||
+|static [`void Invert(ref MatrixI matrix, ref MatrixI result)`](VRageMath.Invert)||
+|static [`void Multiply(ref MatrixI leftMatrix, ref MatrixI rightMatrix, ref MatrixI result)`](VRageMath.Multiply)||
+|static [`MyBlockOrientation Transform(ref MyBlockOrientation orientation, ref MatrixI transform)`](VRageMath.Transform)||

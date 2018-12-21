@@ -7,5 +7,5 @@ Determines what mode an assembler is in.
 ### Fields
 |Member|Description|
 |---|---|
-|[`MyAssemblerMode Assembly`](Sandbox.ModAPI.Ingame.Assembly)||
-|[`MyAssemblerMode Disassembly`](Sandbox.ModAPI.Ingame.Disassembly)||
+|static [`MyAssemblerMode Assembly`](Sandbox.ModAPI.Ingame.Assembly)|The assembler is currently set to assemble new items.|
+|static [`MyAssemblerMode Disassembly`](Sandbox.ModAPI.Ingame.Disassembly)|The assembler is currently set to disassemble existing items.|

@@ -7,7 +7,7 @@ A class for simpler traversal of ranges of longeger vectors
 ### Fields
 |Member|Description|
 |---|---|
-|[`Vector3L Current`](VRageMath.Current)||
+|[`Vector3L Current`](VRageMath.Current)|Do not modify, public only for optimization!|
 ### Methods
 |Member|Description|
 |---|---|

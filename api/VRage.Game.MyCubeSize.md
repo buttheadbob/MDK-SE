@@ -5,5 +5,5 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`MyCubeSize Large`](VRage.Game.Large)||
-|[`MyCubeSize Small`](VRage.Game.Small)||
+|static [`MyCubeSize Large`](VRage.Game.Large)||
+|static [`MyCubeSize Small`](VRage.Game.Small)||

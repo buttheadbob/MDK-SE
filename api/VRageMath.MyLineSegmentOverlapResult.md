@@ -7,4 +7,4 @@
 |---|---|
 |[`double Distance`](VRageMath.Distance)||
 |[`T Element`](VRageMath.Element)||
-|[`MyLineSegmentOverlapResultComparer<T> DistanceComparer`](VRageMath.DistanceComparer)||
+|static [`MyLineSegmentOverlapResultComparer<T> DistanceComparer`](VRageMath.DistanceComparer)||

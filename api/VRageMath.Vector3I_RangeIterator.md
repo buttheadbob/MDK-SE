@@ -7,7 +7,7 @@ A class for simpler traversal of ranges of integer vectors
 ### Fields
 |Member|Description|
 |---|---|
-|[`Vector3I Current`](VRageMath.Current)||
+|[`Vector3I Current`](VRageMath.Current)|Do not modify, public only for optimization!|
 ### Methods
 |Member|Description|
 |---|---|

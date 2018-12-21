@@ -5,14 +5,14 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`MyDetectedEntityType None`](Sandbox.ModAPI.Ingame.None)||
-|[`MyDetectedEntityType Unknown`](Sandbox.ModAPI.Ingame.Unknown)||
-|[`MyDetectedEntityType SmallGrid`](Sandbox.ModAPI.Ingame.SmallGrid)||
-|[`MyDetectedEntityType LargeGrid`](Sandbox.ModAPI.Ingame.LargeGrid)||
-|[`MyDetectedEntityType CharacterHuman`](Sandbox.ModAPI.Ingame.CharacterHuman)||
-|[`MyDetectedEntityType CharacterOther`](Sandbox.ModAPI.Ingame.CharacterOther)||
-|[`MyDetectedEntityType FloatingObject`](Sandbox.ModAPI.Ingame.FloatingObject)||
-|[`MyDetectedEntityType Asteroid`](Sandbox.ModAPI.Ingame.Asteroid)||
-|[`MyDetectedEntityType Planet`](Sandbox.ModAPI.Ingame.Planet)||
-|[`MyDetectedEntityType Meteor`](Sandbox.ModAPI.Ingame.Meteor)||
-|[`MyDetectedEntityType Missile`](Sandbox.ModAPI.Ingame.Missile)||
+|static [`MyDetectedEntityType None`](Sandbox.ModAPI.Ingame.None)||
+|static [`MyDetectedEntityType Unknown`](Sandbox.ModAPI.Ingame.Unknown)||
+|static [`MyDetectedEntityType SmallGrid`](Sandbox.ModAPI.Ingame.SmallGrid)||
+|static [`MyDetectedEntityType LargeGrid`](Sandbox.ModAPI.Ingame.LargeGrid)||
+|static [`MyDetectedEntityType CharacterHuman`](Sandbox.ModAPI.Ingame.CharacterHuman)||
+|static [`MyDetectedEntityType CharacterOther`](Sandbox.ModAPI.Ingame.CharacterOther)||
+|static [`MyDetectedEntityType FloatingObject`](Sandbox.ModAPI.Ingame.FloatingObject)||
+|static [`MyDetectedEntityType Asteroid`](Sandbox.ModAPI.Ingame.Asteroid)||
+|static [`MyDetectedEntityType Planet`](Sandbox.ModAPI.Ingame.Planet)||
+|static [`MyDetectedEntityType Meteor`](Sandbox.ModAPI.Ingame.Meteor)||
+|static [`MyDetectedEntityType Missile`](Sandbox.ModAPI.Ingame.Missile)||

@@ -7,7 +7,7 @@ Dynamic aabb tree implementation as a prunning structure
 ### Fields
 |Member|Description|
 |---|---|
-|[`int NullNode`](VRageMath.NullNode)||
+|static [`int NullNode`](VRageMath.NullNode)|A dynamic tree arranges data in a binary tree to accelerate queries such as volume queries and ray casts. Leafs are proxies with an BoundingBox. In the tree we expand the proxy BoundingBox by Settings.b2_fatAABBFactor so that the proxy BoundingBox is bigger than the client object. This allows the client object to move by small amounts without triggering a tree update. Nodes are pooled and relocatable, so we use node indices rather than pointers.|
 ### Properties
 |Member|Description|
 |---|---|
@@ -15,9 +15,9 @@ Dynamic aabb tree implementation as a prunning structure
 ### Methods
 |Member|Description|
 |---|---|
-|[`int AddProxy(ref BoundingBox aabb, Object userData, uint userFlags, bool rebalance)`](VRageMath.AddProxy)||
+|[`int AddProxy(ref BoundingBox aabb, Object userData, uint userFlags, bool rebalance)`](VRageMath.AddProxy)|Create a proxy. Provide a tight fitting BoundingBox and a userData pointer.|
 |[`void RemoveProxy(int proxyId)`](VRageMath.RemoveProxy)|Destroy a proxy. This asserts if the id is invalid.|
-|[`bool MoveProxy(int proxyId, ref BoundingBox aabb, Vector3 displacement)`](VRageMath.MoveProxy)||
+|[`bool MoveProxy(int proxyId, ref BoundingBox aabb, Vector3 displacement)`](VRageMath.MoveProxy)|Move a proxy with a swepted BoundingBox. If the proxy has moved outside of its fattened BoundingBox, then the proxy is removed from the tree and re-inserted. Otherwise the function returns immediately.|
 |[`T GetUserData<T>(int proxyId)`](VRageMath.GetUserData)||
 |[`int GetRoot()`](VRageMath.GetRoot)||
 |[`int GetLeafCount()`](VRageMath.GetLeafCount)||
@@ -25,7 +25,7 @@ Dynamic aabb tree implementation as a prunning structure
 |[`void GetNodeLeaves(int proxyId, List<int> children)`](VRageMath.GetNodeLeaves)||
 |[`BoundingBox GetAabb(int proxyId)`](VRageMath.GetAabb)||
 |[`void GetChildren(int proxyId, ref int left, ref int right)`](VRageMath.GetChildren)||
-|[`void GetFatAABB(int proxyId, ref BoundingBox fatAABB)`](VRageMath.GetFatAABB)||
+|[`void GetFatAABB(int proxyId, ref BoundingBox fatAABB)`](VRageMath.GetFatAABB)|Get the fat BoundingBox for a proxy.|
 |[`void Query(Func<int, bool> callback, ref BoundingBox aabb)`](VRageMath.Query)||
 |[`int CountLeaves(int nodeId)`](VRageMath.CountLeaves)||
 |[`int GetHeight()`](VRageMath.GetHeight)||
@@ -49,4 +49,4 @@ Dynamic aabb tree implementation as a prunning structure
 |[`void GetAll<T>(List<T> elementsList, bool clear, List<BoundingBox> boxsList)`](VRageMath.GetAll)||
 |[`void GetAllNodeBounds(List<BoundingBox> boxsList)`](VRageMath.GetAllNodeBounds)||
 |[`void Clear()`](VRageMath.Clear)||
-|[`void Dispose()`](VRageMath.Dispose)||
+|static [`void Dispose()`](VRageMath.Dispose)||

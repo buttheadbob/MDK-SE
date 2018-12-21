@@ -7,8 +7,8 @@
 ### Properties
 |Member|Description|
 |---|---|
-|[`string Id`](Sandbox.ModAPI.Interfaces.Id)|_Inherited from [`ITerminalProperty`](Sandbox.ModAPI.Interfaces.ITerminalProperty)_|
-|[`string TypeName`](Sandbox.ModAPI.Interfaces.TypeName)|_Inherited from [`ITerminalProperty`](Sandbox.ModAPI.Interfaces.ITerminalProperty)_|
+|[`string Id`](Sandbox.ModAPI.Interfaces.Id)|Property Id (value name)<br/><br/>_Inherited from [`ITerminalProperty`](Sandbox.ModAPI.Interfaces.ITerminalProperty)_|
+|[`string TypeName`](Sandbox.ModAPI.Interfaces.TypeName)|Property type (bool - [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) , float - [System.Single](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) , color - [Color](VRageMath.Color) )<br/><br/>_Inherited from [`ITerminalProperty`](Sandbox.ModAPI.Interfaces.ITerminalProperty)_|
 ### Methods
 |Member|Description|
 |---|---|

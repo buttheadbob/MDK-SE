@@ -5,5 +5,5 @@
 ### Methods
 |Member|Description|
 |---|---|
-|[`ushort Pack(float value)`](VRageMath.PackedVector.Pack)||
-|[`float Unpack(ushort value)`](VRageMath.PackedVector.Unpack)||
+|static [`ushort Pack(float value)`](VRageMath.PackedVector.Pack)||
+|static [`float Unpack(ushort value)`](VRageMath.PackedVector.Unpack)||

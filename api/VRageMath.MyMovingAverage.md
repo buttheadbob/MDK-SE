@@ -1,4 +1,4 @@
-← [Index](index)
+← [Index](ApiIndex)
 # MyMovingAverage Class
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  

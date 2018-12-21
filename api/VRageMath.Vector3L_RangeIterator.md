@@ -1,4 +1,4 @@
-← [Index](index)
+← [Index](ApiIndex)
 # Vector3L_RangeIterator Struct
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  

@@ -1,4 +1,4 @@
-← [Index](index)
+← [Index](ApiIndex)
 # Sandbox.ModAPI.Ingame
 _Not yet ready for use_
 

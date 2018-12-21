@@ -1,4 +1,4 @@
-← [Index](index)
+← [Index](ApiIndex)
 # TerminalActionExtensions Class
 **Namespace:** [`Sandbox.Game.Gui`](Sandbox.Game.Gui)  
 **Assembly:** Sandbox.Game.dll  

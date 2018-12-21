@@ -1,4 +1,4 @@
-← [Index](index)
+← [Index](ApiIndex)
 # Vector3LNormalEqualityComparer Class
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  

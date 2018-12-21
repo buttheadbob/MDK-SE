@@ -1,4 +1,4 @@
-← [Index](index)
+← [Index](ApiIndex)
 # CubeFace Enum
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  

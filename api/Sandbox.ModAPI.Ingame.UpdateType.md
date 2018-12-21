@@ -1,4 +1,4 @@
-← [Index](index)
+← [Index](ApiIndex)
 # UpdateType Enum
 **Namespace:** [`Sandbox.ModAPI.Ingame`](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll  

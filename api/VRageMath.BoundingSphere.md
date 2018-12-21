@@ -1,4 +1,4 @@
-← [Index](index)
+← [Index](ApiIndex)
 # BoundingSphere Struct
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  

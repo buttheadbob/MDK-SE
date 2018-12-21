@@ -1,4 +1,4 @@
-← [Index](index)
+← [Index](ApiIndex)
 # CompressedPositionOrientation Struct
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  

@@ -1,4 +1,4 @@
-← [Index](index)
+← [Index](ApiIndex)
 # MyMath Class
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  

@@ -1,4 +1,4 @@
-← [Index](index)
+← [Index](ApiIndex)
 # ContainmentType Enum
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  

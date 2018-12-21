@@ -1,4 +1,4 @@
-← [Index](index)
+← [Index](ApiIndex)
 # VRage.Game.ObjectBuilders.Definitions
 _Not yet ready for use_
 

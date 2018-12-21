@@ -1,4 +1,4 @@
-← [Index](index)
+← [Index](ApiIndex)
 # SerializableDefinitionId Struct
 **Namespace:** [`VRage.ObjectBuilders`](VRage.ObjectBuilders)  
 **Assembly:** VRage.Game.dll  

@@ -1,4 +1,4 @@
-← [Index](index)
+← [Index](ApiIndex)
 # Color Struct
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  

@@ -1,4 +1,4 @@
-← [Index](index)
+← [Index](ApiIndex)
 # IMyWarhead Interface
 **Namespace:** [`Sandbox.ModAPI.Ingame`](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll  

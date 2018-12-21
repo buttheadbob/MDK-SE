@@ -1,4 +1,4 @@
-← [Index](index)
+← [Index](ApiIndex)
 # ClearToken Struct
 **Namespace:** [`System.Collections.Generic`](System.Collections.Generic)  
 **Assembly:** VRage.Library.dll  

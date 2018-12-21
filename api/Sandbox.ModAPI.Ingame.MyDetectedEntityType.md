@@ -1,4 +1,4 @@
-← [Index](index)
+← [Index](ApiIndex)
 # MyDetectedEntityType Enum
 **Namespace:** [`Sandbox.ModAPI.Ingame`](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll  

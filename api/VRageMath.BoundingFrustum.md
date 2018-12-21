@@ -1,4 +1,4 @@
-← [Index](index)
+← [Index](ApiIndex)
 # BoundingFrustum Class
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  

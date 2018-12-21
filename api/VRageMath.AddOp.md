@@ -1,4 +1,4 @@
-← [Index](index)
+← [Index](ApiIndex)
 # AddOp Interface
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  

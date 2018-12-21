@@ -1,4 +1,4 @@
-← [Index](index)
+← [Index](ApiIndex)
 # Sandbox.Game.EntityComponents
 _Not yet ready for use_
 

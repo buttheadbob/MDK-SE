@@ -1,4 +1,4 @@
-← [Index](index)
+← [Index](ApiIndex)
 # MyComponentBase Class
 **Namespace:** [`VRage.Game.Components`](VRage.Game.Components)  
 **Assembly:** VRage.Game.dll  

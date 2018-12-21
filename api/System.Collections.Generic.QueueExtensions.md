@@ -1,4 +1,4 @@
-← [Index](index)
+← [Index](ApiIndex)
 # QueueExtensions Class
 **Namespace:** [`System.Collections.Generic`](System.Collections.Generic)  
 **Assembly:** VRage.Library.dll  

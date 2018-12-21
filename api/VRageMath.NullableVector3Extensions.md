@@ -1,4 +1,4 @@
-← [Index](index)
+← [Index](ApiIndex)
 # NullableVector3Extensions Class
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  

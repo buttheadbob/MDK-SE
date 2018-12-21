@@ -1,4 +1,4 @@
-← [Index](index)
+← [Index](ApiIndex)
 # NormalizedByte4 Struct
 **Namespace:** [`VRageMath.PackedVector`](VRageMath.PackedVector)  
 **Assembly:** VRage.Math.dll  

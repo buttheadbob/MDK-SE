@@ -1,4 +1,4 @@
-← [Index](index)
+← [Index](ApiIndex)
 # RectangleF Struct
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  

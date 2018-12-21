@@ -1,4 +1,4 @@
-← [Index](index)
+← [Index](ApiIndex)
 # Matrix3x3 Struct
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  

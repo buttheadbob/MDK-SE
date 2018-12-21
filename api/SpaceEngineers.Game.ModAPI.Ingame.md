@@ -1,4 +1,4 @@
-← [Index](index)
+← [Index](ApiIndex)
 # SpaceEngineers.Game.ModAPI.Ingame
 _Not yet ready for use_
 

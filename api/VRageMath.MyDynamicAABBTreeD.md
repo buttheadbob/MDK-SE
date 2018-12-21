@@ -1,4 +1,4 @@
-← [Index](index)
+← [Index](ApiIndex)
 # MyDynamicAABBTreeD Class
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  

@@ -1,4 +1,4 @@
-← [Index](index)
+← [Index](ApiIndex)
 # MyVector3Grid Class
 **Namespace:** [`VRageMath.Spatial`](VRageMath.Spatial)  
 **Assembly:** VRage.Math.dll  

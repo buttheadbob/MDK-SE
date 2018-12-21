@@ -1,4 +1,4 @@
-← [Index](index)
+← [Index](ApiIndex)
 # HalfUtils Class
 **Namespace:** [`VRageMath.PackedVector`](VRageMath.PackedVector)  
 **Assembly:** VRage.Math.dll  

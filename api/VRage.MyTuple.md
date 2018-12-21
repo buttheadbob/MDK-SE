@@ -1,4 +1,4 @@
-← [Index](index)
+← [Index](ApiIndex)
 # MyTuple Struct
 **Namespace:** [`VRage`](VRage)  
 **Assembly:** VRage.Library.dll  

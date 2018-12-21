@@ -1,4 +1,4 @@
-← [Index](index)
+← [Index](ApiIndex)
 # MyResourceSinkComponent Class
 **Namespace:** [`Sandbox.Game.EntityComponents`](Sandbox.Game.EntityComponents)  
 **Assembly:** Sandbox.Game.dll  

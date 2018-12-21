@@ -2,5 +2,5 @@
 # VRage.ObjectBuilders
 _Not yet ready for use_
 
-**[`VRage.ObjectBuilders.MyObjectBuilder_Base`](VRage.ObjectBuilders.MyObjectBuilder_Base)**  
-**[`VRage.ObjectBuilders.SerializableDefinitionId`](VRage.ObjectBuilders.SerializableDefinitionId)**  
+**[`MyObjectBuilder_Base`](VRage.ObjectBuilders.MyObjectBuilder_Base)**  
+**[`SerializableDefinitionId`](VRage.ObjectBuilders.SerializableDefinitionId)**  

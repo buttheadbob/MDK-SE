@@ -2,7 +2,7 @@
 # VRage.Game
 _Not yet ready for use_
 
-**[`VRage.Game.MyCubeSize`](VRage.Game.MyCubeSize)**  
-**[`VRage.Game.MyDefinitionId`](VRage.Game.MyDefinitionId)**  
-**[`VRage.Game.MyRelationsBetweenPlayerAndBlock`](VRage.Game.MyRelationsBetweenPlayerAndBlock)**  
-**[`VRage.Game.MyRelationsBetweenPlayerAndBlockExtensions`](VRage.Game.MyRelationsBetweenPlayerAndBlockExtensions)**  
+**[`MyCubeSize`](VRage.Game.MyCubeSize)**  
+**[`MyDefinitionId`](VRage.Game.MyDefinitionId)**  
+**[`MyRelationsBetweenPlayerAndBlock`](VRage.Game.MyRelationsBetweenPlayerAndBlock)**  
+**[`MyRelationsBetweenPlayerAndBlockExtensions`](VRage.Game.MyRelationsBetweenPlayerAndBlockExtensions)**  

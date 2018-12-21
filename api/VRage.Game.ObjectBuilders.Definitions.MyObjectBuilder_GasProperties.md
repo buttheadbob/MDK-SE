@@ -4,5 +4,5 @@
 **Assembly:** VRage.Game.dll  
 ### Fields
 <table style="width:100%;display:table">
-<tr><td>[`float EnergyDensity`](VRage.Game.ObjectBuilders.Definitions.EnergyDensity)</td><td></td></tr>
+<tr><td>_<a href="VRage.Game.ObjectBuilders.Definitions.EnergyDensity"><code>float EnergyDensity</code></a>_</td><td></td></tr>
 </table>

@@ -4,8 +4,8 @@
 **Assembly:** SpaceEngineers.Game.dll  
 ### Fields
 <table style="width:100%;display:table">
-<tr><td>static [`VentStatus Depressurized`](SpaceEngineers.Game.ModAPI.Ingame.Depressurized)</td><td>Air vent is depressurized</td></tr>
-<tr><td>static [`VentStatus Depressurizing`](SpaceEngineers.Game.ModAPI.Ingame.Depressurizing)</td><td>Air vent is in process of depressurizing</td></tr>
-<tr><td>static [`VentStatus Pressurized`](SpaceEngineers.Game.ModAPI.Ingame.Pressurized)</td><td>Air vent is pressurized</td></tr>
-<tr><td>static [`VentStatus Pressurizing`](SpaceEngineers.Game.ModAPI.Ingame.Pressurizing)</td><td>Air vent is in process of pressurizing</td></tr>
+<tr><td>static _<a href="SpaceEngineers.Game.ModAPI.Ingame.Depressurized"><code>VentStatus Depressurized</code></a>_</td><td>Air vent is depressurized</td></tr>
+<tr><td>static _<a href="SpaceEngineers.Game.ModAPI.Ingame.Depressurizing"><code>VentStatus Depressurizing</code></a>_</td><td>Air vent is in process of depressurizing</td></tr>
+<tr><td>static _<a href="SpaceEngineers.Game.ModAPI.Ingame.Pressurized"><code>VentStatus Pressurized</code></a>_</td><td>Air vent is pressurized</td></tr>
+<tr><td>static _<a href="SpaceEngineers.Game.ModAPI.Ingame.Pressurizing"><code>VentStatus Pressurizing</code></a>_</td><td>Air vent is in process of pressurizing</td></tr>
 </table>

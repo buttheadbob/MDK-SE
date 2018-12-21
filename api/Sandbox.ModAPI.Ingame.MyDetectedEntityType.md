@@ -4,15 +4,15 @@
 **Assembly:** Sandbox.Common.dll  
 ### Fields
 <table style="width:100%;display:table">
-<tr><td>static [`MyDetectedEntityType None`](Sandbox.ModAPI.Ingame.None)</td><td></td></tr>
-<tr><td>static [`MyDetectedEntityType Unknown`](Sandbox.ModAPI.Ingame.Unknown)</td><td></td></tr>
-<tr><td>static [`MyDetectedEntityType SmallGrid`](Sandbox.ModAPI.Ingame.SmallGrid)</td><td></td></tr>
-<tr><td>static [`MyDetectedEntityType LargeGrid`](Sandbox.ModAPI.Ingame.LargeGrid)</td><td></td></tr>
-<tr><td>static [`MyDetectedEntityType CharacterHuman`](Sandbox.ModAPI.Ingame.CharacterHuman)</td><td></td></tr>
-<tr><td>static [`MyDetectedEntityType CharacterOther`](Sandbox.ModAPI.Ingame.CharacterOther)</td><td></td></tr>
-<tr><td>static [`MyDetectedEntityType FloatingObject`](Sandbox.ModAPI.Ingame.FloatingObject)</td><td></td></tr>
-<tr><td>static [`MyDetectedEntityType Asteroid`](Sandbox.ModAPI.Ingame.Asteroid)</td><td></td></tr>
-<tr><td>static [`MyDetectedEntityType Planet`](Sandbox.ModAPI.Ingame.Planet)</td><td></td></tr>
-<tr><td>static [`MyDetectedEntityType Meteor`](Sandbox.ModAPI.Ingame.Meteor)</td><td></td></tr>
-<tr><td>static [`MyDetectedEntityType Missile`](Sandbox.ModAPI.Ingame.Missile)</td><td></td></tr>
+<tr><td>static _<a href="Sandbox.ModAPI.Ingame.None"><code>MyDetectedEntityType None</code></a>_</td><td></td></tr>
+<tr><td>static _<a href="Sandbox.ModAPI.Ingame.Unknown"><code>MyDetectedEntityType Unknown</code></a>_</td><td></td></tr>
+<tr><td>static _<a href="Sandbox.ModAPI.Ingame.SmallGrid"><code>MyDetectedEntityType SmallGrid</code></a>_</td><td></td></tr>
+<tr><td>static _<a href="Sandbox.ModAPI.Ingame.LargeGrid"><code>MyDetectedEntityType LargeGrid</code></a>_</td><td></td></tr>
+<tr><td>static _<a href="Sandbox.ModAPI.Ingame.CharacterHuman"><code>MyDetectedEntityType CharacterHuman</code></a>_</td><td></td></tr>
+<tr><td>static _<a href="Sandbox.ModAPI.Ingame.CharacterOther"><code>MyDetectedEntityType CharacterOther</code></a>_</td><td></td></tr>
+<tr><td>static _<a href="Sandbox.ModAPI.Ingame.FloatingObject"><code>MyDetectedEntityType FloatingObject</code></a>_</td><td></td></tr>
+<tr><td>static _<a href="Sandbox.ModAPI.Ingame.Asteroid"><code>MyDetectedEntityType Asteroid</code></a>_</td><td></td></tr>
+<tr><td>static _<a href="Sandbox.ModAPI.Ingame.Planet"><code>MyDetectedEntityType Planet</code></a>_</td><td></td></tr>
+<tr><td>static _<a href="Sandbox.ModAPI.Ingame.Meteor"><code>MyDetectedEntityType Meteor</code></a>_</td><td></td></tr>
+<tr><td>static _<a href="Sandbox.ModAPI.Ingame.Missile"><code>MyDetectedEntityType Missile</code></a>_</td><td></td></tr>
 </table>

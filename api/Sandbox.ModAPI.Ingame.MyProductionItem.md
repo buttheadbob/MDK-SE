@@ -4,7 +4,7 @@
 **Assembly:** Sandbox.Common.dll  
 ### Fields
 <table style="width:100%;display:table">
-<tr><td>[`MyFixedPoint Amount`](Sandbox.ModAPI.Ingame.Amount)</td><td></td></tr>
-<tr><td>[`MyDefinitionId BlueprintId`](Sandbox.ModAPI.Ingame.BlueprintId)</td><td></td></tr>
-<tr><td>[`uint ItemId`](Sandbox.ModAPI.Ingame.ItemId)</td><td></td></tr>
+<tr><td>_<a href="Sandbox.ModAPI.Ingame.Amount"><code>MyFixedPoint Amount</code></a>_</td><td></td></tr>
+<tr><td>_<a href="Sandbox.ModAPI.Ingame.BlueprintId"><code>MyDefinitionId BlueprintId</code></a>_</td><td></td></tr>
+<tr><td>_<a href="Sandbox.ModAPI.Ingame.ItemId"><code>uint ItemId</code></a>_</td><td></td></tr>
 </table>

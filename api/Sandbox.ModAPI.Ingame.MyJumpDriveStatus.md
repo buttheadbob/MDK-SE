@@ -4,7 +4,7 @@
 **Assembly:** Sandbox.Common.dll  
 ### Fields
 <table style="width:100%;display:table">
-<tr><td>static [`MyJumpDriveStatus Charging`](Sandbox.ModAPI.Ingame.Charging)</td><td></td></tr>
-<tr><td>static [`MyJumpDriveStatus Ready`](Sandbox.ModAPI.Ingame.Ready)</td><td></td></tr>
-<tr><td>static [`MyJumpDriveStatus Jumping`](Sandbox.ModAPI.Ingame.Jumping)</td><td></td></tr>
+<tr><td>static _<a href="Sandbox.ModAPI.Ingame.Charging"><code>MyJumpDriveStatus Charging</code></a>_</td><td></td></tr>
+<tr><td>static _<a href="Sandbox.ModAPI.Ingame.Ready"><code>MyJumpDriveStatus Ready</code></a>_</td><td></td></tr>
+<tr><td>static _<a href="Sandbox.ModAPI.Ingame.Jumping"><code>MyJumpDriveStatus Jumping</code></a>_</td><td></td></tr>
 </table>

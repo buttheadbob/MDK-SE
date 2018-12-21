@@ -4,22 +4,22 @@
 **Assembly:** VRage.Game.dll  
 ### Fields
 <table style="width:100%;display:table">
-<tr><td>[`string Text`](VRage.Game.ModAPI.Ingame.Utilities.Text)</td><td></td></tr>
-<tr><td>[`int Start`](VRage.Game.ModAPI.Ingame.Utilities.Start)</td><td></td></tr>
-<tr><td>[`int Length`](VRage.Game.ModAPI.Ingame.Utilities.Length)</td><td></td></tr>
+<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.Text"><code>string Text</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.Start"><code>int Start</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.Length"><code>int Length</code></a>_</td><td></td></tr>
 </table>
 ### Properties
 <table style="width:100%;display:table">
-<tr><td>[`bool IsEmpty`](VRage.Game.ModAPI.Ingame.Utilities.IsEmpty)</td><td></td></tr>
-<tr><td>[`bool IsCached`](VRage.Game.ModAPI.Ingame.Utilities.IsCached)</td><td></td></tr>
-<tr><td>[`char Item`](VRage.Game.ModAPI.Ingame.Utilities.Item)</td><td></td></tr>
+<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.IsEmpty"><code>bool IsEmpty</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.IsCached"><code>bool IsCached</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.Item"><code>char Item</code></a>_</td><td></td></tr>
 </table>
 ### Methods
 <table style="width:100%;display:table">
-<tr><td>[`int IndexOf(char ch)`](VRage.Game.ModAPI.Ingame.Utilities.IndexOf)</td><td></td></tr>
-<tr><td>[`int IndexOf(char ch, int start)`](VRage.Game.ModAPI.Ingame.Utilities.IndexOf)</td><td></td></tr>
-<tr><td>[`int IndexOfAny(Char[] chars)`](VRage.Game.ModAPI.Ingame.Utilities.IndexOfAny)</td><td></td></tr>
-<tr><td>[`bool EqualsIgnoreCase(StringSegment other)`](VRage.Game.ModAPI.Ingame.Utilities.EqualsIgnoreCase)</td><td></td></tr>
-<tr><td>[`string ToString()`](VRage.Game.ModAPI.Ingame.Utilities.ToString)</td><td></td></tr>
-<tr><td>[`void GetLines(List<string> lines)`](VRage.Game.ModAPI.Ingame.Utilities.GetLines)</td><td></td></tr>
+<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.IndexOf"><code>int IndexOf(char ch)</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.IndexOf"><code>int IndexOf(char ch, int start)</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.IndexOfAny"><code>int IndexOfAny(Char[] chars)</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.EqualsIgnoreCase"><code>bool EqualsIgnoreCase(StringSegment other)</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.ToString"><code>string ToString()</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.GetLines"><code>void GetLines(List<string> lines)</code></a>_</td><td></td></tr>
 </table>

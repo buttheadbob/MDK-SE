@@ -6,7 +6,7 @@
 Describes the intersection between a plane and a bounding volume.
 ### Fields
 <table style="width:100%;display:table">
-<tr><td>static [`PlaneIntersectionType Front`](VRageMath.Front)</td><td></td></tr>
-<tr><td>static [`PlaneIntersectionType Back`](VRageMath.Back)</td><td></td></tr>
-<tr><td>static [`PlaneIntersectionType Intersecting`](VRageMath.Intersecting)</td><td></td></tr>
+<tr><td>static _<a href="VRageMath.Front"><code>PlaneIntersectionType Front</code></a>_</td><td></td></tr>
+<tr><td>static _<a href="VRageMath.Back"><code>PlaneIntersectionType Back</code></a>_</td><td></td></tr>
+<tr><td>static _<a href="VRageMath.Intersecting"><code>PlaneIntersectionType Intersecting</code></a>_</td><td></td></tr>
 </table>

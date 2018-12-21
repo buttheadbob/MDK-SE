@@ -4,8 +4,8 @@
 **Assembly:** VRage.Math.dll  
 ### Fields
 <table style="width:100%;display:table">
-<tr><td>[`ushort X`](VRageMath.X)</td><td></td></tr>
-<tr><td>[`ushort Y`](VRageMath.Y)</td><td></td></tr>
-<tr><td>[`ushort Z`](VRageMath.Z)</td><td></td></tr>
-<tr><td>[`ushort W`](VRageMath.W)</td><td></td></tr>
+<tr><td>_<a href="VRageMath.X"><code>ushort X</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRageMath.Y"><code>ushort Y</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRageMath.Z"><code>ushort Z</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRageMath.W"><code>ushort W</code></a>_</td><td></td></tr>
 </table>

@@ -4,6 +4,6 @@
 **Assembly:** Sandbox.Common.dll  
 ### Fields
 <table style="width:100%;display:table">
-<tr><td>[`Vector3D LinearVelocity`](Sandbox.ModAPI.Ingame.LinearVelocity)</td><td>Gets the ship's linear velocity (motion).</td></tr>
-<tr><td>[`Vector3D AngularVelocity`](Sandbox.ModAPI.Ingame.AngularVelocity)</td><td>Gets the ship's angular velocity (rotation).</td></tr>
+<tr><td>_<a href="Sandbox.ModAPI.Ingame.LinearVelocity"><code>Vector3D LinearVelocity</code></a>_</td><td>Gets the ship's linear velocity (motion).</td></tr>
+<tr><td>_<a href="Sandbox.ModAPI.Ingame.AngularVelocity"><code>Vector3D AngularVelocity</code></a>_</td><td>Gets the ship's angular velocity (rotation).</td></tr>
 </table>

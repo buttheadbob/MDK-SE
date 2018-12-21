@@ -4,6 +4,6 @@
 **Assembly:** VRage.Library.dll  
 ### Methods
 <table style="width:100%;display:table">
-<tr><td>static [`T FirstElement<T>(HashSet<T> hashset)`](System.Collections.Generic.FirstElement)</td><td></td></tr>
-<tr><td>static [`bool TryGetValue<T>(HashSet<T> hashset, T equalValue, ref T actualValue)`](System.Collections.Generic.TryGetValue)</td><td></td></tr>
+<tr><td>static _<a href="System.Collections.Generic.FirstElement"><code>T FirstElement<T>(HashSet<T> hashset)</code></a>_</td><td></td></tr>
+<tr><td>static _<a href="System.Collections.Generic.TryGetValue"><code>bool TryGetValue<T>(HashSet<T> hashset, T equalValue, ref T actualValue)</code></a>_</td><td></td></tr>
 </table>

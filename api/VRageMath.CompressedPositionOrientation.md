@@ -6,15 +6,15 @@
 Defines a matrix.
 ### Fields
 <table style="width:100%;display:table">
-<tr><td>[`Vector3 Position`](VRageMath.Position)</td><td></td></tr>
-<tr><td>[`HalfVector4 Orientation`](VRageMath.Orientation)</td><td></td></tr>
+<tr><td>_<a href="VRageMath.Position"><code>Vector3 Position</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRageMath.Orientation"><code>HalfVector4 Orientation</code></a>_</td><td></td></tr>
 </table>
 ### Properties
 <table style="width:100%;display:table">
-<tr><td>[`Matrix Matrix`](VRageMath.Matrix)</td><td></td></tr>
+<tr><td>_<a href="VRageMath.Matrix"><code>Matrix Matrix</code></a>_</td><td></td></tr>
 </table>
 ### Methods
 <table style="width:100%;display:table">
-<tr><td>[`void FromMatrix(ref Matrix matrix)`](VRageMath.FromMatrix)</td><td></td></tr>
-<tr><td>[`void ToMatrix(ref Matrix result)`](VRageMath.ToMatrix)</td><td></td></tr>
+<tr><td>_<a href="VRageMath.FromMatrix"><code>void FromMatrix(ref Matrix matrix)</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRageMath.ToMatrix"><code>void ToMatrix(ref Matrix result)</code></a>_</td><td></td></tr>
 </table>

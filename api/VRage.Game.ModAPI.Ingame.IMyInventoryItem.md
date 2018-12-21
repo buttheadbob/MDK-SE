@@ -4,8 +4,8 @@
 **Assembly:** VRage.Game.dll  
 ### Properties
 <table style="width:100%;display:table">
-<tr><td>[`MyFixedPoint Amount`](VRage.Game.ModAPI.Ingame.Amount)</td><td></td></tr>
-<tr><td>[`float Scale`](VRage.Game.ModAPI.Ingame.Scale)</td><td></td></tr>
-<tr><td>[`MyObjectBuilder_Base Content`](VRage.Game.ModAPI.Ingame.Content)</td><td></td></tr>
-<tr><td>[`uint ItemId`](VRage.Game.ModAPI.Ingame.ItemId)</td><td></td></tr>
+<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Amount"><code>MyFixedPoint Amount</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Scale"><code>float Scale</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Content"><code>MyObjectBuilder_Base Content</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRage.Game.ModAPI.Ingame.ItemId"><code>uint ItemId</code></a>_</td><td></td></tr>
 </table>

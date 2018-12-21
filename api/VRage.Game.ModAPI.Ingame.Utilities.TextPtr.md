@@ -4,28 +4,28 @@
 **Assembly:** VRage.Game.dll  
 ### Fields
 <table style="width:100%;display:table">
-<tr><td>[`string Content`](VRage.Game.ModAPI.Ingame.Utilities.Content)</td><td></td></tr>
-<tr><td>[`int Index`](VRage.Game.ModAPI.Ingame.Utilities.Index)</td><td></td></tr>
+<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.Content"><code>string Content</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.Index"><code>int Index</code></a>_</td><td></td></tr>
 </table>
 ### Properties
 <table style="width:100%;display:table">
-<tr><td>[`char Char`](VRage.Game.ModAPI.Ingame.Utilities.Char)</td><td></td></tr>
-<tr><td>[`bool IsEmpty`](VRage.Game.ModAPI.Ingame.Utilities.IsEmpty)</td><td></td></tr>
+<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.Char"><code>char Char</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.IsEmpty"><code>bool IsEmpty</code></a>_</td><td></td></tr>
 </table>
 ### Methods
 <table style="width:100%;display:table">
-<tr><td>[`bool IsOutOfBounds()`](VRage.Game.ModAPI.Ingame.Utilities.IsOutOfBounds)</td><td></td></tr>
-<tr><td>[`int FindLineNo()`](VRage.Game.ModAPI.Ingame.Utilities.FindLineNo)</td><td></td></tr>
-<tr><td>[`TextPtr Find(string str)`](VRage.Game.ModAPI.Ingame.Utilities.Find)</td><td></td></tr>
-<tr><td>[`TextPtr Find(char ch)`](VRage.Game.ModAPI.Ingame.Utilities.Find)</td><td></td></tr>
-<tr><td>[`TextPtr FindInLine(char ch)`](VRage.Game.ModAPI.Ingame.Utilities.FindInLine)</td><td></td></tr>
-<tr><td>[`TextPtr FindEndOfLine(bool skipNewline)`](VRage.Game.ModAPI.Ingame.Utilities.FindEndOfLine)</td><td></td></tr>
-<tr><td>[`bool StartsWithCaseInsensitive(string what)`](VRage.Game.ModAPI.Ingame.Utilities.StartsWithCaseInsensitive)</td><td></td></tr>
-<tr><td>[`bool StartsWith(string what)`](VRage.Game.ModAPI.Ingame.Utilities.StartsWith)</td><td></td></tr>
-<tr><td>[`TextPtr SkipWhitespace(bool skipNewline)`](VRage.Game.ModAPI.Ingame.Utilities.SkipWhitespace)</td><td></td></tr>
-<tr><td>[`bool IsEndOfLine()`](VRage.Game.ModAPI.Ingame.Utilities.IsEndOfLine)</td><td></td></tr>
-<tr><td>[`bool IsStartOfLine()`](VRage.Game.ModAPI.Ingame.Utilities.IsStartOfLine)</td><td></td></tr>
-<tr><td>[`bool IsNewLine()`](VRage.Game.ModAPI.Ingame.Utilities.IsNewLine)</td><td></td></tr>
-<tr><td>[`TextPtr TrimStart()`](VRage.Game.ModAPI.Ingame.Utilities.TrimStart)</td><td></td></tr>
-<tr><td>[`TextPtr TrimEnd()`](VRage.Game.ModAPI.Ingame.Utilities.TrimEnd)</td><td></td></tr>
+<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.IsOutOfBounds"><code>bool IsOutOfBounds()</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.FindLineNo"><code>int FindLineNo()</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.Find"><code>TextPtr Find(string str)</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.Find"><code>TextPtr Find(char ch)</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.FindInLine"><code>TextPtr FindInLine(char ch)</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.FindEndOfLine"><code>TextPtr FindEndOfLine(bool skipNewline)</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.StartsWithCaseInsensitive"><code>bool StartsWithCaseInsensitive(string what)</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.StartsWith"><code>bool StartsWith(string what)</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.SkipWhitespace"><code>TextPtr SkipWhitespace(bool skipNewline)</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.IsEndOfLine"><code>bool IsEndOfLine()</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.IsStartOfLine"><code>bool IsStartOfLine()</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.IsNewLine"><code>bool IsNewLine()</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.TrimStart"><code>TextPtr TrimStart()</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.TrimEnd"><code>TextPtr TrimEnd()</code></a>_</td><td></td></tr>
 </table>

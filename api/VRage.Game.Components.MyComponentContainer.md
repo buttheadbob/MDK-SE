@@ -4,6 +4,6 @@
 **Assembly:** VRage.Game.dll  
 ### Methods
 <table style="width:100%;display:table">
-<tr><td>[`T Get<T>()`](VRage.Game.Components.Get)</td><td></td></tr>
-<tr><td>[`bool Has<T>()`](VRage.Game.Components.Has)</td><td></td></tr>
+<tr><td>_<a href="VRage.Game.Components.Get"><code>T Get<T>()</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRage.Game.Components.Has"><code>bool Has<T>()</code></a>_</td><td></td></tr>
 </table>

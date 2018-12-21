@@ -4,20 +4,20 @@
 **Assembly:** VRage.Math.dll  
 ### Fields
 <table style="width:100%;display:table">
-<tr><td>[`short X`](VRageMath.X)</td><td></td></tr>
-<tr><td>[`short Y`](VRageMath.Y)</td><td></td></tr>
-<tr><td>[`short Z`](VRageMath.Z)</td><td></td></tr>
-<tr><td>static [`Vector3S Up`](VRageMath.Up)</td><td></td></tr>
-<tr><td>static [`Vector3S Down`](VRageMath.Down)</td><td></td></tr>
-<tr><td>static [`Vector3S Right`](VRageMath.Right)</td><td></td></tr>
-<tr><td>static [`Vector3S Left`](VRageMath.Left)</td><td></td></tr>
-<tr><td>static [`Vector3S Forward`](VRageMath.Forward)</td><td></td></tr>
-<tr><td>static [`Vector3S Backward`](VRageMath.Backward)</td><td></td></tr>
+<tr><td>_<a href="VRageMath.X"><code>short X</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRageMath.Y"><code>short Y</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRageMath.Z"><code>short Z</code></a>_</td><td></td></tr>
+<tr><td>static _<a href="VRageMath.Up"><code>Vector3S Up</code></a>_</td><td></td></tr>
+<tr><td>static _<a href="VRageMath.Down"><code>Vector3S Down</code></a>_</td><td></td></tr>
+<tr><td>static _<a href="VRageMath.Right"><code>Vector3S Right</code></a>_</td><td></td></tr>
+<tr><td>static _<a href="VRageMath.Left"><code>Vector3S Left</code></a>_</td><td></td></tr>
+<tr><td>static _<a href="VRageMath.Forward"><code>Vector3S Forward</code></a>_</td><td></td></tr>
+<tr><td>static _<a href="VRageMath.Backward"><code>Vector3S Backward</code></a>_</td><td></td></tr>
 </table>
 ### Methods
 <table style="width:100%;display:table">
-<tr><td>[`string ToString()`](VRageMath.ToString)</td><td></td></tr>
-<tr><td>[`int GetHashCode()`](VRageMath.GetHashCode)</td><td></td></tr>
-<tr><td>[`bool Equals(Object obj)`](VRageMath.Equals)</td><td></td></tr>
-<tr><td>static [`Vector3S Round(Vector3 v)`](VRageMath.Round)</td><td></td></tr>
+<tr><td>_<a href="VRageMath.ToString"><code>string ToString()</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRageMath.GetHashCode"><code>int GetHashCode()</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRageMath.Equals"><code>bool Equals(Object obj)</code></a>_</td><td></td></tr>
+<tr><td>static _<a href="VRageMath.Round"><code>Vector3S Round(Vector3 v)</code></a>_</td><td></td></tr>
 </table>

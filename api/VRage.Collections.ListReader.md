@@ -4,16 +4,16 @@
 **Assembly:** VRage.Library.dll  
 ### Fields
 <table style="width:100%;display:table">
-<tr><td>static [`ListReader<T> Empty`](VRage.Collections.Empty)</td><td></td></tr>
+<tr><td>static _<a href="VRage.Collections.Empty"><code>ListReader<T> Empty</code></a>_</td><td></td></tr>
 </table>
 ### Properties
 <table style="width:100%;display:table">
-<tr><td>[`int Count`](VRage.Collections.Count)</td><td></td></tr>
-<tr><td>[`T Item`](VRage.Collections.Item)</td><td></td></tr>
+<tr><td>_<a href="VRage.Collections.Count"><code>int Count</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRage.Collections.Item"><code>T Item</code></a>_</td><td></td></tr>
 </table>
 ### Methods
 <table style="width:100%;display:table">
-<tr><td>[`T ItemAt(int index)`](VRage.Collections.ItemAt)</td><td></td></tr>
-<tr><td>[`int IndexOf(T item)`](VRage.Collections.IndexOf)</td><td></td></tr>
-<tr><td>[`Enumerator<T> GetEnumerator()`](VRage.Collections.GetEnumerator)</td><td></td></tr>
+<tr><td>_<a href="VRage.Collections.ItemAt"><code>T ItemAt(int index)</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRage.Collections.IndexOf"><code>int IndexOf(T item)</code></a>_</td><td></td></tr>
+<tr><td>_<a href="VRage.Collections.GetEnumerator"><code>Enumerator<T> GetEnumerator()</code></a>_</td><td></td></tr>
 </table>

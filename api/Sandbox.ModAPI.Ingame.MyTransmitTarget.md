@@ -4,11 +4,11 @@
 **Assembly:** Sandbox.Common.dll  
 ### Fields
 <table style="width:100%;display:table">
-<tr><td>static [`MyTransmitTarget None`](Sandbox.ModAPI.Ingame.None)</td><td></td></tr>
-<tr><td>static [`MyTransmitTarget Owned`](Sandbox.ModAPI.Ingame.Owned)</td><td></td></tr>
-<tr><td>static [`MyTransmitTarget Ally`](Sandbox.ModAPI.Ingame.Ally)</td><td></td></tr>
-<tr><td>static [`MyTransmitTarget Neutral`](Sandbox.ModAPI.Ingame.Neutral)</td><td></td></tr>
-<tr><td>static [`MyTransmitTarget Enemy`](Sandbox.ModAPI.Ingame.Enemy)</td><td></td></tr>
-<tr><td>static [`MyTransmitTarget Everyone`](Sandbox.ModAPI.Ingame.Everyone)</td><td></td></tr>
-<tr><td>static [`MyTransmitTarget Default`](Sandbox.ModAPI.Ingame.Default)</td><td></td></tr>
+<tr><td>static _<a href="Sandbox.ModAPI.Ingame.None"><code>MyTransmitTarget None</code></a>_</td><td></td></tr>
+<tr><td>static _<a href="Sandbox.ModAPI.Ingame.Owned"><code>MyTransmitTarget Owned</code></a>_</td><td></td></tr>
+<tr><td>static _<a href="Sandbox.ModAPI.Ingame.Ally"><code>MyTransmitTarget Ally</code></a>_</td><td></td></tr>
+<tr><td>static _<a href="Sandbox.ModAPI.Ingame.Neutral"><code>MyTransmitTarget Neutral</code></a>_</td><td></td></tr>
+<tr><td>static _<a href="Sandbox.ModAPI.Ingame.Enemy"><code>MyTransmitTarget Enemy</code></a>_</td><td></td></tr>
+<tr><td>static _<a href="Sandbox.ModAPI.Ingame.Everyone"><code>MyTransmitTarget Everyone</code></a>_</td><td></td></tr>
+<tr><td>static _<a href="Sandbox.ModAPI.Ingame.Default"><code>MyTransmitTarget Default</code></a>_</td><td></td></tr>
 </table>

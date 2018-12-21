@@ -4,10 +4,10 @@
 **Assembly:** VRage.Math.dll  
 ### Fields
 <table style="width:100%;display:table">
-<tr><td>static [`CubeFace Left`](VRageMath.Left)</td><td></td></tr>
-<tr><td>static [`CubeFace Right`](VRageMath.Right)</td><td></td></tr>
-<tr><td>static [`CubeFace Up`](VRageMath.Up)</td><td></td></tr>
-<tr><td>static [`CubeFace Down`](VRageMath.Down)</td><td></td></tr>
-<tr><td>static [`CubeFace Forward`](VRageMath.Forward)</td><td></td></tr>
-<tr><td>static [`CubeFace Backward`](VRageMath.Backward)</td><td></td></tr>
+<tr><td>static _<a href="VRageMath.Left"><code>CubeFace Left</code></a>_</td><td></td></tr>
+<tr><td>static _<a href="VRageMath.Right"><code>CubeFace Right</code></a>_</td><td></td></tr>
+<tr><td>static _<a href="VRageMath.Up"><code>CubeFace Up</code></a>_</td><td></td></tr>
+<tr><td>static _<a href="VRageMath.Down"><code>CubeFace Down</code></a>_</td><td></td></tr>
+<tr><td>static _<a href="VRageMath.Forward"><code>CubeFace Forward</code></a>_</td><td></td></tr>
+<tr><td>static _<a href="VRageMath.Backward"><code>CubeFace Backward</code></a>_</td><td></td></tr>
 </table>

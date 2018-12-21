@@ -10,19 +10,10 @@ VRage.Game.dll
 VRage.Library.dll  
 VRage.Math.dll  
 ## Types
-### Block Bases  
-[`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
-[`IMyFunctionalBlock`](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
-[`IMyShipController`](Sandbox.ModAPI.Ingame.IMyShipController)  
-[`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyProductionBlock)  
-[`IMyUserControllableGun`](Sandbox.ModAPI.Ingame.IMyUserControllableGun)  
-[`IMyMechanicalConnectionBlock`](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)  
-[`IMyGasTank`](Sandbox.ModAPI.Ingame.IMyGasTank)  
-[`IMyShipToolBase`](Sandbox.ModAPI.Ingame.IMyShipToolBase)  
-[`IMyGravityGeneratorBase`](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorBase)  
-[`IMyVirtualMass`](SpaceEngineers.Game.ModAPI.Ingame.IMyVirtualMass)  
-[`IMyLargeTurretBase`](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)  
-### Blocks  
+### Blocks
+
+Use these interfaces when you wish to access specific block types.
+
 [`IMyWarhead`](Sandbox.ModAPI.Ingame.IMyWarhead)  
 [`IMyButtonPanel`](SpaceEngineers.Game.ModAPI.Ingame.IMyButtonPanel)  
 [`IMyOxygenFarm`](SpaceEngineers.Game.ModAPI.Ingame.IMyOxygenFarm)  
@@ -69,7 +60,25 @@ VRage.Math.dll
 [`IMyGravityGeneratorSphere`](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorSphere)  
 [`IMySpaceBall`](SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall)  
 [`IMyLargeConveyorTurretBase`](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase)  
-### Other  
+### Block Categories
+
+Use these interfaces when you wish to access blocks by a specific function or category rather than a specific block type.
+
+[`IMyTerminalBlock`](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
+[`IMyFunctionalBlock`](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
+[`IMyShipController`](Sandbox.ModAPI.Ingame.IMyShipController)  
+[`IMyProductionBlock`](Sandbox.ModAPI.Ingame.IMyProductionBlock)  
+[`IMyUserControllableGun`](Sandbox.ModAPI.Ingame.IMyUserControllableGun)  
+[`IMyMechanicalConnectionBlock`](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)  
+[`IMyGasTank`](Sandbox.ModAPI.Ingame.IMyGasTank)  
+[`IMyShipToolBase`](Sandbox.ModAPI.Ingame.IMyShipToolBase)  
+[`IMyGravityGeneratorBase`](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorBase)  
+[`IMyVirtualMass`](SpaceEngineers.Game.ModAPI.Ingame.IMyVirtualMass)  
+[`IMyLargeTurretBase`](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)  
+### Other
+
+Types that don't fit into a specific category
+
 [`IMyBlockGroup`](Sandbox.ModAPI.Ingame.IMyBlockGroup)  
 [`IMyGridTerminalSystem`](Sandbox.ModAPI.Ingame.IMyGridTerminalSystem)  
 [`IMyGridProgramRuntimeInfo`](Sandbox.ModAPI.Ingame.IMyGridProgramRuntimeInfo)  

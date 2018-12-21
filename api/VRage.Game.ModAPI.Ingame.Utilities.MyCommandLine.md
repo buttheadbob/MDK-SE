@@ -5,16 +5,16 @@
 ## Summary
 A utility class to parse arguments from a command line string. Switches are defined with hyphen (-switch). Quotes can be placed around an argument to parse verbatim.
 ### Properties
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.Items"><code>ItemCollection Items</code></a>_</td><td>Contains all items, both arguments and switches</td></tr>
-<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.Switches"><code>SwitchCollection Switches</code></a>_</td><td>Contains a list of all detected switches</td></tr>
-<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.ArgumentCount"><code>int ArgumentCount</code></a>_</td><td>Returns the number of non-switch arguments</td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`ItemCollection&nbsp;Items`](VRage.Game.ModAPI.Ingame.Utilities.Items)|Contains all items, both arguments and switches|
+|[`SwitchCollection&nbsp;Switches`](VRage.Game.ModAPI.Ingame.Utilities.Switches)|Contains a list of all detected switches|
+|[`int&nbsp;ArgumentCount`](VRage.Game.ModAPI.Ingame.Utilities.ArgumentCount)|Returns the number of non-switch arguments|
 ### Methods
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.TryParse"><code>bool TryParse(string argument)</code></a>_</td><td>Attempts to parse the given string as a command line</td></tr>
-<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.Argument"><code>string Argument(int index)</code></a>_</td><td>Returns the argument at the given index. Switches are not counted.</td></tr>
-<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.Switch"><code>bool Switch(string name)</code></a>_</td><td>Determines whether the given switch is set. Switches are specified without their prefixed hyphen.</td></tr>
-<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.Switch"><code>string Switch(string name, int relativeArgument)</code></a>_</td><td>Gets an argument of a switch. For example, using`Switch("key", 0)`on the command line`someOtherArgument -key value`will return`value`.</td></tr>
-<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Utilities.Clear"><code>void Clear()</code></a>_</td><td>Clears all arguments</td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`bool&nbsp;TryParse(string&nbsp;argument)`](VRage.Game.ModAPI.Ingame.Utilities.TryParse)|Attempts to parse the given string as a command line|
+|[`string&nbsp;Argument(int&nbsp;index)`](VRage.Game.ModAPI.Ingame.Utilities.Argument)|Returns the argument at the given index. Switches are not counted.|
+|[`bool&nbsp;Switch(string&nbsp;name)`](VRage.Game.ModAPI.Ingame.Utilities.Switch)|Determines whether the given switch is set. Switches are specified without their prefixed hyphen.|
+|[`string&nbsp;Switch(string&nbsp;name,&nbsp;int&nbsp;relativeArgument)`](VRage.Game.ModAPI.Ingame.Utilities.Switch)|Gets an argument of a switch. For example, using`Switch("key", 0)`on the command line`someOtherArgument -key value`will return`value`.|
+|[`void&nbsp;Clear()`](VRage.Game.ModAPI.Ingame.Utilities.Clear)|Clears all arguments|

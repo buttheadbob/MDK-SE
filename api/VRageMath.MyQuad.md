@@ -3,9 +3,9 @@
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Fields
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRageMath.Point0"><code>Vector3 Point0</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Point1"><code>Vector3 Point1</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Point2"><code>Vector3 Point2</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Point3"><code>Vector3 Point3</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`Vector3&nbsp;Point0`](VRageMath.Point0)||
+|[`Vector3&nbsp;Point1`](VRageMath.Point1)||
+|[`Vector3&nbsp;Point2`](VRageMath.Point2)||
+|[`Vector3&nbsp;Point3`](VRageMath.Point3)||

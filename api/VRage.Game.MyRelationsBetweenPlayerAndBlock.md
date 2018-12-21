@@ -3,10 +3,10 @@
 **Namespace:** [`VRage.Game`](VRage.Game)  
 **Assembly:** VRage.Game.dll  
 ### Fields
-<table style="width:100%;display:table">
-<tr><td>static _<a href="VRage.Game.NoOwnership"><code>MyRelationsBetweenPlayerAndBlock NoOwnership</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRage.Game.Owner"><code>MyRelationsBetweenPlayerAndBlock Owner</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRage.Game.FactionShare"><code>MyRelationsBetweenPlayerAndBlock FactionShare</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRage.Game.Neutral"><code>MyRelationsBetweenPlayerAndBlock Neutral</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRage.Game.Enemies"><code>MyRelationsBetweenPlayerAndBlock Enemies</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|static&nbsp;[`MyRelationsBetweenPlayerAndBlock&nbsp;NoOwnership`](VRage.Game.NoOwnership)||
+|static&nbsp;[`MyRelationsBetweenPlayerAndBlock&nbsp;Owner`](VRage.Game.Owner)||
+|static&nbsp;[`MyRelationsBetweenPlayerAndBlock&nbsp;FactionShare`](VRage.Game.FactionShare)||
+|static&nbsp;[`MyRelationsBetweenPlayerAndBlock&nbsp;Neutral`](VRage.Game.Neutral)||
+|static&nbsp;[`MyRelationsBetweenPlayerAndBlock&nbsp;Enemies`](VRage.Game.Enemies)||

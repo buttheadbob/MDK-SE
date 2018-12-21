@@ -5,7 +5,7 @@
 ## Summary
 Determines what mode an assembler is in.
 ### Fields
-<table style="width:100%;display:table">
-<tr><td>static _<a href="Sandbox.ModAPI.Ingame.Assembly"><code>MyAssemblerMode Assembly</code></a>_</td><td>The assembler is currently set to assemble new items.</td></tr>
-<tr><td>static _<a href="Sandbox.ModAPI.Ingame.Disassembly"><code>MyAssemblerMode Disassembly</code></a>_</td><td>The assembler is currently set to disassemble existing items.</td></tr>
-</table>
+|Member|Description|
+|---|---|
+|static&nbsp;[`MyAssemblerMode&nbsp;Assembly`](Sandbox.ModAPI.Ingame.Assembly)|The assembler is currently set to assemble new items.|
+|static&nbsp;[`MyAssemblerMode&nbsp;Disassembly`](Sandbox.ModAPI.Ingame.Disassembly)|The assembler is currently set to disassemble existing items.|

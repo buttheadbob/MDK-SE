@@ -3,8 +3,8 @@
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Methods
-<table style="width:100%;display:table">
-<tr><td>static _<a href="VRageMath.DistanceToTangentProjected"><code>double DistanceToTangentProjected(ref Vector3D center, ref Vector3D point, double radius, ref double distance)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.DistanceToTangent"><code>double DistanceToTangent(ref Vector3D center, ref Vector3D point, double radius)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.DistanceToTangent"><code>double DistanceToTangent(ref Vector2D center, ref Vector2D point, double radius)</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|static&nbsp;[`double&nbsp;DistanceToTangentProjected(ref&nbsp;Vector3D&nbsp;center,&nbsp;ref&nbsp;Vector3D&nbsp;point,&nbsp;double&nbsp;radius,&nbsp;ref&nbsp;double&nbsp;distance)`](VRageMath.DistanceToTangentProjected)||
+|static&nbsp;[`double&nbsp;DistanceToTangent(ref&nbsp;Vector3D&nbsp;center,&nbsp;ref&nbsp;Vector3D&nbsp;point,&nbsp;double&nbsp;radius)`](VRageMath.DistanceToTangent)||
+|static&nbsp;[`double&nbsp;DistanceToTangent(ref&nbsp;Vector2D&nbsp;center,&nbsp;ref&nbsp;Vector2D&nbsp;point,&nbsp;double&nbsp;radius)`](VRageMath.DistanceToTangent)||

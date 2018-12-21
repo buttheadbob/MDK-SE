@@ -3,17 +3,17 @@
 **Namespace:** [`VRage.Collections`](VRage.Collections)  
 **Assembly:** VRage.Library.dll  
 ### Fields
-<table style="width:100%;display:table">
-<tr><td>static _<a href="VRage.Collections.Empty"><code>ListReader<T> Empty</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|static&nbsp;[`ListReader<T>&nbsp;Empty`](VRage.Collections.Empty)||
 ### Properties
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRage.Collections.Count"><code>int Count</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRage.Collections.Item"><code>T Item</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`int&nbsp;Count`](VRage.Collections.Count)||
+|[`T&nbsp;Item`](VRage.Collections.Item)||
 ### Methods
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRage.Collections.ItemAt"><code>T ItemAt(int index)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRage.Collections.IndexOf"><code>int IndexOf(T item)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRage.Collections.GetEnumerator"><code>Enumerator<T> GetEnumerator()</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`T&nbsp;ItemAt(int&nbsp;index)`](VRage.Collections.ItemAt)||
+|[`int&nbsp;IndexOf(T&nbsp;item)`](VRage.Collections.IndexOf)||
+|[`Enumerator<T>&nbsp;GetEnumerator()`](VRage.Collections.GetEnumerator)||

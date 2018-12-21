@@ -3,13 +3,13 @@
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Fields
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRageMath.P0"><code>Vector3D P0</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.P1"><code>Vector3D P1</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Radius"><code>float Radius</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`Vector3D&nbsp;P0`](VRageMath.P0)||
+|[`Vector3D&nbsp;P1`](VRageMath.P1)||
+|[`float&nbsp;Radius`](VRageMath.Radius)||
 ### Methods
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRageMath.Intersect"><code>bool Intersect(RayD ray, ref Vector3D p1, ref Vector3D p2, ref Vector3 n1, ref Vector3 n2)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Intersect"><code>bool Intersect(LineD line, ref Vector3D p1, ref Vector3D p2, ref Vector3 n1, ref Vector3 n2)</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`bool&nbsp;Intersect(RayD&nbsp;ray,&nbsp;ref&nbsp;Vector3D&nbsp;p1,&nbsp;ref&nbsp;Vector3D&nbsp;p2,&nbsp;ref&nbsp;Vector3&nbsp;n1,&nbsp;ref&nbsp;Vector3&nbsp;n2)`](VRageMath.Intersect)||
+|[`bool&nbsp;Intersect(LineD&nbsp;line,&nbsp;ref&nbsp;Vector3D&nbsp;p1,&nbsp;ref&nbsp;Vector3D&nbsp;p2,&nbsp;ref&nbsp;Vector3&nbsp;n1,&nbsp;ref&nbsp;Vector3&nbsp;n2)`](VRageMath.Intersect)||

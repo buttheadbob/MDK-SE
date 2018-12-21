@@ -5,14 +5,14 @@
 ## Summary
 Packed vector type containing four 16-bit floating-point values.
 ### Fields
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRageMath.PackedVector.X"><code>ushort X</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.PackedVector.Y"><code>ushort Y</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.PackedVector.Z"><code>ushort Z</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`ushort&nbsp;X`](VRageMath.PackedVector.X)||
+|[`ushort&nbsp;Y`](VRageMath.PackedVector.Y)||
+|[`ushort&nbsp;Z`](VRageMath.PackedVector.Z)||
 ### Methods
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRageMath.PackedVector.ToVector3"><code>Vector3 ToVector3()</code></a>_</td><td>Expands the packed representation into a Vector4.</td></tr>
-<tr><td>_<a href="VRageMath.PackedVector.ToHalfVector4"><code>HalfVector4 ToHalfVector4()</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.PackedVector.ToString"><code>string ToString()</code></a>_</td><td>Returns a string representation of the current instance.</td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`Vector3&nbsp;ToVector3()`](VRageMath.PackedVector.ToVector3)|Expands the packed representation into a Vector4.|
+|[`HalfVector4&nbsp;ToHalfVector4()`](VRageMath.PackedVector.ToHalfVector4)||
+|[`string&nbsp;ToString()`](VRageMath.PackedVector.ToString)|Returns a string representation of the current instance.|

@@ -3,12 +3,12 @@
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Properties
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRageMath.Avg"><code>float Avg</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Sum"><code>double Sum</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`float&nbsp;Avg`](VRageMath.Avg)||
+|[`double&nbsp;Sum`](VRageMath.Sum)||
 ### Methods
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRageMath.Enqueue"><code>void Enqueue(float value)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Reset"><code>void Reset()</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`void&nbsp;Enqueue(float&nbsp;value)`](VRageMath.Enqueue)||
+|[`void&nbsp;Reset()`](VRageMath.Reset)||

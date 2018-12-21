@@ -3,43 +3,43 @@
 **Namespace:** [`VRageMath.Spatial`](VRageMath.Spatial)  
 **Assembly:** VRage.Math.dll  
 ### Fields
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRageMath.Spatial.OnClusterCreated"><code>Func<int, BoundingBoxD, Object> OnClusterCreated</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Spatial.OnClusterRemoved"><code>Action<Object> OnClusterRemoved</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Spatial.OnFinishBatch"><code>Action<Object> OnFinishBatch</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Spatial.OnClustersReordered"><code>Action OnClustersReordered</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Spatial.GetEntityReplicableExistsById"><code>Func<long, bool> GetEntityReplicableExistsById</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Spatial.SingleCluster"><code>Nullable<BoundingBoxD> SingleCluster</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Spatial.ForcedClusters"><code>bool ForcedClusters</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.Spatial.IdealClusterSize"><code>Vector3 IdealClusterSize</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.Spatial.IdealClusterSizeHalfSqr"><code>Vector3 IdealClusterSizeHalfSqr</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.Spatial.MinimumDistanceFromBorder"><code>Vector3 MinimumDistanceFromBorder</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.Spatial.MaximumForSplit"><code>Vector3 MaximumForSplit</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.Spatial.MaximumClusterSize"><code>float MaximumClusterSize</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.Spatial.CLUSTERED_OBJECT_ID_UNITIALIZED"><code>ulong CLUSTERED_OBJECT_ID_UNITIALIZED</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`Func<int,&nbsp;BoundingBoxD,&nbsp;Object>&nbsp;OnClusterCreated`](VRageMath.Spatial.OnClusterCreated)||
+|[`Action<Object>&nbsp;OnClusterRemoved`](VRageMath.Spatial.OnClusterRemoved)||
+|[`Action<Object>&nbsp;OnFinishBatch`](VRageMath.Spatial.OnFinishBatch)||
+|[`Action&nbsp;OnClustersReordered`](VRageMath.Spatial.OnClustersReordered)||
+|[`Func<long,&nbsp;bool>&nbsp;GetEntityReplicableExistsById`](VRageMath.Spatial.GetEntityReplicableExistsById)||
+|[`Nullable<BoundingBoxD>&nbsp;SingleCluster`](VRageMath.Spatial.SingleCluster)||
+|[`bool&nbsp;ForcedClusters`](VRageMath.Spatial.ForcedClusters)||
+|static&nbsp;[`Vector3&nbsp;IdealClusterSize`](VRageMath.Spatial.IdealClusterSize)||
+|static&nbsp;[`Vector3&nbsp;IdealClusterSizeHalfSqr`](VRageMath.Spatial.IdealClusterSizeHalfSqr)||
+|static&nbsp;[`Vector3&nbsp;MinimumDistanceFromBorder`](VRageMath.Spatial.MinimumDistanceFromBorder)||
+|static&nbsp;[`Vector3&nbsp;MaximumForSplit`](VRageMath.Spatial.MaximumForSplit)||
+|static&nbsp;[`float&nbsp;MaximumClusterSize`](VRageMath.Spatial.MaximumClusterSize)||
+|static&nbsp;[`ulong&nbsp;CLUSTERED_OBJECT_ID_UNITIALIZED`](VRageMath.Spatial.CLUSTERED_OBJECT_ID_UNITIALIZED)||
 ### Properties
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRageMath.Spatial.SuppressClusterReorder"><code>bool SuppressClusterReorder</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`bool&nbsp;SuppressClusterReorder`](VRageMath.Spatial.SuppressClusterReorder)||
 ### Methods
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRageMath.Spatial.AddObject"><code>ulong AddObject(BoundingBoxD bbox, IMyActivationHandler activationHandler, Nullable<ulong> customId, string tag, long entityId, bool batch)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.Spatial.AdjustAABBByVelocity"><code>BoundingBoxD AdjustAABBByVelocity(BoundingBoxD aabb, Vector3 velocity, float inflate)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Spatial.MoveObject"><code>void MoveObject(ulong id, BoundingBoxD aabb, Vector3 velocity)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Spatial.EnsureClusterSpace"><code>void EnsureClusterSpace(BoundingBoxD aabb)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Spatial.RemoveObject"><code>void RemoveObject(ulong id)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Spatial.GetObjectOffset"><code>Vector3D GetObjectOffset(ulong id)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Spatial.GetClusterForPosition"><code>MyCluster GetClusterForPosition(Vector3D pos)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Spatial.Dispose"><code>void Dispose()</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Spatial.GetList"><code>ListReader<Object> GetList()</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Spatial.GetListCopy"><code>ListReader<Object> GetListCopy()</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Spatial.GetClusters"><code>ListReader<MyCluster> GetClusters()</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Spatial.CastRay"><code>void CastRay(Vector3D from, Vector3D to, List<MyClusterQueryResult> results)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Spatial.Intersects"><code>void Intersects(Vector3D translation, List<MyClusterQueryResult> results)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Spatial.GetAll"><code>void GetAll(List<MyClusterQueryResult> results)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Spatial.ReorderClusters"><code>void ReorderClusters(BoundingBoxD aabb, ulong objectId)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Spatial.GetAllStaticObjects"><code>void GetAllStaticObjects(List<BoundingBoxD> staticObjects)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Spatial.Serialize"><code>void Serialize(List<BoundingBoxD> list)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Spatial.Deserialize"><code>void Deserialize(List<BoundingBoxD> list)</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`ulong&nbsp;AddObject(BoundingBoxD&nbsp;bbox,&nbsp;IMyActivationHandler&nbsp;activationHandler,&nbsp;Nullable<ulong>&nbsp;customId,&nbsp;string&nbsp;tag,&nbsp;long&nbsp;entityId,&nbsp;bool&nbsp;batch)`](VRageMath.Spatial.AddObject)||
+|static&nbsp;[`BoundingBoxD&nbsp;AdjustAABBByVelocity(BoundingBoxD&nbsp;aabb,&nbsp;Vector3&nbsp;velocity,&nbsp;float&nbsp;inflate)`](VRageMath.Spatial.AdjustAABBByVelocity)||
+|[`void&nbsp;MoveObject(ulong&nbsp;id,&nbsp;BoundingBoxD&nbsp;aabb,&nbsp;Vector3&nbsp;velocity)`](VRageMath.Spatial.MoveObject)||
+|[`void&nbsp;EnsureClusterSpace(BoundingBoxD&nbsp;aabb)`](VRageMath.Spatial.EnsureClusterSpace)||
+|[`void&nbsp;RemoveObject(ulong&nbsp;id)`](VRageMath.Spatial.RemoveObject)||
+|[`Vector3D&nbsp;GetObjectOffset(ulong&nbsp;id)`](VRageMath.Spatial.GetObjectOffset)||
+|[`MyCluster&nbsp;GetClusterForPosition(Vector3D&nbsp;pos)`](VRageMath.Spatial.GetClusterForPosition)||
+|[`void&nbsp;Dispose()`](VRageMath.Spatial.Dispose)||
+|[`ListReader<Object>&nbsp;GetList()`](VRageMath.Spatial.GetList)||
+|[`ListReader<Object>&nbsp;GetListCopy()`](VRageMath.Spatial.GetListCopy)||
+|[`ListReader<MyCluster>&nbsp;GetClusters()`](VRageMath.Spatial.GetClusters)||
+|[`void&nbsp;CastRay(Vector3D&nbsp;from,&nbsp;Vector3D&nbsp;to,&nbsp;List<MyClusterQueryResult>&nbsp;results)`](VRageMath.Spatial.CastRay)||
+|[`void&nbsp;Intersects(Vector3D&nbsp;translation,&nbsp;List<MyClusterQueryResult>&nbsp;results)`](VRageMath.Spatial.Intersects)||
+|[`void&nbsp;GetAll(List<MyClusterQueryResult>&nbsp;results)`](VRageMath.Spatial.GetAll)||
+|[`void&nbsp;ReorderClusters(BoundingBoxD&nbsp;aabb,&nbsp;ulong&nbsp;objectId)`](VRageMath.Spatial.ReorderClusters)||
+|[`void&nbsp;GetAllStaticObjects(List<BoundingBoxD>&nbsp;staticObjects)`](VRageMath.Spatial.GetAllStaticObjects)||
+|[`void&nbsp;Serialize(List<BoundingBoxD>&nbsp;list)`](VRageMath.Spatial.Serialize)||
+|[`void&nbsp;Deserialize(List<BoundingBoxD>&nbsp;list)`](VRageMath.Spatial.Deserialize)||

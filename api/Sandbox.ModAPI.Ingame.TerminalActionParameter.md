@@ -3,18 +3,18 @@
 **Namespace:** [`Sandbox.ModAPI.Ingame`](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll  
 ### Fields
-<table style="width:100%;display:table">
-<tr><td>_<a href="Sandbox.ModAPI.Ingame.TypeCode"><code>TypeCode TypeCode</code></a>_</td><td></td></tr>
-<tr><td>_<a href="Sandbox.ModAPI.Ingame.Value"><code>Object Value</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="Sandbox.ModAPI.Ingame.Empty"><code>TerminalActionParameter Empty</code></a>_</td><td>Gets an empty parameter.</td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`TypeCode&nbsp;TypeCode`](Sandbox.ModAPI.Ingame.TypeCode)||
+|[`Object&nbsp;Value`](Sandbox.ModAPI.Ingame.Value)||
+|static&nbsp;[`TerminalActionParameter&nbsp;Empty`](Sandbox.ModAPI.Ingame.Empty)|Gets an empty parameter.|
 ### Properties
-<table style="width:100%;display:table">
-<tr><td>_<a href="Sandbox.ModAPI.Ingame.IsEmpty"><code>bool IsEmpty</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`bool&nbsp;IsEmpty`](Sandbox.ModAPI.Ingame.IsEmpty)||
 ### Methods
-<table style="width:100%;display:table">
-<tr><td>static _<a href="Sandbox.ModAPI.Ingame.Deserialize"><code>TerminalActionParameter Deserialize(string serializedValue, TypeCode typeCode)</code></a>_</td><td>Creates a [TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter) from a serialized value in a string and a type code.</td></tr>
-<tr><td>static _<a href="Sandbox.ModAPI.Ingame.Get"><code>TerminalActionParameter Get(Object value)</code></a>_</td><td>Creates a [TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter) from the given value.</td></tr>
-<tr><td>_<a href="Sandbox.ModAPI.Ingame.GetObjectBuilder"><code>MyObjectBuilder_ToolbarItemActionParameter GetObjectBuilder()</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|static&nbsp;[`TerminalActionParameter&nbsp;Deserialize(string&nbsp;serializedValue,&nbsp;TypeCode&nbsp;typeCode)`](Sandbox.ModAPI.Ingame.Deserialize)|Creates a [TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter) from a serialized value in a string and a type code.|
+|static&nbsp;[`TerminalActionParameter&nbsp;Get(Object&nbsp;value)`](Sandbox.ModAPI.Ingame.Get)|Creates a [TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter) from the given value.|
+|[`MyObjectBuilder_ToolbarItemActionParameter&nbsp;GetObjectBuilder()`](Sandbox.ModAPI.Ingame.GetObjectBuilder)||

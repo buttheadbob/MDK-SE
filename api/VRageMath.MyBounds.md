@@ -3,14 +3,14 @@
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Fields
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRageMath.Min"><code>float Min</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Max"><code>float Max</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Default"><code>float Default</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`float&nbsp;Min`](VRageMath.Min)||
+|[`float&nbsp;Max`](VRageMath.Max)||
+|[`float&nbsp;Default`](VRageMath.Default)||
 ### Methods
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRageMath.Normalize"><code>float Normalize(float value)</code></a>_</td><td>Normalize value inside the bounds so that 0 is Min and 1 is Max.</td></tr>
-<tr><td>_<a href="VRageMath.Clamp"><code>float Clamp(float value)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.ToString"><code>string ToString()</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`float&nbsp;Normalize(float&nbsp;value)`](VRageMath.Normalize)|Normalize value inside the bounds so that 0 is Min and 1 is Max.|
+|[`float&nbsp;Clamp(float&nbsp;value)`](VRageMath.Clamp)||
+|[`string&nbsp;ToString()`](VRageMath.ToString)||

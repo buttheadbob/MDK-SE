@@ -3,8 +3,8 @@
 **Namespace:** [`SpaceEngineers.Game.ModAPI.Ingame`](SpaceEngineers.Game.ModAPI.Ingame)  
 **Assembly:** SpaceEngineers.ObjectBuilders.dll  
 ### Fields
-<table style="width:100%;display:table">
-<tr><td>static _<a href="SpaceEngineers.Game.ModAPI.Ingame.Unlocked"><code>LandingGearMode Unlocked</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="SpaceEngineers.Game.ModAPI.Ingame.ReadyToLock"><code>LandingGearMode ReadyToLock</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="SpaceEngineers.Game.ModAPI.Ingame.Locked"><code>LandingGearMode Locked</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|static&nbsp;[`LandingGearMode&nbsp;Unlocked`](SpaceEngineers.Game.ModAPI.Ingame.Unlocked)||
+|static&nbsp;[`LandingGearMode&nbsp;ReadyToLock`](SpaceEngineers.Game.ModAPI.Ingame.ReadyToLock)||
+|static&nbsp;[`LandingGearMode&nbsp;Locked`](SpaceEngineers.Game.ModAPI.Ingame.Locked)||

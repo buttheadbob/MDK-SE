@@ -5,64 +5,64 @@
 ## Summary
 Defines an axis-aligned box-shaped 3D volume.
 ### Fields
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRageMath.Min"><code>Vector3I Min</code></a>_</td><td>The minimum point the BoundingBoxI contains.</td></tr>
-<tr><td>_<a href="VRageMath.Max"><code>Vector3I Max</code></a>_</td><td>The maximum point the BoundingBoxI contains.</td></tr>
-<tr><td>static _<a href="VRageMath.CornerCount"><code>int CornerCount</code></a>_</td><td>Specifies the total number of corners (8) in the BoundingBoxI.</td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`Vector3I&nbsp;Min`](VRageMath.Min)|The minimum point the BoundingBoxI contains.|
+|[`Vector3I&nbsp;Max`](VRageMath.Max)|The maximum point the BoundingBoxI contains.|
+|static&nbsp;[`int&nbsp;CornerCount`](VRageMath.CornerCount)|Specifies the total number of corners (8) in the BoundingBoxI.|
 ### Properties
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRageMath.Center"><code>Vector3I Center</code></a>_</td><td>Calculates center</td></tr>
-<tr><td>_<a href="VRageMath.HalfExtents"><code>Vector3I HalfExtents</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Size"><code>Vector3I Size</code></a>_</td><td>Size</td></tr>
-<tr><td>_<a href="VRageMath.Perimeter"><code>float Perimeter</code></a>_</td><td>return perimeter of edges</td></tr>
-<tr><td>_<a href="VRageMath.IsValid"><code>bool IsValid</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`Vector3I&nbsp;Center`](VRageMath.Center)|Calculates center|
+|[`Vector3I&nbsp;HalfExtents`](VRageMath.HalfExtents)||
+|[`Vector3I&nbsp;Size`](VRageMath.Size)|Size|
+|[`float&nbsp;Perimeter`](VRageMath.Perimeter)|return perimeter of edges|
+|[`bool&nbsp;IsValid`](VRageMath.IsValid)||
 ### Methods
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRageMath.GetCorners"><code>Vector3I[] GetCorners()</code></a>_</td><td>Gets an array of points that make up the corners of the BoundingBoxI.</td></tr>
-<tr><td>_<a href="VRageMath.GetCorners"><code>void GetCorners(Vector3I[] corners)</code></a>_</td><td>Gets the array of points that make up the corners of the BoundingBoxI.</td></tr>
-<tr><td>_<a href="VRageMath.GetCornersUnsafe"><code>void GetCornersUnsafe(*Vector3I corners)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Equals"><code>bool Equals(BoundingBoxI other)</code></a>_</td><td>Determines whether two instances of BoundingBoxI are equal.</td></tr>
-<tr><td>_<a href="VRageMath.Equals"><code>bool Equals(Object obj)</code></a>_</td><td>Determines whether two instances of BoundingBoxI are equal.</td></tr>
-<tr><td>_<a href="VRageMath.GetHashCode"><code>int GetHashCode()</code></a>_</td><td>Gets the hash code for this instance.</td></tr>
-<tr><td>_<a href="VRageMath.ToString"><code>string ToString()</code></a>_</td><td>Returns a String that represents the current BoundingBoxI.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateMerged"><code>BoundingBoxI CreateMerged(BoundingBoxI original, BoundingBoxI additional)</code></a>_</td><td>Creates the smallest BoundingBoxI that contains the two specified BoundingBoxI instances.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateMerged"><code>void CreateMerged(ref BoundingBoxI original, ref BoundingBoxI additional, ref BoundingBoxI result)</code></a>_</td><td>Creates the smallest BoundingBoxI that contains the two specified BoundingBoxI instances.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateFromSphere"><code>BoundingBoxI CreateFromSphere(BoundingSphere sphere)</code></a>_</td><td>Creates the smallest BoundingBoxI that will contain the specified BoundingSphere.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateFromSphere"><code>void CreateFromSphere(ref BoundingSphere sphere, ref BoundingBoxI result)</code></a>_</td><td>Creates the smallest BoundingBoxI that will contain the specified BoundingSphere.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateFromPoints"><code>BoundingBoxI CreateFromPoints(IEnumerable<Vector3I> points)</code></a>_</td><td>Creates the smallest BoundingBoxI that will contain a group of points.</td></tr>
-<tr><td>_<a href="VRageMath.IntersectWith"><code>void IntersectWith(ref BoundingBoxI box)</code></a>_</td><td>Returns bounding box which is intersection of this and box It's called 'Prunik' Result is invalid box when there's no intersection (Min > Max)</td></tr>
-<tr><td>_<a href="VRageMath.Intersect"><code>BoundingBoxI Intersect(BoundingBoxI box)</code></a>_</td><td>Returns bounding box which is intersection of this and box It's called 'Prunik' Result is invalid box when there's no intersection (Min > Max)</td></tr>
-<tr><td>_<a href="VRageMath.Intersects"><code>bool Intersects(BoundingBoxI box)</code></a>_</td><td>Checks whether the current BoundingBoxI intersects another BoundingBoxI.</td></tr>
-<tr><td>_<a href="VRageMath.Intersects"><code>bool Intersects(ref BoundingBoxI box)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Intersects"><code>void Intersects(ref BoundingBoxI box, ref bool result)</code></a>_</td><td>Checks whether the current BoundingBoxI intersects another BoundingBoxI.</td></tr>
-<tr><td>_<a href="VRageMath.IntersectsTriangle"><code>bool IntersectsTriangle(Vector3I v0, Vector3I v1, Vector3I v2)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.IntersectsTriangle"><code>bool IntersectsTriangle(ref Vector3I v0, ref Vector3I v1, ref Vector3I v2)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Intersects"><code>PlaneIntersectionType Intersects(Plane plane)</code></a>_</td><td>Checks whether the current BoundingBoxI intersects a Plane.</td></tr>
-<tr><td>_<a href="VRageMath.Intersects"><code>void Intersects(ref Plane plane, ref PlaneIntersectionType result)</code></a>_</td><td>Checks whether the current BoundingBoxI intersects a Plane.</td></tr>
-<tr><td>_<a href="VRageMath.Intersects"><code>bool Intersects(Line line, ref float distance)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Intersects"><code>Nullable<float> Intersects(Ray ray)</code></a>_</td><td>Checks whether the current BoundingBoxI intersects a Ray.</td></tr>
-<tr><td>_<a href="VRageMath.Intersects"><code>void Intersects(ref Ray ray, ref Nullable<float> result)</code></a>_</td><td>Checks whether the current BoundingBoxI intersects a Ray.</td></tr>
-<tr><td>_<a href="VRageMath.Distance"><code>float Distance(Vector3I point)</code></a>_</td><td>Checks whether the current BoundingBoxI intersects a BoundingSphere.</td></tr>
-<tr><td>_<a href="VRageMath.Contains"><code>ContainmentType Contains(BoundingBoxI box)</code></a>_</td><td>Tests whether the BoundingBoxI contains another BoundingBoxI.</td></tr>
-<tr><td>_<a href="VRageMath.Contains"><code>void Contains(ref BoundingBoxI box, ref ContainmentType result)</code></a>_</td><td>Tests whether the BoundingBoxI contains a BoundingBoxI.</td></tr>
-<tr><td>_<a href="VRageMath.Contains"><code>ContainmentType Contains(Vector3I point)</code></a>_</td><td>Tests whether the BoundingBoxI contains a point.</td></tr>
-<tr><td>_<a href="VRageMath.Contains"><code>ContainmentType Contains(Vector3 point)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Contains"><code>void Contains(ref Vector3I point, ref ContainmentType result)</code></a>_</td><td>Tests whether the BoundingBoxI contains a point.</td></tr>
-<tr><td>_<a href="VRageMath.Translate"><code>BoundingBoxI Translate(Vector3I vctTranlsation)</code></a>_</td><td>Translate</td></tr>
-<tr><td>_<a href="VRageMath.Include"><code>BoundingBoxI Include(ref Vector3I point)</code></a>_</td><td>return expanded aabb (abb include point)</td></tr>
-<tr><td>_<a href="VRageMath.GetIncluded"><code>BoundingBoxI GetIncluded(Vector3I point)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Include"><code>BoundingBoxI Include(Vector3I point)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Include"><code>BoundingBoxI Include(Vector3I p0, Vector3I p1, Vector3I p2)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Include"><code>BoundingBoxI Include(ref Vector3I p0, ref Vector3I p1, ref Vector3I p2)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Include"><code>BoundingBoxI Include(ref BoundingBoxI box)</code></a>_</td><td>return expanded aabb (abb include point)</td></tr>
-<tr><td>_<a href="VRageMath.Include"><code>BoundingBoxI Include(BoundingBoxI box)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.CreateInvalid"><code>BoundingBoxI CreateInvalid()</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.SurfaceArea"><code>float SurfaceArea()</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Volume"><code>float Volume()</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Inflate"><code>void Inflate(int size)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.InflateToMinimum"><code>void InflateToMinimum(Vector3I minimumSize)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.IterateDifference"><code>IEnumerable<Vector3I> IterateDifference(BoundingBoxI left, BoundingBoxI right)</code></a>_</td><td>Iterate every cell contained in {left} - {right}, where we interpret {box} as the set of all distinct Vector3I points inside a 'box'. Containment is taken in a typical inclusive start, exclusive end fashion.</td></tr>
-<tr><td>static _<a href="VRageMath.EnumeratePoints"><code>IEnumerable<Vector3I> EnumeratePoints(BoundingBoxI rangeInclusive)</code></a>_</td><td>Enumerate all values in a integer interval (a cuboid). This method is an allocating version of the Vector3I_RangeIterator. This once can be used in the foreach syntax though so it's more convenient for debug routines.</td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`Vector3I[]&nbsp;GetCorners()`](VRageMath.GetCorners)|Gets an array of points that make up the corners of the BoundingBoxI.|
+|[`void&nbsp;GetCorners(Vector3I[]&nbsp;corners)`](VRageMath.GetCorners)|Gets the array of points that make up the corners of the BoundingBoxI.|
+|[`void&nbsp;GetCornersUnsafe(*Vector3I&nbsp;corners)`](VRageMath.GetCornersUnsafe)||
+|[`bool&nbsp;Equals(BoundingBoxI&nbsp;other)`](VRageMath.Equals)|Determines whether two instances of BoundingBoxI are equal.|
+|[`bool&nbsp;Equals(Object&nbsp;obj)`](VRageMath.Equals)|Determines whether two instances of BoundingBoxI are equal.|
+|[`int&nbsp;GetHashCode()`](VRageMath.GetHashCode)|Gets the hash code for this instance.|
+|[`string&nbsp;ToString()`](VRageMath.ToString)|Returns a String that represents the current BoundingBoxI.|
+|static&nbsp;[`BoundingBoxI&nbsp;CreateMerged(BoundingBoxI&nbsp;original,&nbsp;BoundingBoxI&nbsp;additional)`](VRageMath.CreateMerged)|Creates the smallest BoundingBoxI that contains the two specified BoundingBoxI instances.|
+|static&nbsp;[`void&nbsp;CreateMerged(ref&nbsp;BoundingBoxI&nbsp;original,&nbsp;ref&nbsp;BoundingBoxI&nbsp;additional,&nbsp;ref&nbsp;BoundingBoxI&nbsp;result)`](VRageMath.CreateMerged)|Creates the smallest BoundingBoxI that contains the two specified BoundingBoxI instances.|
+|static&nbsp;[`BoundingBoxI&nbsp;CreateFromSphere(BoundingSphere&nbsp;sphere)`](VRageMath.CreateFromSphere)|Creates the smallest BoundingBoxI that will contain the specified BoundingSphere.|
+|static&nbsp;[`void&nbsp;CreateFromSphere(ref&nbsp;BoundingSphere&nbsp;sphere,&nbsp;ref&nbsp;BoundingBoxI&nbsp;result)`](VRageMath.CreateFromSphere)|Creates the smallest BoundingBoxI that will contain the specified BoundingSphere.|
+|static&nbsp;[`BoundingBoxI&nbsp;CreateFromPoints(IEnumerable<Vector3I>&nbsp;points)`](VRageMath.CreateFromPoints)|Creates the smallest BoundingBoxI that will contain a group of points.|
+|[`void&nbsp;IntersectWith(ref&nbsp;BoundingBoxI&nbsp;box)`](VRageMath.IntersectWith)|Returns bounding box which is intersection of this and box It's called 'Prunik' Result is invalid box when there's no intersection (Min > Max)|
+|[`BoundingBoxI&nbsp;Intersect(BoundingBoxI&nbsp;box)`](VRageMath.Intersect)|Returns bounding box which is intersection of this and box It's called 'Prunik' Result is invalid box when there's no intersection (Min > Max)|
+|[`bool&nbsp;Intersects(BoundingBoxI&nbsp;box)`](VRageMath.Intersects)|Checks whether the current BoundingBoxI intersects another BoundingBoxI.|
+|[`bool&nbsp;Intersects(ref&nbsp;BoundingBoxI&nbsp;box)`](VRageMath.Intersects)||
+|[`void&nbsp;Intersects(ref&nbsp;BoundingBoxI&nbsp;box,&nbsp;ref&nbsp;bool&nbsp;result)`](VRageMath.Intersects)|Checks whether the current BoundingBoxI intersects another BoundingBoxI.|
+|[`bool&nbsp;IntersectsTriangle(Vector3I&nbsp;v0,&nbsp;Vector3I&nbsp;v1,&nbsp;Vector3I&nbsp;v2)`](VRageMath.IntersectsTriangle)||
+|[`bool&nbsp;IntersectsTriangle(ref&nbsp;Vector3I&nbsp;v0,&nbsp;ref&nbsp;Vector3I&nbsp;v1,&nbsp;ref&nbsp;Vector3I&nbsp;v2)`](VRageMath.IntersectsTriangle)||
+|[`PlaneIntersectionType&nbsp;Intersects(Plane&nbsp;plane)`](VRageMath.Intersects)|Checks whether the current BoundingBoxI intersects a Plane.|
+|[`void&nbsp;Intersects(ref&nbsp;Plane&nbsp;plane,&nbsp;ref&nbsp;PlaneIntersectionType&nbsp;result)`](VRageMath.Intersects)|Checks whether the current BoundingBoxI intersects a Plane.|
+|[`bool&nbsp;Intersects(Line&nbsp;line,&nbsp;ref&nbsp;float&nbsp;distance)`](VRageMath.Intersects)||
+|[`Nullable<float>&nbsp;Intersects(Ray&nbsp;ray)`](VRageMath.Intersects)|Checks whether the current BoundingBoxI intersects a Ray.|
+|[`void&nbsp;Intersects(ref&nbsp;Ray&nbsp;ray,&nbsp;ref&nbsp;Nullable<float>&nbsp;result)`](VRageMath.Intersects)|Checks whether the current BoundingBoxI intersects a Ray.|
+|[`float&nbsp;Distance(Vector3I&nbsp;point)`](VRageMath.Distance)|Checks whether the current BoundingBoxI intersects a BoundingSphere.|
+|[`ContainmentType&nbsp;Contains(BoundingBoxI&nbsp;box)`](VRageMath.Contains)|Tests whether the BoundingBoxI contains another BoundingBoxI.|
+|[`void&nbsp;Contains(ref&nbsp;BoundingBoxI&nbsp;box,&nbsp;ref&nbsp;ContainmentType&nbsp;result)`](VRageMath.Contains)|Tests whether the BoundingBoxI contains a BoundingBoxI.|
+|[`ContainmentType&nbsp;Contains(Vector3I&nbsp;point)`](VRageMath.Contains)|Tests whether the BoundingBoxI contains a point.|
+|[`ContainmentType&nbsp;Contains(Vector3&nbsp;point)`](VRageMath.Contains)||
+|[`void&nbsp;Contains(ref&nbsp;Vector3I&nbsp;point,&nbsp;ref&nbsp;ContainmentType&nbsp;result)`](VRageMath.Contains)|Tests whether the BoundingBoxI contains a point.|
+|[`BoundingBoxI&nbsp;Translate(Vector3I&nbsp;vctTranlsation)`](VRageMath.Translate)|Translate|
+|[`BoundingBoxI&nbsp;Include(ref&nbsp;Vector3I&nbsp;point)`](VRageMath.Include)|return expanded aabb (abb include point)|
+|[`BoundingBoxI&nbsp;GetIncluded(Vector3I&nbsp;point)`](VRageMath.GetIncluded)||
+|[`BoundingBoxI&nbsp;Include(Vector3I&nbsp;point)`](VRageMath.Include)||
+|[`BoundingBoxI&nbsp;Include(Vector3I&nbsp;p0,&nbsp;Vector3I&nbsp;p1,&nbsp;Vector3I&nbsp;p2)`](VRageMath.Include)||
+|[`BoundingBoxI&nbsp;Include(ref&nbsp;Vector3I&nbsp;p0,&nbsp;ref&nbsp;Vector3I&nbsp;p1,&nbsp;ref&nbsp;Vector3I&nbsp;p2)`](VRageMath.Include)||
+|[`BoundingBoxI&nbsp;Include(ref&nbsp;BoundingBoxI&nbsp;box)`](VRageMath.Include)|return expanded aabb (abb include point)|
+|[`BoundingBoxI&nbsp;Include(BoundingBoxI&nbsp;box)`](VRageMath.Include)||
+|static&nbsp;[`BoundingBoxI&nbsp;CreateInvalid()`](VRageMath.CreateInvalid)||
+|[`float&nbsp;SurfaceArea()`](VRageMath.SurfaceArea)||
+|[`float&nbsp;Volume()`](VRageMath.Volume)||
+|[`void&nbsp;Inflate(int&nbsp;size)`](VRageMath.Inflate)||
+|[`void&nbsp;InflateToMinimum(Vector3I&nbsp;minimumSize)`](VRageMath.InflateToMinimum)||
+|static&nbsp;[`IEnumerable<Vector3I>&nbsp;IterateDifference(BoundingBoxI&nbsp;left,&nbsp;BoundingBoxI&nbsp;right)`](VRageMath.IterateDifference)|Iterate every cell contained in {left} - {right}, where we interpret {box} as the set of all distinct Vector3I points inside a 'box'. Containment is taken in a typical inclusive start, exclusive end fashion.|
+|static&nbsp;[`IEnumerable<Vector3I>&nbsp;EnumeratePoints(BoundingBoxI&nbsp;rangeInclusive)`](VRageMath.EnumeratePoints)|Enumerate all values in a integer interval (a cuboid). This method is an allocating version of the Vector3I_RangeIterator. This once can be used in the foreach syntax though so it's more convenient for debug routines.|

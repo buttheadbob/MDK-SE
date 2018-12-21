@@ -3,26 +3,26 @@
 **Namespace:** [`VRage.Game.ModAPI.Ingame`](VRage.Game.ModAPI.Ingame)  
 **Assembly:** VRage.Game.dll  
 ### Properties
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRage.Game.ModAPI.Ingame.IsFull"><code>bool IsFull</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Size"><code>Vector3 Size</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRage.Game.ModAPI.Ingame.CurrentMass"><code>MyFixedPoint CurrentMass</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRage.Game.ModAPI.Ingame.MaxVolume"><code>MyFixedPoint MaxVolume</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRage.Game.ModAPI.Ingame.CurrentVolume"><code>MyFixedPoint CurrentVolume</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRage.Game.ModAPI.Ingame.Owner"><code>IMyInventoryOwner Owner</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`bool&nbsp;IsFull`](VRage.Game.ModAPI.Ingame.IsFull)||
+|[`Vector3&nbsp;Size`](VRage.Game.ModAPI.Ingame.Size)||
+|[`MyFixedPoint&nbsp;CurrentMass`](VRage.Game.ModAPI.Ingame.CurrentMass)||
+|[`MyFixedPoint&nbsp;MaxVolume`](VRage.Game.ModAPI.Ingame.MaxVolume)||
+|[`MyFixedPoint&nbsp;CurrentVolume`](VRage.Game.ModAPI.Ingame.CurrentVolume)||
+|[`IMyInventoryOwner&nbsp;Owner`](VRage.Game.ModAPI.Ingame.Owner)||
 ### Methods
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRage.Game.ModAPI.Ingame.IsItemAt"><code>bool IsItemAt(int position)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRage.Game.ModAPI.Ingame.CanAddItemAmount"><code>bool CanAddItemAmount(IMyInventoryItem item, MyFixedPoint amount)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRage.Game.ModAPI.Ingame.CanItemsBeAdded"><code>bool CanItemsBeAdded(MyFixedPoint amount, SerializableDefinitionId contentId)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRage.Game.ModAPI.Ingame.ContainItems"><code>bool ContainItems(MyFixedPoint amount, MyObjectBuilder_PhysicalObject ob)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRage.Game.ModAPI.Ingame.GetItemAmount"><code>MyFixedPoint GetItemAmount(SerializableDefinitionId contentId, MyItemFlags flags)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRage.Game.ModAPI.Ingame.TransferItemTo"><code>bool TransferItemTo(IMyInventory dst, int sourceItemIndex, Nullable<int> targetItemIndex, Nullable<bool> stackIfPossible, Nullable<MyFixedPoint> amount)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRage.Game.ModAPI.Ingame.TransferItemFrom"><code>bool TransferItemFrom(IMyInventory sourceInventory, int sourceItemIndex, Nullable<int> targetItemIndex, Nullable<bool> stackIfPossible, Nullable<MyFixedPoint> amount)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRage.Game.ModAPI.Ingame.TransferItemFrom"><code>bool TransferItemFrom(IMyInventory sourceInventory, IMyInventoryItem item, MyFixedPoint amount)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRage.Game.ModAPI.Ingame.GetItems"><code>List<IMyInventoryItem> GetItems()</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRage.Game.ModAPI.Ingame.GetItemByID"><code>IMyInventoryItem GetItemByID(uint id)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRage.Game.ModAPI.Ingame.FindItem"><code>IMyInventoryItem FindItem(SerializableDefinitionId contentId)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRage.Game.ModAPI.Ingame.IsConnectedTo"><code>bool IsConnectedTo(IMyInventory dst)</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`bool&nbsp;IsItemAt(int&nbsp;position)`](VRage.Game.ModAPI.Ingame.IsItemAt)||
+|[`bool&nbsp;CanAddItemAmount(IMyInventoryItem&nbsp;item,&nbsp;MyFixedPoint&nbsp;amount)`](VRage.Game.ModAPI.Ingame.CanAddItemAmount)||
+|[`bool&nbsp;CanItemsBeAdded(MyFixedPoint&nbsp;amount,&nbsp;SerializableDefinitionId&nbsp;contentId)`](VRage.Game.ModAPI.Ingame.CanItemsBeAdded)||
+|[`bool&nbsp;ContainItems(MyFixedPoint&nbsp;amount,&nbsp;MyObjectBuilder_PhysicalObject&nbsp;ob)`](VRage.Game.ModAPI.Ingame.ContainItems)||
+|[`MyFixedPoint&nbsp;GetItemAmount(SerializableDefinitionId&nbsp;contentId,&nbsp;MyItemFlags&nbsp;flags)`](VRage.Game.ModAPI.Ingame.GetItemAmount)||
+|[`bool&nbsp;TransferItemTo(IMyInventory&nbsp;dst,&nbsp;int&nbsp;sourceItemIndex,&nbsp;Nullable<int>&nbsp;targetItemIndex,&nbsp;Nullable<bool>&nbsp;stackIfPossible,&nbsp;Nullable<MyFixedPoint>&nbsp;amount)`](VRage.Game.ModAPI.Ingame.TransferItemTo)||
+|[`bool&nbsp;TransferItemFrom(IMyInventory&nbsp;sourceInventory,&nbsp;int&nbsp;sourceItemIndex,&nbsp;Nullable<int>&nbsp;targetItemIndex,&nbsp;Nullable<bool>&nbsp;stackIfPossible,&nbsp;Nullable<MyFixedPoint>&nbsp;amount)`](VRage.Game.ModAPI.Ingame.TransferItemFrom)||
+|[`bool&nbsp;TransferItemFrom(IMyInventory&nbsp;sourceInventory,&nbsp;IMyInventoryItem&nbsp;item,&nbsp;MyFixedPoint&nbsp;amount)`](VRage.Game.ModAPI.Ingame.TransferItemFrom)||
+|[`List<IMyInventoryItem>&nbsp;GetItems()`](VRage.Game.ModAPI.Ingame.GetItems)||
+|[`IMyInventoryItem&nbsp;GetItemByID(uint&nbsp;id)`](VRage.Game.ModAPI.Ingame.GetItemByID)||
+|[`IMyInventoryItem&nbsp;FindItem(SerializableDefinitionId&nbsp;contentId)`](VRage.Game.ModAPI.Ingame.FindItem)||
+|[`bool&nbsp;IsConnectedTo(IMyInventory&nbsp;dst)`](VRage.Game.ModAPI.Ingame.IsConnectedTo)||

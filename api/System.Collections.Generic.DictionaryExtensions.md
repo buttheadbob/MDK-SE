@@ -3,12 +3,12 @@
 **Namespace:** [`System.Collections.Generic`](System.Collections.Generic)  
 **Assembly:** VRage.Library.dll  
 ### Methods
-<table style="width:100%;display:table">
-<tr><td>static _<a href="System.Collections.Generic.GetValueOrDefault"><code>V GetValueOrDefault<K, V>(Dictionary<K, V> dictionary, K key)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="System.Collections.Generic.GetValueOrDefault"><code>V GetValueOrDefault<K, V>(Dictionary<K, V> dictionary, K key, V defaultValue)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="System.Collections.Generic.FirstPair"><code>KeyValuePair<K, V> FirstPair<K, V>(Dictionary<K, V> dictionary)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="System.Collections.Generic.GetValueOrDefault"><code>V GetValueOrDefault<K, V>(ConcurrentDictionary<K, V> dictionary, K key, V defaultValue)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="System.Collections.Generic.Remove"><code>void Remove<K, V>(ConcurrentDictionary<K, V> dictionary, K key)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="System.Collections.Generic.GetOrAdd"><code>TValue GetOrAdd<TKey, TValue, TContext>(ConcurrentDictionary<TKey, TValue> dictionary, TKey key, TContext context, Func<TContext, TKey, TValue> activator)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="System.Collections.Generic.AssertEmpty"><code>void AssertEmpty<K, V>(Dictionary<K, V> collection)</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|static&nbsp;[`V&nbsp;GetValueOrDefault<K,&nbsp;V>(Dictionary<K,&nbsp;V>&nbsp;dictionary,&nbsp;K&nbsp;key)`](System.Collections.Generic.GetValueOrDefault)||
+|static&nbsp;[`V&nbsp;GetValueOrDefault<K,&nbsp;V>(Dictionary<K,&nbsp;V>&nbsp;dictionary,&nbsp;K&nbsp;key,&nbsp;V&nbsp;defaultValue)`](System.Collections.Generic.GetValueOrDefault)||
+|static&nbsp;[`KeyValuePair<K,&nbsp;V>&nbsp;FirstPair<K,&nbsp;V>(Dictionary<K,&nbsp;V>&nbsp;dictionary)`](System.Collections.Generic.FirstPair)||
+|static&nbsp;[`V&nbsp;GetValueOrDefault<K,&nbsp;V>(ConcurrentDictionary<K,&nbsp;V>&nbsp;dictionary,&nbsp;K&nbsp;key,&nbsp;V&nbsp;defaultValue)`](System.Collections.Generic.GetValueOrDefault)||
+|static&nbsp;[`void&nbsp;Remove<K,&nbsp;V>(ConcurrentDictionary<K,&nbsp;V>&nbsp;dictionary,&nbsp;K&nbsp;key)`](System.Collections.Generic.Remove)||
+|static&nbsp;[`TValue&nbsp;GetOrAdd<TKey,&nbsp;TValue,&nbsp;TContext>(ConcurrentDictionary<TKey,&nbsp;TValue>&nbsp;dictionary,&nbsp;TKey&nbsp;key,&nbsp;TContext&nbsp;context,&nbsp;Func<TContext,&nbsp;TKey,&nbsp;TValue>&nbsp;activator)`](System.Collections.Generic.GetOrAdd)||
+|static&nbsp;[`void&nbsp;AssertEmpty<K,&nbsp;V>(Dictionary<K,&nbsp;V>&nbsp;collection)`](System.Collections.Generic.AssertEmpty)||

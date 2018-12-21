@@ -3,8 +3,8 @@
 **Namespace:** [`Sandbox.ModAPI.Ingame`](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll  
 ### Fields
-<table style="width:100%;display:table">
-<tr><td>static _<a href="Sandbox.ModAPI.Ingame.Patrol"><code>FlightMode Patrol</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="Sandbox.ModAPI.Ingame.Circle"><code>FlightMode Circle</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="Sandbox.ModAPI.Ingame.OneWay"><code>FlightMode OneWay</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|static&nbsp;[`FlightMode&nbsp;Patrol`](Sandbox.ModAPI.Ingame.Patrol)||
+|static&nbsp;[`FlightMode&nbsp;Circle`](Sandbox.ModAPI.Ingame.Circle)||
+|static&nbsp;[`FlightMode&nbsp;OneWay`](Sandbox.ModAPI.Ingame.OneWay)||

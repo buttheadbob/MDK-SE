@@ -5,159 +5,159 @@
 ## Summary
 Defines a matrix.
 ### Fields
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRageMath.M11"><code>double M11</code></a>_</td><td>Value at row 1 column 1 of the matrix.</td></tr>
-<tr><td>_<a href="VRageMath.M12"><code>double M12</code></a>_</td><td>Value at row 1 column 2 of the matrix.</td></tr>
-<tr><td>_<a href="VRageMath.M13"><code>double M13</code></a>_</td><td>Value at row 1 column 3 of the matrix.</td></tr>
-<tr><td>_<a href="VRageMath.M14"><code>double M14</code></a>_</td><td>Value at row 1 column 4 of the matrix.</td></tr>
-<tr><td>_<a href="VRageMath.M21"><code>double M21</code></a>_</td><td>Value at row 2 column 1 of the matrix.</td></tr>
-<tr><td>_<a href="VRageMath.M22"><code>double M22</code></a>_</td><td>Value at row 2 column 2 of the matrix.</td></tr>
-<tr><td>_<a href="VRageMath.M23"><code>double M23</code></a>_</td><td>Value at row 2 column 3 of the matrix.</td></tr>
-<tr><td>_<a href="VRageMath.M24"><code>double M24</code></a>_</td><td>Value at row 2 column 4 of the matrix.</td></tr>
-<tr><td>_<a href="VRageMath.M31"><code>double M31</code></a>_</td><td>Value at row 3 column 1 of the matrix.</td></tr>
-<tr><td>_<a href="VRageMath.M32"><code>double M32</code></a>_</td><td>Value at row 3 column 2 of the matrix.</td></tr>
-<tr><td>_<a href="VRageMath.M33"><code>double M33</code></a>_</td><td>Value at row 3 column 3 of the matrix.</td></tr>
-<tr><td>_<a href="VRageMath.M34"><code>double M34</code></a>_</td><td>Value at row 3 column 4 of the matrix.</td></tr>
-<tr><td>_<a href="VRageMath.M41"><code>double M41</code></a>_</td><td>Value at row 4 column 1 of the matrix.</td></tr>
-<tr><td>_<a href="VRageMath.M42"><code>double M42</code></a>_</td><td>Value at row 4 column 2 of the matrix.</td></tr>
-<tr><td>_<a href="VRageMath.M43"><code>double M43</code></a>_</td><td>Value at row 4 column 3 of the matrix.</td></tr>
-<tr><td>_<a href="VRageMath.M44"><code>double M44</code></a>_</td><td>Value at row 4 column 4 of the matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.Identity"><code>MatrixD Identity</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.Zero"><code>MatrixD Zero</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`double&nbsp;M11`](VRageMath.M11)|Value at row 1 column 1 of the matrix.|
+|[`double&nbsp;M12`](VRageMath.M12)|Value at row 1 column 2 of the matrix.|
+|[`double&nbsp;M13`](VRageMath.M13)|Value at row 1 column 3 of the matrix.|
+|[`double&nbsp;M14`](VRageMath.M14)|Value at row 1 column 4 of the matrix.|
+|[`double&nbsp;M21`](VRageMath.M21)|Value at row 2 column 1 of the matrix.|
+|[`double&nbsp;M22`](VRageMath.M22)|Value at row 2 column 2 of the matrix.|
+|[`double&nbsp;M23`](VRageMath.M23)|Value at row 2 column 3 of the matrix.|
+|[`double&nbsp;M24`](VRageMath.M24)|Value at row 2 column 4 of the matrix.|
+|[`double&nbsp;M31`](VRageMath.M31)|Value at row 3 column 1 of the matrix.|
+|[`double&nbsp;M32`](VRageMath.M32)|Value at row 3 column 2 of the matrix.|
+|[`double&nbsp;M33`](VRageMath.M33)|Value at row 3 column 3 of the matrix.|
+|[`double&nbsp;M34`](VRageMath.M34)|Value at row 3 column 4 of the matrix.|
+|[`double&nbsp;M41`](VRageMath.M41)|Value at row 4 column 1 of the matrix.|
+|[`double&nbsp;M42`](VRageMath.M42)|Value at row 4 column 2 of the matrix.|
+|[`double&nbsp;M43`](VRageMath.M43)|Value at row 4 column 3 of the matrix.|
+|[`double&nbsp;M44`](VRageMath.M44)|Value at row 4 column 4 of the matrix.|
+|static&nbsp;[`MatrixD&nbsp;Identity`](VRageMath.Identity)||
+|static&nbsp;[`MatrixD&nbsp;Zero`](VRageMath.Zero)||
 ### Properties
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRageMath.Col0"><code>Vector3D Col0</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Col1"><code>Vector3D Col1</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Col2"><code>Vector3D Col2</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Up"><code>Vector3D Up</code></a>_</td><td>Gets and sets the up vector of the Matrix.</td></tr>
-<tr><td>_<a href="VRageMath.Down"><code>Vector3D Down</code></a>_</td><td>Gets and sets the down vector of the Matrix.</td></tr>
-<tr><td>_<a href="VRageMath.Right"><code>Vector3D Right</code></a>_</td><td>Gets and sets the right vector of the Matrix.</td></tr>
-<tr><td>_<a href="VRageMath.Left"><code>Vector3D Left</code></a>_</td><td>Gets and sets the left vector of the Matrix.</td></tr>
-<tr><td>_<a href="VRageMath.Forward"><code>Vector3D Forward</code></a>_</td><td>Gets and sets the forward vector of the Matrix.</td></tr>
-<tr><td>_<a href="VRageMath.Backward"><code>Vector3D Backward</code></a>_</td><td>Gets and sets the backward vector of the Matrix.</td></tr>
-<tr><td>_<a href="VRageMath.Scale"><code>Vector3D Scale</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Translation"><code>Vector3D Translation</code></a>_</td><td>Gets and sets the translation vector of the Matrix.</td></tr>
-<tr><td>_<a href="VRageMath.Rotation"><code>Matrix3x3 Rotation</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Item"><code>double Item</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`Vector3D&nbsp;Col0`](VRageMath.Col0)||
+|[`Vector3D&nbsp;Col1`](VRageMath.Col1)||
+|[`Vector3D&nbsp;Col2`](VRageMath.Col2)||
+|[`Vector3D&nbsp;Up`](VRageMath.Up)|Gets and sets the up vector of the Matrix.|
+|[`Vector3D&nbsp;Down`](VRageMath.Down)|Gets and sets the down vector of the Matrix.|
+|[`Vector3D&nbsp;Right`](VRageMath.Right)|Gets and sets the right vector of the Matrix.|
+|[`Vector3D&nbsp;Left`](VRageMath.Left)|Gets and sets the left vector of the Matrix.|
+|[`Vector3D&nbsp;Forward`](VRageMath.Forward)|Gets and sets the forward vector of the Matrix.|
+|[`Vector3D&nbsp;Backward`](VRageMath.Backward)|Gets and sets the backward vector of the Matrix.|
+|[`Vector3D&nbsp;Scale`](VRageMath.Scale)||
+|[`Vector3D&nbsp;Translation`](VRageMath.Translation)|Gets and sets the translation vector of the Matrix.|
+|[`Matrix3x3&nbsp;Rotation`](VRageMath.Rotation)||
+|[`double&nbsp;Item`](VRageMath.Item)||
 ### Methods
-<table style="width:100%;display:table">
-<tr><td>static _<a href="VRageMath.Subtract"><code>Matrix Subtract(Matrix matrix1, Matrix matrix2)</code></a>_</td><td>Subtracts matrices.</td></tr>
-<tr><td>static _<a href="VRageMath.Subtract"><code>void Subtract(ref MatrixD matrix1, ref MatrixD matrix2, ref MatrixD result)</code></a>_</td><td>Subtracts matrices.</td></tr>
-<tr><td>static _<a href="VRageMath.Multiply"><code>MatrixD Multiply(MatrixD matrix1, MatrixD matrix2)</code></a>_</td><td>Multiplies a matrix by another matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.Multiply"><code>MatrixD Multiply(MatrixD matrix1, Matrix matrix2)</code></a>_</td><td>Multiplies a matrix by another matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.Multiply"><code>void Multiply(ref MatrixD matrix1, ref Matrix matrix2, ref MatrixD result)</code></a>_</td><td>Multiplies a matrix by another matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.Multiply"><code>void Multiply(ref Matrix matrix1, ref MatrixD matrix2, ref MatrixD result)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.Multiply"><code>void Multiply(ref MatrixD matrix1, ref MatrixD matrix2, ref MatrixD result)</code></a>_</td><td>Multiplies a matrix by another matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.Multiply"><code>MatrixD Multiply(MatrixD matrix1, double scaleFactor)</code></a>_</td><td>Multiplies a matrix by a scalar value.</td></tr>
-<tr><td>static _<a href="VRageMath.Multiply"><code>void Multiply(ref MatrixD matrix1, double scaleFactor, ref MatrixD result)</code></a>_</td><td>Multiplies a matrix by a scalar value.</td></tr>
-<tr><td>static _<a href="VRageMath.Divide"><code>MatrixD Divide(MatrixD matrix1, MatrixD matrix2)</code></a>_</td><td>Divides the components of a matrix by the corresponding components of another matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.Divide"><code>void Divide(ref MatrixD matrix1, ref MatrixD matrix2, ref MatrixD result)</code></a>_</td><td>Divides the components of a matrix by the corresponding components of another matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.Divide"><code>MatrixD Divide(MatrixD matrix1, double divider)</code></a>_</td><td>Divides the components of a matrix by a scalar.</td></tr>
-<tr><td>static _<a href="VRageMath.Divide"><code>void Divide(ref MatrixD matrix1, double divider, ref MatrixD result)</code></a>_</td><td>Divides the components of a matrix by a scalar.</td></tr>
-<tr><td>_<a href="VRageMath.GetOrientation"><code>MatrixD GetOrientation()</code></a>_</td><td>Gets the orientation.</td></tr>
-<tr><td>_<a href="VRageMath.AssertIsValid"><code>void AssertIsValid()</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.IsValid"><code>bool IsValid()</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.IsNan"><code>bool IsNan()</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.IsRotation"><code>bool IsRotation()</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.HasNoTranslationOrPerspective"><code>bool HasNoTranslationOrPerspective()</code></a>_</td><td>Returns true if this matrix represents invertible (you can call Invert on it) linear (it does not contain translation or perspective transformation) transformation. Such matrix consist solely of rotations, shearing, mirroring and scaling. It can be orthogonalized to create an orthogonal rotation matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateFromDir"><code>MatrixD CreateFromDir(Vector3D dir)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.CreateFromDir"><code>MatrixD CreateFromDir(Vector3D dir, Vector3D suggestedUp)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.Normalize"><code>MatrixD Normalize(MatrixD matrix)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Orthogonalize"><code>void Orthogonalize()</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.Orthogonalize"><code>MatrixD Orthogonalize(MatrixD rotationMatrix)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.AlignRotationToAxes"><code>MatrixD AlignRotationToAxes(ref MatrixD toAlign, ref MatrixD axisDefinitionMatrix)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.GetEulerAnglesXYZ"><code>bool GetEulerAnglesXYZ(ref MatrixD mat, ref Vector3D xyz)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.SwapYZCoordinates"><code>MatrixD SwapYZCoordinates(MatrixD m)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.IsMirrored"><code>bool IsMirrored()</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.GetDirectionVector"><code>Vector3D GetDirectionVector(Direction direction)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.SetDirectionVector"><code>void SetDirectionVector(Direction direction, Vector3D newValue)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.GetClosestDirection"><code>Direction GetClosestDirection(Vector3D referenceVector)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.GetClosestDirection"><code>Direction GetClosestDirection(ref Vector3D referenceVector)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.Rescale"><code>void Rescale(ref MatrixD matrix, double scale)</code></a>_</td><td>Same result as Matrix.CreateScale(scale) * matrix, but much faster</td></tr>
-<tr><td>static _<a href="VRageMath.Rescale"><code>void Rescale(ref MatrixD matrix, float scale)</code></a>_</td><td>Same result as Matrix.CreateScale(scale) * matrix, but much faster</td></tr>
-<tr><td>static _<a href="VRageMath.Rescale"><code>void Rescale(ref MatrixD matrix, ref Vector3D scale)</code></a>_</td><td>Same result as Matrix.CreateScale(scale) * matrix, but much faster</td></tr>
-<tr><td>static _<a href="VRageMath.Rescale"><code>MatrixD Rescale(MatrixD matrix, double scale)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.Rescale"><code>MatrixD Rescale(MatrixD matrix, Vector3D scale)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.CreateBillboard"><code>MatrixD CreateBillboard(Vector3D objectPosition, Vector3D cameraPosition, Vector3D cameraUpVector, Nullable<Vector3D> cameraForwardVector)</code></a>_</td><td>Creates a spherical billboard that rotates around a specified object position.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateBillboard"><code>void CreateBillboard(ref Vector3D objectPosition, ref Vector3D cameraPosition, ref Vector3D cameraUpVector, Nullable<Vector3D> cameraForwardVector, ref MatrixD result)</code></a>_</td><td>Creates a spherical billboard that rotates around a specified object position.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateConstrainedBillboard"><code>MatrixD CreateConstrainedBillboard(Vector3D objectPosition, Vector3D cameraPosition, Vector3D rotateAxis, Nullable<Vector3D> cameraForwardVector, Nullable<Vector3D> objectForwardVector)</code></a>_</td><td>Creates a cylindrical billboard that rotates around a specified axis.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateConstrainedBillboard"><code>void CreateConstrainedBillboard(ref Vector3D objectPosition, ref Vector3D cameraPosition, ref Vector3D rotateAxis, Nullable<Vector3D> cameraForwardVector, Nullable<Vector3D> objectForwardVector, ref MatrixD result)</code></a>_</td><td>Creates a cylindrical billboard that rotates around a specified axis.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateTranslation"><code>MatrixD CreateTranslation(Vector3D position)</code></a>_</td><td>Creates a translation Matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateTranslation"><code>MatrixD CreateTranslation(Vector3 position)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.CreateTranslation"><code>void CreateTranslation(ref Vector3D position, ref MatrixD result)</code></a>_</td><td>Creates a translation Matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateTranslation"><code>MatrixD CreateTranslation(double xPosition, double yPosition, double zPosition)</code></a>_</td><td>Creates a translation Matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateTranslation"><code>void CreateTranslation(double xPosition, double yPosition, double zPosition, ref MatrixD result)</code></a>_</td><td>Creates a translation Matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateScale"><code>MatrixD CreateScale(double xScale, double yScale, double zScale)</code></a>_</td><td>Creates a scaling Matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateScale"><code>void CreateScale(double xScale, double yScale, double zScale, ref MatrixD result)</code></a>_</td><td>Creates a scaling Matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateScale"><code>MatrixD CreateScale(Vector3D scales)</code></a>_</td><td>Creates a scaling Matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateScale"><code>void CreateScale(ref Vector3D scales, ref MatrixD result)</code></a>_</td><td>Creates a scaling Matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateScale"><code>MatrixD CreateScale(double scale)</code></a>_</td><td>Creates a scaling Matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateScale"><code>void CreateScale(double scale, ref MatrixD result)</code></a>_</td><td>Creates a scaling Matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateRotationX"><code>MatrixD CreateRotationX(double radians)</code></a>_</td><td>Returns a matrix that can be used to rotate a set of vertices around the x-axis.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateRotationX"><code>void CreateRotationX(double radians, ref MatrixD result)</code></a>_</td><td>Populates data into a user-specified matrix that can be used to rotate a set of vertices around the x-axis.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateRotationY"><code>MatrixD CreateRotationY(double radians)</code></a>_</td><td>Returns a matrix that can be used to rotate a set of vertices around the y-axis.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateRotationY"><code>void CreateRotationY(double radians, ref MatrixD result)</code></a>_</td><td>Populates data into a user-specified matrix that can be used to rotate a set of vertices around the y-axis.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateRotationZ"><code>MatrixD CreateRotationZ(double radians)</code></a>_</td><td>Returns a matrix that can be used to rotate a set of vertices around the z-axis.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateRotationZ"><code>void CreateRotationZ(double radians, ref MatrixD result)</code></a>_</td><td>Populates data into a user-specified matrix that can be used to rotate a set of vertices around the z-axis.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateFromAxisAngle"><code>MatrixD CreateFromAxisAngle(Vector3D axis, double angle)</code></a>_</td><td>Creates a new Matrix that rotates around an arbitrary vector.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateFromAxisAngle"><code>void CreateFromAxisAngle(ref Vector3D axis, double angle, ref MatrixD result)</code></a>_</td><td>Creates a new Matrix that rotates around an arbitrary vector.</td></tr>
-<tr><td>static _<a href="VRageMath.CreatePerspectiveFieldOfView"><code>MatrixD CreatePerspectiveFieldOfView(double fieldOfView, double aspectRatio, double nearPlaneDistance, double farPlaneDistance)</code></a>_</td><td>Builds a perspective projection matrix based on a field of view and returns by value.</td></tr>
-<tr><td>static _<a href="VRageMath.CreatePerspectiveFieldOfView"><code>void CreatePerspectiveFieldOfView(double fieldOfView, double aspectRatio, double nearPlaneDistance, double farPlaneDistance, ref MatrixD result)</code></a>_</td><td>Builds a perspective projection matrix based on a field of view and returns by reference.</td></tr>
-<tr><td>static _<a href="VRageMath.CreatePerspective"><code>MatrixD CreatePerspective(double width, double height, double nearPlaneDistance, double farPlaneDistance)</code></a>_</td><td>Builds a perspective projection matrix and returns the result by value.</td></tr>
-<tr><td>static _<a href="VRageMath.CreatePerspective"><code>void CreatePerspective(double width, double height, double nearPlaneDistance, double farPlaneDistance, ref MatrixD result)</code></a>_</td><td>Builds a perspective projection matrix and returns the result by reference.</td></tr>
-<tr><td>static _<a href="VRageMath.CreatePerspectiveOffCenter"><code>MatrixD CreatePerspectiveOffCenter(double left, double right, double bottom, double top, double nearPlaneDistance, double farPlaneDistance)</code></a>_</td><td>Builds a customized, perspective projection matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.CreatePerspectiveOffCenter"><code>void CreatePerspectiveOffCenter(double left, double right, double bottom, double top, double nearPlaneDistance, double farPlaneDistance, ref MatrixD result)</code></a>_</td><td>Builds a customized, perspective projection matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateOrthographic"><code>MatrixD CreateOrthographic(double width, double height, double zNearPlane, double zFarPlane)</code></a>_</td><td>Builds an orthogonal projection matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateOrthographic"><code>void CreateOrthographic(double width, double height, double zNearPlane, double zFarPlane, ref MatrixD result)</code></a>_</td><td>Builds an orthogonal projection matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateOrthographicOffCenter"><code>MatrixD CreateOrthographicOffCenter(double left, double right, double bottom, double top, double zNearPlane, double zFarPlane)</code></a>_</td><td>Builds a customized, orthogonal projection matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateOrthographicOffCenter"><code>void CreateOrthographicOffCenter(double left, double right, double bottom, double top, double zNearPlane, double zFarPlane, ref MatrixD result)</code></a>_</td><td>Builds a customized, orthogonal projection matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateLookAt"><code>MatrixD CreateLookAt(Vector3D cameraPosition, Vector3D cameraTarget, Vector3 cameraUpVector)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.CreateLookAt"><code>MatrixD CreateLookAt(Vector3D cameraPosition, Vector3D cameraTarget, Vector3D cameraUpVector)</code></a>_</td><td>Creates a view matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateLookAtInverse"><code>Matrix CreateLookAtInverse(Vector3D cameraPosition, Vector3D cameraTarget, Vector3D cameraUpVector)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.CreateLookAt"><code>void CreateLookAt(ref Vector3D cameraPosition, ref Vector3D cameraTarget, ref Vector3D cameraUpVector, ref MatrixD result)</code></a>_</td><td>Creates a view matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateWorld"><code>MatrixD CreateWorld(Vector3D position, Vector3 forward, Vector3 up)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.CreateWorld"><code>MatrixD CreateWorld(Vector3D position)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.CreateWorld"><code>MatrixD CreateWorld(Vector3D position, Vector3D forward, Vector3D up)</code></a>_</td><td>Creates a world matrix with the specified parameters.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateWorld"><code>void CreateWorld(ref Vector3D position, ref Vector3D forward, ref Vector3D up, ref MatrixD result)</code></a>_</td><td>Creates a world matrix with the specified parameters.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateFromQuaternion"><code>MatrixD CreateFromQuaternion(Quaternion quaternion)</code></a>_</td><td>Creates a rotation Matrix from a Quaternion.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateFromQuaternion"><code>MatrixD CreateFromQuaternion(QuaternionD quaternion)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.CreateFromQuaternion"><code>void CreateFromQuaternion(ref Quaternion quaternion, ref MatrixD result)</code></a>_</td><td>Creates a rotation Matrix from a Quaternion.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateFromYawPitchRoll"><code>MatrixD CreateFromYawPitchRoll(double yaw, double pitch, double roll)</code></a>_</td><td>Creates a new rotation matrix from a specified yaw, pitch, and roll.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateFromYawPitchRoll"><code>void CreateFromYawPitchRoll(double yaw, double pitch, double roll, ref MatrixD result)</code></a>_</td><td>Fills in a rotation matrix from a specified yaw, pitch, and roll.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateFromTransformScale"><code>MatrixD CreateFromTransformScale(Quaternion orientation, Vector3D position, Vector3D scale)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.CreateShadow"><code>MatrixD CreateShadow(Vector3D lightDirection, Plane plane)</code></a>_</td><td>Creates a Matrix that flattens geometry into a specified Plane as if casting a shadow from a specified light source.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateShadow"><code>void CreateShadow(ref Vector3D lightDirection, ref Plane plane, ref MatrixD result)</code></a>_</td><td>Fills in a Matrix to flatten geometry into a specified Plane as if casting a shadow from a specified light source.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateReflection"><code>MatrixD CreateReflection(Plane value)</code></a>_</td><td>Creates a Matrix that reflects the coordinate system about a specified Plane.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateReflection"><code>void CreateReflection(ref Plane value, ref MatrixD result)</code></a>_</td><td>Fills in an existing Matrix so that it reflects the coordinate system about a specified Plane.</td></tr>
-<tr><td>static _<a href="VRageMath.Transform"><code>MatrixD Transform(MatrixD value, Quaternion rotation)</code></a>_</td><td>Transforms a Matrix by applying a Quaternion rotation.</td></tr>
-<tr><td>static _<a href="VRageMath.Transform"><code>void Transform(ref MatrixD value, ref Quaternion rotation, ref MatrixD result)</code></a>_</td><td>Transforms a Matrix by applying a Quaternion rotation.</td></tr>
-<tr><td>_<a href="VRageMath.GetRow"><code>Vector4 GetRow(int row)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.SetRow"><code>void SetRow(int row, Vector4 value)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.ToString"><code>string ToString()</code></a>_</td><td>Retrieves a string representation of the current object.</td></tr>
-<tr><td>_<a href="VRageMath.Equals"><code>bool Equals(MatrixD other)</code></a>_</td><td>Determines whether the specified Object is equal to the Matrix.</td></tr>
-<tr><td>_<a href="VRageMath.EqualsFast"><code>bool EqualsFast(ref MatrixD other, double epsilon)</code></a>_</td><td>Compares just position, forward and up</td></tr>
-<tr><td>_<a href="VRageMath.Equals"><code>bool Equals(Object obj)</code></a>_</td><td>Returns a value that indicates whether the current instance is equal to a specified object.</td></tr>
-<tr><td>_<a href="VRageMath.GetHashCode"><code>int GetHashCode()</code></a>_</td><td>Gets the hash code of this object.</td></tr>
-<tr><td>static _<a href="VRageMath.Transpose"><code>MatrixD Transpose(MatrixD matrix)</code></a>_</td><td>Transposes the rows and columns of a matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.Transpose"><code>void Transpose(ref MatrixD matrix, ref MatrixD result)</code></a>_</td><td>Transposes the rows and columns of a matrix.</td></tr>
-<tr><td>_<a href="VRageMath.Determinant"><code>double Determinant()</code></a>_</td><td>Calculates the determinant of the matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.Invert"><code>MatrixD Invert(MatrixD matrix)</code></a>_</td><td>Calculates the inverse of a matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.Invert"><code>MatrixD Invert(ref MatrixD matrix)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.Invert"><code>void Invert(ref MatrixD matrix, ref MatrixD result)</code></a>_</td><td>Calculates the inverse of a matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.Lerp"><code>MatrixD Lerp(MatrixD matrix1, MatrixD matrix2, double amount)</code></a>_</td><td>Linearly interpolates between the corresponding values of two matrices.</td></tr>
-<tr><td>static _<a href="VRageMath.Lerp"><code>void Lerp(ref MatrixD matrix1, ref MatrixD matrix2, double amount, ref MatrixD result)</code></a>_</td><td>Linearly interpolates between the corresponding values of two matrices.</td></tr>
-<tr><td>static _<a href="VRageMath.Slerp"><code>void Slerp(ref MatrixD matrix1, ref MatrixD matrix2, float amount, ref MatrixD result)</code></a>_</td><td>Performs spherical linear interpolation of position and rotation.</td></tr>
-<tr><td>_<a href="VRageMath.IsOrthogonal"><code>bool IsOrthogonal()</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.IsOrthogonal"><code>bool IsOrthogonal(double epsilon)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.SlerpScale"><code>void SlerpScale(ref MatrixD matrix1, ref MatrixD matrix2, float amount, ref MatrixD result)</code></a>_</td><td>Performs spherical linear interpolation of position and rotation and scale.</td></tr>
-<tr><td>static _<a href="VRageMath.Slerp"><code>void Slerp(MatrixD matrix1, MatrixD matrix2, float amount, ref MatrixD result)</code></a>_</td><td>Performs spherical linear interpolation of position and rotation.</td></tr>
-<tr><td>static _<a href="VRageMath.Slerp"><code>MatrixD Slerp(MatrixD matrix1, MatrixD matrix2, float amount)</code></a>_</td><td>Performs spherical linear interpolation of position and rotation.</td></tr>
-<tr><td>static _<a href="VRageMath.SlerpScale"><code>void SlerpScale(MatrixD matrix1, MatrixD matrix2, float amount, ref MatrixD result)</code></a>_</td><td>Performs spherical linear interpolation of position and rotation and scale.</td></tr>
-<tr><td>static _<a href="VRageMath.SlerpScale"><code>MatrixD SlerpScale(MatrixD matrix1, MatrixD matrix2, float amount)</code></a>_</td><td>Performs spherical linear interpolation of position and rotation and scale.</td></tr>
-<tr><td>static _<a href="VRageMath.Negate"><code>MatrixD Negate(MatrixD matrix)</code></a>_</td><td>Negates individual elements of a matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.Negate"><code>void Negate(ref MatrixD matrix, ref MatrixD result)</code></a>_</td><td>Negates individual elements of a matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.Add"><code>MatrixD Add(MatrixD matrix1, MatrixD matrix2)</code></a>_</td><td>Adds a matrix to another matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.Add"><code>void Add(ref MatrixD matrix1, ref MatrixD matrix2, ref MatrixD result)</code></a>_</td><td>Adds a matrix to another matrix.</td></tr>
-</table>
+|Member|Description|
+|---|---|
+|static&nbsp;[`Matrix&nbsp;Subtract(Matrix&nbsp;matrix1,&nbsp;Matrix&nbsp;matrix2)`](VRageMath.Subtract)|Subtracts matrices.|
+|static&nbsp;[`void&nbsp;Subtract(ref&nbsp;MatrixD&nbsp;matrix1,&nbsp;ref&nbsp;MatrixD&nbsp;matrix2,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.Subtract)|Subtracts matrices.|
+|static&nbsp;[`MatrixD&nbsp;Multiply(MatrixD&nbsp;matrix1,&nbsp;MatrixD&nbsp;matrix2)`](VRageMath.Multiply)|Multiplies a matrix by another matrix.|
+|static&nbsp;[`MatrixD&nbsp;Multiply(MatrixD&nbsp;matrix1,&nbsp;Matrix&nbsp;matrix2)`](VRageMath.Multiply)|Multiplies a matrix by another matrix.|
+|static&nbsp;[`void&nbsp;Multiply(ref&nbsp;MatrixD&nbsp;matrix1,&nbsp;ref&nbsp;Matrix&nbsp;matrix2,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.Multiply)|Multiplies a matrix by another matrix.|
+|static&nbsp;[`void&nbsp;Multiply(ref&nbsp;Matrix&nbsp;matrix1,&nbsp;ref&nbsp;MatrixD&nbsp;matrix2,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.Multiply)||
+|static&nbsp;[`void&nbsp;Multiply(ref&nbsp;MatrixD&nbsp;matrix1,&nbsp;ref&nbsp;MatrixD&nbsp;matrix2,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.Multiply)|Multiplies a matrix by another matrix.|
+|static&nbsp;[`MatrixD&nbsp;Multiply(MatrixD&nbsp;matrix1,&nbsp;double&nbsp;scaleFactor)`](VRageMath.Multiply)|Multiplies a matrix by a scalar value.|
+|static&nbsp;[`void&nbsp;Multiply(ref&nbsp;MatrixD&nbsp;matrix1,&nbsp;double&nbsp;scaleFactor,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.Multiply)|Multiplies a matrix by a scalar value.|
+|static&nbsp;[`MatrixD&nbsp;Divide(MatrixD&nbsp;matrix1,&nbsp;MatrixD&nbsp;matrix2)`](VRageMath.Divide)|Divides the components of a matrix by the corresponding components of another matrix.|
+|static&nbsp;[`void&nbsp;Divide(ref&nbsp;MatrixD&nbsp;matrix1,&nbsp;ref&nbsp;MatrixD&nbsp;matrix2,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.Divide)|Divides the components of a matrix by the corresponding components of another matrix.|
+|static&nbsp;[`MatrixD&nbsp;Divide(MatrixD&nbsp;matrix1,&nbsp;double&nbsp;divider)`](VRageMath.Divide)|Divides the components of a matrix by a scalar.|
+|static&nbsp;[`void&nbsp;Divide(ref&nbsp;MatrixD&nbsp;matrix1,&nbsp;double&nbsp;divider,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.Divide)|Divides the components of a matrix by a scalar.|
+|[`MatrixD&nbsp;GetOrientation()`](VRageMath.GetOrientation)|Gets the orientation.|
+|[`void&nbsp;AssertIsValid()`](VRageMath.AssertIsValid)||
+|[`bool&nbsp;IsValid()`](VRageMath.IsValid)||
+|[`bool&nbsp;IsNan()`](VRageMath.IsNan)||
+|[`bool&nbsp;IsRotation()`](VRageMath.IsRotation)||
+|[`bool&nbsp;HasNoTranslationOrPerspective()`](VRageMath.HasNoTranslationOrPerspective)|Returns true if this matrix represents invertible (you can call Invert on it) linear (it does not contain translation or perspective transformation) transformation. Such matrix consist solely of rotations, shearing, mirroring and scaling. It can be orthogonalized to create an orthogonal rotation matrix.|
+|static&nbsp;[`MatrixD&nbsp;CreateFromDir(Vector3D&nbsp;dir)`](VRageMath.CreateFromDir)||
+|static&nbsp;[`MatrixD&nbsp;CreateFromDir(Vector3D&nbsp;dir,&nbsp;Vector3D&nbsp;suggestedUp)`](VRageMath.CreateFromDir)||
+|static&nbsp;[`MatrixD&nbsp;Normalize(MatrixD&nbsp;matrix)`](VRageMath.Normalize)||
+|[`void&nbsp;Orthogonalize()`](VRageMath.Orthogonalize)||
+|static&nbsp;[`MatrixD&nbsp;Orthogonalize(MatrixD&nbsp;rotationMatrix)`](VRageMath.Orthogonalize)||
+|static&nbsp;[`MatrixD&nbsp;AlignRotationToAxes(ref&nbsp;MatrixD&nbsp;toAlign,&nbsp;ref&nbsp;MatrixD&nbsp;axisDefinitionMatrix)`](VRageMath.AlignRotationToAxes)||
+|static&nbsp;[`bool&nbsp;GetEulerAnglesXYZ(ref&nbsp;MatrixD&nbsp;mat,&nbsp;ref&nbsp;Vector3D&nbsp;xyz)`](VRageMath.GetEulerAnglesXYZ)||
+|static&nbsp;[`MatrixD&nbsp;SwapYZCoordinates(MatrixD&nbsp;m)`](VRageMath.SwapYZCoordinates)||
+|[`bool&nbsp;IsMirrored()`](VRageMath.IsMirrored)||
+|[`Vector3D&nbsp;GetDirectionVector(Direction&nbsp;direction)`](VRageMath.GetDirectionVector)||
+|[`void&nbsp;SetDirectionVector(Direction&nbsp;direction,&nbsp;Vector3D&nbsp;newValue)`](VRageMath.SetDirectionVector)||
+|[`Direction&nbsp;GetClosestDirection(Vector3D&nbsp;referenceVector)`](VRageMath.GetClosestDirection)||
+|[`Direction&nbsp;GetClosestDirection(ref&nbsp;Vector3D&nbsp;referenceVector)`](VRageMath.GetClosestDirection)||
+|static&nbsp;[`void&nbsp;Rescale(ref&nbsp;MatrixD&nbsp;matrix,&nbsp;double&nbsp;scale)`](VRageMath.Rescale)|Same result as Matrix.CreateScale(scale) * matrix, but much faster|
+|static&nbsp;[`void&nbsp;Rescale(ref&nbsp;MatrixD&nbsp;matrix,&nbsp;float&nbsp;scale)`](VRageMath.Rescale)|Same result as Matrix.CreateScale(scale) * matrix, but much faster|
+|static&nbsp;[`void&nbsp;Rescale(ref&nbsp;MatrixD&nbsp;matrix,&nbsp;ref&nbsp;Vector3D&nbsp;scale)`](VRageMath.Rescale)|Same result as Matrix.CreateScale(scale) * matrix, but much faster|
+|static&nbsp;[`MatrixD&nbsp;Rescale(MatrixD&nbsp;matrix,&nbsp;double&nbsp;scale)`](VRageMath.Rescale)||
+|static&nbsp;[`MatrixD&nbsp;Rescale(MatrixD&nbsp;matrix,&nbsp;Vector3D&nbsp;scale)`](VRageMath.Rescale)||
+|static&nbsp;[`MatrixD&nbsp;CreateBillboard(Vector3D&nbsp;objectPosition,&nbsp;Vector3D&nbsp;cameraPosition,&nbsp;Vector3D&nbsp;cameraUpVector,&nbsp;Nullable<Vector3D>&nbsp;cameraForwardVector)`](VRageMath.CreateBillboard)|Creates a spherical billboard that rotates around a specified object position.|
+|static&nbsp;[`void&nbsp;CreateBillboard(ref&nbsp;Vector3D&nbsp;objectPosition,&nbsp;ref&nbsp;Vector3D&nbsp;cameraPosition,&nbsp;ref&nbsp;Vector3D&nbsp;cameraUpVector,&nbsp;Nullable<Vector3D>&nbsp;cameraForwardVector,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.CreateBillboard)|Creates a spherical billboard that rotates around a specified object position.|
+|static&nbsp;[`MatrixD&nbsp;CreateConstrainedBillboard(Vector3D&nbsp;objectPosition,&nbsp;Vector3D&nbsp;cameraPosition,&nbsp;Vector3D&nbsp;rotateAxis,&nbsp;Nullable<Vector3D>&nbsp;cameraForwardVector,&nbsp;Nullable<Vector3D>&nbsp;objectForwardVector)`](VRageMath.CreateConstrainedBillboard)|Creates a cylindrical billboard that rotates around a specified axis.|
+|static&nbsp;[`void&nbsp;CreateConstrainedBillboard(ref&nbsp;Vector3D&nbsp;objectPosition,&nbsp;ref&nbsp;Vector3D&nbsp;cameraPosition,&nbsp;ref&nbsp;Vector3D&nbsp;rotateAxis,&nbsp;Nullable<Vector3D>&nbsp;cameraForwardVector,&nbsp;Nullable<Vector3D>&nbsp;objectForwardVector,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.CreateConstrainedBillboard)|Creates a cylindrical billboard that rotates around a specified axis.|
+|static&nbsp;[`MatrixD&nbsp;CreateTranslation(Vector3D&nbsp;position)`](VRageMath.CreateTranslation)|Creates a translation Matrix.|
+|static&nbsp;[`MatrixD&nbsp;CreateTranslation(Vector3&nbsp;position)`](VRageMath.CreateTranslation)||
+|static&nbsp;[`void&nbsp;CreateTranslation(ref&nbsp;Vector3D&nbsp;position,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.CreateTranslation)|Creates a translation Matrix.|
+|static&nbsp;[`MatrixD&nbsp;CreateTranslation(double&nbsp;xPosition,&nbsp;double&nbsp;yPosition,&nbsp;double&nbsp;zPosition)`](VRageMath.CreateTranslation)|Creates a translation Matrix.|
+|static&nbsp;[`void&nbsp;CreateTranslation(double&nbsp;xPosition,&nbsp;double&nbsp;yPosition,&nbsp;double&nbsp;zPosition,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.CreateTranslation)|Creates a translation Matrix.|
+|static&nbsp;[`MatrixD&nbsp;CreateScale(double&nbsp;xScale,&nbsp;double&nbsp;yScale,&nbsp;double&nbsp;zScale)`](VRageMath.CreateScale)|Creates a scaling Matrix.|
+|static&nbsp;[`void&nbsp;CreateScale(double&nbsp;xScale,&nbsp;double&nbsp;yScale,&nbsp;double&nbsp;zScale,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.CreateScale)|Creates a scaling Matrix.|
+|static&nbsp;[`MatrixD&nbsp;CreateScale(Vector3D&nbsp;scales)`](VRageMath.CreateScale)|Creates a scaling Matrix.|
+|static&nbsp;[`void&nbsp;CreateScale(ref&nbsp;Vector3D&nbsp;scales,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.CreateScale)|Creates a scaling Matrix.|
+|static&nbsp;[`MatrixD&nbsp;CreateScale(double&nbsp;scale)`](VRageMath.CreateScale)|Creates a scaling Matrix.|
+|static&nbsp;[`void&nbsp;CreateScale(double&nbsp;scale,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.CreateScale)|Creates a scaling Matrix.|
+|static&nbsp;[`MatrixD&nbsp;CreateRotationX(double&nbsp;radians)`](VRageMath.CreateRotationX)|Returns a matrix that can be used to rotate a set of vertices around the x-axis.|
+|static&nbsp;[`void&nbsp;CreateRotationX(double&nbsp;radians,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.CreateRotationX)|Populates data into a user-specified matrix that can be used to rotate a set of vertices around the x-axis.|
+|static&nbsp;[`MatrixD&nbsp;CreateRotationY(double&nbsp;radians)`](VRageMath.CreateRotationY)|Returns a matrix that can be used to rotate a set of vertices around the y-axis.|
+|static&nbsp;[`void&nbsp;CreateRotationY(double&nbsp;radians,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.CreateRotationY)|Populates data into a user-specified matrix that can be used to rotate a set of vertices around the y-axis.|
+|static&nbsp;[`MatrixD&nbsp;CreateRotationZ(double&nbsp;radians)`](VRageMath.CreateRotationZ)|Returns a matrix that can be used to rotate a set of vertices around the z-axis.|
+|static&nbsp;[`void&nbsp;CreateRotationZ(double&nbsp;radians,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.CreateRotationZ)|Populates data into a user-specified matrix that can be used to rotate a set of vertices around the z-axis.|
+|static&nbsp;[`MatrixD&nbsp;CreateFromAxisAngle(Vector3D&nbsp;axis,&nbsp;double&nbsp;angle)`](VRageMath.CreateFromAxisAngle)|Creates a new Matrix that rotates around an arbitrary vector.|
+|static&nbsp;[`void&nbsp;CreateFromAxisAngle(ref&nbsp;Vector3D&nbsp;axis,&nbsp;double&nbsp;angle,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.CreateFromAxisAngle)|Creates a new Matrix that rotates around an arbitrary vector.|
+|static&nbsp;[`MatrixD&nbsp;CreatePerspectiveFieldOfView(double&nbsp;fieldOfView,&nbsp;double&nbsp;aspectRatio,&nbsp;double&nbsp;nearPlaneDistance,&nbsp;double&nbsp;farPlaneDistance)`](VRageMath.CreatePerspectiveFieldOfView)|Builds a perspective projection matrix based on a field of view and returns by value.|
+|static&nbsp;[`void&nbsp;CreatePerspectiveFieldOfView(double&nbsp;fieldOfView,&nbsp;double&nbsp;aspectRatio,&nbsp;double&nbsp;nearPlaneDistance,&nbsp;double&nbsp;farPlaneDistance,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.CreatePerspectiveFieldOfView)|Builds a perspective projection matrix based on a field of view and returns by reference.|
+|static&nbsp;[`MatrixD&nbsp;CreatePerspective(double&nbsp;width,&nbsp;double&nbsp;height,&nbsp;double&nbsp;nearPlaneDistance,&nbsp;double&nbsp;farPlaneDistance)`](VRageMath.CreatePerspective)|Builds a perspective projection matrix and returns the result by value.|
+|static&nbsp;[`void&nbsp;CreatePerspective(double&nbsp;width,&nbsp;double&nbsp;height,&nbsp;double&nbsp;nearPlaneDistance,&nbsp;double&nbsp;farPlaneDistance,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.CreatePerspective)|Builds a perspective projection matrix and returns the result by reference.|
+|static&nbsp;[`MatrixD&nbsp;CreatePerspectiveOffCenter(double&nbsp;left,&nbsp;double&nbsp;right,&nbsp;double&nbsp;bottom,&nbsp;double&nbsp;top,&nbsp;double&nbsp;nearPlaneDistance,&nbsp;double&nbsp;farPlaneDistance)`](VRageMath.CreatePerspectiveOffCenter)|Builds a customized, perspective projection matrix.|
+|static&nbsp;[`void&nbsp;CreatePerspectiveOffCenter(double&nbsp;left,&nbsp;double&nbsp;right,&nbsp;double&nbsp;bottom,&nbsp;double&nbsp;top,&nbsp;double&nbsp;nearPlaneDistance,&nbsp;double&nbsp;farPlaneDistance,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.CreatePerspectiveOffCenter)|Builds a customized, perspective projection matrix.|
+|static&nbsp;[`MatrixD&nbsp;CreateOrthographic(double&nbsp;width,&nbsp;double&nbsp;height,&nbsp;double&nbsp;zNearPlane,&nbsp;double&nbsp;zFarPlane)`](VRageMath.CreateOrthographic)|Builds an orthogonal projection matrix.|
+|static&nbsp;[`void&nbsp;CreateOrthographic(double&nbsp;width,&nbsp;double&nbsp;height,&nbsp;double&nbsp;zNearPlane,&nbsp;double&nbsp;zFarPlane,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.CreateOrthographic)|Builds an orthogonal projection matrix.|
+|static&nbsp;[`MatrixD&nbsp;CreateOrthographicOffCenter(double&nbsp;left,&nbsp;double&nbsp;right,&nbsp;double&nbsp;bottom,&nbsp;double&nbsp;top,&nbsp;double&nbsp;zNearPlane,&nbsp;double&nbsp;zFarPlane)`](VRageMath.CreateOrthographicOffCenter)|Builds a customized, orthogonal projection matrix.|
+|static&nbsp;[`void&nbsp;CreateOrthographicOffCenter(double&nbsp;left,&nbsp;double&nbsp;right,&nbsp;double&nbsp;bottom,&nbsp;double&nbsp;top,&nbsp;double&nbsp;zNearPlane,&nbsp;double&nbsp;zFarPlane,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.CreateOrthographicOffCenter)|Builds a customized, orthogonal projection matrix.|
+|static&nbsp;[`MatrixD&nbsp;CreateLookAt(Vector3D&nbsp;cameraPosition,&nbsp;Vector3D&nbsp;cameraTarget,&nbsp;Vector3&nbsp;cameraUpVector)`](VRageMath.CreateLookAt)||
+|static&nbsp;[`MatrixD&nbsp;CreateLookAt(Vector3D&nbsp;cameraPosition,&nbsp;Vector3D&nbsp;cameraTarget,&nbsp;Vector3D&nbsp;cameraUpVector)`](VRageMath.CreateLookAt)|Creates a view matrix.|
+|static&nbsp;[`Matrix&nbsp;CreateLookAtInverse(Vector3D&nbsp;cameraPosition,&nbsp;Vector3D&nbsp;cameraTarget,&nbsp;Vector3D&nbsp;cameraUpVector)`](VRageMath.CreateLookAtInverse)||
+|static&nbsp;[`void&nbsp;CreateLookAt(ref&nbsp;Vector3D&nbsp;cameraPosition,&nbsp;ref&nbsp;Vector3D&nbsp;cameraTarget,&nbsp;ref&nbsp;Vector3D&nbsp;cameraUpVector,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.CreateLookAt)|Creates a view matrix.|
+|static&nbsp;[`MatrixD&nbsp;CreateWorld(Vector3D&nbsp;position,&nbsp;Vector3&nbsp;forward,&nbsp;Vector3&nbsp;up)`](VRageMath.CreateWorld)||
+|static&nbsp;[`MatrixD&nbsp;CreateWorld(Vector3D&nbsp;position)`](VRageMath.CreateWorld)||
+|static&nbsp;[`MatrixD&nbsp;CreateWorld(Vector3D&nbsp;position,&nbsp;Vector3D&nbsp;forward,&nbsp;Vector3D&nbsp;up)`](VRageMath.CreateWorld)|Creates a world matrix with the specified parameters.|
+|static&nbsp;[`void&nbsp;CreateWorld(ref&nbsp;Vector3D&nbsp;position,&nbsp;ref&nbsp;Vector3D&nbsp;forward,&nbsp;ref&nbsp;Vector3D&nbsp;up,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.CreateWorld)|Creates a world matrix with the specified parameters.|
+|static&nbsp;[`MatrixD&nbsp;CreateFromQuaternion(Quaternion&nbsp;quaternion)`](VRageMath.CreateFromQuaternion)|Creates a rotation Matrix from a Quaternion.|
+|static&nbsp;[`MatrixD&nbsp;CreateFromQuaternion(QuaternionD&nbsp;quaternion)`](VRageMath.CreateFromQuaternion)||
+|static&nbsp;[`void&nbsp;CreateFromQuaternion(ref&nbsp;Quaternion&nbsp;quaternion,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.CreateFromQuaternion)|Creates a rotation Matrix from a Quaternion.|
+|static&nbsp;[`MatrixD&nbsp;CreateFromYawPitchRoll(double&nbsp;yaw,&nbsp;double&nbsp;pitch,&nbsp;double&nbsp;roll)`](VRageMath.CreateFromYawPitchRoll)|Creates a new rotation matrix from a specified yaw, pitch, and roll.|
+|static&nbsp;[`void&nbsp;CreateFromYawPitchRoll(double&nbsp;yaw,&nbsp;double&nbsp;pitch,&nbsp;double&nbsp;roll,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.CreateFromYawPitchRoll)|Fills in a rotation matrix from a specified yaw, pitch, and roll.|
+|static&nbsp;[`MatrixD&nbsp;CreateFromTransformScale(Quaternion&nbsp;orientation,&nbsp;Vector3D&nbsp;position,&nbsp;Vector3D&nbsp;scale)`](VRageMath.CreateFromTransformScale)||
+|static&nbsp;[`MatrixD&nbsp;CreateShadow(Vector3D&nbsp;lightDirection,&nbsp;Plane&nbsp;plane)`](VRageMath.CreateShadow)|Creates a Matrix that flattens geometry into a specified Plane as if casting a shadow from a specified light source.|
+|static&nbsp;[`void&nbsp;CreateShadow(ref&nbsp;Vector3D&nbsp;lightDirection,&nbsp;ref&nbsp;Plane&nbsp;plane,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.CreateShadow)|Fills in a Matrix to flatten geometry into a specified Plane as if casting a shadow from a specified light source.|
+|static&nbsp;[`MatrixD&nbsp;CreateReflection(Plane&nbsp;value)`](VRageMath.CreateReflection)|Creates a Matrix that reflects the coordinate system about a specified Plane.|
+|static&nbsp;[`void&nbsp;CreateReflection(ref&nbsp;Plane&nbsp;value,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.CreateReflection)|Fills in an existing Matrix so that it reflects the coordinate system about a specified Plane.|
+|static&nbsp;[`MatrixD&nbsp;Transform(MatrixD&nbsp;value,&nbsp;Quaternion&nbsp;rotation)`](VRageMath.Transform)|Transforms a Matrix by applying a Quaternion rotation.|
+|static&nbsp;[`void&nbsp;Transform(ref&nbsp;MatrixD&nbsp;value,&nbsp;ref&nbsp;Quaternion&nbsp;rotation,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.Transform)|Transforms a Matrix by applying a Quaternion rotation.|
+|[`Vector4&nbsp;GetRow(int&nbsp;row)`](VRageMath.GetRow)||
+|[`void&nbsp;SetRow(int&nbsp;row,&nbsp;Vector4&nbsp;value)`](VRageMath.SetRow)||
+|[`string&nbsp;ToString()`](VRageMath.ToString)|Retrieves a string representation of the current object.|
+|[`bool&nbsp;Equals(MatrixD&nbsp;other)`](VRageMath.Equals)|Determines whether the specified Object is equal to the Matrix.|
+|[`bool&nbsp;EqualsFast(ref&nbsp;MatrixD&nbsp;other,&nbsp;double&nbsp;epsilon)`](VRageMath.EqualsFast)|Compares just position, forward and up|
+|[`bool&nbsp;Equals(Object&nbsp;obj)`](VRageMath.Equals)|Returns a value that indicates whether the current instance is equal to a specified object.|
+|[`int&nbsp;GetHashCode()`](VRageMath.GetHashCode)|Gets the hash code of this object.|
+|static&nbsp;[`MatrixD&nbsp;Transpose(MatrixD&nbsp;matrix)`](VRageMath.Transpose)|Transposes the rows and columns of a matrix.|
+|static&nbsp;[`void&nbsp;Transpose(ref&nbsp;MatrixD&nbsp;matrix,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.Transpose)|Transposes the rows and columns of a matrix.|
+|[`double&nbsp;Determinant()`](VRageMath.Determinant)|Calculates the determinant of the matrix.|
+|static&nbsp;[`MatrixD&nbsp;Invert(MatrixD&nbsp;matrix)`](VRageMath.Invert)|Calculates the inverse of a matrix.|
+|static&nbsp;[`MatrixD&nbsp;Invert(ref&nbsp;MatrixD&nbsp;matrix)`](VRageMath.Invert)||
+|static&nbsp;[`void&nbsp;Invert(ref&nbsp;MatrixD&nbsp;matrix,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.Invert)|Calculates the inverse of a matrix.|
+|static&nbsp;[`MatrixD&nbsp;Lerp(MatrixD&nbsp;matrix1,&nbsp;MatrixD&nbsp;matrix2,&nbsp;double&nbsp;amount)`](VRageMath.Lerp)|Linearly interpolates between the corresponding values of two matrices.|
+|static&nbsp;[`void&nbsp;Lerp(ref&nbsp;MatrixD&nbsp;matrix1,&nbsp;ref&nbsp;MatrixD&nbsp;matrix2,&nbsp;double&nbsp;amount,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.Lerp)|Linearly interpolates between the corresponding values of two matrices.|
+|static&nbsp;[`void&nbsp;Slerp(ref&nbsp;MatrixD&nbsp;matrix1,&nbsp;ref&nbsp;MatrixD&nbsp;matrix2,&nbsp;float&nbsp;amount,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.Slerp)|Performs spherical linear interpolation of position and rotation.|
+|[`bool&nbsp;IsOrthogonal()`](VRageMath.IsOrthogonal)||
+|[`bool&nbsp;IsOrthogonal(double&nbsp;epsilon)`](VRageMath.IsOrthogonal)||
+|static&nbsp;[`void&nbsp;SlerpScale(ref&nbsp;MatrixD&nbsp;matrix1,&nbsp;ref&nbsp;MatrixD&nbsp;matrix2,&nbsp;float&nbsp;amount,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.SlerpScale)|Performs spherical linear interpolation of position and rotation and scale.|
+|static&nbsp;[`void&nbsp;Slerp(MatrixD&nbsp;matrix1,&nbsp;MatrixD&nbsp;matrix2,&nbsp;float&nbsp;amount,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.Slerp)|Performs spherical linear interpolation of position and rotation.|
+|static&nbsp;[`MatrixD&nbsp;Slerp(MatrixD&nbsp;matrix1,&nbsp;MatrixD&nbsp;matrix2,&nbsp;float&nbsp;amount)`](VRageMath.Slerp)|Performs spherical linear interpolation of position and rotation.|
+|static&nbsp;[`void&nbsp;SlerpScale(MatrixD&nbsp;matrix1,&nbsp;MatrixD&nbsp;matrix2,&nbsp;float&nbsp;amount,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.SlerpScale)|Performs spherical linear interpolation of position and rotation and scale.|
+|static&nbsp;[`MatrixD&nbsp;SlerpScale(MatrixD&nbsp;matrix1,&nbsp;MatrixD&nbsp;matrix2,&nbsp;float&nbsp;amount)`](VRageMath.SlerpScale)|Performs spherical linear interpolation of position and rotation and scale.|
+|static&nbsp;[`MatrixD&nbsp;Negate(MatrixD&nbsp;matrix)`](VRageMath.Negate)|Negates individual elements of a matrix.|
+|static&nbsp;[`void&nbsp;Negate(ref&nbsp;MatrixD&nbsp;matrix,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.Negate)|Negates individual elements of a matrix.|
+|static&nbsp;[`MatrixD&nbsp;Add(MatrixD&nbsp;matrix1,&nbsp;MatrixD&nbsp;matrix2)`](VRageMath.Add)|Adds a matrix to another matrix.|
+|static&nbsp;[`void&nbsp;Add(ref&nbsp;MatrixD&nbsp;matrix1,&nbsp;ref&nbsp;MatrixD&nbsp;matrix2,&nbsp;ref&nbsp;MatrixD&nbsp;result)`](VRageMath.Add)|Adds a matrix to another matrix.|

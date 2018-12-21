@@ -5,19 +5,19 @@
 ## Summary
 Represents a GPS coordinate
 ### Fields
-<table style="width:100%;display:table">
-<tr><td>_<a href="Sandbox.ModAPI.Ingame.Name"><code>string Name</code></a>_</td><td>The name of this GPS coordinate</td></tr>
-<tr><td>_<a href="Sandbox.ModAPI.Ingame.Coords"><code>Vector3D Coords</code></a>_</td><td>Gets the target coordinate as a [Vector3D](VRageMath.Vector3D)</td></tr>
-<tr><td>static _<a href="Sandbox.ModAPI.Ingame.Empty"><code>MyWaypointInfo Empty</code></a>_</td><td>Returns an empty (undefined) GPS coordinate</td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`string&nbsp;Name`](Sandbox.ModAPI.Ingame.Name)|The name of this GPS coordinate|
+|[`Vector3D&nbsp;Coords`](Sandbox.ModAPI.Ingame.Coords)|Gets the target coordinate as a [Vector3D](VRageMath.Vector3D)|
+|static&nbsp;[`MyWaypointInfo&nbsp;Empty`](Sandbox.ModAPI.Ingame.Empty)|Returns an empty (undefined) GPS coordinate|
 ### Methods
-<table style="width:100%;display:table">
-<tr><td>static _<a href="Sandbox.ModAPI.Ingame.FindAll"><code>void FindAll(string source, List<MyWaypointInfo> gpsList)</code></a>_</td><td>Searches for all GPS coordinates in the given text.</td></tr>
-<tr><td>static _<a href="Sandbox.ModAPI.Ingame.TryParse"><code>bool TryParse(string text, ref MyWaypointInfo gps)</code></a>_</td><td>Attempts to parse a GPS coordinate from the given text. The text cannot contain anything but the GPS coordinate.<br/>A GPS coordinate has the format GPS:Name:X:Y:Z:</td></tr>
-<tr><td>_<a href="Sandbox.ModAPI.Ingame.IsEmpty"><code>bool IsEmpty()</code></a>_</td><td>Determines whether this coordinate is empty (undefined)</td></tr>
-<tr><td>_<a href="Sandbox.ModAPI.Ingame.ToString"><code>string ToString()</code></a>_</td><td>Converts this GPS coordinate to its string equivalent</td></tr>
-<tr><td>_<a href="Sandbox.ModAPI.Ingame.Equals"><code>bool Equals(MyWaypointInfo other)</code></a>_</td><td>Determines whether this coordinate is the same as another. Uses 0.0001 as the epsilon to counter floating point inaccuracies.</td></tr>
-<tr><td>_<a href="Sandbox.ModAPI.Ingame.Equals"><code>bool Equals(MyWaypointInfo other, double epsilon)</code></a>_</td><td>Determines whether this coordinate is the same as another. Uses 0.0001 as the epsilon to counter floating point inaccuracies.</td></tr>
-<tr><td>_<a href="Sandbox.ModAPI.Ingame.Equals"><code>bool Equals(Object obj)</code></a>_</td><td>Determines whether this coordinate is the same as another. Uses 0.0001 as the epsilon to counter floating point inaccuracies.</td></tr>
-<tr><td>_<a href="Sandbox.ModAPI.Ingame.GetHashCode"><code>int GetHashCode()</code></a>_</td><td>Gets the hashcode of this coordinate</td></tr>
-</table>
+|Member|Description|
+|---|---|
+|static&nbsp;[`void&nbsp;FindAll(string&nbsp;source,&nbsp;List<MyWaypointInfo>&nbsp;gpsList)`](Sandbox.ModAPI.Ingame.FindAll)|Searches for all GPS coordinates in the given text.|
+|static&nbsp;[`bool&nbsp;TryParse(string&nbsp;text,&nbsp;ref&nbsp;MyWaypointInfo&nbsp;gps)`](Sandbox.ModAPI.Ingame.TryParse)|Attempts to parse a GPS coordinate from the given text. The text cannot contain anything but the GPS coordinate.<br/>A GPS coordinate has the format GPS:Name:X:Y:Z:|
+|[`bool&nbsp;IsEmpty()`](Sandbox.ModAPI.Ingame.IsEmpty)|Determines whether this coordinate is empty (undefined)|
+|[`string&nbsp;ToString()`](Sandbox.ModAPI.Ingame.ToString)|Converts this GPS coordinate to its string equivalent|
+|[`bool&nbsp;Equals(MyWaypointInfo&nbsp;other)`](Sandbox.ModAPI.Ingame.Equals)|Determines whether this coordinate is the same as another. Uses 0.0001 as the epsilon to counter floating point inaccuracies.|
+|[`bool&nbsp;Equals(MyWaypointInfo&nbsp;other,&nbsp;double&nbsp;epsilon)`](Sandbox.ModAPI.Ingame.Equals)|Determines whether this coordinate is the same as another. Uses 0.0001 as the epsilon to counter floating point inaccuracies.|
+|[`bool&nbsp;Equals(Object&nbsp;obj)`](Sandbox.ModAPI.Ingame.Equals)|Determines whether this coordinate is the same as another. Uses 0.0001 as the epsilon to counter floating point inaccuracies.|
+|[`int&nbsp;GetHashCode()`](Sandbox.ModAPI.Ingame.GetHashCode)|Gets the hashcode of this coordinate|

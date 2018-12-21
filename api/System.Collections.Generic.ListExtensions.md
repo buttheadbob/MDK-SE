@@ -3,33 +3,33 @@
 **Namespace:** [`System.Collections.Generic`](System.Collections.Generic)  
 **Assembly:** VRage.Library.dll  
 ### Methods
-<table style="width:100%;display:table">
-<tr><td>static _<a href="System.Collections.Generic.GetClearToken"><code>ClearToken<T> GetClearToken<T>(List<T> list)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="System.Collections.Generic.RemoveAtFast"><code>void RemoveAtFast<T>(List<T> list, int index)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="System.Collections.Generic.RemoveAtFast"><code>void RemoveAtFast<T>(IList<T> list, int index)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="System.Collections.Generic.GetInternalArray"><code>T[] GetInternalArray<T>(List<T> list)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="System.Collections.Generic.AddOrInsert"><code>void AddOrInsert<T>(List<T> list, T item, int index)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="System.Collections.Generic.AddArray"><code>void AddArray<T>(List<T> list, T[] itemsToAdd)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="System.Collections.Generic.AddArray"><code>void AddArray<T>(List<T> list, T[] itemsToAdd, int itemCount)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="System.Collections.Generic.SetSize"><code>void SetSize<T>(List<T> list, int newSize)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="System.Collections.Generic.AddList"><code>void AddList<T>(List<T> list, List<T> itemsToAdd)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="System.Collections.Generic.AddHashset"><code>void AddHashset<T>(List<T> list, HashSet<T> hashset)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="System.Collections.Generic.AddHashsetCasting"><code>void AddHashsetCasting<T1, T2>(List<T1> list, HashSet<T2> hashset)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="System.Collections.Generic.Move"><code>void Move<T>(List<T> list, int originalIndex, int targetIndex)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="System.Collections.Generic.IsValidIndex"><code>bool IsValidIndex<T>(List<T> list, int index)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="System.Collections.Generic.RemoveIndices"><code>void RemoveIndices<T>(List<T> list, List<int> indices)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="System.Collections.Generic.Swap"><code>void Swap<T>(List<T> list, int a, int b)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="System.Collections.Generic.BinaryIntervalSearch"><code>int BinaryIntervalSearch<T>(IList<T> self, T value, IComparer<T> comparer)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="System.Collections.Generic.BinaryIntervalSearch"><code>int BinaryIntervalSearch<T>(IList<T> self, Func<T, bool> less)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="System.Collections.Generic.BinaryIntervalSearch"><code>int BinaryIntervalSearch<T>(IList<T> self, T value, Comparison<T> comparison)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="System.Collections.Generic.InsertInOrder"><code>void InsertInOrder<T>(List<T> self, T value, IComparer<T> comparer)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="System.Collections.Generic.InsertInOrder"><code>void InsertInOrder<T>(List<T> self, T value)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="System.Collections.Generic.IsSorted"><code>bool IsSorted<T>(List<T> self, IComparer<T> comparer)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="System.Collections.Generic.AssertEmpty"><code>void AssertEmpty<T>(List<T> list)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="System.Collections.Generic.EnsureCapacity"><code>void EnsureCapacity<T>(List<T> list, int capacity)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="System.Collections.Generic.Pop"><code>TValue Pop<TValue>(List<TValue> self)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="System.Collections.Generic.SortNoAlloc"><code>void SortNoAlloc<T>(List<T> list, Comparison<T> comparator)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="System.Collections.Generic.AtMod"><code>T AtMod<T>(List<T> list, int index)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="System.Collections.Generic.AtMod"><code>T AtMod<T>(ListReader<T> list, int index)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="System.Collections.Generic.MaxBy"><code>T MaxBy<T>(IEnumerable<T> source, Func<T, float> selector)</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|static&nbsp;[`ClearToken<T>&nbsp;GetClearToken<T>(List<T>&nbsp;list)`](System.Collections.Generic.GetClearToken)||
+|static&nbsp;[`void&nbsp;RemoveAtFast<T>(List<T>&nbsp;list,&nbsp;int&nbsp;index)`](System.Collections.Generic.RemoveAtFast)||
+|static&nbsp;[`void&nbsp;RemoveAtFast<T>(IList<T>&nbsp;list,&nbsp;int&nbsp;index)`](System.Collections.Generic.RemoveAtFast)||
+|static&nbsp;[`T[]&nbsp;GetInternalArray<T>(List<T>&nbsp;list)`](System.Collections.Generic.GetInternalArray)||
+|static&nbsp;[`void&nbsp;AddOrInsert<T>(List<T>&nbsp;list,&nbsp;T&nbsp;item,&nbsp;int&nbsp;index)`](System.Collections.Generic.AddOrInsert)||
+|static&nbsp;[`void&nbsp;AddArray<T>(List<T>&nbsp;list,&nbsp;T[]&nbsp;itemsToAdd)`](System.Collections.Generic.AddArray)||
+|static&nbsp;[`void&nbsp;AddArray<T>(List<T>&nbsp;list,&nbsp;T[]&nbsp;itemsToAdd,&nbsp;int&nbsp;itemCount)`](System.Collections.Generic.AddArray)||
+|static&nbsp;[`void&nbsp;SetSize<T>(List<T>&nbsp;list,&nbsp;int&nbsp;newSize)`](System.Collections.Generic.SetSize)||
+|static&nbsp;[`void&nbsp;AddList<T>(List<T>&nbsp;list,&nbsp;List<T>&nbsp;itemsToAdd)`](System.Collections.Generic.AddList)||
+|static&nbsp;[`void&nbsp;AddHashset<T>(List<T>&nbsp;list,&nbsp;HashSet<T>&nbsp;hashset)`](System.Collections.Generic.AddHashset)||
+|static&nbsp;[`void&nbsp;AddHashsetCasting<T1,&nbsp;T2>(List<T1>&nbsp;list,&nbsp;HashSet<T2>&nbsp;hashset)`](System.Collections.Generic.AddHashsetCasting)||
+|static&nbsp;[`void&nbsp;Move<T>(List<T>&nbsp;list,&nbsp;int&nbsp;originalIndex,&nbsp;int&nbsp;targetIndex)`](System.Collections.Generic.Move)||
+|static&nbsp;[`bool&nbsp;IsValidIndex<T>(List<T>&nbsp;list,&nbsp;int&nbsp;index)`](System.Collections.Generic.IsValidIndex)||
+|static&nbsp;[`void&nbsp;RemoveIndices<T>(List<T>&nbsp;list,&nbsp;List<int>&nbsp;indices)`](System.Collections.Generic.RemoveIndices)||
+|static&nbsp;[`void&nbsp;Swap<T>(List<T>&nbsp;list,&nbsp;int&nbsp;a,&nbsp;int&nbsp;b)`](System.Collections.Generic.Swap)||
+|static&nbsp;[`int&nbsp;BinaryIntervalSearch<T>(IList<T>&nbsp;self,&nbsp;T&nbsp;value,&nbsp;IComparer<T>&nbsp;comparer)`](System.Collections.Generic.BinaryIntervalSearch)||
+|static&nbsp;[`int&nbsp;BinaryIntervalSearch<T>(IList<T>&nbsp;self,&nbsp;Func<T,&nbsp;bool>&nbsp;less)`](System.Collections.Generic.BinaryIntervalSearch)||
+|static&nbsp;[`int&nbsp;BinaryIntervalSearch<T>(IList<T>&nbsp;self,&nbsp;T&nbsp;value,&nbsp;Comparison<T>&nbsp;comparison)`](System.Collections.Generic.BinaryIntervalSearch)||
+|static&nbsp;[`void&nbsp;InsertInOrder<T>(List<T>&nbsp;self,&nbsp;T&nbsp;value,&nbsp;IComparer<T>&nbsp;comparer)`](System.Collections.Generic.InsertInOrder)||
+|static&nbsp;[`void&nbsp;InsertInOrder<T>(List<T>&nbsp;self,&nbsp;T&nbsp;value)`](System.Collections.Generic.InsertInOrder)||
+|static&nbsp;[`bool&nbsp;IsSorted<T>(List<T>&nbsp;self,&nbsp;IComparer<T>&nbsp;comparer)`](System.Collections.Generic.IsSorted)||
+|static&nbsp;[`void&nbsp;AssertEmpty<T>(List<T>&nbsp;list)`](System.Collections.Generic.AssertEmpty)||
+|static&nbsp;[`void&nbsp;EnsureCapacity<T>(List<T>&nbsp;list,&nbsp;int&nbsp;capacity)`](System.Collections.Generic.EnsureCapacity)||
+|static&nbsp;[`TValue&nbsp;Pop<TValue>(List<TValue>&nbsp;self)`](System.Collections.Generic.Pop)||
+|static&nbsp;[`void&nbsp;SortNoAlloc<T>(List<T>&nbsp;list,&nbsp;Comparison<T>&nbsp;comparator)`](System.Collections.Generic.SortNoAlloc)||
+|static&nbsp;[`T&nbsp;AtMod<T>(List<T>&nbsp;list,&nbsp;int&nbsp;index)`](System.Collections.Generic.AtMod)||
+|static&nbsp;[`T&nbsp;AtMod<T>(ListReader<T>&nbsp;list,&nbsp;int&nbsp;index)`](System.Collections.Generic.AtMod)||
+|static&nbsp;[`T&nbsp;MaxBy<T>(IEnumerable<T>&nbsp;source,&nbsp;Func<T,&nbsp;float>&nbsp;selector)`](System.Collections.Generic.MaxBy)||

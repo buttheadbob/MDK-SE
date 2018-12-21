@@ -3,18 +3,18 @@
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Fields
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRageMath.Rotation"><code>Quaternion Rotation</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Position"><code>Vector3D Position</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`Quaternion&nbsp;Rotation`](VRageMath.Rotation)||
+|[`Vector3D&nbsp;Position`](VRageMath.Position)||
 ### Properties
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRageMath.TransformMatrix"><code>MatrixD TransformMatrix</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`MatrixD&nbsp;TransformMatrix`](VRageMath.TransformMatrix)||
 ### Methods
-<table style="width:100%;display:table">
-<tr><td>static _<a href="VRageMath.Transform"><code>MyTransformD Transform(ref MyTransformD t1, ref MyTransformD t2)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.Transform"><code>void Transform(ref MyTransformD t1, ref MyTransformD t2, ref MyTransformD result)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.Transform"><code>Vector3D Transform(ref Vector3D v, ref MyTransformD t2)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.Transform"><code>void Transform(ref Vector3D v, ref MyTransformD t2, ref Vector3D result)</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|static&nbsp;[`MyTransformD&nbsp;Transform(ref&nbsp;MyTransformD&nbsp;t1,&nbsp;ref&nbsp;MyTransformD&nbsp;t2)`](VRageMath.Transform)||
+|static&nbsp;[`void&nbsp;Transform(ref&nbsp;MyTransformD&nbsp;t1,&nbsp;ref&nbsp;MyTransformD&nbsp;t2,&nbsp;ref&nbsp;MyTransformD&nbsp;result)`](VRageMath.Transform)||
+|static&nbsp;[`Vector3D&nbsp;Transform(ref&nbsp;Vector3D&nbsp;v,&nbsp;ref&nbsp;MyTransformD&nbsp;t2)`](VRageMath.Transform)||
+|static&nbsp;[`void&nbsp;Transform(ref&nbsp;Vector3D&nbsp;v,&nbsp;ref&nbsp;MyTransformD&nbsp;t2,&nbsp;ref&nbsp;Vector3D&nbsp;result)`](VRageMath.Transform)||

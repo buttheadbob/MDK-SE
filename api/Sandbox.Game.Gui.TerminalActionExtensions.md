@@ -3,8 +3,8 @@
 **Namespace:** [`Sandbox.Game.Gui`](Sandbox.Game.Gui)  
 **Assembly:** Sandbox.Game.dll  
 ### Methods
-<table style="width:100%;display:table">
-<tr><td>static _<a href="Sandbox.Game.Gui.GetAction"><code>ITerminalAction GetAction(IMyTerminalBlock block, string name)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="Sandbox.Game.Gui.ApplyAction"><code>void ApplyAction(IMyTerminalBlock block, string name)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="Sandbox.Game.Gui.ApplyAction"><code>void ApplyAction(IMyTerminalBlock block, string name, ListReader<TerminalActionParameter> parameters)</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|static&nbsp;[`ITerminalAction&nbsp;GetAction(IMyTerminalBlock&nbsp;block,&nbsp;string&nbsp;name)`](Sandbox.Game.Gui.GetAction)||
+|static&nbsp;[`void&nbsp;ApplyAction(IMyTerminalBlock&nbsp;block,&nbsp;string&nbsp;name)`](Sandbox.Game.Gui.ApplyAction)||
+|static&nbsp;[`void&nbsp;ApplyAction(IMyTerminalBlock&nbsp;block,&nbsp;string&nbsp;name,&nbsp;ListReader<TerminalActionParameter>&nbsp;parameters)`](Sandbox.Game.Gui.ApplyAction)||

@@ -5,11 +5,11 @@
 **Implements:**
 * [`VRageMath.PackedVector.IPackedVector`](VRageMath.PackedVector.IPackedVector)
 ### Properties
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRageMath.PackedVector.PackedValue"><code>TPacked PackedValue</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`TPacked&nbsp;PackedValue`](VRageMath.PackedVector.PackedValue)||
 ### Methods
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRageMath.PackedVector.ToVector4"><code>Vector4 ToVector4()</code></a>_</td><td>Expands the packed representation into a Vector4.<br/><br/>_Inherited from <a href="VRageMath.PackedVector.IPackedVector"><code>IPackedVector</code></a>_</td></tr>
-<tr><td>_<a href="VRageMath.PackedVector.PackFromVector4"><code>void PackFromVector4(Vector4 vector)</code></a>_</td><td>Sets the packed representation from a Vector4.<br/><br/>_Inherited from <a href="VRageMath.PackedVector.IPackedVector"><code>IPackedVector</code></a>_</td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`Vector4&nbsp;ToVector4()`](VRageMath.PackedVector.ToVector4)|Expands the packed representation into a Vector4.<br/><br/>_Inherited from [`IPackedVector`](VRageMath.PackedVector.IPackedVector)_|
+|[`void&nbsp;PackFromVector4(Vector4&nbsp;vector)`](VRageMath.PackedVector.PackFromVector4)|Sets the packed representation from a Vector4.<br/><br/>_Inherited from [`IPackedVector`](VRageMath.PackedVector.IPackedVector)_|

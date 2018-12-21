@@ -15,11 +15,11 @@ public void Main()
 ```
 
 ### Properties
-<table style="width:100%;display:table">
-<tr><td>_<a href="Sandbox.ModAPI.Ingame.GridTerminalSystem"><code>IMyGridTerminalSystem GridTerminalSystem</code></a>_</td><td>Provides access to the grid terminal system as viewed from this programmable block.</td></tr>
-<tr><td>_<a href="Sandbox.ModAPI.Ingame.Me"><code>IMyProgrammableBlock Me</code></a>_</td><td>Gets a reference to the currently running programmable block.</td></tr>
-<tr><td>_<a href="Sandbox.ModAPI.Ingame.ElapsedTime"><code>TimeSpan ElapsedTime</code></a>_</td><td>Gets the amount of in-game time elapsed from the previous run.</td></tr>
-<tr><td>_<a href="Sandbox.ModAPI.Ingame.Runtime"><code>IMyGridProgramRuntimeInfo Runtime</code></a>_</td><td>Gets runtime information for the running grid program.</td></tr>
-<tr><td>_<a href="Sandbox.ModAPI.Ingame.Storage"><code>string Storage</code></a>_</td><td>Allows you to store data between game sessions.</td></tr>
-<tr><td>_<a href="Sandbox.ModAPI.Ingame.Echo"><code>Action<string> Echo</code></a>_</td><td>Prints out text onto the currently running programmable block's detail info area.</td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`IMyGridTerminalSystem&nbsp;GridTerminalSystem`](Sandbox.ModAPI.Ingame.GridTerminalSystem)|Provides access to the grid terminal system as viewed from this programmable block.|
+|[`IMyProgrammableBlock&nbsp;Me`](Sandbox.ModAPI.Ingame.Me)|Gets a reference to the currently running programmable block.|
+|[`TimeSpan&nbsp;ElapsedTime`](Sandbox.ModAPI.Ingame.ElapsedTime)|Gets the amount of in-game time elapsed from the previous run.|
+|[`IMyGridProgramRuntimeInfo&nbsp;Runtime`](Sandbox.ModAPI.Ingame.Runtime)|Gets runtime information for the running grid program.|
+|[`string&nbsp;Storage`](Sandbox.ModAPI.Ingame.Storage)|Allows you to store data between game sessions.|
+|[`Action<string>&nbsp;Echo`](Sandbox.ModAPI.Ingame.Echo)|Prints out text onto the currently running programmable block's detail info area.|

@@ -7,175 +7,175 @@
 ## Summary
 Represents a four-component color using red, green, blue, and alpha data.
 ### Fields
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRageMath.PackedValue"><code>uint PackedValue</code></a>_</td><td>Gets the current color as a packed value.</td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`uint&nbsp;PackedValue`](VRageMath.PackedValue)|Gets the current color as a packed value.|
 ### Properties
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRageMath.X"><code>byte X</code></a>_</td><td>Gets or sets the red component value of this Color.</td></tr>
-<tr><td>_<a href="VRageMath.Y"><code>byte Y</code></a>_</td><td>Gets or sets the green component value of this Color.</td></tr>
-<tr><td>_<a href="VRageMath.Z"><code>byte Z</code></a>_</td><td>Gets or sets the blue component value of this Color.</td></tr>
-<tr><td>_<a href="VRageMath.R"><code>byte R</code></a>_</td><td>Gets or sets the red component value of this Color.</td></tr>
-<tr><td>_<a href="VRageMath.G"><code>byte G</code></a>_</td><td>Gets or sets the green component value of this Color.</td></tr>
-<tr><td>_<a href="VRageMath.B"><code>byte B</code></a>_</td><td>Gets or sets the blue component value of this Color.</td></tr>
-<tr><td>_<a href="VRageMath.A"><code>byte A</code></a>_</td><td>Gets or sets the alpha component value.</td></tr>
-<tr><td>static _<a href="VRageMath.Transparent"><code>Color Transparent</code></a>_</td><td>Gets a system-defined color with the value R:0 G:0 B:0 A:0.</td></tr>
-<tr><td>static _<a href="VRageMath.AliceBlue"><code>Color AliceBlue</code></a>_</td><td>Gets a system-defined color with the value R:240 G:248 B:255 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.AntiqueWhite"><code>Color AntiqueWhite</code></a>_</td><td>Gets a system-defined color with the value R:250 G:235 B:215 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Aqua"><code>Color Aqua</code></a>_</td><td>Gets a system-defined color with the value R:0 G:255 B:255 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Aquamarine"><code>Color Aquamarine</code></a>_</td><td>Gets a system-defined color with the value R:127 G:255 B:212 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Azure"><code>Color Azure</code></a>_</td><td>Gets a system-defined color with the value R:240 G:255 B:255 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Beige"><code>Color Beige</code></a>_</td><td>Gets a system-defined color with the value R:245 G:245 B:220 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Bisque"><code>Color Bisque</code></a>_</td><td>Gets a system-defined color with the value R:255 G:228 B:196 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Black"><code>Color Black</code></a>_</td><td>Gets a system-defined color with the value R:0 G:0 B:0 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.BlanchedAlmond"><code>Color BlanchedAlmond</code></a>_</td><td>Gets a system-defined color with the value R:255 G:235 B:205 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Blue"><code>Color Blue</code></a>_</td><td>Gets a system-defined color with the value R:0 G:0 B:255 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.BlueViolet"><code>Color BlueViolet</code></a>_</td><td>Gets a system-defined color with the value R:138 G:43 B:226 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Brown"><code>Color Brown</code></a>_</td><td>Gets a system-defined color with the value R:165 G:42 B:42 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.BurlyWood"><code>Color BurlyWood</code></a>_</td><td>Gets a system-defined color with the value R:222 G:184 B:135 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.CadetBlue"><code>Color CadetBlue</code></a>_</td><td>Gets a system-defined color with the value R:95 G:158 B:160 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Chartreuse"><code>Color Chartreuse</code></a>_</td><td>Gets a system-defined color with the value R:127 G:255 B:0 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Chocolate"><code>Color Chocolate</code></a>_</td><td>Gets a system-defined color with the value R:210 G:105 B:30 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Coral"><code>Color Coral</code></a>_</td><td>Gets a system-defined color with the value R:255 G:127 B:80 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.CornflowerBlue"><code>Color CornflowerBlue</code></a>_</td><td>Gets a system-defined color with the value R:100 G:149 B:237 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Cornsilk"><code>Color Cornsilk</code></a>_</td><td>Gets a system-defined color with the value R:255 G:248 B:220 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Crimson"><code>Color Crimson</code></a>_</td><td>Gets a system-defined color with the value R:220 G:20 B:60 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Cyan"><code>Color Cyan</code></a>_</td><td>Gets a system-defined color with the value R:0 G:255 B:255 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.DarkBlue"><code>Color DarkBlue</code></a>_</td><td>Gets a system-defined color with the value R:0 G:0 B:139 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.DarkCyan"><code>Color DarkCyan</code></a>_</td><td>Gets a system-defined color with the value R:0 G:139 B:139 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.DarkGoldenrod"><code>Color DarkGoldenrod</code></a>_</td><td>Gets a system-defined color with the value R:184 G:134 B:11 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.DarkGray"><code>Color DarkGray</code></a>_</td><td>Gets a system-defined color with the value R:169 G:169 B:169 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.DarkGreen"><code>Color DarkGreen</code></a>_</td><td>Gets a system-defined color with the value R:0 G:100 B:0 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.DarkKhaki"><code>Color DarkKhaki</code></a>_</td><td>Gets a system-defined color with the value R:189 G:183 B:107 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.DarkMagenta"><code>Color DarkMagenta</code></a>_</td><td>Gets a system-defined color with the value R:139 G:0 B:139 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.DarkOliveGreen"><code>Color DarkOliveGreen</code></a>_</td><td>Gets a system-defined color with the value R:85 G:107 B:47 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.DarkOrange"><code>Color DarkOrange</code></a>_</td><td>Gets a system-defined color with the value R:255 G:140 B:0 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.DarkOrchid"><code>Color DarkOrchid</code></a>_</td><td>Gets a system-defined color with the value R:153 G:50 B:204 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.DarkRed"><code>Color DarkRed</code></a>_</td><td>Gets a system-defined color with the value R:139 G:0 B:0 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.DarkSalmon"><code>Color DarkSalmon</code></a>_</td><td>Gets a system-defined color with the value R:233 G:150 B:122 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.DarkSeaGreen"><code>Color DarkSeaGreen</code></a>_</td><td>Gets a system-defined color with the value R:143 G:188 B:139 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.DarkSlateBlue"><code>Color DarkSlateBlue</code></a>_</td><td>Gets a system-defined color with the value R:72 G:61 B:139 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.DarkSlateGray"><code>Color DarkSlateGray</code></a>_</td><td>Gets a system-defined color with the value R:47 G:79 B:79 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.DarkTurquoise"><code>Color DarkTurquoise</code></a>_</td><td>Gets a system-defined color with the value R:0 G:206 B:209 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.DarkViolet"><code>Color DarkViolet</code></a>_</td><td>Gets a system-defined color with the value R:148 G:0 B:211 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.DeepPink"><code>Color DeepPink</code></a>_</td><td>Gets a system-defined color with the value R:255 G:20 B:147 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.DeepSkyBlue"><code>Color DeepSkyBlue</code></a>_</td><td>Gets a system-defined color with the value R:0 G:191 B:255 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.DimGray"><code>Color DimGray</code></a>_</td><td>Gets a system-defined color with the value R:105 G:105 B:105 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.DodgerBlue"><code>Color DodgerBlue</code></a>_</td><td>Gets a system-defined color with the value R:30 G:144 B:255 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Firebrick"><code>Color Firebrick</code></a>_</td><td>Gets a system-defined color with the value R:178 G:34 B:34 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.FloralWhite"><code>Color FloralWhite</code></a>_</td><td>Gets a system-defined color with the value R:255 G:250 B:240 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.ForestGreen"><code>Color ForestGreen</code></a>_</td><td>Gets a system-defined color with the value R:34 G:139 B:34 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Fuchsia"><code>Color Fuchsia</code></a>_</td><td>Gets a system-defined color with the value R:255 G:0 B:255 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Gainsboro"><code>Color Gainsboro</code></a>_</td><td>Gets a system-defined color with the value R:220 G:220 B:220 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.GhostWhite"><code>Color GhostWhite</code></a>_</td><td>Gets a system-defined color with the value R:248 G:248 B:255 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Gold"><code>Color Gold</code></a>_</td><td>Gets a system-defined color with the value R:255 G:215 B:0 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Goldenrod"><code>Color Goldenrod</code></a>_</td><td>Gets a system-defined color with the value R:218 G:165 B:32 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Gray"><code>Color Gray</code></a>_</td><td>Gets a system-defined color with the value R:128 G:128 B:128 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Green"><code>Color Green</code></a>_</td><td>Gets a system-defined color with the value R:0 G:128 B:0 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.GreenYellow"><code>Color GreenYellow</code></a>_</td><td>Gets a system-defined color with the value R:173 G:255 B:47 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Honeydew"><code>Color Honeydew</code></a>_</td><td>Gets a system-defined color with the value R:240 G:255 B:240 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.HotPink"><code>Color HotPink</code></a>_</td><td>Gets a system-defined color with the value R:255 G:105 B:180 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.IndianRed"><code>Color IndianRed</code></a>_</td><td>Gets a system-defined color with the value R:205 G:92 B:92 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Indigo"><code>Color Indigo</code></a>_</td><td>Gets a system-defined color with the value R:75 G:0 B:130 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Ivory"><code>Color Ivory</code></a>_</td><td>Gets a system-defined color with the value R:255 G:255 B:240 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Khaki"><code>Color Khaki</code></a>_</td><td>Gets a system-defined color with the value R:240 G:230 B:140 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Lavender"><code>Color Lavender</code></a>_</td><td>Gets a system-defined color with the value R:230 G:230 B:250 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.LavenderBlush"><code>Color LavenderBlush</code></a>_</td><td>Gets a system-defined color with the value R:255 G:240 B:245 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.LawnGreen"><code>Color LawnGreen</code></a>_</td><td>Gets a system-defined color with the value R:124 G:252 B:0 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.LemonChiffon"><code>Color LemonChiffon</code></a>_</td><td>Gets a system-defined color with the value R:255 G:250 B:205 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.LightBlue"><code>Color LightBlue</code></a>_</td><td>Gets a system-defined color with the value R:173 G:216 B:230 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.LightCoral"><code>Color LightCoral</code></a>_</td><td>Gets a system-defined color with the value R:240 G:128 B:128 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.LightCyan"><code>Color LightCyan</code></a>_</td><td>Gets a system-defined color with the value R:224 G:255 B:255 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.LightGoldenrodYellow"><code>Color LightGoldenrodYellow</code></a>_</td><td>Gets a system-defined color with the value R:250 G:250 B:210 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.LightGreen"><code>Color LightGreen</code></a>_</td><td>Gets a system-defined color with the value R:144 G:238 B:144 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.LightGray"><code>Color LightGray</code></a>_</td><td>Gets a system-defined color with the value R:211 G:211 B:211 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.LightPink"><code>Color LightPink</code></a>_</td><td>Gets a system-defined color with the value R:255 G:182 B:193 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.LightSalmon"><code>Color LightSalmon</code></a>_</td><td>Gets a system-defined color with the value R:255 G:160 B:122 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.LightSeaGreen"><code>Color LightSeaGreen</code></a>_</td><td>Gets a system-defined color with the value R:32 G:178 B:170 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.LightSkyBlue"><code>Color LightSkyBlue</code></a>_</td><td>Gets a system-defined color with the value R:135 G:206 B:250 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.LightSlateGray"><code>Color LightSlateGray</code></a>_</td><td>Gets a system-defined color with the value R:119 G:136 B:153 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.LightSteelBlue"><code>Color LightSteelBlue</code></a>_</td><td>Gets a system-defined color with the value R:176 G:196 B:222 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.LightYellow"><code>Color LightYellow</code></a>_</td><td>Gets a system-defined color with the value R:255 G:255 B:224 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Lime"><code>Color Lime</code></a>_</td><td>Gets a system-defined color with the value R:0 G:255 B:0 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.LimeGreen"><code>Color LimeGreen</code></a>_</td><td>Gets a system-defined color with the value R:50 G:205 B:50 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Linen"><code>Color Linen</code></a>_</td><td>Gets a system-defined color with the value R:250 G:240 B:230 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Magenta"><code>Color Magenta</code></a>_</td><td>Gets a system-defined color with the value R:255 G:0 B:255 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Maroon"><code>Color Maroon</code></a>_</td><td>Gets a system-defined color with the value R:128 G:0 B:0 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.MediumAquamarine"><code>Color MediumAquamarine</code></a>_</td><td>Gets a system-defined color with the value R:102 G:205 B:170 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.MediumBlue"><code>Color MediumBlue</code></a>_</td><td>Gets a system-defined color with the value R:0 G:0 B:205 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.MediumOrchid"><code>Color MediumOrchid</code></a>_</td><td>Gets a system-defined color with the value R:186 G:85 B:211 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.MediumPurple"><code>Color MediumPurple</code></a>_</td><td>Gets a system-defined color with the value R:147 G:112 B:219 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.MediumSeaGreen"><code>Color MediumSeaGreen</code></a>_</td><td>Gets a system-defined color with the value R:60 G:179 B:113 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.MediumSlateBlue"><code>Color MediumSlateBlue</code></a>_</td><td>Gets a system-defined color with the value R:123 G:104 B:238 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.MediumSpringGreen"><code>Color MediumSpringGreen</code></a>_</td><td>Gets a system-defined color with the value R:0 G:250 B:154 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.MediumTurquoise"><code>Color MediumTurquoise</code></a>_</td><td>Gets a system-defined color with the value R:72 G:209 B:204 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.MediumVioletRed"><code>Color MediumVioletRed</code></a>_</td><td>Gets a system-defined color with the value R:199 G:21 B:133 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.MidnightBlue"><code>Color MidnightBlue</code></a>_</td><td>Gets a system-defined color with the value R:25 G:25 B:112 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.MintCream"><code>Color MintCream</code></a>_</td><td>Gets a system-defined color with the value R:245 G:255 B:250 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.MistyRose"><code>Color MistyRose</code></a>_</td><td>Gets a system-defined color with the value R:255 G:228 B:225 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Moccasin"><code>Color Moccasin</code></a>_</td><td>Gets a system-defined color with the value R:255 G:228 B:181 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.NavajoWhite"><code>Color NavajoWhite</code></a>_</td><td>Gets a system-defined color with the value R:255 G:222 B:173 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Navy"><code>Color Navy</code></a>_</td><td>Gets a system-defined color R:0 G:0 B:128 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.OldLace"><code>Color OldLace</code></a>_</td><td>Gets a system-defined color with the value R:253 G:245 B:230 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Olive"><code>Color Olive</code></a>_</td><td>Gets a system-defined color with the value R:128 G:128 B:0 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.OliveDrab"><code>Color OliveDrab</code></a>_</td><td>Gets a system-defined color with the value R:107 G:142 B:35 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Orange"><code>Color Orange</code></a>_</td><td>Gets a system-defined color with the value R:255 G:165 B:0 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.OrangeRed"><code>Color OrangeRed</code></a>_</td><td>Gets a system-defined color with the value R:255 G:69 B:0 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Orchid"><code>Color Orchid</code></a>_</td><td>Gets a system-defined color with the value R:218 G:112 B:214 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.PaleGoldenrod"><code>Color PaleGoldenrod</code></a>_</td><td>Gets a system-defined color with the value R:238 G:232 B:170 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.PaleGreen"><code>Color PaleGreen</code></a>_</td><td>Gets a system-defined color with the value R:152 G:251 B:152 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.PaleTurquoise"><code>Color PaleTurquoise</code></a>_</td><td>Gets a system-defined color with the value R:175 G:238 B:238 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.PaleVioletRed"><code>Color PaleVioletRed</code></a>_</td><td>Gets a system-defined color with the value R:219 G:112 B:147 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.PapayaWhip"><code>Color PapayaWhip</code></a>_</td><td>Gets a system-defined color with the value R:255 G:239 B:213 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.PeachPuff"><code>Color PeachPuff</code></a>_</td><td>Gets a system-defined color with the value R:255 G:218 B:185 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Peru"><code>Color Peru</code></a>_</td><td>Gets a system-defined color with the value R:205 G:133 B:63 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Pink"><code>Color Pink</code></a>_</td><td>Gets a system-defined color with the value R:255 G:192 B:203 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Plum"><code>Color Plum</code></a>_</td><td>Gets a system-defined color with the value R:221 G:160 B:221 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.PowderBlue"><code>Color PowderBlue</code></a>_</td><td>Gets a system-defined color with the value R:176 G:224 B:230 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Purple"><code>Color Purple</code></a>_</td><td>Gets a system-defined color with the value R:128 G:0 B:128 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Red"><code>Color Red</code></a>_</td><td>Gets a system-defined color with the value R:255 G:0 B:0 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.RosyBrown"><code>Color RosyBrown</code></a>_</td><td>Gets a system-defined color with the value R:188 G:143 B:143 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.RoyalBlue"><code>Color RoyalBlue</code></a>_</td><td>Gets a system-defined color with the value R:65 G:105 B:225 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.SaddleBrown"><code>Color SaddleBrown</code></a>_</td><td>Gets a system-defined color with the value R:139 G:69 B:19 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Salmon"><code>Color Salmon</code></a>_</td><td>Gets a system-defined color with the value R:250 G:128 B:114 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.SandyBrown"><code>Color SandyBrown</code></a>_</td><td>Gets a system-defined color with the value R:244 G:164 B:96 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.SeaGreen"><code>Color SeaGreen</code></a>_</td><td>Gets a system-defined color with the value R:46 G:139 B:87 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.SeaShell"><code>Color SeaShell</code></a>_</td><td>Gets a system-defined color with the value R:255 G:245 B:238 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Sienna"><code>Color Sienna</code></a>_</td><td>Gets a system-defined color with the value R:160 G:82 B:45 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Silver"><code>Color Silver</code></a>_</td><td>Gets a system-defined color with the value R:192 G:192 B:192 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.SkyBlue"><code>Color SkyBlue</code></a>_</td><td>Gets a system-defined color with the value R:135 G:206 B:235 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.SlateBlue"><code>Color SlateBlue</code></a>_</td><td>Gets a system-defined color with the value R:106 G:90 B:205 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.SlateGray"><code>Color SlateGray</code></a>_</td><td>Gets a system-defined color with the value R:112 G:128 B:144 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Snow"><code>Color Snow</code></a>_</td><td>Gets a system-defined color with the value R:255 G:250 B:250 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.SpringGreen"><code>Color SpringGreen</code></a>_</td><td>Gets a system-defined color with the value R:0 G:255 B:127 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.SteelBlue"><code>Color SteelBlue</code></a>_</td><td>Gets a system-defined color with the value R:70 G:130 B:180 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Tan"><code>Color Tan</code></a>_</td><td>Gets a system-defined color with the value R:210 G:180 B:140 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Teal"><code>Color Teal</code></a>_</td><td>Gets a system-defined color with the value R:0 G:128 B:128 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Thistle"><code>Color Thistle</code></a>_</td><td>Gets a system-defined color with the value R:216 G:191 B:216 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Tomato"><code>Color Tomato</code></a>_</td><td>Gets a system-defined color with the value R:255 G:99 B:71 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Turquoise"><code>Color Turquoise</code></a>_</td><td>Gets a system-defined color with the value R:64 G:224 B:208 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Violet"><code>Color Violet</code></a>_</td><td>Gets a system-defined color with the value R:238 G:130 B:238 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Wheat"><code>Color Wheat</code></a>_</td><td>Gets a system-defined color with the value R:245 G:222 B:179 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.White"><code>Color White</code></a>_</td><td>Gets a system-defined color with the value R:255 G:255 B:255 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.WhiteSmoke"><code>Color WhiteSmoke</code></a>_</td><td>Gets a system-defined color with the value R:245 G:245 B:245 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.Yellow"><code>Color Yellow</code></a>_</td><td>Gets a system-defined color with the value R:255 G:255 B:0 A:255.</td></tr>
-<tr><td>static _<a href="VRageMath.YellowGreen"><code>Color YellowGreen</code></a>_</td><td>Gets a system-defined color with the value R:154 G:205 B:50 A:255.</td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`byte&nbsp;X`](VRageMath.X)|Gets or sets the red component value of this Color.|
+|[`byte&nbsp;Y`](VRageMath.Y)|Gets or sets the green component value of this Color.|
+|[`byte&nbsp;Z`](VRageMath.Z)|Gets or sets the blue component value of this Color.|
+|[`byte&nbsp;R`](VRageMath.R)|Gets or sets the red component value of this Color.|
+|[`byte&nbsp;G`](VRageMath.G)|Gets or sets the green component value of this Color.|
+|[`byte&nbsp;B`](VRageMath.B)|Gets or sets the blue component value of this Color.|
+|[`byte&nbsp;A`](VRageMath.A)|Gets or sets the alpha component value.|
+|static&nbsp;[`Color&nbsp;Transparent`](VRageMath.Transparent)|Gets a system-defined color with the value R:0 G:0 B:0 A:0.|
+|static&nbsp;[`Color&nbsp;AliceBlue`](VRageMath.AliceBlue)|Gets a system-defined color with the value R:240 G:248 B:255 A:255.|
+|static&nbsp;[`Color&nbsp;AntiqueWhite`](VRageMath.AntiqueWhite)|Gets a system-defined color with the value R:250 G:235 B:215 A:255.|
+|static&nbsp;[`Color&nbsp;Aqua`](VRageMath.Aqua)|Gets a system-defined color with the value R:0 G:255 B:255 A:255.|
+|static&nbsp;[`Color&nbsp;Aquamarine`](VRageMath.Aquamarine)|Gets a system-defined color with the value R:127 G:255 B:212 A:255.|
+|static&nbsp;[`Color&nbsp;Azure`](VRageMath.Azure)|Gets a system-defined color with the value R:240 G:255 B:255 A:255.|
+|static&nbsp;[`Color&nbsp;Beige`](VRageMath.Beige)|Gets a system-defined color with the value R:245 G:245 B:220 A:255.|
+|static&nbsp;[`Color&nbsp;Bisque`](VRageMath.Bisque)|Gets a system-defined color with the value R:255 G:228 B:196 A:255.|
+|static&nbsp;[`Color&nbsp;Black`](VRageMath.Black)|Gets a system-defined color with the value R:0 G:0 B:0 A:255.|
+|static&nbsp;[`Color&nbsp;BlanchedAlmond`](VRageMath.BlanchedAlmond)|Gets a system-defined color with the value R:255 G:235 B:205 A:255.|
+|static&nbsp;[`Color&nbsp;Blue`](VRageMath.Blue)|Gets a system-defined color with the value R:0 G:0 B:255 A:255.|
+|static&nbsp;[`Color&nbsp;BlueViolet`](VRageMath.BlueViolet)|Gets a system-defined color with the value R:138 G:43 B:226 A:255.|
+|static&nbsp;[`Color&nbsp;Brown`](VRageMath.Brown)|Gets a system-defined color with the value R:165 G:42 B:42 A:255.|
+|static&nbsp;[`Color&nbsp;BurlyWood`](VRageMath.BurlyWood)|Gets a system-defined color with the value R:222 G:184 B:135 A:255.|
+|static&nbsp;[`Color&nbsp;CadetBlue`](VRageMath.CadetBlue)|Gets a system-defined color with the value R:95 G:158 B:160 A:255.|
+|static&nbsp;[`Color&nbsp;Chartreuse`](VRageMath.Chartreuse)|Gets a system-defined color with the value R:127 G:255 B:0 A:255.|
+|static&nbsp;[`Color&nbsp;Chocolate`](VRageMath.Chocolate)|Gets a system-defined color with the value R:210 G:105 B:30 A:255.|
+|static&nbsp;[`Color&nbsp;Coral`](VRageMath.Coral)|Gets a system-defined color with the value R:255 G:127 B:80 A:255.|
+|static&nbsp;[`Color&nbsp;CornflowerBlue`](VRageMath.CornflowerBlue)|Gets a system-defined color with the value R:100 G:149 B:237 A:255.|
+|static&nbsp;[`Color&nbsp;Cornsilk`](VRageMath.Cornsilk)|Gets a system-defined color with the value R:255 G:248 B:220 A:255.|
+|static&nbsp;[`Color&nbsp;Crimson`](VRageMath.Crimson)|Gets a system-defined color with the value R:220 G:20 B:60 A:255.|
+|static&nbsp;[`Color&nbsp;Cyan`](VRageMath.Cyan)|Gets a system-defined color with the value R:0 G:255 B:255 A:255.|
+|static&nbsp;[`Color&nbsp;DarkBlue`](VRageMath.DarkBlue)|Gets a system-defined color with the value R:0 G:0 B:139 A:255.|
+|static&nbsp;[`Color&nbsp;DarkCyan`](VRageMath.DarkCyan)|Gets a system-defined color with the value R:0 G:139 B:139 A:255.|
+|static&nbsp;[`Color&nbsp;DarkGoldenrod`](VRageMath.DarkGoldenrod)|Gets a system-defined color with the value R:184 G:134 B:11 A:255.|
+|static&nbsp;[`Color&nbsp;DarkGray`](VRageMath.DarkGray)|Gets a system-defined color with the value R:169 G:169 B:169 A:255.|
+|static&nbsp;[`Color&nbsp;DarkGreen`](VRageMath.DarkGreen)|Gets a system-defined color with the value R:0 G:100 B:0 A:255.|
+|static&nbsp;[`Color&nbsp;DarkKhaki`](VRageMath.DarkKhaki)|Gets a system-defined color with the value R:189 G:183 B:107 A:255.|
+|static&nbsp;[`Color&nbsp;DarkMagenta`](VRageMath.DarkMagenta)|Gets a system-defined color with the value R:139 G:0 B:139 A:255.|
+|static&nbsp;[`Color&nbsp;DarkOliveGreen`](VRageMath.DarkOliveGreen)|Gets a system-defined color with the value R:85 G:107 B:47 A:255.|
+|static&nbsp;[`Color&nbsp;DarkOrange`](VRageMath.DarkOrange)|Gets a system-defined color with the value R:255 G:140 B:0 A:255.|
+|static&nbsp;[`Color&nbsp;DarkOrchid`](VRageMath.DarkOrchid)|Gets a system-defined color with the value R:153 G:50 B:204 A:255.|
+|static&nbsp;[`Color&nbsp;DarkRed`](VRageMath.DarkRed)|Gets a system-defined color with the value R:139 G:0 B:0 A:255.|
+|static&nbsp;[`Color&nbsp;DarkSalmon`](VRageMath.DarkSalmon)|Gets a system-defined color with the value R:233 G:150 B:122 A:255.|
+|static&nbsp;[`Color&nbsp;DarkSeaGreen`](VRageMath.DarkSeaGreen)|Gets a system-defined color with the value R:143 G:188 B:139 A:255.|
+|static&nbsp;[`Color&nbsp;DarkSlateBlue`](VRageMath.DarkSlateBlue)|Gets a system-defined color with the value R:72 G:61 B:139 A:255.|
+|static&nbsp;[`Color&nbsp;DarkSlateGray`](VRageMath.DarkSlateGray)|Gets a system-defined color with the value R:47 G:79 B:79 A:255.|
+|static&nbsp;[`Color&nbsp;DarkTurquoise`](VRageMath.DarkTurquoise)|Gets a system-defined color with the value R:0 G:206 B:209 A:255.|
+|static&nbsp;[`Color&nbsp;DarkViolet`](VRageMath.DarkViolet)|Gets a system-defined color with the value R:148 G:0 B:211 A:255.|
+|static&nbsp;[`Color&nbsp;DeepPink`](VRageMath.DeepPink)|Gets a system-defined color with the value R:255 G:20 B:147 A:255.|
+|static&nbsp;[`Color&nbsp;DeepSkyBlue`](VRageMath.DeepSkyBlue)|Gets a system-defined color with the value R:0 G:191 B:255 A:255.|
+|static&nbsp;[`Color&nbsp;DimGray`](VRageMath.DimGray)|Gets a system-defined color with the value R:105 G:105 B:105 A:255.|
+|static&nbsp;[`Color&nbsp;DodgerBlue`](VRageMath.DodgerBlue)|Gets a system-defined color with the value R:30 G:144 B:255 A:255.|
+|static&nbsp;[`Color&nbsp;Firebrick`](VRageMath.Firebrick)|Gets a system-defined color with the value R:178 G:34 B:34 A:255.|
+|static&nbsp;[`Color&nbsp;FloralWhite`](VRageMath.FloralWhite)|Gets a system-defined color with the value R:255 G:250 B:240 A:255.|
+|static&nbsp;[`Color&nbsp;ForestGreen`](VRageMath.ForestGreen)|Gets a system-defined color with the value R:34 G:139 B:34 A:255.|
+|static&nbsp;[`Color&nbsp;Fuchsia`](VRageMath.Fuchsia)|Gets a system-defined color with the value R:255 G:0 B:255 A:255.|
+|static&nbsp;[`Color&nbsp;Gainsboro`](VRageMath.Gainsboro)|Gets a system-defined color with the value R:220 G:220 B:220 A:255.|
+|static&nbsp;[`Color&nbsp;GhostWhite`](VRageMath.GhostWhite)|Gets a system-defined color with the value R:248 G:248 B:255 A:255.|
+|static&nbsp;[`Color&nbsp;Gold`](VRageMath.Gold)|Gets a system-defined color with the value R:255 G:215 B:0 A:255.|
+|static&nbsp;[`Color&nbsp;Goldenrod`](VRageMath.Goldenrod)|Gets a system-defined color with the value R:218 G:165 B:32 A:255.|
+|static&nbsp;[`Color&nbsp;Gray`](VRageMath.Gray)|Gets a system-defined color with the value R:128 G:128 B:128 A:255.|
+|static&nbsp;[`Color&nbsp;Green`](VRageMath.Green)|Gets a system-defined color with the value R:0 G:128 B:0 A:255.|
+|static&nbsp;[`Color&nbsp;GreenYellow`](VRageMath.GreenYellow)|Gets a system-defined color with the value R:173 G:255 B:47 A:255.|
+|static&nbsp;[`Color&nbsp;Honeydew`](VRageMath.Honeydew)|Gets a system-defined color with the value R:240 G:255 B:240 A:255.|
+|static&nbsp;[`Color&nbsp;HotPink`](VRageMath.HotPink)|Gets a system-defined color with the value R:255 G:105 B:180 A:255.|
+|static&nbsp;[`Color&nbsp;IndianRed`](VRageMath.IndianRed)|Gets a system-defined color with the value R:205 G:92 B:92 A:255.|
+|static&nbsp;[`Color&nbsp;Indigo`](VRageMath.Indigo)|Gets a system-defined color with the value R:75 G:0 B:130 A:255.|
+|static&nbsp;[`Color&nbsp;Ivory`](VRageMath.Ivory)|Gets a system-defined color with the value R:255 G:255 B:240 A:255.|
+|static&nbsp;[`Color&nbsp;Khaki`](VRageMath.Khaki)|Gets a system-defined color with the value R:240 G:230 B:140 A:255.|
+|static&nbsp;[`Color&nbsp;Lavender`](VRageMath.Lavender)|Gets a system-defined color with the value R:230 G:230 B:250 A:255.|
+|static&nbsp;[`Color&nbsp;LavenderBlush`](VRageMath.LavenderBlush)|Gets a system-defined color with the value R:255 G:240 B:245 A:255.|
+|static&nbsp;[`Color&nbsp;LawnGreen`](VRageMath.LawnGreen)|Gets a system-defined color with the value R:124 G:252 B:0 A:255.|
+|static&nbsp;[`Color&nbsp;LemonChiffon`](VRageMath.LemonChiffon)|Gets a system-defined color with the value R:255 G:250 B:205 A:255.|
+|static&nbsp;[`Color&nbsp;LightBlue`](VRageMath.LightBlue)|Gets a system-defined color with the value R:173 G:216 B:230 A:255.|
+|static&nbsp;[`Color&nbsp;LightCoral`](VRageMath.LightCoral)|Gets a system-defined color with the value R:240 G:128 B:128 A:255.|
+|static&nbsp;[`Color&nbsp;LightCyan`](VRageMath.LightCyan)|Gets a system-defined color with the value R:224 G:255 B:255 A:255.|
+|static&nbsp;[`Color&nbsp;LightGoldenrodYellow`](VRageMath.LightGoldenrodYellow)|Gets a system-defined color with the value R:250 G:250 B:210 A:255.|
+|static&nbsp;[`Color&nbsp;LightGreen`](VRageMath.LightGreen)|Gets a system-defined color with the value R:144 G:238 B:144 A:255.|
+|static&nbsp;[`Color&nbsp;LightGray`](VRageMath.LightGray)|Gets a system-defined color with the value R:211 G:211 B:211 A:255.|
+|static&nbsp;[`Color&nbsp;LightPink`](VRageMath.LightPink)|Gets a system-defined color with the value R:255 G:182 B:193 A:255.|
+|static&nbsp;[`Color&nbsp;LightSalmon`](VRageMath.LightSalmon)|Gets a system-defined color with the value R:255 G:160 B:122 A:255.|
+|static&nbsp;[`Color&nbsp;LightSeaGreen`](VRageMath.LightSeaGreen)|Gets a system-defined color with the value R:32 G:178 B:170 A:255.|
+|static&nbsp;[`Color&nbsp;LightSkyBlue`](VRageMath.LightSkyBlue)|Gets a system-defined color with the value R:135 G:206 B:250 A:255.|
+|static&nbsp;[`Color&nbsp;LightSlateGray`](VRageMath.LightSlateGray)|Gets a system-defined color with the value R:119 G:136 B:153 A:255.|
+|static&nbsp;[`Color&nbsp;LightSteelBlue`](VRageMath.LightSteelBlue)|Gets a system-defined color with the value R:176 G:196 B:222 A:255.|
+|static&nbsp;[`Color&nbsp;LightYellow`](VRageMath.LightYellow)|Gets a system-defined color with the value R:255 G:255 B:224 A:255.|
+|static&nbsp;[`Color&nbsp;Lime`](VRageMath.Lime)|Gets a system-defined color with the value R:0 G:255 B:0 A:255.|
+|static&nbsp;[`Color&nbsp;LimeGreen`](VRageMath.LimeGreen)|Gets a system-defined color with the value R:50 G:205 B:50 A:255.|
+|static&nbsp;[`Color&nbsp;Linen`](VRageMath.Linen)|Gets a system-defined color with the value R:250 G:240 B:230 A:255.|
+|static&nbsp;[`Color&nbsp;Magenta`](VRageMath.Magenta)|Gets a system-defined color with the value R:255 G:0 B:255 A:255.|
+|static&nbsp;[`Color&nbsp;Maroon`](VRageMath.Maroon)|Gets a system-defined color with the value R:128 G:0 B:0 A:255.|
+|static&nbsp;[`Color&nbsp;MediumAquamarine`](VRageMath.MediumAquamarine)|Gets a system-defined color with the value R:102 G:205 B:170 A:255.|
+|static&nbsp;[`Color&nbsp;MediumBlue`](VRageMath.MediumBlue)|Gets a system-defined color with the value R:0 G:0 B:205 A:255.|
+|static&nbsp;[`Color&nbsp;MediumOrchid`](VRageMath.MediumOrchid)|Gets a system-defined color with the value R:186 G:85 B:211 A:255.|
+|static&nbsp;[`Color&nbsp;MediumPurple`](VRageMath.MediumPurple)|Gets a system-defined color with the value R:147 G:112 B:219 A:255.|
+|static&nbsp;[`Color&nbsp;MediumSeaGreen`](VRageMath.MediumSeaGreen)|Gets a system-defined color with the value R:60 G:179 B:113 A:255.|
+|static&nbsp;[`Color&nbsp;MediumSlateBlue`](VRageMath.MediumSlateBlue)|Gets a system-defined color with the value R:123 G:104 B:238 A:255.|
+|static&nbsp;[`Color&nbsp;MediumSpringGreen`](VRageMath.MediumSpringGreen)|Gets a system-defined color with the value R:0 G:250 B:154 A:255.|
+|static&nbsp;[`Color&nbsp;MediumTurquoise`](VRageMath.MediumTurquoise)|Gets a system-defined color with the value R:72 G:209 B:204 A:255.|
+|static&nbsp;[`Color&nbsp;MediumVioletRed`](VRageMath.MediumVioletRed)|Gets a system-defined color with the value R:199 G:21 B:133 A:255.|
+|static&nbsp;[`Color&nbsp;MidnightBlue`](VRageMath.MidnightBlue)|Gets a system-defined color with the value R:25 G:25 B:112 A:255.|
+|static&nbsp;[`Color&nbsp;MintCream`](VRageMath.MintCream)|Gets a system-defined color with the value R:245 G:255 B:250 A:255.|
+|static&nbsp;[`Color&nbsp;MistyRose`](VRageMath.MistyRose)|Gets a system-defined color with the value R:255 G:228 B:225 A:255.|
+|static&nbsp;[`Color&nbsp;Moccasin`](VRageMath.Moccasin)|Gets a system-defined color with the value R:255 G:228 B:181 A:255.|
+|static&nbsp;[`Color&nbsp;NavajoWhite`](VRageMath.NavajoWhite)|Gets a system-defined color with the value R:255 G:222 B:173 A:255.|
+|static&nbsp;[`Color&nbsp;Navy`](VRageMath.Navy)|Gets a system-defined color R:0 G:0 B:128 A:255.|
+|static&nbsp;[`Color&nbsp;OldLace`](VRageMath.OldLace)|Gets a system-defined color with the value R:253 G:245 B:230 A:255.|
+|static&nbsp;[`Color&nbsp;Olive`](VRageMath.Olive)|Gets a system-defined color with the value R:128 G:128 B:0 A:255.|
+|static&nbsp;[`Color&nbsp;OliveDrab`](VRageMath.OliveDrab)|Gets a system-defined color with the value R:107 G:142 B:35 A:255.|
+|static&nbsp;[`Color&nbsp;Orange`](VRageMath.Orange)|Gets a system-defined color with the value R:255 G:165 B:0 A:255.|
+|static&nbsp;[`Color&nbsp;OrangeRed`](VRageMath.OrangeRed)|Gets a system-defined color with the value R:255 G:69 B:0 A:255.|
+|static&nbsp;[`Color&nbsp;Orchid`](VRageMath.Orchid)|Gets a system-defined color with the value R:218 G:112 B:214 A:255.|
+|static&nbsp;[`Color&nbsp;PaleGoldenrod`](VRageMath.PaleGoldenrod)|Gets a system-defined color with the value R:238 G:232 B:170 A:255.|
+|static&nbsp;[`Color&nbsp;PaleGreen`](VRageMath.PaleGreen)|Gets a system-defined color with the value R:152 G:251 B:152 A:255.|
+|static&nbsp;[`Color&nbsp;PaleTurquoise`](VRageMath.PaleTurquoise)|Gets a system-defined color with the value R:175 G:238 B:238 A:255.|
+|static&nbsp;[`Color&nbsp;PaleVioletRed`](VRageMath.PaleVioletRed)|Gets a system-defined color with the value R:219 G:112 B:147 A:255.|
+|static&nbsp;[`Color&nbsp;PapayaWhip`](VRageMath.PapayaWhip)|Gets a system-defined color with the value R:255 G:239 B:213 A:255.|
+|static&nbsp;[`Color&nbsp;PeachPuff`](VRageMath.PeachPuff)|Gets a system-defined color with the value R:255 G:218 B:185 A:255.|
+|static&nbsp;[`Color&nbsp;Peru`](VRageMath.Peru)|Gets a system-defined color with the value R:205 G:133 B:63 A:255.|
+|static&nbsp;[`Color&nbsp;Pink`](VRageMath.Pink)|Gets a system-defined color with the value R:255 G:192 B:203 A:255.|
+|static&nbsp;[`Color&nbsp;Plum`](VRageMath.Plum)|Gets a system-defined color with the value R:221 G:160 B:221 A:255.|
+|static&nbsp;[`Color&nbsp;PowderBlue`](VRageMath.PowderBlue)|Gets a system-defined color with the value R:176 G:224 B:230 A:255.|
+|static&nbsp;[`Color&nbsp;Purple`](VRageMath.Purple)|Gets a system-defined color with the value R:128 G:0 B:128 A:255.|
+|static&nbsp;[`Color&nbsp;Red`](VRageMath.Red)|Gets a system-defined color with the value R:255 G:0 B:0 A:255.|
+|static&nbsp;[`Color&nbsp;RosyBrown`](VRageMath.RosyBrown)|Gets a system-defined color with the value R:188 G:143 B:143 A:255.|
+|static&nbsp;[`Color&nbsp;RoyalBlue`](VRageMath.RoyalBlue)|Gets a system-defined color with the value R:65 G:105 B:225 A:255.|
+|static&nbsp;[`Color&nbsp;SaddleBrown`](VRageMath.SaddleBrown)|Gets a system-defined color with the value R:139 G:69 B:19 A:255.|
+|static&nbsp;[`Color&nbsp;Salmon`](VRageMath.Salmon)|Gets a system-defined color with the value R:250 G:128 B:114 A:255.|
+|static&nbsp;[`Color&nbsp;SandyBrown`](VRageMath.SandyBrown)|Gets a system-defined color with the value R:244 G:164 B:96 A:255.|
+|static&nbsp;[`Color&nbsp;SeaGreen`](VRageMath.SeaGreen)|Gets a system-defined color with the value R:46 G:139 B:87 A:255.|
+|static&nbsp;[`Color&nbsp;SeaShell`](VRageMath.SeaShell)|Gets a system-defined color with the value R:255 G:245 B:238 A:255.|
+|static&nbsp;[`Color&nbsp;Sienna`](VRageMath.Sienna)|Gets a system-defined color with the value R:160 G:82 B:45 A:255.|
+|static&nbsp;[`Color&nbsp;Silver`](VRageMath.Silver)|Gets a system-defined color with the value R:192 G:192 B:192 A:255.|
+|static&nbsp;[`Color&nbsp;SkyBlue`](VRageMath.SkyBlue)|Gets a system-defined color with the value R:135 G:206 B:235 A:255.|
+|static&nbsp;[`Color&nbsp;SlateBlue`](VRageMath.SlateBlue)|Gets a system-defined color with the value R:106 G:90 B:205 A:255.|
+|static&nbsp;[`Color&nbsp;SlateGray`](VRageMath.SlateGray)|Gets a system-defined color with the value R:112 G:128 B:144 A:255.|
+|static&nbsp;[`Color&nbsp;Snow`](VRageMath.Snow)|Gets a system-defined color with the value R:255 G:250 B:250 A:255.|
+|static&nbsp;[`Color&nbsp;SpringGreen`](VRageMath.SpringGreen)|Gets a system-defined color with the value R:0 G:255 B:127 A:255.|
+|static&nbsp;[`Color&nbsp;SteelBlue`](VRageMath.SteelBlue)|Gets a system-defined color with the value R:70 G:130 B:180 A:255.|
+|static&nbsp;[`Color&nbsp;Tan`](VRageMath.Tan)|Gets a system-defined color with the value R:210 G:180 B:140 A:255.|
+|static&nbsp;[`Color&nbsp;Teal`](VRageMath.Teal)|Gets a system-defined color with the value R:0 G:128 B:128 A:255.|
+|static&nbsp;[`Color&nbsp;Thistle`](VRageMath.Thistle)|Gets a system-defined color with the value R:216 G:191 B:216 A:255.|
+|static&nbsp;[`Color&nbsp;Tomato`](VRageMath.Tomato)|Gets a system-defined color with the value R:255 G:99 B:71 A:255.|
+|static&nbsp;[`Color&nbsp;Turquoise`](VRageMath.Turquoise)|Gets a system-defined color with the value R:64 G:224 B:208 A:255.|
+|static&nbsp;[`Color&nbsp;Violet`](VRageMath.Violet)|Gets a system-defined color with the value R:238 G:130 B:238 A:255.|
+|static&nbsp;[`Color&nbsp;Wheat`](VRageMath.Wheat)|Gets a system-defined color with the value R:245 G:222 B:179 A:255.|
+|static&nbsp;[`Color&nbsp;White`](VRageMath.White)|Gets a system-defined color with the value R:255 G:255 B:255 A:255.|
+|static&nbsp;[`Color&nbsp;WhiteSmoke`](VRageMath.WhiteSmoke)|Gets a system-defined color with the value R:245 G:245 B:245 A:255.|
+|static&nbsp;[`Color&nbsp;Yellow`](VRageMath.Yellow)|Gets a system-defined color with the value R:255 G:255 B:0 A:255.|
+|static&nbsp;[`Color&nbsp;YellowGreen`](VRageMath.YellowGreen)|Gets a system-defined color with the value R:154 G:205 B:50 A:255.|
 ### Methods
-<table style="width:100%;display:table">
-<tr><td>static _<a href="VRageMath.FromNonPremultiplied"><code>Color FromNonPremultiplied(Vector4 vector)</code></a>_</td><td>Convert a non premultipled color into color data that contains alpha.</td></tr>
-<tr><td>static _<a href="VRageMath.FromNonPremultiplied"><code>Color FromNonPremultiplied(int r, int g, int b, int a)</code></a>_</td><td>Converts a non-premultipled alpha color to a color that contains premultiplied alpha.</td></tr>
-<tr><td>_<a href="VRageMath.ToVector3"><code>Vector3 ToVector3()</code></a>_</td><td>Gets a three-component vector representation for this object.</td></tr>
-<tr><td>_<a href="VRageMath.ToVector4"><code>Vector4 ToVector4()</code></a>_</td><td>Gets a four-component vector representation for this object.</td></tr>
-<tr><td>static _<a href="VRageMath.Lerp"><code>Color Lerp(Color value1, Color value2, float amount)</code></a>_</td><td>Linearly interpolate a color.</td></tr>
-<tr><td>static _<a href="VRageMath.Multiply"><code>Color Multiply(Color value, float scale)</code></a>_</td><td>Multiply each color component by the scale factor.</td></tr>
-<tr><td>_<a href="VRageMath.ToString"><code>string ToString()</code></a>_</td><td>Gets a string representation of this object.</td></tr>
-<tr><td>_<a href="VRageMath.GetHashCode"><code>int GetHashCode()</code></a>_</td><td>Serves as a hash function for a particular type.</td></tr>
-<tr><td>_<a href="VRageMath.Equals"><code>bool Equals(Object obj)</code></a>_</td><td>Test an instance of a color object to see if it is equal to this object.</td></tr>
-<tr><td>_<a href="VRageMath.Equals"><code>bool Equals(Color other)</code></a>_</td><td>Test a color to see if it is equal to the color in this instance.</td></tr>
-<tr><td>static _<a href="VRageMath.Lighten"><code>Color Lighten(Color inColor, double inAmount)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.Darken"><code>Color Darken(Color inColor, double inAmount)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.ToGray"><code>Color ToGray()</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.PackedVector.ToVector4"><code>Vector4 ToVector4()</code></a>_</td><td>Expands the packed representation into a Vector4.<br/><br/>_Inherited from <a href="VRageMath.PackedVector.IPackedVector"><code>IPackedVector</code></a>_</td></tr>
-<tr><td>_<a href="VRageMath.PackedVector.PackFromVector4"><code>void PackFromVector4(Vector4 vector)</code></a>_</td><td>Sets the packed representation from a Vector4.<br/><br/>_Inherited from <a href="VRageMath.PackedVector.IPackedVector"><code>IPackedVector</code></a>_</td></tr>
-</table>
+|Member|Description|
+|---|---|
+|static&nbsp;[`Color&nbsp;FromNonPremultiplied(Vector4&nbsp;vector)`](VRageMath.FromNonPremultiplied)|Convert a non premultipled color into color data that contains alpha.|
+|static&nbsp;[`Color&nbsp;FromNonPremultiplied(int&nbsp;r,&nbsp;int&nbsp;g,&nbsp;int&nbsp;b,&nbsp;int&nbsp;a)`](VRageMath.FromNonPremultiplied)|Converts a non-premultipled alpha color to a color that contains premultiplied alpha.|
+|[`Vector3&nbsp;ToVector3()`](VRageMath.ToVector3)|Gets a three-component vector representation for this object.|
+|[`Vector4&nbsp;ToVector4()`](VRageMath.ToVector4)|Gets a four-component vector representation for this object.|
+|static&nbsp;[`Color&nbsp;Lerp(Color&nbsp;value1,&nbsp;Color&nbsp;value2,&nbsp;float&nbsp;amount)`](VRageMath.Lerp)|Linearly interpolate a color.|
+|static&nbsp;[`Color&nbsp;Multiply(Color&nbsp;value,&nbsp;float&nbsp;scale)`](VRageMath.Multiply)|Multiply each color component by the scale factor.|
+|[`string&nbsp;ToString()`](VRageMath.ToString)|Gets a string representation of this object.|
+|[`int&nbsp;GetHashCode()`](VRageMath.GetHashCode)|Serves as a hash function for a particular type.|
+|[`bool&nbsp;Equals(Object&nbsp;obj)`](VRageMath.Equals)|Test an instance of a color object to see if it is equal to this object.|
+|[`bool&nbsp;Equals(Color&nbsp;other)`](VRageMath.Equals)|Test a color to see if it is equal to the color in this instance.|
+|static&nbsp;[`Color&nbsp;Lighten(Color&nbsp;inColor,&nbsp;double&nbsp;inAmount)`](VRageMath.Lighten)||
+|static&nbsp;[`Color&nbsp;Darken(Color&nbsp;inColor,&nbsp;double&nbsp;inAmount)`](VRageMath.Darken)||
+|[`Color&nbsp;ToGray()`](VRageMath.ToGray)||
+|[`Vector4&nbsp;ToVector4()`](VRageMath.PackedVector.ToVector4)|Expands the packed representation into a Vector4.<br/><br/>_Inherited from [`IPackedVector`](VRageMath.Color)_|
+|[`void&nbsp;PackFromVector4(Vector4&nbsp;vector)`](VRageMath.PackedVector.PackFromVector4)|Sets the packed representation from a Vector4.<br/><br/>_Inherited from [`IPackedVector`](VRageMath.Color)_|

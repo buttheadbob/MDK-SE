@@ -3,15 +3,15 @@
 **Namespace:** [`Sandbox.ModAPI.Interfaces`](Sandbox.ModAPI.Interfaces)  
 **Assembly:** Sandbox.Common.dll  
 ### Properties
-<table style="width:100%;display:table">
-<tr><td>_<a href="Sandbox.ModAPI.Interfaces.Id"><code>string Id</code></a>_</td><td></td></tr>
-<tr><td>_<a href="Sandbox.ModAPI.Interfaces.Icon"><code>string Icon</code></a>_</td><td></td></tr>
-<tr><td>_<a href="Sandbox.ModAPI.Interfaces.Name"><code>StringBuilder Name</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`string&nbsp;Id`](Sandbox.ModAPI.Interfaces.Id)||
+|[`string&nbsp;Icon`](Sandbox.ModAPI.Interfaces.Icon)||
+|[`StringBuilder&nbsp;Name`](Sandbox.ModAPI.Interfaces.Name)||
 ### Methods
-<table style="width:100%;display:table">
-<tr><td>_<a href="Sandbox.ModAPI.Interfaces.Apply"><code>void Apply(IMyCubeBlock block)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="Sandbox.ModAPI.Interfaces.Apply"><code>void Apply(IMyCubeBlock block, ListReader<TerminalActionParameter> terminalActionParameters)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="Sandbox.ModAPI.Interfaces.WriteValue"><code>void WriteValue(IMyCubeBlock block, StringBuilder appendTo)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="Sandbox.ModAPI.Interfaces.IsEnabled"><code>bool IsEnabled(IMyCubeBlock block)</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`void&nbsp;Apply(IMyCubeBlock&nbsp;block)`](Sandbox.ModAPI.Interfaces.Apply)||
+|[`void&nbsp;Apply(IMyCubeBlock&nbsp;block,&nbsp;ListReader<TerminalActionParameter>&nbsp;terminalActionParameters)`](Sandbox.ModAPI.Interfaces.Apply)||
+|[`void&nbsp;WriteValue(IMyCubeBlock&nbsp;block,&nbsp;StringBuilder&nbsp;appendTo)`](Sandbox.ModAPI.Interfaces.WriteValue)||
+|[`bool&nbsp;IsEnabled(IMyCubeBlock&nbsp;block)`](Sandbox.ModAPI.Interfaces.IsEnabled)||

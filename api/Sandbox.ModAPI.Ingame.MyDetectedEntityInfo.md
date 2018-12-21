@@ -3,22 +3,22 @@
 **Namespace:** [`Sandbox.ModAPI.Ingame`](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll  
 ### Fields
-<table style="width:100%;display:table">
-<tr><td>_<a href="Sandbox.ModAPI.Ingame.EntityId"><code>long EntityId</code></a>_</td><td>The entity's EntityId</td></tr>
-<tr><td>_<a href="Sandbox.ModAPI.Ingame.Name"><code>string Name</code></a>_</td><td>The entity's display name if it is friendly, or a generic descriptor if it is not</td></tr>
-<tr><td>_<a href="Sandbox.ModAPI.Ingame.Type"><code>MyDetectedEntityType Type</code></a>_</td><td>Enum describing the type of entity</td></tr>
-<tr><td>_<a href="Sandbox.ModAPI.Ingame.HitPosition"><code>Nullable<Vector3D> HitPosition</code></a>_</td><td>Position where the raycast hit the entity. (can be null if the sensor didn't use a raycast)</td></tr>
-<tr><td>_<a href="Sandbox.ModAPI.Ingame.Orientation"><code>MatrixD Orientation</code></a>_</td><td>The entity's absolute orientation at the time it was detected</td></tr>
-<tr><td>_<a href="Sandbox.ModAPI.Ingame.Velocity"><code>Vector3 Velocity</code></a>_</td><td>The entity's absolute velocity at the time it was detected</td></tr>
-<tr><td>_<a href="Sandbox.ModAPI.Ingame.Relationship"><code>MyRelationsBetweenPlayerAndBlock Relationship</code></a>_</td><td>Relationship between the entity and the owner of the sensor</td></tr>
-<tr><td>_<a href="Sandbox.ModAPI.Ingame.BoundingBox"><code>BoundingBoxD BoundingBox</code></a>_</td><td>The entity's world-aligned bounding box</td></tr>
-<tr><td>_<a href="Sandbox.ModAPI.Ingame.TimeStamp"><code>long TimeStamp</code></a>_</td><td>Time when the entity was detected. This field counts milliseconds, compensated for simspeed</td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`long&nbsp;EntityId`](Sandbox.ModAPI.Ingame.EntityId)|The entity's EntityId|
+|[`string&nbsp;Name`](Sandbox.ModAPI.Ingame.Name)|The entity's display name if it is friendly, or a generic descriptor if it is not|
+|[`MyDetectedEntityType&nbsp;Type`](Sandbox.ModAPI.Ingame.Type)|Enum describing the type of entity|
+|[`Nullable<Vector3D>&nbsp;HitPosition`](Sandbox.ModAPI.Ingame.HitPosition)|Position where the raycast hit the entity. (can be null if the sensor didn't use a raycast)|
+|[`MatrixD&nbsp;Orientation`](Sandbox.ModAPI.Ingame.Orientation)|The entity's absolute orientation at the time it was detected|
+|[`Vector3&nbsp;Velocity`](Sandbox.ModAPI.Ingame.Velocity)|The entity's absolute velocity at the time it was detected|
+|[`MyRelationsBetweenPlayerAndBlock&nbsp;Relationship`](Sandbox.ModAPI.Ingame.Relationship)|Relationship between the entity and the owner of the sensor|
+|[`BoundingBoxD&nbsp;BoundingBox`](Sandbox.ModAPI.Ingame.BoundingBox)|The entity's world-aligned bounding box|
+|[`long&nbsp;TimeStamp`](Sandbox.ModAPI.Ingame.TimeStamp)|Time when the entity was detected. This field counts milliseconds, compensated for simspeed|
 ### Properties
-<table style="width:100%;display:table">
-<tr><td>_<a href="Sandbox.ModAPI.Ingame.Position"><code>Vector3D Position</code></a>_</td><td>The entity's position (center of the Bounding Box)</td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`Vector3D&nbsp;Position`](Sandbox.ModAPI.Ingame.Position)|The entity's position (center of the Bounding Box)|
 ### Methods
-<table style="width:100%;display:table">
-<tr><td>_<a href="Sandbox.ModAPI.Ingame.IsEmpty"><code>bool IsEmpty()</code></a>_</td><td>Determines if this structure is empty; meaning it does not contain any meaningful data</td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`bool&nbsp;IsEmpty()`](Sandbox.ModAPI.Ingame.IsEmpty)|Determines if this structure is empty; meaning it does not contain any meaningful data|

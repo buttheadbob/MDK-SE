@@ -5,39 +5,39 @@
 ## Summary
 Defines a sphere.
 ### Fields
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRageMath.Center"><code>Vector3D Center</code></a>_</td><td>The center point of the sphere.</td></tr>
-<tr><td>_<a href="VRageMath.Radius"><code>double Radius</code></a>_</td><td>The radius of the sphere.</td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`Vector3D&nbsp;Center`](VRageMath.Center)|The center point of the sphere.|
+|[`double&nbsp;Radius`](VRageMath.Radius)|The radius of the sphere.|
 ### Methods
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRageMath.Equals"><code>bool Equals(BoundingSphereD other)</code></a>_</td><td>Determines whether the specified BoundingSphereD is equal to the current BoundingSphereD.</td></tr>
-<tr><td>_<a href="VRageMath.Equals"><code>bool Equals(Object obj)</code></a>_</td><td>Determines whether the specified Object is equal to the BoundingSphereD.</td></tr>
-<tr><td>_<a href="VRageMath.GetHashCode"><code>int GetHashCode()</code></a>_</td><td>Gets the hash code for this instance.</td></tr>
-<tr><td>_<a href="VRageMath.ToString"><code>string ToString()</code></a>_</td><td>Returns a String that represents the current BoundingSphereD.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateMerged"><code>BoundingSphereD CreateMerged(BoundingSphereD original, BoundingSphereD additional)</code></a>_</td><td>Creates a BoundingSphereD that contains the two specified BoundingSphereD instances.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateMerged"><code>void CreateMerged(ref BoundingSphereD original, ref BoundingSphereD additional, ref BoundingSphereD result)</code></a>_</td><td>Creates a BoundingSphereD that contains the two specified BoundingSphereD instances.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateFromBoundingBox"><code>BoundingSphereD CreateFromBoundingBox(BoundingBoxD box)</code></a>_</td><td>Creates the smallest BoundingSphereD that can contain a specified BoundingBoxD.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateFromBoundingBox"><code>void CreateFromBoundingBox(ref BoundingBoxD box, ref BoundingSphereD result)</code></a>_</td><td>Creates the smallest BoundingSphereD that can contain a specified BoundingBoxD.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateFromPoints"><code>BoundingSphereD CreateFromPoints(Vector3D[] points)</code></a>_</td><td>Creates a BoundingSphereD that can contain a specified list of points.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateFromFrustum"><code>BoundingSphereD CreateFromFrustum(BoundingFrustumD frustum)</code></a>_</td><td>Creates the smallest BoundingSphereD that can contain a specified BoundingFrustum.</td></tr>
-<tr><td>_<a href="VRageMath.Intersects"><code>bool Intersects(BoundingBoxD box)</code></a>_</td><td>Checks whether the current BoundingSphereD intersects with a specified BoundingBoxD.</td></tr>
-<tr><td>_<a href="VRageMath.Intersects"><code>void Intersects(ref BoundingBoxD box, ref bool result)</code></a>_</td><td>Checks whether the current BoundingSphereD intersects a BoundingBoxD.</td></tr>
-<tr><td>_<a href="VRageMath.Intersects"><code>Nullable<double> Intersects(RayD ray)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Intersects"><code>bool Intersects(BoundingFrustumD frustum)</code></a>_</td><td>Checks whether the current BoundingSphereD intersects with a specified BoundingFrustum.</td></tr>
-<tr><td>_<a href="VRageMath.Intersects"><code>bool Intersects(BoundingSphereD sphere)</code></a>_</td><td>Checks whether the current BoundingSphereD intersects with a specified BoundingSphereD.</td></tr>
-<tr><td>_<a href="VRageMath.Intersects"><code>void Intersects(ref BoundingSphereD sphere, ref bool result)</code></a>_</td><td>Checks whether the current BoundingSphereD intersects another BoundingSphereD.</td></tr>
-<tr><td>_<a href="VRageMath.Contains"><code>ContainmentType Contains(BoundingBoxD box)</code></a>_</td><td>Checks whether the current BoundingSphereD contains the specified BoundingBoxD.</td></tr>
-<tr><td>_<a href="VRageMath.Contains"><code>void Contains(ref BoundingBoxD box, ref ContainmentType result)</code></a>_</td><td>Checks whether the current BoundingSphereD contains the specified BoundingBoxD.</td></tr>
-<tr><td>_<a href="VRageMath.Contains"><code>ContainmentType Contains(BoundingFrustumD frustum)</code></a>_</td><td>Checks whether the current BoundingSphereD contains the specified BoundingFrustum.</td></tr>
-<tr><td>_<a href="VRageMath.Contains"><code>ContainmentType Contains(Vector3D point)</code></a>_</td><td>Checks whether the current BoundingSphereD contains the specified point.</td></tr>
-<tr><td>_<a href="VRageMath.Contains"><code>void Contains(ref Vector3D point, ref ContainmentType result)</code></a>_</td><td>Checks whether the current BoundingSphereD contains the specified point.</td></tr>
-<tr><td>_<a href="VRageMath.Contains"><code>ContainmentType Contains(BoundingSphereD sphere)</code></a>_</td><td>Checks whether the current BoundingSphereD contains the specified BoundingSphereD.</td></tr>
-<tr><td>_<a href="VRageMath.Contains"><code>void Contains(ref BoundingSphereD sphere, ref ContainmentType result)</code></a>_</td><td>Checks whether the current BoundingSphereD contains the specified BoundingSphereD.</td></tr>
-<tr><td>_<a href="VRageMath.Transform"><code>BoundingSphereD Transform(MatrixD matrix)</code></a>_</td><td>Translates and scales the BoundingSphereD using a given Matrix.</td></tr>
-<tr><td>_<a href="VRageMath.Transform"><code>void Transform(ref MatrixD matrix, ref BoundingSphereD result)</code></a>_</td><td>Translates and scales the BoundingSphereD using a given Matrix.</td></tr>
-<tr><td>_<a href="VRageMath.IntersectRaySphere"><code>bool IntersectRaySphere(RayD ray, ref double tmin, ref double tmax)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Include"><code>BoundingSphereD Include(BoundingSphereD sphere)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.Include"><code>void Include(ref BoundingSphereD sphere, ref BoundingSphereD otherSphere)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.CreateInvalid"><code>BoundingSphereD CreateInvalid()</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`bool&nbsp;Equals(BoundingSphereD&nbsp;other)`](VRageMath.Equals)|Determines whether the specified BoundingSphereD is equal to the current BoundingSphereD.|
+|[`bool&nbsp;Equals(Object&nbsp;obj)`](VRageMath.Equals)|Determines whether the specified Object is equal to the BoundingSphereD.|
+|[`int&nbsp;GetHashCode()`](VRageMath.GetHashCode)|Gets the hash code for this instance.|
+|[`string&nbsp;ToString()`](VRageMath.ToString)|Returns a String that represents the current BoundingSphereD.|
+|static&nbsp;[`BoundingSphereD&nbsp;CreateMerged(BoundingSphereD&nbsp;original,&nbsp;BoundingSphereD&nbsp;additional)`](VRageMath.CreateMerged)|Creates a BoundingSphereD that contains the two specified BoundingSphereD instances.|
+|static&nbsp;[`void&nbsp;CreateMerged(ref&nbsp;BoundingSphereD&nbsp;original,&nbsp;ref&nbsp;BoundingSphereD&nbsp;additional,&nbsp;ref&nbsp;BoundingSphereD&nbsp;result)`](VRageMath.CreateMerged)|Creates a BoundingSphereD that contains the two specified BoundingSphereD instances.|
+|static&nbsp;[`BoundingSphereD&nbsp;CreateFromBoundingBox(BoundingBoxD&nbsp;box)`](VRageMath.CreateFromBoundingBox)|Creates the smallest BoundingSphereD that can contain a specified BoundingBoxD.|
+|static&nbsp;[`void&nbsp;CreateFromBoundingBox(ref&nbsp;BoundingBoxD&nbsp;box,&nbsp;ref&nbsp;BoundingSphereD&nbsp;result)`](VRageMath.CreateFromBoundingBox)|Creates the smallest BoundingSphereD that can contain a specified BoundingBoxD.|
+|static&nbsp;[`BoundingSphereD&nbsp;CreateFromPoints(Vector3D[]&nbsp;points)`](VRageMath.CreateFromPoints)|Creates a BoundingSphereD that can contain a specified list of points.|
+|static&nbsp;[`BoundingSphereD&nbsp;CreateFromFrustum(BoundingFrustumD&nbsp;frustum)`](VRageMath.CreateFromFrustum)|Creates the smallest BoundingSphereD that can contain a specified BoundingFrustum.|
+|[`bool&nbsp;Intersects(BoundingBoxD&nbsp;box)`](VRageMath.Intersects)|Checks whether the current BoundingSphereD intersects with a specified BoundingBoxD.|
+|[`void&nbsp;Intersects(ref&nbsp;BoundingBoxD&nbsp;box,&nbsp;ref&nbsp;bool&nbsp;result)`](VRageMath.Intersects)|Checks whether the current BoundingSphereD intersects a BoundingBoxD.|
+|[`Nullable<double>&nbsp;Intersects(RayD&nbsp;ray)`](VRageMath.Intersects)||
+|[`bool&nbsp;Intersects(BoundingFrustumD&nbsp;frustum)`](VRageMath.Intersects)|Checks whether the current BoundingSphereD intersects with a specified BoundingFrustum.|
+|[`bool&nbsp;Intersects(BoundingSphereD&nbsp;sphere)`](VRageMath.Intersects)|Checks whether the current BoundingSphereD intersects with a specified BoundingSphereD.|
+|[`void&nbsp;Intersects(ref&nbsp;BoundingSphereD&nbsp;sphere,&nbsp;ref&nbsp;bool&nbsp;result)`](VRageMath.Intersects)|Checks whether the current BoundingSphereD intersects another BoundingSphereD.|
+|[`ContainmentType&nbsp;Contains(BoundingBoxD&nbsp;box)`](VRageMath.Contains)|Checks whether the current BoundingSphereD contains the specified BoundingBoxD.|
+|[`void&nbsp;Contains(ref&nbsp;BoundingBoxD&nbsp;box,&nbsp;ref&nbsp;ContainmentType&nbsp;result)`](VRageMath.Contains)|Checks whether the current BoundingSphereD contains the specified BoundingBoxD.|
+|[`ContainmentType&nbsp;Contains(BoundingFrustumD&nbsp;frustum)`](VRageMath.Contains)|Checks whether the current BoundingSphereD contains the specified BoundingFrustum.|
+|[`ContainmentType&nbsp;Contains(Vector3D&nbsp;point)`](VRageMath.Contains)|Checks whether the current BoundingSphereD contains the specified point.|
+|[`void&nbsp;Contains(ref&nbsp;Vector3D&nbsp;point,&nbsp;ref&nbsp;ContainmentType&nbsp;result)`](VRageMath.Contains)|Checks whether the current BoundingSphereD contains the specified point.|
+|[`ContainmentType&nbsp;Contains(BoundingSphereD&nbsp;sphere)`](VRageMath.Contains)|Checks whether the current BoundingSphereD contains the specified BoundingSphereD.|
+|[`void&nbsp;Contains(ref&nbsp;BoundingSphereD&nbsp;sphere,&nbsp;ref&nbsp;ContainmentType&nbsp;result)`](VRageMath.Contains)|Checks whether the current BoundingSphereD contains the specified BoundingSphereD.|
+|[`BoundingSphereD&nbsp;Transform(MatrixD&nbsp;matrix)`](VRageMath.Transform)|Translates and scales the BoundingSphereD using a given Matrix.|
+|[`void&nbsp;Transform(ref&nbsp;MatrixD&nbsp;matrix,&nbsp;ref&nbsp;BoundingSphereD&nbsp;result)`](VRageMath.Transform)|Translates and scales the BoundingSphereD using a given Matrix.|
+|[`bool&nbsp;IntersectRaySphere(RayD&nbsp;ray,&nbsp;ref&nbsp;double&nbsp;tmin,&nbsp;ref&nbsp;double&nbsp;tmax)`](VRageMath.IntersectRaySphere)||
+|[`BoundingSphereD&nbsp;Include(BoundingSphereD&nbsp;sphere)`](VRageMath.Include)||
+|static&nbsp;[`void&nbsp;Include(ref&nbsp;BoundingSphereD&nbsp;sphere,&nbsp;ref&nbsp;BoundingSphereD&nbsp;otherSphere)`](VRageMath.Include)||
+|static&nbsp;[`BoundingSphereD&nbsp;CreateInvalid()`](VRageMath.CreateInvalid)||

@@ -5,21 +5,21 @@
 ## Summary
 Contains commonly used precalculated values.
 ### Fields
-<table style="width:100%;display:table">
-<tr><td>static _<a href="VRageMath.E"><code>double E</code></a>_</td><td>Represents the mathematical constant e.</td></tr>
-<tr><td>static _<a href="VRageMath.Pi"><code>double Pi</code></a>_</td><td>Represents the value of pi.</td></tr>
-<tr><td>static _<a href="VRageMath.TwoPi"><code>double TwoPi</code></a>_</td><td>Represents the value of pi times two.</td></tr>
-<tr><td>static _<a href="VRageMath.FourPi"><code>double FourPi</code></a>_</td><td>Represents the value of pi times four.</td></tr>
-<tr><td>static _<a href="VRageMath.PiOver2"><code>double PiOver2</code></a>_</td><td>Represents the value of pi divided by two.</td></tr>
-<tr><td>static _<a href="VRageMath.PiOver4"><code>double PiOver4</code></a>_</td><td>Represents the value of pi divided by four.</td></tr>
-</table>
+|Member|Description|
+|---|---|
+|static&nbsp;[`double&nbsp;E`](VRageMath.E)|Represents the mathematical constant e.|
+|static&nbsp;[`double&nbsp;Pi`](VRageMath.Pi)|Represents the value of pi.|
+|static&nbsp;[`double&nbsp;TwoPi`](VRageMath.TwoPi)|Represents the value of pi times two.|
+|static&nbsp;[`double&nbsp;FourPi`](VRageMath.FourPi)|Represents the value of pi times four.|
+|static&nbsp;[`double&nbsp;PiOver2`](VRageMath.PiOver2)|Represents the value of pi divided by two.|
+|static&nbsp;[`double&nbsp;PiOver4`](VRageMath.PiOver4)|Represents the value of pi divided by four.|
 ### Methods
-<table style="width:100%;display:table">
-<tr><td>static _<a href="VRageMath.ToRadians"><code>double ToRadians(double degrees)</code></a>_</td><td>Converts degrees to radians.</td></tr>
-<tr><td>static _<a href="VRageMath.ToDegrees"><code>double ToDegrees(double radians)</code></a>_</td><td>Converts radians to degrees.</td></tr>
-<tr><td>static _<a href="VRageMath.Distance"><code>double Distance(double value1, double value2)</code></a>_</td><td>Calculates the absolute value of the difference of two values.</td></tr>
-<tr><td>static _<a href="VRageMath.Min"><code>double Min(double value1, double value2)</code></a>_</td><td>Returns the lesser of two values.</td></tr>
-<tr><td>static _<a href="VRageMath.Max"><code>double Max(double value1, double value2)</code></a>_</td><td>Returns the greater of two values.</td></tr>
-<tr><td>static _<a href="VRageMath.Clamp"><code>double Clamp(double value, double min, double max)</code></a>_</td><td>Restricts a value to be within a specified range. Reference page contains links to related code samples.</td></tr>
-<tr><td>static _<a href="VRageMath.MonotonicAcos"><code>float MonotonicAcos(float cos)</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|static&nbsp;[`double&nbsp;ToRadians(double&nbsp;degrees)`](VRageMath.ToRadians)|Converts degrees to radians.|
+|static&nbsp;[`double&nbsp;ToDegrees(double&nbsp;radians)`](VRageMath.ToDegrees)|Converts radians to degrees.|
+|static&nbsp;[`double&nbsp;Distance(double&nbsp;value1,&nbsp;double&nbsp;value2)`](VRageMath.Distance)|Calculates the absolute value of the difference of two values.|
+|static&nbsp;[`double&nbsp;Min(double&nbsp;value1,&nbsp;double&nbsp;value2)`](VRageMath.Min)|Returns the lesser of two values.|
+|static&nbsp;[`double&nbsp;Max(double&nbsp;value1,&nbsp;double&nbsp;value2)`](VRageMath.Max)|Returns the greater of two values.|
+|static&nbsp;[`double&nbsp;Clamp(double&nbsp;value,&nbsp;double&nbsp;min,&nbsp;double&nbsp;max)`](VRageMath.Clamp)|Restricts a value to be within a specified range. Reference page contains links to related code samples.|
+|static&nbsp;[`float&nbsp;MonotonicAcos(float&nbsp;cos)`](VRageMath.MonotonicAcos)||

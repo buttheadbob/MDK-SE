@@ -3,7 +3,7 @@
 **Namespace:** [`System.Collections.Generic`](System.Collections.Generic)  
 **Assembly:** VRage.Library.dll  
 ### Methods
-<table style="width:100%;display:table">
-<tr><td>static _<a href="System.Collections.Generic.FirstElement"><code>T FirstElement<T>(HashSet<T> hashset)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="System.Collections.Generic.TryGetValue"><code>bool TryGetValue<T>(HashSet<T> hashset, T equalValue, ref T actualValue)</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|static&nbsp;[`T&nbsp;FirstElement<T>(HashSet<T>&nbsp;hashset)`](System.Collections.Generic.FirstElement)||
+|static&nbsp;[`bool&nbsp;TryGetValue<T>(HashSet<T>&nbsp;hashset,&nbsp;T&nbsp;equalValue,&nbsp;ref&nbsp;T&nbsp;actualValue)`](System.Collections.Generic.TryGetValue)||

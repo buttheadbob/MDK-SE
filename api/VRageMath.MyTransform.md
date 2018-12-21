@@ -3,18 +3,18 @@
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Fields
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRageMath.Rotation"><code>Quaternion Rotation</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Position"><code>Vector3 Position</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`Quaternion&nbsp;Rotation`](VRageMath.Rotation)||
+|[`Vector3&nbsp;Position`](VRageMath.Position)||
 ### Properties
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRageMath.TransformMatrix"><code>Matrix TransformMatrix</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`Matrix&nbsp;TransformMatrix`](VRageMath.TransformMatrix)||
 ### Methods
-<table style="width:100%;display:table">
-<tr><td>static _<a href="VRageMath.Transform"><code>MyTransform Transform(ref MyTransform t1, ref MyTransform t2)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.Transform"><code>void Transform(ref MyTransform t1, ref MyTransform t2, ref MyTransform result)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.Transform"><code>Vector3 Transform(ref Vector3 v, ref MyTransform t2)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.Transform"><code>void Transform(ref Vector3 v, ref MyTransform t2, ref Vector3 result)</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|static&nbsp;[`MyTransform&nbsp;Transform(ref&nbsp;MyTransform&nbsp;t1,&nbsp;ref&nbsp;MyTransform&nbsp;t2)`](VRageMath.Transform)||
+|static&nbsp;[`void&nbsp;Transform(ref&nbsp;MyTransform&nbsp;t1,&nbsp;ref&nbsp;MyTransform&nbsp;t2,&nbsp;ref&nbsp;MyTransform&nbsp;result)`](VRageMath.Transform)||
+|static&nbsp;[`Vector3&nbsp;Transform(ref&nbsp;Vector3&nbsp;v,&nbsp;ref&nbsp;MyTransform&nbsp;t2)`](VRageMath.Transform)||
+|static&nbsp;[`void&nbsp;Transform(ref&nbsp;Vector3&nbsp;v,&nbsp;ref&nbsp;MyTransform&nbsp;t2,&nbsp;ref&nbsp;Vector3&nbsp;result)`](VRageMath.Transform)||

@@ -4,19 +4,19 @@
 **Assembly:** Sandbox.Game.dll  
 **Inheritance: **[`MyResourceSinkComponentBase`](VRage.Game.Components.MyResourceSinkComponentBase)
 ### Properties
-<table style="width:100%;display:table">
-<tr><td>_<a href="Sandbox.Game.EntityComponents.RequiredInput"><code>float RequiredInput</code></a>_</td><td></td></tr>
-<tr><td>_<a href="Sandbox.Game.EntityComponents.SuppliedRatio"><code>float SuppliedRatio</code></a>_</td><td></td></tr>
-<tr><td>_<a href="Sandbox.Game.EntityComponents.CurrentInput"><code>float CurrentInput</code></a>_</td><td></td></tr>
-<tr><td>_<a href="Sandbox.Game.EntityComponents.IsPowered"><code>bool IsPowered</code></a>_</td><td></td></tr>
-<tr><td>_<a href="Sandbox.Game.EntityComponents.AcceptedResources"><code>ListReader<MyDefinitionId> AcceptedResources</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRage.Game.Components.AcceptedResources"><code>ListReader<MyDefinitionId> AcceptedResources</code></a>_</td><td>_Inherited from <a href="VRage.Game.Components.MyResourceSinkComponentBase"><code>MyResourceSinkComponentBase</code></a>_</td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`float&nbsp;RequiredInput`](Sandbox.Game.EntityComponents.RequiredInput)||
+|[`float&nbsp;SuppliedRatio`](Sandbox.Game.EntityComponents.SuppliedRatio)||
+|[`float&nbsp;CurrentInput`](Sandbox.Game.EntityComponents.CurrentInput)||
+|[`bool&nbsp;IsPowered`](Sandbox.Game.EntityComponents.IsPowered)||
+|[`ListReader<MyDefinitionId>&nbsp;AcceptedResources`](Sandbox.Game.EntityComponents.AcceptedResources)||
+|[`ListReader<MyDefinitionId>&nbsp;AcceptedResources`](VRage.Game.Components.AcceptedResources)|_Inherited from [`MyResourceSinkComponentBase`](Sandbox.Game.EntityComponents.MyResourceSinkComponent)_|
 ### Methods
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRage.Game.Components.CurrentInputByType"><code>float CurrentInputByType(MyDefinitionId resourceTypeId)</code></a>_</td><td>_Inherited from <a href="VRage.Game.Components.MyResourceSinkComponentBase"><code>MyResourceSinkComponentBase</code></a>_</td></tr>
-<tr><td>_<a href="VRage.Game.Components.IsPoweredByType"><code>bool IsPoweredByType(MyDefinitionId resourceTypeId)</code></a>_</td><td>_Inherited from <a href="VRage.Game.Components.MyResourceSinkComponentBase"><code>MyResourceSinkComponentBase</code></a>_</td></tr>
-<tr><td>_<a href="VRage.Game.Components.MaxRequiredInputByType"><code>float MaxRequiredInputByType(MyDefinitionId resourceTypeId)</code></a>_</td><td>_Inherited from <a href="VRage.Game.Components.MyResourceSinkComponentBase"><code>MyResourceSinkComponentBase</code></a>_</td></tr>
-<tr><td>_<a href="VRage.Game.Components.RequiredInputByType"><code>float RequiredInputByType(MyDefinitionId resourceTypeId)</code></a>_</td><td>_Inherited from <a href="VRage.Game.Components.MyResourceSinkComponentBase"><code>MyResourceSinkComponentBase</code></a>_</td></tr>
-<tr><td>_<a href="VRage.Game.Components.SuppliedRatioByType"><code>float SuppliedRatioByType(MyDefinitionId resourceTypeId)</code></a>_</td><td>_Inherited from <a href="VRage.Game.Components.MyResourceSinkComponentBase"><code>MyResourceSinkComponentBase</code></a>_</td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`float&nbsp;CurrentInputByType(MyDefinitionId&nbsp;resourceTypeId)`](VRage.Game.Components.CurrentInputByType)|_Inherited from [`MyResourceSinkComponentBase`](Sandbox.Game.EntityComponents.MyResourceSinkComponent)_|
+|[`bool&nbsp;IsPoweredByType(MyDefinitionId&nbsp;resourceTypeId)`](VRage.Game.Components.IsPoweredByType)|_Inherited from [`MyResourceSinkComponentBase`](Sandbox.Game.EntityComponents.MyResourceSinkComponent)_|
+|[`float&nbsp;MaxRequiredInputByType(MyDefinitionId&nbsp;resourceTypeId)`](VRage.Game.Components.MaxRequiredInputByType)|_Inherited from [`MyResourceSinkComponentBase`](Sandbox.Game.EntityComponents.MyResourceSinkComponent)_|
+|[`float&nbsp;RequiredInputByType(MyDefinitionId&nbsp;resourceTypeId)`](VRage.Game.Components.RequiredInputByType)|_Inherited from [`MyResourceSinkComponentBase`](Sandbox.Game.EntityComponents.MyResourceSinkComponent)_|
+|[`float&nbsp;SuppliedRatioByType(MyDefinitionId&nbsp;resourceTypeId)`](VRage.Game.Components.SuppliedRatioByType)|_Inherited from [`MyResourceSinkComponentBase`](Sandbox.Game.EntityComponents.MyResourceSinkComponent)_|

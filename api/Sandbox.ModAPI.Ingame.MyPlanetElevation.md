@@ -5,7 +5,7 @@
 ## Summary
 Describes what detail level to retrieve the planet elevation for.
 ### Fields
-<table style="width:100%;display:table">
-<tr><td>static _<a href="Sandbox.ModAPI.Ingame.Sealevel"><code>MyPlanetElevation Sealevel</code></a>_</td><td>Only return the distance to the planetary sealevel.</td></tr>
-<tr><td>static _<a href="Sandbox.ModAPI.Ingame.Surface"><code>MyPlanetElevation Surface</code></a>_</td><td>Return the distance to the closest point of the planet. This is the same value displayed in the HUD.</td></tr>
-</table>
+|Member|Description|
+|---|---|
+|static&nbsp;[`MyPlanetElevation&nbsp;Sealevel`](Sandbox.ModAPI.Ingame.Sealevel)|Only return the distance to the planetary sealevel.|
+|static&nbsp;[`MyPlanetElevation&nbsp;Surface`](Sandbox.ModAPI.Ingame.Surface)|Return the distance to the closest point of the planet. This is the same value displayed in the HUD.|

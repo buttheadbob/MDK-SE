@@ -3,30 +3,30 @@
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Fields
-<table style="width:100%;display:table">
-<tr><td>static _<a href="VRageMath.Vector3One"><code>Vector3 Vector3One</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|static&nbsp;[`Vector3&nbsp;Vector3One`](VRageMath.Vector3One)||
 ### Methods
-<table style="width:100%;display:table">
-<tr><td>static _<a href="VRageMath.InitializeFastSin"><code>void InitializeFastSin()</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.FastSin"><code>float FastSin(float angle)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.FastCos"><code>float FastCos(float angle)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.FastTanH"><code>float FastTanH(float x)</code></a>_</td><td>Fast approximation of Hyperbolic tangent Max deviation is <3%</td></tr>
-<tr><td>static _<a href="VRageMath.NormalizeAngle"><code>float NormalizeAngle(float angle, float center)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.ArcTanAngle"><code>float ArcTanAngle(float x, float y)</code></a>_</td><td>ArcTanAngle</td></tr>
-<tr><td>static _<a href="VRageMath.Abs"><code>Vector3 Abs(ref Vector3 vector)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.MaxComponents"><code>Vector3 MaxComponents(ref Vector3 a, ref Vector3 b)</code></a>_</td><td>Return vector with each component max</td></tr>
-<tr><td>static _<a href="VRageMath.AngleTo"><code>Vector3 AngleTo(Vector3 From, Vector3 Location)</code></a>_</td><td>AngleTo</td></tr>
-<tr><td>static _<a href="VRageMath.AngleBetween"><code>float AngleBetween(Vector3 a, Vector3 b)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.CosineDistance"><code>float CosineDistance(ref Vector3 a, ref Vector3 b)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.CosineDistance"><code>double CosineDistance(ref Vector3D a, ref Vector3D b)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.Mod"><code>int Mod(int x, int m)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.Mod"><code>long Mod(long x, int m)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.QuaternionToEuler"><code>Vector3 QuaternionToEuler(Quaternion Rotation)</code></a>_</td><td>QuaternionToEuler</td></tr>
-<tr><td>static _<a href="VRageMath.ForwardVectorProjection"><code>Vector3 ForwardVectorProjection(Vector3 forwardVector, Vector3 projectedVector)</code></a>_</td><td>This projection results to initial velocity of non-engine objects, which parents move in some velocity We want to add only forward speed of the parent to the forward direction of the object, and if parent is going backward, no speed is added.</td></tr>
-<tr><td>static _<a href="VRageMath.CreateFromInsideRadius"><code>BoundingBox CreateFromInsideRadius(float radius)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.VectorFromColor"><code>Vector3 VectorFromColor(byte red, byte green, byte blue)</code></a>_</td><td>Calculates color from vector</td></tr>
-<tr><td>static _<a href="VRageMath.VectorFromColor"><code>Vector4 VectorFromColor(byte red, byte green, byte blue, byte alpha)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.DistanceSquaredFromLineSegment"><code>float DistanceSquaredFromLineSegment(Vector3 v, Vector3 w, Vector3 p)</code></a>_</td><td>Return minimum distance between line segment v-w and point p.</td></tr>
-<tr><td>static _<a href="VRageMath.Clamp"><code>float Clamp(float val, float min, float max)</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|static&nbsp;[`void&nbsp;InitializeFastSin()`](VRageMath.InitializeFastSin)||
+|static&nbsp;[`float&nbsp;FastSin(float&nbsp;angle)`](VRageMath.FastSin)||
+|static&nbsp;[`float&nbsp;FastCos(float&nbsp;angle)`](VRageMath.FastCos)||
+|static&nbsp;[`float&nbsp;FastTanH(float&nbsp;x)`](VRageMath.FastTanH)|Fast approximation of Hyperbolic tangent Max deviation is <3%|
+|static&nbsp;[`float&nbsp;NormalizeAngle(float&nbsp;angle,&nbsp;float&nbsp;center)`](VRageMath.NormalizeAngle)||
+|static&nbsp;[`float&nbsp;ArcTanAngle(float&nbsp;x,&nbsp;float&nbsp;y)`](VRageMath.ArcTanAngle)|ArcTanAngle|
+|static&nbsp;[`Vector3&nbsp;Abs(ref&nbsp;Vector3&nbsp;vector)`](VRageMath.Abs)||
+|static&nbsp;[`Vector3&nbsp;MaxComponents(ref&nbsp;Vector3&nbsp;a,&nbsp;ref&nbsp;Vector3&nbsp;b)`](VRageMath.MaxComponents)|Return vector with each component max|
+|static&nbsp;[`Vector3&nbsp;AngleTo(Vector3&nbsp;From,&nbsp;Vector3&nbsp;Location)`](VRageMath.AngleTo)|AngleTo|
+|static&nbsp;[`float&nbsp;AngleBetween(Vector3&nbsp;a,&nbsp;Vector3&nbsp;b)`](VRageMath.AngleBetween)||
+|static&nbsp;[`float&nbsp;CosineDistance(ref&nbsp;Vector3&nbsp;a,&nbsp;ref&nbsp;Vector3&nbsp;b)`](VRageMath.CosineDistance)||
+|static&nbsp;[`double&nbsp;CosineDistance(ref&nbsp;Vector3D&nbsp;a,&nbsp;ref&nbsp;Vector3D&nbsp;b)`](VRageMath.CosineDistance)||
+|static&nbsp;[`int&nbsp;Mod(int&nbsp;x,&nbsp;int&nbsp;m)`](VRageMath.Mod)||
+|static&nbsp;[`long&nbsp;Mod(long&nbsp;x,&nbsp;int&nbsp;m)`](VRageMath.Mod)||
+|static&nbsp;[`Vector3&nbsp;QuaternionToEuler(Quaternion&nbsp;Rotation)`](VRageMath.QuaternionToEuler)|QuaternionToEuler|
+|static&nbsp;[`Vector3&nbsp;ForwardVectorProjection(Vector3&nbsp;forwardVector,&nbsp;Vector3&nbsp;projectedVector)`](VRageMath.ForwardVectorProjection)|This projection results to initial velocity of non-engine objects, which parents move in some velocity We want to add only forward speed of the parent to the forward direction of the object, and if parent is going backward, no speed is added.|
+|static&nbsp;[`BoundingBox&nbsp;CreateFromInsideRadius(float&nbsp;radius)`](VRageMath.CreateFromInsideRadius)||
+|static&nbsp;[`Vector3&nbsp;VectorFromColor(byte&nbsp;red,&nbsp;byte&nbsp;green,&nbsp;byte&nbsp;blue)`](VRageMath.VectorFromColor)|Calculates color from vector|
+|static&nbsp;[`Vector4&nbsp;VectorFromColor(byte&nbsp;red,&nbsp;byte&nbsp;green,&nbsp;byte&nbsp;blue,&nbsp;byte&nbsp;alpha)`](VRageMath.VectorFromColor)||
+|static&nbsp;[`float&nbsp;DistanceSquaredFromLineSegment(Vector3&nbsp;v,&nbsp;Vector3&nbsp;w,&nbsp;Vector3&nbsp;p)`](VRageMath.DistanceSquaredFromLineSegment)|Return minimum distance between line segment v-w and point p.|
+|static&nbsp;[`float&nbsp;Clamp(float&nbsp;val,&nbsp;float&nbsp;min,&nbsp;float&nbsp;max)`](VRageMath.Clamp)||

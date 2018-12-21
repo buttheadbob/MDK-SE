@@ -5,82 +5,82 @@
 ## Summary
 Defines a vector with four components.
 ### Fields
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRageMath.X"><code>double X</code></a>_</td><td>Gets or sets the x-component of the vector.</td></tr>
-<tr><td>_<a href="VRageMath.Y"><code>double Y</code></a>_</td><td>Gets or sets the y-component of the vector.</td></tr>
-<tr><td>_<a href="VRageMath.Z"><code>double Z</code></a>_</td><td>Gets or sets the z-component of the vector.</td></tr>
-<tr><td>_<a href="VRageMath.W"><code>double W</code></a>_</td><td>Gets or sets the w-component of the vector.</td></tr>
-<tr><td>static _<a href="VRageMath.Zero"><code>Vector4D Zero</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.One"><code>Vector4D One</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.UnitX"><code>Vector4D UnitX</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.UnitY"><code>Vector4D UnitY</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.UnitZ"><code>Vector4D UnitZ</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.UnitW"><code>Vector4D UnitW</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`double&nbsp;X`](VRageMath.X)|Gets or sets the x-component of the vector.|
+|[`double&nbsp;Y`](VRageMath.Y)|Gets or sets the y-component of the vector.|
+|[`double&nbsp;Z`](VRageMath.Z)|Gets or sets the z-component of the vector.|
+|[`double&nbsp;W`](VRageMath.W)|Gets or sets the w-component of the vector.|
+|static&nbsp;[`Vector4D&nbsp;Zero`](VRageMath.Zero)||
+|static&nbsp;[`Vector4D&nbsp;One`](VRageMath.One)||
+|static&nbsp;[`Vector4D&nbsp;UnitX`](VRageMath.UnitX)||
+|static&nbsp;[`Vector4D&nbsp;UnitY`](VRageMath.UnitY)||
+|static&nbsp;[`Vector4D&nbsp;UnitZ`](VRageMath.UnitZ)||
+|static&nbsp;[`Vector4D&nbsp;UnitW`](VRageMath.UnitW)||
 ### Methods
-<table style="width:100%;display:table">
-<tr><td>static _<a href="VRageMath.PackOrthoMatrix"><code>Vector4D PackOrthoMatrix(Vector3D position, Vector3D forward, Vector3D up)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.PackOrthoMatrix"><code>Vector4D PackOrthoMatrix(ref MatrixD matrix)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.UnpackOrthoMatrix"><code>MatrixD UnpackOrthoMatrix(ref Vector4D packed)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.ToString"><code>string ToString()</code></a>_</td><td>Retrieves a string representation of the current object.</td></tr>
-<tr><td>_<a href="VRageMath.Equals"><code>bool Equals(Vector4 other)</code></a>_</td><td>Determines whether the specified Object is equal to the Vector4.</td></tr>
-<tr><td>_<a href="VRageMath.Equals"><code>bool Equals(Object obj)</code></a>_</td><td>Returns a value that indicates whether the current instance is equal to a specified object.</td></tr>
-<tr><td>_<a href="VRageMath.GetHashCode"><code>int GetHashCode()</code></a>_</td><td>Gets the hash code of this object.</td></tr>
-<tr><td>_<a href="VRageMath.Length"><code>double Length()</code></a>_</td><td>Calculates the length of the vector.</td></tr>
-<tr><td>_<a href="VRageMath.LengthSquared"><code>double LengthSquared()</code></a>_</td><td>Calculates the length of the vector squared.</td></tr>
-<tr><td>static _<a href="VRageMath.Distance"><code>double Distance(Vector4 value1, Vector4 value2)</code></a>_</td><td>Calculates the distance between two vectors.</td></tr>
-<tr><td>static _<a href="VRageMath.Distance"><code>void Distance(ref Vector4 value1, ref Vector4 value2, ref double result)</code></a>_</td><td>Calculates the distance between two vectors.</td></tr>
-<tr><td>static _<a href="VRageMath.DistanceSquared"><code>double DistanceSquared(Vector4 value1, Vector4 value2)</code></a>_</td><td>Calculates the distance between two vectors squared.</td></tr>
-<tr><td>static _<a href="VRageMath.DistanceSquared"><code>void DistanceSquared(ref Vector4 value1, ref Vector4 value2, ref double result)</code></a>_</td><td>Calculates the distance between two vectors squared.</td></tr>
-<tr><td>static _<a href="VRageMath.Dot"><code>double Dot(Vector4 vector1, Vector4 vector2)</code></a>_</td><td>Calculates the dot product of two vectors.</td></tr>
-<tr><td>static _<a href="VRageMath.Dot"><code>void Dot(ref Vector4 vector1, ref Vector4 vector2, ref double result)</code></a>_</td><td>Calculates the dot product of two vectors.</td></tr>
-<tr><td>_<a href="VRageMath.Normalize"><code>void Normalize()</code></a>_</td><td>Turns the current vector into a unit vector.</td></tr>
-<tr><td>static _<a href="VRageMath.Normalize"><code>Vector4D Normalize(Vector4D vector)</code></a>_</td><td>Creates a unit vector from the specified vector.</td></tr>
-<tr><td>static _<a href="VRageMath.Normalize"><code>void Normalize(ref Vector4D vector, ref Vector4D result)</code></a>_</td><td>Returns a normalized version of the specified vector.</td></tr>
-<tr><td>static _<a href="VRageMath.Min"><code>Vector4 Min(Vector4 value1, Vector4 value2)</code></a>_</td><td>Returns a vector that contains the lowest value from each matching pair of components.</td></tr>
-<tr><td>static _<a href="VRageMath.Min"><code>void Min(ref Vector4 value1, ref Vector4 value2, ref Vector4 result)</code></a>_</td><td>Returns a vector that contains the lowest value from each matching pair of components.</td></tr>
-<tr><td>static _<a href="VRageMath.Max"><code>Vector4 Max(Vector4 value1, Vector4 value2)</code></a>_</td><td>Returns a vector that contains the highest value from each matching pair of components.</td></tr>
-<tr><td>static _<a href="VRageMath.Max"><code>void Max(ref Vector4 value1, ref Vector4 value2, ref Vector4 result)</code></a>_</td><td>Returns a vector that contains the highest value from each matching pair of components.</td></tr>
-<tr><td>static _<a href="VRageMath.Clamp"><code>Vector4D Clamp(Vector4D value1, Vector4D min, Vector4D max)</code></a>_</td><td>Restricts a value to be within a specified range.</td></tr>
-<tr><td>static _<a href="VRageMath.Clamp"><code>void Clamp(ref Vector4D value1, ref Vector4D min, ref Vector4D max, ref Vector4D result)</code></a>_</td><td>Restricts a value to be within a specified range.</td></tr>
-<tr><td>static _<a href="VRageMath.Lerp"><code>Vector4D Lerp(Vector4D value1, Vector4D value2, double amount)</code></a>_</td><td>Performs a linear interpolation between two vectors.</td></tr>
-<tr><td>static _<a href="VRageMath.Lerp"><code>void Lerp(ref Vector4D value1, ref Vector4D value2, double amount, ref Vector4D result)</code></a>_</td><td>Performs a linear interpolation between two vectors.</td></tr>
-<tr><td>static _<a href="VRageMath.Barycentric"><code>Vector4D Barycentric(Vector4D value1, Vector4D value2, Vector4D value3, double amount1, double amount2)</code></a>_</td><td>Returns a Vector4 containing the 4D Cartesian coordinates of a point specified in barycentric (areal) coordinates relative to a 4D triangle.</td></tr>
-<tr><td>static _<a href="VRageMath.Barycentric"><code>void Barycentric(ref Vector4D value1, ref Vector4D value2, ref Vector4D value3, double amount1, double amount2, ref Vector4D result)</code></a>_</td><td>Returns a Vector4 containing the 4D Cartesian coordinates of a point specified in Barycentric (areal) coordinates relative to a 4D triangle.</td></tr>
-<tr><td>static _<a href="VRageMath.SmoothStep"><code>Vector4D SmoothStep(Vector4D value1, Vector4D value2, double amount)</code></a>_</td><td>Interpolates between two values using a cubic equation.</td></tr>
-<tr><td>static _<a href="VRageMath.SmoothStep"><code>void SmoothStep(ref Vector4D value1, ref Vector4D value2, double amount, ref Vector4D result)</code></a>_</td><td>Interpolates between two values using a cubic equation.</td></tr>
-<tr><td>static _<a href="VRageMath.CatmullRom"><code>Vector4D CatmullRom(Vector4D value1, Vector4D value2, Vector4D value3, Vector4D value4, double amount)</code></a>_</td><td>Performs a Catmull-Rom interpolation using the specified positions.</td></tr>
-<tr><td>static _<a href="VRageMath.CatmullRom"><code>void CatmullRom(ref Vector4D value1, ref Vector4D value2, ref Vector4D value3, ref Vector4D value4, double amount, ref Vector4D result)</code></a>_</td><td>Performs a Catmull-Rom interpolation using the specified positions.</td></tr>
-<tr><td>static _<a href="VRageMath.Hermite"><code>Vector4D Hermite(Vector4D value1, Vector4D tangent1, Vector4D value2, Vector4D tangent2, double amount)</code></a>_</td><td>Performs a Hermite spline interpolation.</td></tr>
-<tr><td>static _<a href="VRageMath.Hermite"><code>void Hermite(ref Vector4D value1, ref Vector4D tangent1, ref Vector4D value2, ref Vector4D tangent2, double amount, ref Vector4D result)</code></a>_</td><td>Performs a Hermite spline interpolation.</td></tr>
-<tr><td>static _<a href="VRageMath.Transform"><code>Vector4D Transform(Vector2 position, MatrixD matrix)</code></a>_</td><td>Transforms a Vector2 by the given Matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.Transform"><code>void Transform(ref Vector2 position, ref MatrixD matrix, ref Vector4D result)</code></a>_</td><td>Transforms a Vector2 by the given Matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.Transform"><code>Vector4D Transform(Vector3D position, MatrixD matrix)</code></a>_</td><td>Transforms a Vector3 by the given Matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.Transform"><code>void Transform(ref Vector3D position, ref MatrixD matrix, ref Vector4D result)</code></a>_</td><td>Transforms a Vector3 by the given Matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.Transform"><code>Vector4D Transform(Vector4D vector, MatrixD matrix)</code></a>_</td><td>Transforms a Vector4 by the specified Matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.Transform"><code>void Transform(ref Vector4D vector, ref MatrixD matrix, ref Vector4D result)</code></a>_</td><td>Transforms a Vector4 by the given Matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.Transform"><code>Vector4D Transform(Vector2 value, Quaternion rotation)</code></a>_</td><td>Transforms a Vector2 by a specified Quaternion into a Vector4.</td></tr>
-<tr><td>static _<a href="VRageMath.Transform"><code>void Transform(ref Vector2 value, ref Quaternion rotation, ref Vector4D result)</code></a>_</td><td>Transforms a Vector2 by a specified Quaternion into a Vector4.</td></tr>
-<tr><td>static _<a href="VRageMath.Transform"><code>Vector4D Transform(Vector3D value, Quaternion rotation)</code></a>_</td><td>Transforms a Vector3 by a specified Quaternion into a Vector4.</td></tr>
-<tr><td>static _<a href="VRageMath.Transform"><code>void Transform(ref Vector3D value, ref Quaternion rotation, ref Vector4D result)</code></a>_</td><td>Transforms a Vector3 by a specified Quaternion into a Vector4.</td></tr>
-<tr><td>static _<a href="VRageMath.Transform"><code>Vector4D Transform(Vector4D value, Quaternion rotation)</code></a>_</td><td>Transforms a Vector4 by a specified Quaternion.</td></tr>
-<tr><td>static _<a href="VRageMath.Transform"><code>void Transform(ref Vector4D value, ref Quaternion rotation, ref Vector4D result)</code></a>_</td><td>Transforms a Vector4 by a specified Quaternion.</td></tr>
-<tr><td>static _<a href="VRageMath.Transform"><code>void Transform(Vector4D[] sourceArray, ref MatrixD matrix, Vector4D[] destinationArray)</code></a>_</td><td>Transforms an array of Vector4s by a specified Matrix.</td></tr>
-<tr><td>static _<a href="VRageMath.Transform"><code>void Transform(Vector4D[] sourceArray, int sourceIndex, ref MatrixD matrix, Vector4D[] destinationArray, int destinationIndex, int length)</code></a>_</td><td>Transforms a specified range in an array of Vector4s by a specified Matrix into a specified range in a destination array.</td></tr>
-<tr><td>static _<a href="VRageMath.Transform"><code>void Transform(Vector4D[] sourceArray, ref Quaternion rotation, Vector4D[] destinationArray)</code></a>_</td><td>Transforms an array of Vector4s by a specified Quaternion.</td></tr>
-<tr><td>static _<a href="VRageMath.Transform"><code>void Transform(Vector4D[] sourceArray, int sourceIndex, ref Quaternion rotation, Vector4D[] destinationArray, int destinationIndex, int length)</code></a>_</td><td>Transforms a specified range in an array of Vector4s by a specified Quaternion into a specified range in a destination array.</td></tr>
-<tr><td>static _<a href="VRageMath.Negate"><code>Vector4D Negate(Vector4D value)</code></a>_</td><td>Returns a vector pointing in the opposite direction.</td></tr>
-<tr><td>static _<a href="VRageMath.Negate"><code>void Negate(ref Vector4D value, ref Vector4D result)</code></a>_</td><td>Returns a vector pointing in the opposite direction.</td></tr>
-<tr><td>static _<a href="VRageMath.Add"><code>Vector4D Add(Vector4D value1, Vector4D value2)</code></a>_</td><td>Adds two vectors.</td></tr>
-<tr><td>static _<a href="VRageMath.Add"><code>void Add(ref Vector4D value1, ref Vector4D value2, ref Vector4D result)</code></a>_</td><td>Adds two vectors.</td></tr>
-<tr><td>static _<a href="VRageMath.Subtract"><code>Vector4 Subtract(Vector4 value1, Vector4 value2)</code></a>_</td><td>Subtracts a vector from a vector.</td></tr>
-<tr><td>static _<a href="VRageMath.Subtract"><code>void Subtract(ref Vector4D value1, ref Vector4D value2, ref Vector4D result)</code></a>_</td><td>Subtracts a vector from a vector.</td></tr>
-<tr><td>static _<a href="VRageMath.Multiply"><code>Vector4D Multiply(Vector4D value1, Vector4D value2)</code></a>_</td><td>Multiplies the components of two vectors by each other.</td></tr>
-<tr><td>static _<a href="VRageMath.Multiply"><code>void Multiply(ref Vector4 value1, ref Vector4 value2, ref Vector4 result)</code></a>_</td><td>Multiplies the components of two vectors by each other.</td></tr>
-<tr><td>static _<a href="VRageMath.Multiply"><code>Vector4D Multiply(Vector4D value1, double scaleFactor)</code></a>_</td><td>Multiplies a vector by a scalar.</td></tr>
-<tr><td>static _<a href="VRageMath.Multiply"><code>void Multiply(ref Vector4D value1, double scaleFactor, ref Vector4D result)</code></a>_</td><td>Multiplies a vector by a scalar value.</td></tr>
-<tr><td>static _<a href="VRageMath.Divide"><code>Vector4D Divide(Vector4D value1, Vector4D value2)</code></a>_</td><td>Divides the components of a vector by the components of another vector.</td></tr>
-<tr><td>static _<a href="VRageMath.Divide"><code>void Divide(ref Vector4D value1, ref Vector4D value2, ref Vector4D result)</code></a>_</td><td>Divides the components of a vector by the components of another vector.</td></tr>
-<tr><td>static _<a href="VRageMath.Divide"><code>Vector4D Divide(Vector4D value1, double divider)</code></a>_</td><td>Divides a vector by a scalar value.</td></tr>
-<tr><td>static _<a href="VRageMath.Divide"><code>void Divide(ref Vector4D value1, double divider, ref Vector4D result)</code></a>_</td><td>Divides a vector by a scalar value.</td></tr>
-</table>
+|Member|Description|
+|---|---|
+|static&nbsp;[`Vector4D&nbsp;PackOrthoMatrix(Vector3D&nbsp;position,&nbsp;Vector3D&nbsp;forward,&nbsp;Vector3D&nbsp;up)`](VRageMath.PackOrthoMatrix)||
+|static&nbsp;[`Vector4D&nbsp;PackOrthoMatrix(ref&nbsp;MatrixD&nbsp;matrix)`](VRageMath.PackOrthoMatrix)||
+|static&nbsp;[`MatrixD&nbsp;UnpackOrthoMatrix(ref&nbsp;Vector4D&nbsp;packed)`](VRageMath.UnpackOrthoMatrix)||
+|[`string&nbsp;ToString()`](VRageMath.ToString)|Retrieves a string representation of the current object.|
+|[`bool&nbsp;Equals(Vector4&nbsp;other)`](VRageMath.Equals)|Determines whether the specified Object is equal to the Vector4.|
+|[`bool&nbsp;Equals(Object&nbsp;obj)`](VRageMath.Equals)|Returns a value that indicates whether the current instance is equal to a specified object.|
+|[`int&nbsp;GetHashCode()`](VRageMath.GetHashCode)|Gets the hash code of this object.|
+|[`double&nbsp;Length()`](VRageMath.Length)|Calculates the length of the vector.|
+|[`double&nbsp;LengthSquared()`](VRageMath.LengthSquared)|Calculates the length of the vector squared.|
+|static&nbsp;[`double&nbsp;Distance(Vector4&nbsp;value1,&nbsp;Vector4&nbsp;value2)`](VRageMath.Distance)|Calculates the distance between two vectors.|
+|static&nbsp;[`void&nbsp;Distance(ref&nbsp;Vector4&nbsp;value1,&nbsp;ref&nbsp;Vector4&nbsp;value2,&nbsp;ref&nbsp;double&nbsp;result)`](VRageMath.Distance)|Calculates the distance between two vectors.|
+|static&nbsp;[`double&nbsp;DistanceSquared(Vector4&nbsp;value1,&nbsp;Vector4&nbsp;value2)`](VRageMath.DistanceSquared)|Calculates the distance between two vectors squared.|
+|static&nbsp;[`void&nbsp;DistanceSquared(ref&nbsp;Vector4&nbsp;value1,&nbsp;ref&nbsp;Vector4&nbsp;value2,&nbsp;ref&nbsp;double&nbsp;result)`](VRageMath.DistanceSquared)|Calculates the distance between two vectors squared.|
+|static&nbsp;[`double&nbsp;Dot(Vector4&nbsp;vector1,&nbsp;Vector4&nbsp;vector2)`](VRageMath.Dot)|Calculates the dot product of two vectors.|
+|static&nbsp;[`void&nbsp;Dot(ref&nbsp;Vector4&nbsp;vector1,&nbsp;ref&nbsp;Vector4&nbsp;vector2,&nbsp;ref&nbsp;double&nbsp;result)`](VRageMath.Dot)|Calculates the dot product of two vectors.|
+|[`void&nbsp;Normalize()`](VRageMath.Normalize)|Turns the current vector into a unit vector.|
+|static&nbsp;[`Vector4D&nbsp;Normalize(Vector4D&nbsp;vector)`](VRageMath.Normalize)|Creates a unit vector from the specified vector.|
+|static&nbsp;[`void&nbsp;Normalize(ref&nbsp;Vector4D&nbsp;vector,&nbsp;ref&nbsp;Vector4D&nbsp;result)`](VRageMath.Normalize)|Returns a normalized version of the specified vector.|
+|static&nbsp;[`Vector4&nbsp;Min(Vector4&nbsp;value1,&nbsp;Vector4&nbsp;value2)`](VRageMath.Min)|Returns a vector that contains the lowest value from each matching pair of components.|
+|static&nbsp;[`void&nbsp;Min(ref&nbsp;Vector4&nbsp;value1,&nbsp;ref&nbsp;Vector4&nbsp;value2,&nbsp;ref&nbsp;Vector4&nbsp;result)`](VRageMath.Min)|Returns a vector that contains the lowest value from each matching pair of components.|
+|static&nbsp;[`Vector4&nbsp;Max(Vector4&nbsp;value1,&nbsp;Vector4&nbsp;value2)`](VRageMath.Max)|Returns a vector that contains the highest value from each matching pair of components.|
+|static&nbsp;[`void&nbsp;Max(ref&nbsp;Vector4&nbsp;value1,&nbsp;ref&nbsp;Vector4&nbsp;value2,&nbsp;ref&nbsp;Vector4&nbsp;result)`](VRageMath.Max)|Returns a vector that contains the highest value from each matching pair of components.|
+|static&nbsp;[`Vector4D&nbsp;Clamp(Vector4D&nbsp;value1,&nbsp;Vector4D&nbsp;min,&nbsp;Vector4D&nbsp;max)`](VRageMath.Clamp)|Restricts a value to be within a specified range.|
+|static&nbsp;[`void&nbsp;Clamp(ref&nbsp;Vector4D&nbsp;value1,&nbsp;ref&nbsp;Vector4D&nbsp;min,&nbsp;ref&nbsp;Vector4D&nbsp;max,&nbsp;ref&nbsp;Vector4D&nbsp;result)`](VRageMath.Clamp)|Restricts a value to be within a specified range.|
+|static&nbsp;[`Vector4D&nbsp;Lerp(Vector4D&nbsp;value1,&nbsp;Vector4D&nbsp;value2,&nbsp;double&nbsp;amount)`](VRageMath.Lerp)|Performs a linear interpolation between two vectors.|
+|static&nbsp;[`void&nbsp;Lerp(ref&nbsp;Vector4D&nbsp;value1,&nbsp;ref&nbsp;Vector4D&nbsp;value2,&nbsp;double&nbsp;amount,&nbsp;ref&nbsp;Vector4D&nbsp;result)`](VRageMath.Lerp)|Performs a linear interpolation between two vectors.|
+|static&nbsp;[`Vector4D&nbsp;Barycentric(Vector4D&nbsp;value1,&nbsp;Vector4D&nbsp;value2,&nbsp;Vector4D&nbsp;value3,&nbsp;double&nbsp;amount1,&nbsp;double&nbsp;amount2)`](VRageMath.Barycentric)|Returns a Vector4 containing the 4D Cartesian coordinates of a point specified in barycentric (areal) coordinates relative to a 4D triangle.|
+|static&nbsp;[`void&nbsp;Barycentric(ref&nbsp;Vector4D&nbsp;value1,&nbsp;ref&nbsp;Vector4D&nbsp;value2,&nbsp;ref&nbsp;Vector4D&nbsp;value3,&nbsp;double&nbsp;amount1,&nbsp;double&nbsp;amount2,&nbsp;ref&nbsp;Vector4D&nbsp;result)`](VRageMath.Barycentric)|Returns a Vector4 containing the 4D Cartesian coordinates of a point specified in Barycentric (areal) coordinates relative to a 4D triangle.|
+|static&nbsp;[`Vector4D&nbsp;SmoothStep(Vector4D&nbsp;value1,&nbsp;Vector4D&nbsp;value2,&nbsp;double&nbsp;amount)`](VRageMath.SmoothStep)|Interpolates between two values using a cubic equation.|
+|static&nbsp;[`void&nbsp;SmoothStep(ref&nbsp;Vector4D&nbsp;value1,&nbsp;ref&nbsp;Vector4D&nbsp;value2,&nbsp;double&nbsp;amount,&nbsp;ref&nbsp;Vector4D&nbsp;result)`](VRageMath.SmoothStep)|Interpolates between two values using a cubic equation.|
+|static&nbsp;[`Vector4D&nbsp;CatmullRom(Vector4D&nbsp;value1,&nbsp;Vector4D&nbsp;value2,&nbsp;Vector4D&nbsp;value3,&nbsp;Vector4D&nbsp;value4,&nbsp;double&nbsp;amount)`](VRageMath.CatmullRom)|Performs a Catmull-Rom interpolation using the specified positions.|
+|static&nbsp;[`void&nbsp;CatmullRom(ref&nbsp;Vector4D&nbsp;value1,&nbsp;ref&nbsp;Vector4D&nbsp;value2,&nbsp;ref&nbsp;Vector4D&nbsp;value3,&nbsp;ref&nbsp;Vector4D&nbsp;value4,&nbsp;double&nbsp;amount,&nbsp;ref&nbsp;Vector4D&nbsp;result)`](VRageMath.CatmullRom)|Performs a Catmull-Rom interpolation using the specified positions.|
+|static&nbsp;[`Vector4D&nbsp;Hermite(Vector4D&nbsp;value1,&nbsp;Vector4D&nbsp;tangent1,&nbsp;Vector4D&nbsp;value2,&nbsp;Vector4D&nbsp;tangent2,&nbsp;double&nbsp;amount)`](VRageMath.Hermite)|Performs a Hermite spline interpolation.|
+|static&nbsp;[`void&nbsp;Hermite(ref&nbsp;Vector4D&nbsp;value1,&nbsp;ref&nbsp;Vector4D&nbsp;tangent1,&nbsp;ref&nbsp;Vector4D&nbsp;value2,&nbsp;ref&nbsp;Vector4D&nbsp;tangent2,&nbsp;double&nbsp;amount,&nbsp;ref&nbsp;Vector4D&nbsp;result)`](VRageMath.Hermite)|Performs a Hermite spline interpolation.|
+|static&nbsp;[`Vector4D&nbsp;Transform(Vector2&nbsp;position,&nbsp;MatrixD&nbsp;matrix)`](VRageMath.Transform)|Transforms a Vector2 by the given Matrix.|
+|static&nbsp;[`void&nbsp;Transform(ref&nbsp;Vector2&nbsp;position,&nbsp;ref&nbsp;MatrixD&nbsp;matrix,&nbsp;ref&nbsp;Vector4D&nbsp;result)`](VRageMath.Transform)|Transforms a Vector2 by the given Matrix.|
+|static&nbsp;[`Vector4D&nbsp;Transform(Vector3D&nbsp;position,&nbsp;MatrixD&nbsp;matrix)`](VRageMath.Transform)|Transforms a Vector3 by the given Matrix.|
+|static&nbsp;[`void&nbsp;Transform(ref&nbsp;Vector3D&nbsp;position,&nbsp;ref&nbsp;MatrixD&nbsp;matrix,&nbsp;ref&nbsp;Vector4D&nbsp;result)`](VRageMath.Transform)|Transforms a Vector3 by the given Matrix.|
+|static&nbsp;[`Vector4D&nbsp;Transform(Vector4D&nbsp;vector,&nbsp;MatrixD&nbsp;matrix)`](VRageMath.Transform)|Transforms a Vector4 by the specified Matrix.|
+|static&nbsp;[`void&nbsp;Transform(ref&nbsp;Vector4D&nbsp;vector,&nbsp;ref&nbsp;MatrixD&nbsp;matrix,&nbsp;ref&nbsp;Vector4D&nbsp;result)`](VRageMath.Transform)|Transforms a Vector4 by the given Matrix.|
+|static&nbsp;[`Vector4D&nbsp;Transform(Vector2&nbsp;value,&nbsp;Quaternion&nbsp;rotation)`](VRageMath.Transform)|Transforms a Vector2 by a specified Quaternion into a Vector4.|
+|static&nbsp;[`void&nbsp;Transform(ref&nbsp;Vector2&nbsp;value,&nbsp;ref&nbsp;Quaternion&nbsp;rotation,&nbsp;ref&nbsp;Vector4D&nbsp;result)`](VRageMath.Transform)|Transforms a Vector2 by a specified Quaternion into a Vector4.|
+|static&nbsp;[`Vector4D&nbsp;Transform(Vector3D&nbsp;value,&nbsp;Quaternion&nbsp;rotation)`](VRageMath.Transform)|Transforms a Vector3 by a specified Quaternion into a Vector4.|
+|static&nbsp;[`void&nbsp;Transform(ref&nbsp;Vector3D&nbsp;value,&nbsp;ref&nbsp;Quaternion&nbsp;rotation,&nbsp;ref&nbsp;Vector4D&nbsp;result)`](VRageMath.Transform)|Transforms a Vector3 by a specified Quaternion into a Vector4.|
+|static&nbsp;[`Vector4D&nbsp;Transform(Vector4D&nbsp;value,&nbsp;Quaternion&nbsp;rotation)`](VRageMath.Transform)|Transforms a Vector4 by a specified Quaternion.|
+|static&nbsp;[`void&nbsp;Transform(ref&nbsp;Vector4D&nbsp;value,&nbsp;ref&nbsp;Quaternion&nbsp;rotation,&nbsp;ref&nbsp;Vector4D&nbsp;result)`](VRageMath.Transform)|Transforms a Vector4 by a specified Quaternion.|
+|static&nbsp;[`void&nbsp;Transform(Vector4D[]&nbsp;sourceArray,&nbsp;ref&nbsp;MatrixD&nbsp;matrix,&nbsp;Vector4D[]&nbsp;destinationArray)`](VRageMath.Transform)|Transforms an array of Vector4s by a specified Matrix.|
+|static&nbsp;[`void&nbsp;Transform(Vector4D[]&nbsp;sourceArray,&nbsp;int&nbsp;sourceIndex,&nbsp;ref&nbsp;MatrixD&nbsp;matrix,&nbsp;Vector4D[]&nbsp;destinationArray,&nbsp;int&nbsp;destinationIndex,&nbsp;int&nbsp;length)`](VRageMath.Transform)|Transforms a specified range in an array of Vector4s by a specified Matrix into a specified range in a destination array.|
+|static&nbsp;[`void&nbsp;Transform(Vector4D[]&nbsp;sourceArray,&nbsp;ref&nbsp;Quaternion&nbsp;rotation,&nbsp;Vector4D[]&nbsp;destinationArray)`](VRageMath.Transform)|Transforms an array of Vector4s by a specified Quaternion.|
+|static&nbsp;[`void&nbsp;Transform(Vector4D[]&nbsp;sourceArray,&nbsp;int&nbsp;sourceIndex,&nbsp;ref&nbsp;Quaternion&nbsp;rotation,&nbsp;Vector4D[]&nbsp;destinationArray,&nbsp;int&nbsp;destinationIndex,&nbsp;int&nbsp;length)`](VRageMath.Transform)|Transforms a specified range in an array of Vector4s by a specified Quaternion into a specified range in a destination array.|
+|static&nbsp;[`Vector4D&nbsp;Negate(Vector4D&nbsp;value)`](VRageMath.Negate)|Returns a vector pointing in the opposite direction.|
+|static&nbsp;[`void&nbsp;Negate(ref&nbsp;Vector4D&nbsp;value,&nbsp;ref&nbsp;Vector4D&nbsp;result)`](VRageMath.Negate)|Returns a vector pointing in the opposite direction.|
+|static&nbsp;[`Vector4D&nbsp;Add(Vector4D&nbsp;value1,&nbsp;Vector4D&nbsp;value2)`](VRageMath.Add)|Adds two vectors.|
+|static&nbsp;[`void&nbsp;Add(ref&nbsp;Vector4D&nbsp;value1,&nbsp;ref&nbsp;Vector4D&nbsp;value2,&nbsp;ref&nbsp;Vector4D&nbsp;result)`](VRageMath.Add)|Adds two vectors.|
+|static&nbsp;[`Vector4&nbsp;Subtract(Vector4&nbsp;value1,&nbsp;Vector4&nbsp;value2)`](VRageMath.Subtract)|Subtracts a vector from a vector.|
+|static&nbsp;[`void&nbsp;Subtract(ref&nbsp;Vector4D&nbsp;value1,&nbsp;ref&nbsp;Vector4D&nbsp;value2,&nbsp;ref&nbsp;Vector4D&nbsp;result)`](VRageMath.Subtract)|Subtracts a vector from a vector.|
+|static&nbsp;[`Vector4D&nbsp;Multiply(Vector4D&nbsp;value1,&nbsp;Vector4D&nbsp;value2)`](VRageMath.Multiply)|Multiplies the components of two vectors by each other.|
+|static&nbsp;[`void&nbsp;Multiply(ref&nbsp;Vector4&nbsp;value1,&nbsp;ref&nbsp;Vector4&nbsp;value2,&nbsp;ref&nbsp;Vector4&nbsp;result)`](VRageMath.Multiply)|Multiplies the components of two vectors by each other.|
+|static&nbsp;[`Vector4D&nbsp;Multiply(Vector4D&nbsp;value1,&nbsp;double&nbsp;scaleFactor)`](VRageMath.Multiply)|Multiplies a vector by a scalar.|
+|static&nbsp;[`void&nbsp;Multiply(ref&nbsp;Vector4D&nbsp;value1,&nbsp;double&nbsp;scaleFactor,&nbsp;ref&nbsp;Vector4D&nbsp;result)`](VRageMath.Multiply)|Multiplies a vector by a scalar value.|
+|static&nbsp;[`Vector4D&nbsp;Divide(Vector4D&nbsp;value1,&nbsp;Vector4D&nbsp;value2)`](VRageMath.Divide)|Divides the components of a vector by the components of another vector.|
+|static&nbsp;[`void&nbsp;Divide(ref&nbsp;Vector4D&nbsp;value1,&nbsp;ref&nbsp;Vector4D&nbsp;value2,&nbsp;ref&nbsp;Vector4D&nbsp;result)`](VRageMath.Divide)|Divides the components of a vector by the components of another vector.|
+|static&nbsp;[`Vector4D&nbsp;Divide(Vector4D&nbsp;value1,&nbsp;double&nbsp;divider)`](VRageMath.Divide)|Divides a vector by a scalar value.|
+|static&nbsp;[`void&nbsp;Divide(ref&nbsp;Vector4D&nbsp;value1,&nbsp;double&nbsp;divider,&nbsp;ref&nbsp;Vector4D&nbsp;result)`](VRageMath.Divide)|Divides a vector by a scalar value.|

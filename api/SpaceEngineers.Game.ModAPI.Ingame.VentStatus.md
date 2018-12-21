@@ -3,9 +3,9 @@
 **Namespace:** [`SpaceEngineers.Game.ModAPI.Ingame`](SpaceEngineers.Game.ModAPI.Ingame)  
 **Assembly:** SpaceEngineers.Game.dll  
 ### Fields
-<table style="width:100%;display:table">
-<tr><td>static _<a href="SpaceEngineers.Game.ModAPI.Ingame.Depressurized"><code>VentStatus Depressurized</code></a>_</td><td>Air vent is depressurized</td></tr>
-<tr><td>static _<a href="SpaceEngineers.Game.ModAPI.Ingame.Depressurizing"><code>VentStatus Depressurizing</code></a>_</td><td>Air vent is in process of depressurizing</td></tr>
-<tr><td>static _<a href="SpaceEngineers.Game.ModAPI.Ingame.Pressurized"><code>VentStatus Pressurized</code></a>_</td><td>Air vent is pressurized</td></tr>
-<tr><td>static _<a href="SpaceEngineers.Game.ModAPI.Ingame.Pressurizing"><code>VentStatus Pressurizing</code></a>_</td><td>Air vent is in process of pressurizing</td></tr>
-</table>
+|Member|Description|
+|---|---|
+|static&nbsp;[`VentStatus&nbsp;Depressurized`](SpaceEngineers.Game.ModAPI.Ingame.Depressurized)|Air vent is depressurized|
+|static&nbsp;[`VentStatus&nbsp;Depressurizing`](SpaceEngineers.Game.ModAPI.Ingame.Depressurizing)|Air vent is in process of depressurizing|
+|static&nbsp;[`VentStatus&nbsp;Pressurized`](SpaceEngineers.Game.ModAPI.Ingame.Pressurized)|Air vent is pressurized|
+|static&nbsp;[`VentStatus&nbsp;Pressurizing`](SpaceEngineers.Game.ModAPI.Ingame.Pressurizing)|Air vent is in process of pressurizing|

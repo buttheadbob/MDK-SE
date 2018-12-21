@@ -3,16 +3,16 @@
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Fields
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRageMath.From"><code>Vector3D From</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.To"><code>Vector3D To</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Direction"><code>Vector3D Direction</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.Length"><code>double Length</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`Vector3D&nbsp;From`](VRageMath.From)||
+|[`Vector3D&nbsp;To`](VRageMath.To)||
+|[`Vector3D&nbsp;Direction`](VRageMath.Direction)||
+|[`double&nbsp;Length`](VRageMath.Length)||
 ### Methods
-<table style="width:100%;display:table">
-<tr><td>static _<a href="VRageMath.GetShortestDistanceSquared"><code>double GetShortestDistanceSquared(LineD line1, LineD line2)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRageMath.GetShortestVector"><code>Vector3D GetShortestVector(ref LineD line1, ref LineD line2, ref Vector3D res1, ref Vector3D res2)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.GetBoundingBox"><code>BoundingBoxD GetBoundingBox()</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRageMath.GetHash"><code>long GetHash()</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|static&nbsp;[`double&nbsp;GetShortestDistanceSquared(LineD&nbsp;line1,&nbsp;LineD&nbsp;line2)`](VRageMath.GetShortestDistanceSquared)||
+|static&nbsp;[`Vector3D&nbsp;GetShortestVector(ref&nbsp;LineD&nbsp;line1,&nbsp;ref&nbsp;LineD&nbsp;line2,&nbsp;ref&nbsp;Vector3D&nbsp;res1,&nbsp;ref&nbsp;Vector3D&nbsp;res2)`](VRageMath.GetShortestVector)||
+|[`BoundingBoxD&nbsp;GetBoundingBox()`](VRageMath.GetBoundingBox)||
+|[`long&nbsp;GetHash()`](VRageMath.GetHash)||

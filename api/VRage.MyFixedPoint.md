@@ -5,34 +5,34 @@
 ## Summary
 Fixed point number represented as 64-bit integer with 6 decimal places (one millionts)
 ### Fields
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRage.RawValue"><code>long RawValue</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRage.MinValue"><code>MyFixedPoint MinValue</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRage.MaxValue"><code>MyFixedPoint MaxValue</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRage.Zero"><code>MyFixedPoint Zero</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRage.SmallestPossibleValue"><code>MyFixedPoint SmallestPossibleValue</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRage.MaxIntValue"><code>MyFixedPoint MaxIntValue</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRage.MinIntValue"><code>MyFixedPoint MinIntValue</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`long&nbsp;RawValue`](VRage.RawValue)||
+|static&nbsp;[`MyFixedPoint&nbsp;MinValue`](VRage.MinValue)||
+|static&nbsp;[`MyFixedPoint&nbsp;MaxValue`](VRage.MaxValue)||
+|static&nbsp;[`MyFixedPoint&nbsp;Zero`](VRage.Zero)||
+|static&nbsp;[`MyFixedPoint&nbsp;SmallestPossibleValue`](VRage.SmallestPossibleValue)||
+|static&nbsp;[`MyFixedPoint&nbsp;MaxIntValue`](VRage.MaxIntValue)||
+|static&nbsp;[`MyFixedPoint&nbsp;MinIntValue`](VRage.MinIntValue)||
 ### Methods
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRage.SerializeString"><code>string SerializeString()</code></a>_</td><td>For XmlSerialization, format is 123.456789</td></tr>
-<tr><td>static _<a href="VRage.DeserializeStringSafe"><code>MyFixedPoint DeserializeStringSafe(string text)</code></a>_</td><td>For XmlSerialization, format is 123.456789 Handles double and decimal formats too.</td></tr>
-<tr><td>static _<a href="VRage.DeserializeString"><code>MyFixedPoint DeserializeString(string text)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRage.IsIntegral"><code>bool IsIntegral(MyFixedPoint fp)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRage.Ceiling"><code>MyFixedPoint Ceiling(MyFixedPoint a)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRage.Floor"><code>MyFixedPoint Floor(MyFixedPoint a)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRage.Min"><code>MyFixedPoint Min(MyFixedPoint a, MyFixedPoint b)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRage.Max"><code>MyFixedPoint Max(MyFixedPoint a, MyFixedPoint b)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRage.Round"><code>MyFixedPoint Round(MyFixedPoint a)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRage.AddSafe"><code>MyFixedPoint AddSafe(MyFixedPoint a, MyFixedPoint b)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRage.MultiplySafe"><code>MyFixedPoint MultiplySafe(MyFixedPoint a, float b)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRage.MultiplySafe"><code>MyFixedPoint MultiplySafe(MyFixedPoint a, int b)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRage.MultiplySafe"><code>MyFixedPoint MultiplySafe(float a, MyFixedPoint b)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRage.MultiplySafe"><code>MyFixedPoint MultiplySafe(int a, MyFixedPoint b)</code></a>_</td><td></td></tr>
-<tr><td>static _<a href="VRage.MultiplySafe"><code>MyFixedPoint MultiplySafe(MyFixedPoint a, MyFixedPoint b)</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRage.ToIntSafe"><code>int ToIntSafe()</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRage.ToString"><code>string ToString()</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRage.GetHashCode"><code>int GetHashCode()</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRage.Equals"><code>bool Equals(Object obj)</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`string&nbsp;SerializeString()`](VRage.SerializeString)|For XmlSerialization, format is 123.456789|
+|static&nbsp;[`MyFixedPoint&nbsp;DeserializeStringSafe(string&nbsp;text)`](VRage.DeserializeStringSafe)|For XmlSerialization, format is 123.456789 Handles double and decimal formats too.|
+|static&nbsp;[`MyFixedPoint&nbsp;DeserializeString(string&nbsp;text)`](VRage.DeserializeString)||
+|static&nbsp;[`bool&nbsp;IsIntegral(MyFixedPoint&nbsp;fp)`](VRage.IsIntegral)||
+|static&nbsp;[`MyFixedPoint&nbsp;Ceiling(MyFixedPoint&nbsp;a)`](VRage.Ceiling)||
+|static&nbsp;[`MyFixedPoint&nbsp;Floor(MyFixedPoint&nbsp;a)`](VRage.Floor)||
+|static&nbsp;[`MyFixedPoint&nbsp;Min(MyFixedPoint&nbsp;a,&nbsp;MyFixedPoint&nbsp;b)`](VRage.Min)||
+|static&nbsp;[`MyFixedPoint&nbsp;Max(MyFixedPoint&nbsp;a,&nbsp;MyFixedPoint&nbsp;b)`](VRage.Max)||
+|static&nbsp;[`MyFixedPoint&nbsp;Round(MyFixedPoint&nbsp;a)`](VRage.Round)||
+|static&nbsp;[`MyFixedPoint&nbsp;AddSafe(MyFixedPoint&nbsp;a,&nbsp;MyFixedPoint&nbsp;b)`](VRage.AddSafe)||
+|static&nbsp;[`MyFixedPoint&nbsp;MultiplySafe(MyFixedPoint&nbsp;a,&nbsp;float&nbsp;b)`](VRage.MultiplySafe)||
+|static&nbsp;[`MyFixedPoint&nbsp;MultiplySafe(MyFixedPoint&nbsp;a,&nbsp;int&nbsp;b)`](VRage.MultiplySafe)||
+|static&nbsp;[`MyFixedPoint&nbsp;MultiplySafe(float&nbsp;a,&nbsp;MyFixedPoint&nbsp;b)`](VRage.MultiplySafe)||
+|static&nbsp;[`MyFixedPoint&nbsp;MultiplySafe(int&nbsp;a,&nbsp;MyFixedPoint&nbsp;b)`](VRage.MultiplySafe)||
+|static&nbsp;[`MyFixedPoint&nbsp;MultiplySafe(MyFixedPoint&nbsp;a,&nbsp;MyFixedPoint&nbsp;b)`](VRage.MultiplySafe)||
+|[`int&nbsp;ToIntSafe()`](VRage.ToIntSafe)||
+|[`string&nbsp;ToString()`](VRage.ToString)||
+|[`int&nbsp;GetHashCode()`](VRage.GetHashCode)||
+|[`bool&nbsp;Equals(Object&nbsp;obj)`](VRage.Equals)||

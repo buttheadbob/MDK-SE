@@ -3,21 +3,21 @@
 **Namespace:** [`VRage.ObjectBuilders`](VRage.ObjectBuilders)  
 **Assembly:** VRage.Game.dll  
 ### Fields
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRage.ObjectBuilders.TypeId"><code>MyObjectBuilderType TypeId</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRage.ObjectBuilders.SubtypeName"><code>string SubtypeName</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`MyObjectBuilderType&nbsp;TypeId`](VRage.ObjectBuilders.TypeId)||
+|[`string&nbsp;SubtypeName`](VRage.ObjectBuilders.SubtypeName)||
 ### Properties
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRage.ObjectBuilders.TypeIdStringAttribute"><code>string TypeIdStringAttribute</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRage.ObjectBuilders.TypeIdString"><code>string TypeIdString</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRage.ObjectBuilders.SubtypeIdAttribute"><code>string SubtypeIdAttribute</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRage.ObjectBuilders.SubtypeId"><code>string SubtypeId</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`string&nbsp;TypeIdStringAttribute`](VRage.ObjectBuilders.TypeIdStringAttribute)||
+|[`string&nbsp;TypeIdString`](VRage.ObjectBuilders.TypeIdString)||
+|[`string&nbsp;SubtypeIdAttribute`](VRage.ObjectBuilders.SubtypeIdAttribute)||
+|[`string&nbsp;SubtypeId`](VRage.ObjectBuilders.SubtypeId)||
 ### Methods
-<table style="width:100%;display:table">
-<tr><td>_<a href="VRage.ObjectBuilders.ShouldSerializeTypeIdString"><code>bool ShouldSerializeTypeIdString()</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRage.ObjectBuilders.ShouldSerializeSubtypeId"><code>bool ShouldSerializeSubtypeId()</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRage.ObjectBuilders.ToString"><code>string ToString()</code></a>_</td><td></td></tr>
-<tr><td>_<a href="VRage.ObjectBuilders.IsNull"><code>bool IsNull()</code></a>_</td><td></td></tr>
-</table>
+|Member|Description|
+|---|---|
+|[`bool&nbsp;ShouldSerializeTypeIdString()`](VRage.ObjectBuilders.ShouldSerializeTypeIdString)||
+|[`bool&nbsp;ShouldSerializeSubtypeId()`](VRage.ObjectBuilders.ShouldSerializeSubtypeId)||
+|[`string&nbsp;ToString()`](VRage.ObjectBuilders.ToString)||
+|[`bool&nbsp;IsNull()`](VRage.ObjectBuilders.IsNull)||

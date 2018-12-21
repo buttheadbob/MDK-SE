@@ -9,11 +9,17 @@ Do not forget that parsing is a time-consuming task. Keep your parsing to a mini
 ## Example
 Using MyIni to deal with CustomData end-user configuration:
 The CustomData:
+```csharp
 [kernel] output=DebugTextPanel bootText= |-- HAL9000 -- |Good morning, Dave.
+```
 The code:
+```csharp
 MyIni _ini = new MyIni(); IMyTextPanel _outputTextPanel; public Program() { MyIniParseResult result; if (!_ini.TryParse(Me.CustomData, out result) { Echo($"CustomData error:\nLine {result}"); } // Get the kernel section's output value. If this value is set, the system attempts // to retrieve a text panel with the value set. Otherwise output is ignored. var name = _ini.Get("kernel", "output").ToString(); if (name != null) { _outputTextPanel = GridTerminalSystem.GetBlockWithName<IMyTextPanel>(name); if (_outputTextPanel == null) Echo($"No text panel named {name}"); } // Get the kernel section's boottext value. If no value is given, a default value will be returned. var bootText = _ini.Get("kernel", "bootText").ToString("Kernel is starting up..."); _outputTextPanel?.WritePublicText(bootText); } public void Main() { // Do your stuff. Only parse the configuration when you have to. }
+```
 Using MyIni to deal with internal storage:
+```csharp
 MyIni _storage = new MyIni(); Vector3D _startupPosition; bool _hasTarget; Vector3D _currentTarget; public Program() { // You only need to parse here in the constructor. if (_ini.TryParse(Storage) { var str = _ini.Get("state", "startupPosition").ToString(); Vector3D.TryParse(str, out _startupPosition); str = _ini.Get("state", "currentTarget").ToString(); Vector3D.TryParse(str, out _currentTarget); _hasTarget = _ini.Get("state", "hasTarget").ToBoolean(); } else { // Set up defaults, the storage is nonexistent or corrupt _startupPosition = Me.CubeGrid.Position; } } public void Save() { // You only need to update Storage when the Save method is called. _ini.Set("state", "startupPosition", _startupPosition); _ini.Set("state", "currentTarget", _currentTarget); Storage = _ini.ToString(); } public void Main() { // Do your stuff }
+```
 
 ## Remarks
 This class is NOT THREAD SAFE as it's optimized for programmable block use.
@@ -32,11 +38,11 @@ This class is NOT THREAD SAFE as it's optimized for programmable block use.
 |[`void GetKeys(string section, List<MyIniKey> keys)`](VRage.Game.ModAPI.Ingame.Utilities.GetKeys)||
 |[`void GetKeys(List<MyIniKey> keys)`](VRage.Game.ModAPI.Ingame.Utilities.GetKeys)|Fills the provided list with all configuration keys within the currently parsed configuration.|
 |[`void GetSections(List<string> names)`](VRage.Game.ModAPI.Ingame.Utilities.GetSections)|Fills the provided list with the names of all the sections in the currently parsed configuration.|
-|[`void SetEndComment(string comment)`](VRage.Game.ModAPI.Ingame.Utilities.SetEndComment)|Sets a comment to be placed after the last section or item. Set the comment tonullto remove it.|
-|[`string GetSectionComment(string section)`](VRage.Game.ModAPI.Ingame.Utilities.GetSectionComment)|Get any comment that might be associated with the given section. Returnsnullif the section does not exist or has no comment.|
+|[`void SetEndComment(string comment)`](VRage.Game.ModAPI.Ingame.Utilities.SetEndComment)|Sets a comment to be placed after the last section or item. Set the comment to`<br/>null`<br/>to remove it.|
+|[`string GetSectionComment(string section)`](VRage.Game.ModAPI.Ingame.Utilities.GetSectionComment)|Get any comment that might be associated with the given section. Returns`<br/>null`<br/>if the section does not exist or has no comment.|
 |[`void SetSectionComment(string section, string comment)`](VRage.Game.ModAPI.Ingame.Utilities.SetSectionComment)||
 |[`string GetComment(string section, string name)`](VRage.Game.ModAPI.Ingame.Utilities.GetComment)||
-|[`string GetComment(MyIniKey key)`](VRage.Game.ModAPI.Ingame.Utilities.GetComment)|Gets any comment that might be associated with the given key. Returnsnullif the key does not exist or has no comment.|
+|[`string GetComment(MyIniKey key)`](VRage.Game.ModAPI.Ingame.Utilities.GetComment)|Gets any comment that might be associated with the given key. Returns`<br/>null`<br/>if the key does not exist or has no comment.|
 |[`void SetComment(string section, string name, string comment)`](VRage.Game.ModAPI.Ingame.Utilities.SetComment)||
 |[`void SetComment(MyIniKey key, string comment)`](VRage.Game.ModAPI.Ingame.Utilities.SetComment)||
 |[`MyIniValue Get(string section, string name)`](VRage.Game.ModAPI.Ingame.Utilities.Get)||

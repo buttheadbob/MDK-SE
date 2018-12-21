@@ -108,6 +108,10 @@ Types related to the grid program and grid terminal system
 Types related to the terminal properties and actions. You should endeavour to avoid the use of these if possible due to their extra overhead. There are usually proper interface members available instead, which are orders of magnitude faster in use.
 
 [`TerminalBlockExtentions`](Sandbox.ModAPI.Ingame.TerminalBlockExtentions)  
+[`ITerminalProperty`](Sandbox.ModAPI.Interfaces.ITerminalProperty)  
+[`TerminalPropertyExtensions`](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions)  
+[`ITerminalAction`](Sandbox.ModAPI.Interfaces.ITerminalAction)  
+[`ITerminalProperty<TValue>`](Sandbox.ModAPI.Interfaces.ITerminalProperty)  
 ### Math
 
 Math utilities
@@ -250,9 +254,6 @@ Types that don't fit into a specific category
 [`TerminalActionParameter`](Sandbox.ModAPI.Ingame.TerminalActionParameter)  
 [`DoorStatus`](Sandbox.ModAPI.Ingame.DoorStatus)  
 [`MyProductionItem`](Sandbox.ModAPI.Ingame.MyProductionItem)  
-[`ITerminalProperty`](Sandbox.ModAPI.Interfaces.ITerminalProperty)  
-[`TerminalPropertyExtensions`](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions)  
-[`ITerminalAction`](Sandbox.ModAPI.Interfaces.ITerminalAction)  
 [`MyDetectedEntityType`](Sandbox.ModAPI.Ingame.MyDetectedEntityType)  
 [`MyDetectedEntityInfo`](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo)  
 [`MySpaceTexts`](Sandbox.Game.Localization.MySpaceTexts)  
@@ -294,7 +295,6 @@ Types that don't fit into a specific category
 [`MyTuple<T1, T2, T3, T4>`](VRage.MyTuple)  
 [`MyTuple<T1, T2, T3, T4, T5>`](VRage.MyTuple)  
 [`MyTuple<T1, T2, T3, T4, T5, T6>`](VRage.MyTuple)  
-[`ITerminalProperty<TValue>`](Sandbox.ModAPI.Interfaces.ITerminalProperty)  
 [`MyResourceSinkComponent`](Sandbox.Game.EntityComponents.MyResourceSinkComponent)  
 [`MyResourceSourceComponent`](Sandbox.Game.EntityComponents.MyResourceSourceComponent)  
 [`IMyAttachableTopBlock`](Sandbox.ModAPI.Ingame.IMyAttachableTopBlock)  

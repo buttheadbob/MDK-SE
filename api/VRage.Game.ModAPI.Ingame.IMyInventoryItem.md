@@ -3,9 +3,9 @@
 **Namespace:** [`VRage.Game.ModAPI.Ingame`](VRage.Game.ModAPI.Ingame)  
 **Assembly:** VRage.Game.dll  
 ### Properties
-|Member|Description|
-|---|---|
-|[`MyFixedPoint Amount`](VRage.Game.ModAPI.Ingame.Amount)||
-|[`float Scale`](VRage.Game.ModAPI.Ingame.Scale)||
-|[`MyObjectBuilder_Base Content`](VRage.Game.ModAPI.Ingame.Content)||
-|[`uint ItemId`](VRage.Game.ModAPI.Ingame.ItemId)||
+<table style="width: 100%">
+<tr><td>[`MyFixedPoint Amount`](VRage.Game.ModAPI.Ingame.Amount)</td><td></td></tr>
+<tr><td>[`float Scale`](VRage.Game.ModAPI.Ingame.Scale)</td><td></td></tr>
+<tr><td>[`MyObjectBuilder_Base Content`](VRage.Game.ModAPI.Ingame.Content)</td><td></td></tr>
+<tr><td>[`uint ItemId`](VRage.Game.ModAPI.Ingame.ItemId)</td><td></td></tr>
+</table>

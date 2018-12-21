@@ -5,16 +5,16 @@
 ## Summary
 Defines a matrix.
 ### Fields
-|Member|Description|
-|---|---|
-|[`Vector3 Position`](VRageMath.Position)||
-|[`HalfVector4 Orientation`](VRageMath.Orientation)||
+<table style="width: 100%">
+<tr><td>[`Vector3 Position`](VRageMath.Position)</td><td></td></tr>
+<tr><td>[`HalfVector4 Orientation`](VRageMath.Orientation)</td><td></td></tr>
+</table>
 ### Properties
-|Member|Description|
-|---|---|
-|[`Matrix Matrix`](VRageMath.Matrix)||
+<table style="width: 100%">
+<tr><td>[`Matrix Matrix`](VRageMath.Matrix)</td><td></td></tr>
+</table>
 ### Methods
-|Member|Description|
-|---|---|
-|[`void FromMatrix(ref Matrix matrix)`](VRageMath.FromMatrix)||
-|[`void ToMatrix(ref Matrix result)`](VRageMath.ToMatrix)||
+<table style="width: 100%">
+<tr><td>[`void FromMatrix(ref Matrix matrix)`](VRageMath.FromMatrix)</td><td></td></tr>
+<tr><td>[`void ToMatrix(ref Matrix result)`](VRageMath.ToMatrix)</td><td></td></tr>
+</table>

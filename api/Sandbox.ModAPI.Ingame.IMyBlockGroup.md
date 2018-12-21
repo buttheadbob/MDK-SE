@@ -3,12 +3,12 @@
 **Namespace:** [`Sandbox.ModAPI.Ingame`](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll  
 ### Properties
-|Member|Description|
-|---|---|
-|[`string Name`](Sandbox.ModAPI.Ingame.Name)||
+<table style="width: 100%">
+<tr><td>[`string Name`](Sandbox.ModAPI.Ingame.Name)</td><td></td></tr>
+</table>
 ### Methods
-|Member|Description|
-|---|---|
-|[`void GetBlocks(List<IMyTerminalBlock> blocks, Func<IMyTerminalBlock, bool> collect)`](Sandbox.ModAPI.Ingame.GetBlocks)||
-|[`void GetBlocksOfType<T>(List<IMyTerminalBlock> blocks, Func<IMyTerminalBlock, bool> collect)`](Sandbox.ModAPI.Ingame.GetBlocksOfType)||
-|[`void GetBlocksOfType<T>(List<T> blocks, Func<T, bool> collect)`](Sandbox.ModAPI.Ingame.GetBlocksOfType)||
+<table style="width: 100%">
+<tr><td>[`void GetBlocks(List<IMyTerminalBlock> blocks, Func<IMyTerminalBlock, bool> collect)`](Sandbox.ModAPI.Ingame.GetBlocks)</td><td></td></tr>
+<tr><td>[`void GetBlocksOfType<T>(List<IMyTerminalBlock> blocks, Func<IMyTerminalBlock, bool> collect)`](Sandbox.ModAPI.Ingame.GetBlocksOfType)</td><td></td></tr>
+<tr><td>[`void GetBlocksOfType<T>(List<T> blocks, Func<T, bool> collect)`](Sandbox.ModAPI.Ingame.GetBlocksOfType)</td><td></td></tr>
+</table>

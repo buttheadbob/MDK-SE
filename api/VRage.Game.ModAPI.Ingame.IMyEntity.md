@@ -5,22 +5,22 @@
 ## Summary
 Ingame (Programmable Block) interface for all entities.
 ### Properties
-|Member|Description|
-|---|---|
-|[`MyEntityComponentContainer Components`](VRage.Game.ModAPI.Ingame.Components)||
-|[`long EntityId`](VRage.Game.ModAPI.Ingame.EntityId)||
-|[`string Name`](VRage.Game.ModAPI.Ingame.Name)||
-|[`string DisplayName`](VRage.Game.ModAPI.Ingame.DisplayName)||
-|[`bool HasInventory`](VRage.Game.ModAPI.Ingame.HasInventory)|Returns true if this entity has got at least one inventory. Note that one aggregate inventory can contain zero simple inventories => zero will be returned even if GetInventory() != null.|
-|[`int InventoryCount`](VRage.Game.ModAPI.Ingame.InventoryCount)|Returns the count of the number of inventories this entity has.|
-|[`BoundingBoxD WorldAABB`](VRage.Game.ModAPI.Ingame.WorldAABB)||
-|[`BoundingBoxD WorldAABBHr`](VRage.Game.ModAPI.Ingame.WorldAABBHr)||
-|[`MatrixD WorldMatrix`](VRage.Game.ModAPI.Ingame.WorldMatrix)||
-|[`BoundingSphereD WorldVolume`](VRage.Game.ModAPI.Ingame.WorldVolume)||
-|[`BoundingSphereD WorldVolumeHr`](VRage.Game.ModAPI.Ingame.WorldVolumeHr)||
+<table style="width: 100%">
+<tr><td>[`MyEntityComponentContainer Components`](VRage.Game.ModAPI.Ingame.Components)</td><td></td></tr>
+<tr><td>[`long EntityId`](VRage.Game.ModAPI.Ingame.EntityId)</td><td></td></tr>
+<tr><td>[`string Name`](VRage.Game.ModAPI.Ingame.Name)</td><td></td></tr>
+<tr><td>[`string DisplayName`](VRage.Game.ModAPI.Ingame.DisplayName)</td><td></td></tr>
+<tr><td>[`bool HasInventory`](VRage.Game.ModAPI.Ingame.HasInventory)</td><td>Returns true if this entity has got at least one inventory. Note that one aggregate inventory can contain zero simple inventories => zero will be returned even if GetInventory() != null.</td></tr>
+<tr><td>[`int InventoryCount`](VRage.Game.ModAPI.Ingame.InventoryCount)</td><td>Returns the count of the number of inventories this entity has.</td></tr>
+<tr><td>[`BoundingBoxD WorldAABB`](VRage.Game.ModAPI.Ingame.WorldAABB)</td><td></td></tr>
+<tr><td>[`BoundingBoxD WorldAABBHr`](VRage.Game.ModAPI.Ingame.WorldAABBHr)</td><td></td></tr>
+<tr><td>[`MatrixD WorldMatrix`](VRage.Game.ModAPI.Ingame.WorldMatrix)</td><td></td></tr>
+<tr><td>[`BoundingSphereD WorldVolume`](VRage.Game.ModAPI.Ingame.WorldVolume)</td><td></td></tr>
+<tr><td>[`BoundingSphereD WorldVolumeHr`](VRage.Game.ModAPI.Ingame.WorldVolumeHr)</td><td></td></tr>
+</table>
 ### Methods
-|Member|Description|
-|---|---|
-|[`IMyInventory GetInventory()`](VRage.Game.ModAPI.Ingame.GetInventory)|Simply get the MyInventoryBase component stored in this entity.|
-|[`IMyInventory GetInventory(int index)`](VRage.Game.ModAPI.Ingame.GetInventory)|Search for inventory component with maching index.|
-|[`Vector3D GetPosition()`](VRage.Game.ModAPI.Ingame.GetPosition)||
+<table style="width: 100%">
+<tr><td>[`IMyInventory GetInventory()`](VRage.Game.ModAPI.Ingame.GetInventory)</td><td>Simply get the MyInventoryBase component stored in this entity.</td></tr>
+<tr><td>[`IMyInventory GetInventory(int index)`](VRage.Game.ModAPI.Ingame.GetInventory)</td><td>Search for inventory component with maching index.</td></tr>
+<tr><td>[`Vector3D GetPosition()`](VRage.Game.ModAPI.Ingame.GetPosition)</td><td></td></tr>
+</table>

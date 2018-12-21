@@ -3,23 +3,23 @@
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Fields
-|Member|Description|
-|---|---|
-|[`sbyte X`](VRageMath.X)||
-|[`sbyte Y`](VRageMath.Y)||
-|[`sbyte Z`](VRageMath.Z)||
-|static [`Vector3B Zero`](VRageMath.Zero)||
-|static [`Vector3B Up`](VRageMath.Up)||
-|static [`Vector3B Down`](VRageMath.Down)||
-|static [`Vector3B Right`](VRageMath.Right)||
-|static [`Vector3B Left`](VRageMath.Left)||
-|static [`Vector3B Forward`](VRageMath.Forward)||
-|static [`Vector3B Backward`](VRageMath.Backward)||
+<table style="width: 100%">
+<tr><td>[`sbyte X`](VRageMath.X)</td><td></td></tr>
+<tr><td>[`sbyte Y`](VRageMath.Y)</td><td></td></tr>
+<tr><td>[`sbyte Z`](VRageMath.Z)</td><td></td></tr>
+<tr><td>static [`Vector3B Zero`](VRageMath.Zero)</td><td></td></tr>
+<tr><td>static [`Vector3B Up`](VRageMath.Up)</td><td></td></tr>
+<tr><td>static [`Vector3B Down`](VRageMath.Down)</td><td></td></tr>
+<tr><td>static [`Vector3B Right`](VRageMath.Right)</td><td></td></tr>
+<tr><td>static [`Vector3B Left`](VRageMath.Left)</td><td></td></tr>
+<tr><td>static [`Vector3B Forward`](VRageMath.Forward)</td><td></td></tr>
+<tr><td>static [`Vector3B Backward`](VRageMath.Backward)</td><td></td></tr>
+</table>
 ### Methods
-|Member|Description|
-|---|---|
-|[`string ToString()`](VRageMath.ToString)||
-|[`int GetHashCode()`](VRageMath.GetHashCode)||
-|[`bool Equals(Object obj)`](VRageMath.Equals)||
-|static [`Vector3B Round(Vector3 vec)`](VRageMath.Round)||
-|static [`Vector3B Fit(Vector3 vec, float range)`](VRageMath.Fit)|Puts Vector3 into Vector3B, value -127 represents -range, 128 represents range|
+<table style="width: 100%">
+<tr><td>[`string ToString()`](VRageMath.ToString)</td><td></td></tr>
+<tr><td>[`int GetHashCode()`](VRageMath.GetHashCode)</td><td></td></tr>
+<tr><td>[`bool Equals(Object obj)`](VRageMath.Equals)</td><td></td></tr>
+<tr><td>static [`Vector3B Round(Vector3 vec)`](VRageMath.Round)</td><td></td></tr>
+<tr><td>static [`Vector3B Fit(Vector3 vec, float range)`](VRageMath.Fit)</td><td>Puts Vector3 into Vector3B, value -127 represents -range, 128 represents range</td></tr>
+</table>

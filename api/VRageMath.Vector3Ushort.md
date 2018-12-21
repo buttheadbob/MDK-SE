@@ -3,12 +3,12 @@
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Fields
-|Member|Description|
-|---|---|
-|[`ushort X`](VRageMath.X)||
-|[`ushort Y`](VRageMath.Y)||
-|[`ushort Z`](VRageMath.Z)||
+<table style="width: 100%">
+<tr><td>[`ushort X`](VRageMath.X)</td><td></td></tr>
+<tr><td>[`ushort Y`](VRageMath.Y)</td><td></td></tr>
+<tr><td>[`ushort Z`](VRageMath.Z)</td><td></td></tr>
+</table>
 ### Methods
-|Member|Description|
-|---|---|
-|[`string ToString()`](VRageMath.ToString)||
+<table style="width: 100%">
+<tr><td>[`string ToString()`](VRageMath.ToString)</td><td></td></tr>
+</table>

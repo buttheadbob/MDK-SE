@@ -3,7 +3,7 @@
 **Namespace:** [`VRage.ObjectBuilders`](VRage.ObjectBuilders)  
 **Assembly:** VRage.Game.dll  
 ### Properties
-|Member|Description|
-|---|---|
-|[`MyStringHash SubtypeId`](VRage.ObjectBuilders.SubtypeId)||
-|[`MyObjectBuilderType TypeId`](VRage.ObjectBuilders.TypeId)||
+<table style="width: 100%">
+<tr><td>[`MyStringHash SubtypeId`](VRage.ObjectBuilders.SubtypeId)</td><td></td></tr>
+<tr><td>[`MyObjectBuilderType TypeId`](VRage.ObjectBuilders.TypeId)</td><td></td></tr>
+</table>

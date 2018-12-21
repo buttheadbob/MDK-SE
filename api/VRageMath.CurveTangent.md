@@ -5,8 +5,8 @@
 ## Summary
 Specifies different tangent types to be calculated for CurveKey points in a Curve.
 ### Fields
-|Member|Description|
-|---|---|
-|static [`CurveTangent Flat`](VRageMath.Flat)||
-|static [`CurveTangent Linear`](VRageMath.Linear)||
-|static [`CurveTangent Smooth`](VRageMath.Smooth)||
+<table style="width: 100%">
+<tr><td>static [`CurveTangent Flat`](VRageMath.Flat)</td><td></td></tr>
+<tr><td>static [`CurveTangent Linear`](VRageMath.Linear)</td><td></td></tr>
+<tr><td>static [`CurveTangent Smooth`](VRageMath.Smooth)</td><td></td></tr>
+</table>

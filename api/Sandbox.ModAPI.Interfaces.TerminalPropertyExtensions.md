@@ -5,23 +5,23 @@
 ## Summary
 Terminal block extension for property access
 ### Methods
-|Member|Description|
-|---|---|
-|static [`ITerminalProperty<TValue> As<TValue>(ITerminalProperty property)`](Sandbox.ModAPI.Interfaces.As)||
-|static [`ITerminalProperty<TValue> Cast<TValue>(ITerminalProperty property)`](Sandbox.ModAPI.Interfaces.Cast)||
-|static [`bool Is<TValue>(ITerminalProperty property)`](Sandbox.ModAPI.Interfaces.Is)||
-|static [`ITerminalProperty<float> AsFloat(ITerminalProperty property)`](Sandbox.ModAPI.Interfaces.AsFloat)|Property type cast|
-|static [`ITerminalProperty<Color> AsColor(ITerminalProperty property)`](Sandbox.ModAPI.Interfaces.AsColor)|Property type cast|
-|static [`ITerminalProperty<bool> AsBool(ITerminalProperty property)`](Sandbox.ModAPI.Interfaces.AsBool)|Property type cast|
-|static [`float GetValueFloat(IMyTerminalBlock block, string propertyId)`](Sandbox.ModAPI.Interfaces.GetValueFloat)|Returns value of specified property|
-|static [`void SetValueFloat(IMyTerminalBlock block, string propertyId, float value)`](Sandbox.ModAPI.Interfaces.SetValueFloat)|Set float value of property|
-|static [`bool GetValueBool(IMyTerminalBlock block, string propertyId)`](Sandbox.ModAPI.Interfaces.GetValueBool)|Returns value of specified property|
-|static [`void SetValueBool(IMyTerminalBlock block, string propertyId, bool value)`](Sandbox.ModAPI.Interfaces.SetValueBool)|Set bool value of property|
-|static [`Color GetValueColor(IMyTerminalBlock block, string propertyId)`](Sandbox.ModAPI.Interfaces.GetValueColor)|Returns value of specified property|
-|static [`void SetValueColor(IMyTerminalBlock block, string propertyId, Color value)`](Sandbox.ModAPI.Interfaces.SetValueColor)|Set bool value of property|
-|static [`T GetValue<T>(IMyTerminalBlock block, string propertyId)`](Sandbox.ModAPI.Interfaces.GetValue)||
-|static [`T GetDefaultValue<T>(IMyTerminalBlock block, string propertyId)`](Sandbox.ModAPI.Interfaces.GetDefaultValue)||
-|static [`T GetMininum<T>(IMyTerminalBlock block, string propertyId)`](Sandbox.ModAPI.Interfaces.GetMininum)||
-|static [`T GetMinimum<T>(IMyTerminalBlock block, string propertyId)`](Sandbox.ModAPI.Interfaces.GetMinimum)||
-|static [`T GetMaximum<T>(IMyTerminalBlock block, string propertyId)`](Sandbox.ModAPI.Interfaces.GetMaximum)||
-|static [`void SetValue<T>(IMyTerminalBlock block, string propertyId, T value)`](Sandbox.ModAPI.Interfaces.SetValue)||
+<table style="width: 100%">
+<tr><td>static [`ITerminalProperty<TValue> As<TValue>(ITerminalProperty property)`](Sandbox.ModAPI.Interfaces.As)</td><td></td></tr>
+<tr><td>static [`ITerminalProperty<TValue> Cast<TValue>(ITerminalProperty property)`](Sandbox.ModAPI.Interfaces.Cast)</td><td></td></tr>
+<tr><td>static [`bool Is<TValue>(ITerminalProperty property)`](Sandbox.ModAPI.Interfaces.Is)</td><td></td></tr>
+<tr><td>static [`ITerminalProperty<float> AsFloat(ITerminalProperty property)`](Sandbox.ModAPI.Interfaces.AsFloat)</td><td>Property type cast</td></tr>
+<tr><td>static [`ITerminalProperty<Color> AsColor(ITerminalProperty property)`](Sandbox.ModAPI.Interfaces.AsColor)</td><td>Property type cast</td></tr>
+<tr><td>static [`ITerminalProperty<bool> AsBool(ITerminalProperty property)`](Sandbox.ModAPI.Interfaces.AsBool)</td><td>Property type cast</td></tr>
+<tr><td>static [`float GetValueFloat(IMyTerminalBlock block, string propertyId)`](Sandbox.ModAPI.Interfaces.GetValueFloat)</td><td>Returns value of specified property</td></tr>
+<tr><td>static [`void SetValueFloat(IMyTerminalBlock block, string propertyId, float value)`](Sandbox.ModAPI.Interfaces.SetValueFloat)</td><td>Set float value of property</td></tr>
+<tr><td>static [`bool GetValueBool(IMyTerminalBlock block, string propertyId)`](Sandbox.ModAPI.Interfaces.GetValueBool)</td><td>Returns value of specified property</td></tr>
+<tr><td>static [`void SetValueBool(IMyTerminalBlock block, string propertyId, bool value)`](Sandbox.ModAPI.Interfaces.SetValueBool)</td><td>Set bool value of property</td></tr>
+<tr><td>static [`Color GetValueColor(IMyTerminalBlock block, string propertyId)`](Sandbox.ModAPI.Interfaces.GetValueColor)</td><td>Returns value of specified property</td></tr>
+<tr><td>static [`void SetValueColor(IMyTerminalBlock block, string propertyId, Color value)`](Sandbox.ModAPI.Interfaces.SetValueColor)</td><td>Set bool value of property</td></tr>
+<tr><td>static [`T GetValue<T>(IMyTerminalBlock block, string propertyId)`](Sandbox.ModAPI.Interfaces.GetValue)</td><td></td></tr>
+<tr><td>static [`T GetDefaultValue<T>(IMyTerminalBlock block, string propertyId)`](Sandbox.ModAPI.Interfaces.GetDefaultValue)</td><td></td></tr>
+<tr><td>static [`T GetMininum<T>(IMyTerminalBlock block, string propertyId)`](Sandbox.ModAPI.Interfaces.GetMininum)</td><td></td></tr>
+<tr><td>static [`T GetMinimum<T>(IMyTerminalBlock block, string propertyId)`](Sandbox.ModAPI.Interfaces.GetMinimum)</td><td></td></tr>
+<tr><td>static [`T GetMaximum<T>(IMyTerminalBlock block, string propertyId)`](Sandbox.ModAPI.Interfaces.GetMaximum)</td><td></td></tr>
+<tr><td>static [`void SetValue<T>(IMyTerminalBlock block, string propertyId, T value)`](Sandbox.ModAPI.Interfaces.SetValue)</td><td></td></tr>
+</table>

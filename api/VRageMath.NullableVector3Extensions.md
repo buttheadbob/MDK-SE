@@ -3,7 +3,7 @@
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Methods
-|Member|Description|
-|---|---|
-|static [`bool IsValid(Nullable<Vector3> value)`](VRageMath.IsValid)||
-|static [`void AssertIsValid(Nullable<Vector3> value)`](VRageMath.AssertIsValid)||
+<table style="width: 100%">
+<tr><td>static [`bool IsValid(Nullable<Vector3> value)`](VRageMath.IsValid)</td><td></td></tr>
+<tr><td>static [`void AssertIsValid(Nullable<Vector3> value)`](VRageMath.AssertIsValid)</td><td></td></tr>
+</table>

@@ -5,7 +5,7 @@
 ## Summary
 Defines the continuity of CurveKeys on a Curve.
 ### Fields
-|Member|Description|
-|---|---|
-|static [`CurveContinuity Smooth`](VRageMath.Smooth)||
-|static [`CurveContinuity Step`](VRageMath.Step)||
+<table style="width: 100%">
+<tr><td>static [`CurveContinuity Smooth`](VRageMath.Smooth)</td><td></td></tr>
+<tr><td>static [`CurveContinuity Step`](VRageMath.Step)</td><td></td></tr>
+</table>

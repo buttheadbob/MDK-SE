@@ -5,10 +5,10 @@
 ## Summary
 Describes the current status of the piston.
 ### Fields
-|Member|Description|
-|---|---|
-|static [`PistonStatus Stopped`](Sandbox.ModAPI.Ingame.Stopped)|The piston velocity is 0 (stationary).|
-|static [`PistonStatus Extending`](Sandbox.ModAPI.Ingame.Extending)|The piston is being extended (moving).|
-|static [`PistonStatus Extended`](Sandbox.ModAPI.Ingame.Extended)|The piston is in its extended position (stationary).|
-|static [`PistonStatus Retracting`](Sandbox.ModAPI.Ingame.Retracting)|The piston is being retracted (moving).|
-|static [`PistonStatus Retracted`](Sandbox.ModAPI.Ingame.Retracted)|The piston is in its retracted position (stationary).|
+<table style="width: 100%">
+<tr><td>static [`PistonStatus Stopped`](Sandbox.ModAPI.Ingame.Stopped)</td><td>The piston velocity is 0 (stationary).</td></tr>
+<tr><td>static [`PistonStatus Extending`](Sandbox.ModAPI.Ingame.Extending)</td><td>The piston is being extended (moving).</td></tr>
+<tr><td>static [`PistonStatus Extended`](Sandbox.ModAPI.Ingame.Extended)</td><td>The piston is in its extended position (stationary).</td></tr>
+<tr><td>static [`PistonStatus Retracting`](Sandbox.ModAPI.Ingame.Retracting)</td><td>The piston is being retracted (moving).</td></tr>
+<tr><td>static [`PistonStatus Retracted`](Sandbox.ModAPI.Ingame.Retracted)</td><td>The piston is in its retracted position (stationary).</td></tr>
+</table>

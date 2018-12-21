@@ -3,7 +3,7 @@
 **Namespace:** [`VRage.Game`](VRage.Game)  
 **Assembly:** VRage.Game.dll  
 ### Fields
-|Member|Description|
-|---|---|
-|static [`MyCubeSize Large`](VRage.Game.Large)||
-|static [`MyCubeSize Small`](VRage.Game.Small)||
+<table style="width: 100%">
+<tr><td>static [`MyCubeSize Large`](VRage.Game.Large)</td><td></td></tr>
+<tr><td>static [`MyCubeSize Small`](VRage.Game.Small)</td><td></td></tr>
+</table>

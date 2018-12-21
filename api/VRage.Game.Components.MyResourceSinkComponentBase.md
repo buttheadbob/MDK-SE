@@ -3,14 +3,14 @@
 **Namespace:** [`VRage.Game.Components`](VRage.Game.Components)  
 **Assembly:** VRage.Game.dll  
 ### Properties
-|Member|Description|
-|---|---|
-|[`ListReader<MyDefinitionId> AcceptedResources`](VRage.Game.Components.AcceptedResources)||
+<table style="width: 100%">
+<tr><td>[`ListReader<MyDefinitionId> AcceptedResources`](VRage.Game.Components.AcceptedResources)</td><td></td></tr>
+</table>
 ### Methods
-|Member|Description|
-|---|---|
-|[`float CurrentInputByType(MyDefinitionId resourceTypeId)`](VRage.Game.Components.CurrentInputByType)||
-|[`bool IsPoweredByType(MyDefinitionId resourceTypeId)`](VRage.Game.Components.IsPoweredByType)||
-|[`float MaxRequiredInputByType(MyDefinitionId resourceTypeId)`](VRage.Game.Components.MaxRequiredInputByType)||
-|[`float RequiredInputByType(MyDefinitionId resourceTypeId)`](VRage.Game.Components.RequiredInputByType)||
-|[`float SuppliedRatioByType(MyDefinitionId resourceTypeId)`](VRage.Game.Components.SuppliedRatioByType)||
+<table style="width: 100%">
+<tr><td>[`float CurrentInputByType(MyDefinitionId resourceTypeId)`](VRage.Game.Components.CurrentInputByType)</td><td></td></tr>
+<tr><td>[`bool IsPoweredByType(MyDefinitionId resourceTypeId)`](VRage.Game.Components.IsPoweredByType)</td><td></td></tr>
+<tr><td>[`float MaxRequiredInputByType(MyDefinitionId resourceTypeId)`](VRage.Game.Components.MaxRequiredInputByType)</td><td></td></tr>
+<tr><td>[`float RequiredInputByType(MyDefinitionId resourceTypeId)`](VRage.Game.Components.RequiredInputByType)</td><td></td></tr>
+<tr><td>[`float SuppliedRatioByType(MyDefinitionId resourceTypeId)`](VRage.Game.Components.SuppliedRatioByType)</td><td></td></tr>
+</table>

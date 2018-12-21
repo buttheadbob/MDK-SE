@@ -5,12 +5,12 @@
 ## Summary
 A class for simpler traversal of ranges of longeger vectors
 ### Fields
-|Member|Description|
-|---|---|
-|[`Vector3L Current`](VRageMath.Current)|Do not modify, public only for optimization!|
+<table style="width: 100%">
+<tr><td>[`Vector3L Current`](VRageMath.Current)</td><td>Do not modify, public only for optimization!</td></tr>
+</table>
 ### Methods
-|Member|Description|
-|---|---|
-|[`bool IsValid()`](VRageMath.IsValid)||
-|[`void GetNext(ref Vector3L next)`](VRageMath.GetNext)||
-|[`void MoveNext()`](VRageMath.MoveNext)||
+<table style="width: 100%">
+<tr><td>[`bool IsValid()`](VRageMath.IsValid)</td><td></td></tr>
+<tr><td>[`void GetNext(ref Vector3L next)`](VRageMath.GetNext)</td><td></td></tr>
+<tr><td>[`void MoveNext()`](VRageMath.MoveNext)</td><td></td></tr>
+</table>

@@ -3,12 +3,12 @@
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Properties
-|Member|Description|
-|---|---|
-|[`Vector3 Current`](VRageMath.Current)||
+<table style="width: 100%">
+<tr><td>[`Vector3 Current`](VRageMath.Current)</td><td></td></tr>
+</table>
 ### Methods
-|Member|Description|
-|---|---|
-|[`void Add(Object tmp)`](VRageMath.Add)||
-|[`bool MoveNext()`](VRageMath.MoveNext)||
-|[`BoxCornerEnumerator GetEnumerator()`](VRageMath.GetEnumerator)||
+<table style="width: 100%">
+<tr><td>[`void Add(Object tmp)`](VRageMath.Add)</td><td></td></tr>
+<tr><td>[`bool MoveNext()`](VRageMath.MoveNext)</td><td></td></tr>
+<tr><td>[`BoxCornerEnumerator GetEnumerator()`](VRageMath.GetEnumerator)</td><td></td></tr>
+</table>

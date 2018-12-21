@@ -5,21 +5,21 @@
 ## Summary
 Represents the combination of a section and a key in a [MyIni](VRage.Game.ModAPI.Ingame.Utilities.MyIni) structure.
 ### Fields
-|Member|Description|
-|---|---|
-|static [`MyIniKey EMPTY`](VRage.Game.ModAPI.Ingame.Utilities.EMPTY)||
+<table style="width: 100%">
+<tr><td>static [`MyIniKey EMPTY`](VRage.Game.ModAPI.Ingame.Utilities.EMPTY)</td><td></td></tr>
+</table>
 ### Properties
-|Member|Description|
-|---|---|
-|[`string Section`](VRage.Game.ModAPI.Ingame.Utilities.Section)|Gets the Section part of this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey)|
-|[`string Name`](VRage.Game.ModAPI.Ingame.Utilities.Name)|Gets the Key part of this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey)|
-|[`bool IsEmpty`](VRage.Game.ModAPI.Ingame.Utilities.IsEmpty)|Determines whether this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) is empty.|
+<table style="width: 100%">
+<tr><td>[`string Section`](VRage.Game.ModAPI.Ingame.Utilities.Section)</td><td>Gets the Section part of this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey)</td></tr>
+<tr><td>[`string Name`](VRage.Game.ModAPI.Ingame.Utilities.Name)</td><td>Gets the Key part of this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey)</td></tr>
+<tr><td>[`bool IsEmpty`](VRage.Game.ModAPI.Ingame.Utilities.IsEmpty)</td><td>Determines whether this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) is empty.</td></tr>
+</table>
 ### Methods
-|Member|Description|
-|---|---|
-|static [`bool TryParse(string input, ref MyIniKey key)`](VRage.Game.ModAPI.Ingame.Utilities.TryParse)|Parses a string in the form of`section/key`into a [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) object.|
-|static [`MyIniKey Parse(string input)`](VRage.Game.ModAPI.Ingame.Utilities.Parse)|Parses a string in the form of`section/key`into a [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) object.|
-|[`bool Equals(MyIniKey other)`](VRage.Game.ModAPI.Ingame.Utilities.Equals)|Compares this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) with another. Note that this is equality in the sense of a configuration key, which means the comparison is implicitly case insensitive.|
-|[`bool Equals(Object obj)`](VRage.Game.ModAPI.Ingame.Utilities.Equals)|Compares this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) with another. Note that this is equality in the sense of a configuration key, which means the comparison is implicitly case insensitive.|
-|[`int GetHashCode()`](VRage.Game.ModAPI.Ingame.Utilities.GetHashCode)|Gets the hash code representing this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey)|
-|[`string ToString()`](VRage.Game.ModAPI.Ingame.Utilities.ToString)|Generates a string representing this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) in the form of`section/key`.|
+<table style="width: 100%">
+<tr><td>static [`bool TryParse(string input, ref MyIniKey key)`](VRage.Game.ModAPI.Ingame.Utilities.TryParse)</td><td>Parses a string in the form of`section/key`into a [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) object.</td></tr>
+<tr><td>static [`MyIniKey Parse(string input)`](VRage.Game.ModAPI.Ingame.Utilities.Parse)</td><td>Parses a string in the form of`section/key`into a [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) object.</td></tr>
+<tr><td>[`bool Equals(MyIniKey other)`](VRage.Game.ModAPI.Ingame.Utilities.Equals)</td><td>Compares this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) with another. Note that this is equality in the sense of a configuration key, which means the comparison is implicitly case insensitive.</td></tr>
+<tr><td>[`bool Equals(Object obj)`](VRage.Game.ModAPI.Ingame.Utilities.Equals)</td><td>Compares this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) with another. Note that this is equality in the sense of a configuration key, which means the comparison is implicitly case insensitive.</td></tr>
+<tr><td>[`int GetHashCode()`](VRage.Game.ModAPI.Ingame.Utilities.GetHashCode)</td><td>Gets the hash code representing this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey)</td></tr>
+<tr><td>[`string ToString()`](VRage.Game.ModAPI.Ingame.Utilities.ToString)</td><td>Generates a string representing this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) in the form of`section/key`.</td></tr>
+</table>

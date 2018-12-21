@@ -3,20 +3,20 @@
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Fields
-|Member|Description|
-|---|---|
-|[`byte X`](VRageMath.X)||
-|[`byte Y`](VRageMath.Y)||
-|[`byte Z`](VRageMath.Z)||
-|[`byte W`](VRageMath.W)||
+<table style="width: 100%">
+<tr><td>[`byte X`](VRageMath.X)</td><td></td></tr>
+<tr><td>[`byte Y`](VRageMath.Y)</td><td></td></tr>
+<tr><td>[`byte Z`](VRageMath.Z)</td><td></td></tr>
+<tr><td>[`byte W`](VRageMath.W)</td><td></td></tr>
+</table>
 ### Properties
-|Member|Description|
-|---|---|
-|[`byte Item`](VRageMath.Item)||
+<table style="width: 100%">
+<tr><td>[`byte Item`](VRageMath.Item)</td><td></td></tr>
+</table>
 ### Methods
-|Member|Description|
-|---|---|
-|[`string ToString()`](VRageMath.ToString)||
-|static [`Vector4UByte Round(Vector3 vec)`](VRageMath.Round)||
-|static [`Vector4UByte Round(Vector4 vec)`](VRageMath.Round)||
-|static [`Vector4UByte Normalize(Vector3 vec, float range)`](VRageMath.Normalize)|Normalizes Vector3 into Vector4UByte, scales vector from (-range, range) to (0, 255)|
+<table style="width: 100%">
+<tr><td>[`string ToString()`](VRageMath.ToString)</td><td></td></tr>
+<tr><td>static [`Vector4UByte Round(Vector3 vec)`](VRageMath.Round)</td><td></td></tr>
+<tr><td>static [`Vector4UByte Round(Vector4 vec)`](VRageMath.Round)</td><td></td></tr>
+<tr><td>static [`Vector4UByte Normalize(Vector3 vec, float range)`](VRageMath.Normalize)</td><td>Normalizes Vector3 into Vector4UByte, scales vector from (-range, range) to (0, 255)</td></tr>
+</table>

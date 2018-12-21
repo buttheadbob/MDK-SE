@@ -3,9 +3,9 @@
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Fields
-|Member|Description|
-|---|---|
-|[`short X`](VRageMath.X)||
-|[`short Y`](VRageMath.Y)||
-|[`short Z`](VRageMath.Z)||
-|[`short W`](VRageMath.W)||
+<table style="width: 100%">
+<tr><td>[`short X`](VRageMath.X)</td><td></td></tr>
+<tr><td>[`short Y`](VRageMath.Y)</td><td></td></tr>
+<tr><td>[`short Z`](VRageMath.Z)</td><td></td></tr>
+<tr><td>[`short W`](VRageMath.W)</td><td></td></tr>
+</table>

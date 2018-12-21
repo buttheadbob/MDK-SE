@@ -3,11 +3,11 @@
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Fields
-|Member|Description|
-|---|---|
-|static [`CubeFace Left`](VRageMath.Left)||
-|static [`CubeFace Right`](VRageMath.Right)||
-|static [`CubeFace Up`](VRageMath.Up)||
-|static [`CubeFace Down`](VRageMath.Down)||
-|static [`CubeFace Forward`](VRageMath.Forward)||
-|static [`CubeFace Backward`](VRageMath.Backward)||
+<table style="width: 100%">
+<tr><td>static [`CubeFace Left`](VRageMath.Left)</td><td></td></tr>
+<tr><td>static [`CubeFace Right`](VRageMath.Right)</td><td></td></tr>
+<tr><td>static [`CubeFace Up`](VRageMath.Up)</td><td></td></tr>
+<tr><td>static [`CubeFace Down`](VRageMath.Down)</td><td></td></tr>
+<tr><td>static [`CubeFace Forward`](VRageMath.Forward)</td><td></td></tr>
+<tr><td>static [`CubeFace Backward`](VRageMath.Backward)</td><td></td></tr>
+</table>

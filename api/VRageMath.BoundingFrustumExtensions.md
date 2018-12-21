@@ -3,6 +3,6 @@
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Methods
-|Member|Description|
-|---|---|
-|static [`BoundingSphere ToBoundingSphere(BoundingFrustum frustum, Vector3[] corners)`](VRageMath.ToBoundingSphere)|Creates bounding sphere from bounding frustum. Implementation taken from XNA source, replace IEnumerable with array|
+<table style="width: 100%">
+<tr><td>static [`BoundingSphere ToBoundingSphere(BoundingFrustum frustum, Vector3[] corners)`](VRageMath.ToBoundingSphere)</td><td>Creates bounding sphere from bounding frustum. Implementation taken from XNA source, replace IEnumerable with array</td></tr>
+</table>

@@ -3,12 +3,12 @@
 **Namespace:** [`VRage`](VRage)  
 **Assembly:** VRage.dll  
 ### Properties
-|Member|Description|
-|---|---|
-|static [`DictionaryReader<MyLanguagesEnum, LanguageDescription> Languages`](VRage.Languages)||
+<table style="width: 100%">
+<tr><td>static [`DictionaryReader<MyLanguagesEnum, LanguageDescription> Languages`](VRage.Languages)</td><td></td></tr>
+</table>
 ### Methods
-|Member|Description|
-|---|---|
-|static [`StringBuilder Get(MyStringId id)`](VRage.Get)||
-|static [`string GetString(MyStringId id)`](VRage.GetString)||
-|static [`bool Exists(MyStringId id)`](VRage.Exists)||
+<table style="width: 100%">
+<tr><td>static [`StringBuilder Get(MyStringId id)`](VRage.Get)</td><td></td></tr>
+<tr><td>static [`string GetString(MyStringId id)`](VRage.GetString)</td><td></td></tr>
+<tr><td>static [`bool Exists(MyStringId id)`](VRage.Exists)</td><td></td></tr>
+</table>

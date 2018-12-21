@@ -3,8 +3,8 @@
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Fields
-|Member|Description|
-|---|---|
-|[`double Distance`](VRageMath.Distance)||
-|[`T Element`](VRageMath.Element)||
-|static [`MyLineSegmentOverlapResultComparer<T> DistanceComparer`](VRageMath.DistanceComparer)||
+<table style="width: 100%">
+<tr><td>[`double Distance`](VRageMath.Distance)</td><td></td></tr>
+<tr><td>[`T Element`](VRageMath.Element)</td><td></td></tr>
+<tr><td>static [`MyLineSegmentOverlapResultComparer<T> DistanceComparer`](VRageMath.DistanceComparer)</td><td></td></tr>
+</table>

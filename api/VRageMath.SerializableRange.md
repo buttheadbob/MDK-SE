@@ -3,18 +3,18 @@
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Fields
-|Member|Description|
-|---|---|
-|[`float Min`](VRageMath.Min)||
-|[`float Max`](VRageMath.Max)||
+<table style="width: 100%">
+<tr><td>[`float Min`](VRageMath.Min)</td><td></td></tr>
+<tr><td>[`float Max`](VRageMath.Max)</td><td></td></tr>
+</table>
 ### Methods
-|Member|Description|
-|---|---|
-|[`bool ValueBetween(float value)`](VRageMath.ValueBetween)||
-|[`string ToString()`](VRageMath.ToString)||
-|[`SerializableRange ConvertToCosine()`](VRageMath.ConvertToCosine)||
-|[`SerializableRange ConvertToSine()`](VRageMath.ConvertToSine)||
-|[`SerializableRange ConvertToCosineLongitude()`](VRageMath.ConvertToCosineLongitude)||
-|[`string ToStringAsin()`](VRageMath.ToStringAsin)||
-|[`string ToStringAcos()`](VRageMath.ToStringAcos)||
-|[`string ToStringLongitude()`](VRageMath.ToStringLongitude)||
+<table style="width: 100%">
+<tr><td>[`bool ValueBetween(float value)`](VRageMath.ValueBetween)</td><td></td></tr>
+<tr><td>[`string ToString()`](VRageMath.ToString)</td><td></td></tr>
+<tr><td>[`SerializableRange ConvertToCosine()`](VRageMath.ConvertToCosine)</td><td></td></tr>
+<tr><td>[`SerializableRange ConvertToSine()`](VRageMath.ConvertToSine)</td><td></td></tr>
+<tr><td>[`SerializableRange ConvertToCosineLongitude()`](VRageMath.ConvertToCosineLongitude)</td><td></td></tr>
+<tr><td>[`string ToStringAsin()`](VRageMath.ToStringAsin)</td><td></td></tr>
+<tr><td>[`string ToStringAcos()`](VRageMath.ToStringAcos)</td><td></td></tr>
+<tr><td>[`string ToStringLongitude()`](VRageMath.ToStringLongitude)</td><td></td></tr>
+</table>

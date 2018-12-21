@@ -3,19 +3,19 @@
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Fields
-|Member|Description|
-|---|---|
-|[`int X`](VRageMath.X)||
-|[`int Y`](VRageMath.Y)||
-|[`int Z`](VRageMath.Z)||
-|[`int W`](VRageMath.W)||
-|static [`EqualityComparer Comparer`](VRageMath.Comparer)||
+<table style="width: 100%">
+<tr><td>[`int X`](VRageMath.X)</td><td></td></tr>
+<tr><td>[`int Y`](VRageMath.Y)</td><td></td></tr>
+<tr><td>[`int Z`](VRageMath.Z)</td><td></td></tr>
+<tr><td>[`int W`](VRageMath.W)</td><td></td></tr>
+<tr><td>static [`EqualityComparer Comparer`](VRageMath.Comparer)</td><td></td></tr>
+</table>
 ### Properties
-|Member|Description|
-|---|---|
-|[`int Item`](VRageMath.Item)||
+<table style="width: 100%">
+<tr><td>[`int Item`](VRageMath.Item)</td><td></td></tr>
+</table>
 ### Methods
-|Member|Description|
-|---|---|
-|[`int CompareTo(Vector4I other)`](VRageMath.CompareTo)||
-|[`string ToString()`](VRageMath.ToString)||
+<table style="width: 100%">
+<tr><td>[`int CompareTo(Vector4I other)`](VRageMath.CompareTo)</td><td></td></tr>
+<tr><td>[`string ToString()`](VRageMath.ToString)</td><td></td></tr>
+</table>

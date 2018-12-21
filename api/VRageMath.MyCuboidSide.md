@@ -3,11 +3,11 @@
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Fields
-|Member|Description|
-|---|---|
-|[`Plane Plane`](VRageMath.Plane)||
-|[`Line[] Lines`](VRageMath.Lines)||
+<table style="width: 100%">
+<tr><td>[`Plane Plane`](VRageMath.Plane)</td><td></td></tr>
+<tr><td>[`Line[] Lines`](VRageMath.Lines)</td><td></td></tr>
+</table>
 ### Methods
-|Member|Description|
-|---|---|
-|[`void CreatePlaneFromLines()`](VRageMath.CreatePlaneFromLines)||
+<table style="width: 100%">
+<tr><td>[`void CreatePlaneFromLines()`](VRageMath.CreatePlaneFromLines)</td><td></td></tr>
+</table>

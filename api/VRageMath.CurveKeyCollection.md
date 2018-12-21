@@ -5,21 +5,21 @@
 ## Summary
 Contains the CurveKeys making up a Curve.
 ### Properties
-|Member|Description|
-|---|---|
-|[`CurveKey Item`](VRageMath.Item)||
-|[`int Count`](VRageMath.Count)|Gets the number of elements contained in the CurveKeyCollection.|
-|[`bool IsReadOnly`](VRageMath.IsReadOnly)|Returns a value indicating whether the CurveKeyCollection is read-only.|
+<table style="width: 100%">
+<tr><td>[`CurveKey Item`](VRageMath.Item)</td><td></td></tr>
+<tr><td>[`int Count`](VRageMath.Count)</td><td>Gets the number of elements contained in the CurveKeyCollection.</td></tr>
+<tr><td>[`bool IsReadOnly`](VRageMath.IsReadOnly)</td><td>Returns a value indicating whether the CurveKeyCollection is read-only.</td></tr>
+</table>
 ### Methods
-|Member|Description|
-|---|---|
-|[`void Add(Object tmp)`](VRageMath.Add)||
-|[`int IndexOf(CurveKey item)`](VRageMath.IndexOf)|Determines the index of a CurveKey in the CurveKeyCollection.|
-|[`void RemoveAt(int index)`](VRageMath.RemoveAt)|Removes the CurveKey at the specified index.|
-|[`void Add(CurveKey item)`](VRageMath.Add)|Adds a CurveKey to the CurveKeyCollection.|
-|[`void Clear()`](VRageMath.Clear)|Removes all CurveKeys from the CurveKeyCollection.|
-|[`bool Contains(CurveKey item)`](VRageMath.Contains)|Determines whether the CurveKeyCollection contains a specific CurveKey.|
-|[`void CopyTo(CurveKey[] array, int arrayIndex)`](VRageMath.CopyTo)|Copies the CurveKeys of the CurveKeyCollection to an array, starting at the array index provided.|
-|[`bool Remove(CurveKey item)`](VRageMath.Remove)|Removes the first occurrence of a specific CurveKey from the CurveKeyCollection.|
-|[`IEnumerator<CurveKey> GetEnumerator()`](VRageMath.GetEnumerator)|Returns an enumerator that iterates through the CurveKeyCollection.|
-|[`CurveKeyCollection Clone()`](VRageMath.Clone)|Creates a copy of the CurveKeyCollection.|
+<table style="width: 100%">
+<tr><td>[`void Add(Object tmp)`](VRageMath.Add)</td><td></td></tr>
+<tr><td>[`int IndexOf(CurveKey item)`](VRageMath.IndexOf)</td><td>Determines the index of a CurveKey in the CurveKeyCollection.</td></tr>
+<tr><td>[`void RemoveAt(int index)`](VRageMath.RemoveAt)</td><td>Removes the CurveKey at the specified index.</td></tr>
+<tr><td>[`void Add(CurveKey item)`](VRageMath.Add)</td><td>Adds a CurveKey to the CurveKeyCollection.</td></tr>
+<tr><td>[`void Clear()`](VRageMath.Clear)</td><td>Removes all CurveKeys from the CurveKeyCollection.</td></tr>
+<tr><td>[`bool Contains(CurveKey item)`](VRageMath.Contains)</td><td>Determines whether the CurveKeyCollection contains a specific CurveKey.</td></tr>
+<tr><td>[`void CopyTo(CurveKey[] array, int arrayIndex)`](VRageMath.CopyTo)</td><td>Copies the CurveKeys of the CurveKeyCollection to an array, starting at the array index provided.</td></tr>
+<tr><td>[`bool Remove(CurveKey item)`](VRageMath.Remove)</td><td>Removes the first occurrence of a specific CurveKey from the CurveKeyCollection.</td></tr>
+<tr><td>[`IEnumerator<CurveKey> GetEnumerator()`](VRageMath.GetEnumerator)</td><td>Returns an enumerator that iterates through the CurveKeyCollection.</td></tr>
+<tr><td>[`CurveKeyCollection Clone()`](VRageMath.Clone)</td><td>Creates a copy of the CurveKeyCollection.</td></tr>
+</table>

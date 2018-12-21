@@ -3,6 +3,6 @@
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Methods
-|Member|Description|
-|---|---|
-|[`void Add(T userData, bool contained)`](VRageMath.Add)||
+<table style="width: 100%">
+<tr><td>[`void Add(T userData, bool contained)`](VRageMath.Add)</td><td></td></tr>
+</table>

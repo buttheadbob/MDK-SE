@@ -3,21 +3,21 @@
 **Namespace:** [`VRageMath`](VRageMath)  
 **Assembly:** VRage.Math.dll  
 ### Fields
-|Member|Description|
-|---|---|
-|[`short X`](VRageMath.X)||
-|[`short Y`](VRageMath.Y)||
-|[`short Z`](VRageMath.Z)||
-|static [`Vector3S Up`](VRageMath.Up)||
-|static [`Vector3S Down`](VRageMath.Down)||
-|static [`Vector3S Right`](VRageMath.Right)||
-|static [`Vector3S Left`](VRageMath.Left)||
-|static [`Vector3S Forward`](VRageMath.Forward)||
-|static [`Vector3S Backward`](VRageMath.Backward)||
+<table style="width: 100%">
+<tr><td>[`short X`](VRageMath.X)</td><td></td></tr>
+<tr><td>[`short Y`](VRageMath.Y)</td><td></td></tr>
+<tr><td>[`short Z`](VRageMath.Z)</td><td></td></tr>
+<tr><td>static [`Vector3S Up`](VRageMath.Up)</td><td></td></tr>
+<tr><td>static [`Vector3S Down`](VRageMath.Down)</td><td></td></tr>
+<tr><td>static [`Vector3S Right`](VRageMath.Right)</td><td></td></tr>
+<tr><td>static [`Vector3S Left`](VRageMath.Left)</td><td></td></tr>
+<tr><td>static [`Vector3S Forward`](VRageMath.Forward)</td><td></td></tr>
+<tr><td>static [`Vector3S Backward`](VRageMath.Backward)</td><td></td></tr>
+</table>
 ### Methods
-|Member|Description|
-|---|---|
-|[`string ToString()`](VRageMath.ToString)||
-|[`int GetHashCode()`](VRageMath.GetHashCode)||
-|[`bool Equals(Object obj)`](VRageMath.Equals)||
-|static [`Vector3S Round(Vector3 v)`](VRageMath.Round)||
+<table style="width: 100%">
+<tr><td>[`string ToString()`](VRageMath.ToString)</td><td></td></tr>
+<tr><td>[`int GetHashCode()`](VRageMath.GetHashCode)</td><td></td></tr>
+<tr><td>[`bool Equals(Object obj)`](VRageMath.Equals)</td><td></td></tr>
+<tr><td>static [`Vector3S Round(Vector3 v)`](VRageMath.Round)</td><td></td></tr>
+</table>

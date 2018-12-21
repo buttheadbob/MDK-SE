@@ -3,10 +3,10 @@
 **Namespace:** [`System.Collections.Generic`](System.Collections.Generic)  
 **Assembly:** VRage.Library.dll  
 ### Fields
-|Member|Description|
-|---|---|
-|[`List<T> List`](System.Collections.Generic.List)||
+<table style="width: 100%">
+<tr><td>[`List<T> List`](System.Collections.Generic.List)</td><td></td></tr>
+</table>
 ### Methods
-|Member|Description|
-|---|---|
-|[`void Dispose()`](System.Collections.Generic.Dispose)||
+<table style="width: 100%">
+<tr><td>[`void Dispose()`](System.Collections.Generic.Dispose)</td><td></td></tr>
+</table>

@@ -3,21 +3,21 @@
 **Namespace:** [`VRage.ObjectBuilders`](VRage.ObjectBuilders)  
 **Assembly:** VRage.Game.dll  
 ### Fields
-|Member|Description|
-|---|---|
-|[`MyObjectBuilderType TypeId`](VRage.ObjectBuilders.TypeId)||
-|[`string SubtypeName`](VRage.ObjectBuilders.SubtypeName)||
+<table style="width: 100%">
+<tr><td>[`MyObjectBuilderType TypeId`](VRage.ObjectBuilders.TypeId)</td><td></td></tr>
+<tr><td>[`string SubtypeName`](VRage.ObjectBuilders.SubtypeName)</td><td></td></tr>
+</table>
 ### Properties
-|Member|Description|
-|---|---|
-|[`string TypeIdStringAttribute`](VRage.ObjectBuilders.TypeIdStringAttribute)||
-|[`string TypeIdString`](VRage.ObjectBuilders.TypeIdString)||
-|[`string SubtypeIdAttribute`](VRage.ObjectBuilders.SubtypeIdAttribute)||
-|[`string SubtypeId`](VRage.ObjectBuilders.SubtypeId)||
+<table style="width: 100%">
+<tr><td>[`string TypeIdStringAttribute`](VRage.ObjectBuilders.TypeIdStringAttribute)</td><td></td></tr>
+<tr><td>[`string TypeIdString`](VRage.ObjectBuilders.TypeIdString)</td><td></td></tr>
+<tr><td>[`string SubtypeIdAttribute`](VRage.ObjectBuilders.SubtypeIdAttribute)</td><td></td></tr>
+<tr><td>[`string SubtypeId`](VRage.ObjectBuilders.SubtypeId)</td><td></td></tr>
+</table>
 ### Methods
-|Member|Description|
-|---|---|
-|[`bool ShouldSerializeTypeIdString()`](VRage.ObjectBuilders.ShouldSerializeTypeIdString)||
-|[`bool ShouldSerializeSubtypeId()`](VRage.ObjectBuilders.ShouldSerializeSubtypeId)||
-|[`string ToString()`](VRage.ObjectBuilders.ToString)||
-|[`bool IsNull()`](VRage.ObjectBuilders.IsNull)||
+<table style="width: 100%">
+<tr><td>[`bool ShouldSerializeTypeIdString()`](VRage.ObjectBuilders.ShouldSerializeTypeIdString)</td><td></td></tr>
+<tr><td>[`bool ShouldSerializeSubtypeId()`](VRage.ObjectBuilders.ShouldSerializeSubtypeId)</td><td></td></tr>
+<tr><td>[`string ToString()`](VRage.ObjectBuilders.ToString)</td><td></td></tr>
+<tr><td>[`bool IsNull()`](VRage.ObjectBuilders.IsNull)</td><td></td></tr>
+</table>

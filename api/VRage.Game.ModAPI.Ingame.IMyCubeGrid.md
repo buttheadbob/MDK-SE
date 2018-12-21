@@ -7,33 +7,33 @@
 ## Summary
 Grid interface
 ### Properties
-|Member|Description|
-|---|---|
-|[`string CustomName`](VRage.Game.ModAPI.Ingame.CustomName)|Display name of the grid (as seen in Info terminal tab)|
-|[`float GridSize`](VRage.Game.ModAPI.Ingame.GridSize)|Grid size in meters|
-|[`MyCubeSize GridSizeEnum`](VRage.Game.ModAPI.Ingame.GridSizeEnum)|Grid size enum|
-|[`bool IsStatic`](VRage.Game.ModAPI.Ingame.IsStatic)|Determines if the grid is static (unmoveable)|
-|[`Vector3I Max`](VRage.Game.ModAPI.Ingame.Max)|Maximum coordinates of blocks in grid|
-|[`Vector3I Min`](VRage.Game.ModAPI.Ingame.Min)|Minimum coordinates of blocks in grid|
-|[`MyEntityComponentContainer Components`](VRage.Game.ModAPI.Ingame.Components)|_Inherited from [`IMyEntity`](VRage.Game.ModAPI.Ingame.IMyCubeGrid)_|
-|[`long EntityId`](VRage.Game.ModAPI.Ingame.EntityId)|_Inherited from [`IMyEntity`](VRage.Game.ModAPI.Ingame.IMyCubeGrid)_|
-|[`string Name`](VRage.Game.ModAPI.Ingame.Name)|_Inherited from [`IMyEntity`](VRage.Game.ModAPI.Ingame.IMyCubeGrid)_|
-|[`string DisplayName`](VRage.Game.ModAPI.Ingame.DisplayName)|_Inherited from [`IMyEntity`](VRage.Game.ModAPI.Ingame.IMyCubeGrid)_|
-|[`bool HasInventory`](VRage.Game.ModAPI.Ingame.HasInventory)|Returns true if this entity has got at least one inventory. Note that one aggregate inventory can contain zero simple inventories => zero will be returned even if GetInventory() != null.<br/><br/>_Inherited from [`IMyEntity`](VRage.Game.ModAPI.Ingame.IMyCubeGrid)_|
-|[`int InventoryCount`](VRage.Game.ModAPI.Ingame.InventoryCount)|Returns the count of the number of inventories this entity has.<br/><br/>_Inherited from [`IMyEntity`](VRage.Game.ModAPI.Ingame.IMyCubeGrid)_|
-|[`BoundingBoxD WorldAABB`](VRage.Game.ModAPI.Ingame.WorldAABB)|_Inherited from [`IMyEntity`](VRage.Game.ModAPI.Ingame.IMyCubeGrid)_|
-|[`BoundingBoxD WorldAABBHr`](VRage.Game.ModAPI.Ingame.WorldAABBHr)|_Inherited from [`IMyEntity`](VRage.Game.ModAPI.Ingame.IMyCubeGrid)_|
-|[`MatrixD WorldMatrix`](VRage.Game.ModAPI.Ingame.WorldMatrix)|_Inherited from [`IMyEntity`](VRage.Game.ModAPI.Ingame.IMyCubeGrid)_|
-|[`BoundingSphereD WorldVolume`](VRage.Game.ModAPI.Ingame.WorldVolume)|_Inherited from [`IMyEntity`](VRage.Game.ModAPI.Ingame.IMyCubeGrid)_|
-|[`BoundingSphereD WorldVolumeHr`](VRage.Game.ModAPI.Ingame.WorldVolumeHr)|_Inherited from [`IMyEntity`](VRage.Game.ModAPI.Ingame.IMyCubeGrid)_|
+<table style="width: 100%">
+<tr><td>[`string CustomName`](VRage.Game.ModAPI.Ingame.CustomName)</td><td>Display name of the grid (as seen in Info terminal tab)</td></tr>
+<tr><td>[`float GridSize`](VRage.Game.ModAPI.Ingame.GridSize)</td><td>Grid size in meters</td></tr>
+<tr><td>[`MyCubeSize GridSizeEnum`](VRage.Game.ModAPI.Ingame.GridSizeEnum)</td><td>Grid size enum</td></tr>
+<tr><td>[`bool IsStatic`](VRage.Game.ModAPI.Ingame.IsStatic)</td><td>Determines if the grid is static (unmoveable)</td></tr>
+<tr><td>[`Vector3I Max`](VRage.Game.ModAPI.Ingame.Max)</td><td>Maximum coordinates of blocks in grid</td></tr>
+<tr><td>[`Vector3I Min`](VRage.Game.ModAPI.Ingame.Min)</td><td>Minimum coordinates of blocks in grid</td></tr>
+<tr><td>[`MyEntityComponentContainer Components`](VRage.Game.ModAPI.Ingame.Components)</td><td>_Inherited from [`IMyEntity`](VRage.Game.ModAPI.Ingame.IMyCubeGrid)_</td></tr>
+<tr><td>[`long EntityId`](VRage.Game.ModAPI.Ingame.EntityId)</td><td>_Inherited from [`IMyEntity`](VRage.Game.ModAPI.Ingame.IMyCubeGrid)_</td></tr>
+<tr><td>[`string Name`](VRage.Game.ModAPI.Ingame.Name)</td><td>_Inherited from [`IMyEntity`](VRage.Game.ModAPI.Ingame.IMyCubeGrid)_</td></tr>
+<tr><td>[`string DisplayName`](VRage.Game.ModAPI.Ingame.DisplayName)</td><td>_Inherited from [`IMyEntity`](VRage.Game.ModAPI.Ingame.IMyCubeGrid)_</td></tr>
+<tr><td>[`bool HasInventory`](VRage.Game.ModAPI.Ingame.HasInventory)</td><td>Returns true if this entity has got at least one inventory. Note that one aggregate inventory can contain zero simple inventories => zero will be returned even if GetInventory() != null.<br/><br/>_Inherited from [`IMyEntity`](VRage.Game.ModAPI.Ingame.IMyCubeGrid)_</td></tr>
+<tr><td>[`int InventoryCount`](VRage.Game.ModAPI.Ingame.InventoryCount)</td><td>Returns the count of the number of inventories this entity has.<br/><br/>_Inherited from [`IMyEntity`](VRage.Game.ModAPI.Ingame.IMyCubeGrid)_</td></tr>
+<tr><td>[`BoundingBoxD WorldAABB`](VRage.Game.ModAPI.Ingame.WorldAABB)</td><td>_Inherited from [`IMyEntity`](VRage.Game.ModAPI.Ingame.IMyCubeGrid)_</td></tr>
+<tr><td>[`BoundingBoxD WorldAABBHr`](VRage.Game.ModAPI.Ingame.WorldAABBHr)</td><td>_Inherited from [`IMyEntity`](VRage.Game.ModAPI.Ingame.IMyCubeGrid)_</td></tr>
+<tr><td>[`MatrixD WorldMatrix`](VRage.Game.ModAPI.Ingame.WorldMatrix)</td><td>_Inherited from [`IMyEntity`](VRage.Game.ModAPI.Ingame.IMyCubeGrid)_</td></tr>
+<tr><td>[`BoundingSphereD WorldVolume`](VRage.Game.ModAPI.Ingame.WorldVolume)</td><td>_Inherited from [`IMyEntity`](VRage.Game.ModAPI.Ingame.IMyCubeGrid)_</td></tr>
+<tr><td>[`BoundingSphereD WorldVolumeHr`](VRage.Game.ModAPI.Ingame.WorldVolumeHr)</td><td>_Inherited from [`IMyEntity`](VRage.Game.ModAPI.Ingame.IMyCubeGrid)_</td></tr>
+</table>
 ### Methods
-|Member|Description|
-|---|---|
-|[`bool CubeExists(Vector3I pos)`](VRage.Game.ModAPI.Ingame.CubeExists)|Returns true if there is any block occupying given position|
-|[`IMySlimBlock GetCubeBlock(Vector3I pos)`](VRage.Game.ModAPI.Ingame.GetCubeBlock)|Get cube block at given position|
-|[`Vector3D GridIntegerToWorld(Vector3I gridCoords)`](VRage.Game.ModAPI.Ingame.GridIntegerToWorld)|Converts grid coordinates to world space|
-|[`Vector3I WorldToGridInteger(Vector3D coords)`](VRage.Game.ModAPI.Ingame.WorldToGridInteger)|Converts world coordinates to grid space cell coordinates|
-|[`bool IsSameConstructAs(IMyCubeGrid other)`](VRage.Game.ModAPI.Ingame.IsSameConstructAs)|Determines whether this grid is mechanically connected to the other. This is any grid connected with rotors or pistons or other mechanical devices, but not things like connectors. This will in most cases constitute your complete construct.<br/>Be aware that using merge blocks combines grids into one, so this function will not filter out grids connected that way. Also be aware that detaching the heads of pistons and rotors will cause this connection to change.|
-|[`IMyInventory GetInventory()`](VRage.Game.ModAPI.Ingame.GetInventory)|Simply get the MyInventoryBase component stored in this entity.<br/><br/>_Inherited from [`IMyEntity`](VRage.Game.ModAPI.Ingame.IMyCubeGrid)_|
-|[`IMyInventory GetInventory(int index)`](VRage.Game.ModAPI.Ingame.GetInventory)|Search for inventory component with maching index.<br/><br/>_Inherited from [`IMyEntity`](VRage.Game.ModAPI.Ingame.IMyCubeGrid)_|
-|[`Vector3D GetPosition()`](VRage.Game.ModAPI.Ingame.GetPosition)|_Inherited from [`IMyEntity`](VRage.Game.ModAPI.Ingame.IMyCubeGrid)_|
+<table style="width: 100%">
+<tr><td>[`bool CubeExists(Vector3I pos)`](VRage.Game.ModAPI.Ingame.CubeExists)</td><td>Returns true if there is any block occupying given position</td></tr>
+<tr><td>[`IMySlimBlock GetCubeBlock(Vector3I pos)`](VRage.Game.ModAPI.Ingame.GetCubeBlock)</td><td>Get cube block at given position</td></tr>
+<tr><td>[`Vector3D GridIntegerToWorld(Vector3I gridCoords)`](VRage.Game.ModAPI.Ingame.GridIntegerToWorld)</td><td>Converts grid coordinates to world space</td></tr>
+<tr><td>[`Vector3I WorldToGridInteger(Vector3D coords)`](VRage.Game.ModAPI.Ingame.WorldToGridInteger)</td><td>Converts world coordinates to grid space cell coordinates</td></tr>
+<tr><td>[`bool IsSameConstructAs(IMyCubeGrid other)`](VRage.Game.ModAPI.Ingame.IsSameConstructAs)</td><td>Determines whether this grid is mechanically connected to the other. This is any grid connected with rotors or pistons or other mechanical devices, but not things like connectors. This will in most cases constitute your complete construct.<br/>Be aware that using merge blocks combines grids into one, so this function will not filter out grids connected that way. Also be aware that detaching the heads of pistons and rotors will cause this connection to change.</td></tr>
+<tr><td>[`IMyInventory GetInventory()`](VRage.Game.ModAPI.Ingame.GetInventory)</td><td>Simply get the MyInventoryBase component stored in this entity.<br/><br/>_Inherited from [`IMyEntity`](VRage.Game.ModAPI.Ingame.IMyCubeGrid)_</td></tr>
+<tr><td>[`IMyInventory GetInventory(int index)`](VRage.Game.ModAPI.Ingame.GetInventory)</td><td>Search for inventory component with maching index.<br/><br/>_Inherited from [`IMyEntity`](VRage.Game.ModAPI.Ingame.IMyCubeGrid)_</td></tr>
+<tr><td>[`Vector3D GetPosition()`](VRage.Game.ModAPI.Ingame.GetPosition)</td><td>_Inherited from [`IMyEntity`](VRage.Game.ModAPI.Ingame.IMyCubeGrid)_</td></tr>
+</table>

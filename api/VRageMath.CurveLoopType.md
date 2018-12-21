@@ -5,10 +5,10 @@
 ## Summary
 Defines how the value of a Curve will be determined for positions before the first point on the Curve or after the last point on the Curve.
 ### Fields
-|Member|Description|
-|---|---|
-|static [`CurveLoopType Constant`](VRageMath.Constant)||
-|static [`CurveLoopType Cycle`](VRageMath.Cycle)||
-|static [`CurveLoopType CycleOffset`](VRageMath.CycleOffset)||
-|static [`CurveLoopType Oscillate`](VRageMath.Oscillate)||
-|static [`CurveLoopType Linear`](VRageMath.Linear)||
+<table style="width: 100%">
+<tr><td>static [`CurveLoopType Constant`](VRageMath.Constant)</td><td></td></tr>
+<tr><td>static [`CurveLoopType Cycle`](VRageMath.Cycle)</td><td></td></tr>
+<tr><td>static [`CurveLoopType CycleOffset`](VRageMath.CycleOffset)</td><td></td></tr>
+<tr><td>static [`CurveLoopType Oscillate`](VRageMath.Oscillate)</td><td></td></tr>
+<tr><td>static [`CurveLoopType Linear`](VRageMath.Linear)</td><td></td></tr>
+</table>

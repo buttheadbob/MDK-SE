@@ -52,7 +52,7 @@
 ### Methods
 |Member|Description|
 |---|---|
-|[`bool TryRun(string argument)`](Sandbox.ModAPI.Ingame.TryRun)|Attempts to run this programmable block using the given argument. An already running programmable block cannot be run again. This is equivalent to running`<br/>block.ApplyAction("Run", argumentsList);`<br/>This should be called from an ingame script. Do not use in mods.|
+|[`bool TryRun(string argument)`](Sandbox.ModAPI.Ingame.TryRun)|Attempts to run this programmable block using the given argument. An already running programmable block cannot be run again. This is equivalent to running`block.ApplyAction("Run", argumentsList);`This should be called from an ingame script. Do not use in mods.|
 |[`IMyInventory GetInventory()`](VRage.Game.ModAPI.Ingame.GetInventory)|_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyProgrammableBlock)_|
 |[`IMyInventory GetInventory(int index)`](VRage.Game.ModAPI.Ingame.GetInventory)|Search for inventory component with maching index.<br/><br/>_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyProgrammableBlock)_|
 |[`Vector3D GetPosition()`](VRage.Game.ModAPI.Ingame.GetPosition)|_Inherited from [`IMyEntity`](Sandbox.ModAPI.Ingame.IMyProgrammableBlock)_|

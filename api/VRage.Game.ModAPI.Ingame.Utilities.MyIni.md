@@ -109,11 +109,11 @@ This class is NOT THREAD SAFE as it's optimized for programmable block use.
 |[`void GetKeys(string section, List<MyIniKey> keys)`](VRage.Game.ModAPI.Ingame.Utilities.GetKeys)||
 |[`void GetKeys(List<MyIniKey> keys)`](VRage.Game.ModAPI.Ingame.Utilities.GetKeys)|Fills the provided list with all configuration keys within the currently parsed configuration.|
 |[`void GetSections(List<string> names)`](VRage.Game.ModAPI.Ingame.Utilities.GetSections)|Fills the provided list with the names of all the sections in the currently parsed configuration.|
-|[`void SetEndComment(string comment)`](VRage.Game.ModAPI.Ingame.Utilities.SetEndComment)|Sets a comment to be placed after the last section or item. Set the comment to`<br/>null`<br/>to remove it.|
-|[`string GetSectionComment(string section)`](VRage.Game.ModAPI.Ingame.Utilities.GetSectionComment)|Get any comment that might be associated with the given section. Returns`<br/>null`<br/>if the section does not exist or has no comment.|
+|[`void SetEndComment(string comment)`](VRage.Game.ModAPI.Ingame.Utilities.SetEndComment)|Sets a comment to be placed after the last section or item. Set the comment to`null`to remove it.|
+|[`string GetSectionComment(string section)`](VRage.Game.ModAPI.Ingame.Utilities.GetSectionComment)|Get any comment that might be associated with the given section. Returns`null`if the section does not exist or has no comment.|
 |[`void SetSectionComment(string section, string comment)`](VRage.Game.ModAPI.Ingame.Utilities.SetSectionComment)||
 |[`string GetComment(string section, string name)`](VRage.Game.ModAPI.Ingame.Utilities.GetComment)||
-|[`string GetComment(MyIniKey key)`](VRage.Game.ModAPI.Ingame.Utilities.GetComment)|Gets any comment that might be associated with the given key. Returns`<br/>null`<br/>if the key does not exist or has no comment.|
+|[`string GetComment(MyIniKey key)`](VRage.Game.ModAPI.Ingame.Utilities.GetComment)|Gets any comment that might be associated with the given key. Returns`null`if the key does not exist or has no comment.|
 |[`void SetComment(string section, string name, string comment)`](VRage.Game.ModAPI.Ingame.Utilities.SetComment)||
 |[`void SetComment(MyIniKey key, string comment)`](VRage.Game.ModAPI.Ingame.Utilities.SetComment)||
 |[`MyIniValue Get(string section, string name)`](VRage.Game.ModAPI.Ingame.Utilities.Get)||

@@ -12,4 +12,4 @@
 ### Methods
 |Member|Description|
 |---|---|
-|[`IMyInventory GetInventory(int index)`](VRage.Game.ModAPI.Ingame.GetInventory)||
+|[`VRage.Game.ModAPI.Ingame.IMyInventory GetInventory(int)`](VRage.Game.ModAPI.Ingame.GetInventory)||

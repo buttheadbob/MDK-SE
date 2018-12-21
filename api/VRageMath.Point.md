@@ -12,11 +12,11 @@ Defines a point in 2D space.
 ### Properties
 |Member|Description|
 |---|---|
-|static [`Point Zero`](VRageMath.Zero)|Returns the point (0,0).|
+|static [`VRageMath.Point Zero`](VRageMath.Zero)|Returns the point (0,0).|
 ### Methods
 |Member|Description|
 |---|---|
-|[`bool Equals(Point other)`](VRageMath.Equals)|Determines whether two Point instances are equal.|
-|[`bool Equals(Object obj)`](VRageMath.Equals)|Determines whether two Point instances are equal.|
+|[`bool Equals(VRageMath.Point)`](VRageMath.Equals)|Determines whether two Point instances are equal.|
+|[`bool Equals(System.Object)`](VRageMath.Equals)|Determines whether two Point instances are equal.|
 |[`int GetHashCode()`](VRageMath.GetHashCode)|Gets the hash code for this object.|
 |[`string ToString()`](VRageMath.ToString)|Returns a String that represents the current Point.|

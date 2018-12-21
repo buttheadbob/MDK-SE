@@ -5,4 +5,4 @@
 ### Methods
 |Member|Description|
 |---|---|
-|static [`bool IsFriendly(MyRelationsBetweenPlayerAndBlock relations)`](VRage.Game.IsFriendly)||
+|static [`bool IsFriendly(VRage.Game.MyRelationsBetweenPlayerAndBlock)`](VRage.Game.IsFriendly)||

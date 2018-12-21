@@ -5,12 +5,12 @@
 ### Properties
 |Member|Description|
 |---|---|
-|[`ListReader<MyDefinitionId> AcceptedResources`](VRage.Game.Components.AcceptedResources)||
+|[`ListReader<VRage.Game.MyDefinitionId> AcceptedResources`](VRage.Game.Components.AcceptedResources)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`float CurrentInputByType(MyDefinitionId resourceTypeId)`](VRage.Game.Components.CurrentInputByType)||
-|[`bool IsPoweredByType(MyDefinitionId resourceTypeId)`](VRage.Game.Components.IsPoweredByType)||
-|[`float MaxRequiredInputByType(MyDefinitionId resourceTypeId)`](VRage.Game.Components.MaxRequiredInputByType)||
-|[`float RequiredInputByType(MyDefinitionId resourceTypeId)`](VRage.Game.Components.RequiredInputByType)||
-|[`float SuppliedRatioByType(MyDefinitionId resourceTypeId)`](VRage.Game.Components.SuppliedRatioByType)||
+|[`float CurrentInputByType(VRage.Game.MyDefinitionId)`](VRage.Game.Components.CurrentInputByType)||
+|[`bool IsPoweredByType(VRage.Game.MyDefinitionId)`](VRage.Game.Components.IsPoweredByType)||
+|[`float MaxRequiredInputByType(VRage.Game.MyDefinitionId)`](VRage.Game.Components.MaxRequiredInputByType)||
+|[`float RequiredInputByType(VRage.Game.MyDefinitionId)`](VRage.Game.Components.RequiredInputByType)||
+|[`float SuppliedRatioByType(VRage.Game.MyDefinitionId)`](VRage.Game.Components.SuppliedRatioByType)||

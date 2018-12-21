@@ -13,6 +13,6 @@ Packed vector type containing four 16-bit floating-point values.
 ### Methods
 |Member|Description|
 |---|---|
-|[`Vector3 ToVector3()`](VRageMath.PackedVector.ToVector3)|Expands the packed representation into a Vector4.|
-|[`HalfVector4 ToHalfVector4()`](VRageMath.PackedVector.ToHalfVector4)||
+|[`VRageMath.Vector3 ToVector3()`](VRageMath.PackedVector.ToVector3)|Expands the packed representation into a Vector4.|
+|[`VRageMath.PackedVector.HalfVector4 ToHalfVector4()`](VRageMath.PackedVector.ToHalfVector4)||
 |[`string ToString()`](VRageMath.PackedVector.ToString)|Returns a string representation of the current instance.|

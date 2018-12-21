@@ -16,10 +16,10 @@ Contains commonly used precalculated values.
 ### Methods
 |Member|Description|
 |---|---|
-|static [`double ToRadians(double degrees)`](VRageMath.ToRadians)|Converts degrees to radians.|
-|static [`double ToDegrees(double radians)`](VRageMath.ToDegrees)|Converts radians to degrees.|
-|static [`double Distance(double value1, double value2)`](VRageMath.Distance)|Calculates the absolute value of the difference of two values.|
-|static [`double Min(double value1, double value2)`](VRageMath.Min)|Returns the lesser of two values.|
-|static [`double Max(double value1, double value2)`](VRageMath.Max)|Returns the greater of two values.|
-|static [`double Clamp(double value, double min, double max)`](VRageMath.Clamp)|Restricts a value to be within a specified range. Reference page contains links to related code samples.|
-|static [`float MonotonicAcos(float cos)`](VRageMath.MonotonicAcos)||
+|static [`double ToRadians(double)`](VRageMath.ToRadians)|Converts degrees to radians.|
+|static [`double ToDegrees(double)`](VRageMath.ToDegrees)|Converts radians to degrees.|
+|static [`double Distance(double, double)`](VRageMath.Distance)|Calculates the absolute value of the difference of two values.|
+|static [`double Min(double, double)`](VRageMath.Min)|Returns the lesser of two values.|
+|static [`double Max(double, double)`](VRageMath.Max)|Returns the greater of two values.|
+|static [`double Clamp(double, double, double)`](VRageMath.Clamp)|Restricts a value to be within a specified range. Reference page contains links to related code samples.|
+|static [`float MonotonicAcos(float)`](VRageMath.MonotonicAcos)||

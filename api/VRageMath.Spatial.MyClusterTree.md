@@ -5,17 +5,17 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`Func<int, BoundingBoxD, Object> OnClusterCreated`](VRageMath.Spatial.OnClusterCreated)||
-|[`Action<Object> OnClusterRemoved`](VRageMath.Spatial.OnClusterRemoved)||
-|[`Action<Object> OnFinishBatch`](VRageMath.Spatial.OnFinishBatch)||
-|[`Action OnClustersReordered`](VRageMath.Spatial.OnClustersReordered)||
-|[`Func<long, bool> GetEntityReplicableExistsById`](VRageMath.Spatial.GetEntityReplicableExistsById)||
-|[`Nullable<BoundingBoxD> SingleCluster`](VRageMath.Spatial.SingleCluster)||
+|[`Func<System.Int32, VRageMath.BoundingBoxD, System.Object> OnClusterCreated`](VRageMath.Spatial.OnClusterCreated)||
+|[`Action<System.Object> OnClusterRemoved`](VRageMath.Spatial.OnClusterRemoved)||
+|[`Action<System.Object> OnFinishBatch`](VRageMath.Spatial.OnFinishBatch)||
+|[`System.Action OnClustersReordered`](VRageMath.Spatial.OnClustersReordered)||
+|[`Func<System.Int64, System.Boolean> GetEntityReplicableExistsById`](VRageMath.Spatial.GetEntityReplicableExistsById)||
+|[`Nullable<VRageMath.BoundingBoxD> SingleCluster`](VRageMath.Spatial.SingleCluster)||
 |[`bool ForcedClusters`](VRageMath.Spatial.ForcedClusters)||
-|static [`Vector3 IdealClusterSize`](VRageMath.Spatial.IdealClusterSize)||
-|static [`Vector3 IdealClusterSizeHalfSqr`](VRageMath.Spatial.IdealClusterSizeHalfSqr)||
-|static [`Vector3 MinimumDistanceFromBorder`](VRageMath.Spatial.MinimumDistanceFromBorder)||
-|static [`Vector3 MaximumForSplit`](VRageMath.Spatial.MaximumForSplit)||
+|static [`VRageMath.Vector3 IdealClusterSize`](VRageMath.Spatial.IdealClusterSize)||
+|static [`VRageMath.Vector3 IdealClusterSizeHalfSqr`](VRageMath.Spatial.IdealClusterSizeHalfSqr)||
+|static [`VRageMath.Vector3 MinimumDistanceFromBorder`](VRageMath.Spatial.MinimumDistanceFromBorder)||
+|static [`VRageMath.Vector3 MaximumForSplit`](VRageMath.Spatial.MaximumForSplit)||
 |static [`float MaximumClusterSize`](VRageMath.Spatial.MaximumClusterSize)||
 |static [`ulong CLUSTERED_OBJECT_ID_UNITIALIZED`](VRageMath.Spatial.CLUSTERED_OBJECT_ID_UNITIALIZED)||
 ### Properties
@@ -25,21 +25,21 @@
 ### Methods
 |Member|Description|
 |---|---|
-|[`ulong AddObject(BoundingBoxD bbox, IMyActivationHandler activationHandler, Nullable<ulong> customId, string tag, long entityId, bool batch)`](VRageMath.Spatial.AddObject)||
-|static [`BoundingBoxD AdjustAABBByVelocity(BoundingBoxD aabb, Vector3 velocity, float inflate)`](VRageMath.Spatial.AdjustAABBByVelocity)||
-|[`void MoveObject(ulong id, BoundingBoxD aabb, Vector3 velocity)`](VRageMath.Spatial.MoveObject)||
-|[`void EnsureClusterSpace(BoundingBoxD aabb)`](VRageMath.Spatial.EnsureClusterSpace)||
-|[`void RemoveObject(ulong id)`](VRageMath.Spatial.RemoveObject)||
-|[`Vector3D GetObjectOffset(ulong id)`](VRageMath.Spatial.GetObjectOffset)||
-|[`MyCluster GetClusterForPosition(Vector3D pos)`](VRageMath.Spatial.GetClusterForPosition)||
+|[`ulong AddObject(VRageMath.BoundingBoxD, VRageMath.Spatial.IMyActivationHandler, Nullable<System.UInt64>, string, long, bool)`](VRageMath.Spatial.AddObject)||
+|static [`VRageMath.BoundingBoxD AdjustAABBByVelocity(VRageMath.BoundingBoxD, VRageMath.Vector3, float)`](VRageMath.Spatial.AdjustAABBByVelocity)||
+|[`void MoveObject(ulong, VRageMath.BoundingBoxD, VRageMath.Vector3)`](VRageMath.Spatial.MoveObject)||
+|[`void EnsureClusterSpace(VRageMath.BoundingBoxD)`](VRageMath.Spatial.EnsureClusterSpace)||
+|[`void RemoveObject(ulong)`](VRageMath.Spatial.RemoveObject)||
+|[`VRageMath.Vector3D GetObjectOffset(ulong)`](VRageMath.Spatial.GetObjectOffset)||
+|[`VRageMath.Spatial.MyCluster GetClusterForPosition(VRageMath.Vector3D)`](VRageMath.Spatial.GetClusterForPosition)||
 |[`void Dispose()`](VRageMath.Spatial.Dispose)||
-|[`ListReader<Object> GetList()`](VRageMath.Spatial.GetList)||
-|[`ListReader<Object> GetListCopy()`](VRageMath.Spatial.GetListCopy)||
-|[`ListReader<MyCluster> GetClusters()`](VRageMath.Spatial.GetClusters)||
-|[`void CastRay(Vector3D from, Vector3D to, List<MyClusterQueryResult> results)`](VRageMath.Spatial.CastRay)||
-|[`void Intersects(Vector3D translation, List<MyClusterQueryResult> results)`](VRageMath.Spatial.Intersects)||
-|[`void GetAll(List<MyClusterQueryResult> results)`](VRageMath.Spatial.GetAll)||
-|[`void ReorderClusters(BoundingBoxD aabb, ulong objectId)`](VRageMath.Spatial.ReorderClusters)||
-|[`void GetAllStaticObjects(List<BoundingBoxD> staticObjects)`](VRageMath.Spatial.GetAllStaticObjects)||
-|[`void Serialize(List<BoundingBoxD> list)`](VRageMath.Spatial.Serialize)||
-|[`void Deserialize(List<BoundingBoxD> list)`](VRageMath.Spatial.Deserialize)||
+|[`ListReader<System.Object> GetList()`](VRageMath.Spatial.GetList)||
+|[`ListReader<System.Object> GetListCopy()`](VRageMath.Spatial.GetListCopy)||
+|[`ListReader<VRageMath.Spatial.MyClusterTree+MyCluster> GetClusters()`](VRageMath.Spatial.GetClusters)||
+|[`void CastRay(VRageMath.Vector3D, VRageMath.Vector3D, List<VRageMath.Spatial.MyClusterTree+MyClusterQueryResult>)`](VRageMath.Spatial.CastRay)||
+|[`void Intersects(VRageMath.Vector3D, List<VRageMath.Spatial.MyClusterTree+MyClusterQueryResult>)`](VRageMath.Spatial.Intersects)||
+|[`void GetAll(List<VRageMath.Spatial.MyClusterTree+MyClusterQueryResult>)`](VRageMath.Spatial.GetAll)||
+|[`void ReorderClusters(VRageMath.BoundingBoxD, ulong)`](VRageMath.Spatial.ReorderClusters)||
+|[`void GetAllStaticObjects(List<VRageMath.BoundingBoxD>)`](VRageMath.Spatial.GetAllStaticObjects)||
+|[`void Serialize(List<VRageMath.BoundingBoxD>)`](VRageMath.Spatial.Serialize)||
+|[`void Deserialize(List<VRageMath.BoundingBoxD>)`](VRageMath.Spatial.Deserialize)||

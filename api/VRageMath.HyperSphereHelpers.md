@@ -5,6 +5,6 @@
 ### Methods
 |Member|Description|
 |---|---|
-|static [`double DistanceToTangentProjected(ref Vector3D center, ref Vector3D point, double radius, ref double distance)`](VRageMath.DistanceToTangentProjected)||
-|static [`double DistanceToTangent(ref Vector3D center, ref Vector3D point, double radius)`](VRageMath.DistanceToTangent)||
-|static [`double DistanceToTangent(ref Vector2D center, ref Vector2D point, double radius)`](VRageMath.DistanceToTangent)||
+|static [`double DistanceToTangentProjected(ref VRageMath.Vector3D, ref VRageMath.Vector3D, double, ref double)`](VRageMath.DistanceToTangentProjected)||
+|static [`double DistanceToTangent(ref VRageMath.Vector3D, ref VRageMath.Vector3D, double)`](VRageMath.DistanceToTangent)||
+|static [`double DistanceToTangent(ref VRageMath.Vector2D, ref VRageMath.Vector2D, double)`](VRageMath.DistanceToTangent)||

@@ -5,27 +5,27 @@
 ### Methods
 |Member|Description|
 |---|---|
-|static [`Vector3 ColorToHSV(Color rgb)`](VRageMath.ColorToHSV)||
-|static [`Vector3 ColorToHSVDX11(Color rgb)`](VRageMath.ColorToHSVDX11)|Use this for HSV in DX11 Renderer, X = Hue 0..1, Y = Saturation -1..1, Z = Value -1..1|
-|static [`Color HexToColor(string hex)`](VRageMath.HexToColor)||
-|static [`Vector4 HexToVector4(string hex)`](VRageMath.HexToVector4)||
-|static [`Color HSVtoColor(Vector3 HSV)`](VRageMath.HSVtoColor)||
-|static [`uint PackHSVToUint(Vector3 HSV)`](VRageMath.PackHSVToUint)||
-|static [`Vector3 UnpackHSVFromUint(uint packed)`](VRageMath.UnpackHSVFromUint)||
-|static [`float HueDistance(Color color, float hue)`](VRageMath.HueDistance)||
-|static [`float HueDistance(Color color, Color otherColor)`](VRageMath.HueDistance)||
-|static [`Vector3 TemperatureToRGB(float temperature)`](VRageMath.TemperatureToRGB)||
-|static [`Vector4 UnmultiplyColor(Vector4 c)`](VRageMath.UnmultiplyColor)||
-|static [`Vector4 PremultiplyColor(Vector4 c)`](VRageMath.PremultiplyColor)||
-|static [`Vector4 ToSRGB(Vector4 c)`](VRageMath.ToSRGB)||
-|static [`Vector4 ToLinearRGB(Vector4 c)`](VRageMath.ToLinearRGB)||
-|static [`Vector3 ToLinearRGB(Vector3 c)`](VRageMath.ToLinearRGB)||
-|static [`Vector3 ToSRGB(Vector3 c)`](VRageMath.ToSRGB)||
-|static [`Vector3 ToHsv(Vector3 rgb)`](VRageMath.ToHsv)||
-|static [`Vector3 ToGray(Vector3 c)`](VRageMath.ToGray)||
-|static [`Vector4 ToGray(Vector4 c)`](VRageMath.ToGray)||
-|static [`float ToLinearRGBComponent(float c)`](VRageMath.ToLinearRGBComponent)||
-|static [`float ToSRGBComponent(float c)`](VRageMath.ToSRGBComponent)||
-|static [`Color Shade(Color c, float r)`](VRageMath.Shade)||
-|static [`Color Tint(Color c, float r)`](VRageMath.Tint)||
-|static [`Color Alpha(Color c, float a)`](VRageMath.Alpha)||
+|static [`VRageMath.Vector3 ColorToHSV(VRageMath.Color)`](VRageMath.ColorToHSV)||
+|static [`VRageMath.Vector3 ColorToHSVDX11(VRageMath.Color)`](VRageMath.ColorToHSVDX11)|Use this for HSV in DX11 Renderer, X = Hue 0..1, Y = Saturation -1..1, Z = Value -1..1|
+|static [`VRageMath.Color HexToColor(string)`](VRageMath.HexToColor)||
+|static [`VRageMath.Vector4 HexToVector4(string)`](VRageMath.HexToVector4)||
+|static [`VRageMath.Color HSVtoColor(VRageMath.Vector3)`](VRageMath.HSVtoColor)||
+|static [`uint PackHSVToUint(VRageMath.Vector3)`](VRageMath.PackHSVToUint)||
+|static [`VRageMath.Vector3 UnpackHSVFromUint(uint)`](VRageMath.UnpackHSVFromUint)||
+|static [`float HueDistance(VRageMath.Color, float)`](VRageMath.HueDistance)||
+|static [`float HueDistance(VRageMath.Color, VRageMath.Color)`](VRageMath.HueDistance)||
+|static [`VRageMath.Vector3 TemperatureToRGB(float)`](VRageMath.TemperatureToRGB)||
+|static [`VRageMath.Vector4 UnmultiplyColor(VRageMath.Vector4)`](VRageMath.UnmultiplyColor)||
+|static [`VRageMath.Vector4 PremultiplyColor(VRageMath.Vector4)`](VRageMath.PremultiplyColor)||
+|static [`VRageMath.Vector4 ToSRGB(VRageMath.Vector4)`](VRageMath.ToSRGB)||
+|static [`VRageMath.Vector4 ToLinearRGB(VRageMath.Vector4)`](VRageMath.ToLinearRGB)||
+|static [`VRageMath.Vector3 ToLinearRGB(VRageMath.Vector3)`](VRageMath.ToLinearRGB)||
+|static [`VRageMath.Vector3 ToSRGB(VRageMath.Vector3)`](VRageMath.ToSRGB)||
+|static [`VRageMath.Vector3 ToHsv(VRageMath.Vector3)`](VRageMath.ToHsv)||
+|static [`VRageMath.Vector3 ToGray(VRageMath.Vector3)`](VRageMath.ToGray)||
+|static [`VRageMath.Vector4 ToGray(VRageMath.Vector4)`](VRageMath.ToGray)||
+|static [`float ToLinearRGBComponent(float)`](VRageMath.ToLinearRGBComponent)||
+|static [`float ToSRGBComponent(float)`](VRageMath.ToSRGBComponent)||
+|static [`VRageMath.Color Shade(VRageMath.Color, float)`](VRageMath.Shade)||
+|static [`VRageMath.Color Tint(VRageMath.Color, float)`](VRageMath.Tint)||
+|static [`VRageMath.Color Alpha(VRageMath.Color, float)`](VRageMath.Alpha)||

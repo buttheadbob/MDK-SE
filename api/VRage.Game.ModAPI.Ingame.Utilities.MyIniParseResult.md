@@ -17,7 +17,7 @@ Represents the results of a configuration parsing.
 ### Methods
 |Member|Description|
 |---|---|
-|[`bool Equals(MyIniParseResult other)`](VRage.Game.ModAPI.Ingame.Utilities.Equals)|Compares this [MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult) with another.|
-|[`bool Equals(Object obj)`](VRage.Game.ModAPI.Ingame.Utilities.Equals)|Compares this [MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult) with another.|
+|[`bool Equals(VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult)`](VRage.Game.ModAPI.Ingame.Utilities.Equals)|Compares this [MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult) with another.|
+|[`bool Equals(System.Object)`](VRage.Game.ModAPI.Ingame.Utilities.Equals)|Compares this [MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult) with another.|
 |[`int GetHashCode()`](VRage.Game.ModAPI.Ingame.Utilities.GetHashCode)|Gets the hash code for this [MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult) .|
 |[`string ToString()`](VRage.Game.ModAPI.Ingame.Utilities.ToString)|Generates a generic error message in the form of`Line N: Error`|

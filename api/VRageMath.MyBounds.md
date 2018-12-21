@@ -11,6 +11,6 @@
 ### Methods
 |Member|Description|
 |---|---|
-|[`float Normalize(float value)`](VRageMath.Normalize)|Normalize value inside the bounds so that 0 is Min and 1 is Max.|
-|[`float Clamp(float value)`](VRageMath.Clamp)||
+|[`float Normalize(float)`](VRageMath.Normalize)|Normalize value inside the bounds so that 0 is Min and 1 is Max.|
+|[`float Clamp(float)`](VRageMath.Clamp)||
 |[`string ToString()`](VRageMath.ToString)||

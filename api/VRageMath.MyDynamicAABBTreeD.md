@@ -11,41 +11,41 @@ Dynamic aabb tree implementation as a prunning structure
 ### Methods
 |Member|Description|
 |---|---|
-|[`int AddProxy(ref BoundingBoxD aabb, Object userData, uint userFlags, bool rebalance)`](VRageMath.AddProxy)|Create a proxy. Provide a tight fitting BoundingBox and a userData pointer.|
-|[`void RemoveProxy(int proxyId)`](VRageMath.RemoveProxy)|Destroy a proxy. This asserts if the id is invalid.|
-|[`bool MoveProxy(int proxyId, ref BoundingBoxD aabb, Vector3D displacement)`](VRageMath.MoveProxy)|Move a proxy with a swepted BoundingBox. If the proxy has moved outside of its fattened BoundingBox, then the proxy is removed from the tree and re-inserted. Otherwise the function returns immediately.|
-|[`T GetUserData<T>(int proxyId)`](VRageMath.GetUserData)||
+|[`int AddProxy(ref VRageMath.BoundingBoxD, System.Object, uint, bool)`](VRageMath.AddProxy)|Create a proxy. Provide a tight fitting BoundingBox and a userData pointer.|
+|[`void RemoveProxy(int)`](VRageMath.RemoveProxy)|Destroy a proxy. This asserts if the id is invalid.|
+|[`bool MoveProxy(int, ref VRageMath.BoundingBoxD, VRageMath.Vector3D)`](VRageMath.MoveProxy)|Move a proxy with a swepted BoundingBox. If the proxy has moved outside of its fattened BoundingBox, then the proxy is removed from the tree and re-inserted. Otherwise the function returns immediately.|
+|[`VRageMath.T GetUserData<T>(int)`](VRageMath.GetUserData)||
 |[`int GetRoot()`](VRageMath.GetRoot)||
-|[`int GetLeafCount(int proxyId)`](VRageMath.GetLeafCount)||
-|[`void GetNodeLeaves(int proxyId, List<int> children)`](VRageMath.GetNodeLeaves)||
-|[`BoundingBoxD GetAabb(int proxyId)`](VRageMath.GetAabb)||
-|[`void GetChildren(int proxyId, ref int left, ref int right)`](VRageMath.GetChildren)||
-|[`void GetFatAABB(int proxyId, ref BoundingBoxD fatAABB)`](VRageMath.GetFatAABB)|Get the fat BoundingBox for a proxy.|
-|[`void Query(Func<int, bool> callback, ref BoundingBoxD aabb)`](VRageMath.Query)||
-|[`void QueryPoint(Func<int, bool> callback, ref Vector3D point)`](VRageMath.QueryPoint)||
-|[`int CountLeaves(int nodeId)`](VRageMath.CountLeaves)||
+|[`int GetLeafCount(int)`](VRageMath.GetLeafCount)||
+|[`void GetNodeLeaves(int, List<System.Int32>)`](VRageMath.GetNodeLeaves)||
+|[`VRageMath.BoundingBoxD GetAabb(int)`](VRageMath.GetAabb)||
+|[`void GetChildren(int, ref int, ref int)`](VRageMath.GetChildren)||
+|[`void GetFatAABB(int, ref VRageMath.BoundingBoxD)`](VRageMath.GetFatAABB)|Get the fat BoundingBox for a proxy.|
+|[`void Query(Func<System.Int32, System.Boolean>, ref VRageMath.BoundingBoxD)`](VRageMath.Query)||
+|[`void QueryPoint(Func<System.Int32, System.Boolean>, ref VRageMath.Vector3D)`](VRageMath.QueryPoint)||
+|[`int CountLeaves(int)`](VRageMath.CountLeaves)||
 |[`int GetHeight()`](VRageMath.GetHeight)||
 |[`bool IsRootNull()`](VRageMath.IsRootNull)||
-|[`int Balance(int iA)`](VRageMath.Balance)||
-|[`void OverlapAllFrustum<T>(ref BoundingFrustumD frustum, List<T> elementsList, bool clear)`](VRageMath.OverlapAllFrustum)||
-|[`void OverlapAllFrustum<T>(ref BoundingFrustumD frustum, List<T> elementsList, uint requiredFlags, bool clear)`](VRageMath.OverlapAllFrustum)||
-|[`void OverlapAllFrustumAny<T>(ref BoundingFrustumD frustum, List<T> elementsList, bool clear)`](VRageMath.OverlapAllFrustumAny)||
-|[`void OverlapAllFrustum<T>(ref BoundingFrustumD frustum, List<T> elementsList, List<bool> isInsideList)`](VRageMath.OverlapAllFrustum)||
-|[`void OverlapAllFrustum<T>(ref BoundingFrustumD frustum, T results)`](VRageMath.OverlapAllFrustum)||
-|[`void OverlapAllFrustum<T>(ref BoundingFrustumD frustum, List<T> elementsList, List<bool> isInsideList, float tSqr, bool clear)`](VRageMath.OverlapAllFrustum)||
-|[`void OverlapAllFrustum<T>(ref BoundingFrustumD frustum, Action<T, bool> add, float tSqr)`](VRageMath.OverlapAllFrustum)||
-|[`void OverlapAllFrustum<T>(ref BoundingFrustumD frustum, T results, float tSqr)`](VRageMath.OverlapAllFrustum)||
-|[`void OverlapAllLineSegment<T>(ref LineD line, List<MyLineSegmentOverlapResult<T>> elementsList, bool clear)`](VRageMath.OverlapAllLineSegment)||
-|[`void OverlapAllLineSegment<T>(ref LineD line, List<MyLineSegmentOverlapResult<T>> elementsList, uint requiredFlags, bool clear)`](VRageMath.OverlapAllLineSegment)||
-|[`void OverlapAllBoundingBox<T>(ref BoundingBoxD bbox, List<T> elementsList, uint requiredFlags, bool clear)`](VRageMath.OverlapAllBoundingBox)||
-|[`void OverlapAllBoundingBox<T>(ref MyOrientedBoundingBoxD obb, List<T> elementsList, uint requiredFlags, bool clear)`](VRageMath.OverlapAllBoundingBox)||
-|[`bool OverlapsAnyLeafBoundingBox(ref BoundingBoxD bbox)`](VRageMath.OverlapsAnyLeafBoundingBox)||
-|[`void GetAproximateClustersForAabb(ref BoundingBoxD bbox, double minSize, List<BoundingBoxD> boundList)`](VRageMath.GetAproximateClustersForAabb)||
-|[`void OverlapAllBoundingSphere<T>(ref BoundingSphereD sphere, List<T> overlapElementsList, bool clear)`](VRageMath.OverlapAllBoundingSphere)||
-|[`void OverlapAllBoundingSphere<T>(ref BoundingSphereD sphere, Action<T> addAction)`](VRageMath.OverlapAllBoundingSphere)||
-|[`void GetAll<T>(List<T> elementsList, bool clear, List<BoundingBoxD> boxsList)`](VRageMath.GetAll)||
-|[`void GetAll<T>(Action<T> add)`](VRageMath.GetAll)||
-|[`void GetAll<T>(Action<T, BoundingBoxD> add)`](VRageMath.GetAll)||
-|[`void GetAllNodeBounds(List<BoundingBoxD> boxsList)`](VRageMath.GetAllNodeBounds)||
+|[`int Balance(int)`](VRageMath.Balance)||
+|[`void OverlapAllFrustum<T>(ref VRageMath.BoundingFrustumD, List<T>, bool)`](VRageMath.OverlapAllFrustum)||
+|[`void OverlapAllFrustum<T>(ref VRageMath.BoundingFrustumD, List<T>, uint, bool)`](VRageMath.OverlapAllFrustum)||
+|[`void OverlapAllFrustumAny<T>(ref VRageMath.BoundingFrustumD, List<T>, bool)`](VRageMath.OverlapAllFrustumAny)||
+|[`void OverlapAllFrustum<T>(ref VRageMath.BoundingFrustumD, List<T>, List<System.Boolean>)`](VRageMath.OverlapAllFrustum)||
+|[`void OverlapAllFrustum<T>(ref VRageMath.BoundingFrustumD, VRageMath.T)`](VRageMath.OverlapAllFrustum)||
+|[`void OverlapAllFrustum<T>(ref VRageMath.BoundingFrustumD, List<T>, List<System.Boolean>, float, bool)`](VRageMath.OverlapAllFrustum)||
+|[`void OverlapAllFrustum<T>(ref VRageMath.BoundingFrustumD, Action<T, System.Boolean>, float)`](VRageMath.OverlapAllFrustum)||
+|[`void OverlapAllFrustum<T>(ref VRageMath.BoundingFrustumD, VRageMath.T, float)`](VRageMath.OverlapAllFrustum)||
+|[`void OverlapAllLineSegment<T>(ref VRageMath.LineD, List<>, bool)`](VRageMath.OverlapAllLineSegment)||
+|[`void OverlapAllLineSegment<T>(ref VRageMath.LineD, List<>, uint, bool)`](VRageMath.OverlapAllLineSegment)||
+|[`void OverlapAllBoundingBox<T>(ref VRageMath.BoundingBoxD, List<T>, uint, bool)`](VRageMath.OverlapAllBoundingBox)||
+|[`void OverlapAllBoundingBox<T>(ref VRageMath.MyOrientedBoundingBoxD, List<T>, uint, bool)`](VRageMath.OverlapAllBoundingBox)||
+|[`bool OverlapsAnyLeafBoundingBox(ref VRageMath.BoundingBoxD)`](VRageMath.OverlapsAnyLeafBoundingBox)||
+|[`void GetAproximateClustersForAabb(ref VRageMath.BoundingBoxD, double, List<VRageMath.BoundingBoxD>)`](VRageMath.GetAproximateClustersForAabb)||
+|[`void OverlapAllBoundingSphere<T>(ref VRageMath.BoundingSphereD, List<T>, bool)`](VRageMath.OverlapAllBoundingSphere)||
+|[`void OverlapAllBoundingSphere<T>(ref VRageMath.BoundingSphereD, Action<T>)`](VRageMath.OverlapAllBoundingSphere)||
+|[`void GetAll<T>(List<T>, bool, List<VRageMath.BoundingBoxD>)`](VRageMath.GetAll)||
+|[`void GetAll<T>(Action<T>)`](VRageMath.GetAll)||
+|[`void GetAll<T>(Action<T, VRageMath.BoundingBoxD>)`](VRageMath.GetAll)||
+|[`void GetAllNodeBounds(List<VRageMath.BoundingBoxD>)`](VRageMath.GetAllNodeBounds)||
 |[`void Clear()`](VRageMath.Clear)||
 |static [`void Dispose()`](VRageMath.Dispose)||

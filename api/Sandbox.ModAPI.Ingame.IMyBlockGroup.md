@@ -9,6 +9,6 @@
 ### Methods
 |Member|Description|
 |---|---|
-|[`void GetBlocks(List<IMyTerminalBlock> blocks, Func<IMyTerminalBlock, bool> collect)`](Sandbox.ModAPI.Ingame.GetBlocks)||
-|[`void GetBlocksOfType<T>(List<IMyTerminalBlock> blocks, Func<IMyTerminalBlock, bool> collect)`](Sandbox.ModAPI.Ingame.GetBlocksOfType)||
-|[`void GetBlocksOfType<T>(List<T> blocks, Func<T, bool> collect)`](Sandbox.ModAPI.Ingame.GetBlocksOfType)||
+|[`void GetBlocks(List<Sandbox.ModAPI.Ingame.IMyTerminalBlock>, Func<Sandbox.ModAPI.Ingame.IMyTerminalBlock, System.Boolean>)`](Sandbox.ModAPI.Ingame.GetBlocks)||
+|[`void GetBlocksOfType<T>(List<Sandbox.ModAPI.Ingame.IMyTerminalBlock>, Func<Sandbox.ModAPI.Ingame.IMyTerminalBlock, System.Boolean>)`](Sandbox.ModAPI.Ingame.GetBlocksOfType)||
+|[`void GetBlocksOfType<T>(List<T>, Func<T, System.Boolean>)`](Sandbox.ModAPI.Ingame.GetBlocksOfType)||

@@ -5,6 +5,6 @@
 ### Fields
 |Member|Description|
 |---|---|
-|static [`FlightMode Patrol`](Sandbox.ModAPI.Ingame.Patrol)||
-|static [`FlightMode Circle`](Sandbox.ModAPI.Ingame.Circle)||
-|static [`FlightMode OneWay`](Sandbox.ModAPI.Ingame.OneWay)||
+|static [`Sandbox.ModAPI.Ingame.FlightMode Patrol`](Sandbox.ModAPI.Ingame.Patrol)||
+|static [`Sandbox.ModAPI.Ingame.FlightMode Circle`](Sandbox.ModAPI.Ingame.Circle)||
+|static [`Sandbox.ModAPI.Ingame.FlightMode OneWay`](Sandbox.ModAPI.Ingame.OneWay)||

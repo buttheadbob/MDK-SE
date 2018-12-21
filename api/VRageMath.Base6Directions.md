@@ -5,41 +5,41 @@
 ### Fields
 |Member|Description|
 |---|---|
-|static [`Direction[] EnumDirections`](VRageMath.EnumDirections)||
-|static [`Vector3[] Directions`](VRageMath.Directions)||
-|static [`Vector3I[] IntDirections`](VRageMath.IntDirections)||
+|static [`VRageMath.Direction[] EnumDirections`](VRageMath.EnumDirections)||
+|static [`VRageMath.Vector3[] Directions`](VRageMath.Directions)||
+|static [`VRageMath.Vector3I[] IntDirections`](VRageMath.IntDirections)||
 ### Methods
 |Member|Description|
 |---|---|
-|static [`bool IsBaseDirection(ref Vector3 vec)`](VRageMath.IsBaseDirection)||
-|static [`bool IsBaseDirection(Vector3 vec)`](VRageMath.IsBaseDirection)||
-|static [`bool IsBaseDirection(ref Vector3I vec)`](VRageMath.IsBaseDirection)||
-|static [`Vector3 GetVector(int direction)`](VRageMath.GetVector)||
-|static [`Vector3 GetVector(Direction dir)`](VRageMath.GetVector)||
-|static [`Vector3I GetIntVector(int direction)`](VRageMath.GetIntVector)||
-|static [`Vector3I GetIntVector(Direction dir)`](VRageMath.GetIntVector)||
-|static [`void GetVector(Direction dir, ref Vector3 result)`](VRageMath.GetVector)||
-|static [`DirectionFlags GetDirectionFlag(Direction dir)`](VRageMath.GetDirectionFlag)||
-|static [`Direction GetPerpendicular(Direction dir)`](VRageMath.GetPerpendicular)||
-|static [`Direction GetDirection(Vector3 vec)`](VRageMath.GetDirection)||
-|static [`Direction GetDirection(ref Vector3 vec)`](VRageMath.GetDirection)||
-|static [`Direction GetDirection(Vector3I vec)`](VRageMath.GetDirection)||
-|static [`Direction GetDirection(ref Vector3I vec)`](VRageMath.GetDirection)||
-|static [`Direction GetClosestDirection(Vector3 vec)`](VRageMath.GetClosestDirection)||
-|static [`Direction GetClosestDirection(ref Vector3 vec)`](VRageMath.GetClosestDirection)||
-|static [`Direction GetDirectionInAxis(Vector3 vec, Axis axis)`](VRageMath.GetDirectionInAxis)||
-|static [`Direction GetDirectionInAxis(ref Vector3 vec, Axis axis)`](VRageMath.GetDirectionInAxis)||
-|static [`Direction GetForward(Quaternion rot)`](VRageMath.GetForward)||
-|static [`Direction GetForward(ref Quaternion rot)`](VRageMath.GetForward)||
-|static [`Direction GetForward(ref Matrix rotation)`](VRageMath.GetForward)||
-|static [`Direction GetUp(Quaternion rot)`](VRageMath.GetUp)||
-|static [`Direction GetUp(ref Quaternion rot)`](VRageMath.GetUp)||
-|static [`Direction GetUp(ref Matrix rotation)`](VRageMath.GetUp)||
-|static [`Axis GetAxis(Direction direction)`](VRageMath.GetAxis)||
-|static [`Direction GetBaseAxisDirection(Axis axis)`](VRageMath.GetBaseAxisDirection)||
-|static [`Direction GetFlippedDirection(Direction toFlip)`](VRageMath.GetFlippedDirection)||
-|static [`Direction GetCross(Direction dir1, Direction dir2)`](VRageMath.GetCross)||
-|static [`Direction GetLeft(Direction up, Direction forward)`](VRageMath.GetLeft)||
-|static [`Direction GetOppositeDirection(Direction dir)`](VRageMath.GetOppositeDirection)||
-|static [`Quaternion GetOrientation(Direction forward, Direction up)`](VRageMath.GetOrientation)||
-|static [`bool IsValidBlockOrientation(Direction forward, Direction up)`](VRageMath.IsValidBlockOrientation)||
+|static [`bool IsBaseDirection(ref VRageMath.Vector3)`](VRageMath.IsBaseDirection)||
+|static [`bool IsBaseDirection(VRageMath.Vector3)`](VRageMath.IsBaseDirection)||
+|static [`bool IsBaseDirection(ref VRageMath.Vector3I)`](VRageMath.IsBaseDirection)||
+|static [`VRageMath.Vector3 GetVector(int)`](VRageMath.GetVector)||
+|static [`VRageMath.Vector3 GetVector(VRageMath.Direction)`](VRageMath.GetVector)||
+|static [`VRageMath.Vector3I GetIntVector(int)`](VRageMath.GetIntVector)||
+|static [`VRageMath.Vector3I GetIntVector(VRageMath.Direction)`](VRageMath.GetIntVector)||
+|static [`void GetVector(VRageMath.Direction, ref VRageMath.Vector3)`](VRageMath.GetVector)||
+|static [`VRageMath.DirectionFlags GetDirectionFlag(VRageMath.Direction)`](VRageMath.GetDirectionFlag)||
+|static [`VRageMath.Direction GetPerpendicular(VRageMath.Direction)`](VRageMath.GetPerpendicular)||
+|static [`VRageMath.Direction GetDirection(VRageMath.Vector3)`](VRageMath.GetDirection)||
+|static [`VRageMath.Direction GetDirection(ref VRageMath.Vector3)`](VRageMath.GetDirection)||
+|static [`VRageMath.Direction GetDirection(VRageMath.Vector3I)`](VRageMath.GetDirection)||
+|static [`VRageMath.Direction GetDirection(ref VRageMath.Vector3I)`](VRageMath.GetDirection)||
+|static [`VRageMath.Direction GetClosestDirection(VRageMath.Vector3)`](VRageMath.GetClosestDirection)||
+|static [`VRageMath.Direction GetClosestDirection(ref VRageMath.Vector3)`](VRageMath.GetClosestDirection)||
+|static [`VRageMath.Direction GetDirectionInAxis(VRageMath.Vector3, VRageMath.Axis)`](VRageMath.GetDirectionInAxis)||
+|static [`VRageMath.Direction GetDirectionInAxis(ref VRageMath.Vector3, VRageMath.Axis)`](VRageMath.GetDirectionInAxis)||
+|static [`VRageMath.Direction GetForward(VRageMath.Quaternion)`](VRageMath.GetForward)||
+|static [`VRageMath.Direction GetForward(ref VRageMath.Quaternion)`](VRageMath.GetForward)||
+|static [`VRageMath.Direction GetForward(ref VRageMath.Matrix)`](VRageMath.GetForward)||
+|static [`VRageMath.Direction GetUp(VRageMath.Quaternion)`](VRageMath.GetUp)||
+|static [`VRageMath.Direction GetUp(ref VRageMath.Quaternion)`](VRageMath.GetUp)||
+|static [`VRageMath.Direction GetUp(ref VRageMath.Matrix)`](VRageMath.GetUp)||
+|static [`VRageMath.Axis GetAxis(VRageMath.Direction)`](VRageMath.GetAxis)||
+|static [`VRageMath.Direction GetBaseAxisDirection(VRageMath.Axis)`](VRageMath.GetBaseAxisDirection)||
+|static [`VRageMath.Direction GetFlippedDirection(VRageMath.Direction)`](VRageMath.GetFlippedDirection)||
+|static [`VRageMath.Direction GetCross(VRageMath.Direction, VRageMath.Direction)`](VRageMath.GetCross)||
+|static [`VRageMath.Direction GetLeft(VRageMath.Direction, VRageMath.Direction)`](VRageMath.GetLeft)||
+|static [`VRageMath.Direction GetOppositeDirection(VRageMath.Direction)`](VRageMath.GetOppositeDirection)||
+|static [`VRageMath.Quaternion GetOrientation(VRageMath.Direction, VRageMath.Direction)`](VRageMath.GetOrientation)||
+|static [`bool IsValidBlockOrientation(VRageMath.Direction, VRageMath.Direction)`](VRageMath.IsValidBlockOrientation)||

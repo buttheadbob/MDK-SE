@@ -10,11 +10,11 @@
 ### Methods
 |Member|Description|
 |---|---|
-|[`bool ValueBetween(float value)`](VRageMath.ValueBetween)||
+|[`bool ValueBetween(float)`](VRageMath.ValueBetween)||
 |[`string ToString()`](VRageMath.ToString)||
-|[`SerializableRange ConvertToCosine()`](VRageMath.ConvertToCosine)||
-|[`SerializableRange ConvertToSine()`](VRageMath.ConvertToSine)||
-|[`SerializableRange ConvertToCosineLongitude()`](VRageMath.ConvertToCosineLongitude)||
+|[`VRageMath.SerializableRange ConvertToCosine()`](VRageMath.ConvertToCosine)||
+|[`VRageMath.SerializableRange ConvertToSine()`](VRageMath.ConvertToSine)||
+|[`VRageMath.SerializableRange ConvertToCosineLongitude()`](VRageMath.ConvertToCosineLongitude)||
 |[`string ToStringAsin()`](VRageMath.ToStringAsin)||
 |[`string ToStringAcos()`](VRageMath.ToStringAcos)||
 |[`string ToStringLongitude()`](VRageMath.ToStringLongitude)||

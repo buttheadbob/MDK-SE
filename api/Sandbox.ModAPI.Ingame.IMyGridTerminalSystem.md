@@ -5,11 +5,11 @@
 ### Methods
 |Member|Description|
 |---|---|
-|[`void GetBlocks(List<IMyTerminalBlock> blocks)`](Sandbox.ModAPI.Ingame.GetBlocks)||
-|[`void GetBlockGroups(List<IMyBlockGroup> blockGroups, Func<IMyBlockGroup, bool> collect)`](Sandbox.ModAPI.Ingame.GetBlockGroups)||
-|[`void GetBlocksOfType<T>(List<IMyTerminalBlock> blocks, Func<IMyTerminalBlock, bool> collect)`](Sandbox.ModAPI.Ingame.GetBlocksOfType)||
-|[`void GetBlocksOfType<T>(List<T> blocks, Func<T, bool> collect)`](Sandbox.ModAPI.Ingame.GetBlocksOfType)||
-|[`void SearchBlocksOfName(string name, List<IMyTerminalBlock> blocks, Func<IMyTerminalBlock, bool> collect)`](Sandbox.ModAPI.Ingame.SearchBlocksOfName)||
-|[`IMyTerminalBlock GetBlockWithName(string name)`](Sandbox.ModAPI.Ingame.GetBlockWithName)||
-|[`IMyBlockGroup GetBlockGroupWithName(string name)`](Sandbox.ModAPI.Ingame.GetBlockGroupWithName)||
-|[`IMyTerminalBlock GetBlockWithId(long id)`](Sandbox.ModAPI.Ingame.GetBlockWithId)||
+|[`void GetBlocks(List<Sandbox.ModAPI.Ingame.IMyTerminalBlock>)`](Sandbox.ModAPI.Ingame.GetBlocks)||
+|[`void GetBlockGroups(List<Sandbox.ModAPI.Ingame.IMyBlockGroup>, Func<Sandbox.ModAPI.Ingame.IMyBlockGroup, System.Boolean>)`](Sandbox.ModAPI.Ingame.GetBlockGroups)||
+|[`void GetBlocksOfType<T>(List<Sandbox.ModAPI.Ingame.IMyTerminalBlock>, Func<Sandbox.ModAPI.Ingame.IMyTerminalBlock, System.Boolean>)`](Sandbox.ModAPI.Ingame.GetBlocksOfType)||
+|[`void GetBlocksOfType<T>(List<T>, Func<T, System.Boolean>)`](Sandbox.ModAPI.Ingame.GetBlocksOfType)||
+|[`void SearchBlocksOfName(string, List<Sandbox.ModAPI.Ingame.IMyTerminalBlock>, Func<Sandbox.ModAPI.Ingame.IMyTerminalBlock, System.Boolean>)`](Sandbox.ModAPI.Ingame.SearchBlocksOfName)||
+|[`Sandbox.ModAPI.Ingame.IMyTerminalBlock GetBlockWithName(string)`](Sandbox.ModAPI.Ingame.GetBlockWithName)||
+|[`Sandbox.ModAPI.Ingame.IMyBlockGroup GetBlockGroupWithName(string)`](Sandbox.ModAPI.Ingame.GetBlockGroupWithName)||
+|[`Sandbox.ModAPI.Ingame.IMyTerminalBlock GetBlockWithId(long)`](Sandbox.ModAPI.Ingame.GetBlockWithId)||

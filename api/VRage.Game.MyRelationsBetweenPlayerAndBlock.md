@@ -5,8 +5,8 @@
 ### Fields
 |Member|Description|
 |---|---|
-|static [`MyRelationsBetweenPlayerAndBlock NoOwnership`](VRage.Game.NoOwnership)||
-|static [`MyRelationsBetweenPlayerAndBlock Owner`](VRage.Game.Owner)||
-|static [`MyRelationsBetweenPlayerAndBlock FactionShare`](VRage.Game.FactionShare)||
-|static [`MyRelationsBetweenPlayerAndBlock Neutral`](VRage.Game.Neutral)||
-|static [`MyRelationsBetweenPlayerAndBlock Enemies`](VRage.Game.Enemies)||
+|static [`VRage.Game.MyRelationsBetweenPlayerAndBlock NoOwnership`](VRage.Game.NoOwnership)||
+|static [`VRage.Game.MyRelationsBetweenPlayerAndBlock Owner`](VRage.Game.Owner)||
+|static [`VRage.Game.MyRelationsBetweenPlayerAndBlock FactionShare`](VRage.Game.FactionShare)||
+|static [`VRage.Game.MyRelationsBetweenPlayerAndBlock Neutral`](VRage.Game.Neutral)||
+|static [`VRage.Game.MyRelationsBetweenPlayerAndBlock Enemies`](VRage.Game.Enemies)||

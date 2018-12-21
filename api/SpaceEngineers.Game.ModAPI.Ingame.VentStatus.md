@@ -5,7 +5,7 @@
 ### Fields
 |Member|Description|
 |---|---|
-|static [`VentStatus Depressurized`](SpaceEngineers.Game.ModAPI.Ingame.Depressurized)|Air vent is depressurized|
-|static [`VentStatus Depressurizing`](SpaceEngineers.Game.ModAPI.Ingame.Depressurizing)|Air vent is in process of depressurizing|
-|static [`VentStatus Pressurized`](SpaceEngineers.Game.ModAPI.Ingame.Pressurized)|Air vent is pressurized|
-|static [`VentStatus Pressurizing`](SpaceEngineers.Game.ModAPI.Ingame.Pressurizing)|Air vent is in process of pressurizing|
+|static [`SpaceEngineers.Game.ModAPI.Ingame.VentStatus Depressurized`](SpaceEngineers.Game.ModAPI.Ingame.Depressurized)|Air vent is depressurized|
+|static [`SpaceEngineers.Game.ModAPI.Ingame.VentStatus Depressurizing`](SpaceEngineers.Game.ModAPI.Ingame.Depressurizing)|Air vent is in process of depressurizing|
+|static [`SpaceEngineers.Game.ModAPI.Ingame.VentStatus Pressurized`](SpaceEngineers.Game.ModAPI.Ingame.Pressurized)|Air vent is pressurized|
+|static [`SpaceEngineers.Game.ModAPI.Ingame.VentStatus Pressurizing`](SpaceEngineers.Game.ModAPI.Ingame.Pressurizing)|Air vent is in process of pressurizing|

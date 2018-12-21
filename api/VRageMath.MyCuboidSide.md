@@ -5,8 +5,8 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`Plane Plane`](VRageMath.Plane)||
-|[`Line[] Lines`](VRageMath.Lines)||
+|[`VRageMath.Plane Plane`](VRageMath.Plane)||
+|[`VRageMath.Line[] Lines`](VRageMath.Lines)||
 ### Methods
 |Member|Description|
 |---|---|

@@ -7,21 +7,21 @@ Base 26 directions and Vector3.Zero Each component is only 0,-1 or 1;
 ### Fields
 |Member|Description|
 |---|---|
-|static [`Vector3[] Directions`](VRageMath.Directions)||
-|static [`Vector3I[] DirectionsInt`](VRageMath.DirectionsInt)||
+|static [`VRageMath.Vector3[] Directions`](VRageMath.Directions)||
+|static [`VRageMath.Vector3I[] DirectionsInt`](VRageMath.DirectionsInt)||
 ### Methods
 |Member|Description|
 |---|---|
-|static [`bool IsBaseDirection(ref Vector3 vec)`](VRageMath.IsBaseDirection)||
-|static [`bool IsBaseDirection(ref Vector3I vec)`](VRageMath.IsBaseDirection)||
-|static [`bool IsBaseDirection(Vector3 vec)`](VRageMath.IsBaseDirection)||
-|static [`Vector3 GetVector(int direction)`](VRageMath.GetVector)||
-|static [`Vector3I GetVectorInt(int direction)`](VRageMath.GetVectorInt)||
-|static [`Vector3 GetVector(Direction dir)`](VRageMath.GetVector)||
-|static [`Vector3I GetVectorInt(Direction dir)`](VRageMath.GetVectorInt)||
-|static [`Direction GetDirection(Vector3 vec)`](VRageMath.GetDirection)|Vector must be normalized, allowed values for components are: 0, 1, -1, 0.707, -0.707, 0.577, -0.577|
-|static [`Direction GetDirection(Vector3I vec)`](VRageMath.GetDirection)||
-|static [`Direction GetDirection(ref Vector3 vec)`](VRageMath.GetDirection)||
-|static [`Direction GetDirection(ref Vector3I vec)`](VRageMath.GetDirection)||
-|static [`Direction GetForward(ref Quaternion rot)`](VRageMath.GetForward)||
-|static [`Direction GetUp(ref Quaternion rot)`](VRageMath.GetUp)||
+|static [`bool IsBaseDirection(ref VRageMath.Vector3)`](VRageMath.IsBaseDirection)||
+|static [`bool IsBaseDirection(ref VRageMath.Vector3I)`](VRageMath.IsBaseDirection)||
+|static [`bool IsBaseDirection(VRageMath.Vector3)`](VRageMath.IsBaseDirection)||
+|static [`VRageMath.Vector3 GetVector(int)`](VRageMath.GetVector)||
+|static [`VRageMath.Vector3I GetVectorInt(int)`](VRageMath.GetVectorInt)||
+|static [`VRageMath.Vector3 GetVector(VRageMath.Direction)`](VRageMath.GetVector)||
+|static [`VRageMath.Vector3I GetVectorInt(VRageMath.Direction)`](VRageMath.GetVectorInt)||
+|static [`VRageMath.Direction GetDirection(VRageMath.Vector3)`](VRageMath.GetDirection)|Vector must be normalized, allowed values for components are: 0, 1, -1, 0.707, -0.707, 0.577, -0.577|
+|static [`VRageMath.Direction GetDirection(VRageMath.Vector3I)`](VRageMath.GetDirection)||
+|static [`VRageMath.Direction GetDirection(ref VRageMath.Vector3)`](VRageMath.GetDirection)||
+|static [`VRageMath.Direction GetDirection(ref VRageMath.Vector3I)`](VRageMath.GetDirection)||
+|static [`VRageMath.Direction GetForward(ref VRageMath.Quaternion)`](VRageMath.GetForward)||
+|static [`VRageMath.Direction GetUp(ref VRageMath.Quaternion)`](VRageMath.GetUp)||

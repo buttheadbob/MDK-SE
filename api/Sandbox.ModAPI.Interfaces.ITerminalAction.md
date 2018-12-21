@@ -7,11 +7,11 @@
 |---|---|
 |[`string Id`](Sandbox.ModAPI.Interfaces.Id)||
 |[`string Icon`](Sandbox.ModAPI.Interfaces.Icon)||
-|[`StringBuilder Name`](Sandbox.ModAPI.Interfaces.Name)||
+|[`System.Text.StringBuilder Name`](Sandbox.ModAPI.Interfaces.Name)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`void Apply(IMyCubeBlock block)`](Sandbox.ModAPI.Interfaces.Apply)||
-|[`void Apply(IMyCubeBlock block, ListReader<TerminalActionParameter> terminalActionParameters)`](Sandbox.ModAPI.Interfaces.Apply)||
-|[`void WriteValue(IMyCubeBlock block, StringBuilder appendTo)`](Sandbox.ModAPI.Interfaces.WriteValue)||
-|[`bool IsEnabled(IMyCubeBlock block)`](Sandbox.ModAPI.Interfaces.IsEnabled)||
+|[`void Apply(VRage.Game.ModAPI.Ingame.IMyCubeBlock)`](Sandbox.ModAPI.Interfaces.Apply)||
+|[`void Apply(VRage.Game.ModAPI.Ingame.IMyCubeBlock, ListReader<Sandbox.ModAPI.Ingame.TerminalActionParameter>)`](Sandbox.ModAPI.Interfaces.Apply)||
+|[`void WriteValue(VRage.Game.ModAPI.Ingame.IMyCubeBlock, System.Text.StringBuilder)`](Sandbox.ModAPI.Interfaces.WriteValue)||
+|[`bool IsEnabled(VRage.Game.ModAPI.Ingame.IMyCubeBlock)`](Sandbox.ModAPI.Interfaces.IsEnabled)||

@@ -15,7 +15,7 @@
 ### Methods
 |Member|Description|
 |---|---|
-|[`float CurrentOutputByType(MyDefinitionId resourceTypeId)`](VRage.Game.Components.CurrentOutputByType)|Currently used power output of the producer in MW or litres/h.<br/><br/>_Inherited from [`MyResourceSourceComponentBase`](Sandbox.Game.EntityComponents.MyResourceSourceComponent)_|
-|[`float MaxOutputByType(MyDefinitionId resourceTypeId)`](VRage.Game.Components.MaxOutputByType)|Maximum power output of the producer in MW or litres/h.<br/><br/>_Inherited from [`MyResourceSourceComponentBase`](Sandbox.Game.EntityComponents.MyResourceSourceComponent)_|
-|[`float DefinedOutputByType(MyDefinitionId resourceTypeId)`](VRage.Game.Components.DefinedOutputByType)|Max resource output defined in definition in MW or litres/h.<br/><br/>_Inherited from [`MyResourceSourceComponentBase`](Sandbox.Game.EntityComponents.MyResourceSourceComponent)_|
-|[`bool ProductionEnabledByType(MyDefinitionId resourceTypeId)`](VRage.Game.Components.ProductionEnabledByType)|Resource production is enabled<br/><br/>_Inherited from [`MyResourceSourceComponentBase`](Sandbox.Game.EntityComponents.MyResourceSourceComponent)_|
+|[`float CurrentOutputByType(VRage.Game.MyDefinitionId)`](VRage.Game.Components.CurrentOutputByType)|Currently used power output of the producer in MW or litres/h.<br/><br/>_Inherited from [`MyResourceSourceComponentBase`](Sandbox.Game.EntityComponents.MyResourceSourceComponent)_|
+|[`float MaxOutputByType(VRage.Game.MyDefinitionId)`](VRage.Game.Components.MaxOutputByType)|Maximum power output of the producer in MW or litres/h.<br/><br/>_Inherited from [`MyResourceSourceComponentBase`](Sandbox.Game.EntityComponents.MyResourceSourceComponent)_|
+|[`float DefinedOutputByType(VRage.Game.MyDefinitionId)`](VRage.Game.Components.DefinedOutputByType)|Max resource output defined in definition in MW or litres/h.<br/><br/>_Inherited from [`MyResourceSourceComponentBase`](Sandbox.Game.EntityComponents.MyResourceSourceComponent)_|
+|[`bool ProductionEnabledByType(VRage.Game.MyDefinitionId)`](VRage.Game.Components.ProductionEnabledByType)|Resource production is enabled<br/><br/>_Inherited from [`MyResourceSourceComponentBase`](Sandbox.Game.EntityComponents.MyResourceSourceComponent)_|

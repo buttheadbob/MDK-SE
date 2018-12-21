@@ -7,10 +7,10 @@ A class for simpler traversal of ranges of longeger vectors
 ### Fields
 |Member|Description|
 |---|---|
-|[`Vector3L Current`](VRageMath.Current)|Do not modify, public only for optimization!|
+|[`VRageMath.Vector3L Current`](VRageMath.Current)|Do not modify, public only for optimization!|
 ### Methods
 |Member|Description|
 |---|---|
 |[`bool IsValid()`](VRageMath.IsValid)||
-|[`void GetNext(ref Vector3L next)`](VRageMath.GetNext)||
+|[`void GetNext(ref VRageMath.Vector3L)`](VRageMath.GetNext)||
 |[`void MoveNext()`](VRageMath.MoveNext)||

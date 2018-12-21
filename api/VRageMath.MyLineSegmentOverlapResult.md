@@ -6,5 +6,5 @@
 |Member|Description|
 |---|---|
 |[`double Distance`](VRageMath.Distance)||
-|[`T Element`](VRageMath.Element)||
+|[`VRageMath.T Element`](VRageMath.Element)||
 |static [`MyLineSegmentOverlapResultComparer<T> DistanceComparer`](VRageMath.DistanceComparer)||

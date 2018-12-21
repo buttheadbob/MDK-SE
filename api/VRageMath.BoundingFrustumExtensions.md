@@ -5,4 +5,4 @@
 ### Methods
 |Member|Description|
 |---|---|
-|static [`BoundingSphere ToBoundingSphere(BoundingFrustum frustum, Vector3[] corners)`](VRageMath.ToBoundingSphere)|Creates bounding sphere from bounding frustum. Implementation taken from XNA source, replace IEnumerable with array|
+|static [`VRageMath.BoundingSphere ToBoundingSphere(VRageMath.BoundingFrustum, VRageMath.Vector3[])`](VRageMath.ToBoundingSphere)|Creates bounding sphere from bounding frustum. Implementation taken from XNA source, replace IEnumerable with array|

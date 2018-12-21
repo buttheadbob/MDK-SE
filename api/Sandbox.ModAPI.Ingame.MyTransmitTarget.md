@@ -5,10 +5,10 @@
 ### Fields
 |Member|Description|
 |---|---|
-|static [`MyTransmitTarget None`](Sandbox.ModAPI.Ingame.None)||
-|static [`MyTransmitTarget Owned`](Sandbox.ModAPI.Ingame.Owned)||
-|static [`MyTransmitTarget Ally`](Sandbox.ModAPI.Ingame.Ally)||
-|static [`MyTransmitTarget Neutral`](Sandbox.ModAPI.Ingame.Neutral)||
-|static [`MyTransmitTarget Enemy`](Sandbox.ModAPI.Ingame.Enemy)||
-|static [`MyTransmitTarget Everyone`](Sandbox.ModAPI.Ingame.Everyone)||
-|static [`MyTransmitTarget Default`](Sandbox.ModAPI.Ingame.Default)||
+|static [`Sandbox.ModAPI.Ingame.MyTransmitTarget None`](Sandbox.ModAPI.Ingame.None)||
+|static [`Sandbox.ModAPI.Ingame.MyTransmitTarget Owned`](Sandbox.ModAPI.Ingame.Owned)||
+|static [`Sandbox.ModAPI.Ingame.MyTransmitTarget Ally`](Sandbox.ModAPI.Ingame.Ally)||
+|static [`Sandbox.ModAPI.Ingame.MyTransmitTarget Neutral`](Sandbox.ModAPI.Ingame.Neutral)||
+|static [`Sandbox.ModAPI.Ingame.MyTransmitTarget Enemy`](Sandbox.ModAPI.Ingame.Enemy)||
+|static [`Sandbox.ModAPI.Ingame.MyTransmitTarget Everyone`](Sandbox.ModAPI.Ingame.Everyone)||
+|static [`Sandbox.ModAPI.Ingame.MyTransmitTarget Default`](Sandbox.ModAPI.Ingame.Default)||

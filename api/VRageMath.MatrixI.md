@@ -5,30 +5,30 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`Direction Right`](VRageMath.Right)||
-|[`Direction Up`](VRageMath.Up)||
-|[`Direction Backward`](VRageMath.Backward)||
-|[`Vector3I Translation`](VRageMath.Translation)||
+|[`VRageMath.Direction Right`](VRageMath.Right)||
+|[`VRageMath.Direction Up`](VRageMath.Up)||
+|[`VRageMath.Direction Backward`](VRageMath.Backward)||
+|[`VRageMath.Vector3I Translation`](VRageMath.Translation)||
 ### Properties
 |Member|Description|
 |---|---|
-|[`Direction Left`](VRageMath.Left)||
-|[`Direction Down`](VRageMath.Down)||
-|[`Direction Forward`](VRageMath.Forward)||
-|[`Vector3I RightVector`](VRageMath.RightVector)||
-|[`Vector3I LeftVector`](VRageMath.LeftVector)||
-|[`Vector3I UpVector`](VRageMath.UpVector)||
-|[`Vector3I DownVector`](VRageMath.DownVector)||
-|[`Vector3I BackwardVector`](VRageMath.BackwardVector)||
-|[`Vector3I ForwardVector`](VRageMath.ForwardVector)||
+|[`VRageMath.Direction Left`](VRageMath.Left)||
+|[`VRageMath.Direction Down`](VRageMath.Down)||
+|[`VRageMath.Direction Forward`](VRageMath.Forward)||
+|[`VRageMath.Vector3I RightVector`](VRageMath.RightVector)||
+|[`VRageMath.Vector3I LeftVector`](VRageMath.LeftVector)||
+|[`VRageMath.Vector3I UpVector`](VRageMath.UpVector)||
+|[`VRageMath.Vector3I DownVector`](VRageMath.DownVector)||
+|[`VRageMath.Vector3I BackwardVector`](VRageMath.BackwardVector)||
+|[`VRageMath.Vector3I ForwardVector`](VRageMath.ForwardVector)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`Direction GetDirection(Direction direction)`](VRageMath.GetDirection)||
-|[`void SetDirection(Direction dirToSet, Direction newDirection)`](VRageMath.SetDirection)||
-|[`MyBlockOrientation GetBlockOrientation()`](VRageMath.GetBlockOrientation)||
-|[`Matrix GetFloatMatrix()`](VRageMath.GetFloatMatrix)||
-|static [`MatrixI CreateRotation(Direction oldA, Direction oldB, Direction newA, Direction newB)`](VRageMath.CreateRotation)||
-|static [`void Invert(ref MatrixI matrix, ref MatrixI result)`](VRageMath.Invert)||
-|static [`void Multiply(ref MatrixI leftMatrix, ref MatrixI rightMatrix, ref MatrixI result)`](VRageMath.Multiply)||
-|static [`MyBlockOrientation Transform(ref MyBlockOrientation orientation, ref MatrixI transform)`](VRageMath.Transform)||
+|[`VRageMath.Direction GetDirection(VRageMath.Direction)`](VRageMath.GetDirection)||
+|[`void SetDirection(VRageMath.Direction, VRageMath.Direction)`](VRageMath.SetDirection)||
+|[`VRageMath.MyBlockOrientation GetBlockOrientation()`](VRageMath.GetBlockOrientation)||
+|[`VRageMath.Matrix GetFloatMatrix()`](VRageMath.GetFloatMatrix)||
+|static [`VRageMath.MatrixI CreateRotation(VRageMath.Direction, VRageMath.Direction, VRageMath.Direction, VRageMath.Direction)`](VRageMath.CreateRotation)||
+|static [`void Invert(ref VRageMath.MatrixI, ref VRageMath.MatrixI)`](VRageMath.Invert)||
+|static [`void Multiply(ref VRageMath.MatrixI, ref VRageMath.MatrixI, ref VRageMath.MatrixI)`](VRageMath.Multiply)||
+|static [`VRageMath.MyBlockOrientation Transform(ref VRageMath.MyBlockOrientation, ref VRageMath.MatrixI)`](VRageMath.Transform)||

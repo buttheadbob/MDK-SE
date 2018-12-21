@@ -8,16 +8,16 @@
 |[`short X`](VRageMath.X)||
 |[`short Y`](VRageMath.Y)||
 |[`short Z`](VRageMath.Z)||
-|static [`Vector3S Up`](VRageMath.Up)||
-|static [`Vector3S Down`](VRageMath.Down)||
-|static [`Vector3S Right`](VRageMath.Right)||
-|static [`Vector3S Left`](VRageMath.Left)||
-|static [`Vector3S Forward`](VRageMath.Forward)||
-|static [`Vector3S Backward`](VRageMath.Backward)||
+|static [`VRageMath.Vector3S Up`](VRageMath.Up)||
+|static [`VRageMath.Vector3S Down`](VRageMath.Down)||
+|static [`VRageMath.Vector3S Right`](VRageMath.Right)||
+|static [`VRageMath.Vector3S Left`](VRageMath.Left)||
+|static [`VRageMath.Vector3S Forward`](VRageMath.Forward)||
+|static [`VRageMath.Vector3S Backward`](VRageMath.Backward)||
 ### Methods
 |Member|Description|
 |---|---|
 |[`string ToString()`](VRageMath.ToString)||
 |[`int GetHashCode()`](VRageMath.GetHashCode)||
-|[`bool Equals(Object obj)`](VRageMath.Equals)||
-|static [`Vector3S Round(Vector3 v)`](VRageMath.Round)||
+|[`bool Equals(System.Object)`](VRageMath.Equals)||
+|static [`VRageMath.Vector3S Round(VRageMath.Vector3)`](VRageMath.Round)||

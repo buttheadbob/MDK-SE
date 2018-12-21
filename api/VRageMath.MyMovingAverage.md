@@ -10,5 +10,5 @@
 ### Methods
 |Member|Description|
 |---|---|
-|[`void Enqueue(float value)`](VRageMath.Enqueue)||
+|[`void Enqueue(float)`](VRageMath.Enqueue)||
 |[`void Reset()`](VRageMath.Reset)||

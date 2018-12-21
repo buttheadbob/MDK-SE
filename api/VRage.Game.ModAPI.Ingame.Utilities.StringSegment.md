@@ -17,9 +17,9 @@
 ### Methods
 |Member|Description|
 |---|---|
-|[`int IndexOf(char ch)`](VRage.Game.ModAPI.Ingame.Utilities.IndexOf)||
-|[`int IndexOf(char ch, int start)`](VRage.Game.ModAPI.Ingame.Utilities.IndexOf)||
-|[`int IndexOfAny(Char[] chars)`](VRage.Game.ModAPI.Ingame.Utilities.IndexOfAny)||
-|[`bool EqualsIgnoreCase(StringSegment other)`](VRage.Game.ModAPI.Ingame.Utilities.EqualsIgnoreCase)||
+|[`int IndexOf(char)`](VRage.Game.ModAPI.Ingame.Utilities.IndexOf)||
+|[`int IndexOf(char, int)`](VRage.Game.ModAPI.Ingame.Utilities.IndexOf)||
+|[`int IndexOfAny(System.Char[])`](VRage.Game.ModAPI.Ingame.Utilities.IndexOfAny)||
+|[`bool EqualsIgnoreCase(VRage.Game.ModAPI.Ingame.Utilities.StringSegment)`](VRage.Game.ModAPI.Ingame.Utilities.EqualsIgnoreCase)||
 |[`string ToString()`](VRage.Game.ModAPI.Ingame.Utilities.ToString)||
-|[`void GetLines(List<string> lines)`](VRage.Game.ModAPI.Ingame.Utilities.GetLines)||
+|[`void GetLines(List<System.String>)`](VRage.Game.ModAPI.Ingame.Utilities.GetLines)||

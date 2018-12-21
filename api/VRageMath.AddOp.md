@@ -5,4 +5,4 @@
 ### Methods
 |Member|Description|
 |---|---|
-|[`void Add(T userData, bool contained)`](VRageMath.Add)||
+|[`void Add(VRageMath.T, bool)`](VRageMath.Add)||

@@ -7,8 +7,8 @@ Structure using the same layout than [System.Drawing.RectangleF](https://docs.mi
 ### Fields
 |Member|Description|
 |---|---|
-|[`Vector2 Position`](VRageMath.Position)|The Position.|
-|[`Vector2 Size`](VRageMath.Size)|The Size.|
+|[`VRageMath.Vector2 Position`](VRageMath.Position)|The Position.|
+|[`VRageMath.Vector2 Size`](VRageMath.Size)|The Size.|
 ### Properties
 |Member|Description|
 |---|---|
@@ -19,12 +19,12 @@ Structure using the same layout than [System.Drawing.RectangleF](https://docs.mi
 ### Methods
 |Member|Description|
 |---|---|
-|[`bool Contains(int x, int y)`](VRageMath.Contains)||
-|[`bool Contains(float x, float y)`](VRageMath.Contains)||
-|[`bool Contains(Vector2 vector2D)`](VRageMath.Contains)||
-|[`bool Contains(Point point)`](VRageMath.Contains)||
-|[`bool Equals(RectangleF other)`](VRageMath.Equals)|Determines whether the specified [System.Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6) is equal to this instance.|
-|static [`bool Intersect(ref RectangleF value1, ref RectangleF value2, ref RectangleF result)`](VRageMath.Intersect)|Creates a Rectangle defining the area where one rectangle overlaps with another rectangle.|
-|[`bool Equals(Object obj)`](VRageMath.Equals)||
+|[`bool Contains(int, int)`](VRageMath.Contains)||
+|[`bool Contains(float, float)`](VRageMath.Contains)||
+|[`bool Contains(VRageMath.Vector2)`](VRageMath.Contains)||
+|[`bool Contains(VRageMath.Point)`](VRageMath.Contains)||
+|[`bool Equals(VRageMath.RectangleF)`](VRageMath.Equals)|Determines whether the specified [System.Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6) is equal to this instance.|
+|static [`bool Intersect(ref VRageMath.RectangleF, ref VRageMath.RectangleF, ref VRageMath.RectangleF)`](VRageMath.Intersect)|Creates a Rectangle defining the area where one rectangle overlaps with another rectangle.|
+|[`bool Equals(System.Object)`](VRageMath.Equals)||
 |[`int GetHashCode()`](VRageMath.GetHashCode)||
 |[`string ToString()`](VRageMath.ToString)||

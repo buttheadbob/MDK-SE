@@ -8,20 +8,20 @@
 |[`long X`](VRageMath.X)||
 |[`long Y`](VRageMath.Y)||
 |[`long Z`](VRageMath.Z)||
-|static [`EqualityComparer Comparer`](VRageMath.Comparer)||
-|static [`Vector3L UnitX`](VRageMath.UnitX)||
-|static [`Vector3L UnitY`](VRageMath.UnitY)||
-|static [`Vector3L UnitZ`](VRageMath.UnitZ)||
-|static [`Vector3L Zero`](VRageMath.Zero)||
-|static [`Vector3L MaxValue`](VRageMath.MaxValue)||
-|static [`Vector3L MinValue`](VRageMath.MinValue)||
-|static [`Vector3L Up`](VRageMath.Up)||
-|static [`Vector3L Down`](VRageMath.Down)||
-|static [`Vector3L Right`](VRageMath.Right)||
-|static [`Vector3L Left`](VRageMath.Left)||
-|static [`Vector3L Forward`](VRageMath.Forward)||
-|static [`Vector3L Backward`](VRageMath.Backward)||
-|static [`Vector3L One`](VRageMath.One)||
+|static [`VRageMath.EqualityComparer Comparer`](VRageMath.Comparer)||
+|static [`VRageMath.Vector3L UnitX`](VRageMath.UnitX)||
+|static [`VRageMath.Vector3L UnitY`](VRageMath.UnitY)||
+|static [`VRageMath.Vector3L UnitZ`](VRageMath.UnitZ)||
+|static [`VRageMath.Vector3L Zero`](VRageMath.Zero)||
+|static [`VRageMath.Vector3L MaxValue`](VRageMath.MaxValue)||
+|static [`VRageMath.Vector3L MinValue`](VRageMath.MinValue)||
+|static [`VRageMath.Vector3L Up`](VRageMath.Up)||
+|static [`VRageMath.Vector3L Down`](VRageMath.Down)||
+|static [`VRageMath.Vector3L Right`](VRageMath.Right)||
+|static [`VRageMath.Vector3L Left`](VRageMath.Left)||
+|static [`VRageMath.Vector3L Forward`](VRageMath.Forward)||
+|static [`VRageMath.Vector3L Backward`](VRageMath.Backward)||
+|static [`VRageMath.Vector3L One`](VRageMath.One)||
 ### Properties
 |Member|Description|
 |---|---|
@@ -32,56 +32,56 @@
 |Member|Description|
 |---|---|
 |[`string ToString()`](VRageMath.ToString)||
-|[`bool Equals(Vector3L other)`](VRageMath.Equals)||
-|[`bool Equals(Object obj)`](VRageMath.Equals)||
+|[`bool Equals(VRageMath.Vector3L)`](VRageMath.Equals)||
+|[`bool Equals(System.Object)`](VRageMath.Equals)||
 |[`int GetHashCode()`](VRageMath.GetHashCode)||
-|[`bool IsInsideInclusiveEnd(ref Vector3L min, ref Vector3L max)`](VRageMath.IsInsideInclusiveEnd)||
-|[`bool IsInsideInclusiveEnd(Vector3L min, Vector3L max)`](VRageMath.IsInsideInclusiveEnd)||
-|[`bool IsInside(ref Vector3L inclusiveMin, ref Vector3L exclusiveMax)`](VRageMath.IsInside)||
-|[`bool IsInside(Vector3L inclusiveMin, Vector3L exclusiveMax)`](VRageMath.IsInside)||
-|[`long RectangularDistance(Vector3L otherVector)`](VRageMath.RectangularDistance)|Calculates rectangular distance. It's how many sectors you have to travel to get to other sector from current sector.|
+|[`bool IsInsideInclusiveEnd(ref VRageMath.Vector3L, ref VRageMath.Vector3L)`](VRageMath.IsInsideInclusiveEnd)||
+|[`bool IsInsideInclusiveEnd(VRageMath.Vector3L, VRageMath.Vector3L)`](VRageMath.IsInsideInclusiveEnd)||
+|[`bool IsInside(ref VRageMath.Vector3L, ref VRageMath.Vector3L)`](VRageMath.IsInside)||
+|[`bool IsInside(VRageMath.Vector3L, VRageMath.Vector3L)`](VRageMath.IsInside)||
+|[`long RectangularDistance(VRageMath.Vector3L)`](VRageMath.RectangularDistance)|Calculates rectangular distance. It's how many sectors you have to travel to get to other sector from current sector.|
 |[`long RectangularLength()`](VRageMath.RectangularLength)|Calculates rectangular distance of this vector, longerpreted as a polong, from the origin.|
 |[`long Length()`](VRageMath.Length)||
-|static [`bool Boxlongersects(Vector3L minA, Vector3L maxA, Vector3L minB, Vector3L maxB)`](VRageMath.Boxlongersects)||
-|static [`bool Boxlongersects(ref Vector3L minA, ref Vector3L maxA, ref Vector3L minB, ref Vector3L maxB)`](VRageMath.Boxlongersects)||
-|static [`bool BoxContains(Vector3L boxMin, Vector3L boxMax, Vector3L pt)`](VRageMath.BoxContains)||
-|static [`bool BoxContains(ref Vector3L boxMin, ref Vector3L boxMax, ref Vector3L pt)`](VRageMath.BoxContains)||
-|static [`Vector3L Min(Vector3L value1, Vector3L value2)`](VRageMath.Min)||
-|static [`void Min(ref Vector3L value1, ref Vector3L value2, ref Vector3L result)`](VRageMath.Min)||
+|static [`bool Boxlongersects(VRageMath.Vector3L, VRageMath.Vector3L, VRageMath.Vector3L, VRageMath.Vector3L)`](VRageMath.Boxlongersects)||
+|static [`bool Boxlongersects(ref VRageMath.Vector3L, ref VRageMath.Vector3L, ref VRageMath.Vector3L, ref VRageMath.Vector3L)`](VRageMath.Boxlongersects)||
+|static [`bool BoxContains(VRageMath.Vector3L, VRageMath.Vector3L, VRageMath.Vector3L)`](VRageMath.BoxContains)||
+|static [`bool BoxContains(ref VRageMath.Vector3L, ref VRageMath.Vector3L, ref VRageMath.Vector3L)`](VRageMath.BoxContains)||
+|static [`VRageMath.Vector3L Min(VRageMath.Vector3L, VRageMath.Vector3L)`](VRageMath.Min)||
+|static [`void Min(ref VRageMath.Vector3L, ref VRageMath.Vector3L, ref VRageMath.Vector3L)`](VRageMath.Min)||
 |[`long AbsMin()`](VRageMath.AbsMin)|Returns the component of the vector, whose absolute value is smallest of all the three components.|
-|static [`Vector3L Max(Vector3L value1, Vector3L value2)`](VRageMath.Max)||
-|static [`void Max(ref Vector3L value1, ref Vector3L value2, ref Vector3L result)`](VRageMath.Max)||
+|static [`VRageMath.Vector3L Max(VRageMath.Vector3L, VRageMath.Vector3L)`](VRageMath.Max)||
+|static [`void Max(ref VRageMath.Vector3L, ref VRageMath.Vector3L, ref VRageMath.Vector3L)`](VRageMath.Max)||
 |[`long AbsMax()`](VRageMath.AbsMax)|Returns the component of the vector, whose absolute value is largest of all the three components.|
-|[`long AxisValue(Axis axis)`](VRageMath.AxisValue)||
-|static [`CubeFace GetDominantDirection(Vector3L val)`](VRageMath.GetDominantDirection)||
-|static [`Vector3L GetDominantDirectionVector(Vector3L val)`](VRageMath.GetDominantDirectionVector)||
-|static [`Vector3L DominantAxisProjection(Vector3L value1)`](VRageMath.DominantAxisProjection)|Returns a vector that is equal to the projection of the input vector to the coordinate axis that corresponds to the original vector's largest value.|
-|static [`void DominantAxisProjection(ref Vector3L value1, ref Vector3L result)`](VRageMath.DominantAxisProjection)|Calculates a vector that is equal to the projection of the input vector to the coordinate axis that corresponds to the original vector's largest value. The result is saved longo a user-specified variable.|
-|static [`Vector3L Sign(Vector3 value)`](VRageMath.Sign)||
-|static [`Vector3L Sign(Vector3L value)`](VRageMath.Sign)||
-|static [`Vector3L Floor(Vector3 value)`](VRageMath.Floor)||
-|static [`Vector3L Floor(Vector3D value)`](VRageMath.Floor)||
-|static [`void Floor(ref Vector3 v, ref Vector3L r)`](VRageMath.Floor)||
-|static [`void Floor(ref Vector3D v, ref Vector3L r)`](VRageMath.Floor)||
-|static [`Vector3L Ceiling(Vector3 value)`](VRageMath.Ceiling)||
-|static [`Vector3L Trunc(Vector3 value)`](VRageMath.Trunc)||
-|static [`Vector3L Shift(Vector3L value)`](VRageMath.Shift)||
-|static [`void Transform(ref Vector3L position, ref Matrix matrix, ref Vector3L result)`](VRageMath.Transform)|Transforms a Vector3L by the given Matrix.|
-|static [`void Transform(ref Vector3L value, ref Quaternion rotation, ref Vector3L result)`](VRageMath.Transform)||
-|static [`Vector3L Transform(Vector3L value, Quaternion rotation)`](VRageMath.Transform)||
-|static [`void TransformNormal(ref Vector3L normal, ref Matrix matrix, ref Vector3L result)`](VRageMath.TransformNormal)|Transforms a vector normal by a matrix.|
-|static [`void Cross(ref Vector3L vector1, ref Vector3L vector2, ref Vector3L result)`](VRageMath.Cross)|Calculates the cross product of two vectors.|
-|[`int CompareTo(Vector3L other)`](VRageMath.CompareTo)||
-|static [`Vector3L Abs(Vector3L value)`](VRageMath.Abs)||
-|static [`void Abs(ref Vector3L value, ref Vector3L result)`](VRageMath.Abs)||
-|static [`Vector3L Clamp(Vector3L value1, Vector3L min, Vector3L max)`](VRageMath.Clamp)||
-|static [`void Clamp(ref Vector3L value1, ref Vector3L min, ref Vector3L max, ref Vector3L result)`](VRageMath.Clamp)||
-|static [`long DistanceManhattan(Vector3L first, Vector3L second)`](VRageMath.DistanceManhattan)|Manhattan distance (cube distance) X + Y + Z of Abs(first - second)|
-|[`long Dot(ref Vector3L v)`](VRageMath.Dot)||
-|static [`long Dot(Vector3L vector1, Vector3L vector2)`](VRageMath.Dot)||
-|static [`long Dot(ref Vector3L vector1, ref Vector3L vector2)`](VRageMath.Dot)||
-|static [`void Dot(ref Vector3L vector1, ref Vector3L vector2, ref long dot)`](VRageMath.Dot)||
-|static [`bool TryParseFromString(string p, ref Vector3L vec)`](VRageMath.TryParseFromString)||
+|[`long AxisValue(VRageMath.Axis)`](VRageMath.AxisValue)||
+|static [`VRageMath.CubeFace GetDominantDirection(VRageMath.Vector3L)`](VRageMath.GetDominantDirection)||
+|static [`VRageMath.Vector3L GetDominantDirectionVector(VRageMath.Vector3L)`](VRageMath.GetDominantDirectionVector)||
+|static [`VRageMath.Vector3L DominantAxisProjection(VRageMath.Vector3L)`](VRageMath.DominantAxisProjection)|Returns a vector that is equal to the projection of the input vector to the coordinate axis that corresponds to the original vector's largest value.|
+|static [`void DominantAxisProjection(ref VRageMath.Vector3L, ref VRageMath.Vector3L)`](VRageMath.DominantAxisProjection)|Calculates a vector that is equal to the projection of the input vector to the coordinate axis that corresponds to the original vector's largest value. The result is saved longo a user-specified variable.|
+|static [`VRageMath.Vector3L Sign(VRageMath.Vector3)`](VRageMath.Sign)||
+|static [`VRageMath.Vector3L Sign(VRageMath.Vector3L)`](VRageMath.Sign)||
+|static [`VRageMath.Vector3L Floor(VRageMath.Vector3)`](VRageMath.Floor)||
+|static [`VRageMath.Vector3L Floor(VRageMath.Vector3D)`](VRageMath.Floor)||
+|static [`void Floor(ref VRageMath.Vector3, ref VRageMath.Vector3L)`](VRageMath.Floor)||
+|static [`void Floor(ref VRageMath.Vector3D, ref VRageMath.Vector3L)`](VRageMath.Floor)||
+|static [`VRageMath.Vector3L Ceiling(VRageMath.Vector3)`](VRageMath.Ceiling)||
+|static [`VRageMath.Vector3L Trunc(VRageMath.Vector3)`](VRageMath.Trunc)||
+|static [`VRageMath.Vector3L Shift(VRageMath.Vector3L)`](VRageMath.Shift)||
+|static [`void Transform(ref VRageMath.Vector3L, ref VRageMath.Matrix, ref VRageMath.Vector3L)`](VRageMath.Transform)|Transforms a Vector3L by the given Matrix.|
+|static [`void Transform(ref VRageMath.Vector3L, ref VRageMath.Quaternion, ref VRageMath.Vector3L)`](VRageMath.Transform)||
+|static [`VRageMath.Vector3L Transform(VRageMath.Vector3L, VRageMath.Quaternion)`](VRageMath.Transform)||
+|static [`void TransformNormal(ref VRageMath.Vector3L, ref VRageMath.Matrix, ref VRageMath.Vector3L)`](VRageMath.TransformNormal)|Transforms a vector normal by a matrix.|
+|static [`void Cross(ref VRageMath.Vector3L, ref VRageMath.Vector3L, ref VRageMath.Vector3L)`](VRageMath.Cross)|Calculates the cross product of two vectors.|
+|[`int CompareTo(VRageMath.Vector3L)`](VRageMath.CompareTo)||
+|static [`VRageMath.Vector3L Abs(VRageMath.Vector3L)`](VRageMath.Abs)||
+|static [`void Abs(ref VRageMath.Vector3L, ref VRageMath.Vector3L)`](VRageMath.Abs)||
+|static [`VRageMath.Vector3L Clamp(VRageMath.Vector3L, VRageMath.Vector3L, VRageMath.Vector3L)`](VRageMath.Clamp)||
+|static [`void Clamp(ref VRageMath.Vector3L, ref VRageMath.Vector3L, ref VRageMath.Vector3L, ref VRageMath.Vector3L)`](VRageMath.Clamp)||
+|static [`long DistanceManhattan(VRageMath.Vector3L, VRageMath.Vector3L)`](VRageMath.DistanceManhattan)|Manhattan distance (cube distance) X + Y + Z of Abs(first - second)|
+|[`long Dot(ref VRageMath.Vector3L)`](VRageMath.Dot)||
+|static [`long Dot(VRageMath.Vector3L, VRageMath.Vector3L)`](VRageMath.Dot)||
+|static [`long Dot(ref VRageMath.Vector3L, ref VRageMath.Vector3L)`](VRageMath.Dot)||
+|static [`void Dot(ref VRageMath.Vector3L, ref VRageMath.Vector3L, ref long)`](VRageMath.Dot)||
+|static [`bool TryParseFromString(string, ref VRageMath.Vector3L)`](VRageMath.TryParseFromString)||
 |[`long Volume()`](VRageMath.Volume)||
-|static [`IEnumerable<Vector3L> EnumerateRange(Vector3L minInclusive, Vector3L maxExclusive)`](VRageMath.EnumerateRange)|Enumerate all values in a longeger longerval (a cuboid). This method is an allocating version of the Vector3L_RangeIterator. This once can be used in the foreach syntax though so it's more convenient for debug routines.|
-|[`void ToBytes(List<byte> result)`](VRageMath.ToBytes)||
+|static [`IEnumerable<VRageMath.Vector3L> EnumerateRange(VRageMath.Vector3L, VRageMath.Vector3L)`](VRageMath.EnumerateRange)|Enumerate all values in a longeger longerval (a cuboid). This method is an allocating version of the Vector3L_RangeIterator. This once can be used in the foreach syntax though so it's more convenient for debug routines.|
+|[`void ToBytes(List<System.Byte>)`](VRageMath.ToBytes)||

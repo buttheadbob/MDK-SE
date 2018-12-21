@@ -25,91 +25,91 @@ Contains commonly used precalculated values.
 ### Methods
 |Member|Description|
 |---|---|
-|static [`float ToRadians(float degrees)`](VRageMath.ToRadians)|Converts degrees to radians.|
-|static [`Vector3 ToRadians(Vector3 v)`](VRageMath.ToRadians)||
-|static [`double ToRadians(double degrees)`](VRageMath.ToRadians)|Converts degrees to radians.|
-|static [`float ToDegrees(float radians)`](VRageMath.ToDegrees)|Converts radians to degrees.|
-|static [`double ToDegrees(double radians)`](VRageMath.ToDegrees)||
-|static [`float Distance(float value1, float value2)`](VRageMath.Distance)|Calculates the absolute value of the difference of two values.|
-|static [`float Min(float value1, float value2)`](VRageMath.Min)|Returns the lesser of two values.|
-|static [`float Max(float value1, float value2)`](VRageMath.Max)|Returns the greater of two values.|
-|static [`double Min(double value1, double value2)`](VRageMath.Min)|Returns the lesser of two values.|
-|static [`double Max(double value1, double value2)`](VRageMath.Max)|Returns the greater of two values.|
-|static [`float Clamp(float value, float min, float max)`](VRageMath.Clamp)|Restricts a value to be within a specified range. Reference page contains links to related code samples.|
-|static [`double Clamp(double value, double min, double max)`](VRageMath.Clamp)|Restricts a value to be within a specified range. Reference page contains links to related code samples.|
-|static [`MyFixedPoint Clamp(MyFixedPoint value, MyFixedPoint min, MyFixedPoint max)`](VRageMath.Clamp)|Restricts a value to be within a specified range. Reference page contains links to related code samples.|
-|static [`int Clamp(int value, int min, int max)`](VRageMath.Clamp)|Restricts a value to be within a specified range. Reference page contains links to related code samples.|
-|static [`float Lerp(float value1, float value2, float amount)`](VRageMath.Lerp)|Linearly interpolates between two values.|
-|static [`double Lerp(double value1, double value2, double amount)`](VRageMath.Lerp)|Linearly interpolates between two values.|
-|static [`float InterpLog(float value, float amount1, float amount2)`](VRageMath.InterpLog)|Performs interpolation on logarithmic scale.|
-|static [`float InterpLogInv(float value, float amount1, float amount2)`](VRageMath.InterpLogInv)||
-|static [`float Barycentric(float value1, float value2, float value3, float amount1, float amount2)`](VRageMath.Barycentric)|Returns the Cartesian coordinate for one axis of a point that is defined by a given triangle and two normalized barycentric (areal) coordinates.|
-|static [`float SmoothStep(float value1, float value2, float amount)`](VRageMath.SmoothStep)|Interpolates between two values using a cubic equation.|
-|static [`double SmoothStep(double value1, double value2, double amount)`](VRageMath.SmoothStep)|Interpolates between two values using a cubic equation.|
-|static [`float SmoothStepStable(float amount)`](VRageMath.SmoothStepStable)|Interpolates between zero and one using cubic equiation, solved by de Casteljau.|
-|static [`double SmoothStepStable(double amount)`](VRageMath.SmoothStepStable)|Interpolates between zero and one using cubic equiation, solved by de Casteljau.|
-|static [`float CatmullRom(float value1, float value2, float value3, float value4, float amount)`](VRageMath.CatmullRom)|Performs a Catmull-Rom interpolation using the specified positions.|
-|static [`float Hermite(float value1, float tangent1, float value2, float tangent2, float amount)`](VRageMath.Hermite)|Performs a Hermite spline interpolation.|
-|static [`Vector3D CalculateBezierPoint(double t, Vector3D p0, Vector3D p1, Vector3D p2, Vector3D p3)`](VRageMath.CalculateBezierPoint)||
-|static [`float WrapAngle(float angle)`](VRageMath.WrapAngle)|Reduces a given angle to a value between π and -π.|
-|static [`int GetNearestBiggerPowerOfTwo(int v)`](VRageMath.GetNearestBiggerPowerOfTwo)||
-|static [`uint GetNearestBiggerPowerOfTwo(uint v)`](VRageMath.GetNearestBiggerPowerOfTwo)||
-|static [`int GetNumberOfMipmaps(int v)`](VRageMath.GetNumberOfMipmaps)||
-|static [`int GetNearestBiggerPowerOfTwo(float f)`](VRageMath.GetNearestBiggerPowerOfTwo)|Returns nearest bigger power of two|
-|static [`int GetNearestBiggerPowerOfTwo(double f)`](VRageMath.GetNearestBiggerPowerOfTwo)||
-|static [`float Max(float a, float b, float c)`](VRageMath.Max)||
-|static [`int Max(int a, int b, int c)`](VRageMath.Max)||
-|static [`float Min(float a, float b, float c)`](VRageMath.Min)||
-|static [`double Max(double a, double b, double c)`](VRageMath.Max)||
-|static [`double Min(double a, double b, double c)`](VRageMath.Min)||
-|static [`int ComputeHashFromBytes(Byte[] bytes)`](VRageMath.ComputeHashFromBytes)||
-|static [`float RoundOn2(float x)`](VRageMath.RoundOn2)||
-|static [`bool IsPowerOfTwo(int x)`](VRageMath.IsPowerOfTwo)|Returns true if value is power of two|
-|static [`float SCurve3(float t)`](VRageMath.SCurve3)||
-|static [`double SCurve3(double t)`](VRageMath.SCurve3)||
-|static [`float SCurve5(float t)`](VRageMath.SCurve5)||
-|static [`double SCurve5(double t)`](VRageMath.SCurve5)||
-|static [`float Saturate(float n)`](VRageMath.Saturate)||
-|static [`double Saturate(double n)`](VRageMath.Saturate)||
-|static [`int Floor(float n)`](VRageMath.Floor)||
-|static [`int Floor(double n)`](VRageMath.Floor)||
-|static [`int Log2Floor(int value)`](VRageMath.Log2Floor)||
-|static [`int Log2Ceiling(int value)`](VRageMath.Log2Ceiling)||
-|static [`int Log2(int n)`](VRageMath.Log2)||
-|static [`int Log2(uint n)`](VRageMath.Log2)||
-|static [`int Pow2(int n)`](VRageMath.Pow2)|Returns 2^n|
-|static [`double CubicInterp(double p0, double p1, double p2, double p3, double t)`](VRageMath.CubicInterp)||
-|static [`void LimitRadians2PI(ref double angle)`](VRageMath.LimitRadians2PI)|Returns angle in range 0..2*PI|
-|static [`void LimitRadians(ref float angle)`](VRageMath.LimitRadians)|Returns angle in range 0..2*PI|
-|static [`void LimitRadiansPI(ref double angle)`](VRageMath.LimitRadiansPI)|Returns angle in range -PI..PI|
-|static [`void LimitRadiansPI(ref float angle)`](VRageMath.LimitRadiansPI)|Returns angle in range -PI..PI|
-|static [`Vector3 CalculateVectorOnSphere(Vector3 northPoleDir, float phi, float theta)`](VRageMath.CalculateVectorOnSphere)||
-|static [`float MonotonicCosine(float radians)`](VRageMath.MonotonicCosine)|Calculate the monotonic cosine of a value. Monotonic cosine is an alternative cosine encoding that is monotonic in the [-pi, pi] interval. We use this when some parameter of an onject in a planet is constrained by latitude. The 'monotonicity' is guaranteed by subtracting the cosine value from 2 if the angle is positive. So for instance MonotonicCos(pi/2) = 2. This only works in the above interval of course.|
-|static [`float MonotonicAcos(float cos)`](VRageMath.MonotonicAcos)||
-|static [`float Atan(float x)`](VRageMath.Atan)|Faster Atan implementation. Good only in the [-pi/2, pi/2] range.|
-|static [`double Atan(double x)`](VRageMath.Atan)|Faster Atan implementation. Good only in the [-pi/2, pi/2] range.|
-|static [`bool IsEqual(float value1, float value2)`](VRageMath.IsEqual)||
-|static [`bool IsEqual(Vector2 value1, Vector2 value2)`](VRageMath.IsEqual)||
-|static [`bool IsEqual(Vector3 value1, Vector3 value2)`](VRageMath.IsEqual)||
-|static [`bool IsEqual(Quaternion value1, Quaternion value2)`](VRageMath.IsEqual)||
-|static [`bool IsEqual(QuaternionD value1, QuaternionD value2)`](VRageMath.IsEqual)||
-|static [`bool IsEqual(Matrix value1, Matrix value2)`](VRageMath.IsEqual)||
-|static [`bool IsValid(Matrix matrix)`](VRageMath.IsValid)||
-|static [`bool IsValid(MatrixD matrix)`](VRageMath.IsValid)||
-|static [`bool IsValid(Vector3 vec)`](VRageMath.IsValid)||
-|static [`bool IsValid(Vector3D vec)`](VRageMath.IsValid)||
-|static [`bool IsValid(Vector2 vec)`](VRageMath.IsValid)||
-|static [`bool IsValid(float f)`](VRageMath.IsValid)||
-|static [`bool IsValid(double f)`](VRageMath.IsValid)||
-|static [`bool IsValid(Nullable<Vector3> vec)`](VRageMath.IsValid)||
-|static [`bool IsValid(Quaternion q)`](VRageMath.IsValid)||
-|static [`bool IsValidNormal(Vector3 vec)`](VRageMath.IsValidNormal)||
-|static [`bool IsValidOrZero(Matrix matrix)`](VRageMath.IsValidOrZero)||
-|static [`bool IsZero(float value, float epsilon)`](VRageMath.IsZero)||
-|static [`bool IsZero(double value, float epsilon)`](VRageMath.IsZero)||
-|static [`bool IsZero(Vector3 value, float epsilon)`](VRageMath.IsZero)||
-|static [`bool IsZero(Vector3D value, float epsilon)`](VRageMath.IsZero)||
-|static [`bool IsZero(Quaternion value, float epsilon)`](VRageMath.IsZero)||
-|static [`bool IsZero(Vector4 value)`](VRageMath.IsZero)||
-|static [`int Smooth(int newValue, int lastSmooth)`](VRageMath.Smooth)||
-|static [`float Smooth(float newValue, float lastSmooth)`](VRageMath.Smooth)||
+|static [`float ToRadians(float)`](VRageMath.ToRadians)|Converts degrees to radians.|
+|static [`VRageMath.Vector3 ToRadians(VRageMath.Vector3)`](VRageMath.ToRadians)||
+|static [`double ToRadians(double)`](VRageMath.ToRadians)|Converts degrees to radians.|
+|static [`float ToDegrees(float)`](VRageMath.ToDegrees)|Converts radians to degrees.|
+|static [`double ToDegrees(double)`](VRageMath.ToDegrees)||
+|static [`float Distance(float, float)`](VRageMath.Distance)|Calculates the absolute value of the difference of two values.|
+|static [`float Min(float, float)`](VRageMath.Min)|Returns the lesser of two values.|
+|static [`float Max(float, float)`](VRageMath.Max)|Returns the greater of two values.|
+|static [`double Min(double, double)`](VRageMath.Min)|Returns the lesser of two values.|
+|static [`double Max(double, double)`](VRageMath.Max)|Returns the greater of two values.|
+|static [`float Clamp(float, float, float)`](VRageMath.Clamp)|Restricts a value to be within a specified range. Reference page contains links to related code samples.|
+|static [`double Clamp(double, double, double)`](VRageMath.Clamp)|Restricts a value to be within a specified range. Reference page contains links to related code samples.|
+|static [`VRage.MyFixedPoint Clamp(VRage.MyFixedPoint, VRage.MyFixedPoint, VRage.MyFixedPoint)`](VRageMath.Clamp)|Restricts a value to be within a specified range. Reference page contains links to related code samples.|
+|static [`int Clamp(int, int, int)`](VRageMath.Clamp)|Restricts a value to be within a specified range. Reference page contains links to related code samples.|
+|static [`float Lerp(float, float, float)`](VRageMath.Lerp)|Linearly interpolates between two values.|
+|static [`double Lerp(double, double, double)`](VRageMath.Lerp)|Linearly interpolates between two values.|
+|static [`float InterpLog(float, float, float)`](VRageMath.InterpLog)|Performs interpolation on logarithmic scale.|
+|static [`float InterpLogInv(float, float, float)`](VRageMath.InterpLogInv)||
+|static [`float Barycentric(float, float, float, float, float)`](VRageMath.Barycentric)|Returns the Cartesian coordinate for one axis of a point that is defined by a given triangle and two normalized barycentric (areal) coordinates.|
+|static [`float SmoothStep(float, float, float)`](VRageMath.SmoothStep)|Interpolates between two values using a cubic equation.|
+|static [`double SmoothStep(double, double, double)`](VRageMath.SmoothStep)|Interpolates between two values using a cubic equation.|
+|static [`float SmoothStepStable(float)`](VRageMath.SmoothStepStable)|Interpolates between zero and one using cubic equiation, solved by de Casteljau.|
+|static [`double SmoothStepStable(double)`](VRageMath.SmoothStepStable)|Interpolates between zero and one using cubic equiation, solved by de Casteljau.|
+|static [`float CatmullRom(float, float, float, float, float)`](VRageMath.CatmullRom)|Performs a Catmull-Rom interpolation using the specified positions.|
+|static [`float Hermite(float, float, float, float, float)`](VRageMath.Hermite)|Performs a Hermite spline interpolation.|
+|static [`VRageMath.Vector3D CalculateBezierPoint(double, VRageMath.Vector3D, VRageMath.Vector3D, VRageMath.Vector3D, VRageMath.Vector3D)`](VRageMath.CalculateBezierPoint)||
+|static [`float WrapAngle(float)`](VRageMath.WrapAngle)|Reduces a given angle to a value between π and -π.|
+|static [`int GetNearestBiggerPowerOfTwo(int)`](VRageMath.GetNearestBiggerPowerOfTwo)||
+|static [`uint GetNearestBiggerPowerOfTwo(uint)`](VRageMath.GetNearestBiggerPowerOfTwo)||
+|static [`int GetNumberOfMipmaps(int)`](VRageMath.GetNumberOfMipmaps)||
+|static [`int GetNearestBiggerPowerOfTwo(float)`](VRageMath.GetNearestBiggerPowerOfTwo)|Returns nearest bigger power of two|
+|static [`int GetNearestBiggerPowerOfTwo(double)`](VRageMath.GetNearestBiggerPowerOfTwo)||
+|static [`float Max(float, float, float)`](VRageMath.Max)||
+|static [`int Max(int, int, int)`](VRageMath.Max)||
+|static [`float Min(float, float, float)`](VRageMath.Min)||
+|static [`double Max(double, double, double)`](VRageMath.Max)||
+|static [`double Min(double, double, double)`](VRageMath.Min)||
+|static [`int ComputeHashFromBytes(System.Byte[])`](VRageMath.ComputeHashFromBytes)||
+|static [`float RoundOn2(float)`](VRageMath.RoundOn2)||
+|static [`bool IsPowerOfTwo(int)`](VRageMath.IsPowerOfTwo)|Returns true if value is power of two|
+|static [`float SCurve3(float)`](VRageMath.SCurve3)||
+|static [`double SCurve3(double)`](VRageMath.SCurve3)||
+|static [`float SCurve5(float)`](VRageMath.SCurve5)||
+|static [`double SCurve5(double)`](VRageMath.SCurve5)||
+|static [`float Saturate(float)`](VRageMath.Saturate)||
+|static [`double Saturate(double)`](VRageMath.Saturate)||
+|static [`int Floor(float)`](VRageMath.Floor)||
+|static [`int Floor(double)`](VRageMath.Floor)||
+|static [`int Log2Floor(int)`](VRageMath.Log2Floor)||
+|static [`int Log2Ceiling(int)`](VRageMath.Log2Ceiling)||
+|static [`int Log2(int)`](VRageMath.Log2)||
+|static [`int Log2(uint)`](VRageMath.Log2)||
+|static [`int Pow2(int)`](VRageMath.Pow2)|Returns 2^n|
+|static [`double CubicInterp(double, double, double, double, double)`](VRageMath.CubicInterp)||
+|static [`void LimitRadians2PI(ref double)`](VRageMath.LimitRadians2PI)|Returns angle in range 0..2*PI|
+|static [`void LimitRadians(ref float)`](VRageMath.LimitRadians)|Returns angle in range 0..2*PI|
+|static [`void LimitRadiansPI(ref double)`](VRageMath.LimitRadiansPI)|Returns angle in range -PI..PI|
+|static [`void LimitRadiansPI(ref float)`](VRageMath.LimitRadiansPI)|Returns angle in range -PI..PI|
+|static [`VRageMath.Vector3 CalculateVectorOnSphere(VRageMath.Vector3, float, float)`](VRageMath.CalculateVectorOnSphere)||
+|static [`float MonotonicCosine(float)`](VRageMath.MonotonicCosine)|Calculate the monotonic cosine of a value. Monotonic cosine is an alternative cosine encoding that is monotonic in the [-pi, pi] interval. We use this when some parameter of an onject in a planet is constrained by latitude. The 'monotonicity' is guaranteed by subtracting the cosine value from 2 if the angle is positive. So for instance MonotonicCos(pi/2) = 2. This only works in the above interval of course.|
+|static [`float MonotonicAcos(float)`](VRageMath.MonotonicAcos)||
+|static [`float Atan(float)`](VRageMath.Atan)|Faster Atan implementation. Good only in the [-pi/2, pi/2] range.|
+|static [`double Atan(double)`](VRageMath.Atan)|Faster Atan implementation. Good only in the [-pi/2, pi/2] range.|
+|static [`bool IsEqual(float, float)`](VRageMath.IsEqual)||
+|static [`bool IsEqual(VRageMath.Vector2, VRageMath.Vector2)`](VRageMath.IsEqual)||
+|static [`bool IsEqual(VRageMath.Vector3, VRageMath.Vector3)`](VRageMath.IsEqual)||
+|static [`bool IsEqual(VRageMath.Quaternion, VRageMath.Quaternion)`](VRageMath.IsEqual)||
+|static [`bool IsEqual(VRageMath.QuaternionD, VRageMath.QuaternionD)`](VRageMath.IsEqual)||
+|static [`bool IsEqual(VRageMath.Matrix, VRageMath.Matrix)`](VRageMath.IsEqual)||
+|static [`bool IsValid(VRageMath.Matrix)`](VRageMath.IsValid)||
+|static [`bool IsValid(VRageMath.MatrixD)`](VRageMath.IsValid)||
+|static [`bool IsValid(VRageMath.Vector3)`](VRageMath.IsValid)||
+|static [`bool IsValid(VRageMath.Vector3D)`](VRageMath.IsValid)||
+|static [`bool IsValid(VRageMath.Vector2)`](VRageMath.IsValid)||
+|static [`bool IsValid(float)`](VRageMath.IsValid)||
+|static [`bool IsValid(double)`](VRageMath.IsValid)||
+|static [`bool IsValid(Nullable<VRageMath.Vector3>)`](VRageMath.IsValid)||
+|static [`bool IsValid(VRageMath.Quaternion)`](VRageMath.IsValid)||
+|static [`bool IsValidNormal(VRageMath.Vector3)`](VRageMath.IsValidNormal)||
+|static [`bool IsValidOrZero(VRageMath.Matrix)`](VRageMath.IsValidOrZero)||
+|static [`bool IsZero(float, float)`](VRageMath.IsZero)||
+|static [`bool IsZero(double, float)`](VRageMath.IsZero)||
+|static [`bool IsZero(VRageMath.Vector3, float)`](VRageMath.IsZero)||
+|static [`bool IsZero(VRageMath.Vector3D, float)`](VRageMath.IsZero)||
+|static [`bool IsZero(VRageMath.Quaternion, float)`](VRageMath.IsZero)||
+|static [`bool IsZero(VRageMath.Vector4)`](VRageMath.IsZero)||
+|static [`int Smooth(int, int)`](VRageMath.Smooth)||
+|static [`float Smooth(float, float)`](VRageMath.Smooth)||

@@ -5,16 +5,16 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`Quaternion Rotation`](VRageMath.Rotation)||
-|[`Vector3 Position`](VRageMath.Position)||
+|[`VRageMath.Quaternion Rotation`](VRageMath.Rotation)||
+|[`VRageMath.Vector3 Position`](VRageMath.Position)||
 ### Properties
 |Member|Description|
 |---|---|
-|[`Matrix TransformMatrix`](VRageMath.TransformMatrix)||
+|[`VRageMath.Matrix TransformMatrix`](VRageMath.TransformMatrix)||
 ### Methods
 |Member|Description|
 |---|---|
-|static [`MyTransform Transform(ref MyTransform t1, ref MyTransform t2)`](VRageMath.Transform)||
-|static [`void Transform(ref MyTransform t1, ref MyTransform t2, ref MyTransform result)`](VRageMath.Transform)||
-|static [`Vector3 Transform(ref Vector3 v, ref MyTransform t2)`](VRageMath.Transform)||
-|static [`void Transform(ref Vector3 v, ref MyTransform t2, ref Vector3 result)`](VRageMath.Transform)||
+|static [`VRageMath.MyTransform Transform(ref VRageMath.MyTransform, ref VRageMath.MyTransform)`](VRageMath.Transform)||
+|static [`void Transform(ref VRageMath.MyTransform, ref VRageMath.MyTransform, ref VRageMath.MyTransform)`](VRageMath.Transform)||
+|static [`VRageMath.Vector3 Transform(ref VRageMath.Vector3, ref VRageMath.MyTransform)`](VRageMath.Transform)||
+|static [`void Transform(ref VRageMath.Vector3, ref VRageMath.MyTransform, ref VRageMath.Vector3)`](VRageMath.Transform)||

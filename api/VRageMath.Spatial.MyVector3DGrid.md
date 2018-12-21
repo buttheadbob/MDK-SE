@@ -11,10 +11,10 @@
 |---|---|
 |[`void Clear()`](VRageMath.Spatial.Clear)||
 |[`void ClearFast()`](VRageMath.Spatial.ClearFast)||
-|[`void AddPoint(ref Vector3D point, T data)`](VRageMath.Spatial.AddPoint)||
-|[`void RemovePoint(ref Vector3D point)`](VRageMath.Spatial.RemovePoint)||
-|[`Enumerator<T> GetPointsCloserThan(ref Vector3D point, double dist)`](VRageMath.Spatial.GetPointsCloserThan)||
-|[`void RemoveTwo(ref Enumerator<T> en0, ref Enumerator<T> en1)`](VRageMath.Spatial.RemoveTwo)||
-|[`Enumerator<Vector3I, int> EnumerateBins()`](VRageMath.Spatial.EnumerateBins)||
-|[`void GetLocalBinBB(ref Vector3I binPosition, ref BoundingBoxD output)`](VRageMath.Spatial.GetLocalBinBB)||
-|[`void CollectStorage(int startingIndex, ref List<T> output)`](VRageMath.Spatial.CollectStorage)||
+|[`void AddPoint(ref VRageMath.Vector3D, VRageMath.Spatial.T)`](VRageMath.Spatial.AddPoint)||
+|[`void RemovePoint(ref VRageMath.Vector3D)`](VRageMath.Spatial.RemovePoint)||
+|[`Enumerator<T> GetPointsCloserThan(ref VRageMath.Vector3D, double)`](VRageMath.Spatial.GetPointsCloserThan)||
+|[`void RemoveTwo(ref Enumerator<T>, ref Enumerator<T>)`](VRageMath.Spatial.RemoveTwo)||
+|[`Enumerator<VRageMath.Vector3I, System.Int32> EnumerateBins()`](VRageMath.Spatial.EnumerateBins)||
+|[`void GetLocalBinBB(ref VRageMath.Vector3I, ref VRageMath.BoundingBoxD)`](VRageMath.Spatial.GetLocalBinBB)||
+|[`void CollectStorage(int, ref List<T>)`](VRageMath.Spatial.CollectStorage)||

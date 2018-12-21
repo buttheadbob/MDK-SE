@@ -9,7 +9,7 @@
 |[`int Y`](VRageMath.Y)||
 |[`int Z`](VRageMath.Z)||
 |[`int W`](VRageMath.W)||
-|static [`EqualityComparer Comparer`](VRageMath.Comparer)||
+|static [`VRageMath.EqualityComparer Comparer`](VRageMath.Comparer)||
 ### Properties
 |Member|Description|
 |---|---|
@@ -17,5 +17,5 @@
 ### Methods
 |Member|Description|
 |---|---|
-|[`int CompareTo(Vector4I other)`](VRageMath.CompareTo)||
+|[`int CompareTo(VRageMath.Vector4I)`](VRageMath.CompareTo)||
 |[`string ToString()`](VRageMath.ToString)||

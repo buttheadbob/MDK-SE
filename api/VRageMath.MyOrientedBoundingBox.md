@@ -5,53 +5,53 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`Vector3 Center`](VRageMath.Center)||
-|[`Vector3 HalfExtent`](VRageMath.HalfExtent)||
-|[`Quaternion Orientation`](VRageMath.Orientation)||
-|static [`Int32[] StartVertices`](VRageMath.StartVertices)||
-|static [`Int32[] EndVertices`](VRageMath.EndVertices)||
-|static [`Int32[] StartXVertices`](VRageMath.StartXVertices)||
-|static [`Int32[] EndXVertices`](VRageMath.EndXVertices)||
-|static [`Int32[] StartYVertices`](VRageMath.StartYVertices)||
-|static [`Int32[] EndYVertices`](VRageMath.EndYVertices)||
-|static [`Int32[] StartZVertices`](VRageMath.StartZVertices)||
-|static [`Int32[] EndZVertices`](VRageMath.EndZVertices)||
-|static [`Vector3[] XNeighbourVectorsBack`](VRageMath.XNeighbourVectorsBack)||
-|static [`Vector3[] XNeighbourVectorsForw`](VRageMath.XNeighbourVectorsForw)||
-|static [`Vector3[] YNeighbourVectorsBack`](VRageMath.YNeighbourVectorsBack)||
-|static [`Vector3[] YNeighbourVectorsForw`](VRageMath.YNeighbourVectorsForw)||
-|static [`Vector3[] ZNeighbourVectorsBack`](VRageMath.ZNeighbourVectorsBack)||
-|static [`Vector3[] ZNeighbourVectorsForw`](VRageMath.ZNeighbourVectorsForw)||
+|[`VRageMath.Vector3 Center`](VRageMath.Center)||
+|[`VRageMath.Vector3 HalfExtent`](VRageMath.HalfExtent)||
+|[`VRageMath.Quaternion Orientation`](VRageMath.Orientation)||
+|static [`System.Int32[] StartVertices`](VRageMath.StartVertices)||
+|static [`System.Int32[] EndVertices`](VRageMath.EndVertices)||
+|static [`System.Int32[] StartXVertices`](VRageMath.StartXVertices)||
+|static [`System.Int32[] EndXVertices`](VRageMath.EndXVertices)||
+|static [`System.Int32[] StartYVertices`](VRageMath.StartYVertices)||
+|static [`System.Int32[] EndYVertices`](VRageMath.EndYVertices)||
+|static [`System.Int32[] StartZVertices`](VRageMath.StartZVertices)||
+|static [`System.Int32[] EndZVertices`](VRageMath.EndZVertices)||
+|static [`VRageMath.Vector3[] XNeighbourVectorsBack`](VRageMath.XNeighbourVectorsBack)||
+|static [`VRageMath.Vector3[] XNeighbourVectorsForw`](VRageMath.XNeighbourVectorsForw)||
+|static [`VRageMath.Vector3[] YNeighbourVectorsBack`](VRageMath.YNeighbourVectorsBack)||
+|static [`VRageMath.Vector3[] YNeighbourVectorsForw`](VRageMath.YNeighbourVectorsForw)||
+|static [`VRageMath.Vector3[] ZNeighbourVectorsBack`](VRageMath.ZNeighbourVectorsBack)||
+|static [`VRageMath.Vector3[] ZNeighbourVectorsForw`](VRageMath.ZNeighbourVectorsForw)||
 |static [`int CornerCount`](VRageMath.CornerCount)||
 ### Methods
 |Member|Description|
 |---|---|
-|static [`bool GetNormalBetweenEdges(int axis, int edge0, int edge1, ref Vector3 normal)`](VRageMath.GetNormalBetweenEdges)|Returns normal between two cube edge of same direction|
-|static [`MyOrientedBoundingBox CreateFromBoundingBox(BoundingBox box)`](VRageMath.CreateFromBoundingBox)||
-|[`MyOrientedBoundingBox Transform(Quaternion rotation, Vector3 translation)`](VRageMath.Transform)||
-|[`MyOrientedBoundingBox Transform(float scale, Quaternion rotation, Vector3 translation)`](VRageMath.Transform)||
-|[`void Transform(Matrix matrix)`](VRageMath.Transform)||
-|[`bool Equals(MyOrientedBoundingBox other)`](VRageMath.Equals)||
-|[`bool Equals(Object obj)`](VRageMath.Equals)||
+|static [`bool GetNormalBetweenEdges(int, int, int, ref VRageMath.Vector3)`](VRageMath.GetNormalBetweenEdges)|Returns normal between two cube edge of same direction|
+|static [`VRageMath.MyOrientedBoundingBox CreateFromBoundingBox(VRageMath.BoundingBox)`](VRageMath.CreateFromBoundingBox)||
+|[`VRageMath.MyOrientedBoundingBox Transform(VRageMath.Quaternion, VRageMath.Vector3)`](VRageMath.Transform)||
+|[`VRageMath.MyOrientedBoundingBox Transform(float, VRageMath.Quaternion, VRageMath.Vector3)`](VRageMath.Transform)||
+|[`void Transform(VRageMath.Matrix)`](VRageMath.Transform)||
+|[`bool Equals(VRageMath.MyOrientedBoundingBox)`](VRageMath.Equals)||
+|[`bool Equals(System.Object)`](VRageMath.Equals)||
 |[`int GetHashCode()`](VRageMath.GetHashCode)||
 |[`string ToString()`](VRageMath.ToString)||
-|[`bool Intersects(ref BoundingBox box)`](VRageMath.Intersects)||
-|[`ContainmentType Contains(ref BoundingBox box)`](VRageMath.Contains)||
-|static [`ContainmentType Contains(ref BoundingBox boxA, ref MyOrientedBoundingBox oboxB)`](VRageMath.Contains)||
-|[`bool Intersects(ref MyOrientedBoundingBox other)`](VRageMath.Intersects)||
-|[`ContainmentType Contains(ref MyOrientedBoundingBox other)`](VRageMath.Contains)||
-|[`ContainmentType Contains(BoundingFrustum frustum)`](VRageMath.Contains)||
-|[`bool Intersects(BoundingFrustum frustum)`](VRageMath.Intersects)||
-|static [`ContainmentType Contains(BoundingFrustum frustum, ref MyOrientedBoundingBox obox)`](VRageMath.Contains)||
-|[`ContainmentType Contains(ref BoundingSphere sphere)`](VRageMath.Contains)||
-|[`bool Intersects(ref BoundingSphere sphere)`](VRageMath.Intersects)||
-|static [`ContainmentType Contains(ref BoundingSphere sphere, ref MyOrientedBoundingBox box)`](VRageMath.Contains)||
-|[`bool Contains(ref Vector3 point)`](VRageMath.Contains)||
-|[`Nullable<float> Intersects(ref Ray ray)`](VRageMath.Intersects)||
-|[`Nullable<float> Intersects(ref Line line)`](VRageMath.Intersects)||
-|[`PlaneIntersectionType Intersects(ref Plane plane)`](VRageMath.Intersects)||
-|[`void GetCorners(Vector3[] corners, int startIndex)`](VRageMath.GetCorners)||
-|static [`ContainmentType ContainsRelativeBox(ref Vector3 hA, ref Vector3 hB, ref Matrix mB)`](VRageMath.ContainsRelativeBox)||
-|[`BoundingFrustum ConvertToFrustum()`](VRageMath.ConvertToFrustum)||
-|[`BoundingBox GetAABB()`](VRageMath.GetAABB)||
-|static [`MyOrientedBoundingBox Create(BoundingBox boundingBox, Matrix matrix)`](VRageMath.Create)||
+|[`bool Intersects(ref VRageMath.BoundingBox)`](VRageMath.Intersects)||
+|[`VRageMath.ContainmentType Contains(ref VRageMath.BoundingBox)`](VRageMath.Contains)||
+|static [`VRageMath.ContainmentType Contains(ref VRageMath.BoundingBox, ref VRageMath.MyOrientedBoundingBox)`](VRageMath.Contains)||
+|[`bool Intersects(ref VRageMath.MyOrientedBoundingBox)`](VRageMath.Intersects)||
+|[`VRageMath.ContainmentType Contains(ref VRageMath.MyOrientedBoundingBox)`](VRageMath.Contains)||
+|[`VRageMath.ContainmentType Contains(VRageMath.BoundingFrustum)`](VRageMath.Contains)||
+|[`bool Intersects(VRageMath.BoundingFrustum)`](VRageMath.Intersects)||
+|static [`VRageMath.ContainmentType Contains(VRageMath.BoundingFrustum, ref VRageMath.MyOrientedBoundingBox)`](VRageMath.Contains)||
+|[`VRageMath.ContainmentType Contains(ref VRageMath.BoundingSphere)`](VRageMath.Contains)||
+|[`bool Intersects(ref VRageMath.BoundingSphere)`](VRageMath.Intersects)||
+|static [`VRageMath.ContainmentType Contains(ref VRageMath.BoundingSphere, ref VRageMath.MyOrientedBoundingBox)`](VRageMath.Contains)||
+|[`bool Contains(ref VRageMath.Vector3)`](VRageMath.Contains)||
+|[`Nullable<System.Single> Intersects(ref VRageMath.Ray)`](VRageMath.Intersects)||
+|[`Nullable<System.Single> Intersects(ref VRageMath.Line)`](VRageMath.Intersects)||
+|[`VRageMath.PlaneIntersectionType Intersects(ref VRageMath.Plane)`](VRageMath.Intersects)||
+|[`void GetCorners(VRageMath.Vector3[], int)`](VRageMath.GetCorners)||
+|static [`VRageMath.ContainmentType ContainsRelativeBox(ref VRageMath.Vector3, ref VRageMath.Vector3, ref VRageMath.Matrix)`](VRageMath.ContainsRelativeBox)||
+|[`VRageMath.BoundingFrustum ConvertToFrustum()`](VRageMath.ConvertToFrustum)||
+|[`VRageMath.BoundingBox GetAABB()`](VRageMath.GetAABB)||
+|static [`VRageMath.MyOrientedBoundingBox Create(VRageMath.BoundingBox, VRageMath.Matrix)`](VRageMath.Create)||

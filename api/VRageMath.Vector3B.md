@@ -8,18 +8,18 @@
 |[`sbyte X`](VRageMath.X)||
 |[`sbyte Y`](VRageMath.Y)||
 |[`sbyte Z`](VRageMath.Z)||
-|static [`Vector3B Zero`](VRageMath.Zero)||
-|static [`Vector3B Up`](VRageMath.Up)||
-|static [`Vector3B Down`](VRageMath.Down)||
-|static [`Vector3B Right`](VRageMath.Right)||
-|static [`Vector3B Left`](VRageMath.Left)||
-|static [`Vector3B Forward`](VRageMath.Forward)||
-|static [`Vector3B Backward`](VRageMath.Backward)||
+|static [`VRageMath.Vector3B Zero`](VRageMath.Zero)||
+|static [`VRageMath.Vector3B Up`](VRageMath.Up)||
+|static [`VRageMath.Vector3B Down`](VRageMath.Down)||
+|static [`VRageMath.Vector3B Right`](VRageMath.Right)||
+|static [`VRageMath.Vector3B Left`](VRageMath.Left)||
+|static [`VRageMath.Vector3B Forward`](VRageMath.Forward)||
+|static [`VRageMath.Vector3B Backward`](VRageMath.Backward)||
 ### Methods
 |Member|Description|
 |---|---|
 |[`string ToString()`](VRageMath.ToString)||
 |[`int GetHashCode()`](VRageMath.GetHashCode)||
-|[`bool Equals(Object obj)`](VRageMath.Equals)||
-|static [`Vector3B Round(Vector3 vec)`](VRageMath.Round)||
-|static [`Vector3B Fit(Vector3 vec, float range)`](VRageMath.Fit)|Puts Vector3 into Vector3B, value -127 represents -range, 128 represents range|
+|[`bool Equals(System.Object)`](VRageMath.Equals)||
+|static [`VRageMath.Vector3B Round(VRageMath.Vector3)`](VRageMath.Round)||
+|static [`VRageMath.Vector3B Fit(VRageMath.Vector3, float)`](VRageMath.Fit)|Puts Vector3 into Vector3B, value -127 represents -range, 128 represents range|

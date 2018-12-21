@@ -7,22 +7,22 @@
 |---|---|
 |[`int X`](VRageMath.X)||
 |[`int Y`](VRageMath.Y)||
-|static [`ComparerClass Comparer`](VRageMath.Comparer)||
-|static [`Vector2I Zero`](VRageMath.Zero)||
-|static [`Vector2I One`](VRageMath.One)||
-|static [`Vector2I UnitX`](VRageMath.UnitX)||
-|static [`Vector2I UnitY`](VRageMath.UnitY)||
+|static [`VRageMath.ComparerClass Comparer`](VRageMath.Comparer)||
+|static [`VRageMath.Vector2I Zero`](VRageMath.Zero)||
+|static [`VRageMath.Vector2I One`](VRageMath.One)||
+|static [`VRageMath.Vector2I UnitX`](VRageMath.UnitX)||
+|static [`VRageMath.Vector2I UnitY`](VRageMath.UnitY)||
 ### Methods
 |Member|Description|
 |---|---|
 |[`string ToString()`](VRageMath.ToString)||
 |[`int Size()`](VRageMath.Size)||
-|static [`Vector2I Floor(Vector2 value)`](VRageMath.Floor)||
-|static [`Vector2I Round(Vector2 value)`](VRageMath.Round)||
-|[`bool Between(ref Vector2I start, ref Vector2I end)`](VRageMath.Between)||
-|[`bool Equals(Object obj)`](VRageMath.Equals)||
+|static [`VRageMath.Vector2I Floor(VRageMath.Vector2)`](VRageMath.Floor)||
+|static [`VRageMath.Vector2I Round(VRageMath.Vector2)`](VRageMath.Round)||
+|[`bool Between(ref VRageMath.Vector2I, ref VRageMath.Vector2I)`](VRageMath.Between)||
+|[`bool Equals(System.Object)`](VRageMath.Equals)||
 |[`int GetHashCode()`](VRageMath.GetHashCode)||
-|static [`void Min(ref Vector2I v1, ref Vector2I v2, ref Vector2I min)`](VRageMath.Min)||
-|static [`void Max(ref Vector2I v1, ref Vector2I v2, ref Vector2I max)`](VRageMath.Max)||
-|static [`Vector2I Min(Vector2I v1, Vector2I v2)`](VRageMath.Min)||
-|static [`Vector2I Max(Vector2I v1, Vector2I v2)`](VRageMath.Max)||
+|static [`void Min(ref VRageMath.Vector2I, ref VRageMath.Vector2I, ref VRageMath.Vector2I)`](VRageMath.Min)||
+|static [`void Max(ref VRageMath.Vector2I, ref VRageMath.Vector2I, ref VRageMath.Vector2I)`](VRageMath.Max)||
+|static [`VRageMath.Vector2I Min(VRageMath.Vector2I, VRageMath.Vector2I)`](VRageMath.Min)||
+|static [`VRageMath.Vector2I Max(VRageMath.Vector2I, VRageMath.Vector2I)`](VRageMath.Max)||

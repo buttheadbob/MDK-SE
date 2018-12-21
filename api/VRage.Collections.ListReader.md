@@ -10,10 +10,10 @@
 |Member|Description|
 |---|---|
 |[`int Count`](VRage.Collections.Count)||
-|[`T Item`](VRage.Collections.Item)||
+|[`VRage.Collections.T Item`](VRage.Collections.Item)||
 ### Methods
 |Member|Description|
 |---|---|
-|[`T ItemAt(int index)`](VRage.Collections.ItemAt)||
-|[`int IndexOf(T item)`](VRage.Collections.IndexOf)||
+|[`VRage.Collections.T ItemAt(int)`](VRage.Collections.ItemAt)||
+|[`int IndexOf(VRage.Collections.T)`](VRage.Collections.IndexOf)||
 |[`Enumerator<T> GetEnumerator()`](VRage.Collections.GetEnumerator)||

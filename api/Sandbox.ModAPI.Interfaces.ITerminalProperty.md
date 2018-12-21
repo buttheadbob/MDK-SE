@@ -12,9 +12,9 @@
 ### Methods
 |Member|Description|
 |---|---|
-|[`TValue GetValue(IMyCubeBlock block)`](Sandbox.ModAPI.Interfaces.GetValue)||
-|[`void SetValue(IMyCubeBlock block, TValue value)`](Sandbox.ModAPI.Interfaces.SetValue)||
-|[`TValue GetDefaultValue(IMyCubeBlock block)`](Sandbox.ModAPI.Interfaces.GetDefaultValue)||
-|[`TValue GetMininum(IMyCubeBlock block)`](Sandbox.ModAPI.Interfaces.GetMininum)||
-|[`TValue GetMinimum(IMyCubeBlock block)`](Sandbox.ModAPI.Interfaces.GetMinimum)||
-|[`TValue GetMaximum(IMyCubeBlock block)`](Sandbox.ModAPI.Interfaces.GetMaximum)||
+|[`Sandbox.ModAPI.Interfaces.TValue GetValue(VRage.Game.ModAPI.Ingame.IMyCubeBlock)`](Sandbox.ModAPI.Interfaces.GetValue)||
+|[`void SetValue(VRage.Game.ModAPI.Ingame.IMyCubeBlock, Sandbox.ModAPI.Interfaces.TValue)`](Sandbox.ModAPI.Interfaces.SetValue)||
+|[`Sandbox.ModAPI.Interfaces.TValue GetDefaultValue(VRage.Game.ModAPI.Ingame.IMyCubeBlock)`](Sandbox.ModAPI.Interfaces.GetDefaultValue)||
+|[`Sandbox.ModAPI.Interfaces.TValue GetMininum(VRage.Game.ModAPI.Ingame.IMyCubeBlock)`](Sandbox.ModAPI.Interfaces.GetMininum)||
+|[`Sandbox.ModAPI.Interfaces.TValue GetMinimum(VRage.Game.ModAPI.Ingame.IMyCubeBlock)`](Sandbox.ModAPI.Interfaces.GetMinimum)||
+|[`Sandbox.ModAPI.Interfaces.TValue GetMaximum(VRage.Game.ModAPI.Ingame.IMyCubeBlock)`](Sandbox.ModAPI.Interfaces.GetMaximum)||

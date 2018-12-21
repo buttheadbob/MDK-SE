@@ -14,10 +14,10 @@
 ### Methods
 |Member|Description|
 |---|---|
-|[`bool ValueBetween(float value)`](VRageMath.ValueBetween)||
+|[`bool ValueBetween(float)`](VRageMath.ValueBetween)||
 |[`string ToString()`](VRageMath.ToString)||
-|[`SymmetricSerializableRange ConvertToCosine()`](VRageMath.ConvertToCosine)||
-|[`SymmetricSerializableRange ConvertToSine()`](VRageMath.ConvertToSine)||
-|[`SymmetricSerializableRange ConvertToCosineLongitude()`](VRageMath.ConvertToCosineLongitude)||
+|[`VRageMath.SymmetricSerializableRange ConvertToCosine()`](VRageMath.ConvertToCosine)||
+|[`VRageMath.SymmetricSerializableRange ConvertToSine()`](VRageMath.ConvertToSine)||
+|[`VRageMath.SymmetricSerializableRange ConvertToCosineLongitude()`](VRageMath.ConvertToCosineLongitude)||
 |[`string ToStringAsin()`](VRageMath.ToStringAsin)||
 |[`string ToStringAcos()`](VRageMath.ToStringAcos)||

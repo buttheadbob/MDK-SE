@@ -5,7 +5,7 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`MyObjectBuilderType TypeId`](VRage.ObjectBuilders.TypeId)||
+|[`VRage.ObjectBuilders.MyObjectBuilderType TypeId`](VRage.ObjectBuilders.TypeId)||
 |[`string SubtypeName`](VRage.ObjectBuilders.SubtypeName)||
 ### Properties
 |Member|Description|

@@ -12,16 +12,16 @@
 |---|---|
 |[`void Clear()`](VRageMath.Spatial.Clear)||
 |[`void ClearFast()`](VRageMath.Spatial.ClearFast)||
-|[`void AddPoint(ref Vector3 point, T data)`](VRageMath.Spatial.AddPoint)||
-|[`void RemovePoint(ref Vector3 point)`](VRageMath.Spatial.RemovePoint)||
-|[`void MovePoint(int index, ref Vector3 newPosition)`](VRageMath.Spatial.MovePoint)||
-|[`int FindPointIndex(ref Vector3 point, T data)`](VRageMath.Spatial.FindPointIndex)||
-|[`T GetData(int index)`](VRageMath.Spatial.GetData)||
-|[`Vector3 GetPoint(int index)`](VRageMath.Spatial.GetPoint)||
-|[`SphereQuery<T> QueryPointsSphere(ref Vector3 point, float dist)`](VRageMath.Spatial.QueryPointsSphere)||
-|[`void RemoveTwo(ref SphereQuery<T> en0, ref SphereQuery<T> en1)`](VRageMath.Spatial.RemoveTwo)||
-|[`Enumerator<Vector3I, int> EnumerateBins()`](VRageMath.Spatial.EnumerateBins)||
-|[`int GetNextBinIndex(int currentIndex)`](VRageMath.Spatial.GetNextBinIndex)||
-|[`void GetLocalBinBB(ref Vector3I binPosition, ref BoundingBoxD output)`](VRageMath.Spatial.GetLocalBinBB)||
-|[`void CollectStorage(int startingIndex, ref List<T> output)`](VRageMath.Spatial.CollectStorage)||
-|[`void CollectEntireStorage(List<T> output)`](VRageMath.Spatial.CollectEntireStorage)||
+|[`void AddPoint(ref VRageMath.Vector3, VRageMath.Spatial.T)`](VRageMath.Spatial.AddPoint)||
+|[`void RemovePoint(ref VRageMath.Vector3)`](VRageMath.Spatial.RemovePoint)||
+|[`void MovePoint(int, ref VRageMath.Vector3)`](VRageMath.Spatial.MovePoint)||
+|[`int FindPointIndex(ref VRageMath.Vector3, VRageMath.Spatial.T)`](VRageMath.Spatial.FindPointIndex)||
+|[`VRageMath.Spatial.T GetData(int)`](VRageMath.Spatial.GetData)||
+|[`VRageMath.Vector3 GetPoint(int)`](VRageMath.Spatial.GetPoint)||
+|[`SphereQuery<T> QueryPointsSphere(ref VRageMath.Vector3, float)`](VRageMath.Spatial.QueryPointsSphere)||
+|[`void RemoveTwo(ref SphereQuery<T>, ref SphereQuery<T>)`](VRageMath.Spatial.RemoveTwo)||
+|[`Enumerator<VRageMath.Vector3I, System.Int32> EnumerateBins()`](VRageMath.Spatial.EnumerateBins)||
+|[`int GetNextBinIndex(int)`](VRageMath.Spatial.GetNextBinIndex)||
+|[`void GetLocalBinBB(ref VRageMath.Vector3I, ref VRageMath.BoundingBoxD)`](VRageMath.Spatial.GetLocalBinBB)||
+|[`void CollectStorage(int, ref List<T>)`](VRageMath.Spatial.CollectStorage)||
+|[`void CollectEntireStorage(List<T>)`](VRageMath.Spatial.CollectEntireStorage)||

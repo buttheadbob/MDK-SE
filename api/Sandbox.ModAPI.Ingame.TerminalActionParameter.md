@@ -5,9 +5,9 @@
 ### Fields
 |Member|Description|
 |---|---|
-|[`TypeCode TypeCode`](Sandbox.ModAPI.Ingame.TypeCode)||
-|[`Object Value`](Sandbox.ModAPI.Ingame.Value)||
-|static [`TerminalActionParameter Empty`](Sandbox.ModAPI.Ingame.Empty)|Gets an empty parameter.|
+|[`System.TypeCode TypeCode`](Sandbox.ModAPI.Ingame.TypeCode)||
+|[`System.Object Value`](Sandbox.ModAPI.Ingame.Value)||
+|static [`Sandbox.ModAPI.Ingame.TerminalActionParameter Empty`](Sandbox.ModAPI.Ingame.Empty)|Gets an empty parameter.|
 ### Properties
 |Member|Description|
 |---|---|
@@ -15,6 +15,6 @@
 ### Methods
 |Member|Description|
 |---|---|
-|static [`TerminalActionParameter Deserialize(string serializedValue, TypeCode typeCode)`](Sandbox.ModAPI.Ingame.Deserialize)|Creates a [TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter) from a serialized value in a string and a type code.|
-|static [`TerminalActionParameter Get(Object value)`](Sandbox.ModAPI.Ingame.Get)|Creates a [TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter) from the given value.|
-|[`MyObjectBuilder_ToolbarItemActionParameter GetObjectBuilder()`](Sandbox.ModAPI.Ingame.GetObjectBuilder)||
+|static [`Sandbox.ModAPI.Ingame.TerminalActionParameter Deserialize(string, System.TypeCode)`](Sandbox.ModAPI.Ingame.Deserialize)|Creates a [TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter) from a serialized value in a string and a type code.|
+|static [`Sandbox.ModAPI.Ingame.TerminalActionParameter Get(System.Object)`](Sandbox.ModAPI.Ingame.Get)|Creates a [TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter) from the given value.|
+|[`VRage.Game.MyObjectBuilder_ToolbarItemActionParameter GetObjectBuilder()`](Sandbox.ModAPI.Ingame.GetObjectBuilder)||

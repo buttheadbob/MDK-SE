@@ -5,12 +5,12 @@
 ### Methods
 |Member|Description|
 |---|---|
-|static [`long GetId(IMyTerminalBlock block)`](Sandbox.ModAPI.Ingame.GetId)||
-|static [`void ApplyAction(IMyTerminalBlock block, string actionName)`](Sandbox.ModAPI.Ingame.ApplyAction)||
-|static [`void ApplyAction(IMyTerminalBlock block, string actionName, List<TerminalActionParameter> parameters)`](Sandbox.ModAPI.Ingame.ApplyAction)||
-|static [`bool HasAction(IMyTerminalBlock block, string actionName)`](Sandbox.ModAPI.Ingame.HasAction)||
-|static [`bool HasInventory(IMyTerminalBlock block)`](Sandbox.ModAPI.Ingame.HasInventory)||
-|static [`IMyInventory GetInventory(IMyTerminalBlock block, int index)`](Sandbox.ModAPI.Ingame.GetInventory)||
-|static [`int GetInventoryCount(IMyTerminalBlock block)`](Sandbox.ModAPI.Ingame.GetInventoryCount)||
-|static [`bool GetUseConveyorSystem(IMyTerminalBlock block)`](Sandbox.ModAPI.Ingame.GetUseConveyorSystem)||
-|static [`void SetUseConveyorSystem(IMyTerminalBlock block, bool use)`](Sandbox.ModAPI.Ingame.SetUseConveyorSystem)||
+|static [`long GetId(Sandbox.ModAPI.Ingame.IMyTerminalBlock)`](Sandbox.ModAPI.Ingame.GetId)||
+|static [`void ApplyAction(Sandbox.ModAPI.Ingame.IMyTerminalBlock, string)`](Sandbox.ModAPI.Ingame.ApplyAction)||
+|static [`void ApplyAction(Sandbox.ModAPI.Ingame.IMyTerminalBlock, string, List<Sandbox.ModAPI.Ingame.TerminalActionParameter>)`](Sandbox.ModAPI.Ingame.ApplyAction)||
+|static [`bool HasAction(Sandbox.ModAPI.Ingame.IMyTerminalBlock, string)`](Sandbox.ModAPI.Ingame.HasAction)||
+|static [`bool HasInventory(Sandbox.ModAPI.Ingame.IMyTerminalBlock)`](Sandbox.ModAPI.Ingame.HasInventory)||
+|static [`VRage.Game.ModAPI.Ingame.IMyInventory GetInventory(Sandbox.ModAPI.Ingame.IMyTerminalBlock, int)`](Sandbox.ModAPI.Ingame.GetInventory)||
+|static [`int GetInventoryCount(Sandbox.ModAPI.Ingame.IMyTerminalBlock)`](Sandbox.ModAPI.Ingame.GetInventoryCount)||
+|static [`bool GetUseConveyorSystem(Sandbox.ModAPI.Ingame.IMyTerminalBlock)`](Sandbox.ModAPI.Ingame.GetUseConveyorSystem)||
+|static [`void SetUseConveyorSystem(Sandbox.ModAPI.Ingame.IMyTerminalBlock, bool)`](Sandbox.ModAPI.Ingame.SetUseConveyorSystem)||

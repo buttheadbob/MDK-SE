@@ -90,6 +90,12 @@ Various useful utilities for your scripts
 [`MyIniValue`](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue)  
 [`StringSegment`](VRage.Game.ModAPI.Ingame.Utilities.StringSegment)  
 [`TextPtr`](VRage.Game.ModAPI.Ingame.Utilities.TextPtr)  
+### Entity Component Systems
+
+Gain access to advanced block components
+
+[`MyResourceSinkComponent`](Sandbox.Game.EntityComponents.MyResourceSinkComponent)  
+[`MyResourceSourceComponent`](Sandbox.Game.EntityComponents.MyResourceSourceComponent)  
 ### Grid Program and Terminal System
 
 Types related to the grid program and grid terminal system
@@ -103,10 +109,19 @@ Types related to the grid program and grid terminal system
 [`IMySlimBlock`](VRage.Game.ModAPI.Ingame.IMySlimBlock)  
 [`IMyCubeBlock`](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 [`IMyCubeGrid`](VRage.Game.ModAPI.Ingame.IMyCubeGrid)  
+### Inventory
+
+Types related to inventory analysis and management.
+
+[`IMyInventoryItem`](VRage.Game.ModAPI.Ingame.IMyInventoryItem)  
+[`IMyInventory`](VRage.Game.ModAPI.Ingame.IMyInventory)  
+[`MyInventoryItemExtension`](VRage.Game.ModAPI.Ingame.MyInventoryItemExtension)  
+[`IMyInventoryOwner`](VRage.Game.ModAPI.Ingame.IMyInventoryOwner)  
 ### Terminal Properties and Actions
 
 Types related to the terminal properties and actions. You should endeavour to avoid the use of these if possible due to their extra overhead. There are usually proper interface members available instead, which are orders of magnitude faster in use.
 
+[`TerminalActionParameter`](Sandbox.ModAPI.Ingame.TerminalActionParameter)  
 [`TerminalBlockExtentions`](Sandbox.ModAPI.Ingame.TerminalBlockExtentions)  
 [`ITerminalProperty`](Sandbox.ModAPI.Interfaces.ITerminalProperty)  
 [`TerminalPropertyExtensions`](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions)  
@@ -251,7 +266,6 @@ Types that don't fit into a specific category
 [`MyShipVelocities`](Sandbox.ModAPI.Ingame.MyShipVelocities)  
 [`MyJumpDriveStatus`](Sandbox.ModAPI.Ingame.MyJumpDriveStatus)  
 [`PistonStatus`](Sandbox.ModAPI.Ingame.PistonStatus)  
-[`TerminalActionParameter`](Sandbox.ModAPI.Ingame.TerminalActionParameter)  
 [`DoorStatus`](Sandbox.ModAPI.Ingame.DoorStatus)  
 [`MyProductionItem`](Sandbox.ModAPI.Ingame.MyProductionItem)  
 [`MyDetectedEntityType`](Sandbox.ModAPI.Ingame.MyDetectedEntityType)  
@@ -263,11 +277,7 @@ Types that don't fit into a specific category
 [`MyLanguagesEnum`](VRage.MyLanguagesEnum)  
 [`MyTexts`](VRage.MyTexts)  
 [`MyComponentBase`](VRage.Game.Components.MyComponentBase)  
-[`IMyInventoryItem`](VRage.Game.ModAPI.Ingame.IMyInventoryItem)  
 [`IMyEntity`](VRage.Game.ModAPI.Ingame.IMyEntity)  
-[`IMyInventory`](VRage.Game.ModAPI.Ingame.IMyInventory)  
-[`MyInventoryItemExtension`](VRage.Game.ModAPI.Ingame.MyInventoryItemExtension)  
-[`IMyInventoryOwner`](VRage.Game.ModAPI.Ingame.IMyInventoryOwner)  
 [`MyObjectBuilder_Base`](VRage.ObjectBuilders.MyObjectBuilder_Base)  
 [`MyRelationsBetweenPlayerAndBlock`](VRage.Game.MyRelationsBetweenPlayerAndBlock)  
 [`MyRelationsBetweenPlayerAndBlockExtensions`](VRage.Game.MyRelationsBetweenPlayerAndBlockExtensions)  
@@ -295,7 +305,5 @@ Types that don't fit into a specific category
 [`MyTuple<T1, T2, T3, T4>`](VRage.MyTuple)  
 [`MyTuple<T1, T2, T3, T4, T5>`](VRage.MyTuple)  
 [`MyTuple<T1, T2, T3, T4, T5, T6>`](VRage.MyTuple)  
-[`MyResourceSinkComponent`](Sandbox.Game.EntityComponents.MyResourceSinkComponent)  
-[`MyResourceSourceComponent`](Sandbox.Game.EntityComponents.MyResourceSourceComponent)  
 [`IMyAttachableTopBlock`](Sandbox.ModAPI.Ingame.IMyAttachableTopBlock)  
 [`IMyUpgradableBlock`](Sandbox.ModAPI.Ingame.IMyUpgradableBlock)  

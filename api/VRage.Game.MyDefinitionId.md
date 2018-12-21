@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # MyDefinitionId Struct
 **Namespace:** VRage.Game  
 **Assembly:** VRage.Game.dll  

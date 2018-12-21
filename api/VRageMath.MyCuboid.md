@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # MyCuboid Class
 **Namespace:** VRageMath  
 **Assembly:** VRage.Math.dll  

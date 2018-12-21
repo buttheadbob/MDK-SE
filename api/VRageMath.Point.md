@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # Point Struct
 **Namespace:** VRageMath  
 **Assembly:** VRage.Math.dll  

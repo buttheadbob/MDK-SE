@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # IMyDoor Interface
 **Namespace:** Sandbox.ModAPI.Ingame  
 **Assembly:** Sandbox.Common.dll  

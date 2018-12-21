@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # MyCubeSize Enum
 **Namespace:** VRage.Game  
 **Assembly:** VRage.Game.dll  

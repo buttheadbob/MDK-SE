@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # ITerminalAction Interface
 **Namespace:** Sandbox.ModAPI.Interfaces  
 **Assembly:** Sandbox.Common.dll  

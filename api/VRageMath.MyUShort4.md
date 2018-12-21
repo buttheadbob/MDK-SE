@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # MyUShort4 Struct
 **Namespace:** VRageMath  
 **Assembly:** VRage.Math.dll  

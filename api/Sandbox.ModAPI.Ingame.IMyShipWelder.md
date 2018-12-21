@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # IMyShipWelder Interface
 **Namespace:** Sandbox.ModAPI.Ingame  
 **Assembly:** Sandbox.Common.dll  

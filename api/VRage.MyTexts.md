@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # MyTexts Class
 **Namespace:** VRage  
 **Assembly:** VRage.dll  

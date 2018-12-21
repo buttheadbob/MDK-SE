@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # CurveContinuity Enum
 **Namespace:** VRageMath  
 **Assembly:** VRage.Math.dll  

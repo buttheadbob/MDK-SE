@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # MyFixedPoint Struct
 **Namespace:** VRage  
 **Assembly:** VRage.Library.dll  

@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # ColorExtensions Class
 **Namespace:** VRageMath  
 **Assembly:** VRage.Math.dll  

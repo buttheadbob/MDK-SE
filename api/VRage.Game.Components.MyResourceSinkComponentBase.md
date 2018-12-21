@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # MyResourceSinkComponentBase Class
 **Namespace:** VRage.Game.Components  
 **Assembly:** VRage.Game.dll  

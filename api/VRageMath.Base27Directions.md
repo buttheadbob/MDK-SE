@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # Base27Directions Class
 **Namespace:** VRageMath  
 **Assembly:** VRage.Math.dll  

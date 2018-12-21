@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # PlaneD Struct
 **Namespace:** VRageMath  
 **Assembly:** VRage.Math.dll  

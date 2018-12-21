@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # ListExtensions Class
 **Namespace:** System.Collections.Generic  
 **Assembly:** VRage.Library.dll  

@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # MyTupleComparer Class
 **Namespace:** VRage  
 **Assembly:** VRage.Library.dll  

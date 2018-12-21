@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # MyClusterTree Class
 **Namespace:** VRageMath.Spatial  
 **Assembly:** VRage.Math.dll  

@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # MyQuad Struct
 **Namespace:** VRageMath  
 **Assembly:** VRage.Math.dll  

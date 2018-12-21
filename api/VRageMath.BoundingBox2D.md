@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # BoundingBox2D Struct
 **Namespace:** VRageMath  
 **Assembly:** VRage.Math.dll  

@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # Vector3UByte Struct
 **Namespace:** VRageMath  
 **Assembly:** VRage.Math.dll  

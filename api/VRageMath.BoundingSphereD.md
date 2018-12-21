@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # BoundingSphereD Struct
 **Namespace:** VRageMath  
 **Assembly:** VRage.Math.dll  

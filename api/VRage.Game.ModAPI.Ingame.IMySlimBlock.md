@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # IMySlimBlock Interface
 **Namespace:** VRage.Game.ModAPI.Ingame  
 **Assembly:** VRage.Game.dll  

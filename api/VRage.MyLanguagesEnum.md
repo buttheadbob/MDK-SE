@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # MyLanguagesEnum Enum
 **Namespace:** VRage  
 **Assembly:** VRage.dll  

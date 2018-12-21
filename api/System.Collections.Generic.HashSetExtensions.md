@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # HashSetExtensions Class
 **Namespace:** System.Collections.Generic  
 **Assembly:** VRage.Library.dll  

@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # MyCommandLine Class
 **Namespace:** VRage.Game.ModAPI.Ingame.Utilities  
 **Assembly:** VRage.Game.dll  

@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # HalfVector3 Struct
 **Namespace:** VRageMath.PackedVector  
 **Assembly:** VRage.Math.dll  

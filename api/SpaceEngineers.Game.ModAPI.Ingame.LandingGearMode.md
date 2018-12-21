@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # LandingGearMode Enum
 **Namespace:** SpaceEngineers.Game.ModAPI.Ingame  
 **Assembly:** SpaceEngineers.ObjectBuilders.dll  

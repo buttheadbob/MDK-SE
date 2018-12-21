@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # ListReader Struct
 **Namespace:** VRage.Collections  
 **Assembly:** VRage.Library.dll  

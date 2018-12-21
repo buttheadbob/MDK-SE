@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # SymmetricSerializableRange Struct
 **Namespace:** VRageMath  
 **Assembly:** VRage.Math.dll  

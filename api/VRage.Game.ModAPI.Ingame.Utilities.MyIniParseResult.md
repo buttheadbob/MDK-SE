@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # MyIniParseResult Struct
 **Namespace:** VRage.Game.ModAPI.Ingame.Utilities  
 **Assembly:** VRage.Game.dll  

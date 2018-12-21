@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # MyResourceSourceComponent Class
 **Namespace:** Sandbox.Game.EntityComponents  
 **Assembly:** Sandbox.Game.dll  

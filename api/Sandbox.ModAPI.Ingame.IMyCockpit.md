@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # IMyCockpit Interface
 **Namespace:** Sandbox.ModAPI.Ingame  
 **Assembly:** Sandbox.Common.dll  

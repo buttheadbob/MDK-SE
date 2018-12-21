@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # TerminalPropertyExtensions Class
 **Namespace:** Sandbox.ModAPI.Interfaces  
 **Assembly:** Sandbox.Common.dll  

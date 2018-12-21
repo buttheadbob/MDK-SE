@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # IMyGravityGeneratorSphere Interface
 **Namespace:** SpaceEngineers.Game.ModAPI.Ingame  
 **Assembly:** SpaceEngineers.Game.dll  

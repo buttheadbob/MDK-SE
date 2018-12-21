@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # AddOp Interface
 **Namespace:** VRageMath  
 **Assembly:** VRage.Math.dll  

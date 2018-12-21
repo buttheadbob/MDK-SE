@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # IMyVirtualMass Interface
 **Namespace:** SpaceEngineers.Game.ModAPI.Ingame  
 **Assembly:** SpaceEngineers.Game.dll  

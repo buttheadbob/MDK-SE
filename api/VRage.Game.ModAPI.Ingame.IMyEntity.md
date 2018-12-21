@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # IMyEntity Interface
 **Namespace:** VRage.Game.ModAPI.Ingame  
 **Assembly:** VRage.Game.dll  

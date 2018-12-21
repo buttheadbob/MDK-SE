@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # DoorStatus Enum
 **Namespace:** Sandbox.ModAPI.Ingame  
 **Assembly:** Sandbox.Common.dll  

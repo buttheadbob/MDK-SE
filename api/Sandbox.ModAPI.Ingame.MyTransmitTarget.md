@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # MyTransmitTarget Enum
 **Namespace:** Sandbox.ModAPI.Ingame  
 **Assembly:** Sandbox.Common.dll  

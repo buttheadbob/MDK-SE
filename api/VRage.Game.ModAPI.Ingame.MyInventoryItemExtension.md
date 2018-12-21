@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # MyInventoryItemExtension Class
 **Namespace:** VRage.Game.ModAPI.Ingame  
 **Assembly:** VRage.Game.dll  

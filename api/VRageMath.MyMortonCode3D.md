@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # MyMortonCode3D Class
 **Namespace:** VRageMath  
 **Assembly:** VRage.Math.dll  

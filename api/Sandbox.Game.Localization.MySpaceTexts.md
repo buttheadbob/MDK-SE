@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # MySpaceTexts Class
 **Namespace:** Sandbox.Game.Localization  
 **Assembly:** Sandbox.Game.dll  

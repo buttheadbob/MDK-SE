@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # MyWaypointInfo Struct
 **Namespace:** Sandbox.ModAPI.Ingame  
 **Assembly:** Sandbox.Common.dll  

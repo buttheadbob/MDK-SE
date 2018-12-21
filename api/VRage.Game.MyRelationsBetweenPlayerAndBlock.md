@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # MyRelationsBetweenPlayerAndBlock Enum
 **Namespace:** VRage.Game  
 **Assembly:** VRage.Game.dll  

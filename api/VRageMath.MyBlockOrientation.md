@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # MyBlockOrientation Struct
 **Namespace:** VRageMath  
 **Assembly:** VRage.Math.dll  

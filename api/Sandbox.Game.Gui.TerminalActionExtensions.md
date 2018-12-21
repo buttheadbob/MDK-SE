@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # TerminalActionExtensions Class
 **Namespace:** Sandbox.Game.Gui  
 **Assembly:** Sandbox.Game.dll  

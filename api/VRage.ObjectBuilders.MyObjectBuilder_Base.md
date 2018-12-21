@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # MyObjectBuilder_Base Class
 **Namespace:** VRage.ObjectBuilders  
 **Assembly:** VRage.Game.dll  

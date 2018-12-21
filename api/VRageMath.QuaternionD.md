@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # QuaternionD Struct
 **Namespace:** VRageMath  
 **Assembly:** VRage.Math.dll  

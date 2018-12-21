@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # MyRelationsBetweenPlayerAndBlockExtensions Class
 **Namespace:** VRage.Game  
 **Assembly:** VRage.Game.dll  

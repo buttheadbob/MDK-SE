@@ -1,4 +1,4 @@
-← [Index](index.md)
+← [Index](index)
 # CapsuleD Struct
 **Namespace:** VRageMath  
 **Assembly:** VRage.Math.dll  

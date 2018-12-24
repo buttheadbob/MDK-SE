@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MatrixD](VRageMath.MatrixD)
 
-[double](System.Double) double VRageMath.MatrixD.M32
+[double](System.Double) M32

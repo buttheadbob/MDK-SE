@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MyMovingAverage](VRageMath.MyMovingAverage)
 
-void void VRageMath.MyMovingAverage.Reset()()
+void Reset()

@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)
 
-[bool](System.Boolean) bool Sandbox.ModAPI.Ingame.IMyShipController.DampenersOverride
+[bool](System.Boolean) DampenersOverride

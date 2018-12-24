@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MathHelper](VRageMath.MathHelper)
 
-[float](System.Single) float VRageMath.MathHelper.SmoothStepStable(amount)()[double](System.Double) double VRageMath.MathHelper.SmoothStepStable(amount)()
+[float](System.Single) SmoothStepStable()[double](System.Double) SmoothStepStable()

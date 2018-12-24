@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MyResourceSourceComponentBase](VRage.Game.Components.MyResourceSourceComponentBase)
 
-[float](System.Single) float VRage.Game.Components.MyResourceSourceComponentBase.DefinedOutputByType(resourceTypeId)()
+[float](System.Single) DefinedOutputByType()

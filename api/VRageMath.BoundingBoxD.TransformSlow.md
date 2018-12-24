@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [BoundingBoxD](VRageMath.BoundingBoxD)
 
-[BoundingBoxD](VRageMath.BoundingBoxD) VRageMath.BoundingBoxD VRageMath.BoundingBoxD.TransformSlow(m)()[BoundingBoxD](VRageMath.BoundingBoxD) VRageMath.BoundingBoxD VRageMath.BoundingBoxD.TransformSlow(worldMatrix)()
+[BoundingBoxD](VRageMath.BoundingBoxD) TransformSlow()[BoundingBoxD](VRageMath.BoundingBoxD) TransformSlow()

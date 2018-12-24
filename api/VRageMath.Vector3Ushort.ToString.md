@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [Vector3Ushort](VRageMath.Vector3Ushort)
 
-[string](System.String) string VRageMath.Vector3Ushort.ToString()()
+[string](System.String) ToString()

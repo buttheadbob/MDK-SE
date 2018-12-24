@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [CurveKey](VRageMath.CurveKey)
 
-[float](System.Single) float VRageMath.CurveKey.TangentOut
+[float](System.Single) TangentOut

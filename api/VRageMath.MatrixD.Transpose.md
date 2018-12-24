@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MatrixD](VRageMath.MatrixD)
 
-[MatrixD](VRageMath.MatrixD) VRageMath.MatrixD VRageMath.MatrixD.Transpose(matrix)()void void VRageMath.MatrixD.Transpose(matrix, result)()
+[MatrixD](VRageMath.MatrixD) Transpose()void Transpose()

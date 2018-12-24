@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [IMyGridProgramRuntimeInfo](Sandbox.ModAPI.Ingame.IMyGridProgramRuntimeInfo)
 
-[UpdateFrequency](Sandbox.ModAPI.Ingame.UpdateFrequency) Sandbox.ModAPI.Ingame.UpdateFrequency Sandbox.ModAPI.Ingame.IMyGridProgramRuntimeInfo.UpdateFrequency
+[UpdateFrequency](Sandbox.ModAPI.Ingame.UpdateFrequency) UpdateFrequency

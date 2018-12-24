@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MyOrientedBoundingBox](VRageMath.MyOrientedBoundingBox)
 
-System.Int32[] System.Int32[] VRageMath.MyOrientedBoundingBox.EndYVertices
+System.Int32[] EndYVertices

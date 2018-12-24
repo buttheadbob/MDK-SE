@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [QuaternionD](VRageMath.QuaternionD)
 
-[double](System.Double) double VRageMath.QuaternionD.Z
+[double](System.Double) Z

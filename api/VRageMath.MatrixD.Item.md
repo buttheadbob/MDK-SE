@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MatrixD](VRageMath.MatrixD)
 
-[double](System.Double) double VRageMath.MatrixD.Item
+[double](System.Double) Item

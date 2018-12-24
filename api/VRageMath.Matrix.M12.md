@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [Matrix](VRageMath.Matrix)
 
-[float](System.Single) float VRageMath.Matrix.M12
+[float](System.Single) M12

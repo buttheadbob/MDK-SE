@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [Base6Directions](VRageMath.Base6Directions)
 
-[Direction](VRageMath.Base6Directions+Direction) VRageMath.VRageMath.Base6Directions.Direction VRageMath.Base6Directions.GetForward(rot)()[Direction](VRageMath.Base6Directions+Direction) VRageMath.VRageMath.Base6Directions.Direction VRageMath.Base6Directions.GetForward(rot)()[Direction](VRageMath.Base6Directions+Direction) VRageMath.VRageMath.Base6Directions.Direction VRageMath.Base6Directions.GetForward(rotation)()
+[Direction](VRageMath.Base6Directions+Direction) GetForward()[Direction](VRageMath.Base6Directions+Direction) GetForward()[Direction](VRageMath.Base6Directions+Direction) GetForward()

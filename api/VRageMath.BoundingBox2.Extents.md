@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [BoundingBox2](VRageMath.BoundingBox2)
 
-[Vector2](VRageMath.Vector2) VRageMath.Vector2 VRageMath.BoundingBox2.Extents
+[Vector2](VRageMath.Vector2) Extents

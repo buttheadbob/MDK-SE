@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MyTuple<T1, T2, T3, T4>](VRage.MyTuple`4)
 
-[T2]() VRage.VRage.MyTuple<T1, T2, T3, T4>.T2 VRage.MyTuple<T1, T2, T3, T4>.Item2
+[T2]() Item2

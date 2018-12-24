@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)
 
-[Vector3D](VRageMath.Vector3D) VRageMath.Vector3D Sandbox.ModAPI.Ingame.IMyShipController.GetArtificialGravity()()
+[Vector3D](VRageMath.Vector3D) GetArtificialGravity()

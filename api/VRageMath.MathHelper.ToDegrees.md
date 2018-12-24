@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MathHelper](VRageMath.MathHelper)
 
-[float](System.Single) float VRageMath.MathHelper.ToDegrees(radians)()[double](System.Double) double VRageMath.MathHelper.ToDegrees(radians)()
+[float](System.Single) ToDegrees()[double](System.Double) ToDegrees()

@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MyDynamicAABBTree](VRageMath.MyDynamicAABBTree)
 
-void void VRageMath.MyDynamicAABBTree.OverlapSizeableClusters(bbox, boundList, minSize)()
+void OverlapSizeableClusters()

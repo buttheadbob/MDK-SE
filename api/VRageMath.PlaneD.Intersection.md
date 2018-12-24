@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [PlaneD](VRageMath.PlaneD)
 
-[Vector3D](VRageMath.Vector3D) VRageMath.Vector3D VRageMath.PlaneD.Intersection(from, direction)()
+[Vector3D](VRageMath.Vector3D) Intersection()

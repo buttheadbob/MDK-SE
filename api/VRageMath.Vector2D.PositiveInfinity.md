@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [Vector2D](VRageMath.Vector2D)
 
-[Vector2D](VRageMath.Vector2D) VRageMath.Vector2D VRageMath.Vector2D.PositiveInfinity
+[Vector2D](VRageMath.Vector2D) PositiveInfinity

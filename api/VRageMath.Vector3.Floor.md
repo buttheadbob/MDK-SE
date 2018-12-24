@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [Vector3](VRageMath.Vector3)
 
-[Vector3](VRageMath.Vector3) VRageMath.Vector3 VRageMath.Vector3.Floor(v)()
+[Vector3](VRageMath.Vector3) Floor()

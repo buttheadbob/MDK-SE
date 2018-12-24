@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [BoundingBoxI](VRageMath.BoundingBoxI)
 
-[BoundingBoxI](VRageMath.BoundingBoxI) VRageMath.BoundingBoxI VRageMath.BoundingBoxI.GetIncluded(point)()
+[BoundingBoxI](VRageMath.BoundingBoxI) GetIncluded()

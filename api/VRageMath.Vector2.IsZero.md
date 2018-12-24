@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [Vector2](VRageMath.Vector2)
 
-[bool](System.Boolean) bool VRageMath.Vector2.IsZero(value)()[bool](System.Boolean) bool VRageMath.Vector2.IsZero(value, epsilon)()[bool](System.Boolean) bool VRageMath.Vector2.IsZero(value, epsilon)()
+[bool](System.Boolean) IsZero()[bool](System.Boolean) IsZero()[bool](System.Boolean) IsZero()

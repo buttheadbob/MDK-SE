@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [Rectangle](VRageMath.Rectangle)
 
-[int](System.Int32) int VRageMath.Rectangle.X
+[int](System.Int32) X

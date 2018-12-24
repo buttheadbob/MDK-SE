@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [Vector4D](VRageMath.Vector4D)
 
-[double](System.Double) double VRageMath.Vector4D.Z
+[double](System.Double) Z

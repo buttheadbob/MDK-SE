@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [BoundingFrustum](VRageMath.BoundingFrustum)
 
-[Plane](VRageMath.Plane) VRageMath.Plane VRageMath.BoundingFrustum.Bottom
+[Plane](VRageMath.Plane) Bottom

@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MatrixD](VRageMath.MatrixD)
 
-[bool](System.Boolean) bool VRageMath.MatrixD.IsRotation()()
+[bool](System.Boolean) IsRotation()

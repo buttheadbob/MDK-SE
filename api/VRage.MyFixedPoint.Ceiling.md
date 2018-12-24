@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MyFixedPoint](VRage.MyFixedPoint)
 
-[MyFixedPoint](VRage.MyFixedPoint) VRage.MyFixedPoint VRage.MyFixedPoint.Ceiling(a)()
+[MyFixedPoint](VRage.MyFixedPoint) Ceiling()

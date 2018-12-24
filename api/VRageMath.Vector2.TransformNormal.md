@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [Vector2](VRageMath.Vector2)
 
-[Vector2](VRageMath.Vector2) VRageMath.Vector2 VRageMath.Vector2.TransformNormal(normal, matrix)()void void VRageMath.Vector2.TransformNormal(normal, matrix, result)()void void VRageMath.Vector2.TransformNormal(sourceArray, matrix, destinationArray)()void void VRageMath.Vector2.TransformNormal(sourceArray, sourceIndex, matrix, destinationArray, destinationIndex, length)()
+[Vector2](VRageMath.Vector2) TransformNormal()void TransformNormal()void TransformNormal()void TransformNormal()

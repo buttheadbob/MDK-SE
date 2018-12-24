@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MathHelper](VRageMath.MathHelper)
 
-void void VRageMath.MathHelper.LimitRadians2PI(angle)()
+void LimitRadians2PI()

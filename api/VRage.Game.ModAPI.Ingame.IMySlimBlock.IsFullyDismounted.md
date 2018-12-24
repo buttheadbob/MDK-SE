@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [IMySlimBlock](VRage.Game.ModAPI.Ingame.IMySlimBlock)
 
-[bool](System.Boolean) bool VRage.Game.ModAPI.Ingame.IMySlimBlock.IsFullyDismounted
+[bool](System.Boolean) IsFullyDismounted

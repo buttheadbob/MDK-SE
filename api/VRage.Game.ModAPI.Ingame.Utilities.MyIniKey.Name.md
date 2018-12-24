@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey)
 
-[string](System.String) string VRage.Game.ModAPI.Ingame.Utilities.MyIniKey.Name
+[string](System.String) Name

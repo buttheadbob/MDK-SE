@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MathHelper](VRageMath.MathHelper)
 
-[bool](System.Boolean) bool VRageMath.MathHelper.IsZero(value, epsilon)()[bool](System.Boolean) bool VRageMath.MathHelper.IsZero(value, epsilon)()[bool](System.Boolean) bool VRageMath.MathHelper.IsZero(value, epsilon)()[bool](System.Boolean) bool VRageMath.MathHelper.IsZero(value, epsilon)()[bool](System.Boolean) bool VRageMath.MathHelper.IsZero(value, epsilon)()[bool](System.Boolean) bool VRageMath.MathHelper.IsZero(value)()
+[bool](System.Boolean) IsZero()[bool](System.Boolean) IsZero()[bool](System.Boolean) IsZero()[bool](System.Boolean) IsZero()[bool](System.Boolean) IsZero()[bool](System.Boolean) IsZero()

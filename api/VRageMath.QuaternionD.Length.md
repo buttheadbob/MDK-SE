@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [QuaternionD](VRageMath.QuaternionD)
 
-[double](System.Double) double VRageMath.QuaternionD.Length()()
+[double](System.Double) Length()

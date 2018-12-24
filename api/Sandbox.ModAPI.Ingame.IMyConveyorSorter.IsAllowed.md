@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [IMyConveyorSorter](Sandbox.ModAPI.Ingame.IMyConveyorSorter)
 
-[bool](System.Boolean) bool Sandbox.ModAPI.Ingame.IMyConveyorSorter.IsAllowed(id)()
+[bool](System.Boolean) IsAllowed()

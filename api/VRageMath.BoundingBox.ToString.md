@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [BoundingBox](VRageMath.BoundingBox)
 
-[string](System.String) string VRageMath.BoundingBox.ToString()()
+[string](System.String) ToString()

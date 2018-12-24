@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [BoundingSphereD](VRageMath.BoundingSphereD)
 
-[string](System.String) string VRageMath.BoundingSphereD.ToString()()
+[string](System.String) ToString()

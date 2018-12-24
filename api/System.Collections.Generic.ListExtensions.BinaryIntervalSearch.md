@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [ListExtensions](System.Collections.Generic.ListExtensions)
 
-[int](System.Int32) int System.Collections.Generic.ListExtensions.BinaryIntervalSearch<T>(self, value, comparer)<[T]()>()[int](System.Int32) int System.Collections.Generic.ListExtensions.BinaryIntervalSearch<T>(self, less)<[T]()>()[int](System.Int32) int System.Collections.Generic.ListExtensions.BinaryIntervalSearch<T>(self, value, comparison)<[T]()>()
+[int](System.Int32) BinaryIntervalSearch<T><[T]()>()[int](System.Int32) BinaryIntervalSearch<T><[T]()>()[int](System.Int32) BinaryIntervalSearch<T><[T]()>()

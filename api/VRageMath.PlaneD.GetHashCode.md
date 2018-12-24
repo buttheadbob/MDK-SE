@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [PlaneD](VRageMath.PlaneD)
 
-[int](System.Int32) int VRageMath.PlaneD.GetHashCode()()
+[int](System.Int32) GetHashCode()

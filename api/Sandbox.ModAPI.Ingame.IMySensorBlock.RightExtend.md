@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [IMySensorBlock](Sandbox.ModAPI.Ingame.IMySensorBlock)
 
-[float](System.Single) float Sandbox.ModAPI.Ingame.IMySensorBlock.RightExtend
+[float](System.Single) RightExtend

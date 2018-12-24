@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [Vector3I](VRageMath.Vector3I)
 
-[int](System.Int32) int VRageMath.Vector3I.AbsMax()()
+[int](System.Int32) AbsMax()

@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MyCuboid](VRageMath.MyCuboid)
 
-[BoundingBox](VRageMath.BoundingBox) VRageMath.BoundingBox VRageMath.MyCuboid.GetAABB()()
+[BoundingBox](VRageMath.BoundingBox) GetAABB()

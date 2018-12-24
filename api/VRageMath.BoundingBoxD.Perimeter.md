@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [BoundingBoxD](VRageMath.BoundingBoxD)
 
-[double](System.Double) double VRageMath.BoundingBoxD.Perimeter
+[double](System.Double) Perimeter

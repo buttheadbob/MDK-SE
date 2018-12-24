@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MathHelperD](VRageMath.MathHelperD)
 
-[double](System.Double) double VRageMath.MathHelperD.Pi
+[double](System.Double) Pi

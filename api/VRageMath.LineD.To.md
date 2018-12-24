@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [LineD](VRageMath.LineD)
 
-[Vector3D](VRageMath.Vector3D) VRageMath.Vector3D VRageMath.LineD.To
+[Vector3D](VRageMath.Vector3D) To

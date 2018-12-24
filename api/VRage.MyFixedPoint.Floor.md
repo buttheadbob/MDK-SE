@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MyFixedPoint](VRage.MyFixedPoint)
 
-[MyFixedPoint](VRage.MyFixedPoint) VRage.MyFixedPoint VRage.MyFixedPoint.Floor(a)()
+[MyFixedPoint](VRage.MyFixedPoint) Floor()

@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [Point](VRageMath.Point)
 
-[bool](System.Boolean) bool VRageMath.Point.Equals(other)()[bool](System.Boolean) bool VRageMath.Point.Equals(obj)()
+[bool](System.Boolean) Equals()[bool](System.Boolean) Equals()

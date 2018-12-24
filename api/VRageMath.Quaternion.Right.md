@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [Quaternion](VRageMath.Quaternion)
 
-[Vector3](VRageMath.Vector3) VRageMath.Vector3 VRageMath.Quaternion.Right
+[Vector3](VRageMath.Vector3) Right

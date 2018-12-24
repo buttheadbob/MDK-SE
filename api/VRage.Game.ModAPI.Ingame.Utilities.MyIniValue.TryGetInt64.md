@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MyIniValue](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue)
 
-[bool](System.Boolean) bool VRage.Game.ModAPI.Ingame.Utilities.MyIniValue.TryGetInt64(value)()
+[bool](System.Boolean) TryGetInt64()

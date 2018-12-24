@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [BoundingBox2D](VRageMath.BoundingBox2D)
 
-[Vector2D](VRageMath.Vector2D) VRageMath.Vector2D VRageMath.BoundingBox2D.Extents
+[Vector2D](VRageMath.Vector2D) Extents

@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [Quaternion](VRageMath.Quaternion)
 
-[float](System.Single) float VRageMath.Quaternion.X
+[float](System.Single) X

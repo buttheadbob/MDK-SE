@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MyFixedPoint](VRage.MyFixedPoint)
 
-[long](System.Int64) long VRage.MyFixedPoint.RawValue
+[long](System.Int64) RawValue

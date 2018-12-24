@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [BoundingBox](VRageMath.BoundingBox)
 
-[bool](System.Boolean) bool VRageMath.BoundingBox.Equals(other)()[bool](System.Boolean) bool VRageMath.BoundingBox.Equals(obj)()
+[bool](System.Boolean) Equals()[bool](System.Boolean) Equals()

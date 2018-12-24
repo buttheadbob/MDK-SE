@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MathHelper](VRageMath.MathHelper)
 
-[bool](System.Boolean) bool VRageMath.MathHelper.IsEqual(value1, value2)()[bool](System.Boolean) bool VRageMath.MathHelper.IsEqual(value1, value2)()[bool](System.Boolean) bool VRageMath.MathHelper.IsEqual(value1, value2)()[bool](System.Boolean) bool VRageMath.MathHelper.IsEqual(value1, value2)()[bool](System.Boolean) bool VRageMath.MathHelper.IsEqual(value1, value2)()[bool](System.Boolean) bool VRageMath.MathHelper.IsEqual(value1, value2)()
+[bool](System.Boolean) IsEqual()[bool](System.Boolean) IsEqual()[bool](System.Boolean) IsEqual()[bool](System.Boolean) IsEqual()[bool](System.Boolean) IsEqual()[bool](System.Boolean) IsEqual()

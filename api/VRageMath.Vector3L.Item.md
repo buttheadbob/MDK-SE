@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [Vector3L](VRageMath.Vector3L)
 
-[long](System.Int64) long VRageMath.Vector3L.Item
+[long](System.Int64) Item

@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MyIni](VRage.Game.ModAPI.Ingame.Utilities.MyIni)
 
-[bool](System.Boolean) bool VRage.Game.ModAPI.Ingame.Utilities.MyIni.TryParse(content)()[bool](System.Boolean) bool VRage.Game.ModAPI.Ingame.Utilities.MyIni.TryParse(content, result)()[bool](System.Boolean) bool VRage.Game.ModAPI.Ingame.Utilities.MyIni.TryParse(content, section, result)()[bool](System.Boolean) bool VRage.Game.ModAPI.Ingame.Utilities.MyIni.TryParse(content, section)()
+[bool](System.Boolean) TryParse()[bool](System.Boolean) TryParse()[bool](System.Boolean) TryParse()[bool](System.Boolean) TryParse()

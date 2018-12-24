@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [Matrix3x3](VRageMath.Matrix3x3)
 
-[Matrix3x3](VRageMath.Matrix3x3) VRageMath.Matrix3x3 VRageMath.Matrix3x3.CreateScale(xScale, yScale, zScale)()void void VRageMath.Matrix3x3.CreateScale(xScale, yScale, zScale, result)()[Matrix3x3](VRageMath.Matrix3x3) VRageMath.Matrix3x3 VRageMath.Matrix3x3.CreateScale(scales)()void void VRageMath.Matrix3x3.CreateScale(scales, result)()[Matrix3x3](VRageMath.Matrix3x3) VRageMath.Matrix3x3 VRageMath.Matrix3x3.CreateScale(scale)()void void VRageMath.Matrix3x3.CreateScale(scale, result)()
+[Matrix3x3](VRageMath.Matrix3x3) CreateScale()void CreateScale()[Matrix3x3](VRageMath.Matrix3x3) CreateScale()void CreateScale()[Matrix3x3](VRageMath.Matrix3x3) CreateScale()void CreateScale()

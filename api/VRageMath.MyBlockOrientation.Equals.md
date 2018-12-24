@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MyBlockOrientation](VRageMath.MyBlockOrientation)
 
-[bool](System.Boolean) bool VRageMath.MyBlockOrientation.Equals(obj)()
+[bool](System.Boolean) Equals()

@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MathHelper](VRageMath.MathHelper)
 
-[float](System.Single) float VRageMath.MathHelper.SCurve3(t)()[double](System.Double) double VRageMath.MathHelper.SCurve3(t)()
+[float](System.Single) SCurve3()[double](System.Double) SCurve3()

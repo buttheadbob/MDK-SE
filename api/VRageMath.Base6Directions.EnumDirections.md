@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [Base6Directions](VRageMath.Base6Directions)
 
-[Direction[]](VRageMath.Base6Directions+Direction[]) VRageMath.Direction[] VRageMath.Base6Directions.EnumDirections
+[Direction[]](VRageMath.Base6Directions+Direction[]) EnumDirections

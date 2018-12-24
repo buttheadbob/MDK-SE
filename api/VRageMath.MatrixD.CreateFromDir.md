@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MatrixD](VRageMath.MatrixD)
 
-[MatrixD](VRageMath.MatrixD) VRageMath.MatrixD VRageMath.MatrixD.CreateFromDir(dir)()[MatrixD](VRageMath.MatrixD) VRageMath.MatrixD VRageMath.MatrixD.CreateFromDir(dir, suggestedUp)()
+[MatrixD](VRageMath.MatrixD) CreateFromDir()[MatrixD](VRageMath.MatrixD) CreateFromDir()

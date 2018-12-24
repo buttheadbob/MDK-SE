@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [BoundingFrustum](VRageMath.BoundingFrustum)
 
-[bool](System.Boolean) bool VRageMath.BoundingFrustum.Equals(other)()[bool](System.Boolean) bool VRageMath.BoundingFrustum.Equals(obj)()
+[bool](System.Boolean) Equals()[bool](System.Boolean) Equals()

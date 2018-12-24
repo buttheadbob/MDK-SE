@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MyOrientedBoundingBoxD](VRageMath.MyOrientedBoundingBoxD)
 
-[int](System.Int32) int VRageMath.MyOrientedBoundingBoxD.CornerCount
+[int](System.Int32) CornerCount

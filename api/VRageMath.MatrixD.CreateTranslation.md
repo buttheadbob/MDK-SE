@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MatrixD](VRageMath.MatrixD)
 
-[MatrixD](VRageMath.MatrixD) VRageMath.MatrixD VRageMath.MatrixD.CreateTranslation(position)()[MatrixD](VRageMath.MatrixD) VRageMath.MatrixD VRageMath.MatrixD.CreateTranslation(position)()void void VRageMath.MatrixD.CreateTranslation(position, result)()[MatrixD](VRageMath.MatrixD) VRageMath.MatrixD VRageMath.MatrixD.CreateTranslation(xPosition, yPosition, zPosition)()void void VRageMath.MatrixD.CreateTranslation(xPosition, yPosition, zPosition, result)()
+[MatrixD](VRageMath.MatrixD) CreateTranslation()[MatrixD](VRageMath.MatrixD) CreateTranslation()void CreateTranslation()[MatrixD](VRageMath.MatrixD) CreateTranslation()void CreateTranslation()

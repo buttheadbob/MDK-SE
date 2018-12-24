@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [Point](VRageMath.Point)
 
-[string](System.String) string VRageMath.Point.ToString()()
+[string](System.String) ToString()

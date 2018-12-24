@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [Matrix](VRageMath.Matrix)
 
-[Matrix](VRageMath.Matrix) VRageMath.Matrix VRageMath.Matrix.CreateFromQuaternion(quaternion)()void void VRageMath.Matrix.CreateFromQuaternion(quaternion, result)()
+[Matrix](VRageMath.Matrix) CreateFromQuaternion()void CreateFromQuaternion()

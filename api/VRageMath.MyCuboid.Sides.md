@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MyCuboid](VRageMath.MyCuboid)
 
-[MyCuboidSide[]](VRageMath.MyCuboidSide[]) VRageMath.MyCuboidSide[] VRageMath.MyCuboid.Sides
+[MyCuboidSide[]](VRageMath.MyCuboidSide[]) Sides

@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [BoundingBoxD](VRageMath.BoundingBoxD)
 
-[BoundingBoxD](VRageMath.BoundingBoxD) VRageMath.BoundingBoxD VRageMath.BoundingBoxD.Intersect(box)()[bool](System.Boolean) bool VRageMath.BoundingBoxD.Intersect(line, intersectedLine)()[bool](System.Boolean) bool VRageMath.BoundingBoxD.Intersect(line, t1, t2)()[bool](System.Boolean) bool VRageMath.BoundingBoxD.Intersect(ray, tmin, tmax)()
+[BoundingBoxD](VRageMath.BoundingBoxD) Intersect()[bool](System.Boolean) Intersect()[bool](System.Boolean) Intersect()[bool](System.Boolean) Intersect()

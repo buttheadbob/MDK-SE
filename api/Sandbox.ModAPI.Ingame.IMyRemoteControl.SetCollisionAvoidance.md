@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [IMyRemoteControl](Sandbox.ModAPI.Ingame.IMyRemoteControl)
 
-void void Sandbox.ModAPI.Ingame.IMyRemoteControl.SetCollisionAvoidance(enabled)()
+void SetCollisionAvoidance()

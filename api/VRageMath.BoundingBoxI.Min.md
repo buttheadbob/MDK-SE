@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [BoundingBoxI](VRageMath.BoundingBoxI)
 
-[Vector3I](VRageMath.Vector3I) VRageMath.Vector3I VRageMath.BoundingBoxI.Min
+[Vector3I](VRageMath.Vector3I) Min

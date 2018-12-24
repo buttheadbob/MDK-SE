@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MyTuple](VRage.MyTuple)
 
-[int](System.Int32) int VRage.MyTuple.CombineHashCodes(h1, h2)()[int](System.Int32) int VRage.MyTuple.CombineHashCodes(h1, h2, h3)()[int](System.Int32) int VRage.MyTuple.CombineHashCodes(h1, h2, h3, h4)()[int](System.Int32) int VRage.MyTuple.CombineHashCodes(h1, h2, h3, h4, h5)()[int](System.Int32) int VRage.MyTuple.CombineHashCodes(h1, h2, h3, h4, h5, h6)()[int](System.Int32) int VRage.MyTuple.CombineHashCodes(h1, h2, h3, h4, h5, h6, h7)()[int](System.Int32) int VRage.MyTuple.CombineHashCodes(h1, h2, h3, h4, h5, h6, h7, h8)()
+[int](System.Int32) CombineHashCodes()[int](System.Int32) CombineHashCodes()[int](System.Int32) CombineHashCodes()[int](System.Int32) CombineHashCodes()[int](System.Int32) CombineHashCodes()[int](System.Int32) CombineHashCodes()[int](System.Int32) CombineHashCodes()

@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MyTexts](VRage.MyTexts)
 
-[StringBuilder](System.Text.StringBuilder) System.Text.StringBuilder VRage.MyTexts.AppendFormat(stringBuilder, textEnum, arg0)()
+[StringBuilder](System.Text.StringBuilder) AppendFormat()

@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MathHelper](VRageMath.MathHelper)
 
-[float](System.Single) float VRageMath.MathHelper.PiOver2
+[float](System.Single) PiOver2

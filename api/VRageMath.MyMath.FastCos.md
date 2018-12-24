@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MyMath](VRageMath.MyMath)
 
-[float](System.Single) float VRageMath.MyMath.FastCos(angle)()
+[float](System.Single) FastCos()

@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MatrixD](VRageMath.MatrixD)
 
-[MatrixD](VRageMath.MatrixD) VRageMath.MatrixD VRageMath.MatrixD.CreateWorld(position, forward, up)()[MatrixD](VRageMath.MatrixD) VRageMath.MatrixD VRageMath.MatrixD.CreateWorld(position)()[MatrixD](VRageMath.MatrixD) VRageMath.MatrixD VRageMath.MatrixD.CreateWorld(position, forward, up)()void void VRageMath.MatrixD.CreateWorld(position, forward, up, result)()
+[MatrixD](VRageMath.MatrixD) CreateWorld()[MatrixD](VRageMath.MatrixD) CreateWorld()[MatrixD](VRageMath.MatrixD) CreateWorld()void CreateWorld()

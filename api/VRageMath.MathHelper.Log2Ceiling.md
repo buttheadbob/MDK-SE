@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MathHelper](VRageMath.MathHelper)
 
-[int](System.Int32) int VRageMath.MathHelper.Log2Ceiling(value)()
+[int](System.Int32) Log2Ceiling()

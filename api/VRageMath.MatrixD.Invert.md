@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MatrixD](VRageMath.MatrixD)
 
-[MatrixD](VRageMath.MatrixD) VRageMath.MatrixD VRageMath.MatrixD.Invert(matrix)()[MatrixD](VRageMath.MatrixD) VRageMath.MatrixD VRageMath.MatrixD.Invert(matrix)()void void VRageMath.MatrixD.Invert(matrix, result)()
+[MatrixD](VRageMath.MatrixD) Invert()[MatrixD](VRageMath.MatrixD) Invert()void Invert()

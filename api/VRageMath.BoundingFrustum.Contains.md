@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [BoundingFrustum](VRageMath.BoundingFrustum)
 
-[ContainmentType](VRageMath.ContainmentType) VRageMath.ContainmentType VRageMath.BoundingFrustum.Contains(box)()void void VRageMath.BoundingFrustum.Contains(box, result)()[ContainmentType](VRageMath.ContainmentType) VRageMath.ContainmentType VRageMath.BoundingFrustum.Contains(frustum)()[ContainmentType](VRageMath.ContainmentType) VRageMath.ContainmentType VRageMath.BoundingFrustum.Contains(point)()void void VRageMath.BoundingFrustum.Contains(point, result)()[ContainmentType](VRageMath.ContainmentType) VRageMath.ContainmentType VRageMath.BoundingFrustum.Contains(sphere)()void void VRageMath.BoundingFrustum.Contains(sphere, result)()
+[ContainmentType](VRageMath.ContainmentType) Contains()void Contains()[ContainmentType](VRageMath.ContainmentType) Contains()[ContainmentType](VRageMath.ContainmentType) Contains()void Contains()[ContainmentType](VRageMath.ContainmentType) Contains()void Contains()

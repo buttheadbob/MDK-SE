@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [Matrix](VRageMath.Matrix)
 
-void void VRageMath.Matrix.SetRow(row, value)()
+void SetRow()

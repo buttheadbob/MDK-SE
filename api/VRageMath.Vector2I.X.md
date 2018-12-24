@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [Vector2I](VRageMath.Vector2I)
 
-[int](System.Int32) int VRageMath.Vector2I.X
+[int](System.Int32) X

@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MyOrientedBoundingBox](VRageMath.MyOrientedBoundingBox)
 
-[MyOrientedBoundingBox](VRageMath.MyOrientedBoundingBox) VRageMath.MyOrientedBoundingBox VRageMath.MyOrientedBoundingBox.Create(boundingBox, matrix)()
+[MyOrientedBoundingBox](VRageMath.MyOrientedBoundingBox) Create()

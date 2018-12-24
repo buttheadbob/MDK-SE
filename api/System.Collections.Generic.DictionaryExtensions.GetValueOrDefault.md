@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [DictionaryExtensions](System.Collections.Generic.DictionaryExtensions)
 
-[V]() System.Collections.Generic.System.Collections.Generic.DictionaryExtensions.V System.Collections.Generic.DictionaryExtensions.GetValueOrDefault<K, V>(dictionary, key)<[K](), [V]()>()[V]() System.Collections.Generic.System.Collections.Generic.DictionaryExtensions.V System.Collections.Generic.DictionaryExtensions.GetValueOrDefault<K, V>(dictionary, key, defaultValue)<[K](), [V]()>()[V]() System.Collections.Generic.System.Collections.Generic.DictionaryExtensions.V System.Collections.Generic.DictionaryExtensions.GetValueOrDefault<K, V>(dictionary, key, defaultValue)<[K](), [V]()>()
+[V]() GetValueOrDefault<K, V><[K](), [V]()>()[V]() GetValueOrDefault<K, V><[K](), [V]()>()[V]() GetValueOrDefault<K, V><[K](), [V]()>()

@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [Vector3L](VRageMath.Vector3L)
 
-[Vector3L](VRageMath.Vector3L) VRageMath.Vector3L VRageMath.Vector3L.MinValue
+[Vector3L](VRageMath.Vector3L) MinValue

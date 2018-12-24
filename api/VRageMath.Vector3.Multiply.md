@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [Vector3](VRageMath.Vector3)
 
-[Vector3](VRageMath.Vector3) VRageMath.Vector3 VRageMath.Vector3.Multiply(value1, value2)()void void VRageMath.Vector3.Multiply(value1, value2, result)()[Vector3](VRageMath.Vector3) VRageMath.Vector3 VRageMath.Vector3.Multiply(value1, scaleFactor)()void void VRageMath.Vector3.Multiply(value1, scaleFactor, result)()void void VRageMath.Vector3.Multiply(scale)()
+[Vector3](VRageMath.Vector3) Multiply()void Multiply()[Vector3](VRageMath.Vector3) Multiply()void Multiply()void Multiply()

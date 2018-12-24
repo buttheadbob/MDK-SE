@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MathHelper](VRageMath.MathHelper)
 
-[float](System.Single) float VRageMath.MathHelper.RadiansPerSecondToRPM
+[float](System.Single) RadiansPerSecondToRPM

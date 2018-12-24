@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [IMyParachute](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute)
 
-[float](System.Single) float SpaceEngineers.Game.ModAPI.Ingame.IMyParachute.Atmosphere
+[float](System.Single) Atmosphere

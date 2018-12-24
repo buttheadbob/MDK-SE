@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [IMyRemoteControl](Sandbox.ModAPI.Ingame.IMyRemoteControl)
 
-[FlightMode](Sandbox.ModAPI.Ingame.FlightMode) Sandbox.ModAPI.Ingame.FlightMode Sandbox.ModAPI.Ingame.IMyRemoteControl.FlightMode
+[FlightMode](Sandbox.ModAPI.Ingame.FlightMode) FlightMode

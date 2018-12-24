@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MyDynamicAABBTreeD](VRageMath.MyDynamicAABBTreeD)
 
-[int](System.Int32) int VRageMath.MyDynamicAABBTreeD.CountLeaves(nodeId)()
+[int](System.Int32) CountLeaves()

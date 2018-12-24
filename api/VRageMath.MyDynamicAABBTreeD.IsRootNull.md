@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MyDynamicAABBTreeD](VRageMath.MyDynamicAABBTreeD)
 
-[bool](System.Boolean) bool VRageMath.MyDynamicAABBTreeD.IsRootNull()()
+[bool](System.Boolean) IsRootNull()

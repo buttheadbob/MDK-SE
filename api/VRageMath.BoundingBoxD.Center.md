@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [BoundingBoxD](VRageMath.BoundingBoxD)
 
-[Vector3D](VRageMath.Vector3D) VRageMath.Vector3D VRageMath.BoundingBoxD.Center
+[Vector3D](VRageMath.Vector3D) Center

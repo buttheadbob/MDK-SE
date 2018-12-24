@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [ColorExtensions](VRageMath.ColorExtensions)
 
-[Color](VRageMath.Color) VRageMath.Color VRageMath.ColorExtensions.HSVtoColor(HSV)()
+[Color](VRageMath.Color) HSVtoColor()

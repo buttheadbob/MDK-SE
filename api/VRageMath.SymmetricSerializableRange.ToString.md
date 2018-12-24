@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [SymmetricSerializableRange](VRageMath.SymmetricSerializableRange)
 
-[string](System.String) string VRageMath.SymmetricSerializableRange.ToString()()
+[string](System.String) ToString()

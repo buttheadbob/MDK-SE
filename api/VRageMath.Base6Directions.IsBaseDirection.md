@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [Base6Directions](VRageMath.Base6Directions)
 
-[bool](System.Boolean) bool VRageMath.Base6Directions.IsBaseDirection(vec)()[bool](System.Boolean) bool VRageMath.Base6Directions.IsBaseDirection(vec)()[bool](System.Boolean) bool VRageMath.Base6Directions.IsBaseDirection(vec)()
+[bool](System.Boolean) IsBaseDirection()[bool](System.Boolean) IsBaseDirection()[bool](System.Boolean) IsBaseDirection()

@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [BoundingSphereD](VRageMath.BoundingSphereD)
 
-[bool](System.Boolean) bool VRageMath.BoundingSphereD.Equals(other)()[bool](System.Boolean) bool VRageMath.BoundingSphereD.Equals(obj)()
+[bool](System.Boolean) Equals()[bool](System.Boolean) Equals()

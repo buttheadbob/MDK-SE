@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [Capsule](VRageMath.Capsule)
 
-[Vector3](VRageMath.Vector3) VRageMath.Vector3 VRageMath.Capsule.P1
+[Vector3](VRageMath.Vector3) P1

@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [IMyGridTerminalSystem](Sandbox.ModAPI.Ingame.IMyGridTerminalSystem)
 
-[IMyBlockGroup](Sandbox.ModAPI.Ingame.IMyBlockGroup) Sandbox.ModAPI.Ingame.IMyBlockGroup Sandbox.ModAPI.Ingame.IMyGridTerminalSystem.GetBlockGroupWithName(name)()
+[IMyBlockGroup](Sandbox.ModAPI.Ingame.IMyBlockGroup) GetBlockGroupWithName()

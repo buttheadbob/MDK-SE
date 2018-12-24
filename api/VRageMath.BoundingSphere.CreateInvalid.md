@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [BoundingSphere](VRageMath.BoundingSphere)
 
-[BoundingSphere](VRageMath.BoundingSphere) VRageMath.BoundingSphere VRageMath.BoundingSphere.CreateInvalid()()
+[BoundingSphere](VRageMath.BoundingSphere) CreateInvalid()

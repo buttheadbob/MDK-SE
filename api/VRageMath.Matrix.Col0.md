@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [Matrix](VRageMath.Matrix)
 
-[Vector3](VRageMath.Vector3) VRageMath.Vector3 VRageMath.Matrix.Col0
+[Vector3](VRageMath.Vector3) Col0

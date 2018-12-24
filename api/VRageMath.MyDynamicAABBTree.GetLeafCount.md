@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MyDynamicAABBTree](VRageMath.MyDynamicAABBTree)
 
-[int](System.Int32) int VRageMath.MyDynamicAABBTree.GetLeafCount()()[int](System.Int32) int VRageMath.MyDynamicAABBTree.GetLeafCount(proxyId)()
+[int](System.Int32) GetLeafCount()[int](System.Int32) GetLeafCount()

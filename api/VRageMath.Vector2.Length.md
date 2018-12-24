@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [Vector2](VRageMath.Vector2)
 
-[float](System.Single) float VRageMath.Vector2.Length()()
+[float](System.Single) Length()

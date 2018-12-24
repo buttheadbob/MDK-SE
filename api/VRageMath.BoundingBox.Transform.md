@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [BoundingBox](VRageMath.BoundingBox)
 
-[BoundingBox](VRageMath.BoundingBox) VRageMath.BoundingBox VRageMath.BoundingBox.Transform(worldMatrix)()[BoundingBoxD](VRageMath.BoundingBoxD) VRageMath.BoundingBoxD VRageMath.BoundingBox.Transform(worldMatrix)()[BoundingBox](VRageMath.BoundingBox) VRageMath.BoundingBox VRageMath.BoundingBox.Transform(m)()void void VRageMath.BoundingBox.Transform(m, bb)()[BoundingBoxD](VRageMath.BoundingBoxD) VRageMath.BoundingBoxD VRageMath.BoundingBox.Transform(m)()void void VRageMath.BoundingBox.Transform(m, bb)()
+[BoundingBox](VRageMath.BoundingBox) Transform()[BoundingBoxD](VRageMath.BoundingBoxD) Transform()[BoundingBox](VRageMath.BoundingBox) Transform()void Transform()[BoundingBoxD](VRageMath.BoundingBoxD) Transform()void Transform()

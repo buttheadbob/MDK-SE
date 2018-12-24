@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MyFixedPoint](VRage.MyFixedPoint)
 
-[MyFixedPoint](VRage.MyFixedPoint) VRage.MyFixedPoint VRage.MyFixedPoint.MultiplySafe(a, b)()[MyFixedPoint](VRage.MyFixedPoint) VRage.MyFixedPoint VRage.MyFixedPoint.MultiplySafe(a, b)()[MyFixedPoint](VRage.MyFixedPoint) VRage.MyFixedPoint VRage.MyFixedPoint.MultiplySafe(a, b)()[MyFixedPoint](VRage.MyFixedPoint) VRage.MyFixedPoint VRage.MyFixedPoint.MultiplySafe(a, b)()[MyFixedPoint](VRage.MyFixedPoint) VRage.MyFixedPoint VRage.MyFixedPoint.MultiplySafe(a, b)()
+[MyFixedPoint](VRage.MyFixedPoint) MultiplySafe()[MyFixedPoint](VRage.MyFixedPoint) MultiplySafe()[MyFixedPoint](VRage.MyFixedPoint) MultiplySafe()[MyFixedPoint](VRage.MyFixedPoint) MultiplySafe()[MyFixedPoint](VRage.MyFixedPoint) MultiplySafe()

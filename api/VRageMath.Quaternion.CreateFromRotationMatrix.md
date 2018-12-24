@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [Quaternion](VRageMath.Quaternion)
 
-[Quaternion](VRageMath.Quaternion) VRageMath.Quaternion VRageMath.Quaternion.CreateFromRotationMatrix(matrix)()[Quaternion](VRageMath.Quaternion) VRageMath.Quaternion VRageMath.Quaternion.CreateFromRotationMatrix(matrix)()void void VRageMath.Quaternion.CreateFromRotationMatrix(matrix, result)()void void VRageMath.Quaternion.CreateFromRotationMatrix(matrix, result)()void void VRageMath.Quaternion.CreateFromRotationMatrix(matrix, result)()
+[Quaternion](VRageMath.Quaternion) CreateFromRotationMatrix()[Quaternion](VRageMath.Quaternion) CreateFromRotationMatrix()void CreateFromRotationMatrix()void CreateFromRotationMatrix()void CreateFromRotationMatrix()

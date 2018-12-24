@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MathHelper](VRageMath.MathHelper)
 
-[bool](System.Boolean) bool VRageMath.MathHelper.IsPowerOfTwo(x)()
+[bool](System.Boolean) IsPowerOfTwo()

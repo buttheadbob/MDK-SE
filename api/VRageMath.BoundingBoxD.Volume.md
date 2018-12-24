@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [BoundingBoxD](VRageMath.BoundingBoxD)
 
-[double](System.Double) double VRageMath.BoundingBoxD.Volume
+[double](System.Double) Volume

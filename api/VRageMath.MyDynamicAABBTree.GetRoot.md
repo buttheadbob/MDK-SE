@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MyDynamicAABBTree](VRageMath.MyDynamicAABBTree)
 
-[int](System.Int32) int VRageMath.MyDynamicAABBTree.GetRoot()()
+[int](System.Int32) GetRoot()

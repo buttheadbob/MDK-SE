@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [BoundingBox2D](VRageMath.BoundingBox2D)
 
-[double](System.Double) double VRageMath.BoundingBox2D.Width
+[double](System.Double) Width

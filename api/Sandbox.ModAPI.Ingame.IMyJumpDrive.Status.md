@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [IMyJumpDrive](Sandbox.ModAPI.Ingame.IMyJumpDrive)
 
-[MyJumpDriveStatus](Sandbox.ModAPI.Ingame.MyJumpDriveStatus) Sandbox.ModAPI.Ingame.MyJumpDriveStatus Sandbox.ModAPI.Ingame.IMyJumpDrive.Status
+[MyJumpDriveStatus](Sandbox.ModAPI.Ingame.MyJumpDriveStatus) Status

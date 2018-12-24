@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [Base6Directions](VRageMath.Base6Directions)
 
-[Direction](VRageMath.Base6Directions+Direction) VRageMath.VRageMath.Base6Directions.Direction VRageMath.Base6Directions.GetPerpendicular(dir)()
+[Direction](VRageMath.Base6Directions+Direction) GetPerpendicular()

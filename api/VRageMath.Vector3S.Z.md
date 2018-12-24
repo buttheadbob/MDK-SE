@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [Vector3S](VRageMath.Vector3S)
 
-[short](System.Int16) short VRageMath.Vector3S.Z
+[short](System.Int16) Z

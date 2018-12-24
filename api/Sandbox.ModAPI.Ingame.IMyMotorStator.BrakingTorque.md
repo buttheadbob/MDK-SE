@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [IMyMotorStator](Sandbox.ModAPI.Ingame.IMyMotorStator)
 
-[float](System.Single) float Sandbox.ModAPI.Ingame.IMyMotorStator.BrakingTorque
+[float](System.Single) BrakingTorque

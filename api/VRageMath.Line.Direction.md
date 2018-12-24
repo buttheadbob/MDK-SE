@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [Line](VRageMath.Line)
 
-[Vector3](VRageMath.Vector3) VRageMath.Vector3 VRageMath.Line.Direction
+[Vector3](VRageMath.Vector3) Direction

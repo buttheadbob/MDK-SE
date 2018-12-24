@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [BoundingFrustum](VRageMath.BoundingFrustum)
 
-[int](System.Int32) int VRageMath.BoundingFrustum.CornerCount
+[int](System.Int32) CornerCount

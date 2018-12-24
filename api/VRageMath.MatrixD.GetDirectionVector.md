@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MatrixD](VRageMath.MatrixD)
 
-[Vector3D](VRageMath.Vector3D) VRageMath.Vector3D VRageMath.MatrixD.GetDirectionVector(direction)()
+[Vector3D](VRageMath.Vector3D) GetDirectionVector()

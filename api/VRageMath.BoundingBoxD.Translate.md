@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [BoundingBoxD](VRageMath.BoundingBoxD)
 
-[BoundingBoxD](VRageMath.BoundingBoxD) VRageMath.BoundingBoxD VRageMath.BoundingBoxD.Translate(worldMatrix)()[BoundingBoxD](VRageMath.BoundingBoxD) VRageMath.BoundingBoxD VRageMath.BoundingBoxD.Translate(vctTranlsation)()
+[BoundingBoxD](VRageMath.BoundingBoxD) Translate()[BoundingBoxD](VRageMath.BoundingBoxD) Translate()

@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [Plane](VRageMath.Plane)
 
-[Vector3](VRageMath.Vector3) VRageMath.Vector3 VRageMath.Plane.Normal
+[Vector3](VRageMath.Vector3) Normal

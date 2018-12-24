@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult)
 
-[string](System.String) string VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult.ToString()()
+[string](System.String) ToString()

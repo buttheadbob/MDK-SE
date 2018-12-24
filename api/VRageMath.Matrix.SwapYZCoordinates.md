@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [Matrix](VRageMath.Matrix)
 
-[Matrix](VRageMath.Matrix) VRageMath.Matrix VRageMath.Matrix.SwapYZCoordinates(m)()
+[Matrix](VRageMath.Matrix) SwapYZCoordinates()

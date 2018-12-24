@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [IMyGravityGeneratorBase](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorBase)
 
-[float](System.Single) float SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorBase.Gravity
+[float](System.Single) Gravity

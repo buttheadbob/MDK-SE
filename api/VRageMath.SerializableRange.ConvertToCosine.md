@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [SerializableRange](VRageMath.SerializableRange)
 
-[SerializableRange](VRageMath.SerializableRange) VRageMath.SerializableRange VRageMath.SerializableRange.ConvertToCosine()()
+[SerializableRange](VRageMath.SerializableRange) ConvertToCosine()

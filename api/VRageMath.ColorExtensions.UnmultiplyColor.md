@@ -1,3 +1,3 @@
 ← [Index](Api-Index) ← [ColorExtensions](VRageMath.ColorExtensions)
 
-[Vector4](VRageMath.Vector4) VRageMath.Vector4 VRageMath.ColorExtensions.UnmultiplyColor(c)()
+[Vector4](VRageMath.Vector4) UnmultiplyColor()

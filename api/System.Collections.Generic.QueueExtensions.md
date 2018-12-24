@@ -1,10 +1,15 @@
 ← [Index](Api-Index)
-# QueueExtensions Class
-**Namespace:** [`System.Collections.Generic`](System.Collections.Generic)  
-**Assembly:** VRage.Library.dll  
-### Methods
+
+#QueueExtensions Class
+
+**Namespace:** [System.Collections.Generic](System.Collections.Generic)  
+**Assembly:** VRage.Library.dll
+
+###Methods
+
 |Member|Description|
 |---|---|
-|[`TryDequeue<T>(Queue<T>, ref T)`](System.Collections.Generic.TryDequeue)||
-|[`TryDequeueSync<T>(Queue<T>, ref T)`](System.Collections.Generic.TryDequeueSync)||
-|[`ToList<T>(ConcurrentQueue<T>)`](System.Collections.Generic.ToList)||
+|[TryDequeue(Queue, ref T)](System.Collections.Generic.QueueExtensions.TryDequeue)||
+|[TryDequeueSync(Queue, ref T)](System.Collections.Generic.QueueExtensions.TryDequeueSync)||
+|[ToList(ConcurrentQueue)](System.Collections.Generic.QueueExtensions.ToList)||
+

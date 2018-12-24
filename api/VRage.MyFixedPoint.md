@@ -1,38 +1,43 @@
 ← [Index](Api-Index)
-# MyFixedPoint Struct
-**Namespace:** [`VRage`](VRage)  
-**Assembly:** VRage.Library.dll  
-## Summary
-Fixed point number represented as 64-bit integer with 6 decimal places (one millionts)
-### Fields
+
+#MyFixedPoint Struct
+
+**Namespace:** [VRage](VRage)  
+**Assembly:** VRage.Library.dll
+
+###Fields
+
 |Member|Description|
 |---|---|
-|[`RawValue`](VRage.RawValue)||
-|[`MinValue`](VRage.MinValue)||
-|[`MaxValue`](VRage.MaxValue)||
-|[`Zero`](VRage.Zero)||
-|[`SmallestPossibleValue`](VRage.SmallestPossibleValue)||
-|[`MaxIntValue`](VRage.MaxIntValue)||
-|[`MinIntValue`](VRage.MinIntValue)||
-### Methods
+|[RawValue](VRage.MyFixedPoint.RawValue)||
+|[MinValue](VRage.MyFixedPoint.MinValue)||
+|[MaxValue](VRage.MyFixedPoint.MaxValue)||
+|[Zero](VRage.MyFixedPoint.Zero)||
+|[SmallestPossibleValue](VRage.MyFixedPoint.SmallestPossibleValue)||
+|[MaxIntValue](VRage.MyFixedPoint.MaxIntValue)||
+|[MinIntValue](VRage.MyFixedPoint.MinIntValue)||
+
+###Methods
+
 |Member|Description|
 |---|---|
-|[`SerializeString()`](VRage.SerializeString)|For XmlSerialization, format is 123.456789|
-|[`DeserializeStringSafe(string)`](VRage.DeserializeStringSafe)|For XmlSerialization, format is 123.456789 Handles double and decimal formats too.|
-|[`DeserializeString(string)`](VRage.DeserializeString)||
-|[`IsIntegral(MyFixedPoint)`](VRage.IsIntegral)||
-|[`Ceiling(MyFixedPoint)`](VRage.Ceiling)||
-|[`Floor(MyFixedPoint)`](VRage.Floor)||
-|[`Min(MyFixedPoint, MyFixedPoint)`](VRage.Min)||
-|[`Max(MyFixedPoint, MyFixedPoint)`](VRage.Max)||
-|[`Round(MyFixedPoint)`](VRage.Round)||
-|[`AddSafe(MyFixedPoint, MyFixedPoint)`](VRage.AddSafe)||
-|[`MultiplySafe(MyFixedPoint, float)`](VRage.MultiplySafe)||
-|[`MultiplySafe(MyFixedPoint, int)`](VRage.MultiplySafe)||
-|[`MultiplySafe(float, MyFixedPoint)`](VRage.MultiplySafe)||
-|[`MultiplySafe(int, MyFixedPoint)`](VRage.MultiplySafe)||
-|[`MultiplySafe(MyFixedPoint, MyFixedPoint)`](VRage.MultiplySafe)||
-|[`ToIntSafe()`](VRage.ToIntSafe)||
-|[`ToString()`](VRage.ToString)||
-|[`GetHashCode()`](VRage.GetHashCode)||
-|[`Equals(Object)`](VRage.Equals)||
+|[SerializeString()](VRage.MyFixedPoint.SerializeString)|For XmlSerialization, format is 123.456789|
+|[DeserializeStringSafe(string)](VRage.MyFixedPoint.DeserializeStringSafe)|For XmlSerialization, format is 123.456789 Handles double and decimal formats too.|
+|[DeserializeString(string)](VRage.MyFixedPoint.DeserializeString)||
+|[IsIntegral(MyFixedPoint)](VRage.MyFixedPoint.IsIntegral)||
+|[Ceiling(MyFixedPoint)](VRage.MyFixedPoint.Ceiling)||
+|[Floor(MyFixedPoint)](VRage.MyFixedPoint.Floor)||
+|[Min(MyFixedPoint, MyFixedPoint)](VRage.MyFixedPoint.Min)||
+|[Max(MyFixedPoint, MyFixedPoint)](VRage.MyFixedPoint.Max)||
+|[Round(MyFixedPoint)](VRage.MyFixedPoint.Round)||
+|[AddSafe(MyFixedPoint, MyFixedPoint)](VRage.MyFixedPoint.AddSafe)||
+|[MultiplySafe(MyFixedPoint, float)](VRage.MyFixedPoint.MultiplySafe)||
+|[MultiplySafe(MyFixedPoint, int)](VRage.MyFixedPoint.MultiplySafe)||
+|[MultiplySafe(float, MyFixedPoint)](VRage.MyFixedPoint.MultiplySafe)||
+|[MultiplySafe(int, MyFixedPoint)](VRage.MyFixedPoint.MultiplySafe)||
+|[MultiplySafe(MyFixedPoint, MyFixedPoint)](VRage.MyFixedPoint.MultiplySafe)||
+|[ToIntSafe()](VRage.MyFixedPoint.ToIntSafe)||
+|[ToString()](VRage.MyFixedPoint.ToString)||
+|[GetHashCode()](VRage.MyFixedPoint.GetHashCode)||
+|[Equals(object)](VRage.MyFixedPoint.Equals)||
+

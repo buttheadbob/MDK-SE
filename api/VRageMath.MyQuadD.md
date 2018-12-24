@@ -1,11 +1,16 @@
 ← [Index](Api-Index)
-# MyQuadD Struct
-**Namespace:** [`VRageMath`](VRageMath)  
-**Assembly:** VRage.Math.dll  
-### Fields
+
+#MyQuadD Struct
+
+**Namespace:** [VRageMath](VRageMath)  
+**Assembly:** VRage.Math.dll
+
+###Fields
+
 |Member|Description|
 |---|---|
-|[`Point0`](VRageMath.Point0)||
-|[`Point1`](VRageMath.Point1)||
-|[`Point2`](VRageMath.Point2)||
-|[`Point3`](VRageMath.Point3)||
+|[Point0](VRageMath.MyQuadD.Point0)||
+|[Point1](VRageMath.MyQuadD.Point1)||
+|[Point2](VRageMath.MyQuadD.Point2)||
+|[Point3](VRageMath.MyQuadD.Point3)||
+

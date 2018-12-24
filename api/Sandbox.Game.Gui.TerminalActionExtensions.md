@@ -1,10 +1,15 @@
 ← [Index](Api-Index)
-# TerminalActionExtensions Class
-**Namespace:** [`Sandbox.Game.Gui`](Sandbox.Game.Gui)  
-**Assembly:** Sandbox.Game.dll  
-### Methods
+
+#TerminalActionExtensions Class
+
+**Namespace:** [Sandbox.Game.Gui](Sandbox.Game.Gui)  
+**Assembly:** Sandbox.Game.dll
+
+###Methods
+
 |Member|Description|
 |---|---|
-|[`GetAction(IMyTerminalBlock, string)`](Sandbox.Game.Gui.GetAction)||
-|[`ApplyAction(IMyTerminalBlock, string)`](Sandbox.Game.Gui.ApplyAction)||
-|[`ApplyAction(IMyTerminalBlock, string, ListReader<TerminalActionParameter>)`](Sandbox.Game.Gui.ApplyAction)||
+|[GetAction(IMyTerminalBlock, string)](Sandbox.Game.Gui.TerminalActionExtensions.GetAction)||
+|[ApplyAction(IMyTerminalBlock, string)](Sandbox.Game.Gui.TerminalActionExtensions.ApplyAction)||
+|[ApplyAction(IMyTerminalBlock, string, ListReader)](Sandbox.Game.Gui.TerminalActionExtensions.ApplyAction)||
+

@@ -1,14 +1,21 @@
 ← [Index](Api-Index)
-# IMyBlockGroup Interface
-**Namespace:** [`Sandbox.ModAPI.Ingame`](Sandbox.ModAPI.Ingame)  
-**Assembly:** Sandbox.Common.dll  
-### Properties
+
+#IMyBlockGroup Interface
+
+**Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
+**Assembly:** Sandbox.Common.dll
+
+###Properties
+
 |Member|Description|
 |---|---|
-|[`Name`](Sandbox.ModAPI.Ingame.Name)||
-### Methods
+|[Name](Sandbox.ModAPI.Ingame.IMyBlockGroup.Name)||
+
+###Methods
+
 |Member|Description|
 |---|---|
-|[`GetBlocks(List<IMyTerminalBlock>, Func<IMyTerminalBlock, bool>)`](Sandbox.ModAPI.Ingame.GetBlocks)||
-|[`GetBlocksOfType<T>(List<IMyTerminalBlock>, Func<IMyTerminalBlock, bool>)`](Sandbox.ModAPI.Ingame.GetBlocksOfType)||
-|[`GetBlocksOfType<T>(List<T>, Func<T, bool>)`](Sandbox.ModAPI.Ingame.GetBlocksOfType)||
+|[GetBlocks(List, Func)](Sandbox.ModAPI.Ingame.IMyBlockGroup.GetBlocks)||
+|[GetBlocksOfType(List, Func)](Sandbox.ModAPI.Ingame.IMyBlockGroup.GetBlocksOfType)||
+|[GetBlocksOfType(List, Func)](Sandbox.ModAPI.Ingame.IMyBlockGroup.GetBlocksOfType)||
+

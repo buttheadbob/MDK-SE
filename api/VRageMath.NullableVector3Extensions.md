@@ -1,9 +1,14 @@
 ← [Index](Api-Index)
-# NullableVector3Extensions Class
-**Namespace:** [`VRageMath`](VRageMath)  
-**Assembly:** VRage.Math.dll  
-### Methods
+
+#NullableVector3Extensions Class
+
+**Namespace:** [VRageMath](VRageMath)  
+**Assembly:** VRage.Math.dll
+
+###Methods
+
 |Member|Description|
 |---|---|
-|[`IsValid(Nullable<Vector3>)`](VRageMath.IsValid)||
-|[`AssertIsValid(Nullable<Vector3>)`](VRageMath.AssertIsValid)||
+|[IsValid(Nullable)](VRageMath.NullableVector3Extensions.IsValid)||
+|[AssertIsValid(Nullable)](VRageMath.NullableVector3Extensions.AssertIsValid)||
+

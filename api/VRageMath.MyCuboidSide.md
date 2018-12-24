@@ -1,13 +1,20 @@
 ← [Index](Api-Index)
-# MyCuboidSide Class
-**Namespace:** [`VRageMath`](VRageMath)  
-**Assembly:** VRage.Math.dll  
-### Fields
+
+#MyCuboidSide Class
+
+**Namespace:** [VRageMath](VRageMath)  
+**Assembly:** VRage.Math.dll
+
+###Fields
+
 |Member|Description|
 |---|---|
-|[`Plane`](VRageMath.Plane)||
-|[`Lines`](VRageMath.Lines)||
-### Methods
+|[Plane](VRageMath.MyCuboidSide.Plane)||
+|[Lines](VRageMath.MyCuboidSide.Lines)||
+
+###Methods
+
 |Member|Description|
 |---|---|
-|[`CreatePlaneFromLines()`](VRageMath.CreatePlaneFromLines)||
+|[CreatePlaneFromLines()](VRageMath.MyCuboidSide.CreatePlaneFromLines)||
+

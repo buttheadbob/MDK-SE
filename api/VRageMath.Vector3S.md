@@ -1,23 +1,30 @@
 ← [Index](Api-Index)
-# Vector3S Struct
-**Namespace:** [`VRageMath`](VRageMath)  
-**Assembly:** VRage.Math.dll  
-### Fields
+
+#Vector3S Struct
+
+**Namespace:** [VRageMath](VRageMath)  
+**Assembly:** VRage.Math.dll
+
+###Fields
+
 |Member|Description|
 |---|---|
-|[`X`](VRageMath.X)||
-|[`Y`](VRageMath.Y)||
-|[`Z`](VRageMath.Z)||
-|[`Up`](VRageMath.Up)||
-|[`Down`](VRageMath.Down)||
-|[`Right`](VRageMath.Right)||
-|[`Left`](VRageMath.Left)||
-|[`Forward`](VRageMath.Forward)||
-|[`Backward`](VRageMath.Backward)||
-### Methods
+|[X](VRageMath.Vector3S.X)||
+|[Y](VRageMath.Vector3S.Y)||
+|[Z](VRageMath.Vector3S.Z)||
+|[Up](VRageMath.Vector3S.Up)||
+|[Down](VRageMath.Vector3S.Down)||
+|[Right](VRageMath.Vector3S.Right)||
+|[Left](VRageMath.Vector3S.Left)||
+|[Forward](VRageMath.Vector3S.Forward)||
+|[Backward](VRageMath.Vector3S.Backward)||
+
+###Methods
+
 |Member|Description|
 |---|---|
-|[`ToString()`](VRageMath.ToString)||
-|[`GetHashCode()`](VRageMath.GetHashCode)||
-|[`Equals(Object)`](VRageMath.Equals)||
-|[`Round(Vector3)`](VRageMath.Round)||
+|[ToString()](VRageMath.Vector3S.ToString)||
+|[GetHashCode()](VRageMath.Vector3S.GetHashCode)||
+|[Equals(object)](VRageMath.Vector3S.Equals)||
+|[Round(Vector3)](VRageMath.Vector3S.Round)||
+

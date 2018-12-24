@@ -1,20 +1,29 @@
 ← [Index](Api-Index)
-# TerminalActionParameter Struct
-**Namespace:** [`Sandbox.ModAPI.Ingame`](Sandbox.ModAPI.Ingame)  
-**Assembly:** Sandbox.Common.dll  
-### Fields
+
+#TerminalActionParameter Struct
+
+**Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
+**Assembly:** Sandbox.Common.dll
+
+###Fields
+
 |Member|Description|
 |---|---|
-|[`TypeCode`](Sandbox.ModAPI.Ingame.TypeCode)||
-|[`Value`](Sandbox.ModAPI.Ingame.Value)||
-|[`Empty`](Sandbox.ModAPI.Ingame.Empty)|Gets an empty parameter.|
-### Properties
+|[TypeCode](Sandbox.ModAPI.Ingame.TerminalActionParameter.TypeCode)||
+|[Value](Sandbox.ModAPI.Ingame.TerminalActionParameter.Value)||
+|[Empty](Sandbox.ModAPI.Ingame.TerminalActionParameter.Empty)|Gets an empty parameter.|
+
+###Properties
+
 |Member|Description|
 |---|---|
-|[`IsEmpty`](Sandbox.ModAPI.Ingame.IsEmpty)||
-### Methods
+|[IsEmpty](Sandbox.ModAPI.Ingame.TerminalActionParameter.IsEmpty)||
+
+###Methods
+
 |Member|Description|
 |---|---|
-|[`Deserialize(string, TypeCode)`](Sandbox.ModAPI.Ingame.Deserialize)|Creates a [TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter) from a serialized value in a string and a type code.|
-|[`Get(Object)`](Sandbox.ModAPI.Ingame.Get)|Creates a [TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter) from the given value.|
-|[`GetObjectBuilder()`](Sandbox.ModAPI.Ingame.GetObjectBuilder)||
+|[Deserialize(string, TypeCode)](Sandbox.ModAPI.Ingame.TerminalActionParameter.Deserialize)|Creates a [TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter) from a serialized value in a string and a type code.|
+|[Get(object)](Sandbox.ModAPI.Ingame.TerminalActionParameter.Get)|Creates a [TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter) from the given value.|
+|[GetObjectBuilder()](Sandbox.ModAPI.Ingame.TerminalActionParameter.GetObjectBuilder)||
+

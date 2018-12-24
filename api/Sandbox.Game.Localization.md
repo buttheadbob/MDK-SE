@@ -1,5 +1,6 @@
 ← [Index](Api-Index)
-# Sandbox.Game.Localization
-_Not yet ready for use_
 
-**[`MySpaceTexts`](Sandbox.Game.Localization.MySpaceTexts)**  
+#Sandbox.Game.Localization
+
+**[MySpaceTexts](Sandbox.Game.Localization.MySpaceTexts)**
+

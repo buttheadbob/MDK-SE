@@ -1,23 +1,32 @@
 ← [Index](Api-Index)
-# SerializableDefinitionId Struct
-**Namespace:** [`VRage.ObjectBuilders`](VRage.ObjectBuilders)  
-**Assembly:** VRage.Game.dll  
-### Fields
+
+#SerializableDefinitionId Struct
+
+**Namespace:** [VRage.ObjectBuilders](VRage.ObjectBuilders)  
+**Assembly:** VRage.Game.dll
+
+###Fields
+
 |Member|Description|
 |---|---|
-|[`TypeId`](VRage.ObjectBuilders.TypeId)||
-|[`SubtypeName`](VRage.ObjectBuilders.SubtypeName)||
-### Properties
+|[TypeId](VRage.ObjectBuilders.SerializableDefinitionId.TypeId)||
+|[SubtypeName](VRage.ObjectBuilders.SerializableDefinitionId.SubtypeName)||
+
+###Properties
+
 |Member|Description|
 |---|---|
-|[`TypeIdStringAttribute`](VRage.ObjectBuilders.TypeIdStringAttribute)||
-|[`TypeIdString`](VRage.ObjectBuilders.TypeIdString)||
-|[`SubtypeIdAttribute`](VRage.ObjectBuilders.SubtypeIdAttribute)||
-|[`SubtypeId`](VRage.ObjectBuilders.SubtypeId)||
-### Methods
+|[TypeIdStringAttribute](VRage.ObjectBuilders.SerializableDefinitionId.TypeIdStringAttribute)||
+|[TypeIdString](VRage.ObjectBuilders.SerializableDefinitionId.TypeIdString)||
+|[SubtypeIdAttribute](VRage.ObjectBuilders.SerializableDefinitionId.SubtypeIdAttribute)||
+|[SubtypeId](VRage.ObjectBuilders.SerializableDefinitionId.SubtypeId)||
+
+###Methods
+
 |Member|Description|
 |---|---|
-|[`ShouldSerializeTypeIdString()`](VRage.ObjectBuilders.ShouldSerializeTypeIdString)||
-|[`ShouldSerializeSubtypeId()`](VRage.ObjectBuilders.ShouldSerializeSubtypeId)||
-|[`ToString()`](VRage.ObjectBuilders.ToString)||
-|[`IsNull()`](VRage.ObjectBuilders.IsNull)||
+|[ShouldSerializeTypeIdString()](VRage.ObjectBuilders.SerializableDefinitionId.ShouldSerializeTypeIdString)||
+|[ShouldSerializeSubtypeId()](VRage.ObjectBuilders.SerializableDefinitionId.ShouldSerializeSubtypeId)||
+|[ToString()](VRage.ObjectBuilders.SerializableDefinitionId.ToString)||
+|[IsNull()](VRage.ObjectBuilders.SerializableDefinitionId.IsNull)||
+

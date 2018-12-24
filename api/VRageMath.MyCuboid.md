@@ -1,21 +1,30 @@
 ← [Index](Api-Index)
-# MyCuboid Class
-**Namespace:** [`VRageMath`](VRageMath)  
-**Assembly:** VRage.Math.dll  
-### Fields
+
+#MyCuboid Class
+
+**Namespace:** [VRageMath](VRageMath)  
+**Assembly:** VRage.Math.dll
+
+###Fields
+
 |Member|Description|
 |---|---|
-|[`Sides`](VRageMath.Sides)||
-### Properties
+|[Sides](VRageMath.MyCuboid.Sides)||
+
+###Properties
+
 |Member|Description|
 |---|---|
-|[`UniqueLines`](VRageMath.UniqueLines)||
-|[`Vertices`](VRageMath.Vertices)||
-### Methods
+|[UniqueLines](VRageMath.MyCuboid.UniqueLines)||
+|[Vertices](VRageMath.MyCuboid.Vertices)||
+
+###Methods
+
 |Member|Description|
 |---|---|
-|[`CreateFromVertices(Vector3[])`](VRageMath.CreateFromVertices)||
-|[`CreateFromSizes(float, float, float, float, float)`](VRageMath.CreateFromSizes)||
-|[`GetAABB()`](VRageMath.GetAABB)||
-|[`GetLocalAABB()`](VRageMath.GetLocalAABB)||
-|[`CreateTransformed(ref Matrix)`](VRageMath.CreateTransformed)||
+|[CreateFromVertices(Vector3[])](VRageMath.MyCuboid.CreateFromVertices)||
+|[CreateFromSizes(float, float, float, float, float)](VRageMath.MyCuboid.CreateFromSizes)||
+|[GetAABB()](VRageMath.MyCuboid.GetAABB)||
+|[GetLocalAABB()](VRageMath.MyCuboid.GetLocalAABB)||
+|[CreateTransformed(ref Matrix)](VRageMath.MyCuboid.CreateTransformed)||
+

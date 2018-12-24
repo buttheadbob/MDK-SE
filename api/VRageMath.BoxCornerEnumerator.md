@@ -1,14 +1,21 @@
 ← [Index](Api-Index)
-# BoxCornerEnumerator Struct
-**Namespace:** [`VRageMath`](VRageMath)  
-**Assembly:** VRage.Math.dll  
-### Properties
+
+#BoxCornerEnumerator Struct
+
+**Namespace:** [VRageMath](VRageMath)  
+**Assembly:** VRage.Math.dll
+
+###Properties
+
 |Member|Description|
 |---|---|
-|[`Current`](VRageMath.Current)||
-### Methods
+|[Current](VRageMath.BoxCornerEnumerator.Current)||
+
+###Methods
+
 |Member|Description|
 |---|---|
-|[`Add(Object)`](VRageMath.Add)||
-|[`MoveNext()`](VRageMath.MoveNext)||
-|[`GetEnumerator()`](VRageMath.GetEnumerator)||
+|[Add(object)](VRageMath.BoxCornerEnumerator.Add)||
+|[MoveNext()](VRageMath.BoxCornerEnumerator.MoveNext)||
+|[GetEnumerator()](VRageMath.BoxCornerEnumerator.GetEnumerator)||
+

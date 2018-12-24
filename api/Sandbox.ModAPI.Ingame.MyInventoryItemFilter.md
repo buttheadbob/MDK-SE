@@ -1,9 +1,14 @@
 ← [Index](Api-Index)
-# MyInventoryItemFilter Struct
-**Namespace:** [`Sandbox.ModAPI.Ingame`](Sandbox.ModAPI.Ingame)  
-**Assembly:** Sandbox.Common.dll  
-### Fields
+
+#MyInventoryItemFilter Struct
+
+**Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
+**Assembly:** Sandbox.Common.dll
+
+###Fields
+
 |Member|Description|
 |---|---|
-|[`AllSubTypes`](Sandbox.ModAPI.Ingame.AllSubTypes)|Determines whether all subtypes of the given item ID should pass this filter check.|
-|[`ItemId`](Sandbox.ModAPI.Ingame.ItemId)|Specifies an item to filter. Set [bool AllSubTypes](Sandbox.ModAPI.Ingame.AllSubTypes) to true to only check the main type part of this ID.|
+|[AllSubTypes](Sandbox.ModAPI.Ingame.MyInventoryItemFilter.AllSubTypes)|Determines whether all subtypes of the given item ID should pass this filter check.|
+|[ItemId](Sandbox.ModAPI.Ingame.MyInventoryItemFilter.ItemId)|Specifies an item to filter. Set [AllSubTypes](Sandbox.ModAPI.Ingame.MyInventoryItemFilter.AllSubTypes) to true to only check the main type part of this ID.|
+

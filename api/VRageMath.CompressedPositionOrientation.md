@@ -1,20 +1,27 @@
 ← [Index](Api-Index)
-# CompressedPositionOrientation Struct
-**Namespace:** [`VRageMath`](VRageMath)  
-**Assembly:** VRage.Math.dll  
-## Summary
-Defines a matrix.
-### Fields
+
+#CompressedPositionOrientation Struct
+
+**Namespace:** [VRageMath](VRageMath)  
+**Assembly:** VRage.Math.dll
+
+###Fields
+
 |Member|Description|
 |---|---|
-|[`Position`](VRageMath.Position)||
-|[`Orientation`](VRageMath.Orientation)||
-### Properties
+|[Position](VRageMath.CompressedPositionOrientation.Position)||
+|[Orientation](VRageMath.CompressedPositionOrientation.Orientation)||
+
+###Properties
+
 |Member|Description|
 |---|---|
-|[`Matrix`](VRageMath.Matrix)||
-### Methods
+|[Matrix](VRageMath.CompressedPositionOrientation.Matrix)||
+
+###Methods
+
 |Member|Description|
 |---|---|
-|[`FromMatrix(ref Matrix)`](VRageMath.FromMatrix)||
-|[`ToMatrix(ref Matrix)`](VRageMath.ToMatrix)||
+|[FromMatrix(ref Matrix)](VRageMath.CompressedPositionOrientation.FromMatrix)||
+|[ToMatrix(ref Matrix)](VRageMath.CompressedPositionOrientation.ToMatrix)||
+

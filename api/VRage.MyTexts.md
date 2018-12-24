@@ -1,14 +1,23 @@
 ← [Index](Api-Index)
-# MyTexts Class
-**Namespace:** [`VRage`](VRage)  
-**Assembly:** VRage.dll  
-### Properties
+
+#MyTexts Class
+
+**Namespace:** [VRage](VRage)  
+**Assembly:** VRage.dll
+
+###Properties
+
 |Member|Description|
 |---|---|
-|[`Languages`](VRage.Languages)||
-### Methods
+|[Languages](VRage.MyTexts.Languages)||
+
+###Methods
+
 |Member|Description|
 |---|---|
-|[`Get(MyStringId)`](VRage.Get)||
-|[`GetString(MyStringId)`](VRage.GetString)||
-|[`Exists(MyStringId)`](VRage.Exists)||
+|[Get(MyStringId)](VRage.MyTexts.Get)||
+|[GetString(MyStringId)](VRage.MyTexts.GetString)||
+|[GetString(string)](VRage.MyTexts.GetString)||
+|[Exists(MyStringId)](VRage.MyTexts.Exists)||
+|[AppendFormat(StringBuilder, MyStringId, object)](VRage.MyTexts.AppendFormat)||
+

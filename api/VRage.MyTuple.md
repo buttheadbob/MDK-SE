@@ -1,13 +1,25 @@
 ← [Index](Api-Index)
-# MyTuple Struct
-**Namespace:** [`VRage`](VRage)  
-**Assembly:** VRage.Library.dll  
-### Fields
+
+#MyTuple Struct
+
+**Namespace:** [VRage](VRage)  
+**Assembly:** VRage.Library.dll
+
+###Methods
+
 |Member|Description|
 |---|---|
-|[`Item1`](VRage.Item1)||
-|[`Item2`](VRage.Item2)||
-|[`Item3`](VRage.Item3)||
-|[`Item4`](VRage.Item4)||
-|[`Item5`](VRage.Item5)||
-|[`Item6`](VRage.Item6)||
+|[Create(T1)](VRage.MyTuple.Create)||
+|[Create(T1, T2)](VRage.MyTuple.Create)||
+|[Create(T1, T2, T3)](VRage.MyTuple.Create)||
+|[Create(T1, T2, T3, T4)](VRage.MyTuple.Create)||
+|[Create(T1, T2, T3, T4, T5)](VRage.MyTuple.Create)||
+|[Create(T1, T2, T3, T4, T5, T6)](VRage.MyTuple.Create)||
+|[CombineHashCodes(int, int)](VRage.MyTuple.CombineHashCodes)||
+|[CombineHashCodes(int, int, int)](VRage.MyTuple.CombineHashCodes)||
+|[CombineHashCodes(int, int, int, int)](VRage.MyTuple.CombineHashCodes)||
+|[CombineHashCodes(int, int, int, int, int)](VRage.MyTuple.CombineHashCodes)||
+|[CombineHashCodes(int, int, int, int, int, int)](VRage.MyTuple.CombineHashCodes)||
+|[CombineHashCodes(int, int, int, int, int, int, int)](VRage.MyTuple.CombineHashCodes)||
+|[CombineHashCodes(int, int, int, int, int, int, int, int)](VRage.MyTuple.CombineHashCodes)||
+

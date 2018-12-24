@@ -1,10 +1,15 @@
 ← [Index](Api-Index)
-# FlightMode Enum
-**Namespace:** [`Sandbox.ModAPI.Ingame`](Sandbox.ModAPI.Ingame)  
-**Assembly:** Sandbox.Common.dll  
-### Fields
+
+#FlightMode Enum
+
+**Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
+**Assembly:** Sandbox.Common.dll
+
+###Fields
+
 |Member|Description|
 |---|---|
-|[`Patrol`](Sandbox.ModAPI.Ingame.Patrol)||
-|[`Circle`](Sandbox.ModAPI.Ingame.Circle)||
-|[`OneWay`](Sandbox.ModAPI.Ingame.OneWay)||
+|Patrol||
+|Circle||
+|OneWay||
+

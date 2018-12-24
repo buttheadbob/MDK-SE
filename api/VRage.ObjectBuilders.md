@@ -1,6 +1,7 @@
 ← [Index](Api-Index)
-# VRage.ObjectBuilders
-_Not yet ready for use_
 
-**[`MyObjectBuilder_Base`](VRage.ObjectBuilders.MyObjectBuilder_Base)**  
-**[`SerializableDefinitionId`](VRage.ObjectBuilders.SerializableDefinitionId)**  
+#VRage.ObjectBuilders
+
+**[MyObjectBuilder_Base](VRage.ObjectBuilders.MyObjectBuilder_Base)**  
+**[SerializableDefinitionId](VRage.ObjectBuilders.SerializableDefinitionId)**
+

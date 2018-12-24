@@ -1,13 +1,18 @@
 ← [Index](Api-Index)
-# CubeFace Enum
-**Namespace:** [`VRageMath`](VRageMath)  
-**Assembly:** VRage.Math.dll  
-### Fields
+
+#CubeFace Enum
+
+**Namespace:** [VRageMath](VRageMath)  
+**Assembly:** VRage.Math.dll
+
+###Fields
+
 |Member|Description|
 |---|---|
-|[`Left`](VRageMath.Left)||
-|[`Right`](VRageMath.Right)||
-|[`Up`](VRageMath.Up)||
-|[`Down`](VRageMath.Down)||
-|[`Forward`](VRageMath.Forward)||
-|[`Backward`](VRageMath.Backward)||
+|Left||
+|Right||
+|Up||
+|Down||
+|Forward||
+|Backward||
+

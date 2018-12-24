@@ -1,25 +1,34 @@
 ← [Index](Api-Index)
-# StringSegment Struct
-**Namespace:** [`VRage.Game.ModAPI.Ingame.Utilities`](VRage.Game.ModAPI.Ingame.Utilities)  
-**Assembly:** VRage.Game.dll  
-### Fields
+
+#StringSegment Struct
+
+**Namespace:** [VRage.Game.ModAPI.Ingame.Utilities](VRage.Game.ModAPI.Ingame.Utilities)  
+**Assembly:** VRage.Game.dll
+
+###Fields
+
 |Member|Description|
 |---|---|
-|[`Text`](VRage.Game.ModAPI.Ingame.Utilities.Text)||
-|[`Start`](VRage.Game.ModAPI.Ingame.Utilities.Start)||
-|[`Length`](VRage.Game.ModAPI.Ingame.Utilities.Length)||
-### Properties
+|[Text](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.Text)||
+|[Start](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.Start)||
+|[Length](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.Length)||
+
+###Properties
+
 |Member|Description|
 |---|---|
-|[`IsEmpty`](VRage.Game.ModAPI.Ingame.Utilities.IsEmpty)||
-|[`IsCached`](VRage.Game.ModAPI.Ingame.Utilities.IsCached)||
-|[`Item`](VRage.Game.ModAPI.Ingame.Utilities.Item)||
-### Methods
+|[IsEmpty](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.IsEmpty)||
+|[IsCached](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.IsCached)||
+|[Item](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.Item)||
+
+###Methods
+
 |Member|Description|
 |---|---|
-|[`IndexOf(char)`](VRage.Game.ModAPI.Ingame.Utilities.IndexOf)||
-|[`IndexOf(char, int)`](VRage.Game.ModAPI.Ingame.Utilities.IndexOf)||
-|[`IndexOfAny(Char[])`](VRage.Game.ModAPI.Ingame.Utilities.IndexOfAny)||
-|[`EqualsIgnoreCase(StringSegment)`](VRage.Game.ModAPI.Ingame.Utilities.EqualsIgnoreCase)||
-|[`ToString()`](VRage.Game.ModAPI.Ingame.Utilities.ToString)||
-|[`GetLines(List<string>)`](VRage.Game.ModAPI.Ingame.Utilities.GetLines)||
+|[IndexOf(char)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.IndexOf)||
+|[IndexOf(char, int)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.IndexOf)||
+|[IndexOfAny(Char[])](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.IndexOfAny)||
+|[EqualsIgnoreCase(StringSegment)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.EqualsIgnoreCase)||
+|[ToString()](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.ToString)||
+|[GetLines(List)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.GetLines)||
+

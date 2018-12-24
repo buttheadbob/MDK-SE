@@ -1,20 +1,27 @@
 ← [Index](Api-Index)
-# SerializableRange Struct
-**Namespace:** [`VRageMath`](VRageMath)  
-**Assembly:** VRage.Math.dll  
-### Fields
+
+#SerializableRange Struct
+
+**Namespace:** [VRageMath](VRageMath)  
+**Assembly:** VRage.Math.dll
+
+###Fields
+
 |Member|Description|
 |---|---|
-|[`Min`](VRageMath.Min)||
-|[`Max`](VRageMath.Max)||
-### Methods
+|[Min](VRageMath.SerializableRange.Min)||
+|[Max](VRageMath.SerializableRange.Max)||
+
+###Methods
+
 |Member|Description|
 |---|---|
-|[`ValueBetween(float)`](VRageMath.ValueBetween)||
-|[`ToString()`](VRageMath.ToString)||
-|[`ConvertToCosine()`](VRageMath.ConvertToCosine)||
-|[`ConvertToSine()`](VRageMath.ConvertToSine)||
-|[`ConvertToCosineLongitude()`](VRageMath.ConvertToCosineLongitude)||
-|[`ToStringAsin()`](VRageMath.ToStringAsin)||
-|[`ToStringAcos()`](VRageMath.ToStringAcos)||
-|[`ToStringLongitude()`](VRageMath.ToStringLongitude)||
+|[ValueBetween(float)](VRageMath.SerializableRange.ValueBetween)||
+|[ToString()](VRageMath.SerializableRange.ToString)||
+|[ConvertToCosine()](VRageMath.SerializableRange.ConvertToCosine)||
+|[ConvertToSine()](VRageMath.SerializableRange.ConvertToSine)||
+|[ConvertToCosineLongitude()](VRageMath.SerializableRange.ConvertToCosineLongitude)||
+|[ToStringAsin()](VRageMath.SerializableRange.ToStringAsin)||
+|[ToStringAcos()](VRageMath.SerializableRange.ToStringAcos)||
+|[ToStringLongitude()](VRageMath.SerializableRange.ToStringLongitude)||
+

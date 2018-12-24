@@ -1,25 +1,34 @@
 ← [Index](Api-Index)
-# MyBlockOrientation Struct
-**Namespace:** [`VRageMath`](VRageMath)  
-**Assembly:** VRage.Math.dll  
-### Fields
+
+#MyBlockOrientation Struct
+
+**Namespace:** [VRageMath](VRageMath)  
+**Assembly:** VRage.Math.dll
+
+###Fields
+
 |Member|Description|
 |---|---|
-|[`Forward`](VRageMath.Forward)||
-|[`Up`](VRageMath.Up)||
-|[`Identity`](VRageMath.Identity)||
-### Properties
+|[Forward](VRageMath.MyBlockOrientation.Forward)||
+|[Up](VRageMath.MyBlockOrientation.Up)||
+|[Identity](VRageMath.MyBlockOrientation.Identity)||
+
+###Properties
+
 |Member|Description|
 |---|---|
-|[`Left`](VRageMath.Left)||
-|[`IsValid`](VRageMath.IsValid)||
-### Methods
+|[Left](VRageMath.MyBlockOrientation.Left)||
+|[IsValid](VRageMath.MyBlockOrientation.IsValid)||
+
+###Methods
+
 |Member|Description|
 |---|---|
-|[`GetQuaternion(ref Quaternion)`](VRageMath.GetQuaternion)||
-|[`GetMatrix(ref Matrix)`](VRageMath.GetMatrix)||
-|[`GetHashCode()`](VRageMath.GetHashCode)||
-|[`Equals(Object)`](VRageMath.Equals)||
-|[`ToString()`](VRageMath.ToString)||
-|[`TransformDirection(Direction)`](VRageMath.TransformDirection)||
-|[`TransformDirectionInverse(Direction)`](VRageMath.TransformDirectionInverse)||
+|[GetQuaternion(ref Quaternion)](VRageMath.MyBlockOrientation.GetQuaternion)||
+|[GetMatrix(ref Matrix)](VRageMath.MyBlockOrientation.GetMatrix)||
+|[GetHashCode()](VRageMath.MyBlockOrientation.GetHashCode)||
+|[Equals(object)](VRageMath.MyBlockOrientation.Equals)||
+|[ToString()](VRageMath.MyBlockOrientation.ToString)||
+|[TransformDirection(Direction)](VRageMath.MyBlockOrientation.TransformDirection)||
+|[TransformDirectionInverse(Direction)](VRageMath.MyBlockOrientation.TransformDirectionInverse)||
+

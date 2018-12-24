@@ -1,16 +1,23 @@
 ← [Index](Api-Index)
-# MyBounds Struct
-**Namespace:** [`VRageMath`](VRageMath)  
-**Assembly:** VRage.Math.dll  
-### Fields
+
+#MyBounds Struct
+
+**Namespace:** [VRageMath](VRageMath)  
+**Assembly:** VRage.Math.dll
+
+###Fields
+
 |Member|Description|
 |---|---|
-|[`Min`](VRageMath.Min)||
-|[`Max`](VRageMath.Max)||
-|[`Default`](VRageMath.Default)||
-### Methods
+|[Min](VRageMath.MyBounds.Min)||
+|[Max](VRageMath.MyBounds.Max)||
+|[Default](VRageMath.MyBounds.Default)||
+
+###Methods
+
 |Member|Description|
 |---|---|
-|[`Normalize(float)`](VRageMath.Normalize)|Normalize value inside the bounds so that 0 is Min and 1 is Max.|
-|[`Clamp(float)`](VRageMath.Clamp)||
-|[`ToString()`](VRageMath.ToString)||
+|[Normalize(float)](VRageMath.MyBounds.Normalize)|Normalize value inside the bounds so that 0 is Min and 1 is Max.|
+|[Clamp(float)](VRageMath.MyBounds.Clamp)||
+|[ToString()](VRageMath.MyBounds.ToString)||
+

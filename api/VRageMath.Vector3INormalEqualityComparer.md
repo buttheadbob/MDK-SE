@@ -1,11 +1,14 @@
 ← [Index](Api-Index)
-# Vector3INormalEqualityComparer Class
-**Namespace:** [`VRageMath`](VRageMath)  
-**Assembly:** VRage.Math.dll  
-## Summary
-This can be used only to compare normal vectors of Vector3I, where X, Y and Z has values -1, 0 or 1
-### Methods
+
+#Vector3INormalEqualityComparer Class
+
+**Namespace:** [VRageMath](VRageMath)  
+**Assembly:** VRage.Math.dll
+
+###Methods
+
 |Member|Description|
 |---|---|
-|[`Equals(Vector3I, Vector3I)`](VRageMath.Equals)||
-|[`GetHashCode(Vector3I)`](VRageMath.GetHashCode)||
+|[Equals(Vector3I, Vector3I)](VRageMath.Vector3INormalEqualityComparer.Equals)||
+|[GetHashCode(Vector3I)](VRageMath.Vector3INormalEqualityComparer.GetHashCode)||
+

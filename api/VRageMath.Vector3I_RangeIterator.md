@@ -1,16 +1,21 @@
 ← [Index](Api-Index)
-# Vector3I_RangeIterator Struct
-**Namespace:** [`VRageMath`](VRageMath)  
-**Assembly:** VRage.Math.dll  
-## Summary
-A class for simpler traversal of ranges of integer vectors
-### Fields
+
+#Vector3I_RangeIterator Struct
+
+**Namespace:** [VRageMath](VRageMath)  
+**Assembly:** VRage.Math.dll
+
+###Fields
+
 |Member|Description|
 |---|---|
-|[`Current`](VRageMath.Current)|Do not modify, public only for optimization!|
-### Methods
+|[Current](VRageMath.Vector3I_RangeIterator.Current)|Do not modify, public only for optimization!|
+
+###Methods
+
 |Member|Description|
 |---|---|
-|[`IsValid()`](VRageMath.IsValid)||
-|[`GetNext(ref Vector3I)`](VRageMath.GetNext)||
-|[`MoveNext()`](VRageMath.MoveNext)||
+|[IsValid()](VRageMath.Vector3I_RangeIterator.IsValid)||
+|[GetNext(ref Vector3I)](VRageMath.Vector3I_RangeIterator.GetNext)||
+|[MoveNext()](VRageMath.Vector3I_RangeIterator.MoveNext)||
+

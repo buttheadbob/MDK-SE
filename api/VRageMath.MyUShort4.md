@@ -1,11 +1,16 @@
 ← [Index](Api-Index)
-# MyUShort4 Struct
-**Namespace:** [`VRageMath`](VRageMath)  
-**Assembly:** VRage.Math.dll  
-### Fields
+
+#MyUShort4 Struct
+
+**Namespace:** [VRageMath](VRageMath)  
+**Assembly:** VRage.Math.dll
+
+###Fields
+
 |Member|Description|
 |---|---|
-|[`X`](VRageMath.X)||
-|[`Y`](VRageMath.Y)||
-|[`Z`](VRageMath.Z)||
-|[`W`](VRageMath.W)||
+|[X](VRageMath.MyUShort4.X)||
+|[Y](VRageMath.MyUShort4.Y)||
+|[Z](VRageMath.MyUShort4.Z)||
+|[W](VRageMath.MyUShort4.W)||
+

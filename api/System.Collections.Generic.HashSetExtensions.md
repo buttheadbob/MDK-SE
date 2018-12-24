@@ -1,9 +1,14 @@
 ← [Index](Api-Index)
-# HashSetExtensions Class
-**Namespace:** [`System.Collections.Generic`](System.Collections.Generic)  
-**Assembly:** VRage.Library.dll  
-### Methods
+
+#HashSetExtensions Class
+
+**Namespace:** [System.Collections.Generic](System.Collections.Generic)  
+**Assembly:** VRage.Library.dll
+
+###Methods
+
 |Member|Description|
 |---|---|
-|[`FirstElement<T>(HashSet<T>)`](System.Collections.Generic.FirstElement)||
-|[`TryGetValue<T>(HashSet<T>, T, ref T)`](System.Collections.Generic.TryGetValue)||
+|[FirstElement(HashSet)](System.Collections.Generic.HashSetExtensions.FirstElement)||
+|[TryGetValue(HashSet, T, ref T)](System.Collections.Generic.HashSetExtensions.TryGetValue)||
+

@@ -1,11 +1,14 @@
 ← [Index](Api-Index)
-# MyConveyorSorterMode Enum
-**Namespace:** [`Sandbox.ModAPI.Ingame`](Sandbox.ModAPI.Ingame)  
-**Assembly:** Sandbox.Common.dll  
-## Summary
-Determines the current mode of a conveyor sorter.
-### Fields
+
+#MyConveyorSorterMode Enum
+
+**Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
+**Assembly:** Sandbox.Common.dll
+
+###Fields
+
 |Member|Description|
 |---|---|
-|[`Whitelist`](Sandbox.ModAPI.Ingame.Whitelist)|The items in the filter list are the only items allowed through this sorter.|
-|[`Blacklist`](Sandbox.ModAPI.Ingame.Blacklist)|The items in the filter list are not allowed through this sorter.|
+|Whitelist|The items in the filter list are the only items allowed through this sorter.|
+|Blacklist|The items in the filter list are not allowed through this sorter.|
+

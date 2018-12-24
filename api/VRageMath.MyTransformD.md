@@ -1,20 +1,29 @@
 ← [Index](Api-Index)
-# MyTransformD Struct
-**Namespace:** [`VRageMath`](VRageMath)  
-**Assembly:** VRage.Math.dll  
-### Fields
+
+#MyTransformD Struct
+
+**Namespace:** [VRageMath](VRageMath)  
+**Assembly:** VRage.Math.dll
+
+###Fields
+
 |Member|Description|
 |---|---|
-|[`Rotation`](VRageMath.Rotation)||
-|[`Position`](VRageMath.Position)||
-### Properties
+|[Rotation](VRageMath.MyTransformD.Rotation)||
+|[Position](VRageMath.MyTransformD.Position)||
+
+###Properties
+
 |Member|Description|
 |---|---|
-|[`TransformMatrix`](VRageMath.TransformMatrix)||
-### Methods
+|[TransformMatrix](VRageMath.MyTransformD.TransformMatrix)||
+
+###Methods
+
 |Member|Description|
 |---|---|
-|[`Transform(ref MyTransformD, ref MyTransformD)`](VRageMath.Transform)||
-|[`Transform(ref MyTransformD, ref MyTransformD, ref MyTransformD)`](VRageMath.Transform)||
-|[`Transform(ref Vector3D, ref MyTransformD)`](VRageMath.Transform)||
-|[`Transform(ref Vector3D, ref MyTransformD, ref Vector3D)`](VRageMath.Transform)||
+|[Transform(ref MyTransformD, ref MyTransformD)](VRageMath.MyTransformD.Transform)||
+|[Transform(ref MyTransformD, ref MyTransformD, ref MyTransformD)](VRageMath.MyTransformD.Transform)||
+|[Transform(ref Vector3D, ref MyTransformD)](VRageMath.MyTransformD.Transform)||
+|[Transform(ref Vector3D, ref MyTransformD, ref Vector3D)](VRageMath.MyTransformD.Transform)||
+

@@ -1,9 +1,16 @@
 ← [Index](Api-Index)
-# MyComponentContainer Class
-**Namespace:** [`VRage.Game.Components`](VRage.Game.Components)  
-**Assembly:** VRage.Game.dll  
-### Methods
+
+#MyComponentContainer Class
+
+**Namespace:** [VRage.Game.Components](VRage.Game.Components)  
+**Assembly:** VRage.Game.dll
+
+###Methods
+
 |Member|Description|
 |---|---|
-|[`Get<T>()`](VRage.Game.Components.Get)||
-|[`Has<T>()`](VRage.Game.Components.Has)||
+|[Get()](VRage.Game.Components.MyComponentContainer.Get)||
+|[TryGet(ref T)](VRage.Game.Components.MyComponentContainer.TryGet)||
+|[TryGet(Type, ref MyComponentBase)](VRage.Game.Components.MyComponentContainer.TryGet)||
+|[Has()](VRage.Game.Components.MyComponentContainer.Has)||
+

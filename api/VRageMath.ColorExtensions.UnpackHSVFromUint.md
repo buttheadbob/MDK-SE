@@ -1,3 +1,4 @@
 ← [Index](Api-Index) ← [ColorExtensions](VRageMath.ColorExtensions)
 
-[Vector3](VRageMath.Vector3) UnpackHSVFromUint()
+[Vector3](VRageMath.Vector3) UnpackHSVFromUint([uint](System.UInt32) packed)
+

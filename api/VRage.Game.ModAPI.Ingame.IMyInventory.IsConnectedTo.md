@@ -1,3 +1,4 @@
 ← [Index](Api-Index) ← [IMyInventory](VRage.Game.ModAPI.Ingame.IMyInventory)
 
-[bool](System.Boolean) IsConnectedTo()
+[bool](System.Boolean) IsConnectedTo([IMyInventory](VRage.Game.ModAPI.Ingame.IMyInventory) dst)
+

@@ -1,3 +1,6 @@
 ← [Index](Api-Index) ← [Matrix](VRageMath.Matrix)
 
-[Matrix](VRageMath.Matrix) CreateConstrainedBillboard()void CreateConstrainedBillboard()
+[Matrix](VRageMath.Matrix) CreateConstrainedBillboard([Vector3](VRageMath.Vector3) objectPosition, [Vector3](VRageMath.Vector3) cameraPosition, [Vector3](VRageMath.Vector3) rotateAxis, [Nullable<T>](System.Nullable`1) cameraForwardVector, [Nullable<T>](System.Nullable`1) objectForwardVector)
+
+void CreateConstrainedBillboard(ref [Vector3](VRageMath.Vector3) objectPosition, ref [Vector3](VRageMath.Vector3) cameraPosition, ref [Vector3](VRageMath.Vector3) rotateAxis, [Nullable<T>](System.Nullable`1) cameraForwardVector, [Nullable<T>](System.Nullable`1) objectForwardVector, ref [Matrix](VRageMath.Matrix) result)
+

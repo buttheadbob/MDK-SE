@@ -1,3 +1,4 @@
 ← [Index](Api-Index) ← [Matrix](VRageMath.Matrix)
 
-[Matrix](VRageMath.Matrix) Round()
+[Matrix](VRageMath.Matrix) Round(ref [Matrix](VRageMath.Matrix) matrix)
+

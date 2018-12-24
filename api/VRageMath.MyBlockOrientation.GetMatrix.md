@@ -1,3 +1,4 @@
 ← [Index](Api-Index) ← [MyBlockOrientation](VRageMath.MyBlockOrientation)
 
-void GetMatrix()
+void GetMatrix(ref [Matrix](VRageMath.Matrix) result)
+

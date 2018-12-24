@@ -1,3 +1,4 @@
 ← [Index](Api-Index) ← [TextPtr](VRage.Game.ModAPI.Ingame.Utilities.TextPtr)
 
-[TextPtr](VRage.Game.ModAPI.Ingame.Utilities.TextPtr) FindInLine()
+[TextPtr](VRage.Game.ModAPI.Ingame.Utilities.TextPtr) FindInLine([char](System.Char) ch)
+

@@ -1,3 +1,4 @@
 ← [Index](Api-Index) ← [MyBlockOrientation](VRageMath.MyBlockOrientation)
 
-void GetQuaternion()
+void GetQuaternion(ref [Quaternion](VRageMath.Quaternion) result)
+

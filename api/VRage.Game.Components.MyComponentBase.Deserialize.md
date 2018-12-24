@@ -1,3 +1,4 @@
 ← [Index](Api-Index) ← [MyComponentBase](VRage.Game.Components.MyComponentBase)
 
-void Deserialize()
+void Deserialize(VRage.Game.ObjectBuilders.ComponentSystem.MyObjectBuilder_ComponentBase builder)
+

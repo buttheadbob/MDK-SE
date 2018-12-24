@@ -1,3 +1,4 @@
 ← [Index](Api-Index) ← [BoundingBoxI](VRageMath.BoundingBoxI)
 
-void Inflate()
+void Inflate([int](System.Int32) size)
+

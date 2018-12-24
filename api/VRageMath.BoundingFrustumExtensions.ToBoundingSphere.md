@@ -1,3 +1,12 @@
 ← [Index](Api-Index) ← [BoundingFrustumExtensions](VRageMath.BoundingFrustumExtensions)
 
-[BoundingSphere](VRageMath.BoundingSphere) ToBoundingSphere()
+[BoundingSphere](VRageMath.BoundingSphere) ToBoundingSphere([BoundingFrustum](VRageMath.BoundingFrustum) frustum, [Vector3[]](VRageMath.Vector3[]) corners)
+
+## Summary
+
+Creates bounding sphere from bounding frustum. Implementation taken from XNA source, replace IEnumerable with array
+
+## Returns
+
+BoundingSphere
+

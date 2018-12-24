@@ -1,3 +1,4 @@
 ← [Index](Api-Index) ← [MyTexts](VRage.MyTexts)
 
-[StringBuilder](System.Text.StringBuilder) Get()
+[StringBuilder](System.Text.StringBuilder) Get(VRage.Utils.MyStringId id)
+

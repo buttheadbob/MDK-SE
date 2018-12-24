@@ -1,3 +1,4 @@
 ← [Index](Api-Index) ← [BoundingFrustum](VRageMath.BoundingFrustum)
 
-void GetCornersUnsafe()
+void GetCornersUnsafe(*[Vector3](VRageMath.Vector3) corners)
+

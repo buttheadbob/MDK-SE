@@ -1,3 +1,4 @@
 ← [Index](Api-Index) ← [BoxCornerEnumerator](VRageMath.BoxCornerEnumerator)
 
-void Add()
+void Add([object](System.Object) tmp)
+

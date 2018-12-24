@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [Vector4](VRageMath.Vector4)
 
-[Vector4](VRageMath.Vector4) Subtract()void Subtract()
+[Vector4](VRageMath.Vector4) Subtract([Vector4](VRageMath.Vector4) value1, [Vector4](VRageMath.Vector4) value2)
+
+## Summary
+
+Subtracts a vector from a vector.
+
+void Subtract(ref [Vector4](VRageMath.Vector4) value1, ref [Vector4](VRageMath.Vector4) value2, ref [Vector4](VRageMath.Vector4) result)
+
+## Summary
+
+Subtracts a vector from a vector.
+

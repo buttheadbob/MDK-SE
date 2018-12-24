@@ -1,3 +1,4 @@
 ← [Index](Api-Index) ← [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)
 
-void RequestEnable()
+void RequestEnable([bool](System.Boolean) enable)
+

@@ -1,3 +1,32 @@
 ← [Index](Api-Index) ← [RayD](VRageMath.RayD)
 
-[Nullable<T>](System.Nullable`1) Intersects()void Intersects()[Nullable<T>](System.Nullable`1) Intersects()[Nullable<T>](System.Nullable`1) Intersects()void Intersects()[Nullable<T>](System.Nullable`1) Intersects()void Intersects()
+[Nullable<T>](System.Nullable`1) Intersects([BoundingBoxD](VRageMath.BoundingBoxD) box)
+
+## Summary
+
+Checks whether the Ray intersects a specified BoundingBox.
+
+void Intersects(ref [BoundingBoxD](VRageMath.BoundingBoxD) box, ref [Nullable<T>](System.Nullable`1) result)
+
+[Nullable<T>](System.Nullable`1) Intersects([BoundingFrustumD](VRageMath.BoundingFrustumD) frustum)
+
+## Summary
+
+Checks whether the Ray intersects a specified BoundingFrustum.
+
+[Nullable<T>](System.Nullable`1) Intersects([PlaneD](VRageMath.PlaneD) plane)
+
+## Summary
+
+Determines whether this Ray intersects a specified Plane.
+
+void Intersects(ref [PlaneD](VRageMath.PlaneD) plane, ref [Nullable<T>](System.Nullable`1) result)
+
+[Nullable<T>](System.Nullable`1) Intersects([BoundingSphereD](VRageMath.BoundingSphereD) sphere)
+
+## Summary
+
+Checks whether the Ray intersects a specified BoundingSphere.
+
+void Intersects(ref [BoundingSphere](VRageMath.BoundingSphere) sphere, ref [Nullable<T>](System.Nullable`1) result)
+

@@ -1,3 +1,20 @@
 ← [Index](Api-Index) ← [Vector3D](VRageMath.Vector3D)
 
-[double](System.Double) Normalize()[Vector3D](VRageMath.Vector3D) Normalize()void Normalize()
+[double](System.Double) Normalize()
+
+## Summary
+
+Turns the current vector into a unit vector. The result is a vector one unit in length pointing in the same direction as the original vector.
+
+[Vector3D](VRageMath.Vector3D) Normalize([Vector3D](VRageMath.Vector3D) value)
+
+## Summary
+
+Creates a unit vector from the specified vector. The result is a vector one unit in length pointing in the same direction as the original vector.
+
+void Normalize(ref [Vector3D](VRageMath.Vector3D) value, ref [Vector3D](VRageMath.Vector3D) result)
+
+## Summary
+
+Creates a unit vector from the specified vector, writing the result to a user-specified variable. The result is a vector one unit in length pointing in the same direction as the original vector.
+

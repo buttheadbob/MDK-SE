@@ -1,3 +1,4 @@
 ← [Index](Api-Index) ← [MyCuboid](VRageMath.MyCuboid)
 
-void CreateFromVertices()
+void CreateFromVertices([Vector3[]](VRageMath.Vector3[]) vertices)
+

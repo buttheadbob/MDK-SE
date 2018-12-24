@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [Quaternion](VRageMath.Quaternion)
 
-[Quaternion](VRageMath.Quaternion) Divide()void Divide()
+[Quaternion](VRageMath.Quaternion) Divide([Quaternion](VRageMath.Quaternion) quaternion1, [Quaternion](VRageMath.Quaternion) quaternion2)
+
+## Summary
+
+Divides a Quaternion by another Quaternion.
+
+void Divide(ref [Quaternion](VRageMath.Quaternion) quaternion1, ref [Quaternion](VRageMath.Quaternion) quaternion2, ref [Quaternion](VRageMath.Quaternion) result)
+
+## Summary
+
+Divides a Quaternion by another Quaternion.
+

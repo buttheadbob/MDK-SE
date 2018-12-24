@@ -1,3 +1,10 @@
 ← [Index](Api-Index) ← [MyMath](VRageMath.MyMath)
 
-[Vector3](VRageMath.Vector3) VectorFromColor()[Vector4](VRageMath.Vector4) VectorFromColor()
+[Vector3](VRageMath.Vector3) VectorFromColor([byte](System.Byte) red, [byte](System.Byte) green, [byte](System.Byte) blue)
+
+## Summary
+
+Calculates color from vector
+
+[Vector4](VRageMath.Vector4) VectorFromColor([byte](System.Byte) red, [byte](System.Byte) green, [byte](System.Byte) blue, [byte](System.Byte) alpha)
+

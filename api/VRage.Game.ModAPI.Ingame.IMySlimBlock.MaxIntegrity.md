@@ -1,3 +1,8 @@
 ← [Index](Api-Index) ← [IMySlimBlock](VRage.Game.ModAPI.Ingame.IMySlimBlock)
 
 [float](System.Single) MaxIntegrity
+
+## Summary
+
+The maximum integrity of block
+

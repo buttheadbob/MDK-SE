@@ -1,3 +1,4 @@
 ← [Index](Api-Index) ← [CompressedPositionOrientation](VRageMath.CompressedPositionOrientation)
 
-void ToMatrix()
+void ToMatrix(ref [Matrix](VRageMath.Matrix) result)
+

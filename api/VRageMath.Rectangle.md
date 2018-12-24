@@ -1,11 +1,13 @@
 ← [Index](Api-Index)
 
-#Rectangle Struct
+# 
+Rectangle Struct
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-###Fields
+### 
+Fields
 
 |Member|Description|
 |---|---|
@@ -14,7 +16,8 @@
 |[Width](VRageMath.Rectangle.Width)|Specifies the width of the rectangle.|
 |[Height](VRageMath.Rectangle.Height)|Specifies the height of the rectangle.|
 
-###Properties
+### 
+Properties
 
 |Member|Description|
 |---|---|
@@ -25,7 +28,8 @@
 |[Location](VRageMath.Rectangle.Location)|Gets or sets the upper-left value of the Rectangle.|
 |[Center](VRageMath.Rectangle.Center)|Gets the Point that specifies the center of the rectangle.|
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

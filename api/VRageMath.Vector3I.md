@@ -1,11 +1,13 @@
 ← [Index](Api-Index)
 
-#Vector3I Struct
+# 
+Vector3I Struct
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-###Fields
+### 
+Fields
 
 |Member|Description|
 |---|---|
@@ -27,7 +29,8 @@
 |[Backward](VRageMath.Vector3I.Backward)||
 |[One](VRageMath.Vector3I.One)||
 
-###Properties
+### 
+Properties
 
 |Member|Description|
 |---|---|
@@ -36,7 +39,8 @@
 |[Size](VRageMath.Vector3I.Size)|How many cubes are in block with this size|
 |[SizeLong](VRageMath.Vector3I.SizeLong)||
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

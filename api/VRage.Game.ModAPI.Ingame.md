@@ -1,6 +1,7 @@
 ← [Index](Api-Index)
 
-#VRage.Game.ModAPI.Ingame
+# 
+VRage.Game.ModAPI.Ingame
 
 **[IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)**  
 **[IMyCubeGrid](VRage.Game.ModAPI.Ingame.IMyCubeGrid)**  

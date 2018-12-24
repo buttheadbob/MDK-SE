@@ -1,11 +1,13 @@
 ← [Index](Api-Index)
 
-#HashSetExtensions Class
+# 
+HashSetExtensions Class
 
 **Namespace:** [System.Collections.Generic](System.Collections.Generic)  
 **Assembly:** VRage.Library.dll
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

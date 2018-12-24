@@ -1,11 +1,13 @@
 ← [Index](Api-Index)
 
-#Matrix3x3 Struct
+# 
+Matrix3x3 Struct
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-###Fields
+### 
+Fields
 
 |Member|Description|
 |---|---|
@@ -21,7 +23,8 @@
 |[Identity](VRageMath.Matrix3x3.Identity)||
 |[Zero](VRageMath.Matrix3x3.Zero)||
 
-###Properties
+### 
+Properties
 
 |Member|Description|
 |---|---|
@@ -37,7 +40,8 @@
 |[Scale](VRageMath.Matrix3x3.Scale)||
 |[Item](VRageMath.Matrix3x3.Item)||
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

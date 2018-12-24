@@ -1,11 +1,13 @@
 ← [Index](Api-Index)
 
-#Quaternion Struct
+# 
+Quaternion Struct
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-###Fields
+### 
+Fields
 
 |Member|Description|
 |---|---|
@@ -16,7 +18,8 @@
 |[Identity](VRageMath.Quaternion.Identity)||
 |[Zero](VRageMath.Quaternion.Zero)||
 
-###Properties
+### 
+Properties
 
 |Member|Description|
 |---|---|
@@ -24,7 +27,8 @@
 |[Right](VRageMath.Quaternion.Right)||
 |[Up](VRageMath.Quaternion.Up)||
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

@@ -1,11 +1,13 @@
 ← [Index](Api-Index)
 
-#MyDetectedEntityInfo Struct
+# 
+MyDetectedEntityInfo Struct
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
 
-###Fields
+### 
+Fields
 
 |Member|Description|
 |---|---|
@@ -19,13 +21,15 @@
 |[BoundingBox](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo.BoundingBox)|The entity's world-aligned bounding box|
 |[TimeStamp](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo.TimeStamp)|Time when the entity was detected. This field counts milliseconds, compensated for simspeed|
 
-###Properties
+### 
+Properties
 
 |Member|Description|
 |---|---|
 |[Position](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo.Position)|The entity's position (center of the Bounding Box)|
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

@@ -1,11 +1,13 @@
 ← [Index](Api-Index)
 
-#HyperSphereHelpers Class
+# 
+HyperSphereHelpers Class
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

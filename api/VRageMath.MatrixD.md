@@ -1,11 +1,13 @@
 ← [Index](Api-Index)
 
-#MatrixD Struct
+# 
+MatrixD Struct
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-###Fields
+### 
+Fields
 
 |Member|Description|
 |---|---|
@@ -28,7 +30,8 @@
 |[Identity](VRageMath.MatrixD.Identity)||
 |[Zero](VRageMath.MatrixD.Zero)||
 
-###Properties
+### 
+Properties
 
 |Member|Description|
 |---|---|
@@ -46,7 +49,8 @@
 |[Rotation](VRageMath.MatrixD.Rotation)||
 |[Item](VRageMath.MatrixD.Item)||
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

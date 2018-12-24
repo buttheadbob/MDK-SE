@@ -1,11 +1,13 @@
 ← [Index](Api-Index)
 
-#CurveKeyCollection Class
+# 
+CurveKeyCollection Class
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-###Properties
+### 
+Properties
 
 |Member|Description|
 |---|---|
@@ -13,7 +15,8 @@
 |[Count](VRageMath.CurveKeyCollection.Count)|Gets the number of elements contained in the CurveKeyCollection.|
 |[IsReadOnly](VRageMath.CurveKeyCollection.IsReadOnly)|Returns a value indicating whether the CurveKeyCollection is read-only.|
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

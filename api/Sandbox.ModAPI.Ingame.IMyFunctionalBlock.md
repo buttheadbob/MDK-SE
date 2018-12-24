@@ -1,6 +1,7 @@
 ← [Index](Api-Index)
 
-#IMyFunctionalBlock Interface
+# 
+IMyFunctionalBlock Interface
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
@@ -60,7 +61,8 @@
 * [SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock](SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock)  
 * [SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase)
 
-###Properties
+### 
+Properties
 
 |Member|Description|
 |---|---|
@@ -102,7 +104,8 @@
 |[ShowInToolbarConfig](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInToolbarConfig)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[ShowInInventory](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

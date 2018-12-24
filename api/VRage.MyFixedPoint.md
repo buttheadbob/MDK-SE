@@ -1,11 +1,13 @@
 ← [Index](Api-Index)
 
-#MyFixedPoint Struct
+# 
+MyFixedPoint Struct
 
 **Namespace:** [VRage](VRage)  
 **Assembly:** VRage.Library.dll
 
-###Fields
+### 
+Fields
 
 |Member|Description|
 |---|---|
@@ -17,7 +19,8 @@
 |[MaxIntValue](VRage.MyFixedPoint.MaxIntValue)||
 |[MinIntValue](VRage.MyFixedPoint.MinIntValue)||
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

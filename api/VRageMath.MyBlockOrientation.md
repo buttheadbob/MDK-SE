@@ -1,11 +1,13 @@
 ← [Index](Api-Index)
 
-#MyBlockOrientation Struct
+# 
+MyBlockOrientation Struct
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-###Fields
+### 
+Fields
 
 |Member|Description|
 |---|---|
@@ -13,14 +15,16 @@
 |[Up](VRageMath.MyBlockOrientation.Up)||
 |[Identity](VRageMath.MyBlockOrientation.Identity)||
 
-###Properties
+### 
+Properties
 
 |Member|Description|
 |---|---|
 |[Left](VRageMath.MyBlockOrientation.Left)||
 |[IsValid](VRageMath.MyBlockOrientation.IsValid)||
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

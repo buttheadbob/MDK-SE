@@ -1,6 +1,7 @@
 ← [Index](Api-Index)
 
-#Direction Enum
+# 
+Direction Enum
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll

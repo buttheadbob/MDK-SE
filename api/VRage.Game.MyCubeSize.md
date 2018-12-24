@@ -1,11 +1,13 @@
 ← [Index](Api-Index)
 
-#MyCubeSize Enum
+# 
+MyCubeSize Enum
 
 **Namespace:** [VRage.Game](VRage.Game)  
 **Assembly:** VRage.Game.dll
 
-###Fields
+### 
+Fields
 
 |Member|Description|
 |---|---|

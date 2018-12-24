@@ -1,11 +1,13 @@
 ← [Index](Api-Index)
 
-#TerminalBlockExtentions Class
+# 
+TerminalBlockExtentions Class
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

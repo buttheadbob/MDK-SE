@@ -1,11 +1,13 @@
 ← [Index](Api-Index)
 
-#Vector3INormalEqualityComparer Class
+# 
+Vector3INormalEqualityComparer Class
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

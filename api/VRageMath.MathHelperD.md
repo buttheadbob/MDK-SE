@@ -1,11 +1,13 @@
 ← [Index](Api-Index)
 
-#MathHelperD Class
+# 
+MathHelperD Class
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-###Fields
+### 
+Fields
 
 |Member|Description|
 |---|---|
@@ -16,7 +18,8 @@
 |[PiOver2](VRageMath.MathHelperD.PiOver2)|Represents the value of pi divided by two.|
 |[PiOver4](VRageMath.MathHelperD.PiOver4)|Represents the value of pi divided by four.|
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

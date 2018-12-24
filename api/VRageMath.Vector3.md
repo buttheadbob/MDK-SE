@@ -1,11 +1,13 @@
 ← [Index](Api-Index)
 
-#Vector3 Struct
+# 
+Vector3 Struct
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-###Fields
+### 
+Fields
 
 |Member|Description|
 |---|---|
@@ -31,14 +33,16 @@
 |[MinValue](VRageMath.Vector3.MinValue)||
 |[Invalid](VRageMath.Vector3.Invalid)||
 
-###Properties
+### 
+Properties
 
 |Member|Description|
 |---|---|
 |[Sum](VRageMath.Vector3.Sum)||
 |[Volume](VRageMath.Vector3.Volume)||
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

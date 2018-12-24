@@ -1,18 +1,21 @@
 ← [Index](Api-Index)
 
-#RayD Struct
+# 
+RayD Struct
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-###Fields
+### 
+Fields
 
 |Member|Description|
 |---|---|
 |[Position](VRageMath.RayD.Position)|Specifies the starting point of the Ray.|
 |[Direction](VRageMath.RayD.Direction)|Unit vector specifying the direction the Ray is pointing.|
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

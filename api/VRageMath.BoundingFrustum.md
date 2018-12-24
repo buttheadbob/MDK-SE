@@ -1,17 +1,20 @@
 ← [Index](Api-Index)
 
-#BoundingFrustum Class
+# 
+BoundingFrustum Class
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-###Fields
+### 
+Fields
 
 |Member|Description|
 |---|---|
 |[CornerCount](VRageMath.BoundingFrustum.CornerCount)|Specifies the total number of corners (8) in the BoundingFrustum.|
 
-###Properties
+### 
+Properties
 
 |Member|Description|
 |---|---|
@@ -25,7 +28,8 @@
 |[Bottom](VRageMath.BoundingFrustum.Bottom)|Gets the bottom plane of the BoundingFrustum.|
 |[Matrix](VRageMath.BoundingFrustum.Matrix)|Gets or sets the Matrix that describes this bounding frustum.|
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

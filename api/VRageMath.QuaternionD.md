@@ -1,11 +1,13 @@
 ← [Index](Api-Index)
 
-#QuaternionD Struct
+# 
+QuaternionD Struct
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-###Fields
+### 
+Fields
 
 |Member|Description|
 |---|---|
@@ -15,7 +17,8 @@
 |[W](VRageMath.QuaternionD.W)|Specifies the rotation component of the quaternion.|
 |[Identity](VRageMath.QuaternionD.Identity)||
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

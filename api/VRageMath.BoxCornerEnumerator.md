@@ -1,17 +1,20 @@
 ← [Index](Api-Index)
 
-#BoxCornerEnumerator Struct
+# 
+BoxCornerEnumerator Struct
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-###Properties
+### 
+Properties
 
 |Member|Description|
 |---|---|
 |[Current](VRageMath.BoxCornerEnumerator.Current)||
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

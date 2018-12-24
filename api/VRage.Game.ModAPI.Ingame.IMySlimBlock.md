@@ -1,11 +1,13 @@
 ← [Index](Api-Index)
 
-#IMySlimBlock Interface
+# 
+IMySlimBlock Interface
 
 **Namespace:** [VRage.Game.ModAPI.Ingame](VRage.Game.ModAPI.Ingame)  
 **Assembly:** VRage.Game.dll
 
-###Properties
+### 
+Properties
 
 |Member|Description|
 |---|---|
@@ -31,7 +33,8 @@
 |[CubeGrid](VRage.Game.ModAPI.Ingame.IMySlimBlock.CubeGrid)|Gets the grid the slimblock is on|
 |[ColorMaskHSV](VRage.Game.ModAPI.Ingame.IMySlimBlock.ColorMaskHSV)|Gets the color of the block|
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

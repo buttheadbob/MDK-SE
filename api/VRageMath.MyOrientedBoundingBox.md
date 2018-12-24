@@ -1,11 +1,13 @@
 ← [Index](Api-Index)
 
-#MyOrientedBoundingBox Struct
+# 
+MyOrientedBoundingBox Struct
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-###Fields
+### 
+Fields
 
 |Member|Description|
 |---|---|
@@ -28,7 +30,8 @@
 |[ZNeighbourVectorsForw](VRageMath.MyOrientedBoundingBox.ZNeighbourVectorsForw)||
 |[CornerCount](VRageMath.MyOrientedBoundingBox.CornerCount)||
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

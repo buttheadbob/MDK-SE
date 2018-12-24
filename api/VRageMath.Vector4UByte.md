@@ -1,11 +1,13 @@
 ← [Index](Api-Index)
 
-#Vector4UByte Struct
+# 
+Vector4UByte Struct
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-###Fields
+### 
+Fields
 
 |Member|Description|
 |---|---|
@@ -14,13 +16,15 @@
 |[Z](VRageMath.Vector4UByte.Z)||
 |[W](VRageMath.Vector4UByte.W)||
 
-###Properties
+### 
+Properties
 
 |Member|Description|
 |---|---|
 |[Item](VRageMath.Vector4UByte.Item)||
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

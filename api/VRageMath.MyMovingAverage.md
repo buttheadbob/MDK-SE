@@ -1,18 +1,21 @@
 ← [Index](Api-Index)
 
-#MyMovingAverage Class
+# 
+MyMovingAverage Class
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-###Properties
+### 
+Properties
 
 |Member|Description|
 |---|---|
 |[Avg](VRageMath.MyMovingAverage.Avg)||
 |[Sum](VRageMath.MyMovingAverage.Sum)||
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

@@ -1,4 +1,5 @@
-#Assemblies
+# 
+Assemblies
 
 These are the game assemblies used by programmable block scripts.  
   
@@ -11,9 +12,11 @@ VRage.Game.dll
 VRage.Library.dll  
 VRage.Math.dll  
 
-##Types
+## 
+Types
 
-###Blocks
+### 
+Blocks
 
 Use these interfaces when you wish to access specific block types.
 
@@ -65,7 +68,8 @@ Use these interfaces when you wish to access specific block types.
 [IMyVirtualMass](SpaceEngineers.Game.ModAPI.Ingame.IMyVirtualMass)  
 [IMyWarhead](Sandbox.ModAPI.Ingame.IMyWarhead)
 
-###Block Categories
+### 
+Block Categories
 
 Use these interfaces when you wish to access blocks by a specific function or category rather than a specific block type.
 
@@ -79,7 +83,8 @@ Use these interfaces when you wish to access blocks by a specific function or ca
 [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 [IMyUserControllableGun](Sandbox.ModAPI.Ingame.IMyUserControllableGun)
 
-###Utilities
+### 
+Utilities
 
 Various useful utilities for your scripts
 
@@ -95,7 +100,8 @@ Various useful utilities for your scripts
 [StringSegment](VRage.Game.ModAPI.Ingame.Utilities.StringSegment)  
 [TextPtr](VRage.Game.ModAPI.Ingame.Utilities.TextPtr)
 
-###Grid Program and Terminal System
+### 
+Grid Program and Terminal System
 
 Types related to the grid program and grid terminal system
 
@@ -109,7 +115,8 @@ Types related to the grid program and grid terminal system
 [UpdateFrequency](Sandbox.ModAPI.Ingame.UpdateFrequency)  
 [UpdateType](Sandbox.ModAPI.Ingame.UpdateType)
 
-###Entity Component Systems
+### 
+Entity Component Systems
 
 Gain access to advanced block components
 
@@ -120,7 +127,8 @@ Gain access to advanced block components
 [MyResourceSourceComponent](Sandbox.Game.EntityComponents.MyResourceSourceComponent)  
 [MyResourceSourceComponentBase](VRage.Game.Components.MyResourceSourceComponentBase)
 
-###Inventory
+### 
+Inventory
 
 Types related to inventory analysis and management.
 
@@ -128,21 +136,23 @@ Types related to inventory analysis and management.
 [IMyInventoryItem](VRage.Game.ModAPI.Ingame.IMyInventoryItem)  
 [MyInventoryItemExtension](VRage.Game.ModAPI.Ingame.MyInventoryItemExtension)
 
-###Terminal Properties and Actions
+### 
+Terminal Properties and Actions
 
 Types related to the terminal properties and actions. You should endeavor to avoid the use of these if possible due to their extra overhead. There are usually proper interface members available instead, which are orders of magnitude faster in use.
 
 [ITerminalAction](Sandbox.ModAPI.Interfaces.ITerminalAction)  
 [ITerminalProperty](Sandbox.ModAPI.Interfaces.ITerminalProperty)  
-[ITerminalProperty<TValue>](Sandbox.ModAPI.Interfaces.ITerminalProperty`1)  
+[ITerminalProperty&lt;TValue&gt;](Sandbox.ModAPI.Interfaces.ITerminalProperty`1)  
 [TerminalActionExtensions](Sandbox.Game.Gui.TerminalActionExtensions)  
 [TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter)
 
-###Math
+### 
+Math
 
 Math utilities
 
-[AddOp<T>](VRageMath.AddOp`1)  
+[AddOp&lt;T&gt;](VRageMath.AddOp`1)  
 [Base27Directions](VRageMath.Base27Directions)  
 [Base27Directions.Direction](VRageMath.Base27Directions+Direction)  
 [Base6Directions](VRageMath.Base6Directions)  
@@ -192,8 +202,8 @@ Math utilities
 [MyDynamicAABBTree](VRageMath.MyDynamicAABBTree)  
 [MyDynamicAABBTree.DynamicTreeNode](VRageMath.MyDynamicAABBTree+DynamicTreeNode)  
 [MyDynamicAABBTreeD](VRageMath.MyDynamicAABBTreeD)  
-[MyLineSegmentOverlapResult<T>](VRageMath.MyLineSegmentOverlapResult`1)  
-[MyLineSegmentOverlapResult<T>.MyLineSegmentOverlapResultComparer<T>](VRageMath.MyLineSegmentOverlapResult`1+MyLineSegmentOverlapResultComparer)  
+[MyLineSegmentOverlapResult&lt;T&gt;](VRageMath.MyLineSegmentOverlapResult`1)  
+[MyLineSegmentOverlapResult&lt;T&gt;.MyLineSegmentOverlapResultComparer&lt;T&gt;](VRageMath.MyLineSegmentOverlapResult`1+MyLineSegmentOverlapResultComparer)  
 [MyMath](VRageMath.MyMath)  
 [MyMortonCode3D](VRageMath.MyMortonCode3D)  
 [MyMovingAverage](VRageMath.MyMovingAverage)  
@@ -246,23 +256,24 @@ Math utilities
 [Vector4I.EqualityComparer](VRageMath.Vector4I+EqualityComparer)  
 [Vector4UByte](VRageMath.Vector4UByte)
 
-###Other
+### 
+Other
 
 Currently ungrouped types
 
 [ArrayExtensions](System.ArrayExtensions)  
-[ClearToken<T>](System.Collections.Generic.ClearToken`1)  
+[ClearToken&lt;T&gt;](System.Collections.Generic.ClearToken`1)  
 [DictionaryExtensions](System.Collections.Generic.DictionaryExtensions)  
 [DoorStatus](Sandbox.ModAPI.Ingame.DoorStatus)  
 [FlightMode](Sandbox.ModAPI.Ingame.FlightMode)  
 [HashSetExtensions](System.Collections.Generic.HashSetExtensions)  
-[HashSetExtensions.HashSetInternalAccessor<T>](System.Collections.Generic.HashSetExtensions+HashSetInternalAccessor`1)  
+[HashSetExtensions.HashSetInternalAccessor&lt;T&gt;](System.Collections.Generic.HashSetExtensions+HashSetInternalAccessor`1)  
 [IMyAttachableTopBlock](Sandbox.ModAPI.Ingame.IMyAttachableTopBlock)  
 [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
 [IMyUpgradableBlock](Sandbox.ModAPI.Ingame.IMyUpgradableBlock)  
 [LandingGearMode](SpaceEngineers.Game.ModAPI.Ingame.LandingGearMode)  
 [ListExtensions](System.Collections.Generic.ListExtensions)  
-[ListReader<T>](VRage.Collections.ListReader`1)  
+[ListReader&lt;T&gt;](VRage.Collections.ListReader`1)  
 [MyAssemblerMode](Sandbox.ModAPI.Ingame.MyAssemblerMode)  
 [MyConveyorSorterMode](Sandbox.ModAPI.Ingame.MyConveyorSorterMode)  
 [MyCubeSize](VRage.Game.MyCubeSize)  
@@ -289,14 +300,14 @@ Currently ungrouped types
 [MyTexts.LanguageDescription](VRage.MyTexts+LanguageDescription)  
 [MyTransmitTarget](Sandbox.ModAPI.Ingame.MyTransmitTarget)  
 [MyTuple](VRage.MyTuple)  
-[MyTuple<T1, T2, T3, T4, T5, T6>](VRage.MyTuple`6)  
-[MyTuple<T1, T2, T3, T4, T5>](VRage.MyTuple`5)  
-[MyTuple<T1, T2, T3, T4>](VRage.MyTuple`4)  
-[MyTuple<T1, T2, T3>](VRage.MyTuple`3)  
-[MyTuple<T1, T2>](VRage.MyTuple`2)  
-[MyTuple<T1>](VRage.MyTuple`1)  
-[MyTupleComparer<T1, T2, T3>](VRage.MyTupleComparer`3)  
-[MyTupleComparer<T1, T2>](VRage.MyTupleComparer`2)  
+[MyTuple&lt;T1, T2, T3, T4, T5, T6&gt;](VRage.MyTuple`6)  
+[MyTuple&lt;T1, T2, T3, T4, T5&gt;](VRage.MyTuple`5)  
+[MyTuple&lt;T1, T2, T3, T4&gt;](VRage.MyTuple`4)  
+[MyTuple&lt;T1, T2, T3&gt;](VRage.MyTuple`3)  
+[MyTuple&lt;T1, T2&gt;](VRage.MyTuple`2)  
+[MyTuple&lt;T1&gt;](VRage.MyTuple`1)  
+[MyTupleComparer&lt;T1, T2, T3&gt;](VRage.MyTupleComparer`3)  
+[MyTupleComparer&lt;T1, T2&gt;](VRage.MyTupleComparer`2)  
 [MyWaypointInfo](Sandbox.ModAPI.Ingame.MyWaypointInfo)  
 [PistonStatus](Sandbox.ModAPI.Ingame.PistonStatus)  
 [QueueExtensions](System.Collections.Generic.QueueExtensions)  
@@ -305,7 +316,8 @@ Currently ungrouped types
 [TerminalPropertyExtensions](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions)  
 [VentStatus](SpaceEngineers.Game.ModAPI.Ingame.VentStatus)
 
-###Obsolete
+### 
+Obsolete
 
 These types should no longer be used and may be removed in the future. If you're using one of these types, you should replace them as soon as possible.
 

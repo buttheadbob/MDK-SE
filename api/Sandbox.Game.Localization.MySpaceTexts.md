@@ -1,11 +1,13 @@
 ← [Index](Api-Index)
 
-#MySpaceTexts Class
+# 
+MySpaceTexts Class
 
 **Namespace:** [Sandbox.Game.Localization](Sandbox.Game.Localization)  
 **Assembly:** Sandbox.Game.dll
 
-###Fields
+### 
+Fields
 
 |Member|Description|
 |---|---|

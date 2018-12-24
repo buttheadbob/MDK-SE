@@ -1,6 +1,7 @@
 ← [Index](Api-Index)
 
-#IMyShipController Interface
+# 
+IMyShipController Interface
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
@@ -14,7 +15,8 @@
 * [Sandbox.ModAPI.Ingame.IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit)  
 * [Sandbox.ModAPI.Ingame.IMyRemoteControl](Sandbox.ModAPI.Ingame.IMyRemoteControl)
 
-###Properties
+### 
+Properties
 
 |Member|Description|
 |---|---|
@@ -68,7 +70,8 @@
 |[ShowInToolbarConfig](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInToolbarConfig)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[ShowInInventory](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

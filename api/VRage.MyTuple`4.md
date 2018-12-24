@@ -1,11 +1,13 @@
 ← [Index](Api-Index)
 
-#MyTuple<T1, T2, T3, T4> Struct
+# 
+MyTuple&lt;T1, T2, T3, T4&gt; Struct
 
 **Namespace:** [VRage](VRage)  
 **Assembly:** VRage.Library.dll
 
-###Fields
+### 
+Fields
 
 |Member|Description|
 |---|---|

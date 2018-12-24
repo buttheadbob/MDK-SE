@@ -1,11 +1,13 @@
 ← [Index](Api-Index)
 
-#ITerminalAction Interface
+# 
+ITerminalAction Interface
 
 **Namespace:** [Sandbox.ModAPI.Interfaces](Sandbox.ModAPI.Interfaces)  
 **Assembly:** Sandbox.Common.dll
 
-###Properties
+### 
+Properties
 
 |Member|Description|
 |---|---|
@@ -13,7 +15,8 @@
 |[Icon](Sandbox.ModAPI.Interfaces.ITerminalAction.Icon)||
 |[Name](Sandbox.ModAPI.Interfaces.ITerminalAction.Name)||
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

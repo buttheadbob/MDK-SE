@@ -1,6 +1,7 @@
 ← [Index](Api-Index)
 
-#LanguageDescription Class
+# 
+LanguageDescription Class
 
 **Namespace:** [VRage](VRage)  
 **Assembly:** VRage.dll

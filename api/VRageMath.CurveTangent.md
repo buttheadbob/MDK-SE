@@ -1,11 +1,13 @@
 ← [Index](Api-Index)
 
-#CurveTangent Enum
+# 
+CurveTangent Enum
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-###Fields
+### 
+Fields
 
 |Member|Description|
 |---|---|

@@ -1,6 +1,7 @@
 ← [Index](Api-Index)
 
-#IMyLargeTurretBase Interface
+# 
+IMyLargeTurretBase Interface
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
@@ -15,7 +16,8 @@
 **Inheritors:**  
 * [SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase)
 
-###Properties
+### 
+Properties
 
 |Member|Description|
 |---|---|
@@ -67,7 +69,8 @@
 |[Enabled](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.Enabled)|_Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_|
 |[IsShooting](Sandbox.ModAPI.Ingame.IMyUserControllableGun.IsShooting)|_Inherited from [IMyUserControllableGun](Sandbox.ModAPI.Ingame.IMyUserControllableGun)_|
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

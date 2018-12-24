@@ -1,11 +1,13 @@
 ← [Index](Api-Index)
 
-#MyConveyorSorterMode Enum
+# 
+MyConveyorSorterMode Enum
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
 
-###Fields
+### 
+Fields
 
 |Member|Description|
 |---|---|

@@ -1,11 +1,13 @@
 ← [Index](Api-Index)
 
-#MyGridProgram Class
+# 
+MyGridProgram Class
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
 
-###Properties
+### 
+Properties
 
 |Member|Description|
 |---|---|

@@ -1,11 +1,13 @@
 ← [Index](Api-Index)
 
-#MyDefinitionId Struct
+# 
+MyDefinitionId Struct
 
 **Namespace:** [VRage.Game](VRage.Game)  
 **Assembly:** VRage.Game.dll
 
-###Fields
+### 
+Fields
 
 |Member|Description|
 |---|---|
@@ -13,13 +15,15 @@
 |[SubtypeId](VRage.Game.MyDefinitionId.SubtypeId)||
 |[Comparer](VRage.Game.MyDefinitionId.Comparer)||
 
-###Properties
+### 
+Properties
 
 |Member|Description|
 |---|---|
 |[SubtypeName](VRage.Game.MyDefinitionId.SubtypeName)||
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

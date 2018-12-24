@@ -1,18 +1,21 @@
 ← [Index](Api-Index)
 
-#PlaneD Struct
+# 
+PlaneD Struct
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-###Fields
+### 
+Fields
 
 |Member|Description|
 |---|---|
 |[Normal](VRageMath.PlaneD.Normal)|The normal vector of the PlaneD.|
 |[D](VRageMath.PlaneD.D)|The distance of the PlaneD along its normal from the origin. Note: Be careful! The distance is signed and is the opposite of what people usually expect. If you look closely at the plane equation: (n dot P) + D = 0, you'll realize that D = - (n dot P) (that is, negative instead of positive)|
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

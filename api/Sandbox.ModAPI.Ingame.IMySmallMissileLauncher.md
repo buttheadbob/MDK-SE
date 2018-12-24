@@ -1,6 +1,7 @@
 ← [Index](Api-Index)
 
-#IMySmallMissileLauncher Interface
+# 
+IMySmallMissileLauncher Interface
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
@@ -12,7 +13,8 @@
 * [VRage.Game.ModAPI.Ingame.IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [VRage.Game.ModAPI.Ingame.IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
-###Properties
+### 
+Properties
 
 |Member|Description|
 |---|---|
@@ -56,7 +58,8 @@
 |[Enabled](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.Enabled)|_Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_|
 |[IsShooting](Sandbox.ModAPI.Ingame.IMyUserControllableGun.IsShooting)|_Inherited from [IMyUserControllableGun](Sandbox.ModAPI.Ingame.IMyUserControllableGun)_|
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

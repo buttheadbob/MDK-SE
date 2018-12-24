@@ -1,6 +1,7 @@
 ← [Index](Api-Index)
 
-#ITerminalProperty Interface
+# 
+ITerminalProperty Interface
 
 **Namespace:** [Sandbox.ModAPI.Interfaces](Sandbox.ModAPI.Interfaces)  
 **Assembly:** Sandbox.Common.dll
@@ -8,7 +9,8 @@
 **Inheritors:**  
 * [Sandbox.ModAPI.Interfaces.ITerminalProperty<TValue>](Sandbox.ModAPI.Interfaces.ITerminalProperty`1)
 
-###Properties
+### 
+Properties
 
 |Member|Description|
 |---|---|

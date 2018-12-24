@@ -1,11 +1,13 @@
 ← [Index](Api-Index)
 
-#CurveContinuity Enum
+# 
+CurveContinuity Enum
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-###Fields
+### 
+Fields
 
 |Member|Description|
 |---|---|

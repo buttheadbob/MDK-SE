@@ -1,11 +1,13 @@
 ← [Index](Api-Index)
 
-#MyObjectBuilder_Base Class
+# 
+MyObjectBuilder_Base Class
 
 **Namespace:** [VRage.ObjectBuilders](VRage.ObjectBuilders)  
 **Assembly:** VRage.Game.dll
 
-###Properties
+### 
+Properties
 
 |Member|Description|
 |---|---|

@@ -1,24 +1,28 @@
 ← [Index](Api-Index)
 
-#SymmetricSerializableRange Struct
+# 
+SymmetricSerializableRange Struct
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-###Fields
+### 
+Fields
 
 |Member|Description|
 |---|---|
 |[Min](VRageMath.SymmetricSerializableRange.Min)||
 |[Max](VRageMath.SymmetricSerializableRange.Max)||
 
-###Properties
+### 
+Properties
 
 |Member|Description|
 |---|---|
 |[Mirror](VRageMath.SymmetricSerializableRange.Mirror)||
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

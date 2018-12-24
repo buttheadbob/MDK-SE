@@ -1,6 +1,7 @@
 ← [Index](Api-Index)
 
-#Sandbox.ModAPI.Interfaces
+# 
+Sandbox.ModAPI.Interfaces
 
 **[ITerminalAction](Sandbox.ModAPI.Interfaces.ITerminalAction)**  
 **[ITerminalProperty](Sandbox.ModAPI.Interfaces.ITerminalProperty)**  

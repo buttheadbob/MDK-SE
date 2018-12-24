@@ -1,11 +1,13 @@
 ← [Index](Api-Index)
 
-#Vector3B Struct
+# 
+Vector3B Struct
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-###Fields
+### 
+Fields
 
 |Member|Description|
 |---|---|
@@ -20,7 +22,8 @@
 |[Forward](VRageMath.Vector3B.Forward)||
 |[Backward](VRageMath.Vector3B.Backward)||
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

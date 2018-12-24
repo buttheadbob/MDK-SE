@@ -1,11 +1,13 @@
 ← [Index](Api-Index)
 
-#MyUShort4 Struct
+# 
+MyUShort4 Struct
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-###Fields
+### 
+Fields
 
 |Member|Description|
 |---|---|

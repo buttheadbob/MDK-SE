@@ -1,11 +1,13 @@
 ← [Index](Api-Index)
 
-#MyWaypointInfo Struct
+# 
+MyWaypointInfo Struct
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
 
-###Fields
+### 
+Fields
 
 |Member|Description|
 |---|---|
@@ -13,7 +15,8 @@
 |[Coords](Sandbox.ModAPI.Ingame.MyWaypointInfo.Coords)|Gets the target coordinate as a [Vector3D](VRageMath.Vector3D) |
 |[Empty](Sandbox.ModAPI.Ingame.MyWaypointInfo.Empty)|Returns an empty (undefined) GPS coordinate|
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

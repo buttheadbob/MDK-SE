@@ -1,11 +1,13 @@
 ← [Index](Api-Index)
 
-#AddOp<T> Interface
+# 
+AddOp&lt;T&gt; Interface
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

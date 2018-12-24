@@ -1,17 +1,20 @@
 ← [Index](Api-Index)
 
-#ClearToken<T> Struct
+# 
+ClearToken&lt;T&gt; Struct
 
 **Namespace:** [System.Collections.Generic](System.Collections.Generic)  
 **Assembly:** VRage.Library.dll
 
-###Fields
+### 
+Fields
 
 |Member|Description|
 |---|---|
 |[List](System.Collections.Generic.ClearToken`1.List)||
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

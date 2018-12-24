@@ -1,6 +1,7 @@
 ← [Index](Api-Index)
 
-#MyResourceSinkComponentBase Class
+# 
+MyResourceSinkComponentBase Class
 
 **Namespace:** [VRage.Game.Components](VRage.Game.Components)  
 **Assembly:** VRage.Game.dll
@@ -8,13 +9,15 @@
 **Inheritors:**  
 * [Sandbox.Game.EntityComponents.MyResourceSinkComponent](Sandbox.Game.EntityComponents.MyResourceSinkComponent)
 
-###Properties
+### 
+Properties
 
 |Member|Description|
 |---|---|
 |[AcceptedResources](VRage.Game.Components.MyResourceSinkComponentBase.AcceptedResources)||
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

@@ -1,11 +1,13 @@
 ← [Index](Api-Index)
 
-#CurveKey Class
+# 
+CurveKey Class
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-###Properties
+### 
+Properties
 
 |Member|Description|
 |---|---|
@@ -15,7 +17,8 @@
 |[TangentOut](VRageMath.CurveKey.TangentOut)|Describes the tangent when leaving this point to the next point in the curve.|
 |[Continuity](VRageMath.CurveKey.Continuity)|Describes whether the segment between this point and the next point in the curve is discrete or continuous.|
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

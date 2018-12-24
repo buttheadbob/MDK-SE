@@ -1,11 +1,13 @@
 ← [Index](Api-Index)
 
-#MyShipVelocities Struct
+# 
+MyShipVelocities Struct
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
 
-###Fields
+### 
+Fields
 
 |Member|Description|
 |---|---|

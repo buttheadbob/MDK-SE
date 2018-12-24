@@ -1,6 +1,7 @@
 ← [Index](Api-Index)
 
-#IMyMechanicalConnectionBlock Interface
+# 
+IMyMechanicalConnectionBlock Interface
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
@@ -16,7 +17,8 @@
 * [Sandbox.ModAPI.Ingame.IMyPistonBase](Sandbox.ModAPI.Ingame.IMyPistonBase)  
 * [Sandbox.ModAPI.Ingame.IMyMotorSuspension](Sandbox.ModAPI.Ingame.IMyMotorSuspension)
 
-###Properties
+### 
+Properties
 
 |Member|Description|
 |---|---|
@@ -65,7 +67,8 @@
 |[ShowInInventory](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[Enabled](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.Enabled)|_Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_|
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

@@ -1,11 +1,13 @@
 ← [Index](Api-Index)
 
-#LineD Struct
+# 
+LineD Struct
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-###Fields
+### 
+Fields
 
 |Member|Description|
 |---|---|
@@ -14,7 +16,8 @@
 |[Direction](VRageMath.LineD.Direction)||
 |[Length](VRageMath.LineD.Length)||
 
-###Methods
+### 
+Methods
 
 |Member|Description|
 |---|---|

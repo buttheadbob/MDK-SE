@@ -1,7 +1,6 @@
 ← [Index](Api-Index)
 
-# 
-IMyGravityGenerator Interface
+# IMyGravityGenerator Interface
 
 **Namespace:** [SpaceEngineers.Game.ModAPI.Ingame](SpaceEngineers.Game.ModAPI.Ingame)  
 **Assembly:** SpaceEngineers.Game.dll
@@ -13,8 +12,7 @@ IMyGravityGenerator Interface
 * [VRage.Game.ModAPI.Ingame.IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [VRage.Game.ModAPI.Ingame.IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
-### 
-Properties
+### Properties
 
 |Member|Description|
 |---|---|
@@ -62,8 +60,7 @@ Properties
 |[Gravity](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorBase.Gravity)|_**Obsolete:** Use GravityAcceleration._<br /><br />Gets the gravity acceleration<br /><br />_Inherited from [IMyGravityGeneratorBase](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorBase)_|
 |[GravityAcceleration](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorBase.GravityAcceleration)|Gets or sets the gravity acceleration in m/s^2.<br /><br />_Inherited from [IMyGravityGeneratorBase](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorBase)_|
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

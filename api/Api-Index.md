@@ -1,5 +1,4 @@
-# 
-Assemblies
+# Assemblies
 
 These are the game assemblies used by programmable block scripts.  
   
@@ -12,11 +11,9 @@ VRage.Game.dll
 VRage.Library.dll  
 VRage.Math.dll  
 
-## 
-Types
+## Types
 
-### 
-Blocks
+### Blocks
 
 Use these interfaces when you wish to access specific block types.
 
@@ -68,8 +65,7 @@ Use these interfaces when you wish to access specific block types.
 [IMyVirtualMass](SpaceEngineers.Game.ModAPI.Ingame.IMyVirtualMass)  
 [IMyWarhead](Sandbox.ModAPI.Ingame.IMyWarhead)
 
-### 
-Block Categories
+### Block Categories
 
 Use these interfaces when you wish to access blocks by a specific function or category rather than a specific block type.
 
@@ -83,8 +79,7 @@ Use these interfaces when you wish to access blocks by a specific function or ca
 [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 [IMyUserControllableGun](Sandbox.ModAPI.Ingame.IMyUserControllableGun)
 
-### 
-Utilities
+### Utilities
 
 Various useful utilities for your scripts
 
@@ -100,8 +95,7 @@ Various useful utilities for your scripts
 [StringSegment](VRage.Game.ModAPI.Ingame.Utilities.StringSegment)  
 [TextPtr](VRage.Game.ModAPI.Ingame.Utilities.TextPtr)
 
-### 
-Grid Program and Terminal System
+### Grid Program and Terminal System
 
 Types related to the grid program and grid terminal system
 
@@ -115,8 +109,7 @@ Types related to the grid program and grid terminal system
 [UpdateFrequency](Sandbox.ModAPI.Ingame.UpdateFrequency)  
 [UpdateType](Sandbox.ModAPI.Ingame.UpdateType)
 
-### 
-Entity Component Systems
+### Entity Component Systems
 
 Gain access to advanced block components
 
@@ -127,8 +120,7 @@ Gain access to advanced block components
 [MyResourceSourceComponent](Sandbox.Game.EntityComponents.MyResourceSourceComponent)  
 [MyResourceSourceComponentBase](VRage.Game.Components.MyResourceSourceComponentBase)
 
-### 
-Inventory
+### Inventory
 
 Types related to inventory analysis and management.
 
@@ -136,8 +128,7 @@ Types related to inventory analysis and management.
 [IMyInventoryItem](VRage.Game.ModAPI.Ingame.IMyInventoryItem)  
 [MyInventoryItemExtension](VRage.Game.ModAPI.Ingame.MyInventoryItemExtension)
 
-### 
-Terminal Properties and Actions
+### Terminal Properties and Actions
 
 Types related to the terminal properties and actions. You should endeavor to avoid the use of these if possible due to their extra overhead. There are usually proper interface members available instead, which are orders of magnitude faster in use.
 
@@ -147,8 +138,7 @@ Types related to the terminal properties and actions. You should endeavor to avo
 [TerminalActionExtensions](Sandbox.Game.Gui.TerminalActionExtensions)  
 [TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter)
 
-### 
-Math
+### Math
 
 Math utilities
 
@@ -256,8 +246,7 @@ Math utilities
 [Vector4I.EqualityComparer](VRageMath.Vector4I+EqualityComparer)  
 [Vector4UByte](VRageMath.Vector4UByte)
 
-### 
-Other
+### Other
 
 Currently ungrouped types
 
@@ -316,8 +305,7 @@ Currently ungrouped types
 [TerminalPropertyExtensions](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions)  
 [VentStatus](SpaceEngineers.Game.ModAPI.Ingame.VentStatus)
 
-### 
-Obsolete
+### Obsolete
 
 These types should no longer be used and may be removed in the future. If you're using one of these types, you should replace them as soon as possible.
 

@@ -1,2 +1,3 @@
 ← [Index](Api-Index) ← [Ray](VRageMath.Ray)
 
+[Nullable<T>](System.Nullable`1) System.Nullable<T> VRageMath.Ray.Intersects(box)()void void VRageMath.Ray.Intersects(box, result)()[Nullable<T>](System.Nullable`1) System.Nullable<T> VRageMath.Ray.Intersects(frustum)()[Nullable<T>](System.Nullable`1) System.Nullable<T> VRageMath.Ray.Intersects(plane)()void void VRageMath.Ray.Intersects(plane, result)()[Nullable<T>](System.Nullable`1) System.Nullable<T> VRageMath.Ray.Intersects(sphere)()void void VRageMath.Ray.Intersects(sphere, result)()

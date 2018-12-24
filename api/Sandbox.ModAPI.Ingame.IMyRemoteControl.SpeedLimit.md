@@ -1,2 +1,3 @@
 ← [Index](Api-Index) ← [IMyRemoteControl](Sandbox.ModAPI.Ingame.IMyRemoteControl)
 
+[float](System.Single) float Sandbox.ModAPI.Ingame.IMyRemoteControl.SpeedLimit

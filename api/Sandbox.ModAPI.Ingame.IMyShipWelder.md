@@ -1,7 +1,6 @@
 ← [Index](Api-Index)
 
-# 
-IMyShipWelder Interface
+# IMyShipWelder Interface
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
@@ -13,8 +12,7 @@ IMyShipWelder Interface
 * [VRage.Game.ModAPI.Ingame.IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [VRage.Game.ModAPI.Ingame.IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
-### 
-Properties
+### Properties
 
 |Member|Description|
 |---|---|
@@ -58,8 +56,7 @@ Properties
 |[Enabled](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.Enabled)|_Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_|
 |[UseConveyorSystem](Sandbox.ModAPI.Ingame.IMyShipToolBase.UseConveyorSystem)|_Inherited from [IMyShipToolBase](Sandbox.ModAPI.Ingame.IMyShipToolBase)_|
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

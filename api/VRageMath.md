@@ -1,7 +1,6 @@
 ← [Index](Api-Index)
 
-# 
-VRageMath
+# VRageMath
 
 **[AddOp](VRageMath.AddOp`1)**  
 **[Base27Directions](VRageMath.Base27Directions)**  

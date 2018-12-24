@@ -1,13 +1,11 @@
 ← [Index](Api-Index)
 
-# 
-ColorExtensions Class
+# ColorExtensions Class
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

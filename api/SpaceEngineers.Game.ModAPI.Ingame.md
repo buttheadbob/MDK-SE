@@ -1,7 +1,6 @@
 ← [Index](Api-Index)
 
-# 
-SpaceEngineers.Game.ModAPI.Ingame
+# SpaceEngineers.Game.ModAPI.Ingame
 
 **[IMyAirVent](SpaceEngineers.Game.ModAPI.Ingame.IMyAirVent)**  
 **[IMyButtonPanel](SpaceEngineers.Game.ModAPI.Ingame.IMyButtonPanel)**  

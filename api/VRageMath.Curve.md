@@ -1,13 +1,11 @@
 ← [Index](Api-Index)
 
-# 
-Curve Class
+# Curve Class
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### 
-Properties
+### Properties
 
 |Member|Description|
 |---|---|
@@ -16,8 +14,7 @@ Properties
 |[Keys](VRageMath.Curve.Keys)|The points that make up the curve.|
 |[IsConstant](VRageMath.Curve.IsConstant)|Gets a value indicating whether the curve is constant.|
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

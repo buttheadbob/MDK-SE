@@ -1,7 +1,6 @@
 ← [Index](Api-Index)
 
-# 
-IMyProgrammableBlock Interface
+# IMyProgrammableBlock Interface
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
@@ -12,8 +11,7 @@ IMyProgrammableBlock Interface
 * [VRage.Game.ModAPI.Ingame.IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [VRage.Game.ModAPI.Ingame.IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
-### 
-Properties
+### Properties
 
 |Member|Description|
 |---|---|
@@ -57,8 +55,7 @@ Properties
 |[ShowInInventory](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[Enabled](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.Enabled)|_Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_|
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

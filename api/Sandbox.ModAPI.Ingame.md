@@ -1,7 +1,6 @@
 ← [Index](Api-Index)
 
-# 
-Sandbox.ModAPI.Ingame
+# Sandbox.ModAPI.Ingame
 
 **[DoorStatus](Sandbox.ModAPI.Ingame.DoorStatus)**  
 **[FlightMode](Sandbox.ModAPI.Ingame.FlightMode)**  

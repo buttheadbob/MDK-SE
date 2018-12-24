@@ -1,2 +1,3 @@
 ← [Index](Api-Index) ← [MathHelper](VRageMath.MathHelper)
 
+[bool](System.Boolean) bool VRageMath.MathHelper.IsValid(matrix)()[bool](System.Boolean) bool VRageMath.MathHelper.IsValid(matrix)()[bool](System.Boolean) bool VRageMath.MathHelper.IsValid(vec)()[bool](System.Boolean) bool VRageMath.MathHelper.IsValid(vec)()[bool](System.Boolean) bool VRageMath.MathHelper.IsValid(vec)()[bool](System.Boolean) bool VRageMath.MathHelper.IsValid(f)()[bool](System.Boolean) bool VRageMath.MathHelper.IsValid(f)()[bool](System.Boolean) bool VRageMath.MathHelper.IsValid(vec)()[bool](System.Boolean) bool VRageMath.MathHelper.IsValid(q)()

@@ -1,13 +1,11 @@
 ← [Index](Api-Index)
 
-# 
-MyQuadD Struct
+# MyQuadD Struct
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### 
-Fields
+### Fields
 
 |Member|Description|
 |---|---|

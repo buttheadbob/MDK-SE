@@ -1,7 +1,6 @@
 ← [Index](Api-Index)
 
-# 
-IMyMotorStator Interface
+# IMyMotorStator Interface
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
@@ -13,8 +12,7 @@ IMyMotorStator Interface
 * [VRage.Game.ModAPI.Ingame.IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [VRage.Game.ModAPI.Ingame.IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
-### 
-Properties
+### Properties
 
 |Member|Description|
 |---|---|
@@ -74,8 +72,7 @@ Properties
 |[IsLocked](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.IsLocked)|_**Obsolete:** SafetyLock is no longer supported. This is property dummy property only, for backwards compatibility._<br /><br />Gets if the block is safety locked (welded)<br /><br />_Inherited from [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)_|
 |[PendingAttachment](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.PendingAttachment)|Gets if the block is looking for a top part<br /><br />_Inherited from [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)_|
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

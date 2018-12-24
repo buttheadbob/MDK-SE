@@ -1,7 +1,6 @@
 ← [Index](Api-Index)
 
-# 
-VRage.Game.Components
+# VRage.Game.Components
 
 **[MyComponentBase](VRage.Game.Components.MyComponentBase)**  
 **[MyComponentContainer](VRage.Game.Components.MyComponentContainer)**  

@@ -1,7 +1,6 @@
 ← [Index](Api-Index)
 
-# 
-VRage.Game.ModAPI.Ingame.Utilities
+# VRage.Game.ModAPI.Ingame.Utilities
 
 **[MyCommandLine](VRage.Game.ModAPI.Ingame.Utilities.MyCommandLine)**  
 **[MyIni](VRage.Game.ModAPI.Ingame.Utilities.MyIni)**  

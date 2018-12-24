@@ -1,2 +1,3 @@
 ← [Index](Api-Index) ← [BoundingSphereD](VRageMath.BoundingSphereD)
 
+[bool](System.Boolean) bool VRageMath.BoundingSphereD.Intersects(box)()void void VRageMath.BoundingSphereD.Intersects(box, result)()[Nullable<T>](System.Nullable`1) System.Nullable<T> VRageMath.BoundingSphereD.Intersects(ray)()[bool](System.Boolean) bool VRageMath.BoundingSphereD.Intersects(frustum)()[bool](System.Boolean) bool VRageMath.BoundingSphereD.Intersects(sphere)()void void VRageMath.BoundingSphereD.Intersects(sphere, result)()

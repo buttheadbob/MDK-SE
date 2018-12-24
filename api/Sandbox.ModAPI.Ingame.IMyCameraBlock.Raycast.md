@@ -1,2 +1,3 @@
 ← [Index](Api-Index) ← [IMyCameraBlock](Sandbox.ModAPI.Ingame.IMyCameraBlock)
 
+[MyDetectedEntityInfo](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo) Sandbox.ModAPI.Ingame.MyDetectedEntityInfo Sandbox.ModAPI.Ingame.IMyCameraBlock.Raycast(distance, pitch, yaw)()[MyDetectedEntityInfo](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo) Sandbox.ModAPI.Ingame.MyDetectedEntityInfo Sandbox.ModAPI.Ingame.IMyCameraBlock.Raycast(targetPos)()[MyDetectedEntityInfo](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo) Sandbox.ModAPI.Ingame.MyDetectedEntityInfo Sandbox.ModAPI.Ingame.IMyCameraBlock.Raycast(distance, targetDirection)()

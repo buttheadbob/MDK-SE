@@ -1,13 +1,11 @@
 ← [Index](Api-Index)
 
-# 
-Vector3UByte Struct
+# Vector3UByte Struct
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### 
-Fields
+### Fields
 
 |Member|Description|
 |---|---|
@@ -17,8 +15,7 @@ Fields
 |[Comparer](VRageMath.Vector3UByte.Comparer)||
 |[Zero](VRageMath.Vector3UByte.Zero)||
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

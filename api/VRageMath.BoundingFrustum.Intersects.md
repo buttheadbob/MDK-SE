@@ -1,2 +1,3 @@
 ← [Index](Api-Index) ← [BoundingFrustum](VRageMath.BoundingFrustum)
 
+[bool](System.Boolean) bool VRageMath.BoundingFrustum.Intersects(box)()void void VRageMath.BoundingFrustum.Intersects(box, result)()[bool](System.Boolean) bool VRageMath.BoundingFrustum.Intersects(frustum)()[PlaneIntersectionType](VRageMath.PlaneIntersectionType) VRageMath.PlaneIntersectionType VRageMath.BoundingFrustum.Intersects(plane)()void void VRageMath.BoundingFrustum.Intersects(plane, result)()[Nullable<T>](System.Nullable`1) System.Nullable<T> VRageMath.BoundingFrustum.Intersects(ray)()void void VRageMath.BoundingFrustum.Intersects(ray, result)()[bool](System.Boolean) bool VRageMath.BoundingFrustum.Intersects(sphere)()void void VRageMath.BoundingFrustum.Intersects(sphere, result)()

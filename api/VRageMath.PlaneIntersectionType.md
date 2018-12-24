@@ -1,13 +1,11 @@
 ← [Index](Api-Index)
 
-# 
-PlaneIntersectionType Enum
+# PlaneIntersectionType Enum
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### 
-Fields
+### Fields
 
 |Member|Description|
 |---|---|

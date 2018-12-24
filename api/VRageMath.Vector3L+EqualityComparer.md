@@ -1,7 +1,6 @@
 ← [Index](Api-Index)
 
-# 
-EqualityComparer Class
+# EqualityComparer Class
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll

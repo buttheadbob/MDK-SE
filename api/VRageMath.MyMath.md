@@ -1,20 +1,17 @@
 ← [Index](Api-Index)
 
-# 
-MyMath Class
+# MyMath Class
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### 
-Fields
+### Fields
 
 |Member|Description|
 |---|---|
 |[Vector3One](VRageMath.MyMath.Vector3One)||
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

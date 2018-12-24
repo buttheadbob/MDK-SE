@@ -1,7 +1,6 @@
 ← [Index](Api-Index)
 
-# 
-System
+# System
 
 **[ArrayExtensions](System.ArrayExtensions)**
 

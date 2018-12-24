@@ -1,13 +1,11 @@
 ← [Index](Api-Index)
 
-# 
-Vector4D Struct
+# Vector4D Struct
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### 
-Fields
+### Fields
 
 |Member|Description|
 |---|---|
@@ -22,8 +20,7 @@ Fields
 |[UnitZ](VRageMath.Vector4D.UnitZ)||
 |[UnitW](VRageMath.Vector4D.UnitW)||
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

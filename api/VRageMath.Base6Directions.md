@@ -1,13 +1,11 @@
 ← [Index](Api-Index)
 
-# 
-Base6Directions Class
+# Base6Directions Class
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### 
-Fields
+### Fields
 
 |Member|Description|
 |---|---|
@@ -15,8 +13,7 @@ Fields
 |[Directions](VRageMath.Base6Directions.Directions)||
 |[IntDirections](VRageMath.Base6Directions.IntDirections)||
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

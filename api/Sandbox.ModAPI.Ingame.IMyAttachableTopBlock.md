@@ -1,7 +1,6 @@
 ← [Index](Api-Index)
 
-# 
-IMyAttachableTopBlock Interface
+# IMyAttachableTopBlock Interface
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
@@ -10,8 +9,7 @@ IMyAttachableTopBlock Interface
 * [VRage.Game.ModAPI.Ingame.IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [VRage.Game.ModAPI.Ingame.IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
-### 
-Properties
+### Properties
 
 |Member|Description|
 |---|---|
@@ -45,8 +43,7 @@ Properties
 |[OwnerId](VRage.Game.ModAPI.Ingame.IMyCubeBlock.OwnerId)|Id of player owning block (not steam Id)<br /><br />_Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_|
 |[Position](VRage.Game.ModAPI.Ingame.IMyCubeBlock.Position)|Position in grid coordinates<br /><br />_Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_|
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

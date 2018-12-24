@@ -1,7 +1,6 @@
 ← [Index](Api-Index)
 
-# 
-VRage.Game.ObjectBuilders.Definitions
+# VRage.Game.ObjectBuilders.Definitions
 
 **[MyObjectBuilder_GasProperties](VRage.Game.ObjectBuilders.Definitions.MyObjectBuilder_GasProperties)**
 

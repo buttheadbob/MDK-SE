@@ -1,13 +1,11 @@
 ← [Index](Api-Index)
 
-# 
-BoundingBoxD Struct
+# BoundingBoxD Struct
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### 
-Fields
+### Fields
 
 |Member|Description|
 |---|---|
@@ -16,8 +14,7 @@ Fields
 |[Comparer](VRageMath.BoundingBoxD.Comparer)||
 |[CornerCount](VRageMath.BoundingBoxD.CornerCount)|Specifies the total number of corners (8) in the BoundingBox.|
 
-### 
-Properties
+### Properties
 
 |Member|Description|
 |---|---|
@@ -31,8 +28,7 @@ Properties
 |[Perimeter](VRageMath.BoundingBoxD.Perimeter)|return perimeter of edges|
 |[Valid](VRageMath.BoundingBoxD.Valid)||
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

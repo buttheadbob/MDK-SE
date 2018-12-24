@@ -1,13 +1,11 @@
 ← [Index](Api-Index)
 
-# 
-MyTupleComparer&lt;T1, T2, T3&gt; Class
+# MyTupleComparer&lt;T1, T2, T3&gt; Class
 
 **Namespace:** [VRage](VRage)  
 **Assembly:** VRage.Library.dll
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

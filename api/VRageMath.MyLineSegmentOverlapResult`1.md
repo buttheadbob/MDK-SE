@@ -1,13 +1,11 @@
 ← [Index](Api-Index)
 
-# 
-MyLineSegmentOverlapResult&lt;T&gt; Struct
+# MyLineSegmentOverlapResult&lt;T&gt; Struct
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### 
-Fields
+### Fields
 
 |Member|Description|
 |---|---|

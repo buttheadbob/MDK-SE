@@ -1,2 +1,3 @@
 ← [Index](Api-Index) ← [MyOrientedBoundingBoxD](VRageMath.MyOrientedBoundingBoxD)
 
+[MyOrientedBoundingBoxD](VRageMath.MyOrientedBoundingBoxD) VRageMath.MyOrientedBoundingBoxD VRageMath.MyOrientedBoundingBoxD.Transform(rotation, translation)()[MyOrientedBoundingBoxD](VRageMath.MyOrientedBoundingBoxD) VRageMath.MyOrientedBoundingBoxD VRageMath.MyOrientedBoundingBoxD.Transform(scale, rotation, translation)()void void VRageMath.MyOrientedBoundingBoxD.Transform(matrix)()

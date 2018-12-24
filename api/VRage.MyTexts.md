@@ -1,20 +1,17 @@
 ← [Index](Api-Index)
 
-# 
-MyTexts Class
+# MyTexts Class
 
 **Namespace:** [VRage](VRage)  
 **Assembly:** VRage.dll
 
-### 
-Properties
+### Properties
 
 |Member|Description|
 |---|---|
 |[Languages](VRage.MyTexts.Languages)||
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

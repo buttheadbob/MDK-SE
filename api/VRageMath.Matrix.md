@@ -1,13 +1,11 @@
 ← [Index](Api-Index)
 
-# 
-Matrix Struct
+# Matrix Struct
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### 
-Fields
+### Fields
 
 |Member|Description|
 |---|---|
@@ -30,8 +28,7 @@ Fields
 |[Identity](VRageMath.Matrix.Identity)||
 |[Zero](VRageMath.Matrix.Zero)||
 
-### 
-Properties
+### Properties
 
 |Member|Description|
 |---|---|
@@ -48,8 +45,7 @@ Properties
 |[Translation](VRageMath.Matrix.Translation)|Gets and sets the translation vector of the Matrix.|
 |[Item](VRageMath.Matrix.Item)||
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

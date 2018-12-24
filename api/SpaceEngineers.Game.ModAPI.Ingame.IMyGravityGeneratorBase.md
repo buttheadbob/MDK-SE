@@ -1,7 +1,6 @@
 ← [Index](Api-Index)
 
-# 
-IMyGravityGeneratorBase Interface
+# IMyGravityGeneratorBase Interface
 
 **Namespace:** [SpaceEngineers.Game.ModAPI.Ingame](SpaceEngineers.Game.ModAPI.Ingame)  
 **Assembly:** SpaceEngineers.Game.dll
@@ -16,8 +15,7 @@ IMyGravityGeneratorBase Interface
 * [SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGenerator](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGenerator)  
 * [SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorSphere](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorSphere)
 
-### 
-Properties
+### Properties
 
 |Member|Description|
 |---|---|
@@ -61,8 +59,7 @@ Properties
 |[ShowInInventory](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[Enabled](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.Enabled)|_Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_|
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

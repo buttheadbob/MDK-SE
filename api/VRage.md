@@ -1,7 +1,6 @@
 ← [Index](Api-Index)
 
-# 
-VRage
+# VRage
 
 **[MyFixedPoint](VRage.MyFixedPoint)**  
 **[MyLanguagesEnum](VRage.MyLanguagesEnum)**  

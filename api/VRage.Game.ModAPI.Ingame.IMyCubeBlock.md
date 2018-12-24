@@ -1,7 +1,6 @@
 ← [Index](Api-Index)
 
-# 
-IMyCubeBlock Interface
+# IMyCubeBlock Interface
 
 **Namespace:** [VRage.Game.ModAPI.Ingame](VRage.Game.ModAPI.Ingame)  
 **Assembly:** VRage.Game.dll
@@ -70,8 +69,7 @@ IMyCubeBlock Interface
 * [SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock](SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock)  
 * [SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase)
 
-### 
-Properties
+### Properties
 
 |Member|Description|
 |---|---|
@@ -103,8 +101,7 @@ Properties
 |[WorldVolume](VRage.Game.ModAPI.Ingame.IMyEntity.WorldVolume)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[WorldVolumeHr](VRage.Game.ModAPI.Ingame.IMyEntity.WorldVolumeHr)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

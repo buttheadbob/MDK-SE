@@ -1,28 +1,24 @@
 ← [Index](Api-Index)
 
-# 
-ListReader&lt;T&gt; Struct
+# ListReader&lt;T&gt; Struct
 
 **Namespace:** [VRage.Collections](VRage.Collections)  
 **Assembly:** VRage.Library.dll
 
-### 
-Fields
+### Fields
 
 |Member|Description|
 |---|---|
 |[Empty](VRage.Collections.ListReader`1.Empty)||
 
-### 
-Properties
+### Properties
 
 |Member|Description|
 |---|---|
 |[Count](VRage.Collections.ListReader`1.Count)||
 |[Item](VRage.Collections.ListReader`1.Item)||
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

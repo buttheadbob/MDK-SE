@@ -1,13 +1,11 @@
 ← [Index](Api-Index)
 
-# 
-MyInventoryItemExtension Class
+# MyInventoryItemExtension Class
 
 **Namespace:** [VRage.Game.ModAPI.Ingame](VRage.Game.ModAPI.Ingame)  
 **Assembly:** VRage.Game.dll
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

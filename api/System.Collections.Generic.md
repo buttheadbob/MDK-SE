@@ -1,7 +1,6 @@
 ← [Index](Api-Index)
 
-# 
-System.Collections.Generic
+# System.Collections.Generic
 
 **[ClearToken](System.Collections.Generic.ClearToken`1)**  
 **[DictionaryExtensions](System.Collections.Generic.DictionaryExtensions)**  

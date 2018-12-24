@@ -1,21 +1,18 @@
 ← [Index](Api-Index)
 
-# 
-MyIni Class
+# MyIni Class
 
 **Namespace:** [VRage.Game.ModAPI.Ingame.Utilities](VRage.Game.ModAPI.Ingame.Utilities)  
 **Assembly:** VRage.Game.dll
 
-### 
-Properties
+### Properties
 
 |Member|Description|
 |---|---|
 |[EndContent](VRage.Game.ModAPI.Ingame.Utilities.MyIni.EndContent)|You can terminate a configuration stream by entering "---" on a separate line. This property will contain all the content after this line.|
 |[EndComment](VRage.Game.ModAPI.Ingame.Utilities.MyIni.EndComment)|Get or set a comment to be placed after the last section or item. Is`null`if the section does not exist or has no comment.|
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

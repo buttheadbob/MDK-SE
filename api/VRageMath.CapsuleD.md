@@ -1,13 +1,11 @@
 ← [Index](Api-Index)
 
-# 
-CapsuleD Struct
+# CapsuleD Struct
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### 
-Fields
+### Fields
 
 |Member|Description|
 |---|---|
@@ -15,8 +13,7 @@ Fields
 |[P1](VRageMath.CapsuleD.P1)||
 |[Radius](VRageMath.CapsuleD.Radius)||
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

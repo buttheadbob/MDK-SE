@@ -1,13 +1,11 @@
 ← [Index](Api-Index)
 
-# 
-Vector2 Struct
+# Vector2 Struct
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### 
-Fields
+### Fields
 
 |Member|Description|
 |---|---|
@@ -19,15 +17,13 @@ Fields
 |[UnitY](VRageMath.Vector2.UnitY)||
 |[PositiveInfinity](VRageMath.Vector2.PositiveInfinity)||
 
-### 
-Properties
+### Properties
 
 |Member|Description|
 |---|---|
 |[Item](VRageMath.Vector2.Item)||
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

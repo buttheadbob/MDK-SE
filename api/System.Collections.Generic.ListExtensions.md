@@ -1,13 +1,11 @@
 ← [Index](Api-Index)
 
-# 
-ListExtensions Class
+# ListExtensions Class
 
 **Namespace:** [System.Collections.Generic](System.Collections.Generic)  
 **Assembly:** VRage.Library.dll
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

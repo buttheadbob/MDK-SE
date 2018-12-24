@@ -1,2 +1,3 @@
 ← [Index](Api-Index) ← [BoundingBox2](VRageMath.BoundingBox2)
 
+[BoundingBox2](VRageMath.BoundingBox2) VRageMath.BoundingBox2 VRageMath.BoundingBox2.Include(point)()[BoundingBox2](VRageMath.BoundingBox2) VRageMath.BoundingBox2 VRageMath.BoundingBox2.Include(point)()[BoundingBox2](VRageMath.BoundingBox2) VRageMath.BoundingBox2 VRageMath.BoundingBox2.Include(p0, p1, p2)()[BoundingBox2](VRageMath.BoundingBox2) VRageMath.BoundingBox2 VRageMath.BoundingBox2.Include(p0, p1, p2)()[BoundingBox2](VRageMath.BoundingBox2) VRageMath.BoundingBox2 VRageMath.BoundingBox2.Include(box)()[BoundingBox2](VRageMath.BoundingBox2) VRageMath.BoundingBox2 VRageMath.BoundingBox2.Include(box)()

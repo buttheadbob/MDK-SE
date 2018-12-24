@@ -1,13 +1,11 @@
 ← [Index](Api-Index)
 
-# 
-VentStatus Enum
+# VentStatus Enum
 
 **Namespace:** [SpaceEngineers.Game.ModAPI.Ingame](SpaceEngineers.Game.ModAPI.Ingame)  
 **Assembly:** SpaceEngineers.Game.dll
 
-### 
-Fields
+### Fields
 
 |Member|Description|
 |---|---|

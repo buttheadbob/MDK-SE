@@ -1,2 +1,3 @@
 ← [Index](Api-Index) ← [PlaneD](VRageMath.PlaneD)
 
+[PlaneIntersectionType](VRageMath.PlaneIntersectionType) VRageMath.PlaneIntersectionType VRageMath.PlaneD.Intersects(box)()void void VRageMath.PlaneD.Intersects(box, result)()[PlaneIntersectionType](VRageMath.PlaneIntersectionType) VRageMath.PlaneIntersectionType VRageMath.PlaneD.Intersects(frustum)()[PlaneIntersectionType](VRageMath.PlaneIntersectionType) VRageMath.PlaneIntersectionType VRageMath.PlaneD.Intersects(sphere)()void void VRageMath.PlaneD.Intersects(sphere, result)()

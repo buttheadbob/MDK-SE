@@ -1,20 +1,17 @@
 ← [Index](Api-Index)
 
-# 
-Vector3I_RangeIterator Struct
+# Vector3I_RangeIterator Struct
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### 
-Fields
+### Fields
 
 |Member|Description|
 |---|---|
 |[Current](VRageMath.Vector3I_RangeIterator.Current)|Do not modify, public only for optimization!|
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

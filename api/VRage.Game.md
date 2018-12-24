@@ -1,7 +1,6 @@
 ← [Index](Api-Index)
 
-# 
-VRage.Game
+# VRage.Game
 
 **[MyCubeSize](VRage.Game.MyCubeSize)**  
 **[MyDefinitionId](VRage.Game.MyDefinitionId)**  

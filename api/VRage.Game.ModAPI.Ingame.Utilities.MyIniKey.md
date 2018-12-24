@@ -1,20 +1,17 @@
 ← [Index](Api-Index)
 
-# 
-MyIniKey Struct
+# MyIniKey Struct
 
 **Namespace:** [VRage.Game.ModAPI.Ingame.Utilities](VRage.Game.ModAPI.Ingame.Utilities)  
 **Assembly:** VRage.Game.dll
 
-### 
-Fields
+### Fields
 
 |Member|Description|
 |---|---|
 |[EMPTY](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey.EMPTY)||
 
-### 
-Properties
+### Properties
 
 |Member|Description|
 |---|---|
@@ -22,8 +19,7 @@ Properties
 |[Name](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey.Name)|Gets the Key part of this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) |
 |[IsEmpty](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey.IsEmpty)|Determines whether this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) is empty.|
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

@@ -1,13 +1,11 @@
 ← [Index](Api-Index)
 
-# 
-MyBounds Struct
+# MyBounds Struct
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### 
-Fields
+### Fields
 
 |Member|Description|
 |---|---|
@@ -15,8 +13,7 @@ Fields
 |[Max](VRageMath.MyBounds.Max)||
 |[Default](VRageMath.MyBounds.Default)||
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

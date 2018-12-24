@@ -1,2 +1,3 @@
 ← [Index](Api-Index) ← [BoundingBoxI](VRageMath.BoundingBoxI)
 
+[bool](System.Boolean) bool VRageMath.BoundingBoxI.Intersects(box)()[bool](System.Boolean) bool VRageMath.BoundingBoxI.Intersects(box)()void void VRageMath.BoundingBoxI.Intersects(box, result)()[PlaneIntersectionType](VRageMath.PlaneIntersectionType) VRageMath.PlaneIntersectionType VRageMath.BoundingBoxI.Intersects(plane)()void void VRageMath.BoundingBoxI.Intersects(plane, result)()[bool](System.Boolean) bool VRageMath.BoundingBoxI.Intersects(line, distance)()[Nullable<T>](System.Nullable`1) System.Nullable<T> VRageMath.BoundingBoxI.Intersects(ray)()void void VRageMath.BoundingBoxI.Intersects(ray, result)()

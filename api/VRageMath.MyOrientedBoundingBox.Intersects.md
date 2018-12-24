@@ -1,2 +1,3 @@
 ← [Index](Api-Index) ← [MyOrientedBoundingBox](VRageMath.MyOrientedBoundingBox)
 
+[bool](System.Boolean) bool VRageMath.MyOrientedBoundingBox.Intersects(box)()[bool](System.Boolean) bool VRageMath.MyOrientedBoundingBox.Intersects(other)()[bool](System.Boolean) bool VRageMath.MyOrientedBoundingBox.Intersects(frustum)()[bool](System.Boolean) bool VRageMath.MyOrientedBoundingBox.Intersects(sphere)()[Nullable<T>](System.Nullable`1) System.Nullable<T> VRageMath.MyOrientedBoundingBox.Intersects(ray)()[Nullable<T>](System.Nullable`1) System.Nullable<T> VRageMath.MyOrientedBoundingBox.Intersects(line)()[PlaneIntersectionType](VRageMath.PlaneIntersectionType) VRageMath.PlaneIntersectionType VRageMath.MyOrientedBoundingBox.Intersects(plane)()

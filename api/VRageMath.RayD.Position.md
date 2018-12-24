@@ -1,2 +1,3 @@
 ← [Index](Api-Index) ← [RayD](VRageMath.RayD)
 
+[Vector3D](VRageMath.Vector3D) VRageMath.Vector3D VRageMath.RayD.Position

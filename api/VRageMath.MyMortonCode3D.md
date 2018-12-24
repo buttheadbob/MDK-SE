@@ -1,13 +1,11 @@
 ← [Index](Api-Index)
 
-# 
-MyMortonCode3D Class
+# MyMortonCode3D Class
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

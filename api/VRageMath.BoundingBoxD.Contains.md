@@ -1,2 +1,3 @@
 ← [Index](Api-Index) ← [BoundingBoxD](VRageMath.BoundingBoxD)
 
+[ContainmentType](VRageMath.ContainmentType) VRageMath.ContainmentType VRageMath.BoundingBoxD.Contains(box)()void void VRageMath.BoundingBoxD.Contains(box, result)()[ContainmentType](VRageMath.ContainmentType) VRageMath.ContainmentType VRageMath.BoundingBoxD.Contains(frustum)()[ContainmentType](VRageMath.ContainmentType) VRageMath.ContainmentType VRageMath.BoundingBoxD.Contains(point)()void void VRageMath.BoundingBoxD.Contains(point, result)()[ContainmentType](VRageMath.ContainmentType) VRageMath.ContainmentType VRageMath.BoundingBoxD.Contains(sphere)()void void VRageMath.BoundingBoxD.Contains(sphere, result)()

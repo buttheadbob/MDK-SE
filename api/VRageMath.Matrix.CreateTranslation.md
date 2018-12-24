@@ -1,2 +1,3 @@
 ← [Index](Api-Index) ← [Matrix](VRageMath.Matrix)
 
+[Matrix](VRageMath.Matrix) VRageMath.Matrix VRageMath.Matrix.CreateTranslation(position)()void void VRageMath.Matrix.CreateTranslation(position, result)()[Matrix](VRageMath.Matrix) VRageMath.Matrix VRageMath.Matrix.CreateTranslation(xPosition, yPosition, zPosition)()void void VRageMath.Matrix.CreateTranslation(xPosition, yPosition, zPosition, result)()

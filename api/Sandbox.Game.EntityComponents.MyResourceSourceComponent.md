@@ -1,15 +1,13 @@
 ← [Index](Api-Index)
 
-# 
-MyResourceSourceComponent Class
+# MyResourceSourceComponent Class
 
 **Namespace:** [Sandbox.Game.EntityComponents](Sandbox.Game.EntityComponents)  
 **Assembly:** Sandbox.Game.dll
 
 **Inheritance: **[MyResourceSourceComponentBase](VRage.Game.Components.MyResourceSourceComponentBase)
 
-### 
-Properties
+### Properties
 
 |Member|Description|
 |---|---|
@@ -20,8 +18,7 @@ Properties
 |[RemainingCapacity](Sandbox.Game.EntityComponents.MyResourceSourceComponent.RemainingCapacity)||
 |[HasCapacityRemaining](Sandbox.Game.EntityComponents.MyResourceSourceComponent.HasCapacityRemaining)||
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

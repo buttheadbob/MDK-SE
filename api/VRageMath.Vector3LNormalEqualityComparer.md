@@ -1,13 +1,11 @@
 ← [Index](Api-Index)
 
-# 
-Vector3LNormalEqualityComparer Class
+# Vector3LNormalEqualityComparer Class
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

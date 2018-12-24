@@ -1,13 +1,11 @@
 ← [Index](Api-Index)
 
-# 
-MatrixI Struct
+# MatrixI Struct
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### 
-Fields
+### Fields
 
 |Member|Description|
 |---|---|
@@ -16,8 +14,7 @@ Fields
 |[Backward](VRageMath.MatrixI.Backward)||
 |[Translation](VRageMath.MatrixI.Translation)||
 
-### 
-Properties
+### Properties
 
 |Member|Description|
 |---|---|
@@ -31,8 +28,7 @@ Properties
 |[BackwardVector](VRageMath.MatrixI.BackwardVector)||
 |[ForwardVector](VRageMath.MatrixI.ForwardVector)||
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

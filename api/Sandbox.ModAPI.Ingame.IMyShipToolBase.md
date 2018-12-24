@@ -1,7 +1,6 @@
 ← [Index](Api-Index)
 
-# 
-IMyShipToolBase Interface
+# IMyShipToolBase Interface
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
@@ -15,8 +14,7 @@ IMyShipToolBase Interface
 **Inheritors:**  
 * [Sandbox.ModAPI.Ingame.IMyShipWelder](Sandbox.ModAPI.Ingame.IMyShipWelder)
 
-### 
-Properties
+### Properties
 
 |Member|Description|
 |---|---|
@@ -59,8 +57,7 @@ Properties
 |[ShowInInventory](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[Enabled](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.Enabled)|_Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_|
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

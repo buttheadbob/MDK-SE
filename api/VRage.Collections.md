@@ -1,7 +1,6 @@
 ← [Index](Api-Index)
 
-# 
-VRage.Collections
+# VRage.Collections
 
 **[ListReader](VRage.Collections.ListReader`1)**
 

@@ -1,13 +1,11 @@
 ← [Index](Api-Index)
 
-# 
-CurveLoopType Enum
+# CurveLoopType Enum
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### 
-Fields
+### Fields
 
 |Member|Description|
 |---|---|

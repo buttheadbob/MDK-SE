@@ -1,7 +1,6 @@
 ← [Index](Api-Index)
 
-# 
-IMyEntity Interface
+# IMyEntity Interface
 
 **Namespace:** [VRage.Game.ModAPI.Ingame](VRage.Game.ModAPI.Ingame)  
 **Assembly:** VRage.Game.dll
@@ -69,8 +68,7 @@ IMyEntity Interface
 * [VRage.Game.ModAPI.Ingame.IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [VRage.Game.ModAPI.Ingame.IMyCubeGrid](VRage.Game.ModAPI.Ingame.IMyCubeGrid)
 
-### 
-Properties
+### Properties
 
 |Member|Description|
 |---|---|
@@ -86,8 +84,7 @@ Properties
 |[WorldVolume](VRage.Game.ModAPI.Ingame.IMyEntity.WorldVolume)||
 |[WorldVolumeHr](VRage.Game.ModAPI.Ingame.IMyEntity.WorldVolumeHr)||
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

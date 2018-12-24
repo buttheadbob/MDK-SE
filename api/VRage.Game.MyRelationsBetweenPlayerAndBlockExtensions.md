@@ -1,13 +1,11 @@
 ← [Index](Api-Index)
 
-# 
-MyRelationsBetweenPlayerAndBlockExtensions Class
+# MyRelationsBetweenPlayerAndBlockExtensions Class
 
 **Namespace:** [VRage.Game](VRage.Game)  
 **Assembly:** VRage.Game.dll
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

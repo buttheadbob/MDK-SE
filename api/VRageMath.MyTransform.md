@@ -1,28 +1,24 @@
 ← [Index](Api-Index)
 
-# 
-MyTransform Struct
+# MyTransform Struct
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### 
-Fields
+### Fields
 
 |Member|Description|
 |---|---|
 |[Rotation](VRageMath.MyTransform.Rotation)||
 |[Position](VRageMath.MyTransform.Position)||
 
-### 
-Properties
+### Properties
 
 |Member|Description|
 |---|---|
 |[TransformMatrix](VRageMath.MyTransform.TransformMatrix)||
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

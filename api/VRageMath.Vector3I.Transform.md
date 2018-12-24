@@ -1,2 +1,3 @@
 ← [Index](Api-Index) ← [Vector3I](VRageMath.Vector3I)
 
+void void VRageMath.Vector3I.Transform(position, matrix, result)()void void VRageMath.Vector3I.Transform(value, rotation, result)()[Vector3I](VRageMath.Vector3I) VRageMath.Vector3I VRageMath.Vector3I.Transform(value, rotation)()void void VRageMath.Vector3I.Transform(value, matrix, result)()[Vector3I](VRageMath.Vector3I) VRageMath.Vector3I VRageMath.Vector3I.Transform(value, transformation)()[Vector3I](VRageMath.Vector3I) VRageMath.Vector3I VRageMath.Vector3I.Transform(value, transformation)()

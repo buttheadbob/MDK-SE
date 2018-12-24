@@ -1,13 +1,11 @@
 ← [Index](Api-Index)
 
-# 
-BoundingBox2I Struct
+# BoundingBox2I Struct
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### 
-Fields
+### Fields
 
 |Member|Description|
 |---|---|
@@ -15,8 +13,7 @@ Fields
 |[Max](VRageMath.BoundingBox2I.Max)|The maximum point the BoundingBox2I contains.|
 |[CornerCount](VRageMath.BoundingBox2I.CornerCount)|Specifies the total number of corners (8) in the BoundingBox2I.|
 
-### 
-Properties
+### Properties
 
 |Member|Description|
 |---|---|
@@ -27,8 +24,7 @@ Properties
 |[Height](VRageMath.BoundingBox2I.Height)||
 |[Size](VRageMath.BoundingBox2I.Size)|Size|
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

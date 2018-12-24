@@ -1,13 +1,11 @@
 ← [Index](Api-Index)
 
-# 
-MyLanguagesEnum Enum
+# MyLanguagesEnum Enum
 
 **Namespace:** [VRage](VRage)  
 **Assembly:** VRage.dll
 
-### 
-Fields
+### Fields
 
 |Member|Description|
 |---|---|

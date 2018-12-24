@@ -1,13 +1,11 @@
 ← [Index](Api-Index)
 
-# 
-TerminalPropertyExtensions Class
+# TerminalPropertyExtensions Class
 
 **Namespace:** [Sandbox.ModAPI.Interfaces](Sandbox.ModAPI.Interfaces)  
 **Assembly:** Sandbox.Common.dll
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

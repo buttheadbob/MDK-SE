@@ -1,7 +1,6 @@
 ← [Index](Api-Index)
 
-# 
-IMyVirtualMass Interface
+# IMyVirtualMass Interface
 
 **Namespace:** [SpaceEngineers.Game.ModAPI.Ingame](SpaceEngineers.Game.ModAPI.Ingame)  
 **Assembly:** SpaceEngineers.Game.dll
@@ -15,8 +14,7 @@ IMyVirtualMass Interface
 **Inheritors:**  
 * [SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall](SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall)
 
-### 
-Properties
+### Properties
 
 |Member|Description|
 |---|---|
@@ -59,8 +57,7 @@ Properties
 |[ShowInInventory](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[Enabled](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.Enabled)|_Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_|
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

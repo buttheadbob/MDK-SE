@@ -1,13 +1,11 @@
 ← [Index](Api-Index)
 
-# 
-NullableVector3DExtensions Class
+# NullableVector3DExtensions Class
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### 
-Methods
+### Methods
 
 |Member|Description|
 |---|---|

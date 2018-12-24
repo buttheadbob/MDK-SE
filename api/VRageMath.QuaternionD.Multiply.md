@@ -1,2 +1,3 @@
 ← [Index](Api-Index) ← [QuaternionD](VRageMath.QuaternionD)
 
+[QuaternionD](VRageMath.QuaternionD) VRageMath.QuaternionD VRageMath.QuaternionD.Multiply(quaternion1, quaternion2)()void void VRageMath.QuaternionD.Multiply(quaternion1, quaternion2, result)()[QuaternionD](VRageMath.QuaternionD) VRageMath.QuaternionD VRageMath.QuaternionD.Multiply(quaternion1, scaleFactor)()void void VRageMath.QuaternionD.Multiply(quaternion1, scaleFactor, result)()

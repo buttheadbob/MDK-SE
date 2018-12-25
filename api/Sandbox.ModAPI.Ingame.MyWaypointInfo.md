@@ -3,13 +3,13 @@
 #### MyWaypointInfo Struct
 
 ```csharp
-public struct MyWaypointInfo: ValueType, IEquatable<T>
+public struct MyWaypointInfo: IEquatable<T>
 ```
+
+Represents a GPS coordinate
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
-
-**Inheritance:** [ValueType](https://docs.microsoft.com/en-us/dotnet/api/system.valuetype?view=netframework-4.6)
 
 **Implements:**  
 * [IEquatable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)

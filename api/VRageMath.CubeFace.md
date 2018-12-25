@@ -3,13 +3,11 @@
 #### CubeFace Enum
 
 ```csharp
-public enum CubeFace: Enum, IComparable, IFormattable, IConvertible
+public enum CubeFace: IComparable, IFormattable, IConvertible
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
-
-**Inheritance:** [Enum](https://docs.microsoft.com/en-us/dotnet/api/system.enum?view=netframework-4.6)
 
 **Implements:**  
 * [IComparable](https://docs.microsoft.com/en-us/dotnet/api/system.icomparable?view=netframework-4.6)  

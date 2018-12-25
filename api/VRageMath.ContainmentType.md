@@ -3,13 +3,13 @@
 #### ContainmentType Enum
 
 ```csharp
-public enum ContainmentType: Enum, IComparable, IFormattable, IConvertible
+public enum ContainmentType: IComparable, IFormattable, IConvertible
 ```
+
+Indicates the extent to which bounding volumes intersect or contain one another.
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
-
-**Inheritance:** [Enum](https://docs.microsoft.com/en-us/dotnet/api/system.enum?view=netframework-4.6)
 
 **Implements:**  
 * [IComparable](https://docs.microsoft.com/en-us/dotnet/api/system.icomparable?view=netframework-4.6)  

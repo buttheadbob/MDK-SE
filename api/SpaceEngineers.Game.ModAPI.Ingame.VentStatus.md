@@ -3,13 +3,11 @@
 #### VentStatus Enum
 
 ```csharp
-public enum VentStatus: Enum, IComparable, IFormattable, IConvertible
+public enum VentStatus: IComparable, IFormattable, IConvertible
 ```
 
 **Namespace:** [SpaceEngineers.Game.ModAPI.Ingame](SpaceEngineers.Game.ModAPI.Ingame)  
 **Assembly:** SpaceEngineers.Game.dll
-
-**Inheritance:** [Enum](https://docs.microsoft.com/en-us/dotnet/api/system.enum?view=netframework-4.6)
 
 **Implements:**  
 * [IComparable](https://docs.microsoft.com/en-us/dotnet/api/system.icomparable?view=netframework-4.6)  

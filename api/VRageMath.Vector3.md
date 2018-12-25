@@ -3,13 +3,13 @@
 #### Vector3 Struct
 
 ```csharp
-public struct Vector3: ValueType, IEquatable<T>
+public struct Vector3: IEquatable<T>
 ```
+
+Defines a vector with three components.
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
-
-**Inheritance:** [ValueType](https://docs.microsoft.com/en-us/dotnet/api/system.valuetype?view=netframework-4.6)
 
 **Implements:**  
 * [IEquatable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)

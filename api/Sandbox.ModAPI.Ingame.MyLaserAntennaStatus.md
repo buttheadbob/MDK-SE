@@ -3,13 +3,13 @@
 #### MyLaserAntennaStatus Enum
 
 ```csharp
-public enum MyLaserAntennaStatus: Enum, IComparable, IFormattable, IConvertible
+public enum MyLaserAntennaStatus: IComparable, IFormattable, IConvertible
 ```
+
+Describes the current status of a laser antenna.
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
-
-**Inheritance:** [Enum](https://docs.microsoft.com/en-us/dotnet/api/system.enum?view=netframework-4.6)
 
 **Implements:**  
 * [IComparable](https://docs.microsoft.com/en-us/dotnet/api/system.icomparable?view=netframework-4.6)  

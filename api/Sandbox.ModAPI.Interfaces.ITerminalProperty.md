@@ -6,6 +6,8 @@
 public interface ITerminalProperty: 
 ```
 
+Terminal block property definition
+
 **Namespace:** [Sandbox.ModAPI.Interfaces](Sandbox.ModAPI.Interfaces)  
 **Assembly:** Sandbox.Common.dll
 

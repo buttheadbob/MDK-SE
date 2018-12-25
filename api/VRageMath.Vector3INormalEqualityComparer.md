@@ -6,6 +6,8 @@
 public class Vector3INormalEqualityComparer: object, IEqualityComparer<T>
 ```
 
+This can be used only to compare normal vectors of Vector3I, where X, Y and Z has values -1, 0 or 1
+
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 

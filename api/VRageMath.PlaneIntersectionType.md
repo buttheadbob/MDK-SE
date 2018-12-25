@@ -3,13 +3,13 @@
 #### PlaneIntersectionType Enum
 
 ```csharp
-public enum PlaneIntersectionType: Enum, IComparable, IFormattable, IConvertible
+public enum PlaneIntersectionType: IComparable, IFormattable, IConvertible
 ```
+
+Describes the intersection between a plane and a bounding volume.
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
-
-**Inheritance:** [Enum](https://docs.microsoft.com/en-us/dotnet/api/system.enum?view=netframework-4.6)
 
 **Implements:**  
 * [IComparable](https://docs.microsoft.com/en-us/dotnet/api/system.icomparable?view=netframework-4.6)  

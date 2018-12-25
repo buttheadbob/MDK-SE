@@ -3,13 +3,11 @@
 #### MyLanguagesEnum Enum
 
 ```csharp
-public enum MyLanguagesEnum: Enum, IComparable, IFormattable, IConvertible
+public enum MyLanguagesEnum: IComparable, IFormattable, IConvertible
 ```
 
 **Namespace:** [VRage](VRage)  
 **Assembly:** VRage.dll
-
-**Inheritance:** [Enum](https://docs.microsoft.com/en-us/dotnet/api/system.enum?view=netframework-4.6)
 
 **Implements:**  
 * [IComparable](https://docs.microsoft.com/en-us/dotnet/api/system.icomparable?view=netframework-4.6)  

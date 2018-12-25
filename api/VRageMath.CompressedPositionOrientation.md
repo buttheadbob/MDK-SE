@@ -3,13 +3,13 @@
 #### CompressedPositionOrientation Struct
 
 ```csharp
-public struct CompressedPositionOrientation: ValueType
+public struct CompressedPositionOrientation: 
 ```
+
+Defines a matrix.
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
-
-**Inheritance:** [ValueType](https://docs.microsoft.com/en-us/dotnet/api/system.valuetype?view=netframework-4.6)
 
 #### Example
 

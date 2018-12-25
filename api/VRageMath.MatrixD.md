@@ -3,13 +3,13 @@
 #### MatrixD Struct
 
 ```csharp
-public struct MatrixD: ValueType, IEquatable<T>
+public struct MatrixD: IEquatable<T>
 ```
+
+Defines a matrix.
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
-
-**Inheritance:** [ValueType](https://docs.microsoft.com/en-us/dotnet/api/system.valuetype?view=netframework-4.6)
 
 **Implements:**  
 * [IEquatable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)

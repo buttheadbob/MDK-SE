@@ -3,13 +3,11 @@
 #### MyProductionItem Struct
 
 ```csharp
-public struct MyProductionItem: ValueType
+public struct MyProductionItem: 
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
-
-**Inheritance:** [ValueType](https://docs.microsoft.com/en-us/dotnet/api/system.valuetype?view=netframework-4.6)
 
 #### Example
 

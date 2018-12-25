@@ -3,13 +3,13 @@
 #### MyPlanetElevation Enum
 
 ```csharp
-public enum MyPlanetElevation: Enum, IComparable, IFormattable, IConvertible
+public enum MyPlanetElevation: IComparable, IFormattable, IConvertible
 ```
+
+Describes what detail level to retrieve the planet elevation for.
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
-
-**Inheritance:** [Enum](https://docs.microsoft.com/en-us/dotnet/api/system.enum?view=netframework-4.6)
 
 **Implements:**  
 * [IComparable](https://docs.microsoft.com/en-us/dotnet/api/system.icomparable?view=netframework-4.6)  

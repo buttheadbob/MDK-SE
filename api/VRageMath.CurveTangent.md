@@ -3,13 +3,13 @@
 #### CurveTangent Enum
 
 ```csharp
-public enum CurveTangent: Enum, IComparable, IFormattable, IConvertible
+public enum CurveTangent: IComparable, IFormattable, IConvertible
 ```
+
+Specifies different tangent types to be calculated for CurveKey points in a Curve.
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
-
-**Inheritance:** [Enum](https://docs.microsoft.com/en-us/dotnet/api/system.enum?view=netframework-4.6)
 
 **Implements:**  
 * [IComparable](https://docs.microsoft.com/en-us/dotnet/api/system.icomparable?view=netframework-4.6)  

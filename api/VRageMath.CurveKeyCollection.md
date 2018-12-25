@@ -6,6 +6,8 @@
 public class CurveKeyCollection: object, ICollection<T>, IEnumerable<T>, IEnumerable
 ```
 
+Contains the CurveKeys making up a Curve.
+
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 

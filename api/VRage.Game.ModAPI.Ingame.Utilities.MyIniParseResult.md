@@ -3,13 +3,13 @@
 #### MyIniParseResult Struct
 
 ```csharp
-public struct MyIniParseResult: ValueType
+public struct MyIniParseResult: 
 ```
+
+Represents the results of a configuration parsing.
 
 **Namespace:** [VRage.Game.ModAPI.Ingame.Utilities](VRage.Game.ModAPI.Ingame.Utilities)  
 **Assembly:** VRage.Game.dll
-
-**Inheritance:** [ValueType](https://docs.microsoft.com/en-us/dotnet/api/system.valuetype?view=netframework-4.6)
 
 #### Example
 

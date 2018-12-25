@@ -6,6 +6,8 @@
 public abstract sealed class MathHelper: object
 ```
 
+Contains commonly used precalculated values.
+
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 

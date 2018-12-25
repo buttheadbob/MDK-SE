@@ -6,6 +6,8 @@
 public interface IMyCubeBlock: IMyEntity
 ```
 
+Basic cube interface
+
 **Namespace:** [VRage.Game.ModAPI.Ingame](VRage.Game.ModAPI.Ingame)  
 **Assembly:** VRage.Game.dll
 

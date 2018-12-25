@@ -3,13 +3,13 @@
 #### Point Struct
 
 ```csharp
-public struct Point: ValueType, IEquatable<T>
+public struct Point: IEquatable<T>
 ```
+
+Defines a point in 2D space.
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
-
-**Inheritance:** [ValueType](https://docs.microsoft.com/en-us/dotnet/api/system.valuetype?view=netframework-4.6)
 
 **Implements:**  
 * [IEquatable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)

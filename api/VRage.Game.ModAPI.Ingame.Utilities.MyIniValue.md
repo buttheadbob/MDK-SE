@@ -3,13 +3,13 @@
 #### MyIniValue Struct
 
 ```csharp
-public struct MyIniValue: ValueType
+public struct MyIniValue: 
 ```
+
+Represents the value of a single configuration item.
 
 **Namespace:** [VRage.Game.ModAPI.Ingame.Utilities](VRage.Game.ModAPI.Ingame.Utilities)  
 **Assembly:** VRage.Game.dll
-
-**Inheritance:** [ValueType](https://docs.microsoft.com/en-us/dotnet/api/system.valuetype?view=netframework-4.6)
 
 #### Example
 

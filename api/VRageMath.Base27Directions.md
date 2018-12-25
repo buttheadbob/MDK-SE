@@ -6,6 +6,8 @@
 public class Base27Directions: object
 ```
 
+Base 26 directions and Vector3.Zero Each component is only 0,-1 or 1;
+
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 

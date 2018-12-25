@@ -6,6 +6,8 @@
 public class BoundingFrustumD: object, IEquatable<T>
 ```
 
+Defines a frustum and helps determine whether forms intersect with it.
+
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 

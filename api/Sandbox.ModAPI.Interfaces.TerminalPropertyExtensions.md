@@ -6,6 +6,8 @@
 public abstract sealed class TerminalPropertyExtensions: object
 ```
 
+Terminal block extension for property access
+
 **Namespace:** [Sandbox.ModAPI.Interfaces](Sandbox.ModAPI.Interfaces)  
 **Assembly:** Sandbox.Common.dll
 

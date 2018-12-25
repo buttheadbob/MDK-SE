@@ -3,13 +3,11 @@
 #### MyJumpDriveStatus Enum
 
 ```csharp
-public enum MyJumpDriveStatus: Enum, IComparable, IFormattable, IConvertible
+public enum MyJumpDriveStatus: IComparable, IFormattable, IConvertible
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
-
-**Inheritance:** [Enum](https://docs.microsoft.com/en-us/dotnet/api/system.enum?view=netframework-4.6)
 
 **Implements:**  
 * [IComparable](https://docs.microsoft.com/en-us/dotnet/api/system.icomparable?view=netframework-4.6)  

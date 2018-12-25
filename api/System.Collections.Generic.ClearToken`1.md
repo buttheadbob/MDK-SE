@@ -3,13 +3,11 @@
 #### ClearToken&lt;T&gt; Struct
 
 ```csharp
-public struct ClearToken<T>: ValueType, IDisposable
+public struct ClearToken<T>: IDisposable
 ```
 
 **Namespace:** [System.Collections.Generic](System.Collections.Generic)  
 **Assembly:** VRage.Library.dll
-
-**Inheritance:** [ValueType](https://docs.microsoft.com/en-us/dotnet/api/system.valuetype?view=netframework-4.6)
 
 **Implements:**  
 * [IDisposable](https://docs.microsoft.com/en-us/dotnet/api/system.idisposable?view=netframework-4.6)

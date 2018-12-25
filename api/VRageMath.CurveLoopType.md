@@ -3,13 +3,13 @@
 #### CurveLoopType Enum
 
 ```csharp
-public enum CurveLoopType: Enum, IComparable, IFormattable, IConvertible
+public enum CurveLoopType: IComparable, IFormattable, IConvertible
 ```
+
+Defines how the value of a Curve will be determined for positions before the first point on the Curve or after the last point on the Curve.
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
-
-**Inheritance:** [Enum](https://docs.microsoft.com/en-us/dotnet/api/system.enum?view=netframework-4.6)
 
 **Implements:**  
 * [IComparable](https://docs.microsoft.com/en-us/dotnet/api/system.icomparable?view=netframework-4.6)  

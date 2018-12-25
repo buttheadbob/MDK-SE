@@ -3,13 +3,13 @@
 #### MyFixedPoint Struct
 
 ```csharp
-public struct MyFixedPoint: ValueType, IXmlSerializable
+public struct MyFixedPoint: IXmlSerializable
 ```
+
+Fixed point number represented as 64-bit integer with 6 decimal places (one millionts)
 
 **Namespace:** [VRage](VRage)  
 **Assembly:** VRage.Library.dll
-
-**Inheritance:** [ValueType](https://docs.microsoft.com/en-us/dotnet/api/system.valuetype?view=netframework-4.6)
 
 **Implements:**  
 * [IXmlSerializable](https://docs.microsoft.com/en-us/dotnet/api/system.xml.serialization.ixmlserializable?view=netframework-4.6)

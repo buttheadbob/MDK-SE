@@ -3,13 +3,13 @@
 #### CurveContinuity Enum
 
 ```csharp
-public enum CurveContinuity: Enum, IComparable, IFormattable, IConvertible
+public enum CurveContinuity: IComparable, IFormattable, IConvertible
 ```
+
+Defines the continuity of CurveKeys on a Curve.
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
-
-**Inheritance:** [Enum](https://docs.microsoft.com/en-us/dotnet/api/system.enum?view=netframework-4.6)
 
 **Implements:**  
 * [IComparable](https://docs.microsoft.com/en-us/dotnet/api/system.icomparable?view=netframework-4.6)  

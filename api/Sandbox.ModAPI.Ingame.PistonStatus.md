@@ -3,13 +3,13 @@
 #### PistonStatus Enum
 
 ```csharp
-public enum PistonStatus: Enum, IComparable, IFormattable, IConvertible
+public enum PistonStatus: IComparable, IFormattable, IConvertible
 ```
+
+Describes the current status of the piston.
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
-
-**Inheritance:** [Enum](https://docs.microsoft.com/en-us/dotnet/api/system.enum?view=netframework-4.6)
 
 **Implements:**  
 * [IComparable](https://docs.microsoft.com/en-us/dotnet/api/system.icomparable?view=netframework-4.6)  

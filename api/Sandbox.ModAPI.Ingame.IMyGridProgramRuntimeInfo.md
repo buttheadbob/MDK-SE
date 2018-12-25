@@ -6,6 +6,8 @@
 public interface IMyGridProgramRuntimeInfo: 
 ```
 
+Provides runtime info for a running grid program.
+
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
 

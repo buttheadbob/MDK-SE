@@ -3,13 +3,13 @@
 #### MyDefinitionId Struct
 
 ```csharp
-public struct MyDefinitionId: ValueType, IEquatable<T>
+public struct MyDefinitionId: IEquatable<T>
 ```
+
+Prefer getting definition ID using object builder used to create the item. If you have automatic rifle, in its Init method create new MyDefinitionId using TypeId and SubtypeName of object builder. Do not write specific values in code, as data comes from XML and if those change, code needs to change as well.
 
 **Namespace:** [VRage.Game](VRage.Game)  
 **Assembly:** VRage.Game.dll
-
-**Inheritance:** [ValueType](https://docs.microsoft.com/en-us/dotnet/api/system.valuetype?view=netframework-4.6)
 
 **Implements:**  
 * [IEquatable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)

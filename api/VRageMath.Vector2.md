@@ -3,13 +3,13 @@
 #### Vector2 Struct
 
 ```csharp
-public struct Vector2: ValueType, IEquatable<T>
+public struct Vector2: IEquatable<T>
 ```
+
+Defines a vector with two components.
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
-
-**Inheritance:** [ValueType](https://docs.microsoft.com/en-us/dotnet/api/system.valuetype?view=netframework-4.6)
 
 **Implements:**  
 * [IEquatable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)

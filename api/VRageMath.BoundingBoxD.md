@@ -3,13 +3,13 @@
 #### BoundingBoxD Struct
 
 ```csharp
-public struct BoundingBoxD: ValueType, IEquatable<T>
+public struct BoundingBoxD: IEquatable<T>
 ```
+
+Defines an axis-aligned box-shaped 3D volume.
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
-
-**Inheritance:** [ValueType](https://docs.microsoft.com/en-us/dotnet/api/system.valuetype?view=netframework-4.6)
 
 **Implements:**  
 * [IEquatable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)

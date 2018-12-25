@@ -3,13 +3,13 @@
 #### BoundingSphere Struct
 
 ```csharp
-public struct BoundingSphere: ValueType, IEquatable<T>
+public struct BoundingSphere: IEquatable<T>
 ```
+
+Defines a sphere.
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
-
-**Inheritance:** [ValueType](https://docs.microsoft.com/en-us/dotnet/api/system.valuetype?view=netframework-4.6)
 
 **Implements:**  
 * [IEquatable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)

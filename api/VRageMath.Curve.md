@@ -6,6 +6,8 @@
 public class Curve: object
 ```
 
+Stores an arbitrary collection of 2D CurveKey points, and provides methods for evaluating features of the curve they define.
+
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 

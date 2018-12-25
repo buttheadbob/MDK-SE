@@ -6,6 +6,8 @@
 public interface IMyCubeGrid: IMyEntity
 ```
 
+Grid interface
+
 **Namespace:** [VRage.Game.ModAPI.Ingame](VRage.Game.ModAPI.Ingame)  
 **Assembly:** VRage.Game.dll
 

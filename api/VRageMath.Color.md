@@ -3,13 +3,13 @@
 #### Color Struct
 
 ```csharp
-public struct Color: ValueType, IPackedVector<TPacked>, IPackedVector, IEquatable<T>
+public struct Color: IPackedVector<TPacked>, IPackedVector, IEquatable<T>
 ```
+
+Represents a four-component color using red, green, blue, and alpha data.
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
-
-**Inheritance:** [ValueType](https://docs.microsoft.com/en-us/dotnet/api/system.valuetype?view=netframework-4.6)
 
 **Implements:**  
 * [IPackedVector<TPacked>](VRageMath.PackedVector.IPackedVector`1)  

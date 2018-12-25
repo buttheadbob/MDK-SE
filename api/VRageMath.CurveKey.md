@@ -6,6 +6,8 @@
 public class CurveKey: object, IEquatable<T>, IComparable<T>
 ```
 
+Represents a point in a multi-point curve.
+
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 

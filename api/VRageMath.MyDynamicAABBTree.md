@@ -6,6 +6,8 @@
 public class MyDynamicAABBTree: object
 ```
 
+Dynamic aabb tree implementation as a prunning structure
+
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 

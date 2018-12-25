@@ -1,5 +1,7 @@
 ← [Namespace Index](Namespace-Index)
 
+This index contains all types and members available to ingame scripting - with exception to the .NET types, because including those would have made the listing far too big. There will be links to Microsoft's own documentation for those types where appropriate.
+
 ### Blocks
 
 Use these interfaces when you wish to access specific block types.

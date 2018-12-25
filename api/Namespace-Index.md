@@ -1,6 +1,6 @@
 ← [Index](Api-Index)
 
-# Assemblies
+### Assemblies
 
 These are the game assemblies used by programmable block scripts.  
   
@@ -13,7 +13,9 @@ VRage.Game.dll
 VRage.Library.dll  
 VRage.Math.dll  
 
-## Types
+### Types
+
+This index contains all types and members available to ingame scripting - with exception to the .NET types, because including those would have made the listing far too big. There will be links to Microsoft's own documentation for those types where appropriate.
 
 ### Sandbox.Game.EntityComponents
 

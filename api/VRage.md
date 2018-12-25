@@ -2,6 +2,7 @@
 
 # VRage
 
+**[LanguageDescription](VRage.MyTexts+LanguageDescription)**  
 **[MyFixedPoint](VRage.MyFixedPoint)**  
 **[MyLanguagesEnum](VRage.MyLanguagesEnum)**  
 **[MyTexts](VRage.MyTexts)**  

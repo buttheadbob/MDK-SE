@@ -3,6 +3,7 @@
 # VRageMath
 
 **[AddOp](VRageMath.AddOp`1)**  
+**[Axis](VRageMath.Base6Directions+Axis)**  
 **[Base27Directions](VRageMath.Base27Directions)**  
 **[Base6Directions](VRageMath.Base6Directions)**  
 **[BoundingBox](VRageMath.BoundingBox)**  
@@ -21,6 +22,9 @@
 **[CapsuleD](VRageMath.CapsuleD)**  
 **[Color](VRageMath.Color)**  
 **[ColorExtensions](VRageMath.ColorExtensions)**  
+**[ComparerClass](VRageMath.Vector2I+ComparerClass)**  
+**[ComparerType](VRageMath.BoundingBox+ComparerType)**  
+**[ComparerType](VRageMath.BoundingBoxD+ComparerType)**  
 **[CompressedPositionOrientation](VRageMath.CompressedPositionOrientation)**  
 **[ContainmentType](VRageMath.ContainmentType)**  
 **[CubeFace](VRageMath.CubeFace)**  
@@ -30,6 +34,14 @@
 **[CurveKeyCollection](VRageMath.CurveKeyCollection)**  
 **[CurveLoopType](VRageMath.CurveLoopType)**  
 **[CurveTangent](VRageMath.CurveTangent)**  
+**[Direction](VRageMath.Base27Directions+Direction)**  
+**[Direction](VRageMath.Base6Directions+Direction)**  
+**[DirectionFlags](VRageMath.Base6Directions+DirectionFlags)**  
+**[DynamicTreeNode](VRageMath.MyDynamicAABBTree+DynamicTreeNode)**  
+**[EqualityComparer](VRageMath.Vector3L+EqualityComparer)**  
+**[EqualityComparer](VRageMath.Vector3UByte+EqualityComparer)**  
+**[EqualityComparer](VRageMath.Vector4I+EqualityComparer)**  
+**[EqualityComparer](VRageMath.Vector3I+EqualityComparer)**  
 **[HyperSphereHelpers](VRageMath.HyperSphereHelpers)**  
 **[Line](VRageMath.Line)**  
 **[LineD](VRageMath.LineD)**  
@@ -46,6 +58,7 @@
 **[MyDynamicAABBTree](VRageMath.MyDynamicAABBTree)**  
 **[MyDynamicAABBTreeD](VRageMath.MyDynamicAABBTreeD)**  
 **[MyLineSegmentOverlapResult](VRageMath.MyLineSegmentOverlapResult`1)**  
+**[MyLineSegmentOverlapResultComparer](VRageMath.MyLineSegmentOverlapResult`1+MyLineSegmentOverlapResultComparer)**  
 **[MyMath](VRageMath.MyMath)**  
 **[MyMortonCode3D](VRageMath.MyMortonCode3D)**  
 **[MyMovingAverage](VRageMath.MyMovingAverage)**  

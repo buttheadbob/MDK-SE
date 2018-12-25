@@ -14,3 +14,16 @@ private struct Enumerator: IEnumerator<T>, IDisposable, IEnumerator
 * [IDisposable](https://docs.microsoft.com/en-us/dotnet/api/system.idisposable?view=netframework-4.6)  
 * [IEnumerator](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerator?view=netframework-4.6)
 
+#### Properties
+
+|Member|Description|
+|---|---|
+|[Current](VRage.Game.ModAPI.Ingame.Utilities.MyCommandLine+Enumerator.Current)||
+
+#### Methods
+
+|Member|Description|
+|---|---|
+|[Dispose()](VRage.Game.ModAPI.Ingame.Utilities.MyCommandLine+Enumerator.Dispose)||
+|[MoveNext()](VRage.Game.ModAPI.Ingame.Utilities.MyCommandLine+Enumerator.MoveNext)||
+

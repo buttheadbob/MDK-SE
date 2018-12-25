@@ -14,3 +14,15 @@ private class SwitchCollection: IReadOnlyCollection<T>, IEnumerable<T>, IEnumera
 * [IEnumerable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable?view=netframework-4.6)  
 * [IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerable?view=netframework-4.6)
 
+#### Properties
+
+|Member|Description|
+|---|---|
+|[Count](VRage.Game.ModAPI.Ingame.Utilities.MyCommandLine+SwitchCollection.Count)||
+
+#### Methods
+
+|Member|Description|
+|---|---|
+|[GetEnumerator()](VRage.Game.ModAPI.Ingame.Utilities.MyCommandLine+SwitchCollection.GetEnumerator)||
+

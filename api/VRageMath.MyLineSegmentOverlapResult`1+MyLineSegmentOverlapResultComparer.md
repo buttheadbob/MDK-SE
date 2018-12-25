@@ -12,3 +12,9 @@ private class MyLineSegmentOverlapResultComparer<T>: IComparer<T>
 **Implements:**  
 * [IComparer<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.icomparer?view=netframework-4.6)
 
+#### Methods
+
+|Member|Description|
+|---|---|
+|[Compare(MyLineSegmentOverlapResult, MyLineSegmentOverlapResult)](VRageMath.MyLineSegmentOverlapResult`1+MyLineSegmentOverlapResultComparer.Compare)||
+

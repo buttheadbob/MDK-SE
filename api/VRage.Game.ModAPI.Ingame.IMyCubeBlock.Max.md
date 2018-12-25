@@ -10,7 +10,5 @@ Maximum coordinates of grid cells occupied by this block
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3I](VRageMath.Vector3I)
 

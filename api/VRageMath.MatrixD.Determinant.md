@@ -10,7 +10,5 @@ Calculates the determinant of the matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

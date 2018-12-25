@@ -8,9 +8,7 @@ public bool IntersectsTriangle(Vector3D v0, Vector3D v1, Vector3D v2)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public bool IntersectsTriangle(ref Vector3D v0, ref Vector3D v1, ref Vector3D
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

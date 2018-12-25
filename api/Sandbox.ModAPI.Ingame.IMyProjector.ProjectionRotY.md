@@ -8,7 +8,5 @@ public int ProjectionRotY { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

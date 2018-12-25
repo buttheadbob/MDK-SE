@@ -8,7 +8,5 @@ public Direction GetCross(Direction dir1, Direction dir2)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Direction](VRageMath.Base6Directions+Direction)
 

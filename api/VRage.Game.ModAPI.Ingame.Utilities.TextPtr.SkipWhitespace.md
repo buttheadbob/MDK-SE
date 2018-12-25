@@ -8,7 +8,5 @@ public TextPtr SkipWhitespace(bool skipNewline)
 
 ### Returns
 
-### Example
-
-### Remarks
+[TextPtr](VRage.Game.ModAPI.Ingame.Utilities.TextPtr)
 

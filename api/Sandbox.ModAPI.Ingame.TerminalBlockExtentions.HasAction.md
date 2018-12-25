@@ -8,7 +8,5 @@ public bool HasAction(IMyTerminalBlock block, string actionName)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

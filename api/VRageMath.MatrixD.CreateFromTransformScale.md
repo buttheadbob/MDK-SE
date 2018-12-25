@@ -8,7 +8,5 @@ public MatrixD CreateFromTransformScale(Quaternion orientation, Vector3D positio
 
 ### Returns
 
-### Example
-
-### Remarks
+[MatrixD](VRageMath.MatrixD)
 

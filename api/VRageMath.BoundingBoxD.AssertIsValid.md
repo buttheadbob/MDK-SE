@@ -6,9 +6,3 @@
 public void AssertIsValid()
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

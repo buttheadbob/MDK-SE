@@ -10,9 +10,7 @@ Linearly interpolates between the corresponding values of two matrices.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void Lerp(ref Matrix matrix1, ref Matrix matrix2, float amount, ref Ma
 ```
 
 Linearly interpolates between the corresponding values of two matrices.
-
-### Returns
-
-### Example
-
-### Remarks
 

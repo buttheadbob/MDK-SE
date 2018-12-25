@@ -8,9 +8,7 @@ public Vector3D Cross(Vector3D v)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3D](VRageMath.Vector3D)
 
 ### Summary
 
@@ -22,9 +20,7 @@ Calculates the cross product of two vectors.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3D](VRageMath.Vector3D)
 
 ### Summary
 
@@ -33,10 +29,4 @@ public void Cross(ref Vector3D vector1, ref Vector3D vector2, ref Vector3D re
 ```
 
 Calculates the cross product of two vectors.
-
-### Returns
-
-### Example
-
-### Remarks
 

@@ -8,7 +8,5 @@ public bool IsAimed { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

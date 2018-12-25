@@ -8,7 +8,5 @@ public T Get<T>()
 
 ### Returns
 
-### Example
-
-### Remarks
+[T]()
 

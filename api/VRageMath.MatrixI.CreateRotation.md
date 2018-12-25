@@ -8,7 +8,5 @@ public MatrixI CreateRotation(Direction oldA, Direction oldB, Direction newA, Di
 
 ### Returns
 
-### Example
-
-### Remarks
+[MatrixI](VRageMath.MatrixI)
 

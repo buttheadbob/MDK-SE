@@ -8,7 +8,5 @@ public virtual string ToString()
 
 ### Returns
 
-### Example
-
-### Remarks
+[string](System.String)
 

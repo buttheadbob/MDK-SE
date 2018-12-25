@@ -10,7 +10,5 @@ Determines if the value of this result is defined, meaning whether the [Success]
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

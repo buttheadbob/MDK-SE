@@ -10,9 +10,7 @@ Divides the components of a matrix by the corresponding components of another ma
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 
 ### Summary
 
@@ -21,12 +19,6 @@ public void Divide(ref Matrix matrix1, ref Matrix matrix2, ref Matrix result)
 ```
 
 Divides the components of a matrix by the corresponding components of another matrix.
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -38,9 +30,7 @@ Divides the components of a matrix by a scalar.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 
 ### Summary
 
@@ -49,10 +39,4 @@ public void Divide(ref Matrix matrix1, float divider, ref Matrix result)
 ```
 
 Divides the components of a matrix by a scalar.
-
-### Returns
-
-### Example
-
-### Remarks
 

@@ -10,11 +10,9 @@ Transform this AABB by matrix.
 
 ### Returns
 
+[BoundingBoxD](VRageMath.BoundingBoxD)
+
 transformed aabb
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -26,9 +24,7 @@ Transform this AABB by matrix.
 
 ### Returns
 
+[BoundingBoxD](VRageMath.BoundingBoxD)
+
 transformed aabb
-
-### Example
-
-### Remarks
 

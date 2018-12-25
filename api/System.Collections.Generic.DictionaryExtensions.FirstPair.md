@@ -8,7 +8,5 @@ public KeyValuePair<TKey, TValue> FirstPair<K, V>(Dictionary<TKey, TValue> dicti
 
 ### Returns
 
-### Example
-
-### Remarks
+[KeyValuePair<TKey, TValue>](System.Collections.Generic.KeyValuePair`2)
 

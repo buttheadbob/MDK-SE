@@ -8,7 +8,5 @@ public double Length
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

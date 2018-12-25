@@ -8,7 +8,5 @@ public float Item { get; set; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

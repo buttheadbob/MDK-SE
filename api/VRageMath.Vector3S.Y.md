@@ -8,7 +8,5 @@ public short Y
 
 ### Returns
 
-### Example
-
-### Remarks
+[short](System.Int16)
 

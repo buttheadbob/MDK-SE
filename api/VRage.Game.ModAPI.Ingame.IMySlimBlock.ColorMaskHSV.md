@@ -10,7 +10,5 @@ Gets the color of the block
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 

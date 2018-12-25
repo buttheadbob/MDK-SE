@@ -10,7 +10,5 @@ Creates a copy of the Curve.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Curve](VRageMath.Curve)
 

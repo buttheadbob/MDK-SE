@@ -10,7 +10,5 @@ Gets the near plane of the BoundingFrustumD.
 
 ### Returns
 
-### Example
-
-### Remarks
+[PlaneD](VRageMath.PlaneD)
 

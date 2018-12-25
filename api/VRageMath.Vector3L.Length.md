@@ -8,7 +8,5 @@ public long Length()
 
 ### Returns
 
-### Example
-
-### Remarks
+[long](System.Int64)
 

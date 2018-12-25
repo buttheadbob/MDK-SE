@@ -6,9 +6,3 @@
 public void SetValue(IMyCubeBlock block, TValue value)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

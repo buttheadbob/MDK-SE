@@ -10,7 +10,5 @@ Gets if component stack is empty
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

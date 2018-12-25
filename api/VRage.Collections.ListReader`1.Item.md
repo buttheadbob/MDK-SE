@@ -8,7 +8,5 @@ public T Item { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[T]()
 

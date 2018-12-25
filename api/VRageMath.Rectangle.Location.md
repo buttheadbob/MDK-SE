@@ -10,7 +10,5 @@ Gets or sets the upper-left value of the Rectangle.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Point](VRageMath.Point)
 

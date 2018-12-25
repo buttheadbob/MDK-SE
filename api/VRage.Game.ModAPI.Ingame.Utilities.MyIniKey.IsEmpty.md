@@ -10,7 +10,5 @@ Determines whether this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) 
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

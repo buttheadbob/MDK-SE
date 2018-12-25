@@ -10,7 +10,5 @@ Represents the mathematical constant e.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

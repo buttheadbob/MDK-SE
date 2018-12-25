@@ -8,9 +8,7 @@ public string GetString(MyStringId id)
 
 ### Returns
 
-### Example
-
-### Remarks
+[string](System.String)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public string GetString(string keyString)
 
 ### Returns
 
-### Example
-
-### Remarks
+[string](System.String)
 

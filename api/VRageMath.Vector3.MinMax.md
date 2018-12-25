@@ -8,9 +8,3 @@ public void MinMax(ref Vector3 min, ref Vector3 max)
 
 Separates minimal and maximal values of any two input vectors
 
-### Returns
-
-### Example
-
-### Remarks
-

@@ -8,7 +8,5 @@ public Vector4 Zero
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector4](VRageMath.Vector4)
 

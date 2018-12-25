@@ -8,7 +8,5 @@ public Line[] Lines
 
 ### Returns
 
-### Example
-
-### Remarks
+[Line[]](VRageMath.Line[])
 

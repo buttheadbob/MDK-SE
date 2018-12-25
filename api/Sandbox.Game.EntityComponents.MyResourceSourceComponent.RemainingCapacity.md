@@ -8,7 +8,5 @@ public float RemainingCapacity { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

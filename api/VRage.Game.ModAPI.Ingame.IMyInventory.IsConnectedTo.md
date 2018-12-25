@@ -8,7 +8,5 @@ public bool IsConnectedTo(IMyInventory dst)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

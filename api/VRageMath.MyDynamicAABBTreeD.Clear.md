@@ -6,9 +6,3 @@
 public void Clear()
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

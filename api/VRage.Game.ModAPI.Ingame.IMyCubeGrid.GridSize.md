@@ -10,7 +10,5 @@ Grid size in meters
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

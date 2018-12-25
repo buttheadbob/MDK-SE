@@ -10,7 +10,5 @@ Gets if the block base is attached to something
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

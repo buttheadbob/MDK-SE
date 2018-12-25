@@ -8,7 +8,5 @@ public virtual bool IsPowerAvailable(MyDefinitionId resourceTypeId, float power)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

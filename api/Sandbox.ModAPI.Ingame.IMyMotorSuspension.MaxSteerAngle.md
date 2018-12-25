@@ -10,7 +10,5 @@ Max steering angle in radians.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

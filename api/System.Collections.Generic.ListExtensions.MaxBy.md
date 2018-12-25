@@ -8,7 +8,5 @@ public T MaxBy<T>(IEnumerable<T> source, Func<T, TResult> selector)
 
 ### Returns
 
-### Example
-
-### Remarks
+[T]()
 

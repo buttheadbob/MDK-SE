@@ -10,7 +10,5 @@ Gets or sets if the sensor should detect small ships.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

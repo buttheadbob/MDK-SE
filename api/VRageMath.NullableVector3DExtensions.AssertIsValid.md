@@ -6,9 +6,3 @@
 public void AssertIsValid(Nullable<T> value)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

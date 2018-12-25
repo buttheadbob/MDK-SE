@@ -6,9 +6,3 @@
 public void Reset()
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

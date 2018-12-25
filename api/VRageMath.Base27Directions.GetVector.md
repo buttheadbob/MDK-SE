@@ -8,9 +8,7 @@ public Vector3 GetVector(int direction)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public Vector3 GetVector(Direction dir)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 

@@ -8,9 +8,7 @@ public bool IsZero(float value, float epsilon)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -20,9 +18,7 @@ public bool IsZero(double value, float epsilon)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -32,9 +28,7 @@ public bool IsZero(Vector3 value, float epsilon)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -44,9 +38,7 @@ public bool IsZero(Vector3D value, float epsilon)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -56,9 +48,7 @@ public bool IsZero(Quaternion value, float epsilon)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -68,7 +58,5 @@ public bool IsZero(Vector4 value)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

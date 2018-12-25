@@ -8,9 +8,7 @@ public bool TryGet<T>(ref T component)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public bool TryGet(Type type, ref MyComponentBase component)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

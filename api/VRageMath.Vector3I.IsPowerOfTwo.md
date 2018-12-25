@@ -8,7 +8,5 @@ public bool IsPowerOfTwo { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

@@ -8,9 +8,3 @@ public void Transform(ref Matrix3x3 value, ref Quaternion rotation, ref Matri
 
 Transforms a Matrix3x3 by applying a Quaternion rotation.
 
-### Returns
-
-### Example
-
-### Remarks
-

@@ -10,7 +10,5 @@ Returns 2^n
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

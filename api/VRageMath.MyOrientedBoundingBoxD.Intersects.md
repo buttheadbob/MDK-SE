@@ -8,9 +8,7 @@ public bool Intersects(ref BoundingBox box)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -20,9 +18,7 @@ public bool Intersects(ref BoundingBoxD box)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -32,9 +28,7 @@ public bool Intersects(ref MyOrientedBoundingBoxD other)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -44,9 +38,7 @@ public bool Intersects(BoundingFrustumD frustum)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -56,9 +48,7 @@ public bool Intersects(ref BoundingSphereD sphere)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -68,9 +58,7 @@ public Nullable<T> Intersects(ref RayD ray)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Nullable<T>](System.Nullable`1)
 
 ### Summary
 
@@ -80,9 +68,7 @@ public Nullable<T> Intersects(ref LineD line)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Nullable<T>](System.Nullable`1)
 
 ### Summary
 
@@ -92,7 +78,5 @@ public PlaneIntersectionType Intersects(ref PlaneD plane)
 
 ### Returns
 
-### Example
-
-### Remarks
+[PlaneIntersectionType](VRageMath.PlaneIntersectionType)
 

@@ -8,7 +8,5 @@ public long Volume()
 
 ### Returns
 
-### Example
-
-### Remarks
+[long](System.Int64)
 

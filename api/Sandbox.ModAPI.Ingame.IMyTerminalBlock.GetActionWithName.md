@@ -8,7 +8,5 @@ public ITerminalAction GetActionWithName(string name)
 
 ### Returns
 
-### Example
-
-### Remarks
+[ITerminalAction](Sandbox.ModAPI.Interfaces.ITerminalAction)
 

@@ -8,7 +8,5 @@ public Vector3 Step(Vector3 value)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 

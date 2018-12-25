@@ -10,7 +10,5 @@ Represents the log base two of e.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

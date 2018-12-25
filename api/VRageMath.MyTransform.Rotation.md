@@ -8,7 +8,5 @@ public Quaternion Rotation
 
 ### Returns
 
-### Example
-
-### Remarks
+[Quaternion](VRageMath.Quaternion)
 

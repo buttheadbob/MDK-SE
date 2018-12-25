@@ -10,9 +10,7 @@ Creates the smallest BoundingSphereD that can contain a specified BoundingBoxD.
 
 ### Returns
 
-### Example
-
-### Remarks
+[BoundingSphereD](VRageMath.BoundingSphereD)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void CreateFromBoundingBox(ref BoundingBoxD box, ref BoundingSphereD re
 ```
 
 Creates the smallest BoundingSphereD that can contain a specified BoundingBoxD.
-
-### Returns
-
-### Example
-
-### Remarks
 

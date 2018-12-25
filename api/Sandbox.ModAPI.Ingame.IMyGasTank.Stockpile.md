@@ -10,7 +10,5 @@ Gets or sets the stockpiling option for this gas tank. When stockpile is on, the
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

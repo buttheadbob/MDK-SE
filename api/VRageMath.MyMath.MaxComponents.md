@@ -10,9 +10,7 @@ Return vector with each component max
 
 ### Returns
 
+[Vector3](VRageMath.Vector3)
 
 
-### Example
-
-### Remarks
 

@@ -6,9 +6,3 @@
 public void GetCornersUnsafe(*Vector3D corners)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

@@ -8,7 +8,5 @@ public Direction GetDirection(Direction direction)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Direction](VRageMath.Base6Directions+Direction)
 

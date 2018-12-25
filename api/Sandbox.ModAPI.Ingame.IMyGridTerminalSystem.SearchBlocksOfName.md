@@ -6,9 +6,3 @@
 public void SearchBlocksOfName(string name, List<T> blocks, Func<T, TResult> collect)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

@@ -10,9 +10,7 @@ Transposes the rows and columns of a matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void Transpose(ref Matrix matrix, ref Matrix result)
 ```
 
 Transposes the rows and columns of a matrix.
-
-### Returns
-
-### Example
-
-### Remarks
 

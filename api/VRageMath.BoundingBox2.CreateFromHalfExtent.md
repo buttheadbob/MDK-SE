@@ -8,9 +8,7 @@ public BoundingBox2 CreateFromHalfExtent(Vector2 center, float halfExtent)
 
 ### Returns
 
-### Example
-
-### Remarks
+[BoundingBox2](VRageMath.BoundingBox2)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public BoundingBox2 CreateFromHalfExtent(Vector2 center, Vector2 halfExtent)
 
 ### Returns
 
-### Example
-
-### Remarks
+[BoundingBox2](VRageMath.BoundingBox2)
 

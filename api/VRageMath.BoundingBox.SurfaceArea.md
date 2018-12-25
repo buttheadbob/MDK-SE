@@ -8,7 +8,5 @@ public float SurfaceArea()
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

@@ -10,9 +10,7 @@ Determines if the given configuration contains what looks like the given section
 
 ### Returns
 
+[bool](System.Boolean)
 
 
-### Example
-
-### Remarks
 

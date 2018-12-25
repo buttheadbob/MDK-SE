@@ -6,9 +6,3 @@
 public void GetBlockGroups(List<T> blockGroups, Func<T, TResult> collect)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

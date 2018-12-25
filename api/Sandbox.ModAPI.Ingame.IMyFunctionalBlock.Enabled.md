@@ -8,7 +8,5 @@ public bool Enabled { get; set; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

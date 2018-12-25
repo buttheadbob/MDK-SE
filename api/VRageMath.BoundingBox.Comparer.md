@@ -8,7 +8,5 @@ public ComparerType Comparer
 
 ### Returns
 
-### Example
-
-### Remarks
+[ComparerType](VRageMath.BoundingBox+ComparerType)
 

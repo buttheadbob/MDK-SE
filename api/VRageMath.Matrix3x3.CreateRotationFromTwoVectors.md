@@ -6,9 +6,3 @@
 public void CreateRotationFromTwoVectors(ref Vector3 fromVector, ref Vector3 toVector, ref Matrix3x3 resultMatrix)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

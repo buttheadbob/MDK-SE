@@ -10,7 +10,5 @@ Describes the value of this point.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

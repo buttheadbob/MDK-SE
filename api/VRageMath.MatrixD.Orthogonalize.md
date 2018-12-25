@@ -6,12 +6,6 @@
 public void Orthogonalize()
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
@@ -20,7 +14,5 @@ public MatrixD Orthogonalize(MatrixD rotationMatrix)
 
 ### Returns
 
-### Example
-
-### Remarks
+[MatrixD](VRageMath.MatrixD)
 

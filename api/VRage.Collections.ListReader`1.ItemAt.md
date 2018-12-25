@@ -8,7 +8,5 @@ public T ItemAt(int index)
 
 ### Returns
 
-### Example
-
-### Remarks
+[T]()
 

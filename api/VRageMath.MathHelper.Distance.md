@@ -10,7 +10,5 @@ Calculates the absolute value of the difference of two values.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

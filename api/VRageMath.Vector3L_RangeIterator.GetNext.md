@@ -6,9 +6,3 @@
 public void GetNext(ref Vector3L next)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

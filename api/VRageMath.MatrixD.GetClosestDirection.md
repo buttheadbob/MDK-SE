@@ -8,9 +8,7 @@ public Direction GetClosestDirection(Vector3D referenceVector)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Direction](VRageMath.Base6Directions+Direction)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public Direction GetClosestDirection(ref Vector3D referenceVector)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Direction](VRageMath.Base6Directions+Direction)
 

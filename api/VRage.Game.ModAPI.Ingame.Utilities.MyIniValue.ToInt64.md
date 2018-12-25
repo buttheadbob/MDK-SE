@@ -10,9 +10,7 @@ Attempts to get this value as a [System.Int64](https://docs.microsoft.com/en-us/
 
 ### Returns
 
+[long](System.Int64)
 
 
-### Example
-
-### Remarks
 

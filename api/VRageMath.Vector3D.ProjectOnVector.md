@@ -10,9 +10,7 @@ Projects vector on another vector resulting in new vector in guided vector's dir
 
 ### Returns
 
+[Vector3D](VRageMath.Vector3D)
+
 Vector projected on guide vector
-
-### Example
-
-### Remarks
 

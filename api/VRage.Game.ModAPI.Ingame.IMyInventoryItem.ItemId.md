@@ -8,7 +8,5 @@ public uint ItemId { get; set; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[uint](System.UInt32)
 

@@ -10,7 +10,5 @@ Gets or sets the current intensity of the light.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

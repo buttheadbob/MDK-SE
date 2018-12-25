@@ -8,7 +8,5 @@ public Vector3I Left
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3I](VRageMath.Vector3I)
 

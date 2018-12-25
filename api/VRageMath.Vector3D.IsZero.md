@@ -8,9 +8,7 @@ public bool IsZero(Vector3D value)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public bool IsZero(Vector3D value, double epsilon)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

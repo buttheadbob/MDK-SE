@@ -10,7 +10,5 @@ Gets or sets whether this assembler should cooperate with other assemblers by ad
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

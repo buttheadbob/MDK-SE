@@ -10,7 +10,5 @@ Represents the value of pi divided by two.
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

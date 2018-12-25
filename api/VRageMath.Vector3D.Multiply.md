@@ -10,9 +10,7 @@ Multiplies the components of two vectors by each other.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3D](VRageMath.Vector3D)
 
 ### Summary
 
@@ -21,12 +19,6 @@ public void Multiply(ref Vector3D value1, ref Vector3D value2, ref Vector3D r
 ```
 
 Multiplies the components of two vectors by each other.
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -38,9 +30,7 @@ Multiplies a vector by a scalar value.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3D](VRageMath.Vector3D)
 
 ### Summary
 
@@ -49,10 +39,4 @@ public void Multiply(ref Vector3D value1, double scaleFactor, ref Vector3D res
 ```
 
 Multiplies a vector by a scalar value.
-
-### Returns
-
-### Example
-
-### Remarks
 

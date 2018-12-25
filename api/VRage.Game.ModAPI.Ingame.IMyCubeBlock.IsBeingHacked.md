@@ -10,7 +10,5 @@ Hacking of the block is in progress
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

@@ -10,7 +10,5 @@ Gets or sets font color
 
 ### Returns
 
-### Example
-
-### Remarks
+[Color](VRageMath.Color)
 

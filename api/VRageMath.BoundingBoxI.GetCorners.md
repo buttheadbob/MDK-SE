@@ -10,9 +10,7 @@ Gets an array of points that make up the corners of the BoundingBoxI.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3I[]](VRageMath.Vector3I[])
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void GetCorners(Vector3I[] corners)
 ```
 
 Gets the array of points that make up the corners of the BoundingBoxI.
-
-### Returns
-
-### Example
-
-### Remarks
 

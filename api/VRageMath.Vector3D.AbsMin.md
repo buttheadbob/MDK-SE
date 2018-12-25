@@ -10,7 +10,5 @@ Returns the component of the vector, whose absolute value is smallest of all the
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

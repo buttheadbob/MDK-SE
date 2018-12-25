@@ -10,7 +10,5 @@ Gets or sets the velocity of the piston as it extends or retracts. This value ca
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

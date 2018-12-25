@@ -10,9 +10,7 @@ Returns true if value is power of two
 
 ### Returns
 
+[bool](System.Boolean)
 
 
-### Example
-
-### Remarks
 

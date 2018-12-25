@@ -10,9 +10,7 @@ Builds a customized, perspective projection matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void CreatePerspectiveOffCenter(float left, float right, float bottom, fl
 ```
 
 Builds a customized, perspective projection matrix.
-
-### Returns
-
-### Example
-
-### Remarks
 

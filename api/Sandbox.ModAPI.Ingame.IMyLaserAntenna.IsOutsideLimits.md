@@ -10,7 +10,5 @@ Target is outside movement limits of antenna
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

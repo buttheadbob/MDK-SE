@@ -6,9 +6,3 @@
 public void ReadPublicText(StringBuilder buffer, bool append)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

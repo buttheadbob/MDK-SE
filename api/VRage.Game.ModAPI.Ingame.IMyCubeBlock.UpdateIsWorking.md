@@ -6,9 +6,3 @@
 public void UpdateIsWorking()
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

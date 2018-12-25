@@ -8,7 +8,5 @@ public bool IsValidBlockOrientation(Direction forward, Direction up)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

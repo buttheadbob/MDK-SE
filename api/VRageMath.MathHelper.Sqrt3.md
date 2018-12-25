@@ -10,7 +10,5 @@ Represents the value of the square root of three
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

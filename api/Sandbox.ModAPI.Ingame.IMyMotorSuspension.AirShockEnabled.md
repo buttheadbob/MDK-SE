@@ -10,7 +10,5 @@ Enables or disalbes AirShock function.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

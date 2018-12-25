@@ -10,7 +10,5 @@ Gets or sets how much of the blinking interval should be spent with the light on
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

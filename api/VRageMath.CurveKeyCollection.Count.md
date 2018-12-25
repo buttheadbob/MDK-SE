@@ -10,7 +10,5 @@ Gets the number of elements contained in the CurveKeyCollection.
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

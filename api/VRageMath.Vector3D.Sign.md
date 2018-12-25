@@ -8,7 +8,5 @@ public Vector3D Sign(Vector3D value)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3D](VRageMath.Vector3D)
 

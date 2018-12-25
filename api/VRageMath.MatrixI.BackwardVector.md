@@ -8,7 +8,5 @@ public Vector3I BackwardVector { get; set; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3I](VRageMath.Vector3I)
 

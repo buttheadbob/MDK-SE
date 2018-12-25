@@ -8,9 +8,3 @@ public void Clear()
 
 Clears all arguments
 
-### Returns
-
-### Example
-
-### Remarks
-

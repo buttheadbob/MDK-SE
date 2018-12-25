@@ -8,9 +8,3 @@ public void SetAutoPilotEnabled(bool enabled)
 
 Enables or disables the autopilot.
 
-### Returns
-
-### Example
-
-### Remarks
-

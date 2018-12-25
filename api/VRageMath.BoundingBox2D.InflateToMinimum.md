@@ -6,9 +6,3 @@
 public void InflateToMinimum(Vector2D minimumSize)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

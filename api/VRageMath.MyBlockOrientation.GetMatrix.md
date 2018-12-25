@@ -6,9 +6,3 @@
 public void GetMatrix(ref Matrix result)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

@@ -8,7 +8,5 @@ public Plane Plane
 
 ### Returns
 
-### Example
-
-### Remarks
+[Plane](VRageMath.Plane)
 

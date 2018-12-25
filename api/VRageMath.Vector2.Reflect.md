@@ -10,9 +10,7 @@ Determines the reflect vector of the given vector and normal.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector2](VRageMath.Vector2)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void Reflect(ref Vector2 vector, ref Vector2 normal, ref Vector2 resul
 ```
 
 Determines the reflect vector of the given vector and normal.
-
-### Returns
-
-### Example
-
-### Remarks
 

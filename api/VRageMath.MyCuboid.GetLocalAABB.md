@@ -8,7 +8,5 @@ public BoundingBox GetLocalAABB()
 
 ### Returns
 
-### Example
-
-### Remarks
+[BoundingBox](VRageMath.BoundingBox)
 

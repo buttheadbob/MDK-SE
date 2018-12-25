@@ -10,9 +10,7 @@ Determines whether the specified PlaneD is equal to the PlaneD.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -24,7 +22,5 @@ Determines whether the specified Object is equal to the PlaneD.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

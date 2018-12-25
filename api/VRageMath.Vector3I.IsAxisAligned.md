@@ -8,7 +8,5 @@ public bool IsAxisAligned()
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

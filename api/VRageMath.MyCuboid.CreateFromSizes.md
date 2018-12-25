@@ -6,9 +6,3 @@
 public void CreateFromSizes(float width1, float depth1, float width2, float depth2, float length)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

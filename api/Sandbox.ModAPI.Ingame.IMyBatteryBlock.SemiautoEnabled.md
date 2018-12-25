@@ -8,7 +8,5 @@ public bool SemiautoEnabled { get; set; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

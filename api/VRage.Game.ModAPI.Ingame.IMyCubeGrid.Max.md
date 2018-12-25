@@ -10,7 +10,5 @@ Maximum coordinates of blocks in grid
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3I](VRageMath.Vector3I)
 

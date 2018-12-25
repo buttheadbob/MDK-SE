@@ -10,7 +10,5 @@ Determines whether this specific ship controller is capable of controlling the s
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

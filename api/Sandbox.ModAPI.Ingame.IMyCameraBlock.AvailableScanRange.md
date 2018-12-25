@@ -10,7 +10,5 @@ The maximum distance that this camera can scan, based on the time since the last
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

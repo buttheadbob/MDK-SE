@@ -6,9 +6,3 @@
 public void AssertEmpty<K, V>(Dictionary<TKey, TValue> collection)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

@@ -8,7 +8,5 @@ public char Char { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[char](System.Char)
 

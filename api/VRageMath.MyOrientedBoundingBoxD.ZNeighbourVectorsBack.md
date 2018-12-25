@@ -8,7 +8,5 @@ public Vector3[] ZNeighbourVectorsBack
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3[]](VRageMath.Vector3[])
 

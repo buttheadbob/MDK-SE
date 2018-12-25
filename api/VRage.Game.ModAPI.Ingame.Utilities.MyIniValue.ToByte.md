@@ -10,9 +10,7 @@ Attempts to get this value as a [System.Byte](https://docs.microsoft.com/en-us/d
 
 ### Returns
 
+[byte](System.Byte)
 
 
-### Example
-
-### Remarks
 

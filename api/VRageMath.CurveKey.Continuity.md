@@ -10,7 +10,5 @@ Describes whether the segment between this point and the next point in the curve
 
 ### Returns
 
-### Example
-
-### Remarks
+[CurveContinuity](VRageMath.CurveContinuity)
 

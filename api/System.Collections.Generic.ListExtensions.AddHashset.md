@@ -6,9 +6,3 @@
 public void AddHashset<T>(List<T> list, HashSet<T> hashset)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

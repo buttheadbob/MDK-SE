@@ -10,7 +10,5 @@ Is broadcasting
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

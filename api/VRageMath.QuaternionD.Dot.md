@@ -10,9 +10,7 @@ Calculates the dot product of two Quaternions.
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void Dot(ref QuaternionD quaternion1, ref QuaternionD quaternion2, ref�
 ```
 
 Calculates the dot product of two Quaternions.
-
-### Returns
-
-### Example
-
-### Remarks
 

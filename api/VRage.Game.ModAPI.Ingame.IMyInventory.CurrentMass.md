@@ -8,7 +8,5 @@ public MyFixedPoint CurrentMass { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyFixedPoint](VRage.MyFixedPoint)
 

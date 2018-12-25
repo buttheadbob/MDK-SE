@@ -8,7 +8,5 @@ public double ProjectedArea(Vector3D viewDir)
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

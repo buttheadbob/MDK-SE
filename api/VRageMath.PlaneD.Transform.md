@@ -10,9 +10,7 @@ Transforms a normalized PlaneD by a Matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[PlaneD](VRageMath.PlaneD)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void Transform(ref PlaneD plane, ref MatrixD matrix, ref PlaneD result
 ```
 
 Transforms a normalized PlaneD by a Matrix.
-
-### Returns
-
-### Example
-
-### Remarks
 

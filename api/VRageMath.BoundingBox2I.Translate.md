@@ -10,9 +10,7 @@ Translate
 
 ### Returns
 
+[BoundingBox2I](VRageMath.BoundingBox2I)
 
 
-### Example
-
-### Remarks
 

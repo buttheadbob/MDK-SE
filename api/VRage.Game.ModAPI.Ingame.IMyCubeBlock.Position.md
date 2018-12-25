@@ -10,7 +10,5 @@ Position in grid coordinates
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3I](VRageMath.Vector3I)
 

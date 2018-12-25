@@ -8,9 +8,7 @@ public Vector3L Sign(Vector3 value)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3L](VRageMath.Vector3L)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public Vector3L Sign(Vector3L value)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3L](VRageMath.Vector3L)
 

@@ -8,7 +8,5 @@ public ContainmentType ContainsRelativeBox(ref Vector3 hA, ref Vector3 hB, ref
 
 ### Returns
 
-### Example
-
-### Remarks
+[ContainmentType](VRageMath.ContainmentType)
 

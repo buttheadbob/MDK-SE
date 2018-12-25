@@ -10,9 +10,7 @@ Multiplies a matrix by another matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[MatrixD](VRageMath.MatrixD)
 
 ### Summary
 
@@ -24,9 +22,7 @@ Multiplies a matrix by another matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[MatrixD](VRageMath.MatrixD)
 
 ### Summary
 
@@ -36,23 +32,11 @@ public void Multiply(ref MatrixD matrix1, ref Matrix matrix2, ref MatrixD res
 
 Multiplies a matrix by another matrix.
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
 public void Multiply(ref Matrix matrix1, ref MatrixD matrix2, ref MatrixD result)
 ```
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -61,12 +45,6 @@ public void Multiply(ref MatrixD matrix1, ref MatrixD matrix2, ref MatrixD re
 ```
 
 Multiplies a matrix by another matrix.
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -78,9 +56,7 @@ Multiplies a matrix by a scalar value.
 
 ### Returns
 
-### Example
-
-### Remarks
+[MatrixD](VRageMath.MatrixD)
 
 ### Summary
 
@@ -89,10 +65,4 @@ public void Multiply(ref MatrixD matrix1, double scaleFactor, ref MatrixD resu
 ```
 
 Multiplies a matrix by a scalar value.
-
-### Returns
-
-### Example
-
-### Remarks
 

@@ -8,7 +8,5 @@ public int Length()
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

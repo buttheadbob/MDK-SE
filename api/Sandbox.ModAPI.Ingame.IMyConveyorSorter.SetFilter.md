@@ -6,9 +6,3 @@
 public void SetFilter(MyConveyorSorterMode mode, List<T> items)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

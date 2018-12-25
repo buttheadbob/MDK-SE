@@ -6,9 +6,3 @@
 public void Inflate(int size)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

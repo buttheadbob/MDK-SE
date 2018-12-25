@@ -6,21 +6,9 @@
 public void InflateToMinimum(Vector3D minimumSize)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
 public void InflateToMinimum(double minimumSize)
 ```
-
-### Returns
-
-### Example
-
-### Remarks
 

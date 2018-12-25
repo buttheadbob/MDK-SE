@@ -10,11 +10,9 @@ Determines whether the specified [System.Object](https://docs.microsoft.com/en-u
 
 ### Returns
 
+[bool](System.Boolean)
+
 `true`if the specified [System.Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6) is equal to this instance; otherwise,`false`.
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -24,7 +22,5 @@ public virtual bool Equals(object obj)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

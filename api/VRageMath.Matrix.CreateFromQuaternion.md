@@ -10,9 +10,7 @@ Creates a rotation Matrix from a Quaternion.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void CreateFromQuaternion(ref Quaternion quaternion, ref Matrix result)
 ```
 
 Creates a rotation Matrix from a Quaternion.
-
-### Returns
-
-### Example
-
-### Remarks
 

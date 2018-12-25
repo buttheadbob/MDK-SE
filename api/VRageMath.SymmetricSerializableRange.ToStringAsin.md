@@ -8,7 +8,5 @@ public string ToStringAsin()
 
 ### Returns
 
-### Example
-
-### Remarks
+[string](System.String)
 

@@ -10,7 +10,5 @@ Do not modify, public only for optimization!
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3L](VRageMath.Vector3L)
 

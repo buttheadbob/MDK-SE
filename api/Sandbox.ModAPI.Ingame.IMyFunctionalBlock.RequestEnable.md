@@ -6,9 +6,3 @@
 public void RequestEnable(bool enable)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

@@ -6,9 +6,3 @@
 public void GetCorners(Vector3[] corners, int startIndex)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

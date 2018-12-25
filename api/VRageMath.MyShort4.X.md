@@ -8,7 +8,5 @@ public short X
 
 ### Returns
 
-### Example
-
-### Remarks
+[short](System.Int16)
 

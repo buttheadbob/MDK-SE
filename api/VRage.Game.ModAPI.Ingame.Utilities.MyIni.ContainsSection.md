@@ -10,9 +10,7 @@ Determines whether a section of a given name exists in the currently parsed conf
 
 ### Returns
 
+[bool](System.Boolean)
 
 
-### Example
-
-### Remarks
 

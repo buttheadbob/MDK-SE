@@ -10,7 +10,5 @@ A comprehensive list of blocks left to be welded
 
 ### Returns
 
-### Example
-
-### Remarks
+[Dictionary<TKey, TValue>](System.Collections.Generic.Dictionary`2)
 

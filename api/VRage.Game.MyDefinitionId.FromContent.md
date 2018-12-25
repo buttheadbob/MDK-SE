@@ -10,9 +10,7 @@ Creates a new definition ID from a given content.
 
 ### Returns
 
+[MyDefinitionId](VRage.Game.MyDefinitionId)
 
 
-### Example
-
-### Remarks
 

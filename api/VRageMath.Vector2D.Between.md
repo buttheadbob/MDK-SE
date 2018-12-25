@@ -8,7 +8,5 @@ public bool Between(ref Vector2D start, ref Vector2D end)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

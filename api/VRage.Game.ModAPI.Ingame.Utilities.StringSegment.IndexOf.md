@@ -8,9 +8,7 @@ public int IndexOf(char ch)
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public int IndexOf(char ch, int start)
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

@@ -8,7 +8,5 @@ public int Y
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

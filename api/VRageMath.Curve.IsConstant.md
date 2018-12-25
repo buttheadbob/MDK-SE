@@ -10,7 +10,5 @@ Gets a value indicating whether the curve is constant.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

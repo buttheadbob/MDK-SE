@@ -8,7 +8,5 @@ public string Content
 
 ### Returns
 
-### Example
-
-### Remarks
+[string](System.String)
 

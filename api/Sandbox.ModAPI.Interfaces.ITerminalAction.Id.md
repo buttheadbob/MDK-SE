@@ -8,7 +8,5 @@ public string Id { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[string](System.String)
 

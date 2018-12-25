@@ -8,7 +8,5 @@ public string ToStringAxisAngle(string format)
 
 ### Returns
 
-### Example
-
-### Remarks
+[string](System.String)
 

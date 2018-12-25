@@ -8,7 +8,5 @@ public bool IsOrthogonal()
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

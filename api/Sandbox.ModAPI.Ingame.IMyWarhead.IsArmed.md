@@ -8,7 +8,5 @@ public bool IsArmed { get; set; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

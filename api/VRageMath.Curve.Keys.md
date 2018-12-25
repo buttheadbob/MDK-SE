@@ -10,7 +10,5 @@ The points that make up the curve.
 
 ### Returns
 
-### Example
-
-### Remarks
+[CurveKeyCollection](VRageMath.CurveKeyCollection)
 

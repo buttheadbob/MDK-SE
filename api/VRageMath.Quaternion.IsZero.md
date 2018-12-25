@@ -8,9 +8,7 @@ public bool IsZero(Quaternion value)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public bool IsZero(Quaternion value, float epsilon)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

@@ -8,7 +8,5 @@ public string SubtypeId { get; set; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[string](System.String)
 

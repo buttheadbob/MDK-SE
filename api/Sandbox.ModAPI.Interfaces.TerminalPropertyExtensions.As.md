@@ -8,7 +8,5 @@ public ITerminalProperty<TValue> As<TValue>(ITerminalProperty property)
 
 ### Returns
 
-### Example
-
-### Remarks
+[ITerminalProperty<TValue>](Sandbox.ModAPI.Interfaces.ITerminalProperty`1)
 

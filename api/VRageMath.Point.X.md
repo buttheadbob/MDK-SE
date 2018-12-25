@@ -10,7 +10,5 @@ Specifies the x-coordinate of the Point.
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

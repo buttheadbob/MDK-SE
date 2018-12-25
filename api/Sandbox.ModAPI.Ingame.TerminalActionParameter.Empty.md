@@ -10,7 +10,5 @@ Gets an empty parameter.
 
 ### Returns
 
-### Example
-
-### Remarks
+[TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter)
 

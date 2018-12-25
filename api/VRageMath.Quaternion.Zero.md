@@ -8,7 +8,5 @@ public Quaternion Zero
 
 ### Returns
 
-### Example
-
-### Remarks
+[Quaternion](VRageMath.Quaternion)
 

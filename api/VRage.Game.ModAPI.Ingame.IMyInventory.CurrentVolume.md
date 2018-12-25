@@ -8,7 +8,5 @@ public MyFixedPoint CurrentVolume { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyFixedPoint](VRage.MyFixedPoint)
 

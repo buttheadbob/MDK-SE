@@ -6,9 +6,3 @@
 public void TransformNoProjection(ref Vector3 vector, ref Matrix matrix, ref Vector3 result)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

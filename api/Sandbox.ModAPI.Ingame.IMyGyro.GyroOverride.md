@@ -8,7 +8,5 @@ public bool GyroOverride { get; set; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

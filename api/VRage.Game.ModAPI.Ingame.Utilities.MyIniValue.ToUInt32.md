@@ -10,9 +10,7 @@ Attempts to get this value as a [System.UInt32](https://docs.microsoft.com/en-us
 
 ### Returns
 
+[uint](System.UInt32)
 
 
-### Example
-
-### Remarks
 

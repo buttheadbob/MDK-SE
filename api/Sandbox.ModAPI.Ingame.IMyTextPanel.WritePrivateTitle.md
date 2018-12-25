@@ -8,7 +8,5 @@ public bool WritePrivateTitle(string value, bool append)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

@@ -10,9 +10,7 @@ Performs a Hermite spline interpolation.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector4](VRageMath.Vector4)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void Hermite(ref Vector4 value1, ref Vector4 tangent1, ref Vector4 val
 ```
 
 Performs a Hermite spline interpolation.
-
-### Returns
-
-### Example
-
-### Remarks
 

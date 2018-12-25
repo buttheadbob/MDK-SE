@@ -10,7 +10,5 @@ Wheel's current steering angle
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

@@ -10,7 +10,5 @@ Gets the fatblock if there is one
 
 ### Returns
 
-### Example
-
-### Remarks
+[IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)
 

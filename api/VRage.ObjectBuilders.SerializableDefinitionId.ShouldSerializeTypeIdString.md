@@ -8,7 +8,5 @@ public bool ShouldSerializeTypeIdString()
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

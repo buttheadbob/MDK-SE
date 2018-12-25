@@ -10,7 +10,5 @@ Gets or sets if the sensor should detect floating objects (components, rocks).
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

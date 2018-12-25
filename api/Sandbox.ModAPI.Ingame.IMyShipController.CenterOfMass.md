@@ -10,7 +10,5 @@ Center of mass in world coordinates
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3D](VRageMath.Vector3D)
 

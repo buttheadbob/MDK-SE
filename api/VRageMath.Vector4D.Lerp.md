@@ -10,9 +10,7 @@ Performs a linear interpolation between two vectors.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector4D](VRageMath.Vector4D)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void Lerp(ref Vector4D value1, ref Vector4D value2, double amount, ref�
 ```
 
 Performs a linear interpolation between two vectors.
-
-### Returns
-
-### Example
-
-### Remarks
 

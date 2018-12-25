@@ -8,7 +8,5 @@ public bool IsNewLine()
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

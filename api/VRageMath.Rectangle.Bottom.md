@@ -10,7 +10,5 @@ Returns the y-coordinate of the bottom of the rectangle.
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

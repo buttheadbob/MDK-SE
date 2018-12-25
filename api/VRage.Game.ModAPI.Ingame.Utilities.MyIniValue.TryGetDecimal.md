@@ -10,9 +10,7 @@ Attempts to get this value as a [System.Decimal](https://docs.microsoft.com/en-u
 
 ### Returns
 
+[bool](System.Boolean)
+
 `true`if the value could be understood as this data type;`false`otherwise
-
-### Example
-
-### Remarks
 

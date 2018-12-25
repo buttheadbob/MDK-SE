@@ -8,9 +8,7 @@ public bool IsOrthogonal()
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public bool IsOrthogonal(double epsilon)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

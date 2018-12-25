@@ -10,9 +10,7 @@ Returns value of specified property
 
 ### Returns
 
+[bool](System.Boolean)
+
 property value as bool
-
-### Example
-
-### Remarks
 

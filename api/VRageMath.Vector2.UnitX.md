@@ -8,7 +8,5 @@ public Vector2 UnitX
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector2](VRageMath.Vector2)
 

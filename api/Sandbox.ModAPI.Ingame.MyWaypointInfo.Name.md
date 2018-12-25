@@ -10,7 +10,5 @@ The name of this GPS coordinate
 
 ### Returns
 
-### Example
-
-### Remarks
+[string](System.String)
 

@@ -8,7 +8,5 @@ public MyBlockOrientation Identity
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyBlockOrientation](VRageMath.MyBlockOrientation)
 

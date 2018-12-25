@@ -10,11 +10,9 @@ Gets the [MyIniValue](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue) of the give
 
 ### Returns
 
+[MyIniValue](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue)
 
 
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -26,9 +24,7 @@ Gets the [MyIniValue](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue) of the give
 
 ### Returns
 
+[MyIniValue](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue)
 
 
-### Example
-
-### Remarks
 

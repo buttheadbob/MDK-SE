@@ -10,7 +10,5 @@ Determines whether the sorter should drain any inventories connected to it and p
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

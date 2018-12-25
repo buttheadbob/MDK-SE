@@ -8,7 +8,5 @@ public virtual int GetHashCode()
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

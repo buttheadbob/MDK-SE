@@ -10,7 +10,5 @@ Gets or sets the currently configured strength of the pull when the connector is
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

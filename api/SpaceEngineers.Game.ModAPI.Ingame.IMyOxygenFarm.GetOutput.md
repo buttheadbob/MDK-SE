@@ -8,7 +8,5 @@ public float GetOutput()
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

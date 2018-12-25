@@ -10,11 +10,9 @@ Translate
 
 ### Returns
 
+[BoundingBox](VRageMath.BoundingBox)
 
 
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -26,9 +24,7 @@ Translate
 
 ### Returns
 
+[BoundingBox](VRageMath.BoundingBox)
 
 
-### Example
-
-### Remarks
 

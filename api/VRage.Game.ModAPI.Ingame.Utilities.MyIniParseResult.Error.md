@@ -10,7 +10,5 @@ Gets a description of the error that occurred during parsing. Will be`null`if no
 
 ### Returns
 
-### Example
-
-### Remarks
+[string](System.String)
 

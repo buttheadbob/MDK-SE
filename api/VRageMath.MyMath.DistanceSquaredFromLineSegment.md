@@ -10,7 +10,5 @@ Return minimum distance between line segment v-w and point p.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

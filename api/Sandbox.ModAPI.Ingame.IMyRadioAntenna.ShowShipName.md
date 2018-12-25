@@ -10,7 +10,5 @@ Show shipname on hud
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

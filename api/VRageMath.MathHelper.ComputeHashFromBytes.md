@@ -8,7 +8,5 @@ public int ComputeHashFromBytes(Byte[] bytes)
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

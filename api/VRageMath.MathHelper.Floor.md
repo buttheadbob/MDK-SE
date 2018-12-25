@@ -8,9 +8,7 @@ public int Floor(float n)
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public int Floor(double n)
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

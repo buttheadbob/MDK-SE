@@ -10,9 +10,7 @@ Flips the sign of each component of the quaternion.
 
 ### Returns
 
-### Example
-
-### Remarks
+[QuaternionD](VRageMath.QuaternionD)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void Negate(ref QuaternionD quaternion, ref QuaternionD result)
 ```
 
 Flips the sign of each component of the quaternion.
-
-### Returns
-
-### Example
-
-### Remarks
 

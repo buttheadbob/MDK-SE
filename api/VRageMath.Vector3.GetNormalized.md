@@ -8,7 +8,5 @@ public bool GetNormalized(ref Vector3 value)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

@@ -10,7 +10,5 @@ Gets or sets if the sensor should detect players.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

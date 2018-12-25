@@ -6,9 +6,3 @@
 public void Rotate(double angle)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

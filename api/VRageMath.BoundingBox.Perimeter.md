@@ -10,9 +10,7 @@ return perimeter of edges
 
 ### Returns
 
+[float](System.Single)
 
 
-### Example
-
-### Remarks
 

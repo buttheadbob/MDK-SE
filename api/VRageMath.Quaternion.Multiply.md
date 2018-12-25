@@ -10,9 +10,7 @@ Multiplies two quaternions.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Quaternion](VRageMath.Quaternion)
 
 ### Summary
 
@@ -21,12 +19,6 @@ public void Multiply(ref Quaternion quaternion1, ref Quaternion quaternion2, r
 ```
 
 Multiplies two quaternions.
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -38,9 +30,7 @@ Multiplies a quaternion by a scalar value.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Quaternion](VRageMath.Quaternion)
 
 ### Summary
 
@@ -49,10 +39,4 @@ public void Multiply(ref Quaternion quaternion1, float scaleFactor, ref Quater
 ```
 
 Multiplies a quaternion by a scalar value.
-
-### Returns
-
-### Example
-
-### Remarks
 

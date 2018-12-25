@@ -8,7 +8,5 @@ public Color Alpha(Color c, float a)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Color](VRageMath.Color)
 

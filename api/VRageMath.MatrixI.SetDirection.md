@@ -6,9 +6,3 @@
 public void SetDirection(Direction dirToSet, Direction newDirection)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

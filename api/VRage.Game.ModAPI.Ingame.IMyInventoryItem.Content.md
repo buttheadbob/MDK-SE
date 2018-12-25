@@ -8,7 +8,5 @@ public MyObjectBuilder_Base Content { get; set; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyObjectBuilder_Base](VRage.ObjectBuilders.MyObjectBuilder_Base)
 

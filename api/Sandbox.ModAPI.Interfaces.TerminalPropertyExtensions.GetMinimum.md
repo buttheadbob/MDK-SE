@@ -8,7 +8,5 @@ public T GetMinimum<T>(IMyTerminalBlock block, string propertyId)
 
 ### Returns
 
-### Example
-
-### Remarks
+[T]()
 

@@ -10,7 +10,5 @@ For XmlSerialization, format is 123.456789
 
 ### Returns
 
-### Example
-
-### Remarks
+[string](System.String)
 

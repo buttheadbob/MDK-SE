@@ -8,12 +8,6 @@ public void RemoveQueueItem(int idx, MyFixedPoint amount)
 
 Removes an item from the queue
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
@@ -22,12 +16,6 @@ public void RemoveQueueItem(int idx, decimal amount)
 
 Removes an item from the queue
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
@@ -35,10 +23,4 @@ public void RemoveQueueItem(int idx, double amount)
 ```
 
 Removes an item from the queue
-
-### Returns
-
-### Example
-
-### Remarks
 

@@ -8,7 +8,5 @@ public float Area()
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

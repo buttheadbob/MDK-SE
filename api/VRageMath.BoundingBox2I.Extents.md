@@ -8,7 +8,5 @@ public Vector2I Extents { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector2I](VRageMath.Vector2I)
 

@@ -10,7 +10,5 @@ Provides access to the grid terminal system as viewed from this programmable blo
 
 ### Returns
 
-### Example
-
-### Remarks
+[IMyGridTerminalSystem](Sandbox.ModAPI.Ingame.IMyGridTerminalSystem)
 

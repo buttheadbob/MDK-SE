@@ -6,9 +6,3 @@
 public void RemoveIndices<T>(List<T> list, List<T> indices)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

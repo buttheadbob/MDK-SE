@@ -8,7 +8,5 @@ public BoundingSphereD WorldVolume { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[BoundingSphereD](VRageMath.BoundingSphereD)
 

@@ -8,7 +8,5 @@ public bool ContainItems(MyFixedPoint amount, MyObjectBuilder_PhysicalObject ob)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

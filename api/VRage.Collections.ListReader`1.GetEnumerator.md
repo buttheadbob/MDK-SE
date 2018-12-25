@@ -8,7 +8,5 @@ public Enumerator<T> GetEnumerator()
 
 ### Returns
 
-### Example
-
-### Remarks
+[Enumerator<T>](System.Collections.Generic.List`1+Enumerator)
 

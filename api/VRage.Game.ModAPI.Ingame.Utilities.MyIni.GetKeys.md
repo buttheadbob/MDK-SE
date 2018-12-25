@@ -6,21 +6,9 @@
 public void GetKeys(string section, List<T> keys)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
 public void GetKeys(List<T> keys)
 ```
-
-### Returns
-
-### Example
-
-### Remarks
 

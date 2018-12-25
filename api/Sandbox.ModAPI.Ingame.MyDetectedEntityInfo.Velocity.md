@@ -10,7 +10,5 @@ The entity's absolute velocity at the time it was detected
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 

@@ -10,7 +10,5 @@ Gets the current position of the piston head relative to the base.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

@@ -8,7 +8,5 @@ public Matrix CreatePerspectiveFovRhInfinite(float fieldOfView, float aspectRati
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 

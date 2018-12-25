@@ -8,19 +8,11 @@ public Matrix UnpackOrthoMatrix(ref Vector4 packed)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 
 ### Summary
 
 ```csharp
 public void UnpackOrthoMatrix(ref Vector4 packed, ref Matrix matrix)
 ```
-
-### Returns
-
-### Example
-
-### Remarks
 

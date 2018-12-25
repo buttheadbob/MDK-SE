@@ -8,9 +8,7 @@ public Vector4 ToSRGB(Vector4 c)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector4](VRageMath.Vector4)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public Vector3 ToSRGB(Vector3 c)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 

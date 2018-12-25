@@ -8,7 +8,5 @@ public bool TryDequeue<T>(Queue<T> queue, ref T result)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

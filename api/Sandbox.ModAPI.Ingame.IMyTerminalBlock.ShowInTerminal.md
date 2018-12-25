@@ -8,7 +8,5 @@ public bool ShowInTerminal { get; set; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

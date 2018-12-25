@@ -10,9 +10,7 @@ Calculates the distance between two vectors squared.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void DistanceSquared(ref Vector2 value1, ref Vector2 value2, ref float
 ```
 
 Calculates the distance between two vectors squared.
-
-### Returns
-
-### Example
-
-### Remarks
 

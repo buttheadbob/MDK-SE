@@ -10,7 +10,5 @@ Is set in definition Ratio at which is the block disassembled (grinding)
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

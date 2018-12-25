@@ -8,7 +8,5 @@ public Vector3L UnitY
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3L](VRageMath.Vector3L)
 

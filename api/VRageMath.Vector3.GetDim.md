@@ -8,7 +8,5 @@ public float GetDim(int i)
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

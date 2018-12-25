@@ -8,7 +8,5 @@ public double Distance
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

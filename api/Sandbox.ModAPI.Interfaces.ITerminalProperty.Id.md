@@ -10,7 +10,5 @@ Property Id (value name)
 
 ### Returns
 
-### Example
-
-### Remarks
+[string](System.String)
 

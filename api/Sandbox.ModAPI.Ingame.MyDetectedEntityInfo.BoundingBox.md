@@ -10,7 +10,5 @@ The entity's world-aligned bounding box
 
 ### Returns
 
-### Example
-
-### Remarks
+[BoundingBoxD](VRageMath.BoundingBoxD)
 

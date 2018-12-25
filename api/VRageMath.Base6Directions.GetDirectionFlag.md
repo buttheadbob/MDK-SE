@@ -8,7 +8,5 @@ public DirectionFlags GetDirectionFlag(Direction dir)
 
 ### Returns
 
-### Example
-
-### Remarks
+[DirectionFlags](VRageMath.Base6Directions+DirectionFlags)
 

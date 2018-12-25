@@ -10,7 +10,5 @@ Reduces a given angle to a value between π and -π.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

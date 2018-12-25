@@ -6,9 +6,3 @@
 public void OverlapAllFrustumAny<T>(ref BoundingFrustum frustum, List<T> elementsList, bool clear)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

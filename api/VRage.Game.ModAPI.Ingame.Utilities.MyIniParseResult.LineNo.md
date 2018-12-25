@@ -10,7 +10,5 @@ Gets the line number where an error occured.
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

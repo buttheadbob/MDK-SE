@@ -10,7 +10,5 @@ The device is currently producing.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

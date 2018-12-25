@@ -8,7 +8,5 @@ public TValue GetDefaultValue(IMyCubeBlock block)
 
 ### Returns
 
-### Example
-
-### Remarks
+[TValue]()
 

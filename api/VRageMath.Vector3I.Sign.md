@@ -8,9 +8,7 @@ public Vector3I Sign(Vector3 value)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3I](VRageMath.Vector3I)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public Vector3I Sign(Vector3I value)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3I](VRageMath.Vector3I)
 

@@ -10,7 +10,5 @@ The maximum point the BoundingBox2I contains.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector2I](VRageMath.Vector2I)
 

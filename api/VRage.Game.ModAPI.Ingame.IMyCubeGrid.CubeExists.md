@@ -10,7 +10,5 @@ Returns true if there is any block occupying given position
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

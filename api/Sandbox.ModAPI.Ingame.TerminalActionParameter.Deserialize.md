@@ -10,9 +10,7 @@ Creates a [TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParamete
 
 ### Returns
 
+[TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter)
 
 
-### Example
-
-### Remarks
 

@@ -8,9 +8,7 @@ public bool IsZero(ref Vector2 value)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -20,9 +18,7 @@ public bool IsZero(ref Vector2 value, float epsilon)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -32,7 +28,5 @@ public bool IsZero(Vector2 value, float epsilon)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

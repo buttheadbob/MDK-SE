@@ -10,7 +10,5 @@ Gets a reference to the currently running programmable block.
 
 ### Returns
 
-### Example
-
-### Remarks
+[IMyProgrammableBlock](Sandbox.ModAPI.Ingame.IMyProgrammableBlock)
 

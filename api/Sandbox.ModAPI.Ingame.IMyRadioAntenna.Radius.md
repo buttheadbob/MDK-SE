@@ -10,7 +10,5 @@ Broadcasting/Receiving range
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

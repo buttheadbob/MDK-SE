@@ -10,7 +10,5 @@ Gets or sets whether storage bottles will be filled automatically when placed wi
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

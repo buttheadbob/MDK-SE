@@ -8,9 +8,3 @@ public void StopCountdown()
 
 Stops current countdown
 
-### Returns
-
-### Example
-
-### Remarks
-

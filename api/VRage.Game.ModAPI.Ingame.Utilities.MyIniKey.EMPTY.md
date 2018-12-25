@@ -8,7 +8,5 @@ public MyIniKey EMPTY
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey)
 

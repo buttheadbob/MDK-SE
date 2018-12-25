@@ -8,7 +8,5 @@ public bool IsStartOfLine()
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

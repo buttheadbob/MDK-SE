@@ -10,7 +10,5 @@ Determines the linear velocities in meters per second at the block position
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3D](VRageMath.Vector3D)
 

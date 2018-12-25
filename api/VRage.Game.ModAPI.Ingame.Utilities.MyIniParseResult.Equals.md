@@ -10,11 +10,9 @@ Compares this [MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseRe
 
 ### Returns
 
+[bool](System.Boolean)
 
 
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -26,9 +24,7 @@ Compares this [MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseRe
 
 ### Returns
 
+[bool](System.Boolean)
 
 
-### Example
-
-### Remarks
 

@@ -10,9 +10,7 @@ Returns normal between two cube edge of same direction
 
 ### Returns
 
+[bool](System.Boolean)
+
 false if edges are not neighbors
-
-### Example
-
-### Remarks
 

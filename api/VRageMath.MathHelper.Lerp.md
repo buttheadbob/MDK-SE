@@ -10,9 +10,7 @@ Linearly interpolates between two values.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 
 ### Summary
 
@@ -24,7 +22,5 @@ Linearly interpolates between two values.
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

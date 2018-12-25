@@ -10,7 +10,5 @@ Gets if the block is looking for a top part
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

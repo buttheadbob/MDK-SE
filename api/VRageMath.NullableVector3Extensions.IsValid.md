@@ -8,7 +8,5 @@ public bool IsValid(Nullable<T> value)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

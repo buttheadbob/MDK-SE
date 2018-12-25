@@ -8,12 +8,6 @@ public void Normalize()
 
 Turns the current vector into a unit vector. The result is a vector one unit in length pointing in the same direction as the original vector.
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
@@ -24,9 +18,7 @@ Creates a unit vector from the specified vector. The result is a vector one unit
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector2](VRageMath.Vector2)
 
 ### Summary
 
@@ -35,10 +27,4 @@ public void Normalize(ref Vector2 value, ref Vector2 result)
 ```
 
 Creates a unit vector from the specified vector, writing the result to a user-specified variable. The result is a vector one unit in length pointing in the same direction as the original vector.
-
-### Returns
-
-### Example
-
-### Remarks
 

@@ -8,9 +8,7 @@ public bool BoxContains(Vector3I boxMin, Vector3I boxMax, Vector3I pt)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public bool BoxContains(ref Vector3I boxMin, ref Vector3I boxMax, ref Vector3
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

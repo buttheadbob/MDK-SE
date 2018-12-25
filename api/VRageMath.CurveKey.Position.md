@@ -10,7 +10,5 @@ Position of the CurveKey in the curve.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

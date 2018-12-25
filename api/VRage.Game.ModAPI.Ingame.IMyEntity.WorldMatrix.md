@@ -8,7 +8,5 @@ public MatrixD WorldMatrix { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[MatrixD](VRageMath.MatrixD)
 

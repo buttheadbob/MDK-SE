@@ -8,9 +8,3 @@ public void Negate(ref Matrix3x3 matrix, ref Matrix3x3 result)
 
 Negates individual elements of a matrix.
 
-### Returns
-
-### Example
-
-### Remarks
-

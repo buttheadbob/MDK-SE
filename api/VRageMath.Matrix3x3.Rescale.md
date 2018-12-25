@@ -8,12 +8,6 @@ public void Rescale(ref Matrix3x3 matrix, float scale)
 
 Same result as Matrix3x3.CreateScale(scale) * matrix, but much faster
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
@@ -21,12 +15,6 @@ public void Rescale(ref Matrix3x3 matrix, ref Vector3 scale)
 ```
 
 Same result as Matrix3x3.CreateScale(scale) * matrix, but much faster
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -36,9 +24,7 @@ public Matrix3x3 Rescale(Matrix3x3 matrix, float scale)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix3x3](VRageMath.Matrix3x3)
 
 ### Summary
 
@@ -48,7 +34,5 @@ public Matrix3x3 Rescale(Matrix3x3 matrix, Vector3 scale)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix3x3](VRageMath.Matrix3x3)
 

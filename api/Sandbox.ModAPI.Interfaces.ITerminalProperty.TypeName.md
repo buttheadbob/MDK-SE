@@ -10,7 +10,5 @@ Property type (bool - [System.Boolean](https://docs.microsoft.com/en-us/dotnet/a
 
 ### Returns
 
-### Example
-
-### Remarks
+[string](System.String)
 

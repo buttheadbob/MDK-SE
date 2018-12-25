@@ -8,7 +8,5 @@ public QuaternionD Identity
 
 ### Returns
 
-### Example
-
-### Remarks
+[QuaternionD](VRageMath.QuaternionD)
 

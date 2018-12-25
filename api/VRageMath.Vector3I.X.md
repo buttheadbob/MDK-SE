@@ -8,7 +8,5 @@ public int X
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

@@ -10,9 +10,7 @@ Tells the component container serializer whether this component should be saved
 
 ### Returns
 
+[bool](System.Boolean)
 
 
-### Example
-
-### Remarks
 

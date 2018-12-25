@@ -6,9 +6,3 @@
 public void RemoveImagesFromSelection(List<T> ids, bool removeDuplicates)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

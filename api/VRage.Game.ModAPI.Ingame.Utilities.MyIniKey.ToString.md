@@ -10,9 +10,7 @@ Generates a string representing this [MyIniKey](VRage.Game.ModAPI.Ingame.Utiliti
 
 ### Returns
 
+[string](System.String)
 
 
-### Example
-
-### Remarks
 

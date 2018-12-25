@@ -10,7 +10,5 @@ Build integrity (of components)
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

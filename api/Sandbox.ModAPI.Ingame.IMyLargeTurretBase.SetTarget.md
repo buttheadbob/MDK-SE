@@ -8,9 +8,3 @@ public void SetTarget(Vector3D pos)
 
 Targets given position
 
-### Returns
-
-### Example
-
-### Remarks
-

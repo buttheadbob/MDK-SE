@@ -8,7 +8,5 @@ public Vector3 ColorToHSV(Color rgb)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 

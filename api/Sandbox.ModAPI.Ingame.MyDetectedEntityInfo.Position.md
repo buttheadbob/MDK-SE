@@ -10,7 +10,5 @@ The entity's position (center of the Bounding Box)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3D](VRageMath.Vector3D)
 

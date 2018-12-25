@@ -8,7 +8,5 @@ public float Range { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

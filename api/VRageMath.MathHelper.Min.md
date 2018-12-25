@@ -10,9 +10,7 @@ Returns the lesser of two values.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 
 ### Summary
 
@@ -24,9 +22,7 @@ Returns the lesser of two values.
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 
 ### Summary
 
@@ -36,9 +32,7 @@ public float Min(float a, float b, float c)
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 
 ### Summary
 
@@ -48,7 +42,5 @@ public double Min(double a, double b, double c)
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

@@ -6,9 +6,3 @@
 public void FindAll(string source, List<T> gpsList)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

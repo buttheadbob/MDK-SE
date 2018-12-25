@@ -6,9 +6,3 @@
 public void ShowTextureOnScreen()
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

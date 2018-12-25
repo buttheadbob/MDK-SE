@@ -10,9 +10,7 @@ Creates a new rotation matrix from a specified yaw, pitch, and roll.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix3x3](VRageMath.Matrix3x3)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void CreateFromYawPitchRoll(float yaw, float pitch, float roll, ref Matr
 ```
 
 Fills in a rotation matrix from a specified yaw, pitch, and roll.
-
-### Returns
-
-### Example
-
-### Remarks
 

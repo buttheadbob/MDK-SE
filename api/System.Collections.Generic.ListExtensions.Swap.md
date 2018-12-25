@@ -6,9 +6,3 @@
 public void Swap<T>(List<T> list, int a, int b)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

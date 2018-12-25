@@ -10,7 +10,5 @@ A component stockpile has been allocated
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

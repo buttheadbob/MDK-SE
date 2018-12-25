@@ -8,7 +8,5 @@ public bool IsUnit(ref Vector3D value)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

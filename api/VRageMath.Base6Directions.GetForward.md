@@ -8,9 +8,7 @@ public Direction GetForward(Quaternion rot)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Direction](VRageMath.Base6Directions+Direction)
 
 ### Summary
 
@@ -20,9 +18,7 @@ public Direction GetForward(ref Quaternion rot)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Direction](VRageMath.Base6Directions+Direction)
 
 ### Summary
 
@@ -32,7 +28,5 @@ public Direction GetForward(ref Matrix rotation)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Direction](VRageMath.Base6Directions+Direction)
 

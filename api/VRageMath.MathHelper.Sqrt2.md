@@ -10,7 +10,5 @@ Represents the value of the square root of two
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

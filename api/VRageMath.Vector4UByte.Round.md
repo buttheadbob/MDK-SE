@@ -8,9 +8,7 @@ public Vector4UByte Round(Vector3 vec)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector4UByte](VRageMath.Vector4UByte)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public Vector4UByte Round(Vector4 vec)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector4UByte](VRageMath.Vector4UByte)
 

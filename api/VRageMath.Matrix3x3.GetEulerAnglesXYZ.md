@@ -8,7 +8,5 @@ public bool GetEulerAnglesXYZ(ref Matrix3x3 mat, ref Vector3 xyz)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

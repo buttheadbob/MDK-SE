@@ -8,9 +8,3 @@ public void Clear()
 
 Empties this configuration
 
-### Returns
-
-### Example
-
-### Remarks
-

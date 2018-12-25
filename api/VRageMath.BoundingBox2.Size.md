@@ -10,9 +10,7 @@ Size
 
 ### Returns
 
+[Vector2](VRageMath.Vector2)
 
 
-### Example
-
-### Remarks
 

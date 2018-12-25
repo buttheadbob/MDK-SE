@@ -8,7 +8,5 @@ public Matrix CreateLookAtInverse(Vector3 cameraPosition, Vector3 cameraTarget, 
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 

@@ -10,11 +10,9 @@ Attempts to parse the given content as a configuration file.
 
 ### Returns
 
+[bool](System.Boolean)
+
 `true`if the parse succeeds,`false`otherwise
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -26,11 +24,9 @@ Attempts to parse the given content as a configuration file.
 
 ### Returns
 
+[bool](System.Boolean)
+
 `true`if the parse succeeds,`false`otherwise
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -42,11 +38,9 @@ Attempts to parse the given content as a configuration file. OBSERVE: Use only f
 
 ### Returns
 
+[bool](System.Boolean)
+
 `true`if the parse succeeds,`false`otherwise
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -58,9 +52,7 @@ Attempts to parse the given content as a configuration file. OBSERVE: Use only f
 
 ### Returns
 
+[bool](System.Boolean)
+
 `true`if the parse succeeds,`false`otherwise
-
-### Example
-
-### Remarks
 

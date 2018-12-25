@@ -8,7 +8,5 @@ public MyFixedPoint MinValue
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyFixedPoint](VRage.MyFixedPoint)
 

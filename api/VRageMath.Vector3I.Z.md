@@ -8,7 +8,5 @@ public int Z
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

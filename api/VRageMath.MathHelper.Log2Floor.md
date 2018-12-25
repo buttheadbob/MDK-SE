@@ -8,7 +8,5 @@ public int Log2Floor(int value)
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

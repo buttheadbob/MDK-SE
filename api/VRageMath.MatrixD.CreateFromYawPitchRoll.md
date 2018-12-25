@@ -10,9 +10,7 @@ Creates a new rotation matrix from a specified yaw, pitch, and roll.
 
 ### Returns
 
-### Example
-
-### Remarks
+[MatrixD](VRageMath.MatrixD)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void CreateFromYawPitchRoll(double yaw, double pitch, double roll, ref M
 ```
 
 Fills in a rotation matrix from a specified yaw, pitch, and roll.
-
-### Returns
-
-### Example
-
-### Remarks
 

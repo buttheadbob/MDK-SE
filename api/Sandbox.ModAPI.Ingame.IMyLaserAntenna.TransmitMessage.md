@@ -10,7 +10,5 @@ Sends a message to the programmable block associated with this antenna's partner
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

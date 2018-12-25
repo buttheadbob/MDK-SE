@@ -10,7 +10,5 @@ Gets or sets the torque applied when stopping the rotor top
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

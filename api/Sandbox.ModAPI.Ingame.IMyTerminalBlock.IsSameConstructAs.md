@@ -12,9 +12,7 @@ Be aware that using merge blocks combines grids into one, so this function will 
 
 ### Returns
 
+[bool](System.Boolean)
 
 
-### Example
-
-### Remarks
 

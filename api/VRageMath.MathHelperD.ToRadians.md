@@ -10,7 +10,5 @@ Converts degrees to radians.
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

@@ -10,9 +10,7 @@ Get cube block at given position
 
 ### Returns
 
+[IMySlimBlock](VRage.Game.ModAPI.Ingame.IMySlimBlock)
+
 Block or null if none is present at given position
-
-### Example
-
-### Remarks
 

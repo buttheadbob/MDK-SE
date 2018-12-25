@@ -10,7 +10,5 @@ Value at row 3 column 1 of the matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

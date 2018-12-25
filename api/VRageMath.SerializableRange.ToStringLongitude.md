@@ -8,7 +8,5 @@ public string ToStringLongitude()
 
 ### Returns
 
-### Example
-
-### Remarks
+[string](System.String)
 

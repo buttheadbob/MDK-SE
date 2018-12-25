@@ -10,7 +10,5 @@ Gets if a sound is currently selected.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

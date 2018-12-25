@@ -10,7 +10,5 @@ Grid in which the block is placed
 
 ### Returns
 
-### Example
-
-### Remarks
+[IMyCubeGrid](VRage.Game.ModAPI.Ingame.IMyCubeGrid)
 

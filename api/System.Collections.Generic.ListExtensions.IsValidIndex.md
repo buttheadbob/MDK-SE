@@ -8,7 +8,5 @@ public bool IsValidIndex<T>(List<T> list, int index)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

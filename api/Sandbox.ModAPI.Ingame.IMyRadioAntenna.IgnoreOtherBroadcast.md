@@ -10,7 +10,5 @@ Ignores broadcasts sent by neutral and enemy antenna
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

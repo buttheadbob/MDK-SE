@@ -10,7 +10,7 @@ Gets the direction of thrust, relative to ship controller (cockpit).
 
 ### Returns
 
-### Example
+[Vector3I](VRageMath.Vector3I)
 
 ### Remarks
 

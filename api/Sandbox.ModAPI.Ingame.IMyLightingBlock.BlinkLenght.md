@@ -8,7 +8,5 @@ public float BlinkLenght { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

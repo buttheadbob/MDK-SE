@@ -8,7 +8,5 @@ public long GetHash()
 
 ### Returns
 
-### Example
-
-### Remarks
+[long](System.Int64)
 

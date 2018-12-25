@@ -6,9 +6,3 @@
 public void Query(Func<T, TResult> callback, ref BoundingBoxD aabb)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

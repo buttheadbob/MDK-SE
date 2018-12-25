@@ -8,9 +8,3 @@ public void MultiplyRotation(ref Matrix matrix1, ref Matrix matrix2, ref Matr
 
 Multiplies a matrix by another matrix, only rotation parts.
 
-### Returns
-
-### Example
-
-### Remarks
-

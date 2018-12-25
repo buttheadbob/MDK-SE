@@ -10,7 +10,5 @@ The entity's display name if it is friendly, or a generic descriptor if it is no
 
 ### Returns
 
-### Example
-
-### Remarks
+[string](System.String)
 

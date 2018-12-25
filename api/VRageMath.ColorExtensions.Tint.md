@@ -8,7 +8,5 @@ public Color Tint(Color c, float r)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Color](VRageMath.Color)
 

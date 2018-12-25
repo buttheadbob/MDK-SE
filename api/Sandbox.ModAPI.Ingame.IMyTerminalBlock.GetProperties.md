@@ -6,9 +6,3 @@
 public void GetProperties(List<T> resultList, Func<T, TResult> collect)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

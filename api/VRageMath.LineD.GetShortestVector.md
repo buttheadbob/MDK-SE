@@ -8,7 +8,5 @@ public Vector3D GetShortestVector(ref LineD line1, ref LineD line2, ref Vecto
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3D](VRageMath.Vector3D)
 

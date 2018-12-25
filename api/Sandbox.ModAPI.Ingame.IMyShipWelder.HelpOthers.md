@@ -10,7 +10,5 @@ True if welder is set to helper mode
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

@@ -10,7 +10,5 @@ Gets or sets how frequently this script will run itself
 
 ### Returns
 
-### Example
-
-### Remarks
+[UpdateFrequency](Sandbox.ModAPI.Ingame.UpdateFrequency)
 

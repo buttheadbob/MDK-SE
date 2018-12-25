@@ -10,7 +10,5 @@ Gets or sets whether this device should use the conveyor system to retrieve and 
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

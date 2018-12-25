@@ -10,7 +10,5 @@ The distance of the PlaneD along its normal from the origin. Note: Be careful! T
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

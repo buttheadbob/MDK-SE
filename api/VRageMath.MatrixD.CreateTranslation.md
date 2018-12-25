@@ -10,9 +10,7 @@ Creates a translation Matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[MatrixD](VRageMath.MatrixD)
 
 ### Summary
 
@@ -22,9 +20,7 @@ public MatrixD CreateTranslation(Vector3 position)
 
 ### Returns
 
-### Example
-
-### Remarks
+[MatrixD](VRageMath.MatrixD)
 
 ### Summary
 
@@ -33,12 +29,6 @@ public void CreateTranslation(ref Vector3D position, ref MatrixD result)
 ```
 
 Creates a translation Matrix.
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -50,9 +40,7 @@ Creates a translation Matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[MatrixD](VRageMath.MatrixD)
 
 ### Summary
 
@@ -61,10 +49,4 @@ public void CreateTranslation(double xPosition, double yPosition, double zPositi
 ```
 
 Creates a translation Matrix.
-
-### Returns
-
-### Example
-
-### Remarks
 

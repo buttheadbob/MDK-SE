@@ -10,7 +10,5 @@ Gets the current lock state of the landing gear.
 
 ### Returns
 
-### Example
-
-### Remarks
+[LandingGearMode](SpaceEngineers.Game.ModAPI.Ingame.LandingGearMode)
 

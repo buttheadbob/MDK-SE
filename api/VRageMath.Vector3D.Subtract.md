@@ -10,9 +10,7 @@ Subtracts a vector from a vector.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3D](VRageMath.Vector3D)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void Subtract(ref Vector3D value1, ref Vector3D value2, ref Vector3D r
 ```
 
 Subtracts a vector from a vector.
-
-### Returns
-
-### Example
-
-### Remarks
 

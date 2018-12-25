@@ -10,7 +10,7 @@ Gets or sets the loop period of a loopable sound, in seconds.
 
 ### Returns
 
-### Example
+[float](System.Single)
 
 ### Remarks
 

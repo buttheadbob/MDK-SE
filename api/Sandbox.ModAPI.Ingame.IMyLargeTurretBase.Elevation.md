@@ -10,7 +10,5 @@ Sets/gets elevation of turret, this method is not synced, you need to sync eleva
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

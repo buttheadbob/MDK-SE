@@ -8,7 +8,5 @@ public Vector2 Floor(Vector2 position)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector2](VRageMath.Vector2)
 

@@ -8,9 +8,7 @@ public double DistanceToTangent(ref Vector3D center, ref Vector3D point, doubl
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public double DistanceToTangent(ref Vector2D center, ref Vector2D point, doubl
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

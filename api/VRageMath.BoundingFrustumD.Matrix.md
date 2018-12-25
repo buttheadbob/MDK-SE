@@ -10,7 +10,5 @@ Gets or sets the Matrix that describes this bounding frustum.
 
 ### Returns
 
-### Example
-
-### Remarks
+[MatrixD](VRageMath.MatrixD)
 

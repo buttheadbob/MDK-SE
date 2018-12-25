@@ -8,7 +8,5 @@ public double Width { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

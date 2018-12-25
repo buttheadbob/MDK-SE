@@ -8,7 +8,5 @@ public double Distance(Vector3D point)
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

@@ -10,7 +10,5 @@ Id of player owning block (not steam Id)
 
 ### Returns
 
-### Example
-
-### Remarks
+[long](System.Int64)
 

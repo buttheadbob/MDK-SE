@@ -10,9 +10,7 @@ Generates a generic error message in the form of`Line N: Error`
 
 ### Returns
 
+[string](System.String)
 
 
-### Example
-
-### Remarks
 

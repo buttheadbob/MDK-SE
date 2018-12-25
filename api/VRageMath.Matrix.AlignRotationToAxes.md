@@ -8,7 +8,5 @@ public Matrix AlignRotationToAxes(ref Matrix toAlign, ref Matrix axisDefinitio
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 

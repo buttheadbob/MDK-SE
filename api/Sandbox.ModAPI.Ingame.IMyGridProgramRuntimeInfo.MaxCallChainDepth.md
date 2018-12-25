@@ -10,7 +10,5 @@ Gets the maximum number of method calls that can be nested into each other.
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

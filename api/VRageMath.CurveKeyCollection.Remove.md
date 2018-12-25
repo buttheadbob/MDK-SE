@@ -10,7 +10,5 @@ Removes the first occurrence of a specific CurveKey from the CurveKeyCollection.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

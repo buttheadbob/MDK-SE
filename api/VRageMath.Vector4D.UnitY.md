@@ -8,7 +8,5 @@ public Vector4D UnitY
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector4D](VRageMath.Vector4D)
 

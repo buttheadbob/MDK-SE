@@ -8,7 +8,5 @@ public float FastSin(float angle)
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

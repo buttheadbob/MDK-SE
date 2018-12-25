@@ -10,7 +10,5 @@ Can fill room with air true - room is airtight false - room is not airtight
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

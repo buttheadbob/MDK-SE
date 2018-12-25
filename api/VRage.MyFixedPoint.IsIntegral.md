@@ -8,7 +8,5 @@ public bool IsIntegral(MyFixedPoint fp)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

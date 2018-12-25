@@ -10,7 +10,5 @@ Value at row 3 column 3 of the matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

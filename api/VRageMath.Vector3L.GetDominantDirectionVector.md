@@ -8,7 +8,5 @@ public Vector3L GetDominantDirectionVector(Vector3L val)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3L](VRageMath.Vector3L)
 

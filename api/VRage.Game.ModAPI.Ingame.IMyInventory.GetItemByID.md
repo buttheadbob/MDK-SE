@@ -8,7 +8,5 @@ public IMyInventoryItem GetItemByID(uint id)
 
 ### Returns
 
-### Example
-
-### Remarks
+[IMyInventoryItem](VRage.Game.ModAPI.Ingame.IMyInventoryItem)
 

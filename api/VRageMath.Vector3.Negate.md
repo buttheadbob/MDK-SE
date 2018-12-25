@@ -8,12 +8,6 @@ public void Negate(ref Vector3 value, ref Vector3 result)
 
 Returns a vector pointing in the opposite direction.
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
@@ -24,7 +18,5 @@ Returns a vector pointing in the opposite direction.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 

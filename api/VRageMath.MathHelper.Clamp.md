@@ -10,9 +10,7 @@ Restricts a value to be within a specified range. Reference page contains links 
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 
 ### Summary
 
@@ -24,9 +22,7 @@ Restricts a value to be within a specified range. Reference page contains links 
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 
 ### Summary
 
@@ -38,9 +34,7 @@ Restricts a value to be within a specified range. Reference page contains links 
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyFixedPoint](VRage.MyFixedPoint)
 
 ### Summary
 
@@ -52,7 +46,5 @@ Restricts a value to be within a specified range. Reference page contains links 
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

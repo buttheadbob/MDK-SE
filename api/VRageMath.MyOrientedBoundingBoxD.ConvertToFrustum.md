@@ -8,7 +8,5 @@ public BoundingFrustumD ConvertToFrustum()
 
 ### Returns
 
-### Example
-
-### Remarks
+[BoundingFrustumD](VRageMath.BoundingFrustumD)
 

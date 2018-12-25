@@ -10,9 +10,7 @@ Returns the number of milliseconds until the camera can do a raycast of the give
 
 ### Returns
 
+[int](System.Int32)
 
 
-### Example
-
-### Remarks
 

@@ -10,7 +10,5 @@ Gets or sets broadcasting
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

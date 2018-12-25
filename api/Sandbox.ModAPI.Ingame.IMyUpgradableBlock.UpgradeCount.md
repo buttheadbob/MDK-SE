@@ -10,7 +10,5 @@ number of upgrades applied
 
 ### Returns
 
-### Example
-
-### Remarks
+[uint](System.UInt32)
 

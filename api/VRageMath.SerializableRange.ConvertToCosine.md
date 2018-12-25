@@ -8,7 +8,5 @@ public SerializableRange ConvertToCosine()
 
 ### Returns
 
-### Example
-
-### Remarks
+[SerializableRange](VRageMath.SerializableRange)
 

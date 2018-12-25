@@ -10,9 +10,7 @@ Converts degrees to radians.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 
 ### Summary
 
@@ -22,9 +20,7 @@ public Vector3 ToRadians(Vector3 v)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 
 ### Summary
 
@@ -36,7 +32,5 @@ Converts degrees to radians.
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

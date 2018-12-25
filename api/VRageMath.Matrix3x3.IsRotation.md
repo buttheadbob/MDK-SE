@@ -8,7 +8,5 @@ public bool IsRotation()
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

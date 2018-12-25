@@ -6,9 +6,3 @@
 public void GetFilterList(List<T> items)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

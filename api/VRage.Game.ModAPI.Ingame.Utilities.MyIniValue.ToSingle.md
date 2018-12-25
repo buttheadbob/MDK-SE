@@ -10,9 +10,7 @@ Attempts to get this value as a [System.Single](https://docs.microsoft.com/en-us
 
 ### Returns
 
+[float](System.Single)
 
 
-### Example
-
-### Remarks
 

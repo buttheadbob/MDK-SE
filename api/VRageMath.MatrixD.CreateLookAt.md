@@ -8,9 +8,7 @@ public MatrixD CreateLookAt(Vector3D cameraPosition, Vector3D cameraTarget, Vect
 
 ### Returns
 
-### Example
-
-### Remarks
+[MatrixD](VRageMath.MatrixD)
 
 ### Summary
 
@@ -22,9 +20,7 @@ Creates a view matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[MatrixD](VRageMath.MatrixD)
 
 ### Summary
 
@@ -33,10 +29,4 @@ public void CreateLookAt(ref Vector3D cameraPosition, ref Vector3D cameraTarge
 ```
 
 Creates a view matrix.
-
-### Returns
-
-### Example
-
-### Remarks
 

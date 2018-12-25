@@ -8,7 +8,5 @@ public MyFixedPoint DeserializeString(string text)
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyFixedPoint](VRage.MyFixedPoint)
 

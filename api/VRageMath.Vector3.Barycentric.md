@@ -10,9 +10,7 @@ Returns a Vector3 containing the 3D Cartesian coordinates of a point specified i
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 
 ### Summary
 
@@ -22,12 +20,6 @@ public void Barycentric(ref Vector3 value1, ref Vector3 value2, ref Vector3 v
 
 Returns a Vector3 containing the 3D Cartesian coordinates of a point specified in barycentric (areal) coordinates relative to a 3D triangle.
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
@@ -35,10 +27,4 @@ public void Barycentric(Vector3 p, Vector3 a, Vector3 b, Vector3 c, ref float u
 ```
 
 Compute barycentric coordinates (u, v, w) for point p with respect to triangle (a, b, c) From : Real-Time Collision Detection, Christer Ericson, CRC Press 3.4 Barycentric Coordinates
-
-### Returns
-
-### Example
-
-### Remarks
 

@@ -8,7 +8,5 @@ public bool IsShooting { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

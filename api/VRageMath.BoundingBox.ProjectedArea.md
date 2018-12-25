@@ -8,7 +8,5 @@ public float ProjectedArea(Vector3 viewDir)
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

@@ -10,9 +10,7 @@ Builds a customized, orthogonal projection matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void CreateOrthographicOffCenter(float left, float right, float bottom, f
 ```
 
 Builds a customized, orthogonal projection matrix.
-
-### Returns
-
-### Example
-
-### Remarks
 

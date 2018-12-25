@@ -10,9 +10,7 @@ Gets the hashcode of this coordinate
 
 ### Returns
 
+[int](System.Int32)
 
 
-### Example
-
-### Remarks
 

@@ -10,7 +10,5 @@ Gets the progress for the item currently in production.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

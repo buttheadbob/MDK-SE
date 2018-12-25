@@ -8,7 +8,5 @@ public bool TryParse(string str, ref Vector3D retval)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

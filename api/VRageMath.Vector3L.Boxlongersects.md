@@ -8,9 +8,7 @@ public bool Boxlongersects(Vector3L minA, Vector3L maxA, Vector3L minB, Vector3L
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public bool Boxlongersects(ref Vector3L minA, ref Vector3L maxA, ref Vector3L
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

@@ -8,7 +8,5 @@ public bool IsFriendly(MyRelationsBetweenPlayerAndBlock relations)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

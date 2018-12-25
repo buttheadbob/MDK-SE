@@ -10,7 +10,5 @@ Calculates the length squared of a Quaternion.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

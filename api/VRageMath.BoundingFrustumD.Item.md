@@ -8,7 +8,5 @@ public PlaneD Item { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[PlaneD](VRageMath.PlaneD)
 

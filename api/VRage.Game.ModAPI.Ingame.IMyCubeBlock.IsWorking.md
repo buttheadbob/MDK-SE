@@ -10,7 +10,5 @@ True if block is able to do its work depening on block type (is functional, powe
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

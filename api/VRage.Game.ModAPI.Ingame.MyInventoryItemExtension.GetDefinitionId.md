@@ -8,7 +8,5 @@ public MyDefinitionId GetDefinitionId(IMyInventoryItem self)
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyDefinitionId](VRage.Game.MyDefinitionId)
 

@@ -8,7 +8,5 @@ public bool Exists(MyStringId id)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

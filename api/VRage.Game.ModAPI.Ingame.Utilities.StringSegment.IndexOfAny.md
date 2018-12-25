@@ -8,7 +8,5 @@ public int IndexOfAny(Char[] chars)
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

@@ -10,7 +10,5 @@ The image that is currently shown on the screen. Returns NULL if there are no im
 
 ### Returns
 
-### Example
-
-### Remarks
+[string](System.String)
 

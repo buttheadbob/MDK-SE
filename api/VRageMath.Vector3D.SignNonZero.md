@@ -10,7 +10,5 @@ Returns per component sign, never returns zero. For zero component returns sign 
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3D](VRageMath.Vector3D)
 

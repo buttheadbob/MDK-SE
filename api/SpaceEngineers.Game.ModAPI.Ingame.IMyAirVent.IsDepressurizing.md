@@ -10,7 +10,5 @@ Vent mode false - pressurize (filling room) true - depressurize (sucking air out
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

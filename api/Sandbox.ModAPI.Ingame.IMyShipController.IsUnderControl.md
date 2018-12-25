@@ -10,7 +10,5 @@ Indicates whether a block is locally or remotely controlled.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

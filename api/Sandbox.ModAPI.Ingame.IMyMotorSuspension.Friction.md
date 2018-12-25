@@ -8,7 +8,5 @@ public float Friction { get; set; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

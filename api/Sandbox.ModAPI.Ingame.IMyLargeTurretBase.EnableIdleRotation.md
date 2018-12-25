@@ -10,7 +10,5 @@ enable/disable idle rotation for turret, this method is not synced, you need to 
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

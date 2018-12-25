@@ -10,9 +10,7 @@ Creates a BoundingSphere that contains the two specified BoundingSphere instance
 
 ### Returns
 
-### Example
-
-### Remarks
+[BoundingSphere](VRageMath.BoundingSphere)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void CreateMerged(ref BoundingSphere original, ref BoundingSphere addit
 ```
 
 Creates a BoundingSphere that contains the two specified BoundingSphere instances.
-
-### Returns
-
-### Example
-
-### Remarks
 

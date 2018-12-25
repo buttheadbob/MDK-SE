@@ -8,9 +8,3 @@ public void SetTargetCoords(string coords)
 
 Set coordinates of target
 
-### Returns
-
-### Example
-
-### Remarks
-

@@ -10,9 +10,7 @@ Gets an array of points that make up the corners of the BoundingFrustum. ALLOCAT
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3[]](VRageMath.Vector3[])
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void GetCorners(Vector3[] corners)
 ```
 
 Gets an array of points that make up the corners of the BoundingFrustum.
-
-### Returns
-
-### Example
-
-### Remarks
 

@@ -3,14 +3,12 @@
 ### Summary
 
 ```csharp
-public SwitchCollection Switches { get; private set; }
+public SwitchCollection Switches { get; }
 ```
 
 Contains a list of all detected switches
 
 ### Returns
 
-### Example
-
-### Remarks
+[SwitchCollection](VRage.Game.ModAPI.Ingame.Utilities.MyCommandLine+SwitchCollection)
 

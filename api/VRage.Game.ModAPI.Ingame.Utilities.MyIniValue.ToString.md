@@ -10,11 +10,9 @@ Attempts to get this value as a [System.String](https://docs.microsoft.com/en-us
 
 ### Returns
 
+[string](System.String)
 
 
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -26,9 +24,7 @@ Attempts to get this value as a [System.String](https://docs.microsoft.com/en-us
 
 ### Returns
 
+[string](System.String)
 
 
-### Example
-
-### Remarks
 

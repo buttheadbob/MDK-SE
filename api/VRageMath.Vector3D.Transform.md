@@ -10,9 +10,7 @@ Transforms a Vector3 by a specified Quaternion rotation.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3D](VRageMath.Vector3D)
 
 ### Summary
 
@@ -22,12 +20,6 @@ public void Transform(ref Vector3D value, ref Quaternion rotation, ref Vector
 
 Transforms a Vector3 by a specified Quaternion rotation.
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
@@ -36,23 +28,11 @@ public void Transform(Vector3D[] sourceArray, ref MatrixD matrix, Vector3D[] de
 
 Transforms a source array of Vector3s by a specified Matrix and writes the results to an existing destination array.
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
 public void Transform(Vector3D[] sourceArray, ref MatrixD matrix, *Vector3D destinationArray)
 ```
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -62,12 +42,6 @@ public void Transform(Vector3D[] sourceArray, int sourceIndex, ref Matrix matri
 
 Applies a specified transform Matrix to a specified range of an array of Vector3s and writes the results into a specified range of a destination array.
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
@@ -76,12 +50,6 @@ public void Transform(Vector3D[] sourceArray, ref Quaternion rotation, Vector3D
 
 Transforms a source array of Vector3s by a specified Quaternion rotation and writes the results to an existing destination array.
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
@@ -89,12 +57,6 @@ public void Transform(Vector3D[] sourceArray, int sourceIndex, ref Quaternion r
 ```
 
 Applies a specified Quaternion rotation to a specified range of an array of Vector3s and writes the results into a specified range of a destination array.
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -106,9 +68,7 @@ Transforms a 3D vector by the given matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3D](VRageMath.Vector3D)
 
 ### Summary
 
@@ -118,9 +78,7 @@ public Vector3D Transform(Vector3 position, MatrixD matrix)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3D](VRageMath.Vector3D)
 
 ### Summary
 
@@ -132,9 +90,7 @@ Transforms a 3D vector by the given matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3D](VRageMath.Vector3D)
 
 ### Summary
 
@@ -144,9 +100,7 @@ public Vector3D Transform(Vector3D position, ref MatrixD matrix)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3D](VRageMath.Vector3D)
 
 ### Summary
 
@@ -156,33 +110,15 @@ public void Transform(ref Vector3D position, ref MatrixD matrix, ref Vector3D
 
 Transforms a Vector3 by the given Matrix.
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
 public void Transform(ref Vector3 position, ref MatrixD matrix, ref Vector3D result)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
 public void Transform(ref Vector3D position, ref MatrixI matrix, ref Vector3D result)
 ```
-
-### Returns
-
-### Example
-
-### Remarks
 

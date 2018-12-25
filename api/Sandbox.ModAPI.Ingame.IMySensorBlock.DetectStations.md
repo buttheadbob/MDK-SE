@@ -10,7 +10,5 @@ Gets or sets if the sensor should detect large stations.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

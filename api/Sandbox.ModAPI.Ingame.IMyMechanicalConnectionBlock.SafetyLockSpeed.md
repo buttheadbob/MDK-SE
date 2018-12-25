@@ -10,7 +10,5 @@ Gets or sets the speed at which this device will engage it's safety lock ( [IsLo
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

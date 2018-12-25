@@ -8,7 +8,5 @@ public Matrix3x3 Normalize(Matrix3x3 matrix)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix3x3](VRageMath.Matrix3x3)
 

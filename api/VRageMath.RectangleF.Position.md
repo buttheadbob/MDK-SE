@@ -10,7 +10,5 @@ The Position.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector2](VRageMath.Vector2)
 

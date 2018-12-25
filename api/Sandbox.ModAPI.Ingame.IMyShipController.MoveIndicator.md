@@ -10,7 +10,5 @@ Directional input from user/autopilot. Values can be very large with high contro
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 

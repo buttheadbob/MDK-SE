@@ -10,7 +10,5 @@ Gets or sets whether wheels are being controlled by this controller.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

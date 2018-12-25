@@ -6,9 +6,3 @@
 public void Remove<K, V>(ConcurrentDictionary<TKey, TValue> dictionary, K key)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

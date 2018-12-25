@@ -8,9 +8,3 @@ public void ClearQueue()
 
 Clears the Queue
 
-### Returns
-
-### Example
-
-### Remarks
-

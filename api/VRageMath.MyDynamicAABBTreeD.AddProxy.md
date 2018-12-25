@@ -10,9 +10,7 @@ Create a proxy. Provide a tight fitting BoundingBox and a userData pointer.
 
 ### Returns
 
+[int](System.Int32)
 
 
-### Example
-
-### Remarks
 

@@ -8,7 +8,5 @@ public bool HasInventory { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

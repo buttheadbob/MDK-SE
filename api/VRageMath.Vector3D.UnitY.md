@@ -8,7 +8,5 @@ public Vector3D UnitY
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3D](VRageMath.Vector3D)
 

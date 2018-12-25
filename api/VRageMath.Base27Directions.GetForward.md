@@ -8,7 +8,5 @@ public Direction GetForward(ref Quaternion rot)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Direction](VRageMath.Base27Directions+Direction)
 

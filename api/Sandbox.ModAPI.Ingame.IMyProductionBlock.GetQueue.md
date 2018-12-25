@@ -6,9 +6,3 @@
 public void GetQueue(List<T> items)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

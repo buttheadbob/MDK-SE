@@ -10,7 +10,5 @@ Represents the value of pi times two.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

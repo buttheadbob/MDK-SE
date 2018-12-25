@@ -6,9 +6,3 @@
 public void WriteValue(IMyCubeBlock block, StringBuilder appendTo)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

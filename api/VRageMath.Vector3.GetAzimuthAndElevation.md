@@ -6,9 +6,3 @@
 public void GetAzimuthAndElevation(Vector3 v, ref float azimuth, ref float elevation)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

@@ -10,7 +10,5 @@ Gets or sets the autopilot speed limit
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

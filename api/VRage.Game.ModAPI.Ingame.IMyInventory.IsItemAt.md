@@ -8,7 +8,5 @@ public bool IsItemAt(int position)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

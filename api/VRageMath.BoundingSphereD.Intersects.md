@@ -10,9 +10,7 @@ Checks whether the current BoundingSphereD intersects with a specified BoundingB
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -22,12 +20,6 @@ public void Intersects(ref BoundingBoxD box, ref bool result)
 
 Checks whether the current BoundingSphereD intersects a BoundingBoxD.
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
@@ -36,9 +28,7 @@ public Nullable<T> Intersects(RayD ray)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Nullable<T>](System.Nullable`1)
 
 ### Summary
 
@@ -50,9 +40,7 @@ Checks whether the current BoundingSphereD intersects with a specified BoundingF
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -64,9 +52,7 @@ Checks whether the current BoundingSphereD intersects with a specified BoundingS
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -75,10 +61,4 @@ public void Intersects(ref BoundingSphereD sphere, ref bool result)
 ```
 
 Checks whether the current BoundingSphereD intersects another BoundingSphereD.
-
-### Returns
-
-### Example
-
-### Remarks
 

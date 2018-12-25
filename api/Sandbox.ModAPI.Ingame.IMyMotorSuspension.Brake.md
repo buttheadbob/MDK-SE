@@ -10,7 +10,5 @@ Gets or sets brake applied to the wheel.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

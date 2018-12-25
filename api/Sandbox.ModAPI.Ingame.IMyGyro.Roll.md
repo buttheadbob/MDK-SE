@@ -8,7 +8,5 @@ public float Roll { get; set; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

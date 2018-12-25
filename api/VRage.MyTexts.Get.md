@@ -8,7 +8,5 @@ public StringBuilder Get(MyStringId id)
 
 ### Returns
 
-### Example
-
-### Remarks
+[StringBuilder](System.Text.StringBuilder)
 

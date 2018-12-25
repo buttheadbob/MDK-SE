@@ -10,7 +10,5 @@ Specifies how to handle weighting values that are less than the first control po
 
 ### Returns
 
-### Example
-
-### Remarks
+[CurveLoopType](VRageMath.CurveLoopType)
 

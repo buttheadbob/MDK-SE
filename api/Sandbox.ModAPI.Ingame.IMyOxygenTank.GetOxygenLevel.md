@@ -10,9 +10,7 @@ Gets the current oxygen level of this tank, as a value between 0 (empty) and 1 (
 
 ### Returns
 
+[double](System.Double)
 
 
-### Example
-
-### Remarks
 

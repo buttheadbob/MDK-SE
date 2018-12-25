@@ -10,7 +10,5 @@ Returns the Cartesian coordinate for one axis of a point that is defined by a gi
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

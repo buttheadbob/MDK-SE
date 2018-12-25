@@ -8,7 +8,5 @@ public Vector3 CalculateVectorOnSphere(Vector3 northPoleDir, float phi, float th
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 

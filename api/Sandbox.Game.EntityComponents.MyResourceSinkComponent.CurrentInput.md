@@ -8,7 +8,5 @@ public float CurrentInput { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

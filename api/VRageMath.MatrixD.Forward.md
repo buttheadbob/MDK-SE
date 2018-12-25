@@ -10,7 +10,5 @@ Gets and sets the forward vector of the Matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3D](VRageMath.Vector3D)
 

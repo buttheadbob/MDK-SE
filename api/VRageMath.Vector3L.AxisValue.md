@@ -8,7 +8,5 @@ public long AxisValue(Axis axis)
 
 ### Returns
 
-### Example
-
-### Remarks
+[long](System.Int64)
 

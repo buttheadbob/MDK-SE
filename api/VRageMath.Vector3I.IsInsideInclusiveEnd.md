@@ -8,9 +8,7 @@ public bool IsInsideInclusiveEnd(ref Vector3I min, ref Vector3I max)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public bool IsInsideInclusiveEnd(Vector3I min, Vector3I max)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

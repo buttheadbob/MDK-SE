@@ -8,9 +8,7 @@ public bool IsValid(Matrix matrix)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -20,9 +18,7 @@ public bool IsValid(MatrixD matrix)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -32,9 +28,7 @@ public bool IsValid(Vector3 vec)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -44,9 +38,7 @@ public bool IsValid(Vector3D vec)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -56,9 +48,7 @@ public bool IsValid(Vector2 vec)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -68,9 +58,7 @@ public bool IsValid(float f)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -80,9 +68,7 @@ public bool IsValid(double f)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -92,9 +78,7 @@ public bool IsValid(Nullable<T> vec)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -104,7 +88,5 @@ public bool IsValid(Quaternion q)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

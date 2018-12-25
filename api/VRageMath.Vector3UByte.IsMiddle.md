@@ -10,7 +10,5 @@ Returns true when all components are 127
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

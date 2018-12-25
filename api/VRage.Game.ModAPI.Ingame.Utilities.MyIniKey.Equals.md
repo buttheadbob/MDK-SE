@@ -10,11 +10,9 @@ Compares this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) with anoth
 
 ### Returns
 
+[bool](System.Boolean)
 
 
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -26,9 +24,7 @@ Compares this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) with anoth
 
 ### Returns
 
+[bool](System.Boolean)
 
 
-### Example
-
-### Remarks
 

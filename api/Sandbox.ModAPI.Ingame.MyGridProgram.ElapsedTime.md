@@ -10,7 +10,5 @@ Gets the amount of in-game time elapsed from the previous run.
 
 ### Returns
 
-### Example
-
-### Remarks
+[TimeSpan](System.TimeSpan)
 

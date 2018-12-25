@@ -8,7 +8,5 @@ public uint ItemId
 
 ### Returns
 
-### Example
-
-### Remarks
+[uint](System.UInt32)
 

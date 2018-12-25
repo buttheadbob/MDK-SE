@@ -10,7 +10,5 @@ Determines if the grid is static (unmoveable)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

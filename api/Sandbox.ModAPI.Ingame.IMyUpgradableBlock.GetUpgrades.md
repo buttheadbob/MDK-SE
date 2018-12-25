@@ -6,9 +6,3 @@
 public void GetUpgrades(ref Dictionary<TKey, TValue> upgrades)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

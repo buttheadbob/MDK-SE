@@ -8,9 +8,3 @@ public void Retract()
 
 Retracts the piston.
 
-### Returns
-
-### Example
-
-### Remarks
-

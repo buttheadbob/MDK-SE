@@ -10,7 +10,5 @@ Retrieve number of blocks this block is connected to (r/o)
 
 ### Returns
 
-### Example
-
-### Remarks
+[uint](System.UInt32)
 

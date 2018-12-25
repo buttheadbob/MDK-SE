@@ -8,7 +8,5 @@ public double Perimeter()
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

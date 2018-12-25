@@ -10,9 +10,7 @@ Returns a vector that contains the lowest value from each matching pair of compo
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector2](VRageMath.Vector2)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void Min(ref Vector2 value1, ref Vector2 value2, ref Vector2 result)
 ```
 
 Returns a vector that contains the lowest value from each matching pair of components.
-
-### Returns
-
-### Example
-
-### Remarks
 

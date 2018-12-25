@@ -10,9 +10,7 @@ Can this production block produce this blueprint?
 
 ### Returns
 
+[bool](System.Boolean)
 
 
-### Example
-
-### Remarks
 

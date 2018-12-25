@@ -10,7 +10,5 @@ Width of this rectangle.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

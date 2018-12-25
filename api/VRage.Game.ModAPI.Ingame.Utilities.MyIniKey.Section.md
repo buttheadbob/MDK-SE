@@ -10,7 +10,5 @@ Gets the Section part of this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIn
 
 ### Returns
 
-### Example
-
-### Remarks
+[string](System.String)
 

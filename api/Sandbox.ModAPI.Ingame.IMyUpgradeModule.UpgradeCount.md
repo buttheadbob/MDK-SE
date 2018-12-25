@@ -10,7 +10,5 @@ Retrieve number of upgrade effects this block has (r/o)
 
 ### Returns
 
-### Example
-
-### Remarks
+[uint](System.UInt32)
 

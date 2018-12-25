@@ -10,7 +10,5 @@ Gets the number of milliseconds it took to execute the Main method the last time
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

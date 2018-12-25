@@ -8,9 +8,3 @@ public void StartCountdown()
 
 Begin countdown
 
-### Returns
-
-### Example
-
-### Remarks
-

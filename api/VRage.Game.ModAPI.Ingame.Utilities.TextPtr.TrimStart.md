@@ -8,7 +8,5 @@ public TextPtr TrimStart()
 
 ### Returns
 
-### Example
-
-### Remarks
+[TextPtr](VRage.Game.ModAPI.Ingame.Utilities.TextPtr)
 

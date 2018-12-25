@@ -10,7 +10,5 @@ Specifies the starting point of the Ray.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3D](VRageMath.Vector3D)
 

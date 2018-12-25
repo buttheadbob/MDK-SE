@@ -10,7 +10,5 @@ Gets or sets whether this assembler should be perpetually repeating its work que
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

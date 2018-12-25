@@ -10,7 +10,5 @@ Gets the maximum oxygen capacity of this cockpit.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

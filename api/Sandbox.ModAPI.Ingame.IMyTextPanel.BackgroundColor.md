@@ -10,7 +10,5 @@ Gets or sets background color
 
 ### Returns
 
-### Example
-
-### Remarks
+[Color](VRageMath.Color)
 

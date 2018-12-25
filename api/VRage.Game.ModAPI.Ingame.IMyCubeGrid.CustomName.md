@@ -10,7 +10,5 @@ Display name of the grid (as seen in Info terminal tab)
 
 ### Returns
 
-### Example
-
-### Remarks
+[string](System.String)
 

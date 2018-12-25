@@ -8,7 +8,5 @@ public Direction GetLeft(Direction up, Direction forward)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Direction](VRageMath.Base6Directions+Direction)
 

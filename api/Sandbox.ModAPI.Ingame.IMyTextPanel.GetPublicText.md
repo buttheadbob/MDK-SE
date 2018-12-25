@@ -8,7 +8,5 @@ public string GetPublicText()
 
 ### Returns
 
-### Example
-
-### Remarks
+[string](System.String)
 

@@ -10,7 +10,5 @@ You can terminate a configuration stream by entering "---" on a separate line. T
 
 ### Returns
 
-### Example
-
-### Remarks
+[string](System.String)
 

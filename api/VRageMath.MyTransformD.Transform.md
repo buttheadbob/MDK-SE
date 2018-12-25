@@ -8,21 +8,13 @@ public MyTransformD Transform(ref MyTransformD t1, ref MyTransformD t2)
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyTransformD](VRageMath.MyTransformD)
 
 ### Summary
 
 ```csharp
 public void Transform(ref MyTransformD t1, ref MyTransformD t2, ref MyTransformD result)
 ```
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -32,19 +24,11 @@ public Vector3D Transform(ref Vector3D v, ref MyTransformD t2)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3D](VRageMath.Vector3D)
 
 ### Summary
 
 ```csharp
 public void Transform(ref Vector3D v, ref MyTransformD t2, ref Vector3D result)
 ```
-
-### Returns
-
-### Example
-
-### Remarks
 

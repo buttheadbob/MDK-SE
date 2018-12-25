@@ -10,9 +10,7 @@ Determines whether this coordinate is empty (undefined)
 
 ### Returns
 
+[bool](System.Boolean)
 
 
-### Example
-
-### Remarks
 

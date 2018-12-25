@@ -6,9 +6,3 @@
 public void AssertEmpty<T>(List<T> list)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

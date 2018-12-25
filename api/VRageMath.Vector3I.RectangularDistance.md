@@ -10,7 +10,5 @@ Calculates rectangular distance. It's how many sectors you have to travel to get
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

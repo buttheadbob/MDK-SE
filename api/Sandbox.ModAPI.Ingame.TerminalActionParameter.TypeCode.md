@@ -8,7 +8,5 @@ public TypeCode TypeCode
 
 ### Returns
 
-### Example
-
-### Remarks
+[TypeCode](System.TypeCode)
 

@@ -10,9 +10,7 @@ Gets intersection point in Plane.
 
 ### Returns
 
+[Vector3D](VRageMath.Vector3D)
+
 Point of intersection.
-
-### Example
-
-### Remarks
 

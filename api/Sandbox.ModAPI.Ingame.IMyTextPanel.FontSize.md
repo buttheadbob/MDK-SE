@@ -10,7 +10,5 @@ Gets or sets font size
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

@@ -8,9 +8,3 @@ public void GetFatAABB(int proxyId, ref BoundingBoxD fatAABB)
 
 Get the fat BoundingBox for a proxy.
 
-### Returns
-
-### Example
-
-### Remarks
-

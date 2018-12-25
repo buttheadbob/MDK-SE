@@ -10,7 +10,5 @@ The current, accurate ratio of the door's current state where 0 is fully closed 
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

@@ -10,7 +10,5 @@ Gets or sets the current work mode of this assembly, whether it's assembling or 
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyAssemblerMode](Sandbox.ModAPI.Ingame.MyAssemblerMode)
 

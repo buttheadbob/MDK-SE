@@ -10,9 +10,7 @@ Creates a BoundingSphereD that contains the two specified BoundingSphereD instan
 
 ### Returns
 
-### Example
-
-### Remarks
+[BoundingSphereD](VRageMath.BoundingSphereD)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void CreateMerged(ref BoundingSphereD original, ref BoundingSphereD add
 ```
 
 Creates a BoundingSphereD that contains the two specified BoundingSphereD instances.
-
-### Returns
-
-### Example
-
-### Remarks
 

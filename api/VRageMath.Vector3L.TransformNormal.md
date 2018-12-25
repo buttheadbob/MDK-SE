@@ -8,9 +8,3 @@ public void TransformNormal(ref Vector3L normal, ref Matrix matrix, ref Vecto
 
 Transforms a vector normal by a matrix.
 
-### Returns
-
-### Example
-
-### Remarks
-

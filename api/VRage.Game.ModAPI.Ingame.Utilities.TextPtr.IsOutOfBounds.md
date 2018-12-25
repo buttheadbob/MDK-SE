@@ -8,7 +8,5 @@ public bool IsOutOfBounds()
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

@@ -10,7 +10,5 @@ Grid size enum
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyCubeSize](VRage.Game.MyCubeSize)
 

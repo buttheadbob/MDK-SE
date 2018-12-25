@@ -6,9 +6,3 @@
 public void InitializeFastSin()
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

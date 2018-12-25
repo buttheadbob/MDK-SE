@@ -10,7 +10,5 @@ The production queue is empty.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

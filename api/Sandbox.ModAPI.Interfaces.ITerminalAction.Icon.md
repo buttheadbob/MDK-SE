@@ -8,7 +8,5 @@ public string Icon { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[string](System.String)
 

@@ -8,7 +8,5 @@ public double GetShortestDistanceSquared(LineD line1, LineD line2)
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

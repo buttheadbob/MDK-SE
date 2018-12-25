@@ -10,7 +10,5 @@ Gets or sets the override thrust amount, in Newtons (N)
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

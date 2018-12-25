@@ -6,9 +6,3 @@
 public void QueryPoint(Func<T, TResult> callback, ref Vector3D point)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

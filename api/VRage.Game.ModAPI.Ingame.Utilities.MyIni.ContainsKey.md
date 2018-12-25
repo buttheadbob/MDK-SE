@@ -10,11 +10,9 @@ Determines whether a configuration key (section/key) exists in the currently par
 
 ### Returns
 
+[bool](System.Boolean)
 
 
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -26,9 +24,7 @@ Determines whether a configuration key (section/key) exists in the currently par
 
 ### Returns
 
+[bool](System.Boolean)
 
 
-### Example
-
-### Remarks
 

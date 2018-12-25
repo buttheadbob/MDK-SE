@@ -8,7 +8,5 @@ public Matrix Zero
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 

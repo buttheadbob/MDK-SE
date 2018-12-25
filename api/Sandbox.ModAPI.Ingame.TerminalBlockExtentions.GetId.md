@@ -8,7 +8,5 @@ public long GetId(IMyTerminalBlock block)
 
 ### Returns
 
-### Example
-
-### Remarks
+[long](System.Int64)
 

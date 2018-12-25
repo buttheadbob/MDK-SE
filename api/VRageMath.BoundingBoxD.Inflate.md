@@ -8,9 +8,7 @@ public BoundingBoxD Inflate(double size)
 
 ### Returns
 
-### Example
-
-### Remarks
+[BoundingBoxD](VRageMath.BoundingBoxD)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public BoundingBoxD Inflate(Vector3 size)
 
 ### Returns
 
-### Example
-
-### Remarks
+[BoundingBoxD](VRageMath.BoundingBoxD)
 

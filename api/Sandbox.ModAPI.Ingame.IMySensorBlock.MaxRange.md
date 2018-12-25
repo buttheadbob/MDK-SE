@@ -10,7 +10,5 @@ Gets the maximum range of the sensor in any direction.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

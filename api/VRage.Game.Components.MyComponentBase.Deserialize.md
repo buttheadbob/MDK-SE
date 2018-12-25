@@ -6,9 +6,3 @@
 public virtual void Deserialize(MyObjectBuilder_ComponentBase builder)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

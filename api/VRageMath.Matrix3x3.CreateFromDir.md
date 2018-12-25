@@ -8,9 +8,7 @@ public Matrix3x3 CreateFromDir(Vector3 dir)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix3x3](VRageMath.Matrix3x3)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public Matrix3x3 CreateFromDir(Vector3 dir, Vector3 suggestedUp)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix3x3](VRageMath.Matrix3x3)
 

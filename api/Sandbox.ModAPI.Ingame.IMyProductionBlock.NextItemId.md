@@ -10,7 +10,5 @@ Gets the queue item ID of the next item to be produced.
 
 ### Returns
 
-### Example
-
-### Remarks
+[uint](System.UInt32)
 

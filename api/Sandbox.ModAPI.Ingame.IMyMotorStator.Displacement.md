@@ -10,7 +10,5 @@ Gets or sets the vertical displacement of the rotor top
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

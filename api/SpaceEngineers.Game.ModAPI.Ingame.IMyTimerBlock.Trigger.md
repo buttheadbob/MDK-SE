@@ -8,9 +8,3 @@ public void Trigger()
 
 Trigger immediately, skips countdown
 
-### Returns
-
-### Example
-
-### Remarks
-

@@ -6,9 +6,3 @@
 public void GetFonts(List<T> fonts)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

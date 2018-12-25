@@ -10,7 +10,5 @@ Gets the attached top part entity
 
 ### Returns
 
-### Example
-
-### Remarks
+[IMyAttachableTopBlock](Sandbox.ModAPI.Ingame.IMyAttachableTopBlock)
 

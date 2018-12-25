@@ -10,9 +10,7 @@ Gets the orientation.
 
 ### Returns
 
+[MatrixD](VRageMath.MatrixD)
 
 
-### Example
-
-### Remarks
 

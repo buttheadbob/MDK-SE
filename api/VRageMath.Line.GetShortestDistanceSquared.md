@@ -8,7 +8,5 @@ public float GetShortestDistanceSquared(Line line1, Line line2)
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

@@ -10,9 +10,7 @@ Creates a rotation Matrix3x3 from a Quaternion.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix3x3](VRageMath.Matrix3x3)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void CreateFromQuaternion(ref Quaternion quaternion, ref Matrix3x3 resu
 ```
 
 Creates a rotation Matrix3x3 from a Quaternion.
-
-### Returns
-
-### Example
-
-### Remarks
 

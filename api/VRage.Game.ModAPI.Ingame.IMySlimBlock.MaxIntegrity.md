@@ -10,7 +10,5 @@ The maximum integrity of block
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

@@ -6,9 +6,3 @@
 public void CreatePlaneFromLines()
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

@@ -8,9 +8,3 @@ public void Add(ref Matrix3x3 matrix1, ref Matrix3x3 matrix2, ref Matrix3x3 r
 
 Adds a matrix to another matrix.
 
-### Returns
-
-### Example
-
-### Remarks
-

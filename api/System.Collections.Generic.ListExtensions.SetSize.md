@@ -6,9 +6,3 @@
 public void SetSize<T>(List<T> list, int newSize)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

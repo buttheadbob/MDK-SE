@@ -10,7 +10,5 @@ Determines whether this value is empty. Be aware that an empty string is not con
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

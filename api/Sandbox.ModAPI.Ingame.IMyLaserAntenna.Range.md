@@ -10,7 +10,5 @@ Gets or sets the max range of the laser set in terminal
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

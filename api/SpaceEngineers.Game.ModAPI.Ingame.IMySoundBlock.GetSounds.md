@@ -6,9 +6,3 @@
 public void GetSounds(List<T> sounds)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

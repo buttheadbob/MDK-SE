@@ -10,11 +10,9 @@ Returns the rejection of vector from direction, i.e. projection of vector onto t
 
 ### Returns
 
+[Vector3D](VRageMath.Vector3D)
+
 Rejection of the vector from the given direction
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -23,10 +21,4 @@ public void Reject(ref Vector3D vector, ref Vector3D direction, ref Vector3D 
 ```
 
 Returns the rejection of vector from direction, i.e. projection of vector onto the plane defined by origin and direction
-
-### Returns
-
-### Example
-
-### Remarks
 

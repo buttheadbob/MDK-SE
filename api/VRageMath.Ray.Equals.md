@@ -10,9 +10,7 @@ Determines whether the specified Ray is equal to the current Ray.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -24,7 +22,5 @@ Determines whether two instances of Ray are equal.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

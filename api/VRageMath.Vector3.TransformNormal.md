@@ -10,9 +10,7 @@ Transforms a 3D vector normal by a matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 
 ### Summary
 
@@ -24,9 +22,7 @@ Transforms a 3D vector normal by a matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 
 ### Summary
 
@@ -38,9 +34,7 @@ Transforms a 3D vector normal by a matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 
 ### Summary
 
@@ -50,35 +44,17 @@ public void TransformNormal(ref Vector3 normal, ref Matrix matrix, ref Vector
 
 Transforms a vector normal by a matrix.
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
 public void TransformNormal(ref Vector3 normal, ref MatrixD matrix, ref Vector3 result)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
 public void TransformNormal(ref Vector3 normal, ref MatrixI matrix, ref Vector3 result)
 ```
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -88,21 +64,13 @@ public Vector3 TransformNormal(Vector3 normal, MyBlockOrientation orientation)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 
 ### Summary
 
 ```csharp
 public void TransformNormal(ref Vector3 normal, MyBlockOrientation orientation, ref Vector3 result)
 ```
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -112,9 +80,7 @@ public Vector3 TransformNormal(Vector3 normal, ref Matrix matrix)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 
 ### Summary
 
@@ -124,12 +90,6 @@ public void TransformNormal(Vector3[] sourceArray, ref Matrix matrix, Vector3[]
 
 Transforms an array of 3D vector normals by a specified Matrix.
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
@@ -137,10 +97,4 @@ public void TransformNormal(Vector3[] sourceArray, int sourceIndex, ref Matrix 
 ```
 
 Transforms a specified range in an array of 3D vector normals by a specified Matrix and writes the results to a specified range in a destination array.
-
-### Returns
-
-### Example
-
-### Remarks
 

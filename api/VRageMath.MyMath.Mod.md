@@ -8,9 +8,7 @@ public int Mod(int x, int m)
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public long Mod(long x, int m)
 
 ### Returns
 
-### Example
-
-### Remarks
+[long](System.Int64)
 

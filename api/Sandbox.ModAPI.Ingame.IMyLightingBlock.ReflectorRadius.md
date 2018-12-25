@@ -8,7 +8,5 @@ public float ReflectorRadius { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

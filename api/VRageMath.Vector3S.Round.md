@@ -8,7 +8,5 @@ public Vector3S Round(Vector3 v)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3S](VRageMath.Vector3S)
 

@@ -10,9 +10,7 @@ Multiplies the components of two vectors by each other.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector2](VRageMath.Vector2)
 
 ### Summary
 
@@ -21,12 +19,6 @@ public void Multiply(ref Vector2 value1, ref Vector2 value2, ref Vector2 resu
 ```
 
 Multiplies the components of two vectors by each other.
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -38,9 +30,7 @@ Multiplies a vector by a scalar value.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector2](VRageMath.Vector2)
 
 ### Summary
 
@@ -49,10 +39,4 @@ public void Multiply(ref Vector2 value1, float scaleFactor, ref Vector2 result
 ```
 
 Multiplies a vector by a scalar value.
-
-### Returns
-
-### Example
-
-### Remarks
 

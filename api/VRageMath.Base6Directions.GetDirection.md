@@ -8,9 +8,7 @@ public Direction GetDirection(Vector3 vec)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Direction](VRageMath.Base6Directions+Direction)
 
 ### Summary
 
@@ -20,9 +18,7 @@ public Direction GetDirection(ref Vector3 vec)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Direction](VRageMath.Base6Directions+Direction)
 
 ### Summary
 
@@ -32,9 +28,7 @@ public Direction GetDirection(Vector3I vec)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Direction](VRageMath.Base6Directions+Direction)
 
 ### Summary
 
@@ -44,7 +38,5 @@ public Direction GetDirection(ref Vector3I vec)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Direction](VRageMath.Base6Directions+Direction)
 

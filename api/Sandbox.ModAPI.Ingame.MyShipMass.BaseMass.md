@@ -10,7 +10,5 @@ Gets the base mass of the ship.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

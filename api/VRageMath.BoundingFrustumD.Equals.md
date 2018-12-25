@@ -10,9 +10,7 @@ Determines whether the specified BoundingFrustumD is equal to the current Boundi
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -24,7 +22,5 @@ Determines whether the specified Object is equal to the BoundingFrustumD.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

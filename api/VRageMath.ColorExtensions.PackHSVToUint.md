@@ -8,7 +8,5 @@ public uint PackHSVToUint(Vector3 HSV)
 
 ### Returns
 
-### Example
-
-### Remarks
+[uint](System.UInt32)
 

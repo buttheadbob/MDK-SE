@@ -8,9 +8,7 @@ public float TriangleArea(Vector3 v1, Vector3 v2, Vector3 v3)
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public float TriangleArea(ref Vector3 v1, ref Vector3 v2, ref Vector3 v3)
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

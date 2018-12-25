@@ -8,7 +8,5 @@ public MyDetectedEntityInfo LastDetectedEntity { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyDetectedEntityInfo](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo)
 

@@ -10,7 +10,5 @@ Specifies an item to filter. Set [AllSubTypes](Sandbox.ModAPI.Ingame.MyInventory
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyDefinitionId](VRage.Game.MyDefinitionId)
 

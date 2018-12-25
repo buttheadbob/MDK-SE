@@ -10,9 +10,7 @@ QuaternionToEuler
 
 ### Returns
 
+[Vector3](VRageMath.Vector3)
+
 Converted quaternion to the euler pitch, rot, yaw
-
-### Example
-
-### Remarks
 

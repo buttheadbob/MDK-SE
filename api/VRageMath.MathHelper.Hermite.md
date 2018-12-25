@@ -10,7 +10,5 @@ Performs a Hermite spline interpolation.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

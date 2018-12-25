@@ -8,7 +8,5 @@ public virtual ListReader<T> AcceptedResources { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[ListReader<T>](VRage.Collections.ListReader`1)
 

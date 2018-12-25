@@ -8,7 +8,5 @@ public BoundingBox BoundingBox
 
 ### Returns
 
-### Example
-
-### Remarks
+[BoundingBox](VRageMath.BoundingBox)
 

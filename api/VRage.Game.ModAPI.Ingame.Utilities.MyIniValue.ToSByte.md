@@ -10,9 +10,7 @@ Attempts to get this value as a [System.SByte](https://docs.microsoft.com/en-us/
 
 ### Returns
 
+[sbyte](System.SByte)
 
 
-### Example
-
-### Remarks
 

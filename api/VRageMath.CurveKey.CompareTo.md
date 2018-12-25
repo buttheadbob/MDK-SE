@@ -10,7 +10,5 @@ Compares this instance to another CurveKey and returns an indication of their re
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

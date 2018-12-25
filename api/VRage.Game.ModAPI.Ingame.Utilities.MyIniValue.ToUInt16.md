@@ -10,9 +10,7 @@ Attempts to get this value as a [System.UInt16](https://docs.microsoft.com/en-us
 
 ### Returns
 
+[ushort](System.UInt16)
 
 
-### Example
-
-### Remarks
 

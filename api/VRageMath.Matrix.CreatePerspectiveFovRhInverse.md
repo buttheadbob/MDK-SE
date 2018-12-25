@@ -8,7 +8,5 @@ public Matrix CreatePerspectiveFovRhInverse(float fieldOfView, float aspectRatio
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 

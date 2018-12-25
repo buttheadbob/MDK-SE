@@ -10,9 +10,7 @@ Returns the reflection of a vector off a surface that has the specified normal. 
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3D](VRageMath.Vector3D)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void Reflect(ref Vector3D vector, ref Vector3D normal, ref Vector3D re
 ```
 
 Returns the reflection of a vector off a surface that has the specified normal. Reference page contains code sample.
-
-### Returns
-
-### Example
-
-### Remarks
 

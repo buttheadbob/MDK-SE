@@ -8,7 +8,5 @@ public float EPSILON10
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

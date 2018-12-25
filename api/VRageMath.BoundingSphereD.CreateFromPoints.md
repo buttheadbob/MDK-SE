@@ -10,7 +10,5 @@ Creates a BoundingSphereD that can contain a specified list of points.
 
 ### Returns
 
-### Example
-
-### Remarks
+[BoundingSphereD](VRageMath.BoundingSphereD)
 

@@ -6,9 +6,3 @@
 public void ClearImagesFromSelection()
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

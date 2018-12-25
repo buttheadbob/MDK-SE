@@ -8,7 +8,5 @@ public bool HasCapacityRemaining { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

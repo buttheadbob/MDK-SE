@@ -10,7 +10,5 @@ Returns the hash code for this instance.
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

@@ -8,7 +8,5 @@ public string GetPrivateTitle()
 
 ### Returns
 
-### Example
-
-### Remarks
+[string](System.String)
 

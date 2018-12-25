@@ -10,7 +10,5 @@ Normalizes Vector3 into Vector4UByte, scales vector from (-range, range) to (0, 
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3UByte](VRageMath.Vector3UByte)
 

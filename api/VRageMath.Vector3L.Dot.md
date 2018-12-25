@@ -8,9 +8,7 @@ public long Dot(ref Vector3L v)
 
 ### Returns
 
-### Example
-
-### Remarks
+[long](System.Int64)
 
 ### Summary
 
@@ -20,9 +18,7 @@ public long Dot(Vector3L vector1, Vector3L vector2)
 
 ### Returns
 
-### Example
-
-### Remarks
+[long](System.Int64)
 
 ### Summary
 
@@ -32,19 +28,11 @@ public long Dot(ref Vector3L vector1, ref Vector3L vector2)
 
 ### Returns
 
-### Example
-
-### Remarks
+[long](System.Int64)
 
 ### Summary
 
 ```csharp
 public void Dot(ref Vector3L vector1, ref Vector3L vector2, ref long dot)
 ```
-
-### Returns
-
-### Example
-
-### Remarks
 

@@ -8,7 +8,5 @@ public HalfVector4 Orientation
 
 ### Returns
 
-### Example
-
-### Remarks
+[HalfVector4](VRageMath.PackedVector.HalfVector4)
 

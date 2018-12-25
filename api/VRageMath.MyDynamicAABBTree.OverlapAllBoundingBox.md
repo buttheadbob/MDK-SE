@@ -6,9 +6,3 @@
 public void OverlapAllBoundingBox<T>(ref BoundingBox bbox, List<T> elementsList, uint requiredFlags, bool clear)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

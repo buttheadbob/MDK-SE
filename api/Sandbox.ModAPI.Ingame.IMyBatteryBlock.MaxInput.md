@@ -8,7 +8,5 @@ public float MaxInput { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

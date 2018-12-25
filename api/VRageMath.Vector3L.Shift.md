@@ -8,7 +8,5 @@ public Vector3L Shift(Vector3L value)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3L](VRageMath.Vector3L)
 

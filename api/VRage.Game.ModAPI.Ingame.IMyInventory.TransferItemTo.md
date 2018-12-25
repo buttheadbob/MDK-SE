@@ -8,7 +8,5 @@ public bool TransferItemTo(IMyInventory dst, int sourceItemIndex, Nullable<T> ta
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

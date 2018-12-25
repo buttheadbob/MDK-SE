@@ -10,7 +10,5 @@ Count of blocks which can be welded now
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

@@ -10,7 +10,5 @@ Returns block orientation in base 6 directions
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyBlockOrientation](VRageMath.MyBlockOrientation)
 

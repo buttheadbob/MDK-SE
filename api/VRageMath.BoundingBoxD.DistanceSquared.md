@@ -8,9 +8,7 @@ public double DistanceSquared(Vector3D point)
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public double DistanceSquared(ref Vector3D point)
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

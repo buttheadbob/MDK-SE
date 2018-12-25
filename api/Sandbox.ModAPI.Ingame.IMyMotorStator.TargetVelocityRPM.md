@@ -10,7 +10,5 @@ Gets or sets the desired velocity of the rotor in RPM
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

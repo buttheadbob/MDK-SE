@@ -8,7 +8,5 @@ public Quaternion GetOrientation(Direction forward, Direction up)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Quaternion](VRageMath.Quaternion)
 

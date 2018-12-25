@@ -10,9 +10,7 @@ Determines whether the specified BoundingSphereD is equal to the current Boundin
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -24,7 +22,5 @@ Determines whether the specified Object is equal to the BoundingSphereD.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

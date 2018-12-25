@@ -8,7 +8,5 @@ public MyObjectBuilderType TypeId { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyObjectBuilderType](VRage.ObjectBuilders.MyObjectBuilderType)
 

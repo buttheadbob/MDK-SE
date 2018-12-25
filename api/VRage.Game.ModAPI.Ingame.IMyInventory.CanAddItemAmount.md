@@ -8,7 +8,5 @@ public bool CanAddItemAmount(IMyInventoryItem item, MyFixedPoint amount)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

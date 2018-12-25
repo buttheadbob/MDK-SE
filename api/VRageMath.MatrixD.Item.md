@@ -8,7 +8,5 @@ public double Item { get; set; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

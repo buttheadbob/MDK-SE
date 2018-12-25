@@ -10,9 +10,7 @@ Calculates rectangular distance (a.k.a. Manhattan distance or Chessboard distace
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 
 ### Summary
 
@@ -24,7 +22,5 @@ Calculates rectangular distance (a.k.a. Manhattan distance or Chessboard distace
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

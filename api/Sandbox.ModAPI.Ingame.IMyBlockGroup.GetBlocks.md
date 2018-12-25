@@ -6,9 +6,3 @@
 public void GetBlocks(List<T> blocks, Func<T, TResult> collect)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

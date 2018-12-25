@@ -10,9 +10,7 @@ Determines whether two instances of BoundingBox2I are equal.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -24,7 +22,5 @@ Determines whether two instances of BoundingBox2I are equal.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

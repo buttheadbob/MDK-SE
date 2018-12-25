@@ -10,7 +10,5 @@ Works for normalized vectors only
 
 ### Returns
 
-### Example
-
-### Remarks
+[Quaternion](VRageMath.Quaternion)
 

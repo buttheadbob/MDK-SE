@@ -8,7 +8,5 @@ public bool TryGetClosestPoint(ref Nullable<T> closestPoint)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

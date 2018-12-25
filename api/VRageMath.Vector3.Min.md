@@ -10,9 +10,7 @@ Returns the component of the vector that is smallest of all the three components
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 
 ### Summary
 
@@ -24,9 +22,7 @@ Returns a vector that contains the lowest value from each matching pair of compo
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 
 ### Summary
 
@@ -35,10 +31,4 @@ public void Min(ref Vector3 value1, ref Vector3 value2, ref Vector3 result)
 ```
 
 Returns a vector that contains the lowest value from each matching pair of components.
-
-### Returns
-
-### Example
-
-### Remarks
 

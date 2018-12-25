@@ -10,7 +10,5 @@ Gets if sub parts are shown
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

@@ -6,9 +6,3 @@
 public void GetAllNodeBounds(List<T> boxsList)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

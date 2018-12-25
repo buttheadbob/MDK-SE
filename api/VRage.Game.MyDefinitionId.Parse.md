@@ -10,9 +10,7 @@ Attempts to create a definition ID from a definition string, which has the form 
 
 ### Returns
 
+[MyDefinitionId](VRage.Game.MyDefinitionId)
 
 
-### Example
-
-### Remarks
 

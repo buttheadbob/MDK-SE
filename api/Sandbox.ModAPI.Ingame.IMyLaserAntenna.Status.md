@@ -10,7 +10,5 @@ Gets the current status of this antenna.
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyLaserAntennaStatus](Sandbox.ModAPI.Ingame.MyLaserAntennaStatus)
 

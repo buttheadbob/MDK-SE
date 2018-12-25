@@ -6,9 +6,3 @@
 public void ToMatrix(ref Matrix result)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

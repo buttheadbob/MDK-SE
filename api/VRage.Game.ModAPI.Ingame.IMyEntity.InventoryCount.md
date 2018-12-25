@@ -10,7 +10,5 @@ Returns the count of the number of inventories this entity has.
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

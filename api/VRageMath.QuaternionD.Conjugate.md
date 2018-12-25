@@ -8,12 +8,6 @@ public void Conjugate()
 
 Transforms this QuaternionD into its conjugate.
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
@@ -24,9 +18,7 @@ Returns the conjugate of a specified QuaternionD.
 
 ### Returns
 
-### Example
-
-### Remarks
+[QuaternionD](VRageMath.QuaternionD)
 
 ### Summary
 
@@ -35,10 +27,4 @@ public void Conjugate(ref QuaternionD value, ref QuaternionD result)
 ```
 
 Returns the conjugate of a specified QuaternionD.
-
-### Returns
-
-### Example
-
-### Remarks
 

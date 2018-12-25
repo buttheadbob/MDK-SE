@@ -8,9 +8,3 @@ public void Clear()
 
 Removes all CurveKeys from the CurveKeyCollection.
 
-### Returns
-
-### Example
-
-### Remarks
-

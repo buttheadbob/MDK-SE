@@ -10,7 +10,5 @@ Specifies the total number of corners (8) in the BoundingFrustum.
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

@@ -8,7 +8,5 @@ public BoundingSphere CreateInvalid()
 
 ### Returns
 
-### Example
-
-### Remarks
+[BoundingSphere](VRageMath.BoundingSphere)
 

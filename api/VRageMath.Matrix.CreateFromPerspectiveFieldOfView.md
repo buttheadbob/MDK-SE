@@ -8,7 +8,5 @@ public Matrix CreateFromPerspectiveFieldOfView(ref Matrix proj, float nearPlane
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 

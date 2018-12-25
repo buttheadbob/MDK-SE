@@ -6,9 +6,3 @@
 public void Fract(ref Vector3D o, ref Vector3D r)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

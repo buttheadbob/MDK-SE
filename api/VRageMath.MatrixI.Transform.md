@@ -8,7 +8,5 @@ public MyBlockOrientation Transform(ref MyBlockOrientation orientation, ref Ma
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyBlockOrientation](VRageMath.MyBlockOrientation)
 

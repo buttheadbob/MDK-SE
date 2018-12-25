@@ -10,7 +10,5 @@ Gets or sets the color of the light.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Color](VRageMath.Color)
 

@@ -10,7 +10,5 @@ When this is true, the available raycast distance will count up, and power usage
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

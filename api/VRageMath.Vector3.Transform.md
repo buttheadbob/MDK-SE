@@ -10,9 +10,7 @@ Transforms a 3D vector by the given matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 
 ### Summary
 
@@ -24,9 +22,7 @@ Transforms a 3D vector by the given matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3D](VRageMath.Vector3D)
 
 ### Summary
 
@@ -36,9 +32,7 @@ public Vector3 Transform(Vector3 position, ref Matrix matrix)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 
 ### Summary
 
@@ -48,23 +42,11 @@ public void Transform(ref Vector3 position, ref Matrix matrix, ref Vector3 re
 
 Transforms a Vector3 by the given Matrix.
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
 public void Transform(ref Vector3 position, ref MatrixI matrix, ref Vector3 result)
 ```
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -76,9 +58,7 @@ Transforms a Vector3 by a specified Quaternion rotation.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 
 ### Summary
 
@@ -88,12 +68,6 @@ public void Transform(ref Vector3 value, ref Quaternion rotation, ref Vector3
 
 Transforms a Vector3 by a specified Quaternion rotation.
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
@@ -101,12 +75,6 @@ public void Transform(Vector3[] sourceArray, ref Matrix matrix, Vector3[] desti
 ```
 
 Transforms a source array of Vector3s by a specified Matrix and writes the results to an existing destination array.
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -116,12 +84,6 @@ public void Transform(Vector3[] sourceArray, int sourceIndex, ref Matrix matrix
 
 Applies a specified transform Matrix to a specified range of an array of Vector3s and writes the results into a specified range of a destination array.
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
@@ -130,12 +92,6 @@ public void Transform(Vector3[] sourceArray, ref Quaternion rotation, Vector3[]
 
 Transforms a source array of Vector3s by a specified Quaternion rotation and writes the results to an existing destination array.
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
@@ -143,10 +99,4 @@ public void Transform(Vector3[] sourceArray, int sourceIndex, ref Quaternion ro
 ```
 
 Applies a specified Quaternion rotation to a specified range of an array of Vector3s and writes the results into a specified range of a destination array.
-
-### Returns
-
-### Example
-
-### Remarks
 

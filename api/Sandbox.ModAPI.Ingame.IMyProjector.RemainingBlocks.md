@@ -10,7 +10,5 @@ Number of blocks left to be welded
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

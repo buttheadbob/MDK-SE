@@ -8,7 +8,5 @@ public double Height { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

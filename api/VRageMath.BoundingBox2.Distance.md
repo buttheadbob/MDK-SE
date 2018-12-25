@@ -8,7 +8,5 @@ public float Distance(Vector2 point)
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

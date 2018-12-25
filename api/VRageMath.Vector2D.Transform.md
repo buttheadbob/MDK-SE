@@ -10,9 +10,7 @@ Transforms the vector (x, y, 0, 1) by the specified matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector2D](VRageMath.Vector2D)
 
 ### Summary
 
@@ -21,12 +19,6 @@ public void Transform(ref Vector2D position, ref Matrix matrix, ref Vector2D 
 ```
 
 Transforms a Vector2D by the given Matrix.
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -38,9 +30,7 @@ Transforms a single Vector2D, or the vector normal (x, y, 0, 0), by a specified 
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector2D](VRageMath.Vector2D)
 
 ### Summary
 
@@ -50,12 +40,6 @@ public void Transform(ref Vector2D value, ref Quaternion rotation, ref Vector
 
 Transforms a Vector2D, or the vector normal (x, y, 0, 0), by a specified Quaternion rotation.
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
@@ -63,12 +47,6 @@ public void Transform(Vector2D[] sourceArray, ref Matrix matrix, Vector2D[] des
 ```
 
 Transforms an array of Vector2s by a specified Matrix.
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -78,12 +56,6 @@ public void Transform(Vector2D[] sourceArray, int sourceIndex, ref Matrix matri
 
 Transforms a specified range in an array of Vector2s by a specified Matrix and places the results in a specified range in a destination array.
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
@@ -92,12 +64,6 @@ public void Transform(Vector2D[] sourceArray, ref Quaternion rotation, Vector2D
 
 Transforms an array of Vector2s by a specified Quaternion.
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
@@ -105,10 +71,4 @@ public void Transform(Vector2D[] sourceArray, int sourceIndex, ref Quaternion r
 ```
 
 Transforms a specified range in an array of Vector2s by a specified Quaternion and places the results in a specified range in a destination array.
-
-### Returns
-
-### Example
-
-### Remarks
 

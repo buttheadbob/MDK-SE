@@ -10,7 +10,5 @@ Creates a copy of the CurveKey.
 
 ### Returns
 
-### Example
-
-### Remarks
+[CurveKey](VRageMath.CurveKey)
 

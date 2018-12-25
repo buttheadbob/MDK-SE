@@ -8,7 +8,5 @@ public bool UseConveyorSystem { get; set; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

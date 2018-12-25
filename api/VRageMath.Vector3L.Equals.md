@@ -8,9 +8,7 @@ public bool Equals(Vector3L other)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public virtual bool Equals(object obj)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

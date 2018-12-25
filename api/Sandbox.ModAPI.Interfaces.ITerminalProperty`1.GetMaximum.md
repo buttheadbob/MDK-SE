@@ -8,7 +8,5 @@ public TValue GetMaximum(IMyCubeBlock block)
 
 ### Returns
 
-### Example
-
-### Remarks
+[TValue]()
 

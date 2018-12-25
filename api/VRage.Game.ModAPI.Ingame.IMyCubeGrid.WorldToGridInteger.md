@@ -10,7 +10,5 @@ Converts world coordinates to grid space cell coordinates
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3I](VRageMath.Vector3I)
 

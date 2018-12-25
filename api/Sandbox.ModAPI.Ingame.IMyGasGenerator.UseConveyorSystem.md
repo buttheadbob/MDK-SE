@@ -10,7 +10,5 @@ Conveyor system enabled
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

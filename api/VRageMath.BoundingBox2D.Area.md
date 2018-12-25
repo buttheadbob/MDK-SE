@@ -8,7 +8,5 @@ public double Area()
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

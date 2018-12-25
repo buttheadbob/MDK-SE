@@ -8,7 +8,5 @@ public IMyInventory GetInventory(IMyTerminalBlock block, int index)
 
 ### Returns
 
-### Example
-
-### Remarks
+[IMyInventory](VRage.Game.ModAPI.Ingame.IMyInventory)
 

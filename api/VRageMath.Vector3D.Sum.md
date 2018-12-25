@@ -8,7 +8,5 @@ public double Sum { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

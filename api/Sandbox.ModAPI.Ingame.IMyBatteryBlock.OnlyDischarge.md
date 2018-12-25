@@ -8,7 +8,5 @@ public bool OnlyDischarge { get; set; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

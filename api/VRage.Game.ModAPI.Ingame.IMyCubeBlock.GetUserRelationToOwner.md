@@ -8,7 +8,5 @@ public MyRelationsBetweenPlayerAndBlock GetUserRelationToOwner(long playerId)
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyRelationsBetweenPlayerAndBlock](VRage.Game.MyRelationsBetweenPlayerAndBlock)
 

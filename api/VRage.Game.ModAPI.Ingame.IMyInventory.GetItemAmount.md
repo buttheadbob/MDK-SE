@@ -8,7 +8,5 @@ public MyFixedPoint GetItemAmount(SerializableDefinitionId contentId, MyItemFlag
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyFixedPoint](VRage.MyFixedPoint)
 

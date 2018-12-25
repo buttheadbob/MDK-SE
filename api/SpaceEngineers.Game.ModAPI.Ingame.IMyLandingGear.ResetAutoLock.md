@@ -8,9 +8,3 @@ public void ResetAutoLock()
 
 Resets autolock timer
 
-### Returns
-
-### Example
-
-### Remarks
-

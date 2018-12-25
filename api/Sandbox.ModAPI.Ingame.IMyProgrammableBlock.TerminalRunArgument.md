@@ -10,7 +10,5 @@ Contains the value of the default terminal argument.
 
 ### Returns
 
-### Example
-
-### Remarks
+[string](System.String)
 

@@ -8,7 +8,5 @@ public MatrixD Identity
 
 ### Returns
 
-### Example
-
-### Remarks
+[MatrixD](VRageMath.MatrixD)
 

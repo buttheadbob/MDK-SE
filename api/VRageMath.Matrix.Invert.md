@@ -10,9 +10,7 @@ Calculates the inverse of a matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 
 ### Summary
 
@@ -22,9 +20,7 @@ public Matrix Invert(ref Matrix matrix)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 
 ### Summary
 
@@ -33,10 +29,4 @@ public void Invert(ref Matrix matrix, ref Matrix result)
 ```
 
 Calculates the inverse of a matrix.
-
-### Returns
-
-### Example
-
-### Remarks
 

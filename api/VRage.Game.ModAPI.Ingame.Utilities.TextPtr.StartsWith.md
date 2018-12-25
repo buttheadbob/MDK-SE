@@ -8,7 +8,5 @@ public bool StartsWith(string what)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

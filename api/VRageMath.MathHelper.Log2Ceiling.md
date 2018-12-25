@@ -8,7 +8,5 @@ public int Log2Ceiling(int value)
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

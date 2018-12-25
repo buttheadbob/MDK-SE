@@ -8,9 +8,7 @@ public float SCurve3(float t)
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public double SCurve3(double t)
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

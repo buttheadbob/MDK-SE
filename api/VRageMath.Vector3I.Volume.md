@@ -8,7 +8,5 @@ public int Volume()
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

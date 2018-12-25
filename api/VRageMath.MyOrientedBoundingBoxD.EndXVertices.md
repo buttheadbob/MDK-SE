@@ -8,7 +8,5 @@ public Int32[] EndXVertices
 
 ### Returns
 
-### Example
-
-### Remarks
+[Int32[]](System.Int32[])
 

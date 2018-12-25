@@ -8,12 +8,6 @@ public void SlerpScale(ref Matrix matrix1, ref Matrix matrix2, float amount, r
 
 Performs spherical linear interpolation of position and rotation and scale.
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
@@ -21,12 +15,6 @@ public void SlerpScale(Matrix matrix1, Matrix matrix2, float amount, ref Matrix
 ```
 
 Performs spherical linear interpolation of position and rotation and scale.
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -38,7 +26,5 @@ Performs spherical linear interpolation of position and rotation and scale.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 

@@ -8,7 +8,5 @@ public Vector4 UnmultiplyColor(Vector4 c)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector4](VRageMath.Vector4)
 

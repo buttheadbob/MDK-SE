@@ -10,9 +10,7 @@ Gets the button name.
 
 ### Returns
 
+[string](System.String)
 
 
-### Example
-
-### Remarks
 

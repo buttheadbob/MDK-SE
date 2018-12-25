@@ -8,7 +8,5 @@ public List<T> ToList<T>(ConcurrentQueue<T> queue)
 
 ### Returns
 
-### Example
-
-### Remarks
+[List<T>](System.Collections.Generic.List`1)
 

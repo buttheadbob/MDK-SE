@@ -6,9 +6,3 @@
 public void GetLines(List<T> lines)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

@@ -8,7 +8,5 @@ public CubeFace GetDominantDirection(Vector3I val)
 
 ### Returns
 
-### Example
-
-### Remarks
+[CubeFace](VRageMath.CubeFace)
 

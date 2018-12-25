@@ -8,9 +8,7 @@ public BoundingBoxD GetInflated(double size)
 
 ### Returns
 
-### Example
-
-### Remarks
+[BoundingBoxD](VRageMath.BoundingBoxD)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public BoundingBoxD GetInflated(Vector3 size)
 
 ### Returns
 
-### Example
-
-### Remarks
+[BoundingBoxD](VRageMath.BoundingBoxD)
 

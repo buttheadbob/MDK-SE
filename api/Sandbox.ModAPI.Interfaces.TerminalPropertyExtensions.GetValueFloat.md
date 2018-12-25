@@ -10,9 +10,7 @@ Returns value of specified property
 
 ### Returns
 
+[float](System.Single)
+
 property value as float
-
-### Example
-
-### Remarks
 

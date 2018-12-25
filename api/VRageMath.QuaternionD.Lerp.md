@@ -10,9 +10,7 @@ Linearly interpolates between two quaternions.
 
 ### Returns
 
-### Example
-
-### Remarks
+[QuaternionD](VRageMath.QuaternionD)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void Lerp(ref QuaternionD quaternion1, ref QuaternionD quaternion2, dou
 ```
 
 Linearly interpolates between two quaternions.
-
-### Returns
-
-### Example
-
-### Remarks
 

@@ -8,9 +8,7 @@ public int BinaryIntervalSearch<T>(IList<T> self, T value, IComparer<T> comparer
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 
 ### Summary
 
@@ -20,9 +18,7 @@ public int BinaryIntervalSearch<T>(IList<T> self, Func<T, TResult> less)
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 
 ### Summary
 
@@ -32,7 +28,5 @@ public int BinaryIntervalSearch<T>(IList<T> self, T value, Comparison<T> compari
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

@@ -10,7 +10,5 @@ Returns true if the ShowOnScreen flag is set to either PUBLIC or PRIVATE
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

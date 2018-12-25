@@ -10,7 +10,5 @@ Current output of reactor in Megawatts
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

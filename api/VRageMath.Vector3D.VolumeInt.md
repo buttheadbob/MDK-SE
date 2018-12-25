@@ -8,7 +8,5 @@ public long VolumeInt(double multiplier)
 
 ### Returns
 
-### Example
-
-### Remarks
+[long](System.Int64)
 

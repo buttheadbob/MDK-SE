@@ -8,7 +8,5 @@ public bool StopCountdown()
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

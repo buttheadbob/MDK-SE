@@ -10,9 +10,7 @@ Restricts a value to be within a specified range.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector2D](VRageMath.Vector2D)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void Clamp(ref Vector2D value1, ref Vector2D min, ref Vector2D max, re
 ```
 
 Restricts a value to be within a specified range.
-
-### Returns
-
-### Example
-
-### Remarks
 

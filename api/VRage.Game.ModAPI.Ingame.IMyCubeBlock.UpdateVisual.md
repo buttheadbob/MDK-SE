@@ -6,9 +6,3 @@
 public void UpdateVisual()
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

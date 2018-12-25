@@ -10,7 +10,5 @@ Gets the current angle of the rotor in radians.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

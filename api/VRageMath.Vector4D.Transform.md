@@ -10,9 +10,7 @@ Transforms a Vector2 by the given Matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector4D](VRageMath.Vector4D)
 
 ### Summary
 
@@ -21,12 +19,6 @@ public void Transform(ref Vector2 position, ref MatrixD matrix, ref Vector4D 
 ```
 
 Transforms a Vector2 by the given Matrix.
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -38,9 +30,7 @@ Transforms a Vector3 by the given Matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector4D](VRageMath.Vector4D)
 
 ### Summary
 
@@ -49,12 +39,6 @@ public void Transform(ref Vector3D position, ref MatrixD matrix, ref Vector4D
 ```
 
 Transforms a Vector3 by the given Matrix.
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -66,9 +50,7 @@ Transforms a Vector4 by the specified Matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector4D](VRageMath.Vector4D)
 
 ### Summary
 
@@ -77,12 +59,6 @@ public void Transform(ref Vector4D vector, ref MatrixD matrix, ref Vector4D r
 ```
 
 Transforms a Vector4 by the given Matrix.
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -94,9 +70,7 @@ Transforms a Vector2 by a specified Quaternion into a Vector4.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector4D](VRageMath.Vector4D)
 
 ### Summary
 
@@ -105,12 +79,6 @@ public void Transform(ref Vector2 value, ref Quaternion rotation, ref Vector4
 ```
 
 Transforms a Vector2 by a specified Quaternion into a Vector4.
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -122,9 +90,7 @@ Transforms a Vector3 by a specified Quaternion into a Vector4.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector4D](VRageMath.Vector4D)
 
 ### Summary
 
@@ -133,12 +99,6 @@ public void Transform(ref Vector3D value, ref Quaternion rotation, ref Vector
 ```
 
 Transforms a Vector3 by a specified Quaternion into a Vector4.
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -150,9 +110,7 @@ Transforms a Vector4 by a specified Quaternion.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector4D](VRageMath.Vector4D)
 
 ### Summary
 
@@ -162,12 +120,6 @@ public void Transform(ref Vector4D value, ref Quaternion rotation, ref Vector
 
 Transforms a Vector4 by a specified Quaternion.
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
@@ -175,12 +127,6 @@ public void Transform(Vector4D[] sourceArray, ref MatrixD matrix, Vector4D[] de
 ```
 
 Transforms an array of Vector4s by a specified Matrix.
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -190,12 +136,6 @@ public void Transform(Vector4D[] sourceArray, int sourceIndex, ref MatrixD matr
 
 Transforms a specified range in an array of Vector4s by a specified Matrix into a specified range in a destination array.
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
@@ -204,12 +144,6 @@ public void Transform(Vector4D[] sourceArray, ref Quaternion rotation, Vector4D
 
 Transforms an array of Vector4s by a specified Quaternion.
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
@@ -217,10 +151,4 @@ public void Transform(Vector4D[] sourceArray, int sourceIndex, ref Quaternion r
 ```
 
 Transforms a specified range in an array of Vector4s by a specified Quaternion into a specified range in a destination array.
-
-### Returns
-
-### Example
-
-### Remarks
 

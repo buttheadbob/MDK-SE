@@ -8,7 +8,5 @@ public int ProjectionOffsetX { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

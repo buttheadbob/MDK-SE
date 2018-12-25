@@ -10,7 +10,5 @@ Roll input from user/autopilot. Values can be very large with high controller se
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

@@ -10,9 +10,7 @@ Multiplies a matrix by another matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 
 ### Summary
 
@@ -21,12 +19,6 @@ public void Multiply(ref Matrix matrix1, ref Matrix matrix2, ref Matrix resul
 ```
 
 Multiplies a matrix by another matrix.
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -38,9 +30,7 @@ Multiplies a matrix by a scalar value.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 
 ### Summary
 
@@ -49,10 +39,4 @@ public void Multiply(ref Matrix matrix1, float scaleFactor, ref Matrix result)
 ```
 
 Multiplies a matrix by a scalar value.
-
-### Returns
-
-### Example
-
-### Remarks
 

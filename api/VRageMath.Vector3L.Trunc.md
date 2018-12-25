@@ -8,7 +8,5 @@ public Vector3L Trunc(Vector3 value)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3L](VRageMath.Vector3L)
 

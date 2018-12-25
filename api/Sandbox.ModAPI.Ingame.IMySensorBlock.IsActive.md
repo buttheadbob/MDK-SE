@@ -10,7 +10,5 @@ Gets if there is any entity currently being detected.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

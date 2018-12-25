@@ -8,7 +8,5 @@ public DictionaryReader<K, V> Languages { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[DictionaryReader<K, V>](VRage.Collections.DictionaryReader`2)
 

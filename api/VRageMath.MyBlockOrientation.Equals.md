@@ -8,7 +8,5 @@ public virtual bool Equals(object obj)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

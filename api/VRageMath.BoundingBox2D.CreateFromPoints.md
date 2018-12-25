@@ -8,7 +8,5 @@ public BoundingBox2D CreateFromPoints(IEnumerable<T> points)
 
 ### Returns
 
-### Example
-
-### Remarks
+[BoundingBox2D](VRageMath.BoundingBox2D)
 

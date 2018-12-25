@@ -10,7 +10,5 @@ Creates a world matrix with the specified parameters.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix3x3](VRageMath.Matrix3x3)
 

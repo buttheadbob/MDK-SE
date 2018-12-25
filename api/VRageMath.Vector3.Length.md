@@ -10,7 +10,5 @@ Calculates the length of the vector.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

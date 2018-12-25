@@ -8,7 +8,5 @@ public int ToIntSafe()
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

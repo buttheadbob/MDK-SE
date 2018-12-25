@@ -10,7 +10,5 @@ These values are not in degrees. 1 = 90 degrees, 2 = 180 degrees
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3I](VRageMath.Vector3I)
 

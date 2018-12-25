@@ -10,7 +10,5 @@ Prints out text onto the currently running programmable block's detail info area
 
 ### Returns
 
-### Example
-
-### Remarks
+[Action<T>](System.Action`1)
 

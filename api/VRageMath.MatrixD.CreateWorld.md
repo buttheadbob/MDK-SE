@@ -8,9 +8,7 @@ public MatrixD CreateWorld(Vector3D position, Vector3 forward, Vector3 up)
 
 ### Returns
 
-### Example
-
-### Remarks
+[MatrixD](VRageMath.MatrixD)
 
 ### Summary
 
@@ -20,9 +18,7 @@ public MatrixD CreateWorld(Vector3D position)
 
 ### Returns
 
-### Example
-
-### Remarks
+[MatrixD](VRageMath.MatrixD)
 
 ### Summary
 
@@ -34,9 +30,7 @@ Creates a world matrix with the specified parameters.
 
 ### Returns
 
-### Example
-
-### Remarks
+[MatrixD](VRageMath.MatrixD)
 
 ### Summary
 
@@ -45,10 +39,4 @@ public void CreateWorld(ref Vector3D position, ref Vector3D forward, ref Vect
 ```
 
 Creates a world matrix with the specified parameters.
-
-### Returns
-
-### Example
-
-### Remarks
 

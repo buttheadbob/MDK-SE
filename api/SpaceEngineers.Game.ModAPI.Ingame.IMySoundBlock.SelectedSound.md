@@ -10,7 +10,7 @@ Gets or sets the selected sound.
 
 ### Returns
 
-### Example
+[string](System.String)
 
 ### Remarks
 

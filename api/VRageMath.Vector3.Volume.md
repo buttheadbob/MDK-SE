@@ -8,7 +8,5 @@ public float Volume { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

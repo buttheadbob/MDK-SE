@@ -10,9 +10,7 @@ Determines whether the specified Object is equal to the Vector3.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -22,9 +20,7 @@ public bool Equals(Vector3 other, float epsilon)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -36,7 +32,5 @@ Returns a value that indicates whether the current instance is equal to a specif
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

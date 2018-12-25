@@ -8,7 +8,5 @@ public bool InvertSteer { get; set; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

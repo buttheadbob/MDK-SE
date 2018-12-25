@@ -8,7 +8,5 @@ public float RoundOn2(float x)
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

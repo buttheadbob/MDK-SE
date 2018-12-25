@@ -10,7 +10,5 @@ Gets the grid the slimblock is on
 
 ### Returns
 
-### Example
-
-### Remarks
+[IMyCubeGrid](VRage.Game.ModAPI.Ingame.IMyCubeGrid)
 

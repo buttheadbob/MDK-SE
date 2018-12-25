@@ -10,7 +10,5 @@ A dynamic tree arranges data in a binary tree to accelerate queries such as volu
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

@@ -10,9 +10,7 @@ Creates a new Matrix that rotates around an arbitrary vector.
 
 ### Returns
 
-### Example
-
-### Remarks
+[MatrixD](VRageMath.MatrixD)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void CreateFromAxisAngle(ref Vector3D axis, double angle, ref MatrixD r
 ```
 
 Creates a new Matrix that rotates around an arbitrary vector.
-
-### Returns
-
-### Example
-
-### Remarks
 

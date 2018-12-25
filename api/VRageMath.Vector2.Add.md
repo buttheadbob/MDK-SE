@@ -10,9 +10,7 @@ Adds two vectors.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector2](VRageMath.Vector2)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void Add(ref Vector2 value1, ref Vector2 value2, ref Vector2 result)
 ```
 
 Adds two vectors.
-
-### Returns
-
-### Example
-
-### Remarks
 

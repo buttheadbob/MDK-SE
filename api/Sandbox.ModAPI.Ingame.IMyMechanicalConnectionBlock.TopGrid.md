@@ -10,7 +10,5 @@ Gets the grid of the attached top part
 
 ### Returns
 
-### Example
-
-### Remarks
+[IMyCubeGrid](VRage.Game.ModAPI.Ingame.IMyCubeGrid)
 

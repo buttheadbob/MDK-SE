@@ -8,7 +8,5 @@ public List<T> GetItems()
 
 ### Returns
 
-### Example
-
-### Remarks
+[List<T>](System.Collections.Generic.List`1)
 

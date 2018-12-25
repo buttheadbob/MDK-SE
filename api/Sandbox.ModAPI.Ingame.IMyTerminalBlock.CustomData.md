@@ -10,7 +10,5 @@ Gets or sets the Custom Data string. NOTE: Only use this for user input. For sto
 
 ### Returns
 
-### Example
-
-### Remarks
+[string](System.String)
 

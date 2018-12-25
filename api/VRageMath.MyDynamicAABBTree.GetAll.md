@@ -6,9 +6,3 @@
 public void GetAll<T>(List<T> elementsList, bool clear, List<T> boxsList)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

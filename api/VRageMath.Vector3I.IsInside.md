@@ -8,9 +8,7 @@ public bool IsInside(ref Vector3I inclusiveMin, ref Vector3I exclusiveMax)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public bool IsInside(Vector3I inclusiveMin, Vector3I exclusiveMax)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

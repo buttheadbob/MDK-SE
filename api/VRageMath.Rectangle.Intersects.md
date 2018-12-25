@@ -10,9 +10,7 @@ Determines whether a specified Rectangle intersects with this Rectangle.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void Intersects(ref Rectangle value, ref bool result)
 ```
 
 Determines whether a specified Rectangle intersects with this Rectangle.
-
-### Returns
-
-### Example
-
-### Remarks
 

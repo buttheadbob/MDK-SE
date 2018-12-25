@@ -10,9 +10,7 @@ Builds a perspective projection matrix based on a field of view and returns by v
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void CreatePerspectiveFieldOfView(float fieldOfView, float aspectRatio, f
 ```
 
 Builds a perspective projection matrix based on a field of view and returns by reference.
-
-### Returns
-
-### Example
-
-### Remarks
 

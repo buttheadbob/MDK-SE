@@ -10,9 +10,7 @@ Returns the inverse of a QuaternionD.
 
 ### Returns
 
-### Example
-
-### Remarks
+[QuaternionD](VRageMath.QuaternionD)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void Inverse(ref QuaternionD quaternion, ref QuaternionD result)
 ```
 
 Returns the inverse of a QuaternionD.
-
-### Returns
-
-### Example
-
-### Remarks
 

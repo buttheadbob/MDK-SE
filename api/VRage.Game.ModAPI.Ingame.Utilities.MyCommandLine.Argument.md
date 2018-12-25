@@ -10,9 +10,7 @@ Returns the argument at the given index. Switches are not counted.
 
 ### Returns
 
+[string](System.String)
 
 
-### Example
-
-### Remarks
 

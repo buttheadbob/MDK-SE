@@ -10,7 +10,5 @@ public float DamageRatio { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

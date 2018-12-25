@@ -10,7 +10,5 @@ Gets the maximum number of significant instructions that can be executing during
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

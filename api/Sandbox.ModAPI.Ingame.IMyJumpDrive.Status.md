@@ -8,7 +8,5 @@ public MyJumpDriveStatus Status { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyJumpDriveStatus](Sandbox.ModAPI.Ingame.MyJumpDriveStatus)
 

@@ -10,7 +10,5 @@ Retrieves a string representation of the current object.
 
 ### Returns
 
-### Example
-
-### Remarks
+[string](System.String)
 

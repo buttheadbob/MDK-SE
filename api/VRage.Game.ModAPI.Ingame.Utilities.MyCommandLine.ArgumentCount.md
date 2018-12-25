@@ -10,7 +10,5 @@ Returns the number of non-switch arguments
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

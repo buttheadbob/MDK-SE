@@ -10,7 +10,7 @@ Gets or sets if the sensor should detect the block owner.
 
 ### Returns
 
-### Example
+[bool](System.Boolean)
 
 ### Remarks
 

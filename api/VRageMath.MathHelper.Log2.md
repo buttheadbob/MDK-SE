@@ -8,9 +8,7 @@ public int Log2(int n)
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public int Log2(uint n)
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

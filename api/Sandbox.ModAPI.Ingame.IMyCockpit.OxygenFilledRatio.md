@@ -10,9 +10,7 @@ Gets the current oxygen level of this cockpit, as a value between 0 (empty) and 
 
 ### Returns
 
+[float](System.Single)
 
 
-### Example
-
-### Remarks
 

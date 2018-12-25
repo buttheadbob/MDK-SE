@@ -8,7 +8,5 @@ public bool Equals(MyTuple<T1, T2, T3> x, MyTuple<T1, T2, T3> y)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

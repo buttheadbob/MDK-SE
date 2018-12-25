@@ -10,7 +10,5 @@ Gets the attached base block
 
 ### Returns
 
-### Example
-
-### Remarks
+[IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)
 

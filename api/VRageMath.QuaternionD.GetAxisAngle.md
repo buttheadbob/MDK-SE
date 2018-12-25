@@ -6,9 +6,3 @@
 public void GetAxisAngle(ref Vector3D axis, ref double angle)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

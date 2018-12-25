@@ -8,7 +8,5 @@ public double Volume { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

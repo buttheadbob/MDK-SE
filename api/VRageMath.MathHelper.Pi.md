@@ -10,7 +10,5 @@ Represents the value of pi.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

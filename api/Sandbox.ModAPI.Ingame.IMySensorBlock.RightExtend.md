@@ -10,7 +10,5 @@ Gets or sets the right range of the sensor.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

@@ -8,9 +8,7 @@ public T AtMod<T>(List<T> list, int index)
 
 ### Returns
 
-### Example
-
-### Remarks
+[T]()
 
 ### Summary
 
@@ -20,7 +18,5 @@ public T AtMod<T>(ListReader<T> list, int index)
 
 ### Returns
 
-### Example
-
-### Remarks
+[T]()
 

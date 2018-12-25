@@ -8,7 +8,5 @@ public float Height { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

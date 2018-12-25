@@ -10,7 +10,5 @@ Gets or sets whether this connector should be pulling items into its inventory.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

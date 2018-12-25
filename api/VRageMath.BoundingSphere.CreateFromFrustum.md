@@ -10,7 +10,5 @@ Creates the smallest BoundingSphere that can contain a specified BoundingFrustum
 
 ### Returns
 
-### Example
-
-### Remarks
+[BoundingSphere](VRageMath.BoundingSphere)
 

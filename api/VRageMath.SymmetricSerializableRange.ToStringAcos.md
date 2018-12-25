@@ -8,7 +8,5 @@ public string ToStringAcos()
 
 ### Returns
 
-### Example
-
-### Remarks
+[string](System.String)
 

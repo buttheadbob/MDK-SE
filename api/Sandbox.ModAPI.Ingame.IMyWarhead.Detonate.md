@@ -6,9 +6,3 @@
 public void Detonate()
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

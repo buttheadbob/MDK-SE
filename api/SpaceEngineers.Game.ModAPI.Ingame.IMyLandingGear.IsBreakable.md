@@ -10,7 +10,5 @@ Gets if the landing gear lock can be broken with force.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

@@ -6,9 +6,3 @@
 public void CreateFromAzimuthAndElevation(double azimuth, double elevation, ref Vector3D direction)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

@@ -10,7 +10,5 @@ Gets the ship's angular velocity (rotation).
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3D](VRageMath.Vector3D)
 

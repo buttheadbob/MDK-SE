@@ -10,7 +10,5 @@ Returns the point (0,0).
 
 ### Returns
 
-### Example
-
-### Remarks
+[Point](VRageMath.Point)
 

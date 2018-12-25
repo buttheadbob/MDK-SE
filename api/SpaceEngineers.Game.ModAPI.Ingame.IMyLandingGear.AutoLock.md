@@ -10,7 +10,5 @@ Toggles the autolock of the landing gear.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

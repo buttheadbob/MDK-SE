@@ -10,9 +10,7 @@ Performs a Catmull-Rom interpolation using the specified positions.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3D](VRageMath.Vector3D)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void CatmullRom(ref Vector3D value1, ref Vector3D value2, ref Vector3D
 ```
 
 Performs a Catmull-Rom interpolation using the specified positions.
-
-### Returns
-
-### Example
-
-### Remarks
 

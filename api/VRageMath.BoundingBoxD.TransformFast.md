@@ -10,11 +10,9 @@ Transform this AABB by matrix. Matrix has to be only rotation and translation.
 
 ### Returns
 
+[BoundingBoxD](VRageMath.BoundingBoxD)
+
 transformed aabb
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -26,11 +24,9 @@ Transform this AABB by matrix. Matrix has to be only rotation and translation.
 
 ### Returns
 
+[BoundingBoxD](VRageMath.BoundingBoxD)
+
 transformed aabb
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -39,10 +35,4 @@ public void TransformFast(ref MatrixD m, ref BoundingBoxD bb)
 ```
 
 Transform this AABB by matrix. Matrix has to be only rotation and translation.
-
-### Returns
-
-### Example
-
-### Remarks
 

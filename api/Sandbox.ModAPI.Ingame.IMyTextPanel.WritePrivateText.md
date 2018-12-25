@@ -8,7 +8,5 @@ public bool WritePrivateText(string value, bool append)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

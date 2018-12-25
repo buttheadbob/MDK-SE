@@ -10,7 +10,5 @@ Determines the success of the configuration parsing.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

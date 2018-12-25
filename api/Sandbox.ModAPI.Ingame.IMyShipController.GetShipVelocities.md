@@ -10,7 +10,5 @@ Determines the linear velocities in meters per second and angular velocities in 
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyShipVelocities](Sandbox.ModAPI.Ingame.MyShipVelocities)
 

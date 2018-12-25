@@ -8,7 +8,5 @@ public float Strength { get; set; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

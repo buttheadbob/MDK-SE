@@ -8,7 +8,5 @@ public IMyInventoryOwner Owner { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[IMyInventoryOwner](VRage.Game.ModAPI.Ingame.IMyInventoryOwner)
 

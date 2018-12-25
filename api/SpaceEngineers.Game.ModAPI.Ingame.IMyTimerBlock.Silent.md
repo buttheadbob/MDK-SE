@@ -10,7 +10,5 @@ Gets or sets if the countdown is silent
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

@@ -10,9 +10,7 @@ Converts radians to degrees.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 
 ### Summary
 
@@ -22,7 +20,5 @@ public double ToDegrees(double radians)
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

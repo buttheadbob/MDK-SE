@@ -10,7 +10,5 @@ Gets runtime information for the running grid program.
 
 ### Returns
 
-### Example
-
-### Remarks
+[IMyGridProgramRuntimeInfo](Sandbox.ModAPI.Ingame.IMyGridProgramRuntimeInfo)
 

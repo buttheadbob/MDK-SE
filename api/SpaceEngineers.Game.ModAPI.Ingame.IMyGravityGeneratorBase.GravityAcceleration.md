@@ -10,7 +10,5 @@ Gets or sets the gravity acceleration in m/s^2.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

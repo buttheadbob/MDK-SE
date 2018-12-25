@@ -8,7 +8,5 @@ public long RawValue
 
 ### Returns
 
-### Example
-
-### Remarks
+[long](System.Int64)
 

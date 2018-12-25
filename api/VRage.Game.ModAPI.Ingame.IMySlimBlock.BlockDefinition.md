@@ -10,7 +10,5 @@ Block definition ID
 
 ### Returns
 
-### Example
-
-### Remarks
+[SerializableDefinitionId](VRage.ObjectBuilders.SerializableDefinitionId)
 

@@ -10,9 +10,7 @@ Generates a configuration file from the currently parsed configuration
 
 ### Returns
 
+[string](System.String)
 
 
-### Example
-
-### Remarks
 

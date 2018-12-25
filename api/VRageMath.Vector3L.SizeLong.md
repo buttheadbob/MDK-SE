@@ -8,7 +8,5 @@ public long SizeLong { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[long](System.Int64)
 

@@ -10,9 +10,7 @@ Gets if the specified button has a custom name set.
 
 ### Returns
 
+[bool](System.Boolean)
 
 
-### Example
-
-### Remarks
 

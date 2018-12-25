@@ -10,7 +10,5 @@ Gets and sets the down vector of the Matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3D](VRageMath.Vector3D)
 

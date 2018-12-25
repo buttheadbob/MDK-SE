@@ -10,9 +10,7 @@ Enumerate all values in a longeger longerval (a cuboid). This method is an alloc
 
 ### Returns
 
+[IEnumerable<T>](System.Collections.Generic.IEnumerable`1)
+
 An iterator for that range.
-
-### Example
-
-### Remarks
 

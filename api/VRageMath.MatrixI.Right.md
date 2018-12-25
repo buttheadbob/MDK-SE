@@ -8,7 +8,5 @@ public Direction Right
 
 ### Returns
 
-### Example
-
-### Remarks
+[Direction](VRageMath.Base6Directions+Direction)
 

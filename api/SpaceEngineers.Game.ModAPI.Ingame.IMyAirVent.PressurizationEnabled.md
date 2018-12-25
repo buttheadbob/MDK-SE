@@ -10,7 +10,5 @@ Returns true if pressurization is enabled.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

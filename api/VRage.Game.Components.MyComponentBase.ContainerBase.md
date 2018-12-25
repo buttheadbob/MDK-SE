@@ -10,7 +10,5 @@ This cannot be named Container to not conflict with the definition of Container 
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyComponentContainer](VRage.Game.Components.MyComponentContainer)
 

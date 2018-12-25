@@ -10,9 +10,7 @@ Returns a vector that contains the highest value from each matching pair of comp
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector2](VRageMath.Vector2)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void Max(ref Vector2 value1, ref Vector2 value2, ref Vector2 result)
 ```
 
 Returns a vector that contains the highest value from each matching pair of components.
-
-### Returns
-
-### Example
-
-### Remarks
 

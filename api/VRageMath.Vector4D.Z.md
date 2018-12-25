@@ -10,7 +10,5 @@ Gets or sets the z-component of the vector.
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

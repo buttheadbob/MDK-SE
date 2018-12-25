@@ -6,9 +6,3 @@
 public void OverlapAllBoundingSphere<T>(ref BoundingSphere sphere, List<T> overlapElementsList, bool clear)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

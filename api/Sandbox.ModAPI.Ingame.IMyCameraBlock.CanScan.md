@@ -10,11 +10,9 @@ Checks if the camera can scan the given distance.
 
 ### Returns
 
+[bool](System.Boolean)
 
 
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -26,11 +24,9 @@ Checks if the camera can scan to the given direction and distance.
 
 ### Returns
 
+[bool](System.Boolean)
 
 
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -42,9 +38,7 @@ Checks if the camera can scan to the given target
 
 ### Returns
 
+[bool](System.Boolean)
 
 
-### Example
-
-### Remarks
 

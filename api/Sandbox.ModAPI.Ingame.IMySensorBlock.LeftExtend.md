@@ -10,7 +10,5 @@ Gets or sets the left range of the sensor.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

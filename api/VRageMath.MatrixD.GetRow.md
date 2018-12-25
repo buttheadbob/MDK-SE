@@ -8,7 +8,5 @@ public Vector4 GetRow(int row)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector4](VRageMath.Vector4)
 

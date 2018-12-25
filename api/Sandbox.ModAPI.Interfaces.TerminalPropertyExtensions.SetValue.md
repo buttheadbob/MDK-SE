@@ -6,9 +6,3 @@
 public void SetValue<T>(IMyTerminalBlock block, string propertyId, T value)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

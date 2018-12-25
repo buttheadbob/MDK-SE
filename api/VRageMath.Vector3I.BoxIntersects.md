@@ -8,9 +8,7 @@ public bool BoxIntersects(Vector3I minA, Vector3I maxA, Vector3I minB, Vector3I 
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public bool BoxIntersects(ref Vector3I minA, ref Vector3I maxA, ref Vector3I 
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

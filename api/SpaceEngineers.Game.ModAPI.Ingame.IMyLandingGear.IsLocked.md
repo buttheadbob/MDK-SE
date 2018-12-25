@@ -10,7 +10,5 @@ Gets whether the landing gear is currently locked.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

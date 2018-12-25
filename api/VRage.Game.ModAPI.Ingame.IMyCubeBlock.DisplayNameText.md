@@ -10,7 +10,5 @@ Translated block name
 
 ### Returns
 
-### Example
-
-### Remarks
+[string](System.String)
 

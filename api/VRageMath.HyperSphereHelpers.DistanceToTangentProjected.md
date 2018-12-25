@@ -8,7 +8,5 @@ public double DistanceToTangentProjected(ref Vector3D center, ref Vector3D poi
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

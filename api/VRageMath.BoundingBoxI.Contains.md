@@ -10,9 +10,7 @@ Tests whether the BoundingBoxI contains another BoundingBoxI.
 
 ### Returns
 
-### Example
-
-### Remarks
+[ContainmentType](VRageMath.ContainmentType)
 
 ### Summary
 
@@ -21,12 +19,6 @@ public void Contains(ref BoundingBoxI box, ref ContainmentType result)
 ```
 
 Tests whether the BoundingBoxI contains a BoundingBoxI.
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -38,9 +30,7 @@ Tests whether the BoundingBoxI contains a point.
 
 ### Returns
 
-### Example
-
-### Remarks
+[ContainmentType](VRageMath.ContainmentType)
 
 ### Summary
 
@@ -50,9 +40,7 @@ public ContainmentType Contains(Vector3 point)
 
 ### Returns
 
-### Example
-
-### Remarks
+[ContainmentType](VRageMath.ContainmentType)
 
 ### Summary
 
@@ -61,10 +49,4 @@ public void Contains(ref Vector3I point, ref ContainmentType result)
 ```
 
 Tests whether the BoundingBoxI contains a point.
-
-### Returns
-
-### Example
-
-### Remarks
 

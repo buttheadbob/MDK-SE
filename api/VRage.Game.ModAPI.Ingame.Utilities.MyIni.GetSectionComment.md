@@ -10,9 +10,7 @@ Get any comment that might be associated with the given section. Returns`null`if
 
 ### Returns
 
+[string](System.String)
 
 
-### Example
-
-### Remarks
 

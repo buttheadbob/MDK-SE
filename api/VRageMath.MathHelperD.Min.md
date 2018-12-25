@@ -10,7 +10,5 @@ Returns the lesser of two values.
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

@@ -10,9 +10,7 @@ Interpolates between two values using a cubic equation.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector2](VRageMath.Vector2)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void SmoothStep(ref Vector2 value1, ref Vector2 value2, float amount, r
 ```
 
 Interpolates between two values using a cubic equation.
-
-### Returns
-
-### Example
-
-### Remarks
 

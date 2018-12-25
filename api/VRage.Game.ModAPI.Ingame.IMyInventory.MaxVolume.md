@@ -8,7 +8,5 @@ public MyFixedPoint MaxVolume { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyFixedPoint](VRage.MyFixedPoint)
 

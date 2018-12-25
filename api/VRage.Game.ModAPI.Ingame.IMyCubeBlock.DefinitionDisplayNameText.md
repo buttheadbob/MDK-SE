@@ -10,7 +10,5 @@ Definition name
 
 ### Returns
 
-### Example
-
-### Remarks
+[string](System.String)
 

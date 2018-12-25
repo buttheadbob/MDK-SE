@@ -10,7 +10,5 @@ Total number of blocks in the projection
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

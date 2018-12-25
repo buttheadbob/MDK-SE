@@ -10,7 +10,5 @@ Allows you to store data between game sessions.
 
 ### Returns
 
-### Example
-
-### Remarks
+[string](System.String)
 

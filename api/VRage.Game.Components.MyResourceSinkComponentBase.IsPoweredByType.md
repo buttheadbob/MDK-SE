@@ -8,7 +8,5 @@ public virtual bool IsPoweredByType(MyDefinitionId resourceTypeId)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

@@ -10,7 +10,5 @@ Broadcasts a message to all PB attached to the antenna system. Broadcast is dela
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

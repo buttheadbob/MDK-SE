@@ -10,9 +10,7 @@ Subtracts a quaternion from another quaternion.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Quaternion](VRageMath.Quaternion)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void Subtract(ref Quaternion quaternion1, ref Quaternion quaternion2, r
 ```
 
 Subtracts a quaternion from another quaternion.
-
-### Returns
-
-### Example
-
-### Remarks
 

@@ -8,7 +8,5 @@ public Axis GetAxis(Direction direction)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Axis](VRageMath.Base6Directions+Axis)
 

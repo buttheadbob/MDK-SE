@@ -10,9 +10,7 @@ Get or set a comment to be placed after the last section or item. Is`null`if the
 
 ### Returns
 
+[string](System.String)
 
 
-### Example
-
-### Remarks
 

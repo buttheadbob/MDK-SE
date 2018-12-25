@@ -10,7 +10,5 @@ Creates a Rectangle defining the area where one rectangle overlaps with another 
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

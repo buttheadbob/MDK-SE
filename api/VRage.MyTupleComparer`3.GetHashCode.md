@@ -8,7 +8,5 @@ public int GetHashCode(MyTuple<T1, T2, T3> obj)
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

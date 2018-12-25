@@ -8,9 +8,7 @@ public bool WritePublicText(string value, bool append)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public bool WritePublicText(StringBuilder value, bool append)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

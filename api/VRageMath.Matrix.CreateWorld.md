@@ -8,9 +8,7 @@ public Matrix CreateWorld(Vector3 position)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 
 ### Summary
 
@@ -22,9 +20,7 @@ Creates a world matrix with the specified parameters.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 
 ### Summary
 
@@ -33,10 +29,4 @@ public void CreateWorld(ref Vector3 position, ref Vector3 forward, ref Vector
 ```
 
 Creates a world matrix with the specified parameters.
-
-### Returns
-
-### Example
-
-### Remarks
 

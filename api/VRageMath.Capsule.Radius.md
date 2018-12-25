@@ -8,7 +8,5 @@ public float Radius
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

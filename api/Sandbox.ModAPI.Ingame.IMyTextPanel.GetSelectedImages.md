@@ -6,9 +6,3 @@
 public void GetSelectedImages(List<T> output)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

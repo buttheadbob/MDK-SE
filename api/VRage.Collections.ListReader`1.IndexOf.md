@@ -8,7 +8,5 @@ public int IndexOf(T item)
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

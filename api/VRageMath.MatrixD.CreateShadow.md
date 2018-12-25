@@ -10,9 +10,7 @@ Creates a Matrix that flattens geometry into a specified Plane as if casting a s
 
 ### Returns
 
-### Example
-
-### Remarks
+[MatrixD](VRageMath.MatrixD)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void CreateShadow(ref Vector3D lightDirection, ref Plane plane, ref Ma
 ```
 
 Fills in a Matrix to flatten geometry into a specified Plane as if casting a shadow from a specified light source.
-
-### Returns
-
-### Example
-
-### Remarks
 

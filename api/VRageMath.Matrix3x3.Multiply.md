@@ -8,12 +8,6 @@ public void Multiply(ref Matrix3x3 matrix1, ref Matrix3x3 matrix2, ref Matrix
 
 Multiplies a matrix by another matrix.
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
@@ -21,10 +15,4 @@ public void Multiply(ref Matrix3x3 matrix1, float scaleFactor, ref Matrix3x3 r
 ```
 
 Multiplies a matrix by a scalar value.
-
-### Returns
-
-### Example
-
-### Remarks
 

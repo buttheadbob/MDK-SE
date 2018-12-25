@@ -10,7 +10,5 @@ The component stockpile is empty (no build components)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

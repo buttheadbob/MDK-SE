@@ -10,9 +10,7 @@ Calculate the monotonic cosine of a value. Monotonic cosine is an alternative co
 
 ### Returns
 
+[float](System.Single)
+
 The cosine of the angle if it is > 0, 2 - that value otherwise.
-
-### Example
-
-### Remarks
 

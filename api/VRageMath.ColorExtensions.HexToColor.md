@@ -8,7 +8,5 @@ public Color HexToColor(string hex)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Color](VRageMath.Color)
 

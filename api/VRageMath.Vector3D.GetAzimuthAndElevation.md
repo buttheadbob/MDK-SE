@@ -6,9 +6,3 @@
 public void GetAzimuthAndElevation(Vector3D v, ref double azimuth, ref double elevation)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

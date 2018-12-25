@@ -10,9 +10,7 @@ Returns a vector pointing in the opposite direction.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector4D](VRageMath.Vector4D)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void Negate(ref Vector4D value, ref Vector4D result)
 ```
 
 Returns a vector pointing in the opposite direction.
-
-### Returns
-
-### Example
-
-### Remarks
 

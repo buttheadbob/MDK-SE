@@ -8,9 +8,3 @@ public void ClearWaypoints()
 
 Removes all existing waypoints.
 
-### Returns
-
-### Example
-
-### Remarks
-

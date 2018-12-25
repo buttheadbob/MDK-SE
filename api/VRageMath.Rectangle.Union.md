@@ -10,9 +10,7 @@ Creates a new Rectangle that exactly contains two other rectangles.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Rectangle](VRageMath.Rectangle)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void Union(ref Rectangle value1, ref Rectangle value2, ref Rectangle r
 ```
 
 Creates a new Rectangle that exactly contains two other rectangles.
-
-### Returns
-
-### Example
-
-### Remarks
 

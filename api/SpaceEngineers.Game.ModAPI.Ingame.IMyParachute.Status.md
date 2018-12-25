@@ -10,7 +10,5 @@ Determines the current general status of the door.
 
 ### Returns
 
-### Example
-
-### Remarks
+[DoorStatus](Sandbox.ModAPI.Ingame.DoorStatus)
 

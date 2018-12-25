@@ -10,7 +10,5 @@ Specifies the z-value of the vector component of the quaternion.
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

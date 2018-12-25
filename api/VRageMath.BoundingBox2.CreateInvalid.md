@@ -8,7 +8,5 @@ public BoundingBox2 CreateInvalid()
 
 ### Returns
 
-### Example
-
-### Remarks
+[BoundingBox2](VRageMath.BoundingBox2)
 

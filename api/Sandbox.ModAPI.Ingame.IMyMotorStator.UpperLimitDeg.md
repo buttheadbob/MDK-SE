@@ -10,7 +10,5 @@ Gets or sets the upper angle limit of the rotor in degrees. Set to float.MaxValu
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

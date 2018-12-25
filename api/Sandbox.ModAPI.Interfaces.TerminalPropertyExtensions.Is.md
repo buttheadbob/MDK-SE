@@ -8,7 +8,5 @@ public bool Is<TValue>(ITerminalProperty property)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

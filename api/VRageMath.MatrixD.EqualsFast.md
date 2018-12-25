@@ -10,7 +10,5 @@ Compares just position, forward and up
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

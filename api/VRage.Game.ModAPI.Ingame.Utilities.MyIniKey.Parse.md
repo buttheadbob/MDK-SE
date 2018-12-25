@@ -10,9 +10,7 @@ Parses a string in the form of`section/key`into a [MyIniKey](VRage.Game.ModAPI.I
 
 ### Returns
 
+[MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey)
 
 
-### Example
-
-### Remarks
 

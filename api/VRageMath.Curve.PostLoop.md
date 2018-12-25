@@ -10,7 +10,5 @@ Specifies how to handle weighting values that are greater than the last control 
 
 ### Returns
 
-### Example
-
-### Remarks
+[CurveLoopType](VRageMath.CurveLoopType)
 

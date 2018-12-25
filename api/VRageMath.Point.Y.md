@@ -10,7 +10,5 @@ Specifies the y-coordinate of the Point.
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

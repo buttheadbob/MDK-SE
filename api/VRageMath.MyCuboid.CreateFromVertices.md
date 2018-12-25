@@ -6,9 +6,3 @@
 public void CreateFromVertices(Vector3[] vertices)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

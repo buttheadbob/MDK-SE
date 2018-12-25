@@ -8,7 +8,5 @@ public object Value
 
 ### Returns
 
-### Example
-
-### Remarks
+[object](System.Object)
 

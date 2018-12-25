@@ -10,7 +10,5 @@ Gets if the timer block is active and counting down
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

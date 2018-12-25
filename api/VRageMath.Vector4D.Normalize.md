@@ -8,12 +8,6 @@ public void Normalize()
 
 Turns the current vector into a unit vector.
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
@@ -24,9 +18,7 @@ Creates a unit vector from the specified vector.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector4D](VRageMath.Vector4D)
 
 ### Summary
 
@@ -35,10 +27,4 @@ public void Normalize(ref Vector4D vector, ref Vector4D result)
 ```
 
 Returns a normalized version of the specified vector.
-
-### Returns
-
-### Example
-
-### Remarks
 

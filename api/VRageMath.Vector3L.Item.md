@@ -8,7 +8,5 @@ public long Item { get; set; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[long](System.Int64)
 

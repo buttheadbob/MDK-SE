@@ -8,7 +8,5 @@ public bool IsLocked { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

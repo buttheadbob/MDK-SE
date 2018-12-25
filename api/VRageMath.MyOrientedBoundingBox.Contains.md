@@ -8,9 +8,7 @@ public ContainmentType Contains(ref BoundingBox box)
 
 ### Returns
 
-### Example
-
-### Remarks
+[ContainmentType](VRageMath.ContainmentType)
 
 ### Summary
 
@@ -20,9 +18,7 @@ public ContainmentType Contains(ref BoundingBox boxA, ref MyOrientedBoundingBo
 
 ### Returns
 
-### Example
-
-### Remarks
+[ContainmentType](VRageMath.ContainmentType)
 
 ### Summary
 
@@ -32,9 +28,7 @@ public ContainmentType Contains(ref MyOrientedBoundingBox other)
 
 ### Returns
 
-### Example
-
-### Remarks
+[ContainmentType](VRageMath.ContainmentType)
 
 ### Summary
 
@@ -44,9 +38,7 @@ public ContainmentType Contains(BoundingFrustum frustum)
 
 ### Returns
 
-### Example
-
-### Remarks
+[ContainmentType](VRageMath.ContainmentType)
 
 ### Summary
 
@@ -56,9 +48,7 @@ public ContainmentType Contains(BoundingFrustum frustum, ref MyOrientedBounding
 
 ### Returns
 
-### Example
-
-### Remarks
+[ContainmentType](VRageMath.ContainmentType)
 
 ### Summary
 
@@ -68,9 +58,7 @@ public ContainmentType Contains(ref BoundingSphere sphere)
 
 ### Returns
 
-### Example
-
-### Remarks
+[ContainmentType](VRageMath.ContainmentType)
 
 ### Summary
 
@@ -80,9 +68,7 @@ public ContainmentType Contains(ref BoundingSphere sphere, ref MyOrientedBound
 
 ### Returns
 
-### Example
-
-### Remarks
+[ContainmentType](VRageMath.ContainmentType)
 
 ### Summary
 
@@ -92,7 +78,5 @@ public bool Contains(ref Vector3 point)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

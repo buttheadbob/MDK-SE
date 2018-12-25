@@ -8,9 +8,7 @@ public Vector3 ToGray(Vector3 c)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public Vector4 ToGray(Vector4 c)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector4](VRageMath.Vector4)
 

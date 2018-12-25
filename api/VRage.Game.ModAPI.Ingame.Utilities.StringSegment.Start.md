@@ -8,7 +8,5 @@ public int Start
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

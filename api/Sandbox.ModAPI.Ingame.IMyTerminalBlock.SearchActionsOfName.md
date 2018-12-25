@@ -6,9 +6,3 @@
 public void SearchActionsOfName(string name, List<T> resultList, Func<T, TResult> collect)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

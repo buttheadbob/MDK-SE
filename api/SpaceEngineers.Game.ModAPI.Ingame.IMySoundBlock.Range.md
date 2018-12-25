@@ -10,7 +10,5 @@ Gets or sets the range the sound is audible.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

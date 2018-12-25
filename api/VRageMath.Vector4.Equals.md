@@ -10,9 +10,7 @@ Determines whether the specified Object is equal to the Vector4.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -24,7 +22,5 @@ Returns a value that indicates whether the current instance is equal to a specif
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

@@ -10,11 +10,9 @@ Gets any comment that might be associated with the given key. Returns`null`if th
 
 ### Returns
 
+[string](System.String)
 
 
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -26,9 +24,7 @@ Gets any comment that might be associated with the given key. Returns`null`if th
 
 ### Returns
 
+[string](System.String)
 
 
-### Example
-
-### Remarks
 

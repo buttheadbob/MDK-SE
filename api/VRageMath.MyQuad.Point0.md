@@ -8,7 +8,5 @@ public Vector3 Point0
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 

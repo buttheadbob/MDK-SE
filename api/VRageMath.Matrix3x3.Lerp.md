@@ -8,9 +8,3 @@ public void Lerp(ref Matrix3x3 matrix1, ref Matrix3x3 matrix2, float amount, r
 
 Linearly interpolates between the corresponding values of two matrices.
 
-### Returns
-
-### Example
-
-### Remarks
-

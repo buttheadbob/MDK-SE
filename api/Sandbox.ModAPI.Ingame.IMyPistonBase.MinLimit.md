@@ -10,7 +10,5 @@ Gets or sets the minimum position the piston can retract to. See [LowestPosition
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

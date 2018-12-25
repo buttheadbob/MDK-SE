@@ -10,9 +10,7 @@ Divides the components of a vector by the components of another vector.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector2](VRageMath.Vector2)
 
 ### Summary
 
@@ -21,12 +19,6 @@ public void Divide(ref Vector2 value1, ref Vector2 value2, ref Vector2 result
 ```
 
 Divides the components of a vector by the components of another vector.
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -38,9 +30,7 @@ Divides a vector by a scalar value.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector2](VRageMath.Vector2)
 
 ### Summary
 
@@ -49,10 +39,4 @@ public void Divide(ref Vector2 value1, float divider, ref Vector2 result)
 ```
 
 Divides a vector by a scalar value.
-
-### Returns
-
-### Example
-
-### Remarks
 

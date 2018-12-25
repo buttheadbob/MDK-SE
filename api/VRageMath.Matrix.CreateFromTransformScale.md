@@ -8,7 +8,5 @@ public Matrix CreateFromTransformScale(Quaternion orientation, Vector3 position,
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 

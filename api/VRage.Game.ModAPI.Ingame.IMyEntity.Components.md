@@ -8,7 +8,5 @@ public MyEntityComponentContainer Components { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyEntityComponentContainer](VRage.Game.Components.MyEntityComponentContainer)
 

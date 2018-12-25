@@ -8,9 +8,3 @@ public void Subtract(ref Matrix3x3 matrix1, ref Matrix3x3 matrix2, ref Matrix
 
 Subtracts matrices.
 
-### Returns
-
-### Example
-
-### Remarks
-

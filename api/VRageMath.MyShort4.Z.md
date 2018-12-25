@@ -8,7 +8,5 @@ public short Z
 
 ### Returns
 
-### Example
-
-### Remarks
+[short](System.Int16)
 

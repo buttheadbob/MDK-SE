@@ -10,9 +10,7 @@ Returns a matrix that can be used to rotate a set of vertices around the x-axis.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix3x3](VRageMath.Matrix3x3)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void CreateRotationX(float radians, ref Matrix3x3 result)
 ```
 
 Populates data into a user-specified matrix that can be used to rotate a set of vertices around the x-axis.
-
-### Returns
-
-### Example
-
-### Remarks
 

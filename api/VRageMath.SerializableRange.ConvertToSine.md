@@ -8,7 +8,5 @@ public SerializableRange ConvertToSine()
 
 ### Returns
 
-### Example
-
-### Remarks
+[SerializableRange](VRageMath.SerializableRange)
 

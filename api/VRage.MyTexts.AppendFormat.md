@@ -8,7 +8,5 @@ public StringBuilder AppendFormat(StringBuilder stringBuilder, MyStringId textEn
 
 ### Returns
 
-### Example
-
-### Remarks
+[StringBuilder](System.Text.StringBuilder)
 

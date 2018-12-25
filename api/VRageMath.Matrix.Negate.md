@@ -10,9 +10,7 @@ Negates individual elements of a matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void Negate(ref Matrix matrix, ref Matrix result)
 ```
 
 Negates individual elements of a matrix.
-
-### Returns
-
-### Example
-
-### Remarks
 

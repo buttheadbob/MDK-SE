@@ -6,9 +6,3 @@
 public void SetShowOnScreen(ShowTextOnScreenFlag set)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

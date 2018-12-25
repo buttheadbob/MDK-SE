@@ -8,7 +8,5 @@ public T GetUserData<T>(int proxyId)
 
 ### Returns
 
-### Example
-
-### Remarks
+[T]()
 

@@ -10,9 +10,7 @@ How many cubes are in block with this size
 
 ### Returns
 
+[long](System.Int64)
 
 
-### Example
-
-### Remarks
 

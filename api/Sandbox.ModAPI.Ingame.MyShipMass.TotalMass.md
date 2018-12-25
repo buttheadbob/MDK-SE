@@ -10,7 +10,5 @@ Gets the total mass of the ship, including cargo.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

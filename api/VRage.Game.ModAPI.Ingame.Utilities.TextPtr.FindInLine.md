@@ -8,7 +8,5 @@ public TextPtr FindInLine(char ch)
 
 ### Returns
 
-### Example
-
-### Remarks
+[TextPtr](VRage.Game.ModAPI.Ingame.Utilities.TextPtr)
 

@@ -10,7 +10,5 @@ Specifies the rotation component of the quaternion.
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

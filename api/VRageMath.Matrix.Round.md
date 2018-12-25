@@ -8,7 +8,5 @@ public Matrix Round(ref Matrix matrix)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 

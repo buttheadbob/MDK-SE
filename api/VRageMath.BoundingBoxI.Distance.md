@@ -10,7 +10,5 @@ Checks whether the current BoundingBoxI intersects a BoundingSphere.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

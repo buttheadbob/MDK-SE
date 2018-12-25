@@ -10,9 +10,7 @@ Checks whether the current Plane intersects a specified BoundingBox.
 
 ### Returns
 
-### Example
-
-### Remarks
+[PlaneIntersectionType](VRageMath.PlaneIntersectionType)
 
 ### Summary
 
@@ -21,12 +19,6 @@ public void Intersects(ref BoundingBox box, ref PlaneIntersectionType result)
 ```
 
 Checks whether the current Plane intersects a BoundingBox.
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -38,9 +30,7 @@ Checks whether the current Plane intersects a specified BoundingFrustum.
 
 ### Returns
 
-### Example
-
-### Remarks
+[PlaneIntersectionType](VRageMath.PlaneIntersectionType)
 
 ### Summary
 
@@ -52,9 +42,7 @@ Checks whether the current Plane intersects a specified BoundingSphere.
 
 ### Returns
 
-### Example
-
-### Remarks
+[PlaneIntersectionType](VRageMath.PlaneIntersectionType)
 
 ### Summary
 
@@ -63,10 +51,4 @@ public void Intersects(ref BoundingSphere sphere, ref PlaneIntersectionType re
 ```
 
 Checks whether the current Plane intersects a BoundingSphere.
-
-### Returns
-
-### Example
-
-### Remarks
 

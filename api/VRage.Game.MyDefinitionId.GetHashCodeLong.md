@@ -10,9 +10,7 @@ Safer hash code. It is unique in more situations than GetHashCode would be, but 
 
 ### Returns
 
+[long](System.Int64)
+
 64-bit hash code.
-
-### Example
-
-### Remarks
 

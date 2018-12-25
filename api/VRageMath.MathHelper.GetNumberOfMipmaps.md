@@ -8,7 +8,5 @@ public int GetNumberOfMipmaps(int v)
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

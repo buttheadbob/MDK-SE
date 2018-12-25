@@ -10,9 +10,7 @@ Creates the smallest BoundingBox2I that contains the two specified BoundingBox2I
 
 ### Returns
 
-### Example
-
-### Remarks
+[BoundingBox2I](VRageMath.BoundingBox2I)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void CreateMerged(ref BoundingBox2I original, ref BoundingBox2I additio
 ```
 
 Creates the smallest BoundingBox2I that contains the two specified BoundingBox2I instances.
-
-### Returns
-
-### Example
-
-### Remarks
 

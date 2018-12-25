@@ -10,9 +10,7 @@ Calculates the dot product of two vectors.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void Dot(ref Vector4 vector1, ref Vector4 vector2, ref float result)
 ```
 
 Calculates the dot product of two vectors.
-
-### Returns
-
-### Example
-
-### Remarks
 

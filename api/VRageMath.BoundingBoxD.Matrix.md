@@ -10,7 +10,5 @@ Matrix of AABB, respection center and size
 
 ### Returns
 
-### Example
-
-### Remarks
+[MatrixD](VRageMath.MatrixD)
 

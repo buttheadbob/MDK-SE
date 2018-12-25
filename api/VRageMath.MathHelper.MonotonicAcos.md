@@ -8,7 +8,5 @@ public float MonotonicAcos(float cos)
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

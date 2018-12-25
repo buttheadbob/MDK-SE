@@ -8,7 +8,5 @@ public IMyInventory GetInventory(int index)
 
 ### Returns
 
-### Example
-
-### Remarks
+[IMyInventory](VRage.Game.ModAPI.Ingame.IMyInventory)
 

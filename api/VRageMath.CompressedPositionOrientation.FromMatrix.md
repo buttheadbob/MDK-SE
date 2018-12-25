@@ -6,9 +6,3 @@
 public void FromMatrix(ref Matrix matrix)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

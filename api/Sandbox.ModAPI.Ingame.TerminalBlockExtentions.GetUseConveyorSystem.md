@@ -8,7 +8,5 @@ public bool GetUseConveyorSystem(IMyTerminalBlock block)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

@@ -10,7 +10,5 @@ Calculates the length of the vector squared.
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

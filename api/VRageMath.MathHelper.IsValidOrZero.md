@@ -8,7 +8,5 @@ public bool IsValidOrZero(Matrix matrix)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

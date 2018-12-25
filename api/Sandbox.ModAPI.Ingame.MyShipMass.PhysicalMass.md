@@ -10,7 +10,5 @@ Gets the physical mass of the ship, which accounts for inventory multiplier.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

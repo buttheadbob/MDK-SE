@@ -8,7 +8,5 @@ public virtual float CurrentInputByType(MyDefinitionId resourceTypeId)
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

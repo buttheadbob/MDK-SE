@@ -10,7 +10,5 @@ Current output of solar panel in Megawatts
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

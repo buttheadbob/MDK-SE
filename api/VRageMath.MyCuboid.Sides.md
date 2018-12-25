@@ -8,7 +8,5 @@ public MyCuboidSide[] Sides
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyCuboidSide[]](VRageMath.MyCuboidSide[])
 

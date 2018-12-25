@@ -10,7 +10,5 @@ Gets current air vent status
 
 ### Returns
 
-### Example
-
-### Remarks
+[VentStatus](SpaceEngineers.Game.ModAPI.Ingame.VentStatus)
 

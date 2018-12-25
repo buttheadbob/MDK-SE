@@ -10,9 +10,7 @@ Returns bounding box which is intersection of this and box It's called 'Prunik' 
 
 ### Returns
 
-### Example
-
-### Remarks
+[BoundingBoxD](VRageMath.BoundingBoxD)
 
 ### Summary
 
@@ -22,9 +20,7 @@ public bool Intersect(ref LineD line, ref LineD intersectedLine)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -34,9 +30,7 @@ public bool Intersect(ref LineD line, ref double t1, ref double t2)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -46,7 +40,5 @@ public bool Intersect(ref RayD ray, ref double tmin, ref double tmax)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

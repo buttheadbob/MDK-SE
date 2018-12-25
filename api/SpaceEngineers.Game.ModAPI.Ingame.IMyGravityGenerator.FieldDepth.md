@@ -8,7 +8,5 @@ public float FieldDepth { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

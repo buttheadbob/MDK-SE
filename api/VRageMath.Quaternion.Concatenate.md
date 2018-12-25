@@ -10,9 +10,7 @@ Concatenates two Quaternions; the result represents the value1 rotation followed
 
 ### Returns
 
-### Example
-
-### Remarks
+[Quaternion](VRageMath.Quaternion)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void Concatenate(ref Quaternion value1, ref Quaternion value2, ref Qua
 ```
 
 Concatenates two Quaternions; the result represents the value1 rotation followed by the value2 rotation.
-
-### Returns
-
-### Example
-
-### Remarks
 

@@ -10,7 +10,5 @@ Radius of the gravity field, in meters
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

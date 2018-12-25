@@ -8,7 +8,5 @@ public bool IsEmpty { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

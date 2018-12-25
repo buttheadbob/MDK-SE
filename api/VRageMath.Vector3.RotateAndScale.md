@@ -6,12 +6,6 @@
 public void RotateAndScale(ref Vector3 vector, ref Matrix matrix, ref Vector3 result)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
@@ -20,7 +14,5 @@ public Vector3 RotateAndScale(Vector3 vector, Matrix matrix)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 

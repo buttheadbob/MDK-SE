@@ -10,9 +10,7 @@ Gets the hash code for this [MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilitie
 
 ### Returns
 
+[int](System.Int32)
 
 
-### Example
-
-### Remarks
 

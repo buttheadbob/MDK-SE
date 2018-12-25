@@ -10,7 +10,5 @@ Gets the gravity acceleration
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

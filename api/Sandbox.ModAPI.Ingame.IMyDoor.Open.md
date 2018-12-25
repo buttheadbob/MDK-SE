@@ -10,7 +10,5 @@ Indicates whether door is opened or closed. True when door is opened.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

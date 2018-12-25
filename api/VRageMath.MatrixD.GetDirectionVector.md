@@ -8,7 +8,5 @@ public Vector3D GetDirectionVector(Direction direction)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3D](VRageMath.Vector3D)
 

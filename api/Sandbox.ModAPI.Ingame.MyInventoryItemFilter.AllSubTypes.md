@@ -10,7 +10,5 @@ Determines whether all subtypes of the given item ID should pass this filter che
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

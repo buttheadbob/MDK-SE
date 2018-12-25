@@ -8,7 +8,5 @@ public string GetPrivateText()
 
 ### Returns
 
-### Example
-
-### Remarks
+[string](System.String)
 

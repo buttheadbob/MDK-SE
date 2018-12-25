@@ -10,7 +10,5 @@ Tag of faction owning block
 
 ### Returns
 
-### Example
-
-### Remarks
+[string](System.String)
 

@@ -10,9 +10,7 @@ Adds a matrix to another matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void Add(ref Matrix matrix1, ref Matrix matrix2, ref Matrix result)
 ```
 
 Adds a matrix to another matrix.
-
-### Returns
-
-### Example
-
-### Remarks
 

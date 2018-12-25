@@ -10,7 +10,5 @@ Gets or sets the current state of the handbrake.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

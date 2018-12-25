@@ -8,7 +8,5 @@ public byte Item { get; set; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[byte](System.Byte)
 

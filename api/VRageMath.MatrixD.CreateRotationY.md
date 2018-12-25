@@ -10,9 +10,7 @@ Returns a matrix that can be used to rotate a set of vertices around the y-axis.
 
 ### Returns
 
-### Example
-
-### Remarks
+[MatrixD](VRageMath.MatrixD)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void CreateRotationY(double radians, ref MatrixD result)
 ```
 
 Populates data into a user-specified matrix that can be used to rotate a set of vertices around the y-axis.
-
-### Returns
-
-### Example
-
-### Remarks
 

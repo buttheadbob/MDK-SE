@@ -8,7 +8,5 @@ public bool IsValid { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

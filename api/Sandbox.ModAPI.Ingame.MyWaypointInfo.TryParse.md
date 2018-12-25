@@ -12,9 +12,7 @@ A GPS coordinate has the format GPS:Name:X:Y:Z:
 
 ### Returns
 
+[bool](System.Boolean)
 
 
-### Example
-
-### Remarks
 

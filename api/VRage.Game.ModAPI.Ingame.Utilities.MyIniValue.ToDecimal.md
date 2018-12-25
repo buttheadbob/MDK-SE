@@ -10,9 +10,7 @@ Attempts to get this value as a [System.Decimal](https://docs.microsoft.com/en-u
 
 ### Returns
 
+[decimal](System.Decimal)
 
 
-### Example
-
-### Remarks
 

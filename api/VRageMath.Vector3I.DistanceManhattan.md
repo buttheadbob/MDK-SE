@@ -10,7 +10,5 @@ Manhattan distance (cube distance) X + Y + Z of Abs(first - second)
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

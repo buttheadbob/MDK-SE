@@ -10,7 +10,5 @@ Returns true if this matrix represents invertible (you can call Invert on it) li
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

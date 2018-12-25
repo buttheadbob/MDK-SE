@@ -10,7 +10,5 @@ Gets the input inventory.
 
 ### Returns
 
-### Example
-
-### Remarks
+[IMyInventory](VRage.Game.ModAPI.Ingame.IMyInventory)
 

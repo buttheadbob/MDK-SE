@@ -8,7 +8,5 @@ public DefinitionIdComparerType Comparer
 
 ### Returns
 
-### Example
-
-### Remarks
+[DefinitionIdComparerType](VRage.Game.MyDefinitionId+DefinitionIdComparerType)
 

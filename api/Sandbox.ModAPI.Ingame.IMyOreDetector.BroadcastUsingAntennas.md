@@ -8,7 +8,5 @@ public bool BroadcastUsingAntennas { get; set; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

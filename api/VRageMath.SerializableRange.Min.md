@@ -8,7 +8,5 @@ public float Min
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

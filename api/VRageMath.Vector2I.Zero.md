@@ -8,7 +8,5 @@ public Vector2I Zero
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector2I](VRageMath.Vector2I)
 

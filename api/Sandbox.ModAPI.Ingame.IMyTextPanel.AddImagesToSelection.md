@@ -6,9 +6,3 @@
 public void AddImagesToSelection(List<T> ids, bool checkExistence)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

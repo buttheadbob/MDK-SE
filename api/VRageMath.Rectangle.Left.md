@@ -10,7 +10,5 @@ Returns the x-coordinate of the left side of the rectangle.
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

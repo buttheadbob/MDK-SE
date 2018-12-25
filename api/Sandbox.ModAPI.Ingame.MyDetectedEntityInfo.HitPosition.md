@@ -10,7 +10,5 @@ Position where the raycast hit the entity. (can be null if the sensor didn't use
 
 ### Returns
 
-### Example
-
-### Remarks
+[Nullable<T>](System.Nullable`1)
 

@@ -10,7 +10,5 @@ Relationship between the entity and the owner of the sensor
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyRelationsBetweenPlayerAndBlock](VRage.Game.MyRelationsBetweenPlayerAndBlock)
 

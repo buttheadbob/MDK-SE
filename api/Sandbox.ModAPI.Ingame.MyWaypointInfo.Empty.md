@@ -10,7 +10,5 @@ Returns an empty (undefined) GPS coordinate
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyWaypointInfo](Sandbox.ModAPI.Ingame.MyWaypointInfo)
 

@@ -3,14 +3,12 @@
 ### Summary
 
 ```csharp
-public ItemCollection Items { get; private set; }
+public ItemCollection Items { get; }
 ```
 
 Contains all items, both arguments and switches
 
 ### Returns
 
-### Example
-
-### Remarks
+[ItemCollection](VRage.Game.ModAPI.Ingame.Utilities.MyCommandLine+ItemCollection)
 

@@ -8,7 +8,5 @@ public IEnumerable<T> Vertices { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[IEnumerable<T>](System.Collections.Generic.IEnumerable`1)
 

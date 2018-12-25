@@ -8,7 +8,5 @@ public bool IsNull()
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

@@ -10,9 +10,7 @@ Checks whether the current BoundingFrustumD intersects the specified BoundingBox
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -21,12 +19,6 @@ public void Intersects(ref BoundingBoxD box, ref bool result)
 ```
 
 Checks whether the current BoundingFrustumD intersects a BoundingBoxD.
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -38,9 +30,7 @@ Checks whether the current BoundingFrustumD intersects the specified BoundingFru
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -52,9 +42,7 @@ Checks whether the current BoundingFrustumD intersects the specified Plane.
 
 ### Returns
 
-### Example
-
-### Remarks
+[PlaneIntersectionType](VRageMath.PlaneIntersectionType)
 
 ### Summary
 
@@ -63,12 +51,6 @@ public void Intersects(ref PlaneD plane, ref PlaneIntersectionType result)
 ```
 
 Checks whether the current BoundingFrustumD intersects a Plane.
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -80,21 +62,13 @@ Checks whether the current BoundingFrustumD intersects the specified Ray.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Nullable<T>](System.Nullable`1)
 
 ### Summary
 
 ```csharp
 public void Intersects(ref RayD ray, ref Nullable<T> result)
 ```
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -106,9 +80,7 @@ Checks whether the current BoundingFrustumD intersects the specified BoundingSph
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -117,10 +89,4 @@ public void Intersects(ref BoundingSphereD sphere, ref bool result)
 ```
 
 Checks whether the current BoundingFrustumD intersects a BoundingSphere.
-
-### Returns
-
-### Example
-
-### Remarks
 

@@ -10,7 +10,5 @@ Enum describing the type of entity
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyDetectedEntityType](Sandbox.ModAPI.Ingame.MyDetectedEntityType)
 

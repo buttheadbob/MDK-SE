@@ -10,9 +10,7 @@ Attempts to parse the given string as a command line
 
 ### Returns
 
+[bool](System.Boolean)
+
 `true`if there were arguments in the string,`false`otherwise
-
-### Example
-
-### Remarks
 

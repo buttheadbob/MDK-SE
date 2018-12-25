@@ -8,7 +8,5 @@ public bool DisassembleEnabled { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

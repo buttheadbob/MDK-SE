@@ -10,11 +10,9 @@ Does a raycast in the direction the camera is facing. Pitch and Yaw are in degre
 
 ### Returns
 
+[MyDetectedEntityInfo](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo)
 
 
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -26,11 +24,9 @@ Does a raycast to the given point. Will return an empty struct if distance or an
 
 ### Returns
 
+[MyDetectedEntityInfo](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo)
 
 
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -42,9 +38,7 @@ Does a raycast in the given direction. Will return an empty struct if distance o
 
 ### Returns
 
+[MyDetectedEntityInfo](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo)
 
 
-### Example
-
-### Remarks
 

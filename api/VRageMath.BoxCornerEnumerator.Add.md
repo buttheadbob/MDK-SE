@@ -6,9 +6,3 @@
 public void Add(object tmp)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

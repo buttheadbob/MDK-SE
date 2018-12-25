@@ -8,7 +8,5 @@ public BoundingSphere Translate(ref Vector3 translation)
 
 ### Returns
 
-### Example
-
-### Remarks
+[BoundingSphere](VRageMath.BoundingSphere)
 

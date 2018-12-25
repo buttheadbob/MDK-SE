@@ -8,7 +8,5 @@ public byte Z
 
 ### Returns
 
-### Example
-
-### Remarks
+[byte](System.Byte)
 

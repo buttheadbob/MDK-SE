@@ -10,11 +10,9 @@ return expanded aabb (abb include point)
 
 ### Returns
 
+[BoundingBox2I](VRageMath.BoundingBox2I)
 
 
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -24,9 +22,7 @@ public BoundingBox2I Include(Vector2I point)
 
 ### Returns
 
-### Example
-
-### Remarks
+[BoundingBox2I](VRageMath.BoundingBox2I)
 
 ### Summary
 
@@ -36,9 +32,7 @@ public BoundingBox2I Include(Vector2I p0, Vector2I p1, Vector2I p2)
 
 ### Returns
 
-### Example
-
-### Remarks
+[BoundingBox2I](VRageMath.BoundingBox2I)
 
 ### Summary
 
@@ -48,9 +42,7 @@ public BoundingBox2I Include(ref Vector2I p0, ref Vector2I p1, ref Vector2I p
 
 ### Returns
 
-### Example
-
-### Remarks
+[BoundingBox2I](VRageMath.BoundingBox2I)
 
 ### Summary
 
@@ -62,11 +54,9 @@ return expanded aabb (abb include point)
 
 ### Returns
 
+[BoundingBox2I](VRageMath.BoundingBox2I)
 
 
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -76,7 +66,5 @@ public BoundingBox2I Include(BoundingBox2I box)
 
 ### Returns
 
-### Example
-
-### Remarks
+[BoundingBox2I](VRageMath.BoundingBox2I)
 

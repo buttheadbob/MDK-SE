@@ -10,9 +10,7 @@ Gets an array of points that make up the corners of the BoundingFrustumD. ALLOCA
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3D[]](VRageMath.Vector3D[])
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void GetCorners(Vector3D[] corners)
 ```
 
 Gets an array of points that make up the corners of the BoundingFrustumD.
-
-### Returns
-
-### Example
-
-### Remarks
 

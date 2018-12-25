@@ -10,7 +10,5 @@ Use this for HSV in DX11 Renderer, X = Hue 0..1, Y = Saturation -1..1, Z = Value
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 

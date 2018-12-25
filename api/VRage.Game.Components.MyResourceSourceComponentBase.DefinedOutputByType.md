@@ -10,7 +10,5 @@ Max resource output defined in definition in MW or litres/h.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

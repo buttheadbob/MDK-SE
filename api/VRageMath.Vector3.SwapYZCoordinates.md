@@ -8,7 +8,5 @@ public Vector3 SwapYZCoordinates(Vector3 v)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 

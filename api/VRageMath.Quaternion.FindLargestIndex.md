@@ -8,7 +8,5 @@ public int FindLargestIndex()
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

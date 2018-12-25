@@ -6,9 +6,3 @@
 public void DetectedEntities(List<T> entities)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

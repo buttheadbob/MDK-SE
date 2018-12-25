@@ -10,7 +10,5 @@ Gets or sets whether dampeners are currently enabled.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

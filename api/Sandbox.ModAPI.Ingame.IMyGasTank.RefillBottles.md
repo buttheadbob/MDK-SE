@@ -8,9 +8,3 @@ public void RefillBottles()
 
 Refills any stored storage bottles.
 
-### Returns
-
-### Example
-
-### Remarks
-

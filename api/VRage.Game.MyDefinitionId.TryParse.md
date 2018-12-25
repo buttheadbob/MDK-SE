@@ -10,11 +10,9 @@ Attempts to create a definition ID from a definition string, which has the form 
 
 ### Returns
 
+[bool](System.Boolean)
 
 
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -24,7 +22,5 @@ public bool TryParse(string type, string subtype, ref MyDefinitionId definition
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

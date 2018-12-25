@@ -8,7 +8,5 @@ public SymmetricSerializableRange ConvertToSine()
 
 ### Returns
 
-### Example
-
-### Remarks
+[SymmetricSerializableRange](VRageMath.SymmetricSerializableRange)
 

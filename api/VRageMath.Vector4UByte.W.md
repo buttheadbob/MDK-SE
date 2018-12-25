@@ -8,7 +8,5 @@ public byte W
 
 ### Returns
 
-### Example
-
-### Remarks
+[byte](System.Byte)
 

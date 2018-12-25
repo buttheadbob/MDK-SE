@@ -8,7 +8,5 @@ public bool Contains<T>(T[] array, T element)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

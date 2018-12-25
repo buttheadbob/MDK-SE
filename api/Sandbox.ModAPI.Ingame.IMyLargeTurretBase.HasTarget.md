@@ -10,7 +10,5 @@ Checks if the turret is locked onto a target
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

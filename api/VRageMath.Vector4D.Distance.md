@@ -10,9 +10,7 @@ Calculates the distance between two vectors.
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void Distance(ref Vector4 value1, ref Vector4 value2, ref double resul
 ```
 
 Calculates the distance between two vectors.
-
-### Returns
-
-### Example
-
-### Remarks
 

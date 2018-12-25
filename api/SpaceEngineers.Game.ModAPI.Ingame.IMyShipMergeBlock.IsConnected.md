@@ -10,7 +10,5 @@ Gets if the merge block is connected to another one.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

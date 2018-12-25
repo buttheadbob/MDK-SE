@@ -10,7 +10,5 @@ This programmable block is currently running its program.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

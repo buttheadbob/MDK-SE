@@ -10,9 +10,7 @@ Translates and scales the BoundingSphere using a given Matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[BoundingSphere](VRageMath.BoundingSphere)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void Transform(ref Matrix matrix, ref BoundingSphere result)
 ```
 
 Translates and scales the BoundingSphere using a given Matrix.
-
-### Returns
-
-### Example
-
-### Remarks
 

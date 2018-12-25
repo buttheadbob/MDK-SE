@@ -10,7 +10,5 @@ Gets the connector this one is connected to when [Status](Sandbox.ModAPI.Ingame.
 
 ### Returns
 
-### Example
-
-### Remarks
+[IMyShipConnector](Sandbox.ModAPI.Ingame.IMyShipConnector)
 

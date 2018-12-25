@@ -8,7 +8,5 @@ public int Encode(ref Vector3I value)
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

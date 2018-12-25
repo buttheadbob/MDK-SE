@@ -8,7 +8,5 @@ public SymmetricSerializableRange ConvertToCosineLongitude()
 
 ### Returns
 
-### Example
-
-### Remarks
+[SymmetricSerializableRange](VRageMath.SymmetricSerializableRange)
 

@@ -8,9 +8,3 @@ public void Cross(ref Vector3I vector1, ref Vector3I vector2, ref Vector3I re
 
 Calculates the cross product of two vectors.
 
-### Returns
-
-### Example
-
-### Remarks
-

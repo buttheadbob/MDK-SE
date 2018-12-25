@@ -8,7 +8,5 @@ public MyFixedPoint AddSafe(MyFixedPoint a, MyFixedPoint b)
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyFixedPoint](VRage.MyFixedPoint)
 

@@ -10,7 +10,5 @@ Gets and sets the right vector of the Matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 

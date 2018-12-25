@@ -8,7 +8,5 @@ public BoundingBoxD GetBoundingBox()
 
 ### Returns
 
-### Example
-
-### Remarks
+[BoundingBoxD](VRageMath.BoundingBoxD)
 

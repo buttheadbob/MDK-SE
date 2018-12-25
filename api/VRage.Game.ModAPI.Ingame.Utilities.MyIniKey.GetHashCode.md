@@ -10,9 +10,7 @@ Gets the hash code representing this [MyIniKey](VRage.Game.ModAPI.Ingame.Utiliti
 
 ### Returns
 
+[int](System.Int32)
 
 
-### Example
-
-### Remarks
 

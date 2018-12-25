@@ -6,9 +6,3 @@
 public void GetWaypointInfo(List<T> waypoints)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

@@ -6,9 +6,3 @@
 public void Scale(Vector3 scale)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

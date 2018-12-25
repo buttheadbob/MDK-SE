@@ -10,7 +10,5 @@ Suspension travel, value from 0 to 1.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

@@ -8,7 +8,5 @@ public ListReader<T> Empty
 
 ### Returns
 
-### Example
-
-### Remarks
+[ListReader<T>](VRage.Collections.ListReader`1)
 

@@ -10,7 +10,5 @@ Virtualmass weight
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

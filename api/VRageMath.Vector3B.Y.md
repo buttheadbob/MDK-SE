@@ -8,7 +8,5 @@ public sbyte Y
 
 ### Returns
 
-### Example
-
-### Remarks
+[sbyte](System.SByte)
 

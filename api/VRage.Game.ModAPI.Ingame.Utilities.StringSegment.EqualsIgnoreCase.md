@@ -8,7 +8,5 @@ public bool EqualsIgnoreCase(StringSegment other)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

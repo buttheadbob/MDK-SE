@@ -10,9 +10,7 @@ Checks whether the current BoundingBox intersects another BoundingBox.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -22,9 +20,7 @@ public bool Intersects(ref BoundingBoxD box)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -34,23 +30,11 @@ public void Intersects(ref BoundingBoxD box, ref bool result)
 
 Checks whether the current BoundingBox intersects another BoundingBox.
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
 public void Intersects(ref BoundingBox box, ref bool result)
 ```
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -62,9 +46,7 @@ Checks whether the current BoundingBox intersects a BoundingFrustum.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -76,9 +58,7 @@ Checks whether the current BoundingBox intersects a Plane.
 
 ### Returns
 
-### Example
-
-### Remarks
+[PlaneIntersectionType](VRageMath.PlaneIntersectionType)
 
 ### Summary
 
@@ -88,12 +68,6 @@ public void Intersects(ref PlaneD plane, ref PlaneIntersectionType result)
 
 Checks whether the current BoundingBox intersects a Plane.
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
@@ -102,9 +76,7 @@ public bool Intersects(ref LineD line)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -114,9 +86,7 @@ public bool Intersects(ref LineD line, ref double distance)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -126,9 +96,7 @@ public Nullable<T> Intersects(Ray ray)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Nullable<T>](System.Nullable`1)
 
 ### Summary
 
@@ -140,21 +108,13 @@ Checks whether the current BoundingBox intersects a Ray.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Nullable<T>](System.Nullable`1)
 
 ### Summary
 
 ```csharp
 public void Intersects(ref RayD ray, ref Nullable<T> result)
 ```
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -166,9 +126,7 @@ Checks whether the current BoundingBox intersects a BoundingSphere.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -178,12 +136,6 @@ public void Intersects(ref BoundingSphereD sphere, ref bool result)
 
 Checks whether the current BoundingBox intersects a BoundingSphere.
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
@@ -192,7 +144,5 @@ public bool Intersects(ref BoundingSphereD sphere)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

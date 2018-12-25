@@ -8,9 +8,3 @@ public void Disconnect()
 
 Disconnects this connector.
 
-### Returns
-
-### Example
-
-### Remarks
-

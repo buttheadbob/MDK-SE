@@ -6,12 +6,6 @@
 public void CreateFromTwoVectors(ref Vector3D firstVector, ref Vector3D secondVector, ref QuaternionD result)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
@@ -20,7 +14,5 @@ public QuaternionD CreateFromTwoVectors(Vector3D firstVector, Vector3D secondVec
 
 ### Returns
 
-### Example
-
-### Remarks
+[QuaternionD](VRageMath.QuaternionD)
 

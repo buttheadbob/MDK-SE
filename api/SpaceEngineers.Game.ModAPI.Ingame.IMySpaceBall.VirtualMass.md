@@ -10,7 +10,5 @@ Virtual mass of ball, in kg
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

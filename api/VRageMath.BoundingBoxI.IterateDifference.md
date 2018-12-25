@@ -10,9 +10,7 @@ Iterate every cell contained in {left} - {right}, where we interpret {box} as th
 
 ### Returns
 
+[IEnumerable<T>](System.Collections.Generic.IEnumerable`1)
 
 
-### Example
-
-### Remarks
 

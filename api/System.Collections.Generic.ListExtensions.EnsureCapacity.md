@@ -6,9 +6,3 @@
 public void EnsureCapacity<T>(List<T> list, int capacity)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

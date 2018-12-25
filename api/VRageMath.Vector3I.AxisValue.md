@@ -8,7 +8,5 @@ public int AxisValue(Axis axis)
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

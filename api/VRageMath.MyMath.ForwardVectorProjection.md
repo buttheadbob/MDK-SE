@@ -10,9 +10,7 @@ This projection results to initial velocity of non-engine objects, which parents
 
 ### Returns
 
+[Vector3](VRageMath.Vector3)
 
 
-### Example
-
-### Remarks
 

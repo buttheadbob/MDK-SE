@@ -8,7 +8,5 @@ public ComparerClass Comparer
 
 ### Returns
 
-### Example
-
-### Remarks
+[ComparerClass](VRageMath.Vector2I+ComparerClass)
 

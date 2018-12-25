@@ -8,7 +8,5 @@ public bool HasPlayerAccess(long playerId)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

@@ -6,9 +6,3 @@
 public void GetUpgradeList(ref List<T> upgrades)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

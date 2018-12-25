@@ -6,9 +6,3 @@
 public void SetUseConveyorSystem(IMyTerminalBlock block, bool use)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

@@ -10,7 +10,5 @@ Gets or sets the change interval for selected textures
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

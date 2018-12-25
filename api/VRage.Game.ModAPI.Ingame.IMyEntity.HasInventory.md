@@ -10,7 +10,5 @@ Returns true if this entity has got at least one inventory. Note that one aggreg
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

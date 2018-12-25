@@ -10,7 +10,5 @@ The normal vector of the PlaneD.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3D](VRageMath.Vector3D)
 

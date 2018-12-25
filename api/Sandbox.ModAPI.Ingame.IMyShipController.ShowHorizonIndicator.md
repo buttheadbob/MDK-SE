@@ -10,7 +10,5 @@ Gets or sets whether the horizon indicator should be displayed for this block.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

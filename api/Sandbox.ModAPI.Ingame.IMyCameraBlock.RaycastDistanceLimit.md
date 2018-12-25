@@ -10,7 +10,5 @@ Returns the maximum distance you can request a raycast. -1 means infinite.
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

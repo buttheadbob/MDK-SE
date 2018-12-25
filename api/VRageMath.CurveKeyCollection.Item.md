@@ -8,7 +8,5 @@ public CurveKey Item { get; set; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[CurveKey](VRageMath.CurveKey)
 

@@ -8,7 +8,5 @@ public Vector3 GetShortestVector(ref Line line1, ref Line line2, ref Vector3 
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 

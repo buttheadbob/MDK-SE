@@ -8,7 +8,5 @@ public MyFixedPoint Ceiling(MyFixedPoint a)
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyFixedPoint](VRage.MyFixedPoint)
 

@@ -10,7 +10,7 @@ Gets or sets the gravity field as a Vector3(W,H,D).
 
 ### Returns
 
-### Example
+[Vector3](VRageMath.Vector3)
 
 ### Remarks
 

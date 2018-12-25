@@ -8,7 +8,5 @@ public MyFixedPoint Zero
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyFixedPoint](VRage.MyFixedPoint)
 

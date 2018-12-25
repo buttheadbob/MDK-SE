@@ -10,7 +10,5 @@ Returns bounding box which is intersection of this and box It's called 'Prunik' 
 
 ### Returns
 
-### Example
-
-### Remarks
+[BoundingBox2](VRageMath.BoundingBox2)
 

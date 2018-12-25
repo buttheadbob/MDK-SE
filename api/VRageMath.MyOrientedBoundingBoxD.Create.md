@@ -8,7 +8,5 @@ public MyOrientedBoundingBoxD Create(BoundingBoxD boundingBox, MatrixD matrix)
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyOrientedBoundingBoxD](VRageMath.MyOrientedBoundingBoxD)
 

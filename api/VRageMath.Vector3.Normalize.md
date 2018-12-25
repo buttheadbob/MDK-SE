@@ -10,9 +10,7 @@ Turns the current vector into a unit vector. The result is a vector one unit in 
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 
 ### Summary
 
@@ -24,9 +22,7 @@ Creates a unit vector from the specified vector. The result is a vector one unit
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 
 ### Summary
 
@@ -36,9 +32,7 @@ public Vector3 Normalize(Vector3D value)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 
 ### Summary
 
@@ -47,10 +41,4 @@ public void Normalize(ref Vector3 value, ref Vector3 result)
 ```
 
 Creates a unit vector from the specified vector, writing the result to a user-specified variable. The result is a vector one unit in length pointing in the same direction as the original vector.
-
-### Returns
-
-### Example
-
-### Remarks
 

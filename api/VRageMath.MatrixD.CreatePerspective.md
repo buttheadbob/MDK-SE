@@ -10,9 +10,7 @@ Builds a perspective projection matrix and returns the result by value.
 
 ### Returns
 
-### Example
-
-### Remarks
+[MatrixD](VRageMath.MatrixD)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void CreatePerspective(double width, double height, double nearPlaneDista
 ```
 
 Builds a perspective projection matrix and returns the result by reference.
-
-### Returns
-
-### Example
-
-### Remarks
 

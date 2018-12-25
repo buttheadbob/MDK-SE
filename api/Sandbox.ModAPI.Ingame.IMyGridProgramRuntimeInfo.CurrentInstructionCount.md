@@ -10,7 +10,5 @@ Gets the current number of significant instructions executed.
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

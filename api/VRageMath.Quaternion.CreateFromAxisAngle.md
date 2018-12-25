@@ -10,9 +10,7 @@ Creates a Quaternion from a vector and an angle to rotate about the vector.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Quaternion](VRageMath.Quaternion)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void CreateFromAxisAngle(ref Vector3 axis, float angle, ref Quaternion 
 ```
 
 Creates a Quaternion from a vector and an angle to rotate about the vector.
-
-### Returns
-
-### Example
-
-### Remarks
 

@@ -8,7 +8,5 @@ public bool IsInsideInclusive(ref Vector3 min, ref Vector3 max)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

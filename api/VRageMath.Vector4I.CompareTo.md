@@ -8,7 +8,5 @@ public int CompareTo(Vector4I other)
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

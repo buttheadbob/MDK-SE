@@ -6,9 +6,3 @@
 public void SetDim(int i, double value)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

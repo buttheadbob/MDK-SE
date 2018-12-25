@@ -10,7 +10,5 @@ Fatblock owner, if present; otherwise grid owner
 
 ### Returns
 
-### Example
-
-### Remarks
+[long](System.Int64)
 

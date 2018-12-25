@@ -10,9 +10,7 @@ Gets an array of points that make up the corners of the BoundingBox2D.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector2D[]](VRageMath.Vector2D[])
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void GetCorners(Vector2D[] corners)
 ```
 
 Gets the array of points that make up the corners of the BoundingBox2D.
-
-### Returns
-
-### Example
-
-### Remarks
 

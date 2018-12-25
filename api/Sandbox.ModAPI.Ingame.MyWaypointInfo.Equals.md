@@ -10,11 +10,9 @@ Determines whether this coordinate is the same as another. Uses 0.0001 as the ep
 
 ### Returns
 
+[bool](System.Boolean)
 
 
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -26,11 +24,9 @@ Determines whether this coordinate is the same as another. Uses 0.0001 as the ep
 
 ### Returns
 
+[bool](System.Boolean)
 
 
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -42,9 +38,7 @@ Determines whether this coordinate is the same as another. Uses 0.0001 as the ep
 
 ### Returns
 
+[bool](System.Boolean)
 
 
-### Example
-
-### Remarks
 

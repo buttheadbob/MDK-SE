@@ -6,9 +6,3 @@
 public void SortNoAlloc<T>(List<T> list, Comparison<T> comparator)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

@@ -10,7 +10,5 @@ The center point of the sphere.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3D](VRageMath.Vector3D)
 

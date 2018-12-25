@@ -10,9 +10,7 @@ Calculates rectangular distance of this vector, interpreted as a point, from the
 
 ### Returns
 
+[int](System.Int32)
 
 
-### Example
-
-### Remarks
 

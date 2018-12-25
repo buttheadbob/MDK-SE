@@ -10,7 +10,5 @@ Creates a copy of the CurveKeyCollection.
 
 ### Returns
 
-### Example
-
-### Remarks
+[CurveKeyCollection](VRageMath.CurveKeyCollection)
 

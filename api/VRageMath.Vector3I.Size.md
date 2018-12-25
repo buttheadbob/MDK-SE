@@ -10,9 +10,7 @@ How many cubes are in block with this size
 
 ### Returns
 
+[int](System.Int32)
 
 
-### Example
-
-### Remarks
 

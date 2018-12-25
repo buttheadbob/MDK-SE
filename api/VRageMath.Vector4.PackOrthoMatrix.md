@@ -8,9 +8,7 @@ public Vector4 PackOrthoMatrix(Vector3 position, Vector3 forward, Vector3 up)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector4](VRageMath.Vector4)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public Vector4 PackOrthoMatrix(ref Matrix matrix)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector4](VRageMath.Vector4)
 

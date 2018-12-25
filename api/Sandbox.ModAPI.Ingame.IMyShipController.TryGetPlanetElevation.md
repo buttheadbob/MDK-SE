@@ -10,9 +10,7 @@ Attempts to get the elevation of the ship in relation to the nearest planet. Thi
 
 ### Returns
 
+[bool](System.Boolean)
 
 
-### Example
-
-### Remarks
 

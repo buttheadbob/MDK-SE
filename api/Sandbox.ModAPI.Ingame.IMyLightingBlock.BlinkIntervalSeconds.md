@@ -10,7 +10,5 @@ Gets or sets the blinking interval of this light (in seconds).
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

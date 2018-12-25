@@ -8,7 +8,5 @@ public SerializableDefinitionId BlockDefinition { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[SerializableDefinitionId](VRage.ObjectBuilders.SerializableDefinitionId)
 

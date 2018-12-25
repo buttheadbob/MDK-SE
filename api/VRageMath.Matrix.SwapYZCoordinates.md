@@ -8,7 +8,5 @@ public Matrix SwapYZCoordinates(Matrix m)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 

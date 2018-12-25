@@ -10,7 +10,5 @@ Gets the [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) this value was 
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey)
 

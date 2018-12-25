@@ -10,7 +10,5 @@ Describes the tangent when approaching this point from the previous point in the
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

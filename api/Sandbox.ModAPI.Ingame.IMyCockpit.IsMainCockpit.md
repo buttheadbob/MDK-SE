@@ -10,7 +10,5 @@ Determines whether this controller is the main cockpit of the shit this doesn't 
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

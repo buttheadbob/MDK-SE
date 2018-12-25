@@ -8,12 +8,6 @@ public void InsertQueueItem(int idx, MyDefinitionId blueprint, MyFixedPoint amou
 
 Inserts a blueprint into the production queue
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
@@ -22,12 +16,6 @@ public void InsertQueueItem(int idx, MyDefinitionId blueprint, decimal amount)
 
 Inserts a blueprint into the production queue
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
@@ -35,10 +23,4 @@ public void InsertQueueItem(int idx, MyDefinitionId blueprint, double amount)
 ```
 
 Inserts a blueprint into the production queue
-
-### Returns
-
-### Example
-
-### Remarks
 

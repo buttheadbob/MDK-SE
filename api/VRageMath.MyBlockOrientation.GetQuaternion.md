@@ -6,9 +6,3 @@
 public void GetQuaternion(ref Quaternion result)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

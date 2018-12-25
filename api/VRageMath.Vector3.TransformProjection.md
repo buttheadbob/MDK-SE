@@ -8,9 +8,3 @@ public void TransformProjection(ref Vector3 position, ref Matrix matrix, ref 
 
 Transforms a Vector3 by the given projection matrix (both ortho and perspective are supported)
 
-### Returns
-
-### Example
-
-### Remarks
-

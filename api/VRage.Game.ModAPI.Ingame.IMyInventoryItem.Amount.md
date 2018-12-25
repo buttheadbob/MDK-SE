@@ -8,7 +8,5 @@ public MyFixedPoint Amount { get; set; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyFixedPoint](VRage.MyFixedPoint)
 

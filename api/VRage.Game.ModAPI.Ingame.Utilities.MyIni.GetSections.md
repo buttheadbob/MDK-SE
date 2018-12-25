@@ -6,9 +6,3 @@
 public void GetSections(List<T> names)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

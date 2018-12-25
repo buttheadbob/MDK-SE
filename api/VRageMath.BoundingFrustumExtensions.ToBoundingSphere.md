@@ -10,9 +10,7 @@ Creates bounding sphere from bounding frustum. Implementation taken from XNA sou
 
 ### Returns
 
+[BoundingSphere](VRageMath.BoundingSphere)
+
 BoundingSphere
-
-### Example
-
-### Remarks
 

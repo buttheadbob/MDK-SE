@@ -10,7 +10,5 @@ Gets or sets the font
 
 ### Returns
 
-### Example
-
-### Remarks
+[string](System.String)
 

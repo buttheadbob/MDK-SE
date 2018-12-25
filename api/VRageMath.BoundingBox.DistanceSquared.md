@@ -8,7 +8,5 @@ public float DistanceSquared(Vector3 point)
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

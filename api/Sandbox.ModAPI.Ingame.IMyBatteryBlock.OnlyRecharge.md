@@ -8,7 +8,5 @@ public bool OnlyRecharge { get; set; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

@@ -8,7 +8,5 @@ public int Count { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

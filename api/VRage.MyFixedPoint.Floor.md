@@ -8,7 +8,5 @@ public MyFixedPoint Floor(MyFixedPoint a)
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyFixedPoint](VRage.MyFixedPoint)
 

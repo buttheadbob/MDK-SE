@@ -10,9 +10,7 @@ Returns the component of the vector that is largest of all the three components.
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 
 ### Summary
 
@@ -24,9 +22,7 @@ Returns a vector that contains the highest value from each matching pair of comp
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3D](VRageMath.Vector3D)
 
 ### Summary
 
@@ -35,10 +31,4 @@ public void Max(ref Vector3D value1, ref Vector3D value2, ref Vector3D result
 ```
 
 Returns a vector that contains the highest value from each matching pair of components.
-
-### Returns
-
-### Example
-
-### Remarks
 

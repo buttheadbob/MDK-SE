@@ -8,7 +8,5 @@ public MyBlockOrientation GetBlockOrientation()
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyBlockOrientation](VRageMath.MyBlockOrientation)
 

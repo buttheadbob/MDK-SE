@@ -6,9 +6,3 @@
 public void Move<T>(List<T> list, int originalIndex, int targetIndex)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

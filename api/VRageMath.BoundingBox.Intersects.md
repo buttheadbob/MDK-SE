@@ -10,9 +10,7 @@ Checks whether the current BoundingBox intersects another BoundingBox.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -22,9 +20,7 @@ public bool Intersects(ref BoundingBox box)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -33,12 +29,6 @@ public void Intersects(ref BoundingBox box, ref bool result)
 ```
 
 Checks whether the current BoundingBox intersects another BoundingBox.
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -50,9 +40,7 @@ Checks whether the current BoundingBox intersects a BoundingFrustum.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -64,9 +52,7 @@ Checks whether the current BoundingBox intersects a Plane.
 
 ### Returns
 
-### Example
-
-### Remarks
+[PlaneIntersectionType](VRageMath.PlaneIntersectionType)
 
 ### Summary
 
@@ -76,12 +62,6 @@ public void Intersects(ref Plane plane, ref PlaneIntersectionType result)
 
 Checks whether the current BoundingBox intersects a Plane.
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
@@ -90,9 +70,7 @@ public bool Intersects(Line line, ref float distance)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -104,21 +82,13 @@ Checks whether the current BoundingBox intersects a Ray.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Nullable<T>](System.Nullable`1)
 
 ### Summary
 
 ```csharp
 public void Intersects(ref Ray ray, ref Nullable<T> result)
 ```
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -130,9 +100,7 @@ Checks whether the current BoundingBox intersects a BoundingSphere.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -142,12 +110,6 @@ public void Intersects(ref BoundingSphere sphere, ref bool result)
 
 Checks whether the current BoundingBox intersects a BoundingSphere.
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
@@ -156,9 +118,7 @@ public bool Intersects(ref BoundingSphere sphere)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -168,7 +128,5 @@ public bool Intersects(ref BoundingSphereD sphere)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

@@ -10,7 +10,5 @@ Integrity is at maximum
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

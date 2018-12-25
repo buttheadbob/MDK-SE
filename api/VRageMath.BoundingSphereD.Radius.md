@@ -10,7 +10,5 @@ The radius of the sphere.
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

@@ -8,7 +8,5 @@ public float Volume()
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

@@ -10,7 +10,5 @@ Gets or sets the current flight mode
 
 ### Returns
 
-### Example
-
-### Remarks
+[FlightMode](Sandbox.ModAPI.Ingame.FlightMode)
 

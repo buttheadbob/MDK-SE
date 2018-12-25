@@ -10,7 +10,5 @@ Gets or sets if this controller is the main one.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

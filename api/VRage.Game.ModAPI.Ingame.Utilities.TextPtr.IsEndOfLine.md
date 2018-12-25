@@ -8,7 +8,5 @@ public bool IsEndOfLine()
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

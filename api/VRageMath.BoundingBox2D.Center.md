@@ -10,7 +10,5 @@ Calculates center
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector2D](VRageMath.Vector2D)
 

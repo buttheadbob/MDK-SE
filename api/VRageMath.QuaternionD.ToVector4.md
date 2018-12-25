@@ -8,7 +8,5 @@ public Vector4D ToVector4()
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector4D](VRageMath.Vector4D)
 

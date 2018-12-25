@@ -10,9 +10,7 @@ Returns the dot product of a specified Vector3 and the Normal vector of this Pla
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void DotCoordinate(ref Vector3 value, ref float result)
 ```
 
 Returns the dot product of a specified Vector3 and the Normal vector of this Plane plus the distance (D) value of the Plane.
-
-### Returns
-
-### Example
-
-### Remarks
 

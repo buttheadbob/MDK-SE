@@ -8,7 +8,5 @@ public bool OverlapsAnyLeafBoundingBox(ref BoundingBoxD bbox)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

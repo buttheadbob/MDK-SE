@@ -8,7 +8,5 @@ public Vector2D HalfExtents { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector2D](VRageMath.Vector2D)
 

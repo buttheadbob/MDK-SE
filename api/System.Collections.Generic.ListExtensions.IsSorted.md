@@ -8,7 +8,5 @@ public bool IsSorted<T>(List<T> self, IComparer<T> comparer)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

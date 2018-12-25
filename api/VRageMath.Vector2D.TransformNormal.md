@@ -10,9 +10,7 @@ Transforms a 2D vector normal by a matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector2D](VRageMath.Vector2D)
 
 ### Summary
 
@@ -22,12 +20,6 @@ public void TransformNormal(ref Vector2D normal, ref Matrix matrix, ref Vecto
 
 Transforms a vector normal by a matrix.
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
@@ -36,12 +28,6 @@ public void TransformNormal(Vector2D[] sourceArray, ref Matrix matrix, Vector2D
 
 Transforms an array of Vector2D vector normals by a specified Matrix.
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
@@ -49,10 +35,4 @@ public void TransformNormal(Vector2D[] sourceArray, int sourceIndex, ref Matrix
 ```
 
 Transforms a specified range in an array of Vector2D vector normals by a specified Matrix and places the results in a specified range in a destination array.
-
-### Returns
-
-### Example
-
-### Remarks
 

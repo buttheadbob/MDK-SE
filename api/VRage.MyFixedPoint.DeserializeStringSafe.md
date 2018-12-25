@@ -10,7 +10,5 @@ For XmlSerialization, format is 123.456789 Handles double and decimal formats to
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyFixedPoint](VRage.MyFixedPoint)
 

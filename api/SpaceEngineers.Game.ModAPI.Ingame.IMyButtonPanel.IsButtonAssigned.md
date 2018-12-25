@@ -10,9 +10,7 @@ Gets if the specified button is assigned an action.
 
 ### Returns
 
+[bool](System.Boolean)
 
 
-### Example
-
-### Remarks
 

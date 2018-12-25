@@ -10,7 +10,5 @@ Maximum power output of the producer in MW or litres/h.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

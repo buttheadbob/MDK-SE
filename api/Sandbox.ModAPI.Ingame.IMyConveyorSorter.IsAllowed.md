@@ -10,9 +10,7 @@ Determines whether a given item type is allowed through the sorter, depending on
 
 ### Returns
 
+[bool](System.Boolean)
 
 
-### Example
-
-### Remarks
 

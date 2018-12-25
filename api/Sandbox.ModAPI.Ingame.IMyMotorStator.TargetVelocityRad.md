@@ -10,7 +10,5 @@ Gets or sets the desired velocity of the rotor in radians/second
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

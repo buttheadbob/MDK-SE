@@ -10,7 +10,5 @@ Gets the current thrust amount, in Newtons (N)
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

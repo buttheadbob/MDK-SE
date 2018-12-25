@@ -10,9 +10,7 @@ Calculates the inverse of a matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[MatrixD](VRageMath.MatrixD)
 
 ### Summary
 
@@ -22,9 +20,7 @@ public MatrixD Invert(ref MatrixD matrix)
 
 ### Returns
 
-### Example
-
-### Remarks
+[MatrixD](VRageMath.MatrixD)
 
 ### Summary
 
@@ -33,10 +29,4 @@ public void Invert(ref MatrixD matrix, ref MatrixD result)
 ```
 
 Calculates the inverse of a matrix.
-
-### Returns
-
-### Example
-
-### Remarks
 

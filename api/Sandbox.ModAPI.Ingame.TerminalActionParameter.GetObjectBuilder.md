@@ -8,7 +8,5 @@ public MyObjectBuilder_ToolbarItemActionParameter GetObjectBuilder()
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyObjectBuilder_ToolbarItemActionParameter](VRage.Game.MyObjectBuilder_ToolbarItemActionParameter)
 

@@ -10,9 +10,7 @@ Attempts to get this value as a [System.Boolean](https://docs.microsoft.com/en-u
 
 ### Returns
 
+[bool](System.Boolean)
 
 
-### Example
-
-### Remarks
 

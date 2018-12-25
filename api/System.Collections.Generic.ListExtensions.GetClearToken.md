@@ -8,7 +8,5 @@ public ClearToken<T> GetClearToken<T>(List<T> list)
 
 ### Returns
 
-### Example
-
-### Remarks
+[ClearToken<T>](System.Collections.Generic.ClearToken`1)
 

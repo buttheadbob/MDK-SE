@@ -8,7 +8,5 @@ public Matrix Matrix { get; set; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 

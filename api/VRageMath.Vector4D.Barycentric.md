@@ -10,9 +10,7 @@ Returns a Vector4 containing the 4D Cartesian coordinates of a point specified i
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector4D](VRageMath.Vector4D)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void Barycentric(ref Vector4D value1, ref Vector4D value2, ref Vector4
 ```
 
 Returns a Vector4 containing the 4D Cartesian coordinates of a point specified in Barycentric (areal) coordinates relative to a 4D triangle.
-
-### Returns
-
-### Example
-
-### Remarks
 

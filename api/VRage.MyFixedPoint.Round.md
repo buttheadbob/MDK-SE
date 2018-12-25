@@ -8,7 +8,5 @@ public MyFixedPoint Round(MyFixedPoint a)
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyFixedPoint](VRage.MyFixedPoint)
 

@@ -10,9 +10,7 @@ Attempts to get this value as a [System.Int16](https://docs.microsoft.com/en-us/
 
 ### Returns
 
+[short](System.Int16)
 
 
-### Example
-
-### Remarks
 

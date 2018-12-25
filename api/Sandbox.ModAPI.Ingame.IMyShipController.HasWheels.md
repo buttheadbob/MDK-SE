@@ -10,7 +10,5 @@ Determines whether there are any wheels on this ship.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

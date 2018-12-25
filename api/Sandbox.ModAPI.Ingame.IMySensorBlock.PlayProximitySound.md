@@ -10,7 +10,5 @@ Gets or sets if the proximity sound plays when an entity is detected.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

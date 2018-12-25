@@ -8,9 +8,3 @@ public void Write(StringBuilder stringBuilder)
 
 Writes this value as a string to the given string builder.
 
-### Returns
-
-### Example
-
-### Remarks
-

@@ -10,9 +10,7 @@ return perimeter of edges
 
 ### Returns
 
+[double](System.Double)
 
 
-### Example
-
-### Remarks
 

@@ -10,7 +10,5 @@ Pitch, yaw input from user/autopilot. Values can be very large with high control
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector2](VRageMath.Vector2)
 

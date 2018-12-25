@@ -8,7 +8,5 @@ public bool IsRootNull()
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

@@ -8,9 +8,7 @@ public Direction GetDirectionInAxis(Vector3 vec, Axis axis)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Direction](VRageMath.Base6Directions+Direction)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public Direction GetDirectionInAxis(ref Vector3 vec, Axis axis)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Direction](VRageMath.Base6Directions+Direction)
 

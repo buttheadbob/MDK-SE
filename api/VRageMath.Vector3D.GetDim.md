@@ -8,7 +8,5 @@ public double GetDim(int i)
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

@@ -10,7 +10,5 @@ Determines whether this camera is currently in use.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

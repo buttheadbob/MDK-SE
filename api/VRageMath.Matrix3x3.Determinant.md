@@ -8,7 +8,5 @@ public float Determinant()
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

@@ -10,7 +10,5 @@ Calculates center
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 

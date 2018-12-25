@@ -8,7 +8,5 @@ public int FindLineNo()
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

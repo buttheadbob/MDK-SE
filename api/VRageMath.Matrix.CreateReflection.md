@@ -10,9 +10,7 @@ Creates a Matrix that reflects the coordinate system about a specified Plane.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void CreateReflection(ref Plane value, ref Matrix result)
 ```
 
 Fills in an existing Matrix so that it reflects the coordinate system about a specified Plane.
-
-### Returns
-
-### Example
-
-### Remarks
 

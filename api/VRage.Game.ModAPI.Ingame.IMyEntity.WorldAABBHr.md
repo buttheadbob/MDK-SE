@@ -8,7 +8,5 @@ public BoundingBoxD WorldAABBHr { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[BoundingBoxD](VRageMath.BoundingBoxD)
 

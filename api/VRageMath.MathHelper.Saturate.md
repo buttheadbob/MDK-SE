@@ -8,9 +8,7 @@ public float Saturate(float n)
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public double Saturate(double n)
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

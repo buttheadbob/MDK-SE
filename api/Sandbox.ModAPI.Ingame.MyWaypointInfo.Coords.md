@@ -10,7 +10,5 @@ Gets the target coordinate as a [Vector3D](VRageMath.Vector3D)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3D](VRageMath.Vector3D)
 

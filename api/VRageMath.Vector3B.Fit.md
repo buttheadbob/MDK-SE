@@ -10,7 +10,5 @@ Puts Vector3 into Vector3B, value -127 represents -range, 128 represents range
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3B](VRageMath.Vector3B)
 

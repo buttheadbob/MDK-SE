@@ -8,9 +8,3 @@ public void Lock()
 
 Locks the landing gear.
 
-### Returns
-
-### Example
-
-### Remarks
-

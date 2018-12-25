@@ -10,9 +10,7 @@ Interpolates between two quaternions, using spherical linear interpolation.
 
 ### Returns
 
-### Example
-
-### Remarks
+[QuaternionD](VRageMath.QuaternionD)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void Slerp(ref QuaternionD quaternion1, ref QuaternionD quaternion2, do
 ```
 
 Interpolates between two quaternions, using spherical linear interpolation.
-
-### Returns
-
-### Example
-
-### Remarks
 

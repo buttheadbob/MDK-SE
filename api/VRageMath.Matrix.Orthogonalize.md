@@ -8,7 +8,5 @@ public Matrix Orthogonalize(Matrix rotationMatrix)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 

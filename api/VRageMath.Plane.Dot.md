@@ -10,9 +10,7 @@ Calculates the dot product of a specified Vector4 and this Plane.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void Dot(ref Vector4 value, ref float result)
 ```
 
 Calculates the dot product of a specified Vector4 and this Plane.
-
-### Returns
-
-### Example
-
-### Remarks
 

@@ -10,9 +10,7 @@ Interpolates between two values using a cubic equation.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3D](VRageMath.Vector3D)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void SmoothStep(ref Vector3D value1, ref Vector3D value2, double amount
 ```
 
 Interpolates between two values using a cubic equation.
-
-### Returns
-
-### Example
-
-### Remarks
 

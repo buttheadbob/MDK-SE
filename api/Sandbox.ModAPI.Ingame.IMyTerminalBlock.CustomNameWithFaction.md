@@ -8,7 +8,5 @@ public string CustomNameWithFaction { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[string](System.String)
 

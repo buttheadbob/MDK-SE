@@ -10,7 +10,5 @@ If this block is deformed (bones deformed)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

@@ -8,7 +8,5 @@ public int GetHashCode(Vector3I x)
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

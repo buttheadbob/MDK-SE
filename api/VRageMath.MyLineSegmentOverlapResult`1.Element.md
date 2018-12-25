@@ -8,7 +8,5 @@ public T Element
 
 ### Returns
 
-### Example
-
-### Remarks
+[T]()
 

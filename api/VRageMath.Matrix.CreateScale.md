@@ -10,9 +10,7 @@ Creates a scaling Matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 
 ### Summary
 
@@ -21,12 +19,6 @@ public void CreateScale(float xScale, float yScale, float zScale, ref Matrix re
 ```
 
 Creates a scaling Matrix.
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -38,9 +30,7 @@ Creates a scaling Matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 
 ### Summary
 
@@ -49,12 +39,6 @@ public void CreateScale(ref Vector3 scales, ref Matrix result)
 ```
 
 Creates a scaling Matrix.
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -66,9 +50,7 @@ Creates a scaling Matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 
 ### Summary
 
@@ -77,10 +59,4 @@ public void CreateScale(float scale, ref Matrix result)
 ```
 
 Creates a scaling Matrix.
-
-### Returns
-
-### Example
-
-### Remarks
 

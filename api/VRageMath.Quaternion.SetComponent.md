@@ -6,9 +6,3 @@
 public void SetComponent(int index, float value)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

@@ -8,7 +8,5 @@ public Quaternion FromVector4(Vector4 v)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Quaternion](VRageMath.Quaternion)
 

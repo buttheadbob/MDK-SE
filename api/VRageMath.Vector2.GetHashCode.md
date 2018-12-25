@@ -10,7 +10,5 @@ Gets the hash code of the vector object.
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

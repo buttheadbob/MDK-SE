@@ -8,7 +8,5 @@ public bool Equals(Vector3L x, Vector3L y)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

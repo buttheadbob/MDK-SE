@@ -6,9 +6,3 @@
 public void MoveNext()
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

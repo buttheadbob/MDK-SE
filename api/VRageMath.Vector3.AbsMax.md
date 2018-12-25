@@ -10,7 +10,5 @@ Returns the component of the vector, whose absolute value is largest of all the 
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

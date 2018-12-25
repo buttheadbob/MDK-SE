@@ -10,7 +10,5 @@ Gets if the block can produce gas.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

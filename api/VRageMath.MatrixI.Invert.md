@@ -6,9 +6,3 @@
 public void Invert(ref MatrixI matrix, ref MatrixI result)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

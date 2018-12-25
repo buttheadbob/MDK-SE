@@ -10,11 +10,9 @@ Determines whether the given switch is set. Switches are specified without their
 
 ### Returns
 
+[bool](System.Boolean)
 
 
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -26,9 +24,7 @@ Gets an argument of a switch. For example, using`Switch("key", 0)`on the command
 
 ### Returns
 
+[string](System.String)
 
 
-### Example
-
-### Remarks
 

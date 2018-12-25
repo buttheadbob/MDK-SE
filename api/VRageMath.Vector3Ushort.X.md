@@ -8,7 +8,5 @@ public ushort X
 
 ### Returns
 
-### Example
-
-### Remarks
+[ushort](System.UInt16)
 

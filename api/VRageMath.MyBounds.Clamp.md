@@ -8,7 +8,5 @@ public float Clamp(float value)
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

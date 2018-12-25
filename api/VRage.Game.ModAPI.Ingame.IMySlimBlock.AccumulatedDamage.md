@@ -10,7 +10,5 @@ Current accumlated damage, pending application
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

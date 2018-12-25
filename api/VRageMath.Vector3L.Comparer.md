@@ -8,7 +8,5 @@ public EqualityComparer Comparer
 
 ### Returns
 
-### Example
-
-### Remarks
+[EqualityComparer](VRageMath.Vector3L+EqualityComparer)
 

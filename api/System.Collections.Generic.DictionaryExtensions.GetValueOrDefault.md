@@ -8,9 +8,7 @@ public V GetValueOrDefault<K, V>(Dictionary<TKey, TValue> dictionary, K key)
 
 ### Returns
 
-### Example
-
-### Remarks
+[V]()
 
 ### Summary
 
@@ -20,9 +18,7 @@ public V GetValueOrDefault<K, V>(Dictionary<TKey, TValue> dictionary, K key, V d
 
 ### Returns
 
-### Example
-
-### Remarks
+[V]()
 
 ### Summary
 
@@ -32,7 +28,5 @@ public V GetValueOrDefault<K, V>(ConcurrentDictionary<TKey, TValue> dictionary, 
 
 ### Returns
 
-### Example
-
-### Remarks
+[V]()
 

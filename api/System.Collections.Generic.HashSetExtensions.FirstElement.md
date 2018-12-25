@@ -8,7 +8,5 @@ public T FirstElement<T>(HashSet<T> hashset)
 
 ### Returns
 
-### Example
-
-### Remarks
+[T]()
 

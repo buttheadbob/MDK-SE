@@ -8,7 +8,5 @@ public Vector3 RandomPoint()
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 

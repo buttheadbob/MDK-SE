@@ -10,7 +10,5 @@ Gets or sets whether this connector should throw out anything placed in its inve
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

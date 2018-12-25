@@ -10,7 +10,5 @@ Gets or sets the current flight direction
 
 ### Returns
 
-### Example
-
-### Remarks
+[Direction](VRageMath.Base6Directions+Direction)
 

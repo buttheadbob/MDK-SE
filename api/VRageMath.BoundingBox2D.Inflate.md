@@ -6,9 +6,3 @@
 public void Inflate(double size)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

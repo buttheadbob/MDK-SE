@@ -10,9 +10,7 @@ Returns a Vector2 containing the 2D Cartesian coordinates of a point specified i
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector2](VRageMath.Vector2)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void Barycentric(ref Vector2 value1, ref Vector2 value2, ref Vector2 v
 ```
 
 Returns a Vector2 containing the 2D Cartesian coordinates of a point specified in barycentric (areal) coordinates relative to a 2D triangle.
-
-### Returns
-
-### Example
-
-### Remarks
 

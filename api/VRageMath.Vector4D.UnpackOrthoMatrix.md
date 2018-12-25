@@ -8,7 +8,5 @@ public MatrixD UnpackOrthoMatrix(ref Vector4D packed)
 
 ### Returns
 
-### Example
-
-### Remarks
+[MatrixD](VRageMath.MatrixD)
 

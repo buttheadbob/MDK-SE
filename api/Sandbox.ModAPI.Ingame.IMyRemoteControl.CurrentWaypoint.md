@@ -10,7 +10,5 @@ Gets the current target waypoint
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyWaypointInfo](Sandbox.ModAPI.Ingame.MyWaypointInfo)
 

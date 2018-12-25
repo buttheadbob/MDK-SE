@@ -8,9 +8,7 @@ public MyOrientedBoundingBox Transform(Quaternion rotation, Vector3 translation)
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyOrientedBoundingBox](VRageMath.MyOrientedBoundingBox)
 
 ### Summary
 
@@ -20,19 +18,11 @@ public MyOrientedBoundingBox Transform(float scale, Quaternion rotation, Vector3
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyOrientedBoundingBox](VRageMath.MyOrientedBoundingBox)
 
 ### Summary
 
 ```csharp
 public void Transform(Matrix matrix)
 ```
-
-### Returns
-
-### Example
-
-### Remarks
 

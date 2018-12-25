@@ -8,7 +8,5 @@ public int W
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

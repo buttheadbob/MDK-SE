@@ -8,7 +8,5 @@ public ITerminalProperty GetProperty(string id)
 
 ### Returns
 
-### Example
-
-### Remarks
+[ITerminalProperty](Sandbox.ModAPI.Interfaces.ITerminalProperty)
 

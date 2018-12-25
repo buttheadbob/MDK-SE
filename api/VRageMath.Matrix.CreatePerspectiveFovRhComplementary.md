@@ -8,7 +8,5 @@ public Matrix CreatePerspectiveFovRhComplementary(float fieldOfView, float aspec
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 

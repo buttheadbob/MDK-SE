@@ -10,7 +10,5 @@ Gets the right plane of the BoundingFrustum.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Plane](VRageMath.Plane)
 

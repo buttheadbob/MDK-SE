@@ -10,9 +10,7 @@ Converts this GPS coordinate to its string equivalent
 
 ### Returns
 
+[string](System.String)
 
 
-### Example
-
-### Remarks
 

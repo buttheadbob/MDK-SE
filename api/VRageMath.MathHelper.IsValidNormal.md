@@ -8,7 +8,5 @@ public bool IsValidNormal(Vector3 vec)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

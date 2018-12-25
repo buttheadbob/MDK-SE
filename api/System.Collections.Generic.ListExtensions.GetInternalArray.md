@@ -8,7 +8,5 @@ public T[] GetInternalArray<T>(List<T> list)
 
 ### Returns
 
-### Example
-
-### Remarks
+[T[]]()
 

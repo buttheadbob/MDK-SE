@@ -10,9 +10,7 @@ Subtracts a vector from a vector.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector4](VRageMath.Vector4)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void Subtract(ref Vector4 value1, ref Vector4 value2, ref Vector4 resu
 ```
 
 Subtracts a vector from a vector.
-
-### Returns
-
-### Example
-
-### Remarks
 

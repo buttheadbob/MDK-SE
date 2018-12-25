@@ -8,12 +8,6 @@ public void Normalize()
 
 Changes the coefficients of the Normal vector of this PlaneD to make it of unit length.
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
@@ -24,9 +18,7 @@ Changes the coefficients of the Normal vector of a PlaneD to make it of unit len
 
 ### Returns
 
-### Example
-
-### Remarks
+[PlaneD](VRageMath.PlaneD)
 
 ### Summary
 
@@ -35,10 +27,4 @@ public void Normalize(ref PlaneD value, ref PlaneD result)
 ```
 
 Changes the coefficients of the Normal vector of a PlaneD to make it of unit length.
-
-### Returns
-
-### Example
-
-### Remarks
 

@@ -10,7 +10,5 @@ Resource production is enabled
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

@@ -10,9 +10,7 @@ Adds two Quaternions.
 
 ### Returns
 
-### Example
-
-### Remarks
+[QuaternionD](VRageMath.QuaternionD)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void Add(ref QuaternionD quaternion1, ref QuaternionD quaternion2, ref�
 ```
 
 Adds two Quaternions.
-
-### Returns
-
-### Example
-
-### Remarks
 

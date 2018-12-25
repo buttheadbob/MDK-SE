@@ -8,7 +8,5 @@ public float FastCos(float angle)
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

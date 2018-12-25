@@ -10,9 +10,7 @@ AngleTo
 
 ### Returns
 
+[Vector3](VRageMath.Vector3)
+
 Angle between the vector lines
-
-### Example
-
-### Remarks
 

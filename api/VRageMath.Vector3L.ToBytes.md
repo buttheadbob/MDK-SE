@@ -6,9 +6,3 @@
 public void ToBytes(List<T> result)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

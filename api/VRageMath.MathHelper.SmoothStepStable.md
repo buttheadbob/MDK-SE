@@ -10,9 +10,7 @@ Interpolates between zero and one using cubic equiation, solved by de Casteljau.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 
 ### Summary
 
@@ -24,7 +22,5 @@ Interpolates between zero and one using cubic equiation, solved by de Casteljau.
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

@@ -8,7 +8,5 @@ public Quaternion Orientation
 
 ### Returns
 
-### Example
-
-### Remarks
+[Quaternion](VRageMath.Quaternion)
 

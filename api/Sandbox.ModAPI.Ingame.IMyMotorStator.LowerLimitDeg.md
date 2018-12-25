@@ -10,7 +10,5 @@ Gets or sets the lower angle limit of the rotor in degrees. Set to float.MinValu
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

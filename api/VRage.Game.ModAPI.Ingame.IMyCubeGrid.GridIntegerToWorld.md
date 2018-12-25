@@ -10,7 +10,5 @@ Converts grid coordinates to world space
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3D](VRageMath.Vector3D)
 

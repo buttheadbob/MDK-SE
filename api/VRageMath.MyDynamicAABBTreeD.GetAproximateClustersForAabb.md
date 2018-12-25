@@ -6,9 +6,3 @@
 public void GetAproximateClustersForAabb(ref BoundingBoxD bbox, double minSize, List<T> boundList)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

@@ -10,7 +10,5 @@ Time when the entity was detected. This field counts milliseconds, compensated f
 
 ### Returns
 
-### Example
-
-### Remarks
+[long](System.Int64)
 

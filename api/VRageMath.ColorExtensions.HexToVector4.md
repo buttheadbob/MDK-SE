@@ -8,7 +8,5 @@ public Vector4 HexToVector4(string hex)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector4](VRageMath.Vector4)
 

@@ -10,7 +10,5 @@ Calculates projection vector
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 

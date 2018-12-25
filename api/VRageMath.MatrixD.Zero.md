@@ -8,7 +8,5 @@ public MatrixD Zero
 
 ### Returns
 
-### Example
-
-### Remarks
+[MatrixD](VRageMath.MatrixD)
 

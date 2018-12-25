@@ -8,7 +8,5 @@ public bool IntersectRaySphere(Ray ray, ref float tmin, ref float tmax)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

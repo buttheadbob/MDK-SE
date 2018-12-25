@@ -8,7 +8,5 @@ public bool ArePerpendicular(ref Vector3 a, ref Vector3 b)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

@@ -10,7 +10,5 @@ Gets or sets the volume level of sound
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

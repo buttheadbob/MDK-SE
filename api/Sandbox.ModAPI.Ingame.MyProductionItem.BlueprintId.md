@@ -8,7 +8,5 @@ public MyDefinitionId BlueprintId
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyDefinitionId](VRage.Game.MyDefinitionId)
 

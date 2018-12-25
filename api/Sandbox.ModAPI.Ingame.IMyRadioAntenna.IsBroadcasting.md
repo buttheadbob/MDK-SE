@@ -10,7 +10,5 @@ Returns true if antena is broadcasting
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

@@ -10,9 +10,7 @@ Attempts to get this value as a [System.Double](https://docs.microsoft.com/en-us
 
 ### Returns
 
+[double](System.Double)
 
 
-### Example
-
-### Remarks
 

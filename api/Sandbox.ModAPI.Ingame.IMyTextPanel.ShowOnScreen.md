@@ -10,7 +10,5 @@ Indicates what should be shown on the screen, none being an image.
 
 ### Returns
 
-### Example
-
-### Remarks
+[ShowTextOnScreenFlag](VRage.Game.GUI.TextPanel.ShowTextOnScreenFlag)
 

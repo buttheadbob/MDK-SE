@@ -8,9 +8,3 @@ public void SetValueFloat(IMyTerminalBlock block, string propertyId, float value
 
 Set float value of property
 
-### Returns
-
-### Example
-
-### Remarks
-

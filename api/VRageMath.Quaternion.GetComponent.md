@@ -8,7 +8,5 @@ public float GetComponent(int index)
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

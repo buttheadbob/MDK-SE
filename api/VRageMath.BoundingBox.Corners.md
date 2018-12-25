@@ -8,7 +8,5 @@ public BoxCornerEnumerator Corners { get; set; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[BoxCornerEnumerator](VRageMath.BoxCornerEnumerator)
 

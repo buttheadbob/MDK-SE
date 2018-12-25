@@ -10,7 +10,5 @@ Autorefill enabled
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

@@ -10,7 +10,5 @@ Gets or sets if anyone is allowed to activate the buttons.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

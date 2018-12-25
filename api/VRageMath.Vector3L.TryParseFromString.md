@@ -8,7 +8,5 @@ public bool TryParseFromString(string p, ref Vector3L vec)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

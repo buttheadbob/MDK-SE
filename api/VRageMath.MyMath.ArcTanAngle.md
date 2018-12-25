@@ -10,9 +10,7 @@ ArcTanAngle
 
 ### Returns
 
+[float](System.Single)
+
 ArcTan angle between x and y
-
-### Example
-
-### Remarks
 

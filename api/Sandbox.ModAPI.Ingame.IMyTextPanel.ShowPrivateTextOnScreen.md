@@ -6,9 +6,3 @@
 public void ShowPrivateTextOnScreen()
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

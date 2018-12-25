@@ -10,7 +10,5 @@ Gets or sets whether thrusters are being controlled by this controller.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

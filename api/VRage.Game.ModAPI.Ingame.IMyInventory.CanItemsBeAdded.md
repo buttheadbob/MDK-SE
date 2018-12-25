@@ -8,7 +8,5 @@ public bool CanItemsBeAdded(MyFixedPoint amount, SerializableDefinitionId conten
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

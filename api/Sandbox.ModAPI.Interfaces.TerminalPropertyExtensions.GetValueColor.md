@@ -10,9 +10,7 @@ Returns value of specified property
 
 ### Returns
 
+[Color](VRageMath.Color)
+
 property value as Color
-
-### Example
-
-### Remarks
 

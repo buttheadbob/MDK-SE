@@ -10,7 +10,5 @@ Gets the gas capacity of this tank.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

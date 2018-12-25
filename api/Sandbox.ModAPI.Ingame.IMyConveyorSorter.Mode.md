@@ -10,7 +10,5 @@ Determines the current mode of this sorter. Use SetWhitelist or SetBlacklist to 
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyConveyorSorterMode](Sandbox.ModAPI.Ingame.MyConveyorSorterMode)
 

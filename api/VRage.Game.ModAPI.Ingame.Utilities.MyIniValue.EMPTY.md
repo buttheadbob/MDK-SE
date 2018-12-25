@@ -10,7 +10,5 @@ Represents an empty [MyIniValue](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue)
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyIniValue](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue)
 

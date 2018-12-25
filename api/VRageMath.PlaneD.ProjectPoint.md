@@ -8,7 +8,5 @@ public Vector3D ProjectPoint(ref Vector3D point)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3D](VRageMath.Vector3D)
 

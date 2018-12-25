@@ -10,7 +10,5 @@ Returns a String that represents the current BoundingSphere.
 
 ### Returns
 
-### Example
-
-### Remarks
+[string](System.String)
 

@@ -10,7 +10,5 @@ Gets if the block is safety locked (welded)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

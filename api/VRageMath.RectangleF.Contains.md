@@ -8,9 +8,7 @@ public bool Contains(int x, int y)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -20,9 +18,7 @@ public bool Contains(float x, float y)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -32,9 +28,7 @@ public bool Contains(Vector2 vector2D)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -44,7 +38,5 @@ public bool Contains(Point point)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

@@ -10,7 +10,5 @@ Determines the index of a CurveKey in the CurveKeyCollection.
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

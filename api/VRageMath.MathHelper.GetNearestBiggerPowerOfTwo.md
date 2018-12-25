@@ -8,9 +8,7 @@ public int GetNearestBiggerPowerOfTwo(int v)
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 
 ### Summary
 
@@ -20,9 +18,7 @@ public uint GetNearestBiggerPowerOfTwo(uint v)
 
 ### Returns
 
-### Example
-
-### Remarks
+[uint](System.UInt32)
 
 ### Summary
 
@@ -34,11 +30,9 @@ Returns nearest bigger power of two
 
 ### Returns
 
+[int](System.Int32)
 
 
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -48,7 +42,5 @@ public int GetNearestBiggerPowerOfTwo(double f)
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

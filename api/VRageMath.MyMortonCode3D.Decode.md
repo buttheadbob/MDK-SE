@@ -6,9 +6,3 @@
 public void Decode(int code, ref Vector3I value)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

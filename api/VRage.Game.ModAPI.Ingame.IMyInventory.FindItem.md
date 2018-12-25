@@ -8,7 +8,5 @@ public IMyInventoryItem FindItem(SerializableDefinitionId contentId)
 
 ### Returns
 
-### Example
-
-### Remarks
+[IMyInventoryItem](VRage.Game.ModAPI.Ingame.IMyInventoryItem)
 

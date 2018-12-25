@@ -10,7 +10,5 @@ Restricts a value to be within a specified range. Reference page contains links 
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

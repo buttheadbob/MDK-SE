@@ -8,7 +8,5 @@ public long X
 
 ### Returns
 
-### Example
-
-### Remarks
+[long](System.Int64)
 

@@ -8,7 +8,5 @@ public MyFixedPoint MaxIntValue
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyFixedPoint](VRage.MyFixedPoint)
 

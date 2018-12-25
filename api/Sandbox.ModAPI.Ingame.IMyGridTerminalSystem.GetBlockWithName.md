@@ -8,7 +8,5 @@ public IMyTerminalBlock GetBlockWithName(string name)
 
 ### Returns
 
-### Example
-
-### Remarks
+[IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 

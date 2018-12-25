@@ -8,7 +8,5 @@ public MatrixD TransformMatrix { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[MatrixD](VRageMath.MatrixD)
 

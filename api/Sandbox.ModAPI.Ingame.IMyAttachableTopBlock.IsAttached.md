@@ -10,7 +10,5 @@ Gets whether the top part is attached to a base block
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

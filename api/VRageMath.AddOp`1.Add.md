@@ -6,9 +6,3 @@
 public void Add(T userData, bool contained)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

@@ -10,9 +10,7 @@ Checks whether the current BoundingFrustumD contains the specified BoundingBoxD.
 
 ### Returns
 
-### Example
-
-### Remarks
+[ContainmentType](VRageMath.ContainmentType)
 
 ### Summary
 
@@ -21,12 +19,6 @@ public void Contains(ref BoundingBoxD box, ref ContainmentType result)
 ```
 
 Checks whether the current BoundingFrustumD contains the specified BoundingBoxD.
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -38,9 +30,7 @@ Checks whether the current BoundingFrustumD contains the specified BoundingFrust
 
 ### Returns
 
-### Example
-
-### Remarks
+[ContainmentType](VRageMath.ContainmentType)
 
 ### Summary
 
@@ -52,9 +42,7 @@ Checks whether the current BoundingFrustumD contains the specified point.
 
 ### Returns
 
-### Example
-
-### Remarks
+[ContainmentType](VRageMath.ContainmentType)
 
 ### Summary
 
@@ -63,12 +51,6 @@ public void Contains(ref Vector3D point, ref ContainmentType result)
 ```
 
 Checks whether the current BoundingFrustumD contains the specified point.
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -80,9 +62,7 @@ Checks whether the current BoundingFrustumD contains the specified BoundingSpher
 
 ### Returns
 
-### Example
-
-### Remarks
+[ContainmentType](VRageMath.ContainmentType)
 
 ### Summary
 
@@ -91,10 +71,4 @@ public void Contains(ref BoundingSphereD sphere, ref ContainmentType result)
 ```
 
 Checks whether the current BoundingFrustumD contains the specified BoundingSphere.
-
-### Returns
-
-### Example
-
-### Remarks
 

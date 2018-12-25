@@ -8,7 +8,5 @@ public Direction TransformDirectionInverse(Direction baseDirection)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Direction](VRageMath.Base6Directions+Direction)
 

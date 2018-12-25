@@ -10,7 +10,5 @@ Represents the value of pi divided by four.
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

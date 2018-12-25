@@ -10,9 +10,7 @@ Determines whether this Rectangle contains a specified point represented by its 
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -24,9 +22,7 @@ Determines whether this Rectangle contains a specified Point.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -35,12 +31,6 @@ public void Contains(ref Point value, ref bool result)
 ```
 
 Determines whether this Rectangle contains a specified Point.
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -52,9 +42,7 @@ Determines whether this Rectangle entirely contains a specified Rectangle.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -63,10 +51,4 @@ public void Contains(ref Rectangle value, ref bool result)
 ```
 
 Determines whether this Rectangle entirely contains a specified Rectangle.
-
-### Returns
-
-### Example
-
-### Remarks
 

@@ -8,7 +8,5 @@ public IMyBlockGroup GetBlockGroupWithName(string name)
 
 ### Returns
 
-### Example
-
-### Remarks
+[IMyBlockGroup](Sandbox.ModAPI.Ingame.IMyBlockGroup)
 

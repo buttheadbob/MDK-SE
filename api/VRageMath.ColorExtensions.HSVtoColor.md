@@ -8,7 +8,5 @@ public Color HSVtoColor(Vector3 HSV)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Color](VRageMath.Color)
 

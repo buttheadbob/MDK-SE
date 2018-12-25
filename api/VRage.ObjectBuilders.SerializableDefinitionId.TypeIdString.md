@@ -8,7 +8,5 @@ public string TypeIdString { get; set; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[string](System.String)
 

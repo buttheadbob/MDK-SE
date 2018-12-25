@@ -10,11 +10,9 @@ Faster Atan implementation. Good only in the [-pi/2, pi/2] range.
 
 ### Returns
 
+[float](System.Single)
 
 
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -26,9 +24,7 @@ Faster Atan implementation. Good only in the [-pi/2, pi/2] range.
 
 ### Returns
 
+[double](System.Double)
 
 
-### Example
-
-### Remarks
 

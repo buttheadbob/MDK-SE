@@ -10,7 +10,5 @@ Gets the maximum velocity this piston is capable of moving at.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

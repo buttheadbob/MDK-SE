@@ -8,9 +8,7 @@ public Vector3 Sign(Vector3 value)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public Vector3 Sign(Vector3 value, float epsilon)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 

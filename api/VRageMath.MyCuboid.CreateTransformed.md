@@ -8,7 +8,5 @@ public MyCuboid CreateTransformed(ref Matrix worldMatrix)
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyCuboid](VRageMath.MyCuboid)
 

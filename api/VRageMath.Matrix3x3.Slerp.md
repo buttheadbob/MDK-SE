@@ -8,9 +8,3 @@ public void Slerp(ref Matrix3x3 matrix1, ref Matrix3x3 matrix2, float amount, 
 
 Performs spherical linear interpolation of position and rotation.
 
-### Returns
-
-### Example
-
-### Remarks
-

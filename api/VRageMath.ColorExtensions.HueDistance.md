@@ -8,9 +8,7 @@ public float HueDistance(Color color, float hue)
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public float HueDistance(Color color, Color otherColor)
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

@@ -8,7 +8,5 @@ public long Y
 
 ### Returns
 
-### Example
-
-### Remarks
+[long](System.Int64)
 

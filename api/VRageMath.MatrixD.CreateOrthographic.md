@@ -10,9 +10,7 @@ Builds an orthogonal projection matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[MatrixD](VRageMath.MatrixD)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void CreateOrthographic(double width, double height, double zNearPlane, d
 ```
 
 Builds an orthogonal projection matrix.
-
-### Returns
-
-### Example
-
-### Remarks
 

@@ -10,9 +10,7 @@ Gets the nearest player's position. Will only work if the remote control belongs
 
 ### Returns
 
+[bool](System.Boolean)
 
 
-### Example
-
-### Remarks
 

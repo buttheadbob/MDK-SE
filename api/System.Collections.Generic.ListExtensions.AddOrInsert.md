@@ -6,9 +6,3 @@
 public void AddOrInsert<T>(List<T> list, T item, int index)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

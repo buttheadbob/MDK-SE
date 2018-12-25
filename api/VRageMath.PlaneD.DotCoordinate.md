@@ -10,9 +10,7 @@ Returns the dot product of a specified Vector3D and the Normal vector of this Pl
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void DotCoordinate(ref Vector3D value, ref double result)
 ```
 
 Returns the dot product of a specified Vector3D and the Normal vector of this PlaneD plus the distance (D) value of the PlaneD.
-
-### Returns
-
-### Example
-
-### Remarks
 

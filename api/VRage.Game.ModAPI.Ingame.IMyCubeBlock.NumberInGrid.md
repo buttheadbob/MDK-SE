@@ -10,7 +10,5 @@ Order in which were the blocks of same type added to grid Used in default displa
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

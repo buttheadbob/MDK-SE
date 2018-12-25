@@ -8,7 +8,5 @@ public MatrixD SwapYZCoordinates(MatrixD m)
 
 ### Returns
 
-### Example
-
-### Remarks
+[MatrixD](VRageMath.MatrixD)
 

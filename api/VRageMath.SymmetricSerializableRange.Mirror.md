@@ -8,7 +8,5 @@ public bool Mirror { get; set; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

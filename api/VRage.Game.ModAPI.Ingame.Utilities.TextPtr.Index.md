@@ -8,7 +8,5 @@ public int Index
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

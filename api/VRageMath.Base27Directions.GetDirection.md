@@ -10,9 +10,7 @@ Vector must be normalized, allowed values for components are: 0, 1, -1, 0.707, -
 
 ### Returns
 
-### Example
-
-### Remarks
+[Direction](VRageMath.Base27Directions+Direction)
 
 ### Summary
 
@@ -22,9 +20,7 @@ public Direction GetDirection(Vector3I vec)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Direction](VRageMath.Base27Directions+Direction)
 
 ### Summary
 
@@ -34,9 +30,7 @@ public Direction GetDirection(ref Vector3 vec)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Direction](VRageMath.Base27Directions+Direction)
 
 ### Summary
 
@@ -46,7 +40,5 @@ public Direction GetDirection(ref Vector3I vec)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Direction](VRageMath.Base27Directions+Direction)
 

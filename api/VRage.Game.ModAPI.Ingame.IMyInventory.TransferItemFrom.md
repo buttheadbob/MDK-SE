@@ -8,9 +8,7 @@ public bool TransferItemFrom(IMyInventory sourceInventory, int sourceItemIndex, 
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public bool TransferItemFrom(IMyInventory sourceInventory, IMyInventoryItem item
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

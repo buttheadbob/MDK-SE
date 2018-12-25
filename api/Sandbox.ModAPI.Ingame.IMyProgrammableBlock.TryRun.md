@@ -10,9 +10,7 @@ Attempts to run this programmable block using the given argument. An already run
 
 ### Returns
 
+[bool](System.Boolean)
+
 `true`if the action was applied,`false`otherwise
-
-### Example
-
-### Remarks
 

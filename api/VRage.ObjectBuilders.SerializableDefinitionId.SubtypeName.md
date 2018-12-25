@@ -8,7 +8,5 @@ public string SubtypeName
 
 ### Returns
 
-### Example
-
-### Remarks
+[string](System.String)
 

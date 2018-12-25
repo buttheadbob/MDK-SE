@@ -10,9 +10,7 @@ Room can be pressurized
 
 ### Returns
 
+[bool](System.Boolean)
+
 true if containing room is airtight
-
-### Example
-
-### Remarks
 

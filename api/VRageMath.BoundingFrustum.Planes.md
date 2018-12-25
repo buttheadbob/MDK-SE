@@ -8,7 +8,5 @@ public Plane[] Planes { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[Plane[]](VRageMath.Plane[])
 

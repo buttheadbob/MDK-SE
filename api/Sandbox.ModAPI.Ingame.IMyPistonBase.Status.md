@@ -10,7 +10,5 @@ Gets the current status.
 
 ### Returns
 
-### Example
-
-### Remarks
+[PistonStatus](Sandbox.ModAPI.Ingame.PistonStatus)
 

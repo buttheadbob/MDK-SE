@@ -8,9 +8,3 @@ public void Stop()
 
 Stops the currently playing sound.
 
-### Returns
-
-### Example
-
-### Remarks
-

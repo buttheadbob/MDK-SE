@@ -10,7 +10,5 @@ Calculates the length squared of a QuaternionD.
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

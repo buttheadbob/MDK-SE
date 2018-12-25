@@ -10,9 +10,7 @@ Creates a Rectangle defining the area where one rectangle overlaps with another 
 
 ### Returns
 
-### Example
-
-### Remarks
+[Rectangle](VRageMath.Rectangle)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void Intersect(ref Rectangle value1, ref Rectangle value2, ref Rectang
 ```
 
 Creates a Rectangle defining the area where one rectangle overlaps with another rectangle.
-
-### Returns
-
-### Example
-
-### Remarks
 

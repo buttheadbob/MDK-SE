@@ -10,7 +10,5 @@ Keeps only component with maximal absolute, others are set to zero.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 

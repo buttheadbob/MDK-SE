@@ -10,7 +10,5 @@ Checks if there is an active projection
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

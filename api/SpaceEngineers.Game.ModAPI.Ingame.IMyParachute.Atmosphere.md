@@ -10,7 +10,5 @@ Atmospheric Density at the block. Returns 0.0f if not near a planet.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

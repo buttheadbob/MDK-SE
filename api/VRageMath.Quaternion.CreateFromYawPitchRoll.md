@@ -10,9 +10,7 @@ Creates a new Quaternion from specified yaw, pitch, and roll angles.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Quaternion](VRageMath.Quaternion)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void CreateFromYawPitchRoll(float yaw, float pitch, float roll, ref Quat
 ```
 
 Creates a new Quaternion from specified yaw, pitch, and roll angles.
-
-### Returns
-
-### Example
-
-### Remarks
 

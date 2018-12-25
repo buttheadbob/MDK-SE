@@ -8,7 +8,5 @@ public long EntityId { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[long](System.Int64)
 

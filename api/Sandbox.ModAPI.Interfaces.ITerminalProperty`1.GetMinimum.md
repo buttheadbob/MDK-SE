@@ -8,7 +8,5 @@ public TValue GetMinimum(IMyCubeBlock block)
 
 ### Returns
 
-### Example
-
-### Remarks
+[TValue]()
 

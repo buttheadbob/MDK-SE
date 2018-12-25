@@ -8,7 +8,5 @@ public Vector3I HalfExtents { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3I](VRageMath.Vector3I)
 

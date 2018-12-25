@@ -10,7 +10,5 @@ Determines the current status of the connector.
 
 ### Returns
 
-### Example
-
-### Remarks
+[MyShipConnectorStatus](Sandbox.ModAPI.Ingame.MyShipConnectorStatus)
 

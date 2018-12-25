@@ -10,7 +10,5 @@ Maximum deformation of block
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

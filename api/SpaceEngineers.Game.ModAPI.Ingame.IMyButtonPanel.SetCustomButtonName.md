@@ -8,9 +8,3 @@ public void SetCustomButtonName(int index, string name)
 
 Sets the custom button name.
 
-### Returns
-
-### Example
-
-### Remarks
-

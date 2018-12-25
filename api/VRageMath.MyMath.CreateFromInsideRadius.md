@@ -8,7 +8,5 @@ public BoundingBox CreateFromInsideRadius(float radius)
 
 ### Returns
 
-### Example
-
-### Remarks
+[BoundingBox](VRageMath.BoundingBox)
 

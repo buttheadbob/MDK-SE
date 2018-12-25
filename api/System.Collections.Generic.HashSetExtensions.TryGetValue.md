@@ -8,7 +8,5 @@ public bool TryGetValue<T>(HashSet<T> hashset, T equalValue, ref T actualValue)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

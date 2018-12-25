@@ -8,9 +8,7 @@ public Vector3 Round(Vector3 v)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public Vector3 Round(Vector3 v, int numDecimals)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 

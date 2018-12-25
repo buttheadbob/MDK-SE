@@ -8,7 +8,5 @@ public Vector2 SignNonZero(Vector2 value)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector2](VRageMath.Vector2)
 

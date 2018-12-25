@@ -8,7 +8,5 @@ public bool Has<T>()
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

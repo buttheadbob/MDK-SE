@@ -8,7 +8,5 @@ public long VolumeInt(float multiplier)
 
 ### Returns
 
-### Example
-
-### Remarks
+[long](System.Int64)
 

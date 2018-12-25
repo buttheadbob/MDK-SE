@@ -10,7 +10,5 @@ The entity's EntityId
 
 ### Returns
 
-### Example
-
-### Remarks
+[long](System.Int64)
 

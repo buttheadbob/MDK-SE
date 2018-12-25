@@ -10,7 +10,5 @@ The entity's absolute orientation at the time it was detected
 
 ### Returns
 
-### Example
-
-### Remarks
+[MatrixD](VRageMath.MatrixD)
 

@@ -8,7 +8,5 @@ public MatrixD Normalize(MatrixD matrix)
 
 ### Returns
 
-### Example
-
-### Remarks
+[MatrixD](VRageMath.MatrixD)
 

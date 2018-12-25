@@ -10,7 +10,5 @@ Finds the value at a position on the Curve.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

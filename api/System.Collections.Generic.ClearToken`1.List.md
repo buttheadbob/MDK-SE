@@ -8,7 +8,5 @@ public List<T> List
 
 ### Returns
 
-### Example
-
-### Remarks
+[List<T>](System.Collections.Generic.List`1)
 

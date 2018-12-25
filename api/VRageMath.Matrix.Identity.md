@@ -8,7 +8,5 @@ public Matrix Identity
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 

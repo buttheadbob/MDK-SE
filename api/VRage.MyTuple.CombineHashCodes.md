@@ -8,9 +8,7 @@ public int CombineHashCodes(int h1, int h2)
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 
 ### Summary
 
@@ -20,9 +18,7 @@ public int CombineHashCodes(int h1, int h2, int h3)
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 
 ### Summary
 
@@ -32,9 +28,7 @@ public int CombineHashCodes(int h1, int h2, int h3, int h4)
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 
 ### Summary
 
@@ -44,9 +38,7 @@ public int CombineHashCodes(int h1, int h2, int h3, int h4, int h5)
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 
 ### Summary
 
@@ -56,9 +48,7 @@ public int CombineHashCodes(int h1, int h2, int h3, int h4, int h5, int h6)
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 
 ### Summary
 
@@ -68,9 +58,7 @@ public int CombineHashCodes(int h1, int h2, int h3, int h4, int h5, int h6, int 
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 
 ### Summary
 
@@ -80,7 +68,5 @@ public int CombineHashCodes(int h1, int h2, int h3, int h4, int h5, int h6, int 
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

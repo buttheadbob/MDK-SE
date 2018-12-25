@@ -10,7 +10,5 @@ The distance of the Plane along its normal from the origin. Note: Be careful! Th
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

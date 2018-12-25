@@ -8,7 +8,5 @@ public TValue Pop<TValue>(List<T> self)
 
 ### Returns
 
-### Example
-
-### Remarks
+[TValue]()
 

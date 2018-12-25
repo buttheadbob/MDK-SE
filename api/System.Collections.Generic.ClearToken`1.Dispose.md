@@ -6,9 +6,3 @@
 public void Dispose()
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

@@ -10,7 +10,5 @@ Returns the greater of two values.
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

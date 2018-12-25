@@ -8,7 +8,5 @@ public int CountLeaves(int nodeId)
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

@@ -8,7 +8,5 @@ public virtual T GetAs<T>()
 
 ### Returns
 
-### Example
-
-### Remarks
+[T]()
 

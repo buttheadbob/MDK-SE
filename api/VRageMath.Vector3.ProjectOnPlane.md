@@ -10,9 +10,7 @@ Projects given vector on plane specified by it's normal.
 
 ### Returns
 
+[Vector3](VRageMath.Vector3)
+
 Vector projected on plane
-
-### Example
-
-### Remarks
 

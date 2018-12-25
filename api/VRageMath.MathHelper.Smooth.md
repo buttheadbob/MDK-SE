@@ -8,9 +8,7 @@ public int Smooth(int newValue, int lastSmooth)
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public float Smooth(float newValue, float lastSmooth)
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

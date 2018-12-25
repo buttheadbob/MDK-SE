@@ -10,7 +10,5 @@ Gets or sets rotor lock
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

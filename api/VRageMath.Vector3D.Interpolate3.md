@@ -6,9 +6,3 @@
 public void Interpolate3(Vector3D v0, Vector3D v1, double rt)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

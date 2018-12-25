@@ -10,7 +10,5 @@ Gets the hash code of this object.
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

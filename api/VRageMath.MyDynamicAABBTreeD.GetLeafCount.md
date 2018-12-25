@@ -8,7 +8,5 @@ public int GetLeafCount(int proxyId)
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

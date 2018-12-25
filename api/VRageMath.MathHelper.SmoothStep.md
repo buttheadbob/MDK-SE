@@ -10,9 +10,7 @@ Interpolates between two values using a cubic equation.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 
 ### Summary
 
@@ -24,7 +22,5 @@ Interpolates between two values using a cubic equation.
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

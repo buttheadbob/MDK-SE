@@ -10,7 +10,5 @@ Gets the lowest position the piston is capable of moving to.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

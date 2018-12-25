@@ -8,19 +8,11 @@ public Matrix CreateConstrainedBillboard(Vector3 objectPosition, Vector3 cameraP
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 
 ### Summary
 
 ```csharp
 public void CreateConstrainedBillboard(ref Vector3 objectPosition, ref Vector3 cameraPosition, ref Vector3 rotateAxis, Nullable<T> cameraForwardVector, Nullable<T> objectForwardVector, ref Matrix result)
 ```
-
-### Returns
-
-### Example
-
-### Remarks
 

@@ -8,7 +8,5 @@ public T5 Item5
 
 ### Returns
 
-### Example
-
-### Remarks
+[T5]()
 

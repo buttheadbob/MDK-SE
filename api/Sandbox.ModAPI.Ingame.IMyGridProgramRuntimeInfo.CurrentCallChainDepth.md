@@ -10,7 +10,5 @@ Gets the current number of nested method calls.
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 

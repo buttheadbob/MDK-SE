@@ -10,9 +10,7 @@ Calculates color from vector
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3](VRageMath.Vector3)
 
 ### Summary
 
@@ -22,7 +20,5 @@ public Vector4 VectorFromColor(byte red, byte green, byte blue, byte alpha)
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector4](VRageMath.Vector4)
 

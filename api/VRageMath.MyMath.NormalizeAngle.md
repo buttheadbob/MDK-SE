@@ -8,7 +8,5 @@ public float NormalizeAngle(float angle, float center)
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

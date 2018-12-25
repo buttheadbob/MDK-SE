@@ -8,7 +8,5 @@ public BoundingBox2 GetIncluded(Vector2 point)
 
 ### Returns
 
-### Example
-
-### Remarks
+[BoundingBox2](VRageMath.BoundingBox2)
 

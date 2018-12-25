@@ -10,9 +10,7 @@ Move a proxy with a swepted BoundingBox. If the proxy has moved outside of its f
 
 ### Returns
 
+[bool](System.Boolean)
+
 true if the proxy was re-inserted.
-
-### Example
-
-### Remarks
 

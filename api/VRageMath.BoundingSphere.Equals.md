@@ -10,9 +10,7 @@ Determines whether the specified BoundingSphere is equal to the current Bounding
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -24,7 +22,5 @@ Determines whether the specified Object is equal to the BoundingSphere.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

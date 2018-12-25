@@ -8,7 +8,5 @@ public bool ValueBetween(float value)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

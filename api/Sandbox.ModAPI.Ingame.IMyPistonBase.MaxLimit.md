@@ -10,7 +10,5 @@ Gets or sets the maximum position the piston can extend to. See [LowestPosition]
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

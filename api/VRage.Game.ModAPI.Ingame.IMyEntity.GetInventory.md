@@ -10,11 +10,9 @@ Simply get the MyInventoryBase component stored in this entity.
 
 ### Returns
 
+[IMyInventory](VRage.Game.ModAPI.Ingame.IMyInventory)
 
 
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -26,7 +24,5 @@ Search for inventory component with maching index.
 
 ### Returns
 
-### Example
-
-### Remarks
+[IMyInventory](VRage.Game.ModAPI.Ingame.IMyInventory)
 

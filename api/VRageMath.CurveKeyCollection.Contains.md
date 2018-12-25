@@ -10,7 +10,5 @@ Determines whether the CurveKeyCollection contains a specific CurveKey.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

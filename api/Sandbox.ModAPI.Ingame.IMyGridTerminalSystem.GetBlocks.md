@@ -6,9 +6,3 @@
 public void GetBlocks(List<T> blocks)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

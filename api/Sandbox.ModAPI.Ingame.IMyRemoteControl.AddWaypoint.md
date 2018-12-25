@@ -8,12 +8,6 @@ public void AddWaypoint(Vector3D coords, string name)
 
 Adds a new waypoint.
 
-### Returns
-
-### Example
-
-### Remarks
-
 ### Summary
 
 ```csharp
@@ -21,10 +15,4 @@ public void AddWaypoint(MyWaypointInfo coords)
 ```
 
 Adds a new waypoint.
-
-### Returns
-
-### Example
-
-### Remarks
 

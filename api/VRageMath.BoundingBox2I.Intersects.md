@@ -10,9 +10,7 @@ Checks whether the current BoundingBox2I intersects another BoundingBox2I.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -22,9 +20,7 @@ public bool Intersects(ref BoundingBox2I box)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -33,10 +29,4 @@ public void Intersects(ref BoundingBox2I box, ref bool result)
 ```
 
 Checks whether the current BoundingBox2I intersects another BoundingBox2I.
-
-### Returns
-
-### Example
-
-### Remarks
 

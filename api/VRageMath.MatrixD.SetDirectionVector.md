@@ -6,9 +6,3 @@
 public void SetDirectionVector(Direction direction, Vector3D newValue)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

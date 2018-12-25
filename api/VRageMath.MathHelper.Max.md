@@ -10,9 +10,7 @@ Returns the greater of two values.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 
 ### Summary
 
@@ -24,9 +22,7 @@ Returns the greater of two values.
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 
 ### Summary
 
@@ -36,9 +32,7 @@ public float Max(float a, float b, float c)
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 
 ### Summary
 
@@ -48,9 +42,7 @@ public int Max(int a, int b, int c)
 
 ### Returns
 
-### Example
-
-### Remarks
+[int](System.Int32)
 
 ### Summary
 
@@ -60,7 +52,5 @@ public double Max(double a, double b, double c)
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

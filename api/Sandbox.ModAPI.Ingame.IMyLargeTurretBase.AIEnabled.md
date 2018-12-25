@@ -10,7 +10,5 @@ Checks is AI is enabled for turret
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

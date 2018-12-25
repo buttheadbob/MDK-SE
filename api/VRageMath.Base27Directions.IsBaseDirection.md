@@ -8,9 +8,7 @@ public bool IsBaseDirection(ref Vector3 vec)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -20,9 +18,7 @@ public bool IsBaseDirection(ref Vector3I vec)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -32,7 +28,5 @@ public bool IsBaseDirection(Vector3 vec)
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

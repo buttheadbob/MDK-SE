@@ -8,7 +8,5 @@ public Vector3D CalculateBezierPoint(double t, Vector3D p0, Vector3D p1, Vector3
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3D](VRageMath.Vector3D)
 

@@ -8,9 +8,7 @@ public bool Intersect(Ray ray, ref Vector3 p1, ref Vector3 p2, ref Vector3 n1
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -20,7 +18,5 @@ public bool Intersect(Line line, ref Vector3 p1, ref Vector3 p2, ref Vector3 
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

@@ -10,9 +10,7 @@ Subtracts matrices.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void Subtract(ref MatrixD matrix1, ref MatrixD matrix2, ref MatrixD re
 ```
 
 Subtracts matrices.
-
-### Returns
-
-### Example
-
-### Remarks
 

@@ -10,9 +10,7 @@ Divides a QuaternionD by another QuaternionD.
 
 ### Returns
 
-### Example
-
-### Remarks
+[QuaternionD](VRageMath.QuaternionD)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void Divide(ref QuaternionD quaternion1, ref QuaternionD quaternion2, r
 ```
 
 Divides a QuaternionD by another QuaternionD.
-
-### Returns
-
-### Example
-
-### Remarks
 

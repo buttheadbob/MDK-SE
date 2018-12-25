@@ -8,7 +8,5 @@ public QuaternionD FromVector4(Vector4D v)
 
 ### Returns
 
-### Example
-
-### Remarks
+[QuaternionD](VRageMath.QuaternionD)
 

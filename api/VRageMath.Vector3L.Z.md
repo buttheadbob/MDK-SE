@@ -8,7 +8,5 @@ public long Z
 
 ### Returns
 
-### Example
-
-### Remarks
+[long](System.Int64)
 

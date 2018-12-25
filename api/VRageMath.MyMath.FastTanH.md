@@ -10,7 +10,5 @@ Fast approximation of Hyperbolic tangent Max deviation is <3%
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

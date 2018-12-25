@@ -10,7 +10,7 @@ Gets or sets if the sensor should detect enemy players.
 
 ### Returns
 
-### Example
+[bool](System.Boolean)
 
 ### Remarks
 

@@ -8,7 +8,5 @@ public float Damping { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

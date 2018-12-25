@@ -8,7 +8,5 @@ public StringBuilder Name { get; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[StringBuilder](System.Text.StringBuilder)
 

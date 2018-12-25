@@ -8,7 +8,5 @@ public bool Steering { get; set; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

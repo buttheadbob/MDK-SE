@@ -10,9 +10,7 @@ Checks whether the current BoundingSphere intersects with a specified BoundingBo
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -21,12 +19,6 @@ public void Intersects(ref BoundingBox box, ref bool result)
 ```
 
 Checks whether the current BoundingSphere intersects a BoundingBox.
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -38,9 +30,7 @@ Checks whether the current BoundingSphere intersects with a specified BoundingFr
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -52,9 +42,7 @@ Checks whether the current BoundingSphere intersects with a specified Plane.
 
 ### Returns
 
-### Example
-
-### Remarks
+[PlaneIntersectionType](VRageMath.PlaneIntersectionType)
 
 ### Summary
 
@@ -63,12 +51,6 @@ public void Intersects(ref Plane plane, ref PlaneIntersectionType result)
 ```
 
 Checks whether the current BoundingSphere intersects a Plane.
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -80,21 +62,13 @@ Checks whether the current BoundingSphere intersects with a specified Ray.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Nullable<T>](System.Nullable`1)
 
 ### Summary
 
 ```csharp
 public void Intersects(ref Ray ray, ref Nullable<T> result)
 ```
-
-### Returns
-
-### Example
-
-### Remarks
 
 ### Summary
 
@@ -106,9 +80,7 @@ Checks whether the current BoundingSphere intersects with a specified BoundingSp
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 
 ### Summary
 
@@ -117,10 +89,4 @@ public void Intersects(ref BoundingSphere sphere, ref bool result)
 ```
 
 Checks whether the current BoundingSphere intersects another BoundingSphere.
-
-### Returns
-
-### Example
-
-### Remarks
 

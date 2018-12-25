@@ -10,7 +10,5 @@ True if integrity is above breaking threshold
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

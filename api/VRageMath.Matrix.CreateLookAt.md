@@ -10,9 +10,7 @@ Creates a view matrix.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Matrix](VRageMath.Matrix)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void CreateLookAt(ref Vector3 cameraPosition, ref Vector3 cameraTarget,
 ```
 
 Creates a view matrix.
-
-### Returns
-
-### Example
-
-### Remarks
 

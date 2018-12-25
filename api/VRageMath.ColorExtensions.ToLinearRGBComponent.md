@@ -8,7 +8,5 @@ public float ToLinearRGBComponent(float c)
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

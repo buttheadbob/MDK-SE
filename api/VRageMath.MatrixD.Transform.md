@@ -10,9 +10,7 @@ Transforms a Matrix by applying a Quaternion rotation.
 
 ### Returns
 
-### Example
-
-### Remarks
+[MatrixD](VRageMath.MatrixD)
 
 ### Summary
 
@@ -21,10 +19,4 @@ public void Transform(ref MatrixD value, ref Quaternion rotation, ref MatrixD
 ```
 
 Transforms a Matrix by applying a Quaternion rotation.
-
-### Returns
-
-### Example
-
-### Remarks
 

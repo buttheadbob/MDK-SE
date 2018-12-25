@@ -10,9 +10,7 @@ Calculates rectangular distance of this vector, longerpreted as a polong, from t
 
 ### Returns
 
+[long](System.Int64)
 
 
-### Example
-
-### Remarks
 

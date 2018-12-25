@@ -10,7 +10,5 @@ Speed at which wheel steers.
 
 ### Returns
 
-### Example
-
-### Remarks
+[float](System.Single)
 

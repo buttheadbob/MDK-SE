@@ -10,7 +10,5 @@ Returns an enumerator that iterates through the CurveKeyCollection.
 
 ### Returns
 
-### Example
-
-### Remarks
+[IEnumerator<T>](System.Collections.Generic.IEnumerator`1)
 

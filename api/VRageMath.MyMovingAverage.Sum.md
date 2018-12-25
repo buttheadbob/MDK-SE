@@ -3,12 +3,10 @@
 ### Summary
 
 ```csharp
-public double Sum { get; private set; }
+public double Sum { get; }
 ```
 
 ### Returns
 
-### Example
-
-### Remarks
+[double](System.Double)
 

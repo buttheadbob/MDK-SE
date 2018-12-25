@@ -8,7 +8,5 @@ public Vector3D Zero
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3D](VRageMath.Vector3D)
 

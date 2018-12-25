@@ -10,7 +10,5 @@ Determines whether the autopilot is currently enabled.
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

@@ -8,7 +8,5 @@ public bool Propulsion { get; set; }
 
 ### Returns
 
-### Example
-
-### Remarks
+[bool](System.Boolean)
 

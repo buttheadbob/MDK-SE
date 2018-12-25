@@ -8,7 +8,5 @@ public BoundingBoxD GetAabb(int proxyId)
 
 ### Returns
 
-### Example
-
-### Remarks
+[BoundingBoxD](VRageMath.BoundingBoxD)
 

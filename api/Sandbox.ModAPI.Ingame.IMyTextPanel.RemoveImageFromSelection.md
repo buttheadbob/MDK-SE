@@ -6,9 +6,3 @@
 public void RemoveImageFromSelection(string id, bool removeDuplicates)
 ```
 
-### Returns
-
-### Example
-
-### Remarks
-

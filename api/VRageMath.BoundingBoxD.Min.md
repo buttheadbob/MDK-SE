@@ -10,7 +10,5 @@ The minimum point the BoundingBox contains.
 
 ### Returns
 
-### Example
-
-### Remarks
+[Vector3D](VRageMath.Vector3D)
 

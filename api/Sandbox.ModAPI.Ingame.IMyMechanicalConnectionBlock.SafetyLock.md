@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)
 
 ### Summary
 

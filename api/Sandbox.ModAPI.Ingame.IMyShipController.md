@@ -1,4 +1,4 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### IMyShipController Interface
 
@@ -17,10 +17,6 @@ public interface IMyShipController: IMyTerminalBlock, IMyCubeBlock, IMyEntity
 **Inheritors:**  
 * [IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit)  
 * [IMyRemoteControl](Sandbox.ModAPI.Ingame.IMyRemoteControl)
-
-#### Example
-
-#### Remarks
 
 #### Properties
 

@@ -1,17 +1,13 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### MyQuadD Struct
 
 ```csharp
-public struct MyQuadD: 
+public struct MyQuadD
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
-
-#### Example
-
-#### Remarks
 
 #### Fields
 

@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyGridProgramRuntimeInfo](Sandbox.ModAPI.Ingame.IMyGridProgramRuntimeInfo)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyGridProgramRuntimeInfo](Sandbox.ModAPI.Ingame.IMyGridProgramRuntimeInfo)
 
 ### Summary
 

@@ -1,19 +1,13 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### HyperSphereHelpers Class
 
 ```csharp
-public abstract sealed class HyperSphereHelpers: object
+public abstract sealed class HyperSphereHelpers
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
-
-**Inheritance:** [object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6)
-
-#### Example
-
-#### Remarks
 
 #### Methods
 

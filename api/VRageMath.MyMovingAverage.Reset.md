@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [MyMovingAverage](VRageMath.MyMovingAverage)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MyMovingAverage](VRageMath.MyMovingAverage)
 
 ### Summary
 

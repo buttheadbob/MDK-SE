@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [RectangleF](VRageMath.RectangleF)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [RectangleF](VRageMath.RectangleF)
 
 ### Summary
 

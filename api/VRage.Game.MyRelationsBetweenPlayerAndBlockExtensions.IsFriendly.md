@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [MyRelationsBetweenPlayerAndBlockExtensions](VRage.Game.MyRelationsBetweenPlayerAndBlockExtensions)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MyRelationsBetweenPlayerAndBlockExtensions](VRage.Game.MyRelationsBetweenPlayerAndBlockExtensions)
 
 ### Summary
 

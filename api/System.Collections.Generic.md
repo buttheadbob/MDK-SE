@@ -1,4 +1,4 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 # System.Collections.Generic
 

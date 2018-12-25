@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [HashSetExtensions](System.Collections.Generic.HashSetExtensions)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [HashSetExtensions](System.Collections.Generic.HashSetExtensions)
 
 ### Summary
 

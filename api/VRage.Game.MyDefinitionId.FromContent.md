@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [MyDefinitionId](VRage.Game.MyDefinitionId)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MyDefinitionId](VRage.Game.MyDefinitionId)
 
 ### Summary
 

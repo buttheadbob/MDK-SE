@@ -1,17 +1,13 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### MyTuple&lt;T1, T2&gt; Struct
 
 ```csharp
-public struct MyTuple<T1, T2>: 
+public struct MyTuple<T1, T2>
 ```
 
 **Namespace:** [VRage](VRage)  
 **Assembly:** VRage.Library.dll
-
-#### Example
-
-#### Remarks
 
 #### Fields
 

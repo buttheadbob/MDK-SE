@@ -1,19 +1,13 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### MySpaceTexts Class
 
 ```csharp
-public abstract sealed class MySpaceTexts: object
+public abstract sealed class MySpaceTexts
 ```
 
 **Namespace:** [Sandbox.Game.Localization](Sandbox.Game.Localization)  
 **Assembly:** Sandbox.Game.dll
-
-**Inheritance:** [object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6)
-
-#### Example
-
-#### Remarks
 
 #### Fields
 

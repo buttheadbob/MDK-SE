@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyAttachableTopBlock](Sandbox.ModAPI.Ingame.IMyAttachableTopBlock)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyAttachableTopBlock](Sandbox.ModAPI.Ingame.IMyAttachableTopBlock)
 
 ### Summary
 

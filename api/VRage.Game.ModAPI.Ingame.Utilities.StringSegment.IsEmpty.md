@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [StringSegment](VRage.Game.ModAPI.Ingame.Utilities.StringSegment)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [StringSegment](VRage.Game.ModAPI.Ingame.Utilities.StringSegment)
 
 ### Summary
 

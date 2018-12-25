@@ -1,4 +1,4 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### MyResourceSourceComponent Class
 
@@ -10,10 +10,6 @@ public class MyResourceSourceComponent: MyResourceSourceComponentBase
 **Assembly:** Sandbox.Game.dll
 
 **Inheritance:** [MyEntityComponentBase](VRage.Game.Components.MyEntityComponentBase) ˃ [MyResourceSourceComponentBase](VRage.Game.Components.MyResourceSourceComponentBase)
-
-#### Example
-
-#### Remarks
 
 #### Properties
 

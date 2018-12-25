@@ -1,4 +1,4 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### IMyMotorStator Interface
 
@@ -16,10 +16,6 @@ public interface IMyMotorStator: IMyMotorBase, IMyMechanicalConnectionBlock, IMy
 * [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
-
-#### Example
-
-#### Remarks
 
 #### Properties
 

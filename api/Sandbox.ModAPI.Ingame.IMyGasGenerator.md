@@ -1,4 +1,4 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### IMyGasGenerator Interface
 
@@ -16,10 +16,6 @@ Gas generator interface
 * [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
-
-#### Example
-
-#### Remarks
 
 #### Properties
 

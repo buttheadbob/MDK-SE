@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [DictionaryExtensions](System.Collections.Generic.DictionaryExtensions)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [DictionaryExtensions](System.Collections.Generic.DictionaryExtensions)
 
 ### Summary
 

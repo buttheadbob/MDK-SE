@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyCollector](Sandbox.ModAPI.Ingame.IMyCollector)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyCollector](Sandbox.ModAPI.Ingame.IMyCollector)
 
 ### Summary
 

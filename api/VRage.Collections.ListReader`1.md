@@ -1,4 +1,4 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### ListReader&lt;T&gt; Struct
 
@@ -12,10 +12,6 @@ public struct ListReader<T>: IEnumerable<T>, IEnumerable
 **Implements:**  
 * [IEnumerable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable?view=netframework-4.6)  
 * [IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerable?view=netframework-4.6)
-
-#### Example
-
-#### Remarks
 
 #### Fields
 

@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyLargeConveyorTurretBase](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyLargeConveyorTurretBase](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase)
 
 ### Summary
 

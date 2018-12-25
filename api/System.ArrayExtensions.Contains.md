@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [ArrayExtensions](System.ArrayExtensions)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [ArrayExtensions](System.ArrayExtensions)
 
 ### Summary
 

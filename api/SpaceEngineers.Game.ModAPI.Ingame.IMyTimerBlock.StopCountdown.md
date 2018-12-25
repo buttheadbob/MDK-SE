@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyTimerBlock](SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyTimerBlock](SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock)
 
 ### Summary
 

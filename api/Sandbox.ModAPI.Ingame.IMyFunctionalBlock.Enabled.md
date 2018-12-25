@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)
 
 ### Summary
 

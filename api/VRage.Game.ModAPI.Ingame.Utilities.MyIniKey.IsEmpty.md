@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey)
 
 ### Summary
 

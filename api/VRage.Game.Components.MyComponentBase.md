@@ -1,19 +1,13 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### MyComponentBase Class
 
 ```csharp
-public abstract class MyComponentBase: object
+public abstract class MyComponentBase
 ```
 
 **Namespace:** [VRage.Game.Components](VRage.Game.Components)  
 **Assembly:** VRage.Game.dll
-
-**Inheritance:** [object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6)
-
-#### Example
-
-#### Remarks
 
 #### Properties
 

@@ -1,17 +1,13 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### MyTransform Struct
 
 ```csharp
-public struct MyTransform: 
+public struct MyTransform
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
-
-#### Example
-
-#### Remarks
 
 #### Fields
 

@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [TerminalPropertyExtensions](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [TerminalPropertyExtensions](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions)
 
 ### Summary
 

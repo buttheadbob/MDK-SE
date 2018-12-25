@@ -1,21 +1,15 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### MathHelperD Class
 
 ```csharp
-public abstract sealed class MathHelperD: object
+public abstract sealed class MathHelperD
 ```
 
 Contains commonly used precalculated values.
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
-
-**Inheritance:** [object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6)
-
-#### Example
-
-#### Remarks
 
 #### Fields
 

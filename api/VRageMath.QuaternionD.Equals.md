@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [QuaternionD](VRageMath.QuaternionD)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [QuaternionD](VRageMath.QuaternionD)
 
 ### Summary
 

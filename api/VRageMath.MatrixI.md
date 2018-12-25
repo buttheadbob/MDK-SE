@@ -1,17 +1,13 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### MatrixI Struct
 
 ```csharp
-public struct MatrixI: 
+public struct MatrixI
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
-
-#### Example
-
-#### Remarks
 
 #### Fields
 

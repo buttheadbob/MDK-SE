@@ -1,4 +1,4 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### Vector4I Struct
 
@@ -11,10 +11,6 @@ public struct Vector4I: IComparable<T>
 
 **Implements:**  
 * [IComparable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.icomparable?view=netframework-4.6)
-
-#### Example
-
-#### Remarks
 
 #### Fields
 

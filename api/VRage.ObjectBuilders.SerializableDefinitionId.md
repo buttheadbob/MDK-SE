@@ -1,17 +1,13 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### SerializableDefinitionId Struct
 
 ```csharp
-public struct SerializableDefinitionId: 
+public struct SerializableDefinitionId
 ```
 
 **Namespace:** [VRage.ObjectBuilders](VRage.ObjectBuilders)  
 **Assembly:** VRage.Game.dll
-
-#### Example
-
-#### Remarks
 
 #### Fields
 

@@ -1,21 +1,15 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### Curve Class
 
 ```csharp
-public class Curve: object
+public class Curve
 ```
 
 Stores an arbitrary collection of 2D CurveKey points, and provides methods for evaluating features of the curve they define.
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
-
-**Inheritance:** [object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6)
-
-#### Example
-
-#### Remarks
 
 #### Properties
 

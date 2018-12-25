@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [BoxCornerEnumerator](VRageMath.BoxCornerEnumerator)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [BoxCornerEnumerator](VRageMath.BoxCornerEnumerator)
 
 ### Summary
 

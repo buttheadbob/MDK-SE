@@ -1,4 +1,4 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### Color Struct
 
@@ -15,10 +15,6 @@ Represents a four-component color using red, green, blue, and alpha data.
 * [IPackedVector<TPacked>](VRageMath.PackedVector.IPackedVector`1)  
 * [IPackedVector](VRageMath.PackedVector.IPackedVector)  
 * [IEquatable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)
-
-#### Example
-
-#### Remarks
 
 #### Fields
 

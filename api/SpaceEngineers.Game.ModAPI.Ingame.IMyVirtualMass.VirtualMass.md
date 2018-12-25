@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyVirtualMass](SpaceEngineers.Game.ModAPI.Ingame.IMyVirtualMass)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyVirtualMass](SpaceEngineers.Game.ModAPI.Ingame.IMyVirtualMass)
 
 ### Summary
 

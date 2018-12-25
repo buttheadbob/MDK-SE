@@ -1,17 +1,13 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### SymmetricSerializableRange Struct
 
 ```csharp
-public struct SymmetricSerializableRange: 
+public struct SymmetricSerializableRange
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
-
-#### Example
-
-#### Remarks
 
 #### Fields
 

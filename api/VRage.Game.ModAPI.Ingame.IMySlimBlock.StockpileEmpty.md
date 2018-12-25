@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMySlimBlock](VRage.Game.ModAPI.Ingame.IMySlimBlock)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMySlimBlock](VRage.Game.ModAPI.Ingame.IMySlimBlock)
 
 ### Summary
 

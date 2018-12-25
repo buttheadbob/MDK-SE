@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyRemoteControl](Sandbox.ModAPI.Ingame.IMyRemoteControl)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyRemoteControl](Sandbox.ModAPI.Ingame.IMyRemoteControl)
 
 ### Summary
 

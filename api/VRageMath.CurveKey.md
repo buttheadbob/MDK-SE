@@ -1,9 +1,9 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### CurveKey Class
 
 ```csharp
-public class CurveKey: object, IEquatable<T>, IComparable<T>
+public class CurveKey: IEquatable<T>, IComparable<T>
 ```
 
 Represents a point in a multi-point curve.
@@ -11,15 +11,9 @@ Represents a point in a multi-point curve.
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-**Inheritance:** [object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6)
-
 **Implements:**  
 * [IEquatable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)  
 * [IComparable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.icomparable?view=netframework-4.6)
-
-#### Example
-
-#### Remarks
 
 #### Properties
 

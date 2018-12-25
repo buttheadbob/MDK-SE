@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyGridTerminalSystem](Sandbox.ModAPI.Ingame.IMyGridTerminalSystem)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyGridTerminalSystem](Sandbox.ModAPI.Ingame.IMyGridTerminalSystem)
 
 ### Summary
 

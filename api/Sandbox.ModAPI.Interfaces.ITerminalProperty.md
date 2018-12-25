@@ -1,9 +1,9 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### ITerminalProperty Interface
 
 ```csharp
-public interface ITerminalProperty: 
+public interface ITerminalProperty
 ```
 
 Terminal block property definition
@@ -13,10 +13,6 @@ Terminal block property definition
 
 **Inheritors:**  
 * [ITerminalProperty<TValue>](Sandbox.ModAPI.Interfaces.ITerminalProperty`1)
-
-#### Example
-
-#### Remarks
 
 #### Properties
 

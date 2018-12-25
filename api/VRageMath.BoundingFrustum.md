@@ -1,9 +1,9 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### BoundingFrustum Class
 
 ```csharp
-public class BoundingFrustum: object, IEquatable<T>
+public class BoundingFrustum: IEquatable<T>
 ```
 
 Defines a frustum and helps determine whether forms intersect with it.
@@ -11,14 +11,8 @@ Defines a frustum and helps determine whether forms intersect with it.
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-**Inheritance:** [object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6)
-
 **Implements:**  
 * [IEquatable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)
-
-#### Example
-
-#### Remarks
 
 #### Fields
 

@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [MyBlockOrientation](VRageMath.MyBlockOrientation)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MyBlockOrientation](VRageMath.MyBlockOrientation)
 
 ### Summary
 

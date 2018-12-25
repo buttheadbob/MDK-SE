@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [MyGridProgram](Sandbox.ModAPI.Ingame.MyGridProgram)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MyGridProgram](Sandbox.ModAPI.Ingame.MyGridProgram)
 
 ### Summary
 

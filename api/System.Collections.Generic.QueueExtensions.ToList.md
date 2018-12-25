@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [QueueExtensions](System.Collections.Generic.QueueExtensions)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [QueueExtensions](System.Collections.Generic.QueueExtensions)
 
 ### Summary
 

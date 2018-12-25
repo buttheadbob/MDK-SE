@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [CurveKeyCollection](VRageMath.CurveKeyCollection)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [CurveKeyCollection](VRageMath.CurveKeyCollection)
 
 ### Summary
 

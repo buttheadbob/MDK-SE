@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMySmallGatlingGun](Sandbox.ModAPI.Ingame.IMySmallGatlingGun)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMySmallGatlingGun](Sandbox.ModAPI.Ingame.IMySmallGatlingGun)
 
 ### Summary
 

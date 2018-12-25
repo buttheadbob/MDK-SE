@@ -1,4 +1,4 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### IMyShipToolBase Interface
 
@@ -17,10 +17,6 @@ public interface IMyShipToolBase: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeB
 
 **Inheritors:**  
 * [IMyShipWelder](Sandbox.ModAPI.Ingame.IMyShipWelder)
-
-#### Example
-
-#### Remarks
 
 #### Properties
 

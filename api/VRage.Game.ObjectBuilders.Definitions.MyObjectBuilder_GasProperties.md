@@ -1,4 +1,4 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### MyObjectBuilder_GasProperties Class
 
@@ -10,10 +10,6 @@ public class MyObjectBuilder_GasProperties: MyObjectBuilder_DefinitionBase
 **Assembly:** VRage.Game.dll
 
 **Inheritance:** [MyObjectBuilder_DefinitionBase](VRage.Game.MyObjectBuilder_DefinitionBase)
-
-#### Example
-
-#### Remarks
 
 #### Fields
 

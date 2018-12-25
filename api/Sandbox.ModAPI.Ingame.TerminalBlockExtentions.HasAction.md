@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [TerminalBlockExtentions](Sandbox.ModAPI.Ingame.TerminalBlockExtentions)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [TerminalBlockExtentions](Sandbox.ModAPI.Ingame.TerminalBlockExtentions)
 
 ### Summary
 

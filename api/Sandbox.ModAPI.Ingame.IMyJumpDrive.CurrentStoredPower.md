@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyJumpDrive](Sandbox.ModAPI.Ingame.IMyJumpDrive)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyJumpDrive](Sandbox.ModAPI.Ingame.IMyJumpDrive)
 
 ### Summary
 

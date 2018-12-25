@@ -1,9 +1,9 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### IMyInventoryOwner Interface
 
 ```csharp
-public interface IMyInventoryOwner: 
+public interface IMyInventoryOwner
 ```
 
 **Namespace:** [VRage.Game.ModAPI.Ingame](VRage.Game.ModAPI.Ingame)  

@@ -1,4 +1,4 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### ClearToken&lt;T&gt; Struct
 
@@ -11,10 +11,6 @@ public struct ClearToken<T>: IDisposable
 
 **Implements:**  
 * [IDisposable](https://docs.microsoft.com/en-us/dotnet/api/system.idisposable?view=netframework-4.6)
-
-#### Example
-
-#### Remarks
 
 #### Fields
 

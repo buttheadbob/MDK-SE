@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter)
 
 ### Summary
 

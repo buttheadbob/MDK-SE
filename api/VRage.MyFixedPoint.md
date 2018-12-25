@@ -1,4 +1,4 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### MyFixedPoint Struct
 
@@ -13,10 +13,6 @@ Fixed point number represented as 64-bit integer with 6 decimal places (one mill
 
 **Implements:**  
 * [IXmlSerializable](https://docs.microsoft.com/en-us/dotnet/api/system.xml.serialization.ixmlserializable?view=netframework-4.6)
-
-#### Example
-
-#### Remarks
 
 #### Fields
 

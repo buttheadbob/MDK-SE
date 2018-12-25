@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [MyTexts](VRage.MyTexts)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MyTexts](VRage.MyTexts)
 
 ### Summary
 

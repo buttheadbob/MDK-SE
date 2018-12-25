@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyButtonPanel](SpaceEngineers.Game.ModAPI.Ingame.IMyButtonPanel)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyButtonPanel](SpaceEngineers.Game.ModAPI.Ingame.IMyButtonPanel)
 
 ### Summary
 

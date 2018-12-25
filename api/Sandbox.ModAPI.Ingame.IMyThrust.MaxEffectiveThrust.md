@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyThrust](Sandbox.ModAPI.Ingame.IMyThrust)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyThrust](Sandbox.ModAPI.Ingame.IMyThrust)
 
 ### Summary
 

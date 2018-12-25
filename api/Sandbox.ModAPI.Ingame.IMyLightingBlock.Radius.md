@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyLightingBlock](Sandbox.ModAPI.Ingame.IMyLightingBlock)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyLightingBlock](Sandbox.ModAPI.Ingame.IMyLightingBlock)
 
 ### Summary
 

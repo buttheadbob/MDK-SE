@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyCubeGrid](VRage.Game.ModAPI.Ingame.IMyCubeGrid)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyCubeGrid](VRage.Game.ModAPI.Ingame.IMyCubeGrid)
 
 ### Summary
 

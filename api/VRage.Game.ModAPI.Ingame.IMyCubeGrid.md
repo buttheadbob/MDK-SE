@@ -1,4 +1,4 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### IMyCubeGrid Interface
 
@@ -13,10 +13,6 @@ Grid interface
 
 **Implements:**  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
-
-#### Example
-
-#### Remarks
 
 #### Properties
 

@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [MyProductionItem](Sandbox.ModAPI.Ingame.MyProductionItem)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MyProductionItem](Sandbox.ModAPI.Ingame.MyProductionItem)
 
 ### Summary
 

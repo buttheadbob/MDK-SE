@@ -1,4 +1,4 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### IMyVirtualMass Interface
 
@@ -17,10 +17,6 @@ public interface IMyVirtualMass: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBl
 
 **Inheritors:**  
 * [IMySpaceBall](SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall)
-
-#### Example
-
-#### Remarks
 
 #### Properties
 

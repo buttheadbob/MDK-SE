@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit)
 
 ### Summary
 

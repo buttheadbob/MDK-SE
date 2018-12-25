@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [SerializableDefinitionId](VRage.ObjectBuilders.SerializableDefinitionId)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [SerializableDefinitionId](VRage.ObjectBuilders.SerializableDefinitionId)
 
 ### Summary
 

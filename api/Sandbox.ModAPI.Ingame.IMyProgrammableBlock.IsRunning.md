@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyProgrammableBlock](Sandbox.ModAPI.Ingame.IMyProgrammableBlock)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyProgrammableBlock](Sandbox.ModAPI.Ingame.IMyProgrammableBlock)
 
 ### Summary
 

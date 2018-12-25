@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyDoor](Sandbox.ModAPI.Ingame.IMyDoor)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyDoor](Sandbox.ModAPI.Ingame.IMyDoor)
 
 ### Summary
 

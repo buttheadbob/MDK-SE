@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyAirVent](SpaceEngineers.Game.ModAPI.Ingame.IMyAirVent)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyAirVent](SpaceEngineers.Game.ModAPI.Ingame.IMyAirVent)
 
 ### Summary
 

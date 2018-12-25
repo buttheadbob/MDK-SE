@@ -1,19 +1,15 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### MyIniValue Struct
 
 ```csharp
-public struct MyIniValue: 
+public struct MyIniValue
 ```
 
 Represents the value of a single configuration item.
 
 **Namespace:** [VRage.Game.ModAPI.Ingame.Utilities](VRage.Game.ModAPI.Ingame.Utilities)  
 **Assembly:** VRage.Game.dll
-
-#### Example
-
-#### Remarks
 
 #### Fields
 

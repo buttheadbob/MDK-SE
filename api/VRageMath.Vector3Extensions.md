@@ -1,21 +1,15 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### Vector3Extensions Class
 
 ```csharp
-public abstract sealed class Vector3Extensions: object
+public abstract sealed class Vector3Extensions
 ```
 
 Usefull Vector3 extensions
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
-
-**Inheritance:** [object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6)
-
-#### Example
-
-#### Remarks
 
 #### Methods
 

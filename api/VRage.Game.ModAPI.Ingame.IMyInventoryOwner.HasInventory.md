@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyInventoryOwner](VRage.Game.ModAPI.Ingame.IMyInventoryOwner)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyInventoryOwner](VRage.Game.ModAPI.Ingame.IMyInventoryOwner)
 
 ### Summary
 

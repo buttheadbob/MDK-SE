@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [HyperSphereHelpers](VRageMath.HyperSphereHelpers)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [HyperSphereHelpers](VRageMath.HyperSphereHelpers)
 
 ### Summary
 

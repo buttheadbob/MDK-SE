@@ -1,17 +1,13 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### MyShipMass Struct
 
 ```csharp
-public struct MyShipMass: 
+public struct MyShipMass
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
-
-#### Example
-
-#### Remarks
 
 #### Fields
 

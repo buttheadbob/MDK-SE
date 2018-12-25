@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyGravityGeneratorBase](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorBase)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyGravityGeneratorBase](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorBase)
 
 ### Summary
 

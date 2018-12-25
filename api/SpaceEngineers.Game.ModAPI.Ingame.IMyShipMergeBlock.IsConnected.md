@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyShipMergeBlock](SpaceEngineers.Game.ModAPI.Ingame.IMyShipMergeBlock)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyShipMergeBlock](SpaceEngineers.Game.ModAPI.Ingame.IMyShipMergeBlock)
 
 ### Summary
 

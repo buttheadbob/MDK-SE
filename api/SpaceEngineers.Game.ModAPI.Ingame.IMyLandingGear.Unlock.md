@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyLandingGear](SpaceEngineers.Game.ModAPI.Ingame.IMyLandingGear)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyLandingGear](SpaceEngineers.Game.ModAPI.Ingame.IMyLandingGear)
 
 ### Summary
 

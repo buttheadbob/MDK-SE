@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [TextPtr](VRage.Game.ModAPI.Ingame.Utilities.TextPtr)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [TextPtr](VRage.Game.ModAPI.Ingame.Utilities.TextPtr)
 
 ### Summary
 

@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [Point](VRageMath.Point)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [Point](VRageMath.Point)
 
 ### Summary
 

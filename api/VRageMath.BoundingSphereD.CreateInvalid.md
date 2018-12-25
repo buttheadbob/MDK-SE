@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [BoundingSphereD](VRageMath.BoundingSphereD)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [BoundingSphereD](VRageMath.BoundingSphereD)
 
 ### Summary
 

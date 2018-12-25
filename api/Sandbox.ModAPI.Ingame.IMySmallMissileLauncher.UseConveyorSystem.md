@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMySmallMissileLauncher](Sandbox.ModAPI.Ingame.IMySmallMissileLauncher)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMySmallMissileLauncher](Sandbox.ModAPI.Ingame.IMySmallMissileLauncher)
 
 ### Summary
 

@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [Base27Directions](VRageMath.Base27Directions)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [Base27Directions](VRageMath.Base27Directions)
 
 ### Summary
 

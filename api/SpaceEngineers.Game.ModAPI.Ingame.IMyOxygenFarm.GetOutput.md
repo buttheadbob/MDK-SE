@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyOxygenFarm](SpaceEngineers.Game.ModAPI.Ingame.IMyOxygenFarm)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyOxygenFarm](SpaceEngineers.Game.ModAPI.Ingame.IMyOxygenFarm)
 
 ### Summary
 

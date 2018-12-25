@@ -1,4 +1,4 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### Matrix3x3 Struct
 
@@ -13,10 +13,6 @@ Defines a matrix.
 
 **Implements:**  
 * [IEquatable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)
-
-#### Example
-
-#### Remarks
 
 #### Fields
 

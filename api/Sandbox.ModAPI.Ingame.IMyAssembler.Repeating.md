@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyAssembler](Sandbox.ModAPI.Ingame.IMyAssembler)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyAssembler](Sandbox.ModAPI.Ingame.IMyAssembler)
 
 ### Summary
 

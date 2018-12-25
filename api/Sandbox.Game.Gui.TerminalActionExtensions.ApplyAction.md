@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [TerminalActionExtensions](Sandbox.Game.Gui.TerminalActionExtensions)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [TerminalActionExtensions](Sandbox.Game.Gui.TerminalActionExtensions)
 
 ### Summary
 

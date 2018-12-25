@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [BoundingFrustumExtensions](VRageMath.BoundingFrustumExtensions)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [BoundingFrustumExtensions](VRageMath.BoundingFrustumExtensions)
 
 ### Summary
 

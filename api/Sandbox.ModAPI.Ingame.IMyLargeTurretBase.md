@@ -1,4 +1,4 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### IMyLargeTurretBase Interface
 
@@ -18,10 +18,6 @@ public interface IMyLargeTurretBase: IMyUserControllableGun, IMyFunctionalBlock,
 
 **Inheritors:**  
 * [IMyLargeConveyorTurretBase](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase)
-
-#### Example
-
-#### Remarks
 
 #### Properties
 

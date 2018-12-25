@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [MyShort4](VRageMath.MyShort4)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MyShort4](VRageMath.MyShort4)
 
 ### Summary
 

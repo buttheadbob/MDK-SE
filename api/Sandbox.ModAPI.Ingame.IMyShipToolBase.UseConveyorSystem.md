@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyShipToolBase](Sandbox.ModAPI.Ingame.IMyShipToolBase)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyShipToolBase](Sandbox.ModAPI.Ingame.IMyShipToolBase)
 
 ### Summary
 

@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel)
 
 ### Summary
 

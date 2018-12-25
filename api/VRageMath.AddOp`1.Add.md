@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [AddOp<T>](VRageMath.AddOp`1)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [AddOp<T>](VRageMath.AddOp`1)
 
 ### Summary
 

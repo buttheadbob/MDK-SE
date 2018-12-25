@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyBlockGroup](Sandbox.ModAPI.Ingame.IMyBlockGroup)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyBlockGroup](Sandbox.ModAPI.Ingame.IMyBlockGroup)
 
 ### Summary
 

@@ -1,4 +1,4 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### Point Struct
 
@@ -13,10 +13,6 @@ Defines a point in 2D space.
 
 **Implements:**  
 * [IEquatable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)
-
-#### Example
-
-#### Remarks
 
 #### Fields
 

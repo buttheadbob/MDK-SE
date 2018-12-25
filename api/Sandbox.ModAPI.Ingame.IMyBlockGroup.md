@@ -1,17 +1,13 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### IMyBlockGroup Interface
 
 ```csharp
-public interface IMyBlockGroup: 
+public interface IMyBlockGroup
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
-
-#### Example
-
-#### Remarks
 
 #### Properties
 

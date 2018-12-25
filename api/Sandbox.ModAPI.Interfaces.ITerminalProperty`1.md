@@ -1,4 +1,4 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### ITerminalProperty&lt;TValue&gt; Interface
 
@@ -11,10 +11,6 @@ public interface ITerminalProperty<TValue>: ITerminalProperty
 
 **Implements:**  
 * [ITerminalProperty](Sandbox.ModAPI.Interfaces.ITerminalProperty)
-
-#### Example
-
-#### Remarks
 
 #### Properties
 

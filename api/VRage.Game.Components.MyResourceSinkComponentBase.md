@@ -1,4 +1,4 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### MyResourceSinkComponentBase Class
 
@@ -13,10 +13,6 @@ public abstract class MyResourceSinkComponentBase: MyEntityComponentBase
 
 **Inheritors:**  
 * [MyResourceSinkComponent](Sandbox.Game.EntityComponents.MyResourceSinkComponent)
-
-#### Example
-
-#### Remarks
 
 #### Properties
 

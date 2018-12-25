@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMySensorBlock](Sandbox.ModAPI.Ingame.IMySensorBlock)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMySensorBlock](Sandbox.ModAPI.Ingame.IMySensorBlock)
 
 ### Summary
 

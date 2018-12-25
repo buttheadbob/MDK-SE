@@ -1,21 +1,15 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### TerminalPropertyExtensions Class
 
 ```csharp
-public abstract sealed class TerminalPropertyExtensions: object
+public abstract sealed class TerminalPropertyExtensions
 ```
 
 Terminal block extension for property access
 
 **Namespace:** [Sandbox.ModAPI.Interfaces](Sandbox.ModAPI.Interfaces)  
 **Assembly:** Sandbox.Common.dll
-
-**Inheritance:** [object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6)
-
-#### Example
-
-#### Remarks
 
 #### Methods
 

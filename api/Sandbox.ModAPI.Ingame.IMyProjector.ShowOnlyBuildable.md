@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyProjector](Sandbox.ModAPI.Ingame.IMyProjector)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyProjector](Sandbox.ModAPI.Ingame.IMyProjector)
 
 ### Summary
 

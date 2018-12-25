@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [Vector4I](VRageMath.Vector4I)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [Vector4I](VRageMath.Vector4I)
 
 ### Summary
 

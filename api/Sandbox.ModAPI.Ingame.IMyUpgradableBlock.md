@@ -1,4 +1,4 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### IMyUpgradableBlock Interface
 
@@ -14,10 +14,6 @@ interface to retrieve upgrade effects on block
 **Implements:**  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
-
-#### Example
-
-#### Remarks
 
 #### Properties
 

@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [MyOrientedBoundingBox](VRageMath.MyOrientedBoundingBox)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MyOrientedBoundingBox](VRageMath.MyOrientedBoundingBox)
 
 ### Summary
 

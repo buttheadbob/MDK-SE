@@ -1,4 +1,4 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### MyResourceSourceComponentBase Class
 
@@ -13,10 +13,6 @@ public abstract class MyResourceSourceComponentBase: MyEntityComponentBase
 
 **Inheritors:**  
 * [MyResourceSourceComponent](Sandbox.Game.EntityComponents.MyResourceSourceComponent)
-
-#### Example
-
-#### Remarks
 
 #### Methods
 

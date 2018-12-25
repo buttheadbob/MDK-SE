@@ -1,4 +1,4 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### IMyRemoteControl Interface
 
@@ -14,10 +14,6 @@ public interface IMyRemoteControl: IMyShipController, IMyTerminalBlock, IMyCubeB
 * [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
-
-#### Example
-
-#### Remarks
 
 #### Properties
 

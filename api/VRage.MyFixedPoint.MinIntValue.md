@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [MyFixedPoint](VRage.MyFixedPoint)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MyFixedPoint](VRage.MyFixedPoint)
 
 ### Summary
 

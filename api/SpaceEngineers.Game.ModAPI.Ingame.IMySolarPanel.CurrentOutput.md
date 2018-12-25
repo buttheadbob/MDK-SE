@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMySolarPanel](SpaceEngineers.Game.ModAPI.Ingame.IMySolarPanel)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMySolarPanel](SpaceEngineers.Game.ModAPI.Ingame.IMySolarPanel)
 
 ### Summary
 

@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyReactor](Sandbox.ModAPI.Ingame.IMyReactor)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyReactor](Sandbox.ModAPI.Ingame.IMyReactor)
 
 ### Summary
 

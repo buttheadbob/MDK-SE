@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [MyCommandLine](VRage.Game.ModAPI.Ingame.Utilities.MyCommandLine)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MyCommandLine](VRage.Game.ModAPI.Ingame.Utilities.MyCommandLine)
 
 ### Summary
 

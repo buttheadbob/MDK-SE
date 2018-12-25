@@ -1,19 +1,15 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### CompressedPositionOrientation Struct
 
 ```csharp
-public struct CompressedPositionOrientation: 
+public struct CompressedPositionOrientation
 ```
 
 Defines a matrix.
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
-
-#### Example
-
-#### Remarks
 
 #### Fields
 

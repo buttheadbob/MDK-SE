@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [MyObjectBuilder_GasProperties](VRage.Game.ObjectBuilders.Definitions.MyObjectBuilder_GasProperties)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MyObjectBuilder_GasProperties](VRage.Game.ObjectBuilders.Definitions.MyObjectBuilder_GasProperties)
 
 ### Summary
 

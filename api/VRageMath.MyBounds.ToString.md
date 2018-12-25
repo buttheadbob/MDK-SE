@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [MyBounds](VRageMath.MyBounds)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MyBounds](VRageMath.MyBounds)
 
 ### Summary
 

@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [Capsule](VRageMath.Capsule)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [Capsule](VRageMath.Capsule)
 
 ### Summary
 

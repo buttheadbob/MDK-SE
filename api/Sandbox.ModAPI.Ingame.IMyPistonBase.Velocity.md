@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyPistonBase](Sandbox.ModAPI.Ingame.IMyPistonBase)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyPistonBase](Sandbox.ModAPI.Ingame.IMyPistonBase)
 
 ### Summary
 

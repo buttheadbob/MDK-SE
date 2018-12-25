@@ -1,4 +1,4 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### MyResourceSinkComponent Class
 
@@ -10,10 +10,6 @@ public class MyResourceSinkComponent: MyResourceSinkComponentBase
 **Assembly:** Sandbox.Game.dll
 
 **Inheritance:** [MyEntityComponentBase](VRage.Game.Components.MyEntityComponentBase) ˃ [MyResourceSinkComponentBase](VRage.Game.Components.MyResourceSinkComponentBase)
-
-#### Example
-
-#### Remarks
 
 #### Properties
 

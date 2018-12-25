@@ -1,4 +1,4 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### IMyMechanicalConnectionBlock Interface
 
@@ -19,10 +19,6 @@ public interface IMyMechanicalConnectionBlock: IMyFunctionalBlock, IMyTerminalBl
 * [IMyMotorStator](Sandbox.ModAPI.Ingame.IMyMotorStator)  
 * [IMyPistonBase](Sandbox.ModAPI.Ingame.IMyPistonBase)  
 * [IMyMotorSuspension](Sandbox.ModAPI.Ingame.IMyMotorSuspension)
-
-#### Example
-
-#### Remarks
 
 #### Properties
 

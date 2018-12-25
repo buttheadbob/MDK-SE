@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [CompressedPositionOrientation](VRageMath.CompressedPositionOrientation)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [CompressedPositionOrientation](VRageMath.CompressedPositionOrientation)
 
 ### Summary
 

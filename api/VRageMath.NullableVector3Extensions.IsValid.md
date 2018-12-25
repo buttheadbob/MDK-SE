@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [NullableVector3Extensions](VRageMath.NullableVector3Extensions)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [NullableVector3Extensions](VRageMath.NullableVector3Extensions)
 
 ### Summary
 

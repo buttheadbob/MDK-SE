@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyGyro](Sandbox.ModAPI.Ingame.IMyGyro)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyGyro](Sandbox.ModAPI.Ingame.IMyGyro)
 
 ### Summary
 

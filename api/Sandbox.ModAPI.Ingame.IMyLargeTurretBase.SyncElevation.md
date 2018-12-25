@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)
 
 ### Summary
 

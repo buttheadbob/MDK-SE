@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyGasGenerator](Sandbox.ModAPI.Ingame.IMyGasGenerator)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyGasGenerator](Sandbox.ModAPI.Ingame.IMyGasGenerator)
 
 ### Summary
 

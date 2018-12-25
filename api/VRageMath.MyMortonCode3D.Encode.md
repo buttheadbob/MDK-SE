@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [MyMortonCode3D](VRageMath.MyMortonCode3D)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MyMortonCode3D](VRageMath.MyMortonCode3D)
 
 ### Summary
 

@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [ColorExtensions](VRageMath.ColorExtensions)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [ColorExtensions](VRageMath.ColorExtensions)
 
 ### Summary
 

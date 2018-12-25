@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [ITerminalAction](Sandbox.ModAPI.Interfaces.ITerminalAction)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [ITerminalAction](Sandbox.ModAPI.Interfaces.ITerminalAction)
 
 ### Summary
 

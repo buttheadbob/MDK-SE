@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyOxygenTank](Sandbox.ModAPI.Ingame.IMyOxygenTank)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyOxygenTank](Sandbox.ModAPI.Ingame.IMyOxygenTank)
 
 ### Summary
 

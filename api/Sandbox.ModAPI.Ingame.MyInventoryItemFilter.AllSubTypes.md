@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [MyInventoryItemFilter](Sandbox.ModAPI.Ingame.MyInventoryItemFilter)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MyInventoryItemFilter](Sandbox.ModAPI.Ingame.MyInventoryItemFilter)
 
 ### Summary
 

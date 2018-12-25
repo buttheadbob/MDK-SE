@@ -1,17 +1,13 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### IMyGridTerminalSystem Interface
 
 ```csharp
-public interface IMyGridTerminalSystem: 
+public interface IMyGridTerminalSystem
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
-
-#### Example
-
-#### Remarks
 
 #### Methods
 

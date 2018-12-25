@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [BoundingBox2](VRageMath.BoundingBox2)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [BoundingBox2](VRageMath.BoundingBox2)
 
 ### Summary
 

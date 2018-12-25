@@ -1,4 +1,4 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### IMyUserControllableGun Interface
 
@@ -20,10 +20,6 @@ public interface IMyUserControllableGun: IMyFunctionalBlock, IMyTerminalBlock, I
 * [IMySmallGatlingGun](Sandbox.ModAPI.Ingame.IMySmallGatlingGun)  
 * [IMySmallMissileLauncher](Sandbox.ModAPI.Ingame.IMySmallMissileLauncher)  
 * [IMyLargeConveyorTurretBase](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase)
-
-#### Example
-
-#### Remarks
 
 #### Properties
 

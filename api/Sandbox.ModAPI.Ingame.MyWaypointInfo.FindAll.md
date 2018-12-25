@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [MyWaypointInfo](Sandbox.ModAPI.Ingame.MyWaypointInfo)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MyWaypointInfo](Sandbox.ModAPI.Ingame.MyWaypointInfo)
 
 ### Summary
 

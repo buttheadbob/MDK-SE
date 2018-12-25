@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyBeacon](Sandbox.ModAPI.Ingame.IMyBeacon)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyBeacon](Sandbox.ModAPI.Ingame.IMyBeacon)
 
 ### Summary
 

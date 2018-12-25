@@ -1,9 +1,9 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### CurveKeyCollection Class
 
 ```csharp
-public class CurveKeyCollection: object, ICollection<T>, IEnumerable<T>, IEnumerable
+public class CurveKeyCollection: ICollection<T>, IEnumerable<T>, IEnumerable
 ```
 
 Contains the CurveKeys making up a Curve.
@@ -11,16 +11,10 @@ Contains the CurveKeys making up a Curve.
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-**Inheritance:** [object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6)
-
 **Implements:**  
 * [ICollection<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.icollection?view=netframework-4.6)  
 * [IEnumerable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable?view=netframework-4.6)  
 * [IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerable?view=netframework-4.6)
-
-#### Example
-
-#### Remarks
 
 #### Properties
 

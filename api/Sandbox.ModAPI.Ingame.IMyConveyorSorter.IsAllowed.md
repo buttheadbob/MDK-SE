@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyConveyorSorter](Sandbox.ModAPI.Ingame.IMyConveyorSorter)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyConveyorSorter](Sandbox.ModAPI.Ingame.IMyConveyorSorter)
 
 ### Summary
 

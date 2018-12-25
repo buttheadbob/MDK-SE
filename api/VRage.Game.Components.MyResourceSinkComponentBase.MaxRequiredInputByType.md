@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [MyResourceSinkComponentBase](VRage.Game.Components.MyResourceSinkComponentBase)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MyResourceSinkComponentBase](VRage.Game.Components.MyResourceSinkComponentBase)
 
 ### Summary
 

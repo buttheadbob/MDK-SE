@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [Plane](VRageMath.Plane)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [Plane](VRageMath.Plane)
 
 ### Summary
 

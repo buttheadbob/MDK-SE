@@ -1,4 +1,4 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### IMyGravityGeneratorBase Interface
 
@@ -18,10 +18,6 @@ public interface IMyGravityGeneratorBase: IMyFunctionalBlock, IMyTerminalBlock, 
 **Inheritors:**  
 * [IMyGravityGenerator](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGenerator)  
 * [IMyGravityGeneratorSphere](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorSphere)
-
-#### Example
-
-#### Remarks
 
 #### Properties
 

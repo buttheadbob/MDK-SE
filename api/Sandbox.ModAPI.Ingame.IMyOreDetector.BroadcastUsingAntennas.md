@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyOreDetector](Sandbox.ModAPI.Ingame.IMyOreDetector)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyOreDetector](Sandbox.ModAPI.Ingame.IMyOreDetector)
 
 ### Summary
 

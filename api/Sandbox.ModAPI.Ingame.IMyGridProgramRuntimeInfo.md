@@ -1,19 +1,15 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### IMyGridProgramRuntimeInfo Interface
 
 ```csharp
-public interface IMyGridProgramRuntimeInfo: 
+public interface IMyGridProgramRuntimeInfo
 ```
 
 Provides runtime info for a running grid program.
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
-
-#### Example
-
-#### Remarks
 
 #### Properties
 

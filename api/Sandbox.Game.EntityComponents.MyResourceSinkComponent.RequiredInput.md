@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [MyResourceSinkComponent](Sandbox.Game.EntityComponents.MyResourceSinkComponent)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MyResourceSinkComponent](Sandbox.Game.EntityComponents.MyResourceSinkComponent)
 
 ### Summary
 

@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [MyTransform](VRageMath.MyTransform)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MyTransform](VRageMath.MyTransform)
 
 ### Summary
 

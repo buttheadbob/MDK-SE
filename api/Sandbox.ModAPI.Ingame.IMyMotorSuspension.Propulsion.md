@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyMotorSuspension](Sandbox.ModAPI.Ingame.IMyMotorSuspension)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyMotorSuspension](Sandbox.ModAPI.Ingame.IMyMotorSuspension)
 
 ### Summary
 

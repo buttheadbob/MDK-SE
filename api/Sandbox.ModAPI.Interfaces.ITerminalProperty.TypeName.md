@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [ITerminalProperty](Sandbox.ModAPI.Interfaces.ITerminalProperty)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [ITerminalProperty](Sandbox.ModAPI.Interfaces.ITerminalProperty)
 
 ### Summary
 

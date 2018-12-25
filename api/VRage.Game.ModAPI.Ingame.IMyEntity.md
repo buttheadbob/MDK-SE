@@ -1,9 +1,9 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### IMyEntity Interface
 
 ```csharp
-public interface IMyEntity: 
+public interface IMyEntity
 ```
 
 Ingame (Programmable Block) interface for all entities.
@@ -73,10 +73,6 @@ Ingame (Programmable Block) interface for all entities.
 * [IMyLargeConveyorTurretBase](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyCubeGrid](VRage.Game.ModAPI.Ingame.IMyCubeGrid)
-
-#### Example
-
-#### Remarks
 
 #### Properties
 

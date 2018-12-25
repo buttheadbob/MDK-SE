@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [MyCuboid](VRageMath.MyCuboid)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MyCuboid](VRageMath.MyCuboid)
 
 ### Summary
 

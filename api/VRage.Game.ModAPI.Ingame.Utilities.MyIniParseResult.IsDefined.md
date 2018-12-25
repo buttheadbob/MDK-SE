@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult)
 
 ### Summary
 

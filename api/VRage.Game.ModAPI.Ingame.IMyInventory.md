@@ -1,17 +1,13 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### IMyInventory Interface
 
 ```csharp
-public interface IMyInventory: 
+public interface IMyInventory
 ```
 
 **Namespace:** [VRage.Game.ModAPI.Ingame](VRage.Game.ModAPI.Ingame)  
 **Assembly:** VRage.Game.dll
-
-#### Example
-
-#### Remarks
 
 #### Properties
 

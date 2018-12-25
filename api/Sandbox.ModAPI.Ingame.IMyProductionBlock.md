@@ -1,4 +1,4 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### IMyProductionBlock Interface
 
@@ -17,10 +17,6 @@ public interface IMyProductionBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCu
 
 **Inheritors:**  
 * [IMyAssembler](Sandbox.ModAPI.Ingame.IMyAssembler)
-
-#### Example
-
-#### Remarks
 
 #### Properties
 

@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [MyTuple<T1, T2>](VRage.MyTuple`2)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MyTuple<T1, T2>](VRage.MyTuple`2)
 
 ### Summary
 

@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [MyQuadD](VRageMath.MyQuadD)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MyQuadD](VRageMath.MyQuadD)
 
 ### Summary
 

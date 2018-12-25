@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [ClearToken<T>](System.Collections.Generic.ClearToken`1)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [ClearToken<T>](System.Collections.Generic.ClearToken`1)
 
 ### Summary
 

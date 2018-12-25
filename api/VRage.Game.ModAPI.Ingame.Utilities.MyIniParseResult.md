@@ -1,19 +1,15 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### MyIniParseResult Struct
 
 ```csharp
-public struct MyIniParseResult: 
+public struct MyIniParseResult
 ```
 
 Represents the results of a configuration parsing.
 
 **Namespace:** [VRage.Game.ModAPI.Ingame.Utilities](VRage.Game.ModAPI.Ingame.Utilities)  
 **Assembly:** VRage.Game.dll
-
-#### Example
-
-#### Remarks
 
 #### Fields
 

@@ -1,9 +1,9 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### MyIni Class
 
 ```csharp
-public class MyIni: object
+public class MyIni
 ```
 
 A configuration class to parse and create a text string resembling the old fashioned INI format, but with support for multiline values.  
@@ -12,8 +12,6 @@ Do not forget that parsing is a time-consuming task. Keep your parsing to a mini
 
 **Namespace:** [VRage.Game.ModAPI.Ingame.Utilities](VRage.Game.ModAPI.Ingame.Utilities)  
 **Assembly:** VRage.Game.dll
-
-**Inheritance:** [object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6)
 
 #### Example
 

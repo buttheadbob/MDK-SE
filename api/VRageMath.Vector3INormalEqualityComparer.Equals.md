@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [Vector3INormalEqualityComparer](VRageMath.Vector3INormalEqualityComparer)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [Vector3INormalEqualityComparer](VRageMath.Vector3INormalEqualityComparer)
 
 ### Summary
 

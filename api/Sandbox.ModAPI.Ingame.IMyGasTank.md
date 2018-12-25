@@ -1,4 +1,4 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### IMyGasTank Interface
 
@@ -17,10 +17,6 @@ public interface IMyGasTank: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock,
 
 **Inheritors:**  
 * [IMyOxygenTank](Sandbox.ModAPI.Ingame.IMyOxygenTank)
-
-#### Example
-
-#### Remarks
 
 #### Properties
 

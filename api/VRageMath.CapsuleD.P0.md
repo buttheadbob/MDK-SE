@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [CapsuleD](VRageMath.CapsuleD)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [CapsuleD](VRageMath.CapsuleD)
 
 ### Summary
 

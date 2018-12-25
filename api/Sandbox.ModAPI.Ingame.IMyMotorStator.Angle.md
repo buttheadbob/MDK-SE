@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyMotorStator](Sandbox.ModAPI.Ingame.IMyMotorStator)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyMotorStator](Sandbox.ModAPI.Ingame.IMyMotorStator)
 
 ### Summary
 

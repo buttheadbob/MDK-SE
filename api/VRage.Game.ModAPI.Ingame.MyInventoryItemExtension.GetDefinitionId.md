@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [MyInventoryItemExtension](VRage.Game.ModAPI.Ingame.MyInventoryItemExtension)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MyInventoryItemExtension](VRage.Game.ModAPI.Ingame.MyInventoryItemExtension)
 
 ### Summary
 

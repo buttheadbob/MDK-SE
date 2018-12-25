@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [MathHelperD](VRageMath.MathHelperD)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MathHelperD](VRageMath.MathHelperD)
 
 ### Summary
 

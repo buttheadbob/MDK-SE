@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [MyDetectedEntityInfo](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MyDetectedEntityInfo](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo)
 
 ### Summary
 

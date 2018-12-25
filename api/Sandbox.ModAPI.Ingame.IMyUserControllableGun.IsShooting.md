@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyUserControllableGun](Sandbox.ModAPI.Ingame.IMyUserControllableGun)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyUserControllableGun](Sandbox.ModAPI.Ingame.IMyUserControllableGun)
 
 ### Summary
 

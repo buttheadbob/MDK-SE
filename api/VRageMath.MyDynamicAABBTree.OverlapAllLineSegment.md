@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [MyDynamicAABBTree](VRageMath.MyDynamicAABBTree)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MyDynamicAABBTree](VRageMath.MyDynamicAABBTree)
 
 ### Summary
 

@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [ListExtensions](System.Collections.Generic.ListExtensions)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [ListExtensions](System.Collections.Generic.ListExtensions)
 
 ### Summary
 

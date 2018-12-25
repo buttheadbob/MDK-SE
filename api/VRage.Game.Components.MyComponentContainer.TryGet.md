@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [MyComponentContainer](VRage.Game.Components.MyComponentContainer)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MyComponentContainer](VRage.Game.Components.MyComponentContainer)
 
 ### Summary
 

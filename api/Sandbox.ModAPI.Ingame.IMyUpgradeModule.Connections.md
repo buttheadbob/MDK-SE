@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyUpgradeModule](Sandbox.ModAPI.Ingame.IMyUpgradeModule)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyUpgradeModule](Sandbox.ModAPI.Ingame.IMyUpgradeModule)
 
 ### Summary
 

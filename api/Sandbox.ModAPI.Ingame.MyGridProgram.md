@@ -1,17 +1,15 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### MyGridProgram Class
 
 ```csharp
-public abstract class MyGridProgram: object, IMyGridProgram
+public abstract class MyGridProgram: IMyGridProgram
 ```
 
 All programmable block scripts derive from this class, meaning that all properties in this class are directly available for use in your scripts. If you use Visual Studio or other external editors to write your scripts, you can derive directly from this class and have a compatible script template.
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
-
-**Inheritance:** [object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6)
 
 **Implements:**  
 * [IMyGridProgram](Sandbox.ModAPI.IMyGridProgram)
@@ -27,8 +25,6 @@ public void Main()
 }  
   
 ```
-
-#### Remarks
 
 #### Properties
 

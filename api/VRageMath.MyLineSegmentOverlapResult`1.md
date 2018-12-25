@@ -1,17 +1,13 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### MyLineSegmentOverlapResult&lt;T&gt; Struct
 
 ```csharp
-public struct MyLineSegmentOverlapResult<T>: 
+public struct MyLineSegmentOverlapResult<T>
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
-
-#### Example
-
-#### Remarks
 
 #### Fields
 

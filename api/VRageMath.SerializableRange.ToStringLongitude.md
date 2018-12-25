@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [SerializableRange](VRageMath.SerializableRange)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [SerializableRange](VRageMath.SerializableRange)
 
 ### Summary
 

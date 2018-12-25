@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyParachute](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyParachute](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute)
 
 ### Summary
 

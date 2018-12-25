@@ -1,19 +1,15 @@
-← [Index](Api-Index)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
 #### Vector3I_RangeIterator Struct
 
 ```csharp
-public struct Vector3I_RangeIterator: 
+public struct Vector3I_RangeIterator
 ```
 
 A class for simpler traversal of ranges of integer vectors
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
-
-#### Example
-
-#### Remarks
 
 #### Fields
 

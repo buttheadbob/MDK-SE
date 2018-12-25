@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [IMyBatteryBlock](Sandbox.ModAPI.Ingame.IMyBatteryBlock)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyBatteryBlock](Sandbox.ModAPI.Ingame.IMyBatteryBlock)
 
 ### Summary
 

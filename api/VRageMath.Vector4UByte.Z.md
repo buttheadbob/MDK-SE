@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [Vector4UByte](VRageMath.Vector4UByte)
 
-[byte](System.Byte) Z
-
+```csharp[byte](System.Byte) Z```

@@ -1,8 +1,6 @@
 ← [Index](Api-Index) ← [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)
 
-[Vector3I](VRageMath.Vector3I) Position
-
-## Summary
+```csharp[Vector3I](VRageMath.Vector3I) Position```##### Summary
 
 Position in grid coordinates
 

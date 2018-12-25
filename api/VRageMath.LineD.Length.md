@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [LineD](VRageMath.LineD)
 
-[double](System.Double) Length
-
+```csharp[double](System.Double) Length```

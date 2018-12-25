@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [MyOrientedBoundingBoxD](VRageMath.MyOrientedBoundingBoxD)
 
-[int](System.Int32) GetHashCode()
-
+```csharp[int](System.Int32) GetHashCode()```

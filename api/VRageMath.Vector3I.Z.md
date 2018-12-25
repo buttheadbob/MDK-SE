@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [Vector3I](VRageMath.Vector3I)
 
-[int](System.Int32) Z
-
+```csharp[int](System.Int32) Z```

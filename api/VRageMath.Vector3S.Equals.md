@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [Vector3S](VRageMath.Vector3S)
 
-[bool](System.Boolean) Equals([object](System.Object) obj)
-
+```csharp[bool](System.Boolean) Equals([object](System.Object) obj)```

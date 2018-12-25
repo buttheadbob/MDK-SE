@@ -1,14 +1,11 @@
 ← [Index](Api-Index) ← [RectangleF](VRageMath.RectangleF)
 
-[bool](System.Boolean) Equals([RectangleF](VRageMath.RectangleF) other)
-
-## Summary
+```csharp[bool](System.Boolean) Equals([RectangleF](VRageMath.RectangleF) other)```##### Summary
 
 Determines whether the specified [System.Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6) is equal to this instance.
 
-## Returns
+##### Returns
 
 `true`if the specified [System.Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6) is equal to this instance; otherwise,`false`.
 
-[bool](System.Boolean) Equals([object](System.Object) obj)
-
+```csharp[bool](System.Boolean) Equals([object](System.Object) obj)```

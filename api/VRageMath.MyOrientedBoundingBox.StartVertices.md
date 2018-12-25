@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [MyOrientedBoundingBox](VRageMath.MyOrientedBoundingBox)
 
-System.Int32[] StartVertices
-
+```csharpSystem.Int32[] StartVertices```

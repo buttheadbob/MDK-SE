@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [IMyReactor](Sandbox.ModAPI.Ingame.IMyReactor)
 
-[bool](System.Boolean) UseConveyorSystem
-
+```csharp[bool](System.Boolean) UseConveyorSystem```

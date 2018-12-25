@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [MatrixD](VRageMath.MatrixD)
 
-[bool](System.Boolean) IsValid()
-
+```csharp[bool](System.Boolean) IsValid()```

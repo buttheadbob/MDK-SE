@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [BoundingBoxI](VRageMath.BoundingBoxI)
 
-[float](System.Single) SurfaceArea()
-
+```csharp[float](System.Single) SurfaceArea()```

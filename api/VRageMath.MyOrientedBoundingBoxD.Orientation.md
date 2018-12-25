@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [MyOrientedBoundingBoxD](VRageMath.MyOrientedBoundingBoxD)
 
-[Quaternion](VRageMath.Quaternion) Orientation
-
+```csharp[Quaternion](VRageMath.Quaternion) Orientation```

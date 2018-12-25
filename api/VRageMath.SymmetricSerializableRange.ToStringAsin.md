@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [SymmetricSerializableRange](VRageMath.SymmetricSerializableRange)
 
-[string](System.String) ToStringAsin()
-
+```csharp[string](System.String) ToStringAsin()```

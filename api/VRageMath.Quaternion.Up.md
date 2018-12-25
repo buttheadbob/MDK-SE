@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [Quaternion](VRageMath.Quaternion)
 
-[Vector3](VRageMath.Vector3) Up
-
+```csharp[Vector3](VRageMath.Vector3) Up```

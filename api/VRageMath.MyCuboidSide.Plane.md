@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [MyCuboidSide](VRageMath.MyCuboidSide)
 
-[Plane](VRageMath.Plane) Plane
-
+```csharp[Plane](VRageMath.Plane) Plane```

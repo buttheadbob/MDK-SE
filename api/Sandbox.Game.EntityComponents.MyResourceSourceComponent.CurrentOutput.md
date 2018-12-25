@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [MyResourceSourceComponent](Sandbox.Game.EntityComponents.MyResourceSourceComponent)
 
-[float](System.Single) CurrentOutput
-
+```csharp[float](System.Single) CurrentOutput```

@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 
-[bool](System.Boolean) ShowOnHUD
-
+```csharp[bool](System.Boolean) ShowOnHUD```

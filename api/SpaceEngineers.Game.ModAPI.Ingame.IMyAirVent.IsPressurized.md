@@ -1,12 +1,10 @@
 ← [Index](Api-Index) ← [IMyAirVent](SpaceEngineers.Game.ModAPI.Ingame.IMyAirVent)
 
-[bool](System.Boolean) IsPressurized()
-
-## Summary
+```csharp[bool](System.Boolean) IsPressurized()```##### Summary
 
 Room can be pressurized
 
-## Returns
+##### Returns
 
 true if containing room is airtight
 

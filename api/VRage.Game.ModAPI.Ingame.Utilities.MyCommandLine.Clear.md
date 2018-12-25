@@ -1,8 +1,6 @@
 ← [Index](Api-Index) ← [MyCommandLine](VRage.Game.ModAPI.Ingame.Utilities.MyCommandLine)
 
-void Clear()
-
-## Summary
+```csharpvoid Clear()```##### Summary
 
 Clears all arguments
 

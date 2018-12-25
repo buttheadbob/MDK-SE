@@ -1,12 +1,10 @@
 ← [Index](Api-Index) ← [BoundingBoxI](VRageMath.BoundingBoxI)
 
-[float](System.Single) Perimeter
-
-## Summary
+```csharp[float](System.Single) Perimeter```##### Summary
 
 return perimeter of edges
 
-## Returns
+##### Returns
 
 
 

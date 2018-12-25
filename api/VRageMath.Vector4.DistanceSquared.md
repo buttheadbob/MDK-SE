@@ -1,14 +1,10 @@
 ← [Index](Api-Index) ← [Vector4](VRageMath.Vector4)
 
-[float](System.Single) DistanceSquared([Vector4](VRageMath.Vector4) value1, [Vector4](VRageMath.Vector4) value2)
-
-## Summary
+```csharp[float](System.Single) DistanceSquared([Vector4](VRageMath.Vector4) value1, [Vector4](VRageMath.Vector4) value2)```##### Summary
 
 Calculates the distance between two vectors squared.
 
-void DistanceSquared(ref [Vector4](VRageMath.Vector4) value1, ref [Vector4](VRageMath.Vector4) value2, ref [float](System.Single) result)
-
-## Summary
+```csharpvoid DistanceSquared(ref [Vector4](VRageMath.Vector4) value1, ref [Vector4](VRageMath.Vector4) value2, ref [float](System.Single) result)```##### Summary
 
 Calculates the distance between two vectors squared.
 

@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [IMyInventory](VRage.Game.ModAPI.Ingame.IMyInventory)
 
-[MyFixedPoint](VRage.MyFixedPoint) CurrentVolume
-
+```csharp[MyFixedPoint](VRage.MyFixedPoint) CurrentVolume```

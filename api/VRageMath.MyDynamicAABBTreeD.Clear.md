@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [MyDynamicAABBTreeD](VRageMath.MyDynamicAABBTreeD)
 
-void Clear()
-
+```csharpvoid Clear()```

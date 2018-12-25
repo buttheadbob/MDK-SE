@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [SerializableDefinitionId](VRage.ObjectBuilders.SerializableDefinitionId)
 
-[bool](System.Boolean) IsNull()
-
+```csharp[bool](System.Boolean) IsNull()```

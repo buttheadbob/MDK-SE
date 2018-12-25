@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [IMyGravityGenerator](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGenerator)
 
-[float](System.Single) FieldDepth
-
+```csharp[float](System.Single) FieldDepth```

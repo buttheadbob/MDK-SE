@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [IMyMotorSuspension](Sandbox.ModAPI.Ingame.IMyMotorSuspension)
 
-[float](System.Single) Damping
-
+```csharp[float](System.Single) Damping```

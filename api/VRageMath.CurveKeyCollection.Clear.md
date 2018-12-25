@@ -1,8 +1,6 @@
 ← [Index](Api-Index) ← [CurveKeyCollection](VRageMath.CurveKeyCollection)
 
-void Clear()
-
-## Summary
+```csharpvoid Clear()```##### Summary
 
 Removes all CurveKeys from the CurveKeyCollection.
 

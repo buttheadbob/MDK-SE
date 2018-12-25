@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [MyFixedPoint](VRage.MyFixedPoint)
 
-[long](System.Int64) RawValue
-
+```csharp[long](System.Int64) RawValue```

@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [SerializableDefinitionId](VRage.ObjectBuilders.SerializableDefinitionId)
 
-[string](System.String) SubtypeName
-
+```csharp[string](System.String) SubtypeName```

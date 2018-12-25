@@ -1,8 +1,6 @@
 ← [Index](Api-Index) ← [Vector4](VRageMath.Vector4)
 
-[float](System.Single) W
-
-## Summary
+```csharp[float](System.Single) W```##### Summary
 
 Gets or sets the w-component of the vector.
 

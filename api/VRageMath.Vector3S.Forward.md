@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [Vector3S](VRageMath.Vector3S)
 
-[Vector3S](VRageMath.Vector3S) Forward
-
+```csharp[Vector3S](VRageMath.Vector3S) Forward```

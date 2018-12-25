@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [IMyInventoryOwner](VRage.Game.ModAPI.Ingame.IMyInventoryOwner)
 
-[bool](System.Boolean) UseConveyorSystem
-
+```csharp[bool](System.Boolean) UseConveyorSystem```

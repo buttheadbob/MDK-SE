@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [BoundingBox2D](VRageMath.BoundingBox2D)
 
-void Inflate([double](System.Double) size)
-
+```csharpvoid Inflate([double](System.Double) size)```

@@ -1,8 +1,6 @@
 ← [Index](Api-Index) ← [BoundingBoxI](VRageMath.BoundingBoxI)
 
-[Vector3I](VRageMath.Vector3I) Center
-
-## Summary
+```csharp[Vector3I](VRageMath.Vector3I) Center```##### Summary
 
 Calculates center
 

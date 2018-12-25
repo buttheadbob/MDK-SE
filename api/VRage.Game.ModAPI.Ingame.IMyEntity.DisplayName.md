@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
-[string](System.String) DisplayName
-
+```csharp[string](System.String) DisplayName```

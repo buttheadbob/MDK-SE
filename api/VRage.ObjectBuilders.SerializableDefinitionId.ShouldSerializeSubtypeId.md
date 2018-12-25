@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [SerializableDefinitionId](VRage.ObjectBuilders.SerializableDefinitionId)
 
-[bool](System.Boolean) ShouldSerializeSubtypeId()
-
+```csharp[bool](System.Boolean) ShouldSerializeSubtypeId()```

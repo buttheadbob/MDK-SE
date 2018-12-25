@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [MatrixI](VRageMath.MatrixI)
 
-[Direction](VRageMath.Base6Directions+Direction) Forward
-
+```csharp[Direction](VRageMath.Base6Directions+Direction) Forward```

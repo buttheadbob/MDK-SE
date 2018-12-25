@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [MatrixD](VRageMath.MatrixD)
 
-[bool](System.Boolean) IsMirrored()
-
+```csharp[bool](System.Boolean) IsMirrored()```

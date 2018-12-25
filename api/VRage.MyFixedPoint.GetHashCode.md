@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [MyFixedPoint](VRage.MyFixedPoint)
 
-[int](System.Int32) GetHashCode()
-
+```csharp[int](System.Int32) GetHashCode()```

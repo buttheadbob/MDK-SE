@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [MyResourceSinkComponent](Sandbox.Game.EntityComponents.MyResourceSinkComponent)
 
-[bool](System.Boolean) IsPowered
-
+```csharp[bool](System.Boolean) IsPowered```

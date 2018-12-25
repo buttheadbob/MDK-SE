@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [ITerminalAction](Sandbox.ModAPI.Interfaces.ITerminalAction)
 
-[string](System.String) Icon
-
+```csharp[string](System.String) Icon```

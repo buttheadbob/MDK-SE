@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [Vector3I](VRageMath.Vector3I)
 
-[EqualityComparer](VRageMath.Vector3I+EqualityComparer) Comparer
-
+```csharp[EqualityComparer](VRageMath.Vector3I+EqualityComparer) Comparer```

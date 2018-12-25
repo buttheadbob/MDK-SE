@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [MatrixI](VRageMath.MatrixI)
 
-void Invert(ref [MatrixI](VRageMath.MatrixI) matrix, ref [MatrixI](VRageMath.MatrixI) result)
-
+```csharpvoid Invert(ref [MatrixI](VRageMath.MatrixI) matrix, ref [MatrixI](VRageMath.MatrixI) result)```

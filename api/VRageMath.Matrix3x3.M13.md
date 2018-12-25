@@ -1,8 +1,6 @@
 ← [Index](Api-Index) ← [Matrix3x3](VRageMath.Matrix3x3)
 
-[float](System.Single) M13
-
-## Summary
+```csharp[float](System.Single) M13```##### Summary
 
 Value at row 1 column 3 of the matrix.
 

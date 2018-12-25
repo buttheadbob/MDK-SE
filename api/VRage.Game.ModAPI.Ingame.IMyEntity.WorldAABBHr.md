@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
-[BoundingBoxD](VRageMath.BoundingBoxD) WorldAABBHr
-
+```csharp[BoundingBoxD](VRageMath.BoundingBoxD) WorldAABBHr```

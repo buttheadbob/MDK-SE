@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [MyDynamicAABBTreeD](VRageMath.MyDynamicAABBTreeD)
 
-[int](System.Int32) Balance([int](System.Int32) iA)
-
+```csharp[int](System.Int32) Balance([int](System.Int32) iA)```

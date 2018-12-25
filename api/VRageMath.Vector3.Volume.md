@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [Vector3](VRageMath.Vector3)
 
-[float](System.Single) Volume
-
+```csharp[float](System.Single) Volume```

@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [MyBounds](VRageMath.MyBounds)
 
-[string](System.String) ToString()
-
+```csharp[string](System.String) ToString()```

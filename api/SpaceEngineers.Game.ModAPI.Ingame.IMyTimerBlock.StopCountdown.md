@@ -1,8 +1,6 @@
 ← [Index](Api-Index) ← [IMyTimerBlock](SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock)
 
-void StopCountdown()
-
-## Summary
+```csharpvoid StopCountdown()```##### Summary
 
 Stops current countdown
 

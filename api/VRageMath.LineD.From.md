@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [LineD](VRageMath.LineD)
 
-[Vector3D](VRageMath.Vector3D) From
-
+```csharp[Vector3D](VRageMath.Vector3D) From```

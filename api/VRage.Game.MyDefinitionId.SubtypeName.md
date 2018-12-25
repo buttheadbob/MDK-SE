@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [MyDefinitionId](VRage.Game.MyDefinitionId)
 
-[string](System.String) SubtypeName
-
+```csharp[string](System.String) SubtypeName```

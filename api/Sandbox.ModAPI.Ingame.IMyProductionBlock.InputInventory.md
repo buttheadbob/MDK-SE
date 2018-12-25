@@ -1,8 +1,6 @@
 ← [Index](Api-Index) ← [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)
 
-[IMyInventory](VRage.Game.ModAPI.Ingame.IMyInventory) InputInventory
-
-## Summary
+```csharp[IMyInventory](VRage.Game.ModAPI.Ingame.IMyInventory) InputInventory```##### Summary
 
 Gets the input inventory.
 

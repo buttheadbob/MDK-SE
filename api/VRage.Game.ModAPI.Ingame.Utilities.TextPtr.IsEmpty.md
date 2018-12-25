@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [TextPtr](VRage.Game.ModAPI.Ingame.Utilities.TextPtr)
 
-[bool](System.Boolean) IsEmpty
-
+```csharp[bool](System.Boolean) IsEmpty```

@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [MyFixedPoint](VRage.MyFixedPoint)
 
-[bool](System.Boolean) Equals([object](System.Object) obj)
-
+```csharp[bool](System.Boolean) Equals([object](System.Object) obj)```

@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [MatrixD](VRageMath.MatrixD)
 
-[MatrixD](VRageMath.MatrixD) Normalize([MatrixD](VRageMath.MatrixD) matrix)
-
+```csharp[MatrixD](VRageMath.MatrixD) Normalize([MatrixD](VRageMath.MatrixD) matrix)```

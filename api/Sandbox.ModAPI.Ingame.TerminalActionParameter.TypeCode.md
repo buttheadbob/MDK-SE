@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter)
 
-System.TypeCode TypeCode
-
+```csharpSystem.TypeCode TypeCode```

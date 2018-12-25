@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [IMyLightingBlock](Sandbox.ModAPI.Ingame.IMyLightingBlock)
 
-[float](System.Single) BlinkLenght
-
+```csharp[float](System.Single) BlinkLenght```

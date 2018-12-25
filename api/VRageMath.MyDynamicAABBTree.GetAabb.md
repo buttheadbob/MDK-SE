@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [MyDynamicAABBTree](VRageMath.MyDynamicAABBTree)
 
-[BoundingBox](VRageMath.BoundingBox) GetAabb([int](System.Int32) proxyId)
-
+```csharp[BoundingBox](VRageMath.BoundingBox) GetAabb([int](System.Int32) proxyId)```

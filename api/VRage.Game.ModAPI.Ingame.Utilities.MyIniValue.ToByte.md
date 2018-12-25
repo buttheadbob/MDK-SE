@@ -1,12 +1,10 @@
 ← [Index](Api-Index) ← [MyIniValue](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue)
 
-[byte](System.Byte) ToByte([byte](System.Byte) defaultValue)
-
-## Summary
+```csharp[byte](System.Byte) ToByte([byte](System.Byte) defaultValue)```##### Summary
 
 Attempts to get this value as a [System.Byte](https://docs.microsoft.com/en-us/dotnet/api/system.byte?view=netframework-4.6) . If the value is empty or cannot be understood as this data type, the defaultValue will be returned instead.
 
-## Returns
+##### Returns
 
 
 

@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)
 
-void UpdateVisual()
-
+```csharpvoid UpdateVisual()```

@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [LineD](VRageMath.LineD)
 
-[BoundingBoxD](VRageMath.BoundingBoxD) GetBoundingBox()
-
+```csharp[BoundingBoxD](VRageMath.BoundingBoxD) GetBoundingBox()```

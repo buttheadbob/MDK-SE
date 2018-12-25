@@ -1,12 +1,10 @@
 ← [Index](Api-Index) ← [BoundingBoxI](VRageMath.BoundingBoxI)
 
-[Vector3I](VRageMath.Vector3I) Size
-
-## Summary
+```csharp[Vector3I](VRageMath.Vector3I) Size```##### Summary
 
 Size
 
-## Returns
+##### Returns
 
 
 

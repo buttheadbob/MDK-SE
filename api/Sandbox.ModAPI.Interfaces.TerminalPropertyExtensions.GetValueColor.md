@@ -1,12 +1,10 @@
 ← [Index](Api-Index) ← [TerminalPropertyExtensions](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions)
 
-[Color](VRageMath.Color) GetValueColor([IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock) block, [string](System.String) propertyId)
-
-## Summary
+```csharp[Color](VRageMath.Color) GetValueColor([IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock) block, [string](System.String) propertyId)```##### Summary
 
 Returns value of specified property
 
-## Returns
+##### Returns
 
 property value as Color
 

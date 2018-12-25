@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [SerializableDefinitionId](VRage.ObjectBuilders.SerializableDefinitionId)
 
-[string](System.String) ToString()
-
+```csharp[string](System.String) ToString()```

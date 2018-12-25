@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [Matrix](VRageMath.Matrix)
 
-[Vector3](VRageMath.Vector3) Scale
-
+```csharp[Vector3](VRageMath.Vector3) Scale```

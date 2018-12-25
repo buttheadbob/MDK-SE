@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [Vector3I](VRageMath.Vector3I)
 
-[Vector3I](VRageMath.Vector3I) Shift([Vector3I](VRageMath.Vector3I) value)
-
+```csharp[Vector3I](VRageMath.Vector3I) Shift([Vector3I](VRageMath.Vector3I) value)```

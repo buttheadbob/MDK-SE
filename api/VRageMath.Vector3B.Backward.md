@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [Vector3B](VRageMath.Vector3B)
 
-[Vector3B](VRageMath.Vector3B) Backward
-
+```csharp[Vector3B](VRageMath.Vector3B) Backward```

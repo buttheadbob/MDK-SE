@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [TextPtr](VRage.Game.ModAPI.Ingame.Utilities.TextPtr)
 
-[string](System.String) Content
-
+```csharp[string](System.String) Content```

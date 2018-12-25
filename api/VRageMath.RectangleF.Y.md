@@ -1,8 +1,6 @@
 ← [Index](Api-Index) ← [RectangleF](VRageMath.RectangleF)
 
-[float](System.Single) Y
-
-## Summary
+```csharp[float](System.Single) Y```##### Summary
 
 Top coordinate.
 

@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [MyOrientedBoundingBox](VRageMath.MyOrientedBoundingBox)
 
-[Vector3[]](VRageMath.Vector3[]) XNeighbourVectorsBack
-
+```csharp[Vector3[]](VRageMath.Vector3[]) XNeighbourVectorsBack```

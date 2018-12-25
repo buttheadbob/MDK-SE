@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [MyResourceSinkComponent](Sandbox.Game.EntityComponents.MyResourceSinkComponent)
 
-[float](System.Single) CurrentInput
-
+```csharp[float](System.Single) CurrentInput```

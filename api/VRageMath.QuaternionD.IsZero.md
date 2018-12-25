@@ -1,6 +1,3 @@
 ← [Index](Api-Index) ← [QuaternionD](VRageMath.QuaternionD)
 
-[bool](System.Boolean) IsZero([QuaternionD](VRageMath.QuaternionD) value)
-
-[bool](System.Boolean) IsZero([QuaternionD](VRageMath.QuaternionD) value, [double](System.Double) epsilon)
-
+```csharp[bool](System.Boolean) IsZero([QuaternionD](VRageMath.QuaternionD) value)``````csharp[bool](System.Boolean) IsZero([QuaternionD](VRageMath.QuaternionD) value, [double](System.Double) epsilon)```

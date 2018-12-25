@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [MyBounds](VRageMath.MyBounds)
 
-[float](System.Single) Clamp([float](System.Single) value)
-
+```csharp[float](System.Single) Clamp([float](System.Single) value)```

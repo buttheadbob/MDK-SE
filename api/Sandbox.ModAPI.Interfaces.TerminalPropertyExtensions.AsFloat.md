@@ -1,12 +1,10 @@
 ← [Index](Api-Index) ← [TerminalPropertyExtensions](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions)
 
-[ITerminalProperty<TValue>](Sandbox.ModAPI.Interfaces.ITerminalProperty`1) AsFloat([ITerminalProperty](Sandbox.ModAPI.Interfaces.ITerminalProperty) property)
-
-## Summary
+```csharp[ITerminalProperty<TValue>](Sandbox.ModAPI.Interfaces.ITerminalProperty`1) AsFloat([ITerminalProperty](Sandbox.ModAPI.Interfaces.ITerminalProperty) property)```##### Summary
 
 Property type cast
 
-## Returns
+##### Returns
 
 reference to [Sandbox.ModAPI.Interfaces.ITerminalProperty`1](https://docs.microsoft.com/en-us/dotnet/api/sandbox.modapi.interfaces.iterminalproperty`1?view=netframework-4.6) value of specified type (float)
 

@@ -1,6 +1,3 @@
 ← [Index](Api-Index) ← [Vector3L](VRageMath.Vector3L)
 
-[Vector3L](VRageMath.Vector3L) Sign([Vector3](VRageMath.Vector3) value)
-
-[Vector3L](VRageMath.Vector3L) Sign([Vector3L](VRageMath.Vector3L) value)
-
+```csharp[Vector3L](VRageMath.Vector3L) Sign([Vector3](VRageMath.Vector3) value)``````csharp[Vector3L](VRageMath.Vector3L) Sign([Vector3L](VRageMath.Vector3L) value)```

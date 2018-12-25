@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [IMySmallGatlingGun](Sandbox.ModAPI.Ingame.IMySmallGatlingGun)
 
-[bool](System.Boolean) UseConveyorSystem
-
+```csharp[bool](System.Boolean) UseConveyorSystem```

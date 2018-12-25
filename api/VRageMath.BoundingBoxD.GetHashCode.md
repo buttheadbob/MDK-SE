@@ -1,8 +1,6 @@
 ← [Index](Api-Index) ← [BoundingBoxD](VRageMath.BoundingBoxD)
 
-[int](System.Int32) GetHashCode()
-
-## Summary
+```csharp[int](System.Int32) GetHashCode()```##### Summary
 
 Gets the hash code for this instance.
 

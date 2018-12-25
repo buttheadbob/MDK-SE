@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [MyBlockOrientation](VRageMath.MyBlockOrientation)
 
-[MyBlockOrientation](VRageMath.MyBlockOrientation) Identity
-
+```csharp[MyBlockOrientation](VRageMath.MyBlockOrientation) Identity```

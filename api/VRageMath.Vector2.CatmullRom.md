@@ -1,14 +1,10 @@
 ← [Index](Api-Index) ← [Vector2](VRageMath.Vector2)
 
-[Vector2](VRageMath.Vector2) CatmullRom([Vector2](VRageMath.Vector2) value1, [Vector2](VRageMath.Vector2) value2, [Vector2](VRageMath.Vector2) value3, [Vector2](VRageMath.Vector2) value4, [float](System.Single) amount)
-
-## Summary
+```csharp[Vector2](VRageMath.Vector2) CatmullRom([Vector2](VRageMath.Vector2) value1, [Vector2](VRageMath.Vector2) value2, [Vector2](VRageMath.Vector2) value3, [Vector2](VRageMath.Vector2) value4, [float](System.Single) amount)```##### Summary
 
 Performs a Catmull-Rom interpolation using the specified positions.
 
-void CatmullRom(ref [Vector2](VRageMath.Vector2) value1, ref [Vector2](VRageMath.Vector2) value2, ref [Vector2](VRageMath.Vector2) value3, ref [Vector2](VRageMath.Vector2) value4, [float](System.Single) amount, ref [Vector2](VRageMath.Vector2) result)
-
-## Summary
+```csharpvoid CatmullRom(ref [Vector2](VRageMath.Vector2) value1, ref [Vector2](VRageMath.Vector2) value2, ref [Vector2](VRageMath.Vector2) value3, ref [Vector2](VRageMath.Vector2) value4, [float](System.Single) amount, ref [Vector2](VRageMath.Vector2) result)```##### Summary
 
 Performs a Catmull-Rom interpolation using the specified positions.
 

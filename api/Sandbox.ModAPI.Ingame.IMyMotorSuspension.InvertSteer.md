@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [IMyMotorSuspension](Sandbox.ModAPI.Ingame.IMyMotorSuspension)
 
-[bool](System.Boolean) InvertSteer
-
+```csharp[bool](System.Boolean) InvertSteer```

@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [SerializableRange](VRageMath.SerializableRange)
 
-[float](System.Single) Min
-
+```csharp[float](System.Single) Min```

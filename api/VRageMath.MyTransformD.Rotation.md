@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [MyTransformD](VRageMath.MyTransformD)
 
-[Quaternion](VRageMath.Quaternion) Rotation
-
+```csharp[Quaternion](VRageMath.Quaternion) Rotation```

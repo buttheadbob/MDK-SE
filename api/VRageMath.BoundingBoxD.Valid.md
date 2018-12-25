@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [BoundingBoxD](VRageMath.BoundingBoxD)
 
-[bool](System.Boolean) Valid
-
+```csharp[bool](System.Boolean) Valid```

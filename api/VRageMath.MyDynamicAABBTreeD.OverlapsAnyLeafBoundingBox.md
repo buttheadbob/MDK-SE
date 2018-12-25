@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [MyDynamicAABBTreeD](VRageMath.MyDynamicAABBTreeD)
 
-[bool](System.Boolean) OverlapsAnyLeafBoundingBox(ref [BoundingBoxD](VRageMath.BoundingBoxD) bbox)
-
+```csharp[bool](System.Boolean) OverlapsAnyLeafBoundingBox(ref [BoundingBoxD](VRageMath.BoundingBoxD) bbox)```

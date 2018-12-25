@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [IMyBeacon](Sandbox.ModAPI.Ingame.IMyBeacon)
 
-[float](System.Single) Radius
-
+```csharp[float](System.Single) Radius```

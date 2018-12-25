@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [IMyBatteryBlock](Sandbox.ModAPI.Ingame.IMyBatteryBlock)
 
-[bool](System.Boolean) OnlyRecharge
-
+```csharp[bool](System.Boolean) OnlyRecharge```

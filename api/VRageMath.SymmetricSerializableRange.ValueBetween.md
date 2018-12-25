@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [SymmetricSerializableRange](VRageMath.SymmetricSerializableRange)
 
-[bool](System.Boolean) ValueBetween([float](System.Single) value)
-
+```csharp[bool](System.Boolean) ValueBetween([float](System.Single) value)```

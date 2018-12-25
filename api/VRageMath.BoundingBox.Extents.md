@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [BoundingBox](VRageMath.BoundingBox)
 
-[Vector3](VRageMath.Vector3) Extents
-
+```csharp[Vector3](VRageMath.Vector3) Extents```

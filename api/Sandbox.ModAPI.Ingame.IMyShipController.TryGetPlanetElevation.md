@@ -1,12 +1,10 @@
 ← [Index](Api-Index) ← [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)
 
-[bool](System.Boolean) TryGetPlanetElevation([MyPlanetElevation](Sandbox.ModAPI.Ingame.MyPlanetElevation) detail, ref [double](System.Double) elevation)
-
-## Summary
+```csharp[bool](System.Boolean) TryGetPlanetElevation([MyPlanetElevation](Sandbox.ModAPI.Ingame.MyPlanetElevation) detail, ref [double](System.Double) elevation)```##### Summary
 
 Attempts to get the elevation of the ship in relation to the nearest planet. This method is only available when a ship is within the gravity well of a planet.
 
-## Returns
+##### Returns
 
 
 

@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [MyBounds](VRageMath.MyBounds)
 
-[float](System.Single) Max
-
+```csharp[float](System.Single) Max```

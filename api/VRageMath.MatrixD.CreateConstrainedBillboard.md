@@ -1,6 +1,3 @@
 ← [Index](Api-Index) ← [MatrixD](VRageMath.MatrixD)
 
-[MatrixD](VRageMath.MatrixD) CreateConstrainedBillboard([Vector3D](VRageMath.Vector3D) objectPosition, [Vector3D](VRageMath.Vector3D) cameraPosition, [Vector3D](VRageMath.Vector3D) rotateAxis, [Nullable<T>](System.Nullable`1) cameraForwardVector, [Nullable<T>](System.Nullable`1) objectForwardVector)
-
-void CreateConstrainedBillboard(ref [Vector3D](VRageMath.Vector3D) objectPosition, ref [Vector3D](VRageMath.Vector3D) cameraPosition, ref [Vector3D](VRageMath.Vector3D) rotateAxis, [Nullable<T>](System.Nullable`1) cameraForwardVector, [Nullable<T>](System.Nullable`1) objectForwardVector, ref [MatrixD](VRageMath.MatrixD) result)
-
+```csharp[MatrixD](VRageMath.MatrixD) CreateConstrainedBillboard([Vector3D](VRageMath.Vector3D) objectPosition, [Vector3D](VRageMath.Vector3D) cameraPosition, [Vector3D](VRageMath.Vector3D) rotateAxis, [Nullable<T>](System.Nullable`1) cameraForwardVector, [Nullable<T>](System.Nullable`1) objectForwardVector)``````csharpvoid CreateConstrainedBillboard(ref [Vector3D](VRageMath.Vector3D) objectPosition, ref [Vector3D](VRageMath.Vector3D) cameraPosition, ref [Vector3D](VRageMath.Vector3D) rotateAxis, [Nullable<T>](System.Nullable`1) cameraForwardVector, [Nullable<T>](System.Nullable`1) objectForwardVector, ref [MatrixD](VRageMath.MatrixD) result)```

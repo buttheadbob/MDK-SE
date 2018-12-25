@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [MyDefinitionId](VRage.Game.MyDefinitionId)
 
-[DefinitionIdComparerType](VRage.Game.MyDefinitionId+DefinitionIdComparerType) Comparer
-
+```csharp[DefinitionIdComparerType](VRage.Game.MyDefinitionId+DefinitionIdComparerType) Comparer```

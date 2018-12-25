@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [MyQuad](VRageMath.MyQuad)
 
-[Vector3](VRageMath.Vector3) Point0
-
+```csharp[Vector3](VRageMath.Vector3) Point0```

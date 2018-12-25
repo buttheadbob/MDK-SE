@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [BoundingBox2D](VRageMath.BoundingBox2D)
 
-[double](System.Double) Area()
-
+```csharp[double](System.Double) Area()```

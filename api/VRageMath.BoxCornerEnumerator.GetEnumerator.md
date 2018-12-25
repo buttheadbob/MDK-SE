@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [BoxCornerEnumerator](VRageMath.BoxCornerEnumerator)
 
-[BoxCornerEnumerator](VRageMath.BoxCornerEnumerator) GetEnumerator()
-
+```csharp[BoxCornerEnumerator](VRageMath.BoxCornerEnumerator) GetEnumerator()```

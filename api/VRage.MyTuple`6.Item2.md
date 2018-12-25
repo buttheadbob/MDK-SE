@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [MyTuple<T1, T2, T3, T4, T5, T6>](VRage.MyTuple`6)
 
-[T2]() Item2
-
+```csharp[T2]() Item2```

@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [BoundingBox2I](VRageMath.BoundingBox2I)
 
-[float](System.Single) Width
-
+```csharp[float](System.Single) Width```

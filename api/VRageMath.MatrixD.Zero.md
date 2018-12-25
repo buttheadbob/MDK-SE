@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [MatrixD](VRageMath.MatrixD)
 
-[MatrixD](VRageMath.MatrixD) Zero
-
+```csharp[MatrixD](VRageMath.MatrixD) Zero```

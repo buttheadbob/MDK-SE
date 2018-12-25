@@ -1,6 +1,3 @@
 ← [Index](Api-Index) ← [BoundingBoxD](VRageMath.BoundingBoxD)
 
-void InflateToMinimum([Vector3D](VRageMath.Vector3D) minimumSize)
-
-void InflateToMinimum([double](System.Double) minimumSize)
-
+```csharpvoid InflateToMinimum([Vector3D](VRageMath.Vector3D) minimumSize)``````csharpvoid InflateToMinimum([double](System.Double) minimumSize)```

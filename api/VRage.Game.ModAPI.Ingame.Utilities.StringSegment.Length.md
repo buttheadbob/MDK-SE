@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [StringSegment](VRage.Game.ModAPI.Ingame.Utilities.StringSegment)
 
-[int](System.Int32) Length
-
+```csharp[int](System.Int32) Length```

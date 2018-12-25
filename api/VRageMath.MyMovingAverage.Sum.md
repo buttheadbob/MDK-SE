@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [MyMovingAverage](VRageMath.MyMovingAverage)
 
-[double](System.Double) Sum
-
+```csharp[double](System.Double) Sum```

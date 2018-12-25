@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [SymmetricSerializableRange](VRageMath.SymmetricSerializableRange)
 
-[SymmetricSerializableRange](VRageMath.SymmetricSerializableRange) ConvertToCosine()
-
+```csharp[SymmetricSerializableRange](VRageMath.SymmetricSerializableRange) ConvertToCosine()```

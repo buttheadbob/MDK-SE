@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [StringSegment](VRage.Game.ModAPI.Ingame.Utilities.StringSegment)
 
-[char](System.Char) Item
-
+```csharp[char](System.Char) Item```

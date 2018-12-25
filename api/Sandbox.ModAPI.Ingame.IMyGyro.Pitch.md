@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [IMyGyro](Sandbox.ModAPI.Ingame.IMyGyro)
 
-[float](System.Single) Pitch
-
+```csharp[float](System.Single) Pitch```

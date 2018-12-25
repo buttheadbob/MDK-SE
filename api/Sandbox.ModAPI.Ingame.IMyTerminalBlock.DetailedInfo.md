@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 
-[string](System.String) DetailedInfo
-
+```csharp[string](System.String) DetailedInfo```

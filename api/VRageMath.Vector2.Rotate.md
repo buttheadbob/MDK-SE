@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [Vector2](VRageMath.Vector2)
 
-void Rotate([double](System.Double) angle)
-
+```csharpvoid Rotate([double](System.Double) angle)```

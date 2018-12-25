@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [BoxCornerEnumerator](VRageMath.BoxCornerEnumerator)
 
-[bool](System.Boolean) MoveNext()
-
+```csharp[bool](System.Boolean) MoveNext()```

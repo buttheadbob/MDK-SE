@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [MyBlockOrientation](VRageMath.MyBlockOrientation)
 
-[Direction](VRageMath.Base6Directions+Direction) Forward
-
+```csharp[Direction](VRageMath.Base6Directions+Direction) Forward```

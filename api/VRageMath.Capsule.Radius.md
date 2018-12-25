@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [Capsule](VRageMath.Capsule)
 
-[float](System.Single) Radius
-
+```csharp[float](System.Single) Radius```

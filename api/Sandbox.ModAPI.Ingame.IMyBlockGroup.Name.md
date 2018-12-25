@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [IMyBlockGroup](Sandbox.ModAPI.Ingame.IMyBlockGroup)
 
-[string](System.String) Name
-
+```csharp[string](System.String) Name```

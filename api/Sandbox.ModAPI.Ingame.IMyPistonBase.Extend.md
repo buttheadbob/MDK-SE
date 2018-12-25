@@ -1,8 +1,6 @@
 ← [Index](Api-Index) ← [IMyPistonBase](Sandbox.ModAPI.Ingame.IMyPistonBase)
 
-void Extend()
-
-## Summary
+```csharpvoid Extend()```##### Summary
 
 Extends the piston.
 

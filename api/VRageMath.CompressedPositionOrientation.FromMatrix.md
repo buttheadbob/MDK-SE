@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [CompressedPositionOrientation](VRageMath.CompressedPositionOrientation)
 
-void FromMatrix(ref [Matrix](VRageMath.Matrix) matrix)
-
+```csharpvoid FromMatrix(ref [Matrix](VRageMath.Matrix) matrix)```

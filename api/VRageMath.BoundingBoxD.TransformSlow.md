@@ -1,22 +1,18 @@
 ← [Index](Api-Index) ← [BoundingBoxD](VRageMath.BoundingBoxD)
 
-[BoundingBoxD](VRageMath.BoundingBoxD) TransformSlow([MatrixD](VRageMath.MatrixD) m)
-
-## Summary
+```csharp[BoundingBoxD](VRageMath.BoundingBoxD) TransformSlow([MatrixD](VRageMath.MatrixD) m)```##### Summary
 
 Transform this AABB by matrix.
 
-## Returns
+##### Returns
 
 transformed aabb
 
-[BoundingBoxD](VRageMath.BoundingBoxD) TransformSlow(ref [MatrixD](VRageMath.MatrixD) worldMatrix)
-
-## Summary
+```csharp[BoundingBoxD](VRageMath.BoundingBoxD) TransformSlow(ref [MatrixD](VRageMath.MatrixD) worldMatrix)```##### Summary
 
 Transform this AABB by matrix.
 
-## Returns
+##### Returns
 
 transformed aabb
 

@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [Matrix](VRageMath.Matrix)
 
-void AssertIsValid()
-
+```csharpvoid AssertIsValid()```

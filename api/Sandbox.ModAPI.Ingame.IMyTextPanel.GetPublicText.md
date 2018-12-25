@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel)
 
-[string](System.String) GetPublicText()
-
+```csharp[string](System.String) GetPublicText()```

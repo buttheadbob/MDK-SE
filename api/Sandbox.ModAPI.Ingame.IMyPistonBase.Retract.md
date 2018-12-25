@@ -1,8 +1,6 @@
 ← [Index](Api-Index) ← [IMyPistonBase](Sandbox.ModAPI.Ingame.IMyPistonBase)
 
-void Retract()
-
-## Summary
+```csharpvoid Retract()```##### Summary
 
 Retracts the piston.
 

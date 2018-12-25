@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [BoundingBox2I](VRageMath.BoundingBox2I)
 
-void Scale([Vector2I](VRageMath.Vector2I) scale)
-
+```csharpvoid Scale([Vector2I](VRageMath.Vector2I) scale)```

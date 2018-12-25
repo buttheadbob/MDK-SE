@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [IMyJumpDrive](Sandbox.ModAPI.Ingame.IMyJumpDrive)
 
-[float](System.Single) CurrentStoredPower
-
+```csharp[float](System.Single) CurrentStoredPower```

@@ -1,4 +1,3 @@
 ← [Index](Api-Index) ← [MyFixedPoint](VRage.MyFixedPoint)
 
-[string](System.String) ToString()
-
+```csharp[string](System.String) ToString()```

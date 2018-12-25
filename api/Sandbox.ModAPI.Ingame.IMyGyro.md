@@ -3,7 +3,7 @@
 #### IMyGyro Interface
 
 ```csharp
-public interface IMyGyro
+public interface IMyGyro: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

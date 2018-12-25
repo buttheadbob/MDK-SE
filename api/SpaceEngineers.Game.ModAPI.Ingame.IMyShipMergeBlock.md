@@ -3,7 +3,7 @@
 #### IMyShipMergeBlock Interface
 
 ```csharp
-public interface IMyShipMergeBlock
+public interface IMyShipMergeBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity
 ```
 
 **Namespace:** [SpaceEngineers.Game.ModAPI.Ingame](SpaceEngineers.Game.ModAPI.Ingame)  

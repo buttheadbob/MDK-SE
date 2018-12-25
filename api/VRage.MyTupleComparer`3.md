@@ -3,7 +3,7 @@
 #### MyTupleComparer&lt;T1, T2, T3&gt; Class
 
 ```csharp
-public class MyTupleComparer<T1, T2, T3>
+public class MyTupleComparer<T1, T2, T3>: 
 ```
 
 **Namespace:** [VRage](VRage)  

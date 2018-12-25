@@ -3,7 +3,7 @@
 #### IMyLaserAntenna Interface
 
 ```csharp
-public interface IMyLaserAntenna
+public interface IMyLaserAntenna: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

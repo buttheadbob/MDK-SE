@@ -3,7 +3,7 @@
 #### QuaternionD Struct
 
 ```csharp
-public sealed struct QuaternionD
+public struct QuaternionD: 
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

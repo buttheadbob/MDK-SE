@@ -3,7 +3,7 @@
 #### IMyButtonPanel Interface
 
 ```csharp
-public interface IMyButtonPanel
+public interface IMyButtonPanel: IMyTerminalBlock, IMyCubeBlock, IMyEntity
 ```
 
 **Namespace:** [SpaceEngineers.Game.ModAPI.Ingame](SpaceEngineers.Game.ModAPI.Ingame)  

@@ -3,7 +3,7 @@
 #### MyBlockOrientation Struct
 
 ```csharp
-public sealed struct MyBlockOrientation
+public struct MyBlockOrientation: 
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

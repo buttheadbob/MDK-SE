@@ -3,7 +3,7 @@
 #### IMyAttachableTopBlock Interface
 
 ```csharp
-public interface IMyAttachableTopBlock
+public interface IMyAttachableTopBlock: IMyCubeBlock, IMyEntity
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

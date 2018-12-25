@@ -3,7 +3,7 @@
 #### IMyBeacon Interface
 
 ```csharp
-public interface IMyBeacon
+public interface IMyBeacon: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

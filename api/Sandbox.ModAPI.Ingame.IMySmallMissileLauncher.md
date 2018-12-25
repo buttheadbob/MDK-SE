@@ -3,7 +3,7 @@
 #### IMySmallMissileLauncher Interface
 
 ```csharp
-public interface IMySmallMissileLauncher
+public interface IMySmallMissileLauncher: IMyUserControllableGun, IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

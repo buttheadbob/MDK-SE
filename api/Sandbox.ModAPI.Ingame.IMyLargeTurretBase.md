@@ -3,7 +3,7 @@
 #### IMyLargeTurretBase Interface
 
 ```csharp
-public interface IMyLargeTurretBase
+public interface IMyLargeTurretBase: IMyUserControllableGun, IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

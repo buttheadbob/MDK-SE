@@ -3,7 +3,7 @@
 #### IMyVirtualMass Interface
 
 ```csharp
-public interface IMyVirtualMass
+public interface IMyVirtualMass: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity
 ```
 
 **Namespace:** [SpaceEngineers.Game.ModAPI.Ingame](SpaceEngineers.Game.ModAPI.Ingame)  

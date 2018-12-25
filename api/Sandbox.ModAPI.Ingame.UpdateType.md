@@ -3,7 +3,7 @@
 #### UpdateType Enum
 
 ```csharp
-public sealed enum UpdateType
+public enum UpdateType: 
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

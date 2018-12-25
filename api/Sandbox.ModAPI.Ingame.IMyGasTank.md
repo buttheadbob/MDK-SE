@@ -3,7 +3,7 @@
 #### IMyGasTank Interface
 
 ```csharp
-public interface IMyGasTank
+public interface IMyGasTank: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

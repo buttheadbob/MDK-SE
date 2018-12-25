@@ -3,7 +3,7 @@
 #### MyResourceSinkComponentBase Class
 
 ```csharp
-public abstract class MyResourceSinkComponentBase
+public abstract class MyResourceSinkComponentBase: 
 ```
 
 **Namespace:** [VRage.Game.Components](VRage.Game.Components)  

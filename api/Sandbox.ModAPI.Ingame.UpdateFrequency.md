@@ -3,7 +3,7 @@
 #### UpdateFrequency Enum
 
 ```csharp
-public sealed enum UpdateFrequency
+public enum UpdateFrequency: 
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

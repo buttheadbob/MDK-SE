@@ -3,7 +3,7 @@
 #### IMyCollector Interface
 
 ```csharp
-public interface IMyCollector
+public interface IMyCollector: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

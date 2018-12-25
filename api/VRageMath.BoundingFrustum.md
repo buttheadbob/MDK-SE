@@ -3,7 +3,7 @@
 #### BoundingFrustum Class
 
 ```csharp
-public class BoundingFrustum
+public class BoundingFrustum: 
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

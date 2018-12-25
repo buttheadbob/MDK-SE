@@ -3,7 +3,7 @@
 #### MyTransform Struct
 
 ```csharp
-public sealed struct MyTransform
+public struct MyTransform: 
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

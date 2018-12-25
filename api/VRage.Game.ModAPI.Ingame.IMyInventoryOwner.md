@@ -3,7 +3,7 @@
 #### IMyInventoryOwner Interface
 
 ```csharp
-public interface IMyInventoryOwner
+public interface IMyInventoryOwner: 
 ```
 
 **Namespace:** [VRage.Game.ModAPI.Ingame](VRage.Game.ModAPI.Ingame)  

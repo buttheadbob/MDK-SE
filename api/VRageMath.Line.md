@@ -3,7 +3,7 @@
 #### Line Struct
 
 ```csharp
-public sealed struct Line
+public struct Line: 
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

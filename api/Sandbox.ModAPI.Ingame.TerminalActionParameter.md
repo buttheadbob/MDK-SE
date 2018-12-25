@@ -3,7 +3,7 @@
 #### TerminalActionParameter Struct
 
 ```csharp
-public sealed struct TerminalActionParameter
+public struct TerminalActionParameter: 
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

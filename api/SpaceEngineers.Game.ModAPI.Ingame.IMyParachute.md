@@ -3,7 +3,7 @@
 #### IMyParachute Interface
 
 ```csharp
-public interface IMyParachute
+public interface IMyParachute: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity
 ```
 
 **Namespace:** [SpaceEngineers.Game.ModAPI.Ingame](SpaceEngineers.Game.ModAPI.Ingame)  

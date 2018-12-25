@@ -3,7 +3,7 @@
 #### MySpaceTexts Class
 
 ```csharp
-public abstract sealed class MySpaceTexts
+public abstract sealed class MySpaceTexts: 
 ```
 
 **Namespace:** [Sandbox.Game.Localization](Sandbox.Game.Localization)  

@@ -3,7 +3,7 @@
 #### MyFixedPoint Struct
 
 ```csharp
-public sealed struct MyFixedPoint
+public struct MyFixedPoint: 
 ```
 
 **Namespace:** [VRage](VRage)  

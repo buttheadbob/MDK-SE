@@ -3,7 +3,7 @@
 #### VentStatus Enum
 
 ```csharp
-public sealed enum VentStatus
+public enum VentStatus: 
 ```
 
 **Namespace:** [SpaceEngineers.Game.ModAPI.Ingame](SpaceEngineers.Game.ModAPI.Ingame)  

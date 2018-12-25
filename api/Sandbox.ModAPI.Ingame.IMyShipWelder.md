@@ -3,7 +3,7 @@
 #### IMyShipWelder Interface
 
 ```csharp
-public interface IMyShipWelder
+public interface IMyShipWelder: IMyShipToolBase, IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

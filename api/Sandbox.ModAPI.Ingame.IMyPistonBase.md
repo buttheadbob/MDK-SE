@@ -3,7 +3,7 @@
 #### IMyPistonBase Interface
 
 ```csharp
-public interface IMyPistonBase
+public interface IMyPistonBase: IMyMechanicalConnectionBlock, IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

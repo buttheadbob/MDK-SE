@@ -3,7 +3,7 @@
 #### IMyLandingGear Interface
 
 ```csharp
-public interface IMyLandingGear
+public interface IMyLandingGear: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity
 ```
 
 **Namespace:** [SpaceEngineers.Game.ModAPI.Ingame](SpaceEngineers.Game.ModAPI.Ingame)  

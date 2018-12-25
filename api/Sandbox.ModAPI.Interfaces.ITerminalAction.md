@@ -3,7 +3,7 @@
 #### ITerminalAction Interface
 
 ```csharp
-public interface ITerminalAction
+public interface ITerminalAction: 
 ```
 
 **Namespace:** [Sandbox.ModAPI.Interfaces](Sandbox.ModAPI.Interfaces)  

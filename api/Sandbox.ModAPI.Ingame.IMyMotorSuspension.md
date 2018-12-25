@@ -3,7 +3,7 @@
 #### IMyMotorSuspension Interface
 
 ```csharp
-public interface IMyMotorSuspension
+public interface IMyMotorSuspension: IMyMechanicalConnectionBlock, IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

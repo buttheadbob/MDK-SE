@@ -3,7 +3,7 @@
 #### Color Struct
 
 ```csharp
-public sealed struct Color
+public struct Color: 
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

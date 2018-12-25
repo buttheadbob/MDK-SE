@@ -3,7 +3,7 @@
 #### SerializableRange Struct
 
 ```csharp
-public sealed struct SerializableRange
+public struct SerializableRange: 
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

@@ -3,7 +3,7 @@
 #### MyOrientedBoundingBoxD Struct
 
 ```csharp
-public sealed struct MyOrientedBoundingBoxD
+public struct MyOrientedBoundingBoxD: 
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

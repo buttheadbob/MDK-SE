@@ -3,7 +3,7 @@
 #### IMyUpgradeModule Interface
 
 ```csharp
-public interface IMyUpgradeModule
+public interface IMyUpgradeModule: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

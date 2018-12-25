@@ -3,7 +3,7 @@
 #### IMyJumpDrive Interface
 
 ```csharp
-public interface IMyJumpDrive
+public interface IMyJumpDrive: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

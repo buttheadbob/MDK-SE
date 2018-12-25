@@ -3,7 +3,7 @@
 #### IMyGridProgramRuntimeInfo Interface
 
 ```csharp
-public interface IMyGridProgramRuntimeInfo
+public interface IMyGridProgramRuntimeInfo: 
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

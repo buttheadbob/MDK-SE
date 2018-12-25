@@ -3,7 +3,7 @@
 #### DoorStatus Enum
 
 ```csharp
-public sealed enum DoorStatus
+public enum DoorStatus: 
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

@@ -3,7 +3,7 @@
 #### DictionaryExtensions Class
 
 ```csharp
-public abstract sealed class DictionaryExtensions
+public abstract sealed class DictionaryExtensions: 
 ```
 
 **Namespace:** [System.Collections.Generic](System.Collections.Generic)  

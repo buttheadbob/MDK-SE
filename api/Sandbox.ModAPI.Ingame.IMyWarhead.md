@@ -3,7 +3,7 @@
 #### IMyWarhead Interface
 
 ```csharp
-public interface IMyWarhead
+public interface IMyWarhead: IMyTerminalBlock, IMyCubeBlock, IMyEntity
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

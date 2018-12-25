@@ -3,7 +3,7 @@
 #### Plane Struct
 
 ```csharp
-public sealed struct Plane
+public struct Plane: 
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

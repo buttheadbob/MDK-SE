@@ -3,7 +3,7 @@
 #### MyRelationsBetweenPlayerAndBlock Enum
 
 ```csharp
-public sealed enum MyRelationsBetweenPlayerAndBlock
+public enum MyRelationsBetweenPlayerAndBlock: 
 ```
 
 **Namespace:** [VRage.Game](VRage.Game)  

@@ -3,7 +3,7 @@
 #### LandingGearMode Enum
 
 ```csharp
-public sealed enum LandingGearMode
+public enum LandingGearMode: 
 ```
 
 **Namespace:** [SpaceEngineers.Game.ModAPI.Ingame](SpaceEngineers.Game.ModAPI.Ingame)  

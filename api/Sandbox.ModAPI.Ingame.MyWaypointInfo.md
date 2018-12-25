@@ -3,7 +3,7 @@
 #### MyWaypointInfo Struct
 
 ```csharp
-public sealed struct MyWaypointInfo
+public struct MyWaypointInfo: 
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

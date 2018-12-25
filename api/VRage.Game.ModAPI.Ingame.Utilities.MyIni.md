@@ -3,7 +3,7 @@
 #### MyIni Class
 
 ```csharp
-public class MyIni
+public class MyIni: 
 ```
 
 **Namespace:** [VRage.Game.ModAPI.Ingame.Utilities](VRage.Game.ModAPI.Ingame.Utilities)  

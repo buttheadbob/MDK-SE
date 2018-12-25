@@ -3,7 +3,7 @@
 #### MyComponentContainer Class
 
 ```csharp
-public class MyComponentContainer
+public class MyComponentContainer: 
 ```
 
 **Namespace:** [VRage.Game.Components](VRage.Game.Components)  

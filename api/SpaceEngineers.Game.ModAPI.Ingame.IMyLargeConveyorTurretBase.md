@@ -3,7 +3,7 @@
 #### IMyLargeConveyorTurretBase Interface
 
 ```csharp
-public interface IMyLargeConveyorTurretBase
+public interface IMyLargeConveyorTurretBase: IMyLargeTurretBase, IMyUserControllableGun, IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity
 ```
 
 **Namespace:** [SpaceEngineers.Game.ModAPI.Ingame](SpaceEngineers.Game.ModAPI.Ingame)  

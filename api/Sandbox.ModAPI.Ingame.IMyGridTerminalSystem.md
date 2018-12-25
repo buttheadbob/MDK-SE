@@ -3,7 +3,7 @@
 #### IMyGridTerminalSystem Interface
 
 ```csharp
-public interface IMyGridTerminalSystem
+public interface IMyGridTerminalSystem: 
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

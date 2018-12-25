@@ -3,7 +3,7 @@
 #### CapsuleD Struct
 
 ```csharp
-public sealed struct CapsuleD
+public struct CapsuleD: 
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

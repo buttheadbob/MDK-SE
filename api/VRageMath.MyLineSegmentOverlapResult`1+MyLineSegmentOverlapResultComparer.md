@@ -3,7 +3,7 @@
 #### MyLineSegmentOverlapResultComparer&lt;T&gt; Class
 
 ```csharp
-private class MyLineSegmentOverlapResultComparer<T>
+private class MyLineSegmentOverlapResultComparer<T>: 
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

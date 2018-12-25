@@ -3,7 +3,7 @@
 #### IMyMotorStator Interface
 
 ```csharp
-public interface IMyMotorStator
+public interface IMyMotorStator: IMyMechanicalConnectionBlock, IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

@@ -3,7 +3,7 @@
 #### NullableVector3DExtensions Class
 
 ```csharp
-public abstract sealed class NullableVector3DExtensions
+public abstract sealed class NullableVector3DExtensions: 
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

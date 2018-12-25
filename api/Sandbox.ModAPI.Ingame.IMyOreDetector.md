@@ -3,7 +3,7 @@
 #### IMyOreDetector Interface
 
 ```csharp
-public interface IMyOreDetector
+public interface IMyOreDetector: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

@@ -3,7 +3,7 @@
 #### Curve Class
 
 ```csharp
-public class Curve
+public class Curve: 
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

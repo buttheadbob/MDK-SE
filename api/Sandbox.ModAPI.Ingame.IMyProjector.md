@@ -3,7 +3,7 @@
 #### IMyProjector Interface
 
 ```csharp
-public interface IMyProjector
+public interface IMyProjector: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

@@ -3,7 +3,7 @@
 #### MyLanguagesEnum Enum
 
 ```csharp
-public sealed enum MyLanguagesEnum
+public enum MyLanguagesEnum: 
 ```
 
 **Namespace:** [VRage](VRage)  

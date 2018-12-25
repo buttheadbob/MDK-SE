@@ -3,7 +3,7 @@
 #### IMyAirVent Interface
 
 ```csharp
-public interface IMyAirVent
+public interface IMyAirVent: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity
 ```
 
 **Namespace:** [SpaceEngineers.Game.ModAPI.Ingame](SpaceEngineers.Game.ModAPI.Ingame)  

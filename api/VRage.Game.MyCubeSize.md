@@ -3,7 +3,7 @@
 #### MyCubeSize Enum
 
 ```csharp
-public sealed enum MyCubeSize
+public enum MyCubeSize: 
 ```
 
 **Namespace:** [VRage.Game](VRage.Game)  

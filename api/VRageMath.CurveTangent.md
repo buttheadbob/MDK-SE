@@ -3,7 +3,7 @@
 #### CurveTangent Enum
 
 ```csharp
-public sealed enum CurveTangent
+public enum CurveTangent: 
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

@@ -3,7 +3,7 @@
 #### MyLineSegmentOverlapResult&lt;T&gt; Struct
 
 ```csharp
-public sealed struct MyLineSegmentOverlapResult<T>
+public struct MyLineSegmentOverlapResult<T>: 
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

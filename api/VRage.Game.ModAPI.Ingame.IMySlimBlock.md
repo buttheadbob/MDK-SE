@@ -3,7 +3,7 @@
 #### IMySlimBlock Interface
 
 ```csharp
-public interface IMySlimBlock
+public interface IMySlimBlock: 
 ```
 
 **Namespace:** [VRage.Game.ModAPI.Ingame](VRage.Game.ModAPI.Ingame)  

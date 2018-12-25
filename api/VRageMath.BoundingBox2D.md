@@ -3,7 +3,7 @@
 #### BoundingBox2D Struct
 
 ```csharp
-public sealed struct BoundingBox2D
+public struct BoundingBox2D: 
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

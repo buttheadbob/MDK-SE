@@ -3,7 +3,7 @@
 #### CurveLoopType Enum
 
 ```csharp
-public sealed enum CurveLoopType
+public enum CurveLoopType: 
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

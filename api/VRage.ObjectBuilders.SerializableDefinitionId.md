@@ -3,7 +3,7 @@
 #### SerializableDefinitionId Struct
 
 ```csharp
-public sealed struct SerializableDefinitionId
+public struct SerializableDefinitionId: 
 ```
 
 **Namespace:** [VRage.ObjectBuilders](VRage.ObjectBuilders)  

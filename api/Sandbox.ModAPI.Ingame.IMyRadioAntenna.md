@@ -3,7 +3,7 @@
 #### IMyRadioAntenna Interface
 
 ```csharp
-public interface IMyRadioAntenna
+public interface IMyRadioAntenna: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

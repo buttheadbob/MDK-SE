@@ -3,7 +3,7 @@
 #### IMySmallGatlingGun Interface
 
 ```csharp
-public interface IMySmallGatlingGun
+public interface IMySmallGatlingGun: IMyUserControllableGun, IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

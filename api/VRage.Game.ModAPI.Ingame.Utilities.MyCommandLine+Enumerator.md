@@ -3,7 +3,7 @@
 #### Enumerator Struct
 
 ```csharp
-private sealed struct Enumerator
+private struct Enumerator: 
 ```
 
 **Namespace:** [VRage.Game.ModAPI.Ingame.Utilities](VRage.Game.ModAPI.Ingame.Utilities)  

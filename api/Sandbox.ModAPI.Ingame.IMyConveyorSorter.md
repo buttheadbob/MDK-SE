@@ -3,7 +3,7 @@
 #### IMyConveyorSorter Interface
 
 ```csharp
-public interface IMyConveyorSorter
+public interface IMyConveyorSorter: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

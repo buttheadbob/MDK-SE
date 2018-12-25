@@ -3,7 +3,7 @@
 #### Base27Directions Class
 
 ```csharp
-public class Base27Directions
+public class Base27Directions: 
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

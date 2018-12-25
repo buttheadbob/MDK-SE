@@ -3,7 +3,7 @@
 #### MyDetectedEntityInfo Struct
 
 ```csharp
-public sealed struct MyDetectedEntityInfo
+public struct MyDetectedEntityInfo: 
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

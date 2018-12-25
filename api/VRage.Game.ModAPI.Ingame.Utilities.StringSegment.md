@@ -3,7 +3,7 @@
 #### StringSegment Struct
 
 ```csharp
-public sealed struct StringSegment
+public struct StringSegment: 
 ```
 
 **Namespace:** [VRage.Game.ModAPI.Ingame.Utilities](VRage.Game.ModAPI.Ingame.Utilities)  

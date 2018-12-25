@@ -3,7 +3,7 @@
 #### MyTuple Struct
 
 ```csharp
-public sealed struct MyTuple
+public struct MyTuple: 
 ```
 
 **Namespace:** [VRage](VRage)  

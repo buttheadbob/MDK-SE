@@ -3,7 +3,7 @@
 #### CurveContinuity Enum
 
 ```csharp
-public sealed enum CurveContinuity
+public enum CurveContinuity: 
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

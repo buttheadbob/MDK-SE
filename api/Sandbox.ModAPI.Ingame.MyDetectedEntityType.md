@@ -3,7 +3,7 @@
 #### MyDetectedEntityType Enum
 
 ```csharp
-public sealed enum MyDetectedEntityType
+public enum MyDetectedEntityType: 
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

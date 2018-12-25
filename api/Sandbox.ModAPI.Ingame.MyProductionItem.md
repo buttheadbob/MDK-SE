@@ -3,7 +3,7 @@
 #### MyProductionItem Struct
 
 ```csharp
-public sealed struct MyProductionItem
+public struct MyProductionItem: 
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

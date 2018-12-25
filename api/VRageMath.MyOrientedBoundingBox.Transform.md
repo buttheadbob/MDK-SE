@@ -1,3 +1,38 @@
 ← [Index](Api-Index) ← [MyOrientedBoundingBox](VRageMath.MyOrientedBoundingBox)
 
-```csharp[MyOrientedBoundingBox](VRageMath.MyOrientedBoundingBox) Transform([Quaternion](VRageMath.Quaternion) rotation, [Vector3](VRageMath.Vector3) translation)``````csharp[MyOrientedBoundingBox](VRageMath.MyOrientedBoundingBox) Transform([float](System.Single) scale, [Quaternion](VRageMath.Quaternion) rotation, [Vector3](VRageMath.Vector3) translation)``````csharpvoid Transform([Matrix](VRageMath.Matrix) matrix)```
+### Summary
+
+```csharp
+private public Transform
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Transform
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Transform
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

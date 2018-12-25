@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMySensorBlock](Sandbox.ModAPI.Ingame.IMySensorBlock)
 
-```csharp[bool](System.Boolean) DetectSubgrids```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual DetectSubgrids
+```csharp
 
 Gets or sets if the sensor should detect subgrids (eg. connected by connector).
+
+### Returns
+
+### Example
+
+### Remarks
 

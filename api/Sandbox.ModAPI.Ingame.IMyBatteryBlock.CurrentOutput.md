@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyBatteryBlock](Sandbox.ModAPI.Ingame.IMyBatteryBlock)
 
-```csharp[float](System.Single) CurrentOutput```
+### Summary
+
+```csharp
+private public abstract virtual CurrentOutput
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

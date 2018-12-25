@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [Matrix](VRageMath.Matrix)
 
-```csharp[Matrix](VRageMath.Matrix) CreateLookAt([Vector3](VRageMath.Vector3) cameraPosition, [Vector3](VRageMath.Vector3) cameraTarget, [Vector3](VRageMath.Vector3) cameraUpVector)```##### Summary
+### Summary
+
+```csharp
+private public CreateLookAt
+```csharp
 
 Creates a view matrix.
 
-```csharpvoid CreateLookAt(ref [Vector3](VRageMath.Vector3) cameraPosition, ref [Vector3](VRageMath.Vector3) cameraTarget, ref [Vector3](VRageMath.Vector3) cameraUpVector, ref [Matrix](VRageMath.Matrix) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public CreateLookAt
+```csharp
 
 Creates a view matrix.
+
+### Returns
+
+### Example
+
+### Remarks
 

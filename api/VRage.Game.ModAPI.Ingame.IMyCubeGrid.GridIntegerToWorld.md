@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyCubeGrid](VRage.Game.ModAPI.Ingame.IMyCubeGrid)
 
-```csharp[Vector3D](VRageMath.Vector3D) GridIntegerToWorld([Vector3I](VRageMath.Vector3I) gridCoords)```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual GridIntegerToWorld
+```csharp
 
 Converts grid coordinates to world space
+
+### Returns
+
+### Example
+
+### Remarks
 

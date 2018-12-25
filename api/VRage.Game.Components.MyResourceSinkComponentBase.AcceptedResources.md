@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyResourceSinkComponentBase](VRage.Game.Components.MyResourceSinkComponentBase)
 
-```csharp[ListReader<T>](VRage.Collections.ListReader`1) AcceptedResources```
+### Summary
+
+```csharp
+private public abstract virtual AcceptedResources
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

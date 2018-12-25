@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# StringSegment Struct
+### StringSegment Struct
+
+```csharp
+private public sealed StringSegment
+```csharp
 
 **Namespace:** [VRage.Game.ModAPI.Ingame.Utilities](VRage.Game.ModAPI.Ingame.Utilities)  
 **Assembly:** VRage.Game.dll
+
+### Example
+
+### Remarks
 
 ###### Fields
 

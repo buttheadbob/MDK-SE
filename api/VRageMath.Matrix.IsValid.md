@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [Matrix](VRageMath.Matrix)
 
-```csharp[bool](System.Boolean) IsValid()```
+### Summary
+
+```csharp
+private public IsValid
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [Vector3I](VRageMath.Vector3I)
 
-```csharp[Vector3I](VRageMath.Vector3I) Trunc([Vector3](VRageMath.Vector3) value)```
+### Summary
+
+```csharp
+private public Trunc
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

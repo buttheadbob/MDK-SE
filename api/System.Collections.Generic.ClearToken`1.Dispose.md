@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [ClearToken<T>](System.Collections.Generic.ClearToken`1)
 
-```csharpvoid Dispose()```
+### Summary
+
+```csharp
+private public Dispose
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

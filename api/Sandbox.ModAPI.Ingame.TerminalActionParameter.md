@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# TerminalActionParameter Struct
+### TerminalActionParameter Struct
+
+```csharp
+private public sealed TerminalActionParameter
+```csharp
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
+
+### Example
+
+### Remarks
 
 ###### Fields
 

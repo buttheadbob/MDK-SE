@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyFixedPoint](VRage.MyFixedPoint)
 
-```csharp[int](System.Int32) ToIntSafe()```
+### Summary
+
+```csharp
+private public ToIntSafe
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Matrix](VRageMath.Matrix)
 
-```csharp[bool](System.Boolean) EqualsFast(ref [Matrix](VRageMath.Matrix) other, [float](System.Single) epsilon)```##### Summary
+### Summary
+
+```csharp
+private public EqualsFast
+```csharp
 
 Compares just position, forward and up
+
+### Returns
+
+### Example
+
+### Remarks
 

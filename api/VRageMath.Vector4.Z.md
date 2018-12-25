@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Vector4](VRageMath.Vector4)
 
-```csharp[float](System.Single) Z```##### Summary
+### Summary
+
+```csharp
+private public Z
+```csharp
 
 Gets or sets the z-component of the vector.
+
+### Returns
+
+### Example
+
+### Remarks
 

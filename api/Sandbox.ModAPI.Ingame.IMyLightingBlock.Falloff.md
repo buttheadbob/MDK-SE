@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyLightingBlock](Sandbox.ModAPI.Ingame.IMyLightingBlock)
 
-```csharp[float](System.Single) Falloff```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual Falloff
+```csharp
 
 Gets or sets the current falloff of the light.
+
+### Returns
+
+### Example
+
+### Remarks
 

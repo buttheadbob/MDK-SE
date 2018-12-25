@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [BoundingBox2D](VRageMath.BoundingBox2D)
 
-```csharp[Vector2D](VRageMath.Vector2D) Center```##### Summary
+### Summary
+
+```csharp
+private public Center
+```csharp
 
 Calculates center
+
+### Returns
+
+### Example
+
+### Remarks
 

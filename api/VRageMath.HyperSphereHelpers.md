@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# HyperSphereHelpers Class
+### HyperSphereHelpers Class
+
+```csharp
+private public abstract sealed HyperSphereHelpers
+```csharp
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+### Example
+
+### Remarks
 
 ###### Methods
 

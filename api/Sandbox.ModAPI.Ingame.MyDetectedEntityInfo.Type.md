@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MyDetectedEntityInfo](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo)
 
-```csharp[MyDetectedEntityType](Sandbox.ModAPI.Ingame.MyDetectedEntityType) Type```##### Summary
+### Summary
+
+```csharp
+private public Type
+```csharp
 
 Enum describing the type of entity
+
+### Returns
+
+### Example
+
+### Remarks
 

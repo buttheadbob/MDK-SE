@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# MyRelationsBetweenPlayerAndBlock Enum
+### MyRelationsBetweenPlayerAndBlock Enum
+
+```csharp
+private public sealed MyRelationsBetweenPlayerAndBlock
+```csharp
 
 **Namespace:** [VRage.Game](VRage.Game)  
 **Assembly:** VRage.Game.dll
+
+### Example
+
+### Remarks
 
 ###### Fields
 

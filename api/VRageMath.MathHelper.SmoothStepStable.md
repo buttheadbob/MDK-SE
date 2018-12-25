@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [MathHelper](VRageMath.MathHelper)
 
-```csharp[float](System.Single) SmoothStepStable([float](System.Single) amount)```##### Summary
+### Summary
+
+```csharp
+private public SmoothStepStable
+```csharp
 
 Interpolates between zero and one using cubic equiation, solved by de Casteljau.
 
-```csharp[double](System.Double) SmoothStepStable([double](System.Double) amount)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public SmoothStepStable
+```csharp
 
 Interpolates between zero and one using cubic equiation, solved by de Casteljau.
+
+### Returns
+
+### Example
+
+### Remarks
 

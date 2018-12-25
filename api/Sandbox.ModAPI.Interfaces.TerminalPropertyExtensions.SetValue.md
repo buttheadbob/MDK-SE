@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [TerminalPropertyExtensions](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions)
 
-```csharpvoid SetValue<T><[T]()>([IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock) block, [string](System.String) propertyId, [T]() value)```
+### Summary
+
+```csharp
+private public SetValue<T>
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

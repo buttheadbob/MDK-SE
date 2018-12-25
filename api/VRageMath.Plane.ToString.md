@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Plane](VRageMath.Plane)
 
-```csharp[string](System.String) ToString()```##### Summary
+### Summary
+
+```csharp
+private public virtual ToString
+```csharp
 
 Returns a String that represents the current Plane.
+
+### Returns
+
+### Example
+
+### Remarks
 

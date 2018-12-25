@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyComponentBase](VRage.Game.Components.MyComponentBase)
 
-```csharpvoid Init(VRage.Game.MyComponentDefinitionBase definition)```
+### Summary
+
+```csharp
+private public virtual Init
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

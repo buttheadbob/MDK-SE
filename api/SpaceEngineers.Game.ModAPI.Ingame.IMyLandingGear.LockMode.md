@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyLandingGear](SpaceEngineers.Game.ModAPI.Ingame.IMyLandingGear)
 
-```csharp[LandingGearMode](SpaceEngineers.Game.ModAPI.Ingame.LandingGearMode) LockMode```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual LockMode
+```csharp
 
 Gets the current lock state of the landing gear.
+
+### Returns
+
+### Example
+
+### Remarks
 

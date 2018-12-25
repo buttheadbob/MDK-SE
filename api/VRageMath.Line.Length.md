@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [Line](VRageMath.Line)
 
-```csharp[float](System.Single) Length```
+### Summary
+
+```csharp
+private public Length
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

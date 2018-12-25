@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# MyQuad Struct
+### MyQuad Struct
+
+```csharp
+private public sealed MyQuad
+```csharp
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+### Example
+
+### Remarks
 
 ###### Fields
 

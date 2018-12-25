@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyMath](VRageMath.MyMath)
 
-```csharpvoid InitializeFastSin()```
+### Summary
+
+```csharp
+private public InitializeFastSin
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [Line](VRageMath.Line)
 
-```csharp[BoundingBox](VRageMath.BoundingBox) BoundingBox```
+### Summary
+
+```csharp
+private public BoundingBox
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

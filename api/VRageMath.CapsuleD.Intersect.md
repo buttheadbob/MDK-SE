@@ -1,3 +1,26 @@
 ← [Index](Api-Index) ← [CapsuleD](VRageMath.CapsuleD)
 
-```csharp[bool](System.Boolean) Intersect([RayD](VRageMath.RayD) ray, ref [Vector3D](VRageMath.Vector3D) p1, ref [Vector3D](VRageMath.Vector3D) p2, ref [Vector3](VRageMath.Vector3) n1, ref [Vector3](VRageMath.Vector3) n2)``````csharp[bool](System.Boolean) Intersect([LineD](VRageMath.LineD) line, ref [Vector3D](VRageMath.Vector3D) p1, ref [Vector3D](VRageMath.Vector3D) p2, ref [Vector3](VRageMath.Vector3) n1, ref [Vector3](VRageMath.Vector3) n2)```
+### Summary
+
+```csharp
+private public Intersect
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Intersect
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

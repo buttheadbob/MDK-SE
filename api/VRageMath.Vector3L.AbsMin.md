@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Vector3L](VRageMath.Vector3L)
 
-```csharp[long](System.Int64) AbsMin()```##### Summary
+### Summary
+
+```csharp
+private public AbsMin
+```csharp
 
 Returns the component of the vector, whose absolute value is smallest of all the three components.
+
+### Returns
+
+### Example
+
+### Remarks
 

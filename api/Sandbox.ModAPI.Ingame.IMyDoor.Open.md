@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyDoor](Sandbox.ModAPI.Ingame.IMyDoor)
 
-```csharp[bool](System.Boolean) Open```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual Open
+```csharp
 
 Indicates whether door is opened or closed. True when door is opened.
+
+### Returns
+
+### Example
+
+### Remarks
 

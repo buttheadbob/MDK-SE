@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [SymmetricSerializableRange](VRageMath.SymmetricSerializableRange)
 
-```csharp[SymmetricSerializableRange](VRageMath.SymmetricSerializableRange) ConvertToSine()```
+### Summary
+
+```csharp
+private public ConvertToSine
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

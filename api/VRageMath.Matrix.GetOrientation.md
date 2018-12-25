@@ -1,10 +1,18 @@
 ← [Index](Api-Index) ← [Matrix](VRageMath.Matrix)
 
-```csharp[Matrix](VRageMath.Matrix) GetOrientation()```##### Summary
+### Summary
+
+```csharp
+private public GetOrientation
+```csharp
 
 Gets the orientation.
 
-##### Returns
+### Returns
 
 
+
+### Example
+
+### Remarks
 

@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyLandingGear](SpaceEngineers.Game.ModAPI.Ingame.IMyLandingGear)
 
-```csharp[bool](System.Boolean) IsLocked```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual IsLocked
+```csharp
 
 Gets whether the landing gear is currently locked.
+
+### Returns
+
+### Example
+
+### Remarks
 

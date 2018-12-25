@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# UpdateType Enum
+### UpdateType Enum
+
+```csharp
+private public sealed UpdateType
+```csharp
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
+
+### Example
+
+### Remarks
 
 ###### Fields
 

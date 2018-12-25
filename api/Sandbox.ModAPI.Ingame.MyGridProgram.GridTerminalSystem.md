@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MyGridProgram](Sandbox.ModAPI.Ingame.MyGridProgram)
 
-```csharp[IMyGridTerminalSystem](Sandbox.ModAPI.Ingame.IMyGridTerminalSystem) GridTerminalSystem```##### Summary
+### Summary
+
+```csharp
+private public virtual GridTerminalSystem
+```csharp
 
 Provides access to the grid terminal system as viewed from this programmable block.
+
+### Returns
+
+### Example
+
+### Remarks
 

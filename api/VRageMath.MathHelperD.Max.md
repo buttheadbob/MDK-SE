@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MathHelperD](VRageMath.MathHelperD)
 
-```csharp[double](System.Double) Max([double](System.Double) value1, [double](System.Double) value2)```##### Summary
+### Summary
+
+```csharp
+private public Max
+```csharp
 
 Returns the greater of two values.
+
+### Returns
+
+### Example
+
+### Remarks
 

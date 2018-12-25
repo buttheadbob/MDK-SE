@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyInventory](VRage.Game.ModAPI.Ingame.IMyInventory)
 
-```csharp[List<T>](System.Collections.Generic.List`1) GetItems()```
+### Summary
+
+```csharp
+private public abstract virtual GetItems
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

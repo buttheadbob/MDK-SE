@@ -1,10 +1,42 @@
 ← [Index](Api-Index) ← [BoundingBox2I](VRageMath.BoundingBox2I)
 
-```csharp[bool](System.Boolean) Intersects([BoundingBox2I](VRageMath.BoundingBox2I) box)```##### Summary
+### Summary
+
+```csharp
+private public Intersects
+```csharp
 
 Checks whether the current BoundingBox2I intersects another BoundingBox2I.
 
-```csharp[bool](System.Boolean) Intersects(ref [BoundingBox2I](VRageMath.BoundingBox2I) box)``````csharpvoid Intersects(ref [BoundingBox2I](VRageMath.BoundingBox2I) box, ref [bool](System.Boolean) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Intersects
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Intersects
+```csharp
 
 Checks whether the current BoundingBox2I intersects another BoundingBox2I.
+
+### Returns
+
+### Example
+
+### Remarks
 

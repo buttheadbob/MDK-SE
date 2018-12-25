@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyAirVent](SpaceEngineers.Game.ModAPI.Ingame.IMyAirVent)
 
-```csharp[bool](System.Boolean) CanPressurize```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual CanPressurize
+```csharp
 
 Can fill room with air true - room is airtight false - room is not airtight
+
+### Returns
+
+### Example
+
+### Remarks
 

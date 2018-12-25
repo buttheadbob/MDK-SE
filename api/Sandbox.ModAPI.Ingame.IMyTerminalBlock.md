@@ -1,6 +1,10 @@
 ← [Index](Api-Index)
 
-# IMyTerminalBlock Interface
+### IMyTerminalBlock Interface
+
+```csharp
+private public abstract IMyTerminalBlock
+```csharp
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
@@ -66,6 +70,10 @@
 * [SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall](SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall)  
 * [SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock](SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock)  
 * [SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase)
+
+### Example
+
+### Remarks
 
 ###### Properties
 

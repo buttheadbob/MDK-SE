@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [MatrixD](VRageMath.MatrixD)
 
-```csharp[MatrixD](VRageMath.MatrixD) CreateOrthographic([double](System.Double) width, [double](System.Double) height, [double](System.Double) zNearPlane, [double](System.Double) zFarPlane)```##### Summary
+### Summary
+
+```csharp
+private public CreateOrthographic
+```csharp
 
 Builds an orthogonal projection matrix.
 
-```csharpvoid CreateOrthographic([double](System.Double) width, [double](System.Double) height, [double](System.Double) zNearPlane, [double](System.Double) zFarPlane, ref [MatrixD](VRageMath.MatrixD) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public CreateOrthographic
+```csharp
 
 Builds an orthogonal projection matrix.
+
+### Returns
+
+### Example
+
+### Remarks
 

@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyMath](VRageMath.MyMath)
 
-```csharp[BoundingBox](VRageMath.BoundingBox) CreateFromInsideRadius([float](System.Single) radius)```
+### Summary
+
+```csharp
+private public CreateFromInsideRadius
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

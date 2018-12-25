@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMySlimBlock](VRage.Game.ModAPI.Ingame.IMySlimBlock)
 
-```csharpvoid GetMissingComponents([Dictionary<TKey, TValue>](System.Collections.Generic.Dictionary`2) addToDictionary)```
+### Summary
+
+```csharp
+private public abstract virtual GetMissingComponents
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

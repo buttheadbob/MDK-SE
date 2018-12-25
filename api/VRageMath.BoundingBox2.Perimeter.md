@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [BoundingBox2](VRageMath.BoundingBox2)
 
-```csharp[float](System.Single) Perimeter()```
+### Summary
+
+```csharp
+private public Perimeter
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

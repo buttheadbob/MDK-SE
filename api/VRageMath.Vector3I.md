@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# Vector3I Struct
+### Vector3I Struct
+
+```csharp
+private public sealed Vector3I
+```csharp
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+### Example
+
+### Remarks
 
 ###### Fields
 

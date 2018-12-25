@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Vector2](VRageMath.Vector2)
 
-```csharp[int](System.Int32) GetHashCode()```##### Summary
+### Summary
+
+```csharp
+private public virtual GetHashCode
+```csharp
 
 Gets the hash code of the vector object.
+
+### Returns
+
+### Example
+
+### Remarks
 

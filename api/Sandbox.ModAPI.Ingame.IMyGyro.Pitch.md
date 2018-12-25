@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyGyro](Sandbox.ModAPI.Ingame.IMyGyro)
 
-```csharp[float](System.Single) Pitch```
+### Summary
+
+```csharp
+private public abstract virtual Pitch
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

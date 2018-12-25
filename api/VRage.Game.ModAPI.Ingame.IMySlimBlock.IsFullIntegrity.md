@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMySlimBlock](VRage.Game.ModAPI.Ingame.IMySlimBlock)
 
-```csharp[bool](System.Boolean) IsFullIntegrity```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual IsFullIntegrity
+```csharp
 
 Integrity is at maximum
+
+### Returns
+
+### Example
+
+### Remarks
 

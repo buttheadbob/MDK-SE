@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [BoundingBox2I](VRageMath.BoundingBox2I)
 
-```csharpvoid Scale([Vector2I](VRageMath.Vector2I) scale)```
+### Summary
+
+```csharp
+private public Scale
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

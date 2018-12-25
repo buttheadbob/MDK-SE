@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyRadioAntenna](Sandbox.ModAPI.Ingame.IMyRadioAntenna)
 
-```csharp[bool](System.Boolean) IgnoreOtherBroadcast```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual IgnoreOtherBroadcast
+```csharp
 
 Ignores broadcasts sent by neutral and enemy antenna
+
+### Returns
+
+### Example
+
+### Remarks
 

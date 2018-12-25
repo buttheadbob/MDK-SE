@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [Matrix](VRageMath.Matrix)
 
-```csharpvoid AssertIsValid()```
+### Summary
+
+```csharp
+private public AssertIsValid
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

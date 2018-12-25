@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyConveyorSorter](Sandbox.ModAPI.Ingame.IMyConveyorSorter)
 
-```csharp[MyConveyorSorterMode](Sandbox.ModAPI.Ingame.MyConveyorSorterMode) Mode```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual Mode
+```csharp
 
 Determines the current mode of this sorter. Use SetWhitelist or SetBlacklist to change the mode.
+
+### Returns
+
+### Example
+
+### Remarks
 

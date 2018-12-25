@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter)
 
-```csharp[TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter) Empty```##### Summary
+### Summary
+
+```csharp
+private public Empty
+```csharp
 
 Gets an empty parameter.
+
+### Returns
+
+### Example
+
+### Remarks
 

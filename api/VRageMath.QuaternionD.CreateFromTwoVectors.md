@@ -1,3 +1,26 @@
 ← [Index](Api-Index) ← [QuaternionD](VRageMath.QuaternionD)
 
-```csharpvoid CreateFromTwoVectors(ref [Vector3D](VRageMath.Vector3D) firstVector, ref [Vector3D](VRageMath.Vector3D) secondVector, ref [QuaternionD](VRageMath.QuaternionD) result)``````csharp[QuaternionD](VRageMath.QuaternionD) CreateFromTwoVectors([Vector3D](VRageMath.Vector3D) firstVector, [Vector3D](VRageMath.Vector3D) secondVector)```
+### Summary
+
+```csharp
+private public CreateFromTwoVectors
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public CreateFromTwoVectors
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [RectangleF](VRageMath.RectangleF)
 
-```csharp[float](System.Single) Height```##### Summary
+### Summary
+
+```csharp
+private public Height
+```csharp
 
 Height of this rectangle.
+
+### Returns
+
+### Example
+
+### Remarks
 

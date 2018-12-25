@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [BoundingFrustum](VRageMath.BoundingFrustum)
 
-```csharp[Plane](VRageMath.Plane) Near```##### Summary
+### Summary
+
+```csharp
+private public Near
+```csharp
 
 Gets the near plane of the BoundingFrustum.
+
+### Returns
+
+### Example
+
+### Remarks
 

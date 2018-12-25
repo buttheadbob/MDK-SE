@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Vector3I](VRageMath.Vector3I)
 
-```csharpvoid Cross(ref [Vector3I](VRageMath.Vector3I) vector1, ref [Vector3I](VRageMath.Vector3I) vector2, ref [Vector3I](VRageMath.Vector3I) result)```##### Summary
+### Summary
+
+```csharp
+private public Cross
+```csharp
 
 Calculates the cross product of two vectors.
+
+### Returns
+
+### Example
+
+### Remarks
 

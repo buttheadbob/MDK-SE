@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyBlockOrientation](VRageMath.MyBlockOrientation)
 
-```csharp[bool](System.Boolean) IsValid```
+### Summary
+
+```csharp
+private public IsValid
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

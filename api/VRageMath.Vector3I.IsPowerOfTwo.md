@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [Vector3I](VRageMath.Vector3I)
 
-```csharp[bool](System.Boolean) IsPowerOfTwo```
+### Summary
+
+```csharp
+private public IsPowerOfTwo
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

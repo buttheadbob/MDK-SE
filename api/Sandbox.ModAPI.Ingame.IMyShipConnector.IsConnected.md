@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyShipConnector](Sandbox.ModAPI.Ingame.IMyShipConnector)
 
-```csharp[bool](System.Boolean) IsConnected```
+### Summary
+
+```csharp
+private public abstract virtual IsConnected
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

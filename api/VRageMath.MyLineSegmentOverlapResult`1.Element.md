@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyLineSegmentOverlapResult<T>](VRageMath.MyLineSegmentOverlapResult`1)
 
-```csharp[T]() Element```
+### Summary
+
+```csharp
+private public Element
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

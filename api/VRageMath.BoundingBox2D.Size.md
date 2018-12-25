@@ -1,10 +1,18 @@
 ← [Index](Api-Index) ← [BoundingBox2D](VRageMath.BoundingBox2D)
 
-```csharp[Vector2D](VRageMath.Vector2D) Size```##### Summary
+### Summary
+
+```csharp
+private public Size
+```csharp
 
 Size
 
-##### Returns
+### Returns
 
 
+
+### Example
+
+### Remarks
 

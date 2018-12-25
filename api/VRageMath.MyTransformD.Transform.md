@@ -1,3 +1,50 @@
 ← [Index](Api-Index) ← [MyTransformD](VRageMath.MyTransformD)
 
-```csharp[MyTransformD](VRageMath.MyTransformD) Transform(ref [MyTransformD](VRageMath.MyTransformD) t1, ref [MyTransformD](VRageMath.MyTransformD) t2)``````csharpvoid Transform(ref [MyTransformD](VRageMath.MyTransformD) t1, ref [MyTransformD](VRageMath.MyTransformD) t2, ref [MyTransformD](VRageMath.MyTransformD) result)``````csharp[Vector3D](VRageMath.Vector3D) Transform(ref [Vector3D](VRageMath.Vector3D) v, ref [MyTransformD](VRageMath.MyTransformD) t2)``````csharpvoid Transform(ref [Vector3D](VRageMath.Vector3D) v, ref [MyTransformD](VRageMath.MyTransformD) t2, ref [Vector3D](VRageMath.Vector3D) result)```
+### Summary
+
+```csharp
+private public Transform
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Transform
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Transform
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Transform
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

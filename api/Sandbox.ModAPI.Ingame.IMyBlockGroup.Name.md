@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyBlockGroup](Sandbox.ModAPI.Ingame.IMyBlockGroup)
 
-```csharp[string](System.String) Name```
+### Summary
+
+```csharp
+private public abstract virtual Name
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

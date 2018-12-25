@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [BoundingFrustumD](VRageMath.BoundingFrustumD)
 
-```csharp[string](System.String) ToString()```##### Summary
+### Summary
+
+```csharp
+private public virtual ToString
+```csharp
 
 Returns a String that represents the current BoundingFrustumD.
+
+### Returns
+
+### Example
+
+### Remarks
 

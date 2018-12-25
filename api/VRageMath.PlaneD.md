@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# PlaneD Struct
+### PlaneD Struct
+
+```csharp
+private public sealed PlaneD
+```csharp
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+### Example
+
+### Remarks
 
 ###### Fields
 

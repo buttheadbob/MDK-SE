@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel)
 
-```csharp[Color](VRageMath.Color) BackgroundColor```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual BackgroundColor
+```csharp
 
 Gets or sets background color
+
+### Returns
+
+### Example
+
+### Remarks
 

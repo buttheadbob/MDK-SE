@@ -1,10 +1,18 @@
 ← [Index](Api-Index) ← [IMyButtonPanel](SpaceEngineers.Game.ModAPI.Ingame.IMyButtonPanel)
 
-```csharp[string](System.String) GetButtonName([int](System.Int32) index)```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual GetButtonName
+```csharp
 
 Gets the button name.
 
-##### Returns
+### Returns
 
 
+
+### Example
+
+### Remarks
 

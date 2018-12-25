@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MyIni](VRage.Game.ModAPI.Ingame.Utilities.MyIni)
 
-```csharpvoid SetSectionComment([string](System.String) section, [string](System.String) comment)```##### Summary
+### Summary
+
+```csharp
+private public SetSectionComment
+```csharp
 
 Sets a comment on a given section. The section must already exist. Set the comment to`null`to remove it.
+
+### Returns
+
+### Example
+
+### Remarks
 

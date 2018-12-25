@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyInventory](VRage.Game.ModAPI.Ingame.IMyInventory)
 
-```csharp[bool](System.Boolean) IsConnectedTo([IMyInventory](VRage.Game.ModAPI.Ingame.IMyInventory) dst)```
+### Summary
+
+```csharp
+private public abstract virtual IsConnectedTo
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

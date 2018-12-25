@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Matrix3x3](VRageMath.Matrix3x3)
 
-```csharpvoid Slerp(ref [Matrix3x3](VRageMath.Matrix3x3) matrix1, ref [Matrix3x3](VRageMath.Matrix3x3) matrix2, [float](System.Single) amount, ref [Matrix3x3](VRageMath.Matrix3x3) result)```##### Summary
+### Summary
+
+```csharp
+private public Slerp
+```csharp
 
 Performs spherical linear interpolation of position and rotation.
+
+### Returns
+
+### Example
+
+### Remarks
 

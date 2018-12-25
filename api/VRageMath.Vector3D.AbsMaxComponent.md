@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [Vector3D](VRageMath.Vector3D)
 
-```csharp[int](System.Int32) AbsMaxComponent()```
+### Summary
+
+```csharp
+private public AbsMaxComponent
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

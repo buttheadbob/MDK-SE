@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)
 
-```csharp[bool](System.Boolean) Enabled```
+### Summary
+
+```csharp
+private public abstract virtual Enabled
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

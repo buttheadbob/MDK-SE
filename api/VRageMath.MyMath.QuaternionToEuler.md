@@ -1,10 +1,18 @@
 ← [Index](Api-Index) ← [MyMath](VRageMath.MyMath)
 
-```csharp[Vector3](VRageMath.Vector3) QuaternionToEuler([Quaternion](VRageMath.Quaternion) Rotation)```##### Summary
+### Summary
+
+```csharp
+private public QuaternionToEuler
+```csharp
 
 QuaternionToEuler
 
-##### Returns
+### Returns
 
 Converted quaternion to the euler pitch, rot, yaw
+
+### Example
+
+### Remarks
 

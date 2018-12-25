@@ -1,10 +1,18 @@
 ← [Index](Api-Index) ← [MyIni](VRage.Game.ModAPI.Ingame.Utilities.MyIni)
 
-```csharp[string](System.String) ToString()```##### Summary
+### Summary
+
+```csharp
+private public virtual ToString
+```csharp
 
 Generates a configuration file from the currently parsed configuration
 
-##### Returns
+### Returns
 
 
+
+### Example
+
+### Remarks
 

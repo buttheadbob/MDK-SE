@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MatrixD](VRageMath.MatrixD)
 
-```csharp[MatrixD](VRageMath.MatrixD) Normalize([MatrixD](VRageMath.MatrixD) matrix)```
+### Summary
+
+```csharp
+private public Normalize
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

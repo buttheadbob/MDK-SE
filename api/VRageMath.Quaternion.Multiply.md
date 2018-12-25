@@ -1,18 +1,58 @@
 ← [Index](Api-Index) ← [Quaternion](VRageMath.Quaternion)
 
-```csharp[Quaternion](VRageMath.Quaternion) Multiply([Quaternion](VRageMath.Quaternion) quaternion1, [Quaternion](VRageMath.Quaternion) quaternion2)```##### Summary
+### Summary
+
+```csharp
+private public Multiply
+```csharp
 
 Multiplies two quaternions.
 
-```csharpvoid Multiply(ref [Quaternion](VRageMath.Quaternion) quaternion1, ref [Quaternion](VRageMath.Quaternion) quaternion2, ref [Quaternion](VRageMath.Quaternion) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Multiply
+```csharp
 
 Multiplies two quaternions.
 
-```csharp[Quaternion](VRageMath.Quaternion) Multiply([Quaternion](VRageMath.Quaternion) quaternion1, [float](System.Single) scaleFactor)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Multiply
+```csharp
 
 Multiplies a quaternion by a scalar value.
 
-```csharpvoid Multiply(ref [Quaternion](VRageMath.Quaternion) quaternion1, [float](System.Single) scaleFactor, ref [Quaternion](VRageMath.Quaternion) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Multiply
+```csharp
 
 Multiplies a quaternion by a scalar value.
+
+### Returns
+
+### Example
+
+### Remarks
 

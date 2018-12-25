@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyOrientedBoundingBoxD](VRageMath.MyOrientedBoundingBoxD)
 
-```csharp[Vector3D](VRageMath.Vector3D) HalfExtent```
+### Summary
+
+```csharp
+private public HalfExtent
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

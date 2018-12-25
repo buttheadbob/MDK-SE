@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Vector3D](VRageMath.Vector3D)
 
-```csharp[long](System.Int64) GetHash()```##### Summary
+### Summary
+
+```csharp
+private public GetHash
+```csharp
 
 Gets the hash code of the vector object.
+
+### Returns
+
+### Example
+
+### Remarks
 

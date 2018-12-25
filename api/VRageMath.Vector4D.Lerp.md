@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [Vector4D](VRageMath.Vector4D)
 
-```csharp[Vector4D](VRageMath.Vector4D) Lerp([Vector4D](VRageMath.Vector4D) value1, [Vector4D](VRageMath.Vector4D) value2, [double](System.Double) amount)```##### Summary
+### Summary
+
+```csharp
+private public Lerp
+```csharp
 
 Performs a linear interpolation between two vectors.
 
-```csharpvoid Lerp(ref [Vector4D](VRageMath.Vector4D) value1, ref [Vector4D](VRageMath.Vector4D) value2, [double](System.Double) amount, ref [Vector4D](VRageMath.Vector4D) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Lerp
+```csharp
 
 Performs a linear interpolation between two vectors.
+
+### Returns
+
+### Example
+
+### Remarks
 

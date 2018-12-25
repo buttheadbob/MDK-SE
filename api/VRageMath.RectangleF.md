@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# RectangleF Struct
+### RectangleF Struct
+
+```csharp
+private public sealed RectangleF
+```csharp
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+### Example
+
+### Remarks
 
 ###### Fields
 

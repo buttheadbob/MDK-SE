@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyLandingGear](SpaceEngineers.Game.ModAPI.Ingame.IMyLandingGear)
 
-```csharpvoid ResetAutoLock()```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual ResetAutoLock
+```csharp
 
 Resets autolock timer
+
+### Returns
+
+### Example
+
+### Remarks
 

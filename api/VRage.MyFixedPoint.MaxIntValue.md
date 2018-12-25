@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyFixedPoint](VRage.MyFixedPoint)
 
-```csharp[MyFixedPoint](VRage.MyFixedPoint) MaxIntValue```
+### Summary
+
+```csharp
+private public MaxIntValue
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

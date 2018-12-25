@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MathHelperD](VRageMath.MathHelperD)
 
-```csharp[double](System.Double) TwoPi```##### Summary
+### Summary
+
+```csharp
+private public TwoPi
+```csharp
 
 Represents the value of pi times two.
+
+### Returns
+
+### Example
+
+### Remarks
 

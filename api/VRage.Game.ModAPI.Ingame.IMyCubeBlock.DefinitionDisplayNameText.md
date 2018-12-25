@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)
 
-```csharp[string](System.String) DefinitionDisplayNameText```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual DefinitionDisplayNameText
+```csharp
 
 Definition name
+
+### Returns
+
+### Example
+
+### Remarks
 

@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyDynamicAABBTree](VRageMath.MyDynamicAABBTree)
 
-```csharp[int](System.Int32) GetRoot()```
+### Summary
+
+```csharp
+private public GetRoot
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

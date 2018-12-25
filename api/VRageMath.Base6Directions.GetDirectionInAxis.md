@@ -1,3 +1,26 @@
 ← [Index](Api-Index) ← [Base6Directions](VRageMath.Base6Directions)
 
-```csharp[Direction](VRageMath.Base6Directions+Direction) GetDirectionInAxis([Vector3](VRageMath.Vector3) vec, [Axis](VRageMath.Base6Directions+Axis) axis)``````csharp[Direction](VRageMath.Base6Directions+Direction) GetDirectionInAxis(ref [Vector3](VRageMath.Vector3) vec, [Axis](VRageMath.Base6Directions+Axis) axis)```
+### Summary
+
+```csharp
+private public GetDirectionInAxis
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public GetDirectionInAxis
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [BoundingBoxI](VRageMath.BoundingBoxI)
 
-```csharp[float](System.Single) Volume()```
+### Summary
+
+```csharp
+private public Volume
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

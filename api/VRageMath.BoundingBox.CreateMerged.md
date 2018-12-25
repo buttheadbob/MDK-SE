@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [BoundingBox](VRageMath.BoundingBox)
 
-```csharp[BoundingBox](VRageMath.BoundingBox) CreateMerged([BoundingBox](VRageMath.BoundingBox) original, [BoundingBox](VRageMath.BoundingBox) additional)```##### Summary
+### Summary
+
+```csharp
+private public CreateMerged
+```csharp
 
 Creates the smallest BoundingBox that contains the two specified BoundingBox instances.
 
-```csharpvoid CreateMerged(ref [BoundingBox](VRageMath.BoundingBox) original, ref [BoundingBox](VRageMath.BoundingBox) additional, ref [BoundingBox](VRageMath.BoundingBox) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public CreateMerged
+```csharp
 
 Creates the smallest BoundingBox that contains the two specified BoundingBox instances.
+
+### Returns
+
+### Example
+
+### Remarks
 

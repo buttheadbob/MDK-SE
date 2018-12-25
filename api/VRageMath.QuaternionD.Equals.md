@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [QuaternionD](VRageMath.QuaternionD)
 
-```csharp[bool](System.Boolean) Equals([QuaternionD](VRageMath.QuaternionD) other)```##### Summary
+### Summary
+
+```csharp
+private public Equals
+```csharp
 
 Determines whether the specified Object is equal to the QuaternionD.
 
-```csharp[bool](System.Boolean) Equals([object](System.Object) obj)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public virtual Equals
+```csharp
 
 Returns a value that indicates whether the current instance is equal to a specified object.
+
+### Returns
+
+### Example
+
+### Remarks
 

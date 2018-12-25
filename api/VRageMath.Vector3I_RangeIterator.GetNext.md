@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [Vector3I_RangeIterator](VRageMath.Vector3I_RangeIterator)
 
-```csharpvoid GetNext(ref [Vector3I](VRageMath.Vector3I) next)```
+### Summary
+
+```csharp
+private public GetNext
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

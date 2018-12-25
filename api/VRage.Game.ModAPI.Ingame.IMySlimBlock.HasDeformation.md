@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMySlimBlock](VRage.Game.ModAPI.Ingame.IMySlimBlock)
 
-```csharp[bool](System.Boolean) HasDeformation```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual HasDeformation
+```csharp
 
 If this block is deformed (bones deformed)
+
+### Returns
+
+### Example
+
+### Remarks
 

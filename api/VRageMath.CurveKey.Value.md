@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [CurveKey](VRageMath.CurveKey)
 
-```csharp[float](System.Single) Value```##### Summary
+### Summary
+
+```csharp
+private public Value
+```csharp
 
 Describes the value of this point.
+
+### Returns
+
+### Example
+
+### Remarks
 

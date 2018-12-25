@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [Vector3I](VRageMath.Vector3I)
 
-```csharp[Vector3I](VRageMath.Vector3I) MaxValue```
+### Summary
+
+```csharp
+private public MaxValue
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

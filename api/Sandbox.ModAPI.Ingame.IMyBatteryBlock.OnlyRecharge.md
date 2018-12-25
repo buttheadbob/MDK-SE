@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyBatteryBlock](Sandbox.ModAPI.Ingame.IMyBatteryBlock)
 
-```csharp[bool](System.Boolean) OnlyRecharge```
+### Summary
+
+```csharp
+private public abstract virtual OnlyRecharge
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

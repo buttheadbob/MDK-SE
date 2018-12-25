@@ -1,6 +1,10 @@
 ← [Index](Api-Index)
 
-# IMyLargeTurretBase Interface
+### IMyLargeTurretBase Interface
+
+```csharp
+private public abstract IMyLargeTurretBase
+```csharp
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
@@ -14,6 +18,10 @@
 
 **Inheritors:**  
 * [SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase)
+
+### Example
+
+### Remarks
 
 ###### Properties
 

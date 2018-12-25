@@ -1,10 +1,18 @@
 ← [Index](Api-Index) ← [IMyButtonPanel](SpaceEngineers.Game.ModAPI.Ingame.IMyButtonPanel)
 
-```csharp[bool](System.Boolean) HasCustomButtonName([int](System.Int32) index)```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual HasCustomButtonName
+```csharp
 
 Gets if the specified button has a custom name set.
 
-##### Returns
+### Returns
 
 
+
+### Example
+
+### Remarks
 

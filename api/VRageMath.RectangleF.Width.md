@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [RectangleF](VRageMath.RectangleF)
 
-```csharp[float](System.Single) Width```##### Summary
+### Summary
+
+```csharp
+private public Width
+```csharp
 
 Width of this rectangle.
+
+### Returns
+
+### Example
+
+### Remarks
 

@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Ray](VRageMath.Ray)
 
-```csharp[Vector3](VRageMath.Vector3) Position```##### Summary
+### Summary
+
+```csharp
+private public Position
+```csharp
 
 Specifies the starting point of the Ray.
+
+### Returns
+
+### Example
+
+### Remarks
 

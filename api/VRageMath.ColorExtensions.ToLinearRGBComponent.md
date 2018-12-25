@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [ColorExtensions](VRageMath.ColorExtensions)
 
-```csharp[float](System.Single) ToLinearRGBComponent([float](System.Single) c)```
+### Summary
+
+```csharp
+private public ToLinearRGBComponent
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

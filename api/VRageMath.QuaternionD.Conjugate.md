@@ -1,14 +1,44 @@
 ← [Index](Api-Index) ← [QuaternionD](VRageMath.QuaternionD)
 
-```csharpvoid Conjugate()```##### Summary
+### Summary
+
+```csharp
+private public Conjugate
+```csharp
 
 Transforms this QuaternionD into its conjugate.
 
-```csharp[QuaternionD](VRageMath.QuaternionD) Conjugate([QuaternionD](VRageMath.QuaternionD) value)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Conjugate
+```csharp
 
 Returns the conjugate of a specified QuaternionD.
 
-```csharpvoid Conjugate(ref [QuaternionD](VRageMath.QuaternionD) value, ref [QuaternionD](VRageMath.QuaternionD) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Conjugate
+```csharp
 
 Returns the conjugate of a specified QuaternionD.
+
+### Returns
+
+### Example
+
+### Remarks
 

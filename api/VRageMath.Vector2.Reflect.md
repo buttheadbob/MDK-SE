@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [Vector2](VRageMath.Vector2)
 
-```csharp[Vector2](VRageMath.Vector2) Reflect([Vector2](VRageMath.Vector2) vector, [Vector2](VRageMath.Vector2) normal)```##### Summary
+### Summary
+
+```csharp
+private public Reflect
+```csharp
 
 Determines the reflect vector of the given vector and normal.
 
-```csharpvoid Reflect(ref [Vector2](VRageMath.Vector2) vector, ref [Vector2](VRageMath.Vector2) normal, ref [Vector2](VRageMath.Vector2) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Reflect
+```csharp
 
 Determines the reflect vector of the given vector and normal.
+
+### Returns
+
+### Example
+
+### Remarks
 

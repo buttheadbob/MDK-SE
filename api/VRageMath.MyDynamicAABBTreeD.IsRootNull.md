@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyDynamicAABBTreeD](VRageMath.MyDynamicAABBTreeD)
 
-```csharp[bool](System.Boolean) IsRootNull()```
+### Summary
+
+```csharp
+private public IsRootNull
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

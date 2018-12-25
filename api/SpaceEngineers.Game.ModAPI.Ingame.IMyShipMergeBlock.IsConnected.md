@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyShipMergeBlock](SpaceEngineers.Game.ModAPI.Ingame.IMyShipMergeBlock)
 
-```csharp[bool](System.Boolean) IsConnected```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual IsConnected
+```csharp
 
 Gets if the merge block is connected to another one.
+
+### Returns
+
+### Example
+
+### Remarks
 

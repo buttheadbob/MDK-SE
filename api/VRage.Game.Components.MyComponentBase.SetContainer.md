@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MyComponentBase](VRage.Game.Components.MyComponentBase)
 
-```csharpvoid SetContainer([MyComponentContainer](VRage.Game.Components.MyComponentContainer) container)```##### Summary
+### Summary
+
+```csharp
+private public virtual SetContainer
+```csharp
 
 Sets the container of this component. Note that the component is not added to the container here! Therefore, use MyComponentContainer.Add(...) method and it will in turn call this method. Actually, you should seldom have the need to call this method yourself.
+
+### Returns
+
+### Example
+
+### Remarks
 

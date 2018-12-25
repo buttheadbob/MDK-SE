@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [BoundingBoxI](VRageMath.BoundingBoxI)
 
-```csharp[BoundingBoxI](VRageMath.BoundingBoxI) CreateFromSphere([BoundingSphere](VRageMath.BoundingSphere) sphere)```##### Summary
+### Summary
+
+```csharp
+private public CreateFromSphere
+```csharp
 
 Creates the smallest BoundingBoxI that will contain the specified BoundingSphere.
 
-```csharpvoid CreateFromSphere(ref [BoundingSphere](VRageMath.BoundingSphere) sphere, ref [BoundingBoxI](VRageMath.BoundingBoxI) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public CreateFromSphere
+```csharp
 
 Creates the smallest BoundingBoxI that will contain the specified BoundingSphere.
+
+### Returns
+
+### Example
+
+### Remarks
 

@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
-```csharp[BoundingSphereD](VRageMath.BoundingSphereD) WorldVolume```
+### Summary
+
+```csharp
+private public abstract virtual WorldVolume
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

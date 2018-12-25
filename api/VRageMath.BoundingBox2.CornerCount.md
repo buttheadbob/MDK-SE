@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [BoundingBox2](VRageMath.BoundingBox2)
 
-```csharp[int](System.Int32) CornerCount```##### Summary
+### Summary
+
+```csharp
+private public CornerCount
+```csharp
 
 Specifies the total number of corners (8) in the BoundingBox2.
+
+### Returns
+
+### Example
+
+### Remarks
 

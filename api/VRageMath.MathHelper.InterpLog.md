@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MathHelper](VRageMath.MathHelper)
 
-```csharp[float](System.Single) InterpLog([float](System.Single) value, [float](System.Single) amount1, [float](System.Single) amount2)```##### Summary
+### Summary
+
+```csharp
+private public InterpLog
+```csharp
 
 Performs interpolation on logarithmic scale.
+
+### Returns
+
+### Example
+
+### Remarks
 

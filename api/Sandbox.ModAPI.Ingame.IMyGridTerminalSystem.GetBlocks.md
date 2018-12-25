@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyGridTerminalSystem](Sandbox.ModAPI.Ingame.IMyGridTerminalSystem)
 
-```csharpvoid GetBlocks([List<T>](System.Collections.Generic.List`1) blocks)```
+### Summary
+
+```csharp
+private public abstract virtual GetBlocks
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

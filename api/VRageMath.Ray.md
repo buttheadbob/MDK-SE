@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# Ray Struct
+### Ray Struct
+
+```csharp
+private public sealed Ray
+```csharp
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+### Example
+
+### Remarks
 
 ###### Fields
 

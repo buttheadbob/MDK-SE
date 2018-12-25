@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)
 
-```csharpvoid UpdateIsWorking()```
+### Summary
+
+```csharp
+private public abstract virtual UpdateIsWorking
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

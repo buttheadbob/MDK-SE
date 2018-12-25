@@ -1,3 +1,98 @@
 ← [Index](Api-Index) ← [MyOrientedBoundingBoxD](VRageMath.MyOrientedBoundingBoxD)
 
-```csharp[bool](System.Boolean) Intersects(ref [BoundingBox](VRageMath.BoundingBox) box)``````csharp[bool](System.Boolean) Intersects(ref [BoundingBoxD](VRageMath.BoundingBoxD) box)``````csharp[bool](System.Boolean) Intersects(ref [MyOrientedBoundingBoxD](VRageMath.MyOrientedBoundingBoxD) other)``````csharp[bool](System.Boolean) Intersects([BoundingFrustumD](VRageMath.BoundingFrustumD) frustum)``````csharp[bool](System.Boolean) Intersects(ref [BoundingSphereD](VRageMath.BoundingSphereD) sphere)``````csharp[Nullable<T>](System.Nullable`1) Intersects(ref [RayD](VRageMath.RayD) ray)``````csharp[Nullable<T>](System.Nullable`1) Intersects(ref [LineD](VRageMath.LineD) line)``````csharp[PlaneIntersectionType](VRageMath.PlaneIntersectionType) Intersects(ref [PlaneD](VRageMath.PlaneD) plane)```
+### Summary
+
+```csharp
+private public Intersects
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Intersects
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Intersects
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Intersects
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Intersects
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Intersects
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Intersects
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Intersects
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

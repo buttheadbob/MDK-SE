@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [Vector3](VRageMath.Vector3)
 
-```csharp[Vector3](VRageMath.Vector3) UnitY```
+### Summary
+
+```csharp
+private public UnitY
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

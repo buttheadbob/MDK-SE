@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyBounds](VRageMath.MyBounds)
 
-```csharp[float](System.Single) Default```
+### Summary
+
+```csharp
+private public Default
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

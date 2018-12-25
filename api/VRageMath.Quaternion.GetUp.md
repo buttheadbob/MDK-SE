@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Quaternion](VRageMath.Quaternion)
 
-```csharpvoid GetUp(ref [Quaternion](VRageMath.Quaternion) q, ref [Vector3](VRageMath.Vector3) result)```##### Summary
+### Summary
+
+```csharp
+private public GetUp
+```csharp
 
 Gets up vector (0,1,0) transformed by quaternion.
+
+### Returns
+
+### Example
+
+### Remarks
 

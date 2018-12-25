@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyGasGenerator](Sandbox.ModAPI.Ingame.IMyGasGenerator)
 
-```csharp[bool](System.Boolean) UseConveyorSystem```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual UseConveyorSystem
+```csharp
 
 Conveyor system enabled
+
+### Returns
+
+### Example
+
+### Remarks
 

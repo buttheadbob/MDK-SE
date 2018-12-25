@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)
 
-```csharp[string](System.String) GetOwnerFactionTag()```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual GetOwnerFactionTag
+```csharp
 
 Tag of faction owning block
+
+### Returns
+
+### Example
+
+### Remarks
 

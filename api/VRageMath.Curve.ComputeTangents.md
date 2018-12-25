@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [Curve](VRageMath.Curve)
 
-```csharpvoid ComputeTangents([CurveTangent](VRageMath.CurveTangent) tangentType)```##### Summary
+### Summary
+
+```csharp
+private public ComputeTangents
+```csharp
 
 Computes all tangents for all CurveKeys in this Curve, using a specified tangent type for both TangentIn and TangentOut.
 
-```csharpvoid ComputeTangents([CurveTangent](VRageMath.CurveTangent) tangentInType, [CurveTangent](VRageMath.CurveTangent) tangentOutType)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public ComputeTangents
+```csharp
 
 Computes all tangents for all CurveKeys in this Curve, using different tangent types for TangentOut and TangentIn.
+
+### Returns
+
+### Example
+
+### Remarks
 

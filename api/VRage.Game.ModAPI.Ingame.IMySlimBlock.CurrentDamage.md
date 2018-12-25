@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMySlimBlock](VRage.Game.ModAPI.Ingame.IMySlimBlock)
 
-```csharp[float](System.Single) CurrentDamage```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual CurrentDamage
+```csharp
 
 BuildIntegrity - Integrity
+
+### Returns
+
+### Example
+
+### Remarks
 

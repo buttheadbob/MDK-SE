@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyInventoryItem](VRage.Game.ModAPI.Ingame.IMyInventoryItem)
 
-```csharp[uint](System.UInt32) ItemId```
+### Summary
+
+```csharp
+private public abstract virtual ItemId
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

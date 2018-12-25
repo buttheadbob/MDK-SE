@@ -1,34 +1,66 @@
 ← [Index](Api-Index) ← [MyIni](VRage.Game.ModAPI.Ingame.Utilities.MyIni)
 
-```csharp[bool](System.Boolean) TryParse([string](System.String) content)```##### Summary
+### Summary
+
+```csharp
+private public TryParse
+```csharp
 
 Attempts to parse the given content as a configuration file.
 
-##### Returns
+### Returns
 
 `true`if the parse succeeds,`false`otherwise
 
-```csharp[bool](System.Boolean) TryParse([string](System.String) content, ref [MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult) result)```##### Summary
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public TryParse
+```csharp
 
 Attempts to parse the given content as a configuration file.
 
-##### Returns
+### Returns
 
 `true`if the parse succeeds,`false`otherwise
 
-```csharp[bool](System.Boolean) TryParse([string](System.String) content, [string](System.String) section, ref [MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult) result)```##### Summary
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public TryParse
+```csharp
 
 Attempts to parse the given content as a configuration file. OBSERVE: Use only for read-only operations. If you parse a single section and run [ToString()](VRage.Game.ModAPI.Ingame.Utilities.MyIni.ToString) , you will only get the parsed section, the rest will be discarded.
 
-##### Returns
+### Returns
 
 `true`if the parse succeeds,`false`otherwise
 
-```csharp[bool](System.Boolean) TryParse([string](System.String) content, [string](System.String) section)```##### Summary
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public TryParse
+```csharp
 
 Attempts to parse the given content as a configuration file. OBSERVE: Use only for read-only operations. If you parse a single section and run [ToString()](VRage.Game.ModAPI.Ingame.Utilities.MyIni.ToString) , you will only get the parsed section, the rest will be discarded.
 
-##### Returns
+### Returns
 
 `true`if the parse succeeds,`false`otherwise
+
+### Example
+
+### Remarks
 

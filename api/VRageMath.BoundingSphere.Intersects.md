@@ -1,34 +1,126 @@
 ← [Index](Api-Index) ← [BoundingSphere](VRageMath.BoundingSphere)
 
-```csharp[bool](System.Boolean) Intersects([BoundingBox](VRageMath.BoundingBox) box)```##### Summary
+### Summary
+
+```csharp
+private public Intersects
+```csharp
 
 Checks whether the current BoundingSphere intersects with a specified BoundingBox.
 
-```csharpvoid Intersects(ref [BoundingBox](VRageMath.BoundingBox) box, ref [bool](System.Boolean) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Intersects
+```csharp
 
 Checks whether the current BoundingSphere intersects a BoundingBox.
 
-```csharp[bool](System.Boolean) Intersects([BoundingFrustum](VRageMath.BoundingFrustum) frustum)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Intersects
+```csharp
 
 Checks whether the current BoundingSphere intersects with a specified BoundingFrustum.
 
-```csharp[PlaneIntersectionType](VRageMath.PlaneIntersectionType) Intersects([Plane](VRageMath.Plane) plane)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Intersects
+```csharp
 
 Checks whether the current BoundingSphere intersects with a specified Plane.
 
-```csharpvoid Intersects(ref [Plane](VRageMath.Plane) plane, ref [PlaneIntersectionType](VRageMath.PlaneIntersectionType) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Intersects
+```csharp
 
 Checks whether the current BoundingSphere intersects a Plane.
 
-```csharp[Nullable<T>](System.Nullable`1) Intersects([Ray](VRageMath.Ray) ray)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Intersects
+```csharp
 
 Checks whether the current BoundingSphere intersects with a specified Ray.
 
-```csharpvoid Intersects(ref [Ray](VRageMath.Ray) ray, ref [Nullable<T>](System.Nullable`1) result)``````csharp[bool](System.Boolean) Intersects([BoundingSphere](VRageMath.BoundingSphere) sphere)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Intersects
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Intersects
+```csharp
 
 Checks whether the current BoundingSphere intersects with a specified BoundingSphere.
 
-```csharpvoid Intersects(ref [BoundingSphere](VRageMath.BoundingSphere) sphere, ref [bool](System.Boolean) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Intersects
+```csharp
 
 Checks whether the current BoundingSphere intersects another BoundingSphere.
+
+### Returns
+
+### Example
+
+### Remarks
 

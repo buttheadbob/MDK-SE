@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [BoundingSphereD](VRageMath.BoundingSphereD)
 
-```csharp[BoundingSphereD](VRageMath.BoundingSphereD) Transform([MatrixD](VRageMath.MatrixD) matrix)```##### Summary
+### Summary
+
+```csharp
+private public Transform
+```csharp
 
 Translates and scales the BoundingSphereD using a given Matrix.
 
-```csharpvoid Transform(ref [MatrixD](VRageMath.MatrixD) matrix, ref [BoundingSphereD](VRageMath.BoundingSphereD) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Transform
+```csharp
 
 Translates and scales the BoundingSphereD using a given Matrix.
+
+### Returns
+
+### Example
+
+### Remarks
 

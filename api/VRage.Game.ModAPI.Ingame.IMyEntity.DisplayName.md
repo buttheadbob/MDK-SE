@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
-```csharp[string](System.String) DisplayName```
+### Summary
+
+```csharp
+private public abstract virtual DisplayName
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

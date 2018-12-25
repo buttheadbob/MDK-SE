@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyWarhead](Sandbox.ModAPI.Ingame.IMyWarhead)
 
-```csharp[bool](System.Boolean) IsArmed```
+### Summary
+
+```csharp
+private public abstract virtual IsArmed
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

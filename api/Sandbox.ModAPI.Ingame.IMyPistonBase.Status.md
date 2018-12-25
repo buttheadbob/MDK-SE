@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyPistonBase](Sandbox.ModAPI.Ingame.IMyPistonBase)
 
-```csharp[PistonStatus](Sandbox.ModAPI.Ingame.PistonStatus) Status```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual Status
+```csharp
 
 Gets the current status.
+
+### Returns
+
+### Example
+
+### Remarks
 

@@ -1,7 +1,15 @@
 ← [Index](Api-Index)
 
-# Direction Enum
+### Direction Enum
+
+```csharp
+private sealed Direction
+```csharp
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+### Example
+
+### Remarks
 

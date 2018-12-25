@@ -1,3 +1,110 @@
 ← [Index](Api-Index) ← [MathHelper](VRageMath.MathHelper)
 
-```csharp[bool](System.Boolean) IsValid([Matrix](VRageMath.Matrix) matrix)``````csharp[bool](System.Boolean) IsValid([MatrixD](VRageMath.MatrixD) matrix)``````csharp[bool](System.Boolean) IsValid([Vector3](VRageMath.Vector3) vec)``````csharp[bool](System.Boolean) IsValid([Vector3D](VRageMath.Vector3D) vec)``````csharp[bool](System.Boolean) IsValid([Vector2](VRageMath.Vector2) vec)``````csharp[bool](System.Boolean) IsValid([float](System.Single) f)``````csharp[bool](System.Boolean) IsValid([double](System.Double) f)``````csharp[bool](System.Boolean) IsValid([Nullable<T>](System.Nullable`1) vec)``````csharp[bool](System.Boolean) IsValid([Quaternion](VRageMath.Quaternion) q)```
+### Summary
+
+```csharp
+private public IsValid
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public IsValid
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public IsValid
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public IsValid
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public IsValid
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public IsValid
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public IsValid
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public IsValid
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public IsValid
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

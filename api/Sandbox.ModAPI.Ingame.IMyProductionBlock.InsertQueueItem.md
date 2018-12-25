@@ -1,14 +1,44 @@
 ← [Index](Api-Index) ← [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)
 
-```csharpvoid InsertQueueItem([int](System.Int32) idx, [MyDefinitionId](VRage.Game.MyDefinitionId) blueprint, [MyFixedPoint](VRage.MyFixedPoint) amount)```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual InsertQueueItem
+```csharp
 
 Inserts a blueprint into the production queue
 
-```csharpvoid InsertQueueItem([int](System.Int32) idx, [MyDefinitionId](VRage.Game.MyDefinitionId) blueprint, [decimal](System.Decimal) amount)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public abstract virtual InsertQueueItem
+```csharp
 
 Inserts a blueprint into the production queue
 
-```csharpvoid InsertQueueItem([int](System.Int32) idx, [MyDefinitionId](VRage.Game.MyDefinitionId) blueprint, [double](System.Double) amount)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public abstract virtual InsertQueueItem
+```csharp
 
 Inserts a blueprint into the production queue
+
+### Returns
+
+### Example
+
+### Remarks
 

@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyOrientedBoundingBoxD](VRageMath.MyOrientedBoundingBoxD)
 
-```csharp[ContainmentType](VRageMath.ContainmentType) ContainsRelativeBox(ref [Vector3D](VRageMath.Vector3D) hA, ref [Vector3D](VRageMath.Vector3D) hB, ref [MatrixD](VRageMath.MatrixD) mB)```
+### Summary
+
+```csharp
+private public ContainsRelativeBox
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

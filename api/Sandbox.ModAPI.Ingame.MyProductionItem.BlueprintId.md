@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyProductionItem](Sandbox.ModAPI.Ingame.MyProductionItem)
 
-```csharp[MyDefinitionId](VRage.Game.MyDefinitionId) BlueprintId```
+### Summary
+
+```csharp
+private public BlueprintId
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

@@ -1,6 +1,10 @@
 ← [Index](Api-Index)
 
-# IMyInventoryOwner Interface
+### IMyInventoryOwner Interface
+
+```csharp
+private public abstract IMyInventoryOwner
+```csharp
 
 **Namespace:** [VRage.Game.ModAPI.Ingame](VRage.Game.ModAPI.Ingame)  
 **Assembly:** VRage.Game.dll

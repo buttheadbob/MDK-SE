@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)
 
-```csharp[bool](System.Boolean) IsUnderControl```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual IsUnderControl
+```csharp
 
 Indicates whether a block is locally or remotely controlled.
+
+### Returns
+
+### Example
+
+### Remarks
 

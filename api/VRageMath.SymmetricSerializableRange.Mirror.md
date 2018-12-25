@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [SymmetricSerializableRange](VRageMath.SymmetricSerializableRange)
 
-```csharp[bool](System.Boolean) Mirror```
+### Summary
+
+```csharp
+private public Mirror
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

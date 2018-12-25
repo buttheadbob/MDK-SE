@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MathHelper](VRageMath.MathHelper)
 
-```csharp[float](System.Single) Pi```##### Summary
+### Summary
+
+```csharp
+private public Pi
+```csharp
 
 Represents the value of pi.
+
+### Returns
+
+### Example
+
+### Remarks
 

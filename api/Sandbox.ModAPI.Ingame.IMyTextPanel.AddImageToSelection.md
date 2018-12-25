@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel)
 
-```csharpvoid AddImageToSelection([string](System.String) id, [bool](System.Boolean) checkExistence)```
+### Summary
+
+```csharp
+private public abstract virtual AddImageToSelection
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMySolarPanel](SpaceEngineers.Game.ModAPI.Ingame.IMySolarPanel)
 
-```csharp[float](System.Single) CurrentOutput```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual CurrentOutput
+```csharp
 
 Current output of solar panel in Megawatts
+
+### Returns
+
+### Example
+
+### Remarks
 

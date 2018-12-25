@@ -1,10 +1,18 @@
 ← [Index](Api-Index) ← [MyMath](VRageMath.MyMath)
 
-```csharp[float](System.Single) ArcTanAngle([float](System.Single) x, [float](System.Single) y)```##### Summary
+### Summary
+
+```csharp
+private public ArcTanAngle
+```csharp
 
 ArcTanAngle
 
-##### Returns
+### Returns
 
 ArcTan angle between x and y
+
+### Example
+
+### Remarks
 

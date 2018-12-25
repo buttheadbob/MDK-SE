@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyDynamicAABBTreeD](VRageMath.MyDynamicAABBTreeD)
 
-```csharpvoid Dispose()```
+### Summary
+
+```csharp
+private public Dispose
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

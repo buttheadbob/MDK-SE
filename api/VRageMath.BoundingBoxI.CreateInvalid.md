@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [BoundingBoxI](VRageMath.BoundingBoxI)
 
-```csharp[BoundingBoxI](VRageMath.BoundingBoxI) CreateInvalid()```
+### Summary
+
+```csharp
+private public CreateInvalid
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# MyDynamicAABBTreeD Class
+### MyDynamicAABBTreeD Class
+
+```csharp
+private public MyDynamicAABBTreeD
+```csharp
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+### Example
+
+### Remarks
 
 ###### Fields
 

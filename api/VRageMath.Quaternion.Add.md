@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [Quaternion](VRageMath.Quaternion)
 
-```csharp[Quaternion](VRageMath.Quaternion) Add([Quaternion](VRageMath.Quaternion) quaternion1, [Quaternion](VRageMath.Quaternion) quaternion2)```##### Summary
+### Summary
+
+```csharp
+private public Add
+```csharp
 
 Adds two Quaternions.
 
-```csharpvoid Add(ref [Quaternion](VRageMath.Quaternion) quaternion1, ref [Quaternion](VRageMath.Quaternion) quaternion2, ref [Quaternion](VRageMath.Quaternion) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Add
+```csharp
 
 Adds two Quaternions.
+
+### Returns
+
+### Example
+
+### Remarks
 

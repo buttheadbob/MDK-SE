@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [Matrix](VRageMath.Matrix)
 
-```csharp[Matrix](VRageMath.Matrix) CreateOrthographicOffCenter([float](System.Single) left, [float](System.Single) right, [float](System.Single) bottom, [float](System.Single) top, [float](System.Single) zNearPlane, [float](System.Single) zFarPlane)```##### Summary
+### Summary
+
+```csharp
+private public CreateOrthographicOffCenter
+```csharp
 
 Builds a customized, orthogonal projection matrix.
 
-```csharpvoid CreateOrthographicOffCenter([float](System.Single) left, [float](System.Single) right, [float](System.Single) bottom, [float](System.Single) top, [float](System.Single) zNearPlane, [float](System.Single) zFarPlane, ref [Matrix](VRageMath.Matrix) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public CreateOrthographicOffCenter
+```csharp
 
 Builds a customized, orthogonal projection matrix.
+
+### Returns
+
+### Example
+
+### Remarks
 

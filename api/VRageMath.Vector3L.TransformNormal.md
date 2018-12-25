@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Vector3L](VRageMath.Vector3L)
 
-```csharpvoid TransformNormal(ref [Vector3L](VRageMath.Vector3L) normal, ref [Matrix](VRageMath.Matrix) matrix, ref [Vector3L](VRageMath.Vector3L) result)```##### Summary
+### Summary
+
+```csharp
+private public TransformNormal
+```csharp
 
 Transforms a vector normal by a matrix.
+
+### Returns
+
+### Example
+
+### Remarks
 

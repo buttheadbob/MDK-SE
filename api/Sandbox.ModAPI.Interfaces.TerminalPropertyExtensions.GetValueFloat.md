@@ -1,10 +1,18 @@
 ← [Index](Api-Index) ← [TerminalPropertyExtensions](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions)
 
-```csharp[float](System.Single) GetValueFloat([IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock) block, [string](System.String) propertyId)```##### Summary
+### Summary
+
+```csharp
+private public GetValueFloat
+```csharp
 
 Returns value of specified property
 
-##### Returns
+### Returns
 
 property value as float
+
+### Example
+
+### Remarks
 

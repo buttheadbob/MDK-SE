@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyRemoteControl](Sandbox.ModAPI.Ingame.IMyRemoteControl)
 
-```csharpvoid SetAutoPilotEnabled([bool](System.Boolean) enabled)```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual SetAutoPilotEnabled
+```csharp
 
 Enables or disables the autopilot.
+
+### Returns
+
+### Example
+
+### Remarks
 

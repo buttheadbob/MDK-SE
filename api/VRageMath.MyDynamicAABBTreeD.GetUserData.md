@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyDynamicAABBTreeD](VRageMath.MyDynamicAABBTreeD)
 
-```csharp[T]() GetUserData<T><[T]()>([int](System.Int32) proxyId)```
+### Summary
+
+```csharp
+private public GetUserData<T>
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

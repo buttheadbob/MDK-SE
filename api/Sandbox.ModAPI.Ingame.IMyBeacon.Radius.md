@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyBeacon](Sandbox.ModAPI.Ingame.IMyBeacon)
 
-```csharp[float](System.Single) Radius```
+### Summary
+
+```csharp
+private public abstract virtual Radius
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

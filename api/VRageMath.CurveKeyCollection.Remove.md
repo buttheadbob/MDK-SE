@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [CurveKeyCollection](VRageMath.CurveKeyCollection)
 
-```csharp[bool](System.Boolean) Remove([CurveKey](VRageMath.CurveKey) item)```##### Summary
+### Summary
+
+```csharp
+private public Remove
+```csharp
 
 Removes the first occurrence of a specific CurveKey from the CurveKeyCollection.
+
+### Returns
+
+### Example
+
+### Remarks
 

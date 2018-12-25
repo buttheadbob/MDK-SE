@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyProgrammableBlock](Sandbox.ModAPI.Ingame.IMyProgrammableBlock)
 
-```csharp[bool](System.Boolean) IsRunning```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual IsRunning
+```csharp
 
 This programmable block is currently running its program.
+
+### Returns
+
+### Example
+
+### Remarks
 

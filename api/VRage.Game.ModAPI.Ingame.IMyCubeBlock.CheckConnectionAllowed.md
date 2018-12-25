@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)
 
-```csharp[bool](System.Boolean) CheckConnectionAllowed```
+### Summary
+
+```csharp
+private public abstract virtual CheckConnectionAllowed
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyShipWelder](Sandbox.ModAPI.Ingame.IMyShipWelder)
 
-```csharp[bool](System.Boolean) HelpOthers```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual HelpOthers
+```csharp
 
 True if welder is set to helper mode
+
+### Returns
+
+### Example
+
+### Remarks
 

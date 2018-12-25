@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyJumpDrive](Sandbox.ModAPI.Ingame.IMyJumpDrive)
 
-```csharp[float](System.Single) MaxStoredPower```
+### Summary
+
+```csharp
+private public abstract virtual MaxStoredPower
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

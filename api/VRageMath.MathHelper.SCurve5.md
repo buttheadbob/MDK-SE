@@ -1,3 +1,26 @@
 ← [Index](Api-Index) ← [MathHelper](VRageMath.MathHelper)
 
-```csharp[float](System.Single) SCurve5([float](System.Single) t)``````csharp[double](System.Double) SCurve5([double](System.Double) t)```
+### Summary
+
+```csharp
+private public SCurve5
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public SCurve5
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

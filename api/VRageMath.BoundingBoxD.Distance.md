@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [BoundingBoxD](VRageMath.BoundingBoxD)
 
-```csharp[double](System.Double) Distance([Vector3D](VRageMath.Vector3D) point)```
+### Summary
+
+```csharp
+private public Distance
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

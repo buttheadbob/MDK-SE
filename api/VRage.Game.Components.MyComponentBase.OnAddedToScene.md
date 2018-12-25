@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MyComponentBase](VRage.Game.Components.MyComponentBase)
 
-```csharpvoid OnAddedToScene()```##### Summary
+### Summary
+
+```csharp
+private public virtual OnAddedToScene
+```csharp
 
 CH: TOOD: Be careful! This does not get called if the component is added to a container that is in the scene already!
+
+### Returns
+
+### Example
+
+### Remarks
 

@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyOrientedBoundingBoxD](VRageMath.MyOrientedBoundingBoxD)
 
-```csharp[int](System.Int32) CornerCount```
+### Summary
+
+```csharp
+private public CornerCount
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

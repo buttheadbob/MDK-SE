@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [CurveKeyCollection](VRageMath.CurveKeyCollection)
 
-```csharp[CurveKey](VRageMath.CurveKey) Item```
+### Summary
+
+```csharp
+private public Item
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

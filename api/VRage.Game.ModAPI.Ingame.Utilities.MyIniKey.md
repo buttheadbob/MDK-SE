@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# MyIniKey Struct
+### MyIniKey Struct
+
+```csharp
+private public sealed MyIniKey
+```csharp
 
 **Namespace:** [VRage.Game.ModAPI.Ingame.Utilities](VRage.Game.ModAPI.Ingame.Utilities)  
 **Assembly:** VRage.Game.dll
+
+### Example
+
+### Remarks
 
 ###### Fields
 

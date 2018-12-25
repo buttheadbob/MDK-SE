@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# TerminalActionExtensions Class
+### TerminalActionExtensions Class
+
+```csharp
+private public abstract sealed TerminalActionExtensions
+```csharp
 
 **Namespace:** [Sandbox.Game.Gui](Sandbox.Game.Gui)  
 **Assembly:** Sandbox.Game.dll
+
+### Example
+
+### Remarks
 
 ###### Methods
 

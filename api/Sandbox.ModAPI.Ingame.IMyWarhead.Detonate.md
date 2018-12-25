@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyWarhead](Sandbox.ModAPI.Ingame.IMyWarhead)
 
-```csharpvoid Detonate()```
+### Summary
+
+```csharp
+private public abstract virtual Detonate
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

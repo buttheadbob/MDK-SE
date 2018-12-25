@@ -1,18 +1,34 @@
 ← [Index](Api-Index) ← [MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult)
 
-```csharp[bool](System.Boolean) Equals([MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult) other)```##### Summary
+### Summary
+
+```csharp
+private public Equals
+```csharp
 
 Compares this [MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult) with another.
 
-##### Returns
+### Returns
 
 
 
-```csharp[bool](System.Boolean) Equals([object](System.Object) obj)```##### Summary
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public virtual Equals
+```csharp
 
 Compares this [MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult) with another.
 
-##### Returns
+### Returns
 
 
+
+### Example
+
+### Remarks
 

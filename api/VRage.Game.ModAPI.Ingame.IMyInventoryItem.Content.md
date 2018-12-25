@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyInventoryItem](VRage.Game.ModAPI.Ingame.IMyInventoryItem)
 
-```csharp[MyObjectBuilder_Base](VRage.ObjectBuilders.MyObjectBuilder_Base) Content```
+### Summary
+
+```csharp
+private public abstract virtual Content
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

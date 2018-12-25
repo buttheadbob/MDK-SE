@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [IMyRemoteControl](Sandbox.ModAPI.Ingame.IMyRemoteControl)
 
-```csharpvoid AddWaypoint([Vector3D](VRageMath.Vector3D) coords, [string](System.String) name)```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual AddWaypoint
+```csharp
 
 Adds a new waypoint.
 
-```csharpvoid AddWaypoint([MyWaypointInfo](Sandbox.ModAPI.Ingame.MyWaypointInfo) coords)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public abstract virtual AddWaypoint
+```csharp
 
 Adds a new waypoint.
+
+### Returns
+
+### Example
+
+### Remarks
 

@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyFixedPoint](VRage.MyFixedPoint)
 
-```csharp[MyFixedPoint](VRage.MyFixedPoint) Round([MyFixedPoint](VRage.MyFixedPoint) a)```
+### Summary
+
+```csharp
+private public Round
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

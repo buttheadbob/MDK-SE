@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# Vector3INormalEqualityComparer Class
+### Vector3INormalEqualityComparer Class
+
+```csharp
+private public Vector3INormalEqualityComparer
+```csharp
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+### Example
+
+### Remarks
 
 ###### Methods
 

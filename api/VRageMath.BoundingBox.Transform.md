@@ -1,3 +1,74 @@
 ← [Index](Api-Index) ← [BoundingBox](VRageMath.BoundingBox)
 
-```csharp[BoundingBox](VRageMath.BoundingBox) Transform([Matrix](VRageMath.Matrix) worldMatrix)``````csharp[BoundingBoxD](VRageMath.BoundingBoxD) Transform([MatrixD](VRageMath.MatrixD) worldMatrix)``````csharp[BoundingBox](VRageMath.BoundingBox) Transform(ref [Matrix](VRageMath.Matrix) m)``````csharpvoid Transform(ref [Matrix](VRageMath.Matrix) m, ref [BoundingBox](VRageMath.BoundingBox) bb)``````csharp[BoundingBoxD](VRageMath.BoundingBoxD) Transform(ref [MatrixD](VRageMath.MatrixD) m)``````csharpvoid Transform(ref [MatrixD](VRageMath.MatrixD) m, ref [BoundingBoxD](VRageMath.BoundingBoxD) bb)```
+### Summary
+
+```csharp
+private public Transform
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Transform
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Transform
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Transform
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Transform
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Transform
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

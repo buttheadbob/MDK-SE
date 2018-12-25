@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MatrixD](VRageMath.MatrixD)
 
-```csharp[Vector3D](VRageMath.Vector3D) Left```##### Summary
+### Summary
+
+```csharp
+private public Left
+```csharp
 
 Gets and sets the left vector of the Matrix.
+
+### Returns
+
+### Example
+
+### Remarks
 

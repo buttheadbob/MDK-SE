@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [ListExtensions](System.Collections.Generic.ListExtensions)
 
-```csharpvoid SortNoAlloc<T><[T]()>([List<T>](System.Collections.Generic.List`1) list, Comparison<T> comparator)```
+### Summary
+
+```csharp
+private public SortNoAlloc<T>
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

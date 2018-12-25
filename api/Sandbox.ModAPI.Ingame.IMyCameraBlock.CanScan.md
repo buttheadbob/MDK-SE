@@ -1,26 +1,50 @@
 ← [Index](Api-Index) ← [IMyCameraBlock](Sandbox.ModAPI.Ingame.IMyCameraBlock)
 
-```csharp[bool](System.Boolean) CanScan([double](System.Double) distance)```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual CanScan
+```csharp
 
 Checks if the camera can scan the given distance.
 
-##### Returns
+### Returns
 
 
 
-```csharp[bool](System.Boolean) CanScan([double](System.Double) distance, [Vector3D](VRageMath.Vector3D) direction)```##### Summary
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public abstract virtual CanScan
+```csharp
 
 Checks if the camera can scan to the given direction and distance.
 
-##### Returns
+### Returns
 
 
 
-```csharp[bool](System.Boolean) CanScan([Vector3D](VRageMath.Vector3D) target)```##### Summary
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public abstract virtual CanScan
+```csharp
 
 Checks if the camera can scan to the given target
 
-##### Returns
+### Returns
 
 
+
+### Example
+
+### Remarks
 

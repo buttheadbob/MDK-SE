@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyDefinitionId](VRage.Game.MyDefinitionId)
 
-```csharpVRage.Utils.MyStringHash SubtypeId```
+### Summary
+
+```csharp
+private public SubtypeId
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

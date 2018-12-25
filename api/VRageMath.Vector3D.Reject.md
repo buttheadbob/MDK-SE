@@ -1,14 +1,32 @@
 ← [Index](Api-Index) ← [Vector3D](VRageMath.Vector3D)
 
-```csharp[Vector3D](VRageMath.Vector3D) Reject([Vector3D](VRageMath.Vector3D) vector, [Vector3D](VRageMath.Vector3D) direction)```##### Summary
+### Summary
+
+```csharp
+private public Reject
+```csharp
 
 Returns the rejection of vector from direction, i.e. projection of vector onto the plane defined by origin and direction
 
-##### Returns
+### Returns
 
 Rejection of the vector from the given direction
 
-```csharpvoid Reject(ref [Vector3D](VRageMath.Vector3D) vector, ref [Vector3D](VRageMath.Vector3D) direction, ref [Vector3D](VRageMath.Vector3D) result)```##### Summary
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Reject
+```csharp
 
 Returns the rejection of vector from direction, i.e. projection of vector onto the plane defined by origin and direction
+
+### Returns
+
+### Example
+
+### Remarks
 

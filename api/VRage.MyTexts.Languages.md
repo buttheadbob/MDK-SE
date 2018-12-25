@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyTexts](VRage.MyTexts)
 
-```csharpVRage.Collections.DictionaryReader<VRage.MyLanguagesEnum, VRage.MyTexts+LanguageDescription> Languages```
+### Summary
+
+```csharp
+private public Languages
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

@@ -1,18 +1,34 @@
 ← [Index](Api-Index) ← [BoundingBoxD](VRageMath.BoundingBoxD)
 
-```csharp[BoundingBoxD](VRageMath.BoundingBoxD) TransformSlow([MatrixD](VRageMath.MatrixD) m)```##### Summary
+### Summary
+
+```csharp
+private public TransformSlow
+```csharp
 
 Transform this AABB by matrix.
 
-##### Returns
+### Returns
 
 transformed aabb
 
-```csharp[BoundingBoxD](VRageMath.BoundingBoxD) TransformSlow(ref [MatrixD](VRageMath.MatrixD) worldMatrix)```##### Summary
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public TransformSlow
+```csharp
 
 Transform this AABB by matrix.
 
-##### Returns
+### Returns
 
 transformed aabb
+
+### Example
+
+### Remarks
 

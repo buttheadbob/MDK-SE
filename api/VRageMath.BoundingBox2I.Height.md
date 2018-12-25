@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [BoundingBox2I](VRageMath.BoundingBox2I)
 
-```csharp[float](System.Single) Height```
+### Summary
+
+```csharp
+private public Height
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

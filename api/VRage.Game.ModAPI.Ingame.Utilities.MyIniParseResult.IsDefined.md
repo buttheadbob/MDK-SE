@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult)
 
-```csharp[bool](System.Boolean) IsDefined```##### Summary
+### Summary
+
+```csharp
+private public IsDefined
+```csharp
 
 Determines if the value of this result is defined, meaning whether the [Success](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult.Success) actually holds any meaning.
+
+### Returns
+
+### Example
+
+### Remarks
 

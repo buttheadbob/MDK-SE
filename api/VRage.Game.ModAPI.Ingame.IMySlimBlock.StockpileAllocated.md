@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMySlimBlock](VRage.Game.ModAPI.Ingame.IMySlimBlock)
 
-```csharp[bool](System.Boolean) StockpileAllocated```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual StockpileAllocated
+```csharp
 
 A component stockpile has been allocated
+
+### Returns
+
+### Example
+
+### Remarks
 

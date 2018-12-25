@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)
 
-```csharp[bool](System.Boolean) IsProducing```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual IsProducing
+```csharp
 
 The device is currently producing.
+
+### Returns
+
+### Example
+
+### Remarks
 

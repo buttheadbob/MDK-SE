@@ -1,19 +1,82 @@
 ← [Index](Api-Index) ← [BoundingBoxI](VRageMath.BoundingBoxI)
 
-```csharp[BoundingBoxI](VRageMath.BoundingBoxI) Include(ref [Vector3I](VRageMath.Vector3I) point)```##### Summary
+### Summary
+
+```csharp
+private public Include
+```csharp
 
 return expanded aabb (abb include point)
 
-##### Returns
+### Returns
 
 
 
-```csharp[BoundingBoxI](VRageMath.BoundingBoxI) Include([Vector3I](VRageMath.Vector3I) point)``````csharp[BoundingBoxI](VRageMath.BoundingBoxI) Include([Vector3I](VRageMath.Vector3I) p0, [Vector3I](VRageMath.Vector3I) p1, [Vector3I](VRageMath.Vector3I) p2)``````csharp[BoundingBoxI](VRageMath.BoundingBoxI) Include(ref [Vector3I](VRageMath.Vector3I) p0, ref [Vector3I](VRageMath.Vector3I) p1, ref [Vector3I](VRageMath.Vector3I) p2)``````csharp[BoundingBoxI](VRageMath.BoundingBoxI) Include(ref [BoundingBoxI](VRageMath.BoundingBoxI) box)```##### Summary
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Include
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Include
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Include
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Include
+```csharp
 
 return expanded aabb (abb include point)
 
-##### Returns
+### Returns
 
 
 
-```csharp[BoundingBoxI](VRageMath.BoundingBoxI) Include([BoundingBoxI](VRageMath.BoundingBoxI) box)```
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Include
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

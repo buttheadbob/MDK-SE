@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyGyro](Sandbox.ModAPI.Ingame.IMyGyro)
 
-```csharp[bool](System.Boolean) GyroOverride```
+### Summary
+
+```csharp
+private public abstract virtual GyroOverride
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

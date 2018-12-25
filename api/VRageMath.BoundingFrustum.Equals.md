@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [BoundingFrustum](VRageMath.BoundingFrustum)
 
-```csharp[bool](System.Boolean) Equals([BoundingFrustum](VRageMath.BoundingFrustum) other)```##### Summary
+### Summary
+
+```csharp
+private public Equals
+```csharp
 
 Determines whether the specified BoundingFrustum is equal to the current BoundingFrustum.
 
-```csharp[bool](System.Boolean) Equals([object](System.Object) obj)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public virtual Equals
+```csharp
 
 Determines whether the specified Object is equal to the BoundingFrustum.
+
+### Returns
+
+### Example
+
+### Remarks
 

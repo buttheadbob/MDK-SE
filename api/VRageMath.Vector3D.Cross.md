@@ -1,10 +1,42 @@
 ← [Index](Api-Index) ← [Vector3D](VRageMath.Vector3D)
 
-```csharp[Vector3D](VRageMath.Vector3D) Cross([Vector3D](VRageMath.Vector3D) v)``````csharp[Vector3D](VRageMath.Vector3D) Cross([Vector3D](VRageMath.Vector3D) vector1, [Vector3D](VRageMath.Vector3D) vector2)```##### Summary
+### Summary
+
+```csharp
+private public Cross
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Cross
+```csharp
 
 Calculates the cross product of two vectors.
 
-```csharpvoid Cross(ref [Vector3D](VRageMath.Vector3D) vector1, ref [Vector3D](VRageMath.Vector3D) vector2, ref [Vector3D](VRageMath.Vector3D) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Cross
+```csharp
 
 Calculates the cross product of two vectors.
+
+### Returns
+
+### Example
+
+### Remarks
 

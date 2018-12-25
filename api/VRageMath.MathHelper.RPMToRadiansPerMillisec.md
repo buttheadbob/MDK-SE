@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MathHelper](VRageMath.MathHelper)
 
-```csharp[float](System.Single) RPMToRadiansPerMillisec```##### Summary
+### Summary
+
+```csharp
+private public RPMToRadiansPerMillisec
+```csharp
 
 2*pi / 60000
+
+### Returns
+
+### Example
+
+### Remarks
 

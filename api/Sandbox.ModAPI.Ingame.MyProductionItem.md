@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# MyProductionItem Struct
+### MyProductionItem Struct
+
+```csharp
+private public sealed MyProductionItem
+```csharp
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
+
+### Example
+
+### Remarks
 
 ###### Fields
 

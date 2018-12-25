@@ -1,12 +1,20 @@
 ← [Index](Api-Index)
 
-# MyResourceSinkComponentBase Class
+### MyResourceSinkComponentBase Class
+
+```csharp
+private public abstract MyResourceSinkComponentBase
+```csharp
 
 **Namespace:** [VRage.Game.Components](VRage.Game.Components)  
 **Assembly:** VRage.Game.dll
 
 **Inheritors:**  
 * [Sandbox.Game.EntityComponents.MyResourceSinkComponent](Sandbox.Game.EntityComponents.MyResourceSinkComponent)
+
+### Example
+
+### Remarks
 
 ###### Properties
 

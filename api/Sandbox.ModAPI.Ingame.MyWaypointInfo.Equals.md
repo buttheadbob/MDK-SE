@@ -1,26 +1,50 @@
 ← [Index](Api-Index) ← [MyWaypointInfo](Sandbox.ModAPI.Ingame.MyWaypointInfo)
 
-```csharp[bool](System.Boolean) Equals([MyWaypointInfo](Sandbox.ModAPI.Ingame.MyWaypointInfo) other)```##### Summary
+### Summary
+
+```csharp
+private public Equals
+```csharp
 
 Determines whether this coordinate is the same as another. Uses 0.0001 as the epsilon to counter floating point inaccuracies.
 
-##### Returns
+### Returns
 
 
 
-```csharp[bool](System.Boolean) Equals([MyWaypointInfo](Sandbox.ModAPI.Ingame.MyWaypointInfo) other, [double](System.Double) epsilon)```##### Summary
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Equals
+```csharp
 
 Determines whether this coordinate is the same as another. Uses 0.0001 as the epsilon to counter floating point inaccuracies.
 
-##### Returns
+### Returns
 
 
 
-```csharp[bool](System.Boolean) Equals([object](System.Object) obj)```##### Summary
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public virtual Equals
+```csharp
 
 Determines whether this coordinate is the same as another. Uses 0.0001 as the epsilon to counter floating point inaccuracies.
 
-##### Returns
+### Returns
 
 
+
+### Example
+
+### Remarks
 

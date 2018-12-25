@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [QuaternionD](VRageMath.QuaternionD)
 
-```csharp[QuaternionD](VRageMath.QuaternionD) CreateFromForwardUp([Vector3D](VRageMath.Vector3D) forward, [Vector3D](VRageMath.Vector3D) up)```##### Summary
+### Summary
+
+```csharp
+private public CreateFromForwardUp
+```csharp
 
 Works for normalized vectors only
+
+### Returns
+
+### Example
+
+### Remarks
 

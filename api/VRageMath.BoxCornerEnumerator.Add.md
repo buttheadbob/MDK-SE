@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [BoxCornerEnumerator](VRageMath.BoxCornerEnumerator)
 
-```csharpvoid Add([object](System.Object) tmp)```
+### Summary
+
+```csharp
+private public Add
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

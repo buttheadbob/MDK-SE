@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [TextPtr](VRage.Game.ModAPI.Ingame.Utilities.TextPtr)
 
-```csharp[bool](System.Boolean) IsNewLine()```
+### Summary
+
+```csharp
+private public IsNewLine
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

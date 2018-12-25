@@ -1,3 +1,26 @@
 ← [Index](Api-Index) ← [Vector3L](VRageMath.Vector3L)
 
-```csharp[bool](System.Boolean) Equals([Vector3L](VRageMath.Vector3L) other)``````csharp[bool](System.Boolean) Equals([object](System.Object) obj)```
+### Summary
+
+```csharp
+private public Equals
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public virtual Equals
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

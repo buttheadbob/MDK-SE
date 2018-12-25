@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyInventory](VRage.Game.ModAPI.Ingame.IMyInventory)
 
-```csharp[bool](System.Boolean) IsFull```
+### Summary
+
+```csharp
+private public abstract virtual IsFull
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

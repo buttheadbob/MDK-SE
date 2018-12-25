@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MathHelper](VRageMath.MathHelper)
 
-```csharp[float](System.Single) EPSILON```
+### Summary
+
+```csharp
+private public EPSILON
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

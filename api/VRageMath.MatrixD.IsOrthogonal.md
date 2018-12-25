@@ -1,3 +1,26 @@
 ← [Index](Api-Index) ← [MatrixD](VRageMath.MatrixD)
 
-```csharp[bool](System.Boolean) IsOrthogonal()``````csharp[bool](System.Boolean) IsOrthogonal([double](System.Double) epsilon)```
+### Summary
+
+```csharp
+private public IsOrthogonal
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public IsOrthogonal
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

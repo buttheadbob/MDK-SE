@@ -1,14 +1,44 @@
 ← [Index](Api-Index) ← [QuaternionD](VRageMath.QuaternionD)
 
-```csharpvoid Normalize()```##### Summary
+### Summary
+
+```csharp
+private public Normalize
+```csharp
 
 Divides each component of the quaternion by the length of the quaternion.
 
-```csharp[QuaternionD](VRageMath.QuaternionD) Normalize([QuaternionD](VRageMath.QuaternionD) quaternion)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Normalize
+```csharp
 
 Divides each component of the quaternion by the length of the quaternion.
 
-```csharpvoid Normalize(ref [QuaternionD](VRageMath.QuaternionD) quaternion, ref [QuaternionD](VRageMath.QuaternionD) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Normalize
+```csharp
 
 Divides each component of the quaternion by the length of the quaternion.
+
+### Returns
+
+### Example
+
+### Remarks
 

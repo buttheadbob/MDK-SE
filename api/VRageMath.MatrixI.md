@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# MatrixI Struct
+### MatrixI Struct
+
+```csharp
+private public sealed MatrixI
+```csharp
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+### Example
+
+### Remarks
 
 ###### Fields
 

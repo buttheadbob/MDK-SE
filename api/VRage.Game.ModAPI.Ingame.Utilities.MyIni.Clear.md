@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MyIni](VRage.Game.ModAPI.Ingame.Utilities.MyIni)
 
-```csharpvoid Clear()```##### Summary
+### Summary
+
+```csharp
+private public Clear
+```csharp
 
 Empties this configuration
+
+### Returns
+
+### Example
+
+### Remarks
 

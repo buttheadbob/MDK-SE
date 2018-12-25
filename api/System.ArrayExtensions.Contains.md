@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [ArrayExtensions](System.ArrayExtensions)
 
-```csharp[bool](System.Boolean) Contains<T><T>(T[] array, T element)```
+### Summary
+
+```csharp
+private public Contains<T>
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

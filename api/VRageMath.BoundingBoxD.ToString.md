@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [BoundingBoxD](VRageMath.BoundingBoxD)
 
-```csharp[string](System.String) ToString()```##### Summary
+### Summary
+
+```csharp
+private public virtual ToString
+```csharp
 
 Returns a String that represents the current BoundingBox.
+
+### Returns
+
+### Example
+
+### Remarks
 

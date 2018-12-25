@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyMotorSuspension](Sandbox.ModAPI.Ingame.IMyMotorSuspension)
 
-```csharp[float](System.Single) Strength```
+### Summary
+
+```csharp
+private public abstract virtual Strength
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

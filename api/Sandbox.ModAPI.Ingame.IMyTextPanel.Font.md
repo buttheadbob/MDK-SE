@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel)
 
-```csharp[string](System.String) Font```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual Font
+```csharp
 
 Gets or sets the font
+
+### Returns
+
+### Example
+
+### Remarks
 

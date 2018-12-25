@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyThrust](Sandbox.ModAPI.Ingame.IMyThrust)
 
-```csharp[float](System.Single) ThrustOverride```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual ThrustOverride
+```csharp
 
 Gets or sets the override thrust amount, in Newtons (N)
+
+### Returns
+
+### Example
+
+### Remarks
 

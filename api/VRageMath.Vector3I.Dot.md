@@ -1,3 +1,50 @@
 ← [Index](Api-Index) ← [Vector3I](VRageMath.Vector3I)
 
-```csharp[int](System.Int32) Dot(ref [Vector3I](VRageMath.Vector3I) v)``````csharp[int](System.Int32) Dot([Vector3I](VRageMath.Vector3I) vector1, [Vector3I](VRageMath.Vector3I) vector2)``````csharp[int](System.Int32) Dot(ref [Vector3I](VRageMath.Vector3I) vector1, ref [Vector3I](VRageMath.Vector3I) vector2)``````csharpvoid Dot(ref [Vector3I](VRageMath.Vector3I) vector1, ref [Vector3I](VRageMath.Vector3I) vector2, ref [int](System.Int32) dot)```
+### Summary
+
+```csharp
+private public Dot
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Dot
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Dot
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Dot
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

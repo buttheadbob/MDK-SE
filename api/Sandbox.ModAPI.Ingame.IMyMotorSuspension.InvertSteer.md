@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyMotorSuspension](Sandbox.ModAPI.Ingame.IMyMotorSuspension)
 
-```csharp[bool](System.Boolean) InvertSteer```
+### Summary
+
+```csharp
+private public abstract virtual InvertSteer
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

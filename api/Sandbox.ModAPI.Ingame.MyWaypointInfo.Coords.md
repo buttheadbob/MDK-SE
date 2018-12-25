@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MyWaypointInfo](Sandbox.ModAPI.Ingame.MyWaypointInfo)
 
-```csharp[Vector3D](VRageMath.Vector3D) Coords```##### Summary
+### Summary
+
+```csharp
+private public Coords
+```csharp
 
 Gets the target coordinate as a [Vector3D](VRageMath.Vector3D) 
+
+### Returns
+
+### Example
+
+### Remarks
 

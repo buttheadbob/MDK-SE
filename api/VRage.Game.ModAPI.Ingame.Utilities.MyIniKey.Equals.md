@@ -1,18 +1,34 @@
 ← [Index](Api-Index) ← [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey)
 
-```csharp[bool](System.Boolean) Equals([MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) other)```##### Summary
+### Summary
+
+```csharp
+private public Equals
+```csharp
 
 Compares this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) with another. Note that this is equality in the sense of a configuration key, which means the comparison is implicitly case insensitive.
 
-##### Returns
+### Returns
 
 
 
-```csharp[bool](System.Boolean) Equals([object](System.Object) obj)```##### Summary
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public virtual Equals
+```csharp
 
 Compares this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) with another. Note that this is equality in the sense of a configuration key, which means the comparison is implicitly case insensitive.
 
-##### Returns
+### Returns
 
 
+
+### Example
+
+### Remarks
 

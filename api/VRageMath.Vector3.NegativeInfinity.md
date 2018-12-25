@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [Vector3](VRageMath.Vector3)
 
-```csharp[Vector3](VRageMath.Vector3) NegativeInfinity```
+### Summary
+
+```csharp
+private public NegativeInfinity
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyInventoryOwner](VRage.Game.ModAPI.Ingame.IMyInventoryOwner)
 
-```csharp[long](System.Int64) EntityId```
+### Summary
+
+```csharp
+private public abstract virtual EntityId
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

@@ -1,3 +1,26 @@
 ← [Index](Api-Index) ← [BoundingBox](VRageMath.BoundingBox)
 
-```csharpvoid Inflate([float](System.Single) size)``````csharpvoid Inflate([Vector3](VRageMath.Vector3) size)```
+### Summary
+
+```csharp
+private public Inflate
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Inflate
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

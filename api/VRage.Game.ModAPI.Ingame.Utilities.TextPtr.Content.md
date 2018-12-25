@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [TextPtr](VRage.Game.ModAPI.Ingame.Utilities.TextPtr)
 
-```csharp[string](System.String) Content```
+### Summary
+
+```csharp
+private public Content
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

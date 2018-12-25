@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [CompressedPositionOrientation](VRageMath.CompressedPositionOrientation)
 
-```csharpvoid FromMatrix(ref [Matrix](VRageMath.Matrix) matrix)```
+### Summary
+
+```csharp
+private public FromMatrix
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

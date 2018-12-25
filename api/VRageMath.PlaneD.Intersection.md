@@ -1,10 +1,18 @@
 ← [Index](Api-Index) ← [PlaneD](VRageMath.PlaneD)
 
-```csharp[Vector3D](VRageMath.Vector3D) Intersection(ref [Vector3D](VRageMath.Vector3D) from, ref [Vector3D](VRageMath.Vector3D) direction)```##### Summary
+### Summary
+
+```csharp
+private public Intersection
+```csharp
 
 Gets intersection point in Plane.
 
-##### Returns
+### Returns
 
 Point of intersection.
+
+### Example
+
+### Remarks
 

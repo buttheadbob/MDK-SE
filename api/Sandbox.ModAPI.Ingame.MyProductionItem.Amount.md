@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyProductionItem](Sandbox.ModAPI.Ingame.MyProductionItem)
 
-```csharp[MyFixedPoint](VRage.MyFixedPoint) Amount```
+### Summary
+
+```csharp
+private public Amount
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

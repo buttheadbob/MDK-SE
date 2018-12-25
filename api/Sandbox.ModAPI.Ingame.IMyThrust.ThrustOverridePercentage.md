@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyThrust](Sandbox.ModAPI.Ingame.IMyThrust)
 
-```csharp[float](System.Single) ThrustOverridePercentage```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual ThrustOverridePercentage
+```csharp
 
 Gets or sets the thrust override as a percentage between 0 and 1
+
+### Returns
+
+### Example
+
+### Remarks
 

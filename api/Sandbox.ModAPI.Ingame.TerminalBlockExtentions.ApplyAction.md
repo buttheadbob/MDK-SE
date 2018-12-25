@@ -1,3 +1,26 @@
 ← [Index](Api-Index) ← [TerminalBlockExtentions](Sandbox.ModAPI.Ingame.TerminalBlockExtentions)
 
-```csharpvoid ApplyAction([IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock) block, [string](System.String) actionName)``````csharpvoid ApplyAction([IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock) block, [string](System.String) actionName, [List<T>](System.Collections.Generic.List`1) parameters)```
+### Summary
+
+```csharp
+private public ApplyAction
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public ApplyAction
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# MyCommandLine Class
+### MyCommandLine Class
+
+```csharp
+private public MyCommandLine
+```csharp
 
 **Namespace:** [VRage.Game.ModAPI.Ingame.Utilities](VRage.Game.ModAPI.Ingame.Utilities)  
 **Assembly:** VRage.Game.dll
+
+### Example
+
+### Remarks
 
 ###### Properties
 

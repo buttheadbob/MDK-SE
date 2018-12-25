@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [MatrixD](VRageMath.MatrixD)
 
-```csharp[MatrixD](VRageMath.MatrixD) Transform([MatrixD](VRageMath.MatrixD) value, [Quaternion](VRageMath.Quaternion) rotation)```##### Summary
+### Summary
+
+```csharp
+private public Transform
+```csharp
 
 Transforms a Matrix by applying a Quaternion rotation.
 
-```csharpvoid Transform(ref [MatrixD](VRageMath.MatrixD) value, ref [Quaternion](VRageMath.Quaternion) rotation, ref [MatrixD](VRageMath.MatrixD) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Transform
+```csharp
 
 Transforms a Matrix by applying a Quaternion rotation.
+
+### Returns
+
+### Example
+
+### Remarks
 

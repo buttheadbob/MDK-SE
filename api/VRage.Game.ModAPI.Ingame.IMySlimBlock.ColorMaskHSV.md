@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMySlimBlock](VRage.Game.ModAPI.Ingame.IMySlimBlock)
 
-```csharp[Vector3](VRageMath.Vector3) ColorMaskHSV```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual ColorMaskHSV
+```csharp
 
 Gets the color of the block
+
+### Returns
+
+### Example
+
+### Remarks
 

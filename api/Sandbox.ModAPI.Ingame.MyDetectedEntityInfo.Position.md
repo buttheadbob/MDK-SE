@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MyDetectedEntityInfo](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo)
 
-```csharp[Vector3D](VRageMath.Vector3D) Position```##### Summary
+### Summary
+
+```csharp
+private public Position
+```csharp
 
 The entity's position (center of the Bounding Box)
+
+### Returns
+
+### Example
+
+### Remarks
 

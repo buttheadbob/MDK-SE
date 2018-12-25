@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [ITerminalAction](Sandbox.ModAPI.Interfaces.ITerminalAction)
 
-```csharp[string](System.String) Icon```
+### Summary
+
+```csharp
+private public abstract virtual Icon
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

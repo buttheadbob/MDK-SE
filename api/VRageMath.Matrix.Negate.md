@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [Matrix](VRageMath.Matrix)
 
-```csharp[Matrix](VRageMath.Matrix) Negate([Matrix](VRageMath.Matrix) matrix)```##### Summary
+### Summary
+
+```csharp
+private public Negate
+```csharp
 
 Negates individual elements of a matrix.
 
-```csharpvoid Negate(ref [Matrix](VRageMath.Matrix) matrix, ref [Matrix](VRageMath.Matrix) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Negate
+```csharp
 
 Negates individual elements of a matrix.
+
+### Returns
+
+### Example
+
+### Remarks
 

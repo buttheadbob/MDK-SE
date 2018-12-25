@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MathHelper](VRageMath.MathHelper)
 
-```csharp[int](System.Int32) Log2Ceiling([int](System.Int32) value)```
+### Summary
+
+```csharp
+private public Log2Ceiling
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

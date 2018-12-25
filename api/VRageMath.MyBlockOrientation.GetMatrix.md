@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyBlockOrientation](VRageMath.MyBlockOrientation)
 
-```csharpvoid GetMatrix(ref [Matrix](VRageMath.Matrix) result)```
+### Summary
+
+```csharp
+private public GetMatrix
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

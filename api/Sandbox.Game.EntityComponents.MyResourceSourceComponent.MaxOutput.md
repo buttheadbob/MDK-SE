@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyResourceSourceComponent](Sandbox.Game.EntityComponents.MyResourceSourceComponent)
 
-```csharp[float](System.Single) MaxOutput```
+### Summary
+
+```csharp
+private public MaxOutput
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [Vector4](VRageMath.Vector4)
 
-```csharp[Vector4](VRageMath.Vector4) SmoothStep([Vector4](VRageMath.Vector4) value1, [Vector4](VRageMath.Vector4) value2, [float](System.Single) amount)```##### Summary
+### Summary
+
+```csharp
+private public SmoothStep
+```csharp
 
 Interpolates between two values using a cubic equation.
 
-```csharpvoid SmoothStep(ref [Vector4](VRageMath.Vector4) value1, ref [Vector4](VRageMath.Vector4) value2, [float](System.Single) amount, ref [Vector4](VRageMath.Vector4) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public SmoothStep
+```csharp
 
 Interpolates between two values using a cubic equation.
+
+### Returns
+
+### Example
+
+### Remarks
 

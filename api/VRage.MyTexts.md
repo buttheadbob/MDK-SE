@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# MyTexts Class
+### MyTexts Class
+
+```csharp
+private public abstract sealed MyTexts
+```csharp
 
 **Namespace:** [VRage](VRage)  
 **Assembly:** VRage.dll
+
+### Example
+
+### Remarks
 
 ###### Properties
 

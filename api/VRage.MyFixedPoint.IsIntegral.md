@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyFixedPoint](VRage.MyFixedPoint)
 
-```csharp[bool](System.Boolean) IsIntegral([MyFixedPoint](VRage.MyFixedPoint) fp)```
+### Summary
+
+```csharp
+private public IsIntegral
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

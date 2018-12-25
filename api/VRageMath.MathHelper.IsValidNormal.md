@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MathHelper](VRageMath.MathHelper)
 
-```csharp[bool](System.Boolean) IsValidNormal([Vector3](VRageMath.Vector3) vec)```
+### Summary
+
+```csharp
+private public IsValidNormal
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

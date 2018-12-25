@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)
 
-```csharp[bool](System.Boolean) IsMainCockpit```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual IsMainCockpit
+```csharp
 
 Gets or sets if this controller is the main one.
+
+### Returns
+
+### Example
+
+### Remarks
 

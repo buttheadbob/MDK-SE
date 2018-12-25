@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [MyIni](VRage.Game.ModAPI.Ingame.Utilities.MyIni)
 
-```csharpvoid Delete([string](System.String) section, [string](System.String) name)```##### Summary
+### Summary
+
+```csharp
+private public Delete
+```csharp
 
 Deletes the given configuration key.
 
-```csharpvoid Delete([MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) key)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Delete
+```csharp
 
 Deletes the given configuration key.
+
+### Returns
+
+### Example
+
+### Remarks
 

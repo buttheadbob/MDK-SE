@@ -1,6 +1,10 @@
 ← [Index](Api-Index)
 
-# IMyShipController Interface
+### IMyShipController Interface
+
+```csharp
+private public abstract IMyShipController
+```csharp
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
@@ -13,6 +17,10 @@
 **Inheritors:**  
 * [Sandbox.ModAPI.Ingame.IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit)  
 * [Sandbox.ModAPI.Ingame.IMyRemoteControl](Sandbox.ModAPI.Ingame.IMyRemoteControl)
+
+### Example
+
+### Remarks
 
 ###### Properties
 

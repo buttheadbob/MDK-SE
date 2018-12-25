@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Rectangle](VRageMath.Rectangle)
 
-```csharp[int](System.Int32) Top```##### Summary
+### Summary
+
+```csharp
+private public Top
+```csharp
 
 Returns the y-coordinate of the top of the rectangle.
+
+### Returns
+
+### Example
+
+### Remarks
 

@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)
 
-```csharp[bool](System.Boolean) HandBrake```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual HandBrake
+```csharp
 
 Gets or sets the current state of the handbrake.
+
+### Returns
+
+### Example
+
+### Remarks
 

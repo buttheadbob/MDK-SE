@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [Matrix3x3](VRageMath.Matrix3x3)
 
-```csharpvoid Multiply(ref [Matrix3x3](VRageMath.Matrix3x3) matrix1, ref [Matrix3x3](VRageMath.Matrix3x3) matrix2, ref [Matrix3x3](VRageMath.Matrix3x3) result)```##### Summary
+### Summary
+
+```csharp
+private public Multiply
+```csharp
 
 Multiplies a matrix by another matrix.
 
-```csharpvoid Multiply(ref [Matrix3x3](VRageMath.Matrix3x3) matrix1, [float](System.Single) scaleFactor, ref [Matrix3x3](VRageMath.Matrix3x3) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Multiply
+```csharp
 
 Multiplies a matrix by a scalar value.
+
+### Returns
+
+### Example
+
+### Remarks
 

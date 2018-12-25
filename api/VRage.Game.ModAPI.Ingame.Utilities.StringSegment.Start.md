@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [StringSegment](VRage.Game.ModAPI.Ingame.Utilities.StringSegment)
 
-```csharp[int](System.Int32) Start```
+### Summary
+
+```csharp
+private public Start
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MyResourceSourceComponentBase](VRage.Game.Components.MyResourceSourceComponentBase)
 
-```csharp[float](System.Single) DefinedOutputByType([MyDefinitionId](VRage.Game.MyDefinitionId) resourceTypeId)```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual DefinedOutputByType
+```csharp
 
 Max resource output defined in definition in MW or litres/h.
+
+### Returns
+
+### Example
+
+### Remarks
 

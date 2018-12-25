@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Curve](VRageMath.Curve)
 
-```csharp[CurveKeyCollection](VRageMath.CurveKeyCollection) Keys```##### Summary
+### Summary
+
+```csharp
+private public Keys
+```csharp
 
 The points that make up the curve.
+
+### Returns
+
+### Example
+
+### Remarks
 

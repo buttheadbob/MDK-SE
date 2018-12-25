@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [MatrixD](VRageMath.MatrixD)
 
-```csharp[MatrixD](VRageMath.MatrixD) CreatePerspective([double](System.Double) width, [double](System.Double) height, [double](System.Double) nearPlaneDistance, [double](System.Double) farPlaneDistance)```##### Summary
+### Summary
+
+```csharp
+private public CreatePerspective
+```csharp
 
 Builds a perspective projection matrix and returns the result by value.
 
-```csharpvoid CreatePerspective([double](System.Double) width, [double](System.Double) height, [double](System.Double) nearPlaneDistance, [double](System.Double) farPlaneDistance, ref [MatrixD](VRageMath.MatrixD) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public CreatePerspective
+```csharp
 
 Builds a perspective projection matrix and returns the result by reference.
+
+### Returns
+
+### Example
+
+### Remarks
 

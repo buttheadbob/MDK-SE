@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MyGridProgram](Sandbox.ModAPI.Ingame.MyGridProgram)
 
-```csharp[TimeSpan](System.TimeSpan) ElapsedTime```##### Summary
+### Summary
+
+```csharp
+private public virtual ElapsedTime
+```csharp
 
 Gets the amount of in-game time elapsed from the previous run.
+
+### Returns
+
+### Example
+
+### Remarks
 

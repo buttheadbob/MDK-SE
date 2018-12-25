@@ -1,10 +1,42 @@
 ← [Index](Api-Index) ← [Matrix](VRageMath.Matrix)
 
-```csharp[Matrix](VRageMath.Matrix) Invert([Matrix](VRageMath.Matrix) matrix)```##### Summary
+### Summary
+
+```csharp
+private public Invert
+```csharp
 
 Calculates the inverse of a matrix.
 
-```csharp[Matrix](VRageMath.Matrix) Invert(ref [Matrix](VRageMath.Matrix) matrix)``````csharpvoid Invert(ref [Matrix](VRageMath.Matrix) matrix, ref [Matrix](VRageMath.Matrix) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Invert
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Invert
+```csharp
 
 Calculates the inverse of a matrix.
+
+### Returns
+
+### Example
+
+### Remarks
 

@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# CubeFace Enum
+### CubeFace Enum
+
+```csharp
+private public sealed CubeFace
+```csharp
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+### Example
+
+### Remarks
 
 ###### Fields
 

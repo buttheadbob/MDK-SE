@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [BoundingFrustum](VRageMath.BoundingFrustum)
 
-```csharpvoid GetCornersUnsafe(*[Vector3](VRageMath.Vector3) corners)```
+### Summary
+
+```csharp
+private public GetCornersUnsafe
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MyShipVelocities](Sandbox.ModAPI.Ingame.MyShipVelocities)
 
-```csharp[Vector3D](VRageMath.Vector3D) LinearVelocity```##### Summary
+### Summary
+
+```csharp
+private public LinearVelocity
+```csharp
 
 Gets the ship's linear velocity (motion).
+
+### Returns
+
+### Example
+
+### Remarks
 

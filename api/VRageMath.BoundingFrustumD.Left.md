@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [BoundingFrustumD](VRageMath.BoundingFrustumD)
 
-```csharp[PlaneD](VRageMath.PlaneD) Left```##### Summary
+### Summary
+
+```csharp
+private public Left
+```csharp
 
 Gets the left plane of the BoundingFrustumD.
+
+### Returns
+
+### Example
+
+### Remarks
 

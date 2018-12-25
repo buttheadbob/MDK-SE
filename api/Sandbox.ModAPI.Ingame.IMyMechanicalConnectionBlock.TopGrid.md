@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)
 
-```csharp[IMyCubeGrid](VRage.Game.ModAPI.Ingame.IMyCubeGrid) TopGrid```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual TopGrid
+```csharp
 
 Gets the grid of the attached top part
+
+### Returns
+
+### Example
+
+### Remarks
 

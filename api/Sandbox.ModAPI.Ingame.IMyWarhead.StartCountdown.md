@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyWarhead](Sandbox.ModAPI.Ingame.IMyWarhead)
 
-```csharp[bool](System.Boolean) StartCountdown()```
+### Summary
+
+```csharp
+private public abstract virtual StartCountdown
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

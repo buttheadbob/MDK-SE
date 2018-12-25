@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [BoundingBox2I](VRageMath.BoundingBox2I)
 
-```csharp[Vector2I](VRageMath.Vector2I) Min```##### Summary
+### Summary
+
+```csharp
+private public Min
+```csharp
 
 The minimum point the BoundingBox2I contains.
+
+### Returns
+
+### Example
+
+### Remarks
 

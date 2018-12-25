@@ -1,18 +1,34 @@
 ← [Index](Api-Index) ← [BoundingBox](VRageMath.BoundingBox)
 
-```csharp[BoundingBox](VRageMath.BoundingBox) Translate([Matrix](VRageMath.Matrix) worldMatrix)```##### Summary
+### Summary
+
+```csharp
+private public Translate
+```csharp
 
 Translate
 
-##### Returns
+### Returns
 
 
 
-```csharp[BoundingBox](VRageMath.BoundingBox) Translate([Vector3](VRageMath.Vector3) vctTranlsation)```##### Summary
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Translate
+```csharp
 
 Translate
 
-##### Returns
+### Returns
 
 
+
+### Example
+
+### Remarks
 

@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyRadioAntenna](Sandbox.ModAPI.Ingame.IMyRadioAntenna)
 
-```csharp[bool](System.Boolean) ShowShipName```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual ShowShipName
+```csharp
 
 Show shipname on hud
+
+### Returns
+
+### Example
+
+### Remarks
 

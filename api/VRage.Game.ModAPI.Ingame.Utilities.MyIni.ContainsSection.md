@@ -1,10 +1,18 @@
 ← [Index](Api-Index) ← [MyIni](VRage.Game.ModAPI.Ingame.Utilities.MyIni)
 
-```csharp[bool](System.Boolean) ContainsSection([string](System.String) section)```##### Summary
+### Summary
+
+```csharp
+private public ContainsSection
+```csharp
 
 Determines whether a section of a given name exists in the currently parsed configuration.
 
-##### Returns
+### Returns
 
 
+
+### Example
+
+### Remarks
 

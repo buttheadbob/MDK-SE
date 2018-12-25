@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyCubeGrid](VRage.Game.ModAPI.Ingame.IMyCubeGrid)
 
-```csharp[MyCubeSize](VRage.Game.MyCubeSize) GridSizeEnum```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual GridSizeEnum
+```csharp
 
 Grid size enum
+
+### Returns
+
+### Example
+
+### Remarks
 

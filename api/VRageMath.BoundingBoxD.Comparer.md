@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [BoundingBoxD](VRageMath.BoundingBoxD)
 
-```csharp[ComparerType](VRageMath.BoundingBoxD+ComparerType) Comparer```
+### Summary
+
+```csharp
+private public Comparer
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

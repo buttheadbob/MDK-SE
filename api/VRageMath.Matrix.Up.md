@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Matrix](VRageMath.Matrix)
 
-```csharp[Vector3](VRageMath.Vector3) Up```##### Summary
+### Summary
+
+```csharp
+private public Up
+```csharp
 
 Gets and sets the up vector of the Matrix.
+
+### Returns
+
+### Example
+
+### Remarks
 

@@ -1,6 +1,10 @@
 ← [Index](Api-Index)
 
-# IMyMechanicalConnectionBlock Interface
+### IMyMechanicalConnectionBlock Interface
+
+```csharp
+private public abstract IMyMechanicalConnectionBlock
+```csharp
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
@@ -15,6 +19,10 @@
 * [Sandbox.ModAPI.Ingame.IMyMotorStator](Sandbox.ModAPI.Ingame.IMyMotorStator)  
 * [Sandbox.ModAPI.Ingame.IMyPistonBase](Sandbox.ModAPI.Ingame.IMyPistonBase)  
 * [Sandbox.ModAPI.Ingame.IMyMotorSuspension](Sandbox.ModAPI.Ingame.IMyMotorSuspension)
+
+### Example
+
+### Remarks
 
 ###### Properties
 

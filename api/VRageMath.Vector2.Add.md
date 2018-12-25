@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [Vector2](VRageMath.Vector2)
 
-```csharp[Vector2](VRageMath.Vector2) Add([Vector2](VRageMath.Vector2) value1, [Vector2](VRageMath.Vector2) value2)```##### Summary
+### Summary
+
+```csharp
+private public Add
+```csharp
 
 Adds two vectors.
 
-```csharpvoid Add(ref [Vector2](VRageMath.Vector2) value1, ref [Vector2](VRageMath.Vector2) value2, ref [Vector2](VRageMath.Vector2) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Add
+```csharp
 
 Adds two vectors.
+
+### Returns
+
+### Example
+
+### Remarks
 

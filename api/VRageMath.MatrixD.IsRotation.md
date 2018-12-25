@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MatrixD](VRageMath.MatrixD)
 
-```csharp[bool](System.Boolean) IsRotation()```
+### Summary
+
+```csharp
+private public IsRotation
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

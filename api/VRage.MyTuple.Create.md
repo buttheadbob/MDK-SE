@@ -1,3 +1,74 @@
 ← [Index](Api-Index) ← [MyTuple](VRage.MyTuple)
 
-```csharp[MyTuple<T1>](VRage.MyTuple`1) Create<T1><[T1]()>([T1]() arg1)``````csharp[MyTuple<T1, T2>](VRage.MyTuple`2) Create<T1, T2><[T1](), [T2]()>([T1]() arg1, [T2]() arg2)``````csharp[MyTuple<T1, T2, T3>](VRage.MyTuple`3) Create<T1, T2, T3><[T1](), [T2](), [T3]()>([T1]() arg1, [T2]() arg2, [T3]() arg3)``````csharp[MyTuple<T1, T2, T3, T4>](VRage.MyTuple`4) Create<T1, T2, T3, T4><[T1](), [T2](), [T3](), [T4]()>([T1]() arg1, [T2]() arg2, [T3]() arg3, [T4]() arg4)``````csharp[MyTuple<T1, T2, T3, T4, T5>](VRage.MyTuple`5) Create<T1, T2, T3, T4, T5><[T1](), [T2](), [T3](), [T4](), [T5]()>([T1]() arg1, [T2]() arg2, [T3]() arg3, [T4]() arg4, [T5]() arg5)``````csharp[MyTuple<T1, T2, T3, T4, T5, T6>](VRage.MyTuple`6) Create<T1, T2, T3, T4, T5, T6><[T1](), [T2](), [T3](), [T4](), [T5](), [T6]()>([T1]() arg1, [T2]() arg2, [T3]() arg3, [T4]() arg4, [T5]() arg5, [T6]() arg6)```
+### Summary
+
+```csharp
+private public Create<T1>
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Create<T1, T2>
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Create<T1, T2, T3>
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Create<T1, T2, T3, T4>
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Create<T1, T2, T3, T4, T5>
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Create<T1, T2, T3, T4, T5, T6>
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

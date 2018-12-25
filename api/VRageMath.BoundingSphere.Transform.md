@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [BoundingSphere](VRageMath.BoundingSphere)
 
-```csharp[BoundingSphere](VRageMath.BoundingSphere) Transform([Matrix](VRageMath.Matrix) matrix)```##### Summary
+### Summary
+
+```csharp
+private public Transform
+```csharp
 
 Translates and scales the BoundingSphere using a given Matrix.
 
-```csharpvoid Transform(ref [Matrix](VRageMath.Matrix) matrix, ref [BoundingSphere](VRageMath.BoundingSphere) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Transform
+```csharp
 
 Translates and scales the BoundingSphere using a given Matrix.
+
+### Returns
+
+### Example
+
+### Remarks
 

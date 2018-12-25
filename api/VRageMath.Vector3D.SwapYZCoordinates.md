@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [Vector3D](VRageMath.Vector3D)
 
-```csharp[Vector3D](VRageMath.Vector3D) SwapYZCoordinates([Vector3D](VRageMath.Vector3D) v)```
+### Summary
+
+```csharp
+private public SwapYZCoordinates
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

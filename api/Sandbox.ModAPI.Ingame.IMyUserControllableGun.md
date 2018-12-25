@@ -1,6 +1,10 @@
 ← [Index](Api-Index)
 
-# IMyUserControllableGun Interface
+### IMyUserControllableGun Interface
+
+```csharp
+private public abstract IMyUserControllableGun
+```csharp
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
@@ -16,6 +20,10 @@
 * [Sandbox.ModAPI.Ingame.IMySmallGatlingGun](Sandbox.ModAPI.Ingame.IMySmallGatlingGun)  
 * [Sandbox.ModAPI.Ingame.IMySmallMissileLauncher](Sandbox.ModAPI.Ingame.IMySmallMissileLauncher)  
 * [SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase)
+
+### Example
+
+### Remarks
 
 ###### Properties
 

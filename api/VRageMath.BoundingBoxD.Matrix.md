@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [BoundingBoxD](VRageMath.BoundingBoxD)
 
-```csharp[MatrixD](VRageMath.MatrixD) Matrix```##### Summary
+### Summary
+
+```csharp
+private public Matrix
+```csharp
 
 Matrix of AABB, respection center and size
+
+### Returns
+
+### Example
+
+### Remarks
 

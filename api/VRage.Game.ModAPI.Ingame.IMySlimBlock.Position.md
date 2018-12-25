@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMySlimBlock](VRage.Game.ModAPI.Ingame.IMySlimBlock)
 
-```csharp[Vector3I](VRageMath.Vector3I) Position```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual Position
+```csharp
 
 Grid relative position of block
+
+### Returns
+
+### Example
+
+### Remarks
 

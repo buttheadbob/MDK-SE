@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyPistonBase](Sandbox.ModAPI.Ingame.IMyPistonBase)
 
-```csharp[float](System.Single) MaxVelocity```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual MaxVelocity
+```csharp
 
 Gets the maximum velocity this piston is capable of moving at.
+
+### Returns
+
+### Example
+
+### Remarks
 

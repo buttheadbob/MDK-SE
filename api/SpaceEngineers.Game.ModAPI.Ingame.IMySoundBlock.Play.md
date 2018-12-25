@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMySoundBlock](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock)
 
-```csharpvoid Play()```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual Play
+```csharp
 
 Plays the currently selected sound.
+
+### Returns
+
+### Example
+
+### Remarks
 

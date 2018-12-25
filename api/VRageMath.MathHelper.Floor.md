@@ -1,3 +1,26 @@
 ← [Index](Api-Index) ← [MathHelper](VRageMath.MathHelper)
 
-```csharp[int](System.Int32) Floor([float](System.Single) n)``````csharp[int](System.Int32) Floor([double](System.Double) n)```
+### Summary
+
+```csharp
+private public Floor
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Floor
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

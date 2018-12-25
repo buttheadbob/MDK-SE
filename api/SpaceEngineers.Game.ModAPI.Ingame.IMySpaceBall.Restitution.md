@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMySpaceBall](SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall)
 
-```csharp[float](System.Single) Restitution```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual Restitution
+```csharp
 
 Ball restitution
+
+### Returns
+
+### Example
+
+### Remarks
 

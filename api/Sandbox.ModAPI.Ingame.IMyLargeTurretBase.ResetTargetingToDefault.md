@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)
 
-```csharpvoid ResetTargetingToDefault()```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual ResetTargetingToDefault
+```csharp
 
 resert targeting to default values
+
+### Returns
+
+### Example
+
+### Remarks
 

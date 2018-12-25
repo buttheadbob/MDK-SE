@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyMotorStator](Sandbox.ModAPI.Ingame.IMyMotorStator)
 
-```csharp[float](System.Single) TargetVelocityRad```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual TargetVelocityRad
+```csharp
 
 Gets or sets the desired velocity of the rotor in radians/second
+
+### Returns
+
+### Example
+
+### Remarks
 

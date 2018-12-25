@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMySmallMissileLauncher](Sandbox.ModAPI.Ingame.IMySmallMissileLauncher)
 
-```csharp[bool](System.Boolean) UseConveyorSystem```
+### Summary
+
+```csharp
+private public abstract virtual UseConveyorSystem
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

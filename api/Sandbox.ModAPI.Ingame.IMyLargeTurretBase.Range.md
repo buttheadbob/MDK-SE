@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)
 
-```csharp[float](System.Single) Range```
+### Summary
+
+```csharp
+private public abstract virtual Range
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

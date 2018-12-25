@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [BoundingFrustum](VRageMath.BoundingFrustum)
 
-```csharp[Plane](VRageMath.Plane) Item```
+### Summary
+
+```csharp
+private public Item
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

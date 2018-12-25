@@ -1,18 +1,58 @@
 ← [Index](Api-Index) ← [BoundingBox2I](VRageMath.BoundingBox2I)
 
-```csharp[ContainmentType](VRageMath.ContainmentType) Contains([BoundingBox2I](VRageMath.BoundingBox2I) box)```##### Summary
+### Summary
+
+```csharp
+private public Contains
+```csharp
 
 Tests whether the BoundingBox2I contains another BoundingBox2I.
 
-```csharpvoid Contains(ref [BoundingBox2I](VRageMath.BoundingBox2I) box, ref [ContainmentType](VRageMath.ContainmentType) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Contains
+```csharp
 
 Tests whether the BoundingBox2I contains a BoundingBox2I.
 
-```csharp[ContainmentType](VRageMath.ContainmentType) Contains([Vector2I](VRageMath.Vector2I) point)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Contains
+```csharp
 
 Tests whether the BoundingBox2I contains a point.
 
-```csharpvoid Contains(ref [Vector2I](VRageMath.Vector2I) point, ref [ContainmentType](VRageMath.ContainmentType) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Contains
+```csharp
 
 Tests whether the BoundingBox2I contains a point.
+
+### Returns
+
+### Example
+
+### Remarks
 

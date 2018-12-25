@@ -1,10 +1,18 @@
 ← [Index](Api-Index) ← [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey)
 
-```csharp[int](System.Int32) GetHashCode()```##### Summary
+### Summary
+
+```csharp
+private public virtual GetHashCode
+```csharp
 
 Gets the hash code representing this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) 
 
-##### Returns
+### Returns
 
 
+
+### Example
+
+### Remarks
 

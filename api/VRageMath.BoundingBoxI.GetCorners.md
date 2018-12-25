@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [BoundingBoxI](VRageMath.BoundingBoxI)
 
-```csharp[Vector3I[]](VRageMath.Vector3I[]) GetCorners()```##### Summary
+### Summary
+
+```csharp
+private public GetCorners
+```csharp
 
 Gets an array of points that make up the corners of the BoundingBoxI.
 
-```csharpvoid GetCorners([Vector3I[]](VRageMath.Vector3I[]) corners)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public GetCorners
+```csharp
 
 Gets the array of points that make up the corners of the BoundingBoxI.
+
+### Returns
+
+### Example
+
+### Remarks
 

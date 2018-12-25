@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter)
 
-```csharpSystem.TypeCode TypeCode```
+### Summary
+
+```csharp
+private public TypeCode
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

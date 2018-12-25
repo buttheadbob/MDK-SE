@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [BoundingBox](VRageMath.BoundingBox)
 
-```csharp[float](System.Single) ProjectedArea([Vector3](VRageMath.Vector3) viewDir)```
+### Summary
+
+```csharp
+private public ProjectedArea
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

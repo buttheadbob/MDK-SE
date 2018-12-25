@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# DictionaryExtensions Class
+### DictionaryExtensions Class
+
+```csharp
+private public abstract sealed DictionaryExtensions
+```csharp
 
 **Namespace:** [System.Collections.Generic](System.Collections.Generic)  
 **Assembly:** VRage.Library.dll
+
+### Example
+
+### Remarks
 
 ###### Methods
 

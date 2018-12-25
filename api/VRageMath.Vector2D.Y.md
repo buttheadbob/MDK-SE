@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Vector2D](VRageMath.Vector2D)
 
-```csharp[double](System.Double) Y```##### Summary
+### Summary
+
+```csharp
+private public Y
+```csharp
 
 Gets or sets the y-component of the vector.
+
+### Returns
+
+### Example
+
+### Remarks
 

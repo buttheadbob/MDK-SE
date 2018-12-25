@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey)
 
-```csharp[MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) EMPTY```
+### Summary
+
+```csharp
+private public EMPTY
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

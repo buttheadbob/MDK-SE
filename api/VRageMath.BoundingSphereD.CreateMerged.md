@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [BoundingSphereD](VRageMath.BoundingSphereD)
 
-```csharp[BoundingSphereD](VRageMath.BoundingSphereD) CreateMerged([BoundingSphereD](VRageMath.BoundingSphereD) original, [BoundingSphereD](VRageMath.BoundingSphereD) additional)```##### Summary
+### Summary
+
+```csharp
+private public CreateMerged
+```csharp
 
 Creates a BoundingSphereD that contains the two specified BoundingSphereD instances.
 
-```csharpvoid CreateMerged(ref [BoundingSphereD](VRageMath.BoundingSphereD) original, ref [BoundingSphereD](VRageMath.BoundingSphereD) additional, ref [BoundingSphereD](VRageMath.BoundingSphereD) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public CreateMerged
+```csharp
 
 Creates a BoundingSphereD that contains the two specified BoundingSphereD instances.
+
+### Returns
+
+### Example
+
+### Remarks
 

@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MathHelper](VRageMath.MathHelper)
 
-```csharp[float](System.Single) E```##### Summary
+### Summary
+
+```csharp
+private public E
+```csharp
 
 Represents the mathematical constant e.
+
+### Returns
+
+### Example
+
+### Remarks
 

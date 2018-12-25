@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [BoundingBox](VRageMath.BoundingBox)
 
-```csharp[float](System.Single) DistanceSquared([Vector3](VRageMath.Vector3) point)```
+### Summary
+
+```csharp
+private public DistanceSquared
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

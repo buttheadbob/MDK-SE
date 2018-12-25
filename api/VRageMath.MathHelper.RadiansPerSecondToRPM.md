@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MathHelper](VRageMath.MathHelper)
 
-```csharp[float](System.Single) RadiansPerSecondToRPM```##### Summary
+### Summary
+
+```csharp
+private public RadiansPerSecondToRPM
+```csharp
 
 60 / 2*pi
+
+### Returns
+
+### Example
+
+### Remarks
 

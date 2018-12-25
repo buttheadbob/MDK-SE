@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyInventoryItem](VRage.Game.ModAPI.Ingame.IMyInventoryItem)
 
-```csharp[float](System.Single) Scale```
+### Summary
+
+```csharp
+private public abstract virtual Scale
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

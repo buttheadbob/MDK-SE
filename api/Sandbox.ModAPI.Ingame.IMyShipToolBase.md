@@ -1,6 +1,10 @@
 ← [Index](Api-Index)
 
-# IMyShipToolBase Interface
+### IMyShipToolBase Interface
+
+```csharp
+private public abstract IMyShipToolBase
+```csharp
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
@@ -13,6 +17,10 @@
 
 **Inheritors:**  
 * [Sandbox.ModAPI.Ingame.IMyShipWelder](Sandbox.ModAPI.Ingame.IMyShipWelder)
+
+### Example
+
+### Remarks
 
 ###### Properties
 

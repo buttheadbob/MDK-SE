@@ -1,10 +1,18 @@
 ← [Index](Api-Index) ← [Vector3I](VRageMath.Vector3I)
 
-```csharp[int](System.Int32) RectangularLength()```##### Summary
+### Summary
+
+```csharp
+private public RectangularLength
+```csharp
 
 Calculates rectangular distance of this vector, interpreted as a point, from the origin.
 
-##### Returns
+### Returns
 
 
+
+### Example
+
+### Remarks
 

@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [Line](VRageMath.Line)
 
-```csharp[Vector3](VRageMath.Vector3) Direction```
+### Summary
+
+```csharp
+private public Direction
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MatrixI](VRageMath.MatrixI)
 
-```csharp[MatrixI](VRageMath.MatrixI) CreateRotation([Direction](VRageMath.Base6Directions+Direction) oldA, [Direction](VRageMath.Base6Directions+Direction) oldB, [Direction](VRageMath.Base6Directions+Direction) newA, [Direction](VRageMath.Base6Directions+Direction) newB)```
+### Summary
+
+```csharp
+private public CreateRotation
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

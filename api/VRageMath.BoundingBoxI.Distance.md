@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [BoundingBoxI](VRageMath.BoundingBoxI)
 
-```csharp[float](System.Single) Distance([Vector3I](VRageMath.Vector3I) point)```##### Summary
+### Summary
+
+```csharp
+private public Distance
+```csharp
 
 Checks whether the current BoundingBoxI intersects a BoundingSphere.
+
+### Returns
+
+### Example
+
+### Remarks
 

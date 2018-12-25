@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyUpgradableBlock](Sandbox.ModAPI.Ingame.IMyUpgradableBlock)
 
-```csharp[uint](System.UInt32) UpgradeCount```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual UpgradeCount
+```csharp
 
 number of upgrades applied
+
+### Returns
+
+### Example
+
+### Remarks
 

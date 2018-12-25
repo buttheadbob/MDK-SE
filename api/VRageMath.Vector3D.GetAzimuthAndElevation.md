@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [Vector3D](VRageMath.Vector3D)
 
-```csharpvoid GetAzimuthAndElevation([Vector3D](VRageMath.Vector3D) v, ref [double](System.Double) azimuth, ref [double](System.Double) elevation)```
+### Summary
+
+```csharp
+private public GetAzimuthAndElevation
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

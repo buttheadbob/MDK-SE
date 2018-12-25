@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [ITerminalAction](Sandbox.ModAPI.Interfaces.ITerminalAction)
 
-```csharp[string](System.String) Id```
+### Summary
+
+```csharp
+private public abstract virtual Id
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyLargeConveyorTurretBase](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase)
 
-```csharp[bool](System.Boolean) UseConveyorSystem```
+### Summary
+
+```csharp
+private public abstract virtual UseConveyorSystem
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

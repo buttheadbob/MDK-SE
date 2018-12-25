@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyMotorStator](Sandbox.ModAPI.Ingame.IMyMotorStator)
 
-```csharp[bool](System.Boolean) RotorLock```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual RotorLock
+```csharp
 
 Gets or sets rotor lock
+
+### Returns
+
+### Example
+
+### Remarks
 

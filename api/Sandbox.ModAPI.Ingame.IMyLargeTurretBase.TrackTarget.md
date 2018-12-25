@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)
 
-```csharpvoid TrackTarget([Vector3D](VRageMath.Vector3D) pos, [Vector3](VRageMath.Vector3) velocity)```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual TrackTarget
+```csharp
 
 Tracks given target with enabled position prediction
+
+### Returns
+
+### Example
+
+### Remarks
 

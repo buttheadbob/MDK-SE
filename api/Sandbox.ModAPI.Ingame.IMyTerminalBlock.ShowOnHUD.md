@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 
-```csharp[bool](System.Boolean) ShowOnHUD```
+### Summary
+
+```csharp
+private public abstract virtual ShowOnHUD
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [CompressedPositionOrientation](VRageMath.CompressedPositionOrientation)
 
-```csharpVRageMath.PackedVector.HalfVector4 Orientation```
+### Summary
+
+```csharp
+private public Orientation
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

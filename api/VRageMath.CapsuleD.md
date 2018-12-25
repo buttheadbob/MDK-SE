@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# CapsuleD Struct
+### CapsuleD Struct
+
+```csharp
+private public sealed CapsuleD
+```csharp
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+### Example
+
+### Remarks
 
 ###### Fields
 

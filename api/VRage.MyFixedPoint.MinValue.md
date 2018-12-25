@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyFixedPoint](VRage.MyFixedPoint)
 
-```csharp[MyFixedPoint](VRage.MyFixedPoint) MinValue```
+### Summary
+
+```csharp
+private public MinValue
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

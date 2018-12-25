@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [Vector2D](VRageMath.Vector2D)
 
-```csharp[bool](System.Boolean) IsValid()```
+### Summary
+
+```csharp
+private public IsValid
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

@@ -1,10 +1,18 @@
 ← [Index](Api-Index) ← [Vector3D](VRageMath.Vector3D)
 
-```csharp[Vector3D](VRageMath.Vector3D) ProjectOnPlane(ref [Vector3D](VRageMath.Vector3D) vec, ref [Vector3D](VRageMath.Vector3D) planeNormal)```##### Summary
+### Summary
+
+```csharp
+private public ProjectOnPlane
+```csharp
 
 Projects given vector on plane specified by it's normal.
 
-##### Returns
+### Returns
 
 Vector projected on plane
+
+### Example
+
+### Remarks
 

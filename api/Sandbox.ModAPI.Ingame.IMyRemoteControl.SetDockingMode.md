@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyRemoteControl](Sandbox.ModAPI.Ingame.IMyRemoteControl)
 
-```csharpvoid SetDockingMode([bool](System.Boolean) enabled)```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual SetDockingMode
+```csharp
 
 Enables or disables docking mode.
+
+### Returns
+
+### Example
+
+### Remarks
 

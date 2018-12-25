@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [BoundingFrustum](VRageMath.BoundingFrustum)
 
-```csharp[Matrix](VRageMath.Matrix) Matrix```##### Summary
+### Summary
+
+```csharp
+private public Matrix
+```csharp
 
 Gets or sets the Matrix that describes this bounding frustum.
+
+### Returns
+
+### Example
+
+### Remarks
 

@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [Matrix3x3](VRageMath.Matrix3x3)
 
-```csharp[float](System.Single) Determinant()```
+### Summary
+
+```csharp
+private public Determinant
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

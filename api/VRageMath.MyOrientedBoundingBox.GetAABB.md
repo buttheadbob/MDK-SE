@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyOrientedBoundingBox](VRageMath.MyOrientedBoundingBox)
 
-```csharp[BoundingBox](VRageMath.BoundingBox) GetAABB()```
+### Summary
+
+```csharp
+private public GetAABB
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [Vector3D](VRageMath.Vector3D)
 
-```csharp[double](System.Double) Volume```
+### Summary
+
+```csharp
+private public Volume
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

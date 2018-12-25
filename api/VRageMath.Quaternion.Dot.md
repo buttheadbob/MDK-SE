@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [Quaternion](VRageMath.Quaternion)
 
-```csharp[float](System.Single) Dot([Quaternion](VRageMath.Quaternion) quaternion1, [Quaternion](VRageMath.Quaternion) quaternion2)```##### Summary
+### Summary
+
+```csharp
+private public Dot
+```csharp
 
 Calculates the dot product of two Quaternions.
 
-```csharpvoid Dot(ref [Quaternion](VRageMath.Quaternion) quaternion1, ref [Quaternion](VRageMath.Quaternion) quaternion2, ref [float](System.Single) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Dot
+```csharp
 
 Calculates the dot product of two Quaternions.
+
+### Returns
+
+### Example
+
+### Remarks
 

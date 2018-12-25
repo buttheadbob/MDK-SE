@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [MatrixD](VRageMath.MatrixD)
 
-```csharp[MatrixD](VRageMath.MatrixD) CreateRotationY([double](System.Double) radians)```##### Summary
+### Summary
+
+```csharp
+private public CreateRotationY
+```csharp
 
 Returns a matrix that can be used to rotate a set of vertices around the y-axis.
 
-```csharpvoid CreateRotationY([double](System.Double) radians, ref [MatrixD](VRageMath.MatrixD) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public CreateRotationY
+```csharp
 
 Populates data into a user-specified matrix that can be used to rotate a set of vertices around the y-axis.
+
+### Returns
+
+### Example
+
+### Remarks
 

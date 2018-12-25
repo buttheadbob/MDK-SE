@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MyGridProgram](Sandbox.ModAPI.Ingame.MyGridProgram)
 
-```csharp[string](System.String) Storage```##### Summary
+### Summary
+
+```csharp
+private public virtual Storage
+```csharp
 
 Allows you to store data between game sessions.
+
+### Returns
+
+### Example
+
+### Remarks
 

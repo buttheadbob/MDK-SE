@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMySlimBlock](VRage.Game.ModAPI.Ingame.IMySlimBlock)
 
-```csharp[IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock) FatBlock```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual FatBlock
+```csharp
 
 Gets the fatblock if there is one
+
+### Returns
+
+### Example
+
+### Remarks
 

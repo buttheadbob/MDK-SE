@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [QuaternionD](VRageMath.QuaternionD)
 
-```csharp[double](System.Double) Length()```##### Summary
+### Summary
+
+```csharp
+private public Length
+```csharp
 
 Calculates the length of a QuaternionD.
+
+### Returns
+
+### Example
+
+### Remarks
 

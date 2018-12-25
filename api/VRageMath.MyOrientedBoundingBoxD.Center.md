@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyOrientedBoundingBoxD](VRageMath.MyOrientedBoundingBoxD)
 
-```csharp[Vector3D](VRageMath.Vector3D) Center```
+### Summary
+
+```csharp
+private public Center
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

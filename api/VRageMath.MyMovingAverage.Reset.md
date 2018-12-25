@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyMovingAverage](VRageMath.MyMovingAverage)
 
-```csharpvoid Reset()```
+### Summary
+
+```csharp
+private public Reset
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

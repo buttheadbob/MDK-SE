@@ -1,3 +1,86 @@
 ← [Index](Api-Index) ← [MyTuple](VRage.MyTuple)
 
-```csharp[int](System.Int32) CombineHashCodes([int](System.Int32) h1, [int](System.Int32) h2)``````csharp[int](System.Int32) CombineHashCodes([int](System.Int32) h1, [int](System.Int32) h2, [int](System.Int32) h3)``````csharp[int](System.Int32) CombineHashCodes([int](System.Int32) h1, [int](System.Int32) h2, [int](System.Int32) h3, [int](System.Int32) h4)``````csharp[int](System.Int32) CombineHashCodes([int](System.Int32) h1, [int](System.Int32) h2, [int](System.Int32) h3, [int](System.Int32) h4, [int](System.Int32) h5)``````csharp[int](System.Int32) CombineHashCodes([int](System.Int32) h1, [int](System.Int32) h2, [int](System.Int32) h3, [int](System.Int32) h4, [int](System.Int32) h5, [int](System.Int32) h6)``````csharp[int](System.Int32) CombineHashCodes([int](System.Int32) h1, [int](System.Int32) h2, [int](System.Int32) h3, [int](System.Int32) h4, [int](System.Int32) h5, [int](System.Int32) h6, [int](System.Int32) h7)``````csharp[int](System.Int32) CombineHashCodes([int](System.Int32) h1, [int](System.Int32) h2, [int](System.Int32) h3, [int](System.Int32) h4, [int](System.Int32) h5, [int](System.Int32) h6, [int](System.Int32) h7, [int](System.Int32) h8)```
+### Summary
+
+```csharp
+private public CombineHashCodes
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public CombineHashCodes
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public CombineHashCodes
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public CombineHashCodes
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public CombineHashCodes
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public CombineHashCodes
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public CombineHashCodes
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

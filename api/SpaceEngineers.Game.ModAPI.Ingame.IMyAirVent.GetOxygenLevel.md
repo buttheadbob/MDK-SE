@@ -1,10 +1,18 @@
 ← [Index](Api-Index) ← [IMyAirVent](SpaceEngineers.Game.ModAPI.Ingame.IMyAirVent)
 
-```csharp[float](System.Single) GetOxygenLevel()```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual GetOxygenLevel
+```csharp
 
 Oxygen level in room
 
-##### Returns
+### Returns
 
 Oxygen fill level as decimal (0.5 = 50%)
+
+### Example
+
+### Remarks
 

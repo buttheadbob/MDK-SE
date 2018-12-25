@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# MyInventoryItemFilter Struct
+### MyInventoryItemFilter Struct
+
+```csharp
+private public sealed MyInventoryItemFilter
+```csharp
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
+
+### Example
+
+### Remarks
 
 ###### Fields
 

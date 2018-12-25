@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [RectangleF](VRageMath.RectangleF)
 
-```csharp[Vector2](VRageMath.Vector2) Size```##### Summary
+### Summary
+
+```csharp
+private public Size
+```csharp
 
 The Size.
+
+### Returns
+
+### Example
+
+### Remarks
 

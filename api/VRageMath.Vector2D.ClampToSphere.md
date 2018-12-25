@@ -1,3 +1,26 @@
 ← [Index](Api-Index) ← [Vector2D](VRageMath.Vector2D)
 
-```csharp[Vector2D](VRageMath.Vector2D) ClampToSphere([Vector2D](VRageMath.Vector2D) vector, [double](System.Double) radius)``````csharpvoid ClampToSphere(ref [Vector2D](VRageMath.Vector2D) vector, [double](System.Double) radius)```
+### Summary
+
+```csharp
+private public ClampToSphere
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public ClampToSphere
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

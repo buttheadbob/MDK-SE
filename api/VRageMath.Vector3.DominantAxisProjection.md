@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [Vector3](VRageMath.Vector3)
 
-```csharp[Vector3](VRageMath.Vector3) DominantAxisProjection([Vector3](VRageMath.Vector3) value1)```##### Summary
+### Summary
+
+```csharp
+private public DominantAxisProjection
+```csharp
 
 Returns a vector that is equal to the projection of the input vector to the coordinate axis that corresponds to the original vector's largest value.
 
-```csharpvoid DominantAxisProjection(ref [Vector3](VRageMath.Vector3) value1, ref [Vector3](VRageMath.Vector3) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public DominantAxisProjection
+```csharp
 
 Calculates a vector that is equal to the projection of the input vector to the coordinate axis that corresponds to the original vector's largest value. The result is saved into a user-specified variable.
+
+### Returns
+
+### Example
+
+### Remarks
 

@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Curve](VRageMath.Curve)
 
-```csharp[float](System.Single) Evaluate([float](System.Single) position)```##### Summary
+### Summary
+
+```csharp
+private public Evaluate
+```csharp
 
 Finds the value at a position on the Curve.
+
+### Returns
+
+### Example
+
+### Remarks
 

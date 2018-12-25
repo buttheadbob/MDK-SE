@@ -1,3 +1,26 @@
 ← [Index](Api-Index) ← [MathHelper](VRageMath.MathHelper)
 
-```csharp[float](System.Single) Saturate([float](System.Single) n)``````csharp[double](System.Double) Saturate([double](System.Double) n)```
+### Summary
+
+```csharp
+private public Saturate
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Saturate
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

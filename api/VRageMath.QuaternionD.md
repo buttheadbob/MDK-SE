@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# QuaternionD Struct
+### QuaternionD Struct
+
+```csharp
+private public sealed QuaternionD
+```csharp
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+### Example
+
+### Remarks
 
 ###### Fields
 

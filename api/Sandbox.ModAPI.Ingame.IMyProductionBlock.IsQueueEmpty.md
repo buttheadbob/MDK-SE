@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)
 
-```csharp[bool](System.Boolean) IsQueueEmpty```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual IsQueueEmpty
+```csharp
 
 The production queue is empty.
+
+### Returns
+
+### Example
+
+### Remarks
 

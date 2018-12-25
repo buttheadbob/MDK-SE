@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyOrientedBoundingBoxD](VRageMath.MyOrientedBoundingBoxD)
 
-```csharp[Vector3[]](VRageMath.Vector3[]) XNeighbourVectorsForw```
+### Summary
+
+```csharp
+private public XNeighbourVectorsForw
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

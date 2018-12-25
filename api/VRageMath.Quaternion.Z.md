@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Quaternion](VRageMath.Quaternion)
 
-```csharp[float](System.Single) Z```##### Summary
+### Summary
+
+```csharp
+private public Z
+```csharp
 
 Specifies the z-value of the vector component of the quaternion.
+
+### Returns
+
+### Example
+
+### Remarks
 

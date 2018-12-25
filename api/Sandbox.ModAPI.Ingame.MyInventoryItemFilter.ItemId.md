@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MyInventoryItemFilter](Sandbox.ModAPI.Ingame.MyInventoryItemFilter)
 
-```csharp[MyDefinitionId](VRage.Game.MyDefinitionId) ItemId```##### Summary
+### Summary
+
+```csharp
+private public ItemId
+```csharp
 
 Specifies an item to filter. Set [AllSubTypes](Sandbox.ModAPI.Ingame.MyInventoryItemFilter.AllSubTypes) to true to only check the main type part of this ID.
+
+### Returns
+
+### Example
+
+### Remarks
 

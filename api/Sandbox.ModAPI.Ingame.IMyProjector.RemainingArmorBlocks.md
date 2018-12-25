@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyProjector](Sandbox.ModAPI.Ingame.IMyProjector)
 
-```csharp[int](System.Int32) RemainingArmorBlocks```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual RemainingArmorBlocks
+```csharp
 
 Number of armor blocks left to be welded
+
+### Returns
+
+### Example
+
+### Remarks
 

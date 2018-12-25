@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [ClearToken<T>](System.Collections.Generic.ClearToken`1)
 
-```csharp[List<T>](System.Collections.Generic.List`1) List```
+### Summary
+
+```csharp
+private public List
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

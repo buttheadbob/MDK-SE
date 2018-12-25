@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# SymmetricSerializableRange Struct
+### SymmetricSerializableRange Struct
+
+```csharp
+private public sealed SymmetricSerializableRange
+```csharp
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+### Example
+
+### Remarks
 
 ###### Fields
 

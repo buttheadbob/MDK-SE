@@ -1,10 +1,18 @@
 ← [Index](Api-Index) ← [IMySensorBlock](Sandbox.ModAPI.Ingame.IMySensorBlock)
 
-```csharp[bool](System.Boolean) DetectFriendly```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual DetectFriendly
+```csharp
 
 Gets or sets if the sensor should detect friendly players.
 
-##### Remarks
+### Returns
+
+### Example
+
+### Remarks
 
 Requires DetectPlayers set to.
 

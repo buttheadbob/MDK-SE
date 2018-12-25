@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MyResourceSourceComponentBase](VRage.Game.Components.MyResourceSourceComponentBase)
 
-```csharp[bool](System.Boolean) ProductionEnabledByType([MyDefinitionId](VRage.Game.MyDefinitionId) resourceTypeId)```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual ProductionEnabledByType
+```csharp
 
 Resource production is enabled
+
+### Returns
+
+### Example
+
+### Remarks
 

@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyOrientedBoundingBoxD](VRageMath.MyOrientedBoundingBoxD)
 
-```csharp[Quaternion](VRageMath.Quaternion) Orientation```
+### Summary
+
+```csharp
+private public Orientation
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

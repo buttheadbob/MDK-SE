@@ -1,12 +1,20 @@
 ← [Index](Api-Index)
 
-# IMyCubeGrid Interface
+### IMyCubeGrid Interface
+
+```csharp
+private public abstract IMyCubeGrid
+```csharp
 
 **Namespace:** [VRage.Game.ModAPI.Ingame](VRage.Game.ModAPI.Ingame)  
 **Assembly:** VRage.Game.dll
 
 **Implements:**  
 * [VRage.Game.ModAPI.Ingame.IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+
+### Example
+
+### Remarks
 
 ###### Properties
 

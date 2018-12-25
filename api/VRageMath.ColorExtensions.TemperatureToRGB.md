@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [ColorExtensions](VRageMath.ColorExtensions)
 
-```csharp[Vector3](VRageMath.Vector3) TemperatureToRGB([float](System.Single) temperature)```
+### Summary
+
+```csharp
+private public TemperatureToRGB
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [CompressedPositionOrientation](VRageMath.CompressedPositionOrientation)
 
-```csharp[Matrix](VRageMath.Matrix) Matrix```
+### Summary
+
+```csharp
+private public Matrix
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

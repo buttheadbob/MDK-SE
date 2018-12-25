@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyTupleComparer<T1, T2>](VRage.MyTupleComparer`2)
 
-```csharp[int](System.Int32) GetHashCode([MyTuple<T1, T2>](VRage.MyTuple`2) obj)```
+### Summary
+
+```csharp
+private public GetHashCode
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

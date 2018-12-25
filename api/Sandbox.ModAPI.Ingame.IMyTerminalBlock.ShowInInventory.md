@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 
-```csharp[bool](System.Boolean) ShowInInventory```
+### Summary
+
+```csharp
+private public abstract virtual ShowInInventory
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

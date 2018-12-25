@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [PlaneD](VRageMath.PlaneD)
 
-```csharp[double](System.Double) Dot([Vector4](VRageMath.Vector4) value)```##### Summary
+### Summary
+
+```csharp
+private public Dot
+```csharp
 
 Calculates the dot product of a specified Vector4 and this PlaneD.
 
-```csharpvoid Dot(ref [Vector4](VRageMath.Vector4) value, ref [double](System.Double) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Dot
+```csharp
 
 Calculates the dot product of a specified Vector4 and this PlaneD.
+
+### Returns
+
+### Example
+
+### Remarks
 

@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Curve](VRageMath.Curve)
 
-```csharp[Curve](VRageMath.Curve) Clone()```##### Summary
+### Summary
+
+```csharp
+private public Clone
+```csharp
 
 Creates a copy of the Curve.
+
+### Returns
+
+### Example
+
+### Remarks
 

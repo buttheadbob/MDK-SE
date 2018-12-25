@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel)
 
-```csharp[float](System.Single) FontSize```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual FontSize
+```csharp
 
 Gets or sets font size
+
+### Returns
+
+### Example
+
+### Remarks
 

@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyTimerBlock](SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock)
 
-```csharpvoid StartCountdown()```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual StartCountdown
+```csharp
 
 Begin countdown
+
+### Returns
+
+### Example
+
+### Remarks
 

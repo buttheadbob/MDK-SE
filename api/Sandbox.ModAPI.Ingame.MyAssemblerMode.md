@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# MyAssemblerMode Enum
+### MyAssemblerMode Enum
+
+```csharp
+private public sealed MyAssemblerMode
+```csharp
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
+
+### Example
+
+### Remarks
 
 ###### Fields
 

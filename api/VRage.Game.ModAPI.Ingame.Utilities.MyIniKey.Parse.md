@@ -1,10 +1,18 @@
 ← [Index](Api-Index) ← [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey)
 
-```csharp[MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) Parse([string](System.String) input)```##### Summary
+### Summary
+
+```csharp
+private public Parse
+```csharp
 
 Parses a string in the form of`section/key`into a [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) object.
 
-##### Returns
+### Returns
 
 
+
+### Example
+
+### Remarks
 

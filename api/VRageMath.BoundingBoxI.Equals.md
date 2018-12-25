@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [BoundingBoxI](VRageMath.BoundingBoxI)
 
-```csharp[bool](System.Boolean) Equals([BoundingBoxI](VRageMath.BoundingBoxI) other)```##### Summary
+### Summary
+
+```csharp
+private public Equals
+```csharp
 
 Determines whether two instances of BoundingBoxI are equal.
 
-```csharp[bool](System.Boolean) Equals([object](System.Object) obj)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public virtual Equals
+```csharp
 
 Determines whether two instances of BoundingBoxI are equal.
+
+### Returns
+
+### Example
+
+### Remarks
 

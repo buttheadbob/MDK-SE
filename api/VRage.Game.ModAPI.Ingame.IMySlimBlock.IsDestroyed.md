@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMySlimBlock](VRage.Game.ModAPI.Ingame.IMySlimBlock)
 
-```csharp[bool](System.Boolean) IsDestroyed```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual IsDestroyed
+```csharp
 
 Gets if component stack is empty
+
+### Returns
+
+### Example
+
+### Remarks
 

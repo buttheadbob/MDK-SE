@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [BoundingSphere](VRageMath.BoundingSphere)
 
-```csharp[BoundingSphere](VRageMath.BoundingSphere) CreateFromFrustum([BoundingFrustum](VRageMath.BoundingFrustum) frustum)```##### Summary
+### Summary
+
+```csharp
+private public CreateFromFrustum
+```csharp
 
 Creates the smallest BoundingSphere that can contain a specified BoundingFrustum.
+
+### Returns
+
+### Example
+
+### Remarks
 

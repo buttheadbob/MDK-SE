@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [Vector3D](VRageMath.Vector3D)
 
-```csharp[Vector3D](VRageMath.Vector3D) CatmullRom([Vector3D](VRageMath.Vector3D) value1, [Vector3D](VRageMath.Vector3D) value2, [Vector3D](VRageMath.Vector3D) value3, [Vector3D](VRageMath.Vector3D) value4, [double](System.Double) amount)```##### Summary
+### Summary
+
+```csharp
+private public CatmullRom
+```csharp
 
 Performs a Catmull-Rom interpolation using the specified positions.
 
-```csharpvoid CatmullRom(ref [Vector3D](VRageMath.Vector3D) value1, ref [Vector3D](VRageMath.Vector3D) value2, ref [Vector3D](VRageMath.Vector3D) value3, ref [Vector3D](VRageMath.Vector3D) value4, [double](System.Double) amount, ref [Vector3D](VRageMath.Vector3D) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public CatmullRom
+```csharp
 
 Performs a Catmull-Rom interpolation using the specified positions.
+
+### Returns
+
+### Example
+
+### Remarks
 

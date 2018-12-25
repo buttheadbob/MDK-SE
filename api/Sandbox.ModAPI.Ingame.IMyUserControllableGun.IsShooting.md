@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyUserControllableGun](Sandbox.ModAPI.Ingame.IMyUserControllableGun)
 
-```csharp[bool](System.Boolean) IsShooting```
+### Summary
+
+```csharp
+private public abstract virtual IsShooting
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

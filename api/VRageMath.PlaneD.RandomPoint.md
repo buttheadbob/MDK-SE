@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [PlaneD](VRageMath.PlaneD)
 
-```csharp[Vector3D](VRageMath.Vector3D) RandomPoint()```
+### Summary
+
+```csharp
+private public RandomPoint
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

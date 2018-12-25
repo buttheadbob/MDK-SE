@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyCuboidSide](VRageMath.MyCuboidSide)
 
-```csharpvoid CreatePlaneFromLines()```
+### Summary
+
+```csharp
+private public CreatePlaneFromLines
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

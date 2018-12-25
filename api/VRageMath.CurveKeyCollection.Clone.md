@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [CurveKeyCollection](VRageMath.CurveKeyCollection)
 
-```csharp[CurveKeyCollection](VRageMath.CurveKeyCollection) Clone()```##### Summary
+### Summary
+
+```csharp
+private public Clone
+```csharp
 
 Creates a copy of the CurveKeyCollection.
+
+### Returns
+
+### Example
+
+### Remarks
 

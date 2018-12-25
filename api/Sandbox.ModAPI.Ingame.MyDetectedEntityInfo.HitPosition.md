@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MyDetectedEntityInfo](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo)
 
-```csharp[Nullable<T>](System.Nullable`1) HitPosition```##### Summary
+### Summary
+
+```csharp
+private public HitPosition
+```csharp
 
 Position where the raycast hit the entity. (can be null if the sensor didn't use a raycast)
+
+### Returns
+
+### Example
+
+### Remarks
 

@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MatrixI](VRageMath.MatrixI)
 
-```csharp[Direction](VRageMath.Base6Directions+Direction) Forward```
+### Summary
+
+```csharp
+private public Forward
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

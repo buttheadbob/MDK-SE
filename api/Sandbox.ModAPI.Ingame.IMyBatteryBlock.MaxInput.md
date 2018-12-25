@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyBatteryBlock](Sandbox.ModAPI.Ingame.IMyBatteryBlock)
 
-```csharp[float](System.Single) MaxInput```
+### Summary
+
+```csharp
+private public abstract virtual MaxInput
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [BoundingSphereD](VRageMath.BoundingSphereD)
 
-```csharp[double](System.Double) Radius```##### Summary
+### Summary
+
+```csharp
+private public Radius
+```csharp
 
 The radius of the sphere.
+
+### Returns
+
+### Example
+
+### Remarks
 

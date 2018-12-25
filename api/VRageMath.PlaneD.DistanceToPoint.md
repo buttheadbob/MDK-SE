@@ -1,3 +1,26 @@
 ← [Index](Api-Index) ← [PlaneD](VRageMath.PlaneD)
 
-```csharp[double](System.Double) DistanceToPoint([Vector3D](VRageMath.Vector3D) point)``````csharp[double](System.Double) DistanceToPoint(ref [Vector3D](VRageMath.Vector3D) point)```
+### Summary
+
+```csharp
+private public DistanceToPoint
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public DistanceToPoint
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

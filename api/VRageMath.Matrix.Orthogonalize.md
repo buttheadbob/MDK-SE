@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [Matrix](VRageMath.Matrix)
 
-```csharp[Matrix](VRageMath.Matrix) Orthogonalize([Matrix](VRageMath.Matrix) rotationMatrix)```
+### Summary
+
+```csharp
+private public Orthogonalize
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

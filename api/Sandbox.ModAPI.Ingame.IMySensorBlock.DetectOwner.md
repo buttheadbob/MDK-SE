@@ -1,10 +1,18 @@
 ← [Index](Api-Index) ← [IMySensorBlock](Sandbox.ModAPI.Ingame.IMySensorBlock)
 
-```csharp[bool](System.Boolean) DetectOwner```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual DetectOwner
+```csharp
 
 Gets or sets if the sensor should detect the block owner.
 
-##### Remarks
+### Returns
+
+### Example
+
+### Remarks
 
 Requires DetectPlayers set to.
 

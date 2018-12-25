@@ -1,10 +1,18 @@
 ← [Index](Api-Index) ← [BoundingBox2](VRageMath.BoundingBox2)
 
-```csharp[BoundingBox2](VRageMath.BoundingBox2) Translate([Vector2](VRageMath.Vector2) vctTranlsation)```##### Summary
+### Summary
+
+```csharp
+private public Translate
+```csharp
 
 Translate
 
-##### Returns
+### Returns
 
 
+
+### Example
+
+### Remarks
 

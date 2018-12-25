@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [TerminalActionExtensions](Sandbox.Game.Gui.TerminalActionExtensions)
 
-```csharp[ITerminalAction](Sandbox.ModAPI.Interfaces.ITerminalAction) GetAction([IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock) block, [string](System.String) name)```
+### Summary
+
+```csharp
+private public GetAction
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

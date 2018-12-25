@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyInventory](VRage.Game.ModAPI.Ingame.IMyInventory)
 
-```csharp[MyFixedPoint](VRage.MyFixedPoint) CurrentMass```
+### Summary
+
+```csharp
+private public abstract virtual CurrentMass
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [Quaternion](VRageMath.Quaternion)
 
-```csharp[Quaternion](VRageMath.Quaternion) Slerp([Quaternion](VRageMath.Quaternion) quaternion1, [Quaternion](VRageMath.Quaternion) quaternion2, [float](System.Single) amount)```##### Summary
+### Summary
+
+```csharp
+private public Slerp
+```csharp
 
 Interpolates between two quaternions, using spherical linear interpolation.
 
-```csharpvoid Slerp(ref [Quaternion](VRageMath.Quaternion) quaternion1, ref [Quaternion](VRageMath.Quaternion) quaternion2, [float](System.Single) amount, ref [Quaternion](VRageMath.Quaternion) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Slerp
+```csharp
 
 Interpolates between two quaternions, using spherical linear interpolation.
+
+### Returns
+
+### Example
+
+### Remarks
 

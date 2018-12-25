@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter)
 
-```csharp[bool](System.Boolean) IsEmpty```
+### Summary
+
+```csharp
+private public IsEmpty
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

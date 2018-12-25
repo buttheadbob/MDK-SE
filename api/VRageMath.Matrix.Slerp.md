@@ -1,14 +1,44 @@
 ← [Index](Api-Index) ← [Matrix](VRageMath.Matrix)
 
-```csharpvoid Slerp(ref [Matrix](VRageMath.Matrix) matrix1, ref [Matrix](VRageMath.Matrix) matrix2, [float](System.Single) amount, ref [Matrix](VRageMath.Matrix) result)```##### Summary
+### Summary
+
+```csharp
+private public Slerp
+```csharp
 
 Performs spherical linear interpolation of position and rotation.
 
-```csharpvoid Slerp([Matrix](VRageMath.Matrix) matrix1, [Matrix](VRageMath.Matrix) matrix2, [float](System.Single) amount, ref [Matrix](VRageMath.Matrix) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Slerp
+```csharp
 
 Performs spherical linear interpolation of position and rotation.
 
-```csharp[Matrix](VRageMath.Matrix) Slerp([Matrix](VRageMath.Matrix) matrix1, [Matrix](VRageMath.Matrix) matrix2, [float](System.Single) amount)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Slerp
+```csharp
 
 Performs spherical linear interpolation of position and rotation.
+
+### Returns
+
+### Example
+
+### Remarks
 

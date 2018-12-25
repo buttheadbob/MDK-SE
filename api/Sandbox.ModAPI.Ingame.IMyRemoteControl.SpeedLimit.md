@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyRemoteControl](Sandbox.ModAPI.Ingame.IMyRemoteControl)
 
-```csharp[float](System.Single) SpeedLimit```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual SpeedLimit
+```csharp
 
 Gets or sets the autopilot speed limit
+
+### Returns
+
+### Example
+
+### Remarks
 

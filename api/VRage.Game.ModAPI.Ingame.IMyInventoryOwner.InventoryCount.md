@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyInventoryOwner](VRage.Game.ModAPI.Ingame.IMyInventoryOwner)
 
-```csharp[int](System.Int32) InventoryCount```
+### Summary
+
+```csharp
+private public abstract virtual InventoryCount
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

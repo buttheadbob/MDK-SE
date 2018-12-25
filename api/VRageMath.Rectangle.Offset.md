@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [Rectangle](VRageMath.Rectangle)
 
-```csharpvoid Offset([Point](VRageMath.Point) amount)```##### Summary
+### Summary
+
+```csharp
+private public Offset
+```csharp
 
 Changes the position of the Rectangle.
 
-```csharpvoid Offset([int](System.Int32) offsetX, [int](System.Int32) offsetY)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Offset
+```csharp
 
 Changes the position of the Rectangle.
+
+### Returns
+
+### Example
+
+### Remarks
 

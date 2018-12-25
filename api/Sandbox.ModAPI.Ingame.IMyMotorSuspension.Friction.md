@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyMotorSuspension](Sandbox.ModAPI.Ingame.IMyMotorSuspension)
 
-```csharp[float](System.Single) Friction```
+### Summary
+
+```csharp
+private public abstract virtual Friction
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

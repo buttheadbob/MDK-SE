@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Matrix](VRageMath.Matrix)
 
-```csharp[float](System.Single) Determinant()```##### Summary
+### Summary
+
+```csharp
+private public Determinant
+```csharp
 
 Calculates the determinant of the matrix.
+
+### Returns
+
+### Example
+
+### Remarks
 

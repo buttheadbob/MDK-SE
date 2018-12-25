@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyRemoteControl](Sandbox.ModAPI.Ingame.IMyRemoteControl)
 
-```csharpvoid SetCollisionAvoidance([bool](System.Boolean) enabled)```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual SetCollisionAvoidance
+```csharp
 
 Enables or disables collision avoidance.
+
+### Returns
+
+### Example
+
+### Remarks
 

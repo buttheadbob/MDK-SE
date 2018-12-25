@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyFixedPoint](VRage.MyFixedPoint)
 
-```csharp[long](System.Int64) RawValue```
+### Summary
+
+```csharp
+private public RawValue
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

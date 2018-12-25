@@ -1,6 +1,10 @@
 ← [Index](Api-Index)
 
-# IMyButtonPanel Interface
+### IMyButtonPanel Interface
+
+```csharp
+private public abstract IMyButtonPanel
+```csharp
 
 **Namespace:** [SpaceEngineers.Game.ModAPI.Ingame](SpaceEngineers.Game.ModAPI.Ingame)  
 **Assembly:** SpaceEngineers.Game.dll
@@ -9,6 +13,10 @@
 * [Sandbox.ModAPI.Ingame.IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [VRage.Game.ModAPI.Ingame.IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [VRage.Game.ModAPI.Ingame.IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+
+### Example
+
+### Remarks
 
 ###### Properties
 

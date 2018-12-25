@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyFixedPoint](VRage.MyFixedPoint)
 
-```csharp[MyFixedPoint](VRage.MyFixedPoint) DeserializeString([string](System.String) text)```
+### Summary
+
+```csharp
+private public DeserializeString
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

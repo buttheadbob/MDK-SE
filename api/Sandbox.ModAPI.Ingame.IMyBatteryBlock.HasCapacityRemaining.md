@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyBatteryBlock](Sandbox.ModAPI.Ingame.IMyBatteryBlock)
 
-```csharp[bool](System.Boolean) HasCapacityRemaining```
+### Summary
+
+```csharp
+private public abstract virtual HasCapacityRemaining
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

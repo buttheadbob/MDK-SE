@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyResourceSinkComponent](Sandbox.Game.EntityComponents.MyResourceSinkComponent)
 
-```csharp[float](System.Single) RequiredInput```
+### Summary
+
+```csharp
+private public RequiredInput
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

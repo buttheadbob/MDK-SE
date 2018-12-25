@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Plane](VRageMath.Plane)
 
-```csharp[Vector3](VRageMath.Vector3) Normal```##### Summary
+### Summary
+
+```csharp
+private public Normal
+```csharp
 
 The normal vector of the Plane.
+
+### Returns
+
+### Example
+
+### Remarks
 

@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MyShipMass](Sandbox.ModAPI.Ingame.MyShipMass)
 
-```csharp[float](System.Single) BaseMass```##### Summary
+### Summary
+
+```csharp
+private public BaseMass
+```csharp
 
 Gets the base mass of the ship.
+
+### Returns
+
+### Example
+
+### Remarks
 

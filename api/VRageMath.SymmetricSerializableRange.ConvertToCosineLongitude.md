@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [SymmetricSerializableRange](VRageMath.SymmetricSerializableRange)
 
-```csharp[SymmetricSerializableRange](VRageMath.SymmetricSerializableRange) ConvertToCosineLongitude()```
+### Summary
+
+```csharp
+private public ConvertToCosineLongitude
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

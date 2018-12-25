@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [TextPtr](VRage.Game.ModAPI.Ingame.Utilities.TextPtr)
 
-```csharp[bool](System.Boolean) StartsWith([string](System.String) what)```
+### Summary
+
+```csharp
+private public StartsWith
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

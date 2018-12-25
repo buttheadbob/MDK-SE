@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# BoundingBoxI Struct
+### BoundingBoxI Struct
+
+```csharp
+private public sealed BoundingBoxI
+```csharp
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+### Example
+
+### Remarks
 
 ###### Fields
 

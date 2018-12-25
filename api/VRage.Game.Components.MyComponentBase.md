@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# MyComponentBase Class
+### MyComponentBase Class
+
+```csharp
+private public abstract MyComponentBase
+```csharp
 
 **Namespace:** [VRage.Game.Components](VRage.Game.Components)  
 **Assembly:** VRage.Game.dll
+
+### Example
+
+### Remarks
 
 ###### Properties
 

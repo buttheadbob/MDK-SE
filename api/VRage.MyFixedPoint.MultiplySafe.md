@@ -1,3 +1,62 @@
 ← [Index](Api-Index) ← [MyFixedPoint](VRage.MyFixedPoint)
 
-```csharp[MyFixedPoint](VRage.MyFixedPoint) MultiplySafe([MyFixedPoint](VRage.MyFixedPoint) a, [float](System.Single) b)``````csharp[MyFixedPoint](VRage.MyFixedPoint) MultiplySafe([MyFixedPoint](VRage.MyFixedPoint) a, [int](System.Int32) b)``````csharp[MyFixedPoint](VRage.MyFixedPoint) MultiplySafe([float](System.Single) a, [MyFixedPoint](VRage.MyFixedPoint) b)``````csharp[MyFixedPoint](VRage.MyFixedPoint) MultiplySafe([int](System.Int32) a, [MyFixedPoint](VRage.MyFixedPoint) b)``````csharp[MyFixedPoint](VRage.MyFixedPoint) MultiplySafe([MyFixedPoint](VRage.MyFixedPoint) a, [MyFixedPoint](VRage.MyFixedPoint) b)```
+### Summary
+
+```csharp
+private public MultiplySafe
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public MultiplySafe
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public MultiplySafe
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public MultiplySafe
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public MultiplySafe
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

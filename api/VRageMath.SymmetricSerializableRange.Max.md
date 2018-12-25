@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [SymmetricSerializableRange](VRageMath.SymmetricSerializableRange)
 
-```csharp[float](System.Single) Max```
+### Summary
+
+```csharp
+private public Max
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

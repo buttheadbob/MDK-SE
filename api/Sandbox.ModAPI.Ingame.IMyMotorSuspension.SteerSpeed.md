@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyMotorSuspension](Sandbox.ModAPI.Ingame.IMyMotorSuspension)
 
-```csharp[float](System.Single) SteerSpeed```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual SteerSpeed
+```csharp
 
 Speed at which wheel steers.
+
+### Returns
+
+### Example
+
+### Remarks
 

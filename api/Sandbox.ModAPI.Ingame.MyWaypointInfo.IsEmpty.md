@@ -1,10 +1,18 @@
 ← [Index](Api-Index) ← [MyWaypointInfo](Sandbox.ModAPI.Ingame.MyWaypointInfo)
 
-```csharp[bool](System.Boolean) IsEmpty()```##### Summary
+### Summary
+
+```csharp
+private public IsEmpty
+```csharp
 
 Determines whether this coordinate is empty (undefined)
 
-##### Returns
+### Returns
 
 
+
+### Example
+
+### Remarks
 

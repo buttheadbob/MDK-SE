@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyPistonBase](Sandbox.ModAPI.Ingame.IMyPistonBase)
 
-```csharpvoid Retract()```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual Retract
+```csharp
 
 Retracts the piston.
+
+### Returns
+
+### Example
+
+### Remarks
 

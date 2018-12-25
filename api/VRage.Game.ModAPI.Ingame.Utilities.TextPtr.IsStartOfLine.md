@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [TextPtr](VRage.Game.ModAPI.Ingame.Utilities.TextPtr)
 
-```csharp[bool](System.Boolean) IsStartOfLine()```
+### Summary
+
+```csharp
+private public IsStartOfLine
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

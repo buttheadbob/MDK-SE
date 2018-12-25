@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyMotorSuspension](Sandbox.ModAPI.Ingame.IMyMotorSuspension)
 
-```csharp[bool](System.Boolean) Brake```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual Brake
+```csharp
 
 Gets or sets brake applied to the wheel.
+
+### Returns
+
+### Example
+
+### Remarks
 

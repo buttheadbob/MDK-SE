@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel)
 
-```csharpvoid SetShowOnScreen(VRage.Game.GUI.TextPanel.ShowTextOnScreenFlag set)```
+### Summary
+
+```csharp
+private public abstract virtual SetShowOnScreen
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

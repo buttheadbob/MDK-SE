@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [BoundingFrustum](VRageMath.BoundingFrustum)
 
-```csharp[Vector3[]](VRageMath.Vector3[]) GetCorners()```##### Summary
+### Summary
+
+```csharp
+private public GetCorners
+```csharp
 
 Gets an array of points that make up the corners of the BoundingFrustum. ALLOCATION!
 
-```csharpvoid GetCorners([Vector3[]](VRageMath.Vector3[]) corners)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public GetCorners
+```csharp
 
 Gets an array of points that make up the corners of the BoundingFrustum.
+
+### Returns
+
+### Example
+
+### Remarks
 

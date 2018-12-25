@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [Vector3Ushort](VRageMath.Vector3Ushort)
 
-```csharp[ushort](System.UInt16) X```
+### Summary
+
+```csharp
+private public X
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

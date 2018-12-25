@@ -1,10 +1,18 @@
 ← [Index](Api-Index) ← [IMySoundBlock](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock)
 
-```csharp[string](System.String) SelectedSound```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual SelectedSound
+```csharp
 
 Gets or sets the selected sound.
 
-##### Remarks
+### Returns
+
+### Example
+
+### Remarks
 
 The sound can be selected either by using the unique hash name, or the user visible text.Fetching the name will always return the unique hash name.
 

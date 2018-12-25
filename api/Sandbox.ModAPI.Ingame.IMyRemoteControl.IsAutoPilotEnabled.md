@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyRemoteControl](Sandbox.ModAPI.Ingame.IMyRemoteControl)
 
-```csharp[bool](System.Boolean) IsAutoPilotEnabled```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual IsAutoPilotEnabled
+```csharp
 
 Determines whether the autopilot is currently enabled.
+
+### Returns
+
+### Example
+
+### Remarks
 

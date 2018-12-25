@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [ListReader<T>](VRage.Collections.ListReader`1)
 
-```csharp[int](System.Int32) IndexOf([T]() item)```
+### Summary
+
+```csharp
+private public IndexOf
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

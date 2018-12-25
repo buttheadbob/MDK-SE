@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyDoor](Sandbox.ModAPI.Ingame.IMyDoor)
 
-```csharpvoid OpenDoor()```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual OpenDoor
+```csharp
 
 Opens the door. See [Status](Sandbox.ModAPI.Ingame.IMyDoor.Status) to get the current status.
+
+### Returns
+
+### Example
+
+### Remarks
 

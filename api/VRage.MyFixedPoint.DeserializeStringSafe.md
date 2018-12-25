@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MyFixedPoint](VRage.MyFixedPoint)
 
-```csharp[MyFixedPoint](VRage.MyFixedPoint) DeserializeStringSafe([string](System.String) text)```##### Summary
+### Summary
+
+```csharp
+private public DeserializeStringSafe
+```csharp
 
 For XmlSerialization, format is 123.456789 Handles double and decimal formats too.
+
+### Returns
+
+### Example
+
+### Remarks
 

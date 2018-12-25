@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyAirVent](SpaceEngineers.Game.ModAPI.Ingame.IMyAirVent)
 
-```csharp[bool](System.Boolean) PressurizationEnabled```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual PressurizationEnabled
+```csharp
 
 Returns true if pressurization is enabled.
+
+### Returns
+
+### Example
+
+### Remarks
 

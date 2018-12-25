@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyRadioAntenna](Sandbox.ModAPI.Ingame.IMyRadioAntenna)
 
-```csharp[bool](System.Boolean) IsBroadcasting```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual IsBroadcasting
+```csharp
 
 Returns true if antena is broadcasting
+
+### Returns
+
+### Example
+
+### Remarks
 

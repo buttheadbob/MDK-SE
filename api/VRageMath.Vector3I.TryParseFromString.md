@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [Vector3I](VRageMath.Vector3I)
 
-```csharp[bool](System.Boolean) TryParseFromString([string](System.String) p, ref [Vector3I](VRageMath.Vector3I) vec)```
+### Summary
+
+```csharp
+private public TryParseFromString
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

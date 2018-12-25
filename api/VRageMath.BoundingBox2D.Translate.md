@@ -1,10 +1,18 @@
 ← [Index](Api-Index) ← [BoundingBox2D](VRageMath.BoundingBox2D)
 
-```csharp[BoundingBox2D](VRageMath.BoundingBox2D) Translate([Vector2D](VRageMath.Vector2D) vctTranlsation)```##### Summary
+### Summary
+
+```csharp
+private public Translate
+```csharp
 
 Translate
 
-##### Returns
+### Returns
 
 
+
+### Example
+
+### Remarks
 

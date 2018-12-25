@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyLaserAntenna](Sandbox.ModAPI.Ingame.IMyLaserAntenna)
 
-```csharp[long](System.Int64) AttachedProgrammableBlock```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual AttachedProgrammableBlock
+```csharp
 
 Gets or sets the EntityID of the Programmable Block attached to this antenna.
+
+### Returns
+
+### Example
+
+### Remarks
 

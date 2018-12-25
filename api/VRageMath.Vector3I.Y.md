@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [Vector3I](VRageMath.Vector3I)
 
-```csharp[int](System.Int32) Y```
+### Summary
+
+```csharp
+private public Y
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

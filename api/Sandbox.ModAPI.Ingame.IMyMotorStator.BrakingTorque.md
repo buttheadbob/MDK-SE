@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyMotorStator](Sandbox.ModAPI.Ingame.IMyMotorStator)
 
-```csharp[float](System.Single) BrakingTorque```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual BrakingTorque
+```csharp
 
 Gets or sets the torque applied when stopping the rotor top
+
+### Returns
+
+### Example
+
+### Remarks
 

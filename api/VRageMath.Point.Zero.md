@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Point](VRageMath.Point)
 
-```csharp[Point](VRageMath.Point) Zero```##### Summary
+### Summary
+
+```csharp
+private public Zero
+```csharp
 
 Returns the point (0,0).
+
+### Returns
+
+### Example
+
+### Remarks
 

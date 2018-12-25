@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyShipConnector](Sandbox.ModAPI.Ingame.IMyShipConnector)
 
-```csharp[bool](System.Boolean) ThrowOut```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual ThrowOut
+```csharp
 
 Gets or sets whether this connector should throw out anything placed in its inventory.
+
+### Returns
+
+### Example
+
+### Remarks
 

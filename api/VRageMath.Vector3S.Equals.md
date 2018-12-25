@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [Vector3S](VRageMath.Vector3S)
 
-```csharp[bool](System.Boolean) Equals([object](System.Object) obj)```
+### Summary
+
+```csharp
+private public virtual Equals
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

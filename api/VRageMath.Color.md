@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# Color Struct
+### Color Struct
+
+```csharp
+private public sealed Color
+```csharp
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+### Example
+
+### Remarks
 
 ###### Fields
 

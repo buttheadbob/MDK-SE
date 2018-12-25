@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyButtonPanel](SpaceEngineers.Game.ModAPI.Ingame.IMyButtonPanel)
 
-```csharpvoid SetCustomButtonName([int](System.Int32) index, [string](System.String) name)```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual SetCustomButtonName
+```csharp
 
 Sets the custom button name.
+
+### Returns
+
+### Example
+
+### Remarks
 

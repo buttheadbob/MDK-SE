@@ -1,18 +1,58 @@
 ← [Index](Api-Index) ← [Vector4](VRageMath.Vector4)
 
-```csharp[Vector4](VRageMath.Vector4) Multiply([Vector4](VRageMath.Vector4) value1, [Vector4](VRageMath.Vector4) value2)```##### Summary
+### Summary
+
+```csharp
+private public Multiply
+```csharp
 
 Multiplies the components of two vectors by each other.
 
-```csharpvoid Multiply(ref [Vector4](VRageMath.Vector4) value1, ref [Vector4](VRageMath.Vector4) value2, ref [Vector4](VRageMath.Vector4) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Multiply
+```csharp
 
 Multiplies the components of two vectors by each other.
 
-```csharp[Vector4](VRageMath.Vector4) Multiply([Vector4](VRageMath.Vector4) value1, [float](System.Single) scaleFactor)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Multiply
+```csharp
 
 Multiplies a vector by a scalar.
 
-```csharpvoid Multiply(ref [Vector4](VRageMath.Vector4) value1, [float](System.Single) scaleFactor, ref [Vector4](VRageMath.Vector4) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Multiply
+```csharp
 
 Multiplies a vector by a scalar value.
+
+### Returns
+
+### Example
+
+### Remarks
 

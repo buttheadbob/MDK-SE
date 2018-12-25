@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# MyDefinitionId Struct
+### MyDefinitionId Struct
+
+```csharp
+private public sealed MyDefinitionId
+```csharp
 
 **Namespace:** [VRage.Game](VRage.Game)  
 **Assembly:** VRage.Game.dll
+
+### Example
+
+### Remarks
 
 ###### Fields
 

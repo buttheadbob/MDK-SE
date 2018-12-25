@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [Rectangle](VRageMath.Rectangle)
 
-```csharp[bool](System.Boolean) Intersects([Rectangle](VRageMath.Rectangle) value)```##### Summary
+### Summary
+
+```csharp
+private public Intersects
+```csharp
 
 Determines whether a specified Rectangle intersects with this Rectangle.
 
-```csharpvoid Intersects(ref [Rectangle](VRageMath.Rectangle) value, ref [bool](System.Boolean) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Intersects
+```csharp
 
 Determines whether a specified Rectangle intersects with this Rectangle.
+
+### Returns
+
+### Example
+
+### Remarks
 

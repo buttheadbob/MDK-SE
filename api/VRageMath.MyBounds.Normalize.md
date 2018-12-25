@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MyBounds](VRageMath.MyBounds)
 
-```csharp[float](System.Single) Normalize([float](System.Single) value)```##### Summary
+### Summary
+
+```csharp
+private public Normalize
+```csharp
 
 Normalize value inside the bounds so that 0 is Min and 1 is Max.
+
+### Returns
+
+### Example
+
+### Remarks
 

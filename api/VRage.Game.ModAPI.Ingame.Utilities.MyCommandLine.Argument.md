@@ -1,10 +1,18 @@
 ← [Index](Api-Index) ← [MyCommandLine](VRage.Game.ModAPI.Ingame.Utilities.MyCommandLine)
 
-```csharp[string](System.String) Argument([int](System.Int32) index)```##### Summary
+### Summary
+
+```csharp
+private public Argument
+```csharp
 
 Returns the argument at the given index. Switches are not counted.
 
-##### Returns
+### Returns
 
 
+
+### Example
+
+### Remarks
 

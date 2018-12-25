@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [ITerminalProperty](Sandbox.ModAPI.Interfaces.ITerminalProperty)
 
-```csharp[string](System.String) Id```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual Id
+```csharp
 
 Property Id (value name)
+
+### Returns
+
+### Example
+
+### Remarks
 

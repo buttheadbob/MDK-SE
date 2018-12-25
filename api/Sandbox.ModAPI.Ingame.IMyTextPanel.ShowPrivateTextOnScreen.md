@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel)
 
-```csharpvoid ShowPrivateTextOnScreen()```
+### Summary
+
+```csharp
+private public abstract virtual ShowPrivateTextOnScreen
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

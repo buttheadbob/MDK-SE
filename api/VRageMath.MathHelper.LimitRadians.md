@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MathHelper](VRageMath.MathHelper)
 
-```csharpvoid LimitRadians(ref [float](System.Single) angle)```##### Summary
+### Summary
+
+```csharp
+private public LimitRadians
+```csharp
 
 Returns angle in range 0..2*PI
+
+### Returns
+
+### Example
+
+### Remarks
 

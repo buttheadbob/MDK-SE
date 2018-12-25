@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [BoundingSphereD](VRageMath.BoundingSphereD)
 
-```csharp[string](System.String) ToString()```##### Summary
+### Summary
+
+```csharp
+private public virtual ToString
+```csharp
 
 Returns a String that represents the current BoundingSphereD.
+
+### Returns
+
+### Example
+
+### Remarks
 

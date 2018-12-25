@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyCuboidSide](VRageMath.MyCuboidSide)
 
-```csharp[Plane](VRageMath.Plane) Plane```
+### Summary
+
+```csharp
+private public Plane
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

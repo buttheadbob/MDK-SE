@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyInventory](VRage.Game.ModAPI.Ingame.IMyInventory)
 
-```csharp[IMyInventoryOwner](VRage.Game.ModAPI.Ingame.IMyInventoryOwner) Owner```
+### Summary
+
+```csharp
+private public abstract virtual Owner
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

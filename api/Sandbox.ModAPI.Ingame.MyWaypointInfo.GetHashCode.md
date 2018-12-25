@@ -1,10 +1,18 @@
 ← [Index](Api-Index) ← [MyWaypointInfo](Sandbox.ModAPI.Ingame.MyWaypointInfo)
 
-```csharp[int](System.Int32) GetHashCode()```##### Summary
+### Summary
+
+```csharp
+private public virtual GetHashCode
+```csharp
 
 Gets the hashcode of this coordinate
 
-##### Returns
+### Returns
 
 
+
+### Example
+
+### Remarks
 

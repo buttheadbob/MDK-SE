@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMySoundBlock](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock)
 
-```csharp[float](System.Single) Range```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual Range
+```csharp
 
 Gets or sets the range the sound is audible.
+
+### Returns
+
+### Example
+
+### Remarks
 

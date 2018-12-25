@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [Vector3I](VRageMath.Vector3I)
 
-```csharp[Vector3I](VRageMath.Vector3I) Shift([Vector3I](VRageMath.Vector3I) value)```
+### Summary
+
+```csharp
+private public Shift
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
-```csharp[BoundingBoxD](VRageMath.BoundingBoxD) WorldAABBHr```
+### Summary
+
+```csharp
+private public abstract virtual WorldAABBHr
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

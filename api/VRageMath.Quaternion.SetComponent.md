@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [Quaternion](VRageMath.Quaternion)
 
-```csharpvoid SetComponent([int](System.Int32) index, [float](System.Single) value)```
+### Summary
+
+```csharp
+private public SetComponent
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

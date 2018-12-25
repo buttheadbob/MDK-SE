@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Quaternion](VRageMath.Quaternion)
 
-```csharpvoid GetForward(ref [Quaternion](VRageMath.Quaternion) q, ref [Vector3](VRageMath.Vector3) result)```##### Summary
+### Summary
+
+```csharp
+private public GetForward
+```csharp
 
 Gets forward vector (0,0,-1) transformed by quaternion.
+
+### Returns
+
+### Example
+
+### Remarks
 

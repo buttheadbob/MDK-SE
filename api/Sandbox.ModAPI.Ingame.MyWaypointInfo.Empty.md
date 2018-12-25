@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MyWaypointInfo](Sandbox.ModAPI.Ingame.MyWaypointInfo)
 
-```csharp[MyWaypointInfo](Sandbox.ModAPI.Ingame.MyWaypointInfo) Empty```##### Summary
+### Summary
+
+```csharp
+private public Empty
+```csharp
 
 Returns an empty (undefined) GPS coordinate
+
+### Returns
+
+### Example
+
+### Remarks
 

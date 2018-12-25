@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)
 
-```csharp[bool](System.Boolean) IsBeingHacked```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual IsBeingHacked
+```csharp
 
 Hacking of the block is in progress
+
+### Returns
+
+### Example
+
+### Remarks
 

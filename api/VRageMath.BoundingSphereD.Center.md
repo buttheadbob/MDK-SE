@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [BoundingSphereD](VRageMath.BoundingSphereD)
 
-```csharp[Vector3D](VRageMath.Vector3D) Center```##### Summary
+### Summary
+
+```csharp
+private public Center
+```csharp
 
 The center point of the sphere.
+
+### Returns
+
+### Example
+
+### Remarks
 

@@ -1,10 +1,18 @@
 ← [Index](Api-Index) ← [TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter)
 
-```csharp[TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter) Deserialize([string](System.String) serializedValue, System.TypeCode typeCode)```##### Summary
+### Summary
+
+```csharp
+private public Deserialize
+```csharp
 
 Creates a [TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter) from a serialized value in a string and a type code.
 
-##### Returns
+### Returns
 
 
+
+### Example
+
+### Remarks
 

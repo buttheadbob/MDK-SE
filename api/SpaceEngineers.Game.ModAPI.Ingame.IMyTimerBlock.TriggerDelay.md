@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyTimerBlock](SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock)
 
-```csharp[float](System.Single) TriggerDelay```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual TriggerDelay
+```csharp
 
 Gets or sets the countdown time, in seconds
+
+### Returns
+
+### Example
+
+### Remarks
 

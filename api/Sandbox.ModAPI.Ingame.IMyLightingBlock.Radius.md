@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyLightingBlock](Sandbox.ModAPI.Ingame.IMyLightingBlock)
 
-```csharp[float](System.Single) Radius```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual Radius
+```csharp
 
 Gets or sets the basic radius of the light.
+
+### Returns
+
+### Example
+
+### Remarks
 

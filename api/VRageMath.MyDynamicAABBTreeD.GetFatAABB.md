@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MyDynamicAABBTreeD](VRageMath.MyDynamicAABBTreeD)
 
-```csharpvoid GetFatAABB([int](System.Int32) proxyId, ref [BoundingBoxD](VRageMath.BoundingBoxD) fatAABB)```##### Summary
+### Summary
+
+```csharp
+private public GetFatAABB
+```csharp
 
 Get the fat BoundingBox for a proxy.
+
+### Returns
+
+### Example
+
+### Remarks
 

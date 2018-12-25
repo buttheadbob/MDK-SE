@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [BoundingBox](VRageMath.BoundingBox)
 
-```csharp[float](System.Single) Depth```
+### Summary
+
+```csharp
+private public Depth
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

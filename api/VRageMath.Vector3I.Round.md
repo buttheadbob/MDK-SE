@@ -1,3 +1,50 @@
 ← [Index](Api-Index) ← [Vector3I](VRageMath.Vector3I)
 
-```csharp[Vector3I](VRageMath.Vector3I) Round([Vector3](VRageMath.Vector3) value)``````csharp[Vector3I](VRageMath.Vector3I) Round([Vector3D](VRageMath.Vector3D) value)``````csharpvoid Round(ref [Vector3](VRageMath.Vector3) v, ref [Vector3I](VRageMath.Vector3I) r)``````csharpvoid Round(ref [Vector3D](VRageMath.Vector3D) v, ref [Vector3I](VRageMath.Vector3I) r)```
+### Summary
+
+```csharp
+private public Round
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Round
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Round
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Round
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

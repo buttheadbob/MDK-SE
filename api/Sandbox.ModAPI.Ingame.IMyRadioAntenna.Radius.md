@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyRadioAntenna](Sandbox.ModAPI.Ingame.IMyRadioAntenna)
 
-```csharp[float](System.Single) Radius```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual Radius
+```csharp
 
 Broadcasting/Receiving range
+
+### Returns
+
+### Example
+
+### Remarks
 

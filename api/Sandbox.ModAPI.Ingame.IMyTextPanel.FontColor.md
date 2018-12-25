@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel)
 
-```csharp[Color](VRageMath.Color) FontColor```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual FontColor
+```csharp
 
 Gets or sets font color
+
+### Returns
+
+### Example
+
+### Remarks
 

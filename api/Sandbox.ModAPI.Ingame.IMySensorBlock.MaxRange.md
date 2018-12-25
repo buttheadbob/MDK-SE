@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMySensorBlock](Sandbox.ModAPI.Ingame.IMySensorBlock)
 
-```csharp[float](System.Single) MaxRange```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual MaxRange
+```csharp
 
 Gets the maximum range of the sensor in any direction.
+
+### Returns
+
+### Example
+
+### Remarks
 

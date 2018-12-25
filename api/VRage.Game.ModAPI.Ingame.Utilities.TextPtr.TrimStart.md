@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [TextPtr](VRage.Game.ModAPI.Ingame.Utilities.TextPtr)
 
-```csharp[TextPtr](VRage.Game.ModAPI.Ingame.Utilities.TextPtr) TrimStart()```
+### Summary
+
+```csharp
+private public TrimStart
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

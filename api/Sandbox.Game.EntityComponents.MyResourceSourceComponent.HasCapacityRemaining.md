@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyResourceSourceComponent](Sandbox.Game.EntityComponents.MyResourceSourceComponent)
 
-```csharp[bool](System.Boolean) HasCapacityRemaining```
+### Summary
+
+```csharp
+private public HasCapacityRemaining
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

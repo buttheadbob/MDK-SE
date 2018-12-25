@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyLaserAntenna](Sandbox.ModAPI.Ingame.IMyLaserAntenna)
 
-```csharp[Vector3D](VRageMath.Vector3D) TargetCoords```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual TargetCoords
+```csharp
 
 get target coordinates
+
+### Returns
+
+### Example
+
+### Remarks
 

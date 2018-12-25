@@ -1,6 +1,10 @@
 ← [Index](Api-Index)
 
-# IMyEntity Interface
+### IMyEntity Interface
+
+```csharp
+private public abstract IMyEntity
+```csharp
 
 **Namespace:** [VRage.Game.ModAPI.Ingame](VRage.Game.ModAPI.Ingame)  
 **Assembly:** VRage.Game.dll
@@ -67,6 +71,10 @@
 * [SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase)  
 * [VRage.Game.ModAPI.Ingame.IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [VRage.Game.ModAPI.Ingame.IMyCubeGrid](VRage.Game.ModAPI.Ingame.IMyCubeGrid)
+
+### Example
+
+### Remarks
 
 ###### Properties
 

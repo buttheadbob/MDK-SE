@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [TextPtr](VRage.Game.ModAPI.Ingame.Utilities.TextPtr)
 
-```csharp[bool](System.Boolean) IsEndOfLine()```
+### Summary
+
+```csharp
+private public IsEndOfLine
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

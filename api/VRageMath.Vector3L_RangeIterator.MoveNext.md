@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [Vector3L_RangeIterator](VRageMath.Vector3L_RangeIterator)
 
-```csharpvoid MoveNext()```
+### Summary
+
+```csharp
+private public MoveNext
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

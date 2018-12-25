@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Matrix](VRageMath.Matrix)
 
-```csharpvoid MultiplyRotation(ref [Matrix](VRageMath.Matrix) matrix1, ref [Matrix](VRageMath.Matrix) matrix2, ref [Matrix](VRageMath.Matrix) result)```##### Summary
+### Summary
+
+```csharp
+private public MultiplyRotation
+```csharp
 
 Multiplies a matrix by another matrix, only rotation parts.
+
+### Returns
+
+### Example
+
+### Remarks
 

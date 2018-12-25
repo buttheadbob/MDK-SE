@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)
 
-```csharpvoid Attach()```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual Attach
+```csharp
 
 Attaches a nearby top part to the block
+
+### Returns
+
+### Example
+
+### Remarks
 

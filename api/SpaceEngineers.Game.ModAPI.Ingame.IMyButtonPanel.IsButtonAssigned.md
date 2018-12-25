@@ -1,10 +1,18 @@
 ← [Index](Api-Index) ← [IMyButtonPanel](SpaceEngineers.Game.ModAPI.Ingame.IMyButtonPanel)
 
-```csharp[bool](System.Boolean) IsButtonAssigned([int](System.Int32) index)```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual IsButtonAssigned
+```csharp
 
 Gets if the specified button is assigned an action.
 
-##### Returns
+### Returns
 
 
+
+### Example
+
+### Remarks
 

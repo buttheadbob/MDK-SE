@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [BoundingBoxD](VRageMath.BoundingBoxD)
 
-```csharpvoid AssertIsValid()```
+### Summary
+
+```csharp
+private public AssertIsValid
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

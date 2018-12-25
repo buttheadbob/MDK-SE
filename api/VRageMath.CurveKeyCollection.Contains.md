@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [CurveKeyCollection](VRageMath.CurveKeyCollection)
 
-```csharp[bool](System.Boolean) Contains([CurveKey](VRageMath.CurveKey) item)```##### Summary
+### Summary
+
+```csharp
+private public Contains
+```csharp
 
 Determines whether the CurveKeyCollection contains a specific CurveKey.
+
+### Returns
+
+### Example
+
+### Remarks
 

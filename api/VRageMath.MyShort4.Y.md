@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyShort4](VRageMath.MyShort4)
 
-```csharp[short](System.Int16) Y```
+### Summary
+
+```csharp
+private public Y
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

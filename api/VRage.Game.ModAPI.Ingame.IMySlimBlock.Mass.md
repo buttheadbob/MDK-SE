@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMySlimBlock](VRage.Game.ModAPI.Ingame.IMySlimBlock)
 
-```csharp[float](System.Single) Mass```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual Mass
+```csharp
 
 Block mass
+
+### Returns
+
+### Example
+
+### Remarks
 

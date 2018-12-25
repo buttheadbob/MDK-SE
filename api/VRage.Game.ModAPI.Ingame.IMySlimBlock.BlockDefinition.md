@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMySlimBlock](VRage.Game.ModAPI.Ingame.IMySlimBlock)
 
-```csharp[SerializableDefinitionId](VRage.ObjectBuilders.SerializableDefinitionId) BlockDefinition```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual BlockDefinition
+```csharp
 
 Block definition ID
+
+### Returns
+
+### Example
+
+### Remarks
 

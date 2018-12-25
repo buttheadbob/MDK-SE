@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [MyIni](VRage.Game.ModAPI.Ingame.Utilities.MyIni)
 
-```csharpvoid SetComment([string](System.String) section, [string](System.String) name, [string](System.String) comment)```##### Summary
+### Summary
+
+```csharp
+private public SetComment
+```csharp
 
 Sets a comment on a given item. The item must already exist. Set the comment to`null`to remove it.
 
-```csharpvoid SetComment([MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) key, [string](System.String) comment)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public SetComment
+```csharp
 
 Sets a comment on a given item. The item must already exist. Set the comment to`null`to remove it.
+
+### Returns
+
+### Example
+
+### Remarks
 

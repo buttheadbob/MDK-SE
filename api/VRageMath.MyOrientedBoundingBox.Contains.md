@@ -1,3 +1,98 @@
 ← [Index](Api-Index) ← [MyOrientedBoundingBox](VRageMath.MyOrientedBoundingBox)
 
-```csharp[ContainmentType](VRageMath.ContainmentType) Contains(ref [BoundingBox](VRageMath.BoundingBox) box)``````csharp[ContainmentType](VRageMath.ContainmentType) Contains(ref [BoundingBox](VRageMath.BoundingBox) boxA, ref [MyOrientedBoundingBox](VRageMath.MyOrientedBoundingBox) oboxB)``````csharp[ContainmentType](VRageMath.ContainmentType) Contains(ref [MyOrientedBoundingBox](VRageMath.MyOrientedBoundingBox) other)``````csharp[ContainmentType](VRageMath.ContainmentType) Contains([BoundingFrustum](VRageMath.BoundingFrustum) frustum)``````csharp[ContainmentType](VRageMath.ContainmentType) Contains([BoundingFrustum](VRageMath.BoundingFrustum) frustum, ref [MyOrientedBoundingBox](VRageMath.MyOrientedBoundingBox) obox)``````csharp[ContainmentType](VRageMath.ContainmentType) Contains(ref [BoundingSphere](VRageMath.BoundingSphere) sphere)``````csharp[ContainmentType](VRageMath.ContainmentType) Contains(ref [BoundingSphere](VRageMath.BoundingSphere) sphere, ref [MyOrientedBoundingBox](VRageMath.MyOrientedBoundingBox) box)``````csharp[bool](System.Boolean) Contains(ref [Vector3](VRageMath.Vector3) point)```
+### Summary
+
+```csharp
+private public Contains
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Contains
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Contains
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Contains
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Contains
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Contains
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Contains
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Contains
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

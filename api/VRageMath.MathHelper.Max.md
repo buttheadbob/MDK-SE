@@ -1,11 +1,66 @@
 ← [Index](Api-Index) ← [MathHelper](VRageMath.MathHelper)
 
-```csharp[float](System.Single) Max([float](System.Single) value1, [float](System.Single) value2)```##### Summary
+### Summary
+
+```csharp
+private public Max
+```csharp
 
 Returns the greater of two values.
 
-```csharp[double](System.Double) Max([double](System.Double) value1, [double](System.Double) value2)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Max
+```csharp
 
 Returns the greater of two values.
 
-```csharp[float](System.Single) Max([float](System.Single) a, [float](System.Single) b, [float](System.Single) c)``````csharp[int](System.Int32) Max([int](System.Int32) a, [int](System.Int32) b, [int](System.Int32) c)``````csharp[double](System.Double) Max([double](System.Double) a, [double](System.Double) b, [double](System.Double) c)```
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Max
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Max
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Max
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [MatrixD](VRageMath.MatrixD)
 
-```csharp[Matrix](VRageMath.Matrix) Subtract([Matrix](VRageMath.Matrix) matrix1, [Matrix](VRageMath.Matrix) matrix2)```##### Summary
+### Summary
+
+```csharp
+private public Subtract
+```csharp
 
 Subtracts matrices.
 
-```csharpvoid Subtract(ref [MatrixD](VRageMath.MatrixD) matrix1, ref [MatrixD](VRageMath.MatrixD) matrix2, ref [MatrixD](VRageMath.MatrixD) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Subtract
+```csharp
 
 Subtracts matrices.
+
+### Returns
+
+### Example
+
+### Remarks
 

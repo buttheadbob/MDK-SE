@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMySensorBlock](Sandbox.ModAPI.Ingame.IMySensorBlock)
 
-```csharp[bool](System.Boolean) DetectLargeShips```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual DetectLargeShips
+```csharp
 
 Gets or sets if the sensor should detect large ships.
+
+### Returns
+
+### Example
+
+### Remarks
 

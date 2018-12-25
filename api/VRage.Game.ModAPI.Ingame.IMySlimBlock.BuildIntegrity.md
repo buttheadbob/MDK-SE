@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMySlimBlock](VRage.Game.ModAPI.Ingame.IMySlimBlock)
 
-```csharp[float](System.Single) BuildIntegrity```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual BuildIntegrity
+```csharp
 
 Build integrity (of components)
+
+### Returns
+
+### Example
+
+### Remarks
 

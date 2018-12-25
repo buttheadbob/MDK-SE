@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# CompressedPositionOrientation Struct
+### CompressedPositionOrientation Struct
+
+```csharp
+private public sealed CompressedPositionOrientation
+```csharp
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+### Example
+
+### Remarks
 
 ###### Fields
 

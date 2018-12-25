@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyTimerBlock](SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock)
 
-```csharpvoid Trigger()```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual Trigger
+```csharp
 
 Trigger immediately, skips countdown
+
+### Returns
+
+### Example
+
+### Remarks
 

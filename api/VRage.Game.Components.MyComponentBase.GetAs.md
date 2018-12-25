@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyComponentBase](VRage.Game.Components.MyComponentBase)
 
-```csharp[T]() GetAs<T><[T]()>()```
+### Summary
+
+```csharp
+private public virtual GetAs<T>
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

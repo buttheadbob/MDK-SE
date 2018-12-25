@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyShipConnector](Sandbox.ModAPI.Ingame.IMyShipConnector)
 
-```csharp[MyShipConnectorStatus](Sandbox.ModAPI.Ingame.MyShipConnectorStatus) Status```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual Status
+```csharp
 
 Determines the current status of the connector.
+
+### Returns
+
+### Example
+
+### Remarks
 

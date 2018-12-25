@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyCuboidSide](VRageMath.MyCuboidSide)
 
-```csharp[Line[]](VRageMath.Line[]) Lines```
+### Summary
+
+```csharp
+private public Lines
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

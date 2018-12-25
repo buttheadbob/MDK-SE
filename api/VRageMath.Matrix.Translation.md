@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Matrix](VRageMath.Matrix)
 
-```csharp[Vector3](VRageMath.Vector3) Translation```##### Summary
+### Summary
+
+```csharp
+private public Translation
+```csharp
 
 Gets and sets the translation vector of the Matrix.
+
+### Returns
+
+### Example
+
+### Remarks
 

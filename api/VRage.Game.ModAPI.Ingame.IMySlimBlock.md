@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# IMySlimBlock Interface
+### IMySlimBlock Interface
+
+```csharp
+private public abstract IMySlimBlock
+```csharp
 
 **Namespace:** [VRage.Game.ModAPI.Ingame](VRage.Game.ModAPI.Ingame)  
 **Assembly:** VRage.Game.dll
+
+### Example
+
+### Remarks
 
 ###### Properties
 

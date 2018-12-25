@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [ITerminalProperty<TValue>](Sandbox.ModAPI.Interfaces.ITerminalProperty`1)
 
-```csharp[TValue]() GetMininum([IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock) block)```
+### Summary
+
+```csharp
+private public abstract virtual GetMininum
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

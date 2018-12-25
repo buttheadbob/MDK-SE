@@ -1,10 +1,18 @@
 ← [Index](Api-Index) ← [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)
 
-```csharp[bool](System.Boolean) TryGetPlanetPosition(ref [Vector3D](VRageMath.Vector3D) position)```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual TryGetPlanetPosition
+```csharp
 
 Attempts to get the world position of the nearest planet. This method is only available when a ship is within the gravity well of a planet.
 
-##### Returns
+### Returns
 
 
+
+### Example
+
+### Remarks
 

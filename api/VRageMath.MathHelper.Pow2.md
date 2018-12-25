@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MathHelper](VRageMath.MathHelper)
 
-```csharp[int](System.Int32) Pow2([int](System.Int32) n)```##### Summary
+### Summary
+
+```csharp
+private public Pow2
+```csharp
 
 Returns 2^n
+
+### Returns
+
+### Example
+
+### Remarks
 

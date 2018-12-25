@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MyCommandLine](VRage.Game.ModAPI.Ingame.Utilities.MyCommandLine)
 
-```csharp[ItemCollection](VRage.Game.ModAPI.Ingame.Utilities.MyCommandLine+ItemCollection) Items```##### Summary
+### Summary
+
+```csharp
+private public Items
+```csharp
 
 Contains all items, both arguments and switches
+
+### Returns
+
+### Example
+
+### Remarks
 

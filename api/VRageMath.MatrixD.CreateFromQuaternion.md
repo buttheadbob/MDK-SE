@@ -1,10 +1,42 @@
 ← [Index](Api-Index) ← [MatrixD](VRageMath.MatrixD)
 
-```csharp[MatrixD](VRageMath.MatrixD) CreateFromQuaternion([Quaternion](VRageMath.Quaternion) quaternion)```##### Summary
+### Summary
+
+```csharp
+private public CreateFromQuaternion
+```csharp
 
 Creates a rotation Matrix from a Quaternion.
 
-```csharp[MatrixD](VRageMath.MatrixD) CreateFromQuaternion([QuaternionD](VRageMath.QuaternionD) quaternion)``````csharpvoid CreateFromQuaternion(ref [Quaternion](VRageMath.Quaternion) quaternion, ref [MatrixD](VRageMath.MatrixD) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public CreateFromQuaternion
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public CreateFromQuaternion
+```csharp
 
 Creates a rotation Matrix from a Quaternion.
+
+### Returns
+
+### Example
+
+### Remarks
 

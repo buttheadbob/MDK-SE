@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [BoundingBoxD](VRageMath.BoundingBoxD)
 
-```csharp[Vector3D](VRageMath.Vector3D) Max```##### Summary
+### Summary
+
+```csharp
+private public Max
+```csharp
 
 The maximum point the BoundingBox contains.
+
+### Returns
+
+### Example
+
+### Remarks
 

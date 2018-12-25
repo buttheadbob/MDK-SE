@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [BoundingBoxI](VRageMath.BoundingBoxI)
 
-```csharp[BoundingBoxI](VRageMath.BoundingBoxI) GetIncluded([Vector3I](VRageMath.Vector3I) point)```
+### Summary
+
+```csharp
+private public GetIncluded
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

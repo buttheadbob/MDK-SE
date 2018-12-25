@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# MyShipVelocities Struct
+### MyShipVelocities Struct
+
+```csharp
+private public sealed MyShipVelocities
+```csharp
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
+
+### Example
+
+### Remarks
 
 ###### Fields
 

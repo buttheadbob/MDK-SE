@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
-```csharp[Vector3D](VRageMath.Vector3D) GetPosition()```
+### Summary
+
+```csharp
+private public abstract virtual GetPosition
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

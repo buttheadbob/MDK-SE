@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyCuboid](VRageMath.MyCuboid)
 
-```csharpvoid CreateFromVertices([Vector3[]](VRageMath.Vector3[]) vertices)```
+### Summary
+
+```csharp
+private public CreateFromVertices
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

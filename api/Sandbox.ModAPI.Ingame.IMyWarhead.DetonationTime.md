@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyWarhead](Sandbox.ModAPI.Ingame.IMyWarhead)
 
-```csharp[float](System.Single) DetonationTime```
+### Summary
+
+```csharp
+private public abstract virtual DetonationTime
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

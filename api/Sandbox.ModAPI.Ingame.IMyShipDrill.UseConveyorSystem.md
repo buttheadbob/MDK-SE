@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyShipDrill](Sandbox.ModAPI.Ingame.IMyShipDrill)
 
-```csharp[bool](System.Boolean) UseConveyorSystem```
+### Summary
+
+```csharp
+private public abstract virtual UseConveyorSystem
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

@@ -1,10 +1,18 @@
 ← [Index](Api-Index) ← [MyIniValue](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue)
 
-```csharp[short](System.Int16) ToInt16([short](System.Int16) defaultValue)```##### Summary
+### Summary
+
+```csharp
+private public ToInt16
+```csharp
 
 Attempts to get this value as a [System.Int16](https://docs.microsoft.com/en-us/dotnet/api/system.int16?view=netframework-4.6) . If the value is empty or cannot be understood as this data type, the defaultValue will be returned instead.
 
-##### Returns
+### Returns
 
 
+
+### Example
+
+### Remarks
 

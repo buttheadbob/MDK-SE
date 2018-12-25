@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [SerializableDefinitionId](VRage.ObjectBuilders.SerializableDefinitionId)
 
-```csharp[string](System.String) TypeIdString```
+### Summary
+
+```csharp
+private public TypeIdString
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

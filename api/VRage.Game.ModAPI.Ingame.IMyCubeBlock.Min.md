@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)
 
-```csharp[Vector3I](VRageMath.Vector3I) Min```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual Min
+```csharp
 
 Minimum coordinates of grid cells occupied by this block
+
+### Returns
+
+### Example
+
+### Remarks
 

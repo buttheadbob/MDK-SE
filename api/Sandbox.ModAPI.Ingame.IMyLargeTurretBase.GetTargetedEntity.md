@@ -1,10 +1,18 @@
 ← [Index](Api-Index) ← [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)
 
-```csharp[MyDetectedEntityInfo](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo) GetTargetedEntity()```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual GetTargetedEntity
+```csharp
 
 Gets the turret's current detected entity, if any
 
-##### Returns
+### Returns
 
 
+
+### Example
+
+### Remarks
 

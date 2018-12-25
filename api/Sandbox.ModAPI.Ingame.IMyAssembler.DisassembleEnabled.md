@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyAssembler](Sandbox.ModAPI.Ingame.IMyAssembler)
 
-```csharp[bool](System.Boolean) DisassembleEnabled```
+### Summary
+
+```csharp
+private public abstract virtual DisassembleEnabled
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

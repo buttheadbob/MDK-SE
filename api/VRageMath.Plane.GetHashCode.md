@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Plane](VRageMath.Plane)
 
-```csharp[int](System.Int32) GetHashCode()```##### Summary
+### Summary
+
+```csharp
+private public virtual GetHashCode
+```csharp
 
 Gets the hash code for this object.
+
+### Returns
+
+### Example
+
+### Remarks
 

@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MathHelper](VRageMath.MathHelper)
 
-```csharp[float](System.Single) PiOver4```##### Summary
+### Summary
+
+```csharp
+private public PiOver4
+```csharp
 
 Represents the value of pi divided by four.
+
+### Returns
+
+### Example
+
+### Remarks
 

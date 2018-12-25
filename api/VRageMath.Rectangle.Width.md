@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Rectangle](VRageMath.Rectangle)
 
-```csharp[int](System.Int32) Width```##### Summary
+### Summary
+
+```csharp
+private public Width
+```csharp
 
 Specifies the width of the rectangle.
+
+### Returns
+
+### Example
+
+### Remarks
 

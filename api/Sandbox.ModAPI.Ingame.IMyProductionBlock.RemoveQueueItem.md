@@ -1,14 +1,44 @@
 ← [Index](Api-Index) ← [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)
 
-```csharpvoid RemoveQueueItem([int](System.Int32) idx, [MyFixedPoint](VRage.MyFixedPoint) amount)```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual RemoveQueueItem
+```csharp
 
 Removes an item from the queue
 
-```csharpvoid RemoveQueueItem([int](System.Int32) idx, [decimal](System.Decimal) amount)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public abstract virtual RemoveQueueItem
+```csharp
 
 Removes an item from the queue
 
-```csharpvoid RemoveQueueItem([int](System.Int32) idx, [double](System.Double) amount)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public abstract virtual RemoveQueueItem
+```csharp
 
 Removes an item from the queue
+
+### Returns
+
+### Example
+
+### Remarks
 

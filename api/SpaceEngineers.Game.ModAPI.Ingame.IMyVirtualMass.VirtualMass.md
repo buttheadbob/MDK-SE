@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyVirtualMass](SpaceEngineers.Game.ModAPI.Ingame.IMyVirtualMass)
 
-```csharp[float](System.Single) VirtualMass```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual VirtualMass
+```csharp
 
 Virtualmass weight
+
+### Returns
+
+### Example
+
+### Remarks
 

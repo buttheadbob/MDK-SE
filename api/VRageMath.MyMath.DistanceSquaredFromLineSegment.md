@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MyMath](VRageMath.MyMath)
 
-```csharp[float](System.Single) DistanceSquaredFromLineSegment([Vector3](VRageMath.Vector3) v, [Vector3](VRageMath.Vector3) w, [Vector3](VRageMath.Vector3) p)```##### Summary
+### Summary
+
+```csharp
+private public DistanceSquaredFromLineSegment
+```csharp
 
 Return minimum distance between line segment v-w and point p.
+
+### Returns
+
+### Example
+
+### Remarks
 

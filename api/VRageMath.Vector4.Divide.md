@@ -1,18 +1,58 @@
 ← [Index](Api-Index) ← [Vector4](VRageMath.Vector4)
 
-```csharp[Vector4](VRageMath.Vector4) Divide([Vector4](VRageMath.Vector4) value1, [Vector4](VRageMath.Vector4) value2)```##### Summary
+### Summary
+
+```csharp
+private public Divide
+```csharp
 
 Divides the components of a vector by the components of another vector.
 
-```csharpvoid Divide(ref [Vector4](VRageMath.Vector4) value1, ref [Vector4](VRageMath.Vector4) value2, ref [Vector4](VRageMath.Vector4) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Divide
+```csharp
 
 Divides the components of a vector by the components of another vector.
 
-```csharp[Vector4](VRageMath.Vector4) Divide([Vector4](VRageMath.Vector4) value1, [float](System.Single) divider)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Divide
+```csharp
 
 Divides a vector by a scalar value.
 
-```csharpvoid Divide(ref [Vector4](VRageMath.Vector4) value1, [float](System.Single) divider, ref [Vector4](VRageMath.Vector4) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Divide
+```csharp
 
 Divides a vector by a scalar value.
+
+### Returns
+
+### Example
+
+### Remarks
 

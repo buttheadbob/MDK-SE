@@ -1,14 +1,44 @@
 ← [Index](Api-Index) ← [Vector4D](VRageMath.Vector4D)
 
-```csharpvoid Normalize()```##### Summary
+### Summary
+
+```csharp
+private public Normalize
+```csharp
 
 Turns the current vector into a unit vector.
 
-```csharp[Vector4D](VRageMath.Vector4D) Normalize([Vector4D](VRageMath.Vector4D) vector)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Normalize
+```csharp
 
 Creates a unit vector from the specified vector.
 
-```csharpvoid Normalize(ref [Vector4D](VRageMath.Vector4D) vector, ref [Vector4D](VRageMath.Vector4D) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Normalize
+```csharp
 
 Returns a normalized version of the specified vector.
+
+### Returns
+
+### Example
+
+### Remarks
 

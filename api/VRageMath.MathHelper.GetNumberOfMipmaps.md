@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MathHelper](VRageMath.MathHelper)
 
-```csharp[int](System.Int32) GetNumberOfMipmaps([int](System.Int32) v)```
+### Summary
+
+```csharp
+private public GetNumberOfMipmaps
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

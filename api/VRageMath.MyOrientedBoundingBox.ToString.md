@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyOrientedBoundingBox](VRageMath.MyOrientedBoundingBox)
 
-```csharp[string](System.String) ToString()```
+### Summary
+
+```csharp
+private public virtual ToString
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

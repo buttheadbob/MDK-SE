@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)
 
-```csharpvoid SetTarget([Vector3D](VRageMath.Vector3D) pos)```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual SetTarget
+```csharp
 
 Targets given position
+
+### Returns
+
+### Example
+
+### Remarks
 

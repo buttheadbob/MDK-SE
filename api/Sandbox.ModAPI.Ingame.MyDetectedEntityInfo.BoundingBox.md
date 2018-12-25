@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MyDetectedEntityInfo](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo)
 
-```csharp[BoundingBoxD](VRageMath.BoundingBoxD) BoundingBox```##### Summary
+### Summary
+
+```csharp
+private public BoundingBox
+```csharp
 
 The entity's world-aligned bounding box
+
+### Returns
+
+### Example
+
+### Remarks
 

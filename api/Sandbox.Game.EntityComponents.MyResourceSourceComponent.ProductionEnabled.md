@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyResourceSourceComponent](Sandbox.Game.EntityComponents.MyResourceSourceComponent)
 
-```csharp[bool](System.Boolean) ProductionEnabled```
+### Summary
+
+```csharp
+private public ProductionEnabled
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

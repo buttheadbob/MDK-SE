@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyDynamicAABBTree](VRageMath.MyDynamicAABBTree)
 
-```csharp[int](System.Int32) GetHeight()```
+### Summary
+
+```csharp
+private public GetHeight
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

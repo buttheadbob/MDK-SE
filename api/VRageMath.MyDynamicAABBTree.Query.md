@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyDynamicAABBTree](VRageMath.MyDynamicAABBTree)
 
-```csharpvoid Query([Func<T, TResult>](System.Func`2) callback, ref [BoundingBox](VRageMath.BoundingBox) aabb)```
+### Summary
+
+```csharp
+private public Query
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

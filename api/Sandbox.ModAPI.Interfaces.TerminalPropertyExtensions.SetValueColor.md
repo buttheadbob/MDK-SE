@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [TerminalPropertyExtensions](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions)
 
-```csharpvoid SetValueColor([IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock) block, [string](System.String) propertyId, [Color](VRageMath.Color) value)```##### Summary
+### Summary
+
+```csharp
+private public SetValueColor
+```csharp
 
 Set bool value of property
+
+### Returns
+
+### Example
+
+### Remarks
 

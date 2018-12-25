@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [BoundingBoxI](VRageMath.BoundingBoxI)
 
-```csharp[float](System.Single) SurfaceArea()```
+### Summary
+
+```csharp
+private public SurfaceArea
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [Vector3](VRageMath.Vector3)
 
-```csharp[float](System.Single) Sum```
+### Summary
+
+```csharp
+private public Sum
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

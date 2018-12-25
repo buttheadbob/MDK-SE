@@ -1,7 +1,15 @@
 ← [Index](Api-Index)
 
-# Enumerator Struct
+### Enumerator Struct
+
+```csharp
+private sealed Enumerator
+```csharp
 
 **Namespace:** [VRage.Game.ModAPI.Ingame.Utilities](VRage.Game.ModAPI.Ingame.Utilities)  
 **Assembly:** VRage.Game.dll
+
+### Example
+
+### Remarks
 

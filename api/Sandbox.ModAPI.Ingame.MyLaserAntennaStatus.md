@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# MyLaserAntennaStatus Enum
+### MyLaserAntennaStatus Enum
+
+```csharp
+private public sealed MyLaserAntennaStatus
+```csharp
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
+
+### Example
+
+### Remarks
 
 ###### Fields
 

@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyMotorStator](Sandbox.ModAPI.Ingame.IMyMotorStator)
 
-```csharp[float](System.Single) UpperLimitRad```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual UpperLimitRad
+```csharp
 
 Gets or sets the upper angle limit of the rotor in radians. Set to float.MaxValue for no limit.
+
+### Returns
+
+### Example
+
+### Remarks
 

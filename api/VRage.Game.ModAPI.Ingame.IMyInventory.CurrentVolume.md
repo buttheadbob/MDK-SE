@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyInventory](VRage.Game.ModAPI.Ingame.IMyInventory)
 
-```csharp[MyFixedPoint](VRage.MyFixedPoint) CurrentVolume```
+### Summary
+
+```csharp
+private public abstract virtual CurrentVolume
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

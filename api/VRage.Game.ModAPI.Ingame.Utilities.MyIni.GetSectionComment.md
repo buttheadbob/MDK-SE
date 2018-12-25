@@ -1,10 +1,18 @@
 ← [Index](Api-Index) ← [MyIni](VRage.Game.ModAPI.Ingame.Utilities.MyIni)
 
-```csharp[string](System.String) GetSectionComment([string](System.String) section)```##### Summary
+### Summary
+
+```csharp
+private public GetSectionComment
+```csharp
 
 Get any comment that might be associated with the given section. Returns`null`if the section does not exist or has no comment.
 
-##### Returns
+### Returns
 
 
+
+### Example
+
+### Remarks
 

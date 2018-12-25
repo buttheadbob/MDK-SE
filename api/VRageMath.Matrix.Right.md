@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Matrix](VRageMath.Matrix)
 
-```csharp[Vector3](VRageMath.Vector3) Right```##### Summary
+### Summary
+
+```csharp
+private public Right
+```csharp
 
 Gets and sets the right vector of the Matrix.
+
+### Returns
+
+### Example
+
+### Remarks
 

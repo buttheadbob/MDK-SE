@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [Vector2](VRageMath.Vector2)
 
-```csharp[Vector2](VRageMath.Vector2) Subtract([Vector2](VRageMath.Vector2) value1, [Vector2](VRageMath.Vector2) value2)```##### Summary
+### Summary
+
+```csharp
+private public Subtract
+```csharp
 
 Subtracts a vector from a vector.
 
-```csharpvoid Subtract(ref [Vector2](VRageMath.Vector2) value1, ref [Vector2](VRageMath.Vector2) value2, ref [Vector2](VRageMath.Vector2) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Subtract
+```csharp
 
 Subtracts a vector from a vector.
+
+### Returns
+
+### Example
+
+### Remarks
 

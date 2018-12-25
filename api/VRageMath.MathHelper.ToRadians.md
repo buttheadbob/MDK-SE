@@ -1,10 +1,42 @@
 ← [Index](Api-Index) ← [MathHelper](VRageMath.MathHelper)
 
-```csharp[float](System.Single) ToRadians([float](System.Single) degrees)```##### Summary
+### Summary
+
+```csharp
+private public ToRadians
+```csharp
 
 Converts degrees to radians.
 
-```csharp[Vector3](VRageMath.Vector3) ToRadians([Vector3](VRageMath.Vector3) v)``````csharp[double](System.Double) ToRadians([double](System.Double) degrees)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public ToRadians
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public ToRadians
+```csharp
 
 Converts degrees to radians.
+
+### Returns
+
+### Example
+
+### Remarks
 

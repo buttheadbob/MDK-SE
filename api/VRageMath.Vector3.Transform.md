@@ -1,38 +1,152 @@
 ← [Index](Api-Index) ← [Vector3](VRageMath.Vector3)
 
-```csharp[Vector3](VRageMath.Vector3) Transform([Vector3](VRageMath.Vector3) position, [Matrix](VRageMath.Matrix) matrix)```##### Summary
+### Summary
+
+```csharp
+private public Transform
+```csharp
 
 Transforms a 3D vector by the given matrix.
 
-```csharp[Vector3D](VRageMath.Vector3D) Transform([Vector3](VRageMath.Vector3) position, [MatrixD](VRageMath.MatrixD) matrix)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Transform
+```csharp
 
 Transforms a 3D vector by the given matrix.
 
-```csharp[Vector3](VRageMath.Vector3) Transform([Vector3](VRageMath.Vector3) position, ref [Matrix](VRageMath.Matrix) matrix)``````csharpvoid Transform(ref [Vector3](VRageMath.Vector3) position, ref [Matrix](VRageMath.Matrix) matrix, ref [Vector3](VRageMath.Vector3) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Transform
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Transform
+```csharp
 
 Transforms a Vector3 by the given Matrix.
 
-```csharpvoid Transform(ref [Vector3](VRageMath.Vector3) position, ref [MatrixI](VRageMath.MatrixI) matrix, ref [Vector3](VRageMath.Vector3) result)``````csharp[Vector3](VRageMath.Vector3) Transform([Vector3](VRageMath.Vector3) value, [Quaternion](VRageMath.Quaternion) rotation)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Transform
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Transform
+```csharp
 
 Transforms a Vector3 by a specified Quaternion rotation.
 
-```csharpvoid Transform(ref [Vector3](VRageMath.Vector3) value, ref [Quaternion](VRageMath.Quaternion) rotation, ref [Vector3](VRageMath.Vector3) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Transform
+```csharp
 
 Transforms a Vector3 by a specified Quaternion rotation.
 
-```csharpvoid Transform([Vector3[]](VRageMath.Vector3[]) sourceArray, ref [Matrix](VRageMath.Matrix) matrix, [Vector3[]](VRageMath.Vector3[]) destinationArray)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Transform
+```csharp
 
 Transforms a source array of Vector3s by a specified Matrix and writes the results to an existing destination array.
 
-```csharpvoid Transform([Vector3[]](VRageMath.Vector3[]) sourceArray, [int](System.Int32) sourceIndex, ref [Matrix](VRageMath.Matrix) matrix, [Vector3[]](VRageMath.Vector3[]) destinationArray, [int](System.Int32) destinationIndex, [int](System.Int32) length)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Transform
+```csharp
 
 Applies a specified transform Matrix to a specified range of an array of Vector3s and writes the results into a specified range of a destination array.
 
-```csharpvoid Transform([Vector3[]](VRageMath.Vector3[]) sourceArray, ref [Quaternion](VRageMath.Quaternion) rotation, [Vector3[]](VRageMath.Vector3[]) destinationArray)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Transform
+```csharp
 
 Transforms a source array of Vector3s by a specified Quaternion rotation and writes the results to an existing destination array.
 
-```csharpvoid Transform([Vector3[]](VRageMath.Vector3[]) sourceArray, [int](System.Int32) sourceIndex, ref [Quaternion](VRageMath.Quaternion) rotation, [Vector3[]](VRageMath.Vector3[]) destinationArray, [int](System.Int32) destinationIndex, [int](System.Int32) length)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Transform
+```csharp
 
 Applies a specified Quaternion rotation to a specified range of an array of Vector3s and writes the results into a specified range of a destination array.
+
+### Returns
+
+### Example
+
+### Remarks
 

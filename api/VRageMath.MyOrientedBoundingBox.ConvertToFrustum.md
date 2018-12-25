@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyOrientedBoundingBox](VRageMath.MyOrientedBoundingBox)
 
-```csharp[BoundingFrustum](VRageMath.BoundingFrustum) ConvertToFrustum()```
+### Summary
+
+```csharp
+private public ConvertToFrustum
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

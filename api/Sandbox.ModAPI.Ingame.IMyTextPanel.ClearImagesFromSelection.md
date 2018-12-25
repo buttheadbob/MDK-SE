@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel)
 
-```csharpvoid ClearImagesFromSelection()```
+### Summary
+
+```csharp
+private public abstract virtual ClearImagesFromSelection
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

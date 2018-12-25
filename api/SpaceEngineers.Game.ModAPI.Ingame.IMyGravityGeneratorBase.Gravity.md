@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyGravityGeneratorBase](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorBase)
 
-```csharp[float](System.Single) Gravity```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual Gravity
+```csharp
 
 Gets the gravity acceleration
+
+### Returns
+
+### Example
+
+### Remarks
 

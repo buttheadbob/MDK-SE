@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Vector3](VRageMath.Vector3)
 
-```csharp[Vector3](VRageMath.Vector3) MaxAbsComponent()```##### Summary
+### Summary
+
+```csharp
+private public MaxAbsComponent
+```csharp
 
 Keeps only component with maximal absolute, others are set to zero.
+
+### Returns
+
+### Example
+
+### Remarks
 

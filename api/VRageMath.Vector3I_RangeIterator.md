@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# Vector3I_RangeIterator Struct
+### Vector3I_RangeIterator Struct
+
+```csharp
+private public sealed Vector3I_RangeIterator
+```csharp
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+### Example
+
+### Remarks
 
 ###### Fields
 

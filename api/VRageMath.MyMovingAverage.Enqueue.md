@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyMovingAverage](VRageMath.MyMovingAverage)
 
-```csharpvoid Enqueue([float](System.Single) value)```
+### Summary
+
+```csharp
+private public Enqueue
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

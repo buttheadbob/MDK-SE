@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# ITerminalAction Interface
+### ITerminalAction Interface
+
+```csharp
+private public abstract ITerminalAction
+```csharp
 
 **Namespace:** [Sandbox.ModAPI.Interfaces](Sandbox.ModAPI.Interfaces)  
 **Assembly:** Sandbox.Common.dll
+
+### Example
+
+### Remarks
 
 ###### Properties
 

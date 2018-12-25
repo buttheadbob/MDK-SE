@@ -1,11 +1,19 @@
 ← [Index](Api-Index)
 
-# MyResourceSourceComponent Class
+### MyResourceSourceComponent Class
+
+```csharp
+private public MyResourceSourceComponent
+```csharp
 
 **Namespace:** [Sandbox.Game.EntityComponents](Sandbox.Game.EntityComponents)  
 **Assembly:** Sandbox.Game.dll
 
 **Inheritance: **[MyResourceSourceComponentBase](VRage.Game.Components.MyResourceSourceComponentBase)
+
+### Example
+
+### Remarks
 
 ###### Properties
 

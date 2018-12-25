@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [LineD](VRageMath.LineD)
 
-```csharp[long](System.Int64) GetHash()```
+### Summary
+
+```csharp
+private public GetHash
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

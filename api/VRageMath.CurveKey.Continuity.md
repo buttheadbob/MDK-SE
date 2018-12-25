@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [CurveKey](VRageMath.CurveKey)
 
-```csharp[CurveContinuity](VRageMath.CurveContinuity) Continuity```##### Summary
+### Summary
+
+```csharp
+private public Continuity
+```csharp
 
 Describes whether the segment between this point and the next point in the curve is discrete or continuous.
+
+### Returns
+
+### Example
+
+### Remarks
 

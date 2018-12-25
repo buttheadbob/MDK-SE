@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)
 
-```csharp[Vector3D](VRageMath.Vector3D) CenterOfMass```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual CenterOfMass
+```csharp
 
 Center of mass in world coordinates
+
+### Returns
+
+### Example
+
+### Remarks
 

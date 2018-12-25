@@ -1,10 +1,18 @@
 ← [Index](Api-Index) ← [IMySoundBlock](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock)
 
-```csharp[float](System.Single) LoopPeriod```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual LoopPeriod
+```csharp
 
 Gets or sets the loop period of a loopable sound, in seconds.
 
-##### Remarks
+### Returns
+
+### Example
+
+### Remarks
 
 This value is ignored if the selected sound is not loopable.
 

@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyDefinitionId](VRage.Game.MyDefinitionId)
 
-```csharpVRage.ObjectBuilders.MyObjectBuilderType TypeId```
+### Summary
+
+```csharp
+private public TypeId
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

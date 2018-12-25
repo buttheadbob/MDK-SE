@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [Vector3](VRageMath.Vector3)
 
-```csharpvoid Negate(ref [Vector3](VRageMath.Vector3) value, ref [Vector3](VRageMath.Vector3) result)```##### Summary
+### Summary
+
+```csharp
+private public Negate
+```csharp
 
 Returns a vector pointing in the opposite direction.
 
-```csharp[Vector3](VRageMath.Vector3) Negate([Vector3](VRageMath.Vector3) value)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Negate
+```csharp
 
 Returns a vector pointing in the opposite direction.
+
+### Returns
+
+### Example
+
+### Remarks
 

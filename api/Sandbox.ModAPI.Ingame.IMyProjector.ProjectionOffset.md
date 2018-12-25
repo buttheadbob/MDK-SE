@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyProjector](Sandbox.ModAPI.Ingame.IMyProjector)
 
-```csharp[Vector3I](VRageMath.Vector3I) ProjectionOffset```
+### Summary
+
+```csharp
+private public abstract virtual ProjectionOffset
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

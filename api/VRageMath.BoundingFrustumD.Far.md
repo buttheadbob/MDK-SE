@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [BoundingFrustumD](VRageMath.BoundingFrustumD)
 
-```csharp[PlaneD](VRageMath.PlaneD) Far```##### Summary
+### Summary
+
+```csharp
+private public Far
+```csharp
 
 Gets the far plane of the BoundingFrustumD.
+
+### Returns
+
+### Example
+
+### Remarks
 

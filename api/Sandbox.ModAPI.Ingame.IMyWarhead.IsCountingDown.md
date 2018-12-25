@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyWarhead](Sandbox.ModAPI.Ingame.IMyWarhead)
 
-```csharp[bool](System.Boolean) IsCountingDown```
+### Summary
+
+```csharp
+private public abstract virtual IsCountingDown
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

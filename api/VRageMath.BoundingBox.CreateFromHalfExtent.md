@@ -1,3 +1,26 @@
 ← [Index](Api-Index) ← [BoundingBox](VRageMath.BoundingBox)
 
-```csharp[BoundingBox](VRageMath.BoundingBox) CreateFromHalfExtent([Vector3](VRageMath.Vector3) center, [float](System.Single) halfExtent)``````csharp[BoundingBox](VRageMath.BoundingBox) CreateFromHalfExtent([Vector3](VRageMath.Vector3) center, [Vector3](VRageMath.Vector3) halfExtent)```
+### Summary
+
+```csharp
+private public CreateFromHalfExtent
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public CreateFromHalfExtent
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

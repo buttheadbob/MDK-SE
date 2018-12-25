@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyGasTank](Sandbox.ModAPI.Ingame.IMyGasTank)
 
-```csharpvoid RefillBottles()```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual RefillBottles
+```csharp
 
 Refills any stored storage bottles.
+
+### Returns
+
+### Example
+
+### Remarks
 

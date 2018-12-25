@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [CurveKeyCollection](VRageMath.CurveKeyCollection)
 
-```csharp[int](System.Int32) Count```##### Summary
+### Summary
+
+```csharp
+private public Count
+```csharp
 
 Gets the number of elements contained in the CurveKeyCollection.
+
+### Returns
+
+### Example
+
+### Remarks
 

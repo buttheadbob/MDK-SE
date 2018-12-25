@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [Matrix](VRageMath.Matrix)
 
-```csharp[bool](System.Boolean) IsNan()```
+### Summary
+
+```csharp
+private public IsNan
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

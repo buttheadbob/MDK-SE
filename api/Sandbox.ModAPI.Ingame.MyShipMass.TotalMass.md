@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MyShipMass](Sandbox.ModAPI.Ingame.MyShipMass)
 
-```csharp[float](System.Single) TotalMass```##### Summary
+### Summary
+
+```csharp
+private public TotalMass
+```csharp
 
 Gets the total mass of the ship, including cargo.
+
+### Returns
+
+### Example
+
+### Remarks
 

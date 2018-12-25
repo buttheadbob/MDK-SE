@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [BoundingBoxD](VRageMath.BoundingBoxD)
 
-```csharp[Vector3D](VRageMath.Vector3D) Extents```
+### Summary
+
+```csharp
+private public Extents
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# ListReader&lt;T&gt; Struct
+### ListReader&lt;T&gt; Struct
+
+```csharp
+private public sealed ListReader<T>
+```csharp
 
 **Namespace:** [VRage.Collections](VRage.Collections)  
 **Assembly:** VRage.Library.dll
+
+### Example
+
+### Remarks
 
 ###### Fields
 

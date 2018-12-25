@@ -1,10 +1,18 @@
 ← [Index](Api-Index) ← [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)
 
-```csharp[bool](System.Boolean) CanUseBlueprint([MyDefinitionId](VRage.Game.MyDefinitionId) blueprint)```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual CanUseBlueprint
+```csharp
 
 Can this production block produce this blueprint?
 
-##### Returns
+### Returns
 
 
+
+### Example
+
+### Remarks
 

@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Rectangle](VRageMath.Rectangle)
 
-```csharp[int](System.Int32) Right```##### Summary
+### Summary
+
+```csharp
+private public Right
+```csharp
 
 Returns the x-coordinate of the right side of the rectangle.
+
+### Returns
+
+### Example
+
+### Remarks
 

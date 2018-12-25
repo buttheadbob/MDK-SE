@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyResourceSourceComponent](Sandbox.Game.EntityComponents.MyResourceSourceComponent)
 
-```csharp[float](System.Single) RemainingCapacity```
+### Summary
+
+```csharp
+private public RemainingCapacity
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

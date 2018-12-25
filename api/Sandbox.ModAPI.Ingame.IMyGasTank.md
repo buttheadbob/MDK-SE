@@ -1,6 +1,10 @@
 ← [Index](Api-Index)
 
-# IMyGasTank Interface
+### IMyGasTank Interface
+
+```csharp
+private public abstract IMyGasTank
+```csharp
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
@@ -13,6 +17,10 @@
 
 **Inheritors:**  
 * [Sandbox.ModAPI.Ingame.IMyOxygenTank](Sandbox.ModAPI.Ingame.IMyOxygenTank)
+
+### Example
+
+### Remarks
 
 ###### Properties
 

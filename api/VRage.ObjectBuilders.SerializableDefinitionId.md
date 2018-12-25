@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# SerializableDefinitionId Struct
+### SerializableDefinitionId Struct
+
+```csharp
+private public sealed SerializableDefinitionId
+```csharp
 
 **Namespace:** [VRage.ObjectBuilders](VRage.ObjectBuilders)  
 **Assembly:** VRage.Game.dll
+
+### Example
+
+### Remarks
 
 ###### Fields
 

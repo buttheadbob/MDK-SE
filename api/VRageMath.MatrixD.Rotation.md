@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MatrixD](VRageMath.MatrixD)
 
-```csharp[Matrix3x3](VRageMath.Matrix3x3) Rotation```
+### Summary
+
+```csharp
+private public Rotation
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult)
 
-```csharp[int](System.Int32) LineNo```##### Summary
+### Summary
+
+```csharp
+private public LineNo
+```csharp
 
 Gets the line number where an error occured.
+
+### Returns
+
+### Example
+
+### Remarks
 

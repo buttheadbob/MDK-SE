@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 
-```csharp[string](System.String) CustomInfo```
+### Summary
+
+```csharp
+private public abstract virtual CustomInfo
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

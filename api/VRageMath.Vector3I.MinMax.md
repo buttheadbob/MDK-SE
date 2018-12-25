@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Vector3I](VRageMath.Vector3I)
 
-```csharpvoid MinMax(ref [Vector3I](VRageMath.Vector3I) min, ref [Vector3I](VRageMath.Vector3I) max)```##### Summary
+### Summary
+
+```csharp
+private public MinMax
+```csharp
 
 Separates minimal and maximal values of any two input vectors
+
+### Returns
+
+### Example
+
+### Remarks
 

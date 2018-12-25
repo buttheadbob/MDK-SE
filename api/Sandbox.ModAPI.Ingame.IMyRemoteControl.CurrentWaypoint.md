@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyRemoteControl](Sandbox.ModAPI.Ingame.IMyRemoteControl)
 
-```csharp[MyWaypointInfo](Sandbox.ModAPI.Ingame.MyWaypointInfo) CurrentWaypoint```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual CurrentWaypoint
+```csharp
 
 Gets the current target waypoint
+
+### Returns
+
+### Example
+
+### Remarks
 

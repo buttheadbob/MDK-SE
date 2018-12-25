@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyTuple<T1, T2, T3, T4, T5, T6>](VRage.MyTuple`6)
 
-```csharp[T5]() Item5```
+### Summary
+
+```csharp
+private public Item5
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

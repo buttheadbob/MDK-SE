@@ -1,3 +1,38 @@
 ← [Index](Api-Index) ← [ListExtensions](System.Collections.Generic.ListExtensions)
 
-```csharp[int](System.Int32) BinaryIntervalSearch<T><[T]()>([IList<T>](System.Collections.Generic.IList`1) self, [T]() value, [IComparer<T>](System.Collections.Generic.IComparer`1) comparer)``````csharp[int](System.Int32) BinaryIntervalSearch<T><[T]()>([IList<T>](System.Collections.Generic.IList`1) self, [Func<T, TResult>](System.Func`2) less)``````csharp[int](System.Int32) BinaryIntervalSearch<T><[T]()>([IList<T>](System.Collections.Generic.IList`1) self, [T]() value, Comparison<T> comparison)```
+### Summary
+
+```csharp
+private public BinaryIntervalSearch<T>
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public BinaryIntervalSearch<T>
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public BinaryIntervalSearch<T>
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MathHelper](VRageMath.MathHelper)
 
-```csharp[int](System.Int32) ComputeHashFromBytes(System.Byte[] bytes)```
+### Summary
+
+```csharp
+private public ComputeHashFromBytes
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

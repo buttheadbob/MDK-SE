@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyButtonPanel](SpaceEngineers.Game.ModAPI.Ingame.IMyButtonPanel)
 
-```csharp[bool](System.Boolean) AnyoneCanUse```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual AnyoneCanUse
+```csharp
 
 Gets or sets if anyone is allowed to activate the buttons.
+
+### Returns
+
+### Example
+
+### Remarks
 

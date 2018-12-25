@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Quaternion](VRageMath.Quaternion)
 
-```csharp[float](System.Single) W```##### Summary
+### Summary
+
+```csharp
+private public W
+```csharp
 
 Specifies the rotation component of the quaternion.
+
+### Returns
+
+### Example
+
+### Remarks
 

@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyResourceSinkComponent](Sandbox.Game.EntityComponents.MyResourceSinkComponent)
 
-```csharp[ListReader<T>](VRage.Collections.ListReader`1) AcceptedResources```
+### Summary
+
+```csharp
+private public virtual AcceptedResources
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

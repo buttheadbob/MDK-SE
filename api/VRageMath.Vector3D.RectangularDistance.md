@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [Vector3D](VRageMath.Vector3D)
 
-```csharp[double](System.Double) RectangularDistance([Vector3D](VRageMath.Vector3D) value1, [Vector3D](VRageMath.Vector3D) value2)```##### Summary
+### Summary
+
+```csharp
+private public RectangularDistance
+```csharp
 
 Calculates rectangular distance (a.k.a. Manhattan distance or Chessboard distace) between two vectors.
 
-```csharp[double](System.Double) RectangularDistance(ref [Vector3D](VRageMath.Vector3D) value1, ref [Vector3D](VRageMath.Vector3D) value2)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public RectangularDistance
+```csharp
 
 Calculates rectangular distance (a.k.a. Manhattan distance or Chessboard distace) between two vectors.
+
+### Returns
+
+### Example
+
+### Remarks
 

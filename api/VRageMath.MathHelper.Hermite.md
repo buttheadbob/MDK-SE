@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MathHelper](VRageMath.MathHelper)
 
-```csharp[float](System.Single) Hermite([float](System.Single) value1, [float](System.Single) tangent1, [float](System.Single) value2, [float](System.Single) tangent2, [float](System.Single) amount)```##### Summary
+### Summary
+
+```csharp
+private public Hermite
+```csharp
 
 Performs a Hermite spline interpolation.
+
+### Returns
+
+### Example
+
+### Remarks
 

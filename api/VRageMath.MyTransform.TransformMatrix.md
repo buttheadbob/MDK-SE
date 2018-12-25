@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyTransform](VRageMath.MyTransform)
 
-```csharp[Matrix](VRageMath.Matrix) TransformMatrix```
+### Summary
+
+```csharp
+private public TransformMatrix
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [ColorExtensions](VRageMath.ColorExtensions)
 
-```csharp[Color](VRageMath.Color) Tint([Color](VRageMath.Color) c, [float](System.Single) r)```
+### Summary
+
+```csharp
+private public Tint
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

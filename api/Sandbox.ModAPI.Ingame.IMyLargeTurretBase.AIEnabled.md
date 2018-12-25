@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)
 
-```csharp[bool](System.Boolean) AIEnabled```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual AIEnabled
+```csharp
 
 Checks is AI is enabled for turret
+
+### Returns
+
+### Example
+
+### Remarks
 

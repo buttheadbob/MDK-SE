@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyLaserAntenna](Sandbox.ModAPI.Ingame.IMyLaserAntenna)
 
-```csharp[bool](System.Boolean) IsPermanent```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual IsPermanent
+```csharp
 
 Connection is permanent
+
+### Returns
+
+### Example
+
+### Remarks
 

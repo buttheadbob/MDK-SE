@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter)
 
-```csharp[object](System.Object) Value```
+### Summary
+
+```csharp
+private public Value
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

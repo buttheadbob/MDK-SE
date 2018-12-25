@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)
 
-```csharp[bool](System.Boolean) IsAimed```
+### Summary
+
+```csharp
+private public abstract virtual IsAimed
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

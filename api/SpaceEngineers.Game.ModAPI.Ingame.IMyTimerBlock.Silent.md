@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyTimerBlock](SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock)
 
-```csharp[bool](System.Boolean) Silent```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual Silent
+```csharp
 
 Gets or sets if the countdown is silent
+
+### Returns
+
+### Example
+
+### Remarks
 

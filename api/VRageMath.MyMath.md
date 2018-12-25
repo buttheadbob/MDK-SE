@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# MyMath Class
+### MyMath Class
+
+```csharp
+private public abstract sealed MyMath
+```csharp
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+### Example
+
+### Remarks
 
 ###### Fields
 

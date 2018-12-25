@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Quaternion](VRageMath.Quaternion)
 
-```csharp[float](System.Single) LengthSquared()```##### Summary
+### Summary
+
+```csharp
+private public LengthSquared
+```csharp
 
 Calculates the length squared of a Quaternion.
+
+### Returns
+
+### Example
+
+### Remarks
 

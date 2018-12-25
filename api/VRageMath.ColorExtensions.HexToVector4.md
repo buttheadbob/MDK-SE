@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [ColorExtensions](VRageMath.ColorExtensions)
 
-```csharp[Vector4](VRageMath.Vector4) HexToVector4([string](System.String) hex)```
+### Summary
+
+```csharp
+private public HexToVector4
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

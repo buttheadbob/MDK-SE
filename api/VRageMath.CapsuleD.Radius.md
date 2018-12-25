@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [CapsuleD](VRageMath.CapsuleD)
 
-```csharp[float](System.Single) Radius```
+### Summary
+
+```csharp
+private public Radius
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

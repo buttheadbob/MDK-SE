@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyGyro](Sandbox.ModAPI.Ingame.IMyGyro)
 
-```csharp[float](System.Single) Roll```
+### Summary
+
+```csharp
+private public abstract virtual Roll
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

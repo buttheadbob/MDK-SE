@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [Matrix3x3](VRageMath.Matrix3x3)
 
-```csharp[Matrix3x3](VRageMath.Matrix3x3) CreateFromYawPitchRoll([float](System.Single) yaw, [float](System.Single) pitch, [float](System.Single) roll)```##### Summary
+### Summary
+
+```csharp
+private public CreateFromYawPitchRoll
+```csharp
 
 Creates a new rotation matrix from a specified yaw, pitch, and roll.
 
-```csharpvoid CreateFromYawPitchRoll([float](System.Single) yaw, [float](System.Single) pitch, [float](System.Single) roll, ref [Matrix3x3](VRageMath.Matrix3x3) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public CreateFromYawPitchRoll
+```csharp
 
 Fills in a rotation matrix from a specified yaw, pitch, and roll.
+
+### Returns
+
+### Example
+
+### Remarks
 

@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [Vector3D](VRageMath.Vector3D)
 
-```csharp[Vector3D](VRageMath.Vector3D) PositiveInfinity```
+### Summary
+
+```csharp
+private public PositiveInfinity
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

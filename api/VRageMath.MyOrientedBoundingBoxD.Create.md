@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyOrientedBoundingBoxD](VRageMath.MyOrientedBoundingBoxD)
 
-```csharp[MyOrientedBoundingBoxD](VRageMath.MyOrientedBoundingBoxD) Create([BoundingBoxD](VRageMath.BoundingBoxD) boundingBox, [MatrixD](VRageMath.MatrixD) matrix)```
+### Summary
+
+```csharp
+private public Create
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

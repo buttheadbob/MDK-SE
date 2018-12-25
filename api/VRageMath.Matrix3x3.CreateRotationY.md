@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [Matrix3x3](VRageMath.Matrix3x3)
 
-```csharp[Matrix3x3](VRageMath.Matrix3x3) CreateRotationY([float](System.Single) radians)```##### Summary
+### Summary
+
+```csharp
+private public CreateRotationY
+```csharp
 
 Returns a matrix that can be used to rotate a set of vertices around the y-axis.
 
-```csharpvoid CreateRotationY([float](System.Single) radians, ref [Matrix3x3](VRageMath.Matrix3x3) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public CreateRotationY
+```csharp
 
 Populates data into a user-specified matrix that can be used to rotate a set of vertices around the y-axis.
+
+### Returns
+
+### Example
+
+### Remarks
 

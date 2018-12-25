@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Vector2](VRageMath.Vector2)
 
-```csharp[float](System.Single) Length()```##### Summary
+### Summary
+
+```csharp
+private public Length
+```csharp
 
 Calculates the length of the vector.
+
+### Returns
+
+### Example
+
+### Remarks
 

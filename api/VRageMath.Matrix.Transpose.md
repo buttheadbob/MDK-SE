@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [Matrix](VRageMath.Matrix)
 
-```csharp[Matrix](VRageMath.Matrix) Transpose([Matrix](VRageMath.Matrix) matrix)```##### Summary
+### Summary
+
+```csharp
+private public Transpose
+```csharp
 
 Transposes the rows and columns of a matrix.
 
-```csharpvoid Transpose(ref [Matrix](VRageMath.Matrix) matrix, ref [Matrix](VRageMath.Matrix) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Transpose
+```csharp
 
 Transposes the rows and columns of a matrix.
+
+### Returns
+
+### Example
+
+### Remarks
 

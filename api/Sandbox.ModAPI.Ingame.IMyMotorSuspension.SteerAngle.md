@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyMotorSuspension](Sandbox.ModAPI.Ingame.IMyMotorSuspension)
 
-```csharp[float](System.Single) SteerAngle```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual SteerAngle
+```csharp
 
 Wheel's current steering angle
+
+### Returns
+
+### Example
+
+### Remarks
 

@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# MyMovingAverage Class
+### MyMovingAverage Class
+
+```csharp
+private public MyMovingAverage
+```csharp
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+### Example
+
+### Remarks
 
 ###### Properties
 

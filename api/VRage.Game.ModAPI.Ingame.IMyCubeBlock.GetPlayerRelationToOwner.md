@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)
 
-```csharp[MyRelationsBetweenPlayerAndBlock](VRage.Game.MyRelationsBetweenPlayerAndBlock) GetPlayerRelationToOwner()```
+### Summary
+
+```csharp
+private public abstract virtual GetPlayerRelationToOwner
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

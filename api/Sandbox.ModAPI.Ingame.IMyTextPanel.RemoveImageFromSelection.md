@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel)
 
-```csharpvoid RemoveImageFromSelection([string](System.String) id, [bool](System.Boolean) removeDuplicates)```
+### Summary
+
+```csharp
+private public abstract virtual RemoveImageFromSelection
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

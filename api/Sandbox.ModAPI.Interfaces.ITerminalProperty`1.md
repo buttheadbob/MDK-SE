@@ -1,12 +1,20 @@
 ← [Index](Api-Index)
 
-# ITerminalProperty&lt;TValue&gt; Interface
+### ITerminalProperty&lt;TValue&gt; Interface
+
+```csharp
+private public abstract ITerminalProperty<TValue>
+```csharp
 
 **Namespace:** [Sandbox.ModAPI.Interfaces](Sandbox.ModAPI.Interfaces)  
 **Assembly:** Sandbox.Common.dll
 
 **Implements:**  
 * [Sandbox.ModAPI.Interfaces.ITerminalProperty](Sandbox.ModAPI.Interfaces.ITerminalProperty)
+
+### Example
+
+### Remarks
 
 ###### Properties
 

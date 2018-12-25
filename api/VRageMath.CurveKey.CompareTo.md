@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [CurveKey](VRageMath.CurveKey)
 
-```csharp[int](System.Int32) CompareTo([CurveKey](VRageMath.CurveKey) other)```##### Summary
+### Summary
+
+```csharp
+private public CompareTo
+```csharp
 
 Compares this instance to another CurveKey and returns an indication of their relative values.
+
+### Returns
+
+### Example
+
+### Remarks
 

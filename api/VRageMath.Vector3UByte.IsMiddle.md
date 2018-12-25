@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Vector3UByte](VRageMath.Vector3UByte)
 
-```csharp[bool](System.Boolean) IsMiddle([Vector3UByte](VRageMath.Vector3UByte) vec)```##### Summary
+### Summary
+
+```csharp
+private public IsMiddle
+```csharp
 
 Returns true when all components are 127
+
+### Returns
+
+### Example
+
+### Remarks
 

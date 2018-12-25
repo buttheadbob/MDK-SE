@@ -1,10 +1,18 @@
 ← [Index](Api-Index) ← [IMySensorBlock](Sandbox.ModAPI.Ingame.IMySensorBlock)
 
-```csharp[bool](System.Boolean) DetectNeutral```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual DetectNeutral
+```csharp
 
 Gets or sets if the sensor should detect neutral players.
 
-##### Remarks
+### Returns
+
+### Example
+
+### Remarks
 
 Requires DetectPlayers set to.
 

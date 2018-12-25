@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Rectangle](VRageMath.Rectangle)
 
-```csharp[int](System.Int32) Y```##### Summary
+### Summary
+
+```csharp
+private public Y
+```csharp
 
 Specifies the y-coordinate of the rectangle.
+
+### Returns
+
+### Example
+
+### Remarks
 

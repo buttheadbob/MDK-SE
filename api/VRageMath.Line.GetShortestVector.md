@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [Line](VRageMath.Line)
 
-```csharp[Vector3](VRageMath.Vector3) GetShortestVector(ref [Line](VRageMath.Line) line1, ref [Line](VRageMath.Line) line2, ref [Vector3](VRageMath.Vector3) res1, ref [Vector3](VRageMath.Vector3) res2)```
+### Summary
+
+```csharp
+private public GetShortestVector
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

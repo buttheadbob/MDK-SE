@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# MyTransmitTarget Enum
+### MyTransmitTarget Enum
+
+```csharp
+private public sealed MyTransmitTarget
+```csharp
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
+
+### Example
+
+### Remarks
 
 ###### Fields
 

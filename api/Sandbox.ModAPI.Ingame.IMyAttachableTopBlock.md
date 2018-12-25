@@ -1,6 +1,10 @@
 ← [Index](Api-Index)
 
-# IMyAttachableTopBlock Interface
+### IMyAttachableTopBlock Interface
+
+```csharp
+private public abstract IMyAttachableTopBlock
+```csharp
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
@@ -8,6 +12,10 @@
 **Implements:**  
 * [VRage.Game.ModAPI.Ingame.IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [VRage.Game.ModAPI.Ingame.IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+
+### Example
+
+### Remarks
 
 ###### Properties
 

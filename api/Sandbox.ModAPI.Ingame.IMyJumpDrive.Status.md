@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyJumpDrive](Sandbox.ModAPI.Ingame.IMyJumpDrive)
 
-```csharp[MyJumpDriveStatus](Sandbox.ModAPI.Ingame.MyJumpDriveStatus) Status```
+### Summary
+
+```csharp
+private public abstract virtual Status
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

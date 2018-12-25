@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel)
 
-```csharp[string](System.String) GetPrivateTitle()```
+### Summary
+
+```csharp
+private public abstract virtual GetPrivateTitle
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [Point](VRageMath.Point)
 
-```csharp[bool](System.Boolean) Equals([Point](VRageMath.Point) other)```##### Summary
+### Summary
+
+```csharp
+private public Equals
+```csharp
 
 Determines whether two Point instances are equal.
 
-```csharp[bool](System.Boolean) Equals([object](System.Object) obj)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public virtual Equals
+```csharp
 
 Determines whether two Point instances are equal.
+
+### Returns
+
+### Example
+
+### Remarks
 

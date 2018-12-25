@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)
 
-```csharp[Vector3I](VRageMath.Vector3I) Max```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual Max
+```csharp
 
 Maximum coordinates of grid cells occupied by this block
+
+### Returns
+
+### Example
+
+### Remarks
 

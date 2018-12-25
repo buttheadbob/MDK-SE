@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyCameraBlock](Sandbox.ModAPI.Ingame.IMyCameraBlock)
 
-```csharp[bool](System.Boolean) IsActive```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual IsActive
+```csharp
 
 Determines whether this camera is currently in use.
+
+### Returns
+
+### Example
+
+### Remarks
 

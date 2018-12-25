@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyResourceSinkComponent](Sandbox.Game.EntityComponents.MyResourceSinkComponent)
 
-```csharp[float](System.Single) SuppliedRatio```
+### Summary
+
+```csharp
+private public SuppliedRatio
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

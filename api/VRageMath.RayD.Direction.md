@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [RayD](VRageMath.RayD)
 
-```csharp[Vector3D](VRageMath.Vector3D) Direction```##### Summary
+### Summary
+
+```csharp
+private public Direction
+```csharp
 
 Unit vector specifying the direction the Ray is pointing.
+
+### Returns
+
+### Example
+
+### Remarks
 

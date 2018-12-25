@@ -1,18 +1,34 @@
 ← [Index](Api-Index) ← [MathHelper](VRageMath.MathHelper)
 
-```csharp[float](System.Single) Atan([float](System.Single) x)```##### Summary
+### Summary
+
+```csharp
+private public Atan
+```csharp
 
 Faster Atan implementation. Good only in the [-pi/2, pi/2] range.
 
-##### Returns
+### Returns
 
 
 
-```csharp[double](System.Double) Atan([double](System.Double) x)```##### Summary
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Atan
+```csharp
 
 Faster Atan implementation. Good only in the [-pi/2, pi/2] range.
 
-##### Returns
+### Returns
 
 
+
+### Example
+
+### Remarks
 

@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyLandingGear](SpaceEngineers.Game.ModAPI.Ingame.IMyLandingGear)
 
-```csharpvoid Lock()```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual Lock
+```csharp
 
 Locks the landing gear.
+
+### Returns
+
+### Example
+
+### Remarks
 

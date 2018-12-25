@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyLightingBlock](Sandbox.ModAPI.Ingame.IMyLightingBlock)
 
-```csharp[float](System.Single) ReflectorRadius```
+### Summary
+
+```csharp
+private public abstract virtual ReflectorRadius
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

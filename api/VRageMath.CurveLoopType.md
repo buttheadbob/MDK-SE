@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# CurveLoopType Enum
+### CurveLoopType Enum
+
+```csharp
+private public sealed CurveLoopType
+```csharp
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+### Example
+
+### Remarks
 
 ###### Fields
 

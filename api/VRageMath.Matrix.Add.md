@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [Matrix](VRageMath.Matrix)
 
-```csharp[Matrix](VRageMath.Matrix) Add([Matrix](VRageMath.Matrix) matrix1, [Matrix](VRageMath.Matrix) matrix2)```##### Summary
+### Summary
+
+```csharp
+private public Add
+```csharp
 
 Adds a matrix to another matrix.
 
-```csharpvoid Add(ref [Matrix](VRageMath.Matrix) matrix1, ref [Matrix](VRageMath.Matrix) matrix2, ref [Matrix](VRageMath.Matrix) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Add
+```csharp
 
 Adds a matrix to another matrix.
+
+### Returns
+
+### Example
+
+### Remarks
 

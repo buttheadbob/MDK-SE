@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# MyCuboidSide Class
+### MyCuboidSide Class
+
+```csharp
+private public MyCuboidSide
+```csharp
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+### Example
+
+### Remarks
 
 ###### Fields
 

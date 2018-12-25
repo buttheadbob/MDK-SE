@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyShipConnector](Sandbox.ModAPI.Ingame.IMyShipConnector)
 
-```csharp[bool](System.Boolean) CollectAll```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual CollectAll
+```csharp
 
 Gets or sets whether this connector should be pulling items into its inventory.
+
+### Returns
+
+### Example
+
+### Remarks
 

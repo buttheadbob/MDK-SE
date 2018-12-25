@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyProjector](Sandbox.ModAPI.Ingame.IMyProjector)
 
-```csharp[int](System.Int32) ProjectionRotY```
+### Summary
+
+```csharp
+private public abstract virtual ProjectionRotY
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyBlockOrientation](VRageMath.MyBlockOrientation)
 
-```csharpvoid GetQuaternion(ref [Quaternion](VRageMath.Quaternion) result)```
+### Summary
+
+```csharp
+private public GetQuaternion
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

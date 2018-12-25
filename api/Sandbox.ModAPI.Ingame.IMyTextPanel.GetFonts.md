@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel)
 
-```csharpvoid GetFonts([List<T>](System.Collections.Generic.List`1) fonts)```
+### Summary
+
+```csharp
+private public abstract virtual GetFonts
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

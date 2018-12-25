@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [MatrixD](VRageMath.MatrixD)
 
-```csharp[MatrixD](VRageMath.MatrixD) CreateOrthographicOffCenter([double](System.Double) left, [double](System.Double) right, [double](System.Double) bottom, [double](System.Double) top, [double](System.Double) zNearPlane, [double](System.Double) zFarPlane)```##### Summary
+### Summary
+
+```csharp
+private public CreateOrthographicOffCenter
+```csharp
 
 Builds a customized, orthogonal projection matrix.
 
-```csharpvoid CreateOrthographicOffCenter([double](System.Double) left, [double](System.Double) right, [double](System.Double) bottom, [double](System.Double) top, [double](System.Double) zNearPlane, [double](System.Double) zFarPlane, ref [MatrixD](VRageMath.MatrixD) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public CreateOrthographicOffCenter
+```csharp
 
 Builds a customized, orthogonal projection matrix.
+
+### Returns
+
+### Example
+
+### Remarks
 

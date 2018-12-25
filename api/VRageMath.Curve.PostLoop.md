@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Curve](VRageMath.Curve)
 
-```csharp[CurveLoopType](VRageMath.CurveLoopType) PostLoop```##### Summary
+### Summary
+
+```csharp
+private public PostLoop
+```csharp
 
 Specifies how to handle weighting values that are greater than the last control point in the curve.
+
+### Returns
+
+### Example
+
+### Remarks
 

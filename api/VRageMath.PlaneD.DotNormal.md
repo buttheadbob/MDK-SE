@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [PlaneD](VRageMath.PlaneD)
 
-```csharp[double](System.Double) DotNormal([Vector3D](VRageMath.Vector3D) value)```##### Summary
+### Summary
+
+```csharp
+private public DotNormal
+```csharp
 
 Returns the dot product of a specified Vector3D and the Normal vector of this PlaneD.
 
-```csharpvoid DotNormal(ref [Vector3D](VRageMath.Vector3D) value, ref [double](System.Double) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public DotNormal
+```csharp
 
 Returns the dot product of a specified Vector3D and the Normal vector of this PlaneD.
+
+### Returns
+
+### Example
+
+### Remarks
 

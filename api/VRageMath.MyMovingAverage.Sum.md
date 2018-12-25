@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyMovingAverage](VRageMath.MyMovingAverage)
 
-```csharp[double](System.Double) Sum```
+### Summary
+
+```csharp
+private public Sum
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

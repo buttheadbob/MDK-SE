@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyAssembler](Sandbox.ModAPI.Ingame.IMyAssembler)
 
-```csharp[float](System.Single) CurrentProgress```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual CurrentProgress
+```csharp
 
 Gets the progress for the item currently in production.
+
+### Returns
+
+### Example
+
+### Remarks
 

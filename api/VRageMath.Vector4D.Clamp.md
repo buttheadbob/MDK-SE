@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [Vector4D](VRageMath.Vector4D)
 
-```csharp[Vector4D](VRageMath.Vector4D) Clamp([Vector4D](VRageMath.Vector4D) value1, [Vector4D](VRageMath.Vector4D) min, [Vector4D](VRageMath.Vector4D) max)```##### Summary
+### Summary
+
+```csharp
+private public Clamp
+```csharp
 
 Restricts a value to be within a specified range.
 
-```csharpvoid Clamp(ref [Vector4D](VRageMath.Vector4D) value1, ref [Vector4D](VRageMath.Vector4D) min, ref [Vector4D](VRageMath.Vector4D) max, ref [Vector4D](VRageMath.Vector4D) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Clamp
+```csharp
 
 Restricts a value to be within a specified range.
+
+### Returns
+
+### Example
+
+### Remarks
 

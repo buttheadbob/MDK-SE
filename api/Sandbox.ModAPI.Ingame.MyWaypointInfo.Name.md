@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MyWaypointInfo](Sandbox.ModAPI.Ingame.MyWaypointInfo)
 
-```csharp[string](System.String) Name```##### Summary
+### Summary
+
+```csharp
+private public Name
+```csharp
 
 The name of this GPS coordinate
+
+### Returns
+
+### Example
+
+### Remarks
 

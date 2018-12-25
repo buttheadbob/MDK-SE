@@ -1,6 +1,10 @@
 ← [Index](Api-Index)
 
-# IMyGravityGeneratorBase Interface
+### IMyGravityGeneratorBase Interface
+
+```csharp
+private public abstract IMyGravityGeneratorBase
+```csharp
 
 **Namespace:** [SpaceEngineers.Game.ModAPI.Ingame](SpaceEngineers.Game.ModAPI.Ingame)  
 **Assembly:** SpaceEngineers.Game.dll
@@ -14,6 +18,10 @@
 **Inheritors:**  
 * [SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGenerator](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGenerator)  
 * [SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorSphere](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorSphere)
+
+### Example
+
+### Remarks
 
 ###### Properties
 

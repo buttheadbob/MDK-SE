@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyProgrammableBlock](Sandbox.ModAPI.Ingame.IMyProgrammableBlock)
 
-```csharp[string](System.String) TerminalRunArgument```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual TerminalRunArgument
+```csharp
 
 Contains the value of the default terminal argument.
+
+### Returns
+
+### Example
+
+### Remarks
 

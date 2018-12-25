@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyMotorSuspension](Sandbox.ModAPI.Ingame.IMyMotorSuspension)
 
-```csharp[bool](System.Boolean) InvertPropulsion```
+### Summary
+
+```csharp
+private public abstract virtual InvertPropulsion
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

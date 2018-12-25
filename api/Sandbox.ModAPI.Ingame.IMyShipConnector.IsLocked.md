@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyShipConnector](Sandbox.ModAPI.Ingame.IMyShipConnector)
 
-```csharp[bool](System.Boolean) IsLocked```
+### Summary
+
+```csharp
+private public abstract virtual IsLocked
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

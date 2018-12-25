@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyGravityGenerator](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGenerator)
 
-```csharp[float](System.Single) FieldDepth```
+### Summary
+
+```csharp
+private public abstract virtual FieldDepth
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Vector2D](VRageMath.Vector2D)
 
-```csharp[double](System.Double) LengthSquared()```##### Summary
+### Summary
+
+```csharp
+private public LengthSquared
+```csharp
 
 Calculates the length of the vector squared.
+
+### Returns
+
+### Example
+
+### Remarks
 

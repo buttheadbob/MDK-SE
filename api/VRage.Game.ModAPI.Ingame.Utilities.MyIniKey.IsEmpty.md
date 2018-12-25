@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey)
 
-```csharp[bool](System.Boolean) IsEmpty```##### Summary
+### Summary
+
+```csharp
+private public IsEmpty
+```csharp
 
 Determines whether this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) is empty.
+
+### Returns
+
+### Example
+
+### Remarks
 

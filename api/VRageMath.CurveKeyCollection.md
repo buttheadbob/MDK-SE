@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# CurveKeyCollection Class
+### CurveKeyCollection Class
+
+```csharp
+private public CurveKeyCollection
+```csharp
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+### Example
+
+### Remarks
 
 ###### Properties
 

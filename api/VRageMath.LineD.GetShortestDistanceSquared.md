@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [LineD](VRageMath.LineD)
 
-```csharp[double](System.Double) GetShortestDistanceSquared([LineD](VRageMath.LineD) line1, [LineD](VRageMath.LineD) line2)```
+### Summary
+
+```csharp
+private public GetShortestDistanceSquared
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

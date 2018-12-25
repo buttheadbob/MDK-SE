@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [Base6Directions](VRageMath.Base6Directions)
 
-```csharp[Direction[]](VRageMath.Base6Directions+Direction[]) EnumDirections```
+### Summary
+
+```csharp
+private public EnumDirections
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

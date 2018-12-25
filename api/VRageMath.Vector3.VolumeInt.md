@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [Vector3](VRageMath.Vector3)
 
-```csharp[long](System.Int64) VolumeInt([float](System.Single) multiplier)```
+### Summary
+
+```csharp
+private public VolumeInt
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

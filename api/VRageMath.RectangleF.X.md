@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [RectangleF](VRageMath.RectangleF)
 
-```csharp[float](System.Single) X```##### Summary
+### Summary
+
+```csharp
+private public X
+```csharp
 
 Left coordinate.
+
+### Returns
+
+### Example
+
+### Remarks
 

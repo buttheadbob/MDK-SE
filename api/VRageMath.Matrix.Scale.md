@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [Matrix](VRageMath.Matrix)
 
-```csharp[Vector3](VRageMath.Vector3) Scale```
+### Summary
+
+```csharp
+private public Scale
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

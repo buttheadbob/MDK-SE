@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyFixedPoint](VRage.MyFixedPoint)
 
-```csharp[MyFixedPoint](VRage.MyFixedPoint) Ceiling([MyFixedPoint](VRage.MyFixedPoint) a)```
+### Summary
+
+```csharp
+private public Ceiling
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

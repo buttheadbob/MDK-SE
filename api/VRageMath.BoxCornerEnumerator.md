@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# BoxCornerEnumerator Struct
+### BoxCornerEnumerator Struct
+
+```csharp
+private public sealed BoxCornerEnumerator
+```csharp
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+### Example
+
+### Remarks
 
 ###### Properties
 

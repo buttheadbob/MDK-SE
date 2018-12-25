@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyDynamicAABBTreeD](VRageMath.MyDynamicAABBTreeD)
 
-```csharp[int](System.Int32) GetLeafCount([int](System.Int32) proxyId)```
+### Summary
+
+```csharp
+private public GetLeafCount
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

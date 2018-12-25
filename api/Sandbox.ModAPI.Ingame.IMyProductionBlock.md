@@ -1,6 +1,10 @@
 ← [Index](Api-Index)
 
-# IMyProductionBlock Interface
+### IMyProductionBlock Interface
+
+```csharp
+private public abstract IMyProductionBlock
+```csharp
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
@@ -13,6 +17,10 @@
 
 **Inheritors:**  
 * [Sandbox.ModAPI.Ingame.IMyAssembler](Sandbox.ModAPI.Ingame.IMyAssembler)
+
+### Example
+
+### Remarks
 
 ###### Properties
 

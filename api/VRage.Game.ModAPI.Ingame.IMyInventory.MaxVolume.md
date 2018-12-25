@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyInventory](VRage.Game.ModAPI.Ingame.IMyInventory)
 
-```csharp[MyFixedPoint](VRage.MyFixedPoint) MaxVolume```
+### Summary
+
+```csharp
+private public abstract virtual MaxVolume
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

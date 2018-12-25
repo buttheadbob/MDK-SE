@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# MyTransform Struct
+### MyTransform Struct
+
+```csharp
+private public sealed MyTransform
+```csharp
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+### Example
+
+### Remarks
 
 ###### Fields
 

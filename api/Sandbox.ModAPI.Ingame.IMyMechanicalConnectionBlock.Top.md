@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)
 
-```csharp[IMyAttachableTopBlock](Sandbox.ModAPI.Ingame.IMyAttachableTopBlock) Top```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual Top
+```csharp
 
 Gets the attached top part entity
+
+### Returns
+
+### Example
+
+### Remarks
 

@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [QuaternionD](VRageMath.QuaternionD)
 
-```csharp[string](System.String) ToString()```##### Summary
+### Summary
+
+```csharp
+private public virtual ToString
+```csharp
 
 Retireves a string representation of the current object.
+
+### Returns
+
+### Example
+
+### Remarks
 

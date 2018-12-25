@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyQuad](VRageMath.MyQuad)
 
-```csharp[Vector3](VRageMath.Vector3) Point1```
+### Summary
+
+```csharp
+private public Point1
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

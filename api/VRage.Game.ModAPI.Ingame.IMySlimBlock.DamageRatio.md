@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMySlimBlock](VRage.Game.ModAPI.Ingame.IMySlimBlock)
 
-```csharp[float](System.Single) DamageRatio```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual DamageRatio
+```csharp
 
 
+
+### Returns
+
+### Example
+
+### Remarks
 

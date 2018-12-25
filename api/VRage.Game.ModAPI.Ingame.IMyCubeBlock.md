@@ -1,6 +1,10 @@
 ← [Index](Api-Index)
 
-# IMyCubeBlock Interface
+### IMyCubeBlock Interface
+
+```csharp
+private public abstract IMyCubeBlock
+```csharp
 
 **Namespace:** [VRage.Game.ModAPI.Ingame](VRage.Game.ModAPI.Ingame)  
 **Assembly:** VRage.Game.dll
@@ -68,6 +72,10 @@
 * [SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall](SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall)  
 * [SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock](SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock)  
 * [SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase)
+
+### Example
+
+### Remarks
 
 ###### Properties
 

@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# MyGridProgram Class
+### MyGridProgram Class
+
+```csharp
+private public abstract MyGridProgram
+```csharp
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
+
+### Example
+
+### Remarks
 
 ###### Properties
 

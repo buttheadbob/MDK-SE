@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)
 
-```csharp[long](System.Int64) OwnerId```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual OwnerId
+```csharp
 
 Id of player owning block (not steam Id)
+
+### Returns
+
+### Example
+
+### Remarks
 

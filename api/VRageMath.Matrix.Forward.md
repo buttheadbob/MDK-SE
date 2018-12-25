@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Matrix](VRageMath.Matrix)
 
-```csharp[Vector3](VRageMath.Vector3) Forward```##### Summary
+### Summary
+
+```csharp
+private public Forward
+```csharp
 
 Gets and sets the forward vector of the Matrix.
+
+### Returns
+
+### Example
+
+### Remarks
 

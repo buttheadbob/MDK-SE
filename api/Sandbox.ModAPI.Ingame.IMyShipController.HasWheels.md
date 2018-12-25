@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)
 
-```csharp[bool](System.Boolean) HasWheels```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual HasWheels
+```csharp
 
 Determines whether there are any wheels on this ship.
+
+### Returns
+
+### Example
+
+### Remarks
 

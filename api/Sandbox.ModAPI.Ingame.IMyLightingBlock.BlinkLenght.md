@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyLightingBlock](Sandbox.ModAPI.Ingame.IMyLightingBlock)
 
-```csharp[float](System.Single) BlinkLenght```
+### Summary
+
+```csharp
+private public abstract virtual BlinkLenght
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

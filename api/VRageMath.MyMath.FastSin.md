@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyMath](VRageMath.MyMath)
 
-```csharp[float](System.Single) FastSin([float](System.Single) angle)```
+### Summary
+
+```csharp
+private public FastSin
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

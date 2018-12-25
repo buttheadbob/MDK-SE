@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# BoundingFrustum Class
+### BoundingFrustum Class
+
+```csharp
+private public BoundingFrustum
+```csharp
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+### Example
+
+### Remarks
 
 ###### Fields
 

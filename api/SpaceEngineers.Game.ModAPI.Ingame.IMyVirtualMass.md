@@ -1,6 +1,10 @@
 ← [Index](Api-Index)
 
-# IMyVirtualMass Interface
+### IMyVirtualMass Interface
+
+```csharp
+private public abstract IMyVirtualMass
+```csharp
 
 **Namespace:** [SpaceEngineers.Game.ModAPI.Ingame](SpaceEngineers.Game.ModAPI.Ingame)  
 **Assembly:** SpaceEngineers.Game.dll
@@ -13,6 +17,10 @@
 
 **Inheritors:**  
 * [SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall](SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall)
+
+### Example
+
+### Remarks
 
 ###### Properties
 

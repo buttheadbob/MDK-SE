@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [Vector3D](VRageMath.Vector3D)
 
-```csharpvoid AssertIsValid()```
+### Summary
+
+```csharp
+private public AssertIsValid
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

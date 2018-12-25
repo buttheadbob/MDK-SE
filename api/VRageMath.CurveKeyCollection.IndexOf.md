@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [CurveKeyCollection](VRageMath.CurveKeyCollection)
 
-```csharp[int](System.Int32) IndexOf([CurveKey](VRageMath.CurveKey) item)```##### Summary
+### Summary
+
+```csharp
+private public IndexOf
+```csharp
 
 Determines the index of a CurveKey in the CurveKeyCollection.
+
+### Returns
+
+### Example
+
+### Remarks
 

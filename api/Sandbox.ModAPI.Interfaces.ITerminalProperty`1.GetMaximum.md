@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [ITerminalProperty<TValue>](Sandbox.ModAPI.Interfaces.ITerminalProperty`1)
 
-```csharp[TValue]() GetMaximum([IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock) block)```
+### Summary
+
+```csharp
+private public abstract virtual GetMaximum
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

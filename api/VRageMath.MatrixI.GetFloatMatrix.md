@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MatrixI](VRageMath.MatrixI)
 
-```csharp[Matrix](VRageMath.Matrix) GetFloatMatrix()```
+### Summary
+
+```csharp
+private public GetFloatMatrix
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

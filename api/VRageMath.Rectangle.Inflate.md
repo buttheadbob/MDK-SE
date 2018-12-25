@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [Rectangle](VRageMath.Rectangle)
 
-```csharpvoid Inflate([int](System.Int32) horizontalAmount, [int](System.Int32) verticalAmount)```##### Summary
+### Summary
+
+```csharp
+private public Inflate
+```csharp
 
 Pushes the edges of the Rectangle out by the horizontal and vertical values specified.
+
+### Returns
+
+### Example
+
+### Remarks
 

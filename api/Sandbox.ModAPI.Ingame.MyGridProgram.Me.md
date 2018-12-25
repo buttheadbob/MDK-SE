@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MyGridProgram](Sandbox.ModAPI.Ingame.MyGridProgram)
 
-```csharp[IMyProgrammableBlock](Sandbox.ModAPI.Ingame.IMyProgrammableBlock) Me```##### Summary
+### Summary
+
+```csharp
+private public virtual Me
+```csharp
 
 Gets a reference to the currently running programmable block.
+
+### Returns
+
+### Example
+
+### Remarks
 

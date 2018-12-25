@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [MathHelperD](VRageMath.MathHelperD)
 
-```csharp[double](System.Double) ToDegrees([double](System.Double) radians)```##### Summary
+### Summary
+
+```csharp
+private public ToDegrees
+```csharp
 
 Converts radians to degrees.
+
+### Returns
+
+### Example
+
+### Remarks
 

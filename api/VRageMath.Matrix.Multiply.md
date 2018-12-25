@@ -1,18 +1,58 @@
 ← [Index](Api-Index) ← [Matrix](VRageMath.Matrix)
 
-```csharp[Matrix](VRageMath.Matrix) Multiply([Matrix](VRageMath.Matrix) matrix1, [Matrix](VRageMath.Matrix) matrix2)```##### Summary
+### Summary
+
+```csharp
+private public Multiply
+```csharp
 
 Multiplies a matrix by another matrix.
 
-```csharpvoid Multiply(ref [Matrix](VRageMath.Matrix) matrix1, ref [Matrix](VRageMath.Matrix) matrix2, ref [Matrix](VRageMath.Matrix) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Multiply
+```csharp
 
 Multiplies a matrix by another matrix.
 
-```csharp[Matrix](VRageMath.Matrix) Multiply([Matrix](VRageMath.Matrix) matrix1, [float](System.Single) scaleFactor)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Multiply
+```csharp
 
 Multiplies a matrix by a scalar value.
 
-```csharpvoid Multiply(ref [Matrix](VRageMath.Matrix) matrix1, [float](System.Single) scaleFactor, ref [Matrix](VRageMath.Matrix) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Multiply
+```csharp
 
 Multiplies a matrix by a scalar value.
+
+### Returns
+
+### Example
+
+### Remarks
 

@@ -1,18 +1,58 @@
 ← [Index](Api-Index) ← [Matrix](VRageMath.Matrix)
 
-```csharp[Matrix](VRageMath.Matrix) Divide([Matrix](VRageMath.Matrix) matrix1, [Matrix](VRageMath.Matrix) matrix2)```##### Summary
+### Summary
+
+```csharp
+private public Divide
+```csharp
 
 Divides the components of a matrix by the corresponding components of another matrix.
 
-```csharpvoid Divide(ref [Matrix](VRageMath.Matrix) matrix1, ref [Matrix](VRageMath.Matrix) matrix2, ref [Matrix](VRageMath.Matrix) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Divide
+```csharp
 
 Divides the components of a matrix by the corresponding components of another matrix.
 
-```csharp[Matrix](VRageMath.Matrix) Divide([Matrix](VRageMath.Matrix) matrix1, [float](System.Single) divider)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Divide
+```csharp
 
 Divides the components of a matrix by a scalar.
 
-```csharpvoid Divide(ref [Matrix](VRageMath.Matrix) matrix1, [float](System.Single) divider, ref [Matrix](VRageMath.Matrix) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Divide
+```csharp
 
 Divides the components of a matrix by a scalar.
+
+### Returns
+
+### Example
+
+### Remarks
 

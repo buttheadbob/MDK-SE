@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# DoorStatus Enum
+### DoorStatus Enum
+
+```csharp
+private public sealed DoorStatus
+```csharp
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
+
+### Example
+
+### Remarks
 
 ###### Fields
 

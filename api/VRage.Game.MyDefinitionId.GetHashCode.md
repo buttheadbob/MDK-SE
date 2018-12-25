@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyDefinitionId](VRage.Game.MyDefinitionId)
 
-```csharp[int](System.Int32) GetHashCode()```
+### Summary
+
+```csharp
+private public virtual GetHashCode
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

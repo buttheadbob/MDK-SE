@@ -1,14 +1,32 @@
 ← [Index](Api-Index) ← [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
-```csharp[IMyInventory](VRage.Game.ModAPI.Ingame.IMyInventory) GetInventory()```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual GetInventory
+```csharp
 
 Simply get the MyInventoryBase component stored in this entity.
 
-##### Returns
+### Returns
 
 
 
-```csharp[IMyInventory](VRage.Game.ModAPI.Ingame.IMyInventory) GetInventory([int](System.Int32) index)```##### Summary
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public abstract virtual GetInventory
+```csharp
 
 Search for inventory component with maching index.
+
+### Returns
+
+### Example
+
+### Remarks
 

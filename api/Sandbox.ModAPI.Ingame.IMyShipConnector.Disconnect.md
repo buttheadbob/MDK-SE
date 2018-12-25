@@ -1,6 +1,16 @@
 ← [Index](Api-Index) ← [IMyShipConnector](Sandbox.ModAPI.Ingame.IMyShipConnector)
 
-```csharpvoid Disconnect()```##### Summary
+### Summary
+
+```csharp
+private public abstract virtual Disconnect
+```csharp
 
 Disconnects this connector.
+
+### Returns
+
+### Example
+
+### Remarks
 

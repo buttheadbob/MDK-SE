@@ -1,9 +1,17 @@
 ← [Index](Api-Index)
 
-# Point Struct
+### Point Struct
+
+```csharp
+private public sealed Point
+```csharp
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+### Example
+
+### Remarks
 
 ###### Fields
 

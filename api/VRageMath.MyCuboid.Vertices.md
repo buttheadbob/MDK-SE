@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [MyCuboid](VRageMath.MyCuboid)
 
-```csharp[IEnumerable<T>](System.Collections.Generic.IEnumerable`1) Vertices```
+### Summary
+
+```csharp
+private public Vertices
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

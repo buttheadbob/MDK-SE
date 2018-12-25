@@ -1,3 +1,14 @@
 ← [Index](Api-Index) ← [IMyBatteryBlock](Sandbox.ModAPI.Ingame.IMyBatteryBlock)
 
-```csharp[bool](System.Boolean) SemiautoEnabled```
+### Summary
+
+```csharp
+private public abstract virtual SemiautoEnabled
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

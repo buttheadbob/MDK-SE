@@ -1,10 +1,30 @@
 ← [Index](Api-Index) ← [Quaternion](VRageMath.Quaternion)
 
-```csharp[Quaternion](VRageMath.Quaternion) Negate([Quaternion](VRageMath.Quaternion) quaternion)```##### Summary
+### Summary
+
+```csharp
+private public Negate
+```csharp
 
 Flips the sign of each component of the quaternion.
 
-```csharpvoid Negate(ref [Quaternion](VRageMath.Quaternion) quaternion, ref [Quaternion](VRageMath.Quaternion) result)```##### Summary
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Negate
+```csharp
 
 Flips the sign of each component of the quaternion.
+
+### Returns
+
+### Example
+
+### Remarks
 

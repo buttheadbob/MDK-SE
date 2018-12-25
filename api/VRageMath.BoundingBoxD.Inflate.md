@@ -1,3 +1,26 @@
 ← [Index](Api-Index) ← [BoundingBoxD](VRageMath.BoundingBoxD)
 
-```csharp[BoundingBoxD](VRageMath.BoundingBoxD) Inflate([double](System.Double) size)``````csharp[BoundingBoxD](VRageMath.BoundingBoxD) Inflate([Vector3](VRageMath.Vector3) size)```
+### Summary
+
+```csharp
+private public Inflate
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public Inflate
+```csharp
+
+### Returns
+
+### Example
+
+### Remarks
+

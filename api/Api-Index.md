@@ -1,64 +1,35 @@
-← [Index](Api-Index)
+← [Namespace Index](Namespace-Index)
 
-# Assemblies
+### Blocks
 
-These are the game assemblies used by programmable block scripts.  
-  
-Sandbox.Common.dll  
-Sandbox.Game.dll  
-SpaceEngineers.Game.dll  
-SpaceEngineers.ObjectBuilders.dll  
-VRage.dll  
-VRage.Game.dll  
-VRage.Library.dll  
-VRage.Math.dll  
+Use these interfaces when you wish to access specific block types.
 
-## Types
-
-### Sandbox.Game.EntityComponents
-
-[MyResourceSinkComponent](Sandbox.Game.EntityComponents.MyResourceSinkComponent)  
-[MyResourceSourceComponent](Sandbox.Game.EntityComponents.MyResourceSourceComponent)
-
-### Sandbox.Game.Gui
-
-[TerminalActionExtensions](Sandbox.Game.Gui.TerminalActionExtensions)
-
-### Sandbox.Game.Localization
-
-[MySpaceTexts](Sandbox.Game.Localization.MySpaceTexts)
-
-### Sandbox.ModAPI.Ingame
-
-[DoorStatus](Sandbox.ModAPI.Ingame.DoorStatus)  
-[FlightMode](Sandbox.ModAPI.Ingame.FlightMode)  
+[IMyAirVent](SpaceEngineers.Game.ModAPI.Ingame.IMyAirVent)  
 [IMyAssembler](Sandbox.ModAPI.Ingame.IMyAssembler)  
-[IMyAttachableTopBlock](Sandbox.ModAPI.Ingame.IMyAttachableTopBlock)  
 [IMyBatteryBlock](Sandbox.ModAPI.Ingame.IMyBatteryBlock)  
 [IMyBeacon](Sandbox.ModAPI.Ingame.IMyBeacon)  
-[IMyBlockGroup](Sandbox.ModAPI.Ingame.IMyBlockGroup)  
+[IMyButtonPanel](SpaceEngineers.Game.ModAPI.Ingame.IMyButtonPanel)  
 [IMyCameraBlock](Sandbox.ModAPI.Ingame.IMyCameraBlock)  
 [IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit)  
 [IMyCollector](Sandbox.ModAPI.Ingame.IMyCollector)  
 [IMyConveyorSorter](Sandbox.ModAPI.Ingame.IMyConveyorSorter)  
 [IMyDoor](Sandbox.ModAPI.Ingame.IMyDoor)  
-[IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
 [IMyGasGenerator](Sandbox.ModAPI.Ingame.IMyGasGenerator)  
 [IMyGasTank](Sandbox.ModAPI.Ingame.IMyGasTank)  
-[IMyGridProgramRuntimeInfo](Sandbox.ModAPI.Ingame.IMyGridProgramRuntimeInfo)  
-[IMyGridTerminalSystem](Sandbox.ModAPI.Ingame.IMyGridTerminalSystem)  
+[IMyGravityGenerator](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGenerator)  
+[IMyGravityGeneratorSphere](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorSphere)  
 [IMyGyro](Sandbox.ModAPI.Ingame.IMyGyro)  
 [IMyJumpDrive](Sandbox.ModAPI.Ingame.IMyJumpDrive)  
-[IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)  
+[IMyLandingGear](SpaceEngineers.Game.ModAPI.Ingame.IMyLandingGear)  
+[IMyLargeConveyorTurretBase](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase)  
 [IMyLaserAntenna](Sandbox.ModAPI.Ingame.IMyLaserAntenna)  
 [IMyLightingBlock](Sandbox.ModAPI.Ingame.IMyLightingBlock)  
-[IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)  
 [IMyMotorStator](Sandbox.ModAPI.Ingame.IMyMotorStator)  
 [IMyMotorSuspension](Sandbox.ModAPI.Ingame.IMyMotorSuspension)  
 [IMyOreDetector](Sandbox.ModAPI.Ingame.IMyOreDetector)  
-[IMyOxygenTank](Sandbox.ModAPI.Ingame.IMyOxygenTank)  
+[IMyOxygenFarm](SpaceEngineers.Game.ModAPI.Ingame.IMyOxygenFarm)  
+[IMyParachute](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute)  
 [IMyPistonBase](Sandbox.ModAPI.Ingame.IMyPistonBase)  
-[IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)  
 [IMyProgrammableBlock](Sandbox.ModAPI.Ingame.IMyProgrammableBlock)  
 [IMyProjector](Sandbox.ModAPI.Ingame.IMyProjector)  
 [IMyRadioAntenna](Sandbox.ModAPI.Ingame.IMyRadioAntenna)  
@@ -66,127 +37,38 @@ VRage.Math.dll
 [IMyRemoteControl](Sandbox.ModAPI.Ingame.IMyRemoteControl)  
 [IMySensorBlock](Sandbox.ModAPI.Ingame.IMySensorBlock)  
 [IMyShipConnector](Sandbox.ModAPI.Ingame.IMyShipConnector)  
-[IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)  
 [IMyShipDrill](Sandbox.ModAPI.Ingame.IMyShipDrill)  
-[IMyShipToolBase](Sandbox.ModAPI.Ingame.IMyShipToolBase)  
+[IMyShipMergeBlock](SpaceEngineers.Game.ModAPI.Ingame.IMyShipMergeBlock)  
 [IMyShipWelder](Sandbox.ModAPI.Ingame.IMyShipWelder)  
 [IMySmallGatlingGun](Sandbox.ModAPI.Ingame.IMySmallGatlingGun)  
 [IMySmallMissileLauncher](Sandbox.ModAPI.Ingame.IMySmallMissileLauncher)  
-[IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
-[IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel)  
-[IMyThrust](Sandbox.ModAPI.Ingame.IMyThrust)  
-[IMyUpgradableBlock](Sandbox.ModAPI.Ingame.IMyUpgradableBlock)  
-[IMyUpgradeModule](Sandbox.ModAPI.Ingame.IMyUpgradeModule)  
-[IMyUserControllableGun](Sandbox.ModAPI.Ingame.IMyUserControllableGun)  
-[IMyWarhead](Sandbox.ModAPI.Ingame.IMyWarhead)  
-[MyAssemblerMode](Sandbox.ModAPI.Ingame.MyAssemblerMode)  
-[MyConveyorSorterMode](Sandbox.ModAPI.Ingame.MyConveyorSorterMode)  
-[MyDetectedEntityInfo](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo)  
-[MyDetectedEntityType](Sandbox.ModAPI.Ingame.MyDetectedEntityType)  
-[MyGridProgram](Sandbox.ModAPI.Ingame.MyGridProgram)  
-[MyInventoryItemFilter](Sandbox.ModAPI.Ingame.MyInventoryItemFilter)  
-[MyJumpDriveStatus](Sandbox.ModAPI.Ingame.MyJumpDriveStatus)  
-[MyLaserAntennaStatus](Sandbox.ModAPI.Ingame.MyLaserAntennaStatus)  
-[MyPlanetElevation](Sandbox.ModAPI.Ingame.MyPlanetElevation)  
-[MyProductionItem](Sandbox.ModAPI.Ingame.MyProductionItem)  
-[MyShipConnectorStatus](Sandbox.ModAPI.Ingame.MyShipConnectorStatus)  
-[MyShipMass](Sandbox.ModAPI.Ingame.MyShipMass)  
-[MyShipVelocities](Sandbox.ModAPI.Ingame.MyShipVelocities)  
-[MyTransmitTarget](Sandbox.ModAPI.Ingame.MyTransmitTarget)  
-[MyWaypointInfo](Sandbox.ModAPI.Ingame.MyWaypointInfo)  
-[PistonStatus](Sandbox.ModAPI.Ingame.PistonStatus)  
-[TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter)  
-[TerminalBlockExtentions](Sandbox.ModAPI.Ingame.TerminalBlockExtentions)  
-[UpdateFrequency](Sandbox.ModAPI.Ingame.UpdateFrequency)  
-[UpdateType](Sandbox.ModAPI.Ingame.UpdateType)
-
-### Sandbox.ModAPI.Interfaces
-
-[ITerminalAction](Sandbox.ModAPI.Interfaces.ITerminalAction)  
-[ITerminalProperty](Sandbox.ModAPI.Interfaces.ITerminalProperty)  
-[ITerminalProperty&lt;TValue&gt;](Sandbox.ModAPI.Interfaces.ITerminalProperty`1)  
-[TerminalPropertyExtensions](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions)
-
-### SpaceEngineers.Game.ModAPI.Ingame
-
-[IMyAirVent](SpaceEngineers.Game.ModAPI.Ingame.IMyAirVent)  
-[IMyButtonPanel](SpaceEngineers.Game.ModAPI.Ingame.IMyButtonPanel)  
-[IMyGravityGenerator](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGenerator)  
-[IMyGravityGeneratorBase](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorBase)  
-[IMyGravityGeneratorSphere](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorSphere)  
-[IMyLandingGear](SpaceEngineers.Game.ModAPI.Ingame.IMyLandingGear)  
-[IMyLargeConveyorTurretBase](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase)  
-[IMyOxygenFarm](SpaceEngineers.Game.ModAPI.Ingame.IMyOxygenFarm)  
-[IMyParachute](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute)  
-[IMyShipMergeBlock](SpaceEngineers.Game.ModAPI.Ingame.IMyShipMergeBlock)  
 [IMySolarPanel](SpaceEngineers.Game.ModAPI.Ingame.IMySolarPanel)  
 [IMySoundBlock](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock)  
 [IMySpaceBall](SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall)  
+[IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel)  
+[IMyThrust](Sandbox.ModAPI.Ingame.IMyThrust)  
 [IMyTimerBlock](SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock)  
+[IMyUpgradeModule](Sandbox.ModAPI.Ingame.IMyUpgradeModule)  
 [IMyVirtualMass](SpaceEngineers.Game.ModAPI.Ingame.IMyVirtualMass)  
-[LandingGearMode](SpaceEngineers.Game.ModAPI.Ingame.LandingGearMode)  
-[VentStatus](SpaceEngineers.Game.ModAPI.Ingame.VentStatus)
+[IMyWarhead](Sandbox.ModAPI.Ingame.IMyWarhead)
 
-### System
+### Block Categories
 
-[ArrayExtensions](System.ArrayExtensions)
+Use these interfaces when you wish to access blocks by a specific function or category rather than a specific block type.
 
-### System.Collections.Generic
+[IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
+[IMyGravityGeneratorBase](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorBase)  
+[IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)  
+[IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)  
+[IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)  
+[IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)  
+[IMyShipToolBase](Sandbox.ModAPI.Ingame.IMyShipToolBase)  
+[IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
+[IMyUserControllableGun](Sandbox.ModAPI.Ingame.IMyUserControllableGun)
 
-[ClearToken&lt;T&gt;](System.Collections.Generic.ClearToken`1)  
-[DictionaryExtensions](System.Collections.Generic.DictionaryExtensions)  
-[HashSetExtensions](System.Collections.Generic.HashSetExtensions)  
-[HashSetExtensions.HashSetInternalAccessor&lt;T&gt;](System.Collections.Generic.HashSetExtensions+HashSetInternalAccessor`1)  
-[ListExtensions](System.Collections.Generic.ListExtensions)  
-[QueueExtensions](System.Collections.Generic.QueueExtensions)
+### Utilities
 
-### VRage
-
-[MyFixedPoint](VRage.MyFixedPoint)  
-[MyLanguagesEnum](VRage.MyLanguagesEnum)  
-[MyTexts](VRage.MyTexts)  
-[MyTexts.LanguageDescription](VRage.MyTexts+LanguageDescription)  
-[MyTuple](VRage.MyTuple)  
-[MyTuple&lt;T1, T2, T3, T4, T5, T6&gt;](VRage.MyTuple`6)  
-[MyTuple&lt;T1, T2, T3, T4, T5&gt;](VRage.MyTuple`5)  
-[MyTuple&lt;T1, T2, T3, T4&gt;](VRage.MyTuple`4)  
-[MyTuple&lt;T1, T2, T3&gt;](VRage.MyTuple`3)  
-[MyTuple&lt;T1, T2&gt;](VRage.MyTuple`2)  
-[MyTuple&lt;T1&gt;](VRage.MyTuple`1)  
-[MyTupleComparer&lt;T1, T2, T3&gt;](VRage.MyTupleComparer`3)  
-[MyTupleComparer&lt;T1, T2&gt;](VRage.MyTupleComparer`2)
-
-### VRage.Collections
-
-[ListReader&lt;T&gt;](VRage.Collections.ListReader`1)
-
-### VRage.Game
-
-[MyCubeSize](VRage.Game.MyCubeSize)  
-[MyDefinitionId](VRage.Game.MyDefinitionId)  
-[MyDefinitionId.DefinitionIdComparerType](VRage.Game.MyDefinitionId+DefinitionIdComparerType)  
-[MyRelationsBetweenPlayerAndBlock](VRage.Game.MyRelationsBetweenPlayerAndBlock)  
-[MyRelationsBetweenPlayerAndBlockExtensions](VRage.Game.MyRelationsBetweenPlayerAndBlockExtensions)
-
-### VRage.Game.Components
-
-[MyComponentBase](VRage.Game.Components.MyComponentBase)  
-[MyComponentContainer](VRage.Game.Components.MyComponentContainer)  
-[MyResourceSinkComponentBase](VRage.Game.Components.MyResourceSinkComponentBase)  
-[MyResourceSourceComponentBase](VRage.Game.Components.MyResourceSourceComponentBase)
-
-### VRage.Game.ModAPI.Ingame
-
-[IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-[IMyCubeGrid](VRage.Game.ModAPI.Ingame.IMyCubeGrid)  
-[IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
-[IMyInventory](VRage.Game.ModAPI.Ingame.IMyInventory)  
-[IMyInventoryItem](VRage.Game.ModAPI.Ingame.IMyInventoryItem)  
-[IMyInventoryOwner](VRage.Game.ModAPI.Ingame.IMyInventoryOwner)  
-[IMySlimBlock](VRage.Game.ModAPI.Ingame.IMySlimBlock)  
-[MyInventoryItemExtension](VRage.Game.ModAPI.Ingame.MyInventoryItemExtension)
-
-### VRage.Game.ModAPI.Ingame.Utilities
+Various useful utilities for your scripts
 
 [MyCommandLine](VRage.Game.ModAPI.Ingame.Utilities.MyCommandLine)  
 [MyCommandLine.Enumerator](VRage.Game.ModAPI.Ingame.Utilities.MyCommandLine+Enumerator)  
@@ -200,16 +82,52 @@ VRage.Math.dll
 [StringSegment](VRage.Game.ModAPI.Ingame.Utilities.StringSegment)  
 [TextPtr](VRage.Game.ModAPI.Ingame.Utilities.TextPtr)
 
-### VRage.Game.ObjectBuilders.Definitions
+### Grid Program and Terminal System
 
-[MyObjectBuilder_GasProperties](VRage.Game.ObjectBuilders.Definitions.MyObjectBuilder_GasProperties)
+Types related to the grid program and grid terminal system
 
-### VRage.ObjectBuilders
+[IMyBlockGroup](Sandbox.ModAPI.Ingame.IMyBlockGroup)  
+[IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
+[IMyCubeGrid](VRage.Game.ModAPI.Ingame.IMyCubeGrid)  
+[IMyGridProgramRuntimeInfo](Sandbox.ModAPI.Ingame.IMyGridProgramRuntimeInfo)  
+[IMyGridTerminalSystem](Sandbox.ModAPI.Ingame.IMyGridTerminalSystem)  
+[IMySlimBlock](VRage.Game.ModAPI.Ingame.IMySlimBlock)  
+[MyGridProgram](Sandbox.ModAPI.Ingame.MyGridProgram)  
+[UpdateFrequency](Sandbox.ModAPI.Ingame.UpdateFrequency)  
+[UpdateType](Sandbox.ModAPI.Ingame.UpdateType)
 
-[MyObjectBuilder_Base](VRage.ObjectBuilders.MyObjectBuilder_Base)  
-[SerializableDefinitionId](VRage.ObjectBuilders.SerializableDefinitionId)
+### Entity Component Systems
 
-### VRageMath
+Gain access to advanced block components
+
+[MyComponentBase](VRage.Game.Components.MyComponentBase)  
+[MyComponentContainer](VRage.Game.Components.MyComponentContainer)  
+[MyResourceSinkComponent](Sandbox.Game.EntityComponents.MyResourceSinkComponent)  
+[MyResourceSinkComponentBase](VRage.Game.Components.MyResourceSinkComponentBase)  
+[MyResourceSourceComponent](Sandbox.Game.EntityComponents.MyResourceSourceComponent)  
+[MyResourceSourceComponentBase](VRage.Game.Components.MyResourceSourceComponentBase)
+
+### Inventory
+
+Types related to inventory analysis and management.
+
+[IMyInventory](VRage.Game.ModAPI.Ingame.IMyInventory)  
+[IMyInventoryItem](VRage.Game.ModAPI.Ingame.IMyInventoryItem)  
+[MyInventoryItemExtension](VRage.Game.ModAPI.Ingame.MyInventoryItemExtension)
+
+### Terminal Properties and Actions
+
+Types related to the terminal properties and actions. You should endeavor to avoid the use of these if possible due to their extra overhead. There are usually proper interface members available instead, which are orders of magnitude faster in use.
+
+[ITerminalAction](Sandbox.ModAPI.Interfaces.ITerminalAction)  
+[ITerminalProperty](Sandbox.ModAPI.Interfaces.ITerminalProperty)  
+[ITerminalProperty&lt;TValue&gt;](Sandbox.ModAPI.Interfaces.ITerminalProperty`1)  
+[TerminalActionExtensions](Sandbox.Game.Gui.TerminalActionExtensions)  
+[TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter)
+
+### Math
+
+Math utilities
 
 [AddOp&lt;T&gt;](VRageMath.AddOp`1)  
 [Base27Directions](VRageMath.Base27Directions)  
@@ -314,4 +232,70 @@ VRage.Math.dll
 [Vector4I](VRageMath.Vector4I)  
 [Vector4I.EqualityComparer](VRageMath.Vector4I+EqualityComparer)  
 [Vector4UByte](VRageMath.Vector4UByte)
+
+### Other
+
+Currently ungrouped types
+
+[ArrayExtensions](System.ArrayExtensions)  
+[ClearToken&lt;T&gt;](System.Collections.Generic.ClearToken`1)  
+[DictionaryExtensions](System.Collections.Generic.DictionaryExtensions)  
+[DoorStatus](Sandbox.ModAPI.Ingame.DoorStatus)  
+[FlightMode](Sandbox.ModAPI.Ingame.FlightMode)  
+[HashSetExtensions](System.Collections.Generic.HashSetExtensions)  
+[HashSetExtensions.HashSetInternalAccessor&lt;T&gt;](System.Collections.Generic.HashSetExtensions+HashSetInternalAccessor`1)  
+[IMyAttachableTopBlock](Sandbox.ModAPI.Ingame.IMyAttachableTopBlock)  
+[IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
+[IMyUpgradableBlock](Sandbox.ModAPI.Ingame.IMyUpgradableBlock)  
+[LandingGearMode](SpaceEngineers.Game.ModAPI.Ingame.LandingGearMode)  
+[ListExtensions](System.Collections.Generic.ListExtensions)  
+[ListReader&lt;T&gt;](VRage.Collections.ListReader`1)  
+[MyAssemblerMode](Sandbox.ModAPI.Ingame.MyAssemblerMode)  
+[MyConveyorSorterMode](Sandbox.ModAPI.Ingame.MyConveyorSorterMode)  
+[MyCubeSize](VRage.Game.MyCubeSize)  
+[MyDefinitionId](VRage.Game.MyDefinitionId)  
+[MyDefinitionId.DefinitionIdComparerType](VRage.Game.MyDefinitionId+DefinitionIdComparerType)  
+[MyDetectedEntityInfo](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo)  
+[MyDetectedEntityType](Sandbox.ModAPI.Ingame.MyDetectedEntityType)  
+[MyFixedPoint](VRage.MyFixedPoint)  
+[MyInventoryItemFilter](Sandbox.ModAPI.Ingame.MyInventoryItemFilter)  
+[MyJumpDriveStatus](Sandbox.ModAPI.Ingame.MyJumpDriveStatus)  
+[MyLanguagesEnum](VRage.MyLanguagesEnum)  
+[MyLaserAntennaStatus](Sandbox.ModAPI.Ingame.MyLaserAntennaStatus)  
+[MyObjectBuilder_Base](VRage.ObjectBuilders.MyObjectBuilder_Base)  
+[MyObjectBuilder_GasProperties](VRage.Game.ObjectBuilders.Definitions.MyObjectBuilder_GasProperties)  
+[MyPlanetElevation](Sandbox.ModAPI.Ingame.MyPlanetElevation)  
+[MyProductionItem](Sandbox.ModAPI.Ingame.MyProductionItem)  
+[MyRelationsBetweenPlayerAndBlock](VRage.Game.MyRelationsBetweenPlayerAndBlock)  
+[MyRelationsBetweenPlayerAndBlockExtensions](VRage.Game.MyRelationsBetweenPlayerAndBlockExtensions)  
+[MyShipConnectorStatus](Sandbox.ModAPI.Ingame.MyShipConnectorStatus)  
+[MyShipMass](Sandbox.ModAPI.Ingame.MyShipMass)  
+[MyShipVelocities](Sandbox.ModAPI.Ingame.MyShipVelocities)  
+[MySpaceTexts](Sandbox.Game.Localization.MySpaceTexts)  
+[MyTexts](VRage.MyTexts)  
+[MyTexts.LanguageDescription](VRage.MyTexts+LanguageDescription)  
+[MyTransmitTarget](Sandbox.ModAPI.Ingame.MyTransmitTarget)  
+[MyTuple](VRage.MyTuple)  
+[MyTuple&lt;T1, T2, T3, T4, T5, T6&gt;](VRage.MyTuple`6)  
+[MyTuple&lt;T1, T2, T3, T4, T5&gt;](VRage.MyTuple`5)  
+[MyTuple&lt;T1, T2, T3, T4&gt;](VRage.MyTuple`4)  
+[MyTuple&lt;T1, T2, T3&gt;](VRage.MyTuple`3)  
+[MyTuple&lt;T1, T2&gt;](VRage.MyTuple`2)  
+[MyTuple&lt;T1&gt;](VRage.MyTuple`1)  
+[MyTupleComparer&lt;T1, T2, T3&gt;](VRage.MyTupleComparer`3)  
+[MyTupleComparer&lt;T1, T2&gt;](VRage.MyTupleComparer`2)  
+[MyWaypointInfo](Sandbox.ModAPI.Ingame.MyWaypointInfo)  
+[PistonStatus](Sandbox.ModAPI.Ingame.PistonStatus)  
+[QueueExtensions](System.Collections.Generic.QueueExtensions)  
+[SerializableDefinitionId](VRage.ObjectBuilders.SerializableDefinitionId)  
+[TerminalBlockExtentions](Sandbox.ModAPI.Ingame.TerminalBlockExtentions)  
+[TerminalPropertyExtensions](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions)  
+[VentStatus](SpaceEngineers.Game.ModAPI.Ingame.VentStatus)
+
+### Obsolete
+
+These types should no longer be used and may be removed in the future. If you're using one of these types, you should replace them as soon as possible.
+
+[IMyInventoryOwner](VRage.Game.ModAPI.Ingame.IMyInventoryOwner)  
+[IMyOxygenTank](Sandbox.ModAPI.Ingame.IMyOxygenTank)
 

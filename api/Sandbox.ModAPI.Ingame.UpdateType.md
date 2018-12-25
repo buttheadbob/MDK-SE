@@ -3,18 +3,13 @@
 #### UpdateType Enum
 
 ```csharp
-public enum UpdateType: IComparable, IFormattable, IConvertible
+public enum UpdateType
 ```
 
 Enum describes what source triggered the script to run.
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
-
-**Implements:**  
-* [IComparable](https://docs.microsoft.com/en-us/dotnet/api/system.icomparable?view=netframework-4.6)  
-* [IFormattable](https://docs.microsoft.com/en-us/dotnet/api/system.iformattable?view=netframework-4.6)  
-* [IConvertible](https://docs.microsoft.com/en-us/dotnet/api/system.iconvertible?view=netframework-4.6)
 
 #### Fields
 

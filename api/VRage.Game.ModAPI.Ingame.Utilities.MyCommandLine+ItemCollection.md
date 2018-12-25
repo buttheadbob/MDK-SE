@@ -3,7 +3,7 @@
 #### ItemCollection Class
 
 ```csharp
-private class ItemCollection: IReadOnlyList<T>, IReadOnlyCollection<T>, IEnumerable<T>, IEnumerable
+public class ItemCollection: IReadOnlyList<T>, IReadOnlyCollection<T>, IEnumerable<T>, IEnumerable
 ```
 
 **Namespace:** [VRage.Game.ModAPI.Ingame.Utilities](VRage.Game.ModAPI.Ingame.Utilities)  

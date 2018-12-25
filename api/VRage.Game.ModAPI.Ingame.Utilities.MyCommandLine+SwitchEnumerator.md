@@ -3,7 +3,7 @@
 #### SwitchEnumerator Struct
 
 ```csharp
-private struct SwitchEnumerator: IEnumerator<T>, IDisposable, IEnumerator
+public struct SwitchEnumerator: IEnumerator<T>, IDisposable, IEnumerator
 ```
 
 **Namespace:** [VRage.Game.ModAPI.Ingame.Utilities](VRage.Game.ModAPI.Ingame.Utilities)  

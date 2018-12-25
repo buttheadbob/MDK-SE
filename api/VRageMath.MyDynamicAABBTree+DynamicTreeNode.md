@@ -3,7 +3,7 @@
 #### DynamicTreeNode Class
 
 ```csharp
-private class DynamicTreeNode
+public class DynamicTreeNode
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

@@ -3,7 +3,7 @@
 #### LanguageDescription Class
 
 ```csharp
-private class LanguageDescription
+public class LanguageDescription
 ```
 
 **Namespace:** [VRage](VRage)  

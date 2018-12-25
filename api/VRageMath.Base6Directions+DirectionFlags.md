@@ -3,7 +3,7 @@
 #### DirectionFlags Enum
 
 ```csharp
-private enum DirectionFlags
+public enum DirectionFlags
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

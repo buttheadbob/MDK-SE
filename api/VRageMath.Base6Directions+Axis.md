@@ -3,7 +3,7 @@
 #### Axis Enum
 
 ```csharp
-private enum Axis
+public enum Axis
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

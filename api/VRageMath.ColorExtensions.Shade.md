@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Color Shade(private public sealed struct.Color c, float r)
+public public sealed struct Color Shade(public sealed struct Color c, float r)
 ```
 
 ### Returns

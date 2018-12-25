@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual float MaxSteerAngle { ; ; }
+public virtual float MaxSteerAngle { ; ; }
 ```
 
 Max steering angle in radians.

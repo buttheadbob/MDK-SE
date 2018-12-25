@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void Delete(string section, string name)
+public void Delete(string section, string name)
 ```
 
 Deletes the given configuration key.
@@ -17,7 +17,7 @@ Deletes the given configuration key.
 ### Summary
 
 ```csharp
-private public void Delete(private public sealed struct.MyIniKey key)
+public void Delete(public sealed struct MyIniKey key)
 ```
 
 Deletes the given configuration key.

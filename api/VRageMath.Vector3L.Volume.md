@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public long Volume()
+public long Volume()
 ```
 
 ### Returns

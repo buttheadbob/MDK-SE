@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual void StopCountdown()
+public virtual void StopCountdown()
 ```
 
 Stops current countdown

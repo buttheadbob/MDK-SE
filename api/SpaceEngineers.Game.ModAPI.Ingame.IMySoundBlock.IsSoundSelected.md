@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual bool IsSoundSelected { ; }
+public virtual bool IsSoundSelected { ; }
 ```
 
 Gets if a sound is currently selected.

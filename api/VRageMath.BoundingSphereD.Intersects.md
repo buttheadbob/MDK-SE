@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool Intersects(private public sealed struct.BoundingBoxD box)
+public bool Intersects(public sealed struct BoundingBoxD box)
 ```
 
 Checks whether the current BoundingSphereD intersects with a specified BoundingBoxD.
@@ -17,7 +17,7 @@ Checks whether the current BoundingSphereD intersects with a specified BoundingB
 ### Summary
 
 ```csharp
-private public void Intersects(ref private public sealed struct.BoundingBoxD box, ref bool result)
+public void Intersects(ref public sealed struct BoundingBoxD box, ref bool result)
 ```
 
 Checks whether the current BoundingSphereD intersects a BoundingBoxD.
@@ -31,7 +31,7 @@ Checks whether the current BoundingSphereD intersects a BoundingBoxD.
 ### Summary
 
 ```csharp
-private public private public sealed struct.Nullable<T> Intersects(private public sealed struct.RayD ray)
+public public sealed struct Nullable<T> Intersects(public sealed struct RayD ray)
 ```
 
 ### Returns
@@ -43,7 +43,7 @@ private public private public sealed struct.Nullable<T> Intersects(private publi
 ### Summary
 
 ```csharp
-private public bool Intersects(private public class.BoundingFrustumD frustum)
+public bool Intersects(public class BoundingFrustumD frustum)
 ```
 
 Checks whether the current BoundingSphereD intersects with a specified BoundingFrustum.
@@ -57,7 +57,7 @@ Checks whether the current BoundingSphereD intersects with a specified BoundingF
 ### Summary
 
 ```csharp
-private public bool Intersects(private public sealed struct.BoundingSphereD sphere)
+public bool Intersects(public sealed struct BoundingSphereD sphere)
 ```
 
 Checks whether the current BoundingSphereD intersects with a specified BoundingSphereD.
@@ -71,7 +71,7 @@ Checks whether the current BoundingSphereD intersects with a specified BoundingS
 ### Summary
 
 ```csharp
-private public void Intersects(ref private public sealed struct.BoundingSphereD sphere, ref bool result)
+public void Intersects(ref public sealed struct BoundingSphereD sphere, ref bool result)
 ```
 
 Checks whether the current BoundingSphereD intersects another BoundingSphereD.

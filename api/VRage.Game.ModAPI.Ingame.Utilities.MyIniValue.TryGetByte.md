@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool TryGetByte(ref byte value)
+public bool TryGetByte(ref byte value)
 ```
 
 Attempts to get this value as a [System.Byte](https://docs.microsoft.com/en-us/dotnet/api/system.byte?view=netframework-4.6) . Fills the`value`on success.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual private public abstract class.MyObjectBuilder_ComponentBase Serialize(bool copy)
+public virtual public abstract class MyObjectBuilder_ComponentBase Serialize(bool copy)
 ```
 
 ### Returns

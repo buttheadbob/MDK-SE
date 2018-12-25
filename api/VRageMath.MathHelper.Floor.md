@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public int Floor(float n)
+public int Floor(float n)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public int Floor(float n)
 ### Summary
 
 ```csharp
-private public int Floor(double n)
+public int Floor(double n)
 ```
 
 ### Returns

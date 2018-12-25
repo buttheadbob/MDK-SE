@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Matrix Invert(private public sealed struct.Matrix matrix)
+public public sealed struct Matrix Invert(public sealed struct Matrix matrix)
 ```
 
 Calculates the inverse of a matrix.
@@ -17,7 +17,7 @@ Calculates the inverse of a matrix.
 ### Summary
 
 ```csharp
-private public private public sealed struct.Matrix Invert(ref private public sealed struct.Matrix matrix)
+public public sealed struct Matrix Invert(ref public sealed struct Matrix matrix)
 ```
 
 ### Returns
@@ -29,7 +29,7 @@ private public private public sealed struct.Matrix Invert(ref private public se
 ### Summary
 
 ```csharp
-private public void Invert(ref private public sealed struct.Matrix matrix, ref private public sealed struct.Matrix result)
+public void Invert(ref public sealed struct Matrix matrix, ref public sealed struct Matrix result)
 ```
 
 Calculates the inverse of a matrix.

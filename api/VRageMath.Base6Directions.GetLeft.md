@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private sealed enum.Direction GetLeft(private sealed enum.Direction up, private sealed enum.Direction forward)
+public private sealed enum Direction GetLeft(private sealed enum Direction up, private sealed enum Direction forward)
 ```
 
 ### Returns

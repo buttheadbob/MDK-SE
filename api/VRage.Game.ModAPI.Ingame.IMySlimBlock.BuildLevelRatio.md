@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual float BuildLevelRatio { ; }
+public virtual float BuildLevelRatio { ; }
 ```
 
 Ratio of BuildIntegrity and MaxIntegrity

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual bool IsPowerAvailable(private public sealed struct.MyDefinitionId resourceTypeId, float power)
+public virtual bool IsPowerAvailable(public sealed struct MyDefinitionId resourceTypeId, float power)
 ```
 
 ### Returns

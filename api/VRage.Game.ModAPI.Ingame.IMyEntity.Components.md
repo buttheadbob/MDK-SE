@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual private public class.MyEntityComponentContainer Components { ; }
+public virtual public class MyEntityComponentContainer Components { ; }
 ```
 
 ### Returns

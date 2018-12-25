@@ -3,7 +3,7 @@
 #### BoundingSphere Struct
 
 ```csharp
-private public sealed struct.BoundingSphere
+public sealed struct BoundingSphere
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

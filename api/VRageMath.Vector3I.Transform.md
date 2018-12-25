@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void Transform(ref private public sealed struct.Vector3I position, ref private public sealed struct.Matrix matrix, ref private public sealed struct.Vector3I result)
+public void Transform(ref public sealed struct Vector3I position, ref public sealed struct Matrix matrix, ref public sealed struct Vector3I result)
 ```
 
 Transforms a Vector3I by the given Matrix.
@@ -17,7 +17,7 @@ Transforms a Vector3I by the given Matrix.
 ### Summary
 
 ```csharp
-private public void Transform(ref private public sealed struct.Vector3I value, ref private public sealed struct.Quaternion rotation, ref private public sealed struct.Vector3I result)
+public void Transform(ref public sealed struct Vector3I value, ref public sealed struct Quaternion rotation, ref public sealed struct Vector3I result)
 ```
 
 ### Returns
@@ -29,7 +29,7 @@ private public void Transform(ref private public sealed struct.Vector3I value, 
 ### Summary
 
 ```csharp
-private public private public sealed struct.Vector3I Transform(private public sealed struct.Vector3I value, private public sealed struct.Quaternion rotation)
+public public sealed struct Vector3I Transform(public sealed struct Vector3I value, public sealed struct Quaternion rotation)
 ```
 
 ### Returns
@@ -41,7 +41,7 @@ private public private public sealed struct.Vector3I Transform(private public se
 ### Summary
 
 ```csharp
-private public void Transform(ref private public sealed struct.Vector3I value, ref private public sealed struct.MatrixI matrix, ref private public sealed struct.Vector3I result)
+public void Transform(ref public sealed struct Vector3I value, ref public sealed struct MatrixI matrix, ref public sealed struct Vector3I result)
 ```
 
 ### Returns
@@ -53,7 +53,7 @@ private public void Transform(ref private public sealed struct.Vector3I value, 
 ### Summary
 
 ```csharp
-private public private public sealed struct.Vector3I Transform(private public sealed struct.Vector3I value, private public sealed struct.MatrixI transformation)
+public public sealed struct Vector3I Transform(public sealed struct Vector3I value, public sealed struct MatrixI transformation)
 ```
 
 ### Returns
@@ -65,7 +65,7 @@ private public private public sealed struct.Vector3I Transform(private public se
 ### Summary
 
 ```csharp
-private public private public sealed struct.Vector3I Transform(private public sealed struct.Vector3I value, ref private public sealed struct.MatrixI transformation)
+public public sealed struct Vector3I Transform(public sealed struct Vector3I value, ref public sealed struct MatrixI transformation)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual int TotalBlocks { ; }
+public virtual int TotalBlocks { ; }
 ```
 
 Total number of blocks in the projection

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual float MaxInput { ; }
+public virtual float MaxInput { ; }
 ```
 
 ### Returns

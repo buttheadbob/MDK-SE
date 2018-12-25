@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private class.SwitchCollection Switches { ; ; }
+public private class SwitchCollection Switches { ; private ; }
 ```
 
 Contains a list of all detected switches

@@ -3,7 +3,7 @@
 #### CurveKey Class
 
 ```csharp
-private public class.CurveKey
+public class CurveKey
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

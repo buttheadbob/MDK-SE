@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.BoundingSphereD Transform(private public sealed struct.MatrixD matrix)
+public public sealed struct BoundingSphereD Transform(public sealed struct MatrixD matrix)
 ```
 
 Translates and scales the BoundingSphereD using a given Matrix.
@@ -17,7 +17,7 @@ Translates and scales the BoundingSphereD using a given Matrix.
 ### Summary
 
 ```csharp
-private public void Transform(ref private public sealed struct.MatrixD matrix, ref private public sealed struct.BoundingSphereD result)
+public void Transform(ref public sealed struct MatrixD matrix, ref public sealed struct BoundingSphereD result)
 ```
 
 Translates and scales the BoundingSphereD using a given Matrix.

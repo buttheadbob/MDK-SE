@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public class.Curve Clone()
+public public class Curve Clone()
 ```
 
 Creates a copy of the Curve.

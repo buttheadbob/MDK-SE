@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void RemoveAt(int index)
+public void RemoveAt(int index)
 ```
 
 Removes the CurveKey at the specified index.

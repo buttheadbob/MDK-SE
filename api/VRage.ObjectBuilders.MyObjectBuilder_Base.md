@@ -3,7 +3,7 @@
 #### MyObjectBuilder_Base Class
 
 ```csharp
-private public abstract class.MyObjectBuilder_Base
+public abstract class MyObjectBuilder_Base
 ```
 
 **Namespace:** [VRage.ObjectBuilders](VRage.ObjectBuilders)  

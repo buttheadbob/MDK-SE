@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void GetChildren(int proxyId, ref int left, ref int right)
+public void GetChildren(int proxyId, ref int left, ref int right)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Vector3 Center
+public public sealed struct Vector3 Center
 ```
 
 The center point of the sphere.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float LengthSquared()
+public float LengthSquared()
 ```
 
 Calculates the length of the vector squared.

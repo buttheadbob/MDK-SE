@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual bool StartCountdown()
+public virtual bool StartCountdown()
 ```
 
 ### Returns

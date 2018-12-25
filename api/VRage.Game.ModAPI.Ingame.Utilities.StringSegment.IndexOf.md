@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public int IndexOf(char ch)
+public int IndexOf(char ch)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public int IndexOf(char ch)
 ### Summary
 
 ```csharp
-private public int IndexOf(char ch, int start)
+public int IndexOf(char ch, int start)
 ```
 
 ### Returns

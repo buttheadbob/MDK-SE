@@ -3,7 +3,7 @@
 #### IMyCameraBlock Interface
 
 ```csharp
-private public interface.IMyCameraBlock
+public interface IMyCameraBlock
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

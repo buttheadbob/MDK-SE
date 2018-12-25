@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual float HighestPosition { ; }
+public virtual float HighestPosition { ; }
 ```
 
 Gets the highest position the piston is capable of moving to.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public int FindLineNo()
+public int FindLineNo()
 ```
 
 ### Returns

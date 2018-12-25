@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool IsOrthogonal()
+public bool IsOrthogonal()
 ```
 
 ### Returns

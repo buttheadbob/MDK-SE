@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual void RemoveImageFromSelection(string id, bool removeDuplicates)
+public virtual void RemoveImageFromSelection(string id, bool removeDuplicates)
 ```
 
 ### Returns

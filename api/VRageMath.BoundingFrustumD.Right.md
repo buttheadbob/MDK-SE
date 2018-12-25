@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.PlaneD Right { ; }
+public public sealed struct PlaneD Right { ; }
 ```
 
 Gets the right plane of the BoundingFrustumD.

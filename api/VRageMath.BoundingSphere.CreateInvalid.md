@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.BoundingSphere CreateInvalid()
+public public sealed struct BoundingSphere CreateInvalid()
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual long EntityId { ; }
+public virtual long EntityId { ; }
 ```
 
 ### Returns

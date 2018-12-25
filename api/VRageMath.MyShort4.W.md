@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public short W
+public short W
 ```
 
 ### Returns

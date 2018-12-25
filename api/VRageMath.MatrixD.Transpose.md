@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.MatrixD Transpose(private public sealed struct.MatrixD matrix)
+public public sealed struct MatrixD Transpose(public sealed struct MatrixD matrix)
 ```
 
 Transposes the rows and columns of a matrix.
@@ -17,7 +17,7 @@ Transposes the rows and columns of a matrix.
 ### Summary
 
 ```csharp
-private public void Transpose(ref private public sealed struct.MatrixD matrix, ref private public sealed struct.MatrixD result)
+public void Transpose(ref public sealed struct MatrixD matrix, ref public sealed struct MatrixD result)
 ```
 
 Transposes the rows and columns of a matrix.

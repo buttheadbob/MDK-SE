@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.BoundingBoxI Include(ref private public sealed struct.Vector3I point)
+public public sealed struct BoundingBoxI Include(ref public sealed struct Vector3I point)
 ```
 
 return expanded aabb (abb include point)
@@ -19,7 +19,7 @@ return expanded aabb (abb include point)
 ### Summary
 
 ```csharp
-private public private public sealed struct.BoundingBoxI Include(private public sealed struct.Vector3I point)
+public public sealed struct BoundingBoxI Include(public sealed struct Vector3I point)
 ```
 
 ### Returns
@@ -31,7 +31,7 @@ private public private public sealed struct.BoundingBoxI Include(private public 
 ### Summary
 
 ```csharp
-private public private public sealed struct.BoundingBoxI Include(private public sealed struct.Vector3I p0, private public sealed struct.Vector3I p1, private public sealed struct.Vector3I p2)
+public public sealed struct BoundingBoxI Include(public sealed struct Vector3I p0, public sealed struct Vector3I p1, public sealed struct Vector3I p2)
 ```
 
 ### Returns
@@ -43,7 +43,7 @@ private public private public sealed struct.BoundingBoxI Include(private public 
 ### Summary
 
 ```csharp
-private public private public sealed struct.BoundingBoxI Include(ref private public sealed struct.Vector3I p0, ref private public sealed struct.Vector3I p1, ref private public sealed struct.Vector3I p2)
+public public sealed struct BoundingBoxI Include(ref public sealed struct Vector3I p0, ref public sealed struct Vector3I p1, ref public sealed struct Vector3I p2)
 ```
 
 ### Returns
@@ -55,7 +55,7 @@ private public private public sealed struct.BoundingBoxI Include(ref private pu
 ### Summary
 
 ```csharp
-private public private public sealed struct.BoundingBoxI Include(ref private public sealed struct.BoundingBoxI box)
+public public sealed struct BoundingBoxI Include(ref public sealed struct BoundingBoxI box)
 ```
 
 return expanded aabb (abb include point)
@@ -71,7 +71,7 @@ return expanded aabb (abb include point)
 ### Summary
 
 ```csharp
-private public private public sealed struct.BoundingBoxI Include(private public sealed struct.BoundingBoxI box)
+public public sealed struct BoundingBoxI Include(public sealed struct BoundingBoxI box)
 ```
 
 ### Returns

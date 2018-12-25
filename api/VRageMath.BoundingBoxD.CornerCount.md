@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public int CornerCount
+public int CornerCount
 ```
 
 Specifies the total number of corners (8) in the BoundingBox.

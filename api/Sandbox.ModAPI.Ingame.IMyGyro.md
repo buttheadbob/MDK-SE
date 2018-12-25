@@ -3,7 +3,7 @@
 #### IMyGyro Interface
 
 ```csharp
-private public interface.IMyGyro
+public interface IMyGyro
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

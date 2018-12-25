@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void OverlapAllFrustumAny<T>(ref private public class.BoundingFrustum frustum, private public class.List<T> elementsList, bool clear)
+public void OverlapAllFrustumAny<T>(ref public class BoundingFrustum frustum, public class List<T> elementsList, bool clear)
 ```
 
 ### Returns

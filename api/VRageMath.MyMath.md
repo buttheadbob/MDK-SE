@@ -3,7 +3,7 @@
 #### MyMath Class
 
 ```csharp
-private public abstract sealed class.MyMath
+public abstract sealed class MyMath
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual void AddImagesToSelection(private public class.List<T> ids, bool checkExistence)
+public virtual void AddImagesToSelection(public class List<T> ids, bool checkExistence)
 ```
 
 ### Returns

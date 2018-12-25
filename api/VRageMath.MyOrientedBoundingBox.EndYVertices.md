@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed class.Int32[] EndYVertices
+public public sealed class Int32[] EndYVertices
 ```
 
 ### Returns

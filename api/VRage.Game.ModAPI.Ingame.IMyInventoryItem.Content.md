@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual private public abstract class.MyObjectBuilder_Base Content { ; ; }
+public virtual public abstract class MyObjectBuilder_Base Content { ; ; }
 ```
 
 ### Returns

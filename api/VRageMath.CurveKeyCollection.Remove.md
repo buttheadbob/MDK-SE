@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool Remove(private public class.CurveKey item)
+public bool Remove(public class CurveKey item)
 ```
 
 Removes the first occurrence of a specific CurveKey from the CurveKeyCollection.

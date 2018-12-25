@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual bool WritePrivateText(string value, bool append)
+public virtual bool WritePrivateText(string value, bool append)
 ```
 
 ### Returns

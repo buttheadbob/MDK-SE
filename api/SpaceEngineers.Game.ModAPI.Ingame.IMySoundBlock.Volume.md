@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual float Volume { ; ; }
+public virtual float Volume { ; ; }
 ```
 
 Gets or sets the volume level of sound

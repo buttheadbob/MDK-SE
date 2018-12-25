@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void TransformNoProjection(ref private public sealed struct.Vector3 vector, ref private public sealed struct.Matrix matrix, ref private public sealed struct.Vector3 result)
+public void TransformNoProjection(ref public sealed struct Vector3 vector, ref public sealed struct Matrix matrix, ref public sealed struct Vector3 result)
 ```
 
 ### Returns

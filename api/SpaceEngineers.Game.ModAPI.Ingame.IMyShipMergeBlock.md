@@ -3,7 +3,7 @@
 #### IMyShipMergeBlock Interface
 
 ```csharp
-private public interface.IMyShipMergeBlock
+public interface IMyShipMergeBlock
 ```
 
 **Namespace:** [SpaceEngineers.Game.ModAPI.Ingame](SpaceEngineers.Game.ModAPI.Ingame)  

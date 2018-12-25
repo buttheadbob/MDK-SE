@@ -3,7 +3,7 @@
 #### IMyLightingBlock Interface
 
 ```csharp
-private public interface.IMyLightingBlock
+public interface IMyLightingBlock
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

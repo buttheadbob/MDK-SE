@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void SetSectionComment(string section, string comment)
+public void SetSectionComment(string section, string comment)
 ```
 
 Sets a comment on a given section. The section must already exist. Set the comment to`null`to remove it.

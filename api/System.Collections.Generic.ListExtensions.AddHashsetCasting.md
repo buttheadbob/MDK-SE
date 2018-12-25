@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void AddHashsetCasting<T1, T2>(private public class.List<T> list, private public class.HashSet<T> hashset)
+public void AddHashsetCasting<T1, T2>(public class List<T> list, public class HashSet<T> hashset)
 ```
 
 ### Returns

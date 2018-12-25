@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private sealed enum.Direction GetDirection(private public sealed struct.Vector3 vec)
+public private sealed enum Direction GetDirection(public sealed struct Vector3 vec)
 ```
 
 Vector must be normalized, allowed values for components are: 0, 1, -1, 0.707, -0.707, 0.577, -0.577
@@ -17,7 +17,7 @@ Vector must be normalized, allowed values for components are: 0, 1, -1, 0.707, -
 ### Summary
 
 ```csharp
-private public private sealed enum.Direction GetDirection(private public sealed struct.Vector3I vec)
+public private sealed enum Direction GetDirection(public sealed struct Vector3I vec)
 ```
 
 ### Returns
@@ -29,7 +29,7 @@ private public private sealed enum.Direction GetDirection(private public sealed 
 ### Summary
 
 ```csharp
-private public private sealed enum.Direction GetDirection(ref private public sealed struct.Vector3 vec)
+public private sealed enum Direction GetDirection(ref public sealed struct Vector3 vec)
 ```
 
 ### Returns
@@ -41,7 +41,7 @@ private public private sealed enum.Direction GetDirection(ref private public se
 ### Summary
 
 ```csharp
-private public private sealed enum.Direction GetDirection(ref private public sealed struct.Vector3I vec)
+public private sealed enum Direction GetDirection(ref public sealed struct Vector3I vec)
 ```
 
 ### Returns

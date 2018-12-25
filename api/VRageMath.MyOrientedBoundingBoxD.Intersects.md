@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool Intersects(ref private public sealed struct.BoundingBox box)
+public bool Intersects(ref public sealed struct BoundingBox box)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public bool Intersects(ref private public sealed struct.BoundingBox box
 ### Summary
 
 ```csharp
-private public bool Intersects(ref private public sealed struct.BoundingBoxD box)
+public bool Intersects(ref public sealed struct BoundingBoxD box)
 ```
 
 ### Returns
@@ -27,7 +27,7 @@ private public bool Intersects(ref private public sealed struct.BoundingBoxD bo
 ### Summary
 
 ```csharp
-private public bool Intersects(ref private public sealed struct.MyOrientedBoundingBoxD other)
+public bool Intersects(ref public sealed struct MyOrientedBoundingBoxD other)
 ```
 
 ### Returns
@@ -39,7 +39,7 @@ private public bool Intersects(ref private public sealed struct.MyOrientedBound
 ### Summary
 
 ```csharp
-private public bool Intersects(private public class.BoundingFrustumD frustum)
+public bool Intersects(public class BoundingFrustumD frustum)
 ```
 
 ### Returns
@@ -51,7 +51,7 @@ private public bool Intersects(private public class.BoundingFrustumD frustum)
 ### Summary
 
 ```csharp
-private public bool Intersects(ref private public sealed struct.BoundingSphereD sphere)
+public bool Intersects(ref public sealed struct BoundingSphereD sphere)
 ```
 
 ### Returns
@@ -63,7 +63,7 @@ private public bool Intersects(ref private public sealed struct.BoundingSphereD
 ### Summary
 
 ```csharp
-private public private public sealed struct.Nullable<T> Intersects(ref private public sealed struct.RayD ray)
+public public sealed struct Nullable<T> Intersects(ref public sealed struct RayD ray)
 ```
 
 ### Returns
@@ -75,7 +75,7 @@ private public private public sealed struct.Nullable<T> Intersects(ref private 
 ### Summary
 
 ```csharp
-private public private public sealed struct.Nullable<T> Intersects(ref private public sealed struct.LineD line)
+public public sealed struct Nullable<T> Intersects(ref public sealed struct LineD line)
 ```
 
 ### Returns
@@ -87,7 +87,7 @@ private public private public sealed struct.Nullable<T> Intersects(ref private 
 ### Summary
 
 ```csharp
-private public private public sealed enum.PlaneIntersectionType Intersects(ref private public sealed struct.PlaneD plane)
+public public sealed enum PlaneIntersectionType Intersects(ref public sealed struct PlaneD plane)
 ```
 
 ### Returns

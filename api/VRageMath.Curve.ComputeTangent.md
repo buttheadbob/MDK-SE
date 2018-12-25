@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void ComputeTangent(int keyIndex, private public sealed enum.CurveTangent tangentType)
+public void ComputeTangent(int keyIndex, public sealed enum CurveTangent tangentType)
 ```
 
 Computes both the TangentIn and the TangentOut for a CurveKey specified by its index.
@@ -17,7 +17,7 @@ Computes both the TangentIn and the TangentOut for a CurveKey specified by its i
 ### Summary
 
 ```csharp
-private public void ComputeTangent(int keyIndex, private public sealed enum.CurveTangent tangentInType, private public sealed enum.CurveTangent tangentOutType)
+public void ComputeTangent(int keyIndex, public sealed enum CurveTangent tangentInType, public sealed enum CurveTangent tangentOutType)
 ```
 
 Computes a specified type of TangentIn and a specified type of TangentOut for a given CurveKey.

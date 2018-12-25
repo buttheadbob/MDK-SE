@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void Multiply(ref private public sealed struct.MatrixI leftMatrix, ref private public sealed struct.MatrixI rightMatrix, ref private public sealed struct.MatrixI result)
+public void Multiply(ref public sealed struct MatrixI leftMatrix, ref public sealed struct MatrixI rightMatrix, ref public sealed struct MatrixI result)
 ```
 
 ### Returns

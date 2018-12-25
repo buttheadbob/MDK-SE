@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public double Distance
+public double Distance
 ```
 
 ### Returns

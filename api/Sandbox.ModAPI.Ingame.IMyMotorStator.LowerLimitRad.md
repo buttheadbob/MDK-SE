@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual float LowerLimitRad { ; ; }
+public virtual float LowerLimitRad { ; ; }
 ```
 
 Gets or sets the lower angle limit of the rotor in radians. Set to float.MinValue for no limit.

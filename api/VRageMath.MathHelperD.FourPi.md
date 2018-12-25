@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public double FourPi
+public double FourPi
 ```
 
 Represents the value of pi times four.

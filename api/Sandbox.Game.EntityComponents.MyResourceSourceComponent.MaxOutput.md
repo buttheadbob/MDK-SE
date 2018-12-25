@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float MaxOutput { ; }
+public float MaxOutput { ; }
 ```
 
 ### Returns

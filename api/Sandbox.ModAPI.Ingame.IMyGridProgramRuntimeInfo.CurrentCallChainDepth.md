@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual int CurrentCallChainDepth { ; }
+public virtual int CurrentCallChainDepth { ; }
 ```
 
 Gets the current number of nested method calls.

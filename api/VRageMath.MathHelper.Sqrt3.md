@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float Sqrt3
+public float Sqrt3
 ```
 
 Represents the value of the square root of three

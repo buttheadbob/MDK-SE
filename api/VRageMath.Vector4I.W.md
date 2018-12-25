@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public int W
+public int W
 ```
 
 ### Returns

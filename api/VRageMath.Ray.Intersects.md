@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Nullable<T> Intersects(private public sealed struct.BoundingBox box)
+public public sealed struct Nullable<T> Intersects(public sealed struct BoundingBox box)
 ```
 
 Checks whether the Ray intersects a specified BoundingBox.
@@ -17,7 +17,7 @@ Checks whether the Ray intersects a specified BoundingBox.
 ### Summary
 
 ```csharp
-private public void Intersects(ref private public sealed struct.BoundingBox box, ref private public sealed struct.Nullable<T> result)
+public void Intersects(ref public sealed struct BoundingBox box, ref public sealed struct Nullable<T> result)
 ```
 
 ### Returns
@@ -29,7 +29,7 @@ private public void Intersects(ref private public sealed struct.BoundingBox box
 ### Summary
 
 ```csharp
-private public private public sealed struct.Nullable<T> Intersects(private public class.BoundingFrustum frustum)
+public public sealed struct Nullable<T> Intersects(public class BoundingFrustum frustum)
 ```
 
 Checks whether the Ray intersects a specified BoundingFrustum.
@@ -43,7 +43,7 @@ Checks whether the Ray intersects a specified BoundingFrustum.
 ### Summary
 
 ```csharp
-private public private public sealed struct.Nullable<T> Intersects(private public sealed struct.Plane plane)
+public public sealed struct Nullable<T> Intersects(public sealed struct Plane plane)
 ```
 
 Determines whether this Ray intersects a specified Plane.
@@ -57,7 +57,7 @@ Determines whether this Ray intersects a specified Plane.
 ### Summary
 
 ```csharp
-private public void Intersects(ref private public sealed struct.Plane plane, ref private public sealed struct.Nullable<T> result)
+public void Intersects(ref public sealed struct Plane plane, ref public sealed struct Nullable<T> result)
 ```
 
 ### Returns
@@ -69,7 +69,7 @@ private public void Intersects(ref private public sealed struct.Plane plane, re
 ### Summary
 
 ```csharp
-private public private public sealed struct.Nullable<T> Intersects(private public sealed struct.BoundingSphere sphere)
+public public sealed struct Nullable<T> Intersects(public sealed struct BoundingSphere sphere)
 ```
 
 Checks whether the Ray intersects a specified BoundingSphere.
@@ -83,7 +83,7 @@ Checks whether the Ray intersects a specified BoundingSphere.
 ### Summary
 
 ```csharp
-private public void Intersects(ref private public sealed struct.BoundingSphere sphere, ref private public sealed struct.Nullable<T> result)
+public void Intersects(ref public sealed struct BoundingSphere sphere, ref public sealed struct Nullable<T> result)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual float FontSize { ; ; }
+public virtual float FontSize { ; ; }
 ```
 
 Gets or sets font size

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.MyFixedPoint Round(private public sealed struct.MyFixedPoint a)
+public public sealed struct MyFixedPoint Round(public sealed struct MyFixedPoint a)
 ```
 
 ### Returns

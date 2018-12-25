@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool IsEndOfLine()
+public bool IsEndOfLine()
 ```
 
 ### Returns

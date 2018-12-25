@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public double W
+public double W
 ```
 
 Specifies the rotation component of the quaternion.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void AssertIsValid()
+public void AssertIsValid()
 ```
 
 ### Returns

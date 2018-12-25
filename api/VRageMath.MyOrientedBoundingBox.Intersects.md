@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool Intersects(ref private public sealed struct.BoundingBox box)
+public bool Intersects(ref public sealed struct BoundingBox box)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public bool Intersects(ref private public sealed struct.BoundingBox box
 ### Summary
 
 ```csharp
-private public bool Intersects(ref private public sealed struct.MyOrientedBoundingBox other)
+public bool Intersects(ref public sealed struct MyOrientedBoundingBox other)
 ```
 
 ### Returns
@@ -27,7 +27,7 @@ private public bool Intersects(ref private public sealed struct.MyOrientedBound
 ### Summary
 
 ```csharp
-private public bool Intersects(private public class.BoundingFrustum frustum)
+public bool Intersects(public class BoundingFrustum frustum)
 ```
 
 ### Returns
@@ -39,7 +39,7 @@ private public bool Intersects(private public class.BoundingFrustum frustum)
 ### Summary
 
 ```csharp
-private public bool Intersects(ref private public sealed struct.BoundingSphere sphere)
+public bool Intersects(ref public sealed struct BoundingSphere sphere)
 ```
 
 ### Returns
@@ -51,7 +51,7 @@ private public bool Intersects(ref private public sealed struct.BoundingSphere 
 ### Summary
 
 ```csharp
-private public private public sealed struct.Nullable<T> Intersects(ref private public sealed struct.Ray ray)
+public public sealed struct Nullable<T> Intersects(ref public sealed struct Ray ray)
 ```
 
 ### Returns
@@ -63,7 +63,7 @@ private public private public sealed struct.Nullable<T> Intersects(ref private 
 ### Summary
 
 ```csharp
-private public private public sealed struct.Nullable<T> Intersects(ref private public sealed struct.Line line)
+public public sealed struct Nullable<T> Intersects(ref public sealed struct Line line)
 ```
 
 ### Returns
@@ -75,7 +75,7 @@ private public private public sealed struct.Nullable<T> Intersects(ref private 
 ### Summary
 
 ```csharp
-private public private public sealed enum.PlaneIntersectionType Intersects(ref private public sealed struct.Plane plane)
+public public sealed enum PlaneIntersectionType Intersects(ref public sealed struct Plane plane)
 ```
 
 ### Returns

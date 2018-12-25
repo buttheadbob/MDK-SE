@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public string Argument(int index)
+public string Argument(int index)
 ```
 
 Returns the argument at the given index. Switches are not counted.

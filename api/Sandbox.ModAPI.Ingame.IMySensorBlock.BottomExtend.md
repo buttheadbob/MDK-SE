@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual float BottomExtend { ; ; }
+public virtual float BottomExtend { ; ; }
 ```
 
 Gets or sets the bottom range of the sensor.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool TryDequeue<T>(private public class.Queue<T> queue, ref private public class.T result)
+public bool TryDequeue<T>(public class Queue<T> queue, ref public class T result)
 ```
 
 ### Returns

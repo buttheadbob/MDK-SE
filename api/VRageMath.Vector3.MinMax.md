@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void MinMax(ref private public sealed struct.Vector3 min, ref private public sealed struct.Vector3 max)
+public void MinMax(ref public sealed struct Vector3 min, ref public sealed struct Vector3 max)
 ```
 
 Separates minimal and maximal values of any two input vectors

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool Intersect(private public sealed struct.Ray ray, ref private public sealed struct.Vector3 p1, ref private public sealed struct.Vector3 p2, ref private public sealed struct.Vector3 n1, ref private public sealed struct.Vector3 n2)
+public bool Intersect(public sealed struct Ray ray, ref public sealed struct Vector3 p1, ref public sealed struct Vector3 p2, ref public sealed struct Vector3 n1, ref public sealed struct Vector3 n2)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public bool Intersect(private public sealed struct.Ray ray, ref private
 ### Summary
 
 ```csharp
-private public bool Intersect(private public sealed struct.Line line, ref private public sealed struct.Vector3 p1, ref private public sealed struct.Vector3 p2, ref private public sealed struct.Vector3 n1, ref private public sealed struct.Vector3 n2)
+public bool Intersect(public sealed struct Line line, ref public sealed struct Vector3 p1, ref public sealed struct Vector3 p2, ref public sealed struct Vector3 n1, ref public sealed struct Vector3 n2)
 ```
 
 ### Returns

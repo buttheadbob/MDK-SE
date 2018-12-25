@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public int IndexOf(private public class.CurveKey item)
+public int IndexOf(public class CurveKey item)
 ```
 
 Determines the index of a CurveKey in the CurveKeyCollection.

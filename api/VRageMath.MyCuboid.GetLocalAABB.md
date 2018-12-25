@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.BoundingBox GetLocalAABB()
+public public sealed struct BoundingBox GetLocalAABB()
 ```
 
 ### Returns

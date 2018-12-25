@@ -3,7 +3,7 @@
 #### MyAssemblerMode Enum
 
 ```csharp
-private public sealed enum.MyAssemblerMode
+public sealed enum MyAssemblerMode
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

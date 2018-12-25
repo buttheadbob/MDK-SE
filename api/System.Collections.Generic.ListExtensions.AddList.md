@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void AddList<T>(private public class.List<T> list, private public class.List<T> itemsToAdd)
+public void AddList<T>(public class List<T> list, public class List<T> itemsToAdd)
 ```
 
 ### Returns

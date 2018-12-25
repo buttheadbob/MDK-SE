@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public double X
+public double X
 ```
 
 Specifies the x-value of the vector component of the quaternion.

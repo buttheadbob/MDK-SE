@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public double Z
+public double Z
 ```
 
 Specifies the z-value of the vector component of the quaternion.

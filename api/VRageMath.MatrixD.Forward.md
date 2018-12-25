@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Vector3D Forward { ; ; }
+public public sealed struct Vector3D Forward { ; ; }
 ```
 
 Gets and sets the forward vector of the Matrix.

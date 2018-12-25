@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float Y
+public float Y
 ```
 
 Specifies the y-value of the vector component of the quaternion.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.MyDefinitionId BlueprintId
+public public sealed struct MyDefinitionId BlueprintId
 ```
 
 ### Returns

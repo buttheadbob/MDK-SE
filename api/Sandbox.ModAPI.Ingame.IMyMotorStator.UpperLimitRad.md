@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual float UpperLimitRad { ; ; }
+public virtual float UpperLimitRad { ; ; }
 ```
 
 Gets or sets the upper angle limit of the rotor in radians. Set to float.MaxValue for no limit.

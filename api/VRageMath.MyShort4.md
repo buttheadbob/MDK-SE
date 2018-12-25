@@ -3,7 +3,7 @@
 #### MyShort4 Struct
 
 ```csharp
-private public sealed struct.MyShort4
+public sealed struct MyShort4
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

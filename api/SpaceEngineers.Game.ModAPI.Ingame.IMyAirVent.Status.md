@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual private public sealed enum.VentStatus Status { ; }
+public virtual public sealed enum VentStatus Status { ; }
 ```
 
 Gets current air vent status

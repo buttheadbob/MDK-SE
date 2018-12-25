@@ -3,7 +3,7 @@
 #### PlaneIntersectionType Enum
 
 ```csharp
-private public sealed enum.PlaneIntersectionType
+public sealed enum PlaneIntersectionType
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

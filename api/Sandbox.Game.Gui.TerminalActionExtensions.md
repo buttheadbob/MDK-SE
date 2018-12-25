@@ -3,7 +3,7 @@
 #### TerminalActionExtensions Class
 
 ```csharp
-private public abstract sealed class.TerminalActionExtensions
+public abstract sealed class TerminalActionExtensions
 ```
 
 **Namespace:** [Sandbox.Game.Gui](Sandbox.Game.Gui)  

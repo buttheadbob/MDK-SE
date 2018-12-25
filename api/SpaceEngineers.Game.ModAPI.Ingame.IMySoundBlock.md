@@ -3,7 +3,7 @@
 #### IMySoundBlock Interface
 
 ```csharp
-private public interface.IMySoundBlock
+public interface IMySoundBlock
 ```
 
 **Namespace:** [SpaceEngineers.Game.ModAPI.Ingame](SpaceEngineers.Game.ModAPI.Ingame)  

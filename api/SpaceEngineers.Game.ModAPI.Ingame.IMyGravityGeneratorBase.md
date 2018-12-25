@@ -3,7 +3,7 @@
 #### IMyGravityGeneratorBase Interface
 
 ```csharp
-private public interface.IMyGravityGeneratorBase
+public interface IMyGravityGeneratorBase
 ```
 
 **Namespace:** [SpaceEngineers.Game.ModAPI.Ingame](SpaceEngineers.Game.ModAPI.Ingame)  

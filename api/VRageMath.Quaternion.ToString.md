@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual string ToString()
+public virtual string ToString()
 ```
 
 Retireves a string representation of the current object.
@@ -17,7 +17,7 @@ Retireves a string representation of the current object.
 ### Summary
 
 ```csharp
-private public string ToString(string format)
+public string ToString(string format)
 ```
 
 ### Returns

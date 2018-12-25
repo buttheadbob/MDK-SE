@@ -3,7 +3,7 @@
 #### IMyLaserAntenna Interface
 
 ```csharp
-private public interface.IMyLaserAntenna
+public interface IMyLaserAntenna
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

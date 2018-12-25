@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Matrix CreateLookAtInverse(private public sealed struct.Vector3D cameraPosition, private public sealed struct.Vector3D cameraTarget, private public sealed struct.Vector3D cameraUpVector)
+public public sealed struct Matrix CreateLookAtInverse(public sealed struct Vector3D cameraPosition, public sealed struct Vector3D cameraTarget, public sealed struct Vector3D cameraUpVector)
 ```
 
 ### Returns

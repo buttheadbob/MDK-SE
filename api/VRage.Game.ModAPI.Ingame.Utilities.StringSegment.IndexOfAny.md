@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public int IndexOfAny(private public sealed class.Char[] chars)
+public int IndexOfAny(public sealed class Char[] chars)
 ```
 
 ### Returns

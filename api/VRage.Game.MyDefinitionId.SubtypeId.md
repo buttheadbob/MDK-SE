@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.MyStringHash SubtypeId
+public public sealed struct MyStringHash SubtypeId
 ```
 
 ### Returns

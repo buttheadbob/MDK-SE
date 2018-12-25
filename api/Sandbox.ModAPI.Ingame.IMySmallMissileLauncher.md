@@ -3,7 +3,7 @@
 #### IMySmallMissileLauncher Interface
 
 ```csharp
-private public interface.IMySmallMissileLauncher
+public interface IMySmallMissileLauncher
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.MatrixD Identity
+public public sealed struct MatrixD Identity
 ```
 
 ### Returns

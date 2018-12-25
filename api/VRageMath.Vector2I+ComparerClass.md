@@ -3,7 +3,7 @@
 #### ComparerClass Class
 
 ```csharp
-private class.ComparerClass
+private class ComparerClass
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

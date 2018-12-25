@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Vector2 TransformNormal(private public sealed struct.Vector2 normal, private public sealed struct.Matrix matrix)
+public public sealed struct Vector2 TransformNormal(public sealed struct Vector2 normal, public sealed struct Matrix matrix)
 ```
 
 Transforms a 2D vector normal by a matrix.
@@ -17,7 +17,7 @@ Transforms a 2D vector normal by a matrix.
 ### Summary
 
 ```csharp
-private public void TransformNormal(ref private public sealed struct.Vector2 normal, ref private public sealed struct.Matrix matrix, ref private public sealed struct.Vector2 result)
+public void TransformNormal(ref public sealed struct Vector2 normal, ref public sealed struct Matrix matrix, ref public sealed struct Vector2 result)
 ```
 
 Transforms a vector normal by a matrix.
@@ -31,7 +31,7 @@ Transforms a vector normal by a matrix.
 ### Summary
 
 ```csharp
-private public void TransformNormal(private public sealed class.Vector2[] sourceArray, ref private public sealed struct.Matrix matrix, private public sealed class.Vector2[] destinationArray)
+public void TransformNormal(public sealed class Vector2[] sourceArray, ref public sealed struct Matrix matrix, public sealed class Vector2[] destinationArray)
 ```
 
 Transforms an array of Vector2 vector normals by a specified Matrix.
@@ -45,7 +45,7 @@ Transforms an array of Vector2 vector normals by a specified Matrix.
 ### Summary
 
 ```csharp
-private public void TransformNormal(private public sealed class.Vector2[] sourceArray, int sourceIndex, ref private public sealed struct.Matrix matrix, private public sealed class.Vector2[] destinationArray, int destinationIndex, int length)
+public void TransformNormal(public sealed class Vector2[] sourceArray, int sourceIndex, ref public sealed struct Matrix matrix, public sealed class Vector2[] destinationArray, int destinationIndex, int length)
 ```
 
 Transforms a specified range in an array of Vector2 vector normals by a specified Matrix and places the results in a specified range in a destination array.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Vector3D Left { ; ; }
+public public sealed struct Vector3D Left { ; ; }
 ```
 
 Gets and sets the left vector of the Matrix.

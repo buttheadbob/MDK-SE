@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool IsZero(float value, float epsilon)
+public bool IsZero(float value, float epsilon)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public bool IsZero(float value, float epsilon)
 ### Summary
 
 ```csharp
-private public bool IsZero(double value, float epsilon)
+public bool IsZero(double value, float epsilon)
 ```
 
 ### Returns
@@ -27,7 +27,7 @@ private public bool IsZero(double value, float epsilon)
 ### Summary
 
 ```csharp
-private public bool IsZero(private public sealed struct.Vector3 value, float epsilon)
+public bool IsZero(public sealed struct Vector3 value, float epsilon)
 ```
 
 ### Returns
@@ -39,7 +39,7 @@ private public bool IsZero(private public sealed struct.Vector3 value, float eps
 ### Summary
 
 ```csharp
-private public bool IsZero(private public sealed struct.Vector3D value, float epsilon)
+public bool IsZero(public sealed struct Vector3D value, float epsilon)
 ```
 
 ### Returns
@@ -51,7 +51,7 @@ private public bool IsZero(private public sealed struct.Vector3D value, float ep
 ### Summary
 
 ```csharp
-private public bool IsZero(private public sealed struct.Quaternion value, float epsilon)
+public bool IsZero(public sealed struct Quaternion value, float epsilon)
 ```
 
 ### Returns
@@ -63,7 +63,7 @@ private public bool IsZero(private public sealed struct.Quaternion value, float 
 ### Summary
 
 ```csharp
-private public bool IsZero(private public sealed struct.Vector4 value)
+public bool IsZero(public sealed struct Vector4 value)
 ```
 
 ### Returns

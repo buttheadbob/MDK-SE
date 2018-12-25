@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.SymmetricSerializableRange ConvertToCosineLongitude()
+public public sealed struct SymmetricSerializableRange ConvertToCosineLongitude()
 ```
 
 ### Returns

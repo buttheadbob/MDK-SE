@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private sealed enum.Direction GetFlippedDirection(private sealed enum.Direction toFlip)
+public private sealed enum Direction GetFlippedDirection(private sealed enum Direction toFlip)
 ```
 
 ### Returns

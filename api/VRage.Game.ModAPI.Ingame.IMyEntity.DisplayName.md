@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual string DisplayName { ; }
+public virtual string DisplayName { ; }
 ```
 
 ### Returns

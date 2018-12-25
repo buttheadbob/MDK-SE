@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float ProjectedArea(private public sealed struct.Vector3 viewDir)
+public float ProjectedArea(public sealed struct Vector3 viewDir)
 ```
 
 ### Returns

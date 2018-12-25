@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.MatrixD Orientation
+public public sealed struct MatrixD Orientation
 ```
 
 The entity's absolute orientation at the time it was detected

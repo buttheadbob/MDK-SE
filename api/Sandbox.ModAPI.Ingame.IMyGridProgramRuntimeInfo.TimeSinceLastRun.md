@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual private public sealed struct.TimeSpan TimeSinceLastRun { ; }
+public virtual public sealed struct TimeSpan TimeSinceLastRun { ; }
 ```
 
 Gets the time elapsed since the last time the Main method of this program was run. This property returns no valid data neither in the constructor nor the Save method.

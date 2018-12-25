@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool TryGetValue<T>(private public class.HashSet<T> hashset, private public class.T equalValue, ref private public class.T actualValue)
+public bool TryGetValue<T>(public class HashSet<T> hashset, public class T equalValue, ref public class T actualValue)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual private public interface.IMyShipConnector OtherConnector { ; }
+public virtual public interface IMyShipConnector OtherConnector { ; }
 ```
 
 Gets the connector this one is connected to when [Status](Sandbox.ModAPI.Ingame.IMyShipConnector.Status) is ConnectorStatus.Connected .

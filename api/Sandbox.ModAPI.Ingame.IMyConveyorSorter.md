@@ -3,7 +3,7 @@
 #### IMyConveyorSorter Interface
 
 ```csharp
-private public interface.IMyConveyorSorter
+public interface IMyConveyorSorter
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

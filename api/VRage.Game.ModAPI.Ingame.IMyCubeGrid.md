@@ -3,7 +3,7 @@
 #### IMyCubeGrid Interface
 
 ```csharp
-private public interface.IMyCubeGrid
+public interface IMyCubeGrid
 ```
 
 **Namespace:** [VRage.Game.ModAPI.Ingame](VRage.Game.ModAPI.Ingame)  

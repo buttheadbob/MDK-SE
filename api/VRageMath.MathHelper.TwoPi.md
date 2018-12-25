@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float TwoPi
+public float TwoPi
 ```
 
 Represents the value of pi times two.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float Min(float value1, float value2)
+public float Min(float value1, float value2)
 ```
 
 Returns the lesser of two values.
@@ -17,7 +17,7 @@ Returns the lesser of two values.
 ### Summary
 
 ```csharp
-private public double Min(double value1, double value2)
+public double Min(double value1, double value2)
 ```
 
 Returns the lesser of two values.
@@ -31,7 +31,7 @@ Returns the lesser of two values.
 ### Summary
 
 ```csharp
-private public float Min(float a, float b, float c)
+public float Min(float a, float b, float c)
 ```
 
 ### Returns
@@ -43,7 +43,7 @@ private public float Min(float a, float b, float c)
 ### Summary
 
 ```csharp
-private public double Min(double a, double b, double c)
+public double Min(double a, double b, double c)
 ```
 
 ### Returns

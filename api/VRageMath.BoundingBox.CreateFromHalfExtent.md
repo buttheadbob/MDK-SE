@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.BoundingBox CreateFromHalfExtent(private public sealed struct.Vector3 center, float halfExtent)
+public public sealed struct BoundingBox CreateFromHalfExtent(public sealed struct Vector3 center, float halfExtent)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public private public sealed struct.BoundingBox CreateFromHalfExtent(pri
 ### Summary
 
 ```csharp
-private public private public sealed struct.BoundingBox CreateFromHalfExtent(private public sealed struct.Vector3 center, private public sealed struct.Vector3 halfExtent)
+public public sealed struct BoundingBox CreateFromHalfExtent(public sealed struct Vector3 center, public sealed struct Vector3 halfExtent)
 ```
 
 ### Returns

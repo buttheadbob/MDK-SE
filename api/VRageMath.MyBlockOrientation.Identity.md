@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.MyBlockOrientation Identity
+public public sealed struct MyBlockOrientation Identity
 ```
 
 ### Returns

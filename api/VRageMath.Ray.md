@@ -3,7 +3,7 @@
 #### Ray Struct
 
 ```csharp
-private public sealed struct.Ray
+public sealed struct Ray
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

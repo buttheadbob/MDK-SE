@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float Normalize(float value)
+public float Normalize(float value)
 ```
 
 Normalize value inside the bounds so that 0 is Min and 1 is Max.

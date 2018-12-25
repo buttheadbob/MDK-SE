@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void GetAzimuthAndElevation(private public sealed struct.Vector3D v, ref double azimuth, ref double elevation)
+public void GetAzimuthAndElevation(public sealed struct Vector3D v, ref double azimuth, ref double elevation)
 ```
 
 ### Returns

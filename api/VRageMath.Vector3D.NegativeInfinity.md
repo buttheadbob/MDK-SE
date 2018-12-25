@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Vector3D NegativeInfinity
+public public sealed struct Vector3D NegativeInfinity
 ```
 
 ### Returns

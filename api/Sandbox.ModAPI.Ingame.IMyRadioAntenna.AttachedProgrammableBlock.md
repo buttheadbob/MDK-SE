@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual long AttachedProgrammableBlock { ; ; }
+public virtual long AttachedProgrammableBlock { ; ; }
 ```
 
 Gets or sets the EntityID of the Programmable Block attached to this antenna.

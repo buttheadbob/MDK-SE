@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void Inflate(float size)
+public void Inflate(float size)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public void Inflate(float size)
 ### Summary
 
 ```csharp
-private public void Inflate(private public sealed struct.Vector3 size)
+public void Inflate(public sealed struct Vector3 size)
 ```
 
 ### Returns

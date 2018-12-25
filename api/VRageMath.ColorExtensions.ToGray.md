@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Vector3 ToGray(private public sealed struct.Vector3 c)
+public public sealed struct Vector3 ToGray(public sealed struct Vector3 c)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public private public sealed struct.Vector3 ToGray(private public sealed
 ### Summary
 
 ```csharp
-private public private public sealed struct.Vector4 ToGray(private public sealed struct.Vector4 c)
+public public sealed struct Vector4 ToGray(public sealed struct Vector4 c)
 ```
 
 ### Returns

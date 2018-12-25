@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.MatrixD TransformMatrix { ; }
+public public sealed struct MatrixD TransformMatrix { ; }
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float Evaluate(float position)
+public float Evaluate(float position)
 ```
 
 Finds the value at a position on the Curve.

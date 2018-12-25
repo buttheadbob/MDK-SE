@@ -3,7 +3,7 @@
 #### CompressedPositionOrientation Struct
 
 ```csharp
-private public sealed struct.CompressedPositionOrientation
+public sealed struct CompressedPositionOrientation
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

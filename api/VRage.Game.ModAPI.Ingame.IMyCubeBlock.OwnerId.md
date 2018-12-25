@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual long OwnerId { ; }
+public virtual long OwnerId { ; }
 ```
 
 Id of player owning block (not steam Id)

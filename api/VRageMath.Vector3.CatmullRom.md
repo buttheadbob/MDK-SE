@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Vector3 CatmullRom(private public sealed struct.Vector3 value1, private public sealed struct.Vector3 value2, private public sealed struct.Vector3 value3, private public sealed struct.Vector3 value4, float amount)
+public public sealed struct Vector3 CatmullRom(public sealed struct Vector3 value1, public sealed struct Vector3 value2, public sealed struct Vector3 value3, public sealed struct Vector3 value4, float amount)
 ```
 
 Performs a Catmull-Rom interpolation using the specified positions.
@@ -17,7 +17,7 @@ Performs a Catmull-Rom interpolation using the specified positions.
 ### Summary
 
 ```csharp
-private public void CatmullRom(ref private public sealed struct.Vector3 value1, ref private public sealed struct.Vector3 value2, ref private public sealed struct.Vector3 value3, ref private public sealed struct.Vector3 value4, float amount, ref private public sealed struct.Vector3 result)
+public void CatmullRom(ref public sealed struct Vector3 value1, ref public sealed struct Vector3 value2, ref public sealed struct Vector3 value3, ref public sealed struct Vector3 value4, float amount, ref public sealed struct Vector3 result)
 ```
 
 Performs a Catmull-Rom interpolation using the specified positions.

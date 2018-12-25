@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual void TrackTarget(private public sealed struct.Vector3D pos, private public sealed struct.Vector3 velocity)
+public virtual void TrackTarget(public sealed struct Vector3D pos, public sealed struct Vector3 velocity)
 ```
 
 Tracks given target with enabled position prediction

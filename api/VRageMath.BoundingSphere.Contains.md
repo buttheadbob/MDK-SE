@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed enum.ContainmentType Contains(private public sealed struct.BoundingBox box)
+public public sealed enum ContainmentType Contains(public sealed struct BoundingBox box)
 ```
 
 Checks whether the current BoundingSphere contains the specified BoundingBox.
@@ -17,7 +17,7 @@ Checks whether the current BoundingSphere contains the specified BoundingBox.
 ### Summary
 
 ```csharp
-private public void Contains(ref private public sealed struct.BoundingBox box, ref private public sealed enum.ContainmentType result)
+public void Contains(ref public sealed struct BoundingBox box, ref public sealed enum ContainmentType result)
 ```
 
 Checks whether the current BoundingSphere contains the specified BoundingBox.
@@ -31,7 +31,7 @@ Checks whether the current BoundingSphere contains the specified BoundingBox.
 ### Summary
 
 ```csharp
-private public private public sealed enum.ContainmentType Contains(private public class.BoundingFrustum frustum)
+public public sealed enum ContainmentType Contains(public class BoundingFrustum frustum)
 ```
 
 Checks whether the current BoundingSphere contains the specified BoundingFrustum.
@@ -45,7 +45,7 @@ Checks whether the current BoundingSphere contains the specified BoundingFrustum
 ### Summary
 
 ```csharp
-private public private public sealed enum.ContainmentType Contains(private public sealed struct.Vector3 point)
+public public sealed enum ContainmentType Contains(public sealed struct Vector3 point)
 ```
 
 Checks whether the current BoundingSphere contains the specified point.
@@ -59,7 +59,7 @@ Checks whether the current BoundingSphere contains the specified point.
 ### Summary
 
 ```csharp
-private public void Contains(ref private public sealed struct.Vector3 point, ref private public sealed enum.ContainmentType result)
+public void Contains(ref public sealed struct Vector3 point, ref public sealed enum ContainmentType result)
 ```
 
 Checks whether the current BoundingSphere contains the specified point.
@@ -73,7 +73,7 @@ Checks whether the current BoundingSphere contains the specified point.
 ### Summary
 
 ```csharp
-private public private public sealed enum.ContainmentType Contains(private public sealed struct.BoundingSphere sphere)
+public public sealed enum ContainmentType Contains(public sealed struct BoundingSphere sphere)
 ```
 
 Checks whether the current BoundingSphere contains the specified BoundingSphere.
@@ -87,7 +87,7 @@ Checks whether the current BoundingSphere contains the specified BoundingSphere.
 ### Summary
 
 ```csharp
-private public void Contains(ref private public sealed struct.BoundingSphere sphere, ref private public sealed enum.ContainmentType result)
+public void Contains(ref public sealed struct BoundingSphere sphere, ref public sealed enum ContainmentType result)
 ```
 
 Checks whether the current BoundingSphere contains the specified BoundingSphere.

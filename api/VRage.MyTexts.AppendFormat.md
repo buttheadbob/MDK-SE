@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed class.StringBuilder AppendFormat(private public sealed class.StringBuilder stringBuilder, private public sealed struct.MyStringId textEnum, object arg0)
+public public sealed class StringBuilder AppendFormat(public sealed class StringBuilder stringBuilder, public sealed struct MyStringId textEnum, object arg0)
 ```
 
 ### Returns

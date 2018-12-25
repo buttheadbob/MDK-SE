@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual private public sealed struct.Vector3D GridIntegerToWorld(private public sealed struct.Vector3I gridCoords)
+public virtual public sealed struct Vector3D GridIntegerToWorld(public sealed struct Vector3I gridCoords)
 ```
 
 Converts grid coordinates to world space

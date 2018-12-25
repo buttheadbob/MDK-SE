@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual bool DetectFriendly { ; ; }
+public virtual bool DetectFriendly { ; ; }
 ```
 
 Gets or sets if the sensor should detect friendly players.

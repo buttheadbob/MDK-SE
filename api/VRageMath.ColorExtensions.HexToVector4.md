@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Vector4 HexToVector4(string hex)
+public public sealed struct Vector4 HexToVector4(string hex)
 ```
 
 ### Returns

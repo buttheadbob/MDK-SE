@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed enum.PlaneIntersectionType Intersects(private public sealed struct.BoundingBoxD box)
+public public sealed enum PlaneIntersectionType Intersects(public sealed struct BoundingBoxD box)
 ```
 
 Checks whether the current PlaneD intersects a specified BoundingBox.
@@ -17,7 +17,7 @@ Checks whether the current PlaneD intersects a specified BoundingBox.
 ### Summary
 
 ```csharp
-private public void Intersects(ref private public sealed struct.BoundingBoxD box, ref private public sealed enum.PlaneIntersectionType result)
+public void Intersects(ref public sealed struct BoundingBoxD box, ref public sealed enum PlaneIntersectionType result)
 ```
 
 Checks whether the current PlaneD intersects a BoundingBox.
@@ -31,7 +31,7 @@ Checks whether the current PlaneD intersects a BoundingBox.
 ### Summary
 
 ```csharp
-private public private public sealed enum.PlaneIntersectionType Intersects(private public class.BoundingFrustumD frustum)
+public public sealed enum PlaneIntersectionType Intersects(public class BoundingFrustumD frustum)
 ```
 
 Checks whether the current PlaneD intersects a specified BoundingFrustum.
@@ -45,7 +45,7 @@ Checks whether the current PlaneD intersects a specified BoundingFrustum.
 ### Summary
 
 ```csharp
-private public private public sealed enum.PlaneIntersectionType Intersects(private public sealed struct.BoundingSphereD sphere)
+public public sealed enum PlaneIntersectionType Intersects(public sealed struct BoundingSphereD sphere)
 ```
 
 Checks whether the current PlaneD intersects a specified BoundingSphere.
@@ -59,7 +59,7 @@ Checks whether the current PlaneD intersects a specified BoundingSphere.
 ### Summary
 
 ```csharp
-private public void Intersects(ref private public sealed struct.BoundingSphere sphere, ref private public sealed enum.PlaneIntersectionType result)
+public void Intersects(ref public sealed struct BoundingSphere sphere, ref public sealed enum PlaneIntersectionType result)
 ```
 
 Checks whether the current PlaneD intersects a BoundingSphere.

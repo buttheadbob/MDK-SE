@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float Length()
+public float Length()
 ```
 
 Calculates the length of the vector.

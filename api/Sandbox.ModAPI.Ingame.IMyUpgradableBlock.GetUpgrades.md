@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual void GetUpgrades(ref private public class.Dictionary<TKey, TValue> upgrades)
+public virtual void GetUpgrades(ref public class Dictionary<TKey, TValue> upgrades)
 ```
 
 ### Returns

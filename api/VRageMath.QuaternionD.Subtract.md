@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.QuaternionD Subtract(private public sealed struct.QuaternionD quaternion1, private public sealed struct.QuaternionD quaternion2)
+public public sealed struct QuaternionD Subtract(public sealed struct QuaternionD quaternion1, public sealed struct QuaternionD quaternion2)
 ```
 
 Subtracts a quaternion from another quaternion.
@@ -17,7 +17,7 @@ Subtracts a quaternion from another quaternion.
 ### Summary
 
 ```csharp
-private public void Subtract(ref private public sealed struct.QuaternionD quaternion1, ref private public sealed struct.QuaternionD quaternion2, ref private public sealed struct.QuaternionD result)
+public void Subtract(ref public sealed struct QuaternionD quaternion1, ref public sealed struct QuaternionD quaternion2, ref public sealed struct QuaternionD result)
 ```
 
 Subtracts a quaternion from another quaternion.

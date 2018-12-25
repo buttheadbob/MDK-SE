@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private sealed struct.Enumerator<T> GetEnumerator()
+public private sealed struct Enumerator<T> GetEnumerator()
 ```
 
 ### Returns

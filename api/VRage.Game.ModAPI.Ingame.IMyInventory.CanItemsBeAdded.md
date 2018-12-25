@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual bool CanItemsBeAdded(private public sealed struct.MyFixedPoint amount, private public sealed struct.SerializableDefinitionId contentId)
+public virtual bool CanItemsBeAdded(public sealed struct MyFixedPoint amount, public sealed struct SerializableDefinitionId contentId)
 ```
 
 ### Returns

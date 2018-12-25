@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual void Play()
+public virtual void Play()
 ```
 
 Plays the currently selected sound.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual float Elevation { ; ; }
+public virtual float Elevation { ; ; }
 ```
 
 Sets/gets elevation of turret, this method is not synced, you need to sync elevation manually

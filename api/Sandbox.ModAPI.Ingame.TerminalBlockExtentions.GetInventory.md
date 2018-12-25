@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public interface.IMyInventory GetInventory(private public interface.IMyTerminalBlock block, int index)
+public public interface IMyInventory GetInventory(public interface IMyTerminalBlock block, int index)
 ```
 
 ### Returns

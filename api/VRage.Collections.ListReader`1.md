@@ -3,7 +3,7 @@
 #### ListReader&lt;T&gt; Struct
 
 ```csharp
-private public sealed struct.ListReader<T>
+public sealed struct ListReader<T>
 ```
 
 **Namespace:** [VRage.Collections](VRage.Collections)  

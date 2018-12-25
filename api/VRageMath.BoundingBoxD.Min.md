@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Vector3D Min
+public public sealed struct Vector3D Min
 ```
 
 The minimum point the BoundingBox contains.

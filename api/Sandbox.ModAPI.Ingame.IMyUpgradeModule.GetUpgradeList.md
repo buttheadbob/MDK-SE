@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual void GetUpgradeList(ref private public class.List<T> upgrades)
+public virtual void GetUpgradeList(ref public class List<T> upgrades)
 ```
 
 ### Returns

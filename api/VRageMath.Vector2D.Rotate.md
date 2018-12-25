@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void Rotate(double angle)
+public void Rotate(double angle)
 ```
 
 ### Returns

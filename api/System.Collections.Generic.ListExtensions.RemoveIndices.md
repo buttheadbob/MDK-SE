@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void RemoveIndices<T>(private public class.List<T> list, private public class.List<T> indices)
+public void RemoveIndices<T>(public class List<T> list, public class List<T> indices)
 ```
 
 ### Returns

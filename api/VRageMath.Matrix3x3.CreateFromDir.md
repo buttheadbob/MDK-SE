@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Matrix3x3 CreateFromDir(private public sealed struct.Vector3 dir)
+public public sealed struct Matrix3x3 CreateFromDir(public sealed struct Vector3 dir)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public private public sealed struct.Matrix3x3 CreateFromDir(private publ
 ### Summary
 
 ```csharp
-private public private public sealed struct.Matrix3x3 CreateFromDir(private public sealed struct.Vector3 dir, private public sealed struct.Vector3 suggestedUp)
+public public sealed struct Matrix3x3 CreateFromDir(public sealed struct Vector3 dir, public sealed struct Vector3 suggestedUp)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void Rescale(ref private public sealed struct.Matrix3x3 matrix, float scale)
+public void Rescale(ref public sealed struct Matrix3x3 matrix, float scale)
 ```
 
 Same result as Matrix3x3.CreateScale(scale) * matrix, but much faster
@@ -17,7 +17,7 @@ Same result as Matrix3x3.CreateScale(scale) * matrix, but much faster
 ### Summary
 
 ```csharp
-private public void Rescale(ref private public sealed struct.Matrix3x3 matrix, ref private public sealed struct.Vector3 scale)
+public void Rescale(ref public sealed struct Matrix3x3 matrix, ref public sealed struct Vector3 scale)
 ```
 
 Same result as Matrix3x3.CreateScale(scale) * matrix, but much faster
@@ -31,7 +31,7 @@ Same result as Matrix3x3.CreateScale(scale) * matrix, but much faster
 ### Summary
 
 ```csharp
-private public private public sealed struct.Matrix3x3 Rescale(private public sealed struct.Matrix3x3 matrix, float scale)
+public public sealed struct Matrix3x3 Rescale(public sealed struct Matrix3x3 matrix, float scale)
 ```
 
 ### Returns
@@ -43,7 +43,7 @@ private public private public sealed struct.Matrix3x3 Rescale(private public sea
 ### Summary
 
 ```csharp
-private public private public sealed struct.Matrix3x3 Rescale(private public sealed struct.Matrix3x3 matrix, private public sealed struct.Vector3 scale)
+public public sealed struct Matrix3x3 Rescale(public sealed struct Matrix3x3 matrix, public sealed struct Vector3 scale)
 ```
 
 ### Returns

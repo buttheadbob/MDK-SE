@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void Interpolate3(private public sealed struct.Vector3D v0, private public sealed struct.Vector3D v1, double rt)
+public void Interpolate3(public sealed struct Vector3D v0, public sealed struct Vector3D v1, double rt)
 ```
 
 ### Returns

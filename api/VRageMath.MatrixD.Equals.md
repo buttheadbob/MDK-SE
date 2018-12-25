@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool Equals(private public sealed struct.MatrixD other)
+public bool Equals(public sealed struct MatrixD other)
 ```
 
 Determines whether the specified Object is equal to the Matrix.
@@ -17,7 +17,7 @@ Determines whether the specified Object is equal to the Matrix.
 ### Summary
 
 ```csharp
-private public virtual bool Equals(object obj)
+public virtual bool Equals(object obj)
 ```
 
 Returns a value that indicates whether the current instance is equal to a specified object.

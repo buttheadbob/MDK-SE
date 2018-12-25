@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual bool StockpileAllocated { ; }
+public virtual bool StockpileAllocated { ; }
 ```
 
 A component stockpile has been allocated

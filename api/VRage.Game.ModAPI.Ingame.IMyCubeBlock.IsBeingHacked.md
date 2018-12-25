@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual bool IsBeingHacked { ; }
+public virtual bool IsBeingHacked { ; }
 ```
 
 Hacking of the block is in progress

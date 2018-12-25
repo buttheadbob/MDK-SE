@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float Atan(float x)
+public float Atan(float x)
 ```
 
 Faster Atan implementation. Good only in the [-pi/2, pi/2] range.
@@ -19,7 +19,7 @@ Faster Atan implementation. Good only in the [-pi/2, pi/2] range.
 ### Summary
 
 ```csharp
-private public double Atan(double x)
+public double Atan(double x)
 ```
 
 Faster Atan implementation. Good only in the [-pi/2, pi/2] range.

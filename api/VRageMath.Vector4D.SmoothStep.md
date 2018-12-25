@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Vector4D SmoothStep(private public sealed struct.Vector4D value1, private public sealed struct.Vector4D value2, double amount)
+public public sealed struct Vector4D SmoothStep(public sealed struct Vector4D value1, public sealed struct Vector4D value2, double amount)
 ```
 
 Interpolates between two values using a cubic equation.
@@ -17,7 +17,7 @@ Interpolates between two values using a cubic equation.
 ### Summary
 
 ```csharp
-private public void SmoothStep(ref private public sealed struct.Vector4D value1, ref private public sealed struct.Vector4D value2, double amount, ref private public sealed struct.Vector4D result)
+public void SmoothStep(ref public sealed struct Vector4D value1, ref public sealed struct Vector4D value2, double amount, ref public sealed struct Vector4D result)
 ```
 
 Interpolates between two values using a cubic equation.

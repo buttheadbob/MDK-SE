@@ -3,7 +3,7 @@
 #### AddOp&lt;T&gt; Interface
 
 ```csharp
-private public interface.AddOp<T>
+public interface AddOp<T>
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

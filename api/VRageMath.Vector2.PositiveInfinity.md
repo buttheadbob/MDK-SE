@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Vector2 PositiveInfinity
+public public sealed struct Vector2 PositiveInfinity
 ```
 
 ### Returns

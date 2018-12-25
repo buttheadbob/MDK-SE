@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual private public interface.IMyInventory OutputInventory { ; }
+public virtual public interface IMyInventory OutputInventory { ; }
 ```
 
 Gets the output inventory.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public double Area()
+public double Area()
 ```
 
 ### Returns

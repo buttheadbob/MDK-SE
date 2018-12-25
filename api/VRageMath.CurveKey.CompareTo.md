@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public int CompareTo(private public class.CurveKey other)
+public int CompareTo(public class CurveKey other)
 ```
 
 Compares this instance to another CurveKey and returns an indication of their relative values.

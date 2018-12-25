@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual void SetValue(private public interface.IMyCubeBlock block, private public class.TValue value)
+public virtual void SetValue(public interface IMyCubeBlock block, public class TValue value)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public class.CurveKeyCollection Keys { ; }
+public public class CurveKeyCollection Keys { ; }
 ```
 
 The points that make up the curve.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual void DetectedEntities(private public class.List<T> entities)
+public virtual void DetectedEntities(public class List<T> entities)
 ```
 
 ### Returns

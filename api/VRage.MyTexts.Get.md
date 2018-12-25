@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed class.StringBuilder Get(private public sealed struct.MyStringId id)
+public public sealed class StringBuilder Get(public sealed struct MyStringId id)
 ```
 
 ### Returns

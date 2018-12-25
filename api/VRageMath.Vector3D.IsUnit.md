@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool IsUnit(ref private public sealed struct.Vector3D value)
+public bool IsUnit(ref public sealed struct Vector3D value)
 ```
 
 ### Returns

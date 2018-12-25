@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float Clamp(float value)
+public float Clamp(float value)
 ```
 
 ### Returns

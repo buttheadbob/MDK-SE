@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool TryParseFromString(string p, ref private public sealed struct.Vector3L vec)
+public bool TryParseFromString(string p, ref public sealed struct Vector3L vec)
 ```
 
 ### Returns

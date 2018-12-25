@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.MatrixD CreatePerspective(double width, double height, double nearPlaneDistance, double farPlaneDistance)
+public public sealed struct MatrixD CreatePerspective(double width, double height, double nearPlaneDistance, double farPlaneDistance)
 ```
 
 Builds a perspective projection matrix and returns the result by value.
@@ -17,7 +17,7 @@ Builds a perspective projection matrix and returns the result by value.
 ### Summary
 
 ```csharp
-private public void CreatePerspective(double width, double height, double nearPlaneDistance, double farPlaneDistance, ref private public sealed struct.MatrixD result)
+public void CreatePerspective(double width, double height, double nearPlaneDistance, double farPlaneDistance, ref public sealed struct MatrixD result)
 ```
 
 Builds a perspective projection matrix and returns the result by reference.

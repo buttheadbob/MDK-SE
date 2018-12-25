@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual void WriteValue(private public interface.IMyCubeBlock block, private public sealed class.StringBuilder appendTo)
+public virtual void WriteValue(public interface IMyCubeBlock block, public sealed class StringBuilder appendTo)
 ```
 
 ### Returns

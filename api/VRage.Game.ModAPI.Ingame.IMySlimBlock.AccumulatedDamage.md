@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual float AccumulatedDamage { ; }
+public virtual float AccumulatedDamage { ; }
 ```
 
 Current accumlated damage, pending application

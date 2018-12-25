@@ -3,7 +3,7 @@
 #### IMyLandingGear Interface
 
 ```csharp
-private public interface.IMyLandingGear
+public interface IMyLandingGear
 ```
 
 **Namespace:** [SpaceEngineers.Game.ModAPI.Ingame](SpaceEngineers.Game.ModAPI.Ingame)  

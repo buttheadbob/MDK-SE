@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual string ToString()
+public virtual string ToString()
 ```
 
 Converts this GPS coordinate to its string equivalent

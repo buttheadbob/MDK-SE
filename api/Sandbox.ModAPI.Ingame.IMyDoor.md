@@ -3,7 +3,7 @@
 #### IMyDoor Interface
 
 ```csharp
-private public interface.IMyDoor
+public interface IMyDoor
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

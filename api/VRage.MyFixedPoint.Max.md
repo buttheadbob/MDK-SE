@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.MyFixedPoint Max(private public sealed struct.MyFixedPoint a, private public sealed struct.MyFixedPoint b)
+public public sealed struct MyFixedPoint Max(public sealed struct MyFixedPoint a, public sealed struct MyFixedPoint b)
 ```
 
 ### Returns

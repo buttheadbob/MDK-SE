@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public short Z
+public short Z
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual void Stop()
+public virtual void Stop()
 ```
 
 Stops the currently playing sound.

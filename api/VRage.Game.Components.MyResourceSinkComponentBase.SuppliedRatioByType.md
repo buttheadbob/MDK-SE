@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual float SuppliedRatioByType(private public sealed struct.MyDefinitionId resourceTypeId)
+public virtual float SuppliedRatioByType(public sealed struct MyDefinitionId resourceTypeId)
 ```
 
 ### Returns

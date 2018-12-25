@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Quaternion Lerp(private public sealed struct.Quaternion quaternion1, private public sealed struct.Quaternion quaternion2, float amount)
+public public sealed struct Quaternion Lerp(public sealed struct Quaternion quaternion1, public sealed struct Quaternion quaternion2, float amount)
 ```
 
 Linearly interpolates between two quaternions.
@@ -17,7 +17,7 @@ Linearly interpolates between two quaternions.
 ### Summary
 
 ```csharp
-private public void Lerp(ref private public sealed struct.Quaternion quaternion1, ref private public sealed struct.Quaternion quaternion2, float amount, ref private public sealed struct.Quaternion result)
+public void Lerp(ref public sealed struct Quaternion quaternion1, ref public sealed struct Quaternion quaternion2, float amount, ref public sealed struct Quaternion result)
 ```
 
 Linearly interpolates between two quaternions.

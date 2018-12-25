@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public long Y
+public long Y
 ```
 
 ### Returns

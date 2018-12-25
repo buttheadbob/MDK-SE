@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float NormalizeAngle(float angle, float center)
+public float NormalizeAngle(float angle, float center)
 ```
 
 ### Returns

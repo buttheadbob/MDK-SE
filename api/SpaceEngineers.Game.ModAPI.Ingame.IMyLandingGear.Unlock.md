@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual void Unlock()
+public virtual void Unlock()
 ```
 
 Unlocks the landing gear.

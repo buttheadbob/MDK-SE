@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public string SubtypeName
+public string SubtypeName
 ```
 
 ### Returns

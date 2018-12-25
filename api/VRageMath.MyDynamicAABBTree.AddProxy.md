@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public int AddProxy(ref private public sealed struct.BoundingBox aabb, object userData, uint userFlags, bool rebalance)
+public int AddProxy(ref public sealed struct BoundingBox aabb, object userData, uint userFlags, bool rebalance)
 ```
 
 Create a proxy. Provide a tight fitting BoundingBox and a userData pointer.

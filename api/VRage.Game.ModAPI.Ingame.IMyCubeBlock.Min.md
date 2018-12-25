@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual private public sealed struct.Vector3I Min { ; }
+public virtual public sealed struct Vector3I Min { ; }
 ```
 
 Minimum coordinates of grid cells occupied by this block

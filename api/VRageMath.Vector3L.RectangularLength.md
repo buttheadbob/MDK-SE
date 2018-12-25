@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public long RectangularLength()
+public long RectangularLength()
 ```
 
 Calculates rectangular distance of this vector, longerpreted as a polong, from the origin.

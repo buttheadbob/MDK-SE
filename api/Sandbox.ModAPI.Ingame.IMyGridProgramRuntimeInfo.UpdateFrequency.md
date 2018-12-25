@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual private public sealed enum.UpdateFrequency UpdateFrequency { ; ; }
+public virtual public sealed enum UpdateFrequency UpdateFrequency { ; ; }
 ```
 
 Gets or sets how frequently this script will run itself

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool IsValid(private public sealed struct.Matrix matrix)
+public bool IsValid(public sealed struct Matrix matrix)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public bool IsValid(private public sealed struct.Matrix matrix)
 ### Summary
 
 ```csharp
-private public bool IsValid(private public sealed struct.MatrixD matrix)
+public bool IsValid(public sealed struct MatrixD matrix)
 ```
 
 ### Returns
@@ -27,7 +27,7 @@ private public bool IsValid(private public sealed struct.MatrixD matrix)
 ### Summary
 
 ```csharp
-private public bool IsValid(private public sealed struct.Vector3 vec)
+public bool IsValid(public sealed struct Vector3 vec)
 ```
 
 ### Returns
@@ -39,7 +39,7 @@ private public bool IsValid(private public sealed struct.Vector3 vec)
 ### Summary
 
 ```csharp
-private public bool IsValid(private public sealed struct.Vector3D vec)
+public bool IsValid(public sealed struct Vector3D vec)
 ```
 
 ### Returns
@@ -51,7 +51,7 @@ private public bool IsValid(private public sealed struct.Vector3D vec)
 ### Summary
 
 ```csharp
-private public bool IsValid(private public sealed struct.Vector2 vec)
+public bool IsValid(public sealed struct Vector2 vec)
 ```
 
 ### Returns
@@ -63,7 +63,7 @@ private public bool IsValid(private public sealed struct.Vector2 vec)
 ### Summary
 
 ```csharp
-private public bool IsValid(float f)
+public bool IsValid(float f)
 ```
 
 ### Returns
@@ -75,7 +75,7 @@ private public bool IsValid(float f)
 ### Summary
 
 ```csharp
-private public bool IsValid(double f)
+public bool IsValid(double f)
 ```
 
 ### Returns
@@ -87,7 +87,7 @@ private public bool IsValid(double f)
 ### Summary
 
 ```csharp
-private public bool IsValid(private public sealed struct.Nullable<T> vec)
+public bool IsValid(public sealed struct Nullable<T> vec)
 ```
 
 ### Returns
@@ -99,7 +99,7 @@ private public bool IsValid(private public sealed struct.Nullable<T> vec)
 ### Summary
 
 ```csharp
-private public bool IsValid(private public sealed struct.Quaternion q)
+public bool IsValid(public sealed struct Quaternion q)
 ```
 
 ### Returns

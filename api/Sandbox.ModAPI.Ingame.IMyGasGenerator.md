@@ -3,7 +3,7 @@
 #### IMyGasGenerator Interface
 
 ```csharp
-private public interface.IMyGasGenerator
+public interface IMyGasGenerator
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

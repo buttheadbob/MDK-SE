@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual private public interface.ITerminalAction GetActionWithName(string name)
+public virtual public interface ITerminalAction GetActionWithName(string name)
 ```
 
 ### Returns

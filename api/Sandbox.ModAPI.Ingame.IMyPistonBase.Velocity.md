@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual float Velocity { ; ; }
+public virtual float Velocity { ; ; }
 ```
 
 Gets or sets the velocity of the piston as it extends or retracts. This value can be between negative and positive [MaxVelocity](Sandbox.ModAPI.Ingame.IMyPistonBase.MaxVelocity) .

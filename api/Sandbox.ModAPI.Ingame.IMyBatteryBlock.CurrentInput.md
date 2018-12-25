@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual float CurrentInput { ; }
+public virtual float CurrentInput { ; }
 ```
 
 ### Returns

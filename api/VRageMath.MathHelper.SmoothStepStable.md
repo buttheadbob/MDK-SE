@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float SmoothStepStable(float amount)
+public float SmoothStepStable(float amount)
 ```
 
 Interpolates between zero and one using cubic equiation, solved by de Casteljau.
@@ -17,7 +17,7 @@ Interpolates between zero and one using cubic equiation, solved by de Casteljau.
 ### Summary
 
 ```csharp
-private public double SmoothStepStable(double amount)
+public double SmoothStepStable(double amount)
 ```
 
 Interpolates between zero and one using cubic equiation, solved by de Casteljau.

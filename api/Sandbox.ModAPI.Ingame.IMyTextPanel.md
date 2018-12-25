@@ -3,7 +3,7 @@
 #### IMyTextPanel Interface
 
 ```csharp
-private public interface.IMyTextPanel
+public interface IMyTextPanel
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

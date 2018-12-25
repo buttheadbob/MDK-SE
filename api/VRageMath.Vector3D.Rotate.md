@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void Rotate(ref private public sealed struct.Vector3D vector, ref private public sealed struct.MatrixD rotationMatrix, ref private public sealed struct.Vector3D result)
+public void Rotate(ref public sealed struct Vector3D vector, ref public sealed struct MatrixD rotationMatrix, ref public sealed struct Vector3D result)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public void Rotate(ref private public sealed struct.Vector3D vector, re
 ### Summary
 
 ```csharp
-private public private public sealed struct.Vector3D Rotate(private public sealed struct.Vector3D vector, private public sealed struct.MatrixD rotationMatrix)
+public public sealed struct Vector3D Rotate(public sealed struct Vector3D vector, public sealed struct MatrixD rotationMatrix)
 ```
 
 ### Returns

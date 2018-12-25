@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Vector3 TemperatureToRGB(float temperature)
+public public sealed struct Vector3 TemperatureToRGB(float temperature)
 ```
 
 ### Returns

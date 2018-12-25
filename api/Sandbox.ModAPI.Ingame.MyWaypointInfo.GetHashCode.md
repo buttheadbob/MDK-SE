@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual int GetHashCode()
+public virtual int GetHashCode()
 ```
 
 Gets the hashcode of this coordinate

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void Slerp(ref private public sealed struct.Matrix3x3 matrix1, ref private public sealed struct.Matrix3x3 matrix2, float amount, ref private public sealed struct.Matrix3x3 result)
+public void Slerp(ref public sealed struct Matrix3x3 matrix1, ref public sealed struct Matrix3x3 matrix2, float amount, ref public sealed struct Matrix3x3 result)
 ```
 
 Performs spherical linear interpolation of position and rotation.

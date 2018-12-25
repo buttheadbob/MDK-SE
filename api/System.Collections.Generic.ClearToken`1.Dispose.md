@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void Dispose()
+public void Dispose()
 ```
 
 ### Returns

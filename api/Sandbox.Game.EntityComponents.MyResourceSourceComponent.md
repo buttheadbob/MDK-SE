@@ -3,7 +3,7 @@
 #### MyResourceSourceComponent Class
 
 ```csharp
-private public class.MyResourceSourceComponent
+public class MyResourceSourceComponent
 ```
 
 **Namespace:** [Sandbox.Game.EntityComponents](Sandbox.Game.EntityComponents)  

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Matrix CreateWorld(private public sealed struct.Vector3 position)
+public public sealed struct Matrix CreateWorld(public sealed struct Vector3 position)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public private public sealed struct.Matrix CreateWorld(private public se
 ### Summary
 
 ```csharp
-private public private public sealed struct.Matrix CreateWorld(private public sealed struct.Vector3 position, private public sealed struct.Vector3 forward, private public sealed struct.Vector3 up)
+public public sealed struct Matrix CreateWorld(public sealed struct Vector3 position, public sealed struct Vector3 forward, public sealed struct Vector3 up)
 ```
 
 Creates a world matrix with the specified parameters.
@@ -29,7 +29,7 @@ Creates a world matrix with the specified parameters.
 ### Summary
 
 ```csharp
-private public void CreateWorld(ref private public sealed struct.Vector3 position, ref private public sealed struct.Vector3 forward, ref private public sealed struct.Vector3 up, ref private public sealed struct.Matrix result)
+public void CreateWorld(ref public sealed struct Vector3 position, ref public sealed struct Vector3 forward, ref public sealed struct Vector3 up, ref public sealed struct Matrix result)
 ```
 
 Creates a world matrix with the specified parameters.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float Max
+public float Max
 ```
 
 ### Returns

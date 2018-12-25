@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void SetDim(int i, double value)
+public void SetDim(int i, double value)
 ```
 
 ### Returns

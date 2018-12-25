@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool IsMirrored()
+public bool IsMirrored()
 ```
 
 ### Returns

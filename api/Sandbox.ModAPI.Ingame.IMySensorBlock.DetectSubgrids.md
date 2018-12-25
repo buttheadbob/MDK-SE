@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual bool DetectSubgrids { ; ; }
+public virtual bool DetectSubgrids { ; ; }
 ```
 
 Gets or sets if the sensor should detect subgrids (eg. connected by connector).

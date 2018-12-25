@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual bool IsDepressurizing { ; }
+public virtual bool IsDepressurizing { ; }
 ```
 
 Vent mode false - pressurize (filling room) true - depressurize (sucking air out)

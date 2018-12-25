@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float PiOver2
+public float PiOver2
 ```
 
 Represents the value of pi divided by two.

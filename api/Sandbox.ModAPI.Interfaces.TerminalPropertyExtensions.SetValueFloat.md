@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void SetValueFloat(private public interface.IMyTerminalBlock block, string propertyId, float value)
+public void SetValueFloat(public interface IMyTerminalBlock block, string propertyId, float value)
 ```
 
 Set float value of property

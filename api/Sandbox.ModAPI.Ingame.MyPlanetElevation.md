@@ -3,7 +3,7 @@
 #### MyPlanetElevation Enum
 
 ```csharp
-private public sealed enum.MyPlanetElevation
+public sealed enum MyPlanetElevation
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

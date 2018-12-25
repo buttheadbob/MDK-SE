@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void OverlapAllLineSegment<T>(ref private public sealed struct.LineD line, private public class.List<T> elementsList, bool clear)
+public void OverlapAllLineSegment<T>(ref public sealed struct LineD line, public class List<T> elementsList, bool clear)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public void OverlapAllLineSegment<T>(ref private public sealed struct.L
 ### Summary
 
 ```csharp
-private public void OverlapAllLineSegment<T>(ref private public sealed struct.LineD line, private public class.List<T> elementsList, uint requiredFlags, bool clear)
+public void OverlapAllLineSegment<T>(ref public sealed struct LineD line, public class List<T> elementsList, uint requiredFlags, bool clear)
 ```
 
 ### Returns

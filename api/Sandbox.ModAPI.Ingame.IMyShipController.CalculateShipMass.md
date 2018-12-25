@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual private public sealed struct.MyShipMass CalculateShipMass()
+public virtual public sealed struct MyShipMass CalculateShipMass()
 ```
 
 Gets information about the current mass of the ship.

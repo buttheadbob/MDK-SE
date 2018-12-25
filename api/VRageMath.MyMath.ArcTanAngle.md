@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float ArcTanAngle(float x, float y)
+public float ArcTanAngle(float x, float y)
 ```
 
 ArcTanAngle

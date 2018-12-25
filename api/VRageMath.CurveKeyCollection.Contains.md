@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool Contains(private public class.CurveKey item)
+public bool Contains(public class CurveKey item)
 ```
 
 Determines whether the CurveKeyCollection contains a specific CurveKey.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool Intersects(private public sealed struct.BoundingBox2 box)
+public bool Intersects(public sealed struct BoundingBox2 box)
 ```
 
 Checks whether the current BoundingBox2 intersects another BoundingBox2.
@@ -17,7 +17,7 @@ Checks whether the current BoundingBox2 intersects another BoundingBox2.
 ### Summary
 
 ```csharp
-private public bool Intersects(ref private public sealed struct.BoundingBox2 box)
+public bool Intersects(ref public sealed struct BoundingBox2 box)
 ```
 
 ### Returns
@@ -29,7 +29,7 @@ private public bool Intersects(ref private public sealed struct.BoundingBox2 bo
 ### Summary
 
 ```csharp
-private public void Intersects(ref private public sealed struct.BoundingBox2 box, ref bool result)
+public void Intersects(ref public sealed struct BoundingBox2 box, ref bool result)
 ```
 
 Checks whether the current BoundingBox2 intersects another BoundingBox2.

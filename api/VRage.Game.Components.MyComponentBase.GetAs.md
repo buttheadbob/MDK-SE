@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual private public class.T GetAs<T>()
+public virtual public class T GetAs<T>()
 ```
 
 ### Returns

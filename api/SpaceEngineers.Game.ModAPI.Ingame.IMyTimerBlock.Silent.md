@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual bool Silent { ; ; }
+public virtual bool Silent { ; ; }
 ```
 
 Gets or sets if the countdown is silent

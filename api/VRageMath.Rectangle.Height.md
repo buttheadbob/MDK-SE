@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public int Height
+public int Height
 ```
 
 Specifies the height of the rectangle.

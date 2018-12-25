@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual bool PressurizationEnabled { ; }
+public virtual bool PressurizationEnabled { ; }
 ```
 
 Returns true if pressurization is enabled.

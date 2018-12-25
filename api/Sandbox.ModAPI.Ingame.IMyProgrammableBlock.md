@@ -3,7 +3,7 @@
 #### IMyProgrammableBlock Interface
 
 ```csharp
-private public interface.IMyProgrammableBlock
+public interface IMyProgrammableBlock
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

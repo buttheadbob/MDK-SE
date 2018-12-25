@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public double Dot(private public sealed struct.Vector3D vector1, private public sealed struct.Vector3D vector2)
+public double Dot(public sealed struct Vector3D vector1, public sealed struct Vector3D vector2)
 ```
 
 Calculates the dot product of two vectors. If the two vectors are unit vectors, the dot product returns a doubleing point value between -1 and 1 that can be used to determine some properties of the angle between two vectors. For example, it can show whether the vectors are orthogonal, parallel, or have an acute or obtuse angle between them.
@@ -17,7 +17,7 @@ Calculates the dot product of two vectors. If the two vectors are unit vectors, 
 ### Summary
 
 ```csharp
-private public double Dot(private public sealed struct.Vector3D vector1, private public sealed struct.Vector3 vector2)
+public double Dot(public sealed struct Vector3D vector1, public sealed struct Vector3 vector2)
 ```
 
 ### Returns
@@ -29,7 +29,7 @@ private public double Dot(private public sealed struct.Vector3D vector1, private
 ### Summary
 
 ```csharp
-private public void Dot(ref private public sealed struct.Vector3D vector1, ref private public sealed struct.Vector3D vector2, ref double result)
+public void Dot(ref public sealed struct Vector3D vector1, ref public sealed struct Vector3D vector2, ref double result)
 ```
 
 Calculates the dot product of two vectors and writes the result to a user-specified variable. If the two vectors are unit vectors, the dot product returns a doubleing point value between -1 and 1 that can be used to determine some properties of the angle between two vectors. For example, it can show whether the vectors are orthogonal, parallel, or have an acute or obtuse angle between them.
@@ -43,7 +43,7 @@ Calculates the dot product of two vectors and writes the result to a user-specif
 ### Summary
 
 ```csharp
-private public void Dot(ref private public sealed struct.Vector3D vector1, ref private public sealed struct.Vector3 vector2, ref double result)
+public void Dot(ref public sealed struct Vector3D vector1, ref public sealed struct Vector3 vector2, ref double result)
 ```
 
 ### Returns
@@ -55,7 +55,7 @@ private public void Dot(ref private public sealed struct.Vector3D vector1, ref�
 ### Summary
 
 ```csharp
-private public void Dot(ref private public sealed struct.Vector3 vector1, ref private public sealed struct.Vector3D vector2, ref double result)
+public void Dot(ref public sealed struct Vector3 vector1, ref public sealed struct Vector3D vector2, ref double result)
 ```
 
 ### Returns
@@ -67,7 +67,7 @@ private public void Dot(ref private public sealed struct.Vector3 vector1, ref 
 ### Summary
 
 ```csharp
-private public double Dot(private public sealed struct.Vector3D v)
+public double Dot(public sealed struct Vector3D v)
 ```
 
 ### Returns
@@ -79,7 +79,7 @@ private public double Dot(private public sealed struct.Vector3D v)
 ### Summary
 
 ```csharp
-private public double Dot(private public sealed struct.Vector3 v)
+public double Dot(public sealed struct Vector3 v)
 ```
 
 ### Returns
@@ -91,7 +91,7 @@ private public double Dot(private public sealed struct.Vector3 v)
 ### Summary
 
 ```csharp
-private public double Dot(ref private public sealed struct.Vector3D v)
+public double Dot(ref public sealed struct Vector3D v)
 ```
 
 ### Returns

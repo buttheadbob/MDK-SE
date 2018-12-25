@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual float CurrentDamage { ; }
+public virtual float CurrentDamage { ; }
 ```
 
 BuildIntegrity - Integrity

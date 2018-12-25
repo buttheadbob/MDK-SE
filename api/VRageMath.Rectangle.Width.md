@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public int Width
+public int Width
 ```
 
 Specifies the width of the rectangle.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float GetComponent(int index)
+public float GetComponent(int index)
 ```
 
 ### Returns

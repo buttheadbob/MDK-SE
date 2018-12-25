@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Vector3L Clamp(private public sealed struct.Vector3L value1, private public sealed struct.Vector3L min, private public sealed struct.Vector3L max)
+public public sealed struct Vector3L Clamp(public sealed struct Vector3L value1, public sealed struct Vector3L min, public sealed struct Vector3L max)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public private public sealed struct.Vector3L Clamp(private public sealed
 ### Summary
 
 ```csharp
-private public void Clamp(ref private public sealed struct.Vector3L value1, ref private public sealed struct.Vector3L min, ref private public sealed struct.Vector3L max, ref private public sealed struct.Vector3L result)
+public void Clamp(ref public sealed struct Vector3L value1, ref public sealed struct Vector3L min, ref public sealed struct Vector3L max, ref public sealed struct Vector3L result)
 ```
 
 ### Returns

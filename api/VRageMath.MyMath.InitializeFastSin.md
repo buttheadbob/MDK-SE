@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void InitializeFastSin()
+public void InitializeFastSin()
 ```
 
 ### Returns

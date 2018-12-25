@@ -3,7 +3,7 @@
 #### MyQuad Struct
 
 ```csharp
-private public sealed struct.MyQuad
+public sealed struct MyQuad
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

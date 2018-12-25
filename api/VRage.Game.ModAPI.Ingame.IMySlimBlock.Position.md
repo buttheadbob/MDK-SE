@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual private public sealed struct.Vector3I Position { ; }
+public virtual public sealed struct Vector3I Position { ; }
 ```
 
 Grid relative position of block

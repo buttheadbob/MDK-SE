@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public class.T ItemAt(int index)
+public public class T ItemAt(int index)
 ```
 
 ### Returns

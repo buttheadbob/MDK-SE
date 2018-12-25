@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool IsPowerOfTwo(int x)
+public bool IsPowerOfTwo(int x)
 ```
 
 Returns true if value is power of two

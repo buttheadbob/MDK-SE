@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual string Storage { ; protected ; }
+public virtual string Storage { ; protected ; }
 ```
 
 Allows you to store data between game sessions.

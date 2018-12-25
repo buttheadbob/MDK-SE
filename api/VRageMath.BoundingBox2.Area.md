@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float Area()
+public float Area()
 ```
 
 ### Returns

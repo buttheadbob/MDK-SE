@@ -3,7 +3,7 @@
 #### IMyTimerBlock Interface
 
 ```csharp
-private public interface.IMyTimerBlock
+public interface IMyTimerBlock
 ```
 
 **Namespace:** [SpaceEngineers.Game.ModAPI.Ingame](SpaceEngineers.Game.ModAPI.Ingame)  

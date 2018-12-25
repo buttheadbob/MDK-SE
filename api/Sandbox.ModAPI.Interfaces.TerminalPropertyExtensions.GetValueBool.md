@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool GetValueBool(private public interface.IMyTerminalBlock block, string propertyId)
+public bool GetValueBool(public interface IMyTerminalBlock block, string propertyId)
 ```
 
 Returns value of specified property

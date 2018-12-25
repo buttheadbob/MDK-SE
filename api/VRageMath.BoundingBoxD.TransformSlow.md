@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.BoundingBoxD TransformSlow(private public sealed struct.MatrixD m)
+public public sealed struct BoundingBoxD TransformSlow(public sealed struct MatrixD m)
 ```
 
 Transform this AABB by matrix.
@@ -19,7 +19,7 @@ transformed aabb
 ### Summary
 
 ```csharp
-private public private public sealed struct.BoundingBoxD TransformSlow(ref private public sealed struct.MatrixD worldMatrix)
+public public sealed struct BoundingBoxD TransformSlow(ref public sealed struct MatrixD worldMatrix)
 ```
 
 Transform this AABB by matrix.

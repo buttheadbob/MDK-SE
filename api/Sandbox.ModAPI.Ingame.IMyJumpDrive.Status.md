@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual private public sealed enum.MyJumpDriveStatus Status { ; }
+public virtual public sealed enum MyJumpDriveStatus Status { ; }
 ```
 
 ### Returns

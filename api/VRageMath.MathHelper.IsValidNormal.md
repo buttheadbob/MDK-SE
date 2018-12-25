@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool IsValidNormal(private public sealed struct.Vector3 vec)
+public bool IsValidNormal(public sealed struct Vector3 vec)
 ```
 
 ### Returns

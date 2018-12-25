@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual private public sealed struct.MatrixD WorldMatrix { ; }
+public virtual public sealed struct MatrixD WorldMatrix { ; }
 ```
 
 ### Returns

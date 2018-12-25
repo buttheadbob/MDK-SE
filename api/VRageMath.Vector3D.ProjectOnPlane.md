@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Vector3D ProjectOnPlane(ref private public sealed struct.Vector3D vec, ref private public sealed struct.Vector3D planeNormal)
+public public sealed struct Vector3D ProjectOnPlane(ref public sealed struct Vector3D vec, ref public sealed struct Vector3D planeNormal)
 ```
 
 Projects given vector on plane specified by it's normal.

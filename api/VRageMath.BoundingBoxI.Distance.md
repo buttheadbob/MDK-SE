@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float Distance(private public sealed struct.Vector3I point)
+public float Distance(public sealed struct Vector3I point)
 ```
 
 Checks whether the current BoundingBoxI intersects a BoundingSphere.

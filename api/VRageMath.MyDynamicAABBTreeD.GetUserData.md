@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public class.T GetUserData<T>(int proxyId)
+public public class T GetUserData<T>(int proxyId)
 ```
 
 ### Returns

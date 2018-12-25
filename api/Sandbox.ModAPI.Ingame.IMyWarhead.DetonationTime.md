@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual float DetonationTime { ; ; }
+public virtual float DetonationTime { ; ; }
 ```
 
 ### Returns

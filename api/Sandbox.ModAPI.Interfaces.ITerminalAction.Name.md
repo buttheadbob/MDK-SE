@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual private public sealed class.StringBuilder Name { ; }
+public virtual public sealed class StringBuilder Name { ; }
 ```
 
 ### Returns

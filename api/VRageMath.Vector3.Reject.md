@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Vector3 Reject(private public sealed struct.Vector3 vector, private public sealed struct.Vector3 direction)
+public public sealed struct Vector3 Reject(public sealed struct Vector3 vector, public sealed struct Vector3 direction)
 ```
 
 Returns the rejection of vector from direction, i.e. projection of vector onto the plane defined by origin and direction
@@ -19,7 +19,7 @@ Rejection of the vector from the given direction
 ### Summary
 
 ```csharp
-private public void Reject(ref private public sealed struct.Vector3 vector, ref private public sealed struct.Vector3 direction, ref private public sealed struct.Vector3 result)
+public void Reject(ref public sealed struct Vector3 vector, ref public sealed struct Vector3 direction, ref public sealed struct Vector3 result)
 ```
 
 Returns the rejection of vector from direction, i.e. projection of vector onto the plane defined by origin and direction

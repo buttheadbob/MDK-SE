@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Vector2I Floor(private public sealed struct.Vector2 value)
+public public sealed struct Vector2I Floor(public sealed struct Vector2 value)
 ```
 
 ### Returns

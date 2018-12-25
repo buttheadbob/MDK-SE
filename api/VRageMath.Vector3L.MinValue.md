@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Vector3L MinValue
+public public sealed struct Vector3L MinValue
 ```
 
 ### Returns

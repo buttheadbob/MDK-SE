@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Vector2 Max
+public public sealed struct Vector2 Max
 ```
 
 The maximum point the BoundingBox2 contains.

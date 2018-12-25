@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float Height { ; ; }
+public float Height { ; ; }
 ```
 
 Height of this rectangle.

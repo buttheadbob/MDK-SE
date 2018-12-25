@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private sealed enum.Direction GetForward(private public sealed struct.Quaternion rot)
+public private sealed enum Direction GetForward(public sealed struct Quaternion rot)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public private sealed enum.Direction GetForward(private public sealed st
 ### Summary
 
 ```csharp
-private public private sealed enum.Direction GetForward(ref private public sealed struct.Quaternion rot)
+public private sealed enum Direction GetForward(ref public sealed struct Quaternion rot)
 ```
 
 ### Returns
@@ -27,7 +27,7 @@ private public private sealed enum.Direction GetForward(ref private public seal
 ### Summary
 
 ```csharp
-private public private sealed enum.Direction GetForward(ref private public sealed struct.Matrix rotation)
+public private sealed enum Direction GetForward(ref public sealed struct Matrix rotation)
 ```
 
 ### Returns

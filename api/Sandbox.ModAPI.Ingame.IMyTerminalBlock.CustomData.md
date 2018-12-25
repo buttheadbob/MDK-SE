@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual string CustomData { ; ; }
+public virtual string CustomData { ; ; }
 ```
 
 Gets or sets the Custom Data string. NOTE: Only use this for user input. For storing large mod configs, create your own MyModStorageComponent

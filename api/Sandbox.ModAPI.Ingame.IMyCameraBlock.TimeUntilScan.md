@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual int TimeUntilScan(double distance)
+public virtual int TimeUntilScan(double distance)
 ```
 
 Returns the number of milliseconds until the camera can do a raycast of the given distance.

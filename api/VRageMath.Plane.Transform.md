@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Plane Transform(private public sealed struct.Plane plane, private public sealed struct.Matrix matrix)
+public public sealed struct Plane Transform(public sealed struct Plane plane, public sealed struct Matrix matrix)
 ```
 
 Transforms a normalized Plane by a Matrix.
@@ -17,7 +17,7 @@ Transforms a normalized Plane by a Matrix.
 ### Summary
 
 ```csharp
-private public void Transform(ref private public sealed struct.Plane plane, ref private public sealed struct.Matrix matrix, ref private public sealed struct.Plane result)
+public void Transform(ref public sealed struct Plane plane, ref public sealed struct Matrix matrix, ref public sealed struct Plane result)
 ```
 
 Transforms a normalized Plane by a Matrix.

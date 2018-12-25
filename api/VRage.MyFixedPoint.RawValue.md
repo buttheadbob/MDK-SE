@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public long RawValue
+public long RawValue
 ```
 
 ### Returns

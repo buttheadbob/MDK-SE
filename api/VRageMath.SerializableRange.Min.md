@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float Min
+public float Min
 ```
 
 ### Returns

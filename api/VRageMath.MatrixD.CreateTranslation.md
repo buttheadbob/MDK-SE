@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.MatrixD CreateTranslation(private public sealed struct.Vector3D position)
+public public sealed struct MatrixD CreateTranslation(public sealed struct Vector3D position)
 ```
 
 Creates a translation Matrix.
@@ -17,7 +17,7 @@ Creates a translation Matrix.
 ### Summary
 
 ```csharp
-private public private public sealed struct.MatrixD CreateTranslation(private public sealed struct.Vector3 position)
+public public sealed struct MatrixD CreateTranslation(public sealed struct Vector3 position)
 ```
 
 ### Returns
@@ -29,21 +29,7 @@ private public private public sealed struct.MatrixD CreateTranslation(private pu
 ### Summary
 
 ```csharp
-private public void CreateTranslation(ref private public sealed struct.Vector3D position, ref private public sealed struct.MatrixD result)
-```
-
-Creates a translation Matrix.
-
-### Returns
-
-### Example
-
-### Remarks
-
-### Summary
-
-```csharp
-private public private public sealed struct.MatrixD CreateTranslation(double xPosition, double yPosition, double zPosition)
+public void CreateTranslation(ref public sealed struct Vector3D position, ref public sealed struct MatrixD result)
 ```
 
 Creates a translation Matrix.
@@ -57,7 +43,21 @@ Creates a translation Matrix.
 ### Summary
 
 ```csharp
-private public void CreateTranslation(double xPosition, double yPosition, double zPosition, ref private public sealed struct.MatrixD result)
+public public sealed struct MatrixD CreateTranslation(double xPosition, double yPosition, double zPosition)
+```
+
+Creates a translation Matrix.
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+public void CreateTranslation(double xPosition, double yPosition, double zPosition, ref public sealed struct MatrixD result)
 ```
 
 Creates a translation Matrix.

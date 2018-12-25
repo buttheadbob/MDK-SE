@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.TextPtr FindEndOfLine(bool skipNewline)
+public public sealed struct TextPtr FindEndOfLine(bool skipNewline)
 ```
 
 ### Returns

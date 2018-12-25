@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void Add(object tmp)
+public void Add(object tmp)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public void Add(object tmp)
 ### Summary
 
 ```csharp
-private public void Add(private public class.CurveKey item)
+public void Add(public class CurveKey item)
 ```
 
 Adds a CurveKey to the CurveKeyCollection.

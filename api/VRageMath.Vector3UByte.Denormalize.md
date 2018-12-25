@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Vector3 Denormalize(private public sealed struct.Vector3UByte vec, float range)
+public public sealed struct Vector3 Denormalize(public sealed struct Vector3UByte vec, float range)
 ```
 
 Unpacks Vector3 from Vector3UByte, scales vector from (0, 255) to (-range, range)

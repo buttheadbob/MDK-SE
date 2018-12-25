@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual bool IsEnabled(private public interface.IMyCubeBlock block)
+public virtual bool IsEnabled(public interface IMyCubeBlock block)
 ```
 
 ### Returns

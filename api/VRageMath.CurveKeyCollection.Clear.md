@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void Clear()
+public void Clear()
 ```
 
 Removes all CurveKeys from the CurveKeyCollection.

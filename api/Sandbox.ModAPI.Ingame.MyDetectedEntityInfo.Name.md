@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public string Name
+public string Name
 ```
 
 The entity's display name if it is friendly, or a generic descriptor if it is not

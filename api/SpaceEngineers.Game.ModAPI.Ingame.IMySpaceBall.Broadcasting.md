@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual bool Broadcasting { ; ; }
+public virtual bool Broadcasting { ; ; }
 ```
 
 Gets or sets broadcasting

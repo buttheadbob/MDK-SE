@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual float UpperLimitDeg { ; ; }
+public virtual float UpperLimitDeg { ; ; }
 ```
 
 Gets or sets the upper angle limit of the rotor in degrees. Set to float.MaxValue for no limit.

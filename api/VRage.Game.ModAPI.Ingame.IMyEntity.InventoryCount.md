@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual int InventoryCount { ; }
+public virtual int InventoryCount { ; }
 ```
 
 Returns the count of the number of inventories this entity has.

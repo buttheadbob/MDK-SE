@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public double Y
+public double Y
 ```
 
 Gets or sets the y-component of the vector.

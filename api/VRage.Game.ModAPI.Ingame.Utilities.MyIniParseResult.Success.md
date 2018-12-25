@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool Success { ; }
+public bool Success { ; }
 ```
 
 Determines the success of the configuration parsing.

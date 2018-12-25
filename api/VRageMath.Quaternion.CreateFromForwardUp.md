@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Quaternion CreateFromForwardUp(private public sealed struct.Vector3 forward, private public sealed struct.Vector3 up)
+public public sealed struct Quaternion CreateFromForwardUp(public sealed struct Vector3 forward, public sealed struct Vector3 up)
 ```
 
 Works for normalized vectors only

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool StartsWith(string what)
+public bool StartsWith(string what)
 ```
 
 ### Returns

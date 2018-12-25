@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual bool ShowParts { ; }
+public virtual bool ShowParts { ; }
 ```
 
 Gets if sub parts are shown

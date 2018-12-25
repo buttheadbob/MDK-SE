@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public byte X
+public byte X
 ```
 
 ### Returns

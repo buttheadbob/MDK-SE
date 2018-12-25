@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public long VolumeInt(float multiplier)
+public long VolumeInt(float multiplier)
 ```
 
 ### Returns

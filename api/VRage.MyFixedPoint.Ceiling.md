@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.MyFixedPoint Ceiling(private public sealed struct.MyFixedPoint a)
+public public sealed struct MyFixedPoint Ceiling(public sealed struct MyFixedPoint a)
 ```
 
 ### Returns

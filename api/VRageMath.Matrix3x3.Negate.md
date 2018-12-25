@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void Negate(ref private public sealed struct.Matrix3x3 matrix, ref private public sealed struct.Matrix3x3 result)
+public void Negate(ref public sealed struct Matrix3x3 matrix, ref public sealed struct Matrix3x3 result)
 ```
 
 Negates individual elements of a matrix.

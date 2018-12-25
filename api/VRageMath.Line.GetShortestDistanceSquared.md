@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float GetShortestDistanceSquared(private public sealed struct.Line line1, private public sealed struct.Line line2)
+public float GetShortestDistanceSquared(public sealed struct Line line1, public sealed struct Line line2)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual float Restitution { ; ; }
+public virtual float Restitution { ; ; }
 ```
 
 Ball restitution

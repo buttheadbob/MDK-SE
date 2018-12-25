@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void Swap<T>(private public class.List<T> list, int a, int b)
+public void Swap<T>(public class List<T> list, int a, int b)
 ```
 
 ### Returns

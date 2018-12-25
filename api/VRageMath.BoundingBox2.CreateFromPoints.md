@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.BoundingBox2 CreateFromPoints(private public interface.IEnumerable<T> points)
+public public sealed struct BoundingBox2 CreateFromPoints(public interface IEnumerable<T> points)
 ```
 
 ### Returns

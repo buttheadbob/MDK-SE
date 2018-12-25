@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual float DisassembleRatio { ; }
+public virtual float DisassembleRatio { ; }
 ```
 
 Is set in definition Ratio at which is the block disassembled (grinding)

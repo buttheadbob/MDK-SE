@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void SetRow(int row, private public sealed struct.Vector3 value)
+public void SetRow(int row, public sealed struct Vector3 value)
 ```
 
 ### Returns

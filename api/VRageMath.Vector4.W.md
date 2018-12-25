@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float W
+public float W
 ```
 
 Gets or sets the w-component of the vector.

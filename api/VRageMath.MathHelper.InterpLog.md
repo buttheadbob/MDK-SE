@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float InterpLog(float value, float amount1, float amount2)
+public float InterpLog(float value, float amount1, float amount2)
 ```
 
 Performs interpolation on logarithmic scale.

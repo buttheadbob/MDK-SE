@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Matrix CreatePerspectiveOffCenter(float left, float right, float bottom, float top, float nearPlaneDistance, float farPlaneDistance)
+public public sealed struct Matrix CreatePerspectiveOffCenter(float left, float right, float bottom, float top, float nearPlaneDistance, float farPlaneDistance)
 ```
 
 Builds a customized, perspective projection matrix.
@@ -17,7 +17,7 @@ Builds a customized, perspective projection matrix.
 ### Summary
 
 ```csharp
-private public void CreatePerspectiveOffCenter(float left, float right, float bottom, float top, float nearPlaneDistance, float farPlaneDistance, ref private public sealed struct.Matrix result)
+public void CreatePerspectiveOffCenter(float left, float right, float bottom, float top, float nearPlaneDistance, float farPlaneDistance, ref public sealed struct Matrix result)
 ```
 
 Builds a customized, perspective projection matrix.

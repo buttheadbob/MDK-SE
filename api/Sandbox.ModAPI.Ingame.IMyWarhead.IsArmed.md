@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual bool IsArmed { ; ; }
+public virtual bool IsArmed { ; ; }
 ```
 
 ### Returns

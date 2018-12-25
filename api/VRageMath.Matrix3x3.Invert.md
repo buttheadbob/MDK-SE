@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void Invert(ref private public sealed struct.Matrix3x3 matrix, ref private public sealed struct.Matrix3x3 result)
+public void Invert(ref public sealed struct Matrix3x3 matrix, ref public sealed struct Matrix3x3 result)
 ```
 
 Calculates the inverse of a matrix.

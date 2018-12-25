@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed enum.TypeCode TypeCode
+public public sealed enum TypeCode TypeCode
 ```
 
 ### Returns

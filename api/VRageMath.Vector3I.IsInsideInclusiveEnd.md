@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool IsInsideInclusiveEnd(ref private public sealed struct.Vector3I min, ref private public sealed struct.Vector3I max)
+public bool IsInsideInclusiveEnd(ref public sealed struct Vector3I min, ref public sealed struct Vector3I max)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public bool IsInsideInclusiveEnd(ref private public sealed struct.Vecto
 ### Summary
 
 ```csharp
-private public bool IsInsideInclusiveEnd(private public sealed struct.Vector3I min, private public sealed struct.Vector3I max)
+public bool IsInsideInclusiveEnd(public sealed struct Vector3I min, public sealed struct Vector3I max)
 ```
 
 ### Returns

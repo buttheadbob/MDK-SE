@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool TryParse(string id, ref private public sealed struct.MyDefinitionId definitionId)
+public bool TryParse(string id, ref public sealed struct MyDefinitionId definitionId)
 ```
 
 Attempts to create a definition ID from a definition string, which has the form (using ores as an example) "MyObjectBuilder_Ore/Iron". The first part must represent an existing type, while the second (the subtype) is not enforced.
@@ -19,7 +19,7 @@ Attempts to create a definition ID from a definition string, which has the form 
 ### Summary
 
 ```csharp
-private public bool TryParse(string type, string subtype, ref private public sealed struct.MyDefinitionId definitionId)
+public bool TryParse(string type, string subtype, ref public sealed struct MyDefinitionId definitionId)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void GetAllNodeBounds(private public class.List<T> boxsList)
+public void GetAllNodeBounds(public class List<T> boxsList)
 ```
 
 ### Returns

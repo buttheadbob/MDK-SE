@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool IsEqual(float value1, float value2)
+public bool IsEqual(float value1, float value2)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public bool IsEqual(float value1, float value2)
 ### Summary
 
 ```csharp
-private public bool IsEqual(private public sealed struct.Vector2 value1, private public sealed struct.Vector2 value2)
+public bool IsEqual(public sealed struct Vector2 value1, public sealed struct Vector2 value2)
 ```
 
 ### Returns
@@ -27,7 +27,7 @@ private public bool IsEqual(private public sealed struct.Vector2 value1, private
 ### Summary
 
 ```csharp
-private public bool IsEqual(private public sealed struct.Vector3 value1, private public sealed struct.Vector3 value2)
+public bool IsEqual(public sealed struct Vector3 value1, public sealed struct Vector3 value2)
 ```
 
 ### Returns
@@ -39,7 +39,7 @@ private public bool IsEqual(private public sealed struct.Vector3 value1, private
 ### Summary
 
 ```csharp
-private public bool IsEqual(private public sealed struct.Quaternion value1, private public sealed struct.Quaternion value2)
+public bool IsEqual(public sealed struct Quaternion value1, public sealed struct Quaternion value2)
 ```
 
 ### Returns
@@ -51,7 +51,7 @@ private public bool IsEqual(private public sealed struct.Quaternion value1, priv
 ### Summary
 
 ```csharp
-private public bool IsEqual(private public sealed struct.QuaternionD value1, private public sealed struct.QuaternionD value2)
+public bool IsEqual(public sealed struct QuaternionD value1, public sealed struct QuaternionD value2)
 ```
 
 ### Returns
@@ -63,7 +63,7 @@ private public bool IsEqual(private public sealed struct.QuaternionD value1, pri
 ### Summary
 
 ```csharp
-private public bool IsEqual(private public sealed struct.Matrix value1, private public sealed struct.Matrix value2)
+public bool IsEqual(public sealed struct Matrix value1, public sealed struct Matrix value2)
 ```
 
 ### Returns

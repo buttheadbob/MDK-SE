@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void Inflate(float size)
+public void Inflate(float size)
 ```
 
 ### Returns

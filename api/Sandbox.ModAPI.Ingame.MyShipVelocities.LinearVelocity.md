@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Vector3D LinearVelocity
+public public sealed struct Vector3D LinearVelocity
 ```
 
 Gets the ship's linear velocity (motion).

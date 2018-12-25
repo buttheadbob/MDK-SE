@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Matrix UnpackOrthoMatrix(ref private public sealed struct.Vector4 packed)
+public public sealed struct Matrix UnpackOrthoMatrix(ref public sealed struct Vector4 packed)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public private public sealed struct.Matrix UnpackOrthoMatrix(ref privat
 ### Summary
 
 ```csharp
-private public void UnpackOrthoMatrix(ref private public sealed struct.Vector4 packed, ref private public sealed struct.Matrix matrix)
+public void UnpackOrthoMatrix(ref public sealed struct Vector4 packed, ref public sealed struct Matrix matrix)
 ```
 
 ### Returns

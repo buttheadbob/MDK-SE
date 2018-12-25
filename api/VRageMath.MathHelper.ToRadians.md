@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float ToRadians(float degrees)
+public float ToRadians(float degrees)
 ```
 
 Converts degrees to radians.
@@ -17,7 +17,7 @@ Converts degrees to radians.
 ### Summary
 
 ```csharp
-private public private public sealed struct.Vector3 ToRadians(private public sealed struct.Vector3 v)
+public public sealed struct Vector3 ToRadians(public sealed struct Vector3 v)
 ```
 
 ### Returns
@@ -29,7 +29,7 @@ private public private public sealed struct.Vector3 ToRadians(private public sea
 ### Summary
 
 ```csharp
-private public double ToRadians(double degrees)
+public double ToRadians(double degrees)
 ```
 
 Converts degrees to radians.

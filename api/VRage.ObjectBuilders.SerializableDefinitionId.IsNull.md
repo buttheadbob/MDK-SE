@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool IsNull()
+public bool IsNull()
 ```
 
 ### Returns

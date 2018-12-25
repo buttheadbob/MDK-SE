@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Matrix3x3 Identity
+public public sealed struct Matrix3x3 Identity
 ```
 
 ### Returns

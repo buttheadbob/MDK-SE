@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual bool CanUseBlueprint(private public sealed struct.MyDefinitionId blueprint)
+public virtual bool CanUseBlueprint(public sealed struct MyDefinitionId blueprint)
 ```
 
 Can this production block produce this blueprint?

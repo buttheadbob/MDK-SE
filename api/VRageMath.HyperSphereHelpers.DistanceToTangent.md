@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public double DistanceToTangent(ref private public sealed struct.Vector3D center, ref private public sealed struct.Vector3D point, double radius)
+public double DistanceToTangent(ref public sealed struct Vector3D center, ref public sealed struct Vector3D point, double radius)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public double DistanceToTangent(ref private public sealed struct.Vector
 ### Summary
 
 ```csharp
-private public double DistanceToTangent(ref private public sealed struct.Vector2D center, ref private public sealed struct.Vector2D point, double radius)
+public double DistanceToTangent(ref public sealed struct Vector2D center, ref public sealed struct Vector2D point, double radius)
 ```
 
 ### Returns

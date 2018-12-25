@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual private public sealed enum.MyShipConnectorStatus Status { ; }
+public virtual public sealed enum MyShipConnectorStatus Status { ; }
 ```
 
 Determines the current status of the connector.

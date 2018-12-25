@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual private public sealed struct.MyDetectedEntityInfo LastDetectedEntity { ; }
+public virtual public sealed struct MyDetectedEntityInfo LastDetectedEntity { ; }
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void TransformProjection(ref private public sealed struct.Vector3 position, ref private public sealed struct.Matrix matrix, ref private public sealed struct.Vector3 result)
+public void TransformProjection(ref public sealed struct Vector3 position, ref public sealed struct Matrix matrix, ref public sealed struct Vector3 result)
 ```
 
 Transforms a Vector3 by the given projection matrix (both ortho and perspective are supported)

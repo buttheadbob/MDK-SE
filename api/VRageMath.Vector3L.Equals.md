@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool Equals(private public sealed struct.Vector3L other)
+public bool Equals(public sealed struct Vector3L other)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public bool Equals(private public sealed struct.Vector3L other)
 ### Summary
 
 ```csharp
-private public virtual bool Equals(object obj)
+public virtual bool Equals(object obj)
 ```
 
 ### Returns

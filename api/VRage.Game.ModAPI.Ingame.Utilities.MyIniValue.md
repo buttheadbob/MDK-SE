@@ -3,7 +3,7 @@
 #### MyIniValue Struct
 
 ```csharp
-private public sealed struct.MyIniValue
+public sealed struct MyIniValue
 ```
 
 **Namespace:** [VRage.Game.ModAPI.Ingame.Utilities](VRage.Game.ModAPI.Ingame.Utilities)  

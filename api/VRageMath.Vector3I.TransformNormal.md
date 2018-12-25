@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Vector3I TransformNormal(private public sealed struct.Vector3I value, ref private public sealed struct.MatrixI transformation)
+public public sealed struct Vector3I TransformNormal(public sealed struct Vector3I value, ref public sealed struct MatrixI transformation)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public private public sealed struct.Vector3I TransformNormal(private pub
 ### Summary
 
 ```csharp
-private public void TransformNormal(ref private public sealed struct.Vector3I normal, ref private public sealed struct.Matrix matrix, ref private public sealed struct.Vector3I result)
+public void TransformNormal(ref public sealed struct Vector3I normal, ref public sealed struct Matrix matrix, ref public sealed struct Vector3I result)
 ```
 
 Transforms a vector normal by a matrix.
@@ -29,7 +29,7 @@ Transforms a vector normal by a matrix.
 ### Summary
 
 ```csharp
-private public void TransformNormal(ref private public sealed struct.Vector3I normal, ref private public sealed struct.MatrixI matrix, ref private public sealed struct.Vector3I result)
+public void TransformNormal(ref public sealed struct Vector3I normal, ref public sealed struct MatrixI matrix, ref public sealed struct Vector3I result)
 ```
 
 ### Returns

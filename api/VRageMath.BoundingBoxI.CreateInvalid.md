@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.BoundingBoxI CreateInvalid()
+public public sealed struct BoundingBoxI CreateInvalid()
 ```
 
 ### Returns

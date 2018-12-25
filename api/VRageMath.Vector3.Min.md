@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float Min()
+public float Min()
 ```
 
 Returns the component of the vector that is smallest of all the three components.
@@ -17,7 +17,7 @@ Returns the component of the vector that is smallest of all the three components
 ### Summary
 
 ```csharp
-private public private public sealed struct.Vector3 Min(private public sealed struct.Vector3 value1, private public sealed struct.Vector3 value2)
+public public sealed struct Vector3 Min(public sealed struct Vector3 value1, public sealed struct Vector3 value2)
 ```
 
 Returns a vector that contains the lowest value from each matching pair of components.
@@ -31,7 +31,7 @@ Returns a vector that contains the lowest value from each matching pair of compo
 ### Summary
 
 ```csharp
-private public void Min(ref private public sealed struct.Vector3 value1, ref private public sealed struct.Vector3 value2, ref private public sealed struct.Vector3 result)
+public void Min(ref public sealed struct Vector3 value1, ref public sealed struct Vector3 value2, ref public sealed struct Vector3 result)
 ```
 
 Returns a vector that contains the lowest value from each matching pair of components.

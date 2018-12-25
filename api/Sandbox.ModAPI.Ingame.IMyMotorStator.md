@@ -3,7 +3,7 @@
 #### IMyMotorStator Interface
 
 ```csharp
-private public interface.IMyMotorStator
+public interface IMyMotorStator
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

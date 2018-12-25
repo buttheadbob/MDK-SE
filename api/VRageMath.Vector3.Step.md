@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Vector3 Step(private public sealed struct.Vector3 value)
+public public sealed struct Vector3 Step(public sealed struct Vector3 value)
 ```
 
 ### Returns

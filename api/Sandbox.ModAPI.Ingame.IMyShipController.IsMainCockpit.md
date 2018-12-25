@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual bool IsMainCockpit { ; ; }
+public virtual bool IsMainCockpit { ; ; }
 ```
 
 Gets or sets if this controller is the main one.

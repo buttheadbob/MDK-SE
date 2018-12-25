@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual private public sealed struct.Color BackgroundColor { ; ; }
+public virtual public sealed struct Color BackgroundColor { ; ; }
 ```
 
 Gets or sets background color

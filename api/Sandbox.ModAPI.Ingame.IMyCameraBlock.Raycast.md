@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual private public sealed struct.MyDetectedEntityInfo Raycast(double distance, float pitch, float yaw)
+public virtual public sealed struct MyDetectedEntityInfo Raycast(double distance, float pitch, float yaw)
 ```
 
 Does a raycast in the direction the camera is facing. Pitch and Yaw are in degrees. Will return an empty struct if distance or angle are out of bounds.
@@ -19,7 +19,7 @@ Does a raycast in the direction the camera is facing. Pitch and Yaw are in degre
 ### Summary
 
 ```csharp
-private public virtual private public sealed struct.MyDetectedEntityInfo Raycast(private public sealed struct.Vector3D targetPos)
+public virtual public sealed struct MyDetectedEntityInfo Raycast(public sealed struct Vector3D targetPos)
 ```
 
 Does a raycast to the given point. Will return an empty struct if distance or angle are out of bounds.
@@ -35,7 +35,7 @@ Does a raycast to the given point. Will return an empty struct if distance or an
 ### Summary
 
 ```csharp
-private public virtual private public sealed struct.MyDetectedEntityInfo Raycast(double distance, private public sealed struct.Vector3D targetDirection)
+public virtual public sealed struct MyDetectedEntityInfo Raycast(double distance, public sealed struct Vector3D targetDirection)
 ```
 
 Does a raycast in the given direction. Will return an empty struct if distance or angle are out of bounds.

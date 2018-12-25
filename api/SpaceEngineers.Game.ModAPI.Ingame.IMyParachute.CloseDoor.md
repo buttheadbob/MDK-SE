@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual void CloseDoor()
+public virtual void CloseDoor()
 ```
 
 Closes the door. See [Status](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute.Status) to get the current status.

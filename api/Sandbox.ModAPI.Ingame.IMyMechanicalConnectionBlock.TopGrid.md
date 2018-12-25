@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual private public interface.IMyCubeGrid TopGrid { ; }
+public virtual public interface IMyCubeGrid TopGrid { ; }
 ```
 
 Gets the grid of the attached top part

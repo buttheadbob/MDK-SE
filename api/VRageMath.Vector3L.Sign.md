@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Vector3L Sign(private public sealed struct.Vector3 value)
+public public sealed struct Vector3L Sign(public sealed struct Vector3 value)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public private public sealed struct.Vector3L Sign(private public sealed 
 ### Summary
 
 ```csharp
-private public private public sealed struct.Vector3L Sign(private public sealed struct.Vector3L value)
+public public sealed struct Vector3L Sign(public sealed struct Vector3L value)
 ```
 
 ### Returns

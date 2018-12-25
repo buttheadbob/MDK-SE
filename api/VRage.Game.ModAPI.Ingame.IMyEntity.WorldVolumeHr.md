@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual private public sealed struct.BoundingSphereD WorldVolumeHr { ; }
+public virtual public sealed struct BoundingSphereD WorldVolumeHr { ; }
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 #### IMyFunctionalBlock Interface
 
 ```csharp
-private public interface.IMyFunctionalBlock
+public interface IMyFunctionalBlock
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

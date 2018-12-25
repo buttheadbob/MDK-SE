@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void CreateFromTwoVectors(ref private public sealed struct.Vector3 firstVector, ref private public sealed struct.Vector3 secondVector, ref private public sealed struct.Quaternion result)
+public void CreateFromTwoVectors(ref public sealed struct Vector3 firstVector, ref public sealed struct Vector3 secondVector, ref public sealed struct Quaternion result)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public void CreateFromTwoVectors(ref private public sealed struct.Vecto
 ### Summary
 
 ```csharp
-private public private public sealed struct.Quaternion CreateFromTwoVectors(private public sealed struct.Vector3 firstVector, private public sealed struct.Vector3 secondVector)
+public public sealed struct Quaternion CreateFromTwoVectors(public sealed struct Vector3 firstVector, public sealed struct Vector3 secondVector)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 #### MyTuple&lt;T1, T2, T3, T4, T5&gt; Struct
 
 ```csharp
-private public sealed struct.MyTuple<T1, T2, T3, T4, T5>
+public sealed struct MyTuple<T1, T2, T3, T4, T5>
 ```
 
 **Namespace:** [VRage](VRage)  

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual string ToString()
+public virtual string ToString()
 ```
 
 Returns a String that represents the current BoundingFrustumD.

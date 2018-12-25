@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual bool IsOutsideLimits { ; }
+public virtual bool IsOutsideLimits { ; }
 ```
 
 Target is outside movement limits of antenna

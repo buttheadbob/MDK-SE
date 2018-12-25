@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.MatrixD Matrix { ; }
+public public sealed struct MatrixD Matrix { ; }
 ```
 
 Matrix of AABB, respection center and size

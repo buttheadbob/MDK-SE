@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual bool AirShockEnabled { ; ; }
+public virtual bool AirShockEnabled { ; ; }
 ```
 
 Enables or disalbes AirShock function.

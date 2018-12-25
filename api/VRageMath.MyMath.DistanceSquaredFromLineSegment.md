@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float DistanceSquaredFromLineSegment(private public sealed struct.Vector3 v, private public sealed struct.Vector3 w, private public sealed struct.Vector3 p)
+public float DistanceSquaredFromLineSegment(public sealed struct Vector3 v, public sealed struct Vector3 w, public sealed struct Vector3 p)
 ```
 
 Return minimum distance between line segment v-w and point p.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed class.Vector3D[] GetCorners()
+public public sealed class Vector3D[] GetCorners()
 ```
 
 Gets an array of points that make up the corners of the BoundingFrustumD. ALLOCATION!
@@ -17,7 +17,7 @@ Gets an array of points that make up the corners of the BoundingFrustumD. ALLOCA
 ### Summary
 
 ```csharp
-private public void GetCorners(private public sealed class.Vector3D[] corners)
+public void GetCorners(public sealed class Vector3D[] corners)
 ```
 
 Gets an array of points that make up the corners of the BoundingFrustumD.

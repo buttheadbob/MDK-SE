@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual float BrakingTorque { ; ; }
+public virtual float BrakingTorque { ; ; }
 ```
 
 Gets or sets the torque applied when stopping the rotor top

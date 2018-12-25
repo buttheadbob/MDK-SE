@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public uint ItemId
+public uint ItemId
 ```
 
 ### Returns

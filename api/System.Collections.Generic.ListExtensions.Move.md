@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void Move<T>(private public class.List<T> list, int originalIndex, int targetIndex)
+public void Move<T>(public class List<T> list, int originalIndex, int targetIndex)
 ```
 
 ### Returns

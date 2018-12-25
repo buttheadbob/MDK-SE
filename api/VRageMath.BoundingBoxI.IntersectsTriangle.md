@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool IntersectsTriangle(private public sealed struct.Vector3I v0, private public sealed struct.Vector3I v1, private public sealed struct.Vector3I v2)
+public bool IntersectsTriangle(public sealed struct Vector3I v0, public sealed struct Vector3I v1, public sealed struct Vector3I v2)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public bool IntersectsTriangle(private public sealed struct.Vector3I v0,
 ### Summary
 
 ```csharp
-private public bool IntersectsTriangle(ref private public sealed struct.Vector3I v0, ref private public sealed struct.Vector3I v1, ref private public sealed struct.Vector3I v2)
+public bool IntersectsTriangle(ref public sealed struct Vector3I v0, ref public sealed struct Vector3I v1, ref public sealed struct Vector3I v2)
 ```
 
 ### Returns

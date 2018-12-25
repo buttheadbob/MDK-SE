@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public double DistanceToPoint(private public sealed struct.Vector3D point)
+public double DistanceToPoint(public sealed struct Vector3D point)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public double DistanceToPoint(private public sealed struct.Vector3D poin
 ### Summary
 
 ```csharp
-private public double DistanceToPoint(ref private public sealed struct.Vector3D point)
+public double DistanceToPoint(ref public sealed struct Vector3D point)
 ```
 
 ### Returns

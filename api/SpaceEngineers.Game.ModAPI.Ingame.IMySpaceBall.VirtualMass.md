@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual float VirtualMass { ; ; }
+public virtual float VirtualMass { ; ; }
 ```
 
 Virtual mass of ball, in kg

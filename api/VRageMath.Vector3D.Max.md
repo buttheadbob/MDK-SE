@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public double Max()
+public double Max()
 ```
 
 Returns the component of the vector that is largest of all the three components.
@@ -17,7 +17,7 @@ Returns the component of the vector that is largest of all the three components.
 ### Summary
 
 ```csharp
-private public private public sealed struct.Vector3D Max(private public sealed struct.Vector3D value1, private public sealed struct.Vector3D value2)
+public public sealed struct Vector3D Max(public sealed struct Vector3D value1, public sealed struct Vector3D value2)
 ```
 
 Returns a vector that contains the highest value from each matching pair of components.
@@ -31,7 +31,7 @@ Returns a vector that contains the highest value from each matching pair of comp
 ### Summary
 
 ```csharp
-private public void Max(ref private public sealed struct.Vector3D value1, ref private public sealed struct.Vector3D value2, ref private public sealed struct.Vector3D result)
+public void Max(ref public sealed struct Vector3D value1, ref public sealed struct Vector3D value2, ref public sealed struct Vector3D result)
 ```
 
 Returns a vector that contains the highest value from each matching pair of components.

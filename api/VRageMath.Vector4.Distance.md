@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float Distance(private public sealed struct.Vector4 value1, private public sealed struct.Vector4 value2)
+public float Distance(public sealed struct Vector4 value1, public sealed struct Vector4 value2)
 ```
 
 Calculates the distance between two vectors.
@@ -17,7 +17,7 @@ Calculates the distance between two vectors.
 ### Summary
 
 ```csharp
-private public void Distance(ref private public sealed struct.Vector4 value1, ref private public sealed struct.Vector4 value2, ref float result)
+public void Distance(ref public sealed struct Vector4 value1, ref public sealed struct Vector4 value2, ref float result)
 ```
 
 Calculates the distance between two vectors.

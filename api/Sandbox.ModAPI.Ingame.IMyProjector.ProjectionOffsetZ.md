@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual int ProjectionOffsetZ { ; }
+public virtual int ProjectionOffsetZ { ; }
 ```
 
 ### Returns

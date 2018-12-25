@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public object Value
+public object Value
 ```
 
 ### Returns

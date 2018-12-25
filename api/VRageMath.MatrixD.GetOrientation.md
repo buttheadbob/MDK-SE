@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.MatrixD GetOrientation()
+public public sealed struct MatrixD GetOrientation()
 ```
 
 Gets the orientation.

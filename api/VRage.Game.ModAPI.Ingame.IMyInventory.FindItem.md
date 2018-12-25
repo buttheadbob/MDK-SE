@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual private public interface.IMyInventoryItem FindItem(private public sealed struct.SerializableDefinitionId contentId)
+public virtual public interface IMyInventoryItem FindItem(public sealed struct SerializableDefinitionId contentId)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public double M43
+public double M43
 ```
 
 Value at row 4 column 3 of the matrix.

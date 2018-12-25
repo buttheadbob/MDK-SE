@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual float GetOxygenLevel()
+public virtual float GetOxygenLevel()
 ```
 
 Oxygen level in room

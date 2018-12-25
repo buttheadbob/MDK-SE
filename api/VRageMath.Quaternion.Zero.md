@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Quaternion Zero
+public public sealed struct Quaternion Zero
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void Normalize()
+public void Normalize()
 ```
 
 Changes the coefficients of the Normal vector of this Plane to make it of unit length.
@@ -17,7 +17,7 @@ Changes the coefficients of the Normal vector of this Plane to make it of unit l
 ### Summary
 
 ```csharp
-private public private public sealed struct.Plane Normalize(private public sealed struct.Plane value)
+public public sealed struct Plane Normalize(public sealed struct Plane value)
 ```
 
 Changes the coefficients of the Normal vector of a Plane to make it of unit length.
@@ -31,7 +31,7 @@ Changes the coefficients of the Normal vector of a Plane to make it of unit leng
 ### Summary
 
 ```csharp
-private public void Normalize(ref private public sealed struct.Plane value, ref private public sealed struct.Plane result)
+public void Normalize(ref public sealed struct Plane value, ref public sealed struct Plane result)
 ```
 
 Changes the coefficients of the Normal vector of a Plane to make it of unit length.

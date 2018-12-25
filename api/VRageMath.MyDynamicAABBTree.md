@@ -3,7 +3,7 @@
 #### MyDynamicAABBTree Class
 
 ```csharp
-private public class.MyDynamicAABBTree
+public class MyDynamicAABBTree
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

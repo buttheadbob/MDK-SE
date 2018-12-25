@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float GetDim(int i)
+public float GetDim(int i)
 ```
 
 ### Returns

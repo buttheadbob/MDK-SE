@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Vector3I Round(private public sealed struct.Vector3 value)
+public public sealed struct Vector3I Round(public sealed struct Vector3 value)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public private public sealed struct.Vector3I Round(private public sealed
 ### Summary
 
 ```csharp
-private public private public sealed struct.Vector3I Round(private public sealed struct.Vector3D value)
+public public sealed struct Vector3I Round(public sealed struct Vector3D value)
 ```
 
 ### Returns
@@ -27,7 +27,7 @@ private public private public sealed struct.Vector3I Round(private public sealed
 ### Summary
 
 ```csharp
-private public void Round(ref private public sealed struct.Vector3 v, ref private public sealed struct.Vector3I r)
+public void Round(ref public sealed struct Vector3 v, ref public sealed struct Vector3I r)
 ```
 
 ### Returns
@@ -39,7 +39,7 @@ private public void Round(ref private public sealed struct.Vector3 v, ref priv
 ### Summary
 
 ```csharp
-private public void Round(ref private public sealed struct.Vector3D v, ref private public sealed struct.Vector3I r)
+public void Round(ref public sealed struct Vector3D v, ref public sealed struct Vector3I r)
 ```
 
 ### Returns

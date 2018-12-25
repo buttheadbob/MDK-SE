@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual bool IsUnderControl { ; }
+public virtual bool IsUnderControl { ; }
 ```
 
 Indicates whether a block is locally or remotely controlled.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual bool HasLocalPlayerAccess()
+public virtual bool HasLocalPlayerAccess()
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual void Deserialize(private public abstract class.MyObjectBuilder_ComponentBase builder)
+public virtual void Deserialize(public abstract class MyObjectBuilder_ComponentBase builder)
 ```
 
 ### Returns

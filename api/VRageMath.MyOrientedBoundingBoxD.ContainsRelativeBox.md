@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed enum.ContainmentType ContainsRelativeBox(ref private public sealed struct.Vector3D hA, ref private public sealed struct.Vector3D hB, ref private public sealed struct.MatrixD mB)
+public public sealed enum ContainmentType ContainsRelativeBox(ref public sealed struct Vector3D hA, ref public sealed struct Vector3D hB, ref public sealed struct MatrixD mB)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.BoundingSphere CreateMerged(private public sealed struct.BoundingSphere original, private public sealed struct.BoundingSphere additional)
+public public sealed struct BoundingSphere CreateMerged(public sealed struct BoundingSphere original, public sealed struct BoundingSphere additional)
 ```
 
 Creates a BoundingSphere that contains the two specified BoundingSphere instances.
@@ -17,7 +17,7 @@ Creates a BoundingSphere that contains the two specified BoundingSphere instance
 ### Summary
 
 ```csharp
-private public void CreateMerged(ref private public sealed struct.BoundingSphere original, ref private public sealed struct.BoundingSphere additional, ref private public sealed struct.BoundingSphere result)
+public void CreateMerged(ref public sealed struct BoundingSphere original, ref public sealed struct BoundingSphere additional, ref public sealed struct BoundingSphere result)
 ```
 
 Creates a BoundingSphere that contains the two specified BoundingSphere instances.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual bool IsSerialized()
+public virtual bool IsSerialized()
 ```
 
 Tells the component container serializer whether this component should be saved

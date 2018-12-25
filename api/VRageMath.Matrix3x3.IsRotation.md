@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool IsRotation()
+public bool IsRotation()
 ```
 
 ### Returns

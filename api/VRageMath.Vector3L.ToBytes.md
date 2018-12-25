@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void ToBytes(private public class.List<T> result)
+public void ToBytes(public class List<T> result)
 ```
 
 ### Returns

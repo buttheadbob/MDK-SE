@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public int Encode(ref private public sealed struct.Vector3I value)
+public int Encode(ref public sealed struct Vector3I value)
 ```
 
 ### Returns

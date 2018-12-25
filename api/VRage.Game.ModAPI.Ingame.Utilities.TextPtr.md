@@ -3,7 +3,7 @@
 #### TextPtr Struct
 
 ```csharp
-private public sealed struct.TextPtr
+public sealed struct TextPtr
 ```
 
 **Namespace:** [VRage.Game.ModAPI.Ingame.Utilities](VRage.Game.ModAPI.Ingame.Utilities)  

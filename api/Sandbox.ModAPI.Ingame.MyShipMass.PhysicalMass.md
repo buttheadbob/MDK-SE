@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float PhysicalMass
+public float PhysicalMass
 ```
 
 Gets the physical mass of the ship, which accounts for inventory multiplier.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public class.MyCuboid CreateTransformed(ref private public sealed struct.Matrix worldMatrix)
+public public class MyCuboid CreateTransformed(ref public sealed struct Matrix worldMatrix)
 ```
 
 ### Returns

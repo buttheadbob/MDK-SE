@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public class.CurveKey Item { ; ; }
+public public class CurveKey Item { ; ; }
 ```
 
 ### Returns

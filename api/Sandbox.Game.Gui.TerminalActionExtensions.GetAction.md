@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public interface.ITerminalAction GetAction(private public interface.IMyTerminalBlock block, string name)
+public public interface ITerminalAction GetAction(public interface IMyTerminalBlock block, string name)
 ```
 
 ### Returns

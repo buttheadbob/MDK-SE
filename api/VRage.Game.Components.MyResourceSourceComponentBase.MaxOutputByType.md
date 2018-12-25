@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual float MaxOutputByType(private public sealed struct.MyDefinitionId resourceTypeId)
+public virtual float MaxOutputByType(public sealed struct MyDefinitionId resourceTypeId)
 ```
 
 Maximum power output of the producer in MW or litres/h.

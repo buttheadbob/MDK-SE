@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void Write(private public sealed class.StringBuilder stringBuilder)
+public void Write(public sealed class StringBuilder stringBuilder)
 ```
 
 Writes this value as a string to the given string builder.

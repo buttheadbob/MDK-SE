@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual void GetProperties(private public class.List<T> resultList, private public sealed class.Func<T, TResult> collect)
+public virtual void GetProperties(public class List<T> resultList, public sealed class Func<T, TResult> collect)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 #### BoundingFrustumExtensions Class
 
 ```csharp
-private public abstract sealed class.BoundingFrustumExtensions
+public abstract sealed class BoundingFrustumExtensions
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

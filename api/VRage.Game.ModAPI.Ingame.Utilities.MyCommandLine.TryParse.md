@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool TryParse(string argument)
+public bool TryParse(string argument)
 ```
 
 Attempts to parse the given string as a command line

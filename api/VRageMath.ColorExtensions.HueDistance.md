@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float HueDistance(private public sealed struct.Color color, float hue)
+public float HueDistance(public sealed struct Color color, float hue)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public float HueDistance(private public sealed struct.Color color, float
 ### Summary
 
 ```csharp
-private public float HueDistance(private public sealed struct.Color color, private public sealed struct.Color otherColor)
+public float HueDistance(public sealed struct Color color, public sealed struct Color otherColor)
 ```
 
 ### Returns

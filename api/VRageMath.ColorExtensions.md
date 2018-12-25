@@ -3,7 +3,7 @@
 #### ColorExtensions Class
 
 ```csharp
-private public abstract sealed class.ColorExtensions
+public abstract sealed class ColorExtensions
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

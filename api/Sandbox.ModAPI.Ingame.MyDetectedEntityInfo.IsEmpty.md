@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool IsEmpty()
+public bool IsEmpty()
 ```
 
 Determines if this structure is empty; meaning it does not contain any meaningful data

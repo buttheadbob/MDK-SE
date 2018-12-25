@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed struct.Quaternion CreateFromRotationMatrix(private public sealed struct.MatrixD matrix)
+public public sealed struct Quaternion CreateFromRotationMatrix(public sealed struct MatrixD matrix)
 ```
 
 ### Returns
@@ -15,33 +15,7 @@ private public private public sealed struct.Quaternion CreateFromRotationMatrix(
 ### Summary
 
 ```csharp
-private public private public sealed struct.Quaternion CreateFromRotationMatrix(private public sealed struct.Matrix matrix)
-```
-
-Creates a Quaternion from a rotation Matrix.
-
-### Returns
-
-### Example
-
-### Remarks
-
-### Summary
-
-```csharp
-private public void CreateFromRotationMatrix(ref private public sealed struct.MatrixD matrix, ref private public sealed struct.Quaternion result)
-```
-
-### Returns
-
-### Example
-
-### Remarks
-
-### Summary
-
-```csharp
-private public void CreateFromRotationMatrix(ref private public sealed struct.Matrix matrix, ref private public sealed struct.Quaternion result)
+public public sealed struct Quaternion CreateFromRotationMatrix(public sealed struct Matrix matrix)
 ```
 
 Creates a Quaternion from a rotation Matrix.
@@ -55,7 +29,33 @@ Creates a Quaternion from a rotation Matrix.
 ### Summary
 
 ```csharp
-private public void CreateFromRotationMatrix(ref private public sealed struct.Matrix3x3 matrix, ref private public sealed struct.Quaternion result)
+public void CreateFromRotationMatrix(ref public sealed struct MatrixD matrix, ref public sealed struct Quaternion result)
+```
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+public void CreateFromRotationMatrix(ref public sealed struct Matrix matrix, ref public sealed struct Quaternion result)
+```
+
+Creates a Quaternion from a rotation Matrix.
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+public void CreateFromRotationMatrix(ref public sealed struct Matrix3x3 matrix, ref public sealed struct Quaternion result)
 ```
 
 Creates a Quaternion from a rotation Matrix.

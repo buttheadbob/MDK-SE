@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual void GetSounds(private public class.List<T> sounds)
+public virtual void GetSounds(public class List<T> sounds)
 ```
 
 ### Returns

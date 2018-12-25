@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void GetCornersUnsafe(*private public sealed struct.Vector2D corners)
+public void GetCornersUnsafe(*public sealed struct Vector2D corners)
 ```
 
 ### Returns

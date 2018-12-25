@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public int LengthSquared
+private public int LengthSquared()
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed KeyValuePair<TKey, TValue> FirstPair<K, V>
+private public private public sealed struct.KeyValuePair<TKey, TValue> FirstPair<K, V>(private public class.Dictionary<TKey, TValue> dictionary)
 ```
 
 ### Returns

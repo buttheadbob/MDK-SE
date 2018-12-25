@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual private public sealed PistonStatus Status
+private public virtual private public sealed enum.PistonStatus Status { ; }
 ```
 
 Gets the current status.

@@ -3,7 +3,7 @@
 #### CubeFace Enum
 
 ```csharp
-private public sealed CubeFace
+private public sealed enum.CubeFace
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

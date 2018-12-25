@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float Item
+private public float Item { ; ; }
 ```
 
 ### Returns

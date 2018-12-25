@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void GetAll<T>
+private public void GetAll<T>(private public class.List<T> elementsList, bool clear, private public class.List<T> boxsList)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public void GetAll<T>
 ### Summary
 
 ```csharp
-private public void GetAll<T>
+private public void GetAll<T>(private public sealed class.Action<T> add)
 ```
 
 ### Returns
@@ -27,7 +27,7 @@ private public void GetAll<T>
 ### Summary
 
 ```csharp
-private public void GetAll<T>
+private public void GetAll<T>(private public sealed class.Action<T1, T2> add)
 ```
 
 ### Returns

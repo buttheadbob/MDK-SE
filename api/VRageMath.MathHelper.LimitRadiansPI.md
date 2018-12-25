@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void LimitRadiansPI
+private public void LimitRadiansPI(ref double angle)
 ```
 
 Returns angle in range -PI..PI
@@ -17,7 +17,7 @@ Returns angle in range -PI..PI
 ### Summary
 
 ```csharp
-private public void LimitRadiansPI
+private public void LimitRadiansPI(ref float angle)
 ```
 
 Returns angle in range -PI..PI

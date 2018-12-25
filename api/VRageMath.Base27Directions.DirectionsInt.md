@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Vector3I[] DirectionsInt
+private public private public sealed class.Vector3I[] DirectionsInt
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 #### IMyShipConnector Interface
 
 ```csharp
-private public abstract IMyShipConnector
+private public interface.IMyShipConnector
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float TangentOut
+private public float TangentOut { ; ; }
 ```
 
 Describes the tangent when leaving this point to the next point in the curve.

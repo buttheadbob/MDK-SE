@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed QuaternionD CreateFromYawPitchRoll
+private public private public sealed struct.QuaternionD CreateFromYawPitchRoll(double yaw, double pitch, double roll)
 ```
 
 Creates a new QuaternionD from specified yaw, pitch, and roll angles.
@@ -17,7 +17,7 @@ Creates a new QuaternionD from specified yaw, pitch, and roll angles.
 ### Summary
 
 ```csharp
-private public void CreateFromYawPitchRoll
+private public void CreateFromYawPitchRoll(double yaw, double pitch, double roll, ref private public sealed struct.QuaternionD result)
 ```
 
 Creates a new QuaternionD from specified yaw, pitch, and roll angles.

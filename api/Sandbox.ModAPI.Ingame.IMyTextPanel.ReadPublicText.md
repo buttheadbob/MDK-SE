@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual void ReadPublicText
+private public virtual void ReadPublicText(private public sealed class.StringBuilder buffer, bool append)
 ```
 
 ### Returns

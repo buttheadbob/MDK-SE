@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Vector4 Lerp
+private public private public sealed struct.Vector4 Lerp(private public sealed struct.Vector4 value1, private public sealed struct.Vector4 value2, float amount)
 ```
 
 Performs a linear interpolation between two vectors.
@@ -17,7 +17,7 @@ Performs a linear interpolation between two vectors.
 ### Summary
 
 ```csharp
-private public void Lerp
+private public void Lerp(ref private public sealed struct.Vector4 value1, ref private public sealed struct.Vector4 value2, float amount, ref private public sealed struct.Vector4 result)
 ```
 
 Performs a linear interpolation between two vectors.

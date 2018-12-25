@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public int Left
+private public int Left { ; }
 ```
 
 Returns the x-coordinate of the left side of the rectangle.

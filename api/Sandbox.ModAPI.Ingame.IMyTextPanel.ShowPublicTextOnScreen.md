@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual void ShowPublicTextOnScreen
+private public virtual void ShowPublicTextOnScreen()
 ```
 
 ### Returns

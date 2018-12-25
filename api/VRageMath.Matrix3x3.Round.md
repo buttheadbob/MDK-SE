@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Matrix3x3 Round
+private public private public sealed struct.Matrix3x3 Round(ref private public sealed struct.Matrix3x3 matrix)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 #### IMyInventory Interface
 
 ```csharp
-private public abstract IMyInventory
+private public interface.IMyInventory
 ```
 
 **Namespace:** [VRage.Game.ModAPI.Ingame](VRage.Game.ModAPI.Ingame)  

@@ -3,7 +3,7 @@
 #### PistonStatus Enum
 
 ```csharp
-private public sealed PistonStatus
+private public sealed enum.PistonStatus
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool Equals
+private public bool Equals(private public sealed struct.RectangleF other)
 ```
 
 Determines whether the specified [System.Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6) is equal to this instance.
@@ -19,7 +19,7 @@ Determines whether the specified [System.Object](https://docs.microsoft.com/en-u
 ### Summary
 
 ```csharp
-private public virtual bool Equals
+private public virtual bool Equals(object obj)
 ```
 
 ### Returns

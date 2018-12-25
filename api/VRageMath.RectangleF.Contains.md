@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool Contains
+private public bool Contains(int x, int y)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public bool Contains
 ### Summary
 
 ```csharp
-private public bool Contains
+private public bool Contains(float x, float y)
 ```
 
 ### Returns
@@ -27,7 +27,7 @@ private public bool Contains
 ### Summary
 
 ```csharp
-private public bool Contains
+private public bool Contains(private public sealed struct.Vector2 vector2D)
 ```
 
 ### Returns
@@ -39,7 +39,7 @@ private public bool Contains
 ### Summary
 
 ```csharp
-private public bool Contains
+private public bool Contains(private public sealed struct.Point point)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Color Tint
+private public private public sealed struct.Color Tint(private public sealed struct.Color c, float r)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 #### ListExtensions Class
 
 ```csharp
-private public abstract sealed ListExtensions
+private public abstract sealed class.ListExtensions
 ```
 
 **Namespace:** [System.Collections.Generic](System.Collections.Generic)  

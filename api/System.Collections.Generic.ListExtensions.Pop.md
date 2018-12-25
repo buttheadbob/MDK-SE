@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public TValue Pop<TValue>
+private public private public class.TValue Pop<TValue>(private public class.List<T> self)
 ```
 
 ### Returns

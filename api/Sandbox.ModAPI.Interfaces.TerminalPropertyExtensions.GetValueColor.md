@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Color GetValueColor
+private public private public sealed struct.Color GetValueColor(private public interface.IMyTerminalBlock block, string propertyId)
 ```
 
 Returns value of specified property

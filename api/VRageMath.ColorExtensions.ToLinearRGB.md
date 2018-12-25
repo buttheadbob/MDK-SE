@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Vector4 ToLinearRGB
+private public private public sealed struct.Vector4 ToLinearRGB(private public sealed struct.Vector4 c)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public private public sealed Vector4 ToLinearRGB
 ### Summary
 
 ```csharp
-private public private public sealed Vector3 ToLinearRGB
+private public private public sealed struct.Vector3 ToLinearRGB(private public sealed struct.Vector3 c)
 ```
 
 ### Returns

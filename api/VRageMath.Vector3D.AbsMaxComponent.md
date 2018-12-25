@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public int AbsMaxComponent
+private public int AbsMaxComponent()
 ```
 
 ### Returns

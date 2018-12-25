@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Vector2I[] GetCorners
+private public private public sealed class.Vector2I[] GetCorners()
 ```
 
 Gets an array of points that make up the corners of the BoundingBox2I.
@@ -17,7 +17,7 @@ Gets an array of points that make up the corners of the BoundingBox2I.
 ### Summary
 
 ```csharp
-private public void GetCorners
+private public void GetCorners(private public sealed class.Vector2I[] corners)
 ```
 
 Gets the array of points that make up the corners of the BoundingBox2I.

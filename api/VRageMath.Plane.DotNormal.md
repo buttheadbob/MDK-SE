@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float DotNormal
+private public float DotNormal(private public sealed struct.Vector3 value)
 ```
 
 Returns the dot product of a specified Vector3 and the Normal vector of this Plane.
@@ -17,7 +17,7 @@ Returns the dot product of a specified Vector3 and the Normal vector of this Pla
 ### Summary
 
 ```csharp
-private public void DotNormal
+private public void DotNormal(ref private public sealed struct.Vector3 value, ref float result)
 ```
 
 Returns the dot product of a specified Vector3 and the Normal vector of this Plane.

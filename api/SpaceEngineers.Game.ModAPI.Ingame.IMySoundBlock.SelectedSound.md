@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual string SelectedSound
+private public virtual string SelectedSound { ; ; }
 ```
 
 Gets or sets the selected sound.

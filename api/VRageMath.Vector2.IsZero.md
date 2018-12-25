@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool IsZero
+private public bool IsZero(ref private public sealed struct.Vector2 value)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public bool IsZero
 ### Summary
 
 ```csharp
-private public bool IsZero
+private public bool IsZero(ref private public sealed struct.Vector2 value, float epsilon)
 ```
 
 ### Returns
@@ -27,7 +27,7 @@ private public bool IsZero
 ### Summary
 
 ```csharp
-private public bool IsZero
+private public bool IsZero(private public sealed struct.Vector2 value, float epsilon)
 ```
 
 ### Returns

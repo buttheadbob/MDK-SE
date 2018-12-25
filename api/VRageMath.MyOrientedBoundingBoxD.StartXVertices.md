@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Int32[] StartXVertices
+private public private public sealed class.Int32[] StartXVertices
 ```
 
 ### Returns

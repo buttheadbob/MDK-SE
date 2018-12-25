@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public T1 Item1
+private public private public class.T1 Item1
 ```
 
 ### Returns

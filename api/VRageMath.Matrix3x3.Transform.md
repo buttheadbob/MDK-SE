@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void Transform
+private public void Transform(ref private public sealed struct.Matrix3x3 value, ref private public sealed struct.Quaternion rotation, ref private public sealed struct.Matrix3x3 result)
 ```
 
 Transforms a Matrix3x3 by applying a Quaternion rotation.

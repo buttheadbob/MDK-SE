@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Vector3D Position
+private public private public sealed struct.Vector3D Position { ; }
 ```
 
 The entity's position (center of the Bounding Box)

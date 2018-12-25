@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual bool IsProducing
+private public virtual bool IsProducing { ; }
 ```
 
 The device is currently producing.

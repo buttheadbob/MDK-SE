@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Nullable<T> Intersects
+private public private public sealed struct.Nullable<T> Intersects(private public sealed struct.BoundingBoxD box)
 ```
 
 Checks whether the Ray intersects a specified BoundingBox.
@@ -17,7 +17,7 @@ Checks whether the Ray intersects a specified BoundingBox.
 ### Summary
 
 ```csharp
-private public void Intersects
+private public void Intersects(ref private public sealed struct.BoundingBoxD box, ref private public sealed struct.Nullable<T> result)
 ```
 
 ### Returns
@@ -29,7 +29,7 @@ private public void Intersects
 ### Summary
 
 ```csharp
-private public private public sealed Nullable<T> Intersects
+private public private public sealed struct.Nullable<T> Intersects(private public class.BoundingFrustumD frustum)
 ```
 
 Checks whether the Ray intersects a specified BoundingFrustum.
@@ -43,7 +43,7 @@ Checks whether the Ray intersects a specified BoundingFrustum.
 ### Summary
 
 ```csharp
-private public private public sealed Nullable<T> Intersects
+private public private public sealed struct.Nullable<T> Intersects(private public sealed struct.PlaneD plane)
 ```
 
 Determines whether this Ray intersects a specified Plane.
@@ -57,7 +57,7 @@ Determines whether this Ray intersects a specified Plane.
 ### Summary
 
 ```csharp
-private public void Intersects
+private public void Intersects(ref private public sealed struct.PlaneD plane, ref private public sealed struct.Nullable<T> result)
 ```
 
 ### Returns
@@ -69,7 +69,7 @@ private public void Intersects
 ### Summary
 
 ```csharp
-private public private public sealed Nullable<T> Intersects
+private public private public sealed struct.Nullable<T> Intersects(private public sealed struct.BoundingSphereD sphere)
 ```
 
 Checks whether the Ray intersects a specified BoundingSphere.
@@ -83,7 +83,7 @@ Checks whether the Ray intersects a specified BoundingSphere.
 ### Summary
 
 ```csharp
-private public void Intersects
+private public void Intersects(ref private public sealed struct.BoundingSphere sphere, ref private public sealed struct.Nullable<T> result)
 ```
 
 ### Returns

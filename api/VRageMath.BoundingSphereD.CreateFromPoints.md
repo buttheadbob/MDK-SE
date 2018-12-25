@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed BoundingSphereD CreateFromPoints
+private public private public sealed struct.BoundingSphereD CreateFromPoints(private public sealed class.Vector3D[] points)
 ```
 
 Creates a BoundingSphereD that can contain a specified list of points.

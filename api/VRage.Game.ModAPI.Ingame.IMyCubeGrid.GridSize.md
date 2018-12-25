@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual float GridSize
+private public virtual float GridSize { ; }
 ```
 
 Grid size in meters

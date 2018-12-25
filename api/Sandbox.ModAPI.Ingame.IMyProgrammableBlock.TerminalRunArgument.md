@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual string TerminalRunArgument
+private public virtual string TerminalRunArgument { ; }
 ```
 
 Contains the value of the default terminal argument.

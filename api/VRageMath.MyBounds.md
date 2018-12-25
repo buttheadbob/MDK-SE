@@ -3,7 +3,7 @@
 #### MyBounds Struct
 
 ```csharp
-private public sealed MyBounds
+private public sealed struct.MyBounds
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

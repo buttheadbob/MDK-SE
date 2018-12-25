@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Matrix CreatePerspectiveFovRhInfiniteComplementaryInverse
+private public private public sealed struct.Matrix CreatePerspectiveFovRhInfiniteComplementaryInverse(float fieldOfView, float aspectRatio, float nearPlaneDistance)
 ```
 
 ### Returns

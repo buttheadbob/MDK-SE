@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool TryGetUInt32
+private public bool TryGetUInt32(ref uint value)
 ```
 
 Attempts to get this value as a [System.UInt32](https://docs.microsoft.com/en-us/dotnet/api/system.uint32?view=netframework-4.6) . Fills the`value`on success.

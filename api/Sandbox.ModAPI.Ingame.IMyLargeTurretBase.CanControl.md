@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual bool CanControl
+private public virtual bool CanControl { ; }
 ```
 
 ### Returns

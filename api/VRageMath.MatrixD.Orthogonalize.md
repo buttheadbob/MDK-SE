@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void Orthogonalize
+private public void Orthogonalize()
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public void Orthogonalize
 ### Summary
 
 ```csharp
-private public private public sealed MatrixD Orthogonalize
+private public private public sealed struct.MatrixD Orthogonalize(private public sealed struct.MatrixD rotationMatrix)
 ```
 
 ### Returns

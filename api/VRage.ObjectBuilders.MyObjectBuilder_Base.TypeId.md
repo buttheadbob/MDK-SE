@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed MyObjectBuilderType TypeId
+private public private public sealed struct.MyObjectBuilderType TypeId { ; }
 ```
 
 ### Returns

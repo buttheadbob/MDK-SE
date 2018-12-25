@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual private public abstract IMyCubeGrid CubeGrid
+private public virtual private public interface.IMyCubeGrid CubeGrid { ; }
 ```
 
 Gets the grid the slimblock is on

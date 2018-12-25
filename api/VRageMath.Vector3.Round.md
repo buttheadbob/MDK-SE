@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Vector3 Round
+private public private public sealed struct.Vector3 Round(private public sealed struct.Vector3 v)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public private public sealed Vector3 Round
 ### Summary
 
 ```csharp
-private public private public sealed Vector3 Round
+private public private public sealed struct.Vector3 Round(private public sealed struct.Vector3 v, int numDecimals)
 ```
 
 ### Returns

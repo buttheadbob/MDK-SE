@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void SortNoAlloc<T>
+private public void SortNoAlloc<T>(private public class.List<T> list, private public sealed class.Comparison<T> comparator)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual void Retract
+private public virtual void Retract()
 ```
 
 Retracts the piston.

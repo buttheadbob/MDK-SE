@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public int CountLeaves
+private public int CountLeaves(int nodeId)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual bool CanAddItemAmount
+private public virtual bool CanAddItemAmount(private public interface.IMyInventoryItem item, private public sealed struct.MyFixedPoint amount)
 ```
 
 ### Returns

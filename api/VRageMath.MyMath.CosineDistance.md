@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float CosineDistance
+private public float CosineDistance(ref private public sealed struct.Vector3 a, ref private public sealed struct.Vector3 b)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public float CosineDistance
 ### Summary
 
 ```csharp
-private public double CosineDistance
+private public double CosineDistance(ref private public sealed struct.Vector3D a, ref private public sealed struct.Vector3D b)
 ```
 
 ### Returns

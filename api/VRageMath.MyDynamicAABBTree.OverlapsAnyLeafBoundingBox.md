@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool OverlapsAnyLeafBoundingBox
+private public bool OverlapsAnyLeafBoundingBox(ref private public sealed struct.BoundingBox bbox)
 ```
 
 ### Returns

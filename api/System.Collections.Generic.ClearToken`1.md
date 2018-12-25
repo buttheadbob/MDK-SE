@@ -3,7 +3,7 @@
 #### ClearToken&lt;T&gt; Struct
 
 ```csharp
-private public sealed ClearToken<T>
+private public sealed struct.ClearToken<T>
 ```
 
 **Namespace:** [System.Collections.Generic](System.Collections.Generic)  

@@ -3,7 +3,7 @@
 #### ArrayExtensions Class
 
 ```csharp
-private public abstract sealed ArrayExtensions
+private public abstract sealed class.ArrayExtensions
 ```
 
 **Namespace:** [System](System)  

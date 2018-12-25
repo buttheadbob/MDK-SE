@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual float Friction
+private public virtual float Friction { ; ; }
 ```
 
 Ball friction

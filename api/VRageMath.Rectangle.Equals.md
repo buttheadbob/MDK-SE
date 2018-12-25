@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool Equals
+private public bool Equals(private public sealed struct.Rectangle other)
 ```
 
 Determines whether the specified Object is equal to the Rectangle.
@@ -17,7 +17,7 @@ Determines whether the specified Object is equal to the Rectangle.
 ### Summary
 
 ```csharp
-private public virtual bool Equals
+private public virtual bool Equals(object obj)
 ```
 
 Returns a value that indicates whether the current instance is equal to a specified object.

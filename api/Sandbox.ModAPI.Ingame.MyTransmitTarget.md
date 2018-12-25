@@ -3,7 +3,7 @@
 #### MyTransmitTarget Enum
 
 ```csharp
-private public sealed MyTransmitTarget
+private public sealed enum.MyTransmitTarget
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

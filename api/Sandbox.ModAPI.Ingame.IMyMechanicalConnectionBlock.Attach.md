@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual void Attach
+private public virtual void Attach()
 ```
 
 Attaches a nearby top part to the block

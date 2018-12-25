@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void GetNext
+private public void GetNext(ref private public sealed struct.Vector3L next)
 ```
 
 ### Returns

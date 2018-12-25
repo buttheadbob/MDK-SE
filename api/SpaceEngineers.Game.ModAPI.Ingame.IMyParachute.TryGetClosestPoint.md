@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual bool TryGetClosestPoint
+private public virtual bool TryGetClosestPoint(ref private public sealed struct.Nullable<T> closestPoint)
 ```
 
 ### Returns

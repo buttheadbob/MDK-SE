@@ -3,7 +3,7 @@
 #### RectangleF Struct
 
 ```csharp
-private public sealed RectangleF
+private public sealed struct.RectangleF
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

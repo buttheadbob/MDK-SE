@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool IsReadOnly
+private public bool IsReadOnly { ; }
 ```
 
 Returns a value indicating whether the CurveKeyCollection is read-only.

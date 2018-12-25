@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual bool DetectAsteroids
+private public virtual bool DetectAsteroids { ; ; }
 ```
 
 Gets or sets if the sensor should detect asteroids or planets.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void Enqueue
+private public void Enqueue(float value)
 ```
 
 ### Returns

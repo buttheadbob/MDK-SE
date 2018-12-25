@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public string ToStringAxisAngle
+private public string ToStringAxisAngle(string format)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed MatrixD CreateRotationY
+private public private public sealed struct.MatrixD CreateRotationY(double radians)
 ```
 
 Returns a matrix that can be used to rotate a set of vertices around the y-axis.
@@ -17,7 +17,7 @@ Returns a matrix that can be used to rotate a set of vertices around the y-axis.
 ### Summary
 
 ```csharp
-private public void CreateRotationY
+private public void CreateRotationY(double radians, ref private public sealed struct.MatrixD result)
 ```
 
 Populates data into a user-specified matrix that can be used to rotate a set of vertices around the y-axis.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual string ToString
+private public virtual string ToString()
 ```
 
 Generates a configuration file from the currently parsed configuration

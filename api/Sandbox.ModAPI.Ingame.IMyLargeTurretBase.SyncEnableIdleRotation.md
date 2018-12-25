@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual void SyncEnableIdleRotation
+private public virtual void SyncEnableIdleRotation()
 ```
 
 method used to sync idle rotation and elevation, you need to call it to sync rotation and elevation for other clients/server

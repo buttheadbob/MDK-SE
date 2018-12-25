@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Nullable<T> HitPosition
+private public private public sealed struct.Nullable<T> HitPosition
 ```
 
 Position where the raycast hit the entity. (can be null if the sensor didn't use a raycast)

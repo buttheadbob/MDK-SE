@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Vector3 Add
+private public private public sealed struct.Vector3 Add(private public sealed struct.Vector3 value1, private public sealed struct.Vector3 value2)
 ```
 
 Adds two vectors.
@@ -17,7 +17,7 @@ Adds two vectors.
 ### Summary
 
 ```csharp
-private public void Add
+private public void Add(ref private public sealed struct.Vector3 value1, ref private public sealed struct.Vector3 value2, ref private public sealed struct.Vector3 result)
 ```
 
 Adds two vectors.
@@ -31,7 +31,7 @@ Adds two vectors.
 ### Summary
 
 ```csharp
-private public void Add
+private public void Add(private public sealed struct.Vector3 other)
 ```
 
 ### Returns

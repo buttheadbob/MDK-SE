@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual bool ControlThrusters
+private public virtual bool ControlThrusters { ; ; }
 ```
 
 Gets or sets whether thrusters are being controlled by this controller.

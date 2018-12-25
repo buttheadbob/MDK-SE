@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual bool IsFullyDismounted
+private public virtual bool IsFullyDismounted { ; }
 ```
 
 Gets if component stack is empty

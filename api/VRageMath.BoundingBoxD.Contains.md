@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed ContainmentType Contains
+private public private public sealed enum.ContainmentType Contains(private public sealed struct.BoundingBoxD box)
 ```
 
 Tests whether the BoundingBox contains another BoundingBox.
@@ -17,7 +17,7 @@ Tests whether the BoundingBox contains another BoundingBox.
 ### Summary
 
 ```csharp
-private public void Contains
+private public void Contains(ref private public sealed struct.BoundingBoxD box, ref private public sealed enum.ContainmentType result)
 ```
 
 Tests whether the BoundingBox contains a BoundingBox.
@@ -31,7 +31,7 @@ Tests whether the BoundingBox contains a BoundingBox.
 ### Summary
 
 ```csharp
-private public private public sealed ContainmentType Contains
+private public private public sealed enum.ContainmentType Contains(private public class.BoundingFrustumD frustum)
 ```
 
 Tests whether the BoundingBox contains a BoundingFrustum.
@@ -45,7 +45,7 @@ Tests whether the BoundingBox contains a BoundingFrustum.
 ### Summary
 
 ```csharp
-private public private public sealed ContainmentType Contains
+private public private public sealed enum.ContainmentType Contains(private public sealed struct.Vector3D point)
 ```
 
 Tests whether the BoundingBox contains a point.
@@ -59,7 +59,7 @@ Tests whether the BoundingBox contains a point.
 ### Summary
 
 ```csharp
-private public void Contains
+private public void Contains(ref private public sealed struct.Vector3D point, ref private public sealed enum.ContainmentType result)
 ```
 
 Tests whether the BoundingBox contains a point.
@@ -73,7 +73,7 @@ Tests whether the BoundingBox contains a point.
 ### Summary
 
 ```csharp
-private public private public sealed ContainmentType Contains
+private public private public sealed enum.ContainmentType Contains(private public sealed struct.BoundingSphereD sphere)
 ```
 
 Tests whether the BoundingBox contains a BoundingSphere.
@@ -87,7 +87,7 @@ Tests whether the BoundingBox contains a BoundingSphere.
 ### Summary
 
 ```csharp
-private public void Contains
+private public void Contains(ref private public sealed struct.BoundingSphereD sphere, ref private public sealed enum.ContainmentType result)
 ```
 
 Tests whether the BoundingBox contains a BoundingSphere.

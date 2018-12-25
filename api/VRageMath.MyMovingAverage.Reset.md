@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void Reset
+private public void Reset()
 ```
 
 ### Returns

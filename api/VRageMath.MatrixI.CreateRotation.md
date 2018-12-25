@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed MatrixI CreateRotation
+private public private public sealed struct.MatrixI CreateRotation(private sealed enum.Direction oldA, private sealed enum.Direction oldB, private sealed enum.Direction newA, private sealed enum.Direction newB)
 ```
 
 ### Returns

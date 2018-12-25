@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual float DefinedOutputByType
+private public virtual float DefinedOutputByType(private public sealed struct.MyDefinitionId resourceTypeId)
 ```
 
 Max resource output defined in definition in MW or litres/h.

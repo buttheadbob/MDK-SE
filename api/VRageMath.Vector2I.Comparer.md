@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private ComparerClass Comparer
+private public private class.ComparerClass Comparer
 ```
 
 ### Returns

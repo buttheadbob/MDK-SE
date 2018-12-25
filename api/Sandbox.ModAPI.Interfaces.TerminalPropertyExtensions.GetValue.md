@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public T GetValue<T>
+private public private public class.T GetValue<T>(private public interface.IMyTerminalBlock block, string propertyId)
 ```
 
 ### Returns

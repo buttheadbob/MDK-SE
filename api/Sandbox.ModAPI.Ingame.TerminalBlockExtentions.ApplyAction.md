@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void ApplyAction
+private public void ApplyAction(private public interface.IMyTerminalBlock block, string actionName)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public void ApplyAction
 ### Summary
 
 ```csharp
-private public void ApplyAction
+private public void ApplyAction(private public interface.IMyTerminalBlock block, string actionName, private public class.List<T> parameters)
 ```
 
 ### Returns

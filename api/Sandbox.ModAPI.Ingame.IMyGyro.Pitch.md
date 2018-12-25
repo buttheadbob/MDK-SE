@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual float Pitch
+private public virtual float Pitch { ; ; }
 ```
 
 ### Returns

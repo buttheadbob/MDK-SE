@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual private public sealed ListReader<T> AcceptedResources
+private public virtual private public sealed struct.ListReader<T> AcceptedResources { ; }
 ```
 
 ### Returns

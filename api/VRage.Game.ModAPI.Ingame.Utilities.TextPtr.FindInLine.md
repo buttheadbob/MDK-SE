@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed TextPtr FindInLine
+private public private public sealed struct.TextPtr FindInLine(char ch)
 ```
 
 ### Returns

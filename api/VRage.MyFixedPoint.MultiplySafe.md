@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed MyFixedPoint MultiplySafe
+private public private public sealed struct.MyFixedPoint MultiplySafe(private public sealed struct.MyFixedPoint a, float b)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public private public sealed MyFixedPoint MultiplySafe
 ### Summary
 
 ```csharp
-private public private public sealed MyFixedPoint MultiplySafe
+private public private public sealed struct.MyFixedPoint MultiplySafe(private public sealed struct.MyFixedPoint a, int b)
 ```
 
 ### Returns
@@ -27,7 +27,7 @@ private public private public sealed MyFixedPoint MultiplySafe
 ### Summary
 
 ```csharp
-private public private public sealed MyFixedPoint MultiplySafe
+private public private public sealed struct.MyFixedPoint MultiplySafe(float a, private public sealed struct.MyFixedPoint b)
 ```
 
 ### Returns
@@ -39,7 +39,7 @@ private public private public sealed MyFixedPoint MultiplySafe
 ### Summary
 
 ```csharp
-private public private public sealed MyFixedPoint MultiplySafe
+private public private public sealed struct.MyFixedPoint MultiplySafe(int a, private public sealed struct.MyFixedPoint b)
 ```
 
 ### Returns
@@ -51,7 +51,7 @@ private public private public sealed MyFixedPoint MultiplySafe
 ### Summary
 
 ```csharp
-private public private public sealed MyFixedPoint MultiplySafe
+private public private public sealed struct.MyFixedPoint MultiplySafe(private public sealed struct.MyFixedPoint a, private public sealed struct.MyFixedPoint b)
 ```
 
 ### Returns

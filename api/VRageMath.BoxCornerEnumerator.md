@@ -3,7 +3,7 @@
 #### BoxCornerEnumerator Struct
 
 ```csharp
-private public sealed BoxCornerEnumerator
+private public sealed struct.BoxCornerEnumerator
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual bool CubeExists
+private public virtual bool CubeExists(private public sealed struct.Vector3I pos)
 ```
 
 Returns true if there is any block occupying given position

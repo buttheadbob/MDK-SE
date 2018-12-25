@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed QuaternionD Identity
+private public private public sealed struct.QuaternionD Identity
 ```
 
 ### Returns

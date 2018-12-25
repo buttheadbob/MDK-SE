@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool IsNewLine
+private public bool IsNewLine()
 ```
 
 ### Returns

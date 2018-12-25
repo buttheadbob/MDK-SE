@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void GetQuaternion
+private public void GetQuaternion(ref private public sealed struct.Quaternion result)
 ```
 
 ### Returns

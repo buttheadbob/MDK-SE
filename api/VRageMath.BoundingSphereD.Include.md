@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed BoundingSphereD Include
+private public private public sealed struct.BoundingSphereD Include(private public sealed struct.BoundingSphereD sphere)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public private public sealed BoundingSphereD Include
 ### Summary
 
 ```csharp
-private public void Include
+private public void Include(ref private public sealed struct.BoundingSphereD sphere, ref private public sealed struct.BoundingSphereD otherSphere)
 ```
 
 ### Returns

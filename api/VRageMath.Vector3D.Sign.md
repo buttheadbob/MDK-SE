@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Vector3D Sign
+private public private public sealed struct.Vector3D Sign(private public sealed struct.Vector3D value)
 ```
 
 ### Returns

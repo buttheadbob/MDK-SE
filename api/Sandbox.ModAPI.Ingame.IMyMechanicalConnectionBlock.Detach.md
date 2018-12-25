@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual void Detach
+private public virtual void Detach()
 ```
 
 Detaches the top from the base

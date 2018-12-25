@@ -3,7 +3,7 @@
 #### MyCommandLine Class
 
 ```csharp
-private public MyCommandLine
+private public class.MyCommandLine
 ```
 
 **Namespace:** [VRage.Game.ModAPI.Ingame.Utilities](VRage.Game.ModAPI.Ingame.Utilities)  

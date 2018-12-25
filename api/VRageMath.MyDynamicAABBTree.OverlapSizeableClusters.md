@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void OverlapSizeableClusters
+private public void OverlapSizeableClusters(ref private public sealed struct.BoundingBox bbox, private public class.List<T> boundList, double minSize)
 ```
 
 ### Returns

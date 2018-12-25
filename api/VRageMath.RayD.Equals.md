@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool Equals
+private public bool Equals(private public sealed struct.RayD other)
 ```
 
 Determines whether the specified Ray is equal to the current Ray.
@@ -17,7 +17,7 @@ Determines whether the specified Ray is equal to the current Ray.
 ### Summary
 
 ```csharp
-private public virtual bool Equals
+private public virtual bool Equals(object obj)
 ```
 
 Determines whether two instances of Ray are equal.

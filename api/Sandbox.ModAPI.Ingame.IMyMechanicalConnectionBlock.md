@@ -3,7 +3,7 @@
 #### IMyMechanicalConnectionBlock Interface
 
 ```csharp
-private public abstract IMyMechanicalConnectionBlock
+private public interface.IMyMechanicalConnectionBlock
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

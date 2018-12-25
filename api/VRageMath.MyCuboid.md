@@ -3,7 +3,7 @@
 #### MyCuboid Class
 
 ```csharp
-private public MyCuboid
+private public class.MyCuboid
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

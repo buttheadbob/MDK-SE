@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual void SearchActionsOfName
+private public virtual void SearchActionsOfName(string name, private public class.List<T> resultList, private public sealed class.Func<T, TResult> collect)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Vector3I Abs
+private public private public sealed struct.Vector3I Abs(private public sealed struct.Vector3I value)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public private public sealed Vector3I Abs
 ### Summary
 
 ```csharp
-private public void Abs
+private public void Abs(ref private public sealed struct.Vector3I value, ref private public sealed struct.Vector3I result)
 ```
 
 ### Returns

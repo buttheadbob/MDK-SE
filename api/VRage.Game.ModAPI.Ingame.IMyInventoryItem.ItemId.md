@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual uint ItemId
+private public virtual uint ItemId { ; ; }
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 #### MyInventoryItemFilter Struct
 
 ```csharp
-private public sealed MyInventoryItemFilter
+private public sealed struct.MyInventoryItemFilter
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

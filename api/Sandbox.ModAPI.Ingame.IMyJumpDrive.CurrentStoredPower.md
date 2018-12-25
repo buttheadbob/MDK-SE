@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual float CurrentStoredPower
+private public virtual float CurrentStoredPower { ; }
 ```
 
 ### Returns

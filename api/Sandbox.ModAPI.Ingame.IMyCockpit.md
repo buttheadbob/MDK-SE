@@ -3,7 +3,7 @@
 #### IMyCockpit Interface
 
 ```csharp
-private public abstract IMyCockpit
+private public interface.IMyCockpit
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

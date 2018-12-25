@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed MyFixedPoint Floor
+private public private public sealed struct.MyFixedPoint Floor(private public sealed struct.MyFixedPoint a)
 ```
 
 ### Returns

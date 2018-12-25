@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual bool WritePublicTitle
+private public virtual bool WritePublicTitle(string value, bool append)
 ```
 
 ### Returns

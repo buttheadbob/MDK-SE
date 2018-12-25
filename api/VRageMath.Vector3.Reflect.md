@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Vector3 Reflect
+private public private public sealed struct.Vector3 Reflect(private public sealed struct.Vector3 vector, private public sealed struct.Vector3 normal)
 ```
 
 Returns the reflection of a vector off a surface that has the specified normal. Reference page contains code sample.
@@ -17,7 +17,7 @@ Returns the reflection of a vector off a surface that has the specified normal. 
 ### Summary
 
 ```csharp
-private public void Reflect
+private public void Reflect(ref private public sealed struct.Vector3 vector, ref private public sealed struct.Vector3 normal, ref private public sealed struct.Vector3 result)
 ```
 
 Returns the reflection of a vector off a surface that has the specified normal. Reference page contains code sample.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public int GetRoot
+private public int GetRoot()
 ```
 
 ### Returns

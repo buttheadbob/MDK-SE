@@ -3,7 +3,7 @@
 #### Vector4 Struct
 
 ```csharp
-private public sealed Vector4
+private public sealed struct.Vector4
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

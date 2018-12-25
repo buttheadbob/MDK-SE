@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual float ThrustOverridePercentage
+private public virtual float ThrustOverridePercentage { ; ; }
 ```
 
 Gets or sets the thrust override as a percentage between 0 and 1

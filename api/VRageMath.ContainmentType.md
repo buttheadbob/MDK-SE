@@ -3,7 +3,7 @@
 #### ContainmentType Enum
 
 ```csharp
-private public sealed ContainmentType
+private public sealed enum.ContainmentType
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

@@ -3,7 +3,7 @@
 #### MyJumpDriveStatus Enum
 
 ```csharp
-private public sealed MyJumpDriveStatus
+private public sealed enum.MyJumpDriveStatus
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual void SetShowOnScreen
+private public virtual void SetShowOnScreen(private public sealed enum.ShowTextOnScreenFlag set)
 ```
 
 ### Returns

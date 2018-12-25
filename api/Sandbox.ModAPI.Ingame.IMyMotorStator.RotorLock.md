@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual bool RotorLock
+private public virtual bool RotorLock { ; ; }
 ```
 
 Gets or sets rotor lock

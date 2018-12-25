@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool ProductionEnabled
+private public bool ProductionEnabled { ; }
 ```
 
 ### Returns

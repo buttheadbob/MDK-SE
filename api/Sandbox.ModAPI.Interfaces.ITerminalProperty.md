@@ -3,7 +3,7 @@
 #### ITerminalProperty Interface
 
 ```csharp
-private public abstract ITerminalProperty
+private public interface.ITerminalProperty
 ```
 
 **Namespace:** [Sandbox.ModAPI.Interfaces](Sandbox.ModAPI.Interfaces)  

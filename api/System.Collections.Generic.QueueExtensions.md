@@ -3,7 +3,7 @@
 #### QueueExtensions Class
 
 ```csharp
-private public abstract sealed QueueExtensions
+private public abstract sealed class.QueueExtensions
 ```
 
 **Namespace:** [System.Collections.Generic](System.Collections.Generic)  

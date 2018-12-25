@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public int CompareTo
+private public int CompareTo(private public sealed struct.Vector3L other)
 ```
 
 ### Returns

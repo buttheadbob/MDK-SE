@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Vector2D Max
+private public private public sealed struct.Vector2D Max
 ```
 
 The maximum point the BoundingBox2D contains.

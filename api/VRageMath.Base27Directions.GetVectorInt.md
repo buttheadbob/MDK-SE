@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Vector3I GetVectorInt
+private public private public sealed struct.Vector3I GetVectorInt(int direction)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public private public sealed Vector3I GetVectorInt
 ### Summary
 
 ```csharp
-private public private public sealed Vector3I GetVectorInt
+private public private public sealed struct.Vector3I GetVectorInt(private sealed enum.Direction dir)
 ```
 
 ### Returns

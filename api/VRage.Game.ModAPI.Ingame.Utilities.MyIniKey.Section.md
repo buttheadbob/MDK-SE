@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public string Section
+private public string Section { ; }
 ```
 
 Gets the Section part of this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) 

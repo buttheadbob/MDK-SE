@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual bool IsItemAt
+private public virtual bool IsItemAt(int position)
 ```
 
 ### Returns

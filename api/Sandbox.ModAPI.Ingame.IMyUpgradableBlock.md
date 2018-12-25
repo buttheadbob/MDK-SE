@@ -3,7 +3,7 @@
 #### IMyUpgradableBlock Interface
 
 ```csharp
-private public abstract IMyUpgradableBlock
+private public interface.IMyUpgradableBlock
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

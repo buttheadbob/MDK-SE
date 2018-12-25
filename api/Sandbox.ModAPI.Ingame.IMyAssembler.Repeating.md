@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual bool Repeating
+private public virtual bool Repeating { ; ; }
 ```
 
 Gets or sets whether this assembler should be perpetually repeating its work queue.

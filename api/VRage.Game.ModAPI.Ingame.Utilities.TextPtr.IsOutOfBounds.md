@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool IsOutOfBounds
+private public bool IsOutOfBounds()
 ```
 
 ### Returns

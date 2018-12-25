@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual float CurrentInputByType
+private public virtual float CurrentInputByType(private public sealed struct.MyDefinitionId resourceTypeId)
 ```
 
 ### Returns

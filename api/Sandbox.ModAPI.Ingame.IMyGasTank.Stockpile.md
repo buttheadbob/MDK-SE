@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual bool Stockpile
+private public virtual bool Stockpile { ; ; }
 ```
 
 Gets or sets the stockpiling option for this gas tank. When stockpile is on, the tank will only allow itself to be filled, it will not release any gas.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual bool Brake
+private public virtual bool Brake { ; ; }
 ```
 
 Gets or sets brake applied to the wheel.

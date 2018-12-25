@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Quaternion CreateFromAxisAngle
+private public private public sealed struct.Quaternion CreateFromAxisAngle(private public sealed struct.Vector3 axis, float angle)
 ```
 
 Creates a Quaternion from a vector and an angle to rotate about the vector.
@@ -17,7 +17,7 @@ Creates a Quaternion from a vector and an angle to rotate about the vector.
 ### Summary
 
 ```csharp
-private public void CreateFromAxisAngle
+private public void CreateFromAxisAngle(ref private public sealed struct.Vector3 axis, float angle, ref private public sealed struct.Quaternion result)
 ```
 
 Creates a Quaternion from a vector and an angle to rotate about the vector.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void AssertIsValid
+private public void AssertIsValid(private public sealed struct.Nullable<T> value)
 ```
 
 ### Returns

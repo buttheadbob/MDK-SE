@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool TryGetUInt64
+private public bool TryGetUInt64(ref ulong value)
 ```
 
 Attempts to get this value as a [System.UInt64](https://docs.microsoft.com/en-us/dotnet/api/system.uint64?view=netframework-4.6) . Fills the`value`on success.

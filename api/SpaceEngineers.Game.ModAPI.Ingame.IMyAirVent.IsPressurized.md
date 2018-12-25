@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual bool IsPressurized
+private public virtual bool IsPressurized()
 ```
 
 Room can be pressurized

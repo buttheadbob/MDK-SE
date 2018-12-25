@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public string GetComment
+private public string GetComment(string section, string name)
 ```
 
 Gets any comment that might be associated with the given key. Returns`null`if the key does not exist or has no comment.
@@ -19,7 +19,7 @@ Gets any comment that might be associated with the given key. Returns`null`if th
 ### Summary
 
 ```csharp
-private public string GetComment
+private public string GetComment(private public sealed struct.MyIniKey key)
 ```
 
 Gets any comment that might be associated with the given key. Returns`null`if the key does not exist or has no comment.

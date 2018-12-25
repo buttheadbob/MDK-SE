@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public string SerializeString
+private public string SerializeString()
 ```
 
 For XmlSerialization, format is 123.456789

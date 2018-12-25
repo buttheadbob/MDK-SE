@@ -3,7 +3,7 @@
 #### MyShipConnectorStatus Enum
 
 ```csharp
-private public sealed MyShipConnectorStatus
+private public sealed enum.MyShipConnectorStatus
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

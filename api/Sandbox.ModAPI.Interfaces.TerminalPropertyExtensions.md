@@ -3,7 +3,7 @@
 #### TerminalPropertyExtensions Class
 
 ```csharp
-private public abstract sealed TerminalPropertyExtensions
+private public abstract sealed class.TerminalPropertyExtensions
 ```
 
 **Namespace:** [Sandbox.ModAPI.Interfaces](Sandbox.ModAPI.Interfaces)  

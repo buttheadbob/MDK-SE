@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Vector3D[] GetCorners
+private public private public sealed class.Vector3D[] GetCorners()
 ```
 
 Gets an array of points that make up the corners of the BoundingBox. ALLOCATION!
@@ -17,7 +17,7 @@ Gets an array of points that make up the corners of the BoundingBox. ALLOCATION!
 ### Summary
 
 ```csharp
-private public void GetCorners
+private public void GetCorners(private public sealed class.Vector3D[] corners)
 ```
 
 Gets the array of points that make up the corners of the BoundingBox.

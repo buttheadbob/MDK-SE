@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual float ChangeInterval
+private public virtual float ChangeInterval { ; ; }
 ```
 
 Gets or sets the change interval for selected textures

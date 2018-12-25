@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float Width
+private public float Width { ; ; }
 ```
 
 Width of this rectangle.

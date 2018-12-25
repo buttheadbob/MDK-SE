@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual float TopExtend
+private public virtual float TopExtend { ; ; }
 ```
 
 Gets or sets the top range of the sensor.

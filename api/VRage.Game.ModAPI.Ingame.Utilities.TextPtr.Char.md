@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public char Char
+private public char Char { ; }
 ```
 
 ### Returns

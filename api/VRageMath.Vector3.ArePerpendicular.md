@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool ArePerpendicular
+private public bool ArePerpendicular(ref private public sealed struct.Vector3 a, ref private public sealed struct.Vector3 b)
 ```
 
 ### Returns

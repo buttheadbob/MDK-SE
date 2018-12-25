@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed MyIniKey EMPTY
+private public private public sealed struct.MyIniKey EMPTY
 ```
 
 ### Returns

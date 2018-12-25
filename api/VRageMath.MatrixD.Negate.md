@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed MatrixD Negate
+private public private public sealed struct.MatrixD Negate(private public sealed struct.MatrixD matrix)
 ```
 
 Negates individual elements of a matrix.
@@ -17,7 +17,7 @@ Negates individual elements of a matrix.
 ### Summary
 
 ```csharp
-private public void Negate
+private public void Negate(ref private public sealed struct.MatrixD matrix, ref private public sealed struct.MatrixD result)
 ```
 
 Negates individual elements of a matrix.

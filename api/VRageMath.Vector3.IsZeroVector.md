@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Vector3 IsZeroVector
+private public private public sealed struct.Vector3 IsZeroVector(private public sealed struct.Vector3 value)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public private public sealed Vector3 IsZeroVector
 ### Summary
 
 ```csharp
-private public private public sealed Vector3 IsZeroVector
+private public private public sealed struct.Vector3 IsZeroVector(private public sealed struct.Vector3 value, float epsilon)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 #### MyTransformD Struct
 
 ```csharp
-private public sealed MyTransformD
+private public sealed struct.MyTransformD
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

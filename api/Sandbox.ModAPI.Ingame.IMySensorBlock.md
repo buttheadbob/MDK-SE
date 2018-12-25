@@ -3,7 +3,7 @@
 #### IMySensorBlock Interface
 
 ```csharp
-private public abstract IMySensorBlock
+private public interface.IMySensorBlock
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual private public TValue GetMaximum
+private public virtual private public class.TValue GetMaximum(private public interface.IMyCubeBlock block)
 ```
 
 ### Returns

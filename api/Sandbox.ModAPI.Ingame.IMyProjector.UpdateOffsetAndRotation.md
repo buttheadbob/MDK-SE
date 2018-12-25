@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual void UpdateOffsetAndRotation
+private public virtual void UpdateOffsetAndRotation()
 ```
 
 Call this after setting ProjectionOffset and ProjectionRotation to update the projection

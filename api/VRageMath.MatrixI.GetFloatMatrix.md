@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Matrix GetFloatMatrix
+private public private public sealed struct.Matrix GetFloatMatrix()
 ```
 
 ### Returns

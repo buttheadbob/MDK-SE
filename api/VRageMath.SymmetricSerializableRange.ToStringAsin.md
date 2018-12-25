@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public string ToStringAsin
+private public string ToStringAsin()
 ```
 
 ### Returns

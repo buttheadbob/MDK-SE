@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float Position
+private public float Position { ; }
 ```
 
 Position of the CurveKey in the curve.

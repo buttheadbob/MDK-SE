@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual private public abstract IMyAttachableTopBlock Top
+private public virtual private public interface.IMyAttachableTopBlock Top { ; }
 ```
 
 Gets the attached top part entity

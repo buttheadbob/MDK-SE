@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Vector3 MaxComponents
+private public private public sealed struct.Vector3 MaxComponents(ref private public sealed struct.Vector3 a, ref private public sealed struct.Vector3 b)
 ```
 
 Return vector with each component max

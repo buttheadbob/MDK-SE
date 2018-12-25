@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual private public Dictionary<TKey, TValue> RemainingBlocksPerType
+private public virtual private public class.Dictionary<TKey, TValue> RemainingBlocksPerType { ; }
 ```
 
 A comprehensive list of blocks left to be welded

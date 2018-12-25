@@ -3,7 +3,7 @@
 #### IMyVirtualMass Interface
 
 ```csharp
-private public abstract IMyVirtualMass
+private public interface.IMyVirtualMass
 ```
 
 **Namespace:** [SpaceEngineers.Game.ModAPI.Ingame](SpaceEngineers.Game.ModAPI.Ingame)  

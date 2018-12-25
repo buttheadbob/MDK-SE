@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void Subtract
+private public void Subtract(ref private public sealed struct.Matrix matrix1, ref private public sealed struct.Matrix matrix2, ref private public sealed struct.Matrix result)
 ```
 
 Subtracts matrices.
@@ -17,7 +17,7 @@ Subtracts matrices.
 ### Summary
 
 ```csharp
-private public private public sealed Matrix Subtract
+private public private public sealed struct.Matrix Subtract(private public sealed struct.Matrix matrix1, private public sealed struct.Matrix matrix2)
 ```
 
 Subtracts matrices.

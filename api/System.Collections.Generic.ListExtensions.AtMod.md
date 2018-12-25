@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public T AtMod<T>
+private public private public class.T AtMod<T>(private public class.List<T> list, int index)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public private public T AtMod<T>
 ### Summary
 
 ```csharp
-private public private public T AtMod<T>
+private public private public class.T AtMod<T>(private public sealed struct.ListReader<T> list, int index)
 ```
 
 ### Returns

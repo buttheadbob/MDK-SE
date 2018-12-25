@@ -3,7 +3,7 @@
 #### IMySolarPanel Interface
 
 ```csharp
-private public abstract IMySolarPanel
+private public interface.IMySolarPanel
 ```
 
 **Namespace:** [SpaceEngineers.Game.ModAPI.Ingame](SpaceEngineers.Game.ModAPI.Ingame)  

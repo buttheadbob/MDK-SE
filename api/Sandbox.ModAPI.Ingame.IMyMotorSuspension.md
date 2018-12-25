@@ -3,7 +3,7 @@
 #### IMyMotorSuspension Interface
 
 ```csharp
-private public abstract IMyMotorSuspension
+private public interface.IMyMotorSuspension
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

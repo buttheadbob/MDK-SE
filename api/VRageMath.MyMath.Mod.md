@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public int Mod
+private public int Mod(int x, int m)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public int Mod
 ### Summary
 
 ```csharp
-private public long Mod
+private public long Mod(long x, int m)
 ```
 
 ### Returns

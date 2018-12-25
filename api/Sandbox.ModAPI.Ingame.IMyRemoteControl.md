@@ -3,7 +3,7 @@
 #### IMyRemoteControl Interface
 
 ```csharp
-private public abstract IMyRemoteControl
+private public interface.IMyRemoteControl
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

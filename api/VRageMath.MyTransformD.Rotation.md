@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Quaternion Rotation
+private public private public sealed struct.Quaternion Rotation
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public double Determinant
+private public double Determinant()
 ```
 
 Calculates the determinant of the matrix.

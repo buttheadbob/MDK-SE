@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float SuppliedRatio
+private public float SuppliedRatio { ; }
 ```
 
 ### Returns

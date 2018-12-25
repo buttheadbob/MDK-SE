@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Vector3D Size
+private public private public sealed struct.Vector3D Size { ; }
 ```
 
 Size

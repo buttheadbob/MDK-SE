@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void GetSections
+private public void GetSections(private public class.List<T> names)
 ```
 
 ### Returns

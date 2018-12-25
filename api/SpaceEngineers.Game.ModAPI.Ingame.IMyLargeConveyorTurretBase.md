@@ -3,7 +3,7 @@
 #### IMyLargeConveyorTurretBase Interface
 
 ```csharp
-private public abstract IMyLargeConveyorTurretBase
+private public interface.IMyLargeConveyorTurretBase
 ```
 
 **Namespace:** [SpaceEngineers.Game.ModAPI.Ingame](SpaceEngineers.Game.ModAPI.Ingame)  

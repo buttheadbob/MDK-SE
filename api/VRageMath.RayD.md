@@ -3,7 +3,7 @@
 #### RayD Struct
 
 ```csharp
-private public sealed RayD
+private public sealed struct.RayD
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

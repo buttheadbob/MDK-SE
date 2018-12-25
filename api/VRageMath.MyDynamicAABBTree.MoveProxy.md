@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool MoveProxy
+private public bool MoveProxy(int proxyId, ref private public sealed struct.BoundingBox aabb, private public sealed struct.Vector3 displacement)
 ```
 
 Move a proxy with a swepted BoundingBox. If the proxy has moved outside of its fattened BoundingBox, then the proxy is removed from the tree and re-inserted. Otherwise the function returns immediately.

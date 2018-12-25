@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Line[] Lines
+private public private public sealed class.Line[] Lines
 ```
 
 ### Returns

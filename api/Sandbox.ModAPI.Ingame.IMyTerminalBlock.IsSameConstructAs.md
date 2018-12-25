@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual bool IsSameConstructAs
+private public virtual bool IsSameConstructAs(private public interface.IMyTerminalBlock other)
 ```
 
 Determines whether this block is mechanically connected to the other. This is any block connected with rotors or pistons or other mechanical devices, but not things like connectors. This will in most cases constitute your complete construct.  

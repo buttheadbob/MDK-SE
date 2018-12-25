@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Vector3 AngleTo
+private public private public sealed struct.Vector3 AngleTo(private public sealed struct.Vector3 From, private public sealed struct.Vector3 Location)
 ```
 
 AngleTo

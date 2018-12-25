@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed BoundingBoxD Translate
+private public private public sealed struct.BoundingBoxD Translate(private public sealed struct.MatrixD worldMatrix)
 ```
 
 Translate
@@ -19,7 +19,7 @@ Translate
 ### Summary
 
 ```csharp
-private public private public sealed BoundingBoxD Translate
+private public private public sealed struct.BoundingBoxD Translate(private public sealed struct.Vector3D vctTranlsation)
 ```
 
 Translate

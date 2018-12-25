@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool GetUseConveyorSystem
+private public bool GetUseConveyorSystem(private public interface.IMyTerminalBlock block)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual bool IsMainCockpit
+private public virtual bool IsMainCockpit { ; ; }
 ```
 
 Determines whether this controller is the main cockpit of the shit this doesn't belong here.

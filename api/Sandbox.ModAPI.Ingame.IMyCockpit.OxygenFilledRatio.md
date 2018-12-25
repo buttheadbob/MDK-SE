@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual float OxygenFilledRatio
+private public virtual float OxygenFilledRatio { ; }
 ```
 
 Gets the current oxygen level of this cockpit, as a value between 0 (empty) and 1 (full).

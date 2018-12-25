@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private sealed Direction GetBaseAxisDirection
+private public private sealed enum.Direction GetBaseAxisDirection(private sealed enum.Axis axis)
 ```
 
 ### Returns

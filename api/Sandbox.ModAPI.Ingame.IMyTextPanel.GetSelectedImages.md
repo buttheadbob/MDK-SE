@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual void GetSelectedImages
+private public virtual void GetSelectedImages(private public class.List<T> output)
 ```
 
 ### Returns

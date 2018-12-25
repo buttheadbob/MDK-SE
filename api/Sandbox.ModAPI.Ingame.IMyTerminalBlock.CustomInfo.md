@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual string CustomInfo
+private public virtual string CustomInfo { ; }
 ```
 
 ### Returns

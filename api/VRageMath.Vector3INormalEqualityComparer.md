@@ -3,7 +3,7 @@
 #### Vector3INormalEqualityComparer Class
 
 ```csharp
-private public Vector3INormalEqualityComparer
+private public class.Vector3INormalEqualityComparer
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

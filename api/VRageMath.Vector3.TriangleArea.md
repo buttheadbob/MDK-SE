@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float TriangleArea
+private public float TriangleArea(private public sealed struct.Vector3 v1, private public sealed struct.Vector3 v2, private public sealed struct.Vector3 v3)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public float TriangleArea
 ### Summary
 
 ```csharp
-private public float TriangleArea
+private public float TriangleArea(ref private public sealed struct.Vector3 v1, ref private public sealed struct.Vector3 v2, ref private public sealed struct.Vector3 v3)
 ```
 
 ### Returns

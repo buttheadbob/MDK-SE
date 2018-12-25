@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public int Balance
+private public int Balance(int iA)
 ```
 
 ### Returns

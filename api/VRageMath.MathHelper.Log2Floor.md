@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public int Log2Floor
+private public int Log2Floor(int value)
 ```
 
 ### Returns

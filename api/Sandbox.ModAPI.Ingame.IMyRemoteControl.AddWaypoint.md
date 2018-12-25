@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual void AddWaypoint
+private public virtual void AddWaypoint(private public sealed struct.Vector3D coords, string name)
 ```
 
 Adds a new waypoint.
@@ -17,7 +17,7 @@ Adds a new waypoint.
 ### Summary
 
 ```csharp
-private public abstract virtual void AddWaypoint
+private public virtual void AddWaypoint(private public sealed struct.MyWaypointInfo coords)
 ```
 
 Adds a new waypoint.

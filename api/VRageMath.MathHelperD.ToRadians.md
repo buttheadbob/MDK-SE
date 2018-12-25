@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public double ToRadians
+private public double ToRadians(double degrees)
 ```
 
 Converts degrees to radians.

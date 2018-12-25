@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void Clear
+private public void Clear()
 ```
 
 Empties this configuration

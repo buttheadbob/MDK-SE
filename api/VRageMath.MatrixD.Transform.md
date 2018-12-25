@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed MatrixD Transform
+private public private public sealed struct.MatrixD Transform(private public sealed struct.MatrixD value, private public sealed struct.Quaternion rotation)
 ```
 
 Transforms a Matrix by applying a Quaternion rotation.
@@ -17,7 +17,7 @@ Transforms a Matrix by applying a Quaternion rotation.
 ### Summary
 
 ```csharp
-private public void Transform
+private public void Transform(ref private public sealed struct.MatrixD value, ref private public sealed struct.Quaternion rotation, ref private public sealed struct.MatrixD result)
 ```
 
 Transforms a Matrix by applying a Quaternion rotation.

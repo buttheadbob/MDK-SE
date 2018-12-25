@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Vector3 SignNonZero
+private public private public sealed struct.Vector3 SignNonZero(private public sealed struct.Vector3 value)
 ```
 
 Returns per component sign, never returns zero. For zero component returns sign 1. Faster than Sign.

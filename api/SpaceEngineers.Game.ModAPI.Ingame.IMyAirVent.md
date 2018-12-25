@@ -3,7 +3,7 @@
 #### IMyAirVent Interface
 
 ```csharp
-private public abstract IMyAirVent
+private public interface.IMyAirVent
 ```
 
 **Namespace:** [SpaceEngineers.Game.ModAPI.Ingame](SpaceEngineers.Game.ModAPI.Ingame)  

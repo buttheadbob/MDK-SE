@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual bool DetectPlayers
+private public virtual bool DetectPlayers { ; ; }
 ```
 
 Gets or sets if the sensor should detect players.

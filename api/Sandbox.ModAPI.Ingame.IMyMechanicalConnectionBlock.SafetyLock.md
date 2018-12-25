@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual bool SafetyLock
+private public virtual bool SafetyLock { ; ; }
 ```
 
 Gets if the block is safety locked (welded)

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed BoundingBoxD GetAabb
+private public private public sealed struct.BoundingBoxD GetAabb(int proxyId)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 #### MyGridProgram Class
 
 ```csharp
-private public abstract MyGridProgram
+private public abstract class.MyGridProgram
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

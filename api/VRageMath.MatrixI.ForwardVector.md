@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Vector3I ForwardVector
+private public private public sealed struct.Vector3I ForwardVector { ; ; }
 ```
 
 ### Returns

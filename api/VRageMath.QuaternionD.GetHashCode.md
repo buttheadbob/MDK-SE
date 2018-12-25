@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual int GetHashCode
+private public virtual int GetHashCode()
 ```
 
 Get the hash code of this object.

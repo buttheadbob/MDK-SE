@@ -3,7 +3,7 @@
 #### IMyParachute Interface
 
 ```csharp
-private public abstract IMyParachute
+private public interface.IMyParachute
 ```
 
 **Namespace:** [SpaceEngineers.Game.ModAPI.Ingame](SpaceEngineers.Game.ModAPI.Ingame)  

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private sealed Direction GetPerpendicular
+private public private sealed enum.Direction GetPerpendicular(private sealed enum.Direction dir)
 ```
 
 ### Returns

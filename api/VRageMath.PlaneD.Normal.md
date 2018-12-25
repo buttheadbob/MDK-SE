@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Vector3D Normal
+private public private public sealed struct.Vector3D Normal
 ```
 
 The normal vector of the PlaneD.

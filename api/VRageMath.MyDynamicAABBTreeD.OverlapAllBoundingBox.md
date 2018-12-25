@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void OverlapAllBoundingBox<T>
+private public void OverlapAllBoundingBox<T>(ref private public sealed struct.BoundingBoxD bbox, private public class.List<T> elementsList, uint requiredFlags, bool clear)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public void OverlapAllBoundingBox<T>
 ### Summary
 
 ```csharp
-private public void OverlapAllBoundingBox<T>
+private public void OverlapAllBoundingBox<T>(ref private public sealed struct.MyOrientedBoundingBoxD obb, private public class.List<T> elementsList, uint requiredFlags, bool clear)
 ```
 
 ### Returns

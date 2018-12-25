@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed MyCuboidSide[] Sides
+private public private public sealed class.MyCuboidSide[] Sides
 ```
 
 ### Returns

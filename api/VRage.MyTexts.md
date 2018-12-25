@@ -3,7 +3,7 @@
 #### MyTexts Class
 
 ```csharp
-private public abstract sealed MyTexts
+private public abstract sealed class.MyTexts
 ```
 
 **Namespace:** [VRage](VRage)  

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual void GetBlockGroups
+private public virtual void GetBlockGroups(private public class.List<T> blockGroups, private public sealed class.Func<T, TResult> collect)
 ```
 
 ### Returns

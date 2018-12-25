@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual bool IsFunctional
+private public virtual bool IsFunctional { ; }
 ```
 
 True if integrity is above breaking threshold

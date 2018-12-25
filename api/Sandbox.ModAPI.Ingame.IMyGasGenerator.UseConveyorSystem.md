@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual bool UseConveyorSystem
+private public virtual bool UseConveyorSystem { ; ; }
 ```
 
 Conveyor system enabled

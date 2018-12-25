@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float SCurve3
+private public float SCurve3(float t)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public float SCurve3
 ### Summary
 
 ```csharp
-private public double SCurve3
+private public double SCurve3(double t)
 ```
 
 ### Returns

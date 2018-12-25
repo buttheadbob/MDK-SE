@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void AddOrInsert<T>
+private public void AddOrInsert<T>(private public class.List<T> list, private public class.T item, int index)
 ```
 
 ### Returns

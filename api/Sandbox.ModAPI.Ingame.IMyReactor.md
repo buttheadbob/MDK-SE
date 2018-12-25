@@ -3,7 +3,7 @@
 #### IMyReactor Interface
 
 ```csharp
-private public abstract IMyReactor
+private public interface.IMyReactor
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

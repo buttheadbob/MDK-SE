@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual string CustomName
+private public virtual string CustomName { ; ; }
 ```
 
 Display name of the grid (as seen in Info terminal tab)

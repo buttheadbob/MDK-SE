@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed MyDefinitionId GetDefinitionId
+private public private public sealed struct.MyDefinitionId GetDefinitionId(private public interface.IMyInventoryItem self)
 ```
 
 ### Returns

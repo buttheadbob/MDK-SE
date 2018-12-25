@@ -3,7 +3,7 @@
 #### MyInventoryItemExtension Class
 
 ```csharp
-private public abstract sealed MyInventoryItemExtension
+private public abstract sealed class.MyInventoryItemExtension
 ```
 
 **Namespace:** [VRage.Game.ModAPI.Ingame](VRage.Game.ModAPI.Ingame)  

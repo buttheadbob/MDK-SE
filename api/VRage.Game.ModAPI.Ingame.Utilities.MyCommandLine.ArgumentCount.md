@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public int ArgumentCount
+private public int ArgumentCount { ; }
 ```
 
 Returns the number of non-switch arguments

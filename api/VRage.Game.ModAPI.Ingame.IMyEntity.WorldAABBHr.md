@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual private public sealed BoundingBoxD WorldAABBHr
+private public virtual private public sealed struct.BoundingBoxD WorldAABBHr { ; }
 ```
 
 ### Returns

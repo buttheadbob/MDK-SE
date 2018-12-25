@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual bool OnlyDischarge
+private public virtual bool OnlyDischarge { ; ; }
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual void OnAddedToContainer
+private public virtual void OnAddedToContainer()
 ```
 
 Gets called after the container of this component changes

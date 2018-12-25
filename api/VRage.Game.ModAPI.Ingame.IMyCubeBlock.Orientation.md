@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual private public sealed MyBlockOrientation Orientation
+private public virtual private public sealed struct.MyBlockOrientation Orientation { ; }
 ```
 
 Returns block orientation in base 6 directions

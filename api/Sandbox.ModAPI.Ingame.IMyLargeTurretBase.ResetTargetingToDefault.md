@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual void ResetTargetingToDefault
+private public virtual void ResetTargetingToDefault()
 ```
 
 resert targeting to default values

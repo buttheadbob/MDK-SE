@@ -3,7 +3,7 @@
 #### HashSetExtensions Class
 
 ```csharp
-private public abstract sealed HashSetExtensions
+private public abstract sealed class.HashSetExtensions
 ```
 
 **Namespace:** [System.Collections.Generic](System.Collections.Generic)  

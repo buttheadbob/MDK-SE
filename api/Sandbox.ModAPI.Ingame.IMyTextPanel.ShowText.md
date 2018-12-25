@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual bool ShowText
+private public virtual bool ShowText { ; }
 ```
 
 Returns true if the ShowOnScreen flag is set to either PUBLIC or PRIVATE

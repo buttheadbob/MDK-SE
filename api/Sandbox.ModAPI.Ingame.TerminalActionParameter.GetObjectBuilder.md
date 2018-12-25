@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public MyObjectBuilder_ToolbarItemActionParameter GetObjectBuilder
+private public private public class.MyObjectBuilder_ToolbarItemActionParameter GetObjectBuilder()
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual void GetFonts
+private public virtual void GetFonts(private public class.List<T> fonts)
 ```
 
 ### Returns

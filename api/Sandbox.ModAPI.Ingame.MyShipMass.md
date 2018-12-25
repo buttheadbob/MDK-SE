@@ -3,7 +3,7 @@
 #### MyShipMass Struct
 
 ```csharp
-private public sealed MyShipMass
+private public sealed struct.MyShipMass
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

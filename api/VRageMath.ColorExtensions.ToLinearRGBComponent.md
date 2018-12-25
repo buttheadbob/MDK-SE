@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float ToLinearRGBComponent
+private public float ToLinearRGBComponent(float c)
 ```
 
 ### Returns

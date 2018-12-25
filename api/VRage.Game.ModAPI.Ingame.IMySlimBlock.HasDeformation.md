@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual bool HasDeformation
+private public virtual bool HasDeformation { ; }
 ```
 
 If this block is deformed (bones deformed)

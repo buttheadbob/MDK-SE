@@ -3,7 +3,7 @@
 #### MyRelationsBetweenPlayerAndBlockExtensions Class
 
 ```csharp
-private public abstract sealed MyRelationsBetweenPlayerAndBlockExtensions
+private public abstract sealed class.MyRelationsBetweenPlayerAndBlockExtensions
 ```
 
 **Namespace:** [VRage.Game](VRage.Game)  

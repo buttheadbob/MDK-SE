@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float Y
+private public float Y { ; ; }
 ```
 
 Top coordinate.

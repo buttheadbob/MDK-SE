@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed BoundingSphere Translate
+private public private public sealed struct.BoundingSphere Translate(ref private public sealed struct.Vector3 translation)
 ```
 
 ### Returns

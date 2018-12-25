@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void ApplyAction
+private public void ApplyAction(private public interface.IMyTerminalBlock block, string name)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public void ApplyAction
 ### Summary
 
 ```csharp
-private public void ApplyAction
+private public void ApplyAction(private public interface.IMyTerminalBlock block, string name, private public sealed struct.ListReader<T> parameters)
 ```
 
 ### Returns

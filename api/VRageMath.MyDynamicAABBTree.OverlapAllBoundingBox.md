@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void OverlapAllBoundingBox<T>
+private public void OverlapAllBoundingBox<T>(ref private public sealed struct.BoundingBox bbox, private public class.List<T> elementsList, uint requiredFlags, bool clear)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public int GetLeafCount
+private public int GetLeafCount(int proxyId)
 ```
 
 ### Returns

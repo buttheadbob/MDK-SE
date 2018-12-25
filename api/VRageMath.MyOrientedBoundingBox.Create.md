@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed MyOrientedBoundingBox Create
+private public private public sealed struct.MyOrientedBoundingBox Create(private public sealed struct.BoundingBox boundingBox, private public sealed struct.Matrix matrix)
 ```
 
 ### Returns

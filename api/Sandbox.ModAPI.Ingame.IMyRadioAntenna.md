@@ -3,7 +3,7 @@
 #### IMyRadioAntenna Interface
 
 ```csharp
-private public abstract IMyRadioAntenna
+private public interface.IMyRadioAntenna
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

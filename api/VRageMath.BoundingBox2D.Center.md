@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Vector2D Center
+private public private public sealed struct.Vector2D Center { ; }
 ```
 
 Calculates center

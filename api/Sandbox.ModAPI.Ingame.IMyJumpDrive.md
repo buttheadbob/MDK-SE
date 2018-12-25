@@ -3,7 +3,7 @@
 #### IMyJumpDrive Interface
 
 ```csharp
-private public abstract IMyJumpDrive
+private public interface.IMyJumpDrive
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

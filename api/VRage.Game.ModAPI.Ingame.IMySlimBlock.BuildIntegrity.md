@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual float BuildIntegrity
+private public virtual float BuildIntegrity { ; }
 ```
 
 Build integrity (of components)

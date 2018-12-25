@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed QuaternionD Concatenate
+private public private public sealed struct.QuaternionD Concatenate(private public sealed struct.QuaternionD value1, private public sealed struct.QuaternionD value2)
 ```
 
 Concatenates two Quaternions; the result represents the value1 rotation followed by the value2 rotation.
@@ -17,7 +17,7 @@ Concatenates two Quaternions; the result represents the value1 rotation followed
 ### Summary
 
 ```csharp
-private public void Concatenate
+private public void Concatenate(ref private public sealed struct.QuaternionD value1, ref private public sealed struct.QuaternionD value2, ref private public sealed struct.QuaternionD result)
 ```
 
 Concatenates two Quaternions; the result represents the value1 rotation followed by the value2 rotation.

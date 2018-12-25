@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Color HexToColor
+private public private public sealed struct.Color HexToColor(string hex)
 ```
 
 ### Returns

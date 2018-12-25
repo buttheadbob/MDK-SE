@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual uint NextItemId
+private public virtual uint NextItemId { ; }
 ```
 
 Gets the queue item ID of the next item to be produced.

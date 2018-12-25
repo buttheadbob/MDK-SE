@@ -3,7 +3,7 @@
 #### IMyCollector Interface
 
 ```csharp
-private public abstract IMyCollector
+private public interface.IMyCollector
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

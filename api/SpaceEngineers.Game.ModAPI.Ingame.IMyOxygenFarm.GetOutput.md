@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual float GetOutput
+private public virtual float GetOutput()
 ```
 
 ### Returns

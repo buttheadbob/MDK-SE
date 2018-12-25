@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool IsRootNull
+private public bool IsRootNull()
 ```
 
 ### Returns

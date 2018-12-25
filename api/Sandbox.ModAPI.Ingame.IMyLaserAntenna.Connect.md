@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual void Connect
+private public virtual void Connect()
 ```
 
 Connect to target defined by SetTargetCoords

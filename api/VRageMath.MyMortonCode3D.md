@@ -3,7 +3,7 @@
 #### MyMortonCode3D Class
 
 ```csharp
-private public abstract sealed MyMortonCode3D
+private public abstract sealed class.MyMortonCode3D
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

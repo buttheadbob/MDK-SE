@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual bool ShowShipName
+private public virtual bool ShowShipName { ; ; }
 ```
 
 Show shipname on hud

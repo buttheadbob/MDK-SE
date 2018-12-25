@@ -3,7 +3,7 @@
 #### MyMovingAverage Class
 
 ```csharp
-private public MyMovingAverage
+private public class.MyMovingAverage
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

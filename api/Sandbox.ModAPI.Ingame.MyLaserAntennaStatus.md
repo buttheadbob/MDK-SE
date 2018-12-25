@@ -3,7 +3,7 @@
 #### MyLaserAntennaStatus Enum
 
 ```csharp
-private public sealed MyLaserAntennaStatus
+private public sealed enum.MyLaserAntennaStatus
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

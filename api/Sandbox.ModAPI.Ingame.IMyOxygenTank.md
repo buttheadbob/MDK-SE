@@ -3,7 +3,7 @@
 #### IMyOxygenTank Interface
 
 ```csharp
-private public abstract IMyOxygenTank
+private public interface.IMyOxygenTank
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

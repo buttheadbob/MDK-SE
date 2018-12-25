@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private EqualityComparer Comparer
+private public private class.EqualityComparer Comparer
 ```
 
 ### Returns

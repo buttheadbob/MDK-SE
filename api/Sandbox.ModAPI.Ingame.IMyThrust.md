@@ -3,7 +3,7 @@
 #### IMyThrust Interface
 
 ```csharp
-private public abstract IMyThrust
+private public interface.IMyThrust
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

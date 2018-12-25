@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool Intersects
+private public bool Intersects(private public sealed struct.BoundingBoxD box)
 ```
 
 Checks whether the current BoundingFrustumD intersects the specified BoundingBoxD.
@@ -17,7 +17,7 @@ Checks whether the current BoundingFrustumD intersects the specified BoundingBox
 ### Summary
 
 ```csharp
-private public void Intersects
+private public void Intersects(ref private public sealed struct.BoundingBoxD box, ref bool result)
 ```
 
 Checks whether the current BoundingFrustumD intersects a BoundingBoxD.
@@ -31,7 +31,7 @@ Checks whether the current BoundingFrustumD intersects a BoundingBoxD.
 ### Summary
 
 ```csharp
-private public bool Intersects
+private public bool Intersects(private public class.BoundingFrustumD frustum)
 ```
 
 Checks whether the current BoundingFrustumD intersects the specified BoundingFrustumD.
@@ -45,7 +45,7 @@ Checks whether the current BoundingFrustumD intersects the specified BoundingFru
 ### Summary
 
 ```csharp
-private public private public sealed PlaneIntersectionType Intersects
+private public private public sealed enum.PlaneIntersectionType Intersects(private public sealed struct.PlaneD plane)
 ```
 
 Checks whether the current BoundingFrustumD intersects the specified Plane.
@@ -59,7 +59,7 @@ Checks whether the current BoundingFrustumD intersects the specified Plane.
 ### Summary
 
 ```csharp
-private public void Intersects
+private public void Intersects(ref private public sealed struct.PlaneD plane, ref private public sealed enum.PlaneIntersectionType result)
 ```
 
 Checks whether the current BoundingFrustumD intersects a Plane.
@@ -73,7 +73,7 @@ Checks whether the current BoundingFrustumD intersects a Plane.
 ### Summary
 
 ```csharp
-private public private public sealed Nullable<T> Intersects
+private public private public sealed struct.Nullable<T> Intersects(private public sealed struct.RayD ray)
 ```
 
 Checks whether the current BoundingFrustumD intersects the specified Ray.
@@ -87,7 +87,7 @@ Checks whether the current BoundingFrustumD intersects the specified Ray.
 ### Summary
 
 ```csharp
-private public void Intersects
+private public void Intersects(ref private public sealed struct.RayD ray, ref private public sealed struct.Nullable<T> result)
 ```
 
 ### Returns
@@ -99,7 +99,7 @@ private public void Intersects
 ### Summary
 
 ```csharp
-private public bool Intersects
+private public bool Intersects(private public sealed struct.BoundingSphereD sphere)
 ```
 
 Checks whether the current BoundingFrustumD intersects the specified BoundingSphere.
@@ -113,7 +113,7 @@ Checks whether the current BoundingFrustumD intersects the specified BoundingSph
 ### Summary
 
 ```csharp
-private public void Intersects
+private public void Intersects(ref private public sealed struct.BoundingSphereD sphere, ref bool result)
 ```
 
 Checks whether the current BoundingFrustumD intersects a BoundingSphere.

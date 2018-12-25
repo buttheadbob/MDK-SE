@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float FastSin
+private public float FastSin(float angle)
 ```
 
 ### Returns

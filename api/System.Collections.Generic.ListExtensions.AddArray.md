@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void AddArray<T>
+private public void AddArray<T>(private public class.List<T> list, private public sealed class.T[] itemsToAdd)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public void AddArray<T>
 ### Summary
 
 ```csharp
-private public void AddArray<T>
+private public void AddArray<T>(private public class.List<T> list, private public sealed class.T[] itemsToAdd, int itemCount)
 ```
 
 ### Returns

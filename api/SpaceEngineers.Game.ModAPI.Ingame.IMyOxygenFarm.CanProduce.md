@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual bool CanProduce
+private public virtual bool CanProduce { ; }
 ```
 
 Gets if the block can produce gas.

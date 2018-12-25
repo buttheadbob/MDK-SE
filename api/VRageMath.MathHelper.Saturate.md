@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public float Saturate
+private public float Saturate(float n)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public float Saturate
 ### Summary
 
 ```csharp
-private public double Saturate
+private public double Saturate(double n)
 ```
 
 ### Returns

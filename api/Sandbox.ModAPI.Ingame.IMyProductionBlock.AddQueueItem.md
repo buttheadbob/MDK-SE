@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual void AddQueueItem
+private public virtual void AddQueueItem(private public sealed struct.MyDefinitionId blueprint, private public sealed struct.MyFixedPoint amount)
 ```
 
 Adds a blueprint to the production queue
@@ -17,7 +17,7 @@ Adds a blueprint to the production queue
 ### Summary
 
 ```csharp
-private public abstract virtual void AddQueueItem
+private public virtual void AddQueueItem(private public sealed struct.MyDefinitionId blueprint, decimal amount)
 ```
 
 Adds a blueprint to the production queue
@@ -31,7 +31,7 @@ Adds a blueprint to the production queue
 ### Summary
 
 ```csharp
-private public abstract virtual void AddQueueItem
+private public virtual void AddQueueItem(private public sealed struct.MyDefinitionId blueprint, double amount)
 ```
 
 Adds a blueprint to the production queue

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool IntersectRaySphere
+private public bool IntersectRaySphere(private public sealed struct.RayD ray, ref double tmin, ref double tmax)
 ```
 
 ### Returns

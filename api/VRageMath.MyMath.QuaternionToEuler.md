@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Vector3 QuaternionToEuler
+private public private public sealed struct.Vector3 QuaternionToEuler(private public sealed struct.Quaternion Rotation)
 ```
 
 QuaternionToEuler

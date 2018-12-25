@@ -3,7 +3,7 @@
 #### IMyPistonBase Interface
 
 ```csharp
-private public abstract IMyPistonBase
+private public interface.IMyPistonBase
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

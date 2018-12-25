@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual bool GyroOverride
+private public virtual bool GyroOverride { ; ; }
 ```
 
 ### Returns

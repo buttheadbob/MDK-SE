@@ -3,7 +3,7 @@
 #### IMyOxygenFarm Interface
 
 ```csharp
-private public abstract IMyOxygenFarm
+private public interface.IMyOxygenFarm
 ```
 
 **Namespace:** [SpaceEngineers.Game.ModAPI.Ingame](SpaceEngineers.Game.ModAPI.Ingame)  

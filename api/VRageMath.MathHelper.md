@@ -3,7 +3,7 @@
 #### MathHelper Class
 
 ```csharp
-private public abstract sealed MathHelper
+private public abstract sealed class.MathHelper
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual int RemainingArmorBlocks
+private public virtual int RemainingArmorBlocks { ; }
 ```
 
 Number of armor blocks left to be welded

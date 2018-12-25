@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual void UpdateIsWorking
+private public virtual void UpdateIsWorking()
 ```
 
 ### Returns

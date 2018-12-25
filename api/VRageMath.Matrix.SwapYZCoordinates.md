@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Matrix SwapYZCoordinates
+private public private public sealed struct.Matrix SwapYZCoordinates(private public sealed struct.Matrix m)
 ```
 
 ### Returns

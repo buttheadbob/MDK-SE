@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public int GetHeight
+private public int GetHeight()
 ```
 
 ### Returns

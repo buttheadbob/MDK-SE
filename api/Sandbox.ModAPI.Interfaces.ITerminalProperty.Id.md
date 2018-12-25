@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual string Id
+private public virtual string Id { ; }
 ```
 
 Property Id (value name)

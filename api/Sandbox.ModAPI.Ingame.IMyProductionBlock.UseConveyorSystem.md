@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual bool UseConveyorSystem
+private public virtual bool UseConveyorSystem { ; ; }
 ```
 
 Gets or sets whether this device should use the conveyor system to retrieve and store items.

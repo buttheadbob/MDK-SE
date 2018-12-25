@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public double LengthSquared
+private public double LengthSquared()
 ```
 
 Calculates the length squared of a QuaternionD.

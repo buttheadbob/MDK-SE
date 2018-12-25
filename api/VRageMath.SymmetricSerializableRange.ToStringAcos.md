@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public string ToStringAcos
+private public string ToStringAcos()
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual int MaxCallChainDepth
+private public virtual int MaxCallChainDepth { ; }
 ```
 
 Gets the maximum number of method calls that can be nested into each other.

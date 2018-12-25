@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public int CombineHashCodes
+private public int CombineHashCodes(int h1, int h2)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public int CombineHashCodes
 ### Summary
 
 ```csharp
-private public int CombineHashCodes
+private public int CombineHashCodes(int h1, int h2, int h3)
 ```
 
 ### Returns
@@ -27,7 +27,7 @@ private public int CombineHashCodes
 ### Summary
 
 ```csharp
-private public int CombineHashCodes
+private public int CombineHashCodes(int h1, int h2, int h3, int h4)
 ```
 
 ### Returns
@@ -39,7 +39,7 @@ private public int CombineHashCodes
 ### Summary
 
 ```csharp
-private public int CombineHashCodes
+private public int CombineHashCodes(int h1, int h2, int h3, int h4, int h5)
 ```
 
 ### Returns
@@ -51,7 +51,7 @@ private public int CombineHashCodes
 ### Summary
 
 ```csharp
-private public int CombineHashCodes
+private public int CombineHashCodes(int h1, int h2, int h3, int h4, int h5, int h6)
 ```
 
 ### Returns
@@ -63,7 +63,7 @@ private public int CombineHashCodes
 ### Summary
 
 ```csharp
-private public int CombineHashCodes
+private public int CombineHashCodes(int h1, int h2, int h3, int h4, int h5, int h6, int h7)
 ```
 
 ### Returns
@@ -75,7 +75,7 @@ private public int CombineHashCodes
 ### Summary
 
 ```csharp
-private public int CombineHashCodes
+private public int CombineHashCodes(int h1, int h2, int h3, int h4, int h5, int h6, int h7, int h8)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Vector3I Trunc
+private public private public sealed struct.Vector3I Trunc(private public sealed struct.Vector3 value)
 ```
 
 ### Returns

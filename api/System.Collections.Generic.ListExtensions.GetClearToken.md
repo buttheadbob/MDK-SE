@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed ClearToken<T> GetClearToken<T>
+private public private public sealed struct.ClearToken<T> GetClearToken<T>(private public class.List<T> list)
 ```
 
 ### Returns

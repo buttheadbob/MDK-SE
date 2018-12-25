@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool TryGet<T>
+private public bool TryGet<T>(ref private public class.T component)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public bool TryGet<T>
 ### Summary
 
 ```csharp
-private public bool TryGet
+private public bool TryGet(private public abstract class.Type type, ref private public abstract class.MyComponentBase component)
 ```
 
 ### Returns

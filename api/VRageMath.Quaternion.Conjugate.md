@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void Conjugate
+private public void Conjugate()
 ```
 
 Transforms this Quaternion into its conjugate.
@@ -17,7 +17,7 @@ Transforms this Quaternion into its conjugate.
 ### Summary
 
 ```csharp
-private public private public sealed Quaternion Conjugate
+private public private public sealed struct.Quaternion Conjugate(private public sealed struct.Quaternion value)
 ```
 
 Returns the conjugate of a specified Quaternion.
@@ -31,7 +31,7 @@ Returns the conjugate of a specified Quaternion.
 ### Summary
 
 ```csharp
-private public void Conjugate
+private public void Conjugate(ref private public sealed struct.Quaternion value, ref private public sealed struct.Quaternion result)
 ```
 
 Returns the conjugate of a specified Quaternion.

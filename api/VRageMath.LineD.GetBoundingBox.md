@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed BoundingBoxD GetBoundingBox
+private public private public sealed struct.BoundingBoxD GetBoundingBox()
 ```
 
 ### Returns

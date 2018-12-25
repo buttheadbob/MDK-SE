@@ -3,7 +3,7 @@
 #### MyObjectBuilder_GasProperties Class
 
 ```csharp
-private public MyObjectBuilder_GasProperties
+private public class.MyObjectBuilder_GasProperties
 ```
 
 **Namespace:** [VRage.Game.ObjectBuilders.Definitions](VRage.Game.ObjectBuilders.Definitions)  

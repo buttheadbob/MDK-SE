@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool Equals
+private public bool Equals(private public sealed struct.MyWaypointInfo other)
 ```
 
 Determines whether this coordinate is the same as another. Uses 0.0001 as the epsilon to counter floating point inaccuracies.
@@ -19,7 +19,7 @@ Determines whether this coordinate is the same as another. Uses 0.0001 as the ep
 ### Summary
 
 ```csharp
-private public bool Equals
+private public bool Equals(private public sealed struct.MyWaypointInfo other, double epsilon)
 ```
 
 Determines whether this coordinate is the same as another. Uses 0.0001 as the epsilon to counter floating point inaccuracies.
@@ -35,7 +35,7 @@ Determines whether this coordinate is the same as another. Uses 0.0001 as the ep
 ### Summary
 
 ```csharp
-private public virtual bool Equals
+private public virtual bool Equals(object obj)
 ```
 
 Determines whether this coordinate is the same as another. Uses 0.0001 as the epsilon to counter floating point inaccuracies.

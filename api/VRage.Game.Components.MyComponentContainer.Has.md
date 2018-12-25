@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool Has<T>
+private public bool Has<T>()
 ```
 
 ### Returns

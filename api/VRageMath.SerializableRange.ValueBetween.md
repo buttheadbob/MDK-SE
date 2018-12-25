@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool ValueBetween
+private public bool ValueBetween(float value)
 ```
 
 ### Returns

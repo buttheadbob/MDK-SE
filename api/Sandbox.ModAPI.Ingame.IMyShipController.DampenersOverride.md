@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual bool DampenersOverride
+private public virtual bool DampenersOverride { ; ; }
 ```
 
 Gets or sets whether dampeners are currently enabled.

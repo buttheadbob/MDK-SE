@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual void SetDockingMode
+private public virtual void SetDockingMode(bool enabled)
 ```
 
 Enables or disables docking mode.

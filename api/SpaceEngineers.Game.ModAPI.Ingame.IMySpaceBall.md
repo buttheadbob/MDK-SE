@@ -3,7 +3,7 @@
 #### IMySpaceBall Interface
 
 ```csharp
-private public abstract IMySpaceBall
+private public interface.IMySpaceBall
 ```
 
 **Namespace:** [SpaceEngineers.Game.ModAPI.Ingame](SpaceEngineers.Game.ModAPI.Ingame)  

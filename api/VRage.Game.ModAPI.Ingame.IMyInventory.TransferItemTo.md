@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual bool TransferItemTo
+private public virtual bool TransferItemTo(private public interface.IMyInventory dst, int sourceItemIndex, private public sealed struct.Nullable<T> targetItemIndex, private public sealed struct.Nullable<T> stackIfPossible, private public sealed struct.Nullable<T> amount)
 ```
 
 ### Returns

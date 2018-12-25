@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool IsBaseDirection
+private public bool IsBaseDirection(ref private public sealed struct.Vector3 vec)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public bool IsBaseDirection
 ### Summary
 
 ```csharp
-private public bool IsBaseDirection
+private public bool IsBaseDirection(ref private public sealed struct.Vector3I vec)
 ```
 
 ### Returns
@@ -27,7 +27,7 @@ private public bool IsBaseDirection
 ### Summary
 
 ```csharp
-private public bool IsBaseDirection
+private public bool IsBaseDirection(private public sealed struct.Vector3 vec)
 ```
 
 ### Returns

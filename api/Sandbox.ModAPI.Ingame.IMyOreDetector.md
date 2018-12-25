@@ -3,7 +3,7 @@
 #### IMyOreDetector Interface
 
 ```csharp
-private public abstract IMyOreDetector
+private public interface.IMyOreDetector
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

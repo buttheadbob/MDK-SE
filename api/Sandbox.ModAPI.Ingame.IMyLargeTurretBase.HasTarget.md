@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual bool HasTarget
+private public virtual bool HasTarget { ; }
 ```
 
 Checks if the turret is locked onto a target

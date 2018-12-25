@@ -3,7 +3,7 @@
 #### IMyAssembler Interface
 
 ```csharp
-private public abstract IMyAssembler
+private public interface.IMyAssembler
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

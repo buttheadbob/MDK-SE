@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual bool IsActive
+private public virtual bool IsActive { ; }
 ```
 
 Determines whether this camera is currently in use.

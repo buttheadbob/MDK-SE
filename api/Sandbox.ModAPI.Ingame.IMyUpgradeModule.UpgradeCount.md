@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual uint UpgradeCount
+private public virtual uint UpgradeCount { ; }
 ```
 
 Retrieve number of upgrade effects this block has (r/o)

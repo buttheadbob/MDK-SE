@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private ItemCollection Items
+private public private class.ItemCollection Items { ; ; }
 ```
 
 Contains all items, both arguments and switches

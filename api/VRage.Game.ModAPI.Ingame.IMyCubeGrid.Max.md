@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual private public sealed Vector3I Max
+private public virtual private public sealed struct.Vector3I Max { ; }
 ```
 
 Maximum coordinates of blocks in grid

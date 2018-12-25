@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Vector3 Position
+private public private public sealed struct.Vector3 Position
 ```
 
 Specifies the starting point of the Ray.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual bool IsConnectedTo
+private public virtual bool IsConnectedTo(private public interface.IMyInventory dst)
 ```
 
 ### Returns

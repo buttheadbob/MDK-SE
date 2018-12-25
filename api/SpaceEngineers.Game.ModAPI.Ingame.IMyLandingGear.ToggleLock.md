@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual void ToggleLock
+private public virtual void ToggleLock()
 ```
 
 Toggles the landing gear lock.

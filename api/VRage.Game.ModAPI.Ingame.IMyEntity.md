@@ -3,7 +3,7 @@
 #### IMyEntity Interface
 
 ```csharp
-private public abstract IMyEntity
+private public interface.IMyEntity
 ```
 
 **Namespace:** [VRage.Game.ModAPI.Ingame](VRage.Game.ModAPI.Ingame)  

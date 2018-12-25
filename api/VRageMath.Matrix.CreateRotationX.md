@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Matrix CreateRotationX
+private public private public sealed struct.Matrix CreateRotationX(float radians)
 ```
 
 Returns a matrix that can be used to rotate a set of vertices around the x-axis.
@@ -17,7 +17,7 @@ Returns a matrix that can be used to rotate a set of vertices around the x-axis.
 ### Summary
 
 ```csharp
-private public void CreateRotationX
+private public void CreateRotationX(float radians, ref private public sealed struct.Matrix result)
 ```
 
 Populates data into a user-specified matrix that can be used to rotate a set of vertices around the x-axis.

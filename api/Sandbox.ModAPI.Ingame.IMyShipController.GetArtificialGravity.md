@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual private public sealed Vector3D GetArtificialGravity
+private public virtual private public sealed struct.Vector3D GetArtificialGravity()
 ```
 
 Gets the detected artificial gravity vector and power at the current location.

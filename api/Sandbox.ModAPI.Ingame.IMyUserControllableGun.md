@@ -3,7 +3,7 @@
 #### IMyUserControllableGun Interface
 
 ```csharp
-private public abstract IMyUserControllableGun
+private public interface.IMyUserControllableGun
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

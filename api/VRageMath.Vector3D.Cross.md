@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Vector3D Cross
+private public private public sealed struct.Vector3D Cross(private public sealed struct.Vector3D v)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public private public sealed Vector3D Cross
 ### Summary
 
 ```csharp
-private public private public sealed Vector3D Cross
+private public private public sealed struct.Vector3D Cross(private public sealed struct.Vector3D vector1, private public sealed struct.Vector3D vector2)
 ```
 
 Calculates the cross product of two vectors.
@@ -29,7 +29,7 @@ Calculates the cross product of two vectors.
 ### Summary
 
 ```csharp
-private public void Cross
+private public void Cross(ref private public sealed struct.Vector3D vector1, ref private public sealed struct.Vector3D vector2, ref private public sealed struct.Vector3D result)
 ```
 
 Calculates the cross product of two vectors.

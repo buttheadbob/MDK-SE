@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual private public abstract IMyMechanicalConnectionBlock Base
+private public virtual private public interface.IMyMechanicalConnectionBlock Base { ; }
 ```
 
 Gets the attached base block

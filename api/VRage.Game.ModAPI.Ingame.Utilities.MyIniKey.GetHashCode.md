@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public virtual int GetHashCode
+private public virtual int GetHashCode()
 ```
 
 Gets the hash code representing this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) 

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual float LeftExtend
+private public virtual float LeftExtend { ; ; }
 ```
 
 Gets or sets the left range of the sensor.

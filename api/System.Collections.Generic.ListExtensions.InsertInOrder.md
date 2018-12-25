@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void InsertInOrder<T>
+private public void InsertInOrder<T>(private public class.List<T> self, private public class.T value, private public interface.IComparer<T> comparer)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public void InsertInOrder<T>
 ### Summary
 
 ```csharp
-private public void InsertInOrder<T>
+private public void InsertInOrder<T>(private public class.List<T> self, private public class.T value)
 ```
 
 ### Returns

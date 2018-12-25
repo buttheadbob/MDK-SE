@@ -3,7 +3,7 @@
 #### ItemCollection Class
 
 ```csharp
-private ItemCollection
+private class.ItemCollection
 ```
 
 **Namespace:** [VRage.Game.ModAPI.Ingame.Utilities](VRage.Game.ModAPI.Ingame.Utilities)  

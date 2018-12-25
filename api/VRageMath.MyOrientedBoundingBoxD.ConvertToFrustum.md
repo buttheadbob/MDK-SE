@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public BoundingFrustumD ConvertToFrustum
+private public private public class.BoundingFrustumD ConvertToFrustum()
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual private public sealed MyLaserAntennaStatus Status
+private public virtual private public sealed enum.MyLaserAntennaStatus Status { ; }
 ```
 
 Gets the current status of this antenna.

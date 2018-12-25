@@ -3,7 +3,7 @@
 #### IMyLargeTurretBase Interface
 
 ```csharp
-private public abstract IMyLargeTurretBase
+private public interface.IMyLargeTurretBase
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

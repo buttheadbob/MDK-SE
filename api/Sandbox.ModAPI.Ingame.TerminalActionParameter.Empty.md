@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed TerminalActionParameter Empty
+private public private public sealed struct.TerminalActionParameter Empty
 ```
 
 Gets an empty parameter.

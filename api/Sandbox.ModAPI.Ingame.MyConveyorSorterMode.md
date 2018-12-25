@@ -3,7 +3,7 @@
 #### MyConveyorSorterMode Enum
 
 ```csharp
-private public sealed MyConveyorSorterMode
+private public sealed enum.MyConveyorSorterMode
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

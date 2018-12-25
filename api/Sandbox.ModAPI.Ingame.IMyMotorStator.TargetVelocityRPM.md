@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual float TargetVelocityRPM
+private public virtual float TargetVelocityRPM { ; ; }
 ```
 
 Gets or sets the desired velocity of the rotor in RPM

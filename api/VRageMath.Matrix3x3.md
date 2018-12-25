@@ -3,7 +3,7 @@
 #### Matrix3x3 Struct
 
 ```csharp
-private public sealed Matrix3x3
+private public sealed struct.Matrix3x3
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

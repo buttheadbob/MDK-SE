@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual void SetCollisionAvoidance
+private public virtual void SetCollisionAvoidance(bool enabled)
 ```
 
 Enables or disables collision avoidance.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual private public abstract IMyTerminalBlock GetBlockWithId
+private public virtual private public interface.IMyTerminalBlock GetBlockWithId(long id)
 ```
 
 ### Returns

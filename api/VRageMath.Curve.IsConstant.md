@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool IsConstant
+private public bool IsConstant { ; }
 ```
 
 Gets a value indicating whether the curve is constant.

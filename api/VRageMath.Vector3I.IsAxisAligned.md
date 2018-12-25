@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool IsAxisAligned
+private public bool IsAxisAligned()
 ```
 
 ### Returns

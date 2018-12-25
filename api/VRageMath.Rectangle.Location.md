@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Point Location
+private public private public sealed struct.Point Location { ; ; }
 ```
 
 Gets or sets the upper-left value of the Rectangle.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Vector3I Max
+private public private public sealed struct.Vector3I Max(private public sealed struct.Vector3I value1, private public sealed struct.Vector3I value2)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public private public sealed Vector3I Max
 ### Summary
 
 ```csharp
-private public void Max
+private public void Max(ref private public sealed struct.Vector3I value1, ref private public sealed struct.Vector3I value2, ref private public sealed struct.Vector3I result)
 ```
 
 ### Returns

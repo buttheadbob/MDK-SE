@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Quaternion Slerp
+private public private public sealed struct.Quaternion Slerp(private public sealed struct.Quaternion quaternion1, private public sealed struct.Quaternion quaternion2, float amount)
 ```
 
 Interpolates between two quaternions, using spherical linear interpolation.
@@ -17,7 +17,7 @@ Interpolates between two quaternions, using spherical linear interpolation.
 ### Summary
 
 ```csharp
-private public void Slerp
+private public void Slerp(ref private public sealed struct.Quaternion quaternion1, ref private public sealed struct.Quaternion quaternion2, float amount, ref private public sealed struct.Quaternion result)
 ```
 
 Interpolates between two quaternions, using spherical linear interpolation.

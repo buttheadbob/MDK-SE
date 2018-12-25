@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual float Mass
+private public virtual float Mass { ; }
 ```
 
 Block mass

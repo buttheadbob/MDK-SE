@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed MyDefinitionId FromContent
+private public private public sealed struct.MyDefinitionId FromContent(private public abstract class.MyObjectBuilder_Base content)
 ```
 
 Creates a new definition ID from a given content.

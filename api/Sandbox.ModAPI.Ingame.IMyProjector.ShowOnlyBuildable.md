@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual bool ShowOnlyBuildable
+private public virtual bool ShowOnlyBuildable { ; ; }
 ```
 
 ### Returns

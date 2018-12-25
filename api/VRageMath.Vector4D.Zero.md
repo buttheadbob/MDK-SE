@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Vector4D Zero
+private public private public sealed struct.Vector4D Zero
 ```
 
 ### Returns

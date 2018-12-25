@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual float Radius
+private public virtual float Radius { ; ; }
 ```
 
 Broadcasting/Receiving range

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual float Scale
+private public virtual float Scale { ; ; }
 ```
 
 ### Returns

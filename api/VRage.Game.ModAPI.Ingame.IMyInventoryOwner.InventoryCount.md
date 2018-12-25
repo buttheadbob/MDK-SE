@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual int InventoryCount
+private public virtual int InventoryCount { ; }
 ```
 
 ### Returns

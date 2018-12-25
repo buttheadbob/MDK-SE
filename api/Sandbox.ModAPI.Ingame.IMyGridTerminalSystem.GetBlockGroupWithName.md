@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual private public abstract IMyBlockGroup GetBlockGroupWithName
+private public virtual private public interface.IMyBlockGroup GetBlockGroupWithName(string name)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 #### FlightMode Enum
 
 ```csharp
-private public sealed FlightMode
+private public sealed enum.FlightMode
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

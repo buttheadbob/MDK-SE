@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed BoundingBoxI Translate
+private public private public sealed struct.BoundingBoxI Translate(private public sealed struct.Vector3I vctTranlsation)
 ```
 
 Translate

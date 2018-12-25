@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public void Add
+private public void Add(object tmp)
 ```
 
 ### Returns

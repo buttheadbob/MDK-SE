@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Vector3 Current
+private public private public sealed struct.Vector3 Current { ; }
 ```
 
 ### Returns

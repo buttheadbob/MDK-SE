@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual private public abstract IMyInventoryItem GetItemByID
+private public virtual private public interface.IMyInventoryItem GetItemByID(uint id)
 ```
 
 ### Returns

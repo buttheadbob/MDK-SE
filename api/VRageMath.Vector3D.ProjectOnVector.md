@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Vector3D ProjectOnVector
+private public private public sealed struct.Vector3D ProjectOnVector(ref private public sealed struct.Vector3D vec, ref private public sealed struct.Vector3D guideVector)
 ```
 
 Projects vector on another vector resulting in new vector in guided vector's direction with different length.

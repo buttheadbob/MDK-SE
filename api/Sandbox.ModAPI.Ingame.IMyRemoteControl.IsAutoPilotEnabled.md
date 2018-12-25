@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual bool IsAutoPilotEnabled
+private public virtual bool IsAutoPilotEnabled { ; }
 ```
 
 Determines whether the autopilot is currently enabled.

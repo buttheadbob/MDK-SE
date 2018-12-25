@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public int AbsMin
+private public int AbsMin()
 ```
 
 Returns the component of the vector, whose absolute value is smallest of all the three components.

@@ -3,7 +3,7 @@
 #### TerminalBlockExtentions Class
 
 ```csharp
-private public abstract sealed TerminalBlockExtentions
+private public abstract sealed class.TerminalBlockExtentions
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  

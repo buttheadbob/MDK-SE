@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public int Dot
+private public int Dot(ref private public sealed struct.Vector3I v)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ private public int Dot
 ### Summary
 
 ```csharp
-private public int Dot
+private public int Dot(private public sealed struct.Vector3I vector1, private public sealed struct.Vector3I vector2)
 ```
 
 ### Returns
@@ -27,7 +27,7 @@ private public int Dot
 ### Summary
 
 ```csharp
-private public int Dot
+private public int Dot(ref private public sealed struct.Vector3I vector1, ref private public sealed struct.Vector3I vector2)
 ```
 
 ### Returns
@@ -39,7 +39,7 @@ private public int Dot
 ### Summary
 
 ```csharp
-private public void Dot
+private public void Dot(ref private public sealed struct.Vector3I vector1, ref private public sealed struct.Vector3I vector2, ref int dot)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed Plane Plane
+private public private public sealed struct.Plane Plane
 ```
 
 ### Returns

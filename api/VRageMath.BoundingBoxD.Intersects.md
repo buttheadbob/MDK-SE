@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public bool Intersects
+private public bool Intersects(private public sealed struct.BoundingBoxD box)
 ```
 
 Checks whether the current BoundingBox intersects another BoundingBox.
@@ -17,7 +17,7 @@ Checks whether the current BoundingBox intersects another BoundingBox.
 ### Summary
 
 ```csharp
-private public bool Intersects
+private public bool Intersects(ref private public sealed struct.BoundingBoxD box)
 ```
 
 ### Returns
@@ -29,7 +29,7 @@ private public bool Intersects
 ### Summary
 
 ```csharp
-private public void Intersects
+private public void Intersects(ref private public sealed struct.BoundingBoxD box, ref bool result)
 ```
 
 Checks whether the current BoundingBox intersects another BoundingBox.
@@ -43,7 +43,7 @@ Checks whether the current BoundingBox intersects another BoundingBox.
 ### Summary
 
 ```csharp
-private public void Intersects
+private public void Intersects(ref private public sealed struct.BoundingBox box, ref bool result)
 ```
 
 ### Returns
@@ -55,7 +55,7 @@ private public void Intersects
 ### Summary
 
 ```csharp
-private public bool Intersects
+private public bool Intersects(private public class.BoundingFrustumD frustum)
 ```
 
 Checks whether the current BoundingBox intersects a BoundingFrustum.
@@ -69,7 +69,7 @@ Checks whether the current BoundingBox intersects a BoundingFrustum.
 ### Summary
 
 ```csharp
-private public private public sealed PlaneIntersectionType Intersects
+private public private public sealed enum.PlaneIntersectionType Intersects(private public sealed struct.PlaneD plane)
 ```
 
 Checks whether the current BoundingBox intersects a Plane.
@@ -83,7 +83,7 @@ Checks whether the current BoundingBox intersects a Plane.
 ### Summary
 
 ```csharp
-private public void Intersects
+private public void Intersects(ref private public sealed struct.PlaneD plane, ref private public sealed enum.PlaneIntersectionType result)
 ```
 
 Checks whether the current BoundingBox intersects a Plane.
@@ -97,7 +97,7 @@ Checks whether the current BoundingBox intersects a Plane.
 ### Summary
 
 ```csharp
-private public bool Intersects
+private public bool Intersects(ref private public sealed struct.LineD line)
 ```
 
 ### Returns
@@ -109,7 +109,7 @@ private public bool Intersects
 ### Summary
 
 ```csharp
-private public bool Intersects
+private public bool Intersects(ref private public sealed struct.LineD line, ref double distance)
 ```
 
 ### Returns
@@ -121,7 +121,7 @@ private public bool Intersects
 ### Summary
 
 ```csharp
-private public private public sealed Nullable<T> Intersects
+private public private public sealed struct.Nullable<T> Intersects(private public sealed struct.Ray ray)
 ```
 
 ### Returns
@@ -133,7 +133,7 @@ private public private public sealed Nullable<T> Intersects
 ### Summary
 
 ```csharp
-private public private public sealed Nullable<T> Intersects
+private public private public sealed struct.Nullable<T> Intersects(private public sealed struct.RayD ray)
 ```
 
 Checks whether the current BoundingBox intersects a Ray.
@@ -147,7 +147,7 @@ Checks whether the current BoundingBox intersects a Ray.
 ### Summary
 
 ```csharp
-private public void Intersects
+private public void Intersects(ref private public sealed struct.RayD ray, ref private public sealed struct.Nullable<T> result)
 ```
 
 ### Returns
@@ -159,21 +159,7 @@ private public void Intersects
 ### Summary
 
 ```csharp
-private public bool Intersects
-```
-
-Checks whether the current BoundingBox intersects a BoundingSphere.
-
-### Returns
-
-### Example
-
-### Remarks
-
-### Summary
-
-```csharp
-private public void Intersects
+private public bool Intersects(private public sealed struct.BoundingSphereD sphere)
 ```
 
 Checks whether the current BoundingBox intersects a BoundingSphere.
@@ -187,7 +173,21 @@ Checks whether the current BoundingBox intersects a BoundingSphere.
 ### Summary
 
 ```csharp
-private public bool Intersects
+private public void Intersects(ref private public sealed struct.BoundingSphereD sphere, ref bool result)
+```
+
+Checks whether the current BoundingBox intersects a BoundingSphere.
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+private public bool Intersects(ref private public sealed struct.BoundingSphereD sphere)
 ```
 
 ### Returns

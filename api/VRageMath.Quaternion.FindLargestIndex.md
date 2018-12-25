@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public int FindLargestIndex
+private public int FindLargestIndex()
 ```
 
 ### Returns

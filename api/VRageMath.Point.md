@@ -3,7 +3,7 @@
 #### Point Struct
 
 ```csharp
-private public sealed Point
+private public sealed struct.Point
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

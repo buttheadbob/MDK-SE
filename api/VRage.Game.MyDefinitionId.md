@@ -3,7 +3,7 @@
 #### MyDefinitionId Struct
 
 ```csharp
-private public sealed MyDefinitionId
+private public sealed struct.MyDefinitionId
 ```
 
 **Namespace:** [VRage.Game](VRage.Game)  

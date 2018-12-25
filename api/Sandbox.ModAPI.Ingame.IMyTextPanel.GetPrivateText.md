@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual string GetPrivateText
+private public virtual string GetPrivateText()
 ```
 
 ### Returns

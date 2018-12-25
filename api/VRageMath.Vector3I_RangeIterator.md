@@ -3,7 +3,7 @@
 #### Vector3I_RangeIterator Struct
 
 ```csharp
-private public sealed Vector3I_RangeIterator
+private public sealed struct.Vector3I_RangeIterator
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed MyFixedPoint MinIntValue
+private public private public sealed struct.MyFixedPoint MinIntValue
 ```
 
 ### Returns

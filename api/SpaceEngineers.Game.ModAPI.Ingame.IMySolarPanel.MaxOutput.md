@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual float MaxOutput
+private public virtual float MaxOutput { ; }
 ```
 
 Maximum output of solar panel in Megawatts

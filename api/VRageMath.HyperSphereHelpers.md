@@ -3,7 +3,7 @@
 #### HyperSphereHelpers Class
 
 ```csharp
-private public abstract sealed HyperSphereHelpers
+private public abstract sealed class.HyperSphereHelpers
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

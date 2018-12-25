@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public private public sealed BoundingSphere CreateFromPoints
+private public private public sealed struct.BoundingSphere CreateFromPoints(private public interface.IEnumerable<T> points)
 ```
 
 ### Returns

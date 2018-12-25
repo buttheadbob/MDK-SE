@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual float CurrentProgress
+private public virtual float CurrentProgress { ; }
 ```
 
 Gets the progress for the item currently in production.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-private public abstract virtual private public sealed DoorStatus Status
+private public virtual private public sealed enum.DoorStatus Status { ; }
 ```
 
 Determines the current general status of the door.

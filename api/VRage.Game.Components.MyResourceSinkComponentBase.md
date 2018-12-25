@@ -8,13 +8,13 @@
 **Inheritors:**  
 * [Sandbox.Game.EntityComponents.MyResourceSinkComponent](Sandbox.Game.EntityComponents.MyResourceSinkComponent)
 
-### Properties
+###### Properties
 
 |Member|Description|
 |---|---|
 |[AcceptedResources](VRage.Game.Components.MyResourceSinkComponentBase.AcceptedResources)||
 
-### Methods
+###### Methods
 
 |Member|Description|
 |---|---|

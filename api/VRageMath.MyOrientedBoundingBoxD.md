@@ -5,7 +5,7 @@
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Fields
+###### Fields
 
 |Member|Description|
 |---|---|
@@ -28,7 +28,7 @@
 |[ZNeighbourVectorsForw](VRageMath.MyOrientedBoundingBoxD.ZNeighbourVectorsForw)||
 |[CornerCount](VRageMath.MyOrientedBoundingBoxD.CornerCount)||
 
-### Methods
+###### Methods
 
 |Member|Description|
 |---|---|

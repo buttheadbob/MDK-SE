@@ -5,7 +5,7 @@
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Fields
+###### Fields
 
 |Member|Description|
 |---|---|
@@ -25,7 +25,7 @@
 |[EPSILON](VRageMath.MathHelper.EPSILON)||
 |[EPSILON10](VRageMath.MathHelper.EPSILON10)||
 
-### Methods
+###### Methods
 
 |Member|Description|
 |---|---|

@@ -15,7 +15,7 @@
 * [SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGenerator](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGenerator)  
 * [SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorSphere](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorSphere)
 
-### Properties
+###### Properties
 
 |Member|Description|
 |---|---|
@@ -59,7 +59,7 @@
 |[ShowInInventory](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[Enabled](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.Enabled)|_Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_|
 
-### Methods
+###### Methods
 
 |Member|Description|
 |---|---|

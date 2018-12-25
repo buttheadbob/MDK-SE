@@ -14,7 +14,7 @@
 **Inheritors:**  
 * [SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall](SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall)
 
-### Properties
+###### Properties
 
 |Member|Description|
 |---|---|
@@ -57,7 +57,7 @@
 |[ShowInInventory](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[Enabled](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.Enabled)|_Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_|
 
-### Methods
+###### Methods
 
 |Member|Description|
 |---|---|

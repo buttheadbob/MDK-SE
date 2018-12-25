@@ -5,20 +5,20 @@
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Fields
+###### Fields
 
 |Member|Description|
 |---|---|
 |[Sides](VRageMath.MyCuboid.Sides)||
 
-### Properties
+###### Properties
 
 |Member|Description|
 |---|---|
 |[UniqueLines](VRageMath.MyCuboid.UniqueLines)||
 |[Vertices](VRageMath.MyCuboid.Vertices)||
 
-### Methods
+###### Methods
 
 |Member|Description|
 |---|---|

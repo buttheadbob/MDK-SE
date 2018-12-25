@@ -5,14 +5,14 @@
 **Namespace:** [VRage.ObjectBuilders](VRage.ObjectBuilders)  
 **Assembly:** VRage.Game.dll
 
-### Fields
+###### Fields
 
 |Member|Description|
 |---|---|
 |[TypeId](VRage.ObjectBuilders.SerializableDefinitionId.TypeId)||
 |[SubtypeName](VRage.ObjectBuilders.SerializableDefinitionId.SubtypeName)||
 
-### Properties
+###### Properties
 
 |Member|Description|
 |---|---|
@@ -21,7 +21,7 @@
 |[SubtypeIdAttribute](VRage.ObjectBuilders.SerializableDefinitionId.SubtypeIdAttribute)||
 |[SubtypeId](VRage.ObjectBuilders.SerializableDefinitionId.SubtypeId)||
 
-### Methods
+###### Methods
 
 |Member|Description|
 |---|---|

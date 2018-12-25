@@ -5,7 +5,7 @@
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Fields
+###### Fields
 
 |Member|Description|
 |---|---|
@@ -15,13 +15,13 @@
 |[W](VRageMath.Vector4I.W)||
 |[Comparer](VRageMath.Vector4I.Comparer)||
 
-### Properties
+###### Properties
 
 |Member|Description|
 |---|---|
 |[Item](VRageMath.Vector4I.Item)||
 
-### Methods
+###### Methods
 
 |Member|Description|
 |---|---|

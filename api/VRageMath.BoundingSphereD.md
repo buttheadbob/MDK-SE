@@ -5,14 +5,14 @@
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Fields
+###### Fields
 
 |Member|Description|
 |---|---|
 |[Center](VRageMath.BoundingSphereD.Center)|The center point of the sphere.|
 |[Radius](VRageMath.BoundingSphereD.Radius)|The radius of the sphere.|
 
-### Methods
+###### Methods
 
 |Member|Description|
 |---|---|

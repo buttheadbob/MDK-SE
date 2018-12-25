@@ -5,7 +5,7 @@
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Fields
+###### Fields
 
 |Member|Description|
 |---|---|
@@ -13,7 +13,7 @@
 |[Y](VRageMath.Vector3Ushort.Y)||
 |[Z](VRageMath.Vector3Ushort.Z)||
 
-### Methods
+###### Methods
 
 |Member|Description|
 |---|---|

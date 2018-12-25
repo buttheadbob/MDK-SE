@@ -5,7 +5,7 @@
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Fields
+###### Fields
 
 |Member|Description|
 |---|---|
@@ -13,7 +13,7 @@
 |[Directions](VRageMath.Base6Directions.Directions)||
 |[IntDirections](VRageMath.Base6Directions.IntDirections)||
 
-### Methods
+###### Methods
 
 |Member|Description|
 |---|---|

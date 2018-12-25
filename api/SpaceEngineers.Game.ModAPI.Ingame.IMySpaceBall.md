@@ -12,7 +12,7 @@
 * [VRage.Game.ModAPI.Ingame.IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [VRage.Game.ModAPI.Ingame.IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
-### Properties
+###### Properties
 
 |Member|Description|
 |---|---|
@@ -60,7 +60,7 @@
 |[Enabled](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.Enabled)|_Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_|
 |[VirtualMass](SpaceEngineers.Game.ModAPI.Ingame.IMyVirtualMass.VirtualMass)|Virtualmass weight<br /><br />_Inherited from [IMyVirtualMass](SpaceEngineers.Game.ModAPI.Ingame.IMyVirtualMass)_|
 
-### Methods
+###### Methods
 
 |Member|Description|
 |---|---|

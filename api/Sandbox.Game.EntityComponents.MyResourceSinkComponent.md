@@ -7,7 +7,7 @@
 
 **Inheritance: **[MyResourceSinkComponentBase](VRage.Game.Components.MyResourceSinkComponentBase)
 
-### Properties
+###### Properties
 
 |Member|Description|
 |---|---|
@@ -18,7 +18,7 @@
 |[AcceptedResources](Sandbox.Game.EntityComponents.MyResourceSinkComponent.AcceptedResources)||
 |[AcceptedResources](VRage.Game.Components.MyResourceSinkComponentBase.AcceptedResources)|_Inherited from [MyResourceSinkComponentBase](VRage.Game.Components.MyResourceSinkComponentBase)_|
 
-### Methods
+###### Methods
 
 |Member|Description|
 |---|---|

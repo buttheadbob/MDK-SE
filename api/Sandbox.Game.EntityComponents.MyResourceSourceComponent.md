@@ -7,7 +7,7 @@
 
 **Inheritance: **[MyResourceSourceComponentBase](VRage.Game.Components.MyResourceSourceComponentBase)
 
-### Properties
+###### Properties
 
 |Member|Description|
 |---|---|
@@ -18,7 +18,7 @@
 |[RemainingCapacity](Sandbox.Game.EntityComponents.MyResourceSourceComponent.RemainingCapacity)||
 |[HasCapacityRemaining](Sandbox.Game.EntityComponents.MyResourceSourceComponent.HasCapacityRemaining)||
 
-### Methods
+###### Methods
 
 |Member|Description|
 |---|---|

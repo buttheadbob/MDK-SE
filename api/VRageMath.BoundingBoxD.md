@@ -5,7 +5,7 @@
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Fields
+###### Fields
 
 |Member|Description|
 |---|---|
@@ -14,7 +14,7 @@
 |[Comparer](VRageMath.BoundingBoxD.Comparer)||
 |[CornerCount](VRageMath.BoundingBoxD.CornerCount)|Specifies the total number of corners (8) in the BoundingBox.|
 
-### Properties
+###### Properties
 
 |Member|Description|
 |---|---|
@@ -28,7 +28,7 @@
 |[Perimeter](VRageMath.BoundingBoxD.Perimeter)|return perimeter of edges|
 |[Valid](VRageMath.BoundingBoxD.Valid)||
 
-### Methods
+###### Methods
 
 |Member|Description|
 |---|---|

@@ -5,7 +5,7 @@
 **Namespace:** [VRage.Game.ModAPI.Ingame.Utilities](VRage.Game.ModAPI.Ingame.Utilities)  
 **Assembly:** VRage.Game.dll
 
-### Properties
+###### Properties
 
 |Member|Description|
 |---|---|
@@ -13,7 +13,7 @@
 |[Switches](VRage.Game.ModAPI.Ingame.Utilities.MyCommandLine.Switches)|Contains a list of all detected switches|
 |[ArgumentCount](VRage.Game.ModAPI.Ingame.Utilities.MyCommandLine.ArgumentCount)|Returns the number of non-switch arguments|
 
-### Methods
+###### Methods
 
 |Member|Description|
 |---|---|

@@ -8,7 +8,7 @@
 **Inheritors:**  
 * [Sandbox.Game.EntityComponents.MyResourceSourceComponent](Sandbox.Game.EntityComponents.MyResourceSourceComponent)
 
-### Methods
+###### Methods
 
 |Member|Description|
 |---|---|

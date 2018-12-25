@@ -5,20 +5,20 @@
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Fields
+###### Fields
 
 |Member|Description|
 |---|---|
 |[X](VRageMath.Point.X)|Specifies the x-coordinate of the Point.|
 |[Y](VRageMath.Point.Y)|Specifies the y-coordinate of the Point.|
 
-### Properties
+###### Properties
 
 |Member|Description|
 |---|---|
 |[Zero](VRageMath.Point.Zero)|Returns the point (0,0).|
 
-### Methods
+###### Methods
 
 |Member|Description|
 |---|---|

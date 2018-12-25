@@ -5,7 +5,7 @@
 **Namespace:** [VRage.Game.ModAPI.Ingame](VRage.Game.ModAPI.Ingame)  
 **Assembly:** VRage.Game.dll
 
-### Properties
+###### Properties
 
 |Member|Description|
 |---|---|
@@ -16,7 +16,7 @@
 |[CurrentVolume](VRage.Game.ModAPI.Ingame.IMyInventory.CurrentVolume)||
 |[Owner](VRage.Game.ModAPI.Ingame.IMyInventory.Owner)||
 
-### Methods
+###### Methods
 
 |Member|Description|
 |---|---|

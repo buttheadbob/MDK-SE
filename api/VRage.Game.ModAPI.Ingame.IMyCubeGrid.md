@@ -8,7 +8,7 @@
 **Implements:**  
 * [VRage.Game.ModAPI.Ingame.IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
-### Properties
+###### Properties
 
 |Member|Description|
 |---|---|
@@ -30,7 +30,7 @@
 |[WorldVolume](VRage.Game.ModAPI.Ingame.IMyEntity.WorldVolume)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[WorldVolumeHr](VRage.Game.ModAPI.Ingame.IMyEntity.WorldVolumeHr)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 
-### Methods
+###### Methods
 
 |Member|Description|
 |---|---|

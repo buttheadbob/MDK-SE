@@ -14,7 +14,7 @@
 **Inheritors:**  
 * [Sandbox.ModAPI.Ingame.IMyAssembler](Sandbox.ModAPI.Ingame.IMyAssembler)
 
-### Properties
+###### Properties
 
 |Member|Description|
 |---|---|
@@ -62,7 +62,7 @@
 |[ShowInInventory](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[Enabled](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.Enabled)|_Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_|
 
-### Methods
+###### Methods
 
 |Member|Description|
 |---|---|

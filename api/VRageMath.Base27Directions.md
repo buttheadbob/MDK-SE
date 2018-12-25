@@ -5,14 +5,14 @@
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Fields
+###### Fields
 
 |Member|Description|
 |---|---|
 |[Directions](VRageMath.Base27Directions.Directions)||
 |[DirectionsInt](VRageMath.Base27Directions.DirectionsInt)||
 
-### Methods
+###### Methods
 
 |Member|Description|
 |---|---|

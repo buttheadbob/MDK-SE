@@ -8,7 +8,7 @@
 **Inheritors:**  
 * [Sandbox.ModAPI.Interfaces.ITerminalProperty<TValue>](Sandbox.ModAPI.Interfaces.ITerminalProperty`1)
 
-### Properties
+###### Properties
 
 |Member|Description|
 |---|---|

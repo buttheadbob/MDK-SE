@@ -5,14 +5,14 @@
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Fields
+###### Fields
 
 |Member|Description|
 |---|---|
 |[Position](VRageMath.RectangleF.Position)|The Position.|
 |[Size](VRageMath.RectangleF.Size)|The Size.|
 
-### Properties
+###### Properties
 
 |Member|Description|
 |---|---|
@@ -21,7 +21,7 @@
 |[Width](VRageMath.RectangleF.Width)|Width of this rectangle.|
 |[Height](VRageMath.RectangleF.Height)|Height of this rectangle.|
 
-### Methods
+###### Methods
 
 |Member|Description|
 |---|---|

@@ -5,13 +5,13 @@
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Fields
+###### Fields
 
 |Member|Description|
 |---|---|
 |PackedValue|Gets the current color as a packed value.|
 
-### Properties
+###### Properties
 
 |Member|Description|
 |---|---|
@@ -164,7 +164,7 @@
 |Yellow|Gets a system-defined color with the value R:255 G:255 B:0 A:255.|
 |YellowGreen|Gets a system-defined color with the value R:154 G:205 B:50 A:255.|
 
-### Methods
+###### Methods
 
 |Member|Description|
 |---|---|

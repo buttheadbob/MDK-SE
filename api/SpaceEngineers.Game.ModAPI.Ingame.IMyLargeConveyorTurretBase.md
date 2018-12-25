@@ -13,7 +13,7 @@
 * [VRage.Game.ModAPI.Ingame.IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [VRage.Game.ModAPI.Ingame.IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
-### Properties
+###### Properties
 
 |Member|Description|
 |---|---|
@@ -66,7 +66,7 @@
 |[EnableIdleRotation](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.EnableIdleRotation)|enable/disable idle rotation for turret, this method is not synced, you need to sync manually<br /><br />_Inherited from [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)_|
 |[AIEnabled](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.AIEnabled)|Checks is AI is enabled for turret<br /><br />_Inherited from [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)_|
 
-### Methods
+###### Methods
 
 |Member|Description|
 |---|---|

@@ -5,7 +5,7 @@
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Fields
+###### Fields
 
 |Member|Description|
 |---|---|
@@ -20,7 +20,7 @@
 |[Forward](VRageMath.Vector3B.Forward)||
 |[Backward](VRageMath.Vector3B.Backward)||
 
-### Methods
+###### Methods
 
 |Member|Description|
 |---|---|

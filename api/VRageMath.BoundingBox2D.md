@@ -5,7 +5,7 @@
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Fields
+###### Fields
 
 |Member|Description|
 |---|---|
@@ -13,7 +13,7 @@
 |[Max](VRageMath.BoundingBox2D.Max)|The maximum point the BoundingBox2D contains.|
 |[CornerCount](VRageMath.BoundingBox2D.CornerCount)|Specifies the total number of corners (8) in the BoundingBox2D.|
 
-### Properties
+###### Properties
 
 |Member|Description|
 |---|---|
@@ -24,7 +24,7 @@
 |[Height](VRageMath.BoundingBox2D.Height)||
 |[Size](VRageMath.BoundingBox2D.Size)|Size|
 
-### Methods
+###### Methods
 
 |Member|Description|
 |---|---|

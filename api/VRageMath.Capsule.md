@@ -5,7 +5,7 @@
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Fields
+###### Fields
 
 |Member|Description|
 |---|---|
@@ -13,7 +13,7 @@
 |[P1](VRageMath.Capsule.P1)||
 |[Radius](VRageMath.Capsule.Radius)||
 
-### Methods
+###### Methods
 
 |Member|Description|
 |---|---|

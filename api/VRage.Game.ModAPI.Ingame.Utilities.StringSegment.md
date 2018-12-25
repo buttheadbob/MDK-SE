@@ -5,7 +5,7 @@
 **Namespace:** [VRage.Game.ModAPI.Ingame.Utilities](VRage.Game.ModAPI.Ingame.Utilities)  
 **Assembly:** VRage.Game.dll
 
-### Fields
+###### Fields
 
 |Member|Description|
 |---|---|
@@ -13,7 +13,7 @@
 |[Start](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.Start)||
 |[Length](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.Length)||
 
-### Properties
+###### Properties
 
 |Member|Description|
 |---|---|
@@ -21,7 +21,7 @@
 |[IsCached](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.IsCached)||
 |[Item](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.Item)||
 
-### Methods
+###### Methods
 
 |Member|Description|
 |---|---|

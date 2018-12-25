@@ -68,7 +68,7 @@
 * [VRage.Game.ModAPI.Ingame.IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [VRage.Game.ModAPI.Ingame.IMyCubeGrid](VRage.Game.ModAPI.Ingame.IMyCubeGrid)
 
-### Properties
+###### Properties
 
 |Member|Description|
 |---|---|
@@ -84,7 +84,7 @@
 |[WorldVolume](VRage.Game.ModAPI.Ingame.IMyEntity.WorldVolume)||
 |[WorldVolumeHr](VRage.Game.ModAPI.Ingame.IMyEntity.WorldVolumeHr)||
 
-### Methods
+###### Methods
 
 |Member|Description|
 |---|---|

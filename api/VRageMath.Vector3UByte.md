@@ -5,7 +5,7 @@
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Fields
+###### Fields
 
 |Member|Description|
 |---|---|
@@ -15,7 +15,7 @@
 |[Comparer](VRageMath.Vector3UByte.Comparer)||
 |[Zero](VRageMath.Vector3UByte.Zero)||
 
-### Methods
+###### Methods
 
 |Member|Description|
 |---|---|

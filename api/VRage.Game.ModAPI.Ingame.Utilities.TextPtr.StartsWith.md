@@ -8,8 +8,8 @@ public bool StartsWith(string what)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
-* [string](System.String) what
+* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) what

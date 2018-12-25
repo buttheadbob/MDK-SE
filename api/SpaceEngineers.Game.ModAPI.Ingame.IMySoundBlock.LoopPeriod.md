@@ -10,7 +10,7 @@ Gets or sets the loop period of a loopable sound, in seconds.
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 
 ### Remarks
 

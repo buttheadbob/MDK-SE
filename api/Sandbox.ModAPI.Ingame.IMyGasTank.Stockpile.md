@@ -10,5 +10,5 @@ Gets or sets the stockpiling option for this gas tank. When stockpile is on, the
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 

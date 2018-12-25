@@ -10,7 +10,7 @@ Turns the current vector into a unit vector. The result is a vector one unit in 
 
 ### Returns
 
-[double](System.Double)
+[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
 
 ### Summary
 

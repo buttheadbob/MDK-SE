@@ -14,10 +14,10 @@ Builds a perspective projection matrix and returns the result by value.
 
 ### Parameters
 
-* [float](System.Single) width
-* [float](System.Single) height
-* [float](System.Single) nearPlaneDistance
-* [float](System.Single) farPlaneDistance
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) width
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) height
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) nearPlaneDistance
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) farPlaneDistance
 ### Summary
 
 ```csharp
@@ -28,8 +28,8 @@ Builds a perspective projection matrix and returns the result by reference.
 
 ### Parameters
 
-* [float](System.Single) width
-* [float](System.Single) height
-* [float](System.Single) nearPlaneDistance
-* [float](System.Single) farPlaneDistance
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) width
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) height
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) nearPlaneDistance
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) farPlaneDistance
 * [Matrix](VRageMath.Matrix) result

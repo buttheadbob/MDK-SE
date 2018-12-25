@@ -8,7 +8,7 @@ public bool Intersects(ref BoundingBox box)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -21,7 +21,7 @@ public bool Intersects(ref MyOrientedBoundingBox other)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -34,7 +34,7 @@ public bool Intersects(BoundingFrustum frustum)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -47,7 +47,7 @@ public bool Intersects(ref BoundingSphere sphere)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -60,7 +60,7 @@ public Nullable<T> Intersects(ref Ray ray)
 
 ### Returns
 
-[Nullable<T>](System.Nullable`1)
+[Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
 
 ### Parameters
 
@@ -73,7 +73,7 @@ public Nullable<T> Intersects(ref Line line)
 
 ### Returns
 
-[Nullable<T>](System.Nullable`1)
+[Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
 
 ### Parameters
 

@@ -8,9 +8,9 @@ public bool HasAction(IMyTerminalBlock block, string actionName)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
 * [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock) block
-* [string](System.String) actionName
+* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) actionName

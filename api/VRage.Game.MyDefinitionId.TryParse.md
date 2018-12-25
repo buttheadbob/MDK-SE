@@ -10,13 +10,13 @@ Attempts to create a definition ID from a definition string, which has the form 
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 
 
 ### Parameters
 
-* [string](System.String) id
+* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) id
 * [MyDefinitionId](VRage.Game.MyDefinitionId) definitionId
 ### Summary
 
@@ -26,10 +26,10 @@ public bool TryParse(string type, string subtype, ref MyDefinitionId definition
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
-* [string](System.String) type
-* [string](System.String) subtype
+* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) type
+* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) subtype
 * [MyDefinitionId](VRage.Game.MyDefinitionId) definitionId

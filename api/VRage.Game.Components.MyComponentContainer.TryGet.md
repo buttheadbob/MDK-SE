@@ -8,11 +8,11 @@ public bool TryGet<T>(ref T component)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
-* T component
+* [T]() component
 ### Summary
 
 ```csharp
@@ -21,9 +21,9 @@ public bool TryGet(Type type, ref MyComponentBase component)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
-* [Type](System.Type) type
+* [Type](https://docs.microsoft.com/en-us/dotnet/api/system.type?view=netframework-4.6) type
 * [MyComponentBase](VRage.Game.Components.MyComponentBase) component

@@ -8,7 +8,7 @@ public bool IsBaseDirection(ref Vector3 vec)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -21,7 +21,7 @@ public bool IsBaseDirection(Vector3 vec)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -34,7 +34,7 @@ public bool IsBaseDirection(ref Vector3I vec)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 

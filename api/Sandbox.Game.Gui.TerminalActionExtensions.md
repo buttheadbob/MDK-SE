@@ -9,7 +9,7 @@ public abstract sealed class TerminalActionExtensions: object
 **Namespace:** [Sandbox.Game.Gui](Sandbox.Game.Gui)  
 **Assembly:** Sandbox.Game.dll
 
-**Inheritance: **[object](System.Object)
+**Inheritance:** [object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6)
 
 #### Example
 

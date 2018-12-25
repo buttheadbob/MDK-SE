@@ -8,7 +8,7 @@ public bool Boxlongersects(Vector3L minA, Vector3L maxA, Vector3L minB, Vector3L
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -24,7 +24,7 @@ public bool Boxlongersects(ref Vector3L minA, ref Vector3L maxA, ref Vector3L
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 

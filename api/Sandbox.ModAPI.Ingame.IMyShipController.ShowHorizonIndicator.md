@@ -10,5 +10,5 @@ Gets or sets whether the horizon indicator should be displayed for this block.
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 

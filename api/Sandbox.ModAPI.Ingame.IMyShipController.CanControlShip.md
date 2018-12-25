@@ -10,5 +10,5 @@ Determines whether this specific ship controller is capable of controlling the s
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 

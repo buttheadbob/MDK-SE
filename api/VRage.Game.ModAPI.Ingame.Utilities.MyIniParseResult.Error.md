@@ -10,5 +10,5 @@ Gets a description of the error that occurred during parsing. Will be`null`if no
 
 ### Returns
 
-[string](System.String)
+[string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6)
 

@@ -8,12 +8,12 @@ public int Mod(int x, int m)
 
 ### Returns
 
-[int](System.Int32)
+[int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6)
 
 ### Parameters
 
-* [int](System.Int32) x
-* [int](System.Int32) m
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) x
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) m
 ### Summary
 
 ```csharp
@@ -22,9 +22,9 @@ public long Mod(long x, int m)
 
 ### Returns
 
-[long](System.Int64)
+[long](https://docs.microsoft.com/en-us/dotnet/api/system.int64?view=netframework-4.6)
 
 ### Parameters
 
-* [long](System.Int64) x
-* [int](System.Int32) m
+* [long](https://docs.microsoft.com/en-us/dotnet/api/system.int64?view=netframework-4.6) x
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) m

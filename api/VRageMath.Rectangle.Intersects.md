@@ -10,7 +10,7 @@ Determines whether a specified Rectangle intersects with this Rectangle.
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -26,4 +26,4 @@ Determines whether a specified Rectangle intersects with this Rectangle.
 ### Parameters
 
 * [Rectangle](VRageMath.Rectangle) value
-* [bool](System.Boolean) result
+* [bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) result

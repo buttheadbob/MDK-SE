@@ -8,7 +8,7 @@ public double DistanceToPoint(Vector3D point)
 
 ### Returns
 
-[double](System.Double)
+[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
 
 ### Parameters
 
@@ -21,7 +21,7 @@ public double DistanceToPoint(ref Vector3D point)
 
 ### Returns
 
-[double](System.Double)
+[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
 
 ### Parameters
 

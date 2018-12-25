@@ -13,4 +13,4 @@ public ITerminalAction GetAction(IMyTerminalBlock block, string name)
 ### Parameters
 
 * [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock) block
-* [string](System.String) name
+* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) name

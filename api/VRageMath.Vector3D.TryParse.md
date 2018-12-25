@@ -8,9 +8,9 @@ public bool TryParse(string str, ref Vector3D retval)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
-* [string](System.String) str
+* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) str
 * [Vector3D](VRageMath.Vector3D) retval

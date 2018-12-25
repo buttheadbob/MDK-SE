@@ -9,7 +9,7 @@ public class MyCommandLine: object
 **Namespace:** [VRage.Game.ModAPI.Ingame.Utilities](VRage.Game.ModAPI.Ingame.Utilities)  
 **Assembly:** VRage.Game.dll
 
-**Inheritance: **[object](System.Object)
+**Inheritance:** [object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6)
 
 #### Example
 

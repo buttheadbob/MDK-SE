@@ -8,5 +8,5 @@ public MyEntityComponentContainer Components { get; }
 
 ### Returns
 
-MyEntityComponentContainer
+[MyEntityComponentContainer](VRage.Game.Components.MyEntityComponentContainer)
 

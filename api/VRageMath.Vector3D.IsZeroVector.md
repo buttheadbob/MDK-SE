@@ -26,4 +26,4 @@ public Vector3D IsZeroVector(Vector3D value, double epsilon)
 ### Parameters
 
 * [Vector3D](VRageMath.Vector3D) value
-* [double](System.Double) epsilon
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) epsilon

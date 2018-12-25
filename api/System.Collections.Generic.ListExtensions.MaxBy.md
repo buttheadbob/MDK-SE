@@ -12,5 +12,5 @@ public T MaxBy<T>(IEnumerable<T> source, Func<T, TResult> selector)
 
 ### Parameters
 
-* [IEnumerable<T>](System.Collections.Generic.IEnumerable`1) source
-* [Func<T, TResult>](System.Func`2) selector
+* [IEnumerable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable?view=netframework-4.6) source
+* [Func<T, TResult>](https://docs.microsoft.com/en-us/dotnet/api/system.func?view=netframework-4.6) selector

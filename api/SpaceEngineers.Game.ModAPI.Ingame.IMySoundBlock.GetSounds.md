@@ -8,4 +8,4 @@ public void GetSounds(List<T> sounds)
 
 ### Parameters
 
-* [List<T>](System.Collections.Generic.List`1) sounds
+* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) sounds

@@ -8,5 +8,5 @@ public void FindAll(string source, List<T> gpsList)
 
 ### Parameters
 
-* [string](System.String) source
-* [List<T>](System.Collections.Generic.List`1) gpsList
+* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) source
+* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) gpsList

@@ -10,9 +10,9 @@ Broadcasts a message to all PB attached to the antenna system. Broadcast is dela
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
-* [string](System.String) message
+* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) message
 * [MyTransmitTarget](Sandbox.ModAPI.Ingame.MyTransmitTarget) target

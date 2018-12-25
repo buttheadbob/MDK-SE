@@ -10,10 +10,10 @@ Attempts to get this value as a [System.Double](https://docs.microsoft.com/en-us
 
 ### Returns
 
-[double](System.Double)
+[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
 
 
 
 ### Parameters
 
-* [double](System.Double) defaultValue
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) defaultValue

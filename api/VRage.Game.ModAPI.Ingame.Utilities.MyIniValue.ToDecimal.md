@@ -10,10 +10,10 @@ Attempts to get this value as a [System.Decimal](https://docs.microsoft.com/en-u
 
 ### Returns
 
-[decimal](System.Decimal)
+[decimal](https://docs.microsoft.com/en-us/dotnet/api/system.decimal?view=netframework-4.6)
 
 
 
 ### Parameters
 
-* [decimal](System.Decimal) defaultValue
+* [decimal](https://docs.microsoft.com/en-us/dotnet/api/system.decimal?view=netframework-4.6) defaultValue

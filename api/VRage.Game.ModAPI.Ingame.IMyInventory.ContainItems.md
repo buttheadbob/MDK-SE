@@ -8,9 +8,9 @@ public bool ContainItems(MyFixedPoint amount, MyObjectBuilder_PhysicalObject ob)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
 * [MyFixedPoint](VRage.MyFixedPoint) amount
-* MyObjectBuilder_PhysicalObject ob
+* [MyObjectBuilder_PhysicalObject](VRage.Game.MyObjectBuilder_PhysicalObject) ob

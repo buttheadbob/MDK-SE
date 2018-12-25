@@ -8,8 +8,8 @@ public KeyValuePair<TKey, TValue> FirstPair<K, V>(Dictionary<TKey, TValue> dicti
 
 ### Returns
 
-[KeyValuePair<TKey, TValue>](System.Collections.Generic.KeyValuePair`2)
+[KeyValuePair<TKey, TValue>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.keyvaluepair?view=netframework-4.6)
 
 ### Parameters
 
-* [Dictionary<TKey, TValue>](System.Collections.Generic.Dictionary`2) dictionary
+* [Dictionary<TKey, TValue>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary?view=netframework-4.6) dictionary

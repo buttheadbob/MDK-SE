@@ -8,7 +8,7 @@ public bool IsZero(Vector3D value)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -21,9 +21,9 @@ public bool IsZero(Vector3D value, double epsilon)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
 * [Vector3D](VRageMath.Vector3D) value
-* [double](System.Double) epsilon
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) epsilon

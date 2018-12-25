@@ -8,8 +8,8 @@ public void CreateFromSizes(float width1, float depth1, float width2, float dept
 
 ### Parameters
 
-* [float](System.Single) width1
-* [float](System.Single) depth1
-* [float](System.Single) width2
-* [float](System.Single) depth2
-* [float](System.Single) length
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) width1
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) depth1
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) width2
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) depth2
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) length

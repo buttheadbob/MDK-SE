@@ -8,8 +8,8 @@ public void RemoveAtFast<T>(List<T> list, int index)
 
 ### Parameters
 
-* [List<T>](System.Collections.Generic.List`1) list
-* [int](System.Int32) index
+* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) list
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) index
 ### Summary
 
 ```csharp
@@ -18,5 +18,5 @@ public void RemoveAtFast<T>(IList<T> list, int index)
 
 ### Parameters
 
-* [IList<T>](System.Collections.Generic.IList`1) list
-* [int](System.Int32) index
+* [IList<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ilist?view=netframework-4.6) list
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) index

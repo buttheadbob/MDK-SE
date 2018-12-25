@@ -9,7 +9,7 @@ public abstract sealed class TerminalPropertyExtensions: object
 **Namespace:** [Sandbox.ModAPI.Interfaces](Sandbox.ModAPI.Interfaces)  
 **Assembly:** Sandbox.Common.dll
 
-**Inheritance: **[object](System.Object)
+**Inheritance:** [object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6)
 
 #### Example
 

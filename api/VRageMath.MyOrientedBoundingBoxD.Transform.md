@@ -26,7 +26,7 @@ public MyOrientedBoundingBoxD Transform(float scale, Quaternion rotation, Vector
 
 ### Parameters
 
-* [float](System.Single) scale
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) scale
 * [Quaternion](VRageMath.Quaternion) rotation
 * [Vector3D](VRageMath.Vector3D) translation
 ### Summary

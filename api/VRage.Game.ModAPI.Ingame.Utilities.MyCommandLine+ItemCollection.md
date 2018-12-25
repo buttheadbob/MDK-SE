@@ -9,13 +9,13 @@ private class ItemCollection: object, IReadOnlyList<T>, IReadOnlyCollection<T>, 
 **Namespace:** [VRage.Game.ModAPI.Ingame.Utilities](VRage.Game.ModAPI.Ingame.Utilities)  
 **Assembly:** VRage.Game.dll
 
-**Inheritance: **[object](System.Object)
+**Inheritance:** [object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6)
 
 **Implements:**  
-* [IReadOnlyList<T>](System.Collections.Generic.IReadOnlyList`1)  
-* [IReadOnlyCollection<T>](System.Collections.Generic.IReadOnlyCollection`1)  
-* [IEnumerable<T>](System.Collections.Generic.IEnumerable`1)  
-* [IEnumerable](System.Collections.IEnumerable)
+* [IReadOnlyList<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ireadonlylist?view=netframework-4.6)  
+* [IReadOnlyCollection<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ireadonlycollection?view=netframework-4.6)  
+* [IEnumerable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable?view=netframework-4.6)  
+* [IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerable?view=netframework-4.6)
 
 #### Example
 

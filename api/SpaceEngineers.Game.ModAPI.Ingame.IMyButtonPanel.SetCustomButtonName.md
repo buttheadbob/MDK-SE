@@ -10,5 +10,5 @@ Sets the custom button name.
 
 ### Parameters
 
-* [int](System.Int32) index
-* [string](System.String) name
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) index
+* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) name

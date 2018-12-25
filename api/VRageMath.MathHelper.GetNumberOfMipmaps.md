@@ -8,8 +8,8 @@ public int GetNumberOfMipmaps(int v)
 
 ### Returns
 
-[int](System.Int32)
+[int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6)
 
 ### Parameters
 
-* [int](System.Int32) v
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) v

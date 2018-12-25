@@ -85,11 +85,11 @@ Transforms a specified range in an array of 3D vector normals by a specified Mat
 ### Parameters
 
 * [Vector3D[]](VRageMath.Vector3D[]) sourceArray
-* [int](System.Int32) sourceIndex
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) sourceIndex
 * [Matrix](VRageMath.Matrix) matrix
 * [Vector3D[]](VRageMath.Vector3D[]) destinationArray
-* [int](System.Int32) destinationIndex
-* [int](System.Int32) length
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) destinationIndex
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) length
 ### Summary
 
 ```csharp

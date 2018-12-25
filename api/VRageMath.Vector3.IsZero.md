@@ -8,7 +8,7 @@ public bool IsZero(ref Vector3 vec)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -21,7 +21,7 @@ public bool IsZero(Vector3 value)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -34,9 +34,9 @@ public bool IsZero(Vector3 value, float epsilon)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
 * [Vector3](VRageMath.Vector3) value
-* [float](System.Single) epsilon
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) epsilon

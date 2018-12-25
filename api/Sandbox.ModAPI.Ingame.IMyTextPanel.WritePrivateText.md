@@ -8,9 +8,9 @@ public bool WritePrivateText(string value, bool append)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
-* [string](System.String) value
-* [bool](System.Boolean) append
+* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) value
+* [bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) append

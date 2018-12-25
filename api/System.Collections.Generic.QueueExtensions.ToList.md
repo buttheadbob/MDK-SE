@@ -8,8 +8,8 @@ public List<T> ToList<T>(ConcurrentQueue<T> queue)
 
 ### Returns
 
-[List<T>](System.Collections.Generic.List`1)
+[List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6)
 
 ### Parameters
 
-* [ConcurrentQueue<T>](System.Collections.Concurrent.ConcurrentQueue`1) queue
+* [ConcurrentQueue<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.concurrent.concurrentqueue?view=netframework-4.6) queue

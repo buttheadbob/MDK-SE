@@ -8,11 +8,11 @@ public int Floor(float n)
 
 ### Returns
 
-[int](System.Int32)
+[int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6)
 
 ### Parameters
 
-* [float](System.Single) n
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) n
 ### Summary
 
 ```csharp
@@ -21,8 +21,8 @@ public int Floor(double n)
 
 ### Returns
 
-[int](System.Int32)
+[int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6)
 
 ### Parameters
 
-* [double](System.Double) n
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) n

@@ -10,10 +10,10 @@ Attempts to get this value as a [System.UInt32](https://docs.microsoft.com/en-us
 
 ### Returns
 
-[uint](System.UInt32)
+[uint](https://docs.microsoft.com/en-us/dotnet/api/system.uint32?view=netframework-4.6)
 
 
 
 ### Parameters
 
-* [uint](System.UInt32) defaultValue
+* [uint](https://docs.microsoft.com/en-us/dotnet/api/system.uint32?view=netframework-4.6) defaultValue

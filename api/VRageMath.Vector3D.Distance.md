@@ -10,7 +10,7 @@ Calculates the distance between two vectors.
 
 ### Returns
 
-[double](System.Double)
+[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
 
 ### Parameters
 
@@ -24,7 +24,7 @@ public double Distance(Vector3D value1, Vector3 value2)
 
 ### Returns
 
-[double](System.Double)
+[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
 
 ### Parameters
 
@@ -38,7 +38,7 @@ public double Distance(Vector3 value1, Vector3D value2)
 
 ### Returns
 
-[double](System.Double)
+[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
 
 ### Parameters
 
@@ -56,4 +56,4 @@ Calculates the distance between two vectors.
 
 * [Vector3D](VRageMath.Vector3D) value1
 * [Vector3D](VRageMath.Vector3D) value2
-* [double](System.Double) result
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) result

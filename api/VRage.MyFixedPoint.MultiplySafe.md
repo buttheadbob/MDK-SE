@@ -13,7 +13,7 @@ public MyFixedPoint MultiplySafe(MyFixedPoint a, float b)
 ### Parameters
 
 * [MyFixedPoint](VRage.MyFixedPoint) a
-* [float](System.Single) b
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) b
 ### Summary
 
 ```csharp
@@ -27,7 +27,7 @@ public MyFixedPoint MultiplySafe(MyFixedPoint a, int b)
 ### Parameters
 
 * [MyFixedPoint](VRage.MyFixedPoint) a
-* [int](System.Int32) b
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) b
 ### Summary
 
 ```csharp
@@ -40,7 +40,7 @@ public MyFixedPoint MultiplySafe(float a, MyFixedPoint b)
 
 ### Parameters
 
-* [float](System.Single) a
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) a
 * [MyFixedPoint](VRage.MyFixedPoint) b
 ### Summary
 
@@ -54,7 +54,7 @@ public MyFixedPoint MultiplySafe(int a, MyFixedPoint b)
 
 ### Parameters
 
-* [int](System.Int32) a
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) a
 * [MyFixedPoint](VRage.MyFixedPoint) b
 ### Summary
 

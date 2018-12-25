@@ -9,12 +9,12 @@ public class CurveKeyCollection: object, ICollection<T>, IEnumerable<T>, IEnumer
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-**Inheritance: **[object](System.Object)
+**Inheritance:** [object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6)
 
 **Implements:**  
-* [ICollection<T>](System.Collections.Generic.ICollection`1)  
-* [IEnumerable<T>](System.Collections.Generic.IEnumerable`1)  
-* [IEnumerable](System.Collections.IEnumerable)
+* [ICollection<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.icollection?view=netframework-4.6)  
+* [IEnumerable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable?view=netframework-4.6)  
+* [IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerable?view=netframework-4.6)
 
 #### Example
 

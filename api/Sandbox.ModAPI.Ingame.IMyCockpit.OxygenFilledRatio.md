@@ -10,7 +10,7 @@ Gets the current oxygen level of this cockpit, as a value between 0 (empty) and 
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 
 
 

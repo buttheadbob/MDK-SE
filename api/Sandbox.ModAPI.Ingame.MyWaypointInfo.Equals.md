@@ -10,7 +10,7 @@ Determines whether this coordinate is the same as another. Uses 0.0001 as the ep
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 
 
@@ -27,14 +27,14 @@ Determines whether this coordinate is the same as another. Uses 0.0001 as the ep
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 
 
 ### Parameters
 
 * [MyWaypointInfo](Sandbox.ModAPI.Ingame.MyWaypointInfo) other
-* [double](System.Double) epsilon
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) epsilon
 ### Summary
 
 ```csharp
@@ -45,10 +45,10 @@ Determines whether this coordinate is the same as another. Uses 0.0001 as the ep
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 
 
 ### Parameters
 
-* [object](System.Object) obj
+* [object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6) obj

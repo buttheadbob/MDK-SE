@@ -14,9 +14,9 @@ Creates a scaling Matrix.
 
 ### Parameters
 
-* [double](System.Double) xScale
-* [double](System.Double) yScale
-* [double](System.Double) zScale
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) xScale
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) yScale
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) zScale
 ### Summary
 
 ```csharp
@@ -27,9 +27,9 @@ Creates a scaling Matrix.
 
 ### Parameters
 
-* [double](System.Double) xScale
-* [double](System.Double) yScale
-* [double](System.Double) zScale
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) xScale
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) yScale
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) zScale
 * [MatrixD](VRageMath.MatrixD) result
 ### Summary
 
@@ -72,7 +72,7 @@ Creates a scaling Matrix.
 
 ### Parameters
 
-* [double](System.Double) scale
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) scale
 ### Summary
 
 ```csharp
@@ -83,5 +83,5 @@ Creates a scaling Matrix.
 
 ### Parameters
 
-* [double](System.Double) scale
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) scale
 * [MatrixD](VRageMath.MatrixD) result

@@ -8,5 +8,5 @@ public void AddImagesToSelection(List<T> ids, bool checkExistence)
 
 ### Parameters
 
-* [List<T>](System.Collections.Generic.List`1) ids
-* [bool](System.Boolean) checkExistence
+* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) ids
+* [bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) checkExistence

@@ -10,12 +10,12 @@ Returns the lesser of two values.
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 
 ### Parameters
 
-* [float](System.Single) value1
-* [float](System.Single) value2
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) value1
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) value2
 ### Summary
 
 ```csharp
@@ -26,12 +26,12 @@ Returns the lesser of two values.
 
 ### Returns
 
-[double](System.Double)
+[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
 
 ### Parameters
 
-* [double](System.Double) value1
-* [double](System.Double) value2
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) value1
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) value2
 ### Summary
 
 ```csharp
@@ -40,13 +40,13 @@ public float Min(float a, float b, float c)
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 
 ### Parameters
 
-* [float](System.Single) a
-* [float](System.Single) b
-* [float](System.Single) c
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) a
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) b
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) c
 ### Summary
 
 ```csharp
@@ -55,10 +55,10 @@ public double Min(double a, double b, double c)
 
 ### Returns
 
-[double](System.Double)
+[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
 
 ### Parameters
 
-* [double](System.Double) a
-* [double](System.Double) b
-* [double](System.Double) c
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) a
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) b
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) c

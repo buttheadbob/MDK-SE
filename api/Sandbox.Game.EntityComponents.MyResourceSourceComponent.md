@@ -9,7 +9,7 @@ public class MyResourceSourceComponent: MyResourceSourceComponentBase
 **Namespace:** [Sandbox.Game.EntityComponents](Sandbox.Game.EntityComponents)  
 **Assembly:** Sandbox.Game.dll
 
-**Inheritance: **MyEntityComponentBase ˃ [MyResourceSourceComponentBase](VRage.Game.Components.MyResourceSourceComponentBase)
+**Inheritance:** [MyEntityComponentBase](VRage.Game.Components.MyEntityComponentBase) ˃ [MyResourceSourceComponentBase](VRage.Game.Components.MyResourceSourceComponentBase)
 
 #### Example
 

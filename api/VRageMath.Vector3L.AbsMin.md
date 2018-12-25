@@ -10,5 +10,5 @@ Returns the component of the vector, whose absolute value is smallest of all the
 
 ### Returns
 
-[long](System.Int64)
+[long](https://docs.microsoft.com/en-us/dotnet/api/system.int64?view=netframework-4.6)
 

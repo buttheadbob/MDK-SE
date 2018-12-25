@@ -14,12 +14,12 @@ Builds a customized, orthogonal projection matrix.
 
 ### Parameters
 
-* [double](System.Double) left
-* [double](System.Double) right
-* [double](System.Double) bottom
-* [double](System.Double) top
-* [double](System.Double) zNearPlane
-* [double](System.Double) zFarPlane
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) left
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) right
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) bottom
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) top
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) zNearPlane
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) zFarPlane
 ### Summary
 
 ```csharp
@@ -30,10 +30,10 @@ Builds a customized, orthogonal projection matrix.
 
 ### Parameters
 
-* [double](System.Double) left
-* [double](System.Double) right
-* [double](System.Double) bottom
-* [double](System.Double) top
-* [double](System.Double) zNearPlane
-* [double](System.Double) zFarPlane
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) left
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) right
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) bottom
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) top
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) zNearPlane
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) zFarPlane
 * [MatrixD](VRageMath.MatrixD) result

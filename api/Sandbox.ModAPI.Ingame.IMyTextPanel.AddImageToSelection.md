@@ -8,5 +8,5 @@ public void AddImageToSelection(string id, bool checkExistence)
 
 ### Parameters
 
-* [string](System.String) id
-* [bool](System.Boolean) checkExistence
+* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) id
+* [bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) checkExistence

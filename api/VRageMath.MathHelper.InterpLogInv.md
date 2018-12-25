@@ -8,10 +8,10 @@ public float InterpLogInv(float value, float amount1, float amount2)
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 
 ### Parameters
 
-* [float](System.Single) value
-* [float](System.Single) amount1
-* [float](System.Single) amount2
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) value
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) amount1
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) amount2

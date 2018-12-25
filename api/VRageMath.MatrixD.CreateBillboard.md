@@ -15,7 +15,7 @@ public MatrixD CreateBillboard(Vector3D objectPosition, Vector3D cameraPosition,
 * [Vector3D](VRageMath.Vector3D) objectPosition
 * [Vector3D](VRageMath.Vector3D) cameraPosition
 * [Vector3D](VRageMath.Vector3D) cameraUpVector
-* [Nullable<T>](System.Nullable`1) cameraForwardVector
+* [Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) cameraForwardVector
 ### Summary
 
 ```csharp
@@ -27,5 +27,5 @@ public void CreateBillboard(ref Vector3D objectPosition, ref Vector3D cameraPo
 * [Vector3D](VRageMath.Vector3D) objectPosition
 * [Vector3D](VRageMath.Vector3D) cameraPosition
 * [Vector3D](VRageMath.Vector3D) cameraUpVector
-* [Nullable<T>](System.Nullable`1) cameraForwardVector
+* [Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) cameraForwardVector
 * [MatrixD](VRageMath.MatrixD) result

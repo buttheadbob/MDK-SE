@@ -12,4 +12,4 @@ public T FirstElement<T>(HashSet<T> hashset)
 
 ### Parameters
 
-* [HashSet<T>](System.Collections.Generic.HashSet`1) hashset
+* [HashSet<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.hashset?view=netframework-4.6) hashset

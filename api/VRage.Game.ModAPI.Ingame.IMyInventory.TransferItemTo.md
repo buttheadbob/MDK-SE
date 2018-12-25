@@ -8,12 +8,12 @@ public bool TransferItemTo(IMyInventory dst, int sourceItemIndex, Nullable<T> ta
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
 * [IMyInventory](VRage.Game.ModAPI.Ingame.IMyInventory) dst
-* [int](System.Int32) sourceItemIndex
-* [Nullable<T>](System.Nullable`1) targetItemIndex
-* [Nullable<T>](System.Nullable`1) stackIfPossible
-* [Nullable<T>](System.Nullable`1) amount
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) sourceItemIndex
+* [Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) targetItemIndex
+* [Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) stackIfPossible
+* [Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) amount

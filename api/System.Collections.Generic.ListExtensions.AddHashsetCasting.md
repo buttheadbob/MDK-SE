@@ -8,5 +8,5 @@ public void AddHashsetCasting<T1, T2>(List<T> list, HashSet<T> hashset)
 
 ### Parameters
 
-* [List<T>](System.Collections.Generic.List`1) list
-* [HashSet<T>](System.Collections.Generic.HashSet`1) hashset
+* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) list
+* [HashSet<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.hashset?view=netframework-4.6) hashset

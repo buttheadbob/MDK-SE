@@ -16,7 +16,7 @@ Performs a linear interpolation between two vectors.
 
 * [Vector3](VRageMath.Vector3) value1
 * [Vector3](VRageMath.Vector3) value2
-* [float](System.Single) amount
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) amount
 ### Summary
 
 ```csharp
@@ -29,5 +29,5 @@ Performs a linear interpolation between two vectors.
 
 * [Vector3](VRageMath.Vector3) value1
 * [Vector3](VRageMath.Vector3) value2
-* [float](System.Single) amount
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) amount
 * [Vector3](VRageMath.Vector3) result

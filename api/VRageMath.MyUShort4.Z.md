@@ -8,5 +8,5 @@ public ushort Z
 
 ### Returns
 
-[ushort](System.UInt16)
+[ushort](https://docs.microsoft.com/en-us/dotnet/api/system.uint16?view=netframework-4.6)
 

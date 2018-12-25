@@ -10,5 +10,5 @@ Gets the maximum range of the sensor in any direction.
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 

@@ -26,4 +26,4 @@ public Vector3 Round(Vector3 v, int numDecimals)
 ### Parameters
 
 * [Vector3](VRageMath.Vector3) v
-* [int](System.Int32) numDecimals
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) numDecimals

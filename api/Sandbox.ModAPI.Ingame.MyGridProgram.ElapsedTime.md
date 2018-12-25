@@ -10,5 +10,5 @@ Gets the amount of in-game time elapsed from the previous run.
 
 ### Returns
 
-[TimeSpan](System.TimeSpan)
+[TimeSpan](https://docs.microsoft.com/en-us/dotnet/api/system.timespan?view=netframework-4.6)
 

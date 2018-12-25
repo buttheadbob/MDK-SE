@@ -10,7 +10,7 @@ Checks whether the current BoundingBox2I intersects another BoundingBox2I.
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -23,7 +23,7 @@ public bool Intersects(ref BoundingBox2I box)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -39,4 +39,4 @@ Checks whether the current BoundingBox2I intersects another BoundingBox2I.
 ### Parameters
 
 * [BoundingBox2I](VRageMath.BoundingBox2I) box
-* [bool](System.Boolean) result
+* [bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) result

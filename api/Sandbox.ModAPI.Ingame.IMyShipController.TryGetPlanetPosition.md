@@ -10,7 +10,7 @@ Attempts to get the world position of the nearest planet. This method is only av
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 
 

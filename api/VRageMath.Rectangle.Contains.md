@@ -10,12 +10,12 @@ Determines whether this Rectangle contains a specified point represented by its 
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
-* [int](System.Int32) x
-* [int](System.Int32) y
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) x
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) y
 ### Summary
 
 ```csharp
@@ -26,7 +26,7 @@ Determines whether this Rectangle contains a specified Point.
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -42,7 +42,7 @@ Determines whether this Rectangle contains a specified Point.
 ### Parameters
 
 * [Point](VRageMath.Point) value
-* [bool](System.Boolean) result
+* [bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) result
 ### Summary
 
 ```csharp
@@ -53,7 +53,7 @@ Determines whether this Rectangle entirely contains a specified Rectangle.
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -69,4 +69,4 @@ Determines whether this Rectangle entirely contains a specified Rectangle.
 ### Parameters
 
 * [Rectangle](VRageMath.Rectangle) value
-* [bool](System.Boolean) result
+* [bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) result

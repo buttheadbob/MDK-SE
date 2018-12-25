@@ -10,7 +10,7 @@ Determines whether a given item type is allowed through the sorter, depending on
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 
 

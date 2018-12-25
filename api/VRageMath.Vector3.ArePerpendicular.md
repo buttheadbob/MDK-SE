@@ -8,7 +8,7 @@ public bool ArePerpendicular(ref Vector3 a, ref Vector3 b)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 

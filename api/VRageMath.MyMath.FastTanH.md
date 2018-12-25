@@ -10,8 +10,8 @@ Fast approximation of Hyperbolic tangent Max deviation is <3%
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 
 ### Parameters
 
-* [float](System.Single) x
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) x

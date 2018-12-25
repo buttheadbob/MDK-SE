@@ -10,10 +10,10 @@ Attempts to get this value as a [System.Boolean](https://docs.microsoft.com/en-u
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 
 
 ### Parameters
 
-* [bool](System.Boolean) defaultValue
+* [bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) defaultValue

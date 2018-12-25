@@ -8,12 +8,12 @@ public int Smooth(int newValue, int lastSmooth)
 
 ### Returns
 
-[int](System.Int32)
+[int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6)
 
 ### Parameters
 
-* [int](System.Int32) newValue
-* [int](System.Int32) lastSmooth
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) newValue
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) lastSmooth
 ### Summary
 
 ```csharp
@@ -22,9 +22,9 @@ public float Smooth(float newValue, float lastSmooth)
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 
 ### Parameters
 
-* [float](System.Single) newValue
-* [float](System.Single) lastSmooth
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) newValue
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) lastSmooth

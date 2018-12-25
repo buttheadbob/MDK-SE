@@ -10,10 +10,10 @@ Attempts to get this value as a [System.Char](https://docs.microsoft.com/en-us/d
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 `true`if the value could be understood as this data type;`false`otherwise
 
 ### Parameters
 
-* [char](System.Char) value
+* [char](https://docs.microsoft.com/en-us/dotnet/api/system.char?view=netframework-4.6) value

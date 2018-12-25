@@ -13,4 +13,4 @@ public Color Shade(Color c, float r)
 ### Parameters
 
 * [Color](VRageMath.Color) c
-* [float](System.Single) r
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) r

@@ -18,7 +18,7 @@ Performs a Catmull-Rom interpolation using the specified positions.
 * [Vector2](VRageMath.Vector2) value2
 * [Vector2](VRageMath.Vector2) value3
 * [Vector2](VRageMath.Vector2) value4
-* [float](System.Single) amount
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) amount
 ### Summary
 
 ```csharp
@@ -33,5 +33,5 @@ Performs a Catmull-Rom interpolation using the specified positions.
 * [Vector2](VRageMath.Vector2) value2
 * [Vector2](VRageMath.Vector2) value3
 * [Vector2](VRageMath.Vector2) value4
-* [float](System.Single) amount
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) amount
 * [Vector2](VRageMath.Vector2) result

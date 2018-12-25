@@ -10,5 +10,5 @@ Gets or sets the x-component of the vector.
 
 ### Returns
 
-[double](System.Double)
+[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
 

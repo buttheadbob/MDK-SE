@@ -14,9 +14,9 @@ Calculates color from vector
 
 ### Parameters
 
-* [byte](System.Byte) red
-* [byte](System.Byte) green
-* [byte](System.Byte) blue
+* [byte](https://docs.microsoft.com/en-us/dotnet/api/system.byte?view=netframework-4.6) red
+* [byte](https://docs.microsoft.com/en-us/dotnet/api/system.byte?view=netframework-4.6) green
+* [byte](https://docs.microsoft.com/en-us/dotnet/api/system.byte?view=netframework-4.6) blue
 ### Summary
 
 ```csharp
@@ -29,7 +29,7 @@ public Vector4 VectorFromColor(byte red, byte green, byte blue, byte alpha)
 
 ### Parameters
 
-* [byte](System.Byte) red
-* [byte](System.Byte) green
-* [byte](System.Byte) blue
-* [byte](System.Byte) alpha
+* [byte](https://docs.microsoft.com/en-us/dotnet/api/system.byte?view=netframework-4.6) red
+* [byte](https://docs.microsoft.com/en-us/dotnet/api/system.byte?view=netframework-4.6) green
+* [byte](https://docs.microsoft.com/en-us/dotnet/api/system.byte?view=netframework-4.6) blue
+* [byte](https://docs.microsoft.com/en-us/dotnet/api/system.byte?view=netframework-4.6) alpha

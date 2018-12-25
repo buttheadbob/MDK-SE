@@ -9,11 +9,11 @@ public class CurveKey: object, IEquatable<T>, IComparable<T>
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-**Inheritance: **[object](System.Object)
+**Inheritance:** [object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6)
 
 **Implements:**  
-* [IEquatable<T>](System.IEquatable`1)  
-* [IComparable<T>](System.IComparable`1)
+* [IEquatable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)  
+* [IComparable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.icomparable?view=netframework-4.6)
 
 #### Example
 

@@ -10,11 +10,11 @@ Returns value of specified property
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 property value as bool
 
 ### Parameters
 
 * [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock) block
-* [string](System.String) propertyId
+* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) propertyId

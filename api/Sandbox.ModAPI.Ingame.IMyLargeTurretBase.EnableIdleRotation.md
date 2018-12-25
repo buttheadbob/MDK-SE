@@ -10,5 +10,5 @@ enable/disable idle rotation for turret, this method is not synced, you need to 
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 

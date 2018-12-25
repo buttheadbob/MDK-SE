@@ -8,12 +8,12 @@ public bool WritePublicText(string value, bool append)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
-* [string](System.String) value
-* [bool](System.Boolean) append
+* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) value
+* [bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) append
 ### Summary
 
 ```csharp
@@ -22,9 +22,9 @@ public bool WritePublicText(StringBuilder value, bool append)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
-* [StringBuilder](System.Text.StringBuilder) value
-* [bool](System.Boolean) append
+* [StringBuilder](https://docs.microsoft.com/en-us/dotnet/api/system.text.stringbuilder?view=netframework-4.6) value
+* [bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) append

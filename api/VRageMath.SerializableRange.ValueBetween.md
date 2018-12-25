@@ -8,8 +8,8 @@ public bool ValueBetween(float value)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
-* [float](System.Single) value
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) value

@@ -14,7 +14,7 @@ Returns a matrix that can be used to rotate a set of vertices around the z-axis.
 
 ### Parameters
 
-* [double](System.Double) radians
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) radians
 ### Summary
 
 ```csharp
@@ -25,5 +25,5 @@ Populates data into a user-specified matrix that can be used to rotate a set of 
 
 ### Parameters
 
-* [double](System.Double) radians
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) radians
 * [MatrixD](VRageMath.MatrixD) result

@@ -10,5 +10,5 @@ Gets or sets whether this connector should throw out anything placed in its inve
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 

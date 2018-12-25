@@ -10,12 +10,12 @@ Performs a Hermite spline interpolation.
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 
 ### Parameters
 
-* [float](System.Single) value1
-* [float](System.Single) tangent1
-* [float](System.Single) value2
-* [float](System.Single) tangent2
-* [float](System.Single) amount
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) value1
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) tangent1
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) value2
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) tangent2
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) amount

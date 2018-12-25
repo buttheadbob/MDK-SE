@@ -12,7 +12,7 @@ Performs spherical linear interpolation of position and rotation and scale.
 
 * [Matrix](VRageMath.Matrix) matrix1
 * [Matrix](VRageMath.Matrix) matrix2
-* [float](System.Single) amount
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) amount
 * [Matrix](VRageMath.Matrix) result
 ### Summary
 
@@ -26,7 +26,7 @@ Performs spherical linear interpolation of position and rotation and scale.
 
 * [Matrix](VRageMath.Matrix) matrix1
 * [Matrix](VRageMath.Matrix) matrix2
-* [float](System.Single) amount
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) amount
 * [Matrix](VRageMath.Matrix) result
 ### Summary
 
@@ -44,4 +44,4 @@ Performs spherical linear interpolation of position and rotation and scale.
 
 * [Matrix](VRageMath.Matrix) matrix1
 * [Matrix](VRageMath.Matrix) matrix2
-* [float](System.Single) amount
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) amount

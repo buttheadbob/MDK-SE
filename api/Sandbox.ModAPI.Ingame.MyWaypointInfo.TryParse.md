@@ -12,11 +12,11 @@ A GPS coordinate has the format GPS:Name:X:Y:Z:
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 
 
 ### Parameters
 
-* [string](System.String) text
+* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) text
 * [MyWaypointInfo](Sandbox.ModAPI.Ingame.MyWaypointInfo) gps

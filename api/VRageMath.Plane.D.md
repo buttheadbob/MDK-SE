@@ -10,5 +10,5 @@ The distance of the Plane along its normal from the origin. Note: Be careful! Th
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 

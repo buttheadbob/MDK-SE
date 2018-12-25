@@ -10,7 +10,7 @@ Calculates the dot product of two vectors. If the two vectors are unit vectors, 
 
 ### Returns
 
-[double](System.Double)
+[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
 
 ### Parameters
 
@@ -24,7 +24,7 @@ public double Dot(Vector3D vector1, Vector3 vector2)
 
 ### Returns
 
-[double](System.Double)
+[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
 
 ### Parameters
 
@@ -42,7 +42,7 @@ Calculates the dot product of two vectors and writes the result to a user-specif
 
 * [Vector3D](VRageMath.Vector3D) vector1
 * [Vector3D](VRageMath.Vector3D) vector2
-* [double](System.Double) result
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) result
 ### Summary
 
 ```csharp
@@ -53,7 +53,7 @@ public void Dot(ref Vector3D vector1, ref Vector3 vector2, ref double result)
 
 * [Vector3D](VRageMath.Vector3D) vector1
 * [Vector3](VRageMath.Vector3) vector2
-* [double](System.Double) result
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) result
 ### Summary
 
 ```csharp
@@ -64,7 +64,7 @@ public void Dot(ref Vector3 vector1, ref Vector3D vector2, ref double result)
 
 * [Vector3](VRageMath.Vector3) vector1
 * [Vector3D](VRageMath.Vector3D) vector2
-* [double](System.Double) result
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) result
 ### Summary
 
 ```csharp
@@ -73,7 +73,7 @@ public double Dot(Vector3D v)
 
 ### Returns
 
-[double](System.Double)
+[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
 
 ### Parameters
 
@@ -86,7 +86,7 @@ public double Dot(Vector3 v)
 
 ### Returns
 
-[double](System.Double)
+[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
 
 ### Parameters
 
@@ -99,7 +99,7 @@ public double Dot(ref Vector3D v)
 
 ### Returns
 
-[double](System.Double)
+[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
 
 ### Parameters
 

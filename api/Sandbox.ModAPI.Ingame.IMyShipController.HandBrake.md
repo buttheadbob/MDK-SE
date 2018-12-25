@@ -10,5 +10,5 @@ Gets or sets the current state of the handbrake.
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 

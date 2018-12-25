@@ -8,7 +8,7 @@ public bool IntersectsTriangle(Vector3I v0, Vector3I v1, Vector3I v2)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -23,7 +23,7 @@ public bool IntersectsTriangle(ref Vector3I v0, ref Vector3I v1, ref Vector3I
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 

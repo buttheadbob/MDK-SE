@@ -8,11 +8,11 @@ public int GetNearestBiggerPowerOfTwo(int v)
 
 ### Returns
 
-[int](System.Int32)
+[int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6)
 
 ### Parameters
 
-* [int](System.Int32) v
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) v
 ### Summary
 
 ```csharp
@@ -21,11 +21,11 @@ public uint GetNearestBiggerPowerOfTwo(uint v)
 
 ### Returns
 
-[uint](System.UInt32)
+[uint](https://docs.microsoft.com/en-us/dotnet/api/system.uint32?view=netframework-4.6)
 
 ### Parameters
 
-* [uint](System.UInt32) v
+* [uint](https://docs.microsoft.com/en-us/dotnet/api/system.uint32?view=netframework-4.6) v
 ### Summary
 
 ```csharp
@@ -36,13 +36,13 @@ Returns nearest bigger power of two
 
 ### Returns
 
-[int](System.Int32)
+[int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6)
 
 
 
 ### Parameters
 
-* [float](System.Single) f
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) f
 ### Summary
 
 ```csharp
@@ -51,8 +51,8 @@ public int GetNearestBiggerPowerOfTwo(double f)
 
 ### Returns
 
-[int](System.Int32)
+[int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6)
 
 ### Parameters
 
-* [double](System.Double) f
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) f

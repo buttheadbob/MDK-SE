@@ -53,8 +53,8 @@ Transforms a specified range in an array of Vector2 vector normals by a specifie
 ### Parameters
 
 * [Vector2[]](VRageMath.Vector2[]) sourceArray
-* [int](System.Int32) sourceIndex
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) sourceIndex
 * [Matrix](VRageMath.Matrix) matrix
 * [Vector2[]](VRageMath.Vector2[]) destinationArray
-* [int](System.Int32) destinationIndex
-* [int](System.Int32) length
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) destinationIndex
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) length

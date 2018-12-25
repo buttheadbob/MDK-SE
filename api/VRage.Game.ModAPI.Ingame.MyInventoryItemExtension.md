@@ -9,7 +9,7 @@ public abstract sealed class MyInventoryItemExtension: object
 **Namespace:** [VRage.Game.ModAPI.Ingame](VRage.Game.ModAPI.Ingame)  
 **Assembly:** VRage.Game.dll
 
-**Inheritance: **[object](System.Object)
+**Inheritance:** [object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6)
 
 #### Example
 

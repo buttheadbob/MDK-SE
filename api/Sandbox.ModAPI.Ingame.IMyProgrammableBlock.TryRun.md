@@ -10,10 +10,10 @@ Attempts to run this programmable block using the given argument. An already run
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 `true`if the action was applied,`false`otherwise
 
 ### Parameters
 
-* [string](System.String) argument
+* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) argument

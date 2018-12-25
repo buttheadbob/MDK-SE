@@ -8,4 +8,4 @@ public virtual void Init(MyComponentDefinitionBase definition)
 
 ### Parameters
 
-* MyComponentDefinitionBase definition
+* [MyComponentDefinitionBase](VRage.Game.MyComponentDefinitionBase) definition

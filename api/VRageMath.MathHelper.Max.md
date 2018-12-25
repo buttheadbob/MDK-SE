@@ -10,12 +10,12 @@ Returns the greater of two values.
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 
 ### Parameters
 
-* [float](System.Single) value1
-* [float](System.Single) value2
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) value1
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) value2
 ### Summary
 
 ```csharp
@@ -26,12 +26,12 @@ Returns the greater of two values.
 
 ### Returns
 
-[double](System.Double)
+[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
 
 ### Parameters
 
-* [double](System.Double) value1
-* [double](System.Double) value2
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) value1
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) value2
 ### Summary
 
 ```csharp
@@ -40,13 +40,13 @@ public float Max(float a, float b, float c)
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 
 ### Parameters
 
-* [float](System.Single) a
-* [float](System.Single) b
-* [float](System.Single) c
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) a
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) b
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) c
 ### Summary
 
 ```csharp
@@ -55,13 +55,13 @@ public int Max(int a, int b, int c)
 
 ### Returns
 
-[int](System.Int32)
+[int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6)
 
 ### Parameters
 
-* [int](System.Int32) a
-* [int](System.Int32) b
-* [int](System.Int32) c
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) a
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) b
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) c
 ### Summary
 
 ```csharp
@@ -70,10 +70,10 @@ public double Max(double a, double b, double c)
 
 ### Returns
 
-[double](System.Double)
+[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
 
 ### Parameters
 
-* [double](System.Double) a
-* [double](System.Double) b
-* [double](System.Double) c
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) a
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) b
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) c

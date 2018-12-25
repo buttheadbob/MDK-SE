@@ -8,8 +8,8 @@ public virtual bool Equals(object obj)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
-* [object](System.Object) obj
+* [object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6) obj

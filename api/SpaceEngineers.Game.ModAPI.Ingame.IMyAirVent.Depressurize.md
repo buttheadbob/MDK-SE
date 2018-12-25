@@ -10,5 +10,5 @@ Vent mode false - pressurize (filling room) true - depressurize (sucking air out
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 

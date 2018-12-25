@@ -44,7 +44,7 @@ Multiplies a vector by a scalar value.
 ### Parameters
 
 * [Vector2D](VRageMath.Vector2D) value1
-* [double](System.Double) scaleFactor
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) scaleFactor
 ### Summary
 
 ```csharp
@@ -56,5 +56,5 @@ Multiplies a vector by a scalar value.
 ### Parameters
 
 * [Vector2D](VRageMath.Vector2D) value1
-* [double](System.Double) scaleFactor
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) scaleFactor
 * [Vector2D](VRageMath.Vector2D) result

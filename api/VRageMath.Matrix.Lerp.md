@@ -16,7 +16,7 @@ Linearly interpolates between the corresponding values of two matrices.
 
 * [Matrix](VRageMath.Matrix) matrix1
 * [Matrix](VRageMath.Matrix) matrix2
-* [float](System.Single) amount
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) amount
 ### Summary
 
 ```csharp
@@ -29,5 +29,5 @@ Linearly interpolates between the corresponding values of two matrices.
 
 * [Matrix](VRageMath.Matrix) matrix1
 * [Matrix](VRageMath.Matrix) matrix2
-* [float](System.Single) amount
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) amount
 * [Matrix](VRageMath.Matrix) result

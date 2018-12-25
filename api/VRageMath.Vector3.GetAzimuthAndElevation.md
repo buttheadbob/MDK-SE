@@ -9,5 +9,5 @@ public void GetAzimuthAndElevation(Vector3 v, ref float azimuth, ref float ele
 ### Parameters
 
 * [Vector3](VRageMath.Vector3) v
-* [float](System.Single) azimuth
-* [float](System.Single) elevation
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) azimuth
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) elevation

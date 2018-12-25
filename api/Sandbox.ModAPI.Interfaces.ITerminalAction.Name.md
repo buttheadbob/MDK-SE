@@ -8,5 +8,5 @@ public StringBuilder Name { get; }
 
 ### Returns
 
-[StringBuilder](System.Text.StringBuilder)
+[StringBuilder](https://docs.microsoft.com/en-us/dotnet/api/system.text.stringbuilder?view=netframework-4.6)
 

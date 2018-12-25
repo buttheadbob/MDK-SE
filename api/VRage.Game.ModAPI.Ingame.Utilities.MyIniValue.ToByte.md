@@ -10,10 +10,10 @@ Attempts to get this value as a [System.Byte](https://docs.microsoft.com/en-us/d
 
 ### Returns
 
-[byte](System.Byte)
+[byte](https://docs.microsoft.com/en-us/dotnet/api/system.byte?view=netframework-4.6)
 
 
 
 ### Parameters
 
-* [byte](System.Byte) defaultValue
+* [byte](https://docs.microsoft.com/en-us/dotnet/api/system.byte?view=netframework-4.6) defaultValue

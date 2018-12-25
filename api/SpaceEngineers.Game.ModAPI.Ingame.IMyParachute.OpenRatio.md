@@ -10,5 +10,5 @@ The current, accurate ratio of the door's current state where 0 is fully closed 
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 

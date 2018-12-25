@@ -10,7 +10,7 @@ Gets the nearest player's position. Will only work if the remote control belongs
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 
 

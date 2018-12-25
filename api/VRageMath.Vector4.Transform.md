@@ -198,11 +198,11 @@ Transforms a specified range in an array of Vector4s by a specified Matrix into 
 ### Parameters
 
 * [Vector4[]](VRageMath.Vector4[]) sourceArray
-* [int](System.Int32) sourceIndex
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) sourceIndex
 * [Matrix](VRageMath.Matrix) matrix
 * [Vector4[]](VRageMath.Vector4[]) destinationArray
-* [int](System.Int32) destinationIndex
-* [int](System.Int32) length
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) destinationIndex
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) length
 ### Summary
 
 ```csharp
@@ -227,8 +227,8 @@ Transforms a specified range in an array of Vector4s by a specified Quaternion i
 ### Parameters
 
 * [Vector4[]](VRageMath.Vector4[]) sourceArray
-* [int](System.Int32) sourceIndex
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) sourceIndex
 * [Quaternion](VRageMath.Quaternion) rotation
 * [Vector4[]](VRageMath.Vector4[]) destinationArray
-* [int](System.Int32) destinationIndex
-* [int](System.Int32) length
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) destinationIndex
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) length

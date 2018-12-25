@@ -9,8 +9,8 @@ public void OverlapAllLineSegment<T>(ref LineD line, List<T> elementsList, bool
 ### Parameters
 
 * [LineD](VRageMath.LineD) line
-* [List<T>](System.Collections.Generic.List`1) elementsList
-* [bool](System.Boolean) clear
+* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) elementsList
+* [bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) clear
 ### Summary
 
 ```csharp
@@ -20,6 +20,6 @@ public void OverlapAllLineSegment<T>(ref LineD line, List<T> elementsList, uint
 ### Parameters
 
 * [LineD](VRageMath.LineD) line
-* [List<T>](System.Collections.Generic.List`1) elementsList
-* [uint](System.UInt32) requiredFlags
-* [bool](System.Boolean) clear
+* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) elementsList
+* [uint](https://docs.microsoft.com/en-us/dotnet/api/system.uint32?view=netframework-4.6) requiredFlags
+* [bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) clear

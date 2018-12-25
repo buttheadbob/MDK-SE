@@ -10,7 +10,7 @@ Compares this instance to another CurveKey and returns an indication of their re
 
 ### Returns
 
-[int](System.Int32)
+[int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6)
 
 ### Parameters
 

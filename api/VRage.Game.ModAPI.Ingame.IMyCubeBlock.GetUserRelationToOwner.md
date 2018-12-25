@@ -12,4 +12,4 @@ public MyRelationsBetweenPlayerAndBlock GetUserRelationToOwner(long playerId)
 
 ### Parameters
 
-* [long](System.Int64) playerId
+* [long](https://docs.microsoft.com/en-us/dotnet/api/system.int64?view=netframework-4.6) playerId

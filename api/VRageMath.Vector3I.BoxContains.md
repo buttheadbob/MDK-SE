@@ -8,7 +8,7 @@ public bool BoxContains(Vector3I boxMin, Vector3I boxMax, Vector3I pt)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -23,7 +23,7 @@ public bool BoxContains(ref Vector3I boxMin, ref Vector3I boxMax, ref Vector3
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 

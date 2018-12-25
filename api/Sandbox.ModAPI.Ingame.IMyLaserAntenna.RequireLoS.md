@@ -10,5 +10,5 @@ Determines whether this particular antenna requires line of sight to function.
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 

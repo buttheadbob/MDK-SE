@@ -10,10 +10,10 @@ Attempts to get this value as a [System.Single](https://docs.microsoft.com/en-us
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 `true`if the value could be understood as this data type;`false`otherwise
 
 ### Parameters
 
-* [float](System.Single) value
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) value

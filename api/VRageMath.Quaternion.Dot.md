@@ -10,7 +10,7 @@ Calculates the dot product of two Quaternions.
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 
 ### Parameters
 
@@ -28,4 +28,4 @@ Calculates the dot product of two Quaternions.
 
 * [Quaternion](VRageMath.Quaternion) quaternion1
 * [Quaternion](VRageMath.Quaternion) quaternion2
-* [float](System.Single) result
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) result

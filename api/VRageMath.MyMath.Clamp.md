@@ -8,10 +8,10 @@ public float Clamp(float val, float min, float max)
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 
 ### Parameters
 
-* [float](System.Single) val
-* [float](System.Single) min
-* [float](System.Single) max
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) val
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) min
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) max

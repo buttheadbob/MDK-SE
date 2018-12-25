@@ -44,7 +44,7 @@ Divides a vector by a scalar value.
 ### Parameters
 
 * [Vector4](VRageMath.Vector4) value1
-* [float](System.Single) divider
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) divider
 ### Summary
 
 ```csharp
@@ -56,5 +56,5 @@ Divides a vector by a scalar value.
 ### Parameters
 
 * [Vector4](VRageMath.Vector4) value1
-* [float](System.Single) divider
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) divider
 * [Vector4](VRageMath.Vector4) result

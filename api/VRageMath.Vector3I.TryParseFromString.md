@@ -8,9 +8,9 @@ public bool TryParseFromString(string p, ref Vector3I vec)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
-* [string](System.String) p
+* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) p
 * [Vector3I](VRageMath.Vector3I) vec

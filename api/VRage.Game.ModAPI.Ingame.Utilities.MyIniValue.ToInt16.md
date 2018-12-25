@@ -10,10 +10,10 @@ Attempts to get this value as a [System.Int16](https://docs.microsoft.com/en-us/
 
 ### Returns
 
-[short](System.Int16)
+[short](https://docs.microsoft.com/en-us/dotnet/api/system.int16?view=netframework-4.6)
 
 
 
 ### Parameters
 
-* [short](System.Int16) defaultValue
+* [short](https://docs.microsoft.com/en-us/dotnet/api/system.int16?view=netframework-4.6) defaultValue

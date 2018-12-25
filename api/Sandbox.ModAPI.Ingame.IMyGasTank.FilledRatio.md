@@ -10,5 +10,5 @@ Gets the current fill level of this tank as a value between 0 (empty) and 1 (ful
 
 ### Returns
 
-[double](System.Double)
+[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
 

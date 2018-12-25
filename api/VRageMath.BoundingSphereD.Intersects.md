@@ -10,7 +10,7 @@ Checks whether the current BoundingSphereD intersects with a specified BoundingB
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -26,7 +26,7 @@ Checks whether the current BoundingSphereD intersects a BoundingBoxD.
 ### Parameters
 
 * [BoundingBoxD](VRageMath.BoundingBoxD) box
-* [bool](System.Boolean) result
+* [bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) result
 ### Summary
 
 ```csharp
@@ -35,7 +35,7 @@ public Nullable<T> Intersects(RayD ray)
 
 ### Returns
 
-[Nullable<T>](System.Nullable`1)
+[Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
 
 ### Parameters
 
@@ -50,7 +50,7 @@ Checks whether the current BoundingSphereD intersects with a specified BoundingF
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -65,7 +65,7 @@ Checks whether the current BoundingSphereD intersects with a specified BoundingS
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -81,4 +81,4 @@ Checks whether the current BoundingSphereD intersects another BoundingSphereD.
 ### Parameters
 
 * [BoundingSphereD](VRageMath.BoundingSphereD) sphere
-* [bool](System.Boolean) result
+* [bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) result

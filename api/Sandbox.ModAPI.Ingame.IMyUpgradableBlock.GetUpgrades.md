@@ -8,4 +8,4 @@ public void GetUpgrades(ref Dictionary<TKey, TValue> upgrades)
 
 ### Parameters
 
-* [Dictionary<TKey, TValue>](System.Collections.Generic.Dictionary`2) upgrades
+* [Dictionary<TKey, TValue>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary?view=netframework-4.6) upgrades

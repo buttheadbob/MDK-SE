@@ -12,4 +12,4 @@ public IMyTerminalBlock GetBlockWithId(long id)
 
 ### Parameters
 
-* [long](System.Int64) id
+* [long](https://docs.microsoft.com/en-us/dotnet/api/system.int64?view=netframework-4.6) id

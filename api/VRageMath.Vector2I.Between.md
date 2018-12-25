@@ -8,7 +8,7 @@ public bool Between(ref Vector2I start, ref Vector2I end)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 

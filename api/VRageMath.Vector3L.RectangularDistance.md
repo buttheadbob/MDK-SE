@@ -10,7 +10,7 @@ Calculates rectangular distance. It's how many sectors you have to travel to get
 
 ### Returns
 
-[long](System.Int64)
+[long](https://docs.microsoft.com/en-us/dotnet/api/system.int64?view=netframework-4.6)
 
 ### Parameters
 

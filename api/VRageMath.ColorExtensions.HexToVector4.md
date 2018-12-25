@@ -12,4 +12,4 @@ public Vector4 HexToVector4(string hex)
 
 ### Parameters
 
-* [string](System.String) hex
+* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) hex

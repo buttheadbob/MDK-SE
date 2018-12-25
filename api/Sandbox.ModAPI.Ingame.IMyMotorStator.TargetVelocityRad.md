@@ -10,5 +10,5 @@ Gets or sets the desired velocity of the rotor in radians/second
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 

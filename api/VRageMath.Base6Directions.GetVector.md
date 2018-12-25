@@ -12,7 +12,7 @@ public Vector3 GetVector(int direction)
 
 ### Parameters
 
-* [int](System.Int32) direction
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) direction
 ### Summary
 
 ```csharp

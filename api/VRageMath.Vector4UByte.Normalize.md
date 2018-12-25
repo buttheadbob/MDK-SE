@@ -15,4 +15,4 @@ Normalizes Vector3 into Vector4UByte, scales vector from (-range, range) to (0, 
 ### Parameters
 
 * [Vector3](VRageMath.Vector3) vec
-* [float](System.Single) range
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) range

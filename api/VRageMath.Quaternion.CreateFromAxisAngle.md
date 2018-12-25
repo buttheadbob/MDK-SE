@@ -15,7 +15,7 @@ Creates a Quaternion from a vector and an angle to rotate about the vector.
 ### Parameters
 
 * [Vector3](VRageMath.Vector3) axis
-* [float](System.Single) angle
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) angle
 ### Summary
 
 ```csharp
@@ -27,5 +27,5 @@ Creates a Quaternion from a vector and an angle to rotate about the vector.
 ### Parameters
 
 * [Vector3](VRageMath.Vector3) axis
-* [float](System.Single) angle
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) angle
 * [Quaternion](VRageMath.Quaternion) result

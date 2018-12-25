@@ -10,5 +10,5 @@ True if block is able to do its work depening on block type (is functional, powe
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 

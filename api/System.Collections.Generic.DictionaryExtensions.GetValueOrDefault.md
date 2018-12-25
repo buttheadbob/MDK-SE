@@ -12,7 +12,7 @@ public V GetValueOrDefault<K, V>(Dictionary<TKey, TValue> dictionary, K key)
 
 ### Parameters
 
-* [Dictionary<TKey, TValue>](System.Collections.Generic.Dictionary`2) dictionary
+* [Dictionary<TKey, TValue>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary?view=netframework-4.6) dictionary
 * [K]() key
 ### Summary
 
@@ -26,7 +26,7 @@ public V GetValueOrDefault<K, V>(Dictionary<TKey, TValue> dictionary, K key, V d
 
 ### Parameters
 
-* [Dictionary<TKey, TValue>](System.Collections.Generic.Dictionary`2) dictionary
+* [Dictionary<TKey, TValue>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary?view=netframework-4.6) dictionary
 * [K]() key
 * [V]() defaultValue
 ### Summary
@@ -41,6 +41,6 @@ public V GetValueOrDefault<K, V>(ConcurrentDictionary<TKey, TValue> dictionary, 
 
 ### Parameters
 
-* [ConcurrentDictionary<TKey, TValue>](System.Collections.Concurrent.ConcurrentDictionary`2) dictionary
+* [ConcurrentDictionary<TKey, TValue>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.concurrent.concurrentdictionary?view=netframework-4.6) dictionary
 * [K]() key
 * [V]() defaultValue

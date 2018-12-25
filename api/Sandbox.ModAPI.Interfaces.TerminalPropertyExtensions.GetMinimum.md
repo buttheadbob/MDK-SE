@@ -13,4 +13,4 @@ public T GetMinimum<T>(IMyTerminalBlock block, string propertyId)
 ### Parameters
 
 * [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock) block
-* [string](System.String) propertyId
+* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) propertyId

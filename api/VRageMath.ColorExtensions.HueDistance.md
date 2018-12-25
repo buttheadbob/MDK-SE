@@ -8,12 +8,12 @@ public float HueDistance(Color color, float hue)
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 
 ### Parameters
 
 * [Color](VRageMath.Color) color
-* [float](System.Single) hue
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) hue
 ### Summary
 
 ```csharp
@@ -22,7 +22,7 @@ public float HueDistance(Color color, Color otherColor)
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 
 ### Parameters
 

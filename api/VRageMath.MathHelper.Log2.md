@@ -8,11 +8,11 @@ public int Log2(int n)
 
 ### Returns
 
-[int](System.Int32)
+[int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6)
 
 ### Parameters
 
-* [int](System.Int32) n
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) n
 ### Summary
 
 ```csharp
@@ -21,8 +21,8 @@ public int Log2(uint n)
 
 ### Returns
 
-[int](System.Int32)
+[int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6)
 
 ### Parameters
 
-* [uint](System.UInt32) n
+* [uint](https://docs.microsoft.com/en-us/dotnet/api/system.uint32?view=netframework-4.6) n

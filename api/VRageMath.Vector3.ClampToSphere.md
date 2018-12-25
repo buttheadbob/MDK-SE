@@ -13,7 +13,7 @@ public Vector3 ClampToSphere(Vector3 vector, float radius)
 ### Parameters
 
 * [Vector3](VRageMath.Vector3) vector
-* [float](System.Single) radius
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) radius
 ### Summary
 
 ```csharp
@@ -23,4 +23,4 @@ public void ClampToSphere(ref Vector3 vector, float radius)
 ### Parameters
 
 * [Vector3](VRageMath.Vector3) vector
-* [float](System.Single) radius
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) radius

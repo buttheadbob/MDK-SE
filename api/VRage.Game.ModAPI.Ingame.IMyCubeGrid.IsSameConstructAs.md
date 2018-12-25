@@ -12,7 +12,7 @@ Be aware that using merge blocks combines grids into one, so this function will 
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 
 

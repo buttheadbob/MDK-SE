@@ -11,5 +11,5 @@ Set bool value of property
 ### Parameters
 
 * [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock) block
-* [string](System.String) propertyId
+* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) propertyId
 * [Color](VRageMath.Color) value

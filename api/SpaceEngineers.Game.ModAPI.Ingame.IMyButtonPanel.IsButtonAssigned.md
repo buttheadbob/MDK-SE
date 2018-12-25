@@ -10,10 +10,10 @@ Gets if the specified button is assigned an action.
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 
 
 ### Parameters
 
-* [int](System.Int32) index
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) index

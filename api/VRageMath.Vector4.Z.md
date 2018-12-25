@@ -10,5 +10,5 @@ Gets or sets the z-component of the vector.
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 

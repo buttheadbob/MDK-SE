@@ -8,7 +8,7 @@ public float TriangleArea(Vector3 v1, Vector3 v2, Vector3 v3)
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 
 ### Parameters
 
@@ -23,7 +23,7 @@ public float TriangleArea(ref Vector3 v1, ref Vector3 v2, ref Vector3 v3)
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 
 ### Parameters
 

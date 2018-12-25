@@ -8,7 +8,7 @@ public bool IsValid(Matrix matrix)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -21,7 +21,7 @@ public bool IsValid(MatrixD matrix)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -34,7 +34,7 @@ public bool IsValid(Vector3 vec)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -47,7 +47,7 @@ public bool IsValid(Vector3D vec)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -60,7 +60,7 @@ public bool IsValid(Vector2 vec)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -73,11 +73,11 @@ public bool IsValid(float f)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
-* [float](System.Single) f
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) f
 ### Summary
 
 ```csharp
@@ -86,11 +86,11 @@ public bool IsValid(double f)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
-* [double](System.Double) f
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) f
 ### Summary
 
 ```csharp
@@ -99,11 +99,11 @@ public bool IsValid(Nullable<T> vec)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
-* [Nullable<T>](System.Nullable`1) vec
+* [Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) vec
 ### Summary
 
 ```csharp
@@ -112,7 +112,7 @@ public bool IsValid(Quaternion q)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 

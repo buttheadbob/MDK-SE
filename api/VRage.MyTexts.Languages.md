@@ -8,5 +8,5 @@ public DictionaryReader<K, V> Languages { get; }
 
 ### Returns
 
-DictionaryReader<K, V>
+[DictionaryReader<K, V>](VRage.Collections.DictionaryReader`2)
 

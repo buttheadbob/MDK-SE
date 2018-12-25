@@ -12,4 +12,4 @@ public BoundingBox CreateFromPoints(IEnumerable<T> points)
 
 ### Parameters
 
-* [IEnumerable<T>](System.Collections.Generic.IEnumerable`1) points
+* [IEnumerable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable?view=netframework-4.6) points

@@ -8,10 +8,10 @@ public StringBuilder AppendFormat(StringBuilder stringBuilder, MyStringId textEn
 
 ### Returns
 
-[StringBuilder](System.Text.StringBuilder)
+[StringBuilder](https://docs.microsoft.com/en-us/dotnet/api/system.text.stringbuilder?view=netframework-4.6)
 
 ### Parameters
 
-* [StringBuilder](System.Text.StringBuilder) stringBuilder
-* MyStringId textEnum
-* [object](System.Object) arg0
+* [StringBuilder](https://docs.microsoft.com/en-us/dotnet/api/system.text.stringbuilder?view=netframework-4.6) stringBuilder
+* [MyStringId](VRage.Utils.MyStringId) textEnum
+* [object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6) arg0

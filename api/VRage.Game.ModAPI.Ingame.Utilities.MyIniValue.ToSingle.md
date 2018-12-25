@@ -10,10 +10,10 @@ Attempts to get this value as a [System.Single](https://docs.microsoft.com/en-us
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 
 
 
 ### Parameters
 
-* [float](System.Single) defaultValue
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) defaultValue

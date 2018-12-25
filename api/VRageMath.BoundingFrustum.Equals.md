@@ -10,7 +10,7 @@ Determines whether the specified BoundingFrustum is equal to the current Boundin
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -25,8 +25,8 @@ Determines whether the specified Object is equal to the BoundingFrustum.
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
-* [object](System.Object) obj
+* [object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6) obj

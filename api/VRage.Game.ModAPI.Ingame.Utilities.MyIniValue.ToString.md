@@ -10,7 +10,7 @@ Attempts to get this value as a [System.String](https://docs.microsoft.com/en-us
 
 ### Returns
 
-[string](System.String)
+[string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6)
 
 
 
@@ -24,10 +24,10 @@ Attempts to get this value as a [System.String](https://docs.microsoft.com/en-us
 
 ### Returns
 
-[string](System.String)
+[string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6)
 
 
 
 ### Parameters
 
-* [string](System.String) defaultValue
+* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) defaultValue

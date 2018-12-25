@@ -10,7 +10,7 @@ Determines whether the specified Object is equal to the Vector3.
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -23,12 +23,12 @@ public bool Equals(Vector3D other, double epsilon)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
 * [Vector3D](VRageMath.Vector3D) other
-* [double](System.Double) epsilon
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) epsilon
 ### Summary
 
 ```csharp
@@ -39,8 +39,8 @@ Returns a value that indicates whether the current instance is equal to a specif
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
-* [object](System.Object) obj
+* [object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6) obj

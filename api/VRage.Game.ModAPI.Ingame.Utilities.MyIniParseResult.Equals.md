@@ -10,7 +10,7 @@ Compares this [MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseRe
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 
 
@@ -27,10 +27,10 @@ Compares this [MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseRe
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 
 
 ### Parameters
 
-* [object](System.Object) obj
+* [object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6) obj

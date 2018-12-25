@@ -14,10 +14,10 @@ Builds an orthogonal projection matrix.
 
 ### Parameters
 
-* [double](System.Double) width
-* [double](System.Double) height
-* [double](System.Double) zNearPlane
-* [double](System.Double) zFarPlane
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) width
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) height
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) zNearPlane
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) zFarPlane
 ### Summary
 
 ```csharp
@@ -28,8 +28,8 @@ Builds an orthogonal projection matrix.
 
 ### Parameters
 
-* [double](System.Double) width
-* [double](System.Double) height
-* [double](System.Double) zNearPlane
-* [double](System.Double) zFarPlane
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) width
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) height
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) zNearPlane
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) zFarPlane
 * [MatrixD](VRageMath.MatrixD) result

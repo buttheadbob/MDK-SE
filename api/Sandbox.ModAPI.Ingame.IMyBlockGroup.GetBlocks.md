@@ -8,5 +8,5 @@ public void GetBlocks(List<T> blocks, Func<T, TResult> collect)
 
 ### Parameters
 
-* [List<T>](System.Collections.Generic.List`1) blocks
-* [Func<T, TResult>](System.Func`2) collect
+* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) blocks
+* [Func<T, TResult>](https://docs.microsoft.com/en-us/dotnet/api/system.func?view=netframework-4.6) collect

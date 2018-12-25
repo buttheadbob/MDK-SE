@@ -10,13 +10,13 @@ Checks if the camera can scan the given distance.
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 
 
 ### Parameters
 
-* [double](System.Double) distance
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) distance
 ### Summary
 
 ```csharp
@@ -27,13 +27,13 @@ Checks if the camera can scan to the given direction and distance.
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 
 
 ### Parameters
 
-* [double](System.Double) distance
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) distance
 * [Vector3D](VRageMath.Vector3D) direction
 ### Summary
 
@@ -45,7 +45,7 @@ Checks if the camera can scan to the given target
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 
 

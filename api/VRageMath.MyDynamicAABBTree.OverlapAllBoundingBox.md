@@ -9,6 +9,6 @@ public void OverlapAllBoundingBox<T>(ref BoundingBox bbox, List<T> elementsList
 ### Parameters
 
 * [BoundingBox](VRageMath.BoundingBox) bbox
-* [List<T>](System.Collections.Generic.List`1) elementsList
-* [uint](System.UInt32) requiredFlags
-* [bool](System.Boolean) clear
+* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) elementsList
+* [uint](https://docs.microsoft.com/en-us/dotnet/api/system.uint32?view=netframework-4.6) requiredFlags
+* [bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) clear

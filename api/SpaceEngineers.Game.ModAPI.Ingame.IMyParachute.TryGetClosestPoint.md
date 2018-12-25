@@ -8,8 +8,8 @@ public bool TryGetClosestPoint(ref Nullable<T> closestPoint)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
-* [Nullable<T>](System.Nullable`1) closestPoint
+* [Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) closestPoint

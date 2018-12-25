@@ -12,7 +12,7 @@ public BoundingBoxD Inflate(double size)
 
 ### Parameters
 
-* [double](System.Double) size
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) size
 ### Summary
 
 ```csharp

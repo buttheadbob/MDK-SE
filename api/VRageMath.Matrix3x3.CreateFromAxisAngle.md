@@ -15,7 +15,7 @@ Creates a new Matrix3x3 that rotates around an arbitrary vector.
 ### Parameters
 
 * [Vector3](VRageMath.Vector3) axis
-* [float](System.Single) angle
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) angle
 ### Summary
 
 ```csharp
@@ -27,5 +27,5 @@ Creates a new Matrix3x3 that rotates around an arbitrary vector.
 ### Parameters
 
 * [Vector3](VRageMath.Vector3) axis
-* [float](System.Single) angle
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) angle
 * [Matrix3x3](VRageMath.Matrix3x3) result

@@ -8,5 +8,5 @@ public void SetSize<T>(List<T> list, int newSize)
 
 ### Parameters
 
-* [List<T>](System.Collections.Generic.List`1) list
-* [int](System.Int32) newSize
+* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) list
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) newSize

@@ -10,5 +10,5 @@ Sets a comment on a given section. The section must already exist. Set the comme
 
 ### Parameters
 
-* [string](System.String) section
-* [string](System.String) comment
+* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) section
+* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) comment

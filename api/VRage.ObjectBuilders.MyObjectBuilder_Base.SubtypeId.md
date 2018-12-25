@@ -8,5 +8,5 @@ public MyStringHash SubtypeId { get; }
 
 ### Returns
 
-MyStringHash
+[MyStringHash](VRage.Utils.MyStringHash)
 

@@ -10,7 +10,7 @@ Maximum power output of the producer in MW or litres/h.
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 
 ### Parameters
 

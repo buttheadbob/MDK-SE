@@ -8,4 +8,4 @@ public void SetShowOnScreen(ShowTextOnScreenFlag set)
 
 ### Parameters
 
-* ShowTextOnScreenFlag set
+* [ShowTextOnScreenFlag](VRage.Game.GUI.TextPanel.ShowTextOnScreenFlag) set

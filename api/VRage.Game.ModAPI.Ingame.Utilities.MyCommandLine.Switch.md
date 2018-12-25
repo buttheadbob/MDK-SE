@@ -10,13 +10,13 @@ Determines whether the given switch is set. Switches are specified without their
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 
 
 ### Parameters
 
-* [string](System.String) name
+* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) name
 ### Summary
 
 ```csharp
@@ -27,11 +27,11 @@ Gets an argument of a switch. For example, using`Switch("key", 0)`on the command
 
 ### Returns
 
-[string](System.String)
+[string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6)
 
 
 
 ### Parameters
 
-* [string](System.String) name
-* [int](System.Int32) relativeArgument
+* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) name
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) relativeArgument

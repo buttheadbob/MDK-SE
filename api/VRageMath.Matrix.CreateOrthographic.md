@@ -14,10 +14,10 @@ Builds an orthogonal projection matrix.
 
 ### Parameters
 
-* [float](System.Single) width
-* [float](System.Single) height
-* [float](System.Single) zNearPlane
-* [float](System.Single) zFarPlane
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) width
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) height
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) zNearPlane
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) zFarPlane
 ### Summary
 
 ```csharp
@@ -28,8 +28,8 @@ Builds an orthogonal projection matrix.
 
 ### Parameters
 
-* [float](System.Single) width
-* [float](System.Single) height
-* [float](System.Single) zNearPlane
-* [float](System.Single) zFarPlane
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) width
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) height
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) zNearPlane
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) zFarPlane
 * [Matrix](VRageMath.Matrix) result

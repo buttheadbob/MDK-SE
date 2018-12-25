@@ -8,9 +8,9 @@ public virtual bool IsPowerAvailable(MyDefinitionId resourceTypeId, float power)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
 * [MyDefinitionId](VRage.Game.MyDefinitionId) resourceTypeId
-* [float](System.Single) power
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) power

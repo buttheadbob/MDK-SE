@@ -9,7 +9,7 @@ public abstract sealed class NullableVector3Extensions: object
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-**Inheritance: **[object](System.Object)
+**Inheritance:** [object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6)
 
 #### Example
 

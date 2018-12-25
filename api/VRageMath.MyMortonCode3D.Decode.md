@@ -8,5 +8,5 @@ public void Decode(int code, ref Vector3I value)
 
 ### Parameters
 
-* [int](System.Int32) code
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) code
 * [Vector3I](VRageMath.Vector3I) value

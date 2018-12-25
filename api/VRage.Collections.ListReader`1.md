@@ -9,11 +9,11 @@ public struct ListReader<T>: ValueType, IEnumerable<T>, IEnumerable
 **Namespace:** [VRage.Collections](VRage.Collections)  
 **Assembly:** VRage.Library.dll
 
-**Inheritance: **[ValueType](System.ValueType)
+**Inheritance:** [ValueType](https://docs.microsoft.com/en-us/dotnet/api/system.valuetype?view=netframework-4.6)
 
 **Implements:**  
-* [IEnumerable<T>](System.Collections.Generic.IEnumerable`1)  
-* [IEnumerable](System.Collections.IEnumerable)
+* [IEnumerable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable?view=netframework-4.6)  
+* [IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerable?view=netframework-4.6)
 
 #### Example
 

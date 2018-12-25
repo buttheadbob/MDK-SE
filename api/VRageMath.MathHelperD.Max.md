@@ -10,9 +10,9 @@ Returns the greater of two values.
 
 ### Returns
 
-[double](System.Double)
+[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
 
 ### Parameters
 
-* [double](System.Double) value1
-* [double](System.Double) value2
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) value1
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) value2

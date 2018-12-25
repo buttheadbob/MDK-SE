@@ -12,4 +12,4 @@ public IMyInventoryItem GetItemByID(uint id)
 
 ### Parameters
 
-* [uint](System.UInt32) id
+* [uint](https://docs.microsoft.com/en-us/dotnet/api/system.uint32?view=netframework-4.6) id

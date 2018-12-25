@@ -8,8 +8,8 @@ public bool HasPlayerAccess(long playerId)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
-* [long](System.Int64) playerId
+* [long](https://docs.microsoft.com/en-us/dotnet/api/system.int64?view=netframework-4.6) playerId

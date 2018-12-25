@@ -10,7 +10,7 @@ Calculates rectangular distance of this vector, longerpreted as a polong, from t
 
 ### Returns
 
-[long](System.Int64)
+[long](https://docs.microsoft.com/en-us/dotnet/api/system.int64?view=netframework-4.6)
 
 
 

@@ -8,7 +8,7 @@ public bool IsInsideInclusive(ref Vector3D min, ref Vector3D max)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 

@@ -10,7 +10,7 @@ Inserts a blueprint into the production queue
 
 ### Parameters
 
-* [int](System.Int32) idx
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) idx
 * [MyDefinitionId](VRage.Game.MyDefinitionId) blueprint
 * [MyFixedPoint](VRage.MyFixedPoint) amount
 ### Summary
@@ -23,9 +23,9 @@ Inserts a blueprint into the production queue
 
 ### Parameters
 
-* [int](System.Int32) idx
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) idx
 * [MyDefinitionId](VRage.Game.MyDefinitionId) blueprint
-* [decimal](System.Decimal) amount
+* [decimal](https://docs.microsoft.com/en-us/dotnet/api/system.decimal?view=netframework-4.6) amount
 ### Summary
 
 ```csharp
@@ -36,6 +36,6 @@ Inserts a blueprint into the production queue
 
 ### Parameters
 
-* [int](System.Int32) idx
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) idx
 * [MyDefinitionId](VRage.Game.MyDefinitionId) blueprint
-* [double](System.Double) amount
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) amount

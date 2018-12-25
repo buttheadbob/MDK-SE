@@ -13,4 +13,4 @@ public IMyInventory GetInventory(IMyTerminalBlock block, int index)
 ### Parameters
 
 * [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock) block
-* [int](System.Int32) index
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) index

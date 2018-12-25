@@ -9,10 +9,10 @@ public struct Vector4I: ValueType, IComparable<T>
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-**Inheritance: **[ValueType](System.ValueType)
+**Inheritance:** [ValueType](https://docs.microsoft.com/en-us/dotnet/api/system.valuetype?view=netframework-4.6)
 
 **Implements:**  
-* [IComparable<T>](System.IComparable`1)
+* [IComparable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.icomparable?view=netframework-4.6)
 
 #### Example
 

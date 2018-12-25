@@ -10,5 +10,5 @@ Position where the raycast hit the entity. (can be null if the sensor didn't use
 
 ### Returns
 
-[Nullable<T>](System.Nullable`1)
+[Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
 

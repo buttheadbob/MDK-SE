@@ -15,4 +15,4 @@ Puts Vector3 into Vector3B, value -127 represents -range, 128 represents range
 ### Parameters
 
 * [Vector3](VRageMath.Vector3) vec
-* [float](System.Single) range
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) range

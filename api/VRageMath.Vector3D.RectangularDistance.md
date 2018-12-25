@@ -10,7 +10,7 @@ Calculates rectangular distance (a.k.a. Manhattan distance or Chessboard distace
 
 ### Returns
 
-[double](System.Double)
+[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
 
 ### Parameters
 
@@ -26,7 +26,7 @@ Calculates rectangular distance (a.k.a. Manhattan distance or Chessboard distace
 
 ### Returns
 
-[double](System.Double)
+[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
 
 ### Parameters
 

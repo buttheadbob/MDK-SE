@@ -44,7 +44,7 @@ Divides the components of a matrix by a scalar.
 ### Parameters
 
 * [Matrix](VRageMath.Matrix) matrix1
-* [float](System.Single) divider
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) divider
 ### Summary
 
 ```csharp
@@ -56,5 +56,5 @@ Divides the components of a matrix by a scalar.
 ### Parameters
 
 * [Matrix](VRageMath.Matrix) matrix1
-* [float](System.Single) divider
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) divider
 * [Matrix](VRageMath.Matrix) result

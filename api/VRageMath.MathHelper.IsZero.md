@@ -8,12 +8,12 @@ public bool IsZero(float value, float epsilon)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
-* [float](System.Single) value
-* [float](System.Single) epsilon
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) value
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) epsilon
 ### Summary
 
 ```csharp
@@ -22,12 +22,12 @@ public bool IsZero(double value, float epsilon)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
-* [double](System.Double) value
-* [float](System.Single) epsilon
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) value
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) epsilon
 ### Summary
 
 ```csharp
@@ -36,12 +36,12 @@ public bool IsZero(Vector3 value, float epsilon)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
 * [Vector3](VRageMath.Vector3) value
-* [float](System.Single) epsilon
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) epsilon
 ### Summary
 
 ```csharp
@@ -50,12 +50,12 @@ public bool IsZero(Vector3D value, float epsilon)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
 * [Vector3D](VRageMath.Vector3D) value
-* [float](System.Single) epsilon
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) epsilon
 ### Summary
 
 ```csharp
@@ -64,12 +64,12 @@ public bool IsZero(Quaternion value, float epsilon)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
 * [Quaternion](VRageMath.Quaternion) value
-* [float](System.Single) epsilon
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) epsilon
 ### Summary
 
 ```csharp
@@ -78,7 +78,7 @@ public bool IsZero(Vector4 value)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 

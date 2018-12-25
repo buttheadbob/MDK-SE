@@ -11,5 +11,5 @@ Set float value of property
 ### Parameters
 
 * [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock) block
-* [string](System.String) propertyId
-* [float](System.Single) value
+* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) propertyId
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) value

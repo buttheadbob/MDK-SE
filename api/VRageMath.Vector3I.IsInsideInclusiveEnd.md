@@ -8,7 +8,7 @@ public bool IsInsideInclusiveEnd(ref Vector3I min, ref Vector3I max)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -22,7 +22,7 @@ public bool IsInsideInclusiveEnd(Vector3I min, Vector3I max)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 

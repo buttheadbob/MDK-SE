@@ -9,10 +9,10 @@ public struct MyDefinitionId: ValueType, IEquatable<T>
 **Namespace:** [VRage.Game](VRage.Game)  
 **Assembly:** VRage.Game.dll
 
-**Inheritance: **[ValueType](System.ValueType)
+**Inheritance:** [ValueType](https://docs.microsoft.com/en-us/dotnet/api/system.valuetype?view=netframework-4.6)
 
 **Implements:**  
-* [IEquatable<T>](System.IEquatable`1)
+* [IEquatable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)
 
 #### Example
 

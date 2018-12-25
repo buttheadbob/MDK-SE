@@ -8,7 +8,7 @@ public bool Equals(Vector3I x, Vector3I y)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 

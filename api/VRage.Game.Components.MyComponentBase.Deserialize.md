@@ -8,4 +8,4 @@ public virtual void Deserialize(MyObjectBuilder_ComponentBase builder)
 
 ### Parameters
 
-* MyObjectBuilder_ComponentBase builder
+* [MyObjectBuilder_ComponentBase](VRage.Game.ObjectBuilders.ComponentSystem.MyObjectBuilder_ComponentBase) builder

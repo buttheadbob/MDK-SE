@@ -8,5 +8,5 @@ public void ReadPublicText(StringBuilder buffer, bool append)
 
 ### Parameters
 
-* [StringBuilder](System.Text.StringBuilder) buffer
-* [bool](System.Boolean) append
+* [StringBuilder](https://docs.microsoft.com/en-us/dotnet/api/system.text.stringbuilder?view=netframework-4.6) buffer
+* [bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) append

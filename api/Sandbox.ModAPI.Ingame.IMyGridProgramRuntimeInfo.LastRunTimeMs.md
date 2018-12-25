@@ -10,5 +10,5 @@ Gets the number of milliseconds it took to execute the Main method the last time
 
 ### Returns
 
-[double](System.Double)
+[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
 

@@ -10,13 +10,13 @@ Create a proxy. Provide a tight fitting BoundingBox and a userData pointer.
 
 ### Returns
 
-[int](System.Int32)
+[int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6)
 
 
 
 ### Parameters
 
 * [BoundingBox](VRageMath.BoundingBox) aabb
-* [object](System.Object) userData
-* [uint](System.UInt32) userFlags
-* [bool](System.Boolean) rebalance
+* [object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6) userData
+* [uint](https://docs.microsoft.com/en-us/dotnet/api/system.uint32?view=netframework-4.6) userFlags
+* [bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) rebalance

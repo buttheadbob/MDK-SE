@@ -8,7 +8,7 @@ public void AddArray<T>(List<T> list, T[] itemsToAdd)
 
 ### Parameters
 
-* [List<T>](System.Collections.Generic.List`1) list
+* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) list
 * [T[]]() itemsToAdd
 ### Summary
 
@@ -18,6 +18,6 @@ public void AddArray<T>(List<T> list, T[] itemsToAdd, int itemCount)
 
 ### Parameters
 
-* [List<T>](System.Collections.Generic.List`1) list
+* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) list
 * [T[]]() itemsToAdd
-* [int](System.Int32) itemCount
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) itemCount

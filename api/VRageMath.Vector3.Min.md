@@ -10,7 +10,7 @@ Returns the component of the vector that is smallest of all the three components
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 
 ### Summary
 

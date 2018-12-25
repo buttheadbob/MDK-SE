@@ -23,7 +23,7 @@ Adds a blueprint to the production queue
 ### Parameters
 
 * [MyDefinitionId](VRage.Game.MyDefinitionId) blueprint
-* [decimal](System.Decimal) amount
+* [decimal](https://docs.microsoft.com/en-us/dotnet/api/system.decimal?view=netframework-4.6) amount
 ### Summary
 
 ```csharp
@@ -35,4 +35,4 @@ Adds a blueprint to the production queue
 ### Parameters
 
 * [MyDefinitionId](VRage.Game.MyDefinitionId) blueprint
-* [double](System.Double) amount
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) amount

@@ -8,5 +8,5 @@ public TypeCode TypeCode
 
 ### Returns
 
-TypeCode
+[TypeCode](https://docs.microsoft.com/en-us/dotnet/api/system.typecode?view=netframework-4.6)
 

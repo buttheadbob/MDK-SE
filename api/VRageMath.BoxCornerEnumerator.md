@@ -9,14 +9,14 @@ public struct BoxCornerEnumerator: ValueType, IEnumerator<T>, IDisposable, IEnum
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-**Inheritance: **[ValueType](System.ValueType)
+**Inheritance:** [ValueType](https://docs.microsoft.com/en-us/dotnet/api/system.valuetype?view=netframework-4.6)
 
 **Implements:**  
-* [IEnumerator<T>](System.Collections.Generic.IEnumerator`1)  
-* [IDisposable](System.IDisposable)  
-* [IEnumerator](System.Collections.IEnumerator)  
-* [IEnumerable<T>](System.Collections.Generic.IEnumerable`1)  
-* [IEnumerable](System.Collections.IEnumerable)
+* [IEnumerator<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerator?view=netframework-4.6)  
+* [IDisposable](https://docs.microsoft.com/en-us/dotnet/api/system.idisposable?view=netframework-4.6)  
+* [IEnumerator](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerator?view=netframework-4.6)  
+* [IEnumerable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable?view=netframework-4.6)  
+* [IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerable?view=netframework-4.6)
 
 #### Example
 

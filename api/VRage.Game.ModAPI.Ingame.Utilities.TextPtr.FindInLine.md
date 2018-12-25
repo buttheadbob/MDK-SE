@@ -12,4 +12,4 @@ public TextPtr FindInLine(char ch)
 
 ### Parameters
 
-* [char](System.Char) ch
+* [char](https://docs.microsoft.com/en-us/dotnet/api/system.char?view=netframework-4.6) ch

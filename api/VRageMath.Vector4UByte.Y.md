@@ -8,5 +8,5 @@ public byte Y
 
 ### Returns
 
-[byte](System.Byte)
+[byte](https://docs.microsoft.com/en-us/dotnet/api/system.byte?view=netframework-4.6)
 

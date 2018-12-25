@@ -8,4 +8,4 @@ public void ToBytes(List<T> result)
 
 ### Parameters
 
-* [List<T>](System.Collections.Generic.List`1) result
+* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) result

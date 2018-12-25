@@ -8,4 +8,4 @@ public void GetAllNodeBounds(List<T> boxsList)
 
 ### Parameters
 
-* [List<T>](System.Collections.Generic.List`1) boxsList
+* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) boxsList

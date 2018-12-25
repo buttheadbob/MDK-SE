@@ -10,5 +10,5 @@ The entity's display name if it is friendly, or a generic descriptor if it is no
 
 ### Returns
 
-[string](System.String)
+[string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6)
 

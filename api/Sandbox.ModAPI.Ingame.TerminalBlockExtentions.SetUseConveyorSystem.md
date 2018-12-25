@@ -9,4 +9,4 @@ public void SetUseConveyorSystem(IMyTerminalBlock block, bool use)
 ### Parameters
 
 * [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock) block
-* [bool](System.Boolean) use
+* [bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) use

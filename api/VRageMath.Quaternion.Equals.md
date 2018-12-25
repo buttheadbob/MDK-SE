@@ -10,7 +10,7 @@ Determines whether the specified Object is equal to the Quaternion.
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -23,12 +23,12 @@ public bool Equals(Quaternion value, float epsilon)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
 * [Quaternion](VRageMath.Quaternion) value
-* [float](System.Single) epsilon
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) epsilon
 ### Summary
 
 ```csharp
@@ -39,8 +39,8 @@ Returns a value that indicates whether the current instance is equal to a specif
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
-* [object](System.Object) obj
+* [object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6) obj

@@ -8,11 +8,11 @@ public float SCurve3(float t)
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 
 ### Parameters
 
-* [float](System.Single) t
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) t
 ### Summary
 
 ```csharp
@@ -21,8 +21,8 @@ public double SCurve3(double t)
 
 ### Returns
 
-[double](System.Double)
+[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
 
 ### Parameters
 
-* [double](System.Double) t
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) t

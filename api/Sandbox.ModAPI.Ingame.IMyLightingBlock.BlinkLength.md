@@ -10,5 +10,5 @@ Gets or sets how much of the blinking interval should be spent with the light on
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 

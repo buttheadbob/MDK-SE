@@ -10,4 +10,4 @@ Writes this value as a string to the given string builder.
 
 ### Parameters
 
-* [StringBuilder](System.Text.StringBuilder) stringBuilder
+* [StringBuilder](https://docs.microsoft.com/en-us/dotnet/api/system.text.stringbuilder?view=netframework-4.6) stringBuilder

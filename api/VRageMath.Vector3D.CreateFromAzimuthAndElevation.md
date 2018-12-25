@@ -8,6 +8,6 @@ public void CreateFromAzimuthAndElevation(double azimuth, double elevation, refÂ
 
 ### Parameters
 
-* [double](System.Double) azimuth
-* [double](System.Double) elevation
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) azimuth
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) elevation
 * [Vector3D](VRageMath.Vector3D) direction

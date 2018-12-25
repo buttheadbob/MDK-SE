@@ -10,5 +10,5 @@ Returns the maximum positive angle you can apply for pitch and yaw.
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 

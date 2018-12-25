@@ -26,4 +26,4 @@ public Vector3 Sign(Vector3 value, float epsilon)
 ### Parameters
 
 * [Vector3](VRageMath.Vector3) value
-* [float](System.Single) epsilon
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) epsilon

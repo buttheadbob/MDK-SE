@@ -8,8 +8,8 @@ public long VolumeInt(float multiplier)
 
 ### Returns
 
-[long](System.Int64)
+[long](https://docs.microsoft.com/en-us/dotnet/api/system.int64?view=netframework-4.6)
 
 ### Parameters
 
-* [float](System.Single) multiplier
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) multiplier

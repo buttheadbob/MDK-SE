@@ -8,5 +8,5 @@ public void RemoveIndices<T>(List<T> list, List<T> indices)
 
 ### Parameters
 
-* [List<T>](System.Collections.Generic.List`1) list
-* [List<T>](System.Collections.Generic.List`1) indices
+* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) list
+* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) indices

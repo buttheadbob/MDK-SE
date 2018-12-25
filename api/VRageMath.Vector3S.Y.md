@@ -8,5 +8,5 @@ public short Y
 
 ### Returns
 
-[short](System.Int16)
+[short](https://docs.microsoft.com/en-us/dotnet/api/system.int16?view=netframework-4.6)
 

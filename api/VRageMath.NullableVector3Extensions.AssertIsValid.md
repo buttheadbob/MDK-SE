@@ -8,4 +8,4 @@ public void AssertIsValid(Nullable<T> value)
 
 ### Parameters
 
-* [Nullable<T>](System.Nullable`1) value
+* [Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) value

@@ -10,5 +10,5 @@ Returns the component of the vector, whose absolute value is smallest of all the
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 

@@ -12,4 +12,4 @@ public MyFixedPoint DeserializeString(string text)
 
 ### Parameters
 
-* [string](System.String) text
+* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) text

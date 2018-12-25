@@ -10,7 +10,7 @@ Iterate every cell contained in {left} - {right}, where we interpret {box} as th
 
 ### Returns
 
-[IEnumerable<T>](System.Collections.Generic.IEnumerable`1)
+[IEnumerable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable?view=netframework-4.6)
 
 
 

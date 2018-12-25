@@ -9,5 +9,5 @@ public void OverlapSizeableClusters(ref BoundingBox bbox, List<T> boundList, do
 ### Parameters
 
 * [BoundingBox](VRageMath.BoundingBox) bbox
-* [List<T>](System.Collections.Generic.List`1) boundList
-* [double](System.Double) minSize
+* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) boundList
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) minSize

@@ -10,5 +10,5 @@ Gets or sets the speed at which this device will engage it's safety lock ( [IsLo
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 

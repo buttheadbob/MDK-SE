@@ -13,7 +13,7 @@ public BoundingBox2I CreateFromHalfExtent(Vector2I center, int halfExtent)
 ### Parameters
 
 * [Vector2I](VRageMath.Vector2I) center
-* [int](System.Int32) halfExtent
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) halfExtent
 ### Summary
 
 ```csharp

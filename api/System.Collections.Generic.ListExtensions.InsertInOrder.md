@@ -8,9 +8,9 @@ public void InsertInOrder<T>(List<T> self, T value, IComparer<T> comparer)
 
 ### Parameters
 
-* [List<T>](System.Collections.Generic.List`1) self
+* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) self
 * [T]() value
-* [IComparer<T>](System.Collections.Generic.IComparer`1) comparer
+* [IComparer<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.icomparer?view=netframework-4.6) comparer
 ### Summary
 
 ```csharp
@@ -19,5 +19,5 @@ public void InsertInOrder<T>(List<T> self, T value)
 
 ### Parameters
 
-* [List<T>](System.Collections.Generic.List`1) self
+* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) self
 * [T]() value

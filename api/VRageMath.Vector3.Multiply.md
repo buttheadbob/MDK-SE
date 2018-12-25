@@ -44,7 +44,7 @@ Multiplies a vector by a scalar value.
 ### Parameters
 
 * [Vector3](VRageMath.Vector3) value1
-* [float](System.Single) scaleFactor
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) scaleFactor
 ### Summary
 
 ```csharp
@@ -56,7 +56,7 @@ Multiplies a vector by a scalar value.
 ### Parameters
 
 * [Vector3](VRageMath.Vector3) value1
-* [float](System.Single) scaleFactor
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) scaleFactor
 * [Vector3](VRageMath.Vector3) result
 ### Summary
 
@@ -66,4 +66,4 @@ public void Multiply(float scale)
 
 ### Parameters
 
-* [float](System.Single) scale
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) scale

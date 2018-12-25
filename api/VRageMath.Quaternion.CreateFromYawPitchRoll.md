@@ -14,9 +14,9 @@ Creates a new Quaternion from specified yaw, pitch, and roll angles.
 
 ### Parameters
 
-* [float](System.Single) yaw
-* [float](System.Single) pitch
-* [float](System.Single) roll
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) yaw
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) pitch
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) roll
 ### Summary
 
 ```csharp
@@ -27,7 +27,7 @@ Creates a new Quaternion from specified yaw, pitch, and roll angles.
 
 ### Parameters
 
-* [float](System.Single) yaw
-* [float](System.Single) pitch
-* [float](System.Single) roll
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) yaw
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) pitch
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) roll
 * [Quaternion](VRageMath.Quaternion) result

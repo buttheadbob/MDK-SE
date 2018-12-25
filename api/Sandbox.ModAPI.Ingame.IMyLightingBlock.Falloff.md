@@ -10,5 +10,5 @@ Gets or sets the current falloff of the light.
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 

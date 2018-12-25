@@ -10,4 +10,4 @@ Returns angle in range 0..2*PI
 
 ### Parameters
 
-* [double](System.Double) angle
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) angle

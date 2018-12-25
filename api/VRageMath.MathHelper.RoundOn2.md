@@ -8,8 +8,8 @@ public float RoundOn2(float x)
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 
 ### Parameters
 
-* [float](System.Single) x
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) x

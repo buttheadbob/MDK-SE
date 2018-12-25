@@ -8,11 +8,11 @@ public double DistanceToTangentProjected(ref Vector3D center, ref Vector3D poi
 
 ### Returns
 
-[double](System.Double)
+[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
 
 ### Parameters
 
 * [Vector3D](VRageMath.Vector3D) center
 * [Vector3D](VRageMath.Vector3D) point
-* [double](System.Double) radius
-* [double](System.Double) distance
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) radius
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) distance

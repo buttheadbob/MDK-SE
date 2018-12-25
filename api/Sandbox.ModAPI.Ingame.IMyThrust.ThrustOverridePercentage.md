@@ -10,5 +10,5 @@ Gets or sets the thrust override as a percentage between 0 and 1
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 

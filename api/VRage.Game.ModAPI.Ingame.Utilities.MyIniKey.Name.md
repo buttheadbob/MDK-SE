@@ -10,5 +10,5 @@ Gets the Key part of this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey
 
 ### Returns
 
-[string](System.String)
+[string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6)
 

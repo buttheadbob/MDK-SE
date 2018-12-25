@@ -8,7 +8,7 @@ public bool BoxIntersects(Vector3I minA, Vector3I maxA, Vector3I minB, Vector3I 
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -24,7 +24,7 @@ public bool BoxIntersects(ref Vector3I minA, ref Vector3I maxA, ref Vector3I 
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 

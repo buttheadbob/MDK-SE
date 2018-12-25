@@ -10,5 +10,5 @@ Gets or sets whether this connector should be pulling items into its inventory.
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 

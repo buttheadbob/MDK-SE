@@ -10,5 +10,5 @@ The distance of the PlaneD along its normal from the origin. Note: Be careful! T
 
 ### Returns
 
-[double](System.Double)
+[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
 

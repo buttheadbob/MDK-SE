@@ -10,8 +10,8 @@ Finds the value at a position on the Curve.
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 
 ### Parameters
 
-* [float](System.Single) position
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) position

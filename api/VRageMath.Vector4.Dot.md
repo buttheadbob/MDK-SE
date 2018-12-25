@@ -10,7 +10,7 @@ Calculates the dot product of two vectors.
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 
 ### Parameters
 
@@ -28,4 +28,4 @@ Calculates the dot product of two vectors.
 
 * [Vector4](VRageMath.Vector4) vector1
 * [Vector4](VRageMath.Vector4) vector2
-* [float](System.Single) result
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) result

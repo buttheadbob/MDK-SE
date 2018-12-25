@@ -10,4 +10,4 @@ public void Interpolate3(Vector3D v0, Vector3D v1, double rt)
 
 * [Vector3D](VRageMath.Vector3D) v0
 * [Vector3D](VRageMath.Vector3D) v1
-* [double](System.Double) rt
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) rt

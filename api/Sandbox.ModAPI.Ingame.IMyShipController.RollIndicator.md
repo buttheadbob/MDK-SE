@@ -10,5 +10,5 @@ Roll input from user/autopilot. Values can be very large with high controller se
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 

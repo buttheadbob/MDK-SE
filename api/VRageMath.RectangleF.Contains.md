@@ -8,12 +8,12 @@ public bool Contains(int x, int y)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
-* [int](System.Int32) x
-* [int](System.Int32) y
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) x
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) y
 ### Summary
 
 ```csharp
@@ -22,12 +22,12 @@ public bool Contains(float x, float y)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
-* [float](System.Single) x
-* [float](System.Single) y
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) x
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) y
 ### Summary
 
 ```csharp
@@ -36,7 +36,7 @@ public bool Contains(Vector2 vector2D)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -49,7 +49,7 @@ public bool Contains(Point point)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 

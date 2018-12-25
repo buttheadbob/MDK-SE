@@ -12,4 +12,4 @@ public BoundingBox CreateFromInsideRadius(float radius)
 
 ### Parameters
 
-* [float](System.Single) radius
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) radius

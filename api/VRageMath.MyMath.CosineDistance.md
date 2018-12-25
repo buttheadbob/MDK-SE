@@ -8,7 +8,7 @@ public float CosineDistance(ref Vector3 a, ref Vector3 b)
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 
 ### Parameters
 
@@ -22,7 +22,7 @@ public double CosineDistance(ref Vector3D a, ref Vector3D b)
 
 ### Returns
 
-[double](System.Double)
+[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
 
 ### Parameters
 

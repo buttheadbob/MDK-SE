@@ -9,8 +9,8 @@ public void OverlapAllBoundingSphere<T>(ref BoundingSphereD sphere, List<T> ove
 ### Parameters
 
 * [BoundingSphereD](VRageMath.BoundingSphereD) sphere
-* [List<T>](System.Collections.Generic.List`1) overlapElementsList
-* [bool](System.Boolean) clear
+* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) overlapElementsList
+* [bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) clear
 ### Summary
 
 ```csharp
@@ -20,4 +20,4 @@ public void OverlapAllBoundingSphere<T>(ref BoundingSphereD sphere, Action<T> a
 ### Parameters
 
 * [BoundingSphereD](VRageMath.BoundingSphereD) sphere
-* [Action<T>](System.Action`1) addAction
+* [Action<T>](https://docs.microsoft.com/en-us/dotnet/api/system.action?view=netframework-4.6) addAction

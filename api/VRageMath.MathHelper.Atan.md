@@ -10,13 +10,13 @@ Faster Atan implementation. Good only in the [-pi/2, pi/2] range.
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 
 
 
 ### Parameters
 
-* [float](System.Single) x
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) x
 ### Summary
 
 ```csharp
@@ -27,10 +27,10 @@ Faster Atan implementation. Good only in the [-pi/2, pi/2] range.
 
 ### Returns
 
-[double](System.Double)
+[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
 
 
 
 ### Parameters
 
-* [double](System.Double) x
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) x

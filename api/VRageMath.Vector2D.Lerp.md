@@ -16,7 +16,7 @@ Performs a linear interpolation between two vectors.
 
 * [Vector2D](VRageMath.Vector2D) value1
 * [Vector2D](VRageMath.Vector2D) value2
-* [double](System.Double) amount
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) amount
 ### Summary
 
 ```csharp
@@ -29,5 +29,5 @@ Performs a linear interpolation between two vectors.
 
 * [Vector2D](VRageMath.Vector2D) value1
 * [Vector2D](VRageMath.Vector2D) value2
-* [double](System.Double) amount
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) amount
 * [Vector2D](VRageMath.Vector2D) result

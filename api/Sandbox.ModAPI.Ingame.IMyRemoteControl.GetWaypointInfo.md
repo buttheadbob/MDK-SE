@@ -8,4 +8,4 @@ public void GetWaypointInfo(List<T> waypoints)
 
 ### Parameters
 
-* [List<T>](System.Collections.Generic.List`1) waypoints
+* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) waypoints

@@ -8,12 +8,12 @@ public bool IsEqual(float value1, float value2)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
-* [float](System.Single) value1
-* [float](System.Single) value2
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) value1
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) value2
 ### Summary
 
 ```csharp
@@ -22,7 +22,7 @@ public bool IsEqual(Vector2 value1, Vector2 value2)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -36,7 +36,7 @@ public bool IsEqual(Vector3 value1, Vector3 value2)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -50,7 +50,7 @@ public bool IsEqual(Quaternion value1, Quaternion value2)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -64,7 +64,7 @@ public bool IsEqual(QuaternionD value1, QuaternionD value2)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -78,7 +78,7 @@ public bool IsEqual(Matrix value1, Matrix value2)
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 
 ### Parameters
 

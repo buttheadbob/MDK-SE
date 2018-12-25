@@ -10,5 +10,5 @@ Determines whether this value is empty. Be aware that an empty string is not con
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 

@@ -10,13 +10,13 @@ Restricts a value to be within a specified range. Reference page contains links 
 
 ### Returns
 
-[float](System.Single)
+[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
 
 ### Parameters
 
-* [float](System.Single) value
-* [float](System.Single) min
-* [float](System.Single) max
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) value
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) min
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) max
 ### Summary
 
 ```csharp
@@ -27,13 +27,13 @@ Restricts a value to be within a specified range. Reference page contains links 
 
 ### Returns
 
-[double](System.Double)
+[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
 
 ### Parameters
 
-* [double](System.Double) value
-* [double](System.Double) min
-* [double](System.Double) max
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) value
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) min
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) max
 ### Summary
 
 ```csharp
@@ -61,10 +61,10 @@ Restricts a value to be within a specified range. Reference page contains links 
 
 ### Returns
 
-[int](System.Int32)
+[int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6)
 
 ### Parameters
 
-* [int](System.Int32) value
-* [int](System.Int32) min
-* [int](System.Int32) max
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) value
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) min
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) max

@@ -9,7 +9,7 @@ public struct SerializableDefinitionId: ValueType
 **Namespace:** [VRage.ObjectBuilders](VRage.ObjectBuilders)  
 **Assembly:** VRage.Game.dll
 
-**Inheritance: **[ValueType](System.ValueType)
+**Inheritance:** [ValueType](https://docs.microsoft.com/en-us/dotnet/api/system.valuetype?view=netframework-4.6)
 
 #### Example
 

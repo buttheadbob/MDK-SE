@@ -10,7 +10,7 @@ Gets the basic ship speed in meters per second, for when you just need to know h
 
 ### Returns
 
-[double](System.Double)
+[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
 
 
 

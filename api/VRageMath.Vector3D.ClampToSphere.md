@@ -13,7 +13,7 @@ public Vector3D ClampToSphere(Vector3D vector, double radius)
 ### Parameters
 
 * [Vector3D](VRageMath.Vector3D) vector
-* [double](System.Double) radius
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) radius
 ### Summary
 
 ```csharp
@@ -23,4 +23,4 @@ public void ClampToSphere(ref Vector3D vector, double radius)
 ### Parameters
 
 * [Vector3D](VRageMath.Vector3D) vector
-* [double](System.Double) radius
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) radius

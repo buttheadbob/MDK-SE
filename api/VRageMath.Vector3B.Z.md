@@ -8,5 +8,5 @@ public sbyte Z
 
 ### Returns
 
-[sbyte](System.SByte)
+[sbyte](https://docs.microsoft.com/en-us/dotnet/api/system.sbyte?view=netframework-4.6)
 

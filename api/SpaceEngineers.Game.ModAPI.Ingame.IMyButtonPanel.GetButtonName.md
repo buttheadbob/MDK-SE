@@ -10,10 +10,10 @@ Gets the button name.
 
 ### Returns
 
-[string](System.String)
+[string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6)
 
 
 
 ### Parameters
 
-* [int](System.Int32) index
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) index

@@ -8,5 +8,5 @@ public void SetDim(int i, float value)
 
 ### Parameters
 
-* [int](System.Int32) i
-* [float](System.Single) value
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) i
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) value

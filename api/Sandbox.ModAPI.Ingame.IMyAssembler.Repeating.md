@@ -10,5 +10,5 @@ Gets or sets whether this assembler should be perpetually repeating its work que
 
 ### Returns
 
-[bool](System.Boolean)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
 

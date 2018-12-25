@@ -8,8 +8,8 @@ public StringBuilder Get(MyStringId id)
 
 ### Returns
 
-[StringBuilder](System.Text.StringBuilder)
+[StringBuilder](https://docs.microsoft.com/en-us/dotnet/api/system.text.stringbuilder?view=netframework-4.6)
 
 ### Parameters
 
-* MyStringId id
+* [MyStringId](VRage.Utils.MyStringId) id

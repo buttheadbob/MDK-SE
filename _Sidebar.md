@@ -5,7 +5,6 @@
     * [Deploying Your Script to Space Engineers](https://github.com/malware-dev/MDK-SE/wiki/Deploying-Your-Script-to-Space-Engineers)
     * [Deployment Time Macros](https://github.com/malware-dev/mdk-se/wiki/Deployment-Time-Macros)
     * [File Sorting Order](https://github.com/malware-dev/mdk-se/wiki/File-Sorting-Order)
-    * [Known issue when using "Lightweight Solution Load"](https://github.com/malware-dev/MDK-SE/wiki/Known-issue-when-using-Lightweight-Solution-Load)
     * [Script Project Settings](https://github.com/malware-dev/MDK-SE/wiki/Script-Project-Settings)
     * [Adapting Existing Scripts](https://github.com/malware-dev/MDK-SE/wiki/Adapting-Existing-Scripts)
     * [Mixin Projects (Shared Projects)](https://github.com/malware-dev/MDK-SE/wiki/Mixin-Projects)

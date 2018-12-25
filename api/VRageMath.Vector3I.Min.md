@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3I Min(public sealed struct Vector3I value1, public sealed struct Vector3I value2)
+public Vector3I Min(Vector3I value1, Vector3I value2)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public public sealed struct Vector3I Min(public sealed struct Vector3I value1, p
 ### Summary
 
 ```csharp
-public void Min(ref public sealed struct Vector3I value1, ref public sealed struct Vector3I value2, ref public sealed struct Vector3I result)
+public void Min(ref Vector3I value1, ref Vector3I value2, ref Vector3I result)
 ```
 
 ### Returns

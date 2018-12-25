@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3D AngularVelocity
+public Vector3D AngularVelocity
 ```
 
 Gets the ship's angular velocity (rotation).

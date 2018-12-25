@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Quaternion CreateFromYawPitchRoll(float yaw, float pitch, float roll)
+public Quaternion CreateFromYawPitchRoll(float yaw, float pitch, float roll)
 ```
 
 Creates a new Quaternion from specified yaw, pitch, and roll angles.
@@ -17,7 +17,7 @@ Creates a new Quaternion from specified yaw, pitch, and roll angles.
 ### Summary
 
 ```csharp
-public void CreateFromYawPitchRoll(float yaw, float pitch, float roll, ref public sealed struct Quaternion result)
+public void CreateFromYawPitchRoll(float yaw, float pitch, float roll, ref Quaternion result)
 ```
 
 Creates a new Quaternion from specified yaw, pitch, and roll angles.

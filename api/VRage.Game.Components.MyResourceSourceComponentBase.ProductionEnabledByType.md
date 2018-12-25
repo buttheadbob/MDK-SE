@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool ProductionEnabledByType(public sealed struct MyDefinitionId resourceTypeId)
+public virtual bool ProductionEnabledByType(MyDefinitionId resourceTypeId)
 ```
 
 Resource production is enabled

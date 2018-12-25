@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public int DistanceManhattan(public sealed struct Vector3I first, public sealed struct Vector3I second)
+public int DistanceManhattan(Vector3I first, Vector3I second)
 ```
 
 Manhattan distance (cube distance) X + Y + Z of Abs(first - second)

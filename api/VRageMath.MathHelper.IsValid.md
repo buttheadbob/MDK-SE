@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool IsValid(public sealed struct Matrix matrix)
+public bool IsValid(Matrix matrix)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public bool IsValid(public sealed struct Matrix matrix)
 ### Summary
 
 ```csharp
-public bool IsValid(public sealed struct MatrixD matrix)
+public bool IsValid(MatrixD matrix)
 ```
 
 ### Returns
@@ -27,7 +27,7 @@ public bool IsValid(public sealed struct MatrixD matrix)
 ### Summary
 
 ```csharp
-public bool IsValid(public sealed struct Vector3 vec)
+public bool IsValid(Vector3 vec)
 ```
 
 ### Returns
@@ -39,7 +39,7 @@ public bool IsValid(public sealed struct Vector3 vec)
 ### Summary
 
 ```csharp
-public bool IsValid(public sealed struct Vector3D vec)
+public bool IsValid(Vector3D vec)
 ```
 
 ### Returns
@@ -51,7 +51,7 @@ public bool IsValid(public sealed struct Vector3D vec)
 ### Summary
 
 ```csharp
-public bool IsValid(public sealed struct Vector2 vec)
+public bool IsValid(Vector2 vec)
 ```
 
 ### Returns
@@ -87,7 +87,7 @@ public bool IsValid(double f)
 ### Summary
 
 ```csharp
-public bool IsValid(public sealed struct Nullable<T> vec)
+public bool IsValid(Nullable<T> vec)
 ```
 
 ### Returns
@@ -99,7 +99,7 @@ public bool IsValid(public sealed struct Nullable<T> vec)
 ### Summary
 
 ```csharp
-public bool IsValid(public sealed struct Quaternion q)
+public bool IsValid(Quaternion q)
 ```
 
 ### Returns

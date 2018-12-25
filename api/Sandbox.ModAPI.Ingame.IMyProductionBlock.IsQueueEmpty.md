@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool IsQueueEmpty { ; }
+public bool IsQueueEmpty { get; }
 ```
 
 The production queue is empty.

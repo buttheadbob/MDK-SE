@@ -17,7 +17,7 @@ Determines whether this Rectangle contains a specified point represented by its 
 ### Summary
 
 ```csharp
-public bool Contains(public sealed struct Point value)
+public bool Contains(Point value)
 ```
 
 Determines whether this Rectangle contains a specified Point.
@@ -31,7 +31,7 @@ Determines whether this Rectangle contains a specified Point.
 ### Summary
 
 ```csharp
-public void Contains(ref public sealed struct Point value, ref bool result)
+public void Contains(ref Point value, ref bool result)
 ```
 
 Determines whether this Rectangle contains a specified Point.
@@ -45,7 +45,7 @@ Determines whether this Rectangle contains a specified Point.
 ### Summary
 
 ```csharp
-public bool Contains(public sealed struct Rectangle value)
+public bool Contains(Rectangle value)
 ```
 
 Determines whether this Rectangle entirely contains a specified Rectangle.
@@ -59,7 +59,7 @@ Determines whether this Rectangle entirely contains a specified Rectangle.
 ### Summary
 
 ```csharp
-public void Contains(ref public sealed struct Rectangle value, ref bool result)
+public void Contains(ref Rectangle value, ref bool result)
 ```
 
 Determines whether this Rectangle entirely contains a specified Rectangle.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Plane Item { ; }
+public Plane Item { get; }
 ```
 
 ### Returns

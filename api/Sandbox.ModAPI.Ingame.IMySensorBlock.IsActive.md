@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool IsActive { ; }
+public bool IsActive { get; }
 ```
 
 Gets if there is any entity currently being detected.

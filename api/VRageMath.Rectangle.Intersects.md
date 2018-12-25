@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool Intersects(public sealed struct Rectangle value)
+public bool Intersects(Rectangle value)
 ```
 
 Determines whether a specified Rectangle intersects with this Rectangle.
@@ -17,7 +17,7 @@ Determines whether a specified Rectangle intersects with this Rectangle.
 ### Summary
 
 ```csharp
-public void Intersects(ref public sealed struct Rectangle value, ref bool result)
+public void Intersects(ref Rectangle value, ref bool result)
 ```
 
 Determines whether a specified Rectangle intersects with this Rectangle.

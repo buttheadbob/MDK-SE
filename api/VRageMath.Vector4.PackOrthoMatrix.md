@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector4 PackOrthoMatrix(public sealed struct Vector3 position, public sealed struct Vector3 forward, public sealed struct Vector3 up)
+public Vector4 PackOrthoMatrix(Vector3 position, Vector3 forward, Vector3 up)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public public sealed struct Vector4 PackOrthoMatrix(public sealed struct Vector3
 ### Summary
 
 ```csharp
-public public sealed struct Vector4 PackOrthoMatrix(ref public sealed struct Matrix matrix)
+public Vector4 PackOrthoMatrix(ref Matrix matrix)
 ```
 
 ### Returns

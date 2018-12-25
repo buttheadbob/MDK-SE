@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual string CustomNameWithFaction { ; }
+public string CustomNameWithFaction { get; }
 ```
 
 ### Returns

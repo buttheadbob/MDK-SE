@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool ContainItems(public sealed struct MyFixedPoint amount, public class MyObjectBuilder_PhysicalObject ob)
+public bool ContainItems(MyFixedPoint amount, MyObjectBuilder_PhysicalObject ob)
 ```
 
 ### Returns

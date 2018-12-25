@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector2I Center { ; }
+public Vector2I Center { get; }
 ```
 
 Calculates center

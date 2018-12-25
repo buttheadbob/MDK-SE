@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3 Project(public sealed struct Vector3 projectedOntoVector, public sealed struct Vector3 projectedVector)
+public Vector3 Project(Vector3 projectedOntoVector, Vector3 projectedVector)
 ```
 
 Calculates projection vector

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float LoopPeriod { ; ; }
+public float LoopPeriod { get; set; }
 ```
 
 Gets or sets the loop period of a loopable sound, in seconds.

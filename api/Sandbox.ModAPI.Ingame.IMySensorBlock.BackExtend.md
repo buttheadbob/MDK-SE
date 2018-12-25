@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float BackExtend { ; ; }
+public float BackExtend { get; set; }
 ```
 
 Gets or sets the back range of the sensor.

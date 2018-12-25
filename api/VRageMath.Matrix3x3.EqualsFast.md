@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool EqualsFast(ref public sealed struct Matrix3x3 other, float epsilon)
+public bool EqualsFast(ref Matrix3x3 other, float epsilon)
 ```
 
 Compares just position, forward and up

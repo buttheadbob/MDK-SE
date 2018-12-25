@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public class TValue GetMininum(public interface IMyCubeBlock block)
+public TValue GetMininum(IMyCubeBlock block)
 ```
 
 ### Returns

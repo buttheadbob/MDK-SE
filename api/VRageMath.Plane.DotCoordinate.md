@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public float DotCoordinate(public sealed struct Vector3 value)
+public float DotCoordinate(Vector3 value)
 ```
 
 Returns the dot product of a specified Vector3 and the Normal vector of this Plane plus the distance (D) value of the Plane.
@@ -17,7 +17,7 @@ Returns the dot product of a specified Vector3 and the Normal vector of this Pla
 ### Summary
 
 ```csharp
-public void DotCoordinate(ref public sealed struct Vector3 value, ref float result)
+public void DotCoordinate(ref Vector3 value, ref float result)
 ```
 
 Returns the dot product of a specified Vector3 and the Normal vector of this Plane plus the distance (D) value of the Plane.

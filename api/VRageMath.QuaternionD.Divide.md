@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct QuaternionD Divide(public sealed struct QuaternionD quaternion1, public sealed struct QuaternionD quaternion2)
+public QuaternionD Divide(QuaternionD quaternion1, QuaternionD quaternion2)
 ```
 
 Divides a QuaternionD by another QuaternionD.
@@ -17,7 +17,7 @@ Divides a QuaternionD by another QuaternionD.
 ### Summary
 
 ```csharp
-public void Divide(ref public sealed struct QuaternionD quaternion1, ref public sealed struct QuaternionD quaternion2, ref public sealed struct QuaternionD result)
+public void Divide(ref QuaternionD quaternion1, ref QuaternionD quaternion2, ref QuaternionD result)
 ```
 
 Divides a QuaternionD by another QuaternionD.

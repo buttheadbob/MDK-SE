@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float RollIndicator { ; }
+public float RollIndicator { get; }
 ```
 
 Roll input from user/autopilot. Values can be very large with high controller sensitivity

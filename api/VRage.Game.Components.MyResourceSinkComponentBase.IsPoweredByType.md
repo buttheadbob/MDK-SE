@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool IsPoweredByType(public sealed struct MyDefinitionId resourceTypeId)
+public virtual bool IsPoweredByType(MyDefinitionId resourceTypeId)
 ```
 
 ### Returns

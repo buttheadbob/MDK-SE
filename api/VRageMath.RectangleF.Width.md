@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public float Width { ; ; }
+public float Width { get; set; }
 ```
 
 Width of this rectangle.

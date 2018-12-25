@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float SteerSpeed { ; }
+public float SteerSpeed { get; }
 ```
 
 Speed at which wheel steers.

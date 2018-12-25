@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool IsPermanent { ; ; }
+public bool IsPermanent { get; set; }
 ```
 
 Connection is permanent

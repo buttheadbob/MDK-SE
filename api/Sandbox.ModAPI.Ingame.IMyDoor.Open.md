@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool Open { ; }
+public bool Open { get; }
 ```
 
 Indicates whether door is opened or closed. True when door is opened.

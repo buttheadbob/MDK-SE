@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool Exists(public sealed struct MyStringId id)
+public bool Exists(MyStringId id)
 ```
 
 ### Returns

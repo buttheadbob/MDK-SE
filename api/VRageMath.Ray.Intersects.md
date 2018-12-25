@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Nullable<T> Intersects(public sealed struct BoundingBox box)
+public Nullable<T> Intersects(BoundingBox box)
 ```
 
 Checks whether the Ray intersects a specified BoundingBox.
@@ -17,7 +17,7 @@ Checks whether the Ray intersects a specified BoundingBox.
 ### Summary
 
 ```csharp
-public void Intersects(ref public sealed struct BoundingBox box, ref public sealed struct Nullable<T> result)
+public void Intersects(ref BoundingBox box, ref Nullable<T> result)
 ```
 
 ### Returns
@@ -29,7 +29,7 @@ public void Intersects(ref public sealed struct BoundingBox box, ref public se
 ### Summary
 
 ```csharp
-public public sealed struct Nullable<T> Intersects(public class BoundingFrustum frustum)
+public Nullable<T> Intersects(BoundingFrustum frustum)
 ```
 
 Checks whether the Ray intersects a specified BoundingFrustum.
@@ -43,7 +43,7 @@ Checks whether the Ray intersects a specified BoundingFrustum.
 ### Summary
 
 ```csharp
-public public sealed struct Nullable<T> Intersects(public sealed struct Plane plane)
+public Nullable<T> Intersects(Plane plane)
 ```
 
 Determines whether this Ray intersects a specified Plane.
@@ -57,7 +57,7 @@ Determines whether this Ray intersects a specified Plane.
 ### Summary
 
 ```csharp
-public void Intersects(ref public sealed struct Plane plane, ref public sealed struct Nullable<T> result)
+public void Intersects(ref Plane plane, ref Nullable<T> result)
 ```
 
 ### Returns
@@ -69,7 +69,7 @@ public void Intersects(ref public sealed struct Plane plane, ref public sealed
 ### Summary
 
 ```csharp
-public public sealed struct Nullable<T> Intersects(public sealed struct BoundingSphere sphere)
+public Nullable<T> Intersects(BoundingSphere sphere)
 ```
 
 Checks whether the Ray intersects a specified BoundingSphere.
@@ -83,7 +83,7 @@ Checks whether the Ray intersects a specified BoundingSphere.
 ### Summary
 
 ```csharp
-public void Intersects(ref public sealed struct BoundingSphere sphere, ref public sealed struct Nullable<T> result)
+public void Intersects(ref BoundingSphere sphere, ref Nullable<T> result)
 ```
 
 ### Returns

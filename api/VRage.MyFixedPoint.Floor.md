@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct MyFixedPoint Floor(public sealed struct MyFixedPoint a)
+public MyFixedPoint Floor(MyFixedPoint a)
 ```
 
 ### Returns

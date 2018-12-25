@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public int Count { ; }
+public int Count { get; }
 ```
 
 Gets the number of elements contained in the CurveKeyCollection.

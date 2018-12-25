@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Plane Near { ; }
+public Plane Near { get; }
 ```
 
 Gets the near plane of the BoundingFrustum.

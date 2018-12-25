@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float CurrentThrust { ; }
+public float CurrentThrust { get; }
 ```
 
 Gets the current thrust amount, in Newtons (N)

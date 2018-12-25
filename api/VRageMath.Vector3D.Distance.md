@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public double Distance(public sealed struct Vector3D value1, public sealed struct Vector3D value2)
+public double Distance(Vector3D value1, Vector3D value2)
 ```
 
 Calculates the distance between two vectors.
@@ -17,7 +17,7 @@ Calculates the distance between two vectors.
 ### Summary
 
 ```csharp
-public double Distance(public sealed struct Vector3D value1, public sealed struct Vector3 value2)
+public double Distance(Vector3D value1, Vector3 value2)
 ```
 
 ### Returns
@@ -29,7 +29,7 @@ public double Distance(public sealed struct Vector3D value1, public sealed struc
 ### Summary
 
 ```csharp
-public double Distance(public sealed struct Vector3 value1, public sealed struct Vector3D value2)
+public double Distance(Vector3 value1, Vector3D value2)
 ```
 
 ### Returns
@@ -41,7 +41,7 @@ public double Distance(public sealed struct Vector3 value1, public sealed struct
 ### Summary
 
 ```csharp
-public void Distance(ref public sealed struct Vector3D value1, ref public sealed struct Vector3D value2, ref double result)
+public void Distance(ref Vector3D value1, ref Vector3D value2, ref double result)
 ```
 
 Calculates the distance between two vectors.

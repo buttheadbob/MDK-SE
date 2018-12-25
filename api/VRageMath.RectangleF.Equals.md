@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool Equals(public sealed struct RectangleF other)
+public bool Equals(RectangleF other)
 ```
 
 Determines whether the specified [System.Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6) is equal to this instance.

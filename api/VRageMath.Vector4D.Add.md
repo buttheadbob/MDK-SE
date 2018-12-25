@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector4D Add(public sealed struct Vector4D value1, public sealed struct Vector4D value2)
+public Vector4D Add(Vector4D value1, Vector4D value2)
 ```
 
 Adds two vectors.
@@ -17,7 +17,7 @@ Adds two vectors.
 ### Summary
 
 ```csharp
-public void Add(ref public sealed struct Vector4D value1, ref public sealed struct Vector4D value2, ref public sealed struct Vector4D result)
+public void Add(ref Vector4D value1, ref Vector4D value2, ref Vector4D result)
 ```
 
 Adds two vectors.

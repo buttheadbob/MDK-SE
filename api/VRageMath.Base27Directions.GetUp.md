@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public private sealed enum Direction GetUp(ref public sealed struct Quaternion rot)
+public Direction GetUp(ref Quaternion rot)
 ```
 
 ### Returns

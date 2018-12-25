@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public sealed struct Vector3D CenterOfMass { ; }
+public Vector3D CenterOfMass { get; }
 ```
 
 Center of mass in world coordinates

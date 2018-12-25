@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public interface ITerminalProperty<TValue> As<TValue>(public interface ITerminalProperty property)
+public ITerminalProperty<TValue> As<TValue>(ITerminalProperty property)
 ```
 
 ### Returns

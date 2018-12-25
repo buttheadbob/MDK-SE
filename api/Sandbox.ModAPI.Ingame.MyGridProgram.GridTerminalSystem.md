@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public interface IMyGridTerminalSystem GridTerminalSystem { ; protected ; }
+public virtual IMyGridTerminalSystem GridTerminalSystem { get; protected set; }
 ```
 
 Provides access to the grid terminal system as viewed from this programmable block.

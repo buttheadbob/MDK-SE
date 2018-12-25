@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual void GetBlocksOfType<T>(public class List<T> blocks, public sealed class Func<T, TResult> collect)
+public void GetBlocksOfType<T>(List<T> blocks, Func<T, TResult> collect)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public virtual void GetBlocksOfType<T>(public class List<T> blocks, public seale
 ### Summary
 
 ```csharp
-public virtual void GetBlocksOfType<T>(public class List<T> blocks, public sealed class Func<T, TResult> collect)
+public void GetBlocksOfType<T>(List<T> blocks, Func<T, TResult> collect)
 ```
 
 ### Returns

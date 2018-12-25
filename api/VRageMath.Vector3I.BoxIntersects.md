@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool BoxIntersects(public sealed struct Vector3I minA, public sealed struct Vector3I maxA, public sealed struct Vector3I minB, public sealed struct Vector3I maxB)
+public bool BoxIntersects(Vector3I minA, Vector3I maxA, Vector3I minB, Vector3I maxB)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public bool BoxIntersects(public sealed struct Vector3I minA, public sealed stru
 ### Summary
 
 ```csharp
-public bool BoxIntersects(ref public sealed struct Vector3I minA, ref public sealed struct Vector3I maxA, ref public sealed struct Vector3I minB, ref public sealed struct Vector3I maxB)
+public bool BoxIntersects(ref Vector3I minA, ref Vector3I maxA, ref Vector3I minB, ref Vector3I maxB)
 ```
 
 ### Returns

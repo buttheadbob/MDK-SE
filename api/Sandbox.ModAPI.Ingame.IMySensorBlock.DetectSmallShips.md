@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool DetectSmallShips { ; ; }
+public bool DetectSmallShips { get; set; }
 ```
 
 Gets or sets if the sensor should detect small ships.

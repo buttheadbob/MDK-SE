@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool IsAttached { ; }
+public bool IsAttached { get; }
 ```
 
 Gets if the block base is attached to something

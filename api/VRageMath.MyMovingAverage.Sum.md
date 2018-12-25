@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public double Sum { ; private ; }
+public double Sum { get; private set; }
 ```
 
 ### Returns

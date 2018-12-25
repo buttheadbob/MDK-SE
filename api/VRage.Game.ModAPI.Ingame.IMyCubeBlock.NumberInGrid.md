@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual int NumberInGrid { ; }
+public int NumberInGrid { get; }
 ```
 
 Order in which were the blocks of same type added to grid Used in default display name

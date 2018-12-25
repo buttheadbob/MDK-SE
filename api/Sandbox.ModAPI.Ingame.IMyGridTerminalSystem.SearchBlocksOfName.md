@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual void SearchBlocksOfName(string name, public class List<T> blocks, public sealed class Func<T, TResult> collect)
+public void SearchBlocksOfName(string name, List<T> blocks, Func<T, TResult> collect)
 ```
 
 ### Returns

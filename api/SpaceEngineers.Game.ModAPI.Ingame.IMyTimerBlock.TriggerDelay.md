@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float TriggerDelay { ; ; }
+public float TriggerDelay { get; set; }
 ```
 
 Gets or sets the countdown time, in seconds

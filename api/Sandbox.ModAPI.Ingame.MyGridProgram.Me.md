@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public interface IMyProgrammableBlock Me { ; protected ; }
+public virtual IMyProgrammableBlock Me { get; protected set; }
 ```
 
 Gets a reference to the currently running programmable block.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct BoundingBoxD BoundingBox
+public BoundingBoxD BoundingBox
 ```
 
 The entity's world-aligned bounding box

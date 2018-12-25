@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed enum ContainmentType Contains(ref public sealed struct BoundingBox box)
+public ContainmentType Contains(ref BoundingBox box)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public public sealed enum ContainmentType Contains(ref public sealed struct Bou
 ### Summary
 
 ```csharp
-public public sealed enum ContainmentType Contains(ref public sealed struct BoundingBoxD box)
+public ContainmentType Contains(ref BoundingBoxD box)
 ```
 
 ### Returns
@@ -27,7 +27,7 @@ public public sealed enum ContainmentType Contains(ref public sealed struct Bou
 ### Summary
 
 ```csharp
-public public sealed enum ContainmentType Contains(ref public sealed struct BoundingBox boxA, ref public sealed struct MyOrientedBoundingBox oboxB)
+public ContainmentType Contains(ref BoundingBox boxA, ref MyOrientedBoundingBox oboxB)
 ```
 
 ### Returns
@@ -39,7 +39,7 @@ public public sealed enum ContainmentType Contains(ref public sealed struct Bou
 ### Summary
 
 ```csharp
-public public sealed enum ContainmentType Contains(ref public sealed struct MyOrientedBoundingBoxD other)
+public ContainmentType Contains(ref MyOrientedBoundingBoxD other)
 ```
 
 ### Returns
@@ -51,7 +51,7 @@ public public sealed enum ContainmentType Contains(ref public sealed struct MyO
 ### Summary
 
 ```csharp
-public public sealed enum ContainmentType Contains(public class BoundingFrustumD frustum)
+public ContainmentType Contains(BoundingFrustumD frustum)
 ```
 
 ### Returns
@@ -63,7 +63,7 @@ public public sealed enum ContainmentType Contains(public class BoundingFrustumD
 ### Summary
 
 ```csharp
-public public sealed enum ContainmentType Contains(public class BoundingFrustumD frustum, ref public sealed struct MyOrientedBoundingBoxD obox)
+public ContainmentType Contains(BoundingFrustumD frustum, ref MyOrientedBoundingBoxD obox)
 ```
 
 ### Returns
@@ -75,7 +75,7 @@ public public sealed enum ContainmentType Contains(public class BoundingFrustumD
 ### Summary
 
 ```csharp
-public public sealed enum ContainmentType Contains(ref public sealed struct BoundingSphereD sphere)
+public ContainmentType Contains(ref BoundingSphereD sphere)
 ```
 
 ### Returns
@@ -87,7 +87,7 @@ public public sealed enum ContainmentType Contains(ref public sealed struct Bou
 ### Summary
 
 ```csharp
-public public sealed enum ContainmentType Contains(ref public sealed struct BoundingSphere sphere, ref public sealed struct MyOrientedBoundingBox box)
+public ContainmentType Contains(ref BoundingSphere sphere, ref MyOrientedBoundingBox box)
 ```
 
 ### Returns
@@ -99,7 +99,7 @@ public public sealed enum ContainmentType Contains(ref public sealed struct Bou
 ### Summary
 
 ```csharp
-public bool Contains(ref public sealed struct Vector3 point)
+public bool Contains(ref Vector3 point)
 ```
 
 ### Returns
@@ -111,7 +111,7 @@ public bool Contains(ref public sealed struct Vector3 point)
 ### Summary
 
 ```csharp
-public bool Contains(ref public sealed struct Vector3D point)
+public bool Contains(ref Vector3D point)
 ```
 
 ### Returns

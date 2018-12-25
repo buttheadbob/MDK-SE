@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float Strength { ; ; }
+public float Strength { get; set; }
 ```
 
 ### Returns

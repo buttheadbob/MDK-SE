@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public private sealed enum Direction GetCross(private sealed enum Direction dir1, private sealed enum Direction dir2)
+public Direction GetCross(Direction dir1, Direction dir2)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public sealed struct Vector3D TargetCoords { ; }
+public Vector3D TargetCoords { get; }
 ```
 
 get target coordinates

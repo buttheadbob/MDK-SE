@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3UByte Floor(public sealed struct Vector3 vec)
+public Vector3UByte Floor(Vector3 vec)
 ```
 
 ### Returns

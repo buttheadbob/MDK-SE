@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public int LineNo { ; }
+public int LineNo { get; }
 ```
 
 Gets the line number where an error occured.

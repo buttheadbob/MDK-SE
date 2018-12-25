@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool CooperativeMode { ; ; }
+public bool CooperativeMode { get; set; }
 ```
 
 Gets or sets whether this assembler should cooperate with other assemblers by adopting parts of their work queue.

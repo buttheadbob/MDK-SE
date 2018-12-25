@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct MyOrientedBoundingBox Transform(public sealed struct Quaternion rotation, public sealed struct Vector3 translation)
+public MyOrientedBoundingBox Transform(Quaternion rotation, Vector3 translation)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public public sealed struct MyOrientedBoundingBox Transform(public sealed struct
 ### Summary
 
 ```csharp
-public public sealed struct MyOrientedBoundingBox Transform(float scale, public sealed struct Quaternion rotation, public sealed struct Vector3 translation)
+public MyOrientedBoundingBox Transform(float scale, Quaternion rotation, Vector3 translation)
 ```
 
 ### Returns
@@ -27,7 +27,7 @@ public public sealed struct MyOrientedBoundingBox Transform(float scale, public 
 ### Summary
 
 ```csharp
-public void Transform(public sealed struct Matrix matrix)
+public void Transform(Matrix matrix)
 ```
 
 ### Returns

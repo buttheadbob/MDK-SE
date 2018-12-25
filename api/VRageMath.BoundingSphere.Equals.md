@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool Equals(public sealed struct BoundingSphere other)
+public bool Equals(BoundingSphere other)
 ```
 
 Determines whether the specified BoundingSphere is equal to the current BoundingSphere.

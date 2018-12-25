@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public sealed struct Vector3 FieldSize { ; ; }
+public Vector3 FieldSize { get; set; }
 ```
 
 Gets or sets the gravity field as a Vector3(W,H,D).

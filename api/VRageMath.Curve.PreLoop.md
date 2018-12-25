@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed enum CurveLoopType PreLoop { ; ; }
+public CurveLoopType PreLoop { get; set; }
 ```
 
 Specifies how to handle weighting values that are less than the first control point in the curve.

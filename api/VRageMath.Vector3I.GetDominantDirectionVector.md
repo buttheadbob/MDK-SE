@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3I GetDominantDirectionVector(public sealed struct Vector3I val)
+public Vector3I GetDominantDirectionVector(Vector3I val)
 ```
 
 ### Returns

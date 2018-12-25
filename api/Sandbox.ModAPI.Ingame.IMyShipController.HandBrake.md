@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool HandBrake { ; ; }
+public bool HandBrake { get; set; }
 ```
 
 Gets or sets the current state of the handbrake.

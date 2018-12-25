@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float PullStrength { ; ; }
+public float PullStrength { get; set; }
 ```
 
 Gets or sets the currently configured strength of the pull when the connector is within range of another.

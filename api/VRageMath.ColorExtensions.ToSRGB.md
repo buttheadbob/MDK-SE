@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector4 ToSRGB(public sealed struct Vector4 c)
+public Vector4 ToSRGB(Vector4 c)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public public sealed struct Vector4 ToSRGB(public sealed struct Vector4 c)
 ### Summary
 
 ```csharp
-public public sealed struct Vector3 ToSRGB(public sealed struct Vector3 c)
+public Vector3 ToSRGB(Vector3 c)
 ```
 
 ### Returns

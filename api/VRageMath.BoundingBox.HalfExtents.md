@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3 HalfExtents { ; }
+public Vector3 HalfExtents { get; }
 ```
 
 ### Returns

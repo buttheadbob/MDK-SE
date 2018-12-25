@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float SuspensionTravel { ; }
+public float SuspensionTravel { get; }
 ```
 
 Suspension travel, value from 0 to 1.

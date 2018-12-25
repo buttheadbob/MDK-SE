@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector2 Reflect(public sealed struct Vector2 vector, public sealed struct Vector2 normal)
+public Vector2 Reflect(Vector2 vector, Vector2 normal)
 ```
 
 Determines the reflect vector of the given vector and normal.
@@ -17,7 +17,7 @@ Determines the reflect vector of the given vector and normal.
 ### Summary
 
 ```csharp
-public void Reflect(ref public sealed struct Vector2 vector, ref public sealed struct Vector2 normal, ref public sealed struct Vector2 result)
+public void Reflect(ref Vector2 vector, ref Vector2 normal, ref Vector2 result)
 ```
 
 Determines the reflect vector of the given vector and normal.

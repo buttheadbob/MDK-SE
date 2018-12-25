@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void SetSize<T>(public class List<T> list, int newSize)
+public void SetSize<T>(List<T> list, int newSize)
 ```
 
 ### Returns

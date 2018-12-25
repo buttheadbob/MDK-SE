@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual string DisplayNameText { ; }
+public string DisplayNameText { get; }
 ```
 
 Translated block name

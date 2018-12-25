@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed class Plane[] Planes { ; }
+public Plane[] Planes { get; }
 ```
 
 ### Returns

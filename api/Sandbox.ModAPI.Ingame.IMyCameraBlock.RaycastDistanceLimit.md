@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual double RaycastDistanceLimit { ; }
+public double RaycastDistanceLimit { get; }
 ```
 
 Returns the maximum distance you can request a raycast. -1 means infinite.

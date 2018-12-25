@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3 ClampToSphere(public sealed struct Vector3 vector, float radius)
+public Vector3 ClampToSphere(Vector3 vector, float radius)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public public sealed struct Vector3 ClampToSphere(public sealed struct Vector3 v
 ### Summary
 
 ```csharp
-public void ClampToSphere(ref public sealed struct Vector3 vector, float radius)
+public void ClampToSphere(ref Vector3 vector, float radius)
 ```
 
 ### Returns

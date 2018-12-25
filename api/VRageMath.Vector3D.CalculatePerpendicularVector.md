@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3D CalculatePerpendicularVector(public sealed struct Vector3D v)
+public Vector3D CalculatePerpendicularVector(Vector3D v)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public public sealed struct Vector3D CalculatePerpendicularVector(public sealed 
 ### Summary
 
 ```csharp
-public void CalculatePerpendicularVector(ref public sealed struct Vector3D result)
+public void CalculatePerpendicularVector(ref Vector3D result)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float Falloff { ; ; }
+public float Falloff { get; set; }
 ```
 
 Gets or sets the current falloff of the light.

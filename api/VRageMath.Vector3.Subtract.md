@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3 Subtract(public sealed struct Vector3 value1, public sealed struct Vector3 value2)
+public Vector3 Subtract(Vector3 value1, Vector3 value2)
 ```
 
 Subtracts a vector from a vector.
@@ -17,7 +17,7 @@ Subtracts a vector from a vector.
 ### Summary
 
 ```csharp
-public void Subtract(ref public sealed struct Vector3 value1, ref public sealed struct Vector3 value2, ref public sealed struct Vector3 result)
+public void Subtract(ref Vector3 value1, ref Vector3 value2, ref Vector3 result)
 ```
 
 Subtracts a vector from a vector.

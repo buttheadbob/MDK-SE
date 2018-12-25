@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual string GetPublicText()
+public string GetPublicText()
 ```
 
 ### Returns

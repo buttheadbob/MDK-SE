@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Matrix Lerp(public sealed struct Matrix matrix1, public sealed struct Matrix matrix2, float amount)
+public Matrix Lerp(Matrix matrix1, Matrix matrix2, float amount)
 ```
 
 Linearly interpolates between the corresponding values of two matrices.
@@ -17,7 +17,7 @@ Linearly interpolates between the corresponding values of two matrices.
 ### Summary
 
 ```csharp
-public void Lerp(ref public sealed struct Matrix matrix1, ref public sealed struct Matrix matrix2, float amount, ref public sealed struct Matrix result)
+public void Lerp(ref Matrix matrix1, ref Matrix matrix2, float amount, ref Matrix result)
 ```
 
 Linearly interpolates between the corresponding values of two matrices.

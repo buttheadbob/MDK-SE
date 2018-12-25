@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool IsPowerOfTwo { ; }
+public bool IsPowerOfTwo { get; }
 ```
 
 ### Returns

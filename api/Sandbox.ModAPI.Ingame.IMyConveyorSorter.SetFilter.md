@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual void SetFilter(public sealed enum MyConveyorSorterMode mode, public class List<T> items)
+public void SetFilter(MyConveyorSorterMode mode, List<T> items)
 ```
 
 ### Returns

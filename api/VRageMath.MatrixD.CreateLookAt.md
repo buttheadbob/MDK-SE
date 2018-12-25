@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct MatrixD CreateLookAt(public sealed struct Vector3D cameraPosition, public sealed struct Vector3D cameraTarget, public sealed struct Vector3 cameraUpVector)
+public MatrixD CreateLookAt(Vector3D cameraPosition, Vector3D cameraTarget, Vector3 cameraUpVector)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public public sealed struct MatrixD CreateLookAt(public sealed struct Vector3D c
 ### Summary
 
 ```csharp
-public public sealed struct MatrixD CreateLookAt(public sealed struct Vector3D cameraPosition, public sealed struct Vector3D cameraTarget, public sealed struct Vector3D cameraUpVector)
+public MatrixD CreateLookAt(Vector3D cameraPosition, Vector3D cameraTarget, Vector3D cameraUpVector)
 ```
 
 Creates a view matrix.
@@ -29,7 +29,7 @@ Creates a view matrix.
 ### Summary
 
 ```csharp
-public void CreateLookAt(ref public sealed struct Vector3D cameraPosition, ref public sealed struct Vector3D cameraTarget, ref public sealed struct Vector3D cameraUpVector, ref public sealed struct MatrixD result)
+public void CreateLookAt(ref Vector3D cameraPosition, ref Vector3D cameraTarget, ref Vector3D cameraUpVector, ref MatrixD result)
 ```
 
 Creates a view matrix.

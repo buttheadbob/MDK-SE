@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public int AxisValue(private sealed enum Axis axis)
+public int AxisValue(Axis axis)
 ```
 
 ### Returns

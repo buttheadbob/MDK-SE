@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector4 Transform(public sealed struct Vector2 position, public sealed struct Matrix matrix)
+public Vector4 Transform(Vector2 position, Matrix matrix)
 ```
 
 Transforms a Vector2 by the given Matrix.
@@ -17,7 +17,7 @@ Transforms a Vector2 by the given Matrix.
 ### Summary
 
 ```csharp
-public void Transform(ref public sealed struct Vector2 position, ref public sealed struct Matrix matrix, ref public sealed struct Vector4 result)
+public void Transform(ref Vector2 position, ref Matrix matrix, ref Vector4 result)
 ```
 
 Transforms a Vector2 by the given Matrix.
@@ -31,7 +31,7 @@ Transforms a Vector2 by the given Matrix.
 ### Summary
 
 ```csharp
-public public sealed struct Vector4 Transform(public sealed struct Vector3 position, public sealed struct Matrix matrix)
+public Vector4 Transform(Vector3 position, Matrix matrix)
 ```
 
 Transforms a Vector3 by the given Matrix.
@@ -45,7 +45,7 @@ Transforms a Vector3 by the given Matrix.
 ### Summary
 
 ```csharp
-public void Transform(ref public sealed struct Vector3 position, ref public sealed struct Matrix matrix, ref public sealed struct Vector4 result)
+public void Transform(ref Vector3 position, ref Matrix matrix, ref Vector4 result)
 ```
 
 Transforms a Vector3 by the given Matrix.
@@ -59,7 +59,7 @@ Transforms a Vector3 by the given Matrix.
 ### Summary
 
 ```csharp
-public public sealed struct Vector4 Transform(public sealed struct Vector4 vector, public sealed struct Matrix matrix)
+public Vector4 Transform(Vector4 vector, Matrix matrix)
 ```
 
 Transforms a Vector4 by the specified Matrix.
@@ -73,7 +73,7 @@ Transforms a Vector4 by the specified Matrix.
 ### Summary
 
 ```csharp
-public void Transform(ref public sealed struct Vector4 vector, ref public sealed struct Matrix matrix, ref public sealed struct Vector4 result)
+public void Transform(ref Vector4 vector, ref Matrix matrix, ref Vector4 result)
 ```
 
 Transforms a Vector4 by the given Matrix.
@@ -87,7 +87,7 @@ Transforms a Vector4 by the given Matrix.
 ### Summary
 
 ```csharp
-public public sealed struct Vector4 Transform(public sealed struct Vector2 value, public sealed struct Quaternion rotation)
+public Vector4 Transform(Vector2 value, Quaternion rotation)
 ```
 
 Transforms a Vector2 by a specified Quaternion into a Vector4.
@@ -101,7 +101,7 @@ Transforms a Vector2 by a specified Quaternion into a Vector4.
 ### Summary
 
 ```csharp
-public void Transform(ref public sealed struct Vector2 value, ref public sealed struct Quaternion rotation, ref public sealed struct Vector4 result)
+public void Transform(ref Vector2 value, ref Quaternion rotation, ref Vector4 result)
 ```
 
 Transforms a Vector2 by a specified Quaternion into a Vector4.
@@ -115,7 +115,7 @@ Transforms a Vector2 by a specified Quaternion into a Vector4.
 ### Summary
 
 ```csharp
-public public sealed struct Vector4 Transform(public sealed struct Vector3 value, public sealed struct Quaternion rotation)
+public Vector4 Transform(Vector3 value, Quaternion rotation)
 ```
 
 Transforms a Vector3 by a specified Quaternion into a Vector4.
@@ -129,7 +129,7 @@ Transforms a Vector3 by a specified Quaternion into a Vector4.
 ### Summary
 
 ```csharp
-public void Transform(ref public sealed struct Vector3 value, ref public sealed struct Quaternion rotation, ref public sealed struct Vector4 result)
+public void Transform(ref Vector3 value, ref Quaternion rotation, ref Vector4 result)
 ```
 
 Transforms a Vector3 by a specified Quaternion into a Vector4.
@@ -143,7 +143,7 @@ Transforms a Vector3 by a specified Quaternion into a Vector4.
 ### Summary
 
 ```csharp
-public public sealed struct Vector4 Transform(public sealed struct Vector4 value, public sealed struct Quaternion rotation)
+public Vector4 Transform(Vector4 value, Quaternion rotation)
 ```
 
 Transforms a Vector4 by a specified Quaternion.
@@ -157,7 +157,7 @@ Transforms a Vector4 by a specified Quaternion.
 ### Summary
 
 ```csharp
-public void Transform(ref public sealed struct Vector4 value, ref public sealed struct Quaternion rotation, ref public sealed struct Vector4 result)
+public void Transform(ref Vector4 value, ref Quaternion rotation, ref Vector4 result)
 ```
 
 Transforms a Vector4 by a specified Quaternion.
@@ -171,7 +171,7 @@ Transforms a Vector4 by a specified Quaternion.
 ### Summary
 
 ```csharp
-public void Transform(public sealed class Vector4[] sourceArray, ref public sealed struct Matrix matrix, public sealed class Vector4[] destinationArray)
+public void Transform(Vector4[] sourceArray, ref Matrix matrix, Vector4[] destinationArray)
 ```
 
 Transforms an array of Vector4s by a specified Matrix.
@@ -185,7 +185,7 @@ Transforms an array of Vector4s by a specified Matrix.
 ### Summary
 
 ```csharp
-public void Transform(public sealed class Vector4[] sourceArray, int sourceIndex, ref public sealed struct Matrix matrix, public sealed class Vector4[] destinationArray, int destinationIndex, int length)
+public void Transform(Vector4[] sourceArray, int sourceIndex, ref Matrix matrix, Vector4[] destinationArray, int destinationIndex, int length)
 ```
 
 Transforms a specified range in an array of Vector4s by a specified Matrix into a specified range in a destination array.
@@ -199,7 +199,7 @@ Transforms a specified range in an array of Vector4s by a specified Matrix into 
 ### Summary
 
 ```csharp
-public void Transform(public sealed class Vector4[] sourceArray, ref public sealed struct Quaternion rotation, public sealed class Vector4[] destinationArray)
+public void Transform(Vector4[] sourceArray, ref Quaternion rotation, Vector4[] destinationArray)
 ```
 
 Transforms an array of Vector4s by a specified Quaternion.
@@ -213,7 +213,7 @@ Transforms an array of Vector4s by a specified Quaternion.
 ### Summary
 
 ```csharp
-public void Transform(public sealed class Vector4[] sourceArray, int sourceIndex, ref public sealed struct Quaternion rotation, public sealed class Vector4[] destinationArray, int destinationIndex, int length)
+public void Transform(Vector4[] sourceArray, int sourceIndex, ref Quaternion rotation, Vector4[] destinationArray, int destinationIndex, int length)
 ```
 
 Transforms a specified range in an array of Vector4s by a specified Quaternion into a specified range in a destination array.

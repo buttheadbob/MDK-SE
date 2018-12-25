@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void CreateRotationFromTwoVectors(ref public sealed struct Vector3 fromVector, ref public sealed struct Vector3 toVector, ref public sealed struct Matrix resultMatrix)
+public void CreateRotationFromTwoVectors(ref Vector3 fromVector, ref Vector3 toVector, ref Matrix resultMatrix)
 ```
 
 ### Returns

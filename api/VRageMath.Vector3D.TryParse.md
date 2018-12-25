@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool TryParse(string str, ref public sealed struct Vector3D retval)
+public bool TryParse(string str, ref Vector3D retval)
 ```
 
 ### Returns

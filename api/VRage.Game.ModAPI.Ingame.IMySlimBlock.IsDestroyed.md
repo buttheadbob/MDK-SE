@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool IsDestroyed { ; }
+public bool IsDestroyed { get; }
 ```
 
 Gets if component stack is empty

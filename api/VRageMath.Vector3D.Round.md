@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3I Round(public sealed struct Vector3D vect3d)
+public Vector3I Round(Vector3D vect3d)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public public sealed struct Vector3I Round(public sealed struct Vector3D vect3d)
 ### Summary
 
 ```csharp
-public public sealed struct Vector3D Round(public sealed struct Vector3D v, int numDecimals)
+public Vector3D Round(Vector3D v, int numDecimals)
 ```
 
 ### Returns

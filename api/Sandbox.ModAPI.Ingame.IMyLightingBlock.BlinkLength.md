@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float BlinkLength { ; ; }
+public float BlinkLength { get; set; }
 ```
 
 Gets or sets how much of the blinking interval should be spent with the light on, as a value between 0 and 1.

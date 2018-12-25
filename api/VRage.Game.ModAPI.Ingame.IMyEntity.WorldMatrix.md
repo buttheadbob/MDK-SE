@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public sealed struct MatrixD WorldMatrix { ; }
+public MatrixD WorldMatrix { get; }
 ```
 
 ### Returns

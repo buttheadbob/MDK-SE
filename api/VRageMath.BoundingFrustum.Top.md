@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Plane Top { ; }
+public Plane Top { get; }
 ```
 
 Gets the top plane of the BoundingFrustum.

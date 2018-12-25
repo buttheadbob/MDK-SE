@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector2D Zero
+public Vector2D Zero
 ```
 
 ### Returns

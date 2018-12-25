@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public float Dot(public sealed struct Vector4 value)
+public float Dot(Vector4 value)
 ```
 
 Calculates the dot product of a specified Vector4 and this Plane.
@@ -17,7 +17,7 @@ Calculates the dot product of a specified Vector4 and this Plane.
 ### Summary
 
 ```csharp
-public void Dot(ref public sealed struct Vector4 value, ref float result)
+public void Dot(ref Vector4 value, ref float result)
 ```
 
 Calculates the dot product of a specified Vector4 and this Plane.

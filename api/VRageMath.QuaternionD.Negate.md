@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct QuaternionD Negate(public sealed struct QuaternionD quaternion)
+public QuaternionD Negate(QuaternionD quaternion)
 ```
 
 Flips the sign of each component of the quaternion.
@@ -17,7 +17,7 @@ Flips the sign of each component of the quaternion.
 ### Summary
 
 ```csharp
-public void Negate(ref public sealed struct QuaternionD quaternion, ref public sealed struct QuaternionD result)
+public void Negate(ref QuaternionD quaternion, ref QuaternionD result)
 ```
 
 Flips the sign of each component of the quaternion.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool Between(ref public sealed struct Vector2D start, ref public sealed struct Vector2D end)
+public bool Between(ref Vector2D start, ref Vector2D end)
 ```
 
 ### Returns

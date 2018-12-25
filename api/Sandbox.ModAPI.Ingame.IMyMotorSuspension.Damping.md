@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float Damping { ; }
+public float Damping { get; }
 ```
 
 ### Returns

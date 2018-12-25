@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct MyFixedPoint MaxValue
+public MyFixedPoint MaxValue
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3 MaxValue
+public Vector3 MaxValue
 ```
 
 ### Returns

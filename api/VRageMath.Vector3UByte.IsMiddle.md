@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool IsMiddle(public sealed struct Vector3UByte vec)
+public bool IsMiddle(Vector3UByte vec)
 ```
 
 Returns true when all components are 127

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool EqualsIgnoreCase(public sealed struct StringSegment other)
+public bool EqualsIgnoreCase(StringSegment other)
 ```
 
 ### Returns

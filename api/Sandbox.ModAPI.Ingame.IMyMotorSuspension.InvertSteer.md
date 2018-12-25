@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool InvertSteer { ; ; }
+public bool InvertSteer { get; set; }
 ```
 
 ### Returns

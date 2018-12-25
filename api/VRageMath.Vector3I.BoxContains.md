@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool BoxContains(public sealed struct Vector3I boxMin, public sealed struct Vector3I boxMax, public sealed struct Vector3I pt)
+public bool BoxContains(Vector3I boxMin, Vector3I boxMax, Vector3I pt)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public bool BoxContains(public sealed struct Vector3I boxMin, public sealed stru
 ### Summary
 
 ```csharp
-public bool BoxContains(ref public sealed struct Vector3I boxMin, ref public sealed struct Vector3I boxMax, ref public sealed struct Vector3I pt)
+public bool BoxContains(ref Vector3I boxMin, ref Vector3I boxMax, ref Vector3I pt)
 ```
 
 ### Returns

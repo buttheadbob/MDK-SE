@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool IsIntegral(public sealed struct MyFixedPoint fp)
+public bool IsIntegral(MyFixedPoint fp)
 ```
 
 ### Returns

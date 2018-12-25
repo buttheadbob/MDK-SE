@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float MaxRange { ; }
+public float MaxRange { get; }
 ```
 
 Gets the maximum range of the sensor in any direction.

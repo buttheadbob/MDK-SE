@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public int Dot(ref public sealed struct Vector3I v)
+public int Dot(ref Vector3I v)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public int Dot(ref public sealed struct Vector3I v)
 ### Summary
 
 ```csharp
-public int Dot(public sealed struct Vector3I vector1, public sealed struct Vector3I vector2)
+public int Dot(Vector3I vector1, Vector3I vector2)
 ```
 
 ### Returns
@@ -27,7 +27,7 @@ public int Dot(public sealed struct Vector3I vector1, public sealed struct Vecto
 ### Summary
 
 ```csharp
-public int Dot(ref public sealed struct Vector3I vector1, ref public sealed struct Vector3I vector2)
+public int Dot(ref Vector3I vector1, ref Vector3I vector2)
 ```
 
 ### Returns
@@ -39,7 +39,7 @@ public int Dot(ref public sealed struct Vector3I vector1, ref public sealed st
 ### Summary
 
 ```csharp
-public void Dot(ref public sealed struct Vector3I vector1, ref public sealed struct Vector3I vector2, ref int dot)
+public void Dot(ref Vector3I vector1, ref Vector3I vector2, ref int dot)
 ```
 
 ### Returns

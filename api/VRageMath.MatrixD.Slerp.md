@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void Slerp(ref public sealed struct MatrixD matrix1, ref public sealed struct MatrixD matrix2, float amount, ref public sealed struct MatrixD result)
+public void Slerp(ref MatrixD matrix1, ref MatrixD matrix2, float amount, ref MatrixD result)
 ```
 
 Performs spherical linear interpolation of position and rotation.
@@ -17,7 +17,7 @@ Performs spherical linear interpolation of position and rotation.
 ### Summary
 
 ```csharp
-public void Slerp(public sealed struct MatrixD matrix1, public sealed struct MatrixD matrix2, float amount, ref public sealed struct MatrixD result)
+public void Slerp(MatrixD matrix1, MatrixD matrix2, float amount, ref MatrixD result)
 ```
 
 Performs spherical linear interpolation of position and rotation.
@@ -31,7 +31,7 @@ Performs spherical linear interpolation of position and rotation.
 ### Summary
 
 ```csharp
-public public sealed struct MatrixD Slerp(public sealed struct MatrixD matrix1, public sealed struct MatrixD matrix2, float amount)
+public MatrixD Slerp(MatrixD matrix1, MatrixD matrix2, float amount)
 ```
 
 Performs spherical linear interpolation of position and rotation.

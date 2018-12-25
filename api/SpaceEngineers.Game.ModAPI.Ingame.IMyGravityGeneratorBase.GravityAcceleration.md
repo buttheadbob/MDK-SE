@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float GravityAcceleration { ; ; }
+public float GravityAcceleration { get; set; }
 ```
 
 Gets or sets the gravity acceleration in m/s^2.

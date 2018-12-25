@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual void Apply(public interface IMyCubeBlock block)
+public void Apply(IMyCubeBlock block)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public virtual void Apply(public interface IMyCubeBlock block)
 ### Summary
 
 ```csharp
-public virtual void Apply(public interface IMyCubeBlock block, public sealed struct ListReader<T> terminalActionParameters)
+public void Apply(IMyCubeBlock block, ListReader<T> terminalActionParameters)
 ```
 
 ### Returns

@@ -17,7 +17,7 @@ Transforms this Quaternion into its conjugate.
 ### Summary
 
 ```csharp
-public public sealed struct Quaternion Conjugate(public sealed struct Quaternion value)
+public Quaternion Conjugate(Quaternion value)
 ```
 
 Returns the conjugate of a specified Quaternion.
@@ -31,7 +31,7 @@ Returns the conjugate of a specified Quaternion.
 ### Summary
 
 ```csharp
-public void Conjugate(ref public sealed struct Quaternion value, ref public sealed struct Quaternion result)
+public void Conjugate(ref Quaternion value, ref Quaternion result)
 ```
 
 Returns the conjugate of a specified Quaternion.

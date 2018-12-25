@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed class Vector3[] XNeighbourVectorsForw
+public Vector3[] XNeighbourVectorsForw
 ```
 
 ### Returns

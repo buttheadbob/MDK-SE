@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void Offset(public sealed struct Point amount)
+public void Offset(Point amount)
 ```
 
 Changes the position of the Rectangle.

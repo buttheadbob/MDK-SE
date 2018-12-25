@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct QuaternionD Inverse(public sealed struct QuaternionD quaternion)
+public QuaternionD Inverse(QuaternionD quaternion)
 ```
 
 Returns the inverse of a QuaternionD.
@@ -17,7 +17,7 @@ Returns the inverse of a QuaternionD.
 ### Summary
 
 ```csharp
-public void Inverse(ref public sealed struct QuaternionD quaternion, ref public sealed struct QuaternionD result)
+public void Inverse(ref QuaternionD quaternion, ref QuaternionD result)
 ```
 
 Returns the inverse of a QuaternionD.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public class T MaxBy<T>(public interface IEnumerable<T> source, public sealed class Func<T, TResult> selector)
+public T MaxBy<T>(IEnumerable<T> source, Func<T, TResult> selector)
 ```
 
 ### Returns

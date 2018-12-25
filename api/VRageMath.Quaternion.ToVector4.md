@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector4 ToVector4()
+public Vector4 ToVector4()
 ```
 
 ### Returns

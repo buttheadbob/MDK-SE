@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public interface IEnumerable<T> Vertices { ; }
+public IEnumerable<T> Vertices { get; }
 ```
 
 ### Returns

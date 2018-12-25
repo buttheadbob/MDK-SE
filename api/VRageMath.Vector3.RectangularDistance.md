@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public float RectangularDistance(public sealed struct Vector3 value1, public sealed struct Vector3 value2)
+public float RectangularDistance(Vector3 value1, Vector3 value2)
 ```
 
 Calculates rectangular distance (a.k.a. Manhattan distance or Chessboard distace) between two vectors.
@@ -17,7 +17,7 @@ Calculates rectangular distance (a.k.a. Manhattan distance or Chessboard distace
 ### Summary
 
 ```csharp
-public float RectangularDistance(ref public sealed struct Vector3 value1, ref public sealed struct Vector3 value2)
+public float RectangularDistance(ref Vector3 value1, ref Vector3 value2)
 ```
 
 Calculates rectangular distance (a.k.a. Manhattan distance or Chessboard distace) between two vectors.

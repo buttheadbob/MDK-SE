@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public private sealed enum Direction TransformDirection(private sealed enum Direction baseDirection)
+public Direction TransformDirection(Direction baseDirection)
 ```
 
 ### Returns

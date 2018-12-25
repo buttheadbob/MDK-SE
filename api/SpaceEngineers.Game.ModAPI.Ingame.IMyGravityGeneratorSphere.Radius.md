@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float Radius { ; ; }
+public float Radius { get; set; }
 ```
 
 Radius of the gravity field, in meters

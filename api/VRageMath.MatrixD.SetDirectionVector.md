@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void SetDirectionVector(private sealed enum Direction direction, public sealed struct Vector3D newValue)
+public void SetDirectionVector(Direction direction, Vector3D newValue)
 ```
 
 ### Returns

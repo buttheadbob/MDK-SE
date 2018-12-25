@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool DetectStations { ; ; }
+public bool DetectStations { get; set; }
 ```
 
 Gets or sets if the sensor should detect large stations.

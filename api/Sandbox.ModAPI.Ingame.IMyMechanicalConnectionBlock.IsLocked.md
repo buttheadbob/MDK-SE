@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool IsLocked { ; }
+public bool IsLocked { get; }
 ```
 
 Gets if the block is safety locked (welded)

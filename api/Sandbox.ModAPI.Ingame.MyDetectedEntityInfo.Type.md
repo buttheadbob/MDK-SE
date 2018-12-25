@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed enum MyDetectedEntityType Type
+public MyDetectedEntityType Type
 ```
 
 Enum describing the type of entity

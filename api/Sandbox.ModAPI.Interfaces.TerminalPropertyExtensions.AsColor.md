@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public interface ITerminalProperty<TValue> AsColor(public interface ITerminalProperty property)
+public ITerminalProperty<TValue> AsColor(ITerminalProperty property)
 ```
 
 Property type cast

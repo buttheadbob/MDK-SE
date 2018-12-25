@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public float Dot(public sealed struct Vector3 vector1, public sealed struct Vector3 vector2)
+public float Dot(Vector3 vector1, Vector3 vector2)
 ```
 
 Calculates the dot product of two vectors. If the two vectors are unit vectors, the dot product returns a floating point value between -1 and 1 that can be used to determine some properties of the angle between two vectors. For example, it can show whether the vectors are orthogonal, parallel, or have an acute or obtuse angle between them.
@@ -17,7 +17,7 @@ Calculates the dot product of two vectors. If the two vectors are unit vectors, 
 ### Summary
 
 ```csharp
-public void Dot(ref public sealed struct Vector3 vector1, ref public sealed struct Vector3 vector2, ref float result)
+public void Dot(ref Vector3 vector1, ref Vector3 vector2, ref float result)
 ```
 
 Calculates the dot product of two vectors and writes the result to a user-specified variable. If the two vectors are unit vectors, the dot product returns a floating point value between -1 and 1 that can be used to determine some properties of the angle between two vectors. For example, it can show whether the vectors are orthogonal, parallel, or have an acute or obtuse angle between them.
@@ -31,7 +31,7 @@ Calculates the dot product of two vectors and writes the result to a user-specif
 ### Summary
 
 ```csharp
-public float Dot(public sealed struct Vector3 v)
+public float Dot(Vector3 v)
 ```
 
 ### Returns
@@ -43,7 +43,7 @@ public float Dot(public sealed struct Vector3 v)
 ### Summary
 
 ```csharp
-public float Dot(ref public sealed struct Vector3 v)
+public float Dot(ref Vector3 v)
 ```
 
 ### Returns

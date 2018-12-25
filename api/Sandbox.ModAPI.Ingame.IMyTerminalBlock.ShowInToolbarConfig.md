@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool ShowInToolbarConfig { ; ; }
+public bool ShowInToolbarConfig { get; set; }
 ```
 
 ### Returns

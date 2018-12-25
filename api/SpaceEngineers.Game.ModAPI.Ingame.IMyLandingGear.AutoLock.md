@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool AutoLock { ; ; }
+public bool AutoLock { get; set; }
 ```
 
 Toggles the autolock of the landing gear.

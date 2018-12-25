@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool AnyoneCanUse { ; ; }
+public bool AnyoneCanUse { get; set; }
 ```
 
 Gets or sets if anyone is allowed to activate the buttons.

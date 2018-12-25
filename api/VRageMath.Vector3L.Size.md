@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public long Size { ; }
+public long Size { get; }
 ```
 
 How many cubes are in block with this size

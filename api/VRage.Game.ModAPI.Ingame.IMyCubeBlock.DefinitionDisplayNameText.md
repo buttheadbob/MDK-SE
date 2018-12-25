@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual string DefinitionDisplayNameText { ; }
+public string DefinitionDisplayNameText { get; }
 ```
 
 Definition name

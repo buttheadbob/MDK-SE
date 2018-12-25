@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float ThrustOverride { ; ; }
+public float ThrustOverride { get; set; }
 ```
 
 Gets or sets the override thrust amount, in Newtons (N)

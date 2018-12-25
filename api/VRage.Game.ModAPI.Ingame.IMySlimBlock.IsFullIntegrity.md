@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool IsFullIntegrity { ; }
+public bool IsFullIntegrity { get; }
 ```
 
 Integrity is at maximum

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool Equals(public sealed struct Point other)
+public bool Equals(Point other)
 ```
 
 Determines whether two Point instances are equal.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool IsEmpty { ; }
+public bool IsEmpty { get; }
 ```
 
 ### Returns

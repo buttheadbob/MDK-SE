@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3I Floor(public sealed struct Vector3D vect3d)
+public Vector3I Floor(Vector3D vect3d)
 ```
 
 ### Returns

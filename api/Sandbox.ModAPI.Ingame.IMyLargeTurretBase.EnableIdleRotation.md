@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool EnableIdleRotation { ; ; }
+public bool EnableIdleRotation { get; set; }
 ```
 
 enable/disable idle rotation for turret, this method is not synced, you need to sync manually

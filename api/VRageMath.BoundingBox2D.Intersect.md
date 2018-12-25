@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct BoundingBox2D Intersect(public sealed struct BoundingBox2D box)
+public BoundingBox2D Intersect(BoundingBox2D box)
 ```
 
 Returns bounding box which is intersection of this and box It's called 'Prunik' Result is invalid box when there's no intersection (Min > Max)

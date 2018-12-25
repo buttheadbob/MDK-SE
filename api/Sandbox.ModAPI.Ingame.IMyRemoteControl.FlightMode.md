@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public sealed enum FlightMode FlightMode { ; ; }
+public FlightMode FlightMode { get; set; }
 ```
 
 Gets or sets the current flight mode

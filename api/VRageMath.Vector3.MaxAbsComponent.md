@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3 MaxAbsComponent()
+public Vector3 MaxAbsComponent()
 ```
 
 Keeps only component with maximal absolute, others are set to zero.

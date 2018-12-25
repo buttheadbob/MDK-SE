@@ -15,7 +15,7 @@ public virtual bool Equals(object obj)
 ### Summary
 
 ```csharp
-public bool Equals(public sealed struct MyDefinitionId other)
+public bool Equals(MyDefinitionId other)
 ```
 
 ### Returns

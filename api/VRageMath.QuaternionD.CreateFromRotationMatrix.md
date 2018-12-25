@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct QuaternionD CreateFromRotationMatrix(public sealed struct MatrixD matrix)
+public QuaternionD CreateFromRotationMatrix(MatrixD matrix)
 ```
 
 Creates a QuaternionD from a rotation MatrixD.
@@ -17,7 +17,7 @@ Creates a QuaternionD from a rotation MatrixD.
 ### Summary
 
 ```csharp
-public void CreateFromRotationMatrix(ref public sealed struct MatrixD matrix, ref public sealed struct QuaternionD result)
+public void CreateFromRotationMatrix(ref MatrixD matrix, ref QuaternionD result)
 ```
 
 Creates a QuaternionD from a rotation MatrixD.

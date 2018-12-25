@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool IsValidIndex<T>(public class List<T> list, int index)
+public bool IsValidIndex<T>(List<T> list, int index)
 ```
 
 ### Returns

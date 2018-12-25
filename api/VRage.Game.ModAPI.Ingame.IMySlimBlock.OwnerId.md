@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual long OwnerId { ; }
+public long OwnerId { get; }
 ```
 
 Fatblock owner, if present; otherwise grid owner

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public private class MyLineSegmentOverlapResultComparer<T> DistanceComparer
+public MyLineSegmentOverlapResultComparer<T> DistanceComparer
 ```
 
 ### Returns

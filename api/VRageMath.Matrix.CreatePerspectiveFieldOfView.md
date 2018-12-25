@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Matrix CreatePerspectiveFieldOfView(float fieldOfView, float aspectRatio, float nearPlaneDistance, float farPlaneDistance)
+public Matrix CreatePerspectiveFieldOfView(float fieldOfView, float aspectRatio, float nearPlaneDistance, float farPlaneDistance)
 ```
 
 Builds a perspective projection matrix based on a field of view and returns by value.
@@ -17,7 +17,7 @@ Builds a perspective projection matrix based on a field of view and returns by v
 ### Summary
 
 ```csharp
-public void CreatePerspectiveFieldOfView(float fieldOfView, float aspectRatio, float nearPlaneDistance, float farPlaneDistance, ref public sealed struct Matrix result)
+public void CreatePerspectiveFieldOfView(float fieldOfView, float aspectRatio, float nearPlaneDistance, float farPlaneDistance, ref Matrix result)
 ```
 
 Builds a perspective projection matrix based on a field of view and returns by reference.

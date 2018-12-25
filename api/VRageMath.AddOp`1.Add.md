@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual void Add(public class T userData, bool contained)
+public void Add(T userData, bool contained)
 ```
 
 ### Returns

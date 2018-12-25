@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void MultiplyRotation(ref public sealed struct Matrix matrix1, ref public sealed struct Matrix matrix2, ref public sealed struct Matrix result)
+public void MultiplyRotation(ref Matrix matrix1, ref Matrix matrix2, ref Matrix result)
 ```
 
 Multiplies a matrix by another matrix, only rotation parts.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3 ToHsv(public sealed struct Vector3 rgb)
+public Vector3 ToHsv(Vector3 rgb)
 ```
 
 ### Returns

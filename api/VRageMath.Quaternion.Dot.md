@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public float Dot(public sealed struct Quaternion quaternion1, public sealed struct Quaternion quaternion2)
+public float Dot(Quaternion quaternion1, Quaternion quaternion2)
 ```
 
 Calculates the dot product of two Quaternions.
@@ -17,7 +17,7 @@ Calculates the dot product of two Quaternions.
 ### Summary
 
 ```csharp
-public void Dot(ref public sealed struct Quaternion quaternion1, ref public sealed struct Quaternion quaternion2, ref float result)
+public void Dot(ref Quaternion quaternion1, ref Quaternion quaternion2, ref float result)
 ```
 
 Calculates the dot product of two Quaternions.

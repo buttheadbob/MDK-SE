@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float MaxEffectiveThrust { ; }
+public float MaxEffectiveThrust { get; }
 ```
 
 Gets the maximum effective thrust amount, in Newtons (N)

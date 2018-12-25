@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector2D Floor(public sealed struct Vector2D position)
+public Vector2D Floor(Vector2D position)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct BoundingSphere CreateFromFrustum(public class BoundingFrustum frustum)
+public BoundingSphere CreateFromFrustum(BoundingFrustum frustum)
 ```
 
 Creates the smallest BoundingSphere that can contain a specified BoundingFrustum.

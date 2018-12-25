@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual void ClearCustomButtonName(int index)
+public void ClearCustomButtonName(int index)
 ```
 
 Clears the custom name of the specified button.

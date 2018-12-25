@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual void Disconnect()
+public void Disconnect()
 ```
 
 Disconnects this connector.

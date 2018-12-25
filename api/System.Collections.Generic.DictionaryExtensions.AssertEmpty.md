@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void AssertEmpty<K, V>(public class Dictionary<TKey, TValue> collection)
+public void AssertEmpty<K, V>(Dictionary<TKey, TValue> collection)
 ```
 
 ### Returns

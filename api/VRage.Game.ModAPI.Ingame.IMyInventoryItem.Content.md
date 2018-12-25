@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public abstract class MyObjectBuilder_Base Content { ; ; }
+public MyObjectBuilder_Base Content { get; set; }
 ```
 
 ### Returns

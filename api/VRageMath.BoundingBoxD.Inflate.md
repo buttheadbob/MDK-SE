@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct BoundingBoxD Inflate(double size)
+public BoundingBoxD Inflate(double size)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public public sealed struct BoundingBoxD Inflate(double size)
 ### Summary
 
 ```csharp
-public public sealed struct BoundingBoxD Inflate(public sealed struct Vector3 size)
+public BoundingBoxD Inflate(Vector3 size)
 ```
 
 ### Returns

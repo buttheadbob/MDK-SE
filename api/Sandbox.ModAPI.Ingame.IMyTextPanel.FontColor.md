@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public sealed struct Color FontColor { ; ; }
+public Color FontColor { get; set; }
 ```
 
 Gets or sets font color

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Quaternion FromVector4(public sealed struct Vector4 v)
+public Quaternion FromVector4(Vector4 v)
 ```
 
 ### Returns

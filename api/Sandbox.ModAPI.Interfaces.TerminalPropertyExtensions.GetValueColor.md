@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Color GetValueColor(public interface IMyTerminalBlock block, string propertyId)
+public Color GetValueColor(IMyTerminalBlock block, string propertyId)
 ```
 
 Returns value of specified property

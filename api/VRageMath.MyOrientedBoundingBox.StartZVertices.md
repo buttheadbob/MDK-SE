@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed class Int32[] StartZVertices
+public Int32[] StartZVertices
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool Intersects(public sealed struct BoundingBoxD box)
+public bool Intersects(BoundingBoxD box)
 ```
 
 Checks whether the current BoundingSphereD intersects with a specified BoundingBoxD.
@@ -17,7 +17,7 @@ Checks whether the current BoundingSphereD intersects with a specified BoundingB
 ### Summary
 
 ```csharp
-public void Intersects(ref public sealed struct BoundingBoxD box, ref bool result)
+public void Intersects(ref BoundingBoxD box, ref bool result)
 ```
 
 Checks whether the current BoundingSphereD intersects a BoundingBoxD.
@@ -31,7 +31,7 @@ Checks whether the current BoundingSphereD intersects a BoundingBoxD.
 ### Summary
 
 ```csharp
-public public sealed struct Nullable<T> Intersects(public sealed struct RayD ray)
+public Nullable<T> Intersects(RayD ray)
 ```
 
 ### Returns
@@ -43,7 +43,7 @@ public public sealed struct Nullable<T> Intersects(public sealed struct RayD ray
 ### Summary
 
 ```csharp
-public bool Intersects(public class BoundingFrustumD frustum)
+public bool Intersects(BoundingFrustumD frustum)
 ```
 
 Checks whether the current BoundingSphereD intersects with a specified BoundingFrustum.
@@ -57,7 +57,7 @@ Checks whether the current BoundingSphereD intersects with a specified BoundingF
 ### Summary
 
 ```csharp
-public bool Intersects(public sealed struct BoundingSphereD sphere)
+public bool Intersects(BoundingSphereD sphere)
 ```
 
 Checks whether the current BoundingSphereD intersects with a specified BoundingSphereD.
@@ -71,7 +71,7 @@ Checks whether the current BoundingSphereD intersects with a specified BoundingS
 ### Summary
 
 ```csharp
-public void Intersects(ref public sealed struct BoundingSphereD sphere, ref bool result)
+public void Intersects(ref BoundingSphereD sphere, ref bool result)
 ```
 
 Checks whether the current BoundingSphereD intersects another BoundingSphereD.

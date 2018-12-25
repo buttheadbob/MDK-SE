@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public int Bottom { ; }
+public int Bottom { get; }
 ```
 
 Returns the y-coordinate of the bottom of the rectangle.

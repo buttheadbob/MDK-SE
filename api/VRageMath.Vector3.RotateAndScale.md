@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void RotateAndScale(ref public sealed struct Vector3 vector, ref public sealed struct Matrix matrix, ref public sealed struct Vector3 result)
+public void RotateAndScale(ref Vector3 vector, ref Matrix matrix, ref Vector3 result)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public void RotateAndScale(ref public sealed struct Vector3 vector, ref public
 ### Summary
 
 ```csharp
-public public sealed struct Vector3 RotateAndScale(public sealed struct Vector3 vector, public sealed struct Matrix matrix)
+public Vector3 RotateAndScale(Vector3 vector, Matrix matrix)
 ```
 
 ### Returns

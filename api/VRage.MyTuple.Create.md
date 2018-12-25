@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct MyTuple<T1> Create<T1>(public class T1 arg1)
+public MyTuple<T1> Create<T1>(T1 arg1)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public public sealed struct MyTuple<T1> Create<T1>(public class T1 arg1)
 ### Summary
 
 ```csharp
-public public sealed struct MyTuple<T1, T2> Create<T1, T2>(public class T1 arg1, public class T2 arg2)
+public MyTuple<T1, T2> Create<T1, T2>(T1 arg1, T2 arg2)
 ```
 
 ### Returns
@@ -27,7 +27,7 @@ public public sealed struct MyTuple<T1, T2> Create<T1, T2>(public class T1 arg1,
 ### Summary
 
 ```csharp
-public public sealed struct MyTuple<T1, T2, T3> Create<T1, T2, T3>(public class T1 arg1, public class T2 arg2, public class T3 arg3)
+public MyTuple<T1, T2, T3> Create<T1, T2, T3>(T1 arg1, T2 arg2, T3 arg3)
 ```
 
 ### Returns
@@ -39,7 +39,7 @@ public public sealed struct MyTuple<T1, T2, T3> Create<T1, T2, T3>(public class 
 ### Summary
 
 ```csharp
-public public sealed struct MyTuple<T1, T2, T3, T4> Create<T1, T2, T3, T4>(public class T1 arg1, public class T2 arg2, public class T3 arg3, public class T4 arg4)
+public MyTuple<T1, T2, T3, T4> Create<T1, T2, T3, T4>(T1 arg1, T2 arg2, T3 arg3, T4 arg4)
 ```
 
 ### Returns
@@ -51,7 +51,7 @@ public public sealed struct MyTuple<T1, T2, T3, T4> Create<T1, T2, T3, T4>(publi
 ### Summary
 
 ```csharp
-public public sealed struct MyTuple<T1, T2, T3, T4, T5> Create<T1, T2, T3, T4, T5>(public class T1 arg1, public class T2 arg2, public class T3 arg3, public class T4 arg4, public class T5 arg5)
+public MyTuple<T1, T2, T3, T4, T5> Create<T1, T2, T3, T4, T5>(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5)
 ```
 
 ### Returns
@@ -63,7 +63,7 @@ public public sealed struct MyTuple<T1, T2, T3, T4, T5> Create<T1, T2, T3, T4, T
 ### Summary
 
 ```csharp
-public public sealed struct MyTuple<T1, T2, T3, T4, T5, T6> Create<T1, T2, T3, T4, T5, T6>(public class T1 arg1, public class T2 arg2, public class T3 arg3, public class T4 arg4, public class T5 arg5, public class T6 arg6)
+public MyTuple<T1, T2, T3, T4, T5, T6> Create<T1, T2, T3, T4, T5, T6>(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6)
 ```
 
 ### Returns

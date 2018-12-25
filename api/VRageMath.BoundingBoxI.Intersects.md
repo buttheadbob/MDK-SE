@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool Intersects(public sealed struct BoundingBoxI box)
+public bool Intersects(BoundingBoxI box)
 ```
 
 Checks whether the current BoundingBoxI intersects another BoundingBoxI.
@@ -17,7 +17,7 @@ Checks whether the current BoundingBoxI intersects another BoundingBoxI.
 ### Summary
 
 ```csharp
-public bool Intersects(ref public sealed struct BoundingBoxI box)
+public bool Intersects(ref BoundingBoxI box)
 ```
 
 ### Returns
@@ -29,7 +29,7 @@ public bool Intersects(ref public sealed struct BoundingBoxI box)
 ### Summary
 
 ```csharp
-public void Intersects(ref public sealed struct BoundingBoxI box, ref bool result)
+public void Intersects(ref BoundingBoxI box, ref bool result)
 ```
 
 Checks whether the current BoundingBoxI intersects another BoundingBoxI.
@@ -43,7 +43,7 @@ Checks whether the current BoundingBoxI intersects another BoundingBoxI.
 ### Summary
 
 ```csharp
-public public sealed enum PlaneIntersectionType Intersects(public sealed struct Plane plane)
+public PlaneIntersectionType Intersects(Plane plane)
 ```
 
 Checks whether the current BoundingBoxI intersects a Plane.
@@ -57,7 +57,7 @@ Checks whether the current BoundingBoxI intersects a Plane.
 ### Summary
 
 ```csharp
-public void Intersects(ref public sealed struct Plane plane, ref public sealed enum PlaneIntersectionType result)
+public void Intersects(ref Plane plane, ref PlaneIntersectionType result)
 ```
 
 Checks whether the current BoundingBoxI intersects a Plane.
@@ -71,7 +71,7 @@ Checks whether the current BoundingBoxI intersects a Plane.
 ### Summary
 
 ```csharp
-public bool Intersects(public sealed struct Line line, ref float distance)
+public bool Intersects(Line line, ref float distance)
 ```
 
 ### Returns
@@ -83,7 +83,7 @@ public bool Intersects(public sealed struct Line line, ref float distance)
 ### Summary
 
 ```csharp
-public public sealed struct Nullable<T> Intersects(public sealed struct Ray ray)
+public Nullable<T> Intersects(Ray ray)
 ```
 
 Checks whether the current BoundingBoxI intersects a Ray.
@@ -97,7 +97,7 @@ Checks whether the current BoundingBoxI intersects a Ray.
 ### Summary
 
 ```csharp
-public void Intersects(ref public sealed struct Ray ray, ref public sealed struct Nullable<T> result)
+public void Intersects(ref Ray ray, ref Nullable<T> result)
 ```
 
 ### Returns

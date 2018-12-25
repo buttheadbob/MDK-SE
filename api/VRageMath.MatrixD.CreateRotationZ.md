@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct MatrixD CreateRotationZ(double radians)
+public MatrixD CreateRotationZ(double radians)
 ```
 
 Returns a matrix that can be used to rotate a set of vertices around the z-axis.
@@ -17,7 +17,7 @@ Returns a matrix that can be used to rotate a set of vertices around the z-axis.
 ### Summary
 
 ```csharp
-public void CreateRotationZ(double radians, ref public sealed struct MatrixD result)
+public void CreateRotationZ(double radians, ref MatrixD result)
 ```
 
 Populates data into a user-specified matrix that can be used to rotate a set of vertices around the z-axis.

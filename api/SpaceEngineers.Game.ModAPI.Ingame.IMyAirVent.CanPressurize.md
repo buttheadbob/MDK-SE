@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool CanPressurize { ; }
+public bool CanPressurize { get; }
 ```
 
 Can fill room with air true - room is airtight false - room is not airtight

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool IsConnectedTo(public interface IMyInventory dst)
+public bool IsConnectedTo(IMyInventory dst)
 ```
 
 ### Returns

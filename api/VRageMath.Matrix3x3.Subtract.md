@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void Subtract(ref public sealed struct Matrix3x3 matrix1, ref public sealed struct Matrix3x3 matrix2, ref public sealed struct Matrix3x3 result)
+public void Subtract(ref Matrix3x3 matrix1, ref Matrix3x3 matrix2, ref Matrix3x3 result)
 ```
 
 Subtracts matrices.

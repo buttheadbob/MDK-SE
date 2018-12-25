@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool DetectNeutral { ; ; }
+public bool DetectNeutral { get; set; }
 ```
 
 Gets or sets if the sensor should detect neutral players.

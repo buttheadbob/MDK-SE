@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed enum ContainmentType Contains(public sealed struct BoundingBoxI box)
+public ContainmentType Contains(BoundingBoxI box)
 ```
 
 Tests whether the BoundingBoxI contains another BoundingBoxI.
@@ -17,7 +17,7 @@ Tests whether the BoundingBoxI contains another BoundingBoxI.
 ### Summary
 
 ```csharp
-public void Contains(ref public sealed struct BoundingBoxI box, ref public sealed enum ContainmentType result)
+public void Contains(ref BoundingBoxI box, ref ContainmentType result)
 ```
 
 Tests whether the BoundingBoxI contains a BoundingBoxI.
@@ -31,7 +31,7 @@ Tests whether the BoundingBoxI contains a BoundingBoxI.
 ### Summary
 
 ```csharp
-public public sealed enum ContainmentType Contains(public sealed struct Vector3I point)
+public ContainmentType Contains(Vector3I point)
 ```
 
 Tests whether the BoundingBoxI contains a point.
@@ -45,7 +45,7 @@ Tests whether the BoundingBoxI contains a point.
 ### Summary
 
 ```csharp
-public public sealed enum ContainmentType Contains(public sealed struct Vector3 point)
+public ContainmentType Contains(Vector3 point)
 ```
 
 ### Returns
@@ -57,7 +57,7 @@ public public sealed enum ContainmentType Contains(public sealed struct Vector3 
 ### Summary
 
 ```csharp
-public void Contains(ref public sealed struct Vector3I point, ref public sealed enum ContainmentType result)
+public void Contains(ref Vector3I point, ref ContainmentType result)
 ```
 
 Tests whether the BoundingBoxI contains a point.

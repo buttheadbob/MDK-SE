@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct HalfVector4 Orientation
+public HalfVector4 Orientation
 ```
 
 ### Returns

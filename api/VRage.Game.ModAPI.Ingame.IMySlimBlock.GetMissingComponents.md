@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual void GetMissingComponents(public class Dictionary<TKey, TValue> addToDictionary)
+public void GetMissingComponents(Dictionary<TKey, TValue> addToDictionary)
 ```
 
 ### Returns

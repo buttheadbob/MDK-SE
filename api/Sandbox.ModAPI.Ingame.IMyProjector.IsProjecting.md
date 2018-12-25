@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool IsProjecting { ; }
+public bool IsProjecting { get; }
 ```
 
 Checks if there is an active projection

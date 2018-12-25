@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public class Dictionary<TKey, TValue> RemainingBlocksPerType { ; }
+public Dictionary<TKey, TValue> RemainingBlocksPerType { get; }
 ```
 
 A comprehensive list of blocks left to be welded

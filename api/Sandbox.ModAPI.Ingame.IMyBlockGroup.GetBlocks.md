@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual void GetBlocks(public class List<T> blocks, public sealed class Func<T, TResult> collect)
+public void GetBlocks(List<T> blocks, Func<T, TResult> collect)
 ```
 
 ### Returns

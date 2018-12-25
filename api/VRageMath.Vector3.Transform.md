@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3 Transform(public sealed struct Vector3 position, public sealed struct Matrix matrix)
+public Vector3 Transform(Vector3 position, Matrix matrix)
 ```
 
 Transforms a 3D vector by the given matrix.
@@ -17,7 +17,7 @@ Transforms a 3D vector by the given matrix.
 ### Summary
 
 ```csharp
-public public sealed struct Vector3D Transform(public sealed struct Vector3 position, public sealed struct MatrixD matrix)
+public Vector3D Transform(Vector3 position, MatrixD matrix)
 ```
 
 Transforms a 3D vector by the given matrix.
@@ -31,7 +31,7 @@ Transforms a 3D vector by the given matrix.
 ### Summary
 
 ```csharp
-public public sealed struct Vector3 Transform(public sealed struct Vector3 position, ref public sealed struct Matrix matrix)
+public Vector3 Transform(Vector3 position, ref Matrix matrix)
 ```
 
 ### Returns
@@ -43,7 +43,7 @@ public public sealed struct Vector3 Transform(public sealed struct Vector3 posit
 ### Summary
 
 ```csharp
-public void Transform(ref public sealed struct Vector3 position, ref public sealed struct Matrix matrix, ref public sealed struct Vector3 result)
+public void Transform(ref Vector3 position, ref Matrix matrix, ref Vector3 result)
 ```
 
 Transforms a Vector3 by the given Matrix.
@@ -57,7 +57,7 @@ Transforms a Vector3 by the given Matrix.
 ### Summary
 
 ```csharp
-public void Transform(ref public sealed struct Vector3 position, ref public sealed struct MatrixI matrix, ref public sealed struct Vector3 result)
+public void Transform(ref Vector3 position, ref MatrixI matrix, ref Vector3 result)
 ```
 
 ### Returns
@@ -69,21 +69,7 @@ public void Transform(ref public sealed struct Vector3 position, ref public se
 ### Summary
 
 ```csharp
-public public sealed struct Vector3 Transform(public sealed struct Vector3 value, public sealed struct Quaternion rotation)
-```
-
-Transforms a Vector3 by a specified Quaternion rotation.
-
-### Returns
-
-### Example
-
-### Remarks
-
-### Summary
-
-```csharp
-public void Transform(ref public sealed struct Vector3 value, ref public sealed struct Quaternion rotation, ref public sealed struct Vector3 result)
+public Vector3 Transform(Vector3 value, Quaternion rotation)
 ```
 
 Transforms a Vector3 by a specified Quaternion rotation.
@@ -97,7 +83,21 @@ Transforms a Vector3 by a specified Quaternion rotation.
 ### Summary
 
 ```csharp
-public void Transform(public sealed class Vector3[] sourceArray, ref public sealed struct Matrix matrix, public sealed class Vector3[] destinationArray)
+public void Transform(ref Vector3 value, ref Quaternion rotation, ref Vector3 result)
+```
+
+Transforms a Vector3 by a specified Quaternion rotation.
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+public void Transform(Vector3[] sourceArray, ref Matrix matrix, Vector3[] destinationArray)
 ```
 
 Transforms a source array of Vector3s by a specified Matrix and writes the results to an existing destination array.
@@ -111,7 +111,7 @@ Transforms a source array of Vector3s by a specified Matrix and writes the resul
 ### Summary
 
 ```csharp
-public void Transform(public sealed class Vector3[] sourceArray, int sourceIndex, ref public sealed struct Matrix matrix, public sealed class Vector3[] destinationArray, int destinationIndex, int length)
+public void Transform(Vector3[] sourceArray, int sourceIndex, ref Matrix matrix, Vector3[] destinationArray, int destinationIndex, int length)
 ```
 
 Applies a specified transform Matrix to a specified range of an array of Vector3s and writes the results into a specified range of a destination array.
@@ -125,7 +125,7 @@ Applies a specified transform Matrix to a specified range of an array of Vector3
 ### Summary
 
 ```csharp
-public void Transform(public sealed class Vector3[] sourceArray, ref public sealed struct Quaternion rotation, public sealed class Vector3[] destinationArray)
+public void Transform(Vector3[] sourceArray, ref Quaternion rotation, Vector3[] destinationArray)
 ```
 
 Transforms a source array of Vector3s by a specified Quaternion rotation and writes the results to an existing destination array.
@@ -139,7 +139,7 @@ Transforms a source array of Vector3s by a specified Quaternion rotation and wri
 ### Summary
 
 ```csharp
-public void Transform(public sealed class Vector3[] sourceArray, int sourceIndex, ref public sealed struct Quaternion rotation, public sealed class Vector3[] destinationArray, int destinationIndex, int length)
+public void Transform(Vector3[] sourceArray, int sourceIndex, ref Quaternion rotation, Vector3[] destinationArray, int destinationIndex, int length)
 ```
 
 Applies a specified Quaternion rotation to a specified range of an array of Vector3s and writes the results into a specified range of a destination array.

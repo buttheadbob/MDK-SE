@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public sealed enum MyAssemblerMode Mode { ; ; }
+public MyAssemblerMode Mode { get; set; }
 ```
 
 Gets or sets the current work mode of this assembly, whether it's assembling or disassembling.

@@ -17,7 +17,7 @@ Changes the coefficients of the Normal vector of this PlaneD to make it of unit 
 ### Summary
 
 ```csharp
-public public sealed struct PlaneD Normalize(public sealed struct PlaneD value)
+public PlaneD Normalize(PlaneD value)
 ```
 
 Changes the coefficients of the Normal vector of a PlaneD to make it of unit length.
@@ -31,7 +31,7 @@ Changes the coefficients of the Normal vector of a PlaneD to make it of unit len
 ### Summary
 
 ```csharp
-public void Normalize(ref public sealed struct PlaneD value, ref public sealed struct PlaneD result)
+public void Normalize(ref PlaneD value, ref PlaneD result)
 ```
 
 Changes the coefficients of the Normal vector of a PlaneD to make it of unit length.

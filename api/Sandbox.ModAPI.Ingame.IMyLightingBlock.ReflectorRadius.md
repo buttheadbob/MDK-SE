@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float ReflectorRadius { ; }
+public float ReflectorRadius { get; }
 ```
 
 ### Returns

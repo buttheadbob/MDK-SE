@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public float AngleBetween(public sealed struct Vector3 a, public sealed struct Vector3 b)
+public float AngleBetween(Vector3 a, Vector3 b)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool EnableRaycast { ; ; }
+public bool EnableRaycast { get; set; }
 ```
 
 When this is true, the available raycast distance will count up, and power usage is increased.

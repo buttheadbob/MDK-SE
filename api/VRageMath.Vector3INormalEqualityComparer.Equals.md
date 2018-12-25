@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool Equals(public sealed struct Vector3I x, public sealed struct Vector3I y)
+public bool Equals(Vector3I x, Vector3I y)
 ```
 
 ### Returns

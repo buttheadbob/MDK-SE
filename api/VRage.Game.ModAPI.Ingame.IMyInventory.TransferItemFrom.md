@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool TransferItemFrom(public interface IMyInventory sourceInventory, int sourceItemIndex, public sealed struct Nullable<T> targetItemIndex, public sealed struct Nullable<T> stackIfPossible, public sealed struct Nullable<T> amount)
+public bool TransferItemFrom(IMyInventory sourceInventory, int sourceItemIndex, Nullable<T> targetItemIndex, Nullable<T> stackIfPossible, Nullable<T> amount)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public virtual bool TransferItemFrom(public interface IMyInventory sourceInvento
 ### Summary
 
 ```csharp
-public virtual bool TransferItemFrom(public interface IMyInventory sourceInventory, public interface IMyInventoryItem item, public sealed struct MyFixedPoint amount)
+public bool TransferItemFrom(IMyInventory sourceInventory, IMyInventoryItem item, MyFixedPoint amount)
 ```
 
 ### Returns

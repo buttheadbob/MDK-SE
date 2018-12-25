@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual void GetQueue(public class List<T> items)
+public void GetQueue(List<T> items)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct MatrixD UnpackOrthoMatrix(ref public sealed struct Vector4D packed)
+public MatrixD UnpackOrthoMatrix(ref Vector4D packed)
 ```
 
 ### Returns

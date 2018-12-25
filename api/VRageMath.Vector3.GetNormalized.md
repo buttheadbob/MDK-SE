@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool GetNormalized(ref public sealed struct Vector3 value)
+public bool GetNormalized(ref Vector3 value)
 ```
 
 ### Returns

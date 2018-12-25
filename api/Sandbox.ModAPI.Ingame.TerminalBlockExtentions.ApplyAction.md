@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void ApplyAction(public interface IMyTerminalBlock block, string actionName)
+public void ApplyAction(IMyTerminalBlock block, string actionName)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public void ApplyAction(public interface IMyTerminalBlock block, string actionNa
 ### Summary
 
 ```csharp
-public void ApplyAction(public interface IMyTerminalBlock block, string actionName, public class List<T> parameters)
+public void ApplyAction(IMyTerminalBlock block, string actionName, List<T> parameters)
 ```
 
 ### Returns

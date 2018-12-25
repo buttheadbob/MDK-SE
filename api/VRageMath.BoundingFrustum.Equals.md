@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool Equals(public class BoundingFrustum other)
+public bool Equals(BoundingFrustum other)
 ```
 
 Determines whether the specified BoundingFrustum is equal to the current BoundingFrustum.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public private sealed enum Direction GetDirectionInAxis(public sealed struct Vector3 vec, private sealed enum Axis axis)
+public Direction GetDirectionInAxis(Vector3 vec, Axis axis)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public private sealed enum Direction GetDirectionInAxis(public sealed struct Vec
 ### Summary
 
 ```csharp
-public private sealed enum Direction GetDirectionInAxis(ref public sealed struct Vector3 vec, private sealed enum Axis axis)
+public Direction GetDirectionInAxis(ref Vector3 vec, Axis axis)
 ```
 
 ### Returns

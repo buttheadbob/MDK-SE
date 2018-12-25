@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct MyIniKey Key
+public MyIniKey Key
 ```
 
 Gets the [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) this value was retrieved from

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float RaycastConeLimit { ; }
+public float RaycastConeLimit { get; }
 ```
 
 Returns the maximum positive angle you can apply for pitch and yaw.

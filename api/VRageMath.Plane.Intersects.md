@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed enum PlaneIntersectionType Intersects(public sealed struct BoundingBox box)
+public PlaneIntersectionType Intersects(BoundingBox box)
 ```
 
 Checks whether the current Plane intersects a specified BoundingBox.
@@ -17,7 +17,7 @@ Checks whether the current Plane intersects a specified BoundingBox.
 ### Summary
 
 ```csharp
-public void Intersects(ref public sealed struct BoundingBox box, ref public sealed enum PlaneIntersectionType result)
+public void Intersects(ref BoundingBox box, ref PlaneIntersectionType result)
 ```
 
 Checks whether the current Plane intersects a BoundingBox.
@@ -31,7 +31,7 @@ Checks whether the current Plane intersects a BoundingBox.
 ### Summary
 
 ```csharp
-public public sealed enum PlaneIntersectionType Intersects(public class BoundingFrustum frustum)
+public PlaneIntersectionType Intersects(BoundingFrustum frustum)
 ```
 
 Checks whether the current Plane intersects a specified BoundingFrustum.
@@ -45,7 +45,7 @@ Checks whether the current Plane intersects a specified BoundingFrustum.
 ### Summary
 
 ```csharp
-public public sealed enum PlaneIntersectionType Intersects(public sealed struct BoundingSphere sphere)
+public PlaneIntersectionType Intersects(BoundingSphere sphere)
 ```
 
 Checks whether the current Plane intersects a specified BoundingSphere.
@@ -59,7 +59,7 @@ Checks whether the current Plane intersects a specified BoundingSphere.
 ### Summary
 
 ```csharp
-public void Intersects(ref public sealed struct BoundingSphere sphere, ref public sealed enum PlaneIntersectionType result)
+public void Intersects(ref BoundingSphere sphere, ref PlaneIntersectionType result)
 ```
 
 Checks whether the current Plane intersects a BoundingSphere.

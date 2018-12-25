@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void Transform(ref public sealed struct Vector3L position, ref public sealed struct Matrix matrix, ref public sealed struct Vector3L result)
+public void Transform(ref Vector3L position, ref Matrix matrix, ref Vector3L result)
 ```
 
 Transforms a Vector3L by the given Matrix.
@@ -17,7 +17,7 @@ Transforms a Vector3L by the given Matrix.
 ### Summary
 
 ```csharp
-public void Transform(ref public sealed struct Vector3L value, ref public sealed struct Quaternion rotation, ref public sealed struct Vector3L result)
+public void Transform(ref Vector3L value, ref Quaternion rotation, ref Vector3L result)
 ```
 
 ### Returns
@@ -29,7 +29,7 @@ public void Transform(ref public sealed struct Vector3L value, ref public seal
 ### Summary
 
 ```csharp
-public public sealed struct Vector3L Transform(public sealed struct Vector3L value, public sealed struct Quaternion rotation)
+public Vector3L Transform(Vector3L value, Quaternion rotation)
 ```
 
 ### Returns

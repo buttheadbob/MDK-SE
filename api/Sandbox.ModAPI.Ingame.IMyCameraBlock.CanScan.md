@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool CanScan(double distance)
+public bool CanScan(double distance)
 ```
 
 Checks if the camera can scan the given distance.
@@ -19,7 +19,7 @@ Checks if the camera can scan the given distance.
 ### Summary
 
 ```csharp
-public virtual bool CanScan(double distance, public sealed struct Vector3D direction)
+public bool CanScan(double distance, Vector3D direction)
 ```
 
 Checks if the camera can scan to the given direction and distance.
@@ -35,7 +35,7 @@ Checks if the camera can scan to the given direction and distance.
 ### Summary
 
 ```csharp
-public virtual bool CanScan(public sealed struct Vector3D target)
+public bool CanScan(Vector3D target)
 ```
 
 Checks if the camera can scan to the given target

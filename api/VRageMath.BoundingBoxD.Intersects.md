@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool Intersects(public sealed struct BoundingBoxD box)
+public bool Intersects(BoundingBoxD box)
 ```
 
 Checks whether the current BoundingBox intersects another BoundingBox.
@@ -17,7 +17,7 @@ Checks whether the current BoundingBox intersects another BoundingBox.
 ### Summary
 
 ```csharp
-public bool Intersects(ref public sealed struct BoundingBoxD box)
+public bool Intersects(ref BoundingBoxD box)
 ```
 
 ### Returns
@@ -29,7 +29,7 @@ public bool Intersects(ref public sealed struct BoundingBoxD box)
 ### Summary
 
 ```csharp
-public void Intersects(ref public sealed struct BoundingBoxD box, ref bool result)
+public void Intersects(ref BoundingBoxD box, ref bool result)
 ```
 
 Checks whether the current BoundingBox intersects another BoundingBox.
@@ -43,7 +43,7 @@ Checks whether the current BoundingBox intersects another BoundingBox.
 ### Summary
 
 ```csharp
-public void Intersects(ref public sealed struct BoundingBox box, ref bool result)
+public void Intersects(ref BoundingBox box, ref bool result)
 ```
 
 ### Returns
@@ -55,7 +55,7 @@ public void Intersects(ref public sealed struct BoundingBox box, ref bool resu
 ### Summary
 
 ```csharp
-public bool Intersects(public class BoundingFrustumD frustum)
+public bool Intersects(BoundingFrustumD frustum)
 ```
 
 Checks whether the current BoundingBox intersects a BoundingFrustum.
@@ -69,7 +69,7 @@ Checks whether the current BoundingBox intersects a BoundingFrustum.
 ### Summary
 
 ```csharp
-public public sealed enum PlaneIntersectionType Intersects(public sealed struct PlaneD plane)
+public PlaneIntersectionType Intersects(PlaneD plane)
 ```
 
 Checks whether the current BoundingBox intersects a Plane.
@@ -83,7 +83,7 @@ Checks whether the current BoundingBox intersects a Plane.
 ### Summary
 
 ```csharp
-public void Intersects(ref public sealed struct PlaneD plane, ref public sealed enum PlaneIntersectionType result)
+public void Intersects(ref PlaneD plane, ref PlaneIntersectionType result)
 ```
 
 Checks whether the current BoundingBox intersects a Plane.
@@ -97,7 +97,7 @@ Checks whether the current BoundingBox intersects a Plane.
 ### Summary
 
 ```csharp
-public bool Intersects(ref public sealed struct LineD line)
+public bool Intersects(ref LineD line)
 ```
 
 ### Returns
@@ -109,7 +109,7 @@ public bool Intersects(ref public sealed struct LineD line)
 ### Summary
 
 ```csharp
-public bool Intersects(ref public sealed struct LineD line, ref double distance)
+public bool Intersects(ref LineD line, ref double distance)
 ```
 
 ### Returns
@@ -121,7 +121,7 @@ public bool Intersects(ref public sealed struct LineD line, ref double distanc
 ### Summary
 
 ```csharp
-public public sealed struct Nullable<T> Intersects(public sealed struct Ray ray)
+public Nullable<T> Intersects(Ray ray)
 ```
 
 ### Returns
@@ -133,7 +133,7 @@ public public sealed struct Nullable<T> Intersects(public sealed struct Ray ray)
 ### Summary
 
 ```csharp
-public public sealed struct Nullable<T> Intersects(public sealed struct RayD ray)
+public Nullable<T> Intersects(RayD ray)
 ```
 
 Checks whether the current BoundingBox intersects a Ray.
@@ -147,7 +147,7 @@ Checks whether the current BoundingBox intersects a Ray.
 ### Summary
 
 ```csharp
-public void Intersects(ref public sealed struct RayD ray, ref public sealed struct Nullable<T> result)
+public void Intersects(ref RayD ray, ref Nullable<T> result)
 ```
 
 ### Returns
@@ -159,21 +159,7 @@ public void Intersects(ref public sealed struct RayD ray, ref public sealed st
 ### Summary
 
 ```csharp
-public bool Intersects(public sealed struct BoundingSphereD sphere)
-```
-
-Checks whether the current BoundingBox intersects a BoundingSphere.
-
-### Returns
-
-### Example
-
-### Remarks
-
-### Summary
-
-```csharp
-public void Intersects(ref public sealed struct BoundingSphereD sphere, ref bool result)
+public bool Intersects(BoundingSphereD sphere)
 ```
 
 Checks whether the current BoundingBox intersects a BoundingSphere.
@@ -187,7 +173,21 @@ Checks whether the current BoundingBox intersects a BoundingSphere.
 ### Summary
 
 ```csharp
-public bool Intersects(ref public sealed struct BoundingSphereD sphere)
+public void Intersects(ref BoundingSphereD sphere, ref bool result)
+```
+
+Checks whether the current BoundingBox intersects a BoundingSphere.
+
+### Returns
+
+### Example
+
+### Remarks
+
+### Summary
+
+```csharp
+public bool Intersects(ref BoundingSphereD sphere)
 ```
 
 ### Returns

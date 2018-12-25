@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool IsLocked { ; }
+public bool IsLocked { get; }
 ```
 
 ### Returns

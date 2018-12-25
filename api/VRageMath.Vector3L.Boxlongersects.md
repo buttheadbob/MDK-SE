@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool Boxlongersects(public sealed struct Vector3L minA, public sealed struct Vector3L maxA, public sealed struct Vector3L minB, public sealed struct Vector3L maxB)
+public bool Boxlongersects(Vector3L minA, Vector3L maxA, Vector3L minB, Vector3L maxB)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public bool Boxlongersects(public sealed struct Vector3L minA, public sealed str
 ### Summary
 
 ```csharp
-public bool Boxlongersects(ref public sealed struct Vector3L minA, ref public sealed struct Vector3L maxA, ref public sealed struct Vector3L minB, ref public sealed struct Vector3L maxB)
+public bool Boxlongersects(ref Vector3L minA, ref Vector3L maxA, ref Vector3L minB, ref Vector3L maxB)
 ```
 
 ### Returns

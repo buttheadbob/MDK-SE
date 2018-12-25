@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float BlinkLenght { ; }
+public float BlinkLenght { get; }
 ```
 
 ### Returns

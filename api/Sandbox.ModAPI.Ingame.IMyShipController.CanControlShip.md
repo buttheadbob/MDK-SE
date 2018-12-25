@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool CanControlShip { ; }
+public bool CanControlShip { get; }
 ```
 
 Determines whether this specific ship controller is capable of controlling the ship it's installed on.

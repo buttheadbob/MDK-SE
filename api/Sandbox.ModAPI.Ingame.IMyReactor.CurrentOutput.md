@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float CurrentOutput { ; }
+public float CurrentOutput { get; }
 ```
 
 Current output of reactor in Megawatts

@@ -17,7 +17,7 @@ Turns the current vector into a unit vector.
 ### Summary
 
 ```csharp
-public public sealed struct Vector4D Normalize(public sealed struct Vector4D vector)
+public Vector4D Normalize(Vector4D vector)
 ```
 
 Creates a unit vector from the specified vector.
@@ -31,7 +31,7 @@ Creates a unit vector from the specified vector.
 ### Summary
 
 ```csharp
-public void Normalize(ref public sealed struct Vector4D vector, ref public sealed struct Vector4D result)
+public void Normalize(ref Vector4D vector, ref Vector4D result)
 ```
 
 Returns a normalized version of the specified vector.

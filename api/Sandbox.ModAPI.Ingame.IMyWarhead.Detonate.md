@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual void Detonate()
+public void Detonate()
 ```
 
 ### Returns

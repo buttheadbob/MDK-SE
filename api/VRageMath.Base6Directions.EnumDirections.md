@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed class Direction[] EnumDirections
+public Direction[] EnumDirections
 ```
 
 ### Returns

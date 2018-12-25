@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public class MyComponentContainer ContainerBase { ; }
+public MyComponentContainer ContainerBase { get; }
 ```
 
 This cannot be named Container to not conflict with the definition of Container in MyEntityComponentBase.

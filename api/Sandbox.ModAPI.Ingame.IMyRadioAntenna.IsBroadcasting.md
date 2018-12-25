@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool IsBroadcasting { ; }
+public bool IsBroadcasting { get; }
 ```
 
 Returns true if antena is broadcasting

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool HasCapacityRemaining { ; }
+public bool HasCapacityRemaining { get; }
 ```
 
 ### Returns

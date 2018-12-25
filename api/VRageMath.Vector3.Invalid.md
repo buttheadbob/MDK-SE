@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3 Invalid
+public Vector3 Invalid
 ```
 
 ### Returns

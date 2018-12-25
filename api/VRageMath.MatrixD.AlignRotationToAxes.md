@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct MatrixD AlignRotationToAxes(ref public sealed struct MatrixD toAlign, ref public sealed struct MatrixD axisDefinitionMatrix)
+public MatrixD AlignRotationToAxes(ref MatrixD toAlign, ref MatrixD axisDefinitionMatrix)
 ```
 
 ### Returns

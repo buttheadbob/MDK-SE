@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float FrontExtend { ; ; }
+public float FrontExtend { get; set; }
 ```
 
 Gets or sets the front range of the sensor.

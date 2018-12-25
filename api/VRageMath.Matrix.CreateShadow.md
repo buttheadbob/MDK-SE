@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Matrix CreateShadow(public sealed struct Vector3 lightDirection, public sealed struct Plane plane)
+public Matrix CreateShadow(Vector3 lightDirection, Plane plane)
 ```
 
 Creates a Matrix that flattens geometry into a specified Plane as if casting a shadow from a specified light source.
@@ -17,7 +17,7 @@ Creates a Matrix that flattens geometry into a specified Plane as if casting a s
 ### Summary
 
 ```csharp
-public void CreateShadow(ref public sealed struct Vector3 lightDirection, ref public sealed struct Plane plane, ref public sealed struct Matrix result)
+public void CreateShadow(ref Vector3 lightDirection, ref Plane plane, ref Matrix result)
 ```
 
 Fills in a Matrix to flatten geometry into a specified Plane as if casting a shadow from a specified light source.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector4UByte Normalize(public sealed struct Vector3 vec, float range)
+public Vector4UByte Normalize(Vector3 vec, float range)
 ```
 
 Normalizes Vector3 into Vector4UByte, scales vector from (-range, range) to (0, 255)

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public sealed struct MyFixedPoint CurrentVolume { ; }
+public MyFixedPoint CurrentVolume { get; }
 ```
 
 ### Returns

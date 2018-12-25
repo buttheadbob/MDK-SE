@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3I Current
+public Vector3I Current
 ```
 
 Do not modify, public only for optimization!

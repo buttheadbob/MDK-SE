@@ -17,7 +17,7 @@ Sets a comment on a given item. The item must already exist. Set the comment to`
 ### Summary
 
 ```csharp
-public void SetComment(public sealed struct MyIniKey key, string comment)
+public void SetComment(MyIniKey key, string comment)
 ```
 
 Sets a comment on a given item. The item must already exist. Set the comment to`null`to remove it.

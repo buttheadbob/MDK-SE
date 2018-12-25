@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public interface IMyInventory GetInventory()
+public IMyInventory GetInventory()
 ```
 
 Simply get the MyInventoryBase component stored in this entity.
@@ -19,7 +19,7 @@ Simply get the MyInventoryBase component stored in this entity.
 ### Summary
 
 ```csharp
-public virtual public interface IMyInventory GetInventory(int index)
+public IMyInventory GetInventory(int index)
 ```
 
 Search for inventory component with maching index.

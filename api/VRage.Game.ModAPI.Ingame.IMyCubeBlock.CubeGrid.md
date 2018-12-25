@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public interface IMyCubeGrid CubeGrid { ; }
+public IMyCubeGrid CubeGrid { get; }
 ```
 
 Grid in which the block is placed

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public float RequiredInput { ; }
+public float RequiredInput { get; }
 ```
 
 ### Returns

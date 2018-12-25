@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3 Hermite(public sealed struct Vector3 value1, public sealed struct Vector3 tangent1, public sealed struct Vector3 value2, public sealed struct Vector3 tangent2, float amount)
+public Vector3 Hermite(Vector3 value1, Vector3 tangent1, Vector3 value2, Vector3 tangent2, float amount)
 ```
 
 Performs a Hermite spline interpolation.
@@ -17,7 +17,7 @@ Performs a Hermite spline interpolation.
 ### Summary
 
 ```csharp
-public void Hermite(ref public sealed struct Vector3 value1, ref public sealed struct Vector3 tangent1, ref public sealed struct Vector3 value2, ref public sealed struct Vector3 tangent2, float amount, ref public sealed struct Vector3 result)
+public void Hermite(ref Vector3 value1, ref Vector3 tangent1, ref Vector3 value2, ref Vector3 tangent2, float amount, ref Vector3 result)
 ```
 
 Performs a Hermite spline interpolation.

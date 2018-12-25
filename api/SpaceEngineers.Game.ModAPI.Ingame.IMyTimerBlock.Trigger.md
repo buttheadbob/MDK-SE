@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual void Trigger()
+public void Trigger()
 ```
 
 Trigger immediately, skips countdown

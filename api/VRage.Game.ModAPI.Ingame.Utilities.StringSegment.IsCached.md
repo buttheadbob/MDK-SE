@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool IsCached { ; }
+public bool IsCached { get; }
 ```
 
 ### Returns

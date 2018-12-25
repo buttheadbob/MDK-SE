@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float MaxVelocity { ; }
+public float MaxVelocity { get; }
 ```
 
 Gets the maximum velocity this piston is capable of moving at.

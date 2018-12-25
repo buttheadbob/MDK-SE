@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Matrix CreateFromTransformScale(public sealed struct Quaternion orientation, public sealed struct Vector3 position, public sealed struct Vector3 scale)
+public Matrix CreateFromTransformScale(Quaternion orientation, Vector3 position, Vector3 scale)
 ```
 
 ### Returns

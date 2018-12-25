@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public class TValue GetDefaultValue(public interface IMyCubeBlock block)
+public TValue GetDefaultValue(IMyCubeBlock block)
 ```
 
 ### Returns

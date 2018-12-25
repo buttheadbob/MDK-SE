@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector2D Extents { ; }
+public Vector2D Extents { get; }
 ```
 
 ### Returns

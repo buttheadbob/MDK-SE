@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct TextPtr TrimEnd()
+public TextPtr TrimEnd()
 ```
 
 ### Returns

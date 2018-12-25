@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float Torque { ; ; }
+public float Torque { get; set; }
 ```
 
 Gets or sets the torque applied when moving the rotor top

@@ -17,7 +17,7 @@ Deletes the given configuration key.
 ### Summary
 
 ```csharp
-public void Delete(public sealed struct MyIniKey key)
+public void Delete(MyIniKey key)
 ```
 
 Deletes the given configuration key.

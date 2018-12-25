@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Plane Far { ; }
+public Plane Far { get; }
 ```
 
 Gets the far plane of the BoundingFrustum.

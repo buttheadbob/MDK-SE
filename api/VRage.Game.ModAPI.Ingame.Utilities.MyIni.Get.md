@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct MyIniValue Get(string section, string name)
+public MyIniValue Get(string section, string name)
 ```
 
 Gets the [MyIniValue](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue) of the given configuration key.
@@ -19,7 +19,7 @@ Gets the [MyIniValue](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue) of the give
 ### Summary
 
 ```csharp
-public public sealed struct MyIniValue Get(public sealed struct MyIniKey key)
+public MyIniValue Get(MyIniKey key)
 ```
 
 Gets the [MyIniValue](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue) of the given configuration key.

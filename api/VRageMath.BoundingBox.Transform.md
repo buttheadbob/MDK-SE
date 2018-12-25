@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct BoundingBox Transform(public sealed struct Matrix worldMatrix)
+public BoundingBox Transform(Matrix worldMatrix)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public public sealed struct BoundingBox Transform(public sealed struct Matrix wo
 ### Summary
 
 ```csharp
-public public sealed struct BoundingBoxD Transform(public sealed struct MatrixD worldMatrix)
+public BoundingBoxD Transform(MatrixD worldMatrix)
 ```
 
 ### Returns
@@ -27,7 +27,7 @@ public public sealed struct BoundingBoxD Transform(public sealed struct MatrixD 
 ### Summary
 
 ```csharp
-public public sealed struct BoundingBox Transform(ref public sealed struct Matrix m)
+public BoundingBox Transform(ref Matrix m)
 ```
 
 ### Returns
@@ -39,7 +39,7 @@ public public sealed struct BoundingBox Transform(ref public sealed struct Matr
 ### Summary
 
 ```csharp
-public void Transform(ref public sealed struct Matrix m, ref public sealed struct BoundingBox bb)
+public void Transform(ref Matrix m, ref BoundingBox bb)
 ```
 
 ### Returns
@@ -51,7 +51,7 @@ public void Transform(ref public sealed struct Matrix m, ref public sealed str
 ### Summary
 
 ```csharp
-public public sealed struct BoundingBoxD Transform(ref public sealed struct MatrixD m)
+public BoundingBoxD Transform(ref MatrixD m)
 ```
 
 ### Returns
@@ -63,7 +63,7 @@ public public sealed struct BoundingBoxD Transform(ref public sealed struct Mat
 ### Summary
 
 ```csharp
-public void Transform(ref public sealed struct MatrixD m, ref public sealed struct BoundingBoxD bb)
+public void Transform(ref MatrixD m, ref BoundingBoxD bb)
 ```
 
 ### Returns

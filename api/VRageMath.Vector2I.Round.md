@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector2I Round(public sealed struct Vector2 value)
+public Vector2I Round(Vector2 value)
 ```
 
 ### Returns

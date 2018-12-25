@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public class T Item { ; }
+public T Item { get; }
 ```
 
 ### Returns

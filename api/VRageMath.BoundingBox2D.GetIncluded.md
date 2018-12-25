@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct BoundingBox2D GetIncluded(public sealed struct Vector2D point)
+public BoundingBox2D GetIncluded(Vector2D point)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3 Up { ; ; }
+public Vector3 Up { get; set; }
 ```
 
 Gets and sets the up vector of the Matrix3x3.

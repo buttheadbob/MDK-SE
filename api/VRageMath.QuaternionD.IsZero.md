@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool IsZero(public sealed struct QuaternionD value)
+public bool IsZero(QuaternionD value)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public bool IsZero(public sealed struct QuaternionD value)
 ### Summary
 
 ```csharp
-public bool IsZero(public sealed struct QuaternionD value, double epsilon)
+public bool IsZero(QuaternionD value, double epsilon)
 ```
 
 ### Returns

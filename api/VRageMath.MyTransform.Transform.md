@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct MyTransform Transform(ref public sealed struct MyTransform t1, ref public sealed struct MyTransform t2)
+public MyTransform Transform(ref MyTransform t1, ref MyTransform t2)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public public sealed struct MyTransform Transform(ref public sealed struct MyTr
 ### Summary
 
 ```csharp
-public void Transform(ref public sealed struct MyTransform t1, ref public sealed struct MyTransform t2, ref public sealed struct MyTransform result)
+public void Transform(ref MyTransform t1, ref MyTransform t2, ref MyTransform result)
 ```
 
 ### Returns
@@ -27,7 +27,7 @@ public void Transform(ref public sealed struct MyTransform t1, ref public seal
 ### Summary
 
 ```csharp
-public public sealed struct Vector3 Transform(ref public sealed struct Vector3 v, ref public sealed struct MyTransform t2)
+public Vector3 Transform(ref Vector3 v, ref MyTransform t2)
 ```
 
 ### Returns
@@ -39,7 +39,7 @@ public public sealed struct Vector3 Transform(ref public sealed struct Vector3 
 ### Summary
 
 ```csharp
-public void Transform(ref public sealed struct Vector3 v, ref public sealed struct MyTransform t2, ref public sealed struct Vector3 result)
+public void Transform(ref Vector3 v, ref MyTransform t2, ref Vector3 result)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual void ClearImagesFromSelection()
+public void ClearImagesFromSelection()
 ```
 
 ### Returns

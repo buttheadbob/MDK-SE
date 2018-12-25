@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public interface IMyInventoryOwner Owner { ; }
+public IMyInventoryOwner Owner { get; }
 ```
 
 ### Returns

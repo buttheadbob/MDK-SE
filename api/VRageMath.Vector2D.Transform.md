@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector2D Transform(public sealed struct Vector2D position, public sealed struct Matrix matrix)
+public Vector2D Transform(Vector2D position, Matrix matrix)
 ```
 
 Transforms the vector (x, y, 0, 1) by the specified matrix.
@@ -17,7 +17,7 @@ Transforms the vector (x, y, 0, 1) by the specified matrix.
 ### Summary
 
 ```csharp
-public void Transform(ref public sealed struct Vector2D position, ref public sealed struct Matrix matrix, ref public sealed struct Vector2D result)
+public void Transform(ref Vector2D position, ref Matrix matrix, ref Vector2D result)
 ```
 
 Transforms a Vector2D by the given Matrix.
@@ -31,7 +31,7 @@ Transforms a Vector2D by the given Matrix.
 ### Summary
 
 ```csharp
-public public sealed struct Vector2D Transform(public sealed struct Vector2D value, public sealed struct Quaternion rotation)
+public Vector2D Transform(Vector2D value, Quaternion rotation)
 ```
 
 Transforms a single Vector2D, or the vector normal (x, y, 0, 0), by a specified Quaternion rotation.
@@ -45,7 +45,7 @@ Transforms a single Vector2D, or the vector normal (x, y, 0, 0), by a specified 
 ### Summary
 
 ```csharp
-public void Transform(ref public sealed struct Vector2D value, ref public sealed struct Quaternion rotation, ref public sealed struct Vector2D result)
+public void Transform(ref Vector2D value, ref Quaternion rotation, ref Vector2D result)
 ```
 
 Transforms a Vector2D, or the vector normal (x, y, 0, 0), by a specified Quaternion rotation.
@@ -59,7 +59,7 @@ Transforms a Vector2D, or the vector normal (x, y, 0, 0), by a specified Quatern
 ### Summary
 
 ```csharp
-public void Transform(public sealed class Vector2D[] sourceArray, ref public sealed struct Matrix matrix, public sealed class Vector2D[] destinationArray)
+public void Transform(Vector2D[] sourceArray, ref Matrix matrix, Vector2D[] destinationArray)
 ```
 
 Transforms an array of Vector2s by a specified Matrix.
@@ -73,7 +73,7 @@ Transforms an array of Vector2s by a specified Matrix.
 ### Summary
 
 ```csharp
-public void Transform(public sealed class Vector2D[] sourceArray, int sourceIndex, ref public sealed struct Matrix matrix, public sealed class Vector2D[] destinationArray, int destinationIndex, int length)
+public void Transform(Vector2D[] sourceArray, int sourceIndex, ref Matrix matrix, Vector2D[] destinationArray, int destinationIndex, int length)
 ```
 
 Transforms a specified range in an array of Vector2s by a specified Matrix and places the results in a specified range in a destination array.
@@ -87,7 +87,7 @@ Transforms a specified range in an array of Vector2s by a specified Matrix and p
 ### Summary
 
 ```csharp
-public void Transform(public sealed class Vector2D[] sourceArray, ref public sealed struct Quaternion rotation, public sealed class Vector2D[] destinationArray)
+public void Transform(Vector2D[] sourceArray, ref Quaternion rotation, Vector2D[] destinationArray)
 ```
 
 Transforms an array of Vector2s by a specified Quaternion.
@@ -101,7 +101,7 @@ Transforms an array of Vector2s by a specified Quaternion.
 ### Summary
 
 ```csharp
-public void Transform(public sealed class Vector2D[] sourceArray, int sourceIndex, ref public sealed struct Quaternion rotation, public sealed class Vector2D[] destinationArray, int destinationIndex, int length)
+public void Transform(Vector2D[] sourceArray, int sourceIndex, ref Quaternion rotation, Vector2D[] destinationArray, int destinationIndex, int length)
 ```
 
 Transforms a specified range in an array of Vector2s by a specified Quaternion and places the results in a specified range in a destination array.

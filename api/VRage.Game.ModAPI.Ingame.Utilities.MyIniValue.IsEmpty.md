@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool IsEmpty { ; }
+public bool IsEmpty { get; }
 ```
 
 Determines whether this value is empty. Be aware that an empty string is not considered to be an empty value.

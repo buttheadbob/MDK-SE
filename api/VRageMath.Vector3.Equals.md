@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool Equals(public sealed struct Vector3 other)
+public bool Equals(Vector3 other)
 ```
 
 Determines whether the specified Object is equal to the Vector3.
@@ -17,7 +17,7 @@ Determines whether the specified Object is equal to the Vector3.
 ### Summary
 
 ```csharp
-public bool Equals(public sealed struct Vector3 other, float epsilon)
+public bool Equals(Vector3 other, float epsilon)
 ```
 
 ### Returns

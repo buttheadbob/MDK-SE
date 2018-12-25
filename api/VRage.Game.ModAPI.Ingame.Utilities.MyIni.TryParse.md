@@ -19,7 +19,7 @@ Attempts to parse the given content as a configuration file.
 ### Summary
 
 ```csharp
-public bool TryParse(string content, ref public sealed struct MyIniParseResult result)
+public bool TryParse(string content, ref MyIniParseResult result)
 ```
 
 Attempts to parse the given content as a configuration file.
@@ -35,7 +35,7 @@ Attempts to parse the given content as a configuration file.
 ### Summary
 
 ```csharp
-public bool TryParse(string content, string section, ref public sealed struct MyIniParseResult result)
+public bool TryParse(string content, string section, ref MyIniParseResult result)
 ```
 
 Attempts to parse the given content as a configuration file. OBSERVE: Use only for read-only operations. If you parse a single section and run [ToString()](VRage.Game.ModAPI.Ingame.Utilities.MyIni.ToString) , you will only get the parsed section, the rest will be discarded.

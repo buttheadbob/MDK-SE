@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool Contains<T>(public sealed class T[] array, public class T element)
+public bool Contains<T>(T[] array, T element)
 ```
 
 ### Returns

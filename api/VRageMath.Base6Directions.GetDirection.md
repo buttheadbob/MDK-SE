@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public private sealed enum Direction GetDirection(public sealed struct Vector3 vec)
+public Direction GetDirection(Vector3 vec)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public private sealed enum Direction GetDirection(public sealed struct Vector3 v
 ### Summary
 
 ```csharp
-public private sealed enum Direction GetDirection(ref public sealed struct Vector3 vec)
+public Direction GetDirection(ref Vector3 vec)
 ```
 
 ### Returns
@@ -27,7 +27,7 @@ public private sealed enum Direction GetDirection(ref public sealed struct Vect
 ### Summary
 
 ```csharp
-public private sealed enum Direction GetDirection(public sealed struct Vector3I vec)
+public Direction GetDirection(Vector3I vec)
 ```
 
 ### Returns
@@ -39,7 +39,7 @@ public private sealed enum Direction GetDirection(public sealed struct Vector3I 
 ### Summary
 
 ```csharp
-public private sealed enum Direction GetDirection(ref public sealed struct Vector3I vec)
+public Direction GetDirection(ref Vector3I vec)
 ```
 
 ### Returns

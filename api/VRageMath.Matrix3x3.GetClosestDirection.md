@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public private sealed enum Direction GetClosestDirection(public sealed struct Vector3 referenceVector)
+public Direction GetClosestDirection(Vector3 referenceVector)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public private sealed enum Direction GetClosestDirection(public sealed struct Ve
 ### Summary
 
 ```csharp
-public private sealed enum Direction GetClosestDirection(ref public sealed struct Vector3 referenceVector)
+public Direction GetClosestDirection(ref Vector3 referenceVector)
 ```
 
 ### Returns

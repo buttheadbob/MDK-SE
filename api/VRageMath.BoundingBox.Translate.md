@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct BoundingBox Translate(public sealed struct Matrix worldMatrix)
+public BoundingBox Translate(Matrix worldMatrix)
 ```
 
 Translate
@@ -19,7 +19,7 @@ Translate
 ### Summary
 
 ```csharp
-public public sealed struct BoundingBox Translate(public sealed struct Vector3 vctTranlsation)
+public BoundingBox Translate(Vector3 vctTranlsation)
 ```
 
 Translate

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3 Clamp(public sealed struct Vector3 value1, public sealed struct Vector3 min, public sealed struct Vector3 max)
+public Vector3 Clamp(Vector3 value1, Vector3 min, Vector3 max)
 ```
 
 Restricts a value to be within a specified range.
@@ -17,7 +17,7 @@ Restricts a value to be within a specified range.
 ### Summary
 
 ```csharp
-public void Clamp(ref public sealed struct Vector3 value1, ref public sealed struct Vector3 min, ref public sealed struct Vector3 max, ref public sealed struct Vector3 result)
+public void Clamp(ref Vector3 value1, ref Vector3 min, ref Vector3 max, ref Vector3 result)
 ```
 
 Restricts a value to be within a specified range.

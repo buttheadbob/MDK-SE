@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct MyBlockOrientation GetBlockOrientation()
+public MyBlockOrientation GetBlockOrientation()
 ```
 
 ### Returns

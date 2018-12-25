@@ -19,7 +19,7 @@ Gets any comment that might be associated with the given key. Returns`null`if th
 ### Summary
 
 ```csharp
-public string GetComment(public sealed struct MyIniKey key)
+public string GetComment(MyIniKey key)
 ```
 
 Gets any comment that might be associated with the given key. Returns`null`if the key does not exist or has no comment.

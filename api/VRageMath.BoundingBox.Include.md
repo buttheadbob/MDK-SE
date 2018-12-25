@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct BoundingBox Include(ref public sealed struct Vector3 point)
+public BoundingBox Include(ref Vector3 point)
 ```
 
 return expanded aabb (aabb include point)
@@ -19,7 +19,7 @@ return expanded aabb (aabb include point)
 ### Summary
 
 ```csharp
-public public sealed struct BoundingBox Include(public sealed struct Vector3 point)
+public BoundingBox Include(Vector3 point)
 ```
 
 ### Returns
@@ -31,7 +31,7 @@ public public sealed struct BoundingBox Include(public sealed struct Vector3 poi
 ### Summary
 
 ```csharp
-public public sealed struct BoundingBox Include(public sealed struct Vector3 p0, public sealed struct Vector3 p1, public sealed struct Vector3 p2)
+public BoundingBox Include(Vector3 p0, Vector3 p1, Vector3 p2)
 ```
 
 ### Returns
@@ -43,7 +43,7 @@ public public sealed struct BoundingBox Include(public sealed struct Vector3 p0,
 ### Summary
 
 ```csharp
-public public sealed struct BoundingBox Include(ref public sealed struct Vector3 p0, ref public sealed struct Vector3 p1, ref public sealed struct Vector3 p2)
+public BoundingBox Include(ref Vector3 p0, ref Vector3 p1, ref Vector3 p2)
 ```
 
 ### Returns
@@ -55,7 +55,7 @@ public public sealed struct BoundingBox Include(ref public sealed struct Vector
 ### Summary
 
 ```csharp
-public public sealed struct BoundingBox Include(ref public sealed struct BoundingBox box)
+public BoundingBox Include(ref BoundingBox box)
 ```
 
 return expanded aabb (aabb include aabb)
@@ -71,7 +71,7 @@ return expanded aabb (aabb include aabb)
 ### Summary
 
 ```csharp
-public public sealed struct BoundingBox Include(public sealed struct BoundingBox box)
+public BoundingBox Include(BoundingBox box)
 ```
 
 ### Returns
@@ -83,7 +83,7 @@ public public sealed struct BoundingBox Include(public sealed struct BoundingBox
 ### Summary
 
 ```csharp
-public void Include(ref public sealed struct Line line)
+public void Include(ref Line line)
 ```
 
 ### Returns
@@ -95,7 +95,7 @@ public void Include(ref public sealed struct Line line)
 ### Summary
 
 ```csharp
-public public sealed struct BoundingBox Include(public sealed struct BoundingSphere sphere)
+public BoundingBox Include(BoundingSphere sphere)
 ```
 
 ### Returns
@@ -107,7 +107,7 @@ public public sealed struct BoundingBox Include(public sealed struct BoundingSph
 ### Summary
 
 ```csharp
-public public sealed struct BoundingBox Include(ref public sealed struct BoundingSphere sphere)
+public BoundingBox Include(ref BoundingSphere sphere)
 ```
 
 ### Returns
@@ -119,7 +119,7 @@ public public sealed struct BoundingBox Include(ref public sealed struct Boundi
 ### Summary
 
 ```csharp
-public public sealed struct BoundingBox Include(ref public class BoundingFrustum frustum)
+public BoundingBox Include(ref BoundingFrustum frustum)
 ```
 
 ### Returns

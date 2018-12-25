@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual void RefillBottles()
+public void RefillBottles()
 ```
 
 Refills any stored storage bottles.

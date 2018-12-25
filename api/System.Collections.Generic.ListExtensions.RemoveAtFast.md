@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void RemoveAtFast<T>(public class List<T> list, int index)
+public void RemoveAtFast<T>(List<T> list, int index)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public void RemoveAtFast<T>(public class List<T> list, int index)
 ### Summary
 
 ```csharp
-public void RemoveAtFast<T>(public interface IList<T> list, int index)
+public void RemoveAtFast<T>(IList<T> list, int index)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual void GetWaypointInfo(public class List<T> waypoints)
+public void GetWaypointInfo(List<T> waypoints)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float RightExtend { ; ; }
+public float RightExtend { get; set; }
 ```
 
 Gets or sets the right range of the sensor.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public sealed enum PistonStatus Status { ; }
+public PistonStatus Status { get; }
 ```
 
 Gets the current status.

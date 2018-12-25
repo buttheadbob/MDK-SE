@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float BlinkIntervalSeconds { ; ; }
+public float BlinkIntervalSeconds { get; set; }
 ```
 
 Gets or sets the blinking interval of this light (in seconds).

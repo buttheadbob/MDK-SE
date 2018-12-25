@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float LowestPosition { ; }
+public float LowestPosition { get; }
 ```
 
 Gets the lowest position the piston is capable of moving to.

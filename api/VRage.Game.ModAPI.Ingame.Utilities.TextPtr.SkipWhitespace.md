@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct TextPtr SkipWhitespace(bool skipNewline)
+public TextPtr SkipWhitespace(bool skipNewline)
 ```
 
 ### Returns

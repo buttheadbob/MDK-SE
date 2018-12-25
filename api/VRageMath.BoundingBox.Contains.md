@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed enum ContainmentType Contains(public sealed struct BoundingBox box)
+public ContainmentType Contains(BoundingBox box)
 ```
 
 Tests whether the BoundingBox contains another BoundingBox.
@@ -17,7 +17,7 @@ Tests whether the BoundingBox contains another BoundingBox.
 ### Summary
 
 ```csharp
-public void Contains(ref public sealed struct BoundingBox box, ref public sealed enum ContainmentType result)
+public void Contains(ref BoundingBox box, ref ContainmentType result)
 ```
 
 Tests whether the BoundingBox contains a BoundingBox.
@@ -31,7 +31,7 @@ Tests whether the BoundingBox contains a BoundingBox.
 ### Summary
 
 ```csharp
-public public sealed enum ContainmentType Contains(public class BoundingFrustum frustum)
+public ContainmentType Contains(BoundingFrustum frustum)
 ```
 
 Tests whether the BoundingBox contains a BoundingFrustum.
@@ -45,7 +45,7 @@ Tests whether the BoundingBox contains a BoundingFrustum.
 ### Summary
 
 ```csharp
-public public sealed enum ContainmentType Contains(public sealed struct Vector3 point)
+public ContainmentType Contains(Vector3 point)
 ```
 
 Tests whether the BoundingBox contains a point.
@@ -59,7 +59,7 @@ Tests whether the BoundingBox contains a point.
 ### Summary
 
 ```csharp
-public public sealed enum ContainmentType Contains(public sealed struct Vector3D point)
+public ContainmentType Contains(Vector3D point)
 ```
 
 ### Returns
@@ -71,7 +71,7 @@ public public sealed enum ContainmentType Contains(public sealed struct Vector3D
 ### Summary
 
 ```csharp
-public void Contains(ref public sealed struct Vector3 point, ref public sealed enum ContainmentType result)
+public void Contains(ref Vector3 point, ref ContainmentType result)
 ```
 
 Tests whether the BoundingBox contains a point.
@@ -85,7 +85,7 @@ Tests whether the BoundingBox contains a point.
 ### Summary
 
 ```csharp
-public public sealed enum ContainmentType Contains(public sealed struct BoundingSphere sphere)
+public ContainmentType Contains(BoundingSphere sphere)
 ```
 
 Tests whether the BoundingBox contains a BoundingSphere.
@@ -99,7 +99,7 @@ Tests whether the BoundingBox contains a BoundingSphere.
 ### Summary
 
 ```csharp
-public void Contains(ref public sealed struct BoundingSphere sphere, ref public sealed enum ContainmentType result)
+public void Contains(ref BoundingSphere sphere, ref ContainmentType result)
 ```
 
 Tests whether the BoundingBox contains a BoundingSphere.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3L Shift(public sealed struct Vector3L value)
+public Vector3L Shift(Vector3L value)
 ```
 
 ### Returns

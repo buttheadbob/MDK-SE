@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Matrix CreateOrthographic(float width, float height, float zNearPlane, float zFarPlane)
+public Matrix CreateOrthographic(float width, float height, float zNearPlane, float zFarPlane)
 ```
 
 Builds an orthogonal projection matrix.
@@ -17,7 +17,7 @@ Builds an orthogonal projection matrix.
 ### Summary
 
 ```csharp
-public void CreateOrthographic(float width, float height, float zNearPlane, float zFarPlane, ref public sealed struct Matrix result)
+public void CreateOrthographic(float width, float height, float zNearPlane, float zFarPlane, ref Matrix result)
 ```
 
 Builds an orthogonal projection matrix.

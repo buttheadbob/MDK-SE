@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual void RemoveQueueItem(int idx, public sealed struct MyFixedPoint amount)
+public void RemoveQueueItem(int idx, MyFixedPoint amount)
 ```
 
 Removes an item from the queue
@@ -17,7 +17,7 @@ Removes an item from the queue
 ### Summary
 
 ```csharp
-public virtual void RemoveQueueItem(int idx, decimal amount)
+public void RemoveQueueItem(int idx, decimal amount)
 ```
 
 Removes an item from the queue
@@ -31,7 +31,7 @@ Removes an item from the queue
 ### Summary
 
 ```csharp
-public virtual void RemoveQueueItem(int idx, double amount)
+public void RemoveQueueItem(int idx, double amount)
 ```
 
 Removes an item from the queue

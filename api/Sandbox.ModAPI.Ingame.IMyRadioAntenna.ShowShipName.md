@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool ShowShipName { ; ; }
+public bool ShowShipName { get; set; }
 ```
 
 Show shipname on hud

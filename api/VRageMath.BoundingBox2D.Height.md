@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public double Height { ; }
+public double Height { get; }
 ```
 
 ### Returns

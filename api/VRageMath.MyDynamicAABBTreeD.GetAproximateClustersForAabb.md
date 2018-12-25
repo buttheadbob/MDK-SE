@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetAproximateClustersForAabb(ref public sealed struct BoundingBoxD bbox, double minSize, public class List<T> boundList)
+public void GetAproximateClustersForAabb(ref BoundingBoxD bbox, double minSize, List<T> boundList)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual void Init(public class MyComponentDefinitionBase definition)
+public virtual void Init(MyComponentDefinitionBase definition)
 ```
 
 ### Returns

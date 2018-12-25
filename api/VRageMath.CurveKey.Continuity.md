@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed enum CurveContinuity Continuity { ; ; }
+public CurveContinuity Continuity { get; set; }
 ```
 
 Describes whether the segment between this point and the next point in the curve is discrete or continuous.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public string TypeIdStringAttribute { ; ; }
+public string TypeIdStringAttribute { get; set; }
 ```
 
 ### Returns

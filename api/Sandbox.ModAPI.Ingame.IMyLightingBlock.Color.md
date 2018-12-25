@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public sealed struct Color Color { ; ; }
+public Color Color { get; set; }
 ```
 
 Gets or sets the color of the light.

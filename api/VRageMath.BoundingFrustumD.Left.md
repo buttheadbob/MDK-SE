@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct PlaneD Left { ; }
+public PlaneD Left { get; }
 ```
 
 Gets the left plane of the BoundingFrustumD.

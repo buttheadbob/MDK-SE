@@ -15,7 +15,7 @@ public void Orthogonalize()
 ### Summary
 
 ```csharp
-public public sealed struct MatrixD Orthogonalize(public sealed struct MatrixD rotationMatrix)
+public MatrixD Orthogonalize(MatrixD rotationMatrix)
 ```
 
 ### Returns

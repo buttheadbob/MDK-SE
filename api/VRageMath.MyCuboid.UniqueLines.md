@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public interface IEnumerable<T> UniqueLines { ; }
+public IEnumerable<T> UniqueLines { get; }
 ```
 
 ### Returns

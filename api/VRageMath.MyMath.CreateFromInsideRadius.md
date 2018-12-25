@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct BoundingBox CreateFromInsideRadius(float radius)
+public BoundingBox CreateFromInsideRadius(float radius)
 ```
 
 ### Returns

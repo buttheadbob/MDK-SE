@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public private sealed enum Direction GetOppositeDirection(private sealed enum Direction dir)
+public Direction GetOppositeDirection(Direction dir)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Matrix Matrix { ; ; }
+public Matrix Matrix { get; set; }
 ```
 
 Gets or sets the Matrix that describes this bounding frustum.

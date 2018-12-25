@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void Fract(ref public sealed struct Vector3D o, ref public sealed struct Vector3D r)
+public void Fract(ref Vector3D o, ref Vector3D r)
 ```
 
 ### Returns

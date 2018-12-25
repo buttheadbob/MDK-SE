@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public class CurveKeyCollection Clone()
+public CurveKeyCollection Clone()
 ```
 
 Creates a copy of the CurveKeyCollection.

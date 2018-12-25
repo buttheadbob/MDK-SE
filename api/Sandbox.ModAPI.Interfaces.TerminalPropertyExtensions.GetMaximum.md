@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public class T GetMaximum<T>(public interface IMyTerminalBlock block, string propertyId)
+public T GetMaximum<T>(IMyTerminalBlock block, string propertyId)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool BroadcastUsingAntennas { ; ; }
+public bool BroadcastUsingAntennas { get; set; }
 ```
 
 ### Returns

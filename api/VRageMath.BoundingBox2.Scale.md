@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void Scale(public sealed struct Vector2 scale)
+public void Scale(Vector2 scale)
 ```
 
 ### Returns

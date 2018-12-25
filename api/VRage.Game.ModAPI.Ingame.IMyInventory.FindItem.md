@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public interface IMyInventoryItem FindItem(public sealed struct SerializableDefinitionId contentId)
+public IMyInventoryItem FindItem(SerializableDefinitionId contentId)
 ```
 
 ### Returns

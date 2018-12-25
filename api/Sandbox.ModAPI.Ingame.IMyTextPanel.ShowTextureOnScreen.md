@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual void ShowTextureOnScreen()
+public void ShowTextureOnScreen()
 ```
 
 ### Returns

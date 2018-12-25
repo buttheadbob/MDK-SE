@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public sealed enum ShowTextOnScreenFlag ShowOnScreen { ; }
+public ShowTextOnScreenFlag ShowOnScreen { get; }
 ```
 
 Indicates what should be shown on the screen, none being an image.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3 VectorFromColor(byte red, byte green, byte blue)
+public Vector3 VectorFromColor(byte red, byte green, byte blue)
 ```
 
 Calculates color from vector
@@ -17,7 +17,7 @@ Calculates color from vector
 ### Summary
 
 ```csharp
-public public sealed struct Vector4 VectorFromColor(byte red, byte green, byte blue, byte alpha)
+public Vector4 VectorFromColor(byte red, byte green, byte blue, byte alpha)
 ```
 
 ### Returns

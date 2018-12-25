@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void OverlapAllBoundingSphere<T>(ref public sealed struct BoundingSphereD sphere, public class List<T> overlapElementsList, bool clear)
+public void OverlapAllBoundingSphere<T>(ref BoundingSphereD sphere, List<T> overlapElementsList, bool clear)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public void OverlapAllBoundingSphere<T>(ref public sealed struct BoundingSphere
 ### Summary
 
 ```csharp
-public void OverlapAllBoundingSphere<T>(ref public sealed struct BoundingSphereD sphere, public sealed class Action<T> addAction)
+public void OverlapAllBoundingSphere<T>(ref BoundingSphereD sphere, Action<T> addAction)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3 Backward { ; ; }
+public Vector3 Backward { get; set; }
 ```
 
 Gets and sets the backward vector of the Matrix3x3.

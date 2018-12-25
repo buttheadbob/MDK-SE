@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public sealed enum LandingGearMode LockMode { ; }
+public LandingGearMode LockMode { get; }
 ```
 
 Gets the current lock state of the landing gear.

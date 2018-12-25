@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct MyFixedPoint Zero
+public MyFixedPoint Zero
 ```
 
 ### Returns

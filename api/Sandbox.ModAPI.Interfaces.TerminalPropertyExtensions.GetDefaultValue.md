@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public class T GetDefaultValue<T>(public interface IMyTerminalBlock block, string propertyId)
+public T GetDefaultValue<T>(IMyTerminalBlock block, string propertyId)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public sealed struct Vector3 ColorMaskHSV { ; }
+public Vector3 ColorMaskHSV { get; }
 ```
 
 Gets the color of the block

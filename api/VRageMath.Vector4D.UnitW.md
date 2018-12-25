@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector4D UnitW
+public Vector4D UnitW
 ```
 
 ### Returns

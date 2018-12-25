@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void Invert(ref public sealed struct MatrixI matrix, ref public sealed struct MatrixI result)
+public void Invert(ref MatrixI matrix, ref MatrixI result)
 ```
 
 ### Returns

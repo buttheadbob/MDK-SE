@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void SetDirection(private sealed enum Direction dirToSet, private sealed enum Direction newDirection)
+public void SetDirection(Direction dirToSet, Direction newDirection)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public interface IMyCubeBlock FatBlock { ; }
+public IMyCubeBlock FatBlock { get; }
 ```
 
 Gets the fatblock if there is one

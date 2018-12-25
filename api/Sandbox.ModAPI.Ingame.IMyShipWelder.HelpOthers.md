@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool HelpOthers { ; ; }
+public bool HelpOthers { get; set; }
 ```
 
 True if welder is set to helper mode

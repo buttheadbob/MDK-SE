@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public sealed struct Vector2 RotationIndicator { ; }
+public Vector2 RotationIndicator { get; }
 ```
 
 Pitch, yaw input from user/autopilot. Values can be very large with high controller sensitivity

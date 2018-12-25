@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed enum ContainmentType Contains(public sealed struct BoundingBoxD box)
+public ContainmentType Contains(BoundingBoxD box)
 ```
 
 Tests whether the BoundingBox contains another BoundingBox.
@@ -17,7 +17,7 @@ Tests whether the BoundingBox contains another BoundingBox.
 ### Summary
 
 ```csharp
-public void Contains(ref public sealed struct BoundingBoxD box, ref public sealed enum ContainmentType result)
+public void Contains(ref BoundingBoxD box, ref ContainmentType result)
 ```
 
 Tests whether the BoundingBox contains a BoundingBox.
@@ -31,7 +31,7 @@ Tests whether the BoundingBox contains a BoundingBox.
 ### Summary
 
 ```csharp
-public public sealed enum ContainmentType Contains(public class BoundingFrustumD frustum)
+public ContainmentType Contains(BoundingFrustumD frustum)
 ```
 
 Tests whether the BoundingBox contains a BoundingFrustum.
@@ -45,7 +45,7 @@ Tests whether the BoundingBox contains a BoundingFrustum.
 ### Summary
 
 ```csharp
-public public sealed enum ContainmentType Contains(public sealed struct Vector3D point)
+public ContainmentType Contains(Vector3D point)
 ```
 
 Tests whether the BoundingBox contains a point.
@@ -59,7 +59,7 @@ Tests whether the BoundingBox contains a point.
 ### Summary
 
 ```csharp
-public void Contains(ref public sealed struct Vector3D point, ref public sealed enum ContainmentType result)
+public void Contains(ref Vector3D point, ref ContainmentType result)
 ```
 
 Tests whether the BoundingBox contains a point.
@@ -73,7 +73,7 @@ Tests whether the BoundingBox contains a point.
 ### Summary
 
 ```csharp
-public public sealed enum ContainmentType Contains(public sealed struct BoundingSphereD sphere)
+public ContainmentType Contains(BoundingSphereD sphere)
 ```
 
 Tests whether the BoundingBox contains a BoundingSphere.
@@ -87,7 +87,7 @@ Tests whether the BoundingBox contains a BoundingSphere.
 ### Summary
 
 ```csharp
-public void Contains(ref public sealed struct BoundingSphereD sphere, ref public sealed enum ContainmentType result)
+public void Contains(ref BoundingSphereD sphere, ref ContainmentType result)
 ```
 
 Tests whether the BoundingBox contains a BoundingSphere.

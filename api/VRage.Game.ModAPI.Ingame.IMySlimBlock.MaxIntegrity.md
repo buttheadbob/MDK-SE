@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float MaxIntegrity { ; }
+public float MaxIntegrity { get; }
 ```
 
 The maximum integrity of block

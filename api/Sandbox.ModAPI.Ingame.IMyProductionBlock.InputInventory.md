@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public interface IMyInventory InputInventory { ; }
+public IMyInventory InputInventory { get; }
 ```
 
 Gets the input inventory.

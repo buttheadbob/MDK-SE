@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector4 UnmultiplyColor(public sealed struct Vector4 c)
+public Vector4 UnmultiplyColor(Vector4 c)
 ```
 
 ### Returns

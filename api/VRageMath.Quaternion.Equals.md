@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool Equals(public sealed struct Quaternion other)
+public bool Equals(Quaternion other)
 ```
 
 Determines whether the specified Object is equal to the Quaternion.
@@ -17,7 +17,7 @@ Determines whether the specified Object is equal to the Quaternion.
 ### Summary
 
 ```csharp
-public bool Equals(public sealed struct Quaternion value, float epsilon)
+public bool Equals(Quaternion value, float epsilon)
 ```
 
 ### Returns

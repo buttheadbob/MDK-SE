@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float SafetyLockSpeed { ; ; }
+public float SafetyLockSpeed { get; set; }
 ```
 
 Gets or sets the speed at which this device will engage it's safety lock ( [IsLocked](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.IsLocked) ).

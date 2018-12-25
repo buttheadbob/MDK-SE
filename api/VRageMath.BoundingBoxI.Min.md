@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3I Min
+public Vector3I Min
 ```
 
 The minimum point the BoundingBoxI contains.

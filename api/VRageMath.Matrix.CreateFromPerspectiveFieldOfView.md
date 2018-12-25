@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Matrix CreateFromPerspectiveFieldOfView(ref public sealed struct Matrix proj, float nearPlaneDistance, float farPlaneDistance)
+public Matrix CreateFromPerspectiveFieldOfView(ref Matrix proj, float nearPlaneDistance, float farPlaneDistance)
 ```
 
 ### Returns

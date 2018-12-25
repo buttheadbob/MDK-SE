@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Color Alpha(public sealed struct Color c, float a)
+public Color Alpha(Color c, float a)
 ```
 
 ### Returns

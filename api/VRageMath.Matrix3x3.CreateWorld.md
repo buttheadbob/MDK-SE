@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Matrix3x3 CreateWorld(ref public sealed struct Vector3 forward, ref public sealed struct Vector3 up)
+public Matrix3x3 CreateWorld(ref Vector3 forward, ref Vector3 up)
 ```
 
 Creates a world matrix with the specified parameters.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3I Floor(public sealed struct Vector3 value)
+public Vector3I Floor(Vector3 value)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public public sealed struct Vector3I Floor(public sealed struct Vector3 value)
 ### Summary
 
 ```csharp
-public public sealed struct Vector3I Floor(public sealed struct Vector3D value)
+public Vector3I Floor(Vector3D value)
 ```
 
 ### Returns
@@ -27,7 +27,7 @@ public public sealed struct Vector3I Floor(public sealed struct Vector3D value)
 ### Summary
 
 ```csharp
-public void Floor(ref public sealed struct Vector3 v, ref public sealed struct Vector3I r)
+public void Floor(ref Vector3 v, ref Vector3I r)
 ```
 
 ### Returns
@@ -39,7 +39,7 @@ public void Floor(ref public sealed struct Vector3 v, ref public sealed struct
 ### Summary
 
 ```csharp
-public void Floor(ref public sealed struct Vector3D v, ref public sealed struct Vector3I r)
+public void Floor(ref Vector3D v, ref Vector3I r)
 ```
 
 ### Returns

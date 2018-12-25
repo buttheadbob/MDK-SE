@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool CollectAll { ; ; }
+public bool CollectAll { get; set; }
 ```
 
 Gets or sets whether this connector should be pulling items into its inventory.

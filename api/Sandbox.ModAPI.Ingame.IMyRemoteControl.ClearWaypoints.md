@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual void ClearWaypoints()
+public void ClearWaypoints()
 ```
 
 Removes all existing waypoints.

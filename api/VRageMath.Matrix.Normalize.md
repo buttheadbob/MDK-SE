@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Matrix Normalize(public sealed struct Matrix matrix)
+public Matrix Normalize(Matrix matrix)
 ```
 
 ### Returns

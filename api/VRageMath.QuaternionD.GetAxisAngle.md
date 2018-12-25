@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetAxisAngle(ref public sealed struct Vector3D axis, ref double angle)
+public void GetAxisAngle(ref Vector3D axis, ref double angle)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3 Direction
+public Vector3 Direction
 ```
 
 Unit vector specifying the direction the Ray is pointing.

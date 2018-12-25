@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct ListReader<T> Empty
+public ListReader<T> Empty
 ```
 
 ### Returns

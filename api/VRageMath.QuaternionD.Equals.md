@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool Equals(public sealed struct QuaternionD other)
+public bool Equals(QuaternionD other)
 ```
 
 Determines whether the specified Object is equal to the QuaternionD.

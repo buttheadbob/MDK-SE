@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct MyIniValue EMPTY
+public MyIniValue EMPTY
 ```
 
 Represents an empty [MyIniValue](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue) 

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3D SwapYZCoordinates(public sealed struct Vector3D v)
+public Vector3D SwapYZCoordinates(Vector3D v)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool ControlWheels { ; ; }
+public bool ControlWheels { get; set; }
 ```
 
 Gets or sets whether wheels are being controlled by this controller.

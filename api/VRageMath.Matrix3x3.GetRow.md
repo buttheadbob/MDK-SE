@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3 GetRow(int row)
+public Vector3 GetRow(int row)
 ```
 
 ### Returns

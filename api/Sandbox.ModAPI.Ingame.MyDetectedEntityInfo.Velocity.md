@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3 Velocity
+public Vector3 Velocity
 ```
 
 The entity's absolute velocity at the time it was detected

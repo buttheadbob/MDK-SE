@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void Transpose(ref public sealed struct Matrix3x3 matrix, ref public sealed struct Matrix3x3 result)
+public void Transpose(ref Matrix3x3 matrix, ref Matrix3x3 result)
 ```
 
 Transposes the rows and columns of a matrix.

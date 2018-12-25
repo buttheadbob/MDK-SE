@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool Equals(public sealed struct Vector2D other)
+public bool Equals(Vector2D other)
 ```
 
 Determines whether the specified Object is equal to the Vector2D.

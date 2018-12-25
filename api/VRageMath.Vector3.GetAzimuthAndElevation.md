@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetAzimuthAndElevation(public sealed struct Vector3 v, ref float azimuth, ref float elevation)
+public void GetAzimuthAndElevation(Vector3 v, ref float azimuth, ref float elevation)
 ```
 
 ### Returns

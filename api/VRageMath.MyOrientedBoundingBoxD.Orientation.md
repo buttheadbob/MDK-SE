@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Quaternion Orientation
+public Quaternion Orientation
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public int Right { ; }
+public int Right { get; }
 ```
 
 Returns the x-coordinate of the right side of the rectangle.

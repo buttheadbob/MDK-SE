@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public long SizeLong { ; }
+public long SizeLong { get; }
 ```
 
 ### Returns

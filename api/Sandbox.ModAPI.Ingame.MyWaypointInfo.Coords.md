@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3D Coords
+public Vector3D Coords
 ```
 
 Gets the target coordinate as a [Vector3D](VRageMath.Vector3D) 

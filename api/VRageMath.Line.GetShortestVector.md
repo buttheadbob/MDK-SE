@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3 GetShortestVector(ref public sealed struct Line line1, ref public sealed struct Line line2, ref public sealed struct Vector3 res1, ref public sealed struct Vector3 res2)
+public Vector3 GetShortestVector(ref Line line1, ref Line line2, ref Vector3 res1, ref Vector3 res2)
 ```
 
 ### Returns

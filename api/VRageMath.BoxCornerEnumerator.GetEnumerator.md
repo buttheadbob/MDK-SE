@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct BoxCornerEnumerator GetEnumerator()
+public BoxCornerEnumerator GetEnumerator()
 ```
 
 ### Returns

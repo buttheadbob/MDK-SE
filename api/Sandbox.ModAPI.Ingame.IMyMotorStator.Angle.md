@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float Angle { ; }
+public float Angle { get; }
 ```
 
 Gets the current angle of the rotor in radians.

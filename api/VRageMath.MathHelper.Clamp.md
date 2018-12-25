@@ -31,7 +31,7 @@ Restricts a value to be within a specified range. Reference page contains links 
 ### Summary
 
 ```csharp
-public public sealed struct MyFixedPoint Clamp(public sealed struct MyFixedPoint value, public sealed struct MyFixedPoint min, public sealed struct MyFixedPoint max)
+public MyFixedPoint Clamp(MyFixedPoint value, MyFixedPoint min, MyFixedPoint max)
 ```
 
 Restricts a value to be within a specified range. Reference page contains links to related code samples.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public sealed struct Vector3D GetPosition()
+public Vector3D GetPosition()
 ```
 
 ### Returns

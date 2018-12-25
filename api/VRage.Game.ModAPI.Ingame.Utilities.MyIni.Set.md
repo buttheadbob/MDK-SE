@@ -17,7 +17,7 @@ Sets the value of the given configuration key.
 ### Summary
 
 ```csharp
-public void Set(public sealed struct MyIniKey key, string value)
+public void Set(MyIniKey key, string value)
 ```
 
 Sets the value of the given configuration key.
@@ -45,7 +45,7 @@ Sets the value of the given configuration key.
 ### Summary
 
 ```csharp
-public void Set(public sealed struct MyIniKey key, bool value)
+public void Set(MyIniKey key, bool value)
 ```
 
 Sets the value of the given configuration key.
@@ -73,7 +73,7 @@ Sets the value of the given configuration key.
 ### Summary
 
 ```csharp
-public void Set(public sealed struct MyIniKey key, byte value)
+public void Set(MyIniKey key, byte value)
 ```
 
 Sets the value of the given configuration key.
@@ -101,7 +101,7 @@ Sets the value of the given configuration key.
 ### Summary
 
 ```csharp
-public void Set(public sealed struct MyIniKey key, sbyte value)
+public void Set(MyIniKey key, sbyte value)
 ```
 
 Sets the value of the given configuration key.
@@ -129,7 +129,7 @@ Sets the value of the given configuration key.
 ### Summary
 
 ```csharp
-public void Set(public sealed struct MyIniKey key, ushort value)
+public void Set(MyIniKey key, ushort value)
 ```
 
 Sets the value of the given configuration key.
@@ -157,7 +157,7 @@ Sets the value of the given configuration key.
 ### Summary
 
 ```csharp
-public void Set(public sealed struct MyIniKey key, short value)
+public void Set(MyIniKey key, short value)
 ```
 
 Sets the value of the given configuration key.
@@ -185,7 +185,7 @@ Sets the value of the given configuration key.
 ### Summary
 
 ```csharp
-public void Set(public sealed struct MyIniKey key, uint value)
+public void Set(MyIniKey key, uint value)
 ```
 
 Sets the value of the given configuration key.
@@ -213,7 +213,7 @@ Sets the value of the given configuration key.
 ### Summary
 
 ```csharp
-public void Set(public sealed struct MyIniKey key, int value)
+public void Set(MyIniKey key, int value)
 ```
 
 Sets the value of the given configuration key.
@@ -241,7 +241,7 @@ Sets the value of the given configuration key.
 ### Summary
 
 ```csharp
-public void Set(public sealed struct MyIniKey key, ulong value)
+public void Set(MyIniKey key, ulong value)
 ```
 
 Sets the value of the given configuration key.
@@ -269,7 +269,7 @@ Sets the value of the given configuration key.
 ### Summary
 
 ```csharp
-public void Set(public sealed struct MyIniKey key, long value)
+public void Set(MyIniKey key, long value)
 ```
 
 Sets the value of the given configuration key.
@@ -297,7 +297,7 @@ Sets the value of the given configuration key.
 ### Summary
 
 ```csharp
-public void Set(public sealed struct MyIniKey key, float value)
+public void Set(MyIniKey key, float value)
 ```
 
 Sets the value of the given configuration key.
@@ -325,7 +325,7 @@ Sets the value of the given configuration key.
 ### Summary
 
 ```csharp
-public void Set(public sealed struct MyIniKey key, double value)
+public void Set(MyIniKey key, double value)
 ```
 
 Sets the value of the given configuration key.
@@ -353,7 +353,7 @@ Sets the value of the given configuration key.
 ### Summary
 
 ```csharp
-public void Set(public sealed struct MyIniKey key, decimal value)
+public void Set(MyIniKey key, decimal value)
 ```
 
 Sets the value of the given configuration key.

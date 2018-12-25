@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3I BackwardVector { ; ; }
+public Vector3I BackwardVector { get; set; }
 ```
 
 ### Returns

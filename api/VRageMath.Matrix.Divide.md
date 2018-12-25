@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Matrix Divide(public sealed struct Matrix matrix1, public sealed struct Matrix matrix2)
+public Matrix Divide(Matrix matrix1, Matrix matrix2)
 ```
 
 Divides the components of a matrix by the corresponding components of another matrix.
@@ -17,7 +17,7 @@ Divides the components of a matrix by the corresponding components of another ma
 ### Summary
 
 ```csharp
-public void Divide(ref public sealed struct Matrix matrix1, ref public sealed struct Matrix matrix2, ref public sealed struct Matrix result)
+public void Divide(ref Matrix matrix1, ref Matrix matrix2, ref Matrix result)
 ```
 
 Divides the components of a matrix by the corresponding components of another matrix.
@@ -31,7 +31,7 @@ Divides the components of a matrix by the corresponding components of another ma
 ### Summary
 
 ```csharp
-public public sealed struct Matrix Divide(public sealed struct Matrix matrix1, float divider)
+public Matrix Divide(Matrix matrix1, float divider)
 ```
 
 Divides the components of a matrix by a scalar.
@@ -45,7 +45,7 @@ Divides the components of a matrix by a scalar.
 ### Summary
 
 ```csharp
-public void Divide(ref public sealed struct Matrix matrix1, float divider, ref public sealed struct Matrix result)
+public void Divide(ref Matrix matrix1, float divider, ref Matrix result)
 ```
 
 Divides the components of a matrix by a scalar.

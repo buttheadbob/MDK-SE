@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float LowerLimitDeg { ; ; }
+public float LowerLimitDeg { get; set; }
 ```
 
 Gets or sets the lower angle limit of the rotor in degrees. Set to float.MinValue for no limit.

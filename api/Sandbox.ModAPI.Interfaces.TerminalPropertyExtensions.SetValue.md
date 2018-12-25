@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void SetValue<T>(public interface IMyTerminalBlock block, string propertyId, public class T value)
+public void SetValue<T>(IMyTerminalBlock block, string propertyId, T value)
 ```
 
 ### Returns

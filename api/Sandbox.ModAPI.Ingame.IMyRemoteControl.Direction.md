@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual private sealed enum Direction Direction { ; ; }
+public Direction Direction { get; set; }
 ```
 
 Gets or sets the current flight direction

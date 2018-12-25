@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct MyBlockOrientation Transform(ref public sealed struct MyBlockOrientation orientation, ref public sealed struct MatrixI transform)
+public MyBlockOrientation Transform(ref MyBlockOrientation orientation, ref MatrixI transform)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public float Value { ; ; }
+public float Value { get; set; }
 ```
 
 Describes the value of this point.

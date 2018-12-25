@@ -27,7 +27,7 @@ public bool Contains(float x, float y)
 ### Summary
 
 ```csharp
-public bool Contains(public sealed struct Vector2 vector2D)
+public bool Contains(Vector2 vector2D)
 ```
 
 ### Returns
@@ -39,7 +39,7 @@ public bool Contains(public sealed struct Vector2 vector2D)
 ### Summary
 
 ```csharp
-public bool Contains(public sealed struct Point point)
+public bool Contains(Point point)
 ```
 
 ### Returns

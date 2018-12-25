@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool IsValidBlockOrientation(private sealed enum Direction forward, private sealed enum Direction up)
+public bool IsValidBlockOrientation(Direction forward, Direction up)
 ```
 
 ### Returns

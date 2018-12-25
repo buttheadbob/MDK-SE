@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float Friction { ; ; }
+public float Friction { get; set; }
 ```
 
 ### Returns

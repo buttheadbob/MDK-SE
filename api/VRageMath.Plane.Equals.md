@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool Equals(public sealed struct Plane other)
+public bool Equals(Plane other)
 ```
 
 Determines whether the specified Plane is equal to the Plane.

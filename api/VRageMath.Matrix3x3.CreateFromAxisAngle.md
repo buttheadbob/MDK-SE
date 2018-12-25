@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Matrix3x3 CreateFromAxisAngle(public sealed struct Vector3 axis, float angle)
+public Matrix3x3 CreateFromAxisAngle(Vector3 axis, float angle)
 ```
 
 Creates a new Matrix3x3 that rotates around an arbitrary vector.
@@ -17,7 +17,7 @@ Creates a new Matrix3x3 that rotates around an arbitrary vector.
 ### Summary
 
 ```csharp
-public void CreateFromAxisAngle(ref public sealed struct Vector3 axis, float angle, ref public sealed struct Matrix3x3 result)
+public void CreateFromAxisAngle(ref Vector3 axis, float angle, ref Matrix3x3 result)
 ```
 
 Creates a new Matrix3x3 that rotates around an arbitrary vector.

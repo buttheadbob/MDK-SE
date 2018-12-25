@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public double DistanceSquared(public sealed struct Vector3D value1, public sealed struct Vector3D value2)
+public double DistanceSquared(Vector3D value1, Vector3D value2)
 ```
 
 Calculates the distance between two vectors squared.
@@ -17,7 +17,7 @@ Calculates the distance between two vectors squared.
 ### Summary
 
 ```csharp
-public void DistanceSquared(ref public sealed struct Vector3D value1, ref public sealed struct Vector3D value2, ref double result)
+public void DistanceSquared(ref Vector3D value1, ref Vector3D value2, ref double result)
 ```
 
 Calculates the distance between two vectors squared.

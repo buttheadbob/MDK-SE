@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float BlinkOffset { ; ; }
+public float BlinkOffset { get; set; }
 ```
 
 Adds an offset to the blinking interval, as a value between 0 and 1.

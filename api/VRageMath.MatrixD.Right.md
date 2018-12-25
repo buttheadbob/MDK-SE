@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3D Right { ; ; }
+public Vector3D Right { get; set; }
 ```
 
 Gets and sets the right vector of the Matrix.

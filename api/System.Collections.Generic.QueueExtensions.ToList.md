@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public class List<T> ToList<T>(public class ConcurrentQueue<T> queue)
+public List<T> ToList<T>(ConcurrentQueue<T> queue)
 ```
 
 ### Returns

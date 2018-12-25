@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector4D One
+public Vector4D One
 ```
 
 ### Returns

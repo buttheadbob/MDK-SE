@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void CreateFromVertices(public sealed class Vector3[] vertices)
+public void CreateFromVertices(Vector3[] vertices)
 ```
 
 ### Returns

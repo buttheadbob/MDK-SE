@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3D Point3
+public Vector3D Point3
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void CopyTo(public sealed class CurveKey[] array, int arrayIndex)
+public void CopyTo(CurveKey[] array, int arrayIndex)
 ```
 
 Copies the CurveKeys of the CurveKeyCollection to an array, starting at the array index provided.

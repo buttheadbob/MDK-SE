@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public private sealed enum DirectionFlags GetDirectionFlag(private sealed enum Direction dir)
+public DirectionFlags GetDirectionFlag(Direction dir)
 ```
 
 ### Returns

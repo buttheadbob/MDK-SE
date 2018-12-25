@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void OverlapAllFrustum<T>(ref public class BoundingFrustum frustum, public class List<T> elementsList, bool clear)
+public void OverlapAllFrustum<T>(ref BoundingFrustum frustum, List<T> elementsList, bool clear)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public void OverlapAllFrustum<T>(ref public class BoundingFrustum frustum, publ
 ### Summary
 
 ```csharp
-public void OverlapAllFrustum<T>(ref public class BoundingFrustum frustum, public class List<T> elementsList, uint requiredFlags, bool clear)
+public void OverlapAllFrustum<T>(ref BoundingFrustum frustum, List<T> elementsList, uint requiredFlags, bool clear)
 ```
 
 ### Returns
@@ -27,7 +27,7 @@ public void OverlapAllFrustum<T>(ref public class BoundingFrustum frustum, publ
 ### Summary
 
 ```csharp
-public void OverlapAllFrustum<T>(ref public class BoundingFrustum frustum, public class List<T> elementsList, public class List<T> isInsideList, bool clear)
+public void OverlapAllFrustum<T>(ref BoundingFrustum frustum, List<T> elementsList, List<T> isInsideList, bool clear)
 ```
 
 ### Returns
@@ -39,7 +39,7 @@ public void OverlapAllFrustum<T>(ref public class BoundingFrustum frustum, publ
 ### Summary
 
 ```csharp
-public void OverlapAllFrustum<T>(ref public class BoundingFrustum frustum, public sealed class Action<T1, T2> add)
+public void OverlapAllFrustum<T>(ref BoundingFrustum frustum, Action<T1, T2> add)
 ```
 
 ### Returns
@@ -51,7 +51,7 @@ public void OverlapAllFrustum<T>(ref public class BoundingFrustum frustum, publ
 ### Summary
 
 ```csharp
-public void OverlapAllFrustum<T, Op>(ref public class BoundingFrustum frustum, ref public struct Op add)
+public void OverlapAllFrustum<T, Op>(ref BoundingFrustum frustum, ref Op add)
 ```
 
 ### Returns
@@ -63,7 +63,7 @@ public void OverlapAllFrustum<T, Op>(ref public class BoundingFrustum frustum, 
 ### Summary
 
 ```csharp
-public void OverlapAllFrustum<T>(ref public class BoundingFrustum frustum, public class List<T> elementsList, public class List<T> isInsideList, float tSqr, bool clear)
+public void OverlapAllFrustum<T>(ref BoundingFrustum frustum, List<T> elementsList, List<T> isInsideList, float tSqr, bool clear)
 ```
 
 ### Returns
@@ -75,7 +75,7 @@ public void OverlapAllFrustum<T>(ref public class BoundingFrustum frustum, publ
 ### Summary
 
 ```csharp
-public void OverlapAllFrustum<T>(ref public class BoundingFrustum frustum, public sealed class Action<T1, T2> add, float tSqr)
+public void OverlapAllFrustum<T>(ref BoundingFrustum frustum, Action<T1, T2> add, float tSqr)
 ```
 
 ### Returns
@@ -87,7 +87,7 @@ public void OverlapAllFrustum<T>(ref public class BoundingFrustum frustum, publ
 ### Summary
 
 ```csharp
-public void OverlapAllFrustum<T, Op>(ref public class BoundingFrustum frustum, float tSqr, ref public struct Op add)
+public void OverlapAllFrustum<T, Op>(ref BoundingFrustum frustum, float tSqr, ref Op add)
 ```
 
 ### Returns

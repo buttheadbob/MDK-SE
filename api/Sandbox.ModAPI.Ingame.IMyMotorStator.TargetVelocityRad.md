@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float TargetVelocityRad { ; ; }
+public float TargetVelocityRad { get; set; }
 ```
 
 Gets or sets the desired velocity of the rotor in radians/second

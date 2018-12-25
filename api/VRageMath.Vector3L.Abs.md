@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3L Abs(public sealed struct Vector3L value)
+public Vector3L Abs(Vector3L value)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public public sealed struct Vector3L Abs(public sealed struct Vector3L value)
 ### Summary
 
 ```csharp
-public void Abs(ref public sealed struct Vector3L value, ref public sealed struct Vector3L result)
+public void Abs(ref Vector3L value, ref Vector3L result)
 ```
 
 ### Returns

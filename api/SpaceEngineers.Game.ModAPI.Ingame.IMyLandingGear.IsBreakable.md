@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool IsBreakable { ; }
+public bool IsBreakable { get; }
 ```
 
 Gets if the landing gear lock can be broken with force.

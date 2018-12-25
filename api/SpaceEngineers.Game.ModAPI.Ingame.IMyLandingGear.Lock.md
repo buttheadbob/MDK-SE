@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual void Lock()
+public void Lock()
 ```
 
 Locks the landing gear.

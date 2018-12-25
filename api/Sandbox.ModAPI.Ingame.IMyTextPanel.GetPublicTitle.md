@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual string GetPublicTitle()
+public string GetPublicTitle()
 ```
 
 ### Returns

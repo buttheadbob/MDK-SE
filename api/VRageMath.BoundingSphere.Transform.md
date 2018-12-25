@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct BoundingSphere Transform(public sealed struct Matrix matrix)
+public BoundingSphere Transform(Matrix matrix)
 ```
 
 Translates and scales the BoundingSphere using a given Matrix.
@@ -17,7 +17,7 @@ Translates and scales the BoundingSphere using a given Matrix.
 ### Summary
 
 ```csharp
-public void Transform(ref public sealed struct Matrix matrix, ref public sealed struct BoundingSphere result)
+public void Transform(ref Matrix matrix, ref BoundingSphere result)
 ```
 
 Translates and scales the BoundingSphere using a given Matrix.

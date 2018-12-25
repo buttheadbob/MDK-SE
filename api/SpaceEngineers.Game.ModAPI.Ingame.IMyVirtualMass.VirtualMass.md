@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float VirtualMass { ; }
+public float VirtualMass { get; }
 ```
 
 Virtualmass weight

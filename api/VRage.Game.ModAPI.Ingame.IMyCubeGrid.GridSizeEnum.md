@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public sealed enum MyCubeSize GridSizeEnum { ; }
+public MyCubeSize GridSizeEnum { get; }
 ```
 
 Grid size enum

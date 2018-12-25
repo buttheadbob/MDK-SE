@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public interface ITerminalProperty GetProperty(string id)
+public ITerminalProperty GetProperty(string id)
 ```
 
 ### Returns

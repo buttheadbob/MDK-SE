@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual string GetButtonName(int index)
+public string GetButtonName(int index)
 ```
 
 Gets the button name.

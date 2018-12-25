@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct MatrixD Add(public sealed struct MatrixD matrix1, public sealed struct MatrixD matrix2)
+public MatrixD Add(MatrixD matrix1, MatrixD matrix2)
 ```
 
 Adds a matrix to another matrix.
@@ -17,7 +17,7 @@ Adds a matrix to another matrix.
 ### Summary
 
 ```csharp
-public void Add(ref public sealed struct MatrixD matrix1, ref public sealed struct MatrixD matrix2, ref public sealed struct MatrixD result)
+public void Add(ref MatrixD matrix1, ref MatrixD matrix2, ref MatrixD result)
 ```
 
 Adds a matrix to another matrix.

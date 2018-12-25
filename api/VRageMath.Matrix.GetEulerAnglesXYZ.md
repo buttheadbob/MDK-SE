@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool GetEulerAnglesXYZ(ref public sealed struct Matrix mat, ref public sealed struct Vector3 xyz)
+public bool GetEulerAnglesXYZ(ref Matrix mat, ref Vector3 xyz)
 ```
 
 ### Returns

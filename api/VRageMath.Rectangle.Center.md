@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Point Center { ; }
+public Point Center { get; }
 ```
 
 Gets the Point that specifies the center of the rectangle.

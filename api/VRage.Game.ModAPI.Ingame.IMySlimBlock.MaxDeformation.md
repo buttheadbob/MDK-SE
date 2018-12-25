@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float MaxDeformation { ; }
+public float MaxDeformation { get; }
 ```
 
 Maximum deformation of block

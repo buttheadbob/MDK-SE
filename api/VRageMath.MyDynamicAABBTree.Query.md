@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void Query(public sealed class Func<T, TResult> callback, ref public sealed struct BoundingBox aabb)
+public void Query(Func<T, TResult> callback, ref BoundingBox aabb)
 ```
 
 ### Returns

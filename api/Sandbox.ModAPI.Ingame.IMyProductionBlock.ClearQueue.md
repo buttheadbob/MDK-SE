@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual void ClearQueue()
+public void ClearQueue()
 ```
 
 Clears the Queue

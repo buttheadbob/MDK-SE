@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual int ProjectionRotX { ; }
+public int ProjectionRotX { get; }
 ```
 
 ### Returns

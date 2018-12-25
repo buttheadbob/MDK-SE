@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool UseConveyorSystem { ; ; }
+public bool UseConveyorSystem { get; set; }
 ```
 
 Conveyor system enabled

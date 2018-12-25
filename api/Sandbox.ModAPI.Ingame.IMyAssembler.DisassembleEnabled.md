@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool DisassembleEnabled { ; }
+public bool DisassembleEnabled { get; }
 ```
 
 ### Returns

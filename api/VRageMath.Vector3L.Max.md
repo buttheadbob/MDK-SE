@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3L Max(public sealed struct Vector3L value1, public sealed struct Vector3L value2)
+public Vector3L Max(Vector3L value1, Vector3L value2)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public public sealed struct Vector3L Max(public sealed struct Vector3L value1, p
 ### Summary
 
 ```csharp
-public void Max(ref public sealed struct Vector3L value1, ref public sealed struct Vector3L value2, ref public sealed struct Vector3L result)
+public void Max(ref Vector3L value1, ref Vector3L value2, ref Vector3L result)
 ```
 
 ### Returns

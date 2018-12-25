@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool Intersects(ref public sealed struct BoundingBox box)
+public bool Intersects(ref BoundingBox box)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public bool Intersects(ref public sealed struct BoundingBox box)
 ### Summary
 
 ```csharp
-public bool Intersects(ref public sealed struct BoundingBoxD box)
+public bool Intersects(ref BoundingBoxD box)
 ```
 
 ### Returns
@@ -27,7 +27,7 @@ public bool Intersects(ref public sealed struct BoundingBoxD box)
 ### Summary
 
 ```csharp
-public bool Intersects(ref public sealed struct MyOrientedBoundingBoxD other)
+public bool Intersects(ref MyOrientedBoundingBoxD other)
 ```
 
 ### Returns
@@ -39,7 +39,7 @@ public bool Intersects(ref public sealed struct MyOrientedBoundingBoxD other)
 ### Summary
 
 ```csharp
-public bool Intersects(public class BoundingFrustumD frustum)
+public bool Intersects(BoundingFrustumD frustum)
 ```
 
 ### Returns
@@ -51,7 +51,7 @@ public bool Intersects(public class BoundingFrustumD frustum)
 ### Summary
 
 ```csharp
-public bool Intersects(ref public sealed struct BoundingSphereD sphere)
+public bool Intersects(ref BoundingSphereD sphere)
 ```
 
 ### Returns
@@ -63,7 +63,7 @@ public bool Intersects(ref public sealed struct BoundingSphereD sphere)
 ### Summary
 
 ```csharp
-public public sealed struct Nullable<T> Intersects(ref public sealed struct RayD ray)
+public Nullable<T> Intersects(ref RayD ray)
 ```
 
 ### Returns
@@ -75,7 +75,7 @@ public public sealed struct Nullable<T> Intersects(ref public sealed struct Ray
 ### Summary
 
 ```csharp
-public public sealed struct Nullable<T> Intersects(ref public sealed struct LineD line)
+public Nullable<T> Intersects(ref LineD line)
 ```
 
 ### Returns
@@ -87,7 +87,7 @@ public public sealed struct Nullable<T> Intersects(ref public sealed struct Lin
 ### Summary
 
 ```csharp
-public public sealed enum PlaneIntersectionType Intersects(ref public sealed struct PlaneD plane)
+public PlaneIntersectionType Intersects(ref PlaneD plane)
 ```
 
 ### Returns

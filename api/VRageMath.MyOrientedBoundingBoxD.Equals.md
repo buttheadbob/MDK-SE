@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool Equals(public sealed struct MyOrientedBoundingBox other)
+public bool Equals(MyOrientedBoundingBox other)
 ```
 
 ### Returns

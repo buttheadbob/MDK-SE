@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual void SetAutoPilotEnabled(bool enabled)
+public void SetAutoPilotEnabled(bool enabled)
 ```
 
 Enables or disables the autopilot.

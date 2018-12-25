@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct BoundingBoxD Intersect(public sealed struct BoundingBoxD box)
+public BoundingBoxD Intersect(BoundingBoxD box)
 ```
 
 Returns bounding box which is intersection of this and box It's called 'Prunik' Result is invalid box when there's no intersection (Min > Max)
@@ -17,7 +17,7 @@ Returns bounding box which is intersection of this and box It's called 'Prunik' 
 ### Summary
 
 ```csharp
-public bool Intersect(ref public sealed struct LineD line, ref public sealed struct LineD intersectedLine)
+public bool Intersect(ref LineD line, ref LineD intersectedLine)
 ```
 
 ### Returns
@@ -29,7 +29,7 @@ public bool Intersect(ref public sealed struct LineD line, ref public sealed s
 ### Summary
 
 ```csharp
-public bool Intersect(ref public sealed struct LineD line, ref double t1, ref double t2)
+public bool Intersect(ref LineD line, ref double t1, ref double t2)
 ```
 
 ### Returns
@@ -41,7 +41,7 @@ public bool Intersect(ref public sealed struct LineD line, ref double t1, ref�
 ### Summary
 
 ```csharp
-public bool Intersect(ref public sealed struct RayD ray, ref double tmin, ref double tmax)
+public bool Intersect(ref RayD ray, ref double tmin, ref double tmax)
 ```
 
 ### Returns

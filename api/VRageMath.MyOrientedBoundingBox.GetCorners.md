@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetCorners(public sealed class Vector3[] corners, int startIndex)
+public void GetCorners(Vector3[] corners, int startIndex)
 ```
 
 ### Returns

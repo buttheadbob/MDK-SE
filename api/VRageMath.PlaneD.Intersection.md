@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3D Intersection(ref public sealed struct Vector3D from, ref public sealed struct Vector3D direction)
+public Vector3D Intersection(ref Vector3D from, ref Vector3D direction)
 ```
 
 Gets intersection point in Plane.

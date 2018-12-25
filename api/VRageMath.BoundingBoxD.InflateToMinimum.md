@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void InflateToMinimum(public sealed struct Vector3D minimumSize)
+public void InflateToMinimum(Vector3D minimumSize)
 ```
 
 ### Returns

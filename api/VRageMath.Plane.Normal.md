@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3 Normal
+public Vector3 Normal
 ```
 
 The normal vector of the Plane.

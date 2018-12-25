@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public float TriangleArea(public sealed struct Vector3 v1, public sealed struct Vector3 v2, public sealed struct Vector3 v3)
+public float TriangleArea(Vector3 v1, Vector3 v2, Vector3 v3)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public float TriangleArea(public sealed struct Vector3 v1, public sealed struct 
 ### Summary
 
 ```csharp
-public float TriangleArea(ref public sealed struct Vector3 v1, ref public sealed struct Vector3 v2, ref public sealed struct Vector3 v3)
+public float TriangleArea(ref Vector3 v1, ref Vector3 v2, ref Vector3 v3)
 ```
 
 ### Returns

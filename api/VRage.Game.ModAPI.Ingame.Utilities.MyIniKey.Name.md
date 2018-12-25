@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public string Name { ; }
+public string Name { get; }
 ```
 
 Gets the Key part of this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) 

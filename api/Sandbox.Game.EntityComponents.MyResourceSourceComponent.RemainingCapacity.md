@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public float RemainingCapacity { ; }
+public float RemainingCapacity { get; }
 ```
 
 ### Returns

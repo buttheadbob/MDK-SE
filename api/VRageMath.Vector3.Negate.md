@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void Negate(ref public sealed struct Vector3 value, ref public sealed struct Vector3 result)
+public void Negate(ref Vector3 value, ref Vector3 result)
 ```
 
 Returns a vector pointing in the opposite direction.
@@ -17,7 +17,7 @@ Returns a vector pointing in the opposite direction.
 ### Summary
 
 ```csharp
-public public sealed struct Vector3 Negate(public sealed struct Vector3 value)
+public Vector3 Negate(Vector3 value)
 ```
 
 Returns a vector pointing in the opposite direction.

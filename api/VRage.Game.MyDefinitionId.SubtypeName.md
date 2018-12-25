@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public string SubtypeName { ; }
+public string SubtypeName { get; }
 ```
 
 ### Returns

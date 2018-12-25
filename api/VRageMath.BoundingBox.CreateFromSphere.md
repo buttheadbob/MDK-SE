@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct BoundingBox CreateFromSphere(public sealed struct BoundingSphere sphere)
+public BoundingBox CreateFromSphere(BoundingSphere sphere)
 ```
 
 Creates the smallest BoundingBox that will contain the specified BoundingSphere.
@@ -17,7 +17,7 @@ Creates the smallest BoundingBox that will contain the specified BoundingSphere.
 ### Summary
 
 ```csharp
-public void CreateFromSphere(ref public sealed struct BoundingSphere sphere, ref public sealed struct BoundingBox result)
+public void CreateFromSphere(ref BoundingSphere sphere, ref BoundingBox result)
 ```
 
 Creates the smallest BoundingBox that will contain the specified BoundingSphere.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetLines(public class List<T> lines)
+public void GetLines(List<T> lines)
 ```
 
 ### Returns

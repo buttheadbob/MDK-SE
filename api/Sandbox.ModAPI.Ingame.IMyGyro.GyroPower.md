@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float GyroPower { ; ; }
+public float GyroPower { get; set; }
 ```
 
 ### Returns

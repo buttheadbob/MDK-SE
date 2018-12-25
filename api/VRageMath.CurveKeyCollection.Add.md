@@ -15,7 +15,7 @@ public void Add(object tmp)
 ### Summary
 
 ```csharp
-public void Add(public class CurveKey item)
+public void Add(CurveKey item)
 ```
 
 Adds a CurveKey to the CurveKeyCollection.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed class Action<T> Echo { ; protected ; }
+public Action<T> Echo { get; protected set; }
 ```
 
 Prints out text onto the currently running programmable block's detail info area.

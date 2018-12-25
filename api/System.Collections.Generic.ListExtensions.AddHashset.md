@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void AddHashset<T>(public class List<T> list, public class HashSet<T> hashset)
+public void AddHashset<T>(List<T> list, HashSet<T> hashset)
 ```
 
 ### Returns

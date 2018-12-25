@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool ShowHorizonIndicator { ; ; }
+public bool ShowHorizonIndicator { get; set; }
 ```
 
 Gets or sets whether the horizon indicator should be displayed for this block.

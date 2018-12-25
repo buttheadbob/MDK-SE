@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3L Left
+public Vector3L Left
 ```
 
 ### Returns

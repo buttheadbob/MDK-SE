@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3 RandomPoint()
+public Vector3 RandomPoint()
 ```
 
 ### Returns

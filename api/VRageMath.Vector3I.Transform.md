@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void Transform(ref public sealed struct Vector3I position, ref public sealed struct Matrix matrix, ref public sealed struct Vector3I result)
+public void Transform(ref Vector3I position, ref Matrix matrix, ref Vector3I result)
 ```
 
 Transforms a Vector3I by the given Matrix.
@@ -17,7 +17,7 @@ Transforms a Vector3I by the given Matrix.
 ### Summary
 
 ```csharp
-public void Transform(ref public sealed struct Vector3I value, ref public sealed struct Quaternion rotation, ref public sealed struct Vector3I result)
+public void Transform(ref Vector3I value, ref Quaternion rotation, ref Vector3I result)
 ```
 
 ### Returns
@@ -29,7 +29,7 @@ public void Transform(ref public sealed struct Vector3I value, ref public seal
 ### Summary
 
 ```csharp
-public public sealed struct Vector3I Transform(public sealed struct Vector3I value, public sealed struct Quaternion rotation)
+public Vector3I Transform(Vector3I value, Quaternion rotation)
 ```
 
 ### Returns
@@ -41,7 +41,7 @@ public public sealed struct Vector3I Transform(public sealed struct Vector3I val
 ### Summary
 
 ```csharp
-public void Transform(ref public sealed struct Vector3I value, ref public sealed struct MatrixI matrix, ref public sealed struct Vector3I result)
+public void Transform(ref Vector3I value, ref MatrixI matrix, ref Vector3I result)
 ```
 
 ### Returns
@@ -53,7 +53,7 @@ public void Transform(ref public sealed struct Vector3I value, ref public seal
 ### Summary
 
 ```csharp
-public public sealed struct Vector3I Transform(public sealed struct Vector3I value, public sealed struct MatrixI transformation)
+public Vector3I Transform(Vector3I value, MatrixI transformation)
 ```
 
 ### Returns
@@ -65,7 +65,7 @@ public public sealed struct Vector3I Transform(public sealed struct Vector3I val
 ### Summary
 
 ```csharp
-public public sealed struct Vector3I Transform(public sealed struct Vector3I value, ref public sealed struct MatrixI transformation)
+public Vector3I Transform(Vector3I value, ref MatrixI transformation)
 ```
 
 ### Returns

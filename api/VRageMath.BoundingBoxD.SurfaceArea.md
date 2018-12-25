@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public double SurfaceArea { ; }
+public double SurfaceArea { get; }
 ```
 
 ### Returns

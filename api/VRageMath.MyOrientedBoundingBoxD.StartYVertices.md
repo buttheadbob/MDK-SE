@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed class Int32[] StartYVertices
+public Int32[] StartYVertices
 ```
 
 ### Returns

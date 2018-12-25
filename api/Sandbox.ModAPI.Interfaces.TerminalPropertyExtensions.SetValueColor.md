@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void SetValueColor(public interface IMyTerminalBlock block, string propertyId, public sealed struct Color value)
+public void SetValueColor(IMyTerminalBlock block, string propertyId, Color value)
 ```
 
 Set bool value of property

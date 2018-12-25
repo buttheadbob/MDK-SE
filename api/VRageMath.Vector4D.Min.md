@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector4 Min(public sealed struct Vector4 value1, public sealed struct Vector4 value2)
+public Vector4 Min(Vector4 value1, Vector4 value2)
 ```
 
 Returns a vector that contains the lowest value from each matching pair of components.
@@ -17,7 +17,7 @@ Returns a vector that contains the lowest value from each matching pair of compo
 ### Summary
 
 ```csharp
-public void Min(ref public sealed struct Vector4 value1, ref public sealed struct Vector4 value2, ref public sealed struct Vector4 result)
+public void Min(ref Vector4 value1, ref Vector4 value2, ref Vector4 result)
 ```
 
 Returns a vector that contains the lowest value from each matching pair of components.

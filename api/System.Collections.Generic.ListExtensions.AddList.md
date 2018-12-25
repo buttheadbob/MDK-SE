@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void AddList<T>(public class List<T> list, public class List<T> itemsToAdd)
+public void AddList<T>(List<T> list, List<T> itemsToAdd)
 ```
 
 ### Returns

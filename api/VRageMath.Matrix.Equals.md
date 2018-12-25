@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool Equals(public sealed struct Matrix other)
+public bool Equals(Matrix other)
 ```
 
 Determines whether the specified Object is equal to the Matrix.

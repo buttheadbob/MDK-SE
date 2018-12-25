@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool Equals(public sealed struct BoundingBoxI other)
+public bool Equals(BoundingBoxI other)
 ```
 
 Determines whether two instances of BoundingBoxI are equal.

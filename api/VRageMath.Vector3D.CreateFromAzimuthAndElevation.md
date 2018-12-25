@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void CreateFromAzimuthAndElevation(double azimuth, double elevation, ref public sealed struct Vector3D direction)
+public void CreateFromAzimuthAndElevation(double azimuth, double elevation, ref Vector3D direction)
 ```
 
 ### Returns

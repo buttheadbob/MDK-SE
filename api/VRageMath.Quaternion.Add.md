@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Quaternion Add(public sealed struct Quaternion quaternion1, public sealed struct Quaternion quaternion2)
+public Quaternion Add(Quaternion quaternion1, Quaternion quaternion2)
 ```
 
 Adds two Quaternions.
@@ -17,7 +17,7 @@ Adds two Quaternions.
 ### Summary
 
 ```csharp
-public void Add(ref public sealed struct Quaternion quaternion1, ref public sealed struct Quaternion quaternion2, ref public sealed struct Quaternion result)
+public void Add(ref Quaternion quaternion1, ref Quaternion quaternion2, ref Quaternion result)
 ```
 
 Adds two Quaternions.

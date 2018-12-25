@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct MatrixD CreateRotationX(double radians)
+public MatrixD CreateRotationX(double radians)
 ```
 
 Returns a matrix that can be used to rotate a set of vertices around the x-axis.
@@ -17,7 +17,7 @@ Returns a matrix that can be used to rotate a set of vertices around the x-axis.
 ### Summary
 
 ```csharp
-public void CreateRotationX(double radians, ref public sealed struct MatrixD result)
+public void CreateRotationX(double radians, ref MatrixD result)
 ```
 
 Populates data into a user-specified matrix that can be used to rotate a set of vertices around the x-axis.

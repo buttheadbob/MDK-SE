@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public string GetString(public sealed struct MyStringId id)
+public string GetString(MyStringId id)
 ```
 
 ### Returns

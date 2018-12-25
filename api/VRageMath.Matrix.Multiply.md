@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Matrix Multiply(public sealed struct Matrix matrix1, public sealed struct Matrix matrix2)
+public Matrix Multiply(Matrix matrix1, Matrix matrix2)
 ```
 
 Multiplies a matrix by another matrix.
@@ -17,7 +17,7 @@ Multiplies a matrix by another matrix.
 ### Summary
 
 ```csharp
-public void Multiply(ref public sealed struct Matrix matrix1, ref public sealed struct Matrix matrix2, ref public sealed struct Matrix result)
+public void Multiply(ref Matrix matrix1, ref Matrix matrix2, ref Matrix result)
 ```
 
 Multiplies a matrix by another matrix.
@@ -31,7 +31,7 @@ Multiplies a matrix by another matrix.
 ### Summary
 
 ```csharp
-public public sealed struct Matrix Multiply(public sealed struct Matrix matrix1, float scaleFactor)
+public Matrix Multiply(Matrix matrix1, float scaleFactor)
 ```
 
 Multiplies a matrix by a scalar value.
@@ -45,7 +45,7 @@ Multiplies a matrix by a scalar value.
 ### Summary
 
 ```csharp
-public void Multiply(ref public sealed struct Matrix matrix1, float scaleFactor, ref public sealed struct Matrix result)
+public void Multiply(ref Matrix matrix1, float scaleFactor, ref Matrix result)
 ```
 
 Multiplies a matrix by a scalar value.

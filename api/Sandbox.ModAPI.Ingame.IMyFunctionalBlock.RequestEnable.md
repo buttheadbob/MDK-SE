@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual void RequestEnable(bool enable)
+public void RequestEnable(bool enable)
 ```
 
 ### Returns

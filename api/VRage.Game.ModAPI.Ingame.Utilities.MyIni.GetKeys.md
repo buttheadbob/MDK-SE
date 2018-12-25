@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetKeys(string section, public class List<T> keys)
+public void GetKeys(string section, List<T> keys)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public void GetKeys(string section, public class List<T> keys)
 ### Summary
 
 ```csharp
-public void GetKeys(public class List<T> keys)
+public void GetKeys(List<T> keys)
 ```
 
 ### Returns

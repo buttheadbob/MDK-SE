@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool IsZero(public sealed struct Vector3D value)
+public bool IsZero(Vector3D value)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public bool IsZero(public sealed struct Vector3D value)
 ### Summary
 
 ```csharp
-public bool IsZero(public sealed struct Vector3D value, double epsilon)
+public bool IsZero(Vector3D value, double epsilon)
 ```
 
 ### Returns

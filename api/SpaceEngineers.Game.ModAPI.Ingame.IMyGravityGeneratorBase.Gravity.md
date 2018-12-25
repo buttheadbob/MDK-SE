@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float Gravity { ; }
+public float Gravity { get; }
 ```
 
 Gets the gravity acceleration

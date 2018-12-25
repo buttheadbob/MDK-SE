@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool DetectFloatingObjects { ; ; }
+public bool DetectFloatingObjects { get; set; }
 ```
 
 Gets or sets if the sensor should detect floating objects (components, rocks).

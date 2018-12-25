@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual void GetFilterList(public class List<T> items)
+public void GetFilterList(List<T> items)
 ```
 
 ### Returns

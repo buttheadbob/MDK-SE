@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3D CalculateBezierPoint(double t, public sealed struct Vector3D p0, public sealed struct Vector3D p1, public sealed struct Vector3D p2, public sealed struct Vector3D p3)
+public Vector3D CalculateBezierPoint(double t, Vector3D p0, Vector3D p1, Vector3D p2, Vector3D p3)
 ```
 
 ### Returns

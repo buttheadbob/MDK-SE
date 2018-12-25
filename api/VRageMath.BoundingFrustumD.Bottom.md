@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct PlaneD Bottom { ; }
+public PlaneD Bottom { get; }
 ```
 
 Gets the bottom plane of the BoundingFrustumD.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float OxygenCapacity { ; }
+public float OxygenCapacity { get; }
 ```
 
 Gets the maximum oxygen capacity of this cockpit.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public interface IMySlimBlock GetCubeBlock(public sealed struct Vector3I pos)
+public IMySlimBlock GetCubeBlock(Vector3I pos)
 ```
 
 Get cube block at given position

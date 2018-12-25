@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3D Max
+public Vector3D Max
 ```
 
 The maximum point the BoundingBox contains.

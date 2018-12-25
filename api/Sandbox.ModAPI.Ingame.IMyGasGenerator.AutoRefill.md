@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool AutoRefill { ; ; }
+public bool AutoRefill { get; set; }
 ```
 
 Autorefill enabled

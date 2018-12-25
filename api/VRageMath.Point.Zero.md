@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Point Zero { ; }
+public Point Zero { get; }
 ```
 
 Returns the point (0,0).

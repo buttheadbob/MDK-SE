@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool IsInsideInclusive(ref public sealed struct Vector3 min, ref public sealed struct Vector3 max)
+public bool IsInsideInclusive(ref Vector3 min, ref Vector3 max)
 ```
 
 ### Returns

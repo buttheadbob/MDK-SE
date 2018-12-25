@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct BoundingBox2D Include(ref public sealed struct Vector2D point)
+public BoundingBox2D Include(ref Vector2D point)
 ```
 
 return expanded aabb (abb include point)
@@ -19,7 +19,7 @@ return expanded aabb (abb include point)
 ### Summary
 
 ```csharp
-public public sealed struct BoundingBox2D Include(public sealed struct Vector2D point)
+public BoundingBox2D Include(Vector2D point)
 ```
 
 ### Returns
@@ -31,7 +31,7 @@ public public sealed struct BoundingBox2D Include(public sealed struct Vector2D 
 ### Summary
 
 ```csharp
-public public sealed struct BoundingBox2D Include(public sealed struct Vector2D p0, public sealed struct Vector2D p1, public sealed struct Vector2D p2)
+public BoundingBox2D Include(Vector2D p0, Vector2D p1, Vector2D p2)
 ```
 
 ### Returns
@@ -43,7 +43,7 @@ public public sealed struct BoundingBox2D Include(public sealed struct Vector2D 
 ### Summary
 
 ```csharp
-public public sealed struct BoundingBox2D Include(ref public sealed struct Vector2D p0, ref public sealed struct Vector2D p1, ref public sealed struct Vector2D p2)
+public BoundingBox2D Include(ref Vector2D p0, ref Vector2D p1, ref Vector2D p2)
 ```
 
 ### Returns
@@ -55,7 +55,7 @@ public public sealed struct BoundingBox2D Include(ref public sealed struct Vect
 ### Summary
 
 ```csharp
-public public sealed struct BoundingBox2D Include(ref public sealed struct BoundingBox2D box)
+public BoundingBox2D Include(ref BoundingBox2D box)
 ```
 
 return expanded aabb (abb include point)
@@ -71,7 +71,7 @@ return expanded aabb (abb include point)
 ### Summary
 
 ```csharp
-public public sealed struct BoundingBox2D Include(public sealed struct BoundingBox2D box)
+public BoundingBox2D Include(BoundingBox2D box)
 ```
 
 ### Returns

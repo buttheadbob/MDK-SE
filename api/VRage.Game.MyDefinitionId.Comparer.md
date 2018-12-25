@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public private class DefinitionIdComparerType Comparer
+public DefinitionIdComparerType Comparer
 ```
 
 ### Returns

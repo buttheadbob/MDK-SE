@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public float Volume { ; }
+public float Volume { get; }
 ```
 
 ### Returns

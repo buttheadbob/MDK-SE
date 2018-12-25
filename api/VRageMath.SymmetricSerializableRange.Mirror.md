@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool Mirror { ; ; }
+public bool Mirror { get; set; }
 ```
 
 ### Returns

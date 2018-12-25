@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool DetectOwner { ; ; }
+public bool DetectOwner { get; set; }
 ```
 
 Gets or sets if the sensor should detect the block owner.

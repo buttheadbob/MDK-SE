@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual void SetTarget(public sealed struct Vector3D pos)
+public void SetTarget(Vector3D pos)
 ```
 
 Targets given position

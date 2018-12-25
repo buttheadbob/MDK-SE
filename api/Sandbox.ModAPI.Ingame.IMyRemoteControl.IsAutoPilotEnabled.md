@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool IsAutoPilotEnabled { ; }
+public bool IsAutoPilotEnabled { get; }
 ```
 
 Determines whether the autopilot is currently enabled.

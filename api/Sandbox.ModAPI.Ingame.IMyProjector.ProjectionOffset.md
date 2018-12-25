@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public sealed struct Vector3I ProjectionOffset { ; ; }
+public Vector3I ProjectionOffset { get; set; }
 ```
 
 ### Returns

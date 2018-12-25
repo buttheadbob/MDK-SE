@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector2 SignNonZero(public sealed struct Vector2 value)
+public Vector2 SignNonZero(Vector2 value)
 ```
 
 ### Returns

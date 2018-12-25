@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3 UnpackHSVFromUint(uint packed)
+public Vector3 UnpackHSVFromUint(uint packed)
 ```
 
 ### Returns

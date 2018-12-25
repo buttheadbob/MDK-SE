@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public sealed struct Vector3I GridThrustDirection { ; }
+public Vector3I GridThrustDirection { get; }
 ```
 
 Gets the direction of thrust, relative to ship controller (cockpit).

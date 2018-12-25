@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual int InventoryCount { ; }
+public int InventoryCount { get; }
 ```
 
 ### Returns

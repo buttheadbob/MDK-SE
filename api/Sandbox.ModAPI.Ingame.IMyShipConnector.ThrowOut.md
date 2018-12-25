@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool ThrowOut { ; ; }
+public bool ThrowOut { get; set; }
 ```
 
 Gets or sets whether this connector should throw out anything placed in its inventory.

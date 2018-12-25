@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3D Position
+public Vector3D Position
 ```
 
 Specifies the starting point of the Ray.

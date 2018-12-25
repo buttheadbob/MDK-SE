@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public sealed struct MyFixedPoint GetItemAmount(public sealed struct SerializableDefinitionId contentId, public sealed enum MyItemFlags flags)
+public MyFixedPoint GetItemAmount(SerializableDefinitionId contentId, MyItemFlags flags)
 ```
 
 ### Returns

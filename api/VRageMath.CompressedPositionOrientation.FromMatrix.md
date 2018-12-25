@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void FromMatrix(ref public sealed struct Matrix matrix)
+public void FromMatrix(ref Matrix matrix)
 ```
 
 ### Returns

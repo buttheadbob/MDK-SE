@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3 Ceiling(public sealed struct Vector3 v)
+public Vector3 Ceiling(Vector3 v)
 ```
 
 ### Returns

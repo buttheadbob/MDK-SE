@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool CheckConnectionAllowed { ; }
+public bool CheckConnectionAllowed { get; }
 ```
 
 ### Returns

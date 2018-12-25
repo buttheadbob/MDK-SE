@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public private sealed enum Direction Up
+public Direction Up
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed enum MyRelationsBetweenPlayerAndBlock Relationship
+public MyRelationsBetweenPlayerAndBlock Relationship
 ```
 
 Relationship between the entity and the owner of the sensor

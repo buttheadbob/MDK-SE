@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual void SetTargetCoords(string coords)
+public void SetTargetCoords(string coords)
 ```
 
 Set coordinates of target

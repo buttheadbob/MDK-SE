@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual uint Connections { ; }
+public uint Connections { get; }
 ```
 
 Retrieve number of blocks this block is connected to (r/o)

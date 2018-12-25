@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public int GetHashCode(public sealed struct Vector3L x)
+public int GetHashCode(Vector3L x)
 ```
 
 ### Returns

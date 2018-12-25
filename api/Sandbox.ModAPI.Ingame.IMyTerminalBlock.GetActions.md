@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual void GetActions(public class List<T> resultList, public sealed class Func<T, TResult> collect)
+public void GetActions(List<T> resultList, Func<T, TResult> collect)
 ```
 
 ### Returns

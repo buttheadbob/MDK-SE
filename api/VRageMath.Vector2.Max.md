@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector2 Max(public sealed struct Vector2 value1, public sealed struct Vector2 value2)
+public Vector2 Max(Vector2 value1, Vector2 value2)
 ```
 
 Returns a vector that contains the highest value from each matching pair of components.
@@ -17,7 +17,7 @@ Returns a vector that contains the highest value from each matching pair of comp
 ### Summary
 
 ```csharp
-public void Max(ref public sealed struct Vector2 value1, ref public sealed struct Vector2 value2, ref public sealed struct Vector2 result)
+public void Max(ref Vector2 value1, ref Vector2 value2, ref Vector2 result)
 ```
 
 Returns a vector that contains the highest value from each matching pair of components.

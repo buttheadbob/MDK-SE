@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual void SetCustomName(string text)
+public void SetCustomName(string text)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public virtual void SetCustomName(string text)
 ### Summary
 
 ```csharp
-public virtual void SetCustomName(public sealed class StringBuilder text)
+public void SetCustomName(StringBuilder text)
 ```
 
 ### Returns

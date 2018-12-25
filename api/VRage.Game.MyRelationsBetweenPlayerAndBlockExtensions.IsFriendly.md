@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool IsFriendly(public sealed enum MyRelationsBetweenPlayerAndBlock relations)
+public bool IsFriendly(MyRelationsBetweenPlayerAndBlock relations)
 ```
 
 ### Returns

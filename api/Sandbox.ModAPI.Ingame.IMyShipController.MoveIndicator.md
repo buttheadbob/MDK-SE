@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public sealed struct Vector3 MoveIndicator { ; }
+public Vector3 MoveIndicator { get; }
 ```
 
 Directional input from user/autopilot. Values can be very large with high controller sensitivity

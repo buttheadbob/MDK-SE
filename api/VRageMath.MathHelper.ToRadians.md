@@ -17,7 +17,7 @@ Converts degrees to radians.
 ### Summary
 
 ```csharp
-public public sealed struct Vector3 ToRadians(public sealed struct Vector3 v)
+public Vector3 ToRadians(Vector3 v)
 ```
 
 ### Returns

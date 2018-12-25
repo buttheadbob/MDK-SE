@@ -15,7 +15,7 @@ public bool IsEqual(float value1, float value2)
 ### Summary
 
 ```csharp
-public bool IsEqual(public sealed struct Vector2 value1, public sealed struct Vector2 value2)
+public bool IsEqual(Vector2 value1, Vector2 value2)
 ```
 
 ### Returns
@@ -27,7 +27,7 @@ public bool IsEqual(public sealed struct Vector2 value1, public sealed struct Ve
 ### Summary
 
 ```csharp
-public bool IsEqual(public sealed struct Vector3 value1, public sealed struct Vector3 value2)
+public bool IsEqual(Vector3 value1, Vector3 value2)
 ```
 
 ### Returns
@@ -39,7 +39,7 @@ public bool IsEqual(public sealed struct Vector3 value1, public sealed struct Ve
 ### Summary
 
 ```csharp
-public bool IsEqual(public sealed struct Quaternion value1, public sealed struct Quaternion value2)
+public bool IsEqual(Quaternion value1, Quaternion value2)
 ```
 
 ### Returns
@@ -51,7 +51,7 @@ public bool IsEqual(public sealed struct Quaternion value1, public sealed struct
 ### Summary
 
 ```csharp
-public bool IsEqual(public sealed struct QuaternionD value1, public sealed struct QuaternionD value2)
+public bool IsEqual(QuaternionD value1, QuaternionD value2)
 ```
 
 ### Returns
@@ -63,7 +63,7 @@ public bool IsEqual(public sealed struct QuaternionD value1, public sealed struc
 ### Summary
 
 ```csharp
-public bool IsEqual(public sealed struct Matrix value1, public sealed struct Matrix value2)
+public bool IsEqual(Matrix value1, Matrix value2)
 ```
 
 ### Returns

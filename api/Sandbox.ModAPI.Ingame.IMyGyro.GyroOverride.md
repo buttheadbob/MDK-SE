@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool GyroOverride { ; ; }
+public bool GyroOverride { get; set; }
 ```
 
 ### Returns

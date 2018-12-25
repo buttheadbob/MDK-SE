@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public interface IMyGridProgramRuntimeInfo Runtime { ; protected ; }
+public virtual IMyGridProgramRuntimeInfo Runtime { get; protected set; }
 ```
 
 Gets runtime information for the running grid program.

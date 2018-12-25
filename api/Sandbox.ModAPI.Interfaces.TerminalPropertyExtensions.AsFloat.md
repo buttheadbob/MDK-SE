@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public interface ITerminalProperty<TValue> AsFloat(public interface ITerminalProperty property)
+public ITerminalProperty<TValue> AsFloat(ITerminalProperty property)
 ```
 
 Property type cast

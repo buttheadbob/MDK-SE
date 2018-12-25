@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool HasPlayerAccess(long playerId)
+public bool HasPlayerAccess(long playerId)
 ```
 
 ### Returns

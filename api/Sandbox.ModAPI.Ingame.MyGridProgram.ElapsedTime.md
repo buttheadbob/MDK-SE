@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public sealed struct TimeSpan ElapsedTime { ; protected ; }
+public virtual TimeSpan ElapsedTime { get; protected set; }
 ```
 
 Gets the amount of in-game time elapsed from the previous run.

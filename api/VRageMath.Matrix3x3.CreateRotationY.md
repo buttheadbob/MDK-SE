@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Matrix3x3 CreateRotationY(float radians)
+public Matrix3x3 CreateRotationY(float radians)
 ```
 
 Returns a matrix that can be used to rotate a set of vertices around the y-axis.
@@ -17,7 +17,7 @@ Returns a matrix that can be used to rotate a set of vertices around the y-axis.
 ### Summary
 
 ```csharp
-public void CreateRotationY(float radians, ref public sealed struct Matrix3x3 result)
+public void CreateRotationY(float radians, ref Matrix3x3 result)
 ```
 
 Populates data into a user-specified matrix that can be used to rotate a set of vertices around the y-axis.

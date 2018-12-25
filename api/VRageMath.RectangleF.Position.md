@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector2 Position
+public Vector2 Position
 ```
 
 The Position.

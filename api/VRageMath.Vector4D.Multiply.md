@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector4D Multiply(public sealed struct Vector4D value1, public sealed struct Vector4D value2)
+public Vector4D Multiply(Vector4D value1, Vector4D value2)
 ```
 
 Multiplies the components of two vectors by each other.
@@ -17,7 +17,7 @@ Multiplies the components of two vectors by each other.
 ### Summary
 
 ```csharp
-public void Multiply(ref public sealed struct Vector4 value1, ref public sealed struct Vector4 value2, ref public sealed struct Vector4 result)
+public void Multiply(ref Vector4 value1, ref Vector4 value2, ref Vector4 result)
 ```
 
 Multiplies the components of two vectors by each other.
@@ -31,7 +31,7 @@ Multiplies the components of two vectors by each other.
 ### Summary
 
 ```csharp
-public public sealed struct Vector4D Multiply(public sealed struct Vector4D value1, double scaleFactor)
+public Vector4D Multiply(Vector4D value1, double scaleFactor)
 ```
 
 Multiplies a vector by a scalar.
@@ -45,7 +45,7 @@ Multiplies a vector by a scalar.
 ### Summary
 
 ```csharp
-public void Multiply(ref public sealed struct Vector4D value1, double scaleFactor, ref public sealed struct Vector4D result)
+public void Multiply(ref Vector4D value1, double scaleFactor, ref Vector4D result)
 ```
 
 Multiplies a vector by a scalar value.

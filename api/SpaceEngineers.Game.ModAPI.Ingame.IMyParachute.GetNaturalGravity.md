@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public sealed struct Vector3D GetNaturalGravity()
+public Vector3D GetNaturalGravity()
 ```
 
 Gets the detected natural gravity vector and power at the current location.

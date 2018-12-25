@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool IsValidOrZero(public sealed struct Matrix matrix)
+public bool IsValidOrZero(Matrix matrix)
 ```
 
 ### Returns

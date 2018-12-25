@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct SerializableRange ConvertToSine()
+public SerializableRange ConvertToSine()
 ```
 
 ### Returns

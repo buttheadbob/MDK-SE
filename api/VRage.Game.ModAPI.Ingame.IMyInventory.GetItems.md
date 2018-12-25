@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public class List<T> GetItems()
+public List<T> GetItems()
 ```
 
 ### Returns

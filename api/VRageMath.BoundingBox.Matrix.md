@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Matrix Matrix { ; }
+public Matrix Matrix { get; }
 ```
 
 Matrix of AABB, respection center and size

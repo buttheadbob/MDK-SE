@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float CurrentPosition { ; }
+public float CurrentPosition { get; }
 ```
 
 Gets the current position of the piston head relative to the base.

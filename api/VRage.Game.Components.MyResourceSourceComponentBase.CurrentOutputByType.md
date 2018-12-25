@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float CurrentOutputByType(public sealed struct MyDefinitionId resourceTypeId)
+public virtual float CurrentOutputByType(MyDefinitionId resourceTypeId)
 ```
 
 Currently used power output of the producer in MW or litres/h.

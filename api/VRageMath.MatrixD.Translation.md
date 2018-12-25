@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3D Translation { ; ; }
+public Vector3D Translation { get; set; }
 ```
 
 Gets and sets the translation vector of the Matrix.

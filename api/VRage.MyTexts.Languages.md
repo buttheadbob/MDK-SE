@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct DictionaryReader<K, V> Languages { ; }
+public DictionaryReader<K, V> Languages { get; }
 ```
 
 ### Returns

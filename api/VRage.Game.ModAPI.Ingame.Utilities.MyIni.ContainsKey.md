@@ -19,7 +19,7 @@ Determines whether a configuration key (section/key) exists in the currently par
 ### Summary
 
 ```csharp
-public bool ContainsKey(public sealed struct MyIniKey key)
+public bool ContainsKey(MyIniKey key)
 ```
 
 Determines whether a configuration key (section/key) exists in the currently parsed configuration.

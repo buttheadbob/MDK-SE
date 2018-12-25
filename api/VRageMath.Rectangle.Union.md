@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Rectangle Union(public sealed struct Rectangle value1, public sealed struct Rectangle value2)
+public Rectangle Union(Rectangle value1, Rectangle value2)
 ```
 
 Creates a new Rectangle that exactly contains two other rectangles.
@@ -17,7 +17,7 @@ Creates a new Rectangle that exactly contains two other rectangles.
 ### Summary
 
 ```csharp
-public void Union(ref public sealed struct Rectangle value1, ref public sealed struct Rectangle value2, ref public sealed struct Rectangle result)
+public void Union(ref Rectangle value1, ref Rectangle value2, ref Rectangle result)
 ```
 
 Creates a new Rectangle that exactly contains two other rectangles.

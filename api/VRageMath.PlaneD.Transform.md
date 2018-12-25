@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct PlaneD Transform(public sealed struct PlaneD plane, public sealed struct MatrixD matrix)
+public PlaneD Transform(PlaneD plane, MatrixD matrix)
 ```
 
 Transforms a normalized PlaneD by a Matrix.
@@ -17,7 +17,7 @@ Transforms a normalized PlaneD by a Matrix.
 ### Summary
 
 ```csharp
-public void Transform(ref public sealed struct PlaneD plane, ref public sealed struct MatrixD matrix, ref public sealed struct PlaneD result)
+public void Transform(ref PlaneD plane, ref MatrixD matrix, ref PlaneD result)
 ```
 
 Transforms a normalized PlaneD by a Matrix.

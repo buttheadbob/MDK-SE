@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool IsConnected { ; }
+public bool IsConnected { get; }
 ```
 
 Gets if the merge block is connected to another one.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public interface IEnumerator<T> GetEnumerator()
+public IEnumerator<T> GetEnumerator()
 ```
 
 Returns an enumerator that iterates through the CurveKeyCollection.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual uint UpgradeCount { ; }
+public uint UpgradeCount { get; }
 ```
 
 number of upgrades applied

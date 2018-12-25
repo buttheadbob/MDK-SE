@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed enum CubeFace GetDominantDirection(public sealed struct Vector3I val)
+public CubeFace GetDominantDirection(Vector3I val)
 ```
 
 ### Returns

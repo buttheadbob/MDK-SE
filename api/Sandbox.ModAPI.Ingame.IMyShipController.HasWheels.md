@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool HasWheels { ; }
+public bool HasWheels { get; }
 ```
 
 Determines whether there are any wheels on this ship.

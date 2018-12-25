@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetForward(ref public sealed struct Quaternion q, ref public sealed struct Vector3 result)
+public void GetForward(ref Quaternion q, ref Vector3 result)
 ```
 
 Gets forward vector (0,0,-1) transformed by quaternion.

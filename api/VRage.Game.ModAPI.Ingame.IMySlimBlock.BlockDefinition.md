@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public sealed struct SerializableDefinitionId BlockDefinition { ; }
+public SerializableDefinitionId BlockDefinition { get; }
 ```
 
 Block definition ID

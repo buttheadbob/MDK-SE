@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Quaternion GetOrientation(private sealed enum Direction forward, private sealed enum Direction up)
+public Quaternion GetOrientation(Direction forward, Direction up)
 ```
 
 ### Returns

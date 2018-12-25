@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct BoundingBoxD TransformFast(public sealed struct MatrixD m)
+public BoundingBoxD TransformFast(MatrixD m)
 ```
 
 Transform this AABB by matrix. Matrix has to be only rotation and translation.
@@ -19,7 +19,7 @@ transformed aabb
 ### Summary
 
 ```csharp
-public public sealed struct BoundingBoxD TransformFast(ref public sealed struct MatrixD m)
+public BoundingBoxD TransformFast(ref MatrixD m)
 ```
 
 Transform this AABB by matrix. Matrix has to be only rotation and translation.
@@ -35,7 +35,7 @@ transformed aabb
 ### Summary
 
 ```csharp
-public void TransformFast(ref public sealed struct MatrixD m, ref public sealed struct BoundingBoxD bb)
+public void TransformFast(ref MatrixD m, ref BoundingBoxD bb)
 ```
 
 Transform this AABB by matrix. Matrix has to be only rotation and translation.

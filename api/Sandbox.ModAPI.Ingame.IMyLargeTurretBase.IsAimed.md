@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool IsAimed { ; }
+public bool IsAimed { get; }
 ```
 
 ### Returns

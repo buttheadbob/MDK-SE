@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool SemiautoEnabled { ; ; }
+public bool SemiautoEnabled { get; set; }
 ```
 
 ### Returns

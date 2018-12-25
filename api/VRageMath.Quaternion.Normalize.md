@@ -17,7 +17,7 @@ Divides each component of the quaternion by the length of the quaternion.
 ### Summary
 
 ```csharp
-public public sealed struct Quaternion Normalize(public sealed struct Quaternion quaternion)
+public Quaternion Normalize(Quaternion quaternion)
 ```
 
 Divides each component of the quaternion by the length of the quaternion.
@@ -31,7 +31,7 @@ Divides each component of the quaternion by the length of the quaternion.
 ### Summary
 
 ```csharp
-public void Normalize(ref public sealed struct Quaternion quaternion, ref public sealed struct Quaternion result)
+public void Normalize(ref Quaternion quaternion, ref Quaternion result)
 ```
 
 Divides each component of the quaternion by the length of the quaternion.

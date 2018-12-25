@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public string EndContent { ; ; }
+public string EndContent { get; set; }
 ```
 
 You can terminate a configuration stream by entering "---" on a separate line. This property will contain all the content after this line.

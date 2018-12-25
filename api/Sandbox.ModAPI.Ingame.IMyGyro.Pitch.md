@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float Pitch { ; ; }
+public float Pitch { get; set; }
 ```
 
 ### Returns

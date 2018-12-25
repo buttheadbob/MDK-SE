@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool IsEmpty { ; }
+public bool IsEmpty { get; }
 ```
 
 Determines whether this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) is empty.

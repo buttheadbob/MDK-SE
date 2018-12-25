@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Rectangle Intersect(public sealed struct Rectangle value1, public sealed struct Rectangle value2)
+public Rectangle Intersect(Rectangle value1, Rectangle value2)
 ```
 
 Creates a Rectangle defining the area where one rectangle overlaps with another rectangle.
@@ -17,7 +17,7 @@ Creates a Rectangle defining the area where one rectangle overlaps with another 
 ### Summary
 
 ```csharp
-public void Intersect(ref public sealed struct Rectangle value1, ref public sealed struct Rectangle value2, ref public sealed struct Rectangle result)
+public void Intersect(ref Rectangle value1, ref Rectangle value2, ref Rectangle result)
 ```
 
 Creates a Rectangle defining the area where one rectangle overlaps with another rectangle.

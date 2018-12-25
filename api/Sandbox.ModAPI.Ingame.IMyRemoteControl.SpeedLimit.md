@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float SpeedLimit { ; ; }
+public float SpeedLimit { get; set; }
 ```
 
 Gets or sets the autopilot speed limit

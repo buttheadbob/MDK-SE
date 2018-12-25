@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void AddArray<T>(public class List<T> list, public sealed class T[] itemsToAdd)
+public void AddArray<T>(List<T> list, T[] itemsToAdd)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public void AddArray<T>(public class List<T> list, public sealed class T[] items
 ### Summary
 
 ```csharp
-public void AddArray<T>(public class List<T> list, public sealed class T[] itemsToAdd, int itemCount)
+public void AddArray<T>(List<T> list, T[] itemsToAdd, int itemCount)
 ```
 
 ### Returns

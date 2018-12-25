@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public int IndexOf(public class T item)
+public int IndexOf(T item)
 ```
 
 ### Returns

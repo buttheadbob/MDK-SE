@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Matrix CreateConstrainedBillboard(public sealed struct Vector3 objectPosition, public sealed struct Vector3 cameraPosition, public sealed struct Vector3 rotateAxis, public sealed struct Nullable<T> cameraForwardVector, public sealed struct Nullable<T> objectForwardVector)
+public Matrix CreateConstrainedBillboard(Vector3 objectPosition, Vector3 cameraPosition, Vector3 rotateAxis, Nullable<T> cameraForwardVector, Nullable<T> objectForwardVector)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public public sealed struct Matrix CreateConstrainedBillboard(public sealed stru
 ### Summary
 
 ```csharp
-public void CreateConstrainedBillboard(ref public sealed struct Vector3 objectPosition, ref public sealed struct Vector3 cameraPosition, ref public sealed struct Vector3 rotateAxis, public sealed struct Nullable<T> cameraForwardVector, public sealed struct Nullable<T> objectForwardVector, ref public sealed struct Matrix result)
+public void CreateConstrainedBillboard(ref Vector3 objectPosition, ref Vector3 cameraPosition, ref Vector3 rotateAxis, Nullable<T> cameraForwardVector, Nullable<T> objectForwardVector, ref Matrix result)
 ```
 
 ### Returns

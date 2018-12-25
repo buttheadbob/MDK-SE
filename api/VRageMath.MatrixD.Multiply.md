@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct MatrixD Multiply(public sealed struct MatrixD matrix1, public sealed struct MatrixD matrix2)
+public MatrixD Multiply(MatrixD matrix1, MatrixD matrix2)
 ```
 
 Multiplies a matrix by another matrix.
@@ -17,7 +17,7 @@ Multiplies a matrix by another matrix.
 ### Summary
 
 ```csharp
-public public sealed struct MatrixD Multiply(public sealed struct MatrixD matrix1, public sealed struct Matrix matrix2)
+public MatrixD Multiply(MatrixD matrix1, Matrix matrix2)
 ```
 
 Multiplies a matrix by another matrix.
@@ -31,7 +31,7 @@ Multiplies a matrix by another matrix.
 ### Summary
 
 ```csharp
-public void Multiply(ref public sealed struct MatrixD matrix1, ref public sealed struct Matrix matrix2, ref public sealed struct MatrixD result)
+public void Multiply(ref MatrixD matrix1, ref Matrix matrix2, ref MatrixD result)
 ```
 
 Multiplies a matrix by another matrix.
@@ -45,7 +45,7 @@ Multiplies a matrix by another matrix.
 ### Summary
 
 ```csharp
-public void Multiply(ref public sealed struct Matrix matrix1, ref public sealed struct MatrixD matrix2, ref public sealed struct MatrixD result)
+public void Multiply(ref Matrix matrix1, ref MatrixD matrix2, ref MatrixD result)
 ```
 
 ### Returns
@@ -57,7 +57,7 @@ public void Multiply(ref public sealed struct Matrix matrix1, ref public seale
 ### Summary
 
 ```csharp
-public void Multiply(ref public sealed struct MatrixD matrix1, ref public sealed struct MatrixD matrix2, ref public sealed struct MatrixD result)
+public void Multiply(ref MatrixD matrix1, ref MatrixD matrix2, ref MatrixD result)
 ```
 
 Multiplies a matrix by another matrix.
@@ -71,7 +71,7 @@ Multiplies a matrix by another matrix.
 ### Summary
 
 ```csharp
-public public sealed struct MatrixD Multiply(public sealed struct MatrixD matrix1, double scaleFactor)
+public MatrixD Multiply(MatrixD matrix1, double scaleFactor)
 ```
 
 Multiplies a matrix by a scalar value.
@@ -85,7 +85,7 @@ Multiplies a matrix by a scalar value.
 ### Summary
 
 ```csharp
-public void Multiply(ref public sealed struct MatrixD matrix1, double scaleFactor, ref public sealed struct MatrixD result)
+public void Multiply(ref MatrixD matrix1, double scaleFactor, ref MatrixD result)
 ```
 
 Multiplies a matrix by a scalar value.

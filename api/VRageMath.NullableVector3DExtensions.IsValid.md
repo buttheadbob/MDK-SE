@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool IsValid(public sealed struct Nullable<T> value)
+public bool IsValid(Nullable<T> value)
 ```
 
 ### Returns

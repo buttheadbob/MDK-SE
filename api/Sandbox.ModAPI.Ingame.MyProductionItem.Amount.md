@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct MyFixedPoint Amount
+public MyFixedPoint Amount
 ```
 
 ### Returns

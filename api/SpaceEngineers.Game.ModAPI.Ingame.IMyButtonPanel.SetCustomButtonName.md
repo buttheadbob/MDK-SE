@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual void SetCustomButtonName(int index, string name)
+public void SetCustomButtonName(int index, string name)
 ```
 
 Sets the custom button name.

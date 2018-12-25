@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct BoundingBox2I CreateMerged(public sealed struct BoundingBox2I original, public sealed struct BoundingBox2I additional)
+public BoundingBox2I CreateMerged(BoundingBox2I original, BoundingBox2I additional)
 ```
 
 Creates the smallest BoundingBox2I that contains the two specified BoundingBox2I instances.
@@ -17,7 +17,7 @@ Creates the smallest BoundingBox2I that contains the two specified BoundingBox2I
 ### Summary
 
 ```csharp
-public void CreateMerged(ref public sealed struct BoundingBox2I original, ref public sealed struct BoundingBox2I additional, ref public sealed struct BoundingBox2I result)
+public void CreateMerged(ref BoundingBox2I original, ref BoundingBox2I additional, ref BoundingBox2I result)
 ```
 
 Creates the smallest BoundingBox2I that contains the two specified BoundingBox2I instances.

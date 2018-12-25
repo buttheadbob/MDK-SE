@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3D IsZeroVector(public sealed struct Vector3D value)
+public Vector3D IsZeroVector(Vector3D value)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public public sealed struct Vector3D IsZeroVector(public sealed struct Vector3D 
 ### Summary
 
 ```csharp
-public public sealed struct Vector3D IsZeroVector(public sealed struct Vector3D value, double epsilon)
+public Vector3D IsZeroVector(Vector3D value, double epsilon)
 ```
 
 ### Returns

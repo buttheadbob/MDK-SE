@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool IgnoreAlliedBroadcast { ; ; }
+public bool IgnoreAlliedBroadcast { get; set; }
 ```
 
 Ignores broadcasts sent by friendly antenna that do not belong to you

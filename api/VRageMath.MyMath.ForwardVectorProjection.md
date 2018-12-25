@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Vector3 ForwardVectorProjection(public sealed struct Vector3 forwardVector, public sealed struct Vector3 projectedVector)
+public Vector3 ForwardVectorProjection(Vector3 forwardVector, Vector3 projectedVector)
 ```
 
 This projection results to initial velocity of non-engine objects, which parents move in some velocity We want to add only forward speed of the parent to the forward direction of the object, and if parent is going backward, no speed is added.

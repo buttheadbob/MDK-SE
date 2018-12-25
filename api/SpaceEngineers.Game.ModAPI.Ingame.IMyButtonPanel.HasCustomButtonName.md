@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool HasCustomButtonName(int index)
+public bool HasCustomButtonName(int index)
 ```
 
 Gets if the specified button has a custom name set.

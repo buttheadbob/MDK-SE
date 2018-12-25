@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public float X { ; ; }
+public float X { get; set; }
 ```
 
 Left coordinate.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Matrix3x3 Rotation { ; }
+public Matrix3x3 Rotation { get; }
 ```
 
 ### Returns

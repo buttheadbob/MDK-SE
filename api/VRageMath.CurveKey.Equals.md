@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool Equals(public class CurveKey other)
+public bool Equals(CurveKey other)
 ```
 
 Determines whether the specified Object is equal to the CurveKey.

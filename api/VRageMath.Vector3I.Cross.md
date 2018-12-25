@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void Cross(ref public sealed struct Vector3I vector1, ref public sealed struct Vector3I vector2, ref public sealed struct Vector3I result)
+public void Cross(ref Vector3I vector1, ref Vector3I vector2, ref Vector3I result)
 ```
 
 Calculates the cross product of two vectors.

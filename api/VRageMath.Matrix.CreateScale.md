@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Matrix CreateScale(float xScale, float yScale, float zScale)
+public Matrix CreateScale(float xScale, float yScale, float zScale)
 ```
 
 Creates a scaling Matrix.
@@ -17,7 +17,7 @@ Creates a scaling Matrix.
 ### Summary
 
 ```csharp
-public void CreateScale(float xScale, float yScale, float zScale, ref public sealed struct Matrix result)
+public void CreateScale(float xScale, float yScale, float zScale, ref Matrix result)
 ```
 
 Creates a scaling Matrix.
@@ -31,7 +31,7 @@ Creates a scaling Matrix.
 ### Summary
 
 ```csharp
-public public sealed struct Matrix CreateScale(public sealed struct Vector3 scales)
+public Matrix CreateScale(Vector3 scales)
 ```
 
 Creates a scaling Matrix.
@@ -45,7 +45,7 @@ Creates a scaling Matrix.
 ### Summary
 
 ```csharp
-public void CreateScale(ref public sealed struct Vector3 scales, ref public sealed struct Matrix result)
+public void CreateScale(ref Vector3 scales, ref Matrix result)
 ```
 
 Creates a scaling Matrix.
@@ -59,7 +59,7 @@ Creates a scaling Matrix.
 ### Summary
 
 ```csharp
-public public sealed struct Matrix CreateScale(float scale)
+public Matrix CreateScale(float scale)
 ```
 
 Creates a scaling Matrix.
@@ -73,7 +73,7 @@ Creates a scaling Matrix.
 ### Summary
 
 ```csharp
-public void CreateScale(float scale, ref public sealed struct Matrix result)
+public void CreateScale(float scale, ref Matrix result)
 ```
 
 Creates a scaling Matrix.

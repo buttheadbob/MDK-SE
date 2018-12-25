@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual void Reverse()
+public void Reverse()
 ```
 
 Reverses the direction of the piston.

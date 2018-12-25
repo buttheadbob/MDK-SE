@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual float DamageRatio { ; }
+public float DamageRatio { get; }
 ```
 
 

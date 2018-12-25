@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public sealed enum MyRelationsBetweenPlayerAndBlock GetPlayerRelationToOwner()
+public MyRelationsBetweenPlayerAndBlock GetPlayerRelationToOwner()
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct TextPtr Find(string str)
+public TextPtr Find(string str)
 ```
 
 ### Returns
@@ -15,7 +15,7 @@ public public sealed struct TextPtr Find(string str)
 ### Summary
 
 ```csharp
-public public sealed struct TextPtr Find(char ch)
+public TextPtr Find(char ch)
 ```
 
 ### Returns

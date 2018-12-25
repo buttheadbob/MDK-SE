@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public public sealed struct Matrix GetFloatMatrix()
+public Matrix GetFloatMatrix()
 ```
 
 ### Returns

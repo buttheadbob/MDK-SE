@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual bool ShowInInventory { ; ; }
+public bool ShowInInventory { get; set; }
 ```
 
 ### Returns

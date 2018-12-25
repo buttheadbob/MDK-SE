@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual int RemainingBlocks { ; }
+public int RemainingBlocks { get; }
 ```
 
 Number of blocks left to be welded

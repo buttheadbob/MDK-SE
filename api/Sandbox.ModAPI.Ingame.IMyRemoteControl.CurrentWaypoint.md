@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual public sealed struct MyWaypointInfo CurrentWaypoint { ; }
+public MyWaypointInfo CurrentWaypoint { get; }
 ```
 
 Gets the current target waypoint

@@ -12,3 +12,6 @@ Compares this instance to another CurveKey and returns an indication of their re
 
 [int](System.Int32)
 
+### Parameters
+
+* [CurveKey](VRageMath.CurveKey) other

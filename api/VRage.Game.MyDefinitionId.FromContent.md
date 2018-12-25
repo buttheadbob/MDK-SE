@@ -14,3 +14,6 @@ Creates a new definition ID from a given content.
 
 
 
+### Parameters
+
+* [MyObjectBuilder_Base](VRage.ObjectBuilders.MyObjectBuilder_Base) content

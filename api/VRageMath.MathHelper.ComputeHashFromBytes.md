@@ -10,3 +10,6 @@ public int ComputeHashFromBytes(Byte[] bytes)
 
 [int](System.Int32)
 
+### Parameters
+
+* Byte[] bytes

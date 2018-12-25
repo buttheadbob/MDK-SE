@@ -14,3 +14,7 @@ Enumerate all values in a integer interval (a cuboid). This method is an allocat
 
 An iterator for that range.
 
+### Parameters
+
+* [Vector3I](VRageMath.Vector3I) minInclusive
+* [Vector3I](VRageMath.Vector3I) maxExclusive

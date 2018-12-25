@@ -12,6 +12,10 @@ Adds two Quaternions.
 
 [Quaternion](VRageMath.Quaternion)
 
+### Parameters
+
+* [Quaternion](VRageMath.Quaternion) quaternion1
+* [Quaternion](VRageMath.Quaternion) quaternion2
 ### Summary
 
 ```csharp
@@ -20,3 +24,8 @@ public void Add(ref Quaternion quaternion1, ref Quaternion quaternion2, ref Q
 
 Adds two Quaternions.
 
+### Parameters
+
+* [Quaternion](VRageMath.Quaternion) quaternion1
+* [Quaternion](VRageMath.Quaternion) quaternion2
+* [Quaternion](VRageMath.Quaternion) result

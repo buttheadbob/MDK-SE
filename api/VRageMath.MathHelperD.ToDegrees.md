@@ -12,3 +12,6 @@ Converts radians to degrees.
 
 [double](System.Double)
 
+### Parameters
+
+* [double](System.Double) radians

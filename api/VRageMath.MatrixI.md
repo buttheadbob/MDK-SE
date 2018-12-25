@@ -3,11 +3,13 @@
 #### MatrixI Struct
 
 ```csharp
-public struct MatrixI: 
+public struct MatrixI: ValueType
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+**Inheritance: **[ValueType](System.ValueType)
 
 #### Example
 

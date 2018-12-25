@@ -10,3 +10,7 @@ public bool TryParseFromString(string p, ref Vector3L vec)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [string](System.String) p
+* [Vector3L](VRageMath.Vector3L) vec

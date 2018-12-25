@@ -8,3 +8,8 @@ public void Transform(ref Matrix3x3 value, ref Quaternion rotation, ref Matri
 
 Transforms a Matrix3x3 by applying a Quaternion rotation.
 
+### Parameters
+
+* [Matrix3x3](VRageMath.Matrix3x3) value
+* [Quaternion](VRageMath.Quaternion) rotation
+* [Matrix3x3](VRageMath.Matrix3x3) result

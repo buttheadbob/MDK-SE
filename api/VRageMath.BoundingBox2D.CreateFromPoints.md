@@ -10,3 +10,6 @@ public BoundingBox2D CreateFromPoints(IEnumerable<T> points)
 
 [BoundingBox2D](VRageMath.BoundingBox2D)
 
+### Parameters
+
+* [IEnumerable<T>](System.Collections.Generic.IEnumerable`1) points

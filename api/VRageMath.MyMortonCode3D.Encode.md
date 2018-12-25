@@ -10,3 +10,6 @@ public int Encode(ref Vector3I value)
 
 [int](System.Int32)
 
+### Parameters
+
+* [Vector3I](VRageMath.Vector3I) value

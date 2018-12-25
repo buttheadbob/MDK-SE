@@ -12,6 +12,10 @@ Multiplies a matrix by another matrix.
 
 [MatrixD](VRageMath.MatrixD)
 
+### Parameters
+
+* [MatrixD](VRageMath.MatrixD) matrix1
+* [MatrixD](VRageMath.MatrixD) matrix2
 ### Summary
 
 ```csharp
@@ -24,6 +28,10 @@ Multiplies a matrix by another matrix.
 
 [MatrixD](VRageMath.MatrixD)
 
+### Parameters
+
+* [MatrixD](VRageMath.MatrixD) matrix1
+* [Matrix](VRageMath.Matrix) matrix2
 ### Summary
 
 ```csharp
@@ -32,12 +40,22 @@ public void Multiply(ref MatrixD matrix1, ref Matrix matrix2, ref MatrixD res
 
 Multiplies a matrix by another matrix.
 
+### Parameters
+
+* [MatrixD](VRageMath.MatrixD) matrix1
+* [Matrix](VRageMath.Matrix) matrix2
+* [MatrixD](VRageMath.MatrixD) result
 ### Summary
 
 ```csharp
 public void Multiply(ref Matrix matrix1, ref MatrixD matrix2, ref MatrixD result)
 ```
 
+### Parameters
+
+* [Matrix](VRageMath.Matrix) matrix1
+* [MatrixD](VRageMath.MatrixD) matrix2
+* [MatrixD](VRageMath.MatrixD) result
 ### Summary
 
 ```csharp
@@ -46,6 +64,11 @@ public void Multiply(ref MatrixD matrix1, ref MatrixD matrix2, ref MatrixD re
 
 Multiplies a matrix by another matrix.
 
+### Parameters
+
+* [MatrixD](VRageMath.MatrixD) matrix1
+* [MatrixD](VRageMath.MatrixD) matrix2
+* [MatrixD](VRageMath.MatrixD) result
 ### Summary
 
 ```csharp
@@ -58,6 +81,10 @@ Multiplies a matrix by a scalar value.
 
 [MatrixD](VRageMath.MatrixD)
 
+### Parameters
+
+* [MatrixD](VRageMath.MatrixD) matrix1
+* [double](System.Double) scaleFactor
 ### Summary
 
 ```csharp
@@ -66,3 +93,8 @@ public void Multiply(ref MatrixD matrix1, double scaleFactor, ref MatrixD resu
 
 Multiplies a matrix by a scalar value.
 
+### Parameters
+
+* [MatrixD](VRageMath.MatrixD) matrix1
+* [double](System.Double) scaleFactor
+* [MatrixD](VRageMath.MatrixD) result

@@ -12,6 +12,9 @@ Vector must be normalized, allowed values for components are: 0, 1, -1, 0.707, -
 
 [Direction](VRageMath.Base27Directions+Direction)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) vec
 ### Summary
 
 ```csharp
@@ -22,6 +25,9 @@ public Direction GetDirection(Vector3I vec)
 
 [Direction](VRageMath.Base27Directions+Direction)
 
+### Parameters
+
+* [Vector3I](VRageMath.Vector3I) vec
 ### Summary
 
 ```csharp
@@ -32,6 +38,9 @@ public Direction GetDirection(ref Vector3 vec)
 
 [Direction](VRageMath.Base27Directions+Direction)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) vec
 ### Summary
 
 ```csharp
@@ -42,3 +51,6 @@ public Direction GetDirection(ref Vector3I vec)
 
 [Direction](VRageMath.Base27Directions+Direction)
 
+### Parameters
+
+* [Vector3I](VRageMath.Vector3I) vec

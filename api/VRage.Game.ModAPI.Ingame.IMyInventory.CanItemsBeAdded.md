@@ -10,3 +10,7 @@ public bool CanItemsBeAdded(MyFixedPoint amount, SerializableDefinitionId conten
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [MyFixedPoint](VRage.MyFixedPoint) amount
+* [SerializableDefinitionId](VRage.ObjectBuilders.SerializableDefinitionId) contentId

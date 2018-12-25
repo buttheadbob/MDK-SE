@@ -10,3 +10,8 @@ public Matrix CreatePerspectiveFovRhInfiniteComplementaryInverse(float fieldOfVi
 
 [Matrix](VRageMath.Matrix)
 
+### Parameters
+
+* [float](System.Single) fieldOfView
+* [float](System.Single) aspectRatio
+* [float](System.Single) nearPlaneDistance

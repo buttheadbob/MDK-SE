@@ -6,3 +6,6 @@
 public void GetSections(List<T> names)
 ```
 
+### Parameters
+
+* [List<T>](System.Collections.Generic.List`1) names

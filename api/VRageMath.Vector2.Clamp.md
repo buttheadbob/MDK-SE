@@ -12,6 +12,11 @@ Restricts a value to be within a specified range.
 
 [Vector2](VRageMath.Vector2)
 
+### Parameters
+
+* [Vector2](VRageMath.Vector2) value1
+* [Vector2](VRageMath.Vector2) min
+* [Vector2](VRageMath.Vector2) max
 ### Summary
 
 ```csharp
@@ -20,3 +25,9 @@ public void Clamp(ref Vector2 value1, ref Vector2 min, ref Vector2 max, ref 
 
 Restricts a value to be within a specified range.
 
+### Parameters
+
+* [Vector2](VRageMath.Vector2) value1
+* [Vector2](VRageMath.Vector2) min
+* [Vector2](VRageMath.Vector2) max
+* [Vector2](VRageMath.Vector2) result

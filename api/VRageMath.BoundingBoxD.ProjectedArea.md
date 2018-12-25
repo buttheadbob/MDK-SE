@@ -10,3 +10,6 @@ public double ProjectedArea(Vector3D viewDir)
 
 [double](System.Double)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) viewDir

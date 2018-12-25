@@ -6,3 +6,6 @@
 public void Rotate(double angle)
 ```
 
+### Parameters
+
+* [double](System.Double) angle

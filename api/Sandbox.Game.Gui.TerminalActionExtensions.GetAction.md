@@ -10,3 +10,7 @@ public ITerminalAction GetAction(IMyTerminalBlock block, string name)
 
 [ITerminalAction](Sandbox.ModAPI.Interfaces.ITerminalAction)
 
+### Parameters
+
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock) block
+* [string](System.String) name

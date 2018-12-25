@@ -20,6 +20,9 @@ Creates a unit vector from the specified vector.
 
 [Vector4](VRageMath.Vector4)
 
+### Parameters
+
+* [Vector4](VRageMath.Vector4) vector
 ### Summary
 
 ```csharp
@@ -28,3 +31,7 @@ public void Normalize(ref Vector4 vector, ref Vector4 result)
 
 Returns a normalized version of the specified vector.
 
+### Parameters
+
+* [Vector4](VRageMath.Vector4) vector
+* [Vector4](VRageMath.Vector4) result

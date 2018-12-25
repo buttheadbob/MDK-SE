@@ -14,3 +14,6 @@ Enumerate all values in a integer interval (a cuboid). This method is an allocat
 
 An iterator for that range.
 
+### Parameters
+
+* [BoundingBoxI](VRageMath.BoundingBoxI) rangeInclusive

@@ -14,3 +14,6 @@ Attempts to parse the given string as a command line
 
 `true`if there were arguments in the string,`false`otherwise
 
+### Parameters
+
+* [string](System.String) argument

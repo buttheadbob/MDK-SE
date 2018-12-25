@@ -10,3 +10,7 @@ public MyFixedPoint Min(MyFixedPoint a, MyFixedPoint b)
 
 [MyFixedPoint](VRage.MyFixedPoint)
 
+### Parameters
+
+* [MyFixedPoint](VRage.MyFixedPoint) a
+* [MyFixedPoint](VRage.MyFixedPoint) b

@@ -10,6 +10,10 @@ public bool IsInsideInclusiveEnd(ref Vector3L min, ref Vector3L max)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Vector3L](VRageMath.Vector3L) min
+* [Vector3L](VRageMath.Vector3L) max
 ### Summary
 
 ```csharp
@@ -20,3 +24,7 @@ public bool IsInsideInclusiveEnd(Vector3L min, Vector3L max)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Vector3L](VRageMath.Vector3L) min
+* [Vector3L](VRageMath.Vector3L) max

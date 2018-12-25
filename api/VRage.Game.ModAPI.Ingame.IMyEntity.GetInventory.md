@@ -26,3 +26,6 @@ Search for inventory component with maching index.
 
 [IMyInventory](VRage.Game.ModAPI.Ingame.IMyInventory)
 
+### Parameters
+
+* [int](System.Int32) index

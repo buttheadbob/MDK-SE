@@ -14,3 +14,6 @@ Attempts to run this programmable block using the given argument. An already run
 
 `true`if the action was applied,`false`otherwise
 
+### Parameters
+
+* [string](System.String) argument

@@ -12,6 +12,10 @@ Divides the components of a vector by the components of another vector.
 
 [Vector2](VRageMath.Vector2)
 
+### Parameters
+
+* [Vector2](VRageMath.Vector2) value1
+* [Vector2](VRageMath.Vector2) value2
 ### Summary
 
 ```csharp
@@ -20,6 +24,11 @@ public void Divide(ref Vector2 value1, ref Vector2 value2, ref Vector2 result
 
 Divides the components of a vector by the components of another vector.
 
+### Parameters
+
+* [Vector2](VRageMath.Vector2) value1
+* [Vector2](VRageMath.Vector2) value2
+* [Vector2](VRageMath.Vector2) result
 ### Summary
 
 ```csharp
@@ -32,6 +41,10 @@ Divides a vector by a scalar value.
 
 [Vector2](VRageMath.Vector2)
 
+### Parameters
+
+* [Vector2](VRageMath.Vector2) value1
+* [float](System.Single) divider
 ### Summary
 
 ```csharp
@@ -40,3 +53,8 @@ public void Divide(ref Vector2 value1, float divider, ref Vector2 result)
 
 Divides a vector by a scalar value.
 
+### Parameters
+
+* [Vector2](VRageMath.Vector2) value1
+* [float](System.Single) divider
+* [Vector2](VRageMath.Vector2) result

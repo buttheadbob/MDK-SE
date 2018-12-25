@@ -12,6 +12,13 @@ Performs a Hermite spline interpolation.
 
 [Vector4](VRageMath.Vector4)
 
+### Parameters
+
+* [Vector4](VRageMath.Vector4) value1
+* [Vector4](VRageMath.Vector4) tangent1
+* [Vector4](VRageMath.Vector4) value2
+* [Vector4](VRageMath.Vector4) tangent2
+* [float](System.Single) amount
 ### Summary
 
 ```csharp
@@ -20,3 +27,11 @@ public void Hermite(ref Vector4 value1, ref Vector4 tangent1, ref Vector4 val
 
 Performs a Hermite spline interpolation.
 
+### Parameters
+
+* [Vector4](VRageMath.Vector4) value1
+* [Vector4](VRageMath.Vector4) tangent1
+* [Vector4](VRageMath.Vector4) value2
+* [Vector4](VRageMath.Vector4) tangent2
+* [float](System.Single) amount
+* [Vector4](VRageMath.Vector4) result

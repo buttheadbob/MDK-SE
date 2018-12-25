@@ -12,6 +12,9 @@ Creates the smallest BoundingBox that will contain the specified BoundingSphere.
 
 [BoundingBoxD](VRageMath.BoundingBoxD)
 
+### Parameters
+
+* [BoundingSphereD](VRageMath.BoundingSphereD) sphere
 ### Summary
 
 ```csharp
@@ -20,3 +23,7 @@ public void CreateFromSphere(ref BoundingSphereD sphere, ref BoundingBoxD resu
 
 Creates the smallest BoundingBox that will contain the specified BoundingSphere.
 
+### Parameters
+
+* [BoundingSphereD](VRageMath.BoundingSphereD) sphere
+* [BoundingBoxD](VRageMath.BoundingBoxD) result

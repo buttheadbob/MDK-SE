@@ -10,6 +10,9 @@ public float Saturate(float n)
 
 [float](System.Single)
 
+### Parameters
+
+* [float](System.Single) n
 ### Summary
 
 ```csharp
@@ -20,3 +23,6 @@ public double Saturate(double n)
 
 [double](System.Double)
 
+### Parameters
+
+* [double](System.Double) n

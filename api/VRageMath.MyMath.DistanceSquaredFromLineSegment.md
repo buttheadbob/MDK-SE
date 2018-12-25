@@ -12,3 +12,8 @@ Return minimum distance between line segment v-w and point p.
 
 [float](System.Single)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) v
+* [Vector3](VRageMath.Vector3) w
+* [Vector3](VRageMath.Vector3) p

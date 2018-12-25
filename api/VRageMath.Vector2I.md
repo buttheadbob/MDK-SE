@@ -3,11 +3,13 @@
 #### Vector2I Struct
 
 ```csharp
-public struct Vector2I: 
+public struct Vector2I: ValueType
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+**Inheritance: **[ValueType](System.ValueType)
 
 #### Example
 

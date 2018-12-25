@@ -10,6 +10,9 @@ public Vector3 IsZeroVector(Vector3 value)
 
 [Vector3](VRageMath.Vector3)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) value
 ### Summary
 
 ```csharp
@@ -20,3 +23,7 @@ public Vector3 IsZeroVector(Vector3 value, float epsilon)
 
 [Vector3](VRageMath.Vector3)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) value
+* [float](System.Single) epsilon

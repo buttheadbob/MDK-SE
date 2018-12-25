@@ -3,11 +3,13 @@
 #### MyTexts Class
 
 ```csharp
-public abstract sealed class MyTexts: 
+public abstract sealed class MyTexts: object
 ```
 
 **Namespace:** [VRage](VRage)  
 **Assembly:** VRage.dll
+
+**Inheritance: **[object](System.Object)
 
 #### Example
 

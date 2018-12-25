@@ -10,3 +10,6 @@ public float Clamp(float value)
 
 [float](System.Single)
 
+### Parameters
+
+* [float](System.Single) value

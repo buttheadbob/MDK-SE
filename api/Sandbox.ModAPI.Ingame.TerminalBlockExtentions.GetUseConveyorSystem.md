@@ -10,3 +10,6 @@ public bool GetUseConveyorSystem(IMyTerminalBlock block)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock) block

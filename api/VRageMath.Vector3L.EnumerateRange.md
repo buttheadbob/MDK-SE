@@ -14,3 +14,7 @@ Enumerate all values in a longeger longerval (a cuboid). This method is an alloc
 
 An iterator for that range.
 
+### Parameters
+
+* [Vector3L](VRageMath.Vector3L) minInclusive
+* [Vector3L](VRageMath.Vector3L) maxExclusive

@@ -8,3 +8,9 @@ public void SlerpScale(ref Matrix3x3 matrix1, ref Matrix3x3 matrix2, float amo
 
 Performs spherical linear interpolation of position and rotation and scale.
 
+### Parameters
+
+* [Matrix3x3](VRageMath.Matrix3x3) matrix1
+* [Matrix3x3](VRageMath.Matrix3x3) matrix2
+* [float](System.Single) amount
+* [Matrix3x3](VRageMath.Matrix3x3) result

@@ -10,3 +10,6 @@ public TextPtr FindInLine(char ch)
 
 [TextPtr](VRage.Game.ModAPI.Ingame.Utilities.TextPtr)
 
+### Parameters
+
+* [char](System.Char) ch

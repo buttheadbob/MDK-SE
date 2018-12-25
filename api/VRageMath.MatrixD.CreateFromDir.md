@@ -10,6 +10,9 @@ public MatrixD CreateFromDir(Vector3D dir)
 
 [MatrixD](VRageMath.MatrixD)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) dir
 ### Summary
 
 ```csharp
@@ -20,3 +23,7 @@ public MatrixD CreateFromDir(Vector3D dir, Vector3D suggestedUp)
 
 [MatrixD](VRageMath.MatrixD)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) dir
+* [Vector3D](VRageMath.Vector3D) suggestedUp

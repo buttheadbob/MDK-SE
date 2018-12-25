@@ -6,3 +6,7 @@
 public void RemoveImagesFromSelection(List<T> ids, bool removeDuplicates)
 ```
 
+### Parameters
+
+* [List<T>](System.Collections.Generic.List`1) ids
+* [bool](System.Boolean) removeDuplicates

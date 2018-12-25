@@ -12,3 +12,10 @@ Performs a Hermite spline interpolation.
 
 [float](System.Single)
 
+### Parameters
+
+* [float](System.Single) value1
+* [float](System.Single) tangent1
+* [float](System.Single) value2
+* [float](System.Single) tangent2
+* [float](System.Single) amount

@@ -10,3 +10,6 @@ public float ToLinearRGBComponent(float c)
 
 [float](System.Single)
 
+### Parameters
+
+* [float](System.Single) c

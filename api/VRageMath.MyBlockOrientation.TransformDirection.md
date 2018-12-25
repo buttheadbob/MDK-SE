@@ -10,3 +10,6 @@ public Direction TransformDirection(Direction baseDirection)
 
 [Direction](VRageMath.Base6Directions+Direction)
 
+### Parameters
+
+* [Direction](VRageMath.Base6Directions+Direction) baseDirection

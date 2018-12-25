@@ -10,3 +10,6 @@ public MyOrientedBoundingBoxD CreateFromBoundingBox(BoundingBoxD box)
 
 [MyOrientedBoundingBoxD](VRageMath.MyOrientedBoundingBoxD)
 
+### Parameters
+
+* [BoundingBoxD](VRageMath.BoundingBoxD) box

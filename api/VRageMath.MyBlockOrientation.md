@@ -3,11 +3,13 @@
 #### MyBlockOrientation Struct
 
 ```csharp
-public struct MyBlockOrientation: 
+public struct MyBlockOrientation: ValueType
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+**Inheritance: **[ValueType](System.ValueType)
 
 #### Example
 

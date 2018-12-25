@@ -3,11 +3,13 @@
 #### ColorExtensions Class
 
 ```csharp
-public abstract sealed class ColorExtensions: 
+public abstract sealed class ColorExtensions: object
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+**Inheritance: **[object](System.Object)
 
 #### Example
 

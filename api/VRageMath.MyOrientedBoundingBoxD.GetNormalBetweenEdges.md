@@ -14,3 +14,9 @@ Returns normal between two cube edge of same direction
 
 false if edges are not neighbors
 
+### Parameters
+
+* [int](System.Int32) axis
+* [int](System.Int32) edge0
+* [int](System.Int32) edge1
+* [Vector3](VRageMath.Vector3) normal

@@ -3,11 +3,13 @@
 #### MyRelationsBetweenPlayerAndBlockExtensions Class
 
 ```csharp
-public abstract sealed class MyRelationsBetweenPlayerAndBlockExtensions: 
+public abstract sealed class MyRelationsBetweenPlayerAndBlockExtensions: object
 ```
 
 **Namespace:** [VRage.Game](VRage.Game)  
 **Assembly:** VRage.Game.dll
+
+**Inheritance: **[object](System.Object)
 
 #### Example
 

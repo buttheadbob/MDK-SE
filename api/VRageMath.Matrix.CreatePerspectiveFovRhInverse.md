@@ -10,3 +10,9 @@ public Matrix CreatePerspectiveFovRhInverse(float fieldOfView, float aspectRatio
 
 [Matrix](VRageMath.Matrix)
 
+### Parameters
+
+* [float](System.Single) fieldOfView
+* [float](System.Single) aspectRatio
+* [float](System.Single) nearPlaneDistance
+* [float](System.Single) farPlaneDistance

@@ -16,3 +16,6 @@ public MatrixD Orthogonalize(MatrixD rotationMatrix)
 
 [MatrixD](VRageMath.MatrixD)
 
+### Parameters
+
+* [MatrixD](VRageMath.MatrixD) rotationMatrix

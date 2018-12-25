@@ -3,11 +3,13 @@
 #### HyperSphereHelpers Class
 
 ```csharp
-public abstract sealed class HyperSphereHelpers: 
+public abstract sealed class HyperSphereHelpers: object
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+**Inheritance: **[object](System.Object)
 
 #### Example
 

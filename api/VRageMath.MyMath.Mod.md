@@ -10,6 +10,10 @@ public int Mod(int x, int m)
 
 [int](System.Int32)
 
+### Parameters
+
+* [int](System.Int32) x
+* [int](System.Int32) m
 ### Summary
 
 ```csharp
@@ -20,3 +24,7 @@ public long Mod(long x, int m)
 
 [long](System.Int64)
 
+### Parameters
+
+* [long](System.Int64) x
+* [int](System.Int32) m

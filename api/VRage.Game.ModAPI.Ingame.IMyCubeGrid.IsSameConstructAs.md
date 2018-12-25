@@ -16,3 +16,6 @@ Be aware that using merge blocks combines grids into one, so this function will 
 
 
 
+### Parameters
+
+* [IMyCubeGrid](VRage.Game.ModAPI.Ingame.IMyCubeGrid) other

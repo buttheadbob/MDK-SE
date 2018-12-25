@@ -6,3 +6,6 @@
 public void Inflate(double size)
 ```
 
+### Parameters
+
+* [double](System.Double) size

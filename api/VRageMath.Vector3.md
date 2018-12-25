@@ -3,11 +3,16 @@
 #### Vector3 Struct
 
 ```csharp
-public struct Vector3: 
+public struct Vector3: ValueType, IEquatable<T>
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+**Inheritance: **[ValueType](System.ValueType)
+
+**Implements:**  
+* [IEquatable<T>](System.IEquatable`1)
 
 #### Example
 

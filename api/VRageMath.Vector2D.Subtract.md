@@ -12,6 +12,10 @@ Subtracts a vector from a vector.
 
 [Vector2D](VRageMath.Vector2D)
 
+### Parameters
+
+* [Vector2D](VRageMath.Vector2D) value1
+* [Vector2D](VRageMath.Vector2D) value2
 ### Summary
 
 ```csharp
@@ -20,3 +24,8 @@ public void Subtract(ref Vector2D value1, ref Vector2D value2, ref Vector2D r
 
 Subtracts a vector from a vector.
 
+### Parameters
+
+* [Vector2D](VRageMath.Vector2D) value1
+* [Vector2D](VRageMath.Vector2D) value2
+* [Vector2D](VRageMath.Vector2D) result

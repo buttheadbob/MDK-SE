@@ -14,3 +14,6 @@ Attempts to get this value as a [System.Boolean](https://docs.microsoft.com/en-u
 
 
 
+### Parameters
+
+* [bool](System.Boolean) defaultValue

@@ -10,6 +10,10 @@ public Direction GetDirectionInAxis(Vector3 vec, Axis axis)
 
 [Direction](VRageMath.Base6Directions+Direction)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) vec
+* [Axis](VRageMath.Base6Directions+Axis) axis
 ### Summary
 
 ```csharp
@@ -20,3 +24,7 @@ public Direction GetDirectionInAxis(ref Vector3 vec, Axis axis)
 
 [Direction](VRageMath.Base6Directions+Direction)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) vec
+* [Axis](VRageMath.Base6Directions+Axis) axis

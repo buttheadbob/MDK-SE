@@ -10,3 +10,6 @@ public bool Is<TValue>(ITerminalProperty property)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [ITerminalProperty](Sandbox.ModAPI.Interfaces.ITerminalProperty) property

@@ -20,3 +20,6 @@ public void GetCorners(Vector3[] corners)
 
 Gets the array of points that make up the corners of the BoundingBox.
 
+### Parameters
+
+* [Vector3[]](VRageMath.Vector3[]) corners

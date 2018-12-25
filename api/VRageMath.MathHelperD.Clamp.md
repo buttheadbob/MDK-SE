@@ -12,3 +12,8 @@ Restricts a value to be within a specified range. Reference page contains links 
 
 [double](System.Double)
 
+### Parameters
+
+* [double](System.Double) value
+* [double](System.Double) min
+* [double](System.Double) max

@@ -14,3 +14,7 @@ AngleTo
 
 Angle between the vector lines
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) From
+* [Vector3](VRageMath.Vector3) Location

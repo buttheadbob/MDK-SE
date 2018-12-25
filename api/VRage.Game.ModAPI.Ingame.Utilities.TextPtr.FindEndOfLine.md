@@ -10,3 +10,6 @@ public TextPtr FindEndOfLine(bool skipNewline)
 
 [TextPtr](VRage.Game.ModAPI.Ingame.Utilities.TextPtr)
 
+### Parameters
+
+* [bool](System.Boolean) skipNewline

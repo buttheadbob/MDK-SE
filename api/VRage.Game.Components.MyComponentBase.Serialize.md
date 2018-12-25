@@ -8,5 +8,8 @@ public virtual MyObjectBuilder_ComponentBase Serialize(bool copy)
 
 ### Returns
 
-[MyObjectBuilder_ComponentBase](VRage.Game.ObjectBuilders.ComponentSystem.MyObjectBuilder_ComponentBase)
+MyObjectBuilder_ComponentBase
 
+### Parameters
+
+* [bool](System.Boolean) copy

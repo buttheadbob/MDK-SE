@@ -12,6 +12,9 @@ Checks whether the current Plane intersects a specified BoundingBox.
 
 [PlaneIntersectionType](VRageMath.PlaneIntersectionType)
 
+### Parameters
+
+* [BoundingBox](VRageMath.BoundingBox) box
 ### Summary
 
 ```csharp
@@ -20,6 +23,10 @@ public void Intersects(ref BoundingBox box, ref PlaneIntersectionType result)
 
 Checks whether the current Plane intersects a BoundingBox.
 
+### Parameters
+
+* [BoundingBox](VRageMath.BoundingBox) box
+* [PlaneIntersectionType](VRageMath.PlaneIntersectionType) result
 ### Summary
 
 ```csharp
@@ -32,6 +39,9 @@ Checks whether the current Plane intersects a specified BoundingFrustum.
 
 [PlaneIntersectionType](VRageMath.PlaneIntersectionType)
 
+### Parameters
+
+* [BoundingFrustum](VRageMath.BoundingFrustum) frustum
 ### Summary
 
 ```csharp
@@ -44,6 +54,9 @@ Checks whether the current Plane intersects a specified BoundingSphere.
 
 [PlaneIntersectionType](VRageMath.PlaneIntersectionType)
 
+### Parameters
+
+* [BoundingSphere](VRageMath.BoundingSphere) sphere
 ### Summary
 
 ```csharp
@@ -52,3 +65,7 @@ public void Intersects(ref BoundingSphere sphere, ref PlaneIntersectionType re
 
 Checks whether the current Plane intersects a BoundingSphere.
 
+### Parameters
+
+* [BoundingSphere](VRageMath.BoundingSphere) sphere
+* [PlaneIntersectionType](VRageMath.PlaneIntersectionType) result

@@ -10,3 +10,6 @@ public virtual float CurrentInputByType(MyDefinitionId resourceTypeId)
 
 [float](System.Single)
 
+### Parameters
+
+* [MyDefinitionId](VRage.Game.MyDefinitionId) resourceTypeId

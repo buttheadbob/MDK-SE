@@ -12,6 +12,9 @@ Creates a rotation Matrix3x3 from a Quaternion.
 
 [Matrix3x3](VRageMath.Matrix3x3)
 
+### Parameters
+
+* [Quaternion](VRageMath.Quaternion) quaternion
 ### Summary
 
 ```csharp
@@ -20,3 +23,7 @@ public void CreateFromQuaternion(ref Quaternion quaternion, ref Matrix3x3 resu
 
 Creates a rotation Matrix3x3 from a Quaternion.
 
+### Parameters
+
+* [Quaternion](VRageMath.Quaternion) quaternion
+* [Matrix3x3](VRageMath.Matrix3x3) result

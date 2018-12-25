@@ -12,6 +12,9 @@ Determines whether the specified Plane is equal to the Plane.
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Plane](VRageMath.Plane) other
 ### Summary
 
 ```csharp
@@ -24,3 +27,6 @@ Determines whether the specified Object is equal to the Plane.
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [object](System.Object) obj

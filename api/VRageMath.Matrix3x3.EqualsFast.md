@@ -12,3 +12,7 @@ Compares just position, forward and up
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Matrix3x3](VRageMath.Matrix3x3) other
+* [float](System.Single) epsilon

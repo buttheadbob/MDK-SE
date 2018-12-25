@@ -3,11 +3,16 @@
 #### PlaneD Struct
 
 ```csharp
-public struct PlaneD: 
+public struct PlaneD: ValueType, IEquatable<T>
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+**Inheritance: **[ValueType](System.ValueType)
+
+**Implements:**  
+* [IEquatable<T>](System.IEquatable`1)
 
 #### Example
 

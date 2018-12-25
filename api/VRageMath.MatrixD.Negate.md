@@ -12,6 +12,9 @@ Negates individual elements of a matrix.
 
 [MatrixD](VRageMath.MatrixD)
 
+### Parameters
+
+* [MatrixD](VRageMath.MatrixD) matrix
 ### Summary
 
 ```csharp
@@ -20,3 +23,7 @@ public void Negate(ref MatrixD matrix, ref MatrixD result)
 
 Negates individual elements of a matrix.
 
+### Parameters
+
+* [MatrixD](VRageMath.MatrixD) matrix
+* [MatrixD](VRageMath.MatrixD) result

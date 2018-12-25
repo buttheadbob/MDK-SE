@@ -14,3 +14,6 @@ Attempts to get this value as a [System.UInt32](https://docs.microsoft.com/en-us
 
 
 
+### Parameters
+
+* [uint](System.UInt32) defaultValue

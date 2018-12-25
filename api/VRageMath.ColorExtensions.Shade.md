@@ -10,3 +10,7 @@ public Color Shade(Color c, float r)
 
 [Color](VRageMath.Color)
 
+### Parameters
+
+* [Color](VRageMath.Color) c
+* [float](System.Single) r

@@ -10,3 +10,7 @@ public float AngleBetween(Vector3 a, Vector3 b)
 
 [float](System.Single)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) a
+* [Vector3](VRageMath.Vector3) b

@@ -3,11 +3,13 @@
 #### MyInventoryItemFilter Struct
 
 ```csharp
-public struct MyInventoryItemFilter: 
+public struct MyInventoryItemFilter: ValueType
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
+
+**Inheritance: **[ValueType](System.ValueType)
 
 #### Example
 

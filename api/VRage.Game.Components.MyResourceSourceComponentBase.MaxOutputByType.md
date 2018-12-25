@@ -12,3 +12,6 @@ Maximum power output of the producer in MW or litres/h.
 
 [float](System.Single)
 
+### Parameters
+
+* [MyDefinitionId](VRage.Game.MyDefinitionId) resourceTypeId

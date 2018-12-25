@@ -10,6 +10,9 @@ public bool Equals(Vector3L other)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Vector3L](VRageMath.Vector3L) other
 ### Summary
 
 ```csharp
@@ -20,3 +23,6 @@ public virtual bool Equals(object obj)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [object](System.Object) obj

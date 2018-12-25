@@ -10,3 +10,7 @@ public bool HasAction(IMyTerminalBlock block, string actionName)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock) block
+* [string](System.String) actionName

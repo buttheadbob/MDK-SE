@@ -3,11 +3,18 @@
 #### Color Struct
 
 ```csharp
-public struct Color: 
+public struct Color: ValueType, IPackedVector<TPacked>, IPackedVector, IEquatable<T>
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+**Inheritance: **[ValueType](System.ValueType)
+
+**Implements:**  
+* IPackedVector<TPacked>  
+* IPackedVector  
+* [IEquatable<T>](System.IEquatable`1)
 
 #### Example
 

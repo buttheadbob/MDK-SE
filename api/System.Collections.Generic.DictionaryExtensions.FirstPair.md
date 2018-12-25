@@ -10,3 +10,6 @@ public KeyValuePair<TKey, TValue> FirstPair<K, V>(Dictionary<TKey, TValue> dicti
 
 [KeyValuePair<TKey, TValue>](System.Collections.Generic.KeyValuePair`2)
 
+### Parameters
+
+* [Dictionary<TKey, TValue>](System.Collections.Generic.Dictionary`2) dictionary

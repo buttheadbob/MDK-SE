@@ -14,6 +14,9 @@ Determines whether this coordinate is the same as another. Uses 0.0001 as the ep
 
 
 
+### Parameters
+
+* [MyWaypointInfo](Sandbox.ModAPI.Ingame.MyWaypointInfo) other
 ### Summary
 
 ```csharp
@@ -28,6 +31,10 @@ Determines whether this coordinate is the same as another. Uses 0.0001 as the ep
 
 
 
+### Parameters
+
+* [MyWaypointInfo](Sandbox.ModAPI.Ingame.MyWaypointInfo) other
+* [double](System.Double) epsilon
 ### Summary
 
 ```csharp
@@ -42,3 +49,6 @@ Determines whether this coordinate is the same as another. Uses 0.0001 as the ep
 
 
 
+### Parameters
+
+* [object](System.Object) obj

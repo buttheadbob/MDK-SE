@@ -14,3 +14,7 @@ Gets intersection point in Plane.
 
 Point of intersection.
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) from
+* [Vector3D](VRageMath.Vector3D) direction

@@ -14,6 +14,10 @@ Returns the rejection of vector from direction, i.e. projection of vector onto t
 
 Rejection of the vector from the given direction
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) vector
+* [Vector3](VRageMath.Vector3) direction
 ### Summary
 
 ```csharp
@@ -22,3 +26,8 @@ public void Reject(ref Vector3 vector, ref Vector3 direction, ref Vector3 res
 
 Returns the rejection of vector from direction, i.e. projection of vector onto the plane defined by origin and direction
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) vector
+* [Vector3](VRageMath.Vector3) direction
+* [Vector3](VRageMath.Vector3) result

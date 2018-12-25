@@ -8,5 +8,5 @@ public T Get<T>()
 
 ### Returns
 
-[T]()
+T
 

@@ -6,3 +6,6 @@
 public void GetSelectedImages(List<T> output)
 ```
 
+### Parameters
+
+* [List<T>](System.Collections.Generic.List`1) output

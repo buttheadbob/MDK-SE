@@ -10,3 +10,6 @@ public int GetLeafCount(int proxyId)
 
 [int](System.Int32)
 
+### Parameters
+
+* [int](System.Int32) proxyId

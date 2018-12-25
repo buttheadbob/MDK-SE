@@ -12,6 +12,13 @@ Performs a Catmull-Rom interpolation using the specified positions.
 
 [Vector2D](VRageMath.Vector2D)
 
+### Parameters
+
+* [Vector2D](VRageMath.Vector2D) value1
+* [Vector2D](VRageMath.Vector2D) value2
+* [Vector2D](VRageMath.Vector2D) value3
+* [Vector2D](VRageMath.Vector2D) value4
+* [double](System.Double) amount
 ### Summary
 
 ```csharp
@@ -20,3 +27,11 @@ public void CatmullRom(ref Vector2D value1, ref Vector2D value2, ref Vector2D
 
 Performs a Catmull-Rom interpolation using the specified positions.
 
+### Parameters
+
+* [Vector2D](VRageMath.Vector2D) value1
+* [Vector2D](VRageMath.Vector2D) value2
+* [Vector2D](VRageMath.Vector2D) value3
+* [Vector2D](VRageMath.Vector2D) value4
+* [double](System.Double) amount
+* [Vector2D](VRageMath.Vector2D) result

@@ -12,6 +12,9 @@ Converts radians to degrees.
 
 [float](System.Single)
 
+### Parameters
+
+* [float](System.Single) radians
 ### Summary
 
 ```csharp
@@ -22,3 +25,6 @@ public double ToDegrees(double radians)
 
 [double](System.Double)
 
+### Parameters
+
+* [double](System.Double) radians

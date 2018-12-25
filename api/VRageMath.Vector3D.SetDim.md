@@ -6,3 +6,7 @@
 public void SetDim(int i, double value)
 ```
 
+### Parameters
+
+* [int](System.Int32) i
+* [double](System.Double) value

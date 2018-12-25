@@ -8,3 +8,9 @@ public void Lerp(ref Matrix3x3 matrix1, ref Matrix3x3 matrix2, float amount, r
 
 Linearly interpolates between the corresponding values of two matrices.
 
+### Parameters
+
+* [Matrix3x3](VRageMath.Matrix3x3) matrix1
+* [Matrix3x3](VRageMath.Matrix3x3) matrix2
+* [float](System.Single) amount
+* [Matrix3x3](VRageMath.Matrix3x3) result

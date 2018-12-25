@@ -14,3 +14,6 @@ Attempts to get this value as a [System.Char](https://docs.microsoft.com/en-us/d
 
 `true`if the value could be understood as this data type;`false`otherwise
 
+### Parameters
+
+* [char](System.Char) value

@@ -10,3 +10,6 @@ public Direction GetBaseAxisDirection(Axis axis)
 
 [Direction](VRageMath.Base6Directions+Direction)
 
+### Parameters
+
+* [Axis](VRageMath.Base6Directions+Axis) axis

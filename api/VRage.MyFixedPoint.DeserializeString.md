@@ -10,3 +10,6 @@ public MyFixedPoint DeserializeString(string text)
 
 [MyFixedPoint](VRage.MyFixedPoint)
 
+### Parameters
+
+* [string](System.String) text

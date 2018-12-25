@@ -12,6 +12,11 @@ Interpolates between two values using a cubic equation.
 
 [float](System.Single)
 
+### Parameters
+
+* [float](System.Single) value1
+* [float](System.Single) value2
+* [float](System.Single) amount
 ### Summary
 
 ```csharp
@@ -24,3 +29,8 @@ Interpolates between two values using a cubic equation.
 
 [double](System.Double)
 
+### Parameters
+
+* [double](System.Double) value1
+* [double](System.Double) value2
+* [double](System.Double) amount

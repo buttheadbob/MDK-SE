@@ -12,6 +12,10 @@ Transforms a normalized Plane by a Matrix.
 
 [Plane](VRageMath.Plane)
 
+### Parameters
+
+* [Plane](VRageMath.Plane) plane
+* [Matrix](VRageMath.Matrix) matrix
 ### Summary
 
 ```csharp
@@ -20,3 +24,8 @@ public void Transform(ref Plane plane, ref Matrix matrix, ref Plane result)
 
 Transforms a normalized Plane by a Matrix.
 
+### Parameters
+
+* [Plane](VRageMath.Plane) plane
+* [Matrix](VRageMath.Matrix) matrix
+* [Plane](VRageMath.Plane) result

@@ -3,11 +3,17 @@
 #### CurveKey Class
 
 ```csharp
-public class CurveKey: 
+public class CurveKey: object, IEquatable<T>, IComparable<T>
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+**Inheritance: **[object](System.Object)
+
+**Implements:**  
+* [IEquatable<T>](System.IEquatable`1)  
+* [IComparable<T>](System.IComparable`1)
 
 #### Example
 

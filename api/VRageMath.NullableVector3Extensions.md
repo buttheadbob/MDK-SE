@@ -3,11 +3,13 @@
 #### NullableVector3Extensions Class
 
 ```csharp
-public abstract sealed class NullableVector3Extensions: 
+public abstract sealed class NullableVector3Extensions: object
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+**Inheritance: **[object](System.Object)
 
 #### Example
 

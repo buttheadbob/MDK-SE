@@ -10,3 +10,6 @@ public Vector3 ColorToHSV(Color rgb)
 
 [Vector3](VRageMath.Vector3)
 
+### Parameters
+
+* [Color](VRageMath.Color) rgb

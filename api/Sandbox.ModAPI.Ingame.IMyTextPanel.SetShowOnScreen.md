@@ -6,3 +6,6 @@
 public void SetShowOnScreen(ShowTextOnScreenFlag set)
 ```
 
+### Parameters
+
+* ShowTextOnScreenFlag set

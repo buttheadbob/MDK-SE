@@ -14,3 +14,6 @@ Returns the number of milliseconds until the camera can do a raycast of the give
 
 
 
+### Parameters
+
+* [double](System.Double) distance

@@ -14,6 +14,9 @@ return expanded aabb (aabb include point)
 
 
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) point
 ### Summary
 
 ```csharp
@@ -24,6 +27,9 @@ public BoundingBoxD Include(Vector3D point)
 
 [BoundingBoxD](VRageMath.BoundingBoxD)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) point
 ### Summary
 
 ```csharp
@@ -34,6 +40,11 @@ public BoundingBoxD Include(Vector3D p0, Vector3D p1, Vector3D p2)
 
 [BoundingBoxD](VRageMath.BoundingBoxD)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) p0
+* [Vector3D](VRageMath.Vector3D) p1
+* [Vector3D](VRageMath.Vector3D) p2
 ### Summary
 
 ```csharp
@@ -44,6 +55,11 @@ public BoundingBoxD Include(ref Vector3D p0, ref Vector3D p1, ref Vector3D p2
 
 [BoundingBoxD](VRageMath.BoundingBoxD)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) p0
+* [Vector3D](VRageMath.Vector3D) p1
+* [Vector3D](VRageMath.Vector3D) p2
 ### Summary
 
 ```csharp
@@ -58,6 +74,9 @@ return expanded aabb (aabb include aabb)
 
 
 
+### Parameters
+
+* [BoundingBoxD](VRageMath.BoundingBoxD) box
 ### Summary
 
 ```csharp
@@ -68,12 +87,18 @@ public BoundingBoxD Include(BoundingBoxD box)
 
 [BoundingBoxD](VRageMath.BoundingBoxD)
 
+### Parameters
+
+* [BoundingBoxD](VRageMath.BoundingBoxD) box
 ### Summary
 
 ```csharp
 public void Include(ref LineD line)
 ```
 
+### Parameters
+
+* [LineD](VRageMath.LineD) line
 ### Summary
 
 ```csharp
@@ -84,6 +109,9 @@ public BoundingBoxD Include(BoundingSphereD sphere)
 
 [BoundingBoxD](VRageMath.BoundingBoxD)
 
+### Parameters
+
+* [BoundingSphereD](VRageMath.BoundingSphereD) sphere
 ### Summary
 
 ```csharp
@@ -94,6 +122,9 @@ public BoundingBoxD Include(ref BoundingSphereD sphere)
 
 [BoundingBoxD](VRageMath.BoundingBoxD)
 
+### Parameters
+
+* [BoundingSphereD](VRageMath.BoundingSphereD) sphere
 ### Summary
 
 ```csharp
@@ -104,3 +135,6 @@ public BoundingBoxD Include(ref BoundingFrustumD frustum)
 
 [BoundingBoxD](VRageMath.BoundingBoxD)
 
+### Parameters
+
+* [BoundingFrustumD](VRageMath.BoundingFrustumD) frustum

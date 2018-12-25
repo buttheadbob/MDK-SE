@@ -14,6 +14,9 @@ Transform this AABB by matrix.
 
 transformed aabb
 
+### Parameters
+
+* [MatrixD](VRageMath.MatrixD) m
 ### Summary
 
 ```csharp
@@ -28,3 +31,6 @@ Transform this AABB by matrix.
 
 transformed aabb
 
+### Parameters
+
+* [MatrixD](VRageMath.MatrixD) worldMatrix

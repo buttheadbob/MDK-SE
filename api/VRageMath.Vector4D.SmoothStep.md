@@ -12,6 +12,11 @@ Interpolates between two values using a cubic equation.
 
 [Vector4D](VRageMath.Vector4D)
 
+### Parameters
+
+* [Vector4D](VRageMath.Vector4D) value1
+* [Vector4D](VRageMath.Vector4D) value2
+* [double](System.Double) amount
 ### Summary
 
 ```csharp
@@ -20,3 +25,9 @@ public void SmoothStep(ref Vector4D value1, ref Vector4D value2, double amount
 
 Interpolates between two values using a cubic equation.
 
+### Parameters
+
+* [Vector4D](VRageMath.Vector4D) value1
+* [Vector4D](VRageMath.Vector4D) value2
+* [double](System.Double) amount
+* [Vector4D](VRageMath.Vector4D) result

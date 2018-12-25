@@ -3,11 +3,18 @@
 #### CurveKeyCollection Class
 
 ```csharp
-public class CurveKeyCollection: 
+public class CurveKeyCollection: object, ICollection<T>, IEnumerable<T>, IEnumerable
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+**Inheritance: **[object](System.Object)
+
+**Implements:**  
+* [ICollection<T>](System.Collections.Generic.ICollection`1)  
+* [IEnumerable<T>](System.Collections.Generic.IEnumerable`1)  
+* [IEnumerable](System.Collections.IEnumerable)
 
 #### Example
 

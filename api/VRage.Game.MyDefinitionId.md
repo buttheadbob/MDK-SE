@@ -3,11 +3,16 @@
 #### MyDefinitionId Struct
 
 ```csharp
-public struct MyDefinitionId: 
+public struct MyDefinitionId: ValueType, IEquatable<T>
 ```
 
 **Namespace:** [VRage.Game](VRage.Game)  
 **Assembly:** VRage.Game.dll
+
+**Inheritance: **[ValueType](System.ValueType)
+
+**Implements:**  
+* [IEquatable<T>](System.IEquatable`1)
 
 #### Example
 

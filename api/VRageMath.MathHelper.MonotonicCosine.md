@@ -14,3 +14,6 @@ Calculate the monotonic cosine of a value. Monotonic cosine is an alternative co
 
 The cosine of the angle if it is > 0, 2 - that value otherwise.
 
+### Parameters
+
+* [float](System.Single) radians

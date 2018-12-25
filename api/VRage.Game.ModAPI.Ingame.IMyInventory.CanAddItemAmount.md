@@ -10,3 +10,7 @@ public bool CanAddItemAmount(IMyInventoryItem item, MyFixedPoint amount)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [IMyInventoryItem](VRage.Game.ModAPI.Ingame.IMyInventoryItem) item
+* [MyFixedPoint](VRage.MyFixedPoint) amount

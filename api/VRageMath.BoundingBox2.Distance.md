@@ -10,3 +10,6 @@ public float Distance(Vector2 point)
 
 [float](System.Single)
 
+### Parameters
+
+* [Vector2](VRageMath.Vector2) point

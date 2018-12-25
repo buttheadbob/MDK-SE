@@ -10,3 +10,6 @@ public int GetHashCode(Vector3I x)
 
 [int](System.Int32)
 
+### Parameters
+
+* [Vector3I](VRageMath.Vector3I) x

@@ -3,11 +3,13 @@
 #### QueueExtensions Class
 
 ```csharp
-public abstract sealed class QueueExtensions: 
+public abstract sealed class QueueExtensions: object
 ```
 
 **Namespace:** [System.Collections.Generic](System.Collections.Generic)  
 **Assembly:** VRage.Library.dll
+
+**Inheritance: **[object](System.Object)
 
 #### Example
 

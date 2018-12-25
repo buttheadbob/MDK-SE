@@ -10,6 +10,11 @@ public MatrixD CreateWorld(Vector3D position, Vector3 forward, Vector3 up)
 
 [MatrixD](VRageMath.MatrixD)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) position
+* [Vector3](VRageMath.Vector3) forward
+* [Vector3](VRageMath.Vector3) up
 ### Summary
 
 ```csharp
@@ -20,6 +25,9 @@ public MatrixD CreateWorld(Vector3D position)
 
 [MatrixD](VRageMath.MatrixD)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) position
 ### Summary
 
 ```csharp
@@ -32,6 +40,11 @@ Creates a world matrix with the specified parameters.
 
 [MatrixD](VRageMath.MatrixD)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) position
+* [Vector3D](VRageMath.Vector3D) forward
+* [Vector3D](VRageMath.Vector3D) up
 ### Summary
 
 ```csharp
@@ -40,3 +53,9 @@ public void CreateWorld(ref Vector3D position, ref Vector3D forward, ref Vect
 
 Creates a world matrix with the specified parameters.
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) position
+* [Vector3D](VRageMath.Vector3D) forward
+* [Vector3D](VRageMath.Vector3D) up
+* [MatrixD](VRageMath.MatrixD) result

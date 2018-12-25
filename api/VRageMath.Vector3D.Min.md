@@ -24,6 +24,10 @@ Returns a vector that contains the lowest value from each matching pair of compo
 
 [Vector3D](VRageMath.Vector3D)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) value1
+* [Vector3D](VRageMath.Vector3D) value2
 ### Summary
 
 ```csharp
@@ -32,3 +36,8 @@ public void Min(ref Vector3D value1, ref Vector3D value2, ref Vector3D result
 
 Returns a vector that contains the lowest value from each matching pair of components.
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) value1
+* [Vector3D](VRageMath.Vector3D) value2
+* [Vector3D](VRageMath.Vector3D) result

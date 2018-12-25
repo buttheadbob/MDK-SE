@@ -3,11 +3,13 @@
 #### Vector3L_RangeIterator Struct
 
 ```csharp
-public struct Vector3L_RangeIterator: 
+public struct Vector3L_RangeIterator: ValueType
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+**Inheritance: **[ValueType](System.ValueType)
 
 #### Example
 

@@ -3,11 +3,13 @@
 #### HashSetExtensions Class
 
 ```csharp
-public abstract sealed class HashSetExtensions: 
+public abstract sealed class HashSetExtensions: object
 ```
 
 **Namespace:** [System.Collections.Generic](System.Collections.Generic)  
 **Assembly:** VRage.Library.dll
+
+**Inheritance: **[object](System.Object)
 
 #### Example
 

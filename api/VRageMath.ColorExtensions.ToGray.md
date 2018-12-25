@@ -10,6 +10,9 @@ public Vector3 ToGray(Vector3 c)
 
 [Vector3](VRageMath.Vector3)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) c
 ### Summary
 
 ```csharp
@@ -20,3 +23,6 @@ public Vector4 ToGray(Vector4 c)
 
 [Vector4](VRageMath.Vector4)
 
+### Parameters
+
+* [Vector4](VRageMath.Vector4) c

@@ -14,6 +14,10 @@ Gets any comment that might be associated with the given key. Returns`null`if th
 
 
 
+### Parameters
+
+* [string](System.String) section
+* [string](System.String) name
 ### Summary
 
 ```csharp
@@ -28,3 +32,6 @@ Gets any comment that might be associated with the given key. Returns`null`if th
 
 
 
+### Parameters
+
+* [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) key

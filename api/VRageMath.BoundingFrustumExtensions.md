@@ -3,11 +3,13 @@
 #### BoundingFrustumExtensions Class
 
 ```csharp
-public abstract sealed class BoundingFrustumExtensions: 
+public abstract sealed class BoundingFrustumExtensions: object
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+**Inheritance: **[object](System.Object)
 
 #### Example
 

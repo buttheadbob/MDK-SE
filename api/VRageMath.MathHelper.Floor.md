@@ -10,6 +10,9 @@ public int Floor(float n)
 
 [int](System.Int32)
 
+### Parameters
+
+* [float](System.Single) n
 ### Summary
 
 ```csharp
@@ -20,3 +23,6 @@ public int Floor(double n)
 
 [int](System.Int32)
 
+### Parameters
+
+* [double](System.Double) n

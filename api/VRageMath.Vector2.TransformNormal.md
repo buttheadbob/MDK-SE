@@ -12,6 +12,10 @@ Transforms a 2D vector normal by a matrix.
 
 [Vector2](VRageMath.Vector2)
 
+### Parameters
+
+* [Vector2](VRageMath.Vector2) normal
+* [Matrix](VRageMath.Matrix) matrix
 ### Summary
 
 ```csharp
@@ -20,6 +24,11 @@ public void TransformNormal(ref Vector2 normal, ref Matrix matrix, ref Vector
 
 Transforms a vector normal by a matrix.
 
+### Parameters
+
+* [Vector2](VRageMath.Vector2) normal
+* [Matrix](VRageMath.Matrix) matrix
+* [Vector2](VRageMath.Vector2) result
 ### Summary
 
 ```csharp
@@ -28,6 +37,11 @@ public void TransformNormal(Vector2[] sourceArray, ref Matrix matrix, Vector2[]
 
 Transforms an array of Vector2 vector normals by a specified Matrix.
 
+### Parameters
+
+* [Vector2[]](VRageMath.Vector2[]) sourceArray
+* [Matrix](VRageMath.Matrix) matrix
+* [Vector2[]](VRageMath.Vector2[]) destinationArray
 ### Summary
 
 ```csharp
@@ -36,3 +50,11 @@ public void TransformNormal(Vector2[] sourceArray, int sourceIndex, ref Matrix 
 
 Transforms a specified range in an array of Vector2 vector normals by a specified Matrix and places the results in a specified range in a destination array.
 
+### Parameters
+
+* [Vector2[]](VRageMath.Vector2[]) sourceArray
+* [int](System.Int32) sourceIndex
+* [Matrix](VRageMath.Matrix) matrix
+* [Vector2[]](VRageMath.Vector2[]) destinationArray
+* [int](System.Int32) destinationIndex
+* [int](System.Int32) length

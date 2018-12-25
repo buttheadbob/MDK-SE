@@ -10,3 +10,6 @@ public int IndexOf(T item)
 
 [int](System.Int32)
 
+### Parameters
+
+* [T]() item

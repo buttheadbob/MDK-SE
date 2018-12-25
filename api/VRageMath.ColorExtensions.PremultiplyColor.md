@@ -10,3 +10,6 @@ public Vector4 PremultiplyColor(Vector4 c)
 
 [Vector4](VRageMath.Vector4)
 
+### Parameters
+
+* [Vector4](VRageMath.Vector4) c

@@ -3,11 +3,16 @@
 #### ClearToken&lt;T&gt; Struct
 
 ```csharp
-public struct ClearToken<T>: 
+public struct ClearToken<T>: ValueType, IDisposable
 ```
 
 **Namespace:** [System.Collections.Generic](System.Collections.Generic)  
 **Assembly:** VRage.Library.dll
+
+**Inheritance: **[ValueType](System.ValueType)
+
+**Implements:**  
+* [IDisposable](System.IDisposable)
 
 #### Example
 

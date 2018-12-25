@@ -12,6 +12,11 @@ Creates a scaling Matrix3x3.
 
 [Matrix3x3](VRageMath.Matrix3x3)
 
+### Parameters
+
+* [float](System.Single) xScale
+* [float](System.Single) yScale
+* [float](System.Single) zScale
 ### Summary
 
 ```csharp
@@ -20,6 +25,12 @@ public void CreateScale(float xScale, float yScale, float zScale, ref Matrix3x3
 
 Creates a scaling Matrix3x3.
 
+### Parameters
+
+* [float](System.Single) xScale
+* [float](System.Single) yScale
+* [float](System.Single) zScale
+* [Matrix3x3](VRageMath.Matrix3x3) result
 ### Summary
 
 ```csharp
@@ -32,6 +43,9 @@ Creates a scaling Matrix3x3.
 
 [Matrix3x3](VRageMath.Matrix3x3)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) scales
 ### Summary
 
 ```csharp
@@ -40,6 +54,10 @@ public void CreateScale(ref Vector3 scales, ref Matrix3x3 result)
 
 Creates a scaling Matrix3x3.
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) scales
+* [Matrix3x3](VRageMath.Matrix3x3) result
 ### Summary
 
 ```csharp
@@ -52,6 +70,9 @@ Creates a scaling Matrix3x3.
 
 [Matrix3x3](VRageMath.Matrix3x3)
 
+### Parameters
+
+* [float](System.Single) scale
 ### Summary
 
 ```csharp
@@ -60,3 +81,7 @@ public void CreateScale(float scale, ref Matrix3x3 result)
 
 Creates a scaling Matrix3x3.
 
+### Parameters
+
+* [float](System.Single) scale
+* [Matrix3x3](VRageMath.Matrix3x3) result

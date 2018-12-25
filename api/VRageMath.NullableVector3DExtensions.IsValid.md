@@ -10,3 +10,6 @@ public bool IsValid(Nullable<T> value)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Nullable<T>](System.Nullable`1) value

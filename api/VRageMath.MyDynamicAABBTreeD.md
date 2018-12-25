@@ -3,11 +3,13 @@
 #### MyDynamicAABBTreeD Class
 
 ```csharp
-public class MyDynamicAABBTreeD: 
+public class MyDynamicAABBTreeD: object
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+**Inheritance: **[object](System.Object)
 
 #### Example
 

@@ -10,3 +10,8 @@ public Matrix CreateFromPerspectiveFieldOfView(ref Matrix proj, float nearPlane
 
 [Matrix](VRageMath.Matrix)
 
+### Parameters
+
+* [Matrix](VRageMath.Matrix) proj
+* [float](System.Single) nearPlaneDistance
+* [float](System.Single) farPlaneDistance

@@ -8,3 +8,6 @@ public void RemoveProxy(int proxyId)
 
 Destroy a proxy. This asserts if the id is invalid.
 
+### Parameters
+
+* [int](System.Int32) proxyId

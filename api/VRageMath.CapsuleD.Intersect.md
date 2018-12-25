@@ -10,6 +10,13 @@ public bool Intersect(RayD ray, ref Vector3D p1, ref Vector3D p2, ref Vector3
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [RayD](VRageMath.RayD) ray
+* [Vector3D](VRageMath.Vector3D) p1
+* [Vector3D](VRageMath.Vector3D) p2
+* [Vector3](VRageMath.Vector3) n1
+* [Vector3](VRageMath.Vector3) n2
 ### Summary
 
 ```csharp
@@ -20,3 +27,10 @@ public bool Intersect(LineD line, ref Vector3D p1, ref Vector3D p2, ref Vecto
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [LineD](VRageMath.LineD) line
+* [Vector3D](VRageMath.Vector3D) p1
+* [Vector3D](VRageMath.Vector3D) p2
+* [Vector3](VRageMath.Vector3) n1
+* [Vector3](VRageMath.Vector3) n2

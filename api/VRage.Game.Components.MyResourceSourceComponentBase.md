@@ -3,11 +3,13 @@
 #### MyResourceSourceComponentBase Class
 
 ```csharp
-public abstract class MyResourceSourceComponentBase: 
+public abstract class MyResourceSourceComponentBase: MyEntityComponentBase
 ```
 
 **Namespace:** [VRage.Game.Components](VRage.Game.Components)  
 **Assembly:** VRage.Game.dll
+
+**Inheritance: **MyEntityComponentBase
 
 **Inheritors:**  
 * [MyResourceSourceComponent](Sandbox.Game.EntityComponents.MyResourceSourceComponent)

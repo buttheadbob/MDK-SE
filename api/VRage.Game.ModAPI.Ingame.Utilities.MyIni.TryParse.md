@@ -14,6 +14,9 @@ Attempts to parse the given content as a configuration file.
 
 `true`if the parse succeeds,`false`otherwise
 
+### Parameters
+
+* [string](System.String) content
 ### Summary
 
 ```csharp
@@ -28,6 +31,10 @@ Attempts to parse the given content as a configuration file.
 
 `true`if the parse succeeds,`false`otherwise
 
+### Parameters
+
+* [string](System.String) content
+* [MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult) result
 ### Summary
 
 ```csharp
@@ -42,6 +49,11 @@ Attempts to parse the given content as a configuration file. OBSERVE: Use only f
 
 `true`if the parse succeeds,`false`otherwise
 
+### Parameters
+
+* [string](System.String) content
+* [string](System.String) section
+* [MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult) result
 ### Summary
 
 ```csharp
@@ -56,3 +68,7 @@ Attempts to parse the given content as a configuration file. OBSERVE: Use only f
 
 `true`if the parse succeeds,`false`otherwise
 
+### Parameters
+
+* [string](System.String) content
+* [string](System.String) section

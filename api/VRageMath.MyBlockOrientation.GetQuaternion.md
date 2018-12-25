@@ -6,3 +6,6 @@
 public void GetQuaternion(ref Quaternion result)
 ```
 
+### Parameters
+
+* [Quaternion](VRageMath.Quaternion) result

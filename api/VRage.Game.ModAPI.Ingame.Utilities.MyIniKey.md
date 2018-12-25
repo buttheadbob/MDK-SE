@@ -3,11 +3,16 @@
 #### MyIniKey Struct
 
 ```csharp
-public struct MyIniKey: 
+public struct MyIniKey: ValueType, IEquatable<T>
 ```
 
 **Namespace:** [VRage.Game.ModAPI.Ingame.Utilities](VRage.Game.ModAPI.Ingame.Utilities)  
 **Assembly:** VRage.Game.dll
+
+**Inheritance: **[ValueType](System.ValueType)
+
+**Implements:**  
+* [IEquatable<T>](System.IEquatable`1)
 
 #### Example
 

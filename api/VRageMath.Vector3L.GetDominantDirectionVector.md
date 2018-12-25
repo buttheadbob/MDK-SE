@@ -10,3 +10,6 @@ public Vector3L GetDominantDirectionVector(Vector3L val)
 
 [Vector3L](VRageMath.Vector3L)
 
+### Parameters
+
+* [Vector3L](VRageMath.Vector3L) val

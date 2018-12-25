@@ -10,3 +10,8 @@ public float InterpLogInv(float value, float amount1, float amount2)
 
 [float](System.Single)
 
+### Parameters
+
+* [float](System.Single) value
+* [float](System.Single) amount1
+* [float](System.Single) amount2

@@ -3,11 +3,13 @@
 #### MyCuboid Class
 
 ```csharp
-public class MyCuboid: 
+public class MyCuboid: object
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+**Inheritance: **[object](System.Object)
 
 #### Example
 

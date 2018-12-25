@@ -10,3 +10,8 @@ public ContainmentType ContainsRelativeBox(ref Vector3D hA, ref Vector3D hB, r
 
 [ContainmentType](VRageMath.ContainmentType)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) hA
+* [Vector3D](VRageMath.Vector3D) hB
+* [MatrixD](VRageMath.MatrixD) mB

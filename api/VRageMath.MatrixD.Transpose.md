@@ -12,6 +12,9 @@ Transposes the rows and columns of a matrix.
 
 [MatrixD](VRageMath.MatrixD)
 
+### Parameters
+
+* [MatrixD](VRageMath.MatrixD) matrix
 ### Summary
 
 ```csharp
@@ -20,3 +23,7 @@ public void Transpose(ref MatrixD matrix, ref MatrixD result)
 
 Transposes the rows and columns of a matrix.
 
+### Parameters
+
+* [MatrixD](VRageMath.MatrixD) matrix
+* [MatrixD](VRageMath.MatrixD) result

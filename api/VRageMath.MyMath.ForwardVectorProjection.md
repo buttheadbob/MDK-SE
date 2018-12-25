@@ -14,3 +14,7 @@ This projection results to initial velocity of non-engine objects, which parents
 
 
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) forwardVector
+* [Vector3](VRageMath.Vector3) projectedVector

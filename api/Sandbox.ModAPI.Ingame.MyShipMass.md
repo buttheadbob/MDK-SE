@@ -3,11 +3,13 @@
 #### MyShipMass Struct
 
 ```csharp
-public struct MyShipMass: 
+public struct MyShipMass: ValueType
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
+
+**Inheritance: **[ValueType](System.ValueType)
 
 #### Example
 

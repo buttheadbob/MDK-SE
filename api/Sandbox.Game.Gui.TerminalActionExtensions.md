@@ -3,11 +3,13 @@
 #### TerminalActionExtensions Class
 
 ```csharp
-public abstract sealed class TerminalActionExtensions: 
+public abstract sealed class TerminalActionExtensions: object
 ```
 
 **Namespace:** [Sandbox.Game.Gui](Sandbox.Game.Gui)  
 **Assembly:** Sandbox.Game.dll
+
+**Inheritance: **[object](System.Object)
 
 #### Example
 

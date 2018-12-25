@@ -3,11 +3,13 @@
 #### MyComponentBase Class
 
 ```csharp
-public abstract class MyComponentBase: 
+public abstract class MyComponentBase: object
 ```
 
 **Namespace:** [VRage.Game.Components](VRage.Game.Components)  
 **Assembly:** VRage.Game.dll
+
+**Inheritance: **[object](System.Object)
 
 #### Example
 

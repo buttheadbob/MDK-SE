@@ -12,6 +12,10 @@ Multiplies two quaternions.
 
 [Quaternion](VRageMath.Quaternion)
 
+### Parameters
+
+* [Quaternion](VRageMath.Quaternion) quaternion1
+* [Quaternion](VRageMath.Quaternion) quaternion2
 ### Summary
 
 ```csharp
@@ -20,6 +24,11 @@ public void Multiply(ref Quaternion quaternion1, ref Quaternion quaternion2, r
 
 Multiplies two quaternions.
 
+### Parameters
+
+* [Quaternion](VRageMath.Quaternion) quaternion1
+* [Quaternion](VRageMath.Quaternion) quaternion2
+* [Quaternion](VRageMath.Quaternion) result
 ### Summary
 
 ```csharp
@@ -32,6 +41,10 @@ Multiplies a quaternion by a scalar value.
 
 [Quaternion](VRageMath.Quaternion)
 
+### Parameters
+
+* [Quaternion](VRageMath.Quaternion) quaternion1
+* [float](System.Single) scaleFactor
 ### Summary
 
 ```csharp
@@ -40,3 +53,8 @@ public void Multiply(ref Quaternion quaternion1, float scaleFactor, ref Quater
 
 Multiplies a quaternion by a scalar value.
 
+### Parameters
+
+* [Quaternion](VRageMath.Quaternion) quaternion1
+* [float](System.Single) scaleFactor
+* [Quaternion](VRageMath.Quaternion) result

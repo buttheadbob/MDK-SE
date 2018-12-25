@@ -10,3 +10,6 @@ public float GetComponent(int index)
 
 [float](System.Single)
 
+### Parameters
+
+* [int](System.Int32) index

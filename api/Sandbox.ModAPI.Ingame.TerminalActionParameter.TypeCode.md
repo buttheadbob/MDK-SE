@@ -8,5 +8,5 @@ public TypeCode TypeCode
 
 ### Returns
 
-[TypeCode](System.TypeCode)
+TypeCode
 

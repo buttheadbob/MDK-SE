@@ -10,3 +10,6 @@ public MyDefinitionId GetDefinitionId(IMyInventoryItem self)
 
 [MyDefinitionId](VRage.Game.MyDefinitionId)
 
+### Parameters
+
+* [IMyInventoryItem](VRage.Game.ModAPI.Ingame.IMyInventoryItem) self

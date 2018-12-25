@@ -6,3 +6,6 @@
 public void ToBytes(List<T> result)
 ```
 
+### Parameters
+
+* [List<T>](System.Collections.Generic.List`1) result

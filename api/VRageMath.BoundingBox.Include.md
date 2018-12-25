@@ -14,6 +14,9 @@ return expanded aabb (aabb include point)
 
 
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) point
 ### Summary
 
 ```csharp
@@ -24,6 +27,9 @@ public BoundingBox Include(Vector3 point)
 
 [BoundingBox](VRageMath.BoundingBox)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) point
 ### Summary
 
 ```csharp
@@ -34,6 +40,11 @@ public BoundingBox Include(Vector3 p0, Vector3 p1, Vector3 p2)
 
 [BoundingBox](VRageMath.BoundingBox)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) p0
+* [Vector3](VRageMath.Vector3) p1
+* [Vector3](VRageMath.Vector3) p2
 ### Summary
 
 ```csharp
@@ -44,6 +55,11 @@ public BoundingBox Include(ref Vector3 p0, ref Vector3 p1, ref Vector3 p2)
 
 [BoundingBox](VRageMath.BoundingBox)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) p0
+* [Vector3](VRageMath.Vector3) p1
+* [Vector3](VRageMath.Vector3) p2
 ### Summary
 
 ```csharp
@@ -58,6 +74,9 @@ return expanded aabb (aabb include aabb)
 
 
 
+### Parameters
+
+* [BoundingBox](VRageMath.BoundingBox) box
 ### Summary
 
 ```csharp
@@ -68,12 +87,18 @@ public BoundingBox Include(BoundingBox box)
 
 [BoundingBox](VRageMath.BoundingBox)
 
+### Parameters
+
+* [BoundingBox](VRageMath.BoundingBox) box
 ### Summary
 
 ```csharp
 public void Include(ref Line line)
 ```
 
+### Parameters
+
+* [Line](VRageMath.Line) line
 ### Summary
 
 ```csharp
@@ -84,6 +109,9 @@ public BoundingBox Include(BoundingSphere sphere)
 
 [BoundingBox](VRageMath.BoundingBox)
 
+### Parameters
+
+* [BoundingSphere](VRageMath.BoundingSphere) sphere
 ### Summary
 
 ```csharp
@@ -94,6 +122,9 @@ public BoundingBox Include(ref BoundingSphere sphere)
 
 [BoundingBox](VRageMath.BoundingBox)
 
+### Parameters
+
+* [BoundingSphere](VRageMath.BoundingSphere) sphere
 ### Summary
 
 ```csharp
@@ -104,3 +135,6 @@ public BoundingBox Include(ref BoundingFrustum frustum)
 
 [BoundingBox](VRageMath.BoundingBox)
 
+### Parameters
+
+* [BoundingFrustum](VRageMath.BoundingFrustum) frustum

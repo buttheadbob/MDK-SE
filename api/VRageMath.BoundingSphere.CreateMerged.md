@@ -12,6 +12,10 @@ Creates a BoundingSphere that contains the two specified BoundingSphere instance
 
 [BoundingSphere](VRageMath.BoundingSphere)
 
+### Parameters
+
+* [BoundingSphere](VRageMath.BoundingSphere) original
+* [BoundingSphere](VRageMath.BoundingSphere) additional
 ### Summary
 
 ```csharp
@@ -20,3 +24,8 @@ public void CreateMerged(ref BoundingSphere original, ref BoundingSphere addit
 
 Creates a BoundingSphere that contains the two specified BoundingSphere instances.
 
+### Parameters
+
+* [BoundingSphere](VRageMath.BoundingSphere) original
+* [BoundingSphere](VRageMath.BoundingSphere) additional
+* [BoundingSphere](VRageMath.BoundingSphere) result

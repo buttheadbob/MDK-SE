@@ -10,3 +10,6 @@ public int GetHashCode(MyTuple<T1, T2, T3> obj)
 
 [int](System.Int32)
 
+### Parameters
+
+* [MyTuple<T1, T2, T3>](VRage.MyTuple`3) obj

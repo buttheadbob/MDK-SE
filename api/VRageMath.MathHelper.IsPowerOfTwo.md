@@ -14,3 +14,6 @@ Returns true if value is power of two
 
 
 
+### Parameters
+
+* [int](System.Int32) x

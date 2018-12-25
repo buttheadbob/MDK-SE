@@ -10,3 +10,6 @@ public CubeFace GetDominantDirection(Vector3I val)
 
 [CubeFace](VRageMath.CubeFace)
 
+### Parameters
+
+* [Vector3I](VRageMath.Vector3I) val

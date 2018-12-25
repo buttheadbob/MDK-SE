@@ -10,3 +10,6 @@ public bool IsValidOrZero(Matrix matrix)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Matrix](VRageMath.Matrix) matrix

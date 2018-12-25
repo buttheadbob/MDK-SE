@@ -10,3 +10,7 @@ public bool IsValidIndex<T>(List<T> list, int index)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [List<T>](System.Collections.Generic.List`1) list
+* [int](System.Int32) index

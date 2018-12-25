@@ -10,6 +10,10 @@ public bool Contains(int x, int y)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [int](System.Int32) x
+* [int](System.Int32) y
 ### Summary
 
 ```csharp
@@ -20,6 +24,10 @@ public bool Contains(float x, float y)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [float](System.Single) x
+* [float](System.Single) y
 ### Summary
 
 ```csharp
@@ -30,6 +38,9 @@ public bool Contains(Vector2 vector2D)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Vector2](VRageMath.Vector2) vector2D
 ### Summary
 
 ```csharp
@@ -40,3 +51,6 @@ public bool Contains(Point point)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Point](VRageMath.Point) point

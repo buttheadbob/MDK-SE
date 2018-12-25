@@ -10,3 +10,7 @@ public bool TryDequeue<T>(Queue<T> queue, ref T result)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Queue<T>](System.Collections.Generic.Queue`1) queue
+* [T]() result

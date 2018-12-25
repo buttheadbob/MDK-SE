@@ -10,3 +10,7 @@ public bool ArePerpendicular(ref Vector3 a, ref Vector3 b)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) a
+* [Vector3](VRageMath.Vector3) b

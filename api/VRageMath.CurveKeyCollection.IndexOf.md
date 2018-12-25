@@ -12,3 +12,6 @@ Determines the index of a CurveKey in the CurveKeyCollection.
 
 [int](System.Int32)
 
+### Parameters
+
+* [CurveKey](VRageMath.CurveKey) item

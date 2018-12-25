@@ -12,6 +12,9 @@ Returns the dot product of a specified Vector3D and the Normal vector of this Pl
 
 [double](System.Double)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) value
 ### Summary
 
 ```csharp
@@ -20,3 +23,7 @@ public void DotCoordinate(ref Vector3D value, ref double result)
 
 Returns the dot product of a specified Vector3D and the Normal vector of this PlaneD plus the distance (D) value of the PlaneD.
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) value
+* [double](System.Double) result

@@ -12,6 +12,11 @@ Creates a new rotation matrix from a specified yaw, pitch, and roll.
 
 [MatrixD](VRageMath.MatrixD)
 
+### Parameters
+
+* [double](System.Double) yaw
+* [double](System.Double) pitch
+* [double](System.Double) roll
 ### Summary
 
 ```csharp
@@ -20,3 +25,9 @@ public void CreateFromYawPitchRoll(double yaw, double pitch, double roll, ref M
 
 Fills in a rotation matrix from a specified yaw, pitch, and roll.
 
+### Parameters
+
+* [double](System.Double) yaw
+* [double](System.Double) pitch
+* [double](System.Double) roll
+* [MatrixD](VRageMath.MatrixD) result

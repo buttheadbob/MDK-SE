@@ -10,3 +10,6 @@ public IMyInventoryItem FindItem(SerializableDefinitionId contentId)
 
 [IMyInventoryItem](VRage.Game.ModAPI.Ingame.IMyInventoryItem)
 
+### Parameters
+
+* [SerializableDefinitionId](VRage.ObjectBuilders.SerializableDefinitionId) contentId

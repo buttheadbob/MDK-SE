@@ -10,3 +10,7 @@ public bool WritePrivateText(string value, bool append)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [string](System.String) value
+* [bool](System.Boolean) append

@@ -12,6 +12,9 @@ Returns a vector pointing in the opposite direction.
 
 [Vector2D](VRageMath.Vector2D)
 
+### Parameters
+
+* [Vector2D](VRageMath.Vector2D) value
 ### Summary
 
 ```csharp
@@ -20,3 +23,7 @@ public void Negate(ref Vector2D value, ref Vector2D result)
 
 Returns a vector pointing in the opposite direction.
 
+### Parameters
+
+* [Vector2D](VRageMath.Vector2D) value
+* [Vector2D](VRageMath.Vector2D) result

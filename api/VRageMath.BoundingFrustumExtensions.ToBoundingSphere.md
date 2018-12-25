@@ -14,3 +14,7 @@ Creates bounding sphere from bounding frustum. Implementation taken from XNA sou
 
 BoundingSphere
 
+### Parameters
+
+* [BoundingFrustum](VRageMath.BoundingFrustum) frustum
+* [Vector3[]](VRageMath.Vector3[]) corners

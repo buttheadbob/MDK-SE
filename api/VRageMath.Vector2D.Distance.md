@@ -12,6 +12,10 @@ Calculates the distance between two vectors.
 
 [double](System.Double)
 
+### Parameters
+
+* [Vector2D](VRageMath.Vector2D) value1
+* [Vector2D](VRageMath.Vector2D) value2
 ### Summary
 
 ```csharp
@@ -20,3 +24,8 @@ public void Distance(ref Vector2D value1, ref Vector2D value2, ref double res
 
 Calculates the distance between two vectors.
 
+### Parameters
+
+* [Vector2D](VRageMath.Vector2D) value1
+* [Vector2D](VRageMath.Vector2D) value2
+* [double](System.Double) result

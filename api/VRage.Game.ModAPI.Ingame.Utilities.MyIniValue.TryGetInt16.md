@@ -14,3 +14,6 @@ Attempts to get this value as a [System.Int16](https://docs.microsoft.com/en-us/
 
 `true`if the value could be understood as this data type;`false`otherwise
 
+### Parameters
+
+* [short](System.Int16) value

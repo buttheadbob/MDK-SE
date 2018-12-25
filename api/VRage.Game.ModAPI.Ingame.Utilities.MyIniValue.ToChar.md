@@ -14,3 +14,6 @@ Attempts to get this value as a [System.Char](https://docs.microsoft.com/en-us/d
 
 
 
+### Parameters
+
+* [char](System.Char) defaultValue

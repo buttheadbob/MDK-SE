@@ -14,3 +14,8 @@ Move a proxy with a swepted BoundingBox. If the proxy has moved outside of its f
 
 true if the proxy was re-inserted.
 
+### Parameters
+
+* [int](System.Int32) proxyId
+* [BoundingBoxD](VRageMath.BoundingBoxD) aabb
+* [Vector3D](VRageMath.Vector3D) displacement

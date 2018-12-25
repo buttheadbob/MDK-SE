@@ -3,11 +3,13 @@
 #### MathHelper Class
 
 ```csharp
-public abstract sealed class MathHelper: 
+public abstract sealed class MathHelper: object
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+**Inheritance: **[object](System.Object)
 
 #### Example
 

@@ -14,3 +14,6 @@ Get cube block at given position
 
 Block or null if none is present at given position
 
+### Parameters
+
+* [Vector3I](VRageMath.Vector3I) pos

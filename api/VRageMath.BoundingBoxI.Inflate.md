@@ -6,3 +6,6 @@
 public void Inflate(int size)
 ```
 
+### Parameters
+
+* [int](System.Int32) size

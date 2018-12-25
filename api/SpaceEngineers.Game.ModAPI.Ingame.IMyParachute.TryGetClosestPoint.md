@@ -10,3 +10,6 @@ public bool TryGetClosestPoint(ref Nullable<T> closestPoint)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Nullable<T>](System.Nullable`1) closestPoint

@@ -10,3 +10,6 @@ public Vector2 SignNonZero(Vector2 value)
 
 [Vector2](VRageMath.Vector2)
 
+### Parameters
+
+* [Vector2](VRageMath.Vector2) value

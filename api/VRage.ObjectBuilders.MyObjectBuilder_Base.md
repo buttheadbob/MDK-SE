@@ -3,11 +3,13 @@
 #### MyObjectBuilder_Base Class
 
 ```csharp
-public abstract class MyObjectBuilder_Base: 
+public abstract class MyObjectBuilder_Base: object
 ```
 
 **Namespace:** [VRage.ObjectBuilders](VRage.ObjectBuilders)  
 **Assembly:** VRage.Game.dll
+
+**Inheritance: **[object](System.Object)
 
 #### Example
 

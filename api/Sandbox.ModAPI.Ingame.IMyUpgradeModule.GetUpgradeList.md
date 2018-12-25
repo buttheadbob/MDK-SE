@@ -6,3 +6,6 @@
 public void GetUpgradeList(ref List<T> upgrades)
 ```
 
+### Parameters
+
+* [List<T>](System.Collections.Generic.List`1) upgrades

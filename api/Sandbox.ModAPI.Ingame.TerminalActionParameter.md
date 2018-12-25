@@ -3,11 +3,13 @@
 #### TerminalActionParameter Struct
 
 ```csharp
-public struct TerminalActionParameter: 
+public struct TerminalActionParameter: ValueType
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
+
+**Inheritance: **[ValueType](System.ValueType)
 
 #### Example
 

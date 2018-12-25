@@ -12,6 +12,11 @@ Linearly interpolates between the corresponding values of two matrices.
 
 [MatrixD](VRageMath.MatrixD)
 
+### Parameters
+
+* [MatrixD](VRageMath.MatrixD) matrix1
+* [MatrixD](VRageMath.MatrixD) matrix2
+* [double](System.Double) amount
 ### Summary
 
 ```csharp
@@ -20,3 +25,9 @@ public void Lerp(ref MatrixD matrix1, ref MatrixD matrix2, double amount, ref�
 
 Linearly interpolates between the corresponding values of two matrices.
 
+### Parameters
+
+* [MatrixD](VRageMath.MatrixD) matrix1
+* [MatrixD](VRageMath.MatrixD) matrix2
+* [double](System.Double) amount
+* [MatrixD](VRageMath.MatrixD) result

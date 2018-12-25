@@ -3,11 +3,13 @@
 #### ArrayExtensions Class
 
 ```csharp
-public abstract sealed class ArrayExtensions: 
+public abstract sealed class ArrayExtensions: object
 ```
 
 **Namespace:** [System](System)  
 **Assembly:** VRage.Library.dll
+
+**Inheritance: **[object](System.Object)
 
 #### Example
 

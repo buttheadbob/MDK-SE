@@ -12,6 +12,10 @@ Creates a Rectangle defining the area where one rectangle overlaps with another 
 
 [Rectangle](VRageMath.Rectangle)
 
+### Parameters
+
+* [Rectangle](VRageMath.Rectangle) value1
+* [Rectangle](VRageMath.Rectangle) value2
 ### Summary
 
 ```csharp
@@ -20,3 +24,8 @@ public void Intersect(ref Rectangle value1, ref Rectangle value2, ref Rectang
 
 Creates a Rectangle defining the area where one rectangle overlaps with another rectangle.
 
+### Parameters
+
+* [Rectangle](VRageMath.Rectangle) value1
+* [Rectangle](VRageMath.Rectangle) value2
+* [Rectangle](VRageMath.Rectangle) result

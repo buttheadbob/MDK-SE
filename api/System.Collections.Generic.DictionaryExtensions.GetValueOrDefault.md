@@ -10,6 +10,10 @@ public V GetValueOrDefault<K, V>(Dictionary<TKey, TValue> dictionary, K key)
 
 [V]()
 
+### Parameters
+
+* [Dictionary<TKey, TValue>](System.Collections.Generic.Dictionary`2) dictionary
+* [K]() key
 ### Summary
 
 ```csharp
@@ -20,6 +24,11 @@ public V GetValueOrDefault<K, V>(Dictionary<TKey, TValue> dictionary, K key, V d
 
 [V]()
 
+### Parameters
+
+* [Dictionary<TKey, TValue>](System.Collections.Generic.Dictionary`2) dictionary
+* [K]() key
+* [V]() defaultValue
 ### Summary
 
 ```csharp
@@ -30,3 +39,8 @@ public V GetValueOrDefault<K, V>(ConcurrentDictionary<TKey, TValue> dictionary, 
 
 [V]()
 
+### Parameters
+
+* [ConcurrentDictionary<TKey, TValue>](System.Collections.Concurrent.ConcurrentDictionary`2) dictionary
+* [K]() key
+* [V]() defaultValue

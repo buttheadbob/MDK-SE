@@ -10,6 +10,9 @@ public bool Equals(MyOrientedBoundingBox other)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [MyOrientedBoundingBox](VRageMath.MyOrientedBoundingBox) other
 ### Summary
 
 ```csharp
@@ -20,3 +23,6 @@ public virtual bool Equals(object obj)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [object](System.Object) obj

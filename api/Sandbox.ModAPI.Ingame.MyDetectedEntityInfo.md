@@ -3,11 +3,13 @@
 #### MyDetectedEntityInfo Struct
 
 ```csharp
-public struct MyDetectedEntityInfo: 
+public struct MyDetectedEntityInfo: ValueType
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
+
+**Inheritance: **[ValueType](System.ValueType)
 
 #### Example
 

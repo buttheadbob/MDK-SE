@@ -10,3 +10,6 @@ public long VolumeInt(double multiplier)
 
 [long](System.Int64)
 
+### Parameters
+
+* [double](System.Double) multiplier

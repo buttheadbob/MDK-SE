@@ -8,6 +8,12 @@ public void Slerp(ref Matrix matrix1, ref Matrix matrix2, float amount, ref M
 
 Performs spherical linear interpolation of position and rotation.
 
+### Parameters
+
+* [Matrix](VRageMath.Matrix) matrix1
+* [Matrix](VRageMath.Matrix) matrix2
+* [float](System.Single) amount
+* [Matrix](VRageMath.Matrix) result
 ### Summary
 
 ```csharp
@@ -16,6 +22,12 @@ public void Slerp(Matrix matrix1, Matrix matrix2, float amount, ref Matrix resu
 
 Performs spherical linear interpolation of position and rotation.
 
+### Parameters
+
+* [Matrix](VRageMath.Matrix) matrix1
+* [Matrix](VRageMath.Matrix) matrix2
+* [float](System.Single) amount
+* [Matrix](VRageMath.Matrix) result
 ### Summary
 
 ```csharp
@@ -28,3 +40,8 @@ Performs spherical linear interpolation of position and rotation.
 
 [Matrix](VRageMath.Matrix)
 
+### Parameters
+
+* [Matrix](VRageMath.Matrix) matrix1
+* [Matrix](VRageMath.Matrix) matrix2
+* [float](System.Single) amount

@@ -8,3 +8,6 @@ public void LimitRadians2PI(ref double angle)
 
 Returns angle in range 0..2*PI
 
+### Parameters
+
+* [double](System.Double) angle

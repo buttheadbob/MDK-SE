@@ -10,3 +10,7 @@ public MyOrientedBoundingBox Create(BoundingBox boundingBox, Matrix matrix)
 
 [MyOrientedBoundingBox](VRageMath.MyOrientedBoundingBox)
 
+### Parameters
+
+* [BoundingBox](VRageMath.BoundingBox) boundingBox
+* [Matrix](VRageMath.Matrix) matrix

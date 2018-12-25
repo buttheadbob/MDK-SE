@@ -3,11 +3,13 @@
 #### MyMortonCode3D Class
 
 ```csharp
-public abstract sealed class MyMortonCode3D: 
+public abstract sealed class MyMortonCode3D: object
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+**Inheritance: **[object](System.Object)
 
 #### Example
 

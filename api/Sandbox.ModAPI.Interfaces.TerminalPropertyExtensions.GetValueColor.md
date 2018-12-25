@@ -14,3 +14,7 @@ Returns value of specified property
 
 property value as Color
 
+### Parameters
+
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock) block
+* [string](System.String) propertyId

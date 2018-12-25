@@ -12,6 +12,9 @@ Determines whether two instances of BoundingBox are equal.
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [BoundingBoxD](VRageMath.BoundingBoxD) other
 ### Summary
 
 ```csharp
@@ -24,3 +27,6 @@ Determines whether two instances of BoundingBox are equal.
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [object](System.Object) obj

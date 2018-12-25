@@ -12,6 +12,9 @@ Interpolates between zero and one using cubic equiation, solved by de Casteljau.
 
 [float](System.Single)
 
+### Parameters
+
+* [float](System.Single) amount
 ### Summary
 
 ```csharp
@@ -24,3 +27,6 @@ Interpolates between zero and one using cubic equiation, solved by de Casteljau.
 
 [double](System.Double)
 
+### Parameters
+
+* [double](System.Double) amount

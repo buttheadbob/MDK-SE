@@ -3,11 +3,13 @@
 #### MyQuadD Struct
 
 ```csharp
-public struct MyQuadD: 
+public struct MyQuadD: ValueType
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+**Inheritance: **[ValueType](System.ValueType)
 
 #### Example
 

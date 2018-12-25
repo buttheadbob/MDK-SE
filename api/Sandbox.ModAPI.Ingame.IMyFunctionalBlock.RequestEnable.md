@@ -6,3 +6,6 @@
 public void RequestEnable(bool enable)
 ```
 
+### Parameters
+
+* [bool](System.Boolean) enable

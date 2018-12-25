@@ -10,9 +10,17 @@ public Vector2D ClampToSphere(Vector2D vector, double radius)
 
 [Vector2D](VRageMath.Vector2D)
 
+### Parameters
+
+* [Vector2D](VRageMath.Vector2D) vector
+* [double](System.Double) radius
 ### Summary
 
 ```csharp
 public void ClampToSphere(ref Vector2D vector, double radius)
 ```
 
+### Parameters
+
+* [Vector2D](VRageMath.Vector2D) vector
+* [double](System.Double) radius

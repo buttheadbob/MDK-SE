@@ -10,3 +10,6 @@ public bool HasPlayerAccess(long playerId)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [long](System.Int64) playerId

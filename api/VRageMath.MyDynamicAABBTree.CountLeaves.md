@@ -10,3 +10,6 @@ public int CountLeaves(int nodeId)
 
 [int](System.Int32)
 
+### Parameters
+
+* [int](System.Int32) nodeId

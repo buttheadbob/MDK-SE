@@ -12,3 +12,6 @@ Calculates rectangular distance. It's how many sectors you have to travel to get
 
 [long](System.Int64)
 
+### Parameters
+
+* [Vector3L](VRageMath.Vector3L) otherVector

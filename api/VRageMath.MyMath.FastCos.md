@@ -10,3 +10,6 @@ public float FastCos(float angle)
 
 [float](System.Single)
 
+### Parameters
+
+* [float](System.Single) angle

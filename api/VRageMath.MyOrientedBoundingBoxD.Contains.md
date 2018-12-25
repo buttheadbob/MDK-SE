@@ -10,6 +10,9 @@ public ContainmentType Contains(ref BoundingBox box)
 
 [ContainmentType](VRageMath.ContainmentType)
 
+### Parameters
+
+* [BoundingBox](VRageMath.BoundingBox) box
 ### Summary
 
 ```csharp
@@ -20,6 +23,9 @@ public ContainmentType Contains(ref BoundingBoxD box)
 
 [ContainmentType](VRageMath.ContainmentType)
 
+### Parameters
+
+* [BoundingBoxD](VRageMath.BoundingBoxD) box
 ### Summary
 
 ```csharp
@@ -30,6 +36,10 @@ public ContainmentType Contains(ref BoundingBox boxA, ref MyOrientedBoundingBo
 
 [ContainmentType](VRageMath.ContainmentType)
 
+### Parameters
+
+* [BoundingBox](VRageMath.BoundingBox) boxA
+* [MyOrientedBoundingBox](VRageMath.MyOrientedBoundingBox) oboxB
 ### Summary
 
 ```csharp
@@ -40,6 +50,9 @@ public ContainmentType Contains(ref MyOrientedBoundingBoxD other)
 
 [ContainmentType](VRageMath.ContainmentType)
 
+### Parameters
+
+* [MyOrientedBoundingBoxD](VRageMath.MyOrientedBoundingBoxD) other
 ### Summary
 
 ```csharp
@@ -50,6 +63,9 @@ public ContainmentType Contains(BoundingFrustumD frustum)
 
 [ContainmentType](VRageMath.ContainmentType)
 
+### Parameters
+
+* [BoundingFrustumD](VRageMath.BoundingFrustumD) frustum
 ### Summary
 
 ```csharp
@@ -60,6 +76,10 @@ public ContainmentType Contains(BoundingFrustumD frustum, ref MyOrientedBoundin
 
 [ContainmentType](VRageMath.ContainmentType)
 
+### Parameters
+
+* [BoundingFrustumD](VRageMath.BoundingFrustumD) frustum
+* [MyOrientedBoundingBoxD](VRageMath.MyOrientedBoundingBoxD) obox
 ### Summary
 
 ```csharp
@@ -70,6 +90,9 @@ public ContainmentType Contains(ref BoundingSphereD sphere)
 
 [ContainmentType](VRageMath.ContainmentType)
 
+### Parameters
+
+* [BoundingSphereD](VRageMath.BoundingSphereD) sphere
 ### Summary
 
 ```csharp
@@ -80,6 +103,10 @@ public ContainmentType Contains(ref BoundingSphere sphere, ref MyOrientedBound
 
 [ContainmentType](VRageMath.ContainmentType)
 
+### Parameters
+
+* [BoundingSphere](VRageMath.BoundingSphere) sphere
+* [MyOrientedBoundingBox](VRageMath.MyOrientedBoundingBox) box
 ### Summary
 
 ```csharp
@@ -90,6 +117,9 @@ public bool Contains(ref Vector3 point)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) point
 ### Summary
 
 ```csharp
@@ -100,3 +130,6 @@ public bool Contains(ref Vector3D point)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) point

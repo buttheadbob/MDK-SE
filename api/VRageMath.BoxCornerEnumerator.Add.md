@@ -6,3 +6,6 @@
 public void Add(object tmp)
 ```
 
+### Parameters
+
+* [object](System.Object) tmp

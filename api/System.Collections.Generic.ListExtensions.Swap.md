@@ -6,3 +6,8 @@
 public void Swap<T>(List<T> list, int a, int b)
 ```
 
+### Parameters
+
+* [List<T>](System.Collections.Generic.List`1) list
+* [int](System.Int32) a
+* [int](System.Int32) b

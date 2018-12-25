@@ -10,3 +10,6 @@ public Color HexToColor(string hex)
 
 [Color](VRageMath.Color)
 
+### Parameters
+
+* [string](System.String) hex

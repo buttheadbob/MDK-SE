@@ -12,3 +12,7 @@ Creates a world matrix with the specified parameters.
 
 [Matrix3x3](VRageMath.Matrix3x3)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) forward
+* [Vector3](VRageMath.Vector3) up

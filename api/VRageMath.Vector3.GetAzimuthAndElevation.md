@@ -6,3 +6,8 @@
 public void GetAzimuthAndElevation(Vector3 v, ref float azimuth, ref float elevation)
 ```
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) v
+* [float](System.Single) azimuth
+* [float](System.Single) elevation

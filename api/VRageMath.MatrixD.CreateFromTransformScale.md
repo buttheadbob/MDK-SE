@@ -10,3 +10,8 @@ public MatrixD CreateFromTransformScale(Quaternion orientation, Vector3D positio
 
 [MatrixD](VRageMath.MatrixD)
 
+### Parameters
+
+* [Quaternion](VRageMath.Quaternion) orientation
+* [Vector3D](VRageMath.Vector3D) position
+* [Vector3D](VRageMath.Vector3D) scale

@@ -14,6 +14,9 @@ Translate
 
 
 
+### Parameters
+
+* [Matrix](VRageMath.Matrix) worldMatrix
 ### Summary
 
 ```csharp
@@ -28,3 +31,6 @@ Translate
 
 
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) vctTranlsation

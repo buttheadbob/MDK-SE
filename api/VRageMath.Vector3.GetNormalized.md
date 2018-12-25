@@ -10,3 +10,6 @@ public bool GetNormalized(ref Vector3 value)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) value

@@ -12,6 +12,12 @@ Builds a perspective projection matrix based on a field of view and returns by v
 
 [Matrix](VRageMath.Matrix)
 
+### Parameters
+
+* [float](System.Single) fieldOfView
+* [float](System.Single) aspectRatio
+* [float](System.Single) nearPlaneDistance
+* [float](System.Single) farPlaneDistance
 ### Summary
 
 ```csharp
@@ -20,3 +26,10 @@ public void CreatePerspectiveFieldOfView(float fieldOfView, float aspectRatio, f
 
 Builds a perspective projection matrix based on a field of view and returns by reference.
 
+### Parameters
+
+* [float](System.Single) fieldOfView
+* [float](System.Single) aspectRatio
+* [float](System.Single) nearPlaneDistance
+* [float](System.Single) farPlaneDistance
+* [Matrix](VRageMath.Matrix) result

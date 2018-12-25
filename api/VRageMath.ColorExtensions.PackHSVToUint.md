@@ -10,3 +10,6 @@ public uint PackHSVToUint(Vector3 HSV)
 
 [uint](System.UInt32)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) HSV

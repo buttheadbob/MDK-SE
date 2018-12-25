@@ -14,3 +14,7 @@ Determines if the given configuration contains what looks like the given section
 
 
 
+### Parameters
+
+* [string](System.String) config
+* [string](System.String) section

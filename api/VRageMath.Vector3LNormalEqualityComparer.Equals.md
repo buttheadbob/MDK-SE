@@ -10,3 +10,7 @@ public bool Equals(Vector3L x, Vector3L y)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Vector3L](VRageMath.Vector3L) x
+* [Vector3L](VRageMath.Vector3L) y

@@ -20,3 +20,6 @@ public bool IsOrthogonal(double epsilon)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [double](System.Double) epsilon

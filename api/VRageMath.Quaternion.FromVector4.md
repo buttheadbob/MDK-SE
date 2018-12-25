@@ -10,3 +10,6 @@ public Quaternion FromVector4(Vector4 v)
 
 [Quaternion](VRageMath.Quaternion)
 
+### Parameters
+
+* [Vector4](VRageMath.Vector4) v

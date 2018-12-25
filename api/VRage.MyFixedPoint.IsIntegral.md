@@ -10,3 +10,6 @@ public bool IsIntegral(MyFixedPoint fp)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [MyFixedPoint](VRage.MyFixedPoint) fp

@@ -10,6 +10,10 @@ public MyFixedPoint MultiplySafe(MyFixedPoint a, float b)
 
 [MyFixedPoint](VRage.MyFixedPoint)
 
+### Parameters
+
+* [MyFixedPoint](VRage.MyFixedPoint) a
+* [float](System.Single) b
 ### Summary
 
 ```csharp
@@ -20,6 +24,10 @@ public MyFixedPoint MultiplySafe(MyFixedPoint a, int b)
 
 [MyFixedPoint](VRage.MyFixedPoint)
 
+### Parameters
+
+* [MyFixedPoint](VRage.MyFixedPoint) a
+* [int](System.Int32) b
 ### Summary
 
 ```csharp
@@ -30,6 +38,10 @@ public MyFixedPoint MultiplySafe(float a, MyFixedPoint b)
 
 [MyFixedPoint](VRage.MyFixedPoint)
 
+### Parameters
+
+* [float](System.Single) a
+* [MyFixedPoint](VRage.MyFixedPoint) b
 ### Summary
 
 ```csharp
@@ -40,6 +52,10 @@ public MyFixedPoint MultiplySafe(int a, MyFixedPoint b)
 
 [MyFixedPoint](VRage.MyFixedPoint)
 
+### Parameters
+
+* [int](System.Int32) a
+* [MyFixedPoint](VRage.MyFixedPoint) b
 ### Summary
 
 ```csharp
@@ -50,3 +66,7 @@ public MyFixedPoint MultiplySafe(MyFixedPoint a, MyFixedPoint b)
 
 [MyFixedPoint](VRage.MyFixedPoint)
 
+### Parameters
+
+* [MyFixedPoint](VRage.MyFixedPoint) a
+* [MyFixedPoint](VRage.MyFixedPoint) b

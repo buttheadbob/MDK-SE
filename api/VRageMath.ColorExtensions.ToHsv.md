@@ -10,3 +10,6 @@ public Vector3 ToHsv(Vector3 rgb)
 
 [Vector3](VRageMath.Vector3)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) rgb

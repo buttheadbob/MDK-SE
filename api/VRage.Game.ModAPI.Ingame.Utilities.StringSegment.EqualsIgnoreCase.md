@@ -10,3 +10,6 @@ public bool EqualsIgnoreCase(StringSegment other)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [StringSegment](VRage.Game.ModAPI.Ingame.Utilities.StringSegment) other

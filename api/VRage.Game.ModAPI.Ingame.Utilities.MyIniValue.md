@@ -3,11 +3,13 @@
 #### MyIniValue Struct
 
 ```csharp
-public struct MyIniValue: 
+public struct MyIniValue: ValueType
 ```
 
 **Namespace:** [VRage.Game.ModAPI.Ingame.Utilities](VRage.Game.ModAPI.Ingame.Utilities)  
 **Assembly:** VRage.Game.dll
+
+**Inheritance: **[ValueType](System.ValueType)
 
 #### Example
 

@@ -10,3 +10,6 @@ public bool IsItemAt(int position)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [int](System.Int32) position

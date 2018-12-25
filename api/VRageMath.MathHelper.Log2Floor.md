@@ -10,3 +10,6 @@ public int Log2Floor(int value)
 
 [int](System.Int32)
 
+### Parameters
+
+* [int](System.Int32) value

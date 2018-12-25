@@ -10,3 +10,6 @@ public IMyBlockGroup GetBlockGroupWithName(string name)
 
 [IMyBlockGroup](Sandbox.ModAPI.Ingame.IMyBlockGroup)
 
+### Parameters
+
+* [string](System.String) name

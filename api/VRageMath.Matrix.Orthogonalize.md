@@ -10,3 +10,6 @@ public Matrix Orthogonalize(Matrix rotationMatrix)
 
 [Matrix](VRageMath.Matrix)
 
+### Parameters
+
+* [Matrix](VRageMath.Matrix) rotationMatrix

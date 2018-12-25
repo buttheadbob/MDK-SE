@@ -10,3 +10,7 @@ public Direction GetLeft(Direction up, Direction forward)
 
 [Direction](VRageMath.Base6Directions+Direction)
 
+### Parameters
+
+* [Direction](VRageMath.Base6Directions+Direction) up
+* [Direction](VRageMath.Base6Directions+Direction) forward

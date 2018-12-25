@@ -12,3 +12,6 @@ Creates a BoundingSphereD that can contain a specified list of points.
 
 [BoundingSphereD](VRageMath.BoundingSphereD)
 
+### Parameters
+
+* [Vector3D[]](VRageMath.Vector3D[]) points

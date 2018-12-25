@@ -3,11 +3,16 @@
 #### BoundingFrustumD Class
 
 ```csharp
-public class BoundingFrustumD: 
+public class BoundingFrustumD: object, IEquatable<T>
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+**Inheritance: **[object](System.Object)
+
+**Implements:**  
+* [IEquatable<T>](System.IEquatable`1)
 
 #### Example
 

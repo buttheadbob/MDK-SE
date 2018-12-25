@@ -10,3 +10,6 @@ public long AxisValue(Axis axis)
 
 [long](System.Int64)
 
+### Parameters
+
+* [Axis](VRageMath.Base6Directions+Axis) axis

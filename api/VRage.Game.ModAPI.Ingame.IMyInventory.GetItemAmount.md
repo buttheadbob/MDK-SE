@@ -10,3 +10,7 @@ public MyFixedPoint GetItemAmount(SerializableDefinitionId contentId, MyItemFlag
 
 [MyFixedPoint](VRage.MyFixedPoint)
 
+### Parameters
+
+* [SerializableDefinitionId](VRage.ObjectBuilders.SerializableDefinitionId) contentId
+* MyItemFlags flags

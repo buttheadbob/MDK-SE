@@ -8,3 +8,6 @@ public void SetAutoPilotEnabled(bool enabled)
 
 Enables or disables the autopilot.
 
+### Parameters
+
+* [bool](System.Boolean) enabled

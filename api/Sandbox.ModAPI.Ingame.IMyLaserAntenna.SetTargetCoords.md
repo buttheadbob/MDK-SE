@@ -8,3 +8,6 @@ public void SetTargetCoords(string coords)
 
 Set coordinates of target
 
+### Parameters
+
+* [string](System.String) coords

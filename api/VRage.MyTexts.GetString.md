@@ -10,6 +10,9 @@ public string GetString(MyStringId id)
 
 [string](System.String)
 
+### Parameters
+
+* MyStringId id
 ### Summary
 
 ```csharp
@@ -20,3 +23,6 @@ public string GetString(string keyString)
 
 [string](System.String)
 
+### Parameters
+
+* [string](System.String) keyString

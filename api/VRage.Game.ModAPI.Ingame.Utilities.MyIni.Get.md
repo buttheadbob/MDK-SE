@@ -14,6 +14,10 @@ Gets the [MyIniValue](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue) of the give
 
 
 
+### Parameters
+
+* [string](System.String) section
+* [string](System.String) name
 ### Summary
 
 ```csharp
@@ -28,3 +32,6 @@ Gets the [MyIniValue](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue) of the give
 
 
 
+### Parameters
+
+* [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) key

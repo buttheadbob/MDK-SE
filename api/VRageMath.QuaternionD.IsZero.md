@@ -10,6 +10,9 @@ public bool IsZero(QuaternionD value)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [QuaternionD](VRageMath.QuaternionD) value
 ### Summary
 
 ```csharp
@@ -20,3 +23,7 @@ public bool IsZero(QuaternionD value, double epsilon)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [QuaternionD](VRageMath.QuaternionD) value
+* [double](System.Double) epsilon

@@ -12,6 +12,9 @@ Determines whether the specified Object is equal to the Vector4.
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Vector4](VRageMath.Vector4) other
 ### Summary
 
 ```csharp
@@ -24,3 +27,6 @@ Returns a value that indicates whether the current instance is equal to a specif
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [object](System.Object) obj

@@ -10,3 +10,6 @@ public bool IsEnabled(IMyCubeBlock block)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock) block

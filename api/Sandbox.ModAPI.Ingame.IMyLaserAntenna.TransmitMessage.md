@@ -12,3 +12,6 @@ Sends a message to the programmable block associated with this antenna's partner
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [string](System.String) message

@@ -8,3 +8,6 @@ public void SetCollisionAvoidance(bool enabled)
 
 Enables or disables collision avoidance.
 
+### Parameters
+
+* [bool](System.Boolean) enabled

@@ -10,9 +10,15 @@ public Vector3 CalculatePerpendicularVector(Vector3 v)
 
 [Vector3](VRageMath.Vector3)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) v
 ### Summary
 
 ```csharp
 public void CalculatePerpendicularVector(ref Vector3 result)
 ```
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) result

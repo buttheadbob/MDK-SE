@@ -3,11 +3,18 @@
 #### MyRelationsBetweenPlayerAndBlock Enum
 
 ```csharp
-public enum MyRelationsBetweenPlayerAndBlock: 
+public enum MyRelationsBetweenPlayerAndBlock: Enum, IComparable, IFormattable, IConvertible
 ```
 
 **Namespace:** [VRage.Game](VRage.Game)  
 **Assembly:** VRage.Game.dll
+
+**Inheritance: **[Enum](System.Enum)
+
+**Implements:**  
+* [IComparable](System.IComparable)  
+* IFormattable  
+* IConvertible
 
 #### Example
 

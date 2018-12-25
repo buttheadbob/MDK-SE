@@ -10,6 +10,9 @@ public ContainmentType Contains(ref BoundingBox box)
 
 [ContainmentType](VRageMath.ContainmentType)
 
+### Parameters
+
+* [BoundingBox](VRageMath.BoundingBox) box
 ### Summary
 
 ```csharp
@@ -20,6 +23,10 @@ public ContainmentType Contains(ref BoundingBox boxA, ref MyOrientedBoundingBo
 
 [ContainmentType](VRageMath.ContainmentType)
 
+### Parameters
+
+* [BoundingBox](VRageMath.BoundingBox) boxA
+* [MyOrientedBoundingBox](VRageMath.MyOrientedBoundingBox) oboxB
 ### Summary
 
 ```csharp
@@ -30,6 +37,9 @@ public ContainmentType Contains(ref MyOrientedBoundingBox other)
 
 [ContainmentType](VRageMath.ContainmentType)
 
+### Parameters
+
+* [MyOrientedBoundingBox](VRageMath.MyOrientedBoundingBox) other
 ### Summary
 
 ```csharp
@@ -40,6 +50,9 @@ public ContainmentType Contains(BoundingFrustum frustum)
 
 [ContainmentType](VRageMath.ContainmentType)
 
+### Parameters
+
+* [BoundingFrustum](VRageMath.BoundingFrustum) frustum
 ### Summary
 
 ```csharp
@@ -50,6 +63,10 @@ public ContainmentType Contains(BoundingFrustum frustum, ref MyOrientedBounding
 
 [ContainmentType](VRageMath.ContainmentType)
 
+### Parameters
+
+* [BoundingFrustum](VRageMath.BoundingFrustum) frustum
+* [MyOrientedBoundingBox](VRageMath.MyOrientedBoundingBox) obox
 ### Summary
 
 ```csharp
@@ -60,6 +77,9 @@ public ContainmentType Contains(ref BoundingSphere sphere)
 
 [ContainmentType](VRageMath.ContainmentType)
 
+### Parameters
+
+* [BoundingSphere](VRageMath.BoundingSphere) sphere
 ### Summary
 
 ```csharp
@@ -70,6 +90,10 @@ public ContainmentType Contains(ref BoundingSphere sphere, ref MyOrientedBound
 
 [ContainmentType](VRageMath.ContainmentType)
 
+### Parameters
+
+* [BoundingSphere](VRageMath.BoundingSphere) sphere
+* [MyOrientedBoundingBox](VRageMath.MyOrientedBoundingBox) box
 ### Summary
 
 ```csharp
@@ -80,3 +104,6 @@ public bool Contains(ref Vector3 point)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) point

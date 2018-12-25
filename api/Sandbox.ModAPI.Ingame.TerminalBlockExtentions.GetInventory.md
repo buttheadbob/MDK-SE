@@ -10,3 +10,7 @@ public IMyInventory GetInventory(IMyTerminalBlock block, int index)
 
 [IMyInventory](VRage.Game.ModAPI.Ingame.IMyInventory)
 
+### Parameters
+
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock) block
+* [int](System.Int32) index

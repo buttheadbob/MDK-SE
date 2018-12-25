@@ -8,5 +8,5 @@ public MyObjectBuilderType TypeId
 
 ### Returns
 
-[MyObjectBuilderType](VRage.ObjectBuilders.MyObjectBuilderType)
+MyObjectBuilderType
 

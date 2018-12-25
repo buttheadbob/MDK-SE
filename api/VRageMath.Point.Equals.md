@@ -12,6 +12,9 @@ Determines whether two Point instances are equal.
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Point](VRageMath.Point) other
 ### Summary
 
 ```csharp
@@ -24,3 +27,6 @@ Determines whether two Point instances are equal.
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [object](System.Object) obj

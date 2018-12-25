@@ -14,3 +14,6 @@ Gets the nearest player's position. Will only work if the remote control belongs
 
 
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) playerPosition

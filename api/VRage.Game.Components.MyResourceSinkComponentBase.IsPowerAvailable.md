@@ -10,3 +10,7 @@ public virtual bool IsPowerAvailable(MyDefinitionId resourceTypeId, float power)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [MyDefinitionId](VRage.Game.MyDefinitionId) resourceTypeId
+* [float](System.Single) power

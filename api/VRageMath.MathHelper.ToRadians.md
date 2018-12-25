@@ -12,6 +12,9 @@ Converts degrees to radians.
 
 [float](System.Single)
 
+### Parameters
+
+* [float](System.Single) degrees
 ### Summary
 
 ```csharp
@@ -22,6 +25,9 @@ public Vector3 ToRadians(Vector3 v)
 
 [Vector3](VRageMath.Vector3)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) v
 ### Summary
 
 ```csharp
@@ -34,3 +40,6 @@ Converts degrees to radians.
 
 [double](System.Double)
 
+### Parameters
+
+* [double](System.Double) degrees

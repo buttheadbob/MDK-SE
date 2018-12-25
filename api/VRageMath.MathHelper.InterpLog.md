@@ -12,3 +12,8 @@ Performs interpolation on logarithmic scale.
 
 [float](System.Single)
 
+### Parameters
+
+* [float](System.Single) value
+* [float](System.Single) amount1
+* [float](System.Single) amount2

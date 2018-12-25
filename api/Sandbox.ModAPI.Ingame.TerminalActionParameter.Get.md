@@ -14,3 +14,6 @@ Creates a [TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParamete
 
 
 
+### Parameters
+
+* [object](System.Object) value

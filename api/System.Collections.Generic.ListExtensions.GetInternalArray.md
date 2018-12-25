@@ -10,3 +10,6 @@ public T[] GetInternalArray<T>(List<T> list)
 
 [T[]]()
 
+### Parameters
+
+* [List<T>](System.Collections.Generic.List`1) list

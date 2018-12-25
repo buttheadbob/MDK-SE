@@ -12,3 +12,7 @@ Returns the greater of two values.
 
 [double](System.Double)
 
+### Parameters
+
+* [double](System.Double) value1
+* [double](System.Double) value2

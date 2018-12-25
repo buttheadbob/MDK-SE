@@ -14,3 +14,7 @@ Attempts to get the elevation of the ship in relation to the nearest planet. Thi
 
 
 
+### Parameters
+
+* [MyPlanetElevation](Sandbox.ModAPI.Ingame.MyPlanetElevation) detail
+* [double](System.Double) elevation

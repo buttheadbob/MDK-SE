@@ -12,6 +12,10 @@ Transforms the vector (x, y, 0, 1) by the specified matrix.
 
 [Vector2](VRageMath.Vector2)
 
+### Parameters
+
+* [Vector2](VRageMath.Vector2) position
+* [Matrix](VRageMath.Matrix) matrix
 ### Summary
 
 ```csharp
@@ -20,6 +24,11 @@ public void Transform(ref Vector2 position, ref Matrix matrix, ref Vector2 re
 
 Transforms a Vector2 by the given Matrix.
 
+### Parameters
+
+* [Vector2](VRageMath.Vector2) position
+* [Matrix](VRageMath.Matrix) matrix
+* [Vector2](VRageMath.Vector2) result
 ### Summary
 
 ```csharp
@@ -32,6 +41,10 @@ Transforms a single Vector2, or the vector normal (x, y, 0, 0), by a specified Q
 
 [Vector2](VRageMath.Vector2)
 
+### Parameters
+
+* [Vector2](VRageMath.Vector2) value
+* [Quaternion](VRageMath.Quaternion) rotation
 ### Summary
 
 ```csharp
@@ -40,6 +53,11 @@ public void Transform(ref Vector2 value, ref Quaternion rotation, ref Vector2
 
 Transforms a Vector2, or the vector normal (x, y, 0, 0), by a specified Quaternion rotation.
 
+### Parameters
+
+* [Vector2](VRageMath.Vector2) value
+* [Quaternion](VRageMath.Quaternion) rotation
+* [Vector2](VRageMath.Vector2) result
 ### Summary
 
 ```csharp
@@ -48,6 +66,11 @@ public void Transform(Vector2[] sourceArray, ref Matrix matrix, Vector2[] desti
 
 Transforms an array of Vector2s by a specified Matrix.
 
+### Parameters
+
+* [Vector2[]](VRageMath.Vector2[]) sourceArray
+* [Matrix](VRageMath.Matrix) matrix
+* [Vector2[]](VRageMath.Vector2[]) destinationArray
 ### Summary
 
 ```csharp
@@ -56,6 +79,14 @@ public void Transform(Vector2[] sourceArray, int sourceIndex, ref Matrix matrix
 
 Transforms a specified range in an array of Vector2s by a specified Matrix and places the results in a specified range in a destination array.
 
+### Parameters
+
+* [Vector2[]](VRageMath.Vector2[]) sourceArray
+* [int](System.Int32) sourceIndex
+* [Matrix](VRageMath.Matrix) matrix
+* [Vector2[]](VRageMath.Vector2[]) destinationArray
+* [int](System.Int32) destinationIndex
+* [int](System.Int32) length
 ### Summary
 
 ```csharp
@@ -64,6 +95,11 @@ public void Transform(Vector2[] sourceArray, ref Quaternion rotation, Vector2[]
 
 Transforms an array of Vector2s by a specified Quaternion.
 
+### Parameters
+
+* [Vector2[]](VRageMath.Vector2[]) sourceArray
+* [Quaternion](VRageMath.Quaternion) rotation
+* [Vector2[]](VRageMath.Vector2[]) destinationArray
 ### Summary
 
 ```csharp
@@ -72,3 +108,11 @@ public void Transform(Vector2[] sourceArray, int sourceIndex, ref Quaternion ro
 
 Transforms a specified range in an array of Vector2s by a specified Quaternion and places the results in a specified range in a destination array.
 
+### Parameters
+
+* [Vector2[]](VRageMath.Vector2[]) sourceArray
+* [int](System.Int32) sourceIndex
+* [Quaternion](VRageMath.Quaternion) rotation
+* [Vector2[]](VRageMath.Vector2[]) destinationArray
+* [int](System.Int32) destinationIndex
+* [int](System.Int32) length

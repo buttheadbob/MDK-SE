@@ -10,3 +10,6 @@ public bool OverlapsAnyLeafBoundingBox(ref BoundingBox bbox)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [BoundingBox](VRageMath.BoundingBox) bbox

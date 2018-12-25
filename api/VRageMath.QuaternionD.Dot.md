@@ -12,6 +12,10 @@ Calculates the dot product of two Quaternions.
 
 [double](System.Double)
 
+### Parameters
+
+* [QuaternionD](VRageMath.QuaternionD) quaternion1
+* [QuaternionD](VRageMath.QuaternionD) quaternion2
 ### Summary
 
 ```csharp
@@ -20,3 +24,8 @@ public void Dot(ref QuaternionD quaternion1, ref QuaternionD quaternion2, ref�
 
 Calculates the dot product of two Quaternions.
 
+### Parameters
+
+* [QuaternionD](VRageMath.QuaternionD) quaternion1
+* [QuaternionD](VRageMath.QuaternionD) quaternion2
+* [double](System.Double) result

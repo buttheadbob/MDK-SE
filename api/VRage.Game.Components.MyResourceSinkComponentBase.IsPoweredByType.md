@@ -10,3 +10,6 @@ public virtual bool IsPoweredByType(MyDefinitionId resourceTypeId)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [MyDefinitionId](VRage.Game.MyDefinitionId) resourceTypeId

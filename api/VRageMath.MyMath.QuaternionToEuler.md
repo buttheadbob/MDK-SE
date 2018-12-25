@@ -14,3 +14,6 @@ QuaternionToEuler
 
 Converted quaternion to the euler pitch, rot, yaw
 
+### Parameters
+
+* [Quaternion](VRageMath.Quaternion) Rotation

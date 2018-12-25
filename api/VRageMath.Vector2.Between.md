@@ -10,3 +10,7 @@ public bool Between(ref Vector2 start, ref Vector2 end)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Vector2](VRageMath.Vector2) start
+* [Vector2](VRageMath.Vector2) end

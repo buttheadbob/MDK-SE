@@ -10,3 +10,6 @@ public int CompareTo(Vector3L other)
 
 [int](System.Int32)
 
+### Parameters
+
+* [Vector3L](VRageMath.Vector3L) other

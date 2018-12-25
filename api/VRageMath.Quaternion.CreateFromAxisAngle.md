@@ -12,6 +12,10 @@ Creates a Quaternion from a vector and an angle to rotate about the vector.
 
 [Quaternion](VRageMath.Quaternion)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) axis
+* [float](System.Single) angle
 ### Summary
 
 ```csharp
@@ -20,3 +24,8 @@ public void CreateFromAxisAngle(ref Vector3 axis, float angle, ref Quaternion 
 
 Creates a Quaternion from a vector and an angle to rotate about the vector.
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) axis
+* [float](System.Single) angle
+* [Quaternion](VRageMath.Quaternion) result

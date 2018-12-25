@@ -10,3 +10,8 @@ public Matrix CreateLookAtInverse(Vector3 cameraPosition, Vector3 cameraTarget, 
 
 [Matrix](VRageMath.Matrix)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) cameraPosition
+* [Vector3](VRageMath.Vector3) cameraTarget
+* [Vector3](VRageMath.Vector3) cameraUpVector

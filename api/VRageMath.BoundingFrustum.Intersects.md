@@ -12,6 +12,9 @@ Checks whether the current BoundingFrustum intersects the specified BoundingBox.
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [BoundingBox](VRageMath.BoundingBox) box
 ### Summary
 
 ```csharp
@@ -20,6 +23,10 @@ public void Intersects(ref BoundingBox box, ref bool result)
 
 Checks whether the current BoundingFrustum intersects a BoundingBox.
 
+### Parameters
+
+* [BoundingBox](VRageMath.BoundingBox) box
+* [bool](System.Boolean) result
 ### Summary
 
 ```csharp
@@ -32,6 +39,9 @@ Checks whether the current BoundingFrustum intersects the specified BoundingFrus
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [BoundingFrustum](VRageMath.BoundingFrustum) frustum
 ### Summary
 
 ```csharp
@@ -44,6 +54,9 @@ Checks whether the current BoundingFrustum intersects the specified Plane.
 
 [PlaneIntersectionType](VRageMath.PlaneIntersectionType)
 
+### Parameters
+
+* [Plane](VRageMath.Plane) plane
 ### Summary
 
 ```csharp
@@ -52,6 +65,10 @@ public void Intersects(ref Plane plane, ref PlaneIntersectionType result)
 
 Checks whether the current BoundingFrustum intersects a Plane.
 
+### Parameters
+
+* [Plane](VRageMath.Plane) plane
+* [PlaneIntersectionType](VRageMath.PlaneIntersectionType) result
 ### Summary
 
 ```csharp
@@ -64,12 +81,19 @@ Checks whether the current BoundingFrustum intersects the specified Ray.
 
 [Nullable<T>](System.Nullable`1)
 
+### Parameters
+
+* [Ray](VRageMath.Ray) ray
 ### Summary
 
 ```csharp
 public void Intersects(ref Ray ray, ref Nullable<T> result)
 ```
 
+### Parameters
+
+* [Ray](VRageMath.Ray) ray
+* [Nullable<T>](System.Nullable`1) result
 ### Summary
 
 ```csharp
@@ -82,6 +106,9 @@ Checks whether the current BoundingFrustum intersects the specified BoundingSphe
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [BoundingSphere](VRageMath.BoundingSphere) sphere
 ### Summary
 
 ```csharp
@@ -90,3 +117,7 @@ public void Intersects(ref BoundingSphere sphere, ref bool result)
 
 Checks whether the current BoundingFrustum intersects a BoundingSphere.
 
+### Parameters
+
+* [BoundingSphere](VRageMath.BoundingSphere) sphere
+* [bool](System.Boolean) result

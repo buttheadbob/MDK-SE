@@ -10,3 +10,9 @@ public MatrixI CreateRotation(Direction oldA, Direction oldB, Direction newA, Di
 
 [MatrixI](VRageMath.MatrixI)
 
+### Parameters
+
+* [Direction](VRageMath.Base6Directions+Direction) oldA
+* [Direction](VRageMath.Base6Directions+Direction) oldB
+* [Direction](VRageMath.Base6Directions+Direction) newA
+* [Direction](VRageMath.Base6Directions+Direction) newB

@@ -3,11 +3,16 @@
 #### MyFixedPoint Struct
 
 ```csharp
-public struct MyFixedPoint: 
+public struct MyFixedPoint: ValueType, IXmlSerializable
 ```
 
 **Namespace:** [VRage](VRage)  
 **Assembly:** VRage.Library.dll
+
+**Inheritance: **[ValueType](System.ValueType)
+
+**Implements:**  
+* IXmlSerializable
 
 #### Example
 

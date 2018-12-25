@@ -10,3 +10,7 @@ public bool IsValidBlockOrientation(Direction forward, Direction up)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Direction](VRageMath.Base6Directions+Direction) forward
+* [Direction](VRageMath.Base6Directions+Direction) up

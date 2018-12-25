@@ -12,3 +12,6 @@ Checks whether the current BoundingBoxI intersects a BoundingSphere.
 
 [float](System.Single)
 
+### Parameters
+
+* [Vector3I](VRageMath.Vector3I) point

@@ -3,11 +3,16 @@
 #### MyWaypointInfo Struct
 
 ```csharp
-public struct MyWaypointInfo: 
+public struct MyWaypointInfo: ValueType, IEquatable<T>
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
+
+**Inheritance: **[ValueType](System.ValueType)
+
+**Implements:**  
+* [IEquatable<T>](System.IEquatable`1)
 
 #### Example
 

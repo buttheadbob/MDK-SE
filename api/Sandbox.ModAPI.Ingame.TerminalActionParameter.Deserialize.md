@@ -14,3 +14,7 @@ Creates a [TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParamete
 
 
 
+### Parameters
+
+* [string](System.String) serializedValue
+* TypeCode typeCode

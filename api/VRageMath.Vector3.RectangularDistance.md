@@ -12,6 +12,10 @@ Calculates rectangular distance (a.k.a. Manhattan distance or Chessboard distace
 
 [float](System.Single)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) value1
+* [Vector3](VRageMath.Vector3) value2
 ### Summary
 
 ```csharp
@@ -24,3 +28,7 @@ Calculates rectangular distance (a.k.a. Manhattan distance or Chessboard distace
 
 [float](System.Single)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) value1
+* [Vector3](VRageMath.Vector3) value2

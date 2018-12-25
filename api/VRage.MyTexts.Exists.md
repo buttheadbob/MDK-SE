@@ -10,3 +10,6 @@ public bool Exists(MyStringId id)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* MyStringId id

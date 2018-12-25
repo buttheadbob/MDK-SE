@@ -14,6 +14,9 @@ Compares this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) with anoth
 
 
 
+### Parameters
+
+* [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) other
 ### Summary
 
 ```csharp
@@ -28,3 +31,6 @@ Compares this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) with anoth
 
 
 
+### Parameters
+
+* [object](System.Object) obj

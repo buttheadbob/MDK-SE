@@ -10,3 +10,6 @@ public bool StartsWithCaseInsensitive(string what)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [string](System.String) what

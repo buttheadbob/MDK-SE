@@ -12,3 +12,7 @@ Works for normalized vectors only
 
 [Quaternion](VRageMath.Quaternion)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) forward
+* [Vector3](VRageMath.Vector3) up

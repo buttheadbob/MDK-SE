@@ -10,3 +10,7 @@ public bool Contains<T>(T[] array, T element)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* T[] array
+* T element

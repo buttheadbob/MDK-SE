@@ -10,3 +10,6 @@ public float DistanceSquared(Vector3 point)
 
 [float](System.Single)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) point

@@ -12,6 +12,10 @@ Returns the lesser of two values.
 
 [float](System.Single)
 
+### Parameters
+
+* [float](System.Single) value1
+* [float](System.Single) value2
 ### Summary
 
 ```csharp
@@ -24,6 +28,10 @@ Returns the lesser of two values.
 
 [double](System.Double)
 
+### Parameters
+
+* [double](System.Double) value1
+* [double](System.Double) value2
 ### Summary
 
 ```csharp
@@ -34,6 +42,11 @@ public float Min(float a, float b, float c)
 
 [float](System.Single)
 
+### Parameters
+
+* [float](System.Single) a
+* [float](System.Single) b
+* [float](System.Single) c
 ### Summary
 
 ```csharp
@@ -44,3 +57,8 @@ public double Min(double a, double b, double c)
 
 [double](System.Double)
 
+### Parameters
+
+* [double](System.Double) a
+* [double](System.Double) b
+* [double](System.Double) c

@@ -14,3 +14,6 @@ Attempts to get this value as a [System.Boolean](https://docs.microsoft.com/en-u
 
 `true`if the value could be understood as this data type;`false`otherwise
 
+### Parameters
+
+* [bool](System.Boolean) value

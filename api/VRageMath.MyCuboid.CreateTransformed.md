@@ -10,3 +10,6 @@ public MyCuboid CreateTransformed(ref Matrix worldMatrix)
 
 [MyCuboid](VRageMath.MyCuboid)
 
+### Parameters
+
+* [Matrix](VRageMath.Matrix) worldMatrix

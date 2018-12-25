@@ -12,3 +12,6 @@ Max resource output defined in definition in MW or litres/h.
 
 [float](System.Single)
 
+### Parameters
+
+* [MyDefinitionId](VRage.Game.MyDefinitionId) resourceTypeId

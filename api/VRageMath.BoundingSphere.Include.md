@@ -10,9 +10,16 @@ public BoundingSphere Include(BoundingSphere sphere)
 
 [BoundingSphere](VRageMath.BoundingSphere)
 
+### Parameters
+
+* [BoundingSphere](VRageMath.BoundingSphere) sphere
 ### Summary
 
 ```csharp
 public void Include(ref BoundingSphere sphere, ref BoundingSphere otherSphere)
 ```
 
+### Parameters
+
+* [BoundingSphere](VRageMath.BoundingSphere) sphere
+* [BoundingSphere](VRageMath.BoundingSphere) otherSphere

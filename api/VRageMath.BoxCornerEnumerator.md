@@ -3,11 +3,20 @@
 #### BoxCornerEnumerator Struct
 
 ```csharp
-public struct BoxCornerEnumerator: 
+public struct BoxCornerEnumerator: ValueType, IEnumerator<T>, IDisposable, IEnumerator, IEnumerable<T>, IEnumerable
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+**Inheritance: **[ValueType](System.ValueType)
+
+**Implements:**  
+* [IEnumerator<T>](System.Collections.Generic.IEnumerator`1)  
+* [IDisposable](System.IDisposable)  
+* [IEnumerator](System.Collections.IEnumerator)  
+* [IEnumerable<T>](System.Collections.Generic.IEnumerable`1)  
+* [IEnumerable](System.Collections.IEnumerable)
 
 #### Example
 

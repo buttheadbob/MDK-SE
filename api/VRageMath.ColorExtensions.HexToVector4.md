@@ -10,3 +10,6 @@ public Vector4 HexToVector4(string hex)
 
 [Vector4](VRageMath.Vector4)
 
+### Parameters
+
+* [string](System.String) hex

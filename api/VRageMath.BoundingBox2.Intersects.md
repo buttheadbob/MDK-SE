@@ -12,6 +12,9 @@ Checks whether the current BoundingBox2 intersects another BoundingBox2.
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [BoundingBox2](VRageMath.BoundingBox2) box
 ### Summary
 
 ```csharp
@@ -22,6 +25,9 @@ public bool Intersects(ref BoundingBox2 box)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [BoundingBox2](VRageMath.BoundingBox2) box
 ### Summary
 
 ```csharp
@@ -30,3 +36,7 @@ public void Intersects(ref BoundingBox2 box, ref bool result)
 
 Checks whether the current BoundingBox2 intersects another BoundingBox2.
 
+### Parameters
+
+* [BoundingBox2](VRageMath.BoundingBox2) box
+* [bool](System.Boolean) result

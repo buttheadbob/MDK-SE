@@ -10,3 +10,6 @@ public T FirstElement<T>(HashSet<T> hashset)
 
 [T]()
 
+### Parameters
+
+* [HashSet<T>](System.Collections.Generic.HashSet`1) hashset

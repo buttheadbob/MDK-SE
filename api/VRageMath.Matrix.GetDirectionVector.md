@@ -10,3 +10,6 @@ public Vector3 GetDirectionVector(Direction direction)
 
 [Vector3](VRageMath.Vector3)
 
+### Parameters
+
+* [Direction](VRageMath.Base6Directions+Direction) direction

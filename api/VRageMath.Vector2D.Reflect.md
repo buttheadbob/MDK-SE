@@ -12,6 +12,10 @@ Determines the reflect vector of the given vector and normal.
 
 [Vector2D](VRageMath.Vector2D)
 
+### Parameters
+
+* [Vector2D](VRageMath.Vector2D) vector
+* [Vector2D](VRageMath.Vector2D) normal
 ### Summary
 
 ```csharp
@@ -20,3 +24,8 @@ public void Reflect(ref Vector2D vector, ref Vector2D normal, ref Vector2D re
 
 Determines the reflect vector of the given vector and normal.
 
+### Parameters
+
+* [Vector2D](VRageMath.Vector2D) vector
+* [Vector2D](VRageMath.Vector2D) normal
+* [Vector2D](VRageMath.Vector2D) result

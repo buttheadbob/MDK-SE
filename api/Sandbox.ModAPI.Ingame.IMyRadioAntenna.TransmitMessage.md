@@ -12,3 +12,7 @@ Broadcasts a message to all PB attached to the antenna system. Broadcast is dela
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [string](System.String) message
+* [MyTransmitTarget](Sandbox.ModAPI.Ingame.MyTransmitTarget) target

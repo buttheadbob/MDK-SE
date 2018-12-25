@@ -10,3 +10,6 @@ public int IndexOfAny(Char[] chars)
 
 [int](System.Int32)
 
+### Parameters
+
+* Char[] chars

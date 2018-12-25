@@ -6,3 +6,6 @@
 public virtual void Init(MyComponentDefinitionBase definition)
 ```
 
+### Parameters
+
+* MyComponentDefinitionBase definition

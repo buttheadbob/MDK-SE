@@ -12,6 +12,12 @@ Builds a perspective projection matrix and returns the result by value.
 
 [MatrixD](VRageMath.MatrixD)
 
+### Parameters
+
+* [double](System.Double) width
+* [double](System.Double) height
+* [double](System.Double) nearPlaneDistance
+* [double](System.Double) farPlaneDistance
 ### Summary
 
 ```csharp
@@ -20,3 +26,10 @@ public void CreatePerspective(double width, double height, double nearPlaneDista
 
 Builds a perspective projection matrix and returns the result by reference.
 
+### Parameters
+
+* [double](System.Double) width
+* [double](System.Double) height
+* [double](System.Double) nearPlaneDistance
+* [double](System.Double) farPlaneDistance
+* [MatrixD](VRageMath.MatrixD) result

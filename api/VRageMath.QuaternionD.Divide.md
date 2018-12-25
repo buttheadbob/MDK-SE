@@ -12,6 +12,10 @@ Divides a QuaternionD by another QuaternionD.
 
 [QuaternionD](VRageMath.QuaternionD)
 
+### Parameters
+
+* [QuaternionD](VRageMath.QuaternionD) quaternion1
+* [QuaternionD](VRageMath.QuaternionD) quaternion2
 ### Summary
 
 ```csharp
@@ -20,3 +24,8 @@ public void Divide(ref QuaternionD quaternion1, ref QuaternionD quaternion2, r
 
 Divides a QuaternionD by another QuaternionD.
 
+### Parameters
+
+* [QuaternionD](VRageMath.QuaternionD) quaternion1
+* [QuaternionD](VRageMath.QuaternionD) quaternion2
+* [QuaternionD](VRageMath.QuaternionD) result

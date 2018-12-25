@@ -12,6 +12,9 @@ Tests whether the BoundingBox2D contains another BoundingBox2D.
 
 [ContainmentType](VRageMath.ContainmentType)
 
+### Parameters
+
+* [BoundingBox2D](VRageMath.BoundingBox2D) box
 ### Summary
 
 ```csharp
@@ -20,6 +23,10 @@ public void Contains(ref BoundingBox2D box, ref ContainmentType result)
 
 Tests whether the BoundingBox2D contains a BoundingBox2D.
 
+### Parameters
+
+* [BoundingBox2D](VRageMath.BoundingBox2D) box
+* [ContainmentType](VRageMath.ContainmentType) result
 ### Summary
 
 ```csharp
@@ -32,6 +39,9 @@ Tests whether the BoundingBox2D contains a point.
 
 [ContainmentType](VRageMath.ContainmentType)
 
+### Parameters
+
+* [Vector2D](VRageMath.Vector2D) point
 ### Summary
 
 ```csharp
@@ -40,3 +50,7 @@ public void Contains(ref Vector2D point, ref ContainmentType result)
 
 Tests whether the BoundingBox2D contains a point.
 
+### Parameters
+
+* [Vector2D](VRageMath.Vector2D) point
+* [ContainmentType](VRageMath.ContainmentType) result

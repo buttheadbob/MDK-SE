@@ -3,11 +3,16 @@
 #### Matrix Struct
 
 ```csharp
-public struct Matrix: 
+public struct Matrix: ValueType, IEquatable<T>
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+**Inheritance: **[ValueType](System.ValueType)
+
+**Implements:**  
+* [IEquatable<T>](System.IEquatable`1)
 
 #### Example
 

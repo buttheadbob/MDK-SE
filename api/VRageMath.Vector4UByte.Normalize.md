@@ -12,3 +12,7 @@ Normalizes Vector3 into Vector4UByte, scales vector from (-range, range) to (0, 
 
 [Vector4UByte](VRageMath.Vector4UByte)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) vec
+* [float](System.Single) range

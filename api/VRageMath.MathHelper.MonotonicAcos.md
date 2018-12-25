@@ -10,3 +10,6 @@ public float MonotonicAcos(float cos)
 
 [float](System.Single)
 
+### Parameters
+
+* [float](System.Single) cos

@@ -12,3 +12,7 @@ Manhattan distance (cube distance) X + Y + Z of Abs(first - second)
 
 [int](System.Int32)
 
+### Parameters
+
+* [Vector3I](VRageMath.Vector3I) first
+* [Vector3I](VRageMath.Vector3I) second

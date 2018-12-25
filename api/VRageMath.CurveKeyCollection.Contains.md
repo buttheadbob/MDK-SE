@@ -12,3 +12,6 @@ Determines whether the CurveKeyCollection contains a specific CurveKey.
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [CurveKey](VRageMath.CurveKey) item

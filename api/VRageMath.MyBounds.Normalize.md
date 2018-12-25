@@ -12,3 +12,6 @@ Normalize value inside the bounds so that 0 is Min and 1 is Max.
 
 [float](System.Single)
 
+### Parameters
+
+* [float](System.Single) value

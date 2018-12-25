@@ -10,6 +10,9 @@ public bool IsZero(Vector3D value)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) value
 ### Summary
 
 ```csharp
@@ -20,3 +23,7 @@ public bool IsZero(Vector3D value, double epsilon)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) value
+* [double](System.Double) epsilon

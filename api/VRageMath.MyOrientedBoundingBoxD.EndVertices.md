@@ -8,5 +8,5 @@ public Int32[] EndVertices
 
 ### Returns
 
-[Int32[]](System.Int32[])
+Int32[]
 

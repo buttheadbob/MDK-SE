@@ -12,6 +12,10 @@ Transforms a Vector2 by the given Matrix.
 
 [Vector4D](VRageMath.Vector4D)
 
+### Parameters
+
+* [Vector2](VRageMath.Vector2) position
+* [MatrixD](VRageMath.MatrixD) matrix
 ### Summary
 
 ```csharp
@@ -20,6 +24,11 @@ public void Transform(ref Vector2 position, ref MatrixD matrix, ref Vector4D 
 
 Transforms a Vector2 by the given Matrix.
 
+### Parameters
+
+* [Vector2](VRageMath.Vector2) position
+* [MatrixD](VRageMath.MatrixD) matrix
+* [Vector4D](VRageMath.Vector4D) result
 ### Summary
 
 ```csharp
@@ -32,6 +41,10 @@ Transforms a Vector3 by the given Matrix.
 
 [Vector4D](VRageMath.Vector4D)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) position
+* [MatrixD](VRageMath.MatrixD) matrix
 ### Summary
 
 ```csharp
@@ -40,6 +53,11 @@ public void Transform(ref Vector3D position, ref MatrixD matrix, ref Vector4D
 
 Transforms a Vector3 by the given Matrix.
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) position
+* [MatrixD](VRageMath.MatrixD) matrix
+* [Vector4D](VRageMath.Vector4D) result
 ### Summary
 
 ```csharp
@@ -52,6 +70,10 @@ Transforms a Vector4 by the specified Matrix.
 
 [Vector4D](VRageMath.Vector4D)
 
+### Parameters
+
+* [Vector4D](VRageMath.Vector4D) vector
+* [MatrixD](VRageMath.MatrixD) matrix
 ### Summary
 
 ```csharp
@@ -60,6 +82,11 @@ public void Transform(ref Vector4D vector, ref MatrixD matrix, ref Vector4D r
 
 Transforms a Vector4 by the given Matrix.
 
+### Parameters
+
+* [Vector4D](VRageMath.Vector4D) vector
+* [MatrixD](VRageMath.MatrixD) matrix
+* [Vector4D](VRageMath.Vector4D) result
 ### Summary
 
 ```csharp
@@ -72,6 +99,10 @@ Transforms a Vector2 by a specified Quaternion into a Vector4.
 
 [Vector4D](VRageMath.Vector4D)
 
+### Parameters
+
+* [Vector2](VRageMath.Vector2) value
+* [Quaternion](VRageMath.Quaternion) rotation
 ### Summary
 
 ```csharp
@@ -80,6 +111,11 @@ public void Transform(ref Vector2 value, ref Quaternion rotation, ref Vector4
 
 Transforms a Vector2 by a specified Quaternion into a Vector4.
 
+### Parameters
+
+* [Vector2](VRageMath.Vector2) value
+* [Quaternion](VRageMath.Quaternion) rotation
+* [Vector4D](VRageMath.Vector4D) result
 ### Summary
 
 ```csharp
@@ -92,6 +128,10 @@ Transforms a Vector3 by a specified Quaternion into a Vector4.
 
 [Vector4D](VRageMath.Vector4D)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) value
+* [Quaternion](VRageMath.Quaternion) rotation
 ### Summary
 
 ```csharp
@@ -100,6 +140,11 @@ public void Transform(ref Vector3D value, ref Quaternion rotation, ref Vector
 
 Transforms a Vector3 by a specified Quaternion into a Vector4.
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) value
+* [Quaternion](VRageMath.Quaternion) rotation
+* [Vector4D](VRageMath.Vector4D) result
 ### Summary
 
 ```csharp
@@ -112,6 +157,10 @@ Transforms a Vector4 by a specified Quaternion.
 
 [Vector4D](VRageMath.Vector4D)
 
+### Parameters
+
+* [Vector4D](VRageMath.Vector4D) value
+* [Quaternion](VRageMath.Quaternion) rotation
 ### Summary
 
 ```csharp
@@ -120,6 +169,11 @@ public void Transform(ref Vector4D value, ref Quaternion rotation, ref Vector
 
 Transforms a Vector4 by a specified Quaternion.
 
+### Parameters
+
+* [Vector4D](VRageMath.Vector4D) value
+* [Quaternion](VRageMath.Quaternion) rotation
+* [Vector4D](VRageMath.Vector4D) result
 ### Summary
 
 ```csharp
@@ -128,6 +182,11 @@ public void Transform(Vector4D[] sourceArray, ref MatrixD matrix, Vector4D[] de
 
 Transforms an array of Vector4s by a specified Matrix.
 
+### Parameters
+
+* [Vector4D[]](VRageMath.Vector4D[]) sourceArray
+* [MatrixD](VRageMath.MatrixD) matrix
+* [Vector4D[]](VRageMath.Vector4D[]) destinationArray
 ### Summary
 
 ```csharp
@@ -136,6 +195,14 @@ public void Transform(Vector4D[] sourceArray, int sourceIndex, ref MatrixD matr
 
 Transforms a specified range in an array of Vector4s by a specified Matrix into a specified range in a destination array.
 
+### Parameters
+
+* [Vector4D[]](VRageMath.Vector4D[]) sourceArray
+* [int](System.Int32) sourceIndex
+* [MatrixD](VRageMath.MatrixD) matrix
+* [Vector4D[]](VRageMath.Vector4D[]) destinationArray
+* [int](System.Int32) destinationIndex
+* [int](System.Int32) length
 ### Summary
 
 ```csharp
@@ -144,6 +211,11 @@ public void Transform(Vector4D[] sourceArray, ref Quaternion rotation, Vector4D
 
 Transforms an array of Vector4s by a specified Quaternion.
 
+### Parameters
+
+* [Vector4D[]](VRageMath.Vector4D[]) sourceArray
+* [Quaternion](VRageMath.Quaternion) rotation
+* [Vector4D[]](VRageMath.Vector4D[]) destinationArray
 ### Summary
 
 ```csharp
@@ -152,3 +224,11 @@ public void Transform(Vector4D[] sourceArray, int sourceIndex, ref Quaternion r
 
 Transforms a specified range in an array of Vector4s by a specified Quaternion into a specified range in a destination array.
 
+### Parameters
+
+* [Vector4D[]](VRageMath.Vector4D[]) sourceArray
+* [int](System.Int32) sourceIndex
+* [Quaternion](VRageMath.Quaternion) rotation
+* [Vector4D[]](VRageMath.Vector4D[]) destinationArray
+* [int](System.Int32) destinationIndex
+* [int](System.Int32) length

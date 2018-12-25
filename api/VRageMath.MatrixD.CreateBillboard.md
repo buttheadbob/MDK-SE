@@ -10,9 +10,22 @@ public MatrixD CreateBillboard(Vector3D objectPosition, Vector3D cameraPosition,
 
 [MatrixD](VRageMath.MatrixD)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) objectPosition
+* [Vector3D](VRageMath.Vector3D) cameraPosition
+* [Vector3D](VRageMath.Vector3D) cameraUpVector
+* [Nullable<T>](System.Nullable`1) cameraForwardVector
 ### Summary
 
 ```csharp
 public void CreateBillboard(ref Vector3D objectPosition, ref Vector3D cameraPosition, ref Vector3D cameraUpVector, Nullable<T> cameraForwardVector, ref MatrixD result)
 ```
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) objectPosition
+* [Vector3D](VRageMath.Vector3D) cameraPosition
+* [Vector3D](VRageMath.Vector3D) cameraUpVector
+* [Nullable<T>](System.Nullable`1) cameraForwardVector
+* [MatrixD](VRageMath.MatrixD) result

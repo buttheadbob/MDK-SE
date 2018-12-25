@@ -20,6 +20,9 @@ Divides each component of the quaternion by the length of the quaternion.
 
 [QuaternionD](VRageMath.QuaternionD)
 
+### Parameters
+
+* [QuaternionD](VRageMath.QuaternionD) quaternion
 ### Summary
 
 ```csharp
@@ -28,3 +31,7 @@ public void Normalize(ref QuaternionD quaternion, ref QuaternionD result)
 
 Divides each component of the quaternion by the length of the quaternion.
 
+### Parameters
+
+* [QuaternionD](VRageMath.QuaternionD) quaternion
+* [QuaternionD](VRageMath.QuaternionD) result

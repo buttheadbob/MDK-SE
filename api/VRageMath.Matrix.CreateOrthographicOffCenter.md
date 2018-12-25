@@ -12,6 +12,14 @@ Builds a customized, orthogonal projection matrix.
 
 [Matrix](VRageMath.Matrix)
 
+### Parameters
+
+* [float](System.Single) left
+* [float](System.Single) right
+* [float](System.Single) bottom
+* [float](System.Single) top
+* [float](System.Single) zNearPlane
+* [float](System.Single) zFarPlane
 ### Summary
 
 ```csharp
@@ -20,3 +28,12 @@ public void CreateOrthographicOffCenter(float left, float right, float bottom, f
 
 Builds a customized, orthogonal projection matrix.
 
+### Parameters
+
+* [float](System.Single) left
+* [float](System.Single) right
+* [float](System.Single) bottom
+* [float](System.Single) top
+* [float](System.Single) zNearPlane
+* [float](System.Single) zFarPlane
+* [Matrix](VRageMath.Matrix) result

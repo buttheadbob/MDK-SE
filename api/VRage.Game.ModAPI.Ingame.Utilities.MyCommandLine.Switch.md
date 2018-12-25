@@ -14,6 +14,9 @@ Determines whether the given switch is set. Switches are specified without their
 
 
 
+### Parameters
+
+* [string](System.String) name
 ### Summary
 
 ```csharp
@@ -28,3 +31,7 @@ Gets an argument of a switch. For example, using`Switch("key", 0)`on the command
 
 
 
+### Parameters
+
+* [string](System.String) name
+* [int](System.Int32) relativeArgument

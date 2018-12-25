@@ -14,3 +14,6 @@ Translate
 
 
 
+### Parameters
+
+* [Vector2](VRageMath.Vector2) vctTranlsation

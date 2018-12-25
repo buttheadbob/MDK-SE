@@ -12,6 +12,10 @@ Adds a matrix to another matrix.
 
 [Matrix](VRageMath.Matrix)
 
+### Parameters
+
+* [Matrix](VRageMath.Matrix) matrix1
+* [Matrix](VRageMath.Matrix) matrix2
 ### Summary
 
 ```csharp
@@ -20,3 +24,8 @@ public void Add(ref Matrix matrix1, ref Matrix matrix2, ref Matrix result)
 
 Adds a matrix to another matrix.
 
+### Parameters
+
+* [Matrix](VRageMath.Matrix) matrix1
+* [Matrix](VRageMath.Matrix) matrix2
+* [Matrix](VRageMath.Matrix) result

@@ -12,6 +12,10 @@ Adds two vectors.
 
 [Vector4D](VRageMath.Vector4D)
 
+### Parameters
+
+* [Vector4D](VRageMath.Vector4D) value1
+* [Vector4D](VRageMath.Vector4D) value2
 ### Summary
 
 ```csharp
@@ -20,3 +24,8 @@ public void Add(ref Vector4D value1, ref Vector4D value2, ref Vector4D result
 
 Adds two vectors.
 
+### Parameters
+
+* [Vector4D](VRageMath.Vector4D) value1
+* [Vector4D](VRageMath.Vector4D) value2
+* [Vector4D](VRageMath.Vector4D) result

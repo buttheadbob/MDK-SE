@@ -3,11 +3,13 @@
 #### Curve Class
 
 ```csharp
-public class Curve: 
+public class Curve: object
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+**Inheritance: **[object](System.Object)
 
 #### Example
 

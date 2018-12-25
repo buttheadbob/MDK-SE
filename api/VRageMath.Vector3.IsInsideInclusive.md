@@ -10,3 +10,7 @@ public bool IsInsideInclusive(ref Vector3 min, ref Vector3 max)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) min
+* [Vector3](VRageMath.Vector3) max

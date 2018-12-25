@@ -10,3 +10,7 @@ public MyBlockOrientation Transform(ref MyBlockOrientation orientation, ref Ma
 
 [MyBlockOrientation](VRageMath.MyBlockOrientation)
 
+### Parameters
+
+* [MyBlockOrientation](VRageMath.MyBlockOrientation) orientation
+* [MatrixI](VRageMath.MatrixI) transform

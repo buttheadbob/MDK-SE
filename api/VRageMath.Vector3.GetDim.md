@@ -10,3 +10,6 @@ public float GetDim(int i)
 
 [float](System.Single)
 
+### Parameters
+
+* [int](System.Int32) i

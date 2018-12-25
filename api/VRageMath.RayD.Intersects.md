@@ -12,12 +12,19 @@ Checks whether the Ray intersects a specified BoundingBox.
 
 [Nullable<T>](System.Nullable`1)
 
+### Parameters
+
+* [BoundingBoxD](VRageMath.BoundingBoxD) box
 ### Summary
 
 ```csharp
 public void Intersects(ref BoundingBoxD box, ref Nullable<T> result)
 ```
 
+### Parameters
+
+* [BoundingBoxD](VRageMath.BoundingBoxD) box
+* [Nullable<T>](System.Nullable`1) result
 ### Summary
 
 ```csharp
@@ -30,6 +37,9 @@ Checks whether the Ray intersects a specified BoundingFrustum.
 
 [Nullable<T>](System.Nullable`1)
 
+### Parameters
+
+* [BoundingFrustumD](VRageMath.BoundingFrustumD) frustum
 ### Summary
 
 ```csharp
@@ -42,12 +52,19 @@ Determines whether this Ray intersects a specified Plane.
 
 [Nullable<T>](System.Nullable`1)
 
+### Parameters
+
+* [PlaneD](VRageMath.PlaneD) plane
 ### Summary
 
 ```csharp
 public void Intersects(ref PlaneD plane, ref Nullable<T> result)
 ```
 
+### Parameters
+
+* [PlaneD](VRageMath.PlaneD) plane
+* [Nullable<T>](System.Nullable`1) result
 ### Summary
 
 ```csharp
@@ -60,9 +77,16 @@ Checks whether the Ray intersects a specified BoundingSphere.
 
 [Nullable<T>](System.Nullable`1)
 
+### Parameters
+
+* [BoundingSphereD](VRageMath.BoundingSphereD) sphere
 ### Summary
 
 ```csharp
 public void Intersects(ref BoundingSphere sphere, ref Nullable<T> result)
 ```
 
+### Parameters
+
+* [BoundingSphere](VRageMath.BoundingSphere) sphere
+* [Nullable<T>](System.Nullable`1) result

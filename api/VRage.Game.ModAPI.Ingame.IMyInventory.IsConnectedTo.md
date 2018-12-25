@@ -10,3 +10,6 @@ public bool IsConnectedTo(IMyInventory dst)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [IMyInventory](VRage.Game.ModAPI.Ingame.IMyInventory) dst

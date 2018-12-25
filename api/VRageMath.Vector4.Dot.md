@@ -12,6 +12,10 @@ Calculates the dot product of two vectors.
 
 [float](System.Single)
 
+### Parameters
+
+* [Vector4](VRageMath.Vector4) vector1
+* [Vector4](VRageMath.Vector4) vector2
 ### Summary
 
 ```csharp
@@ -20,3 +24,8 @@ public void Dot(ref Vector4 vector1, ref Vector4 vector2, ref float result)
 
 Calculates the dot product of two vectors.
 
+### Parameters
+
+* [Vector4](VRageMath.Vector4) vector1
+* [Vector4](VRageMath.Vector4) vector2
+* [float](System.Single) result

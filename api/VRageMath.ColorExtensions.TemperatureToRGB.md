@@ -10,3 +10,6 @@ public Vector3 TemperatureToRGB(float temperature)
 
 [Vector3](VRageMath.Vector3)
 
+### Parameters
+
+* [float](System.Single) temperature

@@ -6,3 +6,7 @@
 public void ReadPublicText(StringBuilder buffer, bool append)
 ```
 
+### Parameters
+
+* [StringBuilder](System.Text.StringBuilder) buffer
+* [bool](System.Boolean) append

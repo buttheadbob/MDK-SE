@@ -14,6 +14,9 @@ Faster Atan implementation. Good only in the [-pi/2, pi/2] range.
 
 
 
+### Parameters
+
+* [float](System.Single) x
 ### Summary
 
 ```csharp
@@ -28,3 +31,6 @@ Faster Atan implementation. Good only in the [-pi/2, pi/2] range.
 
 
 
+### Parameters
+
+* [double](System.Double) x

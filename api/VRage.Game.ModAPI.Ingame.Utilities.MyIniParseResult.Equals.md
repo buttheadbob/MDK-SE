@@ -14,6 +14,9 @@ Compares this [MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseRe
 
 
 
+### Parameters
+
+* [MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult) other
 ### Summary
 
 ```csharp
@@ -28,3 +31,6 @@ Compares this [MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseRe
 
 
 
+### Parameters
+
+* [object](System.Object) obj

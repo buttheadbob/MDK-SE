@@ -6,3 +6,7 @@
 public void Add(T userData, bool contained)
 ```
 
+### Parameters
+
+* [T]() userData
+* [bool](System.Boolean) contained

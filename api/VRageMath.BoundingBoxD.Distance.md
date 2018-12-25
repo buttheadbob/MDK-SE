@@ -10,3 +10,6 @@ public double Distance(Vector3D point)
 
 [double](System.Double)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) point

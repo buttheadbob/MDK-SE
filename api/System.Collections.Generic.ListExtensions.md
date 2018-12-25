@@ -3,11 +3,13 @@
 #### ListExtensions Class
 
 ```csharp
-public abstract sealed class ListExtensions: 
+public abstract sealed class ListExtensions: object
 ```
 
 **Namespace:** [System.Collections.Generic](System.Collections.Generic)  
 **Assembly:** VRage.Library.dll
+
+**Inheritance: **[object](System.Object)
 
 #### Example
 

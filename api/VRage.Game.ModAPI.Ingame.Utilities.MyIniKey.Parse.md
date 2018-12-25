@@ -14,3 +14,6 @@ Parses a string in the form of`section/key`into a [MyIniKey](VRage.Game.ModAPI.I
 
 
 
+### Parameters
+
+* [string](System.String) input

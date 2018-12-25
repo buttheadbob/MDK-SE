@@ -10,3 +10,6 @@ public Vector3 Abs(ref Vector3 vector)
 
 [Vector3](VRageMath.Vector3)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) vector

@@ -6,3 +6,7 @@
 public void GetAxisAngle(ref Vector3D axis, ref double angle)
 ```
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) axis
+* [double](System.Double) angle

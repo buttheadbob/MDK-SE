@@ -10,3 +10,6 @@ public BoundingBox CreateFromInsideRadius(float radius)
 
 [BoundingBox](VRageMath.BoundingBox)
 
+### Parameters
+
+* [float](System.Single) radius

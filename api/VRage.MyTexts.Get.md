@@ -10,3 +10,6 @@ public StringBuilder Get(MyStringId id)
 
 [StringBuilder](System.Text.StringBuilder)
 
+### Parameters
+
+* MyStringId id

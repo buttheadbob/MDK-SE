@@ -14,3 +14,6 @@ Attempts to get this value as a [System.Double](https://docs.microsoft.com/en-us
 
 
 
+### Parameters
+
+* [double](System.Double) defaultValue

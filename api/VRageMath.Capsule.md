@@ -3,11 +3,13 @@
 #### Capsule Struct
 
 ```csharp
-public struct Capsule: 
+public struct Capsule: ValueType
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+**Inheritance: **[ValueType](System.ValueType)
 
 #### Example
 

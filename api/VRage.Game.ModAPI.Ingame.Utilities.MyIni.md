@@ -3,11 +3,13 @@
 #### MyIni Class
 
 ```csharp
-public class MyIni: 
+public class MyIni: object
 ```
 
 **Namespace:** [VRage.Game.ModAPI.Ingame.Utilities](VRage.Game.ModAPI.Ingame.Utilities)  
 **Assembly:** VRage.Game.dll
+
+**Inheritance: **[object](System.Object)
 
 #### Example
 

@@ -3,11 +3,13 @@
 #### DynamicTreeNode Class
 
 ```csharp
-private class DynamicTreeNode: 
+private class DynamicTreeNode: object
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+**Inheritance: **[object](System.Object)
 
 #### Example
 

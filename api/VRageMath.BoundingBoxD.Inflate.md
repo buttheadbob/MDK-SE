@@ -10,6 +10,9 @@ public BoundingBoxD Inflate(double size)
 
 [BoundingBoxD](VRageMath.BoundingBoxD)
 
+### Parameters
+
+* [double](System.Double) size
 ### Summary
 
 ```csharp
@@ -20,3 +23,6 @@ public BoundingBoxD Inflate(Vector3 size)
 
 [BoundingBoxD](VRageMath.BoundingBoxD)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) size

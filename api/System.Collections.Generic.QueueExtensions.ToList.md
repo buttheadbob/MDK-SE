@@ -10,3 +10,6 @@ public List<T> ToList<T>(ConcurrentQueue<T> queue)
 
 [List<T>](System.Collections.Generic.List`1)
 
+### Parameters
+
+* [ConcurrentQueue<T>](System.Collections.Concurrent.ConcurrentQueue`1) queue

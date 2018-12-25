@@ -6,3 +6,7 @@
 public void RemoveImageFromSelection(string id, bool removeDuplicates)
 ```
 
+### Parameters
+
+* [string](System.String) id
+* [bool](System.Boolean) removeDuplicates

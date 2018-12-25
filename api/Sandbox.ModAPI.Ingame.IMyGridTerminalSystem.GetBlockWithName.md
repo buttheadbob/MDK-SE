@@ -10,3 +10,6 @@ public IMyTerminalBlock GetBlockWithName(string name)
 
 [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 
+### Parameters
+
+* [string](System.String) name

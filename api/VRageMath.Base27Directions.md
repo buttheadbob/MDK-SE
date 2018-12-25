@@ -3,11 +3,13 @@
 #### Base27Directions Class
 
 ```csharp
-public class Base27Directions: 
+public class Base27Directions: object
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+**Inheritance: **[object](System.Object)
 
 #### Example
 

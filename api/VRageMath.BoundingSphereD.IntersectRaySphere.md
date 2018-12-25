@@ -10,3 +10,8 @@ public bool IntersectRaySphere(RayD ray, ref double tmin, ref double tmax)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [RayD](VRageMath.RayD) ray
+* [double](System.Double) tmin
+* [double](System.Double) tmax

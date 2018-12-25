@@ -10,3 +10,6 @@ public int GetInventoryCount(IMyTerminalBlock block)
 
 [int](System.Int32)
 
+### Parameters
+
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock) block

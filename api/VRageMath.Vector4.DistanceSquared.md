@@ -12,6 +12,10 @@ Calculates the distance between two vectors squared.
 
 [float](System.Single)
 
+### Parameters
+
+* [Vector4](VRageMath.Vector4) value1
+* [Vector4](VRageMath.Vector4) value2
 ### Summary
 
 ```csharp
@@ -20,3 +24,8 @@ public void DistanceSquared(ref Vector4 value1, ref Vector4 value2, ref float
 
 Calculates the distance between two vectors squared.
 
+### Parameters
+
+* [Vector4](VRageMath.Vector4) value1
+* [Vector4](VRageMath.Vector4) value2
+* [float](System.Single) result

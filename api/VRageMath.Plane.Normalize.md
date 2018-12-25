@@ -20,6 +20,9 @@ Changes the coefficients of the Normal vector of a Plane to make it of unit leng
 
 [Plane](VRageMath.Plane)
 
+### Parameters
+
+* [Plane](VRageMath.Plane) value
 ### Summary
 
 ```csharp
@@ -28,3 +31,7 @@ public void Normalize(ref Plane value, ref Plane result)
 
 Changes the coefficients of the Normal vector of a Plane to make it of unit length.
 
+### Parameters
+
+* [Plane](VRageMath.Plane) value
+* [Plane](VRageMath.Plane) result

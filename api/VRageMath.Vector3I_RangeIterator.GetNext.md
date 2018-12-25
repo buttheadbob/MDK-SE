@@ -6,3 +6,6 @@
 public void GetNext(ref Vector3I next)
 ```
 
+### Parameters
+
+* [Vector3I](VRageMath.Vector3I) next

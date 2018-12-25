@@ -10,9 +10,22 @@ public Matrix CreateBillboard(Vector3 objectPosition, Vector3 cameraPosition, Ve
 
 [Matrix](VRageMath.Matrix)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) objectPosition
+* [Vector3](VRageMath.Vector3) cameraPosition
+* [Vector3](VRageMath.Vector3) cameraUpVector
+* [Nullable<T>](System.Nullable`1) cameraForwardVector
 ### Summary
 
 ```csharp
 public void CreateBillboard(ref Vector3 objectPosition, ref Vector3 cameraPosition, ref Vector3 cameraUpVector, Nullable<T> cameraForwardVector, ref Matrix result)
 ```
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) objectPosition
+* [Vector3](VRageMath.Vector3) cameraPosition
+* [Vector3](VRageMath.Vector3) cameraUpVector
+* [Nullable<T>](System.Nullable`1) cameraForwardVector
+* [Matrix](VRageMath.Matrix) result

@@ -10,3 +10,9 @@ public double DistanceToTangentProjected(ref Vector3D center, ref Vector3D poi
 
 [double](System.Double)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) center
+* [Vector3D](VRageMath.Vector3D) point
+* [double](System.Double) radius
+* [double](System.Double) distance

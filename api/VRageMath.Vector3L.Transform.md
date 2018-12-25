@@ -8,12 +8,22 @@ public void Transform(ref Vector3L position, ref Matrix matrix, ref Vector3L 
 
 Transforms a Vector3L by the given Matrix.
 
+### Parameters
+
+* [Vector3L](VRageMath.Vector3L) position
+* [Matrix](VRageMath.Matrix) matrix
+* [Vector3L](VRageMath.Vector3L) result
 ### Summary
 
 ```csharp
 public void Transform(ref Vector3L value, ref Quaternion rotation, ref Vector3L result)
 ```
 
+### Parameters
+
+* [Vector3L](VRageMath.Vector3L) value
+* [Quaternion](VRageMath.Quaternion) rotation
+* [Vector3L](VRageMath.Vector3L) result
 ### Summary
 
 ```csharp
@@ -24,3 +34,7 @@ public Vector3L Transform(Vector3L value, Quaternion rotation)
 
 [Vector3L](VRageMath.Vector3L)
 
+### Parameters
+
+* [Vector3L](VRageMath.Vector3L) value
+* [Quaternion](VRageMath.Quaternion) rotation

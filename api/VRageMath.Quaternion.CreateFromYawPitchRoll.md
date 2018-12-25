@@ -12,6 +12,11 @@ Creates a new Quaternion from specified yaw, pitch, and roll angles.
 
 [Quaternion](VRageMath.Quaternion)
 
+### Parameters
+
+* [float](System.Single) yaw
+* [float](System.Single) pitch
+* [float](System.Single) roll
 ### Summary
 
 ```csharp
@@ -20,3 +25,9 @@ public void CreateFromYawPitchRoll(float yaw, float pitch, float roll, ref Quat
 
 Creates a new Quaternion from specified yaw, pitch, and roll angles.
 
+### Parameters
+
+* [float](System.Single) yaw
+* [float](System.Single) pitch
+* [float](System.Single) roll
+* [Quaternion](VRageMath.Quaternion) result

@@ -10,3 +10,6 @@ public TValue Pop<TValue>(List<T> self)
 
 [TValue]()
 
+### Parameters
+
+* [List<T>](System.Collections.Generic.List`1) self

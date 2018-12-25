@@ -12,3 +12,7 @@ Compares just position, forward and up
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [MatrixD](VRageMath.MatrixD) other
+* [double](System.Double) epsilon

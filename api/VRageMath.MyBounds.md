@@ -3,11 +3,13 @@
 #### MyBounds Struct
 
 ```csharp
-public struct MyBounds: 
+public struct MyBounds: ValueType
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+**Inheritance: **[ValueType](System.ValueType)
 
 #### Example
 

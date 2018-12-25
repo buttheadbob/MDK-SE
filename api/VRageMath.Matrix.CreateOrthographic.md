@@ -12,6 +12,12 @@ Builds an orthogonal projection matrix.
 
 [Matrix](VRageMath.Matrix)
 
+### Parameters
+
+* [float](System.Single) width
+* [float](System.Single) height
+* [float](System.Single) zNearPlane
+* [float](System.Single) zFarPlane
 ### Summary
 
 ```csharp
@@ -20,3 +26,10 @@ public void CreateOrthographic(float width, float height, float zNearPlane, floa
 
 Builds an orthogonal projection matrix.
 
+### Parameters
+
+* [float](System.Single) width
+* [float](System.Single) height
+* [float](System.Single) zNearPlane
+* [float](System.Single) zFarPlane
+* [Matrix](VRageMath.Matrix) result

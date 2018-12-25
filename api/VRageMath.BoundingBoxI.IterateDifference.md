@@ -14,3 +14,7 @@ Iterate every cell contained in {left} - {right}, where we interpret {box} as th
 
 
 
+### Parameters
+
+* [BoundingBoxI](VRageMath.BoundingBoxI) left
+* [BoundingBoxI](VRageMath.BoundingBoxI) right

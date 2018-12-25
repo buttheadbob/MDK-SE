@@ -10,3 +10,6 @@ public IMyInventoryItem GetItemByID(uint id)
 
 [IMyInventoryItem](VRage.Game.ModAPI.Ingame.IMyInventoryItem)
 
+### Parameters
+
+* [uint](System.UInt32) id

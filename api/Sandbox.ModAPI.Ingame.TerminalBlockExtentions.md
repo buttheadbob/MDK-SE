@@ -3,11 +3,13 @@
 #### TerminalBlockExtentions Class
 
 ```csharp
-public abstract sealed class TerminalBlockExtentions: 
+public abstract sealed class TerminalBlockExtentions: object
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
+
+**Inheritance: **[object](System.Object)
 
 #### Example
 

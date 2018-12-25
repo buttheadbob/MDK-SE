@@ -10,6 +10,9 @@ public virtual bool Equals(object obj)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [object](System.Object) obj
 ### Summary
 
 ```csharp
@@ -20,3 +23,6 @@ public bool Equals(MyDefinitionId other)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [MyDefinitionId](VRage.Game.MyDefinitionId) other

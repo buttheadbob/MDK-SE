@@ -12,3 +12,6 @@ Removes the first occurrence of a specific CurveKey from the CurveKeyCollection.
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [CurveKey](VRageMath.CurveKey) item

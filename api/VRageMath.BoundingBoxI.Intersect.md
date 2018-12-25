@@ -12,3 +12,6 @@ Returns bounding box which is intersection of this and box It's called 'Prunik' 
 
 [BoundingBoxI](VRageMath.BoundingBoxI)
 
+### Parameters
+
+* [BoundingBoxI](VRageMath.BoundingBoxI) box

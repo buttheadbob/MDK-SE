@@ -3,11 +3,17 @@
 #### ListReader&lt;T&gt; Struct
 
 ```csharp
-public struct ListReader<T>: 
+public struct ListReader<T>: ValueType, IEnumerable<T>, IEnumerable
 ```
 
 **Namespace:** [VRage.Collections](VRage.Collections)  
 **Assembly:** VRage.Library.dll
+
+**Inheritance: **[ValueType](System.ValueType)
+
+**Implements:**  
+* [IEnumerable<T>](System.Collections.Generic.IEnumerable`1)  
+* [IEnumerable](System.Collections.IEnumerable)
 
 #### Example
 

@@ -6,3 +6,7 @@
 public void GetCorners(Vector3D[] corners, int startIndex)
 ```
 
+### Parameters
+
+* [Vector3D[]](VRageMath.Vector3D[]) corners
+* [int](System.Int32) startIndex

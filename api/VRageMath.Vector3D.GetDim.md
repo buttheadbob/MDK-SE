@@ -10,3 +10,6 @@ public double GetDim(int i)
 
 [double](System.Double)
 
+### Parameters
+
+* [int](System.Int32) i

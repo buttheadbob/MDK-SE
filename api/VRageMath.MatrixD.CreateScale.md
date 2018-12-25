@@ -12,6 +12,11 @@ Creates a scaling Matrix.
 
 [MatrixD](VRageMath.MatrixD)
 
+### Parameters
+
+* [double](System.Double) xScale
+* [double](System.Double) yScale
+* [double](System.Double) zScale
 ### Summary
 
 ```csharp
@@ -20,6 +25,12 @@ public void CreateScale(double xScale, double yScale, double zScale, ref Matrix
 
 Creates a scaling Matrix.
 
+### Parameters
+
+* [double](System.Double) xScale
+* [double](System.Double) yScale
+* [double](System.Double) zScale
+* [MatrixD](VRageMath.MatrixD) result
 ### Summary
 
 ```csharp
@@ -32,6 +43,9 @@ Creates a scaling Matrix.
 
 [MatrixD](VRageMath.MatrixD)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) scales
 ### Summary
 
 ```csharp
@@ -40,6 +54,10 @@ public void CreateScale(ref Vector3D scales, ref MatrixD result)
 
 Creates a scaling Matrix.
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) scales
+* [MatrixD](VRageMath.MatrixD) result
 ### Summary
 
 ```csharp
@@ -52,6 +70,9 @@ Creates a scaling Matrix.
 
 [MatrixD](VRageMath.MatrixD)
 
+### Parameters
+
+* [double](System.Double) scale
 ### Summary
 
 ```csharp
@@ -60,3 +81,7 @@ public void CreateScale(double scale, ref MatrixD result)
 
 Creates a scaling Matrix.
 
+### Parameters
+
+* [double](System.Double) scale
+* [MatrixD](VRageMath.MatrixD) result

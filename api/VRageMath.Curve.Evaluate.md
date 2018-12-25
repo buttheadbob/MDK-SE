@@ -12,3 +12,6 @@ Finds the value at a position on the Curve.
 
 [float](System.Single)
 
+### Parameters
+
+* [float](System.Single) position

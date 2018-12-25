@@ -6,3 +6,6 @@
 public void DetectedEntities(List<T> entities)
 ```
 
+### Parameters
+
+* [List<T>](System.Collections.Generic.List`1) entities

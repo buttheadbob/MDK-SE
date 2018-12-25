@@ -10,6 +10,9 @@ public Vector3 Cross(Vector3 v)
 
 [Vector3](VRageMath.Vector3)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) v
 ### Summary
 
 ```csharp
@@ -22,6 +25,10 @@ Calculates the cross product of two vectors.
 
 [Vector3](VRageMath.Vector3)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) vector1
+* [Vector3](VRageMath.Vector3) vector2
 ### Summary
 
 ```csharp
@@ -30,3 +37,8 @@ public void Cross(ref Vector3 vector1, ref Vector3 vector2, ref Vector3 resul
 
 Calculates the cross product of two vectors.
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) vector1
+* [Vector3](VRageMath.Vector3) vector2
+* [Vector3](VRageMath.Vector3) result

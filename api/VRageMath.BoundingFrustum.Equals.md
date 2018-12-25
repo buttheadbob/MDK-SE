@@ -12,6 +12,9 @@ Determines whether the specified BoundingFrustum is equal to the current Boundin
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [BoundingFrustum](VRageMath.BoundingFrustum) other
 ### Summary
 
 ```csharp
@@ -24,3 +27,6 @@ Determines whether the specified Object is equal to the BoundingFrustum.
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [object](System.Object) obj

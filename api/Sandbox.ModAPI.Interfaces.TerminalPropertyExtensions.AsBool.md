@@ -14,3 +14,6 @@ Property type cast
 
 reference to [Sandbox.ModAPI.Interfaces.ITerminalProperty`1](https://docs.microsoft.com/en-us/dotnet/api/sandbox.modapi.interfaces.iterminalproperty`1?view=netframework-4.6) value of specified type (bool)
 
+### Parameters
+
+* [ITerminalProperty](Sandbox.ModAPI.Interfaces.ITerminalProperty) property

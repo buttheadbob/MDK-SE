@@ -10,3 +10,7 @@ public bool TryParse(string str, ref Vector3D retval)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [string](System.String) str
+* [Vector3D](VRageMath.Vector3D) retval

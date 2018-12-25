@@ -14,6 +14,9 @@ Checks if the camera can scan the given distance.
 
 
 
+### Parameters
+
+* [double](System.Double) distance
 ### Summary
 
 ```csharp
@@ -28,6 +31,10 @@ Checks if the camera can scan to the given direction and distance.
 
 
 
+### Parameters
+
+* [double](System.Double) distance
+* [Vector3D](VRageMath.Vector3D) direction
 ### Summary
 
 ```csharp
@@ -42,3 +49,6 @@ Checks if the camera can scan to the given target
 
 
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) target

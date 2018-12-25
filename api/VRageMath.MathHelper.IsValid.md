@@ -10,6 +10,9 @@ public bool IsValid(Matrix matrix)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Matrix](VRageMath.Matrix) matrix
 ### Summary
 
 ```csharp
@@ -20,6 +23,9 @@ public bool IsValid(MatrixD matrix)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [MatrixD](VRageMath.MatrixD) matrix
 ### Summary
 
 ```csharp
@@ -30,6 +36,9 @@ public bool IsValid(Vector3 vec)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) vec
 ### Summary
 
 ```csharp
@@ -40,6 +49,9 @@ public bool IsValid(Vector3D vec)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) vec
 ### Summary
 
 ```csharp
@@ -50,6 +62,9 @@ public bool IsValid(Vector2 vec)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Vector2](VRageMath.Vector2) vec
 ### Summary
 
 ```csharp
@@ -60,6 +75,9 @@ public bool IsValid(float f)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [float](System.Single) f
 ### Summary
 
 ```csharp
@@ -70,6 +88,9 @@ public bool IsValid(double f)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [double](System.Double) f
 ### Summary
 
 ```csharp
@@ -80,6 +101,9 @@ public bool IsValid(Nullable<T> vec)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Nullable<T>](System.Nullable`1) vec
 ### Summary
 
 ```csharp
@@ -90,3 +114,6 @@ public bool IsValid(Quaternion q)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Quaternion](VRageMath.Quaternion) q

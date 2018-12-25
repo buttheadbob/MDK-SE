@@ -3,11 +3,16 @@
 #### BoundingBox Struct
 
 ```csharp
-public struct BoundingBox: 
+public struct BoundingBox: ValueType, IEquatable<T>
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+**Inheritance: **[ValueType](System.ValueType)
+
+**Implements:**  
+* [IEquatable<T>](System.IEquatable`1)
 
 #### Example
 

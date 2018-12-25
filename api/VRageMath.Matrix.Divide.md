@@ -12,6 +12,10 @@ Divides the components of a matrix by the corresponding components of another ma
 
 [Matrix](VRageMath.Matrix)
 
+### Parameters
+
+* [Matrix](VRageMath.Matrix) matrix1
+* [Matrix](VRageMath.Matrix) matrix2
 ### Summary
 
 ```csharp
@@ -20,6 +24,11 @@ public void Divide(ref Matrix matrix1, ref Matrix matrix2, ref Matrix result)
 
 Divides the components of a matrix by the corresponding components of another matrix.
 
+### Parameters
+
+* [Matrix](VRageMath.Matrix) matrix1
+* [Matrix](VRageMath.Matrix) matrix2
+* [Matrix](VRageMath.Matrix) result
 ### Summary
 
 ```csharp
@@ -32,6 +41,10 @@ Divides the components of a matrix by a scalar.
 
 [Matrix](VRageMath.Matrix)
 
+### Parameters
+
+* [Matrix](VRageMath.Matrix) matrix1
+* [float](System.Single) divider
 ### Summary
 
 ```csharp
@@ -40,3 +53,8 @@ public void Divide(ref Matrix matrix1, float divider, ref Matrix result)
 
 Divides the components of a matrix by a scalar.
 
+### Parameters
+
+* [Matrix](VRageMath.Matrix) matrix1
+* [float](System.Single) divider
+* [Matrix](VRageMath.Matrix) result

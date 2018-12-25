@@ -10,3 +10,6 @@ public Vector3B Round(Vector3 vec)
 
 [Vector3B](VRageMath.Vector3B)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) vec

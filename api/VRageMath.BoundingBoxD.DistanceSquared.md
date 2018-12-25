@@ -10,6 +10,9 @@ public double DistanceSquared(Vector3D point)
 
 [double](System.Double)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) point
 ### Summary
 
 ```csharp
@@ -20,3 +23,6 @@ public double DistanceSquared(ref Vector3D point)
 
 [double](System.Double)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) point

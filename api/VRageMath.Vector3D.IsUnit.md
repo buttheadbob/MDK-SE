@@ -10,3 +10,6 @@ public bool IsUnit(ref Vector3D value)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) value

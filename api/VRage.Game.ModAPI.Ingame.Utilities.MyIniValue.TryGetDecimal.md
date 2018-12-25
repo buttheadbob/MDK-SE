@@ -14,3 +14,6 @@ Attempts to get this value as a [System.Decimal](https://docs.microsoft.com/en-u
 
 `true`if the value could be understood as this data type;`false`otherwise
 
+### Parameters
+
+* [decimal](System.Decimal) value

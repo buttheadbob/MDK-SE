@@ -14,6 +14,9 @@ return expanded aabb (abb include point)
 
 
 
+### Parameters
+
+* [Vector3I](VRageMath.Vector3I) point
 ### Summary
 
 ```csharp
@@ -24,6 +27,9 @@ public BoundingBoxI Include(Vector3I point)
 
 [BoundingBoxI](VRageMath.BoundingBoxI)
 
+### Parameters
+
+* [Vector3I](VRageMath.Vector3I) point
 ### Summary
 
 ```csharp
@@ -34,6 +40,11 @@ public BoundingBoxI Include(Vector3I p0, Vector3I p1, Vector3I p2)
 
 [BoundingBoxI](VRageMath.BoundingBoxI)
 
+### Parameters
+
+* [Vector3I](VRageMath.Vector3I) p0
+* [Vector3I](VRageMath.Vector3I) p1
+* [Vector3I](VRageMath.Vector3I) p2
 ### Summary
 
 ```csharp
@@ -44,6 +55,11 @@ public BoundingBoxI Include(ref Vector3I p0, ref Vector3I p1, ref Vector3I p2
 
 [BoundingBoxI](VRageMath.BoundingBoxI)
 
+### Parameters
+
+* [Vector3I](VRageMath.Vector3I) p0
+* [Vector3I](VRageMath.Vector3I) p1
+* [Vector3I](VRageMath.Vector3I) p2
 ### Summary
 
 ```csharp
@@ -58,6 +74,9 @@ return expanded aabb (abb include point)
 
 
 
+### Parameters
+
+* [BoundingBoxI](VRageMath.BoundingBoxI) box
 ### Summary
 
 ```csharp
@@ -68,3 +87,6 @@ public BoundingBoxI Include(BoundingBoxI box)
 
 [BoundingBoxI](VRageMath.BoundingBoxI)
 
+### Parameters
+
+* [BoundingBoxI](VRageMath.BoundingBoxI) box

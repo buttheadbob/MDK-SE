@@ -3,11 +3,13 @@
 #### CompressedPositionOrientation Struct
 
 ```csharp
-public struct CompressedPositionOrientation: 
+public struct CompressedPositionOrientation: ValueType
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+**Inheritance: **[ValueType](System.ValueType)
 
 #### Example
 

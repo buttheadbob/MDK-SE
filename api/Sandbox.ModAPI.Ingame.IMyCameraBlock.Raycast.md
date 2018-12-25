@@ -14,6 +14,11 @@ Does a raycast in the direction the camera is facing. Pitch and Yaw are in degre
 
 
 
+### Parameters
+
+* [double](System.Double) distance
+* [float](System.Single) pitch
+* [float](System.Single) yaw
 ### Summary
 
 ```csharp
@@ -28,6 +33,9 @@ Does a raycast to the given point. Will return an empty struct if distance or an
 
 
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) targetPos
 ### Summary
 
 ```csharp
@@ -42,3 +50,7 @@ Does a raycast in the given direction. Will return an empty struct if distance o
 
 
 
+### Parameters
+
+* [double](System.Double) distance
+* [Vector3D](VRageMath.Vector3D) targetDirection

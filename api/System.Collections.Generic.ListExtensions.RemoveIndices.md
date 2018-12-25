@@ -6,3 +6,7 @@
 public void RemoveIndices<T>(List<T> list, List<T> indices)
 ```
 
+### Parameters
+
+* [List<T>](System.Collections.Generic.List`1) list
+* [List<T>](System.Collections.Generic.List`1) indices

@@ -10,6 +10,9 @@ public Matrix CreateWorld(Vector3 position)
 
 [Matrix](VRageMath.Matrix)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) position
 ### Summary
 
 ```csharp
@@ -22,6 +25,11 @@ Creates a world matrix with the specified parameters.
 
 [Matrix](VRageMath.Matrix)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) position
+* [Vector3](VRageMath.Vector3) forward
+* [Vector3](VRageMath.Vector3) up
 ### Summary
 
 ```csharp
@@ -30,3 +38,9 @@ public void CreateWorld(ref Vector3 position, ref Vector3 forward, ref Vector
 
 Creates a world matrix with the specified parameters.
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) position
+* [Vector3](VRageMath.Vector3) forward
+* [Vector3](VRageMath.Vector3) up
+* [Matrix](VRageMath.Matrix) result

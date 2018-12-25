@@ -10,3 +10,7 @@ public float NormalizeAngle(float angle, float center)
 
 [float](System.Single)
 
+### Parameters
+
+* [float](System.Single) angle
+* [float](System.Single) center

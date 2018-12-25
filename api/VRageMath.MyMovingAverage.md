@@ -3,11 +3,13 @@
 #### MyMovingAverage Class
 
 ```csharp
-public class MyMovingAverage: 
+public class MyMovingAverage: object
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+**Inheritance: **[object](System.Object)
 
 #### Example
 

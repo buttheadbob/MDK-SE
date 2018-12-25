@@ -10,3 +10,6 @@ public virtual float MaxRequiredInputByType(MyDefinitionId resourceTypeId)
 
 [float](System.Single)
 
+### Parameters
+
+* [MyDefinitionId](VRage.Game.MyDefinitionId) resourceTypeId

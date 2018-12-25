@@ -14,3 +14,7 @@ Return vector with each component max
 
 
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) a
+* [Vector3](VRageMath.Vector3) b

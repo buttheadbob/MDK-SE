@@ -14,3 +14,6 @@ Attempts to get this value as a [System.Byte](https://docs.microsoft.com/en-us/d
 
 
 
+### Parameters
+
+* [byte](System.Byte) defaultValue

@@ -10,6 +10,10 @@ public float CosineDistance(ref Vector3 a, ref Vector3 b)
 
 [float](System.Single)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) a
+* [Vector3](VRageMath.Vector3) b
 ### Summary
 
 ```csharp
@@ -20,3 +24,7 @@ public double CosineDistance(ref Vector3D a, ref Vector3D b)
 
 [double](System.Double)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) a
+* [Vector3D](VRageMath.Vector3D) b

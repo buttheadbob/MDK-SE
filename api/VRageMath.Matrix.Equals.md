@@ -12,6 +12,9 @@ Determines whether the specified Object is equal to the Matrix.
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Matrix](VRageMath.Matrix) other
 ### Summary
 
 ```csharp
@@ -24,3 +27,6 @@ Returns a value that indicates whether the current instance is equal to a specif
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [object](System.Object) obj

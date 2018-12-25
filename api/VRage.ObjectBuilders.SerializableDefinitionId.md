@@ -3,11 +3,13 @@
 #### SerializableDefinitionId Struct
 
 ```csharp
-public struct SerializableDefinitionId: 
+public struct SerializableDefinitionId: ValueType
 ```
 
 **Namespace:** [VRage.ObjectBuilders](VRage.ObjectBuilders)  
 **Assembly:** VRage.Game.dll
+
+**Inheritance: **[ValueType](System.ValueType)
 
 #### Example
 

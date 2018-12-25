@@ -10,3 +10,6 @@ public TValue GetMininum(IMyCubeBlock block)
 
 [TValue]()
 
+### Parameters
+
+* [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock) block

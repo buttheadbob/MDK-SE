@@ -12,6 +12,9 @@ Determines whether the specified BoundingSphereD is equal to the current Boundin
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [BoundingSphereD](VRageMath.BoundingSphereD) other
 ### Summary
 
 ```csharp
@@ -24,3 +27,6 @@ Determines whether the specified Object is equal to the BoundingSphereD.
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [object](System.Object) obj

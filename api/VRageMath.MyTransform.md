@@ -3,11 +3,13 @@
 #### MyTransform Struct
 
 ```csharp
-public struct MyTransform: 
+public struct MyTransform: ValueType
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+**Inheritance: **[ValueType](System.ValueType)
 
 #### Example
 

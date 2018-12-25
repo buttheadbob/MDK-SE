@@ -10,3 +10,6 @@ public int Log2Ceiling(int value)
 
 [int](System.Int32)
 
+### Parameters
+
+* [int](System.Int32) value

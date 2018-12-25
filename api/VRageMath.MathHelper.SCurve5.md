@@ -10,6 +10,9 @@ public float SCurve5(float t)
 
 [float](System.Single)
 
+### Parameters
+
+* [float](System.Single) t
 ### Summary
 
 ```csharp
@@ -20,3 +23,6 @@ public double SCurve5(double t)
 
 [double](System.Double)
 
+### Parameters
+
+* [double](System.Double) t

@@ -12,6 +12,10 @@ Concatenates two Quaternions; the result represents the value1 rotation followed
 
 [QuaternionD](VRageMath.QuaternionD)
 
+### Parameters
+
+* [QuaternionD](VRageMath.QuaternionD) value1
+* [QuaternionD](VRageMath.QuaternionD) value2
 ### Summary
 
 ```csharp
@@ -20,3 +24,8 @@ public void Concatenate(ref QuaternionD value1, ref QuaternionD value2, ref Q
 
 Concatenates two Quaternions; the result represents the value1 rotation followed by the value2 rotation.
 
+### Parameters
+
+* [QuaternionD](VRageMath.QuaternionD) value1
+* [QuaternionD](VRageMath.QuaternionD) value2
+* [QuaternionD](VRageMath.QuaternionD) result

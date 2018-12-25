@@ -10,6 +10,9 @@ public bool TryGet<T>(ref T component)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* T component
 ### Summary
 
 ```csharp
@@ -20,3 +23,7 @@ public bool TryGet(Type type, ref MyComponentBase component)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Type](System.Type) type
+* [MyComponentBase](VRage.Game.Components.MyComponentBase) component

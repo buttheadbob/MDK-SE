@@ -10,6 +10,10 @@ public float HueDistance(Color color, float hue)
 
 [float](System.Single)
 
+### Parameters
+
+* [Color](VRageMath.Color) color
+* [float](System.Single) hue
 ### Summary
 
 ```csharp
@@ -20,3 +24,7 @@ public float HueDistance(Color color, Color otherColor)
 
 [float](System.Single)
 
+### Parameters
+
+* [Color](VRageMath.Color) color
+* [Color](VRageMath.Color) otherColor

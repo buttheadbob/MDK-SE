@@ -12,6 +12,9 @@ Determines whether the specified Ray is equal to the current Ray.
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [RayD](VRageMath.RayD) other
 ### Summary
 
 ```csharp
@@ -24,3 +27,6 @@ Determines whether two instances of Ray are equal.
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [object](System.Object) obj

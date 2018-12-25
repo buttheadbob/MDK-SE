@@ -10,6 +10,10 @@ public BoundingBox CreateFromHalfExtent(Vector3 center, float halfExtent)
 
 [BoundingBox](VRageMath.BoundingBox)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) center
+* [float](System.Single) halfExtent
 ### Summary
 
 ```csharp
@@ -20,3 +24,7 @@ public BoundingBox CreateFromHalfExtent(Vector3 center, Vector3 halfExtent)
 
 [BoundingBox](VRageMath.BoundingBox)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) center
+* [Vector3](VRageMath.Vector3) halfExtent

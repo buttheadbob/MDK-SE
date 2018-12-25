@@ -12,3 +12,6 @@ Use this for HSV in DX11 Renderer, X = Hue 0..1, Y = Saturation -1..1, Z = Value
 
 [Vector3](VRageMath.Vector3)
 
+### Parameters
+
+* [Color](VRageMath.Color) rgb

@@ -12,6 +12,10 @@ Creates a new Rectangle that exactly contains two other rectangles.
 
 [Rectangle](VRageMath.Rectangle)
 
+### Parameters
+
+* [Rectangle](VRageMath.Rectangle) value1
+* [Rectangle](VRageMath.Rectangle) value2
 ### Summary
 
 ```csharp
@@ -20,3 +24,8 @@ public void Union(ref Rectangle value1, ref Rectangle value2, ref Rectangle r
 
 Creates a new Rectangle that exactly contains two other rectangles.
 
+### Parameters
+
+* [Rectangle](VRageMath.Rectangle) value1
+* [Rectangle](VRageMath.Rectangle) value2
+* [Rectangle](VRageMath.Rectangle) result

@@ -12,6 +12,10 @@ Transforms a 3D vector normal by a matrix.
 
 [Vector3](VRageMath.Vector3)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) normal
+* [Matrix](VRageMath.Matrix) matrix
 ### Summary
 
 ```csharp
@@ -24,6 +28,10 @@ Transforms a 3D vector normal by a matrix.
 
 [Vector3](VRageMath.Vector3)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) normal
+* [MatrixD](VRageMath.MatrixD) matrix
 ### Summary
 
 ```csharp
@@ -36,6 +44,10 @@ Transforms a 3D vector normal by a matrix.
 
 [Vector3](VRageMath.Vector3)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) normal
+* [Matrix](VRageMath.Matrix) matrix
 ### Summary
 
 ```csharp
@@ -44,18 +56,33 @@ public void TransformNormal(ref Vector3 normal, ref Matrix matrix, ref Vector
 
 Transforms a vector normal by a matrix.
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) normal
+* [Matrix](VRageMath.Matrix) matrix
+* [Vector3](VRageMath.Vector3) result
 ### Summary
 
 ```csharp
 public void TransformNormal(ref Vector3 normal, ref MatrixD matrix, ref Vector3 result)
 ```
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) normal
+* [MatrixD](VRageMath.MatrixD) matrix
+* [Vector3](VRageMath.Vector3) result
 ### Summary
 
 ```csharp
 public void TransformNormal(ref Vector3 normal, ref MatrixI matrix, ref Vector3 result)
 ```
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) normal
+* [MatrixI](VRageMath.MatrixI) matrix
+* [Vector3](VRageMath.Vector3) result
 ### Summary
 
 ```csharp
@@ -66,12 +93,21 @@ public Vector3 TransformNormal(Vector3 normal, MyBlockOrientation orientation)
 
 [Vector3](VRageMath.Vector3)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) normal
+* [MyBlockOrientation](VRageMath.MyBlockOrientation) orientation
 ### Summary
 
 ```csharp
 public void TransformNormal(ref Vector3 normal, MyBlockOrientation orientation, ref Vector3 result)
 ```
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) normal
+* [MyBlockOrientation](VRageMath.MyBlockOrientation) orientation
+* [Vector3](VRageMath.Vector3) result
 ### Summary
 
 ```csharp
@@ -82,6 +118,10 @@ public Vector3 TransformNormal(Vector3 normal, ref Matrix matrix)
 
 [Vector3](VRageMath.Vector3)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) normal
+* [Matrix](VRageMath.Matrix) matrix
 ### Summary
 
 ```csharp
@@ -90,6 +130,11 @@ public void TransformNormal(Vector3[] sourceArray, ref Matrix matrix, Vector3[]
 
 Transforms an array of 3D vector normals by a specified Matrix.
 
+### Parameters
+
+* [Vector3[]](VRageMath.Vector3[]) sourceArray
+* [Matrix](VRageMath.Matrix) matrix
+* [Vector3[]](VRageMath.Vector3[]) destinationArray
 ### Summary
 
 ```csharp
@@ -98,3 +143,11 @@ public void TransformNormal(Vector3[] sourceArray, int sourceIndex, ref Matrix 
 
 Transforms a specified range in an array of 3D vector normals by a specified Matrix and writes the results to a specified range in a destination array.
 
+### Parameters
+
+* [Vector3[]](VRageMath.Vector3[]) sourceArray
+* [int](System.Int32) sourceIndex
+* [Matrix](VRageMath.Matrix) matrix
+* [Vector3[]](VRageMath.Vector3[]) destinationArray
+* [int](System.Int32) destinationIndex
+* [int](System.Int32) length

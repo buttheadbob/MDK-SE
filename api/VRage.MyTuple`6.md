@@ -3,11 +3,13 @@
 #### MyTuple&lt;T1, T2, T3, T4, T5, T6&gt; Struct
 
 ```csharp
-public struct MyTuple<T1, T2, T3, T4, T5, T6>: 
+public struct MyTuple<T1, T2, T3, T4, T5, T6>: ValueType
 ```
 
 **Namespace:** [VRage](VRage)  
 **Assembly:** VRage.Library.dll
+
+**Inheritance: **[ValueType](System.ValueType)
 
 #### Example
 

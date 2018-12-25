@@ -20,6 +20,9 @@ Returns the conjugate of a specified Quaternion.
 
 [Quaternion](VRageMath.Quaternion)
 
+### Parameters
+
+* [Quaternion](VRageMath.Quaternion) value
 ### Summary
 
 ```csharp
@@ -28,3 +31,7 @@ public void Conjugate(ref Quaternion value, ref Quaternion result)
 
 Returns the conjugate of a specified Quaternion.
 
+### Parameters
+
+* [Quaternion](VRageMath.Quaternion) value
+* [Quaternion](VRageMath.Quaternion) result

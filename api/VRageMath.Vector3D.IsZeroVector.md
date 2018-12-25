@@ -10,6 +10,9 @@ public Vector3D IsZeroVector(Vector3D value)
 
 [Vector3D](VRageMath.Vector3D)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) value
 ### Summary
 
 ```csharp
@@ -20,3 +23,7 @@ public Vector3D IsZeroVector(Vector3D value, double epsilon)
 
 [Vector3D](VRageMath.Vector3D)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) value
+* [double](System.Double) epsilon

@@ -10,6 +10,9 @@ public Quaternion CreateFromRotationMatrix(MatrixD matrix)
 
 [Quaternion](VRageMath.Quaternion)
 
+### Parameters
+
+* [MatrixD](VRageMath.MatrixD) matrix
 ### Summary
 
 ```csharp
@@ -22,12 +25,19 @@ Creates a Quaternion from a rotation Matrix.
 
 [Quaternion](VRageMath.Quaternion)
 
+### Parameters
+
+* [Matrix](VRageMath.Matrix) matrix
 ### Summary
 
 ```csharp
 public void CreateFromRotationMatrix(ref MatrixD matrix, ref Quaternion result)
 ```
 
+### Parameters
+
+* [MatrixD](VRageMath.MatrixD) matrix
+* [Quaternion](VRageMath.Quaternion) result
 ### Summary
 
 ```csharp
@@ -36,6 +46,10 @@ public void CreateFromRotationMatrix(ref Matrix matrix, ref Quaternion result)
 
 Creates a Quaternion from a rotation Matrix.
 
+### Parameters
+
+* [Matrix](VRageMath.Matrix) matrix
+* [Quaternion](VRageMath.Quaternion) result
 ### Summary
 
 ```csharp
@@ -44,3 +58,7 @@ public void CreateFromRotationMatrix(ref Matrix3x3 matrix, ref Quaternion resu
 
 Creates a Quaternion from a rotation Matrix.
 
+### Parameters
+
+* [Matrix3x3](VRageMath.Matrix3x3) matrix
+* [Quaternion](VRageMath.Quaternion) result

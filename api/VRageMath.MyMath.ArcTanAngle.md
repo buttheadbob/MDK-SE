@@ -14,3 +14,7 @@ ArcTanAngle
 
 ArcTan angle between x and y
 
+### Parameters
+
+* [float](System.Single) x
+* [float](System.Single) y

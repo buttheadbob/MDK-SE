@@ -14,3 +14,7 @@ Returns value of specified property
 
 property value as float
 
+### Parameters
+
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock) block
+* [string](System.String) propertyId

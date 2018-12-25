@@ -14,3 +14,6 @@ Gets if the specified button is assigned an action.
 
 
 
+### Parameters
+
+* [int](System.Int32) index

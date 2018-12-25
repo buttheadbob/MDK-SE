@@ -10,3 +10,6 @@ public Vector3 UnpackHSVFromUint(uint packed)
 
 [Vector3](VRageMath.Vector3)
 
+### Parameters
+
+* [uint](System.UInt32) packed

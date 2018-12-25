@@ -12,6 +12,13 @@ Returns a Vector4 containing the 4D Cartesian coordinates of a point specified i
 
 [Vector4](VRageMath.Vector4)
 
+### Parameters
+
+* [Vector4](VRageMath.Vector4) value1
+* [Vector4](VRageMath.Vector4) value2
+* [Vector4](VRageMath.Vector4) value3
+* [float](System.Single) amount1
+* [float](System.Single) amount2
 ### Summary
 
 ```csharp
@@ -20,3 +27,11 @@ public void Barycentric(ref Vector4 value1, ref Vector4 value2, ref Vector4 v
 
 Returns a Vector4 containing the 4D Cartesian coordinates of a point specified in Barycentric (areal) coordinates relative to a 4D triangle.
 
+### Parameters
+
+* [Vector4](VRageMath.Vector4) value1
+* [Vector4](VRageMath.Vector4) value2
+* [Vector4](VRageMath.Vector4) value3
+* [float](System.Single) amount1
+* [float](System.Single) amount2
+* [Vector4](VRageMath.Vector4) result

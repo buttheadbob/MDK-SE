@@ -10,3 +10,7 @@ public Matrix AlignRotationToAxes(ref Matrix toAlign, ref Matrix axisDefinitio
 
 [Matrix](VRageMath.Matrix)
 
+### Parameters
+
+* [Matrix](VRageMath.Matrix) toAlign
+* [Matrix](VRageMath.Matrix) axisDefinitionMatrix

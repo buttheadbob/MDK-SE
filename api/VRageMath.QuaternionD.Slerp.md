@@ -12,6 +12,11 @@ Interpolates between two quaternions, using spherical linear interpolation.
 
 [QuaternionD](VRageMath.QuaternionD)
 
+### Parameters
+
+* [QuaternionD](VRageMath.QuaternionD) quaternion1
+* [QuaternionD](VRageMath.QuaternionD) quaternion2
+* [double](System.Double) amount
 ### Summary
 
 ```csharp
@@ -20,3 +25,9 @@ public void Slerp(ref QuaternionD quaternion1, ref QuaternionD quaternion2, do
 
 Interpolates between two quaternions, using spherical linear interpolation.
 
+### Parameters
+
+* [QuaternionD](VRageMath.QuaternionD) quaternion1
+* [QuaternionD](VRageMath.QuaternionD) quaternion2
+* [double](System.Double) amount
+* [QuaternionD](VRageMath.QuaternionD) result

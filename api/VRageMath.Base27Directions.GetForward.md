@@ -10,3 +10,6 @@ public Direction GetForward(ref Quaternion rot)
 
 [Direction](VRageMath.Base27Directions+Direction)
 
+### Parameters
+
+* [Quaternion](VRageMath.Quaternion) rot

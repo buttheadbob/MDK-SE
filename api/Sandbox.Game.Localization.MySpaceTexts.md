@@ -3,11 +3,13 @@
 #### MySpaceTexts Class
 
 ```csharp
-public abstract sealed class MySpaceTexts: 
+public abstract sealed class MySpaceTexts: object
 ```
 
 **Namespace:** [Sandbox.Game.Localization](Sandbox.Game.Localization)  
 **Assembly:** Sandbox.Game.dll
+
+**Inheritance: **[object](System.Object)
 
 #### Example
 

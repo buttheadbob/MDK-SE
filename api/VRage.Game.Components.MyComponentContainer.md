@@ -3,11 +3,13 @@
 #### MyComponentContainer Class
 
 ```csharp
-public class MyComponentContainer: 
+public class MyComponentContainer: object
 ```
 
 **Namespace:** [VRage.Game.Components](VRage.Game.Components)  
 **Assembly:** VRage.Game.dll
+
+**Inheritance: **[object](System.Object)
 
 #### Example
 

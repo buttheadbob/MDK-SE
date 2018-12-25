@@ -12,3 +12,7 @@ Calculates projection vector
 
 [Vector3](VRageMath.Vector3)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) projectedOntoVector
+* [Vector3](VRageMath.Vector3) projectedVector

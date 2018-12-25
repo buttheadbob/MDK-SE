@@ -12,6 +12,11 @@ Creates a new QuaternionD from specified yaw, pitch, and roll angles.
 
 [QuaternionD](VRageMath.QuaternionD)
 
+### Parameters
+
+* [double](System.Double) yaw
+* [double](System.Double) pitch
+* [double](System.Double) roll
 ### Summary
 
 ```csharp
@@ -20,3 +25,9 @@ public void CreateFromYawPitchRoll(double yaw, double pitch, double roll, ref Q
 
 Creates a new QuaternionD from specified yaw, pitch, and roll angles.
 
+### Parameters
+
+* [double](System.Double) yaw
+* [double](System.Double) pitch
+* [double](System.Double) roll
+* [QuaternionD](VRageMath.QuaternionD) result

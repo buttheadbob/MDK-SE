@@ -14,3 +14,6 @@ Attempts to get this value as a [System.UInt16](https://docs.microsoft.com/en-us
 
 
 
+### Parameters
+
+* [ushort](System.UInt16) defaultValue

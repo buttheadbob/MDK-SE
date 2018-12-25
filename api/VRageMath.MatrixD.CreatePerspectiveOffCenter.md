@@ -12,6 +12,14 @@ Builds a customized, perspective projection matrix.
 
 [MatrixD](VRageMath.MatrixD)
 
+### Parameters
+
+* [double](System.Double) left
+* [double](System.Double) right
+* [double](System.Double) bottom
+* [double](System.Double) top
+* [double](System.Double) nearPlaneDistance
+* [double](System.Double) farPlaneDistance
 ### Summary
 
 ```csharp
@@ -20,3 +28,12 @@ public void CreatePerspectiveOffCenter(double left, double right, double bottom,
 
 Builds a customized, perspective projection matrix.
 
+### Parameters
+
+* [double](System.Double) left
+* [double](System.Double) right
+* [double](System.Double) bottom
+* [double](System.Double) top
+* [double](System.Double) nearPlaneDistance
+* [double](System.Double) farPlaneDistance
+* [MatrixD](VRageMath.MatrixD) result

@@ -14,3 +14,7 @@ Projects given vector on plane specified by it's normal.
 
 Vector projected on plane
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) vec
+* [Vector3](VRageMath.Vector3) planeNormal

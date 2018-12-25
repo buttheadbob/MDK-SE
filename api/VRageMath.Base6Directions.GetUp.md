@@ -10,6 +10,9 @@ public Direction GetUp(Quaternion rot)
 
 [Direction](VRageMath.Base6Directions+Direction)
 
+### Parameters
+
+* [Quaternion](VRageMath.Quaternion) rot
 ### Summary
 
 ```csharp
@@ -20,6 +23,9 @@ public Direction GetUp(ref Quaternion rot)
 
 [Direction](VRageMath.Base6Directions+Direction)
 
+### Parameters
+
+* [Quaternion](VRageMath.Quaternion) rot
 ### Summary
 
 ```csharp
@@ -30,3 +36,6 @@ public Direction GetUp(ref Matrix rotation)
 
 [Direction](VRageMath.Base6Directions+Direction)
 
+### Parameters
+
+* [Matrix](VRageMath.Matrix) rotation

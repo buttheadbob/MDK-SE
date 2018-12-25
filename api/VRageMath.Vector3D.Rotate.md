@@ -6,6 +6,11 @@
 public void Rotate(ref Vector3D vector, ref MatrixD rotationMatrix, ref Vector3D result)
 ```
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) vector
+* [MatrixD](VRageMath.MatrixD) rotationMatrix
+* [Vector3D](VRageMath.Vector3D) result
 ### Summary
 
 ```csharp
@@ -16,3 +21,7 @@ public Vector3D Rotate(Vector3D vector, MatrixD rotationMatrix)
 
 [Vector3D](VRageMath.Vector3D)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) vector
+* [MatrixD](VRageMath.MatrixD) rotationMatrix

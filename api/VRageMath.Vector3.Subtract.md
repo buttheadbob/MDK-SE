@@ -12,6 +12,10 @@ Subtracts a vector from a vector.
 
 [Vector3](VRageMath.Vector3)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) value1
+* [Vector3](VRageMath.Vector3) value2
 ### Summary
 
 ```csharp
@@ -20,3 +24,8 @@ public void Subtract(ref Vector3 value1, ref Vector3 value2, ref Vector3 resu
 
 Subtracts a vector from a vector.
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) value1
+* [Vector3](VRageMath.Vector3) value2
+* [Vector3](VRageMath.Vector3) result

@@ -14,3 +14,9 @@ Create a proxy. Provide a tight fitting BoundingBox and a userData pointer.
 
 
 
+### Parameters
+
+* [BoundingBox](VRageMath.BoundingBox) aabb
+* [object](System.Object) userData
+* [uint](System.UInt32) userFlags
+* [bool](System.Boolean) rebalance

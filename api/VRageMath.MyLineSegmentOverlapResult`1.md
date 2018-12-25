@@ -3,11 +3,13 @@
 #### MyLineSegmentOverlapResult&lt;T&gt; Struct
 
 ```csharp
-public struct MyLineSegmentOverlapResult<T>: 
+public struct MyLineSegmentOverlapResult<T>: ValueType
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+**Inheritance: **[ValueType](System.ValueType)
 
 #### Example
 

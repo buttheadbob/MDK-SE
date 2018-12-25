@@ -10,6 +10,9 @@ public bool Intersects(ref BoundingBox box)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [BoundingBox](VRageMath.BoundingBox) box
 ### Summary
 
 ```csharp
@@ -20,6 +23,9 @@ public bool Intersects(ref MyOrientedBoundingBox other)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [MyOrientedBoundingBox](VRageMath.MyOrientedBoundingBox) other
 ### Summary
 
 ```csharp
@@ -30,6 +36,9 @@ public bool Intersects(BoundingFrustum frustum)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [BoundingFrustum](VRageMath.BoundingFrustum) frustum
 ### Summary
 
 ```csharp
@@ -40,6 +49,9 @@ public bool Intersects(ref BoundingSphere sphere)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [BoundingSphere](VRageMath.BoundingSphere) sphere
 ### Summary
 
 ```csharp
@@ -50,6 +62,9 @@ public Nullable<T> Intersects(ref Ray ray)
 
 [Nullable<T>](System.Nullable`1)
 
+### Parameters
+
+* [Ray](VRageMath.Ray) ray
 ### Summary
 
 ```csharp
@@ -60,6 +75,9 @@ public Nullable<T> Intersects(ref Line line)
 
 [Nullable<T>](System.Nullable`1)
 
+### Parameters
+
+* [Line](VRageMath.Line) line
 ### Summary
 
 ```csharp
@@ -70,3 +88,6 @@ public PlaneIntersectionType Intersects(ref Plane plane)
 
 [PlaneIntersectionType](VRageMath.PlaneIntersectionType)
 
+### Parameters
+
+* [Plane](VRageMath.Plane) plane

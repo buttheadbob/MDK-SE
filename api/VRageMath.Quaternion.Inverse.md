@@ -12,6 +12,9 @@ Returns the inverse of a Quaternion.
 
 [Quaternion](VRageMath.Quaternion)
 
+### Parameters
+
+* [Quaternion](VRageMath.Quaternion) quaternion
 ### Summary
 
 ```csharp
@@ -20,3 +23,7 @@ public void Inverse(ref Quaternion quaternion, ref Quaternion result)
 
 Returns the inverse of a Quaternion.
 
+### Parameters
+
+* [Quaternion](VRageMath.Quaternion) quaternion
+* [Quaternion](VRageMath.Quaternion) result

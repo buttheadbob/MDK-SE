@@ -14,3 +14,6 @@ Get any comment that might be associated with the given section. Returns`null`if
 
 
 
+### Parameters
+
+* [string](System.String) section

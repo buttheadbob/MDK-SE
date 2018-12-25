@@ -3,11 +3,13 @@
 #### LineD Struct
 
 ```csharp
-public struct LineD: 
+public struct LineD: ValueType
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+**Inheritance: **[ValueType](System.ValueType)
 
 #### Example
 

@@ -10,6 +10,9 @@ public bool IsZero(ref Vector2 value)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Vector2](VRageMath.Vector2) value
 ### Summary
 
 ```csharp
@@ -20,6 +23,10 @@ public bool IsZero(ref Vector2 value, float epsilon)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Vector2](VRageMath.Vector2) value
+* [float](System.Single) epsilon
 ### Summary
 
 ```csharp
@@ -30,3 +37,7 @@ public bool IsZero(Vector2 value, float epsilon)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Vector2](VRageMath.Vector2) value
+* [float](System.Single) epsilon

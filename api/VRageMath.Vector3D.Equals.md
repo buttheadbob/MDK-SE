@@ -12,6 +12,9 @@ Determines whether the specified Object is equal to the Vector3.
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) other
 ### Summary
 
 ```csharp
@@ -22,6 +25,10 @@ public bool Equals(Vector3D other, double epsilon)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) other
+* [double](System.Double) epsilon
 ### Summary
 
 ```csharp
@@ -34,3 +41,6 @@ Returns a value that indicates whether the current instance is equal to a specif
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [object](System.Object) obj

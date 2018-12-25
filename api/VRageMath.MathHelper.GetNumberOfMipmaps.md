@@ -10,3 +10,6 @@ public int GetNumberOfMipmaps(int v)
 
 [int](System.Int32)
 
+### Parameters
+
+* [int](System.Int32) v

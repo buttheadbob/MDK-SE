@@ -10,6 +10,11 @@ public Vector4 PackOrthoMatrix(Vector3 position, Vector3 forward, Vector3 up)
 
 [Vector4](VRageMath.Vector4)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) position
+* [Vector3](VRageMath.Vector3) forward
+* [Vector3](VRageMath.Vector3) up
 ### Summary
 
 ```csharp
@@ -20,3 +25,6 @@ public Vector4 PackOrthoMatrix(ref Matrix matrix)
 
 [Vector4](VRageMath.Vector4)
 
+### Parameters
+
+* [Matrix](VRageMath.Matrix) matrix

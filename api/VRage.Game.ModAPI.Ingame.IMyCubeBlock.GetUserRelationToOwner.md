@@ -10,3 +10,6 @@ public MyRelationsBetweenPlayerAndBlock GetUserRelationToOwner(long playerId)
 
 [MyRelationsBetweenPlayerAndBlock](VRage.Game.MyRelationsBetweenPlayerAndBlock)
 
+### Parameters
+
+* [long](System.Int64) playerId

@@ -24,6 +24,9 @@ Creates a unit vector from the specified vector. The result is a vector one unit
 
 [Vector3D](VRageMath.Vector3D)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) value
 ### Summary
 
 ```csharp
@@ -32,3 +35,7 @@ public void Normalize(ref Vector3D value, ref Vector3D result)
 
 Creates a unit vector from the specified vector, writing the result to a user-specified variable. The result is a vector one unit in length pointing in the same direction as the original vector.
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) value
+* [Vector3D](VRageMath.Vector3D) result

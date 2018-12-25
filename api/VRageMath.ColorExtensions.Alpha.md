@@ -10,3 +10,7 @@ public Color Alpha(Color c, float a)
 
 [Color](VRageMath.Color)
 
+### Parameters
+
+* [Color](VRageMath.Color) c
+* [float](System.Single) a

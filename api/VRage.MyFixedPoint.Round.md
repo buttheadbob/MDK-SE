@@ -10,3 +10,6 @@ public MyFixedPoint Round(MyFixedPoint a)
 
 [MyFixedPoint](VRage.MyFixedPoint)
 
+### Parameters
+
+* [MyFixedPoint](VRage.MyFixedPoint) a

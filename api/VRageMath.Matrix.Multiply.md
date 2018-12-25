@@ -12,6 +12,10 @@ Multiplies a matrix by another matrix.
 
 [Matrix](VRageMath.Matrix)
 
+### Parameters
+
+* [Matrix](VRageMath.Matrix) matrix1
+* [Matrix](VRageMath.Matrix) matrix2
 ### Summary
 
 ```csharp
@@ -20,6 +24,11 @@ public void Multiply(ref Matrix matrix1, ref Matrix matrix2, ref Matrix resul
 
 Multiplies a matrix by another matrix.
 
+### Parameters
+
+* [Matrix](VRageMath.Matrix) matrix1
+* [Matrix](VRageMath.Matrix) matrix2
+* [Matrix](VRageMath.Matrix) result
 ### Summary
 
 ```csharp
@@ -32,6 +41,10 @@ Multiplies a matrix by a scalar value.
 
 [Matrix](VRageMath.Matrix)
 
+### Parameters
+
+* [Matrix](VRageMath.Matrix) matrix1
+* [float](System.Single) scaleFactor
 ### Summary
 
 ```csharp
@@ -40,3 +53,8 @@ public void Multiply(ref Matrix matrix1, float scaleFactor, ref Matrix result)
 
 Multiplies a matrix by a scalar value.
 
+### Parameters
+
+* [Matrix](VRageMath.Matrix) matrix1
+* [float](System.Single) scaleFactor
+* [Matrix](VRageMath.Matrix) result

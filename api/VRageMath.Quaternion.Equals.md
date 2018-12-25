@@ -12,6 +12,9 @@ Determines whether the specified Object is equal to the Quaternion.
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Quaternion](VRageMath.Quaternion) other
 ### Summary
 
 ```csharp
@@ -22,6 +25,10 @@ public bool Equals(Quaternion value, float epsilon)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Quaternion](VRageMath.Quaternion) value
+* [float](System.Single) epsilon
 ### Summary
 
 ```csharp
@@ -34,3 +41,6 @@ Returns a value that indicates whether the current instance is equal to a specif
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [object](System.Object) obj

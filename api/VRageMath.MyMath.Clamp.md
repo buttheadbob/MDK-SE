@@ -10,3 +10,8 @@ public float Clamp(float val, float min, float max)
 
 [float](System.Single)
 
+### Parameters
+
+* [float](System.Single) val
+* [float](System.Single) min
+* [float](System.Single) max

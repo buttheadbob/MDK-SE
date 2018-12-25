@@ -12,3 +12,6 @@ Returns 2^n
 
 [int](System.Int32)
 
+### Parameters
+
+* [int](System.Int32) n

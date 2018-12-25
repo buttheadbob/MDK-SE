@@ -14,3 +14,6 @@ Can this production block produce this blueprint?
 
 
 
+### Parameters
+
+* [MyDefinitionId](VRage.Game.MyDefinitionId) blueprint

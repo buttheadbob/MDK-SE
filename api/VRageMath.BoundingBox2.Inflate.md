@@ -6,3 +6,6 @@
 public void Inflate(float size)
 ```
 
+### Parameters
+
+* [float](System.Single) size

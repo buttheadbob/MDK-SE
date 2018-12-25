@@ -12,3 +12,6 @@ Returns per component sign, never returns zero. For zero component returns sign 
 
 [Vector3D](VRageMath.Vector3D)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) value

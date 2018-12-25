@@ -10,3 +10,7 @@ public T MaxBy<T>(IEnumerable<T> source, Func<T, TResult> selector)
 
 [T]()
 
+### Parameters
+
+* [IEnumerable<T>](System.Collections.Generic.IEnumerable`1) source
+* [Func<T, TResult>](System.Func`2) selector

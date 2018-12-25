@@ -10,3 +10,6 @@ public bool IsFriendly(MyRelationsBetweenPlayerAndBlock relations)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [MyRelationsBetweenPlayerAndBlock](VRage.Game.MyRelationsBetweenPlayerAndBlock) relations

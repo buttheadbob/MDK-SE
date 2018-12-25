@@ -12,3 +12,6 @@ Returns true when all components are 127
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Vector3UByte](VRageMath.Vector3UByte) vec

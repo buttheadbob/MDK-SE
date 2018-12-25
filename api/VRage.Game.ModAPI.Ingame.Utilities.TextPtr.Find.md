@@ -10,6 +10,9 @@ public TextPtr Find(string str)
 
 [TextPtr](VRage.Game.ModAPI.Ingame.Utilities.TextPtr)
 
+### Parameters
+
+* [string](System.String) str
 ### Summary
 
 ```csharp
@@ -20,3 +23,6 @@ public TextPtr Find(char ch)
 
 [TextPtr](VRage.Game.ModAPI.Ingame.Utilities.TextPtr)
 
+### Parameters
+
+* [char](System.Char) ch

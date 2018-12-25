@@ -10,3 +10,6 @@ public Matrix Normalize(Matrix matrix)
 
 [Matrix](VRageMath.Matrix)
 
+### Parameters
+
+* [Matrix](VRageMath.Matrix) matrix

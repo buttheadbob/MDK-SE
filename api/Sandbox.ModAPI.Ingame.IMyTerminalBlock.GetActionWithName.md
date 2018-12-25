@@ -10,3 +10,6 @@ public ITerminalAction GetActionWithName(string name)
 
 [ITerminalAction](Sandbox.ModAPI.Interfaces.ITerminalAction)
 
+### Parameters
+
+* [string](System.String) name

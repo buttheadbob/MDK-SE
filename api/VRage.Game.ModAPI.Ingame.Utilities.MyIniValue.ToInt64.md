@@ -14,3 +14,6 @@ Attempts to get this value as a [System.Int64](https://docs.microsoft.com/en-us/
 
 
 
+### Parameters
+
+* [long](System.Int64) defaultValue

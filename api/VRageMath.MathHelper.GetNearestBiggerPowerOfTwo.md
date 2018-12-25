@@ -10,6 +10,9 @@ public int GetNearestBiggerPowerOfTwo(int v)
 
 [int](System.Int32)
 
+### Parameters
+
+* [int](System.Int32) v
 ### Summary
 
 ```csharp
@@ -20,6 +23,9 @@ public uint GetNearestBiggerPowerOfTwo(uint v)
 
 [uint](System.UInt32)
 
+### Parameters
+
+* [uint](System.UInt32) v
 ### Summary
 
 ```csharp
@@ -34,6 +40,9 @@ Returns nearest bigger power of two
 
 
 
+### Parameters
+
+* [float](System.Single) f
 ### Summary
 
 ```csharp
@@ -44,3 +53,6 @@ public int GetNearestBiggerPowerOfTwo(double f)
 
 [int](System.Int32)
 
+### Parameters
+
+* [double](System.Double) f

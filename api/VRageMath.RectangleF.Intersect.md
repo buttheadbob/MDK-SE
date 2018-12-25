@@ -12,3 +12,8 @@ Creates a Rectangle defining the area where one rectangle overlaps with another 
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [RectangleF](VRageMath.RectangleF) value1
+* [RectangleF](VRageMath.RectangleF) value2
+* [RectangleF](VRageMath.RectangleF) result

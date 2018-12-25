@@ -12,6 +12,9 @@ Returns a vector that is equal to the projection of the input vector to the coor
 
 [Vector3I](VRageMath.Vector3I)
 
+### Parameters
+
+* [Vector3I](VRageMath.Vector3I) value1
 ### Summary
 
 ```csharp
@@ -20,3 +23,7 @@ public void DominantAxisProjection(ref Vector3I value1, ref Vector3I result)
 
 Calculates a vector that is equal to the projection of the input vector to the coordinate axis that corresponds to the original vector's largest value. The result is saved into a user-specified variable.
 
+### Parameters
+
+* [Vector3I](VRageMath.Vector3I) value1
+* [Vector3I](VRageMath.Vector3I) result

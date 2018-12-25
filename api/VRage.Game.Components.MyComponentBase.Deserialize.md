@@ -6,3 +6,6 @@
 public virtual void Deserialize(MyObjectBuilder_ComponentBase builder)
 ```
 
+### Parameters
+
+* MyObjectBuilder_ComponentBase builder

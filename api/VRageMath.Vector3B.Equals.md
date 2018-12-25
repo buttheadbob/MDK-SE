@@ -10,3 +10,6 @@ public virtual bool Equals(object obj)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [object](System.Object) obj

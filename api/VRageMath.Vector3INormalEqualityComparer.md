@@ -3,11 +3,16 @@
 #### Vector3INormalEqualityComparer Class
 
 ```csharp
-public class Vector3INormalEqualityComparer: 
+public class Vector3INormalEqualityComparer: object, IEqualityComparer<T>
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+**Inheritance: **[object](System.Object)
+
+**Implements:**  
+* [IEqualityComparer<T>](System.Collections.Generic.IEqualityComparer`1)
 
 #### Example
 

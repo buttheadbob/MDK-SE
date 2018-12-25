@@ -3,11 +3,13 @@
 #### Vector4UByte Struct
 
 ```csharp
-public struct Vector4UByte: 
+public struct Vector4UByte: ValueType
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+**Inheritance: **[ValueType](System.ValueType)
 
 #### Example
 

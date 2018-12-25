@@ -10,6 +10,10 @@ public bool WritePublicText(string value, bool append)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [string](System.String) value
+* [bool](System.Boolean) append
 ### Summary
 
 ```csharp
@@ -20,3 +24,7 @@ public bool WritePublicText(StringBuilder value, bool append)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [StringBuilder](System.Text.StringBuilder) value
+* [bool](System.Boolean) append

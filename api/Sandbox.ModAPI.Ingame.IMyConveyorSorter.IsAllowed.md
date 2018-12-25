@@ -14,3 +14,6 @@ Determines whether a given item type is allowed through the sorter, depending on
 
 
 
+### Parameters
+
+* [MyDefinitionId](VRage.Game.MyDefinitionId) id

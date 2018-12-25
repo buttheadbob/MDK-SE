@@ -10,3 +10,6 @@ public ITerminalProperty GetProperty(string id)
 
 [ITerminalProperty](Sandbox.ModAPI.Interfaces.ITerminalProperty)
 
+### Parameters
+
+* [string](System.String) id

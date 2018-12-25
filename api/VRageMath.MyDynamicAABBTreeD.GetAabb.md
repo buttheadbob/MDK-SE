@@ -10,3 +10,6 @@ public BoundingBoxD GetAabb(int proxyId)
 
 [BoundingBoxD](VRageMath.BoundingBoxD)
 
+### Parameters
+
+* [int](System.Int32) proxyId

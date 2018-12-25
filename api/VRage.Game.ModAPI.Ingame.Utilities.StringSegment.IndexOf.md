@@ -10,6 +10,9 @@ public int IndexOf(char ch)
 
 [int](System.Int32)
 
+### Parameters
+
+* [char](System.Char) ch
 ### Summary
 
 ```csharp
@@ -20,3 +23,7 @@ public int IndexOf(char ch, int start)
 
 [int](System.Int32)
 
+### Parameters
+
+* [char](System.Char) ch
+* [int](System.Int32) start

@@ -6,3 +6,6 @@
 public void GetMatrix(ref Matrix result)
 ```
 
+### Parameters
+
+* [Matrix](VRageMath.Matrix) result

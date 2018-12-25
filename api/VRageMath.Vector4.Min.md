@@ -12,6 +12,10 @@ Returns a vector that contains the lowest value from each matching pair of compo
 
 [Vector4](VRageMath.Vector4)
 
+### Parameters
+
+* [Vector4](VRageMath.Vector4) value1
+* [Vector4](VRageMath.Vector4) value2
 ### Summary
 
 ```csharp
@@ -20,3 +24,8 @@ public void Min(ref Vector4 value1, ref Vector4 value2, ref Vector4 result)
 
 Returns a vector that contains the lowest value from each matching pair of components.
 
+### Parameters
+
+* [Vector4](VRageMath.Vector4) value1
+* [Vector4](VRageMath.Vector4) value2
+* [Vector4](VRageMath.Vector4) result

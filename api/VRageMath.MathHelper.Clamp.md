@@ -12,6 +12,11 @@ Restricts a value to be within a specified range. Reference page contains links 
 
 [float](System.Single)
 
+### Parameters
+
+* [float](System.Single) value
+* [float](System.Single) min
+* [float](System.Single) max
 ### Summary
 
 ```csharp
@@ -24,6 +29,11 @@ Restricts a value to be within a specified range. Reference page contains links 
 
 [double](System.Double)
 
+### Parameters
+
+* [double](System.Double) value
+* [double](System.Double) min
+* [double](System.Double) max
 ### Summary
 
 ```csharp
@@ -36,6 +46,11 @@ Restricts a value to be within a specified range. Reference page contains links 
 
 [MyFixedPoint](VRage.MyFixedPoint)
 
+### Parameters
+
+* [MyFixedPoint](VRage.MyFixedPoint) value
+* [MyFixedPoint](VRage.MyFixedPoint) min
+* [MyFixedPoint](VRage.MyFixedPoint) max
 ### Summary
 
 ```csharp
@@ -48,3 +63,8 @@ Restricts a value to be within a specified range. Reference page contains links 
 
 [int](System.Int32)
 
+### Parameters
+
+* [int](System.Int32) value
+* [int](System.Int32) min
+* [int](System.Int32) max

@@ -3,11 +3,16 @@
 #### MyGridProgram Class
 
 ```csharp
-public abstract class MyGridProgram: 
+public abstract class MyGridProgram: object, IMyGridProgram
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
+
+**Inheritance: **[object](System.Object)
+
+**Implements:**  
+* IMyGridProgram
 
 #### Example
 

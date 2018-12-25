@@ -10,3 +10,6 @@ public float ToSRGBComponent(float c)
 
 [float](System.Single)
 
+### Parameters
+
+* [float](System.Single) c

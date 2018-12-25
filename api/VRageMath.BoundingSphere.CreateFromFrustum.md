@@ -12,3 +12,6 @@ Creates the smallest BoundingSphere that can contain a specified BoundingFrustum
 
 [BoundingSphere](VRageMath.BoundingSphere)
 
+### Parameters
+
+* [BoundingFrustum](VRageMath.BoundingFrustum) frustum

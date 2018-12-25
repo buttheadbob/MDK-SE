@@ -12,6 +12,10 @@ Transforms a Matrix by applying a Quaternion rotation.
 
 [MatrixD](VRageMath.MatrixD)
 
+### Parameters
+
+* [MatrixD](VRageMath.MatrixD) value
+* [Quaternion](VRageMath.Quaternion) rotation
 ### Summary
 
 ```csharp
@@ -20,3 +24,8 @@ public void Transform(ref MatrixD value, ref Quaternion rotation, ref MatrixD
 
 Transforms a Matrix by applying a Quaternion rotation.
 
+### Parameters
+
+* [MatrixD](VRageMath.MatrixD) value
+* [Quaternion](VRageMath.Quaternion) rotation
+* [MatrixD](VRageMath.MatrixD) result

@@ -10,3 +10,6 @@ public DirectionFlags GetDirectionFlag(Direction dir)
 
 [DirectionFlags](VRageMath.Base6Directions+DirectionFlags)
 
+### Parameters
+
+* [Direction](VRageMath.Base6Directions+Direction) dir

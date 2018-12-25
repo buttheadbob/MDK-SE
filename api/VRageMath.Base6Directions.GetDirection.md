@@ -10,6 +10,9 @@ public Direction GetDirection(Vector3 vec)
 
 [Direction](VRageMath.Base6Directions+Direction)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) vec
 ### Summary
 
 ```csharp
@@ -20,6 +23,9 @@ public Direction GetDirection(ref Vector3 vec)
 
 [Direction](VRageMath.Base6Directions+Direction)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) vec
 ### Summary
 
 ```csharp
@@ -30,6 +36,9 @@ public Direction GetDirection(Vector3I vec)
 
 [Direction](VRageMath.Base6Directions+Direction)
 
+### Parameters
+
+* [Vector3I](VRageMath.Vector3I) vec
 ### Summary
 
 ```csharp
@@ -40,3 +49,6 @@ public Direction GetDirection(ref Vector3I vec)
 
 [Direction](VRageMath.Base6Directions+Direction)
 
+### Parameters
+
+* [Vector3I](VRageMath.Vector3I) vec

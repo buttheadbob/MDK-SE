@@ -12,6 +12,10 @@ Multiplies the components of two vectors by each other.
 
 [Vector3D](VRageMath.Vector3D)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) value1
+* [Vector3D](VRageMath.Vector3D) value2
 ### Summary
 
 ```csharp
@@ -20,6 +24,11 @@ public void Multiply(ref Vector3D value1, ref Vector3D value2, ref Vector3D r
 
 Multiplies the components of two vectors by each other.
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) value1
+* [Vector3D](VRageMath.Vector3D) value2
+* [Vector3D](VRageMath.Vector3D) result
 ### Summary
 
 ```csharp
@@ -32,6 +41,10 @@ Multiplies a vector by a scalar value.
 
 [Vector3D](VRageMath.Vector3D)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) value1
+* [double](System.Double) scaleFactor
 ### Summary
 
 ```csharp
@@ -40,3 +53,8 @@ public void Multiply(ref Vector3D value1, double scaleFactor, ref Vector3D res
 
 Multiplies a vector by a scalar value.
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) value1
+* [double](System.Double) scaleFactor
+* [Vector3D](VRageMath.Vector3D) result

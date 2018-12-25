@@ -8,5 +8,5 @@ public DictionaryValuesReader<K, V> Leaves { get; }
 
 ### Returns
 
-[DictionaryValuesReader<K, V>](VRage.Collections.DictionaryValuesReader`2)
+DictionaryValuesReader<K, V>
 

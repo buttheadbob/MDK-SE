@@ -10,3 +10,6 @@ public float ProjectedArea(Vector3 viewDir)
 
 [float](System.Single)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) viewDir

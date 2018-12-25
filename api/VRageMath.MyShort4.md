@@ -3,11 +3,13 @@
 #### MyShort4 Struct
 
 ```csharp
-public struct MyShort4: 
+public struct MyShort4: ValueType
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+**Inheritance: **[ValueType](System.ValueType)
 
 #### Example
 

@@ -14,6 +14,9 @@ return expanded aabb (abb include point)
 
 
 
+### Parameters
+
+* [Vector2D](VRageMath.Vector2D) point
 ### Summary
 
 ```csharp
@@ -24,6 +27,9 @@ public BoundingBox2D Include(Vector2D point)
 
 [BoundingBox2D](VRageMath.BoundingBox2D)
 
+### Parameters
+
+* [Vector2D](VRageMath.Vector2D) point
 ### Summary
 
 ```csharp
@@ -34,6 +40,11 @@ public BoundingBox2D Include(Vector2D p0, Vector2D p1, Vector2D p2)
 
 [BoundingBox2D](VRageMath.BoundingBox2D)
 
+### Parameters
+
+* [Vector2D](VRageMath.Vector2D) p0
+* [Vector2D](VRageMath.Vector2D) p1
+* [Vector2D](VRageMath.Vector2D) p2
 ### Summary
 
 ```csharp
@@ -44,6 +55,11 @@ public BoundingBox2D Include(ref Vector2D p0, ref Vector2D p1, ref Vector2D p
 
 [BoundingBox2D](VRageMath.BoundingBox2D)
 
+### Parameters
+
+* [Vector2D](VRageMath.Vector2D) p0
+* [Vector2D](VRageMath.Vector2D) p1
+* [Vector2D](VRageMath.Vector2D) p2
 ### Summary
 
 ```csharp
@@ -58,6 +74,9 @@ return expanded aabb (abb include point)
 
 
 
+### Parameters
+
+* [BoundingBox2D](VRageMath.BoundingBox2D) box
 ### Summary
 
 ```csharp
@@ -68,3 +87,6 @@ public BoundingBox2D Include(BoundingBox2D box)
 
 [BoundingBox2D](VRageMath.BoundingBox2D)
 
+### Parameters
+
+* [BoundingBox2D](VRageMath.BoundingBox2D) box

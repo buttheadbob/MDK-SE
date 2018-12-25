@@ -16,3 +16,7 @@ A GPS coordinate has the format GPS:Name:X:Y:Z:
 
 
 
+### Parameters
+
+* [string](System.String) text
+* [MyWaypointInfo](Sandbox.ModAPI.Ingame.MyWaypointInfo) gps

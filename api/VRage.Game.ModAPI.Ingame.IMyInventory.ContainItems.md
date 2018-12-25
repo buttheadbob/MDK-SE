@@ -10,3 +10,7 @@ public bool ContainItems(MyFixedPoint amount, MyObjectBuilder_PhysicalObject ob)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [MyFixedPoint](VRage.MyFixedPoint) amount
+* MyObjectBuilder_PhysicalObject ob

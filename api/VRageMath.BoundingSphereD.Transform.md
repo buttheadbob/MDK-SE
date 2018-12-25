@@ -12,6 +12,9 @@ Translates and scales the BoundingSphereD using a given Matrix.
 
 [BoundingSphereD](VRageMath.BoundingSphereD)
 
+### Parameters
+
+* [MatrixD](VRageMath.MatrixD) matrix
 ### Summary
 
 ```csharp
@@ -20,3 +23,7 @@ public void Transform(ref MatrixD matrix, ref BoundingSphereD result)
 
 Translates and scales the BoundingSphereD using a given Matrix.
 
+### Parameters
+
+* [MatrixD](VRageMath.MatrixD) matrix
+* [BoundingSphereD](VRageMath.BoundingSphereD) result

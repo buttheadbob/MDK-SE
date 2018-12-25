@@ -3,11 +3,13 @@
 #### SymmetricSerializableRange Struct
 
 ```csharp
-public struct SymmetricSerializableRange: 
+public struct SymmetricSerializableRange: ValueType
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
+
+**Inheritance: **[ValueType](System.ValueType)
 
 #### Example
 

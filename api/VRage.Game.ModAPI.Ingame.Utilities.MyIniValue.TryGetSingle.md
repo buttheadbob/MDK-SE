@@ -14,3 +14,6 @@ Attempts to get this value as a [System.Single](https://docs.microsoft.com/en-us
 
 `true`if the value could be understood as this data type;`false`otherwise
 
+### Parameters
+
+* [float](System.Single) value

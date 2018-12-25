@@ -12,3 +12,6 @@ Resource production is enabled
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [MyDefinitionId](VRage.Game.MyDefinitionId) resourceTypeId

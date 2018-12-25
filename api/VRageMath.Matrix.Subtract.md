@@ -8,6 +8,11 @@ public void Subtract(ref Matrix matrix1, ref Matrix matrix2, ref Matrix resul
 
 Subtracts matrices.
 
+### Parameters
+
+* [Matrix](VRageMath.Matrix) matrix1
+* [Matrix](VRageMath.Matrix) matrix2
+* [Matrix](VRageMath.Matrix) result
 ### Summary
 
 ```csharp
@@ -20,3 +25,7 @@ Subtracts matrices.
 
 [Matrix](VRageMath.Matrix)
 
+### Parameters
+
+* [Matrix](VRageMath.Matrix) matrix1
+* [Matrix](VRageMath.Matrix) matrix2

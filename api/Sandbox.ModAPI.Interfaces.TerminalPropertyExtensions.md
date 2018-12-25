@@ -3,11 +3,13 @@
 #### TerminalPropertyExtensions Class
 
 ```csharp
-public abstract sealed class TerminalPropertyExtensions: 
+public abstract sealed class TerminalPropertyExtensions: object
 ```
 
 **Namespace:** [Sandbox.ModAPI.Interfaces](Sandbox.ModAPI.Interfaces)  
 **Assembly:** Sandbox.Common.dll
+
+**Inheritance: **[object](System.Object)
 
 #### Example
 

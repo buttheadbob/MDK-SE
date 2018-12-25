@@ -12,3 +12,6 @@ Returns true if there is any block occupying given position
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Vector3I](VRageMath.Vector3I) pos

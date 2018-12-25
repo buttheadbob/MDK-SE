@@ -10,3 +10,7 @@ public T GetMaximum<T>(IMyTerminalBlock block, string propertyId)
 
 [T]()
 
+### Parameters
+
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock) block
+* [string](System.String) propertyId

@@ -14,3 +14,6 @@ Attempts to get this value as a [System.Single](https://docs.microsoft.com/en-us
 
 
 
+### Parameters
+
+* [float](System.Single) defaultValue

@@ -12,6 +12,9 @@ Calculates the inverse of a matrix.
 
 [Matrix](VRageMath.Matrix)
 
+### Parameters
+
+* [Matrix](VRageMath.Matrix) matrix
 ### Summary
 
 ```csharp
@@ -22,6 +25,9 @@ public Matrix Invert(ref Matrix matrix)
 
 [Matrix](VRageMath.Matrix)
 
+### Parameters
+
+* [Matrix](VRageMath.Matrix) matrix
 ### Summary
 
 ```csharp
@@ -30,3 +36,7 @@ public void Invert(ref Matrix matrix, ref Matrix result)
 
 Calculates the inverse of a matrix.
 
+### Parameters
+
+* [Matrix](VRageMath.Matrix) matrix
+* [Matrix](VRageMath.Matrix) result

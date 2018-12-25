@@ -8,3 +8,6 @@ public void SetDockingMode(bool enabled)
 
 Enables or disables docking mode.
 
+### Parameters
+
+* [bool](System.Boolean) enabled

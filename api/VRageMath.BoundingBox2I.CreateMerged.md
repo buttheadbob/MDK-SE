@@ -12,6 +12,10 @@ Creates the smallest BoundingBox2I that contains the two specified BoundingBox2I
 
 [BoundingBox2I](VRageMath.BoundingBox2I)
 
+### Parameters
+
+* [BoundingBox2I](VRageMath.BoundingBox2I) original
+* [BoundingBox2I](VRageMath.BoundingBox2I) additional
 ### Summary
 
 ```csharp
@@ -20,3 +24,8 @@ public void CreateMerged(ref BoundingBox2I original, ref BoundingBox2I additio
 
 Creates the smallest BoundingBox2I that contains the two specified BoundingBox2I instances.
 
+### Parameters
+
+* [BoundingBox2I](VRageMath.BoundingBox2I) original
+* [BoundingBox2I](VRageMath.BoundingBox2I) additional
+* [BoundingBox2I](VRageMath.BoundingBox2I) result

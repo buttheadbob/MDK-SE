@@ -10,6 +10,9 @@ public bool IsBaseDirection(ref Vector3 vec)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) vec
 ### Summary
 
 ```csharp
@@ -20,6 +23,9 @@ public bool IsBaseDirection(ref Vector3I vec)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Vector3I](VRageMath.Vector3I) vec
 ### Summary
 
 ```csharp
@@ -30,3 +36,6 @@ public bool IsBaseDirection(Vector3 vec)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) vec

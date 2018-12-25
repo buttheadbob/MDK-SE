@@ -10,3 +10,6 @@ public bool ValueBetween(float value)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [float](System.Single) value

@@ -12,6 +12,10 @@ Returns the reflection of a vector off a surface that has the specified normal. 
 
 [Vector3](VRageMath.Vector3)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) vector
+* [Vector3](VRageMath.Vector3) normal
 ### Summary
 
 ```csharp
@@ -20,3 +24,8 @@ public void Reflect(ref Vector3 vector, ref Vector3 normal, ref Vector3 resul
 
 Returns the reflection of a vector off a surface that has the specified normal. Reference page contains code sample.
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) vector
+* [Vector3](VRageMath.Vector3) normal
+* [Vector3](VRageMath.Vector3) result

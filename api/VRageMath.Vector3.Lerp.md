@@ -12,6 +12,11 @@ Performs a linear interpolation between two vectors.
 
 [Vector3](VRageMath.Vector3)
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) value1
+* [Vector3](VRageMath.Vector3) value2
+* [float](System.Single) amount
 ### Summary
 
 ```csharp
@@ -20,3 +25,9 @@ public void Lerp(ref Vector3 value1, ref Vector3 value2, float amount, ref Ve
 
 Performs a linear interpolation between two vectors.
 
+### Parameters
+
+* [Vector3](VRageMath.Vector3) value1
+* [Vector3](VRageMath.Vector3) value2
+* [float](System.Single) amount
+* [Vector3](VRageMath.Vector3) result

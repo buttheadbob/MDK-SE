@@ -6,3 +6,7 @@
 public void Query(Func<T, TResult> callback, ref BoundingBoxD aabb)
 ```
 
+### Parameters
+
+* [Func<T, TResult>](System.Func`2) callback
+* [BoundingBoxD](VRageMath.BoundingBoxD) aabb

@@ -12,6 +12,10 @@ Creates a new Matrix that rotates around an arbitrary vector.
 
 [MatrixD](VRageMath.MatrixD)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) axis
+* [double](System.Double) angle
 ### Summary
 
 ```csharp
@@ -20,3 +24,8 @@ public void CreateFromAxisAngle(ref Vector3D axis, double angle, ref MatrixD r
 
 Creates a new Matrix that rotates around an arbitrary vector.
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) axis
+* [double](System.Double) angle
+* [MatrixD](VRageMath.MatrixD) result

@@ -6,3 +6,6 @@
 public void GetUpgrades(ref Dictionary<TKey, TValue> upgrades)
 ```
 
+### Parameters
+
+* [Dictionary<TKey, TValue>](System.Collections.Generic.Dictionary`2) upgrades

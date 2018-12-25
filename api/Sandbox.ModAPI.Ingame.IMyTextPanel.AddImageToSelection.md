@@ -6,3 +6,7 @@
 public void AddImageToSelection(string id, bool checkExistence)
 ```
 
+### Parameters
+
+* [string](System.String) id
+* [bool](System.Boolean) checkExistence

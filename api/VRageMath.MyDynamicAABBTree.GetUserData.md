@@ -10,3 +10,6 @@ public T GetUserData<T>(int proxyId)
 
 [T]()
 
+### Parameters
+
+* [int](System.Int32) proxyId

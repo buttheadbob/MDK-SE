@@ -10,6 +10,9 @@ public bool Intersects(ref BoundingBox box)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [BoundingBox](VRageMath.BoundingBox) box
 ### Summary
 
 ```csharp
@@ -20,6 +23,9 @@ public bool Intersects(ref BoundingBoxD box)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [BoundingBoxD](VRageMath.BoundingBoxD) box
 ### Summary
 
 ```csharp
@@ -30,6 +36,9 @@ public bool Intersects(ref MyOrientedBoundingBoxD other)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [MyOrientedBoundingBoxD](VRageMath.MyOrientedBoundingBoxD) other
 ### Summary
 
 ```csharp
@@ -40,6 +49,9 @@ public bool Intersects(BoundingFrustumD frustum)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [BoundingFrustumD](VRageMath.BoundingFrustumD) frustum
 ### Summary
 
 ```csharp
@@ -50,6 +62,9 @@ public bool Intersects(ref BoundingSphereD sphere)
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [BoundingSphereD](VRageMath.BoundingSphereD) sphere
 ### Summary
 
 ```csharp
@@ -60,6 +75,9 @@ public Nullable<T> Intersects(ref RayD ray)
 
 [Nullable<T>](System.Nullable`1)
 
+### Parameters
+
+* [RayD](VRageMath.RayD) ray
 ### Summary
 
 ```csharp
@@ -70,6 +88,9 @@ public Nullable<T> Intersects(ref LineD line)
 
 [Nullable<T>](System.Nullable`1)
 
+### Parameters
+
+* [LineD](VRageMath.LineD) line
 ### Summary
 
 ```csharp
@@ -80,3 +101,6 @@ public PlaneIntersectionType Intersects(ref PlaneD plane)
 
 [PlaneIntersectionType](VRageMath.PlaneIntersectionType)
 
+### Parameters
+
+* [PlaneD](VRageMath.PlaneD) plane

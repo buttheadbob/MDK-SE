@@ -14,3 +14,7 @@ Projects vector on another vector resulting in new vector in guided vector's dir
 
 Vector projected on guide vector
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) vec
+* [Vector3D](VRageMath.Vector3D) guideVector

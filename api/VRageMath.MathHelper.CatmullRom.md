@@ -12,3 +12,10 @@ Performs a Catmull-Rom interpolation using the specified positions.
 
 [float](System.Single)
 
+### Parameters
+
+* [float](System.Single) value1
+* [float](System.Single) value2
+* [float](System.Single) value3
+* [float](System.Single) value4
+* [float](System.Single) amount

@@ -10,3 +10,6 @@ public ITerminalProperty<TValue> As<TValue>(ITerminalProperty property)
 
 [ITerminalProperty<TValue>](Sandbox.ModAPI.Interfaces.ITerminalProperty`1)
 
+### Parameters
+
+* [ITerminalProperty](Sandbox.ModAPI.Interfaces.ITerminalProperty) property

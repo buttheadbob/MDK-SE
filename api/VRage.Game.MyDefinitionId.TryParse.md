@@ -14,6 +14,10 @@ Attempts to create a definition ID from a definition string, which has the form 
 
 
 
+### Parameters
+
+* [string](System.String) id
+* [MyDefinitionId](VRage.Game.MyDefinitionId) definitionId
 ### Summary
 
 ```csharp
@@ -24,3 +28,8 @@ public bool TryParse(string type, string subtype, ref MyDefinitionId definition
 
 [bool](System.Boolean)
 
+### Parameters
+
+* [string](System.String) type
+* [string](System.String) subtype
+* [MyDefinitionId](VRage.Game.MyDefinitionId) definitionId

@@ -10,3 +10,6 @@ public Vector4 GetRow(int row)
 
 [Vector4](VRageMath.Vector4)
 
+### Parameters
+
+* [int](System.Int32) row

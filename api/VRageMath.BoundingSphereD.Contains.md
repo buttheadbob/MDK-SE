@@ -12,6 +12,9 @@ Checks whether the current BoundingSphereD contains the specified BoundingBoxD.
 
 [ContainmentType](VRageMath.ContainmentType)
 
+### Parameters
+
+* [BoundingBoxD](VRageMath.BoundingBoxD) box
 ### Summary
 
 ```csharp
@@ -20,6 +23,10 @@ public void Contains(ref BoundingBoxD box, ref ContainmentType result)
 
 Checks whether the current BoundingSphereD contains the specified BoundingBoxD.
 
+### Parameters
+
+* [BoundingBoxD](VRageMath.BoundingBoxD) box
+* [ContainmentType](VRageMath.ContainmentType) result
 ### Summary
 
 ```csharp
@@ -32,6 +39,9 @@ Checks whether the current BoundingSphereD contains the specified BoundingFrustu
 
 [ContainmentType](VRageMath.ContainmentType)
 
+### Parameters
+
+* [BoundingFrustumD](VRageMath.BoundingFrustumD) frustum
 ### Summary
 
 ```csharp
@@ -44,6 +54,9 @@ Checks whether the current BoundingSphereD contains the specified point.
 
 [ContainmentType](VRageMath.ContainmentType)
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) point
 ### Summary
 
 ```csharp
@@ -52,6 +65,10 @@ public void Contains(ref Vector3D point, ref ContainmentType result)
 
 Checks whether the current BoundingSphereD contains the specified point.
 
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) point
+* [ContainmentType](VRageMath.ContainmentType) result
 ### Summary
 
 ```csharp
@@ -64,6 +81,9 @@ Checks whether the current BoundingSphereD contains the specified BoundingSphere
 
 [ContainmentType](VRageMath.ContainmentType)
 
+### Parameters
+
+* [BoundingSphereD](VRageMath.BoundingSphereD) sphere
 ### Summary
 
 ```csharp
@@ -72,3 +92,7 @@ public void Contains(ref BoundingSphereD sphere, ref ContainmentType result)
 
 Checks whether the current BoundingSphereD contains the specified BoundingSphereD.
 
+### Parameters
+
+* [BoundingSphereD](VRageMath.BoundingSphereD) sphere
+* [ContainmentType](VRageMath.ContainmentType) result

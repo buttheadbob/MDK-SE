@@ -10,3 +10,6 @@ public int Balance(int iA)
 
 [int](System.Int32)
 
+### Parameters
+
+* [int](System.Int32) iA

@@ -12,3 +12,7 @@ Calculates the absolute value of the difference of two values.
 
 [float](System.Single)
 
+### Parameters
+
+* [float](System.Single) value1
+* [float](System.Single) value2

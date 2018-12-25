@@ -14,3 +14,6 @@ Gets if the specified button has a custom name set.
 
 
 
+### Parameters
+
+* [int](System.Int32) index

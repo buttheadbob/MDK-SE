@@ -8,5 +8,5 @@ public HalfVector4 Orientation
 
 ### Returns
 
-[HalfVector4](VRageMath.PackedVector.HalfVector4)
+HalfVector4
 

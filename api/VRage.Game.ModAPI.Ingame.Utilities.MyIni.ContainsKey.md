@@ -14,6 +14,10 @@ Determines whether a configuration key (section/key) exists in the currently par
 
 
 
+### Parameters
+
+* [string](System.String) section
+* [string](System.String) name
 ### Summary
 
 ```csharp
@@ -28,3 +32,6 @@ Determines whether a configuration key (section/key) exists in the currently par
 
 
 
+### Parameters
+
+* [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) key

@@ -10,3 +10,6 @@ public long GetId(IMyTerminalBlock block)
 
 [long](System.Int64)
 
+### Parameters
+
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock) block

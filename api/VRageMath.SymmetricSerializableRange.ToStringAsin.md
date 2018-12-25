@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public ToStringAsin
-```csharp
+private public string ToStringAsin
+```
 
 ### Returns
 

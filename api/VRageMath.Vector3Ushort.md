@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### Vector3Ushort Struct
+#### Vector3Ushort Struct
 
 ```csharp
 private public sealed Vector3Ushort
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|
@@ -21,7 +21,7 @@ private public sealed Vector3Ushort
 |[Y](VRageMath.Vector3Ushort.Y)||
 |[Z](VRageMath.Vector3Ushort.Z)||
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

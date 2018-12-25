@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public FindLineNo
-```csharp
+private public int FindLineNo
+```
 
 ### Returns
 

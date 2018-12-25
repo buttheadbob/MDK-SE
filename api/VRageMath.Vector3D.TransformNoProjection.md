@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public TransformNoProjection
-```csharp
+private public void TransformNoProjection
+```
 
 ### Returns
 

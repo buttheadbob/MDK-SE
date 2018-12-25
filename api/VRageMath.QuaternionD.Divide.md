@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Divide
-```csharp
+private public private public sealed QuaternionD Divide
+```
 
 Divides a QuaternionD by another QuaternionD.
 
@@ -17,8 +17,8 @@ Divides a QuaternionD by another QuaternionD.
 ### Summary
 
 ```csharp
-private public Divide
-```csharp
+private public void Divide
+```
 
 Divides a QuaternionD by another QuaternionD.
 

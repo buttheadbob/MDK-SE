@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual WorldToGridInteger
-```csharp
+private public abstract virtual private public sealed Vector3I WorldToGridInteger
+```
 
 Converts world coordinates to grid space cell coordinates
 

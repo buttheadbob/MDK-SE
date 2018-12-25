@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Top
-```csharp
+private public int Top
+```
 
 Returns the y-coordinate of the top of the rectangle.
 

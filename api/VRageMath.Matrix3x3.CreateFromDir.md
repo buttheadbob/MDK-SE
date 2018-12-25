@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreateFromDir
-```csharp
+private public private public sealed Matrix3x3 CreateFromDir
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public CreateFromDir
 ### Summary
 
 ```csharp
-private public CreateFromDir
-```csharp
+private public private public sealed Matrix3x3 CreateFromDir
+```
 
 ### Returns
 

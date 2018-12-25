@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Max
-```csharp
+private public private public sealed Vector3I Max
+```
 
 The maximum point the BoundingBoxI contains.
 

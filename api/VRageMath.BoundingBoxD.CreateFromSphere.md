@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreateFromSphere
-```csharp
+private public private public sealed BoundingBoxD CreateFromSphere
+```
 
 Creates the smallest BoundingBox that will contain the specified BoundingSphere.
 
@@ -17,8 +17,8 @@ Creates the smallest BoundingBox that will contain the specified BoundingSphere.
 ### Summary
 
 ```csharp
-private public CreateFromSphere
-```csharp
+private public void CreateFromSphere
+```
 
 Creates the smallest BoundingBox that will contain the specified BoundingSphere.
 

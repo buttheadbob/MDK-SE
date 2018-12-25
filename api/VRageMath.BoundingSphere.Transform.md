@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public private public sealed BoundingSphere Transform
+```
 
 Translates and scales the BoundingSphere using a given Matrix.
 
@@ -17,8 +17,8 @@ Translates and scales the BoundingSphere using a given Matrix.
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public void Transform
+```
 
 Translates and scales the BoundingSphere using a given Matrix.
 

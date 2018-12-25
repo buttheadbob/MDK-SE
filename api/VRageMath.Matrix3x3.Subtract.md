@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Subtract
-```csharp
+private public void Subtract
+```
 
 Subtracts matrices.
 

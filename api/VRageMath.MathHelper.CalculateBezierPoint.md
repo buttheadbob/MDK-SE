@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CalculateBezierPoint
-```csharp
+private public private public sealed Vector3D CalculateBezierPoint
+```
 
 ### Returns
 

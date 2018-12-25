@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreateOrthographicOffCenter
-```csharp
+private public private public sealed MatrixD CreateOrthographicOffCenter
+```
 
 Builds a customized, orthogonal projection matrix.
 
@@ -17,8 +17,8 @@ Builds a customized, orthogonal projection matrix.
 ### Summary
 
 ```csharp
-private public CreateOrthographicOffCenter
-```csharp
+private public void CreateOrthographicOffCenter
+```
 
 Builds a customized, orthogonal projection matrix.
 

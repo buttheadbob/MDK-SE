@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public PackOrthoMatrix
-```csharp
+private public private public sealed Vector4 PackOrthoMatrix
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public PackOrthoMatrix
 ### Summary
 
 ```csharp
-private public PackOrthoMatrix
-```csharp
+private public private public sealed Vector4 PackOrthoMatrix
+```
 
 ### Returns
 

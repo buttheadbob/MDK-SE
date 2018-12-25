@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public AddSafe
-```csharp
+private public private public sealed MyFixedPoint AddSafe
+```
 
 ### Returns
 

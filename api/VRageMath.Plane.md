@@ -1,26 +1,26 @@
 ← [Index](Api-Index)
 
-### Plane Struct
+#### Plane Struct
 
 ```csharp
 private public sealed Plane
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|
 |[Normal](VRageMath.Plane.Normal)|The normal vector of the Plane.|
 |[D](VRageMath.Plane.D)|The distance of the Plane along its normal from the origin. Note: Be careful! The distance is signed and is the opposite of what people usually expect. If you look closely at the plane equation: (n dot P) - D = 0, you'll realize that D = - (n dot P) (that is, negative instead of positive)|
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

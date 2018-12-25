@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public One
-```csharp
+private public private public sealed Vector4D One
+```
 
 ### Returns
 

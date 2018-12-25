@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public RotateAndScale
-```csharp
+private public void RotateAndScale
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public RotateAndScale
 ### Summary
 
 ```csharp
-private public RotateAndScale
-```csharp
+private public private public sealed Vector3 RotateAndScale
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public IsEmpty
-```csharp
+private public bool IsEmpty
+```
 
 Determines whether this value is empty. Be aware that an empty string is not considered to be an empty value.
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Normal
-```csharp
+private public private public sealed Vector3 Normal
+```
 
 The normal vector of the Plane.
 

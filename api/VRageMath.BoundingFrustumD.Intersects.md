@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public bool Intersects
+```
 
 Checks whether the current BoundingFrustumD intersects the specified BoundingBoxD.
 
@@ -17,8 +17,8 @@ Checks whether the current BoundingFrustumD intersects the specified BoundingBox
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public void Intersects
+```
 
 Checks whether the current BoundingFrustumD intersects a BoundingBoxD.
 
@@ -31,8 +31,8 @@ Checks whether the current BoundingFrustumD intersects a BoundingBoxD.
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public bool Intersects
+```
 
 Checks whether the current BoundingFrustumD intersects the specified BoundingFrustumD.
 
@@ -45,8 +45,8 @@ Checks whether the current BoundingFrustumD intersects the specified BoundingFru
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public private public sealed PlaneIntersectionType Intersects
+```
 
 Checks whether the current BoundingFrustumD intersects the specified Plane.
 
@@ -59,8 +59,8 @@ Checks whether the current BoundingFrustumD intersects the specified Plane.
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public void Intersects
+```
 
 Checks whether the current BoundingFrustumD intersects a Plane.
 
@@ -73,8 +73,8 @@ Checks whether the current BoundingFrustumD intersects a Plane.
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public private public sealed Nullable<T> Intersects
+```
 
 Checks whether the current BoundingFrustumD intersects the specified Ray.
 
@@ -87,8 +87,8 @@ Checks whether the current BoundingFrustumD intersects the specified Ray.
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public void Intersects
+```
 
 ### Returns
 
@@ -99,8 +99,8 @@ private public Intersects
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public bool Intersects
+```
 
 Checks whether the current BoundingFrustumD intersects the specified BoundingSphere.
 
@@ -113,8 +113,8 @@ Checks whether the current BoundingFrustumD intersects the specified BoundingSph
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public void Intersects
+```
 
 Checks whether the current BoundingFrustumD intersects a BoundingSphere.
 

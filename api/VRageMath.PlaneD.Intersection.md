@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Intersection
-```csharp
+private public private public sealed Vector3D Intersection
+```
 
 Gets intersection point in Plane.
 

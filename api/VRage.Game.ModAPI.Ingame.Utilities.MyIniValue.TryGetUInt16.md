@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public TryGetUInt16
-```csharp
+private public bool TryGetUInt16
+```
 
 Attempts to get this value as a [System.UInt16](https://docs.microsoft.com/en-us/dotnet/api/system.uint16?view=netframework-4.6) . Fills the`value`on success.
 

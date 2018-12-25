@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetInflated
-```csharp
+private public private public sealed BoundingBoxD GetInflated
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public GetInflated
 ### Summary
 
 ```csharp
-private public GetInflated
-```csharp
+private public private public sealed BoundingBoxD GetInflated
+```
 
 ### Returns
 

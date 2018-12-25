@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetDefinitionId
-```csharp
+private public private public sealed MyDefinitionId GetDefinitionId
+```
 
 ### Returns
 

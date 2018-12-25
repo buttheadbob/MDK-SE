@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreateInvalid
-```csharp
+private public private public sealed BoundingBoxD CreateInvalid
+```
 
 ### Returns
 

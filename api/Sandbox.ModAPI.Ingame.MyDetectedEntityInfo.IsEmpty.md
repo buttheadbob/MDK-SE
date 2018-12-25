@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public IsEmpty
-```csharp
+private public bool IsEmpty
+```
 
 Determines if this structure is empty; meaning it does not contain any meaningful data
 

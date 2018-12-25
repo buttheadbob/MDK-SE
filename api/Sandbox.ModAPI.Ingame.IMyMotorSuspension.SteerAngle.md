@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual SteerAngle
-```csharp
+private public abstract virtual float SteerAngle
+```
 
 Wheel's current steering angle
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreateLookAt
-```csharp
+private public private public sealed MatrixD CreateLookAt
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public CreateLookAt
 ### Summary
 
 ```csharp
-private public CreateLookAt
-```csharp
+private public private public sealed MatrixD CreateLookAt
+```
 
 Creates a view matrix.
 
@@ -29,8 +29,8 @@ Creates a view matrix.
 ### Summary
 
 ```csharp
-private public CreateLookAt
-```csharp
+private public void CreateLookAt
+```
 
 Creates a view matrix.
 

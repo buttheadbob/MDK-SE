@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Right
-```csharp
+private public private public sealed Vector3 Right
+```
 
 ### Returns
 

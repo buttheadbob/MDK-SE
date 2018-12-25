@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Contains
-```csharp
+private public private public sealed ContainmentType Contains
+```
 
 Tests whether the BoundingBox contains another BoundingBox.
 
@@ -17,8 +17,8 @@ Tests whether the BoundingBox contains another BoundingBox.
 ### Summary
 
 ```csharp
-private public Contains
-```csharp
+private public void Contains
+```
 
 Tests whether the BoundingBox contains a BoundingBox.
 
@@ -31,8 +31,8 @@ Tests whether the BoundingBox contains a BoundingBox.
 ### Summary
 
 ```csharp
-private public Contains
-```csharp
+private public private public sealed ContainmentType Contains
+```
 
 Tests whether the BoundingBox contains a BoundingFrustum.
 
@@ -45,8 +45,8 @@ Tests whether the BoundingBox contains a BoundingFrustum.
 ### Summary
 
 ```csharp
-private public Contains
-```csharp
+private public private public sealed ContainmentType Contains
+```
 
 Tests whether the BoundingBox contains a point.
 
@@ -59,8 +59,8 @@ Tests whether the BoundingBox contains a point.
 ### Summary
 
 ```csharp
-private public Contains
-```csharp
+private public void Contains
+```
 
 Tests whether the BoundingBox contains a point.
 
@@ -73,8 +73,8 @@ Tests whether the BoundingBox contains a point.
 ### Summary
 
 ```csharp
-private public Contains
-```csharp
+private public private public sealed ContainmentType Contains
+```
 
 Tests whether the BoundingBox contains a BoundingSphere.
 
@@ -87,8 +87,8 @@ Tests whether the BoundingBox contains a BoundingSphere.
 ### Summary
 
 ```csharp
-private public Contains
-```csharp
+private public void Contains
+```
 
 Tests whether the BoundingBox contains a BoundingSphere.
 

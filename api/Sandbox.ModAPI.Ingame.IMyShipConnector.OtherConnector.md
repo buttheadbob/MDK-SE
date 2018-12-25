@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual OtherConnector
-```csharp
+private public abstract virtual private public abstract IMyShipConnector OtherConnector
+```
 
 Gets the connector this one is connected to when [Status](Sandbox.ModAPI.Ingame.IMyShipConnector.Status) is ConnectorStatus.Connected .
 

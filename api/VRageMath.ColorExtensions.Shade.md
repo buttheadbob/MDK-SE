@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Shade
-```csharp
+private public private public sealed Color Shade
+```
 
 ### Returns
 

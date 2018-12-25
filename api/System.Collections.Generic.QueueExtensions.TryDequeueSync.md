@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public TryDequeueSync<T>
-```csharp
+private public bool TryDequeueSync<T>
+```
 
 ### Returns
 

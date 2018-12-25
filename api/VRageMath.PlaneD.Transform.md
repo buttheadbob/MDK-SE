@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public private public sealed PlaneD Transform
+```
 
 Transforms a normalized PlaneD by a Matrix.
 
@@ -17,8 +17,8 @@ Transforms a normalized PlaneD by a Matrix.
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public void Transform
+```
 
 Transforms a normalized PlaneD by a Matrix.
 

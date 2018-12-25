@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetShortestDistanceSquared
-```csharp
+private public float GetShortestDistanceSquared
+```
 
 ### Returns
 

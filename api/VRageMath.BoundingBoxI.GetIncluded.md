@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetIncluded
-```csharp
+private public private public sealed BoundingBoxI GetIncluded
+```
 
 ### Returns
 

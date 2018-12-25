@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Max
-```csharp
+private public private public sealed Vector3I Max
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public Max
 ### Summary
 
 ```csharp
-private public Max
-```csharp
+private public void Max
+```
 
 ### Returns
 

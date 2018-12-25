@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Radius
-```csharp
+private public double Radius
+```
 
 The radius of the sphere.
 

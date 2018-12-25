@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public IsValidIndex<T>
-```csharp
+private public bool IsValidIndex<T>
+```
 
 ### Returns
 

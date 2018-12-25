@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### MyDefinitionId Struct
+#### MyDefinitionId Struct
 
 ```csharp
 private public sealed MyDefinitionId
-```csharp
+```
 
 **Namespace:** [VRage.Game](VRage.Game)  
 **Assembly:** VRage.Game.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|
@@ -21,13 +21,13 @@ private public sealed MyDefinitionId
 |[SubtypeId](VRage.Game.MyDefinitionId.SubtypeId)||
 |[Comparer](VRage.Game.MyDefinitionId.Comparer)||
 
-###### Properties
+#### Properties
 
 |Member|Description|
 |---|---|
 |[SubtypeName](VRage.Game.MyDefinitionId.SubtypeName)||
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

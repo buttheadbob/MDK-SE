@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public ComputeHashFromBytes
-```csharp
+private public int ComputeHashFromBytes
+```
 
 ### Returns
 

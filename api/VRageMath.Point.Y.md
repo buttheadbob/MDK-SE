@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Y
-```csharp
+private public int Y
+```
 
 Specifies the y-coordinate of the Point.
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public virtual GridTerminalSystem
-```csharp
+private public virtual private public abstract IMyGridTerminalSystem GridTerminalSystem
+```
 
 Provides access to the grid terminal system as viewed from this programmable block.
 

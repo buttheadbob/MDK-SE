@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public AddOrInsert<T>
-```csharp
+private public void AddOrInsert<T>
+```
 
 ### Returns
 

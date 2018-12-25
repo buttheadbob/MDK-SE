@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual HasCustomButtonName
-```csharp
+private public abstract virtual bool HasCustomButtonName
+```
 
 Gets if the specified button has a custom name set.
 

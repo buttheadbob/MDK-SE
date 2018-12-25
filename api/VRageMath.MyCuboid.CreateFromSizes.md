@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreateFromSizes
-```csharp
+private public void CreateFromSizes
+```
 
 ### Returns
 

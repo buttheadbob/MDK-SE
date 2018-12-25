@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Height
-```csharp
+private public float Height
+```
 
 Height of this rectangle.
 

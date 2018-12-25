@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public SetDirection
-```csharp
+private public void SetDirection
+```
 
 ### Returns
 

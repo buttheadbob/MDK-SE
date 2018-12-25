@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public EnsureCapacity<T>
-```csharp
+private public void EnsureCapacity<T>
+```
 
 ### Returns
 

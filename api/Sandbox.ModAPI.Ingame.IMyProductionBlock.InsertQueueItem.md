@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual InsertQueueItem
-```csharp
+private public abstract virtual void InsertQueueItem
+```
 
 Inserts a blueprint into the production queue
 
@@ -17,8 +17,8 @@ Inserts a blueprint into the production queue
 ### Summary
 
 ```csharp
-private public abstract virtual InsertQueueItem
-```csharp
+private public abstract virtual void InsertQueueItem
+```
 
 Inserts a blueprint into the production queue
 
@@ -31,8 +31,8 @@ Inserts a blueprint into the production queue
 ### Summary
 
 ```csharp
-private public abstract virtual InsertQueueItem
-```csharp
+private public abstract virtual void InsertQueueItem
+```
 
 Inserts a blueprint into the production queue
 

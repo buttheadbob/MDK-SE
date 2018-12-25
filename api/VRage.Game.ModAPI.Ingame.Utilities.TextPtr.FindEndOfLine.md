@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public FindEndOfLine
-```csharp
+private public private public sealed TextPtr FindEndOfLine
+```
 
 ### Returns
 

@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### Base6Directions Class
+#### Base6Directions Class
 
 ```csharp
 private public Base6Directions
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|
@@ -21,7 +21,7 @@ private public Base6Directions
 |[Directions](VRageMath.Base6Directions.Directions)||
 |[IntDirections](VRageMath.Base6Directions.IntDirections)||
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

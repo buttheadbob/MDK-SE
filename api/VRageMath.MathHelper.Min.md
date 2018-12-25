@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Min
-```csharp
+private public float Min
+```
 
 Returns the lesser of two values.
 
@@ -17,8 +17,8 @@ Returns the lesser of two values.
 ### Summary
 
 ```csharp
-private public Min
-```csharp
+private public double Min
+```
 
 Returns the lesser of two values.
 
@@ -31,8 +31,8 @@ Returns the lesser of two values.
 ### Summary
 
 ```csharp
-private public Min
-```csharp
+private public float Min
+```
 
 ### Returns
 
@@ -43,8 +43,8 @@ private public Min
 ### Summary
 
 ```csharp
-private public Min
-```csharp
+private public double Min
+```
 
 ### Returns
 

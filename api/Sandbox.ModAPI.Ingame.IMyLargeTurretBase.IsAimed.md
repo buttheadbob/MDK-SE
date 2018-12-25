@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual IsAimed
-```csharp
+private public abstract virtual bool IsAimed
+```
 
 ### Returns
 

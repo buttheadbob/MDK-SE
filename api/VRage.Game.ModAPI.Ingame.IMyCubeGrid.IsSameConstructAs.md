@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual IsSameConstructAs
-```csharp
+private public abstract virtual bool IsSameConstructAs
+```
 
 Determines whether this grid is mechanically connected to the other. This is any grid connected with rotors or pistons or other mechanical devices, but not things like connectors. This will in most cases constitute your complete construct.  
   

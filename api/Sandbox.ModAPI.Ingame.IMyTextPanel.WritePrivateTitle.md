@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual WritePrivateTitle
-```csharp
+private public abstract virtual bool WritePrivateTitle
+```
 
 ### Returns
 

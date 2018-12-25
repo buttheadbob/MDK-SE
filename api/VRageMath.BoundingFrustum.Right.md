@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Right
-```csharp
+private public private public sealed Plane Right
+```
 
 Gets the right plane of the BoundingFrustum.
 

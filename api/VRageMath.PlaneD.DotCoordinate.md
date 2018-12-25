@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public DotCoordinate
-```csharp
+private public double DotCoordinate
+```
 
 Returns the dot product of a specified Vector3D and the Normal vector of this PlaneD plus the distance (D) value of the PlaneD.
 
@@ -17,8 +17,8 @@ Returns the dot product of a specified Vector3D and the Normal vector of this Pl
 ### Summary
 
 ```csharp
-private public DotCoordinate
-```csharp
+private public void DotCoordinate
+```
 
 Returns the dot product of a specified Vector3D and the Normal vector of this PlaneD plus the distance (D) value of the PlaneD.
 

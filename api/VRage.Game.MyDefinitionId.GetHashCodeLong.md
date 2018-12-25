@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetHashCodeLong
-```csharp
+private public long GetHashCodeLong
+```
 
 Safer hash code. It is unique in more situations than GetHashCode would be, but it may still require full check.
 

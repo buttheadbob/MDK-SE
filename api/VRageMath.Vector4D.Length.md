@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Length
-```csharp
+private public double Length
+```
 
 Calculates the length of the vector.
 

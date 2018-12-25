@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Intersect
-```csharp
+private public private public sealed BoundingBox Intersect
+```
 
 Returns bounding box which is intersection of this and box It's called 'Prunik' Result is invalid box when there's no intersection (Min > Max)
 

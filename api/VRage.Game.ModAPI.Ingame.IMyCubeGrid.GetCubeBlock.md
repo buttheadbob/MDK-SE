@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual GetCubeBlock
-```csharp
+private public abstract virtual private public abstract IMySlimBlock GetCubeBlock
+```
 
 Get cube block at given position
 

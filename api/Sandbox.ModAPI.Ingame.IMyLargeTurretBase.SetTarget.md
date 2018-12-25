@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual SetTarget
-```csharp
+private public abstract virtual void SetTarget
+```
 
 Targets given position
 

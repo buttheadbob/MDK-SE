@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreateFromAzimuthAndElevation
-```csharp
+private public void CreateFromAzimuthAndElevation
+```
 
 ### Returns
 

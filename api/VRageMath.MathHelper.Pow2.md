@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Pow2
-```csharp
+private public int Pow2
+```
 
 Returns 2^n
 

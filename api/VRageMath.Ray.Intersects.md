@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public private public sealed Nullable<T> Intersects
+```
 
 Checks whether the Ray intersects a specified BoundingBox.
 
@@ -17,8 +17,8 @@ Checks whether the Ray intersects a specified BoundingBox.
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public void Intersects
+```
 
 ### Returns
 
@@ -29,8 +29,8 @@ private public Intersects
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public private public sealed Nullable<T> Intersects
+```
 
 Checks whether the Ray intersects a specified BoundingFrustum.
 
@@ -43,8 +43,8 @@ Checks whether the Ray intersects a specified BoundingFrustum.
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public private public sealed Nullable<T> Intersects
+```
 
 Determines whether this Ray intersects a specified Plane.
 
@@ -57,8 +57,8 @@ Determines whether this Ray intersects a specified Plane.
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public void Intersects
+```
 
 ### Returns
 
@@ -69,8 +69,8 @@ private public Intersects
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public private public sealed Nullable<T> Intersects
+```
 
 Checks whether the Ray intersects a specified BoundingSphere.
 
@@ -83,8 +83,8 @@ Checks whether the Ray intersects a specified BoundingSphere.
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public void Intersects
+```
 
 ### Returns
 

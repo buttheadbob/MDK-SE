@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public PremultiplyColor
-```csharp
+private public private public sealed Vector4 PremultiplyColor
+```
 
 ### Returns
 

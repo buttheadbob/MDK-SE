@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public IsOutOfBounds
-```csharp
+private public bool IsOutOfBounds
+```
 
 ### Returns
 

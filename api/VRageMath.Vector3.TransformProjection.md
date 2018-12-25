@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public TransformProjection
-```csharp
+private public void TransformProjection
+```
 
 Transforms a Vector3 by the given projection matrix (both ortho and perspective are supported)
 

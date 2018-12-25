@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public InflateToMinimum
-```csharp
+private public void InflateToMinimum
+```
 
 ### Returns
 

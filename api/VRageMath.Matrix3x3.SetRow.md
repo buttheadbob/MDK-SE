@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public SetRow
-```csharp
+private public void SetRow
+```
 
 ### Returns
 

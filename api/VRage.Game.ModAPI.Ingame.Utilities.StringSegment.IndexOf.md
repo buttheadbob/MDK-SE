@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public IndexOf
-```csharp
+private public int IndexOf
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public IndexOf
 ### Summary
 
 ```csharp
-private public IndexOf
-```csharp
+private public int IndexOf
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Clamp
-```csharp
+private public float Clamp
+```
 
 Restricts a value to be within a specified range. Reference page contains links to related code samples.
 
@@ -17,8 +17,8 @@ Restricts a value to be within a specified range. Reference page contains links 
 ### Summary
 
 ```csharp
-private public Clamp
-```csharp
+private public double Clamp
+```
 
 Restricts a value to be within a specified range. Reference page contains links to related code samples.
 
@@ -31,8 +31,8 @@ Restricts a value to be within a specified range. Reference page contains links 
 ### Summary
 
 ```csharp
-private public Clamp
-```csharp
+private public private public sealed MyFixedPoint Clamp
+```
 
 Restricts a value to be within a specified range. Reference page contains links to related code samples.
 
@@ -45,8 +45,8 @@ Restricts a value to be within a specified range. Reference page contains links 
 ### Summary
 
 ```csharp
-private public Clamp
-```csharp
+private public int Clamp
+```
 
 Restricts a value to be within a specified range. Reference page contains links to related code samples.
 

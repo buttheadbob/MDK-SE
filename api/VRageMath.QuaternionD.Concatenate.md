@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Concatenate
-```csharp
+private public private public sealed QuaternionD Concatenate
+```
 
 Concatenates two Quaternions; the result represents the value1 rotation followed by the value2 rotation.
 
@@ -17,8 +17,8 @@ Concatenates two Quaternions; the result represents the value1 rotation followed
 ### Summary
 
 ```csharp
-private public Concatenate
-```csharp
+private public void Concatenate
+```
 
 Concatenates two Quaternions; the result represents the value1 rotation followed by the value2 rotation.
 

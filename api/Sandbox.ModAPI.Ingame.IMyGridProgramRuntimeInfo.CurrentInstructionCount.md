@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual CurrentInstructionCount
-```csharp
+private public abstract virtual int CurrentInstructionCount
+```
 
 Gets the current number of significant instructions executed.
 

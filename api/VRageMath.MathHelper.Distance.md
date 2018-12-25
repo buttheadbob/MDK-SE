@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Distance
-```csharp
+private public float Distance
+```
 
 Calculates the absolute value of the difference of two values.
 

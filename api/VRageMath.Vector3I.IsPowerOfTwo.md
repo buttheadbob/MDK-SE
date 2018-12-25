@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public IsPowerOfTwo
-```csharp
+private public bool IsPowerOfTwo
+```
 
 ### Returns
 

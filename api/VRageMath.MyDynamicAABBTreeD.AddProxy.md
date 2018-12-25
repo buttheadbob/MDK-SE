@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public AddProxy
-```csharp
+private public int AddProxy
+```
 
 Create a proxy. Provide a tight fitting BoundingBox and a userData pointer.
 

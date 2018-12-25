@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual DetectFriendly
-```csharp
+private public abstract virtual bool DetectFriendly
+```
 
 Gets or sets if the sensor should detect friendly players.
 

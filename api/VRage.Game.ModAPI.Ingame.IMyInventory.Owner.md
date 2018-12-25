@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Owner
-```csharp
+private public abstract virtual private public abstract IMyInventoryOwner Owner
+```
 
 ### Returns
 

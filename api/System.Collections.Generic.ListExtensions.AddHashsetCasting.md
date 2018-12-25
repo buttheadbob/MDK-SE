@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public AddHashsetCasting<T1, T2>
-```csharp
+private public void AddHashsetCasting<T1, T2>
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Add
-```csharp
+private public void Add
+```
 
 Adds a matrix to another matrix.
 

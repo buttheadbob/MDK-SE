@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Extents
-```csharp
+private public private public sealed Vector3 Extents
+```
 
 ### Returns
 

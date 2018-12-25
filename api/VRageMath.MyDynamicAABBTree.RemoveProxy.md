@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public RemoveProxy
-```csharp
+private public void RemoveProxy
+```
 
 Destroy a proxy. This asserts if the id is invalid.
 

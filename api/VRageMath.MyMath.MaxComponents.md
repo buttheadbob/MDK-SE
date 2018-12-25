@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public MaxComponents
-```csharp
+private public private public sealed Vector3 MaxComponents
+```
 
 Return vector with each component max
 

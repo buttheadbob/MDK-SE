@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Negate
-```csharp
+private public private public sealed Quaternion Negate
+```
 
 Flips the sign of each component of the quaternion.
 
@@ -17,8 +17,8 @@ Flips the sign of each component of the quaternion.
 ### Summary
 
 ```csharp
-private public Negate
-```csharp
+private public void Negate
+```
 
 Flips the sign of each component of the quaternion.
 

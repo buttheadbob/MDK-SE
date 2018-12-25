@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Atmosphere
-```csharp
+private public abstract virtual float Atmosphere
+```
 
 Atmospheric Density at the block. Returns 0.0f if not near a planet.
 

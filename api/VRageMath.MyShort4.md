@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### MyShort4 Struct
+#### MyShort4 Struct
 
 ```csharp
 private public sealed MyShort4
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|

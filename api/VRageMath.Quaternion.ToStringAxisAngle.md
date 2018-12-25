@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public ToStringAxisAngle
-```csharp
+private public string ToStringAxisAngle
+```
 
 ### Returns
 

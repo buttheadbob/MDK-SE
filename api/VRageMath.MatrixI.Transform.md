@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public private public sealed MyBlockOrientation Transform
+```
 
 ### Returns
 

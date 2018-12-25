@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public virtual ElapsedTime
-```csharp
+private public virtual private public sealed TimeSpan ElapsedTime
+```
 
 Gets the amount of in-game time elapsed from the previous run.
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Contains
-```csharp
+private public private public sealed ContainmentType Contains
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public Contains
 ### Summary
 
 ```csharp
-private public Contains
-```csharp
+private public private public sealed ContainmentType Contains
+```
 
 ### Returns
 
@@ -27,8 +27,8 @@ private public Contains
 ### Summary
 
 ```csharp
-private public Contains
-```csharp
+private public private public sealed ContainmentType Contains
+```
 
 ### Returns
 
@@ -39,8 +39,8 @@ private public Contains
 ### Summary
 
 ```csharp
-private public Contains
-```csharp
+private public private public sealed ContainmentType Contains
+```
 
 ### Returns
 
@@ -51,8 +51,8 @@ private public Contains
 ### Summary
 
 ```csharp
-private public Contains
-```csharp
+private public private public sealed ContainmentType Contains
+```
 
 ### Returns
 
@@ -63,8 +63,8 @@ private public Contains
 ### Summary
 
 ```csharp
-private public Contains
-```csharp
+private public private public sealed ContainmentType Contains
+```
 
 ### Returns
 
@@ -75,8 +75,8 @@ private public Contains
 ### Summary
 
 ```csharp
-private public Contains
-```csharp
+private public private public sealed ContainmentType Contains
+```
 
 ### Returns
 
@@ -87,8 +87,8 @@ private public Contains
 ### Summary
 
 ```csharp
-private public Contains
-```csharp
+private public private public sealed ContainmentType Contains
+```
 
 ### Returns
 
@@ -99,8 +99,8 @@ private public Contains
 ### Summary
 
 ```csharp
-private public Contains
-```csharp
+private public bool Contains
+```
 
 ### Returns
 
@@ -111,8 +111,8 @@ private public Contains
 ### Summary
 
 ```csharp
-private public Contains
-```csharp
+private public bool Contains
+```
 
 ### Returns
 

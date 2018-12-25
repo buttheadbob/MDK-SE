@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public ContainsSection
-```csharp
+private public bool ContainsSection
+```
 
 Determines whether a section of a given name exists in the currently parsed configuration.
 

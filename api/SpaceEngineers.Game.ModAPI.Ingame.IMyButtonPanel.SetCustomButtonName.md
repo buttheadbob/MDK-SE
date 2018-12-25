@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual SetCustomButtonName
-```csharp
+private public abstract virtual void SetCustomButtonName
+```
 
 Sets the custom button name.
 

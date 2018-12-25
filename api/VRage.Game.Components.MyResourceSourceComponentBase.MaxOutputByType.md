@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual MaxOutputByType
-```csharp
+private public abstract virtual float MaxOutputByType
+```
 
 Maximum power output of the producer in MW or litres/h.
 

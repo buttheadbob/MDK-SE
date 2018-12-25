@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public IsValidNormal
-```csharp
+private public bool IsValidNormal
+```
 
 ### Returns
 

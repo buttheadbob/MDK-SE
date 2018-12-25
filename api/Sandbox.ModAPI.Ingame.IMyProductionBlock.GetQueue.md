@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual GetQueue
-```csharp
+private public abstract virtual void GetQueue
+```
 
 ### Returns
 

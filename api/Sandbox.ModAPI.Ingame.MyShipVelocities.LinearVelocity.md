@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public LinearVelocity
-```csharp
+private public private public sealed Vector3D LinearVelocity
+```
 
 Gets the ship's linear velocity (motion).
 

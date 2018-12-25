@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public AllSubTypes
-```csharp
+private public bool AllSubTypes
+```
 
 Determines whether all subtypes of the given item ID should pass this filter check.
 

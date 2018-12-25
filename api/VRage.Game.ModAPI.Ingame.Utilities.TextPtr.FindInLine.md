@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public FindInLine
-```csharp
+private public private public sealed TextPtr FindInLine
+```
 
 ### Returns
 

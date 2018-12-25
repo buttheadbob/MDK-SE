@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public OverlapAllFrustumConservative<T>
-```csharp
+private public void OverlapAllFrustumConservative<T>
+```
 
 ### Returns
 

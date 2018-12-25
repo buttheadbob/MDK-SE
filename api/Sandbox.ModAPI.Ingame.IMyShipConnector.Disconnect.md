@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Disconnect
-```csharp
+private public abstract virtual void Disconnect
+```
 
 Disconnects this connector.
 

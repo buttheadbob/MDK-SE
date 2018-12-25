@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public LimitRadians2PI
-```csharp
+private public void LimitRadians2PI
+```
 
 Returns angle in range 0..2*PI
 

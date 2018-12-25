@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual GetMinimum
-```csharp
+private public abstract virtual private public TValue GetMinimum
+```
 
 ### Returns
 

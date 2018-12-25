@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Amount
-```csharp
+private public private public sealed MyFixedPoint Amount
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Range
-```csharp
+private public abstract virtual float Range
+```
 
 Gets or sets the range the sound is audible.
 

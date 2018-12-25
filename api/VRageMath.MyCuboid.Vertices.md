@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Vertices
-```csharp
+private public private public abstract IEnumerable<T> Vertices
+```
 
 ### Returns
 

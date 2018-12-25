@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual ControlWheels
-```csharp
+private public abstract virtual bool ControlWheels
+```
 
 Gets or sets whether wheels are being controlled by this controller.
 

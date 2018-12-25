@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Height
-```csharp
+private public abstract virtual float Height
+```
 
 ### Returns
 

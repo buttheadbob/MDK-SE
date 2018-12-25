@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public ClampToSphere
-```csharp
+private public private public sealed Vector3D ClampToSphere
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public ClampToSphere
 ### Summary
 
 ```csharp
-private public ClampToSphere
-```csharp
+private public void ClampToSphere
+```
 
 ### Returns
 

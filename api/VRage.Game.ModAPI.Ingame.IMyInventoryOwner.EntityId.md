@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual EntityId
-```csharp
+private public abstract virtual long EntityId
+```
 
 ### Returns
 

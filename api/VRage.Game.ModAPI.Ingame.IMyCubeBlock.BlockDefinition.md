@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual BlockDefinition
-```csharp
+private public abstract virtual private public sealed SerializableDefinitionId BlockDefinition
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Center
-```csharp
+private public private public sealed Vector2I Center
+```
 
 Calculates center
 

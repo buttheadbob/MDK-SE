@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Delete
-```csharp
+private public void Delete
+```
 
 Deletes the given configuration key.
 
@@ -17,8 +17,8 @@ Deletes the given configuration key.
 ### Summary
 
 ```csharp
-private public Delete
-```csharp
+private public void Delete
+```
 
 Deletes the given configuration key.
 

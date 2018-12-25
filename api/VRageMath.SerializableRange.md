@@ -1,26 +1,26 @@
 ← [Index](Api-Index)
 
-### SerializableRange Struct
+#### SerializableRange Struct
 
 ```csharp
 private public sealed SerializableRange
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|
 |[Min](VRageMath.SerializableRange.Min)||
 |[Max](VRageMath.SerializableRange.Max)||
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

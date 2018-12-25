@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Slerp
-```csharp
+private public void Slerp
+```
 
 Performs spherical linear interpolation of position and rotation.
 

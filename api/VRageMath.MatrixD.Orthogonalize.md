@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Orthogonalize
-```csharp
+private public void Orthogonalize
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public Orthogonalize
 ### Summary
 
 ```csharp
-private public Orthogonalize
-```csharp
+private public private public sealed MatrixD Orthogonalize
+```
 
 ### Returns
 

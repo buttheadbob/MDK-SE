@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Azimuth
-```csharp
+private public abstract virtual float Azimuth
+```
 
 Sets/gets azimuth of turret, this method is not synced, you need to sync azimuth manually
 

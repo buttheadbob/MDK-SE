@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public AsColor
-```csharp
+private public private public abstract ITerminalProperty<TValue> AsColor
+```
 
 Property type cast
 

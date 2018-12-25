@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreateMerged
-```csharp
+private public private public sealed BoundingSphereD CreateMerged
+```
 
 Creates a BoundingSphereD that contains the two specified BoundingSphereD instances.
 
@@ -17,8 +17,8 @@ Creates a BoundingSphereD that contains the two specified BoundingSphereD instan
 ### Summary
 
 ```csharp
-private public CreateMerged
-```csharp
+private public void CreateMerged
+```
 
 Creates a BoundingSphereD that contains the two specified BoundingSphereD instances.
 

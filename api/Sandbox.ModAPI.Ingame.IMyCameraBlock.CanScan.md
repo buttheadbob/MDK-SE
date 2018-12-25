@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual CanScan
-```csharp
+private public abstract virtual bool CanScan
+```
 
 Checks if the camera can scan the given distance.
 
@@ -19,8 +19,8 @@ Checks if the camera can scan the given distance.
 ### Summary
 
 ```csharp
-private public abstract virtual CanScan
-```csharp
+private public abstract virtual bool CanScan
+```
 
 Checks if the camera can scan to the given direction and distance.
 
@@ -35,8 +35,8 @@ Checks if the camera can scan to the given direction and distance.
 ### Summary
 
 ```csharp
-private public abstract virtual CanScan
-```csharp
+private public abstract virtual bool CanScan
+```
 
 Checks if the camera can scan to the given target
 

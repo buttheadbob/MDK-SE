@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public VectorFromColor
-```csharp
+private public private public sealed Vector3 VectorFromColor
+```
 
 Calculates color from vector
 
@@ -17,8 +17,8 @@ Calculates color from vector
 ### Summary
 
 ```csharp
-private public VectorFromColor
-```csharp
+private public private public sealed Vector4 VectorFromColor
+```
 
 ### Returns
 

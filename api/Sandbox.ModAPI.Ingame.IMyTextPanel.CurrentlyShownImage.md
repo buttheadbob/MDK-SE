@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual CurrentlyShownImage
-```csharp
+private public abstract virtual string CurrentlyShownImage
+```
 
 The image that is currently shown on the screen. Returns NULL if there are no images selected OR the screen is in text mode.
 

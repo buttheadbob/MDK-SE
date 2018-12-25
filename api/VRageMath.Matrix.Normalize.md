@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Normalize
-```csharp
+private public private public sealed Matrix Normalize
+```
 
 ### Returns
 

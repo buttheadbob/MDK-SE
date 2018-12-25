@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Reflect
-```csharp
+private public private public sealed Vector2 Reflect
+```
 
 Determines the reflect vector of the given vector and normal.
 
@@ -17,8 +17,8 @@ Determines the reflect vector of the given vector and normal.
 ### Summary
 
 ```csharp
-private public Reflect
-```csharp
+private public void Reflect
+```
 
 Determines the reflect vector of the given vector and normal.
 

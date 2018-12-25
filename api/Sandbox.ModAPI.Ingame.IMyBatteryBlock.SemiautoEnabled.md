@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual SemiautoEnabled
-```csharp
+private public abstract virtual bool SemiautoEnabled
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual FieldSize
-```csharp
+private public abstract virtual private public sealed Vector3 FieldSize
+```
 
 Gets or sets the gravity field as a Vector3(W,H,D).
 

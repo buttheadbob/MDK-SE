@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual IsWorking
-```csharp
+private public abstract virtual bool IsWorking
+```
 
 True if block is able to do its work depening on block type (is functional, powered, enabled, etc...)
 

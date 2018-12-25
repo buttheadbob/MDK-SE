@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public OverlapsAnyLeafBoundingBox
-```csharp
+private public bool OverlapsAnyLeafBoundingBox
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreatePerspectiveOffCenter
-```csharp
+private public private public sealed MatrixD CreatePerspectiveOffCenter
+```
 
 Builds a customized, perspective projection matrix.
 
@@ -17,8 +17,8 @@ Builds a customized, perspective projection matrix.
 ### Summary
 
 ```csharp
-private public CreatePerspectiveOffCenter
-```csharp
+private public void CreatePerspectiveOffCenter
+```
 
 Builds a customized, perspective projection matrix.
 

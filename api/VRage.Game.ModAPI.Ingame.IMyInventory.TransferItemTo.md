@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual TransferItemTo
-```csharp
+private public abstract virtual bool TransferItemTo
+```
 
 ### Returns
 

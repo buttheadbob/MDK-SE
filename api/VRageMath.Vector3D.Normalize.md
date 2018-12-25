@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Normalize
-```csharp
+private public double Normalize
+```
 
 Turns the current vector into a unit vector. The result is a vector one unit in length pointing in the same direction as the original vector.
 
@@ -17,8 +17,8 @@ Turns the current vector into a unit vector. The result is a vector one unit in 
 ### Summary
 
 ```csharp
-private public Normalize
-```csharp
+private public private public sealed Vector3D Normalize
+```
 
 Creates a unit vector from the specified vector. The result is a vector one unit in length pointing in the same direction as the original vector.
 
@@ -31,8 +31,8 @@ Creates a unit vector from the specified vector. The result is a vector one unit
 ### Summary
 
 ```csharp
-private public Normalize
-```csharp
+private public void Normalize
+```
 
 Creates a unit vector from the specified vector, writing the result to a user-specified variable. The result is a vector one unit in length pointing in the same direction as the original vector.
 

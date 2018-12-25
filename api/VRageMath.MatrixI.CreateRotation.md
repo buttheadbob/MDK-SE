@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreateRotation
-```csharp
+private public private public sealed MatrixI CreateRotation
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual ShowParts
-```csharp
+private public abstract virtual bool ShowParts
+```
 
 Gets if sub parts are shown
 

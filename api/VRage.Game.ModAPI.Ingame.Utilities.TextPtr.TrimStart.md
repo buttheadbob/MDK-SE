@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public TrimStart
-```csharp
+private public private public sealed TextPtr TrimStart
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public VolumeInt
-```csharp
+private public long VolumeInt
+```
 
 ### Returns
 

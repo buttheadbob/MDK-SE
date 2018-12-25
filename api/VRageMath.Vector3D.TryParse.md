@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public TryParse
-```csharp
+private public bool TryParse
+```
 
 ### Returns
 

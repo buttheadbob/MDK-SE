@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public ToLinearRGB
-```csharp
+private public private public sealed Vector4 ToLinearRGB
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public ToLinearRGB
 ### Summary
 
 ```csharp
-private public ToLinearRGB
-```csharp
+private public private public sealed Vector3 ToLinearRGB
+```
 
 ### Returns
 

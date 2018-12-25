@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetFloatMatrix
-```csharp
+private public private public sealed Matrix GetFloatMatrix
+```
 
 ### Returns
 

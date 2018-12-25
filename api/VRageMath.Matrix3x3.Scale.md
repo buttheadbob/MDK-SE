@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Scale
-```csharp
+private public private public sealed Vector3 Scale
+```
 
 ### Returns
 

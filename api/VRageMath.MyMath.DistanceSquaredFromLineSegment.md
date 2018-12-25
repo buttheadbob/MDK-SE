@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public DistanceSquaredFromLineSegment
-```csharp
+private public float DistanceSquaredFromLineSegment
+```
 
 Return minimum distance between line segment v-w and point p.
 

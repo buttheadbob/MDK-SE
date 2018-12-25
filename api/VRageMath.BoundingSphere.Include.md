@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Include
-```csharp
+private public private public sealed BoundingSphere Include
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public Include
 ### Summary
 
 ```csharp
-private public Include
-```csharp
+private public void Include
+```
 
 ### Returns
 

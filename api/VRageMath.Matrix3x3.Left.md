@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Left
-```csharp
+private public private public sealed Vector3 Left
+```
 
 Gets and sets the left vector of the Matrix3x3.
 

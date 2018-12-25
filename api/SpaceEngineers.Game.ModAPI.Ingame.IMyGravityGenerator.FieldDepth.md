@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual FieldDepth
-```csharp
+private public abstract virtual float FieldDepth
+```
 
 ### Returns
 

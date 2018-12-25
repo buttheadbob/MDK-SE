@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual SetCollisionAvoidance
-```csharp
+private public abstract virtual void SetCollisionAvoidance
+```
 
 Enables or disables collision avoidance.
 

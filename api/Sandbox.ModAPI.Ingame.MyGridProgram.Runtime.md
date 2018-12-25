@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public virtual Runtime
-```csharp
+private public virtual private public abstract IMyGridProgramRuntimeInfo Runtime
+```
 
 Gets runtime information for the running grid program.
 

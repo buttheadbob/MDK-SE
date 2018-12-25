@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public M22
-```csharp
+private public double M22
+```
 
 Value at row 2 column 2 of the matrix.
 

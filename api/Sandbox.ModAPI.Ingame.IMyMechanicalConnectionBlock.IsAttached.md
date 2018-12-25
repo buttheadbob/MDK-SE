@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual IsAttached
-```csharp
+private public abstract virtual bool IsAttached
+```
 
 Gets if the block base is attached to something
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Rotate
-```csharp
+private public void Rotate
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual TryGetClosestPoint
-```csharp
+private public abstract virtual bool TryGetClosestPoint
+```
 
 ### Returns
 

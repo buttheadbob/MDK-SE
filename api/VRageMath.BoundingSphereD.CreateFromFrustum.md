@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreateFromFrustum
-```csharp
+private public private public sealed BoundingSphereD CreateFromFrustum
+```
 
 Creates the smallest BoundingSphereD that can contain a specified BoundingFrustum.
 

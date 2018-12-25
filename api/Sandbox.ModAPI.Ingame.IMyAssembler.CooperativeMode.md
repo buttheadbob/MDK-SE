@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual CooperativeMode
-```csharp
+private public abstract virtual bool CooperativeMode
+```
 
 Gets or sets whether this assembler should cooperate with other assemblers by adopting parts of their work queue.
 

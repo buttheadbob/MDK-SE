@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public IsNewLine
-```csharp
+private public bool IsNewLine
+```
 
 ### Returns
 

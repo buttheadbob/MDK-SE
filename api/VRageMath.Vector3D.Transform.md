@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public private public sealed Vector3D Transform
+```
 
 Transforms a Vector3 by a specified Quaternion rotation.
 
@@ -17,8 +17,8 @@ Transforms a Vector3 by a specified Quaternion rotation.
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public void Transform
+```
 
 Transforms a Vector3 by a specified Quaternion rotation.
 
@@ -31,8 +31,8 @@ Transforms a Vector3 by a specified Quaternion rotation.
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public void Transform
+```
 
 Transforms a source array of Vector3s by a specified Matrix and writes the results to an existing destination array.
 
@@ -45,8 +45,8 @@ Transforms a source array of Vector3s by a specified Matrix and writes the resul
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public void Transform
+```
 
 ### Returns
 
@@ -57,8 +57,8 @@ private public Transform
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public void Transform
+```
 
 Applies a specified transform Matrix to a specified range of an array of Vector3s and writes the results into a specified range of a destination array.
 
@@ -71,8 +71,8 @@ Applies a specified transform Matrix to a specified range of an array of Vector3
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public void Transform
+```
 
 Transforms a source array of Vector3s by a specified Quaternion rotation and writes the results to an existing destination array.
 
@@ -85,8 +85,8 @@ Transforms a source array of Vector3s by a specified Quaternion rotation and wri
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public void Transform
+```
 
 Applies a specified Quaternion rotation to a specified range of an array of Vector3s and writes the results into a specified range of a destination array.
 
@@ -99,8 +99,8 @@ Applies a specified Quaternion rotation to a specified range of an array of Vect
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public private public sealed Vector3D Transform
+```
 
 Transforms a 3D vector by the given matrix.
 
@@ -113,8 +113,8 @@ Transforms a 3D vector by the given matrix.
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public private public sealed Vector3D Transform
+```
 
 ### Returns
 
@@ -125,8 +125,8 @@ private public Transform
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public private public sealed Vector3D Transform
+```
 
 Transforms a 3D vector by the given matrix.
 
@@ -139,8 +139,8 @@ Transforms a 3D vector by the given matrix.
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public private public sealed Vector3D Transform
+```
 
 ### Returns
 
@@ -151,8 +151,8 @@ private public Transform
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public void Transform
+```
 
 Transforms a Vector3 by the given Matrix.
 
@@ -165,8 +165,8 @@ Transforms a Vector3 by the given Matrix.
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public void Transform
+```
 
 ### Returns
 
@@ -177,8 +177,8 @@ private public Transform
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public void Transform
+```
 
 ### Returns
 

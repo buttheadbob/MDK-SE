@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual GetMaximum
-```csharp
+private public abstract virtual private public TValue GetMaximum
+```
 
 ### Returns
 

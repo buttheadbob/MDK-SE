@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Negate
-```csharp
+private public void Negate
+```
 
 Negates individual elements of a matrix.
 

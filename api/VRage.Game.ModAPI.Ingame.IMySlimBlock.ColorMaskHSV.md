@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual ColorMaskHSV
-```csharp
+private public abstract virtual private public sealed Vector3 ColorMaskHSV
+```
 
 Gets the color of the block
 

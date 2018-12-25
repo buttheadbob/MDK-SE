@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public RequiredInput
-```csharp
+private public float RequiredInput
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Col0
-```csharp
+private public private public sealed Vector3D Col0
+```
 
 ### Returns
 

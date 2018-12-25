@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Normalize
-```csharp
+private public float Normalize
+```
 
 Normalize value inside the bounds so that 0 is Min and 1 is Max.
 

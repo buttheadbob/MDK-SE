@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Contains<T>
-```csharp
+private public bool Contains<T>
+```
 
 ### Returns
 

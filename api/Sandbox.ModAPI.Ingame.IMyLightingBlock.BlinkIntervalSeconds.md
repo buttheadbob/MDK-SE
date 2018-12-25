@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual BlinkIntervalSeconds
-```csharp
+private public abstract virtual float BlinkIntervalSeconds
+```
 
 Gets or sets the blinking interval of this light (in seconds).
 

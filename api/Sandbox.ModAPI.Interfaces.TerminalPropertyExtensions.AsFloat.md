@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public AsFloat
-```csharp
+private public private public abstract ITerminalProperty<TValue> AsFloat
+```
 
 Property type cast
 

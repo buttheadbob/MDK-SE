@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public FromMatrix
-```csharp
+private public void FromMatrix
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual DefinitionDisplayNameText
-```csharp
+private public abstract virtual string DefinitionDisplayNameText
+```
 
 Definition name
 

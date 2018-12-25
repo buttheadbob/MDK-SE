@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreateRotationFromTwoVectors
-```csharp
+private public void CreateRotationFromTwoVectors
+```
 
 ### Returns
 

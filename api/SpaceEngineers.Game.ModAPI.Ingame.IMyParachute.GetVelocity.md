@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual GetVelocity
-```csharp
+private public abstract virtual private public sealed Vector3D GetVelocity
+```
 
 Determines the linear velocities in meters per second at the block position
 

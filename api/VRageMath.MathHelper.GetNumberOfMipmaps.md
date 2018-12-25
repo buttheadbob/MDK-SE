@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetNumberOfMipmaps
-```csharp
+private public int GetNumberOfMipmaps
+```
 
 ### Returns
 

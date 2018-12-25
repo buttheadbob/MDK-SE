@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreateReflection
-```csharp
+private public private public sealed Matrix CreateReflection
+```
 
 Creates a Matrix that reflects the coordinate system about a specified Plane.
 
@@ -17,8 +17,8 @@ Creates a Matrix that reflects the coordinate system about a specified Plane.
 ### Summary
 
 ```csharp
-private public CreateReflection
-```csharp
+private public void CreateReflection
+```
 
 Fills in an existing Matrix so that it reflects the coordinate system about a specified Plane.
 

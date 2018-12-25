@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### Line Struct
+#### Line Struct
 
 ```csharp
 private public sealed Line
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|
@@ -23,7 +23,7 @@ private public sealed Line
 |[Length](VRageMath.Line.Length)||
 |[BoundingBox](VRageMath.Line.BoundingBox)||
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

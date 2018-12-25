@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual EnableBroadcasting
-```csharp
+private public abstract virtual bool EnableBroadcasting
+```
 
 Gets or sets if broadcasting is enabled
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreateRotationX
-```csharp
+private public private public sealed Matrix CreateRotationX
+```
 
 Returns a matrix that can be used to rotate a set of vertices around the x-axis.
 
@@ -17,8 +17,8 @@ Returns a matrix that can be used to rotate a set of vertices around the x-axis.
 ### Summary
 
 ```csharp
-private public CreateRotationX
-```csharp
+private public void CreateRotationX
+```
 
 Populates data into a user-specified matrix that can be used to rotate a set of vertices around the x-axis.
 

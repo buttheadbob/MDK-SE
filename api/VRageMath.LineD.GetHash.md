@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetHash
-```csharp
+private public long GetHash
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Inverse
-```csharp
+private public private public sealed QuaternionD Inverse
+```
 
 Returns the inverse of a QuaternionD.
 
@@ -17,8 +17,8 @@ Returns the inverse of a QuaternionD.
 ### Summary
 
 ```csharp
-private public Inverse
-```csharp
+private public void Inverse
+```
 
 Returns the inverse of a QuaternionD.
 

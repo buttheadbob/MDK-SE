@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Cross
-```csharp
+private public void Cross
+```
 
 Calculates the cross product of two vectors.
 

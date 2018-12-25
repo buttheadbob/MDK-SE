@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Reject
-```csharp
+private public private public sealed Vector3 Reject
+```
 
 Returns the rejection of vector from direction, i.e. projection of vector onto the plane defined by origin and direction
 
@@ -19,8 +19,8 @@ Rejection of the vector from the given direction
 ### Summary
 
 ```csharp
-private public Reject
-```csharp
+private public void Reject
+```
 
 Returns the rejection of vector from direction, i.e. projection of vector onto the plane defined by origin and direction
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Orientation
-```csharp
+private public abstract virtual private public sealed MyBlockOrientation Orientation
+```
 
 Returns block orientation in base 6 directions
 

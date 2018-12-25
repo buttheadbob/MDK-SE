@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public RemoveIndices<T>
-```csharp
+private public void RemoveIndices<T>
+```
 
 ### Returns
 

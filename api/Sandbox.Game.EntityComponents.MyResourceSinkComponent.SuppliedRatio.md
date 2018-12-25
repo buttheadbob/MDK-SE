@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public SuppliedRatio
-```csharp
+private public float SuppliedRatio
+```
 
 ### Returns
 

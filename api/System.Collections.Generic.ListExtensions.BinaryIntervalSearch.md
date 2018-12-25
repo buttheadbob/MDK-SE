@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public BinaryIntervalSearch<T>
-```csharp
+private public int BinaryIntervalSearch<T>
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public BinaryIntervalSearch<T>
 ### Summary
 
 ```csharp
-private public BinaryIntervalSearch<T>
-```csharp
+private public int BinaryIntervalSearch<T>
+```
 
 ### Returns
 
@@ -27,8 +27,8 @@ private public BinaryIntervalSearch<T>
 ### Summary
 
 ```csharp
-private public BinaryIntervalSearch<T>
-```csharp
+private public int BinaryIntervalSearch<T>
+```
 
 ### Returns
 

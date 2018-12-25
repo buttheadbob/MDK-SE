@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### Vector3LNormalEqualityComparer Class
+#### Vector3LNormalEqualityComparer Class
 
 ```csharp
 private public Vector3LNormalEqualityComparer
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

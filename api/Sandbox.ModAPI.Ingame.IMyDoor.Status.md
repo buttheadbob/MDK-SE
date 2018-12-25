@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Status
-```csharp
+private public abstract virtual private public sealed DoorStatus Status
+```
 
 Determines the current general status of the door.
 

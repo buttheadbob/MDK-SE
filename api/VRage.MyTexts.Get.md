@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Get
-```csharp
+private public private public sealed StringBuilder Get
+```
 
 ### Returns
 

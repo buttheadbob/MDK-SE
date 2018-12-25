@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public private public sealed Vector4 Transform
+```
 
 Transforms a Vector2 by the given Matrix.
 
@@ -17,8 +17,8 @@ Transforms a Vector2 by the given Matrix.
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public void Transform
+```
 
 Transforms a Vector2 by the given Matrix.
 
@@ -31,8 +31,8 @@ Transforms a Vector2 by the given Matrix.
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public private public sealed Vector4 Transform
+```
 
 Transforms a Vector3 by the given Matrix.
 
@@ -45,8 +45,8 @@ Transforms a Vector3 by the given Matrix.
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public void Transform
+```
 
 Transforms a Vector3 by the given Matrix.
 
@@ -59,8 +59,8 @@ Transforms a Vector3 by the given Matrix.
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public private public sealed Vector4 Transform
+```
 
 Transforms a Vector4 by the specified Matrix.
 
@@ -73,8 +73,8 @@ Transforms a Vector4 by the specified Matrix.
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public void Transform
+```
 
 Transforms a Vector4 by the given Matrix.
 
@@ -87,8 +87,8 @@ Transforms a Vector4 by the given Matrix.
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public private public sealed Vector4 Transform
+```
 
 Transforms a Vector2 by a specified Quaternion into a Vector4.
 
@@ -101,8 +101,8 @@ Transforms a Vector2 by a specified Quaternion into a Vector4.
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public void Transform
+```
 
 Transforms a Vector2 by a specified Quaternion into a Vector4.
 
@@ -115,8 +115,8 @@ Transforms a Vector2 by a specified Quaternion into a Vector4.
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public private public sealed Vector4 Transform
+```
 
 Transforms a Vector3 by a specified Quaternion into a Vector4.
 
@@ -129,8 +129,8 @@ Transforms a Vector3 by a specified Quaternion into a Vector4.
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public void Transform
+```
 
 Transforms a Vector3 by a specified Quaternion into a Vector4.
 
@@ -143,8 +143,8 @@ Transforms a Vector3 by a specified Quaternion into a Vector4.
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public private public sealed Vector4 Transform
+```
 
 Transforms a Vector4 by a specified Quaternion.
 
@@ -157,8 +157,8 @@ Transforms a Vector4 by a specified Quaternion.
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public void Transform
+```
 
 Transforms a Vector4 by a specified Quaternion.
 
@@ -171,8 +171,8 @@ Transforms a Vector4 by a specified Quaternion.
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public void Transform
+```
 
 Transforms an array of Vector4s by a specified Matrix.
 
@@ -185,8 +185,8 @@ Transforms an array of Vector4s by a specified Matrix.
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public void Transform
+```
 
 Transforms a specified range in an array of Vector4s by a specified Matrix into a specified range in a destination array.
 
@@ -199,8 +199,8 @@ Transforms a specified range in an array of Vector4s by a specified Matrix into 
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public void Transform
+```
 
 Transforms an array of Vector4s by a specified Quaternion.
 
@@ -213,8 +213,8 @@ Transforms an array of Vector4s by a specified Quaternion.
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public void Transform
+```
 
 Transforms a specified range in an array of Vector4s by a specified Quaternion into a specified range in a destination array.
 

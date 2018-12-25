@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual LastDetectedEntity
-```csharp
+private public abstract virtual private public sealed MyDetectedEntityInfo LastDetectedEntity
+```
 
 ### Returns
 

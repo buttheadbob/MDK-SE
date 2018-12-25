@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreatePerspective
-```csharp
+private public private public sealed MatrixD CreatePerspective
+```
 
 Builds a perspective projection matrix and returns the result by value.
 
@@ -17,8 +17,8 @@ Builds a perspective projection matrix and returns the result by value.
 ### Summary
 
 ```csharp
-private public CreatePerspective
-```csharp
+private public void CreatePerspective
+```
 
 Builds a perspective projection matrix and returns the result by reference.
 

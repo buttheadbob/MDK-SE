@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public TryGetValue<T>
-```csharp
+private public bool TryGetValue<T>
+```
 
 ### Returns
 

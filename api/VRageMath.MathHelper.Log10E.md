@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Log10E
-```csharp
+private public float Log10E
+```
 
 Represents the log base ten of e.
 

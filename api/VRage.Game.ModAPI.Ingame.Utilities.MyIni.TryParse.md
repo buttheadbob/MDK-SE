@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public TryParse
-```csharp
+private public bool TryParse
+```
 
 Attempts to parse the given content as a configuration file.
 
@@ -19,8 +19,8 @@ Attempts to parse the given content as a configuration file.
 ### Summary
 
 ```csharp
-private public TryParse
-```csharp
+private public bool TryParse
+```
 
 Attempts to parse the given content as a configuration file.
 
@@ -35,8 +35,8 @@ Attempts to parse the given content as a configuration file.
 ### Summary
 
 ```csharp
-private public TryParse
-```csharp
+private public bool TryParse
+```
 
 Attempts to parse the given content as a configuration file. OBSERVE: Use only for read-only operations. If you parse a single section and run [ToString()](VRage.Game.ModAPI.Ingame.Utilities.MyIni.ToString) , you will only get the parsed section, the rest will be discarded.
 
@@ -51,8 +51,8 @@ Attempts to parse the given content as a configuration file. OBSERVE: Use only f
 ### Summary
 
 ```csharp
-private public TryParse
-```csharp
+private public bool TryParse
+```
 
 Attempts to parse the given content as a configuration file. OBSERVE: Use only for read-only operations. If you parse a single section and run [ToString()](VRage.Game.ModAPI.Ingame.Utilities.MyIni.ToString) , you will only get the parsed section, the rest will be discarded.
 

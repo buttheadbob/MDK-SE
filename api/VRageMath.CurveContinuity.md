@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### CurveContinuity Enum
+#### CurveContinuity Enum
 
 ```csharp
 private public sealed CurveContinuity
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|

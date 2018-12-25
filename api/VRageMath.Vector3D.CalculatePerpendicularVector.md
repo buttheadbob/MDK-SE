@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CalculatePerpendicularVector
-```csharp
+private public private public sealed Vector3D CalculatePerpendicularVector
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public CalculatePerpendicularVector
 ### Summary
 
 ```csharp
-private public CalculatePerpendicularVector
-```csharp
+private public void CalculatePerpendicularVector
+```
 
 ### Returns
 

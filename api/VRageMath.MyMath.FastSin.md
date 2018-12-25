@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public FastSin
-```csharp
+private public float FastSin
+```
 
 ### Returns
 

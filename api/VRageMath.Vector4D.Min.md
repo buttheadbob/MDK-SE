@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Min
-```csharp
+private public private public sealed Vector4 Min
+```
 
 Returns a vector that contains the lowest value from each matching pair of components.
 
@@ -17,8 +17,8 @@ Returns a vector that contains the lowest value from each matching pair of compo
 ### Summary
 
 ```csharp
-private public Min
-```csharp
+private public void Min
+```
 
 Returns a vector that contains the lowest value from each matching pair of components.
 

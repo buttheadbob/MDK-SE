@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Multiply
-```csharp
+private public private public sealed Matrix Multiply
+```
 
 Multiplies a matrix by another matrix.
 
@@ -17,8 +17,8 @@ Multiplies a matrix by another matrix.
 ### Summary
 
 ```csharp
-private public Multiply
-```csharp
+private public void Multiply
+```
 
 Multiplies a matrix by another matrix.
 
@@ -31,8 +31,8 @@ Multiplies a matrix by another matrix.
 ### Summary
 
 ```csharp
-private public Multiply
-```csharp
+private public private public sealed Matrix Multiply
+```
 
 Multiplies a matrix by a scalar value.
 
@@ -45,8 +45,8 @@ Multiplies a matrix by a scalar value.
 ### Summary
 
 ```csharp
-private public Multiply
-```csharp
+private public void Multiply
+```
 
 Multiplies a matrix by a scalar value.
 

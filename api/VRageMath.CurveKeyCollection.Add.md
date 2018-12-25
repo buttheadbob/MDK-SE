@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Add
-```csharp
+private public void Add
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public Add
 ### Summary
 
 ```csharp
-private public Add
-```csharp
+private public void Add
+```
 
 Adds a CurveKey to the CurveKeyCollection.
 

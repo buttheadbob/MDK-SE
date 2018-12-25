@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public IsInsideInclusive
-```csharp
+private public bool IsInsideInclusive
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public StartYVertices
-```csharp
+private public private public sealed Int32[] StartYVertices
+```
 
 ### Returns
 

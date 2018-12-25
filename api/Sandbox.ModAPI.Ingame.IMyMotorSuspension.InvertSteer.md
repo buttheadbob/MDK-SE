@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual InvertSteer
-```csharp
+private public abstract virtual bool InvertSteer
+```
 
 ### Returns
 

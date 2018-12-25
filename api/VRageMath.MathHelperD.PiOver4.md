@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public PiOver4
-```csharp
+private public double PiOver4
+```
 
 Represents the value of pi divided by four.
 

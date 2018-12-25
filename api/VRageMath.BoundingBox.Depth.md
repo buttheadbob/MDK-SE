@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Depth
-```csharp
+private public float Depth
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreateFromForwardUp
-```csharp
+private public private public sealed QuaternionD CreateFromForwardUp
+```
 
 Works for normalized vectors only
 

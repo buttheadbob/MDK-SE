@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetQuaternion
-```csharp
+private public void GetQuaternion
+```
 
 ### Returns
 

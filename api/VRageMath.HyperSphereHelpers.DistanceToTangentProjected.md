@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public DistanceToTangentProjected
-```csharp
+private public double DistanceToTangentProjected
+```
 
 ### Returns
 

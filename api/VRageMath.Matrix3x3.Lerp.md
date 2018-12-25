@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Lerp
-```csharp
+private public void Lerp
+```
 
 Linearly interpolates between the corresponding values of two matrices.
 

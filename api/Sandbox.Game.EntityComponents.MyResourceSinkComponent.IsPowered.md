@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public IsPowered
-```csharp
+private public bool IsPowered
+```
 
 ### Returns
 

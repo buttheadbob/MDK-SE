@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Center
-```csharp
+private public private public sealed Vector3 Center
+```
 
 ### Returns
 

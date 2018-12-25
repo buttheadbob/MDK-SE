@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual WorldAABB
-```csharp
+private public abstract virtual private public sealed BoundingBoxD WorldAABB
+```
 
 ### Returns
 

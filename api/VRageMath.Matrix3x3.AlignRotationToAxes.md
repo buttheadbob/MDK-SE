@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public AlignRotationToAxes
-```csharp
+private public private public sealed Matrix3x3 AlignRotationToAxes
+```
 
 ### Returns
 

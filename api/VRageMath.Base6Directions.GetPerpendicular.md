@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetPerpendicular
-```csharp
+private public private sealed Direction GetPerpendicular
+```
 
 ### Returns
 

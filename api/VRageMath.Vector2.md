@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### Vector2 Struct
+#### Vector2 Struct
 
 ```csharp
 private public sealed Vector2
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|
@@ -25,13 +25,13 @@ private public sealed Vector2
 |[UnitY](VRageMath.Vector2.UnitY)||
 |[PositiveInfinity](VRageMath.Vector2.PositiveInfinity)||
 
-###### Properties
+#### Properties
 
 |Member|Description|
 |---|---|
 |[Item](VRageMath.Vector2.Item)||
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

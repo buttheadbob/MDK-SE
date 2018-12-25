@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreatePerspectiveFieldOfView
-```csharp
+private public private public sealed Matrix CreatePerspectiveFieldOfView
+```
 
 Builds a perspective projection matrix based on a field of view and returns by value.
 
@@ -17,8 +17,8 @@ Builds a perspective projection matrix based on a field of view and returns by v
 ### Summary
 
 ```csharp
-private public CreatePerspectiveFieldOfView
-```csharp
+private public void CreatePerspectiveFieldOfView
+```
 
 Builds a perspective projection matrix based on a field of view and returns by reference.
 

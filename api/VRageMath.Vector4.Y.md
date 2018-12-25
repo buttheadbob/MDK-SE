@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Y
-```csharp
+private public float Y
+```
 
 Gets or sets the y-component of the vector.
 

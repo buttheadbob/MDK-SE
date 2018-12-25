@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Comparer
-```csharp
+private public private DefinitionIdComparerType Comparer
+```
 
 ### Returns
 

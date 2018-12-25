@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual IsActive
-```csharp
+private public abstract virtual bool IsActive
+```
 
 Gets if there is any entity currently being detected.
 

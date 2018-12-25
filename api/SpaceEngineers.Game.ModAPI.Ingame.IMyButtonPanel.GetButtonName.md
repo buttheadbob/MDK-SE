@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual GetButtonName
-```csharp
+private public abstract virtual string GetButtonName
+```
 
 Gets the button name.
 

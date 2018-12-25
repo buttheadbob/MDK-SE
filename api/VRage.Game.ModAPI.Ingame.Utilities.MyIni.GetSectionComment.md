@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetSectionComment
-```csharp
+private public string GetSectionComment
+```
 
 Get any comment that might be associated with the given section. Returns`null`if the section does not exist or has no comment.
 

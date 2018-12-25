@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual FontColor
-```csharp
+private public abstract virtual private public sealed Color FontColor
+```
 
 Gets or sets font color
 

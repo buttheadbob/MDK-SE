@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public IsEqual
-```csharp
+private public bool IsEqual
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public IsEqual
 ### Summary
 
 ```csharp
-private public IsEqual
-```csharp
+private public bool IsEqual
+```
 
 ### Returns
 
@@ -27,8 +27,8 @@ private public IsEqual
 ### Summary
 
 ```csharp
-private public IsEqual
-```csharp
+private public bool IsEqual
+```
 
 ### Returns
 
@@ -39,8 +39,8 @@ private public IsEqual
 ### Summary
 
 ```csharp
-private public IsEqual
-```csharp
+private public bool IsEqual
+```
 
 ### Returns
 
@@ -51,8 +51,8 @@ private public IsEqual
 ### Summary
 
 ```csharp
-private public IsEqual
-```csharp
+private public bool IsEqual
+```
 
 ### Returns
 
@@ -63,8 +63,8 @@ private public IsEqual
 ### Summary
 
 ```csharp
-private public IsEqual
-```csharp
+private public bool IsEqual
+```
 
 ### Returns
 

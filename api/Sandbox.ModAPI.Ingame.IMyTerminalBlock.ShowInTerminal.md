@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual ShowInTerminal
-```csharp
+private public abstract virtual bool ShowInTerminal
+```
 
 ### Returns
 

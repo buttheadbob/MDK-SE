@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public TangentIn
-```csharp
+private public float TangentIn
+```
 
 Describes the tangent when approaching this point from the previous point in the curve.
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual GetUserRelationToOwner
-```csharp
+private public abstract virtual private public sealed MyRelationsBetweenPlayerAndBlock GetUserRelationToOwner
+```
 
 ### Returns
 

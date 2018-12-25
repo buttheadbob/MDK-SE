@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public MonotonicAcos
-```csharp
+private public float MonotonicAcos
+```
 
 ### Returns
 

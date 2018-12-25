@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public ConvertToCosine
-```csharp
+private public private public sealed SymmetricSerializableRange ConvertToCosine
+```
 
 ### Returns
 

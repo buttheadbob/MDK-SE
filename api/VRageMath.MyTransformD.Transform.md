@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public private public sealed MyTransformD Transform
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public Transform
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public void Transform
+```
 
 ### Returns
 
@@ -27,8 +27,8 @@ private public Transform
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public private public sealed Vector3D Transform
+```
 
 ### Returns
 
@@ -39,8 +39,8 @@ private public Transform
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public void Transform
+```
 
 ### Returns
 

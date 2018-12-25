@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Floor
-```csharp
+private public int Floor
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public Floor
 ### Summary
 
 ```csharp
-private public Floor
-```csharp
+private public int Floor
+```
 
 ### Returns
 

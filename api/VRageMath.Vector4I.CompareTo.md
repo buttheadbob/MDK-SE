@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CompareTo
-```csharp
+private public int CompareTo
+```
 
 ### Returns
 

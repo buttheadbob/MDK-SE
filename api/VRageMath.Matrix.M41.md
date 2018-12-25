@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public M41
-```csharp
+private public float M41
+```
 
 Value at row 4 column 1 of the matrix.
 

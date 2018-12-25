@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public ToBytes
-```csharp
+private public void ToBytes
+```
 
 ### Returns
 

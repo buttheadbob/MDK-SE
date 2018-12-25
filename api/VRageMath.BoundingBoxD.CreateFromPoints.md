@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreateFromPoints
-```csharp
+private public private public sealed BoundingBoxD CreateFromPoints
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual DetectFloatingObjects
-```csharp
+private public abstract virtual bool DetectFloatingObjects
+```
 
 Gets or sets if the sensor should detect floating objects (components, rocks).
 

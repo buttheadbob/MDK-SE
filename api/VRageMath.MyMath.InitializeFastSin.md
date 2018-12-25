@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public InitializeFastSin
-```csharp
+private public void InitializeFastSin
+```
 
 ### Returns
 

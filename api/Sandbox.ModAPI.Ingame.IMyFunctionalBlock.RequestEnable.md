@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual RequestEnable
-```csharp
+private public abstract virtual void RequestEnable
+```
 
 ### Returns
 

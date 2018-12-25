@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Step
-```csharp
+private public private public sealed Vector3 Step
+```
 
 ### Returns
 

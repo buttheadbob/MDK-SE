@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public EnumDirections
-```csharp
+private public private public sealed Direction[] EnumDirections
+```
 
 ### Returns
 

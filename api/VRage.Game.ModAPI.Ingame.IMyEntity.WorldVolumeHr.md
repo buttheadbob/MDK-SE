@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual WorldVolumeHr
-```csharp
+private public abstract virtual private public sealed BoundingSphereD WorldVolumeHr
+```
 
 ### Returns
 

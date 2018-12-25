@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Equals
-```csharp
+private public bool Equals
+```
 
 Determines whether this coordinate is the same as another. Uses 0.0001 as the epsilon to counter floating point inaccuracies.
 
@@ -19,8 +19,8 @@ Determines whether this coordinate is the same as another. Uses 0.0001 as the ep
 ### Summary
 
 ```csharp
-private public Equals
-```csharp
+private public bool Equals
+```
 
 Determines whether this coordinate is the same as another. Uses 0.0001 as the epsilon to counter floating point inaccuracies.
 
@@ -35,8 +35,8 @@ Determines whether this coordinate is the same as another. Uses 0.0001 as the ep
 ### Summary
 
 ```csharp
-private public virtual Equals
-```csharp
+private public virtual bool Equals
+```
 
 Determines whether this coordinate is the same as another. Uses 0.0001 as the epsilon to counter floating point inaccuracies.
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Log2
-```csharp
+private public int Log2
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public Log2
 ### Summary
 
 ```csharp
-private public Log2
-```csharp
+private public int Log2
+```
 
 ### Returns
 

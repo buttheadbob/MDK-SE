@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public AbsMax
-```csharp
+private public float AbsMax
+```
 
 Returns the component of the vector, whose absolute value is largest of all the three components.
 

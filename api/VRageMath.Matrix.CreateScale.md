@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreateScale
-```csharp
+private public private public sealed Matrix CreateScale
+```
 
 Creates a scaling Matrix.
 
@@ -17,8 +17,8 @@ Creates a scaling Matrix.
 ### Summary
 
 ```csharp
-private public CreateScale
-```csharp
+private public void CreateScale
+```
 
 Creates a scaling Matrix.
 
@@ -31,8 +31,8 @@ Creates a scaling Matrix.
 ### Summary
 
 ```csharp
-private public CreateScale
-```csharp
+private public private public sealed Matrix CreateScale
+```
 
 Creates a scaling Matrix.
 
@@ -45,8 +45,8 @@ Creates a scaling Matrix.
 ### Summary
 
 ```csharp
-private public CreateScale
-```csharp
+private public void CreateScale
+```
 
 Creates a scaling Matrix.
 
@@ -59,8 +59,8 @@ Creates a scaling Matrix.
 ### Summary
 
 ```csharp
-private public CreateScale
-```csharp
+private public private public sealed Matrix CreateScale
+```
 
 Creates a scaling Matrix.
 
@@ -73,8 +73,8 @@ Creates a scaling Matrix.
 ### Summary
 
 ```csharp
-private public CreateScale
-```csharp
+private public void CreateScale
+```
 
 Creates a scaling Matrix.
 

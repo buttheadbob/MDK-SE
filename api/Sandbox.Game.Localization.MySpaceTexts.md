@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### MySpaceTexts Class
+#### MySpaceTexts Class
 
 ```csharp
 private public abstract sealed MySpaceTexts
-```csharp
+```
 
 **Namespace:** [Sandbox.Game.Localization](Sandbox.Game.Localization)  
 **Assembly:** Sandbox.Game.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|

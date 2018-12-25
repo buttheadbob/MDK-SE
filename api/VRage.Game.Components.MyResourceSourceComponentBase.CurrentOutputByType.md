@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual CurrentOutputByType
-```csharp
+private public abstract virtual float CurrentOutputByType
+```
 
 Currently used power output of the producer in MW or litres/h.
 

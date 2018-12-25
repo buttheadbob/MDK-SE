@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetDim
-```csharp
+private public double GetDim
+```
 
 ### Returns
 

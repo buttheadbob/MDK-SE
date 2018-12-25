@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Connections
-```csharp
+private public abstract virtual uint Connections
+```
 
 Retrieve number of blocks this block is connected to (r/o)
 

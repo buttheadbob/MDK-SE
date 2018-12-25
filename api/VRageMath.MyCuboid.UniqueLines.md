@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public UniqueLines
-```csharp
+private public private public abstract IEnumerable<T> UniqueLines
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual DisplayNameText
-```csharp
+private public abstract virtual string DisplayNameText
+```
 
 Translated block name
 

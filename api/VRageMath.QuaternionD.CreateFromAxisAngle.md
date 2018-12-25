@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreateFromAxisAngle
-```csharp
+private public private public sealed QuaternionD CreateFromAxisAngle
+```
 
 Creates a QuaternionD from a vector and an angle to rotate about the vector.
 
@@ -17,8 +17,8 @@ Creates a QuaternionD from a vector and an angle to rotate about the vector.
 ### Summary
 
 ```csharp
-private public CreateFromAxisAngle
-```csharp
+private public void CreateFromAxisAngle
+```
 
 Creates a QuaternionD from a vector and an angle to rotate about the vector.
 

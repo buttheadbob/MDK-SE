@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual RemainingBlocks
-```csharp
+private public abstract virtual int RemainingBlocks
+```
 
 Number of blocks left to be welded
 

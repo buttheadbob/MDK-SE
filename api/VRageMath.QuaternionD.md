@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### QuaternionD Struct
+#### QuaternionD Struct
 
 ```csharp
 private public sealed QuaternionD
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|
@@ -23,7 +23,7 @@ private public sealed QuaternionD
 |[W](VRageMath.QuaternionD.W)|Specifies the rotation component of the quaternion.|
 |[Identity](VRageMath.QuaternionD.Identity)||
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

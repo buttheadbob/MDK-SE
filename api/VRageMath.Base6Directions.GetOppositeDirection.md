@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetOppositeDirection
-```csharp
+private public private sealed Direction GetOppositeDirection
+```
 
 ### Returns
 

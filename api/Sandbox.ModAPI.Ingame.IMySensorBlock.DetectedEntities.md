@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual DetectedEntities
-```csharp
+private public abstract virtual void DetectedEntities
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreateFromQuaternion
-```csharp
+private public private public sealed Matrix3x3 CreateFromQuaternion
+```
 
 Creates a rotation Matrix3x3 from a Quaternion.
 
@@ -17,8 +17,8 @@ Creates a rotation Matrix3x3 from a Quaternion.
 ### Summary
 
 ```csharp
-private public CreateFromQuaternion
-```csharp
+private public void CreateFromQuaternion
+```
 
 Creates a rotation Matrix3x3 from a Quaternion.
 

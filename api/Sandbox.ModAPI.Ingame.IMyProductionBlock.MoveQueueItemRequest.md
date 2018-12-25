@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual MoveQueueItemRequest
-```csharp
+private public abstract virtual void MoveQueueItemRequest
+```
 
 Moves an item in the queue to a target position in the queue.
 

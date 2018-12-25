@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public ToSRGB
-```csharp
+private public private public sealed Vector4 ToSRGB
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public ToSRGB
 ### Summary
 
 ```csharp
-private public ToSRGB
-```csharp
+private public private public sealed Vector3 ToSRGB
+```
 
 ### Returns
 

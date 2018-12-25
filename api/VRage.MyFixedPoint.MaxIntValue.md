@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public MaxIntValue
-```csharp
+private public private public sealed MyFixedPoint MaxIntValue
+```
 
 ### Returns
 

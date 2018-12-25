@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public AngleBetween
-```csharp
+private public float AngleBetween
+```
 
 ### Returns
 

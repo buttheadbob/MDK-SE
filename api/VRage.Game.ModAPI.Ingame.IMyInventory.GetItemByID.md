@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual GetItemByID
-```csharp
+private public abstract virtual private public abstract IMyInventoryItem GetItemByID
+```
 
 ### Returns
 

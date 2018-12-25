@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual RequiredInputByType
-```csharp
+private public abstract virtual float RequiredInputByType
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetKeys
-```csharp
+private public void GetKeys
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public GetKeys
 ### Summary
 
 ```csharp
-private public GetKeys
-```csharp
+private public void GetKeys
+```
 
 ### Returns
 

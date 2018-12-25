@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Languages
-```csharp
+private public private public sealed DictionaryReader<K, V> Languages
+```
 
 ### Returns
 

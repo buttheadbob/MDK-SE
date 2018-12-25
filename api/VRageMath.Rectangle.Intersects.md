@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public bool Intersects
+```
 
 Determines whether a specified Rectangle intersects with this Rectangle.
 
@@ -17,8 +17,8 @@ Determines whether a specified Rectangle intersects with this Rectangle.
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public void Intersects
+```
 
 Determines whether a specified Rectangle intersects with this Rectangle.
 

@@ -1,33 +1,33 @@
 ← [Index](Api-Index)
 
-### TextPtr Struct
+#### TextPtr Struct
 
 ```csharp
 private public sealed TextPtr
-```csharp
+```
 
 **Namespace:** [VRage.Game.ModAPI.Ingame.Utilities](VRage.Game.ModAPI.Ingame.Utilities)  
 **Assembly:** VRage.Game.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|
 |[Content](VRage.Game.ModAPI.Ingame.Utilities.TextPtr.Content)||
 |[Index](VRage.Game.ModAPI.Ingame.Utilities.TextPtr.Index)||
 
-###### Properties
+#### Properties
 
 |Member|Description|
 |---|---|
 |[Char](VRage.Game.ModAPI.Ingame.Utilities.TextPtr.Char)||
 |[IsEmpty](VRage.Game.ModAPI.Ingame.Utilities.TextPtr.IsEmpty)||
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

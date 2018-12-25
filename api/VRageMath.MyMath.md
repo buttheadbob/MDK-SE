@@ -1,25 +1,25 @@
 ← [Index](Api-Index)
 
-### MyMath Class
+#### MyMath Class
 
 ```csharp
 private public abstract sealed MyMath
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|
 |[Vector3One](VRageMath.MyMath.Vector3One)||
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

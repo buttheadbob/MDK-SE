@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public ToStringLongitude
-```csharp
+private public string ToStringLongitude
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual FindItem
-```csharp
+private public abstract virtual private public abstract IMyInventoryItem FindItem
+```
 
 ### Returns
 

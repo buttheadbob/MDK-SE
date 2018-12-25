@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Trigger
-```csharp
+private public abstract virtual void Trigger
+```
 
 Trigger immediately, skips countdown
 

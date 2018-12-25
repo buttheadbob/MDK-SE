@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual SetFilter
-```csharp
+private public abstract virtual void SetFilter
+```
 
 ### Returns
 

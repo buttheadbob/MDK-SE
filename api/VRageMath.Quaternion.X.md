@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public X
-```csharp
+private public float X
+```
 
 Specifies the x-value of the vector component of the quaternion.
 

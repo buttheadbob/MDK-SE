@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public DistanceSquared
-```csharp
+private public float DistanceSquared
+```
 
 Calculates the distance between two vectors squared.
 
@@ -17,8 +17,8 @@ Calculates the distance between two vectors squared.
 ### Summary
 
 ```csharp
-private public DistanceSquared
-```csharp
+private public void DistanceSquared
+```
 
 Calculates the distance between two vectors squared.
 

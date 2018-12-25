@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Inflate
-```csharp
+private public void Inflate
+```
 
 ### Returns
 

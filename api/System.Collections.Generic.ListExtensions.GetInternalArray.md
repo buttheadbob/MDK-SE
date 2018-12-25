@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetInternalArray<T>
-```csharp
+private public private public sealed T[] GetInternalArray<T>
+```
 
 ### Returns
 

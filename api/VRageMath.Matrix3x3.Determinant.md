@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Determinant
-```csharp
+private public float Determinant
+```
 
 ### Returns
 

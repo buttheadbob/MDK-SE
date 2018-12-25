@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public bool Intersects
+```
 
 Checks whether the current BoundingSphere intersects with a specified BoundingBox.
 
@@ -17,8 +17,8 @@ Checks whether the current BoundingSphere intersects with a specified BoundingBo
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public void Intersects
+```
 
 Checks whether the current BoundingSphere intersects a BoundingBox.
 
@@ -31,8 +31,8 @@ Checks whether the current BoundingSphere intersects a BoundingBox.
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public bool Intersects
+```
 
 Checks whether the current BoundingSphere intersects with a specified BoundingFrustum.
 
@@ -45,8 +45,8 @@ Checks whether the current BoundingSphere intersects with a specified BoundingFr
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public private public sealed PlaneIntersectionType Intersects
+```
 
 Checks whether the current BoundingSphere intersects with a specified Plane.
 
@@ -59,8 +59,8 @@ Checks whether the current BoundingSphere intersects with a specified Plane.
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public void Intersects
+```
 
 Checks whether the current BoundingSphere intersects a Plane.
 
@@ -73,8 +73,8 @@ Checks whether the current BoundingSphere intersects a Plane.
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public private public sealed Nullable<T> Intersects
+```
 
 Checks whether the current BoundingSphere intersects with a specified Ray.
 
@@ -87,8 +87,8 @@ Checks whether the current BoundingSphere intersects with a specified Ray.
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public void Intersects
+```
 
 ### Returns
 
@@ -99,8 +99,8 @@ private public Intersects
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public bool Intersects
+```
 
 Checks whether the current BoundingSphere intersects with a specified BoundingSphere.
 
@@ -113,8 +113,8 @@ Checks whether the current BoundingSphere intersects with a specified BoundingSp
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public void Intersects
+```
 
 Checks whether the current BoundingSphere intersects another BoundingSphere.
 

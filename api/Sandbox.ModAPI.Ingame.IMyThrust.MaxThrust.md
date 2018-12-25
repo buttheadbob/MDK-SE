@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual MaxThrust
-```csharp
+private public abstract virtual float MaxThrust
+```
 
 Gets the maximum thrust amount, in Newtons (N)
 

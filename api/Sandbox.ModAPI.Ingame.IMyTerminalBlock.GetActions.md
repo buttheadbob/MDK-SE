@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual GetActions
-```csharp
+private public abstract virtual void GetActions
+```
 
 ### Returns
 

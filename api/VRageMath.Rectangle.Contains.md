@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Contains
-```csharp
+private public bool Contains
+```
 
 Determines whether this Rectangle contains a specified point represented by its x- and y-coordinates.
 
@@ -17,8 +17,8 @@ Determines whether this Rectangle contains a specified point represented by its 
 ### Summary
 
 ```csharp
-private public Contains
-```csharp
+private public bool Contains
+```
 
 Determines whether this Rectangle contains a specified Point.
 
@@ -31,8 +31,8 @@ Determines whether this Rectangle contains a specified Point.
 ### Summary
 
 ```csharp
-private public Contains
-```csharp
+private public void Contains
+```
 
 Determines whether this Rectangle contains a specified Point.
 
@@ -45,8 +45,8 @@ Determines whether this Rectangle contains a specified Point.
 ### Summary
 
 ```csharp
-private public Contains
-```csharp
+private public bool Contains
+```
 
 Determines whether this Rectangle entirely contains a specified Rectangle.
 
@@ -59,8 +59,8 @@ Determines whether this Rectangle entirely contains a specified Rectangle.
 ### Summary
 
 ```csharp
-private public Contains
-```csharp
+private public void Contains
+```
 
 Determines whether this Rectangle entirely contains a specified Rectangle.
 

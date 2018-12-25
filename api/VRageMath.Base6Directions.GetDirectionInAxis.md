@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetDirectionInAxis
-```csharp
+private public private sealed Direction GetDirectionInAxis
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public GetDirectionInAxis
 ### Summary
 
 ```csharp
-private public GetDirectionInAxis
-```csharp
+private public private sealed Direction GetDirectionInAxis
+```
 
 ### Returns
 

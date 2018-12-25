@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public private public sealed BoundingBox Transform
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public Transform
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public private public sealed BoundingBoxD Transform
+```
 
 ### Returns
 
@@ -27,8 +27,8 @@ private public Transform
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public private public sealed BoundingBox Transform
+```
 
 ### Returns
 
@@ -39,8 +39,8 @@ private public Transform
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public void Transform
+```
 
 ### Returns
 
@@ -51,8 +51,8 @@ private public Transform
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public private public sealed BoundingBoxD Transform
+```
 
 ### Returns
 
@@ -63,8 +63,8 @@ private public Transform
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public void Transform
+```
 
 ### Returns
 

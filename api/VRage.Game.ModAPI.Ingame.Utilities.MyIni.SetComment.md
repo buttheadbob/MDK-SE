@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public SetComment
-```csharp
+private public void SetComment
+```
 
 Sets a comment on a given item. The item must already exist. Set the comment to`null`to remove it.
 
@@ -17,8 +17,8 @@ Sets a comment on a given item. The item must already exist. Set the comment to`
 ### Summary
 
 ```csharp
-private public SetComment
-```csharp
+private public void SetComment
+```
 
 Sets a comment on a given item. The item must already exist. Set the comment to`null`to remove it.
 

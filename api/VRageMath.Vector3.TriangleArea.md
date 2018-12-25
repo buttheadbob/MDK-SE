@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public TriangleArea
-```csharp
+private public float TriangleArea
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public TriangleArea
 ### Summary
 
 ```csharp
-private public TriangleArea
-```csharp
+private public float TriangleArea
+```
 
 ### Returns
 

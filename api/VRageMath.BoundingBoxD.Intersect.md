@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Intersect
-```csharp
+private public private public sealed BoundingBoxD Intersect
+```
 
 Returns bounding box which is intersection of this and box It's called 'Prunik' Result is invalid box when there's no intersection (Min > Max)
 
@@ -17,8 +17,8 @@ Returns bounding box which is intersection of this and box It's called 'Prunik' 
 ### Summary
 
 ```csharp
-private public Intersect
-```csharp
+private public bool Intersect
+```
 
 ### Returns
 
@@ -29,8 +29,8 @@ private public Intersect
 ### Summary
 
 ```csharp
-private public Intersect
-```csharp
+private public bool Intersect
+```
 
 ### Returns
 
@@ -41,8 +41,8 @@ private public Intersect
 ### Summary
 
 ```csharp
-private public Intersect
-```csharp
+private public bool Intersect
+```
 
 ### Returns
 

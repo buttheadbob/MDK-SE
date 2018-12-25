@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public DistanceToTangent
-```csharp
+private public double DistanceToTangent
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public DistanceToTangent
 ### Summary
 
 ```csharp
-private public DistanceToTangent
-```csharp
+private public double DistanceToTangent
+```
 
 ### Returns
 

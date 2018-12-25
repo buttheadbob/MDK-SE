@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Silent
-```csharp
+private public abstract virtual bool Silent
+```
 
 Gets or sets if the countdown is silent
 

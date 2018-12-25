@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetNormalized
-```csharp
+private public bool GetNormalized
+```
 
 ### Returns
 

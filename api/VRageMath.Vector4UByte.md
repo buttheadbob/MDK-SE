@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### Vector4UByte Struct
+#### Vector4UByte Struct
 
 ```csharp
 private public sealed Vector4UByte
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|
@@ -22,13 +22,13 @@ private public sealed Vector4UByte
 |[Z](VRageMath.Vector4UByte.Z)||
 |[W](VRageMath.Vector4UByte.W)||
 
-###### Properties
+#### Properties
 
 |Member|Description|
 |---|---|
 |[Item](VRageMath.Vector4UByte.Item)||
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

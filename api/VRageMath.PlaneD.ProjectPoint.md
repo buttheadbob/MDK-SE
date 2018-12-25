@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public ProjectPoint
-```csharp
+private public private public sealed Vector3D ProjectPoint
+```
 
 ### Returns
 

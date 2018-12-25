@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual RefillBottles
-```csharp
+private public abstract virtual void RefillBottles
+```
 
 Refills any stored storage bottles.
 

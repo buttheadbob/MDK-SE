@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### Vector3Extensions Class
+#### Vector3Extensions Class
 
 ```csharp
 private public abstract sealed Vector3Extensions
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

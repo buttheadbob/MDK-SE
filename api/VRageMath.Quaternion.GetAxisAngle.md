@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetAxisAngle
-```csharp
+private public void GetAxisAngle
+```
 
 ### Returns
 

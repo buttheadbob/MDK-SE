@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreateFromHalfExtent
-```csharp
+private public private public sealed BoundingBox2I CreateFromHalfExtent
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public CreateFromHalfExtent
 ### Summary
 
 ```csharp
-private public CreateFromHalfExtent
-```csharp
+private public private public sealed BoundingBox2I CreateFromHalfExtent
+```
 
 ### Returns
 

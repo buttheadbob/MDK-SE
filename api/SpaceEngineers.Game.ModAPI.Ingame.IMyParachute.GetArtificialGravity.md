@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual GetArtificialGravity
-```csharp
+private public abstract virtual private public sealed Vector3D GetArtificialGravity
+```
 
 Gets the detected artificial gravity vector and power at the current location.
 

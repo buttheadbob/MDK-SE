@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Font
-```csharp
+private public abstract virtual string Font
+```
 
 Gets or sets the font
 

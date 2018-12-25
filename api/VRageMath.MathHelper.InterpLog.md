@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public InterpLog
-```csharp
+private public float InterpLog
+```
 
 Performs interpolation on logarithmic scale.
 

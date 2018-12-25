@@ -1,21 +1,21 @@
 ← [Index](Api-Index)
 
-### MyResourceSinkComponent Class
+#### MyResourceSinkComponent Class
 
 ```csharp
 private public MyResourceSinkComponent
-```csharp
+```
 
 **Namespace:** [Sandbox.Game.EntityComponents](Sandbox.Game.EntityComponents)  
 **Assembly:** Sandbox.Game.dll
 
 **Inheritance: **[MyResourceSinkComponentBase](VRage.Game.Components.MyResourceSinkComponentBase)
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Properties
+#### Properties
 
 |Member|Description|
 |---|---|
@@ -26,7 +26,7 @@ private public MyResourceSinkComponent
 |[AcceptedResources](Sandbox.Game.EntityComponents.MyResourceSinkComponent.AcceptedResources)||
 |[AcceptedResources](VRage.Game.Components.MyResourceSinkComponentBase.AcceptedResources)|_Inherited from [MyResourceSinkComponentBase](VRage.Game.Components.MyResourceSinkComponentBase)_|
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

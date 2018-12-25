@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public IsRotation
-```csharp
+private public bool IsRotation
+```
 
 ### Returns
 

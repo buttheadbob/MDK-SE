@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual CollectAll
-```csharp
+private public abstract virtual bool CollectAll
+```
 
 Gets or sets whether this connector should be pulling items into its inventory.
 

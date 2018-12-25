@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual StockpileAllocated
-```csharp
+private public abstract virtual bool StockpileAllocated
+```
 
 A component stockpile has been allocated
 

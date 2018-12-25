@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual TrackTarget
-```csharp
+private public abstract virtual void TrackTarget
+```
 
 Tracks given target with enabled position prediction
 

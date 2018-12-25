@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Name
-```csharp
+private public abstract virtual private public sealed StringBuilder Name
+```
 
 ### Returns
 

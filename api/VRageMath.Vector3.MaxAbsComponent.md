@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public MaxAbsComponent
-```csharp
+private public private public sealed Vector3 MaxAbsComponent
+```
 
 Keeps only component with maximal absolute, others are set to zero.
 

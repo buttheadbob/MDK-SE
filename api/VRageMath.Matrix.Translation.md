@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Translation
-```csharp
+private public private public sealed Vector3 Translation
+```
 
 Gets and sets the translation vector of the Matrix.
 

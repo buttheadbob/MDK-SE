@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public MoveNext
-```csharp
+private public void MoveNext
+```
 
 ### Returns
 

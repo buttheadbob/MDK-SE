@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### BoundingBox2 Struct
+#### BoundingBox2 Struct
 
 ```csharp
 private public sealed BoundingBox2
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|
@@ -21,7 +21,7 @@ private public sealed BoundingBox2
 |[Max](VRageMath.BoundingBox2.Max)|The maximum point the BoundingBox2 contains.|
 |[CornerCount](VRageMath.BoundingBox2.CornerCount)|Specifies the total number of corners (8) in the BoundingBox2.|
 
-###### Properties
+#### Properties
 
 |Member|Description|
 |---|---|
@@ -32,7 +32,7 @@ private public sealed BoundingBox2
 |[Height](VRageMath.BoundingBox2.Height)||
 |[Size](VRageMath.BoundingBox2.Size)|Size|
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

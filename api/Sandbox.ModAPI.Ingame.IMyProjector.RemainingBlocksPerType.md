@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual RemainingBlocksPerType
-```csharp
+private public abstract virtual private public Dictionary<TKey, TValue> RemainingBlocksPerType
+```
 
 A comprehensive list of blocks left to be welded
 

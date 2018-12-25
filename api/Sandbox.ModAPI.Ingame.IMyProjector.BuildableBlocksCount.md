@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual BuildableBlocksCount
-```csharp
+private public abstract virtual int BuildableBlocksCount
+```
 
 Count of blocks which can be welded now
 

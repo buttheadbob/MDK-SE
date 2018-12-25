@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Conjugate
-```csharp
+private public void Conjugate
+```
 
 Transforms this Quaternion into its conjugate.
 
@@ -17,8 +17,8 @@ Transforms this Quaternion into its conjugate.
 ### Summary
 
 ```csharp
-private public Conjugate
-```csharp
+private public private public sealed Quaternion Conjugate
+```
 
 Returns the conjugate of a specified Quaternion.
 
@@ -31,8 +31,8 @@ Returns the conjugate of a specified Quaternion.
 ### Summary
 
 ```csharp
-private public Conjugate
-```csharp
+private public void Conjugate
+```
 
 Returns the conjugate of a specified Quaternion.
 

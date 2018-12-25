@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public LengthSquared
-```csharp
+private public int LengthSquared
+```
 
 ### Returns
 

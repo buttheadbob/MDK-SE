@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Detonate
-```csharp
+private public abstract virtual void Detonate
+```
 
 ### Returns
 

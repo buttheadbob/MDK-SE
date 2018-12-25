@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Floor
-```csharp
+private public private public sealed MyFixedPoint Floor
+```
 
 ### Returns
 

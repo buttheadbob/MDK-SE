@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Lock
-```csharp
+private public abstract virtual void Lock
+```
 
 Locks the landing gear.
 

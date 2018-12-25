@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetBaseAxisDirection
-```csharp
+private public private sealed Direction GetBaseAxisDirection
+```
 
 ### Returns
 

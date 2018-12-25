@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Center
-```csharp
+private public private public sealed Point Center
+```
 
 Gets the Point that specifies the center of the rectangle.
 

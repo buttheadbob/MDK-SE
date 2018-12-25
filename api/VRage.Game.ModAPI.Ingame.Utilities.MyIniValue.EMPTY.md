@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public EMPTY
-```csharp
+private public private public sealed MyIniValue EMPTY
+```
 
 Represents an empty [MyIniValue](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue) 
 

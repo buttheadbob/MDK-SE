@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreateConstrainedBillboard
-```csharp
+private public private public sealed MatrixD CreateConstrainedBillboard
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public CreateConstrainedBillboard
 ### Summary
 
 ```csharp
-private public CreateConstrainedBillboard
-```csharp
+private public void CreateConstrainedBillboard
+```
 
 ### Returns
 

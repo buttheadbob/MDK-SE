@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public W
-```csharp
+private public float W
+```
 
 Specifies the rotation component of the quaternion.
 

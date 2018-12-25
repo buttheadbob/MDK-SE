@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual DetailedInfo
-```csharp
+private public abstract virtual string DetailedInfo
+```
 
 ### Returns
 

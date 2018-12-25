@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreatePerspectiveFovRhInfiniteComplementaryInverse
-```csharp
+private public private public sealed Matrix CreatePerspectiveFovRhInfiniteComplementaryInverse
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public TransformNormal
-```csharp
+private public private public sealed Vector3I TransformNormal
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public TransformNormal
 ### Summary
 
 ```csharp
-private public TransformNormal
-```csharp
+private public void TransformNormal
+```
 
 Transforms a vector normal by a matrix.
 
@@ -29,8 +29,8 @@ Transforms a vector normal by a matrix.
 ### Summary
 
 ```csharp
-private public TransformNormal
-```csharp
+private public void TransformNormal
+```
 
 ### Returns
 

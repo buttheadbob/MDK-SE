@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual IsFull
-```csharp
+private public abstract virtual bool IsFull
+```
 
 ### Returns
 

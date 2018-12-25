@@ -1,26 +1,26 @@
 ← [Index](Api-Index)
 
-### IMySmallMissileLauncher Interface
+#### IMySmallMissileLauncher Interface
 
 ```csharp
 private public abstract IMySmallMissileLauncher
-```csharp
+```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
 
 **Implements:**  
-* [Sandbox.ModAPI.Ingame.IMyUserControllableGun](Sandbox.ModAPI.Ingame.IMyUserControllableGun)  
-* [Sandbox.ModAPI.Ingame.IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
-* [Sandbox.ModAPI.Ingame.IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
-* [VRage.Game.ModAPI.Ingame.IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [VRage.Game.ModAPI.Ingame.IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyUserControllableGun](Sandbox.ModAPI.Ingame.IMyUserControllableGun)  
+* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
+* [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Properties
+#### Properties
 
 |Member|Description|
 |---|---|
@@ -64,7 +64,7 @@ private public abstract IMySmallMissileLauncher
 |[Enabled](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.Enabled)|_Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_|
 |[IsShooting](Sandbox.ModAPI.Ingame.IMyUserControllableGun.IsShooting)|_Inherited from [IMyUserControllableGun](Sandbox.ModAPI.Ingame.IMyUserControllableGun)_|
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

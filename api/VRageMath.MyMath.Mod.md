@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Mod
-```csharp
+private public int Mod
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public Mod
 ### Summary
 
 ```csharp
-private public Mod
-```csharp
+private public long Mod
+```
 
 ### Returns
 

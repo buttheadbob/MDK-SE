@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Dot
-```csharp
+private public long Dot
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public Dot
 ### Summary
 
 ```csharp
-private public Dot
-```csharp
+private public long Dot
+```
 
 ### Returns
 
@@ -27,8 +27,8 @@ private public Dot
 ### Summary
 
 ```csharp
-private public Dot
-```csharp
+private public long Dot
+```
 
 ### Returns
 
@@ -39,8 +39,8 @@ private public Dot
 ### Summary
 
 ```csharp
-private public Dot
-```csharp
+private public void Dot
+```
 
 ### Returns
 

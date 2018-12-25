@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public SurfaceArea
-```csharp
+private public float SurfaceArea
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetForward
-```csharp
+private public private sealed Direction GetForward
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public GetForward
 ### Summary
 
 ```csharp
-private public GetForward
-```csharp
+private public private sealed Direction GetForward
+```
 
 ### Returns
 
@@ -27,8 +27,8 @@ private public GetForward
 ### Summary
 
 ```csharp
-private public GetForward
-```csharp
+private public private sealed Direction GetForward
+```
 
 ### Returns
 

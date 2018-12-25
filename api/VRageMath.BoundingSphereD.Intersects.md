@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public bool Intersects
+```
 
 Checks whether the current BoundingSphereD intersects with a specified BoundingBoxD.
 
@@ -17,8 +17,8 @@ Checks whether the current BoundingSphereD intersects with a specified BoundingB
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public void Intersects
+```
 
 Checks whether the current BoundingSphereD intersects a BoundingBoxD.
 
@@ -31,8 +31,8 @@ Checks whether the current BoundingSphereD intersects a BoundingBoxD.
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public private public sealed Nullable<T> Intersects
+```
 
 ### Returns
 
@@ -43,8 +43,8 @@ private public Intersects
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public bool Intersects
+```
 
 Checks whether the current BoundingSphereD intersects with a specified BoundingFrustum.
 
@@ -57,8 +57,8 @@ Checks whether the current BoundingSphereD intersects with a specified BoundingF
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public bool Intersects
+```
 
 Checks whether the current BoundingSphereD intersects with a specified BoundingSphereD.
 
@@ -71,8 +71,8 @@ Checks whether the current BoundingSphereD intersects with a specified BoundingS
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public void Intersects
+```
 
 Checks whether the current BoundingSphereD intersects another BoundingSphereD.
 

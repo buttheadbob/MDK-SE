@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public BoxIntersects
-```csharp
+private public bool BoxIntersects
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public BoxIntersects
 ### Summary
 
 ```csharp
-private public BoxIntersects
-```csharp
+private public bool BoxIntersects
+```
 
 ### Returns
 

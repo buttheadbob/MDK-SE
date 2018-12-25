@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public ArcTanAngle
-```csharp
+private public float ArcTanAngle
+```
 
 ArcTanAngle
 

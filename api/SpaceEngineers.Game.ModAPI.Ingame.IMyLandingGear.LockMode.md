@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual LockMode
-```csharp
+private public abstract virtual private public sealed LandingGearMode LockMode
+```
 
 Gets the current lock state of the landing gear.
 

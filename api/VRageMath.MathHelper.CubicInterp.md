@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CubicInterp
-```csharp
+private public double CubicInterp
+```
 
 ### Returns
 

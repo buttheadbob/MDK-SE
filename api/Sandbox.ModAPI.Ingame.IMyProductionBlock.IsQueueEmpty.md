@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual IsQueueEmpty
-```csharp
+private public abstract virtual bool IsQueueEmpty
+```
 
 The production queue is empty.
 

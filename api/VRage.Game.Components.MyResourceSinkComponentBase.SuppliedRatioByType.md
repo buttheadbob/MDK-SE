@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual SuppliedRatioByType
-```csharp
+private public abstract virtual float SuppliedRatioByType
+```
 
 ### Returns
 

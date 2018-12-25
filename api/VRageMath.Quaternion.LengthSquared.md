@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public LengthSquared
-```csharp
+private public float LengthSquared
+```
 
 Calculates the length squared of a Quaternion.
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual AnyoneCanUse
-```csharp
+private public abstract virtual bool AnyoneCanUse
+```
 
 Gets or sets if anyone is allowed to activate the buttons.
 

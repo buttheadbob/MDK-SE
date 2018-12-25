@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Sign
-```csharp
+private public private public sealed Vector3 Sign
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public Sign
 ### Summary
 
 ```csharp
-private public Sign
-```csharp
+private public private public sealed Vector3 Sign
+```
 
 ### Returns
 

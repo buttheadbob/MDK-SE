@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual IsPoweredByType
-```csharp
+private public abstract virtual bool IsPoweredByType
+```
 
 ### Returns
 

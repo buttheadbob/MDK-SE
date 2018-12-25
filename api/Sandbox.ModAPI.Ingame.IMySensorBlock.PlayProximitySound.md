@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual PlayProximitySound
-```csharp
+private public abstract virtual bool PlayProximitySound
+```
 
 Gets or sets if the proximity sound plays when an entity is detected.
 

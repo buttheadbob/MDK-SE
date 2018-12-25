@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public StartsWithCaseInsensitive
-```csharp
+private public bool StartsWithCaseInsensitive
+```
 
 ### Returns
 

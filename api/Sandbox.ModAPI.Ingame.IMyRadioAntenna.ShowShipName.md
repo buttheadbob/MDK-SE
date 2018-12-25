@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual ShowShipName
-```csharp
+private public abstract virtual bool ShowShipName
+```
 
 Show shipname on hud
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Lerp
-```csharp
+private public float Lerp
+```
 
 Linearly interpolates between two values.
 
@@ -17,8 +17,8 @@ Linearly interpolates between two values.
 ### Summary
 
 ```csharp
-private public Lerp
-```csharp
+private public double Lerp
+```
 
 Linearly interpolates between two values.
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Remove<K, V>
-```csharp
+private public void Remove<K, V>
+```
 
 ### Returns
 

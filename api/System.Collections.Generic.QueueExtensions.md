@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### QueueExtensions Class
+#### QueueExtensions Class
 
 ```csharp
 private public abstract sealed QueueExtensions
-```csharp
+```
 
 **Namespace:** [System.Collections.Generic](System.Collections.Generic)  
 **Assembly:** VRage.Library.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

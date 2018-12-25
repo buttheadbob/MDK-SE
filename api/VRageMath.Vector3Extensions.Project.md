@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Project
-```csharp
+private public private public sealed Vector3 Project
+```
 
 Calculates projection vector
 

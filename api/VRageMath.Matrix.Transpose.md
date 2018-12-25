@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Transpose
-```csharp
+private public private public sealed Matrix Transpose
+```
 
 Transposes the rows and columns of a matrix.
 
@@ -17,8 +17,8 @@ Transposes the rows and columns of a matrix.
 ### Summary
 
 ```csharp
-private public Transpose
-```csharp
+private public void Transpose
+```
 
 Transposes the rows and columns of a matrix.
 

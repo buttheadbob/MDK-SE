@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### BoundingBox Struct
+#### BoundingBox Struct
 
 ```csharp
 private public sealed BoundingBox
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|
@@ -22,7 +22,7 @@ private public sealed BoundingBox
 |[Comparer](VRageMath.BoundingBox.Comparer)||
 |[CornerCount](VRageMath.BoundingBox.CornerCount)|Specifies the total number of corners (8) in the BoundingBox.|
 
-###### Properties
+#### Properties
 
 |Member|Description|
 |---|---|
@@ -37,7 +37,7 @@ private public sealed BoundingBox
 |[Matrix](VRageMath.BoundingBox.Matrix)|Matrix of AABB, respection center and size|
 |[Perimeter](VRageMath.BoundingBox.Perimeter)|return perimeter of edges|
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

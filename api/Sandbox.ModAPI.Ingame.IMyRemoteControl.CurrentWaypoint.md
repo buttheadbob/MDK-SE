@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual CurrentWaypoint
-```csharp
+private public abstract virtual private public sealed MyWaypointInfo CurrentWaypoint
+```
 
 Gets the current target waypoint
 

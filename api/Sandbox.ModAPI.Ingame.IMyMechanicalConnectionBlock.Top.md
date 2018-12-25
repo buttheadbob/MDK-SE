@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Top
-```csharp
+private public abstract virtual private public abstract IMyAttachableTopBlock Top
+```
 
 Gets the attached top part entity
 

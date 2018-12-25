@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public ArePerpendicular
-```csharp
+private public bool ArePerpendicular
+```
 
 ### Returns
 

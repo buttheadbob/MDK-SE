@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual AutoRefill
-```csharp
+private public abstract virtual bool AutoRefill
+```
 
 Autorefill enabled
 

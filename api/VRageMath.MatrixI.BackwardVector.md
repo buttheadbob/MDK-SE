@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public BackwardVector
-```csharp
+private public private public sealed Vector3I BackwardVector
+```
 
 ### Returns
 

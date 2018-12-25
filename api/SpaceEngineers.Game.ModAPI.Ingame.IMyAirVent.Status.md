@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Status
-```csharp
+private public abstract virtual private public sealed VentStatus Status
+```
 
 Gets current air vent status
 

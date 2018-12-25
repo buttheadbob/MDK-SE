@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual GetInventory
-```csharp
+private public abstract virtual private public abstract IMyInventory GetInventory
+```
 
 Simply get the MyInventoryBase component stored in this entity.
 
@@ -19,8 +19,8 @@ Simply get the MyInventoryBase component stored in this entity.
 ### Summary
 
 ```csharp
-private public abstract virtual GetInventory
-```csharp
+private public abstract virtual private public abstract IMyInventory GetInventory
+```
 
 Search for inventory component with maching index.
 

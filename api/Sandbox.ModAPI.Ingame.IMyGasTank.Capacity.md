@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Capacity
-```csharp
+private public abstract virtual float Capacity
+```
 
 Gets the gas capacity of this tank.
 

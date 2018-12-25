@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public IsCached
-```csharp
+private public bool IsCached
+```
 
 ### Returns
 

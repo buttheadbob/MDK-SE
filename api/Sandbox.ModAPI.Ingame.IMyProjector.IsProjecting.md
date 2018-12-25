@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual IsProjecting
-```csharp
+private public abstract virtual bool IsProjecting
+```
 
 Checks if there is an active projection
 

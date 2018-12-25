@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual OutputInventory
-```csharp
+private public abstract virtual private public abstract IMyInventory OutputInventory
+```
 
 Gets the output inventory.
 

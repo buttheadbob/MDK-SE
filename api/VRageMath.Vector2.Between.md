@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Between
-```csharp
+private public bool Between
+```
 
 ### Returns
 

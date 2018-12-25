@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public SmoothStep
-```csharp
+private public private public sealed Vector3 SmoothStep
+```
 
 Interpolates between two values using a cubic equation.
 
@@ -17,8 +17,8 @@ Interpolates between two values using a cubic equation.
 ### Summary
 
 ```csharp
-private public SmoothStep
-```csharp
+private public void SmoothStep
+```
 
 Interpolates between two values using a cubic equation.
 

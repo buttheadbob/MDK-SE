@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public MultiplySafe
-```csharp
+private public private public sealed MyFixedPoint MultiplySafe
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public MultiplySafe
 ### Summary
 
 ```csharp
-private public MultiplySafe
-```csharp
+private public private public sealed MyFixedPoint MultiplySafe
+```
 
 ### Returns
 
@@ -27,8 +27,8 @@ private public MultiplySafe
 ### Summary
 
 ```csharp
-private public MultiplySafe
-```csharp
+private public private public sealed MyFixedPoint MultiplySafe
+```
 
 ### Returns
 
@@ -39,8 +39,8 @@ private public MultiplySafe
 ### Summary
 
 ```csharp
-private public MultiplySafe
-```csharp
+private public private public sealed MyFixedPoint MultiplySafe
+```
 
 ### Returns
 
@@ -51,8 +51,8 @@ private public MultiplySafe
 ### Summary
 
 ```csharp
-private public MultiplySafe
-```csharp
+private public private public sealed MyFixedPoint MultiplySafe
+```
 
 ### Returns
 

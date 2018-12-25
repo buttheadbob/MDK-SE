@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual SteerSpeed
-```csharp
+private public abstract virtual float SteerSpeed
+```
 
 Speed at which wheel steers.
 

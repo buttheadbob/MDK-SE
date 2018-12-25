@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual IsPermanent
-```csharp
+private public abstract virtual bool IsPermanent
+```
 
 Connection is permanent
 

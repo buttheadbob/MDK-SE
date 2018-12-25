@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Multiply
-```csharp
+private public private public sealed Vector3 Multiply
+```
 
 Multiplies the components of two vectors by each other.
 
@@ -17,8 +17,8 @@ Multiplies the components of two vectors by each other.
 ### Summary
 
 ```csharp
-private public Multiply
-```csharp
+private public void Multiply
+```
 
 Multiplies the components of two vectors by each other.
 
@@ -31,8 +31,8 @@ Multiplies the components of two vectors by each other.
 ### Summary
 
 ```csharp
-private public Multiply
-```csharp
+private public private public sealed Vector3 Multiply
+```
 
 Multiplies a vector by a scalar value.
 
@@ -45,8 +45,8 @@ Multiplies a vector by a scalar value.
 ### Summary
 
 ```csharp
-private public Multiply
-```csharp
+private public void Multiply
+```
 
 Multiplies a vector by a scalar value.
 
@@ -59,8 +59,8 @@ Multiplies a vector by a scalar value.
 ### Summary
 
 ```csharp
-private public Multiply
-```csharp
+private public void Multiply
+```
 
 ### Returns
 

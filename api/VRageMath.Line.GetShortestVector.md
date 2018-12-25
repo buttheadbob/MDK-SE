@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetShortestVector
-```csharp
+private public private public sealed Vector3 GetShortestVector
+```
 
 ### Returns
 

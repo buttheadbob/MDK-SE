@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual MaxInput
-```csharp
+private public abstract virtual float MaxInput
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Connect
-```csharp
+private public abstract virtual void Connect
+```
 
 Attempts to connect. If [Status](Sandbox.ModAPI.Ingame.IMyShipConnector.Status) is anything else but ConnectorStatus.Connectable , this method does nothing.
 

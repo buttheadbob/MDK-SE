@@ -1,32 +1,32 @@
 ← [Index](Api-Index)
 
-### MyTransformD Struct
+#### MyTransformD Struct
 
 ```csharp
 private public sealed MyTransformD
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|
 |[Rotation](VRageMath.MyTransformD.Rotation)||
 |[Position](VRageMath.MyTransformD.Position)||
 
-###### Properties
+#### Properties
 
 |Member|Description|
 |---|---|
 |[TransformMatrix](VRageMath.MyTransformD.TransformMatrix)||
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

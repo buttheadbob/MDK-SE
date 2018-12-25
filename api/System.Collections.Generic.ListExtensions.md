@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### ListExtensions Class
+#### ListExtensions Class
 
 ```csharp
 private public abstract sealed ListExtensions
-```csharp
+```
 
 **Namespace:** [System.Collections.Generic](System.Collections.Generic)  
 **Assembly:** VRage.Library.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

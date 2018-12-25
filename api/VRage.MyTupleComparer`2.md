@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### MyTupleComparer&lt;T1, T2&gt; Class
+#### MyTupleComparer&lt;T1, T2&gt; Class
 
 ```csharp
 private public MyTupleComparer<T1, T2>
-```csharp
+```
 
 **Namespace:** [VRage](VRage)  
 **Assembly:** VRage.Library.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

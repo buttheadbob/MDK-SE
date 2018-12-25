@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreateFromPerspectiveFieldOfView
-```csharp
+private public private public sealed Matrix CreateFromPerspectiveFieldOfView
+```
 
 ### Returns
 

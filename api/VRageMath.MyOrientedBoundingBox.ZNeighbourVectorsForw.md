@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public ZNeighbourVectorsForw
-```csharp
+private public private public sealed Vector3[] ZNeighbourVectorsForw
+```
 
 ### Returns
 

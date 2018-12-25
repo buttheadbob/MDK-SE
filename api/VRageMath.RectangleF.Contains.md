@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Contains
-```csharp
+private public bool Contains
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public Contains
 ### Summary
 
 ```csharp
-private public Contains
-```csharp
+private public bool Contains
+```
 
 ### Returns
 
@@ -27,8 +27,8 @@ private public Contains
 ### Summary
 
 ```csharp
-private public Contains
-```csharp
+private public bool Contains
+```
 
 ### Returns
 
@@ -39,8 +39,8 @@ private public Contains
 ### Summary
 
 ```csharp
-private public Contains
-```csharp
+private public bool Contains
+```
 
 ### Returns
 

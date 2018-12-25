@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual IsUnderControl
-```csharp
+private public abstract virtual bool IsUnderControl
+```
 
 Indicates whether a block is locally or remotely controlled.
 

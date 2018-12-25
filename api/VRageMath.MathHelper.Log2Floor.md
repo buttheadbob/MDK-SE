@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Log2Floor
-```csharp
+private public int Log2Floor
+```
 
 ### Returns
 

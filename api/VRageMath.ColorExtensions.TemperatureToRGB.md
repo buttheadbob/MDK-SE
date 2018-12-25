@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public TemperatureToRGB
-```csharp
+private public private public sealed Vector3 TemperatureToRGB
+```
 
 ### Returns
 

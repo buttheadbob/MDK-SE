@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Far
-```csharp
+private public private public sealed Plane Far
+```
 
 Gets the far plane of the BoundingFrustum.
 

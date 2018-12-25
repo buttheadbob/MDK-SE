@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Bottom
-```csharp
+private public private public sealed Plane Bottom
+```
 
 Gets the bottom plane of the BoundingFrustum.
 

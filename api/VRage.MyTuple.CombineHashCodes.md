@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CombineHashCodes
-```csharp
+private public int CombineHashCodes
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public CombineHashCodes
 ### Summary
 
 ```csharp
-private public CombineHashCodes
-```csharp
+private public int CombineHashCodes
+```
 
 ### Returns
 
@@ -27,8 +27,8 @@ private public CombineHashCodes
 ### Summary
 
 ```csharp
-private public CombineHashCodes
-```csharp
+private public int CombineHashCodes
+```
 
 ### Returns
 
@@ -39,8 +39,8 @@ private public CombineHashCodes
 ### Summary
 
 ```csharp
-private public CombineHashCodes
-```csharp
+private public int CombineHashCodes
+```
 
 ### Returns
 
@@ -51,8 +51,8 @@ private public CombineHashCodes
 ### Summary
 
 ```csharp
-private public CombineHashCodes
-```csharp
+private public int CombineHashCodes
+```
 
 ### Returns
 
@@ -63,8 +63,8 @@ private public CombineHashCodes
 ### Summary
 
 ```csharp
-private public CombineHashCodes
-```csharp
+private public int CombineHashCodes
+```
 
 ### Returns
 
@@ -75,8 +75,8 @@ private public CombineHashCodes
 ### Summary
 
 ```csharp
-private public CombineHashCodes
-```csharp
+private public int CombineHashCodes
+```
 
 ### Returns
 

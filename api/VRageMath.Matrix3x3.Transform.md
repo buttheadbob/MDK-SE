@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public void Transform
+```
 
 Transforms a Matrix3x3 by applying a Quaternion rotation.
 

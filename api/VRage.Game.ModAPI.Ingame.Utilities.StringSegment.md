@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### StringSegment Struct
+#### StringSegment Struct
 
 ```csharp
 private public sealed StringSegment
-```csharp
+```
 
 **Namespace:** [VRage.Game.ModAPI.Ingame.Utilities](VRage.Game.ModAPI.Ingame.Utilities)  
 **Assembly:** VRage.Game.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|
@@ -21,7 +21,7 @@ private public sealed StringSegment
 |[Start](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.Start)||
 |[Length](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.Length)||
 
-###### Properties
+#### Properties
 
 |Member|Description|
 |---|---|
@@ -29,7 +29,7 @@ private public sealed StringSegment
 |[IsCached](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.IsCached)||
 |[Item](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.Item)||
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

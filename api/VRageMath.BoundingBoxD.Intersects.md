@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public bool Intersects
+```
 
 Checks whether the current BoundingBox intersects another BoundingBox.
 
@@ -17,8 +17,8 @@ Checks whether the current BoundingBox intersects another BoundingBox.
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public bool Intersects
+```
 
 ### Returns
 
@@ -29,8 +29,8 @@ private public Intersects
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public void Intersects
+```
 
 Checks whether the current BoundingBox intersects another BoundingBox.
 
@@ -43,8 +43,8 @@ Checks whether the current BoundingBox intersects another BoundingBox.
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public void Intersects
+```
 
 ### Returns
 
@@ -55,8 +55,8 @@ private public Intersects
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public bool Intersects
+```
 
 Checks whether the current BoundingBox intersects a BoundingFrustum.
 
@@ -69,8 +69,8 @@ Checks whether the current BoundingBox intersects a BoundingFrustum.
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public private public sealed PlaneIntersectionType Intersects
+```
 
 Checks whether the current BoundingBox intersects a Plane.
 
@@ -83,8 +83,8 @@ Checks whether the current BoundingBox intersects a Plane.
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public void Intersects
+```
 
 Checks whether the current BoundingBox intersects a Plane.
 
@@ -97,8 +97,8 @@ Checks whether the current BoundingBox intersects a Plane.
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public bool Intersects
+```
 
 ### Returns
 
@@ -109,8 +109,8 @@ private public Intersects
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public bool Intersects
+```
 
 ### Returns
 
@@ -121,8 +121,8 @@ private public Intersects
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public private public sealed Nullable<T> Intersects
+```
 
 ### Returns
 
@@ -133,8 +133,8 @@ private public Intersects
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public private public sealed Nullable<T> Intersects
+```
 
 Checks whether the current BoundingBox intersects a Ray.
 
@@ -147,8 +147,8 @@ Checks whether the current BoundingBox intersects a Ray.
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public void Intersects
+```
 
 ### Returns
 
@@ -159,8 +159,8 @@ private public Intersects
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public bool Intersects
+```
 
 Checks whether the current BoundingBox intersects a BoundingSphere.
 
@@ -173,8 +173,8 @@ Checks whether the current BoundingBox intersects a BoundingSphere.
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public void Intersects
+```
 
 Checks whether the current BoundingBox intersects a BoundingSphere.
 
@@ -187,8 +187,8 @@ Checks whether the current BoundingBox intersects a BoundingSphere.
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public bool Intersects
+```
 
 ### Returns
 

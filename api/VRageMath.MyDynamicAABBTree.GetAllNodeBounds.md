@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetAllNodeBounds
-```csharp
+private public void GetAllNodeBounds
+```
 
 ### Returns
 

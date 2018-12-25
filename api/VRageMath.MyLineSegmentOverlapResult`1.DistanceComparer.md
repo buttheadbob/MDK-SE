@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public DistanceComparer
-```csharp
+private public private MyLineSegmentOverlapResultComparer<T> DistanceComparer
+```
 
 ### Returns
 

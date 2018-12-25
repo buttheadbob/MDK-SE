@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetOrientation
-```csharp
+private public private public sealed MatrixD GetOrientation
+```
 
 Gets the orientation.
 

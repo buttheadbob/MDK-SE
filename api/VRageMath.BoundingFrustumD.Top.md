@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Top
-```csharp
+private public private public sealed PlaneD Top
+```
 
 Gets the top plane of the BoundingFrustumD.
 

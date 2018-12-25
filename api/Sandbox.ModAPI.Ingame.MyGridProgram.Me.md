@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public virtual Me
-```csharp
+private public virtual private public abstract IMyProgrammableBlock Me
+```
 
 Gets a reference to the currently running programmable block.
 

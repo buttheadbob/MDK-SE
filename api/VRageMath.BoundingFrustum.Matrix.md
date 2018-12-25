@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Matrix
-```csharp
+private public private public sealed Matrix Matrix
+```
 
 Gets or sets the Matrix that describes this bounding frustum.
 

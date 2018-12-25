@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public UnmultiplyColor
-```csharp
+private public private public sealed Vector4 UnmultiplyColor
+```
 
 ### Returns
 

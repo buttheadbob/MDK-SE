@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public virtual Init
-```csharp
+private public virtual void Init
+```
 
 ### Returns
 

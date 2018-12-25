@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Rotate
-```csharp
+private public void Rotate
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public Rotate
 ### Summary
 
 ```csharp
-private public Rotate
-```csharp
+private public private public sealed Vector3D Rotate
+```
 
 ### Returns
 

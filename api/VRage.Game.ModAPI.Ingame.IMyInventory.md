@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### IMyInventory Interface
+#### IMyInventory Interface
 
 ```csharp
 private public abstract IMyInventory
-```csharp
+```
 
 **Namespace:** [VRage.Game.ModAPI.Ingame](VRage.Game.ModAPI.Ingame)  
 **Assembly:** VRage.Game.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Properties
+#### Properties
 
 |Member|Description|
 |---|---|
@@ -24,7 +24,7 @@ private public abstract IMyInventory
 |[CurrentVolume](VRage.Game.ModAPI.Ingame.IMyInventory.CurrentVolume)||
 |[Owner](VRage.Game.ModAPI.Ingame.IMyInventory.Owner)||
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

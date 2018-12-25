@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreateFromTwoVectors
-```csharp
+private public void CreateFromTwoVectors
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public CreateFromTwoVectors
 ### Summary
 
 ```csharp
-private public CreateFromTwoVectors
-```csharp
+private public private public sealed QuaternionD CreateFromTwoVectors
+```
 
 ### Returns
 

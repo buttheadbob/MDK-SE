@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual HasInventory
-```csharp
+private public abstract virtual bool HasInventory
+```
 
 ### Returns
 

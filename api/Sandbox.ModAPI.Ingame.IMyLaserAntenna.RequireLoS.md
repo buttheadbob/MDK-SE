@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual RequireLoS
-```csharp
+private public abstract virtual bool RequireLoS
+```
 
 Determines whether this particular antenna requires line of sight to function.
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public AddList<T>
-```csharp
+private public void AddList<T>
+```
 
 ### Returns
 

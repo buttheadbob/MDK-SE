@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Components
-```csharp
+private public abstract virtual private public MyEntityComponentContainer Components
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual AddImagesToSelection
-```csharp
+private public abstract virtual void AddImagesToSelection
+```
 
 ### Returns
 

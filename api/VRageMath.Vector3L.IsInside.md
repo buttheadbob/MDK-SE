@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public IsInside
-```csharp
+private public bool IsInside
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public IsInside
 ### Summary
 
 ```csharp
-private public IsInside
-```csharp
+private public bool IsInside
+```
 
 ### Returns
 

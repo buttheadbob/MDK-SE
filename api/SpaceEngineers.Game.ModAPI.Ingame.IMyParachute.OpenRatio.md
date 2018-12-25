@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual OpenRatio
-```csharp
+private public abstract virtual float OpenRatio
+```
 
 The current, accurate ratio of the door's current state where 0 is fully closed and 1 is fully open.
 

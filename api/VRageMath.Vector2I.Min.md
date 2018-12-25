@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Min
-```csharp
+private public void Min
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public Min
 ### Summary
 
 ```csharp
-private public Min
-```csharp
+private public private public sealed Vector2I Min
+```
 
 ### Returns
 

@@ -1,27 +1,27 @@
 ← [Index](Api-Index)
 
-### IMyLargeConveyorTurretBase Interface
+#### IMyLargeConveyorTurretBase Interface
 
 ```csharp
 private public abstract IMyLargeConveyorTurretBase
-```csharp
+```
 
 **Namespace:** [SpaceEngineers.Game.ModAPI.Ingame](SpaceEngineers.Game.ModAPI.Ingame)  
 **Assembly:** SpaceEngineers.Game.dll
 
 **Implements:**  
-* [Sandbox.ModAPI.Ingame.IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)  
-* [Sandbox.ModAPI.Ingame.IMyUserControllableGun](Sandbox.ModAPI.Ingame.IMyUserControllableGun)  
-* [Sandbox.ModAPI.Ingame.IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
-* [Sandbox.ModAPI.Ingame.IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
-* [VRage.Game.ModAPI.Ingame.IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [VRage.Game.ModAPI.Ingame.IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)  
+* [IMyUserControllableGun](Sandbox.ModAPI.Ingame.IMyUserControllableGun)  
+* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
+* [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Properties
+#### Properties
 
 |Member|Description|
 |---|---|
@@ -74,7 +74,7 @@ private public abstract IMyLargeConveyorTurretBase
 |[EnableIdleRotation](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.EnableIdleRotation)|enable/disable idle rotation for turret, this method is not synced, you need to sync manually<br /><br />_Inherited from [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)_|
 |[AIEnabled](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.AIEnabled)|Checks is AI is enabled for turret<br /><br />_Inherited from [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)_|
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

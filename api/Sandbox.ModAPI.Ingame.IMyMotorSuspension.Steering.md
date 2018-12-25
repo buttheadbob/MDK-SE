@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Steering
-```csharp
+private public abstract virtual bool Steering
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreateFromAxisAngle
-```csharp
+private public private public sealed MatrixD CreateFromAxisAngle
+```
 
 Creates a new Matrix that rotates around an arbitrary vector.
 
@@ -17,8 +17,8 @@ Creates a new Matrix that rotates around an arbitrary vector.
 ### Summary
 
 ```csharp
-private public CreateFromAxisAngle
-```csharp
+private public void CreateFromAxisAngle
+```
 
 Creates a new Matrix that rotates around an arbitrary vector.
 

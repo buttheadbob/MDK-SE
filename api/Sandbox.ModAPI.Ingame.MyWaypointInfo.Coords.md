@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Coords
-```csharp
+private public private public sealed Vector3D Coords
+```
 
 Gets the target coordinate as a [Vector3D](VRageMath.Vector3D) 
 

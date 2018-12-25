@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Slerp
-```csharp
+private public void Slerp
+```
 
 Performs spherical linear interpolation of position and rotation.
 
@@ -17,8 +17,8 @@ Performs spherical linear interpolation of position and rotation.
 ### Summary
 
 ```csharp
-private public Slerp
-```csharp
+private public void Slerp
+```
 
 Performs spherical linear interpolation of position and rotation.
 
@@ -31,8 +31,8 @@ Performs spherical linear interpolation of position and rotation.
 ### Summary
 
 ```csharp
-private public Slerp
-```csharp
+private public private public sealed Matrix Slerp
+```
 
 Performs spherical linear interpolation of position and rotation.
 

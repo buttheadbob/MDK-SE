@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Equals
-```csharp
+private public bool Equals
+```
 
 ### Returns
 

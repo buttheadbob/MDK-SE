@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Min
-```csharp
+private public abstract virtual private public sealed Vector3I Min
+```
 
 Minimum coordinates of blocks in grid
 

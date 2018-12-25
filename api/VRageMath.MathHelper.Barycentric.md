@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Barycentric
-```csharp
+private public float Barycentric
+```
 
 Returns the Cartesian coordinate for one axis of a point that is defined by a given triangle and two normalized barycentric (areal) coordinates.
 

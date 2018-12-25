@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual IsRunning
-```csharp
+private public abstract virtual bool IsRunning
+```
 
 This programmable block is currently running its program.
 

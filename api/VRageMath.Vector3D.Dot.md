@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Dot
-```csharp
+private public double Dot
+```
 
 Calculates the dot product of two vectors. If the two vectors are unit vectors, the dot product returns a doubleing point value between -1 and 1 that can be used to determine some properties of the angle between two vectors. For example, it can show whether the vectors are orthogonal, parallel, or have an acute or obtuse angle between them.
 
@@ -17,8 +17,8 @@ Calculates the dot product of two vectors. If the two vectors are unit vectors, 
 ### Summary
 
 ```csharp
-private public Dot
-```csharp
+private public double Dot
+```
 
 ### Returns
 
@@ -29,8 +29,8 @@ private public Dot
 ### Summary
 
 ```csharp
-private public Dot
-```csharp
+private public void Dot
+```
 
 Calculates the dot product of two vectors and writes the result to a user-specified variable. If the two vectors are unit vectors, the dot product returns a doubleing point value between -1 and 1 that can be used to determine some properties of the angle between two vectors. For example, it can show whether the vectors are orthogonal, parallel, or have an acute or obtuse angle between them.
 
@@ -43,8 +43,8 @@ Calculates the dot product of two vectors and writes the result to a user-specif
 ### Summary
 
 ```csharp
-private public Dot
-```csharp
+private public void Dot
+```
 
 ### Returns
 
@@ -55,8 +55,8 @@ private public Dot
 ### Summary
 
 ```csharp
-private public Dot
-```csharp
+private public void Dot
+```
 
 ### Returns
 
@@ -67,8 +67,8 @@ private public Dot
 ### Summary
 
 ```csharp
-private public Dot
-```csharp
+private public double Dot
+```
 
 ### Returns
 
@@ -79,8 +79,8 @@ private public Dot
 ### Summary
 
 ```csharp
-private public Dot
-```csharp
+private public double Dot
+```
 
 ### Returns
 
@@ -91,8 +91,8 @@ private public Dot
 ### Summary
 
 ```csharp
-private public Dot
-```csharp
+private public double Dot
+```
 
 ### Returns
 

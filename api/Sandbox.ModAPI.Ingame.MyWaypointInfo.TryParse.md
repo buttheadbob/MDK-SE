@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public TryParse
-```csharp
+private public bool TryParse
+```
 
 Attempts to parse a GPS coordinate from the given text. The text cannot contain anything but the GPS coordinate.  
   

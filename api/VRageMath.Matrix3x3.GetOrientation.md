@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetOrientation
-```csharp
+private public private public sealed Matrix3x3 GetOrientation
+```
 
 Gets the orientation.
 

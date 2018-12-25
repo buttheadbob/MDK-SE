@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreateWorld
-```csharp
+private public private public sealed Matrix3x3 CreateWorld
+```
 
 Creates a world matrix with the specified parameters.
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public ProjectOnPlane
-```csharp
+private public private public sealed Vector3 ProjectOnPlane
+```
 
 Projects given vector on plane specified by it's normal.
 

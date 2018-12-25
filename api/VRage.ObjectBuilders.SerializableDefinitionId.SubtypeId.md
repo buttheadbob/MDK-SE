@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public SubtypeId
-```csharp
+private public string SubtypeId
+```
 
 ### Returns
 

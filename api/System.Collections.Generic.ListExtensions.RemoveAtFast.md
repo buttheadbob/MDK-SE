@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public RemoveAtFast<T>
-```csharp
+private public void RemoveAtFast<T>
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public RemoveAtFast<T>
 ### Summary
 
 ```csharp
-private public RemoveAtFast<T>
-```csharp
+private public void RemoveAtFast<T>
+```
 
 ### Returns
 

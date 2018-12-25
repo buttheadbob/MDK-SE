@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Radius
-```csharp
+private public abstract virtual float Radius
+```
 
 Gets or sets the basic radius of the light.
 

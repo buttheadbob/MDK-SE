@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### PlaneIntersectionType Enum
+#### PlaneIntersectionType Enum
 
 ```csharp
 private public sealed PlaneIntersectionType
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public IntersectsTriangle
-```csharp
+private public bool IntersectsTriangle
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public IntersectsTriangle
 ### Summary
 
 ```csharp
-private public IntersectsTriangle
-```csharp
+private public bool IntersectsTriangle
+```
 
 ### Returns
 

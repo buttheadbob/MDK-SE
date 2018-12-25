@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual HasCapacityRemaining
-```csharp
+private public abstract virtual bool HasCapacityRemaining
+```
 
 ### Returns
 

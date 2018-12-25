@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Subtract
-```csharp
+private public private public sealed Matrix Subtract
+```
 
 Subtracts matrices.
 
@@ -17,8 +17,8 @@ Subtracts matrices.
 ### Summary
 
 ```csharp
-private public Subtract
-```csharp
+private public void Subtract
+```
 
 Subtracts matrices.
 

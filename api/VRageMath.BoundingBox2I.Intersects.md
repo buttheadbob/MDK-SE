@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public bool Intersects
+```
 
 Checks whether the current BoundingBox2I intersects another BoundingBox2I.
 
@@ -17,8 +17,8 @@ Checks whether the current BoundingBox2I intersects another BoundingBox2I.
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public bool Intersects
+```
 
 ### Returns
 
@@ -29,8 +29,8 @@ private public Intersects
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public void Intersects
+```
 
 Checks whether the current BoundingBox2I intersects another BoundingBox2I.
 

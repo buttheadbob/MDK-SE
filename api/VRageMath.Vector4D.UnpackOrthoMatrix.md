@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public UnpackOrthoMatrix
-```csharp
+private public private public sealed MatrixD UnpackOrthoMatrix
+```
 
 ### Returns
 

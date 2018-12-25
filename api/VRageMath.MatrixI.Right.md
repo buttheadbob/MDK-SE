@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Right
-```csharp
+private public private sealed Direction Right
+```
 
 ### Returns
 

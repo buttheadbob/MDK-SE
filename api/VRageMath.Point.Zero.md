@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Zero
-```csharp
+private public private public sealed Point Zero
+```
 
 Returns the point (0,0).
 

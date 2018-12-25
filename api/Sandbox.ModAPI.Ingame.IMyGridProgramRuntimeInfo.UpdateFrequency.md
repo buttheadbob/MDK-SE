@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual UpdateFrequency
-```csharp
+private public abstract virtual private public sealed UpdateFrequency UpdateFrequency
+```
 
 Gets or sets how frequently this script will run itself
 

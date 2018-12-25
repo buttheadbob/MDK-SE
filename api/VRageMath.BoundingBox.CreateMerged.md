@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreateMerged
-```csharp
+private public private public sealed BoundingBox CreateMerged
+```
 
 Creates the smallest BoundingBox that contains the two specified BoundingBox instances.
 
@@ -17,8 +17,8 @@ Creates the smallest BoundingBox that contains the two specified BoundingBox ins
 ### Summary
 
 ```csharp
-private public CreateMerged
-```csharp
+private public void CreateMerged
+```
 
 Creates the smallest BoundingBox that contains the two specified BoundingBox instances.
 

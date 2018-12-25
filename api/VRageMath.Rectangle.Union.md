@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Union
-```csharp
+private public private public sealed Rectangle Union
+```
 
 Creates a new Rectangle that exactly contains two other rectangles.
 
@@ -17,8 +17,8 @@ Creates a new Rectangle that exactly contains two other rectangles.
 ### Summary
 
 ```csharp
-private public Union
-```csharp
+private public void Union
+```
 
 Creates a new Rectangle that exactly contains two other rectangles.
 

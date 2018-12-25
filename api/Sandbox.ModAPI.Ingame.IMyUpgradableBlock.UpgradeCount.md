@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual UpgradeCount
-```csharp
+private public abstract virtual uint UpgradeCount
+```
 
 number of upgrades applied
 

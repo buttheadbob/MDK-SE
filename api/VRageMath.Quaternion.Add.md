@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Add
-```csharp
+private public private public sealed Quaternion Add
+```
 
 Adds two Quaternions.
 
@@ -17,8 +17,8 @@ Adds two Quaternions.
 ### Summary
 
 ```csharp
-private public Add
-```csharp
+private public void Add
+```
 
 Adds two Quaternions.
 

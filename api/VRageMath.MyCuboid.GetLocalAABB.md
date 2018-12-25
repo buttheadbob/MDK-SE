@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetLocalAABB
-```csharp
+private public private public sealed BoundingBox GetLocalAABB
+```
 
 ### Returns
 

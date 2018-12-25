@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Subtract
-```csharp
+private public private public sealed Vector3 Subtract
+```
 
 Subtracts a vector from a vector.
 
@@ -17,8 +17,8 @@ Subtracts a vector from a vector.
 ### Summary
 
 ```csharp
-private public Subtract
-```csharp
+private public void Subtract
+```
 
 Subtracts a vector from a vector.
 

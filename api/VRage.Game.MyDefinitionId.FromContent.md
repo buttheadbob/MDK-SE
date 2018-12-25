@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public FromContent
-```csharp
+private public private public sealed MyDefinitionId FromContent
+```
 
 Creates a new definition ID from a given content.
 

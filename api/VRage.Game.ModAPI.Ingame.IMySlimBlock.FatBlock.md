@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual FatBlock
-```csharp
+private public abstract virtual private public abstract IMyCubeBlock FatBlock
+```
 
 Gets the fatblock if there is one
 

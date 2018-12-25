@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public ToGray
-```csharp
+private public private public sealed Vector3 ToGray
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public ToGray
 ### Summary
 
 ```csharp
-private public ToGray
-```csharp
+private public private public sealed Vector4 ToGray
+```
 
 ### Returns
 

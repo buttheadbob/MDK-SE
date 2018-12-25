@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### NullableVector3Extensions Class
+#### NullableVector3Extensions Class
 
 ```csharp
 private public abstract sealed NullableVector3Extensions
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

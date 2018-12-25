@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public TransformFast
-```csharp
+private public private public sealed BoundingBoxD TransformFast
+```
 
 Transform this AABB by matrix. Matrix has to be only rotation and translation.
 
@@ -19,8 +19,8 @@ transformed aabb
 ### Summary
 
 ```csharp
-private public TransformFast
-```csharp
+private public private public sealed BoundingBoxD TransformFast
+```
 
 Transform this AABB by matrix. Matrix has to be only rotation and translation.
 
@@ -35,8 +35,8 @@ transformed aabb
 ### Summary
 
 ```csharp
-private public TransformFast
-```csharp
+private public void TransformFast
+```
 
 Transform this AABB by matrix. Matrix has to be only rotation and translation.
 

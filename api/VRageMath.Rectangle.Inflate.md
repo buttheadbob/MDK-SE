@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Inflate
-```csharp
+private public void Inflate
+```
 
 Pushes the edges of the Rectangle out by the horizontal and vertical values specified.
 

@@ -1,25 +1,25 @@
 ← [Index](Api-Index)
 
-### MyComponentBase Class
+#### MyComponentBase Class
 
 ```csharp
 private public abstract MyComponentBase
-```csharp
+```
 
 **Namespace:** [VRage.Game.Components](VRage.Game.Components)  
 **Assembly:** VRage.Game.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Properties
+#### Properties
 
 |Member|Description|
 |---|---|
 |[ContainerBase](VRage.Game.Components.MyComponentBase.ContainerBase)|This cannot be named Container to not conflict with the definition of Container in MyEntityComponentBase.|
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

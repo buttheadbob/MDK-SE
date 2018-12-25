@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Smooth
-```csharp
+private public int Smooth
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public Smooth
 ### Summary
 
 ```csharp
-private public Smooth
-```csharp
+private public float Smooth
+```
 
 ### Returns
 

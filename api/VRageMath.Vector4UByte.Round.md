@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Round
-```csharp
+private public private public sealed Vector4UByte Round
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public Round
 ### Summary
 
 ```csharp
-private public Round
-```csharp
+private public private public sealed Vector4UByte Round
+```
 
 ### Returns
 

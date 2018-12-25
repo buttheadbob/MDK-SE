@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public IsValidBlockOrientation
-```csharp
+private public bool IsValidBlockOrientation
+```
 
 ### Returns
 

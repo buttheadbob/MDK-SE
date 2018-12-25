@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Direction
-```csharp
+private public abstract virtual private sealed Direction Direction
+```
 
 Gets or sets the current flight direction
 

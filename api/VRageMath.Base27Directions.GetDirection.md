@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetDirection
-```csharp
+private public private sealed Direction GetDirection
+```
 
 Vector must be normalized, allowed values for components are: 0, 1, -1, 0.707, -0.707, 0.577, -0.577
 
@@ -17,8 +17,8 @@ Vector must be normalized, allowed values for components are: 0, 1, -1, 0.707, -
 ### Summary
 
 ```csharp
-private public GetDirection
-```csharp
+private public private sealed Direction GetDirection
+```
 
 ### Returns
 
@@ -29,8 +29,8 @@ private public GetDirection
 ### Summary
 
 ```csharp
-private public GetDirection
-```csharp
+private public private sealed Direction GetDirection
+```
 
 ### Returns
 
@@ -41,8 +41,8 @@ private public GetDirection
 ### Summary
 
 ```csharp
-private public GetDirection
-```csharp
+private public private sealed Direction GetDirection
+```
 
 ### Returns
 

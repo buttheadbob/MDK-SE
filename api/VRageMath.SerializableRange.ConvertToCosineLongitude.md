@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public ConvertToCosineLongitude
-```csharp
+private public private public sealed SerializableRange ConvertToCosineLongitude
+```
 
 ### Returns
 

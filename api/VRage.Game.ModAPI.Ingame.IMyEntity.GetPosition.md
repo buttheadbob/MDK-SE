@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual GetPosition
-```csharp
+private public abstract virtual private public sealed Vector3D GetPosition
+```
 
 ### Returns
 

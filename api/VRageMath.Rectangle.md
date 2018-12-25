@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### Rectangle Struct
+#### Rectangle Struct
 
 ```csharp
 private public sealed Rectangle
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|
@@ -22,7 +22,7 @@ private public sealed Rectangle
 |[Width](VRageMath.Rectangle.Width)|Specifies the width of the rectangle.|
 |[Height](VRageMath.Rectangle.Height)|Specifies the height of the rectangle.|
 
-###### Properties
+#### Properties
 
 |Member|Description|
 |---|---|
@@ -33,7 +33,7 @@ private public sealed Rectangle
 |[Location](VRageMath.Rectangle.Location)|Gets or sets the upper-left value of the Rectangle.|
 |[Center](VRageMath.Rectangle.Center)|Gets the Point that specifies the center of the rectangle.|
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

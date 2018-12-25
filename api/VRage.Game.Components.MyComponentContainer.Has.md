@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Has<T>
-```csharp
+private public bool Has<T>
+```
 
 ### Returns
 

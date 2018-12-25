@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public private public sealed Matrix Transform
+```
 
 Transforms a Matrix by applying a Quaternion rotation.
 
@@ -17,8 +17,8 @@ Transforms a Matrix by applying a Quaternion rotation.
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public void Transform
+```
 
 Transforms a Matrix by applying a Quaternion rotation.
 

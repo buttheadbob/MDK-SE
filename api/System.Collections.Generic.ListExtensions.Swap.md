@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Swap<T>
-```csharp
+private public void Swap<T>
+```
 
 ### Returns
 

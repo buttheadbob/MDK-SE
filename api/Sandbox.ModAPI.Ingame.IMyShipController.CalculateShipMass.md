@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual CalculateShipMass
-```csharp
+private public abstract virtual private public sealed MyShipMass CalculateShipMass
+```
 
 Gets information about the current mass of the ship.
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreateWorld
-```csharp
+private public private public sealed MatrixD CreateWorld
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public CreateWorld
 ### Summary
 
 ```csharp
-private public CreateWorld
-```csharp
+private public private public sealed MatrixD CreateWorld
+```
 
 ### Returns
 
@@ -27,8 +27,8 @@ private public CreateWorld
 ### Summary
 
 ```csharp
-private public CreateWorld
-```csharp
+private public private public sealed MatrixD CreateWorld
+```
 
 Creates a world matrix with the specified parameters.
 
@@ -41,8 +41,8 @@ Creates a world matrix with the specified parameters.
 ### Summary
 
 ```csharp
-private public CreateWorld
-```csharp
+private public void CreateWorld
+```
 
 Creates a world matrix with the specified parameters.
 

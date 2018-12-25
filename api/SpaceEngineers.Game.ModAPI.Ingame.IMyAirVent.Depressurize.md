@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Depressurize
-```csharp
+private public abstract virtual bool Depressurize
+```
 
 Vent mode false - pressurize (filling room) true - depressurize (sucking air out)
 

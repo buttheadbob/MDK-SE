@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public ApplyAction
-```csharp
+private public void ApplyAction
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public ApplyAction
 ### Summary
 
 ```csharp
-private public ApplyAction
-```csharp
+private public void ApplyAction
+```
 
 ### Returns
 

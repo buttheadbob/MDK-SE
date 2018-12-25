@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public TotalMass
-```csharp
+private public float TotalMass
+```
 
 Gets the total mass of the ship, including cargo.
 

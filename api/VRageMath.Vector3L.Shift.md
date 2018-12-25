@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Shift
-```csharp
+private public private public sealed Vector3L Shift
+```
 
 ### Returns
 

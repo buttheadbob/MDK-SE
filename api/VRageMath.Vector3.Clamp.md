@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Clamp
-```csharp
+private public private public sealed Vector3 Clamp
+```
 
 Restricts a value to be within a specified range.
 
@@ -17,8 +17,8 @@ Restricts a value to be within a specified range.
 ### Summary
 
 ```csharp
-private public Clamp
-```csharp
+private public void Clamp
+```
 
 Restricts a value to be within a specified range.
 

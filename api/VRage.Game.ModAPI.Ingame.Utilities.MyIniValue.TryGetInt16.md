@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public TryGetInt16
-```csharp
+private public bool TryGetInt16
+```
 
 Attempts to get this value as a [System.Int16](https://docs.microsoft.com/en-us/dotnet/api/system.int16?view=netframework-4.6) . Fills the`value`on success.
 

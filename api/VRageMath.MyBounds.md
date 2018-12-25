@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### MyBounds Struct
+#### MyBounds Struct
 
 ```csharp
 private public sealed MyBounds
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|
@@ -21,7 +21,7 @@ private public sealed MyBounds
 |[Max](VRageMath.MyBounds.Max)||
 |[Default](VRageMath.MyBounds.Default)||
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

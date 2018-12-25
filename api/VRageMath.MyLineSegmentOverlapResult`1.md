@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### MyLineSegmentOverlapResult&lt;T&gt; Struct
+#### MyLineSegmentOverlapResult&lt;T&gt; Struct
 
 ```csharp
 private public sealed MyLineSegmentOverlapResult<T>
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|

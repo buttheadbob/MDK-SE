@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Contains
-```csharp
+private public private public sealed ContainmentType Contains
+```
 
 Tests whether the BoundingBox2D contains another BoundingBox2D.
 
@@ -17,8 +17,8 @@ Tests whether the BoundingBox2D contains another BoundingBox2D.
 ### Summary
 
 ```csharp
-private public Contains
-```csharp
+private public void Contains
+```
 
 Tests whether the BoundingBox2D contains a BoundingBox2D.
 
@@ -31,8 +31,8 @@ Tests whether the BoundingBox2D contains a BoundingBox2D.
 ### Summary
 
 ```csharp
-private public Contains
-```csharp
+private public private public sealed ContainmentType Contains
+```
 
 Tests whether the BoundingBox2D contains a point.
 
@@ -45,8 +45,8 @@ Tests whether the BoundingBox2D contains a point.
 ### Summary
 
 ```csharp
-private public Contains
-```csharp
+private public void Contains
+```
 
 Tests whether the BoundingBox2D contains a point.
 

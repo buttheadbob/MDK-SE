@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Get
-```csharp
+private public private public sealed MyIniValue Get
+```
 
 Gets the [MyIniValue](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue) of the given configuration key.
 
@@ -19,8 +19,8 @@ Gets the [MyIniValue](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue) of the give
 ### Summary
 
 ```csharp
-private public Get
-```csharp
+private public private public sealed MyIniValue Get
+```
 
 Gets the [MyIniValue](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue) of the given configuration key.
 

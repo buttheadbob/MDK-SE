@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Offset
-```csharp
+private public void Offset
+```
 
 Changes the position of the Rectangle.
 
@@ -17,8 +17,8 @@ Changes the position of the Rectangle.
 ### Summary
 
 ```csharp
-private public Offset
-```csharp
+private public void Offset
+```
 
 Changes the position of the Rectangle.
 

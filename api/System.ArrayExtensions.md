@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### ArrayExtensions Class
+#### ArrayExtensions Class
 
 ```csharp
 private public abstract sealed ArrayExtensions
-```csharp
+```
 
 **Namespace:** [System](System)  
 **Assembly:** VRage.Library.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

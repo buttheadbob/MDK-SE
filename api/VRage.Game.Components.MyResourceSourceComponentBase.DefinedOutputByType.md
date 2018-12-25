@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual DefinedOutputByType
-```csharp
+private public abstract virtual float DefinedOutputByType
+```
 
 Max resource output defined in definition in MW or litres/h.
 

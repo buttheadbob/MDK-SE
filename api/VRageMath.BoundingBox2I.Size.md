@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Size
-```csharp
+private public private public sealed Vector2I Size
+```
 
 Size
 

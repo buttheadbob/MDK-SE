@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public TryGetSByte
-```csharp
+private public bool TryGetSByte
+```
 
 Attempts to get this value as a [System.SByte](https://docs.microsoft.com/en-us/dotnet/api/system.sbyte?view=netframework-4.6) . Fills the`value`on success.
 

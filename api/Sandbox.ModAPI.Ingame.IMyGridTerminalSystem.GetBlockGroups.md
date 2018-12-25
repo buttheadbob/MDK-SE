@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual GetBlockGroups
-```csharp
+private public abstract virtual void GetBlockGroups
+```
 
 ### Returns
 

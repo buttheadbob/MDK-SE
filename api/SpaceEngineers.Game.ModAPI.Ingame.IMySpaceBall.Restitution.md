@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Restitution
-```csharp
+private public abstract virtual float Restitution
+```
 
 Ball restitution
 

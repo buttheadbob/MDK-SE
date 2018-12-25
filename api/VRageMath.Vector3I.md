@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### Vector3I Struct
+#### Vector3I Struct
 
 ```csharp
 private public sealed Vector3I
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|
@@ -35,7 +35,7 @@ private public sealed Vector3I
 |[Backward](VRageMath.Vector3I.Backward)||
 |[One](VRageMath.Vector3I.One)||
 
-###### Properties
+#### Properties
 
 |Member|Description|
 |---|---|
@@ -44,7 +44,7 @@ private public sealed Vector3I
 |[Size](VRageMath.Vector3I.Size)|How many cubes are in block with this size|
 |[SizeLong](VRageMath.Vector3I.SizeLong)||
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

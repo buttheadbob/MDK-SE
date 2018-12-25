@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual WorldAABBHr
-```csharp
+private public abstract virtual private public sealed BoundingBoxD WorldAABBHr
+```
 
 ### Returns
 

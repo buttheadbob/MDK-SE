@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetComment
-```csharp
+private public string GetComment
+```
 
 Gets any comment that might be associated with the given key. Returns`null`if the key does not exist or has no comment.
 
@@ -19,8 +19,8 @@ Gets any comment that might be associated with the given key. Returns`null`if th
 ### Summary
 
 ```csharp
-private public GetComment
-```csharp
+private public string GetComment
+```
 
 Gets any comment that might be associated with the given key. Returns`null`if the key does not exist or has no comment.
 

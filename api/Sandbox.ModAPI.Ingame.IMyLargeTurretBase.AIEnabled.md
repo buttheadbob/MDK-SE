@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual AIEnabled
-```csharp
+private public abstract virtual bool AIEnabled
+```
 
 Checks is AI is enabled for turret
 

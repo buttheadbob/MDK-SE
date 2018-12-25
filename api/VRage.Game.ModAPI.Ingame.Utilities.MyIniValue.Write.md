@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Write
-```csharp
+private public void Write
+```
 
 Writes this value as a string to the given string builder.
 

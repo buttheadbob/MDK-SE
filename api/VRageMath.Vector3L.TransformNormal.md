@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public TransformNormal
-```csharp
+private public void TransformNormal
+```
 
 Transforms a vector normal by a matrix.
 

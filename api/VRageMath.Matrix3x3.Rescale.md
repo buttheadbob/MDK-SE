@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Rescale
-```csharp
+private public void Rescale
+```
 
 Same result as Matrix3x3.CreateScale(scale) * matrix, but much faster
 
@@ -17,8 +17,8 @@ Same result as Matrix3x3.CreateScale(scale) * matrix, but much faster
 ### Summary
 
 ```csharp
-private public Rescale
-```csharp
+private public void Rescale
+```
 
 Same result as Matrix3x3.CreateScale(scale) * matrix, but much faster
 
@@ -31,8 +31,8 @@ Same result as Matrix3x3.CreateScale(scale) * matrix, but much faster
 ### Summary
 
 ```csharp
-private public Rescale
-```csharp
+private public private public sealed Matrix3x3 Rescale
+```
 
 ### Returns
 
@@ -43,8 +43,8 @@ private public Rescale
 ### Summary
 
 ```csharp
-private public Rescale
-```csharp
+private public private public sealed Matrix3x3 Rescale
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Dispose
-```csharp
+private public void Dispose
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Items
-```csharp
+private public private ItemCollection Items
+```
 
 Contains all items, both arguments and switches
 

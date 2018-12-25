@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Normalize
-```csharp
+private public void Normalize
+```
 
 Divides each component of the quaternion by the length of the quaternion.
 
@@ -17,8 +17,8 @@ Divides each component of the quaternion by the length of the quaternion.
 ### Summary
 
 ```csharp
-private public Normalize
-```csharp
+private public private public sealed Quaternion Normalize
+```
 
 Divides each component of the quaternion by the length of the quaternion.
 
@@ -31,8 +31,8 @@ Divides each component of the quaternion by the length of the quaternion.
 ### Summary
 
 ```csharp
-private public Normalize
-```csharp
+private public void Normalize
+```
 
 Divides each component of the quaternion by the length of the quaternion.
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetLeafCount
-```csharp
+private public int GetLeafCount
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public GetLeafCount
 ### Summary
 
 ```csharp
-private public GetLeafCount
-```csharp
+private public int GetLeafCount
+```
 
 ### Returns
 

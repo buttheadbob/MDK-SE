@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual IsLocked
-```csharp
+private public abstract virtual bool IsLocked
+```
 
 Gets whether the landing gear is currently locked.
 

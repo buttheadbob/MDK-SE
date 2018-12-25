@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Leaves
-```csharp
+private public private public sealed DictionaryValuesReader<K, V> Leaves
+```
 
 ### Returns
 

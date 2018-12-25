@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### CurveKeyCollection Class
+#### CurveKeyCollection Class
 
 ```csharp
 private public CurveKeyCollection
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Properties
+#### Properties
 
 |Member|Description|
 |---|---|
@@ -21,7 +21,7 @@ private public CurveKeyCollection
 |[Count](VRageMath.CurveKeyCollection.Count)|Gets the number of elements contained in the CurveKeyCollection.|
 |[IsReadOnly](VRageMath.CurveKeyCollection.IsReadOnly)|Returns a value indicating whether the CurveKeyCollection is read-only.|
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

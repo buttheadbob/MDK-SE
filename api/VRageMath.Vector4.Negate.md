@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Negate
-```csharp
+private public private public sealed Vector4 Negate
+```
 
 Returns a vector pointing in the opposite direction.
 
@@ -17,8 +17,8 @@ Returns a vector pointing in the opposite direction.
 ### Summary
 
 ```csharp
-private public Negate
-```csharp
+private public void Negate
+```
 
 Returns a vector pointing in the opposite direction.
 

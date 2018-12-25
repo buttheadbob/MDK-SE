@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual AutoRefillBottles
-```csharp
+private public abstract virtual bool AutoRefillBottles
+```
 
 Gets or sets whether storage bottles will be filled automatically when placed within this tank.
 

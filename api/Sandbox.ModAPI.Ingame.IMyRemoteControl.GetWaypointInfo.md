@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual GetWaypointInfo
-```csharp
+private public abstract virtual void GetWaypointInfo
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual IsLocked
-```csharp
+private public abstract virtual bool IsLocked
+```
 
 ### Returns
 

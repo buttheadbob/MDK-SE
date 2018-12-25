@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Lines
-```csharp
+private public private public sealed Line[] Lines
+```
 
 ### Returns
 

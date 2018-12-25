@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Saturate
-```csharp
+private public float Saturate
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public Saturate
 ### Summary
 
 ```csharp
-private public Saturate
-```csharp
+private public double Saturate
+```
 
 ### Returns
 

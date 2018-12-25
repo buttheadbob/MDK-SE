@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual FilledRatio
-```csharp
+private public abstract virtual double FilledRatio
+```
 
 Gets the current fill level of this tank as a value between 0 (empty) and 1 (full).
 

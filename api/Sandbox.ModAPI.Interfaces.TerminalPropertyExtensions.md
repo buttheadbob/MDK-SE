@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### TerminalPropertyExtensions Class
+#### TerminalPropertyExtensions Class
 
 ```csharp
 private public abstract sealed TerminalPropertyExtensions
-```csharp
+```
 
 **Namespace:** [Sandbox.ModAPI.Interfaces](Sandbox.ModAPI.Interfaces)  
 **Assembly:** Sandbox.Common.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Directions
-```csharp
+private public private public sealed Vector3[] Directions
+```
 
 ### Returns
 

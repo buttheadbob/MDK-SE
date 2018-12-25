@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public EnergyDensity
-```csharp
+private public float EnergyDensity
+```
 
 ### Returns
 

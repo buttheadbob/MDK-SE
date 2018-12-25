@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public EPSILON
-```csharp
+private public float EPSILON
+```
 
 ### Returns
 

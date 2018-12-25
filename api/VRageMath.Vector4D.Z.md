@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Z
-```csharp
+private public double Z
+```
 
 Gets or sets the z-component of the vector.
 

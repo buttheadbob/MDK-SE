@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Switches
-```csharp
+private public private SwitchCollection Switches
+```
 
 Contains a list of all detected switches
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual RightExtend
-```csharp
+private public abstract virtual float RightExtend
+```
 
 Gets or sets the right range of the sensor.
 

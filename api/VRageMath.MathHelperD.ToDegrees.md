@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public ToDegrees
-```csharp
+private public double ToDegrees
+```
 
 Converts radians to degrees.
 

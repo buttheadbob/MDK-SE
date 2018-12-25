@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Identity
-```csharp
+private public private public sealed Matrix Identity
+```
 
 ### Returns
 

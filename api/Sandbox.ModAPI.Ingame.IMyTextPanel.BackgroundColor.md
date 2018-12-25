@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual BackgroundColor
-```csharp
+private public abstract virtual private public sealed Color BackgroundColor
+```
 
 Gets or sets background color
 

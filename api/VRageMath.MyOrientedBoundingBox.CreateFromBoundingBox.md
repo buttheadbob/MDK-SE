@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreateFromBoundingBox
-```csharp
+private public private public sealed MyOrientedBoundingBox CreateFromBoundingBox
+```
 
 ### Returns
 

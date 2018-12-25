@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual IsMainCockpit
-```csharp
+private public abstract virtual bool IsMainCockpit
+```
 
 Gets or sets if this controller is the main one.
 

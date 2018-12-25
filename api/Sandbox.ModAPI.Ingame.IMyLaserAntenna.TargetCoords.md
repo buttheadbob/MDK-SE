@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual TargetCoords
-```csharp
+private public abstract virtual private public sealed Vector3D TargetCoords
+```
 
 get target coordinates
 

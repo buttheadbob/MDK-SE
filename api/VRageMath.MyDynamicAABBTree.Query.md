@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Query
-```csharp
+private public void Query
+```
 
 ### Returns
 

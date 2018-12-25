@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public InterpLogInv
-```csharp
+private public float InterpLogInv
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual WritePublicText
-```csharp
+private public abstract virtual bool WritePublicText
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public abstract virtual WritePublicText
 ### Summary
 
 ```csharp
-private public abstract virtual WritePublicText
-```csharp
+private public abstract virtual bool WritePublicText
+```
 
 ### Returns
 

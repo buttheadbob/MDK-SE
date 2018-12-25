@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Reverse
-```csharp
+private public abstract virtual void Reverse
+```
 
 Reverses the direction of the piston.
 

@@ -1,26 +1,26 @@
 ← [Index](Api-Index)
 
-### Ray Struct
+#### Ray Struct
 
 ```csharp
 private public sealed Ray
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|
 |[Position](VRageMath.Ray.Position)|Specifies the starting point of the Ray.|
 |[Direction](VRageMath.Ray.Direction)|Unit vector specifying the direction the Ray is pointing.|
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

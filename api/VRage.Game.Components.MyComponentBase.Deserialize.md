@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public virtual Deserialize
-```csharp
+private public virtual void Deserialize
+```
 
 ### Returns
 

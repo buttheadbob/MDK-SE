@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public NegativeInfinity
-```csharp
+private public private public sealed Vector3D NegativeInfinity
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Evaluate
-```csharp
+private public float Evaluate
+```
 
 Finds the value at a position on the Curve.
 

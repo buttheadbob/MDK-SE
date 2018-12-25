@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual GetItems
-```csharp
+private public abstract virtual private public List<T> GetItems
+```
 
 ### Returns
 

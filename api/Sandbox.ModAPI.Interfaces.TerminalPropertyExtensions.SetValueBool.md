@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public SetValueBool
-```csharp
+private public void SetValueBool
+```
 
 Set bool value of property
 

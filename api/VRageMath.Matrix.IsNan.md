@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public IsNan
-```csharp
+private public bool IsNan
+```
 
 ### Returns
 

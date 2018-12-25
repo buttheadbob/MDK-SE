@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public ConvertToSine
-```csharp
+private public private public sealed SerializableRange ConvertToSine
+```
 
 ### Returns
 

@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### MyCubeSize Enum
+#### MyCubeSize Enum
 
 ```csharp
 private public sealed MyCubeSize
-```csharp
+```
 
 **Namespace:** [VRage.Game](VRage.Game)  
 **Assembly:** VRage.Game.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|

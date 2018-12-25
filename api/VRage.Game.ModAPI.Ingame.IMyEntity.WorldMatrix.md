@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual WorldMatrix
-```csharp
+private public abstract virtual private public sealed MatrixD WorldMatrix
+```
 
 ### Returns
 

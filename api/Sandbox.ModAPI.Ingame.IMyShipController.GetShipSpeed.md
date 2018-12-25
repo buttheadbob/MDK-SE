@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual GetShipSpeed
-```csharp
+private public abstract virtual double GetShipSpeed
+```
 
 Gets the basic ship speed in meters per second, for when you just need to know how fast you're going.
 

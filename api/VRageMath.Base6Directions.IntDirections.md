@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public IntDirections
-```csharp
+private public private public sealed Vector3I[] IntDirections
+```
 
 ### Returns
 

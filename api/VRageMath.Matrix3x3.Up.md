@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Up
-```csharp
+private public private public sealed Vector3 Up
+```
 
 Gets and sets the up vector of the Matrix3x3.
 

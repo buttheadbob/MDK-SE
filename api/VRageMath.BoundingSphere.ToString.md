@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public virtual ToString
-```csharp
+private public virtual string ToString
+```
 
 Returns a String that represents the current BoundingSphere.
 

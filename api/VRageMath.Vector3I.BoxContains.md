@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public BoxContains
-```csharp
+private public bool BoxContains
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public BoxContains
 ### Summary
 
 ```csharp
-private public BoxContains
-```csharp
+private public bool BoxContains
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public FirstElement<T>
-```csharp
+private public private public T FirstElement<T>
+```
 
 ### Returns
 

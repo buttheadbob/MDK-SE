@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Status
-```csharp
+private public abstract virtual private public sealed PistonStatus Status
+```
 
 Gets the current status.
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public FirstPair<K, V>
-```csharp
+private public private public sealed KeyValuePair<TKey, TValue> FirstPair<K, V>
+```
 
 ### Returns
 

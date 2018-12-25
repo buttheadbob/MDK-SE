@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### CurveTangent Enum
+#### CurveTangent Enum
 
 ```csharp
 private public sealed CurveTangent
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|

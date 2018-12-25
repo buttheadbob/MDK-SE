@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public RectangularLength
-```csharp
+private public int RectangularLength
+```
 
 Calculates rectangular distance of this vector, interpreted as a point, from the origin.
 

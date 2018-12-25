@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public ProjectedArea
-```csharp
+private public double ProjectedArea
+```
 
 ### Returns
 

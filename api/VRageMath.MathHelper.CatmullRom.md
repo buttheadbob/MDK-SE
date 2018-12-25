@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CatmullRom
-```csharp
+private public float CatmullRom
+```
 
 Performs a Catmull-Rom interpolation using the specified positions.
 

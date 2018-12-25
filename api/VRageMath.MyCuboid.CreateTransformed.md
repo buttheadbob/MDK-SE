@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreateTransformed
-```csharp
+private public private public MyCuboid CreateTransformed
+```
 
 ### Returns
 

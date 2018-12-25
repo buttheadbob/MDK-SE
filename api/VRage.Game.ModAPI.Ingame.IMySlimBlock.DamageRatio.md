@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual DamageRatio
-```csharp
+private public abstract virtual float DamageRatio
+```
 
 
 

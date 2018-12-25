@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public SetValueFloat
-```csharp
+private public void SetValueFloat
+```
 
 Set float value of property
 

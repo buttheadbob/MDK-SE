@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual GridIntegerToWorld
-```csharp
+private public abstract virtual private public sealed Vector3D GridIntegerToWorld
+```
 
 Converts grid coordinates to world space
 

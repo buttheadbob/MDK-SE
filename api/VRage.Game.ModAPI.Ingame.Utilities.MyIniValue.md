@@ -1,32 +1,32 @@
 ← [Index](Api-Index)
 
-### MyIniValue Struct
+#### MyIniValue Struct
 
 ```csharp
 private public sealed MyIniValue
-```csharp
+```
 
 **Namespace:** [VRage.Game.ModAPI.Ingame.Utilities](VRage.Game.ModAPI.Ingame.Utilities)  
 **Assembly:** VRage.Game.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|
 |[Key](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue.Key)|Gets the [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) this value was retrieved from|
 |[EMPTY](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue.EMPTY)|Represents an empty [MyIniValue](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue) |
 
-###### Properties
+#### Properties
 
 |Member|Description|
 |---|---|
 |[IsEmpty](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue.IsEmpty)|Determines whether this value is empty. Be aware that an empty string is not considered to be an empty value.|
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual MaxDeformation
-```csharp
+private public abstract virtual float MaxDeformation
+```
 
 Maximum deformation of block
 

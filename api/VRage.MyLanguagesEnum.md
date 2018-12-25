@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### MyLanguagesEnum Enum
+#### MyLanguagesEnum Enum
 
 ```csharp
 private public sealed MyLanguagesEnum
-```csharp
+```
 
 **Namespace:** [VRage](VRage)  
 **Assembly:** VRage.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|

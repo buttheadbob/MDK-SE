@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Rotation
-```csharp
+private public private public sealed Quaternion Rotation
+```
 
 ### Returns
 

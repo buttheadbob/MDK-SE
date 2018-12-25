@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Color
-```csharp
+private public abstract virtual private public sealed Color Color
+```
 
 Gets or sets the color of the light.
 

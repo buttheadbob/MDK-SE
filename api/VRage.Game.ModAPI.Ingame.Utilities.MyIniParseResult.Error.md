@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Error
-```csharp
+private public string Error
+```
 
 Gets a description of the error that occurred during parsing. Will be`null`if no error occurred.
 

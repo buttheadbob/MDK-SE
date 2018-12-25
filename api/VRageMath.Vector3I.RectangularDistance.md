@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public RectangularDistance
-```csharp
+private public int RectangularDistance
+```
 
 Calculates rectangular distance. It's how many sectors you have to travel to get to other sector from current sector.
 

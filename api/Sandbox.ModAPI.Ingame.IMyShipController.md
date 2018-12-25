@@ -1,28 +1,28 @@
 ← [Index](Api-Index)
 
-### IMyShipController Interface
+#### IMyShipController Interface
 
 ```csharp
 private public abstract IMyShipController
-```csharp
+```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
 
 **Implements:**  
-* [Sandbox.ModAPI.Ingame.IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
-* [VRage.Game.ModAPI.Ingame.IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [VRage.Game.ModAPI.Ingame.IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
+* [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
 **Inheritors:**  
-* [Sandbox.ModAPI.Ingame.IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit)  
-* [Sandbox.ModAPI.Ingame.IMyRemoteControl](Sandbox.ModAPI.Ingame.IMyRemoteControl)
+* [IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit)  
+* [IMyRemoteControl](Sandbox.ModAPI.Ingame.IMyRemoteControl)
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Properties
+#### Properties
 
 |Member|Description|
 |---|---|
@@ -76,7 +76,7 @@ private public abstract IMyShipController
 |[ShowInToolbarConfig](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInToolbarConfig)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[ShowInInventory](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

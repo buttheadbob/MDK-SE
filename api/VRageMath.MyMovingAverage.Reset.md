@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Reset
-```csharp
+private public void Reset
+```
 
 ### Returns
 

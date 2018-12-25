@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public ToBoundingSphere
-```csharp
+private public private public sealed BoundingSphere ToBoundingSphere
+```
 
 Creates bounding sphere from bounding frustum. Implementation taken from XNA source, replace IEnumerable with array
 

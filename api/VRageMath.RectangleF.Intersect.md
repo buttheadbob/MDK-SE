@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Intersect
-```csharp
+private public bool Intersect
+```
 
 Creates a Rectangle defining the area where one rectangle overlaps with another rectangle.
 

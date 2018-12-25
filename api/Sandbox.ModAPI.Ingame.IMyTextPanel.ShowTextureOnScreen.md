@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual ShowTextureOnScreen
-```csharp
+private public abstract virtual void ShowTextureOnScreen
+```
 
 ### Returns
 

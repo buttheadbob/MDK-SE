@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public IsZero
-```csharp
+private public bool IsZero
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public IsZero
 ### Summary
 
 ```csharp
-private public IsZero
-```csharp
+private public bool IsZero
+```
 
 ### Returns
 
@@ -27,8 +27,8 @@ private public IsZero
 ### Summary
 
 ```csharp
-private public IsZero
-```csharp
+private public bool IsZero
+```
 
 ### Returns
 
@@ -39,8 +39,8 @@ private public IsZero
 ### Summary
 
 ```csharp
-private public IsZero
-```csharp
+private public bool IsZero
+```
 
 ### Returns
 
@@ -51,8 +51,8 @@ private public IsZero
 ### Summary
 
 ```csharp
-private public IsZero
-```csharp
+private public bool IsZero
+```
 
 ### Returns
 
@@ -63,8 +63,8 @@ private public IsZero
 ### Summary
 
 ```csharp
-private public IsZero
-```csharp
+private public bool IsZero
+```
 
 ### Returns
 

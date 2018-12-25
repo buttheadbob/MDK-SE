@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetLeafCount
-```csharp
+private public int GetLeafCount
+```
 
 ### Returns
 

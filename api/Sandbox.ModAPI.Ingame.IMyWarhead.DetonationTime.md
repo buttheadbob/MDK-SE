@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual DetonationTime
-```csharp
+private public abstract virtual float DetonationTime
+```
 
 ### Returns
 

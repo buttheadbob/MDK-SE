@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Position
-```csharp
+private public private public sealed Vector3D Position
+```
 
 Specifies the starting point of the Ray.
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Avg
-```csharp
+private public float Avg
+```
 
 ### Returns
 

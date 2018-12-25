@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual IsButtonAssigned
-```csharp
+private public abstract virtual bool IsButtonAssigned
+```
 
 Gets if the specified button is assigned an action.
 

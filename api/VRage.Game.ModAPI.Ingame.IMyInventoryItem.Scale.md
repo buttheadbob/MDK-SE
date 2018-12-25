@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Scale
-```csharp
+private public abstract virtual float Scale
+```
 
 ### Returns
 

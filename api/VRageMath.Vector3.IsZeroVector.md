@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public IsZeroVector
-```csharp
+private public private public sealed Vector3 IsZeroVector
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public IsZeroVector
 ### Summary
 
 ```csharp
-private public IsZeroVector
-```csharp
+private public private public sealed Vector3 IsZeroVector
+```
 
 ### Returns
 

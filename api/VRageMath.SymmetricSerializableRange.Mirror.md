@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Mirror
-```csharp
+private public bool Mirror
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public EqualsIgnoreCase
-```csharp
+private public bool EqualsIgnoreCase
+```
 
 ### Returns
 

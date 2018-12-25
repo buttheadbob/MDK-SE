@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public ContainerBase
-```csharp
+private public private public MyComponentContainer ContainerBase
+```
 
 This cannot be named Container to not conflict with the definition of Container in MyEntityComponentBase.
 

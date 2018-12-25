@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Size
-```csharp
+private public abstract virtual private public sealed Vector3 Size
+```
 
 ### Returns
 

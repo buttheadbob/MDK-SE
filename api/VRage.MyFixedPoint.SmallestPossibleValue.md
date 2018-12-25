@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public SmallestPossibleValue
-```csharp
+private public private public sealed MyFixedPoint SmallestPossibleValue
+```
 
 ### Returns
 

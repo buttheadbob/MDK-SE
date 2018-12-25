@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Friction
-```csharp
+private public abstract virtual float Friction
+```
 
 ### Returns
 

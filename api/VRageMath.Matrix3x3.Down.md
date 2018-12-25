@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Down
-```csharp
+private public private public sealed Vector3 Down
+```
 
 Gets and sets the down vector of the Matrix3x3.
 

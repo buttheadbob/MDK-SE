@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Name
-```csharp
+private public string Name
+```
 
 The name of this GPS coordinate
 

@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### MyBlockOrientation Struct
+#### MyBlockOrientation Struct
 
 ```csharp
 private public sealed MyBlockOrientation
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|
@@ -21,14 +21,14 @@ private public sealed MyBlockOrientation
 |[Up](VRageMath.MyBlockOrientation.Up)||
 |[Identity](VRageMath.MyBlockOrientation.Identity)||
 
-###### Properties
+#### Properties
 
 |Member|Description|
 |---|---|
 |[Left](VRageMath.MyBlockOrientation.Left)||
 |[IsValid](VRageMath.MyBlockOrientation.IsValid)||
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

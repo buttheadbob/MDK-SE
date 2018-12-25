@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Equals
-```csharp
+private public bool Equals
+```
 
 Determines whether two instances of BoundingBox2I are equal.
 
@@ -17,8 +17,8 @@ Determines whether two instances of BoundingBox2I are equal.
 ### Summary
 
 ```csharp
-private public virtual Equals
-```csharp
+private public virtual bool Equals
+```
 
 Determines whether two instances of BoundingBox2I are equal.
 

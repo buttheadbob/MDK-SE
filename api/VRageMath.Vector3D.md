@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### Vector3D Struct
+#### Vector3D Struct
 
 ```csharp
 private public sealed Vector3D
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|
@@ -37,14 +37,14 @@ private public sealed Vector3D
 |[MaxValue](VRageMath.Vector3D.MaxValue)||
 |[MinValue](VRageMath.Vector3D.MinValue)||
 
-###### Properties
+#### Properties
 
 |Member|Description|
 |---|---|
 |[Sum](VRageMath.Vector3D.Sum)||
 |[Volume](VRageMath.Vector3D.Volume)||
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

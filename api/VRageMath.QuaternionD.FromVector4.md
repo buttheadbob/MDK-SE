@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public FromVector4
-```csharp
+private public private public sealed QuaternionD FromVector4
+```
 
 ### Returns
 

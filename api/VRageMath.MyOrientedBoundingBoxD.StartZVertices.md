@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public StartZVertices
-```csharp
+private public private public sealed Int32[] StartZVertices
+```
 
 ### Returns
 

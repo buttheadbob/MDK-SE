@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Pitch
-```csharp
+private public abstract virtual float Pitch
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Slerp
-```csharp
+private public private public sealed QuaternionD Slerp
+```
 
 Interpolates between two quaternions, using spherical linear interpolation.
 
@@ -17,8 +17,8 @@ Interpolates between two quaternions, using spherical linear interpolation.
 ### Summary
 
 ```csharp
-private public Slerp
-```csharp
+private public void Slerp
+```
 
 Interpolates between two quaternions, using spherical linear interpolation.
 

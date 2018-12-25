@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public PreLoop
-```csharp
+private public private public sealed CurveLoopType PreLoop
+```
 
 Specifies how to handle weighting values that are less than the first control point in the curve.
 

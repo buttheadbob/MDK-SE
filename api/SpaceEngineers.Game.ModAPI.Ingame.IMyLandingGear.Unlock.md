@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Unlock
-```csharp
+private public abstract virtual void Unlock
+```
 
 Unlocks the landing gear.
 

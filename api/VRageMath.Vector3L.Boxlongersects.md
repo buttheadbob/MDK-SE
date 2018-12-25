@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Boxlongersects
-```csharp
+private public bool Boxlongersects
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public Boxlongersects
 ### Summary
 
 ```csharp
-private public Boxlongersects
-```csharp
+private public bool Boxlongersects
+```
 
 ### Returns
 

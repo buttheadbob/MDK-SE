@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual GyroPower
-```csharp
+private public abstract virtual float GyroPower
+```
 
 ### Returns
 

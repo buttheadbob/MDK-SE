@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Reflect
-```csharp
+private public private public sealed Vector3 Reflect
+```
 
 Returns the reflection of a vector off a surface that has the specified normal. Reference page contains code sample.
 
@@ -17,8 +17,8 @@ Returns the reflection of a vector off a surface that has the specified normal. 
 ### Summary
 
 ```csharp
-private public Reflect
-```csharp
+private public void Reflect
+```
 
 Returns the reflection of a vector off a surface that has the specified normal. Reference page contains code sample.
 

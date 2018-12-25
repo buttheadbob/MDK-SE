@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Encode
-```csharp
+private public int Encode
+```
 
 ### Returns
 

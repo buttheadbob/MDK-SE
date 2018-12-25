@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreateTranslation
-```csharp
+private public private public sealed Matrix CreateTranslation
+```
 
 Creates a translation Matrix.
 
@@ -17,8 +17,8 @@ Creates a translation Matrix.
 ### Summary
 
 ```csharp
-private public CreateTranslation
-```csharp
+private public void CreateTranslation
+```
 
 Creates a translation Matrix.
 
@@ -31,8 +31,8 @@ Creates a translation Matrix.
 ### Summary
 
 ```csharp
-private public CreateTranslation
-```csharp
+private public private public sealed Matrix CreateTranslation
+```
 
 Creates a translation Matrix.
 
@@ -45,8 +45,8 @@ Creates a translation Matrix.
 ### Summary
 
 ```csharp
-private public CreateTranslation
-```csharp
+private public void CreateTranslation
+```
 
 Creates a translation Matrix.
 

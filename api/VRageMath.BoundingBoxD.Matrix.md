@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Matrix
-```csharp
+private public private public sealed MatrixD Matrix
+```
 
 Matrix of AABB, respection center and size
 

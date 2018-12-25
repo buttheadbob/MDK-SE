@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetNearestBiggerPowerOfTwo
-```csharp
+private public int GetNearestBiggerPowerOfTwo
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public GetNearestBiggerPowerOfTwo
 ### Summary
 
 ```csharp
-private public GetNearestBiggerPowerOfTwo
-```csharp
+private public uint GetNearestBiggerPowerOfTwo
+```
 
 ### Returns
 
@@ -27,8 +27,8 @@ private public GetNearestBiggerPowerOfTwo
 ### Summary
 
 ```csharp
-private public GetNearestBiggerPowerOfTwo
-```csharp
+private public int GetNearestBiggerPowerOfTwo
+```
 
 Returns nearest bigger power of two
 
@@ -43,8 +43,8 @@ Returns nearest bigger power of two
 ### Summary
 
 ```csharp
-private public GetNearestBiggerPowerOfTwo
-```csharp
+private public int GetNearestBiggerPowerOfTwo
+```
 
 ### Returns
 

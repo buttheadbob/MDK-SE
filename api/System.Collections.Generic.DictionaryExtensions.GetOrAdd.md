@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetOrAdd<TKey, TValue, TContext>
-```csharp
+private public private public TValue GetOrAdd<TKey, TValue, TContext>
+```
 
 ### Returns
 

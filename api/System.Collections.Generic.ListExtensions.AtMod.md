@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public AtMod<T>
-```csharp
+private public private public T AtMod<T>
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public AtMod<T>
 ### Summary
 
 ```csharp
-private public AtMod<T>
-```csharp
+private public private public T AtMod<T>
+```
 
 ### Returns
 

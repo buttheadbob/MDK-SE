@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual ItemId
-```csharp
+private public abstract virtual uint ItemId
+```
 
 ### Returns
 

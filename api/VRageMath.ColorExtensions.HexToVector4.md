@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public HexToVector4
-```csharp
+private public private public sealed Vector4 HexToVector4
+```
 
 ### Returns
 

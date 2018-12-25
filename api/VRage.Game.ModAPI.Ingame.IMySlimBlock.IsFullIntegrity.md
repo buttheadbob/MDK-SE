@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual IsFullIntegrity
-```csharp
+private public abstract virtual bool IsFullIntegrity
+```
 
 Integrity is at maximum
 

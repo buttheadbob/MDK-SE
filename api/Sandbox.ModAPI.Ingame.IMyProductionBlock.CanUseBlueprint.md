@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual CanUseBlueprint
-```csharp
+private public abstract virtual bool CanUseBlueprint
+```
 
 Can this production block produce this blueprint?
 

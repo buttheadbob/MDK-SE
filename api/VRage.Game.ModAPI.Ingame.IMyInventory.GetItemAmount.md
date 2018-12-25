@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual GetItemAmount
-```csharp
+private public abstract virtual private public sealed MyFixedPoint GetItemAmount
+```
 
 ### Returns
 

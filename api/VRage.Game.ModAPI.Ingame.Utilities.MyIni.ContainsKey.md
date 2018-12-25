@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public ContainsKey
-```csharp
+private public bool ContainsKey
+```
 
 Determines whether a configuration key (section/key) exists in the currently parsed configuration.
 
@@ -19,8 +19,8 @@ Determines whether a configuration key (section/key) exists in the currently par
 ### Summary
 
 ```csharp
-private public ContainsKey
-```csharp
+private public bool ContainsKey
+```
 
 Determines whether a configuration key (section/key) exists in the currently parsed configuration.
 

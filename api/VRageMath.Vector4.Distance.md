@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Distance
-```csharp
+private public float Distance
+```
 
 Calculates the distance between two vectors.
 
@@ -17,8 +17,8 @@ Calculates the distance between two vectors.
 ### Summary
 
 ```csharp
-private public Distance
-```csharp
+private public void Distance
+```
 
 Calculates the distance between two vectors.
 

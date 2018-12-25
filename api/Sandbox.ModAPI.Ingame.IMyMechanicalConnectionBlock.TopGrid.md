@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual TopGrid
-```csharp
+private public abstract virtual private public abstract IMyCubeGrid TopGrid
+```
 
 Gets the grid of the attached top part
 

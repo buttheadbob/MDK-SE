@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### MathHelper Class
+#### MathHelper Class
 
 ```csharp
 private public abstract sealed MathHelper
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|
@@ -33,7 +33,7 @@ private public abstract sealed MathHelper
 |[EPSILON](VRageMath.MathHelper.EPSILON)||
 |[EPSILON10](VRageMath.MathHelper.EPSILON10)||
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

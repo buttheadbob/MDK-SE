@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public AxisValue
-```csharp
+private public int AxisValue
+```
 
 ### Returns
 

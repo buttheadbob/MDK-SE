@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public IndexOfAny
-```csharp
+private public int IndexOfAny
+```
 
 ### Returns
 

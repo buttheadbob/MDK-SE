@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetNormalBetweenEdges
-```csharp
+private public bool GetNormalBetweenEdges
+```
 
 Returns normal between two cube edge of same direction
 

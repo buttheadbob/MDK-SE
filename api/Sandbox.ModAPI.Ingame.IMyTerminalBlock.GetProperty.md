@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual GetProperty
-```csharp
+private public abstract virtual private public abstract ITerminalProperty GetProperty
+```
 
 ### Returns
 

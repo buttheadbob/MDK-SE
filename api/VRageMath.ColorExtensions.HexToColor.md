@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public HexToColor
-```csharp
+private public private public sealed Color HexToColor
+```
 
 ### Returns
 

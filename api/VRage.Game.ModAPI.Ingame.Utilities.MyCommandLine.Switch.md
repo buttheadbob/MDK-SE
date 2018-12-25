@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Switch
-```csharp
+private public bool Switch
+```
 
 Determines whether the given switch is set. Switches are specified without their prefixed hyphen.
 
@@ -19,8 +19,8 @@ Determines whether the given switch is set. Switches are specified without their
 ### Summary
 
 ```csharp
-private public Switch
-```csharp
+private public string Switch
+```
 
 Gets an argument of a switch. For example, using`Switch("key", 0)`on the command line`someOtherArgument -key value`will return`value`.
 

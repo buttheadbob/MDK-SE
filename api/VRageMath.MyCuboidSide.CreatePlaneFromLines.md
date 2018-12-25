@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreatePlaneFromLines
-```csharp
+private public void CreatePlaneFromLines
+```
 
 ### Returns
 

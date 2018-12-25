@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual AvailableScanRange
-```csharp
+private public abstract virtual double AvailableScanRange
+```
 
 The maximum distance that this camera can scan, based on the time since the last scan.
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public IsValidOrZero
-```csharp
+private public bool IsValidOrZero
+```
 
 ### Returns
 

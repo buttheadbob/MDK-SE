@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual OwnerId
-```csharp
+private public abstract virtual long OwnerId
+```
 
 Fatblock owner, if present; otherwise grid owner
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public AngularVelocity
-```csharp
+private public private public sealed Vector3D AngularVelocity
+```
 
 Gets the ship's angular velocity (rotation).
 

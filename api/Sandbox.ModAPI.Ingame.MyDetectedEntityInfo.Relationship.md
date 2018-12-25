@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Relationship
-```csharp
+private public private public sealed MyRelationsBetweenPlayerAndBlock Relationship
+```
 
 Relationship between the entity and the owner of the sensor
 

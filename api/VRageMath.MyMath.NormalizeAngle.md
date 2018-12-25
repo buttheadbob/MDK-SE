@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public NormalizeAngle
-```csharp
+private public float NormalizeAngle
+```
 
 ### Returns
 

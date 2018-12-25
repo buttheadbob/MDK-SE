@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Include
-```csharp
+private public private public sealed BoundingBoxD Include
+```
 
 return expanded aabb (aabb include point)
 
@@ -19,8 +19,8 @@ return expanded aabb (aabb include point)
 ### Summary
 
 ```csharp
-private public Include
-```csharp
+private public private public sealed BoundingBoxD Include
+```
 
 ### Returns
 
@@ -31,8 +31,8 @@ private public Include
 ### Summary
 
 ```csharp
-private public Include
-```csharp
+private public private public sealed BoundingBoxD Include
+```
 
 ### Returns
 
@@ -43,8 +43,8 @@ private public Include
 ### Summary
 
 ```csharp
-private public Include
-```csharp
+private public private public sealed BoundingBoxD Include
+```
 
 ### Returns
 
@@ -55,8 +55,8 @@ private public Include
 ### Summary
 
 ```csharp
-private public Include
-```csharp
+private public private public sealed BoundingBoxD Include
+```
 
 return expanded aabb (aabb include aabb)
 
@@ -71,8 +71,8 @@ return expanded aabb (aabb include aabb)
 ### Summary
 
 ```csharp
-private public Include
-```csharp
+private public private public sealed BoundingBoxD Include
+```
 
 ### Returns
 
@@ -83,8 +83,8 @@ private public Include
 ### Summary
 
 ```csharp
-private public Include
-```csharp
+private public void Include
+```
 
 ### Returns
 
@@ -95,8 +95,8 @@ private public Include
 ### Summary
 
 ```csharp
-private public Include
-```csharp
+private public private public sealed BoundingBoxD Include
+```
 
 ### Returns
 
@@ -107,8 +107,8 @@ private public Include
 ### Summary
 
 ```csharp
-private public Include
-```csharp
+private public private public sealed BoundingBoxD Include
+```
 
 ### Returns
 
@@ -119,8 +119,8 @@ private public Include
 ### Summary
 
 ```csharp
-private public Include
-```csharp
+private public private public sealed BoundingBoxD Include
+```
 
 ### Returns
 

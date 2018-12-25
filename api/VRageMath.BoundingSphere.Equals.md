@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Equals
-```csharp
+private public bool Equals
+```
 
 Determines whether the specified BoundingSphere is equal to the current BoundingSphere.
 
@@ -17,8 +17,8 @@ Determines whether the specified BoundingSphere is equal to the current Bounding
 ### Summary
 
 ```csharp
-private public virtual Equals
-```csharp
+private public virtual bool Equals
+```
 
 Determines whether the specified Object is equal to the BoundingSphere.
 

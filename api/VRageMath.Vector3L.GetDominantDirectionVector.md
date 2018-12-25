@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetDominantDirectionVector
-```csharp
+private public private public sealed Vector3L GetDominantDirectionVector
+```
 
 ### Returns
 

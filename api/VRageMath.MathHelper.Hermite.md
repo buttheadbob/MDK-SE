@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Hermite
-```csharp
+private public float Hermite
+```
 
 Performs a Hermite spline interpolation.
 

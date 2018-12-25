@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public virtual GetHashCode
-```csharp
+private public virtual int GetHashCode
+```
 
 Gets the hash code for this [MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult) .
 

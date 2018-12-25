@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual DetectNeutral
-```csharp
+private public abstract virtual bool DetectNeutral
+```
 
 Gets or sets if the sensor should detect neutral players.
 

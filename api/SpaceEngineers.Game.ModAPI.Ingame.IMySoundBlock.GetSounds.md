@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual GetSounds
-```csharp
+private public abstract virtual void GetSounds
+```
 
 ### Returns
 

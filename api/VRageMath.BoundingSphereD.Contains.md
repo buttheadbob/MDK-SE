@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Contains
-```csharp
+private public private public sealed ContainmentType Contains
+```
 
 Checks whether the current BoundingSphereD contains the specified BoundingBoxD.
 
@@ -17,8 +17,8 @@ Checks whether the current BoundingSphereD contains the specified BoundingBoxD.
 ### Summary
 
 ```csharp
-private public Contains
-```csharp
+private public void Contains
+```
 
 Checks whether the current BoundingSphereD contains the specified BoundingBoxD.
 
@@ -31,8 +31,8 @@ Checks whether the current BoundingSphereD contains the specified BoundingBoxD.
 ### Summary
 
 ```csharp
-private public Contains
-```csharp
+private public private public sealed ContainmentType Contains
+```
 
 Checks whether the current BoundingSphereD contains the specified BoundingFrustum.
 
@@ -45,8 +45,8 @@ Checks whether the current BoundingSphereD contains the specified BoundingFrustu
 ### Summary
 
 ```csharp
-private public Contains
-```csharp
+private public private public sealed ContainmentType Contains
+```
 
 Checks whether the current BoundingSphereD contains the specified point.
 
@@ -59,8 +59,8 @@ Checks whether the current BoundingSphereD contains the specified point.
 ### Summary
 
 ```csharp
-private public Contains
-```csharp
+private public void Contains
+```
 
 Checks whether the current BoundingSphereD contains the specified point.
 
@@ -73,8 +73,8 @@ Checks whether the current BoundingSphereD contains the specified point.
 ### Summary
 
 ```csharp
-private public Contains
-```csharp
+private public private public sealed ContainmentType Contains
+```
 
 Checks whether the current BoundingSphereD contains the specified BoundingSphereD.
 
@@ -87,8 +87,8 @@ Checks whether the current BoundingSphereD contains the specified BoundingSphere
 ### Summary
 
 ```csharp
-private public Contains
-```csharp
+private public void Contains
+```
 
 Checks whether the current BoundingSphereD contains the specified BoundingSphereD.
 

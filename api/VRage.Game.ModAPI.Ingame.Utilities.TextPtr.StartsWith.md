@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public StartsWith
-```csharp
+private public bool StartsWith
+```
 
 ### Returns
 

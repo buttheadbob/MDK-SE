@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public AssertIsValid
-```csharp
+private public void AssertIsValid
+```
 
 ### Returns
 

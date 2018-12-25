@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Argument
-```csharp
+private public string Argument
+```
 
 Returns the argument at the given index. Switches are not counted.
 

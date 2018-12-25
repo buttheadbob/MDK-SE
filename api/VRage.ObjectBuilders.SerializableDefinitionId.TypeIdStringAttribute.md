@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public TypeIdStringAttribute
-```csharp
+private public string TypeIdStringAttribute
+```
 
 ### Returns
 

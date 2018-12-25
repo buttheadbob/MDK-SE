@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetVector
-```csharp
+private public private public sealed Vector3 GetVector
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public GetVector
 ### Summary
 
 ```csharp
-private public GetVector
-```csharp
+private public private public sealed Vector3 GetVector
+```
 
 ### Returns
 
@@ -27,8 +27,8 @@ private public GetVector
 ### Summary
 
 ```csharp
-private public GetVector
-```csharp
+private public void GetVector
+```
 
 ### Returns
 

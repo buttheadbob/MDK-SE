@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetId
-```csharp
+private public long GetId
+```
 
 ### Returns
 

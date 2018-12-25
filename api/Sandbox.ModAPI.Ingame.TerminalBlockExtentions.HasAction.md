@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public HasAction
-```csharp
+private public bool HasAction
+```
 
 ### Returns
 

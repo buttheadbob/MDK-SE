@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Add
-```csharp
+private public private public sealed MatrixD Add
+```
 
 Adds a matrix to another matrix.
 
@@ -17,8 +17,8 @@ Adds a matrix to another matrix.
 ### Summary
 
 ```csharp
-private public Add
-```csharp
+private public void Add
+```
 
 Adds a matrix to another matrix.
 

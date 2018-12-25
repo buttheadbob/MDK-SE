@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public BaseMass
-```csharp
+private public float BaseMass
+```
 
 Gets the base mass of the ship.
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public DistanceToPoint
-```csharp
+private public double DistanceToPoint
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public DistanceToPoint
 ### Summary
 
 ```csharp
-private public DistanceToPoint
-```csharp
+private public double DistanceToPoint
+```
 
 ### Returns
 

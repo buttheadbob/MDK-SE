@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Get
-```csharp
+private public private public sealed TerminalActionParameter Get
+```
 
 Creates a [TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter) from the given value.
 

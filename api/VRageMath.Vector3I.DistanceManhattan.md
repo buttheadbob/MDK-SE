@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public DistanceManhattan
-```csharp
+private public int DistanceManhattan
+```
 
 Manhattan distance (cube distance) X + Y + Z of Abs(first - second)
 

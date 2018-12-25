@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual IsCountingDown
-```csharp
+private public abstract virtual bool IsCountingDown
+```
 
 Gets if the timer block is active and counting down
 

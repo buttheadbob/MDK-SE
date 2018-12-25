@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public OverlapAllFrustum<T>
-```csharp
+private public void OverlapAllFrustum<T>
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public OverlapAllFrustum<T>
 ### Summary
 
 ```csharp
-private public OverlapAllFrustum<T>
-```csharp
+private public void OverlapAllFrustum<T>
+```
 
 ### Returns
 
@@ -27,8 +27,8 @@ private public OverlapAllFrustum<T>
 ### Summary
 
 ```csharp
-private public OverlapAllFrustum<T>
-```csharp
+private public void OverlapAllFrustum<T>
+```
 
 ### Returns
 
@@ -39,8 +39,8 @@ private public OverlapAllFrustum<T>
 ### Summary
 
 ```csharp
-private public OverlapAllFrustum<T>
-```csharp
+private public void OverlapAllFrustum<T>
+```
 
 ### Returns
 
@@ -51,8 +51,8 @@ private public OverlapAllFrustum<T>
 ### Summary
 
 ```csharp
-private public OverlapAllFrustum<T, Op>
-```csharp
+private public void OverlapAllFrustum<T, Op>
+```
 
 ### Returns
 
@@ -63,8 +63,8 @@ private public OverlapAllFrustum<T, Op>
 ### Summary
 
 ```csharp
-private public OverlapAllFrustum<T>
-```csharp
+private public void OverlapAllFrustum<T>
+```
 
 ### Returns
 
@@ -75,8 +75,8 @@ private public OverlapAllFrustum<T>
 ### Summary
 
 ```csharp
-private public OverlapAllFrustum<T>
-```csharp
+private public void OverlapAllFrustum<T>
+```
 
 ### Returns
 
@@ -87,8 +87,8 @@ private public OverlapAllFrustum<T>
 ### Summary
 
 ```csharp
-private public OverlapAllFrustum<T, Op>
-```csharp
+private public void OverlapAllFrustum<T, Op>
+```
 
 ### Returns
 

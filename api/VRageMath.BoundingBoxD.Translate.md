@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Translate
-```csharp
+private public private public sealed BoundingBoxD Translate
+```
 
 Translate
 
@@ -19,8 +19,8 @@ Translate
 ### Summary
 
 ```csharp
-private public Translate
-```csharp
+private public private public sealed BoundingBoxD Translate
+```
 
 Translate
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public TryGetBoolean
-```csharp
+private public bool TryGetBoolean
+```
 
 Attempts to get this value as a [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) . Fills the`value`on success.
 

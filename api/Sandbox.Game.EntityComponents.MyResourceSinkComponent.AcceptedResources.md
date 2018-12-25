@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public virtual AcceptedResources
-```csharp
+private public virtual private public sealed ListReader<T> AcceptedResources
+```
 
 ### Returns
 

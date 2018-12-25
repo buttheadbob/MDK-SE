@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public SortNoAlloc<T>
-```csharp
+private public void SortNoAlloc<T>
+```
 
 ### Returns
 

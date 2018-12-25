@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public AssertEmpty<T>
-```csharp
+private public void AssertEmpty<T>
+```
 
 ### Returns
 

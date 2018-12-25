@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Zero
-```csharp
+private public private public sealed Matrix3x3 Zero
+```
 
 ### Returns
 

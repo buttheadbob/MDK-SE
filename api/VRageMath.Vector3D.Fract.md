@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Fract
-```csharp
+private public void Fract
+```
 
 ### Returns
 

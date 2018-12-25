@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Balance
-```csharp
+private public int Balance
+```
 
 ### Returns
 

@@ -1,26 +1,26 @@
 ← [Index](Api-Index)
 
-### IMyMotorSuspension Interface
+#### IMyMotorSuspension Interface
 
 ```csharp
 private public abstract IMyMotorSuspension
-```csharp
+```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
 
 **Implements:**  
-* [Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)  
-* [Sandbox.ModAPI.Ingame.IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
-* [Sandbox.ModAPI.Ingame.IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
-* [VRage.Game.ModAPI.Ingame.IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [VRage.Game.ModAPI.Ingame.IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)  
+* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
+* [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Properties
+#### Properties
 
 |Member|Description|
 |---|---|
@@ -85,7 +85,7 @@ private public abstract IMyMotorSuspension
 |[IsLocked](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.IsLocked)|_**Obsolete:** SafetyLock is no longer supported. This is property dummy property only, for backwards compatibility._<br /><br />Gets if the block is safety locked (welded)<br /><br />_Inherited from [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)_|
 |[PendingAttachment](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.PendingAttachment)|Gets if the block is looking for a top part<br /><br />_Inherited from [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)_|
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

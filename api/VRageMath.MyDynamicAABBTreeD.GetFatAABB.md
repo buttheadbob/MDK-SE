@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetFatAABB
-```csharp
+private public void GetFatAABB
+```
 
 Get the fat BoundingBox for a proxy.
 

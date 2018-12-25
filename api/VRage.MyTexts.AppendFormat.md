@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public AppendFormat
-```csharp
+private public private public sealed StringBuilder AppendFormat
+```
 
 ### Returns
 

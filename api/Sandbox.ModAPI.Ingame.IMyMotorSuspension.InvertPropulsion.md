@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual InvertPropulsion
-```csharp
+private public abstract virtual bool InvertPropulsion
+```
 
 ### Returns
 

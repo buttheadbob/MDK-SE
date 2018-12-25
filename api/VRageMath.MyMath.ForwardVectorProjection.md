@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public ForwardVectorProjection
-```csharp
+private public private public sealed Vector3 ForwardVectorProjection
+```
 
 This projection results to initial velocity of non-engine objects, which parents move in some velocity We want to add only forward speed of the parent to the forward direction of the object, and if parent is going backward, no speed is added.
 

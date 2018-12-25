@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual GetDefaultValue
-```csharp
+private public abstract virtual private public TValue GetDefaultValue
+```
 
 ### Returns
 

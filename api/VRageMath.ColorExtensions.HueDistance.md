@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public HueDistance
-```csharp
+private public float HueDistance
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public HueDistance
 ### Summary
 
 ```csharp
-private public HueDistance
-```csharp
+private public float HueDistance
+```
 
 ### Returns
 

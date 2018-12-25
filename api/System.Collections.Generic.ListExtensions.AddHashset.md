@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public AddHashset<T>
-```csharp
+private public void AddHashset<T>
+```
 
 ### Returns
 

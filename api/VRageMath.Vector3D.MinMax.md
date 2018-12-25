@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public MinMax
-```csharp
+private public void MinMax
+```
 
 Separates minimal and maximal values of any two input vectors
 

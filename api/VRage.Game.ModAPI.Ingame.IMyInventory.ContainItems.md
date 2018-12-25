@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual ContainItems
-```csharp
+private public abstract virtual bool ContainItems
+```
 
 ### Returns
 

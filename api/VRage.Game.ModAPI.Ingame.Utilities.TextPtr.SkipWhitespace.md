@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public SkipWhitespace
-```csharp
+private public private public sealed TextPtr SkipWhitespace
+```
 
 ### Returns
 

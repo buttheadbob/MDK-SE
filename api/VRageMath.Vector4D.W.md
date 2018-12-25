@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public W
-```csharp
+private public double W
+```
 
 Gets or sets the w-component of the vector.
 

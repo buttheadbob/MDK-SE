@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public TransposeRotationInPlace
-```csharp
+private public void TransposeRotationInPlace
+```
 
 Transposes the rows and columns of a matrix that is assumed to be rotation only in place.
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public As<TValue>
-```csharp
+private public private public abstract ITerminalProperty<TValue> As<TValue>
+```
 
 ### Returns
 

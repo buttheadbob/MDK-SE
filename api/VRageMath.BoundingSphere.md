@@ -1,26 +1,26 @@
 ← [Index](Api-Index)
 
-### BoundingSphere Struct
+#### BoundingSphere Struct
 
 ```csharp
 private public sealed BoundingSphere
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|
 |[Center](VRageMath.BoundingSphere.Center)|The center point of the sphere.|
 |[Radius](VRageMath.BoundingSphere.Radius)|The radius of the sphere.|
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

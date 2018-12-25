@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### Curve Class
+#### Curve Class
 
 ```csharp
 private public Curve
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Properties
+#### Properties
 
 |Member|Description|
 |---|---|
@@ -22,7 +22,7 @@ private public Curve
 |[Keys](VRageMath.Curve.Keys)|The points that make up the curve.|
 |[IsConstant](VRageMath.Curve.IsConstant)|Gets a value indicating whether the curve is constant.|
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

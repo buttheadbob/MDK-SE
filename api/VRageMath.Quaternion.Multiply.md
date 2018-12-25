@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Multiply
-```csharp
+private public private public sealed Quaternion Multiply
+```
 
 Multiplies two quaternions.
 
@@ -17,8 +17,8 @@ Multiplies two quaternions.
 ### Summary
 
 ```csharp
-private public Multiply
-```csharp
+private public void Multiply
+```
 
 Multiplies two quaternions.
 
@@ -31,8 +31,8 @@ Multiplies two quaternions.
 ### Summary
 
 ```csharp
-private public Multiply
-```csharp
+private public private public sealed Quaternion Multiply
+```
 
 Multiplies a quaternion by a scalar value.
 
@@ -45,8 +45,8 @@ Multiplies a quaternion by a scalar value.
 ### Summary
 
 ```csharp
-private public Multiply
-```csharp
+private public void Multiply
+```
 
 Multiplies a quaternion by a scalar value.
 

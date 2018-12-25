@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Ceiling
-```csharp
+private public private public sealed Vector3 Ceiling
+```
 
 ### Returns
 

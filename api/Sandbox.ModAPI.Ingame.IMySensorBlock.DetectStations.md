@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual DetectStations
-```csharp
+private public abstract virtual bool DetectStations
+```
 
 Gets or sets if the sensor should detect large stations.
 

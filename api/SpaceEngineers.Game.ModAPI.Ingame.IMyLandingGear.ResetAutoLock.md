@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual ResetAutoLock
-```csharp
+private public abstract virtual void ResetAutoLock
+```
 
 Resets autolock timer
 

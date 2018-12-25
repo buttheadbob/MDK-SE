@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Empty
-```csharp
+private public private public sealed MyWaypointInfo Empty
+```
 
 Returns an empty (undefined) GPS coordinate
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetBoundingBox
-```csharp
+private public private public sealed BoundingBoxD GetBoundingBox
+```
 
 ### Returns
 

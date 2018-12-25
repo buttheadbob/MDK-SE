@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Negate
-```csharp
+private public private public sealed MatrixD Negate
+```
 
 Negates individual elements of a matrix.
 
@@ -17,8 +17,8 @@ Negates individual elements of a matrix.
 ### Summary
 
 ```csharp
-private public Negate
-```csharp
+private public void Negate
+```
 
 Negates individual elements of a matrix.
 

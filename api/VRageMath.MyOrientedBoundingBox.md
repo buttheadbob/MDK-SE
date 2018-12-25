@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### MyOrientedBoundingBox Struct
+#### MyOrientedBoundingBox Struct
 
 ```csharp
 private public sealed MyOrientedBoundingBox
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|
@@ -36,7 +36,7 @@ private public sealed MyOrientedBoundingBox
 |[ZNeighbourVectorsForw](VRageMath.MyOrientedBoundingBox.ZNeighbourVectorsForw)||
 |[CornerCount](VRageMath.MyOrientedBoundingBox.CornerCount)||
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

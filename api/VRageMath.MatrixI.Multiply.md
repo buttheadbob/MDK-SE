@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Multiply
-```csharp
+private public void Multiply
+```
 
 ### Returns
 

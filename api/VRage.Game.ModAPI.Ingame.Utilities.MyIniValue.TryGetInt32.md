@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public TryGetInt32
-```csharp
+private public bool TryGetInt32
+```
 
 Attempts to get this value as a [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) . Fills the`value`on success.
 

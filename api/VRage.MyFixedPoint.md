@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### MyFixedPoint Struct
+#### MyFixedPoint Struct
 
 ```csharp
 private public sealed MyFixedPoint
-```csharp
+```
 
 **Namespace:** [VRage](VRage)  
 **Assembly:** VRage.Library.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|
@@ -25,7 +25,7 @@ private public sealed MyFixedPoint
 |[MaxIntValue](VRage.MyFixedPoint.MaxIntValue)||
 |[MinIntValue](VRage.MyFixedPoint.MinIntValue)||
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

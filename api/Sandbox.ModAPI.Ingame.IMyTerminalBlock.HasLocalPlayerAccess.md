@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual HasLocalPlayerAccess
-```csharp
+private public abstract virtual bool HasLocalPlayerAccess
+```
 
 ### Returns
 

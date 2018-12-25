@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### MatrixI Struct
+#### MatrixI Struct
 
 ```csharp
 private public sealed MatrixI
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|
@@ -22,7 +22,7 @@ private public sealed MatrixI
 |[Backward](VRageMath.MatrixI.Backward)||
 |[Translation](VRageMath.MatrixI.Translation)||
 
-###### Properties
+#### Properties
 
 |Member|Description|
 |---|---|
@@ -36,7 +36,7 @@ private public sealed MatrixI
 |[BackwardVector](VRageMath.MatrixI.BackwardVector)||
 |[ForwardVector](VRageMath.MatrixI.ForwardVector)||
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### Vector3B Struct
+#### Vector3B Struct
 
 ```csharp
 private public sealed Vector3B
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|
@@ -28,7 +28,7 @@ private public sealed Vector3B
 |[Forward](VRageMath.Vector3B.Forward)||
 |[Backward](VRageMath.Vector3B.Backward)||
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

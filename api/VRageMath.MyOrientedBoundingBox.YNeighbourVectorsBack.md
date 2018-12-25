@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public YNeighbourVectorsBack
-```csharp
+private public private public sealed Vector3[] YNeighbourVectorsBack
+```
 
 ### Returns
 

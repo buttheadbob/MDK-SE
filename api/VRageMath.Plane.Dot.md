@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Dot
-```csharp
+private public float Dot
+```
 
 Calculates the dot product of a specified Vector4 and this Plane.
 
@@ -17,8 +17,8 @@ Calculates the dot product of a specified Vector4 and this Plane.
 ### Summary
 
 ```csharp
-private public Dot
-```csharp
+private public void Dot
+```
 
 Calculates the dot product of a specified Vector4 and this Plane.
 

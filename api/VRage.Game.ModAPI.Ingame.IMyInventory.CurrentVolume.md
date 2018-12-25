@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual CurrentVolume
-```csharp
+private public abstract virtual private public sealed MyFixedPoint CurrentVolume
+```
 
 ### Returns
 

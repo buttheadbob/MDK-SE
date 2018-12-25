@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public IsRootNull
-```csharp
+private public bool IsRootNull
+```
 
 ### Returns
 

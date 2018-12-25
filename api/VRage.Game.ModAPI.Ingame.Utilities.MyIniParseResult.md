@@ -1,25 +1,25 @@
 ← [Index](Api-Index)
 
-### MyIniParseResult Struct
+#### MyIniParseResult Struct
 
 ```csharp
 private public sealed MyIniParseResult
-```csharp
+```
 
 **Namespace:** [VRage.Game.ModAPI.Ingame.Utilities](VRage.Game.ModAPI.Ingame.Utilities)  
 **Assembly:** VRage.Game.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|
 |[Error](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult.Error)|Gets a description of the error that occurred during parsing. Will be`null`if no error occurred.|
 
-###### Properties
+#### Properties
 
 |Member|Description|
 |---|---|
@@ -27,7 +27,7 @@ private public sealed MyIniParseResult
 |[Success](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult.Success)|Determines the success of the configuration parsing.|
 |[IsDefined](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult.IsDefined)|Determines if the value of this result is defined, meaning whether the [Success](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult.Success) actually holds any meaning.|
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

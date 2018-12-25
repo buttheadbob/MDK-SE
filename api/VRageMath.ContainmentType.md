@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### ContainmentType Enum
+#### ContainmentType Enum
 
 ```csharp
 private public sealed ContainmentType
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|

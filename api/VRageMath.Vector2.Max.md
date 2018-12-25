@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Max
-```csharp
+private public private public sealed Vector2 Max
+```
 
 Returns a vector that contains the highest value from each matching pair of components.
 
@@ -17,8 +17,8 @@ Returns a vector that contains the highest value from each matching pair of comp
 ### Summary
 
 ```csharp
-private public Max
-```csharp
+private public void Max
+```
 
 Returns a vector that contains the highest value from each matching pair of components.
 

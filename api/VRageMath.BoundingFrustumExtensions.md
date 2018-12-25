@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### BoundingFrustumExtensions Class
+#### BoundingFrustumExtensions Class
 
 ```csharp
 private public abstract sealed BoundingFrustumExtensions
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

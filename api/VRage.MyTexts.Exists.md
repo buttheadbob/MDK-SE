@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Exists
-```csharp
+private public bool Exists
+```
 
 ### Returns
 

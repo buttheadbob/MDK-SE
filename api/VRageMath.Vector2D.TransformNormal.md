@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public TransformNormal
-```csharp
+private public private public sealed Vector2D TransformNormal
+```
 
 Transforms a 2D vector normal by a matrix.
 
@@ -17,8 +17,8 @@ Transforms a 2D vector normal by a matrix.
 ### Summary
 
 ```csharp
-private public TransformNormal
-```csharp
+private public void TransformNormal
+```
 
 Transforms a vector normal by a matrix.
 
@@ -31,8 +31,8 @@ Transforms a vector normal by a matrix.
 ### Summary
 
 ```csharp
-private public TransformNormal
-```csharp
+private public void TransformNormal
+```
 
 Transforms an array of Vector2D vector normals by a specified Matrix.
 
@@ -45,8 +45,8 @@ Transforms an array of Vector2D vector normals by a specified Matrix.
 ### Summary
 
 ```csharp
-private public TransformNormal
-```csharp
+private public void TransformNormal
+```
 
 Transforms a specified range in an array of Vector2D vector normals by a specified Matrix and places the results in a specified range in a destination array.
 

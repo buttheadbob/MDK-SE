@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Find
-```csharp
+private public private public sealed TextPtr Find
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public Find
 ### Summary
 
 ```csharp
-private public Find
-```csharp
+private public private public sealed TextPtr Find
+```
 
 ### Returns
 

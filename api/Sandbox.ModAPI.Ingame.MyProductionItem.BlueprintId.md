@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public BlueprintId
-```csharp
+private public private public sealed MyDefinitionId BlueprintId
+```
 
 ### Returns
 

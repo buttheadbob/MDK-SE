@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### MyRelationsBetweenPlayerAndBlockExtensions Class
+#### MyRelationsBetweenPlayerAndBlockExtensions Class
 
 ```csharp
 private public abstract sealed MyRelationsBetweenPlayerAndBlockExtensions
-```csharp
+```
 
 **Namespace:** [VRage.Game](VRage.Game)  
 **Assembly:** VRage.Game.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

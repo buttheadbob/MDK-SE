@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Sum
-```csharp
+private public double Sum
+```
 
 ### Returns
 

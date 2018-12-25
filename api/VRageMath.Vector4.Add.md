@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Add
-```csharp
+private public private public sealed Vector4 Add
+```
 
 Adds two vectors.
 
@@ -17,8 +17,8 @@ Adds two vectors.
 ### Summary
 
 ```csharp
-private public Add
-```csharp
+private public void Add
+```
 
 Adds two vectors.
 

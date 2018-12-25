@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Clamp
-```csharp
+private public private public sealed Vector3L Clamp
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public Clamp
 ### Summary
 
 ```csharp
-private public Clamp
-```csharp
+private public void Clamp
+```
 
 ### Returns
 

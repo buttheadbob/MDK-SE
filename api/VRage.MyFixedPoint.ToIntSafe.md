@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public ToIntSafe
-```csharp
+private public int ToIntSafe
+```
 
 ### Returns
 

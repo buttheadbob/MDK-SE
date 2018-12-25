@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public ToStringAcos
-```csharp
+private public string ToStringAcos
+```
 
 ### Returns
 

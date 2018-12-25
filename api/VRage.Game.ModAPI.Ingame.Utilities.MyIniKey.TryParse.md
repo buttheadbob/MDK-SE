@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public TryParse
-```csharp
+private public bool TryParse
+```
 
 Parses a string in the form of`section/key`into a [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) object.
 

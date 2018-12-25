@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual SpeedLimit
-```csharp
+private public abstract virtual float SpeedLimit
+```
 
 Gets or sets the autopilot speed limit
 

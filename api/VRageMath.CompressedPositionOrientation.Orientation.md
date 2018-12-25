@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Orientation
-```csharp
+private public private public sealed HalfVector4 Orientation
+```
 
 ### Returns
 

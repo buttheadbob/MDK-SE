@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Barycentric
-```csharp
+private public private public sealed Vector3D Barycentric
+```
 
 Returns a Vector3 containing the 3D Cartesian coordinates of a point specified in Barycentric coordinates relative to a 3D triangle.
 
@@ -17,8 +17,8 @@ Returns a Vector3 containing the 3D Cartesian coordinates of a point specified i
 ### Summary
 
 ```csharp
-private public Barycentric
-```csharp
+private public void Barycentric
+```
 
 Returns a Vector3 containing the 3D Cartesian coordinates of a point specified in barycentric (areal) coordinates relative to a 3D triangle.
 
@@ -31,8 +31,8 @@ Returns a Vector3 containing the 3D Cartesian coordinates of a point specified i
 ### Summary
 
 ```csharp
-private public Barycentric
-```csharp
+private public void Barycentric
+```
 
 Compute barycentric coordinates (u, v, w) for point p with respect to triangle (a, b, c) From : Real-Time Collision Detection, Christer Ericson, CRC Press 3.4 Barycentric Coordinates
 

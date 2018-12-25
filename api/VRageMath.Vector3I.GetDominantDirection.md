@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetDominantDirection
-```csharp
+private public private public sealed CubeFace GetDominantDirection
+```
 
 ### Returns
 

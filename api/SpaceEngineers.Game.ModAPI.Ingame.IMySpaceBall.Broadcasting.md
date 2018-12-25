@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Broadcasting
-```csharp
+private public abstract virtual bool Broadcasting
+```
 
 Gets or sets broadcasting
 

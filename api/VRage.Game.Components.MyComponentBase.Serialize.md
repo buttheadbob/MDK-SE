@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public virtual Serialize
-```csharp
+private public virtual private public abstract MyObjectBuilder_ComponentBase Serialize
+```
 
 ### Returns
 

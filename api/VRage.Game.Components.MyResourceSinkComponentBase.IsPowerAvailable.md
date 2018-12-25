@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual IsPowerAvailable
-```csharp
+private public abstract virtual bool IsPowerAvailable
+```
 
 ### Returns
 

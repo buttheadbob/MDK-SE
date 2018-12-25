@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual TimeSinceLastRun
-```csharp
+private public abstract virtual private public sealed TimeSpan TimeSinceLastRun
+```
 
 Gets the time elapsed since the last time the Main method of this program was run. This property returns no valid data neither in the constructor nor the Save method.
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public EntityId
-```csharp
+private public long EntityId
+```
 
 The entity's EntityId
 

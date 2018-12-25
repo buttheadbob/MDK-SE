@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Extend
-```csharp
+private public abstract virtual void Extend
+```
 
 Extends the piston.
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual ReadPublicText
-```csharp
+private public abstract virtual void ReadPublicText
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Invert
-```csharp
+private public void Invert
+```
 
 Calculates the inverse of a matrix.
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public InsertInOrder<T>
-```csharp
+private public void InsertInOrder<T>
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public InsertInOrder<T>
 ### Summary
 
 ```csharp
-private public InsertInOrder<T>
-```csharp
+private public void InsertInOrder<T>
+```
 
 ### Returns
 

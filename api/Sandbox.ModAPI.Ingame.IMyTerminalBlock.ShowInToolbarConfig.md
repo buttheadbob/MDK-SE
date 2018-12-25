@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual ShowInToolbarConfig
-```csharp
+private public abstract virtual bool ShowInToolbarConfig
+```
 
 ### Returns
 

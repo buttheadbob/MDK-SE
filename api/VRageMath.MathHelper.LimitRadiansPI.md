@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public LimitRadiansPI
-```csharp
+private public void LimitRadiansPI
+```
 
 Returns angle in range -PI..PI
 
@@ -17,8 +17,8 @@ Returns angle in range -PI..PI
 ### Summary
 
 ```csharp
-private public LimitRadiansPI
-```csharp
+private public void LimitRadiansPI
+```
 
 Returns angle in range -PI..PI
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Strength
-```csharp
+private public abstract virtual float Strength
+```
 
 ### Returns
 

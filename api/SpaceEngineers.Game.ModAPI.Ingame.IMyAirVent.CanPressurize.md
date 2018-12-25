@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual CanPressurize
-```csharp
+private public abstract virtual bool CanPressurize
+```
 
 Can fill room with air true - room is airtight false - room is not airtight
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public ComputeTangent
-```csharp
+private public void ComputeTangent
+```
 
 Computes both the TangentIn and the TangentOut for a CurveKey specified by its index.
 
@@ -17,8 +17,8 @@ Computes both the TangentIn and the TangentOut for a CurveKey specified by its i
 ### Summary
 
 ```csharp
-private public ComputeTangent
-```csharp
+private public void ComputeTangent
+```
 
 Computes a specified type of TangentIn and a specified type of TangentOut for a given CurveKey.
 

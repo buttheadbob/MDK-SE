@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public TypeId
-```csharp
+private public private public sealed MyObjectBuilderType TypeId
+```
 
 ### Returns
 

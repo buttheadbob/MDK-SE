@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### MyComponentContainer Class
+#### MyComponentContainer Class
 
 ```csharp
 private public MyComponentContainer
-```csharp
+```
 
 **Namespace:** [VRage.Game.Components](VRage.Game.Components)  
 **Assembly:** VRage.Game.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

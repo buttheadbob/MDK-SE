@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public EqualsFast
-```csharp
+private public bool EqualsFast
+```
 
 Compares just position, forward and up
 

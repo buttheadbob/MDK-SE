@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public void Transform
+```
 
 Transforms a Vector3L by the given Matrix.
 
@@ -17,8 +17,8 @@ Transforms a Vector3L by the given Matrix.
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public void Transform
+```
 
 ### Returns
 
@@ -29,8 +29,8 @@ private public Transform
 ### Summary
 
 ```csharp
-private public Transform
-```csharp
+private public private public sealed Vector3L Transform
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual ShowHorizonIndicator
-```csharp
+private public abstract virtual bool ShowHorizonIndicator
+```
 
 Gets or sets whether the horizon indicator should be displayed for this block.
 

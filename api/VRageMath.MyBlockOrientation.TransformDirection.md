@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public TransformDirection
-```csharp
+private public private sealed Direction TransformDirection
+```
 
 ### Returns
 

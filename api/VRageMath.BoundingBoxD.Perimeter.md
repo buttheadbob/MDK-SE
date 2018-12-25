@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Perimeter
-```csharp
+private public double Perimeter
+```
 
 return perimeter of edges
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Empty
-```csharp
+private public private public sealed TerminalActionParameter Empty
+```
 
 Gets an empty parameter.
 

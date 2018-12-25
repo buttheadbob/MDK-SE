@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public X
-```csharp
+private public int X
+```
 
 Specifies the x-coordinate of the Point.
 

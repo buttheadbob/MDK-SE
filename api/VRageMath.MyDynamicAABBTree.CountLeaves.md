@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CountLeaves
-```csharp
+private public int CountLeaves
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Create<T1>
-```csharp
+private public private public sealed MyTuple<T1> Create<T1>
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public Create<T1>
 ### Summary
 
 ```csharp
-private public Create<T1, T2>
-```csharp
+private public private public sealed MyTuple<T1, T2> Create<T1, T2>
+```
 
 ### Returns
 
@@ -27,8 +27,8 @@ private public Create<T1, T2>
 ### Summary
 
 ```csharp
-private public Create<T1, T2, T3>
-```csharp
+private public private public sealed MyTuple<T1, T2, T3> Create<T1, T2, T3>
+```
 
 ### Returns
 
@@ -39,8 +39,8 @@ private public Create<T1, T2, T3>
 ### Summary
 
 ```csharp
-private public Create<T1, T2, T3, T4>
-```csharp
+private public private public sealed MyTuple<T1, T2, T3, T4> Create<T1, T2, T3, T4>
+```
 
 ### Returns
 
@@ -51,8 +51,8 @@ private public Create<T1, T2, T3, T4>
 ### Summary
 
 ```csharp
-private public Create<T1, T2, T3, T4, T5>
-```csharp
+private public private public sealed MyTuple<T1, T2, T3, T4, T5> Create<T1, T2, T3, T4, T5>
+```
 
 ### Returns
 
@@ -63,8 +63,8 @@ private public Create<T1, T2, T3, T4, T5>
 ### Summary
 
 ```csharp
-private public Create<T1, T2, T3, T4, T5, T6>
-```csharp
+private public private public sealed MyTuple<T1, T2, T3, T4, T5, T6> Create<T1, T2, T3, T4, T5, T6>
+```
 
 ### Returns
 

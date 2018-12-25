@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual ShowPrivateTextOnScreen
-```csharp
+private public abstract virtual void ShowPrivateTextOnScreen
+```
 
 ### Returns
 

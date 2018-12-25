@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public IsIntegral
-```csharp
+private public bool IsIntegral
+```
 
 ### Returns
 

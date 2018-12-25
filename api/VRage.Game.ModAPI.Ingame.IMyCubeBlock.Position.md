@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Position
-```csharp
+private public abstract virtual private public sealed Vector3I Position
+```
 
 Position in grid coordinates
 

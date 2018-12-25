@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual IsBroadcasting
-```csharp
+private public abstract virtual bool IsBroadcasting
+```
 
 Returns true if antena is broadcasting
 

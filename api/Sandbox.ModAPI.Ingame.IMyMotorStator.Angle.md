@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Angle
-```csharp
+private public abstract virtual float Angle
+```
 
 Gets the current angle of the rotor in radians.
 

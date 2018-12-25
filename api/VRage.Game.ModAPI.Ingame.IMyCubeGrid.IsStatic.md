@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual IsStatic
-```csharp
+private public abstract virtual bool IsStatic
+```
 
 Determines if the grid is static (unmoveable)
 

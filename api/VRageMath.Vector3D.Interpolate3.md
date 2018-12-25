@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Interpolate3
-```csharp
+private public void Interpolate3
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Keys
-```csharp
+private public private public CurveKeyCollection Keys
+```
 
 The points that make up the curve.
 

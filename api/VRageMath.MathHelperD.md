@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### MathHelperD Class
+#### MathHelperD Class
 
 ```csharp
 private public abstract sealed MathHelperD
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|
@@ -24,7 +24,7 @@ private public abstract sealed MathHelperD
 |[PiOver2](VRageMath.MathHelperD.PiOver2)|Represents the value of pi divided by two.|
 |[PiOver4](VRageMath.MathHelperD.PiOver4)|Represents the value of pi divided by four.|
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

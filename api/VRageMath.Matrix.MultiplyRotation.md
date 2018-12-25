@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public MultiplyRotation
-```csharp
+private public void MultiplyRotation
+```
 
 Multiplies a matrix by another matrix, only rotation parts.
 

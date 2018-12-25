@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Divide
-```csharp
+private public void Divide
+```
 
 Divides the components of a matrix by the corresponding components of another matrix.
 
@@ -17,8 +17,8 @@ Divides the components of a matrix by the corresponding components of another ma
 ### Summary
 
 ```csharp
-private public Divide
-```csharp
+private public void Divide
+```
 
 Divides the components of a matrix by a scalar.
 

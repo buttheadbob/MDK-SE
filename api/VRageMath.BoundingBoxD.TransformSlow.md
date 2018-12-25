@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public TransformSlow
-```csharp
+private public private public sealed BoundingBoxD TransformSlow
+```
 
 Transform this AABB by matrix.
 
@@ -19,8 +19,8 @@ transformed aabb
 ### Summary
 
 ```csharp
-private public TransformSlow
-```csharp
+private public private public sealed BoundingBoxD TransformSlow
+```
 
 Transform this AABB by matrix.
 

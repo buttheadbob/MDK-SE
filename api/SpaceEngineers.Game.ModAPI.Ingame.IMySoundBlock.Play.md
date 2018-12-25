@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Play
-```csharp
+private public abstract virtual void Play
+```
 
 Plays the currently selected sound.
 

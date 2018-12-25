@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Remove
-```csharp
+private public bool Remove
+```
 
 Removes the first occurrence of a specific CurveKey from the CurveKeyCollection.
 

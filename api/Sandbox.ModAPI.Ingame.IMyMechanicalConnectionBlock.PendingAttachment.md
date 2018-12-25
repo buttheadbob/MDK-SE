@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual PendingAttachment
-```csharp
+private public abstract virtual bool PendingAttachment
+```
 
 Gets if the block is looking for a top part
 

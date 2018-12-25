@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual FlightMode
-```csharp
+private public abstract virtual private public sealed FlightMode FlightMode
+```
 
 Gets or sets the current flight mode
 

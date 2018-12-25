@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetClearToken<T>
-```csharp
+private public private public sealed ClearToken<T> GetClearToken<T>
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Width
-```csharp
+private public float Width
+```
 
 Width of this rectangle.
 

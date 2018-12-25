@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetMininum<T>
-```csharp
+private public private public T GetMininum<T>
+```
 
 ### Returns
 

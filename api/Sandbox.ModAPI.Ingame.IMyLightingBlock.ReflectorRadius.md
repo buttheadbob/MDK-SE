@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual ReflectorRadius
-```csharp
+private public abstract virtual float ReflectorRadius
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetValueFloat
-```csharp
+private public float GetValueFloat
+```
 
 Returns value of specified property
 

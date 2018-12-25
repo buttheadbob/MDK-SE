@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual CurrentOutput
-```csharp
+private public abstract virtual float CurrentOutput
+```
 
 Current output of solar panel in Megawatts
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Pi
-```csharp
+private public float Pi
+```
 
 Represents the value of pi.
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Pop<TValue>
-```csharp
+private public private public TValue Pop<TValue>
+```
 
 ### Returns
 

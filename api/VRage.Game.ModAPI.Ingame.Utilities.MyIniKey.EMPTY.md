@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public EMPTY
-```csharp
+private public private public sealed MyIniKey EMPTY
+```
 
 ### Returns
 

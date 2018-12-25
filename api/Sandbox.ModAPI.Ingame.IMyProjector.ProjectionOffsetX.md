@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual ProjectionOffsetX
-```csharp
+private public abstract virtual int ProjectionOffsetX
+```
 
 ### Returns
 

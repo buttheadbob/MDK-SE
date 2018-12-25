@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual DetectOwner
-```csharp
+private public abstract virtual bool DetectOwner
+```
 
 Gets or sets if the sensor should detect the block owner.
 

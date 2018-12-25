@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Invalid
-```csharp
+private public private public sealed Vector3 Invalid
+```
 
 ### Returns
 

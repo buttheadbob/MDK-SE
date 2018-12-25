@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Width
-```csharp
+private public int Width
+```
 
 Specifies the width of the rectangle.
 

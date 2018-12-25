@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Invert
-```csharp
+private public private public sealed Matrix Invert
+```
 
 Calculates the inverse of a matrix.
 
@@ -17,8 +17,8 @@ Calculates the inverse of a matrix.
 ### Summary
 
 ```csharp
-private public Invert
-```csharp
+private public private public sealed Matrix Invert
+```
 
 ### Returns
 
@@ -29,8 +29,8 @@ private public Invert
 ### Summary
 
 ```csharp
-private public Invert
-```csharp
+private public void Invert
+```
 
 Calculates the inverse of a matrix.
 

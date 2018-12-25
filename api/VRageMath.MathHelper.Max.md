@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Max
-```csharp
+private public float Max
+```
 
 Returns the greater of two values.
 
@@ -17,8 +17,8 @@ Returns the greater of two values.
 ### Summary
 
 ```csharp
-private public Max
-```csharp
+private public double Max
+```
 
 Returns the greater of two values.
 
@@ -31,8 +31,8 @@ Returns the greater of two values.
 ### Summary
 
 ```csharp
-private public Max
-```csharp
+private public float Max
+```
 
 ### Returns
 
@@ -43,8 +43,8 @@ private public Max
 ### Summary
 
 ```csharp
-private public Max
-```csharp
+private public int Max
+```
 
 ### Returns
 
@@ -55,8 +55,8 @@ private public Max
 ### Summary
 
 ```csharp
-private public Max
-```csharp
+private public double Max
+```
 
 ### Returns
 

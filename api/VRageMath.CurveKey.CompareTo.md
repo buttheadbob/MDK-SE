@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CompareTo
-```csharp
+private public int CompareTo
+```
 
 Compares this instance to another CurveKey and returns an indication of their relative values.
 

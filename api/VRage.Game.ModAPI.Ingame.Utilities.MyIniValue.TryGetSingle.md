@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public TryGetSingle
-```csharp
+private public bool TryGetSingle
+```
 
 Attempts to get this value as a [System.Single](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) . Fills the`value`on success.
 

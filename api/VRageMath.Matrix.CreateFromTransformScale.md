@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreateFromTransformScale
-```csharp
+private public private public sealed Matrix CreateFromTransformScale
+```
 
 ### Returns
 

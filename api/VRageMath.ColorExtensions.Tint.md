@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Tint
-```csharp
+private public private public sealed Color Tint
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Success
-```csharp
+private public bool Success
+```
 
 Determines the success of the configuration parsing.
 

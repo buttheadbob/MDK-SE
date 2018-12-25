@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetValueColor
-```csharp
+private public private public sealed Color GetValueColor
+```
 
 Returns value of specified property
 

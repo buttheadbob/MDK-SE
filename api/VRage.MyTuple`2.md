@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### MyTuple&lt;T1, T2&gt; Struct
+#### MyTuple&lt;T1, T2&gt; Struct
 
 ```csharp
 private public sealed MyTuple<T1, T2>
-```csharp
+```
 
 **Namespace:** [VRage](VRage)  
 **Assembly:** VRage.Library.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual ProductionEnabledByType
-```csharp
+private public abstract virtual bool ProductionEnabledByType
+```
 
 Resource production is enabled
 

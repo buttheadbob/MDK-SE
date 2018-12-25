@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public OverlapAllBoundingSphere<T>
-```csharp
+private public void OverlapAllBoundingSphere<T>
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public OverlapAllBoundingSphere<T>
 ### Summary
 
 ```csharp
-private public OverlapAllBoundingSphere<T>
-```csharp
+private public void OverlapAllBoundingSphere<T>
+```
 
 ### Returns
 

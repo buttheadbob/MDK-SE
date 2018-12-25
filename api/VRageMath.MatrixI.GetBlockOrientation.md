@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetBlockOrientation
-```csharp
+private public private public sealed MyBlockOrientation GetBlockOrientation
+```
 
 ### Returns
 

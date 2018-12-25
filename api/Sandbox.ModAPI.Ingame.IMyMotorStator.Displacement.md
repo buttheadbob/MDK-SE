@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Displacement
-```csharp
+private public abstract virtual float Displacement
+```
 
 Gets or sets the vertical displacement of the rotor top
 

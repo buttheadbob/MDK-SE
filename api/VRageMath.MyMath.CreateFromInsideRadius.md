@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreateFromInsideRadius
-```csharp
+private public private public sealed BoundingBox CreateFromInsideRadius
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual SafetyLockSpeed
-```csharp
+private public abstract virtual float SafetyLockSpeed
+```
 
 Gets or sets the speed at which this device will engage it's safety lock ( [IsLocked](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.IsLocked) ).
 

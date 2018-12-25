@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual ResetTargetingToDefault
-```csharp
+private public abstract virtual void ResetTargetingToDefault
+```
 
 resert targeting to default values
 

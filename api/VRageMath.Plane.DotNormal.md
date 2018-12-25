@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public DotNormal
-```csharp
+private public float DotNormal
+```
 
 Returns the dot product of a specified Vector3 and the Normal vector of this Plane.
 
@@ -17,8 +17,8 @@ Returns the dot product of a specified Vector3 and the Normal vector of this Pla
 ### Summary
 
 ```csharp
-private public DotNormal
-```csharp
+private public void DotNormal
+```
 
 Returns the dot product of a specified Vector3 and the Normal vector of this Plane.
 

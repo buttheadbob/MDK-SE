@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Is<TValue>
-```csharp
+private public bool Is<TValue>
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public QuaternionToEuler
-```csharp
+private public private public sealed Vector3 QuaternionToEuler
+```
 
 QuaternionToEuler
 

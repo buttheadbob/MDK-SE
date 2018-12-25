@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Equals
-```csharp
+private public bool Equals
+```
 
 Determines whether the specified BoundingFrustumD is equal to the current BoundingFrustumD.
 
@@ -17,8 +17,8 @@ Determines whether the specified BoundingFrustumD is equal to the current Boundi
 ### Summary
 
 ```csharp
-private public virtual Equals
-```csharp
+private public virtual bool Equals
+```
 
 Determines whether the specified Object is equal to the BoundingFrustumD.
 

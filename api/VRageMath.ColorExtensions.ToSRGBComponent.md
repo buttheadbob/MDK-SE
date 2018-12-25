@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public ToSRGBComponent
-```csharp
+private public float ToSRGBComponent
+```
 
 ### Returns
 

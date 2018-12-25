@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual RemoveQueueItem
-```csharp
+private public abstract virtual void RemoveQueueItem
+```
 
 Removes an item from the queue
 
@@ -17,8 +17,8 @@ Removes an item from the queue
 ### Summary
 
 ```csharp
-private public abstract virtual RemoveQueueItem
-```csharp
+private public abstract virtual void RemoveQueueItem
+```
 
 Removes an item from the queue
 
@@ -31,8 +31,8 @@ Removes an item from the queue
 ### Summary
 
 ```csharp
-private public abstract virtual RemoveQueueItem
-```csharp
+private public abstract virtual void RemoveQueueItem
+```
 
 Removes an item from the queue
 

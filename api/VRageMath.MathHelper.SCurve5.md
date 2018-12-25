@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public SCurve5
-```csharp
+private public float SCurve5
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public SCurve5
 ### Summary
 
 ```csharp
-private public SCurve5
-```csharp
+private public double SCurve5
+```
 
 ### Returns
 

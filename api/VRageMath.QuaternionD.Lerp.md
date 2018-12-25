@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Lerp
-```csharp
+private public private public sealed QuaternionD Lerp
+```
 
 Linearly interpolates between two quaternions.
 
@@ -17,8 +17,8 @@ Linearly interpolates between two quaternions.
 ### Summary
 
 ```csharp
-private public Lerp
-```csharp
+private public void Lerp
+```
 
 Linearly interpolates between two quaternions.
 

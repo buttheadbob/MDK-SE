@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual SearchActionsOfName
-```csharp
+private public abstract virtual void SearchActionsOfName
+```
 
 ### Returns
 

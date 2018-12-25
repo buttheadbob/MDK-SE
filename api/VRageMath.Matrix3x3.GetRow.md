@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetRow
-```csharp
+private public private public sealed Vector3 GetRow
+```
 
 ### Returns
 

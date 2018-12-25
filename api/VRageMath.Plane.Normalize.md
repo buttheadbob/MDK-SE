@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Normalize
-```csharp
+private public void Normalize
+```
 
 Changes the coefficients of the Normal vector of this Plane to make it of unit length.
 
@@ -17,8 +17,8 @@ Changes the coefficients of the Normal vector of this Plane to make it of unit l
 ### Summary
 
 ```csharp
-private public Normalize
-```csharp
+private public private public sealed Plane Normalize
+```
 
 Changes the coefficients of the Normal vector of a Plane to make it of unit length.
 
@@ -31,8 +31,8 @@ Changes the coefficients of the Normal vector of a Plane to make it of unit leng
 ### Summary
 
 ```csharp
-private public Normalize
-```csharp
+private public void Normalize
+```
 
 Changes the coefficients of the Normal vector of a Plane to make it of unit length.
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CosineDistance
-```csharp
+private public float CosineDistance
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public CosineDistance
 ### Summary
 
 ```csharp
-private public CosineDistance
-```csharp
+private public double CosineDistance
+```
 
 ### Returns
 

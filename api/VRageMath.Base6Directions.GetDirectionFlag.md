@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetDirectionFlag
-```csharp
+private public private sealed DirectionFlags GetDirectionFlag
+```
 
 ### Returns
 

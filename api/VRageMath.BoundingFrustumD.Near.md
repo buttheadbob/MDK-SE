@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Near
-```csharp
+private public private public sealed PlaneD Near
+```
 
 Gets the near plane of the BoundingFrustumD.
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public ToSingle
-```csharp
+private public float ToSingle
+```
 
 Attempts to get this value as a [System.Single](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) . If the value is empty or cannot be understood as this data type, the defaultValue will be returned instead.
 

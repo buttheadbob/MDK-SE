@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public IsMiddle
-```csharp
+private public bool IsMiddle
+```
 
 Returns true when all components are 127
 

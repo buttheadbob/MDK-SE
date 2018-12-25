@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual GetBlocksOfType<T>
-```csharp
+private public abstract virtual void GetBlocksOfType<T>
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public abstract virtual GetBlocksOfType<T>
 ### Summary
 
 ```csharp
-private public abstract virtual GetBlocksOfType<T>
-```csharp
+private public abstract virtual void GetBlocksOfType<T>
+```
 
 ### Returns
 

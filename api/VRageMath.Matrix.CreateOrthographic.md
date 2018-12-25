@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreateOrthographic
-```csharp
+private public private public sealed Matrix CreateOrthographic
+```
 
 Builds an orthogonal projection matrix.
 
@@ -17,8 +17,8 @@ Builds an orthogonal projection matrix.
 ### Summary
 
 ```csharp
-private public CreateOrthographic
-```csharp
+private public void CreateOrthographic
+```
 
 Builds an orthogonal projection matrix.
 

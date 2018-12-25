@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CurrentOutput
-```csharp
+private public float CurrentOutput
+```
 
 ### Returns
 

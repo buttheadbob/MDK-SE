@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public X
-```csharp
+private public short X
+```
 
 ### Returns
 

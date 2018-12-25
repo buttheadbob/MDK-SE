@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CopyTo
-```csharp
+private public void CopyTo
+```
 
 Copies the CurveKeys of the CurveKeyCollection to an array, starting at the array index provided.
 

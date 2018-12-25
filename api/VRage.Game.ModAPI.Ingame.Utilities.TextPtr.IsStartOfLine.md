@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public IsStartOfLine
-```csharp
+private public bool IsStartOfLine
+```
 
 ### Returns
 

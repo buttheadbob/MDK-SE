@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public SetComponent
-```csharp
+private public void SetComponent
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CatmullRom
-```csharp
+private public private public sealed Vector4 CatmullRom
+```
 
 Performs a Catmull-Rom interpolation using the specified positions.
 
@@ -17,8 +17,8 @@ Performs a Catmull-Rom interpolation using the specified positions.
 ### Summary
 
 ```csharp
-private public CatmullRom
-```csharp
+private public void CatmullRom
+```
 
 Performs a Catmull-Rom interpolation using the specified positions.
 

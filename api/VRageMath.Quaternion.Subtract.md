@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Subtract
-```csharp
+private public private public sealed Quaternion Subtract
+```
 
 Subtracts a quaternion from another quaternion.
 
@@ -17,8 +17,8 @@ Subtracts a quaternion from another quaternion.
 ### Summary
 
 ```csharp
-private public Subtract
-```csharp
+private public void Subtract
+```
 
 Subtracts a quaternion from another quaternion.
 

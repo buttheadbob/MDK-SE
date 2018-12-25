@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual GetOwnerFactionTag
-```csharp
+private public abstract virtual string GetOwnerFactionTag
+```
 
 Tag of faction owning block
 

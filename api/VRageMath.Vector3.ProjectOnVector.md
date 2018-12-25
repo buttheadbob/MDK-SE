@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public ProjectOnVector
-```csharp
+private public private public sealed Vector3 ProjectOnVector
+```
 
 Projects vector on another vector resulting in new vector in guided vector's direction with different length.
 

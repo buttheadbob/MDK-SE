@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public IsFriendly
-```csharp
+private public bool IsFriendly
+```
 
 ### Returns
 

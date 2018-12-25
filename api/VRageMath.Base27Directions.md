@@ -1,26 +1,26 @@
 ← [Index](Api-Index)
 
-### Base27Directions Class
+#### Base27Directions Class
 
 ```csharp
 private public Base27Directions
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|
 |[Directions](VRageMath.Base27Directions.Directions)||
 |[DirectionsInt](VRageMath.Base27Directions.DirectionsInt)||
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetSections
-```csharp
+private public void GetSections
+```
 
 ### Returns
 

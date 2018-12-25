@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual SetCustomName
-```csharp
+private public abstract virtual void SetCustomName
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public abstract virtual SetCustomName
 ### Summary
 
 ```csharp
-private public abstract virtual SetCustomName
-```csharp
+private public abstract virtual void SetCustomName
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual GetTargetedEntity
-```csharp
+private public abstract virtual private public sealed MyDetectedEntityInfo GetTargetedEntity
+```
 
 Gets the turret's current detected entity, if any
 

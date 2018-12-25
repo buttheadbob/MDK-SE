@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Corners
-```csharp
+private public private public sealed BoxCornerEnumerator Corners
+```
 
 ### Returns
 

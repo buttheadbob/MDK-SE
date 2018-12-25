@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public OverlapAllLineSegment<T>
-```csharp
+private public void OverlapAllLineSegment<T>
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public OverlapAllLineSegment<T>
 ### Summary
 
 ```csharp
-private public OverlapAllLineSegment<T>
-```csharp
+private public void OverlapAllLineSegment<T>
+```
 
 ### Returns
 

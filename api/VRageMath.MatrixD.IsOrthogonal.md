@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public IsOrthogonal
-```csharp
+private public bool IsOrthogonal
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public IsOrthogonal
 ### Summary
 
 ```csharp
-private public IsOrthogonal
-```csharp
+private public bool IsOrthogonal
+```
 
 ### Returns
 

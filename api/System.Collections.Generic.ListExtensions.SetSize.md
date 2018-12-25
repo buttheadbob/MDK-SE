@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public SetSize<T>
-```csharp
+private public void SetSize<T>
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public DistanceSquared
-```csharp
+private public float DistanceSquared
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetClosestDirection
-```csharp
+private public private sealed Direction GetClosestDirection
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public GetClosestDirection
 ### Summary
 
 ```csharp
-private public GetClosestDirection
-```csharp
+private public private sealed Direction GetClosestDirection
+```
 
 ### Returns
 

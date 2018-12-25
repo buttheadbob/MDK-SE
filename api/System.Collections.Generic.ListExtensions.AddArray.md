@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public AddArray<T>
-```csharp
+private public void AddArray<T>
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public AddArray<T>
 ### Summary
 
 ```csharp
-private public AddArray<T>
-```csharp
+private public void AddArray<T>
+```
 
 ### Returns
 

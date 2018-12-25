@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Clamp
-```csharp
+private public float Clamp
+```
 
 ### Returns
 

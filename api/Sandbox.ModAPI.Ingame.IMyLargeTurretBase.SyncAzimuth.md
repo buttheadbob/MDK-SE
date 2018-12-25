@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual SyncAzimuth
-```csharp
+private public abstract virtual void SyncAzimuth
+```
 
 method used to sync azimuth, you need to call it to sync azimuth for other clients/server
 

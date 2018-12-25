@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual GetActionWithName
-```csharp
+private public abstract virtual private public abstract ITerminalAction GetActionWithName
+```
 
 ### Returns
 

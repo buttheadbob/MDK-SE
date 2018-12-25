@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Hermite
-```csharp
+private public private public sealed Vector2D Hermite
+```
 
 Performs a Hermite spline interpolation.
 
@@ -17,8 +17,8 @@ Performs a Hermite spline interpolation.
 ### Summary
 
 ```csharp
-private public Hermite
-```csharp
+private public void Hermite
+```
 
 Performs a Hermite spline interpolation.
 

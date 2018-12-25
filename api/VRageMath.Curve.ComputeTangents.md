@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public ComputeTangents
-```csharp
+private public void ComputeTangents
+```
 
 Computes all tangents for all CurveKeys in this Curve, using a specified tangent type for both TangentIn and TangentOut.
 
@@ -17,8 +17,8 @@ Computes all tangents for all CurveKeys in this Curve, using a specified tangent
 ### Summary
 
 ```csharp
-private public ComputeTangents
-```csharp
+private public void ComputeTangents
+```
 
 Computes all tangents for all CurveKeys in this Curve, using different tangent types for TangentOut and TangentIn.
 

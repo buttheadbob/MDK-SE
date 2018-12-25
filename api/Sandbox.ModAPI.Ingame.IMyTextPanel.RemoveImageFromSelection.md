@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual RemoveImageFromSelection
-```csharp
+private public abstract virtual void RemoveImageFromSelection
+```
 
 ### Returns
 

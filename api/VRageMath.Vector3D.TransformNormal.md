@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public TransformNormal
-```csharp
+private public void TransformNormal
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public TransformNormal
 ### Summary
 
 ```csharp
-private public TransformNormal
-```csharp
+private public private public sealed Vector3D TransformNormal
+```
 
 ### Returns
 
@@ -27,8 +27,8 @@ private public TransformNormal
 ### Summary
 
 ```csharp
-private public TransformNormal
-```csharp
+private public void TransformNormal
+```
 
 ### Returns
 
@@ -39,8 +39,8 @@ private public TransformNormal
 ### Summary
 
 ```csharp
-private public TransformNormal
-```csharp
+private public private public sealed Vector3D TransformNormal
+```
 
 ### Returns
 
@@ -51,8 +51,8 @@ private public TransformNormal
 ### Summary
 
 ```csharp
-private public TransformNormal
-```csharp
+private public void TransformNormal
+```
 
 Transforms an array of 3D vector normals by a specified Matrix.
 
@@ -65,8 +65,8 @@ Transforms an array of 3D vector normals by a specified Matrix.
 ### Summary
 
 ```csharp
-private public TransformNormal
-```csharp
+private public void TransformNormal
+```
 
 ### Returns
 
@@ -77,8 +77,8 @@ private public TransformNormal
 ### Summary
 
 ```csharp
-private public TransformNormal
-```csharp
+private public void TransformNormal
+```
 
 Transforms a specified range in an array of 3D vector normals by a specified Matrix and writes the results to a specified range in a destination array.
 
@@ -91,8 +91,8 @@ Transforms a specified range in an array of 3D vector normals by a specified Mat
 ### Summary
 
 ```csharp
-private public TransformNormal
-```csharp
+private public private public sealed Vector3D TransformNormal
+```
 
 Transforms a 3D vector normal by a matrix.
 
@@ -105,8 +105,8 @@ Transforms a 3D vector normal by a matrix.
 ### Summary
 
 ```csharp
-private public TransformNormal
-```csharp
+private public private public sealed Vector3D TransformNormal
+```
 
 Transforms a 3D vector normal by a matrix.
 
@@ -119,8 +119,8 @@ Transforms a 3D vector normal by a matrix.
 ### Summary
 
 ```csharp
-private public TransformNormal
-```csharp
+private public private public sealed Vector3D TransformNormal
+```
 
 Transforms a 3D vector normal by a matrix.
 
@@ -133,8 +133,8 @@ Transforms a 3D vector normal by a matrix.
 ### Summary
 
 ```csharp
-private public TransformNormal
-```csharp
+private public void TransformNormal
+```
 
 Transforms a vector normal by a matrix.
 
@@ -147,8 +147,8 @@ Transforms a vector normal by a matrix.
 ### Summary
 
 ```csharp
-private public TransformNormal
-```csharp
+private public void TransformNormal
+```
 
 ### Returns
 

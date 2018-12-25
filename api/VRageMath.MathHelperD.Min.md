@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Min
-```csharp
+private public double Min
+```
 
 Returns the lesser of two values.
 

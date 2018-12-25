@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public TryGet<T>
-```csharp
+private public bool TryGet<T>
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public TryGet<T>
 ### Summary
 
 ```csharp
-private public TryGet
-```csharp
+private public bool TryGet
+```
 
 ### Returns
 

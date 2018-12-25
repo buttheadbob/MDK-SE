@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public private public sealed PlaneIntersectionType Intersects
+```
 
 Checks whether the current Plane intersects a specified BoundingBox.
 
@@ -17,8 +17,8 @@ Checks whether the current Plane intersects a specified BoundingBox.
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public void Intersects
+```
 
 Checks whether the current Plane intersects a BoundingBox.
 
@@ -31,8 +31,8 @@ Checks whether the current Plane intersects a BoundingBox.
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public private public sealed PlaneIntersectionType Intersects
+```
 
 Checks whether the current Plane intersects a specified BoundingFrustum.
 
@@ -45,8 +45,8 @@ Checks whether the current Plane intersects a specified BoundingFrustum.
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public private public sealed PlaneIntersectionType Intersects
+```
 
 Checks whether the current Plane intersects a specified BoundingSphere.
 
@@ -59,8 +59,8 @@ Checks whether the current Plane intersects a specified BoundingSphere.
 ### Summary
 
 ```csharp
-private public Intersects
-```csharp
+private public void Intersects
+```
 
 Checks whether the current Plane intersects a BoundingSphere.
 

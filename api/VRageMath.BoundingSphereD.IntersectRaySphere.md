@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public IntersectRaySphere
-```csharp
+private public bool IntersectRaySphere
+```
 
 ### Returns
 

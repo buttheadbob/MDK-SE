@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetComponent
-```csharp
+private public float GetComponent
+```
 
 ### Returns
 

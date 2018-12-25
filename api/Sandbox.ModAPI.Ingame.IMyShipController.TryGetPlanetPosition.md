@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual TryGetPlanetPosition
-```csharp
+private public abstract virtual bool TryGetPlanetPosition
+```
 
 Attempts to get the world position of the nearest planet. This method is only available when a ship is within the gravity well of a planet.
 

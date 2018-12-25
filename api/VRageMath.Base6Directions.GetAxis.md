@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetAxis
-```csharp
+private public private sealed Axis GetAxis
+```
 
 ### Returns
 

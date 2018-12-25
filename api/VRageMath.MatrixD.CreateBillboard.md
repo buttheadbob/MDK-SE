@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreateBillboard
-```csharp
+private public private public sealed MatrixD CreateBillboard
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public CreateBillboard
 ### Summary
 
 ```csharp
-private public CreateBillboard
-```csharp
+private public void CreateBillboard
+```
 
 ### Returns
 

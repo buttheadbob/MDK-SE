@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual UseConveyorSystem
-```csharp
+private public abstract virtual bool UseConveyorSystem
+```
 
 ### Returns
 

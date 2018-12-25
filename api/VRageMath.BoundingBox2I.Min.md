@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Min
-```csharp
+private public private public sealed Vector2I Min
+```
 
 The minimum point the BoundingBox2I contains.
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreateFromVertices
-```csharp
+private public void CreateFromVertices
+```
 
 ### Returns
 

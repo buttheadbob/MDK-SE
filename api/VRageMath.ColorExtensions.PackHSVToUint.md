@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public PackHSVToUint
-```csharp
+private public uint PackHSVToUint
+```
 
 ### Returns
 

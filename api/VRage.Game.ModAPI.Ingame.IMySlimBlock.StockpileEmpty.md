@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual StockpileEmpty
-```csharp
+private public abstract virtual bool StockpileEmpty
+```
 
 The component stockpile is empty (no build components)
 

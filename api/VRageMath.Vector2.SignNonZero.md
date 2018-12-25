@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public SignNonZero
-```csharp
+private public private public sealed Vector2 SignNonZero
+```
 
 ### Returns
 

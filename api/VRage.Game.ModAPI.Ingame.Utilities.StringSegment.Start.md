@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Start
-```csharp
+private public int Start
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Clear
-```csharp
+private public void Clear
+```
 
 ### Returns
 

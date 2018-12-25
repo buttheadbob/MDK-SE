@@ -1,19 +1,19 @@
 ← [Index](Api-Index)
 
-### HashSetExtensions Class
+#### HashSetExtensions Class
 
 ```csharp
 private public abstract sealed HashSetExtensions
-```csharp
+```
 
 **Namespace:** [System.Collections.Generic](System.Collections.Generic)  
 **Assembly:** VRage.Library.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

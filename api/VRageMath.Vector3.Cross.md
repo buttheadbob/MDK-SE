@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Cross
-```csharp
+private public private public sealed Vector3 Cross
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public Cross
 ### Summary
 
 ```csharp
-private public Cross
-```csharp
+private public private public sealed Vector3 Cross
+```
 
 Calculates the cross product of two vectors.
 
@@ -29,8 +29,8 @@ Calculates the cross product of two vectors.
 ### Summary
 
 ```csharp
-private public Cross
-```csharp
+private public void Cross
+```
 
 Calculates the cross product of two vectors.
 

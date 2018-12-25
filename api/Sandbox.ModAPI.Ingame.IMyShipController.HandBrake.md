@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual HandBrake
-```csharp
+private public abstract virtual bool HandBrake
+```
 
 Gets or sets the current state of the handbrake.
 

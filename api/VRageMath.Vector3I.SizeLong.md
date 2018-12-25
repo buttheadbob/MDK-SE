@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public SizeLong
-```csharp
+private public long SizeLong
+```
 
 ### Returns
 

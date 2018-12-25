@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public ShouldSerializeSubtypeId
-```csharp
+private public bool ShouldSerializeSubtypeId
+```
 
 ### Returns
 

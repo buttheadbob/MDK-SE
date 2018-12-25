@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetRight
-```csharp
+private public void GetRight
+```
 
 Gets right vector (1,0,0) transformed by quaternion.
 

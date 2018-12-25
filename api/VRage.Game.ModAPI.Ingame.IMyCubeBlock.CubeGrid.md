@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual CubeGrid
-```csharp
+private public abstract virtual private public abstract IMyCubeGrid CubeGrid
+```
 
 Grid in which the block is placed
 

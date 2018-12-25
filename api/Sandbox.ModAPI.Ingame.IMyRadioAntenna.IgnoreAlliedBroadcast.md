@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual IgnoreAlliedBroadcast
-```csharp
+private public abstract virtual bool IgnoreAlliedBroadcast
+```
 
 Ignores broadcasts sent by friendly antenna that do not belong to you
 

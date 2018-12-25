@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Intensity
-```csharp
+private public abstract virtual float Intensity
+```
 
 Gets or sets the current intensity of the light.
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetInventoryCount
-```csharp
+private public int GetInventoryCount
+```
 
 ### Returns
 

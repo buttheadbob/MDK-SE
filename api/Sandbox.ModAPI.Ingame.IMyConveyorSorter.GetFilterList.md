@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual GetFilterList
-```csharp
+private public abstract virtual void GetFilterList
+```
 
 ### Returns
 

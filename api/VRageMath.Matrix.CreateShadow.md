@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public CreateShadow
-```csharp
+private public private public sealed Matrix CreateShadow
+```
 
 Creates a Matrix that flattens geometry into a specified Plane as if casting a shadow from a specified light source.
 
@@ -17,8 +17,8 @@ Creates a Matrix that flattens geometry into a specified Plane as if casting a s
 ### Summary
 
 ```csharp
-private public CreateShadow
-```csharp
+private public void CreateShadow
+```
 
 Fills in a Matrix to flatten geometry into a specified Plane as if casting a shadow from a specified light source.
 

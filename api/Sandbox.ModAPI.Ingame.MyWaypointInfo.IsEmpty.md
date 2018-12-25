@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public IsEmpty
-```csharp
+private public bool IsEmpty
+```
 
 Determines whether this coordinate is empty (undefined)
 

@@ -1,26 +1,26 @@
 ← [Index](Api-Index)
 
-### RectangleF Struct
+#### RectangleF Struct
 
 ```csharp
 private public sealed RectangleF
-```csharp
+```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-### Example
+#### Example
 
-### Remarks
+#### Remarks
 
-###### Fields
+#### Fields
 
 |Member|Description|
 |---|---|
 |[Position](VRageMath.RectangleF.Position)|The Position.|
 |[Size](VRageMath.RectangleF.Size)|The Size.|
 
-###### Properties
+#### Properties
 
 |Member|Description|
 |---|---|
@@ -29,7 +29,7 @@ private public sealed RectangleF
 |[Width](VRageMath.RectangleF.Width)|Width of this rectangle.|
 |[Height](VRageMath.RectangleF.Height)|Height of this rectangle.|
 
-###### Methods
+#### Methods
 
 |Member|Description|
 |---|---|

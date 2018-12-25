@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual TransferItemFrom
-```csharp
+private public abstract virtual bool TransferItemFrom
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public abstract virtual TransferItemFrom
 ### Summary
 
 ```csharp
-private public abstract virtual TransferItemFrom
-```csharp
+private public abstract virtual bool TransferItemFrom
+```
 
 ### Returns
 

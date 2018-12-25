@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetUp
-```csharp
+private public void GetUp
+```
 
 Gets up vector (0,1,0) transformed by quaternion.
 

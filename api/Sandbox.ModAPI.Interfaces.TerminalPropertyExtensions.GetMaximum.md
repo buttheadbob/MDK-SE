@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetMaximum<T>
-```csharp
+private public private public T GetMaximum<T>
+```
 
 ### Returns
 

@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual IsDestroyed
-```csharp
+private public abstract virtual bool IsDestroyed
+```
 
 Gets if component stack is empty
 

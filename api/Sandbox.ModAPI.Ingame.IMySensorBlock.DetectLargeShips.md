@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual DetectLargeShips
-```csharp
+private public abstract virtual bool DetectLargeShips
+```
 
 Gets or sets if the sensor should detect large ships.
 

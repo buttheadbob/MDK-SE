@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual GetOxygenLevel
-```csharp
+private public abstract virtual float GetOxygenLevel
+```
 
 Oxygen level in room
 

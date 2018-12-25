@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Clone
-```csharp
+private public private public CurveKeyCollection Clone
+```
 
 Creates a copy of the CurveKeyCollection.
 

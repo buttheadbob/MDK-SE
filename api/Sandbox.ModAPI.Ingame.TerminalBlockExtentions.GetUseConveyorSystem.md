@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetUseConveyorSystem
-```csharp
+private public bool GetUseConveyorSystem
+```
 
 ### Returns
 

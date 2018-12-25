@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Trunc
-```csharp
+private public private public sealed Vector3I Trunc
+```
 
 ### Returns
 

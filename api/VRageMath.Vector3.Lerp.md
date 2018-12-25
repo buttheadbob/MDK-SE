@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Lerp
-```csharp
+private public private public sealed Vector3 Lerp
+```
 
 Performs a linear interpolation between two vectors.
 
@@ -17,8 +17,8 @@ Performs a linear interpolation between two vectors.
 ### Summary
 
 ```csharp
-private public Lerp
-```csharp
+private public void Lerp
+```
 
 Performs a linear interpolation between two vectors.
 

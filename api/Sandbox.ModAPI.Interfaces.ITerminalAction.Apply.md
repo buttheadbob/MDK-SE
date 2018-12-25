@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual Apply
-```csharp
+private public abstract virtual void Apply
+```
 
 ### Returns
 
@@ -15,8 +15,8 @@ private public abstract virtual Apply
 ### Summary
 
 ```csharp
-private public abstract virtual Apply
-```csharp
+private public abstract virtual void Apply
+```
 
 ### Returns
 

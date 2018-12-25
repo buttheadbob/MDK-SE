@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public abstract virtual OnlyRecharge
-```csharp
+private public abstract virtual bool OnlyRecharge
+```
 
 ### Returns
 

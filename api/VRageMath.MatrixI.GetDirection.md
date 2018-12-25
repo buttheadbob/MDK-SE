@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public GetDirection
-```csharp
+private public private sealed Direction GetDirection
+```
 
 ### Returns
 

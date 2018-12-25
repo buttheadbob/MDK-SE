@@ -3,8 +3,8 @@
 ### Summary
 
 ```csharp
-private public Enqueue
-```csharp
+private public void Enqueue
+```
 
 ### Returns
 

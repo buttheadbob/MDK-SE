@@ -15,10 +15,10 @@ public class MyResourceSinkComponent: MyResourceSinkComponentBase
 
 |Member|Description|
 |---|---|
-|[RequiredInput](Sandbox.Game.EntityComponents.MyResourceSinkComponent.RequiredInput)|_**Obsolete:** _|
-|[SuppliedRatio](Sandbox.Game.EntityComponents.MyResourceSinkComponent.SuppliedRatio)|_**Obsolete:** _|
-|[CurrentInput](Sandbox.Game.EntityComponents.MyResourceSinkComponent.CurrentInput)|_**Obsolete:** _|
-|[IsPowered](Sandbox.Game.EntityComponents.MyResourceSinkComponent.IsPowered)|_**Obsolete:** _|
+|[RequiredInput](Sandbox.Game.EntityComponents.MyResourceSinkComponent.RequiredInput)|_**Obsolete**_|
+|[SuppliedRatio](Sandbox.Game.EntityComponents.MyResourceSinkComponent.SuppliedRatio)|_**Obsolete**_|
+|[CurrentInput](Sandbox.Game.EntityComponents.MyResourceSinkComponent.CurrentInput)|_**Obsolete**_|
+|[IsPowered](Sandbox.Game.EntityComponents.MyResourceSinkComponent.IsPowered)|_**Obsolete**_|
 |[AcceptedResources](Sandbox.Game.EntityComponents.MyResourceSinkComponent.AcceptedResources)||
 |[AcceptedResources](VRage.Game.Components.MyResourceSinkComponentBase.AcceptedResources)|_Inherited from [MyResourceSinkComponentBase](VRage.Game.Components.MyResourceSinkComponentBase)_|
 

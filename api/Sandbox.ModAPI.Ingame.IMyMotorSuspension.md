@@ -25,16 +25,16 @@ public interface IMyMotorSuspension: IMyMotorBase, IMyMechanicalConnectionBlock,
 |[Propulsion](Sandbox.ModAPI.Ingame.IMyMotorSuspension.Propulsion)||
 |[InvertSteer](Sandbox.ModAPI.Ingame.IMyMotorSuspension.InvertSteer)||
 |[InvertPropulsion](Sandbox.ModAPI.Ingame.IMyMotorSuspension.InvertPropulsion)||
-|[Damping](Sandbox.ModAPI.Ingame.IMyMotorSuspension.Damping)|_**Obsolete:** _|
+|[Damping](Sandbox.ModAPI.Ingame.IMyMotorSuspension.Damping)|_**Obsolete**_|
 |[Strength](Sandbox.ModAPI.Ingame.IMyMotorSuspension.Strength)||
 |[Friction](Sandbox.ModAPI.Ingame.IMyMotorSuspension.Friction)||
 |[Power](Sandbox.ModAPI.Ingame.IMyMotorSuspension.Power)||
 |[Height](Sandbox.ModAPI.Ingame.IMyMotorSuspension.Height)||
 |[SteerAngle](Sandbox.ModAPI.Ingame.IMyMotorSuspension.SteerAngle)|Wheel's current steering angle|
 |[MaxSteerAngle](Sandbox.ModAPI.Ingame.IMyMotorSuspension.MaxSteerAngle)|Max steering angle in radians.|
-|[SteerSpeed](Sandbox.ModAPI.Ingame.IMyMotorSuspension.SteerSpeed)|_**Obsolete:** _<br /><br />Speed at which wheel steers.|
-|[SteerReturnSpeed](Sandbox.ModAPI.Ingame.IMyMotorSuspension.SteerReturnSpeed)|_**Obsolete:** _<br /><br />Speed at which wheel returns from steering.|
-|[SuspensionTravel](Sandbox.ModAPI.Ingame.IMyMotorSuspension.SuspensionTravel)|_**Obsolete:** _<br /><br />Suspension travel, value from 0 to 1.|
+|[SteerSpeed](Sandbox.ModAPI.Ingame.IMyMotorSuspension.SteerSpeed)|_**Obsolete**_<br /><br />Speed at which wheel steers.|
+|[SteerReturnSpeed](Sandbox.ModAPI.Ingame.IMyMotorSuspension.SteerReturnSpeed)|_**Obsolete**_<br /><br />Speed at which wheel returns from steering.|
+|[SuspensionTravel](Sandbox.ModAPI.Ingame.IMyMotorSuspension.SuspensionTravel)|_**Obsolete**_<br /><br />Suspension travel, value from 0 to 1.|
 |[Brake](Sandbox.ModAPI.Ingame.IMyMotorSuspension.Brake)|Gets or sets brake applied to the wheel.|
 |[AirShockEnabled](Sandbox.ModAPI.Ingame.IMyMotorSuspension.AirShockEnabled)|Enables or disalbes AirShock function.|
 |[Components](VRage.Game.ModAPI.Ingame.IMyEntity.Components)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
@@ -92,8 +92,8 @@ public interface IMyMotorSuspension: IMyMotorBase, IMyMechanicalConnectionBlock,
 |[GetOwnerFactionTag()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetOwnerFactionTag)|Tag of faction owning block<br /><br />_Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_|
 |[GetPlayerRelationToOwner()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetPlayerRelationToOwner)|_**Obsolete:** GetPlayerRelationToOwner() is useless ingame. Mods should use the one in ModAPI.IMyCubeBlock_<br /><br />_Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_|
 |[GetUserRelationToOwner(long)](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetUserRelationToOwner)|_Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_|
-|[UpdateIsWorking()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.UpdateIsWorking)|_**Obsolete:** _<br /><br />_Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_|
-|[UpdateVisual()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.UpdateVisual)|_**Obsolete:** _<br /><br />_Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_|
+|[UpdateIsWorking()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.UpdateIsWorking)|_**Obsolete**_<br /><br />_Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_|
+|[UpdateVisual()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.UpdateVisual)|_**Obsolete**_<br /><br />_Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_|
 |[HasLocalPlayerAccess()](Sandbox.ModAPI.Ingame.IMyTerminalBlock.HasLocalPlayerAccess)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[HasPlayerAccess(long)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.HasPlayerAccess)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[SetCustomName(string)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)|_**Obsolete:** Use the setter of Customname_<br /><br />_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|

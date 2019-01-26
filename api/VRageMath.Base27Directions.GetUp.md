@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Direction GetUp(ref Quaternion rot)
+public static Direction GetUp(ref Quaternion rot)
 ```
 
 ### Returns

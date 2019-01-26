@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Matrix CreateBillboard(Vector3 objectPosition, Vector3 cameraPosition, Vector3 cameraUpVector, Nullable<T> cameraForwardVector)
+public static Matrix CreateBillboard(Vector3 objectPosition, Vector3 cameraPosition, Vector3 cameraUpVector, Nullable<T> cameraForwardVector)
 ```
 
 ### Returns
@@ -19,7 +19,7 @@ public Matrix CreateBillboard(Vector3 objectPosition, Vector3 cameraPosition, Ve
 ### Summary
 
 ```csharp
-public void CreateBillboard(ref Vector3 objectPosition, ref Vector3 cameraPosition, ref Vector3 cameraUpVector, Nullable<T> cameraForwardVector, ref Matrix result)
+public static void CreateBillboard(ref Vector3 objectPosition, ref Vector3 cameraPosition, ref Vector3 cameraUpVector, Nullable<T> cameraForwardVector, out Matrix result)
 ```
 
 ### Parameters

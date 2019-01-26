@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector4 PremultiplyColor(Vector4 c)
+public static Vector4 PremultiplyColor(Vector4 c)
 ```
 
 ### Returns

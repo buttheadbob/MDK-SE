@@ -35,11 +35,19 @@ public struct MyOrientedBoundingBoxD: IEquatable<T>
 |[ZNeighbourVectorsForw](VRageMath.MyOrientedBoundingBoxD.ZNeighbourVectorsForw)||
 |[CornerCount](VRageMath.MyOrientedBoundingBoxD.CornerCount)||
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[MyOrientedBoundingBoxD(MatrixD)](VRageMath.MyOrientedBoundingBoxD..ctor)||
+|[MyOrientedBoundingBoxD(Vector3D, Vector3D, Quaternion)](VRageMath.MyOrientedBoundingBoxD..ctor)||
+|[MyOrientedBoundingBoxD(BoundingBoxD, MatrixD)](VRageMath.MyOrientedBoundingBoxD..ctor)||
+
 #### Methods
 
 |Member|Description|
 |---|---|
-|[GetNormalBetweenEdges(int, int, int, ref Vector3)](VRageMath.MyOrientedBoundingBoxD.GetNormalBetweenEdges)|Returns normal between two cube edge of same direction|
+|[GetNormalBetweenEdges(int, int, int, out Vector3)](VRageMath.MyOrientedBoundingBoxD.GetNormalBetweenEdges)|Returns normal between two cube edge of same direction|
 |[CreateFromBoundingBox(BoundingBoxD)](VRageMath.MyOrientedBoundingBoxD.CreateFromBoundingBox)||
 |[Transform(Quaternion, Vector3D)](VRageMath.MyOrientedBoundingBoxD.Transform)||
 |[Transform(float, Quaternion, Vector3D)](VRageMath.MyOrientedBoundingBoxD.Transform)||

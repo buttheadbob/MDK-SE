@@ -28,6 +28,13 @@ public struct Vector4I: IComparable<T>
 |---|---|
 |[Item](VRageMath.Vector4I.Item)||
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[Vector4I(int, int, int, int)](VRageMath.Vector4I..ctor)||
+|[Vector4I(Vector3I, int)](VRageMath.Vector4I..ctor)||
+
 #### Methods
 
 |Member|Description|

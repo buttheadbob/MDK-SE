@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MatrixD Normalize(MatrixD matrix)
+public static MatrixD Normalize(MatrixD matrix)
 ```
 
 ### Returns

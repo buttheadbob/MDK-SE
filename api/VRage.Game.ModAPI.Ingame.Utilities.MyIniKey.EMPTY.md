@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MyIniKey EMPTY
+public static MyIniKey EMPTY
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public BoundingSphere CreateInvalid()
+public static BoundingSphere CreateInvalid()
 ```
 
 ### Returns

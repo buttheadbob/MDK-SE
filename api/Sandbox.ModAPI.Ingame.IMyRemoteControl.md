@@ -78,7 +78,7 @@ public interface IMyRemoteControl: IMyShipController, IMyTerminalBlock, IMyCubeB
 
 |Member|Description|
 |---|---|
-|[GetNearestPlayer(ref Vector3D)](Sandbox.ModAPI.Ingame.IMyRemoteControl.GetNearestPlayer)|Gets the nearest player's position. Will only work if the remote control belongs to an NPC|
+|[GetNearestPlayer(out Vector3D)](Sandbox.ModAPI.Ingame.IMyRemoteControl.GetNearestPlayer)|Gets the nearest player's position. Will only work if the remote control belongs to an NPC|
 |[ClearWaypoints()](Sandbox.ModAPI.Ingame.IMyRemoteControl.ClearWaypoints)|Removes all existing waypoints.|
 |[GetWaypointInfo(List)](Sandbox.ModAPI.Ingame.IMyRemoteControl.GetWaypointInfo)||
 |[AddWaypoint(Vector3D, string)](Sandbox.ModAPI.Ingame.IMyRemoteControl.AddWaypoint)|Adds a new waypoint.|
@@ -110,6 +110,6 @@ public interface IMyRemoteControl: IMyShipController, IMyTerminalBlock, IMyCubeB
 |[GetShipSpeed()](Sandbox.ModAPI.Ingame.IMyShipController.GetShipSpeed)|Gets the basic ship speed in meters per second, for when you just need to know how fast you're going.<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
 |[GetShipVelocities()](Sandbox.ModAPI.Ingame.IMyShipController.GetShipVelocities)|Determines the linear velocities in meters per second and angular velocities in radians per second. Provides a more accurate representation of the directions and axis speeds.<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
 |[CalculateShipMass()](Sandbox.ModAPI.Ingame.IMyShipController.CalculateShipMass)|Gets information about the current mass of the ship.<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
-|[TryGetPlanetPosition(ref Vector3D)](Sandbox.ModAPI.Ingame.IMyShipController.TryGetPlanetPosition)|Attempts to get the world position of the nearest planet. This method is only available when a ship is within the gravity well of a planet.<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
-|[TryGetPlanetElevation(MyPlanetElevation, ref double)](Sandbox.ModAPI.Ingame.IMyShipController.TryGetPlanetElevation)|Attempts to get the elevation of the ship in relation to the nearest planet. This method is only available when a ship is within the gravity well of a planet.<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
+|[TryGetPlanetPosition(out Vector3D)](Sandbox.ModAPI.Ingame.IMyShipController.TryGetPlanetPosition)|Attempts to get the world position of the nearest planet. This method is only available when a ship is within the gravity well of a planet.<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
+|[TryGetPlanetElevation(MyPlanetElevation, out double)](Sandbox.ModAPI.Ingame.IMyShipController.TryGetPlanetElevation)|Attempts to get the elevation of the ship in relation to the nearest planet. This method is only available when a ship is within the gravity well of a planet.<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
 

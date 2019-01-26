@@ -24,10 +24,16 @@ Defines a matrix.
 |---|---|
 |[Matrix](VRageMath.CompressedPositionOrientation.Matrix)||
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[CompressedPositionOrientation(ref Matrix)](VRageMath.CompressedPositionOrientation..ctor)||
+
 #### Methods
 
 |Member|Description|
 |---|---|
 |[FromMatrix(ref Matrix)](VRageMath.CompressedPositionOrientation.FromMatrix)||
-|[ToMatrix(ref Matrix)](VRageMath.CompressedPositionOrientation.ToMatrix)||
+|[ToMatrix(out Matrix)](VRageMath.CompressedPositionOrientation.ToMatrix)||
 

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void TransformNoProjection(ref Vector3 vector, ref Matrix matrix, ref Vector3 result)
+public static void TransformNoProjection(ref Vector3 vector, ref Matrix matrix, out Vector3 result)
 ```
 
 ### Parameters

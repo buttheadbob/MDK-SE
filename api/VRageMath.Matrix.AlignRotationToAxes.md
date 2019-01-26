@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Matrix AlignRotationToAxes(ref Matrix toAlign, ref Matrix axisDefinitionMatrix)
+public static Matrix AlignRotationToAxes(ref Matrix toAlign, ref Matrix axisDefinitionMatrix)
 ```
 
 ### Returns

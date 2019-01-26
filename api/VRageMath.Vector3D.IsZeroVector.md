@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3D IsZeroVector(Vector3D value)
+public static Vector3D IsZeroVector(Vector3D value)
 ```
 
 ### Returns
@@ -16,7 +16,7 @@ public Vector3D IsZeroVector(Vector3D value)
 ### Summary
 
 ```csharp
-public Vector3D IsZeroVector(Vector3D value, double epsilon)
+public static Vector3D IsZeroVector(Vector3D value, double epsilon)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public float InterpLogInv(float value, float amount1, float amount2)
+public static float InterpLogInv(float value, float amount1, float amount2)
 ```
 
 ### Returns

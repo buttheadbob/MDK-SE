@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3 Down
+public static Vector3 Down
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public int Log2(int n)
+public static int Log2(int n)
 ```
 
 ### Returns
@@ -16,7 +16,7 @@ public int Log2(int n)
 ### Summary
 
 ```csharp
-public int Log2(uint n)
+public static int Log2(uint n)
 ```
 
 ### Returns

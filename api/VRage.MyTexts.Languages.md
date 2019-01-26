@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public DictionaryReader<K, V> Languages { get; }
+public static DictionaryReader<K, V> Languages { get; }
 ```
 
 ### Returns

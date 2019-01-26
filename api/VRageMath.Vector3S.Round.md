@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3S Round(Vector3 v)
+public static Vector3S Round(Vector3 v)
 ```
 
 ### Returns

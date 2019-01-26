@@ -24,6 +24,12 @@ Contains the CurveKeys making up a Curve.
 |[Count](VRageMath.CurveKeyCollection.Count)|Gets the number of elements contained in the CurveKeyCollection.|
 |[IsReadOnly](VRageMath.CurveKeyCollection.IsReadOnly)|Returns a value indicating whether the CurveKeyCollection is read-only.|
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[CurveKeyCollection()](VRageMath.CurveKeyCollection..ctor)||
+
 #### Methods
 
 |Member|Description|

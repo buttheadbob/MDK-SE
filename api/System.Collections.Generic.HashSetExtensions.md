@@ -14,5 +14,5 @@ public abstract sealed class HashSetExtensions
 |Member|Description|
 |---|---|
 |[FirstElement(HashSet)](System.Collections.Generic.HashSetExtensions.FirstElement)||
-|[TryGetValue(HashSet, T, ref T)](System.Collections.Generic.HashSetExtensions.TryGetValue)||
+|[TryGetValue(HashSet, T, out T)](System.Collections.Generic.HashSetExtensions.TryGetValue)||
 

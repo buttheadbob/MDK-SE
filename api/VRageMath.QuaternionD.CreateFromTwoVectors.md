@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void CreateFromTwoVectors(ref Vector3D firstVector, ref Vector3D secondVector, ref QuaternionD result)
+public static void CreateFromTwoVectors(ref Vector3D firstVector, ref Vector3D secondVector, out QuaternionD result)
 ```
 
 ### Parameters
@@ -14,7 +14,7 @@ public void CreateFromTwoVectors(ref Vector3D firstVector, ref Vector3D second
 ### Summary
 
 ```csharp
-public QuaternionD CreateFromTwoVectors(Vector3D firstVector, Vector3D secondVector)
+public static QuaternionD CreateFromTwoVectors(Vector3D firstVector, Vector3D secondVector)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3I TransformNormal(Vector3I value, ref MatrixI transformation)
+public static Vector3I TransformNormal(Vector3I value, ref MatrixI transformation)
 ```
 
 ### Returns
@@ -17,7 +17,7 @@ public Vector3I TransformNormal(Vector3I value, ref MatrixI transformation)
 ### Summary
 
 ```csharp
-public void TransformNormal(ref Vector3I normal, ref Matrix matrix, ref Vector3I result)
+public static void TransformNormal(ref Vector3I normal, ref Matrix matrix, out Vector3I result)
 ```
 
 Transforms a vector normal by a matrix.
@@ -30,7 +30,7 @@ Transforms a vector normal by a matrix.
 ### Summary
 
 ```csharp
-public void TransformNormal(ref Vector3I normal, ref MatrixI matrix, ref Vector3I result)
+public static void TransformNormal(ref Vector3I normal, ref MatrixI matrix, out Vector3I result)
 ```
 
 ### Parameters

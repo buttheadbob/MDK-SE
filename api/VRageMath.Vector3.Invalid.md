@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3 Invalid
+public static Vector3 Invalid
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Direction GetOppositeDirection(Direction dir)
+public static Direction GetOppositeDirection(Direction dir)
 ```
 
 ### Returns

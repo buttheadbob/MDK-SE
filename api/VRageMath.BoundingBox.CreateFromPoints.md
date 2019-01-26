@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public BoundingBox CreateFromPoints(IEnumerable<T> points)
+public static BoundingBox CreateFromPoints(IEnumerable<T> points)
 ```
 
 ### Returns

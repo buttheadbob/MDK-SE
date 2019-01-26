@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public float Sqrt2
+public static float Sqrt2
 ```
 
 Represents the value of the square root of two

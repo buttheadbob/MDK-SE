@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3L Sign(Vector3 value)
+public static Vector3L Sign(Vector3 value)
 ```
 
 ### Returns
@@ -16,7 +16,7 @@ public Vector3L Sign(Vector3 value)
 ### Summary
 
 ```csharp
-public Vector3L Sign(Vector3L value)
+public static Vector3L Sign(Vector3L value)
 ```
 
 ### Returns

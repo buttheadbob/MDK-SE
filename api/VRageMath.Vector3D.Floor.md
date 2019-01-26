@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3I Floor(Vector3D vect3d)
+public static Vector3I Floor(Vector3D vect3d)
 ```
 
 ### Returns

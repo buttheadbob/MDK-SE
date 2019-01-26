@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MyTransform Transform(ref MyTransform t1, ref MyTransform t2)
+public static MyTransform Transform(ref MyTransform t1, ref MyTransform t2)
 ```
 
 ### Returns
@@ -17,7 +17,7 @@ public MyTransform Transform(ref MyTransform t1, ref MyTransform t2)
 ### Summary
 
 ```csharp
-public void Transform(ref MyTransform t1, ref MyTransform t2, ref MyTransform result)
+public static void Transform(ref MyTransform t1, ref MyTransform t2, out MyTransform result)
 ```
 
 ### Parameters
@@ -28,7 +28,7 @@ public void Transform(ref MyTransform t1, ref MyTransform t2, ref MyTransform
 ### Summary
 
 ```csharp
-public Vector3 Transform(ref Vector3 v, ref MyTransform t2)
+public static Vector3 Transform(ref Vector3 v, ref MyTransform t2)
 ```
 
 ### Returns
@@ -42,7 +42,7 @@ public Vector3 Transform(ref Vector3 v, ref MyTransform t2)
 ### Summary
 
 ```csharp
-public void Transform(ref Vector3 v, ref MyTransform t2, ref Vector3 result)
+public static void Transform(ref Vector3 v, ref MyTransform t2, out Vector3 result)
 ```
 
 ### Parameters

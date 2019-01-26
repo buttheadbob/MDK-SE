@@ -22,6 +22,12 @@ public class MyCuboid
 |[UniqueLines](VRageMath.MyCuboid.UniqueLines)||
 |[Vertices](VRageMath.MyCuboid.Vertices)||
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[MyCuboid()](VRageMath.MyCuboid..ctor)||
+
 #### Methods
 
 |Member|Description|

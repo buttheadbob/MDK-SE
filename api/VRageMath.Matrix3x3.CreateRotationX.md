@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Matrix3x3 CreateRotationX(float radians)
+public static Matrix3x3 CreateRotationX(float radians)
 ```
 
 Returns a matrix that can be used to rotate a set of vertices around the x-axis.
@@ -18,7 +18,7 @@ Returns a matrix that can be used to rotate a set of vertices around the x-axis.
 ### Summary
 
 ```csharp
-public void CreateRotationX(float radians, ref Matrix3x3 result)
+public static void CreateRotationX(float radians, out Matrix3x3 result)
 ```
 
 Populates data into a user-specified matrix that can be used to rotate a set of vertices around the x-axis.

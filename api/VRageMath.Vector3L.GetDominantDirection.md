@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public CubeFace GetDominantDirection(Vector3L val)
+public static CubeFace GetDominantDirection(Vector3L val)
 ```
 
 ### Returns

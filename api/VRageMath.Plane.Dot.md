@@ -18,7 +18,7 @@ Calculates the dot product of a specified Vector4 and this Plane.
 ### Summary
 
 ```csharp
-public void Dot(ref Vector4 value, ref float result)
+public void Dot(ref Vector4 value, out float result)
 ```
 
 Calculates the dot product of a specified Vector4 and this Plane.

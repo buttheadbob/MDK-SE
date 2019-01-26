@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MyFixedPoint Ceiling(MyFixedPoint a)
+public static MyFixedPoint Ceiling(MyFixedPoint a)
 ```
 
 ### Returns

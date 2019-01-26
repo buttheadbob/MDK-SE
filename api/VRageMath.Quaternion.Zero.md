@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Quaternion Zero
+public static Quaternion Zero
 ```
 
 ### Returns

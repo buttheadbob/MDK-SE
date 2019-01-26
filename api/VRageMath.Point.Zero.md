@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Point Zero { get; }
+public static Point Zero { get; }
 ```
 
 Returns the point (0,0).

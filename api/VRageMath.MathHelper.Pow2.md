@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public int Pow2(int n)
+public static int Pow2(int n)
 ```
 
 Returns 2^n

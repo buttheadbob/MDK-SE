@@ -12,6 +12,12 @@ public class DefinitionIdComparerType: IEqualityComparer<T>
 **Implements:**  
 * [IEqualityComparer<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.iequalitycomparer?view=netframework-4.6)
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[DefinitionIdComparerType()](VRage.Game.MyDefinitionId+DefinitionIdComparerType..ctor)||
+
 #### Methods
 
 |Member|Description|

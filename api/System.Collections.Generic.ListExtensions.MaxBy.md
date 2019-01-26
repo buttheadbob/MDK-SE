@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public T MaxBy<T>(IEnumerable<T> source, Func<T, TResult> selector)
+public static T MaxBy<T>(IEnumerable<T> source, Func<T, TResult> selector)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public StringBuilder Get(MyStringId id)
+public static StringBuilder Get(MyStringId id)
 ```
 
 ### Returns

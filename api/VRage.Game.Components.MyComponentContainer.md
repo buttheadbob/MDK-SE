@@ -14,7 +14,7 @@ public class MyComponentContainer
 |Member|Description|
 |---|---|
 |[Get()](VRage.Game.Components.MyComponentContainer.Get)||
-|[TryGet(ref T)](VRage.Game.Components.MyComponentContainer.TryGet)||
-|[TryGet(Type, ref MyComponentBase)](VRage.Game.Components.MyComponentContainer.TryGet)||
+|[TryGet(out T)](VRage.Game.Components.MyComponentContainer.TryGet)||
+|[TryGet(Type, out MyComponentBase)](VRage.Game.Components.MyComponentContainer.TryGet)||
 |[Has()](VRage.Game.Components.MyComponentContainer.Has)||
 

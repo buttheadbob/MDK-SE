@@ -19,3 +19,9 @@ public struct MyTuple<T1, T2, T3, T4, T5>
 |[Item4](VRage.MyTuple`5.Item4)||
 |[Item5](VRage.MyTuple`5.Item5)||
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[MyTuple(T1, T2, T3, T4, T5)](VRage.MyTuple`5..ctor)||
+

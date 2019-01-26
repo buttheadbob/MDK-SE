@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool TryGetClosestPoint(ref Nullable<T> closestPoint)
+public bool TryGetClosestPoint(out Nullable<T> closestPoint)
 ```
 
 ### Returns

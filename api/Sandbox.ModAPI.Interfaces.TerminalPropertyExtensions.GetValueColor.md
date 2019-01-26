@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Color GetValueColor(IMyTerminalBlock block, string propertyId)
+public static Color GetValueColor(IMyTerminalBlock block, string propertyId)
 ```
 
 Returns value of specified property

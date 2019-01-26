@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MatrixD CreateOrthographicOffCenter(double left, double right, double bottom, double top, double zNearPlane, double zFarPlane)
+public static MatrixD CreateOrthographicOffCenter(double left, double right, double bottom, double top, double zNearPlane, double zFarPlane)
 ```
 
 Builds a customized, orthogonal projection matrix.
@@ -23,7 +23,7 @@ Builds a customized, orthogonal projection matrix.
 ### Summary
 
 ```csharp
-public void CreateOrthographicOffCenter(double left, double right, double bottom, double top, double zNearPlane, double zFarPlane, ref MatrixD result)
+public static void CreateOrthographicOffCenter(double left, double right, double bottom, double top, double zNearPlane, double zFarPlane, out MatrixD result)
 ```
 
 Builds a customized, orthogonal projection matrix.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public int Mod(int x, int m)
+public static int Mod(int x, int m)
 ```
 
 ### Returns
@@ -17,7 +17,7 @@ public int Mod(int x, int m)
 ### Summary
 
 ```csharp
-public long Mod(long x, int m)
+public static long Mod(long x, int m)
 ```
 
 ### Returns

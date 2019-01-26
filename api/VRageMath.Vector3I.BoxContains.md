@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool BoxContains(Vector3I boxMin, Vector3I boxMax, Vector3I pt)
+public static bool BoxContains(Vector3I boxMin, Vector3I boxMax, Vector3I pt)
 ```
 
 ### Returns
@@ -18,7 +18,7 @@ public bool BoxContains(Vector3I boxMin, Vector3I boxMax, Vector3I pt)
 ### Summary
 
 ```csharp
-public bool BoxContains(ref Vector3I boxMin, ref Vector3I boxMax, ref Vector3I pt)
+public static bool BoxContains(ref Vector3I boxMin, ref Vector3I boxMax, ref Vector3I pt)
 ```
 
 ### Returns

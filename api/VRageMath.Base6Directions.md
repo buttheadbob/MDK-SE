@@ -28,7 +28,7 @@ public class Base6Directions
 |[GetVector(Direction)](VRageMath.Base6Directions.GetVector)||
 |[GetIntVector(int)](VRageMath.Base6Directions.GetIntVector)||
 |[GetIntVector(Direction)](VRageMath.Base6Directions.GetIntVector)||
-|[GetVector(Direction, ref Vector3)](VRageMath.Base6Directions.GetVector)||
+|[GetVector(Direction, out Vector3)](VRageMath.Base6Directions.GetVector)||
 |[GetDirectionFlag(Direction)](VRageMath.Base6Directions.GetDirectionFlag)||
 |[GetPerpendicular(Direction)](VRageMath.Base6Directions.GetPerpendicular)||
 |[GetDirection(Vector3)](VRageMath.Base6Directions.GetDirection)||

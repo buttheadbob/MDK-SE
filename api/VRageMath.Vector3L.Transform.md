@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void Transform(ref Vector3L position, ref Matrix matrix, ref Vector3L result)
+public static void Transform(ref Vector3L position, ref Matrix matrix, out Vector3L result)
 ```
 
 Transforms a Vector3L by the given Matrix.
@@ -16,7 +16,7 @@ Transforms a Vector3L by the given Matrix.
 ### Summary
 
 ```csharp
-public void Transform(ref Vector3L value, ref Quaternion rotation, ref Vector3L result)
+public static void Transform(ref Vector3L value, ref Quaternion rotation, out Vector3L result)
 ```
 
 ### Parameters
@@ -27,7 +27,7 @@ public void Transform(ref Vector3L value, ref Quaternion rotation, ref Vector
 ### Summary
 
 ```csharp
-public Vector3L Transform(Vector3L value, Quaternion rotation)
+public static Vector3L Transform(Vector3L value, Quaternion rotation)
 ```
 
 ### Returns

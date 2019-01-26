@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector2 CatmullRom(Vector2 value1, Vector2 value2, Vector2 value3, Vector2 value4, float amount)
+public static Vector2 CatmullRom(Vector2 value1, Vector2 value2, Vector2 value3, Vector2 value4, float amount)
 ```
 
 Performs a Catmull-Rom interpolation using the specified positions.
@@ -22,7 +22,7 @@ Performs a Catmull-Rom interpolation using the specified positions.
 ### Summary
 
 ```csharp
-public void CatmullRom(ref Vector2 value1, ref Vector2 value2, ref Vector2 value3, ref Vector2 value4, float amount, ref Vector2 result)
+public static void CatmullRom(ref Vector2 value1, ref Vector2 value2, ref Vector2 value3, ref Vector2 value4, float amount, out Vector2 result)
 ```
 
 Performs a Catmull-Rom interpolation using the specified positions.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MatrixD CreateWorld(Vector3D position, Vector3 forward, Vector3 up)
+public static MatrixD CreateWorld(Vector3D position, Vector3 forward, Vector3 up)
 ```
 
 ### Returns
@@ -18,7 +18,7 @@ public MatrixD CreateWorld(Vector3D position, Vector3 forward, Vector3 up)
 ### Summary
 
 ```csharp
-public MatrixD CreateWorld(Vector3D position)
+public static MatrixD CreateWorld(Vector3D position)
 ```
 
 ### Returns
@@ -31,7 +31,7 @@ public MatrixD CreateWorld(Vector3D position)
 ### Summary
 
 ```csharp
-public MatrixD CreateWorld(Vector3D position, Vector3D forward, Vector3D up)
+public static MatrixD CreateWorld(Vector3D position, Vector3D forward, Vector3D up)
 ```
 
 Creates a world matrix with the specified parameters.
@@ -48,7 +48,7 @@ Creates a world matrix with the specified parameters.
 ### Summary
 
 ```csharp
-public void CreateWorld(ref Vector3D position, ref Vector3D forward, ref Vector3D up, ref MatrixD result)
+public static void CreateWorld(ref Vector3D position, ref Vector3D forward, ref Vector3D up, out MatrixD result)
 ```
 
 Creates a world matrix with the specified parameters.

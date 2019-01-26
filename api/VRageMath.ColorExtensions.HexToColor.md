@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Color HexToColor(string hex)
+public static Color HexToColor(string hex)
 ```
 
 ### Returns

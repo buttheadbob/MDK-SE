@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool TryParse(string text, ref MyWaypointInfo gps)
+public static bool TryParse(string text, out MyWaypointInfo gps)
 ```
 
 Attempts to parse a GPS coordinate from the given text. The text cannot contain anything but the GPS coordinate.  

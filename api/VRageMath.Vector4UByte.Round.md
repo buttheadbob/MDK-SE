@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector4UByte Round(Vector3 vec)
+public static Vector4UByte Round(Vector3 vec)
 ```
 
 ### Returns
@@ -16,7 +16,7 @@ public Vector4UByte Round(Vector3 vec)
 ### Summary
 
 ```csharp
-public Vector4UByte Round(Vector4 vec)
+public static Vector4UByte Round(Vector4 vec)
 ```
 
 ### Returns

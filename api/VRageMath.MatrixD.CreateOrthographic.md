@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MatrixD CreateOrthographic(double width, double height, double zNearPlane, double zFarPlane)
+public static MatrixD CreateOrthographic(double width, double height, double zNearPlane, double zFarPlane)
 ```
 
 Builds an orthogonal projection matrix.
@@ -21,7 +21,7 @@ Builds an orthogonal projection matrix.
 ### Summary
 
 ```csharp
-public void CreateOrthographic(double width, double height, double zNearPlane, double zFarPlane, ref MatrixD result)
+public static void CreateOrthographic(double width, double height, double zNearPlane, double zFarPlane, out MatrixD result)
 ```
 
 Builds an orthogonal projection matrix.

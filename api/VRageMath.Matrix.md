@@ -54,20 +54,28 @@ Defines a matrix.
 |[Translation](VRageMath.Matrix.Translation)|Gets and sets the translation vector of the Matrix.|
 |[Item](VRageMath.Matrix.Item)||
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[Matrix(float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float)](VRageMath.Matrix..ctor)||
+|[Matrix(float, float, float, float, float, float, float, float, float)](VRageMath.Matrix..ctor)||
+|[Matrix(MatrixD)](VRageMath.Matrix..ctor)||
+
 #### Methods
 
 |Member|Description|
 |---|---|
-|[Subtract(ref Matrix, ref Matrix, ref Matrix)](VRageMath.Matrix.Subtract)|Subtracts matrices.|
+|[Subtract(ref Matrix, ref Matrix, out Matrix)](VRageMath.Matrix.Subtract)|Subtracts matrices.|
 |[Multiply(Matrix, Matrix)](VRageMath.Matrix.Multiply)|Multiplies a matrix by another matrix.|
-|[Multiply(ref Matrix, ref Matrix, ref Matrix)](VRageMath.Matrix.Multiply)|Multiplies a matrix by another matrix.|
-|[MultiplyRotation(ref Matrix, ref Matrix, ref Matrix)](VRageMath.Matrix.MultiplyRotation)|Multiplies a matrix by another matrix, only rotation parts.|
+|[Multiply(ref Matrix, ref Matrix, out Matrix)](VRageMath.Matrix.Multiply)|Multiplies a matrix by another matrix.|
+|[MultiplyRotation(ref Matrix, ref Matrix, out Matrix)](VRageMath.Matrix.MultiplyRotation)|Multiplies a matrix by another matrix, only rotation parts.|
 |[Multiply(Matrix, float)](VRageMath.Matrix.Multiply)|Multiplies a matrix by a scalar value.|
-|[Multiply(ref Matrix, float, ref Matrix)](VRageMath.Matrix.Multiply)|Multiplies a matrix by a scalar value.|
+|[Multiply(ref Matrix, float, out Matrix)](VRageMath.Matrix.Multiply)|Multiplies a matrix by a scalar value.|
 |[Divide(Matrix, Matrix)](VRageMath.Matrix.Divide)|Divides the components of a matrix by the corresponding components of another matrix.|
-|[Divide(ref Matrix, ref Matrix, ref Matrix)](VRageMath.Matrix.Divide)|Divides the components of a matrix by the corresponding components of another matrix.|
+|[Divide(ref Matrix, ref Matrix, out Matrix)](VRageMath.Matrix.Divide)|Divides the components of a matrix by the corresponding components of another matrix.|
 |[Divide(Matrix, float)](VRageMath.Matrix.Divide)|Divides the components of a matrix by a scalar.|
-|[Divide(ref Matrix, float, ref Matrix)](VRageMath.Matrix.Divide)|Divides the components of a matrix by a scalar.|
+|[Divide(ref Matrix, float, out Matrix)](VRageMath.Matrix.Divide)|Divides the components of a matrix by a scalar.|
 |[GetOrientation()](VRageMath.Matrix.GetOrientation)|Gets the orientation.|
 |[AssertIsValid()](VRageMath.Matrix.AssertIsValid)||
 |[IsValid()](VRageMath.Matrix.IsValid)||
@@ -80,7 +88,7 @@ Defines a matrix.
 |[Orthogonalize(Matrix)](VRageMath.Matrix.Orthogonalize)||
 |[Round(ref Matrix)](VRageMath.Matrix.Round)||
 |[AlignRotationToAxes(ref Matrix, ref Matrix)](VRageMath.Matrix.AlignRotationToAxes)||
-|[GetEulerAnglesXYZ(ref Matrix, ref Vector3)](VRageMath.Matrix.GetEulerAnglesXYZ)||
+|[GetEulerAnglesXYZ(ref Matrix, out Vector3)](VRageMath.Matrix.GetEulerAnglesXYZ)||
 |[SwapYZCoordinates(Matrix)](VRageMath.Matrix.SwapYZCoordinates)||
 |[IsMirrored()](VRageMath.Matrix.IsMirrored)||
 |[IsOrthogonal()](VRageMath.Matrix.IsOrthogonal)||
@@ -93,28 +101,28 @@ Defines a matrix.
 |[Rescale(Matrix, float)](VRageMath.Matrix.Rescale)||
 |[Rescale(Matrix, Vector3)](VRageMath.Matrix.Rescale)||
 |[CreateBillboard(Vector3, Vector3, Vector3, Nullable)](VRageMath.Matrix.CreateBillboard)||
-|[CreateBillboard(ref Vector3, ref Vector3, ref Vector3, Nullable, ref Matrix)](VRageMath.Matrix.CreateBillboard)||
+|[CreateBillboard(ref Vector3, ref Vector3, ref Vector3, Nullable, out Matrix)](VRageMath.Matrix.CreateBillboard)||
 |[CreateConstrainedBillboard(Vector3, Vector3, Vector3, Nullable, Nullable)](VRageMath.Matrix.CreateConstrainedBillboard)||
-|[CreateConstrainedBillboard(ref Vector3, ref Vector3, ref Vector3, Nullable, Nullable, ref Matrix)](VRageMath.Matrix.CreateConstrainedBillboard)||
+|[CreateConstrainedBillboard(ref Vector3, ref Vector3, ref Vector3, Nullable, Nullable, out Matrix)](VRageMath.Matrix.CreateConstrainedBillboard)||
 |[CreateTranslation(Vector3)](VRageMath.Matrix.CreateTranslation)|Creates a translation Matrix.|
-|[CreateTranslation(ref Vector3, ref Matrix)](VRageMath.Matrix.CreateTranslation)|Creates a translation Matrix.|
+|[CreateTranslation(ref Vector3, out Matrix)](VRageMath.Matrix.CreateTranslation)|Creates a translation Matrix.|
 |[CreateTranslation(float, float, float)](VRageMath.Matrix.CreateTranslation)|Creates a translation Matrix.|
-|[CreateTranslation(float, float, float, ref Matrix)](VRageMath.Matrix.CreateTranslation)|Creates a translation Matrix.|
+|[CreateTranslation(float, float, float, out Matrix)](VRageMath.Matrix.CreateTranslation)|Creates a translation Matrix.|
 |[CreateScale(float, float, float)](VRageMath.Matrix.CreateScale)|Creates a scaling Matrix.|
-|[CreateScale(float, float, float, ref Matrix)](VRageMath.Matrix.CreateScale)|Creates a scaling Matrix.|
+|[CreateScale(float, float, float, out Matrix)](VRageMath.Matrix.CreateScale)|Creates a scaling Matrix.|
 |[CreateScale(Vector3)](VRageMath.Matrix.CreateScale)|Creates a scaling Matrix.|
-|[CreateScale(ref Vector3, ref Matrix)](VRageMath.Matrix.CreateScale)|Creates a scaling Matrix.|
+|[CreateScale(ref Vector3, out Matrix)](VRageMath.Matrix.CreateScale)|Creates a scaling Matrix.|
 |[CreateScale(float)](VRageMath.Matrix.CreateScale)|Creates a scaling Matrix.|
-|[CreateScale(float, ref Matrix)](VRageMath.Matrix.CreateScale)|Creates a scaling Matrix.|
+|[CreateScale(float, out Matrix)](VRageMath.Matrix.CreateScale)|Creates a scaling Matrix.|
 |[CreateRotationX(float)](VRageMath.Matrix.CreateRotationX)|Returns a matrix that can be used to rotate a set of vertices around the x-axis.|
-|[CreateRotationX(float, ref Matrix)](VRageMath.Matrix.CreateRotationX)|Populates data into a user-specified matrix that can be used to rotate a set of vertices around the x-axis.|
+|[CreateRotationX(float, out Matrix)](VRageMath.Matrix.CreateRotationX)|Populates data into a user-specified matrix that can be used to rotate a set of vertices around the x-axis.|
 |[CreateRotationY(float)](VRageMath.Matrix.CreateRotationY)|Returns a matrix that can be used to rotate a set of vertices around the y-axis.|
-|[CreateRotationY(float, ref Matrix)](VRageMath.Matrix.CreateRotationY)|Populates data into a user-specified matrix that can be used to rotate a set of vertices around the y-axis.|
+|[CreateRotationY(float, out Matrix)](VRageMath.Matrix.CreateRotationY)|Populates data into a user-specified matrix that can be used to rotate a set of vertices around the y-axis.|
 |[CreateRotationZ(float)](VRageMath.Matrix.CreateRotationZ)|Returns a matrix that can be used to rotate a set of vertices around the z-axis.|
-|[CreateRotationZ(float, ref Matrix)](VRageMath.Matrix.CreateRotationZ)|Populates data into a user-specified matrix that can be used to rotate a set of vertices around the z-axis.|
+|[CreateRotationZ(float, out Matrix)](VRageMath.Matrix.CreateRotationZ)|Populates data into a user-specified matrix that can be used to rotate a set of vertices around the z-axis.|
 |[CreateFromAxisAngle(Vector3, float)](VRageMath.Matrix.CreateFromAxisAngle)|Creates a new Matrix that rotates around an arbitrary vector.|
-|[CreateFromAxisAngle(ref Vector3, float, ref Matrix)](VRageMath.Matrix.CreateFromAxisAngle)|Creates a new Matrix that rotates around an arbitrary vector.|
-|[CreateRotationFromTwoVectors(ref Vector3, ref Vector3, ref Matrix)](VRageMath.Matrix.CreateRotationFromTwoVectors)||
+|[CreateFromAxisAngle(ref Vector3, float, out Matrix)](VRageMath.Matrix.CreateFromAxisAngle)|Creates a new Matrix that rotates around an arbitrary vector.|
+|[CreateRotationFromTwoVectors(ref Vector3, ref Vector3, out Matrix)](VRageMath.Matrix.CreateRotationFromTwoVectors)||
 |[CreatePerspectiveFieldOfView(float, float, float, float)](VRageMath.Matrix.CreatePerspectiveFieldOfView)|Builds a perspective projection matrix based on a field of view and returns by value.|
 |[CreatePerspectiveFovRhComplementary(float, float, float, float)](VRageMath.Matrix.CreatePerspectiveFovRhComplementary)||
 |[CreatePerspectiveFovRhInfinite(float, float, float)](VRageMath.Matrix.CreatePerspectiveFovRhInfinite)||
@@ -123,32 +131,32 @@ Defines a matrix.
 |[CreatePerspectiveFovRhInfiniteInverse(float, float, float)](VRageMath.Matrix.CreatePerspectiveFovRhInfiniteInverse)||
 |[CreatePerspectiveFovRhInfiniteComplementaryInverse(float, float, float)](VRageMath.Matrix.CreatePerspectiveFovRhInfiniteComplementaryInverse)||
 |[CreateFromPerspectiveFieldOfView(ref Matrix, float, float)](VRageMath.Matrix.CreateFromPerspectiveFieldOfView)||
-|[CreatePerspectiveFieldOfView(float, float, float, float, ref Matrix)](VRageMath.Matrix.CreatePerspectiveFieldOfView)|Builds a perspective projection matrix based on a field of view and returns by reference.|
+|[CreatePerspectiveFieldOfView(float, float, float, float, out Matrix)](VRageMath.Matrix.CreatePerspectiveFieldOfView)|Builds a perspective projection matrix based on a field of view and returns by reference.|
 |[CreatePerspective(float, float, float, float)](VRageMath.Matrix.CreatePerspective)|Builds a perspective projection matrix and returns the result by value.|
-|[CreatePerspective(float, float, float, float, ref Matrix)](VRageMath.Matrix.CreatePerspective)|Builds a perspective projection matrix and returns the result by reference.|
+|[CreatePerspective(float, float, float, float, out Matrix)](VRageMath.Matrix.CreatePerspective)|Builds a perspective projection matrix and returns the result by reference.|
 |[CreatePerspectiveOffCenter(float, float, float, float, float, float)](VRageMath.Matrix.CreatePerspectiveOffCenter)|Builds a customized, perspective projection matrix.|
-|[CreatePerspectiveOffCenter(float, float, float, float, float, float, ref Matrix)](VRageMath.Matrix.CreatePerspectiveOffCenter)|Builds a customized, perspective projection matrix.|
+|[CreatePerspectiveOffCenter(float, float, float, float, float, float, out Matrix)](VRageMath.Matrix.CreatePerspectiveOffCenter)|Builds a customized, perspective projection matrix.|
 |[CreateOrthographic(float, float, float, float)](VRageMath.Matrix.CreateOrthographic)|Builds an orthogonal projection matrix.|
-|[CreateOrthographic(float, float, float, float, ref Matrix)](VRageMath.Matrix.CreateOrthographic)|Builds an orthogonal projection matrix.|
+|[CreateOrthographic(float, float, float, float, out Matrix)](VRageMath.Matrix.CreateOrthographic)|Builds an orthogonal projection matrix.|
 |[CreateOrthographicOffCenter(float, float, float, float, float, float)](VRageMath.Matrix.CreateOrthographicOffCenter)|Builds a customized, orthogonal projection matrix.|
-|[CreateOrthographicOffCenter(float, float, float, float, float, float, ref Matrix)](VRageMath.Matrix.CreateOrthographicOffCenter)|Builds a customized, orthogonal projection matrix.|
+|[CreateOrthographicOffCenter(float, float, float, float, float, float, out Matrix)](VRageMath.Matrix.CreateOrthographicOffCenter)|Builds a customized, orthogonal projection matrix.|
 |[CreateLookAt(Vector3, Vector3, Vector3)](VRageMath.Matrix.CreateLookAt)|Creates a view matrix.|
 |[CreateLookAtInverse(Vector3, Vector3, Vector3)](VRageMath.Matrix.CreateLookAtInverse)||
-|[CreateLookAt(ref Vector3, ref Vector3, ref Vector3, ref Matrix)](VRageMath.Matrix.CreateLookAt)|Creates a view matrix.|
+|[CreateLookAt(ref Vector3, ref Vector3, ref Vector3, out Matrix)](VRageMath.Matrix.CreateLookAt)|Creates a view matrix.|
 |[CreateWorld(Vector3)](VRageMath.Matrix.CreateWorld)||
 |[CreateWorld(Vector3, Vector3, Vector3)](VRageMath.Matrix.CreateWorld)|Creates a world matrix with the specified parameters.|
-|[CreateWorld(ref Vector3, ref Vector3, ref Vector3, ref Matrix)](VRageMath.Matrix.CreateWorld)|Creates a world matrix with the specified parameters.|
+|[CreateWorld(ref Vector3, ref Vector3, ref Vector3, out Matrix)](VRageMath.Matrix.CreateWorld)|Creates a world matrix with the specified parameters.|
 |[CreateFromQuaternion(Quaternion)](VRageMath.Matrix.CreateFromQuaternion)|Creates a rotation Matrix from a Quaternion.|
-|[CreateFromQuaternion(ref Quaternion, ref Matrix)](VRageMath.Matrix.CreateFromQuaternion)|Creates a rotation Matrix from a Quaternion.|
+|[CreateFromQuaternion(ref Quaternion, out Matrix)](VRageMath.Matrix.CreateFromQuaternion)|Creates a rotation Matrix from a Quaternion.|
 |[CreateFromYawPitchRoll(float, float, float)](VRageMath.Matrix.CreateFromYawPitchRoll)|Creates a new rotation matrix from a specified yaw, pitch, and roll.|
-|[CreateFromYawPitchRoll(float, float, float, ref Matrix)](VRageMath.Matrix.CreateFromYawPitchRoll)|Fills in a rotation matrix from a specified yaw, pitch, and roll.|
+|[CreateFromYawPitchRoll(float, float, float, out Matrix)](VRageMath.Matrix.CreateFromYawPitchRoll)|Fills in a rotation matrix from a specified yaw, pitch, and roll.|
 |[CreateFromTransformScale(Quaternion, Vector3, Vector3)](VRageMath.Matrix.CreateFromTransformScale)||
 |[CreateShadow(Vector3, Plane)](VRageMath.Matrix.CreateShadow)|Creates a Matrix that flattens geometry into a specified Plane as if casting a shadow from a specified light source.|
-|[CreateShadow(ref Vector3, ref Plane, ref Matrix)](VRageMath.Matrix.CreateShadow)|Fills in a Matrix to flatten geometry into a specified Plane as if casting a shadow from a specified light source.|
+|[CreateShadow(ref Vector3, ref Plane, out Matrix)](VRageMath.Matrix.CreateShadow)|Fills in a Matrix to flatten geometry into a specified Plane as if casting a shadow from a specified light source.|
 |[CreateReflection(Plane)](VRageMath.Matrix.CreateReflection)|Creates a Matrix that reflects the coordinate system about a specified Plane.|
-|[CreateReflection(ref Plane, ref Matrix)](VRageMath.Matrix.CreateReflection)|Fills in an existing Matrix so that it reflects the coordinate system about a specified Plane.|
+|[CreateReflection(ref Plane, out Matrix)](VRageMath.Matrix.CreateReflection)|Fills in an existing Matrix so that it reflects the coordinate system about a specified Plane.|
 |[Transform(Matrix, Quaternion)](VRageMath.Matrix.Transform)|Transforms a Matrix by applying a Quaternion rotation.|
-|[Transform(ref Matrix, ref Quaternion, ref Matrix)](VRageMath.Matrix.Transform)|Transforms a Matrix by applying a Quaternion rotation.|
+|[Transform(ref Matrix, ref Quaternion, out Matrix)](VRageMath.Matrix.Transform)|Transforms a Matrix by applying a Quaternion rotation.|
 |[GetRow(int)](VRageMath.Matrix.GetRow)||
 |[SetRow(int, Vector4)](VRageMath.Matrix.SetRow)||
 |[ToString()](VRageMath.Matrix.ToString)|Retrieves a string representation of the current object.|
@@ -157,23 +165,23 @@ Defines a matrix.
 |[Equals(object)](VRageMath.Matrix.Equals)|Returns a value that indicates whether the current instance is equal to a specified object.|
 |[GetHashCode()](VRageMath.Matrix.GetHashCode)|Gets the hash code of this object.|
 |[Transpose(Matrix)](VRageMath.Matrix.Transpose)|Transposes the rows and columns of a matrix.|
-|[Transpose(ref Matrix, ref Matrix)](VRageMath.Matrix.Transpose)|Transposes the rows and columns of a matrix.|
+|[Transpose(ref Matrix, out Matrix)](VRageMath.Matrix.Transpose)|Transposes the rows and columns of a matrix.|
 |[TransposeRotationInPlace()](VRageMath.Matrix.TransposeRotationInPlace)|Transposes the rows and columns of a matrix that is assumed to be rotation only in place.|
 |[Determinant()](VRageMath.Matrix.Determinant)|Calculates the determinant of the matrix.|
 |[Invert(Matrix)](VRageMath.Matrix.Invert)|Calculates the inverse of a matrix.|
 |[Invert(ref Matrix)](VRageMath.Matrix.Invert)||
-|[Invert(ref Matrix, ref Matrix)](VRageMath.Matrix.Invert)|Calculates the inverse of a matrix.|
+|[Invert(ref Matrix, out Matrix)](VRageMath.Matrix.Invert)|Calculates the inverse of a matrix.|
 |[Lerp(Matrix, Matrix, float)](VRageMath.Matrix.Lerp)|Linearly interpolates between the corresponding values of two matrices.|
-|[Lerp(ref Matrix, ref Matrix, float, ref Matrix)](VRageMath.Matrix.Lerp)|Linearly interpolates between the corresponding values of two matrices.|
-|[Slerp(ref Matrix, ref Matrix, float, ref Matrix)](VRageMath.Matrix.Slerp)|Performs spherical linear interpolation of position and rotation.|
-|[SlerpScale(ref Matrix, ref Matrix, float, ref Matrix)](VRageMath.Matrix.SlerpScale)|Performs spherical linear interpolation of position and rotation and scale.|
-|[Slerp(Matrix, Matrix, float, ref Matrix)](VRageMath.Matrix.Slerp)|Performs spherical linear interpolation of position and rotation.|
+|[Lerp(ref Matrix, ref Matrix, float, out Matrix)](VRageMath.Matrix.Lerp)|Linearly interpolates between the corresponding values of two matrices.|
+|[Slerp(ref Matrix, ref Matrix, float, out Matrix)](VRageMath.Matrix.Slerp)|Performs spherical linear interpolation of position and rotation.|
+|[SlerpScale(ref Matrix, ref Matrix, float, out Matrix)](VRageMath.Matrix.SlerpScale)|Performs spherical linear interpolation of position and rotation and scale.|
+|[Slerp(Matrix, Matrix, float, out Matrix)](VRageMath.Matrix.Slerp)|Performs spherical linear interpolation of position and rotation.|
 |[Slerp(Matrix, Matrix, float)](VRageMath.Matrix.Slerp)|Performs spherical linear interpolation of position and rotation.|
-|[SlerpScale(Matrix, Matrix, float, ref Matrix)](VRageMath.Matrix.SlerpScale)|Performs spherical linear interpolation of position and rotation and scale.|
+|[SlerpScale(Matrix, Matrix, float, out Matrix)](VRageMath.Matrix.SlerpScale)|Performs spherical linear interpolation of position and rotation and scale.|
 |[SlerpScale(Matrix, Matrix, float)](VRageMath.Matrix.SlerpScale)|Performs spherical linear interpolation of position and rotation and scale.|
 |[Negate(Matrix)](VRageMath.Matrix.Negate)|Negates individual elements of a matrix.|
-|[Negate(ref Matrix, ref Matrix)](VRageMath.Matrix.Negate)|Negates individual elements of a matrix.|
+|[Negate(ref Matrix, out Matrix)](VRageMath.Matrix.Negate)|Negates individual elements of a matrix.|
 |[Add(Matrix, Matrix)](VRageMath.Matrix.Add)|Adds a matrix to another matrix.|
-|[Add(ref Matrix, ref Matrix, ref Matrix)](VRageMath.Matrix.Add)|Adds a matrix to another matrix.|
+|[Add(ref Matrix, ref Matrix, out Matrix)](VRageMath.Matrix.Add)|Adds a matrix to another matrix.|
 |[Subtract(Matrix, Matrix)](VRageMath.Matrix.Subtract)|Subtracts matrices.|
 

@@ -16,7 +16,7 @@ public int Dot(ref Vector3I v)
 ### Summary
 
 ```csharp
-public int Dot(Vector3I vector1, Vector3I vector2)
+public static int Dot(Vector3I vector1, Vector3I vector2)
 ```
 
 ### Returns
@@ -30,7 +30,7 @@ public int Dot(Vector3I vector1, Vector3I vector2)
 ### Summary
 
 ```csharp
-public int Dot(ref Vector3I vector1, ref Vector3I vector2)
+public static int Dot(ref Vector3I vector1, ref Vector3I vector2)
 ```
 
 ### Returns
@@ -44,7 +44,7 @@ public int Dot(ref Vector3I vector1, ref Vector3I vector2)
 ### Summary
 
 ```csharp
-public void Dot(ref Vector3I vector1, ref Vector3I vector2, ref int dot)
+public static void Dot(ref Vector3I vector1, ref Vector3I vector2, out int dot)
 ```
 
 ### Parameters

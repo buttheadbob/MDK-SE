@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3L Abs(Vector3L value)
+public static Vector3L Abs(Vector3L value)
 ```
 
 ### Returns
@@ -16,7 +16,7 @@ public Vector3L Abs(Vector3L value)
 ### Summary
 
 ```csharp
-public void Abs(ref Vector3L value, ref Vector3L result)
+public static void Abs(ref Vector3L value, out Vector3L result)
 ```
 
 ### Parameters

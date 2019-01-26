@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public TerminalActionParameter Get(object value)
+public static TerminalActionParameter Get(object value)
 ```
 
 Creates a [TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter) from the given value.

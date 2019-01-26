@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public float RoundOn2(float x)
+public static float RoundOn2(float x)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MyFixedPoint Min(MyFixedPoint a, MyFixedPoint b)
+public static MyFixedPoint Min(MyFixedPoint a, MyFixedPoint b)
 ```
 
 ### Returns

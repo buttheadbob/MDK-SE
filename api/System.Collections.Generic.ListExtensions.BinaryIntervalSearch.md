@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public int BinaryIntervalSearch<T>(IList<T> self, T value, IComparer<T> comparer)
+public static int BinaryIntervalSearch<T>(IList<T> self, T value, IComparer<T> comparer)
 ```
 
 ### Returns
@@ -18,7 +18,7 @@ public int BinaryIntervalSearch<T>(IList<T> self, T value, IComparer<T> comparer
 ### Summary
 
 ```csharp
-public int BinaryIntervalSearch<T>(IList<T> self, Func<T, TResult> less)
+public static int BinaryIntervalSearch<T>(IList<T> self, Func<T, TResult> less)
 ```
 
 ### Returns
@@ -32,7 +32,7 @@ public int BinaryIntervalSearch<T>(IList<T> self, Func<T, TResult> less)
 ### Summary
 
 ```csharp
-public int BinaryIntervalSearch<T>(IList<T> self, T value, Comparison<T> comparison)
+public static int BinaryIntervalSearch<T>(IList<T> self, T value, Comparison<T> comparison)
 ```
 
 ### Returns

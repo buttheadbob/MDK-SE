@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public int GetNumberOfMipmaps(int v)
+public static int GetNumberOfMipmaps(int v)
 ```
 
 ### Returns

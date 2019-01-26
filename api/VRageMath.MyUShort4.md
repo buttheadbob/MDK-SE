@@ -18,3 +18,9 @@ public struct MyUShort4
 |[Z](VRageMath.MyUShort4.Z)||
 |[W](VRageMath.MyUShort4.W)||
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[MyUShort4(uint, uint, uint, uint)](VRageMath.MyUShort4..ctor)||
+

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool Exists(MyStringId id)
+public static bool Exists(MyStringId id)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public int DistanceManhattan(Vector3I first, Vector3I second)
+public static int DistanceManhattan(Vector3I first, Vector3I second)
 ```
 
 Manhattan distance (cube distance) X + Y + Z of Abs(first - second)

@@ -17,6 +17,13 @@ Dynamic aabb tree implementation as a prunning structure
 |---|---|
 |[NullNode](VRageMath.MyDynamicAABBTreeD.NullNode)|A dynamic tree arranges data in a binary tree to accelerate queries such as volume queries and ray casts. Leafs are proxies with an BoundingBox. In the tree we expand the proxy BoundingBox by Settings.b2_fatAABBFactor so that the proxy BoundingBox is bigger than the client object. This allows the client object to move by small amounts without triggering a tree update. Nodes are pooled and relocatable, so we use node indices rather than pointers.|
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[MyDynamicAABBTreeD()](VRageMath.MyDynamicAABBTreeD..ctor)||
+|[MyDynamicAABBTreeD(Vector3D, double)](VRageMath.MyDynamicAABBTreeD..ctor)||
+
 #### Methods
 
 |Member|Description|
@@ -29,8 +36,8 @@ Dynamic aabb tree implementation as a prunning structure
 |[GetLeafCount(int)](VRageMath.MyDynamicAABBTreeD.GetLeafCount)||
 |[GetNodeLeaves(int, List)](VRageMath.MyDynamicAABBTreeD.GetNodeLeaves)||
 |[GetAabb(int)](VRageMath.MyDynamicAABBTreeD.GetAabb)||
-|[GetChildren(int, ref int, ref int)](VRageMath.MyDynamicAABBTreeD.GetChildren)||
-|[GetFatAABB(int, ref BoundingBoxD)](VRageMath.MyDynamicAABBTreeD.GetFatAABB)|Get the fat BoundingBox for a proxy.|
+|[GetChildren(int, out int, out int)](VRageMath.MyDynamicAABBTreeD.GetChildren)||
+|[GetFatAABB(int, out BoundingBoxD)](VRageMath.MyDynamicAABBTreeD.GetFatAABB)|Get the fat BoundingBox for a proxy.|
 |[Query(Func, ref BoundingBoxD)](VRageMath.MyDynamicAABBTreeD.Query)||
 |[QueryPoint(Func, ref Vector3D)](VRageMath.MyDynamicAABBTreeD.QueryPoint)||
 |[CountLeaves(int)](VRageMath.MyDynamicAABBTreeD.CountLeaves)||

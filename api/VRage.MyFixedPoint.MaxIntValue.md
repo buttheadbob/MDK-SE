@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MyFixedPoint MaxIntValue
+public static MyFixedPoint MaxIntValue
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MyFixedPoint DeserializeString(string text)
+public static MyFixedPoint DeserializeString(string text)
 ```
 
 ### Returns

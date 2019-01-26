@@ -18,6 +18,12 @@ Base 26 directions and Vector3.Zero Each component is only 0,-1 or 1;
 |[Directions](VRageMath.Base27Directions.Directions)||
 |[DirectionsInt](VRageMath.Base27Directions.DirectionsInt)||
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[Base27Directions()](VRageMath.Base27Directions..ctor)||
+
 #### Methods
 
 |Member|Description|

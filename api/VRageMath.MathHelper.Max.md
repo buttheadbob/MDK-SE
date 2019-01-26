@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public float Max(float value1, float value2)
+public static float Max(float value1, float value2)
 ```
 
 Returns the greater of two values.
@@ -19,7 +19,7 @@ Returns the greater of two values.
 ### Summary
 
 ```csharp
-public double Max(double value1, double value2)
+public static double Max(double value1, double value2)
 ```
 
 Returns the greater of two values.
@@ -35,7 +35,7 @@ Returns the greater of two values.
 ### Summary
 
 ```csharp
-public float Max(float a, float b, float c)
+public static float Max(float a, float b, float c)
 ```
 
 ### Returns
@@ -50,7 +50,7 @@ public float Max(float a, float b, float c)
 ### Summary
 
 ```csharp
-public int Max(int a, int b, int c)
+public static int Max(int a, int b, int c)
 ```
 
 ### Returns
@@ -65,7 +65,7 @@ public int Max(int a, int b, int c)
 ### Summary
 
 ```csharp
-public double Max(double a, double b, double c)
+public static double Max(double a, double b, double c)
 ```
 
 ### Returns

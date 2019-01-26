@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MyBlockOrientation Identity
+public static MyBlockOrientation Identity
 ```
 
 ### Returns

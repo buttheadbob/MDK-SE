@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MatrixD CreatePerspectiveFieldOfView(double fieldOfView, double aspectRatio, double nearPlaneDistance, double farPlaneDistance)
+public static MatrixD CreatePerspectiveFieldOfView(double fieldOfView, double aspectRatio, double nearPlaneDistance, double farPlaneDistance)
 ```
 
 Builds a perspective projection matrix based on a field of view and returns by value.
@@ -21,7 +21,7 @@ Builds a perspective projection matrix based on a field of view and returns by v
 ### Summary
 
 ```csharp
-public void CreatePerspectiveFieldOfView(double fieldOfView, double aspectRatio, double nearPlaneDistance, double farPlaneDistance, ref MatrixD result)
+public static void CreatePerspectiveFieldOfView(double fieldOfView, double aspectRatio, double nearPlaneDistance, double farPlaneDistance, out MatrixD result)
 ```
 
 Builds a perspective projection matrix based on a field of view and returns by reference.

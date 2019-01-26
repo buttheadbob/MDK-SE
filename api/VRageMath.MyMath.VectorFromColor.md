@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3 VectorFromColor(byte red, byte green, byte blue)
+public static Vector3 VectorFromColor(byte red, byte green, byte blue)
 ```
 
 Calculates color from vector
@@ -20,7 +20,7 @@ Calculates color from vector
 ### Summary
 
 ```csharp
-public Vector4 VectorFromColor(byte red, byte green, byte blue, byte alpha)
+public static Vector4 VectorFromColor(byte red, byte green, byte blue, byte alpha)
 ```
 
 ### Returns

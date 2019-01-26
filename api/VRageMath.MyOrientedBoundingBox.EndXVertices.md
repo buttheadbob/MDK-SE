@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Int32[] EndXVertices
+public static Int32[] EndXVertices
 ```
 
 ### Returns

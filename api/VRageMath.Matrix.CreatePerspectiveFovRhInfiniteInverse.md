@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Matrix CreatePerspectiveFovRhInfiniteInverse(float fieldOfView, float aspectRatio, float nearPlaneDistance)
+public static Matrix CreatePerspectiveFovRhInfiniteInverse(float fieldOfView, float aspectRatio, float nearPlaneDistance)
 ```
 
 ### Returns

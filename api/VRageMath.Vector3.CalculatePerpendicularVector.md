@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3 CalculatePerpendicularVector(Vector3 v)
+public static Vector3 CalculatePerpendicularVector(Vector3 v)
 ```
 
 ### Returns
@@ -16,7 +16,7 @@ public Vector3 CalculatePerpendicularVector(Vector3 v)
 ### Summary
 
 ```csharp
-public void CalculatePerpendicularVector(ref Vector3 result)
+public void CalculatePerpendicularVector(out Vector3 result)
 ```
 
 ### Parameters

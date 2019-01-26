@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public uint PackHSVToUint(Vector3 HSV)
+public static uint PackHSVToUint(Vector3 HSV)
 ```
 
 ### Returns

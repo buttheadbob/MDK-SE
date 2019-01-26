@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector4 PackOrthoMatrix(Vector3 position, Vector3 forward, Vector3 up)
+public static Vector4 PackOrthoMatrix(Vector3 position, Vector3 forward, Vector3 up)
 ```
 
 ### Returns
@@ -18,7 +18,7 @@ public Vector4 PackOrthoMatrix(Vector3 position, Vector3 forward, Vector3 up)
 ### Summary
 
 ```csharp
-public Vector4 PackOrthoMatrix(ref Matrix matrix)
+public static Vector4 PackOrthoMatrix(ref Matrix matrix)
 ```
 
 ### Returns

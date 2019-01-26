@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3 Project(Vector3 projectedOntoVector, Vector3 projectedVector)
+public static Vector3 Project(Vector3 projectedOntoVector, Vector3 projectedVector)
 ```
 
 Calculates projection vector

@@ -22,6 +22,12 @@ public struct SymmetricSerializableRange
 |---|---|
 |[Mirror](VRageMath.SymmetricSerializableRange.Mirror)||
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[SymmetricSerializableRange(float, float, bool)](VRageMath.SymmetricSerializableRange..ctor)||
+
 #### Methods
 
 |Member|Description|

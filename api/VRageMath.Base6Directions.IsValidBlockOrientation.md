@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool IsValidBlockOrientation(Direction forward, Direction up)
+public static bool IsValidBlockOrientation(Direction forward, Direction up)
 ```
 
 ### Returns

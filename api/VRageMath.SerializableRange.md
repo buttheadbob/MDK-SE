@@ -16,6 +16,12 @@ public struct SerializableRange
 |[Min](VRageMath.SerializableRange.Min)||
 |[Max](VRageMath.SerializableRange.Max)||
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[SerializableRange(float, float)](VRageMath.SerializableRange..ctor)||
+
 #### Methods
 
 |Member|Description|

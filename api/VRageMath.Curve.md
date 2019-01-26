@@ -20,6 +20,12 @@ Stores an arbitrary collection of 2D CurveKey points, and provides methods for e
 |[Keys](VRageMath.Curve.Keys)|The points that make up the curve.|
 |[IsConstant](VRageMath.Curve.IsConstant)|Gets a value indicating whether the curve is constant.|
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[Curve()](VRageMath.Curve..ctor)||
+
 #### Methods
 
 |Member|Description|

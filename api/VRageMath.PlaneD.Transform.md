@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public PlaneD Transform(PlaneD plane, MatrixD matrix)
+public static PlaneD Transform(PlaneD plane, MatrixD matrix)
 ```
 
 Transforms a normalized PlaneD by a Matrix.
@@ -19,7 +19,7 @@ Transforms a normalized PlaneD by a Matrix.
 ### Summary
 
 ```csharp
-public void Transform(ref PlaneD plane, ref MatrixD matrix, ref PlaneD result)
+public static void Transform(ref PlaneD plane, ref MatrixD matrix, out PlaneD result)
 ```
 
 Transforms a normalized PlaneD by a Matrix.

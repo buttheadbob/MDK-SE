@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector2D Negate(Vector2D value)
+public static Vector2D Negate(Vector2D value)
 ```
 
 Returns a vector pointing in the opposite direction.
@@ -18,7 +18,7 @@ Returns a vector pointing in the opposite direction.
 ### Summary
 
 ```csharp
-public void Negate(ref Vector2D value, ref Vector2D result)
+public static void Negate(ref Vector2D value, out Vector2D result)
 ```
 
 Returns a vector pointing in the opposite direction.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public float GetShortestDistanceSquared(Line line1, Line line2)
+public static float GetShortestDistanceSquared(Line line1, Line line2)
 ```
 
 ### Returns

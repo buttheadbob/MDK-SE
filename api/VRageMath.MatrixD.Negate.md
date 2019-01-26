@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MatrixD Negate(MatrixD matrix)
+public static MatrixD Negate(MatrixD matrix)
 ```
 
 Negates individual elements of a matrix.
@@ -18,7 +18,7 @@ Negates individual elements of a matrix.
 ### Summary
 
 ```csharp
-public void Negate(ref MatrixD matrix, ref MatrixD result)
+public static void Negate(ref MatrixD matrix, out MatrixD result)
 ```
 
 Negates individual elements of a matrix.

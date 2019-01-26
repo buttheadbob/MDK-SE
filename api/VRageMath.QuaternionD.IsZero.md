@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool IsZero(QuaternionD value)
+public static bool IsZero(QuaternionD value)
 ```
 
 ### Returns
@@ -16,7 +16,7 @@ public bool IsZero(QuaternionD value)
 ### Summary
 
 ```csharp
-public bool IsZero(QuaternionD value, double epsilon)
+public static bool IsZero(QuaternionD value, double epsilon)
 ```
 
 ### Returns

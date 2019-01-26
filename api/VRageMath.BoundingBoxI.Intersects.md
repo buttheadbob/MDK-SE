@@ -31,7 +31,7 @@ public bool Intersects(ref BoundingBoxI box)
 ### Summary
 
 ```csharp
-public void Intersects(ref BoundingBoxI box, ref bool result)
+public void Intersects(ref BoundingBoxI box, out bool result)
 ```
 
 Checks whether the current BoundingBoxI intersects another BoundingBoxI.
@@ -58,7 +58,7 @@ Checks whether the current BoundingBoxI intersects a Plane.
 ### Summary
 
 ```csharp
-public void Intersects(ref Plane plane, ref PlaneIntersectionType result)
+public void Intersects(ref Plane plane, out PlaneIntersectionType result)
 ```
 
 Checks whether the current BoundingBoxI intersects a Plane.
@@ -70,7 +70,7 @@ Checks whether the current BoundingBoxI intersects a Plane.
 ### Summary
 
 ```csharp
-public bool Intersects(Line line, ref float distance)
+public bool Intersects(Line line, out float distance)
 ```
 
 ### Returns
@@ -99,7 +99,7 @@ Checks whether the current BoundingBoxI intersects a Ray.
 ### Summary
 
 ```csharp
-public void Intersects(ref Ray ray, ref Nullable<T> result)
+public void Intersects(ref Ray ray, out Nullable<T> result)
 ```
 
 ### Parameters

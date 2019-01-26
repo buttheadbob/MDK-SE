@@ -32,6 +32,17 @@ public struct MatrixI
 |[BackwardVector](VRageMath.MatrixI.BackwardVector)||
 |[ForwardVector](VRageMath.MatrixI.ForwardVector)||
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[MatrixI(ref Vector3I, Direction, Direction)](VRageMath.MatrixI..ctor)||
+|[MatrixI(Vector3I, Direction, Direction)](VRageMath.MatrixI..ctor)||
+|[MatrixI(Direction, Direction)](VRageMath.MatrixI..ctor)||
+|[MatrixI(ref Vector3I, ref Vector3I, ref Vector3I)](VRageMath.MatrixI..ctor)||
+|[MatrixI(ref Vector3I, ref Vector3, ref Vector3)](VRageMath.MatrixI..ctor)||
+|[MatrixI(MyBlockOrientation)](VRageMath.MatrixI..ctor)||
+
 #### Methods
 
 |Member|Description|
@@ -41,7 +52,7 @@ public struct MatrixI
 |[GetBlockOrientation()](VRageMath.MatrixI.GetBlockOrientation)||
 |[GetFloatMatrix()](VRageMath.MatrixI.GetFloatMatrix)||
 |[CreateRotation(Direction, Direction, Direction, Direction)](VRageMath.MatrixI.CreateRotation)||
-|[Invert(ref MatrixI, ref MatrixI)](VRageMath.MatrixI.Invert)||
-|[Multiply(ref MatrixI, ref MatrixI, ref MatrixI)](VRageMath.MatrixI.Multiply)||
+|[Invert(ref MatrixI, out MatrixI)](VRageMath.MatrixI.Invert)||
+|[Multiply(ref MatrixI, ref MatrixI, out MatrixI)](VRageMath.MatrixI.Multiply)||
 |[Transform(ref MyBlockOrientation, ref MatrixI)](VRageMath.MatrixI.Transform)||
 

@@ -1,0 +1,18 @@
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MyDynamicAABBTree](VRageMath.MyDynamicAABBTree)
+
+### Summary
+
+```csharp
+public MyDynamicAABBTree()
+```
+
+### Summary
+
+```csharp
+public MyDynamicAABBTree(Vector3 extension, float aabbMultiplier)
+```
+
+### Parameters
+
+* [Vector3](VRageMath.Vector3) extension
+* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) aabbMultiplier

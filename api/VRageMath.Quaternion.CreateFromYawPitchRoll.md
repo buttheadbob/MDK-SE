@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Quaternion CreateFromYawPitchRoll(float yaw, float pitch, float roll)
+public static Quaternion CreateFromYawPitchRoll(float yaw, float pitch, float roll)
 ```
 
 Creates a new Quaternion from specified yaw, pitch, and roll angles.
@@ -20,7 +20,7 @@ Creates a new Quaternion from specified yaw, pitch, and roll angles.
 ### Summary
 
 ```csharp
-public void CreateFromYawPitchRoll(float yaw, float pitch, float roll, ref Quaternion result)
+public static void CreateFromYawPitchRoll(float yaw, float pitch, float roll, out Quaternion result)
 ```
 
 Creates a new Quaternion from specified yaw, pitch, and roll angles.

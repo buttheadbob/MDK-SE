@@ -175,6 +175,20 @@ Represents a four-component color using red, green, blue, and alpha data.
 |Yellow|Gets a system-defined color with the value R:255 G:255 B:0 A:255.|
 |YellowGreen|Gets a system-defined color with the value R:154 G:205 B:50 A:255.|
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|Color(uint)||
+|Color(int, int, int)||
+|Color(int, int, int, int)||
+|Color(float)||
+|Color(float, float, float)||
+|Color(float, float, float, float)||
+|Color(Color, float)||
+|Color(Vector3)||
+|Color(Vector4)||
+
 #### Methods
 
 |Member|Description|

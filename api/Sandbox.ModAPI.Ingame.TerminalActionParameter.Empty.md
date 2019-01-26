@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public TerminalActionParameter Empty
+public static TerminalActionParameter Empty
 ```
 
 Gets an empty parameter.

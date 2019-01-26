@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public ContainmentType ContainsRelativeBox(ref Vector3 hA, ref Vector3 hB, ref Matrix mB)
+public static ContainmentType ContainsRelativeBox(ref Vector3 hA, ref Vector3 hB, ref Matrix mB)
 ```
 
 ### Returns

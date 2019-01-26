@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public double TwoPi
+public static double TwoPi
 ```
 
 Represents the value of pi times two.

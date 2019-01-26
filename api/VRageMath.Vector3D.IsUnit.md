@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool IsUnit(ref Vector3D value)
+public static bool IsUnit(ref Vector3D value)
 ```
 
 ### Returns

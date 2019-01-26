@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MatrixD Transpose(MatrixD matrix)
+public static MatrixD Transpose(MatrixD matrix)
 ```
 
 Transposes the rows and columns of a matrix.
@@ -18,7 +18,7 @@ Transposes the rows and columns of a matrix.
 ### Summary
 
 ```csharp
-public void Transpose(ref MatrixD matrix, ref MatrixD result)
+public static void Transpose(ref MatrixD matrix, out MatrixD result)
 ```
 
 Transposes the rows and columns of a matrix.

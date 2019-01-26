@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MatrixD Lerp(MatrixD matrix1, MatrixD matrix2, double amount)
+public static MatrixD Lerp(MatrixD matrix1, MatrixD matrix2, double amount)
 ```
 
 Linearly interpolates between the corresponding values of two matrices.
@@ -20,7 +20,7 @@ Linearly interpolates between the corresponding values of two matrices.
 ### Summary
 
 ```csharp
-public void Lerp(ref MatrixD matrix1, ref MatrixD matrix2, double amount, ref MatrixD result)
+public static void Lerp(ref MatrixD matrix1, ref MatrixD matrix2, double amount, out MatrixD result)
 ```
 
 Linearly interpolates between the corresponding values of two matrices.

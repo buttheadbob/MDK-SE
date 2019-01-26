@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public BoundingBox2D CreateFromHalfExtent(Vector2D center, double halfExtent)
+public static BoundingBox2D CreateFromHalfExtent(Vector2D center, double halfExtent)
 ```
 
 ### Returns
@@ -17,7 +17,7 @@ public BoundingBox2D CreateFromHalfExtent(Vector2D center, double halfExtent)
 ### Summary
 
 ```csharp
-public BoundingBox2D CreateFromHalfExtent(Vector2D center, Vector2D halfExtent)
+public static BoundingBox2D CreateFromHalfExtent(Vector2D center, Vector2D halfExtent)
 ```
 
 ### Returns

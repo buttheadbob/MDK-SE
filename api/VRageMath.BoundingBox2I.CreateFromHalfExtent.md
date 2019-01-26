@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public BoundingBox2I CreateFromHalfExtent(Vector2I center, int halfExtent)
+public static BoundingBox2I CreateFromHalfExtent(Vector2I center, int halfExtent)
 ```
 
 ### Returns
@@ -17,7 +17,7 @@ public BoundingBox2I CreateFromHalfExtent(Vector2I center, int halfExtent)
 ### Summary
 
 ```csharp
-public BoundingBox2I CreateFromHalfExtent(Vector2I center, Vector2I halfExtent)
+public static BoundingBox2I CreateFromHalfExtent(Vector2I center, Vector2I halfExtent)
 ```
 
 ### Returns

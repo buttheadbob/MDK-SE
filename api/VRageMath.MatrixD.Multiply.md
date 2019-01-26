@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MatrixD Multiply(MatrixD matrix1, MatrixD matrix2)
+public static MatrixD Multiply(MatrixD matrix1, MatrixD matrix2)
 ```
 
 Multiplies a matrix by another matrix.
@@ -19,7 +19,7 @@ Multiplies a matrix by another matrix.
 ### Summary
 
 ```csharp
-public MatrixD Multiply(MatrixD matrix1, Matrix matrix2)
+public static MatrixD Multiply(MatrixD matrix1, Matrix matrix2)
 ```
 
 Multiplies a matrix by another matrix.
@@ -35,7 +35,7 @@ Multiplies a matrix by another matrix.
 ### Summary
 
 ```csharp
-public void Multiply(ref MatrixD matrix1, ref Matrix matrix2, ref MatrixD result)
+public static void Multiply(ref MatrixD matrix1, ref Matrix matrix2, out MatrixD result)
 ```
 
 Multiplies a matrix by another matrix.
@@ -48,7 +48,7 @@ Multiplies a matrix by another matrix.
 ### Summary
 
 ```csharp
-public void Multiply(ref Matrix matrix1, ref MatrixD matrix2, ref MatrixD result)
+public static void Multiply(ref Matrix matrix1, ref MatrixD matrix2, out MatrixD result)
 ```
 
 ### Parameters
@@ -59,7 +59,7 @@ public void Multiply(ref Matrix matrix1, ref MatrixD matrix2, ref MatrixD res
 ### Summary
 
 ```csharp
-public void Multiply(ref MatrixD matrix1, ref MatrixD matrix2, ref MatrixD result)
+public static void Multiply(ref MatrixD matrix1, ref MatrixD matrix2, out MatrixD result)
 ```
 
 Multiplies a matrix by another matrix.
@@ -72,7 +72,7 @@ Multiplies a matrix by another matrix.
 ### Summary
 
 ```csharp
-public MatrixD Multiply(MatrixD matrix1, double scaleFactor)
+public static MatrixD Multiply(MatrixD matrix1, double scaleFactor)
 ```
 
 Multiplies a matrix by a scalar value.
@@ -88,7 +88,7 @@ Multiplies a matrix by a scalar value.
 ### Summary
 
 ```csharp
-public void Multiply(ref MatrixD matrix1, double scaleFactor, ref MatrixD result)
+public static void Multiply(ref MatrixD matrix1, double scaleFactor, out MatrixD result)
 ```
 
 Multiplies a matrix by a scalar value.

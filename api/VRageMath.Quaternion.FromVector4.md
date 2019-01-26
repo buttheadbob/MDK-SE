@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Quaternion FromVector4(Vector4 v)
+public static Quaternion FromVector4(Vector4 v)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public KeyValuePair<TKey, TValue> FirstPair<K, V>(Dictionary<TKey, TValue> dictionary)
+public static KeyValuePair<TKey, TValue> FirstPair<K, V>(Dictionary<TKey, TValue> dictionary)
 ```
 
 ### Returns

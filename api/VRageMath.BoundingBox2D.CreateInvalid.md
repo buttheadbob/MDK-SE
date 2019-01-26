@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public BoundingBox2D CreateInvalid()
+public static BoundingBox2D CreateInvalid()
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3I GetDominantDirectionVector(Vector3I val)
+public static Vector3I GetDominantDirectionVector(Vector3I val)
 ```
 
 ### Returns

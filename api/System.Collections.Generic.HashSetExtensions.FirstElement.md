@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public T FirstElement<T>(HashSet<T> hashset)
+public static T FirstElement<T>(HashSet<T> hashset)
 ```
 
 ### Returns

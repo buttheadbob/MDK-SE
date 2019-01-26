@@ -16,7 +16,7 @@ public long Dot(ref Vector3L v)
 ### Summary
 
 ```csharp
-public long Dot(Vector3L vector1, Vector3L vector2)
+public static long Dot(Vector3L vector1, Vector3L vector2)
 ```
 
 ### Returns
@@ -30,7 +30,7 @@ public long Dot(Vector3L vector1, Vector3L vector2)
 ### Summary
 
 ```csharp
-public long Dot(ref Vector3L vector1, ref Vector3L vector2)
+public static long Dot(ref Vector3L vector1, ref Vector3L vector2)
 ```
 
 ### Returns
@@ -44,7 +44,7 @@ public long Dot(ref Vector3L vector1, ref Vector3L vector2)
 ### Summary
 
 ```csharp
-public void Dot(ref Vector3L vector1, ref Vector3L vector2, ref long dot)
+public static void Dot(ref Vector3L vector1, ref Vector3L vector2, out long dot)
 ```
 
 ### Parameters

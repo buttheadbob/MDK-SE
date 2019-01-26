@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void Decode(int code, ref Vector3I value)
+public static void Decode(int code, out Vector3I value)
 ```
 
 ### Parameters

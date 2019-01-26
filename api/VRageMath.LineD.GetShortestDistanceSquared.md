@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public double GetShortestDistanceSquared(LineD line1, LineD line2)
+public static double GetShortestDistanceSquared(LineD line1, LineD line2)
 ```
 
 ### Returns

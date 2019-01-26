@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public BoundingSphereD CreateFromBoundingBox(BoundingBoxD box)
+public static BoundingSphereD CreateFromBoundingBox(BoundingBoxD box)
 ```
 
 Creates the smallest BoundingSphereD that can contain a specified BoundingBoxD.
@@ -18,7 +18,7 @@ Creates the smallest BoundingSphereD that can contain a specified BoundingBoxD.
 ### Summary
 
 ```csharp
-public void CreateFromBoundingBox(ref BoundingBoxD box, ref BoundingSphereD result)
+public static void CreateFromBoundingBox(ref BoundingBoxD box, out BoundingSphereD result)
 ```
 
 Creates the smallest BoundingSphereD that can contain a specified BoundingBoxD.

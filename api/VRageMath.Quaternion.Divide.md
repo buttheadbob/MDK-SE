@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Quaternion Divide(Quaternion quaternion1, Quaternion quaternion2)
+public static Quaternion Divide(Quaternion quaternion1, Quaternion quaternion2)
 ```
 
 Divides a Quaternion by another Quaternion.
@@ -19,7 +19,7 @@ Divides a Quaternion by another Quaternion.
 ### Summary
 
 ```csharp
-public void Divide(ref Quaternion quaternion1, ref Quaternion quaternion2, ref Quaternion result)
+public static void Divide(ref Quaternion quaternion1, ref Quaternion quaternion2, out Quaternion result)
 ```
 
 Divides a Quaternion by another Quaternion.

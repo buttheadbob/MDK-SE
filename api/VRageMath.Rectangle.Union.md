@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Rectangle Union(Rectangle value1, Rectangle value2)
+public static Rectangle Union(Rectangle value1, Rectangle value2)
 ```
 
 Creates a new Rectangle that exactly contains two other rectangles.
@@ -19,7 +19,7 @@ Creates a new Rectangle that exactly contains two other rectangles.
 ### Summary
 
 ```csharp
-public void Union(ref Rectangle value1, ref Rectangle value2, ref Rectangle result)
+public static void Union(ref Rectangle value1, ref Rectangle value2, out Rectangle result)
 ```
 
 Creates a new Rectangle that exactly contains two other rectangles.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Matrix3x3 Orthogonalize(Matrix3x3 rotationMatrix)
+public static Matrix3x3 Orthogonalize(Matrix3x3 rotationMatrix)
 ```
 
 ### Returns

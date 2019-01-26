@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool ArePerpendicular(ref Vector3 a, ref Vector3 b)
+public static bool ArePerpendicular(ref Vector3 a, ref Vector3 b)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MatrixD UnpackOrthoMatrix(ref Vector4D packed)
+public static MatrixD UnpackOrthoMatrix(ref Vector4D packed)
 ```
 
 ### Returns

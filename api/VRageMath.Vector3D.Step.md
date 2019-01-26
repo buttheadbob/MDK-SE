@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3D Step(Vector3D value)
+public static Vector3D Step(Vector3D value)
 ```
 
 ### Returns

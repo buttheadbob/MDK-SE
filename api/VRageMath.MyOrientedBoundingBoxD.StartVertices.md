@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Int32[] StartVertices
+public static Int32[] StartVertices
 ```
 
 ### Returns

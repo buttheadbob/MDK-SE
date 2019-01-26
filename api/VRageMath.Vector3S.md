@@ -23,6 +23,15 @@ public struct Vector3S
 |[Forward](VRageMath.Vector3S.Forward)||
 |[Backward](VRageMath.Vector3S.Backward)||
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[Vector3S(Vector3I)](VRageMath.Vector3S..ctor)||
+|[Vector3S(ref Vector3I)](VRageMath.Vector3S..ctor)||
+|[Vector3S(short, short, short)](VRageMath.Vector3S..ctor)||
+|[Vector3S(float, float, float)](VRageMath.Vector3S..ctor)||
+
 #### Methods
 
 |Member|Description|

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MyIniValue EMPTY
+public static MyIniValue EMPTY
 ```
 
 Represents an empty [MyIniValue](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue) 

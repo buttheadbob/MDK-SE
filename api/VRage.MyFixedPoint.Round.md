@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MyFixedPoint Round(MyFixedPoint a)
+public static MyFixedPoint Round(MyFixedPoint a)
 ```
 
 ### Returns

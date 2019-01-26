@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3 NegativeInfinity
+public static Vector3 NegativeInfinity
 ```
 
 ### Returns

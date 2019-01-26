@@ -16,6 +16,12 @@ public class MyCuboidSide
 |[Plane](VRageMath.MyCuboidSide.Plane)||
 |[Lines](VRageMath.MyCuboidSide.Lines)||
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[MyCuboidSide()](VRageMath.MyCuboidSide..ctor)||
+
 #### Methods
 
 |Member|Description|

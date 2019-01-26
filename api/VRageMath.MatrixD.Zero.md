@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MatrixD Zero
+public static MatrixD Zero
 ```
 
 ### Returns

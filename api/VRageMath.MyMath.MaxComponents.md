@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3 MaxComponents(ref Vector3 a, ref Vector3 b)
+public static Vector3 MaxComponents(ref Vector3 a, ref Vector3 b)
 ```
 
 Return vector with each component max

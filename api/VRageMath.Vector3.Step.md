@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3 Step(Vector3 value)
+public static Vector3 Step(Vector3 value)
 ```
 
 ### Returns

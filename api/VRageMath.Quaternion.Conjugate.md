@@ -11,7 +11,7 @@ Transforms this Quaternion into its conjugate.
 ### Summary
 
 ```csharp
-public Quaternion Conjugate(Quaternion value)
+public static Quaternion Conjugate(Quaternion value)
 ```
 
 Returns the conjugate of a specified Quaternion.
@@ -26,7 +26,7 @@ Returns the conjugate of a specified Quaternion.
 ### Summary
 
 ```csharp
-public void Conjugate(ref Quaternion value, ref Quaternion result)
+public static void Conjugate(ref Quaternion value, out Quaternion result)
 ```
 
 Returns the conjugate of a specified Quaternion.

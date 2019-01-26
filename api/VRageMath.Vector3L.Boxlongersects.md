@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool Boxlongersects(Vector3L minA, Vector3L maxA, Vector3L minB, Vector3L maxB)
+public static bool Boxlongersects(Vector3L minA, Vector3L maxA, Vector3L minB, Vector3L maxB)
 ```
 
 ### Returns
@@ -19,7 +19,7 @@ public bool Boxlongersects(Vector3L minA, Vector3L maxA, Vector3L minB, Vector3L
 ### Summary
 
 ```csharp
-public bool Boxlongersects(ref Vector3L minA, ref Vector3L maxA, ref Vector3L minB, ref Vector3L maxB)
+public static bool Boxlongersects(ref Vector3L minA, ref Vector3L maxA, ref Vector3L minB, ref Vector3L maxB)
 ```
 
 ### Returns

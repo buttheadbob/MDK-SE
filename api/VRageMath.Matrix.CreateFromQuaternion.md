@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Matrix CreateFromQuaternion(Quaternion quaternion)
+public static Matrix CreateFromQuaternion(Quaternion quaternion)
 ```
 
 Creates a rotation Matrix from a Quaternion.
@@ -18,7 +18,7 @@ Creates a rotation Matrix from a Quaternion.
 ### Summary
 
 ```csharp
-public void CreateFromQuaternion(ref Quaternion quaternion, ref Matrix result)
+public static void CreateFromQuaternion(ref Quaternion quaternion, out Matrix result)
 ```
 
 Creates a rotation Matrix from a Quaternion.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Direction GetCross(Direction dir1, Direction dir2)
+public static Direction GetCross(Direction dir1, Direction dir2)
 ```
 
 ### Returns

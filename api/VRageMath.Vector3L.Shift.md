@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3L Shift(Vector3L value)
+public static Vector3L Shift(Vector3L value)
 ```
 
 ### Returns

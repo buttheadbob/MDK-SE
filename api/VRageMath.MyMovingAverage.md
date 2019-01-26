@@ -16,6 +16,12 @@ public class MyMovingAverage
 |[Avg](VRageMath.MyMovingAverage.Avg)||
 |[Sum](VRageMath.MyMovingAverage.Sum)||
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[MyMovingAverage(int, int)](VRageMath.MyMovingAverage..ctor)||
+
 #### Methods
 
 |Member|Description|

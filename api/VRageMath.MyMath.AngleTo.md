@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3 AngleTo(Vector3 From, Vector3 Location)
+public static Vector3 AngleTo(Vector3 From, Vector3 Location)
 ```
 
 AngleTo

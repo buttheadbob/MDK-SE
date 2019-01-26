@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public DirectionFlags GetDirectionFlag(Direction dir)
+public static DirectionFlags GetDirectionFlag(Direction dir)
 ```
 
 ### Returns

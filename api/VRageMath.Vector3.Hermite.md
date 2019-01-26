@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3 Hermite(Vector3 value1, Vector3 tangent1, Vector3 value2, Vector3 tangent2, float amount)
+public static Vector3 Hermite(Vector3 value1, Vector3 tangent1, Vector3 value2, Vector3 tangent2, float amount)
 ```
 
 Performs a Hermite spline interpolation.
@@ -22,7 +22,7 @@ Performs a Hermite spline interpolation.
 ### Summary
 
 ```csharp
-public void Hermite(ref Vector3 value1, ref Vector3 tangent1, ref Vector3 value2, ref Vector3 tangent2, float amount, ref Vector3 result)
+public static void Hermite(ref Vector3 value1, ref Vector3 tangent1, ref Vector3 value2, ref Vector3 tangent2, float amount, out Vector3 result)
 ```
 
 Performs a Hermite spline interpolation.

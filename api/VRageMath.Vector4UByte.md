@@ -24,6 +24,12 @@ public struct Vector4UByte
 |---|---|
 |[Item](VRageMath.Vector4UByte.Item)||
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[Vector4UByte(byte, byte, byte, byte)](VRageMath.Vector4UByte..ctor)||
+
 #### Methods
 
 |Member|Description|

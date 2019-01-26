@@ -19,6 +19,13 @@ public struct Vector3UByte
 |[Comparer](VRageMath.Vector3UByte.Comparer)||
 |[Zero](VRageMath.Vector3UByte.Zero)||
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[Vector3UByte(byte, byte, byte)](VRageMath.Vector3UByte..ctor)||
+|[Vector3UByte(Vector3I)](VRageMath.Vector3UByte..ctor)||
+
 #### Methods
 
 |Member|Description|

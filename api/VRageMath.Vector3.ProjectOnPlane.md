@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3 ProjectOnPlane(ref Vector3 vec, ref Vector3 planeNormal)
+public static Vector3 ProjectOnPlane(ref Vector3 vec, ref Vector3 planeNormal)
 ```
 
 Projects given vector on plane specified by it's normal.

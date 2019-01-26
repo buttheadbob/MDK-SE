@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3D MaxValue
+public static Vector3D MaxValue
 ```
 
 ### Returns

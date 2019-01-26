@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Quaternion GetOrientation(Direction forward, Direction up)
+public static Quaternion GetOrientation(Direction forward, Direction up)
 ```
 
 ### Returns

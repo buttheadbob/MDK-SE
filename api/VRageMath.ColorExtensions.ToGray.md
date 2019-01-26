@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3 ToGray(Vector3 c)
+public static Vector3 ToGray(Vector3 c)
 ```
 
 ### Returns
@@ -16,7 +16,7 @@ public Vector3 ToGray(Vector3 c)
 ### Summary
 
 ```csharp
-public Vector4 ToGray(Vector4 c)
+public static Vector4 ToGray(Vector4 c)
 ```
 
 ### Returns

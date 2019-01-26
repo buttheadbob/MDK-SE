@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3 ClampToSphere(Vector3 vector, float radius)
+public static Vector3 ClampToSphere(Vector3 vector, float radius)
 ```
 
 ### Returns
@@ -17,7 +17,7 @@ public Vector3 ClampToSphere(Vector3 vector, float radius)
 ### Summary
 
 ```csharp
-public void ClampToSphere(ref Vector3 vector, float radius)
+public static void ClampToSphere(ref Vector3 vector, float radius)
 ```
 
 ### Parameters

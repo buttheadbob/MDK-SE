@@ -29,6 +29,12 @@ public struct MyDetectedEntityInfo
 |---|---|
 |[Position](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo.Position)|The entity's position (center of the Bounding Box)|
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[MyDetectedEntityInfo(long, string, MyDetectedEntityType, Nullable, MatrixD, Vector3, MyRelationsBetweenPlayerAndBlock, BoundingBoxD, long)](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo..ctor)||
+
 #### Methods
 
 |Member|Description|

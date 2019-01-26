@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Direction GetLeft(Direction up, Direction forward)
+public static Direction GetLeft(Direction up, Direction forward)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool IsZero(Vector3D value)
+public static bool IsZero(Vector3D value)
 ```
 
 ### Returns
@@ -16,7 +16,7 @@ public bool IsZero(Vector3D value)
 ### Summary
 
 ```csharp
-public bool IsZero(Vector3D value, double epsilon)
+public static bool IsZero(Vector3D value, double epsilon)
 ```
 
 ### Returns

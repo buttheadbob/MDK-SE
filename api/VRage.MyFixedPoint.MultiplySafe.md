@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MyFixedPoint MultiplySafe(MyFixedPoint a, float b)
+public static MyFixedPoint MultiplySafe(MyFixedPoint a, float b)
 ```
 
 ### Returns
@@ -17,7 +17,7 @@ public MyFixedPoint MultiplySafe(MyFixedPoint a, float b)
 ### Summary
 
 ```csharp
-public MyFixedPoint MultiplySafe(MyFixedPoint a, int b)
+public static MyFixedPoint MultiplySafe(MyFixedPoint a, int b)
 ```
 
 ### Returns
@@ -31,7 +31,7 @@ public MyFixedPoint MultiplySafe(MyFixedPoint a, int b)
 ### Summary
 
 ```csharp
-public MyFixedPoint MultiplySafe(float a, MyFixedPoint b)
+public static MyFixedPoint MultiplySafe(float a, MyFixedPoint b)
 ```
 
 ### Returns
@@ -45,7 +45,7 @@ public MyFixedPoint MultiplySafe(float a, MyFixedPoint b)
 ### Summary
 
 ```csharp
-public MyFixedPoint MultiplySafe(int a, MyFixedPoint b)
+public static MyFixedPoint MultiplySafe(int a, MyFixedPoint b)
 ```
 
 ### Returns
@@ -59,7 +59,7 @@ public MyFixedPoint MultiplySafe(int a, MyFixedPoint b)
 ### Summary
 
 ```csharp
-public MyFixedPoint MultiplySafe(MyFixedPoint a, MyFixedPoint b)
+public static MyFixedPoint MultiplySafe(MyFixedPoint a, MyFixedPoint b)
 ```
 
 ### Returns

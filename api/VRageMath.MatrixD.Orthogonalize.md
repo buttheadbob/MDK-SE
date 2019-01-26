@@ -9,7 +9,7 @@ public void Orthogonalize()
 ### Summary
 
 ```csharp
-public MatrixD Orthogonalize(MatrixD rotationMatrix)
+public static MatrixD Orthogonalize(MatrixD rotationMatrix)
 ```
 
 ### Returns

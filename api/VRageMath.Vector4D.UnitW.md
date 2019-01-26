@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector4D UnitW
+public static Vector4D UnitW
 ```
 
 ### Returns

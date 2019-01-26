@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Matrix Invert(Matrix matrix)
+public static Matrix Invert(Matrix matrix)
 ```
 
 Calculates the inverse of a matrix.
@@ -18,7 +18,7 @@ Calculates the inverse of a matrix.
 ### Summary
 
 ```csharp
-public Matrix Invert(ref Matrix matrix)
+public static Matrix Invert(ref Matrix matrix)
 ```
 
 ### Returns
@@ -31,7 +31,7 @@ public Matrix Invert(ref Matrix matrix)
 ### Summary
 
 ```csharp
-public void Invert(ref Matrix matrix, ref Matrix result)
+public static void Invert(ref Matrix matrix, out Matrix result)
 ```
 
 Calculates the inverse of a matrix.

@@ -16,7 +16,7 @@ public BoundingSphereD Include(BoundingSphereD sphere)
 ### Summary
 
 ```csharp
-public void Include(ref BoundingSphereD sphere, ref BoundingSphereD otherSphere)
+public static void Include(ref BoundingSphereD sphere, ref BoundingSphereD otherSphere)
 ```
 
 ### Parameters

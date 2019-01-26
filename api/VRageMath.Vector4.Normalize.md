@@ -11,7 +11,7 @@ Turns the current vector into a unit vector.
 ### Summary
 
 ```csharp
-public Vector4 Normalize(Vector4 vector)
+public static Vector4 Normalize(Vector4 vector)
 ```
 
 Creates a unit vector from the specified vector.
@@ -26,7 +26,7 @@ Creates a unit vector from the specified vector.
 ### Summary
 
 ```csharp
-public void Normalize(ref Vector4 vector, ref Vector4 result)
+public static void Normalize(ref Vector4 vector, out Vector4 result)
 ```
 
 Returns a normalized version of the specified vector.

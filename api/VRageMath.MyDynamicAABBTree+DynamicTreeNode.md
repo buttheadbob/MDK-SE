@@ -21,6 +21,12 @@ public class DynamicTreeNode
 |[UserData](VRageMath.MyDynamicAABBTree+DynamicTreeNode.UserData)||
 |[UserFlag](VRageMath.MyDynamicAABBTree+DynamicTreeNode.UserFlag)||
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[DynamicTreeNode()](VRageMath.MyDynamicAABBTree+DynamicTreeNode..ctor)||
+
 #### Methods
 
 |Member|Description|

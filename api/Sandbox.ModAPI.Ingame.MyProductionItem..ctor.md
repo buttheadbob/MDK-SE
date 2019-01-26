@@ -1,0 +1,13 @@
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MyProductionItem](Sandbox.ModAPI.Ingame.MyProductionItem)
+
+### Summary
+
+```csharp
+public MyProductionItem(uint itemId, MyDefinitionId blueprintId, MyFixedPoint amount)
+```
+
+### Parameters
+
+* [uint](https://docs.microsoft.com/en-us/dotnet/api/system.uint32?view=netframework-4.6) itemId
+* [MyDefinitionId](VRage.Game.MyDefinitionId) blueprintId
+* [MyFixedPoint](VRage.MyFixedPoint) amount

@@ -26,6 +26,12 @@ public struct ListReader<T>: IEnumerable<T>, IEnumerable
 |[Count](VRage.Collections.ListReader`1.Count)||
 |[Item](VRage.Collections.ListReader`1.Item)||
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[ListReader(List)](VRage.Collections.ListReader`1..ctor)||
+
 #### Methods
 
 |Member|Description|

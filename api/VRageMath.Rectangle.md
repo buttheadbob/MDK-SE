@@ -34,6 +34,12 @@ Defines a rectangle.
 |[Location](VRageMath.Rectangle.Location)|Gets or sets the upper-left value of the Rectangle.|
 |[Center](VRageMath.Rectangle.Center)|Gets the Point that specifies the center of the rectangle.|
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[Rectangle(int, int, int, int)](VRageMath.Rectangle..ctor)||
+
 #### Methods
 
 |Member|Description|
@@ -43,15 +49,15 @@ Defines a rectangle.
 |[Inflate(int, int)](VRageMath.Rectangle.Inflate)|Pushes the edges of the Rectangle out by the horizontal and vertical values specified.|
 |[Contains(int, int)](VRageMath.Rectangle.Contains)|Determines whether this Rectangle contains a specified point represented by its x- and y-coordinates.|
 |[Contains(Point)](VRageMath.Rectangle.Contains)|Determines whether this Rectangle contains a specified Point.|
-|[Contains(ref Point, ref bool)](VRageMath.Rectangle.Contains)|Determines whether this Rectangle contains a specified Point.|
+|[Contains(ref Point, out bool)](VRageMath.Rectangle.Contains)|Determines whether this Rectangle contains a specified Point.|
 |[Contains(Rectangle)](VRageMath.Rectangle.Contains)|Determines whether this Rectangle entirely contains a specified Rectangle.|
-|[Contains(ref Rectangle, ref bool)](VRageMath.Rectangle.Contains)|Determines whether this Rectangle entirely contains a specified Rectangle.|
+|[Contains(ref Rectangle, out bool)](VRageMath.Rectangle.Contains)|Determines whether this Rectangle entirely contains a specified Rectangle.|
 |[Intersects(Rectangle)](VRageMath.Rectangle.Intersects)|Determines whether a specified Rectangle intersects with this Rectangle.|
-|[Intersects(ref Rectangle, ref bool)](VRageMath.Rectangle.Intersects)|Determines whether a specified Rectangle intersects with this Rectangle.|
+|[Intersects(ref Rectangle, out bool)](VRageMath.Rectangle.Intersects)|Determines whether a specified Rectangle intersects with this Rectangle.|
 |[Intersect(Rectangle, Rectangle)](VRageMath.Rectangle.Intersect)|Creates a Rectangle defining the area where one rectangle overlaps with another rectangle.|
-|[Intersect(ref Rectangle, ref Rectangle, ref Rectangle)](VRageMath.Rectangle.Intersect)|Creates a Rectangle defining the area where one rectangle overlaps with another rectangle.|
+|[Intersect(ref Rectangle, ref Rectangle, out Rectangle)](VRageMath.Rectangle.Intersect)|Creates a Rectangle defining the area where one rectangle overlaps with another rectangle.|
 |[Union(Rectangle, Rectangle)](VRageMath.Rectangle.Union)|Creates a new Rectangle that exactly contains two other rectangles.|
-|[Union(ref Rectangle, ref Rectangle, ref Rectangle)](VRageMath.Rectangle.Union)|Creates a new Rectangle that exactly contains two other rectangles.|
+|[Union(ref Rectangle, ref Rectangle, out Rectangle)](VRageMath.Rectangle.Union)|Creates a new Rectangle that exactly contains two other rectangles.|
 |[Equals(Rectangle)](VRageMath.Rectangle.Equals)|Determines whether the specified Object is equal to the Rectangle.|
 |[Equals(object)](VRageMath.Rectangle.Equals)|Returns a value that indicates whether the current instance is equal to a specified object.|
 |[ToString()](VRageMath.Rectangle.ToString)|Retrieves a string representation of the current object.|

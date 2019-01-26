@@ -19,6 +19,12 @@ A utility class to parse arguments from a command line string. Switches are defi
 |[Switches](VRage.Game.ModAPI.Ingame.Utilities.MyCommandLine.Switches)|Contains a list of all detected switches|
 |[ArgumentCount](VRage.Game.ModAPI.Ingame.Utilities.MyCommandLine.ArgumentCount)|Returns the number of non-switch arguments|
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[MyCommandLine()](VRage.Game.ModAPI.Ingame.Utilities.MyCommandLine..ctor)||
+
 #### Methods
 
 |Member|Description|

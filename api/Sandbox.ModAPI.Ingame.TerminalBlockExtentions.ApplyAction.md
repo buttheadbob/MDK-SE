@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void ApplyAction(IMyTerminalBlock block, string actionName)
+public static void ApplyAction(IMyTerminalBlock block, string actionName)
 ```
 
 ### Parameters
@@ -13,7 +13,7 @@ public void ApplyAction(IMyTerminalBlock block, string actionName)
 ### Summary
 
 ```csharp
-public void ApplyAction(IMyTerminalBlock block, string actionName, List<T> parameters)
+public static void ApplyAction(IMyTerminalBlock block, string actionName, List<T> parameters)
 ```
 
 ### Parameters

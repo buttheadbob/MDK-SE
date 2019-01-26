@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Quaternion Slerp(Quaternion quaternion1, Quaternion quaternion2, float amount)
+public static Quaternion Slerp(Quaternion quaternion1, Quaternion quaternion2, float amount)
 ```
 
 Interpolates between two quaternions, using spherical linear interpolation.
@@ -20,7 +20,7 @@ Interpolates between two quaternions, using spherical linear interpolation.
 ### Summary
 
 ```csharp
-public void Slerp(ref Quaternion quaternion1, ref Quaternion quaternion2, float amount, ref Quaternion result)
+public static void Slerp(ref Quaternion quaternion1, ref Quaternion quaternion2, float amount, out Quaternion result)
 ```
 
 Interpolates between two quaternions, using spherical linear interpolation.

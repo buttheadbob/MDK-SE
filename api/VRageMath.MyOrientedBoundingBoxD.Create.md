@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MyOrientedBoundingBoxD Create(BoundingBoxD boundingBox, MatrixD matrix)
+public static MyOrientedBoundingBoxD Create(BoundingBoxD boundingBox, MatrixD matrix)
 ```
 
 ### Returns

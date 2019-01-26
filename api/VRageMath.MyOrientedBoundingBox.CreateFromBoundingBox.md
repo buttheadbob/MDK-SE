@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MyOrientedBoundingBox CreateFromBoundingBox(BoundingBox box)
+public static MyOrientedBoundingBox CreateFromBoundingBox(BoundingBox box)
 ```
 
 ### Returns

@@ -24,6 +24,13 @@ public struct Vector3B
 |[Forward](VRageMath.Vector3B.Forward)||
 |[Backward](VRageMath.Vector3B.Backward)||
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[Vector3B(sbyte, sbyte, sbyte)](VRageMath.Vector3B..ctor)||
+|[Vector3B(Vector3I)](VRageMath.Vector3B..ctor)||
+
 #### Methods
 
 |Member|Description|

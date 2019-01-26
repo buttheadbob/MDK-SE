@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3D Subtract(Vector3D value1, Vector3D value2)
+public static Vector3D Subtract(Vector3D value1, Vector3D value2)
 ```
 
 Subtracts a vector from a vector.
@@ -19,7 +19,7 @@ Subtracts a vector from a vector.
 ### Summary
 
 ```csharp
-public void Subtract(ref Vector3D value1, ref Vector3D value2, ref Vector3D result)
+public static void Subtract(ref Vector3D value1, ref Vector3D value2, out Vector3D result)
 ```
 
 Subtracts a vector from a vector.

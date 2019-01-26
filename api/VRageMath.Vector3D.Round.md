@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3I Round(Vector3D vect3d)
+public static Vector3I Round(Vector3D vect3d)
 ```
 
 ### Returns
@@ -16,7 +16,7 @@ public Vector3I Round(Vector3D vect3d)
 ### Summary
 
 ```csharp
-public Vector3D Round(Vector3D v, int numDecimals)
+public static Vector3D Round(Vector3D v, int numDecimals)
 ```
 
 ### Returns

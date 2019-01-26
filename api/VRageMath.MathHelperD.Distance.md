@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public double Distance(double value1, double value2)
+public static double Distance(double value1, double value2)
 ```
 
 Calculates the absolute value of the difference of two values.

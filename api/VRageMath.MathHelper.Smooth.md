@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public int Smooth(int newValue, int lastSmooth)
+public static int Smooth(int newValue, int lastSmooth)
 ```
 
 ### Returns
@@ -17,7 +17,7 @@ public int Smooth(int newValue, int lastSmooth)
 ### Summary
 
 ```csharp
-public float Smooth(float newValue, float lastSmooth)
+public static float Smooth(float newValue, float lastSmooth)
 ```
 
 ### Returns

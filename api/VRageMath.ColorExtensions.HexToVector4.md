@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector4 HexToVector4(string hex)
+public static Vector4 HexToVector4(string hex)
 ```
 
 ### Returns

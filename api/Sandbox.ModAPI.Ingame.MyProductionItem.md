@@ -17,3 +17,9 @@ public struct MyProductionItem
 |[BlueprintId](Sandbox.ModAPI.Ingame.MyProductionItem.BlueprintId)||
 |[ItemId](Sandbox.ModAPI.Ingame.MyProductionItem.ItemId)||
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[MyProductionItem(uint, MyDefinitionId, MyFixedPoint)](Sandbox.ModAPI.Ingame.MyProductionItem..ctor)||
+

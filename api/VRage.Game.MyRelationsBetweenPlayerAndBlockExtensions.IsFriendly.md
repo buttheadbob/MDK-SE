@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool IsFriendly(MyRelationsBetweenPlayerAndBlock relations)
+public static bool IsFriendly(MyRelationsBetweenPlayerAndBlock relations)
 ```
 
 ### Returns

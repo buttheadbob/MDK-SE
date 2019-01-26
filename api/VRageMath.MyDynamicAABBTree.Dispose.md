@@ -3,6 +3,6 @@
 ### Summary
 
 ```csharp
-public void Dispose()
+public static void Dispose()
 ```
 

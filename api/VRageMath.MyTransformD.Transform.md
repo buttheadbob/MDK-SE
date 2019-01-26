@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MyTransformD Transform(ref MyTransformD t1, ref MyTransformD t2)
+public static MyTransformD Transform(ref MyTransformD t1, ref MyTransformD t2)
 ```
 
 ### Returns
@@ -17,7 +17,7 @@ public MyTransformD Transform(ref MyTransformD t1, ref MyTransformD t2)
 ### Summary
 
 ```csharp
-public void Transform(ref MyTransformD t1, ref MyTransformD t2, ref MyTransformD result)
+public static void Transform(ref MyTransformD t1, ref MyTransformD t2, out MyTransformD result)
 ```
 
 ### Parameters
@@ -28,7 +28,7 @@ public void Transform(ref MyTransformD t1, ref MyTransformD t2, ref MyTransfo
 ### Summary
 
 ```csharp
-public Vector3D Transform(ref Vector3D v, ref MyTransformD t2)
+public static Vector3D Transform(ref Vector3D v, ref MyTransformD t2)
 ```
 
 ### Returns
@@ -42,7 +42,7 @@ public Vector3D Transform(ref Vector3D v, ref MyTransformD t2)
 ### Summary
 
 ```csharp
-public void Transform(ref Vector3D v, ref MyTransformD t2, ref Vector3D result)
+public static void Transform(ref Vector3D v, ref MyTransformD t2, out Vector3D result)
 ```
 
 ### Parameters

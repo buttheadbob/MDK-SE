@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Plane Transform(Plane plane, Matrix matrix)
+public static Plane Transform(Plane plane, Matrix matrix)
 ```
 
 Transforms a normalized Plane by a Matrix.
@@ -19,7 +19,7 @@ Transforms a normalized Plane by a Matrix.
 ### Summary
 
 ```csharp
-public void Transform(ref Plane plane, ref Matrix matrix, ref Plane result)
+public static void Transform(ref Plane plane, ref Matrix matrix, out Plane result)
 ```
 
 Transforms a normalized Plane by a Matrix.

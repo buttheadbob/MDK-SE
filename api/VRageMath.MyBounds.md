@@ -17,6 +17,12 @@ public struct MyBounds
 |[Max](VRageMath.MyBounds.Max)||
 |[Default](VRageMath.MyBounds.Default)||
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[MyBounds(float, float, float)](VRageMath.MyBounds..ctor)||
+
 #### Methods
 
 |Member|Description|

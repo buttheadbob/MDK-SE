@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool IsZero(ref Vector2 value)
+public static bool IsZero(ref Vector2 value)
 ```
 
 ### Returns
@@ -16,7 +16,7 @@ public bool IsZero(ref Vector2 value)
 ### Summary
 
 ```csharp
-public bool IsZero(ref Vector2 value, float epsilon)
+public static bool IsZero(ref Vector2 value, float epsilon)
 ```
 
 ### Returns
@@ -30,7 +30,7 @@ public bool IsZero(ref Vector2 value, float epsilon)
 ### Summary
 
 ```csharp
-public bool IsZero(Vector2 value, float epsilon)
+public static bool IsZero(Vector2 value, float epsilon)
 ```
 
 ### Returns

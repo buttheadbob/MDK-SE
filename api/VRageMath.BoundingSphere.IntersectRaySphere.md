@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool IntersectRaySphere(Ray ray, ref float tmin, ref float tmax)
+public bool IntersectRaySphere(Ray ray, out float tmin, out float tmax)
 ```
 
 ### Returns

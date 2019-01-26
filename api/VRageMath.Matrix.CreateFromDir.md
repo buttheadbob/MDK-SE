@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Matrix CreateFromDir(Vector3 dir)
+public static Matrix CreateFromDir(Vector3 dir)
 ```
 
 ### Returns
@@ -16,7 +16,7 @@ public Matrix CreateFromDir(Vector3 dir)
 ### Summary
 
 ```csharp
-public Matrix CreateFromDir(Vector3 dir, Vector3 suggestedUp)
+public static Matrix CreateFromDir(Vector3 dir, Vector3 suggestedUp)
 ```
 
 ### Returns

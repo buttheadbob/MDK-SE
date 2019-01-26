@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public T[] GetInternalArray<T>(List<T> list)
+public static T[] GetInternalArray<T>(List<T> list)
 ```
 
 ### Returns

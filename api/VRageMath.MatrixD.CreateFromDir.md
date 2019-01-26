@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MatrixD CreateFromDir(Vector3D dir)
+public static MatrixD CreateFromDir(Vector3D dir)
 ```
 
 ### Returns
@@ -16,7 +16,7 @@ public MatrixD CreateFromDir(Vector3D dir)
 ### Summary
 
 ```csharp
-public MatrixD CreateFromDir(Vector3D dir, Vector3D suggestedUp)
+public static MatrixD CreateFromDir(Vector3D dir, Vector3D suggestedUp)
 ```
 
 ### Returns

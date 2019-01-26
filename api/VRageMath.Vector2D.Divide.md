@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector2D Divide(Vector2D value1, Vector2D value2)
+public static Vector2D Divide(Vector2D value1, Vector2D value2)
 ```
 
 Divides the components of a vector by the components of another vector.
@@ -19,7 +19,7 @@ Divides the components of a vector by the components of another vector.
 ### Summary
 
 ```csharp
-public void Divide(ref Vector2D value1, ref Vector2D value2, ref Vector2D result)
+public static void Divide(ref Vector2D value1, ref Vector2D value2, out Vector2D result)
 ```
 
 Divides the components of a vector by the components of another vector.
@@ -32,7 +32,7 @@ Divides the components of a vector by the components of another vector.
 ### Summary
 
 ```csharp
-public Vector2D Divide(Vector2D value1, double divider)
+public static Vector2D Divide(Vector2D value1, double divider)
 ```
 
 Divides a vector by a scalar value.
@@ -48,7 +48,7 @@ Divides a vector by a scalar value.
 ### Summary
 
 ```csharp
-public void Divide(ref Vector2D value1, double divider, ref Vector2D result)
+public static void Divide(ref Vector2D value1, double divider, out Vector2D result)
 ```
 
 Divides a vector by a scalar value.

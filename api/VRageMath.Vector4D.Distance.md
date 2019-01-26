@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public double Distance(Vector4 value1, Vector4 value2)
+public static double Distance(Vector4 value1, Vector4 value2)
 ```
 
 Calculates the distance between two vectors.
@@ -19,7 +19,7 @@ Calculates the distance between two vectors.
 ### Summary
 
 ```csharp
-public void Distance(ref Vector4 value1, ref Vector4 value2, ref double result)
+public static void Distance(ref Vector4 value1, ref Vector4 value2, out double result)
 ```
 
 Calculates the distance between two vectors.

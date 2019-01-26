@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public float WrapAngle(float angle)
+public static float WrapAngle(float angle)
 ```
 
 Reduces a given angle to a value between π and -π.

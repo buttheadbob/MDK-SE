@@ -17,6 +17,12 @@ public struct Capsule
 |[P1](VRageMath.Capsule.P1)||
 |[Radius](VRageMath.Capsule.Radius)||
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[Capsule(Vector3, Vector3, float)](VRageMath.Capsule..ctor)||
+
 #### Methods
 
 |Member|Description|

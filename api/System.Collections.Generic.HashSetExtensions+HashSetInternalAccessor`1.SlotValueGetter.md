@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Func<T1, T2, TResult> SlotValueGetter
+public static Func<T1, T2, TResult> SlotValueGetter
 ```
 
 ### Returns

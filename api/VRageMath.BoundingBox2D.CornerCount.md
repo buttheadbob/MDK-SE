@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public int CornerCount
+public static int CornerCount
 ```
 
 Specifies the total number of corners (8) in the BoundingBox2D.

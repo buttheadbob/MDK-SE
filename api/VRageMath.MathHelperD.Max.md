@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public double Max(double value1, double value2)
+public static double Max(double value1, double value2)
 ```
 
 Returns the greater of two values.

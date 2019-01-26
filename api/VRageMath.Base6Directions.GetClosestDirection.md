@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Direction GetClosestDirection(Vector3 vec)
+public static Direction GetClosestDirection(Vector3 vec)
 ```
 
 ### Returns
@@ -16,7 +16,7 @@ public Direction GetClosestDirection(Vector3 vec)
 ### Summary
 
 ```csharp
-public Direction GetClosestDirection(ref Vector3 vec)
+public static Direction GetClosestDirection(ref Vector3 vec)
 ```
 
 ### Returns

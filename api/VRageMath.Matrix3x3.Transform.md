@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void Transform(ref Matrix3x3 value, ref Quaternion rotation, ref Matrix3x3 result)
+public static void Transform(ref Matrix3x3 value, ref Quaternion rotation, out Matrix3x3 result)
 ```
 
 Transforms a Matrix3x3 by applying a Quaternion rotation.

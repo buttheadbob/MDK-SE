@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetUpgradeList(ref List<T> upgrades)
+public void GetUpgradeList(out List<T> upgrades)
 ```
 
 ### Parameters

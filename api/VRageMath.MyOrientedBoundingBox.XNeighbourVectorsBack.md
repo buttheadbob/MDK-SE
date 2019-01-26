@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3[] XNeighbourVectorsBack
+public static Vector3[] XNeighbourVectorsBack
 ```
 
 ### Returns

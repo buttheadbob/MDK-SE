@@ -21,6 +21,12 @@ Defines a ray.
 |[Position](VRageMath.Ray.Position)|Specifies the starting point of the Ray.|
 |[Direction](VRageMath.Ray.Direction)|Unit vector specifying the direction the Ray is pointing.|
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[Ray(Vector3, Vector3)](VRageMath.Ray..ctor)||
+
 #### Methods
 
 |Member|Description|
@@ -30,10 +36,10 @@ Defines a ray.
 |[GetHashCode()](VRageMath.Ray.GetHashCode)|Gets the hash code for this instance.|
 |[ToString()](VRageMath.Ray.ToString)|Returns a String that represents the current Ray.|
 |[Intersects(BoundingBox)](VRageMath.Ray.Intersects)|Checks whether the Ray intersects a specified BoundingBox.|
-|[Intersects(ref BoundingBox, ref Nullable)](VRageMath.Ray.Intersects)||
+|[Intersects(ref BoundingBox, out Nullable)](VRageMath.Ray.Intersects)||
 |[Intersects(BoundingFrustum)](VRageMath.Ray.Intersects)|Checks whether the Ray intersects a specified BoundingFrustum.|
 |[Intersects(Plane)](VRageMath.Ray.Intersects)|Determines whether this Ray intersects a specified Plane.|
-|[Intersects(ref Plane, ref Nullable)](VRageMath.Ray.Intersects)||
+|[Intersects(ref Plane, out Nullable)](VRageMath.Ray.Intersects)||
 |[Intersects(BoundingSphere)](VRageMath.Ray.Intersects)|Checks whether the Ray intersects a specified BoundingSphere.|
-|[Intersects(ref BoundingSphere, ref Nullable)](VRageMath.Ray.Intersects)||
+|[Intersects(ref BoundingSphere, out Nullable)](VRageMath.Ray.Intersects)||
 

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public double CubicInterp(double p0, double p1, double p2, double p3, double t)
+public static double CubicInterp(double p0, double p1, double p2, double p3, double t)
 ```
 
 ### Returns

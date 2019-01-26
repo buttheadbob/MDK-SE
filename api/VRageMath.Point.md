@@ -27,6 +27,12 @@ Defines a point in 2D space.
 |---|---|
 |[Zero](VRageMath.Point.Zero)|Returns the point (0,0).|
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[Point(int, int)](VRageMath.Point..ctor)||
+
 #### Methods
 
 |Member|Description|

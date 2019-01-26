@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MatrixD CreateFromTransformScale(Quaternion orientation, Vector3D position, Vector3D scale)
+public static MatrixD CreateFromTransformScale(Quaternion orientation, Vector3D position, Vector3D scale)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Direction GetUp(Quaternion rot)
+public static Direction GetUp(Quaternion rot)
 ```
 
 ### Returns
@@ -16,7 +16,7 @@ public Direction GetUp(Quaternion rot)
 ### Summary
 
 ```csharp
-public Direction GetUp(ref Quaternion rot)
+public static Direction GetUp(ref Quaternion rot)
 ```
 
 ### Returns
@@ -29,7 +29,7 @@ public Direction GetUp(ref Quaternion rot)
 ### Summary
 
 ```csharp
-public Direction GetUp(ref Matrix rotation)
+public static Direction GetUp(ref Matrix rotation)
 ```
 
 ### Returns

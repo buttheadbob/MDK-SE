@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool HasSection(string config, string section)
+public static bool HasSection(string config, string section)
 ```
 
 Determines if the given configuration contains what looks like the given section. It does not verify that the content is actually in a valid format, just if there's a line starting with [section].

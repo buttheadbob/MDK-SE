@@ -13,7 +13,7 @@ public abstract sealed class QueueExtensions
 
 |Member|Description|
 |---|---|
-|[TryDequeue(Queue, ref T)](System.Collections.Generic.QueueExtensions.TryDequeue)||
-|[TryDequeueSync(Queue, ref T)](System.Collections.Generic.QueueExtensions.TryDequeueSync)||
+|[TryDequeue(Queue, out T)](System.Collections.Generic.QueueExtensions.TryDequeue)||
+|[TryDequeueSync(Queue, out T)](System.Collections.Generic.QueueExtensions.TryDequeueSync)||
 |[ToList(ConcurrentQueue)](System.Collections.Generic.QueueExtensions.ToList)||
 

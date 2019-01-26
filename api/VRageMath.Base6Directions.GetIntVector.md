@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3I GetIntVector(int direction)
+public static Vector3I GetIntVector(int direction)
 ```
 
 ### Returns
@@ -16,7 +16,7 @@ public Vector3I GetIntVector(int direction)
 ### Summary
 
 ```csharp
-public Vector3I GetIntVector(Direction dir)
+public static Vector3I GetIntVector(Direction dir)
 ```
 
 ### Returns

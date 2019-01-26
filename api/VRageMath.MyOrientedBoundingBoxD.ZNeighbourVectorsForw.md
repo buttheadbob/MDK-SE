@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3[] ZNeighbourVectorsForw
+public static Vector3[] ZNeighbourVectorsForw
 ```
 
 ### Returns

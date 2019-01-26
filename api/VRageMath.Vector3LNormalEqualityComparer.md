@@ -14,6 +14,12 @@ This can be used only to compare normal vectors of Vector3L, where X, Y and Z ha
 **Implements:**  
 * [IEqualityComparer<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.iequalitycomparer?view=netframework-4.6)
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[Vector3LNormalEqualityComparer()](VRageMath.Vector3LNormalEqualityComparer..ctor)||
+
 #### Methods
 
 |Member|Description|

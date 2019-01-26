@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void Rotate(ref Vector3D vector, ref MatrixD rotationMatrix, ref Vector3D result)
+public static void Rotate(ref Vector3D vector, ref MatrixD rotationMatrix, out Vector3D result)
 ```
 
 ### Parameters
@@ -14,7 +14,7 @@ public void Rotate(ref Vector3D vector, ref MatrixD rotationMatrix, ref Vecto
 ### Summary
 
 ```csharp
-public Vector3D Rotate(Vector3D vector, MatrixD rotationMatrix)
+public static Vector3D Rotate(Vector3D vector, MatrixD rotationMatrix)
 ```
 
 ### Returns

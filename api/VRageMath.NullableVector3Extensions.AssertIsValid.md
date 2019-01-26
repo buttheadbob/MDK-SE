@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void AssertIsValid(Nullable<T> value)
+public static void AssertIsValid(Nullable<T> value)
 ```
 
 ### Parameters

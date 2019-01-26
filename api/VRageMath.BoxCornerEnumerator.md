@@ -22,6 +22,12 @@ public struct BoxCornerEnumerator: IEnumerator<T>, IDisposable, IEnumerator, IEn
 |---|---|
 |[Current](VRageMath.BoxCornerEnumerator.Current)||
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[BoxCornerEnumerator(Vector3, Vector3)](VRageMath.BoxCornerEnumerator..ctor)||
+
 #### Methods
 
 |Member|Description|

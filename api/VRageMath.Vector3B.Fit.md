@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3B Fit(Vector3 vec, float range)
+public static Vector3B Fit(Vector3 vec, float range)
 ```
 
 Puts Vector3 into Vector3B, value -127 represents -range, 128 represents range

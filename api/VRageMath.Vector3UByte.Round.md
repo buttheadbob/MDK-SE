@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3UByte Round(Vector3 vec)
+public static Vector3UByte Round(Vector3 vec)
 ```
 
 ### Returns

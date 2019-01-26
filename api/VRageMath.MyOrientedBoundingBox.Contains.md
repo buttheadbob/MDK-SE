@@ -16,7 +16,7 @@ public ContainmentType Contains(ref BoundingBox box)
 ### Summary
 
 ```csharp
-public ContainmentType Contains(ref BoundingBox boxA, ref MyOrientedBoundingBox oboxB)
+public static ContainmentType Contains(ref BoundingBox boxA, ref MyOrientedBoundingBox oboxB)
 ```
 
 ### Returns
@@ -56,7 +56,7 @@ public ContainmentType Contains(BoundingFrustum frustum)
 ### Summary
 
 ```csharp
-public ContainmentType Contains(BoundingFrustum frustum, ref MyOrientedBoundingBox obox)
+public static ContainmentType Contains(BoundingFrustum frustum, ref MyOrientedBoundingBox obox)
 ```
 
 ### Returns
@@ -83,7 +83,7 @@ public ContainmentType Contains(ref BoundingSphere sphere)
 ### Summary
 
 ```csharp
-public ContainmentType Contains(ref BoundingSphere sphere, ref MyOrientedBoundingBox box)
+public static ContainmentType Contains(ref BoundingSphere sphere, ref MyOrientedBoundingBox box)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector4D UnitX
+public static Vector4D UnitX
 ```
 
 ### Returns

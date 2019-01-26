@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3 Abs(ref Vector3 vector)
+public static Vector3 Abs(ref Vector3 vector)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public float RadiansPerSecondToRPM
+public static float RadiansPerSecondToRPM
 ```
 
 60 / 2*pi

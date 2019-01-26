@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public ComparerClass Comparer
+public static ComparerClass Comparer
 ```
 
 ### Returns

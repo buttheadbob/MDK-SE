@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3D SwapYZCoordinates(Vector3D v)
+public static Vector3D SwapYZCoordinates(Vector3D v)
 ```
 
 ### Returns

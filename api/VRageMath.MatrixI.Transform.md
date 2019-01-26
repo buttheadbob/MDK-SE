@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MyBlockOrientation Transform(ref MyBlockOrientation orientation, ref MatrixI transform)
+public static MyBlockOrientation Transform(ref MyBlockOrientation orientation, ref MatrixI transform)
 ```
 
 ### Returns

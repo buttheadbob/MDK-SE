@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public BoundingSphere CreateFromPoints(IEnumerable<T> points)
+public static BoundingSphere CreateFromPoints(IEnumerable<T> points)
 ```
 
 ### Returns

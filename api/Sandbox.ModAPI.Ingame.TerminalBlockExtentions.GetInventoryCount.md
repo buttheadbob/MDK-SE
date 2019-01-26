@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public int GetInventoryCount(IMyTerminalBlock block)
+public static int GetInventoryCount(IMyTerminalBlock block)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Quaternion CreateFromForwardUp(Vector3 forward, Vector3 up)
+public static Quaternion CreateFromForwardUp(Vector3 forward, Vector3 up)
 ```
 
 Works for normalized vectors only

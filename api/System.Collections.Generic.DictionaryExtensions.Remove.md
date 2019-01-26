@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void Remove<K, V>(ConcurrentDictionary<TKey, TValue> dictionary, K key)
+public static void Remove<K, V>(ConcurrentDictionary<TKey, TValue> dictionary, K key)
 ```
 
 ### Parameters

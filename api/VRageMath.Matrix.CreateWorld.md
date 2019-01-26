@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Matrix CreateWorld(Vector3 position)
+public static Matrix CreateWorld(Vector3 position)
 ```
 
 ### Returns
@@ -16,7 +16,7 @@ public Matrix CreateWorld(Vector3 position)
 ### Summary
 
 ```csharp
-public Matrix CreateWorld(Vector3 position, Vector3 forward, Vector3 up)
+public static Matrix CreateWorld(Vector3 position, Vector3 forward, Vector3 up)
 ```
 
 Creates a world matrix with the specified parameters.
@@ -33,7 +33,7 @@ Creates a world matrix with the specified parameters.
 ### Summary
 
 ```csharp
-public void CreateWorld(ref Vector3 position, ref Vector3 forward, ref Vector3 up, ref Matrix result)
+public static void CreateWorld(ref Vector3 position, ref Vector3 forward, ref Vector3 up, out Matrix result)
 ```
 
 Creates a world matrix with the specified parameters.

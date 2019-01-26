@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public QuaternionD Negate(QuaternionD quaternion)
+public static QuaternionD Negate(QuaternionD quaternion)
 ```
 
 Flips the sign of each component of the quaternion.
@@ -18,7 +18,7 @@ Flips the sign of each component of the quaternion.
 ### Summary
 
 ```csharp
-public void Negate(ref QuaternionD quaternion, ref QuaternionD result)
+public static void Negate(ref QuaternionD quaternion, out QuaternionD result)
 ```
 
 Flips the sign of each component of the quaternion.

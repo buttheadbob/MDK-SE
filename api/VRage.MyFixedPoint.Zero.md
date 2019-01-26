@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MyFixedPoint Zero
+public static MyFixedPoint Zero
 ```
 
 ### Returns

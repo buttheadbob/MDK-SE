@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Direction GetPerpendicular(Direction dir)
+public static Direction GetPerpendicular(Direction dir)
 ```
 
 ### Returns

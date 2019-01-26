@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool IsValidNormal(Vector3 vec)
+public static bool IsValidNormal(Vector3 vec)
 ```
 
 ### Returns

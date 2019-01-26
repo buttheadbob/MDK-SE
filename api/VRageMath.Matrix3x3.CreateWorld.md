@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Matrix3x3 CreateWorld(ref Vector3 forward, ref Vector3 up)
+public static Matrix3x3 CreateWorld(ref Vector3 forward, ref Vector3 up)
 ```
 
 Creates a world matrix with the specified parameters.

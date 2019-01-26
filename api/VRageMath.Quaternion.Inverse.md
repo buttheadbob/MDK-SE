@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Quaternion Inverse(Quaternion quaternion)
+public static Quaternion Inverse(Quaternion quaternion)
 ```
 
 Returns the inverse of a Quaternion.
@@ -18,7 +18,7 @@ Returns the inverse of a Quaternion.
 ### Summary
 
 ```csharp
-public void Inverse(ref Quaternion quaternion, ref Quaternion result)
+public static void Inverse(ref Quaternion quaternion, out Quaternion result)
 ```
 
 Returns the inverse of a Quaternion.

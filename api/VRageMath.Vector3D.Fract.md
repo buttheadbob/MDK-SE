@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void Fract(ref Vector3D o, ref Vector3D r)
+public static void Fract(ref Vector3D o, out Vector3D r)
 ```
 
 ### Parameters

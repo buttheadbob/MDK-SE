@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public QuaternionD Identity
+public static QuaternionD Identity
 ```
 
 ### Returns

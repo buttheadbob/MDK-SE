@@ -17,3 +17,9 @@ public struct MyShipMass
 |[TotalMass](Sandbox.ModAPI.Ingame.MyShipMass.TotalMass)|Gets the total mass of the ship, including cargo.|
 |[PhysicalMass](Sandbox.ModAPI.Ingame.MyShipMass.PhysicalMass)|Gets the physical mass of the ship, which accounts for inventory multiplier.|
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[MyShipMass(float, float, float)](Sandbox.ModAPI.Ingame.MyShipMass..ctor)||
+

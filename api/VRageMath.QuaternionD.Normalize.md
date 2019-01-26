@@ -11,7 +11,7 @@ Divides each component of the quaternion by the length of the quaternion.
 ### Summary
 
 ```csharp
-public QuaternionD Normalize(QuaternionD quaternion)
+public static QuaternionD Normalize(QuaternionD quaternion)
 ```
 
 Divides each component of the quaternion by the length of the quaternion.
@@ -26,7 +26,7 @@ Divides each component of the quaternion by the length of the quaternion.
 ### Summary
 
 ```csharp
-public void Normalize(ref QuaternionD quaternion, ref QuaternionD result)
+public static void Normalize(ref QuaternionD quaternion, out QuaternionD result)
 ```
 
 Divides each component of the quaternion by the length of the quaternion.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool IsBaseDirection(ref Vector3 vec)
+public static bool IsBaseDirection(ref Vector3 vec)
 ```
 
 ### Returns
@@ -16,7 +16,7 @@ public bool IsBaseDirection(ref Vector3 vec)
 ### Summary
 
 ```csharp
-public bool IsBaseDirection(ref Vector3I vec)
+public static bool IsBaseDirection(ref Vector3I vec)
 ```
 
 ### Returns
@@ -29,7 +29,7 @@ public bool IsBaseDirection(ref Vector3I vec)
 ### Summary
 
 ```csharp
-public bool IsBaseDirection(Vector3 vec)
+public static bool IsBaseDirection(Vector3 vec)
 ```
 
 ### Returns

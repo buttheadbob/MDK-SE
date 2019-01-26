@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void Rescale(ref MatrixD matrix, double scale)
+public static void Rescale(ref MatrixD matrix, double scale)
 ```
 
 Same result as Matrix.CreateScale(scale) * matrix, but much faster
@@ -15,7 +15,7 @@ Same result as Matrix.CreateScale(scale) * matrix, but much faster
 ### Summary
 
 ```csharp
-public void Rescale(ref MatrixD matrix, float scale)
+public static void Rescale(ref MatrixD matrix, float scale)
 ```
 
 Same result as Matrix.CreateScale(scale) * matrix, but much faster
@@ -27,7 +27,7 @@ Same result as Matrix.CreateScale(scale) * matrix, but much faster
 ### Summary
 
 ```csharp
-public void Rescale(ref MatrixD matrix, ref Vector3D scale)
+public static void Rescale(ref MatrixD matrix, ref Vector3D scale)
 ```
 
 Same result as Matrix.CreateScale(scale) * matrix, but much faster
@@ -39,7 +39,7 @@ Same result as Matrix.CreateScale(scale) * matrix, but much faster
 ### Summary
 
 ```csharp
-public MatrixD Rescale(MatrixD matrix, double scale)
+public static MatrixD Rescale(MatrixD matrix, double scale)
 ```
 
 ### Returns
@@ -53,7 +53,7 @@ public MatrixD Rescale(MatrixD matrix, double scale)
 ### Summary
 
 ```csharp
-public MatrixD Rescale(MatrixD matrix, Vector3D scale)
+public static MatrixD Rescale(MatrixD matrix, Vector3D scale)
 ```
 
 ### Returns

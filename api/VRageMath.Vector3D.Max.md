@@ -15,7 +15,7 @@ Returns the component of the vector that is largest of all the three components.
 ### Summary
 
 ```csharp
-public Vector3D Max(Vector3D value1, Vector3D value2)
+public static Vector3D Max(Vector3D value1, Vector3D value2)
 ```
 
 Returns a vector that contains the highest value from each matching pair of components.
@@ -31,7 +31,7 @@ Returns a vector that contains the highest value from each matching pair of comp
 ### Summary
 
 ```csharp
-public void Max(ref Vector3D value1, ref Vector3D value2, ref Vector3D result)
+public static void Max(ref Vector3D value1, ref Vector3D value2, out Vector3D result)
 ```
 
 Returns a vector that contains the highest value from each matching pair of components.

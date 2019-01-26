@@ -22,12 +22,19 @@ Represents a GPS coordinate
 |[Coords](Sandbox.ModAPI.Ingame.MyWaypointInfo.Coords)|Gets the target coordinate as a [Vector3D](VRageMath.Vector3D) |
 |[Empty](Sandbox.ModAPI.Ingame.MyWaypointInfo.Empty)|Returns an empty (undefined) GPS coordinate|
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[MyWaypointInfo(string, double, double, double)](Sandbox.ModAPI.Ingame.MyWaypointInfo..ctor)||
+|[MyWaypointInfo(string, Vector3D)](Sandbox.ModAPI.Ingame.MyWaypointInfo..ctor)||
+
 #### Methods
 
 |Member|Description|
 |---|---|
 |[FindAll(string, List)](Sandbox.ModAPI.Ingame.MyWaypointInfo.FindAll)||
-|[TryParse(string, ref MyWaypointInfo)](Sandbox.ModAPI.Ingame.MyWaypointInfo.TryParse)|Attempts to parse a GPS coordinate from the given text. The text cannot contain anything but the GPS coordinate.<br /><br />A GPS coordinate has the format GPS:Name:X:Y:Z:|
+|[TryParse(string, out MyWaypointInfo)](Sandbox.ModAPI.Ingame.MyWaypointInfo.TryParse)|Attempts to parse a GPS coordinate from the given text. The text cannot contain anything but the GPS coordinate.<br /><br />A GPS coordinate has the format GPS:Name:X:Y:Z:|
 |[IsEmpty()](Sandbox.ModAPI.Ingame.MyWaypointInfo.IsEmpty)|Determines whether this coordinate is empty (undefined)|
 |[ToString()](Sandbox.ModAPI.Ingame.MyWaypointInfo.ToString)|Converts this GPS coordinate to its string equivalent|
 |[Equals(MyWaypointInfo)](Sandbox.ModAPI.Ingame.MyWaypointInfo.Equals)|Determines whether this coordinate is the same as another. Uses 0.0001 as the epsilon to counter floating point inaccuracies.|

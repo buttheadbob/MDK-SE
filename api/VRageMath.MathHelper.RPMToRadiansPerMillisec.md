@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public float RPMToRadiansPerMillisec
+public static float RPMToRadiansPerMillisec
 ```
 
 2*pi / 60000

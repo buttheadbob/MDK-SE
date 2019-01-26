@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3L Floor(Vector3 value)
+public static Vector3L Floor(Vector3 value)
 ```
 
 ### Returns
@@ -16,7 +16,7 @@ public Vector3L Floor(Vector3 value)
 ### Summary
 
 ```csharp
-public Vector3L Floor(Vector3D value)
+public static Vector3L Floor(Vector3D value)
 ```
 
 ### Returns
@@ -29,7 +29,7 @@ public Vector3L Floor(Vector3D value)
 ### Summary
 
 ```csharp
-public void Floor(ref Vector3 v, ref Vector3L r)
+public static void Floor(ref Vector3 v, out Vector3L r)
 ```
 
 ### Parameters
@@ -39,7 +39,7 @@ public void Floor(ref Vector3 v, ref Vector3L r)
 ### Summary
 
 ```csharp
-public void Floor(ref Vector3D v, ref Vector3L r)
+public static void Floor(ref Vector3D v, out Vector3L r)
 ```
 
 ### Parameters

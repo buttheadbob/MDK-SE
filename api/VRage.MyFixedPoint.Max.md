@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MyFixedPoint Max(MyFixedPoint a, MyFixedPoint b)
+public static MyFixedPoint Max(MyFixedPoint a, MyFixedPoint b)
 ```
 
 ### Returns

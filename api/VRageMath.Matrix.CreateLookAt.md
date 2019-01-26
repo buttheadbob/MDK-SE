@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Matrix CreateLookAt(Vector3 cameraPosition, Vector3 cameraTarget, Vector3 cameraUpVector)
+public static Matrix CreateLookAt(Vector3 cameraPosition, Vector3 cameraTarget, Vector3 cameraUpVector)
 ```
 
 Creates a view matrix.
@@ -20,7 +20,7 @@ Creates a view matrix.
 ### Summary
 
 ```csharp
-public void CreateLookAt(ref Vector3 cameraPosition, ref Vector3 cameraTarget, ref Vector3 cameraUpVector, ref Matrix result)
+public static void CreateLookAt(ref Vector3 cameraPosition, ref Vector3 cameraTarget, ref Vector3 cameraUpVector, out Matrix result)
 ```
 
 Creates a view matrix.

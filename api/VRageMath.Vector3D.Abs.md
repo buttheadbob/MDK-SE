@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void Abs(ref Vector3D vector3D, ref Vector3D abs)
+public static void Abs(ref Vector3D vector3D, out Vector3D abs)
 ```
 
 ### Parameters
@@ -13,7 +13,7 @@ public void Abs(ref Vector3D vector3D, ref Vector3D abs)
 ### Summary
 
 ```csharp
-public Vector3D Abs(Vector3D value)
+public static Vector3D Abs(Vector3D value)
 ```
 
 ### Returns

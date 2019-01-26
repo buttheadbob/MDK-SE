@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public float ToRadians(float degrees)
+public static float ToRadians(float degrees)
 ```
 
 Converts degrees to radians.
@@ -18,7 +18,7 @@ Converts degrees to radians.
 ### Summary
 
 ```csharp
-public Vector3 ToRadians(Vector3 v)
+public static Vector3 ToRadians(Vector3 v)
 ```
 
 ### Returns
@@ -31,7 +31,7 @@ public Vector3 ToRadians(Vector3 v)
 ### Summary
 
 ```csharp
-public double ToRadians(double degrees)
+public static double ToRadians(double degrees)
 ```
 
 Converts degrees to radians.

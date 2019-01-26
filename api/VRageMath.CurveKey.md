@@ -25,6 +25,15 @@ Represents a point in a multi-point curve.
 |[TangentOut](VRageMath.CurveKey.TangentOut)|Describes the tangent when leaving this point to the next point in the curve.|
 |[Continuity](VRageMath.CurveKey.Continuity)|Describes whether the segment between this point and the next point in the curve is discrete or continuous.|
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[CurveKey()](VRageMath.CurveKey..ctor)||
+|[CurveKey(float, float)](VRageMath.CurveKey..ctor)||
+|[CurveKey(float, float, float, float)](VRageMath.CurveKey..ctor)||
+|[CurveKey(float, float, float, float, CurveContinuity)](VRageMath.CurveKey..ctor)||
+
 #### Methods
 
 |Member|Description|

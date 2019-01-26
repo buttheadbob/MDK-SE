@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector2 Multiply(Vector2 value1, Vector2 value2)
+public static Vector2 Multiply(Vector2 value1, Vector2 value2)
 ```
 
 Multiplies the components of two vectors by each other.
@@ -19,7 +19,7 @@ Multiplies the components of two vectors by each other.
 ### Summary
 
 ```csharp
-public void Multiply(ref Vector2 value1, ref Vector2 value2, ref Vector2 result)
+public static void Multiply(ref Vector2 value1, ref Vector2 value2, out Vector2 result)
 ```
 
 Multiplies the components of two vectors by each other.
@@ -32,7 +32,7 @@ Multiplies the components of two vectors by each other.
 ### Summary
 
 ```csharp
-public Vector2 Multiply(Vector2 value1, float scaleFactor)
+public static Vector2 Multiply(Vector2 value1, float scaleFactor)
 ```
 
 Multiplies a vector by a scalar value.
@@ -48,7 +48,7 @@ Multiplies a vector by a scalar value.
 ### Summary
 
 ```csharp
-public void Multiply(ref Vector2 value1, float scaleFactor, ref Vector2 result)
+public static void Multiply(ref Vector2 value1, float scaleFactor, out Vector2 result)
 ```
 
 Multiplies a vector by a scalar value.

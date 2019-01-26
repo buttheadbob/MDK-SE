@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3D Down
+public static Vector3D Down
 ```
 
 ### Returns

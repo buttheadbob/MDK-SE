@@ -3,6 +3,6 @@
 ### Summary
 
 ```csharp
-public void InitializeFastSin()
+public static void InitializeFastSin()
 ```
 

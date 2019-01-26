@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector4 Add(Vector4 value1, Vector4 value2)
+public static Vector4 Add(Vector4 value1, Vector4 value2)
 ```
 
 Adds two vectors.
@@ -19,7 +19,7 @@ Adds two vectors.
 ### Summary
 
 ```csharp
-public void Add(ref Vector4 value1, ref Vector4 value2, ref Vector4 result)
+public static void Add(ref Vector4 value1, ref Vector4 value2, out Vector4 result)
 ```
 
 Adds two vectors.

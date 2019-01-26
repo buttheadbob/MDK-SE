@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public float MonotonicAcos(float cos)
+public static float MonotonicAcos(float cos)
 ```
 
 ### Returns

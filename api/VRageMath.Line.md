@@ -19,10 +19,16 @@ public struct Line
 |[Length](VRageMath.Line.Length)||
 |[BoundingBox](VRageMath.Line.BoundingBox)||
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[Line(Vector3, Vector3, bool)](VRageMath.Line..ctor)||
+
 #### Methods
 
 |Member|Description|
 |---|---|
 |[GetShortestDistanceSquared(Line, Line)](VRageMath.Line.GetShortestDistanceSquared)||
-|[GetShortestVector(ref Line, ref Line, ref Vector3, ref Vector3)](VRageMath.Line.GetShortestVector)||
+|[GetShortestVector(ref Line, ref Line, out Vector3, out Vector3)](VRageMath.Line.GetShortestVector)||
 

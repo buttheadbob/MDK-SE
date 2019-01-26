@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public ClearToken<T> GetClearToken<T>(List<T> list)
+public static ClearToken<T> GetClearToken<T>(List<T> list)
 ```
 
 ### Returns

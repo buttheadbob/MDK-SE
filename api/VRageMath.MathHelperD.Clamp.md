@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public double Clamp(double value, double min, double max)
+public static double Clamp(double value, double min, double max)
 ```
 
 Restricts a value to be within a specified range. Reference page contains links to related code samples.

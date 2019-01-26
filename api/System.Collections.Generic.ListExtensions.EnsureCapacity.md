@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void EnsureCapacity<T>(List<T> list, int capacity)
+public static void EnsureCapacity<T>(List<T> list, int capacity)
 ```
 
 ### Parameters

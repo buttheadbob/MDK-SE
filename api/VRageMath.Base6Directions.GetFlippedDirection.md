@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Direction GetFlippedDirection(Direction toFlip)
+public static Direction GetFlippedDirection(Direction toFlip)
 ```
 
 ### Returns

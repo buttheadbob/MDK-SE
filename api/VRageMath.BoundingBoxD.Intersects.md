@@ -31,7 +31,7 @@ public bool Intersects(ref BoundingBoxD box)
 ### Summary
 
 ```csharp
-public void Intersects(ref BoundingBoxD box, ref bool result)
+public void Intersects(ref BoundingBoxD box, out bool result)
 ```
 
 Checks whether the current BoundingBox intersects another BoundingBox.
@@ -43,7 +43,7 @@ Checks whether the current BoundingBox intersects another BoundingBox.
 ### Summary
 
 ```csharp
-public void Intersects(ref BoundingBox box, ref bool result)
+public void Intersects(ref BoundingBox box, out bool result)
 ```
 
 ### Parameters
@@ -83,7 +83,7 @@ Checks whether the current BoundingBox intersects a Plane.
 ### Summary
 
 ```csharp
-public void Intersects(ref PlaneD plane, ref PlaneIntersectionType result)
+public void Intersects(ref PlaneD plane, out PlaneIntersectionType result)
 ```
 
 Checks whether the current BoundingBox intersects a Plane.
@@ -108,7 +108,7 @@ public bool Intersects(ref LineD line)
 ### Summary
 
 ```csharp
-public bool Intersects(ref LineD line, ref double distance)
+public bool Intersects(ref LineD line, out double distance)
 ```
 
 ### Returns
@@ -150,7 +150,7 @@ Checks whether the current BoundingBox intersects a Ray.
 ### Summary
 
 ```csharp
-public void Intersects(ref RayD ray, ref Nullable<T> result)
+public void Intersects(ref RayD ray, out Nullable<T> result)
 ```
 
 ### Parameters
@@ -175,7 +175,7 @@ Checks whether the current BoundingBox intersects a BoundingSphere.
 ### Summary
 
 ```csharp
-public void Intersects(ref BoundingSphereD sphere, ref bool result)
+public void Intersects(ref BoundingSphereD sphere, out bool result)
 ```
 
 Checks whether the current BoundingBox intersects a BoundingSphere.

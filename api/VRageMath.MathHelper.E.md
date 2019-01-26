@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public float E
+public static float E
 ```
 
 Represents the mathematical constant e.

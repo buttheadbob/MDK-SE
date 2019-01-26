@@ -25,6 +25,12 @@ public struct SerializableDefinitionId
 |[SubtypeIdAttribute](VRage.ObjectBuilders.SerializableDefinitionId.SubtypeIdAttribute)||
 |[SubtypeId](VRage.ObjectBuilders.SerializableDefinitionId.SubtypeId)||
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[SerializableDefinitionId(MyObjectBuilderType, string)](VRage.ObjectBuilders.SerializableDefinitionId..ctor)||
+
 #### Methods
 
 |Member|Description|

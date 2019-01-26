@@ -18,7 +18,7 @@ Checks whether the Ray intersects a specified BoundingBox.
 ### Summary
 
 ```csharp
-public void Intersects(ref BoundingBox box, ref Nullable<T> result)
+public void Intersects(ref BoundingBox box, out Nullable<T> result)
 ```
 
 ### Parameters
@@ -58,7 +58,7 @@ Determines whether this Ray intersects a specified Plane.
 ### Summary
 
 ```csharp
-public void Intersects(ref Plane plane, ref Nullable<T> result)
+public void Intersects(ref Plane plane, out Nullable<T> result)
 ```
 
 ### Parameters
@@ -83,7 +83,7 @@ Checks whether the Ray intersects a specified BoundingSphere.
 ### Summary
 
 ```csharp
-public void Intersects(ref BoundingSphere sphere, ref Nullable<T> result)
+public void Intersects(ref BoundingSphere sphere, out Nullable<T> result)
 ```
 
 ### Parameters

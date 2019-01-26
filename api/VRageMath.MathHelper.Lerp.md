@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public float Lerp(float value1, float value2, float amount)
+public static float Lerp(float value1, float value2, float amount)
 ```
 
 Linearly interpolates between two values.
@@ -20,7 +20,7 @@ Linearly interpolates between two values.
 ### Summary
 
 ```csharp
-public double Lerp(double value1, double value2, double amount)
+public static double Lerp(double value1, double value2, double amount)
 ```
 
 Linearly interpolates between two values.

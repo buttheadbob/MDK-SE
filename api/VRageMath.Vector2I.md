@@ -21,6 +21,15 @@ public struct Vector2I
 |[UnitX](VRageMath.Vector2I.UnitX)||
 |[UnitY](VRageMath.Vector2I.UnitY)||
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[Vector2I(int, int)](VRageMath.Vector2I..ctor)||
+|[Vector2I(int)](VRageMath.Vector2I..ctor)||
+|[Vector2I(Vector2)](VRageMath.Vector2I..ctor)||
+|[Vector2I(Vector2D)](VRageMath.Vector2I..ctor)||
+
 #### Methods
 
 |Member|Description|
@@ -32,8 +41,8 @@ public struct Vector2I
 |[Between(ref Vector2I, ref Vector2I)](VRageMath.Vector2I.Between)||
 |[Equals(object)](VRageMath.Vector2I.Equals)||
 |[GetHashCode()](VRageMath.Vector2I.GetHashCode)||
-|[Min(ref Vector2I, ref Vector2I, ref Vector2I)](VRageMath.Vector2I.Min)||
-|[Max(ref Vector2I, ref Vector2I, ref Vector2I)](VRageMath.Vector2I.Max)||
+|[Min(ref Vector2I, ref Vector2I, out Vector2I)](VRageMath.Vector2I.Min)||
+|[Max(ref Vector2I, ref Vector2I, out Vector2I)](VRageMath.Vector2I.Max)||
 |[Min(Vector2I, Vector2I)](VRageMath.Vector2I.Min)||
 |[Max(Vector2I, Vector2I)](VRageMath.Vector2I.Max)||
 

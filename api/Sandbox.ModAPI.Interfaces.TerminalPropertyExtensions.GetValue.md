@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public T GetValue<T>(IMyTerminalBlock block, string propertyId)
+public static T GetValue<T>(IMyTerminalBlock block, string propertyId)
 ```
 
 ### Returns

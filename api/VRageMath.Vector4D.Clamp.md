@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector4D Clamp(Vector4D value1, Vector4D min, Vector4D max)
+public static Vector4D Clamp(Vector4D value1, Vector4D min, Vector4D max)
 ```
 
 Restricts a value to be within a specified range.
@@ -20,7 +20,7 @@ Restricts a value to be within a specified range.
 ### Summary
 
 ```csharp
-public void Clamp(ref Vector4D value1, ref Vector4D min, ref Vector4D max, ref Vector4D result)
+public static void Clamp(ref Vector4D value1, ref Vector4D min, ref Vector4D max, out Vector4D result)
 ```
 
 Restricts a value to be within a specified range.

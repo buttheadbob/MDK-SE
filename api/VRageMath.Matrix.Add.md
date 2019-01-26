@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Matrix Add(Matrix matrix1, Matrix matrix2)
+public static Matrix Add(Matrix matrix1, Matrix matrix2)
 ```
 
 Adds a matrix to another matrix.
@@ -19,7 +19,7 @@ Adds a matrix to another matrix.
 ### Summary
 
 ```csharp
-public void Add(ref Matrix matrix1, ref Matrix matrix2, ref Matrix result)
+public static void Add(ref Matrix matrix1, ref Matrix matrix2, out Matrix result)
 ```
 
 Adds a matrix to another matrix.

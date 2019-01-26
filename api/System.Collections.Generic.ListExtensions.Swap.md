@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void Swap<T>(List<T> list, int a, int b)
+public static void Swap<T>(List<T> list, int a, int b)
 ```
 
 ### Parameters

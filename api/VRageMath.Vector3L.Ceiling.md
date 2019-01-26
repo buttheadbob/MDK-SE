@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3L Ceiling(Vector3 value)
+public static Vector3L Ceiling(Vector3 value)
 ```
 
 ### Returns

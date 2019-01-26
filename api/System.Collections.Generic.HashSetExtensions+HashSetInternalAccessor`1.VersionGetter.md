@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Func<T, TResult> VersionGetter
+public static Func<T, TResult> VersionGetter
 ```
 
 ### Returns

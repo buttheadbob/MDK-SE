@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Matrix Identity
+public static Matrix Identity
 ```
 
 ### Returns

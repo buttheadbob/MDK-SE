@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void FindAll(string source, List<T> gpsList)
+public static void FindAll(string source, List<T> gpsList)
 ```
 
 ### Parameters

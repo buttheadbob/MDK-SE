@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool IsValid(Matrix matrix)
+public static bool IsValid(Matrix matrix)
 ```
 
 ### Returns
@@ -16,7 +16,7 @@ public bool IsValid(Matrix matrix)
 ### Summary
 
 ```csharp
-public bool IsValid(MatrixD matrix)
+public static bool IsValid(MatrixD matrix)
 ```
 
 ### Returns
@@ -29,7 +29,7 @@ public bool IsValid(MatrixD matrix)
 ### Summary
 
 ```csharp
-public bool IsValid(Vector3 vec)
+public static bool IsValid(Vector3 vec)
 ```
 
 ### Returns
@@ -42,7 +42,7 @@ public bool IsValid(Vector3 vec)
 ### Summary
 
 ```csharp
-public bool IsValid(Vector3D vec)
+public static bool IsValid(Vector3D vec)
 ```
 
 ### Returns
@@ -55,7 +55,7 @@ public bool IsValid(Vector3D vec)
 ### Summary
 
 ```csharp
-public bool IsValid(Vector2 vec)
+public static bool IsValid(Vector2 vec)
 ```
 
 ### Returns
@@ -68,7 +68,7 @@ public bool IsValid(Vector2 vec)
 ### Summary
 
 ```csharp
-public bool IsValid(float f)
+public static bool IsValid(float f)
 ```
 
 ### Returns
@@ -81,7 +81,7 @@ public bool IsValid(float f)
 ### Summary
 
 ```csharp
-public bool IsValid(double f)
+public static bool IsValid(double f)
 ```
 
 ### Returns
@@ -94,7 +94,7 @@ public bool IsValid(double f)
 ### Summary
 
 ```csharp
-public bool IsValid(Nullable<T> vec)
+public static bool IsValid(Nullable<T> vec)
 ```
 
 ### Returns
@@ -107,7 +107,7 @@ public bool IsValid(Nullable<T> vec)
 ### Summary
 
 ```csharp
-public bool IsValid(Quaternion q)
+public static bool IsValid(Quaternion q)
 ```
 
 ### Returns

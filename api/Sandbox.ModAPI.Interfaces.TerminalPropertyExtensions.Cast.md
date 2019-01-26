@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public ITerminalProperty<TValue> Cast<TValue>(ITerminalProperty property)
+public static ITerminalProperty<TValue> Cast<TValue>(ITerminalProperty property)
 ```
 
 ### Returns

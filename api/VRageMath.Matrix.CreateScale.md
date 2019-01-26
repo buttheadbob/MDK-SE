@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Matrix CreateScale(float xScale, float yScale, float zScale)
+public static Matrix CreateScale(float xScale, float yScale, float zScale)
 ```
 
 Creates a scaling Matrix.
@@ -20,7 +20,7 @@ Creates a scaling Matrix.
 ### Summary
 
 ```csharp
-public void CreateScale(float xScale, float yScale, float zScale, ref Matrix result)
+public static void CreateScale(float xScale, float yScale, float zScale, out Matrix result)
 ```
 
 Creates a scaling Matrix.
@@ -34,7 +34,7 @@ Creates a scaling Matrix.
 ### Summary
 
 ```csharp
-public Matrix CreateScale(Vector3 scales)
+public static Matrix CreateScale(Vector3 scales)
 ```
 
 Creates a scaling Matrix.
@@ -49,7 +49,7 @@ Creates a scaling Matrix.
 ### Summary
 
 ```csharp
-public void CreateScale(ref Vector3 scales, ref Matrix result)
+public static void CreateScale(ref Vector3 scales, out Matrix result)
 ```
 
 Creates a scaling Matrix.
@@ -61,7 +61,7 @@ Creates a scaling Matrix.
 ### Summary
 
 ```csharp
-public Matrix CreateScale(float scale)
+public static Matrix CreateScale(float scale)
 ```
 
 Creates a scaling Matrix.
@@ -76,7 +76,7 @@ Creates a scaling Matrix.
 ### Summary
 
 ```csharp
-public void CreateScale(float scale, ref Matrix result)
+public static void CreateScale(float scale, out Matrix result)
 ```
 
 Creates a scaling Matrix.

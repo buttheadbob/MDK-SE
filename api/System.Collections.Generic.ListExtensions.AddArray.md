@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void AddArray<T>(List<T> list, T[] itemsToAdd)
+public static void AddArray<T>(List<T> list, T[] itemsToAdd)
 ```
 
 ### Parameters
@@ -13,7 +13,7 @@ public void AddArray<T>(List<T> list, T[] itemsToAdd)
 ### Summary
 
 ```csharp
-public void AddArray<T>(List<T> list, T[] itemsToAdd, int itemCount)
+public static void AddArray<T>(List<T> list, T[] itemsToAdd, int itemCount)
 ```
 
 ### Parameters

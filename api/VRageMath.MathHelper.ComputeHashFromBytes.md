@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public int ComputeHashFromBytes(Byte[] bytes)
+public static int ComputeHashFromBytes(Byte[] bytes)
 ```
 
 ### Returns

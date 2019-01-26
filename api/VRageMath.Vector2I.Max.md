@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void Max(ref Vector2I v1, ref Vector2I v2, ref Vector2I max)
+public static void Max(ref Vector2I v1, ref Vector2I v2, out Vector2I max)
 ```
 
 ### Parameters
@@ -14,7 +14,7 @@ public void Max(ref Vector2I v1, ref Vector2I v2, ref Vector2I max)
 ### Summary
 
 ```csharp
-public Vector2I Max(Vector2I v1, Vector2I v2)
+public static Vector2I Max(Vector2I v1, Vector2I v2)
 ```
 
 ### Returns

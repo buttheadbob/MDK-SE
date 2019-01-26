@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MyFixedPoint SmallestPossibleValue
+public static MyFixedPoint SmallestPossibleValue
 ```
 
 ### Returns

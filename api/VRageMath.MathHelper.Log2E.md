@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public float Log2E
+public static float Log2E
 ```
 
 Represents the log base two of e.

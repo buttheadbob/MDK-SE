@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public int Encode(ref Vector3I value)
+public static int Encode(ref Vector3I value)
 ```
 
 ### Returns

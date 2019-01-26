@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void SetValueBool(IMyTerminalBlock block, string propertyId, bool value)
+public static void SetValueBool(IMyTerminalBlock block, string propertyId, bool value)
 ```
 
 Set bool value of property

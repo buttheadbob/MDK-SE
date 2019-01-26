@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public double DistanceToTangent(ref Vector3D center, ref Vector3D point, double radius)
+public static double DistanceToTangent(ref Vector3D center, ref Vector3D point, double radius)
 ```
 
 ### Returns
@@ -18,7 +18,7 @@ public double DistanceToTangent(ref Vector3D center, ref Vector3D point, doubl
 ### Summary
 
 ```csharp
-public double DistanceToTangent(ref Vector2D center, ref Vector2D point, double radius)
+public static double DistanceToTangent(ref Vector2D center, ref Vector2D point, double radius)
 ```
 
 ### Returns

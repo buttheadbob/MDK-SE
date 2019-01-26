@@ -22,12 +22,21 @@ public struct MyTransform
 |---|---|
 |[TransformMatrix](VRageMath.MyTransform.TransformMatrix)||
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[MyTransform(Vector3)](VRageMath.MyTransform..ctor)||
+|[MyTransform(Matrix)](VRageMath.MyTransform..ctor)||
+|[MyTransform(ref Vector3)](VRageMath.MyTransform..ctor)||
+|[MyTransform(ref Matrix)](VRageMath.MyTransform..ctor)||
+
 #### Methods
 
 |Member|Description|
 |---|---|
 |[Transform(ref MyTransform, ref MyTransform)](VRageMath.MyTransform.Transform)||
-|[Transform(ref MyTransform, ref MyTransform, ref MyTransform)](VRageMath.MyTransform.Transform)||
+|[Transform(ref MyTransform, ref MyTransform, out MyTransform)](VRageMath.MyTransform.Transform)||
 |[Transform(ref Vector3, ref MyTransform)](VRageMath.MyTransform.Transform)||
-|[Transform(ref Vector3, ref MyTransform, ref Vector3)](VRageMath.MyTransform.Transform)||
+|[Transform(ref Vector3, ref MyTransform, out Vector3)](VRageMath.MyTransform.Transform)||
 

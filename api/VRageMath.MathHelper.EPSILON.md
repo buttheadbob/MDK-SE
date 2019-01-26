@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public float EPSILON
+public static float EPSILON
 ```
 
 ### Returns

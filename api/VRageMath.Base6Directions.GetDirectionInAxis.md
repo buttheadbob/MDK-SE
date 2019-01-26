@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Direction GetDirectionInAxis(Vector3 vec, Axis axis)
+public static Direction GetDirectionInAxis(Vector3 vec, Axis axis)
 ```
 
 ### Returns
@@ -17,7 +17,7 @@ public Direction GetDirectionInAxis(Vector3 vec, Axis axis)
 ### Summary
 
 ```csharp
-public Direction GetDirectionInAxis(ref Vector3 vec, Axis axis)
+public static Direction GetDirectionInAxis(ref Vector3 vec, Axis axis)
 ```
 
 ### Returns

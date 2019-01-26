@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public int CornerCount
+public static int CornerCount
 ```
 
 ### Returns

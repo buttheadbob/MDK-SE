@@ -23,6 +23,13 @@ public struct TextPtr
 |[Char](VRage.Game.ModAPI.Ingame.Utilities.TextPtr.Char)||
 |[IsEmpty](VRage.Game.ModAPI.Ingame.Utilities.TextPtr.IsEmpty)||
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[TextPtr(string)](VRage.Game.ModAPI.Ingame.Utilities.TextPtr..ctor)||
+|[TextPtr(string, int)](VRage.Game.ModAPI.Ingame.Utilities.TextPtr..ctor)||
+
 #### Methods
 
 |Member|Description|

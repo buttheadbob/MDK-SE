@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void RemoveAtFast<T>(List<T> list, int index)
+public static void RemoveAtFast<T>(List<T> list, int index)
 ```
 
 ### Parameters
@@ -13,7 +13,7 @@ public void RemoveAtFast<T>(List<T> list, int index)
 ### Summary
 
 ```csharp
-public void RemoveAtFast<T>(IList<T> list, int index)
+public static void RemoveAtFast<T>(IList<T> list, int index)
 ```
 
 ### Parameters

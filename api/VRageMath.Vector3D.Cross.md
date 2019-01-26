@@ -16,7 +16,7 @@ public Vector3D Cross(Vector3D v)
 ### Summary
 
 ```csharp
-public Vector3D Cross(Vector3D vector1, Vector3D vector2)
+public static Vector3D Cross(Vector3D vector1, Vector3D vector2)
 ```
 
 Calculates the cross product of two vectors.
@@ -32,7 +32,7 @@ Calculates the cross product of two vectors.
 ### Summary
 
 ```csharp
-public void Cross(ref Vector3D vector1, ref Vector3D vector2, ref Vector3D result)
+public static void Cross(ref Vector3D vector1, ref Vector3D vector2, out Vector3D result)
 ```
 
 Calculates the cross product of two vectors.

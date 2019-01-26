@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void TransformNormal(ref Vector3D normal, ref MatrixI matrix, ref Vector3D result)
+public static void TransformNormal(ref Vector3D normal, ref MatrixI matrix, out Vector3D result)
 ```
 
 ### Parameters
@@ -14,7 +14,7 @@ public void TransformNormal(ref Vector3D normal, ref MatrixI matrix, ref Vect
 ### Summary
 
 ```csharp
-public Vector3D TransformNormal(Vector3D normal, MyBlockOrientation orientation)
+public static Vector3D TransformNormal(Vector3D normal, MyBlockOrientation orientation)
 ```
 
 ### Returns
@@ -28,7 +28,7 @@ public Vector3D TransformNormal(Vector3D normal, MyBlockOrientation orientation)
 ### Summary
 
 ```csharp
-public void TransformNormal(ref Vector3D normal, MyBlockOrientation orientation, ref Vector3D result)
+public static void TransformNormal(ref Vector3D normal, MyBlockOrientation orientation, out Vector3D result)
 ```
 
 ### Parameters
@@ -39,7 +39,7 @@ public void TransformNormal(ref Vector3D normal, MyBlockOrientation orientation
 ### Summary
 
 ```csharp
-public Vector3D TransformNormal(Vector3D normal, ref MatrixD matrix)
+public static Vector3D TransformNormal(Vector3D normal, ref MatrixD matrix)
 ```
 
 ### Returns
@@ -53,7 +53,7 @@ public Vector3D TransformNormal(Vector3D normal, ref MatrixD matrix)
 ### Summary
 
 ```csharp
-public void TransformNormal(Vector3D[] sourceArray, ref Matrix matrix, Vector3D[] destinationArray)
+public static void TransformNormal(Vector3D[] sourceArray, ref Matrix matrix, Vector3D[] destinationArray)
 ```
 
 Transforms an array of 3D vector normals by a specified Matrix.
@@ -66,7 +66,7 @@ Transforms an array of 3D vector normals by a specified Matrix.
 ### Summary
 
 ```csharp
-public void TransformNormal(Vector3D[] sourceArray, ref Matrix matrix, *Vector3D destinationArray)
+public static void TransformNormal(Vector3D[] sourceArray, ref Matrix matrix, *Vector3D destinationArray)
 ```
 
 ### Parameters
@@ -77,7 +77,7 @@ public void TransformNormal(Vector3D[] sourceArray, ref Matrix matrix, *Vector3
 ### Summary
 
 ```csharp
-public void TransformNormal(Vector3D[] sourceArray, int sourceIndex, ref Matrix matrix, Vector3D[] destinationArray, int destinationIndex, int length)
+public static void TransformNormal(Vector3D[] sourceArray, int sourceIndex, ref Matrix matrix, Vector3D[] destinationArray, int destinationIndex, int length)
 ```
 
 Transforms a specified range in an array of 3D vector normals by a specified Matrix and writes the results to a specified range in a destination array.
@@ -93,7 +93,7 @@ Transforms a specified range in an array of 3D vector normals by a specified Mat
 ### Summary
 
 ```csharp
-public Vector3D TransformNormal(Vector3D normal, Matrix matrix)
+public static Vector3D TransformNormal(Vector3D normal, Matrix matrix)
 ```
 
 Transforms a 3D vector normal by a matrix.
@@ -109,7 +109,7 @@ Transforms a 3D vector normal by a matrix.
 ### Summary
 
 ```csharp
-public Vector3D TransformNormal(Vector3 normal, MatrixD matrix)
+public static Vector3D TransformNormal(Vector3 normal, MatrixD matrix)
 ```
 
 Transforms a 3D vector normal by a matrix.
@@ -125,7 +125,7 @@ Transforms a 3D vector normal by a matrix.
 ### Summary
 
 ```csharp
-public Vector3D TransformNormal(Vector3D normal, MatrixD matrix)
+public static Vector3D TransformNormal(Vector3D normal, MatrixD matrix)
 ```
 
 Transforms a 3D vector normal by a matrix.
@@ -141,7 +141,7 @@ Transforms a 3D vector normal by a matrix.
 ### Summary
 
 ```csharp
-public void TransformNormal(ref Vector3D normal, ref MatrixD matrix, ref Vector3D result)
+public static void TransformNormal(ref Vector3D normal, ref MatrixD matrix, out Vector3D result)
 ```
 
 Transforms a vector normal by a matrix.
@@ -154,7 +154,7 @@ Transforms a vector normal by a matrix.
 ### Summary
 
 ```csharp
-public void TransformNormal(ref Vector3 normal, ref MatrixD matrix, ref Vector3D result)
+public static void TransformNormal(ref Vector3 normal, ref MatrixD matrix, out Vector3D result)
 ```
 
 ### Parameters

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Matrix SwapYZCoordinates(Matrix m)
+public static Matrix SwapYZCoordinates(Matrix m)
 ```
 
 ### Returns

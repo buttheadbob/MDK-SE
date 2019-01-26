@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public float AngleBetween(Vector3 a, Vector3 b)
+public static float AngleBetween(Vector3 a, Vector3 b)
 ```
 
 ### Returns

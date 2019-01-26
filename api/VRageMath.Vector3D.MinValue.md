@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3D MinValue
+public static Vector3D MinValue
 ```
 
 ### Returns

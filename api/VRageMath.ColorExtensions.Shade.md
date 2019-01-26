@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Color Shade(Color c, float r)
+public static Color Shade(Color c, float r)
 ```
 
 ### Returns

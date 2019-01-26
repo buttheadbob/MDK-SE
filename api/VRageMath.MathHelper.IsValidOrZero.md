@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool IsValidOrZero(Matrix matrix)
+public static bool IsValidOrZero(Matrix matrix)
 ```
 
 ### Returns

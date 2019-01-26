@@ -37,6 +37,12 @@ Defines an axis-aligned box-shaped 3D volume.
 |[Perimeter](VRageMath.BoundingBoxD.Perimeter)|return perimeter of edges|
 |[Valid](VRageMath.BoundingBoxD.Valid)||
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[BoundingBoxD(Vector3D, Vector3D)](VRageMath.BoundingBoxD..ctor)||
+
 #### Methods
 
 |Member|Description|
@@ -49,41 +55,41 @@ Defines an axis-aligned box-shaped 3D volume.
 |[GetHashCode()](VRageMath.BoundingBoxD.GetHashCode)|Gets the hash code for this instance.|
 |[ToString()](VRageMath.BoundingBoxD.ToString)|Returns a String that represents the current BoundingBox.|
 |[CreateMerged(BoundingBoxD, BoundingBoxD)](VRageMath.BoundingBoxD.CreateMerged)|Creates the smallest BoundingBox that contains the two specified BoundingBox instances.|
-|[CreateMerged(ref BoundingBoxD, ref BoundingBoxD, ref BoundingBoxD)](VRageMath.BoundingBoxD.CreateMerged)|Creates the smallest BoundingBox that contains the two specified BoundingBox instances.|
+|[CreateMerged(ref BoundingBoxD, ref BoundingBoxD, out BoundingBoxD)](VRageMath.BoundingBoxD.CreateMerged)|Creates the smallest BoundingBox that contains the two specified BoundingBox instances.|
 |[CreateFromSphere(BoundingSphereD)](VRageMath.BoundingBoxD.CreateFromSphere)|Creates the smallest BoundingBox that will contain the specified BoundingSphere.|
-|[CreateFromSphere(ref BoundingSphereD, ref BoundingBoxD)](VRageMath.BoundingBoxD.CreateFromSphere)|Creates the smallest BoundingBox that will contain the specified BoundingSphere.|
+|[CreateFromSphere(ref BoundingSphereD, out BoundingBoxD)](VRageMath.BoundingBoxD.CreateFromSphere)|Creates the smallest BoundingBox that will contain the specified BoundingSphere.|
 |[CreateFromPoints(IEnumerable)](VRageMath.BoundingBoxD.CreateFromPoints)||
 |[Intersect(BoundingBoxD)](VRageMath.BoundingBoxD.Intersect)|Returns bounding box which is intersection of this and box It's called 'Prunik' Result is invalid box when there's no intersection (Min > Max)|
 |[Intersects(BoundingBoxD)](VRageMath.BoundingBoxD.Intersects)|Checks whether the current BoundingBox intersects another BoundingBox.|
 |[Intersects(ref BoundingBoxD)](VRageMath.BoundingBoxD.Intersects)||
-|[Intersects(ref BoundingBoxD, ref bool)](VRageMath.BoundingBoxD.Intersects)|Checks whether the current BoundingBox intersects another BoundingBox.|
-|[Intersects(ref BoundingBox, ref bool)](VRageMath.BoundingBoxD.Intersects)||
+|[Intersects(ref BoundingBoxD, out bool)](VRageMath.BoundingBoxD.Intersects)|Checks whether the current BoundingBox intersects another BoundingBox.|
+|[Intersects(ref BoundingBox, out bool)](VRageMath.BoundingBoxD.Intersects)||
 |[IntersectsTriangle(Vector3D, Vector3D, Vector3D)](VRageMath.BoundingBoxD.IntersectsTriangle)||
 |[IntersectsTriangle(ref Vector3D, ref Vector3D, ref Vector3D)](VRageMath.BoundingBoxD.IntersectsTriangle)||
 |[Intersects(BoundingFrustumD)](VRageMath.BoundingBoxD.Intersects)|Checks whether the current BoundingBox intersects a BoundingFrustum.|
 |[Intersects(PlaneD)](VRageMath.BoundingBoxD.Intersects)|Checks whether the current BoundingBox intersects a Plane.|
-|[Intersects(ref PlaneD, ref PlaneIntersectionType)](VRageMath.BoundingBoxD.Intersects)|Checks whether the current BoundingBox intersects a Plane.|
+|[Intersects(ref PlaneD, out PlaneIntersectionType)](VRageMath.BoundingBoxD.Intersects)|Checks whether the current BoundingBox intersects a Plane.|
 |[Intersects(ref LineD)](VRageMath.BoundingBoxD.Intersects)||
-|[Intersects(ref LineD, ref double)](VRageMath.BoundingBoxD.Intersects)||
+|[Intersects(ref LineD, out double)](VRageMath.BoundingBoxD.Intersects)||
 |[Intersects(Ray)](VRageMath.BoundingBoxD.Intersects)||
 |[Intersects(RayD)](VRageMath.BoundingBoxD.Intersects)|Checks whether the current BoundingBox intersects a Ray.|
-|[Intersects(ref RayD, ref Nullable)](VRageMath.BoundingBoxD.Intersects)||
-|[Intersect(ref LineD, ref LineD)](VRageMath.BoundingBoxD.Intersect)||
-|[Intersect(ref LineD, ref double, ref double)](VRageMath.BoundingBoxD.Intersect)||
-|[Intersect(ref RayD, ref double, ref double)](VRageMath.BoundingBoxD.Intersect)||
+|[Intersects(ref RayD, out Nullable)](VRageMath.BoundingBoxD.Intersects)||
+|[Intersect(ref LineD, out LineD)](VRageMath.BoundingBoxD.Intersect)||
+|[Intersect(ref LineD, out double, out double)](VRageMath.BoundingBoxD.Intersect)||
+|[Intersect(ref RayD, out double, out double)](VRageMath.BoundingBoxD.Intersect)||
 |[Intersects(BoundingSphereD)](VRageMath.BoundingBoxD.Intersects)|Checks whether the current BoundingBox intersects a BoundingSphere.|
-|[Intersects(ref BoundingSphereD, ref bool)](VRageMath.BoundingBoxD.Intersects)|Checks whether the current BoundingBox intersects a BoundingSphere.|
+|[Intersects(ref BoundingSphereD, out bool)](VRageMath.BoundingBoxD.Intersects)|Checks whether the current BoundingBox intersects a BoundingSphere.|
 |[Intersects(ref BoundingSphereD)](VRageMath.BoundingBoxD.Intersects)||
 |[Distance(Vector3D)](VRageMath.BoundingBoxD.Distance)||
 |[DistanceSquared(Vector3D)](VRageMath.BoundingBoxD.DistanceSquared)||
 |[DistanceSquared(ref Vector3D)](VRageMath.BoundingBoxD.DistanceSquared)||
 |[Contains(BoundingBoxD)](VRageMath.BoundingBoxD.Contains)|Tests whether the BoundingBox contains another BoundingBox.|
-|[Contains(ref BoundingBoxD, ref ContainmentType)](VRageMath.BoundingBoxD.Contains)|Tests whether the BoundingBox contains a BoundingBox.|
+|[Contains(ref BoundingBoxD, out ContainmentType)](VRageMath.BoundingBoxD.Contains)|Tests whether the BoundingBox contains a BoundingBox.|
 |[Contains(BoundingFrustumD)](VRageMath.BoundingBoxD.Contains)|Tests whether the BoundingBox contains a BoundingFrustum.|
 |[Contains(Vector3D)](VRageMath.BoundingBoxD.Contains)|Tests whether the BoundingBox contains a point.|
-|[Contains(ref Vector3D, ref ContainmentType)](VRageMath.BoundingBoxD.Contains)|Tests whether the BoundingBox contains a point.|
+|[Contains(ref Vector3D, out ContainmentType)](VRageMath.BoundingBoxD.Contains)|Tests whether the BoundingBox contains a point.|
 |[Contains(BoundingSphereD)](VRageMath.BoundingBoxD.Contains)|Tests whether the BoundingBox contains a BoundingSphere.|
-|[Contains(ref BoundingSphereD, ref ContainmentType)](VRageMath.BoundingBoxD.Contains)|Tests whether the BoundingBox contains a BoundingSphere.|
+|[Contains(ref BoundingSphereD, out ContainmentType)](VRageMath.BoundingBoxD.Contains)|Tests whether the BoundingBox contains a BoundingSphere.|
 |[Translate(MatrixD)](VRageMath.BoundingBoxD.Translate)|Translate|
 |[Translate(Vector3D)](VRageMath.BoundingBoxD.Translate)|Translate|
 |[TransformSlow(MatrixD)](VRageMath.BoundingBoxD.TransformSlow)|Transform this AABB by matrix.|

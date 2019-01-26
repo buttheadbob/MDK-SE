@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Matrix CreateFromPerspectiveFieldOfView(ref Matrix proj, float nearPlaneDistance, float farPlaneDistance)
+public static Matrix CreateFromPerspectiveFieldOfView(ref Matrix proj, float nearPlaneDistance, float farPlaneDistance)
 ```
 
 ### Returns

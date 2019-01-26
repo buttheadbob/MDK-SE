@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3I[] IntDirections
+public static Vector3I[] IntDirections
 ```
 
 ### Returns

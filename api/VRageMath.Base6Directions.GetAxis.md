@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Axis GetAxis(Direction direction)
+public static Axis GetAxis(Direction direction)
 ```
 
 ### Returns

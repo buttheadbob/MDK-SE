@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector2D UnitY
+public static Vector2D UnitY
 ```
 
 ### Returns

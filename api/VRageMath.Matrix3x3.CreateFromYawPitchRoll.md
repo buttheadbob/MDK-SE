@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Matrix3x3 CreateFromYawPitchRoll(float yaw, float pitch, float roll)
+public static Matrix3x3 CreateFromYawPitchRoll(float yaw, float pitch, float roll)
 ```
 
 Creates a new rotation matrix from a specified yaw, pitch, and roll.
@@ -20,7 +20,7 @@ Creates a new rotation matrix from a specified yaw, pitch, and roll.
 ### Summary
 
 ```csharp
-public void CreateFromYawPitchRoll(float yaw, float pitch, float roll, ref Matrix3x3 result)
+public static void CreateFromYawPitchRoll(float yaw, float pitch, float roll, out Matrix3x3 result)
 ```
 
 Fills in a rotation matrix from a specified yaw, pitch, and roll.

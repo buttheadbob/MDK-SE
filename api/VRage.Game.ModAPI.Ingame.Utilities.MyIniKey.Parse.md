@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MyIniKey Parse(string input)
+public static MyIniKey Parse(string input)
 ```
 
 Parses a string in the form of`section/key`into a [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) object.

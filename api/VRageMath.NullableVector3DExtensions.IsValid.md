@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool IsValid(Nullable<T> value)
+public static bool IsValid(Nullable<T> value)
 ```
 
 ### Returns

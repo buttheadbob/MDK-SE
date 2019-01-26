@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void RotateAndScale(ref Vector3 vector, ref Matrix matrix, ref Vector3 result)
+public static void RotateAndScale(ref Vector3 vector, ref Matrix matrix, out Vector3 result)
 ```
 
 ### Parameters
@@ -14,7 +14,7 @@ public void RotateAndScale(ref Vector3 vector, ref Matrix matrix, ref Vector3
 ### Summary
 
 ```csharp
-public Vector3 RotateAndScale(Vector3 vector, Matrix matrix)
+public static Vector3 RotateAndScale(Vector3 vector, Matrix matrix)
 ```
 
 ### Returns

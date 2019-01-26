@@ -18,7 +18,7 @@ Checks whether the current BoundingFrustumD intersects the specified BoundingBox
 ### Summary
 
 ```csharp
-public void Intersects(ref BoundingBoxD box, ref bool result)
+public void Intersects(ref BoundingBoxD box, out bool result)
 ```
 
 Checks whether the current BoundingFrustumD intersects a BoundingBoxD.
@@ -60,7 +60,7 @@ Checks whether the current BoundingFrustumD intersects the specified Plane.
 ### Summary
 
 ```csharp
-public void Intersects(ref PlaneD plane, ref PlaneIntersectionType result)
+public void Intersects(ref PlaneD plane, out PlaneIntersectionType result)
 ```
 
 Checks whether the current BoundingFrustumD intersects a Plane.
@@ -87,7 +87,7 @@ Checks whether the current BoundingFrustumD intersects the specified Ray.
 ### Summary
 
 ```csharp
-public void Intersects(ref RayD ray, ref Nullable<T> result)
+public void Intersects(ref RayD ray, out Nullable<T> result)
 ```
 
 ### Parameters
@@ -112,7 +112,7 @@ Checks whether the current BoundingFrustumD intersects the specified BoundingSph
 ### Summary
 
 ```csharp
-public void Intersects(ref BoundingSphereD sphere, ref bool result)
+public void Intersects(ref BoundingSphereD sphere, out bool result)
 ```
 
 Checks whether the current BoundingFrustumD intersects a BoundingSphere.

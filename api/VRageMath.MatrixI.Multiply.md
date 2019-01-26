@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void Multiply(ref MatrixI leftMatrix, ref MatrixI rightMatrix, ref MatrixI result)
+public static void Multiply(ref MatrixI leftMatrix, ref MatrixI rightMatrix, out MatrixI result)
 ```
 
 ### Parameters

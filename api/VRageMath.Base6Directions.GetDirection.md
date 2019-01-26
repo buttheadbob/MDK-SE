@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Direction GetDirection(Vector3 vec)
+public static Direction GetDirection(Vector3 vec)
 ```
 
 ### Returns
@@ -16,7 +16,7 @@ public Direction GetDirection(Vector3 vec)
 ### Summary
 
 ```csharp
-public Direction GetDirection(ref Vector3 vec)
+public static Direction GetDirection(ref Vector3 vec)
 ```
 
 ### Returns
@@ -29,7 +29,7 @@ public Direction GetDirection(ref Vector3 vec)
 ### Summary
 
 ```csharp
-public Direction GetDirection(Vector3I vec)
+public static Direction GetDirection(Vector3I vec)
 ```
 
 ### Returns
@@ -42,7 +42,7 @@ public Direction GetDirection(Vector3I vec)
 ### Summary
 
 ```csharp
-public Direction GetDirection(ref Vector3I vec)
+public static Direction GetDirection(ref Vector3I vec)
 ```
 
 ### Returns

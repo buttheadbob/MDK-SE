@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MatrixD Identity
+public static MatrixD Identity
 ```
 
 ### Returns

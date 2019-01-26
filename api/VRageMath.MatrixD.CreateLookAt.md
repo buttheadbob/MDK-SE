@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MatrixD CreateLookAt(Vector3D cameraPosition, Vector3D cameraTarget, Vector3 cameraUpVector)
+public static MatrixD CreateLookAt(Vector3D cameraPosition, Vector3D cameraTarget, Vector3 cameraUpVector)
 ```
 
 ### Returns
@@ -18,7 +18,7 @@ public MatrixD CreateLookAt(Vector3D cameraPosition, Vector3D cameraTarget, Vect
 ### Summary
 
 ```csharp
-public MatrixD CreateLookAt(Vector3D cameraPosition, Vector3D cameraTarget, Vector3D cameraUpVector)
+public static MatrixD CreateLookAt(Vector3D cameraPosition, Vector3D cameraTarget, Vector3D cameraUpVector)
 ```
 
 Creates a view matrix.
@@ -35,7 +35,7 @@ Creates a view matrix.
 ### Summary
 
 ```csharp
-public void CreateLookAt(ref Vector3D cameraPosition, ref Vector3D cameraTarget, ref Vector3D cameraUpVector, ref MatrixD result)
+public static void CreateLookAt(ref Vector3D cameraPosition, ref Vector3D cameraTarget, ref Vector3D cameraUpVector, out MatrixD result)
 ```
 
 Creates a view matrix.

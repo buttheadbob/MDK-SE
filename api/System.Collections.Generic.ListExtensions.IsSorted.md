@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool IsSorted<T>(List<T> self, IComparer<T> comparer)
+public static bool IsSorted<T>(List<T> self, IComparer<T> comparer)
 ```
 
 ### Returns

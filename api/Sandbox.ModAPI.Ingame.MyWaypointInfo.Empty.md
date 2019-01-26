@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MyWaypointInfo Empty
+public static MyWaypointInfo Empty
 ```
 
 Returns an empty (undefined) GPS coordinate

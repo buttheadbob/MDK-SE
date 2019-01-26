@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public float DistanceSquared(Vector3 value1, Vector3 value2)
+public static float DistanceSquared(Vector3 value1, Vector3 value2)
 ```
 
 Calculates the distance between two vectors squared.
@@ -19,7 +19,7 @@ Calculates the distance between two vectors squared.
 ### Summary
 
 ```csharp
-public void DistanceSquared(ref Vector3 value1, ref Vector3 value2, ref float result)
+public static void DistanceSquared(ref Vector3 value1, ref Vector3 value2, out float result)
 ```
 
 Calculates the distance between two vectors squared.

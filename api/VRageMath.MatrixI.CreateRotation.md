@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MatrixI CreateRotation(Direction oldA, Direction oldB, Direction newA, Direction newB)
+public static MatrixI CreateRotation(Direction oldA, Direction oldB, Direction newA, Direction newB)
 ```
 
 ### Returns

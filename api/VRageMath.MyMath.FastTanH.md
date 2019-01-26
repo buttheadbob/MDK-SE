@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public float FastTanH(float x)
+public static float FastTanH(float x)
 ```
 
 Fast approximation of Hyperbolic tangent Max deviation is <3%

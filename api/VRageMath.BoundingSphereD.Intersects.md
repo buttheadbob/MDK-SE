@@ -18,7 +18,7 @@ Checks whether the current BoundingSphereD intersects with a specified BoundingB
 ### Summary
 
 ```csharp
-public void Intersects(ref BoundingBoxD box, ref bool result)
+public void Intersects(ref BoundingBoxD box, out bool result)
 ```
 
 Checks whether the current BoundingSphereD intersects a BoundingBoxD.
@@ -73,7 +73,7 @@ Checks whether the current BoundingSphereD intersects with a specified BoundingS
 ### Summary
 
 ```csharp
-public void Intersects(ref BoundingSphereD sphere, ref bool result)
+public void Intersects(ref BoundingSphereD sphere, out bool result)
 ```
 
 Checks whether the current BoundingSphereD intersects another BoundingSphereD.

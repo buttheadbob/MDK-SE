@@ -25,6 +25,13 @@ public struct StringSegment
 |[IsCached](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.IsCached)||
 |[Item](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.Item)||
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[StringSegment(string)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment..ctor)||
+|[StringSegment(string, int, int)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment..ctor)||
+
 #### Methods
 
 |Member|Description|

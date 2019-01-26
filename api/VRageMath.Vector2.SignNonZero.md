@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector2 SignNonZero(Vector2 value)
+public static Vector2 SignNonZero(Vector2 value)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MatrixD CreateTranslation(Vector3D position)
+public static MatrixD CreateTranslation(Vector3D position)
 ```
 
 Creates a translation Matrix.
@@ -18,7 +18,7 @@ Creates a translation Matrix.
 ### Summary
 
 ```csharp
-public MatrixD CreateTranslation(Vector3 position)
+public static MatrixD CreateTranslation(Vector3 position)
 ```
 
 ### Returns
@@ -31,7 +31,7 @@ public MatrixD CreateTranslation(Vector3 position)
 ### Summary
 
 ```csharp
-public void CreateTranslation(ref Vector3D position, ref MatrixD result)
+public static void CreateTranslation(ref Vector3D position, out MatrixD result)
 ```
 
 Creates a translation Matrix.
@@ -43,7 +43,7 @@ Creates a translation Matrix.
 ### Summary
 
 ```csharp
-public MatrixD CreateTranslation(double xPosition, double yPosition, double zPosition)
+public static MatrixD CreateTranslation(double xPosition, double yPosition, double zPosition)
 ```
 
 Creates a translation Matrix.
@@ -60,7 +60,7 @@ Creates a translation Matrix.
 ### Summary
 
 ```csharp
-public void CreateTranslation(double xPosition, double yPosition, double zPosition, ref MatrixD result)
+public static void CreateTranslation(double xPosition, double yPosition, double zPosition, out MatrixD result)
 ```
 
 Creates a translation Matrix.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3L UnitY
+public static Vector3L UnitY
 ```
 
 ### Returns

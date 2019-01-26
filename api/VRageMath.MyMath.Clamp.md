@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public float Clamp(float val, float min, float max)
+public static float Clamp(float val, float min, float max)
 ```
 
 ### Returns

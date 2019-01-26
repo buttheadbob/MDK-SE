@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Matrix CreateLookAtInverse(Vector3D cameraPosition, Vector3D cameraTarget, Vector3D cameraUpVector)
+public static Matrix CreateLookAtInverse(Vector3D cameraPosition, Vector3D cameraTarget, Vector3D cameraUpVector)
 ```
 
 ### Returns

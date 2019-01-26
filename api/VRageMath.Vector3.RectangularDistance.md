@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public float RectangularDistance(Vector3 value1, Vector3 value2)
+public static float RectangularDistance(Vector3 value1, Vector3 value2)
 ```
 
 Calculates rectangular distance (a.k.a. Manhattan distance or Chessboard distace) between two vectors.
@@ -19,7 +19,7 @@ Calculates rectangular distance (a.k.a. Manhattan distance or Chessboard distace
 ### Summary
 
 ```csharp
-public float RectangularDistance(ref Vector3 value1, ref Vector3 value2)
+public static float RectangularDistance(ref Vector3 value1, ref Vector3 value2)
 ```
 
 Calculates rectangular distance (a.k.a. Manhattan distance or Chessboard distace) between two vectors.

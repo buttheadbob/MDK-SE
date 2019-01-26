@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public float FastCos(float angle)
+public static float FastCos(float angle)
 ```
 
 ### Returns

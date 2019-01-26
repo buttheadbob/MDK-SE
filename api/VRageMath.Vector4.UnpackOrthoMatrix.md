@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Matrix UnpackOrthoMatrix(ref Vector4 packed)
+public static Matrix UnpackOrthoMatrix(ref Vector4 packed)
 ```
 
 ### Returns
@@ -16,7 +16,7 @@ public Matrix UnpackOrthoMatrix(ref Vector4 packed)
 ### Summary
 
 ```csharp
-public void UnpackOrthoMatrix(ref Vector4 packed, ref Matrix matrix)
+public static void UnpackOrthoMatrix(ref Vector4 packed, out Matrix matrix)
 ```
 
 ### Parameters

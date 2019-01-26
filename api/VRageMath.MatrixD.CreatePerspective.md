@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MatrixD CreatePerspective(double width, double height, double nearPlaneDistance, double farPlaneDistance)
+public static MatrixD CreatePerspective(double width, double height, double nearPlaneDistance, double farPlaneDistance)
 ```
 
 Builds a perspective projection matrix and returns the result by value.
@@ -21,7 +21,7 @@ Builds a perspective projection matrix and returns the result by value.
 ### Summary
 
 ```csharp
-public void CreatePerspective(double width, double height, double nearPlaneDistance, double farPlaneDistance, ref MatrixD result)
+public static void CreatePerspective(double width, double height, double nearPlaneDistance, double farPlaneDistance, out MatrixD result)
 ```
 
 Builds a perspective projection matrix and returns the result by reference.

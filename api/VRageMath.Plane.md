@@ -21,6 +21,17 @@ Defines a plane.
 |[Normal](VRageMath.Plane.Normal)|The normal vector of the Plane.|
 |[D](VRageMath.Plane.D)|The distance of the Plane along its normal from the origin. Note: Be careful! The distance is signed and is the opposite of what people usually expect. If you look closely at the plane equation: (n dot P) - D = 0, you'll realize that D = - (n dot P) (that is, negative instead of positive)|
 
+#### Constructors
+
+|Member|Description|
+|---|---|
+|[Plane(float, float, float, float)](VRageMath.Plane..ctor)||
+|[Plane(Vector3, float)](VRageMath.Plane..ctor)||
+|[Plane(Vector3, Vector3)](VRageMath.Plane..ctor)||
+|[Plane(Vector4)](VRageMath.Plane..ctor)||
+|[Plane(Vector3, Vector3, Vector3)](VRageMath.Plane..ctor)||
+|[Plane(ref Vector3, ref Vector3, ref Vector3)](VRageMath.Plane..ctor)||
+
 #### Methods
 
 |Member|Description|
@@ -31,19 +42,19 @@ Defines a plane.
 |[ToString()](VRageMath.Plane.ToString)|Returns a String that represents the current Plane.|
 |[Normalize()](VRageMath.Plane.Normalize)|Changes the coefficients of the Normal vector of this Plane to make it of unit length.|
 |[Normalize(Plane)](VRageMath.Plane.Normalize)|Changes the coefficients of the Normal vector of a Plane to make it of unit length.|
-|[Normalize(ref Plane, ref Plane)](VRageMath.Plane.Normalize)|Changes the coefficients of the Normal vector of a Plane to make it of unit length.|
+|[Normalize(ref Plane, out Plane)](VRageMath.Plane.Normalize)|Changes the coefficients of the Normal vector of a Plane to make it of unit length.|
 |[Transform(Plane, Matrix)](VRageMath.Plane.Transform)|Transforms a normalized Plane by a Matrix.|
-|[Transform(ref Plane, ref Matrix, ref Plane)](VRageMath.Plane.Transform)|Transforms a normalized Plane by a Matrix.|
+|[Transform(ref Plane, ref Matrix, out Plane)](VRageMath.Plane.Transform)|Transforms a normalized Plane by a Matrix.|
 |[Dot(Vector4)](VRageMath.Plane.Dot)|Calculates the dot product of a specified Vector4 and this Plane.|
-|[Dot(ref Vector4, ref float)](VRageMath.Plane.Dot)|Calculates the dot product of a specified Vector4 and this Plane.|
+|[Dot(ref Vector4, out float)](VRageMath.Plane.Dot)|Calculates the dot product of a specified Vector4 and this Plane.|
 |[DotCoordinate(Vector3)](VRageMath.Plane.DotCoordinate)|Returns the dot product of a specified Vector3 and the Normal vector of this Plane plus the distance (D) value of the Plane.|
-|[DotCoordinate(ref Vector3, ref float)](VRageMath.Plane.DotCoordinate)|Returns the dot product of a specified Vector3 and the Normal vector of this Plane plus the distance (D) value of the Plane.|
+|[DotCoordinate(ref Vector3, out float)](VRageMath.Plane.DotCoordinate)|Returns the dot product of a specified Vector3 and the Normal vector of this Plane plus the distance (D) value of the Plane.|
 |[DotNormal(Vector3)](VRageMath.Plane.DotNormal)|Returns the dot product of a specified Vector3 and the Normal vector of this Plane.|
-|[DotNormal(ref Vector3, ref float)](VRageMath.Plane.DotNormal)|Returns the dot product of a specified Vector3 and the Normal vector of this Plane.|
+|[DotNormal(ref Vector3, out float)](VRageMath.Plane.DotNormal)|Returns the dot product of a specified Vector3 and the Normal vector of this Plane.|
 |[Intersects(BoundingBox)](VRageMath.Plane.Intersects)|Checks whether the current Plane intersects a specified BoundingBox.|
-|[Intersects(ref BoundingBox, ref PlaneIntersectionType)](VRageMath.Plane.Intersects)|Checks whether the current Plane intersects a BoundingBox.|
+|[Intersects(ref BoundingBox, out PlaneIntersectionType)](VRageMath.Plane.Intersects)|Checks whether the current Plane intersects a BoundingBox.|
 |[Intersects(BoundingFrustum)](VRageMath.Plane.Intersects)|Checks whether the current Plane intersects a specified BoundingFrustum.|
 |[Intersects(BoundingSphere)](VRageMath.Plane.Intersects)|Checks whether the current Plane intersects a specified BoundingSphere.|
-|[Intersects(ref BoundingSphere, ref PlaneIntersectionType)](VRageMath.Plane.Intersects)|Checks whether the current Plane intersects a BoundingSphere.|
+|[Intersects(ref BoundingSphere, out PlaneIntersectionType)](VRageMath.Plane.Intersects)|Checks whether the current Plane intersects a BoundingSphere.|
 |[RandomPoint()](VRageMath.Plane.RandomPoint)||
 

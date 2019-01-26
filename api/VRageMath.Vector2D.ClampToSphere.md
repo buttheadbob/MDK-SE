@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector2D ClampToSphere(Vector2D vector, double radius)
+public static Vector2D ClampToSphere(Vector2D vector, double radius)
 ```
 
 ### Returns
@@ -17,7 +17,7 @@ public Vector2D ClampToSphere(Vector2D vector, double radius)
 ### Summary
 
 ```csharp
-public void ClampToSphere(ref Vector2D vector, double radius)
+public static void ClampToSphere(ref Vector2D vector, double radius)
 ```
 
 ### Parameters

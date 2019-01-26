@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MyFixedPoint AddSafe(MyFixedPoint a, MyFixedPoint b)
+public static MyFixedPoint AddSafe(MyFixedPoint a, MyFixedPoint b)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Matrix Round(ref Matrix matrix)
+public static Matrix Round(ref Matrix matrix)
 ```
 
 ### Returns

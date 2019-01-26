@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Vector3I Trunc(Vector3 value)
+public static Vector3I Trunc(Vector3 value)
 ```
 
 ### Returns

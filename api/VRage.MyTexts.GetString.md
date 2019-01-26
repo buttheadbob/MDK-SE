@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public string GetString(MyStringId id)
+public static string GetString(MyStringId id)
 ```
 
 ### Returns
@@ -16,7 +16,7 @@ public string GetString(MyStringId id)
 ### Summary
 
 ```csharp
-public string GetString(string keyString)
+public static string GetString(string keyString)
 ```
 
 ### Returns

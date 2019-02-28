@@ -16,7 +16,7 @@ public BoundingBoxD Inflate(double size)
 ### Summary
 
 ```csharp
-public BoundingBoxD Inflate(Vector3 size)
+public BoundingBoxD Inflate(Vector3D size)
 ```
 
 ### Returns
@@ -25,4 +25,4 @@ public BoundingBoxD Inflate(Vector3 size)
 
 ### Parameters
 
-* [Vector3](VRageMath.Vector3) size
+* [Vector3D](VRageMath.Vector3D) size

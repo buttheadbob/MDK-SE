@@ -86,6 +86,10 @@ public struct Vector3L: IEquatable<T>, IComparable<T>
 |[DominantAxisProjection(ref Vector3L, out Vector3L)](VRageMath.Vector3L.DominantAxisProjection)|Calculates a vector that is equal to the projection of the input vector to the coordinate axis that corresponds to the original vector's largest value. The result is saved longo a user-specified variable.|
 |[Sign(Vector3)](VRageMath.Vector3L.Sign)||
 |[Sign(Vector3L)](VRageMath.Vector3L.Sign)||
+|[Round(Vector3)](VRageMath.Vector3L.Round)||
+|[Round(Vector3D)](VRageMath.Vector3L.Round)||
+|[Round(ref Vector3, out Vector3L)](VRageMath.Vector3L.Round)||
+|[Round(ref Vector3D, out Vector3L)](VRageMath.Vector3L.Round)||
 |[Floor(Vector3)](VRageMath.Vector3L.Floor)||
 |[Floor(Vector3D)](VRageMath.Vector3L.Floor)||
 |[Floor(ref Vector3, out Vector3L)](VRageMath.Vector3L.Floor)||

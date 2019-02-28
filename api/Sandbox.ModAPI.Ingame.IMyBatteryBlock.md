@@ -3,13 +3,14 @@
 #### IMyBatteryBlock Interface
 
 ```csharp
-public interface IMyBatteryBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity
+public interface IMyBatteryBlock: IMyPowerProducer, IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
 
 **Implements:**  
+* [IMyPowerProducer](Sandbox.ModAPI.Ingame.IMyPowerProducer)  
 * [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
 * [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
@@ -24,12 +25,11 @@ public interface IMyBatteryBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeB
 |[MaxStoredPower](Sandbox.ModAPI.Ingame.IMyBatteryBlock.MaxStoredPower)||
 |[CurrentInput](Sandbox.ModAPI.Ingame.IMyBatteryBlock.CurrentInput)||
 |[MaxInput](Sandbox.ModAPI.Ingame.IMyBatteryBlock.MaxInput)||
-|[CurrentOutput](Sandbox.ModAPI.Ingame.IMyBatteryBlock.CurrentOutput)||
-|[MaxOutput](Sandbox.ModAPI.Ingame.IMyBatteryBlock.MaxOutput)||
 |[IsCharging](Sandbox.ModAPI.Ingame.IMyBatteryBlock.IsCharging)||
-|[OnlyRecharge](Sandbox.ModAPI.Ingame.IMyBatteryBlock.OnlyRecharge)||
-|[OnlyDischarge](Sandbox.ModAPI.Ingame.IMyBatteryBlock.OnlyDischarge)||
-|[SemiautoEnabled](Sandbox.ModAPI.Ingame.IMyBatteryBlock.SemiautoEnabled)||
+|[ChargeMode](Sandbox.ModAPI.Ingame.IMyBatteryBlock.ChargeMode)||
+|[OnlyRecharge](Sandbox.ModAPI.Ingame.IMyBatteryBlock.OnlyRecharge)|_**Obsolete:** Use ChargeMode instead_|
+|[OnlyDischarge](Sandbox.ModAPI.Ingame.IMyBatteryBlock.OnlyDischarge)|_**Obsolete:** Use ChargeMode instead_|
+|[SemiautoEnabled](Sandbox.ModAPI.Ingame.IMyBatteryBlock.SemiautoEnabled)|_**Obsolete:** Semi-auto is no longer a valid mode, if you want to check for Auto instead, use ChargeMode_|
 |[Components](VRage.Game.ModAPI.Ingame.IMyEntity.Components)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[EntityId](VRage.Game.ModAPI.Ingame.IMyEntity.EntityId)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[Name](VRage.Game.ModAPI.Ingame.IMyEntity.Name)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
@@ -67,6 +67,8 @@ public interface IMyBatteryBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeB
 |[ShowInToolbarConfig](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInToolbarConfig)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[ShowInInventory](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[Enabled](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.Enabled)|_Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_|
+|[CurrentOutput](Sandbox.ModAPI.Ingame.IMyPowerProducer.CurrentOutput)|Current output in Megawatts<br /><br />_Inherited from [IMyPowerProducer](Sandbox.ModAPI.Ingame.IMyPowerProducer)_|
+|[MaxOutput](Sandbox.ModAPI.Ingame.IMyPowerProducer.MaxOutput)|Maximum output in Megawatts<br /><br />_Inherited from [IMyPowerProducer](Sandbox.ModAPI.Ingame.IMyPowerProducer)_|
 
 #### Methods
 

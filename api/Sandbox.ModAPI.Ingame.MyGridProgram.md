@@ -36,4 +36,5 @@ public void Main()
 |[Runtime](Sandbox.ModAPI.Ingame.MyGridProgram.Runtime)|Gets runtime information for the running grid program.|
 |[Storage](Sandbox.ModAPI.Ingame.MyGridProgram.Storage)|Allows you to store data between game sessions.|
 |[Echo](Sandbox.ModAPI.Ingame.MyGridProgram.Echo)|Prints out text onto the currently running programmable block's detail info area.|
+|[IGC](Sandbox.ModAPI.Ingame.MyGridProgram.IGC)||
 

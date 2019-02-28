@@ -32,6 +32,7 @@ This index contains all types and members available to ingame scripting - with e
 
 ### Sandbox.ModAPI.Ingame
 
+[ChargeMode](Sandbox.ModAPI.Ingame.ChargeMode)  
 [DoorStatus](Sandbox.ModAPI.Ingame.DoorStatus)  
 [FlightMode](Sandbox.ModAPI.Ingame.FlightMode)  
 [IMyAssembler](Sandbox.ModAPI.Ingame.IMyAssembler)  
@@ -39,6 +40,7 @@ This index contains all types and members available to ingame scripting - with e
 [IMyBatteryBlock](Sandbox.ModAPI.Ingame.IMyBatteryBlock)  
 [IMyBeacon](Sandbox.ModAPI.Ingame.IMyBeacon)  
 [IMyBlockGroup](Sandbox.ModAPI.Ingame.IMyBlockGroup)  
+[IMyBroadcastListener](Sandbox.ModAPI.Ingame.IMyBroadcastListener)  
 [IMyCameraBlock](Sandbox.ModAPI.Ingame.IMyCameraBlock)  
 [IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit)  
 [IMyCollector](Sandbox.ModAPI.Ingame.IMyCollector)  
@@ -50,16 +52,19 @@ This index contains all types and members available to ingame scripting - with e
 [IMyGridProgramRuntimeInfo](Sandbox.ModAPI.Ingame.IMyGridProgramRuntimeInfo)  
 [IMyGridTerminalSystem](Sandbox.ModAPI.Ingame.IMyGridTerminalSystem)  
 [IMyGyro](Sandbox.ModAPI.Ingame.IMyGyro)  
+[IMyIntergridCommunicationSystem](Sandbox.ModAPI.Ingame.IMyIntergridCommunicationSystem)  
 [IMyJumpDrive](Sandbox.ModAPI.Ingame.IMyJumpDrive)  
 [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)  
 [IMyLaserAntenna](Sandbox.ModAPI.Ingame.IMyLaserAntenna)  
 [IMyLightingBlock](Sandbox.ModAPI.Ingame.IMyLightingBlock)  
 [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)  
+[IMyMessageProvider](Sandbox.ModAPI.Ingame.IMyMessageProvider)  
 [IMyMotorStator](Sandbox.ModAPI.Ingame.IMyMotorStator)  
 [IMyMotorSuspension](Sandbox.ModAPI.Ingame.IMyMotorSuspension)  
 [IMyOreDetector](Sandbox.ModAPI.Ingame.IMyOreDetector)  
 [IMyOxygenTank](Sandbox.ModAPI.Ingame.IMyOxygenTank)  
 [IMyPistonBase](Sandbox.ModAPI.Ingame.IMyPistonBase)  
+[IMyPowerProducer](Sandbox.ModAPI.Ingame.IMyPowerProducer)  
 [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)  
 [IMyProgrammableBlock](Sandbox.ModAPI.Ingame.IMyProgrammableBlock)  
 [IMyProjector](Sandbox.ModAPI.Ingame.IMyProjector)  
@@ -76,6 +81,8 @@ This index contains all types and members available to ingame scripting - with e
 [IMySmallMissileLauncher](Sandbox.ModAPI.Ingame.IMySmallMissileLauncher)  
 [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 [IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel)  
+[IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)  
+[IMyTextSurfaceProvider](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider)  
 [IMyThrust](Sandbox.ModAPI.Ingame.IMyThrust)  
 [IMyUpgradableBlock](Sandbox.ModAPI.Ingame.IMyUpgradableBlock)  
 [IMyUpgradeModule](Sandbox.ModAPI.Ingame.IMyUpgradeModule)  
@@ -86,6 +93,7 @@ This index contains all types and members available to ingame scripting - with e
 [MyDetectedEntityInfo](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo)  
 [MyDetectedEntityType](Sandbox.ModAPI.Ingame.MyDetectedEntityType)  
 [MyGridProgram](Sandbox.ModAPI.Ingame.MyGridProgram)  
+[MyIGCMessage](Sandbox.ModAPI.Ingame.MyIGCMessage)  
 [MyInventoryItemFilter](Sandbox.ModAPI.Ingame.MyInventoryItemFilter)  
 [MyJumpDriveStatus](Sandbox.ModAPI.Ingame.MyJumpDriveStatus)  
 [MyLaserAntennaStatus](Sandbox.ModAPI.Ingame.MyLaserAntennaStatus)  
@@ -99,6 +107,7 @@ This index contains all types and members available to ingame scripting - with e
 [PistonStatus](Sandbox.ModAPI.Ingame.PistonStatus)  
 [TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter)  
 [TerminalBlockExtentions](Sandbox.ModAPI.Ingame.TerminalBlockExtentions)  
+[TransmissionDistance](Sandbox.ModAPI.Ingame.TransmissionDistance)  
 [UpdateFrequency](Sandbox.ModAPI.Ingame.UpdateFrequency)  
 [UpdateType](Sandbox.ModAPI.Ingame.UpdateType)
 
@@ -121,7 +130,6 @@ This index contains all types and members available to ingame scripting - with e
 [IMyOxygenFarm](SpaceEngineers.Game.ModAPI.Ingame.IMyOxygenFarm)  
 [IMyParachute](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute)  
 [IMyShipMergeBlock](SpaceEngineers.Game.ModAPI.Ingame.IMyShipMergeBlock)  
-[IMySolarPanel](SpaceEngineers.Game.ModAPI.Ingame.IMySolarPanel)  
 [IMySoundBlock](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock)  
 [IMySpaceBall](SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall)  
 [IMyTimerBlock](SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock)  
@@ -186,7 +194,10 @@ This index contains all types and members available to ingame scripting - with e
 [IMyInventoryItem](VRage.Game.ModAPI.Ingame.IMyInventoryItem)  
 [IMyInventoryOwner](VRage.Game.ModAPI.Ingame.IMyInventoryOwner)  
 [IMySlimBlock](VRage.Game.ModAPI.Ingame.IMySlimBlock)  
-[MyInventoryItemExtension](VRage.Game.ModAPI.Ingame.MyInventoryItemExtension)
+[MyInventoryItem](VRage.Game.ModAPI.Ingame.MyInventoryItem)  
+[MyInventoryItemExtension](VRage.Game.ModAPI.Ingame.MyInventoryItemExtension)  
+[MyItemInfo](VRage.Game.ModAPI.Ingame.MyItemInfo)  
+[MyItemType](VRage.Game.ModAPI.Ingame.MyItemType)
 
 ### VRage.Game.ModAPI.Ingame.Utilities
 
@@ -200,6 +211,7 @@ This index contains all types and members available to ingame scripting - with e
 [MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult)  
 [MyIniValue](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue)  
 [StringSegment](VRage.Game.ModAPI.Ingame.Utilities.StringSegment)  
+[StringSegmentIgnoreCaseComparer](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentIgnoreCaseComparer)  
 [TextPtr](VRage.Game.ModAPI.Ingame.Utilities.TextPtr)
 
 ### VRage.Game.ObjectBuilders.Definitions

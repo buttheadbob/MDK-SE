@@ -6,7 +6,7 @@
 public bool IsBroadcasting { get; }
 ```
 
-Returns true if antena is broadcasting
+Returns true if antenna is broadcasting
 
 ### Returns
 

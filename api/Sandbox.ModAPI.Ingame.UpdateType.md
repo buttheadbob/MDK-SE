@@ -25,4 +25,5 @@ Enum describes what source triggered the script to run.
 |Update10|Script is updating every 10th tick.|
 |Update100|Script is updating every 100th tick.|
 |Once|Script is updating once before the tick.|
+|IGC|Script run by intergrid communication system.|
 

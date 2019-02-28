@@ -30,3 +30,17 @@ Determines whether two instances of BoundingBox are equal.
 ### Parameters
 
 * [object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6) obj
+### Summary
+
+```csharp
+public bool Equals(BoundingBoxD other, double epsilon)
+```
+
+### Returns
+
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+
+### Parameters
+
+* [BoundingBoxD](VRageMath.BoundingBoxD) other
+* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) epsilon

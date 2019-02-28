@@ -72,7 +72,7 @@ Laser antenna block interface
 |---|---|
 |[SetTargetCoords(string)](Sandbox.ModAPI.Ingame.IMyLaserAntenna.SetTargetCoords)|Set coordinates of target|
 |[Connect()](Sandbox.ModAPI.Ingame.IMyLaserAntenna.Connect)|Connect to target defined by SetTargetCoords|
-|[TransmitMessage(string)](Sandbox.ModAPI.Ingame.IMyLaserAntenna.TransmitMessage)|Sends a message to the programmable block associated with this antenna's partner. Limited to 100,000 characters.|
+|[TransmitMessage(string)](Sandbox.ModAPI.Ingame.IMyLaserAntenna.TransmitMessage)|_**Obsolete:** Use IMyIntergridCommunicationSystem instead_<br /><br />Sends a message to the programmable block associated with this antenna's partner. Limited to 100,000 characters.|
 |[GetInventory()](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)|Simply get the MyInventoryBase component stored in this entity.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[GetInventory(int)](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)|Search for inventory component with maching index.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[GetPosition()](VRage.Game.ModAPI.Ingame.IMyEntity.GetPosition)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|

@@ -52,6 +52,7 @@ Defines an axis-aligned box-shaped 3D volume.
 |[GetCornersUnsafe(*Vector3D)](VRageMath.BoundingBoxD.GetCornersUnsafe)||
 |[Equals(BoundingBoxD)](VRageMath.BoundingBoxD.Equals)|Determines whether two instances of BoundingBox are equal.|
 |[Equals(object)](VRageMath.BoundingBoxD.Equals)|Determines whether two instances of BoundingBox are equal.|
+|[Equals(BoundingBoxD, double)](VRageMath.BoundingBoxD.Equals)||
 |[GetHashCode()](VRageMath.BoundingBoxD.GetHashCode)|Gets the hash code for this instance.|
 |[ToString()](VRageMath.BoundingBoxD.ToString)|Returns a String that represents the current BoundingBox.|
 |[CreateMerged(BoundingBoxD, BoundingBoxD)](VRageMath.BoundingBoxD.CreateMerged)|Creates the smallest BoundingBox that contains the two specified BoundingBox instances.|
@@ -83,6 +84,8 @@ Defines an axis-aligned box-shaped 3D volume.
 |[Distance(Vector3D)](VRageMath.BoundingBoxD.Distance)||
 |[DistanceSquared(Vector3D)](VRageMath.BoundingBoxD.DistanceSquared)||
 |[DistanceSquared(ref Vector3D)](VRageMath.BoundingBoxD.DistanceSquared)||
+|[Distance(ref BoundingBoxD)](VRageMath.BoundingBoxD.Distance)||
+|[DistanceSquared(ref BoundingBoxD)](VRageMath.BoundingBoxD.DistanceSquared)||
 |[Contains(BoundingBoxD)](VRageMath.BoundingBoxD.Contains)|Tests whether the BoundingBox contains another BoundingBox.|
 |[Contains(ref BoundingBoxD, out ContainmentType)](VRageMath.BoundingBoxD.Contains)|Tests whether the BoundingBox contains a BoundingBox.|
 |[Contains(BoundingFrustumD)](VRageMath.BoundingBoxD.Contains)|Tests whether the BoundingBox contains a BoundingFrustum.|
@@ -110,10 +113,13 @@ Defines an axis-aligned box-shaped 3D volume.
 |[CreateInvalid()](VRageMath.BoundingBoxD.CreateInvalid)||
 |[ProjectedArea(Vector3D)](VRageMath.BoundingBoxD.ProjectedArea)||
 |[Inflate(double)](VRageMath.BoundingBoxD.Inflate)||
-|[Inflate(Vector3)](VRageMath.BoundingBoxD.Inflate)||
+|[Inflate(Vector3D)](VRageMath.BoundingBoxD.Inflate)||
 |[GetInflated(double)](VRageMath.BoundingBoxD.GetInflated)||
 |[GetInflated(Vector3)](VRageMath.BoundingBoxD.GetInflated)||
+|[GetInflated(Vector3D)](VRageMath.BoundingBoxD.GetInflated)||
 |[InflateToMinimum(Vector3D)](VRageMath.BoundingBoxD.InflateToMinimum)||
 |[InflateToMinimum(double)](VRageMath.BoundingBoxD.InflateToMinimum)||
+|[Round(int)](VRageMath.BoundingBoxD.Round)||
+|[Round()](VRageMath.BoundingBoxD.Round)||
 |[AssertIsValid()](VRageMath.BoundingBoxD.AssertIsValid)||
 

@@ -55,6 +55,7 @@ Defines an axis-aligned box-shaped 3D volume.
 |[GetCornersUnsafe(*Vector3)](VRageMath.BoundingBox.GetCornersUnsafe)||
 |[Equals(BoundingBox)](VRageMath.BoundingBox.Equals)|Determines whether two instances of BoundingBox are equal.|
 |[Equals(object)](VRageMath.BoundingBox.Equals)|Determines whether two instances of BoundingBox are equal.|
+|[Equals(BoundingBox, float)](VRageMath.BoundingBox.Equals)||
 |[GetHashCode()](VRageMath.BoundingBox.GetHashCode)|Gets the hash code for this instance.|
 |[ToString()](VRageMath.BoundingBox.ToString)|Returns a String that represents the current BoundingBox.|
 |[CreateMerged(BoundingBox, BoundingBox)](VRageMath.BoundingBox.CreateMerged)|Creates the smallest BoundingBox that contains the two specified BoundingBox instances.|
@@ -117,4 +118,6 @@ Defines an axis-aligned box-shaped 3D volume.
 |[Inflate(Vector3)](VRageMath.BoundingBox.Inflate)||
 |[InflateToMinimum(Vector3)](VRageMath.BoundingBox.InflateToMinimum)||
 |[Scale(Vector3)](VRageMath.BoundingBox.Scale)||
+|[Round(int)](VRageMath.BoundingBox.Round)||
+|[Round()](VRageMath.BoundingBox.Round)||
 

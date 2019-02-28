@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static Vector4D PackOrthoMatrix(Vector3D position, Vector3D forward, Vector3D up)
+public static Vector4D PackOrthoMatrix(Vector3D position, Vector3 forward, Vector3 up)
 ```
 
 ### Returns
@@ -13,8 +13,8 @@ public static Vector4D PackOrthoMatrix(Vector3D position, Vector3D forward, Vect
 ### Parameters
 
 * [Vector3D](VRageMath.Vector3D) position
-* [Vector3D](VRageMath.Vector3D) forward
-* [Vector3D](VRageMath.Vector3D) up
+* [Vector3](VRageMath.Vector3) forward
+* [Vector3](VRageMath.Vector3) up
 ### Summary
 
 ```csharp

@@ -18,6 +18,7 @@ public interface IMyFunctionalBlock: IMyTerminalBlock, IMyCubeBlock, IMyEntity
 * [IMyDoor](Sandbox.ModAPI.Ingame.IMyDoor)  
 * [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)  
 * [IMyAssembler](Sandbox.ModAPI.Ingame.IMyAssembler)  
+* [IMyPowerProducer](Sandbox.ModAPI.Ingame.IMyPowerProducer)  
 * [IMyBatteryBlock](Sandbox.ModAPI.Ingame.IMyBatteryBlock)  
 * [IMyBeacon](Sandbox.ModAPI.Ingame.IMyBeacon)  
 * [IMyCameraBlock](Sandbox.ModAPI.Ingame.IMyCameraBlock)  

@@ -44,7 +44,6 @@ Use these interfaces when you wish to access specific block types.
 [IMyShipWelder](Sandbox.ModAPI.Ingame.IMyShipWelder)  
 [IMySmallGatlingGun](Sandbox.ModAPI.Ingame.IMySmallGatlingGun)  
 [IMySmallMissileLauncher](Sandbox.ModAPI.Ingame.IMySmallMissileLauncher)  
-[IMySolarPanel](SpaceEngineers.Game.ModAPI.Ingame.IMySolarPanel)  
 [IMySoundBlock](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock)  
 [IMySpaceBall](SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall)  
 [IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel)  
@@ -62,6 +61,7 @@ Use these interfaces when you wish to access blocks by a specific function or ca
 [IMyGravityGeneratorBase](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorBase)  
 [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)  
 [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)  
+[IMyPowerProducer](Sandbox.ModAPI.Ingame.IMyPowerProducer)  
 [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)  
 [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)  
 [IMyShipToolBase](Sandbox.ModAPI.Ingame.IMyShipToolBase)  
@@ -82,6 +82,7 @@ Various useful utilities for your scripts
 [MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult)  
 [MyIniValue](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue)  
 [StringSegment](VRage.Game.ModAPI.Ingame.Utilities.StringSegment)  
+[StringSegmentIgnoreCaseComparer](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentIgnoreCaseComparer)  
 [TextPtr](VRage.Game.ModAPI.Ingame.Utilities.TextPtr)
 
 ### Grid Program and Terminal System
@@ -240,6 +241,7 @@ Math utilities
 Currently ungrouped types
 
 [ArrayExtensions](System.ArrayExtensions)  
+[ChargeMode](Sandbox.ModAPI.Ingame.ChargeMode)  
 [ClearToken&lt;T&gt;](System.Collections.Generic.ClearToken`1)  
 [DictionaryExtensions](System.Collections.Generic.DictionaryExtensions)  
 [DoorStatus](Sandbox.ModAPI.Ingame.DoorStatus)  
@@ -247,7 +249,12 @@ Currently ungrouped types
 [HashSetExtensions](System.Collections.Generic.HashSetExtensions)  
 [HashSetExtensions.HashSetInternalAccessor&lt;T&gt;](System.Collections.Generic.HashSetExtensions+HashSetInternalAccessor`1)  
 [IMyAttachableTopBlock](Sandbox.ModAPI.Ingame.IMyAttachableTopBlock)  
+[IMyBroadcastListener](Sandbox.ModAPI.Ingame.IMyBroadcastListener)  
 [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
+[IMyIntergridCommunicationSystem](Sandbox.ModAPI.Ingame.IMyIntergridCommunicationSystem)  
+[IMyMessageProvider](Sandbox.ModAPI.Ingame.IMyMessageProvider)  
+[IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)  
+[IMyTextSurfaceProvider](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider)  
 [IMyUpgradableBlock](Sandbox.ModAPI.Ingame.IMyUpgradableBlock)  
 [LandingGearMode](SpaceEngineers.Game.ModAPI.Ingame.LandingGearMode)  
 [ListExtensions](System.Collections.Generic.ListExtensions)  
@@ -260,7 +267,11 @@ Currently ungrouped types
 [MyDetectedEntityInfo](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo)  
 [MyDetectedEntityType](Sandbox.ModAPI.Ingame.MyDetectedEntityType)  
 [MyFixedPoint](VRage.MyFixedPoint)  
+[MyIGCMessage](Sandbox.ModAPI.Ingame.MyIGCMessage)  
+[MyInventoryItem](VRage.Game.ModAPI.Ingame.MyInventoryItem)  
 [MyInventoryItemFilter](Sandbox.ModAPI.Ingame.MyInventoryItemFilter)  
+[MyItemInfo](VRage.Game.ModAPI.Ingame.MyItemInfo)  
+[MyItemType](VRage.Game.ModAPI.Ingame.MyItemType)  
 [MyJumpDriveStatus](Sandbox.ModAPI.Ingame.MyJumpDriveStatus)  
 [MyLanguagesEnum](VRage.MyLanguagesEnum)  
 [MyLaserAntennaStatus](Sandbox.ModAPI.Ingame.MyLaserAntennaStatus)  
@@ -292,6 +303,7 @@ Currently ungrouped types
 [SerializableDefinitionId](VRage.ObjectBuilders.SerializableDefinitionId)  
 [TerminalBlockExtentions](Sandbox.ModAPI.Ingame.TerminalBlockExtentions)  
 [TerminalPropertyExtensions](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions)  
+[TransmissionDistance](Sandbox.ModAPI.Ingame.TransmissionDistance)  
 [VentStatus](SpaceEngineers.Game.ModAPI.Ingame.VentStatus)
 
 ### Obsolete

@@ -2,6 +2,7 @@
 
 # Sandbox.ModAPI.Ingame
 
+**[ChargeMode](Sandbox.ModAPI.Ingame.ChargeMode)**  
 **[DoorStatus](Sandbox.ModAPI.Ingame.DoorStatus)**  
 **[FlightMode](Sandbox.ModAPI.Ingame.FlightMode)**  
 **[IMyAssembler](Sandbox.ModAPI.Ingame.IMyAssembler)**  
@@ -9,6 +10,7 @@
 **[IMyBatteryBlock](Sandbox.ModAPI.Ingame.IMyBatteryBlock)**  
 **[IMyBeacon](Sandbox.ModAPI.Ingame.IMyBeacon)**  
 **[IMyBlockGroup](Sandbox.ModAPI.Ingame.IMyBlockGroup)**  
+**[IMyBroadcastListener](Sandbox.ModAPI.Ingame.IMyBroadcastListener)**  
 **[IMyCameraBlock](Sandbox.ModAPI.Ingame.IMyCameraBlock)**  
 **[IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit)**  
 **[IMyCollector](Sandbox.ModAPI.Ingame.IMyCollector)**  
@@ -20,16 +22,19 @@
 **[IMyGridProgramRuntimeInfo](Sandbox.ModAPI.Ingame.IMyGridProgramRuntimeInfo)**  
 **[IMyGridTerminalSystem](Sandbox.ModAPI.Ingame.IMyGridTerminalSystem)**  
 **[IMyGyro](Sandbox.ModAPI.Ingame.IMyGyro)**  
+**[IMyIntergridCommunicationSystem](Sandbox.ModAPI.Ingame.IMyIntergridCommunicationSystem)**  
 **[IMyJumpDrive](Sandbox.ModAPI.Ingame.IMyJumpDrive)**  
 **[IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)**  
 **[IMyLaserAntenna](Sandbox.ModAPI.Ingame.IMyLaserAntenna)**  
 **[IMyLightingBlock](Sandbox.ModAPI.Ingame.IMyLightingBlock)**  
 **[IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)**  
+**[IMyMessageProvider](Sandbox.ModAPI.Ingame.IMyMessageProvider)**  
 **[IMyMotorStator](Sandbox.ModAPI.Ingame.IMyMotorStator)**  
 **[IMyMotorSuspension](Sandbox.ModAPI.Ingame.IMyMotorSuspension)**  
 **[IMyOreDetector](Sandbox.ModAPI.Ingame.IMyOreDetector)**  
 **[IMyOxygenTank](Sandbox.ModAPI.Ingame.IMyOxygenTank)**  
 **[IMyPistonBase](Sandbox.ModAPI.Ingame.IMyPistonBase)**  
+**[IMyPowerProducer](Sandbox.ModAPI.Ingame.IMyPowerProducer)**  
 **[IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)**  
 **[IMyProgrammableBlock](Sandbox.ModAPI.Ingame.IMyProgrammableBlock)**  
 **[IMyProjector](Sandbox.ModAPI.Ingame.IMyProjector)**  
@@ -46,6 +51,8 @@
 **[IMySmallMissileLauncher](Sandbox.ModAPI.Ingame.IMySmallMissileLauncher)**  
 **[IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)**  
 **[IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel)**  
+**[IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)**  
+**[IMyTextSurfaceProvider](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider)**  
 **[IMyThrust](Sandbox.ModAPI.Ingame.IMyThrust)**  
 **[IMyUpgradableBlock](Sandbox.ModAPI.Ingame.IMyUpgradableBlock)**  
 **[IMyUpgradeModule](Sandbox.ModAPI.Ingame.IMyUpgradeModule)**  
@@ -56,6 +63,7 @@
 **[MyDetectedEntityInfo](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo)**  
 **[MyDetectedEntityType](Sandbox.ModAPI.Ingame.MyDetectedEntityType)**  
 **[MyGridProgram](Sandbox.ModAPI.Ingame.MyGridProgram)**  
+**[MyIGCMessage](Sandbox.ModAPI.Ingame.MyIGCMessage)**  
 **[MyInventoryItemFilter](Sandbox.ModAPI.Ingame.MyInventoryItemFilter)**  
 **[MyJumpDriveStatus](Sandbox.ModAPI.Ingame.MyJumpDriveStatus)**  
 **[MyLaserAntennaStatus](Sandbox.ModAPI.Ingame.MyLaserAntennaStatus)**  
@@ -69,6 +77,7 @@
 **[PistonStatus](Sandbox.ModAPI.Ingame.PistonStatus)**  
 **[TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter)**  
 **[TerminalBlockExtentions](Sandbox.ModAPI.Ingame.TerminalBlockExtentions)**  
+**[TransmissionDistance](Sandbox.ModAPI.Ingame.TransmissionDistance)**  
 **[UpdateFrequency](Sandbox.ModAPI.Ingame.UpdateFrequency)**  
 **[UpdateType](Sandbox.ModAPI.Ingame.UpdateType)**
 

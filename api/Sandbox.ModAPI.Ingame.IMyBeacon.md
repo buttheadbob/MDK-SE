@@ -6,6 +6,8 @@
 public interface IMyBeacon: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity
 ```
 
+Beacon block interface
+
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
 
@@ -19,7 +21,8 @@ public interface IMyBeacon: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, 
 
 |Member|Description|
 |---|---|
-|[Radius](Sandbox.ModAPI.Ingame.IMyBeacon.Radius)||
+|[Radius](Sandbox.ModAPI.Ingame.IMyBeacon.Radius)|Broadcasting range (read-only)|
+|[HudText](Sandbox.ModAPI.Ingame.IMyBeacon.HudText)|Gets or sets the text to display on the HUD when the beacon is on.|
 |[Components](VRage.Game.ModAPI.Ingame.IMyEntity.Components)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[EntityId](VRage.Game.ModAPI.Ingame.IMyEntity.EntityId)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[Name](VRage.Game.ModAPI.Ingame.IMyEntity.Name)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|

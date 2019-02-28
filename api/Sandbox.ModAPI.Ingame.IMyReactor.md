@@ -3,13 +3,14 @@
 #### IMyReactor Interface
 
 ```csharp
-public interface IMyReactor: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity
+public interface IMyReactor: IMyPowerProducer, IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
 
 **Implements:**  
+* [IMyPowerProducer](Sandbox.ModAPI.Ingame.IMyPowerProducer)  
 * [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
 * [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
@@ -20,8 +21,6 @@ public interface IMyReactor: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock,
 |Member|Description|
 |---|---|
 |[UseConveyorSystem](Sandbox.ModAPI.Ingame.IMyReactor.UseConveyorSystem)||
-|[CurrentOutput](Sandbox.ModAPI.Ingame.IMyReactor.CurrentOutput)|Current output of reactor in Megawatts|
-|[MaxOutput](Sandbox.ModAPI.Ingame.IMyReactor.MaxOutput)|Maximum output of reactor in Megawatts|
 |[Components](VRage.Game.ModAPI.Ingame.IMyEntity.Components)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[EntityId](VRage.Game.ModAPI.Ingame.IMyEntity.EntityId)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[Name](VRage.Game.ModAPI.Ingame.IMyEntity.Name)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
@@ -59,6 +58,8 @@ public interface IMyReactor: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock,
 |[ShowInToolbarConfig](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInToolbarConfig)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[ShowInInventory](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[Enabled](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.Enabled)|_Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_|
+|[CurrentOutput](Sandbox.ModAPI.Ingame.IMyPowerProducer.CurrentOutput)|Current output in Megawatts<br /><br />_Inherited from [IMyPowerProducer](Sandbox.ModAPI.Ingame.IMyPowerProducer)_|
+|[MaxOutput](Sandbox.ModAPI.Ingame.IMyPowerProducer.MaxOutput)|Maximum output in Megawatts<br /><br />_Inherited from [IMyPowerProducer](Sandbox.ModAPI.Ingame.IMyPowerProducer)_|
 
 #### Methods
 

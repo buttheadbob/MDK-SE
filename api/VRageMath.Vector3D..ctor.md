@@ -85,3 +85,12 @@ public Vector3D(Vector3I value)
 ### Parameters
 
 * [Vector3I](VRageMath.Vector3I) value
+### Summary
+
+```csharp
+public Vector3D(Vector3D value)
+```
+
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) value

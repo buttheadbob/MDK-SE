@@ -3,6 +3,21 @@
 ### Summary
 
 ```csharp
+public bool TransferItemTo(IMyInventory dstInventory, MyInventoryItem item, Nullable<T> amount)
+```
+
+### Returns
+
+[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+
+### Parameters
+
+* [IMyInventory](VRage.Game.ModAPI.Ingame.IMyInventory) dstInventory
+* [MyInventoryItem](VRage.Game.ModAPI.Ingame.MyInventoryItem) item
+* [Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) amount
+### Summary
+
+```csharp
 public bool TransferItemTo(IMyInventory dst, int sourceItemIndex, Nullable<T> targetItemIndex, Nullable<T> stackIfPossible, Nullable<T> amount)
 ```
 

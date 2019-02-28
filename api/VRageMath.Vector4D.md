@@ -42,7 +42,7 @@ Defines a vector with four components.
 
 |Member|Description|
 |---|---|
-|[PackOrthoMatrix(Vector3D, Vector3D, Vector3D)](VRageMath.Vector4D.PackOrthoMatrix)||
+|[PackOrthoMatrix(Vector3D, Vector3, Vector3)](VRageMath.Vector4D.PackOrthoMatrix)||
 |[PackOrthoMatrix(ref MatrixD)](VRageMath.Vector4D.PackOrthoMatrix)||
 |[UnpackOrthoMatrix(ref Vector4D)](VRageMath.Vector4D.UnpackOrthoMatrix)||
 |[ToString()](VRageMath.Vector4D.ToString)|Retrieves a string representation of the current object.|

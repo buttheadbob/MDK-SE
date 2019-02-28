@@ -9,5 +9,8 @@
 **[IMyInventoryItem](VRage.Game.ModAPI.Ingame.IMyInventoryItem)**  
 **[IMyInventoryOwner](VRage.Game.ModAPI.Ingame.IMyInventoryOwner)**  
 **[IMySlimBlock](VRage.Game.ModAPI.Ingame.IMySlimBlock)**  
-**[MyInventoryItemExtension](VRage.Game.ModAPI.Ingame.MyInventoryItemExtension)**
+**[MyInventoryItem](VRage.Game.ModAPI.Ingame.MyInventoryItem)**  
+**[MyInventoryItemExtension](VRage.Game.ModAPI.Ingame.MyInventoryItemExtension)**  
+**[MyItemInfo](VRage.Game.ModAPI.Ingame.MyItemInfo)**  
+**[MyItemType](VRage.Game.ModAPI.Ingame.MyItemType)**
 

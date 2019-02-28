@@ -1,0 +1,15 @@
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [IMyTextSurfaceProvider](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider)
+
+### Summary
+
+```csharp
+public IMyTextSurface GetSurface(int index)
+```
+
+### Returns
+
+[IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)
+
+### Parameters
+
+* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) index

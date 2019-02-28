@@ -26,3 +26,16 @@ public BoundingBoxD GetInflated(Vector3 size)
 ### Parameters
 
 * [Vector3](VRageMath.Vector3) size
+### Summary
+
+```csharp
+public BoundingBoxD GetInflated(Vector3D size)
+```
+
+### Returns
+
+[BoundingBoxD](VRageMath.BoundingBoxD)
+
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) size

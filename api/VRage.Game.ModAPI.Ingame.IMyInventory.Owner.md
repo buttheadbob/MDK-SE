@@ -3,10 +3,12 @@
 ### Summary
 
 ```csharp
-public IMyInventoryOwner Owner { get; }
+public IMyEntity Owner { get; }
 ```
+
+Returns entity this inventory belongs to.
 
 ### Returns
 
-[IMyInventoryOwner](VRage.Game.ModAPI.Ingame.IMyInventoryOwner)
+[IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 

@@ -12,7 +12,6 @@
 **[IMyOxygenFarm](SpaceEngineers.Game.ModAPI.Ingame.IMyOxygenFarm)**  
 **[IMyParachute](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute)**  
 **[IMyShipMergeBlock](SpaceEngineers.Game.ModAPI.Ingame.IMyShipMergeBlock)**  
-**[IMySolarPanel](SpaceEngineers.Game.ModAPI.Ingame.IMySolarPanel)**  
 **[IMySoundBlock](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock)**  
 **[IMySpaceBall](SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall)**  
 **[IMyTimerBlock](SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock)**  

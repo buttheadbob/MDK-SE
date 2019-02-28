@@ -13,27 +13,30 @@ public interface IMyInventory
 
 |Member|Description|
 |---|---|
-|[IsFull](VRage.Game.ModAPI.Ingame.IMyInventory.IsFull)||
-|[Size](VRage.Game.ModAPI.Ingame.IMyInventory.Size)||
-|[CurrentMass](VRage.Game.ModAPI.Ingame.IMyInventory.CurrentMass)||
-|[MaxVolume](VRage.Game.ModAPI.Ingame.IMyInventory.MaxVolume)||
-|[CurrentVolume](VRage.Game.ModAPI.Ingame.IMyInventory.CurrentVolume)||
-|[Owner](VRage.Game.ModAPI.Ingame.IMyInventory.Owner)||
+|[Owner](VRage.Game.ModAPI.Ingame.IMyInventory.Owner)|Returns entity this inventory belongs to.|
+|[IsFull](VRage.Game.ModAPI.Ingame.IMyInventory.IsFull)|Determines if inventory is absolutely full.|
+|[CurrentMass](VRage.Game.ModAPI.Ingame.IMyInventory.CurrentMass)|Returns total mass of items inside this inventory in Kg.|
+|[MaxVolume](VRage.Game.ModAPI.Ingame.IMyInventory.MaxVolume)|Returns maximum volume of items this inventory can contain in m^3.|
+|[CurrentVolume](VRage.Game.ModAPI.Ingame.IMyInventory.CurrentVolume)|Returns total volume of items inside this inventory in m^3.|
+|[ItemCount](VRage.Game.ModAPI.Ingame.IMyInventory.ItemCount)|Returns number of occupied inventory slots.|
 
 #### Methods
 
 |Member|Description|
 |---|---|
-|[IsItemAt(int)](VRage.Game.ModAPI.Ingame.IMyInventory.IsItemAt)||
-|[CanAddItemAmount(IMyInventoryItem, MyFixedPoint)](VRage.Game.ModAPI.Ingame.IMyInventory.CanAddItemAmount)||
-|[CanItemsBeAdded(MyFixedPoint, SerializableDefinitionId)](VRage.Game.ModAPI.Ingame.IMyInventory.CanItemsBeAdded)||
-|[ContainItems(MyFixedPoint, MyObjectBuilder_PhysicalObject)](VRage.Game.ModAPI.Ingame.IMyInventory.ContainItems)||
-|[GetItemAmount(SerializableDefinitionId, MyItemFlags)](VRage.Game.ModAPI.Ingame.IMyInventory.GetItemAmount)||
+|[IsItemAt(int)](VRage.Game.ModAPI.Ingame.IMyInventory.IsItemAt)|Determines if there is any item on given inventory slot.|
+|[GetItemAmount(MyItemType)](VRage.Game.ModAPI.Ingame.IMyInventory.GetItemAmount)|Sums up total amount of items of given type contained inside this inventory.|
+|[ContainItems(MyFixedPoint, MyItemType)](VRage.Game.ModAPI.Ingame.IMyInventory.ContainItems)|Determines if there is at least given amount of items of given type contained inside this inventory.|
+|[GetItemAt(int)](VRage.Game.ModAPI.Ingame.IMyInventory.GetItemAt)|Returns info about item at give position.|
+|[GetItemByID(uint)](VRage.Game.ModAPI.Ingame.IMyInventory.GetItemByID)|Returns info about item contained inside this inventory.|
+|[FindItem(MyItemType)](VRage.Game.ModAPI.Ingame.IMyInventory.FindItem)|Tries to find an item of given type inside this inventory.|
+|[CanItemsBeAdded(MyFixedPoint, MyItemType)](VRage.Game.ModAPI.Ingame.IMyInventory.CanItemsBeAdded)|Determines if given amount of items fits into this inventory on top of existing items.|
+|[GetItems(List, Func)](VRage.Game.ModAPI.Ingame.IMyInventory.GetItems)||
+|[TransferItemTo(IMyInventory, MyInventoryItem, Nullable)](VRage.Game.ModAPI.Ingame.IMyInventory.TransferItemTo)||
+|[TransferItemFrom(IMyInventory, MyInventoryItem, Nullable)](VRage.Game.ModAPI.Ingame.IMyInventory.TransferItemFrom)||
 |[TransferItemTo(IMyInventory, int, Nullable, Nullable, Nullable)](VRage.Game.ModAPI.Ingame.IMyInventory.TransferItemTo)||
 |[TransferItemFrom(IMyInventory, int, Nullable, Nullable, Nullable)](VRage.Game.ModAPI.Ingame.IMyInventory.TransferItemFrom)||
-|[TransferItemFrom(IMyInventory, IMyInventoryItem, MyFixedPoint)](VRage.Game.ModAPI.Ingame.IMyInventory.TransferItemFrom)||
-|[GetItems()](VRage.Game.ModAPI.Ingame.IMyInventory.GetItems)||
-|[GetItemByID(uint)](VRage.Game.ModAPI.Ingame.IMyInventory.GetItemByID)||
-|[FindItem(SerializableDefinitionId)](VRage.Game.ModAPI.Ingame.IMyInventory.FindItem)||
-|[IsConnectedTo(IMyInventory)](VRage.Game.ModAPI.Ingame.IMyInventory.IsConnectedTo)||
+|[IsConnectedTo(IMyInventory)](VRage.Game.ModAPI.Ingame.IMyInventory.IsConnectedTo)|Checks if two inventories are connected.|
+|[CanTransferItemTo(IMyInventory, MyItemType)](VRage.Game.ModAPI.Ingame.IMyInventory.CanTransferItemTo)|Determines if there is working conveyor connection for item of give type to be transferred to other inventory.|
+|[GetAcceptedItems(List, Func)](VRage.Game.ModAPI.Ingame.IMyInventory.GetAcceptedItems)||
 

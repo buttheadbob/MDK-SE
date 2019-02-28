@@ -3,13 +3,17 @@
 ### Summary
 
 ```csharp
-public IMyInventoryItem FindItem(SerializableDefinitionId contentId)
+public Nullable<T> FindItem(MyItemType itemType)
 ```
+
+Tries to find an item of given type inside this inventory.
 
 ### Returns
 
-[IMyInventoryItem](VRage.Game.ModAPI.Ingame.IMyInventoryItem)
+[Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
+
+Info about item found, null in case there is no item of given type inside this inventory
 
 ### Parameters
 
-* [SerializableDefinitionId](VRage.ObjectBuilders.SerializableDefinitionId) contentId
+* [MyItemType](VRage.Game.ModAPI.Ingame.MyItemType) itemType

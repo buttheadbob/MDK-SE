@@ -16,7 +16,8 @@ public interface IMyProductionBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCu
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
 **Inheritors:**  
-* [IMyAssembler](Sandbox.ModAPI.Ingame.IMyAssembler)
+* [IMyAssembler](Sandbox.ModAPI.Ingame.IMyAssembler)  
+* [IMyRefinery](Sandbox.ModAPI.Ingame.IMyRefinery)
 
 #### Properties
 

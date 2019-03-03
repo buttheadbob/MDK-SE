@@ -3,13 +3,15 @@
 #### IMySolarPanel Interface
 
 ```csharp
-public interface IMySolarPanel: IMyTerminalBlock, IMyCubeBlock, IMyEntity
+public interface IMySolarPanel: IMyPowerProducer, IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity
 ```
 
 **Namespace:** [SpaceEngineers.Game.ModAPI.Ingame](SpaceEngineers.Game.ModAPI.Ingame)  
 **Assembly:** SpaceEngineers.Game.dll
 
 **Implements:**  
+* [IMyPowerProducer](Sandbox.ModAPI.Ingame.IMyPowerProducer)  
+* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
 * [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
@@ -18,8 +20,6 @@ public interface IMySolarPanel: IMyTerminalBlock, IMyCubeBlock, IMyEntity
 
 |Member|Description|
 |---|---|
-|[CurrentOutput](SpaceEngineers.Game.ModAPI.Ingame.IMySolarPanel.CurrentOutput)|Current output of solar panel in Megawatts|
-|[MaxOutput](SpaceEngineers.Game.ModAPI.Ingame.IMySolarPanel.MaxOutput)|Maximum output of solar panel in Megawatts|
 |[Components](VRage.Game.ModAPI.Ingame.IMyEntity.Components)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[EntityId](VRage.Game.ModAPI.Ingame.IMyEntity.EntityId)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[Name](VRage.Game.ModAPI.Ingame.IMyEntity.Name)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
@@ -56,6 +56,9 @@ public interface IMySolarPanel: IMyTerminalBlock, IMyCubeBlock, IMyEntity
 |[ShowInTerminal](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInTerminal)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[ShowInToolbarConfig](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInToolbarConfig)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[ShowInInventory](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
+|[Enabled](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.Enabled)|_Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_|
+|[CurrentOutput](Sandbox.ModAPI.Ingame.IMyPowerProducer.CurrentOutput)|Current output in Megawatts<br /><br />_Inherited from [IMyPowerProducer](Sandbox.ModAPI.Ingame.IMyPowerProducer)_|
+|[MaxOutput](Sandbox.ModAPI.Ingame.IMyPowerProducer.MaxOutput)|Maximum output in Megawatts<br /><br />_Inherited from [IMyPowerProducer](Sandbox.ModAPI.Ingame.IMyPowerProducer)_|
 
 #### Methods
 
@@ -79,4 +82,5 @@ public interface IMySolarPanel: IMyTerminalBlock, IMyCubeBlock, IMyEntity
 |[GetProperty(string)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetProperty)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[GetProperties(List, Func)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetProperties)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[IsSameConstructAs(IMyTerminalBlock)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.IsSameConstructAs)|Determines whether this block is mechanically connected to the other. This is any block connected with rotors or pistons or other mechanical devices, but not things like connectors. This will in most cases constitute your complete construct.<br /><br />Be aware that using merge blocks combines grids into one, so this function will not filter out grids connected that way. Also be aware that detaching the heads of pistons and rotors will cause this connection to change.<br /><br />_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
+|[RequestEnable(bool)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)|_**Obsolete:** Use the setter of Enabled_<br /><br />_Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_|
 

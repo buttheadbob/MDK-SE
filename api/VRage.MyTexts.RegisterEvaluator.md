@@ -1,0 +1,12 @@
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MyTexts](VRage.MyTexts)
+
+### Summary
+
+```csharp
+public static void RegisterEvaluator(string prefix, ITextEvaluator eval)
+```
+
+### Parameters
+
+* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) prefix
+* [ITextEvaluator](VRage.ITextEvaluator) eval

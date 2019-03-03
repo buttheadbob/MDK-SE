@@ -9,12 +9,3 @@ public class MyComponentContainer
 **Namespace:** [VRage.Game.Components](VRage.Game.Components)  
 **Assembly:** VRage.Game.dll
 
-#### Methods
-
-|Member|Description|
-|---|---|
-|[Get()](VRage.Game.Components.MyComponentContainer.Get)||
-|[TryGet(out T)](VRage.Game.Components.MyComponentContainer.TryGet)||
-|[TryGet(Type, out MyComponentBase)](VRage.Game.Components.MyComponentContainer.TryGet)||
-|[Has()](VRage.Game.Components.MyComponentContainer.Has)||
-

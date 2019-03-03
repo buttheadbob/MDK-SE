@@ -16,6 +16,9 @@ public interface IMySmallMissileLauncher: IMyUserControllableGun, IMyFunctionalB
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Inheritors:**  
+* [IMySmallMissileLauncherReload](Sandbox.ModAPI.Ingame.IMySmallMissileLauncherReload)
+
 #### Properties
 
 |Member|Description|

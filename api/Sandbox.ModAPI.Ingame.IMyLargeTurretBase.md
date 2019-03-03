@@ -17,7 +17,10 @@ public interface IMyLargeTurretBase: IMyUserControllableGun, IMyFunctionalBlock,
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
 **Inheritors:**  
-* [IMyLargeConveyorTurretBase](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase)
+* [IMyLargeConveyorTurretBase](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase)  
+* [IMyLargeGatlingTurret](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeGatlingTurret)  
+* [IMyLargeInteriorTurret](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeInteriorTurret)  
+* [IMyLargeMissileTurret](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeMissileTurret)
 
 #### Properties
 

@@ -12,16 +12,3 @@ public class ComparerType: IEqualityComparer<T>
 **Implements:**  
 * [IEqualityComparer<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.iequalitycomparer?view=netframework-4.6)
 
-#### Constructors
-
-|Member|Description|
-|---|---|
-|[ComparerType()](VRageMath.BoundingBoxD+ComparerType..ctor)||
-
-#### Methods
-
-|Member|Description|
-|---|---|
-|[Equals(BoundingBox, BoundingBox)](VRageMath.BoundingBoxD+ComparerType.Equals)||
-|[GetHashCode(BoundingBox)](VRageMath.BoundingBoxD+ComparerType.GetHashCode)||
-

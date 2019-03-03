@@ -17,6 +17,9 @@ public interface IMyMotorStator: IMyMotorBase, IMyMechanicalConnectionBlock, IMy
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Inheritors:**  
+* [IMyMotorAdvancedStator](Sandbox.ModAPI.Ingame.IMyMotorAdvancedStator)
+
 #### Properties
 
 |Member|Description|

@@ -16,7 +16,8 @@ public interface IMyVirtualMass: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBl
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
 **Inheritors:**  
-* [IMySpaceBall](SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall)
+* [IMySpaceBall](SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall)  
+* [IMyArtificialMassBlock](SpaceEngineers.Game.ModAPI.Ingame.IMyArtificialMassBlock)
 
 #### Properties
 

@@ -9,14 +9,3 @@ public enum Direction
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-#### Fields
-
-|Member|Description|
-|---|---|
-|Forward||
-|Backward||
-|Left||
-|Right||
-|Up||
-|Down||
-

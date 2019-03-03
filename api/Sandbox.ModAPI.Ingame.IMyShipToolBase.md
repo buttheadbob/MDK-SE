@@ -16,6 +16,7 @@ public interface IMyShipToolBase: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeB
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
 **Inheritors:**  
+* [IMyShipGrinder](Sandbox.ModAPI.Ingame.IMyShipGrinder)  
 * [IMyShipWelder](Sandbox.ModAPI.Ingame.IMyShipWelder)
 
 #### Properties

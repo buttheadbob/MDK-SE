@@ -7,6 +7,7 @@
 [IMyAirVent](#imyairvent)  
 [IMyArtificialMassBlock](#imyartificialmassblock)  
 [IMyAssembler](#imyassembler)  
+[IMyAssembler](#imyassembler)  
 [IMyBatteryBlock](#imybatteryblock)  
 [IMyBeacon](#imybeacon)  
 [IMyButtonPanel](#imybuttonpanel)  
@@ -40,6 +41,8 @@
 [IMyOxygenTank](#imyoxygentank)  
 [IMyParachute](#imyparachute)  
 [IMyPistonBase](#imypistonbase)  
+[IMyPowerProducer](#imypowerproducer)  
+[IMyPowerProducer](#imypowerproducer)  
 [IMyProgrammableBlock](#imyprogrammableblock)  
 [IMyProjector](#imyprojector)  
 [IMyRadioAntenna](#imyradioantenna)  
@@ -78,6 +81,9 @@
 |Open| Open/Closed|
 |Open_Off| Closed|
 |Open_On| Open|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -103,6 +109,9 @@
 |Open| Open/Closed|
 |Open_Off| Closed|
 |Open_On| Open|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -128,6 +137,9 @@
 |Open| Open/Closed|
 |Open_Off| Closed|
 |Open_On| Open|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -153,6 +165,9 @@
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -175,6 +190,9 @@
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -196,6 +214,38 @@
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
+|slaveMode|Cooperative Mode On/Off|
+|UseConveyor|Use Conveyor System On/Off|
+
+### Properties
+
+|Name|Type|
+|-|-|
+|Name|StringBuilder|
+|OnOff|bool|
+|ShowInInventory|bool|
+|ShowInTerminal|bool|
+|ShowInToolbarConfig|bool|
+|ShowOnHUD|bool|
+|slaveMode|bool|
+|SpawnName|StringBuilder|
+|UseConveyor|bool|
+
+## IMyAssembler
+
+### Actions
+
+|Name|Description|
+|-|-|
+|OnOff|Toggle block On/Off|
+|OnOff_Off|Toggle block Off|
+|OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 |slaveMode|Cooperative Mode On/Off|
 |UseConveyor|Use Conveyor System On/Off|
 
@@ -218,22 +268,23 @@
 
 |Name|Description|
 |-|-|
+|Auto|Enable Auto|
 |Discharge|Discharge On/Off|
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
 |Recharge|Recharge On/Off|
-|SemiAuto|Semi-auto On/Off|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
 |Name|Type|
 |-|-|
-|Discharge|bool|
+|ChargeMode|long|
 |Name|StringBuilder|
 |OnOff|bool|
-|Recharge|bool|
-|SemiAuto|bool|
 |ShowInInventory|bool|
 |ShowInTerminal|bool|
 |ShowInToolbarConfig|bool|
@@ -250,17 +301,21 @@
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
 |Name|Type|
 |-|-|
 |CustomName|StringBuilder|
+|HudText|StringBuilder|
 |OnOff|bool|
 |Radius|float|
 |ShowInInventory|bool|
 |ShowInTerminal|bool|
-|ShowOnHUD|bool|
+|ShowInToolbarConfig|bool|
 
 ## IMyButtonPanel
 
@@ -272,6 +327,9 @@
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -295,6 +353,9 @@
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -308,6 +369,14 @@
 |ShowOnHUD|bool|
 
 ## IMyCargoContainer
+
+### Actions
+
+|Name|Description|
+|-|-|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -331,6 +400,9 @@
 |HandBrake|Handbrake On/Off|
 |HorizonIndicator|Show horizon and altitude On/Off|
 |MainCockpit|Main cockpit On/Off|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -357,6 +429,9 @@
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 |UseConveyor|Use Conveyor System On/Off|
 
 ### Properties
@@ -372,6 +447,14 @@
 |UseConveyor|bool|
 
 ## IMyControlPanel
+
+### Actions
+
+|Name|Description|
+|-|-|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -393,6 +476,9 @@
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -419,6 +505,9 @@
 |HandBrake|Handbrake On/Off|
 |HorizonIndicator|Show horizon and altitude On/Off|
 |MainCockpit|Main cockpit On/Off|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -445,6 +534,9 @@
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -469,6 +561,9 @@
 |Open| Open/Closed|
 |Open_Off| Closed|
 |Open_On| Open|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -512,6 +607,9 @@
 |Retract|Retract|
 |Reverse|Reverse|
 |ShareInertiaTensor|Share inertia tensor On/Off|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -550,6 +648,9 @@
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -579,6 +680,9 @@
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -611,6 +715,9 @@
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
 |Override|Override controls On/Off|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -651,6 +758,9 @@
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -685,6 +795,9 @@
 |Recharge|Recharge On/Off|
 |Recharge_Off|Recharge Off|
 |Recharge_On|Recharge On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -710,6 +823,9 @@
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 |SwitchLock|Switch lock|
 |Unlock|Unlock|
 
@@ -743,6 +859,9 @@
 |Shoot_Off|Shoot Off|
 |Shoot_On|Shoot On|
 |ShootOnce|Shoot once|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 |TargetCharacters|Target characters On/Off|
 |TargetCharacters_Off|Target characters Off|
 |TargetCharacters_On|Target characters On|
@@ -806,6 +925,9 @@
 |Shoot_Off|Shoot Off|
 |Shoot_On|Shoot On|
 |ShootOnce|Shoot once|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 |TargetCharacters|Target characters On/Off|
 |TargetCharacters_Off|Target characters Off|
 |TargetCharacters_On|Target characters On|
@@ -867,6 +989,9 @@
 |Shoot_Off|Shoot Off|
 |Shoot_On|Shoot On|
 |ShootOnce|Shoot once|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 |TargetCharacters|Target characters On/Off|
 |TargetCharacters_Off|Target characters Off|
 |TargetCharacters_On|Target characters On|
@@ -927,6 +1052,9 @@
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
 |PasteGpsCoords|Paste coords|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -952,6 +1080,9 @@
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -964,6 +1095,7 @@
 |ShowInTerminal|bool|
 |ShowInToolbarConfig|bool|
 |ShowOnHUD|bool|
+|SpawnName|StringBuilder|
 |TakeOwnership|bool|
 
 ## IMyMotorAdvancedStator
@@ -1000,6 +1132,9 @@
 |Reverse|Reverse|
 |RotorLock|Rotor lock On/Off|
 |ShareInertiaTensor|Share inertia tensor On/Off|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -1057,6 +1192,9 @@
 |Reverse|Reverse|
 |RotorLock|Rotor lock On/Off|
 |ShareInertiaTensor|Share inertia tensor On/Off|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -1122,6 +1260,9 @@
 |ResetSpeed Limit|Reset Speed limit|
 |ResetSteer override|Reset Steer override|
 |ShareInertiaTensor|Share inertia tensor On/Off|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 |Steering|Steering On/Off|
 
 ### Properties
@@ -1163,6 +1304,9 @@
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -1186,6 +1330,9 @@
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -1209,6 +1356,9 @@
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
 |Refill|Refill Bottles|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 |UseConveyor|Use Conveyor System On/Off|
 
 ### Properties
@@ -1235,6 +1385,9 @@
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
 |Refill|Refill Bottles|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 |Stockpile|Stockpile On/Off|
 |Stockpile_Off|Stockpile Off|
 |Stockpile_On|Stockpile On|
@@ -1265,6 +1418,9 @@
 |Open| Open/Closed|
 |Open_Off| Closed|
 |Open_On| Open|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -1310,6 +1466,9 @@
 |Retract|Retract|
 |Reverse|Reverse|
 |ShareInertiaTensor|Share inertia tensor On/Off|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -1331,6 +1490,54 @@
 |Velocity|float|
 |Weld speed|float|
 
+## IMyPowerProducer
+
+### Actions
+
+|Name|Description|
+|-|-|
+|OnOff|Toggle block On/Off|
+|OnOff_Off|Toggle block Off|
+|OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
+
+### Properties
+
+|Name|Type|
+|-|-|
+|Name|StringBuilder|
+|OnOff|bool|
+|ShowInInventory|bool|
+|ShowInTerminal|bool|
+|ShowInToolbarConfig|bool|
+|ShowOnHUD|bool|
+
+## IMyPowerProducer
+
+### Actions
+
+|Name|Description|
+|-|-|
+|OnOff|Toggle block On/Off|
+|OnOff_Off|Toggle block Off|
+|OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
+
+### Properties
+
+|Name|Type|
+|-|-|
+|Name|StringBuilder|
+|OnOff|bool|
+|ShowInInventory|bool|
+|ShowInTerminal|bool|
+|ShowInToolbarConfig|bool|
+|ShowOnHUD|bool|
+
 ## IMyProgrammableBlock
 
 ### Actions
@@ -1342,6 +1549,9 @@
 |OnOff_On|Toggle block On|
 |Run|Run|
 |RunWithDefaultArgument|Run with default argument|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -1377,6 +1587,9 @@
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 |SpawnProjection|Spawn projection|
 
 ### Properties
@@ -1424,6 +1637,7 @@
 |-|-|
 |CustomName|StringBuilder|
 |EnableBroadCast|bool|
+|HudText|StringBuilder|
 |IgnoreAlliedBroadcast|bool|
 |IgnoreOtherBroadcast|bool|
 |OnOff|bool|
@@ -1442,6 +1656,9 @@
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 |UseConveyor|Use Conveyor System On/Off|
 
 ### Properties
@@ -1465,6 +1682,9 @@
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 |UseConveyor|Use Conveyor System On/Off|
 
 ### Properties
@@ -1502,6 +1722,9 @@
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -1551,6 +1774,9 @@
 |MainCockpit|Main cockpit On/Off|
 |MainRemoteControl|Main Remote Control On/Off|
 |Right|Right|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 |Up|Up|
 
 ### Properties
@@ -1631,6 +1857,9 @@
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -1674,6 +1903,9 @@
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 |SwitchLock|Switch lock|
 |ThrowOut|Throw Out On/Off|
 |Unlock|Unlock|
@@ -1704,6 +1936,9 @@
 |HandBrake|Handbrake On/Off|
 |HorizonIndicator|Show horizon and altitude On/Off|
 |MainCockpit|Main cockpit On/Off|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -1730,6 +1965,9 @@
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 |UseConveyor|Use Conveyor System On/Off|
 
 ### Properties
@@ -1753,6 +1991,9 @@
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 |UseConveyor|Use Conveyor System On/Off|
 
 ### Properties
@@ -1776,6 +2017,9 @@
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -1798,6 +2042,9 @@
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 |UseConveyor|Use Conveyor System On/Off|
 
 ### Properties
@@ -1826,6 +2073,9 @@
 |Shoot_Off|Shoot Off|
 |Shoot_On|Shoot On|
 |ShootOnce|Shoot once|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 |UseConveyor|Use Conveyor System On/Off|
 
 ### Properties
@@ -1854,6 +2104,9 @@
 |Shoot_Off|Shoot Off|
 |Shoot_On|Shoot On|
 |ShootOnce|Shoot once|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 |UseConveyor|Use Conveyor System On/Off|
 
 ### Properties
@@ -1882,6 +2135,9 @@
 |Shoot_Off|Shoot Off|
 |Shoot_On|Shoot On|
 |ShootOnce|Shoot once|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 |UseConveyor|Use Conveyor System On/Off|
 |UseConveyor|Use Conveyor System On/Off|
 
@@ -1908,6 +2164,9 @@
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -1936,6 +2195,9 @@
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
 |PlaySound|Play|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 |StopSound|Stop|
 
 ### Properties
@@ -1964,6 +2226,9 @@
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -1991,6 +2256,9 @@
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -2022,6 +2290,9 @@
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -2046,6 +2317,9 @@
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 |Silent|Silent On/Off|
 |Start|Start|
 |Stop|Stop|
@@ -2073,6 +2347,9 @@
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 
 ### Properties
 
@@ -2095,6 +2372,9 @@
 |Detonate|Detonate|
 |IncreaseDetonationTime|Increase Detonation time|
 |Safety|Arm warhead On/Off|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
 |StartCountdown|Start countdown|
 |StopCountdown|Stop countdown|
 

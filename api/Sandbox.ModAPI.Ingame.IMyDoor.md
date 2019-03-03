@@ -15,6 +15,12 @@ public interface IMyDoor: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IM
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Inheritors:**  
+* [IMyAdvancedDoor](Sandbox.ModAPI.Ingame.IMyAdvancedDoor)  
+* [IMyAirtightDoorBase](Sandbox.ModAPI.Ingame.IMyAirtightDoorBase)  
+* [IMyAirtightHangarDoor](Sandbox.ModAPI.Ingame.IMyAirtightHangarDoor)  
+* [IMyAirtightSlideDoor](Sandbox.ModAPI.Ingame.IMyAirtightSlideDoor)
+
 #### Properties
 
 |Member|Description|

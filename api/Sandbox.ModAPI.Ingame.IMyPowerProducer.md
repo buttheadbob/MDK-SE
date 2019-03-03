@@ -17,7 +17,8 @@ public interface IMyPowerProducer: IMyFunctionalBlock, IMyTerminalBlock, IMyCube
 
 **Inheritors:**  
 * [IMyBatteryBlock](Sandbox.ModAPI.Ingame.IMyBatteryBlock)  
-* [IMyReactor](Sandbox.ModAPI.Ingame.IMyReactor)
+* [IMyReactor](Sandbox.ModAPI.Ingame.IMyReactor)  
+* [IMySolarPanel](SpaceEngineers.Game.ModAPI.Ingame.IMySolarPanel)
 
 #### Properties
 

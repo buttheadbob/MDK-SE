@@ -11,17 +11,6 @@ public class MyResourceSourceComponent: MyResourceSourceComponentBase
 
 **Inheritance:** [MyEntityComponentBase](VRage.Game.Components.MyEntityComponentBase) ˃ [MyResourceSourceComponentBase](VRage.Game.Components.MyResourceSourceComponentBase)
 
-#### Properties
-
-|Member|Description|
-|---|---|
-|[CurrentOutput](Sandbox.Game.EntityComponents.MyResourceSourceComponent.CurrentOutput)||
-|[MaxOutput](Sandbox.Game.EntityComponents.MyResourceSourceComponent.MaxOutput)||
-|[DefinedOutput](Sandbox.Game.EntityComponents.MyResourceSourceComponent.DefinedOutput)||
-|[ProductionEnabled](Sandbox.Game.EntityComponents.MyResourceSourceComponent.ProductionEnabled)||
-|[RemainingCapacity](Sandbox.Game.EntityComponents.MyResourceSourceComponent.RemainingCapacity)||
-|[HasCapacityRemaining](Sandbox.Game.EntityComponents.MyResourceSourceComponent.HasCapacityRemaining)||
-
 #### Methods
 
 |Member|Description|

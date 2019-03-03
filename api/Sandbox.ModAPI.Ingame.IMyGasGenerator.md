@@ -17,6 +17,9 @@ Gas generator interface
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Inheritors:**  
+* [IMyOxygenGenerator](Sandbox.ModAPI.Ingame.IMyOxygenGenerator)
+
 #### Properties
 
 |Member|Description|

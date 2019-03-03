@@ -15,6 +15,10 @@ public interface IMyLightingBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCube
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Inheritors:**  
+* [IMyReflectorLight](Sandbox.ModAPI.Ingame.IMyReflectorLight)  
+* [IMyInteriorLight](SpaceEngineers.Game.ModAPI.Ingame.IMyInteriorLight)
+
 #### Properties
 
 |Member|Description|

@@ -2,8 +2,6 @@
 
 # VRage.Game.ModAPI.Ingame.Utilities
 
-**[Enumerator](VRage.Game.ModAPI.Ingame.Utilities.MyCommandLine+Enumerator)**  
-**[ItemCollection](VRage.Game.ModAPI.Ingame.Utilities.MyCommandLine+ItemCollection)**  
 **[MyCommandLine](VRage.Game.ModAPI.Ingame.Utilities.MyCommandLine)**  
 **[MyIni](VRage.Game.ModAPI.Ingame.Utilities.MyIni)**  
 **[MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey)**  
@@ -11,7 +9,5 @@
 **[MyIniValue](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue)**  
 **[StringSegment](VRage.Game.ModAPI.Ingame.Utilities.StringSegment)**  
 **[StringSegmentIgnoreCaseComparer](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentIgnoreCaseComparer)**  
-**[SwitchCollection](VRage.Game.ModAPI.Ingame.Utilities.MyCommandLine+SwitchCollection)**  
-**[SwitchEnumerator](VRage.Game.ModAPI.Ingame.Utilities.MyCommandLine+SwitchEnumerator)**  
 **[TextPtr](VRage.Game.ModAPI.Ingame.Utilities.TextPtr)**
 

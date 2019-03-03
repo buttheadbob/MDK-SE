@@ -16,6 +16,7 @@ public interface IMyShipController: IMyTerminalBlock, IMyCubeBlock, IMyEntity
 
 **Inheritors:**  
 * [IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit)  
+* [IMyCryoChamber](Sandbox.ModAPI.Ingame.IMyCryoChamber)  
 * [IMyRemoteControl](Sandbox.ModAPI.Ingame.IMyRemoteControl)
 
 #### Properties

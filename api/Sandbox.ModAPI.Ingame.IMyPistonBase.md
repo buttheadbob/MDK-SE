@@ -16,6 +16,9 @@ public interface IMyPistonBase: IMyMechanicalConnectionBlock, IMyFunctionalBlock
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Inheritors:**  
+* [IMyExtendedPistonBase](Sandbox.ModAPI.Ingame.IMyExtendedPistonBase)
+
 #### Properties
 
 |Member|Description|

@@ -12,7 +12,8 @@ Base interface for all message providers.
 **Assembly:** Sandbox.Common.dll
 
 **Inheritors:**  
-* [IMyBroadcastListener](Sandbox.ModAPI.Ingame.IMyBroadcastListener)
+* [IMyBroadcastListener](Sandbox.ModAPI.Ingame.IMyBroadcastListener)  
+* [IMyUnicastListener](Sandbox.ModAPI.Ingame.IMyUnicastListener)
 
 #### Properties
 

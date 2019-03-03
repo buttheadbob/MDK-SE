@@ -12,5 +12,6 @@
 **[MyInventoryItem](VRage.Game.ModAPI.Ingame.MyInventoryItem)**  
 **[MyInventoryItemExtension](VRage.Game.ModAPI.Ingame.MyInventoryItemExtension)**  
 **[MyItemInfo](VRage.Game.ModAPI.Ingame.MyItemInfo)**  
-**[MyItemType](VRage.Game.ModAPI.Ingame.MyItemType)**
+**[MyItemType](VRage.Game.ModAPI.Ingame.MyItemType)**  
+**[MyPhysicalInventoryItemExtensions_ModAPI](VRage.Game.ModAPI.Ingame.MyPhysicalInventoryItemExtensions_ModAPI)**
 

@@ -13,6 +13,12 @@ public interface IMyAttachableTopBlock: IMyCubeBlock, IMyEntity
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Inheritors:**  
+* [IMyMotorRotor](Sandbox.ModAPI.Ingame.IMyMotorRotor)  
+* [IMyMotorAdvancedRotor](Sandbox.ModAPI.Ingame.IMyMotorAdvancedRotor)  
+* [IMyPistonTop](Sandbox.ModAPI.Ingame.IMyPistonTop)  
+* [IMyWheel](Sandbox.ModAPI.Ingame.IMyWheel)
+
 #### Properties
 
 |Member|Description|

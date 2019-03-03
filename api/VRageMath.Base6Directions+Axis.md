@@ -9,11 +9,3 @@ public enum Axis
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
-#### Fields
-
-|Member|Description|
-|---|---|
-|ForwardBackward||
-|LeftRight||
-|UpDown||
-

@@ -15,7 +15,7 @@ Some times there's code you don't want to be minified, for whatever reason. The 
 ### But the minifier is slow...
 One big issue with the minifier is that it's rather slow. So you will want to wait with minifying until you have a release ready script. Of course, the problem with this is that the game won't fit your script so you can't test it without minifying your script. Rexxar and Equinox came up with a solution to this: A plugin you can use on your game locally (won't work when you're on a server) to override the character limit of the programmable block. This way you can write and test your script _without_ minifying, until you're ready.
 
-To use the plugin, [download it from here](binaries/pbunlimiter.zip), and extract the DLL to a convenient location.
+To use the plugin, [download it from here](https://github.com/malware-dev/MDK-SE/blob/master/binaries/pbunlimiter.zip), and extract the DLL to a convenient location.
 
 Edit your Steam launch option by right-clicking on the game in Steam, select `properties`, the `General` tab, and click the button named `Set launch options`. Add `-plugin FullPathToTheDLLHere`. That's all you need to do; your limit is now gone.
 

@@ -90,7 +90,7 @@ public void RunStateMachine()
     }
 }
 
-// ***MARKER: State Machine Program
+// ***MARKER: Coroutine Example
 // The return value (bool in this case) is not important for this example. It is not
 // actually in use.
 public IEnumerator<bool> RunStuffOverTime() 

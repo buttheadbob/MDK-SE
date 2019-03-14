@@ -30,4 +30,4 @@
     * [Continuous Running No Timers Needed](Continuous-Running-No-Timers-Needed)
     * [Do's and Don'ts](Do's-and-Don'ts)
     * [Advanced: The EntityId](The-Entity-Id)
-    * [Advanced: Easy and Powerful State Machine Using "yield return"](Easy-and-Powerful-State-Machine)
+    * [Advanced: Coroutines - Run operations over multiple ticks](Coroutines---Run-operations-over-multiple-ticks)

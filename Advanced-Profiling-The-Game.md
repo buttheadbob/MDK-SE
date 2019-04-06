@@ -1,4 +1,4 @@
-Keen was nice enough to give us access to their devtools and their profiler, and with some downloading and file moving, you too can use this version of the game.
+Keen was nice enough to give us access to their devtools and their profiler, and with some downloading and file moving, you too can use this version of the game. This will allow you to measure the performance of your script to make sure it is running as fast as it possibly can.
 
 ## Getting started
 You'll need to set up a few things before you can start using the profiling version.

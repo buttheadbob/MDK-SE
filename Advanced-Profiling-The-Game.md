@@ -3,7 +3,7 @@ Keen was nice enough to give us access to their devtools and their profiler, and
 ## Getting started
 You'll need to set up a few things before you can start using the profiling version.
 
-First things first, is you'll need to download the ModSDK for the game. Open your Steam library, hovering your pointer over the "Library" button to get the menu. Select "Tools", and find "Space Engineers - Mod SDK" from the list, and install it. __Or__, you can just click this: [steam://install/326880](steam://install/326880) to install the tool (If the link doesn't work, check the usual channels: Is it installed already? Do you own Space Engineers?)
+First things first, is you'll need to download the ModSDK for the game. Open your Steam library, hovering your pointer over the "Library" button to get the menu. Select "Tools", and find "Space Engineers - Mod SDK" from the list, and install it.
 
 Once the ModSDK has finished downloading an installing, you need to open the directory where it's installed (You can get to this quickly by right-clicking the tool in your library, selecting "Properties", "Local Files", "Browse Local Files...").
 
@@ -11,7 +11,7 @@ __Make sure you make a backup of your `Bin64` directory before you copy the file
 
 ### The short version
 Here's how to install the profiling version of the game without all the extra fluff.
-* Install the [Space Engineers - Mod SDK](steam://install/326880)
+* Install the Space Engineers - Mod SDK (as described above)
 * Copy the ModSDK files in `Bin64_Profile` to the game's `Bin64` directory. __Replace all files in the destination__
 * Start the game
 

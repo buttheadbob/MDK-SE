@@ -29,7 +29,7 @@ From here, you can use the various keybinds listed below to dig deeper into what
 There are all kinds of debugging tools available in the profiler version of the game, but this page is only here to detail how to use the profiler specifically.
 
 
-### Using the Profiler
+<!-- ### Using the Profiler
 Press <kbd>F12</kbd> in game (or <kbd>Alt</kbd>+<kbd>F12</kbd> to not make steam screenshot)
 Select Performance tab
 Check Profiler checkbox

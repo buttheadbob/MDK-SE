@@ -1,7 +1,7 @@
 Keen was nice enough to give us access to their devtools and their profiler, and with some downloading and file moving, you too can use this version of the game. This will allow you to measure the performance of your script to make sure it is running as fast as it possibly can.
 
 ## Getting started
-You'll need to set up a few things before you can start using the profiling version.
+You'll need to set up a few things before 1you can start using the profiling version.
 
 First things first, is you'll need to download the ModSDK for the game. Open your Steam library, hovering your pointer over the "Library" button to get the menu. Select "Tools", and find "Space Engineers - Mod SDK" from the list, and install it.
 
@@ -249,4 +249,4 @@ You can make use of these paths by copying the text from here, opening the profi
 
 
 
-_A big thank you goes to AndrielChaoti who was kind enough to compose this document._
+_A big thank you goes to AndrielChaoti who was kind enough to compose this document, and MMaster for providing the original used as a source._

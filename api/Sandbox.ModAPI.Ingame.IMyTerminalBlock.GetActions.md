@@ -3,10 +3,10 @@
 ### Summary
 
 ```csharp
-public void GetActions(List<T> resultList, Func<T, TResult> collect)
+public void GetActions(List<Sandbox.ModAPI.Interfaces.ITerminalAction> resultList, Func<Sandbox.ModAPI.Interfaces.ITerminalAction, System.Boolean> collect)
 ```
 
 ### Parameters
 
-* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) resultList
-* [Func<T, TResult>](https://docs.microsoft.com/en-us/dotnet/api/system.func?view=netframework-4.6) collect
+* [List<Sandbox.ModAPI.Interfaces.ITerminalAction>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) resultList
+* [Func<Sandbox.ModAPI.Interfaces.ITerminalAction, System.Boolean>](https://docs.microsoft.com/en-us/dotnet/api/system.func?view=netframework-4.6) collect

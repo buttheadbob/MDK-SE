@@ -19,7 +19,7 @@ Subtracts a vector from a vector.
 ### Summary
 
 ```csharp
-public static void Subtract(ref Vector4 value1, ref Vector4 value2, out Vector4 result)
+public static void Subtract(ref Vector4 value1, ref Vector4 value2, ref Vector4 result)
 ```
 
 Subtracts a vector from a vector.

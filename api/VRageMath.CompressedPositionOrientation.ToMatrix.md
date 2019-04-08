@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void ToMatrix(out Matrix result)
+public void ToMatrix(ref Matrix result)
 ```
 
 ### Parameters

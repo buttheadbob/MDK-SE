@@ -3,9 +3,9 @@
 ### Summary
 
 ```csharp
-public void GetSounds(List<T> sounds)
+public void GetSounds(List<System.String> sounds)
 ```
 
 ### Parameters
 
-* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) sounds
+* [List<System.String>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) sounds

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static MyItemInfo GetItemInfo(MyItemType itemType)
+public static MyItemInfo GetItemInfo(this MyItemType itemType)
 ```
 
 ### Returns

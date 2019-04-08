@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static void SetUseConveyorSystem(IMyTerminalBlock block, bool use)
+public static void SetUseConveyorSystem(this IMyTerminalBlock block, bool use)
 ```
 
 ### Parameters

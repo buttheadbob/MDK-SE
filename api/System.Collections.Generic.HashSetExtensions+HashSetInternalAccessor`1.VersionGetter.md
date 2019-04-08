@@ -3,10 +3,10 @@
 ### Summary
 
 ```csharp
-public static Func<T, TResult> VersionGetter
+public static Func<, System.Int32> VersionGetter
 ```
 
 ### Returns
 
-[Func<T, TResult>](https://docs.microsoft.com/en-us/dotnet/api/system.func?view=netframework-4.6)
+[Func<, System.Int32>](https://docs.microsoft.com/en-us/dotnet/api/system.func?view=netframework-4.6)
 

@@ -19,7 +19,7 @@ Determines the reflect vector of the given vector and normal.
 ### Summary
 
 ```csharp
-public static void Reflect(ref Vector2D vector, ref Vector2D normal, out Vector2D result)
+public static void Reflect(ref Vector2D vector, ref Vector2D normal, ref Vector2D result)
 ```
 
 Determines the reflect vector of the given vector and normal.

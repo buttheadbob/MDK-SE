@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static StringBuilder AppendStringBuilder(StringBuilder stringBuilder, StringBuilder otherStringBuilder)
+public static StringBuilder AppendStringBuilder(this StringBuilder stringBuilder, StringBuilder otherStringBuilder)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 #### RayD Struct
 
 ```csharp
-public struct RayD: IEquatable<T>
+public struct RayD: IEquatable<VRageMath.RayD>
 ```
 
 Defines a ray.
@@ -12,7 +12,7 @@ Defines a ray.
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)
+* [IEquatable<VRageMath.RayD>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)
 
 #### Fields
 
@@ -37,10 +37,10 @@ Defines a ray.
 |[GetHashCode()](VRageMath.RayD.GetHashCode)|Gets the hash code for this instance.|
 |[ToString()](VRageMath.RayD.ToString)|Returns a String that represents the current Ray.|
 |[Intersects(BoundingBoxD)](VRageMath.RayD.Intersects)|Checks whether the Ray intersects a specified BoundingBox.|
-|[Intersects(ref BoundingBoxD, out Nullable)](VRageMath.RayD.Intersects)||
+|[Intersects(ref BoundingBoxD, ref Nullable)](VRageMath.RayD.Intersects)||
 |[Intersects(BoundingFrustumD)](VRageMath.RayD.Intersects)|Checks whether the Ray intersects a specified BoundingFrustum.|
 |[Intersects(PlaneD)](VRageMath.RayD.Intersects)|Determines whether this Ray intersects a specified Plane.|
-|[Intersects(ref PlaneD, out Nullable)](VRageMath.RayD.Intersects)||
+|[Intersects(ref PlaneD, ref Nullable)](VRageMath.RayD.Intersects)||
 |[Intersects(BoundingSphereD)](VRageMath.RayD.Intersects)|Checks whether the Ray intersects a specified BoundingSphere.|
-|[Intersects(ref BoundingSphere, out Nullable)](VRageMath.RayD.Intersects)||
+|[Intersects(ref BoundingSphere, ref Nullable)](VRageMath.RayD.Intersects)||
 

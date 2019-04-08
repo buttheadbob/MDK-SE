@@ -3,9 +3,9 @@
 ### Summary
 
 ```csharp
-public void GetQueue(List<T> items)
+public void GetQueue(List<Sandbox.ModAPI.Ingame.MyProductionItem> items)
 ```
 
 ### Parameters
 
-* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) items
+* [List<Sandbox.ModAPI.Ingame.MyProductionItem>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) items

@@ -31,7 +31,7 @@ Creates a Quaternion from a rotation Matrix.
 ### Summary
 
 ```csharp
-public static void CreateFromRotationMatrix(ref MatrixD matrix, out Quaternion result)
+public static void CreateFromRotationMatrix(ref MatrixD matrix, ref Quaternion result)
 ```
 
 ### Parameters
@@ -41,7 +41,7 @@ public static void CreateFromRotationMatrix(ref MatrixD matrix, out Quaternion
 ### Summary
 
 ```csharp
-public static void CreateFromRotationMatrix(ref Matrix matrix, out Quaternion result)
+public static void CreateFromRotationMatrix(ref Matrix matrix, ref Quaternion result)
 ```
 
 Creates a Quaternion from a rotation Matrix.
@@ -53,7 +53,7 @@ Creates a Quaternion from a rotation Matrix.
 ### Summary
 
 ```csharp
-public static void CreateFromRotationMatrix(ref Matrix3x3 matrix, out Quaternion result)
+public static void CreateFromRotationMatrix(ref Matrix3x3 matrix, ref Quaternion result)
 ```
 
 Creates a Quaternion from a rotation Matrix.

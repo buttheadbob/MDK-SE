@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static BoundingBox2I CreateFromPoints(IEnumerable<T> points)
+public static BoundingBox2I CreateFromPoints(IEnumerable<VRageMath.Vector2I> points)
 ```
 
 ### Returns
@@ -12,4 +12,4 @@ public static BoundingBox2I CreateFromPoints(IEnumerable<T> points)
 
 ### Parameters
 
-* [IEnumerable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable?view=netframework-4.6) points
+* [IEnumerable<VRageMath.Vector2I>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable?view=netframework-4.6) points

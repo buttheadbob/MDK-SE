@@ -26,7 +26,7 @@ Returns the conjugate of a specified QuaternionD.
 ### Summary
 
 ```csharp
-public static void Conjugate(ref QuaternionD value, out QuaternionD result)
+public static void Conjugate(ref QuaternionD value, ref QuaternionD result)
 ```
 
 Returns the conjugate of a specified QuaternionD.

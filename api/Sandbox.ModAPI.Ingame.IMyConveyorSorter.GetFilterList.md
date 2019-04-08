@@ -3,9 +3,9 @@
 ### Summary
 
 ```csharp
-public void GetFilterList(List<T> items)
+public void GetFilterList(List<Sandbox.ModAPI.Ingame.MyInventoryItemFilter> items)
 ```
 
 ### Parameters
 
-* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) items
+* [List<Sandbox.ModAPI.Ingame.MyInventoryItemFilter>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) items

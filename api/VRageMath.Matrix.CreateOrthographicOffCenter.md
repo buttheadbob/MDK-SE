@@ -23,7 +23,7 @@ Builds a customized, orthogonal projection matrix.
 ### Summary
 
 ```csharp
-public static void CreateOrthographicOffCenter(float left, float right, float bottom, float top, float zNearPlane, float zFarPlane, out Matrix result)
+public static void CreateOrthographicOffCenter(float left, float right, float bottom, float top, float zNearPlane, float zFarPlane, ref Matrix result)
 ```
 
 Builds a customized, orthogonal projection matrix.

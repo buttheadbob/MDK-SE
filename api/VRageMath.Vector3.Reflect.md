@@ -19,7 +19,7 @@ Returns the reflection of a vector off a surface that has the specified normal. 
 ### Summary
 
 ```csharp
-public static void Reflect(ref Vector3 vector, ref Vector3 normal, out Vector3 result)
+public static void Reflect(ref Vector3 vector, ref Vector3 normal, ref Vector3 result)
 ```
 
 Returns the reflection of a vector off a surface that has the specified normal. Reference page contains code sample.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static void CreateFromAzimuthAndElevation(float azimuth, float elevation, out Vector3 direction)
+public static void CreateFromAzimuthAndElevation(float azimuth, float elevation, ref Vector3 direction)
 ```
 
 ### Parameters

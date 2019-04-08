@@ -18,7 +18,7 @@ Tests whether the BoundingBoxI contains another BoundingBoxI.
 ### Summary
 
 ```csharp
-public void Contains(ref BoundingBoxI box, out ContainmentType result)
+public void Contains(ref BoundingBoxI box, ref ContainmentType result)
 ```
 
 Tests whether the BoundingBoxI contains a BoundingBoxI.
@@ -58,7 +58,7 @@ public ContainmentType Contains(Vector3 point)
 ### Summary
 
 ```csharp
-public void Contains(ref Vector3I point, out ContainmentType result)
+public void Contains(ref Vector3I point, ref ContainmentType result)
 ```
 
 Tests whether the BoundingBoxI contains a point.

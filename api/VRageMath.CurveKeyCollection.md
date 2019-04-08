@@ -3,7 +3,7 @@
 #### CurveKeyCollection Class
 
 ```csharp
-public class CurveKeyCollection: ICollection<T>, IEnumerable<T>, IEnumerable
+public class CurveKeyCollection: ICollection<VRageMath.CurveKey>, IEnumerable<VRageMath.CurveKey>, IEnumerable
 ```
 
 Contains the CurveKeys making up a Curve.
@@ -12,8 +12,8 @@ Contains the CurveKeys making up a Curve.
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [ICollection<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.icollection?view=netframework-4.6)  
-* [IEnumerable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable?view=netframework-4.6)  
+* [ICollection<VRageMath.CurveKey>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.icollection?view=netframework-4.6)  
+* [IEnumerable<VRageMath.CurveKey>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable?view=netframework-4.6)  
 * [IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerable?view=netframework-4.6)
 
 #### Properties

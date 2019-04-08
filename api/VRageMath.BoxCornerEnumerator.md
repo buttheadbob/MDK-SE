@@ -3,17 +3,17 @@
 #### BoxCornerEnumerator Struct
 
 ```csharp
-public struct BoxCornerEnumerator: IEnumerator<T>, IDisposable, IEnumerator, IEnumerable<T>, IEnumerable
+public struct BoxCornerEnumerator: IEnumerator<VRageMath.Vector3>, IDisposable, IEnumerator, IEnumerable<VRageMath.Vector3>, IEnumerable
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEnumerator<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerator?view=netframework-4.6)  
+* [IEnumerator<VRageMath.Vector3>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerator?view=netframework-4.6)  
 * [IDisposable](https://docs.microsoft.com/en-us/dotnet/api/system.idisposable?view=netframework-4.6)  
 * [IEnumerator](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerator?view=netframework-4.6)  
-* [IEnumerable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable?view=netframework-4.6)  
+* [IEnumerable<VRageMath.Vector3>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable?view=netframework-4.6)  
 * [IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerable?view=netframework-4.6)
 
 #### Properties

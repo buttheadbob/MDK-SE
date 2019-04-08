@@ -26,7 +26,7 @@ Changes the coefficients of the Normal vector of a Plane to make it of unit leng
 ### Summary
 
 ```csharp
-public static void Normalize(ref Plane value, out Plane result)
+public static void Normalize(ref Plane value, ref Plane result)
 ```
 
 Changes the coefficients of the Normal vector of a Plane to make it of unit length.

@@ -47,7 +47,7 @@ public static double Distance(Vector3 value1, Vector3D value2)
 ### Summary
 
 ```csharp
-public static void Distance(ref Vector3D value1, ref Vector3D value2, out double result)
+public static void Distance(ref Vector3D value1, ref Vector3D value2, ref double result)
 ```
 
 Calculates the distance between two vectors.

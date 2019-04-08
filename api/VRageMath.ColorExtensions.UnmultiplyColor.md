@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static Vector4 UnmultiplyColor(Vector4 c)
+public static Vector4 UnmultiplyColor(this Vector4 c)
 ```
 
 ### Returns

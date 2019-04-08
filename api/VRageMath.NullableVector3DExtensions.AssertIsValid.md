@@ -3,9 +3,9 @@
 ### Summary
 
 ```csharp
-public static void AssertIsValid(Nullable<T> value)
+public static void AssertIsValid(this Nullable<VRageMath.Vector3D> value)
 ```
 
 ### Parameters
 
-* [Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) value
+* [Nullable<VRageMath.Vector3D>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) value

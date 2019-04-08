@@ -19,7 +19,7 @@ Divides the components of a matrix by the corresponding components of another ma
 ### Summary
 
 ```csharp
-public static void Divide(ref MatrixD matrix1, ref MatrixD matrix2, out MatrixD result)
+public static void Divide(ref MatrixD matrix1, ref MatrixD matrix2, ref MatrixD result)
 ```
 
 Divides the components of a matrix by the corresponding components of another matrix.
@@ -48,7 +48,7 @@ Divides the components of a matrix by a scalar.
 ### Summary
 
 ```csharp
-public static void Divide(ref MatrixD matrix1, double divider, out MatrixD result)
+public static void Divide(ref MatrixD matrix1, double divider, ref MatrixD result)
 ```
 
 Divides the components of a matrix by a scalar.

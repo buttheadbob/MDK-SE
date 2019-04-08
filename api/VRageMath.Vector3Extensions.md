@@ -15,5 +15,5 @@ Usefull Vector3 extensions
 
 |Member|Description|
 |---|---|
-|[Project(Vector3, Vector3)](VRageMath.Vector3Extensions.Project)|Calculates projection vector|
+|[Project(this Vector3, Vector3)](VRageMath.Vector3Extensions.Project)|Calculates projection vector|
 

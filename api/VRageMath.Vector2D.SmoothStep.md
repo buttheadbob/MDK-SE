@@ -20,7 +20,7 @@ Interpolates between two values using a cubic equation.
 ### Summary
 
 ```csharp
-public static void SmoothStep(ref Vector2D value1, ref Vector2D value2, double amount, out Vector2D result)
+public static void SmoothStep(ref Vector2D value1, ref Vector2D value2, double amount, ref Vector2D result)
 ```
 
 Interpolates between two values using a cubic equation.

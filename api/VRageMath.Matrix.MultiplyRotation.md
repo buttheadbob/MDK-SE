@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static void MultiplyRotation(ref Matrix matrix1, ref Matrix matrix2, out Matrix result)
+public static void MultiplyRotation(ref Matrix matrix1, ref Matrix matrix2, ref Matrix result)
 ```
 
 Multiplies a matrix by another matrix, only rotation parts.

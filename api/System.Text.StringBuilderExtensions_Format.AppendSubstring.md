@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static StringBuilder AppendSubstring(StringBuilder stringBuilder, StringBuilder append, int start, int count)
+public static StringBuilder AppendSubstring(this StringBuilder stringBuilder, StringBuilder append, int start, int count)
 ```
 
 ### Returns

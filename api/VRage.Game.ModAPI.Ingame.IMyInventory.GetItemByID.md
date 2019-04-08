@@ -3,14 +3,14 @@
 ### Summary
 
 ```csharp
-public Nullable<T> GetItemByID(uint id)
+public Nullable<VRage.Game.ModAPI.Ingame.MyInventoryItem> GetItemByID(uint id)
 ```
 
 Returns info about item contained inside this inventory.
 
 ### Returns
 
-[Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
+[Nullable<VRage.Game.ModAPI.Ingame.MyInventoryItem>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
 
 Info about queried item, null in case there is no item with given Id inside this inventory
 

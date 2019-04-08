@@ -22,7 +22,7 @@ Performs a Hermite spline interpolation.
 ### Summary
 
 ```csharp
-public static void Hermite(ref Vector4 value1, ref Vector4 tangent1, ref Vector4 value2, ref Vector4 tangent2, float amount, out Vector4 result)
+public static void Hermite(ref Vector4 value1, ref Vector4 tangent1, ref Vector4 value2, ref Vector4 tangent2, float amount, ref Vector4 result)
 ```
 
 Performs a Hermite spline interpolation.

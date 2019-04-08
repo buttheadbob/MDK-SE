@@ -18,7 +18,7 @@ Creates the smallest BoundingBox that will contain the specified BoundingSphere.
 ### Summary
 
 ```csharp
-public static void CreateFromSphere(ref BoundingSphereD sphere, out BoundingBoxD result)
+public static void CreateFromSphere(ref BoundingSphereD sphere, ref BoundingBoxD result)
 ```
 
 Creates the smallest BoundingBox that will contain the specified BoundingSphere.

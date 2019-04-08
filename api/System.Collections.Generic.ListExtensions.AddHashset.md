@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static void AddHashset<T>(List<T> list, HashSet<T> hashset)
+public static void AddHashset<T>(this List<T> list, HashSet<T> hashset)
 ```
 
 ### Parameters

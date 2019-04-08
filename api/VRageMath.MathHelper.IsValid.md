@@ -94,7 +94,7 @@ public static bool IsValid(double f)
 ### Summary
 
 ```csharp
-public static bool IsValid(Nullable<T> vec)
+public static bool IsValid(Nullable<VRageMath.Vector3> vec)
 ```
 
 ### Returns
@@ -103,7 +103,7 @@ public static bool IsValid(Nullable<T> vec)
 
 ### Parameters
 
-* [Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) vec
+* [Nullable<VRageMath.Vector3>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) vec
 ### Summary
 
 ```csharp

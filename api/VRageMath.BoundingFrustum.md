@@ -3,7 +3,7 @@
 #### BoundingFrustum Class
 
 ```csharp
-public class BoundingFrustum: IEquatable<T>
+public class BoundingFrustum: IEquatable<VRageMath.BoundingFrustum>
 ```
 
 Defines a frustum and helps determine whether forms intersect with it.
@@ -12,7 +12,7 @@ Defines a frustum and helps determine whether forms intersect with it.
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)
+* [IEquatable<VRageMath.BoundingFrustum>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)
 
 #### Fields
 
@@ -53,19 +53,19 @@ Defines a frustum and helps determine whether forms intersect with it.
 |[GetHashCode()](VRageMath.BoundingFrustum.GetHashCode)|Gets the hash code for this instance.|
 |[ToString()](VRageMath.BoundingFrustum.ToString)|Returns a String that represents the current BoundingFrustum.|
 |[Intersects(BoundingBox)](VRageMath.BoundingFrustum.Intersects)|Checks whether the current BoundingFrustum intersects the specified BoundingBox.|
-|[Intersects(ref BoundingBox, out bool)](VRageMath.BoundingFrustum.Intersects)|Checks whether the current BoundingFrustum intersects a BoundingBox.|
+|[Intersects(ref BoundingBox, ref bool)](VRageMath.BoundingFrustum.Intersects)|Checks whether the current BoundingFrustum intersects a BoundingBox.|
 |[Intersects(BoundingFrustum)](VRageMath.BoundingFrustum.Intersects)|Checks whether the current BoundingFrustum intersects the specified BoundingFrustum.|
 |[Intersects(Plane)](VRageMath.BoundingFrustum.Intersects)|Checks whether the current BoundingFrustum intersects the specified Plane.|
-|[Intersects(ref Plane, out PlaneIntersectionType)](VRageMath.BoundingFrustum.Intersects)|Checks whether the current BoundingFrustum intersects a Plane.|
+|[Intersects(ref Plane, ref PlaneIntersectionType)](VRageMath.BoundingFrustum.Intersects)|Checks whether the current BoundingFrustum intersects a Plane.|
 |[Intersects(Ray)](VRageMath.BoundingFrustum.Intersects)|Checks whether the current BoundingFrustum intersects the specified Ray.|
-|[Intersects(ref Ray, out Nullable)](VRageMath.BoundingFrustum.Intersects)||
+|[Intersects(ref Ray, ref Nullable)](VRageMath.BoundingFrustum.Intersects)||
 |[Intersects(BoundingSphere)](VRageMath.BoundingFrustum.Intersects)|Checks whether the current BoundingFrustum intersects the specified BoundingSphere.|
-|[Intersects(ref BoundingSphere, out bool)](VRageMath.BoundingFrustum.Intersects)|Checks whether the current BoundingFrustum intersects a BoundingSphere.|
+|[Intersects(ref BoundingSphere, ref bool)](VRageMath.BoundingFrustum.Intersects)|Checks whether the current BoundingFrustum intersects a BoundingSphere.|
 |[Contains(ref BoundingBox)](VRageMath.BoundingFrustum.Contains)|Checks whether the current BoundingFrustum contains the specified BoundingBox.|
-|[Contains(ref BoundingBox, out ContainmentType)](VRageMath.BoundingFrustum.Contains)|Checks whether the current BoundingFrustum contains the specified BoundingBox.|
+|[Contains(ref BoundingBox, ref ContainmentType)](VRageMath.BoundingFrustum.Contains)|Checks whether the current BoundingFrustum contains the specified BoundingBox.|
 |[Contains(BoundingFrustum)](VRageMath.BoundingFrustum.Contains)|Checks whether the current BoundingFrustum contains the specified BoundingFrustum.|
 |[Contains(Vector3)](VRageMath.BoundingFrustum.Contains)|Checks whether the current BoundingFrustum contains the specified point.|
-|[Contains(ref Vector3, out ContainmentType)](VRageMath.BoundingFrustum.Contains)|Checks whether the current BoundingFrustum contains the specified point.|
+|[Contains(ref Vector3, ref ContainmentType)](VRageMath.BoundingFrustum.Contains)|Checks whether the current BoundingFrustum contains the specified point.|
 |[Contains(BoundingSphere)](VRageMath.BoundingFrustum.Contains)|Checks whether the current BoundingFrustum contains the specified BoundingSphere.|
-|[Contains(ref BoundingSphere, out ContainmentType)](VRageMath.BoundingFrustum.Contains)|Checks whether the current BoundingFrustum contains the specified BoundingSphere.|
+|[Contains(ref BoundingSphere, ref ContainmentType)](VRageMath.BoundingFrustum.Contains)|Checks whether the current BoundingFrustum contains the specified BoundingSphere.|
 

@@ -55,12 +55,12 @@ public bool Intersects(ref BoundingSphere sphere)
 ### Summary
 
 ```csharp
-public Nullable<T> Intersects(ref Ray ray)
+public Nullable<System.Single> Intersects(ref Ray ray)
 ```
 
 ### Returns
 
-[Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
+[Nullable<System.Single>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
 
 ### Parameters
 
@@ -68,12 +68,12 @@ public Nullable<T> Intersects(ref Ray ray)
 ### Summary
 
 ```csharp
-public Nullable<T> Intersects(ref Line line)
+public Nullable<System.Single> Intersects(ref Line line)
 ```
 
 ### Returns
 
-[Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
+[Nullable<System.Single>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
 
 ### Parameters
 

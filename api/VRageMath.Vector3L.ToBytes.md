@@ -3,9 +3,9 @@
 ### Summary
 
 ```csharp
-public void ToBytes(List<T> result)
+public void ToBytes(List<System.Byte> result)
 ```
 
 ### Parameters
 
-* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) result
+* [List<System.Byte>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) result

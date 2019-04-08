@@ -19,7 +19,7 @@ Returns a vector that contains the highest value from each matching pair of comp
 ### Summary
 
 ```csharp
-public static void Max(ref Vector2D value1, ref Vector2D value2, out Vector2D result)
+public static void Max(ref Vector2D value1, ref Vector2D value2, ref Vector2D result)
 ```
 
 Returns a vector that contains the highest value from each matching pair of components.

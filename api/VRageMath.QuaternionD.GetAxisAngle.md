@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetAxisAngle(out Vector3D axis, out double angle)
+public void GetAxisAngle(ref Vector3D axis, ref double angle)
 ```
 
 ### Parameters

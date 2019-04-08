@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool TryGetClosestPoint(out Nullable<T> closestPoint)
+public bool TryGetClosestPoint(ref Nullable<VRageMath.Vector3D> closestPoint)
 ```
 
 ### Returns
@@ -12,4 +12,4 @@ public bool TryGetClosestPoint(out Nullable<T> closestPoint)
 
 ### Parameters
 
-* [Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) closestPoint
+* [Nullable<VRageMath.Vector3D>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) closestPoint

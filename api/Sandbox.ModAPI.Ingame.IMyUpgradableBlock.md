@@ -52,7 +52,7 @@ interface to retrieve upgrade effects on block
 
 |Member|Description|
 |---|---|
-|[GetUpgrades(out Dictionary)](Sandbox.ModAPI.Ingame.IMyUpgradableBlock.GetUpgrades)||
+|[GetUpgrades(ref Dictionary)](Sandbox.ModAPI.Ingame.IMyUpgradableBlock.GetUpgrades)||
 |[GetInventory()](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)|Simply get the MyInventoryBase component stored in this entity.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[GetInventory(int)](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)|Search for inventory component with maching index.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[GetPosition()](VRage.Game.ModAPI.Ingame.IMyEntity.GetPosition)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|

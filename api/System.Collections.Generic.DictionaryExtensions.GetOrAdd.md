@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static TValue GetOrAdd<TKey, TValue, TContext>(ConcurrentDictionary<TKey, TValue> dictionary, TKey key, TContext context, Func<T1, T2, TResult> activator)
+public static TValue GetOrAdd<TKey, TValue, TContext>(this ConcurrentDictionary<TKey, TValue> dictionary, TKey key, TContext context, Func<TContext, TKey, TValue> activator)
 ```
 
 ### Returns
@@ -15,4 +15,4 @@ public static TValue GetOrAdd<TKey, TValue, TContext>(ConcurrentDictionary<TKey,
 * [ConcurrentDictionary<TKey, TValue>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.concurrent.concurrentdictionary?view=netframework-4.6) dictionary
 * [TKey]() key
 * [TContext]() context
-* [Func<T1, T2, TResult>](https://docs.microsoft.com/en-us/dotnet/api/system.func?view=netframework-4.6) activator
+* [Func<TContext, TKey, TValue>](https://docs.microsoft.com/en-us/dotnet/api/system.func?view=netframework-4.6) activator

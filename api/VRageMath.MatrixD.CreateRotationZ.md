@@ -18,7 +18,7 @@ Returns a matrix that can be used to rotate a set of vertices around the z-axis.
 ### Summary
 
 ```csharp
-public static void CreateRotationZ(double radians, out MatrixD result)
+public static void CreateRotationZ(double radians, ref MatrixD result)
 ```
 
 Populates data into a user-specified matrix that can be used to rotate a set of vertices around the z-axis.

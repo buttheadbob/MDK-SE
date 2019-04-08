@@ -3,10 +3,10 @@
 ### Summary
 
 ```csharp
-public static Func<T1, T2, TResult> SlotValueGetter
+public static Func<, System.Int32, T> SlotValueGetter
 ```
 
 ### Returns
 
-[Func<T1, T2, TResult>](https://docs.microsoft.com/en-us/dotnet/api/system.func?view=netframework-4.6)
+[Func<, System.Int32, T>](https://docs.microsoft.com/en-us/dotnet/api/system.func?view=netframework-4.6)
 

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static bool IsValid(Nullable<T> value)
+public static bool IsValid(this Nullable<VRageMath.Vector3> value)
 ```
 
 ### Returns
@@ -12,4 +12,4 @@ public static bool IsValid(Nullable<T> value)
 
 ### Parameters
 
-* [Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) value
+* [Nullable<VRageMath.Vector3>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) value

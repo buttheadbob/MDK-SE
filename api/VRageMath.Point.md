@@ -3,7 +3,7 @@
 #### Point Struct
 
 ```csharp
-public struct Point: IEquatable<T>
+public struct Point: IEquatable<VRageMath.Point>
 ```
 
 Defines a point in 2D space.
@@ -12,7 +12,7 @@ Defines a point in 2D space.
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)
+* [IEquatable<VRageMath.Point>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)
 
 #### Fields
 

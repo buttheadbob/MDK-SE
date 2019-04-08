@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static bool Is<TValue>(ITerminalProperty property)
+public static bool Is<TValue>(this ITerminalProperty property)
 ```
 
 ### Returns

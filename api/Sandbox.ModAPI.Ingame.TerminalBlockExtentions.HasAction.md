@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static bool HasAction(IMyTerminalBlock block, string actionName)
+public static bool HasAction(this IMyTerminalBlock block, string actionName)
 ```
 
 ### Returns

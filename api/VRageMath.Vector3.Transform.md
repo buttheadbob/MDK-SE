@@ -49,7 +49,7 @@ public static Vector3 Transform(Vector3 position, ref Matrix matrix)
 ### Summary
 
 ```csharp
-public static void Transform(ref Vector3 position, ref Matrix matrix, out Vector3 result)
+public static void Transform(ref Vector3 position, ref Matrix matrix, ref Vector3 result)
 ```
 
 Transforms a Vector3 by the given Matrix.
@@ -62,7 +62,7 @@ Transforms a Vector3 by the given Matrix.
 ### Summary
 
 ```csharp
-public static void Transform(ref Vector3 position, ref MatrixI matrix, out Vector3 result)
+public static void Transform(ref Vector3 position, ref MatrixI matrix, ref Vector3 result)
 ```
 
 ### Parameters
@@ -89,7 +89,7 @@ Transforms a Vector3 by a specified Quaternion rotation.
 ### Summary
 
 ```csharp
-public static void Transform(ref Vector3 value, ref Quaternion rotation, out Vector3 result)
+public static void Transform(ref Vector3 value, ref Quaternion rotation, ref Vector3 result)
 ```
 
 Transforms a Vector3 by a specified Quaternion rotation.

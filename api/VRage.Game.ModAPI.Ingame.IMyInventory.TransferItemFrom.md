@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool TransferItemFrom(IMyInventory sourceInventory, MyInventoryItem item, Nullable<T> amount)
+public bool TransferItemFrom(IMyInventory sourceInventory, MyInventoryItem item, Nullable<VRage.MyFixedPoint> amount)
 ```
 
 ### Returns
@@ -14,11 +14,11 @@ public bool TransferItemFrom(IMyInventory sourceInventory, MyInventoryItem item,
 
 * [IMyInventory](VRage.Game.ModAPI.Ingame.IMyInventory) sourceInventory
 * [MyInventoryItem](VRage.Game.ModAPI.Ingame.MyInventoryItem) item
-* [Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) amount
+* [Nullable<VRage.MyFixedPoint>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) amount
 ### Summary
 
 ```csharp
-public bool TransferItemFrom(IMyInventory sourceInventory, int sourceItemIndex, Nullable<T> targetItemIndex, Nullable<T> stackIfPossible, Nullable<T> amount)
+public bool TransferItemFrom(IMyInventory sourceInventory, int sourceItemIndex, Nullable<System.Int32> targetItemIndex, Nullable<System.Boolean> stackIfPossible, Nullable<VRage.MyFixedPoint> amount)
 ```
 
 ### Returns
@@ -29,6 +29,6 @@ public bool TransferItemFrom(IMyInventory sourceInventory, int sourceItemIndex, 
 
 * [IMyInventory](VRage.Game.ModAPI.Ingame.IMyInventory) sourceInventory
 * [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) sourceItemIndex
-* [Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) targetItemIndex
-* [Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) stackIfPossible
-* [Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) amount
+* [Nullable<System.Int32>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) targetItemIndex
+* [Nullable<System.Boolean>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) stackIfPossible
+* [Nullable<VRage.MyFixedPoint>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) amount

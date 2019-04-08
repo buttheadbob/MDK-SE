@@ -22,7 +22,7 @@ Performs a Catmull-Rom interpolation using the specified positions.
 ### Summary
 
 ```csharp
-public static void CatmullRom(ref Vector4 value1, ref Vector4 value2, ref Vector4 value3, ref Vector4 value4, float amount, out Vector4 result)
+public static void CatmullRom(ref Vector4 value1, ref Vector4 value2, ref Vector4 value3, ref Vector4 value4, float amount, ref Vector4 result)
 ```
 
 Performs a Catmull-Rom interpolation using the specified positions.

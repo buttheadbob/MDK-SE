@@ -18,7 +18,7 @@ Creates a translation Matrix.
 ### Summary
 
 ```csharp
-public static void CreateTranslation(ref Vector3 position, out Matrix result)
+public static void CreateTranslation(ref Vector3 position, ref Matrix result)
 ```
 
 Creates a translation Matrix.
@@ -47,7 +47,7 @@ Creates a translation Matrix.
 ### Summary
 
 ```csharp
-public static void CreateTranslation(float xPosition, float yPosition, float zPosition, out Matrix result)
+public static void CreateTranslation(float xPosition, float yPosition, float zPosition, ref Matrix result)
 ```
 
 Creates a translation Matrix.

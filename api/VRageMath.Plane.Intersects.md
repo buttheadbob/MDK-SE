@@ -18,7 +18,7 @@ Checks whether the current Plane intersects a specified BoundingBox.
 ### Summary
 
 ```csharp
-public void Intersects(ref BoundingBox box, out PlaneIntersectionType result)
+public void Intersects(ref BoundingBox box, ref PlaneIntersectionType result)
 ```
 
 Checks whether the current Plane intersects a BoundingBox.
@@ -60,7 +60,7 @@ Checks whether the current Plane intersects a specified BoundingSphere.
 ### Summary
 
 ```csharp
-public void Intersects(ref BoundingSphere sphere, out PlaneIntersectionType result)
+public void Intersects(ref BoundingSphere sphere, ref PlaneIntersectionType result)
 ```
 
 Checks whether the current Plane intersects a BoundingSphere.

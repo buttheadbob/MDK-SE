@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static T AtMod<T>(List<T> list, int index)
+public static T AtMod<T>(this List<T> list, int index)
 ```
 
 ### Returns
@@ -17,7 +17,7 @@ public static T AtMod<T>(List<T> list, int index)
 ### Summary
 
 ```csharp
-public static T AtMod<T>(ListReader<T> list, int index)
+public static T AtMod<T>(this ListReader<T> list, int index)
 ```
 
 ### Returns
@@ -26,5 +26,5 @@ public static T AtMod<T>(ListReader<T> list, int index)
 
 ### Parameters
 
-* [ListReader<T>](VRage.Collections.ListReader`1) list
+* [ListReader<T>]() list
 * [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) index

@@ -28,6 +28,6 @@ A class for simpler traversal of ranges of longeger vectors
 |Member|Description|
 |---|---|
 |[IsValid()](VRageMath.Vector3L_RangeIterator.IsValid)||
-|[GetNext(out Vector3L)](VRageMath.Vector3L_RangeIterator.GetNext)||
+|[GetNext(ref Vector3L)](VRageMath.Vector3L_RangeIterator.GetNext)||
 |[MoveNext()](VRageMath.Vector3L_RangeIterator.MoveNext)||
 

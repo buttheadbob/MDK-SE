@@ -3,12 +3,12 @@
 ### Summary
 
 ```csharp
-public static ITerminalProperty<TValue> Cast<TValue>(ITerminalProperty property)
+public static ITerminalProperty<TValue> Cast<TValue>(this ITerminalProperty property)
 ```
 
 ### Returns
 
-[ITerminalProperty<TValue>](Sandbox.ModAPI.Interfaces.ITerminalProperty`1)
+[ITerminalProperty<TValue>]()
 
 ### Parameters
 

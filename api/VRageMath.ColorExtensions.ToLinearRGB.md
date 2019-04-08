@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static Vector4 ToLinearRGB(Vector4 c)
+public static Vector4 ToLinearRGB(this Vector4 c)
 ```
 
 ### Returns
@@ -16,7 +16,7 @@ public static Vector4 ToLinearRGB(Vector4 c)
 ### Summary
 
 ```csharp
-public static Vector3 ToLinearRGB(Vector3 c)
+public static Vector3 ToLinearRGB(this Vector3 c)
 ```
 
 ### Returns

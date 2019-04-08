@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool TryGetString(out string value)
+public bool TryGetString(ref string value)
 ```
 
 Attempts to get this value as a [System.String](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) . Fills the`value`on success.

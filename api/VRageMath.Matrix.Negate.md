@@ -18,7 +18,7 @@ Negates individual elements of a matrix.
 ### Summary
 
 ```csharp
-public static void Negate(ref Matrix matrix, out Matrix result)
+public static void Negate(ref Matrix matrix, ref Matrix result)
 ```
 
 Negates individual elements of a matrix.

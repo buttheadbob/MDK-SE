@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static ITerminalAction GetAction(IMyTerminalBlock block, string name)
+public static ITerminalAction GetAction(this IMyTerminalBlock block, string name)
 ```
 
 ### Returns

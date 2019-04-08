@@ -19,7 +19,7 @@ Concatenates two Quaternions; the result represents the value1 rotation followed
 ### Summary
 
 ```csharp
-public static void Concatenate(ref QuaternionD value1, ref QuaternionD value2, out QuaternionD result)
+public static void Concatenate(ref QuaternionD value1, ref QuaternionD value2, ref QuaternionD result)
 ```
 
 Concatenates two Quaternions; the result represents the value1 rotation followed by the value2 rotation.

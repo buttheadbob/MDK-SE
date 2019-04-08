@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MyDetectedEntityInfo(long entityId, string name, MyDetectedEntityType type, Nullable<T> hitPosition, MatrixD orientation, Vector3 velocity, MyRelationsBetweenPlayerAndBlock relationship, BoundingBoxD boundingBox, long timeStamp)
+public MyDetectedEntityInfo(long entityId, string name, MyDetectedEntityType type, Nullable<VRageMath.Vector3D> hitPosition, MatrixD orientation, Vector3 velocity, MyRelationsBetweenPlayerAndBlock relationship, BoundingBoxD boundingBox, long timeStamp)
 ```
 
 ### Parameters
@@ -11,7 +11,7 @@ public MyDetectedEntityInfo(long entityId, string name, MyDetectedEntityType typ
 * [long](https://docs.microsoft.com/en-us/dotnet/api/system.int64?view=netframework-4.6) entityId
 * [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) name
 * [MyDetectedEntityType](Sandbox.ModAPI.Ingame.MyDetectedEntityType) type
-* [Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) hitPosition
+* [Nullable<VRageMath.Vector3D>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) hitPosition
 * [MatrixD](VRageMath.MatrixD) orientation
 * [Vector3](VRageMath.Vector3) velocity
 * [MyRelationsBetweenPlayerAndBlock](VRage.Game.MyRelationsBetweenPlayerAndBlock) relationship

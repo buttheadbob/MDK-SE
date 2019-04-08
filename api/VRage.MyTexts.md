@@ -33,6 +33,6 @@ public abstract sealed class MyTexts
 |[Clear()](VRage.MyTexts.Clear)||
 |[IsTagged(string, int, string)](VRage.MyTexts.IsTagged)||
 |[LoadTexts(string, string, string)](VRage.MyTexts.LoadTexts)||
-|[AppendFormat(StringBuilder, MyStringId, object)](VRage.MyTexts.AppendFormat)||
-|[AppendFormat(StringBuilder, MyStringId, MyStringId)](VRage.MyTexts.AppendFormat)||
+|[AppendFormat(this StringBuilder, MyStringId, object)](VRage.MyTexts.AppendFormat)||
+|[AppendFormat(this StringBuilder, MyStringId, MyStringId)](VRage.MyTexts.AppendFormat)||
 

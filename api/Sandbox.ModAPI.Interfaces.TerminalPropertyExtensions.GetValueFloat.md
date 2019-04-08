@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static float GetValueFloat(IMyTerminalBlock block, string propertyId)
+public static float GetValueFloat(this IMyTerminalBlock block, string propertyId)
 ```
 
 Returns value of specified property

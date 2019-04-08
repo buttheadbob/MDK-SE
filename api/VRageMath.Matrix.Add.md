@@ -19,7 +19,7 @@ Adds a matrix to another matrix.
 ### Summary
 
 ```csharp
-public static void Add(ref Matrix matrix1, ref Matrix matrix2, out Matrix result)
+public static void Add(ref Matrix matrix1, ref Matrix matrix2, ref Matrix result)
 ```
 
 Adds a matrix to another matrix.

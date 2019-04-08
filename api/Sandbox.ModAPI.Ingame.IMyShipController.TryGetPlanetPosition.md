@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool TryGetPlanetPosition(out Vector3D position)
+public bool TryGetPlanetPosition(ref Vector3D position)
 ```
 
 Attempts to get the world position of the nearest planet. This method is only available when a ship is within the gravity well of a planet.

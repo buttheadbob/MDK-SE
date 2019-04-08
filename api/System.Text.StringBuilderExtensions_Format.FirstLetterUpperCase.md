@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static StringBuilder FirstLetterUpperCase(StringBuilder self)
+public static StringBuilder FirstLetterUpperCase(this StringBuilder self)
 ```
 
 ### Returns

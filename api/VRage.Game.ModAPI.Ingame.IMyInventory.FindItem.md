@@ -3,14 +3,14 @@
 ### Summary
 
 ```csharp
-public Nullable<T> FindItem(MyItemType itemType)
+public Nullable<VRage.Game.ModAPI.Ingame.MyInventoryItem> FindItem(MyItemType itemType)
 ```
 
 Tries to find an item of given type inside this inventory.
 
 ### Returns
 
-[Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
+[Nullable<VRage.Game.ModAPI.Ingame.MyInventoryItem>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
 
 Info about item found, null in case there is no item of given type inside this inventory
 

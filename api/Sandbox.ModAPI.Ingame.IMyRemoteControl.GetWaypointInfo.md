@@ -3,9 +3,9 @@
 ### Summary
 
 ```csharp
-public void GetWaypointInfo(List<T> waypoints)
+public void GetWaypointInfo(List<Sandbox.ModAPI.Ingame.MyWaypointInfo> waypoints)
 ```
 
 ### Parameters
 
-* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) waypoints
+* [List<Sandbox.ModAPI.Ingame.MyWaypointInfo>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) waypoints

@@ -3,14 +3,14 @@
 ### Summary
 
 ```csharp
-public Nullable<T> Intersects(BoundingBoxD box)
+public Nullable<System.Double> Intersects(BoundingBoxD box)
 ```
 
 Checks whether the Ray intersects a specified BoundingBox.
 
 ### Returns
 
-[Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
+[Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
 
 ### Parameters
 
@@ -18,24 +18,24 @@ Checks whether the Ray intersects a specified BoundingBox.
 ### Summary
 
 ```csharp
-public void Intersects(ref BoundingBoxD box, out Nullable<T> result)
+public void Intersects(ref BoundingBoxD box, ref Nullable<System.Double> result)
 ```
 
 ### Parameters
 
 * [BoundingBoxD](VRageMath.BoundingBoxD) box
-* [Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) result
+* [Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) result
 ### Summary
 
 ```csharp
-public Nullable<T> Intersects(BoundingFrustumD frustum)
+public Nullable<System.Double> Intersects(BoundingFrustumD frustum)
 ```
 
 Checks whether the Ray intersects a specified BoundingFrustum.
 
 ### Returns
 
-[Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
+[Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
 
 ### Parameters
 
@@ -43,14 +43,14 @@ Checks whether the Ray intersects a specified BoundingFrustum.
 ### Summary
 
 ```csharp
-public Nullable<T> Intersects(PlaneD plane)
+public Nullable<System.Double> Intersects(PlaneD plane)
 ```
 
 Determines whether this Ray intersects a specified Plane.
 
 ### Returns
 
-[Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
+[Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
 
 ### Parameters
 
@@ -58,24 +58,24 @@ Determines whether this Ray intersects a specified Plane.
 ### Summary
 
 ```csharp
-public void Intersects(ref PlaneD plane, out Nullable<T> result)
+public void Intersects(ref PlaneD plane, ref Nullable<System.Double> result)
 ```
 
 ### Parameters
 
 * [PlaneD](VRageMath.PlaneD) plane
-* [Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) result
+* [Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) result
 ### Summary
 
 ```csharp
-public Nullable<T> Intersects(BoundingSphereD sphere)
+public Nullable<System.Double> Intersects(BoundingSphereD sphere)
 ```
 
 Checks whether the Ray intersects a specified BoundingSphere.
 
 ### Returns
 
-[Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
+[Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
 
 ### Parameters
 
@@ -83,10 +83,10 @@ Checks whether the Ray intersects a specified BoundingSphere.
 ### Summary
 
 ```csharp
-public void Intersects(ref BoundingSphere sphere, out Nullable<T> result)
+public void Intersects(ref BoundingSphere sphere, ref Nullable<System.Double> result)
 ```
 
 ### Parameters
 
 * [BoundingSphere](VRageMath.BoundingSphere) sphere
-* [Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) result
+* [Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) result

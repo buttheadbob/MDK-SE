@@ -19,7 +19,7 @@ Multiplies a matrix by another matrix.
 ### Summary
 
 ```csharp
-public static void Multiply(ref Matrix matrix1, ref Matrix matrix2, out Matrix result)
+public static void Multiply(ref Matrix matrix1, ref Matrix matrix2, ref Matrix result)
 ```
 
 Multiplies a matrix by another matrix.
@@ -48,7 +48,7 @@ Multiplies a matrix by a scalar value.
 ### Summary
 
 ```csharp
-public static void Multiply(ref Matrix matrix1, float scaleFactor, out Matrix result)
+public static void Multiply(ref Matrix matrix1, float scaleFactor, ref Matrix result)
 ```
 
 Multiplies a matrix by a scalar value.

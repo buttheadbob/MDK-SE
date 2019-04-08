@@ -18,7 +18,7 @@ Checks whether the current BoundingSphereD contains the specified BoundingBoxD.
 ### Summary
 
 ```csharp
-public void Contains(ref BoundingBoxD box, out ContainmentType result)
+public void Contains(ref BoundingBoxD box, ref ContainmentType result)
 ```
 
 Checks whether the current BoundingSphereD contains the specified BoundingBoxD.
@@ -60,7 +60,7 @@ Checks whether the current BoundingSphereD contains the specified point.
 ### Summary
 
 ```csharp
-public void Contains(ref Vector3D point, out ContainmentType result)
+public void Contains(ref Vector3D point, ref ContainmentType result)
 ```
 
 Checks whether the current BoundingSphereD contains the specified point.
@@ -87,7 +87,7 @@ Checks whether the current BoundingSphereD contains the specified BoundingSphere
 ### Summary
 
 ```csharp
-public void Contains(ref BoundingSphereD sphere, out ContainmentType result)
+public void Contains(ref BoundingSphereD sphere, ref ContainmentType result)
 ```
 
 Checks whether the current BoundingSphereD contains the specified BoundingSphereD.

@@ -31,7 +31,7 @@ public bool Intersects(ref BoundingBoxI box)
 ### Summary
 
 ```csharp
-public void Intersects(ref BoundingBoxI box, out bool result)
+public void Intersects(ref BoundingBoxI box, ref bool result)
 ```
 
 Checks whether the current BoundingBoxI intersects another BoundingBoxI.
@@ -58,7 +58,7 @@ Checks whether the current BoundingBoxI intersects a Plane.
 ### Summary
 
 ```csharp
-public void Intersects(ref Plane plane, out PlaneIntersectionType result)
+public void Intersects(ref Plane plane, ref PlaneIntersectionType result)
 ```
 
 Checks whether the current BoundingBoxI intersects a Plane.
@@ -70,7 +70,7 @@ Checks whether the current BoundingBoxI intersects a Plane.
 ### Summary
 
 ```csharp
-public bool Intersects(Line line, out float distance)
+public bool Intersects(Line line, ref float distance)
 ```
 
 ### Returns
@@ -84,14 +84,14 @@ public bool Intersects(Line line, out float distance)
 ### Summary
 
 ```csharp
-public Nullable<T> Intersects(Ray ray)
+public Nullable<System.Single> Intersects(Ray ray)
 ```
 
 Checks whether the current BoundingBoxI intersects a Ray.
 
 ### Returns
 
-[Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
+[Nullable<System.Single>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
 
 ### Parameters
 
@@ -99,10 +99,10 @@ Checks whether the current BoundingBoxI intersects a Ray.
 ### Summary
 
 ```csharp
-public void Intersects(ref Ray ray, out Nullable<T> result)
+public void Intersects(ref Ray ray, ref Nullable<System.Single> result)
 ```
 
 ### Parameters
 
 * [Ray](VRageMath.Ray) ray
-* [Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) result
+* [Nullable<System.Single>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) result

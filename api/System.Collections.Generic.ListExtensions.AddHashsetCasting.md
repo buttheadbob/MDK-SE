@@ -3,10 +3,10 @@
 ### Summary
 
 ```csharp
-public static void AddHashsetCasting<T1, T2>(List<T> list, HashSet<T> hashset)
+public static void AddHashsetCasting<T1, T2>(this List<T1> list, HashSet<T2> hashset)
 ```
 
 ### Parameters
 
-* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) list
-* [HashSet<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.hashset?view=netframework-4.6) hashset
+* [List<T1>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) list
+* [HashSet<T2>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.hashset?view=netframework-4.6) hashset

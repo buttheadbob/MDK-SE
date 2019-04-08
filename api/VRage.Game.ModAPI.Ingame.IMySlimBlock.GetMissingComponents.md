@@ -3,9 +3,9 @@
 ### Summary
 
 ```csharp
-public void GetMissingComponents(Dictionary<TKey, TValue> addToDictionary)
+public void GetMissingComponents(Dictionary<System.String, System.Int32> addToDictionary)
 ```
 
 ### Parameters
 
-* [Dictionary<TKey, TValue>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary?view=netframework-4.6) addToDictionary
+* [Dictionary<System.String, System.Int32>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary?view=netframework-4.6) addToDictionary

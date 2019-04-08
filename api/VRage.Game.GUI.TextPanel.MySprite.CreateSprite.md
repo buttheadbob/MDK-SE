@@ -1,0 +1,17 @@
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MySprite](VRage.Game.GUI.TextPanel.MySprite)
+
+### Summary
+
+```csharp
+public static MySprite CreateSprite(string sprite, Vector2 position, Vector2 size)
+```
+
+### Returns
+
+[MySprite](VRage.Game.GUI.TextPanel.MySprite)
+
+### Parameters
+
+* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) sprite
+* [Vector2](VRageMath.Vector2) position
+* [Vector2](VRageMath.Vector2) size

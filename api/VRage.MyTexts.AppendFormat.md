@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static StringBuilder AppendFormat(StringBuilder stringBuilder, MyStringId textEnum, object arg0)
+public static StringBuilder AppendFormat(this StringBuilder stringBuilder, MyStringId textEnum, object arg0)
 ```
 
 ### Returns
@@ -18,7 +18,7 @@ public static StringBuilder AppendFormat(StringBuilder stringBuilder, MyStringId
 ### Summary
 
 ```csharp
-public static StringBuilder AppendFormat(StringBuilder stringBuilder, MyStringId textEnum, MyStringId arg0)
+public static StringBuilder AppendFormat(this StringBuilder stringBuilder, MyStringId textEnum, MyStringId arg0)
 ```
 
 ### Returns

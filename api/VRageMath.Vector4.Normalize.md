@@ -26,7 +26,7 @@ Creates a unit vector from the specified vector.
 ### Summary
 
 ```csharp
-public static void Normalize(ref Vector4 vector, out Vector4 result)
+public static void Normalize(ref Vector4 vector, ref Vector4 result)
 ```
 
 Returns a normalized version of the specified vector.

@@ -29,7 +29,7 @@ public static Vector3L Round(Vector3D value)
 ### Summary
 
 ```csharp
-public static void Round(ref Vector3 v, out Vector3L r)
+public static void Round(ref Vector3 v, ref Vector3L r)
 ```
 
 ### Parameters
@@ -39,7 +39,7 @@ public static void Round(ref Vector3 v, out Vector3L r)
 ### Summary
 
 ```csharp
-public static void Round(ref Vector3D v, out Vector3L r)
+public static void Round(ref Vector3D v, ref Vector3L r)
 ```
 
 ### Parameters

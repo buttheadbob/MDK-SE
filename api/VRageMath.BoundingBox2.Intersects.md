@@ -31,7 +31,7 @@ public bool Intersects(ref BoundingBox2 box)
 ### Summary
 
 ```csharp
-public void Intersects(ref BoundingBox2 box, out bool result)
+public void Intersects(ref BoundingBox2 box, ref bool result)
 ```
 
 Checks whether the current BoundingBox2 intersects another BoundingBox2.

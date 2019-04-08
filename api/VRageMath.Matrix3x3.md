@@ -3,7 +3,7 @@
 #### Matrix3x3 Struct
 
 ```csharp
-public struct Matrix3x3: IEquatable<T>
+public struct Matrix3x3: IEquatable<VRageMath.Matrix3x3>
 ```
 
 Defines a matrix.
@@ -12,7 +12,7 @@ Defines a matrix.
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)
+* [IEquatable<VRageMath.Matrix3x3>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)
 
 #### Fields
 
@@ -67,25 +67,25 @@ Defines a matrix.
 |[Rescale(Matrix3x3, float)](VRageMath.Matrix3x3.Rescale)||
 |[Rescale(Matrix3x3, Vector3)](VRageMath.Matrix3x3.Rescale)||
 |[CreateScale(float, float, float)](VRageMath.Matrix3x3.CreateScale)|Creates a scaling Matrix3x3.|
-|[CreateScale(float, float, float, out Matrix3x3)](VRageMath.Matrix3x3.CreateScale)|Creates a scaling Matrix3x3.|
+|[CreateScale(float, float, float, ref Matrix3x3)](VRageMath.Matrix3x3.CreateScale)|Creates a scaling Matrix3x3.|
 |[CreateScale(Vector3)](VRageMath.Matrix3x3.CreateScale)|Creates a scaling Matrix3x3.|
-|[CreateScale(ref Vector3, out Matrix3x3)](VRageMath.Matrix3x3.CreateScale)|Creates a scaling Matrix3x3.|
+|[CreateScale(ref Vector3, ref Matrix3x3)](VRageMath.Matrix3x3.CreateScale)|Creates a scaling Matrix3x3.|
 |[CreateScale(float)](VRageMath.Matrix3x3.CreateScale)|Creates a scaling Matrix3x3.|
-|[CreateScale(float, out Matrix3x3)](VRageMath.Matrix3x3.CreateScale)|Creates a scaling Matrix3x3.|
+|[CreateScale(float, ref Matrix3x3)](VRageMath.Matrix3x3.CreateScale)|Creates a scaling Matrix3x3.|
 |[CreateRotationX(float)](VRageMath.Matrix3x3.CreateRotationX)|Returns a matrix that can be used to rotate a set of vertices around the x-axis.|
-|[CreateRotationX(float, out Matrix3x3)](VRageMath.Matrix3x3.CreateRotationX)|Populates data into a user-specified matrix that can be used to rotate a set of vertices around the x-axis.|
+|[CreateRotationX(float, ref Matrix3x3)](VRageMath.Matrix3x3.CreateRotationX)|Populates data into a user-specified matrix that can be used to rotate a set of vertices around the x-axis.|
 |[CreateRotationY(float)](VRageMath.Matrix3x3.CreateRotationY)|Returns a matrix that can be used to rotate a set of vertices around the y-axis.|
-|[CreateRotationY(float, out Matrix3x3)](VRageMath.Matrix3x3.CreateRotationY)|Populates data into a user-specified matrix that can be used to rotate a set of vertices around the y-axis.|
+|[CreateRotationY(float, ref Matrix3x3)](VRageMath.Matrix3x3.CreateRotationY)|Populates data into a user-specified matrix that can be used to rotate a set of vertices around the y-axis.|
 |[CreateRotationZ(float)](VRageMath.Matrix3x3.CreateRotationZ)|Returns a matrix that can be used to rotate a set of vertices around the z-axis.|
-|[CreateRotationZ(float, out Matrix3x3)](VRageMath.Matrix3x3.CreateRotationZ)|Populates data into a user-specified matrix that can be used to rotate a set of vertices around the z-axis.|
+|[CreateRotationZ(float, ref Matrix3x3)](VRageMath.Matrix3x3.CreateRotationZ)|Populates data into a user-specified matrix that can be used to rotate a set of vertices around the z-axis.|
 |[CreateFromAxisAngle(Vector3, float)](VRageMath.Matrix3x3.CreateFromAxisAngle)|Creates a new Matrix3x3 that rotates around an arbitrary vector.|
-|[CreateFromAxisAngle(ref Vector3, float, out Matrix3x3)](VRageMath.Matrix3x3.CreateFromAxisAngle)|Creates a new Matrix3x3 that rotates around an arbitrary vector.|
-|[CreateRotationFromTwoVectors(ref Vector3, ref Vector3, out Matrix3x3)](VRageMath.Matrix3x3.CreateRotationFromTwoVectors)||
+|[CreateFromAxisAngle(ref Vector3, float, ref Matrix3x3)](VRageMath.Matrix3x3.CreateFromAxisAngle)|Creates a new Matrix3x3 that rotates around an arbitrary vector.|
+|[CreateRotationFromTwoVectors(ref Vector3, ref Vector3, ref Matrix3x3)](VRageMath.Matrix3x3.CreateRotationFromTwoVectors)||
 |[CreateFromQuaternion(Quaternion)](VRageMath.Matrix3x3.CreateFromQuaternion)|Creates a rotation Matrix3x3 from a Quaternion.|
-|[CreateFromQuaternion(ref Quaternion, out Matrix3x3)](VRageMath.Matrix3x3.CreateFromQuaternion)|Creates a rotation Matrix3x3 from a Quaternion.|
+|[CreateFromQuaternion(ref Quaternion, ref Matrix3x3)](VRageMath.Matrix3x3.CreateFromQuaternion)|Creates a rotation Matrix3x3 from a Quaternion.|
 |[CreateFromYawPitchRoll(float, float, float)](VRageMath.Matrix3x3.CreateFromYawPitchRoll)|Creates a new rotation matrix from a specified yaw, pitch, and roll.|
-|[CreateFromYawPitchRoll(float, float, float, out Matrix3x3)](VRageMath.Matrix3x3.CreateFromYawPitchRoll)|Fills in a rotation matrix from a specified yaw, pitch, and roll.|
-|[Transform(ref Matrix3x3, ref Quaternion, out Matrix3x3)](VRageMath.Matrix3x3.Transform)|Transforms a Matrix3x3 by applying a Quaternion rotation.|
+|[CreateFromYawPitchRoll(float, float, float, ref Matrix3x3)](VRageMath.Matrix3x3.CreateFromYawPitchRoll)|Fills in a rotation matrix from a specified yaw, pitch, and roll.|
+|[Transform(ref Matrix3x3, ref Quaternion, ref Matrix3x3)](VRageMath.Matrix3x3.Transform)|Transforms a Matrix3x3 by applying a Quaternion rotation.|
 |[GetRow(int)](VRageMath.Matrix3x3.GetRow)||
 |[SetRow(int, Vector3)](VRageMath.Matrix3x3.SetRow)||
 |[ToString()](VRageMath.Matrix3x3.ToString)|Retrieves a string representation of the current object.|
@@ -93,20 +93,20 @@ Defines a matrix.
 |[EqualsFast(ref Matrix3x3, float)](VRageMath.Matrix3x3.EqualsFast)|Compares just position, forward and up|
 |[Equals(object)](VRageMath.Matrix3x3.Equals)|Returns a value that indicates whether the current instance is equal to a specified object.|
 |[GetHashCode()](VRageMath.Matrix3x3.GetHashCode)|Gets the hash code of this object.|
-|[Transpose(ref Matrix3x3, out Matrix3x3)](VRageMath.Matrix3x3.Transpose)|Transposes the rows and columns of a matrix.|
+|[Transpose(ref Matrix3x3, ref Matrix3x3)](VRageMath.Matrix3x3.Transpose)|Transposes the rows and columns of a matrix.|
 |[Transpose()](VRageMath.Matrix3x3.Transpose)||
 |[Determinant()](VRageMath.Matrix3x3.Determinant)||
-|[Invert(ref Matrix3x3, out Matrix3x3)](VRageMath.Matrix3x3.Invert)|Calculates the inverse of a matrix.|
-|[Lerp(ref Matrix3x3, ref Matrix3x3, float, out Matrix3x3)](VRageMath.Matrix3x3.Lerp)|Linearly interpolates between the corresponding values of two matrices.|
-|[Slerp(ref Matrix3x3, ref Matrix3x3, float, out Matrix3x3)](VRageMath.Matrix3x3.Slerp)|Performs spherical linear interpolation of position and rotation.|
-|[SlerpScale(ref Matrix3x3, ref Matrix3x3, float, out Matrix3x3)](VRageMath.Matrix3x3.SlerpScale)|Performs spherical linear interpolation of position and rotation and scale.|
-|[Negate(ref Matrix3x3, out Matrix3x3)](VRageMath.Matrix3x3.Negate)|Negates individual elements of a matrix.|
-|[Add(ref Matrix3x3, ref Matrix3x3, out Matrix3x3)](VRageMath.Matrix3x3.Add)|Adds a matrix to another matrix.|
-|[Subtract(ref Matrix3x3, ref Matrix3x3, out Matrix3x3)](VRageMath.Matrix3x3.Subtract)|Subtracts matrices.|
-|[Multiply(ref Matrix3x3, ref Matrix3x3, out Matrix3x3)](VRageMath.Matrix3x3.Multiply)|Multiplies a matrix by another matrix.|
-|[Multiply(ref Matrix3x3, float, out Matrix3x3)](VRageMath.Matrix3x3.Multiply)|Multiplies a matrix by a scalar value.|
-|[Divide(ref Matrix3x3, ref Matrix3x3, out Matrix3x3)](VRageMath.Matrix3x3.Divide)|Divides the components of a matrix by the corresponding components of another matrix.|
-|[Divide(ref Matrix3x3, float, out Matrix3x3)](VRageMath.Matrix3x3.Divide)|Divides the components of a matrix by a scalar.|
+|[Invert(ref Matrix3x3, ref Matrix3x3)](VRageMath.Matrix3x3.Invert)|Calculates the inverse of a matrix.|
+|[Lerp(ref Matrix3x3, ref Matrix3x3, float, ref Matrix3x3)](VRageMath.Matrix3x3.Lerp)|Linearly interpolates between the corresponding values of two matrices.|
+|[Slerp(ref Matrix3x3, ref Matrix3x3, float, ref Matrix3x3)](VRageMath.Matrix3x3.Slerp)|Performs spherical linear interpolation of position and rotation.|
+|[SlerpScale(ref Matrix3x3, ref Matrix3x3, float, ref Matrix3x3)](VRageMath.Matrix3x3.SlerpScale)|Performs spherical linear interpolation of position and rotation and scale.|
+|[Negate(ref Matrix3x3, ref Matrix3x3)](VRageMath.Matrix3x3.Negate)|Negates individual elements of a matrix.|
+|[Add(ref Matrix3x3, ref Matrix3x3, ref Matrix3x3)](VRageMath.Matrix3x3.Add)|Adds a matrix to another matrix.|
+|[Subtract(ref Matrix3x3, ref Matrix3x3, ref Matrix3x3)](VRageMath.Matrix3x3.Subtract)|Subtracts matrices.|
+|[Multiply(ref Matrix3x3, ref Matrix3x3, ref Matrix3x3)](VRageMath.Matrix3x3.Multiply)|Multiplies a matrix by another matrix.|
+|[Multiply(ref Matrix3x3, float, ref Matrix3x3)](VRageMath.Matrix3x3.Multiply)|Multiplies a matrix by a scalar value.|
+|[Divide(ref Matrix3x3, ref Matrix3x3, ref Matrix3x3)](VRageMath.Matrix3x3.Divide)|Divides the components of a matrix by the corresponding components of another matrix.|
+|[Divide(ref Matrix3x3, float, ref Matrix3x3)](VRageMath.Matrix3x3.Divide)|Divides the components of a matrix by a scalar.|
 |[GetOrientation()](VRageMath.Matrix3x3.GetOrientation)|Gets the orientation.|
 |[AssertIsValid()](VRageMath.Matrix3x3.AssertIsValid)||
 |[IsValid()](VRageMath.Matrix3x3.IsValid)||
@@ -119,7 +119,7 @@ Defines a matrix.
 |[Orthogonalize(Matrix3x3)](VRageMath.Matrix3x3.Orthogonalize)||
 |[Round(ref Matrix3x3)](VRageMath.Matrix3x3.Round)||
 |[AlignRotationToAxes(ref Matrix3x3, ref Matrix3x3)](VRageMath.Matrix3x3.AlignRotationToAxes)||
-|[GetEulerAnglesXYZ(ref Matrix3x3, out Vector3)](VRageMath.Matrix3x3.GetEulerAnglesXYZ)||
+|[GetEulerAnglesXYZ(ref Matrix3x3, ref Vector3)](VRageMath.Matrix3x3.GetEulerAnglesXYZ)||
 |[IsMirrored()](VRageMath.Matrix3x3.IsMirrored)||
 |[IsOrthogonal()](VRageMath.Matrix3x3.IsOrthogonal)||
 

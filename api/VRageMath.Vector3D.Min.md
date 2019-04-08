@@ -31,7 +31,7 @@ Returns a vector that contains the lowest value from each matching pair of compo
 ### Summary
 
 ```csharp
-public static void Min(ref Vector3D value1, ref Vector3D value2, out Vector3D result)
+public static void Min(ref Vector3D value1, ref Vector3D value2, ref Vector3D result)
 ```
 
 Returns a vector that contains the lowest value from each matching pair of components.

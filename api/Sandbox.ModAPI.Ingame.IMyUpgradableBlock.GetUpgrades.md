@@ -3,9 +3,9 @@
 ### Summary
 
 ```csharp
-public void GetUpgrades(out Dictionary<TKey, TValue> upgrades)
+public void GetUpgrades(ref Dictionary<System.String, System.Single> upgrades)
 ```
 
 ### Parameters
 
-* [Dictionary<TKey, TValue>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary?view=netframework-4.6) upgrades
+* [Dictionary<System.String, System.Single>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary?view=netframework-4.6) upgrades

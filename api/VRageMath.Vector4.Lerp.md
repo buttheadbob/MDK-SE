@@ -20,7 +20,7 @@ Performs a linear interpolation between two vectors.
 ### Summary
 
 ```csharp
-public static void Lerp(ref Vector4 value1, ref Vector4 value2, float amount, out Vector4 result)
+public static void Lerp(ref Vector4 value1, ref Vector4 value2, float amount, ref Vector4 result)
 ```
 
 Performs a linear interpolation between two vectors.

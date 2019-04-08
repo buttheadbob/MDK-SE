@@ -18,7 +18,7 @@ Determines whether a specified Rectangle intersects with this Rectangle.
 ### Summary
 
 ```csharp
-public void Intersects(ref Rectangle value, out bool result)
+public void Intersects(ref Rectangle value, ref bool result)
 ```
 
 Determines whether a specified Rectangle intersects with this Rectangle.

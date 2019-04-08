@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static void ApplyAction(IMyTerminalBlock block, string name)
+public static void ApplyAction(this IMyTerminalBlock block, string name)
 ```
 
 ### Parameters
@@ -13,11 +13,11 @@ public static void ApplyAction(IMyTerminalBlock block, string name)
 ### Summary
 
 ```csharp
-public static void ApplyAction(IMyTerminalBlock block, string name, ListReader<T> parameters)
+public static void ApplyAction(this IMyTerminalBlock block, string name, ListReader<Sandbox.ModAPI.Ingame.TerminalActionParameter> parameters)
 ```
 
 ### Parameters
 
 * [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock) block
 * [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) name
-* [ListReader<T>](VRage.Collections.ListReader`1) parameters
+* [ListReader<Sandbox.ModAPI.Ingame.TerminalActionParameter>](VRage.Collections.ListReader`1[[Sandbox.ModAPI.Ingame.TerminalActionParameter, Sandbox.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]) parameters

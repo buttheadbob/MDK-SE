@@ -18,7 +18,7 @@ Checks whether the current BoundingFrustumD intersects the specified BoundingBox
 ### Summary
 
 ```csharp
-public void Intersects(ref BoundingBoxD box, out bool result)
+public void Intersects(ref BoundingBoxD box, ref bool result)
 ```
 
 Checks whether the current BoundingFrustumD intersects a BoundingBoxD.
@@ -60,7 +60,7 @@ Checks whether the current BoundingFrustumD intersects the specified Plane.
 ### Summary
 
 ```csharp
-public void Intersects(ref PlaneD plane, out PlaneIntersectionType result)
+public void Intersects(ref PlaneD plane, ref PlaneIntersectionType result)
 ```
 
 Checks whether the current BoundingFrustumD intersects a Plane.
@@ -72,14 +72,14 @@ Checks whether the current BoundingFrustumD intersects a Plane.
 ### Summary
 
 ```csharp
-public Nullable<T> Intersects(RayD ray)
+public Nullable<System.Double> Intersects(RayD ray)
 ```
 
 Checks whether the current BoundingFrustumD intersects the specified Ray.
 
 ### Returns
 
-[Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
+[Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
 
 ### Parameters
 
@@ -87,13 +87,13 @@ Checks whether the current BoundingFrustumD intersects the specified Ray.
 ### Summary
 
 ```csharp
-public void Intersects(ref RayD ray, out Nullable<T> result)
+public void Intersects(ref RayD ray, ref Nullable<System.Double> result)
 ```
 
 ### Parameters
 
 * [RayD](VRageMath.RayD) ray
-* [Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) result
+* [Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) result
 ### Summary
 
 ```csharp
@@ -112,7 +112,7 @@ Checks whether the current BoundingFrustumD intersects the specified BoundingSph
 ### Summary
 
 ```csharp
-public void Intersects(ref BoundingSphereD sphere, out bool result)
+public void Intersects(ref BoundingSphereD sphere, ref bool result)
 ```
 
 Checks whether the current BoundingFrustumD intersects a BoundingSphere.

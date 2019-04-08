@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static void Negate(ref Vector3 value, out Vector3 result)
+public static void Negate(ref Vector3 value, ref Vector3 result)
 ```
 
 Returns a vector pointing in the opposite direction.

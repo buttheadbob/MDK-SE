@@ -18,7 +18,7 @@ Returns the dot product of a specified Vector3D and the Normal vector of this Pl
 ### Summary
 
 ```csharp
-public void DotNormal(ref Vector3D value, out double result)
+public void DotNormal(ref Vector3D value, ref double result)
 ```
 
 Returns the dot product of a specified Vector3D and the Normal vector of this PlaneD.

@@ -132,13 +132,23 @@ Gain access to advanced block components
 [MyResourceSourceComponent](Sandbox.Game.EntityComponents.MyResourceSourceComponent)  
 [MyResourceSourceComponentBase](VRage.Game.Components.MyResourceSourceComponentBase)
 
+### IGC
+
+Types related to the intergrid communication system.
+
+[IMyBroadcastListener](Sandbox.ModAPI.Ingame.IMyBroadcastListener)  
+[IMyIntergridCommunicationSystem](Sandbox.ModAPI.Ingame.IMyIntergridCommunicationSystem)  
+[IMyMessageProvider](Sandbox.ModAPI.Ingame.IMyMessageProvider)  
+[IMyUnicastListener](Sandbox.ModAPI.Ingame.IMyUnicastListener)  
+[TransmissionDistance](Sandbox.ModAPI.Ingame.TransmissionDistance)
+
 ### Inventory
 
 Types related to inventory analysis and management.
 
 [IMyInventory](VRage.Game.ModAPI.Ingame.IMyInventory)  
-[IMyInventoryItem](VRage.Game.ModAPI.Ingame.IMyInventoryItem)  
-[MyInventoryItemExtension](VRage.Game.ModAPI.Ingame.MyInventoryItemExtension)
+[MyInventoryItem](VRage.Game.ModAPI.Ingame.MyInventoryItem)  
+[MyItemInfo](VRage.Game.ModAPI.Ingame.MyItemInfo)
 
 ### Terminal Properties and Actions
 
@@ -266,25 +276,23 @@ Currently ungrouped types
 [ArrayExtensions](System.ArrayExtensions)  
 [ChargeMode](Sandbox.ModAPI.Ingame.ChargeMode)  
 [ClearToken&lt;T&gt;](System.Collections.Generic.ClearToken`1)  
+[ContentType](VRage.Game.GUI.TextPanel.ContentType)  
 [DictionaryExtensions](System.Collections.Generic.DictionaryExtensions)  
 [DoorStatus](Sandbox.ModAPI.Ingame.DoorStatus)  
 [FlightMode](Sandbox.ModAPI.Ingame.FlightMode)  
 [HashSetExtensions](System.Collections.Generic.HashSetExtensions)  
 [HashSetExtensions.HashSetInternalAccessor&lt;T&gt;](System.Collections.Generic.HashSetExtensions+HashSetInternalAccessor`1)  
 [IMyAttachableTopBlock](Sandbox.ModAPI.Ingame.IMyAttachableTopBlock)  
-[IMyBroadcastListener](Sandbox.ModAPI.Ingame.IMyBroadcastListener)  
 [IMyConveyor](Sandbox.ModAPI.Ingame.IMyConveyor)  
 [IMyConveyorTube](Sandbox.ModAPI.Ingame.IMyConveyorTube)  
 [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
-[IMyIntergridCommunicationSystem](Sandbox.ModAPI.Ingame.IMyIntergridCommunicationSystem)  
-[IMyMessageProvider](Sandbox.ModAPI.Ingame.IMyMessageProvider)  
+[IMyInventoryItem](VRage.Game.ModAPI.Ingame.IMyInventoryItem)  
 [IMyMotorAdvancedRotor](Sandbox.ModAPI.Ingame.IMyMotorAdvancedRotor)  
 [IMyMotorRotor](Sandbox.ModAPI.Ingame.IMyMotorRotor)  
 [IMyPassage](Sandbox.ModAPI.Ingame.IMyPassage)  
 [IMyPistonTop](Sandbox.ModAPI.Ingame.IMyPistonTop)  
 [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)  
 [IMyTextSurfaceProvider](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider)  
-[IMyUnicastListener](Sandbox.ModAPI.Ingame.IMyUnicastListener)  
 [IMyUpgradableBlock](Sandbox.ModAPI.Ingame.IMyUpgradableBlock)  
 [IMyWheel](Sandbox.ModAPI.Ingame.IMyWheel)  
 [LandingGearMode](SpaceEngineers.Game.ModAPI.Ingame.LandingGearMode)  
@@ -299,9 +307,8 @@ Currently ungrouped types
 [MyDetectedEntityType](Sandbox.ModAPI.Ingame.MyDetectedEntityType)  
 [MyFixedPoint](VRage.MyFixedPoint)  
 [MyIGCMessage](Sandbox.ModAPI.Ingame.MyIGCMessage)  
-[MyInventoryItem](VRage.Game.ModAPI.Ingame.MyInventoryItem)  
+[MyInventoryItemExtension](VRage.Game.ModAPI.Ingame.MyInventoryItemExtension)  
 [MyInventoryItemFilter](Sandbox.ModAPI.Ingame.MyInventoryItemFilter)  
-[MyItemInfo](VRage.Game.ModAPI.Ingame.MyItemInfo)  
 [MyItemType](VRage.Game.ModAPI.Ingame.MyItemType)  
 [MyJumpDriveStatus](Sandbox.ModAPI.Ingame.MyJumpDriveStatus)  
 [MyLanguagesEnum](VRage.MyLanguagesEnum)  
@@ -317,6 +324,9 @@ Currently ungrouped types
 [MyShipMass](Sandbox.ModAPI.Ingame.MyShipMass)  
 [MyShipVelocities](Sandbox.ModAPI.Ingame.MyShipVelocities)  
 [MySpaceTexts](Sandbox.Game.Localization.MySpaceTexts)  
+[MySprite](VRage.Game.GUI.TextPanel.MySprite)  
+[MySpriteCollection](VRage.Game.GUI.TextPanel.MySpriteCollection)  
+[MySpriteDrawFrame](VRage.Game.GUI.TextPanel.MySpriteDrawFrame)  
 [MyTexts](VRage.MyTexts)  
 [MyTexts.LanguageDescription](VRage.MyTexts+LanguageDescription)  
 [MyTransmitTarget](Sandbox.ModAPI.Ingame.MyTransmitTarget)  
@@ -333,10 +343,13 @@ Currently ungrouped types
 [PistonStatus](Sandbox.ModAPI.Ingame.PistonStatus)  
 [QueueExtensions](System.Collections.Generic.QueueExtensions)  
 [SerializableDefinitionId](VRage.ObjectBuilders.SerializableDefinitionId)  
+[ShowTextOnScreenFlag](VRage.Game.GUI.TextPanel.ShowTextOnScreenFlag)  
+[SpriteType](VRage.Game.GUI.TextPanel.SpriteType)  
 [StringBuilderExtensions_Format](System.Text.StringBuilderExtensions_Format)  
 [TerminalBlockExtentions](Sandbox.ModAPI.Ingame.TerminalBlockExtentions)  
 [TerminalPropertyExtensions](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions)  
-[TransmissionDistance](Sandbox.ModAPI.Ingame.TransmissionDistance)  
+[TextAlignment](VRage.Game.GUI.TextPanel.TextAlignment)  
+[TextPanelAccessFlag](VRage.Game.GUI.TextPanel.TextPanelAccessFlag)  
 [VentStatus](SpaceEngineers.Game.ModAPI.Ingame.VentStatus)
 
 ### Obsolete

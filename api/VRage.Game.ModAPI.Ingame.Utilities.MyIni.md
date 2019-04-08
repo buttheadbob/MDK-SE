@@ -168,8 +168,8 @@ This class is NOT THREAD SAFE as it's optimized for programmable block use.
 |[Set(MyIniKey, decimal)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
 |[Clear()](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Clear)|Empties this configuration|
 |[TryParse(string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.TryParse)|Attempts to parse the given content as a configuration file.|
-|[TryParse(string, out MyIniParseResult)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.TryParse)|Attempts to parse the given content as a configuration file.|
-|[TryParse(string, string, out MyIniParseResult)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.TryParse)|Attempts to parse the given content as a configuration file. OBSERVE: Use only for read-only operations. If you parse a single section and run [ToString()](VRage.Game.ModAPI.Ingame.Utilities.MyIni.ToString) , you will only get the parsed section, the rest will be discarded.|
+|[TryParse(string, ref MyIniParseResult)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.TryParse)|Attempts to parse the given content as a configuration file.|
+|[TryParse(string, string, ref MyIniParseResult)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.TryParse)|Attempts to parse the given content as a configuration file. OBSERVE: Use only for read-only operations. If you parse a single section and run [ToString()](VRage.Game.ModAPI.Ingame.Utilities.MyIni.ToString) , you will only get the parsed section, the rest will be discarded.|
 |[TryParse(string, string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.TryParse)|Attempts to parse the given content as a configuration file. OBSERVE: Use only for read-only operations. If you parse a single section and run [ToString()](VRage.Game.ModAPI.Ingame.Utilities.MyIni.ToString) , you will only get the parsed section, the rest will be discarded.|
 |[Invalidate()](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Invalidate)|Forces regeneration of the ini content. Only really useful if you want to reformat the configuration file.|
 |[ToString()](VRage.Game.ModAPI.Ingame.Utilities.MyIni.ToString)|Generates a configuration file from the currently parsed configuration|

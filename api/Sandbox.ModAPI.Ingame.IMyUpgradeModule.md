@@ -65,7 +65,7 @@ Interface to access module upgrades properties
 
 |Member|Description|
 |---|---|
-|[GetUpgradeList(out List)](Sandbox.ModAPI.Ingame.IMyUpgradeModule.GetUpgradeList)||
+|[GetUpgradeList(ref List)](Sandbox.ModAPI.Ingame.IMyUpgradeModule.GetUpgradeList)||
 |[GetInventory()](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)|Simply get the MyInventoryBase component stored in this entity.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[GetInventory(int)](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)|Search for inventory component with maching index.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[GetPosition()](VRage.Game.ModAPI.Ingame.IMyEntity.GetPosition)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|

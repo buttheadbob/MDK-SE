@@ -3,7 +3,7 @@
 #### Plane Struct
 
 ```csharp
-public struct Plane: IEquatable<T>
+public struct Plane: IEquatable<VRageMath.Plane>
 ```
 
 Defines a plane.
@@ -12,7 +12,7 @@ Defines a plane.
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)
+* [IEquatable<VRageMath.Plane>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)
 
 #### Fields
 
@@ -42,19 +42,19 @@ Defines a plane.
 |[ToString()](VRageMath.Plane.ToString)|Returns a String that represents the current Plane.|
 |[Normalize()](VRageMath.Plane.Normalize)|Changes the coefficients of the Normal vector of this Plane to make it of unit length.|
 |[Normalize(Plane)](VRageMath.Plane.Normalize)|Changes the coefficients of the Normal vector of a Plane to make it of unit length.|
-|[Normalize(ref Plane, out Plane)](VRageMath.Plane.Normalize)|Changes the coefficients of the Normal vector of a Plane to make it of unit length.|
+|[Normalize(ref Plane, ref Plane)](VRageMath.Plane.Normalize)|Changes the coefficients of the Normal vector of a Plane to make it of unit length.|
 |[Transform(Plane, Matrix)](VRageMath.Plane.Transform)|Transforms a normalized Plane by a Matrix.|
-|[Transform(ref Plane, ref Matrix, out Plane)](VRageMath.Plane.Transform)|Transforms a normalized Plane by a Matrix.|
+|[Transform(ref Plane, ref Matrix, ref Plane)](VRageMath.Plane.Transform)|Transforms a normalized Plane by a Matrix.|
 |[Dot(Vector4)](VRageMath.Plane.Dot)|Calculates the dot product of a specified Vector4 and this Plane.|
-|[Dot(ref Vector4, out float)](VRageMath.Plane.Dot)|Calculates the dot product of a specified Vector4 and this Plane.|
+|[Dot(ref Vector4, ref float)](VRageMath.Plane.Dot)|Calculates the dot product of a specified Vector4 and this Plane.|
 |[DotCoordinate(Vector3)](VRageMath.Plane.DotCoordinate)|Returns the dot product of a specified Vector3 and the Normal vector of this Plane plus the distance (D) value of the Plane.|
-|[DotCoordinate(ref Vector3, out float)](VRageMath.Plane.DotCoordinate)|Returns the dot product of a specified Vector3 and the Normal vector of this Plane plus the distance (D) value of the Plane.|
+|[DotCoordinate(ref Vector3, ref float)](VRageMath.Plane.DotCoordinate)|Returns the dot product of a specified Vector3 and the Normal vector of this Plane plus the distance (D) value of the Plane.|
 |[DotNormal(Vector3)](VRageMath.Plane.DotNormal)|Returns the dot product of a specified Vector3 and the Normal vector of this Plane.|
-|[DotNormal(ref Vector3, out float)](VRageMath.Plane.DotNormal)|Returns the dot product of a specified Vector3 and the Normal vector of this Plane.|
+|[DotNormal(ref Vector3, ref float)](VRageMath.Plane.DotNormal)|Returns the dot product of a specified Vector3 and the Normal vector of this Plane.|
 |[Intersects(BoundingBox)](VRageMath.Plane.Intersects)|Checks whether the current Plane intersects a specified BoundingBox.|
-|[Intersects(ref BoundingBox, out PlaneIntersectionType)](VRageMath.Plane.Intersects)|Checks whether the current Plane intersects a BoundingBox.|
+|[Intersects(ref BoundingBox, ref PlaneIntersectionType)](VRageMath.Plane.Intersects)|Checks whether the current Plane intersects a BoundingBox.|
 |[Intersects(BoundingFrustum)](VRageMath.Plane.Intersects)|Checks whether the current Plane intersects a specified BoundingFrustum.|
 |[Intersects(BoundingSphere)](VRageMath.Plane.Intersects)|Checks whether the current Plane intersects a specified BoundingSphere.|
-|[Intersects(ref BoundingSphere, out PlaneIntersectionType)](VRageMath.Plane.Intersects)|Checks whether the current Plane intersects a BoundingSphere.|
+|[Intersects(ref BoundingSphere, ref PlaneIntersectionType)](VRageMath.Plane.Intersects)|Checks whether the current Plane intersects a BoundingSphere.|
 |[RandomPoint()](VRageMath.Plane.RandomPoint)||
 

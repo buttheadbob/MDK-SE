@@ -20,7 +20,7 @@ Creates a view matrix.
 ### Summary
 
 ```csharp
-public static void CreateLookAt(ref Vector3 cameraPosition, ref Vector3 cameraTarget, ref Vector3 cameraUpVector, out Matrix result)
+public static void CreateLookAt(ref Vector3 cameraPosition, ref Vector3 cameraTarget, ref Vector3 cameraUpVector, ref Matrix result)
 ```
 
 Creates a view matrix.

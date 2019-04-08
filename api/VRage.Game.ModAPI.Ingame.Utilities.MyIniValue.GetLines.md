@@ -3,9 +3,9 @@
 ### Summary
 
 ```csharp
-public void GetLines(List<T> lines)
+public void GetLines(List<System.String> lines)
 ```
 
 ### Parameters
 
-* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) lines
+* [List<System.String>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) lines

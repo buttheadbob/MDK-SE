@@ -18,7 +18,7 @@ Returns a vector pointing in the opposite direction.
 ### Summary
 
 ```csharp
-public static void Negate(ref Vector4 value, out Vector4 result)
+public static void Negate(ref Vector4 value, ref Vector4 result)
 ```
 
 Returns a vector pointing in the opposite direction.

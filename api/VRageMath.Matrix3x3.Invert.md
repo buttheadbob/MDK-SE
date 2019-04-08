@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static void Invert(ref Matrix3x3 matrix, out Matrix3x3 result)
+public static void Invert(ref Matrix3x3 matrix, ref Matrix3x3 result)
 ```
 
 Calculates the inverse of a matrix.

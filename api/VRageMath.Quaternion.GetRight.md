@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static void GetRight(ref Quaternion q, out Vector3 result)
+public static void GetRight(ref Quaternion q, ref Vector3 result)
 ```
 
 Gets right vector (1,0,0) transformed by quaternion.

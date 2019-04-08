@@ -3,14 +3,14 @@
 #### StringSegmentIgnoreCaseComparer Class
 
 ```csharp
-public class StringSegmentIgnoreCaseComparer: IEqualityComparer<T>
+public class StringSegmentIgnoreCaseComparer: IEqualityComparer<VRage.Game.ModAPI.Ingame.Utilities.StringSegment>
 ```
 
 **Namespace:** [VRage.Game.ModAPI.Ingame.Utilities](VRage.Game.ModAPI.Ingame.Utilities)  
 **Assembly:** VRage.Game.dll
 
 **Implements:**  
-* [IEqualityComparer<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.iequalitycomparer?view=netframework-4.6)
+* [IEqualityComparer<VRage.Game.ModAPI.Ingame.Utilities.StringSegment>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.iequalitycomparer?view=netframework-4.6)
 
 #### Fields
 

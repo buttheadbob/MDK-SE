@@ -3,9 +3,9 @@
 ### Summary
 
 ```csharp
-public void GetUpgradeList(out List<T> upgrades)
+public void GetUpgradeList(ref List<VRage.Game.ObjectBuilders.Definitions.MyUpgradeModuleInfo> upgrades)
 ```
 
 ### Parameters
 
-* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) upgrades
+* [List<VRage.Game.ObjectBuilders.Definitions.MyUpgradeModuleInfo>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) upgrades

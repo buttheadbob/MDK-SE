@@ -3,10 +3,10 @@
 ### Summary
 
 ```csharp
-public static void LoadSupportedLanguages(string rootDirectory, HashSet<T> outSupportedLanguages)
+public static void LoadSupportedLanguages(string rootDirectory, HashSet<VRage.MyLanguagesEnum> outSupportedLanguages)
 ```
 
 ### Parameters
 
 * [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) rootDirectory
-* [HashSet<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.hashset?view=netframework-4.6) outSupportedLanguages
+* [HashSet<VRage.MyLanguagesEnum>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.hashset?view=netframework-4.6) outSupportedLanguages

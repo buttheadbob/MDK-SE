@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static bool GetEulerAnglesXYZ(ref MatrixD mat, out Vector3D xyz)
+public static bool GetEulerAnglesXYZ(ref MatrixD mat, ref Vector3D xyz)
 ```
 
 ### Returns

@@ -15,22 +15,22 @@ Terminal block extension for property access
 
 |Member|Description|
 |---|---|
-|[As(ITerminalProperty)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.As)||
-|[Cast(ITerminalProperty)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.Cast)||
-|[Is(ITerminalProperty)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.Is)||
-|[AsFloat(ITerminalProperty)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.AsFloat)|Property type cast|
-|[AsColor(ITerminalProperty)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.AsColor)|Property type cast|
-|[AsBool(ITerminalProperty)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.AsBool)|Property type cast|
-|[GetValueFloat(IMyTerminalBlock, string)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.GetValueFloat)|Returns value of specified property|
-|[SetValueFloat(IMyTerminalBlock, string, float)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.SetValueFloat)|Set float value of property|
-|[GetValueBool(IMyTerminalBlock, string)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.GetValueBool)|Returns value of specified property|
-|[SetValueBool(IMyTerminalBlock, string, bool)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.SetValueBool)|Set bool value of property|
-|[GetValueColor(IMyTerminalBlock, string)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.GetValueColor)|Returns value of specified property|
-|[SetValueColor(IMyTerminalBlock, string, Color)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.SetValueColor)|Set bool value of property|
-|[GetValue(IMyTerminalBlock, string)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.GetValue)||
-|[GetDefaultValue(IMyTerminalBlock, string)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.GetDefaultValue)||
-|[GetMininum(IMyTerminalBlock, string)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.GetMininum)|_**Obsolete:** Use GetMinimum instead_|
-|[GetMinimum(IMyTerminalBlock, string)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.GetMinimum)||
-|[GetMaximum(IMyTerminalBlock, string)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.GetMaximum)||
-|[SetValue(IMyTerminalBlock, string, T)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.SetValue)||
+|[As(this ITerminalProperty)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.As)||
+|[Cast(this ITerminalProperty)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.Cast)||
+|[Is(this ITerminalProperty)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.Is)||
+|[AsFloat(this ITerminalProperty)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.AsFloat)|Property type cast|
+|[AsColor(this ITerminalProperty)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.AsColor)|Property type cast|
+|[AsBool(this ITerminalProperty)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.AsBool)|Property type cast|
+|[GetValueFloat(this IMyTerminalBlock, string)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.GetValueFloat)|Returns value of specified property|
+|[SetValueFloat(this IMyTerminalBlock, string, float)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.SetValueFloat)|Set float value of property|
+|[GetValueBool(this IMyTerminalBlock, string)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.GetValueBool)|Returns value of specified property|
+|[SetValueBool(this IMyTerminalBlock, string, bool)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.SetValueBool)|Set bool value of property|
+|[GetValueColor(this IMyTerminalBlock, string)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.GetValueColor)|Returns value of specified property|
+|[SetValueColor(this IMyTerminalBlock, string, Color)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.SetValueColor)|Set bool value of property|
+|[GetValue(this IMyTerminalBlock, string)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.GetValue)||
+|[GetDefaultValue(this IMyTerminalBlock, string)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.GetDefaultValue)||
+|[GetMininum(this IMyTerminalBlock, string)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.GetMininum)|_**Obsolete:** Use GetMinimum instead_|
+|[GetMinimum(this IMyTerminalBlock, string)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.GetMinimum)||
+|[GetMaximum(this IMyTerminalBlock, string)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.GetMaximum)||
+|[SetValue(this IMyTerminalBlock, string, T)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.SetValue)||
 

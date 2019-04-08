@@ -26,14 +26,14 @@ public void OverlapAllFrustum<T>(ref BoundingFrustumD frustum, List<T> elements
 ### Summary
 
 ```csharp
-public void OverlapAllFrustum<T>(ref BoundingFrustumD frustum, List<T> elementsList, List<T> isInsideList)
+public void OverlapAllFrustum<T>(ref BoundingFrustumD frustum, List<T> elementsList, List<System.Boolean> isInsideList)
 ```
 
 ### Parameters
 
 * [BoundingFrustumD](VRageMath.BoundingFrustumD) frustum
 * [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) elementsList
-* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) isInsideList
+* [List<System.Boolean>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) isInsideList
 ### Summary
 
 ```csharp
@@ -47,26 +47,26 @@ public void OverlapAllFrustum<T>(ref BoundingFrustumD frustum, T results)
 ### Summary
 
 ```csharp
-public void OverlapAllFrustum<T>(ref BoundingFrustumD frustum, List<T> elementsList, List<T> isInsideList, float tSqr, bool clear)
+public void OverlapAllFrustum<T>(ref BoundingFrustumD frustum, List<T> elementsList, List<System.Boolean> isInsideList, float tSqr, bool clear)
 ```
 
 ### Parameters
 
 * [BoundingFrustumD](VRageMath.BoundingFrustumD) frustum
 * [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) elementsList
-* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) isInsideList
+* [List<System.Boolean>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) isInsideList
 * [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) tSqr
 * [bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) clear
 ### Summary
 
 ```csharp
-public void OverlapAllFrustum<T>(ref BoundingFrustumD frustum, Action<T1, T2> add, float tSqr)
+public void OverlapAllFrustum<T>(ref BoundingFrustumD frustum, Action<T, System.Boolean> add, float tSqr)
 ```
 
 ### Parameters
 
 * [BoundingFrustumD](VRageMath.BoundingFrustumD) frustum
-* [Action<T1, T2>](https://docs.microsoft.com/en-us/dotnet/api/system.action?view=netframework-4.6) add
+* [Action<T, System.Boolean>](https://docs.microsoft.com/en-us/dotnet/api/system.action?view=netframework-4.6) add
 * [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) tSqr
 ### Summary
 

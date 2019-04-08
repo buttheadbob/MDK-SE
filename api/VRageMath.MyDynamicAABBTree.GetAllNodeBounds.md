@@ -3,9 +3,9 @@
 ### Summary
 
 ```csharp
-public void GetAllNodeBounds(List<T> boxsList)
+public void GetAllNodeBounds(List<VRageMath.BoundingBox> boxsList)
 ```
 
 ### Parameters
 
-* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) boxsList
+* [List<VRageMath.BoundingBox>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) boxsList

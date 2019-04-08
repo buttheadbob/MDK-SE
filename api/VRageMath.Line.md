@@ -30,5 +30,5 @@ public struct Line
 |Member|Description|
 |---|---|
 |[GetShortestDistanceSquared(Line, Line)](VRageMath.Line.GetShortestDistanceSquared)||
-|[GetShortestVector(ref Line, ref Line, out Vector3, out Vector3)](VRageMath.Line.GetShortestVector)||
+|[GetShortestVector(ref Line, ref Line, ref Vector3, ref Vector3)](VRageMath.Line.GetShortestVector)||
 

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static T GetMinimum<T>(IMyTerminalBlock block, string propertyId)
+public static T GetMinimum<T>(this IMyTerminalBlock block, string propertyId)
 ```
 
 ### Returns

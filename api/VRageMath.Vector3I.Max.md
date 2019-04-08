@@ -17,7 +17,7 @@ public static Vector3I Max(Vector3I value1, Vector3I value2)
 ### Summary
 
 ```csharp
-public static void Max(ref Vector3I value1, ref Vector3I value2, out Vector3I result)
+public static void Max(ref Vector3I value1, ref Vector3I value2, ref Vector3I result)
 ```
 
 ### Parameters

@@ -19,7 +19,7 @@ Calculates the distance between two vectors.
 ### Summary
 
 ```csharp
-public static void Distance(ref Vector4 value1, ref Vector4 value2, out double result)
+public static void Distance(ref Vector4 value1, ref Vector4 value2, ref double result)
 ```
 
 Calculates the distance between two vectors.

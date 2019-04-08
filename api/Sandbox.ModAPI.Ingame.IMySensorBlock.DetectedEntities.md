@@ -3,9 +3,9 @@
 ### Summary
 
 ```csharp
-public void DetectedEntities(List<T> entities)
+public void DetectedEntities(List<Sandbox.ModAPI.Ingame.MyDetectedEntityInfo> entities)
 ```
 
 ### Parameters
 
-* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) entities
+* [List<Sandbox.ModAPI.Ingame.MyDetectedEntityInfo>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) entities

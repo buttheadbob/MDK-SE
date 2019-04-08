@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static void AssertEmpty<T>(List<T> list)
+public static void AssertEmpty<T>(this List<T> list)
 ```
 
 ### Parameters

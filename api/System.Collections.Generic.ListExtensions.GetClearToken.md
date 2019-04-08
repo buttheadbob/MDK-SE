@@ -3,12 +3,12 @@
 ### Summary
 
 ```csharp
-public static ClearToken<T> GetClearToken<T>(List<T> list)
+public static ClearToken<T> GetClearToken<T>(this List<T> list)
 ```
 
 ### Returns
 
-[ClearToken<T>](System.Collections.Generic.ClearToken`1)
+[ClearToken<T>]()
 
 ### Parameters
 

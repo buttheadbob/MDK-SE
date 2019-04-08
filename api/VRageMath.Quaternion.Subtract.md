@@ -19,7 +19,7 @@ Subtracts a quaternion from another quaternion.
 ### Summary
 
 ```csharp
-public static void Subtract(ref Quaternion quaternion1, ref Quaternion quaternion2, out Quaternion result)
+public static void Subtract(ref Quaternion quaternion1, ref Quaternion quaternion2, ref Quaternion result)
 ```
 
 Subtracts a quaternion from another quaternion.

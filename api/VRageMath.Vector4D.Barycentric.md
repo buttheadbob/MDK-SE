@@ -22,7 +22,7 @@ Returns a Vector4 containing the 4D Cartesian coordinates of a point specified i
 ### Summary
 
 ```csharp
-public static void Barycentric(ref Vector4D value1, ref Vector4D value2, ref Vector4D value3, double amount1, double amount2, out Vector4D result)
+public static void Barycentric(ref Vector4D value1, ref Vector4D value2, ref Vector4D value3, double amount1, double amount2, ref Vector4D result)
 ```
 
 Returns a Vector4 containing the 4D Cartesian coordinates of a point specified in Barycentric (areal) coordinates relative to a 4D triangle.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static bool GetUseConveyorSystem(IMyTerminalBlock block)
+public static bool GetUseConveyorSystem(this IMyTerminalBlock block)
 ```
 
 ### Returns

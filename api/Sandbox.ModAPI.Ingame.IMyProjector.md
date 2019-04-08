@@ -3,7 +3,7 @@
 #### IMyProjector Interface
 
 ```csharp
-public interface IMyProjector: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity
+public interface IMyProjector: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity, IMyTextSurfaceProvider
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
@@ -13,7 +13,8 @@ public interface IMyProjector: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBloc
 * [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
 * [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
+* [IMyTextSurfaceProvider](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider)
 
 #### Properties
 
@@ -34,6 +35,7 @@ public interface IMyProjector: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBloc
 |[ProjectionOffset](Sandbox.ModAPI.Ingame.IMyProjector.ProjectionOffset)||
 |[ProjectionRotation](Sandbox.ModAPI.Ingame.IMyProjector.ProjectionRotation)|These values are not in degrees. 1 = 90 degrees, 2 = 180 degrees|
 |[ShowOnlyBuildable](Sandbox.ModAPI.Ingame.IMyProjector.ShowOnlyBuildable)||
+|[SurfaceCount](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider.SurfaceCount)|_Inherited from [IMyTextSurfaceProvider](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider)_|
 |[Components](VRage.Game.ModAPI.Ingame.IMyEntity.Components)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[EntityId](VRage.Game.ModAPI.Ingame.IMyEntity.EntityId)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[Name](VRage.Game.ModAPI.Ingame.IMyEntity.Name)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
@@ -77,6 +79,7 @@ public interface IMyProjector: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBloc
 |Member|Description|
 |---|---|
 |[UpdateOffsetAndRotation()](Sandbox.ModAPI.Ingame.IMyProjector.UpdateOffsetAndRotation)|Call this after setting ProjectionOffset and ProjectionRotation to update the projection|
+|[GetSurface(int)](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider.GetSurface)|_Inherited from [IMyTextSurfaceProvider](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider)_|
 |[GetInventory()](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)|Simply get the MyInventoryBase component stored in this entity.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[GetInventory(int)](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)|Search for inventory component with maching index.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[GetPosition()](VRage.Game.ModAPI.Ingame.IMyEntity.GetPosition)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|

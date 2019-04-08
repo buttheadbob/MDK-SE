@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static V GetValueOrDefault<K, V>(Dictionary<TKey, TValue> dictionary, K key)
+public static V GetValueOrDefault<K, V>(this Dictionary<K, V> dictionary, K key)
 ```
 
 ### Returns
@@ -12,12 +12,12 @@ public static V GetValueOrDefault<K, V>(Dictionary<TKey, TValue> dictionary, K k
 
 ### Parameters
 
-* [Dictionary<TKey, TValue>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary?view=netframework-4.6) dictionary
+* [Dictionary<K, V>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary?view=netframework-4.6) dictionary
 * [K]() key
 ### Summary
 
 ```csharp
-public static V GetValueOrDefault<K, V>(Dictionary<TKey, TValue> dictionary, K key, V defaultValue)
+public static V GetValueOrDefault<K, V>(this Dictionary<K, V> dictionary, K key, V defaultValue)
 ```
 
 ### Returns
@@ -26,13 +26,13 @@ public static V GetValueOrDefault<K, V>(Dictionary<TKey, TValue> dictionary, K k
 
 ### Parameters
 
-* [Dictionary<TKey, TValue>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary?view=netframework-4.6) dictionary
+* [Dictionary<K, V>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary?view=netframework-4.6) dictionary
 * [K]() key
 * [V]() defaultValue
 ### Summary
 
 ```csharp
-public static V GetValueOrDefault<K, V>(ConcurrentDictionary<TKey, TValue> dictionary, K key, V defaultValue)
+public static V GetValueOrDefault<K, V>(this ConcurrentDictionary<K, V> dictionary, K key, V defaultValue)
 ```
 
 ### Returns
@@ -41,6 +41,6 @@ public static V GetValueOrDefault<K, V>(ConcurrentDictionary<TKey, TValue> dicti
 
 ### Parameters
 
-* [ConcurrentDictionary<TKey, TValue>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.concurrent.concurrentdictionary?view=netframework-4.6) dictionary
+* [ConcurrentDictionary<K, V>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.concurrent.concurrentdictionary?view=netframework-4.6) dictionary
 * [K]() key
 * [V]() defaultValue

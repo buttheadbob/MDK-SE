@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool TryGetInt64(out long value)
+public bool TryGetInt64(ref long value)
 ```
 
 Attempts to get this value as a [System.Int64](https://docs.microsoft.com/en-us/dotnet/api/system.int64?view=netframework-4.6) . Fills the`value`on success.

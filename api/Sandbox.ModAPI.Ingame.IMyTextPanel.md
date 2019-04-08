@@ -20,6 +20,8 @@ public interface IMyTextPanel: IMyTextSurface, IMyFunctionalBlock, IMyTerminalBl
 
 |Member|Description|
 |---|---|
+|[ShowOnScreen](Sandbox.ModAPI.Ingame.IMyTextPanel.ShowOnScreen)|_**Obsolete:** LCD public text is deprecated_<br /><br />Indicates what should be shown on the screen, none being an image.|
+|[ShowText](Sandbox.ModAPI.Ingame.IMyTextPanel.ShowText)|_**Obsolete:** LCD public text is deprecated_<br /><br />Returns true if the ShowOnScreen flag is set to either PUBLIC or PRIVATE|
 |[Components](VRage.Game.ModAPI.Ingame.IMyEntity.Components)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[EntityId](VRage.Game.ModAPI.Ingame.IMyEntity.EntityId)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[Name](VRage.Game.ModAPI.Ingame.IMyEntity.Name)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
@@ -58,13 +60,23 @@ public interface IMyTextPanel: IMyTextSurface, IMyFunctionalBlock, IMyTerminalBl
 |[ShowInInventory](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[Enabled](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.Enabled)|_Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_|
 |[CurrentlyShownImage](Sandbox.ModAPI.Ingame.IMyTextSurface.CurrentlyShownImage)|The image that is currently shown on the screen. Returns NULL if there are no images selected OR the screen is in text mode.<br /><br />_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
-|[ShowOnScreen](Sandbox.ModAPI.Ingame.IMyTextSurface.ShowOnScreen)|Indicates what should be shown on the screen, none being an image.<br /><br />_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
-|[ShowText](Sandbox.ModAPI.Ingame.IMyTextSurface.ShowText)|Returns true if the ShowOnScreen flag is set to either PUBLIC or PRIVATE<br /><br />_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
 |[FontSize](Sandbox.ModAPI.Ingame.IMyTextSurface.FontSize)|Gets or sets font size<br /><br />_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
 |[FontColor](Sandbox.ModAPI.Ingame.IMyTextSurface.FontColor)|Gets or sets font color<br /><br />_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
 |[BackgroundColor](Sandbox.ModAPI.Ingame.IMyTextSurface.BackgroundColor)|Gets or sets background color<br /><br />_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
+|[BackgroundAlpha](Sandbox.ModAPI.Ingame.IMyTextSurface.BackgroundAlpha)|Value for offscreen texture alpha channel - for PBR material it is metalness (should be 0) - for transparent texture it is opacity<br /><br />_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
 |[ChangeInterval](Sandbox.ModAPI.Ingame.IMyTextSurface.ChangeInterval)|Gets or sets the change interval for selected textures<br /><br />_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
 |[Font](Sandbox.ModAPI.Ingame.IMyTextSurface.Font)|Gets or sets the font<br /><br />_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
+|[Alignment](Sandbox.ModAPI.Ingame.IMyTextSurface.Alignment)|How should the text be aligned<br /><br />_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
+|[Script](Sandbox.ModAPI.Ingame.IMyTextSurface.Script)|Currently running script<br /><br />_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
+|[ContentType](Sandbox.ModAPI.Ingame.IMyTextSurface.ContentType)|Type of content to be displayed on the screen.<br /><br />_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
+|[SurfaceSize](Sandbox.ModAPI.Ingame.IMyTextSurface.SurfaceSize)|Size of the drawing surface.<br /><br />_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
+|[TextureSize](Sandbox.ModAPI.Ingame.IMyTextSurface.TextureSize)|Size of the texture the drawing surface is rendered to.<br /><br />_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
+|[PreserveAspectRatio](Sandbox.ModAPI.Ingame.IMyTextSurface.PreserveAspectRatio)|Preserve aspect ratio of images.<br /><br />_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
+|[TextPadding](Sandbox.ModAPI.Ingame.IMyTextSurface.TextPadding)|Text padding from all sides of the panel.<br /><br />_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
+|[ScriptBackgroundColor](Sandbox.ModAPI.Ingame.IMyTextSurface.ScriptBackgroundColor)|Background color used for scripts.<br /><br />_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
+|[ScriptForegroundColor](Sandbox.ModAPI.Ingame.IMyTextSurface.ScriptForegroundColor)|Foreground color used for scripts.<br /><br />_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
+|[Name](Sandbox.ModAPI.Ingame.IMyTextSurface.Name)|Identifier name of this surface.<br /><br />_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
+|[DisplayName](Sandbox.ModAPI.Ingame.IMyTextSurface.DisplayName)|Localized name of this surface.<br /><br />_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
 
 #### Methods
 
@@ -77,6 +89,13 @@ public interface IMyTextPanel: IMyTextSurface, IMyFunctionalBlock, IMyTerminalBl
 |[WritePrivateTitle(string, bool)](Sandbox.ModAPI.Ingame.IMyTextPanel.WritePrivateTitle)|_**Obsolete:** LCD private text is deprecated_|
 |[GetPrivateTitle()](Sandbox.ModAPI.Ingame.IMyTextPanel.GetPrivateTitle)|_**Obsolete:** LCD private text is deprecated_|
 |[ShowPrivateTextOnScreen()](Sandbox.ModAPI.Ingame.IMyTextPanel.ShowPrivateTextOnScreen)|_**Obsolete:** LCD private text is deprecated_|
+|[WritePublicText(string, bool)](Sandbox.ModAPI.Ingame.IMyTextPanel.WritePublicText)|_**Obsolete:** LCD public text is deprecated_|
+|[GetPublicText()](Sandbox.ModAPI.Ingame.IMyTextPanel.GetPublicText)|_**Obsolete:** LCD public text is deprecated_|
+|[WritePublicText(StringBuilder, bool)](Sandbox.ModAPI.Ingame.IMyTextPanel.WritePublicText)|_**Obsolete:** LCD public text is deprecated_|
+|[ReadPublicText(StringBuilder, bool)](Sandbox.ModAPI.Ingame.IMyTextPanel.ReadPublicText)|_**Obsolete:** LCD public text is deprecated_|
+|[ShowPublicTextOnScreen()](Sandbox.ModAPI.Ingame.IMyTextPanel.ShowPublicTextOnScreen)|_**Obsolete:** LCD public text is deprecated_|
+|[ShowTextureOnScreen()](Sandbox.ModAPI.Ingame.IMyTextPanel.ShowTextureOnScreen)|_**Obsolete:** LCD public text is deprecated_|
+|[SetShowOnScreen(ShowTextOnScreenFlag)](Sandbox.ModAPI.Ingame.IMyTextPanel.SetShowOnScreen)|_**Obsolete:** LCD public text is deprecated_|
 |[GetInventory()](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)|Simply get the MyInventoryBase component stored in this entity.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[GetInventory(int)](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)|Search for inventory component with maching index.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[GetPosition()](VRage.Game.ModAPI.Ingame.IMyEntity.GetPosition)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
@@ -96,18 +115,19 @@ public interface IMyTextPanel: IMyTextSurface, IMyFunctionalBlock, IMyTerminalBl
 |[GetProperties(List, Func)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetProperties)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[IsSameConstructAs(IMyTerminalBlock)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.IsSameConstructAs)|Determines whether this block is mechanically connected to the other. This is any block connected with rotors or pistons or other mechanical devices, but not things like connectors. This will in most cases constitute your complete construct.<br /><br />Be aware that using merge blocks combines grids into one, so this function will not filter out grids connected that way. Also be aware that detaching the heads of pistons and rotors will cause this connection to change.<br /><br />_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[RequestEnable(bool)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)|_**Obsolete:** Use the setter of Enabled_<br /><br />_Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_|
-|[WritePublicText(string, bool)](Sandbox.ModAPI.Ingame.IMyTextSurface.WritePublicText)|_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
-|[GetPublicText()](Sandbox.ModAPI.Ingame.IMyTextSurface.GetPublicText)|_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
-|[WritePublicText(StringBuilder, bool)](Sandbox.ModAPI.Ingame.IMyTextSurface.WritePublicText)|_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
-|[ReadPublicText(StringBuilder, bool)](Sandbox.ModAPI.Ingame.IMyTextSurface.ReadPublicText)|_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
+|[WriteText(string, bool)](Sandbox.ModAPI.Ingame.IMyTextSurface.WriteText)|_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
+|[GetText()](Sandbox.ModAPI.Ingame.IMyTextSurface.GetText)|_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
+|[WriteText(StringBuilder, bool)](Sandbox.ModAPI.Ingame.IMyTextSurface.WriteText)|_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
+|[ReadText(StringBuilder, bool)](Sandbox.ModAPI.Ingame.IMyTextSurface.ReadText)|_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
 |[AddImageToSelection(string, bool)](Sandbox.ModAPI.Ingame.IMyTextSurface.AddImageToSelection)|_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
 |[AddImagesToSelection(List, bool)](Sandbox.ModAPI.Ingame.IMyTextSurface.AddImagesToSelection)|_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
 |[RemoveImageFromSelection(string, bool)](Sandbox.ModAPI.Ingame.IMyTextSurface.RemoveImageFromSelection)|_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
 |[RemoveImagesFromSelection(List, bool)](Sandbox.ModAPI.Ingame.IMyTextSurface.RemoveImagesFromSelection)|_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
 |[ClearImagesFromSelection()](Sandbox.ModAPI.Ingame.IMyTextSurface.ClearImagesFromSelection)|_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
 |[GetSelectedImages(List)](Sandbox.ModAPI.Ingame.IMyTextSurface.GetSelectedImages)|_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
-|[ShowPublicTextOnScreen()](Sandbox.ModAPI.Ingame.IMyTextSurface.ShowPublicTextOnScreen)|_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
-|[ShowTextureOnScreen()](Sandbox.ModAPI.Ingame.IMyTextSurface.ShowTextureOnScreen)|_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
-|[SetShowOnScreen(ShowTextOnScreenFlag)](Sandbox.ModAPI.Ingame.IMyTextSurface.SetShowOnScreen)|_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
 |[GetFonts(List)](Sandbox.ModAPI.Ingame.IMyTextSurface.GetFonts)|_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
+|[GetSprites(List)](Sandbox.ModAPI.Ingame.IMyTextSurface.GetSprites)|_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
+|[GetScripts(List)](Sandbox.ModAPI.Ingame.IMyTextSurface.GetScripts)|_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
+|[DrawFrame()](Sandbox.ModAPI.Ingame.IMyTextSurface.DrawFrame)|Creates a new draw frame where you can add sprites to be rendered.<br /><br />_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
+|[MeasureStringInPixels(StringBuilder, string, float)](Sandbox.ModAPI.Ingame.IMyTextSurface.MeasureStringInPixels)|Calculates how many pixels a string of a given font and scale will take up.<br /><br />_Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_|
 

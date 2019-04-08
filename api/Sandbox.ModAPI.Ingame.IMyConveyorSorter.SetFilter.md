@@ -3,10 +3,10 @@
 ### Summary
 
 ```csharp
-public void SetFilter(MyConveyorSorterMode mode, List<T> items)
+public void SetFilter(MyConveyorSorterMode mode, List<Sandbox.ModAPI.Ingame.MyInventoryItemFilter> items)
 ```
 
 ### Parameters
 
 * [MyConveyorSorterMode](Sandbox.ModAPI.Ingame.MyConveyorSorterMode) mode
-* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) items
+* [List<Sandbox.ModAPI.Ingame.MyInventoryItemFilter>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) items

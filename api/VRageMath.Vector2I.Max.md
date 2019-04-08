@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static void Max(ref Vector2I v1, ref Vector2I v2, out Vector2I max)
+public static void Max(ref Vector2I v1, ref Vector2I v2, ref Vector2I max)
 ```
 
 ### Parameters

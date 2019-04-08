@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static void Move<T>(List<T> list, int originalIndex, int targetIndex)
+public static void Move<T>(this List<T> list, int originalIndex, int targetIndex)
 ```
 
 ### Parameters

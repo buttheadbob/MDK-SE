@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static float HueDistance(Color color, float hue)
+public static float HueDistance(this Color color, float hue)
 ```
 
 ### Returns
@@ -17,7 +17,7 @@ public static float HueDistance(Color color, float hue)
 ### Summary
 
 ```csharp
-public static float HueDistance(Color color, Color otherColor)
+public static float HueDistance(this Color color, Color otherColor)
 ```
 
 ### Returns

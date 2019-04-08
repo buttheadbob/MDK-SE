@@ -19,7 +19,7 @@ Adds two vectors.
 ### Summary
 
 ```csharp
-public static void Add(ref Vector4D value1, ref Vector4D value2, out Vector4D result)
+public static void Add(ref Vector4D value1, ref Vector4D value2, ref Vector4D result)
 ```
 
 Adds two vectors.

@@ -19,7 +19,7 @@ Creates a new Matrix3x3 that rotates around an arbitrary vector.
 ### Summary
 
 ```csharp
-public static void CreateFromAxisAngle(ref Vector3 axis, float angle, out Matrix3x3 result)
+public static void CreateFromAxisAngle(ref Vector3 axis, float angle, ref Matrix3x3 result)
 ```
 
 Creates a new Matrix3x3 that rotates around an arbitrary vector.

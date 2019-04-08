@@ -3,7 +3,7 @@
 #### MyIniKey Struct
 
 ```csharp
-public struct MyIniKey: IEquatable<T>
+public struct MyIniKey: IEquatable<VRage.Game.ModAPI.Ingame.Utilities.MyIniKey>
 ```
 
 Represents the combination of a section and a key in a [MyIni](VRage.Game.ModAPI.Ingame.Utilities.MyIni) structure.
@@ -12,7 +12,7 @@ Represents the combination of a section and a key in a [MyIni](VRage.Game.ModAPI
 **Assembly:** VRage.Game.dll
 
 **Implements:**  
-* [IEquatable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)
+* [IEquatable<VRage.Game.ModAPI.Ingame.Utilities.MyIniKey>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)
 
 #### Fields
 
@@ -38,7 +38,7 @@ Represents the combination of a section and a key in a [MyIni](VRage.Game.ModAPI
 
 |Member|Description|
 |---|---|
-|[TryParse(string, out MyIniKey)](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey.TryParse)|Parses a string in the form of`section/key`into a [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) object.|
+|[TryParse(string, ref MyIniKey)](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey.TryParse)|Parses a string in the form of`section/key`into a [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) object.|
 |[Parse(string)](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey.Parse)|Parses a string in the form of`section/key`into a [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) object.|
 |[Equals(MyIniKey)](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey.Equals)|Compares this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) with another. Note that this is equality in the sense of a configuration key, which means the comparison is implicitly case insensitive.|
 |[Equals(object)](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey.Equals)|Compares this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) with another. Note that this is equality in the sense of a configuration key, which means the comparison is implicitly case insensitive.|

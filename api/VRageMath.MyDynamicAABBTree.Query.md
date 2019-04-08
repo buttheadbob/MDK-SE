@@ -3,10 +3,10 @@
 ### Summary
 
 ```csharp
-public void Query(Func<T, TResult> callback, ref BoundingBox aabb)
+public void Query(Func<System.Int32, System.Boolean> callback, ref BoundingBox aabb)
 ```
 
 ### Parameters
 
-* [Func<T, TResult>](https://docs.microsoft.com/en-us/dotnet/api/system.func?view=netframework-4.6) callback
+* [Func<System.Int32, System.Boolean>](https://docs.microsoft.com/en-us/dotnet/api/system.func?view=netframework-4.6) callback
 * [BoundingBox](VRageMath.BoundingBox) aabb

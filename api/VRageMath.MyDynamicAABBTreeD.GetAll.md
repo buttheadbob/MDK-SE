@@ -3,14 +3,14 @@
 ### Summary
 
 ```csharp
-public void GetAll<T>(List<T> elementsList, bool clear, List<T> boxsList)
+public void GetAll<T>(List<T> elementsList, bool clear, List<VRageMath.BoundingBoxD> boxsList)
 ```
 
 ### Parameters
 
 * [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) elementsList
 * [bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) clear
-* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) boxsList
+* [List<VRageMath.BoundingBoxD>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) boxsList
 ### Summary
 
 ```csharp
@@ -23,9 +23,9 @@ public void GetAll<T>(Action<T> add)
 ### Summary
 
 ```csharp
-public void GetAll<T>(Action<T1, T2> add)
+public void GetAll<T>(Action<T, VRageMath.BoundingBoxD> add)
 ```
 
 ### Parameters
 
-* [Action<T1, T2>](https://docs.microsoft.com/en-us/dotnet/api/system.action?view=netframework-4.6) add
+* [Action<T, VRageMath.BoundingBoxD>](https://docs.microsoft.com/en-us/dotnet/api/system.action?view=netframework-4.6) add

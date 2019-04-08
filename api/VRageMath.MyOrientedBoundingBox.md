@@ -3,14 +3,14 @@
 #### MyOrientedBoundingBox Struct
 
 ```csharp
-public struct MyOrientedBoundingBox: IEquatable<T>
+public struct MyOrientedBoundingBox: IEquatable<VRageMath.MyOrientedBoundingBox>
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)
+* [IEquatable<VRageMath.MyOrientedBoundingBox>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)
 
 #### Fields
 
@@ -46,7 +46,7 @@ public struct MyOrientedBoundingBox: IEquatable<T>
 
 |Member|Description|
 |---|---|
-|[GetNormalBetweenEdges(int, int, int, out Vector3)](VRageMath.MyOrientedBoundingBox.GetNormalBetweenEdges)|Returns normal between two cube edge of same direction|
+|[GetNormalBetweenEdges(int, int, int, ref Vector3)](VRageMath.MyOrientedBoundingBox.GetNormalBetweenEdges)|Returns normal between two cube edge of same direction|
 |[CreateFromBoundingBox(BoundingBox)](VRageMath.MyOrientedBoundingBox.CreateFromBoundingBox)||
 |[Transform(Quaternion, Vector3)](VRageMath.MyOrientedBoundingBox.Transform)||
 |[Transform(float, Quaternion, Vector3)](VRageMath.MyOrientedBoundingBox.Transform)||

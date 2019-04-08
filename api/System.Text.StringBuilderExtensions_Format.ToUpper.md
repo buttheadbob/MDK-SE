@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static StringBuilder ToUpper(StringBuilder self)
+public static StringBuilder ToUpper(this StringBuilder self)
 ```
 
 ### Returns

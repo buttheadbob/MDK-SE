@@ -51,7 +51,7 @@ Transforms a 3D vector normal by a matrix.
 ### Summary
 
 ```csharp
-public static void TransformNormal(ref Vector3 normal, ref Matrix matrix, out Vector3 result)
+public static void TransformNormal(ref Vector3 normal, ref Matrix matrix, ref Vector3 result)
 ```
 
 Transforms a vector normal by a matrix.
@@ -64,7 +64,7 @@ Transforms a vector normal by a matrix.
 ### Summary
 
 ```csharp
-public static void TransformNormal(ref Vector3 normal, ref MatrixD matrix, out Vector3 result)
+public static void TransformNormal(ref Vector3 normal, ref MatrixD matrix, ref Vector3 result)
 ```
 
 ### Parameters
@@ -75,7 +75,7 @@ public static void TransformNormal(ref Vector3 normal, ref MatrixD matrix, out
 ### Summary
 
 ```csharp
-public static void TransformNormal(ref Vector3 normal, ref MatrixI matrix, out Vector3 result)
+public static void TransformNormal(ref Vector3 normal, ref MatrixI matrix, ref Vector3 result)
 ```
 
 ### Parameters
@@ -100,7 +100,7 @@ public static Vector3 TransformNormal(Vector3 normal, MyBlockOrientation orienta
 ### Summary
 
 ```csharp
-public static void TransformNormal(ref Vector3 normal, MyBlockOrientation orientation, out Vector3 result)
+public static void TransformNormal(ref Vector3 normal, MyBlockOrientation orientation, ref Vector3 result)
 ```
 
 ### Parameters

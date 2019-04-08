@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static bool TryDequeue<T>(Queue<T> queue, out T result)
+public static bool TryDequeue<T>(this Queue<T> queue, ref T result)
 ```
 
 ### Returns

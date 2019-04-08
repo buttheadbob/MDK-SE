@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static StringBuilder ToLower(StringBuilder self)
+public static StringBuilder ToLower(this StringBuilder self)
 ```
 
 ### Returns

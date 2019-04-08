@@ -20,7 +20,7 @@ Linearly interpolates between two quaternions.
 ### Summary
 
 ```csharp
-public static void Lerp(ref Quaternion quaternion1, ref Quaternion quaternion2, float amount, out Quaternion result)
+public static void Lerp(ref Quaternion quaternion1, ref Quaternion quaternion2, float amount, ref Quaternion result)
 ```
 
 Linearly interpolates between two quaternions.

@@ -3,10 +3,10 @@
 ### Summary
 
 ```csharp
-public static void FindAll(string source, List<T> gpsList)
+public static void FindAll(string source, List<Sandbox.ModAPI.Ingame.MyWaypointInfo> gpsList)
 ```
 
 ### Parameters
 
 * [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) source
-* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) gpsList
+* [List<Sandbox.ModAPI.Ingame.MyWaypointInfo>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) gpsList

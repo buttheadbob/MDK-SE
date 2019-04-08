@@ -44,7 +44,7 @@ public static int Dot(ref Vector3I vector1, ref Vector3I vector2)
 ### Summary
 
 ```csharp
-public static void Dot(ref Vector3I vector1, ref Vector3I vector2, out int dot)
+public static void Dot(ref Vector3I vector1, ref Vector3I vector2, ref int dot)
 ```
 
 ### Parameters

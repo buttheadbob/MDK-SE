@@ -19,7 +19,7 @@ Multiplies two quaternions.
 ### Summary
 
 ```csharp
-public static void Multiply(ref QuaternionD quaternion1, ref QuaternionD quaternion2, out QuaternionD result)
+public static void Multiply(ref QuaternionD quaternion1, ref QuaternionD quaternion2, ref QuaternionD result)
 ```
 
 Multiplies two quaternions.
@@ -48,7 +48,7 @@ Multiplies a quaternion by a scalar value.
 ### Summary
 
 ```csharp
-public static void Multiply(ref QuaternionD quaternion1, double scaleFactor, out QuaternionD result)
+public static void Multiply(ref QuaternionD quaternion1, double scaleFactor, ref QuaternionD result)
 ```
 
 Multiplies a quaternion by a scalar value.

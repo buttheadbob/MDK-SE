@@ -18,7 +18,7 @@ Checks whether the current BoundingSphere contains the specified BoundingBox.
 ### Summary
 
 ```csharp
-public void Contains(ref BoundingBox box, out ContainmentType result)
+public void Contains(ref BoundingBox box, ref ContainmentType result)
 ```
 
 Checks whether the current BoundingSphere contains the specified BoundingBox.
@@ -60,7 +60,7 @@ Checks whether the current BoundingSphere contains the specified point.
 ### Summary
 
 ```csharp
-public void Contains(ref Vector3 point, out ContainmentType result)
+public void Contains(ref Vector3 point, ref ContainmentType result)
 ```
 
 Checks whether the current BoundingSphere contains the specified point.
@@ -87,7 +87,7 @@ Checks whether the current BoundingSphere contains the specified BoundingSphere.
 ### Summary
 
 ```csharp
-public void Contains(ref BoundingSphere sphere, out ContainmentType result)
+public void Contains(ref BoundingSphere sphere, ref ContainmentType result)
 ```
 
 Checks whether the current BoundingSphere contains the specified BoundingSphere.

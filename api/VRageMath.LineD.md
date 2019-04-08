@@ -30,7 +30,7 @@ public struct LineD
 |Member|Description|
 |---|---|
 |[GetShortestDistanceSquared(LineD, LineD)](VRageMath.LineD.GetShortestDistanceSquared)||
-|[GetShortestVector(ref LineD, ref LineD, out Vector3D, out Vector3D)](VRageMath.LineD.GetShortestVector)||
+|[GetShortestVector(ref LineD, ref LineD, ref Vector3D, ref Vector3D)](VRageMath.LineD.GetShortestVector)||
 |[GetBoundingBox()](VRageMath.LineD.GetBoundingBox)||
 |[GetHash()](VRageMath.LineD.GetHash)||
 

@@ -19,7 +19,7 @@ Transforms the vector (x, y, 0, 1) by the specified matrix.
 ### Summary
 
 ```csharp
-public static void Transform(ref Vector2 position, ref Matrix matrix, out Vector2 result)
+public static void Transform(ref Vector2 position, ref Matrix matrix, ref Vector2 result)
 ```
 
 Transforms a Vector2 by the given Matrix.
@@ -48,7 +48,7 @@ Transforms a single Vector2, or the vector normal (x, y, 0, 0), by a specified Q
 ### Summary
 
 ```csharp
-public static void Transform(ref Vector2 value, ref Quaternion rotation, out Vector2 result)
+public static void Transform(ref Vector2 value, ref Quaternion rotation, ref Vector2 result)
 ```
 
 Transforms a Vector2, or the vector normal (x, y, 0, 0), by a specified Quaternion rotation.

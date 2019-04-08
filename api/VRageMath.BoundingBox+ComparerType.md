@@ -3,12 +3,12 @@
 #### ComparerType Class
 
 ```csharp
-public class ComparerType: IEqualityComparer<T>
+public class ComparerType: IEqualityComparer<VRageMath.BoundingBoxD>
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEqualityComparer<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.iequalitycomparer?view=netframework-4.6)
+* [IEqualityComparer<VRageMath.BoundingBoxD>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.iequalitycomparer?view=netframework-4.6)
 

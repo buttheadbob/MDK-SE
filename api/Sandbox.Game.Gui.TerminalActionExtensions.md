@@ -13,7 +13,7 @@ public abstract sealed class TerminalActionExtensions
 
 |Member|Description|
 |---|---|
-|[GetAction(IMyTerminalBlock, string)](Sandbox.Game.Gui.TerminalActionExtensions.GetAction)||
-|[ApplyAction(IMyTerminalBlock, string)](Sandbox.Game.Gui.TerminalActionExtensions.ApplyAction)||
-|[ApplyAction(IMyTerminalBlock, string, ListReader)](Sandbox.Game.Gui.TerminalActionExtensions.ApplyAction)||
+|[GetAction(this IMyTerminalBlock, string)](Sandbox.Game.Gui.TerminalActionExtensions.GetAction)||
+|[ApplyAction(this IMyTerminalBlock, string)](Sandbox.Game.Gui.TerminalActionExtensions.ApplyAction)||
+|[ApplyAction(this IMyTerminalBlock, string, ListReader)](Sandbox.Game.Gui.TerminalActionExtensions.ApplyAction)||
 

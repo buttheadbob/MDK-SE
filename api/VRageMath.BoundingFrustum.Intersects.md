@@ -18,7 +18,7 @@ Checks whether the current BoundingFrustum intersects the specified BoundingBox.
 ### Summary
 
 ```csharp
-public void Intersects(ref BoundingBox box, out bool result)
+public void Intersects(ref BoundingBox box, ref bool result)
 ```
 
 Checks whether the current BoundingFrustum intersects a BoundingBox.
@@ -60,7 +60,7 @@ Checks whether the current BoundingFrustum intersects the specified Plane.
 ### Summary
 
 ```csharp
-public void Intersects(ref Plane plane, out PlaneIntersectionType result)
+public void Intersects(ref Plane plane, ref PlaneIntersectionType result)
 ```
 
 Checks whether the current BoundingFrustum intersects a Plane.
@@ -72,14 +72,14 @@ Checks whether the current BoundingFrustum intersects a Plane.
 ### Summary
 
 ```csharp
-public Nullable<T> Intersects(Ray ray)
+public Nullable<System.Single> Intersects(Ray ray)
 ```
 
 Checks whether the current BoundingFrustum intersects the specified Ray.
 
 ### Returns
 
-[Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
+[Nullable<System.Single>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
 
 ### Parameters
 
@@ -87,13 +87,13 @@ Checks whether the current BoundingFrustum intersects the specified Ray.
 ### Summary
 
 ```csharp
-public void Intersects(ref Ray ray, out Nullable<T> result)
+public void Intersects(ref Ray ray, ref Nullable<System.Single> result)
 ```
 
 ### Parameters
 
 * [Ray](VRageMath.Ray) ray
-* [Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) result
+* [Nullable<System.Single>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) result
 ### Summary
 
 ```csharp
@@ -112,7 +112,7 @@ Checks whether the current BoundingFrustum intersects the specified BoundingSphe
 ### Summary
 
 ```csharp
-public void Intersects(ref BoundingSphere sphere, out bool result)
+public void Intersects(ref BoundingSphere sphere, ref bool result)
 ```
 
 Checks whether the current BoundingFrustum intersects a BoundingSphere.

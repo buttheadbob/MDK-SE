@@ -36,6 +36,7 @@ basic block interface
 |[Position](VRage.Game.ModAPI.Ingame.IMySlimBlock.Position)|Grid relative position of block|
 |[CubeGrid](VRage.Game.ModAPI.Ingame.IMySlimBlock.CubeGrid)|Gets the grid the slimblock is on|
 |[ColorMaskHSV](VRage.Game.ModAPI.Ingame.IMySlimBlock.ColorMaskHSV)|Gets the color of the block|
+|[SkinSubtypeId](VRage.Game.ModAPI.Ingame.IMySlimBlock.SkinSubtypeId)|Gets the skin of the block|
 
 #### Methods
 

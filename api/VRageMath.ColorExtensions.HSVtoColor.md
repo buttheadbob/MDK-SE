@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static Color HSVtoColor(Vector3 HSV)
+public static Color HSVtoColor(this Vector3 HSV)
 ```
 
 ### Returns

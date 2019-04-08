@@ -3,10 +3,10 @@
 ### Summary
 
 ```csharp
-public IEnumerable<T> UniqueLines { get; }
+public IEnumerable<VRageMath.Line> UniqueLines { get; }
 ```
 
 ### Returns
 
-[IEnumerable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable?view=netframework-4.6)
+[IEnumerable<VRageMath.Line>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable?view=netframework-4.6)
 

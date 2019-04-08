@@ -3,15 +3,15 @@
 #### MyItemType Struct
 
 ```csharp
-public struct MyItemType: IComparable<T>, IEquatable<T>
+public struct MyItemType: IComparable<VRage.Game.ModAPI.Ingame.MyItemType>, IEquatable<VRage.Game.ModAPI.Ingame.MyItemType>
 ```
 
 **Namespace:** [VRage.Game.ModAPI.Ingame](VRage.Game.ModAPI.Ingame)  
 **Assembly:** VRage.Game.dll
 
 **Implements:**  
-* [IComparable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.icomparable?view=netframework-4.6)  
-* [IEquatable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)
+* [IComparable<VRage.Game.ModAPI.Ingame.MyItemType>](https://docs.microsoft.com/en-us/dotnet/api/system.icomparable?view=netframework-4.6)  
+* [IEquatable<VRage.Game.ModAPI.Ingame.MyItemType>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)
 
 #### Properties
 

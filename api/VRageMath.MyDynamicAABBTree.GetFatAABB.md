@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetFatAABB(int proxyId, out BoundingBox fatAABB)
+public void GetFatAABB(int proxyId, ref BoundingBox fatAABB)
 ```
 
 Get the fat BoundingBox for a proxy.

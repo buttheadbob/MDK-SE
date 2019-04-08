@@ -12,5 +12,5 @@ public bool Equals(MyTuple<T1, T2, T3> x, MyTuple<T1, T2, T3> y)
 
 ### Parameters
 
-* [MyTuple<T1, T2, T3>](VRage.MyTuple`3) x
-* [MyTuple<T1, T2, T3>](VRage.MyTuple`3) y
+* [MyTuple<T1, T2, T3>]() x
+* [MyTuple<T1, T2, T3>]() y

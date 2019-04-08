@@ -26,7 +26,7 @@ Changes the coefficients of the Normal vector of a PlaneD to make it of unit len
 ### Summary
 
 ```csharp
-public static void Normalize(ref PlaneD value, out PlaneD result)
+public static void Normalize(ref PlaneD value, ref PlaneD result)
 ```
 
 Changes the coefficients of the Normal vector of a PlaneD to make it of unit length.

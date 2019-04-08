@@ -19,7 +19,7 @@ Creates the smallest BoundingBox2I that contains the two specified BoundingBox2I
 ### Summary
 
 ```csharp
-public static void CreateMerged(ref BoundingBox2I original, ref BoundingBox2I additional, out BoundingBox2I result)
+public static void CreateMerged(ref BoundingBox2I original, ref BoundingBox2I additional, ref BoundingBox2I result)
 ```
 
 Creates the smallest BoundingBox2I that contains the two specified BoundingBox2I instances.

@@ -3,9 +3,9 @@
 ### Summary
 
 ```csharp
-public void GetSections(List<T> names)
+public void GetSections(List<System.String> names)
 ```
 
 ### Parameters
 
-* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) names
+* [List<System.String>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) names

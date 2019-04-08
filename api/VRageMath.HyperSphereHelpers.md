@@ -13,7 +13,7 @@ public abstract sealed class HyperSphereHelpers
 
 |Member|Description|
 |---|---|
-|[DistanceToTangentProjected(ref Vector3D, ref Vector3D, double, out double)](VRageMath.HyperSphereHelpers.DistanceToTangentProjected)||
+|[DistanceToTangentProjected(ref Vector3D, ref Vector3D, double, ref double)](VRageMath.HyperSphereHelpers.DistanceToTangentProjected)||
 |[DistanceToTangent(ref Vector3D, ref Vector3D, double)](VRageMath.HyperSphereHelpers.DistanceToTangent)||
 |[DistanceToTangent(ref Vector2D, ref Vector2D, double)](VRageMath.HyperSphereHelpers.DistanceToTangent)||
 

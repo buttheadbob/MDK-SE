@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static int BinaryIntervalSearch<T>(IList<T> self, T value, IComparer<T> comparer)
+public static int BinaryIntervalSearch<T>(this IList<T> self, T value, IComparer<T> comparer)
 ```
 
 ### Returns
@@ -18,7 +18,7 @@ public static int BinaryIntervalSearch<T>(IList<T> self, T value, IComparer<T> c
 ### Summary
 
 ```csharp
-public static int BinaryIntervalSearch<T>(IList<T> self, Func<T, TResult> less)
+public static int BinaryIntervalSearch<T>(this IList<T> self, Func<T, System.Boolean> less)
 ```
 
 ### Returns
@@ -28,11 +28,11 @@ public static int BinaryIntervalSearch<T>(IList<T> self, Func<T, TResult> less)
 ### Parameters
 
 * [IList<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ilist?view=netframework-4.6) self
-* [Func<T, TResult>](https://docs.microsoft.com/en-us/dotnet/api/system.func?view=netframework-4.6) less
+* [Func<T, System.Boolean>](https://docs.microsoft.com/en-us/dotnet/api/system.func?view=netframework-4.6) less
 ### Summary
 
 ```csharp
-public static int BinaryIntervalSearch<T>(IList<T> self, T value, Comparison<T> comparison)
+public static int BinaryIntervalSearch<T>(this IList<T> self, T value, Comparison<T> comparison)
 ```
 
 ### Returns

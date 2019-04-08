@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static bool HasInventory(IMyTerminalBlock block)
+public static bool HasInventory(this IMyTerminalBlock block)
 ```
 
 ### Returns

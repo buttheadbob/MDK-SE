@@ -17,9 +17,9 @@ public interface IMyMotorBase: IMyMechanicalConnectionBlock, IMyFunctionalBlock,
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
 **Inheritors:**  
-* [IMyMotorStator](Sandbox.ModAPI.Ingame.IMyMotorStator)  
 * [IMyMotorAdvancedStator](Sandbox.ModAPI.Ingame.IMyMotorAdvancedStator)  
-* [IMyMotorSuspension](Sandbox.ModAPI.Ingame.IMyMotorSuspension)
+* [IMyMotorSuspension](Sandbox.ModAPI.Ingame.IMyMotorSuspension)  
+* [IMyMotorStator](Sandbox.ModAPI.Ingame.IMyMotorStator)
 
 #### Properties
 

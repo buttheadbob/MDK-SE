@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static bool TryParse(string input, out MyIniKey key)
+public static bool TryParse(string input, ref MyIniKey key)
 ```
 
 Parses a string in the form of`section/key`into a [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) object.

@@ -19,7 +19,7 @@ Transforms a Matrix by applying a Quaternion rotation.
 ### Summary
 
 ```csharp
-public static void Transform(ref Matrix value, ref Quaternion rotation, out Matrix result)
+public static void Transform(ref Matrix value, ref Quaternion rotation, ref Matrix result)
 ```
 
 Transforms a Matrix by applying a Quaternion rotation.

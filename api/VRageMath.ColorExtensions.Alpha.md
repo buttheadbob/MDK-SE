@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static Color Alpha(Color c, float a)
+public static Color Alpha(this Color c, float a)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static MyDefinitionId GetDefinitionId(IMyInventoryItem self)
+public static MyDefinitionId GetDefinitionId(this IMyInventoryItem self)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetMatrix(out Matrix result)
+public void GetMatrix(ref Matrix result)
 ```
 
 ### Parameters

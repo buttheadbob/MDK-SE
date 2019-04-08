@@ -397,9 +397,16 @@
 |ControlThrusters|Control thrusters On/Off|
 |ControlWheels|Control wheels On/Off|
 |DampenersOverride|Inertia dampeners On/Off|
+|DecreaseChangeIntervalSlider|Decrease Image change interval|
+|DecreaseFontSize|Decrease Font Size|
+|DecreaseTextPaddingSlider|Decrease Text Padding|
 |HandBrake|Handbrake On/Off|
 |HorizonIndicator|Show horizon and altitude On/Off|
+|IncreaseChangeIntervalSlider|Increase Image change interval|
+|IncreaseFontSize|Increase Font Size|
+|IncreaseTextPaddingSlider|Increase Text Padding|
 |MainCockpit|Main cockpit On/Off|
+|PreserveAspectRatio|Preserve aspect ratio On/Off|
 |ShowOnHUD|Show on HUD On/Off|
 |ShowOnHUD_Off|Show on HUD Off|
 |ShowOnHUD_On|Show on HUD On|
@@ -408,17 +415,28 @@
 
 |Name|Type|
 |-|-|
+|alignment|long|
+|BackgroundColor|Color|
+|ChangeIntervalSlider|float|
+|Content|long|
 |ControlThrusters|bool|
 |ControlWheels|bool|
 |DampenersOverride|bool|
+|Font|long|
+|FontColor|Color|
+|FontSize|float|
 |HandBrake|bool|
 |HorizonIndicator|bool|
 |MainCockpit|bool|
 |Name|StringBuilder|
+|PreserveAspectRatio|bool|
+|ScriptBackgroundColor|Color|
+|ScriptForegroundColor|Color|
 |ShowInInventory|bool|
 |ShowInTerminal|bool|
 |ShowInToolbarConfig|bool|
 |ShowOnHUD|bool|
+|TextPaddingSlider|float|
 
 ## IMyCollector
 
@@ -502,9 +520,16 @@
 |ControlThrusters|Control thrusters On/Off|
 |ControlWheels|Control wheels On/Off|
 |DampenersOverride|Inertia dampeners On/Off|
+|DecreaseChangeIntervalSlider|Decrease Image change interval|
+|DecreaseFontSize|Decrease Font Size|
+|DecreaseTextPaddingSlider|Decrease Text Padding|
 |HandBrake|Handbrake On/Off|
 |HorizonIndicator|Show horizon and altitude On/Off|
+|IncreaseChangeIntervalSlider|Increase Image change interval|
+|IncreaseFontSize|Increase Font Size|
+|IncreaseTextPaddingSlider|Increase Text Padding|
 |MainCockpit|Main cockpit On/Off|
+|PreserveAspectRatio|Preserve aspect ratio On/Off|
 |ShowOnHUD|Show on HUD On/Off|
 |ShowOnHUD_Off|Show on HUD Off|
 |ShowOnHUD_On|Show on HUD On|
@@ -513,17 +538,28 @@
 
 |Name|Type|
 |-|-|
+|alignment|long|
+|BackgroundColor|Color|
+|ChangeIntervalSlider|float|
+|Content|long|
 |ControlThrusters|bool|
 |ControlWheels|bool|
 |DampenersOverride|bool|
+|Font|long|
+|FontColor|Color|
+|FontSize|float|
 |HandBrake|bool|
 |HorizonIndicator|bool|
 |MainCockpit|bool|
 |Name|StringBuilder|
+|PreserveAspectRatio|bool|
+|ScriptBackgroundColor|Color|
+|ScriptForegroundColor|Color|
 |ShowInInventory|bool|
 |ShowInTerminal|bool|
 |ShowInToolbarConfig|bool|
 |ShowOnHUD|bool|
+|TextPaddingSlider|float|
 
 ## IMyDecoy
 
@@ -1544,9 +1580,16 @@
 
 |Name|Description|
 |-|-|
+|DecreaseChangeIntervalSlider|Decrease Image change interval|
+|DecreaseFontSize|Decrease Font Size|
+|DecreaseTextPaddingSlider|Decrease Text Padding|
+|IncreaseChangeIntervalSlider|Increase Image change interval|
+|IncreaseFontSize|Increase Font Size|
+|IncreaseTextPaddingSlider|Increase Text Padding|
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
+|PreserveAspectRatio|Preserve aspect ratio On/Off|
 |Run|Run|
 |RunWithDefaultArgument|Run with default argument|
 |ShowOnHUD|Show on HUD On/Off|
@@ -1557,13 +1600,24 @@
 
 |Name|Type|
 |-|-|
+|alignment|long|
+|BackgroundColor|Color|
+|ChangeIntervalSlider|float|
 |ConsoleCommand|StringBuilder|
+|Content|long|
+|Font|long|
+|FontColor|Color|
+|FontSize|float|
 |Name|StringBuilder|
 |OnOff|bool|
+|PreserveAspectRatio|bool|
+|ScriptBackgroundColor|Color|
+|ScriptForegroundColor|Color|
 |ShowInInventory|bool|
 |ShowInTerminal|bool|
 |ShowInToolbarConfig|bool|
 |ShowOnHUD|bool|
+|TextPaddingSlider|float|
 
 ## IMyProjector
 
@@ -1571,15 +1625,23 @@
 
 |Name|Description|
 |-|-|
+|DecreaseChangeIntervalSlider|Decrease Image change interval|
+|DecreaseFontSize|Decrease Font Size|
 |DecreaseRotX|Decrease Pitch|
 |DecreaseRotY|Decrease Yaw|
 |DecreaseRotZ|Decrease Roll|
+|DecreaseScale|Decrease Scale|
+|DecreaseTextPaddingSlider|Decrease Text Padding|
 |DecreaseX|Decrease Horizontal offset|
 |DecreaseY|Decrease Vertical offset|
 |DecreaseZ|Decrease Forward offset|
+|IncreaseChangeIntervalSlider|Increase Image change interval|
+|IncreaseFontSize|Increase Font Size|
 |IncreaseRotX|Increase Pitch|
 |IncreaseRotY|Increase Yaw|
 |IncreaseRotZ|Increase Roll|
+|IncreaseScale|Increase Scale|
+|IncreaseTextPaddingSlider|Increase Text Padding|
 |IncreaseX|Increase Horizontal offset|
 |IncreaseY|Increase Vertical offset|
 |IncreaseZ|Increase Forward offset|
@@ -1587,6 +1649,7 @@
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
+|PreserveAspectRatio|Preserve aspect ratio On/Off|
 |ShowOnHUD|Show on HUD On/Off|
 |ShowOnHUD_Off|Show on HUD Off|
 |ShowOnHUD_On|Show on HUD On|
@@ -1596,6 +1659,13 @@
 
 |Name|Type|
 |-|-|
+|alignment|long|
+|BackgroundColor|Color|
+|ChangeIntervalSlider|float|
+|Content|long|
+|Font|long|
+|FontColor|Color|
+|FontSize|float|
 |GetOwnership|bool|
 |InstantBuilding|bool|
 |KeepProjection|bool|
@@ -1603,14 +1673,19 @@
 |NumberOfBlocks|float|
 |NumberOfProjections|float|
 |OnOff|bool|
+|PreserveAspectRatio|bool|
 |RotX|float|
 |RotY|float|
 |RotZ|float|
+|Scale|float|
+|ScriptBackgroundColor|Color|
+|ScriptForegroundColor|Color|
 |ShowInInventory|bool|
 |ShowInTerminal|bool|
 |ShowInToolbarConfig|bool|
 |ShowOnHUD|bool|
 |ShowOnlyBuildable|bool|
+|TextPaddingSlider|float|
 |X|float|
 |Y|float|
 |Z|float|
@@ -2251,11 +2326,14 @@
 |-|-|
 |DecreaseChangeIntervalSlider|Decrease Image change interval|
 |DecreaseFontSize|Decrease Font Size|
+|DecreaseTextPaddingSlider|Decrease Text Padding|
 |IncreaseChangeIntervalSlider|Increase Image change interval|
 |IncreaseFontSize|Increase Font Size|
+|IncreaseTextPaddingSlider|Increase Text Padding|
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
+|PreserveAspectRatio|Preserve aspect ratio On/Off|
 |ShowOnHUD|Show on HUD On/Off|
 |ShowOnHUD_Off|Show on HUD Off|
 |ShowOnHUD_On|Show on HUD On|
@@ -2267,16 +2345,20 @@
 |alignment|long|
 |BackgroundColor|Color|
 |ChangeIntervalSlider|float|
+|Content|long|
 |Font|long|
 |FontColor|Color|
 |FontSize|float|
 |Name|StringBuilder|
 |OnOff|bool|
+|PreserveAspectRatio|bool|
+|ScriptBackgroundColor|Color|
+|ScriptForegroundColor|Color|
 |ShowInInventory|bool|
 |ShowInTerminal|bool|
 |ShowInToolbarConfig|bool|
 |ShowOnHUD|bool|
-|ShowTextOnScreen|bool|
+|TextPaddingSlider|float|
 |Title|StringBuilder|
 
 ## IMyThrust

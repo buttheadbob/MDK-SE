@@ -21,7 +21,7 @@ Builds a perspective projection matrix and returns the result by value.
 ### Summary
 
 ```csharp
-public static void CreatePerspective(double width, double height, double nearPlaneDistance, double farPlaneDistance, out MatrixD result)
+public static void CreatePerspective(double width, double height, double nearPlaneDistance, double farPlaneDistance, ref MatrixD result)
 ```
 
 Builds a perspective projection matrix and returns the result by reference.

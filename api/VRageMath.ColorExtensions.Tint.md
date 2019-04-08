@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static Color Tint(Color c, float r)
+public static Color Tint(this Color c, float r)
 ```
 
 ### Returns

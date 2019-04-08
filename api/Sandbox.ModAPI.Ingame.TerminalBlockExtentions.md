@@ -13,13 +13,13 @@ public abstract sealed class TerminalBlockExtentions
 
 |Member|Description|
 |---|---|
-|[GetId(IMyTerminalBlock)](Sandbox.ModAPI.Ingame.TerminalBlockExtentions.GetId)||
-|[ApplyAction(IMyTerminalBlock, string)](Sandbox.ModAPI.Ingame.TerminalBlockExtentions.ApplyAction)||
-|[ApplyAction(IMyTerminalBlock, string, List)](Sandbox.ModAPI.Ingame.TerminalBlockExtentions.ApplyAction)||
-|[HasAction(IMyTerminalBlock, string)](Sandbox.ModAPI.Ingame.TerminalBlockExtentions.HasAction)||
-|[HasInventory(IMyTerminalBlock)](Sandbox.ModAPI.Ingame.TerminalBlockExtentions.HasInventory)|_**Obsolete:** Use the HasInventory property._|
-|[GetInventory(IMyTerminalBlock, int)](Sandbox.ModAPI.Ingame.TerminalBlockExtentions.GetInventory)|_**Obsolete:** Use the GetInventoryBase method._|
-|[GetInventoryCount(IMyTerminalBlock)](Sandbox.ModAPI.Ingame.TerminalBlockExtentions.GetInventoryCount)|_**Obsolete:** Use the InventoryCount property._|
-|[GetUseConveyorSystem(IMyTerminalBlock)](Sandbox.ModAPI.Ingame.TerminalBlockExtentions.GetUseConveyorSystem)|_**Obsolete:** Use the blocks themselves, this method is no longer reliable_|
-|[SetUseConveyorSystem(IMyTerminalBlock, bool)](Sandbox.ModAPI.Ingame.TerminalBlockExtentions.SetUseConveyorSystem)|_**Obsolete:** Use the blocks themselves, this method is no longer reliable_|
+|[GetId(this IMyTerminalBlock)](Sandbox.ModAPI.Ingame.TerminalBlockExtentions.GetId)||
+|[ApplyAction(this IMyTerminalBlock, string)](Sandbox.ModAPI.Ingame.TerminalBlockExtentions.ApplyAction)||
+|[ApplyAction(this IMyTerminalBlock, string, List)](Sandbox.ModAPI.Ingame.TerminalBlockExtentions.ApplyAction)||
+|[HasAction(this IMyTerminalBlock, string)](Sandbox.ModAPI.Ingame.TerminalBlockExtentions.HasAction)||
+|[HasInventory(this IMyTerminalBlock)](Sandbox.ModAPI.Ingame.TerminalBlockExtentions.HasInventory)|_**Obsolete:** Use the HasInventory property._|
+|[GetInventory(this IMyTerminalBlock, int)](Sandbox.ModAPI.Ingame.TerminalBlockExtentions.GetInventory)|_**Obsolete:** Use the GetInventoryBase method._|
+|[GetInventoryCount(this IMyTerminalBlock)](Sandbox.ModAPI.Ingame.TerminalBlockExtentions.GetInventoryCount)|_**Obsolete:** Use the InventoryCount property._|
+|[GetUseConveyorSystem(this IMyTerminalBlock)](Sandbox.ModAPI.Ingame.TerminalBlockExtentions.GetUseConveyorSystem)|_**Obsolete:** Use the blocks themselves, this method is no longer reliable_|
+|[SetUseConveyorSystem(this IMyTerminalBlock, bool)](Sandbox.ModAPI.Ingame.TerminalBlockExtentions.SetUseConveyorSystem)|_**Obsolete:** Use the blocks themselves, this method is no longer reliable_|
 

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static IMyInventory GetInventory(IMyTerminalBlock block, int index)
+public static IMyInventory GetInventory(this IMyTerminalBlock block, int index)
 ```
 
 ### Returns

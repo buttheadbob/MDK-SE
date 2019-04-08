@@ -3,11 +3,11 @@
 ### Summary
 
 ```csharp
-public void OverlapSizeableClusters(ref BoundingBox bbox, List<T> boundList, double minSize)
+public void OverlapSizeableClusters(ref BoundingBox bbox, List<VRageMath.BoundingBox> boundList, double minSize)
 ```
 
 ### Parameters
 
 * [BoundingBox](VRageMath.BoundingBox) bbox
-* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) boundList
+* [List<VRageMath.BoundingBox>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) boundList
 * [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) minSize

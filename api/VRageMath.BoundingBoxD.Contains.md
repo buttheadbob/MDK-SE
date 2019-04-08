@@ -18,7 +18,7 @@ Tests whether the BoundingBox contains another BoundingBox.
 ### Summary
 
 ```csharp
-public void Contains(ref BoundingBoxD box, out ContainmentType result)
+public void Contains(ref BoundingBoxD box, ref ContainmentType result)
 ```
 
 Tests whether the BoundingBox contains a BoundingBox.
@@ -60,7 +60,7 @@ Tests whether the BoundingBox contains a point.
 ### Summary
 
 ```csharp
-public void Contains(ref Vector3D point, out ContainmentType result)
+public void Contains(ref Vector3D point, ref ContainmentType result)
 ```
 
 Tests whether the BoundingBox contains a point.
@@ -87,7 +87,7 @@ Tests whether the BoundingBox contains a BoundingSphere.
 ### Summary
 
 ```csharp
-public void Contains(ref BoundingSphereD sphere, out ContainmentType result)
+public void Contains(ref BoundingSphereD sphere, ref ContainmentType result)
 ```
 
 Tests whether the BoundingBox contains a BoundingSphere.

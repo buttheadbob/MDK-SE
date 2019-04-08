@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static MatrixD CreateConstrainedBillboard(Vector3D objectPosition, Vector3D cameraPosition, Vector3D rotateAxis, Nullable<T> cameraForwardVector, Nullable<T> objectForwardVector)
+public static MatrixD CreateConstrainedBillboard(Vector3D objectPosition, Vector3D cameraPosition, Vector3D rotateAxis, Nullable<VRageMath.Vector3D> cameraForwardVector, Nullable<VRageMath.Vector3D> objectForwardVector)
 ```
 
 ### Returns
@@ -15,12 +15,12 @@ public static MatrixD CreateConstrainedBillboard(Vector3D objectPosition, Vector
 * [Vector3D](VRageMath.Vector3D) objectPosition
 * [Vector3D](VRageMath.Vector3D) cameraPosition
 * [Vector3D](VRageMath.Vector3D) rotateAxis
-* [Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) cameraForwardVector
-* [Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) objectForwardVector
+* [Nullable<VRageMath.Vector3D>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) cameraForwardVector
+* [Nullable<VRageMath.Vector3D>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) objectForwardVector
 ### Summary
 
 ```csharp
-public static void CreateConstrainedBillboard(ref Vector3D objectPosition, ref Vector3D cameraPosition, ref Vector3D rotateAxis, Nullable<T> cameraForwardVector, Nullable<T> objectForwardVector, out MatrixD result)
+public static void CreateConstrainedBillboard(ref Vector3D objectPosition, ref Vector3D cameraPosition, ref Vector3D rotateAxis, Nullable<VRageMath.Vector3D> cameraForwardVector, Nullable<VRageMath.Vector3D> objectForwardVector, ref MatrixD result)
 ```
 
 ### Parameters
@@ -28,6 +28,6 @@ public static void CreateConstrainedBillboard(ref Vector3D objectPosition, ref�
 * [Vector3D](VRageMath.Vector3D) objectPosition
 * [Vector3D](VRageMath.Vector3D) cameraPosition
 * [Vector3D](VRageMath.Vector3D) rotateAxis
-* [Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) cameraForwardVector
-* [Nullable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) objectForwardVector
+* [Nullable<VRageMath.Vector3D>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) cameraForwardVector
+* [Nullable<VRageMath.Vector3D>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) objectForwardVector
 * [MatrixD](VRageMath.MatrixD) result

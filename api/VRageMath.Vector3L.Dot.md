@@ -44,7 +44,7 @@ public static long Dot(ref Vector3L vector1, ref Vector3L vector2)
 ### Summary
 
 ```csharp
-public static void Dot(ref Vector3L vector1, ref Vector3L vector2, out long dot)
+public static void Dot(ref Vector3L vector1, ref Vector3L vector2, ref long dot)
 ```
 
 ### Parameters

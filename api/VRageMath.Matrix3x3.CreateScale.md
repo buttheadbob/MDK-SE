@@ -20,7 +20,7 @@ Creates a scaling Matrix3x3.
 ### Summary
 
 ```csharp
-public static void CreateScale(float xScale, float yScale, float zScale, out Matrix3x3 result)
+public static void CreateScale(float xScale, float yScale, float zScale, ref Matrix3x3 result)
 ```
 
 Creates a scaling Matrix3x3.
@@ -49,7 +49,7 @@ Creates a scaling Matrix3x3.
 ### Summary
 
 ```csharp
-public static void CreateScale(ref Vector3 scales, out Matrix3x3 result)
+public static void CreateScale(ref Vector3 scales, ref Matrix3x3 result)
 ```
 
 Creates a scaling Matrix3x3.
@@ -76,7 +76,7 @@ Creates a scaling Matrix3x3.
 ### Summary
 
 ```csharp
-public static void CreateScale(float scale, out Matrix3x3 result)
+public static void CreateScale(float scale, ref Matrix3x3 result)
 ```
 
 Creates a scaling Matrix3x3.

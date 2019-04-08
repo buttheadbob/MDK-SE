@@ -3,7 +3,7 @@
 #### Quaternion Struct
 
 ```csharp
-public struct Quaternion: IEquatable<T>
+public struct Quaternion: IEquatable<VRageMath.Quaternion>
 ```
 
 Defines a four-dimensional vector (x,y,z,w), which is used to efficiently rotate an object about the (x, y, z) vector by the angle theta, where w = cos(theta/2).
@@ -12,7 +12,7 @@ Defines a four-dimensional vector (x,y,z,w), which is used to efficiently rotate
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)
+* [IEquatable<VRageMath.Quaternion>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)
 
 #### Fields
 
@@ -54,53 +54,53 @@ Defines a four-dimensional vector (x,y,z,w), which is used to efficiently rotate
 |[LengthSquared()](VRageMath.Quaternion.LengthSquared)|Calculates the length squared of a Quaternion.|
 |[Length()](VRageMath.Quaternion.Length)|Calculates the length of a Quaternion.|
 |[Normalize()](VRageMath.Quaternion.Normalize)|Divides each component of the quaternion by the length of the quaternion.|
-|[GetAxisAngle(out Vector3, out float)](VRageMath.Quaternion.GetAxisAngle)||
+|[GetAxisAngle(ref Vector3, ref float)](VRageMath.Quaternion.GetAxisAngle)||
 |[Normalize(Quaternion)](VRageMath.Quaternion.Normalize)|Divides each component of the quaternion by the length of the quaternion.|
-|[Normalize(ref Quaternion, out Quaternion)](VRageMath.Quaternion.Normalize)|Divides each component of the quaternion by the length of the quaternion.|
+|[Normalize(ref Quaternion, ref Quaternion)](VRageMath.Quaternion.Normalize)|Divides each component of the quaternion by the length of the quaternion.|
 |[Conjugate()](VRageMath.Quaternion.Conjugate)|Transforms this Quaternion into its conjugate.|
 |[Conjugate(Quaternion)](VRageMath.Quaternion.Conjugate)|Returns the conjugate of a specified Quaternion.|
-|[Conjugate(ref Quaternion, out Quaternion)](VRageMath.Quaternion.Conjugate)|Returns the conjugate of a specified Quaternion.|
+|[Conjugate(ref Quaternion, ref Quaternion)](VRageMath.Quaternion.Conjugate)|Returns the conjugate of a specified Quaternion.|
 |[Inverse(Quaternion)](VRageMath.Quaternion.Inverse)|Returns the inverse of a Quaternion.|
-|[Inverse(ref Quaternion, out Quaternion)](VRageMath.Quaternion.Inverse)|Returns the inverse of a Quaternion.|
+|[Inverse(ref Quaternion, ref Quaternion)](VRageMath.Quaternion.Inverse)|Returns the inverse of a Quaternion.|
 |[CreateFromAxisAngle(Vector3, float)](VRageMath.Quaternion.CreateFromAxisAngle)|Creates a Quaternion from a vector and an angle to rotate about the vector.|
-|[CreateFromAxisAngle(ref Vector3, float, out Quaternion)](VRageMath.Quaternion.CreateFromAxisAngle)|Creates a Quaternion from a vector and an angle to rotate about the vector.|
+|[CreateFromAxisAngle(ref Vector3, float, ref Quaternion)](VRageMath.Quaternion.CreateFromAxisAngle)|Creates a Quaternion from a vector and an angle to rotate about the vector.|
 |[CreateFromYawPitchRoll(float, float, float)](VRageMath.Quaternion.CreateFromYawPitchRoll)|Creates a new Quaternion from specified yaw, pitch, and roll angles.|
-|[CreateFromYawPitchRoll(float, float, float, out Quaternion)](VRageMath.Quaternion.CreateFromYawPitchRoll)|Creates a new Quaternion from specified yaw, pitch, and roll angles.|
+|[CreateFromYawPitchRoll(float, float, float, ref Quaternion)](VRageMath.Quaternion.CreateFromYawPitchRoll)|Creates a new Quaternion from specified yaw, pitch, and roll angles.|
 |[CreateFromForwardUp(Vector3, Vector3)](VRageMath.Quaternion.CreateFromForwardUp)|Works for normalized vectors only|
 |[CreateFromRotationMatrix(MatrixD)](VRageMath.Quaternion.CreateFromRotationMatrix)||
 |[CreateFromRotationMatrix(Matrix)](VRageMath.Quaternion.CreateFromRotationMatrix)|Creates a Quaternion from a rotation Matrix.|
-|[CreateFromRotationMatrix(ref MatrixD, out Quaternion)](VRageMath.Quaternion.CreateFromRotationMatrix)||
-|[CreateFromTwoVectors(ref Vector3, ref Vector3, out Quaternion)](VRageMath.Quaternion.CreateFromTwoVectors)||
+|[CreateFromRotationMatrix(ref MatrixD, ref Quaternion)](VRageMath.Quaternion.CreateFromRotationMatrix)||
+|[CreateFromTwoVectors(ref Vector3, ref Vector3, ref Quaternion)](VRageMath.Quaternion.CreateFromTwoVectors)||
 |[CreateFromTwoVectors(Vector3, Vector3)](VRageMath.Quaternion.CreateFromTwoVectors)||
-|[CreateFromRotationMatrix(ref Matrix, out Quaternion)](VRageMath.Quaternion.CreateFromRotationMatrix)|Creates a Quaternion from a rotation Matrix.|
-|[CreateFromRotationMatrix(ref Matrix3x3, out Quaternion)](VRageMath.Quaternion.CreateFromRotationMatrix)|Creates a Quaternion from a rotation Matrix.|
+|[CreateFromRotationMatrix(ref Matrix, ref Quaternion)](VRageMath.Quaternion.CreateFromRotationMatrix)|Creates a Quaternion from a rotation Matrix.|
+|[CreateFromRotationMatrix(ref Matrix3x3, ref Quaternion)](VRageMath.Quaternion.CreateFromRotationMatrix)|Creates a Quaternion from a rotation Matrix.|
 |[Dot(Quaternion, Quaternion)](VRageMath.Quaternion.Dot)|Calculates the dot product of two Quaternions.|
-|[Dot(ref Quaternion, ref Quaternion, out float)](VRageMath.Quaternion.Dot)|Calculates the dot product of two Quaternions.|
+|[Dot(ref Quaternion, ref Quaternion, ref float)](VRageMath.Quaternion.Dot)|Calculates the dot product of two Quaternions.|
 |[Slerp(Quaternion, Quaternion, float)](VRageMath.Quaternion.Slerp)|Interpolates between two quaternions, using spherical linear interpolation.|
-|[Slerp(ref Quaternion, ref Quaternion, float, out Quaternion)](VRageMath.Quaternion.Slerp)|Interpolates between two quaternions, using spherical linear interpolation.|
+|[Slerp(ref Quaternion, ref Quaternion, float, ref Quaternion)](VRageMath.Quaternion.Slerp)|Interpolates between two quaternions, using spherical linear interpolation.|
 |[Lerp(Quaternion, Quaternion, float)](VRageMath.Quaternion.Lerp)|Linearly interpolates between two quaternions.|
-|[Lerp(ref Quaternion, ref Quaternion, float, out Quaternion)](VRageMath.Quaternion.Lerp)|Linearly interpolates between two quaternions.|
+|[Lerp(ref Quaternion, ref Quaternion, float, ref Quaternion)](VRageMath.Quaternion.Lerp)|Linearly interpolates between two quaternions.|
 |[Concatenate(Quaternion, Quaternion)](VRageMath.Quaternion.Concatenate)|Concatenates two Quaternions; the result represents the value1 rotation followed by the value2 rotation.|
-|[Concatenate(ref Quaternion, ref Quaternion, out Quaternion)](VRageMath.Quaternion.Concatenate)|Concatenates two Quaternions; the result represents the value1 rotation followed by the value2 rotation.|
+|[Concatenate(ref Quaternion, ref Quaternion, ref Quaternion)](VRageMath.Quaternion.Concatenate)|Concatenates two Quaternions; the result represents the value1 rotation followed by the value2 rotation.|
 |[Negate(Quaternion)](VRageMath.Quaternion.Negate)|Flips the sign of each component of the quaternion.|
-|[Negate(ref Quaternion, out Quaternion)](VRageMath.Quaternion.Negate)|Flips the sign of each component of the quaternion.|
+|[Negate(ref Quaternion, ref Quaternion)](VRageMath.Quaternion.Negate)|Flips the sign of each component of the quaternion.|
 |[Add(Quaternion, Quaternion)](VRageMath.Quaternion.Add)|Adds two Quaternions.|
-|[Add(ref Quaternion, ref Quaternion, out Quaternion)](VRageMath.Quaternion.Add)|Adds two Quaternions.|
+|[Add(ref Quaternion, ref Quaternion, ref Quaternion)](VRageMath.Quaternion.Add)|Adds two Quaternions.|
 |[Subtract(Quaternion, Quaternion)](VRageMath.Quaternion.Subtract)|Subtracts a quaternion from another quaternion.|
-|[Subtract(ref Quaternion, ref Quaternion, out Quaternion)](VRageMath.Quaternion.Subtract)|Subtracts a quaternion from another quaternion.|
+|[Subtract(ref Quaternion, ref Quaternion, ref Quaternion)](VRageMath.Quaternion.Subtract)|Subtracts a quaternion from another quaternion.|
 |[Multiply(Quaternion, Quaternion)](VRageMath.Quaternion.Multiply)|Multiplies two quaternions.|
-|[Multiply(ref Quaternion, ref Quaternion, out Quaternion)](VRageMath.Quaternion.Multiply)|Multiplies two quaternions.|
+|[Multiply(ref Quaternion, ref Quaternion, ref Quaternion)](VRageMath.Quaternion.Multiply)|Multiplies two quaternions.|
 |[Multiply(Quaternion, float)](VRageMath.Quaternion.Multiply)|Multiplies a quaternion by a scalar value.|
-|[Multiply(ref Quaternion, float, out Quaternion)](VRageMath.Quaternion.Multiply)|Multiplies a quaternion by a scalar value.|
+|[Multiply(ref Quaternion, float, ref Quaternion)](VRageMath.Quaternion.Multiply)|Multiplies a quaternion by a scalar value.|
 |[Divide(Quaternion, Quaternion)](VRageMath.Quaternion.Divide)|Divides a Quaternion by another Quaternion.|
-|[Divide(ref Quaternion, ref Quaternion, out Quaternion)](VRageMath.Quaternion.Divide)|Divides a Quaternion by another Quaternion.|
+|[Divide(ref Quaternion, ref Quaternion, ref Quaternion)](VRageMath.Quaternion.Divide)|Divides a Quaternion by another Quaternion.|
 |[FromVector4(Vector4)](VRageMath.Quaternion.FromVector4)||
 |[ToVector4()](VRageMath.Quaternion.ToVector4)||
 |[IsZero(Quaternion)](VRageMath.Quaternion.IsZero)||
 |[IsZero(Quaternion, float)](VRageMath.Quaternion.IsZero)||
-|[GetForward(ref Quaternion, out Vector3)](VRageMath.Quaternion.GetForward)|Gets forward vector (0,0,-1) transformed by quaternion.|
-|[GetRight(ref Quaternion, out Vector3)](VRageMath.Quaternion.GetRight)|Gets right vector (1,0,0) transformed by quaternion.|
-|[GetUp(ref Quaternion, out Vector3)](VRageMath.Quaternion.GetUp)|Gets up vector (0,1,0) transformed by quaternion.|
+|[GetForward(ref Quaternion, ref Vector3)](VRageMath.Quaternion.GetForward)|Gets forward vector (0,0,-1) transformed by quaternion.|
+|[GetRight(ref Quaternion, ref Vector3)](VRageMath.Quaternion.GetRight)|Gets right vector (1,0,0) transformed by quaternion.|
+|[GetUp(ref Quaternion, ref Vector3)](VRageMath.Quaternion.GetUp)|Gets up vector (0,1,0) transformed by quaternion.|
 |[GetComponent(int)](VRageMath.Quaternion.GetComponent)||
 |[SetComponent(int, float)](VRageMath.Quaternion.SetComponent)||
 |[FindLargestIndex()](VRageMath.Quaternion.FindLargestIndex)||

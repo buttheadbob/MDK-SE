@@ -8,7 +8,7 @@ public static MyTuple<T1> Create<T1>(T1 arg1)
 
 ### Returns
 
-[MyTuple<T1>](VRage.MyTuple`1)
+[MyTuple<T1>]()
 
 ### Parameters
 
@@ -21,7 +21,7 @@ public static MyTuple<T1, T2> Create<T1, T2>(T1 arg1, T2 arg2)
 
 ### Returns
 
-[MyTuple<T1, T2>](VRage.MyTuple`2)
+[MyTuple<T1, T2>]()
 
 ### Parameters
 
@@ -35,7 +35,7 @@ public static MyTuple<T1, T2, T3> Create<T1, T2, T3>(T1 arg1, T2 arg2, T3 arg3)
 
 ### Returns
 
-[MyTuple<T1, T2, T3>](VRage.MyTuple`3)
+[MyTuple<T1, T2, T3>]()
 
 ### Parameters
 
@@ -50,7 +50,7 @@ public static MyTuple<T1, T2, T3, T4> Create<T1, T2, T3, T4>(T1 arg1, T2 arg2, T
 
 ### Returns
 
-[MyTuple<T1, T2, T3, T4>](VRage.MyTuple`4)
+[MyTuple<T1, T2, T3, T4>]()
 
 ### Parameters
 
@@ -66,7 +66,7 @@ public static MyTuple<T1, T2, T3, T4, T5> Create<T1, T2, T3, T4, T5>(T1 arg1, T2
 
 ### Returns
 
-[MyTuple<T1, T2, T3, T4, T5>](VRage.MyTuple`5)
+[MyTuple<T1, T2, T3, T4, T5>]()
 
 ### Parameters
 
@@ -83,7 +83,7 @@ public static MyTuple<T1, T2, T3, T4, T5, T6> Create<T1, T2, T3, T4, T5, T6>(T1 
 
 ### Returns
 
-[MyTuple<T1, T2, T3, T4, T5, T6>](VRage.MyTuple`6)
+[MyTuple<T1, T2, T3, T4, T5, T6>]()
 
 ### Parameters
 

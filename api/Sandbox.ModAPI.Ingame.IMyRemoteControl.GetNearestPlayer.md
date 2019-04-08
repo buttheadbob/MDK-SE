@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool GetNearestPlayer(out Vector3D playerPosition)
+public bool GetNearestPlayer(ref Vector3D playerPosition)
 ```
 
 Gets the nearest player's position. Will only work if the remote control belongs to an NPC

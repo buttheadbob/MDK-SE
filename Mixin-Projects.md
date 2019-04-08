@@ -32,5 +32,3 @@ then check the Shared Projects you wish to have access to in this project, then 
 ![Shared Projects](https://github.com/malware-dev/MDK-SE/blob/master/images/sharedprojectlist.jpg)
 
 The code in your Shared Project is now available in your script project, and will be automatically added to your final script by MDK.
-
-Unfortunately the helpful MDK script templates are not available in Shared Projects because I have not figured out how to get them to show up there. You can either create the files in a normal script project and then copy them over, or you can simply write them manually once you learn how they should look.

@@ -1,32 +1,54 @@
 Keen was nice enough to give us access to their devtools and their profiler, and with some downloading and file moving, you too can use this version of the game. This will allow you to measure the performance of your script to make sure it is running as fast as it possibly can.
 
 ## Getting started
-You'll need to set up a few things before 1you can start using the profiling version.
+You'll need to set up a few things before you can start using the profiling version.
 
 First things first, is you'll need to download the ModSDK for the game. Open your Steam library, hovering your pointer over the "Library" button to get the menu. Select "Tools", and find "Space Engineers - Mod SDK" from the list, and install it.
 
-Once the ModSDK has finished downloading an installing, you need to open the directory where it's installed (You can get to this quickly by right-clicking the tool in your library, selecting "Properties", "Local Files", "Browse Local Files...").
+If it's not there you can force install it by pasting `steam://install/326880` in your browser address bar.
 
-__Make sure you make a backup of your `Bin64` directory before you copy the files, to make restoring them easier.__ Open the `Bin64_Profile` folder from the ModSDK's install directory, select everything in this folder and copy all of the files to `Bin64` in your game's install directory, overwriting any of the files you're asked to.
+Once the ModSDK has finished downloading an installing, you need to open the directory where it's installed (You can get to this quickly by right-clicking the tool in your library, selecting `Properties`, `Local Files`, `Browse Local Files...`).
+
+Next, you need to have Bin64_Profile in the game folder. You can simply copy it there but that also means you have to copy it every time game/SDK gets updated.
+
+Instead a directory junction can be made:
+
+1. Open notepad or something you can type in
+2. Paste: `mklink /J "<SEDir>\Bin64_Profile" "<SDKDir>\Bin64_Profile"`
+3. Replace `<SEDir>` with the path to the game.
+4. Replace `<SDKDir>` with the path to the SDK.
+5. Press <kbd>Win</kbd> + <kbd>R</kbd>, run `cmd`.
+6. Copy the finished command from notepad to the commandline window (rightclick to paste) then <kbd>Enter</kbd>.
+
+
+Finally, you can run the game via `<SE>/Bin64_Profile/SpaceEngineers.exe`.
 
 ### The short version
 Here's how to install the profiling version of the game without all the extra fluff.
-* Install the Space Engineers - Mod SDK (as described above)
-* Copy the ModSDK files in `Bin64_Profile` to the game's `Bin64` directory. __Replace all files in the destination__
-* Start the game
+1. Install the Space Engineers - Mod SDK (as described above)
+2. Copy `<SDK>/Bin64_Profile` to the game's folder _or_ create a directory junction (as described above).
+3. Start the game from `<SE>/Bin64_Profile/SpaceEngineers.exe`
 
 
 
 ## In the game
 
-Once you're in the game, check the bottom left corner of the screen where you normally see the game's version number. You should see `PROFILING NON-OFFICIAL` in red text next to the game version if you did everything correctly.
+Once in the game, the bottom right corner where the version is should also say `PROFILING` with red text, that means you're good to go.
 
-Once you're in game, from the main menu, or in a loaded game world, you can press <kbd>F12</kbd>(or <kbd>Alt</kbd> + <kbd>F12</kbd> if you don't want to take a Steam screenshot) to open the debugging menu. Click on Performance at the top of the screen, and tick the box on the line next to "Profiler" to get the profiler view opened.
+When in a world (or even in the menu) press <kbd>Alt</kbd> + <kbd>NumPad .</kbd> to open the profiler view.
 
-From here, you can use the various keybinds listed below to dig deeper into what's doing what in your game, see how long it's taking, and other _fun_ profiling things. For profiling programmable blocks specifically, you can copy the text below and then press <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>NumPad \*</kbd>..
+From here, you can use the various keybinds listed below to dig deeper into what's doing what in your game, see how long it's taking, and other _fun_ profiling things.
+
+For profiling programmable blocks specifically, copy:
+
 `UpdateInternal::Update > Session.Update > Before simulation > MySector > MyGameLogic.UpdateBeforeSimulation > PROGRAMMABLE_BLOCK`
 
-There are all kinds of debugging tools available in the profiler version of the game, but this page is only here to detail how to use the profiler specifically.
+then press <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>NumPad \*</kbd>.
+
+
+There are all kinds of debugging tools available in the profiler version of the game, accessible via <kbd>F12</kbd> (or <kbd>Alt</kbd> + <kbd>F12</kbd> to avoid taking a Steam screenshot) where you can mess with a lot of things, some of which can alter your game files so use with caution.
+
+But this page is only here to detail how to use the profiler specifically.
 
 
 <!-- ### Using the Profiler
@@ -247,6 +269,8 @@ The profiler has a lot of keybinds that aren't immediately obvious. They're list
 
 You can make use of these paths by copying the text from here, opening the profiler ingame and pressing <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>NumPad \*</kbd>.
 
+
+***
 
 
 _A big thank you goes to AndrielChaoti who was kind enough to compose this document, and MMaster for providing the original used as a source._

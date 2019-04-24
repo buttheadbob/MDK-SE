@@ -9,7 +9,9 @@ If it's not there you can force install it by pasting `steam://install/326880` i
 
 Once the ModSDK has finished downloading an installing, you need to open the directory where it's installed (You can get to this quickly by right-clicking the tool in your library, selecting `Properties`, `Local Files`, `Browse Local Files...`).
 
-Next, you need to have Bin64_Profile in the game folder. You can simply copy it there but that also means you have to copy it every time game/SDK gets updated.
+Next, you need to have `Bin64_Profile` in the game folder. You can simply copy it there but that also means you have to copy it every time game/SDK gets updated.
+
+**NOTE**: Do not paste into the game's `Bin64` folder. Only copy the `Bin64_Profile` as is in the game's root folder.
 
 Instead a directory junction can be made:
 

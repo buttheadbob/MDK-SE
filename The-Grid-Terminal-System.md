@@ -133,7 +133,7 @@ public class SomeUsefulSubclass
         _program = program;
     }
 
-    public SomeUsefulMethod() 
+    public void SomeUsefulMethod() 
     {
         var block = _program.GridTerminalSystem.GetBlockWithName("That Block I Want");
         // Do useful stuff with that block

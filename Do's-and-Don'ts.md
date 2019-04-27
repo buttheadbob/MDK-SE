@@ -3,7 +3,7 @@
 
 * design your own objects to follow the above guideline. Avoid allocation during general runtime.
 
-* consider the fact that scripts take time to execute, leaving less time available for the rest of the game. The more you try to do, the more it will impact the game. If your script is just something you're gonna run in your single player game, you have much more time available than if you are going to use your script on a multiplayer server: Other players are bound to use scripts too. Advanced scripters might want to run their operations over multiple ticks using tricks like [yield-based state machines](https://github.com/malware-dev/MDK-SE/wiki/Advanced:-Easy-and-Powerful-State-Machine-Using-%22yield-return%22).
+* consider the fact that scripts take time to execute, leaving less time available for the rest of the game. The more you try to do, the more it will impact the game. If your script is just something you're gonna run in your single player game, you have much more time available than if you are going to use your script on a multiplayer server: Other players are bound to use scripts too. Advanced scripters might want to run their operations over multiple ticks using tricks like [yield-based coroutines](https://github.com/malware-dev/MDK-SE/wiki/Coroutines---Run-operations-over-multiple-ticks).
 
 ## Don't:
 * fetch blocks every time a method is called. Prefetch and cache, because retrieving a block is a time-consuming operation.

@@ -10,10 +10,10 @@ Returns info about item contained inside this inventory.
 
 ### Returns
 
-[Nullable<VRage.Game.ModAPI.Ingame.MyInventoryItem>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
+[Nullable<VRage.Game.ModAPI.Ingame.MyInventoryItem>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6)
 
 Info about queried item, null in case there is no item with given Id inside this inventory
 
 ### Parameters
 
-* [uint](https://docs.microsoft.com/en-us/dotnet/api/system.uint32?view=netframework-4.6) id
+* [uint](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32?view=netframework-4.6) id

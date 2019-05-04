@@ -8,6 +8,6 @@ public void GetAll<T>(List<T> elementsList, bool clear, List<VRageMath.BoundingB
 
 ### Parameters
 
-* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) elementsList
-* [bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) clear
-* [List<VRageMath.BoundingBox>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) boxsList
+* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) elementsList
+* [bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6) clear
+* [List<VRageMath.BoundingBox>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) boxsList

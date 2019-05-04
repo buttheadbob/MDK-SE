@@ -8,7 +8,7 @@ public static bool IsValid(Matrix matrix)
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -21,7 +21,7 @@ public static bool IsValid(MatrixD matrix)
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -34,7 +34,7 @@ public static bool IsValid(Vector3 vec)
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -47,7 +47,7 @@ public static bool IsValid(Vector3D vec)
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -60,7 +60,7 @@ public static bool IsValid(Vector2 vec)
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -73,11 +73,11 @@ public static bool IsValid(float f)
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) f
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) f
 ### Summary
 
 ```csharp
@@ -86,11 +86,11 @@ public static bool IsValid(double f)
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) f
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) f
 ### Summary
 
 ```csharp
@@ -99,11 +99,11 @@ public static bool IsValid(Nullable<VRageMath.Vector3> vec)
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
-* [Nullable<VRageMath.Vector3>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) vec
+* [Nullable<VRageMath.Vector3>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6) vec
 ### Summary
 
 ```csharp
@@ -112,7 +112,7 @@ public static bool IsValid(Quaternion q)
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 

@@ -8,4 +8,4 @@ public void GetSelectedImages(List<System.String> output)
 
 ### Parameters
 
-* [List<System.String>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) output
+* [List<System.String>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) output

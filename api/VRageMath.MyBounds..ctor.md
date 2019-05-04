@@ -8,6 +8,6 @@ public MyBounds(float min, float max, float def)
 
 ### Parameters
 
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) min
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) max
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) def
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) min
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) max
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) def

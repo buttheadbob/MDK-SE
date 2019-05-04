@@ -16,4 +16,4 @@ Parses a string in the form of`section/key`into a [MyIniKey](VRage.Game.ModAPI.I
 
 ### Parameters
 
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) input
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) input

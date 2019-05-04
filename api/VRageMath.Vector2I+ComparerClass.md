@@ -10,5 +10,5 @@ public class ComparerClass: IEqualityComparer<VRageMath.Vector2I>
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEqualityComparer<VRageMath.Vector2I>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.iequalitycomparer?view=netframework-4.6)
+* [IEqualityComparer<VRageMath.Vector2I>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEqualityComparer-1?view=netframework-4.6)
 

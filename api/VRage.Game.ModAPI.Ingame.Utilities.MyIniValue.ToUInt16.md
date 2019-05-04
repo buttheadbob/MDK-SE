@@ -10,10 +10,10 @@ Attempts to get this value as a [System.UInt16](https://docs.microsoft.com/en-us
 
 ### Returns
 
-[ushort](https://docs.microsoft.com/en-us/dotnet/api/system.uint16?view=netframework-4.6)
+[ushort](https://docs.microsoft.com/en-us/dotnet/api/System.UInt16?view=netframework-4.6)
 
 
 
 ### Parameters
 
-* [ushort](https://docs.microsoft.com/en-us/dotnet/api/system.uint16?view=netframework-4.6) defaultValue
+* [ushort](https://docs.microsoft.com/en-us/dotnet/api/System.UInt16?view=netframework-4.6) defaultValue

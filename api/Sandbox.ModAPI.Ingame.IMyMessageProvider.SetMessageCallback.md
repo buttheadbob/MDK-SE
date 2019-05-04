@@ -10,4 +10,4 @@ Whenever given message provider obtains new message respective programmable bloc
 
 ### Parameters
 
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) argument
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) argument

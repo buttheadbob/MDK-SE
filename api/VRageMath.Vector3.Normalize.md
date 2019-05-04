@@ -10,7 +10,7 @@ Turns the current vector into a unit vector. The result is a vector one unit in 
 
 ### Returns
 
-[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
+[float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6)
 
 ### Summary
 

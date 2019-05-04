@@ -12,7 +12,7 @@ Defines a vector with three components.
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable<VRageMath.Vector3>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)
+* [IEquatable<VRageMath.Vector3>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 

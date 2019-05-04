@@ -8,4 +8,4 @@ public void DetectedEntities(List<Sandbox.ModAPI.Ingame.MyDetectedEntityInfo> en
 
 ### Parameters
 
-* [List<Sandbox.ModAPI.Ingame.MyDetectedEntityInfo>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) entities
+* [List<Sandbox.ModAPI.Ingame.MyDetectedEntityInfo>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) entities

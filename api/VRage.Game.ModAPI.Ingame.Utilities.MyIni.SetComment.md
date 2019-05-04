@@ -10,9 +10,9 @@ Sets a comment on a given item. The item must already exist. Set the comment to`
 
 ### Parameters
 
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) section
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) name
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) comment
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) section
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) name
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) comment
 ### Summary
 
 ```csharp
@@ -24,4 +24,4 @@ Sets a comment on a given item. The item must already exist. Set the comment to`
 ### Parameters
 
 * [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) key
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) comment
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) comment

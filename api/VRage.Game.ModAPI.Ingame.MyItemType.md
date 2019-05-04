@@ -10,8 +10,8 @@ public struct MyItemType: IComparable<VRage.Game.ModAPI.Ingame.MyItemType>, IEqu
 **Assembly:** VRage.Game.dll
 
 **Implements:**  
-* [IComparable<VRage.Game.ModAPI.Ingame.MyItemType>](https://docs.microsoft.com/en-us/dotnet/api/system.icomparable?view=netframework-4.6)  
-* [IEquatable<VRage.Game.ModAPI.Ingame.MyItemType>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)
+* [IComparable<VRage.Game.ModAPI.Ingame.MyItemType>](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netframework-4.6)  
+* [IEquatable<VRage.Game.ModAPI.Ingame.MyItemType>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Properties
 

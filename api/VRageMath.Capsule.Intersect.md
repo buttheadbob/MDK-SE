@@ -8,7 +8,7 @@ public bool Intersect(Ray ray, ref Vector3 p1, ref Vector3 p2, ref Vector3 n1
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -25,7 +25,7 @@ public bool Intersect(Line line, ref Vector3 p1, ref Vector3 p2, ref Vector3 
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 

@@ -8,9 +8,9 @@ public void GetAll<T>(List<T> elementsList, bool clear, List<VRageMath.BoundingB
 
 ### Parameters
 
-* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) elementsList
-* [bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) clear
-* [List<VRageMath.BoundingBoxD>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) boxsList
+* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) elementsList
+* [bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6) clear
+* [List<VRageMath.BoundingBoxD>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) boxsList
 ### Summary
 
 ```csharp
@@ -19,7 +19,7 @@ public void GetAll<T>(Action<T> add)
 
 ### Parameters
 
-* [Action<T>](https://docs.microsoft.com/en-us/dotnet/api/system.action?view=netframework-4.6) add
+* [Action<T>](https://docs.microsoft.com/en-us/dotnet/api/System.Action-1?view=netframework-4.6) add
 ### Summary
 
 ```csharp
@@ -28,4 +28,4 @@ public void GetAll<T>(Action<T, VRageMath.BoundingBoxD> add)
 
 ### Parameters
 
-* [Action<T, VRageMath.BoundingBoxD>](https://docs.microsoft.com/en-us/dotnet/api/system.action?view=netframework-4.6) add
+* [Action<T, VRageMath.BoundingBoxD>](https://docs.microsoft.com/en-us/dotnet/api/System.Action-2?view=netframework-4.6) add

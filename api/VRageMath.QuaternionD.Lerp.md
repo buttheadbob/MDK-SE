@@ -16,7 +16,7 @@ Linearly interpolates between two quaternions.
 
 * [QuaternionD](VRageMath.QuaternionD) quaternion1
 * [QuaternionD](VRageMath.QuaternionD) quaternion2
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) amount
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) amount
 ### Summary
 
 ```csharp
@@ -29,5 +29,5 @@ Linearly interpolates between two quaternions.
 
 * [QuaternionD](VRageMath.QuaternionD) quaternion1
 * [QuaternionD](VRageMath.QuaternionD) quaternion2
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) amount
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) amount
 * [QuaternionD](VRageMath.QuaternionD) result

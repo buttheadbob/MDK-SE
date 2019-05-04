@@ -10,7 +10,7 @@ Gets the current oxygen level of this tank, as a value between 0 (empty) and 1 (
 
 ### Returns
 
-[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
+[double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6)
 
 
 

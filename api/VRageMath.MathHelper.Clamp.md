@@ -10,13 +10,13 @@ Restricts a value to be within a specified range. Reference page contains links 
 
 ### Returns
 
-[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
+[float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6)
 
 ### Parameters
 
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) value
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) min
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) max
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) value
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) min
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) max
 ### Summary
 
 ```csharp
@@ -27,13 +27,13 @@ Restricts a value to be within a specified range. Reference page contains links 
 
 ### Returns
 
-[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
+[double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6)
 
 ### Parameters
 
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) value
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) min
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) max
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) value
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) min
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) max
 ### Summary
 
 ```csharp
@@ -61,10 +61,10 @@ Restricts a value to be within a specified range. Reference page contains links 
 
 ### Returns
 
-[int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6)
+[int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6)
 
 ### Parameters
 
-* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) value
-* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) min
-* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) max
+* [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) value
+* [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) min
+* [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) max

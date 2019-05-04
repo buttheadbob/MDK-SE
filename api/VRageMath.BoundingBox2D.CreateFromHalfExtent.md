@@ -13,7 +13,7 @@ public static BoundingBox2D CreateFromHalfExtent(Vector2D center, double halfExt
 ### Parameters
 
 * [Vector2D](VRageMath.Vector2D) center
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) halfExtent
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) halfExtent
 ### Summary
 
 ```csharp

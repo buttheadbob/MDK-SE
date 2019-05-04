@@ -10,10 +10,10 @@ Attempts to get this value as a [System.UInt64](https://docs.microsoft.com/en-us
 
 ### Returns
 
-[ulong](https://docs.microsoft.com/en-us/dotnet/api/system.uint64?view=netframework-4.6)
+[ulong](https://docs.microsoft.com/en-us/dotnet/api/System.UInt64?view=netframework-4.6)
 
 
 
 ### Parameters
 
-* [ulong](https://docs.microsoft.com/en-us/dotnet/api/system.uint64?view=netframework-4.6) defaultValue
+* [ulong](https://docs.microsoft.com/en-us/dotnet/api/System.UInt64?view=netframework-4.6) defaultValue

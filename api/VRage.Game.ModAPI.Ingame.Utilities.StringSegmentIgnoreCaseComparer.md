@@ -10,7 +10,7 @@ public class StringSegmentIgnoreCaseComparer: IEqualityComparer<VRage.Game.ModAP
 **Assembly:** VRage.Game.dll
 
 **Implements:**  
-* [IEqualityComparer<VRage.Game.ModAPI.Ingame.Utilities.StringSegment>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.iequalitycomparer?view=netframework-4.6)
+* [IEqualityComparer<VRage.Game.ModAPI.Ingame.Utilities.StringSegment>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEqualityComparer-1?view=netframework-4.6)
 
 #### Fields
 

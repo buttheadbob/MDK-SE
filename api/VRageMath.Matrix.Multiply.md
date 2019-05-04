@@ -44,7 +44,7 @@ Multiplies a matrix by a scalar value.
 ### Parameters
 
 * [Matrix](VRageMath.Matrix) matrix1
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) scaleFactor
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) scaleFactor
 ### Summary
 
 ```csharp
@@ -56,5 +56,5 @@ Multiplies a matrix by a scalar value.
 ### Parameters
 
 * [Matrix](VRageMath.Matrix) matrix1
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) scaleFactor
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) scaleFactor
 * [Matrix](VRageMath.Matrix) result

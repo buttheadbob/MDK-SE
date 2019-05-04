@@ -15,4 +15,4 @@ Unpacks Vector3 from Vector3UByte, scales vector from (0, 255) to (-range, range
 ### Parameters
 
 * [Vector3UByte](VRageMath.Vector3UByte) vec
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) range
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) range

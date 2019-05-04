@@ -8,9 +8,9 @@ public Vector3D(double x, double y, double z)
 
 ### Parameters
 
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) x
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) y
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) z
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) x
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) y
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) z
 ### Summary
 
 ```csharp
@@ -19,7 +19,7 @@ public Vector3D(double value)
 
 ### Parameters
 
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) value
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) value
 ### Summary
 
 ```csharp
@@ -29,7 +29,7 @@ public Vector3D(Vector2 value, double z)
 ### Parameters
 
 * [Vector2](VRageMath.Vector2) value
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) z
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) z
 ### Summary
 
 ```csharp
@@ -39,7 +39,7 @@ public Vector3D(Vector2D value, double z)
 ### Parameters
 
 * [Vector2D](VRageMath.Vector2D) value
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) z
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) z
 ### Summary
 
 ```csharp

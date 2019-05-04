@@ -10,8 +10,8 @@ Normalize value inside the bounds so that 0 is Min and 1 is Max.
 
 ### Returns
 
-[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
+[float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6)
 
 ### Parameters
 
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) value
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) value

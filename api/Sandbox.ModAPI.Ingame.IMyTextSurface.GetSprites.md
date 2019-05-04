@@ -8,4 +8,4 @@ public void GetSprites(List<System.String> sprites)
 
 ### Parameters
 
-* [List<System.String>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) sprites
+* [List<System.String>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) sprites

@@ -10,5 +10,5 @@ Gets the maximum velocity this piston is capable of moving at.
 
 ### Returns
 
-[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
+[float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6)
 

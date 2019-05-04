@@ -10,5 +10,5 @@ The data received in message.
 
 ### Returns
 
-[object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6)
+[object](https://docs.microsoft.com/en-us/dotnet/api/System.Object?view=netframework-4.6)
 

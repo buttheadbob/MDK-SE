@@ -12,7 +12,7 @@ public TextPtr Find(string str)
 
 ### Parameters
 
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) str
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) str
 ### Summary
 
 ```csharp
@@ -25,4 +25,4 @@ public TextPtr Find(char ch)
 
 ### Parameters
 
-* [char](https://docs.microsoft.com/en-us/dotnet/api/system.char?view=netframework-4.6) ch
+* [char](https://docs.microsoft.com/en-us/dotnet/api/System.Char?view=netframework-4.6) ch

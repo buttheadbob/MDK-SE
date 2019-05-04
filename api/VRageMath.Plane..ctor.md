@@ -8,10 +8,10 @@ public Plane(float a, float b, float c, float d)
 
 ### Parameters
 
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) a
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) b
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) c
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) d
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) a
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) b
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) c
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) d
 ### Summary
 
 ```csharp
@@ -21,7 +21,7 @@ public Plane(Vector3 normal, float d)
 ### Parameters
 
 * [Vector3](VRageMath.Vector3) normal
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) d
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) d
 ### Summary
 
 ```csharp

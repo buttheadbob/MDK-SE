@@ -12,4 +12,4 @@ public static MyLanguagesEnum GetBestSuitableLanguage(string culture)
 
 ### Parameters
 
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) culture
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) culture

@@ -10,7 +10,7 @@ Calculates the distance between two vectors squared.
 
 ### Returns
 
-[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
+[float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6)
 
 ### Parameters
 
@@ -28,4 +28,4 @@ Calculates the distance between two vectors squared.
 
 * [Vector2](VRageMath.Vector2) value1
 * [Vector2](VRageMath.Vector2) value2
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) result
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) result

@@ -14,9 +14,9 @@ Creates a scaling Matrix3x3.
 
 ### Parameters
 
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) xScale
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) yScale
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) zScale
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) xScale
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) yScale
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) zScale
 ### Summary
 
 ```csharp
@@ -27,9 +27,9 @@ Creates a scaling Matrix3x3.
 
 ### Parameters
 
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) xScale
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) yScale
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) zScale
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) xScale
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) yScale
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) zScale
 * [Matrix3x3](VRageMath.Matrix3x3) result
 ### Summary
 
@@ -72,7 +72,7 @@ Creates a scaling Matrix3x3.
 
 ### Parameters
 
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) scale
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) scale
 ### Summary
 
 ```csharp
@@ -83,5 +83,5 @@ Creates a scaling Matrix3x3.
 
 ### Parameters
 
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) scale
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) scale
 * [Matrix3x3](VRageMath.Matrix3x3) result

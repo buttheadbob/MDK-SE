@@ -8,5 +8,5 @@ public char Char { get; }
 
 ### Returns
 
-[char](https://docs.microsoft.com/en-us/dotnet/api/system.char?view=netframework-4.6)
+[char](https://docs.microsoft.com/en-us/dotnet/api/System.Char?view=netframework-4.6)
 

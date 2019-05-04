@@ -10,9 +10,9 @@ Sets the value of the given configuration key.
 
 ### Parameters
 
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) section
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) name
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) value
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) section
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) name
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) value
 ### Summary
 
 ```csharp
@@ -24,7 +24,7 @@ Sets the value of the given configuration key.
 ### Parameters
 
 * [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) key
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) value
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) value
 ### Summary
 
 ```csharp
@@ -35,9 +35,9 @@ Sets the value of the given configuration key.
 
 ### Parameters
 
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) section
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) name
-* [bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) value
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) section
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) name
+* [bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6) value
 ### Summary
 
 ```csharp
@@ -49,7 +49,7 @@ Sets the value of the given configuration key.
 ### Parameters
 
 * [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) key
-* [bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) value
+* [bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6) value
 ### Summary
 
 ```csharp
@@ -60,9 +60,9 @@ Sets the value of the given configuration key.
 
 ### Parameters
 
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) section
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) name
-* [byte](https://docs.microsoft.com/en-us/dotnet/api/system.byte?view=netframework-4.6) value
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) section
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) name
+* [byte](https://docs.microsoft.com/en-us/dotnet/api/System.Byte?view=netframework-4.6) value
 ### Summary
 
 ```csharp
@@ -74,7 +74,7 @@ Sets the value of the given configuration key.
 ### Parameters
 
 * [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) key
-* [byte](https://docs.microsoft.com/en-us/dotnet/api/system.byte?view=netframework-4.6) value
+* [byte](https://docs.microsoft.com/en-us/dotnet/api/System.Byte?view=netframework-4.6) value
 ### Summary
 
 ```csharp
@@ -85,9 +85,9 @@ Sets the value of the given configuration key.
 
 ### Parameters
 
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) section
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) name
-* [sbyte](https://docs.microsoft.com/en-us/dotnet/api/system.sbyte?view=netframework-4.6) value
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) section
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) name
+* [sbyte](https://docs.microsoft.com/en-us/dotnet/api/System.SByte?view=netframework-4.6) value
 ### Summary
 
 ```csharp
@@ -99,7 +99,7 @@ Sets the value of the given configuration key.
 ### Parameters
 
 * [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) key
-* [sbyte](https://docs.microsoft.com/en-us/dotnet/api/system.sbyte?view=netframework-4.6) value
+* [sbyte](https://docs.microsoft.com/en-us/dotnet/api/System.SByte?view=netframework-4.6) value
 ### Summary
 
 ```csharp
@@ -110,9 +110,9 @@ Sets the value of the given configuration key.
 
 ### Parameters
 
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) section
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) name
-* [ushort](https://docs.microsoft.com/en-us/dotnet/api/system.uint16?view=netframework-4.6) value
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) section
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) name
+* [ushort](https://docs.microsoft.com/en-us/dotnet/api/System.UInt16?view=netframework-4.6) value
 ### Summary
 
 ```csharp
@@ -124,7 +124,7 @@ Sets the value of the given configuration key.
 ### Parameters
 
 * [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) key
-* [ushort](https://docs.microsoft.com/en-us/dotnet/api/system.uint16?view=netframework-4.6) value
+* [ushort](https://docs.microsoft.com/en-us/dotnet/api/System.UInt16?view=netframework-4.6) value
 ### Summary
 
 ```csharp
@@ -135,9 +135,9 @@ Sets the value of the given configuration key.
 
 ### Parameters
 
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) section
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) name
-* [short](https://docs.microsoft.com/en-us/dotnet/api/system.int16?view=netframework-4.6) value
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) section
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) name
+* [short](https://docs.microsoft.com/en-us/dotnet/api/System.Int16?view=netframework-4.6) value
 ### Summary
 
 ```csharp
@@ -149,7 +149,7 @@ Sets the value of the given configuration key.
 ### Parameters
 
 * [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) key
-* [short](https://docs.microsoft.com/en-us/dotnet/api/system.int16?view=netframework-4.6) value
+* [short](https://docs.microsoft.com/en-us/dotnet/api/System.Int16?view=netframework-4.6) value
 ### Summary
 
 ```csharp
@@ -160,9 +160,9 @@ Sets the value of the given configuration key.
 
 ### Parameters
 
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) section
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) name
-* [uint](https://docs.microsoft.com/en-us/dotnet/api/system.uint32?view=netframework-4.6) value
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) section
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) name
+* [uint](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32?view=netframework-4.6) value
 ### Summary
 
 ```csharp
@@ -174,7 +174,7 @@ Sets the value of the given configuration key.
 ### Parameters
 
 * [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) key
-* [uint](https://docs.microsoft.com/en-us/dotnet/api/system.uint32?view=netframework-4.6) value
+* [uint](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32?view=netframework-4.6) value
 ### Summary
 
 ```csharp
@@ -185,9 +185,9 @@ Sets the value of the given configuration key.
 
 ### Parameters
 
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) section
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) name
-* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) value
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) section
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) name
+* [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) value
 ### Summary
 
 ```csharp
@@ -199,7 +199,7 @@ Sets the value of the given configuration key.
 ### Parameters
 
 * [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) key
-* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) value
+* [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) value
 ### Summary
 
 ```csharp
@@ -210,9 +210,9 @@ Sets the value of the given configuration key.
 
 ### Parameters
 
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) section
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) name
-* [ulong](https://docs.microsoft.com/en-us/dotnet/api/system.uint64?view=netframework-4.6) value
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) section
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) name
+* [ulong](https://docs.microsoft.com/en-us/dotnet/api/System.UInt64?view=netframework-4.6) value
 ### Summary
 
 ```csharp
@@ -224,7 +224,7 @@ Sets the value of the given configuration key.
 ### Parameters
 
 * [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) key
-* [ulong](https://docs.microsoft.com/en-us/dotnet/api/system.uint64?view=netframework-4.6) value
+* [ulong](https://docs.microsoft.com/en-us/dotnet/api/System.UInt64?view=netframework-4.6) value
 ### Summary
 
 ```csharp
@@ -235,9 +235,9 @@ Sets the value of the given configuration key.
 
 ### Parameters
 
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) section
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) name
-* [long](https://docs.microsoft.com/en-us/dotnet/api/system.int64?view=netframework-4.6) value
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) section
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) name
+* [long](https://docs.microsoft.com/en-us/dotnet/api/System.Int64?view=netframework-4.6) value
 ### Summary
 
 ```csharp
@@ -249,7 +249,7 @@ Sets the value of the given configuration key.
 ### Parameters
 
 * [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) key
-* [long](https://docs.microsoft.com/en-us/dotnet/api/system.int64?view=netframework-4.6) value
+* [long](https://docs.microsoft.com/en-us/dotnet/api/System.Int64?view=netframework-4.6) value
 ### Summary
 
 ```csharp
@@ -260,9 +260,9 @@ Sets the value of the given configuration key.
 
 ### Parameters
 
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) section
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) name
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) value
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) section
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) name
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) value
 ### Summary
 
 ```csharp
@@ -274,7 +274,7 @@ Sets the value of the given configuration key.
 ### Parameters
 
 * [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) key
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) value
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) value
 ### Summary
 
 ```csharp
@@ -285,9 +285,9 @@ Sets the value of the given configuration key.
 
 ### Parameters
 
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) section
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) name
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) value
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) section
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) name
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) value
 ### Summary
 
 ```csharp
@@ -299,7 +299,7 @@ Sets the value of the given configuration key.
 ### Parameters
 
 * [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) key
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) value
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) value
 ### Summary
 
 ```csharp
@@ -310,9 +310,9 @@ Sets the value of the given configuration key.
 
 ### Parameters
 
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) section
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) name
-* [decimal](https://docs.microsoft.com/en-us/dotnet/api/system.decimal?view=netframework-4.6) value
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) section
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) name
+* [decimal](https://docs.microsoft.com/en-us/dotnet/api/System.Decimal?view=netframework-4.6) value
 ### Summary
 
 ```csharp
@@ -324,4 +324,4 @@ Sets the value of the given configuration key.
 ### Parameters
 
 * [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) key
-* [decimal](https://docs.microsoft.com/en-us/dotnet/api/system.decimal?view=netframework-4.6) value
+* [decimal](https://docs.microsoft.com/en-us/dotnet/api/System.Decimal?view=netframework-4.6) value

@@ -82,11 +82,11 @@ Transforms a specified range in an array of Vector2s by a specified Matrix and p
 ### Parameters
 
 * [Vector2D[]](VRageMath.Vector2D[]) sourceArray
-* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) sourceIndex
+* [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) sourceIndex
 * [Matrix](VRageMath.Matrix) matrix
 * [Vector2D[]](VRageMath.Vector2D[]) destinationArray
-* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) destinationIndex
-* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) length
+* [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) destinationIndex
+* [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) length
 ### Summary
 
 ```csharp
@@ -111,8 +111,8 @@ Transforms a specified range in an array of Vector2s by a specified Quaternion a
 ### Parameters
 
 * [Vector2D[]](VRageMath.Vector2D[]) sourceArray
-* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) sourceIndex
+* [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) sourceIndex
 * [Quaternion](VRageMath.Quaternion) rotation
 * [Vector2D[]](VRageMath.Vector2D[]) destinationArray
-* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) destinationIndex
-* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) length
+* [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) destinationIndex
+* [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) length

@@ -10,7 +10,7 @@ Checks whether the current BoundingBox intersects another BoundingBox.
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -23,7 +23,7 @@ public bool Intersects(ref BoundingBoxD box)
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -39,7 +39,7 @@ Checks whether the current BoundingBox intersects another BoundingBox.
 ### Parameters
 
 * [BoundingBoxD](VRageMath.BoundingBoxD) box
-* [bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) result
+* [bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6) result
 ### Summary
 
 ```csharp
@@ -49,7 +49,7 @@ public void Intersects(ref BoundingBox box, ref bool result)
 ### Parameters
 
 * [BoundingBox](VRageMath.BoundingBox) box
-* [bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) result
+* [bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6) result
 ### Summary
 
 ```csharp
@@ -60,7 +60,7 @@ Checks whether the current BoundingBox intersects a BoundingFrustum.
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -100,7 +100,7 @@ public bool Intersects(ref LineD line)
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -113,12 +113,12 @@ public bool Intersects(ref LineD line, ref double distance)
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
 * [LineD](VRageMath.LineD) line
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) distance
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) distance
 ### Summary
 
 ```csharp
@@ -127,7 +127,7 @@ public Nullable<System.Double> Intersects(Ray ray)
 
 ### Returns
 
-[Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
+[Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6)
 
 ### Parameters
 
@@ -142,7 +142,7 @@ Checks whether the current BoundingBox intersects a Ray.
 
 ### Returns
 
-[Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
+[Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6)
 
 ### Parameters
 
@@ -156,7 +156,7 @@ public void Intersects(ref RayD ray, ref Nullable<System.Double> result)
 ### Parameters
 
 * [RayD](VRageMath.RayD) ray
-* [Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) result
+* [Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6) result
 ### Summary
 
 ```csharp
@@ -167,7 +167,7 @@ Checks whether the current BoundingBox intersects a BoundingSphere.
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -183,7 +183,7 @@ Checks whether the current BoundingBox intersects a BoundingSphere.
 ### Parameters
 
 * [BoundingSphereD](VRageMath.BoundingSphereD) sphere
-* [bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) result
+* [bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6) result
 ### Summary
 
 ```csharp
@@ -192,7 +192,7 @@ public bool Intersects(ref BoundingSphereD sphere)
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 

@@ -44,7 +44,7 @@ Multiplies a quaternion by a scalar value.
 ### Parameters
 
 * [Quaternion](VRageMath.Quaternion) quaternion1
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) scaleFactor
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) scaleFactor
 ### Summary
 
 ```csharp
@@ -56,5 +56,5 @@ Multiplies a quaternion by a scalar value.
 ### Parameters
 
 * [Quaternion](VRageMath.Quaternion) quaternion1
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) scaleFactor
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) scaleFactor
 * [Quaternion](VRageMath.Quaternion) result

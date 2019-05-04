@@ -10,7 +10,7 @@ Checks whether the Ray intersects a specified BoundingBox.
 
 ### Returns
 
-[Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
+[Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6)
 
 ### Parameters
 
@@ -24,7 +24,7 @@ public void Intersects(ref BoundingBoxD box, ref Nullable<System.Double> resul
 ### Parameters
 
 * [BoundingBoxD](VRageMath.BoundingBoxD) box
-* [Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) result
+* [Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6) result
 ### Summary
 
 ```csharp
@@ -35,7 +35,7 @@ Checks whether the Ray intersects a specified BoundingFrustum.
 
 ### Returns
 
-[Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
+[Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6)
 
 ### Parameters
 
@@ -50,7 +50,7 @@ Determines whether this Ray intersects a specified Plane.
 
 ### Returns
 
-[Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
+[Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6)
 
 ### Parameters
 
@@ -64,7 +64,7 @@ public void Intersects(ref PlaneD plane, ref Nullable<System.Double> result)
 ### Parameters
 
 * [PlaneD](VRageMath.PlaneD) plane
-* [Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) result
+* [Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6) result
 ### Summary
 
 ```csharp
@@ -75,7 +75,7 @@ Checks whether the Ray intersects a specified BoundingSphere.
 
 ### Returns
 
-[Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
+[Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6)
 
 ### Parameters
 
@@ -89,4 +89,4 @@ public void Intersects(ref BoundingSphere sphere, ref Nullable<System.Double> 
 ### Parameters
 
 * [BoundingSphere](VRageMath.BoundingSphere) sphere
-* [Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) result
+* [Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6) result

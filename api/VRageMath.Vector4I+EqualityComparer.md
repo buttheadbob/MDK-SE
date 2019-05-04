@@ -10,6 +10,6 @@ public class EqualityComparer: IEqualityComparer<VRageMath.Vector4I>, IComparer<
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEqualityComparer<VRageMath.Vector4I>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.iequalitycomparer?view=netframework-4.6)  
-* [IComparer<VRageMath.Vector4I>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.icomparer?view=netframework-4.6)
+* [IEqualityComparer<VRageMath.Vector4I>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEqualityComparer-1?view=netframework-4.6)  
+* [IComparer<VRageMath.Vector4I>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IComparer-1?view=netframework-4.6)
 

@@ -13,4 +13,4 @@ public static Color Alpha(this Color c, float a)
 ### Parameters
 
 * [Color](VRageMath.Color) c
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) a
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) a

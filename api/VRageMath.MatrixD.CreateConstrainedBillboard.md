@@ -15,8 +15,8 @@ public static MatrixD CreateConstrainedBillboard(Vector3D objectPosition, Vector
 * [Vector3D](VRageMath.Vector3D) objectPosition
 * [Vector3D](VRageMath.Vector3D) cameraPosition
 * [Vector3D](VRageMath.Vector3D) rotateAxis
-* [Nullable<VRageMath.Vector3D>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) cameraForwardVector
-* [Nullable<VRageMath.Vector3D>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) objectForwardVector
+* [Nullable<VRageMath.Vector3D>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6) cameraForwardVector
+* [Nullable<VRageMath.Vector3D>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6) objectForwardVector
 ### Summary
 
 ```csharp
@@ -28,6 +28,6 @@ public static void CreateConstrainedBillboard(refÂ Vector3D objectPosition, refÂ
 * [Vector3D](VRageMath.Vector3D) objectPosition
 * [Vector3D](VRageMath.Vector3D) cameraPosition
 * [Vector3D](VRageMath.Vector3D) rotateAxis
-* [Nullable<VRageMath.Vector3D>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) cameraForwardVector
-* [Nullable<VRageMath.Vector3D>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) objectForwardVector
+* [Nullable<VRageMath.Vector3D>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6) cameraForwardVector
+* [Nullable<VRageMath.Vector3D>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6) objectForwardVector
 * [MatrixD](VRageMath.MatrixD) result

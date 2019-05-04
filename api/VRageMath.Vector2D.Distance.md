@@ -10,7 +10,7 @@ Calculates the distance between two vectors.
 
 ### Returns
 
-[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
+[double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6)
 
 ### Parameters
 
@@ -28,4 +28,4 @@ Calculates the distance between two vectors.
 
 * [Vector2D](VRageMath.Vector2D) value1
 * [Vector2D](VRageMath.Vector2D) value2
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) result
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) result

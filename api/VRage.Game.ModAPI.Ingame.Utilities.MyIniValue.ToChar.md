@@ -10,10 +10,10 @@ Attempts to get this value as a [System.Char](https://docs.microsoft.com/en-us/d
 
 ### Returns
 
-[char](https://docs.microsoft.com/en-us/dotnet/api/system.char?view=netframework-4.6)
+[char](https://docs.microsoft.com/en-us/dotnet/api/System.Char?view=netframework-4.6)
 
 
 
 ### Parameters
 
-* [char](https://docs.microsoft.com/en-us/dotnet/api/system.char?view=netframework-4.6) defaultValue
+* [char](https://docs.microsoft.com/en-us/dotnet/api/System.Char?view=netframework-4.6) defaultValue

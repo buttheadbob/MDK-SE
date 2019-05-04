@@ -41,9 +41,9 @@ Creates a translation Matrix.
 
 ### Parameters
 
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) xPosition
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) yPosition
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) zPosition
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) xPosition
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) yPosition
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) zPosition
 ### Summary
 
 ```csharp
@@ -54,7 +54,7 @@ Creates a translation Matrix.
 
 ### Parameters
 
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) xPosition
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) yPosition
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) zPosition
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) xPosition
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) yPosition
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) zPosition
 * [Matrix](VRageMath.Matrix) result

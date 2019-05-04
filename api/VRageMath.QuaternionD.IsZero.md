@@ -8,7 +8,7 @@ public static bool IsZero(QuaternionD value)
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -21,9 +21,9 @@ public static bool IsZero(QuaternionD value, double epsilon)
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
 * [QuaternionD](VRageMath.QuaternionD) value
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) epsilon
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) epsilon

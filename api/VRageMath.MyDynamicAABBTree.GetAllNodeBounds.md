@@ -8,4 +8,4 @@ public void GetAllNodeBounds(List<VRageMath.BoundingBox> boxsList)
 
 ### Parameters
 
-* [List<VRageMath.BoundingBox>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) boxsList
+* [List<VRageMath.BoundingBox>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) boxsList

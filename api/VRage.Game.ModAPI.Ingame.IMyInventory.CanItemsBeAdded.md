@@ -10,7 +10,7 @@ Determines if given amount of items fits into this inventory on top of existing 
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 True if items can fit into this inventory on top of existing items, false otherwise
 

@@ -12,7 +12,7 @@ Fixed point number represented as 64-bit integer with 6 decimal places (one mill
 **Assembly:** VRage.Library.dll
 
 **Implements:**  
-* [IXmlSerializable](https://docs.microsoft.com/en-us/dotnet/api/system.xml.serialization.ixmlserializable?view=netframework-4.6)
+* [IXmlSerializable](https://docs.microsoft.com/en-us/dotnet/api/System.Xml.Serialization.IXmlSerializable?view=netframework-4.6)
 
 #### Fields
 

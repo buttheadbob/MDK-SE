@@ -10,14 +10,14 @@ Gets any comment that might be associated with the given key. Returns`null`if th
 
 ### Returns
 
-[string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6)
+[string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6)
 
 
 
 ### Parameters
 
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) section
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) name
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) section
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) name
 ### Summary
 
 ```csharp
@@ -28,7 +28,7 @@ Gets any comment that might be associated with the given key. Returns`null`if th
 
 ### Returns
 
-[string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6)
+[string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6)
 
 
 

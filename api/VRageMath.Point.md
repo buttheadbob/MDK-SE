@@ -12,7 +12,7 @@ Defines a point in 2D space.
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable<VRageMath.Point>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)
+* [IEquatable<VRageMath.Point>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 

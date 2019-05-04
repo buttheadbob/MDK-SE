@@ -8,7 +8,7 @@ public double DistanceSquared(Vector3D point)
 
 ### Returns
 
-[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
+[double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6)
 
 ### Parameters
 
@@ -21,7 +21,7 @@ public double DistanceSquared(ref Vector3D point)
 
 ### Returns
 
-[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
+[double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6)
 
 ### Parameters
 
@@ -34,7 +34,7 @@ public double DistanceSquared(ref BoundingBoxD other)
 
 ### Returns
 
-[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
+[double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6)
 
 ### Parameters
 

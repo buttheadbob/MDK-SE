@@ -24,5 +24,5 @@ Multiplies a matrix by a scalar value.
 ### Parameters
 
 * [Matrix3x3](VRageMath.Matrix3x3) matrix1
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) scaleFactor
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) scaleFactor
 * [Matrix3x3](VRageMath.Matrix3x3) result

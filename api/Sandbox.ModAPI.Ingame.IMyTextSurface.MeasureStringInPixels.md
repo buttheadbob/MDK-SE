@@ -16,6 +16,6 @@ Calculates how many pixels a string of a given font and scale will take up.
 
 ### Parameters
 
-* [StringBuilder](https://docs.microsoft.com/en-us/dotnet/api/system.text.stringbuilder?view=netframework-4.6) text
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) font
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) scale
+* [StringBuilder](https://docs.microsoft.com/en-us/dotnet/api/System.Text.StringBuilder?view=netframework-4.6) text
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) font
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) scale

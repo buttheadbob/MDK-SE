@@ -10,7 +10,7 @@ Determines if there is working conveyor connection for item of give type to be t
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 True if there is working conveyor connection between inventories so that item of give type can by transferred, false otherwise
 

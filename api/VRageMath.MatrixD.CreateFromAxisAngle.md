@@ -15,7 +15,7 @@ Creates a new Matrix that rotates around an arbitrary vector.
 ### Parameters
 
 * [Vector3D](VRageMath.Vector3D) axis
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) angle
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) angle
 ### Summary
 
 ```csharp
@@ -27,5 +27,5 @@ Creates a new Matrix that rotates around an arbitrary vector.
 ### Parameters
 
 * [Vector3D](VRageMath.Vector3D) axis
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) angle
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) angle
 * [MatrixD](VRageMath.MatrixD) result

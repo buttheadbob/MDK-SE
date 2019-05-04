@@ -8,5 +8,5 @@ public void GetAcceptedItems(List<VRage.Game.ModAPI.Ingame.MyItemType> itemsType
 
 ### Parameters
 
-* [List<VRage.Game.ModAPI.Ingame.MyItemType>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) itemsTypes
-* [Func<VRage.Game.ModAPI.Ingame.MyItemType, System.Boolean>](https://docs.microsoft.com/en-us/dotnet/api/system.func?view=netframework-4.6) filter
+* [List<VRage.Game.ModAPI.Ingame.MyItemType>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) itemsTypes
+* [Func<VRage.Game.ModAPI.Ingame.MyItemType, System.Boolean>](https://docs.microsoft.com/en-us/dotnet/api/System.Func-2?view=netframework-4.6) filter

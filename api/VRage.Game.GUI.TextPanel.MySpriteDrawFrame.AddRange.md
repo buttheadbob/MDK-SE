@@ -8,4 +8,4 @@ public void AddRange(IEnumerable<VRage.Game.GUI.TextPanel.MySprite> sprites)
 
 ### Parameters
 
-* [IEnumerable<VRage.Game.GUI.TextPanel.MySprite>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable?view=netframework-4.6) sprites
+* [IEnumerable<VRage.Game.GUI.TextPanel.MySprite>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netframework-4.6) sprites

@@ -12,5 +12,5 @@ public static T MinBy<T>(this IEnumerable<T> source, Func<T, System.Single> sel
 
 ### Parameters
 
-* [IEnumerable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable?view=netframework-4.6) source
-* [Func<T, System.Single>](https://docs.microsoft.com/en-us/dotnet/api/system.func?view=netframework-4.6) selector
+* [IEnumerable<T>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netframework-4.6) source
+* [Func<T, System.Single>](https://docs.microsoft.com/en-us/dotnet/api/System.Func-2?view=netframework-4.6) selector

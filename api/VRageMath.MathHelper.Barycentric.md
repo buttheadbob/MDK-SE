@@ -10,12 +10,12 @@ Returns the Cartesian coordinate for one axis of a point that is defined by a gi
 
 ### Returns
 
-[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
+[float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6)
 
 ### Parameters
 
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) value1
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) value2
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) value3
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) amount1
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) amount2
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) value1
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) value2
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) value3
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) amount1
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) amount2

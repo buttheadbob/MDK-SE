@@ -10,7 +10,7 @@ Calculates the dot product of two vectors.
 
 ### Returns
 
-[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
+[double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6)
 
 ### Parameters
 
@@ -28,4 +28,4 @@ Calculates the dot product of two vectors.
 
 * [Vector4](VRageMath.Vector4) vector1
 * [Vector4](VRageMath.Vector4) vector2
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) result
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) result

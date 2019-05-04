@@ -8,5 +8,5 @@ public static void SortNoAlloc<T>(this List<T> list, Comparison<T> comparator)
 
 ### Parameters
 
-* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) list
-* [Comparison<T>](https://docs.microsoft.com/en-us/dotnet/api/system.comparison?view=netframework-4.6) comparator
+* [List<T>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) list
+* [Comparison<T>](https://docs.microsoft.com/en-us/dotnet/api/System.Comparison-1?view=netframework-4.6) comparator

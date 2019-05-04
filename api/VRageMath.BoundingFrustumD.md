@@ -12,7 +12,7 @@ Defines a frustum and helps determine whether forms intersect with it.
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable<VRageMath.BoundingFrustumD>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)
+* [IEquatable<VRageMath.BoundingFrustumD>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 

@@ -8,4 +8,4 @@ public static void AssertEmpty<K, V>(this Dictionary<K, V> collection)
 
 ### Parameters
 
-* [Dictionary<K, V>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary?view=netframework-4.6) collection
+* [Dictionary<K, V>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netframework-4.6) collection

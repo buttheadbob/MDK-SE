@@ -12,4 +12,4 @@ public static Vector3 UnpackHSVFromUint(uint packed)
 
 ### Parameters
 
-* [uint](https://docs.microsoft.com/en-us/dotnet/api/system.uint32?view=netframework-4.6) packed
+* [uint](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32?view=netframework-4.6) packed

@@ -10,4 +10,4 @@ public Line(Vector3 from, Vector3 to, bool calculateBoundingBox)
 
 * [Vector3](VRageMath.Vector3) from
 * [Vector3](VRageMath.Vector3) to
-* [bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) calculateBoundingBox
+* [bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6) calculateBoundingBox

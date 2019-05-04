@@ -10,14 +10,14 @@ Determines whether a configuration key (section/key) exists in the currently par
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 
 
 ### Parameters
 
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) section
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) name
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) section
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) name
 ### Summary
 
 ```csharp
@@ -28,7 +28,7 @@ Determines whether a configuration key (section/key) exists in the currently par
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 
 

@@ -16,7 +16,7 @@ Interpolates between two values using a cubic equation.
 
 * [Vector2](VRageMath.Vector2) value1
 * [Vector2](VRageMath.Vector2) value2
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) amount
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) amount
 ### Summary
 
 ```csharp
@@ -29,5 +29,5 @@ Interpolates between two values using a cubic equation.
 
 * [Vector2](VRageMath.Vector2) value1
 * [Vector2](VRageMath.Vector2) value2
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) amount
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) amount
 * [Vector2](VRageMath.Vector2) result

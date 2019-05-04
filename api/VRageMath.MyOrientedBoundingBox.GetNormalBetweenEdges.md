@@ -10,13 +10,13 @@ Returns normal between two cube edge of same direction
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 false if edges are not neighbors
 
 ### Parameters
 
-* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) axis
-* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) edge0
-* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) edge1
+* [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) axis
+* [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) edge0
+* [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) edge1
 * [Vector3](VRageMath.Vector3) normal

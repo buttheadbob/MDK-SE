@@ -8,6 +8,6 @@ public MyProductionItem(uint itemId, MyDefinitionId blueprintId, MyFixedPoint am
 
 ### Parameters
 
-* [uint](https://docs.microsoft.com/en-us/dotnet/api/system.uint32?view=netframework-4.6) itemId
+* [uint](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32?view=netframework-4.6) itemId
 * [MyDefinitionId](VRage.Game.MyDefinitionId) blueprintId
 * [MyFixedPoint](VRage.MyFixedPoint) amount

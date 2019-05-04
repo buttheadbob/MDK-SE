@@ -10,7 +10,7 @@ Computes both the TangentIn and the TangentOut for a CurveKey specified by its i
 
 ### Parameters
 
-* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) keyIndex
+* [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) keyIndex
 * [CurveTangent](VRageMath.CurveTangent) tangentType
 ### Summary
 
@@ -22,6 +22,6 @@ Computes a specified type of TangentIn and a specified type of TangentOut for a 
 
 ### Parameters
 
-* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) keyIndex
+* [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) keyIndex
 * [CurveTangent](VRageMath.CurveTangent) tangentInType
 * [CurveTangent](VRageMath.CurveTangent) tangentOutType

@@ -10,5 +10,5 @@ Returns number of occupied inventory slots.
 
 ### Returns
 
-[int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6)
+[int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6)
 

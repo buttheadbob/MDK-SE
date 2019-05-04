@@ -44,7 +44,7 @@ Divides a vector by a scalar value.
 ### Parameters
 
 * [Vector3D](VRageMath.Vector3D) value1
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) value2
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) value2
 ### Summary
 
 ```csharp
@@ -56,5 +56,5 @@ Divides a vector by a scalar value.
 ### Parameters
 
 * [Vector3D](VRageMath.Vector3D) value1
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) value2
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) value2
 * [Vector3D](VRageMath.Vector3D) result

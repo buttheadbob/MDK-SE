@@ -13,5 +13,5 @@ public static Vector3 CalculateVectorOnSphere(Vector3 northPoleDir, float phi, f
 ### Parameters
 
 * [Vector3](VRageMath.Vector3) northPoleDir
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) phi
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) theta
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) phi
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) theta

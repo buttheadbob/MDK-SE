@@ -8,8 +8,8 @@ public static int ComputeHashFromBytes(Byte[] bytes)
 
 ### Returns
 
-[int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6)
+[int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6)
 
 ### Parameters
 
-* [Byte[]](https://docs.microsoft.com/en-us/dotnet/api/system.byte[]?view=netframework-4.6) bytes
+* [Byte[]](https://docs.microsoft.com/en-us/dotnet/api/System.Byte[]?view=netframework-4.6) bytes

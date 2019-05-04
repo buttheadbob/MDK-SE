@@ -8,13 +8,13 @@ public static int BinaryIntervalSearch<T>(this IList<T> self, T value, ICompare
 
 ### Returns
 
-[int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6)
+[int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6)
 
 ### Parameters
 
-* [IList<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ilist?view=netframework-4.6) self
+* [IList<T>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1?view=netframework-4.6) self
 * [T]() value
-* [IComparer<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.icomparer?view=netframework-4.6) comparer
+* [IComparer<T>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IComparer-1?view=netframework-4.6) comparer
 ### Summary
 
 ```csharp
@@ -23,12 +23,12 @@ public static int BinaryIntervalSearch<T>(this IList<T> self, Func<T, System.Bo
 
 ### Returns
 
-[int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6)
+[int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6)
 
 ### Parameters
 
-* [IList<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ilist?view=netframework-4.6) self
-* [Func<T, System.Boolean>](https://docs.microsoft.com/en-us/dotnet/api/system.func?view=netframework-4.6) less
+* [IList<T>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1?view=netframework-4.6) self
+* [Func<T, System.Boolean>](https://docs.microsoft.com/en-us/dotnet/api/System.Func-2?view=netframework-4.6) less
 ### Summary
 
 ```csharp
@@ -37,10 +37,10 @@ public static int BinaryIntervalSearch<T>(this IList<T> self, T value, Comparis
 
 ### Returns
 
-[int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6)
+[int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6)
 
 ### Parameters
 
-* [IList<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ilist?view=netframework-4.6) self
+* [IList<T>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1?view=netframework-4.6) self
 * [T]() value
-* [Comparison<T>](https://docs.microsoft.com/en-us/dotnet/api/system.comparison?view=netframework-4.6) comparison
+* [Comparison<T>](https://docs.microsoft.com/en-us/dotnet/api/System.Comparison-1?view=netframework-4.6) comparison

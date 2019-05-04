@@ -10,9 +10,9 @@ Determines if given endpoint is currently reachable. Similar to sending ICMP mes
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
-* [long](https://docs.microsoft.com/en-us/dotnet/api/system.int64?view=netframework-4.6) address
+* [long](https://docs.microsoft.com/en-us/dotnet/api/System.Int64?view=netframework-4.6) address
 * [TransmissionDistance](Sandbox.ModAPI.Ingame.TransmissionDistance) transmissionDistance

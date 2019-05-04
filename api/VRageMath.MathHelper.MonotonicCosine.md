@@ -10,10 +10,10 @@ Calculate the monotonic cosine of a value. Monotonic cosine is an alternative co
 
 ### Returns
 
-[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
+[float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6)
 
 The cosine of the angle if it is > 0, 2 - that value otherwise.
 
 ### Parameters
 
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) radians
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) radians

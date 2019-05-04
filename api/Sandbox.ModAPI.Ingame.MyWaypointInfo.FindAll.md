@@ -8,5 +8,5 @@ public static void FindAll(string source, List<Sandbox.ModAPI.Ingame.MyWaypointI
 
 ### Parameters
 
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) source
-* [List<Sandbox.ModAPI.Ingame.MyWaypointInfo>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) gpsList
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) source
+* [List<Sandbox.ModAPI.Ingame.MyWaypointInfo>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) gpsList

@@ -10,7 +10,7 @@ Calculates the dot product of a specified Vector4 and this Plane.
 
 ### Returns
 
-[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
+[float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6)
 
 ### Parameters
 
@@ -26,4 +26,4 @@ Calculates the dot product of a specified Vector4 and this Plane.
 ### Parameters
 
 * [Vector4](VRageMath.Vector4) value
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) result
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) result

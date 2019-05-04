@@ -16,9 +16,9 @@ Does a raycast in the direction the camera is facing. Pitch and Yaw are in degre
 
 ### Parameters
 
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) distance
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) pitch
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) yaw
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) distance
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) pitch
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) yaw
 ### Summary
 
 ```csharp
@@ -52,5 +52,5 @@ Does a raycast in the given direction. Will return an empty struct if distance o
 
 ### Parameters
 
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) distance
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) distance
 * [Vector3D](VRageMath.Vector3D) targetDirection

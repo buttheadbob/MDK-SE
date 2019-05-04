@@ -8,5 +8,5 @@ public void RemoveImagesFromSelection(List<System.String> ids, bool removeDuplic
 
 ### Parameters
 
-* [List<System.String>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) ids
-* [bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) removeDuplicates
+* [List<System.String>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) ids
+* [bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6) removeDuplicates

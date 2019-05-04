@@ -84,7 +84,7 @@ Multiplies a matrix by a scalar value.
 ### Parameters
 
 * [MatrixD](VRageMath.MatrixD) matrix1
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) scaleFactor
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) scaleFactor
 ### Summary
 
 ```csharp
@@ -96,5 +96,5 @@ Multiplies a matrix by a scalar value.
 ### Parameters
 
 * [MatrixD](VRageMath.MatrixD) matrix1
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) scaleFactor
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) scaleFactor
 * [MatrixD](VRageMath.MatrixD) result

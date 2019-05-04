@@ -8,4 +8,4 @@ public void GetUpgrades(ref Dictionary<System.String, System.Single> upgrades)
 
 ### Parameters
 
-* [Dictionary<System.String, System.Single>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary?view=netframework-4.6) upgrades
+* [Dictionary<System.String, System.Single>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netframework-4.6) upgrades

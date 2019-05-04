@@ -14,10 +14,10 @@ Builds a perspective projection matrix based on a field of view and returns by v
 
 ### Parameters
 
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) fieldOfView
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) aspectRatio
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) nearPlaneDistance
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) farPlaneDistance
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) fieldOfView
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) aspectRatio
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) nearPlaneDistance
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) farPlaneDistance
 ### Summary
 
 ```csharp
@@ -28,8 +28,8 @@ Builds a perspective projection matrix based on a field of view and returns by r
 
 ### Parameters
 
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) fieldOfView
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) aspectRatio
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) nearPlaneDistance
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) farPlaneDistance
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) fieldOfView
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) aspectRatio
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) nearPlaneDistance
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) farPlaneDistance
 * [Matrix](VRageMath.Matrix) result

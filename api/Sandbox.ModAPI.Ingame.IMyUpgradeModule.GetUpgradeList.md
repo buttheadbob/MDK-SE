@@ -8,4 +8,4 @@ public void GetUpgradeList(ref List<VRage.Game.ObjectBuilders.Definitions.MyUpg
 
 ### Parameters
 
-* [List<VRage.Game.ObjectBuilders.Definitions.MyUpgradeModuleInfo>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) upgrades
+* [List<VRage.Game.ObjectBuilders.Definitions.MyUpgradeModuleInfo>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) upgrades

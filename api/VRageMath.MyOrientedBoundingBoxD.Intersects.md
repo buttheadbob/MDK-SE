@@ -8,7 +8,7 @@ public bool Intersects(ref BoundingBox box)
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -21,7 +21,7 @@ public bool Intersects(ref BoundingBoxD box)
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -34,7 +34,7 @@ public bool Intersects(ref MyOrientedBoundingBoxD other)
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -47,7 +47,7 @@ public bool Intersects(BoundingFrustumD frustum)
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -60,7 +60,7 @@ public bool Intersects(ref BoundingSphereD sphere)
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -73,7 +73,7 @@ public Nullable<System.Double> Intersects(ref RayD ray)
 
 ### Returns
 
-[Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
+[Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6)
 
 ### Parameters
 
@@ -86,7 +86,7 @@ public Nullable<System.Double> Intersects(ref LineD line)
 
 ### Returns
 
-[Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
+[Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6)
 
 ### Parameters
 

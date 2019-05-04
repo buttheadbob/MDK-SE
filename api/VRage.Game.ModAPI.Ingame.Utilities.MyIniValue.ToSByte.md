@@ -10,10 +10,10 @@ Attempts to get this value as a [System.SByte](https://docs.microsoft.com/en-us/
 
 ### Returns
 
-[sbyte](https://docs.microsoft.com/en-us/dotnet/api/system.sbyte?view=netframework-4.6)
+[sbyte](https://docs.microsoft.com/en-us/dotnet/api/System.SByte?view=netframework-4.6)
 
 
 
 ### Parameters
 
-* [sbyte](https://docs.microsoft.com/en-us/dotnet/api/system.sbyte?view=netframework-4.6) defaultValue
+* [sbyte](https://docs.microsoft.com/en-us/dotnet/api/System.SByte?view=netframework-4.6) defaultValue

@@ -10,9 +10,9 @@ Compares just position, forward and up
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
 * [Matrix3x3](VRageMath.Matrix3x3) other
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) epsilon
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) epsilon

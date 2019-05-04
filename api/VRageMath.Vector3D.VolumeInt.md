@@ -8,8 +8,8 @@ public long VolumeInt(double multiplier)
 
 ### Returns
 
-[long](https://docs.microsoft.com/en-us/dotnet/api/system.int64?view=netframework-4.6)
+[long](https://docs.microsoft.com/en-us/dotnet/api/System.Int64?view=netframework-4.6)
 
 ### Parameters
 
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) multiplier
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) multiplier

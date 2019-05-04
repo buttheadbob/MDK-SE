@@ -8,5 +8,5 @@ public static void Remove<K, V>(this ConcurrentDictionary<K, V> dictionary, K k
 
 ### Parameters
 
-* [ConcurrentDictionary<K, V>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.concurrent.concurrentdictionary?view=netframework-4.6) dictionary
+* [ConcurrentDictionary<K, V>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Concurrent.ConcurrentDictionary-2?view=netframework-4.6) dictionary
 * [K]() key

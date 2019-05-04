@@ -10,11 +10,11 @@ ArcTanAngle
 
 ### Returns
 
-[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
+[float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6)
 
 ArcTan angle between x and y
 
 ### Parameters
 
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) x
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) y
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) x
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) y

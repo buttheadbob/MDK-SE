@@ -8,5 +8,5 @@ public void Query(Func<System.Int32, System.Boolean> callback, ref BoundingBox 
 
 ### Parameters
 
-* [Func<System.Int32, System.Boolean>](https://docs.microsoft.com/en-us/dotnet/api/system.func?view=netframework-4.6) callback
+* [Func<System.Int32, System.Boolean>](https://docs.microsoft.com/en-us/dotnet/api/System.Func-2?view=netframework-4.6) callback
 * [BoundingBox](VRageMath.BoundingBox) aabb

@@ -10,5 +10,5 @@ public class MyLineSegmentOverlapResultComparer<T>: IComparer<>
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IComparer<>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.icomparer?view=netframework-4.6)
+* [IComparer<>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IComparer-1?view=netframework-4.6)
 

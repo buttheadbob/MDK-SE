@@ -12,5 +12,5 @@ Performs spherical linear interpolation of position and rotation and scale.
 
 * [Matrix3x3](VRageMath.Matrix3x3) matrix1
 * [Matrix3x3](VRageMath.Matrix3x3) matrix2
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) amount
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) amount
 * [Matrix3x3](VRageMath.Matrix3x3) result

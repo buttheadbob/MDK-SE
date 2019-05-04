@@ -10,7 +10,7 @@ Checks whether the current BoundingBoxI intersects another BoundingBoxI.
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -23,7 +23,7 @@ public bool Intersects(ref BoundingBoxI box)
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -39,7 +39,7 @@ Checks whether the current BoundingBoxI intersects another BoundingBoxI.
 ### Parameters
 
 * [BoundingBoxI](VRageMath.BoundingBoxI) box
-* [bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) result
+* [bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6) result
 ### Summary
 
 ```csharp
@@ -75,12 +75,12 @@ public bool Intersects(Line line, ref float distance)
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
 * [Line](VRageMath.Line) line
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) distance
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) distance
 ### Summary
 
 ```csharp
@@ -91,7 +91,7 @@ Checks whether the current BoundingBoxI intersects a Ray.
 
 ### Returns
 
-[Nullable<System.Single>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
+[Nullable<System.Single>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6)
 
 ### Parameters
 
@@ -105,4 +105,4 @@ public void Intersects(ref Ray ray, ref Nullable<System.Single> result)
 ### Parameters
 
 * [Ray](VRageMath.Ray) ray
-* [Nullable<System.Single>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) result
+* [Nullable<System.Single>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6) result

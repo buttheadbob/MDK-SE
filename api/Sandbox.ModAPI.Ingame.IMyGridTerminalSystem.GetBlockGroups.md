@@ -8,5 +8,5 @@ public void GetBlockGroups(List<Sandbox.ModAPI.Ingame.IMyBlockGroup> blockGroups
 
 ### Parameters
 
-* [List<Sandbox.ModAPI.Ingame.IMyBlockGroup>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) blockGroups
-* [Func<Sandbox.ModAPI.Ingame.IMyBlockGroup, System.Boolean>](https://docs.microsoft.com/en-us/dotnet/api/system.func?view=netframework-4.6) collect
+* [List<Sandbox.ModAPI.Ingame.IMyBlockGroup>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) blockGroups
+* [Func<Sandbox.ModAPI.Ingame.IMyBlockGroup, System.Boolean>](https://docs.microsoft.com/en-us/dotnet/api/System.Func-2?view=netframework-4.6) collect

@@ -23,7 +23,7 @@ public bool Intersect(ref LineD line, ref LineD intersectedLine)
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -37,13 +37,13 @@ public bool Intersect(ref LineD line, ref double t1, ref double t2)
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
 * [LineD](VRageMath.LineD) line
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) t1
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) t2
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) t1
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) t2
 ### Summary
 
 ```csharp
@@ -52,10 +52,10 @@ public bool Intersect(ref RayD ray, ref double tmin, ref double tmax)
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
 * [RayD](VRageMath.RayD) ray
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) tmin
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) tmax
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) tmin
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) tmax

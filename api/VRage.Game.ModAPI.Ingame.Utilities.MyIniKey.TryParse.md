@@ -10,11 +10,11 @@ Parses a string in the form of`section/key`into a [MyIniKey](VRage.Game.ModAPI.I
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 
 
 ### Parameters
 
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) input
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) input
 * [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) key

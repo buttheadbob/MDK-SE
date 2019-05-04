@@ -54,9 +54,9 @@ Creates a translation Matrix.
 
 ### Parameters
 
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) xPosition
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) yPosition
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) zPosition
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) xPosition
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) yPosition
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) zPosition
 ### Summary
 
 ```csharp
@@ -67,7 +67,7 @@ Creates a translation Matrix.
 
 ### Parameters
 
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) xPosition
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) yPosition
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) zPosition
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) xPosition
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) yPosition
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) zPosition
 * [MatrixD](VRageMath.MatrixD) result

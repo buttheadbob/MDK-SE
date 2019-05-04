@@ -10,7 +10,7 @@ Returns angle in range -PI..PI
 
 ### Parameters
 
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) angle
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) angle
 ### Summary
 
 ```csharp
@@ -21,4 +21,4 @@ Returns angle in range -PI..PI
 
 ### Parameters
 
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) angle
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) angle

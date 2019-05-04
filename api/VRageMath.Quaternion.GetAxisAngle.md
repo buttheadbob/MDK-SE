@@ -9,4 +9,4 @@ public void GetAxisAngle(ref Vector3 axis, ref float angle)
 ### Parameters
 
 * [Vector3](VRageMath.Vector3) axis
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) angle
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) angle

@@ -14,10 +14,10 @@ Builds a perspective projection matrix based on a field of view and returns by v
 
 ### Parameters
 
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) fieldOfView
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) aspectRatio
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) nearPlaneDistance
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) farPlaneDistance
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) fieldOfView
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) aspectRatio
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) nearPlaneDistance
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) farPlaneDistance
 ### Summary
 
 ```csharp
@@ -28,8 +28,8 @@ Builds a perspective projection matrix based on a field of view and returns by r
 
 ### Parameters
 
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) fieldOfView
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) aspectRatio
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) nearPlaneDistance
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) farPlaneDistance
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) fieldOfView
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) aspectRatio
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) nearPlaneDistance
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) farPlaneDistance
 * [MatrixD](VRageMath.MatrixD) result

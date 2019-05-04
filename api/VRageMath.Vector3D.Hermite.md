@@ -18,7 +18,7 @@ Performs a Hermite spline interpolation.
 * [Vector3D](VRageMath.Vector3D) tangent1
 * [Vector3D](VRageMath.Vector3D) value2
 * [Vector3D](VRageMath.Vector3D) tangent2
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) amount
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) amount
 ### Summary
 
 ```csharp
@@ -33,5 +33,5 @@ Performs a Hermite spline interpolation.
 * [Vector3D](VRageMath.Vector3D) tangent1
 * [Vector3D](VRageMath.Vector3D) value2
 * [Vector3D](VRageMath.Vector3D) tangent2
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) amount
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) amount
 * [Vector3D](VRageMath.Vector3D) result

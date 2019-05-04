@@ -10,7 +10,7 @@ Calculates the dot product of two vectors. If the two vectors are unit vectors, 
 
 ### Returns
 
-[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
+[float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6)
 
 ### Parameters
 
@@ -28,4 +28,4 @@ Calculates the dot product of two vectors and writes the result to a user-specif
 
 * [Vector2](VRageMath.Vector2) value1
 * [Vector2](VRageMath.Vector2) value2
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) result
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) result

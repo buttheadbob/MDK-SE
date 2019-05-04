@@ -8,22 +8,22 @@ public MatrixD(double m11, double m12, double m13, double m14, double m21, doubl
 
 ### Parameters
 
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) m11
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) m12
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) m13
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) m14
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) m21
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) m22
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) m23
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) m24
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) m31
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) m32
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) m33
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) m34
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) m41
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) m42
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) m43
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) m44
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) m11
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) m12
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) m13
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) m14
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) m21
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) m22
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) m23
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) m24
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) m31
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) m32
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) m33
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) m34
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) m41
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) m42
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) m43
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) m44
 ### Summary
 
 ```csharp
@@ -32,15 +32,15 @@ public MatrixD(double m11, double m12, double m13, double m21, double m22, doubl
 
 ### Parameters
 
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) m11
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) m12
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) m13
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) m21
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) m22
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) m23
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) m31
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) m32
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) m33
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) m11
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) m12
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) m13
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) m21
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) m22
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) m23
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) m31
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) m32
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) m33
 ### Summary
 
 ```csharp

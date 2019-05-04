@@ -10,7 +10,7 @@ Determines whether two instances of BoundingBox are equal.
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -25,11 +25,11 @@ Determines whether two instances of BoundingBox are equal.
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
-* [object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6) obj
+* [object](https://docs.microsoft.com/en-us/dotnet/api/System.Object?view=netframework-4.6) obj
 ### Summary
 
 ```csharp
@@ -38,9 +38,9 @@ public bool Equals(BoundingBoxD other, double epsilon)
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
 * [BoundingBoxD](VRageMath.BoundingBoxD) other
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) epsilon
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) epsilon

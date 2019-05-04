@@ -20,4 +20,4 @@ public LineD(Vector3D from, Vector3D to, double lineLength)
 
 * [Vector3D](VRageMath.Vector3D) from
 * [Vector3D](VRageMath.Vector3D) to
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) lineLength
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) lineLength

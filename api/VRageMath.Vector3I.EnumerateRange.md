@@ -10,7 +10,7 @@ Enumerate all values in a integer interval (a cuboid). This method is an allocat
 
 ### Returns
 
-[IEnumerable<VRageMath.Vector3I>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable?view=netframework-4.6)
+[IEnumerable<VRageMath.Vector3I>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netframework-4.6)
 
 An iterator for that range.
 

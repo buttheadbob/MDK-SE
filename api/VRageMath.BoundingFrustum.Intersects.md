@@ -10,7 +10,7 @@ Checks whether the current BoundingFrustum intersects the specified BoundingBox.
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -26,7 +26,7 @@ Checks whether the current BoundingFrustum intersects a BoundingBox.
 ### Parameters
 
 * [BoundingBox](VRageMath.BoundingBox) box
-* [bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) result
+* [bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6) result
 ### Summary
 
 ```csharp
@@ -37,7 +37,7 @@ Checks whether the current BoundingFrustum intersects the specified BoundingFrus
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -79,7 +79,7 @@ Checks whether the current BoundingFrustum intersects the specified Ray.
 
 ### Returns
 
-[Nullable<System.Single>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
+[Nullable<System.Single>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6)
 
 ### Parameters
 
@@ -93,7 +93,7 @@ public void Intersects(ref Ray ray, ref Nullable<System.Single> result)
 ### Parameters
 
 * [Ray](VRageMath.Ray) ray
-* [Nullable<System.Single>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) result
+* [Nullable<System.Single>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6) result
 ### Summary
 
 ```csharp
@@ -104,7 +104,7 @@ Checks whether the current BoundingFrustum intersects the specified BoundingSphe
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
@@ -120,4 +120,4 @@ Checks whether the current BoundingFrustum intersects a BoundingSphere.
 ### Parameters
 
 * [BoundingSphere](VRageMath.BoundingSphere) sphere
-* [bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) result
+* [bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6) result

@@ -8,13 +8,13 @@ public bool TransferItemTo(IMyInventory dstInventory, MyInventoryItem item, Null
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
 * [IMyInventory](VRage.Game.ModAPI.Ingame.IMyInventory) dstInventory
 * [MyInventoryItem](VRage.Game.ModAPI.Ingame.MyInventoryItem) item
-* [Nullable<VRage.MyFixedPoint>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) amount
+* [Nullable<VRage.MyFixedPoint>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6) amount
 ### Summary
 
 ```csharp
@@ -23,12 +23,12 @@ public bool TransferItemTo(IMyInventory dst, int sourceItemIndex, Nullable<Syste
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
 * [IMyInventory](VRage.Game.ModAPI.Ingame.IMyInventory) dst
-* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) sourceItemIndex
-* [Nullable<System.Int32>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) targetItemIndex
-* [Nullable<System.Boolean>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) stackIfPossible
-* [Nullable<VRage.MyFixedPoint>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) amount
+* [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) sourceItemIndex
+* [Nullable<System.Int32>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6) targetItemIndex
+* [Nullable<System.Boolean>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6) stackIfPossible
+* [Nullable<VRage.MyFixedPoint>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6) amount

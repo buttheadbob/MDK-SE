@@ -8,4 +8,4 @@ public void GetWaypointInfo(List<Sandbox.ModAPI.Ingame.MyWaypointInfo> waypoints
 
 ### Parameters
 
-* [List<Sandbox.ModAPI.Ingame.MyWaypointInfo>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) waypoints
+* [List<Sandbox.ModAPI.Ingame.MyWaypointInfo>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) waypoints

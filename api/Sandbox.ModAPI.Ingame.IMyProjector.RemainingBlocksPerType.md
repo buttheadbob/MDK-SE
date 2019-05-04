@@ -10,5 +10,5 @@ A comprehensive list of blocks left to be welded
 
 ### Returns
 
-[Dictionary<VRage.Game.MyDefinitionBase, System.Int32>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary?view=netframework-4.6)
+[Dictionary<VRage.Game.MyDefinitionBase, System.Int32>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netframework-4.6)
 

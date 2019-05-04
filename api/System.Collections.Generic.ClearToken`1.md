@@ -10,7 +10,7 @@ public struct ClearToken<T>: IDisposable
 **Assembly:** VRage.Library.dll
 
 **Implements:**  
-* [IDisposable](https://docs.microsoft.com/en-us/dotnet/api/system.idisposable?view=netframework-4.6)
+* [IDisposable](https://docs.microsoft.com/en-us/dotnet/api/System.IDisposable?view=netframework-4.6)
 
 #### Fields
 

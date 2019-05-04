@@ -10,5 +10,5 @@ Gets or sets the minimum position the piston can retract to. See [LowestPosition
 
 ### Returns
 
-[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
+[float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6)
 

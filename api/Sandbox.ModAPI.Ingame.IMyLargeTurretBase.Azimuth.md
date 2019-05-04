@@ -10,5 +10,5 @@ Sets/gets azimuth of turret, this method is not synced, you need to sync azimuth
 
 ### Returns
 
-[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
+[float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6)
 

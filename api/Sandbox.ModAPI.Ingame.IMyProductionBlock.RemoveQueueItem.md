@@ -10,7 +10,7 @@ Removes an item from the queue
 
 ### Parameters
 
-* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) idx
+* [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) idx
 * [MyFixedPoint](VRage.MyFixedPoint) amount
 ### Summary
 
@@ -22,8 +22,8 @@ Removes an item from the queue
 
 ### Parameters
 
-* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) idx
-* [decimal](https://docs.microsoft.com/en-us/dotnet/api/system.decimal?view=netframework-4.6) amount
+* [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) idx
+* [decimal](https://docs.microsoft.com/en-us/dotnet/api/System.Decimal?view=netframework-4.6) amount
 ### Summary
 
 ```csharp
@@ -34,5 +34,5 @@ Removes an item from the queue
 
 ### Parameters
 
-* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) idx
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) amount
+* [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) idx
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) amount

@@ -10,7 +10,7 @@ Returns the dot product of a specified Vector3 and the Normal vector of this Pla
 
 ### Returns
 
-[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
+[float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6)
 
 ### Parameters
 
@@ -26,4 +26,4 @@ Returns the dot product of a specified Vector3 and the Normal vector of this Pla
 ### Parameters
 
 * [Vector3](VRageMath.Vector3) value
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) result
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) result

@@ -8,7 +8,7 @@ public static StringBuilder Get(MyStringId id)
 
 ### Returns
 
-[StringBuilder](https://docs.microsoft.com/en-us/dotnet/api/system.text.stringbuilder?view=netframework-4.6)
+[StringBuilder](https://docs.microsoft.com/en-us/dotnet/api/System.Text.StringBuilder?view=netframework-4.6)
 
 ### Parameters
 

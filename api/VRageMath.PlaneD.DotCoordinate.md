@@ -10,7 +10,7 @@ Returns the dot product of a specified Vector3D and the Normal vector of this Pl
 
 ### Returns
 
-[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
+[double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6)
 
 ### Parameters
 
@@ -26,4 +26,4 @@ Returns the dot product of a specified Vector3D and the Normal vector of this Pl
 ### Parameters
 
 * [Vector3D](VRageMath.Vector3D) value
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) result
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) result

@@ -11,7 +11,7 @@ Same result as Matrix.CreateScale(scale) * matrix, but much faster
 ### Parameters
 
 * [Matrix](VRageMath.Matrix) matrix
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) scale
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) scale
 ### Summary
 
 ```csharp
@@ -37,7 +37,7 @@ public static Matrix Rescale(Matrix matrix, float scale)
 ### Parameters
 
 * [Matrix](VRageMath.Matrix) matrix
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) scale
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) scale
 ### Summary
 
 ```csharp

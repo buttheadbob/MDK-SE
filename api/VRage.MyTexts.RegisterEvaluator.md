@@ -8,5 +8,5 @@ public static void RegisterEvaluator(string prefix, ITextEvaluator eval)
 
 ### Parameters
 
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) prefix
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) prefix
 * [ITextEvaluator](VRage.ITextEvaluator) eval

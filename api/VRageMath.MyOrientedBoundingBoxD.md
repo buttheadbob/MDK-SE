@@ -10,7 +10,7 @@ public struct MyOrientedBoundingBoxD: IEquatable<VRageMath.MyOrientedBoundingBox
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable<VRageMath.MyOrientedBoundingBox>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)
+* [IEquatable<VRageMath.MyOrientedBoundingBox>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 

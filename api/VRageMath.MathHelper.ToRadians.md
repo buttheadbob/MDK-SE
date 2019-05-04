@@ -10,11 +10,11 @@ Converts degrees to radians.
 
 ### Returns
 
-[float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6)
+[float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6)
 
 ### Parameters
 
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) degrees
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) degrees
 ### Summary
 
 ```csharp
@@ -38,8 +38,8 @@ Converts degrees to radians.
 
 ### Returns
 
-[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
+[double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6)
 
 ### Parameters
 
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) degrees
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) degrees

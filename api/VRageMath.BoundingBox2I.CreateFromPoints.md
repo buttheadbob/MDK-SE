@@ -12,4 +12,4 @@ public static BoundingBox2I CreateFromPoints(IEnumerable<VRageMath.Vector2I> poi
 
 ### Parameters
 
-* [IEnumerable<VRageMath.Vector2I>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable?view=netframework-4.6) points
+* [IEnumerable<VRageMath.Vector2I>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netframework-4.6) points

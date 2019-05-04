@@ -8,9 +8,9 @@ public Vector3B(sbyte x, sbyte y, sbyte z)
 
 ### Parameters
 
-* [sbyte](https://docs.microsoft.com/en-us/dotnet/api/system.sbyte?view=netframework-4.6) x
-* [sbyte](https://docs.microsoft.com/en-us/dotnet/api/system.sbyte?view=netframework-4.6) y
-* [sbyte](https://docs.microsoft.com/en-us/dotnet/api/system.sbyte?view=netframework-4.6) z
+* [sbyte](https://docs.microsoft.com/en-us/dotnet/api/System.SByte?view=netframework-4.6) x
+* [sbyte](https://docs.microsoft.com/en-us/dotnet/api/System.SByte?view=netframework-4.6) y
+* [sbyte](https://docs.microsoft.com/en-us/dotnet/api/System.SByte?view=netframework-4.6) z
 ### Summary
 
 ```csharp

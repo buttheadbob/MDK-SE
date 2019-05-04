@@ -8,4 +8,4 @@ public void RequestEnable(bool enable)
 
 ### Parameters
 
-* [bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) enable
+* [bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6) enable

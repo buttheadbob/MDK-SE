@@ -10,7 +10,7 @@ Determines if there is at least given amount of items of given type contained in
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 True in case there is sufficient amount of items present inside this inventory, false otherwise
 

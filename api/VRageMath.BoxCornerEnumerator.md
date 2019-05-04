@@ -10,11 +10,11 @@ public struct BoxCornerEnumerator: IEnumerator<VRageMath.Vector3>, IDisposable, 
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEnumerator<VRageMath.Vector3>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerator?view=netframework-4.6)  
-* [IDisposable](https://docs.microsoft.com/en-us/dotnet/api/system.idisposable?view=netframework-4.6)  
-* [IEnumerator](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerator?view=netframework-4.6)  
-* [IEnumerable<VRageMath.Vector3>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable?view=netframework-4.6)  
-* [IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerable?view=netframework-4.6)
+* [IEnumerator<VRageMath.Vector3>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerator-1?view=netframework-4.6)  
+* [IDisposable](https://docs.microsoft.com/en-us/dotnet/api/System.IDisposable?view=netframework-4.6)  
+* [IEnumerator](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.IEnumerator?view=netframework-4.6)  
+* [IEnumerable<VRageMath.Vector3>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netframework-4.6)  
+* [IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.IEnumerable?view=netframework-4.6)
 
 #### Properties
 

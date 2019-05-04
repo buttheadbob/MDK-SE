@@ -8,7 +8,7 @@ public Vector3L(long xyz)
 
 ### Parameters
 
-* [long](https://docs.microsoft.com/en-us/dotnet/api/system.int64?view=netframework-4.6) xyz
+* [long](https://docs.microsoft.com/en-us/dotnet/api/System.Int64?view=netframework-4.6) xyz
 ### Summary
 
 ```csharp
@@ -17,9 +17,9 @@ public Vector3L(long x, long y, long z)
 
 ### Parameters
 
-* [long](https://docs.microsoft.com/en-us/dotnet/api/system.int64?view=netframework-4.6) x
-* [long](https://docs.microsoft.com/en-us/dotnet/api/system.int64?view=netframework-4.6) y
-* [long](https://docs.microsoft.com/en-us/dotnet/api/system.int64?view=netframework-4.6) z
+* [long](https://docs.microsoft.com/en-us/dotnet/api/System.Int64?view=netframework-4.6) x
+* [long](https://docs.microsoft.com/en-us/dotnet/api/System.Int64?view=netframework-4.6) y
+* [long](https://docs.microsoft.com/en-us/dotnet/api/System.Int64?view=netframework-4.6) z
 ### Summary
 
 ```csharp
@@ -55,6 +55,6 @@ public Vector3L(float x, float y, float z)
 
 ### Parameters
 
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) x
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) y
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) z
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) x
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) y
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) z

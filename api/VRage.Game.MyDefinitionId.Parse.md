@@ -16,4 +16,4 @@ Attempts to create a definition ID from a definition string, which has the form 
 
 ### Parameters
 
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) id
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) id

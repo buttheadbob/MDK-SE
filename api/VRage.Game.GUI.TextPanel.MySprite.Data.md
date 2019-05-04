@@ -10,5 +10,5 @@ Data to be rendered, depending on what the layer type is. This can be text or a 
 
 ### Returns
 
-[string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6)
+[string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6)
 

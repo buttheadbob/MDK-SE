@@ -8,6 +8,6 @@ public void SendBroadcastMessage<TData>(string tag, TData data, TransmissionDist
 
 ### Parameters
 
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) tag
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) tag
 * [TData]() data
 * [TransmissionDistance](Sandbox.ModAPI.Ingame.TransmissionDistance) transmissionDistance

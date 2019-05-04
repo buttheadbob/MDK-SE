@@ -14,12 +14,12 @@ Builds a customized, perspective projection matrix.
 
 ### Parameters
 
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) left
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) right
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) bottom
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) top
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) nearPlaneDistance
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) farPlaneDistance
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) left
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) right
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) bottom
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) top
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) nearPlaneDistance
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) farPlaneDistance
 ### Summary
 
 ```csharp
@@ -30,10 +30,10 @@ Builds a customized, perspective projection matrix.
 
 ### Parameters
 
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) left
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) right
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) bottom
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) top
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) nearPlaneDistance
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) farPlaneDistance
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) left
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) right
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) bottom
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) top
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) nearPlaneDistance
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) farPlaneDistance
 * [MatrixD](VRageMath.MatrixD) result

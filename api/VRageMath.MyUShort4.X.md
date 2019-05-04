@@ -8,5 +8,5 @@ public ushort X
 
 ### Returns
 
-[ushort](https://docs.microsoft.com/en-us/dotnet/api/system.uint16?view=netframework-4.6)
+[ushort](https://docs.microsoft.com/en-us/dotnet/api/System.UInt16?view=netframework-4.6)
 

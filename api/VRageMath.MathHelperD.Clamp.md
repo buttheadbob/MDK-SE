@@ -10,10 +10,10 @@ Restricts a value to be within a specified range. Reference page contains links 
 
 ### Returns
 
-[double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6)
+[double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6)
 
 ### Parameters
 
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) value
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) min
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) max
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) value
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) min
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) max

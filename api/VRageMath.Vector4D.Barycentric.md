@@ -17,8 +17,8 @@ Returns a Vector4 containing the 4D Cartesian coordinates of a point specified i
 * [Vector4D](VRageMath.Vector4D) value1
 * [Vector4D](VRageMath.Vector4D) value2
 * [Vector4D](VRageMath.Vector4D) value3
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) amount1
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) amount2
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) amount1
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) amount2
 ### Summary
 
 ```csharp
@@ -32,6 +32,6 @@ Returns a Vector4 containing the 4D Cartesian coordinates of a point specified i
 * [Vector4D](VRageMath.Vector4D) value1
 * [Vector4D](VRageMath.Vector4D) value2
 * [Vector4D](VRageMath.Vector4D) value3
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) amount1
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) amount2
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) amount1
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) amount2
 * [Vector4D](VRageMath.Vector4D) result

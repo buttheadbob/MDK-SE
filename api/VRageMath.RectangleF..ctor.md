@@ -18,7 +18,7 @@ public RectangleF(float x, float y, float width, float height)
 
 ### Parameters
 
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) x
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) y
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) width
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) height
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) x
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) y
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) width
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) height

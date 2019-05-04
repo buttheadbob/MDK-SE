@@ -8,7 +8,7 @@ public Vector3I(int xyz)
 
 ### Parameters
 
-* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) xyz
+* [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) xyz
 ### Summary
 
 ```csharp
@@ -17,9 +17,9 @@ public Vector3I(int x, int y, int z)
 
 ### Parameters
 
-* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) x
-* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) y
-* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) z
+* [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) x
+* [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) y
+* [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) z
 ### Summary
 
 ```csharp
@@ -29,7 +29,7 @@ public Vector3I(Vector2I xy, int z)
 ### Parameters
 
 * [Vector2I](VRageMath.Vector2I) xy
-* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) z
+* [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) z
 ### Summary
 
 ```csharp
@@ -65,9 +65,9 @@ public Vector3I(float x, float y, float z)
 
 ### Parameters
 
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) x
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) y
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) z
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) x
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) y
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) z
 ### Summary
 
 ```csharp
@@ -76,5 +76,5 @@ public Vector3I(Byte[] bytes, int index)
 
 ### Parameters
 
-* [Byte[]](https://docs.microsoft.com/en-us/dotnet/api/system.byte[]?view=netframework-4.6) bytes
-* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) index
+* [Byte[]](https://docs.microsoft.com/en-us/dotnet/api/System.Byte[]?view=netframework-4.6) bytes
+* [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) index

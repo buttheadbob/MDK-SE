@@ -26,9 +26,9 @@ public Vector3S(short x, short y, short z)
 
 ### Parameters
 
-* [short](https://docs.microsoft.com/en-us/dotnet/api/system.int16?view=netframework-4.6) x
-* [short](https://docs.microsoft.com/en-us/dotnet/api/system.int16?view=netframework-4.6) y
-* [short](https://docs.microsoft.com/en-us/dotnet/api/system.int16?view=netframework-4.6) z
+* [short](https://docs.microsoft.com/en-us/dotnet/api/System.Int16?view=netframework-4.6) x
+* [short](https://docs.microsoft.com/en-us/dotnet/api/System.Int16?view=netframework-4.6) y
+* [short](https://docs.microsoft.com/en-us/dotnet/api/System.Int16?view=netframework-4.6) z
 ### Summary
 
 ```csharp
@@ -37,6 +37,6 @@ public Vector3S(float x, float y, float z)
 
 ### Parameters
 
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) x
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) y
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) z
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) x
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) y
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) z

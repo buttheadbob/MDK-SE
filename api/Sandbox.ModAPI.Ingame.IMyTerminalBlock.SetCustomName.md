@@ -8,7 +8,7 @@ public void SetCustomName(string text)
 
 ### Parameters
 
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) text
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) text
 ### Summary
 
 ```csharp
@@ -17,4 +17,4 @@ public void SetCustomName(StringBuilder text)
 
 ### Parameters
 
-* [StringBuilder](https://docs.microsoft.com/en-us/dotnet/api/system.text.stringbuilder?view=netframework-4.6) text
+* [StringBuilder](https://docs.microsoft.com/en-us/dotnet/api/System.Text.StringBuilder?view=netframework-4.6) text

@@ -17,8 +17,8 @@ Returns a Vector3 containing the 3D Cartesian coordinates of a point specified i
 * [Vector3](VRageMath.Vector3) value1
 * [Vector3](VRageMath.Vector3) value2
 * [Vector3](VRageMath.Vector3) value3
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) amount1
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) amount2
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) amount1
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) amount2
 ### Summary
 
 ```csharp
@@ -32,8 +32,8 @@ Returns a Vector3 containing the 3D Cartesian coordinates of a point specified i
 * [Vector3](VRageMath.Vector3) value1
 * [Vector3](VRageMath.Vector3) value2
 * [Vector3](VRageMath.Vector3) value3
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) amount1
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) amount2
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) amount1
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) amount2
 * [Vector3](VRageMath.Vector3) result
 ### Summary
 
@@ -49,6 +49,6 @@ Compute barycentric coordinates (u, v, w) for point p with respect to triangle (
 * [Vector3](VRageMath.Vector3) a
 * [Vector3](VRageMath.Vector3) b
 * [Vector3](VRageMath.Vector3) c
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) u
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) v
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) w
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) u
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) v
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) w

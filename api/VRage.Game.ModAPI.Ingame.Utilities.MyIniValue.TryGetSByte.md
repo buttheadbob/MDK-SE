@@ -10,10 +10,10 @@ Attempts to get this value as a [System.SByte](https://docs.microsoft.com/en-us/
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 `true`if the value could be understood as this data type;`false`otherwise
 
 ### Parameters
 
-* [sbyte](https://docs.microsoft.com/en-us/dotnet/api/system.sbyte?view=netframework-4.6) value
+* [sbyte](https://docs.microsoft.com/en-us/dotnet/api/System.SByte?view=netframework-4.6) value

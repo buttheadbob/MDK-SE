@@ -18,7 +18,7 @@ Performs a Catmull-Rom interpolation using the specified positions.
 * [Vector2D](VRageMath.Vector2D) value2
 * [Vector2D](VRageMath.Vector2D) value3
 * [Vector2D](VRageMath.Vector2D) value4
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) amount
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) amount
 ### Summary
 
 ```csharp
@@ -33,5 +33,5 @@ Performs a Catmull-Rom interpolation using the specified positions.
 * [Vector2D](VRageMath.Vector2D) value2
 * [Vector2D](VRageMath.Vector2D) value3
 * [Vector2D](VRageMath.Vector2D) value4
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) amount
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) amount
 * [Vector2D](VRageMath.Vector2D) result

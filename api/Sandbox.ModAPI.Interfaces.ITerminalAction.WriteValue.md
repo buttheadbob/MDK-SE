@@ -9,4 +9,4 @@ public void WriteValue(IMyCubeBlock block, StringBuilder appendTo)
 ### Parameters
 
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock) block
-* [StringBuilder](https://docs.microsoft.com/en-us/dotnet/api/system.text.stringbuilder?view=netframework-4.6) appendTo
+* [StringBuilder](https://docs.microsoft.com/en-us/dotnet/api/System.Text.StringBuilder?view=netframework-4.6) appendTo

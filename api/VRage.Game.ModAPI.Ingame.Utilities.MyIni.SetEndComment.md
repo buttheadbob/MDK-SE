@@ -10,4 +10,4 @@ Sets a comment to be placed after the last section or item. Set the comment to`n
 
 ### Parameters
 
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) comment
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) comment

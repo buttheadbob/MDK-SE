@@ -10,11 +10,11 @@ Attempts to get the elevation of the ship in relation to the nearest planet. Thi
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 
 
 ### Parameters
 
 * [MyPlanetElevation](Sandbox.ModAPI.Ingame.MyPlanetElevation) detail
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) elevation
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) elevation

@@ -27,5 +27,5 @@ public BoundingBoxI(int min, int max)
 
 ### Parameters
 
-* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) min
-* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) max
+* [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) min
+* [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) max

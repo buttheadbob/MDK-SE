@@ -10,5 +10,5 @@ Pushes the edges of the Rectangle out by the horizontal and vertical values spec
 
 ### Parameters
 
-* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) horizontalAmount
-* [int](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=netframework-4.6) verticalAmount
+* [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) horizontalAmount
+* [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) verticalAmount

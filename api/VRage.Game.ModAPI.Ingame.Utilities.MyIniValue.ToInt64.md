@@ -10,10 +10,10 @@ Attempts to get this value as a [System.Int64](https://docs.microsoft.com/en-us/
 
 ### Returns
 
-[long](https://docs.microsoft.com/en-us/dotnet/api/system.int64?view=netframework-4.6)
+[long](https://docs.microsoft.com/en-us/dotnet/api/System.Int64?view=netframework-4.6)
 
 
 
 ### Parameters
 
-* [long](https://docs.microsoft.com/en-us/dotnet/api/system.int64?view=netframework-4.6) defaultValue
+* [long](https://docs.microsoft.com/en-us/dotnet/api/System.Int64?view=netframework-4.6) defaultValue

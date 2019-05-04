@@ -8,9 +8,9 @@ public Vector3(float x, float y, float z)
 
 ### Parameters
 
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) x
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) y
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) z
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) x
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) y
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) z
 ### Summary
 
 ```csharp
@@ -19,9 +19,9 @@ public Vector3(double x, double y, double z)
 
 ### Parameters
 
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) x
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) y
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) z
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) x
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) y
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) z
 ### Summary
 
 ```csharp
@@ -30,7 +30,7 @@ public Vector3(float value)
 
 ### Parameters
 
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) value
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) value
 ### Summary
 
 ```csharp
@@ -40,7 +40,7 @@ public Vector3(Vector2 value, float z)
 ### Parameters
 
 * [Vector2](VRageMath.Vector2) value
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) z
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) z
 ### Summary
 
 ```csharp

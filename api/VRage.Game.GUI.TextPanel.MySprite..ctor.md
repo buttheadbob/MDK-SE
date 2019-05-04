@@ -9,10 +9,10 @@ public MySprite(SpriteType type, string data, Nullable<VRageMath.Vector2> positi
 ### Parameters
 
 * [SpriteType](VRage.Game.GUI.TextPanel.SpriteType) type
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) data
-* [Nullable<VRageMath.Vector2>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) position
-* [Nullable<VRageMath.Vector2>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) size
-* [Nullable<VRageMath.Color>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) color
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) fontId
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) data
+* [Nullable<VRageMath.Vector2>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6) position
+* [Nullable<VRageMath.Vector2>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6) size
+* [Nullable<VRageMath.Color>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6) color
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) fontId
 * [TextAlignment](VRage.Game.GUI.TextPanel.TextAlignment) alignment
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) rotation
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) rotation

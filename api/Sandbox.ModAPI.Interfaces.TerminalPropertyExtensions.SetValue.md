@@ -9,5 +9,5 @@ public static void SetValue<T>(this IMyTerminalBlock block, string propertyId, 
 ### Parameters
 
 * [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock) block
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) propertyId
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) propertyId
 * [T]() value

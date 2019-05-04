@@ -14,12 +14,12 @@ Builds a customized, perspective projection matrix.
 
 ### Parameters
 
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) left
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) right
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) bottom
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) top
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) nearPlaneDistance
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) farPlaneDistance
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) left
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) right
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) bottom
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) top
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) nearPlaneDistance
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) farPlaneDistance
 ### Summary
 
 ```csharp
@@ -30,10 +30,10 @@ Builds a customized, perspective projection matrix.
 
 ### Parameters
 
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) left
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) right
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) bottom
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) top
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) nearPlaneDistance
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) farPlaneDistance
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) left
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) right
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) bottom
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) top
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) nearPlaneDistance
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) farPlaneDistance
 * [Matrix](VRageMath.Matrix) result

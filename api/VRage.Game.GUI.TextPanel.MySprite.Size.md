@@ -10,5 +10,5 @@ Render size for this layer. If not set, it will be sized to take up the whole te
 
 ### Returns
 
-[Nullable<VRageMath.Vector2>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
+[Nullable<VRageMath.Vector2>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6)
 

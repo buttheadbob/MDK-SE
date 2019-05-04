@@ -10,5 +10,5 @@ Gets the time elapsed since the last time the Main method of this program was ru
 
 ### Returns
 
-[TimeSpan](https://docs.microsoft.com/en-us/dotnet/api/system.timespan?view=netframework-4.6)
+[TimeSpan](https://docs.microsoft.com/en-us/dotnet/api/System.TimeSpan?view=netframework-4.6)
 

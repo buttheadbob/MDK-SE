@@ -10,7 +10,7 @@ Tries to find an item of given type inside this inventory.
 
 ### Returns
 
-[Nullable<VRage.Game.ModAPI.Ingame.MyInventoryItem>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6)
+[Nullable<VRage.Game.ModAPI.Ingame.MyInventoryItem>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6)
 
 Info about item found, null in case there is no item of given type inside this inventory
 

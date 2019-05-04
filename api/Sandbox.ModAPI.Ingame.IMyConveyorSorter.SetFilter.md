@@ -9,4 +9,4 @@ public void SetFilter(MyConveyorSorterMode mode, List<Sandbox.ModAPI.Ingame.MyIn
 ### Parameters
 
 * [MyConveyorSorterMode](Sandbox.ModAPI.Ingame.MyConveyorSorterMode) mode
-* [List<Sandbox.ModAPI.Ingame.MyInventoryItemFilter>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) items
+* [List<Sandbox.ModAPI.Ingame.MyInventoryItemFilter>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) items

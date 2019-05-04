@@ -9,5 +9,5 @@ public void GetAproximateClustersForAabb(ref BoundingBoxD bbox, double minSize,
 ### Parameters
 
 * [BoundingBoxD](VRageMath.BoundingBoxD) bbox
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) minSize
-* [List<VRageMath.BoundingBoxD>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) boundList
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) minSize
+* [List<VRageMath.BoundingBoxD>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) boundList

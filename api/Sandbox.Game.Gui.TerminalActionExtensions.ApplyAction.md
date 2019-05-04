@@ -9,7 +9,7 @@ public static void ApplyAction(this IMyTerminalBlock block, string name)
 ### Parameters
 
 * [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock) block
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) name
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) name
 ### Summary
 
 ```csharp
@@ -19,5 +19,5 @@ public static void ApplyAction(this IMyTerminalBlock block, string name, ListRe
 ### Parameters
 
 * [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock) block
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) name
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) name
 * [ListReader<Sandbox.ModAPI.Ingame.TerminalActionParameter>](VRage.Collections.ListReader`1[[Sandbox.ModAPI.Ingame.TerminalActionParameter, Sandbox.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]) parameters

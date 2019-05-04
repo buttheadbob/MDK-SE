@@ -8,6 +8,6 @@ public void SearchBlocksOfName(string name, List<Sandbox.ModAPI.Ingame.IMyTermin
 
 ### Parameters
 
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) name
-* [List<Sandbox.ModAPI.Ingame.IMyTerminalBlock>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) blocks
-* [Func<Sandbox.ModAPI.Ingame.IMyTerminalBlock, System.Boolean>](https://docs.microsoft.com/en-us/dotnet/api/system.func?view=netframework-4.6) collect
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) name
+* [List<Sandbox.ModAPI.Ingame.IMyTerminalBlock>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) blocks
+* [Func<Sandbox.ModAPI.Ingame.IMyTerminalBlock, System.Boolean>](https://docs.microsoft.com/en-us/dotnet/api/System.Func-2?view=netframework-4.6) collect

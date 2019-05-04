@@ -8,5 +8,5 @@ public Enumerator<T> GetEnumerator()
 
 ### Returns
 
-[Enumerator<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.enumerator?view=netframework-4.6)
+[Enumerator<T>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1+Enumerator?view=netframework-4.6)
 

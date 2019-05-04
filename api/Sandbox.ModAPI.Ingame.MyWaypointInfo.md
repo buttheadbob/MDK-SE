@@ -12,7 +12,7 @@ Represents a GPS coordinate
 **Assembly:** Sandbox.Common.dll
 
 **Implements:**  
-* [IEquatable<Sandbox.ModAPI.Ingame.MyWaypointInfo>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable?view=netframework-4.6)
+* [IEquatable<Sandbox.ModAPI.Ingame.MyWaypointInfo>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 

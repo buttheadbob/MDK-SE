@@ -8,5 +8,5 @@ public void GetItems(List<VRage.Game.ModAPI.Ingame.MyInventoryItem> items, Func<
 
 ### Parameters
 
-* [List<VRage.Game.ModAPI.Ingame.MyInventoryItem>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list?view=netframework-4.6) items
-* [Func<VRage.Game.ModAPI.Ingame.MyInventoryItem, System.Boolean>](https://docs.microsoft.com/en-us/dotnet/api/system.func?view=netframework-4.6) filter
+* [List<VRage.Game.ModAPI.Ingame.MyInventoryItem>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) items
+* [Func<VRage.Game.ModAPI.Ingame.MyInventoryItem, System.Boolean>](https://docs.microsoft.com/en-us/dotnet/api/System.Func-2?view=netframework-4.6) filter

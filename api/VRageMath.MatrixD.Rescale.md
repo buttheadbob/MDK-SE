@@ -11,7 +11,7 @@ Same result as Matrix.CreateScale(scale) * matrix, but much faster
 ### Parameters
 
 * [MatrixD](VRageMath.MatrixD) matrix
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) scale
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) scale
 ### Summary
 
 ```csharp
@@ -23,7 +23,7 @@ Same result as Matrix.CreateScale(scale) * matrix, but much faster
 ### Parameters
 
 * [MatrixD](VRageMath.MatrixD) matrix
-* [float](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) scale
+* [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6) scale
 ### Summary
 
 ```csharp
@@ -49,7 +49,7 @@ public static MatrixD Rescale(MatrixD matrix, double scale)
 ### Parameters
 
 * [MatrixD](VRageMath.MatrixD) matrix
-* [double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=netframework-4.6) scale
+* [double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6) scale
 ### Summary
 
 ```csharp

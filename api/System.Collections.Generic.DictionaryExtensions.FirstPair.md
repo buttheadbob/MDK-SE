@@ -8,8 +8,8 @@ public static KeyValuePair<K, V> FirstPair<K, V>(this Dictionary<K, V> dictiona
 
 ### Returns
 
-[KeyValuePair<K, V>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.keyvaluepair?view=netframework-4.6)
+[KeyValuePair<K, V>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.KeyValuePair-2?view=netframework-4.6)
 
 ### Parameters
 
-* [Dictionary<K, V>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary?view=netframework-4.6) dictionary
+* [Dictionary<K, V>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netframework-4.6) dictionary

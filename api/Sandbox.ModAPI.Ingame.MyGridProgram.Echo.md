@@ -10,5 +10,5 @@ Prints out text onto the currently running programmable block's detail info area
 
 ### Returns
 
-[Action<System.String>](https://docs.microsoft.com/en-us/dotnet/api/system.action?view=netframework-4.6)
+[Action<System.String>](https://docs.microsoft.com/en-us/dotnet/api/System.Action-1?view=netframework-4.6)
 

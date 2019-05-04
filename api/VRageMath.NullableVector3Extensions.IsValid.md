@@ -8,8 +8,8 @@ public static bool IsValid(this Nullable<VRageMath.Vector3> value)
 
 ### Returns
 
-[bool](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6)
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
 ### Parameters
 
-* [Nullable<VRageMath.Vector3>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable?view=netframework-4.6) value
+* [Nullable<VRageMath.Vector3>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6) value

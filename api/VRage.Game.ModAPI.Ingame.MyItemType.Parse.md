@@ -12,4 +12,4 @@ public static MyItemType Parse(string itemType)
 
 ### Parameters
 
-* [string](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.6) itemType
+* [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) itemType

@@ -177,7 +177,6 @@ This index contains all types and members available to ingame scripting - with e
 [ClearToken&lt;T&gt;](System.Collections.Generic.ClearToken`1)  
 [DictionaryExtensions](System.Collections.Generic.DictionaryExtensions)  
 [HashSetExtensions](System.Collections.Generic.HashSetExtensions)  
-[HashSetExtensions.HashSetInternalAccessor&lt;T&gt;](System.Collections.Generic.HashSetExtensions+HashSetInternalAccessor`1)  
 [ListExtensions](System.Collections.Generic.ListExtensions)  
 [QueueExtensions](System.Collections.Generic.QueueExtensions)
 
@@ -190,7 +189,7 @@ This index contains all types and members available to ingame scripting - with e
 [MyFixedPoint](VRage.MyFixedPoint)  
 [MyLanguagesEnum](VRage.MyLanguagesEnum)  
 [MyTexts](VRage.MyTexts)  
-[MyTexts.LanguageDescription](VRage.MyTexts+LanguageDescription)  
+[MyTexts.MyLanguageDescription](VRage.MyTexts+MyLanguageDescription)  
 [MyTuple](VRage.MyTuple)  
 [MyTuple&lt;T1, T2, T3, T4, T5, T6&gt;](VRage.MyTuple`6)  
 [MyTuple&lt;T1, T2, T3, T4, T5&gt;](VRage.MyTuple`5)  

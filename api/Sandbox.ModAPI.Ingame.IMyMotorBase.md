@@ -18,8 +18,8 @@ public interface IMyMotorBase: IMyMechanicalConnectionBlock, IMyFunctionalBlock,
 
 **Inheritors:**  
 * [IMyMotorAdvancedStator](Sandbox.ModAPI.Ingame.IMyMotorAdvancedStator)  
-* [IMyMotorSuspension](Sandbox.ModAPI.Ingame.IMyMotorSuspension)  
-* [IMyMotorStator](Sandbox.ModAPI.Ingame.IMyMotorStator)
+* [IMyMotorStator](Sandbox.ModAPI.Ingame.IMyMotorStator)  
+* [IMyMotorSuspension](Sandbox.ModAPI.Ingame.IMyMotorSuspension)
 
 #### Properties
 

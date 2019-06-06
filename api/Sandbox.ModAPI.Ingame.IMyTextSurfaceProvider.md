@@ -10,8 +10,8 @@ public interface IMyTextSurfaceProvider
 **Assembly:** Sandbox.Common.dll
 
 **Inheritors:**  
-* [IMyCryoChamber](Sandbox.ModAPI.Ingame.IMyCryoChamber)  
 * [IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit)  
+* [IMyCryoChamber](Sandbox.ModAPI.Ingame.IMyCryoChamber)  
 * [IMyProgrammableBlock](Sandbox.ModAPI.Ingame.IMyProgrammableBlock)  
 * [IMyProjector](Sandbox.ModAPI.Ingame.IMyProjector)
 

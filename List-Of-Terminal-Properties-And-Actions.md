@@ -316,6 +316,7 @@
 |ShowInInventory|bool|
 |ShowInTerminal|bool|
 |ShowInToolbarConfig|bool|
+|ShowOnHUD|bool|
 
 ## IMyButtonPanel
 

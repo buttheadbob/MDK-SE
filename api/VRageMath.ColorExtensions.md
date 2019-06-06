@@ -17,6 +17,7 @@ public abstract sealed class ColorExtensions
 |[ColorToHSVDX11(this Color)](VRageMath.ColorExtensions.ColorToHSVDX11)|Use this for HSV in DX11 Renderer, X = Hue 0..1, Y = Saturation -1..1, Z = Value -1..1|
 |[HexToColor(string)](VRageMath.ColorExtensions.HexToColor)||
 |[HexToVector4(string)](VRageMath.ColorExtensions.HexToVector4)||
+|[FromHtml(string)](VRageMath.ColorExtensions.FromHtml)||
 |[HSVtoColor(this Vector3)](VRageMath.ColorExtensions.HSVtoColor)||
 |[PackHSVToUint(this Vector3)](VRageMath.ColorExtensions.PackHSVToUint)||
 |[UnpackHSVFromUint(uint)](VRageMath.ColorExtensions.UnpackHSVFromUint)||

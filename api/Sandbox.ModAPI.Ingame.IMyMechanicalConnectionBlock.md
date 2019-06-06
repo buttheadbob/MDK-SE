@@ -19,8 +19,8 @@ public interface IMyMechanicalConnectionBlock: IMyFunctionalBlock, IMyTerminalBl
 * [IMyExtendedPistonBase](Sandbox.ModAPI.Ingame.IMyExtendedPistonBase)  
 * [IMyMotorAdvancedStator](Sandbox.ModAPI.Ingame.IMyMotorAdvancedStator)  
 * [IMyMotorBase](Sandbox.ModAPI.Ingame.IMyMotorBase)  
-* [IMyMotorSuspension](Sandbox.ModAPI.Ingame.IMyMotorSuspension)  
 * [IMyMotorStator](Sandbox.ModAPI.Ingame.IMyMotorStator)  
+* [IMyMotorSuspension](Sandbox.ModAPI.Ingame.IMyMotorSuspension)  
 * [IMyPistonBase](Sandbox.ModAPI.Ingame.IMyPistonBase)
 
 #### Properties

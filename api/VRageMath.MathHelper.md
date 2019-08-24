@@ -74,6 +74,12 @@ Contains commonly used precalculated values.
 |[Min(double, double, double)](VRageMath.MathHelper.Min)||
 |[ComputeHashFromBytes(Byte[])](VRageMath.MathHelper.ComputeHashFromBytes)||
 |[RoundOn2(float)](VRageMath.MathHelper.RoundOn2)||
+|[RoundToInt(float)](VRageMath.MathHelper.RoundToInt)||
+|[RoundToInt(double)](VRageMath.MathHelper.RoundToInt)||
+|[FloorToInt(float)](VRageMath.MathHelper.FloorToInt)||
+|[FloorToInt(double)](VRageMath.MathHelper.FloorToInt)||
+|[CeilToInt(float)](VRageMath.MathHelper.CeilToInt)||
+|[CeilToInt(double)](VRageMath.MathHelper.CeilToInt)||
 |[IsPowerOfTwo(int)](VRageMath.MathHelper.IsPowerOfTwo)|Returns true if value is power of two|
 |[SCurve3(float)](VRageMath.MathHelper.SCurve3)||
 |[SCurve3(double)](VRageMath.MathHelper.SCurve3)||

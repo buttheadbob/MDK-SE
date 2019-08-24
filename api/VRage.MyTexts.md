@@ -34,5 +34,6 @@ public abstract sealed class MyTexts
 |[IsTagged(string, int, string)](VRage.MyTexts.IsTagged)||
 |[LoadTexts(string, string, string)](VRage.MyTexts.LoadTexts)||
 |[AppendFormat(this StringBuilder, MyStringId, object)](VRage.MyTexts.AppendFormat)||
+|[AppendFormat(this StringBuilder, MyStringId, Object[])](VRage.MyTexts.AppendFormat)||
 |[AppendFormat(this StringBuilder, MyStringId, MyStringId)](VRage.MyTexts.AppendFormat)||
 

@@ -14,5 +14,4 @@ public abstract sealed class HashSetExtensions
 |Member|Description|
 |---|---|
 |[FirstElement(this HashSet)](System.Collections.Generic.HashSetExtensions.FirstElement)||
-|[TryGetValue(this HashSet, T, ref T)](System.Collections.Generic.HashSetExtensions.TryGetValue)|_**Obsolete:** This method depends on runtime internals and is not compatible with alternative runtimes (such as mono)._|
 

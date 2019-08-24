@@ -78,6 +78,7 @@ public interface IMyFunctionalBlock: IMyTerminalBlock, IMyCubeBlock, IMyEntity
 * [IMyLargeMissileTurret](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeMissileTurret)  
 * [IMyMedicalRoom](SpaceEngineers.Game.ModAPI.Ingame.IMyMedicalRoom)  
 * [IMyParachute](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute)  
+* [IMySafeZoneBlock](SpaceEngineers.Game.ModAPI.Ingame.IMySafeZoneBlock)  
 * [IMyShipMergeBlock](SpaceEngineers.Game.ModAPI.Ingame.IMyShipMergeBlock)  
 * [IMySolarPanel](SpaceEngineers.Game.ModAPI.Ingame.IMySolarPanel)  
 * [IMySoundBlock](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock)  

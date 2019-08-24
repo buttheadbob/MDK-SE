@@ -18,4 +18,5 @@ public enum MyRelationsBetweenPlayerAndBlock
 |FactionShare||
 |Neutral||
 |Enemies||
+|Friends||
 

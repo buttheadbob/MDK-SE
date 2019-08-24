@@ -159,6 +159,7 @@ This index contains all types and members available to ingame scripting - with e
 [IMyMedicalRoom](SpaceEngineers.Game.ModAPI.Ingame.IMyMedicalRoom)  
 [IMyOxygenFarm](SpaceEngineers.Game.ModAPI.Ingame.IMyOxygenFarm)  
 [IMyParachute](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute)  
+[IMySafeZoneBlock](SpaceEngineers.Game.ModAPI.Ingame.IMySafeZoneBlock)  
 [IMyShipMergeBlock](SpaceEngineers.Game.ModAPI.Ingame.IMyShipMergeBlock)  
 [IMySolarPanel](SpaceEngineers.Game.ModAPI.Ingame.IMySolarPanel)  
 [IMySoundBlock](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock)  
@@ -222,6 +223,8 @@ This index contains all types and members available to ingame scripting - with e
 ### VRage.Game.GUI.TextPanel
 
 [ContentType](VRage.Game.GUI.TextPanel.ContentType)  
+[MySerializableSprite](VRage.Game.GUI.TextPanel.MySerializableSprite)  
+[MySerializableSpriteCollection](VRage.Game.GUI.TextPanel.MySerializableSpriteCollection)  
 [MySprite](VRage.Game.GUI.TextPanel.MySprite)  
 [MySpriteCollection](VRage.Game.GUI.TextPanel.MySpriteCollection)  
 [MySpriteDrawFrame](VRage.Game.GUI.TextPanel.MySpriteDrawFrame)  

@@ -22,4 +22,7 @@ Accessible via `GetItemInfo` extension method on `MyItemType`
 |[UsesFractions](VRage.Game.ModAPI.Ingame.MyItemInfo.UsesFractions)|Ores and ingots are fractional. Ordinary items are not|
 |[IsOre](VRage.Game.ModAPI.Ingame.MyItemInfo.IsOre)||
 |[IsIngot](VRage.Game.ModAPI.Ingame.MyItemInfo.IsIngot)||
+|[IsComponent](VRage.Game.ModAPI.Ingame.MyItemInfo.IsComponent)||
+|[IsTool](VRage.Game.ModAPI.Ingame.MyItemInfo.IsTool)||
+|[IsAmmo](VRage.Game.ModAPI.Ingame.MyItemInfo.IsAmmo)||
 

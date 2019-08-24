@@ -95,6 +95,7 @@ Ingame (Programmable Block) interface for all entities.
 * [IMyMedicalRoom](SpaceEngineers.Game.ModAPI.Ingame.IMyMedicalRoom)  
 * [IMyOxygenFarm](SpaceEngineers.Game.ModAPI.Ingame.IMyOxygenFarm)  
 * [IMyParachute](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute)  
+* [IMySafeZoneBlock](SpaceEngineers.Game.ModAPI.Ingame.IMySafeZoneBlock)  
 * [IMyShipMergeBlock](SpaceEngineers.Game.ModAPI.Ingame.IMyShipMergeBlock)  
 * [IMySolarPanel](SpaceEngineers.Game.ModAPI.Ingame.IMySolarPanel)  
 * [IMySoundBlock](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock)  

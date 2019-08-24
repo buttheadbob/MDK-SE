@@ -30,7 +30,6 @@ public abstract sealed class ColorExtensions
 |[ToLinearRGB(this Vector4)](VRageMath.ColorExtensions.ToLinearRGB)||
 |[ToLinearRGB(this Vector3)](VRageMath.ColorExtensions.ToLinearRGB)||
 |[ToSRGB(this Vector3)](VRageMath.ColorExtensions.ToSRGB)||
-|[ToHsv(this Vector3)](VRageMath.ColorExtensions.ToHsv)||
 |[ToGray(this Vector3)](VRageMath.ColorExtensions.ToGray)||
 |[ToGray(this Vector4)](VRageMath.ColorExtensions.ToGray)||
 |[ToLinearRGBComponent(float)](VRageMath.ColorExtensions.ToLinearRGBComponent)||

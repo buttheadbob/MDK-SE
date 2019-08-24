@@ -3,11 +3,14 @@
 #### MySprite Struct
 
 ```csharp
-public struct MySprite
+public struct MySprite: IEquatable<VRage.Game.GUI.TextPanel.MySprite>
 ```
 
 **Namespace:** [VRage.Game.GUI.TextPanel](VRage.Game.GUI.TextPanel)  
 **Assembly:** VRage.Game.dll
+
+**Implements:**  
+* [IEquatable<VRage.Game.GUI.TextPanel.MySprite>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 
@@ -34,4 +37,7 @@ public struct MySprite
 |---|---|
 |[CreateSprite(string, Vector2, Vector2)](VRage.Game.GUI.TextPanel.MySprite.CreateSprite)||
 |[CreateText(string, string, Color, float, TextAlignment)](VRage.Game.GUI.TextPanel.MySprite.CreateText)||
+|[Equals(MySprite)](VRage.Game.GUI.TextPanel.MySprite.Equals)||
+|[Equals(object)](VRage.Game.GUI.TextPanel.MySprite.Equals)||
+|[GetHashCode()](VRage.Game.GUI.TextPanel.MySprite.GetHashCode)||
 

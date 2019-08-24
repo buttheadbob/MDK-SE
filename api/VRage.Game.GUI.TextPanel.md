@@ -3,6 +3,8 @@
 # VRage.Game.GUI.TextPanel
 
 **[ContentType](VRage.Game.GUI.TextPanel.ContentType)**  
+**[MySerializableSprite](VRage.Game.GUI.TextPanel.MySerializableSprite)**  
+**[MySerializableSpriteCollection](VRage.Game.GUI.TextPanel.MySerializableSpriteCollection)**  
 **[MySprite](VRage.Game.GUI.TextPanel.MySprite)**  
 **[MySpriteCollection](VRage.Game.GUI.TextPanel.MySpriteCollection)**  
 **[MySpriteDrawFrame](VRage.Game.GUI.TextPanel.MySpriteDrawFrame)**  

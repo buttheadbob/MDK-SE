@@ -39,4 +39,7 @@ public struct MyItemType: IComparable<VRage.Game.ModAPI.Ingame.MyItemType>, IEqu
 |[Parse(string)](VRage.Game.ModAPI.Ingame.MyItemType.Parse)||
 |[MakeOre(string)](VRage.Game.ModAPI.Ingame.MyItemType.MakeOre)||
 |[MakeIngot(string)](VRage.Game.ModAPI.Ingame.MyItemType.MakeIngot)||
+|[MakeComponent(string)](VRage.Game.ModAPI.Ingame.MyItemType.MakeComponent)||
+|[MakeAmmo(string)](VRage.Game.ModAPI.Ingame.MyItemType.MakeAmmo)||
+|[MakeTool(string)](VRage.Game.ModAPI.Ingame.MyItemType.MakeTool)||
 

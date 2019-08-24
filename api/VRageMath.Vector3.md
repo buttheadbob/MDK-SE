@@ -63,6 +63,7 @@ Defines a vector with three components.
 
 |Member|Description|
 |---|---|
+|[Negate(Vector3)](VRageMath.Vector3.Negate)|Returns a vector pointing in the opposite direction.|
 |[Negate(ref Vector3, ref Vector3)](VRageMath.Vector3.Negate)|Returns a vector pointing in the opposite direction.|
 |[Add(Vector3, Vector3)](VRageMath.Vector3.Add)|Adds two vectors.|
 |[Add(ref Vector3, ref Vector3, ref Vector3)](VRageMath.Vector3.Add)|Adds two vectors.|
@@ -104,6 +105,7 @@ Defines a vector with three components.
 |[AssertIsValid()](VRageMath.Vector3.AssertIsValid)||
 |[IsUnit(ref Vector3)](VRageMath.Vector3.IsUnit)||
 |[ArePerpendicular(ref Vector3, ref Vector3)](VRageMath.Vector3.ArePerpendicular)||
+|[ArePerpendicular(Vector3, Vector3)](VRageMath.Vector3.ArePerpendicular)||
 |[IsZero(Vector3)](VRageMath.Vector3.IsZero)||
 |[IsZero(Vector3, float)](VRageMath.Vector3.IsZero)||
 |[IsZeroVector(Vector3)](VRageMath.Vector3.IsZeroVector)||
@@ -195,5 +197,4 @@ Defines a vector with three components.
 |[TransformNormal(Vector3[], int, ref Matrix, Vector3[], int, int)](VRageMath.Vector3.TransformNormal)|Transforms a specified range in an array of 3D vector normals by a specified Matrix and writes the results to a specified range in a destination array.|
 |[Transform(Vector3[], ref Quaternion, Vector3[])](VRageMath.Vector3.Transform)|Transforms a source array of Vector3s by a specified Quaternion rotation and writes the results to an existing destination array.|
 |[Transform(Vector3[], int, ref Quaternion, Vector3[], int, int)](VRageMath.Vector3.Transform)|Applies a specified Quaternion rotation to a specified range of an array of Vector3s and writes the results into a specified range of a destination array.|
-|[Negate(Vector3)](VRageMath.Vector3.Negate)|Returns a vector pointing in the opposite direction.|
 

@@ -50,6 +50,7 @@
 [IMyRefinery](#imyrefinery)  
 [IMyReflectorLight](#imyreflectorlight)  
 [IMyRemoteControl](#imyremotecontrol)  
+[IMySafeZoneBlock](#imysafezoneblock)  
 [IMySensorBlock](#imysensorblock)  
 [IMyShipConnector](#imyshipconnector)  
 [IMyShipController](#imyshipcontroller)  
@@ -75,6 +76,7 @@
 
 |Name|Description|
 |-|-|
+|AnyoneCanUse|Anyone Can Use On/Off|
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
@@ -89,6 +91,7 @@
 
 |Name|Type|
 |-|-|
+|AnyoneCanUse|bool|
 |Name|StringBuilder|
 |OnOff|bool|
 |Open|bool|
@@ -103,6 +106,7 @@
 
 |Name|Description|
 |-|-|
+|AnyoneCanUse|Anyone Can Use On/Off|
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
@@ -117,6 +121,7 @@
 
 |Name|Type|
 |-|-|
+|AnyoneCanUse|bool|
 |Name|StringBuilder|
 |OnOff|bool|
 |Open|bool|
@@ -131,6 +136,7 @@
 
 |Name|Description|
 |-|-|
+|AnyoneCanUse|Anyone Can Use On/Off|
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
@@ -145,6 +151,7 @@
 
 |Name|Type|
 |-|-|
+|AnyoneCanUse|bool|
 |Name|StringBuilder|
 |OnOff|bool|
 |Open|bool|
@@ -592,6 +599,7 @@
 
 |Name|Description|
 |-|-|
+|AnyoneCanUse|Anyone Can Use On/Off|
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
@@ -606,6 +614,7 @@
 
 |Name|Type|
 |-|-|
+|AnyoneCanUse|bool|
 |Name|StringBuilder|
 |OnOff|bool|
 |Open|bool|
@@ -1448,6 +1457,7 @@
 
 |Name|Description|
 |-|-|
+|AnyoneCanUse|Anyone Can Use On/Off|
 |AutoDeploy|Auto deploy On/Off|
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
@@ -1463,6 +1473,7 @@
 
 |Name|Type|
 |-|-|
+|AnyoneCanUse|bool|
 |AutoDeploy|bool|
 |AutoDeployHeight|float|
 |Name|StringBuilder|
@@ -1879,6 +1890,67 @@
 |ShowOnHUD|bool|
 |SpeedLimit|float|
 
+## IMySafeZoneBlock
+
+### Actions
+
+|Name|Description|
+|-|-|
+|DecreaseChangeIntervalSlider|Decrease Image change interval|
+|DecreaseFontSize|Decrease Font Size|
+|DecreaseSafeZoneXSlider|Decrease Set Width|
+|DecreaseTextPaddingSlider|Decrease Text Padding|
+|IncreaseChangeIntervalSlider|Increase Image change interval|
+|IncreaseFontSize|Increase Font Size|
+|IncreaseSafeZoneXSlider|Increase Set Width|
+|IncreaseTextPaddingSlider|Increase Text Padding|
+|OnOff|Toggle block On/Off|
+|OnOff_Off|Toggle block Off|
+|OnOff_On|Toggle block On|
+|PreserveAspectRatio|Preserve aspect ratio On/Off|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
+
+### Properties
+
+|Name|Type|
+|-|-|
+|alignment|long|
+|BackgroundColor|Color|
+|ChangeIntervalSlider|float|
+|Content|long|
+|Font|long|
+|FontColor|Color|
+|FontSize|float|
+|Name|StringBuilder|
+|OnOff|bool|
+|PreserveAspectRatio|bool|
+|SafeZoneBuildingCb|bool|
+|SafeZoneColor|Color|
+|SafeZoneConvertToStationCb|bool|
+|SafeZoneCreate|bool|
+|SafeZoneDamageCb|bool|
+|SafeZoneDrillingCb|bool|
+|SafeZoneGrindingCb|bool|
+|SafeZoneLandingGearCb|bool|
+|SafeZoneShapeCombo|long|
+|SafeZoneShootingCb|bool|
+|SafeZoneSlider|float|
+|SafeZoneTextureCombo|long|
+|SafeZoneVoxelHandCb|bool|
+|SafeZoneWeldingCb|bool|
+|SafeZoneXSlider|float|
+|SafeZoneYSlider|float|
+|SafeZoneZSlider|float|
+|ScriptBackgroundColor|Color|
+|ScriptForegroundColor|Color|
+|ShowInInventory|bool|
+|ShowInTerminal|bool|
+|ShowInToolbarConfig|bool|
+|ShowOnHUD|bool|
+|TextPaddingSlider|float|
+
 ## IMySensorBlock
 
 ### Actions
@@ -1973,7 +2045,9 @@
 |Name|Description|
 |-|-|
 |CollectAll|Collect All On/Off|
+|DecreaseAutoUnlockTime|Decrease Autounlock Time|
 |DecreaseStrength|Decrease Strength|
+|IncreaseAutoUnlockTime|Increase Autounlock Time|
 |IncreaseStrength|Increase Strength|
 |Lock|Lock|
 |OnOff|Toggle block On/Off|
@@ -1984,12 +2058,14 @@
 |ShowOnHUD_On|Show on HUD On|
 |SwitchLock|Switch lock|
 |ThrowOut|Throw Out On/Off|
+|Trading|Trading Enabled On/Off|
 |Unlock|Unlock|
 
 ### Properties
 
 |Name|Type|
 |-|-|
+|AutoUnlockTime|float|
 |CollectAll|bool|
 |Name|StringBuilder|
 |OnOff|bool|
@@ -1999,6 +2075,7 @@
 |ShowOnHUD|bool|
 |Strength|float|
 |ThrowOut|bool|
+|Trading|bool|
 
 ## IMyShipController
 

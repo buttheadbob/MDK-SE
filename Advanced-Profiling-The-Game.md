@@ -13,14 +13,15 @@ Next, you need to have `Bin64_Profile` in the game folder. You can simply copy i
 
 **NOTE**: Do not paste into the game's `Bin64` folder. Only copy the `Bin64_Profile` as is in the game's root folder.
 
-Instead a directory junction can be made:
+Or, instead of copying, a better way is to make a directory junction:
 
-1. Open notepad or something you can type in
-2. Paste: `mklink /J "<SEDir>\Bin64_Profile" "<SDKDir>\Bin64_Profile"`
-3. Replace `<SEDir>` with the path to the game.
-4. Replace `<SDKDir>` with the path to the SDK.
-5. Press <kbd>Win</kbd> + <kbd>R</kbd>, run `cmd`.
-6. Copy the finished command from notepad to the commandline window (rightclick to paste) then <kbd>Enter</kbd>.
+1. If you already copied `Bin64_Profile` to your game, delete it.
+2. Open notepad or something you can type in.
+3. Paste: `mklink /J "<SEDir>\Bin64_Profile" "<SDKDir>\Bin64_Profile"`.
+4. Replace `<SEDir>` with the path to the game.
+5. Replace `<SDKDir>` with the path to the SDK.
+6. Press <kbd>Win</kbd> + <kbd>R</kbd> and run `cmd`.
+7. Copy the finished command from notepad to the commandline window (rightclick to paste) then <kbd>Enter</kbd>.
 
 
 Finally, you can run the game via `<SE>/Bin64_Profile/SpaceEngineers.exe`.

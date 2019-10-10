@@ -8,7 +8,7 @@ How to debug PB (programmable block), mod and even game exceptions.
 
 ## Getting dnSpy
 
-- Get it from https://github.com/0xd4d/dnSpy/releases.
+- Get it from https://github.com/0xd4d/dnSpy/releases (the .NET Framework one, not NET Core!)
 
 - Extract anywhere (e.g. `C:\Program Files\dnSpy\`).
 
@@ -28,6 +28,8 @@ The basic steps for attaching dnSpy to the game and to monitor for an exception.
 
    For example: search `null` and check `NullReferenceException`, the most common exception.
 
+   If you're looking for the cause of "Script too complex", add `VRage.Compiler.ScriptOutOfRangeException` (with the green plus button).
+
 4. In-game: Recompile the script (if it's a mod, reload the world to recompile).
 
    (This is only needed once after you attach. Details at [Seeing local variables when code is paused](advanced-dnspy-tips-and-tricks#seeing-local-variables-when-code-is-paused))
@@ -35,7 +37,6 @@ The basic steps for attaching dnSpy to the game and to monitor for an exception.
 5. In-game: Run the script until it throws errors (exceptions).
 
 6. Once the error occurs dnSpy will pause code execution, now proceed to [Navigating paused code](#navigating-paused-code).
-
 
 
 ## Navigating paused code
@@ -52,7 +53,7 @@ Some things you can do here (in dnSpy):
 
 - `Debug -> Windows -> Call Stack (Ctrl+Alt+C)` shows the exception stacktrace which you can double-click in to navigate to the mentioned code.
 
-- Use the `Continue` button to resume the game (or exit, if that would happen normally, dnSpy does not handle exceptions, it catches them).
+- Use the `Continue` button to resume the game (or exit the game if it's an unhandled exception, dnSpy only shows them to you, it doesn't prevent them).
 
 
 

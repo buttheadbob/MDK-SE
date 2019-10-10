@@ -32,7 +32,7 @@ Calculates the cross product of two vectors.
 ### Summary
 
 ```csharp
-public static void Cross(ref Vector3 vector1, ref Vector3 vector2, ref Vector3 result)
+public static void Cross(ref Vector3 vector1, ref Vector3 vector2, out Vector3 result)
 ```
 
 Calculates the cross product of two vectors.

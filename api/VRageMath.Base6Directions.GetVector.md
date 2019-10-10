@@ -29,7 +29,7 @@ public static Vector3 GetVector(Direction dir)
 ### Summary
 
 ```csharp
-public static void GetVector(Direction dir, ref Vector3 result)
+public static void GetVector(Direction dir, out Vector3 result)
 ```
 
 ### Parameters

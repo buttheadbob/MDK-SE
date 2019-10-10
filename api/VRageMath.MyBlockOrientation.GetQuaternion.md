@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetQuaternion(ref Quaternion result)
+public void GetQuaternion(out Quaternion result)
 ```
 
 ### Parameters

@@ -83,7 +83,7 @@ public interface IMyProductionBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCu
 |[RemoveQueueItem(int, decimal)](Sandbox.ModAPI.Ingame.IMyProductionBlock.RemoveQueueItem)|Removes an item from the queue|
 |[RemoveQueueItem(int, double)](Sandbox.ModAPI.Ingame.IMyProductionBlock.RemoveQueueItem)|Removes an item from the queue|
 |[ClearQueue()](Sandbox.ModAPI.Ingame.IMyProductionBlock.ClearQueue)|Clears the Queue|
-|[GetQueue(List)](Sandbox.ModAPI.Ingame.IMyProductionBlock.GetQueue)||
+|[GetQueue(List)](Sandbox.ModAPI.Ingame.IMyProductionBlock.GetQueue)|Gets the current production queue|
 |[GetInventory()](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)|Simply get the MyInventoryBase component stored in this entity.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[GetInventory(int)](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)|Search for inventory component with maching index.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[GetPosition()](VRage.Game.ModAPI.Ingame.IMyEntity.GetPosition)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|

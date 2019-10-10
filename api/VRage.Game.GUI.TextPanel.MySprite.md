@@ -29,7 +29,7 @@ public struct MySprite: IEquatable<VRage.Game.GUI.TextPanel.MySprite>
 
 |Member|Description|
 |---|---|
-|[MySprite(SpriteType, string, Nullable, Nullable, Nullable, string, TextAlignment, float)](VRage.Game.GUI.TextPanel.MySprite..ctor)||
+|[MySprite(SpriteType, string, Vector2?, Vector2?, Color?, string, TextAlignment, float)](VRage.Game.GUI.TextPanel.MySprite..ctor)||
 
 #### Methods
 

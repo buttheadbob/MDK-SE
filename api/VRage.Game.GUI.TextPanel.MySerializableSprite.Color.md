@@ -3,12 +3,12 @@
 ### Summary
 
 ```csharp
-public Nullable<System.UInt32> Color
+public uint? Color
 ```
 
 Color mask to be used when rendering this layer. If not set, white will be used
 
 ### Returns
 
-[Nullable<System.UInt32>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6)
+[uint?](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6)
 

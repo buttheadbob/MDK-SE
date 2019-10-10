@@ -64,7 +64,7 @@ public interface IMyParachute: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBloc
 
 |Member|Description|
 |---|---|
-|[TryGetClosestPoint(ref Nullable)](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute.TryGetClosestPoint)||
+|[TryGetClosestPoint(out Vector3D?)](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute.TryGetClosestPoint)|Gets Elevation, elevation will equal positive infinity if method returns false|
 |[GetVelocity()](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute.GetVelocity)|Determines the linear velocities in meters per second at the block position|
 |[GetNaturalGravity()](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute.GetNaturalGravity)|Gets the detected natural gravity vector and power at the current location.|
 |[GetArtificialGravity()](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute.GetArtificialGravity)|Gets the detected artificial gravity vector and power at the current location.|

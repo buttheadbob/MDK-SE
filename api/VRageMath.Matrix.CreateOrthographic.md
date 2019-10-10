@@ -21,7 +21,7 @@ Builds an orthogonal projection matrix.
 ### Summary
 
 ```csharp
-public static void CreateOrthographic(float width, float height, float zNearPlane, float zFarPlane, ref Matrix result)
+public static void CreateOrthographic(float width, float height, float zNearPlane, float zFarPlane, out Matrix result)
 ```
 
 Builds an orthogonal projection matrix.

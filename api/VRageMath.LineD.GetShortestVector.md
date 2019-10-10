@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static Vector3D GetShortestVector(ref LineD line1, ref LineD line2, ref Vector3D res1, ref Vector3D res2)
+public static Vector3D GetShortestVector(ref LineD line1, ref LineD line2, out Vector3D res1, out Vector3D res2)
 ```
 
 ### Returns

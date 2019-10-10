@@ -104,5 +104,5 @@ public interface IMyAssembler: IMyProductionBlock, IMyFunctionalBlock, IMyTermin
 |[RemoveQueueItem(int, decimal)](Sandbox.ModAPI.Ingame.IMyProductionBlock.RemoveQueueItem)|Removes an item from the queue<br /><br />_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
 |[RemoveQueueItem(int, double)](Sandbox.ModAPI.Ingame.IMyProductionBlock.RemoveQueueItem)|Removes an item from the queue<br /><br />_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
 |[ClearQueue()](Sandbox.ModAPI.Ingame.IMyProductionBlock.ClearQueue)|Clears the Queue<br /><br />_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
-|[GetQueue(List)](Sandbox.ModAPI.Ingame.IMyProductionBlock.GetQueue)|_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
+|[GetQueue(List)](Sandbox.ModAPI.Ingame.IMyProductionBlock.GetQueue)|Gets the current production queue<br /><br />_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
 

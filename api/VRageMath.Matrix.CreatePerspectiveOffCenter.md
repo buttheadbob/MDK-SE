@@ -23,7 +23,7 @@ Builds a customized, perspective projection matrix.
 ### Summary
 
 ```csharp
-public static void CreatePerspectiveOffCenter(float left, float right, float bottom, float top, float nearPlaneDistance, float farPlaneDistance, ref Matrix result)
+public static void CreatePerspectiveOffCenter(float left, float right, float bottom, float top, float nearPlaneDistance, float farPlaneDistance, out Matrix result)
 ```
 
 Builds a customized, perspective projection matrix.

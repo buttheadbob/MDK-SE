@@ -6,6 +6,8 @@
 public void GetKeys(string section, List<VRage.Game.ModAPI.Ingame.Utilities.MyIniKey> keys)
 ```
 
+Fills the provided list with the configuration keys within the given section.
+
 ### Parameters
 
 * [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) section
@@ -15,6 +17,8 @@ public void GetKeys(string section, List<VRage.Game.ModAPI.Ingame.Utilities.MyIn
 ```csharp
 public void GetKeys(List<VRage.Game.ModAPI.Ingame.Utilities.MyIniKey> keys)
 ```
+
+Fills the provided list with all configuration keys within the currently parsed configuration.
 
 ### Parameters
 

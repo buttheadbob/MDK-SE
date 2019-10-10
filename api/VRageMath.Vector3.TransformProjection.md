@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static void TransformProjection(ref Vector3 position, ref Matrix matrix, ref Vector3 result)
+public static void TransformProjection(ref Vector3 position, ref Matrix matrix, out Vector3 result)
 ```
 
 Transforms a Vector3 by the given projection matrix (both ortho and perspective are supported)

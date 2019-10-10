@@ -19,7 +19,7 @@ Adds two Quaternions.
 ### Summary
 
 ```csharp
-public static void Add(ref QuaternionD quaternion1, ref QuaternionD quaternion2, ref QuaternionD result)
+public static void Add(ref QuaternionD quaternion1, ref QuaternionD quaternion2, out QuaternionD result)
 ```
 
 Adds two Quaternions.

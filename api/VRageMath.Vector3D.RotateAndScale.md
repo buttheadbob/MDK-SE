@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static void RotateAndScale(ref Vector3D vector, ref MatrixD matrix, ref Vector3D result)
+public static void RotateAndScale(ref Vector3D vector, ref MatrixD matrix, out Vector3D result)
 ```
 
 ### Parameters

@@ -20,7 +20,7 @@ Linearly interpolates between the corresponding values of two matrices.
 ### Summary
 
 ```csharp
-public static void Lerp(ref Matrix matrix1, ref Matrix matrix2, float amount, ref Matrix result)
+public static void Lerp(ref Matrix matrix1, ref Matrix matrix2, float amount, out Matrix result)
 ```
 
 Linearly interpolates between the corresponding values of two matrices.

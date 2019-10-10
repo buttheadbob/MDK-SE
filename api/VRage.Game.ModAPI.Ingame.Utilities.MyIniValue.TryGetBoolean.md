@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool TryGetBoolean(ref bool value)
+public bool TryGetBoolean(out bool value)
 ```
 
 Attempts to get this value as a [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) . Fills the`value`on success.

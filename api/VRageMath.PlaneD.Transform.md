@@ -19,7 +19,7 @@ Transforms a normalized PlaneD by a Matrix.
 ### Summary
 
 ```csharp
-public static void Transform(ref PlaneD plane, ref MatrixD matrix, ref PlaneD result)
+public static void Transform(ref PlaneD plane, ref MatrixD matrix, out PlaneD result)
 ```
 
 Transforms a normalized PlaneD by a Matrix.

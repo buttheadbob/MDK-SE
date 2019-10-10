@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static void Min(ref Vector2I v1, ref Vector2I v2, ref Vector2I min)
+public static void Min(ref Vector2I v1, ref Vector2I v2, out Vector2I min)
 ```
 
 ### Parameters

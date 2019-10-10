@@ -117,7 +117,7 @@ Contains commonly used precalculated values.
 |[IsValid(Vector2)](VRageMath.MathHelper.IsValid)||
 |[IsValid(float)](VRageMath.MathHelper.IsValid)||
 |[IsValid(double)](VRageMath.MathHelper.IsValid)||
-|[IsValid(Nullable)](VRageMath.MathHelper.IsValid)||
+|[IsValid(Vector3?)](VRageMath.MathHelper.IsValid)||
 |[IsValid(Quaternion)](VRageMath.MathHelper.IsValid)||
 |[IsValidNormal(Vector3)](VRageMath.MathHelper.IsValidNormal)||
 |[IsValidOrZero(Matrix)](VRageMath.MathHelper.IsValidOrZero)||

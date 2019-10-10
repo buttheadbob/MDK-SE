@@ -3,14 +3,14 @@
 ### Summary
 
 ```csharp
-public Nullable<VRage.Game.ModAPI.Ingame.MyInventoryItem> GetItemAt(int index)
+public MyInventoryItem? GetItemAt(int index)
 ```
 
 Returns info about item at give position.
 
 ### Returns
 
-[Nullable<VRage.Game.ModAPI.Ingame.MyInventoryItem>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6)
+[MyInventoryItem?](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6)
 
 Info about queried inventory slot, null in case there is no item at given slot
 

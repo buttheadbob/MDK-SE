@@ -36,8 +36,8 @@ public struct MyBlockOrientation
 
 |Member|Description|
 |---|---|
-|[GetQuaternion(ref Quaternion)](VRageMath.MyBlockOrientation.GetQuaternion)||
-|[GetMatrix(ref Matrix)](VRageMath.MyBlockOrientation.GetMatrix)||
+|[GetQuaternion(out Quaternion)](VRageMath.MyBlockOrientation.GetQuaternion)||
+|[GetMatrix(out Matrix)](VRageMath.MyBlockOrientation.GetMatrix)||
 |[GetHashCode()](VRageMath.MyBlockOrientation.GetHashCode)||
 |[Equals(object)](VRageMath.MyBlockOrientation.Equals)||
 |[ToString()](VRageMath.MyBlockOrientation.ToString)||

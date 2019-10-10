@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static void Invert(ref MatrixI matrix, ref MatrixI result)
+public static void Invert(ref MatrixI matrix, out MatrixI result)
 ```
 
 ### Parameters

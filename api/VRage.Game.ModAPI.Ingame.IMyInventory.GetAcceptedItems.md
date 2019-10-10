@@ -6,6 +6,8 @@
 public void GetAcceptedItems(List<VRage.Game.ModAPI.Ingame.MyItemType> itemsTypes, Func<VRage.Game.ModAPI.Ingame.MyItemType, System.Boolean> filter)
 ```
 
+Returns all items this inventory accepts.
+
 ### Parameters
 
 * [List<VRage.Game.ModAPI.Ingame.MyItemType>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) itemsTypes

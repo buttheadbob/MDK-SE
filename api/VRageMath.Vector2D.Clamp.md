@@ -20,7 +20,7 @@ Restricts a value to be within a specified range.
 ### Summary
 
 ```csharp
-public static void Clamp(ref Vector2D value1, ref Vector2D min, ref Vector2D max, ref Vector2D result)
+public static void Clamp(ref Vector2D value1, ref Vector2D min, ref Vector2D max, out Vector2D result)
 ```
 
 Restricts a value to be within a specified range.

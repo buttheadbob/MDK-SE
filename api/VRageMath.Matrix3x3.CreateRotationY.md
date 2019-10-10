@@ -18,7 +18,7 @@ Returns a matrix that can be used to rotate a set of vertices around the y-axis.
 ### Summary
 
 ```csharp
-public static void CreateRotationY(float radians, ref Matrix3x3 result)
+public static void CreateRotationY(float radians, out Matrix3x3 result)
 ```
 
 Populates data into a user-specified matrix that can be used to rotate a set of vertices around the y-axis.

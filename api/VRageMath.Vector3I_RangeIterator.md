@@ -28,6 +28,6 @@ A class for simpler traversal of ranges of integer vectors
 |Member|Description|
 |---|---|
 |[IsValid()](VRageMath.Vector3I_RangeIterator.IsValid)||
-|[GetNext(ref Vector3I)](VRageMath.Vector3I_RangeIterator.GetNext)||
+|[GetNext(out Vector3I)](VRageMath.Vector3I_RangeIterator.GetNext)||
 |[MoveNext()](VRageMath.Vector3I_RangeIterator.MoveNext)||
 

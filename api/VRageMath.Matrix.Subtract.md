@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static void Subtract(ref Matrix matrix1, ref Matrix matrix2, ref Matrix result)
+public static void Subtract(ref Matrix matrix1, ref Matrix matrix2, out Matrix result)
 ```
 
 Subtracts matrices.

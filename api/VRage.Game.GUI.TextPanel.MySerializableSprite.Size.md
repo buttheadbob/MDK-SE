@@ -3,12 +3,12 @@
 ### Summary
 
 ```csharp
-public Nullable<VRage.SerializableVector2> Size
+public SerializableVector2? Size
 ```
 
 Render size for this layer. If not set, it will be sized to take up the whole texture
 
 ### Returns
 
-[Nullable<VRage.SerializableVector2>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6)
+[SerializableVector2?](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6)
 

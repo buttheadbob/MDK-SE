@@ -6,6 +6,8 @@
 public void GetSelectedImages(List<System.String> output)
 ```
 
+Outputs the selected image ids to the specified list. NOTE: List is not cleared internally.
+
 ### Parameters
 
 * [List<System.String>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) output

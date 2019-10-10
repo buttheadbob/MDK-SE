@@ -18,7 +18,7 @@ Checks whether the current BoundingFrustumD intersects the specified BoundingBox
 ### Summary
 
 ```csharp
-public void Intersects(ref BoundingBoxD box, ref bool result)
+public void Intersects(ref BoundingBoxD box, out bool result)
 ```
 
 Checks whether the current BoundingFrustumD intersects a BoundingBoxD.
@@ -60,7 +60,7 @@ Checks whether the current BoundingFrustumD intersects the specified Plane.
 ### Summary
 
 ```csharp
-public void Intersects(ref PlaneD plane, ref PlaneIntersectionType result)
+public void Intersects(ref PlaneD plane, out PlaneIntersectionType result)
 ```
 
 Checks whether the current BoundingFrustumD intersects a Plane.
@@ -72,14 +72,14 @@ Checks whether the current BoundingFrustumD intersects a Plane.
 ### Summary
 
 ```csharp
-public Nullable<System.Double> Intersects(RayD ray)
+public double? Intersects(RayD ray)
 ```
 
 Checks whether the current BoundingFrustumD intersects the specified Ray.
 
 ### Returns
 
-[Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6)
+[double?](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6)
 
 ### Parameters
 
@@ -87,13 +87,15 @@ Checks whether the current BoundingFrustumD intersects the specified Ray.
 ### Summary
 
 ```csharp
-public void Intersects(ref RayD ray, ref Nullable<System.Double> result)
+public void Intersects(ref RayD ray, out double? result)
 ```
+
+Checks whether the current BoundingFrustumD intersects a Ray.
 
 ### Parameters
 
 * [RayD](VRageMath.RayD) ray
-* [Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6) result
+* [double?](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6) result
 ### Summary
 
 ```csharp
@@ -112,7 +114,7 @@ Checks whether the current BoundingFrustumD intersects the specified BoundingSph
 ### Summary
 
 ```csharp
-public void Intersects(ref BoundingSphereD sphere, ref bool result)
+public void Intersects(ref BoundingSphereD sphere, out bool result)
 ```
 
 Checks whether the current BoundingFrustumD intersects a BoundingSphere.

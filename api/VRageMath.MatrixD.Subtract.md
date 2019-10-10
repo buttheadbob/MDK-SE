@@ -19,7 +19,7 @@ Subtracts matrices.
 ### Summary
 
 ```csharp
-public static void Subtract(ref MatrixD matrix1, ref MatrixD matrix2, ref MatrixD result)
+public static void Subtract(ref MatrixD matrix1, ref MatrixD matrix2, out MatrixD result)
 ```
 
 Subtracts matrices.

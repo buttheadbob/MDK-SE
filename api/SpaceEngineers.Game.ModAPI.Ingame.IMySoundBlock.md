@@ -68,7 +68,7 @@ public interface IMySoundBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlo
 |---|---|
 |[Play()](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock.Play)|Plays the currently selected sound.|
 |[Stop()](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock.Stop)|Stops the currently playing sound.|
-|[GetSounds(List)](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock.GetSounds)||
+|[GetSounds(List)](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock.GetSounds)|Gets a list of all sound IDs this block can use.|
 |[GetInventory()](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)|Simply get the MyInventoryBase component stored in this entity.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[GetInventory(int)](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)|Search for inventory component with maching index.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[GetPosition()](VRage.Game.ModAPI.Ingame.IMyEntity.GetPosition)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|

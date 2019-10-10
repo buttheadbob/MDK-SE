@@ -19,7 +19,7 @@ Creates a Quaternion from a vector and an angle to rotate about the vector.
 ### Summary
 
 ```csharp
-public static void CreateFromAxisAngle(ref Vector3 axis, float angle, ref Quaternion result)
+public static void CreateFromAxisAngle(ref Vector3 axis, float angle, out Quaternion result)
 ```
 
 Creates a Quaternion from a vector and an angle to rotate about the vector.

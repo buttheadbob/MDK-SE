@@ -51,19 +51,19 @@ Defines an axis-aligned box-shaped 3D volume.
 |[GetHashCode()](VRageMath.BoundingBox2D.GetHashCode)|Gets the hash code for this instance.|
 |[ToString()](VRageMath.BoundingBox2D.ToString)|Returns a String that represents the current BoundingBox2D.|
 |[CreateMerged(BoundingBox2D, BoundingBox2D)](VRageMath.BoundingBox2D.CreateMerged)|Creates the smallest BoundingBox2D that contains the two specified BoundingBox2D instances.|
-|[CreateMerged(ref BoundingBox2D, ref BoundingBox2D, ref BoundingBox2D)](VRageMath.BoundingBox2D.CreateMerged)|Creates the smallest BoundingBox2D that contains the two specified BoundingBox2D instances.|
-|[CreateFromPoints(IEnumerable)](VRageMath.BoundingBox2D.CreateFromPoints)||
+|[CreateMerged(ref BoundingBox2D, ref BoundingBox2D, out BoundingBox2D)](VRageMath.BoundingBox2D.CreateMerged)|Creates the smallest BoundingBox2D that contains the two specified BoundingBox2D instances.|
+|[CreateFromPoints(IEnumerable)](VRageMath.BoundingBox2D.CreateFromPoints)|Creates the smallest BoundingBox2D that will contain a group of points.|
 |[CreateFromHalfExtent(Vector2D, double)](VRageMath.BoundingBox2D.CreateFromHalfExtent)||
 |[CreateFromHalfExtent(Vector2D, Vector2D)](VRageMath.BoundingBox2D.CreateFromHalfExtent)||
 |[Intersect(BoundingBox2D)](VRageMath.BoundingBox2D.Intersect)|Returns bounding box which is intersection of this and box It's called 'Prunik' Result is invalid box when there's no intersection (Min > Max)|
 |[Intersects(BoundingBox2D)](VRageMath.BoundingBox2D.Intersects)|Checks whether the current BoundingBox2D intersects another BoundingBox2D.|
 |[Intersects(ref BoundingBox2D)](VRageMath.BoundingBox2D.Intersects)||
-|[Intersects(ref BoundingBox2D, ref bool)](VRageMath.BoundingBox2D.Intersects)|Checks whether the current BoundingBox2D intersects another BoundingBox2D.|
+|[Intersects(ref BoundingBox2D, out bool)](VRageMath.BoundingBox2D.Intersects)|Checks whether the current BoundingBox2D intersects another BoundingBox2D.|
 |[Distance(Vector2D)](VRageMath.BoundingBox2D.Distance)||
 |[Contains(BoundingBox2D)](VRageMath.BoundingBox2D.Contains)|Tests whether the BoundingBox2D contains another BoundingBox2D.|
-|[Contains(ref BoundingBox2D, ref ContainmentType)](VRageMath.BoundingBox2D.Contains)|Tests whether the BoundingBox2D contains a BoundingBox2D.|
+|[Contains(ref BoundingBox2D, out ContainmentType)](VRageMath.BoundingBox2D.Contains)|Tests whether the BoundingBox2D contains a BoundingBox2D.|
 |[Contains(Vector2D)](VRageMath.BoundingBox2D.Contains)|Tests whether the BoundingBox2D contains a point.|
-|[Contains(ref Vector2D, ref ContainmentType)](VRageMath.BoundingBox2D.Contains)|Tests whether the BoundingBox2D contains a point.|
+|[Contains(ref Vector2D, out ContainmentType)](VRageMath.BoundingBox2D.Contains)|Tests whether the BoundingBox2D contains a point.|
 |[Translate(Vector2D)](VRageMath.BoundingBox2D.Translate)|Translate|
 |[Include(ref Vector2D)](VRageMath.BoundingBox2D.Include)|return expanded aabb (abb include point)|
 |[GetIncluded(Vector2D)](VRageMath.BoundingBox2D.GetIncluded)||

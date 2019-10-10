@@ -18,7 +18,7 @@ Translates and scales the BoundingSphere using a given Matrix.
 ### Summary
 
 ```csharp
-public void Transform(ref Matrix matrix, ref BoundingSphere result)
+public void Transform(ref Matrix matrix, out BoundingSphere result)
 ```
 
 Translates and scales the BoundingSphere using a given Matrix.

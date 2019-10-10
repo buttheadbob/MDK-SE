@@ -20,7 +20,7 @@ Creates a scaling Matrix.
 ### Summary
 
 ```csharp
-public static void CreateScale(double xScale, double yScale, double zScale, ref MatrixD result)
+public static void CreateScale(double xScale, double yScale, double zScale, out MatrixD result)
 ```
 
 Creates a scaling Matrix.
@@ -49,7 +49,7 @@ Creates a scaling Matrix.
 ### Summary
 
 ```csharp
-public static void CreateScale(ref Vector3D scales, ref MatrixD result)
+public static void CreateScale(ref Vector3D scales, out MatrixD result)
 ```
 
 Creates a scaling Matrix.
@@ -76,7 +76,7 @@ Creates a scaling Matrix.
 ### Summary
 
 ```csharp
-public static void CreateScale(double scale, ref MatrixD result)
+public static void CreateScale(double scale, out MatrixD result)
 ```
 
 Creates a scaling Matrix.

@@ -19,7 +19,7 @@ Calculates the dot product of two vectors.
 ### Summary
 
 ```csharp
-public static void Dot(ref Vector4 vector1, ref Vector4 vector2, ref float result)
+public static void Dot(ref Vector4 vector1, ref Vector4 vector2, out float result)
 ```
 
 Calculates the dot product of two vectors.

@@ -21,7 +21,7 @@ Rejection of the vector from the given direction
 ### Summary
 
 ```csharp
-public static void Reject(ref Vector3D vector, ref Vector3D direction, ref Vector3D result)
+public static void Reject(ref Vector3D vector, ref Vector3D direction, out Vector3D result)
 ```
 
 Returns the rejection of vector from direction, i.e. projection of vector onto the plane defined by origin and direction

@@ -31,7 +31,7 @@ Returns a vector that contains the highest value from each matching pair of comp
 ### Summary
 
 ```csharp
-public static void Max(ref Vector3D value1, ref Vector3D value2, ref Vector3D result)
+public static void Max(ref Vector3D value1, ref Vector3D value2, out Vector3D result)
 ```
 
 Returns a vector that contains the highest value from each matching pair of components.

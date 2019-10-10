@@ -6,6 +6,8 @@
 public static BoundingBox2 CreateFromPoints(IEnumerable<VRageMath.Vector2> points)
 ```
 
+Creates the smallest BoundingBox2 that will contain a group of points.
+
 ### Returns
 
 [BoundingBox2](VRageMath.BoundingBox2)

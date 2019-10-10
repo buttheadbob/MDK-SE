@@ -18,7 +18,7 @@ public static Vector3I Clamp(Vector3I value1, Vector3I min, Vector3I max)
 ### Summary
 
 ```csharp
-public static void Clamp(ref Vector3I value1, ref Vector3I min, ref Vector3I max, ref Vector3I result)
+public static void Clamp(ref Vector3I value1, ref Vector3I min, ref Vector3I max, out Vector3I result)
 ```
 
 ### Parameters

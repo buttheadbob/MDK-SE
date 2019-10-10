@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static bool TryParseFromString(string p, ref Vector3L vec)
+public static bool TryParseFromString(string p, out Vector3L vec)
 ```
 
 ### Returns

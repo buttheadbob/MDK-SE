@@ -41,8 +41,8 @@ public struct Vector2I
 |[Between(ref Vector2I, ref Vector2I)](VRageMath.Vector2I.Between)||
 |[Equals(object)](VRageMath.Vector2I.Equals)||
 |[GetHashCode()](VRageMath.Vector2I.GetHashCode)||
-|[Min(ref Vector2I, ref Vector2I, ref Vector2I)](VRageMath.Vector2I.Min)||
-|[Max(ref Vector2I, ref Vector2I, ref Vector2I)](VRageMath.Vector2I.Max)||
+|[Min(ref Vector2I, ref Vector2I, out Vector2I)](VRageMath.Vector2I.Min)||
+|[Max(ref Vector2I, ref Vector2I, out Vector2I)](VRageMath.Vector2I.Max)||
 |[Min(Vector2I, Vector2I)](VRageMath.Vector2I.Min)||
 |[Max(Vector2I, Vector2I)](VRageMath.Vector2I.Max)||
 

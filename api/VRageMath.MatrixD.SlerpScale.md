@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static void SlerpScale(ref MatrixD matrix1, ref MatrixD matrix2, float amount, ref MatrixD result)
+public static void SlerpScale(ref MatrixD matrix1, ref MatrixD matrix2, float amount, out MatrixD result)
 ```
 
 Performs spherical linear interpolation of position and rotation and scale.
@@ -17,7 +17,7 @@ Performs spherical linear interpolation of position and rotation and scale.
 ### Summary
 
 ```csharp
-public static void SlerpScale(MatrixD matrix1, MatrixD matrix2, float amount, ref MatrixD result)
+public static void SlerpScale(MatrixD matrix1, MatrixD matrix2, float amount, out MatrixD result)
 ```
 
 Performs spherical linear interpolation of position and rotation and scale.

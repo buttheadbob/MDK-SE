@@ -22,7 +22,7 @@ Returns a Vector2 containing the 2D Cartesian coordinates of a point specified i
 ### Summary
 
 ```csharp
-public static void Barycentric(ref Vector2 value1, ref Vector2 value2, ref Vector2 value3, float amount1, float amount2, ref Vector2 result)
+public static void Barycentric(ref Vector2 value1, ref Vector2 value2, ref Vector2 value3, float amount1, float amount2, out Vector2 result)
 ```
 
 Returns a Vector2 containing the 2D Cartesian coordinates of a point specified in barycentric (areal) coordinates relative to a 2D triangle.

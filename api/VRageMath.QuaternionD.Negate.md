@@ -18,7 +18,7 @@ Flips the sign of each component of the quaternion.
 ### Summary
 
 ```csharp
-public static void Negate(ref QuaternionD quaternion, ref QuaternionD result)
+public static void Negate(ref QuaternionD quaternion, out QuaternionD result)
 ```
 
 Flips the sign of each component of the quaternion.

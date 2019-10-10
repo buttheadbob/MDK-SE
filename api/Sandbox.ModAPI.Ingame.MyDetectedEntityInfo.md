@@ -33,7 +33,7 @@ public struct MyDetectedEntityInfo
 
 |Member|Description|
 |---|---|
-|[MyDetectedEntityInfo(long, string, MyDetectedEntityType, Nullable, MatrixD, Vector3, MyRelationsBetweenPlayerAndBlock, BoundingBoxD, long)](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo..ctor)||
+|[MyDetectedEntityInfo(long, string, MyDetectedEntityType, Vector3D?, MatrixD, Vector3, MyRelationsBetweenPlayerAndBlock, BoundingBoxD, long)](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo..ctor)||
 
 #### Methods
 

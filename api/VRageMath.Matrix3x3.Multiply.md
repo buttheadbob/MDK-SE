@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static void Multiply(ref Matrix3x3 matrix1, ref Matrix3x3 matrix2, ref Matrix3x3 result)
+public static void Multiply(ref Matrix3x3 matrix1, ref Matrix3x3 matrix2, out Matrix3x3 result)
 ```
 
 Multiplies a matrix by another matrix.
@@ -16,7 +16,7 @@ Multiplies a matrix by another matrix.
 ### Summary
 
 ```csharp
-public static void Multiply(ref Matrix3x3 matrix1, float scaleFactor, ref Matrix3x3 result)
+public static void Multiply(ref Matrix3x3 matrix1, float scaleFactor, out Matrix3x3 result)
 ```
 
 Multiplies a matrix by a scalar value.

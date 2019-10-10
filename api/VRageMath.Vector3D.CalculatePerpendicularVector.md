@@ -16,7 +16,7 @@ public static Vector3D CalculatePerpendicularVector(Vector3D v)
 ### Summary
 
 ```csharp
-public void CalculatePerpendicularVector(ref Vector3D result)
+public void CalculatePerpendicularVector(out Vector3D result)
 ```
 
 ### Parameters

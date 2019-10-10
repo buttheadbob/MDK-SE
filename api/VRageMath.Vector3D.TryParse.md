@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static bool TryParse(string str, ref Vector3D retval)
+public static bool TryParse(string str, out Vector3D retval)
 ```
 
 ### Returns

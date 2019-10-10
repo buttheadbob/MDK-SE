@@ -19,7 +19,7 @@ Calculates the dot product of two Quaternions.
 ### Summary
 
 ```csharp
-public static void Dot(ref QuaternionD quaternion1, ref QuaternionD quaternion2, ref double result)
+public static void Dot(ref QuaternionD quaternion1, ref QuaternionD quaternion2, out double result)
 ```
 
 Calculates the dot product of two Quaternions.

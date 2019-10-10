@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetNext(ref Vector3I next)
+public void GetNext(out Vector3I next)
 ```
 
 ### Parameters

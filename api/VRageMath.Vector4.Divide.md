@@ -19,7 +19,7 @@ Divides the components of a vector by the components of another vector.
 ### Summary
 
 ```csharp
-public static void Divide(ref Vector4 value1, ref Vector4 value2, ref Vector4 result)
+public static void Divide(ref Vector4 value1, ref Vector4 value2, out Vector4 result)
 ```
 
 Divides the components of a vector by the components of another vector.
@@ -48,7 +48,7 @@ Divides a vector by a scalar value.
 ### Summary
 
 ```csharp
-public static void Divide(ref Vector4 value1, float divider, ref Vector4 result)
+public static void Divide(ref Vector4 value1, float divider, out Vector4 result)
 ```
 
 Divides a vector by a scalar value.

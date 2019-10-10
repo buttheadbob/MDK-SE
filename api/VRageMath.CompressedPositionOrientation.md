@@ -35,5 +35,5 @@ Defines a matrix.
 |Member|Description|
 |---|---|
 |[FromMatrix(ref Matrix)](VRageMath.CompressedPositionOrientation.FromMatrix)||
-|[ToMatrix(ref Matrix)](VRageMath.CompressedPositionOrientation.ToMatrix)||
+|[ToMatrix(out Matrix)](VRageMath.CompressedPositionOrientation.ToMatrix)||
 

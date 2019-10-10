@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static void CreateRotationFromTwoVectors(ref Vector3 fromVector, ref Vector3 toVector, ref Matrix3x3 resultMatrix)
+public static void CreateRotationFromTwoVectors(ref Vector3 fromVector, ref Vector3 toVector, out Matrix3x3 resultMatrix)
 ```
 
 ### Parameters

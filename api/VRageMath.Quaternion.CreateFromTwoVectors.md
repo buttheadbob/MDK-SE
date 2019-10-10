@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static void CreateFromTwoVectors(ref Vector3 firstVector, ref Vector3 secondVector, ref Quaternion result)
+public static void CreateFromTwoVectors(ref Vector3 firstVector, ref Vector3 secondVector, out Quaternion result)
 ```
 
 ### Parameters

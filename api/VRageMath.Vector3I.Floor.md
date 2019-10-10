@@ -29,7 +29,7 @@ public static Vector3I Floor(Vector3D value)
 ### Summary
 
 ```csharp
-public static void Floor(ref Vector3 v, ref Vector3I r)
+public static void Floor(ref Vector3 v, out Vector3I r)
 ```
 
 ### Parameters
@@ -39,7 +39,7 @@ public static void Floor(ref Vector3 v, ref Vector3I r)
 ### Summary
 
 ```csharp
-public static void Floor(ref Vector3D v, ref Vector3I r)
+public static void Floor(ref Vector3D v, out Vector3I r)
 ```
 
 ### Parameters

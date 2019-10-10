@@ -19,7 +19,7 @@ Creates a Matrix that flattens geometry into a specified Plane as if casting a s
 ### Summary
 
 ```csharp
-public static void CreateShadow(ref Vector3 lightDirection, ref Plane plane, ref Matrix result)
+public static void CreateShadow(ref Vector3 lightDirection, ref Plane plane, out Matrix result)
 ```
 
 Fills in a Matrix to flatten geometry into a specified Plane as if casting a shadow from a specified light source.

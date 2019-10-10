@@ -19,7 +19,7 @@ Transforms a Vector2 by the given Matrix.
 ### Summary
 
 ```csharp
-public static void Transform(ref Vector2 position, ref Matrix matrix, ref Vector4 result)
+public static void Transform(ref Vector2 position, ref Matrix matrix, out Vector4 result)
 ```
 
 Transforms a Vector2 by the given Matrix.
@@ -48,7 +48,7 @@ Transforms a Vector3 by the given Matrix.
 ### Summary
 
 ```csharp
-public static void Transform(ref Vector3 position, ref Matrix matrix, ref Vector4 result)
+public static void Transform(ref Vector3 position, ref Matrix matrix, out Vector4 result)
 ```
 
 Transforms a Vector3 by the given Matrix.
@@ -77,7 +77,7 @@ Transforms a Vector4 by the specified Matrix.
 ### Summary
 
 ```csharp
-public static void Transform(ref Vector4 vector, ref Matrix matrix, ref Vector4 result)
+public static void Transform(ref Vector4 vector, ref Matrix matrix, out Vector4 result)
 ```
 
 Transforms a Vector4 by the given Matrix.
@@ -106,7 +106,7 @@ Transforms a Vector2 by a specified Quaternion into a Vector4.
 ### Summary
 
 ```csharp
-public static void Transform(ref Vector2 value, ref Quaternion rotation, ref Vector4 result)
+public static void Transform(ref Vector2 value, ref Quaternion rotation, out Vector4 result)
 ```
 
 Transforms a Vector2 by a specified Quaternion into a Vector4.
@@ -135,7 +135,7 @@ Transforms a Vector3 by a specified Quaternion into a Vector4.
 ### Summary
 
 ```csharp
-public static void Transform(ref Vector3 value, ref Quaternion rotation, ref Vector4 result)
+public static void Transform(ref Vector3 value, ref Quaternion rotation, out Vector4 result)
 ```
 
 Transforms a Vector3 by a specified Quaternion into a Vector4.
@@ -164,7 +164,7 @@ Transforms a Vector4 by a specified Quaternion.
 ### Summary
 
 ```csharp
-public static void Transform(ref Vector4 value, ref Quaternion rotation, ref Vector4 result)
+public static void Transform(ref Vector4 value, ref Quaternion rotation, out Vector4 result)
 ```
 
 Transforms a Vector4 by a specified Quaternion.

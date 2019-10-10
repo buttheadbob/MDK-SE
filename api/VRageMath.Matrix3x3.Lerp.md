@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static void Lerp(ref Matrix3x3 matrix1, ref Matrix3x3 matrix2, float amount, ref Matrix3x3 result)
+public static void Lerp(ref Matrix3x3 matrix1, ref Matrix3x3 matrix2, float amount, out Matrix3x3 result)
 ```
 
 Linearly interpolates between the corresponding values of two matrices.

@@ -31,7 +31,7 @@ public static MatrixD CreateFromQuaternion(QuaternionD quaternion)
 ### Summary
 
 ```csharp
-public static void CreateFromQuaternion(ref Quaternion quaternion, ref MatrixD result)
+public static void CreateFromQuaternion(ref Quaternion quaternion, out MatrixD result)
 ```
 
 Creates a rotation Matrix from a Quaternion.

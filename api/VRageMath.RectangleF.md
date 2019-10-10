@@ -46,7 +46,7 @@ Structure using the same layout than [System.Drawing.RectangleF](https://docs.mi
 |[Contains(Vector2)](VRageMath.RectangleF.Contains)||
 |[Contains(Point)](VRageMath.RectangleF.Contains)||
 |[Equals(RectangleF)](VRageMath.RectangleF.Equals)|Determines whether the specified [System.Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6) is equal to this instance.|
-|[Intersect(ref RectangleF, ref RectangleF, ref RectangleF)](VRageMath.RectangleF.Intersect)|Creates a Rectangle defining the area where one rectangle overlaps with another rectangle.|
+|[Intersect(ref RectangleF, ref RectangleF, out RectangleF)](VRageMath.RectangleF.Intersect)|Creates a Rectangle defining the area where one rectangle overlaps with another rectangle.|
 |[Equals(object)](VRageMath.RectangleF.Equals)||
 |[GetHashCode()](VRageMath.RectangleF.GetHashCode)||
 |[ToString()](VRageMath.RectangleF.ToString)||

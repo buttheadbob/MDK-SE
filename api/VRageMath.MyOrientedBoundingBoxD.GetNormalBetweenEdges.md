@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static bool GetNormalBetweenEdges(int axis, int edge0, int edge1, ref Vector3 normal)
+public static bool GetNormalBetweenEdges(int axis, int edge0, int edge1, out Vector3 normal)
 ```
 
 Returns normal between two cube edge of same direction

@@ -19,7 +19,7 @@ Creates a BoundingSphereD that contains the two specified BoundingSphereD instan
 ### Summary
 
 ```csharp
-public static void CreateMerged(ref BoundingSphereD original, ref BoundingSphereD additional, ref BoundingSphereD result)
+public static void CreateMerged(ref BoundingSphereD original, ref BoundingSphereD additional, out BoundingSphereD result)
 ```
 
 Creates a BoundingSphereD that contains the two specified BoundingSphereD instances.

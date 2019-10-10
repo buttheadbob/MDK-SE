@@ -35,7 +35,7 @@ Creates a view matrix.
 ### Summary
 
 ```csharp
-public static void CreateLookAt(ref Vector3D cameraPosition, ref Vector3D cameraTarget, ref Vector3D cameraUpVector, ref MatrixD result)
+public static void CreateLookAt(ref Vector3D cameraPosition, ref Vector3D cameraTarget, ref Vector3D cameraUpVector, out MatrixD result)
 ```
 
 Creates a view matrix.

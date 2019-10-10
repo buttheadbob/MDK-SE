@@ -18,7 +18,7 @@ Creates a rotation Matrix from a Quaternion.
 ### Summary
 
 ```csharp
-public static void CreateFromQuaternion(ref Quaternion quaternion, ref Matrix result)
+public static void CreateFromQuaternion(ref Quaternion quaternion, out Matrix result)
 ```
 
 Creates a rotation Matrix from a Quaternion.

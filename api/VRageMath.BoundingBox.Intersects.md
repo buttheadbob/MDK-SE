@@ -31,7 +31,7 @@ public bool Intersects(ref BoundingBox box)
 ### Summary
 
 ```csharp
-public void Intersects(ref BoundingBox box, ref bool result)
+public void Intersects(ref BoundingBox box, out bool result)
 ```
 
 Checks whether the current BoundingBox intersects another BoundingBox.
@@ -73,7 +73,7 @@ Checks whether the current BoundingBox intersects a Plane.
 ### Summary
 
 ```csharp
-public void Intersects(ref Plane plane, ref PlaneIntersectionType result)
+public void Intersects(ref Plane plane, out PlaneIntersectionType result)
 ```
 
 Checks whether the current BoundingBox intersects a Plane.
@@ -85,7 +85,7 @@ Checks whether the current BoundingBox intersects a Plane.
 ### Summary
 
 ```csharp
-public bool Intersects(Line line, ref float distance)
+public bool Intersects(Line line, out float distance)
 ```
 
 ### Returns
@@ -99,14 +99,14 @@ public bool Intersects(Line line, ref float distance)
 ### Summary
 
 ```csharp
-public Nullable<System.Single> Intersects(Ray ray)
+public float? Intersects(Ray ray)
 ```
 
 Checks whether the current BoundingBox intersects a Ray.
 
 ### Returns
 
-[Nullable<System.Single>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6)
+[float?](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6)
 
 ### Parameters
 
@@ -114,13 +114,15 @@ Checks whether the current BoundingBox intersects a Ray.
 ### Summary
 
 ```csharp
-public void Intersects(ref Ray ray, ref Nullable<System.Single> result)
+public void Intersects(ref Ray ray, out float? result)
 ```
+
+Checks whether the current BoundingBox intersects a Ray.
 
 ### Parameters
 
 * [Ray](VRageMath.Ray) ray
-* [Nullable<System.Single>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6) result
+* [float?](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6) result
 ### Summary
 
 ```csharp
@@ -139,7 +141,7 @@ Checks whether the current BoundingBox intersects a BoundingSphere.
 ### Summary
 
 ```csharp
-public void Intersects(ref BoundingSphere sphere, ref bool result)
+public void Intersects(ref BoundingSphere sphere, out bool result)
 ```
 
 Checks whether the current BoundingBox intersects a BoundingSphere.

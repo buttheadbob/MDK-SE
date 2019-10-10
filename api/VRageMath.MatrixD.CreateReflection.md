@@ -18,7 +18,7 @@ Creates a Matrix that reflects the coordinate system about a specified Plane.
 ### Summary
 
 ```csharp
-public static void CreateReflection(ref Plane value, ref MatrixD result)
+public static void CreateReflection(ref Plane value, out MatrixD result)
 ```
 
 Fills in an existing Matrix so that it reflects the coordinate system about a specified Plane.

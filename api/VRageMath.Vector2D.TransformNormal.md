@@ -19,7 +19,7 @@ Transforms a 2D vector normal by a matrix.
 ### Summary
 
 ```csharp
-public static void TransformNormal(ref Vector2D normal, ref Matrix matrix, ref Vector2D result)
+public static void TransformNormal(ref Vector2D normal, ref Matrix matrix, out Vector2D result)
 ```
 
 Transforms a vector normal by a matrix.

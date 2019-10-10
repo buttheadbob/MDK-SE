@@ -48,7 +48,7 @@ Creates a world matrix with the specified parameters.
 ### Summary
 
 ```csharp
-public static void CreateWorld(ref Vector3D position, ref Vector3D forward, ref Vector3D up, ref MatrixD result)
+public static void CreateWorld(ref Vector3D position, ref Vector3D forward, ref Vector3D up, out MatrixD result)
 ```
 
 Creates a world matrix with the specified parameters.

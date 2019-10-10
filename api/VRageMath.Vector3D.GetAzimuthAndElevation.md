@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static void GetAzimuthAndElevation(Vector3D v, ref double azimuth, ref double elevation)
+public static void GetAzimuthAndElevation(Vector3D v, out double azimuth, out double elevation)
 ```
 
 ### Parameters

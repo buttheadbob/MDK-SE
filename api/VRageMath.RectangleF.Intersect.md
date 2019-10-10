@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static bool Intersect(ref RectangleF value1, ref RectangleF value2, ref RectangleF result)
+public static bool Intersect(ref RectangleF value1, ref RectangleF value2, out RectangleF result)
 ```
 
 Creates a Rectangle defining the area where one rectangle overlaps with another rectangle.

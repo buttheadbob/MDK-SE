@@ -43,8 +43,8 @@ Dynamic aabb tree implementation as a prunning structure
 |[GetLeafCount(int)](VRageMath.MyDynamicAABBTree.GetLeafCount)||
 |[GetNodeLeaves(int, List)](VRageMath.MyDynamicAABBTree.GetNodeLeaves)||
 |[GetAabb(int)](VRageMath.MyDynamicAABBTree.GetAabb)||
-|[GetChildren(int, ref int, ref int)](VRageMath.MyDynamicAABBTree.GetChildren)||
-|[GetFatAABB(int, ref BoundingBox)](VRageMath.MyDynamicAABBTree.GetFatAABB)|Get the fat BoundingBox for a proxy.|
+|[GetChildren(int, out int, out int)](VRageMath.MyDynamicAABBTree.GetChildren)||
+|[GetFatAABB(int, out BoundingBox)](VRageMath.MyDynamicAABBTree.GetFatAABB)|Get the fat BoundingBox for a proxy.|
 |[Query(Func, ref BoundingBox)](VRageMath.MyDynamicAABBTree.Query)||
 |[CountLeaves(int)](VRageMath.MyDynamicAABBTree.CountLeaves)||
 |[GetHeight()](VRageMath.MyDynamicAABBTree.GetHeight)||

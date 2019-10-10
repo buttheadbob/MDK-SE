@@ -37,10 +37,10 @@ Defines a ray.
 |[GetHashCode()](VRageMath.RayD.GetHashCode)|Gets the hash code for this instance.|
 |[ToString()](VRageMath.RayD.ToString)|Returns a String that represents the current Ray.|
 |[Intersects(BoundingBoxD)](VRageMath.RayD.Intersects)|Checks whether the Ray intersects a specified BoundingBox.|
-|[Intersects(ref BoundingBoxD, ref Nullable)](VRageMath.RayD.Intersects)||
+|[Intersects(ref BoundingBoxD, out double?)](VRageMath.RayD.Intersects)|Checks whether the current Ray intersects a BoundingBox.|
 |[Intersects(BoundingFrustumD)](VRageMath.RayD.Intersects)|Checks whether the Ray intersects a specified BoundingFrustum.|
 |[Intersects(PlaneD)](VRageMath.RayD.Intersects)|Determines whether this Ray intersects a specified Plane.|
-|[Intersects(ref PlaneD, ref Nullable)](VRageMath.RayD.Intersects)||
+|[Intersects(ref PlaneD, out double?)](VRageMath.RayD.Intersects)|Determines whether this Ray intersects a specified Plane.|
 |[Intersects(BoundingSphereD)](VRageMath.RayD.Intersects)|Checks whether the Ray intersects a specified BoundingSphere.|
-|[Intersects(ref BoundingSphere, ref Nullable)](VRageMath.RayD.Intersects)||
+|[Intersects(ref BoundingSphere, out double?)](VRageMath.RayD.Intersects)|Checks whether the current Ray intersects a BoundingSphere.|
 

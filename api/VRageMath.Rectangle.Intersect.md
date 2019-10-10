@@ -19,7 +19,7 @@ Creates a Rectangle defining the area where one rectangle overlaps with another 
 ### Summary
 
 ```csharp
-public static void Intersect(ref Rectangle value1, ref Rectangle value2, ref Rectangle result)
+public static void Intersect(ref Rectangle value1, ref Rectangle value2, out Rectangle result)
 ```
 
 Creates a Rectangle defining the area where one rectangle overlaps with another rectangle.

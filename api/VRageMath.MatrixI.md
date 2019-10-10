@@ -52,7 +52,7 @@ public struct MatrixI
 |[GetBlockOrientation()](VRageMath.MatrixI.GetBlockOrientation)||
 |[GetFloatMatrix()](VRageMath.MatrixI.GetFloatMatrix)||
 |[CreateRotation(Direction, Direction, Direction, Direction)](VRageMath.MatrixI.CreateRotation)||
-|[Invert(ref MatrixI, ref MatrixI)](VRageMath.MatrixI.Invert)||
-|[Multiply(ref MatrixI, ref MatrixI, ref MatrixI)](VRageMath.MatrixI.Multiply)||
+|[Invert(ref MatrixI, out MatrixI)](VRageMath.MatrixI.Invert)||
+|[Multiply(ref MatrixI, ref MatrixI, out MatrixI)](VRageMath.MatrixI.Multiply)||
 |[Transform(ref MyBlockOrientation, ref MatrixI)](VRageMath.MatrixI.Transform)||
 

@@ -42,5 +42,5 @@ basic block interface
 
 |Member|Description|
 |---|---|
-|[GetMissingComponents(Dictionary)](VRage.Game.ModAPI.Ingame.IMySlimBlock.GetMissingComponents)||
+|[GetMissingComponents(Dictionary)](VRage.Game.ModAPI.Ingame.IMySlimBlock.GetMissingComponents)|Gets the list of missing components for this block|
 

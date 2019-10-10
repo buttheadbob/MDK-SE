@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static void Abs(ref Vector3D vector3D, ref Vector3D abs)
+public static void Abs(ref Vector3D vector3D, out Vector3D abs)
 ```
 
 ### Parameters

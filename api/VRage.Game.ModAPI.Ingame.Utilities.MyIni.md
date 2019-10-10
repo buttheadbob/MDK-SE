@@ -126,9 +126,9 @@ This class is NOT THREAD SAFE as it's optimized for programmable block use.
 |[ContainsSection(string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.ContainsSection)|Determines whether a section of a given name exists in the currently parsed configuration.|
 |[ContainsKey(string, string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.ContainsKey)|Determines whether a configuration key (section/key) exists in the currently parsed configuration.|
 |[ContainsKey(MyIniKey)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.ContainsKey)|Determines whether a configuration key (section/key) exists in the currently parsed configuration.|
-|[GetKeys(string, List)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.GetKeys)||
-|[GetKeys(List)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.GetKeys)||
-|[GetSections(List)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.GetSections)||
+|[GetKeys(string, List)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.GetKeys)|Fills the provided list with the configuration keys within the given section.|
+|[GetKeys(List)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.GetKeys)|Fills the provided list with all configuration keys within the currently parsed configuration.|
+|[GetSections(List)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.GetSections)|Fills the provided list with the names of all the sections in the currently parsed configuration.|
 |[SetEndComment(string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.SetEndComment)|Sets a comment to be placed after the last section or item. Set the comment to`null`to remove it.|
 |[GetSectionComment(string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.GetSectionComment)|Get any comment that might be associated with the given section. Returns`null`if the section does not exist or has no comment.|
 |[SetSectionComment(string, string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.SetSectionComment)|Sets a comment on a given section. The section must already exist. Set the comment to`null`to remove it.|
@@ -168,8 +168,8 @@ This class is NOT THREAD SAFE as it's optimized for programmable block use.
 |[Set(MyIniKey, decimal)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
 |[Clear()](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Clear)|Empties this configuration|
 |[TryParse(string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.TryParse)|Attempts to parse the given content as a configuration file.|
-|[TryParse(string, ref MyIniParseResult)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.TryParse)|Attempts to parse the given content as a configuration file.|
-|[TryParse(string, string, ref MyIniParseResult)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.TryParse)|Attempts to parse the given content as a configuration file. OBSERVE: Use only for read-only operations. If you parse a single section and run [ToString()](VRage.Game.ModAPI.Ingame.Utilities.MyIni.ToString) , you will only get the parsed section, the rest will be discarded.|
+|[TryParse(string, out MyIniParseResult)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.TryParse)|Attempts to parse the given content as a configuration file.|
+|[TryParse(string, string, out MyIniParseResult)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.TryParse)|Attempts to parse the given content as a configuration file. OBSERVE: Use only for read-only operations. If you parse a single section and run [ToString()](VRage.Game.ModAPI.Ingame.Utilities.MyIni.ToString) , you will only get the parsed section, the rest will be discarded.|
 |[TryParse(string, string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.TryParse)|Attempts to parse the given content as a configuration file. OBSERVE: Use only for read-only operations. If you parse a single section and run [ToString()](VRage.Game.ModAPI.Ingame.Utilities.MyIni.ToString) , you will only get the parsed section, the rest will be discarded.|
 |[Invalidate()](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Invalidate)|Forces regeneration of the ini content. Only really useful if you want to reformat the configuration file.|
 |[ToString()](VRage.Game.ModAPI.Ingame.Utilities.MyIni.ToString)|Generates a configuration file from the currently parsed configuration|

@@ -31,7 +31,7 @@ public bool Intersects(ref BoundingBoxD box)
 ### Summary
 
 ```csharp
-public void Intersects(ref BoundingBoxD box, ref bool result)
+public void Intersects(ref BoundingBoxD box, out bool result)
 ```
 
 Checks whether the current BoundingBox intersects another BoundingBox.
@@ -43,7 +43,7 @@ Checks whether the current BoundingBox intersects another BoundingBox.
 ### Summary
 
 ```csharp
-public void Intersects(ref BoundingBox box, ref bool result)
+public void Intersects(ref BoundingBox box, out bool result)
 ```
 
 ### Parameters
@@ -83,7 +83,7 @@ Checks whether the current BoundingBox intersects a Plane.
 ### Summary
 
 ```csharp
-public void Intersects(ref PlaneD plane, ref PlaneIntersectionType result)
+public void Intersects(ref PlaneD plane, out PlaneIntersectionType result)
 ```
 
 Checks whether the current BoundingBox intersects a Plane.
@@ -108,7 +108,7 @@ public bool Intersects(ref LineD line)
 ### Summary
 
 ```csharp
-public bool Intersects(ref LineD line, ref double distance)
+public bool Intersects(ref LineD line, out double distance)
 ```
 
 ### Returns
@@ -122,12 +122,12 @@ public bool Intersects(ref LineD line, ref double distance)
 ### Summary
 
 ```csharp
-public Nullable<System.Double> Intersects(Ray ray)
+public double? Intersects(Ray ray)
 ```
 
 ### Returns
 
-[Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6)
+[double?](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6)
 
 ### Parameters
 
@@ -135,14 +135,14 @@ public Nullable<System.Double> Intersects(Ray ray)
 ### Summary
 
 ```csharp
-public Nullable<System.Double> Intersects(RayD ray)
+public double? Intersects(RayD ray)
 ```
 
 Checks whether the current BoundingBox intersects a Ray.
 
 ### Returns
 
-[Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6)
+[double?](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6)
 
 ### Parameters
 
@@ -150,13 +150,15 @@ Checks whether the current BoundingBox intersects a Ray.
 ### Summary
 
 ```csharp
-public void Intersects(ref RayD ray, ref Nullable<System.Double> result)
+public void Intersects(ref RayD ray, out double? result)
 ```
+
+Checks whether the current BoundingBox intersects a Ray.
 
 ### Parameters
 
 * [RayD](VRageMath.RayD) ray
-* [Nullable<System.Double>](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6) result
+* [double?](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6) result
 ### Summary
 
 ```csharp
@@ -175,7 +177,7 @@ Checks whether the current BoundingBox intersects a BoundingSphere.
 ### Summary
 
 ```csharp
-public void Intersects(ref BoundingSphereD sphere, ref bool result)
+public void Intersects(ref BoundingSphereD sphere, out bool result)
 ```
 
 Checks whether the current BoundingBox intersects a BoundingSphere.

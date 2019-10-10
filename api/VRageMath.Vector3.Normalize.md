@@ -43,7 +43,7 @@ public static Vector3 Normalize(Vector3D value)
 ### Summary
 
 ```csharp
-public static void Normalize(ref Vector3 value, ref Vector3 result)
+public static void Normalize(ref Vector3 value, out Vector3 result)
 ```
 
 Creates a unit vector from the specified vector, writing the result to a user-specified variable. The result is a vector one unit in length pointing in the same direction as the original vector.

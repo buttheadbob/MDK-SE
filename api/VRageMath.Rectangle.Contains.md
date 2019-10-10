@@ -34,7 +34,7 @@ Determines whether this Rectangle contains a specified Point.
 ### Summary
 
 ```csharp
-public void Contains(ref Point value, ref bool result)
+public void Contains(ref Point value, out bool result)
 ```
 
 Determines whether this Rectangle contains a specified Point.
@@ -61,7 +61,7 @@ Determines whether this Rectangle entirely contains a specified Rectangle.
 ### Summary
 
 ```csharp
-public void Contains(ref Rectangle value, ref bool result)
+public void Contains(ref Rectangle value, out bool result)
 ```
 
 Determines whether this Rectangle entirely contains a specified Rectangle.

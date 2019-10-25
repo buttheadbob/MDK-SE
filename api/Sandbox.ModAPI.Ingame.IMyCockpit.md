@@ -23,7 +23,6 @@ public interface IMyCockpit: IMyShipController, IMyTerminalBlock, IMyCubeBlock, 
 
 |Member|Description|
 |---|---|
-|[IsMainCockpit](Sandbox.ModAPI.Ingame.IMyCockpit.IsMainCockpit)|Determines whether this controller is the main cockpit of the shit this doesn't belong here.|
 |[OxygenCapacity](Sandbox.ModAPI.Ingame.IMyCockpit.OxygenCapacity)|Gets the maximum oxygen capacity of this cockpit.|
 |[OxygenFilledRatio](Sandbox.ModAPI.Ingame.IMyCockpit.OxygenFilledRatio)|Gets the current oxygen level of this cockpit, as a value between 0 (empty) and 1 (full).|
 |[SurfaceCount](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider.SurfaceCount)|_Inherited from [IMyTextSurfaceProvider](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider)_|
@@ -75,7 +74,7 @@ public interface IMyCockpit: IMyShipController, IMyTerminalBlock, IMyCubeBlock, 
 |[RotationIndicator](Sandbox.ModAPI.Ingame.IMyShipController.RotationIndicator)|Pitch, yaw input from user/autopilot. Values can be very large with high controller sensitivity<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
 |[RollIndicator](Sandbox.ModAPI.Ingame.IMyShipController.RollIndicator)|Roll input from user/autopilot. Values can be very large with high controller sensitivity<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
 |[CenterOfMass](Sandbox.ModAPI.Ingame.IMyShipController.CenterOfMass)|Center of mass in world coordinates<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
-|[IsMainCockpit](Sandbox.ModAPI.Ingame.IMyShipController.IsMainCockpit)|Gets or sets if this controller is the main one.<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
+|[IsMainCockpit](Sandbox.ModAPI.Ingame.IMyShipController.IsMainCockpit)|Gets or sets if this controller is the main one for current ship Setter checks if there is any other main cockpit on the ship before proceeding<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
 
 #### Methods
 

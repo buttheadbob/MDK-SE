@@ -100,6 +100,7 @@ This index contains all types and members available to ingame scripting - with e
 [IMySmallGatlingGun](Sandbox.ModAPI.Ingame.IMySmallGatlingGun)  
 [IMySmallMissileLauncher](Sandbox.ModAPI.Ingame.IMySmallMissileLauncher)  
 [IMySmallMissileLauncherReload](Sandbox.ModAPI.Ingame.IMySmallMissileLauncherReload)  
+[IMyStoreBlock](Sandbox.ModAPI.Ingame.IMyStoreBlock)  
 [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 [IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel)  
 [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)  
@@ -125,6 +126,8 @@ This index contains all types and members available to ingame scripting - with e
 [MyShipConnectorStatus](Sandbox.ModAPI.Ingame.MyShipConnectorStatus)  
 [MyShipMass](Sandbox.ModAPI.Ingame.MyShipMass)  
 [MyShipVelocities](Sandbox.ModAPI.Ingame.MyShipVelocities)  
+[MyStoreInsertResults](Sandbox.ModAPI.Ingame.MyStoreInsertResults)  
+[MyStoreQueryItem](Sandbox.ModAPI.Ingame.MyStoreQueryItem)  
 [MyTransmitTarget](Sandbox.ModAPI.Ingame.MyTransmitTarget)  
 [MyWaypointInfo](Sandbox.ModAPI.Ingame.MyWaypointInfo)  
 [PistonStatus](Sandbox.ModAPI.Ingame.PistonStatus)  
@@ -246,7 +249,8 @@ This index contains all types and members available to ingame scripting - with e
 [MyInventoryItemExtension](VRage.Game.ModAPI.Ingame.MyInventoryItemExtension)  
 [MyItemInfo](VRage.Game.ModAPI.Ingame.MyItemInfo)  
 [MyItemType](VRage.Game.ModAPI.Ingame.MyItemType)  
-[MyPhysicalInventoryItemExtensions_ModAPI](VRage.Game.ModAPI.Ingame.MyPhysicalInventoryItemExtensions_ModAPI)
+[MyPhysicalInventoryItemExtensions_ModAPI](VRage.Game.ModAPI.Ingame.MyPhysicalInventoryItemExtensions_ModAPI)  
+[MyStoreItemDataSimple](VRage.Game.ModAPI.Ingame.MyStoreItemDataSimple)
 
 ### VRage.Game.ModAPI.Ingame.Utilities
 
@@ -296,6 +300,7 @@ This index contains all types and members available to ingame scripting - with e
 [BoundingSphere](VRageMath.BoundingSphere)  
 [BoundingSphereD](VRageMath.BoundingSphereD)  
 [BoxCornerEnumerator](VRageMath.BoxCornerEnumerator)  
+[BoxCornerEnumerator.&lt;m_minMax&gt;e__FixedBuffer](VRageMath.BoxCornerEnumerator+_m_minMax_e__FixedBuffer)  
 [Capsule](VRageMath.Capsule)  
 [CapsuleD](VRageMath.CapsuleD)  
 [Color](VRageMath.Color)  

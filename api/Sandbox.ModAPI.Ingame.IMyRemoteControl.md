@@ -73,7 +73,7 @@ public interface IMyRemoteControl: IMyShipController, IMyTerminalBlock, IMyCubeB
 |[RotationIndicator](Sandbox.ModAPI.Ingame.IMyShipController.RotationIndicator)|Pitch, yaw input from user/autopilot. Values can be very large with high controller sensitivity<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
 |[RollIndicator](Sandbox.ModAPI.Ingame.IMyShipController.RollIndicator)|Roll input from user/autopilot. Values can be very large with high controller sensitivity<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
 |[CenterOfMass](Sandbox.ModAPI.Ingame.IMyShipController.CenterOfMass)|Center of mass in world coordinates<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
-|[IsMainCockpit](Sandbox.ModAPI.Ingame.IMyShipController.IsMainCockpit)|Gets or sets if this controller is the main one.<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
+|[IsMainCockpit](Sandbox.ModAPI.Ingame.IMyShipController.IsMainCockpit)|Gets or sets if this controller is the main one for current ship Setter checks if there is any other main cockpit on the ship before proceeding<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
 
 #### Methods
 

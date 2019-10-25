@@ -1,27 +1,24 @@
 ← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
-#### IMyCryoChamber Interface
+#### IMyStoreBlock Interface
 
 ```csharp
-public interface IMyCryoChamber: IMyCockpit, IMyShipController, IMyTerminalBlock, IMyCubeBlock, IMyEntity, IMyTextSurfaceProvider
+public interface IMyStoreBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity
 ```
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
 
 **Implements:**  
-* [IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit)  
-* [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)  
+* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
 * [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
-* [IMyTextSurfaceProvider](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider)
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
 #### Properties
 
 |Member|Description|
 |---|---|
-|[SurfaceCount](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider.SurfaceCount)|_Inherited from [IMyTextSurfaceProvider](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider)_|
 |[Components](VRage.Game.ModAPI.Ingame.IMyEntity.Components)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[EntityId](VRage.Game.ModAPI.Ingame.IMyEntity.EntityId)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[Name](VRage.Game.ModAPI.Ingame.IMyEntity.Name)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
@@ -58,27 +55,16 @@ public interface IMyCryoChamber: IMyCockpit, IMyShipController, IMyTerminalBlock
 |[ShowInTerminal](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInTerminal)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[ShowInToolbarConfig](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInToolbarConfig)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[ShowInInventory](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
-|[CanControlShip](Sandbox.ModAPI.Ingame.IMyShipController.CanControlShip)|Determines whether this specific ship controller is capable of controlling the ship it's installed on.<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
-|[IsUnderControl](Sandbox.ModAPI.Ingame.IMyShipController.IsUnderControl)|Indicates whether a block is locally or remotely controlled.<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
-|[HasWheels](Sandbox.ModAPI.Ingame.IMyShipController.HasWheels)|Determines whether there are any wheels on this ship.<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
-|[ControlWheels](Sandbox.ModAPI.Ingame.IMyShipController.ControlWheels)|Gets or sets whether wheels are being controlled by this controller.<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
-|[ControlThrusters](Sandbox.ModAPI.Ingame.IMyShipController.ControlThrusters)|Gets or sets whether thrusters are being controlled by this controller.<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
-|[HandBrake](Sandbox.ModAPI.Ingame.IMyShipController.HandBrake)|Gets or sets the current state of the handbrake.<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
-|[DampenersOverride](Sandbox.ModAPI.Ingame.IMyShipController.DampenersOverride)|Gets or sets whether dampeners are currently enabled.<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
-|[ShowHorizonIndicator](Sandbox.ModAPI.Ingame.IMyShipController.ShowHorizonIndicator)|Gets or sets whether the horizon indicator should be displayed for this block.<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
-|[MoveIndicator](Sandbox.ModAPI.Ingame.IMyShipController.MoveIndicator)|Directional input from user/autopilot. Values can be very large with high controller sensitivity<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
-|[RotationIndicator](Sandbox.ModAPI.Ingame.IMyShipController.RotationIndicator)|Pitch, yaw input from user/autopilot. Values can be very large with high controller sensitivity<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
-|[RollIndicator](Sandbox.ModAPI.Ingame.IMyShipController.RollIndicator)|Roll input from user/autopilot. Values can be very large with high controller sensitivity<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
-|[CenterOfMass](Sandbox.ModAPI.Ingame.IMyShipController.CenterOfMass)|Center of mass in world coordinates<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
-|[IsMainCockpit](Sandbox.ModAPI.Ingame.IMyShipController.IsMainCockpit)|Gets or sets if this controller is the main one for current ship Setter checks if there is any other main cockpit on the ship before proceeding<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
-|[OxygenCapacity](Sandbox.ModAPI.Ingame.IMyCockpit.OxygenCapacity)|Gets the maximum oxygen capacity of this cockpit.<br /><br />_Inherited from [IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit)_|
-|[OxygenFilledRatio](Sandbox.ModAPI.Ingame.IMyCockpit.OxygenFilledRatio)|Gets the current oxygen level of this cockpit, as a value between 0 (empty) and 1 (full).<br /><br />_Inherited from [IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit)_|
+|[Enabled](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.Enabled)|_Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_|
 
 #### Methods
 
 |Member|Description|
 |---|---|
-|[GetSurface(int)](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider.GetSurface)|_Inherited from [IMyTextSurfaceProvider](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider)_|
+|[InsertOffer(MyStoreItemDataSimple, out long)](Sandbox.ModAPI.Ingame.IMyStoreBlock.InsertOffer)|Creates store item offer and returns its id.|
+|[InsertOrder(MyStoreItemDataSimple, out long)](Sandbox.ModAPI.Ingame.IMyStoreBlock.InsertOrder)|Creates store item order and returns its id.|
+|[CancelStoreItem(long)](Sandbox.ModAPI.Ingame.IMyStoreBlock.CancelStoreItem)|Cancels the item (either order or offer).|
+|[GetPlayerStoreItems(List)](Sandbox.ModAPI.Ingame.IMyStoreBlock.GetPlayerStoreItems)|Returns player store items.|
 |[GetInventory()](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)|Simply get the MyInventoryBase component stored in this entity.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[GetInventory(int)](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)|Search for inventory component with maching index.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[GetPosition()](VRage.Game.ModAPI.Ingame.IMyEntity.GetPosition)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
@@ -97,12 +83,5 @@ public interface IMyCryoChamber: IMyCockpit, IMyShipController, IMyTerminalBlock
 |[GetProperty(string)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetProperty)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[GetProperties(List, Func)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetProperties)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[IsSameConstructAs(IMyTerminalBlock)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.IsSameConstructAs)|Determines whether this block is mechanically connected to the other. This is any block connected with rotors or pistons or other mechanical devices, but not things like connectors. This will in most cases constitute your complete construct.<br /><br />Be aware that using merge blocks combines grids into one, so this function will not filter out grids connected that way. Also be aware that detaching the heads of pistons and rotors will cause this connection to change.<br /><br />_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
-|[GetNaturalGravity()](Sandbox.ModAPI.Ingame.IMyShipController.GetNaturalGravity)|Gets the detected natural gravity vector and power at the current location.<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
-|[GetArtificialGravity()](Sandbox.ModAPI.Ingame.IMyShipController.GetArtificialGravity)|Gets the detected artificial gravity vector and power at the current location.<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
-|[GetTotalGravity()](Sandbox.ModAPI.Ingame.IMyShipController.GetTotalGravity)|Gets the total accumulated gravity vector and power at the current location, taking both natural and artificial gravity into account.<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
-|[GetShipSpeed()](Sandbox.ModAPI.Ingame.IMyShipController.GetShipSpeed)|Gets the basic ship speed in meters per second, for when you just need to know how fast you're going.<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
-|[GetShipVelocities()](Sandbox.ModAPI.Ingame.IMyShipController.GetShipVelocities)|Determines the linear velocities in meters per second and angular velocities in radians per second. Provides a more accurate representation of the directions and axis speeds.<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
-|[CalculateShipMass()](Sandbox.ModAPI.Ingame.IMyShipController.CalculateShipMass)|Gets information about the current mass of the ship.<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
-|[TryGetPlanetPosition(out Vector3D)](Sandbox.ModAPI.Ingame.IMyShipController.TryGetPlanetPosition)|Attempts to get the world position of the nearest planet. This method is only available when a ship is within the gravity well of a planet.<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
-|[TryGetPlanetElevation(MyPlanetElevation, out double)](Sandbox.ModAPI.Ingame.IMyShipController.TryGetPlanetElevation)|Attempts to get the elevation of the ship in relation to the nearest planet. This method is only available when a ship is within the gravity well of a planet.<br /><br />_Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_|
+|[RequestEnable(bool)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)|_**Obsolete:** Use the setter of Enabled_<br /><br />_Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_|
 

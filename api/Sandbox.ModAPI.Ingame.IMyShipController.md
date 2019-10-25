@@ -35,7 +35,7 @@ public interface IMyShipController: IMyTerminalBlock, IMyCubeBlock, IMyEntity
 |[RotationIndicator](Sandbox.ModAPI.Ingame.IMyShipController.RotationIndicator)|Pitch, yaw input from user/autopilot. Values can be very large with high controller sensitivity|
 |[RollIndicator](Sandbox.ModAPI.Ingame.IMyShipController.RollIndicator)|Roll input from user/autopilot. Values can be very large with high controller sensitivity|
 |[CenterOfMass](Sandbox.ModAPI.Ingame.IMyShipController.CenterOfMass)|Center of mass in world coordinates|
-|[IsMainCockpit](Sandbox.ModAPI.Ingame.IMyShipController.IsMainCockpit)|Gets or sets if this controller is the main one.|
+|[IsMainCockpit](Sandbox.ModAPI.Ingame.IMyShipController.IsMainCockpit)|Gets or sets if this controller is the main one for current ship Setter checks if there is any other main cockpit on the ship before proceeding|
 |[Components](VRage.Game.ModAPI.Ingame.IMyEntity.Components)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[EntityId](VRage.Game.ModAPI.Ingame.IMyEntity.EntityId)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[Name](VRage.Game.ModAPI.Ingame.IMyEntity.Name)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|

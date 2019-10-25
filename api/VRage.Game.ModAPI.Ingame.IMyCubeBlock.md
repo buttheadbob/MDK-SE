@@ -74,6 +74,7 @@ Basic cube interface
 * [IMySmallGatlingGun](Sandbox.ModAPI.Ingame.IMySmallGatlingGun)  
 * [IMySmallMissileLauncher](Sandbox.ModAPI.Ingame.IMySmallMissileLauncher)  
 * [IMySmallMissileLauncherReload](Sandbox.ModAPI.Ingame.IMySmallMissileLauncherReload)  
+* [IMyStoreBlock](Sandbox.ModAPI.Ingame.IMyStoreBlock)  
 * [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel)  
 * [IMyThrust](Sandbox.ModAPI.Ingame.IMyThrust)  

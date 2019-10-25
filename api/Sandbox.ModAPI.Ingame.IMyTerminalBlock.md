@@ -66,6 +66,7 @@ public interface IMyTerminalBlock: IMyCubeBlock, IMyEntity
 * [IMySmallGatlingGun](Sandbox.ModAPI.Ingame.IMySmallGatlingGun)  
 * [IMySmallMissileLauncher](Sandbox.ModAPI.Ingame.IMySmallMissileLauncher)  
 * [IMySmallMissileLauncherReload](Sandbox.ModAPI.Ingame.IMySmallMissileLauncherReload)  
+* [IMyStoreBlock](Sandbox.ModAPI.Ingame.IMyStoreBlock)  
 * [IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel)  
 * [IMyThrust](Sandbox.ModAPI.Ingame.IMyThrust)  
 * [IMyUpgradeModule](Sandbox.ModAPI.Ingame.IMyUpgradeModule)  

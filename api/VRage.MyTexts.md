@@ -9,10 +9,17 @@ public abstract sealed class MyTexts
 **Namespace:** [VRage](VRage)  
 **Assembly:** VRage.dll
 
+#### Fields
+
+|Member|Description|
+|---|---|
+|[GAMEPAD_VARIANT_ID](VRage.MyTexts.GAMEPAD_VARIANT_ID)||
+
 #### Properties
 
 |Member|Description|
 |---|---|
+|[GlobalVariantSelector](VRage.MyTexts.GlobalVariantSelector)|Global selector for translation variants.|
 |[Languages](VRage.MyTexts.Languages)||
 
 #### Methods
@@ -22,6 +29,7 @@ public abstract sealed class MyTexts
 |[GetBestSuitableLanguage(string)](VRage.MyTexts.GetBestSuitableLanguage)||
 |[GetSystemLanguage()](VRage.MyTexts.GetSystemLanguage)||
 |[LoadSupportedLanguages(string, HashSet)](VRage.MyTexts.LoadSupportedLanguages)||
+|[SetGlobalVariantSelector(MyStringId)](VRage.MyTexts.SetGlobalVariantSelector)|Set the global variant to be selected for each translation.|
 |[SubstituteTexts(string, string)](VRage.MyTexts.SubstituteTexts)||
 |[SubstituteTexts(StringBuilder)](VRage.MyTexts.SubstituteTexts)||
 |[Get(MyStringId)](VRage.MyTexts.Get)||

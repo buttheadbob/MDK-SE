@@ -70,6 +70,7 @@
 **[IMySmallGatlingGun](Sandbox.ModAPI.Ingame.IMySmallGatlingGun)**  
 **[IMySmallMissileLauncher](Sandbox.ModAPI.Ingame.IMySmallMissileLauncher)**  
 **[IMySmallMissileLauncherReload](Sandbox.ModAPI.Ingame.IMySmallMissileLauncherReload)**  
+**[IMyStoreBlock](Sandbox.ModAPI.Ingame.IMyStoreBlock)**  
 **[IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)**  
 **[IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel)**  
 **[IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)**  
@@ -95,6 +96,8 @@
 **[MyShipConnectorStatus](Sandbox.ModAPI.Ingame.MyShipConnectorStatus)**  
 **[MyShipMass](Sandbox.ModAPI.Ingame.MyShipMass)**  
 **[MyShipVelocities](Sandbox.ModAPI.Ingame.MyShipVelocities)**  
+**[MyStoreInsertResults](Sandbox.ModAPI.Ingame.MyStoreInsertResults)**  
+**[MyStoreQueryItem](Sandbox.ModAPI.Ingame.MyStoreQueryItem)**  
 **[MyTransmitTarget](Sandbox.ModAPI.Ingame.MyTransmitTarget)**  
 **[MyWaypointInfo](Sandbox.ModAPI.Ingame.MyWaypointInfo)**  
 **[PistonStatus](Sandbox.ModAPI.Ingame.PistonStatus)**  

@@ -29,6 +29,9 @@ Structure using the same layout than [System.Drawing.RectangleF](https://docs.mi
 |[Y](VRageMath.RectangleF.Y)|Top coordinate.|
 |[Width](VRageMath.RectangleF.Width)|Width of this rectangle.|
 |[Height](VRageMath.RectangleF.Height)|Height of this rectangle.|
+|[Right](VRageMath.RectangleF.Right)||
+|[Bottom](VRageMath.RectangleF.Bottom)||
+|[Center](VRageMath.RectangleF.Center)||
 
 #### Constructors
 

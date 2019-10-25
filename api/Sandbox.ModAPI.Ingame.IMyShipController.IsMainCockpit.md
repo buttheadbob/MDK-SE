@@ -6,7 +6,7 @@
 public bool IsMainCockpit { get; set; }
 ```
 
-Gets or sets if this controller is the main one.
+Gets or sets if this controller is the main one for current ship Setter checks if there is any other main cockpit on the ship before proceeding
 
 ### Returns
 

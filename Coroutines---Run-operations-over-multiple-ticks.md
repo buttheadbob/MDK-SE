@@ -114,7 +114,7 @@ public IEnumerator<bool> RunStuffOverTime()
     // performance friendly.
     while (true) 
     {
-        _textPanel.WritePublicText(i.ToString());
+        _textPanel.WriteText(i.ToString());
         i++;
         // Like before, when this statement is executed, control is returned to the game.
         // This way you can have a continuously polling script with complete state

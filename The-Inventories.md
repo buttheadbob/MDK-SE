@@ -1,4 +1,4 @@
-In Space Engineers, _inventories_ are objects that are available on a block level. Any block may have any number of inventories available. For example, the standard cargo block has one inventory available, while the assemblers has 2: _input_ (raw materials) and _output_ (product).
+In Space Engineers, _inventories_ are objects that are available on a block level. Any block may have any number of inventories available. For example, the standard cargo block has one inventory available, while the assemblers have 2: _input_ (raw materials) and _output_ (product).
 
 We can access these inventories in the programmable block by checking the blocks' `InventoryCount` property. In this tutorial I will assume you already understand how to use [the terminal system](The-Grid-Terminal-System), and that you understand [the anatomy of a script](The-Anatomy-Of-A-Script). I will also assume you have gained an understanding of [string interpolation](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated). All of these things are outside of the scope of this tutorial.
 

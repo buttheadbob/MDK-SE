@@ -20,6 +20,7 @@ _ps: this script will need to be_ recompiled _in order to recognize new blocks p
 ```csharp
 readonly List<IMyTerminalBlock> _blocks = new List<IMyTerminalBlock>();
 readonly StringBuilder _textBuffer = new StringBuilder(1024);
+readonly IMyTextSurface _display;
 
 public Program()
 {
@@ -27,9 +28,9 @@ public Program()
     GridTerminalSystem.GetBlocksOfType<IMyTerminalBlock>(_blocks, block => block.IsSameConstructAs(Me));
 
     // Configure the programmable block display to show simple text output
-    var mainDisplay = Me.GetSurface(0);
-    mainDisplay.ContentType = ContentType.TEXT_AND_IMAGE;
-    mainDisplay.TextPadding = 0.1f;
+    _display = Me.GetSurface(0);
+    _display.ContentType = ContentType.TEXT_AND_IMAGE;
+    _display.TextPadding = 0.1f;
 
     // We don't want to do this job too often, so let's just update once every 100 ticks
     Runtime.UpdateFrequency = UpdateFrequency.Update100;
@@ -44,13 +45,12 @@ public void Main(string argument, UpdateType updateSource)
     var cargoSpace = CalculateCargoSpace(_blocks);
 
     // Write the cargo information to the programmable block display
-    var mainDisplay = Me.GetSurface(0);
     _textBuffer.Clear();
     _textBuffer.Append(br);
     _textBuffer.Append($"  Used volume: {cargoSpace.UsedLiters:N2}L{br}");
     _textBuffer.Append($"  Capacity: {cargoSpace.CapacityLiters:N2}L{br}");
     _textBuffer.Append($"  Usage: {(cargoSpace.UsageRatio * 100):N1} %");
-    mainDisplay.WriteText(_textBuffer);
+    _display.WriteText(_textBuffer);
 }
 
 /// <summary>

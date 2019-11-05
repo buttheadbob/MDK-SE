@@ -56,8 +56,8 @@ public void Main(string argument, UpdateType updateSource)
 /// <summary>
 ///     Calculates the cargo space of the provided blocks
 /// </summary>
-/// <param name="blocks"></param>
-/// <returns></returns>
+/// <param name="blocks">A list of blocks to scan for inventories</param>
+/// <returns>A value containing cargo space information</returns>
 public CargoSpace CalculateCargoSpace(List<IMyTerminalBlock> blocks)
 {
     double used = 0;

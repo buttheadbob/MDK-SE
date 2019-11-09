@@ -102,7 +102,7 @@ public void Main(string argument)
         Action commandAction;
 
         // Retrieve the first argument. Switches are ignored.
-        var command = _commandLine.Argument(0);
+        string command = _commandLine.Argument(0);
 
         // Now we must validate that the first argument is actually specified, 
         // then attempt to find the matching command delegate.

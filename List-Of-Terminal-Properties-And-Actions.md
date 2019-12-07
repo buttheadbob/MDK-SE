@@ -63,7 +63,10 @@
 [IMySmallMissileLauncherReload](#imysmallmissilelauncherreload)  
 [IMySolarPanel](#imysolarpanel)  
 [IMySoundBlock](#imysoundblock)  
+[IMySoundBlock](#imysoundblock)  
 [IMySpaceBall](#imyspaceball)  
+[IMyStoreBlock](#imystoreblock)  
+[IMyStoreBlock](#imystoreblock)  
 [IMyTextPanel](#imytextpanel)  
 [IMyThrust](#imythrust)  
 [IMyTimerBlock](#imytimerblock)  
@@ -402,6 +405,7 @@
 
 |Name|Description|
 |-|-|
+|ControlGyros|ControlGyros On/Off|
 |ControlThrusters|Control thrusters On/Off|
 |ControlWheels|Control wheels On/Off|
 |DampenersOverride|Inertia dampeners On/Off|
@@ -427,6 +431,7 @@
 |BackgroundColor|Color|
 |ChangeIntervalSlider|float|
 |Content|long|
+|ControlGyros|bool|
 |ControlThrusters|bool|
 |ControlWheels|bool|
 |DampenersOverride|bool|
@@ -525,6 +530,7 @@
 
 |Name|Description|
 |-|-|
+|ControlGyros|ControlGyros On/Off|
 |ControlThrusters|Control thrusters On/Off|
 |ControlWheels|Control wheels On/Off|
 |DampenersOverride|Inertia dampeners On/Off|
@@ -550,6 +556,7 @@
 |BackgroundColor|Color|
 |ChangeIntervalSlider|float|
 |Content|long|
+|ControlGyros|bool|
 |ControlThrusters|bool|
 |ControlWheels|bool|
 |DampenersOverride|bool|
@@ -1799,6 +1806,7 @@
 |DecreaseIntensity|Decrease Intensity|
 |DecreaseOffset|Decrease Offset|
 |DecreaseRadius|Decrease Radius|
+|DecreaseRotationSpeed|Decrease Rotation speed|
 |IncreaseBlink Interval|Increase Blink Interval|
 |IncreaseBlink Lenght|Increase Blink Length|
 |IncreaseBlink Offset|Increase Blink Offset|
@@ -1806,6 +1814,7 @@
 |IncreaseIntensity|Increase Intensity|
 |IncreaseOffset|Increase Offset|
 |IncreaseRadius|Increase Radius|
+|IncreaseRotationSpeed|Increase Rotation speed|
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
@@ -1827,6 +1836,7 @@
 |Offset|float|
 |OnOff|bool|
 |Radius|float|
+|RotationSpeed|float|
 |ShowInInventory|bool|
 |ShowInTerminal|bool|
 |ShowInToolbarConfig|bool|
@@ -1845,6 +1855,7 @@
 |CollisionAvoidance|Collision avoidance On/Off|
 |CollisionAvoidance_Off|Collision avoidance Off|
 |CollisionAvoidance_On|Collision avoidance On|
+|ControlGyros|ControlGyros On/Off|
 |ControlThrusters|Control thrusters On/Off|
 |ControlWheels|Control wheels On/Off|
 |DampenersOverride|Inertia dampeners On/Off|
@@ -1873,6 +1884,7 @@
 |AutoPilot|bool|
 |CameraList|long|
 |CollisionAvoidance|bool|
+|ControlGyros|bool|
 |ControlThrusters|bool|
 |ControlWheels|bool|
 |DampenersOverride|bool|
@@ -2058,7 +2070,7 @@
 |ShowOnHUD_On|Show on HUD On|
 |SwitchLock|Switch lock|
 |ThrowOut|Throw Out On/Off|
-|Trading|Trading Enabled On/Off|
+|Trading|Trading Mode On/Off|
 |Unlock|Unlock|
 
 ### Properties
@@ -2083,6 +2095,7 @@
 
 |Name|Description|
 |-|-|
+|ControlGyros|ControlGyros On/Off|
 |ControlThrusters|Control thrusters On/Off|
 |ControlWheels|Control wheels On/Off|
 |DampenersOverride|Inertia dampeners On/Off|
@@ -2097,6 +2110,7 @@
 
 |Name|Type|
 |-|-|
+|ControlGyros|bool|
 |ControlThrusters|bool|
 |ControlWheels|bool|
 |DampenersOverride|bool|
@@ -2367,6 +2381,41 @@
 |ShowOnHUD|bool|
 |VolumeSlider|float|
 
+## IMySoundBlock
+
+### Actions
+
+|Name|Description|
+|-|-|
+|DecreaseLoopableSlider|Decrease Loop time|
+|DecreaseRangeSlider|Decrease Range|
+|DecreaseVolumeSlider|Decrease Volume|
+|IncreaseLoopableSlider|Increase Loop time|
+|IncreaseRangeSlider|Increase Range|
+|IncreaseVolumeSlider|Increase Volume|
+|OnOff|Toggle block On/Off|
+|OnOff_Off|Toggle block Off|
+|OnOff_On|Toggle block On|
+|PlaySound|Play|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
+|StopSound|Stop|
+
+### Properties
+
+|Name|Type|
+|-|-|
+|LoopableSlider|float|
+|Name|StringBuilder|
+|OnOff|bool|
+|RangeSlider|float|
+|ShowInInventory|bool|
+|ShowInTerminal|bool|
+|ShowInToolbarConfig|bool|
+|ShowOnHUD|bool|
+|VolumeSlider|float|
+
 ## IMySpaceBall
 
 ### Actions
@@ -2395,6 +2444,98 @@
 |ShowInToolbarConfig|bool|
 |ShowOnHUD|bool|
 |VirtualMass|float|
+
+## IMyStoreBlock
+
+### Actions
+
+|Name|Description|
+|-|-|
+|AnyoneCanUse|Anyone Can Use On/Off|
+|DecreaseChangeIntervalSlider|Decrease Image change interval|
+|DecreaseFontSize|Decrease Font Size|
+|DecreaseTextPaddingSlider|Decrease Text Padding|
+|IncreaseChangeIntervalSlider|Increase Image change interval|
+|IncreaseFontSize|Increase Font Size|
+|IncreaseTextPaddingSlider|Increase Text Padding|
+|OnOff|Toggle block On/Off|
+|OnOff_Off|Toggle block Off|
+|OnOff_On|Toggle block On|
+|PreserveAspectRatio|Preserve aspect ratio On/Off|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
+|UseConveyor|Use Conveyor System On/Off|
+
+### Properties
+
+|Name|Type|
+|-|-|
+|alignment|long|
+|AnyoneCanUse|bool|
+|BackgroundColor|Color|
+|ChangeIntervalSlider|float|
+|Content|long|
+|Font|long|
+|FontColor|Color|
+|FontSize|float|
+|Name|StringBuilder|
+|OnOff|bool|
+|PreserveAspectRatio|bool|
+|ScriptBackgroundColor|Color|
+|ScriptForegroundColor|Color|
+|ShowInInventory|bool|
+|ShowInTerminal|bool|
+|ShowInToolbarConfig|bool|
+|ShowOnHUD|bool|
+|TextPaddingSlider|float|
+|UseConveyor|bool|
+
+## IMyStoreBlock
+
+### Actions
+
+|Name|Description|
+|-|-|
+|AnyoneCanUse|Anyone Can Use On/Off|
+|DecreaseChangeIntervalSlider|Decrease Image change interval|
+|DecreaseFontSize|Decrease Font Size|
+|DecreaseTextPaddingSlider|Decrease Text Padding|
+|IncreaseChangeIntervalSlider|Increase Image change interval|
+|IncreaseFontSize|Increase Font Size|
+|IncreaseTextPaddingSlider|Increase Text Padding|
+|OnOff|Toggle block On/Off|
+|OnOff_Off|Toggle block Off|
+|OnOff_On|Toggle block On|
+|PreserveAspectRatio|Preserve aspect ratio On/Off|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
+|UseConveyor|Use Conveyor System On/Off|
+
+### Properties
+
+|Name|Type|
+|-|-|
+|alignment|long|
+|AnyoneCanUse|bool|
+|BackgroundColor|Color|
+|ChangeIntervalSlider|float|
+|Content|long|
+|Font|long|
+|FontColor|Color|
+|FontSize|float|
+|Name|StringBuilder|
+|OnOff|bool|
+|PreserveAspectRatio|bool|
+|ScriptBackgroundColor|Color|
+|ScriptForegroundColor|Color|
+|ShowInInventory|bool|
+|ShowInTerminal|bool|
+|ShowInToolbarConfig|bool|
+|ShowOnHUD|bool|
+|TextPaddingSlider|float|
+|UseConveyor|bool|
 
 ## IMyTextPanel
 

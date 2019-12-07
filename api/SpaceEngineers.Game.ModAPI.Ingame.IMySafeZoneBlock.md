@@ -3,7 +3,7 @@
 #### IMySafeZoneBlock Interface
 
 ```csharp
-public interface IMySafeZoneBlock: IMyFunctionalBlock, IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity, IMyTerminalBlock, IMyCubeBlock, IMyEntity
+public interface IMySafeZoneBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity
 ```
 
 Safe zone block interface
@@ -12,14 +12,10 @@ Safe zone block interface
 **Assembly:** SpaceEngineers.Game.dll
 
 **Implements:**  
-* [IMyFunctionalBlock](Sandbox.ModAPI.IMyFunctionalBlock)  
 * [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
 * [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
-* [IMyTerminalBlock](Sandbox.ModAPI.IMyTerminalBlock)  
-* [IMyCubeBlock](VRage.Game.ModAPI.IMyCubeBlock)  
-* [IMyEntity](VRage.ModAPI.IMyEntity)
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
 #### Properties
 

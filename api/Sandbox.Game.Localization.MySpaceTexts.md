@@ -25,10 +25,10 @@ public abstract sealed class MySpaceTexts
 |Align_Left||
 |Align_Right||
 |AngleGrinderPrimaryAction||
-|AnonymousActivityTracking_Caption||
-|AnonymousActivityTracking_PrivacyPolicy||
-|AnonymousActivityTracking_Text1||
-|AnonymousActivityTracking_Text2||
+|GDPR_Caption||
+|GDPR_PrivacyPolicy||
+|GDPR_Text1||
+|GDPR_Text2||
 |Antenna_EnableBroadcast||
 |Antenna_IgnoreAlliedBroadcast||
 |Antenna_IgnoreAlliedBroadcastTooltip||
@@ -2462,7 +2462,7 @@ public abstract sealed class MySpaceTexts
 |ToolTipOptionsControls_MouseSensitivity||
 |ToolTipOptionsDisplay_ScreenshotMultiplier||
 |ToolTipOptionsDisplay_WindowMode||
-|ToolTipOptionsGame_AnonymousActivityTracking||
+|ToolTipOptionsGame_GDPRConsent||
 |ToolTipOptionsGame_BuildingMode||
 |ToolTipOptionsGame_Language||
 |ToolTipOptionsGraphics_AmbientOcclusion||

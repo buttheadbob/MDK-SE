@@ -7,7 +7,6 @@
 [IMyAirVent](#imyairvent)  
 [IMyArtificialMassBlock](#imyartificialmassblock)  
 [IMyAssembler](#imyassembler)  
-[IMyAssembler](#imyassembler)  
 [IMyBatteryBlock](#imybatteryblock)  
 [IMyBeacon](#imybeacon)  
 [IMyButtonPanel](#imybuttonpanel)  
@@ -42,7 +41,6 @@
 [IMyParachute](#imyparachute)  
 [IMyPistonBase](#imypistonbase)  
 [IMyPowerProducer](#imypowerproducer)  
-[IMyPowerProducer](#imypowerproducer)  
 [IMyProgrammableBlock](#imyprogrammableblock)  
 [IMyProjector](#imyprojector)  
 [IMyRadioAntenna](#imyradioantenna)  
@@ -63,9 +61,7 @@
 [IMySmallMissileLauncherReload](#imysmallmissilelauncherreload)  
 [IMySolarPanel](#imysolarpanel)  
 [IMySoundBlock](#imysoundblock)  
-[IMySoundBlock](#imysoundblock)  
 [IMySpaceBall](#imyspaceball)  
-[IMyStoreBlock](#imystoreblock)  
 [IMyStoreBlock](#imystoreblock)  
 [IMyTextPanel](#imytextpanel)  
 [IMyThrust](#imythrust)  
@@ -242,34 +238,6 @@
 |ShowOnHUD|bool|
 |slaveMode|bool|
 |SpawnName|StringBuilder|
-|UseConveyor|bool|
-
-## IMyAssembler
-
-### Actions
-
-|Name|Description|
-|-|-|
-|OnOff|Toggle block On/Off|
-|OnOff_Off|Toggle block Off|
-|OnOff_On|Toggle block On|
-|ShowOnHUD|Show on HUD On/Off|
-|ShowOnHUD_Off|Show on HUD Off|
-|ShowOnHUD_On|Show on HUD On|
-|slaveMode|Cooperative Mode On/Off|
-|UseConveyor|Use Conveyor System On/Off|
-
-### Properties
-
-|Name|Type|
-|-|-|
-|Name|StringBuilder|
-|OnOff|bool|
-|ShowInInventory|bool|
-|ShowInTerminal|bool|
-|ShowInToolbarConfig|bool|
-|ShowOnHUD|bool|
-|slaveMode|bool|
 |UseConveyor|bool|
 
 ## IMyBatteryBlock
@@ -1569,30 +1537,6 @@
 |ShowInToolbarConfig|bool|
 |ShowOnHUD|bool|
 
-## IMyPowerProducer
-
-### Actions
-
-|Name|Description|
-|-|-|
-|OnOff|Toggle block On/Off|
-|OnOff_Off|Toggle block Off|
-|OnOff_On|Toggle block On|
-|ShowOnHUD|Show on HUD On/Off|
-|ShowOnHUD_Off|Show on HUD Off|
-|ShowOnHUD_On|Show on HUD On|
-
-### Properties
-
-|Name|Type|
-|-|-|
-|Name|StringBuilder|
-|OnOff|bool|
-|ShowInInventory|bool|
-|ShowInTerminal|bool|
-|ShowInToolbarConfig|bool|
-|ShowOnHUD|bool|
-
 ## IMyProgrammableBlock
 
 ### Actions
@@ -2381,41 +2325,6 @@
 |ShowOnHUD|bool|
 |VolumeSlider|float|
 
-## IMySoundBlock
-
-### Actions
-
-|Name|Description|
-|-|-|
-|DecreaseLoopableSlider|Decrease Loop time|
-|DecreaseRangeSlider|Decrease Range|
-|DecreaseVolumeSlider|Decrease Volume|
-|IncreaseLoopableSlider|Increase Loop time|
-|IncreaseRangeSlider|Increase Range|
-|IncreaseVolumeSlider|Increase Volume|
-|OnOff|Toggle block On/Off|
-|OnOff_Off|Toggle block Off|
-|OnOff_On|Toggle block On|
-|PlaySound|Play|
-|ShowOnHUD|Show on HUD On/Off|
-|ShowOnHUD_Off|Show on HUD Off|
-|ShowOnHUD_On|Show on HUD On|
-|StopSound|Stop|
-
-### Properties
-
-|Name|Type|
-|-|-|
-|LoopableSlider|float|
-|Name|StringBuilder|
-|OnOff|bool|
-|RangeSlider|float|
-|ShowInInventory|bool|
-|ShowInTerminal|bool|
-|ShowInToolbarConfig|bool|
-|ShowOnHUD|bool|
-|VolumeSlider|float|
-
 ## IMySpaceBall
 
 ### Actions
@@ -2444,52 +2353,6 @@
 |ShowInToolbarConfig|bool|
 |ShowOnHUD|bool|
 |VirtualMass|float|
-
-## IMyStoreBlock
-
-### Actions
-
-|Name|Description|
-|-|-|
-|AnyoneCanUse|Anyone Can Use On/Off|
-|DecreaseChangeIntervalSlider|Decrease Image change interval|
-|DecreaseFontSize|Decrease Font Size|
-|DecreaseTextPaddingSlider|Decrease Text Padding|
-|IncreaseChangeIntervalSlider|Increase Image change interval|
-|IncreaseFontSize|Increase Font Size|
-|IncreaseTextPaddingSlider|Increase Text Padding|
-|OnOff|Toggle block On/Off|
-|OnOff_Off|Toggle block Off|
-|OnOff_On|Toggle block On|
-|PreserveAspectRatio|Preserve aspect ratio On/Off|
-|ShowOnHUD|Show on HUD On/Off|
-|ShowOnHUD_Off|Show on HUD Off|
-|ShowOnHUD_On|Show on HUD On|
-|UseConveyor|Use Conveyor System On/Off|
-
-### Properties
-
-|Name|Type|
-|-|-|
-|alignment|long|
-|AnyoneCanUse|bool|
-|BackgroundColor|Color|
-|ChangeIntervalSlider|float|
-|Content|long|
-|Font|long|
-|FontColor|Color|
-|FontSize|float|
-|Name|StringBuilder|
-|OnOff|bool|
-|PreserveAspectRatio|bool|
-|ScriptBackgroundColor|Color|
-|ScriptForegroundColor|Color|
-|ShowInInventory|bool|
-|ShowInTerminal|bool|
-|ShowInToolbarConfig|bool|
-|ShowOnHUD|bool|
-|TextPaddingSlider|float|
-|UseConveyor|bool|
 
 ## IMyStoreBlock
 

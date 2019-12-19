@@ -68,9 +68,16 @@ public void RunStateMachine()
         // yields, MoveNext will return false to signal that the method has completed.
         // The actual return value of your yields are unimportant to the actual state
         // machine.
+        bool hasMoreSteps = _stateMachine.MoveNext();
 
         // If there are no more instructions, we stop and release the state machine.
-        if (!_stateMachine.MoveNext())
+        if (_hasMoreSteps)
+        {
+            // The state machine still has more work to do, so signal another run again, 
+            // just like at the beginning.
+            Runtime.UpdateFrequency |= UpdateFrequency.Once;
+        } 
+        else 
         {
             _stateMachine.Dispose();
 
@@ -80,12 +87,6 @@ public void RunStateMachine()
             // _stateMachine = RunStuffOverTime();
             // instead.
             _stateMachine = null;
-        } 
-        else 
-        {
-            // The state machine still has more work to do, so signal another run again, 
-            // just like at the beginning.
-            Runtime.UpdateFrequency |= UpdateFrequency.Once;
         }
     }
 }

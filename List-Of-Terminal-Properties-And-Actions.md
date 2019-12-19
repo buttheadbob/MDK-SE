@@ -20,6 +20,9 @@
 [IMyDecoy](#imydecoy)  
 [IMyDoor](#imydoor)  
 [IMyExtendedPistonBase](#imyextendedpistonbase)  
+[IMyFunctionalBlock](#imyfunctionalblock)  
+[IMyGasGenerator](#imygasgenerator)  
+[IMyGasTank](#imygastank)  
 [IMyGravityGenerator](#imygravitygenerator)  
 [IMyGravityGeneratorSphere](#imygravitygeneratorsphere)  
 [IMyGyro](#imygyro)  
@@ -28,19 +31,14 @@
 [IMyLandingGear](#imylandinggear)  
 [IMyLargeGatlingTurret](#imylargegatlingturret)  
 [IMyLargeInteriorTurret](#imylargeinteriorturret)  
-[IMyLargeMissileTurret](#imylargemissileturret)  
 [IMyLaserAntenna](#imylaserantenna)  
 [IMyMedicalRoom](#imymedicalroom)  
 [IMyMotorAdvancedStator](#imymotoradvancedstator)  
-[IMyMotorStator](#imymotorstator)  
 [IMyMotorSuspension](#imymotorsuspension)  
 [IMyOreDetector](#imyoredetector)  
 [IMyOxygenFarm](#imyoxygenfarm)  
-[IMyOxygenGenerator](#imyoxygengenerator)  
-[IMyOxygenTank](#imyoxygentank)  
 [IMyParachute](#imyparachute)  
 [IMyPistonBase](#imypistonbase)  
-[IMyPowerProducer](#imypowerproducer)  
 [IMyProgrammableBlock](#imyprogrammableblock)  
 [IMyProjector](#imyprojector)  
 [IMyRadioAntenna](#imyradioantenna)  
@@ -63,6 +61,7 @@
 [IMySoundBlock](#imysoundblock)  
 [IMySpaceBall](#imyspaceball)  
 [IMyStoreBlock](#imystoreblock)  
+[IMyTerminalBlock](#imyterminalblock)  
 [IMyTextPanel](#imytextpanel)  
 [IMyThrust](#imythrust)  
 [IMyTimerBlock](#imytimerblock)  
@@ -237,7 +236,6 @@
 |ShowInToolbarConfig|bool|
 |ShowOnHUD|bool|
 |slaveMode|bool|
-|SpawnName|StringBuilder|
 |UseConveyor|bool|
 
 ## IMyBatteryBlock
@@ -627,7 +625,6 @@
 |ResetVelocity|Reset Velocity|
 |Retract|Retract|
 |Reverse|Reverse|
-|ShareInertiaTensor|Share inertia tensor On/Off|
 |ShowOnHUD|Show on HUD On/Off|
 |ShowOnHUD_Off|Show on HUD Off|
 |ShowOnHUD_On|Show on HUD On|
@@ -643,7 +640,6 @@
 |Name|StringBuilder|
 |OnOff|bool|
 |SafetyDetach|float|
-|ShareInertiaTensor|bool|
 |ShowInInventory|bool|
 |ShowInTerminal|bool|
 |ShowInToolbarConfig|bool|
@@ -651,6 +647,90 @@
 |UpperLimit|float|
 |Velocity|float|
 |Weld speed|float|
+
+## IMyFunctionalBlock
+
+### Actions
+
+|Name|Description|
+|-|-|
+|OnOff|Toggle block On/Off|
+|OnOff_Off|Toggle block Off|
+|OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
+
+### Properties
+
+|Name|Type|
+|-|-|
+|Name|StringBuilder|
+|OnOff|bool|
+|ShowInInventory|bool|
+|ShowInTerminal|bool|
+|ShowInToolbarConfig|bool|
+|ShowOnHUD|bool|
+
+## IMyGasGenerator
+
+### Actions
+
+|Name|Description|
+|-|-|
+|Auto-Refill|Auto-Refill On/Off|
+|OnOff|Toggle block On/Off|
+|OnOff_Off|Toggle block Off|
+|OnOff_On|Toggle block On|
+|Refill|Refill Bottles|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
+|UseConveyor|Use Conveyor System On/Off|
+
+### Properties
+
+|Name|Type|
+|-|-|
+|Auto-Refill|bool|
+|Name|StringBuilder|
+|OnOff|bool|
+|ShowInInventory|bool|
+|ShowInTerminal|bool|
+|ShowInToolbarConfig|bool|
+|ShowOnHUD|bool|
+|UseConveyor|bool|
+
+## IMyGasTank
+
+### Actions
+
+|Name|Description|
+|-|-|
+|Auto-Refill|Auto-Refill On/Off|
+|OnOff|Toggle block On/Off|
+|OnOff_Off|Toggle block Off|
+|OnOff_On|Toggle block On|
+|Refill|Refill Bottles|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
+|Stockpile|Stockpile On/Off|
+|Stockpile_Off|Stockpile Off|
+|Stockpile_On|Stockpile On|
+
+### Properties
+
+|Name|Type|
+|-|-|
+|Auto-Refill|bool|
+|Name|StringBuilder|
+|OnOff|bool|
+|ShowInInventory|bool|
+|ShowInTerminal|bool|
+|ShowInToolbarConfig|bool|
+|ShowOnHUD|bool|
+|Stockpile|bool|
 
 ## IMyGravityGenerator
 
@@ -992,72 +1072,6 @@
 |TargetSmallShips|bool|
 |TargetStations|bool|
 
-## IMyLargeMissileTurret
-
-### Actions
-
-|Name|Description|
-|-|-|
-|DecreaseRange|Decrease Aiming radius|
-|EnableIdleMovement|Enable idle movement On/Off|
-|EnableIdleMovement_Off|Enable idle movement Off|
-|EnableIdleMovement_On|Enable idle movement On|
-|IncreaseRange|Increase Aiming radius|
-|OnOff|Toggle block On/Off|
-|OnOff_Off|Toggle block Off|
-|OnOff_On|Toggle block On|
-|Shoot|Shoot On/Off|
-|Shoot_Off|Shoot Off|
-|Shoot_On|Shoot On|
-|ShootOnce|Shoot once|
-|ShowOnHUD|Show on HUD On/Off|
-|ShowOnHUD_Off|Show on HUD Off|
-|ShowOnHUD_On|Show on HUD On|
-|TargetCharacters|Target characters On/Off|
-|TargetCharacters_Off|Target characters Off|
-|TargetCharacters_On|Target characters On|
-|TargetLargeShips|Target large ships On/Off|
-|TargetLargeShips_Off|Target large ships Off|
-|TargetLargeShips_On|Target large ships On|
-|TargetMeteors|Target meteors On/Off|
-|TargetMeteors_Off|Target meteors Off|
-|TargetMeteors_On|Target meteors On|
-|TargetMissiles|Target missiles On/Off|
-|TargetMissiles_Off|Target missiles Off|
-|TargetMissiles_On|Target missiles On|
-|TargetNeutrals|Target neutrals On/Off|
-|TargetNeutrals_Off|Target neutrals Off|
-|TargetNeutrals_On|Target neutrals On|
-|TargetSmallShips|Target small ships On/Off|
-|TargetSmallShips_Off|Target small ships Off|
-|TargetSmallShips_On|Target small ships On|
-|TargetStations|Target stations On/Off|
-|TargetStations_Off|Target stations Off|
-|TargetStations_On|Target stations On|
-|UseConveyor|Use Conveyor System On/Off|
-
-### Properties
-
-|Name|Type|
-|-|-|
-|EnableIdleMovement|bool|
-|Name|StringBuilder|
-|OnOff|bool|
-|Range|float|
-|Shoot|bool|
-|ShowInInventory|bool|
-|ShowInTerminal|bool|
-|ShowInToolbarConfig|bool|
-|ShowOnHUD|bool|
-|TargetCharacters|bool|
-|TargetLargeShips|bool|
-|TargetMeteors|bool|
-|TargetMissiles|bool|
-|TargetNeutrals|bool|
-|TargetSmallShips|bool|
-|TargetStations|bool|
-|UseConveyor|bool|
-
 ## IMyLaserAntenna
 
 ### Actions
@@ -1152,7 +1166,6 @@
 |ResetVelocity|Reset Velocity|
 |Reverse|Reverse|
 |RotorLock|Rotor lock On/Off|
-|ShareInertiaTensor|Share inertia tensor On/Off|
 |ShowOnHUD|Show on HUD On/Off|
 |ShowOnHUD_Off|Show on HUD Off|
 |ShowOnHUD_On|Show on HUD On|
@@ -1169,67 +1182,6 @@
 |OnOff|bool|
 |RotorLock|bool|
 |SafetyDetach|float|
-|ShareInertiaTensor|bool|
-|ShowInInventory|bool|
-|ShowInTerminal|bool|
-|ShowInToolbarConfig|bool|
-|ShowOnHUD|bool|
-|Torque|float|
-|UpperLimit|float|
-|Velocity|float|
-|Weld speed|float|
-
-## IMyMotorStator
-
-### Actions
-
-|Name|Description|
-|-|-|
-|Add Small Top Part|Add Small Head|
-|Add Top Part|Add Rotor Head|
-|Attach|Attach|
-|DecreaseBrakingTorque|Decrease Braking torque|
-|DecreaseDisplacement|Decrease Rotor displacement|
-|DecreaseLowerLimit|Decrease Lower limit|
-|DecreaseSafetyDetach|Decrease Safety detach|
-|DecreaseTorque|Decrease Torque|
-|DecreaseUpperLimit|Decrease Upper limit|
-|DecreaseVelocity|Decrease Velocity|
-|DecreaseWeld speed|Decrease Safety lock speed|
-|Detach|Detach|
-|Force weld|Safety lock override On/Off|
-|IncreaseBrakingTorque|Increase Braking torque|
-|IncreaseDisplacement|Increase Rotor displacement|
-|IncreaseLowerLimit|Increase Lower limit|
-|IncreaseSafetyDetach|Increase Safety detach|
-|IncreaseTorque|Increase Torque|
-|IncreaseUpperLimit|Increase Upper limit|
-|IncreaseVelocity|Increase Velocity|
-|IncreaseWeld speed|Increase Safety lock speed|
-|OnOff|Toggle block On/Off|
-|OnOff_Off|Toggle block Off|
-|OnOff_On|Toggle block On|
-|ResetVelocity|Reset Velocity|
-|Reverse|Reverse|
-|RotorLock|Rotor lock On/Off|
-|ShareInertiaTensor|Share inertia tensor On/Off|
-|ShowOnHUD|Show on HUD On/Off|
-|ShowOnHUD_Off|Show on HUD Off|
-|ShowOnHUD_On|Show on HUD On|
-
-### Properties
-
-|Name|Type|
-|-|-|
-|BrakingTorque|float|
-|Displacement|float|
-|Force weld|bool|
-|LowerLimit|float|
-|Name|StringBuilder|
-|OnOff|bool|
-|RotorLock|bool|
-|SafetyDetach|float|
-|ShareInertiaTensor|bool|
 |ShowInInventory|bool|
 |ShowInTerminal|bool|
 |ShowInToolbarConfig|bool|
@@ -1280,7 +1232,6 @@
 |ResetPropulsion override|Reset Propulsion override|
 |ResetSpeed Limit|Reset Speed limit|
 |ResetSteer override|Reset Steer override|
-|ShareInertiaTensor|Share inertia tensor On/Off|
 |ShowOnHUD|Show on HUD On/Off|
 |ShowOnHUD_Off|Show on HUD Off|
 |ShowOnHUD_On|Show on HUD On|
@@ -1304,7 +1255,6 @@
 |Propulsion|bool|
 |Propulsion override|float|
 |SafetyDetach|float|
-|ShareInertiaTensor|bool|
 |ShowInInventory|bool|
 |ShowInTerminal|bool|
 |ShowInToolbarConfig|bool|
@@ -1365,66 +1315,6 @@
 |ShowInTerminal|bool|
 |ShowInToolbarConfig|bool|
 |ShowOnHUD|bool|
-
-## IMyOxygenGenerator
-
-### Actions
-
-|Name|Description|
-|-|-|
-|Auto-Refill|Auto-Refill On/Off|
-|OnOff|Toggle block On/Off|
-|OnOff_Off|Toggle block Off|
-|OnOff_On|Toggle block On|
-|Refill|Refill Bottles|
-|ShowOnHUD|Show on HUD On/Off|
-|ShowOnHUD_Off|Show on HUD Off|
-|ShowOnHUD_On|Show on HUD On|
-|UseConveyor|Use Conveyor System On/Off|
-
-### Properties
-
-|Name|Type|
-|-|-|
-|Auto-Refill|bool|
-|Name|StringBuilder|
-|OnOff|bool|
-|ShowInInventory|bool|
-|ShowInTerminal|bool|
-|ShowInToolbarConfig|bool|
-|ShowOnHUD|bool|
-|UseConveyor|bool|
-
-## IMyOxygenTank
-
-### Actions
-
-|Name|Description|
-|-|-|
-|Auto-Refill|Auto-Refill On/Off|
-|OnOff|Toggle block On/Off|
-|OnOff_Off|Toggle block Off|
-|OnOff_On|Toggle block On|
-|Refill|Refill Bottles|
-|ShowOnHUD|Show on HUD On/Off|
-|ShowOnHUD_Off|Show on HUD Off|
-|ShowOnHUD_On|Show on HUD On|
-|Stockpile|Stockpile On/Off|
-|Stockpile_Off|Stockpile Off|
-|Stockpile_On|Stockpile On|
-
-### Properties
-
-|Name|Type|
-|-|-|
-|Auto-Refill|bool|
-|Name|StringBuilder|
-|OnOff|bool|
-|ShowInInventory|bool|
-|ShowInTerminal|bool|
-|ShowInToolbarConfig|bool|
-|ShowOnHUD|bool|
-|Stockpile|bool|
 
 ## IMyParachute
 
@@ -1488,7 +1378,6 @@
 |ResetVelocity|Reset Velocity|
 |Retract|Retract|
 |Reverse|Reverse|
-|ShareInertiaTensor|Share inertia tensor On/Off|
 |ShowOnHUD|Show on HUD On/Off|
 |ShowOnHUD_Off|Show on HUD Off|
 |ShowOnHUD_On|Show on HUD On|
@@ -1504,7 +1393,6 @@
 |Name|StringBuilder|
 |OnOff|bool|
 |SafetyDetach|float|
-|ShareInertiaTensor|bool|
 |ShowInInventory|bool|
 |ShowInTerminal|bool|
 |ShowInToolbarConfig|bool|
@@ -1512,30 +1400,6 @@
 |UpperLimit|float|
 |Velocity|float|
 |Weld speed|float|
-
-## IMyPowerProducer
-
-### Actions
-
-|Name|Description|
-|-|-|
-|OnOff|Toggle block On/Off|
-|OnOff_Off|Toggle block Off|
-|OnOff_On|Toggle block On|
-|ShowOnHUD|Show on HUD On/Off|
-|ShowOnHUD_Off|Show on HUD Off|
-|ShowOnHUD_On|Show on HUD On|
-
-### Properties
-
-|Name|Type|
-|-|-|
-|Name|StringBuilder|
-|OnOff|bool|
-|ShowInInventory|bool|
-|ShowInTerminal|bool|
-|ShowInToolbarConfig|bool|
-|ShowOnHUD|bool|
 
 ## IMyProgrammableBlock
 
@@ -2399,6 +2263,26 @@
 |ShowOnHUD|bool|
 |TextPaddingSlider|float|
 |UseConveyor|bool|
+
+## IMyTerminalBlock
+
+### Actions
+
+|Name|Description|
+|-|-|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
+
+### Properties
+
+|Name|Type|
+|-|-|
+|Name|StringBuilder|
+|ShowInInventory|bool|
+|ShowInTerminal|bool|
+|ShowInToolbarConfig|bool|
+|ShowOnHUD|bool|
 
 ## IMyTextPanel
 

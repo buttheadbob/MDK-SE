@@ -17,6 +17,11 @@ public interface IMyCryoChamber: IMyCockpit, IMyShipController, IMyTerminalBlock
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
 * [IMyTextSurfaceProvider](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider)
 
+**Type Definitions:**  
+* `MyObjectBuilder_CryoChamber/LargeBlockCryoChamber`  
+* `MyObjectBuilder_CryoChamber/SmallBlockCryoChamber`  
+* `MyObjectBuilder_CryoChamber/LargeBlockBed`
+
 #### Properties
 
 |Member|Description|

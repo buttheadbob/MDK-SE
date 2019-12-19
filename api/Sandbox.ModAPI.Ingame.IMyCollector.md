@@ -15,6 +15,10 @@ public interface IMyCollector: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBloc
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_Collector/Collector`  
+* `MyObjectBuilder_Collector/CollectorSmall`
+
 #### Properties
 
 |Member|Description|

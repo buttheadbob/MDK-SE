@@ -15,6 +15,10 @@ public interface IMyCameraBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBl
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_CameraBlock/SmallCameraBlock`  
+* `MyObjectBuilder_CameraBlock/LargeCameraBlock`
+
 #### Properties
 
 |Member|Description|

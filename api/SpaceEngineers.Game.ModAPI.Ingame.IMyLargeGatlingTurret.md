@@ -18,6 +18,10 @@ public interface IMyLargeGatlingTurret: IMyLargeConveyorTurretBase, IMyLargeTurr
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_LargeGatlingTurret/`  
+* `MyObjectBuilder_LargeGatlingTurret/SmallGatlingTurret`
+
 #### Properties
 
 |Member|Description|

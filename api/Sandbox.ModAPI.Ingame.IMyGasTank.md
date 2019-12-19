@@ -18,6 +18,12 @@ public interface IMyGasTank: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock,
 **Inheritors:**  
 * [IMyOxygenTank](Sandbox.ModAPI.Ingame.IMyOxygenTank)
 
+**Type Definitions:**  
+* `MyObjectBuilder_OxygenTank/OxygenTankSmall`  
+* `MyObjectBuilder_OxygenTank/`  
+* `MyObjectBuilder_OxygenTank/LargeHydrogenTank`  
+* `MyObjectBuilder_OxygenTank/SmallHydrogenTank`
+
 #### Properties
 
 |Member|Description|

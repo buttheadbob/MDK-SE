@@ -15,6 +15,11 @@ public interface IMyConveyorSorter: IMyFunctionalBlock, IMyTerminalBlock, IMyCub
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_ConveyorSorter/LargeBlockConveyorSorter`  
+* `MyObjectBuilder_ConveyorSorter/MediumBlockConveyorSorter`  
+* `MyObjectBuilder_ConveyorSorter/SmallBlockConveyorSorter`
+
 #### Properties
 
 |Member|Description|

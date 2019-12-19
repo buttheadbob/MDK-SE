@@ -15,6 +15,10 @@ public interface IMyShipMergeBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCub
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_MergeBlock/LargeShipMergeBlock`  
+* `MyObjectBuilder_MergeBlock/SmallShipMergeBlock`
+
 #### Properties
 
 |Member|Description|

@@ -16,6 +16,11 @@ public interface IMyBatteryBlock: IMyPowerProducer, IMyFunctionalBlock, IMyTermi
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_BatteryBlock/LargeBlockBatteryBlock`  
+* `MyObjectBuilder_BatteryBlock/SmallBlockBatteryBlock`  
+* `MyObjectBuilder_BatteryBlock/SmallBlockSmallBatteryBlock`
+
 #### Properties
 
 |Member|Description|

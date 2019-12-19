@@ -16,6 +16,10 @@ public interface IMySolarPanel: IMyPowerProducer, IMyFunctionalBlock, IMyTermina
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_SolarPanel/LargeBlockSolarPanel`  
+* `MyObjectBuilder_SolarPanel/SmallBlockSolarPanel`
+
 #### Properties
 
 |Member|Description|

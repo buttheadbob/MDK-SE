@@ -15,6 +15,10 @@ public interface IMySoundBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlo
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_SoundBlock/SmallBlockSoundBlock`  
+* `MyObjectBuilder_SoundBlock/LargeBlockSoundBlock`
+
 #### Properties
 
 |Member|Description|

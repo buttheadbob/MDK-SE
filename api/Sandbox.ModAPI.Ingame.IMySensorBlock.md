@@ -15,6 +15,10 @@ public interface IMySensorBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBl
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_SensorBlock/SmallBlockSensor`  
+* `MyObjectBuilder_SensorBlock/LargeBlockSensor`
+
 #### Properties
 
 |Member|Description|

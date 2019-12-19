@@ -15,6 +15,10 @@ public interface IMyShipDrill: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBloc
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_Drill/SmallBlockDrill`  
+* `MyObjectBuilder_Drill/LargeBlockDrill`
+
 #### Properties
 
 |Member|Description|

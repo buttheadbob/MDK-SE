@@ -16,6 +16,10 @@ public interface IMyProgrammableBlock: IMyFunctionalBlock, IMyTerminalBlock, IMy
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
 * [IMyTextSurfaceProvider](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider)
 
+**Type Definitions:**  
+* `MyObjectBuilder_MyProgrammableBlock/SmallProgrammableBlock`  
+* `MyObjectBuilder_MyProgrammableBlock/LargeProgrammableBlock`
+
 #### Properties
 
 |Member|Description|

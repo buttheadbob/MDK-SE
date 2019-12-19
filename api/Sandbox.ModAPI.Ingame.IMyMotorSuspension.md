@@ -17,6 +17,20 @@ public interface IMyMotorSuspension: IMyMotorBase, IMyMechanicalConnectionBlock,
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_MotorSuspension/Suspension3x3`  
+* `MyObjectBuilder_MotorSuspension/Suspension5x5`  
+* `MyObjectBuilder_MotorSuspension/Suspension1x1`  
+* `MyObjectBuilder_MotorSuspension/SmallSuspension3x3`  
+* `MyObjectBuilder_MotorSuspension/SmallSuspension5x5`  
+* `MyObjectBuilder_MotorSuspension/SmallSuspension1x1`  
+* `MyObjectBuilder_MotorSuspension/Suspension3x3mirrored`  
+* `MyObjectBuilder_MotorSuspension/Suspension5x5mirrored`  
+* `MyObjectBuilder_MotorSuspension/Suspension1x1mirrored`  
+* `MyObjectBuilder_MotorSuspension/SmallSuspension3x3mirrored`  
+* `MyObjectBuilder_MotorSuspension/SmallSuspension5x5mirrored`  
+* `MyObjectBuilder_MotorSuspension/SmallSuspension1x1mirrored`
+
 #### Properties
 
 |Member|Description|

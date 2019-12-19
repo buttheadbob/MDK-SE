@@ -17,6 +17,10 @@ Beacon block interface
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_Beacon/LargeBlockBeacon`  
+* `MyObjectBuilder_Beacon/SmallBlockBeacon`
+
 #### Properties
 
 |Member|Description|

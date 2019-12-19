@@ -17,6 +17,9 @@ public interface IMySmallMissileLauncherReload: IMySmallMissileLauncher, IMyUser
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_SmallMissileLauncherReload/SmallRocketLauncherReload`
+
 #### Properties
 
 |Member|Description|

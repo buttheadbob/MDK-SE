@@ -16,6 +16,9 @@ public interface IMyGravityGenerator: IMyGravityGeneratorBase, IMyFunctionalBloc
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_GravityGenerator/`
+
 #### Properties
 
 |Member|Description|

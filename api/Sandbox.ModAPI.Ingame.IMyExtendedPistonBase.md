@@ -17,6 +17,10 @@ public interface IMyExtendedPistonBase: IMyPistonBase, IMyMechanicalConnectionBl
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_ExtendedPistonBase/LargePistonBase`  
+* `MyObjectBuilder_ExtendedPistonBase/SmallPistonBase`
+
 #### Properties
 
 |Member|Description|

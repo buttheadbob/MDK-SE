@@ -17,6 +17,9 @@ Safe zone block interface
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_SafeZoneBlock/SafeZoneBlock`
+
 #### Properties
 
 |Member|Description|

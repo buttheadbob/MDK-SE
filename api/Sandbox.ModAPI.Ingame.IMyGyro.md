@@ -15,6 +15,10 @@ public interface IMyGyro: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IM
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_Gyro/LargeBlockGyro`  
+* `MyObjectBuilder_Gyro/SmallBlockGyro`
+
 #### Properties
 
 |Member|Description|

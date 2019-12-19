@@ -15,6 +15,10 @@ public interface IMyStoreBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlo
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_StoreBlock/StoreBlock`  
+* `MyObjectBuilder_StoreBlock/AtmBlock`
+
 #### Properties
 
 |Member|Description|

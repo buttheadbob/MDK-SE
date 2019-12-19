@@ -21,6 +21,9 @@ public interface IMyDoor: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IM
 * [IMyAirtightHangarDoor](Sandbox.ModAPI.Ingame.IMyAirtightHangarDoor)  
 * [IMyAirtightSlideDoor](Sandbox.ModAPI.Ingame.IMyAirtightSlideDoor)
 
+**Type Definitions:**  
+* `MyObjectBuilder_Door/`
+
 #### Properties
 
 |Member|Description|

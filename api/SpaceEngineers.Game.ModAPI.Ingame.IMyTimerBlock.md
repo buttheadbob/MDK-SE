@@ -15,6 +15,10 @@ public interface IMyTimerBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlo
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_TimerBlock/TimerBlockLarge`  
+* `MyObjectBuilder_TimerBlock/TimerBlockSmall`
+
 #### Properties
 
 |Member|Description|

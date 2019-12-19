@@ -16,6 +16,10 @@ public interface IMyArtificialMassBlock: IMyVirtualMass, IMyFunctionalBlock, IMy
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_VirtualMass/VirtualMassLarge`  
+* `MyObjectBuilder_VirtualMass/VirtualMassSmall`
+
 #### Properties
 
 |Member|Description|

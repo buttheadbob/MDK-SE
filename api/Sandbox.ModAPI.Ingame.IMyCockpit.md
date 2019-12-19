@@ -19,6 +19,25 @@ public interface IMyCockpit: IMyShipController, IMyTerminalBlock, IMyCubeBlock, 
 **Inheritors:**  
 * [IMyCryoChamber](Sandbox.ModAPI.Ingame.IMyCryoChamber)
 
+**Type Definitions:**  
+* `MyObjectBuilder_Cockpit/LargeBlockCockpit`  
+* `MyObjectBuilder_Cockpit/LargeBlockCockpitSeat`  
+* `MyObjectBuilder_Cockpit/SmallBlockCockpit`  
+* `MyObjectBuilder_Cockpit/DBSmallBlockFighterCockpit`  
+* `MyObjectBuilder_Cockpit/CockpitOpen`  
+* `MyObjectBuilder_Cockpit/OpenCockpitSmall`  
+* `MyObjectBuilder_Cockpit/PassengerSeatLarge`  
+* `MyObjectBuilder_Cockpit/PassengerSeatSmall`  
+* `MyObjectBuilder_Cockpit/LargeBlockDesk`  
+* `MyObjectBuilder_Cockpit/LargeBlockDeskCorner`  
+* `MyObjectBuilder_Cockpit/LargeBlockCouch`  
+* `MyObjectBuilder_Cockpit/LargeBlockCouchCorner`  
+* `MyObjectBuilder_Cockpit/LargeBlockBathroomOpen`  
+* `MyObjectBuilder_Cockpit/LargeBlockBathroom`  
+* `MyObjectBuilder_Cockpit/LargeBlockToilet`  
+* `MyObjectBuilder_Cockpit/SmallBlockCockpitIndustrial`  
+* `MyObjectBuilder_Cockpit/LargeBlockCockpitIndustrial`
+
 #### Properties
 
 |Member|Description|

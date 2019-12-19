@@ -17,6 +17,10 @@ Laser antenna block interface
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_LaserAntenna/LargeBlockLaserAntenna`  
+* `MyObjectBuilder_LaserAntenna/SmallBlockLaserAntenna`
+
 #### Properties
 
 |Member|Description|

@@ -18,6 +18,10 @@ Spaceball interface
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_SpaceBall/SpaceBallLarge`  
+* `MyObjectBuilder_SpaceBall/SpaceBallSmall`
+
 #### Properties
 
 |Member|Description|

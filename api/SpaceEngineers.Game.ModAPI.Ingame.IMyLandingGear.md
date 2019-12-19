@@ -15,6 +15,10 @@ public interface IMyLandingGear: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBl
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_LandingGear/LargeBlockLandingGear`  
+* `MyObjectBuilder_LandingGear/SmallBlockLandingGear`
+
 #### Properties
 
 |Member|Description|

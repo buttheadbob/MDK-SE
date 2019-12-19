@@ -14,6 +14,10 @@ public interface IMyButtonPanel: IMyTerminalBlock, IMyCubeBlock, IMyEntity
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_ButtonPanel/ButtonPanelLarge`  
+* `MyObjectBuilder_ButtonPanel/ButtonPanelSmall`
+
 #### Properties
 
 |Member|Description|

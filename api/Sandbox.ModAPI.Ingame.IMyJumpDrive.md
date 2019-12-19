@@ -15,6 +15,9 @@ public interface IMyJumpDrive: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBloc
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_JumpDrive/LargeJumpDrive`
+
 #### Properties
 
 |Member|Description|

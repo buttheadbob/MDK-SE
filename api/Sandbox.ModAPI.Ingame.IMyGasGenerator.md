@@ -20,6 +20,10 @@ Gas generator interface
 **Inheritors:**  
 * [IMyOxygenGenerator](Sandbox.ModAPI.Ingame.IMyOxygenGenerator)
 
+**Type Definitions:**  
+* `MyObjectBuilder_OxygenGenerator/`  
+* `MyObjectBuilder_OxygenGenerator/OxygenGeneratorSmall`
+
 #### Properties
 
 |Member|Description|

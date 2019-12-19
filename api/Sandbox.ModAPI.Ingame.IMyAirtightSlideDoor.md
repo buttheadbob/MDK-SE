@@ -17,6 +17,9 @@ public interface IMyAirtightSlideDoor: IMyAirtightDoorBase, IMyDoor, IMyFunction
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_AirtightSlideDoor/LargeBlockSlideDoor`
+
 #### Properties
 
 |Member|Description|

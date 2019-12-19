@@ -9,7 +9,7 @@ public abstract class MyResourceSinkComponentBase: MyEntityComponentBase
 **Namespace:** [VRage.Game.Components](VRage.Game.Components)  
 **Assembly:** VRage.Game.dll
 
-**Inheritance:** [MyEntityComponentBase](VRage.Game.Components.MyEntityComponentBase)
+**Inheritance:**   [MyEntityComponentBase](VRage.Game.Components.MyEntityComponentBase)
 
 **Inheritors:**  
 * [MyResourceSinkComponent](Sandbox.Game.EntityComponents.MyResourceSinkComponent)

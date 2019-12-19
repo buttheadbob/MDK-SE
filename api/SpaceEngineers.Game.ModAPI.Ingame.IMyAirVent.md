@@ -17,6 +17,10 @@ AirVent block for pressurizing and depresurizing rooms
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_AirVent/`  
+* `MyObjectBuilder_AirVent/SmallAirVent`
+
 #### Properties
 
 |Member|Description|

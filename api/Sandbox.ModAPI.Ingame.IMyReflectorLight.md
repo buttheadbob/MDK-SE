@@ -16,6 +16,12 @@ public interface IMyReflectorLight: IMyLightingBlock, IMyFunctionalBlock, IMyTer
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_ReflectorLight/RotatingLightLarge`  
+* `MyObjectBuilder_ReflectorLight/RotatingLightSmall`  
+* `MyObjectBuilder_ReflectorLight/LargeBlockFrontLight`  
+* `MyObjectBuilder_ReflectorLight/SmallBlockFrontLight`
+
 #### Properties
 
 |Member|Description|

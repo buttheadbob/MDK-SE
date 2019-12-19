@@ -15,6 +15,10 @@ public interface IMyOreDetector: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBl
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_OreDetector/LargeOreDetector`  
+* `MyObjectBuilder_OreDetector/SmallBlockOreDetector`
+
 #### Properties
 
 |Member|Description|

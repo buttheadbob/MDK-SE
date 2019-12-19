@@ -17,6 +17,9 @@ public interface IMyLargeInteriorTurret: IMyLargeTurretBase, IMyUserControllable
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_InteriorTurret/LargeInteriorTurret`
+
 #### Properties
 
 |Member|Description|

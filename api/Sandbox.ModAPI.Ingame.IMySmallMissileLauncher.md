@@ -19,6 +19,10 @@ public interface IMySmallMissileLauncher: IMyUserControllableGun, IMyFunctionalB
 **Inheritors:**  
 * [IMySmallMissileLauncherReload](Sandbox.ModAPI.Ingame.IMySmallMissileLauncherReload)
 
+**Type Definitions:**  
+* `MyObjectBuilder_SmallMissileLauncher/`  
+* `MyObjectBuilder_SmallMissileLauncher/LargeMissileLauncher`
+
 #### Properties
 
 |Member|Description|

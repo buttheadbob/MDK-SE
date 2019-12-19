@@ -16,6 +16,10 @@ public interface IMyAssembler: IMyProductionBlock, IMyFunctionalBlock, IMyTermin
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_Assembler/LargeAssembler`  
+* `MyObjectBuilder_Assembler/BasicAssembler`
+
 #### Properties
 
 |Member|Description|

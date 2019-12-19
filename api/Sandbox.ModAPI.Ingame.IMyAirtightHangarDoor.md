@@ -17,6 +17,9 @@ public interface IMyAirtightHangarDoor: IMyAirtightDoorBase, IMyDoor, IMyFunctio
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_AirtightHangarDoor/`
+
 #### Properties
 
 |Member|Description|

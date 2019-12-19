@@ -16,6 +16,9 @@ public interface IMyProjector: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBloc
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
 * [IMyTextSurfaceProvider](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider)
 
+**Type Definitions:**  
+* `MyObjectBuilder_Projector/LargeBlockConsole`
+
 #### Properties
 
 |Member|Description|

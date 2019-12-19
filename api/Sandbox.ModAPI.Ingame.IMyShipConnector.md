@@ -15,6 +15,11 @@ public interface IMyShipConnector: IMyFunctionalBlock, IMyTerminalBlock, IMyCube
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_ShipConnector/Connector`  
+* `MyObjectBuilder_ShipConnector/ConnectorSmall`  
+* `MyObjectBuilder_ShipConnector/ConnectorMedium`
+
 #### Properties
 
 |Member|Description|

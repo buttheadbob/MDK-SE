@@ -16,6 +16,10 @@ public interface IMyRefinery: IMyProductionBlock, IMyFunctionalBlock, IMyTermina
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_Refinery/LargeRefinery`  
+* `MyObjectBuilder_Refinery/Blast Furnace`
+
 #### Properties
 
 |Member|Description|

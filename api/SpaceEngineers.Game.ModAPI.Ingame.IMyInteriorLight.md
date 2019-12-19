@@ -16,6 +16,14 @@ public interface IMyInteriorLight: IMyLightingBlock, IMyFunctionalBlock, IMyTerm
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_InteriorLight/SmallLight`  
+* `MyObjectBuilder_InteriorLight/SmallBlockSmallLight`  
+* `MyObjectBuilder_InteriorLight/LargeBlockLight_1corner`  
+* `MyObjectBuilder_InteriorLight/LargeBlockLight_2corner`  
+* `MyObjectBuilder_InteriorLight/SmallBlockLight_1corner`  
+* `MyObjectBuilder_InteriorLight/SmallBlockLight_2corner`
+
 #### Properties
 
 |Member|Description|

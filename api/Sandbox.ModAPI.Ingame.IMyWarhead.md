@@ -14,6 +14,10 @@ public interface IMyWarhead: IMyTerminalBlock, IMyCubeBlock, IMyEntity
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_Warhead/LargeWarhead`  
+* `MyObjectBuilder_Warhead/SmallWarhead`
+
 #### Properties
 
 |Member|Description|

@@ -17,6 +17,11 @@ Interface to access module upgrades properties
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_UpgradeModule/LargeProductivityModule`  
+* `MyObjectBuilder_UpgradeModule/LargeEffectivenessModule`  
+* `MyObjectBuilder_UpgradeModule/LargeEnergyModule`
+
 #### Properties
 
 |Member|Description|

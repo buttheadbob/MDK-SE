@@ -16,6 +16,9 @@ public interface IMySmallGatlingGun: IMyUserControllableGun, IMyFunctionalBlock,
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_SmallGatlingGun/`
+
 #### Properties
 
 |Member|Description|

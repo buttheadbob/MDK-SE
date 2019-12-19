@@ -14,6 +14,9 @@ public interface IMyOxygenFarm: IMyTerminalBlock, IMyCubeBlock, IMyEntity
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_OxygenFarm/LargeBlockOxygenFarm`
+
 #### Properties
 
 |Member|Description|

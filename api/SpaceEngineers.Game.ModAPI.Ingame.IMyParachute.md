@@ -15,6 +15,10 @@ public interface IMyParachute: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBloc
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_Parachute/LgParachute`  
+* `MyObjectBuilder_Parachute/SmParachute`
+
 #### Properties
 
 |Member|Description|

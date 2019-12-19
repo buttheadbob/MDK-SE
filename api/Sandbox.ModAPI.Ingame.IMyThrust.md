@@ -15,6 +15,20 @@ public interface IMyThrust: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, 
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_Thrust/SmallBlockSmallThrust`  
+* `MyObjectBuilder_Thrust/SmallBlockLargeThrust`  
+* `MyObjectBuilder_Thrust/LargeBlockSmallThrust`  
+* `MyObjectBuilder_Thrust/LargeBlockLargeThrust`  
+* `MyObjectBuilder_Thrust/LargeBlockLargeHydrogenThrust`  
+* `MyObjectBuilder_Thrust/LargeBlockSmallHydrogenThrust`  
+* `MyObjectBuilder_Thrust/SmallBlockLargeHydrogenThrust`  
+* `MyObjectBuilder_Thrust/SmallBlockSmallHydrogenThrust`  
+* `MyObjectBuilder_Thrust/LargeBlockLargeAtmosphericThrust`  
+* `MyObjectBuilder_Thrust/LargeBlockSmallAtmosphericThrust`  
+* `MyObjectBuilder_Thrust/SmallBlockLargeAtmosphericThrust`  
+* `MyObjectBuilder_Thrust/SmallBlockSmallAtmosphericThrust`
+
 #### Properties
 
 |Member|Description|

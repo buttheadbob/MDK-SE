@@ -19,6 +19,10 @@ public interface IMyShipController: IMyTerminalBlock, IMyCubeBlock, IMyEntity
 * [IMyCryoChamber](Sandbox.ModAPI.Ingame.IMyCryoChamber)  
 * [IMyRemoteControl](Sandbox.ModAPI.Ingame.IMyRemoteControl)
 
+**Type Definitions:**  
+* `MyObjectBuilder_TerminalBlock/ControlPanel`  
+* `MyObjectBuilder_TerminalBlock/SmallControlPanel`
+
 #### Properties
 
 |Member|Description|

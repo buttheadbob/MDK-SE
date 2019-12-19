@@ -15,6 +15,10 @@ public interface IMyRemoteControl: IMyShipController, IMyTerminalBlock, IMyCubeB
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_RemoteControl/LargeBlockRemoteControl`  
+* `MyObjectBuilder_RemoteControl/SmallBlockRemoteControl`
+
 #### Properties
 
 |Member|Description|

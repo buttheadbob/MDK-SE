@@ -18,6 +18,10 @@ public interface IMyMotorAdvancedStator: IMyMotorStator, IMyMotorBase, IMyMechan
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_MotorAdvancedStator/LargeAdvancedStator`  
+* `MyObjectBuilder_MotorAdvancedStator/SmallAdvancedStator`
+
 #### Properties
 
 |Member|Description|

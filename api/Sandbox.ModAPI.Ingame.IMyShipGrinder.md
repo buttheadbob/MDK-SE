@@ -16,6 +16,10 @@ public interface IMyShipGrinder: IMyShipToolBase, IMyFunctionalBlock, IMyTermina
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_ShipGrinder/LargeShipGrinder`  
+* `MyObjectBuilder_ShipGrinder/SmallShipGrinder`
+
 #### Properties
 
 |Member|Description|

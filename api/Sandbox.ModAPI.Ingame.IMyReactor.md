@@ -16,6 +16,12 @@ public interface IMyReactor: IMyPowerProducer, IMyFunctionalBlock, IMyTerminalBl
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_Reactor/SmallBlockSmallGenerator`  
+* `MyObjectBuilder_Reactor/SmallBlockLargeGenerator`  
+* `MyObjectBuilder_Reactor/LargeBlockSmallGenerator`  
+* `MyObjectBuilder_Reactor/LargeBlockLargeGenerator`
+
 #### Properties
 
 |Member|Description|

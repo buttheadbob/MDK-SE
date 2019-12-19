@@ -15,6 +15,10 @@ public interface IMyDecoy: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, I
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
+**Type Definitions:**  
+* `MyObjectBuilder_Decoy/LargeDecoy`  
+* `MyObjectBuilder_Decoy/SmallDecoy`
+
 #### Properties
 
 |Member|Description|

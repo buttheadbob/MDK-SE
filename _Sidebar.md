@@ -12,6 +12,7 @@
     * [Advanced: Setting up Visual Studio for MDK contribution](https://youtu.be/J_bLNULs7Ck)
 * [**API Index**](Api-Index)
     * [By namespaces](Namespace-Index)
+* [**Type Definition Listing**](Type-Definition-Listing)
 * [**Quick Introduction to Space Engineers Ingame Scripts**](Quick-Introduction-to-Space-Engineers-Ingame-Scripts)
     * [The Anatomy of a Script](The-Anatomy-of-a-Script)
     * [Handling Script Arguments](Handling-Script-Arguments)

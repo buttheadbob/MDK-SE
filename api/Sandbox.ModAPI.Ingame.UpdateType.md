@@ -18,7 +18,6 @@ Enum describes what source triggered the script to run.
 |None||
 |Terminal|Script run by user in the terminal.|
 |Trigger|Script run by a block such as timer, sensor.|
-|Antenna|Script run by antenna receiving a message.|
 |Mod|Script run by a mod.|
 |Script|Script run by another programmable block.|
 |Update1|Script is updating every tick.|

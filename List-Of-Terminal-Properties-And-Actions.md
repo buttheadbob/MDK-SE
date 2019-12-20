@@ -1099,7 +1099,6 @@
 |isPerm|bool|
 |Name|StringBuilder|
 |OnOff|bool|
-|PBList|long|
 |Range|float|
 |ShowInInventory|bool|
 |ShowInTerminal|bool|
@@ -1525,8 +1524,6 @@
 |-|-|
 |DecreaseRadius|Decrease Broadcast radius|
 |EnableBroadCast|Enable broadcasting On/Off|
-|IgnoreAlliedBroadcast|Ignore Allied Broadcast On/Off|
-|IgnoreOtherBroadcast|Ignore Other Broadcast On/Off|
 |IncreaseRadius|Increase Broadcast radius|
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
@@ -1540,10 +1537,7 @@
 |CustomName|StringBuilder|
 |EnableBroadCast|bool|
 |HudText|StringBuilder|
-|IgnoreAlliedBroadcast|bool|
-|IgnoreOtherBroadcast|bool|
 |OnOff|bool|
-|PBList|long|
 |Radius|float|
 |ShowInTerminal|bool|
 |ShowInToolbarConfig|bool|

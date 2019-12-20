@@ -30,7 +30,6 @@ Laser antenna block interface
 |[IsPermanent](Sandbox.ModAPI.Ingame.IMyLaserAntenna.IsPermanent)|Connection is permanent|
 |[IsOutsideLimits](Sandbox.ModAPI.Ingame.IMyLaserAntenna.IsOutsideLimits)|_**Obsolete:** Check the Status property instead._<br /><br />Target is outside movement limits of antenna|
 |[Status](Sandbox.ModAPI.Ingame.IMyLaserAntenna.Status)|Gets the current status of this antenna.|
-|[AttachedProgrammableBlock](Sandbox.ModAPI.Ingame.IMyLaserAntenna.AttachedProgrammableBlock)|Gets or sets the EntityID of the Programmable Block attached to this antenna.|
 |[Range](Sandbox.ModAPI.Ingame.IMyLaserAntenna.Range)|Gets or sets the max range of the laser set in terminal|
 |[Components](VRage.Game.ModAPI.Ingame.IMyEntity.Components)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[EntityId](VRage.Game.ModAPI.Ingame.IMyEntity.EntityId)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
@@ -76,7 +75,6 @@ Laser antenna block interface
 |---|---|
 |[SetTargetCoords(string)](Sandbox.ModAPI.Ingame.IMyLaserAntenna.SetTargetCoords)|Set coordinates of target|
 |[Connect()](Sandbox.ModAPI.Ingame.IMyLaserAntenna.Connect)|Connect to target defined by SetTargetCoords|
-|[TransmitMessage(string)](Sandbox.ModAPI.Ingame.IMyLaserAntenna.TransmitMessage)|_**Obsolete:** Use IMyIntergridCommunicationSystem instead_<br /><br />Sends a message to the programmable block associated with this antenna's partner. Limited to 100,000 characters.|
 |[GetInventory()](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)|Simply get the MyInventoryBase component stored in this entity.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[GetInventory(int)](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)|Search for inventory component with maching index.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[GetPosition()](VRage.Game.ModAPI.Ingame.IMyEntity.GetPosition)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|

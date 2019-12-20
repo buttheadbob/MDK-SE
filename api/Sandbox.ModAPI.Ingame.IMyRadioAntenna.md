@@ -29,9 +29,6 @@ Antenna block interface
 |[ShowShipName](Sandbox.ModAPI.Ingame.IMyRadioAntenna.ShowShipName)|Show shipname on hud|
 |[IsBroadcasting](Sandbox.ModAPI.Ingame.IMyRadioAntenna.IsBroadcasting)|Returns true if antenna is broadcasting|
 |[EnableBroadcasting](Sandbox.ModAPI.Ingame.IMyRadioAntenna.EnableBroadcasting)|Gets or sets if broadcasting is enabled|
-|[AttachedProgrammableBlock](Sandbox.ModAPI.Ingame.IMyRadioAntenna.AttachedProgrammableBlock)|Gets or sets the EntityID of the Programmable Block attached to this antenna.|
-|[IgnoreAlliedBroadcast](Sandbox.ModAPI.Ingame.IMyRadioAntenna.IgnoreAlliedBroadcast)|Ignores broadcasts sent by friendly antenna that do not belong to you|
-|[IgnoreOtherBroadcast](Sandbox.ModAPI.Ingame.IMyRadioAntenna.IgnoreOtherBroadcast)|Ignores broadcasts sent by neutral and enemy antenna|
 |[HudText](Sandbox.ModAPI.Ingame.IMyRadioAntenna.HudText)|The text displayed in the spawn menu|
 |[Components](VRage.Game.ModAPI.Ingame.IMyEntity.Components)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[EntityId](VRage.Game.ModAPI.Ingame.IMyEntity.EntityId)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
@@ -75,7 +72,6 @@ Antenna block interface
 
 |Member|Description|
 |---|---|
-|[TransmitMessage(string, MyTransmitTarget)](Sandbox.ModAPI.Ingame.IMyRadioAntenna.TransmitMessage)|_**Obsolete:** Use IMyIntergridCommunicationSystem instead_<br /><br />Broadcasts a message to all PB attached to the antenna system. Broadcast is delayed until the start of the next tick, and only one transmission can be sent per tick. Returns false if broadcasting failed for any reason. Limited to 100,000 characters.|
 |[GetInventory()](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)|Simply get the MyInventoryBase component stored in this entity.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[GetInventory(int)](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)|Search for inventory component with maching index.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[GetPosition()](VRage.Game.ModAPI.Ingame.IMyEntity.GetPosition)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|

@@ -26,8 +26,7 @@ public interface IMyCockpit: IMyShipController, IMyTerminalBlock, IMyCubeBlock, 
 * `MyObjectBuilder_Cockpit/DBSmallBlockFighterCockpit`  
 * `MyObjectBuilder_Cockpit/CockpitOpen`  
 * `MyObjectBuilder_Cockpit/OpenCockpitSmall`  
-* `MyObjectBuilder_Cockpit/PassengerSeatLarge`  
-* `MyObjectBuilder_Cockpit/PassengerSeatSmall`  
+* `MyObjectBuilder_Cockpit/OpenCockpitLarge`  
 * `MyObjectBuilder_Cockpit/LargeBlockDesk`  
 * `MyObjectBuilder_Cockpit/LargeBlockDeskCorner`  
 * `MyObjectBuilder_Cockpit/LargeBlockCouch`  
@@ -36,7 +35,9 @@ public interface IMyCockpit: IMyShipController, IMyTerminalBlock, IMyCubeBlock, 
 * `MyObjectBuilder_Cockpit/LargeBlockBathroom`  
 * `MyObjectBuilder_Cockpit/LargeBlockToilet`  
 * `MyObjectBuilder_Cockpit/SmallBlockCockpitIndustrial`  
-* `MyObjectBuilder_Cockpit/LargeBlockCockpitIndustrial`
+* `MyObjectBuilder_Cockpit/LargeBlockCockpitIndustrial`  
+* `MyObjectBuilder_Cockpit/PassengerSeatLarge`  
+* `MyObjectBuilder_Cockpit/PassengerSeatSmall`
 
 #### Properties
 

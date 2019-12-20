@@ -1016,14 +1016,14 @@ public abstract sealed class MySpaceTexts
 |DisplayName_Block_Window1x1Face||
 |DisplayName_Block_Window1x1Flat||
 |DisplayName_Block_Window1x1FlatInv||
-|DisplayName_Block_Window1x1Inv||
+|DisplayName_Block_Window1x1FaceInv||
 |DisplayName_Block_Window1x1Side||
 |DisplayName_Block_Window1x1SideInv||
 |DisplayName_Block_Window1x1Slope||
 |DisplayName_Block_Window1x2Face||
 |DisplayName_Block_Window1x2Flat||
 |DisplayName_Block_Window1x2FlatInv||
-|DisplayName_Block_Window1x2Inv||
+|DisplayName_Block_Window1x2FaceInv||
 |DisplayName_Block_Window1x2SideLeft||
 |DisplayName_Block_Window1x2SideLeftInv||
 |DisplayName_Block_Window1x2SideRight||
@@ -4212,4 +4212,10 @@ public abstract sealed class MySpaceTexts
 |Description_CosmicCoffee||
 |RadialMenuSectionTitle_Modded||
 |RadialMenu_Label_CharacterOnly||
+|DisplayName_Block_GratedCatwalkRailingEnd||
+|DisplayName_Block_GratedCatwalkRailingHalfLeft||
+|DisplayName_Block_GratedCatwalkRailingHalfRight||
+|DisplayName_Block_GratedHalfStairsMirrored||
+|DisplayName_Block_RailingHalfLeft||
+|DisplayName_Block_RailingHalfRight||
 

@@ -59,6 +59,9 @@
 **Control Panel** ([IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_TerminalBlock/ControlPanel`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_TerminalBlock/SmallControlPanel`  
+**Control Seat** ([IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Cockpit/OpenCockpitLarge`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Cockpit/OpenCockpitSmall`  
 **Control Stations** ([IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Cockpit/LargeBlockCockpit`  
 **Conveyor Sorter** ([IMyConveyorSorter](Sandbox.ModAPI.Ingame.IMyConveyorSorter))  
@@ -222,8 +225,6 @@
 **Small Cargo Container** ([IMyCargoContainer](Sandbox.ModAPI.Ingame.IMyCargoContainer))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CargoContainer/LargeBlockSmallContainer`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CargoContainer/SmallBlockSmallContainer`  
-**Small Control Seat** ([IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit))  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Cockpit/OpenCockpitSmall`  
 **Small Conveyor Sorter** ([IMyConveyorSorter](Sandbox.ModAPI.Ingame.IMyConveyorSorter))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_ConveyorSorter/SmallBlockConveyorSorter`  
 **Small Reactor** ([IMyReactor](Sandbox.ModAPI.Ingame.IMyReactor))  

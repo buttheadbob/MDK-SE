@@ -49,9 +49,6 @@ public void Main(string argument, UpdateType updateType)
 * `UpdateType.Trigger`:
   Called from a button, timer, sensor or other simple trigger. An argument will be passed with this flag.
 
-* `UpdateType.Antenna`:
-  Called from an antenna. An argument will be passed with this flag.
-
 * `UpdateType.Script`:
   Called from another programmable block. An argument will be passed with this flag.
 
@@ -60,6 +57,9 @@ public void Main(string argument, UpdateType updateType)
 
 * `UpdateType.ModApi`:
   Called from a mod. An argument will be passed with this flag.
+
+* `UpdateType.IGC`:
+  A message has been received through the communications system.
 
 * `UpdateType.Once`:
   Called automatically by the programmable block because the `Runtime.UpdateFrequency` was set to `UpdateFrequency.Once`. This flag does not support arguments (but arguments might be passed if another flag is set)

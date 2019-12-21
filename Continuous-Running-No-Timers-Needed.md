@@ -59,7 +59,7 @@ public void Main(string argument, UpdateType updateType)
   Called from a mod. An argument will be passed with this flag.
 
 * `UpdateType.IGC`:
-  A message has been received through the communications system.
+  A message has been received through the communications system. The argument will be the callback identifier for the transmission channel.
 
 * `UpdateType.Once`:
   Called automatically by the programmable block because the `Runtime.UpdateFrequency` was set to `UpdateFrequency.Once`. This flag does not support arguments (but arguments might be passed if another flag is set)

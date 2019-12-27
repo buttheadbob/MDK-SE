@@ -178,8 +178,9 @@ public void DrawSprites(ref MySpriteDrawFrame frame)
         Type = SpriteType.TEXTURE,
         Data = "Grid",
         Position = _viewport.Center,
-        Size = _viewport.Size - new Vector2(32);
-        Color = Color.Red.Alpha(0.66f)
+        Size = _viewport.Size - new Vector2(32),
+        Color = Color.White.Alpha(0.66f),
+        Alignment = TextAlignment.Center
     };
     // Add the sprite to the frame
     frame.Add(sprite);
@@ -206,7 +207,7 @@ public void DrawSprites(ref MySpriteDrawFrame frame)
 
     // Create our second line, we'll just reuse our previous sprite variable - this is not necessary, just
     // a simplification in this case.
-    sprite = sprite = new MySprite()
+    sprite = new MySprite()
     {
         Type = SpriteType.TEXT,
         Data = "Line 1",

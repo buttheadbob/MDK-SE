@@ -54,6 +54,7 @@ This means that in order to place our sprites where we _expect_ them to be withi
 
 ```csharp
 IMyTextSurface _drawingSurface;
+RectangleF _viewport;
 
 // Script constructor
 public Program()
@@ -65,13 +66,16 @@ public Program()
     // Set the continuous update frequency of this script
     Runtime.UpdateFrequency = UpdateFrequency.Update100;
 
-    // Calculate the viewport by centering the surface size onto the texture size
+    // Calculate the viewport offset by centering the surface size onto the texture size
     _viewport = new RectangleF(
         (_drawingSurface.TextureSize - _drawingSurface.SurfaceSize) / 2f,
         _drawingSurface.SurfaceSize
     );
 }
 ```
+#### A Caveat...
+
+Once upon a time, an LCD mod was integrated into the vanilla game: The Corner LCDs. These corner LCDs does at the time of the writing of this tutorial, _not_ report the correct surface size, but a full texture size. Be aware of this.
 
 ### Drawing A Frame
 

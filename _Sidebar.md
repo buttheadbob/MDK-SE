@@ -33,3 +33,4 @@
         * [Advanced: Profiling the Game](Advanced-Profiling-The-Game)
     * [Advanced: The EntityId](The-Entity-Id)
     * [Advanced: Coroutines - Run operations over multiple ticks](Coroutines---Run-operations-over-multiple-ticks)
+    * [Advanced: Text Panels and Drawing Sprites](Text-Panels-and-Drawing-Sprites)

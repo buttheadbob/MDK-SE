@@ -180,7 +180,7 @@ public void DrawSprites(ref MySpriteDrawFrame frame)
         Position = _viewport.Center,
         Size = _viewport.Size - new Vector2(32),
         Color = Color.White.Alpha(0.66f),
-        Alignment = TextAlignment.Center
+        Alignment = TextAlignment.CENTER
     };
     // Add the sprite to the frame
     frame.Add(sprite);

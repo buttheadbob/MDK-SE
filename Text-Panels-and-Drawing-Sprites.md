@@ -3,12 +3,16 @@ Some time ago we finally got a way to make more advanced and pretty screens usin
 
 ### Configuring Text Surfaces
 
-Every block with modifiable text surfaces will slow a list of text surfaces in the control panel.  
-![Text Surface List](images/textsurface-list.jpg)  
+Every block with modifiable text surfaces will slow a list of text surfaces in the control panel.
+
+![Text Surface List](../images/textsurface-list.jpg)
+
 For the programmable block, there's two. The number and names will vary across different blocks.
 
-To manually set up a text surface for sprite drawing, select the text surface you wish to draw on, then select `Script` in the Content drop box below the surface list. A new set of controls will show up below the Content drop box.  
-![Text Surface Content](images/textsurface-content.jpg)  
+To manually set up a text surface for sprite drawing, select the text surface you wish to draw on, then select `Script` in the Content drop box below the surface list. A new set of controls will show up below the Content drop box.
+
+![Text Surface Content](../images/textsurface-content.jpg)
+
 The scripts listed in this list are _not_ programmable block scripts. They are special built-in (or modded) scripts that we cannot directly modify in-game. So, for our purposes, we want to make sure that we select `None`.
 This will allow the programmable block to control the output of this text panel.
 
@@ -39,6 +43,35 @@ public Program()
     Runtime.UpdateFrequency = UpdateFrequency.Update100;
 }
 ```
+### The Viewport
+
+There is a difference between the actual texture we draw on, and the area that is actually visible on the block. This visible Surface size is given to us through the `SurfaceSize` property, and the size of the texture we're drawing on is available through the `TextureSize` property.
+
+The majority of the text surfaces _center_ this surface on its texture, like this:  
+![Text Surface Viewport](../images/textsurface-viewport.png)
+
+This means that in order to place our sprites where we _expect_ them to be within what we actually see, we'll need to calculate this offset. I choose to do this by creating a full `RectangleF` which describes both the offset and size of the
+
+```csharp
+IMyTextSurface _drawingSurface;
+
+// Script constructor
+public Program()
+{
+    // Me is the programmable block which is running this script.
+    // Retrieve the Large Display, which is the first surface
+    _drawingSurface = Me.GetSurface(0);
+
+    // Set the continuous update frequency of this script
+    Runtime.UpdateFrequency = UpdateFrequency.Update100;
+
+    // Calculate the viewport by centering the surface size onto the texture size
+    _viewport = new RectangleF(
+        (_drawingSurface.TextureSize - _drawingSurface.SurfaceSize) / 2f,
+        _drawingSurface.SurfaceSize
+    );
+}
+```
 
 ### Drawing A Frame
 
@@ -63,22 +96,57 @@ Note that every `DrawFrame` will overwrite the previous. You cannot have multipl
 
 ### Drawing Sprites
 
+Sprites are drawn by adding instructions to the MySpriteDrawFrame on how they should be drawn. This is done through the [`MySprite`](VRage.Game.GUI.TextPanel.MySprite) structure. It consists of the following fields:
+
+|Member|Description|
+|---|---|
+|[Type](VRage.Game.GUI.TextPanel.MySprite.Type)|Type of sprite; either SpriteType.TEXT or SpriteType.TEXTURE|
+|[Position](VRage.Game.GUI.TextPanel.MySprite.Position)|Render position for this sprite. If not set, it will be placed in the center|
+|[Size](VRage.Game.GUI.TextPanel.MySprite.Size)|Render size for this sprite. If not set, it will be sized to take up the whole texture|
+|[Color](VRage.Game.GUI.TextPanel.MySprite.Color)|Color mask to be used when rendering this sprite. If not set, white will be used|
+|[Data](VRage.Game.GUI.TextPanel.MySprite.Data)|Data to be rendered, depending on what the sprite type is. This can be text or a texture name|
+|[FontId](VRage.Game.GUI.TextPanel.MySprite.FontId)|In case we are rendering text, what font to use.|
+|[Alignment](VRage.Game.GUI.TextPanel.MySprite.Alignment)|Alignment for the text and sprites.|
+|[RotationOrScale](VRage.Game.GUI.TextPanel.MySprite.RotationOrScale)|Rotation of sprite in radians for SpriteType.TEXTURE, scale for SpriteType.TEXT.|
+
 Our first example will be drawing two lines of text in two different colors. To do this we will create and add two text sprites.
+
+We will be using the `White` font. This is the font I recommend to use for most purposes as it is the cleanest. See [`GetFonts`](Sandbox.ModAPI.Ingame.IMyTextSurface.GetFonts) for how to retrieve a list of all available fonts.
 
 ```csharp
 // Drawing Sprites
 public void DrawSprites(ref MySpriteDrawFrame frame)
 {
-    var line1Sprite = new MySprite()
+    // We will be using the White font here. This is the font I recommend to use for most purposes.
+    // 
+
+    // Create our first line
+    var sprite = new MySprite()
     {
-        Type = SpriteType.TEXT,           // Designate a text sprite
-        Data = "Line 1",                  // for a text sprite, this is the text to display
-        Position = new Vector2(256, 100), // where we want this sprite to show up
-        RotationOrScale = 0.8f,           // for a text sprite, this is a scale value - 80 % size in this case
-        Color = Color.Red,                // The color of the text
-        Alignment = TextAlignment.CENTER, // how the text is aligned horizontally on the Position
-        FontId = "White"                  // What font to use. You'll likely want to use either "White" or
-                                          // "Monospace", all others are just variant of "White".
+        Type = SpriteType.TEXT,
+        Data = "Line 1",
+        Position = new Vector2(256, 100),
+        RotationOrScale = 0.8f,
+        Color = Color.Red,
+        Alignment = TextAlignment.CENTER,
+        FontId = "White"
     };
+    // Add the sprite to the frame
+    frame.Add(sprite);
+
+    // Create our second line, we'll just reuse our previous sprite variable - this is not necessary, just
+    // a simplification in this case.
+    sprite = sprite = new MySprite()
+    {
+        Type = SpriteType.TEXT,
+        Data = "Line 1",
+        Position = new Vector2(256, 120),
+        RotationOrScale = 0.8f,
+        Color = Color.Blue,
+        Alignment = TextAlignment.CENTER,
+        FontId = "White"
+    };
+    // Add the sprite to the frame
+    frame.Add(sprite);
 }
 ```

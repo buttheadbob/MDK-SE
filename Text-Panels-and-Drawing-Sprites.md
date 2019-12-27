@@ -50,7 +50,9 @@ There is a difference between the actual texture we draw on, and the area that i
 The majority of the text surfaces _center_ this surface on its texture, like this:  
 ![Text Surface Viewport](images/textsurface-viewport.png)
 
-This means that in order to place our sprites where we _expect_ them to be within what we actually see, we'll need to calculate this offset. I choose to do this by creating a full `RectangleF` which describes both the offset and size of the
+This means that in order to place our sprites where we _expect_ them to be within what we actually see, we'll need to calculate this offset. I choose to do this by creating a full `RectangleF` which describes both the offset and size of the area we actually see in the game.
+
+Let's update our constructor with this new code.
 
 ```csharp
 IMyTextSurface _drawingSurface;

@@ -115,7 +115,7 @@ Sprites are drawn by adding instructions to the MySpriteDrawFrame on how they sh
 |[Alignment](VRage.Game.GUI.TextPanel.MySprite.Alignment)|Alignment for the text and sprites.|
 |[RotationOrScale](VRage.Game.GUI.TextPanel.MySprite.RotationOrScale)|Rotation of sprite in radians for SpriteType.TEXTURE, scale for SpriteType.TEXT.|
 
-### Text Sprites
+#### Text Sprites
 
 Our first example will be drawing two lines of text in two different colors. To do this we will create and add two text sprites.
 
@@ -162,7 +162,7 @@ public void DrawSprites(ref MySpriteDrawFrame frame)
 }
 ```
 
-### Texture Sprites
+#### Texture Sprites
 
 We'll finish off this tutorial by adding a texture sprite to our surface. Let's add the grid Keen is so fond of. We do this by creating a texture sprite at the center of the surface, and scaling its size to the desired width and height.
 
@@ -222,7 +222,7 @@ public void DrawSprites(ref MySpriteDrawFrame frame)
 }
 ```
 
-## The Color Settings
+### The Color Settings
 
 As mentioned all the way at the top, the user can specify the background and foreground colors of the text surface. We can access these in our scripts through the `ScriptBackgroundColor` and `ScriptForegroundColor` properties of [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface). Let's modify our script so the background grid takes the configured foreground color rather than a hardcoded one. We'll still modify the color to have 66 % opacity, this is what Keen uses.
 
@@ -239,4 +239,20 @@ As mentioned all the way at the top, the user can specify the background and for
     };
     // Add the sprite to the frame
     frame.Add(sprite);
+```
+
+That's it. Play around with the background- and foreground colors in the control panel to see the differences it makes.
+
+### Configuring a text surface to display sprites through code
+
+As a final point, we will look at how you can set up a text surface to display sprites automatically from your script, without having the user need to configure them manually.
+
+```cs
+public void PrepareTextSurfaceForSprites(IMyTextSurface textSurface)
+{
+    // Set the sprite display mode
+    textSurface.ContentType = ContentType.SCRIPT;
+    // Make sure no built-in script has been selected
+    textSurface.Script = "";
+}
 ```

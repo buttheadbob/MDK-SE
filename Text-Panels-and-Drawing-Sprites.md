@@ -178,7 +178,7 @@ public void DrawSprites(ref MySpriteDrawFrame frame)
         Type = SpriteType.TEXTURE,
         Data = "Grid",
         Position = _viewport.Center,
-        Size = _viewport.Size - new Vector2(32),
+        Size = _viewport.Size,
         Color = Color.White.Alpha(0.66f),
         Alignment = TextAlignment.CENTER
     };
@@ -220,4 +220,23 @@ public void DrawSprites(ref MySpriteDrawFrame frame)
     // Add the sprite to the frame
     frame.Add(sprite);
 }
+```
+
+## The Color Settings
+
+As mentioned all the way at the top, the user can specify the background and foreground colors of the text surface. We can access these in our scripts through the `ScriptBackgroundColor` and `ScriptForegroundColor` properties of [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface). Let's modify our script so the background grid takes the configured foreground color rather than a hardcoded one. We'll still modify the color to have 66 % opacity, this is what Keen uses.
+
+```csharp
+    // Create background sprite
+    var sprite = new MySprite()
+    {
+        Type = SpriteType.TEXTURE,
+        Data = "Grid",
+        Position = _viewport.Center,
+        Size = _viewport.Size,
+        Color = _drawingSurface.ScriptForegroundColor.Alpha(0.66f),
+        Alignment = TextAlignment.CENTER
+    };
+    // Add the sprite to the frame
+    frame.Add(sprite);
 ```

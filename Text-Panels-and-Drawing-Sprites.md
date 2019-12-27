@@ -124,7 +124,7 @@ We will be using the `White` font. This is the font I recommend to use for most 
 public void DrawSprites(ref MySpriteDrawFrame frame)
 {
     // Set up the initial position - and remember to add our viewport offset
-    var position = new Vector2(256, 0) + _viewport.Position;
+    var position = new Vector2(256, 20) + _viewport.Position;
     
     // Create our first line
     var sprite = new MySprite()

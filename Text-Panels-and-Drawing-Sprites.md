@@ -107,13 +107,15 @@ Sprites are drawn by adding instructions to the MySpriteDrawFrame on how they sh
 |Member|Description|
 |---|---|
 |[Type](VRage.Game.GUI.TextPanel.MySprite.Type)|Type of sprite; either SpriteType.TEXT or SpriteType.TEXTURE|
-|[Position](VRage.Game.GUI.TextPanel.MySprite.Position)|Render position for this sprite. If not set, it will be placed in the center|
-|[Size](VRage.Game.GUI.TextPanel.MySprite.Size)|Render size for this sprite. If not set, it will be sized to take up the whole texture|
-|[Color](VRage.Game.GUI.TextPanel.MySprite.Color)|Color mask to be used when rendering this sprite. If not set, white will be used|
-|[Data](VRage.Game.GUI.TextPanel.MySprite.Data)|Data to be rendered, depending on what the sprite type is. This can be text or a texture name|
+|[Position](VRage.Game.GUI.TextPanel.MySprite.Position)|Render position for this sprite. If not set, it will be placed in the center.|
+|[Size](VRage.Game.GUI.TextPanel.MySprite.Size)|Render size for this sprite. If not set, it will be sized to take up the whole texture. This field has no purpose for SpriteType.TEXT sprites.|
+|[Color](VRage.Game.GUI.TextPanel.MySprite.Color)|Color mask to be used when rendering this sprite. If not set, white will be used.|
+|[Data](VRage.Game.GUI.TextPanel.MySprite.Data)|Data to be rendered, depending on what the sprite type is. This can be text or a texture name.|
 |[FontId](VRage.Game.GUI.TextPanel.MySprite.FontId)|In case we are rendering text, what font to use.|
 |[Alignment](VRage.Game.GUI.TextPanel.MySprite.Alignment)|Alignment for the text and sprites.|
 |[RotationOrScale](VRage.Game.GUI.TextPanel.MySprite.RotationOrScale)|Rotation of sprite in radians for SpriteType.TEXTURE, scale for SpriteType.TEXT.|
+
+### Text Sprites
 
 Our first example will be drawing two lines of text in two different colors. To do this we will create and add two text sprites.
 
@@ -132,9 +134,68 @@ public void DrawSprites(ref MySpriteDrawFrame frame)
         Type = SpriteType.TEXT,
         Data = "Line 1",
         Position = position,
-        RotationOrScale = 0.8f,
+        RotationOrScale = 0.8f /* 80 % of the font's default size */,
         Color = Color.Red,
+        Alignment = TextAlignment.CENTER /* Center the text on the position */,
+        FontId = "White"
+    };
+    // Add the sprite to the frame
+    frame.Add(sprite);
+    
+    // Move our position 20 pixels down in the viewport for the next line
+    position += new Vector2(0, 20);
+
+    // Create our second line, we'll just reuse our previous sprite variable - this is not necessary, just
+    // a simplification in this case.
+    sprite = sprite = new MySprite()
+    {
+        Type = SpriteType.TEXT,
+        Data = "Line 1",
+        Position = position,
+        RotationOrScale = 0.8f,
+        Color = Color.Blue,
         Alignment = TextAlignment.CENTER,
+        FontId = "White"
+    };
+    // Add the sprite to the frame
+    frame.Add(sprite);
+}
+```
+
+### Texture Sprites
+
+We'll finish off this tutorial by adding a texture sprite to our surface. Let's add the grid Keen is so fond of. We do this by creating a texture sprite at the center of the surface, and scaling its size to the desired width and height.
+
+See [`GetSprites`](Sandbox.ModAPI.Ingame.IMyTextSurface.GetSprites) for how to retrieve a list of all available sprites.
+
+```csharp
+// Drawing Sprites
+public void DrawSprites(ref MySpriteDrawFrame frame)
+{
+    // Create background sprite
+    var sprite = new MySprite()
+    {
+        Type = SpriteType.TEXTURE,
+        Data = "Grid",
+        Position = _viewport.Center,
+        Size = _viewport.Size - new Vector2(32);
+        Color = Color.Red.Alpha(0.66f)
+    };
+    // Add the sprite to the frame
+    frame.Add(sprite);
+
+    // Set up the initial position - and remember to add our viewport offset
+    var position = new Vector2(256, 20) + _viewport.Position;
+    
+    // Create our first line
+    sprite = new MySprite()
+    {
+        Type = SpriteType.TEXT,
+        Data = "Line 1",
+        Position = position,
+        RotationOrScale = 0.8f /* 80 % of the font's default size */,
+        Color = Color.Red,
+        Alignment = TextAlignment.CENTER /* Center the text on the position */,
         FontId = "White"
     };
     // Add the sprite to the frame

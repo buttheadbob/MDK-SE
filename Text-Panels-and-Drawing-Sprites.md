@@ -18,7 +18,7 @@ This will allow the programmable block to control the output of this text panel.
 
 The sliders below control the background and foreground colors of the sprites. We will talk more about those later.
 
-## Fetching Text Surfaces And Preparing The Script
+### Fetching Text Surfaces And Preparing The Script
 
 In order to draw on a text surface, we need to retrieve it first. For the sake of this example, we will simply be working on the large text panel of the running programmable block, but the principle applies for all
 blocks with scriptable text panels.

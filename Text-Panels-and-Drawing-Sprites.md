@@ -117,15 +117,15 @@ We will be using the `White` font. This is the font I recommend to use for most 
 // Drawing Sprites
 public void DrawSprites(ref MySpriteDrawFrame frame)
 {
-    // We will be using the White font here. This is the font I recommend to use for most purposes.
-    // 
-
+    // Set up the initial position - and remember to add our viewport offset
+    var position = new Vector2(256, 0) + _viewport.Position;
+    
     // Create our first line
     var sprite = new MySprite()
     {
         Type = SpriteType.TEXT,
         Data = "Line 1",
-        Position = new Vector2(256, 100),
+        Position = position,
         RotationOrScale = 0.8f,
         Color = Color.Red,
         Alignment = TextAlignment.CENTER,
@@ -133,6 +133,9 @@ public void DrawSprites(ref MySpriteDrawFrame frame)
     };
     // Add the sprite to the frame
     frame.Add(sprite);
+    
+    // Move our position 20 pixels down in the viewport for the next line
+    position += new Vector2(0, 20);
 
     // Create our second line, we'll just reuse our previous sprite variable - this is not necessary, just
     // a simplification in this case.
@@ -140,7 +143,7 @@ public void DrawSprites(ref MySpriteDrawFrame frame)
     {
         Type = SpriteType.TEXT,
         Data = "Line 1",
-        Position = new Vector2(256, 120),
+        Position = position,
         RotationOrScale = 0.8f,
         Color = Color.Blue,
         Alignment = TextAlignment.CENTER,

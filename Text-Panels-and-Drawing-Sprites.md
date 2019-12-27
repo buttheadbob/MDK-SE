@@ -1,5 +1,19 @@
 Some time ago we finally got a way to make more advanced and pretty screens using the programmable block. These **sprites** are really designed for use with the new LCD Script system (the script menu you get for each LCD panel) but we were also given the ability to draw these sprites using the programmable block.
 
+As always, you can get further help by asking in the #programming-in-game channel of [Keen's discord](https://discord.gg/keenswh).
+
+## Table Of Contents
+* [Configuring Text Surfaces](#configuring-text-surfaces)
+* [Fetching Text Surfaces And Preparing The Script](#fetching-text-surfaces-and-preparing-the-script)
+* [The Viewport](#the-viewport)
+    * [A Caveat...](#a-caveat)
+* [Drawing A Frame](#drawing-a-frame)
+* [Drawing Sprites](#drawing-sprites)
+    * [Text Sprites](#text-sprites)
+    * [Texture Sprites](#texture-sprites)
+* [The Color Settings](#the-color-settings)
+* [Configuring a text surface to display sprites through code](#configuring-a-text-surface-to-display-sprites-through-code)
+* [Final Code Listing](#final-code-listing)
 
 ### Configuring Text Surfaces
 
@@ -247,7 +261,107 @@ That's it. Play around with the background- and foreground colors in the control
 
 As a final point, we will look at how you can set up a text surface to display sprites automatically from your script, without having the user need to configure them manually.
 
-```cs
+```csharp
+public void PrepareTextSurfaceForSprites(IMyTextSurface textSurface)
+{
+    // Set the sprite display mode
+    textSurface.ContentType = ContentType.SCRIPT;
+    // Make sure no built-in script has been selected
+    textSurface.Script = "";
+}
+```
+
+### Final Code Listing
+```csharp
+IMyTextSurface _drawingSurface;
+RectangleF _viewport;
+
+// Script constructor
+public Program()
+{
+    // Me is the programmable block which is running this script.
+    // Retrieve the Large Display, which is the first surface
+    _drawingSurface = Me.GetSurface(0);
+
+    // Set the continuous update frequency of this script
+    Runtime.UpdateFrequency = UpdateFrequency.Update100;
+
+    // Calculate the viewport by centering the surface size onto the texture size
+    _viewport = new RectangleF(
+        (_drawingSurface.TextureSize - _drawingSurface.SurfaceSize) / 2f,
+        _drawingSurface.SurfaceSize
+    );
+ 
+    // Make the text surface display sprites
+    PrepareTextSurfaceForSprites(_drawingSurface);
+}
+
+// Main Entry Point
+public void Main(string argument, UpdateType updateType)
+{
+    // Begin a new frame
+    var frame = _drawingSurface.DrawFrame();
+
+    // All sprites must be added to the frame here
+    DrawSprites(ref frame);
+
+    // We are done with the frame, send all the sprites to the text panel
+    frame.Dispose();
+}
+
+// Drawing Sprites
+public void DrawSprites(ref MySpriteDrawFrame frame)
+{
+    // Create background sprite
+    var sprite = new MySprite()
+    {
+        Type = SpriteType.TEXTURE,
+        Data = "Grid",
+        Position = _viewport.Center,
+        Size = _viewport.Size,
+        Color = _drawingSurface.ScriptForegroundColor.Alpha(0.66f),
+        Alignment = TextAlignment.CENTER
+    };
+    // Add the sprite to the frame
+    frame.Add(sprite);
+
+    // Set up the initial position - and remember to add our viewport offset
+    var position = new Vector2(256, 20) + _viewport.Position;
+    
+    // Create our first line
+    sprite = new MySprite()
+    {
+        Type = SpriteType.TEXT,
+        Data = "Line 1",
+        Position = position,
+        RotationOrScale = 0.8f /* 80 % of the font's default size */,
+        Color = Color.Red,
+        Alignment = TextAlignment.CENTER /* Center the text on the position */,
+        FontId = "White"
+    };
+    // Add the sprite to the frame
+    frame.Add(sprite);
+    
+    // Move our position 20 pixels down in the viewport for the next line
+    position += new Vector2(0, 20);
+
+    // Create our second line, we'll just reuse our previous sprite variable - this is not necessary, just
+    // a simplification in this case.
+    sprite = new MySprite()
+    {
+        Type = SpriteType.TEXT,
+        Data = "Line 1",
+        Position = position,
+        RotationOrScale = 0.8f,
+        Color = Color.Blue,
+        Alignment = TextAlignment.CENTER,
+        FontId = "White"
+    };
+    // Add the sprite to the frame
+    frame.Add(sprite);
+}
+
+// Auto-setup text surface
 public void PrepareTextSurfaceForSprites(IMyTextSurface textSurface)
 {
     // Set the sprite display mode

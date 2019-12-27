@@ -5,13 +5,13 @@ Some time ago we finally got a way to make more advanced and pretty screens usin
 
 Every block with modifiable text surfaces will slow a list of text surfaces in the control panel.
 
-![Text Surface List](../images/textsurface-list.jpg)
+![Text Surface List](images/textsurface-list.jpg)
 
 For the programmable block, there's two. The number and names will vary across different blocks.
 
 To manually set up a text surface for sprite drawing, select the text surface you wish to draw on, then select `Script` in the Content drop box below the surface list. A new set of controls will show up below the Content drop box.
 
-![Text Surface Content](../images/textsurface-content.jpg)
+![Text Surface Content](images/textsurface-content.jpg)
 
 The scripts listed in this list are _not_ programmable block scripts. They are special built-in (or modded) scripts that we cannot directly modify in-game. So, for our purposes, we want to make sure that we select `None`.
 This will allow the programmable block to control the output of this text panel.
@@ -48,7 +48,7 @@ public Program()
 There is a difference between the actual texture we draw on, and the area that is actually visible on the block. This visible Surface size is given to us through the `SurfaceSize` property, and the size of the texture we're drawing on is available through the `TextureSize` property.
 
 The majority of the text surfaces _center_ this surface on its texture, like this:  
-![Text Surface Viewport](../images/textsurface-viewport.png)
+![Text Surface Viewport](images/textsurface-viewport.png)
 
 This means that in order to place our sprites where we _expect_ them to be within what we actually see, we'll need to calculate this offset. I choose to do this by creating a full `RectangleF` which describes both the offset and size of the
 

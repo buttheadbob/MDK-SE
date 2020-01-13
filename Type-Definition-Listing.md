@@ -645,6 +645,136 @@
 **Zone Chip**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/ZoneChip`  
 
+## Gas  
+****  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_GasProperties/Oxygen`  
+****  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_GasProperties/Hydrogen`  
+**200mm missile container**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/Missile200mm`  
+**25x184mm NATO ammo container**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/NATO_25x184mmMagazine`  
+**5.56x45mm NATO magazine**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/NATO_5p56x45mmMagazine`  
+**Automatic Rifle**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/AutomaticRifle`  
+**Bulletproof Glass**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/BulletproofGlass`  
+**Canvas**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/Canvas`  
+**Cobalt Ingot**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/CobaltOreToIngot`  
+**Computer**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/ComputerComponent`  
+**Construction Comp.**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/ConstructionComponent`  
+**Datapad**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/Datapad`  
+**Detector Comp.**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/DetectorComponent`  
+**Display**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/Display`  
+**Elite Automatic Rifle**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/UltimateAutomaticRifle`  
+**Elite Grinder**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/AngleGrinder4`  
+**Elite Hand Drill**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/HandDrill4`  
+**Elite Welder**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/Welder4`  
+**Enhanced Grinder**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/AngleGrinder2`  
+**Enhanced Hand Drill**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/HandDrill2`  
+**Enhanced Welder**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/Welder2`  
+**Explosives**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/ExplosivesComponent`  
+**Girder**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/GirderComponent`  
+**Gold Ingot**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/GoldOreToIngot`  
+**Gravel**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/StoneOreToIngot_Deconstruction`  
+**Gravity Comp.**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/GravityGeneratorComponent`  
+**Grinder**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/AngleGrinder`  
+**Hand Drill**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/HandDrill`  
+**Hydrogen Bottle**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/HydrogenBottle`  
+**Hydrogen Bottles**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/HydrogenBottlesRefill`  
+**Ingots**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/StoneOreToIngot`  
+**Ingots**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/StoneOreToIngotBasic`  
+**Interior Plate**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/InteriorPlate`  
+**Iron Ingot**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/IronOreToIngot`  
+**Iron Ingot**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/ScrapIngotToIronIngot`  
+**Iron Ingot**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/ScrapToIronIngot`  
+**Large Steel Tube**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/LargeTube`  
+**Magnesium Powder**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/MagnesiumOreToIngot`  
+**Medical Comp.**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/MedicalComponent`  
+**Metal Grid**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/MetalGrid`  
+**Motor**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/MotorComponent`  
+**Nickel Ingot**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/NickelOreToIngot`  
+**Oxygen**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/IceToOxygen`  
+**Oxygen Bottle**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/OxygenBottle`  
+**Oxygen Bottles**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/OxygenBottlesRefill`  
+**Platinum Ingot**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/PlatinumOreToIngot`  
+**Power Cell**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/PowerCell`  
+**Precise Automatic Rifle**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/PreciseAutomaticRifle`  
+**Proficient Grinder**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/AngleGrinder3`  
+**Proficient Hand Drill**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/HandDrill3`  
+**Proficient Welder**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/Welder3`  
+**Radio-comm Comp.**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/RadioCommunicationComponent`  
+**Rapid-Fire Automatic Rifle**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/RapidFireAutomaticRifle`  
+**Reactor Comp.**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/ReactorComponent`  
+**Silicon Wafer**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/SiliconOreToIngot`  
+**Silver Ingot**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/SilverOreToIngot`  
+**Small Steel Tube**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/SmallTube`  
+**Solar Cell**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/SolarCell`  
+**Steel Plate**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/SteelPlate`  
+**Superconductor**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/Superconductor`  
+**Thruster Comp.**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/ThrustComponent`  
+**Uranium Ingot**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/UraniumOreToIngot`  
+**Welder**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/Welder`  
+**Zone Chip**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/ZoneChip`  
+
 ## Ingots  
 **Cobalt Ingot**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Ingot/Cobalt`  

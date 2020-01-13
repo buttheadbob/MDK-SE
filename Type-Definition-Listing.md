@@ -3,6 +3,8 @@
 **Advanced Rotor** ([IMyMotorAdvancedStator](Sandbox.ModAPI.Ingame.IMyMotorAdvancedStator))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_MotorAdvancedStator/LargeAdvancedStator`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_MotorAdvancedStator/SmallAdvancedStator`  
+**Advanced Rotor Part**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_MotorAdvancedRotor/LargeAdvancedRotor`  
 **Air Vent** ([IMyAirVent](SpaceEngineers.Game.ModAPI.Ingame.IMyAirVent))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_AirVent/`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_AirVent/SmallAirVent`  
@@ -39,12 +41,28 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Beacon/SmallBlockBeacon`  
 **Bed** ([IMyCryoChamber](Sandbox.ModAPI.Ingame.IMyCryoChamber))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CryoChamber/LargeBlockBed`  
+**Blast door corner**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/ArmorCorner`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmorCorner`  
+**Blast door corner inverted**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/ArmorInvCorner`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmorInvCorner`  
+**Blast door edge**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/ArmorSide`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmorSide`  
+**Blast doors**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/ArmorCenter`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmorCenter`  
 **Button Panel** ([IMyButtonPanel](SpaceEngineers.Game.ModAPI.Ingame.IMyButtonPanel))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_ButtonPanel/ButtonPanelLarge`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_ButtonPanel/ButtonPanelSmall`  
 **Camera** ([IMyCameraBlock](Sandbox.ModAPI.Ingame.IMyCameraBlock))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CameraBlock/LargeCameraBlock`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CameraBlock/SmallCameraBlock`  
+**Chairless Desk**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockDeskChairless`  
+**Chairless Desk Corner**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockDeskChairlessCorner`  
 **Cockpit** ([IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Cockpit/LargeBlockCockpitSeat`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Cockpit/SmallBlockCockpit`  
@@ -56,6 +74,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_ShipConnector/ConnectorMedium`  
 **Console Block** ([IMyProjector](Sandbox.ModAPI.Ingame.IMyProjector))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Projector/LargeBlockConsole`  
+**Contracts**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_ContractBlock/ContractBlock`  
 **Control Panel** ([IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_TerminalBlock/ControlPanel`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_TerminalBlock/SmallControlPanel`  
@@ -64,9 +84,16 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Cockpit/OpenCockpitSmall`  
 **Control Stations** ([IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Cockpit/LargeBlockCockpit`  
+**Conveyor Frame**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_ConveyorConnector/ConveyorFrameMedium`  
+**Conveyor Junction**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Conveyor/LargeBlockConveyor`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Conveyor/SmallShipConveyorHub`  
 **Conveyor Sorter** ([IMyConveyorSorter](Sandbox.ModAPI.Ingame.IMyConveyorSorter))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_ConveyorSorter/LargeBlockConveyorSorter`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_ConveyorSorter/MediumBlockConveyorSorter`  
+**Conveyor Tube**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_ConveyorConnector/ConveyorTube`  
 **Corner Couch** ([IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Cockpit/LargeBlockCouchCorner`  
 **Corner LCD Bottom** ([IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel))  
@@ -89,9 +116,14 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_InteriorLight/SmallBlockLight_2corner`  
 **Couch** ([IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Cockpit/LargeBlockCouch`  
+**Cover Walls**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeCoverWall`  
 **Cryo Chamber** ([IMyCryoChamber](Sandbox.ModAPI.Ingame.IMyCryoChamber))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CryoChamber/LargeBlockCryoChamber`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CryoChamber/SmallBlockCryoChamber`  
+**Curved Conveyor Tube**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_ConveyorConnector/ConveyorTubeCurved`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_ConveyorConnector/ConveyorTubeCurvedMedium`  
 **Decoy** ([IMyDecoy](Sandbox.ModAPI.Ingame.IMyDecoy))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Decoy/LargeDecoy`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Decoy/SmallDecoy`  
@@ -99,6 +131,10 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Cockpit/LargeBlockDesk`  
 **Desk Corner** ([IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Cockpit/LargeBlockDeskCorner`  
+**Diagonal Window**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeWindowEdge`  
+**Dispenser**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_VendingMachine/FoodDispenser`  
 **Door** ([IMyDoor](Sandbox.ModAPI.Ingame.IMyDoor))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Door/`  
 **Drill** ([IMyShipDrill](Sandbox.ModAPI.Ingame.IMyShipDrill))  
@@ -110,11 +146,37 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Cockpit/DBSmallBlockFighterCockpit`  
 **Flight Seat** ([IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Cockpit/CockpitOpen`  
+**Freight 1**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/Freight1`  
+**Freight 2**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/Freight2`  
+**Freight 3**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/Freight3`  
 **Gatling Gun** ([IMySmallGatlingGun](Sandbox.ModAPI.Ingame.IMySmallGatlingGun))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_SmallGatlingGun/`  
 **Gatling Turret** ([IMyLargeGatlingTurret](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeGatlingTurret))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_LargeGatlingTurret/`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_LargeGatlingTurret/SmallGatlingTurret`  
+**Grated Catwalk**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/Catwalk`  
+**Grated Catwalk Corner**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/CatwalkCorner`  
+**Grated Catwalk End**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/CatwalkRailingEnd`  
+**Grated Catwalk Half Left**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/CatwalkRailingHalfLeft`  
+**Grated Catwalk Half Right**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/CatwalkRailingHalfRight`  
+**Grated Catwalk Straight**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/CatwalkStraight`  
+**Grated Catwalk Wall**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/CatwalkWall`  
+**Grated half stairs**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/GratedHalfStairs`  
+**Grated half stairs mirrored**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/GratedHalfStairsMirrored`  
+**Grated stairs**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/GratedStairs`  
 **Gravity Generator** ([IMyGravityGenerator](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGenerator))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_GravityGenerator/`  
 **Grinder** ([IMyShipGrinder](Sandbox.ModAPI.Ingame.IMyShipGrinder))  
@@ -123,6 +185,62 @@
 **Gyroscope** ([IMyGyro](Sandbox.ModAPI.Ingame.IMyGyro))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Gyro/LargeBlockGyro`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Gyro/SmallBlockGyro`  
+**Half Cover Wall**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeCoverWallHalf`  
+**Half Heavy Armor Block**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeHeavyHalfArmorBlock`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/HeavyHalfArmorBlock`  
+**Half Light Armor Block**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeHalfArmorBlock`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/HalfArmorBlock`  
+**Half Slope Heavy Armor Block**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeHeavyHalfSlopeArmorBlock`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/HeavyHalfSlopeArmorBlock`  
+**Half Slope Light Armor Block**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeHalfSlopeArmorBlock`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/HalfSlopeArmorBlock`  
+**Heavy Armor Block**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeHeavyBlockArmorBlock`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallHeavyBlockArmorBlock`  
+**Heavy Armor Corner**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeHeavyBlockArmorCorner`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallHeavyBlockArmorCorner`  
+**Heavy Armor Corner 2x1x1 Base**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeHeavyBlockArmorCorner2Base`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallHeavyBlockArmorCorner2Base`  
+**Heavy Armor Corner 2x1x1 Tip**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeHeavyBlockArmorCorner2Tip`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallHeavyBlockArmorCorner2Tip`  
+**Heavy Armor Inv. Corner**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeHeavyBlockArmorCornerInv`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallHeavyBlockArmorCornerInv`  
+**Heavy Armor Inv. Corner 2x1x1 Base**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeHeavyBlockArmorInvCorner2Base`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallHeavyBlockArmorInvCorner2Base`  
+**Heavy Armor Inv. Corner 2x1x1 Tip**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeHeavyBlockArmorInvCorner2Tip`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallHeavyBlockArmorInvCorner2Tip`  
+**Heavy Armor Round Corner**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeHeavyBlockArmorRoundCorner`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallHeavyBlockArmorRoundCorner`  
+**Heavy Armor Round Inv. Corner**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeHeavyBlockArmorRoundCornerInv`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallHeavyBlockArmorRoundCornerInv`  
+**Heavy Armor Round Slope**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeHeavyBlockArmorRoundSlope`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallHeavyBlockArmorRoundSlope`  
+**Heavy Armor Slope**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeHeavyBlockArmorSlope`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallHeavyBlockArmorSlope`  
+**Heavy Armor Slope 2x1x1 Base**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeHeavyBlockArmorSlope2Base`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallHeavyBlockArmorSlope2Base`  
+**Heavy Armor Slope 2x1x1 Tip**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeHeavyBlockArmorSlope2Tip`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallHeavyBlockArmorSlope2Tip`  
+**Hydrogen Engine**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_HydrogenEngine/LargeHydrogenEngine`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_HydrogenEngine/SmallHydrogenEngine`  
 **Hydrogen Tank** ([IMyGasTank](Sandbox.ModAPI.Ingame.IMyGasTank))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_OxygenTank/LargeHydrogenTank`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_OxygenTank/SmallHydrogenTank`  
@@ -135,13 +253,26 @@
 **Interior Light** ([IMyInteriorLight](SpaceEngineers.Game.ModAPI.Ingame.IMyInteriorLight))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_InteriorLight/SmallLight`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_InteriorLight/SmallBlockSmallLight`  
+**Interior Pillar**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeInteriorPillar`  
 **Interior Turret** ([IMyLargeInteriorTurret](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeInteriorTurret))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_InteriorTurret/LargeInteriorTurret`  
+**Interior Wall**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockInteriorWall`  
 **Ion Thrusters** ([IMyThrust](Sandbox.ModAPI.Ingame.IMyThrust))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Thrust/LargeBlockSmallThrust`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Thrust/SmallBlockSmallThrust`  
+**Jukebox**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Jukebox/Jukebox`  
 **Jump Drive** ([IMyJumpDrive](Sandbox.ModAPI.Ingame.IMyJumpDrive))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_JumpDrive/LargeJumpDrive`  
+**Kitchen**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Kitchen/LargeBlockKitchen`  
+**Lab Equipment**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_LCDPanelsBlock/LabEquipment`  
+**Ladder**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Ladder2/`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Ladder2/LadderSmall`  
 **Landing Gear** ([IMyLandingGear](SpaceEngineers.Game.ModAPI.Ingame.IMyLandingGear))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_LandingGear/LargeBlockLandingGear`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_LandingGear/SmallBlockLandingGear`  
@@ -166,15 +297,52 @@
 **LCD Panel** ([IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_TextPanel/LargeLCDPanel`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_TextPanel/SmallLCDPanel`  
+**Light Armor Block**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockArmorBlock`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockArmorBlock`  
+**Light Armor Corner**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockArmorCorner`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockArmorCorner`  
+**Light Armor Corner 2x1x1 Base**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockArmorCorner2Base`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockArmorCorner2Base`  
+**Light Armor Corner 2x1x1 Tip**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockArmorCorner2Tip`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockArmorCorner2Tip`  
+**Light Armor Inv. Corner**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockArmorCornerInv`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockArmorCornerInv`  
+**Light Armor Inv. Corner 2x1x1 Base**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockArmorInvCorner2Base`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockArmorInvCorner2Base`  
+**Light Armor Inv. Corner 2x1x1 Tip**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockArmorInvCorner2Tip`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockArmorInvCorner2Tip`  
+**Light Armor Slope**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockArmorSlope`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockArmorSlope`  
+**Light Armor Slope 2x1x1 Base**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockArmorSlope2Base`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockArmorSlope2Base`  
+**Light Armor Slope 2x1x1 Tip**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockArmorSlope2Tip`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockArmorSlope2Tip`  
 **Lockers** ([IMyCargoContainer](Sandbox.ModAPI.Ingame.IMyCargoContainer))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CargoContainer/LargeBlockLockers`  
 **Medical Room** ([IMyMedicalRoom](SpaceEngineers.Game.ModAPI.Ingame.IMyMedicalRoom))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_MedicalRoom/LargeMedicalRoom`  
+**Medical Station**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_LCDPanelsBlock/MedicalStation`  
 **Medium Cargo Container** ([IMyCargoContainer](Sandbox.ModAPI.Ingame.IMyCargoContainer))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CargoContainer/SmallBlockMediumContainer`  
+**Medium Conveyor Tube**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_ConveyorConnector/ConveyorTubeMedium`  
 **Merge Block** ([IMyShipMergeBlock](SpaceEngineers.Game.ModAPI.Ingame.IMyShipMergeBlock))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_MergeBlock/LargeShipMergeBlock`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_MergeBlock/SmallShipMergeBlock`  
+**Missile Turret**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_LargeMissileTurret/`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_LargeMissileTurret/SmallMissileTurret`  
 **O2/H2 Generator** ([IMyGasGenerator](Sandbox.ModAPI.Ingame.IMyGasGenerator))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_OxygenGenerator/`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_OxygenGenerator/OxygenGeneratorSmall`  
@@ -189,17 +357,38 @@
 **Parachute Hatch** ([IMyParachute](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Parachute/LgParachute`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Parachute/SmParachute`  
+**Passage**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Passage/`  
 **Passenger Seat** ([IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Cockpit/PassengerSeatLarge`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Cockpit/PassengerSeatSmall`  
 **Piston** ([IMyExtendedPistonBase](Sandbox.ModAPI.Ingame.IMyExtendedPistonBase))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_ExtendedPistonBase/LargePistonBase`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_ExtendedPistonBase/SmallPistonBase`  
+**Planters**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Planter/LargeBlockPlanters`  
 **Power Efficiency Module** ([IMyUpgradeModule](Sandbox.ModAPI.Ingame.IMyUpgradeModule))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_UpgradeModule/LargeEnergyModule`  
 **Programmable block** ([IMyProgrammableBlock](Sandbox.ModAPI.Ingame.IMyProgrammableBlock))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_MyProgrammableBlock/LargeProgrammableBlock`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_MyProgrammableBlock/SmallProgrammableBlock`  
+**Projector**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Projector/LargeProjector`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Projector/SmallProjector`  
+**Railing Corner**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/RailingCorner`  
+**Railing Diagonal**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/RailingDiagonal`  
+**Railing Double**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/RailingDouble`  
+**Railing Half Left**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/RailingHalfLeft`  
+**Railing Half Right**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/RailingHalfRight`  
+**Railing Straight**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/RailingStraight`  
+**Ramp**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeRamp`  
 **Refinery** ([IMyRefinery](Sandbox.ModAPI.Ingame.IMyRefinery))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Refinery/LargeRefinery`  
 **Reloadable Rocket Launcher** ([IMySmallMissileLauncherReload](Sandbox.ModAPI.Ingame.IMySmallMissileLauncherReload))  
@@ -213,11 +402,29 @@
 **Rotating Light** ([IMyReflectorLight](Sandbox.ModAPI.Ingame.IMyReflectorLight))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_ReflectorLight/RotatingLightLarge`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_ReflectorLight/RotatingLightSmall`  
+**Rotor**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_MotorStator/LargeStator`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_MotorStator/SmallStator`  
+**Rotor Part**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_MotorRotor/LargeRotor`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_MotorRotor/SmallRotor`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_MotorAdvancedRotor/SmallAdvancedRotor`  
+**Round Armor Corner**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockArmorRoundCorner`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockArmorRoundCorner`  
+**Round Armor Inv. Corner**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockArmorRoundCornerInv`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockArmorRoundCornerInv`  
+**Round Armor Slope**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockArmorRoundSlope`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockArmorRoundSlope`  
 **Safe Zone** ([IMySafeZoneBlock](SpaceEngineers.Game.ModAPI.Ingame.IMySafeZoneBlock))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_SafeZoneBlock/SafeZoneBlock`  
 **Sensor** ([IMySensorBlock](Sandbox.ModAPI.Ingame.IMySensorBlock))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_SensorBlock/LargeBlockSensor`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_SensorBlock/SmallBlockSensor`  
+**Shower**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/Shower`  
 **Sliding Door** ([IMyAirtightSlideDoor](Sandbox.ModAPI.Ingame.IMyAirtightSlideDoor))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_AirtightSlideDoor/LargeBlockSlideDoor`  
 **Small Battery** ([IMyBatteryBlock](Sandbox.ModAPI.Ingame.IMyBatteryBlock))  
@@ -225,8 +432,14 @@
 **Small Cargo Container** ([IMyCargoContainer](Sandbox.ModAPI.Ingame.IMyCargoContainer))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CargoContainer/LargeBlockSmallContainer`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CargoContainer/SmallBlockSmallContainer`  
+**Small Conveyor**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Conveyor/SmallBlockConveyor`  
 **Small Conveyor Sorter** ([IMyConveyorSorter](Sandbox.ModAPI.Ingame.IMyConveyorSorter))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_ConveyorSorter/SmallBlockConveyorSorter`  
+**Small Conveyor Tube**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_ConveyorConnector/ConveyorTubeSmall`  
+**Small Curved Conveyor Tube**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_ConveyorConnector/ConveyorTubeSmallCurved`  
 **Small Reactor** ([IMyReactor](Sandbox.ModAPI.Ingame.IMyReactor))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Reactor/LargeBlockSmallGenerator`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Reactor/SmallBlockSmallGenerator`  
@@ -246,8 +459,21 @@
 **Spotlight** ([IMyReflectorLight](Sandbox.ModAPI.Ingame.IMyReflectorLight))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_ReflectorLight/LargeBlockFrontLight`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_ReflectorLight/SmallBlockFrontLight`  
+**Stairs**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeStairs`  
+**Steel Catwalk**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeSteelCatwalk`  
+**Steel Catwalk Corner**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeSteelCatwalkCorner`  
+**Steel Catwalk Plate**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeSteelCatwalkPlate`  
+**Steel Catwalk Two Sides**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeSteelCatwalk2Sides`  
 **Store** ([IMyStoreBlock](Sandbox.ModAPI.Ingame.IMyStoreBlock))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_StoreBlock/StoreBlock`  
+**Survival kit**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_SurvivalKit/SurvivalKitLarge`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_SurvivalKit/SurvivalKit`  
 **Text panel** ([IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_TextPanel/LargeTextPanel`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_TextPanel/SmallTextPanel`  
@@ -261,12 +487,25 @@
 **Transparent LCD** ([IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_TextPanel/TransparentLCDLarge`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_TextPanel/TransparentLCDSmall`  
+**Vending Machine**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_VendingMachine/VendingMachine`  
+**Vertical Window**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeWindowSquare`  
 **Warhead** ([IMyWarhead](Sandbox.ModAPI.Ingame.IMyWarhead))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Warhead/LargeWarhead`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Warhead/SmallWarhead`  
 **Welder** ([IMyShipWelder](Sandbox.ModAPI.Ingame.IMyShipWelder))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_ShipWelder/LargeShipWelder`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_ShipWelder/SmallShipWelder`  
+**Wheel 1x1**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Wheel/Wheel1x1`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Wheel/SmallWheel1x1`  
+**Wheel 3x3**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Wheel/Wheel3x3`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Wheel/SmallWheel3x3`  
+**Wheel 5x5**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Wheel/Wheel5x5`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Wheel/SmallWheel5x5`  
 **Wheel Suspension 1x1 Left** ([IMyMotorSuspension](Sandbox.ModAPI.Ingame.IMyMotorSuspension))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_MotorSuspension/Suspension1x1mirrored`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_MotorSuspension/SmallSuspension1x1mirrored`  
@@ -288,6 +527,74 @@
 **Wide LCD panel** ([IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_TextPanel/LargeLCDPanelWide`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_TextPanel/SmallLCDPanelWide`  
+**Wind Turbine**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_WindTurbine/LargeBlockWindTurbine`  
+**Window 1x1 Face**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/Window1x1Face`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallWindow1x1Face`  
+**Window 1x1 Face Inv.**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/Window1x1Inv`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallWindow1x1Inv`  
+**Window 1x1 Flat**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/Window1x1Flat`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallWindow1x1Flat`  
+**Window 1x1 Flat Inv.**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/Window1x1FlatInv`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallWindow1x1FlatInv`  
+**Window 1x1 Side**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/Window1x1Side`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallWindow1x1Side`  
+**Window 1x1 Side Inv**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/Window1x1SideInv`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallWindow1x1SideInv`  
+**Window 1x1 Slope**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/Window1x1Slope`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallWindow1x1Slope`  
+**Window 1x2 Face**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/Window1x2Face`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallWindow1x2Face`  
+**Window 1x2 Face Inv.**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/Window1x2Inv`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallWindow1x2Inv`  
+**Window 1x2 Flat**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/Window1x2Flat`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallWindow1x2Flat`  
+**Window 1x2 Flat Inv.**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/Window1x2FlatInv`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallWindow1x2FlatInv`  
+**Window 1x2 Side Left**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/Window1x2SideLeft`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallWindow1x2SideLeft`  
+**Window 1x2 Side Left Inv**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/Window1x2SideLeftInv`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallWindow1x2SideLeftInv`  
+**Window 1x2 Side Right**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/Window1x2SideRight`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallWindow1x2SideRight`  
+**Window 1x2 Side Right Inv**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/Window1x2SideRightInv`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallWindow1x2SideRightInv`  
+**Window 1x2 Slope**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/Window1x2Slope`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallWindow1x2Slope`  
+**Window 2x3 Flat**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/Window2x3Flat`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallWindow2x3Flat`  
+**Window 2x3 Flat Inv.**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/Window2x3FlatInv`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallWindow2x3FlatInv`  
+**Window 3x3 Flat**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/Window3x3Flat`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallWindow3x3Flat`  
+**Window 3x3 Flat Inv.**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/Window3x3FlatInv`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallWindow3x3FlatInv`  
+**Window Wall**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/WindowWall`  
+**Window Wall Left**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/WindowWallLeft`  
+**Window Wall Right**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/WindowWallRight`  
 **Yield Module** ([IMyUpgradeModule](Sandbox.ModAPI.Ingame.IMyUpgradeModule))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_UpgradeModule/LargeEffectivenessModule`  
 ## Components  

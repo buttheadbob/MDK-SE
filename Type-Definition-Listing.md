@@ -597,59 +597,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/WindowWallRight`  
 **Yield Module** ([IMyUpgradeModule](Sandbox.ModAPI.Ingame.IMyUpgradeModule))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_UpgradeModule/LargeEffectivenessModule`  
-## Components  
-**Bulletproof Glass**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/BulletproofGlass`  
-**Canvas**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/Canvas`  
-**Computer**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/Computer`  
-**Construction Comp.**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/Construction`  
-**Detector Comp.**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/Detector`  
-**Display**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/Display`  
-**Explosives**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/Explosives`  
-**Girder**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/Girder`  
-**Gravity Comp.**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/GravityGenerator`  
-**Interior Plate**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/InteriorPlate`  
-**Large Steel Tube**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/LargeTube`  
-**Medical Comp.**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/Medical`  
-**Metal Grid**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/MetalGrid`  
-**Motor**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/Motor`  
-**Power Cell**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/PowerCell`  
-**Radio-comm Comp.**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/RadioCommunication`  
-**Reactor Comp.**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/Reactor`  
-**Small Steel Tube**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/SmallTube`  
-**Solar Cell**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/SolarCell`  
-**Steel Plate**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/SteelPlate`  
-**Superconductor**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/Superconductor`  
-**Thruster Comp.**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/Thrust`  
-**Zone Chip**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/ZoneChip`  
-
-## Gas  
-****  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_GasProperties/Oxygen`  
-****  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_GasProperties/Hydrogen`  
+## Blueprints  
 **200mm missile container**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/Missile200mm`  
 **25x184mm NATO ammo container**  
@@ -774,6 +722,60 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/Welder`  
 **Zone Chip**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/ZoneChip`  
+
+## Components  
+**Bulletproof Glass**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/BulletproofGlass`  
+**Canvas**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/Canvas`  
+**Computer**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/Computer`  
+**Construction Comp.**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/Construction`  
+**Detector Comp.**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/Detector`  
+**Display**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/Display`  
+**Explosives**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/Explosives`  
+**Girder**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/Girder`  
+**Gravity Comp.**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/GravityGenerator`  
+**Interior Plate**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/InteriorPlate`  
+**Large Steel Tube**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/LargeTube`  
+**Medical Comp.**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/Medical`  
+**Metal Grid**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/MetalGrid`  
+**Motor**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/Motor`  
+**Power Cell**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/PowerCell`  
+**Radio-comm Comp.**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/RadioCommunication`  
+**Reactor Comp.**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/Reactor`  
+**Small Steel Tube**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/SmallTube`  
+**Solar Cell**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/SolarCell`  
+**Steel Plate**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/SteelPlate`  
+**Superconductor**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/Superconductor`  
+**Thruster Comp.**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/Thrust`  
+**Zone Chip**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/ZoneChip`  
+
+## Gas  
+**Hydrogen**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_GasProperties/Hydrogen`  
+**Oxygen**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_GasProperties/Oxygen`  
 
 ## Ingots  
 **Cobalt Ingot**  

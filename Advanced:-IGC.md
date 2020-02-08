@@ -50,19 +50,21 @@ IGC.SendBroadcastMessage(_broadCastTag, theString);
 ```
 
 Data sent can be any of the specified types.  The easiest is string.  But other complex types can be created.
-<<<EXAMPLE OF MYTUPLE FOR WAYPOINT>>>
+
+[Here is a list of types that can be sent/received in IGC messages.](https://github.com/malware-dev/MDK-SE/wiki/Advanced:-IGC:-Allowed-Message-Types)
+
 
 ### Unicast
 Unicast messages are sent to a specified Programming Block.
 
 
 
-#Example code
+# Example code
 
-* Simple Echo
-* Light Toggle
-* wicoClass Echo
-* wicoClass with Unicast
+* [Simple Echo](https://github.com/malware-dev/MDK-SE/wiki/Advanced:-IGC:-Example-1-Simple-Echo-Example)
+* [Light Toggle](https://github.com/malware-dev/MDK-SE/wiki/Advanced:-IGC:-Example-2-Toggle-Lights)
+* [Echo with wicoIGC](https://github.com/malware-dev/MDK-SE/wiki/Advanced:-IGC:-Example-3-Simple-Echo-using-wicoIGC-Class)
+* [Echo and Unicast send/receive with wicoIGC](https://github.com/malware-dev/MDK-SE/wiki/Advanced:-IGC:-Example-4-Simple-Echo-wicoIGC-with-Unicast-Reply-receive)
 
 https://github.com/malware-dev/MDK-SE/wiki/Advanced:-IGC:-Allowed-Message-Types
 

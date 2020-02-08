@@ -3,6 +3,7 @@ Source: https://discordapp.com/channels/125011928711036928/216219467959500800/66
 
 
 Compiled by GeorgIk
+
 ========- Types allowedin IGC -=========
 ```csharp
 

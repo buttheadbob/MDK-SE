@@ -1,13 +1,11 @@
-# IGC for MDK
-
-## Prerequisites
+# Prerequisites
 * https://github.com/malware-dev/MDK-SE/wiki/The-Anatomy-of-a-Script
 * https://github.com/malware-dev/MDK-SE/wiki/Your-First-Script
 * https://github.com/malware-dev/mdk-se/wiki/Continuous-Running-No-Timers-Needed (for UpdateType)
 
 # [Inter Grid Communication](https://github.com/malware-dev/MDK-SE/wiki/Sandbox.ModAPI.Ingame.IMyIntergridCommunicationSystem)
 
-Allows messages to be sent between Programmable Blocks.
+Inter Grid Communication (IGC) allows messages to be sent between Programmable Blocks.
 
 There are two types of messages; broadcast and unicast.
 
@@ -59,6 +57,7 @@ Unicast messages are sent to a specified Programming Block. This allows more eff
 
 # Example code
 
+I've created a number of examples of using IGC.  I've also created a [world](https://steamcommunity.com/sharedfiles/filedetails/?id=1989825518) with all of the scripts loaded for easy demonstration.  
 * [Simple Echo](https://github.com/malware-dev/MDK-SE/wiki/Advanced:-IGC:-Example-1-Simple-Echo-Example)
 * [Light Toggle](https://github.com/malware-dev/MDK-SE/wiki/Advanced:-IGC:-Example-2-Toggle-Lights)
 * [Echo with wicoIGC](https://github.com/malware-dev/MDK-SE/wiki/Advanced:-IGC:-Example-3-Simple-Echo-using-wicoIGC-Class)

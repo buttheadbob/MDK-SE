@@ -1,11 +1,11 @@
-#IGC for MDK
+# IGC for MDK
 
 ## Prerequisites
 * https://github.com/malware-dev/MDK-SE/wiki/The-Anatomy-of-a-Script
 * https://github.com/malware-dev/MDK-SE/wiki/Your-First-Script
 * https://github.com/malware-dev/mdk-se/wiki/Continuous-Running-No-Timers-Needed (for UpdateType)
 
-# Inter Grid Communication
+# [Inter Grid Communication](https://github.com/malware-dev/MDK-SE/wiki/Sandbox.ModAPI.Ingame.IMyIntergridCommunicationSystem)
 
 Allows messages to be sent between Programmable Blocks.
 
@@ -55,9 +55,7 @@ Data sent can be any of the specified types.  The easiest is string.  But other 
 
 
 ### Unicast
-Unicast messages are sent to a specified Programming Block.
-
-
+Unicast messages are sent to a specified Programming Block. This allows more efficient use of communications to only those scripts that are affected by the information.
 
 # Example code
 
@@ -65,12 +63,6 @@ Unicast messages are sent to a specified Programming Block.
 * [Light Toggle](https://github.com/malware-dev/MDK-SE/wiki/Advanced:-IGC:-Example-2-Toggle-Lights)
 * [Echo with wicoIGC](https://github.com/malware-dev/MDK-SE/wiki/Advanced:-IGC:-Example-3-Simple-Echo-using-wicoIGC-Class)
 * [Echo and Unicast send/receive with wicoIGC](https://github.com/malware-dev/MDK-SE/wiki/Advanced:-IGC:-Example-4-Simple-Echo-wicoIGC-with-Unicast-Reply-receive)
-
-https://github.com/malware-dev/MDK-SE/wiki/Advanced:-IGC:-Allowed-Message-Types
-
-
-https://github.com/malware-dev/MDK-SE/wiki/Sandbox.ModAPI.Ingame.IMyIntergridCommunicationSystem
-
 
 # Debugging messages
 * Ensure that the grid is within antenna range.  An antenna can RECEIVE messages even if it’s  transmit range is lower, but any messages it sends will not make it to the destination.

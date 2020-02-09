@@ -26,7 +26,7 @@ Messages contain
 Check for messages existing on a channel with .HasPendingMessages.
 Get the next message in the channel with .AcceptMessage
 ```csharp
-if (_myBroadcastListener.HasPendingMessage)
+if (_myBroadcastListener.[HasPendingMessage](https://github.com/malware-dev/MDK-SE/wiki/Sandbox.ModAPI.Ingame.IMyMessageProvider.HasPendingMessage))
 {
     MyIGCMessage myIGCMessage = _myBroadcastListener.AcceptMessage();
 ```

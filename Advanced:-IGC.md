@@ -13,12 +13,10 @@ There are two types of messages; broadcast and unicast.
 
 [Unicast](https://github.com/malware-dev/MDK-SE/wiki/Sandbox.ModAPI.Ingame.IMyUnicastListener) messages are sent to a specific Programmable Block (only).
 
-Tag should be chosen to be unique, or to match a known tag.
-
 # Messages
 Messages contain
 
-* [Tag](https://github.com/malware-dev/MDK-SE/wiki/Sandbox.ModAPI.Ingame.MyIGCMessage.Tag).  The tag is the identification used to determine the expected contents of the message
+* [Tag](https://github.com/malware-dev/MDK-SE/wiki/Sandbox.ModAPI.Ingame.MyIGCMessage.Tag).  The tag is the identification used to determine the expected contents of the message. **Tag should be chosen to be unique, or to match a known tag.**
 * [Data](https://github.com/malware-dev/MDK-SE/wiki/Sandbox.ModAPI.Ingame.MyIGCMessage.Data).  The actual data of the message. The message data sent can be any immutable type.  That means it’s not changeable.The simplest message is just a string
 * [Source](https://github.com/malware-dev/MDK-SE/wiki/Sandbox.ModAPI.Ingame.MyIGCMessage.Source). the source of the message (who sent it).  The source can be used to send unicast messages back to the sender.
 

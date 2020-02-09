@@ -51,9 +51,23 @@ Data sent can be any of the specified types.  The easiest is string.  But other 
 
 [Here is a list of types that can be sent/received in IGC messages.](https://github.com/malware-dev/MDK-SE/wiki/Advanced:-IGC:-Allowed-Message-Types)
 
+The [SendBroadcastMessage](https://github.com/malware-dev/MDK-SE/wiki/Sandbox.ModAPI.Ingame.IMyIntergridCommunicationSystem.SendBroadcastMessage) method also has an optional distance parameter.  This allows messages sent to be limited in their distance traveled.
+
+There are [three main distances defined](https://github.com/malware-dev/MDK-SE/wiki/Sandbox.ModAPI.Ingame.TransmissionDistance)
+* **AntennaRelay** This is the default distance. Messages will be sent to all listeners in antenna range.
+* CurrentConstruct This limits the message to broadcast listeners that are on the current construct.
+* ConnectedConstructs This limits the message to broadcast listeners that are connected together physically; including through connectors.
+
+This code sends a broadcast message, but only to local constructs.
+```csharp
+IGC.SendBroadcastMessage(_broadCastTag, theString, TransmissionDistance.CurrentConstruct);
+```
 
 ### Unicast
 Unicast messages are sent to a specified Programming Block. This allows more efficient use of communications to only those scripts that are affected by the information.
+```csharp
+IGC.SendUnicastMessage(targetID, _unicastTag, argument);
+```
 
 # Example code
 

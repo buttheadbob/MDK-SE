@@ -9,24 +9,24 @@ Inter Grid Communication (IGC) allows messages to be sent between Programmable B
 
 There are two types of messages; broadcast and unicast.
 
-Broadcast is available to all Programmable Blocks (that register for it)
+[Broadcast](https://github.com/malware-dev/MDK-SE/wiki/Sandbox.ModAPI.Ingame.IMyBroadcastListener) is available to all Programmable Blocks (that register for it)
 
-Unicast messages are sent to a specific Programmable Block (only).
+[Unicast](https://github.com/malware-dev/MDK-SE/wiki/Sandbox.ModAPI.Ingame.IMyUnicastListener) messages are sent to a specific Programmable Block (only).
 
 Tag should be chosen to be unique, or to match a known tag.
 
 # Messages
 Messages contain
 
-* Tag.  The tag is the identification used to determine the expected contents of the message
-* Data.  The actual data of the message. The message data sent can be any immutable type.  That means it’s not changeable.The simplest message is just a string
-* Source. the source of the message (who sent it)
+* [Tag](https://github.com/malware-dev/MDK-SE/wiki/Sandbox.ModAPI.Ingame.MyIGCMessage.Tag).  The tag is the identification used to determine the expected contents of the message
+* [Data](https://github.com/malware-dev/MDK-SE/wiki/Sandbox.ModAPI.Ingame.MyIGCMessage.Data).  The actual data of the message. The message data sent can be any immutable type.  That means it’s not changeable.The simplest message is just a string
+* [Source](https://github.com/malware-dev/MDK-SE/wiki/Sandbox.ModAPI.Ingame.MyIGCMessage.Source). the source of the message (who sent it).  The source can be used to send unicast messages back to the sender.
 
 ## Receiving Messages
-Check for messages existing on a channel with .HasPendingMessages.
-Get the next message in the channel with .AcceptMessage
+Check for messages existing on a channel with [.HasPendingMessages](https://github.com/malware-dev/MDK-SE/wiki/Sandbox.ModAPI.Ingame.IMyMessageProvider.HasPendingMessage).
+Get the next message in the channel with [.AcceptMessage](https://github.com/malware-dev/MDK-SE/wiki/Sandbox.ModAPI.Ingame.IMyMessageProvider.AcceptMessage)
 ```csharp
-if (_myBroadcastListener.[HasPendingMessage](https://github.com/malware-dev/MDK-SE/wiki/Sandbox.ModAPI.Ingame.IMyMessageProvider.HasPendingMessage))
+if (_myBroadcastListener.HasPendingMessage)
 {
     MyIGCMessage myIGCMessage = _myBroadcastListener.AcceptMessage();
 ```

@@ -1,11 +1,243 @@
-WIP
+# WIP
 
 # Example 3 Simple Echo using wicoIGC Class
 Go through class line-by-line
 Go through handler line-by-line
 https://github.com/Wicorel/WicoSpaceEngineers/tree/master/Modular/IGC%20Modular%20Example
 
-## Entire code
+# Explanation of example line-by-line
+Some comments have been removed to decrease line count in the explanations.
+
+## Start
+The main thing defined here is a reference to the WicoIGC class
+```csharp
+WicoIGC _wicoIGC;
+
+UpdateType _utTriggers = UpdateType.Terminal | UpdateType.Trigger | UpdateType.Mod | UpdateType.Script;
+UpdateType _utUpdates = UpdateType.Update1 | UpdateType.Update10 | UpdateType.Update100 | UpdateType.Once;
+```
+
+## Constructor
+```csharp
+public Program()
+{
+    _wicoIGC = new WicoIGC(this);
+
+    // cause ourselves to run again so we can do the init
+    Runtime.UpdateFrequency = UpdateFrequency.Once;
+}
+```
+
+## Main
+
+```csharp
+bool _areWeInited=false;
+
+public void Main(string argument, UpdateType updateSource)
+{
+    // Echo some information about 'me' and why we were run
+    Echo("Source=" + updateSource.ToString());
+    Echo("Me=" + Me.EntityId.ToString("X"));
+    Echo(Me.CubeGrid.CustomName);
+
+    if (!_areWeInited)
+    {
+        InitMessageHandlers();
+        _areWeInited = true;
+    }
+
+    // always check for IGC messages in case some aren't using callbacks
+    _wicoIGC.ProcessIGCMessages();
+    if ((updateSource & UpdateType.IGC) > 0)
+    {
+        // we got a callback for an IGC message.
+        // but we already processed them.
+    }
+    else if((updateSource & _utTriggers) > 0)
+    {
+        // if we got a 'trigger' source, send out the received argument
+        IGC.SendBroadcastMessage(_broadCastTag, argument);
+        Echo("Sending Message:\n" + argument);
+    }
+    else if((updateSource & _utUpdates) > 0)
+    {
+        // it was an automatic update
+
+        // this script doesn't have anything to do
+    }
+}
+```
+
+## wicoIGC Message Handler
+
+```csharp
+string _broadCastTag = "MDK IGC Example 3";
+
+void InitMessageHandlers()
+{
+    // creates a broadcast channel with the specified tag and calls the handler when messages are processed
+    _wicoIGC.AddPublicHandler(_broadCastTag, TestBroadcastHandler);
+}
+
+// Handler for the test broadcast messages.
+void TestBroadcastHandler(MyIGCMessage msg)
+{
+    // NOTE: called on ALL received messages; not just 'our' tag
+
+    if (msg.Tag!= _broadCastTag)
+        return; // not our message
+
+    if (msg.Data is string)
+    {
+        Echo("Received Test Message");
+        Echo(" Source=" + msg.Source.ToString("X"));
+        Echo(" Data=\"" + msg.Data + "\"");
+        Echo(" Tag=" + msg.Tag);
+    }
+}
+```
+
+# wicoIGC Class
+
+This class is meant to provide a single place for handling messages.  Broadcast channels can be added so that it's easy to handle multiple channels. 
+
+Message handlers are added to make handling of messages simplier.
+
+## Variables
+```csharp
+    // the one and only unicast listener.  Must be shared amoung all interested parties
+    IMyUnicastListener _unicastListener;
+
+    /// <summary>
+            /// the list of unicast message handlers. All handlers will be called on pending messages
+            /// </summary>
+    List<Action<MyIGCMessage>> _unicastMessageHandlers = new List<Action<MyIGCMessage>>();
+
+    /// <summary>
+            /// List of 'registered' broadcst message handlers.  All handlers will be called on each message received
+            /// </summary>
+    List<Action<MyIGCMessage>> _broadcastMessageHandlers = new List<Action<MyIGCMessage>>();
+    /// <summary>
+            /// List of broadcast channels.  All channels will be checked for incoming messages
+            /// </summary>
+    List<IMyBroadcastListener> _broadcastChannels = new List<IMyBroadcastListener>();
+
+    MyGridProgram _gridProgram;
+    bool _debug = false;
+    IMyTextPanel _debugTextPanel;
+```
+
+## constructor
+
+```csharp
+    public WicoIGC(MyGridProgram myProgram, bool debug = false)
+    {
+        _gridProgram = myProgram;
+        _debug = debug;
+        _debugTextPanel = _gridProgram.GridTerminalSystem.GetBlockWithName("IGC Report") as IMyTextPanel;
+        if (_debug) _debugTextPanel?.WriteText("");
+    }
+
+```
+
+## AddPublicHandler
+
+```csharp
+    public bool AddPublicHandler(string channelTag, Action<MyIGCMessage> handler, bool setCallback = true)
+    {
+        IMyBroadcastListener publicChannel;
+        // IGC Init
+        publicChannel = _gridProgram.IGC.RegisterBroadcastListener(channelTag); // What it listens for
+        if (setCallback) publicChannel.SetMessageCallback(channelTag); // What it will run the PB with once it has a message
+
+        // add broadcast message handlers
+        _broadcastMessageHandlers.Add(handler);
+
+        // add to list of channels to check
+        _broadcastChannels.Add(publicChannel);
+        return true;
+    }
+
+```
+
+## AddUnicastHandler
+```cs
+    public bool AddUnicastHandler(Action<MyIGCMessage> handler)
+    {
+        _unicastListener = _gridProgram.IGC.UnicastListener;
+        _unicastListener.SetMessageCallback("UNICAST");
+        _unicastMessageHandlers.Add(handler);
+        return true;
+
+    }
+```
+
+## ProcessIGCMessages()
+
+### Start
+
+```csharp
+    public void ProcessIGCMessages()
+    {
+        bool bFoundMessages = false;
+        if (_debug) _gridProgram.Echo(_broadcastChannels.Count.ToString() + " broadcast channels");
+        if (_debug) _gridProgram.Echo(_broadcastMessageHandlers.Count.ToString() + " broadcast message handlers");
+        if (_debug) _gridProgram.Echo(_unicastMessageHandlers.Count.ToString() + " unicast message handlers");
+```
+### Receiving Broadcast Messages
+```csharp
+        // TODO: make this a yield return thing if processing takes too long
+        do
+        {
+            bFoundMessages = false;
+            foreach (var channel in _broadcastChannels)
+            {
+                if (channel.HasPendingMessage)
+                {
+                    bFoundMessages = true;
+                    var msg = channel.AcceptMessage();
+                    if (_debug)
+                    {
+                        _gridProgram.Echo("Broadcast received. TAG:" + msg.Tag);
+                        _debugTextPanel?.WriteText("IGC:" +msg.Tag+" SRC:"+msg.Source.ToString("X")+"\n",true);
+                    }
+                    foreach (var handler in _broadcastMessageHandlers)
+                    {
+                        handler(msg);
+                    }
+                }
+            }
+        } while (bFoundMessages); // Process all pending messages
+```
+### Receiving Unicast Messages
+
+```csharp
+        if (_unicastListener != null)
+        {
+            // TODO: make this a yield return thing if processing takes too long
+            do
+            {
+                // since there's only one channel, we could just use .HasPendingMessages directly.. but this keeps the code loops the same
+                bFoundMessages = false;
+
+                if (_unicastListener.HasPendingMessage)
+                {
+                    bFoundMessages = true;
+                    var msg = _unicastListener.AcceptMessage();
+                    if (_debug) _gridProgram.Echo("Unicast received. TAG:" + msg.Tag);
+                    foreach (var handler in _unicastMessageHandlers)
+                    {
+                        // Call each handler
+                        handler(msg);
+                    }
+                }
+            } while (bFoundMessages); // Process all pending messages
+        }
+
+    }
+```
+
+# Entire code
 ```csharp
 /*
  * Wico Modular IGC Example

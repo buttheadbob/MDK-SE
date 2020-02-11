@@ -71,7 +71,7 @@ public void RunStateMachine()
         bool hasMoreSteps = _stateMachine.MoveNext();
 
         // If there are no more instructions, we stop and release the state machine.
-        if (_hasMoreSteps)
+        if (hasMoreSteps)
         {
             // The state machine still has more work to do, so signal another run again, 
             // just like at the beginning.

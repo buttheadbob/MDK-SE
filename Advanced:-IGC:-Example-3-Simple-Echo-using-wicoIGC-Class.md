@@ -18,6 +18,11 @@ UpdateType _utUpdates = UpdateType.Update1 | UpdateType.Update10 | UpdateType.Up
 ```
 
 ## Constructor
+
+The constructor creates the WicoIGC class.
+
+It then sets the script to be run once again.  This will allow the script to do initialization after the grid is fully created.
+
 ```csharp
 public Program()
 {
@@ -30,45 +35,49 @@ public Program()
 
 ## Main
 
+## Informational output
+Here the script outputs some basic information so that it is clear why the script is being run.
 ```csharp
-bool _areWeInited=false;
-
-public void Main(string argument, UpdateType updateSource)
-{
     // Echo some information about 'me' and why we were run
     Echo("Source=" + updateSource.ToString());
     Echo("Me=" + Me.EntityId.ToString("X"));
     Echo(Me.CubeGrid.CustomName);
+```
 
+## Initialization check and call
+The script then checks to see if it has been initialized yet.  If not, it does the initialization and they sets the initialization flag.
+```csharp
     if (!_areWeInited)
     {
         InitMessageHandlers();
         _areWeInited = true;
     }
+```
 
+## IGC Message Processing
+The script then asks the IGC class to process any incoming IGC messages.  This replaced all the code in the previous examples for checking messages and also handles multiple channels.
+```csharp
     // always check for IGC messages in case some aren't using callbacks
     _wicoIGC.ProcessIGCMessages();
-    if ((updateSource & UpdateType.IGC) > 0)
-    {
-        // we got a callback for an IGC message.
-        // but we already processed them.
-    }
+```
+
+## Sending a message
+The next main thing the script does is process the argument if the update type is a trigger.  Just like the previous examples, it sends a message on the broadcast channel to any listeners.
+```csharp
     else if((updateSource & _utTriggers) > 0)
     {
         // if we got a 'trigger' source, send out the received argument
         IGC.SendBroadcastMessage(_broadCastTag, argument);
         Echo("Sending Message:\n" + argument);
     }
-    else if((updateSource & _utUpdates) > 0)
-    {
-        // it was an automatic update
-
-        // this script doesn't have anything to do
-    }
-}
 ```
 
+
 ## wicoIGC Message Handler
+A message handler is registered and defined.
+
+### Initialization
+Interest in the broadcast channel is specified and the handler is provided.  The handler is called when a message is available.
 
 ```csharp
 string _broadCastTag = "MDK IGC Example 3";
@@ -78,7 +87,15 @@ void InitMessageHandlers()
     // creates a broadcast channel with the specified tag and calls the handler when messages are processed
     _wicoIGC.AddPublicHandler(_broadCastTag, TestBroadcastHandler);
 }
+```
+### Message Handler
 
+This is the handler for the messages.  Multiple handlers could be registered.  This handler is called by WicoIGC for all incoming broadcast messages.
+
+The message processing code is very similar to the code from previous examples.
+The code checks to make sure that the tag is one we recognize and returns if it is not.  It then checks the data type of the message to ensure it's a format we know.  It then does a simple Echo of the message data.
+
+```csharp
 // Handler for the test broadcast messages.
 void TestBroadcastHandler(MyIGCMessage msg)
 {
@@ -99,9 +116,11 @@ void TestBroadcastHandler(MyIGCMessage msg)
 
 # wicoIGC Class
 
-This class is meant to provide a single place for handling messages.  Broadcast channels can be added so that it's easy to handle multiple channels. 
+This is a class for processing of incoming messages.  It works with handlers added by other parts of the script to actually do the handling of the contents of the messages.
 
-Message handlers are added to make handling of messages simplier.
+It handles both broadcast and unicast messages. Broadcast channels can be added so that it's easy to handle multiple channels. 
+
+Message handlers are added to make handling of messages simpler.  The handlers is called when a message is available.
 
 ## Variables
 ```csharp

@@ -1,6 +1,66 @@
-WIP
+# Example 4 Add Unicast reply and receive
 
-#Example 4 Simple Echo wicoIGC with Unicast Reply/receive
+The beginning part of the code is exactly the same as in Example 3 (and that's one of the points of using the class).
+* [Start](https://github.com/malware-dev/MDK-SE/wiki/Advanced:-IGC:-Example-3-Simple-Echo-using-wicoIGC-Class#start)
+* [Constructor](https://github.com/malware-dev/MDK-SE/wiki/Advanced:-IGC:-Example-3-Simple-Echo-using-wicoIGC-Class#constructor)
+* [Main](https://github.com/malware-dev/MDK-SE/wiki/Advanced:-IGC:-Example-3-Simple-Echo-using-wicoIGC-Class#main)
+
+# Message handler
+
+## Initialization
+Initialization is almost the same as in example 3.  A unicast handler is added to process those messages.
+
+```csharp
+string _broadCastTag = "MDK IGC Example 4";
+string _unicastTag   = "MDK IGC Example 4 Ack";
+
+void InitMessageHandlers()
+{
+    // creates a BROADCAST channel with the specified tag and calls the handler when messages are processed
+    _wicoIGC.AddPublicHandler(_broadCastTag, TestBroadcastHandler);
+
+    // calls the handler when UNICAST messages are processed
+    _wicoIGC.AddUnicastHandler(TestUnicastHandler);
+}
+```
+## Broadcast Message Handler
+
+The broadcast handler is almost the same as in Example 3.  We add sending a unicast message back to the source acknowledging that we received the message.
+
+For more reasonable use cases, the message back could contain information about our grid or other information that was 'requested' in the broadcast message.  Also note that the scripts could continue to send unicast messages back and forth for the rest of the 'conversation' and just use the broadcast message to get 'introduced'.
+
+```csharp
+        // Now reply to the sender and let them know we received the message
+        IGC.SendUnicastMessage(msg.Source, _unicastTag, "Acknowledge by:"+Me.CustomName);
+        Echo(" Reply Sent");
+
+```
+## Unicast Message Handler
+
+The unicast message handler is very close to the broadcast message handler processing since we are just outputting the information from the message.
+
+Note that the handler will be called for ALL unicast messages sent to this script.
+```csharp
+void TestUnicastHandler(MyIGCMessage msg)
+{
+    // NOTE: Called for ALL received unicast messages
+    if (msg.Tag != _unicastTag)
+        return; // not our message
+
+    if (msg.Data is string)
+    {
+        Echo("Received Acknowledge Message");
+        Echo(" Source=" + msg.Source.ToString("X"));
+        Echo(" Data=\"" + msg.Data + "\"");
+        Echo(" Tag=" + msg.Tag);
+    }
+}
+```
+
+#Wico IGC Class
+See the [explanation from Example 3 here](https://github.com/malware-dev/MDK-SE/wiki/Advanced:-IGC:-Example-3-Simple-Echo-using-wicoIGC-Class#wicoigc-class)
+
+# Complete Code
 
 ```csharp
 /*
@@ -116,7 +176,6 @@ void TestBroadcastHandler(MyIGCMessage msg)
         Echo(" Tag=" + msg.Tag);
 
         // Now reply to the sender and let them know we received the message
-        // NOTE: We are re-using the broadcast
         IGC.SendUnicastMessage(msg.Source, _unicastTag, "Acknowledge by:"+Me.CustomName);
         Echo(" Reply Sent");
     }

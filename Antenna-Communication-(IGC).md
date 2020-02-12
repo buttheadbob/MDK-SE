@@ -74,7 +74,7 @@ I've created a number of examples of using IGC.  I've also created a [world](htt
 * [Simple Echo](https://github.com/malware-dev/MDK-SE/wiki/IGC-Example-1-Simple-Echo-Example)
 * [Light Toggle](https://github.com/malware-dev/MDK-SE/wiki/IGC-Example-2-Toggle-Lights)
 * [Echo with wicoIGC](https://github.com/malware-dev/MDK-SE/wiki/IGC-Example-2-Toggle-Lights)
-* [Echo and Unicast send/receive with wicoIGC](https://github.com/malware-dev/MDK-SE/wiki/Advanced:-IGC:-Example-4-Simple-Echo-wicoIGC-with-Unicast-Reply-receive)
+* [Echo and Unicast send/receive with wicoIGC](IGC-Example-4-Simple-Echo-wicoIGC-with-Unicast-Reply-receive)
 
 # Debugging messages
 * Ensure that the grid is within antenna range.  An antenna can RECEIVE messages even if it’s  transmit range is lower, but any messages it sends will not make it to the destination.

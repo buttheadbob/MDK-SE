@@ -72,7 +72,7 @@ IGC.SendUnicastMessage(targetID, _unicastTag, argument);
 
 I've created a number of examples of using IGC.  I've also created a [world](https://steamcommunity.com/sharedfiles/filedetails/?id=1989825518) with all of the scripts loaded for easy demonstration.  
 * [Simple Echo](https://github.com/malware-dev/MDK-SE/wiki/IGC-Example-1-Simple-Echo-Example)
-* [Light Toggle](https://github.com/malware-dev/MDK-SE/wiki/Advanced:-IGC:-Example-2-Toggle-Lights)
+* [Light Toggle](https://github.com/malware-dev/MDK-SE/wiki/IGC-Example-2-Toggle-Lights)
 * [Echo with wicoIGC](https://github.com/malware-dev/MDK-SE/wiki/Advanced:-IGC:-Example-3-Simple-Echo-using-wicoIGC-Class)
 * [Echo and Unicast send/receive with wicoIGC](https://github.com/malware-dev/MDK-SE/wiki/Advanced:-IGC:-Example-4-Simple-Echo-wicoIGC-with-Unicast-Reply-receive)
 

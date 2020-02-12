@@ -1,11 +1,6 @@
-# WIP
-
 # Example 3 Simple Echo using wicoIGC Class
-Go through class line-by-line
-Go through handler line-by-line
-https://github.com/Wicorel/WicoSpaceEngineers/tree/master/Modular/IGC%20Modular%20Example
+Source project is [available here](https://github.com/Wicorel/WicoSpaceEngineers/tree/master/Modular/IGC%20Modular%20Example)
 
-# Explanation of example line-by-line
 Some comments have been removed to decrease line count in the explanations.
 
 ## Start

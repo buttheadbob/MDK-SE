@@ -53,3 +53,8 @@ However starting the game directly with dnSpy won't work, it needs a launcher to
 5. Do your exception catching or breakpoint stuff.
 
 6. Local variables now have values!
+
+***
+
+
+_A big thank you goes to Digi for writing this tutorial._

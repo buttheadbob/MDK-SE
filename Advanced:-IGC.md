@@ -9,7 +9,7 @@ Inter Grid Communication (IGC) allows messages to be sent between Programmable B
 
 There are two types of messages; broadcast and unicast.
 
-[Broadcast](https://github.com/malware-dev/MDK-SE/wiki/Sandbox.ModAPI.Ingame.IMyBroadcastListener) is available to all Programmable Blocks (that register for it)
+[Broadcast](https://github.com/malware-dev/MDK-SE/wiki/Sandbox.ModAPI.Ingame.IMyBroadcastListener) messages are available to all Programmable Blocks (that register for it)
 
 [Unicast](https://github.com/malware-dev/MDK-SE/wiki/Sandbox.ModAPI.Ingame.IMyUnicastListener) messages are sent to a specific Programmable Block (only).
 

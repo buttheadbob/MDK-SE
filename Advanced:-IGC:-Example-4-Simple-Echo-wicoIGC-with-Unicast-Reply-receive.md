@@ -57,7 +57,7 @@ void TestUnicastHandler(MyIGCMessage msg)
 }
 ```
 
-#Wico IGC Class
+# Wico IGC Class
 See the [explanation from Example 3 here](https://github.com/malware-dev/MDK-SE/wiki/Advanced:-IGC:-Example-3-Simple-Echo-using-wicoIGC-Class#wicoigc-class)
 
 # Complete Code

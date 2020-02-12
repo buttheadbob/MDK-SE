@@ -27,6 +27,7 @@ Get the next message in the channel with [.AcceptMessage](https://github.com/mal
 if (_myBroadcastListener.HasPendingMessage)
 {
     MyIGCMessage myIGCMessage = _myBroadcastListener.AcceptMessage();
+}
 ```
 
 Each channel can have multiple messages pending.  When accepted, that message is removed from the queue so it must be processed or it will be lost.

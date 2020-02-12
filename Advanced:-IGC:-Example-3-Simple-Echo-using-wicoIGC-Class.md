@@ -83,9 +83,9 @@ void InitMessageHandlers()
     _wicoIGC.AddPublicHandler(_broadCastTag, TestBroadcastHandler);
 }
 ```
-### Message Handler
+### Broad Message Handler
 
-This is the handler for the messages.  Multiple handlers could be registered.  This handler is called by WicoIGC for all incoming broadcast messages.
+This is the handler for the broadcast messages.  Multiple handlers could be registered.  This handler is called by WicoIGC for all incoming broadcast messages.
 
 The message processing code is very similar to the code from previous examples.
 The code checks to make sure that the tag is one we recognize and returns if it is not.  It then checks the data type of the message to ensure it's a format we know.  It then does a simple Echo of the message data.

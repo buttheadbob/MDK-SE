@@ -122,7 +122,7 @@ It handles both broadcast and unicast messages. Broadcast channels can be added 
 
 Message handlers are added to make handling of messages simpler.  The handlers is called when a message is available.
 
-## Variables
+## Class Variables
 ```csharp
     // the one and only unicast listener.  Must be shared amoung all interested parties
     IMyUnicastListener _unicastListener;
@@ -146,7 +146,11 @@ Message handlers are added to make handling of messages simpler.  The handlers i
     IMyTextPanel _debugTextPanel;
 ```
 
-## constructor
+## Class Constructor
+
+The constructor requires MyGridProgram for access to functions and has an optional debug parameter.
+
+The constructor saves the passed parameters and tries to find a debug text panel to use.
 
 ```csharp
     public WicoIGC(MyGridProgram myProgram, bool debug = false)
@@ -160,6 +164,7 @@ Message handlers are added to make handling of messages simpler.  The handlers i
 ```
 
 ## AddPublicHandler
+This routine creates a public channel and adds a handler to the list of handlers.
 
 ```csharp
     public bool AddPublicHandler(string channelTag, Action<MyIGCMessage> handler, bool setCallback = true)
@@ -180,6 +185,9 @@ Message handlers are added to make handling of messages simpler.  The handlers i
 ```
 
 ## AddUnicastHandler
+
+This routine will add a handler to the list of unicast messages.  Not that there is no need to register the tag with the system; all unicast messages sent to this script will be put into the unicast receive queue.
+
 ```cs
     public bool AddUnicastHandler(Action<MyIGCMessage> handler)
     {
@@ -193,7 +201,11 @@ Message handlers are added to make handling of messages simpler.  The handlers i
 
 ## ProcessIGCMessages()
 
+This routine handles the processing of the IGC messages that have been received.  It will call the handlers with the messages as a parameter for each message received.
+
 ### Start
+
+The start of the routine handles some debug messages if debug is turned on.
 
 ```csharp
     public void ProcessIGCMessages()
@@ -204,6 +216,8 @@ Message handlers are added to make handling of messages simpler.  The handlers i
         if (_debug) _gridProgram.Echo(_unicastMessageHandlers.Count.ToString() + " unicast message handlers");
 ```
 ### Receiving Broadcast Messages
+This part of the routine handles processing the received messages.  The queues are checked until all broadcast messages are processed.
+
 ```csharp
         // TODO: make this a yield return thing if processing takes too long
         do
@@ -229,6 +243,7 @@ Message handlers are added to make handling of messages simpler.  The handlers i
         } while (bFoundMessages); // Process all pending messages
 ```
 ### Receiving Unicast Messages
+This part of the routine handles processing the unicast message queue.  Note that it is written to be very similiar to the broadcast message processing.
 
 ```csharp
         if (_unicastListener != null)

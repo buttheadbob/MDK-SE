@@ -48,7 +48,7 @@ IGC.SendBroadcastMessage(_broadCastTag, theString);
 
 Data sent can be any of the specified types.  The easiest is string.  But other complex types can be created.
 
-[Here is a list of types that can be sent/received in IGC messages.](https://github.com/malware-dev/MDK-SE/wiki/Advanced:-IGC:-Allowed-Message-Types)
+[Here is a list of types that can be sent/received in IGC messages.](IGC-Allowed-Message-Types)
 
 The [SendBroadcastMessage](https://github.com/malware-dev/MDK-SE/wiki/Sandbox.ModAPI.Ingame.IMyIntergridCommunicationSystem.SendBroadcastMessage) method also has an optional distance parameter.  This allows messages sent to be limited in their distance traveled.
 

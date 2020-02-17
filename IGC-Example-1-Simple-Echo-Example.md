@@ -3,7 +3,7 @@ You should already be familiar with basic scripts in SE.  (https://github.com/ma
 
 Let’s start with a simple IGC example.  This is a script to send a message and receive a message and Echo it.
 
-(footnote?) Source for this example is here: https://github.com/Wicorel/WicoSpaceEngineers/tree/master/Modular/IGC%20Echo
+Source for this example is here: https://github.com/Wicorel/WicoSpaceEngineers/tree/master/Modular/IGC%20Echo
 
 Here’s the deployed script with comments removed to make it shorter.
 

@@ -21,8 +21,8 @@ public struct MyBlockOrientation
 
 |Member|Description|
 |---|---|
-|[Left](VRageMath.MyBlockOrientation.Left)||
-|[IsValid](VRageMath.MyBlockOrientation.IsValid)||
+|[Left { get; }](VRageMath.MyBlockOrientation.Left)||
+|[IsValid { get; }](VRageMath.MyBlockOrientation.IsValid)||
 
 #### Constructors
 

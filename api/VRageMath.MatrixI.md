@@ -22,15 +22,15 @@ public struct MatrixI
 
 |Member|Description|
 |---|---|
-|[Left](VRageMath.MatrixI.Left)||
-|[Down](VRageMath.MatrixI.Down)||
-|[Forward](VRageMath.MatrixI.Forward)||
-|[RightVector](VRageMath.MatrixI.RightVector)||
-|[LeftVector](VRageMath.MatrixI.LeftVector)||
-|[UpVector](VRageMath.MatrixI.UpVector)||
-|[DownVector](VRageMath.MatrixI.DownVector)||
-|[BackwardVector](VRageMath.MatrixI.BackwardVector)||
-|[ForwardVector](VRageMath.MatrixI.ForwardVector)||
+|[Left { get; set; }](VRageMath.MatrixI.Left)||
+|[Down { get; set; }](VRageMath.MatrixI.Down)||
+|[Forward { get; set; }](VRageMath.MatrixI.Forward)||
+|[RightVector { get; set; }](VRageMath.MatrixI.RightVector)||
+|[LeftVector { get; set; }](VRageMath.MatrixI.LeftVector)||
+|[UpVector { get; set; }](VRageMath.MatrixI.UpVector)||
+|[DownVector { get; set; }](VRageMath.MatrixI.DownVector)||
+|[BackwardVector { get; set; }](VRageMath.MatrixI.BackwardVector)||
+|[ForwardVector { get; set; }](VRageMath.MatrixI.ForwardVector)||
 
 #### Constructors
 

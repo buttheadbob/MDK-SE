@@ -110,17 +110,17 @@ Ingame (Programmable Block) interface for all entities.
 
 |Member|Description|
 |---|---|
-|[Components](VRage.Game.ModAPI.Ingame.IMyEntity.Components)||
-|[EntityId](VRage.Game.ModAPI.Ingame.IMyEntity.EntityId)||
-|[Name](VRage.Game.ModAPI.Ingame.IMyEntity.Name)||
-|[DisplayName](VRage.Game.ModAPI.Ingame.IMyEntity.DisplayName)||
-|[HasInventory](VRage.Game.ModAPI.Ingame.IMyEntity.HasInventory)|Returns true if this entity has got at least one inventory. Note that one aggregate inventory can contain zero simple inventories => zero will be returned even if GetInventory() != null.|
-|[InventoryCount](VRage.Game.ModAPI.Ingame.IMyEntity.InventoryCount)|Returns the count of the number of inventories this entity has.|
-|[WorldAABB](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)||
-|[WorldAABBHr](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABBHr)||
-|[WorldMatrix](VRage.Game.ModAPI.Ingame.IMyEntity.WorldMatrix)||
-|[WorldVolume](VRage.Game.ModAPI.Ingame.IMyEntity.WorldVolume)||
-|[WorldVolumeHr](VRage.Game.ModAPI.Ingame.IMyEntity.WorldVolumeHr)||
+|[Components { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Components)||
+|[EntityId { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.EntityId)||
+|[Name { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Name)||
+|[DisplayName { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.DisplayName)||
+|[HasInventory { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.HasInventory)|Returns true if this entity has got at least one inventory. Note that one aggregate inventory can contain zero simple inventories => zero will be returned even if GetInventory() != null.|
+|[InventoryCount { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.InventoryCount)|Returns the count of the number of inventories this entity has.|
+|[WorldAABB { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)||
+|[WorldAABBHr { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABBHr)||
+|[WorldMatrix { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldMatrix)||
+|[WorldVolume { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldVolume)||
+|[WorldVolumeHr { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldVolumeHr)||
 
 #### Methods
 

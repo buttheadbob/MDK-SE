@@ -4218,4 +4218,5 @@ public abstract sealed class MySpaceTexts
 |DisplayName_Block_GratedHalfStairsMirrored||
 |DisplayName_Block_RailingHalfLeft||
 |DisplayName_Block_RailingHalfRight||
+|Description_ControlSeat||
 

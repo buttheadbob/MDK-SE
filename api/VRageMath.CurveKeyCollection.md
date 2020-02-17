@@ -20,9 +20,9 @@ Contains the CurveKeys making up a Curve.
 
 |Member|Description|
 |---|---|
-|[Item](VRageMath.CurveKeyCollection.Item)||
-|[Count](VRageMath.CurveKeyCollection.Count)|Gets the number of elements contained in the CurveKeyCollection.|
-|[IsReadOnly](VRageMath.CurveKeyCollection.IsReadOnly)|Returns a value indicating whether the CurveKeyCollection is read-only.|
+|[Item { get; set; }](VRageMath.CurveKeyCollection.Item)||
+|[Count { get; }](VRageMath.CurveKeyCollection.Count)|Gets the number of elements contained in the CurveKeyCollection.|
+|[IsReadOnly { get; }](VRageMath.CurveKeyCollection.IsReadOnly)|Returns a value indicating whether the CurveKeyCollection is read-only.|
 
 #### Constructors
 

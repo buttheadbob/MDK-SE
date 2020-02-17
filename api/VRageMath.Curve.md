@@ -15,10 +15,10 @@ Stores an arbitrary collection of 2D CurveKey points, and provides methods for e
 
 |Member|Description|
 |---|---|
-|[PreLoop](VRageMath.Curve.PreLoop)|Specifies how to handle weighting values that are less than the first control point in the curve.|
-|[PostLoop](VRageMath.Curve.PostLoop)|Specifies how to handle weighting values that are greater than the last control point in the curve.|
-|[Keys](VRageMath.Curve.Keys)|The points that make up the curve.|
-|[IsConstant](VRageMath.Curve.IsConstant)|Gets a value indicating whether the curve is constant.|
+|[PreLoop { get; set; }](VRageMath.Curve.PreLoop)|Specifies how to handle weighting values that are less than the first control point in the curve.|
+|[PostLoop { get; set; }](VRageMath.Curve.PostLoop)|Specifies how to handle weighting values that are greater than the last control point in the curve.|
+|[Keys { get; }](VRageMath.Curve.Keys)|The points that make up the curve.|
+|[IsConstant { get; }](VRageMath.Curve.IsConstant)|Gets a value indicating whether the curve is constant.|
 
 #### Constructors
 

@@ -41,19 +41,19 @@ Defines a matrix.
 
 |Member|Description|
 |---|---|
-|[Col0](VRageMath.MatrixD.Col0)||
-|[Col1](VRageMath.MatrixD.Col1)||
-|[Col2](VRageMath.MatrixD.Col2)||
-|[Up](VRageMath.MatrixD.Up)|Gets and sets the up vector of the Matrix.|
-|[Down](VRageMath.MatrixD.Down)|Gets and sets the down vector of the Matrix.|
-|[Right](VRageMath.MatrixD.Right)|Gets and sets the right vector of the Matrix.|
-|[Left](VRageMath.MatrixD.Left)|Gets and sets the left vector of the Matrix.|
-|[Forward](VRageMath.MatrixD.Forward)|Gets and sets the forward vector of the Matrix.|
-|[Backward](VRageMath.MatrixD.Backward)|Gets and sets the backward vector of the Matrix.|
-|[Scale](VRageMath.MatrixD.Scale)||
-|[Translation](VRageMath.MatrixD.Translation)|Gets and sets the translation vector of the Matrix.|
-|[Rotation](VRageMath.MatrixD.Rotation)||
-|[Item](VRageMath.MatrixD.Item)||
+|[Col0 { get; }](VRageMath.MatrixD.Col0)||
+|[Col1 { get; }](VRageMath.MatrixD.Col1)||
+|[Col2 { get; }](VRageMath.MatrixD.Col2)||
+|[Up { get; set; }](VRageMath.MatrixD.Up)|Gets and sets the up vector of the Matrix.|
+|[Down { get; set; }](VRageMath.MatrixD.Down)|Gets and sets the down vector of the Matrix.|
+|[Right { get; set; }](VRageMath.MatrixD.Right)|Gets and sets the right vector of the Matrix.|
+|[Left { get; set; }](VRageMath.MatrixD.Left)|Gets and sets the left vector of the Matrix.|
+|[Forward { get; set; }](VRageMath.MatrixD.Forward)|Gets and sets the forward vector of the Matrix.|
+|[Backward { get; set; }](VRageMath.MatrixD.Backward)|Gets and sets the backward vector of the Matrix.|
+|[Scale { get; }](VRageMath.MatrixD.Scale)||
+|[Translation { get; set; }](VRageMath.MatrixD.Translation)|Gets and sets the translation vector of the Matrix.|
+|[Rotation { get; }](VRageMath.MatrixD.Rotation)||
+|[Item { get; set; }](VRageMath.MatrixD.Item)||
 
 #### Constructors
 

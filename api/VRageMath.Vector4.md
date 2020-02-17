@@ -33,7 +33,7 @@ Defines a vector with four components.
 
 |Member|Description|
 |---|---|
-|[Item](VRageMath.Vector4.Item)||
+|[Item { get; set; }](VRageMath.Vector4.Item)||
 
 #### Constructors
 

@@ -26,12 +26,12 @@ Defines an axis-aligned box-shaped 3D volume.
 
 |Member|Description|
 |---|---|
-|[Center](VRageMath.BoundingBox2D.Center)|Calculates center|
-|[HalfExtents](VRageMath.BoundingBox2D.HalfExtents)||
-|[Extents](VRageMath.BoundingBox2D.Extents)||
-|[Width](VRageMath.BoundingBox2D.Width)||
-|[Height](VRageMath.BoundingBox2D.Height)||
-|[Size](VRageMath.BoundingBox2D.Size)|Size|
+|[Center { get; }](VRageMath.BoundingBox2D.Center)|Calculates center|
+|[HalfExtents { get; }](VRageMath.BoundingBox2D.HalfExtents)||
+|[Extents { get; }](VRageMath.BoundingBox2D.Extents)||
+|[Width { get; }](VRageMath.BoundingBox2D.Width)||
+|[Height { get; }](VRageMath.BoundingBox2D.Height)||
+|[Size { get; }](VRageMath.BoundingBox2D.Size)|Size|
 
 #### Constructors
 

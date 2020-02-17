@@ -13,9 +13,9 @@ public interface ITerminalAction
 
 |Member|Description|
 |---|---|
-|[Id](Sandbox.ModAPI.Interfaces.ITerminalAction.Id)||
-|[Icon](Sandbox.ModAPI.Interfaces.ITerminalAction.Icon)||
-|[Name](Sandbox.ModAPI.Interfaces.ITerminalAction.Name)||
+|[Id { get; }](Sandbox.ModAPI.Interfaces.ITerminalAction.Id)||
+|[Icon { get; }](Sandbox.ModAPI.Interfaces.ITerminalAction.Icon)||
+|[Name { get; }](Sandbox.ModAPI.Interfaces.ITerminalAction.Name)||
 
 #### Methods
 

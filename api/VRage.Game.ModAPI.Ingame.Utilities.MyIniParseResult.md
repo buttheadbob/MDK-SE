@@ -21,9 +21,9 @@ Represents the results of a configuration parsing.
 
 |Member|Description|
 |---|---|
-|[LineNo](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult.LineNo)|Gets the line number where an error occured.|
-|[Success](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult.Success)|Determines the success of the configuration parsing.|
-|[IsDefined](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult.IsDefined)|Determines if the value of this result is defined, meaning whether the [Success](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult.Success) actually holds any meaning.|
+|[LineNo { get; }](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult.LineNo)|Gets the line number where an error occured.|
+|[Success { get; }](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult.Success)|Determines the success of the configuration parsing.|
+|[IsDefined { get; }](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult.IsDefined)|Determines if the value of this result is defined, meaning whether the [Success](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult.Success) actually holds any meaning.|
 
 #### Methods
 

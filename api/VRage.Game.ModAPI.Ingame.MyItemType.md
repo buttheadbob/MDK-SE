@@ -17,8 +17,8 @@ public struct MyItemType: IComparable<VRage.Game.ModAPI.Ingame.MyItemType>, IEqu
 
 |Member|Description|
 |---|---|
-|[TypeId](VRage.Game.ModAPI.Ingame.MyItemType.TypeId)||
-|[SubtypeId](VRage.Game.ModAPI.Ingame.MyItemType.SubtypeId)||
+|[TypeId { get; }](VRage.Game.ModAPI.Ingame.MyItemType.TypeId)||
+|[SubtypeId { get; }](VRage.Game.ModAPI.Ingame.MyItemType.SubtypeId)||
 
 #### Constructors
 

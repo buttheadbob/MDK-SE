@@ -24,15 +24,15 @@ Defines a frustum and helps determine whether forms intersect with it.
 
 |Member|Description|
 |---|---|
-|[Planes](VRageMath.BoundingFrustum.Planes)||
-|[Item](VRageMath.BoundingFrustum.Item)||
-|[Near](VRageMath.BoundingFrustum.Near)|Gets the near plane of the BoundingFrustum.|
-|[Far](VRageMath.BoundingFrustum.Far)|Gets the far plane of the BoundingFrustum.|
-|[Left](VRageMath.BoundingFrustum.Left)|Gets the left plane of the BoundingFrustum.|
-|[Right](VRageMath.BoundingFrustum.Right)|Gets the right plane of the BoundingFrustum.|
-|[Top](VRageMath.BoundingFrustum.Top)|Gets the top plane of the BoundingFrustum.|
-|[Bottom](VRageMath.BoundingFrustum.Bottom)|Gets the bottom plane of the BoundingFrustum.|
-|[Matrix](VRageMath.BoundingFrustum.Matrix)|Gets or sets the Matrix that describes this bounding frustum.|
+|[Planes { get; }](VRageMath.BoundingFrustum.Planes)||
+|[Item { get; }](VRageMath.BoundingFrustum.Item)||
+|[Near { get; }](VRageMath.BoundingFrustum.Near)|Gets the near plane of the BoundingFrustum.|
+|[Far { get; }](VRageMath.BoundingFrustum.Far)|Gets the far plane of the BoundingFrustum.|
+|[Left { get; }](VRageMath.BoundingFrustum.Left)|Gets the left plane of the BoundingFrustum.|
+|[Right { get; }](VRageMath.BoundingFrustum.Right)|Gets the right plane of the BoundingFrustum.|
+|[Top { get; }](VRageMath.BoundingFrustum.Top)|Gets the top plane of the BoundingFrustum.|
+|[Bottom { get; }](VRageMath.BoundingFrustum.Bottom)|Gets the bottom plane of the BoundingFrustum.|
+|[Matrix { get; set; }](VRageMath.BoundingFrustum.Matrix)|Gets or sets the Matrix that describes this bounding frustum.|
 
 #### Constructors
 

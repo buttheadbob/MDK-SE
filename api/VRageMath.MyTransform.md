@@ -20,7 +20,7 @@ public struct MyTransform
 
 |Member|Description|
 |---|---|
-|[TransformMatrix](VRageMath.MyTransform.TransformMatrix)||
+|[TransformMatrix { get; }](VRageMath.MyTransform.TransformMatrix)||
 
 #### Constructors
 

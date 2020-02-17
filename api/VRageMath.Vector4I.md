@@ -26,7 +26,7 @@ public struct Vector4I: IComparable<VRageMath.Vector4I>
 
 |Member|Description|
 |---|---|
-|[Item](VRageMath.Vector4I.Item)||
+|[Item { get; set; }](VRageMath.Vector4I.Item)||
 
 #### Constructors
 

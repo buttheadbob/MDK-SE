@@ -23,8 +23,8 @@ public struct ListReader<T>: IEnumerable<T>, IEnumerable
 
 |Member|Description|
 |---|---|
-|[Count](VRage.Collections.ListReader`1.Count)||
-|[Item](VRage.Collections.ListReader`1.Item)||
+|[Count { get; }](VRage.Collections.ListReader`1.Count)||
+|[Item { get; }](VRage.Collections.ListReader`1.Item)||
 
 #### Constructors
 

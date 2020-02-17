@@ -20,7 +20,7 @@ public struct SymmetricSerializableRange
 
 |Member|Description|
 |---|---|
-|[Mirror](VRageMath.SymmetricSerializableRange.Mirror)||
+|[Mirror { get; set; }](VRageMath.SymmetricSerializableRange.Mirror)||
 
 #### Constructors
 

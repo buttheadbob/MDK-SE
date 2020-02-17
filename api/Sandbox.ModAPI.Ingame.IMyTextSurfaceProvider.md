@@ -19,7 +19,7 @@ public interface IMyTextSurfaceProvider
 
 |Member|Description|
 |---|---|
-|[SurfaceCount](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider.SurfaceCount)||
+|[SurfaceCount { get; }](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider.SurfaceCount)||
 
 #### Methods
 

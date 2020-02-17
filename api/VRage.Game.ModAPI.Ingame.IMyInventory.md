@@ -13,12 +13,12 @@ public interface IMyInventory
 
 |Member|Description|
 |---|---|
-|[Owner](VRage.Game.ModAPI.Ingame.IMyInventory.Owner)|Returns entity this inventory belongs to.|
-|[IsFull](VRage.Game.ModAPI.Ingame.IMyInventory.IsFull)|Determines if inventory is absolutely full.|
-|[CurrentMass](VRage.Game.ModAPI.Ingame.IMyInventory.CurrentMass)|Returns total mass of items inside this inventory in Kg.|
-|[MaxVolume](VRage.Game.ModAPI.Ingame.IMyInventory.MaxVolume)|Returns maximum volume of items this inventory can contain in m^3.|
-|[CurrentVolume](VRage.Game.ModAPI.Ingame.IMyInventory.CurrentVolume)|Returns total volume of items inside this inventory in m^3.|
-|[ItemCount](VRage.Game.ModAPI.Ingame.IMyInventory.ItemCount)|Returns number of occupied inventory slots.|
+|[Owner { get; }](VRage.Game.ModAPI.Ingame.IMyInventory.Owner)|Returns entity this inventory belongs to.|
+|[IsFull { get; }](VRage.Game.ModAPI.Ingame.IMyInventory.IsFull)|Determines if inventory is absolutely full.|
+|[CurrentMass { get; }](VRage.Game.ModAPI.Ingame.IMyInventory.CurrentMass)|Returns total mass of items inside this inventory in Kg.|
+|[MaxVolume { get; }](VRage.Game.ModAPI.Ingame.IMyInventory.MaxVolume)|Returns maximum volume of items this inventory can contain in m^3.|
+|[CurrentVolume { get; }](VRage.Game.ModAPI.Ingame.IMyInventory.CurrentVolume)|Returns total volume of items inside this inventory in m^3.|
+|[ItemCount { get; }](VRage.Game.ModAPI.Ingame.IMyInventory.ItemCount)|Returns number of occupied inventory slots.|
 
 #### Methods
 

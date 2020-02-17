@@ -22,7 +22,7 @@ Represents the value of a single configuration item.
 
 |Member|Description|
 |---|---|
-|[IsEmpty](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue.IsEmpty)|Determines whether this value is empty. Be aware that an empty string is not considered to be an empty value.|
+|[IsEmpty { get; }](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue.IsEmpty)|Determines whether this value is empty. Be aware that an empty string is not considered to be an empty value.|
 
 #### Constructors
 

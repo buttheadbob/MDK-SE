@@ -34,17 +34,17 @@ Defines a matrix.
 
 |Member|Description|
 |---|---|
-|[Up](VRageMath.Matrix3x3.Up)|Gets and sets the up vector of the Matrix3x3.|
-|[Down](VRageMath.Matrix3x3.Down)|Gets and sets the down vector of the Matrix3x3.|
-|[Right](VRageMath.Matrix3x3.Right)|Gets and sets the right vector of the Matrix3x3.|
-|[Col0](VRageMath.Matrix3x3.Col0)||
-|[Col1](VRageMath.Matrix3x3.Col1)||
-|[Col2](VRageMath.Matrix3x3.Col2)||
-|[Left](VRageMath.Matrix3x3.Left)|Gets and sets the left vector of the Matrix3x3.|
-|[Forward](VRageMath.Matrix3x3.Forward)|Gets and sets the forward vector of the Matrix3x3.|
-|[Backward](VRageMath.Matrix3x3.Backward)|Gets and sets the backward vector of the Matrix3x3.|
-|[Scale](VRageMath.Matrix3x3.Scale)||
-|[Item](VRageMath.Matrix3x3.Item)||
+|[Up { get; set; }](VRageMath.Matrix3x3.Up)|Gets and sets the up vector of the Matrix3x3.|
+|[Down { get; set; }](VRageMath.Matrix3x3.Down)|Gets and sets the down vector of the Matrix3x3.|
+|[Right { get; set; }](VRageMath.Matrix3x3.Right)|Gets and sets the right vector of the Matrix3x3.|
+|[Col0 { get; }](VRageMath.Matrix3x3.Col0)||
+|[Col1 { get; }](VRageMath.Matrix3x3.Col1)||
+|[Col2 { get; }](VRageMath.Matrix3x3.Col2)||
+|[Left { get; set; }](VRageMath.Matrix3x3.Left)|Gets and sets the left vector of the Matrix3x3.|
+|[Forward { get; set; }](VRageMath.Matrix3x3.Forward)|Gets and sets the forward vector of the Matrix3x3.|
+|[Backward { get; set; }](VRageMath.Matrix3x3.Backward)|Gets and sets the backward vector of the Matrix3x3.|
+|[Scale { get; }](VRageMath.Matrix3x3.Scale)||
+|[Item { get; set; }](VRageMath.Matrix3x3.Item)||
 
 #### Constructors
 

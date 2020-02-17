@@ -18,10 +18,10 @@ Broadcast listeners scan the network for broadcasted messages with specific tag.
 
 |Member|Description|
 |---|---|
-|[Tag](Sandbox.ModAPI.Ingame.IMyBroadcastListener.Tag)|Gets the tag this broadcast listener is listening for.|
-|[IsActive](Sandbox.ModAPI.Ingame.IMyBroadcastListener.IsActive)|Gets a value that indicates whether the broadcast listener is active.|
-|[HasPendingMessage](Sandbox.ModAPI.Ingame.IMyMessageProvider.HasPendingMessage)|Determines whether there is a message pending to be accepted in this message provider or not. There may be multiple messages pending in single message provider. In such case the flag will stay raised until the last message is consumed.<br /><br />_Inherited from [IMyMessageProvider](Sandbox.ModAPI.Ingame.IMyMessageProvider)_|
-|[MaxWaitingMessages](Sandbox.ModAPI.Ingame.IMyMessageProvider.MaxWaitingMessages)|Indicates number of max messages waiting in queue before the oldest one will be dropped to make space for new one.<br /><br />_Inherited from [IMyMessageProvider](Sandbox.ModAPI.Ingame.IMyMessageProvider)_|
+|[Tag { get; }](Sandbox.ModAPI.Ingame.IMyBroadcastListener.Tag)|Gets the tag this broadcast listener is listening for.|
+|[IsActive { get; }](Sandbox.ModAPI.Ingame.IMyBroadcastListener.IsActive)|Gets a value that indicates whether the broadcast listener is active.|
+|[HasPendingMessage { get; }](Sandbox.ModAPI.Ingame.IMyMessageProvider.HasPendingMessage)|Determines whether there is a message pending to be accepted in this message provider or not. There may be multiple messages pending in single message provider. In such case the flag will stay raised until the last message is consumed.<br /><br />_Inherited from [IMyMessageProvider](Sandbox.ModAPI.Ingame.IMyMessageProvider)_|
+|[MaxWaitingMessages { get; }](Sandbox.ModAPI.Ingame.IMyMessageProvider.MaxWaitingMessages)|Indicates number of max messages waiting in queue before the oldest one will be dropped to make space for new one.<br /><br />_Inherited from [IMyMessageProvider](Sandbox.ModAPI.Ingame.IMyMessageProvider)_|
 
 #### Methods
 

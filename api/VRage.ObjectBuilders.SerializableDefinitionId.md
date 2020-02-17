@@ -20,10 +20,10 @@ public struct SerializableDefinitionId
 
 |Member|Description|
 |---|---|
-|[TypeIdStringAttribute](VRage.ObjectBuilders.SerializableDefinitionId.TypeIdStringAttribute)||
-|[TypeIdString](VRage.ObjectBuilders.SerializableDefinitionId.TypeIdString)||
-|[SubtypeIdAttribute](VRage.ObjectBuilders.SerializableDefinitionId.SubtypeIdAttribute)||
-|[SubtypeId](VRage.ObjectBuilders.SerializableDefinitionId.SubtypeId)||
+|[TypeIdStringAttribute { get; set; }](VRage.ObjectBuilders.SerializableDefinitionId.TypeIdStringAttribute)||
+|[TypeIdString { get; set; }](VRage.ObjectBuilders.SerializableDefinitionId.TypeIdString)||
+|[SubtypeIdAttribute { get; set; }](VRage.ObjectBuilders.SerializableDefinitionId.SubtypeIdAttribute)||
+|[SubtypeId { get; set; }](VRage.ObjectBuilders.SerializableDefinitionId.SubtypeId)||
 
 #### Constructors
 

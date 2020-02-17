@@ -27,16 +27,16 @@ Defines an axis-aligned box-shaped 3D volume.
 
 |Member|Description|
 |---|---|
-|[Corners](VRageMath.BoundingBox.Corners)||
-|[Center](VRageMath.BoundingBox.Center)|Calculates center|
-|[HalfExtents](VRageMath.BoundingBox.HalfExtents)||
-|[Extents](VRageMath.BoundingBox.Extents)||
-|[Width](VRageMath.BoundingBox.Width)||
-|[Height](VRageMath.BoundingBox.Height)||
-|[Depth](VRageMath.BoundingBox.Depth)||
-|[Size](VRageMath.BoundingBox.Size)|Size|
-|[Matrix](VRageMath.BoundingBox.Matrix)|Matrix of AABB, respection center and size|
-|[Perimeter](VRageMath.BoundingBox.Perimeter)|return perimeter of edges|
+|[Corners { get; set; }](VRageMath.BoundingBox.Corners)||
+|[Center { get; }](VRageMath.BoundingBox.Center)|Calculates center|
+|[HalfExtents { get; }](VRageMath.BoundingBox.HalfExtents)||
+|[Extents { get; }](VRageMath.BoundingBox.Extents)||
+|[Width { get; }](VRageMath.BoundingBox.Width)||
+|[Height { get; }](VRageMath.BoundingBox.Height)||
+|[Depth { get; }](VRageMath.BoundingBox.Depth)||
+|[Size { get; }](VRageMath.BoundingBox.Size)|Size|
+|[Matrix { get; }](VRageMath.BoundingBox.Matrix)|Matrix of AABB, respection center and size|
+|[Perimeter { get; }](VRageMath.BoundingBox.Perimeter)|return perimeter of edges|
 
 #### Constructors
 

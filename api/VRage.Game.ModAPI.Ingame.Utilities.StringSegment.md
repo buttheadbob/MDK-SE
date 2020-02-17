@@ -21,9 +21,9 @@ public struct StringSegment
 
 |Member|Description|
 |---|---|
-|[IsEmpty](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.IsEmpty)||
-|[IsCached](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.IsCached)||
-|[Item](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.Item)||
+|[IsEmpty { get; }](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.IsEmpty)||
+|[IsCached { get; }](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.IsCached)||
+|[Item { get; }](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.Item)||
 
 #### Constructors
 

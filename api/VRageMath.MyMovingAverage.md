@@ -13,8 +13,8 @@ public class MyMovingAverage
 
 |Member|Description|
 |---|---|
-|[Avg](VRageMath.MyMovingAverage.Avg)||
-|[Sum](VRageMath.MyMovingAverage.Sum)||
+|[Avg { get; }](VRageMath.MyMovingAverage.Avg)||
+|[Sum { get; }](VRageMath.MyMovingAverage.Sum)||
 
 #### Constructors
 

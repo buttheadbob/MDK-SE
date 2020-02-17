@@ -42,8 +42,8 @@ Defines a vector with three components.
 
 |Member|Description|
 |---|---|
-|[Sum](VRageMath.Vector3D.Sum)||
-|[Volume](VRageMath.Vector3D.Volume)||
+|[Sum { get; }](VRageMath.Vector3D.Sum)||
+|[Volume { get; }](VRageMath.Vector3D.Volume)||
 
 #### Constructors
 

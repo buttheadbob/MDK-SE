@@ -19,8 +19,8 @@ Base interface for all message providers.
 
 |Member|Description|
 |---|---|
-|[HasPendingMessage](Sandbox.ModAPI.Ingame.IMyMessageProvider.HasPendingMessage)|Determines whether there is a message pending to be accepted in this message provider or not. There may be multiple messages pending in single message provider. In such case the flag will stay raised until the last message is consumed.|
-|[MaxWaitingMessages](Sandbox.ModAPI.Ingame.IMyMessageProvider.MaxWaitingMessages)|Indicates number of max messages waiting in queue before the oldest one will be dropped to make space for new one.|
+|[HasPendingMessage { get; }](Sandbox.ModAPI.Ingame.IMyMessageProvider.HasPendingMessage)|Determines whether there is a message pending to be accepted in this message provider or not. There may be multiple messages pending in single message provider. In such case the flag will stay raised until the last message is consumed.|
+|[MaxWaitingMessages { get; }](Sandbox.ModAPI.Ingame.IMyMessageProvider.MaxWaitingMessages)|Indicates number of max messages waiting in queue before the oldest one will be dropped to make space for new one.|
 
 #### Methods
 

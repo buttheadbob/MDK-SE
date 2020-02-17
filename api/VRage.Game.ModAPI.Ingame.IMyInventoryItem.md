@@ -13,8 +13,8 @@ public interface IMyInventoryItem
 
 |Member|Description|
 |---|---|
-|[Amount](VRage.Game.ModAPI.Ingame.IMyInventoryItem.Amount)||
-|[Scale](VRage.Game.ModAPI.Ingame.IMyInventoryItem.Scale)||
-|[Content](VRage.Game.ModAPI.Ingame.IMyInventoryItem.Content)||
-|[ItemId](VRage.Game.ModAPI.Ingame.IMyInventoryItem.ItemId)||
+|[Amount { get; set; }](VRage.Game.ModAPI.Ingame.IMyInventoryItem.Amount)||
+|[Scale { get; set; }](VRage.Game.ModAPI.Ingame.IMyInventoryItem.Scale)||
+|[Content { get; set; }](VRage.Game.ModAPI.Ingame.IMyInventoryItem.Content)||
+|[ItemId { get; set; }](VRage.Game.ModAPI.Ingame.IMyInventoryItem.ItemId)||
 

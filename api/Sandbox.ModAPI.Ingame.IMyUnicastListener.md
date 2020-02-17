@@ -18,8 +18,8 @@ Unicast listener hooks up all messages addressed directly to this endpoint.
 
 |Member|Description|
 |---|---|
-|[HasPendingMessage](Sandbox.ModAPI.Ingame.IMyMessageProvider.HasPendingMessage)|Determines whether there is a message pending to be accepted in this message provider or not. There may be multiple messages pending in single message provider. In such case the flag will stay raised until the last message is consumed.<br /><br />_Inherited from [IMyMessageProvider](Sandbox.ModAPI.Ingame.IMyMessageProvider)_|
-|[MaxWaitingMessages](Sandbox.ModAPI.Ingame.IMyMessageProvider.MaxWaitingMessages)|Indicates number of max messages waiting in queue before the oldest one will be dropped to make space for new one.<br /><br />_Inherited from [IMyMessageProvider](Sandbox.ModAPI.Ingame.IMyMessageProvider)_|
+|[HasPendingMessage { get; }](Sandbox.ModAPI.Ingame.IMyMessageProvider.HasPendingMessage)|Determines whether there is a message pending to be accepted in this message provider or not. There may be multiple messages pending in single message provider. In such case the flag will stay raised until the last message is consumed.<br /><br />_Inherited from [IMyMessageProvider](Sandbox.ModAPI.Ingame.IMyMessageProvider)_|
+|[MaxWaitingMessages { get; }](Sandbox.ModAPI.Ingame.IMyMessageProvider.MaxWaitingMessages)|Indicates number of max messages waiting in queue before the oldest one will be dropped to make space for new one.<br /><br />_Inherited from [IMyMessageProvider](Sandbox.ModAPI.Ingame.IMyMessageProvider)_|
 
 #### Methods
 

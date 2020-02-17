@@ -41,18 +41,18 @@ Defines a matrix.
 
 |Member|Description|
 |---|---|
-|[Up](VRageMath.Matrix.Up)|Gets and sets the up vector of the Matrix.|
-|[Down](VRageMath.Matrix.Down)|Gets and sets the down vector of the Matrix.|
-|[Right](VRageMath.Matrix.Right)|Gets and sets the right vector of the Matrix.|
-|[Col0](VRageMath.Matrix.Col0)||
-|[Col1](VRageMath.Matrix.Col1)||
-|[Col2](VRageMath.Matrix.Col2)||
-|[Left](VRageMath.Matrix.Left)|Gets and sets the left vector of the Matrix.|
-|[Forward](VRageMath.Matrix.Forward)|Gets and sets the forward vector of the Matrix.|
-|[Backward](VRageMath.Matrix.Backward)|Gets and sets the backward vector of the Matrix.|
-|[Scale](VRageMath.Matrix.Scale)||
-|[Translation](VRageMath.Matrix.Translation)|Gets and sets the translation vector of the Matrix.|
-|[Item](VRageMath.Matrix.Item)||
+|[Up { get; set; }](VRageMath.Matrix.Up)|Gets and sets the up vector of the Matrix.|
+|[Down { get; set; }](VRageMath.Matrix.Down)|Gets and sets the down vector of the Matrix.|
+|[Right { get; set; }](VRageMath.Matrix.Right)|Gets and sets the right vector of the Matrix.|
+|[Col0 { get; }](VRageMath.Matrix.Col0)||
+|[Col1 { get; }](VRageMath.Matrix.Col1)||
+|[Col2 { get; }](VRageMath.Matrix.Col2)||
+|[Left { get; set; }](VRageMath.Matrix.Left)|Gets and sets the left vector of the Matrix.|
+|[Forward { get; set; }](VRageMath.Matrix.Forward)|Gets and sets the forward vector of the Matrix.|
+|[Backward { get; set; }](VRageMath.Matrix.Backward)|Gets and sets the backward vector of the Matrix.|
+|[Scale { get; }](VRageMath.Matrix.Scale)||
+|[Translation { get; set; }](VRageMath.Matrix.Translation)|Gets and sets the translation vector of the Matrix.|
+|[Item { get; set; }](VRageMath.Matrix.Item)||
 
 #### Constructors
 

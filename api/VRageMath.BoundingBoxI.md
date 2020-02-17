@@ -26,11 +26,11 @@ Defines an axis-aligned box-shaped 3D volume.
 
 |Member|Description|
 |---|---|
-|[Center](VRageMath.BoundingBoxI.Center)|Calculates center|
-|[HalfExtents](VRageMath.BoundingBoxI.HalfExtents)||
-|[Size](VRageMath.BoundingBoxI.Size)|Size|
-|[Perimeter](VRageMath.BoundingBoxI.Perimeter)|return perimeter of edges|
-|[IsValid](VRageMath.BoundingBoxI.IsValid)||
+|[Center { get; }](VRageMath.BoundingBoxI.Center)|Calculates center|
+|[HalfExtents { get; }](VRageMath.BoundingBoxI.HalfExtents)||
+|[Size { get; }](VRageMath.BoundingBoxI.Size)|Size|
+|[Perimeter { get; }](VRageMath.BoundingBoxI.Perimeter)|return perimeter of edges|
+|[IsValid { get; }](VRageMath.BoundingBoxI.IsValid)||
 
 #### Constructors
 

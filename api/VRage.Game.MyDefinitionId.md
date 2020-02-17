@@ -26,7 +26,7 @@ Prefer getting definition ID using object builder used to create the item. If yo
 
 |Member|Description|
 |---|---|
-|[SubtypeName](VRage.Game.MyDefinitionId.SubtypeName)||
+|[SubtypeName { get; }](VRage.Game.MyDefinitionId.SubtypeName)||
 
 #### Constructors
 

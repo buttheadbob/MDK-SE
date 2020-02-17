@@ -25,13 +25,13 @@ Structure using the same layout than [System.Drawing.RectangleF](https://docs.mi
 
 |Member|Description|
 |---|---|
-|[X](VRageMath.RectangleF.X)|Left coordinate.|
-|[Y](VRageMath.RectangleF.Y)|Top coordinate.|
-|[Width](VRageMath.RectangleF.Width)|Width of this rectangle.|
-|[Height](VRageMath.RectangleF.Height)|Height of this rectangle.|
-|[Right](VRageMath.RectangleF.Right)||
-|[Bottom](VRageMath.RectangleF.Bottom)||
-|[Center](VRageMath.RectangleF.Center)||
+|[X { get; set; }](VRageMath.RectangleF.X)|Left coordinate.|
+|[Y { get; set; }](VRageMath.RectangleF.Y)|Top coordinate.|
+|[Width { get; set; }](VRageMath.RectangleF.Width)|Width of this rectangle.|
+|[Height { get; set; }](VRageMath.RectangleF.Height)|Height of this rectangle.|
+|[Right { get; }](VRageMath.RectangleF.Right)||
+|[Bottom { get; }](VRageMath.RectangleF.Bottom)||
+|[Center { get; }](VRageMath.RectangleF.Center)||
 
 #### Constructors
 

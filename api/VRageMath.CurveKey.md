@@ -19,11 +19,11 @@ Represents a point in a multi-point curve.
 
 |Member|Description|
 |---|---|
-|[Position](VRageMath.CurveKey.Position)|Position of the CurveKey in the curve.|
-|[Value](VRageMath.CurveKey.Value)|Describes the value of this point.|
-|[TangentIn](VRageMath.CurveKey.TangentIn)|Describes the tangent when approaching this point from the previous point in the curve.|
-|[TangentOut](VRageMath.CurveKey.TangentOut)|Describes the tangent when leaving this point to the next point in the curve.|
-|[Continuity](VRageMath.CurveKey.Continuity)|Describes whether the segment between this point and the next point in the curve is discrete or continuous.|
+|[Position { get; }](VRageMath.CurveKey.Position)|Position of the CurveKey in the curve.|
+|[Value { get; set; }](VRageMath.CurveKey.Value)|Describes the value of this point.|
+|[TangentIn { get; set; }](VRageMath.CurveKey.TangentIn)|Describes the tangent when approaching this point from the previous point in the curve.|
+|[TangentOut { get; set; }](VRageMath.CurveKey.TangentOut)|Describes the tangent when leaving this point to the next point in the curve.|
+|[Continuity { get; set; }](VRageMath.CurveKey.Continuity)|Describes whether the segment between this point and the next point in the curve is discrete or continuous.|
 
 #### Constructors
 

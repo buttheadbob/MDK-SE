@@ -25,7 +25,7 @@ Defines a point in 2D space.
 
 |Member|Description|
 |---|---|
-|[Zero](VRageMath.Point.Zero)|Returns the point (0,0).|
+|[Zero { get; }](VRageMath.Point.Zero)|Returns the point (0,0).|
 
 #### Constructors
 

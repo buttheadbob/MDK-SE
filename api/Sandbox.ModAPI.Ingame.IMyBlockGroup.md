@@ -13,7 +13,7 @@ public interface IMyBlockGroup
 
 |Member|Description|
 |---|---|
-|[Name](Sandbox.ModAPI.Ingame.IMyBlockGroup.Name)||
+|[Name { get; }](Sandbox.ModAPI.Ingame.IMyBlockGroup.Name)||
 
 #### Methods
 

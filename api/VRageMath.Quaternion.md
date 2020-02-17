@@ -29,9 +29,9 @@ Defines a four-dimensional vector (x,y,z,w), which is used to efficiently rotate
 
 |Member|Description|
 |---|---|
-|[Forward](VRageMath.Quaternion.Forward)||
-|[Right](VRageMath.Quaternion.Right)||
-|[Up](VRageMath.Quaternion.Up)||
+|[Forward { get; }](VRageMath.Quaternion.Forward)||
+|[Right { get; }](VRageMath.Quaternion.Right)||
+|[Up { get; }](VRageMath.Quaternion.Up)||
 
 #### Constructors
 

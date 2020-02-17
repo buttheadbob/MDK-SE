@@ -15,8 +15,8 @@ This is the entry point for all communication operations.
 
 |Member|Description|
 |---|---|
-|[Me](Sandbox.ModAPI.Ingame.IMyIntergridCommunicationSystem.Me)|Gets communication address for current programmable block.|
-|[UnicastListener](Sandbox.ModAPI.Ingame.IMyIntergridCommunicationSystem.UnicastListener)|Gets unicast listener for current programmable block.|
+|[Me { get; }](Sandbox.ModAPI.Ingame.IMyIntergridCommunicationSystem.Me)|Gets communication address for current programmable block.|
+|[UnicastListener { get; }](Sandbox.ModAPI.Ingame.IMyIntergridCommunicationSystem.UnicastListener)|Gets unicast listener for current programmable block.|
 
 #### Methods
 

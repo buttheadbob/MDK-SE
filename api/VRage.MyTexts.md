@@ -19,8 +19,8 @@ public abstract sealed class MyTexts
 
 |Member|Description|
 |---|---|
-|[GlobalVariantSelector](VRage.MyTexts.GlobalVariantSelector)|Global selector for translation variants.|
-|[Languages](VRage.MyTexts.Languages)||
+|[GlobalVariantSelector { get; }](VRage.MyTexts.GlobalVariantSelector)|Global selector for translation variants.|
+|[Languages { get; }](VRage.MyTexts.Languages)||
 
 #### Methods
 

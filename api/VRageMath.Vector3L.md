@@ -39,9 +39,9 @@ public struct Vector3L: IEquatable<VRageMath.Vector3L>, IComparable<VRageMath.Ve
 
 |Member|Description|
 |---|---|
-|[Item](VRageMath.Vector3L.Item)||
-|[Size](VRageMath.Vector3L.Size)|How many cubes are in block with this size|
-|[SizeLong](VRageMath.Vector3L.SizeLong)||
+|[Item { get; set; }](VRageMath.Vector3L.Item)||
+|[Size { get; }](VRageMath.Vector3L.Size)|How many cubes are in block with this size|
+|[SizeLong { get; }](VRageMath.Vector3L.SizeLong)||
 
 #### Constructors
 

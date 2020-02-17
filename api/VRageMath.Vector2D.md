@@ -30,7 +30,7 @@ Defines a vector with two components.
 
 |Member|Description|
 |---|---|
-|[Item](VRageMath.Vector2D.Item)||
+|[Item { get; set; }](VRageMath.Vector2D.Item)||
 
 #### Constructors
 

@@ -39,10 +39,10 @@ public struct Vector3I: IEquatable<VRageMath.Vector3I>, IComparable<VRageMath.Ve
 
 |Member|Description|
 |---|---|
-|[Item](VRageMath.Vector3I.Item)||
-|[IsPowerOfTwo](VRageMath.Vector3I.IsPowerOfTwo)||
-|[Size](VRageMath.Vector3I.Size)|How many cubes are in block with this size|
-|[SizeLong](VRageMath.Vector3I.SizeLong)||
+|[Item { get; set; }](VRageMath.Vector3I.Item)||
+|[IsPowerOfTwo { get; }](VRageMath.Vector3I.IsPowerOfTwo)||
+|[Size { get; }](VRageMath.Vector3I.Size)|How many cubes are in block with this size|
+|[SizeLong { get; }](VRageMath.Vector3I.SizeLong)||
 
 #### Constructors
 

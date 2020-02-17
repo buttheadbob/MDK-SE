@@ -22,7 +22,7 @@ Defines a matrix.
 
 |Member|Description|
 |---|---|
-|[Matrix](VRageMath.CompressedPositionOrientation.Matrix)||
+|[Matrix { get; set; }](VRageMath.CompressedPositionOrientation.Matrix)||
 
 #### Constructors
 

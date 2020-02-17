@@ -13,9 +13,9 @@ public struct MyStoreItemDataSimple
 
 |Member|Description|
 |---|---|
-|[ItemId](VRage.Game.ModAPI.Ingame.MyStoreItemDataSimple.ItemId)|Gets definition id of the item|
-|[Amount](VRage.Game.ModAPI.Ingame.MyStoreItemDataSimple.Amount)|Gets amount for buy/sell|
-|[PricePerUnit](VRage.Game.ModAPI.Ingame.MyStoreItemDataSimple.PricePerUnit)|Gets price per unit|
+|[ItemId { get; }](VRage.Game.ModAPI.Ingame.MyStoreItemDataSimple.ItemId)|Gets definition id of the item|
+|[Amount { get; }](VRage.Game.ModAPI.Ingame.MyStoreItemDataSimple.Amount)|Gets amount for buy/sell|
+|[PricePerUnit { get; }](VRage.Game.ModAPI.Ingame.MyStoreItemDataSimple.PricePerUnit)|Gets price per unit|
 
 #### Constructors
 

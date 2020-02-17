@@ -27,15 +27,15 @@ Defines an axis-aligned box-shaped 3D volume.
 
 |Member|Description|
 |---|---|
-|[Center](VRageMath.BoundingBoxD.Center)|Calculates center|
-|[HalfExtents](VRageMath.BoundingBoxD.HalfExtents)||
-|[Extents](VRageMath.BoundingBoxD.Extents)||
-|[Size](VRageMath.BoundingBoxD.Size)|Size|
-|[Matrix](VRageMath.BoundingBoxD.Matrix)|Matrix of AABB, respection center and size|
-|[SurfaceArea](VRageMath.BoundingBoxD.SurfaceArea)||
-|[Volume](VRageMath.BoundingBoxD.Volume)||
-|[Perimeter](VRageMath.BoundingBoxD.Perimeter)|return perimeter of edges|
-|[Valid](VRageMath.BoundingBoxD.Valid)||
+|[Center { get; }](VRageMath.BoundingBoxD.Center)|Calculates center|
+|[HalfExtents { get; }](VRageMath.BoundingBoxD.HalfExtents)||
+|[Extents { get; }](VRageMath.BoundingBoxD.Extents)||
+|[Size { get; }](VRageMath.BoundingBoxD.Size)|Size|
+|[Matrix { get; }](VRageMath.BoundingBoxD.Matrix)|Matrix of AABB, respection center and size|
+|[SurfaceArea { get; }](VRageMath.BoundingBoxD.SurfaceArea)||
+|[Volume { get; }](VRageMath.BoundingBoxD.Volume)||
+|[Perimeter { get; }](VRageMath.BoundingBoxD.Perimeter)|return perimeter of edges|
+|[Valid { get; }](VRageMath.BoundingBoxD.Valid)||
 
 #### Constructors
 

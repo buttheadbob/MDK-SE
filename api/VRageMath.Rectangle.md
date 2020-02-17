@@ -27,12 +27,12 @@ Defines a rectangle.
 
 |Member|Description|
 |---|---|
-|[Left](VRageMath.Rectangle.Left)|Returns the x-coordinate of the left side of the rectangle.|
-|[Right](VRageMath.Rectangle.Right)|Returns the x-coordinate of the right side of the rectangle.|
-|[Top](VRageMath.Rectangle.Top)|Returns the y-coordinate of the top of the rectangle.|
-|[Bottom](VRageMath.Rectangle.Bottom)|Returns the y-coordinate of the bottom of the rectangle.|
-|[Location](VRageMath.Rectangle.Location)|Gets or sets the upper-left value of the Rectangle.|
-|[Center](VRageMath.Rectangle.Center)|Gets the Point that specifies the center of the rectangle.|
+|[Left { get; }](VRageMath.Rectangle.Left)|Returns the x-coordinate of the left side of the rectangle.|
+|[Right { get; }](VRageMath.Rectangle.Right)|Returns the x-coordinate of the right side of the rectangle.|
+|[Top { get; }](VRageMath.Rectangle.Top)|Returns the y-coordinate of the top of the rectangle.|
+|[Bottom { get; }](VRageMath.Rectangle.Bottom)|Returns the y-coordinate of the bottom of the rectangle.|
+|[Location { get; set; }](VRageMath.Rectangle.Location)|Gets or sets the upper-left value of the Rectangle.|
+|[Center { get; }](VRageMath.Rectangle.Center)|Gets the Point that specifies the center of the rectangle.|
 
 #### Constructors
 

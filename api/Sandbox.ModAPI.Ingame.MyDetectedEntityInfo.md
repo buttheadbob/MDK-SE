@@ -27,7 +27,7 @@ public struct MyDetectedEntityInfo
 
 |Member|Description|
 |---|---|
-|[Position](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo.Position)|The entity's position (center of the Bounding Box)|
+|[Position { get; }](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo.Position)|The entity's position (center of the Bounding Box)|
 
 #### Constructors
 

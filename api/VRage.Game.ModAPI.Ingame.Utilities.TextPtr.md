@@ -20,8 +20,8 @@ public struct TextPtr
 
 |Member|Description|
 |---|---|
-|[Char](VRage.Game.ModAPI.Ingame.Utilities.TextPtr.Char)||
-|[IsEmpty](VRage.Game.ModAPI.Ingame.Utilities.TextPtr.IsEmpty)||
+|[Char { get; }](VRage.Game.ModAPI.Ingame.Utilities.TextPtr.Char)||
+|[IsEmpty { get; }](VRage.Game.ModAPI.Ingame.Utilities.TextPtr.IsEmpty)||
 
 #### Constructors
 

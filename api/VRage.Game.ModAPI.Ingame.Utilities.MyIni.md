@@ -109,8 +109,8 @@ This class is NOT THREAD SAFE as it's optimized for programmable block use.
 
 |Member|Description|
 |---|---|
-|[EndContent](VRage.Game.ModAPI.Ingame.Utilities.MyIni.EndContent)|You can terminate a configuration stream by entering "---" on a separate line. This property will contain all the content after this line.|
-|[EndComment](VRage.Game.ModAPI.Ingame.Utilities.MyIni.EndComment)|Get or set a comment to be placed after the last section or item. Is`null`if the section does not exist or has no comment.|
+|[EndContent { get; set; }](VRage.Game.ModAPI.Ingame.Utilities.MyIni.EndContent)|You can terminate a configuration stream by entering "---" on a separate line. This property will contain all the content after this line.|
+|[EndComment { get; set; }](VRage.Game.ModAPI.Ingame.Utilities.MyIni.EndComment)|Get or set a comment to be placed after the last section or item. Is`null`if the section does not exist or has no comment.|
 
 #### Constructors
 

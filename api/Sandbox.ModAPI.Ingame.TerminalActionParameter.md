@@ -21,7 +21,7 @@ public struct TerminalActionParameter
 
 |Member|Description|
 |---|---|
-|[IsEmpty](Sandbox.ModAPI.Ingame.TerminalActionParameter.IsEmpty)||
+|[IsEmpty { get; }](Sandbox.ModAPI.Ingame.TerminalActionParameter.IsEmpty)||
 
 #### Methods
 

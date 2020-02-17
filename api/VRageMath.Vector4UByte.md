@@ -22,7 +22,7 @@ public struct Vector4UByte
 
 |Member|Description|
 |---|---|
-|[Item](VRageMath.Vector4UByte.Item)||
+|[Item { get; set; }](VRageMath.Vector4UByte.Item)||
 
 #### Constructors
 

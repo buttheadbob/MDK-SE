@@ -20,7 +20,7 @@ public struct MyInventoryItemFilter
 
 |Member|Description|
 |---|---|
-|[ItemType](Sandbox.ModAPI.Ingame.MyInventoryItemFilter.ItemType)||
+|[ItemType { get; }](Sandbox.ModAPI.Ingame.MyInventoryItemFilter.ItemType)||
 
 #### Constructors
 

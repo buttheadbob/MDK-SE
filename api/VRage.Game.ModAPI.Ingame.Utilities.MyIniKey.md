@@ -24,9 +24,9 @@ Represents the combination of a section and a key in a [MyIni](VRage.Game.ModAPI
 
 |Member|Description|
 |---|---|
-|[Section](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey.Section)|Gets the Section part of this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) |
-|[Name](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey.Name)|Gets the Key part of this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) |
-|[IsEmpty](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey.IsEmpty)|Determines whether this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) is empty.|
+|[Section { get; }](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey.Section)|Gets the Section part of this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) |
+|[Name { get; }](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey.Name)|Gets the Key part of this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) |
+|[IsEmpty { get; }](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey.IsEmpty)|Determines whether this [MyIniKey](VRage.Game.ModAPI.Ingame.Utilities.MyIniKey) is empty.|
 
 #### Constructors
 

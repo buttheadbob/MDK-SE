@@ -84,4 +84,4 @@ I've created a number of examples of using IGC.  I've also created a [world](htt
 ***
 
 
-_We all owe a great thank you to Wikorel for taking the time to write this tutorial and all the examples._
+_We all owe a great thank you to Wicorel for taking the time to write this tutorial and all the examples._

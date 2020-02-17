@@ -76,3 +76,8 @@ After that:
 - `Right click anything -> Analyze` to see where it's used, implemented, raised, etc.
 
 - For multiple projects (e.g. also having Medieval Engineers' libraries), see `File -> Open List`
+
+***
+
+
+_A big thank you goes to Digi for writing this tutorial._

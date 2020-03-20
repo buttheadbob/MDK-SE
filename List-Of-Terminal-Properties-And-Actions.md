@@ -371,7 +371,7 @@
 
 |Name|Description|
 |-|-|
-|ControlGyros|ControlGyros On/Off|
+|ControlGyros|Control Gyros On/Off|
 |ControlThrusters|Control thrusters On/Off|
 |ControlWheels|Control wheels On/Off|
 |DampenersOverride|Inertia dampeners On/Off|
@@ -496,7 +496,7 @@
 
 |Name|Description|
 |-|-|
-|ControlGyros|ControlGyros On/Off|
+|ControlGyros|Control Gyros On/Off|
 |ControlThrusters|Control thrusters On/Off|
 |ControlWheels|Control wheels On/Off|
 |DampenersOverride|Inertia dampeners On/Off|
@@ -1657,7 +1657,7 @@
 |CollisionAvoidance|Collision avoidance On/Off|
 |CollisionAvoidance_Off|Collision avoidance Off|
 |CollisionAvoidance_On|Collision avoidance On|
-|ControlGyros|ControlGyros On/Off|
+|ControlGyros|Control Gyros On/Off|
 |ControlThrusters|Control thrusters On/Off|
 |ControlWheels|Control wheels On/Off|
 |DampenersOverride|Inertia dampeners On/Off|
@@ -1897,7 +1897,7 @@
 
 |Name|Description|
 |-|-|
-|ControlGyros|ControlGyros On/Off|
+|ControlGyros|Control Gyros On/Off|
 |ControlThrusters|Control thrusters On/Off|
 |ControlWheels|Control wheels On/Off|
 |DampenersOverride|Inertia dampeners On/Off|

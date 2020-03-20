@@ -17,8 +17,6 @@ public interface IMyTextPanel: IMyTextSurface, IMyFunctionalBlock, IMyTerminalBl
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
 **Type Definitions:**  
-* `MyObjectBuilder_TextPanel/TransparentLCDLarge`  
-* `MyObjectBuilder_TextPanel/TransparentLCDSmall`  
 * `MyObjectBuilder_TextPanel/SmallTextPanel`  
 * `MyObjectBuilder_TextPanel/SmallLCDPanelWide`  
 * `MyObjectBuilder_TextPanel/SmallLCDPanel`  
@@ -32,7 +30,9 @@ public interface IMyTextPanel: IMyTextSurface, IMyFunctionalBlock, IMyTerminalBl
 * `MyObjectBuilder_TextPanel/SmallBlockCorner_LCD_Flat_2`  
 * `MyObjectBuilder_TextPanel/LargeTextPanel`  
 * `MyObjectBuilder_TextPanel/LargeLCDPanel`  
-* `MyObjectBuilder_TextPanel/LargeLCDPanelWide`
+* `MyObjectBuilder_TextPanel/LargeLCDPanelWide`  
+* `MyObjectBuilder_TextPanel/TransparentLCDLarge`  
+* `MyObjectBuilder_TextPanel/TransparentLCDSmall`
 
 #### Properties
 

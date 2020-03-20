@@ -22,7 +22,9 @@ public interface IMyGasTank: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock,
 * `MyObjectBuilder_OxygenTank/OxygenTankSmall`  
 * `MyObjectBuilder_OxygenTank/`  
 * `MyObjectBuilder_OxygenTank/LargeHydrogenTank`  
-* `MyObjectBuilder_OxygenTank/SmallHydrogenTank`
+* `MyObjectBuilder_OxygenTank/LargeHydrogenTankSmall`  
+* `MyObjectBuilder_OxygenTank/SmallHydrogenTank`  
+* `MyObjectBuilder_OxygenTank/SmallHydrogenTankSmall`
 
 #### Properties
 

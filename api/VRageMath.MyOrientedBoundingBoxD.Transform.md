@@ -38,3 +38,12 @@ public void Transform(MatrixD matrix)
 ### Parameters
 
 * [MatrixD](VRageMath.MatrixD) matrix
+### Summary
+
+```csharp
+public void Transform(ref MatrixD matrix)
+```
+
+### Parameters
+
+* [MatrixD](VRageMath.MatrixD) matrix

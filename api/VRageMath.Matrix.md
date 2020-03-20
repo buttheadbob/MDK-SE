@@ -92,6 +92,8 @@ Defines a matrix.
 |[SwapYZCoordinates(Matrix)](VRageMath.Matrix.SwapYZCoordinates)||
 |[IsMirrored()](VRageMath.Matrix.IsMirrored)||
 |[IsOrthogonal()](VRageMath.Matrix.IsOrthogonal)||
+|[SetFrom(ref MatrixD)](VRageMath.Matrix.SetFrom)|Set this ma|
+|[SetRotationAndScale(ref MatrixD)](VRageMath.Matrix.SetRotationAndScale)||
 |[GetDirectionVector(Direction)](VRageMath.Matrix.GetDirectionVector)||
 |[SetDirectionVector(Direction, Vector3)](VRageMath.Matrix.SetDirectionVector)||
 |[GetClosestDirection(Vector3)](VRageMath.Matrix.GetClosestDirection)||

@@ -18,6 +18,7 @@ Antenna block interface
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
 **Type Definitions:**  
+* `MyObjectBuilder_RadioAntenna/LargeBlockRadioAntennaDish`  
 * `MyObjectBuilder_RadioAntenna/LargeBlockRadioAntenna`  
 * `MyObjectBuilder_RadioAntenna/SmallBlockRadioAntenna`
 

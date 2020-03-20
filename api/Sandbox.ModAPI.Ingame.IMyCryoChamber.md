@@ -18,9 +18,9 @@ public interface IMyCryoChamber: IMyCockpit, IMyShipController, IMyTerminalBlock
 * [IMyTextSurfaceProvider](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider)
 
 **Type Definitions:**  
+* `MyObjectBuilder_CryoChamber/LargeBlockBed`  
 * `MyObjectBuilder_CryoChamber/LargeBlockCryoChamber`  
-* `MyObjectBuilder_CryoChamber/SmallBlockCryoChamber`  
-* `MyObjectBuilder_CryoChamber/LargeBlockBed`
+* `MyObjectBuilder_CryoChamber/SmallBlockCryoChamber`
 
 #### Properties
 

@@ -20,6 +20,7 @@ Defines an axis-aligned box-shaped 3D volume.
 |---|---|
 |[Min](VRageMath.BoundingBox.Min)|The minimum point the BoundingBox contains.|
 |[Max](VRageMath.BoundingBox.Max)|The maximum point the BoundingBox contains.|
+|[Invalid](VRageMath.BoundingBox.Invalid)||
 |[Comparer](VRageMath.BoundingBox.Comparer)||
 |[CornerCount](VRageMath.BoundingBox.CornerCount)|Specifies the total number of corners (8) in the BoundingBox.|
 

@@ -13,6 +13,8 @@
 **Antenna** ([IMyRadioAntenna](Sandbox.ModAPI.Ingame.IMyRadioAntenna))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_RadioAntenna/LargeBlockRadioAntenna`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_RadioAntenna/SmallBlockRadioAntenna`  
+**Antenna Dish** ([IMyRadioAntenna](Sandbox.ModAPI.Ingame.IMyRadioAntenna))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_RadioAntenna/LargeBlockRadioAntennaDish`  
 **Armory** ([IMyCargoContainer](Sandbox.ModAPI.Ingame.IMyCargoContainer))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CargoContainer/LargeBlockLockerRoom`  
 **Armory Lockers** ([IMyCargoContainer](Sandbox.ModAPI.Ingame.IMyCargoContainer))  
@@ -124,6 +126,18 @@
 **Curved Conveyor Tube**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_ConveyorConnector/ConveyorTubeCurved`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_ConveyorConnector/ConveyorTubeCurvedMedium`  
+**Dead Engineer 1**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/DeadBody01`  
+**Dead Engineer 2**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/DeadBody02`  
+**Dead Engineer 3**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/DeadBody03`  
+**Dead Engineer 4**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/DeadBody04`  
+**Dead Engineer 5**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/DeadBody05`  
+**Dead Engineer 6**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/DeadBody06`  
 **Decoy** ([IMyDecoy](Sandbox.ModAPI.Ingame.IMyDecoy))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Decoy/LargeDecoy`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Decoy/SmallDecoy`  
@@ -152,6 +166,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/Freight2`  
 **Freight 3**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/Freight3`  
+**Gate** ([IMyDoor](Sandbox.ModAPI.Ingame.IMyDoor))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Door/LargeBlockGate`  
 **Gatling Gun** ([IMySmallGatlingGun](Sandbox.ModAPI.Ingame.IMySmallGatlingGun))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_SmallGatlingGun/`  
 **Gatling Turret** ([IMyLargeGatlingTurret](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeGatlingTurret))  
@@ -346,6 +362,8 @@
 **O2/H2 Generator** ([IMyGasGenerator](Sandbox.ModAPI.Ingame.IMyGasGenerator))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_OxygenGenerator/`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_OxygenGenerator/OxygenGeneratorSmall`  
+**Offset Door** ([IMyDoor](Sandbox.ModAPI.Ingame.IMyDoor))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Door/LargeBlockOffsetDoor`  
 **Ore Detector** ([IMyOreDetector](Sandbox.ModAPI.Ingame.IMyOreDetector))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_OreDetector/LargeOreDetector`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_OreDetector/SmallBlockOreDetector`  
@@ -440,6 +458,9 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_ConveyorConnector/ConveyorTubeSmall`  
 **Small Curved Conveyor Tube**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_ConveyorConnector/ConveyorTubeSmallCurved`  
+**Small Hydrogen Tank** ([IMyGasTank](Sandbox.ModAPI.Ingame.IMyGasTank))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_OxygenTank/LargeHydrogenTankSmall`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_OxygenTank/SmallHydrogenTankSmall`  
 **Small Reactor** ([IMyReactor](Sandbox.ModAPI.Ingame.IMyReactor))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Reactor/LargeBlockSmallGenerator`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Reactor/SmallBlockSmallGenerator`  

@@ -53,4 +53,5 @@ Structure using the same layout than [System.Drawing.RectangleF](https://docs.mi
 |[Equals(object)](VRageMath.RectangleF.Equals)||
 |[GetHashCode()](VRageMath.RectangleF.GetHashCode)||
 |[ToString()](VRageMath.RectangleF.ToString)||
+|[Min(RectangleF?, RectangleF?)](VRageMath.RectangleF.Min)||
 

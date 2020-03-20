@@ -67,7 +67,7 @@ Defines a four-dimensional vector (x,y,z,w), which is used to efficiently rotate
 |[CreateFromYawPitchRoll(float, float, float)](VRageMath.Quaternion.CreateFromYawPitchRoll)|Creates a new Quaternion from specified yaw, pitch, and roll angles.|
 |[CreateFromYawPitchRoll(float, float, float, out Quaternion)](VRageMath.Quaternion.CreateFromYawPitchRoll)|Creates a new Quaternion from specified yaw, pitch, and roll angles.|
 |[CreateFromForwardUp(Vector3, Vector3)](VRageMath.Quaternion.CreateFromForwardUp)|Works for normalized vectors only|
-|[CreateFromRotationMatrix(MatrixD)](VRageMath.Quaternion.CreateFromRotationMatrix)||
+|[CreateFromRotationMatrix(ref MatrixD)](VRageMath.Quaternion.CreateFromRotationMatrix)||
 |[CreateFromRotationMatrix(Matrix)](VRageMath.Quaternion.CreateFromRotationMatrix)|Creates a Quaternion from a rotation Matrix.|
 |[CreateFromRotationMatrix(ref MatrixD, out Quaternion)](VRageMath.Quaternion.CreateFromRotationMatrix)||
 |[CreateFromTwoVectors(ref Vector3, ref Vector3, out Quaternion)](VRageMath.Quaternion.CreateFromTwoVectors)||

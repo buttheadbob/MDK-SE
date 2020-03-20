@@ -47,6 +47,7 @@ Defines an axis-aligned box-shaped 3D volume.
 
 |Member|Description|
 |---|---|
+|[Centerize(Vector3D)](VRageMath.BoundingBoxD.Centerize)||
 |[GetCorners()](VRageMath.BoundingBoxD.GetCorners)|Gets an array of points that make up the corners of the BoundingBox. ALLOCATION!|
 |[GetCorners(Vector3D[])](VRageMath.BoundingBoxD.GetCorners)|Gets the array of points that make up the corners of the BoundingBox.|
 |[GetCornersUnsafe(*Vector3D)](VRageMath.BoundingBoxD.GetCornersUnsafe)||

@@ -15,5 +15,4 @@ public abstract sealed class QueueExtensions
 |---|---|
 |[TryDequeue(this Queue, out T)](System.Collections.Generic.QueueExtensions.TryDequeue)||
 |[TryDequeueSync(this Queue, out T)](System.Collections.Generic.QueueExtensions.TryDequeueSync)||
-|[ToList(this ConcurrentQueue)](System.Collections.Generic.QueueExtensions.ToList)||
 

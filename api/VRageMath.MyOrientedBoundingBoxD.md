@@ -52,8 +52,10 @@ public struct MyOrientedBoundingBoxD: IEquatable<VRageMath.MyOrientedBoundingBox
 |[Transform(Quaternion, Vector3D)](VRageMath.MyOrientedBoundingBoxD.Transform)||
 |[Transform(float, Quaternion, Vector3D)](VRageMath.MyOrientedBoundingBoxD.Transform)||
 |[Transform(MatrixD)](VRageMath.MyOrientedBoundingBoxD.Transform)||
+|[Transform(ref MatrixD)](VRageMath.MyOrientedBoundingBoxD.Transform)||
 |[Equals(MyOrientedBoundingBox)](VRageMath.MyOrientedBoundingBoxD.Equals)||
 |[Equals(object)](VRageMath.MyOrientedBoundingBoxD.Equals)||
+|[Distance(RayD)](VRageMath.MyOrientedBoundingBoxD.Distance)||
 |[GetHashCode()](VRageMath.MyOrientedBoundingBoxD.GetHashCode)||
 |[ToString()](VRageMath.MyOrientedBoundingBoxD.ToString)||
 |[Intersects(ref BoundingBox)](VRageMath.MyOrientedBoundingBoxD.Intersects)||
@@ -73,6 +75,7 @@ public struct MyOrientedBoundingBoxD: IEquatable<VRageMath.MyOrientedBoundingBox
 |[Contains(ref Vector3D)](VRageMath.MyOrientedBoundingBoxD.Contains)||
 |[Intersects(ref RayD)](VRageMath.MyOrientedBoundingBoxD.Intersects)||
 |[Intersects(ref LineD)](VRageMath.MyOrientedBoundingBoxD.Intersects)||
+|[IntersectsOrContains(ref LineD)](VRageMath.MyOrientedBoundingBoxD.IntersectsOrContains)||
 |[Intersects(ref PlaneD)](VRageMath.MyOrientedBoundingBoxD.Intersects)||
 |[GetCorners(Vector3D[], int)](VRageMath.MyOrientedBoundingBoxD.GetCorners)||
 |[ContainsRelativeBox(ref Vector3D, ref Vector3D, ref MatrixD)](VRageMath.MyOrientedBoundingBoxD.ContainsRelativeBox)||

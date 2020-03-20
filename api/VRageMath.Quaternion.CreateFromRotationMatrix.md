@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static Quaternion CreateFromRotationMatrix(MatrixD matrix)
+public static Quaternion CreateFromRotationMatrix(ref MatrixD matrix)
 ```
 
 ### Returns

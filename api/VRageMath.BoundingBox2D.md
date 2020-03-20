@@ -6,7 +6,7 @@
 public struct BoundingBox2D: IEquatable<VRageMath.BoundingBox2D>
 ```
 
-Defines an axis-aligned box-shaped 3D volume.
+Defines an axis-aligned box-shaped 2D volume.
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll

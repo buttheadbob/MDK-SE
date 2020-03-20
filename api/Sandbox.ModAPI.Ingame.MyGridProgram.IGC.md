@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public virtual IMyIntergridCommunicationSystem IGC { get; }
+public IMyIntergridCommunicationSystem IGC { get; }
 ```
 
 ### Returns

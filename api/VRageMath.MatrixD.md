@@ -95,6 +95,8 @@ Defines a matrix.
 |[GetEulerAnglesXYZ(ref MatrixD, out Vector3D)](VRageMath.MatrixD.GetEulerAnglesXYZ)||
 |[SwapYZCoordinates(MatrixD)](VRageMath.MatrixD.SwapYZCoordinates)||
 |[IsMirrored()](VRageMath.MatrixD.IsMirrored)||
+|[SetFrom(ref Matrix)](VRageMath.MatrixD.SetFrom)||
+|[SetRotationAndScale(ref Matrix)](VRageMath.MatrixD.SetRotationAndScale)||
 |[GetDirectionVector(Direction)](VRageMath.MatrixD.GetDirectionVector)||
 |[SetDirectionVector(Direction, Vector3D)](VRageMath.MatrixD.SetDirectionVector)||
 |[GetClosestDirection(Vector3D)](VRageMath.MatrixD.GetClosestDirection)||

@@ -9,7 +9,7 @@
 
 * [**API Index**](Api-Index)
   * [By namespaces](Namespace-Index)
-  * [**Type Definition Listing**](Type-Definition-Listing)
+  * [Type Definition Listing](Type-Definition-Listing)
   * [Terminal Properties and Actions](Terminal-Properties-and-Actions)
     * [List of Available Properties and Actions](List-Of-Terminal-Properties-and-Actions)
 * [**Quick Introduction to Space Engineers Ingame Scripts**](Quick-Introduction-to-Space-Engineers-Ingame-Scripts)
@@ -23,7 +23,7 @@
     * [The Storage String](The-Storage-String)
     * [Get The Running Programmable Block](The-Running-Programmable-Block)
     * [Do's and Don'ts](Do's-and-Don'ts)
-* [Advanced Techniques](Advanced-Techniques)
+* [**Advanced Techniques**](Advanced-Techniques)
   * [The Minifier](The-Minifier)
   * [Text Panels and Drawing Sprites](Text-Panels-and-Drawing-Sprites)
   * [Antenna Communication (IGC)](Antenna-Communication-(IGC))

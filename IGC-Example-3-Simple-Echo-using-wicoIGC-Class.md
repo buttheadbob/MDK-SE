@@ -83,7 +83,7 @@ void InitMessageHandlers()
     _wicoIGC.AddPublicHandler(_broadCastTag, TestBroadcastHandler);
 }
 ```
-### Broad Message Handler
+### Broadcast Message Handler
 
 This is the handler for the broadcast messages.  Multiple handlers could be registered.  This handler is called by WicoIGC for all incoming broadcast messages.
 

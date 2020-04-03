@@ -89,10 +89,6 @@ public Program()
     );
 }
 ```
-#### A Caveat...
-
-Once upon a time, an LCD mod was integrated into the vanilla game: The Corner LCDs. These corner LCDs does at the time of the writing of this tutorial, _not_ report the correct surface size, but a full texture size. Be aware of this.
-
 ### Drawing A Frame
 
 The drawing API is for all intents and purposes quite low level. You tell the surface that you wish to start a new frame, then you create and add a bunch of sprites, then you tell the surface that you're done. 

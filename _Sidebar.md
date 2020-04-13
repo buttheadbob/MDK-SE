@@ -27,7 +27,7 @@
   * [The Minifier](The-Minifier)
   * [Text Panels and Drawing Sprites](Text-Panels-and-Drawing-Sprites)
   * [Antenna Communication (IGC)](Antenna-Communication-(IGC))
-    * [Handling Configuration and Storage](Handling-configuration-and-storage)
+  * [Handling Configuration and Storage](Handling-configuration-and-storage)
   * [The EntityId](The-Entity-Id)
   * [Debugging Your Scripts](Debugging-Your-Scripts)
       * [Debugging with dnSpy](Advanced-debugging-with-dnSpy)

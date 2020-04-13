@@ -1,5 +1,7 @@
 Sometimes you need to store information that must survive reloading or shutting down the game, or during recompilation of your script. The grid program currently provides only one way to do this: The `Storage` property. This property resides in your script's base class `MyGridProgram` and as such can be accessed by any method or property in your script - but not directly by any subclass (see [the bottom of this page](https://github.com/malware-dev/MDK-SE/wiki/The-Grid-Terminal-System#the-grid-terminal-system-and-subclasses) - "The Grid Terminal System and Subclasses" - for a way to get around that problem).
 
+(See [Handling configuration and storage](Handling-configuration-and-storage) for a more advanced and flexible way to deal with the actual data in Storage)
+
 The `Storage` property is simply a string property:
 ```csharp
 public void Save()

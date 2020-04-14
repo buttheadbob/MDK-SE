@@ -6,7 +6,6 @@ As always, you can get further help by asking in the #programming-in-game channe
 * [Configuring Text Surfaces](#configuring-text-surfaces)
 * [Fetching Text Surfaces And Preparing The Script](#fetching-text-surfaces-and-preparing-the-script)
 * [The Viewport](#the-viewport)
-    * [A Caveat...](#a-caveat)
 * [Drawing A Frame](#drawing-a-frame)
 * [Drawing Sprites](#drawing-sprites)
     * [Text Sprites](#text-sprites)

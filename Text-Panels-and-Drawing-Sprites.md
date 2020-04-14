@@ -17,7 +17,7 @@ As always, you can get further help by asking in the #programming-in-game channe
 
 ### Configuring Text Surfaces
 
-Every block with modifiable text surfaces will slow a list of text surfaces in the control panel.
+Every block with modifiable text surfaces will show a list of text surfaces in the control panel.
 
 ![Text Surface List](images/textsurface-list.jpg)
 

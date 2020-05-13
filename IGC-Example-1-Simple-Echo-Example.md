@@ -37,12 +37,12 @@ public void Main(string argument, UpdateType updateSource)
         }
     }
 
-    if( (updateSource& UpdateType.IGC) >0)
+    if( (updateSource & UpdateType.IGC) >0)
     { 
-        if (_myBroadcastListener.HasPendingMessage)
+        while (_myBroadcastListener.HasPendingMessage)
         {
             MyIGCMessage myIGCMessage = _myBroadcastListener.AcceptMessage();
-            if(myIGCMessage.Tag==_broadCastTag)
+            if(myIGCMessage.Tag ==_broadCastTag)
             { // This is our tag
                 if(myIGCMessage.Data is string)
                 {
@@ -140,12 +140,12 @@ We also Echo what we are sending for informational purposes.
 This is where the work happens on processing a message that is received.
 
 ```csharp
-    if( (updateSource& UpdateType.IGC) >0)
+    if( (updateSource & UpdateType.IGC) >0)
     { 
-        if (_myBroadcastListener.HasPendingMessage)
+        while (_myBroadcastListener.HasPendingMessage)
         {
             MyIGCMessage myIGCMessage = _myBroadcastListener.AcceptMessage();
-            if(myIGCMessage.Tag==_broadCastTag)
+            if(myIGCMessage.Tag ==_broadCastTag)
             { // This is our tag
                 if(myIGCMessage.Data is string)
                 {
@@ -164,7 +164,7 @@ if( (updateSource& UpdateType.IGC) >0)
 
 Then it checks if our broadcast channel has any pending incoming messages. Although this example only has one channel that it is listening to, it is a good habit to not assume which channel has the messages.
 ```csharp
-if (_myBroadcastListener.HasPendingMessage)
+while (_myBroadcastListener.HasPendingMessage)
 ```
 
 If there is, then we get the message that was sent using AcceptMessage().  This will remove the message from the incoming queue.
@@ -173,7 +173,7 @@ If there is, then we get the message that was sent using AcceptMessage().  This 
 ```
 We then check the message to verify that it has our broadcasttag. For broadcast channel, it should always be our tag because that is what the channel was set up to receive.  However, for unicast messages they can be for many different tags.  So it is a good idea to get in the habit of checking the tag in your code.
 ```csharp
-	if(myIGCMessage.Tag==_broadCastTag)
+	if(myIGCMessage.Tag ==_broadCastTag)
 ```
 
 We also check to verify that the data is a string like we expect.

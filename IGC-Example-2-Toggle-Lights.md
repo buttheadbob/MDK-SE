@@ -63,7 +63,7 @@ public void Main(string argument, UpdateType updateSource)
 
     if ((updateSource & UpdateType.IGC) > 0)
     { // script was run because of incoming IGC message
-        if (_myBroadcastListener.HasPendingMessage)
+        while (_myBroadcastListener.HasPendingMessage)
         {
             var myIGCMessage = _myBroadcastListener.AcceptMessage();
             if (myIGCMessage.Tag == _broadCastTag)

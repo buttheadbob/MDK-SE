@@ -24,7 +24,7 @@ There are two types of messages; broadcast and unicast.
 Check for messages existing on a channel with [.HasPendingMessages](https://github.com/malware-dev/MDK-SE/wiki/Sandbox.ModAPI.Ingame.IMyMessageProvider.HasPendingMessage).
 Get the next message in the channel with [.AcceptMessage](https://github.com/malware-dev/MDK-SE/wiki/Sandbox.ModAPI.Ingame.IMyMessageProvider.AcceptMessage)
 ```csharp
-if (_myBroadcastListener.HasPendingMessage)
+while (_myBroadcastListener.HasPendingMessage)
 {
     MyIGCMessage myIGCMessage = _myBroadcastListener.AcceptMessage();
 }

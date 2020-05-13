@@ -55,7 +55,7 @@ public void Main(string argument, UpdateType updateType)
 * `UpdateType.Terminal`:
   Called manually through the Terminal. An argument will be passed with this flag.
 
-* `UpdateType.ModApi`:
+* `UpdateType.Mod`:
   Called from a mod. An argument will be passed with this flag.
 
 * `UpdateType.IGC`:
@@ -77,7 +77,7 @@ public void Main(string argument, UpdateType updateType)
 
 ### More than one `UpdateType` per call
 
-Important consideration: The same way you can set multiple `Runtime.UpdateFrequency` flags, _More than one of the flags_ may be set at any one time. For example, if you have enabled both `Update1` and `Update100`, and they both happen to hit the same tick, `UpdateType` will have _both_ these values. The consequence of this is that we cannot use a simple `switch` to detect our sources. Instead, what we need to do, is to check if any given flag is set before running our logic related to that source.
+Important consideration: The same way you can set multiple `Runtime.UpdateFrequency` flags, _More than one of the flags_ may be set at any one time. For example, if you have enabled both `Update1` and `Update100`, and they both happen to hit the same tick, `[UpdateType](https://github.com/malware-dev/MDK-SE/wiki/Sandbox.ModAPI.Ingame.UpdateType)` will have _both_ these values. The consequence of this is that we cannot use a simple `switch` to detect our sources. Instead, what we need to do, is to check if any given flag is set before running our logic related to that source.
 
 ```csharp
 public void Main(string argument, UpdateType updateType)

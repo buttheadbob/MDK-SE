@@ -20,7 +20,10 @@ public interface IMyMotorAdvancedStator: IMyMotorStator, IMyMotorBase, IMyMechan
 
 **Type Definitions:**  
 * `MyObjectBuilder_MotorAdvancedStator/LargeAdvancedStator`  
-* `MyObjectBuilder_MotorAdvancedStator/SmallAdvancedStator`
+* `MyObjectBuilder_MotorAdvancedStator/SmallAdvancedStator`  
+* `MyObjectBuilder_MotorAdvancedStator/LargeHinge`  
+* `MyObjectBuilder_MotorAdvancedStator/MediumHinge`  
+* `MyObjectBuilder_MotorAdvancedStator/SmallHinge`
 
 #### Properties
 

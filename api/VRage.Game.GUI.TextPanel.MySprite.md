@@ -37,6 +37,8 @@ public struct MySprite: IEquatable<VRage.Game.GUI.TextPanel.MySprite>
 |---|---|
 |[CreateSprite(string, Vector2, Vector2)](VRage.Game.GUI.TextPanel.MySprite.CreateSprite)||
 |[CreateText(string, string, Color, float, TextAlignment)](VRage.Game.GUI.TextPanel.MySprite.CreateText)||
+|[CreateClipRect(Rectangle)](VRage.Game.GUI.TextPanel.MySprite.CreateClipRect)||
+|[CreateClearClipRect()](VRage.Game.GUI.TextPanel.MySprite.CreateClearClipRect)||
 |[Equals(MySprite)](VRage.Game.GUI.TextPanel.MySprite.Equals)||
 |[Equals(object)](VRage.Game.GUI.TextPanel.MySprite.Equals)||
 |[GetHashCode()](VRage.Game.GUI.TextPanel.MySprite.GetHashCode)||

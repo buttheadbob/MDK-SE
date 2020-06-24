@@ -129,4 +129,5 @@ Contains commonly used precalculated values.
 |[IsZero(Vector4)](VRageMath.MathHelper.IsZero)||
 |[Smooth(int, int)](VRageMath.MathHelper.Smooth)||
 |[Smooth(float, float)](VRageMath.MathHelper.Smooth)||
+|[Align(int, int)](VRageMath.MathHelper.Align)||
 

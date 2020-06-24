@@ -27,7 +27,15 @@ public interface IMyThrust: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, 
 * `MyObjectBuilder_Thrust/LargeBlockLargeAtmosphericThrust`  
 * `MyObjectBuilder_Thrust/LargeBlockSmallAtmosphericThrust`  
 * `MyObjectBuilder_Thrust/SmallBlockLargeAtmosphericThrust`  
-* `MyObjectBuilder_Thrust/SmallBlockSmallAtmosphericThrust`
+* `MyObjectBuilder_Thrust/SmallBlockSmallAtmosphericThrust`  
+* `MyObjectBuilder_Thrust/SmallBlockSmallThrustSciFi`  
+* `MyObjectBuilder_Thrust/SmallBlockLargeThrustSciFi`  
+* `MyObjectBuilder_Thrust/LargeBlockSmallThrustSciFi`  
+* `MyObjectBuilder_Thrust/LargeBlockLargeThrustSciFi`  
+* `MyObjectBuilder_Thrust/LargeBlockLargeAtmosphericThrustSciFi`  
+* `MyObjectBuilder_Thrust/LargeBlockSmallAtmosphericThrustSciFi`  
+* `MyObjectBuilder_Thrust/SmallBlockLargeAtmosphericThrustSciFi`  
+* `MyObjectBuilder_Thrust/SmallBlockSmallAtmosphericThrustSciFi`
 
 #### Properties
 

@@ -20,8 +20,6 @@ public interface IMyCockpit: IMyShipController, IMyTerminalBlock, IMyCubeBlock, 
 * [IMyCryoChamber](Sandbox.ModAPI.Ingame.IMyCryoChamber)
 
 **Type Definitions:**  
-* `MyObjectBuilder_Cockpit/PassengerSeatLarge`  
-* `MyObjectBuilder_Cockpit/PassengerSeatSmall`  
 * `MyObjectBuilder_Cockpit/LargeBlockCockpit`  
 * `MyObjectBuilder_Cockpit/LargeBlockCockpitSeat`  
 * `MyObjectBuilder_Cockpit/SmallBlockCockpit`  
@@ -29,6 +27,8 @@ public interface IMyCockpit: IMyShipController, IMyTerminalBlock, IMyCubeBlock, 
 * `MyObjectBuilder_Cockpit/CockpitOpen`  
 * `MyObjectBuilder_Cockpit/OpenCockpitSmall`  
 * `MyObjectBuilder_Cockpit/OpenCockpitLarge`  
+* `MyObjectBuilder_Cockpit/PassengerSeatLarge`  
+* `MyObjectBuilder_Cockpit/PassengerSeatSmall`  
 * `MyObjectBuilder_Cockpit/LargeBlockDesk`  
 * `MyObjectBuilder_Cockpit/LargeBlockDeskCorner`  
 * `MyObjectBuilder_Cockpit/LargeBlockCouch`  

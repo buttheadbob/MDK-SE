@@ -15,14 +15,14 @@ public interface IMyCargoContainer: IMyTerminalBlock, IMyCubeBlock, IMyEntity
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
 
 **Type Definitions:**  
+* `MyObjectBuilder_CargoContainer/LargeBlockLockerRoom`  
+* `MyObjectBuilder_CargoContainer/LargeBlockLockerRoomCorner`  
+* `MyObjectBuilder_CargoContainer/LargeBlockLockers`  
 * `MyObjectBuilder_CargoContainer/SmallBlockSmallContainer`  
 * `MyObjectBuilder_CargoContainer/SmallBlockMediumContainer`  
 * `MyObjectBuilder_CargoContainer/SmallBlockLargeContainer`  
 * `MyObjectBuilder_CargoContainer/LargeBlockSmallContainer`  
-* `MyObjectBuilder_CargoContainer/LargeBlockLargeContainer`  
-* `MyObjectBuilder_CargoContainer/LargeBlockLockerRoom`  
-* `MyObjectBuilder_CargoContainer/LargeBlockLockerRoomCorner`  
-* `MyObjectBuilder_CargoContainer/LargeBlockLockers`
+* `MyObjectBuilder_CargoContainer/LargeBlockLargeContainer`
 
 #### Properties
 

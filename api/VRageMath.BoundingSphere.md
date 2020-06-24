@@ -64,4 +64,5 @@ Defines a sphere.
 |[Include(BoundingSphere)](VRageMath.BoundingSphere.Include)||
 |[Include(ref BoundingSphere, ref BoundingSphere)](VRageMath.BoundingSphere.Include)||
 |[CreateInvalid()](VRageMath.BoundingSphere.CreateInvalid)||
+|[GetBoundingBox()](VRageMath.BoundingSphere.GetBoundingBox)||
 

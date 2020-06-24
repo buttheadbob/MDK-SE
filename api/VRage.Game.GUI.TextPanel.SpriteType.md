@@ -15,4 +15,5 @@ public enum SpriteType
 |---|---|
 |TEXTURE||
 |TEXT||
+|CLIP_RECT||
 

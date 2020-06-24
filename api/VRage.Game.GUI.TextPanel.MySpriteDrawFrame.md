@@ -22,6 +22,7 @@ public struct MySpriteDrawFrame: IDisposable
 
 |Member|Description|
 |---|---|
+|[Clip(int, int, int, int)](VRage.Game.GUI.TextPanel.MySpriteDrawFrame.Clip)||
 |[Add(MySprite)](VRage.Game.GUI.TextPanel.MySpriteDrawFrame.Add)||
 |[AddRange(IEnumerable)](VRage.Game.GUI.TextPanel.MySpriteDrawFrame.AddRange)||
 |[ToCollection()](VRage.Game.GUI.TextPanel.MySpriteDrawFrame.ToCollection)||

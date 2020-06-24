@@ -22,6 +22,7 @@ Dynamic aabb tree implementation as a prunning structure
 |Member|Description|
 |---|---|
 |[Leaves { get; }](VRageMath.MyDynamicAABBTree.Leaves)||
+|[Nodes { get; }](VRageMath.MyDynamicAABBTree.Nodes)||
 
 #### Constructors
 

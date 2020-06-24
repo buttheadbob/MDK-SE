@@ -63,4 +63,5 @@ Defines a sphere.
 |[RandomToUniformPointInSphere(double, double, double)](VRageMath.BoundingSphereD.RandomToUniformPointInSphere)||
 |[RandomToUniformPointInSphereWithInnerCutout(double, double, double, double)](VRageMath.BoundingSphereD.RandomToUniformPointInSphereWithInnerCutout)|Similar to RandomToUniformPointInSphere(...) but excludes points within distance of cutoutRadius from center. (Results are randomly distributed in the shape that remains from sphere that had another sphere cut out from center. )|
 |[RandomToUniformPointOnSphere(double, double)](VRageMath.BoundingSphereD.RandomToUniformPointOnSphere)||
+|[GetBoundingBox()](VRageMath.BoundingSphereD.GetBoundingBox)||
 

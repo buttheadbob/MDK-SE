@@ -231,6 +231,7 @@ This index contains all types and members available to ingame scripting - with e
 [MySprite](VRage.Game.GUI.TextPanel.MySprite)  
 [MySpriteCollection](VRage.Game.GUI.TextPanel.MySpriteCollection)  
 [MySpriteDrawFrame](VRage.Game.GUI.TextPanel.MySpriteDrawFrame)  
+[MySpriteDrawFrame.ClearClipToken](VRage.Game.GUI.TextPanel.MySpriteDrawFrame+ClearClipToken)  
 [ShowTextOnScreenFlag](VRage.Game.GUI.TextPanel.ShowTextOnScreenFlag)  
 [SpriteType](VRage.Game.GUI.TextPanel.SpriteType)  
 [TextAlignment](VRage.Game.GUI.TextPanel.TextAlignment)  

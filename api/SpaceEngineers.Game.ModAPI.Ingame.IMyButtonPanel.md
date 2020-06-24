@@ -16,7 +16,9 @@ public interface IMyButtonPanel: IMyTerminalBlock, IMyCubeBlock, IMyEntity
 
 **Type Definitions:**  
 * `MyObjectBuilder_ButtonPanel/ButtonPanelLarge`  
-* `MyObjectBuilder_ButtonPanel/ButtonPanelSmall`
+* `MyObjectBuilder_ButtonPanel/ButtonPanelSmall`  
+* `MyObjectBuilder_ButtonPanel/LargeSciFiButtonTerminal`  
+* `MyObjectBuilder_ButtonPanel/LargeSciFiButtonPanel`
 
 #### Properties
 

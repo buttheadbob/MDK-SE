@@ -24,7 +24,9 @@ public interface IMyDoor: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IM
 **Type Definitions:**  
 * `MyObjectBuilder_Door/LargeBlockGate`  
 * `MyObjectBuilder_Door/LargeBlockOffsetDoor`  
-* `MyObjectBuilder_Door/`
+* `MyObjectBuilder_Door/`  
+* `MyObjectBuilder_Door/SmallDoor`  
+* `MyObjectBuilder_Door/SmallSideDoor`
 
 #### Properties
 

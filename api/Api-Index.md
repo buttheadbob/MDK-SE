@@ -331,6 +331,7 @@ Currently ungrouped types
 [MySprite](VRage.Game.GUI.TextPanel.MySprite)  
 [MySpriteCollection](VRage.Game.GUI.TextPanel.MySpriteCollection)  
 [MySpriteDrawFrame](VRage.Game.GUI.TextPanel.MySpriteDrawFrame)  
+[MySpriteDrawFrame.ClearClipToken](VRage.Game.GUI.TextPanel.MySpriteDrawFrame+ClearClipToken)  
 [MyStoreInsertResults](Sandbox.ModAPI.Ingame.MyStoreInsertResults)  
 [MyStoreItemDataSimple](VRage.Game.ModAPI.Ingame.MyStoreItemDataSimple)  
 [MyStoreQueryItem](Sandbox.ModAPI.Ingame.MyStoreQueryItem)  

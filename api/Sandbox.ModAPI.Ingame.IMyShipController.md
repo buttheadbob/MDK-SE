@@ -21,7 +21,8 @@ public interface IMyShipController: IMyTerminalBlock, IMyCubeBlock, IMyEntity
 
 **Type Definitions:**  
 * `MyObjectBuilder_TerminalBlock/ControlPanel`  
-* `MyObjectBuilder_TerminalBlock/SmallControlPanel`
+* `MyObjectBuilder_TerminalBlock/SmallControlPanel`  
+* `MyObjectBuilder_TerminalBlock/LargeBlockSciFiTerminal`
 
 #### Properties
 

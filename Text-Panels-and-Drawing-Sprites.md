@@ -314,6 +314,28 @@ public void DrawSprites(ref MySpriteDrawFrame frame)
     frame.Add(sprite);
 }
 ```
+There is an alternative way to set the clipping rectangle, depending on your needs. It can also be done this way:
+
+```cs
+using (frame.Clip(0, (int)position.Y - 16, (int)position.X, (int)position.Y + 16))
+{
+    // Create our second line, we'll just reuse our previous sprite variable - this is not necessary, just
+    // a simplification in this case.
+    sprite = new MySprite
+    {
+        Type = SpriteType.TEXT,
+        Data = "Line 2",
+        Position = position,
+        RotationOrScale = 0.8f,
+        Color = Color.Blue,
+        Alignment = TextAlignment.CENTER,
+        FontId = "White"
+    };
+    // Add the sprite to the frame
+    frame.Add(sprite);
+}
+```
+This will add the specified clipping sprite to the frame, and when the scope of the using exits, it will add a clear clip sprite.
 
 ### The Color Settings
 

@@ -233,7 +233,7 @@ public void DrawSprites(ref MySpriteDrawFrame frame)
 ```
 #### Clipping Sprites
 
-The final sprite type is a _clipping sprite._ This is a special type of sprite that allows you to create a rectangular area where everything _outside_ of it will be rejected by the renderer. Take the following code segment:
+The final sprite type is a _clipping sprite._ This is a special type of sprite that allows you to create a rectangular area where any pixels _outside_ of it will be rejected by the renderer. Take the following code segment:
 
 ```csharp
 // Here we add our clipping sprite. This is a simple rectangle. Nothing will be drawn outside it.

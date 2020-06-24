@@ -6,13 +6,9 @@
 public MyStoreInsertResults InsertOrder(MyStoreItemDataSimple item, out long id)
 ```
 
-Creates store item order and returns its id.
-
 ### Returns
 
 [MyStoreInsertResults](Sandbox.ModAPI.Ingame.MyStoreInsertResults)
-
-Result of the creation of the store item.
 
 ### Parameters
 

@@ -55,18 +55,18 @@ public interface IMyRefinery: IMyProductionBlock, IMyFunctionalBlock, IMyTermina
 |[CustomNameWithFaction { get; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomNameWithFaction)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[DetailedInfo { get; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.DetailedInfo)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[CustomInfo { get; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomInfo)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
-|[CustomData { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomData)|Gets or sets the Custom Data string. NOTE: Only use this for user input. For storing large mod configs, create your own MyModStorageComponent<br /><br />_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
+|[CustomData { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomData)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[ShowOnHUD { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowOnHUD)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[ShowInTerminal { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInTerminal)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[ShowInToolbarConfig { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInToolbarConfig)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[ShowInInventory { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[Enabled { get; set; }](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.Enabled)|_Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_|
-|[InputInventory { get; }](Sandbox.ModAPI.Ingame.IMyProductionBlock.InputInventory)|Gets the input inventory.<br /><br />_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
-|[OutputInventory { get; }](Sandbox.ModAPI.Ingame.IMyProductionBlock.OutputInventory)|Gets the output inventory.<br /><br />_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
-|[IsProducing { get; }](Sandbox.ModAPI.Ingame.IMyProductionBlock.IsProducing)|The device is currently producing.<br /><br />_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
-|[IsQueueEmpty { get; }](Sandbox.ModAPI.Ingame.IMyProductionBlock.IsQueueEmpty)|The production queue is empty.<br /><br />_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
-|[NextItemId { get; }](Sandbox.ModAPI.Ingame.IMyProductionBlock.NextItemId)|Gets the queue item ID of the next item to be produced.<br /><br />_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
-|[UseConveyorSystem { get; set; }](Sandbox.ModAPI.Ingame.IMyProductionBlock.UseConveyorSystem)|Gets or sets whether this device should use the conveyor system to retrieve and store items.<br /><br />_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
+|[InputInventory { get; }](Sandbox.ModAPI.Ingame.IMyProductionBlock.InputInventory)|_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
+|[OutputInventory { get; }](Sandbox.ModAPI.Ingame.IMyProductionBlock.OutputInventory)|_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
+|[IsProducing { get; }](Sandbox.ModAPI.Ingame.IMyProductionBlock.IsProducing)|_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
+|[IsQueueEmpty { get; }](Sandbox.ModAPI.Ingame.IMyProductionBlock.IsQueueEmpty)|_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
+|[NextItemId { get; }](Sandbox.ModAPI.Ingame.IMyProductionBlock.NextItemId)|_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
+|[UseConveyorSystem { get; set; }](Sandbox.ModAPI.Ingame.IMyProductionBlock.UseConveyorSystem)|_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
 
 #### Methods
 
@@ -89,19 +89,19 @@ public interface IMyRefinery: IMyProductionBlock, IMyFunctionalBlock, IMyTermina
 |[GetActionWithName(string)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActionWithName)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[GetProperty(string)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetProperty)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[GetProperties(List, Func)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetProperties)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
-|[IsSameConstructAs(IMyTerminalBlock)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.IsSameConstructAs)|Determines whether this block is mechanically connected to the other. This is any block connected with rotors or pistons or other mechanical devices, but not things like connectors. This will in most cases constitute your complete construct.<br /><br />Be aware that using merge blocks combines grids into one, so this function will not filter out grids connected that way. Also be aware that detaching the heads of pistons and rotors will cause this connection to change.<br /><br />_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
+|[IsSameConstructAs(IMyTerminalBlock)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.IsSameConstructAs)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[RequestEnable(bool)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)|_**Obsolete:** Use the setter of Enabled_<br /><br />_Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_|
-|[MoveQueueItemRequest(uint, int)](Sandbox.ModAPI.Ingame.IMyProductionBlock.MoveQueueItemRequest)|Moves an item in the queue to a target position in the queue.<br /><br />_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
-|[CanUseBlueprint(MyDefinitionId)](Sandbox.ModAPI.Ingame.IMyProductionBlock.CanUseBlueprint)|Can this production block produce this blueprint?<br /><br />_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
-|[AddQueueItem(MyDefinitionId, MyFixedPoint)](Sandbox.ModAPI.Ingame.IMyProductionBlock.AddQueueItem)|Adds a blueprint to the production queue<br /><br />_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
-|[AddQueueItem(MyDefinitionId, decimal)](Sandbox.ModAPI.Ingame.IMyProductionBlock.AddQueueItem)|Adds a blueprint to the production queue<br /><br />_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
-|[AddQueueItem(MyDefinitionId, double)](Sandbox.ModAPI.Ingame.IMyProductionBlock.AddQueueItem)|Adds a blueprint to the production queue<br /><br />_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
-|[InsertQueueItem(int, MyDefinitionId, MyFixedPoint)](Sandbox.ModAPI.Ingame.IMyProductionBlock.InsertQueueItem)|Inserts a blueprint into the production queue<br /><br />_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
-|[InsertQueueItem(int, MyDefinitionId, decimal)](Sandbox.ModAPI.Ingame.IMyProductionBlock.InsertQueueItem)|Inserts a blueprint into the production queue<br /><br />_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
-|[InsertQueueItem(int, MyDefinitionId, double)](Sandbox.ModAPI.Ingame.IMyProductionBlock.InsertQueueItem)|Inserts a blueprint into the production queue<br /><br />_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
-|[RemoveQueueItem(int, MyFixedPoint)](Sandbox.ModAPI.Ingame.IMyProductionBlock.RemoveQueueItem)|Removes an item from the queue<br /><br />_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
-|[RemoveQueueItem(int, decimal)](Sandbox.ModAPI.Ingame.IMyProductionBlock.RemoveQueueItem)|Removes an item from the queue<br /><br />_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
-|[RemoveQueueItem(int, double)](Sandbox.ModAPI.Ingame.IMyProductionBlock.RemoveQueueItem)|Removes an item from the queue<br /><br />_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
-|[ClearQueue()](Sandbox.ModAPI.Ingame.IMyProductionBlock.ClearQueue)|Clears the Queue<br /><br />_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
-|[GetQueue(List)](Sandbox.ModAPI.Ingame.IMyProductionBlock.GetQueue)|Gets the current production queue<br /><br />_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
+|[MoveQueueItemRequest(uint, int)](Sandbox.ModAPI.Ingame.IMyProductionBlock.MoveQueueItemRequest)|_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
+|[CanUseBlueprint(MyDefinitionId)](Sandbox.ModAPI.Ingame.IMyProductionBlock.CanUseBlueprint)|_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
+|[AddQueueItem(MyDefinitionId, MyFixedPoint)](Sandbox.ModAPI.Ingame.IMyProductionBlock.AddQueueItem)|_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
+|[AddQueueItem(MyDefinitionId, decimal)](Sandbox.ModAPI.Ingame.IMyProductionBlock.AddQueueItem)|_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
+|[AddQueueItem(MyDefinitionId, double)](Sandbox.ModAPI.Ingame.IMyProductionBlock.AddQueueItem)|_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
+|[InsertQueueItem(int, MyDefinitionId, MyFixedPoint)](Sandbox.ModAPI.Ingame.IMyProductionBlock.InsertQueueItem)|_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
+|[InsertQueueItem(int, MyDefinitionId, decimal)](Sandbox.ModAPI.Ingame.IMyProductionBlock.InsertQueueItem)|_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
+|[InsertQueueItem(int, MyDefinitionId, double)](Sandbox.ModAPI.Ingame.IMyProductionBlock.InsertQueueItem)|_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
+|[RemoveQueueItem(int, MyFixedPoint)](Sandbox.ModAPI.Ingame.IMyProductionBlock.RemoveQueueItem)|_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
+|[RemoveQueueItem(int, decimal)](Sandbox.ModAPI.Ingame.IMyProductionBlock.RemoveQueueItem)|_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
+|[RemoveQueueItem(int, double)](Sandbox.ModAPI.Ingame.IMyProductionBlock.RemoveQueueItem)|_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
+|[ClearQueue()](Sandbox.ModAPI.Ingame.IMyProductionBlock.ClearQueue)|_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
+|[GetQueue(List)](Sandbox.ModAPI.Ingame.IMyProductionBlock.GetQueue)|_Inherited from [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)_|
 

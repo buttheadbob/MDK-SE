@@ -6,5 +6,3 @@
 public void Disconnect()
 ```
 
-Disconnects this connector.
-

@@ -6,5 +6,3 @@
 public void Extend()
 ```
 
-Extends the piston.
-

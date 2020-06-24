@@ -13,21 +13,21 @@ public struct MyDetectedEntityInfo
 
 |Member|Description|
 |---|---|
-|[EntityId](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo.EntityId)|The entity's EntityId|
-|[Name](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo.Name)|The entity's display name if it is friendly, or a generic descriptor if it is not|
-|[Type](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo.Type)|Enum describing the type of entity|
-|[HitPosition](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo.HitPosition)|Position where the raycast hit the entity. (can be null if the sensor didn't use a raycast)|
-|[Orientation](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo.Orientation)|The entity's absolute orientation at the time it was detected|
-|[Velocity](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo.Velocity)|The entity's absolute velocity at the time it was detected|
-|[Relationship](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo.Relationship)|Relationship between the entity and the owner of the sensor|
-|[BoundingBox](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo.BoundingBox)|The entity's world-aligned bounding box|
-|[TimeStamp](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo.TimeStamp)|Time when the entity was detected. This field counts milliseconds, compensated for simspeed|
+|[EntityId](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo.EntityId)||
+|[Name](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo.Name)||
+|[Type](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo.Type)||
+|[HitPosition](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo.HitPosition)||
+|[Orientation](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo.Orientation)||
+|[Velocity](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo.Velocity)||
+|[Relationship](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo.Relationship)||
+|[BoundingBox](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo.BoundingBox)||
+|[TimeStamp](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo.TimeStamp)||
 
 #### Properties
 
 |Member|Description|
 |---|---|
-|[Position { get; }](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo.Position)|The entity's position (center of the Bounding Box)|
+|[Position { get; }](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo.Position)||
 
 #### Constructors
 
@@ -39,5 +39,5 @@ public struct MyDetectedEntityInfo
 
 |Member|Description|
 |---|---|
-|[IsEmpty()](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo.IsEmpty)|Determines if this structure is empty; meaning it does not contain any meaningful data|
+|[IsEmpty()](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo.IsEmpty)||
 

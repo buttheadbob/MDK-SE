@@ -23,26 +23,26 @@ public interface IMySensorBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBl
 
 |Member|Description|
 |---|---|
-|[MaxRange { get; }](Sandbox.ModAPI.Ingame.IMySensorBlock.MaxRange)|Gets the maximum range of the sensor in any direction.|
-|[LeftExtend { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.LeftExtend)|Gets or sets the left range of the sensor.|
-|[RightExtend { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.RightExtend)|Gets or sets the right range of the sensor.|
-|[TopExtend { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.TopExtend)|Gets or sets the top range of the sensor.|
-|[BottomExtend { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.BottomExtend)|Gets or sets the bottom range of the sensor.|
-|[FrontExtend { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.FrontExtend)|Gets or sets the front range of the sensor.|
-|[BackExtend { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.BackExtend)|Gets or sets the back range of the sensor.|
-|[PlayProximitySound { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.PlayProximitySound)|Gets or sets if the proximity sound plays when an entity is detected.|
-|[DetectPlayers { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectPlayers)|Gets or sets if the sensor should detect players.|
-|[DetectFloatingObjects { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectFloatingObjects)|Gets or sets if the sensor should detect floating objects (components, rocks).|
-|[DetectSmallShips { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectSmallShips)|Gets or sets if the sensor should detect small ships.|
-|[DetectLargeShips { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectLargeShips)|Gets or sets if the sensor should detect large ships.|
-|[DetectStations { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectStations)|Gets or sets if the sensor should detect large stations.|
-|[DetectSubgrids { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectSubgrids)|Gets or sets if the sensor should detect subgrids (eg. connected by connector).|
-|[DetectAsteroids { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectAsteroids)|Gets or sets if the sensor should detect asteroids or planets.|
-|[DetectOwner { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectOwner)|Gets or sets if the sensor should detect the block owner.|
-|[DetectFriendly { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectFriendly)|Gets or sets if the sensor should detect friendly players.|
-|[DetectNeutral { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectNeutral)|Gets or sets if the sensor should detect neutral players.|
-|[DetectEnemy { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectEnemy)|Gets or sets if the sensor should detect enemy players.|
-|[IsActive { get; }](Sandbox.ModAPI.Ingame.IMySensorBlock.IsActive)|Gets if there is any entity currently being detected.|
+|[MaxRange { get; }](Sandbox.ModAPI.Ingame.IMySensorBlock.MaxRange)||
+|[LeftExtend { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.LeftExtend)||
+|[RightExtend { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.RightExtend)||
+|[TopExtend { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.TopExtend)||
+|[BottomExtend { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.BottomExtend)||
+|[FrontExtend { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.FrontExtend)||
+|[BackExtend { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.BackExtend)||
+|[PlayProximitySound { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.PlayProximitySound)||
+|[DetectPlayers { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectPlayers)||
+|[DetectFloatingObjects { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectFloatingObjects)||
+|[DetectSmallShips { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectSmallShips)||
+|[DetectLargeShips { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectLargeShips)||
+|[DetectStations { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectStations)||
+|[DetectSubgrids { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectSubgrids)||
+|[DetectAsteroids { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectAsteroids)||
+|[DetectOwner { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectOwner)||
+|[DetectFriendly { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectFriendly)||
+|[DetectNeutral { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectNeutral)||
+|[DetectEnemy { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectEnemy)||
+|[IsActive { get; }](Sandbox.ModAPI.Ingame.IMySensorBlock.IsActive)||
 |[LastDetectedEntity { get; }](Sandbox.ModAPI.Ingame.IMySensorBlock.LastDetectedEntity)||
 |[Components { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Components)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[EntityId { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.EntityId)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
@@ -75,7 +75,7 @@ public interface IMySensorBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBl
 |[CustomNameWithFaction { get; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomNameWithFaction)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[DetailedInfo { get; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.DetailedInfo)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[CustomInfo { get; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomInfo)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
-|[CustomData { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomData)|Gets or sets the Custom Data string. NOTE: Only use this for user input. For storing large mod configs, create your own MyModStorageComponent<br /><br />_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
+|[CustomData { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomData)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[ShowOnHUD { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowOnHUD)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[ShowInTerminal { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInTerminal)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[ShowInToolbarConfig { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInToolbarConfig)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
@@ -104,6 +104,6 @@ public interface IMySensorBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBl
 |[GetActionWithName(string)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActionWithName)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[GetProperty(string)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetProperty)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[GetProperties(List, Func)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetProperties)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
-|[IsSameConstructAs(IMyTerminalBlock)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.IsSameConstructAs)|Determines whether this block is mechanically connected to the other. This is any block connected with rotors or pistons or other mechanical devices, but not things like connectors. This will in most cases constitute your complete construct.<br /><br />Be aware that using merge blocks combines grids into one, so this function will not filter out grids connected that way. Also be aware that detaching the heads of pistons and rotors will cause this connection to change.<br /><br />_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
+|[IsSameConstructAs(IMyTerminalBlock)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.IsSameConstructAs)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[RequestEnable(bool)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)|_**Obsolete:** Use the setter of Enabled_<br /><br />_Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_|
 

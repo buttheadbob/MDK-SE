@@ -6,8 +6,6 @@
 public Vector3D TargetCoords { get; }
 ```
 
-get target coordinates
-
 ### Returns
 
 [Vector3D](VRageMath.Vector3D)

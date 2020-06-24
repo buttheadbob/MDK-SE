@@ -6,8 +6,6 @@
 public float TextPadding { get; set; }
 ```
 
-Text padding from all sides of the panel.
-
 ### Returns
 
 [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6)

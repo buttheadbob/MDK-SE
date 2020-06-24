@@ -24,8 +24,8 @@ public interface IMyConveyorSorter: IMyFunctionalBlock, IMyTerminalBlock, IMyCub
 
 |Member|Description|
 |---|---|
-|[DrainAll { get; set; }](Sandbox.ModAPI.Ingame.IMyConveyorSorter.DrainAll)|Determines whether the sorter should drain any inventories connected to it and push them to the other side - as long as the items passes the filtering as defined by the filter list ( [GetFilterList(List<Sandbox.ModAPI.Ingame.MyInventoryItemFilter>)](Sandbox.ModAPI.Ingame.IMyConveyorSorter.GetFilterList) ) and [Mode](Sandbox.ModAPI.Ingame.IMyConveyorSorter.Mode) .|
-|[Mode { get; }](Sandbox.ModAPI.Ingame.IMyConveyorSorter.Mode)|Determines the current mode of this sorter. Use SetWhitelist or SetBlacklist to change the mode.|
+|[DrainAll { get; set; }](Sandbox.ModAPI.Ingame.IMyConveyorSorter.DrainAll)||
+|[Mode { get; }](Sandbox.ModAPI.Ingame.IMyConveyorSorter.Mode)||
 |[Components { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Components)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[EntityId { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.EntityId)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[Name { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Name)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
@@ -57,7 +57,7 @@ public interface IMyConveyorSorter: IMyFunctionalBlock, IMyTerminalBlock, IMyCub
 |[CustomNameWithFaction { get; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomNameWithFaction)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[DetailedInfo { get; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.DetailedInfo)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[CustomInfo { get; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomInfo)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
-|[CustomData { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomData)|Gets or sets the Custom Data string. NOTE: Only use this for user input. For storing large mod configs, create your own MyModStorageComponent<br /><br />_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
+|[CustomData { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomData)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[ShowOnHUD { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowOnHUD)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[ShowInTerminal { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInTerminal)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[ShowInToolbarConfig { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInToolbarConfig)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
@@ -68,11 +68,11 @@ public interface IMyConveyorSorter: IMyFunctionalBlock, IMyTerminalBlock, IMyCub
 
 |Member|Description|
 |---|---|
-|[GetFilterList(List)](Sandbox.ModAPI.Ingame.IMyConveyorSorter.GetFilterList)|Gets the items currently being allowed through or rejected, depending on the [Mode](Sandbox.ModAPI.Ingame.IMyConveyorSorter.Mode) .|
-|[AddItem(MyInventoryItemFilter)](Sandbox.ModAPI.Ingame.IMyConveyorSorter.AddItem)|Adds a single item to the filter list. See [SetFilter(MyConveyorSorterMode, List<Sandbox.ModAPI.Ingame.MyInventoryItemFilter>)](Sandbox.ModAPI.Ingame.IMyConveyorSorter.SetFilter) to change the filter mode and/or fill the entire list in one go.|
-|[RemoveItem(MyInventoryItemFilter)](Sandbox.ModAPI.Ingame.IMyConveyorSorter.RemoveItem)|Removes a single item from the filter list. See [SetFilter(MyConveyorSorterMode, List<Sandbox.ModAPI.Ingame.MyInventoryItemFilter>)](Sandbox.ModAPI.Ingame.IMyConveyorSorter.SetFilter) to change the filter mode and/or clear the entire list in one go.|
-|[IsAllowed(MyDefinitionId)](Sandbox.ModAPI.Ingame.IMyConveyorSorter.IsAllowed)|Determines whether a given item type is allowed through the sorter, depending on the filter list ( [GetFilterList(List<Sandbox.ModAPI.Ingame.MyInventoryItemFilter>)](Sandbox.ModAPI.Ingame.IMyConveyorSorter.GetFilterList) ) and [Mode](Sandbox.ModAPI.Ingame.IMyConveyorSorter.Mode) .|
-|[SetFilter(MyConveyorSorterMode, List)](Sandbox.ModAPI.Ingame.IMyConveyorSorter.SetFilter)|Changes the sorter to desired mode and filters the provided items. You can pass in`null`to empty the list.|
+|[GetFilterList(List)](Sandbox.ModAPI.Ingame.IMyConveyorSorter.GetFilterList)||
+|[AddItem(MyInventoryItemFilter)](Sandbox.ModAPI.Ingame.IMyConveyorSorter.AddItem)||
+|[RemoveItem(MyInventoryItemFilter)](Sandbox.ModAPI.Ingame.IMyConveyorSorter.RemoveItem)||
+|[IsAllowed(MyDefinitionId)](Sandbox.ModAPI.Ingame.IMyConveyorSorter.IsAllowed)||
+|[SetFilter(MyConveyorSorterMode, List)](Sandbox.ModAPI.Ingame.IMyConveyorSorter.SetFilter)||
 |[GetInventory()](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)|Simply get the MyInventoryBase component stored in this entity.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[GetInventory(int)](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)|Search for inventory component with maching index.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[GetPosition()](VRage.Game.ModAPI.Ingame.IMyEntity.GetPosition)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
@@ -90,6 +90,6 @@ public interface IMyConveyorSorter: IMyFunctionalBlock, IMyTerminalBlock, IMyCub
 |[GetActionWithName(string)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActionWithName)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[GetProperty(string)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetProperty)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[GetProperties(List, Func)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetProperties)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
-|[IsSameConstructAs(IMyTerminalBlock)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.IsSameConstructAs)|Determines whether this block is mechanically connected to the other. This is any block connected with rotors or pistons or other mechanical devices, but not things like connectors. This will in most cases constitute your complete construct.<br /><br />Be aware that using merge blocks combines grids into one, so this function will not filter out grids connected that way. Also be aware that detaching the heads of pistons and rotors will cause this connection to change.<br /><br />_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
+|[IsSameConstructAs(IMyTerminalBlock)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.IsSameConstructAs)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[RequestEnable(bool)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)|_**Obsolete:** Use the setter of Enabled_<br /><br />_Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_|
 

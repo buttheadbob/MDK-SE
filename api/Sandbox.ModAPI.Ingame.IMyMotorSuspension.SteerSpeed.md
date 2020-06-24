@@ -6,8 +6,6 @@
 public float SteerSpeed { get; }
 ```
 
-Speed at which wheel steers.
-
 ### Returns
 
 [float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6)

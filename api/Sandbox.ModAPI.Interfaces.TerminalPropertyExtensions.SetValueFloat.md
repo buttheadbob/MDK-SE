@@ -6,8 +6,6 @@
 public static void SetValueFloat(this IMyTerminalBlock block, string propertyId, float value)
 ```
 
-Set float value of property
-
 ### Parameters
 
 * [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock) block

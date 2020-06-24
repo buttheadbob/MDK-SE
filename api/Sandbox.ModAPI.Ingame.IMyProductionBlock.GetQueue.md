@@ -6,8 +6,6 @@
 public void GetQueue(List<Sandbox.ModAPI.Ingame.MyProductionItem> items)
 ```
 
-Gets the current production queue
-
 ### Parameters
 
 * [List<Sandbox.ModAPI.Ingame.MyProductionItem>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) items

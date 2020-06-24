@@ -44,13 +44,13 @@ public interface IMyMotorSuspension: IMyMotorBase, IMyMechanicalConnectionBlock,
 |[Friction { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.Friction)||
 |[Power { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.Power)||
 |[Height { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.Height)||
-|[SteerAngle { get; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.SteerAngle)|Wheel's current steering angle|
-|[MaxSteerAngle { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.MaxSteerAngle)|Max steering angle in radians.|
-|[SteerSpeed { get; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.SteerSpeed)|_**Obsolete**_<br /><br />Speed at which wheel steers.|
-|[SteerReturnSpeed { get; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.SteerReturnSpeed)|_**Obsolete**_<br /><br />Speed at which wheel returns from steering.|
-|[SuspensionTravel { get; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.SuspensionTravel)|_**Obsolete**_<br /><br />Suspension travel, value from 0 to 1.|
-|[Brake { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.Brake)|Gets or sets brake applied to the wheel.|
-|[AirShockEnabled { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.AirShockEnabled)|Enables or disalbes AirShock function.|
+|[SteerAngle { get; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.SteerAngle)||
+|[MaxSteerAngle { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.MaxSteerAngle)||
+|[SteerSpeed { get; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.SteerSpeed)|_**Obsolete**_|
+|[SteerReturnSpeed { get; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.SteerReturnSpeed)|_**Obsolete**_|
+|[SuspensionTravel { get; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.SuspensionTravel)|_**Obsolete**_|
+|[Brake { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.Brake)||
+|[AirShockEnabled { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.AirShockEnabled)||
 |[Components { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Components)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[EntityId { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.EntityId)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[Name { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Name)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
@@ -82,19 +82,19 @@ public interface IMyMotorSuspension: IMyMotorBase, IMyMechanicalConnectionBlock,
 |[CustomNameWithFaction { get; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomNameWithFaction)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[DetailedInfo { get; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.DetailedInfo)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[CustomInfo { get; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomInfo)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
-|[CustomData { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomData)|Gets or sets the Custom Data string. NOTE: Only use this for user input. For storing large mod configs, create your own MyModStorageComponent<br /><br />_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
+|[CustomData { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomData)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[ShowOnHUD { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowOnHUD)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[ShowInTerminal { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInTerminal)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[ShowInToolbarConfig { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInToolbarConfig)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[ShowInInventory { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[Enabled { get; set; }](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.Enabled)|_Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_|
-|[TopGrid { get; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.TopGrid)|Gets the grid of the attached top part<br /><br />_Inherited from [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)_|
-|[Top { get; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.Top)|Gets the attached top part entity<br /><br />_Inherited from [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)_|
-|[SafetyLockSpeed { get; set; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.SafetyLockSpeed)|_**Obsolete:** SafetyLock is no longer supported. This is property dummy property only, for backwards compatibility._<br /><br />Gets or sets the speed at which this device will engage it's safety lock ( [IsLocked](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.IsLocked) ).<br /><br />_Inherited from [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)_|
-|[SafetyLock { get; set; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.SafetyLock)|_**Obsolete:** SafetyLock is no longer supported. This is property dummy property only, for backwards compatibility._<br /><br />Gets if the block is safety locked (welded)<br /><br />_Inherited from [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)_|
-|[IsAttached { get; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.IsAttached)|Gets if the block base is attached to something<br /><br />_Inherited from [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)_|
-|[IsLocked { get; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.IsLocked)|_**Obsolete:** SafetyLock is no longer supported. This is property dummy property only, for backwards compatibility._<br /><br />Gets if the block is safety locked (welded)<br /><br />_Inherited from [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)_|
-|[PendingAttachment { get; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.PendingAttachment)|Gets if the block is looking for a top part<br /><br />_Inherited from [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)_|
+|[TopGrid { get; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.TopGrid)|_Inherited from [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)_|
+|[Top { get; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.Top)|_Inherited from [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)_|
+|[SafetyLockSpeed { get; set; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.SafetyLockSpeed)|_**Obsolete:** SafetyLock is no longer supported. This is property dummy property only, for backwards compatibility._<br /><br />_Inherited from [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)_|
+|[SafetyLock { get; set; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.SafetyLock)|_**Obsolete:** SafetyLock is no longer supported. This is property dummy property only, for backwards compatibility._<br /><br />_Inherited from [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)_|
+|[IsAttached { get; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.IsAttached)|_Inherited from [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)_|
+|[IsLocked { get; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.IsLocked)|_**Obsolete:** SafetyLock is no longer supported. This is property dummy property only, for backwards compatibility._<br /><br />_Inherited from [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)_|
+|[PendingAttachment { get; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.PendingAttachment)|_Inherited from [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)_|
 
 #### Methods
 
@@ -117,8 +117,8 @@ public interface IMyMotorSuspension: IMyMotorBase, IMyMechanicalConnectionBlock,
 |[GetActionWithName(string)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActionWithName)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[GetProperty(string)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetProperty)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[GetProperties(List, Func)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetProperties)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
-|[IsSameConstructAs(IMyTerminalBlock)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.IsSameConstructAs)|Determines whether this block is mechanically connected to the other. This is any block connected with rotors or pistons or other mechanical devices, but not things like connectors. This will in most cases constitute your complete construct.<br /><br />Be aware that using merge blocks combines grids into one, so this function will not filter out grids connected that way. Also be aware that detaching the heads of pistons and rotors will cause this connection to change.<br /><br />_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
+|[IsSameConstructAs(IMyTerminalBlock)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.IsSameConstructAs)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[RequestEnable(bool)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)|_**Obsolete:** Use the setter of Enabled_<br /><br />_Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_|
-|[Attach()](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.Attach)|Attaches a nearby top part to the block<br /><br />_Inherited from [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)_|
-|[Detach()](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.Detach)|Detaches the top from the base<br /><br />_Inherited from [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)_|
+|[Attach()](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.Attach)|_Inherited from [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)_|
+|[Detach()](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.Detach)|_Inherited from [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)_|
 

@@ -6,8 +6,6 @@
 public Vector2 SurfaceSize { get; }
 ```
 
-Size of the drawing surface.
-
 ### Returns
 
 [Vector2](VRageMath.Vector2)

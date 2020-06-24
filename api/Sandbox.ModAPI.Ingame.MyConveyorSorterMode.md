@@ -6,8 +6,6 @@
 public enum MyConveyorSorterMode
 ```
 
-Determines the current mode of a conveyor sorter.
-
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
 
@@ -15,6 +13,6 @@ Determines the current mode of a conveyor sorter.
 
 |Member|Description|
 |---|---|
-|Whitelist|The items in the filter list are the only items allowed through this sorter.|
-|Blacklist|The items in the filter list are not allowed through this sorter.|
+|Whitelist||
+|Blacklist||
 

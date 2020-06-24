@@ -6,13 +6,9 @@
 public Vector2 MeasureStringInPixels(StringBuilder text, string font, float scale)
 ```
 
-Calculates how many pixels a string of a given font and scale will take up.
-
 ### Returns
 
 [Vector2](VRageMath.Vector2)
-
-
 
 ### Parameters
 

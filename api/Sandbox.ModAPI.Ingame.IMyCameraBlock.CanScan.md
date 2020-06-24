@@ -6,13 +6,9 @@
 public bool CanScan(double distance)
 ```
 
-Checks if the camera can scan the given distance.
-
 ### Returns
 
 [bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
-
-
 
 ### Parameters
 
@@ -23,13 +19,9 @@ Checks if the camera can scan the given distance.
 public bool CanScan(double distance, Vector3D direction)
 ```
 
-Checks if the camera can scan to the given direction and distance.
-
 ### Returns
 
 [bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
-
-
 
 ### Parameters
 
@@ -41,13 +33,9 @@ Checks if the camera can scan to the given direction and distance.
 public bool CanScan(Vector3D target)
 ```
 
-Checks if the camera can scan to the given target
-
 ### Returns
 
 [bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
-
-
 
 ### Parameters
 

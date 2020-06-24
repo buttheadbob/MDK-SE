@@ -6,8 +6,6 @@
 public bool PreserveAspectRatio { get; set; }
 ```
 
-Preserve aspect ratio of images.
-
 ### Returns
 
 [bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)

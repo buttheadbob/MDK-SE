@@ -6,8 +6,6 @@
 public bool IsActive { get; }
 ```
 
-Determines whether this camera is currently in use.
-
 ### Returns
 
 [bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)

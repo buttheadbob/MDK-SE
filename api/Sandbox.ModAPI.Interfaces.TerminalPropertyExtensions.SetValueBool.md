@@ -6,8 +6,6 @@
 public static void SetValueBool(this IMyTerminalBlock block, string propertyId, bool value)
 ```
 
-Set bool value of property
-
 ### Parameters
 
 * [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock) block

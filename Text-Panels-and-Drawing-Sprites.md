@@ -10,6 +10,7 @@ As always, you can get further help by asking in the #programming-in-game channe
 * [Drawing Sprites](#drawing-sprites)
     * [Text Sprites](#text-sprites)
     * [Texture Sprites](#texture-sprites)
+    * [Clipping Sprites](#clipping-sprites)
 * [The Color Settings](#the-color-settings)
 * [Configuring a text surface to display sprites through code](#configuring-a-text-surface-to-display-sprites-through-code)
 * [Final Code Listing](#final-code-listing)
@@ -156,10 +157,10 @@ public void DrawSprites(ref MySpriteDrawFrame frame)
 
     // Create our second line, we'll just reuse our previous sprite variable - this is not necessary, just
     // a simplification in this case.
-    sprite = sprite = new MySprite()
+    sprite = new MySprite()
     {
         Type = SpriteType.TEXT,
-        Data = "Line 1",
+        Data = "Line 2",
         Position = position,
         RotationOrScale = 0.8f,
         Color = Color.Blue,
@@ -173,7 +174,7 @@ public void DrawSprites(ref MySpriteDrawFrame frame)
 
 #### Texture Sprites
 
-We'll finish off this tutorial by adding a texture sprite to our surface. Let's add the grid Keen is so fond of. We do this by creating a texture sprite at the center of the surface, and scaling its size to the desired width and height.
+Let's add a texture sprite to our surface. Let's add the grid Keen is so fond of. We do this by creating a texture sprite at the center of the surface, and scaling its size to the desired width and height.
 
 See [`GetSprites`](Sandbox.ModAPI.Ingame.IMyTextSurface.GetSprites) for how to retrieve a list of all available sprites.
 
@@ -219,7 +220,7 @@ public void DrawSprites(ref MySpriteDrawFrame frame)
     sprite = new MySprite()
     {
         Type = SpriteType.TEXT,
-        Data = "Line 1",
+        Data = "Line 2",
         Position = position,
         RotationOrScale = 0.8f,
         Color = Color.Blue,
@@ -230,6 +231,111 @@ public void DrawSprites(ref MySpriteDrawFrame frame)
     frame.Add(sprite);
 }
 ```
+#### Clipping Sprites
+
+The final sprite type is a _clipping sprite._ This is a special type of sprite that allows you to create a rectangular area where any pixels _outside_ of it will be rejected by the renderer. Take the following code segment:
+
+```csharp
+// Here we add our clipping sprite. This is a simple rectangle. Nothing will be drawn outside it.
+// We create a rectangle that is covering the first half of the next line, cutting it off in the 
+// middle. 
+sprite = MySprite.CreateClipRect(new Rectangle(0, (int)position.Y - 16, (int)position.X, (int)position.Y + 16));
+// Add the sprite to the frame
+frame.Add(sprite);
+```
+The `position` variable in this example specifies the _center point_ of the sprite we want to draw later, so we're creating a rectangle that will cover a little bit above and a little bit below, and from the left side of the screen and using the position X coordinate as a width, making it cover only _half_ the Line 2. The rest will be cut away.
+
+If we want to remove the clipping rectangle, we can add a Clear sprite.
+
+```csharp
+sprite = MySprite.CreateClearClipRect();
+```
+
+This will reset the viewport to its default. We will not be using this particular code in our example, because we don't need to. 
+
+Add the example above to the DrawSprites method like this. See right above the creation of the final line for the clipping code.
+```csharp
+// Drawing Sprites
+public void DrawSprites(ref MySpriteDrawFrame frame)
+{
+    // Create background sprite
+    var sprite = new MySprite
+    {
+        Type = SpriteType.TEXTURE,
+        Data = "Grid",
+        Position = _viewport.Center,
+        Size = _viewport.Size,
+        Color = Color.White.Alpha(0.66f),
+        Alignment = TextAlignment.CENTER
+    };
+    // Add the sprite to the frame
+    frame.Add(sprite);
+
+    // Set up the initial position - and remember to add our viewport offset
+    var position = new Vector2(256, 20) + _viewport.Position;
+
+    // Create our first line
+    sprite = new MySprite
+    {
+        Type = SpriteType.TEXT,
+        Data = "Line 1",
+        Position = position,
+        RotationOrScale = 0.8f /* 80 % of the font's default size */,
+        Color = Color.Red,
+        Alignment = TextAlignment.CENTER /* Center the text on the position */,
+        FontId = "White"
+    };
+    // Add the sprite to the frame
+    frame.Add(sprite);
+
+    // Move our position 20 pixels down in the viewport for the next line
+    position += new Vector2(0, 20);
+
+    // Here we add our clipping sprite. This is a simple rectangle. Nothing will be drawn outside it.
+    // We create a rectangle that is covering the first half of the next line, cutting it off in the 
+    // middle. 
+    sprite = MySprite.CreateClipRect(new Rectangle(0, (int)position.Y - 16, (int)position.X, (int)position.Y + 16));
+    // Add the sprite to the frame
+    frame.Add(sprite);
+
+    // Create our second line, we'll just reuse our previous sprite variable - this is not necessary, just
+    // a simplification in this case.
+    sprite = new MySprite
+    {
+        Type = SpriteType.TEXT,
+        Data = "Line 2",
+        Position = position,
+        RotationOrScale = 0.8f,
+        Color = Color.Blue,
+        Alignment = TextAlignment.CENTER,
+        FontId = "White"
+    };
+    // Add the sprite to the frame
+    frame.Add(sprite);
+}
+```
+There is an alternative way to set the clipping rectangle, depending on your needs. It can also be done this way:
+
+```cs
+using (frame.Clip(0, (int)position.Y - 16, (int)position.X, (int)position.Y + 16))
+{
+    // Create our second line, we'll just reuse our previous sprite variable - this is not necessary, just
+    // a simplification in this case.
+    sprite = new MySprite
+    {
+        Type = SpriteType.TEXT,
+        Data = "Line 2",
+        Position = position,
+        RotationOrScale = 0.8f,
+        Color = Color.Blue,
+        Alignment = TextAlignment.CENTER,
+        FontId = "White"
+    };
+    // Add the sprite to the frame
+    frame.Add(sprite);
+}
+```
+This will add the specified clipping sprite to the frame, and when the scope of the using exits, it will add a clear clip sprite.
 
 ### The Color Settings
 
@@ -340,6 +446,13 @@ public void DrawSprites(ref MySpriteDrawFrame frame)
     // Move our position 20 pixels down in the viewport for the next line
     position += new Vector2(0, 20);
 
+    // Here we add our clipping sprite. This is a simple rectangle. Nothing will be drawn outside it.
+    // We create a rectangle that is covering the first half of the next line, cutting it off in the 
+    // middle. 
+    sprite = MySprite.CreateClipRect(new Rectangle(0, (int)position.Y - 16, (int)position.X, (int)position.Y + 16));
+    // Add the sprite to the frame
+    frame.Add(sprite);
+    
     // Create our second line, we'll just reuse our previous sprite variable - this is not necessary, just
     // a simplification in this case.
     sprite = new MySprite()

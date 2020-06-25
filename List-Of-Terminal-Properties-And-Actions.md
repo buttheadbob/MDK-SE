@@ -301,9 +301,16 @@
 |Name|Description|
 |-|-|
 |AnyoneCanUse|Anyone Can Use On/Off|
+|DecreaseChangeIntervalSlider|Decrease Image change interval|
+|DecreaseFontSize|Decrease Font Size|
+|DecreaseTextPaddingSlider|Decrease Text Padding|
+|IncreaseChangeIntervalSlider|Increase Image change interval|
+|IncreaseFontSize|Increase Font Size|
+|IncreaseTextPaddingSlider|Increase Text Padding|
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
+|PreserveAspectRatio|Preserve aspect ratio On/Off|
 |ShowOnHUD|Show on HUD On/Off|
 |ShowOnHUD_Off|Show on HUD Off|
 |ShowOnHUD_On|Show on HUD On|
@@ -312,14 +319,25 @@
 
 |Name|Type|
 |-|-|
+|alignment|long|
 |AnyoneCanUse|bool|
+|BackgroundColor|Color|
 |ButtonName|StringBuilder|
+|ChangeIntervalSlider|float|
+|Content|long|
+|Font|long|
+|FontColor|Color|
+|FontSize|float|
 |Name|StringBuilder|
 |OnOff|bool|
+|PreserveAspectRatio|bool|
+|ScriptBackgroundColor|Color|
+|ScriptForegroundColor|Color|
 |ShowInInventory|bool|
 |ShowInTerminal|bool|
 |ShowInToolbarConfig|bool|
 |ShowOnHUD|bool|
+|TextPaddingSlider|float|
 
 ## IMyCameraBlock
 
@@ -1138,8 +1156,10 @@
 
 |Name|Description|
 |-|-|
-|Add Small Top Part|Add Small Head|
-|Add Top Part|Add Rotor Head|
+|AddHingeTopPart|Add Hinge Head|
+|AddRotorTopPart|Add Rotor Head|
+|AddSmallHingeTopPart|Add Small Head|
+|AddSmallRotorTopPart|Add Small Head|
 |Attach|Attach|
 |DecreaseBrakingTorque|Decrease Braking torque|
 |DecreaseDisplacement|Decrease Rotor displacement|
@@ -1151,6 +1171,7 @@
 |DecreaseWeld speed|Decrease Safety lock speed|
 |Detach|Detach|
 |Force weld|Safety lock override On/Off|
+|HingeLock|Hinge lock On/Off|
 |IncreaseBrakingTorque|Increase Braking torque|
 |IncreaseDisplacement|Increase Rotor displacement|
 |IncreaseLowerLimit|Increase Lower limit|
@@ -1176,6 +1197,7 @@
 |BrakingTorque|float|
 |Displacement|float|
 |Force weld|bool|
+|HingeLock|bool|
 |LowerLimit|float|
 |Name|StringBuilder|
 |OnOff|bool|
@@ -2286,9 +2308,11 @@
 |-|-|
 |DecreaseChangeIntervalSlider|Decrease Image change interval|
 |DecreaseFontSize|Decrease Font Size|
+|DecreaseRotate|Decrease Rotation|
 |DecreaseTextPaddingSlider|Decrease Text Padding|
 |IncreaseChangeIntervalSlider|Increase Image change interval|
 |IncreaseFontSize|Increase Font Size|
+|IncreaseRotate|Increase Rotation|
 |IncreaseTextPaddingSlider|Increase Text Padding|
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
@@ -2312,6 +2336,7 @@
 |Name|StringBuilder|
 |OnOff|bool|
 |PreserveAspectRatio|bool|
+|Rotate|float|
 |ScriptBackgroundColor|Color|
 |ScriptForegroundColor|Color|
 |ShowInInventory|bool|

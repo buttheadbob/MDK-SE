@@ -3384,6 +3384,12 @@ public abstract sealed class MySpaceTexts
 |DisplayName_InventoryConstraint_PersonalItems||
 |DisplayName_TSS_ClockAnalog||
 |DisplayName_TSS_Weather||
+|DisplayName_TSS_Weather_Thunderstorm||
+|DisplayName_TSS_Weather_Rain||
+|DisplayName_TSS_Weather_Snow||
+|DisplayName_TSS_Weather_Sandstorm||
+|DisplayName_TSS_Weather_Fog||
+|DisplayName_TSS_Weather_Dust||
 |DisplayName_TSS_Description||
 |Description_DLC_DecorativeBlocks||
 |Description_DLC_DecorativeBlocks2||

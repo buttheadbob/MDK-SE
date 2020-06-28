@@ -6,6 +6,8 @@
 public void SetFilter(MyConveyorSorterMode mode, List<Sandbox.ModAPI.Ingame.MyInventoryItemFilter> items)
 ```
 
+Changes the sorter to desired mode and filters the provided items. You can pass in`null`to empty the list.
+
 ### Parameters
 
 * [MyConveyorSorterMode](Sandbox.ModAPI.Ingame.MyConveyorSorterMode) mode

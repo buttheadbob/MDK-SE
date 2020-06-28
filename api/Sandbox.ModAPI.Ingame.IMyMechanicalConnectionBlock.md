@@ -27,13 +27,13 @@ public interface IMyMechanicalConnectionBlock: IMyFunctionalBlock, IMyTerminalBl
 
 |Member|Description|
 |---|---|
-|[TopGrid { get; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.TopGrid)||
-|[Top { get; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.Top)||
-|[SafetyLockSpeed { get; set; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.SafetyLockSpeed)|_**Obsolete:** SafetyLock is no longer supported. This is property dummy property only, for backwards compatibility._|
-|[SafetyLock { get; set; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.SafetyLock)|_**Obsolete:** SafetyLock is no longer supported. This is property dummy property only, for backwards compatibility._|
-|[IsAttached { get; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.IsAttached)||
-|[IsLocked { get; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.IsLocked)|_**Obsolete:** SafetyLock is no longer supported. This is property dummy property only, for backwards compatibility._|
-|[PendingAttachment { get; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.PendingAttachment)||
+|[TopGrid { get; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.TopGrid)|Gets the grid of the attached top part|
+|[Top { get; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.Top)|Gets the attached top part entity|
+|[SafetyLockSpeed { get; set; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.SafetyLockSpeed)|_**Obsolete:** SafetyLock is no longer supported. This is property dummy property only, for backwards compatibility._<br /><br />Gets or sets the speed at which this device will engage it's safety lock ( [IsLocked](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.IsLocked) ).|
+|[SafetyLock { get; set; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.SafetyLock)|_**Obsolete:** SafetyLock is no longer supported. This is property dummy property only, for backwards compatibility._<br /><br />Gets if the block is safety locked (welded)|
+|[IsAttached { get; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.IsAttached)|Gets if the block base is attached to something|
+|[IsLocked { get; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.IsLocked)|_**Obsolete:** SafetyLock is no longer supported. This is property dummy property only, for backwards compatibility._<br /><br />Gets if the block is safety locked (welded)|
+|[PendingAttachment { get; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.PendingAttachment)|Gets if the block is looking for a top part|
 |[Components { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Components)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[EntityId { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.EntityId)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[Name { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Name)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
@@ -65,7 +65,7 @@ public interface IMyMechanicalConnectionBlock: IMyFunctionalBlock, IMyTerminalBl
 |[CustomNameWithFaction { get; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomNameWithFaction)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[DetailedInfo { get; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.DetailedInfo)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[CustomInfo { get; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomInfo)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
-|[CustomData { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomData)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
+|[CustomData { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomData)|Gets or sets the Custom Data string. NOTE: Only use this for user input. For storing large mod configs, create your own MyModStorageComponent<br /><br />_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[ShowOnHUD { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowOnHUD)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[ShowInTerminal { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInTerminal)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[ShowInToolbarConfig { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInToolbarConfig)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
@@ -76,8 +76,8 @@ public interface IMyMechanicalConnectionBlock: IMyFunctionalBlock, IMyTerminalBl
 
 |Member|Description|
 |---|---|
-|[Attach()](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.Attach)||
-|[Detach()](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.Detach)||
+|[Attach()](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.Attach)|Attaches a nearby top part to the block|
+|[Detach()](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.Detach)|Detaches the top from the base|
 |[GetInventory()](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)|Simply get the MyInventoryBase component stored in this entity.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[GetInventory(int)](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)|Search for inventory component with maching index.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[GetPosition()](VRage.Game.ModAPI.Ingame.IMyEntity.GetPosition)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
@@ -95,6 +95,6 @@ public interface IMyMechanicalConnectionBlock: IMyFunctionalBlock, IMyTerminalBl
 |[GetActionWithName(string)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActionWithName)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[GetProperty(string)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetProperty)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[GetProperties(List, Func)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetProperties)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
-|[IsSameConstructAs(IMyTerminalBlock)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.IsSameConstructAs)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
+|[IsSameConstructAs(IMyTerminalBlock)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.IsSameConstructAs)|Determines whether this block is mechanically connected to the other. This is any block connected with rotors or pistons or other mechanical devices, but not things like connectors. This will in most cases constitute your complete construct.<br /><br />Be aware that using merge blocks combines grids into one, so this function will not filter out grids connected that way. Also be aware that detaching the heads of pistons and rotors will cause this connection to change.<br /><br />_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[RequestEnable(bool)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)|_**Obsolete:** Use the setter of Enabled_<br /><br />_Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_|
 

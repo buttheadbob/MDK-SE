@@ -6,6 +6,8 @@
 public enum UpdateType
 ```
 
+Enum describes what source triggered the script to run.
+
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
 
@@ -14,13 +16,13 @@ public enum UpdateType
 |Member|Description|
 |---|---|
 |None||
-|Terminal||
-|Trigger||
-|Mod||
-|Script||
-|Update1||
-|Update10||
-|Update100||
-|Once||
-|IGC||
+|Terminal|Script run by user in the terminal.|
+|Trigger|Script run by a block such as timer, sensor.|
+|Mod|Script run by a mod.|
+|Script|Script run by another programmable block.|
+|Update1|Script is updating every tick.|
+|Update10|Script is updating every 10th tick.|
+|Update100|Script is updating every 100th tick.|
+|Once|Script is updating once before the tick.|
+|IGC|Script run by intergrid communication system.|
 

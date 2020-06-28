@@ -6,3 +6,5 @@
 public void Retract()
 ```
 
+Retracts the piston.
+

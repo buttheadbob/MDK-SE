@@ -6,6 +6,8 @@
 public string TerminalRunArgument { get; }
 ```
 
+Contains the value of the default terminal argument.
+
 ### Returns
 
 [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6)

@@ -6,6 +6,8 @@
 public bool IsEndpointReachable(long address, TransmissionDistance transmissionDistance)
 ```
 
+Determines if given endpoint is currently reachable. Similar to sending ICMP message.
+
 ### Returns
 
 [bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)

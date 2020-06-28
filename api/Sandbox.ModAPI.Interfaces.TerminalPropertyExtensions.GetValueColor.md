@@ -6,9 +6,13 @@
 public static Color GetValueColor(this IMyTerminalBlock block, string propertyId)
 ```
 
+Returns value of specified property
+
 ### Returns
 
 [Color](VRageMath.Color)
+
+property value as Color
 
 ### Parameters
 

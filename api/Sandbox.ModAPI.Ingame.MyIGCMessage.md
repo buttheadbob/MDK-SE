@@ -6,6 +6,8 @@
 public struct MyIGCMessage
 ```
 
+Provides info about received message along with received data
+
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
 
@@ -13,9 +15,9 @@ public struct MyIGCMessage
 
 |Member|Description|
 |---|---|
-|[Data](Sandbox.ModAPI.Ingame.MyIGCMessage.Data)||
-|[Tag](Sandbox.ModAPI.Ingame.MyIGCMessage.Tag)||
-|[Source](Sandbox.ModAPI.Ingame.MyIGCMessage.Source)||
+|[Data](Sandbox.ModAPI.Ingame.MyIGCMessage.Data)|The data received in message.|
+|[Tag](Sandbox.ModAPI.Ingame.MyIGCMessage.Tag)|Tag designing type of this message.|
+|[Source](Sandbox.ModAPI.Ingame.MyIGCMessage.Source)|Source/Author of this message.|
 
 #### Constructors
 

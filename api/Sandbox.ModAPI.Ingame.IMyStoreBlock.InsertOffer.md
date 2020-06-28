@@ -6,9 +6,13 @@
 public MyStoreInsertResults InsertOffer(MyStoreItemDataSimple item, out long id)
 ```
 
+Creates store item offer and returns its id.
+
 ### Returns
 
 [MyStoreInsertResults](Sandbox.ModAPI.Ingame.MyStoreInsertResults)
+
+Result of the creation of the store item.
 
 ### Parameters
 

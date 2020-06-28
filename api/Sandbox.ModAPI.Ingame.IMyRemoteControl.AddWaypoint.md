@@ -6,6 +6,8 @@
 public void AddWaypoint(Vector3D coords, string name)
 ```
 
+Adds a new waypoint.
+
 ### Parameters
 
 * [Vector3D](VRageMath.Vector3D) coords
@@ -15,6 +17,8 @@ public void AddWaypoint(Vector3D coords, string name)
 ```csharp
 public void AddWaypoint(MyWaypointInfo coords)
 ```
+
+Adds a new waypoint.
 
 ### Parameters
 

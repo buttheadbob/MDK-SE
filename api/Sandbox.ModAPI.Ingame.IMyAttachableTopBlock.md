@@ -23,8 +23,8 @@ public interface IMyAttachableTopBlock: IMyCubeBlock, IMyEntity
 
 |Member|Description|
 |---|---|
-|[IsAttached { get; }](Sandbox.ModAPI.Ingame.IMyAttachableTopBlock.IsAttached)||
-|[Base { get; }](Sandbox.ModAPI.Ingame.IMyAttachableTopBlock.Base)||
+|[IsAttached { get; }](Sandbox.ModAPI.Ingame.IMyAttachableTopBlock.IsAttached)|Gets whether the top part is attached to a base block|
+|[Base { get; }](Sandbox.ModAPI.Ingame.IMyAttachableTopBlock.Base)|Gets the attached base block|
 |[Components { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Components)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[EntityId { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.EntityId)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[Name { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Name)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|

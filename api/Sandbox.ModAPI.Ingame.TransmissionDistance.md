@@ -13,8 +13,8 @@ public enum TransmissionDistance
 
 |Member|Description|
 |---|---|
-|CurrentConstruct||
-|ConnectedConstructs||
-|AntennaRelay||
+|CurrentConstruct|All PBs on single ship For more info on constructs see [IsSameConstructAs(IMyTerminalBlock)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.IsSameConstructAs) |
+|ConnectedConstructs|All PBs on physically connected ships For more info on constructs see [IsSameConstructAs(IMyTerminalBlock)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.IsSameConstructAs) |
+|AntennaRelay|All PBs connected over antenna relay|
 |TransmissionDistanceMax||
 

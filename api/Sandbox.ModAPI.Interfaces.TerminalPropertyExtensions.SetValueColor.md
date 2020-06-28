@@ -6,6 +6,8 @@
 public static void SetValueColor(this IMyTerminalBlock block, string propertyId, Color value)
 ```
 
+Set bool value of property
+
 ### Parameters
 
 * [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock) block

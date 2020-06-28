@@ -6,9 +6,13 @@
 public static bool GetValueBool(this IMyTerminalBlock block, string propertyId)
 ```
 
+Returns value of specified property
+
 ### Returns
 
 [bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
+
+property value as bool
 
 ### Parameters
 

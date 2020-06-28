@@ -6,6 +6,8 @@
 public uint UpgradeCount { get; }
 ```
 
+number of upgrades applied
+
 ### Returns
 
 [uint](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32?view=netframework-4.6)

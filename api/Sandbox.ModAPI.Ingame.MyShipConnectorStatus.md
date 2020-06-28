@@ -6,6 +6,8 @@
 public enum MyShipConnectorStatus
 ```
 
+Describes the current status of the connector.
+
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
 
@@ -13,7 +15,7 @@ public enum MyShipConnectorStatus
 
 |Member|Description|
 |---|---|
-|Unconnected||
-|Connectable||
-|Connected||
+|Unconnected|This connector is not connected to anything, nor is it near anything connectable.|
+|Connectable|This connector is currently near something that it can connect to.|
+|Connected|This connector is currently connected to something.|
 

@@ -46,8 +46,8 @@ public interface IMyMotorAdvancedRotor: IMyMotorRotor, IMyAttachableTopBlock, IM
 |[Orientation { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.Orientation)|Returns block orientation in base 6 directions<br /><br />_Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_|
 |[OwnerId { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.OwnerId)|Id of player owning block (not steam Id)<br /><br />_Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_|
 |[Position { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.Position)|Position in grid coordinates<br /><br />_Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_|
-|[IsAttached { get; }](Sandbox.ModAPI.Ingame.IMyAttachableTopBlock.IsAttached)|_Inherited from [IMyAttachableTopBlock](Sandbox.ModAPI.Ingame.IMyAttachableTopBlock)_|
-|[Base { get; }](Sandbox.ModAPI.Ingame.IMyAttachableTopBlock.Base)|_Inherited from [IMyAttachableTopBlock](Sandbox.ModAPI.Ingame.IMyAttachableTopBlock)_|
+|[IsAttached { get; }](Sandbox.ModAPI.Ingame.IMyAttachableTopBlock.IsAttached)|Gets whether the top part is attached to a base block<br /><br />_Inherited from [IMyAttachableTopBlock](Sandbox.ModAPI.Ingame.IMyAttachableTopBlock)_|
+|[Base { get; }](Sandbox.ModAPI.Ingame.IMyAttachableTopBlock.Base)|Gets the attached base block<br /><br />_Inherited from [IMyAttachableTopBlock](Sandbox.ModAPI.Ingame.IMyAttachableTopBlock)_|
 
 #### Methods
 

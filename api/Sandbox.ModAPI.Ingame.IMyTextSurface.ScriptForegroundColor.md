@@ -6,6 +6,8 @@
 public Color ScriptForegroundColor { get; set; }
 ```
 
+Foreground color used for scripts.
+
 ### Returns
 
 [Color](VRageMath.Color)

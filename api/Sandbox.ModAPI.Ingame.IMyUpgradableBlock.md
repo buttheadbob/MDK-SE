@@ -6,6 +6,8 @@
 public interface IMyUpgradableBlock: IMyCubeBlock, IMyEntity
 ```
 
+interface to retrieve upgrade effects on block
+
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
 
@@ -17,7 +19,7 @@ public interface IMyUpgradableBlock: IMyCubeBlock, IMyEntity
 
 |Member|Description|
 |---|---|
-|[UpgradeCount { get; }](Sandbox.ModAPI.Ingame.IMyUpgradableBlock.UpgradeCount)||
+|[UpgradeCount { get; }](Sandbox.ModAPI.Ingame.IMyUpgradableBlock.UpgradeCount)|number of upgrades applied|
 |[Components { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Components)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[EntityId { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.EntityId)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[Name { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Name)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
@@ -50,7 +52,7 @@ public interface IMyUpgradableBlock: IMyCubeBlock, IMyEntity
 
 |Member|Description|
 |---|---|
-|[GetUpgrades(out Dictionary)](Sandbox.ModAPI.Ingame.IMyUpgradableBlock.GetUpgrades)||
+|[GetUpgrades(out Dictionary)](Sandbox.ModAPI.Ingame.IMyUpgradableBlock.GetUpgrades)|get list of upgrades (r/o); string - upgrade type, float - effect value as float (1 = 100%)|
 |[GetInventory()](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)|Simply get the MyInventoryBase component stored in this entity.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[GetInventory(int)](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)|Search for inventory component with maching index.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[GetPosition()](VRage.Game.ModAPI.Ingame.IMyEntity.GetPosition)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|

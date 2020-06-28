@@ -6,6 +6,8 @@
 public enum MyAssemblerMode
 ```
 
+Determines what mode an assembler is in.
+
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
 
@@ -13,6 +15,6 @@ public enum MyAssemblerMode
 
 |Member|Description|
 |---|---|
-|Assembly||
-|Disassembly||
+|Assembly|The assembler is currently set to assemble new items.|
+|Disassembly|The assembler is currently set to disassemble existing items.|
 

@@ -6,6 +6,8 @@
 public void RemoveQueueItem(int idx, MyFixedPoint amount)
 ```
 
+Removes an item from the queue
+
 ### Parameters
 
 * [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) idx
@@ -16,6 +18,8 @@ public void RemoveQueueItem(int idx, MyFixedPoint amount)
 public void RemoveQueueItem(int idx, decimal amount)
 ```
 
+Removes an item from the queue
+
 ### Parameters
 
 * [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) idx
@@ -25,6 +29,8 @@ public void RemoveQueueItem(int idx, decimal amount)
 ```csharp
 public void RemoveQueueItem(int idx, double amount)
 ```
+
+Removes an item from the queue
 
 ### Parameters
 

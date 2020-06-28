@@ -6,6 +6,8 @@
 public enum MyPlanetElevation
 ```
 
+Describes what detail level to retrieve the planet elevation for.
+
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
 
@@ -13,6 +15,6 @@ public enum MyPlanetElevation
 
 |Member|Description|
 |---|---|
-|Sealevel||
-|Surface||
+|Sealevel|Only return the distance to the planetary sealevel.|
+|Surface|Return the distance to the closest point of the planet. This is the same value displayed in the HUD.|
 

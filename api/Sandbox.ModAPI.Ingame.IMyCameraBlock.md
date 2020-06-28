@@ -23,11 +23,11 @@ public interface IMyCameraBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBl
 
 |Member|Description|
 |---|---|
-|[IsActive { get; }](Sandbox.ModAPI.Ingame.IMyCameraBlock.IsActive)||
-|[AvailableScanRange { get; }](Sandbox.ModAPI.Ingame.IMyCameraBlock.AvailableScanRange)||
-|[EnableRaycast { get; set; }](Sandbox.ModAPI.Ingame.IMyCameraBlock.EnableRaycast)||
-|[RaycastConeLimit { get; }](Sandbox.ModAPI.Ingame.IMyCameraBlock.RaycastConeLimit)||
-|[RaycastDistanceLimit { get; }](Sandbox.ModAPI.Ingame.IMyCameraBlock.RaycastDistanceLimit)||
+|[IsActive { get; }](Sandbox.ModAPI.Ingame.IMyCameraBlock.IsActive)|Determines whether this camera is currently in use.|
+|[AvailableScanRange { get; }](Sandbox.ModAPI.Ingame.IMyCameraBlock.AvailableScanRange)|The maximum distance that this camera can scan, based on the time since the last scan.|
+|[EnableRaycast { get; set; }](Sandbox.ModAPI.Ingame.IMyCameraBlock.EnableRaycast)|When this is true, the available raycast distance will count up, and power usage is increased.|
+|[RaycastConeLimit { get; }](Sandbox.ModAPI.Ingame.IMyCameraBlock.RaycastConeLimit)|Returns the maximum positive angle you can apply for pitch and yaw.|
+|[RaycastDistanceLimit { get; }](Sandbox.ModAPI.Ingame.IMyCameraBlock.RaycastDistanceLimit)|Returns the maximum distance you can request a raycast. -1 means infinite.|
 |[Components { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Components)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[EntityId { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.EntityId)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[Name { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Name)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
@@ -59,7 +59,7 @@ public interface IMyCameraBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBl
 |[CustomNameWithFaction { get; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomNameWithFaction)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[DetailedInfo { get; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.DetailedInfo)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[CustomInfo { get; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomInfo)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
-|[CustomData { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomData)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
+|[CustomData { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomData)|Gets or sets the Custom Data string. NOTE: Only use this for user input. For storing large mod configs, create your own MyModStorageComponent<br /><br />_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[ShowOnHUD { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowOnHUD)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[ShowInTerminal { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInTerminal)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[ShowInToolbarConfig { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInToolbarConfig)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
@@ -70,13 +70,13 @@ public interface IMyCameraBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBl
 
 |Member|Description|
 |---|---|
-|[Raycast(double, float, float)](Sandbox.ModAPI.Ingame.IMyCameraBlock.Raycast)||
-|[Raycast(Vector3D)](Sandbox.ModAPI.Ingame.IMyCameraBlock.Raycast)||
-|[Raycast(double, Vector3D)](Sandbox.ModAPI.Ingame.IMyCameraBlock.Raycast)||
-|[CanScan(double)](Sandbox.ModAPI.Ingame.IMyCameraBlock.CanScan)||
-|[CanScan(double, Vector3D)](Sandbox.ModAPI.Ingame.IMyCameraBlock.CanScan)||
-|[CanScan(Vector3D)](Sandbox.ModAPI.Ingame.IMyCameraBlock.CanScan)||
-|[TimeUntilScan(double)](Sandbox.ModAPI.Ingame.IMyCameraBlock.TimeUntilScan)||
+|[Raycast(double, float, float)](Sandbox.ModAPI.Ingame.IMyCameraBlock.Raycast)|Does a raycast in the direction the camera is facing. Pitch and Yaw are in degrees. Will return an empty struct if distance or angle are out of bounds.|
+|[Raycast(Vector3D)](Sandbox.ModAPI.Ingame.IMyCameraBlock.Raycast)|Does a raycast to the given point. Will return an empty struct if distance or angle are out of bounds.|
+|[Raycast(double, Vector3D)](Sandbox.ModAPI.Ingame.IMyCameraBlock.Raycast)|Does a raycast in the given direction. Will return an empty struct if distance or angle are out of bounds.|
+|[CanScan(double)](Sandbox.ModAPI.Ingame.IMyCameraBlock.CanScan)|Checks if the camera can scan the given distance.|
+|[CanScan(double, Vector3D)](Sandbox.ModAPI.Ingame.IMyCameraBlock.CanScan)|Checks if the camera can scan to the given direction and distance.|
+|[CanScan(Vector3D)](Sandbox.ModAPI.Ingame.IMyCameraBlock.CanScan)|Checks if the camera can scan to the given target|
+|[TimeUntilScan(double)](Sandbox.ModAPI.Ingame.IMyCameraBlock.TimeUntilScan)|Returns the number of milliseconds until the camera can do a raycast of the given distance.|
 |[GetInventory()](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)|Simply get the MyInventoryBase component stored in this entity.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[GetInventory(int)](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)|Search for inventory component with maching index.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[GetPosition()](VRage.Game.ModAPI.Ingame.IMyEntity.GetPosition)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
@@ -94,6 +94,6 @@ public interface IMyCameraBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBl
 |[GetActionWithName(string)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActionWithName)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[GetProperty(string)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetProperty)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[GetProperties(List, Func)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetProperties)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
-|[IsSameConstructAs(IMyTerminalBlock)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.IsSameConstructAs)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
+|[IsSameConstructAs(IMyTerminalBlock)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.IsSameConstructAs)|Determines whether this block is mechanically connected to the other. This is any block connected with rotors or pistons or other mechanical devices, but not things like connectors. This will in most cases constitute your complete construct.<br /><br />Be aware that using merge blocks combines grids into one, so this function will not filter out grids connected that way. Also be aware that detaching the heads of pistons and rotors will cause this connection to change.<br /><br />_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[RequestEnable(bool)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)|_**Obsolete:** Use the setter of Enabled_<br /><br />_Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_|
 

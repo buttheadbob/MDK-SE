@@ -6,3 +6,5 @@
 public void ResetTargetingToDefault()
 ```
 
+resert targeting to default values
+

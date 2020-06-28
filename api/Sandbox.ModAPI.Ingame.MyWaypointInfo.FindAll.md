@@ -6,6 +6,8 @@
 public static void FindAll(string source, List<Sandbox.ModAPI.Ingame.MyWaypointInfo> gpsList)
 ```
 
+Searches for all GPS coordinates in the given text.
+
 ### Parameters
 
 * [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) source

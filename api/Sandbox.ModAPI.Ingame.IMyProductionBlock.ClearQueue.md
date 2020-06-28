@@ -6,3 +6,5 @@
 public void ClearQueue()
 ```
 
+Clears the Queue
+

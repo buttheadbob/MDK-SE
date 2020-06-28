@@ -15,7 +15,7 @@ public struct TerminalActionParameter
 |---|---|
 |[TypeCode](Sandbox.ModAPI.Ingame.TerminalActionParameter.TypeCode)||
 |[Value](Sandbox.ModAPI.Ingame.TerminalActionParameter.Value)||
-|[Empty](Sandbox.ModAPI.Ingame.TerminalActionParameter.Empty)||
+|[Empty](Sandbox.ModAPI.Ingame.TerminalActionParameter.Empty)|Gets an empty parameter.|
 
 #### Properties
 
@@ -27,7 +27,7 @@ public struct TerminalActionParameter
 
 |Member|Description|
 |---|---|
-|[Deserialize(string, TypeCode)](Sandbox.ModAPI.Ingame.TerminalActionParameter.Deserialize)||
-|[Get(object)](Sandbox.ModAPI.Ingame.TerminalActionParameter.Get)||
+|[Deserialize(string, TypeCode)](Sandbox.ModAPI.Ingame.TerminalActionParameter.Deserialize)|Creates a [TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter) from a serialized value in a string and a type code.|
+|[Get(object)](Sandbox.ModAPI.Ingame.TerminalActionParameter.Get)|Creates a [TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter) from the given value.|
 |[GetObjectBuilder()](Sandbox.ModAPI.Ingame.TerminalActionParameter.GetObjectBuilder)||
 

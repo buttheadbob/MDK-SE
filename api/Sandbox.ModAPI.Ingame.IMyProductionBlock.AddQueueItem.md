@@ -6,6 +6,8 @@
 public void AddQueueItem(MyDefinitionId blueprint, MyFixedPoint amount)
 ```
 
+Adds a blueprint to the production queue
+
 ### Parameters
 
 * [MyDefinitionId](VRage.Game.MyDefinitionId) blueprint
@@ -16,6 +18,8 @@ public void AddQueueItem(MyDefinitionId blueprint, MyFixedPoint amount)
 public void AddQueueItem(MyDefinitionId blueprint, decimal amount)
 ```
 
+Adds a blueprint to the production queue
+
 ### Parameters
 
 * [MyDefinitionId](VRage.Game.MyDefinitionId) blueprint
@@ -25,6 +29,8 @@ public void AddQueueItem(MyDefinitionId blueprint, decimal amount)
 ```csharp
 public void AddQueueItem(MyDefinitionId blueprint, double amount)
 ```
+
+Adds a blueprint to the production queue
 
 ### Parameters
 

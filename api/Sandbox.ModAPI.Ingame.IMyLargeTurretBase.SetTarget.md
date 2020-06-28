@@ -6,6 +6,8 @@
 public void SetTarget(Vector3D pos)
 ```
 
+Targets given position
+
 ### Parameters
 
 * [Vector3D](VRageMath.Vector3D) pos

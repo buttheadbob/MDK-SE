@@ -6,6 +6,8 @@
 public interface IMyLaserAntenna: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity
 ```
 
+Laser antenna block interface
+
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
 
@@ -23,12 +25,12 @@ public interface IMyLaserAntenna: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeB
 
 |Member|Description|
 |---|---|
-|[RequireLoS { get; }](Sandbox.ModAPI.Ingame.IMyLaserAntenna.RequireLoS)||
-|[TargetCoords { get; }](Sandbox.ModAPI.Ingame.IMyLaserAntenna.TargetCoords)||
-|[IsPermanent { get; set; }](Sandbox.ModAPI.Ingame.IMyLaserAntenna.IsPermanent)||
-|[IsOutsideLimits { get; }](Sandbox.ModAPI.Ingame.IMyLaserAntenna.IsOutsideLimits)|_**Obsolete:** Check the Status property instead._|
-|[Status { get; }](Sandbox.ModAPI.Ingame.IMyLaserAntenna.Status)||
-|[Range { get; set; }](Sandbox.ModAPI.Ingame.IMyLaserAntenna.Range)||
+|[RequireLoS { get; }](Sandbox.ModAPI.Ingame.IMyLaserAntenna.RequireLoS)|Determines whether this particular antenna requires line of sight to function.|
+|[TargetCoords { get; }](Sandbox.ModAPI.Ingame.IMyLaserAntenna.TargetCoords)|get target coordinates|
+|[IsPermanent { get; set; }](Sandbox.ModAPI.Ingame.IMyLaserAntenna.IsPermanent)|Connection is permanent|
+|[IsOutsideLimits { get; }](Sandbox.ModAPI.Ingame.IMyLaserAntenna.IsOutsideLimits)|_**Obsolete:** Check the Status property instead._<br /><br />Target is outside movement limits of antenna|
+|[Status { get; }](Sandbox.ModAPI.Ingame.IMyLaserAntenna.Status)|Gets the current status of this antenna.|
+|[Range { get; set; }](Sandbox.ModAPI.Ingame.IMyLaserAntenna.Range)|Gets or sets the max range of the laser set in terminal|
 |[Components { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Components)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[EntityId { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.EntityId)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[Name { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Name)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
@@ -60,7 +62,7 @@ public interface IMyLaserAntenna: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeB
 |[CustomNameWithFaction { get; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomNameWithFaction)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[DetailedInfo { get; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.DetailedInfo)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[CustomInfo { get; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomInfo)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
-|[CustomData { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomData)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
+|[CustomData { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomData)|Gets or sets the Custom Data string. NOTE: Only use this for user input. For storing large mod configs, create your own MyModStorageComponent<br /><br />_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[ShowOnHUD { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowOnHUD)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[ShowInTerminal { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInTerminal)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[ShowInToolbarConfig { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInToolbarConfig)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
@@ -71,8 +73,8 @@ public interface IMyLaserAntenna: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeB
 
 |Member|Description|
 |---|---|
-|[SetTargetCoords(string)](Sandbox.ModAPI.Ingame.IMyLaserAntenna.SetTargetCoords)||
-|[Connect()](Sandbox.ModAPI.Ingame.IMyLaserAntenna.Connect)||
+|[SetTargetCoords(string)](Sandbox.ModAPI.Ingame.IMyLaserAntenna.SetTargetCoords)|Set coordinates of target|
+|[Connect()](Sandbox.ModAPI.Ingame.IMyLaserAntenna.Connect)|Connect to target defined by SetTargetCoords|
 |[GetInventory()](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)|Simply get the MyInventoryBase component stored in this entity.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[GetInventory(int)](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)|Search for inventory component with maching index.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[GetPosition()](VRage.Game.ModAPI.Ingame.IMyEntity.GetPosition)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
@@ -90,6 +92,6 @@ public interface IMyLaserAntenna: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeB
 |[GetActionWithName(string)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActionWithName)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[GetProperty(string)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetProperty)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[GetProperties(List, Func)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetProperties)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
-|[IsSameConstructAs(IMyTerminalBlock)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.IsSameConstructAs)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
+|[IsSameConstructAs(IMyTerminalBlock)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.IsSameConstructAs)|Determines whether this block is mechanically connected to the other. This is any block connected with rotors or pistons or other mechanical devices, but not things like connectors. This will in most cases constitute your complete construct.<br /><br />Be aware that using merge blocks combines grids into one, so this function will not filter out grids connected that way. Also be aware that detaching the heads of pistons and rotors will cause this connection to change.<br /><br />_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[RequestEnable(bool)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)|_**Obsolete:** Use the setter of Enabled_<br /><br />_Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_|
 

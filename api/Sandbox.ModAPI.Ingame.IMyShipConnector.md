@@ -24,13 +24,13 @@ public interface IMyShipConnector: IMyFunctionalBlock, IMyTerminalBlock, IMyCube
 
 |Member|Description|
 |---|---|
-|[ThrowOut { get; set; }](Sandbox.ModAPI.Ingame.IMyShipConnector.ThrowOut)||
-|[CollectAll { get; set; }](Sandbox.ModAPI.Ingame.IMyShipConnector.CollectAll)||
-|[PullStrength { get; set; }](Sandbox.ModAPI.Ingame.IMyShipConnector.PullStrength)||
+|[ThrowOut { get; set; }](Sandbox.ModAPI.Ingame.IMyShipConnector.ThrowOut)|Gets or sets whether this connector should throw out anything placed in its inventory.|
+|[CollectAll { get; set; }](Sandbox.ModAPI.Ingame.IMyShipConnector.CollectAll)|Gets or sets whether this connector should be pulling items into its inventory.|
+|[PullStrength { get; set; }](Sandbox.ModAPI.Ingame.IMyShipConnector.PullStrength)|Gets or sets the currently configured strength of the pull when the connector is within range of another.|
 |[IsLocked { get; }](Sandbox.ModAPI.Ingame.IMyShipConnector.IsLocked)|_**Obsolete:** Use the Status property_|
 |[IsConnected { get; }](Sandbox.ModAPI.Ingame.IMyShipConnector.IsConnected)|_**Obsolete:** Use the Status property_|
-|[Status { get; }](Sandbox.ModAPI.Ingame.IMyShipConnector.Status)||
-|[OtherConnector { get; }](Sandbox.ModAPI.Ingame.IMyShipConnector.OtherConnector)||
+|[Status { get; }](Sandbox.ModAPI.Ingame.IMyShipConnector.Status)|Determines the current status of the connector.|
+|[OtherConnector { get; }](Sandbox.ModAPI.Ingame.IMyShipConnector.OtherConnector)|Gets the connector this one is connected to when [Status](Sandbox.ModAPI.Ingame.IMyShipConnector.Status) is ConnectorStatus.Connected .|
 |[Components { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Components)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[EntityId { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.EntityId)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[Name { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Name)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
@@ -62,7 +62,7 @@ public interface IMyShipConnector: IMyFunctionalBlock, IMyTerminalBlock, IMyCube
 |[CustomNameWithFaction { get; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomNameWithFaction)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[DetailedInfo { get; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.DetailedInfo)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[CustomInfo { get; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomInfo)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
-|[CustomData { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomData)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
+|[CustomData { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomData)|Gets or sets the Custom Data string. NOTE: Only use this for user input. For storing large mod configs, create your own MyModStorageComponent<br /><br />_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[ShowOnHUD { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowOnHUD)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[ShowInTerminal { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInTerminal)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[ShowInToolbarConfig { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInToolbarConfig)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
@@ -73,9 +73,9 @@ public interface IMyShipConnector: IMyFunctionalBlock, IMyTerminalBlock, IMyCube
 
 |Member|Description|
 |---|---|
-|[Connect()](Sandbox.ModAPI.Ingame.IMyShipConnector.Connect)||
-|[Disconnect()](Sandbox.ModAPI.Ingame.IMyShipConnector.Disconnect)||
-|[ToggleConnect()](Sandbox.ModAPI.Ingame.IMyShipConnector.ToggleConnect)||
+|[Connect()](Sandbox.ModAPI.Ingame.IMyShipConnector.Connect)|Attempts to connect. If [Status](Sandbox.ModAPI.Ingame.IMyShipConnector.Status) is anything else but ConnectorStatus.Connectable , this method does nothing.|
+|[Disconnect()](Sandbox.ModAPI.Ingame.IMyShipConnector.Disconnect)|Disconnects this connector.|
+|[ToggleConnect()](Sandbox.ModAPI.Ingame.IMyShipConnector.ToggleConnect)|Toggles between ConnectorStatus.Connected and ConnectorStatus.Unconnected , depending on the current status. Another connector must be in range for this method to have any effect.|
 |[GetInventory()](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)|Simply get the MyInventoryBase component stored in this entity.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[GetInventory(int)](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)|Search for inventory component with maching index.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[GetPosition()](VRage.Game.ModAPI.Ingame.IMyEntity.GetPosition)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
@@ -93,6 +93,6 @@ public interface IMyShipConnector: IMyFunctionalBlock, IMyTerminalBlock, IMyCube
 |[GetActionWithName(string)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActionWithName)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[GetProperty(string)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetProperty)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[GetProperties(List, Func)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetProperties)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
-|[IsSameConstructAs(IMyTerminalBlock)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.IsSameConstructAs)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
+|[IsSameConstructAs(IMyTerminalBlock)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.IsSameConstructAs)|Determines whether this block is mechanically connected to the other. This is any block connected with rotors or pistons or other mechanical devices, but not things like connectors. This will in most cases constitute your complete construct.<br /><br />Be aware that using merge blocks combines grids into one, so this function will not filter out grids connected that way. Also be aware that detaching the heads of pistons and rotors will cause this connection to change.<br /><br />_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[RequestEnable(bool)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)|_**Obsolete:** Use the setter of Enabled_<br /><br />_Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_|
 

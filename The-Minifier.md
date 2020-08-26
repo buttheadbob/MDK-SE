@@ -20,3 +20,5 @@ To use the plugin, [download it from here](https://github.com/malware-dev/MDK-SE
 Edit your Steam launch option by right-clicking on the game in Steam, select `properties`, the `General` tab, and click the button named `Set launch options`. Add `-plugin FullPathToTheDLLHere`. That's all you need to do; your limit is now gone.
 
 Again; since scripts run on the server, this will only work for local games.
+
+**Note:** The DLL in this zip will likely be blocked by your OS. This will cause the game to crash as it will refuse to load the assembly. You will need to right-click the DLL, select properties, and unblock it.

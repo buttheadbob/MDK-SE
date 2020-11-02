@@ -10,9 +10,9 @@ public interface IMyShipController: IMyTerminalBlock, IMyCubeBlock, IMyEntity
 **Assembly:** Sandbox.Common.dll
 
 **Implements:**  
-* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 
 **Inheritors:**  
 * [IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit)  
@@ -20,9 +20,9 @@ public interface IMyShipController: IMyTerminalBlock, IMyCubeBlock, IMyEntity
 * [IMyRemoteControl](Sandbox.ModAPI.Ingame.IMyRemoteControl)
 
 **Type Definitions:**  
-* `MyObjectBuilder_TerminalBlock/ControlPanel`  
-* `MyObjectBuilder_TerminalBlock/SmallControlPanel`  
-* `MyObjectBuilder_TerminalBlock/LargeBlockSciFiTerminal`
+* MyObjectBuilder_TerminalBlock/ControlPanel  
+* MyObjectBuilder_TerminalBlock/LargeBlockSciFiTerminal  
+* MyObjectBuilder_TerminalBlock/SmallControlPanel
 
 #### Properties
 

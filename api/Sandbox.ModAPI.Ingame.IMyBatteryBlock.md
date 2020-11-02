@@ -10,16 +10,16 @@ public interface IMyBatteryBlock: IMyPowerProducer, IMyFunctionalBlock, IMyTermi
 **Assembly:** Sandbox.Common.dll
 
 **Implements:**  
-* [IMyPowerProducer](Sandbox.ModAPI.Ingame.IMyPowerProducer)  
-* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
-* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
+* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
+* [IMyPowerProducer](Sandbox.ModAPI.Ingame.IMyPowerProducer)  
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 
 **Type Definitions:**  
-* `MyObjectBuilder_BatteryBlock/LargeBlockBatteryBlock`  
-* `MyObjectBuilder_BatteryBlock/SmallBlockBatteryBlock`  
-* `MyObjectBuilder_BatteryBlock/SmallBlockSmallBatteryBlock`
+* MyObjectBuilder_BatteryBlock/LargeBlockBatteryBlock  
+* MyObjectBuilder_BatteryBlock/SmallBlockBatteryBlock  
+* MyObjectBuilder_BatteryBlock/SmallBlockSmallBatteryBlock
 
 #### Properties
 

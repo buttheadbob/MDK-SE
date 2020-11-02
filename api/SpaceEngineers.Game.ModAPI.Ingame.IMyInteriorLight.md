@@ -10,19 +10,19 @@ public interface IMyInteriorLight: IMyLightingBlock, IMyFunctionalBlock, IMyTerm
 **Assembly:** SpaceEngineers.Game.dll
 
 **Implements:**  
-* [IMyLightingBlock](Sandbox.ModAPI.Ingame.IMyLightingBlock)  
-* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
-* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
+* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
+* [IMyLightingBlock](Sandbox.ModAPI.Ingame.IMyLightingBlock)  
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 
 **Type Definitions:**  
-* `MyObjectBuilder_InteriorLight/SmallLight`  
-* `MyObjectBuilder_InteriorLight/SmallBlockSmallLight`  
-* `MyObjectBuilder_InteriorLight/LargeBlockLight_1corner`  
-* `MyObjectBuilder_InteriorLight/LargeBlockLight_2corner`  
-* `MyObjectBuilder_InteriorLight/SmallBlockLight_1corner`  
-* `MyObjectBuilder_InteriorLight/SmallBlockLight_2corner`
+* MyObjectBuilder_InteriorLight/LargeBlockLight_1corner  
+* MyObjectBuilder_InteriorLight/LargeBlockLight_2corner  
+* MyObjectBuilder_InteriorLight/SmallBlockLight_1corner  
+* MyObjectBuilder_InteriorLight/SmallBlockLight_2corner  
+* MyObjectBuilder_InteriorLight/SmallBlockSmallLight  
+* MyObjectBuilder_InteriorLight/SmallLight
 
 #### Properties
 

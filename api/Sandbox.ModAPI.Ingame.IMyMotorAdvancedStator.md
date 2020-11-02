@@ -10,20 +10,20 @@ public interface IMyMotorAdvancedStator: IMyMotorStator, IMyMotorBase, IMyMechan
 **Assembly:** Sandbox.Common.dll
 
 **Implements:**  
-* [IMyMotorStator](Sandbox.ModAPI.Ingame.IMyMotorStator)  
-* [IMyMotorBase](Sandbox.ModAPI.Ingame.IMyMotorBase)  
-* [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)  
-* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
-* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
+* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
+* [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)  
+* [IMyMotorBase](Sandbox.ModAPI.Ingame.IMyMotorBase)  
+* [IMyMotorStator](Sandbox.ModAPI.Ingame.IMyMotorStator)  
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 
 **Type Definitions:**  
-* `MyObjectBuilder_MotorAdvancedStator/LargeAdvancedStator`  
-* `MyObjectBuilder_MotorAdvancedStator/SmallAdvancedStator`  
-* `MyObjectBuilder_MotorAdvancedStator/LargeHinge`  
-* `MyObjectBuilder_MotorAdvancedStator/MediumHinge`  
-* `MyObjectBuilder_MotorAdvancedStator/SmallHinge`
+* MyObjectBuilder_MotorAdvancedStator/LargeAdvancedStator  
+* MyObjectBuilder_MotorAdvancedStator/LargeHinge  
+* MyObjectBuilder_MotorAdvancedStator/MediumHinge  
+* MyObjectBuilder_MotorAdvancedStator/SmallAdvancedStator  
+* MyObjectBuilder_MotorAdvancedStator/SmallHinge
 
 #### Properties
 

@@ -10,11 +10,11 @@ public interface IMyOxygenGenerator: IMyGasGenerator, IMyFunctionalBlock, IMyTer
 **Assembly:** Sandbox.Common.dll
 
 **Implements:**  
-* [IMyGasGenerator](Sandbox.ModAPI.Ingame.IMyGasGenerator)  
-* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
-* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
+* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
+* [IMyGasGenerator](Sandbox.ModAPI.Ingame.IMyGasGenerator)  
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 
 ## Obsolete
 

@@ -10,17 +10,17 @@ public interface IMyReactor: IMyPowerProducer, IMyFunctionalBlock, IMyTerminalBl
 **Assembly:** Sandbox.Common.dll
 
 **Implements:**  
-* [IMyPowerProducer](Sandbox.ModAPI.Ingame.IMyPowerProducer)  
-* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
-* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
+* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
+* [IMyPowerProducer](Sandbox.ModAPI.Ingame.IMyPowerProducer)  
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 
 **Type Definitions:**  
-* `MyObjectBuilder_Reactor/SmallBlockSmallGenerator`  
-* `MyObjectBuilder_Reactor/SmallBlockLargeGenerator`  
-* `MyObjectBuilder_Reactor/LargeBlockSmallGenerator`  
-* `MyObjectBuilder_Reactor/LargeBlockLargeGenerator`
+* MyObjectBuilder_Reactor/LargeBlockLargeGenerator  
+* MyObjectBuilder_Reactor/LargeBlockSmallGenerator  
+* MyObjectBuilder_Reactor/SmallBlockLargeGenerator  
+* MyObjectBuilder_Reactor/SmallBlockSmallGenerator
 
 #### Properties
 

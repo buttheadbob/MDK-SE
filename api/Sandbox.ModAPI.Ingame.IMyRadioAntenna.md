@@ -12,15 +12,15 @@ Antenna block interface
 **Assembly:** Sandbox.Common.dll
 
 **Implements:**  
-* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
-* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
+* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 
 **Type Definitions:**  
-* `MyObjectBuilder_RadioAntenna/LargeBlockRadioAntenna`  
-* `MyObjectBuilder_RadioAntenna/SmallBlockRadioAntenna`  
-* `MyObjectBuilder_RadioAntenna/LargeBlockRadioAntennaDish`
+* MyObjectBuilder_RadioAntenna/LargeBlockRadioAntenna  
+* MyObjectBuilder_RadioAntenna/LargeBlockRadioAntennaDish  
+* MyObjectBuilder_RadioAntenna/SmallBlockRadioAntenna
 
 #### Properties
 

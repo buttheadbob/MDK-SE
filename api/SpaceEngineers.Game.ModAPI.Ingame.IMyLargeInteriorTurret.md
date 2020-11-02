@@ -10,15 +10,15 @@ public interface IMyLargeInteriorTurret: IMyLargeTurretBase, IMyUserControllable
 **Assembly:** SpaceEngineers.Game.dll
 
 **Implements:**  
-* [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)  
-* [IMyUserControllableGun](Sandbox.ModAPI.Ingame.IMyUserControllableGun)  
-* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
-* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
+* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
+* [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)  
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
+* [IMyUserControllableGun](Sandbox.ModAPI.Ingame.IMyUserControllableGun)
 
 **Type Definitions:**  
-* `MyObjectBuilder_InteriorTurret/LargeInteriorTurret`
+* MyObjectBuilder_InteriorTurret/LargeInteriorTurret
 
 #### Properties
 

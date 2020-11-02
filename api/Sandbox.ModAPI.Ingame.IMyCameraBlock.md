@@ -10,14 +10,14 @@ public interface IMyCameraBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBl
 **Assembly:** Sandbox.Common.dll
 
 **Implements:**  
-* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
-* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
+* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 
 **Type Definitions:**  
-* `MyObjectBuilder_CameraBlock/SmallCameraBlock`  
-* `MyObjectBuilder_CameraBlock/LargeCameraBlock`
+* MyObjectBuilder_CameraBlock/LargeCameraBlock  
+* MyObjectBuilder_CameraBlock/SmallCameraBlock
 
 #### Properties
 

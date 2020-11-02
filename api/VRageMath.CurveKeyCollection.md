@@ -13,8 +13,8 @@ Contains the CurveKeys making up a Curve.
 
 **Implements:**  
 * [ICollection<VRageMath.CurveKey>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.ICollection-1?view=netframework-4.6)  
-* [IEnumerable<VRageMath.CurveKey>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netframework-4.6)  
-* [IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.IEnumerable?view=netframework-4.6)
+* [IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.IEnumerable?view=netframework-4.6)  
+* [IEnumerable<VRageMath.CurveKey>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netframework-4.6)
 
 #### Properties
 

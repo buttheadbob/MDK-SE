@@ -10,32 +10,32 @@ public interface IMyThrust: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, 
 **Assembly:** Sandbox.Common.dll
 
 **Implements:**  
-* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
-* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
+* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 
 **Type Definitions:**  
-* `MyObjectBuilder_Thrust/SmallBlockSmallThrust`  
-* `MyObjectBuilder_Thrust/SmallBlockLargeThrust`  
-* `MyObjectBuilder_Thrust/LargeBlockSmallThrust`  
-* `MyObjectBuilder_Thrust/LargeBlockLargeThrust`  
-* `MyObjectBuilder_Thrust/LargeBlockLargeHydrogenThrust`  
-* `MyObjectBuilder_Thrust/LargeBlockSmallHydrogenThrust`  
-* `MyObjectBuilder_Thrust/SmallBlockLargeHydrogenThrust`  
-* `MyObjectBuilder_Thrust/SmallBlockSmallHydrogenThrust`  
-* `MyObjectBuilder_Thrust/LargeBlockLargeAtmosphericThrust`  
-* `MyObjectBuilder_Thrust/LargeBlockSmallAtmosphericThrust`  
-* `MyObjectBuilder_Thrust/SmallBlockLargeAtmosphericThrust`  
-* `MyObjectBuilder_Thrust/SmallBlockSmallAtmosphericThrust`  
-* `MyObjectBuilder_Thrust/SmallBlockSmallThrustSciFi`  
-* `MyObjectBuilder_Thrust/SmallBlockLargeThrustSciFi`  
-* `MyObjectBuilder_Thrust/LargeBlockSmallThrustSciFi`  
-* `MyObjectBuilder_Thrust/LargeBlockLargeThrustSciFi`  
-* `MyObjectBuilder_Thrust/LargeBlockLargeAtmosphericThrustSciFi`  
-* `MyObjectBuilder_Thrust/LargeBlockSmallAtmosphericThrustSciFi`  
-* `MyObjectBuilder_Thrust/SmallBlockLargeAtmosphericThrustSciFi`  
-* `MyObjectBuilder_Thrust/SmallBlockSmallAtmosphericThrustSciFi`
+* MyObjectBuilder_Thrust/LargeBlockLargeAtmosphericThrust  
+* MyObjectBuilder_Thrust/LargeBlockLargeAtmosphericThrustSciFi  
+* MyObjectBuilder_Thrust/LargeBlockLargeHydrogenThrust  
+* MyObjectBuilder_Thrust/LargeBlockLargeThrust  
+* MyObjectBuilder_Thrust/LargeBlockLargeThrustSciFi  
+* MyObjectBuilder_Thrust/LargeBlockSmallAtmosphericThrust  
+* MyObjectBuilder_Thrust/LargeBlockSmallAtmosphericThrustSciFi  
+* MyObjectBuilder_Thrust/LargeBlockSmallHydrogenThrust  
+* MyObjectBuilder_Thrust/LargeBlockSmallThrust  
+* MyObjectBuilder_Thrust/LargeBlockSmallThrustSciFi  
+* MyObjectBuilder_Thrust/SmallBlockLargeAtmosphericThrust  
+* MyObjectBuilder_Thrust/SmallBlockLargeAtmosphericThrustSciFi  
+* MyObjectBuilder_Thrust/SmallBlockLargeHydrogenThrust  
+* MyObjectBuilder_Thrust/SmallBlockLargeThrust  
+* MyObjectBuilder_Thrust/SmallBlockLargeThrustSciFi  
+* MyObjectBuilder_Thrust/SmallBlockSmallAtmosphericThrust  
+* MyObjectBuilder_Thrust/SmallBlockSmallAtmosphericThrustSciFi  
+* MyObjectBuilder_Thrust/SmallBlockSmallHydrogenThrust  
+* MyObjectBuilder_Thrust/SmallBlockSmallThrust  
+* MyObjectBuilder_Thrust/SmallBlockSmallThrustSciFi
 
 #### Properties
 

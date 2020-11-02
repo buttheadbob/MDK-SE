@@ -3387,6 +3387,7 @@ public abstract sealed class MySpaceTexts
 |DisplayName_TSS_Weather_Thunderstorm||
 |DisplayName_TSS_Weather_Rain||
 |DisplayName_TSS_Weather_Snow||
+|DisplayName_TSS_Weather_MarsSnow||
 |DisplayName_TSS_Weather_Sandstorm||
 |DisplayName_TSS_Weather_Fog||
 |DisplayName_TSS_Weather_Dust||
@@ -4696,6 +4697,24 @@ public abstract sealed class MySpaceTexts
 |AreaInteration_Label||
 |ToolTipOptionsGame_AreaInteraction||
 |OpenDlcShop||
+|TieredUpdate_GridPresenceNotAvailable||
+|TieredUpdate_GridPresenceTier||
+|TieredUpdate_PlayerPresenceNotAvailable||
+|TieredUpdate_PlayerPresenceTier||
+|GPSScreen_hueLabel||
+|GPSScreen_saturationLabel||
+|GPSScreen_valueLabel||
+|GPSScreen_hexLabel||
+|GPSScreen_hueTooltip||
+|GPSScreen_saturationTooltip||
+|GPSScreen_valueTooltip||
+|GPSScreen_hexTooltip||
+|NotReplicated||
+|Replicated||
+|TieredUpdate_IsReplicated||
+|TieredUpdate_IsReplicated_False||
+|TieredUpdate_IsReplicated_NA||
+|TieredUpdate_IsReplicated_True||
 |BlueprintScreen_FilePathTooLong_Caption||
 |BlueprintScreen_FilePathTooLong_Description||
 |DisplayName_Block_SideDoor||
@@ -4718,4 +4737,7 @@ public abstract sealed class MySpaceTexts
 |LCD_SpaceTravel_Portrait||
 |LCD_SpaceTravel_Square||
 |LCD_ThunderFleet_Square||
+|ScreenDebugAdminMenu_RevertBoulderTooltip||
+|DisplayName_TSS_Weather_Marsstorm||
+|DisplayName_TSS_Weather_SnowStorm||
 

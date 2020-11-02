@@ -10,15 +10,15 @@ public interface IMyShipConnector: IMyFunctionalBlock, IMyTerminalBlock, IMyCube
 **Assembly:** Sandbox.Common.dll
 
 **Implements:**  
-* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
-* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
+* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 
 **Type Definitions:**  
-* `MyObjectBuilder_ShipConnector/Connector`  
-* `MyObjectBuilder_ShipConnector/ConnectorSmall`  
-* `MyObjectBuilder_ShipConnector/ConnectorMedium`
+* MyObjectBuilder_ShipConnector/Connector  
+* MyObjectBuilder_ShipConnector/ConnectorMedium  
+* MyObjectBuilder_ShipConnector/ConnectorSmall
 
 #### Properties
 

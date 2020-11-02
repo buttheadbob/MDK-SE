@@ -12,9 +12,9 @@ Represents a four-component color using red, green, blue, and alpha data.
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IPackedVector<System.UInt32>](VRageMath.PackedVector.IPackedVector`1[[System.UInt32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]])  
+* [IEquatable<VRageMath.Color>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)  
 * [IPackedVector](VRageMath.PackedVector.IPackedVector)  
-* [IEquatable<VRageMath.Color>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IPackedVector<System.UInt32>](VRageMath.PackedVector.IPackedVector`1[[System.UInt32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]])
 
 #### Fields
 

@@ -12,14 +12,14 @@ AirVent block for pressurizing and depresurizing rooms
 **Assembly:** SpaceEngineers.Game.dll
 
 **Implements:**  
-* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
-* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
+* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 
 **Type Definitions:**  
-* `MyObjectBuilder_AirVent/`  
-* `MyObjectBuilder_AirVent/SmallAirVent`
+* MyObjectBuilder_AirVent/  
+* MyObjectBuilder_AirVent/SmallAirVent
 
 #### Properties
 

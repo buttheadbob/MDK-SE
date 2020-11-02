@@ -12,15 +12,15 @@ Ship welder interface
 **Assembly:** Sandbox.Common.dll
 
 **Implements:**  
-* [IMyShipToolBase](Sandbox.ModAPI.Ingame.IMyShipToolBase)  
-* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
-* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
+* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
+* [IMyShipToolBase](Sandbox.ModAPI.Ingame.IMyShipToolBase)  
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 
 **Type Definitions:**  
-* `MyObjectBuilder_ShipWelder/LargeShipWelder`  
-* `MyObjectBuilder_ShipWelder/SmallShipWelder`
+* MyObjectBuilder_ShipWelder/LargeShipWelder  
+* MyObjectBuilder_ShipWelder/SmallShipWelder
 
 #### Properties
 

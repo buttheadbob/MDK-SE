@@ -12,17 +12,17 @@ Gas generator interface
 **Assembly:** Sandbox.Common.dll
 
 **Implements:**  
-* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
-* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
+* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 
 **Inheritors:**  
 * [IMyOxygenGenerator](Sandbox.ModAPI.Ingame.IMyOxygenGenerator)
 
 **Type Definitions:**  
-* `MyObjectBuilder_OxygenGenerator/`  
-* `MyObjectBuilder_OxygenGenerator/OxygenGeneratorSmall`
+* MyObjectBuilder_OxygenGenerator/  
+* MyObjectBuilder_OxygenGenerator/OxygenGeneratorSmall
 
 #### Properties
 

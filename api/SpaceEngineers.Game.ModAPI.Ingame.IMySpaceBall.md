@@ -12,15 +12,15 @@ Spaceball interface
 **Assembly:** SpaceEngineers.Game.dll
 
 **Implements:**  
-* [IMyVirtualMass](SpaceEngineers.Game.ModAPI.Ingame.IMyVirtualMass)  
+* [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
 * [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
 * [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
-* [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyVirtualMass](SpaceEngineers.Game.ModAPI.Ingame.IMyVirtualMass)
 
 **Type Definitions:**  
-* `MyObjectBuilder_SpaceBall/SpaceBallLarge`  
-* `MyObjectBuilder_SpaceBall/SpaceBallSmall`
+* MyObjectBuilder_SpaceBall/SpaceBallLarge  
+* MyObjectBuilder_SpaceBall/SpaceBallSmall
 
 #### Properties
 

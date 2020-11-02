@@ -643,6 +643,7 @@
 |ResetVelocity|Reset Velocity|
 |Retract|Retract|
 |Reverse|Reverse|
+|ShareInertiaTensor|Share inertia tensor On/Off|
 |ShowOnHUD|Show on HUD On/Off|
 |ShowOnHUD_Off|Show on HUD Off|
 |ShowOnHUD_On|Show on HUD On|
@@ -658,6 +659,7 @@
 |Name|StringBuilder|
 |OnOff|bool|
 |SafetyDetach|float|
+|ShareInertiaTensor|bool|
 |ShowInInventory|bool|
 |ShowInTerminal|bool|
 |ShowInToolbarConfig|bool|
@@ -1186,6 +1188,7 @@
 |ResetVelocity|Reset Velocity|
 |Reverse|Reverse|
 |RotorLock|Rotor lock On/Off|
+|ShareInertiaTensor|Share inertia tensor On/Off|
 |ShowOnHUD|Show on HUD On/Off|
 |ShowOnHUD_Off|Show on HUD Off|
 |ShowOnHUD_On|Show on HUD On|
@@ -1203,6 +1206,7 @@
 |OnOff|bool|
 |RotorLock|bool|
 |SafetyDetach|float|
+|ShareInertiaTensor|bool|
 |ShowInInventory|bool|
 |ShowInTerminal|bool|
 |ShowInToolbarConfig|bool|
@@ -1253,6 +1257,7 @@
 |ResetPropulsion override|Reset Propulsion override|
 |ResetSpeed Limit|Reset Speed limit|
 |ResetSteer override|Reset Steer override|
+|ShareInertiaTensor|Share inertia tensor On/Off|
 |ShowOnHUD|Show on HUD On/Off|
 |ShowOnHUD_Off|Show on HUD Off|
 |ShowOnHUD_On|Show on HUD On|
@@ -1276,6 +1281,7 @@
 |Propulsion|bool|
 |Propulsion override|float|
 |SafetyDetach|float|
+|ShareInertiaTensor|bool|
 |ShowInInventory|bool|
 |ShowInTerminal|bool|
 |ShowInToolbarConfig|bool|
@@ -1399,6 +1405,7 @@
 |ResetVelocity|Reset Velocity|
 |Retract|Retract|
 |Reverse|Reverse|
+|ShareInertiaTensor|Share inertia tensor On/Off|
 |ShowOnHUD|Show on HUD On/Off|
 |ShowOnHUD_Off|Show on HUD Off|
 |ShowOnHUD_On|Show on HUD On|
@@ -1414,6 +1421,7 @@
 |Name|StringBuilder|
 |OnOff|bool|
 |SafetyDetach|float|
+|ShareInertiaTensor|bool|
 |ShowInInventory|bool|
 |ShowInTerminal|bool|
 |ShowInToolbarConfig|bool|

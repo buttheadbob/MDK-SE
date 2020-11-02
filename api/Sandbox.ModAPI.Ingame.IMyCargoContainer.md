@@ -10,19 +10,19 @@ public interface IMyCargoContainer: IMyTerminalBlock, IMyCubeBlock, IMyEntity
 **Assembly:** Sandbox.Common.dll
 
 **Implements:**  
-* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 
 **Type Definitions:**  
-* `MyObjectBuilder_CargoContainer/LargeBlockLockerRoom`  
-* `MyObjectBuilder_CargoContainer/LargeBlockLockerRoomCorner`  
-* `MyObjectBuilder_CargoContainer/LargeBlockLockers`  
-* `MyObjectBuilder_CargoContainer/SmallBlockSmallContainer`  
-* `MyObjectBuilder_CargoContainer/SmallBlockMediumContainer`  
-* `MyObjectBuilder_CargoContainer/SmallBlockLargeContainer`  
-* `MyObjectBuilder_CargoContainer/LargeBlockSmallContainer`  
-* `MyObjectBuilder_CargoContainer/LargeBlockLargeContainer`
+* MyObjectBuilder_CargoContainer/LargeBlockLargeContainer  
+* MyObjectBuilder_CargoContainer/LargeBlockLockerRoom  
+* MyObjectBuilder_CargoContainer/LargeBlockLockerRoomCorner  
+* MyObjectBuilder_CargoContainer/LargeBlockLockers  
+* MyObjectBuilder_CargoContainer/LargeBlockSmallContainer  
+* MyObjectBuilder_CargoContainer/SmallBlockLargeContainer  
+* MyObjectBuilder_CargoContainer/SmallBlockMediumContainer  
+* MyObjectBuilder_CargoContainer/SmallBlockSmallContainer
 
 #### Properties
 

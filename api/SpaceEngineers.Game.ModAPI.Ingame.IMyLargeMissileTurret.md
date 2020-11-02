@@ -10,13 +10,13 @@ public interface IMyLargeMissileTurret: IMyLargeConveyorTurretBase, IMyLargeTurr
 **Assembly:** SpaceEngineers.Game.dll
 
 **Implements:**  
+* [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
+* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
 * [IMyLargeConveyorTurretBase](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase)  
 * [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)  
-* [IMyUserControllableGun](Sandbox.ModAPI.Ingame.IMyUserControllableGun)  
-* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
 * [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
-* [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyUserControllableGun](Sandbox.ModAPI.Ingame.IMyUserControllableGun)
 
 #### Properties
 

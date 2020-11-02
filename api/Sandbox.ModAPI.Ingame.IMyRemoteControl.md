@@ -10,14 +10,14 @@ public interface IMyRemoteControl: IMyShipController, IMyTerminalBlock, IMyCubeB
 **Assembly:** Sandbox.Common.dll
 
 **Implements:**  
-* [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)  
-* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
+* [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)  
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 
 **Type Definitions:**  
-* `MyObjectBuilder_RemoteControl/LargeBlockRemoteControl`  
-* `MyObjectBuilder_RemoteControl/SmallBlockRemoteControl`
+* MyObjectBuilder_RemoteControl/LargeBlockRemoteControl  
+* MyObjectBuilder_RemoteControl/SmallBlockRemoteControl
 
 #### Properties
 

@@ -10,32 +10,32 @@ public interface IMyTextPanel: IMyTextSurface, IMyFunctionalBlock, IMyTerminalBl
 **Assembly:** Sandbox.Common.dll
 
 **Implements:**  
-* [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)  
+* [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
 * [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
 * [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
-* [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)
 
 **Type Definitions:**  
-* `MyObjectBuilder_TextPanel/SmallTextPanel`  
-* `MyObjectBuilder_TextPanel/SmallLCDPanelWide`  
-* `MyObjectBuilder_TextPanel/SmallLCDPanel`  
-* `MyObjectBuilder_TextPanel/LargeBlockCorner_LCD_1`  
-* `MyObjectBuilder_TextPanel/LargeBlockCorner_LCD_2`  
-* `MyObjectBuilder_TextPanel/LargeBlockCorner_LCD_Flat_1`  
-* `MyObjectBuilder_TextPanel/LargeBlockCorner_LCD_Flat_2`  
-* `MyObjectBuilder_TextPanel/SmallBlockCorner_LCD_1`  
-* `MyObjectBuilder_TextPanel/SmallBlockCorner_LCD_2`  
-* `MyObjectBuilder_TextPanel/SmallBlockCorner_LCD_Flat_1`  
-* `MyObjectBuilder_TextPanel/SmallBlockCorner_LCD_Flat_2`  
-* `MyObjectBuilder_TextPanel/LargeTextPanel`  
-* `MyObjectBuilder_TextPanel/LargeLCDPanel`  
-* `MyObjectBuilder_TextPanel/LargeLCDPanelWide`  
-* `MyObjectBuilder_TextPanel/TransparentLCDLarge`  
-* `MyObjectBuilder_TextPanel/TransparentLCDSmall`  
-* `MyObjectBuilder_TextPanel/LargeLCDPanel5x5`  
-* `MyObjectBuilder_TextPanel/LargeLCDPanel5x3`  
-* `MyObjectBuilder_TextPanel/LargeLCDPanel3x3`
+* MyObjectBuilder_TextPanel/LargeBlockCorner_LCD_1  
+* MyObjectBuilder_TextPanel/LargeBlockCorner_LCD_2  
+* MyObjectBuilder_TextPanel/LargeBlockCorner_LCD_Flat_1  
+* MyObjectBuilder_TextPanel/LargeBlockCorner_LCD_Flat_2  
+* MyObjectBuilder_TextPanel/LargeLCDPanel  
+* MyObjectBuilder_TextPanel/LargeLCDPanel3x3  
+* MyObjectBuilder_TextPanel/LargeLCDPanel5x3  
+* MyObjectBuilder_TextPanel/LargeLCDPanel5x5  
+* MyObjectBuilder_TextPanel/LargeLCDPanelWide  
+* MyObjectBuilder_TextPanel/LargeTextPanel  
+* MyObjectBuilder_TextPanel/SmallBlockCorner_LCD_1  
+* MyObjectBuilder_TextPanel/SmallBlockCorner_LCD_2  
+* MyObjectBuilder_TextPanel/SmallBlockCorner_LCD_Flat_1  
+* MyObjectBuilder_TextPanel/SmallBlockCorner_LCD_Flat_2  
+* MyObjectBuilder_TextPanel/SmallLCDPanel  
+* MyObjectBuilder_TextPanel/SmallLCDPanelWide  
+* MyObjectBuilder_TextPanel/SmallTextPanel  
+* MyObjectBuilder_TextPanel/TransparentLCDLarge  
+* MyObjectBuilder_TextPanel/TransparentLCDSmall
 
 #### Properties
 

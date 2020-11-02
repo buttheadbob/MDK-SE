@@ -10,21 +10,21 @@ public interface IMyGasTank: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock,
 **Assembly:** Sandbox.Common.dll
 
 **Implements:**  
-* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
-* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
+* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 
 **Inheritors:**  
 * [IMyOxygenTank](Sandbox.ModAPI.Ingame.IMyOxygenTank)
 
 **Type Definitions:**  
-* `MyObjectBuilder_OxygenTank/OxygenTankSmall`  
-* `MyObjectBuilder_OxygenTank/`  
-* `MyObjectBuilder_OxygenTank/LargeHydrogenTank`  
-* `MyObjectBuilder_OxygenTank/LargeHydrogenTankSmall`  
-* `MyObjectBuilder_OxygenTank/SmallHydrogenTank`  
-* `MyObjectBuilder_OxygenTank/SmallHydrogenTankSmall`
+* MyObjectBuilder_OxygenTank/  
+* MyObjectBuilder_OxygenTank/LargeHydrogenTank  
+* MyObjectBuilder_OxygenTank/LargeHydrogenTankSmall  
+* MyObjectBuilder_OxygenTank/OxygenTankSmall  
+* MyObjectBuilder_OxygenTank/SmallHydrogenTank  
+* MyObjectBuilder_OxygenTank/SmallHydrogenTankSmall
 
 #### Properties
 

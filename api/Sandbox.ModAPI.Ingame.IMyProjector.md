@@ -10,14 +10,14 @@ public interface IMyProjector: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBloc
 **Assembly:** Sandbox.Common.dll
 
 **Implements:**  
-* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
-* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
+* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyTextSurfaceProvider](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider)
 
 **Type Definitions:**  
-* `MyObjectBuilder_Projector/LargeBlockConsole`
+* MyObjectBuilder_Projector/LargeBlockConsole
 
 #### Properties
 

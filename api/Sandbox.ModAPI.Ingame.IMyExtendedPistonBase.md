@@ -10,16 +10,16 @@ public interface IMyExtendedPistonBase: IMyPistonBase, IMyMechanicalConnectionBl
 **Assembly:** Sandbox.Common.dll
 
 **Implements:**  
-* [IMyPistonBase](Sandbox.ModAPI.Ingame.IMyPistonBase)  
-* [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)  
-* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
-* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
+* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
+* [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)  
+* [IMyPistonBase](Sandbox.ModAPI.Ingame.IMyPistonBase)  
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 
 **Type Definitions:**  
-* `MyObjectBuilder_ExtendedPistonBase/LargePistonBase`  
-* `MyObjectBuilder_ExtendedPistonBase/SmallPistonBase`
+* MyObjectBuilder_ExtendedPistonBase/LargePistonBase  
+* MyObjectBuilder_ExtendedPistonBase/SmallPistonBase
 
 #### Properties
 

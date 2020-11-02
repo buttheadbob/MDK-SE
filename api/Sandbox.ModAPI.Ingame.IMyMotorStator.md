@@ -10,12 +10,12 @@ public interface IMyMotorStator: IMyMotorBase, IMyMechanicalConnectionBlock, IMy
 **Assembly:** Sandbox.Common.dll
 
 **Implements:**  
-* [IMyMotorBase](Sandbox.ModAPI.Ingame.IMyMotorBase)  
-* [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)  
-* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
-* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
+* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
+* [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)  
+* [IMyMotorBase](Sandbox.ModAPI.Ingame.IMyMotorBase)  
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 
 **Inheritors:**  
 * [IMyMotorAdvancedStator](Sandbox.ModAPI.Ingame.IMyMotorAdvancedStator)

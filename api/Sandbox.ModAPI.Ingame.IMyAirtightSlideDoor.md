@@ -11,14 +11,14 @@ public interface IMyAirtightSlideDoor: IMyAirtightDoorBase, IMyDoor, IMyFunction
 
 **Implements:**  
 * [IMyAirtightDoorBase](Sandbox.ModAPI.Ingame.IMyAirtightDoorBase)  
-* [IMyDoor](Sandbox.ModAPI.Ingame.IMyDoor)  
-* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
-* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyDoor](Sandbox.ModAPI.Ingame.IMyDoor)  
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
+* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 
 **Type Definitions:**  
-* `MyObjectBuilder_AirtightSlideDoor/LargeBlockSlideDoor`
+* MyObjectBuilder_AirtightSlideDoor/LargeBlockSlideDoor
 
 #### Properties
 

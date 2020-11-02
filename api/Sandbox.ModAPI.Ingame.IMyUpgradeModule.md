@@ -12,15 +12,15 @@ Interface to access module upgrades properties
 **Assembly:** Sandbox.Common.dll
 
 **Implements:**  
-* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
-* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
+* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 
 **Type Definitions:**  
-* `MyObjectBuilder_UpgradeModule/LargeProductivityModule`  
-* `MyObjectBuilder_UpgradeModule/LargeEffectivenessModule`  
-* `MyObjectBuilder_UpgradeModule/LargeEnergyModule`
+* MyObjectBuilder_UpgradeModule/LargeEffectivenessModule  
+* MyObjectBuilder_UpgradeModule/LargeEnergyModule  
+* MyObjectBuilder_UpgradeModule/LargeProductivityModule
 
 #### Properties
 

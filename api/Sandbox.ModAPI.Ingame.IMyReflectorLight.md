@@ -10,17 +10,17 @@ public interface IMyReflectorLight: IMyLightingBlock, IMyFunctionalBlock, IMyTer
 **Assembly:** Sandbox.Common.dll
 
 **Implements:**  
-* [IMyLightingBlock](Sandbox.ModAPI.Ingame.IMyLightingBlock)  
-* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
-* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
+* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
+* [IMyLightingBlock](Sandbox.ModAPI.Ingame.IMyLightingBlock)  
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 
 **Type Definitions:**  
-* `MyObjectBuilder_ReflectorLight/LargeBlockFrontLight`  
-* `MyObjectBuilder_ReflectorLight/SmallBlockFrontLight`  
-* `MyObjectBuilder_ReflectorLight/RotatingLightLarge`  
-* `MyObjectBuilder_ReflectorLight/RotatingLightSmall`
+* MyObjectBuilder_ReflectorLight/LargeBlockFrontLight  
+* MyObjectBuilder_ReflectorLight/RotatingLightLarge  
+* MyObjectBuilder_ReflectorLight/RotatingLightSmall  
+* MyObjectBuilder_ReflectorLight/SmallBlockFrontLight
 
 #### Properties
 

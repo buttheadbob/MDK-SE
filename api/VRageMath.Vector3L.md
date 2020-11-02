@@ -10,8 +10,8 @@ public struct Vector3L: IEquatable<VRageMath.Vector3L>, IComparable<VRageMath.Ve
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable<VRageMath.Vector3L>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)  
-* [IComparable<VRageMath.Vector3L>](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netframework-4.6)
+* [IComparable<VRageMath.Vector3L>](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netframework-4.6)  
+* [IEquatable<VRageMath.Vector3L>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 

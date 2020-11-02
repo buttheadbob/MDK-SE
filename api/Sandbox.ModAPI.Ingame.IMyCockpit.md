@@ -10,34 +10,34 @@ public interface IMyCockpit: IMyShipController, IMyTerminalBlock, IMyCubeBlock, 
 **Assembly:** Sandbox.Common.dll
 
 **Implements:**  
-* [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)  
-* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
+* [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)  
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyTextSurfaceProvider](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider)
 
 **Inheritors:**  
 * [IMyCryoChamber](Sandbox.ModAPI.Ingame.IMyCryoChamber)
 
 **Type Definitions:**  
-* `MyObjectBuilder_Cockpit/LargeBlockCockpit`  
-* `MyObjectBuilder_Cockpit/LargeBlockCockpitSeat`  
-* `MyObjectBuilder_Cockpit/SmallBlockCockpit`  
-* `MyObjectBuilder_Cockpit/DBSmallBlockFighterCockpit`  
-* `MyObjectBuilder_Cockpit/CockpitOpen`  
-* `MyObjectBuilder_Cockpit/OpenCockpitSmall`  
-* `MyObjectBuilder_Cockpit/OpenCockpitLarge`  
-* `MyObjectBuilder_Cockpit/PassengerSeatLarge`  
-* `MyObjectBuilder_Cockpit/PassengerSeatSmall`  
-* `MyObjectBuilder_Cockpit/LargeBlockDesk`  
-* `MyObjectBuilder_Cockpit/LargeBlockDeskCorner`  
-* `MyObjectBuilder_Cockpit/LargeBlockCouch`  
-* `MyObjectBuilder_Cockpit/LargeBlockCouchCorner`  
-* `MyObjectBuilder_Cockpit/LargeBlockBathroomOpen`  
-* `MyObjectBuilder_Cockpit/LargeBlockBathroom`  
-* `MyObjectBuilder_Cockpit/LargeBlockToilet`  
-* `MyObjectBuilder_Cockpit/SmallBlockCockpitIndustrial`  
-* `MyObjectBuilder_Cockpit/LargeBlockCockpitIndustrial`
+* MyObjectBuilder_Cockpit/CockpitOpen  
+* MyObjectBuilder_Cockpit/DBSmallBlockFighterCockpit  
+* MyObjectBuilder_Cockpit/LargeBlockBathroom  
+* MyObjectBuilder_Cockpit/LargeBlockBathroomOpen  
+* MyObjectBuilder_Cockpit/LargeBlockCockpit  
+* MyObjectBuilder_Cockpit/LargeBlockCockpitIndustrial  
+* MyObjectBuilder_Cockpit/LargeBlockCockpitSeat  
+* MyObjectBuilder_Cockpit/LargeBlockCouch  
+* MyObjectBuilder_Cockpit/LargeBlockCouchCorner  
+* MyObjectBuilder_Cockpit/LargeBlockDesk  
+* MyObjectBuilder_Cockpit/LargeBlockDeskCorner  
+* MyObjectBuilder_Cockpit/LargeBlockToilet  
+* MyObjectBuilder_Cockpit/OpenCockpitLarge  
+* MyObjectBuilder_Cockpit/OpenCockpitSmall  
+* MyObjectBuilder_Cockpit/PassengerSeatLarge  
+* MyObjectBuilder_Cockpit/PassengerSeatSmall  
+* MyObjectBuilder_Cockpit/SmallBlockCockpit  
+* MyObjectBuilder_Cockpit/SmallBlockCockpitIndustrial
 
 #### Properties
 

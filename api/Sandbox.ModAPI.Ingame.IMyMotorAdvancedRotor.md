@@ -10,10 +10,10 @@ public interface IMyMotorAdvancedRotor: IMyMotorRotor, IMyAttachableTopBlock, IM
 **Assembly:** Sandbox.Common.dll
 
 **Implements:**  
-* [IMyMotorRotor](Sandbox.ModAPI.Ingame.IMyMotorRotor)  
 * [IMyAttachableTopBlock](Sandbox.ModAPI.Ingame.IMyAttachableTopBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
+* [IMyMotorRotor](Sandbox.ModAPI.Ingame.IMyMotorRotor)
 
 #### Properties
 

@@ -10,15 +10,15 @@ public interface IMyRefinery: IMyProductionBlock, IMyFunctionalBlock, IMyTermina
 **Assembly:** Sandbox.Common.dll
 
 **Implements:**  
-* [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)  
-* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
-* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
+* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
+* [IMyProductionBlock](Sandbox.ModAPI.Ingame.IMyProductionBlock)  
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 
 **Type Definitions:**  
-* `MyObjectBuilder_Refinery/LargeRefinery`  
-* `MyObjectBuilder_Refinery/Blast Furnace`
+* MyObjectBuilder_Refinery/Blast Furnace  
+* MyObjectBuilder_Refinery/LargeRefinery
 
 #### Properties
 

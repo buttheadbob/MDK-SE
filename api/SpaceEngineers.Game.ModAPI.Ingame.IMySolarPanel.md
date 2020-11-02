@@ -10,15 +10,15 @@ public interface IMySolarPanel: IMyPowerProducer, IMyFunctionalBlock, IMyTermina
 **Assembly:** SpaceEngineers.Game.dll
 
 **Implements:**  
-* [IMyPowerProducer](Sandbox.ModAPI.Ingame.IMyPowerProducer)  
-* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
-* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
+* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
+* [IMyPowerProducer](Sandbox.ModAPI.Ingame.IMyPowerProducer)  
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 
 **Type Definitions:**  
-* `MyObjectBuilder_SolarPanel/LargeBlockSolarPanel`  
-* `MyObjectBuilder_SolarPanel/SmallBlockSolarPanel`
+* MyObjectBuilder_SolarPanel/LargeBlockSolarPanel  
+* MyObjectBuilder_SolarPanel/SmallBlockSolarPanel
 
 #### Properties
 

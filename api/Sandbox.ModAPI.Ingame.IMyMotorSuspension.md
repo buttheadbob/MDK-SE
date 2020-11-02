@@ -10,26 +10,26 @@ public interface IMyMotorSuspension: IMyMotorBase, IMyMechanicalConnectionBlock,
 **Assembly:** Sandbox.Common.dll
 
 **Implements:**  
-* [IMyMotorBase](Sandbox.ModAPI.Ingame.IMyMotorBase)  
-* [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)  
-* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
-* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
+* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
+* [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)  
+* [IMyMotorBase](Sandbox.ModAPI.Ingame.IMyMotorBase)  
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 
 **Type Definitions:**  
-* `MyObjectBuilder_MotorSuspension/Suspension3x3`  
-* `MyObjectBuilder_MotorSuspension/Suspension5x5`  
-* `MyObjectBuilder_MotorSuspension/Suspension1x1`  
-* `MyObjectBuilder_MotorSuspension/SmallSuspension3x3`  
-* `MyObjectBuilder_MotorSuspension/SmallSuspension5x5`  
-* `MyObjectBuilder_MotorSuspension/SmallSuspension1x1`  
-* `MyObjectBuilder_MotorSuspension/Suspension3x3mirrored`  
-* `MyObjectBuilder_MotorSuspension/Suspension5x5mirrored`  
-* `MyObjectBuilder_MotorSuspension/Suspension1x1mirrored`  
-* `MyObjectBuilder_MotorSuspension/SmallSuspension3x3mirrored`  
-* `MyObjectBuilder_MotorSuspension/SmallSuspension5x5mirrored`  
-* `MyObjectBuilder_MotorSuspension/SmallSuspension1x1mirrored`
+* MyObjectBuilder_MotorSuspension/SmallSuspension1x1  
+* MyObjectBuilder_MotorSuspension/SmallSuspension1x1mirrored  
+* MyObjectBuilder_MotorSuspension/SmallSuspension3x3  
+* MyObjectBuilder_MotorSuspension/SmallSuspension3x3mirrored  
+* MyObjectBuilder_MotorSuspension/SmallSuspension5x5  
+* MyObjectBuilder_MotorSuspension/SmallSuspension5x5mirrored  
+* MyObjectBuilder_MotorSuspension/Suspension1x1  
+* MyObjectBuilder_MotorSuspension/Suspension1x1mirrored  
+* MyObjectBuilder_MotorSuspension/Suspension3x3  
+* MyObjectBuilder_MotorSuspension/Suspension3x3mirrored  
+* MyObjectBuilder_MotorSuspension/Suspension5x5  
+* MyObjectBuilder_MotorSuspension/Suspension5x5mirrored
 
 #### Properties
 

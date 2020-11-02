@@ -10,12 +10,12 @@ public interface IMyOxygenFarm: IMyTerminalBlock, IMyCubeBlock, IMyEntity
 **Assembly:** SpaceEngineers.Game.dll
 
 **Implements:**  
-* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 
 **Type Definitions:**  
-* `MyObjectBuilder_OxygenFarm/LargeBlockOxygenFarm`
+* MyObjectBuilder_OxygenFarm/LargeBlockOxygenFarm
 
 #### Properties
 

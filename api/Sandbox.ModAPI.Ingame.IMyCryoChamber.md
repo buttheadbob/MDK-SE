@@ -11,16 +11,16 @@ public interface IMyCryoChamber: IMyCockpit, IMyShipController, IMyTerminalBlock
 
 **Implements:**  
 * [IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit)  
-* [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)  
-* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
 * [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
+* [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)  
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyTextSurfaceProvider](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider)
 
 **Type Definitions:**  
-* `MyObjectBuilder_CryoChamber/LargeBlockCryoChamber`  
-* `MyObjectBuilder_CryoChamber/SmallBlockCryoChamber`  
-* `MyObjectBuilder_CryoChamber/LargeBlockBed`
+* MyObjectBuilder_CryoChamber/LargeBlockBed  
+* MyObjectBuilder_CryoChamber/LargeBlockCryoChamber  
+* MyObjectBuilder_CryoChamber/SmallBlockCryoChamber
 
 #### Properties
 

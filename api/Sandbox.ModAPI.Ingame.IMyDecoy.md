@@ -10,14 +10,14 @@ public interface IMyDecoy: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, I
 **Assembly:** Sandbox.Common.dll
 
 **Implements:**  
-* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
-* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
+* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 
 **Type Definitions:**  
-* `MyObjectBuilder_Decoy/LargeDecoy`  
-* `MyObjectBuilder_Decoy/SmallDecoy`
+* MyObjectBuilder_Decoy/LargeDecoy  
+* MyObjectBuilder_Decoy/SmallDecoy
 
 #### Properties
 

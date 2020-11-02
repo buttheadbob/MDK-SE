@@ -10,18 +10,18 @@ public interface IMySmallMissileLauncher: IMyUserControllableGun, IMyFunctionalB
 **Assembly:** Sandbox.Common.dll
 
 **Implements:**  
-* [IMyUserControllableGun](Sandbox.ModAPI.Ingame.IMyUserControllableGun)  
+* [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
 * [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
 * [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
-* [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyUserControllableGun](Sandbox.ModAPI.Ingame.IMyUserControllableGun)
 
 **Inheritors:**  
 * [IMySmallMissileLauncherReload](Sandbox.ModAPI.Ingame.IMySmallMissileLauncherReload)
 
 **Type Definitions:**  
-* `MyObjectBuilder_SmallMissileLauncher/`  
-* `MyObjectBuilder_SmallMissileLauncher/LargeMissileLauncher`
+* MyObjectBuilder_SmallMissileLauncher/  
+* MyObjectBuilder_SmallMissileLauncher/LargeMissileLauncher
 
 #### Properties
 

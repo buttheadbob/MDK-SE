@@ -10,7 +10,7 @@ public struct SwitchEnumerator: IEnumerator<System.String>, IDisposable, IEnumer
 **Assembly:** VRage.Game.dll
 
 **Implements:**  
-* [IEnumerator<System.String>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerator-1?view=netframework-4.6)  
 * [IDisposable](https://docs.microsoft.com/en-us/dotnet/api/System.IDisposable?view=netframework-4.6)  
-* [IEnumerator](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.IEnumerator?view=netframework-4.6)
+* [IEnumerator](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.IEnumerator?view=netframework-4.6)  
+* [IEnumerator<System.String>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerator-1?view=netframework-4.6)
 

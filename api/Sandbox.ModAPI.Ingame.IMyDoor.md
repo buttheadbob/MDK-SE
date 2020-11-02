@@ -10,10 +10,10 @@ public interface IMyDoor: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IM
 **Assembly:** Sandbox.Common.dll
 
 **Implements:**  
-* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
-* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)  
-* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)
+* [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
+* [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
+* [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 
 **Inheritors:**  
 * [IMyAdvancedDoor](Sandbox.ModAPI.Ingame.IMyAdvancedDoor)  
@@ -22,11 +22,11 @@ public interface IMyDoor: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IM
 * [IMyAirtightSlideDoor](Sandbox.ModAPI.Ingame.IMyAirtightSlideDoor)
 
 **Type Definitions:**  
-* `MyObjectBuilder_Door/LargeBlockGate`  
-* `MyObjectBuilder_Door/LargeBlockOffsetDoor`  
-* `MyObjectBuilder_Door/`  
-* `MyObjectBuilder_Door/SmallDoor`  
-* `MyObjectBuilder_Door/SmallSideDoor`
+* MyObjectBuilder_Door/  
+* MyObjectBuilder_Door/LargeBlockGate  
+* MyObjectBuilder_Door/LargeBlockOffsetDoor  
+* MyObjectBuilder_Door/SmallDoor  
+* MyObjectBuilder_Door/SmallSideDoor
 
 #### Properties
 

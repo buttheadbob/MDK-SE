@@ -1,5 +1,5 @@
 ## Overview
-**Note: Terminal actions and properties are for all intents and purposes obsolete since all vanilla block interfaces now contain proper API access to all this information. It is highly recommended you use those for less overhead.**
+**Note: Terminal actions and properties are orders of magnitude slower than their equivalent C# members. As such it is highly recommended you use proper C# code and _not_ terminal actions and properties, for less overhead, whereever this is possible.**
 
 [IMyAdvancedDoor](#imyadvanceddoor)  
 [IMyAirtightHangarDoor](#imyairtighthangardoor)  

@@ -16,6 +16,16 @@ public static bool IsZero(Vector3D value)
 ### Summary
 
 ```csharp
+public bool IsZero()
+```
+
+### Returns
+
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
+
+### Summary
+
+```csharp
 public static bool IsZero(Vector3D value, double epsilon)
 ```
 

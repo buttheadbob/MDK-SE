@@ -6,9 +6,13 @@
 public TextPtr SkipWhitespace(bool skipNewline)
 ```
 
+Skips whitespace
+
 ### Returns
 
 [TextPtr](VRage.Game.ModAPI.Ingame.Utilities.TextPtr)
+
+
 
 ### Parameters
 

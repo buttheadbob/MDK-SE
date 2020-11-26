@@ -40,5 +40,7 @@ public abstract sealed class ListExtensions
 |[AtMod(this ListReader, int)](System.Collections.Generic.ListExtensions.AtMod)||
 |[MinBy(this IEnumerable, Func)](System.Collections.Generic.ListExtensions.MinBy)||
 |[MaxBy(this IEnumerable, Func)](System.Collections.Generic.ListExtensions.MaxBy)||
+|[MaxBy(this IEnumerable, Func, IComparer)](System.Collections.Generic.ListExtensions.MaxBy)||
 |[ToArray(this IList, Func)](System.Collections.Generic.ListExtensions.ToArray)||
+|[ClearAndTrim(this List, int)](System.Collections.Generic.ListExtensions.ClearAndTrim)||
 

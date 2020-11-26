@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [StringSegmentIgnoreCaseComparer](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentIgnoreCaseComparer)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [StringSegmentComparer](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentComparer)
 
 ### Summary
 

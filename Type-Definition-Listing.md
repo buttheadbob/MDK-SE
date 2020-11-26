@@ -35,6 +35,14 @@
 **Atmospheric Thruster** ([IMyThrust](Sandbox.ModAPI.Ingame.IMyThrust))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Thrust/LargeBlockSmallAtmosphericThrust`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Thrust/SmallBlockSmallAtmosphericThrust`  
+**Barred Window**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/BarredWindow`  
+**Barred Window Face**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/BarredWindowFace`  
+**Barred Window Side**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/BarredWindowSide`  
+**Barred Window Slope**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/BarredWindowSlope`  
 **Basic Assembler** ([IMyAssembler](Sandbox.ModAPI.Ingame.IMyAssembler))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Assembler/BasicAssembler`  
 **Basic Refinery** ([IMyRefinery](Sandbox.ModAPI.Ingame.IMyRefinery))  
@@ -61,6 +69,8 @@
 **Blast doors**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/ArmorCenter`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmorCenter`  
+**Buggy Cockpit** ([IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Cockpit/BuggyCockpit`  
 **Button Panel** ([IMyButtonPanel](SpaceEngineers.Game.ModAPI.Ingame.IMyButtonPanel))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_ButtonPanel/ButtonPanelLarge`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_ButtonPanel/ButtonPanelSmall`  
@@ -172,6 +182,9 @@
 **Exclamationmark**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeSymbolExclamationMark`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallSymbolExclamationMark`  
+**Exhaust Pipe**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_ExhaustBlock/LargeExhaustPipe`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_ExhaustBlock/SmallExhaustPipe`  
 **Fighter Cockpit** ([IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Cockpit/DBSmallBlockFighterCockpit`  
 **Flight Seat** ([IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit))  
@@ -225,9 +238,27 @@
 **Half Light Armor Block**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeHalfArmorBlock`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/HalfArmorBlock`  
+**Half Slope Corner Heavy Armor**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockHeavyArmorHalfSlopeCorner`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockHeavyArmorHalfSlopeCorner`  
+**Half Slope Corner Inv. Heavy Armor**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockHeavyArmorHalfSlopeCornerInverted`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockHeavyArmorHalfSlopeCornerInverted`  
+**Half Slope Corner Inv. Light Armor**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockArmorHalfSlopeCornerInverted`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockArmorHalfSlopeCornerInverted`  
+**Half Slope Corner Light Armor**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockArmorHalfSlopeCorner`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockArmorHalfSlopeCorner`  
 **Half Slope Heavy Armor Block**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeHeavyHalfSlopeArmorBlock`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/HeavyHalfSlopeArmorBlock`  
+**Half Slope Inv. Heavy Armor**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockHeavyArmorHalfSlopeInverted`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockHeavyArmorHalfSlopeInverted`  
+**Half Slope Inv. Light Armor**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockArmorHalfSlopeInverted`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockArmorHalfSlopeInverted`  
 **Half Slope Light Armor Block**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeHalfSlopeArmorBlock`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/HalfSlopeArmorBlock`  
@@ -243,6 +274,21 @@
 **Heavy Armor Corner 2x1x1 Tip**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeHeavyBlockArmorCorner2Tip`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallHeavyBlockArmorCorner2Tip`  
+**Heavy Armor Corner Square Block**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockHeavyArmorCornerSquare`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockHeavyArmorCornerSquare`  
+**Heavy Armor Corner Square Inv. Block**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockHeavyArmorCornerSquareInverted`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockHeavyArmorCornerSquareInverted`  
+**Heavy Armor Half Corner Block**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockHeavyArmorHalfCorner`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockHeavyArmorHalfCorner`  
+**Heavy Armor Half Sloped Corner**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockHeavyArmorHalfSlopedCorner`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockHeavyArmorHalfSlopedCorner`  
+**Heavy Armor Half Sloped Corner Base**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockHeavyArmorHalfSlopedCornerBase`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockHeavyArmorHalfSlopedCornerBase`  
 **Heavy Armor Inv. Corner**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeHeavyBlockArmorCornerInv`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallHeavyBlockArmorCornerInv`  
@@ -270,6 +316,12 @@
 **Heavy Armor Slope 2x1x1 Tip**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeHeavyBlockArmorSlope2Tip`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallHeavyBlockArmorSlope2Tip`  
+**Heavy Armor Sloped Corner**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockHeavyArmorSlopedCorner`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockHeavyArmorSlopedCorner`  
+**Heavy Armor Sloped Corner Base**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockHeavyArmorSlopedCornerBase`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockHeavyArmorSlopedCornerBase`  
 **Hinge** ([IMyMotorAdvancedStator](Sandbox.ModAPI.Ingame.IMyMotorAdvancedStator))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_MotorAdvancedStator/LargeHinge`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_MotorAdvancedStator/SmallHinge`  
@@ -432,6 +484,21 @@
 **Light Armor Corner 2x1x1 Tip**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockArmorCorner2Tip`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockArmorCorner2Tip`  
+**Light Armor Corner Square Block**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockArmorCornerSquare`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockArmorCornerSquare`  
+**Light Armor Corner Square Inv. Block**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockArmorCornerSquareInverted`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockArmorCornerSquareInverted`  
+**Light Armor Half Corner Block**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockArmorHalfCorner`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockArmorHalfCorner`  
+**Light Armor Half Sloped Corner**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockArmorHalfSlopedCorner`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockArmorHalfSlopedCorner`  
+**Light Armor Half Sloped Corner Base**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockArmorHalfSlopedCornerBase`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockArmorHalfSlopedCornerBase`  
 **Light Armor Inv. Corner**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockArmorCornerInv`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockArmorCornerInv`  
@@ -450,6 +517,12 @@
 **Light Armor Slope 2x1x1 Tip**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockArmorSlope2Tip`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockArmorSlope2Tip`  
+**Light Armor Sloped Corner**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockArmorSlopedCorner`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockArmorSlopedCorner`  
+**Light Armor Sloped Corner Base**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockArmorSlopedCornerBase`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockArmorSlopedCornerBase`  
 **Lockers** ([IMyCargoContainer](Sandbox.ModAPI.Ingame.IMyCargoContainer))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CargoContainer/LargeBlockLockers`  
 **Medical Room** ([IMyMedicalRoom](SpaceEngineers.Game.ModAPI.Ingame.IMyMedicalRoom))  
@@ -517,8 +590,39 @@
 **O2/H2 Generator** ([IMyGasGenerator](Sandbox.ModAPI.Ingame.IMyGasGenerator))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_OxygenGenerator/`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_OxygenGenerator/OxygenGeneratorSmall`  
+**Offroad Wheel 1x1**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Wheel/OffroadWheel1x1`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Wheel/OffroadSmallWheel1x1`  
+**Offroad Wheel 3x3**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Wheel/OffroadWheel3x3`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Wheel/OffroadSmallWheel3x3`  
+**Offroad Wheel 5x5**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Wheel/OffroadWheel5x5`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Wheel/OffroadSmallWheel5x5`  
+**Offroad Wheel Suspension 1x1 Left** ([IMyMotorSuspension](Sandbox.ModAPI.Ingame.IMyMotorSuspension))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_MotorSuspension/OffroadSuspension1x1mirrored`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_MotorSuspension/OffroadSmallSuspension1x1mirrored`  
+**Offroad Wheel Suspension 1x1 Right** ([IMyMotorSuspension](Sandbox.ModAPI.Ingame.IMyMotorSuspension))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_MotorSuspension/OffroadSuspension1x1`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_MotorSuspension/OffroadSmallSuspension1x1`  
+**Offroad Wheel Suspension 3x3 Left** ([IMyMotorSuspension](Sandbox.ModAPI.Ingame.IMyMotorSuspension))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_MotorSuspension/OffroadSuspension3x3mirrored`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_MotorSuspension/OffroadSmallSuspension3x3mirrored`  
+**Offroad Wheel Suspension 3x3 Right** ([IMyMotorSuspension](Sandbox.ModAPI.Ingame.IMyMotorSuspension))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_MotorSuspension/OffroadSuspension3x3`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_MotorSuspension/OffroadSmallSuspension3x3`  
+**Offroad Wheel Suspension 5x5 Left** ([IMyMotorSuspension](Sandbox.ModAPI.Ingame.IMyMotorSuspension))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_MotorSuspension/OffroadSuspension5x5mirrored`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_MotorSuspension/OffroadSmallSuspension5x5mirrored`  
+**Offroad Wheel Suspension 5x5 Right** ([IMyMotorSuspension](Sandbox.ModAPI.Ingame.IMyMotorSuspension))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_MotorSuspension/OffroadSuspension5x5`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_MotorSuspension/OffroadSmallSuspension5x5`  
 **Offset Door** ([IMyDoor](Sandbox.ModAPI.Ingame.IMyDoor))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Door/LargeBlockOffsetDoor`  
+**Offset Light** ([IMyInteriorLight](SpaceEngineers.Game.ModAPI.Ingame.IMyInteriorLight))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_InteriorLight/OffsetLight`  
+**Offset Spotlight** ([IMyReflectorLight](Sandbox.ModAPI.Ingame.IMyReflectorLight))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_ReflectorLight/OffsetSpotlight`  
 **Ore Detector** ([IMyOreDetector](Sandbox.ModAPI.Ingame.IMyOreDetector))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_OreDetector/LargeOreDetector`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_OreDetector/SmallBlockOreDetector`  
@@ -594,6 +698,8 @@
 **Round Armor Slope**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockArmorRoundSlope`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockArmorRoundSlope`  
+**Rover Cockpit** ([IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Cockpit/RoverCockpit`  
 **Safe Zone** ([IMySafeZoneBlock](SpaceEngineers.Game.ModAPI.Ingame.IMySafeZoneBlock))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_SafeZoneBlock/SafeZoneBlock`  
 **Sci-Fi Atmospheric Thruster** ([IMyThrust](Sandbox.ModAPI.Ingame.IMyThrust))  
@@ -635,6 +741,12 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/Shower`  
 **Sliding Door** ([IMyAirtightSlideDoor](Sandbox.ModAPI.Ingame.IMyAirtightSlideDoor))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_AirtightSlideDoor/LargeBlockSlideDoor`  
+**Sloped Corner Heavy Armor Tip**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockHeavyArmorSlopedCornerTip`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockHeavyArmorSlopedCornerTip`  
+**Sloped Corner Light Armor Tip**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockArmorSlopedCornerTip`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockArmorSlopedCornerTip`  
 **Small Battery** ([IMyBatteryBlock](Sandbox.ModAPI.Ingame.IMyBatteryBlock))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_BatteryBlock/SmallBlockSmallBatteryBlock`  
 **Small Cargo Container** ([IMyCargoContainer](Sandbox.ModAPI.Ingame.IMyCargoContainer))  
@@ -680,6 +792,12 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeSteelCatwalkPlate`  
 **Steel Catwalk Two Sides**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeSteelCatwalk2Sides`  
+**Storage Shelf 1**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/StorageShelf1`  
+**Storage Shelf 2**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/StorageShelf2`  
+**Storage Shelf 3**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/StorageShelf3`  
 **Store** ([IMyStoreBlock](Sandbox.ModAPI.Ingame.IMyStoreBlock))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_StoreBlock/StoreBlock`  
 **Survival kit**  
@@ -705,6 +823,10 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_VendingMachine/VendingMachine`  
 **Vertical Window**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeWindowSquare`  
+**Viewport 1**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/Viewport1`  
+**Viewport 2**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/Viewport2`  
 **Warhead** ([IMyWarhead](Sandbox.ModAPI.Ingame.IMyWarhead))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Warhead/LargeWarhead`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Warhead/SmallWarhead`  

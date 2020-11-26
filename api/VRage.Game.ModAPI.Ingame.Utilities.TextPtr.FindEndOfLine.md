@@ -6,9 +6,13 @@
 public TextPtr FindEndOfLine(bool skipNewline)
 ```
 
+Finds the end of the current line
+
 ### Returns
 
 [TextPtr](VRage.Game.ModAPI.Ingame.Utilities.TextPtr)
+
+
 
 ### Parameters
 

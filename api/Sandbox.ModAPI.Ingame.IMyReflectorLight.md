@@ -18,6 +18,7 @@ public interface IMyReflectorLight: IMyLightingBlock, IMyFunctionalBlock, IMyTer
 
 **Type Definitions:**  
 * MyObjectBuilder_ReflectorLight/LargeBlockFrontLight  
+* MyObjectBuilder_ReflectorLight/OffsetSpotlight  
 * MyObjectBuilder_ReflectorLight/RotatingLightLarge  
 * MyObjectBuilder_ReflectorLight/RotatingLightSmall  
 * MyObjectBuilder_ReflectorLight/SmallBlockFrontLight

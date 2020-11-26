@@ -18,6 +18,18 @@ public interface IMyMotorSuspension: IMyMotorBase, IMyMechanicalConnectionBlock,
 * [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 
 **Type Definitions:**  
+* MyObjectBuilder_MotorSuspension/OffroadSmallSuspension1x1  
+* MyObjectBuilder_MotorSuspension/OffroadSmallSuspension1x1mirrored  
+* MyObjectBuilder_MotorSuspension/OffroadSmallSuspension3x3  
+* MyObjectBuilder_MotorSuspension/OffroadSmallSuspension3x3mirrored  
+* MyObjectBuilder_MotorSuspension/OffroadSmallSuspension5x5  
+* MyObjectBuilder_MotorSuspension/OffroadSmallSuspension5x5mirrored  
+* MyObjectBuilder_MotorSuspension/OffroadSuspension1x1  
+* MyObjectBuilder_MotorSuspension/OffroadSuspension1x1mirrored  
+* MyObjectBuilder_MotorSuspension/OffroadSuspension3x3  
+* MyObjectBuilder_MotorSuspension/OffroadSuspension3x3mirrored  
+* MyObjectBuilder_MotorSuspension/OffroadSuspension5x5  
+* MyObjectBuilder_MotorSuspension/OffroadSuspension5x5mirrored  
 * MyObjectBuilder_MotorSuspension/SmallSuspension1x1  
 * MyObjectBuilder_MotorSuspension/SmallSuspension1x1mirrored  
 * MyObjectBuilder_MotorSuspension/SmallSuspension3x3  

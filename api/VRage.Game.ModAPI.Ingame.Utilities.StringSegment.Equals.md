@@ -3,10 +3,27 @@
 ### Summary
 
 ```csharp
-public bool EqualsIgnoreCase(string other)
+public virtual bool Equals(object obj)
 ```
 
-Compares this string segment with the given string in a case insensitive manner.
+Indicates whether this instance and a specified object are equal.
+
+### Returns
+
+[bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
+
+true ifobjand this instance are the same type and represent the same value; otherwise, false.
+
+### Parameters
+
+* [object](https://docs.microsoft.com/en-us/dotnet/api/System.Object?view=netframework-4.6) obj
+### Summary
+
+```csharp
+public bool Equals(string other)
+```
+
+Compares this string segment with the given string in a case sensitive manner.
 
 ### Returns
 
@@ -20,10 +37,10 @@ Compares this string segment with the given string in a case insensitive manner.
 ### Summary
 
 ```csharp
-public bool EqualsIgnoreCase(StringSegment other)
+public bool Equals(StringSegment other)
 ```
 
-Compares this string segment with another in a case insensitive manner.
+Compares this string segment with another in a case sensitive manner.
 
 ### Returns
 

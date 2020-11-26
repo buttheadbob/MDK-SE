@@ -6,9 +6,13 @@
 public TextPtr Find(string str)
 ```
 
+Finds the given text string
+
 ### Returns
 
 [TextPtr](VRage.Game.ModAPI.Ingame.Utilities.TextPtr)
+
+
 
 ### Parameters
 
@@ -19,9 +23,13 @@ public TextPtr Find(string str)
 public TextPtr Find(char ch)
 ```
 
+Finds the given character
+
 ### Returns
 
 [TextPtr](VRage.Game.ModAPI.Ingame.Utilities.TextPtr)
+
+
 
 ### Parameters
 

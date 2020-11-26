@@ -3,6 +3,19 @@
 ### Summary
 
 ```csharp
+public static void TransformNormal(ref Vector3D normal, ref MatrixD matrix, out Vector3D result)
+```
+
+Transforms a vector normal by a matrix.
+
+### Parameters
+
+* [Vector3D](VRageMath.Vector3D) normal
+* [MatrixD](VRageMath.MatrixD) matrix
+* [Vector3D](VRageMath.Vector3D) result
+### Summary
+
+```csharp
 public static void TransformNormal(ref Vector3 normal, ref MatrixD matrix, out Vector3D result)
 ```
 
@@ -149,16 +162,3 @@ Transforms a 3D vector normal by a matrix.
 
 * [Vector3D](VRageMath.Vector3D) normal
 * [MatrixD](VRageMath.MatrixD) matrix
-### Summary
-
-```csharp
-public static void TransformNormal(ref Vector3D normal, ref MatrixD matrix, out Vector3D result)
-```
-
-Transforms a vector normal by a matrix.
-
-### Parameters
-
-* [Vector3D](VRageMath.Vector3D) normal
-* [MatrixD](VRageMath.MatrixD) matrix
-* [Vector3D](VRageMath.Vector3D) result

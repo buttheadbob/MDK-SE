@@ -166,6 +166,8 @@ This class is NOT THREAD SAFE as it's optimized for programmable block use.
 |[Set(MyIniKey, double)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
 |[Set(string, string, decimal)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
 |[Set(MyIniKey, decimal)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
+|[AddSection(string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.AddSection)|Adds an empty section|
+|[DeleteSection(string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.DeleteSection)|Deletes an entire selection|
 |[Clear()](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Clear)|Empties this configuration|
 |[TryParse(string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.TryParse)|Attempts to parse the given content as a configuration file.|
 |[TryParse(string, out MyIniParseResult)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.TryParse)|Attempts to parse the given content as a configuration file.|

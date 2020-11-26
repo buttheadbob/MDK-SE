@@ -3,10 +3,10 @@
 ### Summary
 
 ```csharp
-public TextPtr FindInLine(char ch)
+public TextPtr FindAny(Char[] chs)
 ```
 
-Finds the given character within the current line
+Finds one of the given characters
 
 ### Returns
 
@@ -16,4 +16,4 @@ Finds the given character within the current line
 
 ### Parameters
 
-* [char](https://docs.microsoft.com/en-us/dotnet/api/System.Char?view=netframework-4.6) ch
+* [Char[]](https://docs.microsoft.com/en-us/dotnet/api/System.Char[]?view=netframework-4.6) chs

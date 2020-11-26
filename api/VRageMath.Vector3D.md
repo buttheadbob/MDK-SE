@@ -64,6 +64,7 @@ Defines a vector with three components.
 
 |Member|Description|
 |---|---|
+|[TransformNormal(ref Vector3D, ref MatrixD, out Vector3D)](VRageMath.Vector3D.TransformNormal)|Transforms a vector normal by a matrix.|
 |[TransformNormal(ref Vector3, ref MatrixD, out Vector3D)](VRageMath.Vector3D.TransformNormal)||
 |[TransformNormal(ref Vector3D, ref MatrixI, out Vector3D)](VRageMath.Vector3D.TransformNormal)||
 |[TransformNormal(Vector3D, MyBlockOrientation)](VRageMath.Vector3D.TransformNormal)||
@@ -120,6 +121,7 @@ Defines a vector with three components.
 |[IsUnit(ref Vector3D)](VRageMath.Vector3D.IsUnit)||
 |[ArePerpendicular(ref Vector3D, ref Vector3D)](VRageMath.Vector3D.ArePerpendicular)||
 |[IsZero(Vector3D)](VRageMath.Vector3D.IsZero)||
+|[IsZero()](VRageMath.Vector3D.IsZero)||
 |[IsZero(Vector3D, double)](VRageMath.Vector3D.IsZero)||
 |[IsZeroVector(Vector3D)](VRageMath.Vector3D.IsZeroVector)||
 |[IsZeroVector(Vector3D, double)](VRageMath.Vector3D.IsZeroVector)||
@@ -199,5 +201,4 @@ Defines a vector with three components.
 |[TransformNormal(Vector3D, Matrix)](VRageMath.Vector3D.TransformNormal)|Transforms a 3D vector normal by a matrix.|
 |[TransformNormal(Vector3, MatrixD)](VRageMath.Vector3D.TransformNormal)|Transforms a 3D vector normal by a matrix.|
 |[TransformNormal(Vector3D, MatrixD)](VRageMath.Vector3D.TransformNormal)|Transforms a 3D vector normal by a matrix.|
-|[TransformNormal(ref Vector3D, ref MatrixD, out Vector3D)](VRageMath.Vector3D.TransformNormal)|Transforms a vector normal by a matrix.|
 

@@ -265,6 +265,7 @@ This index contains all types and members available to ingame scripting - with e
 [MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult)  
 [MyIniValue](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue)  
 [StringSegment](VRage.Game.ModAPI.Ingame.Utilities.StringSegment)  
+[StringSegmentComparer](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentComparer)  
 [StringSegmentIgnoreCaseComparer](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentIgnoreCaseComparer)  
 [TextPtr](VRage.Game.ModAPI.Ingame.Utilities.TextPtr)
 

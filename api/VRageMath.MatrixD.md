@@ -81,7 +81,7 @@ Defines a matrix.
 |[Divide(MatrixD, double)](VRageMath.MatrixD.Divide)|Divides the components of a matrix by a scalar.|
 |[Divide(ref MatrixD, double, out MatrixD)](VRageMath.MatrixD.Divide)|Divides the components of a matrix by a scalar.|
 |[GetOrientation()](VRageMath.MatrixD.GetOrientation)|Gets the orientation.|
-|[AssertIsValid()](VRageMath.MatrixD.AssertIsValid)||
+|[AssertIsValid(string)](VRageMath.MatrixD.AssertIsValid)||
 |[IsValid()](VRageMath.MatrixD.IsValid)||
 |[IsNan()](VRageMath.MatrixD.IsNan)||
 |[IsRotation()](VRageMath.MatrixD.IsRotation)||

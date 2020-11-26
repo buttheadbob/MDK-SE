@@ -19,6 +19,7 @@ public interface IMyInteriorLight: IMyLightingBlock, IMyFunctionalBlock, IMyTerm
 **Type Definitions:**  
 * MyObjectBuilder_InteriorLight/LargeBlockLight_1corner  
 * MyObjectBuilder_InteriorLight/LargeBlockLight_2corner  
+* MyObjectBuilder_InteriorLight/OffsetLight  
 * MyObjectBuilder_InteriorLight/SmallBlockLight_1corner  
 * MyObjectBuilder_InteriorLight/SmallBlockLight_2corner  
 * MyObjectBuilder_InteriorLight/SmallBlockSmallLight  

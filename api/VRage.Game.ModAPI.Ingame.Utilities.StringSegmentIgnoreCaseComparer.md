@@ -6,6 +6,8 @@
 public class StringSegmentIgnoreCaseComparer: IEqualityComparer<VRage.Game.ModAPI.Ingame.Utilities.StringSegment>
 ```
 
+A comparer designed to compare [StringSegment](VRage.Game.ModAPI.Ingame.Utilities.StringSegment) instances in a case insensitive manner. Use [DEFAULT](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentIgnoreCaseComparer.DEFAULT) for a default instance
+
 **Namespace:** [VRage.Game.ModAPI.Ingame.Utilities](VRage.Game.ModAPI.Ingame.Utilities)  
 **Assembly:** VRage.Game.dll
 
@@ -16,7 +18,7 @@ public class StringSegmentIgnoreCaseComparer: IEqualityComparer<VRage.Game.ModAP
 
 |Member|Description|
 |---|---|
-|[DEFAULT](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentIgnoreCaseComparer.DEFAULT)||
+|[DEFAULT](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentIgnoreCaseComparer.DEFAULT)|A default instance of [StringSegmentIgnoreCaseComparer](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentIgnoreCaseComparer) |
 
 #### Constructors
 
@@ -28,6 +30,6 @@ public class StringSegmentIgnoreCaseComparer: IEqualityComparer<VRage.Game.ModAP
 
 |Member|Description|
 |---|---|
-|[Equals(StringSegment, StringSegment)](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentIgnoreCaseComparer.Equals)||
-|[GetHashCode(StringSegment)](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentIgnoreCaseComparer.GetHashCode)||
+|[Equals(StringSegment, StringSegment)](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentIgnoreCaseComparer.Equals)|Determines whether the specified objects are equal.|
+|[GetHashCode(StringSegment)](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentIgnoreCaseComparer.GetHashCode)|Returns a hash code for the specified object.|
 

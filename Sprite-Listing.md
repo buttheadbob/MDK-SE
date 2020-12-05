@@ -1,5 +1,6 @@
 ## Sprites
 
+All images are copyright &copy; Keen Software House.
 |Id|Size|Thumbnail|
 |---|---|---|
 |AH_BoreSight|64x64|![AH_BoreSight](images/spritethumb_1.jpg)|

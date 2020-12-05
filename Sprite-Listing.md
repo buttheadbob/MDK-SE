@@ -2,7 +2,7 @@
 
 |Id|Size|Thumbnail|
 |---|---|---|
-|AH_BoreSight|64x64|![AH_BoreSight](images\spritethumb_1.jpg)|
+|AH_BoreSight|64x64|![AH_BoreSight](images/spritethumb_1.jpg)|
 |AH_GravityHudNegativeDegrees|300x31|![AH_GravityHudNegativeDegrees](images\spritethumb_2.jpg)|
 |AH_GravityHudPositiveDegrees|300x31|![AH_GravityHudPositiveDegrees](images\spritethumb_3.jpg)|
 |AH_PullUp|100x100|![AH_PullUp](images\spritethumb_4.jpg)|

@@ -1,5 +1,3 @@
-## Sprites
-
 All images are copyright &copy; Keen Software House.
 - - -
 See [Whiplash' nice little tool](https://gitlab.com/whiplash141/spritebuilder) for visually designing sprites and generating the code to display them.

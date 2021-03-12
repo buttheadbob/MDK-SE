@@ -27,7 +27,7 @@ You can also request _multiple frequencies_.
 public Program()
 {
   // Configure this program to run both Once and every 100 update ticks
-  Runtime.UpdateFrequency = UpdateFrequency.Once | UpdateFrequency.Update100
+  Runtime.UpdateFrequency = UpdateFrequency.Once | UpdateFrequency.Update100;
 }
 ```
 

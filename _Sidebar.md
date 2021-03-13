@@ -26,6 +26,7 @@
 * **Advanced Techniques**
   * [The Minifier](The-Minifier)
   * [Text Panels and Drawing Sprites](Text-Panels-and-Drawing-Sprites)
+      * [Sprite Listing](Sprite-Listing)
   * [Antenna Communication (IGC)](Antenna-Communication-(IGC))
   * [Handling Configuration and Storage](Handling-configuration-and-storage)
   * [The EntityId](The-Entity-Id)

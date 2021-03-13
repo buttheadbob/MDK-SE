@@ -3,8 +3,7 @@ First of all, obviously, you need to make sure you have installed Visual Studio 
 https://docs.microsoft.com/en-us/visualstudio/install/install-visual-studio  
 https://www.visualstudio.com/vs/getting-started/
 
-Note: Visual Studio 2017 from 15.9 and up will also still work, but 2019 is recommended simply because it's the one I now use myself.
-
+Note: Visual Studio 2017 is no longer supported.  Visual Studio 2019 is required.
 
 
 ### Step 2

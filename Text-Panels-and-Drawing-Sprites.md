@@ -15,6 +15,8 @@ As always, you can get further help by asking in the #programming-in-game channe
 * [Configuring a text surface to display sprites through code](#configuring-a-text-surface-to-display-sprites-through-code)
 * [Final Code Listing](#final-code-listing)
 
+I have provided a [listing of the vanilla sprites here](Sprite-Listing).
+
 ### Configuring Text Surfaces
 
 Every block with modifiable text surfaces will show a list of text surfaces in the control panel.

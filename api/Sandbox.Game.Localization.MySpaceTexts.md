@@ -27,6 +27,7 @@ public abstract sealed class MySpaceTexts
 |Align_Right||
 |AngleGrinderPrimaryAction||
 |GDPR_Caption||
+|WorkshopConsent||
 |GDPR_PrivacyPolicy||
 |GDPR_Text1||
 |GDPR_Text2||
@@ -1802,6 +1803,7 @@ public abstract sealed class MySpaceTexts
 |ProgrammableBlock_NewScriptName||
 |ProgrammableBlock_OpenInWorkshop||
 |ProgrammableBlock_PublishScriptDialogText||
+|WorkshopItemPublished||
 |ProgrammableBlock_PublishScriptPublished||
 |ProgrammableBlock_ReplaceScriptDialogText||
 |ProgrammableBlock_ReplaceScriptNameDialogText||
@@ -2054,6 +2056,7 @@ public abstract sealed class MySpaceTexts
 |ScreenDebugAdminMenu_UseTerminals||
 |ScreenDebugAdminMenu_UseTerminalsToolTip||
 |ScreenDebugAdminMenu_WithMedBay||
+|ScreenDebugAdminMenu_RevertCloseToNPCGrids||
 |ScreenDebugAdminMenu_WithProduction||
 |ScreenDebugSpawnMenu_Asteroid||
 |ScreenDebugSpawnMenu_AsteroidAddRandomMaterials||
@@ -2960,8 +2963,11 @@ public abstract sealed class MySpaceTexts
 |ScreenBlueprintsRew_Tooltip_ButDelete||
 |ScreenBlueprintsRew_Tooltip_ButEdit||
 |ScreenBlueprintsRew_Tooltip_ButFolders||
+|ScreenBlueprintsRew_Tooltip_ButGrouping_Aggregator||
 |ScreenBlueprintsRew_Tooltip_ButGrouping||
+|ScreenBlueprintsRew_Tooltip_ButGrouping_NoLocal_Aggregator||
 |ScreenBlueprintsRew_Tooltip_ButGrouping_NoLocal||
+|WorldSettings_Tooltip_ButGrouping||
 |ScreenBlueprintsRew_Tooltip_ButInfo||
 |ScreenBlueprintsRew_Tooltip_ButNewBlueprint||
 |ScreenBlueprintsRew_Tooltip_ButOpenInWorkshop||
@@ -3562,7 +3568,7 @@ public abstract sealed class MySpaceTexts
 |Description_BlockGroup_AutomationGroup||
 |DisplayName_BlockGroup_LightArmorSlopedCorners||
 |DisplayName_BlockGroup_HeavyArmorSlopedCorners||
-|RadialMenuGroupTitle_Armor||
+|RadialMenuGroupTitle_ArmorLight||
 |RadialMenuGroupTitle_ProductionMedical||
 |RadialMenuGroupTitle_GasLogistics||
 |RadialMenuGroupTitle_ShipEssentials||
@@ -4335,6 +4341,8 @@ public abstract sealed class MySpaceTexts
 |StoreScreen_Help_Withdraw||
 |StoreScreen_Help_ChangeInventory||
 |BlueprintPublished||
+|WorkshopError||
+|WorkshopPublishRestricted||
 |WorkshopRestricted||
 |WorkshopNoUser||
 |WorkshopAgeRestricted||
@@ -4426,6 +4434,7 @@ public abstract sealed class MySpaceTexts
 |JoinGameScreen_Help_ScreenGamesTab||
 |ModsScreen_Help_Screen||
 |WorkshopTagsScreen_Help_Screen||
+|WorkshopTagsScreen_HelpNoOk_Screen||
 |ToolTipOptionsControls_InvertGamepadYChar||
 |ToolTipOptionsControls_InvertGamepadYVehicle||
 |NewGameScenarios_Help_ScenarioWithPublish||
@@ -4577,13 +4586,24 @@ public abstract sealed class MySpaceTexts
 |WorkshopBrowser_NotFound||
 |ControlName_ColorPicker||
 |ScreenCaptionModIoConsent||
+|ScreenCaptionSteamAndModIoConsent||
 |ScreenModIoConsent_ButtonAgree||
 |ScreenModIoConsent_ButtonOptOut||
 |ScreenModIoConsent_ButtonPrivacyPolicy||
 |ScreenModIoConsent_ButtonTermsOfUse||
+|ScreenModIoConsent_PrivacyPolicyModioHelp||
+|ScreenModIoConsent_TermsOfUseModioHelp||
+|ScreenModIoConsent_PrivacyPolicySteamHelp||
+|ScreenModIoConsent_TermsOfUseSteamHelp||
 |ScreenModIoConsent_ConsentTextPart1||
+|ScreenSteamAndModIoConsent_ConsentTextPart1||
 |ScreenModIoConsent_ConsentTextPart2||
+|ScreenSteamAndModIoConsent_ConsentTextPart2||
 |ScreenModIoConsent_ConsentTextPart3||
+|ScreenSteamAndModIoConsent_ConsentTextPart3||
+|ScreenModIoConsent_LabelReadTOU||
+|ScreenModIoConsent_LabelModIo||
+|ScreenModIoConsent_LabelSteam||
 |DisplayName_Block_GratedCatwalkRailingEnd||
 |DisplayName_Block_GratedCatwalkRailingHalfLeft||
 |DisplayName_Block_GratedCatwalkRailingHalfRight||
@@ -4671,9 +4691,12 @@ public abstract sealed class MySpaceTexts
 |DisplayName_Screen_Numpad2||
 |DisplayName_Screen_Numpad3||
 |DisplayName_Screen_Numpad4||
-|ScreenModIoConsent_HelpText||
+|ScreenModIoConsent_AgreeHelpText||
+|ScreenModIoConsent_OptOutHelpText||
 |ScreenModIoConsent_PrivacyPolicy_UrlFriendlyName||
 |ScreenModIoConsent_TermsOfUse_UrlFriendlyName||
+|ScreenModIoConsent_SteamPrivacyPolicy_UrlFriendlyName||
+|ScreenModIoConsent_SteamTermsOfUse_UrlFriendlyName||
 |ControlsOptions_Help_Scheme||
 |TerminalInventory_Help_TransferItems||
 |LCD_Poster_CosmicCoffee01||
@@ -4876,4 +4899,10 @@ public abstract sealed class MySpaceTexts
 |RadialMenuGroupTitle_VoxelTritonPertam||
 |DisplayName_Block_OffroadWheel1x1mirrored||
 |DisplayName_Block_OffroadWheel3x3mirrored||
+|RadialMenuGroupTitle_ArmorHeavy||
+|WorkshopBrowser_Service0||
+|WorkshopBrowser_Service1||
+|PublishBlueprint_Caption||
+|PublishBlueprint_Question||
+|WorldFileCouldNotBeEdited||
 

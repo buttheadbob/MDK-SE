@@ -35,6 +35,7 @@ public abstract sealed class MyTexts
 |[Get(MyStringId)](VRage.MyTexts.Get)||
 |[TrySubstitute(string)](VRage.MyTexts.TrySubstitute)||
 |[RegisterEvaluator(string, ITextEvaluator)](VRage.MyTexts.RegisterEvaluator)||
+|[MatchesReplaceFormat(string)](VRage.MyTexts.MatchesReplaceFormat)||
 |[GetString(MyStringId)](VRage.MyTexts.GetString)||
 |[GetString(string)](VRage.MyTexts.GetString)||
 |[Exists(MyStringId)](VRage.MyTexts.Exists)||

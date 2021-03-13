@@ -943,7 +943,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_AmmoMagazine/NATO_25x184mm`  
 <a name="Ammo%20Magazines-5.56x45mm%20NATO%20magazine">**5.56x45mm NATO magazine**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_AmmoMagazine/NATO_5p56x45mm`  
-
+  
 ## Blueprints  
 <a name="Blueprints-200mm%20missile%20container">**200mm missile container**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/Missile200mm`  
@@ -1069,7 +1069,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/Welder`  
 <a name="Blueprints-Zone%20Chip">**Zone Chip**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/ZoneChip`  
-
+  
 ## Components  
 <a name="Components-Bulletproof%20Glass">**Bulletproof Glass**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/BulletproofGlass`  
@@ -1117,13 +1117,13 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/Thrust`  
 <a name="Components-Zone%20Chip">**Zone Chip**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Component/ZoneChip`  
-
+  
 ## Gas  
 <a name="Gas-Hydrogen">**Hydrogen**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_GasProperties/Hydrogen`  
 <a name="Gas-Oxygen">**Oxygen**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_GasProperties/Oxygen`  
-
+  
 ## Ingots  
 <a name="Ingots-Cobalt%20Ingot">**Cobalt Ingot**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Ingot/Cobalt`  
@@ -1147,7 +1147,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Ingot/Silver`  
 <a name="Ingots-Uranium%20Ingot">**Uranium Ingot**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Ingot/Uranium`  
-
+  
 ## Ores  
 <a name="Ores-Cobalt%20Ore">**Cobalt Ore**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Ore/Cobalt`  
@@ -1175,7 +1175,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Ore/Stone`  
 <a name="Ores-Uranium%20Ore">**Uranium Ore**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_Ore/Uranium`  
-
+  
 ## Other  
 <a name="Other-Clang%20Kola">**Clang Kola**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_ConsumableItem/ClangCola`  
@@ -1191,7 +1191,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_ConsumableItem/Powerkit`  
 <a name="Other-Space%20Credit">**Space Credit**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_PhysicalObject/SpaceCredit`  
-
+  
 ## Tools  
 <a name="Tools-Automatic%20Rifle">**Automatic Rifle**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_PhysicalGunObject/AutomaticRifleItem`  
@@ -1229,4 +1229,4 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_PhysicalGunObject/RapidFireAutomaticRifleItem`  
 <a name="Tools-Welder">**Welder**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_PhysicalGunObject/WelderItem`  
-
+  

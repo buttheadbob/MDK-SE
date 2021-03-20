@@ -26,33 +26,29 @@ Local variables are optimized out so in order to see their values when execution
 
 **Note:** Simply attaching dnSpy to the game will cause any future in-game compilations to be built unoptimized (mods recompile on world load, PBs can be recompiled in terminal), that means you don't need to use this launcher for seeing PB/mod code but you do need to attach before you compile them.
 
-But for game's code you need to start the game with dnSpy in order to load its libraries as unoptimized.
-
-However starting the game directly with dnSpy won't work, it needs a launcher to set some proper Steam stuff.
+But for game's code you need to start the game with dnSpy in order to load its libraries as unoptimized, see below on how to properly do that.
 
 **Note:** Starting the game with dnSpy will run noticeably slower.
 
 ##### Starting the game with dnSpy:
 
-1. Get the "SE launcher":
+1. Download: [steam_appid.txt](binaries/steam_appid.txt) as a file
 
-   - Download: [SELauncher.exe](binaries/SELauncher.exe)
-
-   - Or build it yourself from [its source code (SELauncher.cs)](snippets/SELauncher.cs)
-
-2. Place `SELauncher.exe` in the game's Bin64 (e.g. `<Steam>/SteamApps/common/SpaceEngineers/Bin64`)
+2. Place `steam_appid.txt` in the game's Bin64 (e.g. `<Steam>/SteamApps/common/SpaceEngineers/Bin64`)
 
 3. Start dnSpy (but not the game).
 
-4. dnSpy: `Debug -> Start Debugging (F5)` and in Assembly pick the `SELauncher.exe` that you got/built.
+4. dnSpy: `Debug -> Start Debugging (F5)`
 
-   Optional: add `-nosplash` in the arguments.
+5. In the Executable field press `[...]` and go to game's Bin64 again and pick SpaceEngineers.exe
+
+   Optional: add `-skipintro -nosplash` in the Arguments field.
 
    ![dnSpy start window example](images/wiki-dnspy-start.jpg)
 
-5. Do your exception catching or breakpoint stuff.
+6. Do your exception catching or breakpoint stuff.
 
-6. Local variables now have values!
+7. Local variables now have values!
 
 ***
 

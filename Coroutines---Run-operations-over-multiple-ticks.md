@@ -125,3 +125,12 @@ public IEnumerator<bool> RunStuffOverTime()
 }
 ```
 
+## Other examples
+
+### SimpleTimerSM + example (by Digi)
+
+https://gist.github.com/THDigi/a3eb524e0bd971bd3fddca55cc5e7515
+
+Can be pasted as-is into a PB to see how it behaves, then play around with it!
+
+Feel free to copy SimpleTimerSM to your own scripts aswell.

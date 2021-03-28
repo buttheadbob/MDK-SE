@@ -11,12 +11,14 @@ public void Main()
 }
 ```
 
-and where the comment indicates above, start typing Grid (mind the casing). Visual Studio will respond by showing you this:
+and where the comment indicates above, start typing Grid (mind the casing). Visual Studio will respond by showing you this:  
+
 ![Select the Ingame Script template](https://github.com/malware-dev/MDK-SE/blob/master/images/wiki-intellisense-1.jpg)
 
 This is called ["intellisense"](https://msdn.microsoft.com/en-us/library/hcw1s69b.aspx). It shows you what is available to you at the current location. In this case, it is showing you GridTerminalSystem, which is the property we want. Press `tab` or `enter` and the IDE will fill in the rest for you. This method is available to you for _any_ accessible type, variable, field or property, not just the GridTerminalSystem. This means that if you for instance define a variable with the type of a block you want, you can use this technique to see what this block can do and what it can provide in terms of information - to a certain degree. There's also (unfortunately) something called [Terminal Properties and Terminal Actions](https://github.com/malware-dev/MDK-SE/wiki/Terminal-Properties-And-Actions) which makes this more complicated than it has to be.
 
-Now continue by adding a `.` at the end. This is what is important. Now it should show you this:
+Now continue by adding a `.` at the end. This is what is important. Now it should show you this:  
+
 ![Select the Ingame Script template](https://github.com/malware-dev/MDK-SE/blob/master/images/wiki-intellisense-2.jpg)
 
 These are the methods available to you in the grid terminal system. All of them are ways to retrieve blocks from your grids in various ways.
@@ -59,6 +61,9 @@ These are the methods available to you in the grid terminal system. All of them 
 
 * `SearchBlocksOfName`  
     Searches through all the blocks, returning those whose name _contains_ the entered name. Meaning, a block named "Mynoch" would be returned if you search for "no". Also provides the ability to use a collect predicate, just like `GetBlocksOfType`. Unfortunately, this method can _only_ accept a target list of the base `IMyTerminalBlock` type.
+
+    > Note: This method is rather inefficiently implemented. You can do everything this method can do, in a better way, simply using the filter of GetBlocksOfType.
+
     ```csharp
     List<IMyTerminalBlock> lights = new List<IMyTerminalBlock>();
     void Main()

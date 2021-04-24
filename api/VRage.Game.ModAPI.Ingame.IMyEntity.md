@@ -95,6 +95,7 @@ Ingame (Programmable Block) interface for all entities.
 * [IMySoundBlock](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock)  
 * [IMySpaceBall](SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall)  
 * [IMyStoreBlock](Sandbox.ModAPI.Ingame.IMyStoreBlock)  
+* [IMyTargetDummyBlock](Sandbox.ModAPI.Ingame.IMyTargetDummyBlock)  
 * [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel)  
 * [IMyThrust](Sandbox.ModAPI.Ingame.IMyThrust)  

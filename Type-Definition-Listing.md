@@ -251,6 +251,9 @@
 <a name="blocks-Ejector">**Ejector**</a> ([IMyShipConnector](Sandbox.ModAPI.Ingame.IMyShipConnector))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_ShipConnector/ConnectorSmall`  
   
+<a name="blocks-Embrasure">**Embrasure**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/Embrasure`  
+  
 <a name="blocks-Exclamationmark">**Exclamationmark**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeSymbolExclamationMark`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallSymbolExclamationMark`  
@@ -261,6 +264,12 @@
   
 <a name="blocks-Fighter%20Cockpit">**Fighter Cockpit**</a> ([IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Cockpit/DBSmallBlockFighterCockpit`  
+  
+<a name="blocks-Fire%20Cover">**Fire Cover**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/FireCover`  
+  
+<a name="blocks-Fire%20Cover%20Corner">**Fire Cover Corner**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/FireCoverCorner`  
   
 <a name="blocks-Flight%20Seat">**Flight Seat**</a> ([IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Cockpit/CockpitOpen`  
@@ -367,6 +376,18 @@
 <a name="blocks-Half%20Slope%20Light%20Armor%20Block">**Half Slope Light Armor Block**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeHalfSlopeArmorBlock`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/HalfSlopeArmorBlock`  
+  
+<a name="blocks-Half%20Window">**Half Window**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/HalfWindow`  
+  
+<a name="blocks-Half%20Window%20Corner">**Half Window Corner**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/HalfWindowCorner`  
+  
+<a name="blocks-Half%20Window%20Corner%20Inv.">**Half Window Corner Inv.**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/HalfWindowCornerInv`  
+  
+<a name="blocks-Half%20Window%20Inv.">**Half Window Inv.**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/HalfWindowInv`  
   
 <a name="blocks-Heavy%20Armor%20Block">**Heavy Armor Block**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeHeavyBlockArmorBlock`  
@@ -876,6 +897,27 @@
 <a name="blocks-Passage">**Passage**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Passage/`  
   
+<a name="blocks-Passage%202">**Passage 2**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/Passage2`  
+  
+<a name="blocks-Passage%202%20Side">**Passage 2 Side**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/Passage2Wall`  
+  
+<a name="blocks-Passage%203">**Passage 3**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/PassageSciFi`  
+  
+<a name="blocks-Passage%203%20Cross">**Passage 3 Cross**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/PassageSciFiIntersection`  
+  
+<a name="blocks-Passage%203%20Frame">**Passage 3 Frame**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/PassageSciFiGate`  
+  
+<a name="blocks-Passage%203%20Light">**Passage 3 Light**</a> ([IMyInteriorLight](SpaceEngineers.Game.ModAPI.Ingame.IMyInteriorLight))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_InteriorLight/PassageSciFiLight`  
+  
+<a name="blocks-Passage%203%20Wall">**Passage 3 Wall**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/PassageSciFiWall`  
+  
 <a name="blocks-Passenger%20Seat">**Passenger Seat**</a> ([IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Cockpit/PassengerSeatLarge`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Cockpit/PassengerSeatSmall`  
@@ -1112,6 +1154,9 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_SurvivalKit/SurvivalKitLarge`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_SurvivalKit/SurvivalKit`  
   
+<a name="blocks-Target%20dummy">**Target dummy**</a> ([IMyTargetDummyBlock](Sandbox.ModAPI.Ingame.IMyTargetDummyBlock))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_TargetDummyBlock/TargetDummy`  
+  
 <a name="blocks-Text%20panel">**Text panel**</a> ([IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_TextPanel/LargeTextPanel`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_TextPanel/SmallTextPanel`  
@@ -1153,6 +1198,10 @@
 <a name="blocks-Warhead">**Warhead**</a> ([IMyWarhead](Sandbox.ModAPI.Ingame.IMyWarhead))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Warhead/LargeWarhead`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Warhead/SmallWarhead`  
+  
+<a name="blocks-Weapon%20Rack">**Weapon Rack**</a> ([IMyCargoContainer](Sandbox.ModAPI.Ingame.IMyCargoContainer))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CargoContainer/LargeBlockWeaponRack`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CargoContainer/SmallBlockWeaponRack`  
   
 <a name="blocks-Welder">**Welder**</a> ([IMyShipWelder](Sandbox.ModAPI.Ingame.IMyShipWelder))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_ShipWelder/LargeShipWelder`  
@@ -1303,6 +1352,27 @@
 **<a name="Ammo%20Magazines-5.56x45mm%20NATO%20magazine">5.56x45mm NATO magazine</a>**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_AmmoMagazine/NATO_5p56x45mm`  
   
+**<a name="Ammo%20Magazines-MR-20%20Magazine">MR-20 Magazine</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_AmmoMagazine/AutomaticRifleGun_Mag_20rd`  
+  
+**<a name="Ammo%20Magazines-MR-30E%20Magazine">MR-30E Magazine</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_AmmoMagazine/UltimateAutomaticRifleGun_Mag_30rd`  
+  
+**<a name="Ammo%20Magazines-MR-50A%20Magazine">MR-50A Magazine</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_AmmoMagazine/RapidFireAutomaticRifleGun_Mag_50rd`  
+  
+**<a name="Ammo%20Magazines-MR-8P%20Magazine">MR-8P Magazine</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_AmmoMagazine/PreciseAutomaticRifleGun_Mag_5rd`  
+  
+**<a name="Ammo%20Magazines-S-10%20Magazine">S-10 Magazine</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_AmmoMagazine/SemiAutoPistolMagazine`  
+  
+**<a name="Ammo%20Magazines-S-10E%20Magazine">S-10E Magazine</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_AmmoMagazine/ElitePistolMagazine`  
+  
+**<a name="Ammo%20Magazines-S-20A%20Magazine">S-20A Magazine</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_AmmoMagazine/FullAutoPistolMagazine`  
+  
 
 ## Blueprints  
 **<a name="Blueprints-200mm%20missile%20container">200mm missile container</a>**  
@@ -1310,12 +1380,6 @@
   
 **<a name="Blueprints-25x184mm%20NATO%20ammo%20container">25x184mm NATO ammo container</a>**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/NATO_25x184mmMagazine`  
-  
-**<a name="Blueprints-5.56x45mm%20NATO%20magazine">5.56x45mm NATO magazine</a>**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/NATO_5p56x45mmMagazine`  
-  
-**<a name="Blueprints-Automatic%20Rifle">Automatic Rifle</a>**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/AutomaticRifle`  
   
 **<a name="Blueprints-Bulletproof%20Glass">Bulletproof Glass</a>**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/BulletproofGlass`  
@@ -1340,9 +1404,6 @@
   
 **<a name="Blueprints-Display">Display</a>**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/Display`  
-  
-**<a name="Blueprints-Elite%20Automatic%20Rifle">Elite Automatic Rifle</a>**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/UltimateAutomaticRifle`  
   
 **<a name="Blueprints-Elite%20Grinder">Elite Grinder</a>**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/AngleGrinder4`  
@@ -1422,6 +1483,30 @@
 **<a name="Blueprints-Motor">Motor</a>**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/MotorComponent`  
   
+**<a name="Blueprints-MR-20">MR-20</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/AutomaticRifle`  
+  
+**<a name="Blueprints-MR-20%20Magazine">MR-20 Magazine</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/AutomaticRifleGun_Mag_20rd`  
+  
+**<a name="Blueprints-MR-30E">MR-30E</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/UltimateAutomaticRifle`  
+  
+**<a name="Blueprints-MR-30E%20Magazine">MR-30E Magazine</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/UltimateAutomaticRifleGun_Mag_30rd`  
+  
+**<a name="Blueprints-MR-50A">MR-50A</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/RapidFireAutomaticRifle`  
+  
+**<a name="Blueprints-MR-50A%20Magazine">MR-50A Magazine</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/RapidFireAutomaticRifleGun_Mag_50rd`  
+  
+**<a name="Blueprints-MR-8P">MR-8P</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/PreciseAutomaticRifle`  
+  
+**<a name="Blueprints-MR-8P%20Magazine">MR-8P Magazine</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/PreciseAutomaticRifleGun_Mag_5rd`  
+  
 **<a name="Blueprints-Nickel%20Ingot">Nickel Ingot</a>**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/NickelOreToIngot`  
   
@@ -1440,8 +1525,8 @@
 **<a name="Blueprints-Power%20Cell">Power Cell</a>**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/PowerCell`  
   
-**<a name="Blueprints-Precise%20Automatic%20Rifle">Precise Automatic Rifle</a>**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/PreciseAutomaticRifle`  
+**<a name="Blueprints-PRO-1">PRO-1</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/AdvancedHandHeldLauncher`  
   
 **<a name="Blueprints-Proficient%20Grinder">Proficient Grinder</a>**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/AngleGrinder3`  
@@ -1455,11 +1540,29 @@
 **<a name="Blueprints-Radio-comm%20Comp.">Radio-comm Comp.</a>**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/RadioCommunicationComponent`  
   
-**<a name="Blueprints-Rapid-Fire%20Automatic%20Rifle">Rapid-Fire Automatic Rifle</a>**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/RapidFireAutomaticRifle`  
-  
 **<a name="Blueprints-Reactor%20Comp.">Reactor Comp.</a>**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/ReactorComponent`  
+  
+**<a name="Blueprints-RO-1">RO-1</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/BasicHandHeldLauncher`  
+  
+**<a name="Blueprints-S-10">S-10</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/SemiAutoPistol`  
+  
+**<a name="Blueprints-S-10%20Magazine">S-10 Magazine</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/SemiAutoPistolMagazine`  
+  
+**<a name="Blueprints-S-10E">S-10E</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/EliteAutoPistol`  
+  
+**<a name="Blueprints-S-10E%20Magazine">S-10E Magazine</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/ElitePistolMagazine`  
+  
+**<a name="Blueprints-S-20A">S-20A</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/FullAutoPistol`  
+  
+**<a name="Blueprints-S-20A%20Magazine">S-20A Magazine</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/FullAutoPistolMagazine`  
   
 **<a name="Blueprints-Silicon%20Wafer">Silicon Wafer</a>**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/SiliconOreToIngot`  
@@ -1671,12 +1774,6 @@
   
 
 ## Tools  
-**<a name="Tools-Automatic%20Rifle">Automatic Rifle</a>**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_PhysicalGunObject/AutomaticRifleItem`  
-  
-**<a name="Tools-Elite%20Automatic%20Rifle">Elite Automatic Rifle</a>**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_PhysicalGunObject/UltimateAutomaticRifleItem`  
-  
 **<a name="Tools-Elite%20Grinder">Elite Grinder</a>**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_PhysicalGunObject/AngleGrinder4Item`  
   
@@ -1704,11 +1801,23 @@
 **<a name="Tools-Hydrogen%20Bottle">Hydrogen Bottle</a>**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_GasContainerObject/HydrogenBottle`  
   
+**<a name="Tools-MR-20">MR-20</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_PhysicalGunObject/AutomaticRifleItem`  
+  
+**<a name="Tools-MR-30E">MR-30E</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_PhysicalGunObject/UltimateAutomaticRifleItem`  
+  
+**<a name="Tools-MR-50A">MR-50A</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_PhysicalGunObject/RapidFireAutomaticRifleItem`  
+  
+**<a name="Tools-MR-8P">MR-8P</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_PhysicalGunObject/PreciseAutomaticRifleItem`  
+  
 **<a name="Tools-Oxygen%20Bottle">Oxygen Bottle</a>**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_OxygenContainerObject/OxygenBottle`  
   
-**<a name="Tools-Precise%20Automatic%20Rifle">Precise Automatic Rifle</a>**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_PhysicalGunObject/PreciseAutomaticRifleItem`  
+**<a name="Tools-PRO-1">PRO-1</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_PhysicalGunObject/AdvancedHandHeldLauncherItem`  
   
 **<a name="Tools-Proficient%20Grinder">Proficient Grinder</a>**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_PhysicalGunObject/AngleGrinder3Item`  
@@ -1719,8 +1828,17 @@
 **<a name="Tools-Proficient%20Welder">Proficient Welder</a>**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_PhysicalGunObject/Welder3Item`  
   
-**<a name="Tools-Rapid-Fire%20Automatic%20Rifle">Rapid-Fire Automatic Rifle</a>**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_PhysicalGunObject/RapidFireAutomaticRifleItem`  
+**<a name="Tools-RO-1">RO-1</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_PhysicalGunObject/BasicHandHeldLauncherItem`  
+  
+**<a name="Tools-S-10">S-10</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_PhysicalGunObject/SemiAutoPistolItem`  
+  
+**<a name="Tools-S-10E">S-10E</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_PhysicalGunObject/ElitePistolItem`  
+  
+**<a name="Tools-S-20A">S-20A</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_PhysicalGunObject/FullAutoPistolItem`  
   
 **<a name="Tools-Welder">Welder</a>**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_PhysicalGunObject/WelderItem`  

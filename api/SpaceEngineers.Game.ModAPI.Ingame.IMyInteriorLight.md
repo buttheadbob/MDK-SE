@@ -20,6 +20,7 @@ public interface IMyInteriorLight: IMyLightingBlock, IMyFunctionalBlock, IMyTerm
 * MyObjectBuilder_InteriorLight/LargeBlockLight_1corner  
 * MyObjectBuilder_InteriorLight/LargeBlockLight_2corner  
 * MyObjectBuilder_InteriorLight/OffsetLight  
+* MyObjectBuilder_InteriorLight/PassageSciFiLight  
 * MyObjectBuilder_InteriorLight/SmallBlockLight_1corner  
 * MyObjectBuilder_InteriorLight/SmallBlockLight_2corner  
 * MyObjectBuilder_InteriorLight/SmallBlockSmallLight  

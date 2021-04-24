@@ -1,5 +1,5 @@
 ## Overview
-**Note: Terminal actions and properties are for all intents and purposes obsolete since all vanilla block interfaces now contain proper API access to _most_ of this information. It is highly recommended you use those for less overhead.**
+**Note: Terminal actions and properties are for all intents and purposes obsolete since all vanilla block interfaces now contain proper API access to _most of_ this information. It is highly recommended you use those for less overhead.**
 
 [IMyAdvancedDoor](#imyadvanceddoor)  
 [IMyAirtightHangarDoor](#imyairtighthangardoor)  
@@ -61,6 +61,7 @@
 [IMySoundBlock](#imysoundblock)  
 [IMySpaceBall](#imyspaceball)  
 [IMyStoreBlock](#imystoreblock)  
+[IMyTargetDummyBlock](#imytargetdummyblock)  
 [IMyTerminalBlock](#imyterminalblock)  
 [IMyTextPanel](#imytextpanel)  
 [IMyThrust](#imythrust)  
@@ -1771,6 +1772,7 @@
 |OnOff|bool|
 |PreserveAspectRatio|bool|
 |SafeZoneBuildingCb|bool|
+|SafeZoneBuildingProjectionCb|bool|
 |SafeZoneColor|Color|
 |SafeZoneConvertToStationCb|bool|
 |SafeZoneCreate|bool|
@@ -2287,6 +2289,34 @@
 |ShowOnHUD|bool|
 |TextPaddingSlider|float|
 |UseConveyor|bool|
+
+## IMyTargetDummyBlock
+
+### Actions
+
+|Name|Description|
+|-|-|
+|DecreaseDelay|Decrease Regeneration delay|
+|IncreaseDelay|Increase Regeneration delay|
+|OnOff|Toggle block On/Off|
+|OnOff_Off|Toggle block Off|
+|OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
+
+### Properties
+
+|Name|Type|
+|-|-|
+|Delay|float|
+|Enable Restoration|bool|
+|Name|StringBuilder|
+|OnOff|bool|
+|ShowInInventory|bool|
+|ShowInTerminal|bool|
+|ShowInToolbarConfig|bool|
+|ShowOnHUD|bool|
 
 ## IMyTerminalBlock
 

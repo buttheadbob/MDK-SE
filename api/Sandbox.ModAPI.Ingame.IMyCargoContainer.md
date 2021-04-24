@@ -20,9 +20,11 @@ public interface IMyCargoContainer: IMyTerminalBlock, IMyCubeBlock, IMyEntity
 * MyObjectBuilder_CargoContainer/LargeBlockLockerRoomCorner  
 * MyObjectBuilder_CargoContainer/LargeBlockLockers  
 * MyObjectBuilder_CargoContainer/LargeBlockSmallContainer  
+* MyObjectBuilder_CargoContainer/LargeBlockWeaponRack  
 * MyObjectBuilder_CargoContainer/SmallBlockLargeContainer  
 * MyObjectBuilder_CargoContainer/SmallBlockMediumContainer  
-* MyObjectBuilder_CargoContainer/SmallBlockSmallContainer
+* MyObjectBuilder_CargoContainer/SmallBlockSmallContainer  
+* MyObjectBuilder_CargoContainer/SmallBlockWeaponRack
 
 #### Properties
 

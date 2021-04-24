@@ -60,6 +60,7 @@ Use these interfaces when you wish to access specific block types.
 [IMySoundBlock](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock)  
 [IMySpaceBall](SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall)  
 [IMyStoreBlock](Sandbox.ModAPI.Ingame.IMyStoreBlock)  
+[IMyTargetDummyBlock](Sandbox.ModAPI.Ingame.IMyTargetDummyBlock)  
 [IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel)  
 [IMyThrust](Sandbox.ModAPI.Ingame.IMyThrust)  
 [IMyTimerBlock](SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock)  

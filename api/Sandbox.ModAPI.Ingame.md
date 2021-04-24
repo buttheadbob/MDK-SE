@@ -71,6 +71,7 @@
 **[IMySmallMissileLauncher](Sandbox.ModAPI.Ingame.IMySmallMissileLauncher)**  
 **[IMySmallMissileLauncherReload](Sandbox.ModAPI.Ingame.IMySmallMissileLauncherReload)**  
 **[IMyStoreBlock](Sandbox.ModAPI.Ingame.IMyStoreBlock)**  
+**[IMyTargetDummyBlock](Sandbox.ModAPI.Ingame.IMyTargetDummyBlock)**  
 **[IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)**  
 **[IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel)**  
 **[IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)**  

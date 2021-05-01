@@ -157,5 +157,9 @@ Vector3D bodyPosition= Vector3D.Transform(localVector, MatrixD.Invert(referenceB
 // Also, matrix inversions are bad!
 ```
 
-_This is notably less performant than the above method since it needs a full matrix inversion as opposed to a simple matrix transpose._
+**This is notably less performant than the above method since it needs a full matrix inversion as opposed to a simple matrix transpose.**
 
+***
+
+
+_A big thank you goes to Whiplash141 for writing this tutorial._

@@ -3,12 +3,12 @@
 ### Summary
 
 ```csharp
-public static MatrixD CreateLookAtInverse(Vector3D cameraPosition, Vector3D cameraTarget, Vector3D cameraUpVector)
+public static Matrix CreateLookAtInverse(Vector3D cameraPosition, Vector3D cameraTarget, Vector3D cameraUpVector)
 ```
 
 ### Returns
 
-[MatrixD](VRageMath.MatrixD)
+[Matrix](VRageMath.Matrix)
 
 ### Parameters
 

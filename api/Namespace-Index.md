@@ -102,7 +102,6 @@ This index contains all types and members available to ingame scripting - with e
 [IMySmallMissileLauncherReload](Sandbox.ModAPI.Ingame.IMySmallMissileLauncherReload)  
 [IMyStoreBlock](Sandbox.ModAPI.Ingame.IMyStoreBlock)  
 [IMyTargetDummyBlock](Sandbox.ModAPI.Ingame.IMyTargetDummyBlock)  
-[IMyTargetingSystemBlock](Sandbox.ModAPI.Ingame.IMyTargetingSystemBlock)  
 [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 [IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel)  
 [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)  

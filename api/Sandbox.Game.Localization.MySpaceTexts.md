@@ -216,18 +216,6 @@ public abstract sealed class MySpaceTexts
 |BlockPropertyProperties_CurrentMass||
 |BlockPropertyProperties_CurrentOutput||
 |BlockPropertyText_AnyoneCanUse||
-|TerminalControlPanel_Cockpit_Selected||
-|TerminalControlPanel_Cockpit_Used||
-|TerminalControlPanel_Cockpit_PickTargetSystemBlock||
-|TerminalControlPanel_Cockpit_PickTargetSystemBlock_Tooltip||
-|BlockPropertyText_TargetOptions||
-|BlockPropertyItem_TargetOptions_Default||
-|BlockPropertyItem_TargetOptions_PowerSystems||
-|BlockPropertyItem_TargetOptions_Production||
-|BlockPropertyItem_TargetOptions_Propulsion||
-|BlockPropertyItem_TargetOptions_Explosives||
-|BlockPropertyItem_TargetOptions_Weapons||
-|BlockPropertyItem_TargetOptions_CycleSubsystems||
 |BlockPropertyText_Button||
 |BlockPropertyText_ButtonList||
 |BlockPropertyText_ButtonName||
@@ -278,7 +266,6 @@ public abstract sealed class MySpaceTexts
 |BlockPropertyTitle_JumpDistance||
 |BlockPropertyTitle_LandGearAutoLock||
 |BlockPropertyTitle_LargeTurretEnableTurretIdleMovement||
-|BlockPropertyTitle_LargeTurret_EnableTargetLocking||
 |BlockPropertyTitle_LargeTurretRadius||
 |BlockPropertyTitle_LargeTurretTargetCharacters||
 |BlockPropertyTitle_LargeTurretTargetDecoys||
@@ -540,7 +527,6 @@ public abstract sealed class MySpaceTexts
 |ControlMenuItemLabel_Unequip||
 |ControlMenuItemLabel_ViewMode||
 |ControlMenuItemLabel_SymmetrySetup||
-|ControlMenuItemLabel_ExitSymmetrySetup||
 |ControlMenuItemLabel_ColorPicker||
 |ControlMenuItemLabel_UseSymmetry||
 |ControlMenuItemLabel_Reload||
@@ -1632,7 +1618,6 @@ public abstract sealed class MySpaceTexts
 |NotificationConnectorsEnabled||
 |NotificationParkingSuccessful||
 |NotificationParkingFailed||
-|NotificationCannotPaint||
 |NotificationParkingReleased||
 |NotificationCopyPasteAsteroidObstructed||
 |NotificationEnergyCritical||
@@ -2264,7 +2249,6 @@ public abstract sealed class MySpaceTexts
 |TerminalControlPanel_Cockpit_Handbrake||
 |TerminalControlPanel_Cockpit_Park||
 |TerminalControlPanel_Cockpit_HorizonIndicator||
-|TerminalControlPanel_Cockpit_EnableTargetLocking||
 |TerminalControlPanel_Cockpit_MainCockpit||
 |TerminalControlPanel_Cockpit_MainRemoteControl||
 |TerminalControlPanel_EditCode||
@@ -4956,8 +4940,6 @@ public abstract sealed class MySpaceTexts
 |DisplayName_DLC_Warfare1||
 |Description_WeaponRack||
 |DisplayName_Block_WeaponRack||
-|Description_TargetingSystemBlock||
-|DisplayName_Block_TargetingSystemBlock||
 |DisplayName_DLC_Warfare1DLC||
 |RadialMenuGroupTitle_ArmorHeavy||
 |WorkshopBrowser_Service0||
@@ -5089,12 +5071,6 @@ public abstract sealed class MySpaceTexts
 |SoundBlock_SoundName_MusCompetition_14||
 |SoundBlock_SoundName_MusCompetition_15||
 |SoundBlock_SoundName_MusCompetition_16||
-|BlockPropertyTitle_LargeTurretTargetLocking||
-|BlockPropertyTooltip_LargeTurretTargetLocking||
-|BlockActionTitle_LargeTurretUnlockTarget||
-|BlockActionTooltip_LargeTurretUnlockTarget||
-|BlockPropertyTitle_LargeTurretFireAtLockedTarget||
-|BlockPropertyTooltip_LargeTurretFireAtLockedTarget||
 |DisplayName_Block_HydrogenTankIndustrial||
 |DisplayName_Block_AssemblerIndustrial||
 |DisplayName_Block_RefineryIndustrial||

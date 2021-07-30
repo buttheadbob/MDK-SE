@@ -3,12 +3,12 @@
 ### Summary
 
 ```csharp
-public Vector4D GetRow(int row)
+public Vector4 GetRow(int row)
 ```
 
 ### Returns
 
-[Vector4D](VRageMath.Vector4D)
+[Vector4](VRageMath.Vector4)
 
 ### Parameters
 

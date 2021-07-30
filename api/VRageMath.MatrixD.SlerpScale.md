@@ -6,8 +6,6 @@
 public static void SlerpScale(ref MatrixD matrix1, ref MatrixD matrix2, double amount, out MatrixD result)
 ```
 
-Performs spherical linear interpolation of position and rotation and scale.
-
 ### Parameters
 
 * [MatrixD](VRageMath.MatrixD) matrix1
@@ -20,8 +18,6 @@ Performs spherical linear interpolation of position and rotation and scale.
 public static void SlerpScale(MatrixD matrix1, MatrixD matrix2, double amount, out MatrixD result)
 ```
 
-Performs spherical linear interpolation of position and rotation and scale.
-
 ### Parameters
 
 * [MatrixD](VRageMath.MatrixD) matrix1
@@ -33,8 +29,6 @@ Performs spherical linear interpolation of position and rotation and scale.
 ```csharp
 public static MatrixD SlerpScale(MatrixD matrix1, MatrixD matrix2, double amount)
 ```
-
-Performs spherical linear interpolation of position and rotation and scale.
 
 ### Returns
 

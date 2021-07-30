@@ -173,13 +173,13 @@ Defines a matrix.
 |[Invert(ref MatrixD, out MatrixD)](VRageMath.MatrixD.Invert)|Calculates the inverse of a matrix.|
 |[Lerp(MatrixD, MatrixD, double)](VRageMath.MatrixD.Lerp)|Linearly interpolates between the corresponding values of two matrices.|
 |[Lerp(ref MatrixD, ref MatrixD, double, out MatrixD)](VRageMath.MatrixD.Lerp)|Linearly interpolates between the corresponding values of two matrices.|
-|[Slerp(ref MatrixD, ref MatrixD, double, out MatrixD)](VRageMath.MatrixD.Slerp)|Performs spherical linear interpolation of position and rotation.|
+|[Slerp(ref MatrixD, ref MatrixD, double, out MatrixD)](VRageMath.MatrixD.Slerp)||
 |[IsOrthogonal()](VRageMath.MatrixD.IsOrthogonal)||
 |[IsOrthogonal(double)](VRageMath.MatrixD.IsOrthogonal)||
-|[SlerpScale(ref MatrixD, ref MatrixD, double, out MatrixD)](VRageMath.MatrixD.SlerpScale)|Performs spherical linear interpolation of position and rotation and scale.|
-|[Slerp(MatrixD, MatrixD, double)](VRageMath.MatrixD.Slerp)|Performs spherical linear interpolation of position and rotation.|
-|[SlerpScale(MatrixD, MatrixD, double, out MatrixD)](VRageMath.MatrixD.SlerpScale)|Performs spherical linear interpolation of position and rotation and scale.|
-|[SlerpScale(MatrixD, MatrixD, double)](VRageMath.MatrixD.SlerpScale)|Performs spherical linear interpolation of position and rotation and scale.|
+|[SlerpScale(ref MatrixD, ref MatrixD, double, out MatrixD)](VRageMath.MatrixD.SlerpScale)||
+|[Slerp(MatrixD, MatrixD, double)](VRageMath.MatrixD.Slerp)||
+|[SlerpScale(MatrixD, MatrixD, double, out MatrixD)](VRageMath.MatrixD.SlerpScale)||
+|[SlerpScale(MatrixD, MatrixD, double)](VRageMath.MatrixD.SlerpScale)||
 |[Negate(MatrixD)](VRageMath.MatrixD.Negate)|Negates individual elements of a matrix.|
 |[Negate(ref MatrixD, out MatrixD)](VRageMath.MatrixD.Negate)|Negates individual elements of a matrix.|
 |[Add(MatrixD, MatrixD)](VRageMath.MatrixD.Add)|Adds a matrix to another matrix.|

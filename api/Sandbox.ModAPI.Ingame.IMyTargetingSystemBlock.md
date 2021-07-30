@@ -15,9 +15,6 @@ public interface IMyTargetingSystemBlock: IMyFunctionalBlock, IMyTerminalBlock, 
 * [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)  
 * [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
 
-**Type Definitions:**  
-* MyObjectBuilder_TargetingSystemBlock/LargeTargetingSystemBlock
-
 #### Properties
 
 |Member|Description|

@@ -42,7 +42,7 @@ Does a raycast to the given point. Will return an empty struct if distance or an
 public MyDetectedEntityInfo Raycast(double distance, Vector3D targetDirection)
 ```
 
-Does a raycast in the given direction. Will return an empty struct if distance or angle are out of bounds.
+Does a raycast in the given direction (in camera local space). Will return an empty struct if distance or angle are out of bounds.
 
 ### Returns
 

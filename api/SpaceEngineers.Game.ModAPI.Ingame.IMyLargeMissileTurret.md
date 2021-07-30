@@ -28,6 +28,7 @@ public interface IMyLargeMissileTurret: IMyLargeConveyorTurretBase, IMyLargeTurr
 |[DisplayName { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.DisplayName)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[HasInventory { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.HasInventory)|Returns true if this entity has got at least one inventory. Note that one aggregate inventory can contain zero simple inventories => zero will be returned even if GetInventory() != null.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[InventoryCount { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.InventoryCount)|Returns the count of the number of inventories this entity has.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
+|[Closed { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Closed)|True if the block has been removed from the world.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[WorldAABB { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[WorldAABBHr { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABBHr)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[WorldMatrix { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldMatrix)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
@@ -60,15 +61,23 @@ public interface IMyLargeMissileTurret: IMyLargeConveyorTurretBase, IMyLargeTurr
 |[ShowInInventory { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[Enabled { get; set; }](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.Enabled)|_Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_|
 |[IsShooting { get; }](Sandbox.ModAPI.Ingame.IMyUserControllableGun.IsShooting)|_Inherited from [IMyUserControllableGun](Sandbox.ModAPI.Ingame.IMyUserControllableGun)_|
+|[Shoot { get; set; }](Sandbox.ModAPI.Ingame.IMyUserControllableGun.Shoot)|Toggle shooting on or off.<br /><br />_Inherited from [IMyUserControllableGun](Sandbox.ModAPI.Ingame.IMyUserControllableGun)_|
 |[IsUnderControl { get; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.IsUnderControl)|Indicates whether a block is locally or remotely controlled.<br /><br />_Inherited from [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)_|
 |[CanControl { get; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.CanControl)|_Inherited from [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)_|
-|[Range { get; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.Range)|_Inherited from [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)_|
+|[Range { get; set; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.Range)|_Inherited from [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)_|
 |[IsAimed { get; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.IsAimed)|_Inherited from [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)_|
 |[HasTarget { get; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.HasTarget)|Checks if the turret is locked onto a target<br /><br />_Inherited from [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)_|
 |[Elevation { get; set; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.Elevation)|Sets/gets elevation of turret, this method is not synced, you need to sync elevation manually<br /><br />_Inherited from [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)_|
 |[Azimuth { get; set; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.Azimuth)|Sets/gets azimuth of turret, this method is not synced, you need to sync azimuth manually<br /><br />_Inherited from [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)_|
 |[EnableIdleRotation { get; set; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.EnableIdleRotation)|enable/disable idle rotation for turret, this method is not synced, you need to sync manually<br /><br />_Inherited from [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)_|
 |[AIEnabled { get; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.AIEnabled)|Checks is AI is enabled for turret<br /><br />_Inherited from [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)_|
+|[TargetMeteors { get; set; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.TargetMeteors)|Gets/sets if the turret should target meteors.<br /><br />_Inherited from [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)_|
+|[TargetMissiles { get; set; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.TargetMissiles)|Gets/sets if the turret should target missiles.<br /><br />_Inherited from [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)_|
+|[TargetSmallGrids { get; set; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.TargetSmallGrids)|Gets/sets if the turret should target small grids.<br /><br />_Inherited from [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)_|
+|[TargetLargeGrids { get; set; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.TargetLargeGrids)|Gets/sets if the turret should target large grids.<br /><br />_Inherited from [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)_|
+|[TargetCharacters { get; set; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.TargetCharacters)|Gets/sets if the turret should target characters.<br /><br />_Inherited from [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)_|
+|[TargetStations { get; set; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.TargetStations)|Gets/sets if the turret should target stations.<br /><br />_Inherited from [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)_|
+|[TargetNeutrals { get; set; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.TargetNeutrals)|Gets/sets if the turret should target neutrals.<br /><br />_Inherited from [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)_|
 |[UseConveyorSystem { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase.UseConveyorSystem)|_Inherited from [IMyLargeConveyorTurretBase](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase)_|
 
 #### Methods
@@ -80,11 +89,11 @@ public interface IMyLargeMissileTurret: IMyLargeConveyorTurretBase, IMyLargeTurr
 |[GetPosition()](VRage.Game.ModAPI.Ingame.IMyEntity.GetPosition)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[GetOwnerFactionTag()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetOwnerFactionTag)|Tag of faction owning block<br /><br />_Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_|
 |[GetPlayerRelationToOwner()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetPlayerRelationToOwner)|_**Obsolete:** GetPlayerRelationToOwner() is useless ingame. Mods should use the one in ModAPI.IMyCubeBlock_<br /><br />_Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_|
-|[GetUserRelationToOwner(long)](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetUserRelationToOwner)|_Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_|
+|[GetUserRelationToOwner(long, MyRelationsBetweenPlayerAndBlock)](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetUserRelationToOwner)|_Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_|
 |[UpdateIsWorking()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.UpdateIsWorking)|_**Obsolete**_<br /><br />_Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_|
 |[UpdateVisual()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.UpdateVisual)|_**Obsolete**_<br /><br />_Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_|
 |[HasLocalPlayerAccess()](Sandbox.ModAPI.Ingame.IMyTerminalBlock.HasLocalPlayerAccess)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
-|[HasPlayerAccess(long)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.HasPlayerAccess)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
+|[HasPlayerAccess(long, MyRelationsBetweenPlayerAndBlock)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.HasPlayerAccess)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[SetCustomName(string)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)|_**Obsolete:** Use the setter of Customname_<br /><br />_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[SetCustomName(StringBuilder)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)|_**Obsolete:** Use the setter of Customname_<br /><br />_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[GetActions(List, Func)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
@@ -94,6 +103,7 @@ public interface IMyLargeMissileTurret: IMyLargeConveyorTurretBase, IMyLargeTurr
 |[GetProperties(List, Func)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetProperties)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[IsSameConstructAs(IMyTerminalBlock)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.IsSameConstructAs)|Determines whether this block is mechanically connected to the other. This is any block connected with rotors or pistons or other mechanical devices, but not things like connectors. This will in most cases constitute your complete construct.<br /><br />Be aware that using merge blocks combines grids into one, so this function will not filter out grids connected that way. Also be aware that detaching the heads of pistons and rotors will cause this connection to change.<br /><br />_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[RequestEnable(bool)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)|_**Obsolete:** Use the setter of Enabled_<br /><br />_Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_|
+|[ShootOnce()](Sandbox.ModAPI.Ingame.IMyUserControllableGun.ShootOnce)|Triggers a single shot.<br /><br />_Inherited from [IMyUserControllableGun](Sandbox.ModAPI.Ingame.IMyUserControllableGun)_|
 |[TrackTarget(Vector3D, Vector3)](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.TrackTarget)|Tracks given target with enabled position prediction<br /><br />_Inherited from [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)_|
 |[SetTarget(Vector3D)](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.SetTarget)|Targets given position<br /><br />_Inherited from [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)_|
 |[SyncElevation()](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.SyncElevation)|method used to sync elevation of turret , you need to call it to sync elevation for other clients/server<br /><br />_Inherited from [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)_|

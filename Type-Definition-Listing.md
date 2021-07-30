@@ -78,6 +78,46 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Beacon/LargeBlockBeacon`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Beacon/SmallBlockBeacon`  
   
+<a name="blocks-Beam%20Block">**Beam Block**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeGridBeamBlock`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallGridBeamBlock`  
+  
+<a name="blocks-Beam%20Block%20End">**Beam Block End**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeGridBeamBlockEnd`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallGridBeamBlockEnd`  
+  
+<a name="blocks-Beam%20Block%20Half">**Beam Block Half**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeGridBeamBlockHalf`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallGridBeamBlockHalf`  
+  
+<a name="blocks-Beam%20Block%20Half%20Slope">**Beam Block Half Slope**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeGridBeamBlockHalfSlope`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallGridBeamBlockHalfSlope`  
+  
+<a name="blocks-Beam%20Block%20Junction">**Beam Block Junction**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeGridBeamBlockJunction`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallGridBeamBlockJunction`  
+  
+<a name="blocks-Beam%20Block%20Round">**Beam Block Round**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeGridBeamBlockRound`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallGridBeamBlockRound`  
+  
+<a name="blocks-Beam%20Block%20Slope">**Beam Block Slope**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeGridBeamBlockSlope`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallGridBeamBlockSlope`  
+  
+<a name="blocks-Beam%20Block%20T-Junction">**Beam Block T-Junction**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeGridBeamBlockTJunction`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallGridBeamBlockTJunction`  
+  
+<a name="blocks-Beam%20Block2x1%20Base">**Beam Block2x1 Base**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeGridBeamBlockSlope2x1Base`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallGridBeamBlockSlope2x1Base`  
+  
+<a name="blocks-Beam%20Block2x1%20Tip">**Beam Block2x1 Tip**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeGridBeamBlockSlope2x1Tip`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallGridBeamBlockSlope2x1Tip`  
+  
 <a name="blocks-Bed">**Bed**</a> ([IMyCryoChamber](Sandbox.ModAPI.Ingame.IMyCryoChamber))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CryoChamber/LargeBlockBed`  
   
@@ -154,6 +194,24 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Conveyor/LargeBlockConveyor`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Conveyor/SmallShipConveyorHub`  
   
+<a name="blocks-Conveyor%20Pipe">**Conveyor Pipe**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_ConveyorConnector/LargeBlockConveyorPipeSeamless`  
+  
+<a name="blocks-Conveyor%20Pipe%20Cross">**Conveyor Pipe Cross**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Conveyor/LargeBlockConveyorPipeIntersection`  
+  
+<a name="blocks-Conveyor%20Pipe%20Curved">**Conveyor Pipe Curved**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_ConveyorConnector/LargeBlockConveyorPipeCorner`  
+  
+<a name="blocks-Conveyor%20Pipe%20End">**Conveyor Pipe End**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_ConveyorConnector/LargeBlockConveyorPipeEnd`  
+  
+<a name="blocks-Conveyor%20Pipe%20Flanged">**Conveyor Pipe Flanged**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_ConveyorConnector/LargeBlockConveyorPipeFlange`  
+  
+<a name="blocks-Conveyor%20Pipe%20Junction">**Conveyor Pipe Junction**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Conveyor/LargeBlockConveyorPipeJunction`  
+  
 <a name="blocks-Conveyor%20Sorter">**Conveyor Sorter**</a> ([IMyConveyorSorter](Sandbox.ModAPI.Ingame.IMyConveyorSorter))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_ConveyorSorter/LargeBlockConveyorSorter`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_ConveyorSorter/MediumBlockConveyorSorter`  
@@ -201,6 +259,10 @@
 <a name="blocks-Curved%20Conveyor%20Tube">**Curved Conveyor Tube**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_ConveyorConnector/ConveyorTubeCurved`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_ConveyorConnector/ConveyorTubeCurvedMedium`  
+  
+<a name="blocks-Cylindrical%20Column">**Cylindrical Column**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockCylindricalColumn`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockCylindricalColumn`  
   
 <a name="blocks-Dead%20Engineer%201">**Dead Engineer 1**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/DeadBody01`  
@@ -417,6 +479,26 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockHeavyArmorHalfCorner`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockHeavyArmorHalfCorner`  
   
+<a name="blocks-Heavy%20Armor%20Half%20Panel">**Heavy Armor Half Panel**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeArmorHalfPanelHeavy`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmorHalfPanelHeavy`  
+  
+<a name="blocks-Heavy%20Armor%20Half%20Panel%202x1%20Base%20Left">**Heavy Armor Half Panel 2x1 Base Left**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeArmor2x1HalfSlopedPanelHeavyLeft`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmor2x1HalfSlopedPanelHeavyLeft`  
+  
+<a name="blocks-Heavy%20Armor%20Half%20Panel%202x1%20Base%20Right">**Heavy Armor Half Panel 2x1 Base Right**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeArmor2x1HalfSlopedPanelHeavyRight`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmor2x1HalfSlopedPanelHeavyRight`  
+  
+<a name="blocks-Heavy%20Armor%20Half%20Panel%202x1%20Tip%20Left">**Heavy Armor Half Panel 2x1 Tip Left**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeArmor2x1HalfSlopedTipPanelHeavyLeft`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmor2x1HalfSlopedTipPanelHeavyLeft`  
+  
+<a name="blocks-Heavy%20Armor%20Half%20Panel%202x1%20Tip%20Right">**Heavy Armor Half Panel 2x1 Tip Right**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeArmor2x1HalfSlopedTipPanelHeavyRight`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmor2x1HalfSlopedTipPanelHeavyRight`  
+  
 <a name="blocks-Heavy%20Armor%20Half%20Sloped%20Corner">**Heavy Armor Half Sloped Corner**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockHeavyArmorHalfSlopedCorner`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockHeavyArmorHalfSlopedCorner`  
@@ -436,6 +518,50 @@
 <a name="blocks-Heavy%20Armor%20Inv.%20Corner%202x1x1%20Tip">**Heavy Armor Inv. Corner 2x1x1 Tip**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeHeavyBlockArmorInvCorner2Tip`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallHeavyBlockArmorInvCorner2Tip`  
+  
+<a name="blocks-Heavy%20Armor%20Panel">**Heavy Armor Panel**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeArmorPanelHeavy`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmorPanelHeavy`  
+  
+<a name="blocks-Heavy%20Armor%20Panel%202x1%20Base%20Left">**Heavy Armor Panel 2x1 Base Left**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeArmor2x1SlopedSideBasePanelHeavyInv`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmor2x1SlopedSideBasePanelHeavyInv`  
+  
+<a name="blocks-Heavy%20Armor%20Panel%202x1%20Base%20Right">**Heavy Armor Panel 2x1 Base Right**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeArmor2x1SlopedSideBasePanelHeavy`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmor2x1SlopedSideBasePanelHeavy`  
+  
+<a name="blocks-Heavy%20Armor%20Panel%202x1%20Slope%20Base">**Heavy Armor Panel 2x1 Slope Base**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeArmor2x1SlopedPanelHeavy`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmor2x1SlopedPanelHeavy`  
+  
+<a name="blocks-Heavy%20Armor%20Panel%202x1%20Slope%20Tip">**Heavy Armor Panel 2x1 Slope Tip**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeArmor2x1SlopedPanelTipHeavy`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmor2x1SlopedPanelTipHeavy`  
+  
+<a name="blocks-Heavy%20Armor%20Panel%202x1%20Tip%20Left">**Heavy Armor Panel 2x1 Tip Left**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeArmor2x1SlopedSideTipPanelHeavyInv`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmor2x1SlopedSideTipPanelHeavyInv`  
+  
+<a name="blocks-Heavy%20Armor%20Panel%202x1%20Tip%20Right">**Heavy Armor Panel 2x1 Tip Right**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeArmor2x1SlopedSideTipPanelHeavy`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmor2x1SlopedSideTipPanelHeavy`  
+  
+<a name="blocks-Heavy%20Armor%20Panel%20Half%20Slope">**Heavy Armor Panel Half Slope**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeArmorHalfSlopedPanelHeavy`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmorHalfSlopedPanelHeavy`  
+  
+<a name="blocks-Heavy%20Armor%20Panel%20Side">**Heavy Armor Panel Side**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeArmorSlopedSidePanelHeavy`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmorSlopedSidePanelHeavy`  
+  
+<a name="blocks-Heavy%20Armor%20Panel%20Slope">**Heavy Armor Panel Slope**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeArmorSlopedPanelHeavy`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmorSlopedPanelHeavy`  
+  
+<a name="blocks-Heavy%20Armor%20Quarter%20Panel">**Heavy Armor Quarter Panel**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeArmorQuarterPanelHeavy`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmorQuarterPanelHeavy`  
   
 <a name="blocks-Heavy%20Armor%20Round%20Corner">**Heavy Armor Round Corner**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeHeavyBlockArmorRoundCorner`  
@@ -499,9 +625,29 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeSymbolHyphen`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallSymbolHyphen`  
   
+<a name="blocks-Industrial%20Assembler">**Industrial Assembler**</a> ([IMyAssembler](Sandbox.ModAPI.Ingame.IMyAssembler))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Assembler/LargeAssemblerIndustrial`  
+  
 <a name="blocks-Industrial%20Cockpit">**Industrial Cockpit**</a> ([IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Cockpit/LargeBlockCockpitIndustrial`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Cockpit/SmallBlockCockpitIndustrial`  
+  
+<a name="blocks-Industrial%20Conveyor%20Sorter">**Industrial Conveyor Sorter**</a> ([IMyConveyorSorter](Sandbox.ModAPI.Ingame.IMyConveyorSorter))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_ConveyorSorter/LargeBlockConveyorSorterIndustrial`  
+  
+<a name="blocks-Industrial%20Hydrogen%20Tank">**Industrial Hydrogen Tank**</a> ([IMyGasTank](Sandbox.ModAPI.Ingame.IMyGasTank))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_OxygenTank/LargeHydrogenTankIndustrial`  
+  
+<a name="blocks-Industrial%20Hydrogen%20Thruster">**Industrial Hydrogen Thruster**</a> ([IMyThrust](Sandbox.ModAPI.Ingame.IMyThrust))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Thrust/LargeBlockSmallHydrogenThrustIndustrial`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Thrust/SmallBlockSmallHydrogenThrustIndustrial`  
+  
+<a name="blocks-Industrial%20Large%20Hydrogen%20Thruster">**Industrial Large Hydrogen Thruster**</a> ([IMyThrust](Sandbox.ModAPI.Ingame.IMyThrust))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Thrust/LargeBlockLargeHydrogenThrustIndustrial`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Thrust/SmallBlockLargeHydrogenThrustIndustrial`  
+  
+<a name="blocks-Industrial%20Refinery">**Industrial Refinery**</a> ([IMyRefinery](Sandbox.ModAPI.Ingame.IMyRefinery))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Refinery/LargeRefineryIndustrial`  
   
 <a name="blocks-Interior%20Light">**Interior Light**</a> ([IMyInteriorLight](SpaceEngineers.Game.ModAPI.Ingame.IMyInteriorLight))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_InteriorLight/SmallLight`  
@@ -552,9 +698,16 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Thrust/LargeBlockLargeHydrogenThrust`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Thrust/SmallBlockLargeHydrogenThrust`  
   
+<a name="blocks-Large%20Industrial%20Cargo%20Container">**Large Industrial Cargo Container**</a> ([IMyCargoContainer](Sandbox.ModAPI.Ingame.IMyCargoContainer))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CargoContainer/LargeBlockLargeIndustrialContainer`  
+  
 <a name="blocks-Large%20Ion%20Thruster">**Large Ion Thruster**</a> ([IMyThrust](Sandbox.ModAPI.Ingame.IMyThrust))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Thrust/LargeBlockLargeThrust`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Thrust/SmallBlockLargeThrust`  
+  
+<a name="blocks-Large%20Magnetic%20Plate">**Large Magnetic Plate**</a> ([IMyLandingGear](SpaceEngineers.Game.ModAPI.Ingame.IMyLandingGear))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_LandingGear/LargeBlockMagneticPlate`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_LandingGear/SmallBlockMagneticPlate`  
   
 <a name="blocks-Large%20Reactor">**Large Reactor**</a> ([IMyReactor](Sandbox.ModAPI.Ingame.IMyReactor))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Reactor/LargeBlockLargeGenerator`  
@@ -700,6 +853,26 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockArmorHalfCorner`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockArmorHalfCorner`  
   
+<a name="blocks-Light%20Armor%20Half%20Panel">**Light Armor Half Panel**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeArmorHalfPanelLight`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmorHalfPanelLight`  
+  
+<a name="blocks-Light%20Armor%20Half%20Panel%202x1%20Base%20Left">**Light Armor Half Panel 2x1 Base Left**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeArmor2x1HalfSlopedPanelLightLeft`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmor2x1HalfSlopedPanelLightLeft`  
+  
+<a name="blocks-Light%20Armor%20Half%20Panel%202x1%20Base%20Right">**Light Armor Half Panel 2x1 Base Right**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeArmor2x1HalfSlopedPanelLightRight`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmor2x1HalfSlopedPanelLightRight`  
+  
+<a name="blocks-Light%20Armor%20Half%20Panel%202x1%20Tip%20Left">**Light Armor Half Panel 2x1 Tip Left**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeArmor2x1HalfSlopedTipPanelLightLeft`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmor2x1HalfSlopedTipPanelLightLeft`  
+  
+<a name="blocks-Light%20Armor%20Half%20Panel%202x1%20Tip%20Right">**Light Armor Half Panel 2x1 Tip Right**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeArmor2x1HalfSlopedTipPanelLightRight`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmor2x1HalfSlopedTipPanelLightRight`  
+  
 <a name="blocks-Light%20Armor%20Half%20Sloped%20Corner">**Light Armor Half Sloped Corner**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockArmorHalfSlopedCorner`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockArmorHalfSlopedCorner`  
@@ -719,6 +892,50 @@
 <a name="blocks-Light%20Armor%20Inv.%20Corner%202x1x1%20Tip">**Light Armor Inv. Corner 2x1x1 Tip**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockArmorInvCorner2Tip`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockArmorInvCorner2Tip`  
+  
+<a name="blocks-Light%20Armor%20Panel">**Light Armor Panel**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeArmorPanelLight`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmorPanelLight`  
+  
+<a name="blocks-Light%20Armor%20Panel%202x1%20Base%20Left">**Light Armor Panel 2x1 Base Left**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeArmor2x1SlopedSideBasePanelLightInv`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmor2x1SlopedSideBasePanelLightInv`  
+  
+<a name="blocks-Light%20Armor%20Panel%202x1%20Base%20Right">**Light Armor Panel 2x1 Base Right**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeArmor2x1SlopedSideBasePanelLight`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmor2x1SlopedSideBasePanelLight`  
+  
+<a name="blocks-Light%20Armor%20Panel%202x1%20Slope%20Base">**Light Armor Panel 2x1 Slope Base**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeArmor2x1SlopedPanelLight`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmor2x1SlopedPanelLight`  
+  
+<a name="blocks-Light%20Armor%20Panel%202x1%20Slope%20Tip">**Light Armor Panel 2x1 Slope Tip**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeArmor2x1SlopedPanelTipLight`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmor2x1SlopedPanelTipLight`  
+  
+<a name="blocks-Light%20Armor%20Panel%202x1%20Tip%20Left">**Light Armor Panel 2x1 Tip Left**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeArmor2x1SlopedSideTipPanelLightInv`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmor2x1SlopedSideTipPanelLightInv`  
+  
+<a name="blocks-Light%20Armor%20Panel%202x1%20Tip%20Right">**Light Armor Panel 2x1 Tip Right**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeArmor2x1SlopedSideTipPanelLight`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmor2x1SlopedSideTipPanelLight`  
+  
+<a name="blocks-Light%20Armor%20Panel%20Half%20Slope">**Light Armor Panel Half Slope**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeArmorHalfSlopedPanelLight`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmorHalfSlopedPanelLight`  
+  
+<a name="blocks-Light%20Armor%20Panel%20Side">**Light Armor Panel Side**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeArmorSlopedSidePanelLight`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmorSlopedSidePanelLight`  
+  
+<a name="blocks-Light%20Armor%20Panel%20Slope%20">**Light Armor Panel Slope **</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeArmorSlopedPanelLight`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmorSlopedPanelLight`  
+  
+<a name="blocks-Light%20Armor%20Quarter%20Panel">**Light Armor Quarter Panel**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeArmorQuarterPanelLight`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmorQuarterPanelLight`  
   
 <a name="blocks-Light%20Armor%20Slope">**Light Armor Slope**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockArmorSlope`  
@@ -742,6 +959,10 @@
   
 <a name="blocks-Lockers">**Lockers**</a> ([IMyCargoContainer](Sandbox.ModAPI.Ingame.IMyCargoContainer))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CargoContainer/LargeBlockLockers`  
+  
+<a name="blocks-Magnetic%20Plate">**Magnetic Plate**</a> ([IMyLandingGear](SpaceEngineers.Game.ModAPI.Ingame.IMyLandingGear))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_LandingGear/LargeBlockSmallMagneticPlate`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_LandingGear/SmallBlockSmallMagneticPlate`  
   
 <a name="blocks-Medical%20Room">**Medical Room**</a> ([IMyMedicalRoom](SpaceEngineers.Game.ModAPI.Ingame.IMyMedicalRoom))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_MedicalRoom/LargeMedicalRoom`  
@@ -906,6 +1127,9 @@
 <a name="blocks-Passage%203">**Passage 3**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/PassageSciFi`  
   
+<a name="blocks-Passage%203%20Corner">**Passage 3 Corner**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/PassageScifiCorner`  
+  
 <a name="blocks-Passage%203%20Cross">**Passage 3 Cross**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/PassageSciFiIntersection`  
   
@@ -915,8 +1139,14 @@
 <a name="blocks-Passage%203%20Light">**Passage 3 Light**</a> ([IMyInteriorLight](SpaceEngineers.Game.ModAPI.Ingame.IMyInteriorLight))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_InteriorLight/PassageSciFiLight`  
   
+<a name="blocks-Passage%203%20T-junction">**Passage 3 T-junction**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/PassageSciFiTjunction`  
+  
 <a name="blocks-Passage%203%20Wall">**Passage 3 Wall**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/PassageSciFiWall`  
+  
+<a name="blocks-Passage%203%20Windowed">**Passage 3 Windowed**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/PassageSciFiWindow`  
   
 <a name="blocks-Passenger%20Seat">**Passenger Seat**</a> ([IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Cockpit/PassengerSeatLarge`  
@@ -1097,6 +1327,9 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_OxygenTank/LargeHydrogenTankSmall`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_OxygenTank/SmallHydrogenTankSmall`  
   
+<a name="blocks-Small%20Merge%20Block">**Small Merge Block**</a> ([IMyShipMergeBlock](SpaceEngineers.Game.ModAPI.Ingame.IMyShipMergeBlock))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_MergeBlock/SmallShipSmallMergeBlock`  
+  
 <a name="blocks-Small%20Reactor">**Small Reactor**</a> ([IMyReactor](Sandbox.ModAPI.Ingame.IMyReactor))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Reactor/LargeBlockSmallGenerator`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Reactor/SmallBlockSmallGenerator`  
@@ -1157,6 +1390,9 @@
 <a name="blocks-Target%20dummy">**Target dummy**</a> ([IMyTargetDummyBlock](Sandbox.ModAPI.Ingame.IMyTargetDummyBlock))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_TargetDummyBlock/TargetDummy`  
   
+<a name="blocks-Targeting%20System%20Block">**Targeting System Block**</a> ([IMyTargetingSystemBlock](Sandbox.ModAPI.Ingame.IMyTargetingSystemBlock))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_TargetingSystemBlock/LargeTargetingSystemBlock`  
+  
 <a name="blocks-Text%20panel">**Text panel**</a> ([IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_TextPanel/LargeTextPanel`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_TextPanel/SmallTextPanel`  
@@ -1185,6 +1421,9 @@
   
 <a name="blocks-Vending%20Machine">**Vending Machine**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_VendingMachine/VendingMachine`  
+  
+<a name="blocks-Vertical%20Button%20Panel">**Vertical Button Panel**</a> ([IMyButtonPanel](SpaceEngineers.Game.ModAPI.Ingame.IMyButtonPanel))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_ButtonPanel/VerticalButtonPanelLarge`  
   
 <a name="blocks-Vertical%20Window">**Vertical Window**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeWindowSquare`  

@@ -6,9 +6,13 @@
 public IMyTerminalBlock GetBlockWithName(string name)
 ```
 
+Returns the first block found with the given name. Will return`null`if no block with that name can be found.
+
 ### Returns
 
 [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
+
+
 
 ### Parameters
 

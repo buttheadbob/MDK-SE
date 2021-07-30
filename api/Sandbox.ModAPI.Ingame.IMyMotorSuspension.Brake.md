@@ -6,7 +6,7 @@
 public bool Brake { get; set; }
 ```
 
-Gets or sets brake applied to the wheel.
+Gets or sets if brakes are applied to the wheel. This is not a brake override.
 
 ### Returns
 

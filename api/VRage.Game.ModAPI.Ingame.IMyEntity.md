@@ -96,6 +96,7 @@ Ingame (Programmable Block) interface for all entities.
 * [IMySpaceBall](SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall)  
 * [IMyStoreBlock](Sandbox.ModAPI.Ingame.IMyStoreBlock)  
 * [IMyTargetDummyBlock](Sandbox.ModAPI.Ingame.IMyTargetDummyBlock)  
+* [IMyTargetingSystemBlock](Sandbox.ModAPI.Ingame.IMyTargetingSystemBlock)  
 * [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)  
 * [IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel)  
 * [IMyThrust](Sandbox.ModAPI.Ingame.IMyThrust)  
@@ -117,6 +118,7 @@ Ingame (Programmable Block) interface for all entities.
 |[DisplayName { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.DisplayName)||
 |[HasInventory { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.HasInventory)|Returns true if this entity has got at least one inventory. Note that one aggregate inventory can contain zero simple inventories => zero will be returned even if GetInventory() != null.|
 |[InventoryCount { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.InventoryCount)|Returns the count of the number of inventories this entity has.|
+|[Closed { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Closed)|True if the block has been removed from the world.|
 |[WorldAABB { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)||
 |[WorldAABBHr { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABBHr)||
 |[WorldMatrix { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldMatrix)||

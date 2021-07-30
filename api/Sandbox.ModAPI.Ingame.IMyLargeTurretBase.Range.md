@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public float Range { get; }
+public float Range { get; set; }
 ```
 
 ### Returns

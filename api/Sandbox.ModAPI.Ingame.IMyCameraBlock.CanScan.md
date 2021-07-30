@@ -23,7 +23,7 @@ Checks if the camera can scan the given distance.
 public bool CanScan(double distance, Vector3D direction)
 ```
 
-Checks if the camera can scan to the given direction and distance.
+Checks if the camera can scan to the given direction and distance (in camera local space).
 
 ### Returns
 

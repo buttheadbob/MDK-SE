@@ -19,21 +19,25 @@ public interface IMyThrust: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, 
 * MyObjectBuilder_Thrust/LargeBlockLargeAtmosphericThrust  
 * MyObjectBuilder_Thrust/LargeBlockLargeAtmosphericThrustSciFi  
 * MyObjectBuilder_Thrust/LargeBlockLargeHydrogenThrust  
+* MyObjectBuilder_Thrust/LargeBlockLargeHydrogenThrustIndustrial  
 * MyObjectBuilder_Thrust/LargeBlockLargeThrust  
 * MyObjectBuilder_Thrust/LargeBlockLargeThrustSciFi  
 * MyObjectBuilder_Thrust/LargeBlockSmallAtmosphericThrust  
 * MyObjectBuilder_Thrust/LargeBlockSmallAtmosphericThrustSciFi  
 * MyObjectBuilder_Thrust/LargeBlockSmallHydrogenThrust  
+* MyObjectBuilder_Thrust/LargeBlockSmallHydrogenThrustIndustrial  
 * MyObjectBuilder_Thrust/LargeBlockSmallThrust  
 * MyObjectBuilder_Thrust/LargeBlockSmallThrustSciFi  
 * MyObjectBuilder_Thrust/SmallBlockLargeAtmosphericThrust  
 * MyObjectBuilder_Thrust/SmallBlockLargeAtmosphericThrustSciFi  
 * MyObjectBuilder_Thrust/SmallBlockLargeHydrogenThrust  
+* MyObjectBuilder_Thrust/SmallBlockLargeHydrogenThrustIndustrial  
 * MyObjectBuilder_Thrust/SmallBlockLargeThrust  
 * MyObjectBuilder_Thrust/SmallBlockLargeThrustSciFi  
 * MyObjectBuilder_Thrust/SmallBlockSmallAtmosphericThrust  
 * MyObjectBuilder_Thrust/SmallBlockSmallAtmosphericThrustSciFi  
 * MyObjectBuilder_Thrust/SmallBlockSmallHydrogenThrust  
+* MyObjectBuilder_Thrust/SmallBlockSmallHydrogenThrustIndustrial  
 * MyObjectBuilder_Thrust/SmallBlockSmallThrust  
 * MyObjectBuilder_Thrust/SmallBlockSmallThrustSciFi
 
@@ -53,6 +57,7 @@ public interface IMyThrust: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, 
 |[DisplayName { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.DisplayName)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[HasInventory { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.HasInventory)|Returns true if this entity has got at least one inventory. Note that one aggregate inventory can contain zero simple inventories => zero will be returned even if GetInventory() != null.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[InventoryCount { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.InventoryCount)|Returns the count of the number of inventories this entity has.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
+|[Closed { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Closed)|True if the block has been removed from the world.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[WorldAABB { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[WorldAABBHr { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABBHr)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[WorldMatrix { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldMatrix)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
@@ -94,11 +99,11 @@ public interface IMyThrust: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, 
 |[GetPosition()](VRage.Game.ModAPI.Ingame.IMyEntity.GetPosition)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[GetOwnerFactionTag()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetOwnerFactionTag)|Tag of faction owning block<br /><br />_Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_|
 |[GetPlayerRelationToOwner()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetPlayerRelationToOwner)|_**Obsolete:** GetPlayerRelationToOwner() is useless ingame. Mods should use the one in ModAPI.IMyCubeBlock_<br /><br />_Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_|
-|[GetUserRelationToOwner(long)](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetUserRelationToOwner)|_Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_|
+|[GetUserRelationToOwner(long, MyRelationsBetweenPlayerAndBlock)](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetUserRelationToOwner)|_Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_|
 |[UpdateIsWorking()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.UpdateIsWorking)|_**Obsolete**_<br /><br />_Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_|
 |[UpdateVisual()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.UpdateVisual)|_**Obsolete**_<br /><br />_Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_|
 |[HasLocalPlayerAccess()](Sandbox.ModAPI.Ingame.IMyTerminalBlock.HasLocalPlayerAccess)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
-|[HasPlayerAccess(long)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.HasPlayerAccess)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
+|[HasPlayerAccess(long, MyRelationsBetweenPlayerAndBlock)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.HasPlayerAccess)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[SetCustomName(string)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)|_**Obsolete:** Use the setter of Customname_<br /><br />_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[SetCustomName(StringBuilder)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)|_**Obsolete:** Use the setter of Customname_<br /><br />_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[GetActions(List, Func)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|

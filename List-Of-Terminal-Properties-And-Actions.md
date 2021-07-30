@@ -62,6 +62,7 @@
 [IMySpaceBall](#imyspaceball)  
 [IMyStoreBlock](#imystoreblock)  
 [IMyTargetDummyBlock](#imytargetdummyblock)  
+[IMyTargetingSystemBlock](#imytargetingsystemblock)  
 [IMyTerminalBlock](#imyterminalblock)  
 [IMyTextPanel](#imytextpanel)  
 [IMyThrust](#imythrust)  
@@ -403,10 +404,12 @@
 |IncreaseFontSize|Increase Font Size|
 |IncreaseTextPaddingSlider|Increase Text Padding|
 |MainCockpit|Main cockpit On/Off|
+|Park|Park On/Off|
 |PreserveAspectRatio|Preserve aspect ratio On/Off|
 |ShowOnHUD|Show on HUD On/Off|
 |ShowOnHUD_Off|Show on HUD Off|
 |ShowOnHUD_On|Show on HUD On|
+|TargetLocking|Enable target locking On/Off|
 
 ### Properties
 
@@ -427,6 +430,7 @@
 |HorizonIndicator|bool|
 |MainCockpit|bool|
 |Name|StringBuilder|
+|Park|bool|
 |PreserveAspectRatio|bool|
 |ScriptBackgroundColor|Color|
 |ScriptForegroundColor|Color|
@@ -434,6 +438,7 @@
 |ShowInTerminal|bool|
 |ShowInToolbarConfig|bool|
 |ShowOnHUD|bool|
+|TargetLocking|bool|
 |TextPaddingSlider|float|
 
 ## IMyCollector
@@ -528,10 +533,12 @@
 |IncreaseFontSize|Increase Font Size|
 |IncreaseTextPaddingSlider|Increase Text Padding|
 |MainCockpit|Main cockpit On/Off|
+|Park|Park On/Off|
 |PreserveAspectRatio|Preserve aspect ratio On/Off|
 |ShowOnHUD|Show on HUD On/Off|
 |ShowOnHUD_Off|Show on HUD Off|
 |ShowOnHUD_On|Show on HUD On|
+|TargetLocking|Enable target locking On/Off|
 
 ### Properties
 
@@ -552,6 +559,7 @@
 |HorizonIndicator|bool|
 |MainCockpit|bool|
 |Name|StringBuilder|
+|Park|bool|
 |PreserveAspectRatio|bool|
 |ScriptBackgroundColor|Color|
 |ScriptForegroundColor|Color|
@@ -559,6 +567,7 @@
 |ShowInTerminal|bool|
 |ShowInToolbarConfig|bool|
 |ShowOnHUD|bool|
+|TargetLocking|bool|
 |TextPaddingSlider|float|
 
 ## IMyDecoy
@@ -941,6 +950,7 @@
 |Name|Description|
 |-|-|
 |Autolock|Autolock On/Off|
+|EnableParking|Used for parking On/Off|
 |Lock|Lock|
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
@@ -956,6 +966,7 @@
 |Name|Type|
 |-|-|
 |Autolock|bool|
+|EnableParking|bool|
 |Name|StringBuilder|
 |OnOff|bool|
 |ShowInInventory|bool|
@@ -973,6 +984,10 @@
 |EnableIdleMovement|Enable idle movement On/Off|
 |EnableIdleMovement_Off|Enable idle movement Off|
 |EnableIdleMovement_On|Enable idle movement On|
+|EnableTargetLocking|Enable target locking On/Off|
+|FireAtLockedTarget|Fire at locked target On/Off|
+|FireAtLockedTarget_Off|Fire at locked target Off|
+|FireAtLockedTarget_On|Fire at locked target On|
 |IncreaseRange|Increase Aiming radius|
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
@@ -990,6 +1005,9 @@
 |TargetLargeShips|Target large ships On/Off|
 |TargetLargeShips_Off|Target large ships Off|
 |TargetLargeShips_On|Target large ships On|
+|TargetLockingEnabled|Enable target locking On/Off|
+|TargetLockingEnabled_Off|Enable target locking Off|
+|TargetLockingEnabled_On|Enable target locking On|
 |TargetMeteors|Target meteors On/Off|
 |TargetMeteors_Off|Target meteors Off|
 |TargetMeteors_On|Target meteors On|
@@ -1005,6 +1023,7 @@
 |TargetStations|Target stations On/Off|
 |TargetStations_Off|Target stations Off|
 |TargetStations_On|Target stations On|
+|UnlockTarget|Unlock target|
 |UseConveyor|Use Conveyor System On/Off|
 
 ### Properties
@@ -1012,6 +1031,8 @@
 |Name|Type|
 |-|-|
 |EnableIdleMovement|bool|
+|EnableTargetLocking|bool|
+|FireAtLockedTarget|bool|
 |Name|StringBuilder|
 |OnOff|bool|
 |Range|float|
@@ -1022,6 +1043,7 @@
 |ShowOnHUD|bool|
 |TargetCharacters|bool|
 |TargetLargeShips|bool|
+|TargetLockingEnabled|bool|
 |TargetMeteors|bool|
 |TargetMissiles|bool|
 |TargetNeutrals|bool|
@@ -1039,6 +1061,10 @@
 |EnableIdleMovement|Enable idle movement On/Off|
 |EnableIdleMovement_Off|Enable idle movement Off|
 |EnableIdleMovement_On|Enable idle movement On|
+|EnableTargetLocking|Enable target locking On/Off|
+|FireAtLockedTarget|Fire at locked target On/Off|
+|FireAtLockedTarget_Off|Fire at locked target Off|
+|FireAtLockedTarget_On|Fire at locked target On|
 |IncreaseRange|Increase Aiming radius|
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
@@ -1056,6 +1082,9 @@
 |TargetLargeShips|Target large ships On/Off|
 |TargetLargeShips_Off|Target large ships Off|
 |TargetLargeShips_On|Target large ships On|
+|TargetLockingEnabled|Enable target locking On/Off|
+|TargetLockingEnabled_Off|Enable target locking Off|
+|TargetLockingEnabled_On|Enable target locking On|
 |TargetMeteors|Target meteors On/Off|
 |TargetMeteors_Off|Target meteors Off|
 |TargetMeteors_On|Target meteors On|
@@ -1071,12 +1100,15 @@
 |TargetStations|Target stations On/Off|
 |TargetStations_Off|Target stations Off|
 |TargetStations_On|Target stations On|
+|UnlockTarget|Unlock target|
 
 ### Properties
 
 |Name|Type|
 |-|-|
 |EnableIdleMovement|bool|
+|EnableTargetLocking|bool|
+|FireAtLockedTarget|bool|
 |Name|StringBuilder|
 |OnOff|bool|
 |Range|float|
@@ -1087,6 +1119,7 @@
 |ShowOnHUD|bool|
 |TargetCharacters|bool|
 |TargetLargeShips|bool|
+|TargetLockingEnabled|bool|
 |TargetMeteors|bool|
 |TargetMissiles|bool|
 |TargetNeutrals|bool|
@@ -1236,6 +1269,7 @@
 |DecreaseSteer override|Decrease Steer override|
 |DecreaseStrength|Decrease Strength|
 |DecreaseWeld speed|Decrease Safety lock speed|
+|EnableParking|Allow Parking Brake On/Off|
 |Force weld|Safety lock override On/Off|
 |IncreaseFriction|Increase Friction|
 |IncreaseHeight|Increase Height Offset|
@@ -1270,6 +1304,7 @@
 |-|-|
 |AirShock|bool|
 |Braking|bool|
+|EnableParking|bool|
 |Force weld|bool|
 |Friction|float|
 |Height|float|
@@ -1704,10 +1739,12 @@
 |Left|Left|
 |MainCockpit|Main cockpit On/Off|
 |MainRemoteControl|Main Remote Control On/Off|
+|Park|Park On/Off|
 |Right|Right|
 |ShowOnHUD|Show on HUD On/Off|
 |ShowOnHUD_Off|Show on HUD Off|
 |ShowOnHUD_On|Show on HUD On|
+|TargetLocking|Enable target locking On/Off|
 |Up|Up|
 
 ### Properties
@@ -1729,11 +1766,13 @@
 |MainCockpit|bool|
 |MainRemoteControl|bool|
 |Name|StringBuilder|
+|Park|bool|
 |ShowInInventory|bool|
 |ShowInTerminal|bool|
 |ShowInToolbarConfig|bool|
 |ShowOnHUD|bool|
 |SpeedLimit|float|
+|TargetLocking|bool|
 
 ## IMySafeZoneBlock
 
@@ -1893,12 +1932,14 @@
 |CollectAll|Collect All On/Off|
 |DecreaseAutoUnlockTime|Decrease Autounlock Time|
 |DecreaseStrength|Decrease Strength|
+|EnableParking|Used for parking On/Off|
 |IncreaseAutoUnlockTime|Increase Autounlock Time|
 |IncreaseStrength|Increase Strength|
 |Lock|Lock|
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
 |OnOff_On|Toggle block On|
+|PowerTransferOverride|Override Power Transfer On/Off|
 |ShowOnHUD|Show on HUD On/Off|
 |ShowOnHUD_Off|Show on HUD Off|
 |ShowOnHUD_On|Show on HUD On|
@@ -1913,8 +1954,10 @@
 |-|-|
 |AutoUnlockTime|float|
 |CollectAll|bool|
+|EnableParking|bool|
 |Name|StringBuilder|
 |OnOff|bool|
+|PowerTransferOverride|bool|
 |ShowInInventory|bool|
 |ShowInTerminal|bool|
 |ShowInToolbarConfig|bool|
@@ -1936,9 +1979,11 @@
 |HandBrake|Handbrake On/Off|
 |HorizonIndicator|Show horizon and altitude On/Off|
 |MainCockpit|Main cockpit On/Off|
+|Park|Park On/Off|
 |ShowOnHUD|Show on HUD On/Off|
 |ShowOnHUD_Off|Show on HUD Off|
 |ShowOnHUD_On|Show on HUD On|
+|TargetLocking|Enable target locking On/Off|
 
 ### Properties
 
@@ -1952,10 +1997,12 @@
 |HorizonIndicator|bool|
 |MainCockpit|bool|
 |Name|StringBuilder|
+|Park|bool|
 |ShowInInventory|bool|
 |ShowInTerminal|bool|
 |ShowInToolbarConfig|bool|
 |ShowOnHUD|bool|
+|TargetLocking|bool|
 
 ## IMyShipDrill
 
@@ -2317,6 +2364,38 @@
 |ShowInTerminal|bool|
 |ShowInToolbarConfig|bool|
 |ShowOnHUD|bool|
+
+## IMyTargetingSystemBlock
+
+### Actions
+
+|Name|Description|
+|-|-|
+|OnOff|Toggle block On/Off|
+|OnOff_Off|Toggle block Off|
+|OnOff_On|Toggle block On|
+|ShowOnHUD|Show on HUD On/Off|
+|ShowOnHUD_Off|Show on HUD Off|
+|ShowOnHUD_On|Show on HUD On|
+|TargetingMode_CycleSubsystems|Cycle Subsystems|
+|TargetingMode_Default|Default|
+|TargetingMode_Explosives|Explosives|
+|TargetingMode_PowerSystems|Power systems|
+|TargetingMode_Production|Production|
+|TargetingMode_Propulsion|Propulsion|
+|TargetingMode_Weapons|Weapons|
+
+### Properties
+
+|Name|Type|
+|-|-|
+|Name|StringBuilder|
+|OnOff|bool|
+|ShowInInventory|bool|
+|ShowInTerminal|bool|
+|ShowInToolbarConfig|bool|
+|ShowOnHUD|bool|
+|TargetingMode|long|
 
 ## IMyTerminalBlock
 

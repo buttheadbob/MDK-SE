@@ -6,7 +6,7 @@
 public LandingGearMode LockMode { get; }
 ```
 
-Gets the current lock state of the landing gear.
+Is this block triggered by the parking signal?
 
 ### Returns
 

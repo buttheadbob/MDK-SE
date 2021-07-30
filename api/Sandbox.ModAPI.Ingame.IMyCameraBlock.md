@@ -23,17 +23,19 @@ public interface IMyCameraBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBl
 
 |Member|Description|
 |---|---|
-|[IsActive { get; }](Sandbox.ModAPI.Ingame.IMyCameraBlock.IsActive)|Determines whether this camera is currently in use.|
+|[IsActive { get; }](Sandbox.ModAPI.Ingame.IMyCameraBlock.IsActive)|Determines whether this camera is currently in use by at least one player.|
 |[AvailableScanRange { get; }](Sandbox.ModAPI.Ingame.IMyCameraBlock.AvailableScanRange)|The maximum distance that this camera can scan, based on the time since the last scan.|
 |[EnableRaycast { get; set; }](Sandbox.ModAPI.Ingame.IMyCameraBlock.EnableRaycast)|When this is true, the available raycast distance will count up, and power usage is increased.|
 |[RaycastConeLimit { get; }](Sandbox.ModAPI.Ingame.IMyCameraBlock.RaycastConeLimit)|Returns the maximum positive angle you can apply for pitch and yaw.|
 |[RaycastDistanceLimit { get; }](Sandbox.ModAPI.Ingame.IMyCameraBlock.RaycastDistanceLimit)|Returns the maximum distance you can request a raycast. -1 means infinite.|
+|[RaycastTimeMultiplier { get; }](Sandbox.ModAPI.Ingame.IMyCameraBlock.RaycastTimeMultiplier)|Returns the raycast time multiplier that converts time in milliseconds to available raycast distance in meters.|
 |[Components { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Components)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[EntityId { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.EntityId)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[Name { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Name)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[DisplayName { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.DisplayName)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[HasInventory { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.HasInventory)|Returns true if this entity has got at least one inventory. Note that one aggregate inventory can contain zero simple inventories => zero will be returned even if GetInventory() != null.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[InventoryCount { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.InventoryCount)|Returns the count of the number of inventories this entity has.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
+|[Closed { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Closed)|True if the block has been removed from the world.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[WorldAABB { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[WorldAABBHr { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABBHr)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[WorldMatrix { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldMatrix)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
@@ -72,9 +74,9 @@ public interface IMyCameraBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBl
 |---|---|
 |[Raycast(double, float, float)](Sandbox.ModAPI.Ingame.IMyCameraBlock.Raycast)|Does a raycast in the direction the camera is facing. Pitch and Yaw are in degrees. Will return an empty struct if distance or angle are out of bounds.|
 |[Raycast(Vector3D)](Sandbox.ModAPI.Ingame.IMyCameraBlock.Raycast)|Does a raycast to the given point. Will return an empty struct if distance or angle are out of bounds.|
-|[Raycast(double, Vector3D)](Sandbox.ModAPI.Ingame.IMyCameraBlock.Raycast)|Does a raycast in the given direction. Will return an empty struct if distance or angle are out of bounds.|
+|[Raycast(double, Vector3D)](Sandbox.ModAPI.Ingame.IMyCameraBlock.Raycast)|Does a raycast in the given direction (in camera local space). Will return an empty struct if distance or angle are out of bounds.|
 |[CanScan(double)](Sandbox.ModAPI.Ingame.IMyCameraBlock.CanScan)|Checks if the camera can scan the given distance.|
-|[CanScan(double, Vector3D)](Sandbox.ModAPI.Ingame.IMyCameraBlock.CanScan)|Checks if the camera can scan to the given direction and distance.|
+|[CanScan(double, Vector3D)](Sandbox.ModAPI.Ingame.IMyCameraBlock.CanScan)|Checks if the camera can scan to the given direction and distance (in camera local space).|
 |[CanScan(Vector3D)](Sandbox.ModAPI.Ingame.IMyCameraBlock.CanScan)|Checks if the camera can scan to the given target|
 |[TimeUntilScan(double)](Sandbox.ModAPI.Ingame.IMyCameraBlock.TimeUntilScan)|Returns the number of milliseconds until the camera can do a raycast of the given distance.|
 |[GetInventory()](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)|Simply get the MyInventoryBase component stored in this entity.<br /><br />_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
@@ -82,11 +84,11 @@ public interface IMyCameraBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBl
 |[GetPosition()](VRage.Game.ModAPI.Ingame.IMyEntity.GetPosition)|_Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_|
 |[GetOwnerFactionTag()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetOwnerFactionTag)|Tag of faction owning block<br /><br />_Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_|
 |[GetPlayerRelationToOwner()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetPlayerRelationToOwner)|_**Obsolete:** GetPlayerRelationToOwner() is useless ingame. Mods should use the one in ModAPI.IMyCubeBlock_<br /><br />_Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_|
-|[GetUserRelationToOwner(long)](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetUserRelationToOwner)|_Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_|
+|[GetUserRelationToOwner(long, MyRelationsBetweenPlayerAndBlock)](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetUserRelationToOwner)|_Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_|
 |[UpdateIsWorking()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.UpdateIsWorking)|_**Obsolete**_<br /><br />_Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_|
 |[UpdateVisual()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.UpdateVisual)|_**Obsolete**_<br /><br />_Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_|
 |[HasLocalPlayerAccess()](Sandbox.ModAPI.Ingame.IMyTerminalBlock.HasLocalPlayerAccess)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
-|[HasPlayerAccess(long)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.HasPlayerAccess)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
+|[HasPlayerAccess(long, MyRelationsBetweenPlayerAndBlock)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.HasPlayerAccess)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[SetCustomName(string)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)|_**Obsolete:** Use the setter of Customname_<br /><br />_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[SetCustomName(StringBuilder)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)|_**Obsolete:** Use the setter of Customname_<br /><br />_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|
 |[GetActions(List, Func)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)|_Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_|

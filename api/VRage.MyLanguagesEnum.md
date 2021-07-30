@@ -39,4 +39,5 @@ public enum MyLanguagesEnum
 |Turkish||
 |Latvian||
 |ChineseChina||
+|Japanese||
 

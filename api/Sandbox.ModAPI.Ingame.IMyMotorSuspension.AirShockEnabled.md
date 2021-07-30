@@ -6,7 +6,7 @@
 public bool AirShockEnabled { get; set; }
 ```
 
-Enables or disalbes AirShock function.
+Enables or disables AirShock function.
 
 ### Returns
 

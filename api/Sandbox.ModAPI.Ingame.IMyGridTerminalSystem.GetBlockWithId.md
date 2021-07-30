@@ -6,9 +6,13 @@
 public IMyTerminalBlock GetBlockWithId(long id)
 ```
 
+Attempts to retrieve the block with the given entity ID. Will return`null`if no block can be found.
+
 ### Returns
 
 [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)
+
+
 
 ### Parameters
 

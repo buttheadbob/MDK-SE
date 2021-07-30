@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool HasPlayerAccess(long playerId)
+public bool HasPlayerAccess(long playerId, MyRelationsBetweenPlayerAndBlock defaultNoUser)
 ```
 
 ### Returns
@@ -13,3 +13,4 @@ public bool HasPlayerAccess(long playerId)
 ### Parameters
 
 * [long](https://docs.microsoft.com/en-us/dotnet/api/System.Int64?view=netframework-4.6) playerId
+* [MyRelationsBetweenPlayerAndBlock](VRage.Game.MyRelationsBetweenPlayerAndBlock) defaultNoUser

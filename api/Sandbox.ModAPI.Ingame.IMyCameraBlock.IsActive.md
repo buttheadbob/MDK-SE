@@ -6,7 +6,7 @@
 public bool IsActive { get; }
 ```
 
-Determines whether this camera is currently in use.
+Determines whether this camera is currently in use by at least one player.
 
 ### Returns
 

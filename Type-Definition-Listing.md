@@ -82,6 +82,14 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeGridBeamBlock`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallGridBeamBlock`  
   
+<a name="blocks-Beam%20Block%202x1%20Base">**Beam Block 2x1 Base**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeGridBeamBlockSlope2x1Base`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallGridBeamBlockSlope2x1Base`  
+  
+<a name="blocks-Beam%20Block%202x1%20Tip">**Beam Block 2x1 Tip**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeGridBeamBlockSlope2x1Tip`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallGridBeamBlockSlope2x1Tip`  
+  
 <a name="blocks-Beam%20Block%20End">**Beam Block End**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeGridBeamBlockEnd`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallGridBeamBlockEnd`  
@@ -109,14 +117,6 @@
 <a name="blocks-Beam%20Block%20T-Junction">**Beam Block T-Junction**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeGridBeamBlockTJunction`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallGridBeamBlockTJunction`  
-  
-<a name="blocks-Beam%20Block2x1%20Base">**Beam Block2x1 Base**</a>  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeGridBeamBlockSlope2x1Base`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallGridBeamBlockSlope2x1Base`  
-  
-<a name="blocks-Beam%20Block2x1%20Tip">**Beam Block2x1 Tip**</a>  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeGridBeamBlockSlope2x1Tip`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallGridBeamBlockSlope2x1Tip`  
   
 <a name="blocks-Bed">**Bed**</a> ([IMyCryoChamber](Sandbox.ModAPI.Ingame.IMyCryoChamber))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CryoChamber/LargeBlockBed`  
@@ -1389,9 +1389,6 @@
   
 <a name="blocks-Target%20dummy">**Target dummy**</a> ([IMyTargetDummyBlock](Sandbox.ModAPI.Ingame.IMyTargetDummyBlock))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_TargetDummyBlock/TargetDummy`  
-  
-<a name="blocks-Targeting%20System%20Block">**Targeting System Block**</a> ([IMyTargetingSystemBlock](Sandbox.ModAPI.Ingame.IMyTargetingSystemBlock))  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_TargetingSystemBlock/LargeTargetingSystemBlock`  
   
 <a name="blocks-Text%20panel">**Text panel**</a> ([IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_TextPanel/LargeTextPanel`  

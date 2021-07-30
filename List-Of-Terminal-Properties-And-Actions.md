@@ -62,7 +62,6 @@
 [IMySpaceBall](#imyspaceball)  
 [IMyStoreBlock](#imystoreblock)  
 [IMyTargetDummyBlock](#imytargetdummyblock)  
-[IMyTargetingSystemBlock](#imytargetingsystemblock)  
 [IMyTerminalBlock](#imyterminalblock)  
 [IMyTextPanel](#imytextpanel)  
 [IMyThrust](#imythrust)  
@@ -409,7 +408,6 @@
 |ShowOnHUD|Show on HUD On/Off|
 |ShowOnHUD_Off|Show on HUD Off|
 |ShowOnHUD_On|Show on HUD On|
-|TargetLocking|Enable target locking On/Off|
 
 ### Properties
 
@@ -438,7 +436,6 @@
 |ShowInTerminal|bool|
 |ShowInToolbarConfig|bool|
 |ShowOnHUD|bool|
-|TargetLocking|bool|
 |TextPaddingSlider|float|
 
 ## IMyCollector
@@ -538,7 +535,6 @@
 |ShowOnHUD|Show on HUD On/Off|
 |ShowOnHUD_Off|Show on HUD Off|
 |ShowOnHUD_On|Show on HUD On|
-|TargetLocking|Enable target locking On/Off|
 
 ### Properties
 
@@ -567,7 +563,6 @@
 |ShowInTerminal|bool|
 |ShowInToolbarConfig|bool|
 |ShowOnHUD|bool|
-|TargetLocking|bool|
 |TextPaddingSlider|float|
 
 ## IMyDecoy
@@ -984,10 +979,6 @@
 |EnableIdleMovement|Enable idle movement On/Off|
 |EnableIdleMovement_Off|Enable idle movement Off|
 |EnableIdleMovement_On|Enable idle movement On|
-|EnableTargetLocking|Enable target locking On/Off|
-|FireAtLockedTarget|Fire at locked target On/Off|
-|FireAtLockedTarget_Off|Fire at locked target Off|
-|FireAtLockedTarget_On|Fire at locked target On|
 |IncreaseRange|Increase Aiming radius|
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
@@ -1005,9 +996,6 @@
 |TargetLargeShips|Target large ships On/Off|
 |TargetLargeShips_Off|Target large ships Off|
 |TargetLargeShips_On|Target large ships On|
-|TargetLockingEnabled|Enable target locking On/Off|
-|TargetLockingEnabled_Off|Enable target locking Off|
-|TargetLockingEnabled_On|Enable target locking On|
 |TargetMeteors|Target meteors On/Off|
 |TargetMeteors_Off|Target meteors Off|
 |TargetMeteors_On|Target meteors On|
@@ -1023,7 +1011,6 @@
 |TargetStations|Target stations On/Off|
 |TargetStations_Off|Target stations Off|
 |TargetStations_On|Target stations On|
-|UnlockTarget|Unlock target|
 |UseConveyor|Use Conveyor System On/Off|
 
 ### Properties
@@ -1031,8 +1018,6 @@
 |Name|Type|
 |-|-|
 |EnableIdleMovement|bool|
-|EnableTargetLocking|bool|
-|FireAtLockedTarget|bool|
 |Name|StringBuilder|
 |OnOff|bool|
 |Range|float|
@@ -1043,7 +1028,6 @@
 |ShowOnHUD|bool|
 |TargetCharacters|bool|
 |TargetLargeShips|bool|
-|TargetLockingEnabled|bool|
 |TargetMeteors|bool|
 |TargetMissiles|bool|
 |TargetNeutrals|bool|
@@ -1061,10 +1045,6 @@
 |EnableIdleMovement|Enable idle movement On/Off|
 |EnableIdleMovement_Off|Enable idle movement Off|
 |EnableIdleMovement_On|Enable idle movement On|
-|EnableTargetLocking|Enable target locking On/Off|
-|FireAtLockedTarget|Fire at locked target On/Off|
-|FireAtLockedTarget_Off|Fire at locked target Off|
-|FireAtLockedTarget_On|Fire at locked target On|
 |IncreaseRange|Increase Aiming radius|
 |OnOff|Toggle block On/Off|
 |OnOff_Off|Toggle block Off|
@@ -1082,9 +1062,6 @@
 |TargetLargeShips|Target large ships On/Off|
 |TargetLargeShips_Off|Target large ships Off|
 |TargetLargeShips_On|Target large ships On|
-|TargetLockingEnabled|Enable target locking On/Off|
-|TargetLockingEnabled_Off|Enable target locking Off|
-|TargetLockingEnabled_On|Enable target locking On|
 |TargetMeteors|Target meteors On/Off|
 |TargetMeteors_Off|Target meteors Off|
 |TargetMeteors_On|Target meteors On|
@@ -1100,15 +1077,12 @@
 |TargetStations|Target stations On/Off|
 |TargetStations_Off|Target stations Off|
 |TargetStations_On|Target stations On|
-|UnlockTarget|Unlock target|
 
 ### Properties
 
 |Name|Type|
 |-|-|
 |EnableIdleMovement|bool|
-|EnableTargetLocking|bool|
-|FireAtLockedTarget|bool|
 |Name|StringBuilder|
 |OnOff|bool|
 |Range|float|
@@ -1119,7 +1093,6 @@
 |ShowOnHUD|bool|
 |TargetCharacters|bool|
 |TargetLargeShips|bool|
-|TargetLockingEnabled|bool|
 |TargetMeteors|bool|
 |TargetMissiles|bool|
 |TargetNeutrals|bool|
@@ -1744,7 +1717,6 @@
 |ShowOnHUD|Show on HUD On/Off|
 |ShowOnHUD_Off|Show on HUD Off|
 |ShowOnHUD_On|Show on HUD On|
-|TargetLocking|Enable target locking On/Off|
 |Up|Up|
 
 ### Properties
@@ -1772,7 +1744,6 @@
 |ShowInToolbarConfig|bool|
 |ShowOnHUD|bool|
 |SpeedLimit|float|
-|TargetLocking|bool|
 
 ## IMySafeZoneBlock
 
@@ -1983,7 +1954,6 @@
 |ShowOnHUD|Show on HUD On/Off|
 |ShowOnHUD_Off|Show on HUD Off|
 |ShowOnHUD_On|Show on HUD On|
-|TargetLocking|Enable target locking On/Off|
 
 ### Properties
 
@@ -2002,7 +1972,6 @@
 |ShowInTerminal|bool|
 |ShowInToolbarConfig|bool|
 |ShowOnHUD|bool|
-|TargetLocking|bool|
 
 ## IMyShipDrill
 
@@ -2364,38 +2333,6 @@
 |ShowInTerminal|bool|
 |ShowInToolbarConfig|bool|
 |ShowOnHUD|bool|
-
-## IMyTargetingSystemBlock
-
-### Actions
-
-|Name|Description|
-|-|-|
-|OnOff|Toggle block On/Off|
-|OnOff_Off|Toggle block Off|
-|OnOff_On|Toggle block On|
-|ShowOnHUD|Show on HUD On/Off|
-|ShowOnHUD_Off|Show on HUD Off|
-|ShowOnHUD_On|Show on HUD On|
-|TargetingMode_CycleSubsystems|Cycle Subsystems|
-|TargetingMode_Default|Default|
-|TargetingMode_Explosives|Explosives|
-|TargetingMode_PowerSystems|Power systems|
-|TargetingMode_Production|Production|
-|TargetingMode_Propulsion|Propulsion|
-|TargetingMode_Weapons|Weapons|
-
-### Properties
-
-|Name|Type|
-|-|-|
-|Name|StringBuilder|
-|OnOff|bool|
-|ShowInInventory|bool|
-|ShowInTerminal|bool|
-|ShowInToolbarConfig|bool|
-|ShowOnHUD|bool|
-|TargetingMode|long|
 
 ## IMyTerminalBlock
 

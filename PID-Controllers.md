@@ -3,11 +3,14 @@
 * [1. What is a PID Controller?](#1-what-is-a-pid-controller)
 * [2. PID Controller Applications](#2-pid-controller-applications)
 * [3. Breaking it Down](#3-breaking-it-down)
-    * [3.1 The Proportional Term](#31-the-proportional-term)
-    * [3.1 The Integral Term](#32-the-integral-term)
-    * [3.1 The Derivative Term](#33-the-derivative-term)
+    * [3.1. Computing Error](#31-computing-error)    
+    * [3.2. PID Output](#32-pid-output)
+    * [3.3. The Proportional Term](#33-the-proportional-term)
+    * [3.4. The Integral Term](#34-the-integral-term)
+    * [3.5. The Derivative Term](#35-the-derivative-term)
 * [4. PID Tuning](#4-pid-tuning)
-* [5. Example Implementation](#5-example-implementation)
+* [5. C# Implementation](#5-c-implementation)
+    * [5.1. Piston Extension Controller Example](#51-piston-extension-controller-example)
 
 ***
 
@@ -45,7 +48,15 @@ The basic algorithm of a PID controller looks like the following:
 
 But what does each of these terms mean/do?
 
-## 3.1 The Proportional Term
+## 3.1. Computing Error
+
+PID controllers attempt to minimize the error of the system, but what _is_ the error? For a PID, the error is the **difference between the desired value and current value**. For example: If we were controlling the extension of a piston, the error would be `[Error] = [Desired Position] - [Current Position]`.
+
+## 3.2. PID Output
+
+The PID output is the number that we get after computing and summing all of the terms of the PID. The output is a value that tells us how much to change our current value by. If we are trying to control a position, then you can look at the output value like the _desired velocity_. If you are controlling a velocity, then the output would be the _desired acceleration_.
+
+## 3.3. The Proportional Term
 
 The Proportional term dictates how _fast_ your controller will seek to cancel out error. You can think of it as the "speed" of your response. This is the simplest term to understand and tune since it simply scales the error by a constant number. If you set this too low, you will control very slowly. If you set this too high, the system will oscillate.
 
@@ -53,7 +64,7 @@ The Proportional term dictates how _fast_ your controller will seek to cancel ou
 [Proportional Term] = [Proportional Constant] * [Current Error]
 ```
 
-## 3.2 The Integral Term
+## 3.4. The Integral Term
 
 The Integral term changes how your controller responds to persistent errors. This term serves sort of like "memory" of the previous errors to try and prevent future errors. Do note that if the integral gain is too large, this can cause large oscillations.
 
@@ -62,7 +73,7 @@ The Integral term changes how your controller responds to persistent errors. Thi
 [Integral Term] = [Integral Constant] * [Error Integral]
 ```
 
-## 3.3 The Derivative Term
+## 3.5. The Derivative Term
 
 The Derivative term changes how your controller responds to the speed of the error change. You can think of this like a _dampening_ term as it tries to _predict_ the behavior of the system and can be used reduce oscillations.
 
@@ -85,7 +96,7 @@ The general tuning process that I recommend is the following:
 
 It is worth noting though, that if speed is not that big of a concern, a simple P controller (a PID with I and D gains set to 0) will suffice. In that event, simply complete steps 0-1 and set the P gain to where it is fast, but doesn't oscillate.
 
-# 5. Example Implementation
+# 5. C# Implementation
 
 There are many ways to implement a PID controller in code, but this is my implementation that I use in most of my scripts.
 
@@ -235,7 +246,142 @@ public class BufferedIntegralPID : PID
 
 </details>
 
+## 5.1. Piston Extension Controller Example
 
+Below is a very basic example of how you can use a PID to control the extension of a piston.
+
+<details>
+<summary>
+(Click to Expand)
+</summary>
+
+```cs
+/*
+Example PID Piston Controller - 2021/11/21
+
+INSTRUCTIONS
+1. Place a piston on your ship named "Piston"
+2. Place a programmable block and load this script
+3. Run the script with the desired piston extension (in meters) as the argument
+*/
+
+const string PistonName = "Piston"; // Name of the piston to control
+const double TimeStep = 1.0 / 6.0; // Update10 is 1/6th a second
+PID _pid;
+IMyPistonBase _piston;
+double _desiredExtension = 0;
+
+Program()
+{
+    Runtime.UpdateFrequency = UpdateFrequency.Update10;
+    
+    // This is the simplest PID controller, you can change the gains if you'd like
+    _pid = new PID(1, 0, 0, TimeStep);
+    
+    // Grab our piston
+    _piston = GridTerminalSystem.GetBlockWithName(PistonName) as IMyPistonBase;
+}
+
+void Main(string arg, UpdateType updateSource)
+{
+    if (_piston == null)
+    {
+        Echo($"ERROR: No piston named '{PistonName}'!");
+        return;
+    }
+    
+    if (!string.IsNullOrEmpty(arg))
+    {
+        double val;
+        if (double.TryParse(arg, out val))
+        {
+            // Set desired extension
+            _desiredExtension = val;
+        }
+    }
+    
+    if ((updateSource & UpdateType.Update10) != 0)
+    {
+        // Compute our error
+        double error = _desiredExtension - _piston.CurrentPosition;
+        
+        // Set piston velocity to the result of our PID output
+        _piston.Velocity = (float)_pid.Control(error);
+    }
+    
+    Echo($"Desired extension: {_desiredExtension}\nCurrent extension: {_piston.CurrentPosition:n2}");
+}
+
+public class PID
+{
+    readonly double _kP = 0;
+    readonly double _kI = 0;
+    readonly double _kD = 0;
+    
+    double _timeStep = 0;
+    double _inverseTimeStep = 0;
+    double _errorSum = 0;
+    double _lastError = 0;
+    bool _firstRun = true;
+    
+    public double Value { get; private set; }
+
+    public PID(double kP, double kI, double kD, double timeStep)
+    {
+        _kP = kP;
+        _kI = kI;
+        _kD = kD;
+        _timeStep = timeStep;
+        _inverseTimeStep = 1 / _timeStep;
+    }
+
+    protected virtual double GetIntegral(double currentError, double errorSum, double timeStep)
+    {
+        return errorSum + currentError * timeStep;
+    }
+
+    public double Control(double error)
+    {
+        //Compute derivative term
+        var errorDerivative = (error - _lastError) * _inverseTimeStep;
+
+        if (_firstRun)
+        {
+            errorDerivative = 0;
+            _firstRun = false;
+        }
+
+        //Get error sum
+        _errorSum = GetIntegral(error, _errorSum, _timeStep);
+
+        //Store this error as last error
+        _lastError = error;
+
+        //Construct output
+        this.Value = _kP * error + _kI * _errorSum + _kD * errorDerivative;
+        return this.Value;
+    }
+
+    public double Control(double error, double timeStep)
+    {
+        if (timeStep != _timeStep)
+        {
+            _timeStep = timeStep;
+            _inverseTimeStep = 1 / _timeStep;
+        }
+        return Control(error);
+    }
+
+    public void Reset()
+    {
+        _errorSum = 0;
+        _lastError = 0;
+        _firstRun = true;
+    }
+}
+```
+
+</details>
 
 ***
 

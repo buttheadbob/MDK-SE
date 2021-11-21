@@ -18,7 +18,9 @@ A PID (Proportional Integral Derivative) controller is a control loop mechanism 
 * Integral term
 * Derivative term
 
-The lovely thing about PID controllers is that you can pretty effectively control a very complex system _without_ needing to characterize the full dynamic behavior of the system. There is a whole branch of engineering dedicated to control characterization and optimization, but I'm not going to dig into that because not much of it is beyond the scope of what is practically useful in SE (and a lot of it is magic). What this article seeks to do is give users a solid general understanding of how the internals of a PID controller work and give you the tools to effectively utilize them.
+The lovely thing about PID controllers is that you can pretty effectively control a very complex system **without** needing to characterize the full dynamic behavior of the system. PIDs are _reactive_ in nature since they have no knowledge of the process you are trying to control, so they are not the mathematically optimal way to control systems. However, PIDs are incredibly easy to implement, and they handle the problem _well enough_ for many applications; their utility is undenyable.
+
+There is a whole branch of engineering dedicated to control characterization and optimization, but I'm not going to dig into that because not much of it is beyond the scope of what is practically useful in SE (and a lot of it is magic). What this article seeks to do is give users a solid general understanding of how the internals of a PID controller work and give you the tools to effectively utilize them.
 
 # 2. PID Controller Applications
 

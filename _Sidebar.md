@@ -12,7 +12,7 @@
   * [Type Definition Listing](Type-Definition-Listing)
     * [Blocks](Type-Definition-Listing#blocks) | [Components](Type-Definition-Listing#components)
     * [Blueprints](Type-Definition-Listing#blueprints) | [Ingots](Type-Definition-Listing#ingots) | [Ores](Type-Definition-Listing#ores) | [Gas](Type-Definition-Listing#gas)
-    * [Tools](Type-Definition-Listing#tools) | [Ammo Magazines](Type-Definition-Listing#ammo-magazines) | [Other](Type-Definition-Listing#other)
+    * [Tools](Type-Definition-Listing#tools) | [Magazines](Type-Definition-Listing#ammo-magazines) | [Other](Type-Definition-Listing#other)
   * [Terminal Properties and Actions](Terminal-Properties-and-Actions)
     * [List of Available Properties and Actions](List-Of-Terminal-Properties-and-Actions)
 * [**Quick Introduction to Space Engineers Ingame Scripts**](Quick-Introduction-to-Space-Engineers-Ingame-Scripts)

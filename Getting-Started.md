@@ -1,6 +1,6 @@
 ### Step 1
 First of all, obviously, you need to make sure you have installed Visual Studio 2019. This will work with all editions, but the Community edition is completely free. You can find instructions on how to install that here. For Space Engineers development you need at least the **.NET desktop development** workload. You will also need to make sure you check the **.NET Framework 4.6.1 Targeting Pack** in the Individual Components section of the Visual Studio Installer.
-https://docs.microsoft.com/en-us/visualstudio/install/install-visual-studio  
+https://docs.microsoft.com/en-us/visualstudio/install/install-visual-studio?view=vs-2019  
 https://www.visualstudio.com/vs/getting-started/
 
 Note: Visual Studio 2017 is no longer supported.  Visual Studio 2019 is required.

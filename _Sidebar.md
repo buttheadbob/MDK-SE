@@ -1,5 +1,5 @@
 * [Home](https://github.com/malware-dev/MDK-SE/wiki)
-* [**Getting Started**](Getting-Started)
+* [**Getting Started with MDK**](Getting-Started-with-MDK)
     * [The Program Wrapper And Why You Need It](The-Program-Wrapper-And-Why-You-Need-It)
     * [Utility Class or Extension Class?](Utility-Class-or-Extension-Class)
     * [Deploying Your Script to Space Engineers](Deploying-Your-Script-to-Space-Engineers)

@@ -63,7 +63,9 @@ The first 3 rows of the World Matrix specify the **orientation** of the body's *
 
 We can use this information to easily convert between **body** and **world** frames!
 
-Also, in local space, the components of the vector mean specific things. In Space Engineers: +X is Right, +Y is Up, and +Z is Backwards in **local space**. I prefer Left-Up-Forward notation, but the math is the same as Right-Backwards-Up with some sign changes (as seen in the figure above). Since the world matrix is _given_ to you by the game in most instances, you need not worry about this too much; it is merely two ways to represent the same information. The math is mostly abstracted away from you within the `Vector3D.Transform` and `Vector3D.TransformNormal` methods to be introduced soon...
+![](https://i.imgur.com/3kY8JjY.png)
+
+Also, in local space, the components of the vector mean specific things. In Space Engineers: +X is Right, +Y is Up, and +Z is Backwards in **local space**. I prefer Left-Up-Forward notation, but the math is the same as Right-Backwards-Up with some sign changes (as seen in the figures above). Since the world matrix is _given_ to you by the game in most instances, you need not worry about this too much; it is merely two ways to represent the same information. The math is mostly abstracted away from you within the `Vector3D.Transform` and `Vector3D.TransformNormal` methods to be introduced soon...
 
 # Transformations!!!
 Now, you may be asking "**What the heck is a _Transformation_**"? Sounds pretty scary and complex, right? Nope!
@@ -72,7 +74,6 @@ Now, you may be asking "**What the heck is a _Transformation_**"? Sounds pretty 
 
 Vector transformations allow you to do cool things like convert a world velocity to a block relative local velocity!
 
-![](https://i.imgur.com/3kY8JjY.png)
 ![](https://i.imgur.com/OcCyL9y.png)
 
 (Note that the math above is for **direction vectors**)
@@ -82,7 +83,6 @@ Vector transformations allow you to do cool things like convert a world velocity
 <summary>(Click to Expand)</summary>
 The math is exactly the same, we just use the opposite directions to get rid of negative signs.
 
-![](https://i.imgur.com/7AETGQV.png)
 ![](https://i.imgur.com/UJOl3fW.png)
 </details>
 

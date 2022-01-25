@@ -63,10 +63,10 @@ The first 3 rows of the World Matrix specify the **orientation** of the body's *
 
 We can use this information to easily convert between **body** and **world** frames!
 
-Also, in local space, the components of the vector mean specific things. In Space Engineers: +X is Right, +Y is Up, and +Z is Backwards in **local space**. I prefer Left-Up-Forward notation, but the math is the same as Right-Backwards-Up with some sign changes (as seen in the figure above).
+Also, in local space, the components of the vector mean specific things. In Space Engineers: +X is Right, +Y is Up, and +Z is Backwards in **local space**. I prefer Left-Up-Forward notation, but the math is the same as Right-Backwards-Up with some sign changes (as seen in the figure above). Since the world matrix is _given_ to you by the game in most instances, you need not worry about this too much; it is merely two ways to represent the same information. The math is mostly abstracted away from you within the `Vector3D.Transform` and `Vector3D.TransformNormal` methods to be introduced soon...
 
 # Transformations!!!
-Now you may be asking "**What the heck is a _Transformation_**"? Sounds pretty scary and complex, right? Nope!
+Now, you may be asking "**What the heck is a _Transformation_**"? Sounds pretty scary and complex, right? Nope!
 
 **In Space Engineers, a transformation is simply a matrix-vector multiplication!**
 

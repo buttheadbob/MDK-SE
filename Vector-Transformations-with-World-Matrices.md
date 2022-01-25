@@ -56,12 +56,14 @@ Thus:
 A Space Engineers world matrix maps a vector from a entity's **body space** to **world space**.
 (Blocks and CubeGrids have world matrices as well as most other objects in the game!)
 
-![](https://i.imgur.com/1KYYu1hl.png)
+![](https://i.imgur.com/i3G79KY.png)
 
 The first 3 rows of the World Matrix specify the **orientation** of the body's **direction vectors** in **world space**. The 4th row specifies the location of the **body frame** within the **world frame**.
 (The 0's and the 1 in the last column are simply placeholders since Vrage's matrices are 4x4)
 
 We can use this information to easily convert between **body** and **world** frames!
+
+Also, in local space, the components of the vector mean specific things. In Space Engineers: +X is Right, +Y is Up, and +Z is Backwards in **local space**. I prefer Left-Up-Forward notation, but the math is the same as Right-Backwards-Up with some sign changes (as seen in the figure above).
 
 # Transformations!!!
 Now you may be asking "**What the heck is a _Transformation_**"? Sounds pretty scary and complex, right? Nope!
@@ -70,13 +72,23 @@ Now you may be asking "**What the heck is a _Transformation_**"? Sounds pretty s
 
 Vector transformations allow you to do cool things like convert a world velocity to a block relative local velocity!
 
-![](https://i.imgur.com/xgCm56nl.jpg)
+![](https://i.imgur.com/3kY8JjY.png)
+![](https://i.imgur.com/OcCyL9y.png)
 
 (Note that the math above is for **direction vectors**)
 
-In general we:
-Use **Vector3D.TransformNormal()** for direction vectors (velocity, acceleration, relative positions)
-Use **Vector3D.Transform()** for position vectors (but not world to body position transforms)
+### Right-Backwards-Up Notation
+<details>
+<summary>(Click to Expand)</summary>
+The math is exactly the same, we just use the opposite directions to get rid of negative signs.
+
+![](https://i.imgur.com/7AETGQV.png)
+![](https://i.imgur.com/UJOl3fW.png)
+</details>
+
+## In General:
+* Use **Vector3D.TransformNormal()** for direction vectors (velocity, acceleration, relative positions)
+* Use **Vector3D.Transform()** for position vectors (but not world to body position transforms)
 
 ## Body Direction to World Direction
 For direction vectors we use **Vector3D.TransformNormal()** and the **world matrix**.

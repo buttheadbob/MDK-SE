@@ -6,7 +6,7 @@
 public float GridSize { get; }
 ```
 
-Grid size in meters
+Getter of grid size in meters
 
 ### Returns
 

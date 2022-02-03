@@ -6,6 +6,8 @@
 public void InflateToMinimum(Vector3D minimumSize)
 ```
 
+
+
 ### Parameters
 
 * [Vector3D](VRageMath.Vector3D) minimumSize
@@ -14,6 +16,8 @@ public void InflateToMinimum(Vector3D minimumSize)
 ```csharp
 public void InflateToMinimum(double minimumSize)
 ```
+
+
 
 ### Parameters
 

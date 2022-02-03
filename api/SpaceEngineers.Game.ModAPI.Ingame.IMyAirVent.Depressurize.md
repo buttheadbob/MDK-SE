@@ -6,7 +6,7 @@
 public bool Depressurize { get; set; }
 ```
 
-Vent mode false - pressurize (filling room) true - depressurize (sucking air out)
+Gets whether this vent is in depressurize state
 
 ### Returns
 

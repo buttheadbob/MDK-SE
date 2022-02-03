@@ -6,7 +6,7 @@
 public float SteerAngle { get; }
 ```
 
-Wheel's current steering angle
+Gets suspension current steering angle
 
 ### Returns
 

@@ -6,7 +6,7 @@
 public bool CanPressurize { get; }
 ```
 
-Can fill room with air true - room is airtight false - room is not airtight
+Gets whether this vent can pressurize. If so room is airtight.
 
 ### Returns
 

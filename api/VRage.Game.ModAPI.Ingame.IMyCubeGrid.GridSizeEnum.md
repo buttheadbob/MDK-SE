@@ -6,7 +6,7 @@
 public MyCubeSize GridSizeEnum { get; }
 ```
 
-Grid size enum
+Getter for grid size enum
 
 ### Returns
 

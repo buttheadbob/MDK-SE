@@ -6,9 +6,13 @@
 public static BoundingBox CreateFromHalfExtent(Vector3 center, float halfExtent)
 ```
 
+
+
 ### Returns
 
 [BoundingBox](VRageMath.BoundingBox)
+
+
 
 ### Parameters
 
@@ -20,9 +24,13 @@ public static BoundingBox CreateFromHalfExtent(Vector3 center, float halfExtent)
 public static BoundingBox CreateFromHalfExtent(Vector3 center, Vector3 halfExtent)
 ```
 
+
+
 ### Returns
 
 [BoundingBox](VRageMath.BoundingBox)
+
+
 
 ### Parameters
 

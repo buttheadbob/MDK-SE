@@ -6,7 +6,7 @@
 public uint UpgradeCount { get; }
 ```
 
-Retrieve number of upgrade effects this block has (r/o)
+Gets number of upgrade effects this block has
 
 ### Returns
 

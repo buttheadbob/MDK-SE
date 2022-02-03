@@ -21,9 +21,13 @@ Vector must be normalized, allowed values for components are: 0, 1, -1, 0.707, -
 public static Direction GetDirection(Vector3I vec)
 ```
 
+
+
 ### Returns
 
 [Direction](VRageMath.Base27Directions+Direction)
+
+
 
 ### Parameters
 
@@ -34,9 +38,13 @@ public static Direction GetDirection(Vector3I vec)
 public static Direction GetDirection(ref Vector3 vec)
 ```
 
+
+
 ### Returns
 
 [Direction](VRageMath.Base27Directions+Direction)
+
+
 
 ### Parameters
 
@@ -47,9 +55,13 @@ public static Direction GetDirection(ref Vector3 vec)
 public static Direction GetDirection(ref Vector3I vec)
 ```
 
+
+
 ### Returns
 
 [Direction](VRageMath.Base27Directions+Direction)
+
+
 
 ### Parameters
 

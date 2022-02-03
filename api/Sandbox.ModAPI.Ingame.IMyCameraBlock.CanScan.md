@@ -12,7 +12,7 @@ Checks if the camera can scan the given distance.
 
 [bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
-
+true if camera can scan
 
 ### Parameters
 
@@ -29,7 +29,7 @@ Checks if the camera can scan to the given direction and distance (in camera loc
 
 [bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
-
+true if camera can scan
 
 ### Parameters
 
@@ -47,7 +47,7 @@ Checks if the camera can scan to the given target
 
 [bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
-
+true if camera can scan
 
 ### Parameters
 

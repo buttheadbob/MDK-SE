@@ -6,9 +6,13 @@
 public BoundingBoxD Inflate(double size)
 ```
 
+
+
 ### Returns
 
 [BoundingBoxD](VRageMath.BoundingBoxD)
+
+
 
 ### Parameters
 
@@ -19,9 +23,13 @@ public BoundingBoxD Inflate(double size)
 public BoundingBoxD Inflate(Vector3D size)
 ```
 
+
+
 ### Returns
 
 [BoundingBoxD](VRageMath.BoundingBoxD)
+
+
 
 ### Parameters
 

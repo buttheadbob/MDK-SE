@@ -99,6 +99,7 @@ public struct Vector3I: IEquatable<VRageMath.Vector3I>, IComparable<VRageMath.Ve
 |[Floor(ref Vector3, out Vector3I)](VRageMath.Vector3I.Floor)||
 |[Floor(ref Vector3D, out Vector3I)](VRageMath.Vector3I.Floor)||
 |[Ceiling(Vector3)](VRageMath.Vector3I.Ceiling)||
+|[Ceiling(Vector3D)](VRageMath.Vector3I.Ceiling)||
 |[Trunc(Vector3)](VRageMath.Vector3I.Trunc)||
 |[Shift(Vector3I)](VRageMath.Vector3I.Shift)||
 |[Transform(ref Vector3I, ref Matrix, out Vector3I)](VRageMath.Vector3I.Transform)|Transforms a Vector3I by the given Matrix.|

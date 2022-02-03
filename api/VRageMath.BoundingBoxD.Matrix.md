@@ -6,7 +6,7 @@
 public MatrixD Matrix { get; }
 ```
 
-Matrix of AABB, respection center and size
+Matrix of AABB, respecting center and size
 
 ### Returns
 

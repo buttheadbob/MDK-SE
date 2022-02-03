@@ -6,7 +6,7 @@
 public interface IMySlimBlock
 ```
 
-basic block interface
+Basic block interface (PB scripting interface)
 
 **Namespace:** [VRage.Game.ModAPI.Ingame](VRage.Game.ModAPI.Ingame)  
 **Assembly:** VRage.Game.dll

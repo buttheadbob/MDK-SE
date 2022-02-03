@@ -6,7 +6,7 @@
 public bool IsFunctional { get; }
 ```
 
-True if integrity is above breaking threshold
+Gets if integrity is above breaking threshold
 
 ### Returns
 

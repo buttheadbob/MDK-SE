@@ -6,7 +6,7 @@
 public float VirtualMass { get; }
 ```
 
-Virtualmass weight
+Gets virtual mass
 
 ### Returns
 

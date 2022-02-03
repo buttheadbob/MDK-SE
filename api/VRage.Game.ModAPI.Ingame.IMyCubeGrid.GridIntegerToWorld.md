@@ -12,6 +12,8 @@ Converts grid coordinates to world space
 
 [Vector3D](VRageMath.Vector3D)
 
+Vector in world coordinates
+
 ### Parameters
 
 * [Vector3I](VRageMath.Vector3I) gridCoords

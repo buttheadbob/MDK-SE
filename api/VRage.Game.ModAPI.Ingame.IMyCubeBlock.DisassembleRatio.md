@@ -6,7 +6,7 @@
 public float DisassembleRatio { get; }
 ```
 
-Is set in definition Ratio at which is the block disassembled (grinding)
+Is set in definition Ratio at which is the block disassembled (grinding) Bigger values - longer grinding
 
 ### Returns
 

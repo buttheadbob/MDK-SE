@@ -6,7 +6,7 @@
 public double RaycastDistanceLimit { get; }
 ```
 
-Returns the maximum distance you can request a raycast. -1 means infinite.
+Gets the maximum distance you can request a raycast. -1 means infinite.
 
 ### Returns
 

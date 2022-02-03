@@ -6,7 +6,7 @@
 public bool ShowShipName { get; set; }
 ```
 
-Show shipname on hud
+Gets or sets show shipname on hud
 
 ### Returns
 

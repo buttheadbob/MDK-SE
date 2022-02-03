@@ -6,9 +6,13 @@
 public ITerminalProperty GetProperty(string id)
 ```
 
+Finds terminal property with provided id
+
 ### Returns
 
 [ITerminalProperty](Sandbox.ModAPI.Interfaces.ITerminalProperty)
+
+Found terminal property or null
 
 ### Parameters
 

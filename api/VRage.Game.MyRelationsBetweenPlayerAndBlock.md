@@ -6,6 +6,8 @@
 public enum MyRelationsBetweenPlayerAndBlock
 ```
 
+Enum describing relations between player and block
+
 **Namespace:** [VRage.Game](VRage.Game)  
 **Assembly:** VRage.Game.dll
 

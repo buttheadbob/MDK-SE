@@ -6,7 +6,7 @@
 public float TextPadding { get; set; }
 ```
 
-Text padding from all sides of the panel.
+Gets or sets text padding from all sides of the panel.
 
 ### Returns
 

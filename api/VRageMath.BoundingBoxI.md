@@ -20,7 +20,6 @@ Defines an axis-aligned box-shaped 3D volume.
 |---|---|
 |[Min](VRageMath.BoundingBoxI.Min)|The minimum point the BoundingBoxI contains.|
 |[Max](VRageMath.BoundingBoxI.Max)|The maximum point the BoundingBoxI contains.|
-|[CornerCount](VRageMath.BoundingBoxI.CornerCount)|Specifies the total number of corners (8) in the BoundingBoxI.|
 
 #### Properties
 
@@ -56,8 +55,8 @@ Defines an axis-aligned box-shaped 3D volume.
 |[CreateFromSphere(BoundingSphere)](VRageMath.BoundingBoxI.CreateFromSphere)|Creates the smallest BoundingBoxI that will contain the specified BoundingSphere.|
 |[CreateFromSphere(ref BoundingSphere, out BoundingBoxI)](VRageMath.BoundingBoxI.CreateFromSphere)|Creates the smallest BoundingBoxI that will contain the specified BoundingSphere.|
 |[CreateFromPoints(IEnumerable)](VRageMath.BoundingBoxI.CreateFromPoints)|Creates the smallest BoundingBoxI that will contain a group of points.|
-|[IntersectWith(ref BoundingBoxI)](VRageMath.BoundingBoxI.IntersectWith)|Returns bounding box which is intersection of this and box It's called 'Prunik' Result is invalid box when there's no intersection (Min > Max)|
-|[Intersect(BoundingBoxI)](VRageMath.BoundingBoxI.Intersect)|Returns bounding box which is intersection of this and box It's called 'Prunik' Result is invalid box when there's no intersection (Min > Max)|
+|[IntersectWith(ref BoundingBoxI)](VRageMath.BoundingBoxI.IntersectWith)|Returns bounding box which is intersection of this and box Result is invalid box when there's no intersection (Min > Max)|
+|[Intersect(BoundingBoxI)](VRageMath.BoundingBoxI.Intersect)|Returns bounding box which is intersection of this and box Result is invalid box when there's no intersection (Min > Max)|
 |[Intersects(BoundingBoxI)](VRageMath.BoundingBoxI.Intersects)|Checks whether the current BoundingBoxI intersects another BoundingBoxI.|
 |[Intersects(ref BoundingBoxI)](VRageMath.BoundingBoxI.Intersects)||
 |[Intersects(ref BoundingBoxI, out bool)](VRageMath.BoundingBoxI.Intersects)|Checks whether the current BoundingBoxI intersects another BoundingBoxI.|
@@ -68,7 +67,7 @@ Defines an axis-aligned box-shaped 3D volume.
 |[Intersects(Line, out float)](VRageMath.BoundingBoxI.Intersects)||
 |[Intersects(Ray)](VRageMath.BoundingBoxI.Intersects)|Checks whether the current BoundingBoxI intersects a Ray.|
 |[Intersects(ref Ray, out float?)](VRageMath.BoundingBoxI.Intersects)|Checks whether the current BoundingBoxI intersects a Ray.|
-|[Distance(Vector3I)](VRageMath.BoundingBoxI.Distance)|Checks whether the current BoundingBoxI intersects a BoundingSphere.|
+|[Distance(Vector3I)](VRageMath.BoundingBoxI.Distance)||
 |[Contains(BoundingBoxI)](VRageMath.BoundingBoxI.Contains)|Tests whether the BoundingBoxI contains another BoundingBoxI.|
 |[Contains(ref BoundingBoxI, out ContainmentType)](VRageMath.BoundingBoxI.Contains)|Tests whether the BoundingBoxI contains a BoundingBoxI.|
 |[Contains(Vector3I)](VRageMath.BoundingBoxI.Contains)|Tests whether the BoundingBoxI contains a point.|

@@ -6,6 +6,8 @@
 public void RemoveImagesFromSelection(List<System.String> ids, bool removeDuplicates)
 ```
 
+Removes images from shown images.
+
 ### Parameters
 
 * [List<System.String>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) ids

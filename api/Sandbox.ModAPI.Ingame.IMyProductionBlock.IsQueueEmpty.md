@@ -6,7 +6,7 @@
 public bool IsQueueEmpty { get; }
 ```
 
-The production queue is empty.
+Gets whether production queue is empty.
 
 ### Returns
 

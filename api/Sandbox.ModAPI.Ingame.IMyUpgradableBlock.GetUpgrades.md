@@ -6,7 +6,7 @@
 public void GetUpgrades(out Dictionary<System.String, System.Single> upgrades)
 ```
 
-get list of upgrades (r/o); string - upgrade type, float - effect value as float (1 = 100%)
+Get list of upgrades. Read only.
 
 ### Parameters
 

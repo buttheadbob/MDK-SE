@@ -6,7 +6,7 @@
 public bool IsDepressurizing { get; }
 ```
 
-Vent mode false - pressurize (filling room) true - depressurize (sucking air out)
+Gets whether this vet is depressurizing
 
 ### Returns
 

@@ -6,6 +6,8 @@
 public enum MyStoreInsertResults
 ```
 
+Describes results of inserting order or offers into store block
+
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
 
@@ -13,8 +15,8 @@ public enum MyStoreInsertResults
 
 |Member|Description|
 |---|---|
-|Success||
-|Fail_StoreLimitReached||
-|Fail_PricePerUnitIsLessThanMinimum||
-|Error||
+|Success|Inserted successfuly|
+|Fail_StoreLimitReached|30 orders/offers Per player|
+|Fail_PricePerUnitIsLessThanMinimum|Too cheap|
+|Error|Other errors|
 

@@ -6,7 +6,7 @@
 public void SetTargetCoords(string coords)
 ```
 
-Set coordinates of target
+Sets coordinates of target
 
 ### Parameters
 

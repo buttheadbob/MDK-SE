@@ -27,6 +27,7 @@ Use these interfaces when you wish to access specific block types.
 [IMyGravityGenerator](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGenerator)  
 [IMyGravityGeneratorSphere](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorSphere)  
 [IMyGyro](Sandbox.ModAPI.Ingame.IMyGyro)  
+[IMyHeatVent](SpaceEngineers.Game.ModAPI.Ingame.IMyHeatVent)  
 [IMyInteriorLight](SpaceEngineers.Game.ModAPI.Ingame.IMyInteriorLight)  
 [IMyJumpDrive](Sandbox.ModAPI.Ingame.IMyJumpDrive)  
 [IMyLandingGear](SpaceEngineers.Game.ModAPI.Ingame.IMyLandingGear)  
@@ -64,6 +65,7 @@ Use these interfaces when you wish to access specific block types.
 [IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel)  
 [IMyThrust](Sandbox.ModAPI.Ingame.IMyThrust)  
 [IMyTimerBlock](SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock)  
+[IMyTurretControlBlock](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock)  
 [IMyUpgradeModule](Sandbox.ModAPI.Ingame.IMyUpgradeModule)  
 [IMyVirtualMass](SpaceEngineers.Game.ModAPI.Ingame.IMyVirtualMass)  
 [IMyWarhead](Sandbox.ModAPI.Ingame.IMyWarhead)
@@ -168,7 +170,6 @@ Types related to the terminal properties and actions. You should endeavor to avo
 
 Math utilities
 
-[AddOp&lt;T&gt;](VRageMath.AddOp`1)  
 [Base27Directions](VRageMath.Base27Directions)  
 [Base27Directions.Direction](VRageMath.Base27Directions+Direction)  
 [Base6Directions](VRageMath.Base6Directions)  
@@ -205,6 +206,7 @@ Math utilities
 [CurveLoopType](VRageMath.CurveLoopType)  
 [CurveTangent](VRageMath.CurveTangent)  
 [HyperSphereHelpers](VRageMath.HyperSphereHelpers)  
+[IAddOp&lt;T&gt;](VRageMath.IAddOp`1)  
 [Line](VRageMath.Line)  
 [LineD](VRageMath.LineD)  
 [MathHelper](VRageMath.MathHelper)  
@@ -291,6 +293,7 @@ Currently ungrouped types
 [IMyConveyorTube](Sandbox.ModAPI.Ingame.IMyConveyorTube)  
 [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)  
 [IMyInventoryItem](VRage.Game.ModAPI.Ingame.IMyInventoryItem)  
+[IMyInventoryOwner](VRage.Game.ModAPI.Ingame.IMyInventoryOwner)  
 [IMyMotorAdvancedRotor](Sandbox.ModAPI.Ingame.IMyMotorAdvancedRotor)  
 [IMyMotorRotor](Sandbox.ModAPI.Ingame.IMyMotorRotor)  
 [IMyPassage](Sandbox.ModAPI.Ingame.IMyPassage)  
@@ -302,6 +305,7 @@ Currently ungrouped types
 [LandingGearMode](SpaceEngineers.Game.ModAPI.Ingame.LandingGearMode)  
 [ListExtensions](System.Collections.Generic.ListExtensions)  
 [ListReader&lt;T&gt;](VRage.Collections.ListReader`1)  
+[MergeState](SpaceEngineers.Game.ModAPI.Ingame.MergeState)  
 [MyAssemblerMode](Sandbox.ModAPI.Ingame.MyAssemblerMode)  
 [MyConveyorSorterMode](Sandbox.ModAPI.Ingame.MyConveyorSorterMode)  
 [MyCubeSize](VRage.Game.MyCubeSize)  
@@ -367,7 +371,6 @@ Currently ungrouped types
 
 These types should no longer be used and may be removed in the future. If you're using one of these types, you should replace them as soon as possible.
 
-[IMyInventoryOwner](VRage.Game.ModAPI.Ingame.IMyInventoryOwner)  
 [IMyOxygenGenerator](Sandbox.ModAPI.Ingame.IMyOxygenGenerator)  
 [IMyOxygenTank](Sandbox.ModAPI.Ingame.IMyOxygenTank)
 

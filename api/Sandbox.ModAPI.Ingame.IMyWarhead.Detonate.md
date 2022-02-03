@@ -6,3 +6,5 @@
 public void Detonate()
 ```
 
+Detonates the warhead
+

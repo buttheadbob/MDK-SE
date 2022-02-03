@@ -6,9 +6,13 @@
 public static Direction GetClosestDirection(Vector3 vec)
 ```
 
+
+
 ### Returns
 
 [Direction](VRageMath.Base6Directions+Direction)
+
+
 
 ### Parameters
 
@@ -19,9 +23,13 @@ public static Direction GetClosestDirection(Vector3 vec)
 public static Direction GetClosestDirection(ref Vector3 vec)
 ```
 
+
+
 ### Returns
 
 [Direction](VRageMath.Base6Directions+Direction)
+
+
 
 ### Parameters
 

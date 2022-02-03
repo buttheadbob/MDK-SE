@@ -6,7 +6,7 @@
 public float CurrentOutput { get; }
 ```
 
-Current output in Megawatts
+Gets current output in Megawatts
 
 ### Returns
 

@@ -6,7 +6,7 @@
 public float Elevation { get; set; }
 ```
 
-Sets/gets elevation of turret, this method is not synced, you need to sync elevation manually
+Gets / sets elevation of turret, this method is not synced, you need to sync elevation manually
 
 ### Returns
 

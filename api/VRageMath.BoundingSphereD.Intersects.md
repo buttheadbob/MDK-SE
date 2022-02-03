@@ -33,9 +33,13 @@ Checks whether the current BoundingSphereD intersects a BoundingBoxD.
 public double? Intersects(RayD ray)
 ```
 
+
+
 ### Returns
 
 [double?](https://docs.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netframework-4.6)
+
+
 
 ### Parameters
 

@@ -12,7 +12,7 @@ Returns the first block group found with the given name. Will return`null`if no 
 
 [IMyBlockGroup](Sandbox.ModAPI.Ingame.IMyBlockGroup)
 
-
+First found block group with`name`or`null`if no block group with that name can be found
 
 ### Parameters
 

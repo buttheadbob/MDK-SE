@@ -12,7 +12,7 @@ Cancels the item (either order or offer).
 
 [bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
-
+True if item was canceled
 
 ### Parameters
 

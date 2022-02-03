@@ -6,6 +6,8 @@
 public void GetBlocks(List<Sandbox.ModAPI.Ingame.IMyTerminalBlock> blocks, Func<Sandbox.ModAPI.Ingame.IMyTerminalBlock, System.Boolean> collect)
 ```
 
+Get terminal blocks which assigned to this group
+
 ### Parameters
 
 * [List<Sandbox.ModAPI.Ingame.IMyTerminalBlock>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) blocks

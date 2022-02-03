@@ -6,7 +6,7 @@
 public bool PreserveAspectRatio { get; set; }
 ```
 
-Preserve aspect ratio of images.
+Gets or sets preserve aspect ratio of images.
 
 ### Returns
 

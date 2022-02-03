@@ -2,7 +2,6 @@
 
 # VRageMath
 
-**[AddOp](VRageMath.AddOp`1)**  
 **[Base27Directions](VRageMath.Base27Directions)**  
 **[Base6Directions](VRageMath.Base6Directions)**  
 **[BoundingBox](VRageMath.BoundingBox)**  
@@ -32,6 +31,7 @@
 **[CurveLoopType](VRageMath.CurveLoopType)**  
 **[CurveTangent](VRageMath.CurveTangent)**  
 **[HyperSphereHelpers](VRageMath.HyperSphereHelpers)**  
+**[IAddOp](VRageMath.IAddOp`1)**  
 **[Line](VRageMath.Line)**  
 **[LineD](VRageMath.LineD)**  
 **[MathHelper](VRageMath.MathHelper)**  

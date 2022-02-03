@@ -6,6 +6,12 @@
 public void SearchActionsOfName(string name, List<Sandbox.ModAPI.Interfaces.ITerminalAction> resultList, Func<Sandbox.ModAPI.Interfaces.ITerminalAction, System.Boolean> collect)
 ```
 
+Get all terminal actions available for block. NOTE: First called `  
+  
+` and then `  
+  
+` check
+
 ### Parameters
 
 * [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) name

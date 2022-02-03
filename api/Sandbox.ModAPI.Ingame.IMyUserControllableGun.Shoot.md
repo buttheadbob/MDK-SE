@@ -6,7 +6,7 @@
 public bool Shoot { get; set; }
 ```
 
-Toggle shooting on or off.
+Represents terminal gui toggle element "Shoot". Not same as [IsShooting](Sandbox.ModAPI.Ingame.IMyUserControllableGun.IsShooting) 
 
 ### Returns
 

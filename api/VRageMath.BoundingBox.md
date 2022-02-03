@@ -36,7 +36,7 @@ Defines an axis-aligned box-shaped 3D volume.
 |[Height { get; }](VRageMath.BoundingBox.Height)||
 |[Depth { get; }](VRageMath.BoundingBox.Depth)||
 |[Size { get; }](VRageMath.BoundingBox.Size)|Size|
-|[Matrix { get; }](VRageMath.BoundingBox.Matrix)|Matrix of AABB, respection center and size|
+|[Matrix { get; }](VRageMath.BoundingBox.Matrix)|Matrix of AABB, respecting center and size|
 |[Perimeter { get; }](VRageMath.BoundingBox.Perimeter)|return perimeter of edges|
 
 #### Constructors
@@ -66,7 +66,7 @@ Defines an axis-aligned box-shaped 3D volume.
 |[CreateFromPoints(IEnumerable)](VRageMath.BoundingBox.CreateFromPoints)|Creates the smallest BoundingBox that will contain a group of points.|
 |[CreateFromHalfExtent(Vector3, float)](VRageMath.BoundingBox.CreateFromHalfExtent)||
 |[CreateFromHalfExtent(Vector3, Vector3)](VRageMath.BoundingBox.CreateFromHalfExtent)||
-|[Intersect(BoundingBox)](VRageMath.BoundingBox.Intersect)|Returns bounding box which is intersection of this and box It's called 'Prunik' Result is invalid box when there's no intersection (Min > Max)|
+|[Intersect(BoundingBox)](VRageMath.BoundingBox.Intersect)|Returns bounding box which is intersection of this and box Result is invalid box when there's no intersection (Min > Max)|
 |[Intersects(BoundingBox)](VRageMath.BoundingBox.Intersects)|Checks whether the current BoundingBox intersects another BoundingBox.|
 |[Intersects(ref BoundingBox)](VRageMath.BoundingBox.Intersects)||
 |[Intersects(ref BoundingBox, out bool)](VRageMath.BoundingBox.Intersects)|Checks whether the current BoundingBox intersects another BoundingBox.|

@@ -12,5 +12,5 @@ Gets the detected natural gravity vector and power at the current location.
 
 [Vector3D](VRageMath.Vector3D)
 
-
+Natural gravity vector
 

@@ -6,7 +6,7 @@
 public float Radius { get; set; }
 ```
 
-Broadcasting/Receiving range
+Gets or sets Broadcasting/Receiving range
 
 ### Returns
 

@@ -6,7 +6,7 @@
 public bool EnableRaycast { get; set; }
 ```
 
-When this is true, the available raycast distance will count up, and power usage is increased.
+Gets or Sets whether the raycast is enabled. When this is true, the available raycast distance will count up, and power usage is increased.
 
 ### Returns
 

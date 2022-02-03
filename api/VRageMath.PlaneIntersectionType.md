@@ -15,7 +15,7 @@ Describes the intersection between a plane and a bounding volume.
 
 |Member|Description|
 |---|---|
-|Front||
-|Back||
-|Intersecting||
+|Front|There is no intersection, and the bounding volume is in the positive half-space of the Plane.|
+|Back|There is no intersection, and the bounding volume is in the negative half-space of the Plane.|
+|Intersecting|The Plane is intersected.|
 

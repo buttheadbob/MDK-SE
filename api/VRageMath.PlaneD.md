@@ -43,8 +43,8 @@ Defines a PlaneD.
 |[Normalize()](VRageMath.PlaneD.Normalize)|Changes the coefficients of the Normal vector of this PlaneD to make it of unit length.|
 |[Normalize(PlaneD)](VRageMath.PlaneD.Normalize)|Changes the coefficients of the Normal vector of a PlaneD to make it of unit length.|
 |[Normalize(ref PlaneD, out PlaneD)](VRageMath.PlaneD.Normalize)|Changes the coefficients of the Normal vector of a PlaneD to make it of unit length.|
-|[Transform(PlaneD, MatrixD)](VRageMath.PlaneD.Transform)|Transforms a normalized PlaneD by a Matrix.|
-|[Transform(ref PlaneD, ref MatrixD, out PlaneD)](VRageMath.PlaneD.Transform)|Transforms a normalized PlaneD by a Matrix.|
+|[Transform(PlaneD, MatrixD)](VRageMath.PlaneD.Transform)|Transforms a normalized plane by a Matrix.|
+|[Transform(ref PlaneD, ref MatrixD, out PlaneD)](VRageMath.PlaneD.Transform)|Transforms a normalized plane by a Matrix.|
 |[Dot(Vector4)](VRageMath.PlaneD.Dot)|Calculates the dot product of a specified Vector4 and this PlaneD.|
 |[Dot(ref Vector4, out double)](VRageMath.PlaneD.Dot)|Calculates the dot product of a specified Vector4 and this PlaneD.|
 |[DotCoordinate(Vector3D)](VRageMath.PlaneD.DotCoordinate)|Returns the dot product of a specified Vector3D and the Normal vector of this PlaneD plus the distance (D) value of the PlaneD.|

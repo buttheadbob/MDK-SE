@@ -6,7 +6,7 @@
 public void GetUpgradeList(out List<VRage.Game.ObjectBuilders.Definitions.MyUpgradeModuleInfo> upgrades)
 ```
 
-Retrieve list of upgrades from this block (r/o), see Sandbox.Common.ObjectBuilders.Definitions.MyUpgradeModuleInfo for details
+Gets list of upgrades from this block, see [VRage.Game.ObjectBuilders.Definitions.MyUpgradeModuleInfo](https://docs.microsoft.com/en-us/dotnet/api/vrage.game.objectbuilders.definitions.myupgrademoduleinfo?view=netframework-4.6) for details
 
 ### Parameters
 

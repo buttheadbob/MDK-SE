@@ -49,7 +49,7 @@ Defines a plane.
 |[Dot(ref Vector4, out float)](VRageMath.Plane.Dot)|Calculates the dot product of a specified Vector4 and this Plane.|
 |[DotCoordinate(Vector3)](VRageMath.Plane.DotCoordinate)|Returns the dot product of a specified Vector3 and the Normal vector of this Plane plus the distance (D) value of the Plane.|
 |[DotCoordinate(ref Vector3, out float)](VRageMath.Plane.DotCoordinate)|Returns the dot product of a specified Vector3 and the Normal vector of this Plane plus the distance (D) value of the Plane.|
-|[DotNormal(Vector3)](VRageMath.Plane.DotNormal)|Returns the dot product of a specified Vector3 and the Normal vector of this Plane.|
+|[DotNormal(Vector3D)](VRageMath.Plane.DotNormal)|Returns the dot product of a specified Vector3 and the Normal vector of this Plane.|
 |[DotNormal(ref Vector3, out float)](VRageMath.Plane.DotNormal)|Returns the dot product of a specified Vector3 and the Normal vector of this Plane.|
 |[Intersects(BoundingBox)](VRageMath.Plane.Intersects)|Checks whether the current Plane intersects a specified BoundingBox.|
 |[Intersects(ref BoundingBox, out PlaneIntersectionType)](VRageMath.Plane.Intersects)|Checks whether the current Plane intersects a BoundingBox.|
@@ -57,4 +57,5 @@ Defines a plane.
 |[Intersects(BoundingSphere)](VRageMath.Plane.Intersects)|Checks whether the current Plane intersects a specified BoundingSphere.|
 |[Intersects(ref BoundingSphere, out PlaneIntersectionType)](VRageMath.Plane.Intersects)|Checks whether the current Plane intersects a BoundingSphere.|
 |[RandomPoint()](VRageMath.Plane.RandomPoint)||
+|[Intersection(ref Vector3D, ref Vector3D)](VRageMath.Plane.Intersection)|Gets intersection point in Plane.|
 

@@ -6,9 +6,13 @@
 public BoundingBox GetIncluded(Vector3 point)
 ```
 
+
+
 ### Returns
 
 [BoundingBox](VRageMath.BoundingBox)
+
+
 
 ### Parameters
 

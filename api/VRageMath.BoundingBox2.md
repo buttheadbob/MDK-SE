@@ -20,7 +20,6 @@ Defines an axis-aligned box-shaped 3D volume.
 |---|---|
 |[Min](VRageMath.BoundingBox2.Min)|The minimum point the BoundingBox2 contains.|
 |[Max](VRageMath.BoundingBox2.Max)|The maximum point the BoundingBox2 contains.|
-|[CornerCount](VRageMath.BoundingBox2.CornerCount)|Specifies the total number of corners (8) in the BoundingBox2.|
 
 #### Properties
 
@@ -55,7 +54,7 @@ Defines an axis-aligned box-shaped 3D volume.
 |[CreateFromPoints(IEnumerable)](VRageMath.BoundingBox2.CreateFromPoints)|Creates the smallest BoundingBox2 that will contain a group of points.|
 |[CreateFromHalfExtent(Vector2, float)](VRageMath.BoundingBox2.CreateFromHalfExtent)||
 |[CreateFromHalfExtent(Vector2, Vector2)](VRageMath.BoundingBox2.CreateFromHalfExtent)||
-|[Intersect(BoundingBox2)](VRageMath.BoundingBox2.Intersect)|Returns bounding box which is intersection of this and box It's called 'Prunik' Result is invalid box when there's no intersection (Min > Max)|
+|[Intersect(BoundingBox2)](VRageMath.BoundingBox2.Intersect)|Returns bounding box which is intersection of this and box Result is invalid box when there's no intersection (Min > Max)|
 |[Intersects(BoundingBox2)](VRageMath.BoundingBox2.Intersects)|Checks whether the current BoundingBox2 intersects another BoundingBox2.|
 |[Intersects(ref BoundingBox2)](VRageMath.BoundingBox2.Intersects)||
 |[Intersects(ref BoundingBox2, out bool)](VRageMath.BoundingBox2.Intersects)|Checks whether the current BoundingBox2 intersects another BoundingBox2.|

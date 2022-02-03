@@ -6,7 +6,7 @@
 public string DisplayName { get; }
 ```
 
-Localized name of this surface.
+Get localized name of this surface.
 
 ### Returns
 

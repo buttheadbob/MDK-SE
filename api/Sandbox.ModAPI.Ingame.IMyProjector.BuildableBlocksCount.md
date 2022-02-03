@@ -6,7 +6,7 @@
 public int BuildableBlocksCount { get; }
 ```
 
-Count of blocks which can be welded now
+Get count of blocks which can be welded now
 
 ### Returns
 

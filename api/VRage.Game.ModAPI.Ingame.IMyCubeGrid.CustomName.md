@@ -6,7 +6,7 @@
 public string CustomName { get; set; }
 ```
 
-Display name of the grid (as seen in Info terminal tab)
+Getter and setter for display name of the grid (as seen in Info terminal tab)
 
 ### Returns
 

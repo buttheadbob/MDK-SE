@@ -3,7 +3,7 @@
 #### ListReader&lt;T&gt; Struct
 
 ```csharp
-public struct ListReader<T>: IEnumerable<T>, IEnumerable
+public struct ListReader<T>: IEnumerable<T>, IEnumerable, IReadOnlyList<T>, IReadOnlyCollection<T>
 ```
 
 **Namespace:** [VRage.Collections](VRage.Collections)  
@@ -11,7 +11,9 @@ public struct ListReader<T>: IEnumerable<T>, IEnumerable
 
 **Implements:**  
 * [IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.IEnumerable?view=netframework-4.6)  
-* [IEnumerable<T>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netframework-4.6)
+* [IEnumerable<T>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netframework-4.6)  
+* [IReadOnlyCollection<T>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IReadOnlyCollection-1?view=netframework-4.6)  
+* [IReadOnlyList<T>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IReadOnlyList-1?view=netframework-4.6)
 
 #### Fields
 

@@ -6,7 +6,7 @@
 public bool UseConveyorSystem { get; set; }
 ```
 
-Conveyor system enabled
+Gets or sets whether block can use conveyor system (pull ice and hydrogen/oxygen bottles)
 
 ### Returns
 

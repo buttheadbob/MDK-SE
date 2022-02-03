@@ -12,7 +12,7 @@ Simply get the MyInventoryBase component stored in this entity.
 
 [IMyInventory](VRage.Game.ModAPI.Ingame.IMyInventory)
 
-
+Inventory
 
 ### Summary
 

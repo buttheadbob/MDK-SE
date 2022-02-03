@@ -6,7 +6,7 @@
 public bool AutoRefill { get; set; }
 ```
 
-Autorefill enabled
+Gets or sets bottles auto refill enabled
 
 ### Returns
 

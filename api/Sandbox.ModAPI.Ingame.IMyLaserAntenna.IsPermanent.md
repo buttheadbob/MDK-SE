@@ -6,7 +6,7 @@
 public bool IsPermanent { get; set; }
 ```
 
-Connection is permanent
+Gets or sets whether connection is permanent
 
 ### Returns
 

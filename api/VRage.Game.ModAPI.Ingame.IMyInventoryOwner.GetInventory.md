@@ -6,9 +6,13 @@
 public IMyInventory GetInventory(int index)
 ```
 
+Gets inventory by index
+
 ### Returns
 
 [IMyInventory](VRage.Game.ModAPI.Ingame.IMyInventory)
+
+
 
 ### Parameters
 

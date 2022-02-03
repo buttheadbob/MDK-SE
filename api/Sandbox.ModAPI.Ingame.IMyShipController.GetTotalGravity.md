@@ -12,5 +12,5 @@ Gets the total accumulated gravity vector and power at the current location, tak
 
 [Vector3D](VRageMath.Vector3D)
 
-
+Total gravity vector
 

@@ -6,7 +6,11 @@
 public static BoundingBoxI CreateInvalid()
 ```
 
+
+
 ### Returns
 
 [BoundingBoxI](VRageMath.BoundingBoxI)
+
+
 

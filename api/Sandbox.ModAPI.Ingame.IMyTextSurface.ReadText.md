@@ -6,6 +6,8 @@
 public void ReadText(StringBuilder buffer, bool append)
 ```
 
+Gets current text that is written on surface.
+
 ### Parameters
 
 * [StringBuilder](https://docs.microsoft.com/en-us/dotnet/api/System.Text.StringBuilder?view=netframework-4.6) buffer

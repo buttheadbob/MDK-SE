@@ -6,7 +6,7 @@
 public long OwnerId { get; }
 ```
 
-Id of player owning block (not steam Id)
+IdentityId of player owning block (not steam Id)
 
 ### Returns
 

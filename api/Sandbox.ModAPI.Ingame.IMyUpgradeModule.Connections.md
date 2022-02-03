@@ -6,7 +6,7 @@
 public uint Connections { get; }
 ```
 
-Retrieve number of blocks this block is connected to (r/o)
+Gets number of blocks this block is connected to
 
 ### Returns
 

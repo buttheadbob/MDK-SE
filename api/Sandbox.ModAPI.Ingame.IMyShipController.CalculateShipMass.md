@@ -12,5 +12,5 @@ Gets information about the current mass of the ship.
 
 [MyShipMass](Sandbox.ModAPI.Ingame.MyShipMass)
 
-
+Ship mass information
 

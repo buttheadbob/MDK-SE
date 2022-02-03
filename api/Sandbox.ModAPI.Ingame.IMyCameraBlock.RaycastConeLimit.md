@@ -6,7 +6,7 @@
 public float RaycastConeLimit { get; }
 ```
 
-Returns the maximum positive angle you can apply for pitch and yaw.
+Gets the maximum positive angle you can apply for pitch and yaw.
 
 ### Returns
 

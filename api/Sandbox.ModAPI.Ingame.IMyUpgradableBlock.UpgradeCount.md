@@ -6,7 +6,7 @@
 public uint UpgradeCount { get; }
 ```
 
-number of upgrades applied
+Gets number of upgrades applied
 
 ### Returns
 

@@ -6,6 +6,8 @@
 public struct MyItemType: IComparable<VRage.Game.ModAPI.Ingame.MyItemType>, IEquatable<VRage.Game.ModAPI.Ingame.MyItemType>
 ```
 
+Use by [MyInventoryItem](VRage.Game.ModAPI.Ingame.MyInventoryItem) 
+
 **Namespace:** [VRage.Game.ModAPI.Ingame](VRage.Game.ModAPI.Ingame)  
 **Assembly:** VRage.Game.dll
 
@@ -17,8 +19,8 @@ public struct MyItemType: IComparable<VRage.Game.ModAPI.Ingame.MyItemType>, IEqu
 
 |Member|Description|
 |---|---|
-|[TypeId { get; }](VRage.Game.ModAPI.Ingame.MyItemType.TypeId)||
-|[SubtypeId { get; }](VRage.Game.ModAPI.Ingame.MyItemType.SubtypeId)||
+|[TypeId { get; }](VRage.Game.ModAPI.Ingame.MyItemType.TypeId)|Gets TypeId of Item|
+|[SubtypeId { get; }](VRage.Game.ModAPI.Ingame.MyItemType.SubtypeId)|Gets Subtype of Item|
 
 #### Constructors
 

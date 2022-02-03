@@ -6,7 +6,7 @@
 public MyConveyorSorterMode Mode { get; }
 ```
 
-Determines the current mode of this sorter. Use SetWhitelist or SetBlacklist to change the mode.
+Determines the current mode of this sorter.
 
 ### Returns
 

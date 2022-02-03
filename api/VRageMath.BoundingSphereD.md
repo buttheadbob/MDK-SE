@@ -56,11 +56,11 @@ Defines a sphere.
 |[Contains(ref BoundingSphereD, out ContainmentType)](VRageMath.BoundingSphereD.Contains)|Checks whether the current BoundingSphereD contains the specified BoundingSphereD.|
 |[Transform(MatrixD)](VRageMath.BoundingSphereD.Transform)|Translates and scales the BoundingSphereD using a given Matrix.|
 |[Transform(ref MatrixD, out BoundingSphereD)](VRageMath.BoundingSphereD.Transform)|Translates and scales the BoundingSphereD using a given Matrix.|
-|[IntersectRaySphere(RayD, out double, out double)](VRageMath.BoundingSphereD.IntersectRaySphere)||
+|[IntersectRaySphere(RayD, out double, out double)](VRageMath.BoundingSphereD.IntersectRaySphere)|NOTE: This function doesn't calculate the normal because it's easily derived for a sphere (p - center).|
 |[Include(BoundingSphereD)](VRageMath.BoundingSphereD.Include)||
 |[Include(ref BoundingSphereD, ref BoundingSphereD)](VRageMath.BoundingSphereD.Include)||
 |[CreateInvalid()](VRageMath.BoundingSphereD.CreateInvalid)||
-|[RandomToUniformPointInSphere(double, double, double)](VRageMath.BoundingSphereD.RandomToUniformPointInSphere)||
+|[RandomToUniformPointInSphere(double, double, double)](VRageMath.BoundingSphereD.RandomToUniformPointInSphere)|If ranX, ranY, ranZ are uniformly distributed across ranges <0,1>, Resulting point will be uniformly distributed inside sphere|
 |[RandomToUniformPointInSphereWithInnerCutout(double, double, double, double)](VRageMath.BoundingSphereD.RandomToUniformPointInSphereWithInnerCutout)|Similar to RandomToUniformPointInSphere(...) but excludes points within distance of cutoutRadius from center. (Results are randomly distributed in the shape that remains from sphere that had another sphere cut out from center. )|
 |[RandomToUniformPointOnSphere(double, double)](VRageMath.BoundingSphereD.RandomToUniformPointOnSphere)||
 |[GetBoundingBox()](VRageMath.BoundingSphereD.GetBoundingBox)||

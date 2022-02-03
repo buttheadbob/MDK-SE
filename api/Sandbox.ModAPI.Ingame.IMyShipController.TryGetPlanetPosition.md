@@ -12,7 +12,7 @@ Attempts to get the world position of the nearest planet. This method is only av
 
 [bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
-
+True if cockpit is in gravity of planet
 
 ### Parameters
 

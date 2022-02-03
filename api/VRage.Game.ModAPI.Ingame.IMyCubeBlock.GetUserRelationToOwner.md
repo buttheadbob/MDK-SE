@@ -6,9 +6,13 @@
 public MyRelationsBetweenPlayerAndBlock GetUserRelationToOwner(long playerId, MyRelationsBetweenPlayerAndBlock defaultNoUser)
 ```
 
+Gets relation to owner of block
+
 ### Returns
 
 [MyRelationsBetweenPlayerAndBlock](VRage.Game.MyRelationsBetweenPlayerAndBlock)
+
+Relation of defined player to the block
 
 ### Parameters
 

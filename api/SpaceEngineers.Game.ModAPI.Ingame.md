@@ -9,6 +9,7 @@
 **[IMyGravityGenerator](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGenerator)**  
 **[IMyGravityGeneratorBase](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorBase)**  
 **[IMyGravityGeneratorSphere](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorSphere)**  
+**[IMyHeatVent](SpaceEngineers.Game.ModAPI.Ingame.IMyHeatVent)**  
 **[IMyInteriorLight](SpaceEngineers.Game.ModAPI.Ingame.IMyInteriorLight)**  
 **[IMyLandingGear](SpaceEngineers.Game.ModAPI.Ingame.IMyLandingGear)**  
 **[IMyLargeConveyorTurretBase](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase)**  
@@ -24,7 +25,9 @@
 **[IMySoundBlock](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock)**  
 **[IMySpaceBall](SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall)**  
 **[IMyTimerBlock](SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock)**  
+**[IMyTurretControlBlock](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock)**  
 **[IMyVirtualMass](SpaceEngineers.Game.ModAPI.Ingame.IMyVirtualMass)**  
 **[LandingGearMode](SpaceEngineers.Game.ModAPI.Ingame.LandingGearMode)**  
+**[MergeState](SpaceEngineers.Game.ModAPI.Ingame.MergeState)**  
 **[VentStatus](SpaceEngineers.Game.ModAPI.Ingame.VentStatus)**
 

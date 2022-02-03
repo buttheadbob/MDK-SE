@@ -6,9 +6,13 @@
 public static Direction GetUp(Quaternion rot)
 ```
 
+
+
 ### Returns
 
 [Direction](VRageMath.Base6Directions+Direction)
+
+
 
 ### Parameters
 
@@ -19,9 +23,13 @@ public static Direction GetUp(Quaternion rot)
 public static Direction GetUp(ref Quaternion rot)
 ```
 
+
+
 ### Returns
 
 [Direction](VRageMath.Base6Directions+Direction)
+
+
 
 ### Parameters
 
@@ -32,9 +40,13 @@ public static Direction GetUp(ref Quaternion rot)
 public static Direction GetUp(ref Matrix rotation)
 ```
 
+
+
 ### Returns
 
 [Direction](VRageMath.Base6Directions+Direction)
+
+
 
 ### Parameters
 

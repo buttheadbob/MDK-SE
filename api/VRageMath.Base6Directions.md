@@ -6,6 +6,8 @@
 public class Base6Directions
 ```
 
+Workaround because .NET XML serializer is stupid and does not like enum inside static class
+
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
@@ -13,7 +15,7 @@ public class Base6Directions
 
 |Member|Description|
 |---|---|
-|[EnumDirections](VRageMath.Base6Directions.EnumDirections)||
+|[EnumDirections](VRageMath.Base6Directions.EnumDirections)|Because Enum.GetValues(...) returns array of objects|
 |[Directions](VRageMath.Base6Directions.Directions)||
 |[IntDirections](VRageMath.Base6Directions.IntDirections)||
 

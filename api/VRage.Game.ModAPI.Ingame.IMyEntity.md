@@ -6,7 +6,7 @@
 public interface IMyEntity
 ```
 
-Ingame (Programmable Block) interface for all entities.
+Interface for all entities. (PB scripting interface)
 
 **Namespace:** [VRage.Game.ModAPI.Ingame](VRage.Game.ModAPI.Ingame)  
 **Assembly:** VRage.Game.dll
@@ -44,6 +44,7 @@ Ingame (Programmable Block) interface for all entities.
 * [IMyGravityGeneratorBase](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorBase)  
 * [IMyGravityGeneratorSphere](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorSphere)  
 * [IMyGyro](Sandbox.ModAPI.Ingame.IMyGyro)  
+* [IMyHeatVent](SpaceEngineers.Game.ModAPI.Ingame.IMyHeatVent)  
 * [IMyInteriorLight](SpaceEngineers.Game.ModAPI.Ingame.IMyInteriorLight)  
 * [IMyJumpDrive](Sandbox.ModAPI.Ingame.IMyJumpDrive)  
 * [IMyLandingGear](SpaceEngineers.Game.ModAPI.Ingame.IMyLandingGear)  
@@ -100,6 +101,7 @@ Ingame (Programmable Block) interface for all entities.
 * [IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel)  
 * [IMyThrust](Sandbox.ModAPI.Ingame.IMyThrust)  
 * [IMyTimerBlock](SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock)  
+* [IMyTurretControlBlock](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock)  
 * [IMyUpgradableBlock](Sandbox.ModAPI.Ingame.IMyUpgradableBlock)  
 * [IMyUpgradeModule](Sandbox.ModAPI.Ingame.IMyUpgradeModule)  
 * [IMyUserControllableGun](Sandbox.ModAPI.Ingame.IMyUserControllableGun)  
@@ -111,18 +113,18 @@ Ingame (Programmable Block) interface for all entities.
 
 |Member|Description|
 |---|---|
-|[Components { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Components)||
-|[EntityId { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.EntityId)||
-|[Name { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Name)||
-|[DisplayName { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.DisplayName)||
+|[Components { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Components)|Gets blocks component logic container|
+|[EntityId { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.EntityId)|Id of entity|
+|[Name { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Name)|Some entities can have uniq name, and game can find them by name [VRage.ModAPI.IMyEntities.TryGetEntityByName(System.String,VRage.ModAPI.IMyEntity@)](https://docs.microsoft.com/en-us/dotnet/api/vrage.modapi.imyentities.trygetentitybyname(system.string,vrage.modapi.imyentity@)?view=netframework-4.6) |
+|[DisplayName { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.DisplayName)|Gets user friendly name of entity. May be null For block terminal name use [DisplayNameText](VRage.Game.ModAPI.Ingame.IMyCubeBlock.DisplayNameText) |
 |[HasInventory { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.HasInventory)|Returns true if this entity has got at least one inventory. Note that one aggregate inventory can contain zero simple inventories => zero will be returned even if GetInventory() != null.|
 |[InventoryCount { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.InventoryCount)|Returns the count of the number of inventories this entity has.|
 |[Closed { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Closed)|True if the block has been removed from the world.|
-|[WorldAABB { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)||
-|[WorldAABBHr { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABBHr)||
-|[WorldMatrix { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldMatrix)||
-|[WorldVolume { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldVolume)||
-|[WorldVolumeHr { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldVolumeHr)||
+|[WorldAABB { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)|Gets world axis-aligned bounding box|
+|[WorldAABBHr { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABBHr)|Gets world axis-aligned bounding box|
+|[WorldMatrix { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldMatrix)|Gets world matrix of this entity|
+|[WorldVolume { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldVolume)|Gets bounding sphere of this entity|
+|[WorldVolumeHr { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldVolumeHr)|Gets bounding sphere of this entity|
 
 #### Methods
 
@@ -130,5 +132,5 @@ Ingame (Programmable Block) interface for all entities.
 |---|---|
 |[GetInventory()](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)|Simply get the MyInventoryBase component stored in this entity.|
 |[GetInventory(int)](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)|Search for inventory component with maching index.|
-|[GetPosition()](VRage.Game.ModAPI.Ingame.IMyEntity.GetPosition)||
+|[GetPosition()](VRage.Game.ModAPI.Ingame.IMyEntity.GetPosition)|Gets position in world coordinates|
 

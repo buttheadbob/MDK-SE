@@ -6,7 +6,7 @@
 public string HudText { get; set; }
 ```
 
-The text displayed in the spawn menu
+Gets or sets text displayed in the spawn menu
 
 ### Returns
 

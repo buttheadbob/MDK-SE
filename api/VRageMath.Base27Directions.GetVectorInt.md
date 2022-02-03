@@ -6,9 +6,13 @@
 public static Vector3I GetVectorInt(int direction)
 ```
 
+
+
 ### Returns
 
 [Vector3I](VRageMath.Vector3I)
+
+
 
 ### Parameters
 

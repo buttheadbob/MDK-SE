@@ -155,6 +155,7 @@ This index contains all types and members available to ingame scripting - with e
 [IMyGravityGenerator](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGenerator)  
 [IMyGravityGeneratorBase](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorBase)  
 [IMyGravityGeneratorSphere](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorSphere)  
+[IMyHeatVent](SpaceEngineers.Game.ModAPI.Ingame.IMyHeatVent)  
 [IMyInteriorLight](SpaceEngineers.Game.ModAPI.Ingame.IMyInteriorLight)  
 [IMyLandingGear](SpaceEngineers.Game.ModAPI.Ingame.IMyLandingGear)  
 [IMyLargeConveyorTurretBase](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase)  
@@ -170,8 +171,10 @@ This index contains all types and members available to ingame scripting - with e
 [IMySoundBlock](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock)  
 [IMySpaceBall](SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall)  
 [IMyTimerBlock](SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock)  
+[IMyTurretControlBlock](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock)  
 [IMyVirtualMass](SpaceEngineers.Game.ModAPI.Ingame.IMyVirtualMass)  
 [LandingGearMode](SpaceEngineers.Game.ModAPI.Ingame.LandingGearMode)  
+[MergeState](SpaceEngineers.Game.ModAPI.Ingame.MergeState)  
 [VentStatus](SpaceEngineers.Game.ModAPI.Ingame.VentStatus)
 
 ### System
@@ -282,7 +285,6 @@ This index contains all types and members available to ingame scripting - with e
 
 ### VRageMath
 
-[AddOp&lt;T&gt;](VRageMath.AddOp`1)  
 [Base27Directions](VRageMath.Base27Directions)  
 [Base27Directions.Direction](VRageMath.Base27Directions+Direction)  
 [Base6Directions](VRageMath.Base6Directions)  
@@ -319,6 +321,7 @@ This index contains all types and members available to ingame scripting - with e
 [CurveLoopType](VRageMath.CurveLoopType)  
 [CurveTangent](VRageMath.CurveTangent)  
 [HyperSphereHelpers](VRageMath.HyperSphereHelpers)  
+[IAddOp&lt;T&gt;](VRageMath.IAddOp`1)  
 [Line](VRageMath.Line)  
 [LineD](VRageMath.LineD)  
 [MathHelper](VRageMath.MathHelper)  

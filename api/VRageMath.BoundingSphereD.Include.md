@@ -6,9 +6,13 @@
 public BoundingSphereD Include(BoundingSphereD sphere)
 ```
 
+
+
 ### Returns
 
 [BoundingSphereD](VRageMath.BoundingSphereD)
+
+
 
 ### Parameters
 
@@ -18,6 +22,8 @@ public BoundingSphereD Include(BoundingSphereD sphere)
 ```csharp
 public static void Include(ref BoundingSphereD sphere, ref BoundingSphereD otherSphere)
 ```
+
+
 
 ### Parameters
 

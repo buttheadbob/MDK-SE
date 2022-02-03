@@ -6,7 +6,7 @@
 public bool IsProducing { get; }
 ```
 
-The device is currently producing.
+Gets whether block is currently producing.
 
 ### Returns
 

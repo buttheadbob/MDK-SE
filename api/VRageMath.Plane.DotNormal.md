@@ -3,18 +3,18 @@
 ### Summary
 
 ```csharp
-public float DotNormal(Vector3 value)
+public double DotNormal(Vector3D value)
 ```
 
 Returns the dot product of a specified Vector3 and the Normal vector of this Plane.
 
 ### Returns
 
-[float](https://docs.microsoft.com/en-us/dotnet/api/System.Single?view=netframework-4.6)
+[double](https://docs.microsoft.com/en-us/dotnet/api/System.Double?view=netframework-4.6)
 
 ### Parameters
 
-* [Vector3](VRageMath.Vector3) value
+* [Vector3D](VRageMath.Vector3D) value
 ### Summary
 
 ```csharp

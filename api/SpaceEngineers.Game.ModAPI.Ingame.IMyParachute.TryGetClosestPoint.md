@@ -6,7 +6,7 @@
 public bool TryGetClosestPoint(out Vector3D? closestPoint)
 ```
 
-Gets Elevation, elevation will equal positive infinity if method returns false
+
 
 ### Returns
 

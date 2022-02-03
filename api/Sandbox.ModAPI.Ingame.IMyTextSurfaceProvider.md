@@ -6,6 +6,8 @@
 public interface IMyTextSurfaceProvider
 ```
 
+Describes block, that has at least 1 text surface (PB scripting interface)
+
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
 
@@ -19,11 +21,12 @@ public interface IMyTextSurfaceProvider
 
 |Member|Description|
 |---|---|
-|[SurfaceCount { get; }](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider.SurfaceCount)||
+|[UseGenericLcd { get; }](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider.UseGenericLcd)|Whether generic LCD terminal controls should be created|
+|[SurfaceCount { get; }](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider.SurfaceCount)|Get surfaces count|
 
 #### Methods
 
 |Member|Description|
 |---|---|
-|[GetSurface(int)](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider.GetSurface)||
+|[GetSurface(int)](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider.GetSurface)|Get surface by index|
 

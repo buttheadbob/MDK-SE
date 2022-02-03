@@ -6,9 +6,13 @@
 public ITerminalAction GetActionWithName(string name)
 ```
 
+Get first found terminal action with name
+
 ### Returns
 
 [ITerminalAction](Sandbox.ModAPI.Interfaces.ITerminalAction)
+
+Found terminal action or null
 
 ### Parameters
 

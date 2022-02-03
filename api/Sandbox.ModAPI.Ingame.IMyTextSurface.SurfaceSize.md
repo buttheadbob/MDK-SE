@@ -6,7 +6,7 @@
 public Vector2 SurfaceSize { get; }
 ```
 
-Size of the drawing surface.
+Gets size of the drawing surface.
 
 ### Returns
 

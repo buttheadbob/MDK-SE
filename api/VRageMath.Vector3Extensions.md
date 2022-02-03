@@ -6,7 +6,7 @@
 public abstract sealed class Vector3Extensions
 ```
 
-Usefull Vector3 extensions
+Useful Vector3 extensions
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll

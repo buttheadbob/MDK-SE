@@ -6,7 +6,7 @@
 public bool IsPressurized()
 ```
 
-Room can be pressurized
+Gets whether this vent can be pressurized
 
 ### Returns
 

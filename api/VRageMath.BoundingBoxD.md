@@ -21,7 +21,6 @@ Defines an axis-aligned box-shaped 3D volume.
 |[Min](VRageMath.BoundingBoxD.Min)|The minimum point the BoundingBox contains.|
 |[Max](VRageMath.BoundingBoxD.Max)|The maximum point the BoundingBox contains.|
 |[Comparer](VRageMath.BoundingBoxD.Comparer)||
-|[CornerCount](VRageMath.BoundingBoxD.CornerCount)|Specifies the total number of corners (8) in the BoundingBox.|
 
 #### Properties
 
@@ -31,7 +30,7 @@ Defines an axis-aligned box-shaped 3D volume.
 |[HalfExtents { get; }](VRageMath.BoundingBoxD.HalfExtents)||
 |[Extents { get; }](VRageMath.BoundingBoxD.Extents)||
 |[Size { get; }](VRageMath.BoundingBoxD.Size)|Size|
-|[Matrix { get; }](VRageMath.BoundingBoxD.Matrix)|Matrix of AABB, respection center and size|
+|[Matrix { get; }](VRageMath.BoundingBoxD.Matrix)|Matrix of AABB, respecting center and size|
 |[SurfaceArea { get; }](VRageMath.BoundingBoxD.SurfaceArea)||
 |[Volume { get; }](VRageMath.BoundingBoxD.Volume)||
 |[Perimeter { get; }](VRageMath.BoundingBoxD.Perimeter)|return perimeter of edges|
@@ -61,7 +60,7 @@ Defines an axis-aligned box-shaped 3D volume.
 |[CreateFromSphere(BoundingSphereD)](VRageMath.BoundingBoxD.CreateFromSphere)|Creates the smallest BoundingBox that will contain the specified BoundingSphere.|
 |[CreateFromSphere(ref BoundingSphereD, out BoundingBoxD)](VRageMath.BoundingBoxD.CreateFromSphere)|Creates the smallest BoundingBox that will contain the specified BoundingSphere.|
 |[CreateFromPoints(IEnumerable)](VRageMath.BoundingBoxD.CreateFromPoints)|Creates the smallest BoundingBox that will contain a group of points.|
-|[Intersect(BoundingBoxD)](VRageMath.BoundingBoxD.Intersect)|Returns bounding box which is intersection of this and box It's called 'Prunik' Result is invalid box when there's no intersection (Min > Max)|
+|[Intersect(BoundingBoxD)](VRageMath.BoundingBoxD.Intersect)|Returns bounding box which is intersection of this and box Result is invalid box when there's no intersection (Min > Max)|
 |[Intersects(BoundingBoxD)](VRageMath.BoundingBoxD.Intersects)|Checks whether the current BoundingBox intersects another BoundingBox.|
 |[Intersects(ref BoundingBoxD)](VRageMath.BoundingBoxD.Intersects)||
 |[Intersects(ref BoundingBoxD, out bool)](VRageMath.BoundingBoxD.Intersects)|Checks whether the current BoundingBox intersects another BoundingBox.|

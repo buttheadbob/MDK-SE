@@ -6,6 +6,8 @@
 public struct MyShipMass
 ```
 
+Describes ship mass
+
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll
 

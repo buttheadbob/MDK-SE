@@ -6,13 +6,13 @@
 public bool Equals(RectangleF other)
 ```
 
-Determines whether the specified [System.Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6) is equal to this instance.
+Equals to other rectangle
 
 ### Returns
 
 [bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
-`true`if the specified [System.Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.6) is equal to this instance; otherwise,`false`.
+
 
 ### Parameters
 

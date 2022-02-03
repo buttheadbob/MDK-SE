@@ -48,9 +48,13 @@ Tests whether the BoundingBoxI contains a point.
 public ContainmentType Contains(Vector3 point)
 ```
 
+
+
 ### Returns
 
 [ContainmentType](VRageMath.ContainmentType)
+
+
 
 ### Parameters
 

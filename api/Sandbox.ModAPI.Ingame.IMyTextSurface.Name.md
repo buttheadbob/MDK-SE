@@ -6,7 +6,7 @@
 public string Name { get; }
 ```
 
-Identifier name of this surface.
+Gets identifier name of this surface.
 
 ### Returns
 

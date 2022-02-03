@@ -21,9 +21,13 @@ Checks whether the current BoundingBox intersects another BoundingBox.
 public bool Intersects(ref BoundingBox box)
 ```
 
+
+
 ### Returns
 
 [bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
+
+
 
 ### Parameters
 
@@ -88,9 +92,13 @@ Checks whether the current BoundingBox intersects a Plane.
 public bool Intersects(Line line, out float distance)
 ```
 
+
+
 ### Returns
 
 [bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
+
+
 
 ### Parameters
 
@@ -156,9 +164,13 @@ Checks whether the current BoundingBox intersects a BoundingSphere.
 public bool Intersects(ref BoundingSphere sphere)
 ```
 
+
+
 ### Returns
 
 [bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
+
+
 
 ### Parameters
 
@@ -169,9 +181,13 @@ public bool Intersects(ref BoundingSphere sphere)
 public bool Intersects(ref BoundingSphereD sphere)
 ```
 
+
+
 ### Returns
 
 [bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
+
+
 
 ### Parameters
 

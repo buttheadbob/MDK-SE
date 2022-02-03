@@ -6,7 +6,7 @@
 public float MaxSteerAngle { get; set; }
 ```
 
-Max steering angle in radians.
+Gets or sets max steering angle in radians.
 
 ### Returns
 

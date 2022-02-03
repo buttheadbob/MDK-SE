@@ -6,7 +6,7 @@
 public bool HelpOthers { get; set; }
 ```
 
-True if welder is set to helper mode
+Gets and sets whether this welder can help other welders
 
 ### Returns
 

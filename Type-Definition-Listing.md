@@ -39,6 +39,19 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_VirtualMass/VirtualMassLarge`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_VirtualMass/VirtualMassSmall`  
   
+<a name="blocks-Artillery">**Artillery**</a> ([IMySmallMissileLauncher](Sandbox.ModAPI.Ingame.IMySmallMissileLauncher))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_SmallMissileLauncher/LargeBlockLargeCalibreGun`  
+  
+<a name="blocks-Artillery%20Turret">**Artillery Turret**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_LargeMissileTurret/LargeCalibreTurret`  
+  
+<a name="blocks-Assault%20Cannon">**Assault Cannon**</a> ([IMySmallMissileLauncherReload](Sandbox.ModAPI.Ingame.IMySmallMissileLauncherReload))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_SmallMissileLauncherReload/SmallBlockMediumCalibreGun`  
+  
+<a name="blocks-Assault%20Cannon%20Turret">**Assault Cannon Turret**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_LargeMissileTurret/LargeBlockMediumCalibreTurret`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_LargeMissileTurret/SmallBlockMediumCalibreTurret`  
+  
 <a name="blocks-Assembler">**Assembler**</a> ([IMyAssembler](Sandbox.ModAPI.Ingame.IMyAssembler))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Assembler/LargeAssembler`  
   
@@ -48,6 +61,12 @@
 <a name="blocks-Atmospheric%20Thruster">**Atmospheric Thruster**</a> ([IMyThrust](Sandbox.ModAPI.Ingame.IMyThrust))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Thrust/LargeBlockSmallAtmosphericThrust`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Thrust/SmallBlockSmallAtmosphericThrust`  
+  
+<a name="blocks-Autocannon">**Autocannon**</a> ([IMySmallGatlingGun](Sandbox.ModAPI.Ingame.IMySmallGatlingGun))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_SmallGatlingGun/SmallBlockAutocannon`  
+  
+<a name="blocks-Autocannon%20Turret">**Autocannon Turret**</a> ([IMyLargeGatlingTurret](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeGatlingTurret))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_LargeGatlingTurret/AutoCannonTurret`  
   
 <a name="blocks-Barred%20Window">**Barred Window**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/BarredWindow`  
@@ -82,14 +101,6 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeGridBeamBlock`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallGridBeamBlock`  
   
-<a name="blocks-Beam%20Block%202x1%20Base">**Beam Block 2x1 Base**</a>  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeGridBeamBlockSlope2x1Base`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallGridBeamBlockSlope2x1Base`  
-  
-<a name="blocks-Beam%20Block%202x1%20Tip">**Beam Block 2x1 Tip**</a>  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeGridBeamBlockSlope2x1Tip`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallGridBeamBlockSlope2x1Tip`  
-  
 <a name="blocks-Beam%20Block%20End">**Beam Block End**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeGridBeamBlockEnd`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallGridBeamBlockEnd`  
@@ -118,24 +129,38 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeGridBeamBlockTJunction`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallGridBeamBlockTJunction`  
   
+<a name="blocks-Beam%20Block2x1%20Base">**Beam Block2x1 Base**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeGridBeamBlockSlope2x1Base`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallGridBeamBlockSlope2x1Base`  
+  
+<a name="blocks-Beam%20Block2x1%20Tip">**Beam Block2x1 Tip**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeGridBeamBlockSlope2x1Tip`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallGridBeamBlockSlope2x1Tip`  
+  
 <a name="blocks-Bed">**Bed**</a> ([IMyCryoChamber](Sandbox.ModAPI.Ingame.IMyCryoChamber))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CryoChamber/LargeBlockBed`  
   
-<a name="blocks-Blast%20door%20corner">**Blast door corner**</a>  
+<a name="blocks-Blast%20Door%20Corner">**Blast Door Corner**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/ArmorCorner`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmorCorner`  
   
-<a name="blocks-Blast%20door%20corner%20inverted">**Blast door corner inverted**</a>  
+<a name="blocks-Blast%20Door%20Corner%20Inverted">**Blast Door Corner Inverted**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/ArmorInvCorner`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmorInvCorner`  
   
-<a name="blocks-Blast%20door%20edge">**Blast door edge**</a>  
+<a name="blocks-Blast%20Door%20Edge">**Blast Door Edge**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/ArmorSide`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmorSide`  
   
-<a name="blocks-Blast%20doors">**Blast doors**</a>  
+<a name="blocks-Blast%20Doors">**Blast Doors**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/ArmorCenter`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallArmorCenter`  
+  
+<a name="blocks-Bridge%20Window%20Face">**Bridge Window Face**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/BridgeWindow1x1Face`  
+  
+<a name="blocks-Bridge%20Window%20Slope">**Bridge Window Slope**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/BridgeWindow1x1Slope`  
   
 <a name="blocks-Buggy%20Cockpit">**Buggy Cockpit**</a> ([IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Cockpit/BuggyCockpit`  
@@ -184,7 +209,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Cockpit/OpenCockpitLarge`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Cockpit/OpenCockpitSmall`  
   
-<a name="blocks-Control%20Stations">**Control Stations**</a> ([IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit))  
+<a name="blocks-Control%20Station">**Control Station**</a> ([IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Cockpit/LargeBlockCockpit`  
   
 <a name="blocks-Conveyor%20Frame">**Conveyor Frame**</a>  
@@ -259,6 +284,10 @@
 <a name="blocks-Curved%20Conveyor%20Tube">**Curved Conveyor Tube**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_ConveyorConnector/ConveyorTubeCurved`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_ConveyorConnector/ConveyorTubeCurvedMedium`  
+  
+<a name="blocks-Custom%20Turret%20Controller">**Custom Turret Controller**</a> ([IMyTurretControlBlock](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_TurretControlBlock/LargeTurretControlBlock`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_TurretControlBlock/SmallTurretControlBlock`  
   
 <a name="blocks-Cylindrical%20Column">**Cylindrical Column**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockCylindricalColumn`  
@@ -376,13 +405,13 @@
 <a name="blocks-Grated%20Catwalk%20Wall">**Grated Catwalk Wall**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/CatwalkWall`  
   
-<a name="blocks-Grated%20half%20stairs">**Grated half stairs**</a>  
+<a name="blocks-Grated%20Half%20Stairs">**Grated Half Stairs**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/GratedHalfStairs`  
   
-<a name="blocks-Grated%20half%20stairs%20mirrored">**Grated half stairs mirrored**</a>  
+<a name="blocks-Grated%20Half%20Stairs%20Mirrored">**Grated Half Stairs Mirrored**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/GratedHalfStairsMirrored`  
   
-<a name="blocks-Grated%20stairs">**Grated stairs**</a>  
+<a name="blocks-Grated%20Stairs">**Grated Stairs**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/GratedStairs`  
   
 <a name="blocks-Gravity%20Generator">**Gravity Generator**</a> ([IMyGravityGenerator](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGenerator))  
@@ -406,6 +435,9 @@
 <a name="blocks-Half%20Light%20Armor%20Block">**Half Light Armor Block**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeHalfArmorBlock`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/HalfArmorBlock`  
+  
+<a name="blocks-Half%20Sliding%20Hatch%20Door">**Half Sliding Hatch Door**</a> ([IMyDoor](Sandbox.ModAPI.Ingame.IMyDoor))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Door/SlidingHatchDoorHalf`  
   
 <a name="blocks-Half%20Slope%20Corner%20Heavy%20Armor">**Half Slope Corner Heavy Armor**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockHeavyArmorHalfSlopeCorner`  
@@ -450,6 +482,10 @@
   
 <a name="blocks-Half%20Window%20Inv.">**Half Window Inv.**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/HalfWindowInv`  
+  
+<a name="blocks-Heat%20Vent">**Heat Vent**</a> ([IMyHeatVent](SpaceEngineers.Game.ModAPI.Ingame.IMyHeatVent))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_HeatVentBlock/LargeHeatVentBlock`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_HeatVentBlock/SmallHeatVentBlock`  
   
 <a name="blocks-Heavy%20Armor%20Block">**Heavy Armor Block**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeHeavyBlockArmorBlock`  
@@ -595,6 +631,10 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockHeavyArmorSlopedCornerBase`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockHeavyArmorSlopedCornerBase`  
   
+<a name="blocks-Helm">**Helm**</a> ([IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Cockpit/LargeBlockStandingCockpit`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Cockpit/SmallBlockStandingCockpit`  
+  
 <a name="blocks-Hinge">**Hinge**</a> ([IMyMotorAdvancedStator](Sandbox.ModAPI.Ingame.IMyMotorAdvancedStator))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_MotorAdvancedStator/LargeHinge`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_MotorAdvancedStator/SmallHinge`  
@@ -712,6 +752,14 @@
 <a name="blocks-Large%20Reactor">**Large Reactor**</a> ([IMyReactor](Sandbox.ModAPI.Ingame.IMyReactor))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Reactor/LargeBlockLargeGenerator`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Reactor/SmallBlockLargeGenerator`  
+  
+<a name="blocks-Large%20Warfare%20Ion%20Thruster">**Large Warfare Ion Thruster**</a> ([IMyThrust](Sandbox.ModAPI.Ingame.IMyThrust))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Thrust/LargeBlockLargeModularThruster`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Thrust/SmallBlockLargeModularThruster`  
+  
+<a name="blocks-Large%20Warfare%20Reactor">**Large Warfare Reactor**</a> ([IMyReactor](Sandbox.ModAPI.Ingame.IMyReactor))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Reactor/LargeBlockLargeGeneratorWarfare2`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Reactor/SmallBlockLargeGeneratorWarfare2`  
   
 <a name="blocks-Laser%20Antenna">**Laser Antenna**</a> ([IMyLaserAntenna](Sandbox.ModAPI.Ingame.IMyLaserAntenna))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_LaserAntenna/LargeBlockLaserAntenna`  
@@ -957,6 +1005,10 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockArmorSlopedCornerBase`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallBlockArmorSlopedCornerBase`  
   
+<a name="blocks-Light%20Panel">**Light Panel**</a> ([IMyInteriorLight](SpaceEngineers.Game.ModAPI.Ingame.IMyInteriorLight))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_InteriorLight/LargeLightPanel`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_InteriorLight/SmallLightPanel`  
+  
 <a name="blocks-Lockers">**Lockers**</a> ([IMyCargoContainer](Sandbox.ModAPI.Ingame.IMyCargoContainer))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CargoContainer/LargeBlockLockers`  
   
@@ -1148,9 +1200,15 @@
 <a name="blocks-Passage%203%20Windowed">**Passage 3 Windowed**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/PassageSciFiWindow`  
   
+<a name="blocks-Passenger%20Bench">**Passenger Bench**</a> ([IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Cockpit/PassengerBench`  
+  
 <a name="blocks-Passenger%20Seat">**Passenger Seat**</a> ([IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Cockpit/PassengerSeatLarge`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Cockpit/PassengerSeatSmall`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Cockpit/PassengerSeatSmallNew`  
+  
+<a name="blocks-Passenger%20Seat%20Offset">**Passenger Seat Offset**</a> ([IMyCockpit](Sandbox.ModAPI.Ingame.IMyCockpit))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Cockpit/PassengerSeatSmallOffset`  
   
 <a name="blocks-Piston">**Piston**</a> ([IMyExtendedPistonBase](Sandbox.ModAPI.Ingame.IMyExtendedPistonBase))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_ExtendedPistonBase/LargePistonBase`  
@@ -1162,7 +1220,7 @@
 <a name="blocks-Power%20Efficiency%20Module">**Power Efficiency Module**</a> ([IMyUpgradeModule](Sandbox.ModAPI.Ingame.IMyUpgradeModule))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_UpgradeModule/LargeEnergyModule`  
   
-<a name="blocks-Programmable%20block">**Programmable block**</a> ([IMyProgrammableBlock](Sandbox.ModAPI.Ingame.IMyProgrammableBlock))  
+<a name="blocks-Programmable%20Block">**Programmable Block**</a> ([IMyProgrammableBlock](Sandbox.ModAPI.Ingame.IMyProgrammableBlock))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_MyProgrammableBlock/LargeProgrammableBlock`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_MyProgrammableBlock/SmallProgrammableBlock`  
   
@@ -1173,6 +1231,10 @@
 <a name="blocks-Questionmark">**Questionmark**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeSymbolQuestionMark`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_CubeBlock/SmallSymbolQuestionMark`  
+  
+<a name="blocks-Railgun">**Railgun**</a> ([IMySmallMissileLauncherReload](Sandbox.ModAPI.Ingame.IMySmallMissileLauncherReload))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_SmallMissileLauncherReload/LargeRailgun`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_SmallMissileLauncherReload/SmallRailgun`  
   
 <a name="blocks-Railing%20Corner">**Railing Corner**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/RailingCorner`  
@@ -1286,6 +1348,10 @@
 <a name="blocks-Sci-Fi%20Sliding%20Door">**Sci-Fi Sliding Door**</a> ([IMyDoor](Sandbox.ModAPI.Ingame.IMyDoor))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Door/SmallSideDoor`  
   
+<a name="blocks-Searchlight">**Searchlight**</a>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Searchlight/LargeSearchlight`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Searchlight/SmallSearchlight`  
+  
 <a name="blocks-Sensor">**Sensor**</a> ([IMySensorBlock](Sandbox.ModAPI.Ingame.IMySensorBlock))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_SensorBlock/LargeBlockSensor`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_SensorBlock/SmallBlockSensor`  
@@ -1295,6 +1361,9 @@
   
 <a name="blocks-Sliding%20Door">**Sliding Door**</a> ([IMyAirtightSlideDoor](Sandbox.ModAPI.Ingame.IMyAirtightSlideDoor))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_AirtightSlideDoor/LargeBlockSlideDoor`  
+  
+<a name="blocks-Sliding%20Hatch%20Door">**Sliding Hatch Door**</a> ([IMyDoor](Sandbox.ModAPI.Ingame.IMyDoor))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Door/SlidingHatchDoor`  
   
 <a name="blocks-Sloped%20Corner%20Heavy%20Armor%20Tip">**Sloped Corner Heavy Armor Tip**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeBlockHeavyArmorSlopedCornerTip`  
@@ -1333,6 +1402,10 @@
 <a name="blocks-Small%20Reactor">**Small Reactor**</a> ([IMyReactor](Sandbox.ModAPI.Ingame.IMyReactor))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Reactor/LargeBlockSmallGenerator`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Reactor/SmallBlockSmallGenerator`  
+  
+<a name="blocks-Small%20Warfare%20Reactor">**Small Warfare Reactor**</a> ([IMyReactor](Sandbox.ModAPI.Ingame.IMyReactor))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Reactor/LargeBlockSmallGeneratorWarfare2`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Reactor/SmallBlockSmallGeneratorWarfare2`  
   
 <a name="blocks-Solar%20Panel">**Solar Panel**</a> ([IMySolarPanel](SpaceEngineers.Game.ModAPI.Ingame.IMySolarPanel))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_SolarPanel/LargeBlockSolarPanel`  
@@ -1383,14 +1456,14 @@
 <a name="blocks-Store">**Store**</a> ([IMyStoreBlock](Sandbox.ModAPI.Ingame.IMyStoreBlock))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_StoreBlock/StoreBlock`  
   
-<a name="blocks-Survival%20kit">**Survival kit**</a>  
+<a name="blocks-Survival%20Kit">**Survival Kit**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_SurvivalKit/SurvivalKitLarge`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_SurvivalKit/SurvivalKit`  
   
-<a name="blocks-Target%20dummy">**Target dummy**</a> ([IMyTargetDummyBlock](Sandbox.ModAPI.Ingame.IMyTargetDummyBlock))  
+<a name="blocks-Target%20Dummy">**Target Dummy**</a> ([IMyTargetDummyBlock](Sandbox.ModAPI.Ingame.IMyTargetDummyBlock))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_TargetDummyBlock/TargetDummy`  
   
-<a name="blocks-Text%20panel">**Text panel**</a> ([IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel))  
+<a name="blocks-Text%20Panel">**Text Panel**</a> ([IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_TextPanel/LargeTextPanel`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_TextPanel/SmallTextPanel`  
   
@@ -1421,6 +1494,7 @@
   
 <a name="blocks-Vertical%20Button%20Panel">**Vertical Button Panel**</a> ([IMyButtonPanel](SpaceEngineers.Game.ModAPI.Ingame.IMyButtonPanel))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_ButtonPanel/VerticalButtonPanelLarge`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_ButtonPanel/VerticalButtonPanelSmall`  
   
 <a name="blocks-Vertical%20Window">**Vertical Window**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/LargeWindowSquare`  
@@ -1430,6 +1504,29 @@
   
 <a name="blocks-Viewport%202">**Viewport 2**</a>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_CubeBlock/Viewport2`  
+  
+<a name="blocks-Warfare%20Battery">**Warfare Battery**</a> ([IMyBatteryBlock](Sandbox.ModAPI.Ingame.IMyBatteryBlock))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_BatteryBlock/LargeBlockBatteryBlockWarfare2`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_BatteryBlock/SmallBlockBatteryBlockWarfare2`  
+  
+<a name="blocks-Warfare%20Gatling%20Gun">**Warfare Gatling Gun**</a> ([IMySmallGatlingGun](Sandbox.ModAPI.Ingame.IMySmallGatlingGun))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_SmallGatlingGun/SmallGatlingGunWarfare2`  
+  
+<a name="blocks-Warfare%20Hangar%20Door">**Warfare Hangar Door**</a> ([IMyAirtightHangarDoor](Sandbox.ModAPI.Ingame.IMyAirtightHangarDoor))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_AirtightHangarDoor/AirtightHangarDoorWarfare2A`  
+  
+<a name="blocks-Warfare%20Hangar%20Door%202">**Warfare Hangar Door 2**</a> ([IMyAirtightHangarDoor](Sandbox.ModAPI.Ingame.IMyAirtightHangarDoor))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_AirtightHangarDoor/AirtightHangarDoorWarfare2C`  
+  
+<a name="blocks-Warfare%20Hangar%20Door%20Windowed">**Warfare Hangar Door Windowed**</a> ([IMyAirtightHangarDoor](Sandbox.ModAPI.Ingame.IMyAirtightHangarDoor))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_AirtightHangarDoor/AirtightHangarDoorWarfare2B`  
+  
+<a name="blocks-Warfare%20Ion%20Thruster">**Warfare Ion Thruster**</a> ([IMyThrust](Sandbox.ModAPI.Ingame.IMyThrust))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Thrust/LargeBlockSmallModularThruster`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_Thrust/SmallBlockSmallModularThruster`  
+  
+<a name="blocks-Warfare%20Rocket%20Launcher">**Warfare Rocket Launcher**</a> ([IMySmallMissileLauncher](Sandbox.ModAPI.Ingame.IMySmallMissileLauncher))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_SmallMissileLauncher/SmallMissileLauncherWarfare2`  
   
 <a name="blocks-Warhead">**Warhead**</a> ([IMyWarhead](Sandbox.ModAPI.Ingame.IMyWarhead))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_Warhead/LargeWarhead`  
@@ -1479,7 +1576,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_MotorSuspension/Suspension5x5`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_MotorSuspension/SmallSuspension5x5`  
   
-<a name="blocks-Wide%20LCD%20panel">**Wide LCD panel**</a> ([IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel))  
+<a name="blocks-Wide%20LCD%20Panel">**Wide LCD Panel**</a> ([IMyTextPanel](Sandbox.ModAPI.Ingame.IMyTextPanel))  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_TextPanel/LargeLCDPanelWide`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Grid: `MyObjectBuilder_TextPanel/SmallLCDPanelWide`  
   
@@ -1579,14 +1676,26 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large Grid: `MyObjectBuilder_UpgradeModule/LargeEffectivenessModule`  
   
 ## Ammo Magazines  
-**<a name="Ammo%20Magazines-200mm%20missile%20container">200mm missile container</a>**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_AmmoMagazine/Missile200mm`  
-  
-**<a name="Ammo%20Magazines-25x184mm%20NATO%20ammo%20container">25x184mm NATO ammo container</a>**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_AmmoMagazine/NATO_25x184mm`  
-  
 **<a name="Ammo%20Magazines-5.56x45mm%20NATO%20magazine">5.56x45mm NATO magazine</a>**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_AmmoMagazine/NATO_5p56x45mm`  
+  
+**<a name="Ammo%20Magazines-Artillery%20Shell">Artillery Shell</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_AmmoMagazine/LargeCalibreAmmo`  
+  
+**<a name="Ammo%20Magazines-Assault%20Cannon%20Shell">Assault Cannon Shell</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_AmmoMagazine/MediumCalibreAmmo`  
+  
+**<a name="Ammo%20Magazines-Autocannon%20Magazine">Autocannon Magazine</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_AmmoMagazine/AutocannonClip`  
+  
+**<a name="Ammo%20Magazines-Gatling%20Ammo%20Box">Gatling Ammo Box</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_AmmoMagazine/NATO_25x184mm`  
+  
+**<a name="Ammo%20Magazines-Large%20Railgun%20Sabot">Large Railgun Sabot</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_AmmoMagazine/LargeRailgunAmmo`  
+  
+**<a name="Ammo%20Magazines-Missile">Missile</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_AmmoMagazine/Missile200mm`  
   
 **<a name="Ammo%20Magazines-MR-20%20Magazine">MR-20 Magazine</a>**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_AmmoMagazine/AutomaticRifleGun_Mag_20rd`  
@@ -1609,13 +1718,19 @@
 **<a name="Ammo%20Magazines-S-20A%20Magazine">S-20A Magazine</a>**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_AmmoMagazine/FullAutoPistolMagazine`  
   
+**<a name="Ammo%20Magazines-Small%20Railgun%20Sabot">Small Railgun Sabot</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_AmmoMagazine/SmallRailgunAmmo`  
+  
 
 ## Blueprints  
-**<a name="Blueprints-200mm%20missile%20container">200mm missile container</a>**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/Missile200mm`  
+**<a name="Blueprints-Artillery%20Shell">Artillery Shell</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/LargeCalibreAmmo`  
   
-**<a name="Blueprints-25x184mm%20NATO%20ammo%20container">25x184mm NATO ammo container</a>**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/NATO_25x184mmMagazine`  
+**<a name="Blueprints-Assault%20Cannon%20Shell">Assault Cannon Shell</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/MediumCalibreAmmo`  
+  
+**<a name="Blueprints-Autocannon%20Magazine">Autocannon Magazine</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/AutocannonClip`  
   
 **<a name="Blueprints-Bulletproof%20Glass">Bulletproof Glass</a>**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/BulletproofGlass`  
@@ -1662,6 +1777,9 @@
 **<a name="Blueprints-Explosives">Explosives</a>**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/ExplosivesComponent`  
   
+**<a name="Blueprints-Gatling%20Ammo%20Box">Gatling Ammo Box</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/NATO_25x184mmMagazine`  
+  
 **<a name="Blueprints-Girder">Girder</a>**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/GirderComponent`  
   
@@ -1704,6 +1822,9 @@
 **<a name="Blueprints-Iron%20Ingot">Iron Ingot</a>**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/ScrapToIronIngot`  
   
+**<a name="Blueprints-Large%20Railgun%20Sabot">Large Railgun Sabot</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/LargeRailgunAmmo`  
+  
 **<a name="Blueprints-Large%20Steel%20Tube">Large Steel Tube</a>**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/LargeTube`  
   
@@ -1715,6 +1836,9 @@
   
 **<a name="Blueprints-Metal%20Grid">Metal Grid</a>**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/MetalGrid`  
+  
+**<a name="Blueprints-Missile">Missile</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/Missile200mm`  
   
 **<a name="Blueprints-Motor">Motor</a>**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/MotorComponent`  
@@ -1805,6 +1929,9 @@
   
 **<a name="Blueprints-Silver%20Ingot">Silver Ingot</a>**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/SilverOreToIngot`  
+  
+**<a name="Blueprints-Small%20Railgun%20Sabot">Small Railgun Sabot</a>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/SmallRailgunAmmo`  
   
 **<a name="Blueprints-Small%20Steel%20Tube">Small Steel Tube</a>**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`MyObjectBuilder_BlueprintDefinition/SmallTube`  

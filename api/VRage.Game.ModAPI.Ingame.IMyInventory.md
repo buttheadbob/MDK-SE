@@ -6,6 +6,8 @@
 public interface IMyInventory
 ```
 
+Describes inventory interface (PB scripting interface)
+
 **Namespace:** [VRage.Game.ModAPI.Ingame](VRage.Game.ModAPI.Ingame)  
 **Assembly:** VRage.Game.dll
 

@@ -6,7 +6,7 @@
 public Color ScriptBackgroundColor { get; set; }
 ```
 
-Background color used for scripts.
+Gets or sets background color used for scripts.
 
 ### Returns
 

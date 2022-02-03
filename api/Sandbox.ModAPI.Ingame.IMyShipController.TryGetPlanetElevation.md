@@ -12,7 +12,7 @@ Attempts to get the elevation of the ship in relation to the nearest planet. Thi
 
 [bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
-
+True if cockpit is in planet gravity
 
 ### Parameters
 

@@ -6,3 +6,5 @@
 public void ClearImagesFromSelection()
 ```
 
+Removes images from shown images.
+

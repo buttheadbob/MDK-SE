@@ -6,9 +6,13 @@
 public BoundingBoxD GetInflated(double size)
 ```
 
+
+
 ### Returns
 
 [BoundingBoxD](VRageMath.BoundingBoxD)
+
+
 
 ### Parameters
 
@@ -19,9 +23,13 @@ public BoundingBoxD GetInflated(double size)
 public BoundingBoxD GetInflated(Vector3 size)
 ```
 
+
+
 ### Returns
 
 [BoundingBoxD](VRageMath.BoundingBoxD)
+
+
 
 ### Parameters
 
@@ -32,9 +40,13 @@ public BoundingBoxD GetInflated(Vector3 size)
 public BoundingBoxD GetInflated(Vector3D size)
 ```
 
+
+
 ### Returns
 
 [BoundingBoxD](VRageMath.BoundingBoxD)
+
+
 
 ### Parameters
 

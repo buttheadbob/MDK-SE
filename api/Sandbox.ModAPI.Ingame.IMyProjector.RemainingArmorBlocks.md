@@ -6,7 +6,7 @@
 public int RemainingArmorBlocks { get; }
 ```
 
-Number of armor blocks left to be welded
+Get number of armor blocks left to be welded
 
 ### Returns
 

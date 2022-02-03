@@ -6,7 +6,7 @@
 public VentStatus Status { get; }
 ```
 
-Gets current air vent status
+Gets the current air vent status
 
 ### Returns
 

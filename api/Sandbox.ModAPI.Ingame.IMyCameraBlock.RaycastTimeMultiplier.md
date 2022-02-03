@@ -6,7 +6,7 @@
 public float RaycastTimeMultiplier { get; }
 ```
 
-Returns the raycast time multiplier that converts time in milliseconds to available raycast distance in meters.
+Gets the raycast time multiplier that converts time in milliseconds to available raycast distance in meters.
 
 ### Returns
 

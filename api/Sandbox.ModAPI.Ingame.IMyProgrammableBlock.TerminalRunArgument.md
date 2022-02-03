@@ -6,7 +6,7 @@
 public string TerminalRunArgument { get; }
 ```
 
-Contains the value of the default terminal argument.
+Get default terminal argument.
 
 ### Returns
 

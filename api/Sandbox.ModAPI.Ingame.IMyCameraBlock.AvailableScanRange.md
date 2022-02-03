@@ -6,7 +6,7 @@
 public double AvailableScanRange { get; }
 ```
 
-The maximum distance that this camera can scan, based on the time since the last scan.
+Gets the maximum distance that this camera can scan, based on the time since the last scan.
 
 ### Returns
 

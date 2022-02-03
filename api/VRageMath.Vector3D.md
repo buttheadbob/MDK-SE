@@ -6,7 +6,7 @@
 public struct Vector3D: IEquatable<VRageMath.Vector3D>
 ```
 
-Defines a vector with three components.
+Defines a vector with three components. Vector3 with double floating point precision
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll

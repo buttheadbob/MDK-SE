@@ -6,7 +6,7 @@
 public bool IsRunning { get; }
 ```
 
-This programmable block is currently running its program.
+Get whether this programmable block is currently running its program.
 
 ### Returns
 

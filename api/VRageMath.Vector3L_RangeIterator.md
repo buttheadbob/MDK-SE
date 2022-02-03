@@ -6,7 +6,7 @@
 public struct Vector3L_RangeIterator
 ```
 
-A class for simpler traversal of ranges of longeger vectors
+A class for simpler traversal of ranges of long vectors
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll

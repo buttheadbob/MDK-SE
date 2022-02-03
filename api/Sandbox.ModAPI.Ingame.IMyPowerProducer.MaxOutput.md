@@ -6,7 +6,7 @@
 public float MaxOutput { get; }
 ```
 
-Maximum output in Megawatts
+Gets maximum output in Megawatts
 
 ### Returns
 

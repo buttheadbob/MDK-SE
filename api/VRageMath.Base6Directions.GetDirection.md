@@ -6,9 +6,13 @@
 public static Direction GetDirection(Vector3 vec)
 ```
 
+
+
 ### Returns
 
 [Direction](VRageMath.Base6Directions+Direction)
+
+
 
 ### Parameters
 
@@ -19,9 +23,13 @@ public static Direction GetDirection(Vector3 vec)
 public static Direction GetDirection(ref Vector3 vec)
 ```
 
+
+
 ### Returns
 
 [Direction](VRageMath.Base6Directions+Direction)
+
+
 
 ### Parameters
 
@@ -32,9 +40,13 @@ public static Direction GetDirection(ref Vector3 vec)
 public static Direction GetDirection(Vector3I vec)
 ```
 
+
+
 ### Returns
 
 [Direction](VRageMath.Base6Directions+Direction)
+
+
 
 ### Parameters
 
@@ -45,9 +57,13 @@ public static Direction GetDirection(Vector3I vec)
 public static Direction GetDirection(ref Vector3I vec)
 ```
 
+
+
 ### Returns
 
 [Direction](VRageMath.Base6Directions+Direction)
+
+
 
 ### Parameters
 

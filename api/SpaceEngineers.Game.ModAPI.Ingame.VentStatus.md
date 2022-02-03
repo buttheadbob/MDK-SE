@@ -6,6 +6,8 @@
 public enum VentStatus
 ```
 
+Describes status for vent block
+
 **Namespace:** [SpaceEngineers.Game.ModAPI.Ingame](SpaceEngineers.Game.ModAPI.Ingame)  
 **Assembly:** SpaceEngineers.Game.dll
 

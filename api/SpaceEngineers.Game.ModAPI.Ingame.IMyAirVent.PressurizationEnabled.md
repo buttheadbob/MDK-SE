@@ -6,7 +6,7 @@
 public bool PressurizationEnabled { get; }
 ```
 
-Returns true if pressurization is enabled.
+Gets whether this vent has pressurization enabled.
 
 ### Returns
 

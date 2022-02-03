@@ -6,7 +6,7 @@
 public Dictionary<VRage.Game.MyDefinitionBase, System.Int32> RemainingBlocksPerType { get; }
 ```
 
-A comprehensive list of blocks left to be welded
+Gets comprehensive list of blocks left to be welded
 
 ### Returns
 

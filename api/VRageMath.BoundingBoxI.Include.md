@@ -23,9 +23,13 @@ return expanded aabb (abb include point)
 public BoundingBoxI Include(Vector3I point)
 ```
 
+
+
 ### Returns
 
 [BoundingBoxI](VRageMath.BoundingBoxI)
+
+
 
 ### Parameters
 
@@ -36,9 +40,13 @@ public BoundingBoxI Include(Vector3I point)
 public BoundingBoxI Include(Vector3I p0, Vector3I p1, Vector3I p2)
 ```
 
+
+
 ### Returns
 
 [BoundingBoxI](VRageMath.BoundingBoxI)
+
+
 
 ### Parameters
 
@@ -51,9 +59,13 @@ public BoundingBoxI Include(Vector3I p0, Vector3I p1, Vector3I p2)
 public BoundingBoxI Include(ref Vector3I p0, ref Vector3I p1, ref Vector3I p2)
 ```
 
+
+
 ### Returns
 
 [BoundingBoxI](VRageMath.BoundingBoxI)
+
+
 
 ### Parameters
 
@@ -83,9 +95,13 @@ return expanded aabb (abb include point)
 public BoundingBoxI Include(BoundingBoxI box)
 ```
 
+
+
 ### Returns
 
 [BoundingBoxI](VRageMath.BoundingBoxI)
+
+
 
 ### Parameters
 

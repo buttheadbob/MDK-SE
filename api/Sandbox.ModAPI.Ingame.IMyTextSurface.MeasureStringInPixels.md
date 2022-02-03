@@ -12,7 +12,7 @@ Calculates how many pixels a string of a given font and scale will take up.
 
 [Vector2](VRageMath.Vector2)
 
-
+Width and Height of text with specified text, font and scale
 
 ### Parameters
 

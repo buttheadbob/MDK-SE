@@ -6,9 +6,13 @@
 public BoundingBox Transform(Matrix worldMatrix)
 ```
 
+
+
 ### Returns
 
 [BoundingBox](VRageMath.BoundingBox)
+
+
 
 ### Parameters
 
@@ -19,9 +23,13 @@ public BoundingBox Transform(Matrix worldMatrix)
 public BoundingBoxD Transform(MatrixD worldMatrix)
 ```
 
+
+
 ### Returns
 
 [BoundingBoxD](VRageMath.BoundingBoxD)
+
+
 
 ### Parameters
 
@@ -32,9 +40,13 @@ public BoundingBoxD Transform(MatrixD worldMatrix)
 public BoundingBox Transform(ref Matrix m)
 ```
 
+
+
 ### Returns
 
 [BoundingBox](VRageMath.BoundingBox)
+
+
 
 ### Parameters
 
@@ -44,6 +56,8 @@ public BoundingBox Transform(ref Matrix m)
 ```csharp
 public void Transform(ref Matrix m, ref BoundingBox bb)
 ```
+
+
 
 ### Parameters
 
@@ -55,9 +69,13 @@ public void Transform(ref Matrix m, ref BoundingBox bb)
 public BoundingBoxD Transform(ref MatrixD m)
 ```
 
+
+
 ### Returns
 
 [BoundingBoxD](VRageMath.BoundingBoxD)
+
+
 
 ### Parameters
 
@@ -67,6 +85,8 @@ public BoundingBoxD Transform(ref MatrixD m)
 ```csharp
 public void Transform(ref MatrixD m, ref BoundingBoxD bb)
 ```
+
+
 
 ### Parameters
 

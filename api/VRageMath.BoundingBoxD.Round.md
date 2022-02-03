@@ -6,9 +6,13 @@
 public BoundingBoxD Round(int decimals)
 ```
 
+
+
 ### Returns
 
 [BoundingBoxD](VRageMath.BoundingBoxD)
+
+
 
 ### Parameters
 
@@ -19,7 +23,11 @@ public BoundingBoxD Round(int decimals)
 public BoundingBoxI Round()
 ```
 
+
+
 ### Returns
 
 [BoundingBoxI](VRageMath.BoundingBoxI)
+
+
 

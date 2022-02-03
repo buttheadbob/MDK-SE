@@ -30,7 +30,7 @@ Checks if the grid terminal system can still access the given [IMyCubeGrid](VRag
 
 [bool](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean?view=netframework-4.6)
 
-
+False if grid is`null`, closed or you can't access that grid
 
 ### Parameters
 

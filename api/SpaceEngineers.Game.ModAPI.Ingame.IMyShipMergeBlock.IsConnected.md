@@ -6,7 +6,7 @@
 public bool IsConnected { get; }
 ```
 
-Gets if the merge block is connected to another one.
+Gets if the merge block is locked to another one.
 
 ### Returns
 

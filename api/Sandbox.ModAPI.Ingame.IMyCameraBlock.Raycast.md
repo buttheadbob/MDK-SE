@@ -6,13 +6,13 @@
 public MyDetectedEntityInfo Raycast(double distance, float pitch, float yaw)
 ```
 
-Does a raycast in the direction the camera is facing. Pitch and Yaw are in degrees. Will return an empty struct if distance or angle are out of bounds.
+Does a raycast in the direction the camera is facing.
 
 ### Returns
 
 [MyDetectedEntityInfo](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo)
 
-
+Empty if distance or angle are out of bounds.
 
 ### Parameters
 
@@ -25,13 +25,13 @@ Does a raycast in the direction the camera is facing. Pitch and Yaw are in degre
 public MyDetectedEntityInfo Raycast(Vector3D targetPos)
 ```
 
-Does a raycast to the given point. Will return an empty struct if distance or angle are out of bounds.
+Does a raycast to the specific target point.
 
 ### Returns
 
 [MyDetectedEntityInfo](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo)
 
-
+Empty if distance or angle are out of bounds.
 
 ### Parameters
 
@@ -42,13 +42,13 @@ Does a raycast to the given point. Will return an empty struct if distance or an
 public MyDetectedEntityInfo Raycast(double distance, Vector3D targetDirection)
 ```
 
-Does a raycast in the given direction (in camera local space). Will return an empty struct if distance or angle are out of bounds.
+Does a raycast in the given direction (in camera local space).
 
 ### Returns
 
 [MyDetectedEntityInfo](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo)
 
-
+Empty if distance or angle are out of bounds.
 
 ### Parameters
 

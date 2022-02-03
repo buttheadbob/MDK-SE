@@ -6,7 +6,7 @@
 public Vector3D TargetCoords { get; }
 ```
 
-get target coordinates
+Gets target coordinates
 
 ### Returns
 

@@ -12,6 +12,12 @@ A toolkit to help with ingame script (programmable block) development for Keen S
 * Allows real reusable code libraries through the use of Visual Studio's Shared Project
 * Out-of-game script blueprint manager allows you to rename and delete script blueprints without starting the game
 
+### Frequently Asked Questions
+* Can I use this in VSCode?
+  - No. VSCode has nothing in common with Visual Studio but the name.
+* Can I use this in Visual Studio 2022?
+  - Sadly, no. Microsoft made some _major_ changes to Visual Studio this time which means I'd have to maintain two MDK versions. Not an option. I am currently working on MDK2 to remedy this, but I'm currently not really playing SE and as such not scripting much, so my personal motivation isn't great.
+
 Space Engineers is trademarked to Keen Software House. This toolkit is fan-made, and its developer has no relation to Keen Software House.
 
 ## Important Note

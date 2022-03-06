@@ -48,6 +48,6 @@ light.Enabled = !light.Enabled;
 Echo("I have toggled the button!");
 ```
 
-What we are doing here is to set the light's Enabled state (it's on/off button, essentially) to _the opposite_ (as defined by the !) as its current value. This will effectively toggle the button on and off. We're done! Press Check code, then Remember & Exit, and then the Run button, to see what happens (you may need to wait a second or so for the light to catch up to the change).
+What we are doing here is to set the light's Enabled state (its on/off button, essentially) to _the opposite_ (as defined by the !) as its current value. This will effectively toggle the button on and off. We're done! Press Check code, then Remember & Exit, and then the Run button, to see what happens (you may need to wait a second or so for the light to catch up to the change).
 
 That will conclude the first introduction. I have hopes that I - or some contributors - will be able to add further tutorials to help you along the way. In the mean time, again, I point towards [Keen's official Discord](https://discordapp.com/invite/KeenSWH) and the **#programming-in-game** channel.

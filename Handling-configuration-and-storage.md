@@ -125,9 +125,9 @@ public void Main()
     }
 
     // Append the configured text to the text panel
-    _outputPanel.WritePublicText(_textToOutput, true);
+    _outputPanel.WriteText(_textToOutput, true);
     // And then add a newline
-    _outputPanel.WritePublicText("\n", true);
+    _outputPanel.WriteText("\n", true);
 }
 
 ```

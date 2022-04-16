@@ -385,13 +385,13 @@ Describes LCD block (mods interface)
 
 #### Methods
 
-[void AddImagesToSelection(List&lt;string&gt;, bool = default)](Sandbox.ModAPI.Ingame.IMyTextSurface.AddImagesToSelection)
+[void AddImagesToSelection(List&lt;string&gt; ids, bool checkExistence = default)](Sandbox.ModAPI.Ingame.IMyTextSurface.AddImagesToSelection)
 
 > Adds image to list of shown images. You can get image ids by [GetSelectedImages(List<string>)](Sandbox.ModAPI.Ingame.IMyTextSurface.GetSelectedImages)   
 >   
 > _Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_
 
-[void AddImageToSelection(string, bool = default)](Sandbox.ModAPI.Ingame.IMyTextSurface.AddImageToSelection)
+[void AddImageToSelection(string id, bool checkExistence = default)](Sandbox.ModAPI.Ingame.IMyTextSurface.AddImageToSelection)
 
 > Adds image to list of shown images. You can get image ids by [GetSelectedImages(List<string>)](Sandbox.ModAPI.Ingame.IMyTextSurface.GetSelectedImages)   
 >   
@@ -409,19 +409,19 @@ Describes LCD block (mods interface)
 >   
 > _Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_
 
-[void GetActions(List&lt;ITerminalAction&gt;, Func&lt;ITerminalAction, bool&gt; = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)
+[void GetActions(List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)
 
 > Get all terminal actions available for block  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[ITerminalAction GetActionWithName(string)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActionWithName)
+[ITerminalAction GetActionWithName(string name)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActionWithName)
 
 > Get first found terminal action with name  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[void GetFonts(List&lt;string&gt;)](Sandbox.ModAPI.Ingame.IMyTextSurface.GetFonts)
+[void GetFonts(List&lt;string&gt; fonts)](Sandbox.ModAPI.Ingame.IMyTextSurface.GetFonts)
 
 > Gets a list of available fonts  
 >   
@@ -433,7 +433,7 @@ Describes LCD block (mods interface)
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
-[IMyInventory GetInventory(int)](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)
+[IMyInventory GetInventory(int index)](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)
 
 > Search for inventory component with maching index.  
 >   
@@ -467,13 +467,13 @@ Describes LCD block (mods interface)
 
 > _**Obsolete:** LCD private text is deprecated_
 
-[void GetProperties(List&lt;ITerminalProperty&gt;, Func&lt;ITerminalProperty, bool&gt; = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetProperties)
+[void GetProperties(List&lt;ITerminalProperty&gt; resultList, Func&lt;ITerminalProperty, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetProperties)
 
 > Get all terminal actions available for block.  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[ITerminalProperty GetProperty(string)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetProperty)
+[ITerminalProperty GetProperty(string id)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetProperty)
 
 > Finds terminal property with provided id  
 >   
@@ -487,19 +487,19 @@ Describes LCD block (mods interface)
 
 > Gets popup dialog title
 
-[void GetScripts(List&lt;string&gt;)](Sandbox.ModAPI.Ingame.IMyTextSurface.GetScripts)
+[void GetScripts(List&lt;string&gt; scripts)](Sandbox.ModAPI.Ingame.IMyTextSurface.GetScripts)
 
 > Gets a list of available scripts  
 >   
 > _Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_
 
-[void GetSelectedImages(List&lt;string&gt;)](Sandbox.ModAPI.Ingame.IMyTextSurface.GetSelectedImages)
+[void GetSelectedImages(List&lt;string&gt; output)](Sandbox.ModAPI.Ingame.IMyTextSurface.GetSelectedImages)
 
 > Outputs the selected image ids to the specified list. NOTE: List is not cleared internally.  
 >   
 > _Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_
 
-[void GetSprites(List&lt;string&gt;)](Sandbox.ModAPI.Ingame.IMyTextSurface.GetSprites)
+[void GetSprites(List&lt;string&gt; sprites)](Sandbox.ModAPI.Ingame.IMyTextSurface.GetSprites)
 
 > Gets a list of available sprites  
 >   
@@ -511,7 +511,7 @@ Describes LCD block (mods interface)
 >   
 > _Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_
 
-[MyRelationsBetweenPlayerAndBlock GetUserRelationToOwner(long, MyRelationsBetweenPlayerAndBlock = MyRelationsBetweenPlayerAndBlock.NoOwnership)](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetUserRelationToOwner)
+[MyRelationsBetweenPlayerAndBlock GetUserRelationToOwner(long playerId, MyRelationsBetweenPlayerAndBlock defaultNoUser = MyRelationsBetweenPlayerAndBlock.NoOwnership)](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetUserRelationToOwner)
 
 > Gets relation to owner of block  
 >   
@@ -523,13 +523,13 @@ Describes LCD block (mods interface)
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[bool HasPlayerAccess(long, MyRelationsBetweenPlayerAndBlock = MyRelationsBetweenPlayerAndBlock.NoOwnership)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.HasPlayerAccess)
+[bool HasPlayerAccess(long playerId, MyRelationsBetweenPlayerAndBlock defaultNoUser = MyRelationsBetweenPlayerAndBlock.NoOwnership)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.HasPlayerAccess)
 
 > Returns if local player can use block. It is also checking for admin access.  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[bool IsSameConstructAs(IMyTerminalBlock)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.IsSameConstructAs)
+[bool IsSameConstructAs(IMyTerminalBlock other)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.IsSameConstructAs)
 
 > Determines whether this block is [VRage.Game.ModAPI.GridLinkTypeEnum.Mechanical](https://docs.microsoft.com/en-us/dotnet/api/vrage.game.modapi.gridlinktypeenum.mechanical?view=netframework-4.6) connected to the other. This is any block connected with rotors or pistons or other mechanical devices, but not things like connectors. This will in most cases constitute your complete construct.    
 >     
@@ -537,41 +537,41 @@ Describes LCD block (mods interface)
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[Vector2 MeasureStringInPixels(StringBuilder, string, float)](Sandbox.ModAPI.Ingame.IMyTextSurface.MeasureStringInPixels)
+[Vector2 MeasureStringInPixels(StringBuilder text, string font, float scale)](Sandbox.ModAPI.Ingame.IMyTextSurface.MeasureStringInPixels)
 
 > Calculates how many pixels a string of a given font and scale will take up.  
 >   
 > _Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_
 
-[void ReadPublicText(StringBuilder, bool = default)](Sandbox.ModAPI.Ingame.IMyTextPanel.ReadPublicText)
+[void ReadPublicText(StringBuilder buffer, bool append = default)](Sandbox.ModAPI.Ingame.IMyTextPanel.ReadPublicText)
 
 > _**Obsolete:** LCD public text is deprecated_
 
-[void ReadText(StringBuilder, bool = default)](Sandbox.ModAPI.Ingame.IMyTextSurface.ReadText)
+[void ReadText(StringBuilder buffer, bool append = default)](Sandbox.ModAPI.Ingame.IMyTextSurface.ReadText)
 
 > Gets current text that is written on surface.  
 >   
 > _Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_
 
-[void RemoveImageFromSelection(string, bool = default)](Sandbox.ModAPI.Ingame.IMyTextSurface.RemoveImageFromSelection)
+[void RemoveImageFromSelection(string id, bool removeDuplicates = default)](Sandbox.ModAPI.Ingame.IMyTextSurface.RemoveImageFromSelection)
 
 > Removes image from shown images.  
 >   
 > _Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_
 
-[void RemoveImagesFromSelection(List&lt;string&gt;, bool = default)](Sandbox.ModAPI.Ingame.IMyTextSurface.RemoveImagesFromSelection)
+[void RemoveImagesFromSelection(List&lt;string&gt; ids, bool removeDuplicates = default)](Sandbox.ModAPI.Ingame.IMyTextSurface.RemoveImagesFromSelection)
 
 > Removes images from shown images.  
 >   
 > _Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_
 
-[void RequestEnable(bool)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)
+[void RequestEnable(bool enable)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)
 
 > _**Obsolete:** Use the setter of Enabled_  
 >   
 > _Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_
 
-[void SearchActionsOfName(string, List&lt;ITerminalAction&gt;, Func&lt;ITerminalAction, bool&gt; = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SearchActionsOfName)
+[void SearchActionsOfName(string name, List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SearchActionsOfName)
 
 > Get all terminal actions available for block. NOTE: First called `    
 >     
@@ -581,19 +581,19 @@ Describes LCD block (mods interface)
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[void SetCustomName(string)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)
+[void SetCustomName(string text)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)
 
 > _**Obsolete:** Use the setter of Customname_  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[void SetCustomName(StringBuilder)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)
+[void SetCustomName(StringBuilder text)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)
 
 > _**Obsolete:** Use the setter of Customname_  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[void SetShowOnScreen(ShowTextOnScreenFlag)](Sandbox.ModAPI.Ingame.IMyTextPanel.SetShowOnScreen)
+[void SetShowOnScreen(ShowTextOnScreenFlag set)](Sandbox.ModAPI.Ingame.IMyTextPanel.SetShowOnScreen)
 
 > _**Obsolete:** LCD public text is deprecated_
 
@@ -625,33 +625,33 @@ Describes LCD block (mods interface)
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[bool WritePrivateText(string, bool = default)](Sandbox.ModAPI.Ingame.IMyTextPanel.WritePrivateText)
+[bool WritePrivateText(string value, bool append = default)](Sandbox.ModAPI.Ingame.IMyTextPanel.WritePrivateText)
 
 > _**Obsolete:** LCD private text is deprecated_
 
-[bool WritePrivateTitle(string, bool = default)](Sandbox.ModAPI.Ingame.IMyTextPanel.WritePrivateTitle)
+[bool WritePrivateTitle(string value, bool append = default)](Sandbox.ModAPI.Ingame.IMyTextPanel.WritePrivateTitle)
 
 > _**Obsolete:** LCD private text is deprecated_
 
-[bool WritePublicText(string, bool = default)](Sandbox.ModAPI.Ingame.IMyTextPanel.WritePublicText)
+[bool WritePublicText(string value, bool append = default)](Sandbox.ModAPI.Ingame.IMyTextPanel.WritePublicText)
 
 > _**Obsolete:** LCD public text is deprecated_
 
-[bool WritePublicText(StringBuilder, bool = default)](Sandbox.ModAPI.Ingame.IMyTextPanel.WritePublicText)
+[bool WritePublicText(StringBuilder value, bool append = default)](Sandbox.ModAPI.Ingame.IMyTextPanel.WritePublicText)
 
 > _**Obsolete:** LCD public text is deprecated_
 
-[bool WritePublicTitle(string, bool = default)](Sandbox.ModAPI.Ingame.IMyTextPanel.WritePublicTitle)
+[bool WritePublicTitle(string value, bool append = default)](Sandbox.ModAPI.Ingame.IMyTextPanel.WritePublicTitle)
 
 > Writes LCD popup dialog title If somebody opened LCD text in popup dialog, text can no longer be added.
 
-[bool WriteText(string, bool = default)](Sandbox.ModAPI.Ingame.IMyTextSurface.WriteText)
+[bool WriteText(string value, bool append = default)](Sandbox.ModAPI.Ingame.IMyTextSurface.WriteText)
 
 > Writes text to surface. If somebody opened LCD text in popup dialog, text can no longer be added to the surface. Resulting text must is capped with 100000 symbols  
 >   
 > _Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_
 
-[bool WriteText(StringBuilder, bool = default)](Sandbox.ModAPI.Ingame.IMyTextSurface.WriteText)
+[bool WriteText(StringBuilder value, bool append = default)](Sandbox.ModAPI.Ingame.IMyTextSurface.WriteText)
 
 > Writes text to surface. If somebody opened LCD text in popup dialog, text can no longer be added to the surface. Resulting text must is capped with 100000 symbols  
 >   

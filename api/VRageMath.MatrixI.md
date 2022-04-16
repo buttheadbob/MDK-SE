@@ -67,45 +67,45 @@ public struct MatrixI
 
 #### Constructors
 
-[MatrixI(ref Vector3I, Direction, Direction)](VRageMath.MatrixI..ctor)
+[MatrixI(ref Vector3I position, Direction forward, Direction up)](VRageMath.MatrixI..ctor)
 
 > 
 
-[MatrixI(Vector3I, Direction, Direction)](VRageMath.MatrixI..ctor)
+[MatrixI(Vector3I position, Direction forward, Direction up)](VRageMath.MatrixI..ctor)
 
 > 
 
-[MatrixI(Direction, Direction)](VRageMath.MatrixI..ctor)
+[MatrixI(Direction forward, Direction up)](VRageMath.MatrixI..ctor)
 
 > 
 
-[MatrixI(ref Vector3I, ref Vector3I, ref Vector3I)](VRageMath.MatrixI..ctor)
+[MatrixI(ref Vector3I position, ref Vector3I forward, ref Vector3I up)](VRageMath.MatrixI..ctor)
 
 > 
 
-[MatrixI(ref Vector3I, ref Vector3, ref Vector3)](VRageMath.MatrixI..ctor)
+[MatrixI(ref Vector3I position, ref Vector3 forward, ref Vector3 up)](VRageMath.MatrixI..ctor)
 
 > 
 
-[MatrixI(MyBlockOrientation)](VRageMath.MatrixI..ctor)
+[MatrixI(MyBlockOrientation orientation)](VRageMath.MatrixI..ctor)
 
 > 
 
 #### Methods
 
-[static MatrixI CreateRotation(Direction, Direction, Direction, Direction)](VRageMath.MatrixI.CreateRotation)
+[static MatrixI CreateRotation(Direction oldA, Direction oldB, Direction newA, Direction newB)](VRageMath.MatrixI.CreateRotation)
 
 > 
 
-[static void Invert(ref MatrixI, out MatrixI)](VRageMath.MatrixI.Invert)
+[static void Invert(ref MatrixI matrix, out MatrixI result)](VRageMath.MatrixI.Invert)
 
 > 
 
-[static void Multiply(ref MatrixI, ref MatrixI, out MatrixI)](VRageMath.MatrixI.Multiply)
+[static void Multiply(ref MatrixI leftMatrix, ref MatrixI rightMatrix, out MatrixI result)](VRageMath.MatrixI.Multiply)
 
 > 
 
-[static MyBlockOrientation Transform(ref MyBlockOrientation, ref MatrixI)](VRageMath.MatrixI.Transform)
+[static MyBlockOrientation Transform(ref MyBlockOrientation orientation, ref MatrixI transform)](VRageMath.MatrixI.Transform)
 
 > 
 
@@ -113,7 +113,7 @@ public struct MatrixI
 
 > 
 
-[Direction GetDirection(Direction)](VRageMath.MatrixI.GetDirection)
+[Direction GetDirection(Direction direction)](VRageMath.MatrixI.GetDirection)
 
 > 
 
@@ -121,7 +121,7 @@ public struct MatrixI
 
 > 
 
-[void SetDirection(Direction, Direction)](VRageMath.MatrixI.SetDirection)
+[void SetDirection(Direction dirToSet, Direction newDirection)](VRageMath.MatrixI.SetDirection)
 
 > 
 

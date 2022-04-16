@@ -165,7 +165,7 @@ Interface for all entities. (PB scripting interface)
 
 > Simply get the MyInventoryBase component stored in this entity.
 
-[IMyInventory GetInventory(int)](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)
+[IMyInventory GetInventory(int index)](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)
 
 > Search for inventory component with maching index.
 

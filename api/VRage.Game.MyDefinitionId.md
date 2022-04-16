@@ -36,45 +36,45 @@ Prefer getting definition ID using object builder used to create the item. If yo
 
 #### Constructors
 
-[MyDefinitionId(MyObjectBuilderType)](VRage.Game.MyDefinitionId..ctor)
+[MyDefinitionId(MyObjectBuilderType type)](VRage.Game.MyDefinitionId..ctor)
 
 > 
 
-[MyDefinitionId(MyObjectBuilderType, string)](VRage.Game.MyDefinitionId..ctor)
+[MyDefinitionId(MyObjectBuilderType type, string subtypeName)](VRage.Game.MyDefinitionId..ctor)
 
 > 
 
-[MyDefinitionId(MyObjectBuilderType, MyStringHash)](VRage.Game.MyDefinitionId..ctor)
+[MyDefinitionId(MyObjectBuilderType type, MyStringHash subtypeId)](VRage.Game.MyDefinitionId..ctor)
 
 > 
 
-[MyDefinitionId(MyRuntimeObjectBuilderId, MyStringHash)](VRage.Game.MyDefinitionId..ctor)
+[MyDefinitionId(MyRuntimeObjectBuilderId type, MyStringHash subtypeId)](VRage.Game.MyDefinitionId..ctor)
 
 > 
 
 #### Methods
 
-[static MyDefinitionId FromContent(MyObjectBuilder_Base)](VRage.Game.MyDefinitionId.FromContent)
+[static MyDefinitionId FromContent(MyObjectBuilder_Base content)](VRage.Game.MyDefinitionId.FromContent)
 
 > Creates a new definition ID from a given content.
 
-[static MyDefinitionId Parse(string)](VRage.Game.MyDefinitionId.Parse)
+[static MyDefinitionId Parse(string id)](VRage.Game.MyDefinitionId.Parse)
 
 > Attempts to create a definition ID from a definition string, which has the form (using ores as an example) "MyObjectBuilder_Ore/Iron". The first part must represent an existing type. If it does not, an exception will be thrown. The second (the subtype) is not enforced. See TryParse for a parsing method that does not throw an exception.
 
-[static bool TryParse(string, out MyDefinitionId)](VRage.Game.MyDefinitionId.TryParse)
+[static bool TryParse(string id, out MyDefinitionId definitionId)](VRage.Game.MyDefinitionId.TryParse)
 
 > Attempts to create a definition ID from a definition string, which has the form (using ores as an example) "MyObjectBuilder_Ore/Iron". The first part must represent an existing type, while the second (the subtype) is not enforced.
 
-[static bool TryParse(string, string, out MyDefinitionId)](VRage.Game.MyDefinitionId.TryParse)
+[static bool TryParse(string type, string subtype, out MyDefinitionId definitionId)](VRage.Game.MyDefinitionId.TryParse)
 
 > 
 
-[bool Equals(object)](VRage.Game.MyDefinitionId.Equals)
+[bool Equals(object obj)](VRage.Game.MyDefinitionId.Equals)
 
 > 
 
-[bool Equals(MyDefinitionId)](VRage.Game.MyDefinitionId.Equals)
+[bool Equals(MyDefinitionId other)](VRage.Game.MyDefinitionId.Equals)
 
 > 
 

@@ -112,453 +112,453 @@ Defines a vector with three components.
 
 #### Constructors
 
-[Vector3(float, float, float)](VRageMath.Vector3..ctor)
+[Vector3(float x, float y, float z)](VRageMath.Vector3..ctor)
 
 > 
 
-[Vector3(double, double, double)](VRageMath.Vector3..ctor)
+[Vector3(double x, double y, double z)](VRageMath.Vector3..ctor)
 
 > 
 
-[Vector3(float)](VRageMath.Vector3..ctor)
+[Vector3(float value)](VRageMath.Vector3..ctor)
 
 > 
 
-[Vector3(Vector2, float)](VRageMath.Vector3..ctor)
+[Vector3(Vector2 value, float z)](VRageMath.Vector3..ctor)
 
 > 
 
-[Vector3(Vector4)](VRageMath.Vector3..ctor)
+[Vector3(Vector4 xyz)](VRageMath.Vector3..ctor)
 
 > 
 
-[Vector3(ref Vector3I)](VRageMath.Vector3..ctor)
+[Vector3(ref Vector3I value)](VRageMath.Vector3..ctor)
 
 > 
 
-[Vector3(Vector3I)](VRageMath.Vector3..ctor)
+[Vector3(Vector3I value)](VRageMath.Vector3..ctor)
 
 > 
 
 #### Methods
 
-[static Vector3 Abs(Vector3)](VRageMath.Vector3.Abs)
+[static Vector3 Abs(Vector3 value)](VRageMath.Vector3.Abs)
 
 > 
 
-[static Vector3 Add(Vector3, Vector3)](VRageMath.Vector3.Add)
+[static Vector3 Add(Vector3 value1, Vector3 value2)](VRageMath.Vector3.Add)
 
 > Adds two vectors.
 
-[static void Add(ref Vector3, ref Vector3, out Vector3)](VRageMath.Vector3.Add)
+[static void Add(ref Vector3 value1, ref Vector3 value2, out Vector3 result)](VRageMath.Vector3.Add)
 
 > Adds two vectors.
 
-[static bool ArePerpendicular(ref Vector3, ref Vector3)](VRageMath.Vector3.ArePerpendicular)
+[static bool ArePerpendicular(ref Vector3 a, ref Vector3 b)](VRageMath.Vector3.ArePerpendicular)
 
 > 
 
-[static bool ArePerpendicular(Vector3, Vector3)](VRageMath.Vector3.ArePerpendicular)
+[static bool ArePerpendicular(Vector3 a, Vector3 b)](VRageMath.Vector3.ArePerpendicular)
 
 > 
 
-[static Vector3 Barycentric(Vector3, Vector3, Vector3, float, float)](VRageMath.Vector3.Barycentric)
+[static Vector3 Barycentric(Vector3 value1, Vector3 value2, Vector3 value3, float amount1, float amount2)](VRageMath.Vector3.Barycentric)
 
 > Returns a Vector3 containing the 3D Cartesian coordinates of a point specified in Barycentric coordinates relative to a 3D triangle.
 
-[static void Barycentric(ref Vector3, ref Vector3, ref Vector3, float, float, out Vector3)](VRageMath.Vector3.Barycentric)
+[static void Barycentric(ref Vector3 value1, ref Vector3 value2, ref Vector3 value3, float amount1, float amount2, out Vector3 result)](VRageMath.Vector3.Barycentric)
 
 > Returns a Vector3 containing the 3D Cartesian coordinates of a point specified in barycentric (areal) coordinates relative to a 3D triangle.
 
-[static void Barycentric(Vector3, Vector3, Vector3, Vector3, out float, out float, out float)](VRageMath.Vector3.Barycentric)
+[static void Barycentric(Vector3 p, Vector3 a, Vector3 b, Vector3 c, out float u, out float v, out float w)](VRageMath.Vector3.Barycentric)
 
 > Compute barycentric coordinates (u, v, w) for point p with respect to triangle (a, b, c) From : Real-Time Collision Detection, Christer Ericson, CRC Press 3.4 Barycentric Coordinates
 
-[static Vector3 CalculatePerpendicularVector(Vector3)](VRageMath.Vector3.CalculatePerpendicularVector)
+[static Vector3 CalculatePerpendicularVector(Vector3 v)](VRageMath.Vector3.CalculatePerpendicularVector)
 
 > 
 
-[static Vector3 CatmullRom(Vector3, Vector3, Vector3, Vector3, float)](VRageMath.Vector3.CatmullRom)
+[static Vector3 CatmullRom(Vector3 value1, Vector3 value2, Vector3 value3, Vector3 value4, float amount)](VRageMath.Vector3.CatmullRom)
 
 > Performs a Catmull-Rom interpolation using the specified positions.
 
-[static void CatmullRom(ref Vector3, ref Vector3, ref Vector3, ref Vector3, float, out Vector3)](VRageMath.Vector3.CatmullRom)
+[static void CatmullRom(ref Vector3 value1, ref Vector3 value2, ref Vector3 value3, ref Vector3 value4, float amount, out Vector3 result)](VRageMath.Vector3.CatmullRom)
 
 > Performs a Catmull-Rom interpolation using the specified positions.
 
-[static Vector3 Ceiling(Vector3)](VRageMath.Vector3.Ceiling)
+[static Vector3 Ceiling(Vector3 v)](VRageMath.Vector3.Ceiling)
 
 > 
 
-[static Vector3 Clamp(Vector3, Vector3, Vector3)](VRageMath.Vector3.Clamp)
+[static Vector3 Clamp(Vector3 value1, Vector3 min, Vector3 max)](VRageMath.Vector3.Clamp)
 
 > Restricts a value to be within a specified range.
 
-[static void Clamp(ref Vector3, ref Vector3, ref Vector3, out Vector3)](VRageMath.Vector3.Clamp)
+[static void Clamp(ref Vector3 value1, ref Vector3 min, ref Vector3 max, out Vector3 result)](VRageMath.Vector3.Clamp)
 
 > Restricts a value to be within a specified range.
 
-[static Vector3 ClampToSphere(Vector3, float)](VRageMath.Vector3.ClampToSphere)
+[static Vector3 ClampToSphere(Vector3 vector, float radius)](VRageMath.Vector3.ClampToSphere)
 
 > 
 
-[static void ClampToSphere(ref Vector3, float)](VRageMath.Vector3.ClampToSphere)
+[static void ClampToSphere(ref Vector3 vector, float radius)](VRageMath.Vector3.ClampToSphere)
 
 > 
 
-[static void CreateFromAzimuthAndElevation(float, float, out Vector3)](VRageMath.Vector3.CreateFromAzimuthAndElevation)
+[static void CreateFromAzimuthAndElevation(float azimuth, float elevation, out Vector3 direction)](VRageMath.Vector3.CreateFromAzimuthAndElevation)
 
 > 
 
-[static Vector3 Cross(Vector3, Vector3)](VRageMath.Vector3.Cross)
+[static Vector3 Cross(Vector3 vector1, Vector3 vector2)](VRageMath.Vector3.Cross)
 
 > Calculates the cross product of two vectors.
 
-[static void Cross(ref Vector3, ref Vector3, out Vector3)](VRageMath.Vector3.Cross)
+[static void Cross(ref Vector3 vector1, ref Vector3 vector2, out Vector3 result)](VRageMath.Vector3.Cross)
 
 > Calculates the cross product of two vectors.
 
-[static float Distance(Vector3, Vector3)](VRageMath.Vector3.Distance)
+[static float Distance(Vector3 value1, Vector3 value2)](VRageMath.Vector3.Distance)
 
 > Calculates the distance between two vectors.
 
-[static void Distance(ref Vector3, ref Vector3, out float)](VRageMath.Vector3.Distance)
+[static void Distance(ref Vector3 value1, ref Vector3 value2, out float result)](VRageMath.Vector3.Distance)
 
 > Calculates the distance between two vectors.
 
-[static float DistanceSquared(Vector3, Vector3)](VRageMath.Vector3.DistanceSquared)
+[static float DistanceSquared(Vector3 value1, Vector3 value2)](VRageMath.Vector3.DistanceSquared)
 
 > Calculates the distance between two vectors squared.
 
-[static void DistanceSquared(ref Vector3, ref Vector3, out float)](VRageMath.Vector3.DistanceSquared)
+[static void DistanceSquared(ref Vector3 value1, ref Vector3 value2, out float result)](VRageMath.Vector3.DistanceSquared)
 
 > Calculates the distance between two vectors squared.
 
-[static Vector3 Divide(Vector3, Vector3)](VRageMath.Vector3.Divide)
+[static Vector3 Divide(Vector3 value1, Vector3 value2)](VRageMath.Vector3.Divide)
 
 > Divides the components of a vector by the components of another vector.
 
-[static void Divide(ref Vector3, ref Vector3, out Vector3)](VRageMath.Vector3.Divide)
+[static void Divide(ref Vector3 value1, ref Vector3 value2, out Vector3 result)](VRageMath.Vector3.Divide)
 
 > Divides the components of a vector by the components of another vector.
 
-[static Vector3 Divide(Vector3, float)](VRageMath.Vector3.Divide)
+[static Vector3 Divide(Vector3 value1, float value2)](VRageMath.Vector3.Divide)
 
 > Divides a vector by a scalar value.
 
-[static void Divide(ref Vector3, float, out Vector3)](VRageMath.Vector3.Divide)
+[static void Divide(ref Vector3 value1, float value2, out Vector3 result)](VRageMath.Vector3.Divide)
 
 > Divides a vector by a scalar value.
 
-[static Vector3 DominantAxisProjection(Vector3)](VRageMath.Vector3.DominantAxisProjection)
+[static Vector3 DominantAxisProjection(Vector3 value1)](VRageMath.Vector3.DominantAxisProjection)
 
 > Returns a vector that is equal to the projection of the input vector to the coordinate axis that corresponds to the original vector's largest value.
 
-[static void DominantAxisProjection(ref Vector3, out Vector3)](VRageMath.Vector3.DominantAxisProjection)
+[static void DominantAxisProjection(ref Vector3 value1, out Vector3 result)](VRageMath.Vector3.DominantAxisProjection)
 
 > Calculates a vector that is equal to the projection of the input vector to the coordinate axis that corresponds to the original vector's largest value. The result is saved into a user-specified variable.
 
-[static float Dot(Vector3, Vector3)](VRageMath.Vector3.Dot)
+[static float Dot(Vector3 vector1, Vector3 vector2)](VRageMath.Vector3.Dot)
 
 > Calculates the dot product of two vectors. If the two vectors are unit vectors, the dot product returns a floating point value between -1 and 1 that can be used to determine some properties of the angle between two vectors. For example, it can show whether the vectors are orthogonal, parallel, or have an acute or obtuse angle between them.
 
-[static void Dot(ref Vector3, ref Vector3, out float)](VRageMath.Vector3.Dot)
+[static void Dot(ref Vector3 vector1, ref Vector3 vector2, out float result)](VRageMath.Vector3.Dot)
 
 > Calculates the dot product of two vectors and writes the result to a user-specified variable. If the two vectors are unit vectors, the dot product returns a floating point value between -1 and 1 that can be used to determine some properties of the angle between two vectors. For example, it can show whether the vectors are orthogonal, parallel, or have an acute or obtuse angle between them.
 
-[static Vector3 Floor(Vector3)](VRageMath.Vector3.Floor)
+[static Vector3 Floor(Vector3 v)](VRageMath.Vector3.Floor)
 
 > 
 
-[static void GetAzimuthAndElevation(Vector3, out float, out float)](VRageMath.Vector3.GetAzimuthAndElevation)
+[static void GetAzimuthAndElevation(Vector3 v, out float azimuth, out float elevation)](VRageMath.Vector3.GetAzimuthAndElevation)
 
 > 
 
-[static bool GetNormalized(ref Vector3)](VRageMath.Vector3.GetNormalized)
+[static bool GetNormalized(ref Vector3 value)](VRageMath.Vector3.GetNormalized)
 
 > 
 
-[static Vector3 Hermite(Vector3, Vector3, Vector3, Vector3, float)](VRageMath.Vector3.Hermite)
+[static Vector3 Hermite(Vector3 value1, Vector3 tangent1, Vector3 value2, Vector3 tangent2, float amount)](VRageMath.Vector3.Hermite)
 
 > Performs a Hermite spline interpolation.
 
-[static void Hermite(ref Vector3, ref Vector3, ref Vector3, ref Vector3, float, out Vector3)](VRageMath.Vector3.Hermite)
+[static void Hermite(ref Vector3 value1, ref Vector3 tangent1, ref Vector3 value2, ref Vector3 tangent2, float amount, out Vector3 result)](VRageMath.Vector3.Hermite)
 
 > Performs a Hermite spline interpolation.
 
-[static bool IsUnit(ref Vector3)](VRageMath.Vector3.IsUnit)
+[static bool IsUnit(ref Vector3 value)](VRageMath.Vector3.IsUnit)
 
 > 
 
-[static bool IsZero(ref Vector3)](VRageMath.Vector3.IsZero)
+[static bool IsZero(ref Vector3 vec)](VRageMath.Vector3.IsZero)
 
 > 
 
-[static bool IsZero(Vector3)](VRageMath.Vector3.IsZero)
+[static bool IsZero(Vector3 value)](VRageMath.Vector3.IsZero)
 
 > 
 
-[static bool IsZero(Vector3, float)](VRageMath.Vector3.IsZero)
+[static bool IsZero(Vector3 value, float epsilon)](VRageMath.Vector3.IsZero)
 
 > 
 
-[static Vector3 IsZeroVector(Vector3)](VRageMath.Vector3.IsZeroVector)
+[static Vector3 IsZeroVector(Vector3 value)](VRageMath.Vector3.IsZeroVector)
 
 > 
 
-[static Vector3 IsZeroVector(Vector3, float)](VRageMath.Vector3.IsZeroVector)
+[static Vector3 IsZeroVector(Vector3 value, float epsilon)](VRageMath.Vector3.IsZeroVector)
 
 > 
 
-[static Vector3 Lerp(Vector3, Vector3, float)](VRageMath.Vector3.Lerp)
+[static Vector3 Lerp(Vector3 value1, Vector3 value2, float amount)](VRageMath.Vector3.Lerp)
 
 > Performs a linear interpolation between two vectors.
 
-[static void Lerp(ref Vector3, ref Vector3, float, out Vector3)](VRageMath.Vector3.Lerp)
+[static void Lerp(ref Vector3 value1, ref Vector3 value2, float amount, out Vector3 result)](VRageMath.Vector3.Lerp)
 
 > Performs a linear interpolation between two vectors.
 
-[static Vector3 Max(Vector3, Vector3)](VRageMath.Vector3.Max)
+[static Vector3 Max(Vector3 value1, Vector3 value2)](VRageMath.Vector3.Max)
 
 > Returns a vector that contains the highest value from each matching pair of components.
 
-[static void Max(ref Vector3, ref Vector3, out Vector3)](VRageMath.Vector3.Max)
+[static void Max(ref Vector3 value1, ref Vector3 value2, out Vector3 result)](VRageMath.Vector3.Max)
 
 > Returns a vector that contains the highest value from each matching pair of components.
 
-[static Vector3 Min(Vector3, Vector3)](VRageMath.Vector3.Min)
+[static Vector3 Min(Vector3 value1, Vector3 value2)](VRageMath.Vector3.Min)
 
 > Returns a vector that contains the lowest value from each matching pair of components.
 
-[static void Min(ref Vector3, ref Vector3, out Vector3)](VRageMath.Vector3.Min)
+[static void Min(ref Vector3 value1, ref Vector3 value2, out Vector3 result)](VRageMath.Vector3.Min)
 
 > Returns a vector that contains the lowest value from each matching pair of components.
 
-[static void MinMax(ref Vector3, ref Vector3)](VRageMath.Vector3.MinMax)
+[static void MinMax(ref Vector3 min, ref Vector3 max)](VRageMath.Vector3.MinMax)
 
 > Separates minimal and maximal values of any two input vectors
 
-[static Vector3 Multiply(Vector3, Vector3)](VRageMath.Vector3.Multiply)
+[static Vector3 Multiply(Vector3 value1, Vector3 value2)](VRageMath.Vector3.Multiply)
 
 > Multiplies the components of two vectors by each other.
 
-[static void Multiply(ref Vector3, ref Vector3, out Vector3)](VRageMath.Vector3.Multiply)
+[static void Multiply(ref Vector3 value1, ref Vector3 value2, out Vector3 result)](VRageMath.Vector3.Multiply)
 
 > Multiplies the components of two vectors by each other.
 
-[static Vector3 Multiply(Vector3, float)](VRageMath.Vector3.Multiply)
+[static Vector3 Multiply(Vector3 value1, float scaleFactor)](VRageMath.Vector3.Multiply)
 
 > Multiplies a vector by a scalar value.
 
-[static void Multiply(ref Vector3, float, out Vector3)](VRageMath.Vector3.Multiply)
+[static void Multiply(ref Vector3 value1, float scaleFactor, out Vector3 result)](VRageMath.Vector3.Multiply)
 
 > Multiplies a vector by a scalar value.
 
-[static Vector3 Negate(Vector3)](VRageMath.Vector3.Negate)
+[static Vector3 Negate(Vector3 value)](VRageMath.Vector3.Negate)
 
 > Returns a vector pointing in the opposite direction.
 
-[static void Negate(ref Vector3, out Vector3)](VRageMath.Vector3.Negate)
+[static void Negate(ref Vector3 value, out Vector3 result)](VRageMath.Vector3.Negate)
 
 > Returns a vector pointing in the opposite direction.
 
-[static Vector3 Normalize(Vector3)](VRageMath.Vector3.Normalize)
+[static Vector3 Normalize(Vector3 value)](VRageMath.Vector3.Normalize)
 
 > Creates a unit vector from the specified vector. The result is a vector one unit in length pointing in the same direction as the original vector.
 
-[static Vector3 Normalize(Vector3D)](VRageMath.Vector3.Normalize)
+[static Vector3 Normalize(Vector3D value)](VRageMath.Vector3.Normalize)
 
 > 
 
-[static void Normalize(ref Vector3, out Vector3)](VRageMath.Vector3.Normalize)
+[static void Normalize(ref Vector3 value, out Vector3 result)](VRageMath.Vector3.Normalize)
 
 > Creates a unit vector from the specified vector, writing the result to a user-specified variable. The result is a vector one unit in length pointing in the same direction as the original vector.
 
-[static Vector3 ProjectOnPlane(ref Vector3, ref Vector3)](VRageMath.Vector3.ProjectOnPlane)
+[static Vector3 ProjectOnPlane(ref Vector3 vec, ref Vector3 planeNormal)](VRageMath.Vector3.ProjectOnPlane)
 
 > Projects given vector on plane specified by it's normal.
 
-[static Vector3 ProjectOnVector(ref Vector3, ref Vector3)](VRageMath.Vector3.ProjectOnVector)
+[static Vector3 ProjectOnVector(ref Vector3 vec, ref Vector3 guideVector)](VRageMath.Vector3.ProjectOnVector)
 
 > Projects vector on another vector resulting in new vector in guided vector's direction with different length.
 
-[static float RectangularDistance(Vector3, Vector3)](VRageMath.Vector3.RectangularDistance)
+[static float RectangularDistance(Vector3 value1, Vector3 value2)](VRageMath.Vector3.RectangularDistance)
 
 > Calculates rectangular distance (a.k.a. Manhattan distance or Chessboard distace) between two vectors.
 
-[static float RectangularDistance(ref Vector3, ref Vector3)](VRageMath.Vector3.RectangularDistance)
+[static float RectangularDistance(ref Vector3 value1, ref Vector3 value2)](VRageMath.Vector3.RectangularDistance)
 
 > Calculates rectangular distance (a.k.a. Manhattan distance or Chessboard distace) between two vectors.
 
-[static Vector3 Reflect(Vector3, Vector3)](VRageMath.Vector3.Reflect)
+[static Vector3 Reflect(Vector3 vector, Vector3 normal)](VRageMath.Vector3.Reflect)
 
 > Returns the reflection of a vector off a surface that has the specified normal. Reference page contains code sample.
 
-[static void Reflect(ref Vector3, ref Vector3, out Vector3)](VRageMath.Vector3.Reflect)
+[static void Reflect(ref Vector3 vector, ref Vector3 normal, out Vector3 result)](VRageMath.Vector3.Reflect)
 
 > Returns the reflection of a vector off a surface that has the specified normal. Reference page contains code sample.
 
-[static Vector3 Reject(Vector3, Vector3)](VRageMath.Vector3.Reject)
+[static Vector3 Reject(Vector3 vector, Vector3 direction)](VRageMath.Vector3.Reject)
 
 > Returns the rejection of vector from direction, i.e. projection of vector onto the plane defined by origin and direction
 
-[static void Reject(ref Vector3, ref Vector3, out Vector3)](VRageMath.Vector3.Reject)
+[static void Reject(ref Vector3 vector, ref Vector3 direction, out Vector3 result)](VRageMath.Vector3.Reject)
 
 > Returns the rejection of vector from direction, i.e. projection of vector onto the plane defined by origin and direction
 
-[static void RotateAndScale(ref Vector3, ref Matrix, out Vector3)](VRageMath.Vector3.RotateAndScale)
+[static void RotateAndScale(ref Vector3 vector, ref Matrix matrix, out Vector3 result)](VRageMath.Vector3.RotateAndScale)
 
 > 
 
-[static Vector3 RotateAndScale(Vector3, Matrix)](VRageMath.Vector3.RotateAndScale)
+[static Vector3 RotateAndScale(Vector3 vector, Matrix matrix)](VRageMath.Vector3.RotateAndScale)
 
 > 
 
-[static Vector3 Round(Vector3)](VRageMath.Vector3.Round)
+[static Vector3 Round(Vector3 v)](VRageMath.Vector3.Round)
 
 > 
 
-[static Vector3 Round(Vector3, int)](VRageMath.Vector3.Round)
+[static Vector3 Round(Vector3 v, int numDecimals)](VRageMath.Vector3.Round)
 
 > 
 
-[static Vector3 Sign(Vector3)](VRageMath.Vector3.Sign)
+[static Vector3 Sign(Vector3 value)](VRageMath.Vector3.Sign)
 
 > 
 
-[static Vector3 Sign(Vector3, float)](VRageMath.Vector3.Sign)
+[static Vector3 Sign(Vector3 value, float epsilon)](VRageMath.Vector3.Sign)
 
 > 
 
-[static Vector3 SignNonZero(Vector3)](VRageMath.Vector3.SignNonZero)
+[static Vector3 SignNonZero(Vector3 value)](VRageMath.Vector3.SignNonZero)
 
 > Returns per component sign, never returns zero. For zero component returns sign 1. Faster than Sign.
 
-[static Vector3 SmoothStep(Vector3, Vector3, float)](VRageMath.Vector3.SmoothStep)
+[static Vector3 SmoothStep(Vector3 value1, Vector3 value2, float amount)](VRageMath.Vector3.SmoothStep)
 
 > Interpolates between two values using a cubic equation.
 
-[static void SmoothStep(ref Vector3, ref Vector3, float, out Vector3)](VRageMath.Vector3.SmoothStep)
+[static void SmoothStep(ref Vector3 value1, ref Vector3 value2, float amount, out Vector3 result)](VRageMath.Vector3.SmoothStep)
 
 > Interpolates between two values using a cubic equation.
 
-[static Vector3 Step(Vector3)](VRageMath.Vector3.Step)
+[static Vector3 Step(Vector3 value)](VRageMath.Vector3.Step)
 
 > 
 
-[static Vector3 Subtract(Vector3, Vector3)](VRageMath.Vector3.Subtract)
+[static Vector3 Subtract(Vector3 value1, Vector3 value2)](VRageMath.Vector3.Subtract)
 
 > Subtracts a vector from a vector.
 
-[static void Subtract(ref Vector3, ref Vector3, out Vector3)](VRageMath.Vector3.Subtract)
+[static void Subtract(ref Vector3 value1, ref Vector3 value2, out Vector3 result)](VRageMath.Vector3.Subtract)
 
 > Subtracts a vector from a vector.
 
-[static Vector3 SwapYZCoordinates(Vector3)](VRageMath.Vector3.SwapYZCoordinates)
+[static Vector3 SwapYZCoordinates(Vector3 v)](VRageMath.Vector3.SwapYZCoordinates)
 
 > 
 
-[static Vector3 Transform(Vector3, Matrix)](VRageMath.Vector3.Transform)
+[static Vector3 Transform(Vector3 position, Matrix matrix)](VRageMath.Vector3.Transform)
 
 > Transforms a 3D vector by the given matrix.
 
-[static Vector3D Transform(Vector3, MatrixD)](VRageMath.Vector3.Transform)
+[static Vector3D Transform(Vector3 position, MatrixD matrix)](VRageMath.Vector3.Transform)
 
 > Transforms a 3D vector by the given matrix.
 
-[static Vector3 Transform(Vector3, ref Matrix)](VRageMath.Vector3.Transform)
+[static Vector3 Transform(Vector3 position, ref Matrix matrix)](VRageMath.Vector3.Transform)
 
 > 
 
-[static void Transform(ref Vector3, ref Matrix, out Vector3)](VRageMath.Vector3.Transform)
+[static void Transform(ref Vector3 position, ref Matrix matrix, out Vector3 result)](VRageMath.Vector3.Transform)
 
 > Transforms a Vector3 by the given Matrix.
 
-[static void Transform(ref Vector3, ref MatrixI, out Vector3)](VRageMath.Vector3.Transform)
+[static void Transform(ref Vector3 position, ref MatrixI matrix, out Vector3 result)](VRageMath.Vector3.Transform)
 
 > 
 
-[static Vector3 Transform(Vector3, Quaternion)](VRageMath.Vector3.Transform)
+[static Vector3 Transform(Vector3 value, Quaternion rotation)](VRageMath.Vector3.Transform)
 
 > Transforms a Vector3 by a specified Quaternion rotation.
 
-[static void Transform(ref Vector3, ref Quaternion, out Vector3)](VRageMath.Vector3.Transform)
+[static void Transform(ref Vector3 value, ref Quaternion rotation, out Vector3 result)](VRageMath.Vector3.Transform)
 
 > Transforms a Vector3 by a specified Quaternion rotation.
 
-[static void Transform(Vector3&#91&#93;, ref Matrix, Vector3&#91&#93;)](VRageMath.Vector3.Transform)
+[static void Transform(Vector3&#91&#93; sourceArray, ref Matrix matrix, Vector3&#91&#93; destinationArray)](VRageMath.Vector3.Transform)
 
 > Transforms a source array of Vector3s by a specified Matrix and writes the results to an existing destination array.
 
-[static void Transform(Vector3&#91&#93;, int, ref Matrix, Vector3&#91&#93;, int, int)](VRageMath.Vector3.Transform)
+[static void Transform(Vector3&#91&#93; sourceArray, int sourceIndex, ref Matrix matrix, Vector3&#91&#93; destinationArray, int destinationIndex, int length)](VRageMath.Vector3.Transform)
 
 > Applies a specified transform Matrix to a specified range of an array of Vector3s and writes the results into a specified range of a destination array.
 
-[static void Transform(Vector3&#91&#93;, ref Quaternion, Vector3&#91&#93;)](VRageMath.Vector3.Transform)
+[static void Transform(Vector3&#91&#93; sourceArray, ref Quaternion rotation, Vector3&#91&#93; destinationArray)](VRageMath.Vector3.Transform)
 
 > Transforms a source array of Vector3s by a specified Quaternion rotation and writes the results to an existing destination array.
 
-[static void Transform(Vector3&#91&#93;, int, ref Quaternion, Vector3&#91&#93;, int, int)](VRageMath.Vector3.Transform)
+[static void Transform(Vector3&#91&#93; sourceArray, int sourceIndex, ref Quaternion rotation, Vector3&#91&#93; destinationArray, int destinationIndex, int length)](VRageMath.Vector3.Transform)
 
 > Applies a specified Quaternion rotation to a specified range of an array of Vector3s and writes the results into a specified range of a destination array.
 
-[static void TransformNoProjection(ref Vector3, ref Matrix, out Vector3)](VRageMath.Vector3.TransformNoProjection)
+[static void TransformNoProjection(ref Vector3 vector, ref Matrix matrix, out Vector3 result)](VRageMath.Vector3.TransformNoProjection)
 
 > 
 
-[static Vector3 TransformNormal(Vector3, Matrix)](VRageMath.Vector3.TransformNormal)
+[static Vector3 TransformNormal(Vector3 normal, Matrix matrix)](VRageMath.Vector3.TransformNormal)
 
 > Transforms a 3D vector normal by a matrix.
 
-[static Vector3 TransformNormal(Vector3, MatrixD)](VRageMath.Vector3.TransformNormal)
+[static Vector3 TransformNormal(Vector3 normal, MatrixD matrix)](VRageMath.Vector3.TransformNormal)
 
 > Transforms a 3D vector normal by a matrix.
 
-[static Vector3 TransformNormal(Vector3D, Matrix)](VRageMath.Vector3.TransformNormal)
+[static Vector3 TransformNormal(Vector3D normal, Matrix matrix)](VRageMath.Vector3.TransformNormal)
 
 > Transforms a 3D vector normal by a matrix.
 
-[static void TransformNormal(ref Vector3, ref Matrix, out Vector3)](VRageMath.Vector3.TransformNormal)
+[static void TransformNormal(ref Vector3 normal, ref Matrix matrix, out Vector3 result)](VRageMath.Vector3.TransformNormal)
 
 > Transforms a vector normal by a matrix.
 
-[static void TransformNormal(ref Vector3, ref MatrixD, out Vector3)](VRageMath.Vector3.TransformNormal)
+[static void TransformNormal(ref Vector3 normal, ref MatrixD matrix, out Vector3 result)](VRageMath.Vector3.TransformNormal)
 
 > 
 
-[static void TransformNormal(ref Vector3, ref MatrixI, out Vector3)](VRageMath.Vector3.TransformNormal)
+[static void TransformNormal(ref Vector3 normal, ref MatrixI matrix, out Vector3 result)](VRageMath.Vector3.TransformNormal)
 
 > 
 
-[static Vector3 TransformNormal(Vector3, MyBlockOrientation)](VRageMath.Vector3.TransformNormal)
+[static Vector3 TransformNormal(Vector3 normal, MyBlockOrientation orientation)](VRageMath.Vector3.TransformNormal)
 
 > 
 
-[static void TransformNormal(ref Vector3, MyBlockOrientation, out Vector3)](VRageMath.Vector3.TransformNormal)
+[static void TransformNormal(ref Vector3 normal, MyBlockOrientation orientation, out Vector3 result)](VRageMath.Vector3.TransformNormal)
 
 > 
 
-[static Vector3 TransformNormal(Vector3, ref Matrix)](VRageMath.Vector3.TransformNormal)
+[static Vector3 TransformNormal(Vector3 normal, ref Matrix matrix)](VRageMath.Vector3.TransformNormal)
 
 > 
 
-[static void TransformNormal(Vector3&#91&#93;, ref Matrix, Vector3&#91&#93;)](VRageMath.Vector3.TransformNormal)
+[static void TransformNormal(Vector3&#91&#93; sourceArray, ref Matrix matrix, Vector3&#91&#93; destinationArray)](VRageMath.Vector3.TransformNormal)
 
 > Transforms an array of 3D vector normals by a specified Matrix.
 
-[static void TransformNormal(Vector3&#91&#93;, int, ref Matrix, Vector3&#91&#93;, int, int)](VRageMath.Vector3.TransformNormal)
+[static void TransformNormal(Vector3&#91&#93; sourceArray, int sourceIndex, ref Matrix matrix, Vector3&#91&#93; destinationArray, int destinationIndex, int length)](VRageMath.Vector3.TransformNormal)
 
 > Transforms a specified range in an array of 3D vector normals by a specified Matrix and writes the results to a specified range in a destination array.
 
-[static void TransformProjection(ref Vector3, ref Matrix, out Vector3)](VRageMath.Vector3.TransformProjection)
+[static void TransformProjection(ref Vector3 position, ref Matrix matrix, out Vector3 result)](VRageMath.Vector3.TransformProjection)
 
 > Transforms a Vector3 by the given projection matrix (both ortho and perspective are supported)
 
-[static float TriangleArea(Vector3, Vector3, Vector3)](VRageMath.Vector3.TriangleArea)
+[static float TriangleArea(Vector3 v1, Vector3 v2, Vector3 v3)](VRageMath.Vector3.TriangleArea)
 
 > 
 
-[static float TriangleArea(ref Vector3, ref Vector3, ref Vector3)](VRageMath.Vector3.TriangleArea)
+[static float TriangleArea(ref Vector3 v1, ref Vector3 v2, ref Vector3 v3)](VRageMath.Vector3.TriangleArea)
 
 > 
 
@@ -570,7 +570,7 @@ Defines a vector with three components.
 
 > Returns the component of the vector, whose absolute value is smallest of all the three components.
 
-[void Add(Vector3)](VRageMath.Vector3.Add)
+[void Add(Vector3 other)](VRageMath.Vector3.Add)
 
 > 
 
@@ -578,39 +578,39 @@ Defines a vector with three components.
 
 > 
 
-[void CalculatePerpendicularVector(out Vector3)](VRageMath.Vector3.CalculatePerpendicularVector)
+[void CalculatePerpendicularVector(out Vector3 result)](VRageMath.Vector3.CalculatePerpendicularVector)
 
 > 
 
-[Vector3 Cross(Vector3)](VRageMath.Vector3.Cross)
+[Vector3 Cross(Vector3 v)](VRageMath.Vector3.Cross)
 
 > 
 
-[void Divide(float)](VRageMath.Vector3.Divide)
+[void Divide(float divider)](VRageMath.Vector3.Divide)
 
 > 
 
-[float Dot(Vector3)](VRageMath.Vector3.Dot)
+[float Dot(Vector3 v)](VRageMath.Vector3.Dot)
 
 > 
 
-[float Dot(ref Vector3)](VRageMath.Vector3.Dot)
+[float Dot(ref Vector3 v)](VRageMath.Vector3.Dot)
 
 > 
 
-[bool Equals(Vector3)](VRageMath.Vector3.Equals)
+[bool Equals(Vector3 other)](VRageMath.Vector3.Equals)
 
 > Determines whether the specified Object is equal to the Vector3.
 
-[bool Equals(Vector3, float)](VRageMath.Vector3.Equals)
+[bool Equals(Vector3 other, float epsilon)](VRageMath.Vector3.Equals)
 
 > 
 
-[bool Equals(object)](VRageMath.Vector3.Equals)
+[bool Equals(object obj)](VRageMath.Vector3.Equals)
 
 > Returns a value that indicates whether the current instance is equal to a specified object.
 
-[float GetDim(int)](VRageMath.Vector3.GetDim)
+[float GetDim(int i)](VRageMath.Vector3.GetDim)
 
 > 
 
@@ -622,11 +622,11 @@ Defines a vector with three components.
 
 > 
 
-[void Interpolate3(Vector3, Vector3, float)](VRageMath.Vector3.Interpolate3)
+[void Interpolate3(Vector3 v0, Vector3 v1, float rt)](VRageMath.Vector3.Interpolate3)
 
 > 
 
-[bool IsInsideInclusive(ref Vector3, ref Vector3)](VRageMath.Vector3.IsInsideInclusive)
+[bool IsInsideInclusive(ref Vector3 min, ref Vector3 max)](VRageMath.Vector3.IsInsideInclusive)
 
 > 
 
@@ -654,7 +654,7 @@ Defines a vector with three components.
 
 > Returns the component of the vector that is smallest of all the three components.
 
-[void Multiply(float)](VRageMath.Vector3.Multiply)
+[void Multiply(float scale)](VRageMath.Vector3.Multiply)
 
 > 
 
@@ -662,7 +662,7 @@ Defines a vector with three components.
 
 > Turns the current vector into a unit vector. The result is a vector one unit in length pointing in the same direction as the original vector.
 
-[void SetDim(int, float)](VRageMath.Vector3.SetDim)
+[void SetDim(int i, float value)](VRageMath.Vector3.SetDim)
 
 > 
 
@@ -670,11 +670,11 @@ Defines a vector with three components.
 
 > Retrieves a string representation of the current object.
 
-[string ToString(string)](VRageMath.Vector3.ToString)
+[string ToString(string format)](VRageMath.Vector3.ToString)
 
 > 
 
-[long VolumeInt(float)](VRageMath.Vector3.VolumeInt)
+[long VolumeInt(float multiplier)](VRageMath.Vector3.VolumeInt)
 
 > 
 

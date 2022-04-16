@@ -103,225 +103,225 @@ public struct Vector3I: IEquatable<Vector3I>, IComparable<Vector3I>
 
 #### Constructors
 
-[Vector3I(int)](VRageMath.Vector3I..ctor)
+[Vector3I(int xyz)](VRageMath.Vector3I..ctor)
 
 > 
 
-[Vector3I(int, int, int)](VRageMath.Vector3I..ctor)
+[Vector3I(int x, int y, int z)](VRageMath.Vector3I..ctor)
 
 > 
 
-[Vector3I(Vector2I, int)](VRageMath.Vector3I..ctor)
+[Vector3I(Vector2I xy, int z)](VRageMath.Vector3I..ctor)
 
 > 
 
-[Vector3I(Vector3)](VRageMath.Vector3I..ctor)
+[Vector3I(Vector3 xyz)](VRageMath.Vector3I..ctor)
 
 > 
 
-[Vector3I(Vector3D)](VRageMath.Vector3I..ctor)
+[Vector3I(Vector3D xyz)](VRageMath.Vector3I..ctor)
 
 > 
 
-[Vector3I(Vector3S)](VRageMath.Vector3I..ctor)
+[Vector3I(Vector3S xyz)](VRageMath.Vector3I..ctor)
 
 > 
 
-[Vector3I(float, float, float)](VRageMath.Vector3I..ctor)
+[Vector3I(float x, float y, float z)](VRageMath.Vector3I..ctor)
 
 > 
 
-[Vector3I(Byte&#91&#93;, int)](VRageMath.Vector3I..ctor)
+[Vector3I(Byte&#91&#93; bytes, int index)](VRageMath.Vector3I..ctor)
 
 > 
 
 #### Methods
 
-[static Vector3I Abs(Vector3I)](VRageMath.Vector3I.Abs)
+[static Vector3I Abs(Vector3I value)](VRageMath.Vector3I.Abs)
 
 > 
 
-[static void Abs(ref Vector3I, out Vector3I)](VRageMath.Vector3I.Abs)
+[static void Abs(ref Vector3I value, out Vector3I result)](VRageMath.Vector3I.Abs)
 
 > 
 
-[static bool BoxContains(Vector3I, Vector3I, Vector3I)](VRageMath.Vector3I.BoxContains)
+[static bool BoxContains(Vector3I boxMin, Vector3I boxMax, Vector3I pt)](VRageMath.Vector3I.BoxContains)
 
 > 
 
-[static bool BoxContains(ref Vector3I, ref Vector3I, ref Vector3I)](VRageMath.Vector3I.BoxContains)
+[static bool BoxContains(ref Vector3I boxMin, ref Vector3I boxMax, ref Vector3I pt)](VRageMath.Vector3I.BoxContains)
 
 > 
 
-[static bool BoxIntersects(Vector3I, Vector3I, Vector3I, Vector3I)](VRageMath.Vector3I.BoxIntersects)
+[static bool BoxIntersects(Vector3I minA, Vector3I maxA, Vector3I minB, Vector3I maxB)](VRageMath.Vector3I.BoxIntersects)
 
 > 
 
-[static bool BoxIntersects(ref Vector3I, ref Vector3I, ref Vector3I, ref Vector3I)](VRageMath.Vector3I.BoxIntersects)
+[static bool BoxIntersects(ref Vector3I minA, ref Vector3I maxA, ref Vector3I minB, ref Vector3I maxB)](VRageMath.Vector3I.BoxIntersects)
 
 > 
 
-[static Vector3I Ceiling(Vector3)](VRageMath.Vector3I.Ceiling)
+[static Vector3I Ceiling(Vector3 value)](VRageMath.Vector3I.Ceiling)
 
 > 
 
-[static Vector3I Ceiling(Vector3D)](VRageMath.Vector3I.Ceiling)
+[static Vector3I Ceiling(Vector3D value)](VRageMath.Vector3I.Ceiling)
 
 > 
 
-[static Vector3I Clamp(Vector3I, Vector3I, Vector3I)](VRageMath.Vector3I.Clamp)
+[static Vector3I Clamp(Vector3I value1, Vector3I min, Vector3I max)](VRageMath.Vector3I.Clamp)
 
 > 
 
-[static void Clamp(ref Vector3I, ref Vector3I, ref Vector3I, out Vector3I)](VRageMath.Vector3I.Clamp)
+[static void Clamp(ref Vector3I value1, ref Vector3I min, ref Vector3I max, out Vector3I result)](VRageMath.Vector3I.Clamp)
 
 > 
 
-[static void Cross(ref Vector3I, ref Vector3I, out Vector3I)](VRageMath.Vector3I.Cross)
+[static void Cross(ref Vector3I vector1, ref Vector3I vector2, out Vector3I result)](VRageMath.Vector3I.Cross)
 
 > Calculates the cross product of two vectors.
 
-[static int DistanceManhattan(Vector3I, Vector3I)](VRageMath.Vector3I.DistanceManhattan)
+[static int DistanceManhattan(Vector3I first, Vector3I second)](VRageMath.Vector3I.DistanceManhattan)
 
 > Manhattan distance (cube distance) X + Y + Z of Abs(first - second)
 
-[static Vector3I DominantAxisProjection(Vector3I)](VRageMath.Vector3I.DominantAxisProjection)
+[static Vector3I DominantAxisProjection(Vector3I value1)](VRageMath.Vector3I.DominantAxisProjection)
 
 > Returns a vector that is equal to the projection of the input vector to the coordinate axis that corresponds to the original vector's largest value.
 
-[static void DominantAxisProjection(ref Vector3I, out Vector3I)](VRageMath.Vector3I.DominantAxisProjection)
+[static void DominantAxisProjection(ref Vector3I value1, out Vector3I result)](VRageMath.Vector3I.DominantAxisProjection)
 
 > Calculates a vector that is equal to the projection of the input vector to the coordinate axis that corresponds to the original vector's largest value. The result is saved into a user-specified variable.
 
-[static int Dot(Vector3I, Vector3I)](VRageMath.Vector3I.Dot)
+[static int Dot(Vector3I vector1, Vector3I vector2)](VRageMath.Vector3I.Dot)
 
 > 
 
-[static int Dot(ref Vector3I, ref Vector3I)](VRageMath.Vector3I.Dot)
+[static int Dot(ref Vector3I vector1, ref Vector3I vector2)](VRageMath.Vector3I.Dot)
 
 > 
 
-[static void Dot(ref Vector3I, ref Vector3I, out int)](VRageMath.Vector3I.Dot)
+[static void Dot(ref Vector3I vector1, ref Vector3I vector2, out int dot)](VRageMath.Vector3I.Dot)
 
 > 
 
-[static IEnumerable&lt;Vector3I&gt; EnumerateRange(Vector3I, Vector3I)](VRageMath.Vector3I.EnumerateRange)
+[static IEnumerable&lt;Vector3I&gt; EnumerateRange(Vector3I minInclusive, Vector3I maxExclusive)](VRageMath.Vector3I.EnumerateRange)
 
 > Enumerate all values in a integer interval (a cuboid). This method is an allocating version of the Vector3I_RangeIterator. This once can be used in the foreach syntax though so it's more convenient for debug routines.
 
-[static Vector3I Floor(Vector3)](VRageMath.Vector3I.Floor)
+[static Vector3I Floor(Vector3 value)](VRageMath.Vector3I.Floor)
 
 > 
 
-[static Vector3I Floor(Vector3D)](VRageMath.Vector3I.Floor)
+[static Vector3I Floor(Vector3D value)](VRageMath.Vector3I.Floor)
 
 > 
 
-[static void Floor(ref Vector3, out Vector3I)](VRageMath.Vector3I.Floor)
+[static void Floor(ref Vector3 v, out Vector3I r)](VRageMath.Vector3I.Floor)
 
 > 
 
-[static void Floor(ref Vector3D, out Vector3I)](VRageMath.Vector3I.Floor)
+[static void Floor(ref Vector3D v, out Vector3I r)](VRageMath.Vector3I.Floor)
 
 > 
 
-[static CubeFace GetDominantDirection(Vector3I)](VRageMath.Vector3I.GetDominantDirection)
+[static CubeFace GetDominantDirection(Vector3I val)](VRageMath.Vector3I.GetDominantDirection)
 
 > 
 
-[static Vector3I GetDominantDirectionVector(Vector3I)](VRageMath.Vector3I.GetDominantDirectionVector)
+[static Vector3I GetDominantDirectionVector(Vector3I val)](VRageMath.Vector3I.GetDominantDirectionVector)
 
 > 
 
-[static Vector3I Max(Vector3I, Vector3I)](VRageMath.Vector3I.Max)
+[static Vector3I Max(Vector3I value1, Vector3I value2)](VRageMath.Vector3I.Max)
 
 > 
 
-[static void Max(ref Vector3I, ref Vector3I, out Vector3I)](VRageMath.Vector3I.Max)
+[static void Max(ref Vector3I value1, ref Vector3I value2, out Vector3I result)](VRageMath.Vector3I.Max)
 
 > 
 
-[static Vector3I Min(Vector3I, Vector3I)](VRageMath.Vector3I.Min)
+[static Vector3I Min(Vector3I value1, Vector3I value2)](VRageMath.Vector3I.Min)
 
 > 
 
-[static void Min(ref Vector3I, ref Vector3I, out Vector3I)](VRageMath.Vector3I.Min)
+[static void Min(ref Vector3I value1, ref Vector3I value2, out Vector3I result)](VRageMath.Vector3I.Min)
 
 > 
 
-[static void MinMax(ref Vector3I, ref Vector3I)](VRageMath.Vector3I.MinMax)
+[static void MinMax(ref Vector3I min, ref Vector3I max)](VRageMath.Vector3I.MinMax)
 
 > Separates minimal and maximal values of any two input vectors
 
-[static Vector3I Round(Vector3)](VRageMath.Vector3I.Round)
+[static Vector3I Round(Vector3 value)](VRageMath.Vector3I.Round)
 
 > 
 
-[static Vector3I Round(Vector3D)](VRageMath.Vector3I.Round)
+[static Vector3I Round(Vector3D value)](VRageMath.Vector3I.Round)
 
 > 
 
-[static void Round(ref Vector3, out Vector3I)](VRageMath.Vector3I.Round)
+[static void Round(ref Vector3 v, out Vector3I r)](VRageMath.Vector3I.Round)
 
 > 
 
-[static void Round(ref Vector3D, out Vector3I)](VRageMath.Vector3I.Round)
+[static void Round(ref Vector3D v, out Vector3I r)](VRageMath.Vector3I.Round)
 
 > 
 
-[static Vector3I Shift(Vector3I)](VRageMath.Vector3I.Shift)
+[static Vector3I Shift(Vector3I value)](VRageMath.Vector3I.Shift)
 
 > 
 
-[static Vector3I Sign(Vector3)](VRageMath.Vector3I.Sign)
+[static Vector3I Sign(Vector3 value)](VRageMath.Vector3I.Sign)
 
 > 
 
-[static Vector3I Sign(Vector3I)](VRageMath.Vector3I.Sign)
+[static Vector3I Sign(Vector3I value)](VRageMath.Vector3I.Sign)
 
 > 
 
-[static void Transform(ref Vector3I, ref Matrix, out Vector3I)](VRageMath.Vector3I.Transform)
+[static void Transform(ref Vector3I position, ref Matrix matrix, out Vector3I result)](VRageMath.Vector3I.Transform)
 
 > Transforms a Vector3I by the given Matrix.
 
-[static void Transform(ref Vector3I, ref Quaternion, out Vector3I)](VRageMath.Vector3I.Transform)
+[static void Transform(ref Vector3I value, ref Quaternion rotation, out Vector3I result)](VRageMath.Vector3I.Transform)
 
 > 
 
-[static Vector3I Transform(Vector3I, Quaternion)](VRageMath.Vector3I.Transform)
+[static Vector3I Transform(Vector3I value, Quaternion rotation)](VRageMath.Vector3I.Transform)
 
 > 
 
-[static void Transform(ref Vector3I, ref MatrixI, out Vector3I)](VRageMath.Vector3I.Transform)
+[static void Transform(ref Vector3I value, ref MatrixI matrix, out Vector3I result)](VRageMath.Vector3I.Transform)
 
 > 
 
-[static Vector3I Transform(Vector3I, MatrixI)](VRageMath.Vector3I.Transform)
+[static Vector3I Transform(Vector3I value, MatrixI transformation)](VRageMath.Vector3I.Transform)
 
 > 
 
-[static Vector3I Transform(Vector3I, ref MatrixI)](VRageMath.Vector3I.Transform)
+[static Vector3I Transform(Vector3I value, ref MatrixI transformation)](VRageMath.Vector3I.Transform)
 
 > 
 
-[static Vector3I TransformNormal(Vector3I, ref MatrixI)](VRageMath.Vector3I.TransformNormal)
+[static Vector3I TransformNormal(Vector3I value, ref MatrixI transformation)](VRageMath.Vector3I.TransformNormal)
 
 > 
 
-[static void TransformNormal(ref Vector3I, ref Matrix, out Vector3I)](VRageMath.Vector3I.TransformNormal)
+[static void TransformNormal(ref Vector3I normal, ref Matrix matrix, out Vector3I result)](VRageMath.Vector3I.TransformNormal)
 
 > Transforms a vector normal by a matrix.
 
-[static void TransformNormal(ref Vector3I, ref MatrixI, out Vector3I)](VRageMath.Vector3I.TransformNormal)
+[static void TransformNormal(ref Vector3I normal, ref MatrixI matrix, out Vector3I result)](VRageMath.Vector3I.TransformNormal)
 
 > 
 
-[static Vector3I Trunc(Vector3)](VRageMath.Vector3I.Trunc)
+[static Vector3I Trunc(Vector3 value)](VRageMath.Vector3I.Trunc)
 
 > 
 
-[static bool TryParseFromString(string, out Vector3I)](VRageMath.Vector3I.TryParseFromString)
+[static bool TryParseFromString(string p, out Vector3I vec)](VRageMath.Vector3I.TryParseFromString)
 
 > 
 
@@ -333,23 +333,23 @@ public struct Vector3I: IEquatable<Vector3I>, IComparable<Vector3I>
 
 > Returns the component of the vector, whose absolute value is smallest of all the three components.
 
-[int AxisValue(Axis)](VRageMath.Vector3I.AxisValue)
+[int AxisValue(Axis axis)](VRageMath.Vector3I.AxisValue)
 
 > 
 
-[int CompareTo(Vector3I)](VRageMath.Vector3I.CompareTo)
+[int CompareTo(Vector3I other)](VRageMath.Vector3I.CompareTo)
 
 > 
 
-[int Dot(ref Vector3I)](VRageMath.Vector3I.Dot)
+[int Dot(ref Vector3I v)](VRageMath.Vector3I.Dot)
 
 > 
 
-[bool Equals(Vector3I)](VRageMath.Vector3I.Equals)
+[bool Equals(Vector3I other)](VRageMath.Vector3I.Equals)
 
 > 
 
-[bool Equals(object)](VRageMath.Vector3I.Equals)
+[bool Equals(object obj)](VRageMath.Vector3I.Equals)
 
 > 
 
@@ -361,19 +361,19 @@ public struct Vector3I: IEquatable<Vector3I>, IComparable<Vector3I>
 
 > 
 
-[bool IsInside(ref Vector3I, ref Vector3I)](VRageMath.Vector3I.IsInside)
+[bool IsInside(ref Vector3I inclusiveMin, ref Vector3I exclusiveMax)](VRageMath.Vector3I.IsInside)
 
 > 
 
-[bool IsInside(Vector3I, Vector3I)](VRageMath.Vector3I.IsInside)
+[bool IsInside(Vector3I inclusiveMin, Vector3I exclusiveMax)](VRageMath.Vector3I.IsInside)
 
 > 
 
-[bool IsInsideInclusiveEnd(ref Vector3I, ref Vector3I)](VRageMath.Vector3I.IsInsideInclusiveEnd)
+[bool IsInsideInclusiveEnd(ref Vector3I min, ref Vector3I max)](VRageMath.Vector3I.IsInsideInclusiveEnd)
 
 > 
 
-[bool IsInsideInclusiveEnd(Vector3I, Vector3I)](VRageMath.Vector3I.IsInsideInclusiveEnd)
+[bool IsInsideInclusiveEnd(Vector3I min, Vector3I max)](VRageMath.Vector3I.IsInsideInclusiveEnd)
 
 > 
 
@@ -381,7 +381,7 @@ public struct Vector3I: IEquatable<Vector3I>, IComparable<Vector3I>
 
 > 
 
-[int RectangularDistance(Vector3I)](VRageMath.Vector3I.RectangularDistance)
+[int RectangularDistance(Vector3I otherVector)](VRageMath.Vector3I.RectangularDistance)
 
 > Calculates rectangular distance. It's how many sectors you have to travel to get to other sector from current sector.
 
@@ -389,7 +389,7 @@ public struct Vector3I: IEquatable<Vector3I>, IComparable<Vector3I>
 
 > Calculates rectangular distance of this vector, interpreted as a point, from the origin.
 
-[void ToBytes(List&lt;byte&gt;)](VRageMath.Vector3I.ToBytes)
+[void ToBytes(List&lt;byte&gt; result)](VRageMath.Vector3I.ToBytes)
 
 > 
 

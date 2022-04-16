@@ -14,25 +14,25 @@ public struct MySpriteDrawFrame: IDisposable
 
 #### Constructors
 
-[MySpriteDrawFrame(Action&lt;MySpriteDrawFrame&gt;)](VRage.Game.GUI.TextPanel.MySpriteDrawFrame..ctor)
+[MySpriteDrawFrame(Action&lt;MySpriteDrawFrame&gt; submitFrameCallback)](VRage.Game.GUI.TextPanel.MySpriteDrawFrame..ctor)
 
 > 
 
 #### Methods
 
-[void Add(MySprite)](VRage.Game.GUI.TextPanel.MySpriteDrawFrame.Add)
+[void Add(MySprite sprite)](VRage.Game.GUI.TextPanel.MySpriteDrawFrame.Add)
 
 > 
 
-[void AddRange(IEnumerable&lt;MySprite&gt;)](VRage.Game.GUI.TextPanel.MySpriteDrawFrame.AddRange)
+[void AddRange(IEnumerable&lt;MySprite&gt; sprites)](VRage.Game.GUI.TextPanel.MySpriteDrawFrame.AddRange)
 
 > 
 
-[void AddToList(List&lt;MySprite&gt;)](VRage.Game.GUI.TextPanel.MySpriteDrawFrame.AddToList)
+[void AddToList(List&lt;MySprite&gt; list)](VRage.Game.GUI.TextPanel.MySpriteDrawFrame.AddToList)
 
 > 
 
-[ClearClipToken Clip(int, int, int, int)](VRage.Game.GUI.TextPanel.MySpriteDrawFrame.Clip)
+[ClearClipToken Clip(int x, int y, int width, int height)](VRage.Game.GUI.TextPanel.MySpriteDrawFrame.Clip)
 
 > 
 

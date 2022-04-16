@@ -108,193 +108,193 @@ Defines a matrix.
 
 #### Constructors
 
-[Matrix3x3(float, float, float, float, float, float, float, float, float)](VRageMath.Matrix3x3..ctor)
+[Matrix3x3(float m11, float m12, float m13, float m21, float m22, float m23, float m31, float m32, float m33)](VRageMath.Matrix3x3..ctor)
 
 > 
 
-[Matrix3x3(Matrix3x3)](VRageMath.Matrix3x3..ctor)
+[Matrix3x3(Matrix3x3 other)](VRageMath.Matrix3x3..ctor)
 
 > 
 
-[Matrix3x3(MatrixD)](VRageMath.Matrix3x3..ctor)
+[Matrix3x3(MatrixD other)](VRageMath.Matrix3x3..ctor)
 
 > 
 
 #### Methods
 
-[static void Add(ref Matrix3x3, ref Matrix3x3, out Matrix3x3)](VRageMath.Matrix3x3.Add)
+[static void Add(ref Matrix3x3 matrix1, ref Matrix3x3 matrix2, out Matrix3x3 result)](VRageMath.Matrix3x3.Add)
 
 > Adds a matrix to another matrix.
 
-[static Matrix3x3 AlignRotationToAxes(ref Matrix3x3, ref Matrix3x3)](VRageMath.Matrix3x3.AlignRotationToAxes)
+[static Matrix3x3 AlignRotationToAxes(ref Matrix3x3 toAlign, ref Matrix3x3 axisDefinitionMatrix)](VRageMath.Matrix3x3.AlignRotationToAxes)
 
 > 
 
-[static Matrix3x3 CreateFromAxisAngle(Vector3, float)](VRageMath.Matrix3x3.CreateFromAxisAngle)
+[static Matrix3x3 CreateFromAxisAngle(Vector3 axis, float angle)](VRageMath.Matrix3x3.CreateFromAxisAngle)
 
 > Creates a new Matrix3x3 that rotates around an arbitrary vector.
 
-[static void CreateFromAxisAngle(ref Vector3, float, out Matrix3x3)](VRageMath.Matrix3x3.CreateFromAxisAngle)
+[static void CreateFromAxisAngle(ref Vector3 axis, float angle, out Matrix3x3 result)](VRageMath.Matrix3x3.CreateFromAxisAngle)
 
 > Creates a new Matrix3x3 that rotates around an arbitrary vector.
 
-[static Matrix3x3 CreateFromDir(Vector3)](VRageMath.Matrix3x3.CreateFromDir)
+[static Matrix3x3 CreateFromDir(Vector3 dir)](VRageMath.Matrix3x3.CreateFromDir)
 
 > 
 
-[static Matrix3x3 CreateFromDir(Vector3, Vector3)](VRageMath.Matrix3x3.CreateFromDir)
+[static Matrix3x3 CreateFromDir(Vector3 dir, Vector3 suggestedUp)](VRageMath.Matrix3x3.CreateFromDir)
 
 > 
 
-[static Matrix3x3 CreateFromQuaternion(Quaternion)](VRageMath.Matrix3x3.CreateFromQuaternion)
+[static Matrix3x3 CreateFromQuaternion(Quaternion quaternion)](VRageMath.Matrix3x3.CreateFromQuaternion)
 
 > Creates a rotation Matrix3x3 from a Quaternion.
 
-[static void CreateFromQuaternion(ref Quaternion, out Matrix3x3)](VRageMath.Matrix3x3.CreateFromQuaternion)
+[static void CreateFromQuaternion(ref Quaternion quaternion, out Matrix3x3 result)](VRageMath.Matrix3x3.CreateFromQuaternion)
 
 > Creates a rotation Matrix3x3 from a Quaternion.
 
-[static Matrix3x3 CreateFromYawPitchRoll(float, float, float)](VRageMath.Matrix3x3.CreateFromYawPitchRoll)
+[static Matrix3x3 CreateFromYawPitchRoll(float yaw, float pitch, float roll)](VRageMath.Matrix3x3.CreateFromYawPitchRoll)
 
 > Creates a new rotation matrix from a specified yaw, pitch, and roll.
 
-[static void CreateFromYawPitchRoll(float, float, float, out Matrix3x3)](VRageMath.Matrix3x3.CreateFromYawPitchRoll)
+[static void CreateFromYawPitchRoll(float yaw, float pitch, float roll, out Matrix3x3 result)](VRageMath.Matrix3x3.CreateFromYawPitchRoll)
 
 > Fills in a rotation matrix from a specified yaw, pitch, and roll.
 
-[static void CreateRotationFromTwoVectors(ref Vector3, ref Vector3, out Matrix3x3)](VRageMath.Matrix3x3.CreateRotationFromTwoVectors)
+[static void CreateRotationFromTwoVectors(ref Vector3 fromVector, ref Vector3 toVector, out Matrix3x3 resultMatrix)](VRageMath.Matrix3x3.CreateRotationFromTwoVectors)
 
 > 
 
-[static Matrix3x3 CreateRotationX(float)](VRageMath.Matrix3x3.CreateRotationX)
+[static Matrix3x3 CreateRotationX(float radians)](VRageMath.Matrix3x3.CreateRotationX)
 
 > Returns a matrix that can be used to rotate a set of vertices around the x-axis.
 
-[static void CreateRotationX(float, out Matrix3x3)](VRageMath.Matrix3x3.CreateRotationX)
+[static void CreateRotationX(float radians, out Matrix3x3 result)](VRageMath.Matrix3x3.CreateRotationX)
 
 > Populates data into a user-specified matrix that can be used to rotate a set of vertices around the x-axis.
 
-[static Matrix3x3 CreateRotationY(float)](VRageMath.Matrix3x3.CreateRotationY)
+[static Matrix3x3 CreateRotationY(float radians)](VRageMath.Matrix3x3.CreateRotationY)
 
 > Returns a matrix that can be used to rotate a set of vertices around the y-axis.
 
-[static void CreateRotationY(float, out Matrix3x3)](VRageMath.Matrix3x3.CreateRotationY)
+[static void CreateRotationY(float radians, out Matrix3x3 result)](VRageMath.Matrix3x3.CreateRotationY)
 
 > Populates data into a user-specified matrix that can be used to rotate a set of vertices around the y-axis.
 
-[static Matrix3x3 CreateRotationZ(float)](VRageMath.Matrix3x3.CreateRotationZ)
+[static Matrix3x3 CreateRotationZ(float radians)](VRageMath.Matrix3x3.CreateRotationZ)
 
 > Returns a matrix that can be used to rotate a set of vertices around the z-axis.
 
-[static void CreateRotationZ(float, out Matrix3x3)](VRageMath.Matrix3x3.CreateRotationZ)
+[static void CreateRotationZ(float radians, out Matrix3x3 result)](VRageMath.Matrix3x3.CreateRotationZ)
 
 > Populates data into a user-specified matrix that can be used to rotate a set of vertices around the z-axis.
 
-[static Matrix3x3 CreateScale(float, float, float)](VRageMath.Matrix3x3.CreateScale)
+[static Matrix3x3 CreateScale(float xScale, float yScale, float zScale)](VRageMath.Matrix3x3.CreateScale)
 
 > Creates a scaling Matrix3x3.
 
-[static void CreateScale(float, float, float, out Matrix3x3)](VRageMath.Matrix3x3.CreateScale)
+[static void CreateScale(float xScale, float yScale, float zScale, out Matrix3x3 result)](VRageMath.Matrix3x3.CreateScale)
 
 > Creates a scaling Matrix3x3.
 
-[static Matrix3x3 CreateScale(Vector3)](VRageMath.Matrix3x3.CreateScale)
+[static Matrix3x3 CreateScale(Vector3 scales)](VRageMath.Matrix3x3.CreateScale)
 
 > Creates a scaling Matrix3x3.
 
-[static void CreateScale(ref Vector3, out Matrix3x3)](VRageMath.Matrix3x3.CreateScale)
+[static void CreateScale(ref Vector3 scales, out Matrix3x3 result)](VRageMath.Matrix3x3.CreateScale)
 
 > Creates a scaling Matrix3x3.
 
-[static Matrix3x3 CreateScale(float)](VRageMath.Matrix3x3.CreateScale)
+[static Matrix3x3 CreateScale(float scale)](VRageMath.Matrix3x3.CreateScale)
 
 > Creates a scaling Matrix3x3.
 
-[static void CreateScale(float, out Matrix3x3)](VRageMath.Matrix3x3.CreateScale)
+[static void CreateScale(float scale, out Matrix3x3 result)](VRageMath.Matrix3x3.CreateScale)
 
 > Creates a scaling Matrix3x3.
 
-[static Matrix3x3 CreateWorld(ref Vector3, ref Vector3)](VRageMath.Matrix3x3.CreateWorld)
+[static Matrix3x3 CreateWorld(ref Vector3 forward, ref Vector3 up)](VRageMath.Matrix3x3.CreateWorld)
 
 > Creates a world matrix with the specified parameters.
 
-[static void Divide(ref Matrix3x3, ref Matrix3x3, out Matrix3x3)](VRageMath.Matrix3x3.Divide)
+[static void Divide(ref Matrix3x3 matrix1, ref Matrix3x3 matrix2, out Matrix3x3 result)](VRageMath.Matrix3x3.Divide)
 
 > Divides the components of a matrix by the corresponding components of another matrix.
 
-[static void Divide(ref Matrix3x3, float, out Matrix3x3)](VRageMath.Matrix3x3.Divide)
+[static void Divide(ref Matrix3x3 matrix1, float divider, out Matrix3x3 result)](VRageMath.Matrix3x3.Divide)
 
 > Divides the components of a matrix by a scalar.
 
-[static bool GetEulerAnglesXYZ(ref Matrix3x3, out Vector3)](VRageMath.Matrix3x3.GetEulerAnglesXYZ)
+[static bool GetEulerAnglesXYZ(ref Matrix3x3 mat, out Vector3 xyz)](VRageMath.Matrix3x3.GetEulerAnglesXYZ)
 
 > 
 
-[static void Invert(ref Matrix3x3, out Matrix3x3)](VRageMath.Matrix3x3.Invert)
+[static void Invert(ref Matrix3x3 matrix, out Matrix3x3 result)](VRageMath.Matrix3x3.Invert)
 
 > Calculates the inverse of a matrix.
 
-[static void Lerp(ref Matrix3x3, ref Matrix3x3, float, out Matrix3x3)](VRageMath.Matrix3x3.Lerp)
+[static void Lerp(ref Matrix3x3 matrix1, ref Matrix3x3 matrix2, float amount, out Matrix3x3 result)](VRageMath.Matrix3x3.Lerp)
 
 > Linearly interpolates between the corresponding values of two matrices.
 
-[static void Multiply(ref Matrix3x3, ref Matrix3x3, out Matrix3x3)](VRageMath.Matrix3x3.Multiply)
+[static void Multiply(ref Matrix3x3 matrix1, ref Matrix3x3 matrix2, out Matrix3x3 result)](VRageMath.Matrix3x3.Multiply)
 
 > Multiplies a matrix by another matrix.
 
-[static void Multiply(ref Matrix3x3, float, out Matrix3x3)](VRageMath.Matrix3x3.Multiply)
+[static void Multiply(ref Matrix3x3 matrix1, float scaleFactor, out Matrix3x3 result)](VRageMath.Matrix3x3.Multiply)
 
 > Multiplies a matrix by a scalar value.
 
-[static void Negate(ref Matrix3x3, out Matrix3x3)](VRageMath.Matrix3x3.Negate)
+[static void Negate(ref Matrix3x3 matrix, out Matrix3x3 result)](VRageMath.Matrix3x3.Negate)
 
 > Negates individual elements of a matrix.
 
-[static Matrix3x3 Normalize(Matrix3x3)](VRageMath.Matrix3x3.Normalize)
+[static Matrix3x3 Normalize(Matrix3x3 matrix)](VRageMath.Matrix3x3.Normalize)
 
 > 
 
-[static Matrix3x3 Orthogonalize(Matrix3x3)](VRageMath.Matrix3x3.Orthogonalize)
+[static Matrix3x3 Orthogonalize(Matrix3x3 rotationMatrix)](VRageMath.Matrix3x3.Orthogonalize)
 
 > 
 
-[static void Rescale(ref Matrix3x3, float)](VRageMath.Matrix3x3.Rescale)
+[static void Rescale(ref Matrix3x3 matrix, float scale)](VRageMath.Matrix3x3.Rescale)
 
 > Same result as Matrix3x3.CreateScale(scale) * matrix, but much faster
 
-[static void Rescale(ref Matrix3x3, ref Vector3)](VRageMath.Matrix3x3.Rescale)
+[static void Rescale(ref Matrix3x3 matrix, ref Vector3 scale)](VRageMath.Matrix3x3.Rescale)
 
 > Same result as Matrix3x3.CreateScale(scale) * matrix, but much faster
 
-[static Matrix3x3 Rescale(Matrix3x3, float)](VRageMath.Matrix3x3.Rescale)
+[static Matrix3x3 Rescale(Matrix3x3 matrix, float scale)](VRageMath.Matrix3x3.Rescale)
 
 > 
 
-[static Matrix3x3 Rescale(Matrix3x3, Vector3)](VRageMath.Matrix3x3.Rescale)
+[static Matrix3x3 Rescale(Matrix3x3 matrix, Vector3 scale)](VRageMath.Matrix3x3.Rescale)
 
 > 
 
-[static Matrix3x3 Round(ref Matrix3x3)](VRageMath.Matrix3x3.Round)
+[static Matrix3x3 Round(ref Matrix3x3 matrix)](VRageMath.Matrix3x3.Round)
 
 > 
 
-[static void Slerp(ref Matrix3x3, ref Matrix3x3, float, out Matrix3x3)](VRageMath.Matrix3x3.Slerp)
+[static void Slerp(ref Matrix3x3 matrix1, ref Matrix3x3 matrix2, float amount, out Matrix3x3 result)](VRageMath.Matrix3x3.Slerp)
 
 > Performs spherical linear interpolation of position and rotation.
 
-[static void SlerpScale(ref Matrix3x3, ref Matrix3x3, float, out Matrix3x3)](VRageMath.Matrix3x3.SlerpScale)
+[static void SlerpScale(ref Matrix3x3 matrix1, ref Matrix3x3 matrix2, float amount, out Matrix3x3 result)](VRageMath.Matrix3x3.SlerpScale)
 
 > Performs spherical linear interpolation of position and rotation and scale.
 
-[static void Subtract(ref Matrix3x3, ref Matrix3x3, out Matrix3x3)](VRageMath.Matrix3x3.Subtract)
+[static void Subtract(ref Matrix3x3 matrix1, ref Matrix3x3 matrix2, out Matrix3x3 result)](VRageMath.Matrix3x3.Subtract)
 
 > Subtracts matrices.
 
-[static void Transform(ref Matrix3x3, ref Quaternion, out Matrix3x3)](VRageMath.Matrix3x3.Transform)
+[static void Transform(ref Matrix3x3 value, ref Quaternion rotation, out Matrix3x3 result)](VRageMath.Matrix3x3.Transform)
 
 > Transforms a Matrix3x3 by applying a Quaternion rotation.
 
-[static void Transpose(ref Matrix3x3, out Matrix3x3)](VRageMath.Matrix3x3.Transpose)
+[static void Transpose(ref Matrix3x3 matrix, out Matrix3x3 result)](VRageMath.Matrix3x3.Transpose)
 
 > Transposes the rows and columns of a matrix.
 
@@ -306,27 +306,27 @@ Defines a matrix.
 
 > 
 
-[bool Equals(Matrix3x3)](VRageMath.Matrix3x3.Equals)
+[bool Equals(Matrix3x3 other)](VRageMath.Matrix3x3.Equals)
 
 > Determines whether the specified Object is equal to the Matrix3x3.
 
-[bool Equals(object)](VRageMath.Matrix3x3.Equals)
+[bool Equals(object obj)](VRageMath.Matrix3x3.Equals)
 
 > Returns a value that indicates whether the current instance is equal to a specified object.
 
-[bool EqualsFast(ref Matrix3x3, float = 0.0001)](VRageMath.Matrix3x3.EqualsFast)
+[bool EqualsFast(ref Matrix3x3 other, float epsilon = 0.0001)](VRageMath.Matrix3x3.EqualsFast)
 
 > Compares just position, forward and up
 
-[Direction GetClosestDirection(Vector3)](VRageMath.Matrix3x3.GetClosestDirection)
+[Direction GetClosestDirection(Vector3 referenceVector)](VRageMath.Matrix3x3.GetClosestDirection)
 
 > 
 
-[Direction GetClosestDirection(ref Vector3)](VRageMath.Matrix3x3.GetClosestDirection)
+[Direction GetClosestDirection(ref Vector3 referenceVector)](VRageMath.Matrix3x3.GetClosestDirection)
 
 > 
 
-[Vector3 GetDirectionVector(Direction)](VRageMath.Matrix3x3.GetDirectionVector)
+[Vector3 GetDirectionVector(Direction direction)](VRageMath.Matrix3x3.GetDirectionVector)
 
 > 
 
@@ -338,7 +338,7 @@ Defines a matrix.
 
 > Gets the orientation.
 
-[Vector3 GetRow(int)](VRageMath.Matrix3x3.GetRow)
+[Vector3 GetRow(int row)](VRageMath.Matrix3x3.GetRow)
 
 > 
 
@@ -362,11 +362,11 @@ Defines a matrix.
 
 > 
 
-[void SetDirectionVector(Direction, Vector3)](VRageMath.Matrix3x3.SetDirectionVector)
+[void SetDirectionVector(Direction direction, Vector3 newValue)](VRageMath.Matrix3x3.SetDirectionVector)
 
 > 
 
-[void SetRow(int, Vector3)](VRageMath.Matrix3x3.SetRow)
+[void SetRow(int row, Vector3 value)](VRageMath.Matrix3x3.SetRow)
 
 > 
 

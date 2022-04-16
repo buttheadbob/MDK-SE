@@ -618,73 +618,73 @@ byte Z { get; set; }
 
 #### Constructors
 
-Color(uint)
+Color(uint packedValue)
 
 > 
 
-Color(int, int, int)
+Color(int r, int g, int b)
 
 > 
 
-Color(int, int, int, int)
+Color(int r, int g, int b, int a)
 
 > 
 
-Color(float)
+Color(float rgb)
 
 > 
 
-Color(float, float, float)
+Color(float r, float g, float b)
 
 > 
 
-Color(float, float, float, float)
+Color(float r, float g, float b, float a)
 
 > 
 
-Color(Color, float)
+Color(Color color, float a)
 
 > 
 
-Color(Vector3)
+Color(Vector3 vector)
 
 > 
 
-Color(Vector4)
+Color(Vector4 vector)
 
 > 
 
 #### Methods
 
-static Color Darken(Color, double)
+static Color Darken(Color inColor, double inAmount)
 
 > 
 
-static Color FromNonPremultiplied(Vector4)
+static Color FromNonPremultiplied(Vector4 vector)
 
 > Convert a non premultipled color into color data that contains alpha.
 
-static Color FromNonPremultiplied(int, int, int, int)
+static Color FromNonPremultiplied(int r, int g, int b, int a)
 
 > Converts a non-premultipled alpha color to a color that contains premultiplied alpha.
 
-static Color Lerp(Color, Color, float)
+static Color Lerp(Color value1, Color value2, float amount)
 
 > Linearly interpolate a color.
 
-static Color Lighten(Color, double)
+static Color Lighten(Color inColor, double inAmount)
 
 > 
 
-static Color Multiply(Color, float)
+static Color Multiply(Color value, float scale)
 
 > Multiply each color component by the scale factor.
 
-bool Equals(object)
+bool Equals(object obj)
 
 > Test an instance of a color object to see if it is equal to this object.
 
-bool Equals(Color)
+bool Equals(Color other)
 
 > Test a color to see if it is equal to the color in this instance.
 

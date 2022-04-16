@@ -33,37 +33,37 @@ public struct Vector3UByte
 
 #### Constructors
 
-[Vector3UByte(byte, byte, byte)](VRageMath.Vector3UByte..ctor)
+[Vector3UByte(byte x, byte y, byte z)](VRageMath.Vector3UByte..ctor)
 
 > 
 
-[Vector3UByte(Vector3I)](VRageMath.Vector3UByte..ctor)
+[Vector3UByte(Vector3I vec)](VRageMath.Vector3UByte..ctor)
 
 > 
 
 #### Methods
 
-[static Vector3 Denormalize(Vector3UByte, float)](VRageMath.Vector3UByte.Denormalize)
+[static Vector3 Denormalize(Vector3UByte vec, float range)](VRageMath.Vector3UByte.Denormalize)
 
 > Unpacks Vector3 from Vector3UByte, scales vector from (0, 255) to (-range, range)
 
-[static Vector3UByte Floor(Vector3)](VRageMath.Vector3UByte.Floor)
+[static Vector3UByte Floor(Vector3 vec)](VRageMath.Vector3UByte.Floor)
 
 > 
 
-[static bool IsMiddle(Vector3UByte)](VRageMath.Vector3UByte.IsMiddle)
+[static bool IsMiddle(Vector3UByte vec)](VRageMath.Vector3UByte.IsMiddle)
 
 > Returns true when all components are 127
 
-[static Vector3UByte Normalize(Vector3, float)](VRageMath.Vector3UByte.Normalize)
+[static Vector3UByte Normalize(Vector3 vec, float range)](VRageMath.Vector3UByte.Normalize)
 
 > Normalizes Vector3 into Vector4UByte, scales vector from (-range, range) to (0, 255). Unsafe for values "range >= any_vec_value / 257";
 
-[static Vector3UByte Round(Vector3)](VRageMath.Vector3UByte.Round)
+[static Vector3UByte Round(Vector3 vec)](VRageMath.Vector3UByte.Round)
 
 > 
 
-[bool Equals(object)](VRageMath.Vector3UByte.Equals)
+[bool Equals(object obj)](VRageMath.Vector3UByte.Equals)
 
 > 
 

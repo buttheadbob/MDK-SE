@@ -26,21 +26,21 @@ Defines a ray.
 
 #### Constructors
 
-[RayD(Vector3D, Vector3D)](VRageMath.RayD..ctor)
+[RayD(Vector3D position, Vector3D direction)](VRageMath.RayD..ctor)
 
 > 
 
-[RayD(ref Vector3D, ref Vector3D)](VRageMath.RayD..ctor)
+[RayD(ref Vector3D position, ref Vector3D direction)](VRageMath.RayD..ctor)
 
 > 
 
 #### Methods
 
-[bool Equals(RayD)](VRageMath.RayD.Equals)
+[bool Equals(RayD other)](VRageMath.RayD.Equals)
 
 > Determines whether the specified Ray is equal to the current Ray.
 
-[bool Equals(object)](VRageMath.RayD.Equals)
+[bool Equals(object obj)](VRageMath.RayD.Equals)
 
 > Determines whether two instances of Ray are equal.
 
@@ -48,31 +48,31 @@ Defines a ray.
 
 > Gets the hash code for this instance.
 
-[double? Intersects(BoundingBoxD)](VRageMath.RayD.Intersects)
+[double? Intersects(BoundingBoxD box)](VRageMath.RayD.Intersects)
 
 > Checks whether the Ray intersects a specified BoundingBox.
 
-[void Intersects(ref BoundingBoxD, out double?)](VRageMath.RayD.Intersects)
+[void Intersects(ref BoundingBoxD box, out double? result)](VRageMath.RayD.Intersects)
 
 > Checks whether the current Ray intersects a BoundingBox.
 
-[double? Intersects(BoundingFrustumD)](VRageMath.RayD.Intersects)
+[double? Intersects(BoundingFrustumD frustum)](VRageMath.RayD.Intersects)
 
 > Checks whether the Ray intersects a specified BoundingFrustum.
 
-[double? Intersects(PlaneD)](VRageMath.RayD.Intersects)
+[double? Intersects(PlaneD plane)](VRageMath.RayD.Intersects)
 
 > Determines whether this Ray intersects a specified Plane.
 
-[void Intersects(ref PlaneD, out double?)](VRageMath.RayD.Intersects)
+[void Intersects(ref PlaneD plane, out double? result)](VRageMath.RayD.Intersects)
 
 > Determines whether this Ray intersects a specified Plane.
 
-[double? Intersects(BoundingSphereD)](VRageMath.RayD.Intersects)
+[double? Intersects(BoundingSphereD sphere)](VRageMath.RayD.Intersects)
 
 > Checks whether the Ray intersects a specified BoundingSphere.
 
-[void Intersects(ref BoundingSphere, out double?)](VRageMath.RayD.Intersects)
+[void Intersects(ref BoundingSphere sphere, out double? result)](VRageMath.RayD.Intersects)
 
 > Checks whether the current Ray intersects a BoundingSphere.
 

@@ -80,37 +80,37 @@ Defines an axis-aligned box-shaped 3D volume.
 
 #### Constructors
 
-[BoundingBox(Vector3, Vector3)](VRageMath.BoundingBox..ctor)
+[BoundingBox(Vector3 min, Vector3 max)](VRageMath.BoundingBox..ctor)
 
 > 
 
-[BoundingBox(BoundingBoxD)](VRageMath.BoundingBox..ctor)
+[BoundingBox(BoundingBoxD bbd)](VRageMath.BoundingBox..ctor)
 
 > 
 
-[BoundingBox(BoundingBoxI)](VRageMath.BoundingBox..ctor)
+[BoundingBox(BoundingBoxI bbd)](VRageMath.BoundingBox..ctor)
 
 > 
 
 #### Methods
 
-[static BoundingBox CreateFromHalfExtent(Vector3, float)](VRageMath.BoundingBox.CreateFromHalfExtent)
+[static BoundingBox CreateFromHalfExtent(Vector3 center, float halfExtent)](VRageMath.BoundingBox.CreateFromHalfExtent)
 
 > 
 
-[static BoundingBox CreateFromHalfExtent(Vector3, Vector3)](VRageMath.BoundingBox.CreateFromHalfExtent)
+[static BoundingBox CreateFromHalfExtent(Vector3 center, Vector3 halfExtent)](VRageMath.BoundingBox.CreateFromHalfExtent)
 
 > 
 
-[static BoundingBox CreateFromPoints(IEnumerable&lt;Vector3&gt;)](VRageMath.BoundingBox.CreateFromPoints)
+[static BoundingBox CreateFromPoints(IEnumerable&lt;Vector3&gt; points)](VRageMath.BoundingBox.CreateFromPoints)
 
 > Creates the smallest BoundingBox that will contain a group of points.
 
-[static BoundingBox CreateFromSphere(BoundingSphere)](VRageMath.BoundingBox.CreateFromSphere)
+[static BoundingBox CreateFromSphere(BoundingSphere sphere)](VRageMath.BoundingBox.CreateFromSphere)
 
 > Creates the smallest BoundingBox that will contain the specified BoundingSphere.
 
-[static void CreateFromSphere(ref BoundingSphere, out BoundingBox)](VRageMath.BoundingBox.CreateFromSphere)
+[static void CreateFromSphere(ref BoundingSphere sphere, out BoundingBox result)](VRageMath.BoundingBox.CreateFromSphere)
 
 > Creates the smallest BoundingBox that will contain the specified BoundingSphere.
 
@@ -118,63 +118,63 @@ Defines an axis-aligned box-shaped 3D volume.
 
 > 
 
-[static BoundingBox CreateMerged(BoundingBox, BoundingBox)](VRageMath.BoundingBox.CreateMerged)
+[static BoundingBox CreateMerged(BoundingBox original, BoundingBox additional)](VRageMath.BoundingBox.CreateMerged)
 
 > Creates the smallest BoundingBox that contains the two specified BoundingBox instances.
 
-[static void CreateMerged(ref BoundingBox, ref BoundingBox, out BoundingBox)](VRageMath.BoundingBox.CreateMerged)
+[static void CreateMerged(ref BoundingBox original, ref BoundingBox additional, out BoundingBox result)](VRageMath.BoundingBox.CreateMerged)
 
 > Creates the smallest BoundingBox that contains the two specified BoundingBox instances.
 
-[ContainmentType Contains(BoundingBox)](VRageMath.BoundingBox.Contains)
+[ContainmentType Contains(BoundingBox box)](VRageMath.BoundingBox.Contains)
 
 > Tests whether the BoundingBox contains another BoundingBox.
 
-[void Contains(ref BoundingBox, out ContainmentType)](VRageMath.BoundingBox.Contains)
+[void Contains(ref BoundingBox box, out ContainmentType result)](VRageMath.BoundingBox.Contains)
 
 > Tests whether the BoundingBox contains a BoundingBox.
 
-[ContainmentType Contains(BoundingFrustum)](VRageMath.BoundingBox.Contains)
+[ContainmentType Contains(BoundingFrustum frustum)](VRageMath.BoundingBox.Contains)
 
 > Tests whether the BoundingBox contains a BoundingFrustum.
 
-[ContainmentType Contains(Vector3)](VRageMath.BoundingBox.Contains)
+[ContainmentType Contains(Vector3 point)](VRageMath.BoundingBox.Contains)
 
 > Tests whether the BoundingBox contains a point.
 
-[ContainmentType Contains(Vector3D)](VRageMath.BoundingBox.Contains)
+[ContainmentType Contains(Vector3D point)](VRageMath.BoundingBox.Contains)
 
 > 
 
-[void Contains(ref Vector3, out ContainmentType)](VRageMath.BoundingBox.Contains)
+[void Contains(ref Vector3 point, out ContainmentType result)](VRageMath.BoundingBox.Contains)
 
 > Tests whether the BoundingBox contains a point.
 
-[ContainmentType Contains(BoundingSphere)](VRageMath.BoundingBox.Contains)
+[ContainmentType Contains(BoundingSphere sphere)](VRageMath.BoundingBox.Contains)
 
 > Tests whether the BoundingBox contains a BoundingSphere.
 
-[void Contains(ref BoundingSphere, out ContainmentType)](VRageMath.BoundingBox.Contains)
+[void Contains(ref BoundingSphere sphere, out ContainmentType result)](VRageMath.BoundingBox.Contains)
 
 > Tests whether the BoundingBox contains a BoundingSphere.
 
-[float Distance(Vector3)](VRageMath.BoundingBox.Distance)
+[float Distance(Vector3 point)](VRageMath.BoundingBox.Distance)
 
 > 
 
-[float DistanceSquared(Vector3)](VRageMath.BoundingBox.DistanceSquared)
+[float DistanceSquared(Vector3 point)](VRageMath.BoundingBox.DistanceSquared)
 
 > 
 
-[bool Equals(BoundingBox)](VRageMath.BoundingBox.Equals)
+[bool Equals(BoundingBox other)](VRageMath.BoundingBox.Equals)
 
 > Determines whether two instances of BoundingBox are equal.
 
-[bool Equals(object)](VRageMath.BoundingBox.Equals)
+[bool Equals(object obj)](VRageMath.BoundingBox.Equals)
 
 > Determines whether two instances of BoundingBox are equal.
 
-[bool Equals(BoundingBox, float)](VRageMath.BoundingBox.Equals)
+[bool Equals(BoundingBox other, float epsilon)](VRageMath.BoundingBox.Equals)
 
 > 
 
@@ -182,11 +182,11 @@ Defines an axis-aligned box-shaped 3D volume.
 
 > Gets an array of points that make up the corners of the BoundingBox. ALLOCATION!
 
-[void GetCorners(Vector3&#91&#93;)](VRageMath.BoundingBox.GetCorners)
+[void GetCorners(Vector3&#91&#93; corners)](VRageMath.BoundingBox.GetCorners)
 
 > Gets the array of points that make up the corners of the BoundingBox.
 
-[void GetCornersUnsafe(*Vector3)](VRageMath.BoundingBox.GetCornersUnsafe)
+[void GetCornersUnsafe(*Vector3 corners)](VRageMath.BoundingBox.GetCornersUnsafe)
 
 > 
 
@@ -194,131 +194,131 @@ Defines an axis-aligned box-shaped 3D volume.
 
 > Gets the hash code for this instance.
 
-[BoundingBox GetIncluded(Vector3)](VRageMath.BoundingBox.GetIncluded)
+[BoundingBox GetIncluded(Vector3 point)](VRageMath.BoundingBox.GetIncluded)
 
 > 
 
-[BoundingBox Include(ref Vector3)](VRageMath.BoundingBox.Include)
+[BoundingBox Include(ref Vector3 point)](VRageMath.BoundingBox.Include)
 
 > return expanded aabb (aabb include point)
 
-[BoundingBox Include(Vector3)](VRageMath.BoundingBox.Include)
+[BoundingBox Include(Vector3 point)](VRageMath.BoundingBox.Include)
 
 > 
 
-[BoundingBox Include(Vector3, Vector3, Vector3)](VRageMath.BoundingBox.Include)
+[BoundingBox Include(Vector3 p0, Vector3 p1, Vector3 p2)](VRageMath.BoundingBox.Include)
 
 > 
 
-[BoundingBox Include(ref Vector3, ref Vector3, ref Vector3)](VRageMath.BoundingBox.Include)
+[BoundingBox Include(ref Vector3 p0, ref Vector3 p1, ref Vector3 p2)](VRageMath.BoundingBox.Include)
 
 > 
 
-[BoundingBox Include(ref BoundingBox)](VRageMath.BoundingBox.Include)
+[BoundingBox Include(ref BoundingBox box)](VRageMath.BoundingBox.Include)
 
 > return expanded aabb (aabb include aabb)
 
-[BoundingBox Include(BoundingBox)](VRageMath.BoundingBox.Include)
+[BoundingBox Include(BoundingBox box)](VRageMath.BoundingBox.Include)
 
 > 
 
-[void Include(ref Line)](VRageMath.BoundingBox.Include)
+[void Include(ref Line line)](VRageMath.BoundingBox.Include)
 
 > 
 
-[BoundingBox Include(BoundingSphere)](VRageMath.BoundingBox.Include)
+[BoundingBox Include(BoundingSphere sphere)](VRageMath.BoundingBox.Include)
 
 > 
 
-[BoundingBox Include(ref BoundingSphere)](VRageMath.BoundingBox.Include)
+[BoundingBox Include(ref BoundingSphere sphere)](VRageMath.BoundingBox.Include)
 
 > 
 
-[BoundingBox Include(ref BoundingFrustum)](VRageMath.BoundingBox.Include)
+[BoundingBox Include(ref BoundingFrustum frustum)](VRageMath.BoundingBox.Include)
 
 > 
 
-[void Inflate(float)](VRageMath.BoundingBox.Inflate)
+[void Inflate(float size)](VRageMath.BoundingBox.Inflate)
 
 > 
 
-[void Inflate(Vector3)](VRageMath.BoundingBox.Inflate)
+[void Inflate(Vector3 size)](VRageMath.BoundingBox.Inflate)
 
 > 
 
-[void InflateToMinimum(Vector3)](VRageMath.BoundingBox.InflateToMinimum)
+[void InflateToMinimum(Vector3 minimumSize)](VRageMath.BoundingBox.InflateToMinimum)
 
 > 
 
-[BoundingBox Intersect(BoundingBox)](VRageMath.BoundingBox.Intersect)
+[BoundingBox Intersect(BoundingBox box)](VRageMath.BoundingBox.Intersect)
 
 > Returns bounding box which is intersection of this and box Result is invalid box when there's no intersection (Min > Max)
 
-[bool Intersects(BoundingBox)](VRageMath.BoundingBox.Intersects)
+[bool Intersects(BoundingBox box)](VRageMath.BoundingBox.Intersects)
 
 > Checks whether the current BoundingBox intersects another BoundingBox.
 
-[bool Intersects(ref BoundingBox)](VRageMath.BoundingBox.Intersects)
+[bool Intersects(ref BoundingBox box)](VRageMath.BoundingBox.Intersects)
 
 > 
 
-[void Intersects(ref BoundingBox, out bool)](VRageMath.BoundingBox.Intersects)
+[void Intersects(ref BoundingBox box, out bool result)](VRageMath.BoundingBox.Intersects)
 
 > Checks whether the current BoundingBox intersects another BoundingBox.
 
-[bool Intersects(BoundingFrustum)](VRageMath.BoundingBox.Intersects)
+[bool Intersects(BoundingFrustum frustum)](VRageMath.BoundingBox.Intersects)
 
 > Checks whether the current BoundingBox intersects a BoundingFrustum.
 
-[PlaneIntersectionType Intersects(Plane)](VRageMath.BoundingBox.Intersects)
+[PlaneIntersectionType Intersects(Plane plane)](VRageMath.BoundingBox.Intersects)
 
 > Checks whether the current BoundingBox intersects a Plane.
 
-[void Intersects(ref Plane, out PlaneIntersectionType)](VRageMath.BoundingBox.Intersects)
+[void Intersects(ref Plane plane, out PlaneIntersectionType result)](VRageMath.BoundingBox.Intersects)
 
 > Checks whether the current BoundingBox intersects a Plane.
 
-[bool Intersects(Line, out float)](VRageMath.BoundingBox.Intersects)
+[bool Intersects(Line line, out float distance)](VRageMath.BoundingBox.Intersects)
 
 > 
 
-[float? Intersects(Ray)](VRageMath.BoundingBox.Intersects)
+[float? Intersects(Ray ray)](VRageMath.BoundingBox.Intersects)
 
 > Checks whether the current BoundingBox intersects a Ray.
 
-[void Intersects(ref Ray, out float?)](VRageMath.BoundingBox.Intersects)
+[void Intersects(ref Ray ray, out float? result)](VRageMath.BoundingBox.Intersects)
 
 > Checks whether the current BoundingBox intersects a Ray.
 
-[bool Intersects(BoundingSphere)](VRageMath.BoundingBox.Intersects)
+[bool Intersects(BoundingSphere sphere)](VRageMath.BoundingBox.Intersects)
 
 > Checks whether the current BoundingBox intersects a BoundingSphere.
 
-[void Intersects(ref BoundingSphere, out bool)](VRageMath.BoundingBox.Intersects)
+[void Intersects(ref BoundingSphere sphere, out bool result)](VRageMath.BoundingBox.Intersects)
 
 > Checks whether the current BoundingBox intersects a BoundingSphere.
 
-[bool Intersects(ref BoundingSphere)](VRageMath.BoundingBox.Intersects)
+[bool Intersects(ref BoundingSphere sphere)](VRageMath.BoundingBox.Intersects)
 
 > 
 
-[bool Intersects(ref BoundingSphereD)](VRageMath.BoundingBox.Intersects)
+[bool Intersects(ref BoundingSphereD sphere)](VRageMath.BoundingBox.Intersects)
 
 > 
 
-[bool IntersectsTriangle(Vector3, Vector3, Vector3)](VRageMath.BoundingBox.IntersectsTriangle)
+[bool IntersectsTriangle(Vector3 v0, Vector3 v1, Vector3 v2)](VRageMath.BoundingBox.IntersectsTriangle)
 
 > 
 
-[bool IntersectsTriangle(ref Vector3, ref Vector3, ref Vector3)](VRageMath.BoundingBox.IntersectsTriangle)
+[bool IntersectsTriangle(ref Vector3 v0, ref Vector3 v1, ref Vector3 v2)](VRageMath.BoundingBox.IntersectsTriangle)
 
 > 
 
-[float ProjectedArea(Vector3)](VRageMath.BoundingBox.ProjectedArea)
+[float ProjectedArea(Vector3 viewDir)](VRageMath.BoundingBox.ProjectedArea)
 
 > 
 
-[BoundingBox Round(int)](VRageMath.BoundingBox.Round)
+[BoundingBox Round(int decimals)](VRageMath.BoundingBox.Round)
 
 > 
 
@@ -326,7 +326,7 @@ Defines an axis-aligned box-shaped 3D volume.
 
 > 
 
-[void Scale(Vector3)](VRageMath.BoundingBox.Scale)
+[void Scale(Vector3 scale)](VRageMath.BoundingBox.Scale)
 
 > 
 
@@ -338,35 +338,35 @@ Defines an axis-aligned box-shaped 3D volume.
 
 > Returns a String that represents the current BoundingBox.
 
-[BoundingBox Transform(Matrix)](VRageMath.BoundingBox.Transform)
+[BoundingBox Transform(Matrix worldMatrix)](VRageMath.BoundingBox.Transform)
 
 > 
 
-[BoundingBoxD Transform(MatrixD)](VRageMath.BoundingBox.Transform)
+[BoundingBoxD Transform(MatrixD worldMatrix)](VRageMath.BoundingBox.Transform)
 
 > 
 
-[BoundingBox Transform(ref Matrix)](VRageMath.BoundingBox.Transform)
+[BoundingBox Transform(ref Matrix m)](VRageMath.BoundingBox.Transform)
 
 > 
 
-[void Transform(ref Matrix, ref BoundingBox)](VRageMath.BoundingBox.Transform)
+[void Transform(ref Matrix m, ref BoundingBox bb)](VRageMath.BoundingBox.Transform)
 
 > 
 
-[BoundingBoxD Transform(ref MatrixD)](VRageMath.BoundingBox.Transform)
+[BoundingBoxD Transform(ref MatrixD m)](VRageMath.BoundingBox.Transform)
 
 > 
 
-[void Transform(ref MatrixD, ref BoundingBoxD)](VRageMath.BoundingBox.Transform)
+[void Transform(ref MatrixD m, ref BoundingBoxD bb)](VRageMath.BoundingBox.Transform)
 
 > 
 
-[BoundingBox Translate(Matrix)](VRageMath.BoundingBox.Translate)
+[BoundingBox Translate(Matrix worldMatrix)](VRageMath.BoundingBox.Translate)
 
 > Translate
 
-[BoundingBox Translate(Vector3)](VRageMath.BoundingBox.Translate)
+[BoundingBox Translate(Vector3 vctTranlsation)](VRageMath.BoundingBox.Translate)
 
 > Translate
 

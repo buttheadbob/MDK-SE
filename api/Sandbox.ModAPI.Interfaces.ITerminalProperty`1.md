@@ -28,27 +28,27 @@ public interface ITerminalProperty<TValue>: ITerminalProperty
 
 #### Methods
 
-[TValue GetDefaultValue(IMyCubeBlock)](Sandbox.ModAPI.Interfaces.ITerminalProperty`1.GetDefaultValue)
+[TValue GetDefaultValue(IMyCubeBlock block)](Sandbox.ModAPI.Interfaces.ITerminalProperty`1.GetDefaultValue)
 
 > 
 
-[TValue GetMaximum(IMyCubeBlock)](Sandbox.ModAPI.Interfaces.ITerminalProperty`1.GetMaximum)
+[TValue GetMaximum(IMyCubeBlock block)](Sandbox.ModAPI.Interfaces.ITerminalProperty`1.GetMaximum)
 
 > 
 
-[TValue GetMinimum(IMyCubeBlock)](Sandbox.ModAPI.Interfaces.ITerminalProperty`1.GetMinimum)
+[TValue GetMinimum(IMyCubeBlock block)](Sandbox.ModAPI.Interfaces.ITerminalProperty`1.GetMinimum)
 
 > 
 
-[TValue GetMininum(IMyCubeBlock)](Sandbox.ModAPI.Interfaces.ITerminalProperty`1.GetMininum)
+[TValue GetMininum(IMyCubeBlock block)](Sandbox.ModAPI.Interfaces.ITerminalProperty`1.GetMininum)
 
 > _**Obsolete:** Use GetMinimum instead_
 
-[TValue GetValue(IMyCubeBlock)](Sandbox.ModAPI.Interfaces.ITerminalProperty`1.GetValue)
+[TValue GetValue(IMyCubeBlock block)](Sandbox.ModAPI.Interfaces.ITerminalProperty`1.GetValue)
 
 > 
 
-[void SetValue(IMyCubeBlock, TValue)](Sandbox.ModAPI.Interfaces.ITerminalProperty`1.SetValue)
+[void SetValue(IMyCubeBlock block, TValue value)](Sandbox.ModAPI.Interfaces.ITerminalProperty`1.SetValue)
 
 > 
 

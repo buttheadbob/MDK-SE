@@ -31,21 +31,21 @@ Snapshot of inventory item at the moment of query. Not updated afterwards!
 
 #### Constructors
 
-[MyInventoryItem(MyItemType, uint, MyFixedPoint)](VRage.Game.ModAPI.Ingame.MyInventoryItem..ctor)
+[MyInventoryItem(MyItemType type, uint itemId, MyFixedPoint amount)](VRage.Game.ModAPI.Ingame.MyInventoryItem..ctor)
 
 > 
 
 #### Methods
 
-[int CompareTo(MyInventoryItem)](VRage.Game.ModAPI.Ingame.MyInventoryItem.CompareTo)
+[int CompareTo(MyInventoryItem other)](VRage.Game.ModAPI.Ingame.MyInventoryItem.CompareTo)
 
 > 
 
-[bool Equals(MyInventoryItem)](VRage.Game.ModAPI.Ingame.MyInventoryItem.Equals)
+[bool Equals(MyInventoryItem other)](VRage.Game.ModAPI.Ingame.MyInventoryItem.Equals)
 
 > 
 
-[bool Equals(object)](VRage.Game.ModAPI.Ingame.MyInventoryItem.Equals)
+[bool Equals(object obj)](VRage.Game.ModAPI.Ingame.MyInventoryItem.Equals)
 
 > 
 

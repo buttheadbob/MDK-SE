@@ -103,7 +103,7 @@ Basic block interface (PB scripting interface)
 
 #### Methods
 
-[void GetMissingComponents(Dictionary&lt;string, int&gt;)](VRage.Game.ModAPI.Ingame.IMySlimBlock.GetMissingComponents)
+[void GetMissingComponents(Dictionary&lt;string, int&gt; addToDictionary)](VRage.Game.ModAPI.Ingame.IMySlimBlock.GetMissingComponents)
 
 > Gets the list of missing components for this block
 

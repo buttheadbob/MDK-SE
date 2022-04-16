@@ -35,21 +35,21 @@ public struct MyBlockOrientation
 
 #### Constructors
 
-[MyBlockOrientation(Direction, Direction)](VRageMath.MyBlockOrientation..ctor)
+[MyBlockOrientation(Direction forward, Direction up)](VRageMath.MyBlockOrientation..ctor)
 
 > 
 
-[MyBlockOrientation(ref Quaternion)](VRageMath.MyBlockOrientation..ctor)
+[MyBlockOrientation(ref Quaternion q)](VRageMath.MyBlockOrientation..ctor)
 
 > 
 
-[MyBlockOrientation(ref Matrix)](VRageMath.MyBlockOrientation..ctor)
+[MyBlockOrientation(ref Matrix m)](VRageMath.MyBlockOrientation..ctor)
 
 > 
 
 #### Methods
 
-[bool Equals(object)](VRageMath.MyBlockOrientation.Equals)
+[bool Equals(object obj)](VRageMath.MyBlockOrientation.Equals)
 
 > 
 
@@ -57,11 +57,11 @@ public struct MyBlockOrientation
 
 > 
 
-[void GetMatrix(out Matrix)](VRageMath.MyBlockOrientation.GetMatrix)
+[void GetMatrix(out Matrix result)](VRageMath.MyBlockOrientation.GetMatrix)
 
 > 
 
-[void GetQuaternion(out Quaternion)](VRageMath.MyBlockOrientation.GetQuaternion)
+[void GetQuaternion(out Quaternion result)](VRageMath.MyBlockOrientation.GetQuaternion)
 
 > 
 
@@ -69,11 +69,11 @@ public struct MyBlockOrientation
 
 > 
 
-[Direction TransformDirection(Direction)](VRageMath.MyBlockOrientation.TransformDirection)
+[Direction TransformDirection(Direction baseDirection)](VRageMath.MyBlockOrientation.TransformDirection)
 
 > 
 
-[Direction TransformDirectionInverse(Direction)](VRageMath.MyBlockOrientation.TransformDirectionInverse)
+[Direction TransformDirectionInverse(Direction baseDirection)](VRageMath.MyBlockOrientation.TransformDirectionInverse)
 
 > 
 

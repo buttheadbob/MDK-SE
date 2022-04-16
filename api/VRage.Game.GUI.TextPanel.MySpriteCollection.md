@@ -17,7 +17,7 @@ public struct MySpriteCollection
 
 #### Constructors
 
-[MySpriteCollection(MySprite&#91&#93;)](VRage.Game.GUI.TextPanel.MySpriteCollection..ctor)
+[MySpriteCollection(MySprite&#91&#93; sprites)](VRage.Game.GUI.TextPanel.MySpriteCollection..ctor)
 
 > 
 

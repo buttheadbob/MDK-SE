@@ -11,7 +11,7 @@ public interface IAddOp<T>
 
 #### Methods
 
-[void Add(T, bool)](VRageMath.IAddOp`1.Add)
+[void Add(T userData, bool contained)](VRageMath.IAddOp`1.Add)
 
 > 
 

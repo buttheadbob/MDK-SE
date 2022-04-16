@@ -25,7 +25,7 @@ public struct MyStoreItemDataSimple
 
 #### Constructors
 
-[MyStoreItemDataSimple(SerializableDefinitionId, int, int)](VRage.Game.ModAPI.Ingame.MyStoreItemDataSimple..ctor)
+[MyStoreItemDataSimple(SerializableDefinitionId itemId, int amount, int pricePerUnit)](VRage.Game.ModAPI.Ingame.MyStoreItemDataSimple..ctor)
 
 > 
 

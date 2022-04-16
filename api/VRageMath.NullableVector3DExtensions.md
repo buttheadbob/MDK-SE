@@ -11,11 +11,11 @@ public abstract sealed class NullableVector3DExtensions
 
 #### Methods
 
-[static void AssertIsValid(this Vector3D?)](VRageMath.NullableVector3DExtensions.AssertIsValid)
+[static void AssertIsValid(this Vector3D? value)](VRageMath.NullableVector3DExtensions.AssertIsValid)
 
 > 
 
-[static bool IsValid(this Vector3D?)](VRageMath.NullableVector3DExtensions.IsValid)
+[static bool IsValid(this Vector3D? value)](VRageMath.NullableVector3DExtensions.IsValid)
 
 > 
 

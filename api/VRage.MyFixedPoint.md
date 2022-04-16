@@ -46,63 +46,63 @@ Fixed point number represented as 64-bit integer with 6 decimal places (one mill
 
 #### Methods
 
-[static MyFixedPoint AddSafe(MyFixedPoint, MyFixedPoint)](VRage.MyFixedPoint.AddSafe)
+[static MyFixedPoint AddSafe(MyFixedPoint a, MyFixedPoint b)](VRage.MyFixedPoint.AddSafe)
 
 > 
 
-[static MyFixedPoint Ceiling(MyFixedPoint)](VRage.MyFixedPoint.Ceiling)
+[static MyFixedPoint Ceiling(MyFixedPoint a)](VRage.MyFixedPoint.Ceiling)
 
 > 
 
-[static MyFixedPoint DeserializeString(string)](VRage.MyFixedPoint.DeserializeString)
+[static MyFixedPoint DeserializeString(string text)](VRage.MyFixedPoint.DeserializeString)
 
 > 
 
-[static MyFixedPoint DeserializeStringSafe(string)](VRage.MyFixedPoint.DeserializeStringSafe)
+[static MyFixedPoint DeserializeStringSafe(string text)](VRage.MyFixedPoint.DeserializeStringSafe)
 
 > For XmlSerialization, format is 123.456789 Handles double and decimal formats too.
 
-[static MyFixedPoint Floor(MyFixedPoint)](VRage.MyFixedPoint.Floor)
+[static MyFixedPoint Floor(MyFixedPoint a)](VRage.MyFixedPoint.Floor)
 
 > 
 
-[static bool IsIntegral(MyFixedPoint)](VRage.MyFixedPoint.IsIntegral)
+[static bool IsIntegral(MyFixedPoint fp)](VRage.MyFixedPoint.IsIntegral)
 
 > 
 
-[static MyFixedPoint Max(MyFixedPoint, MyFixedPoint)](VRage.MyFixedPoint.Max)
+[static MyFixedPoint Max(MyFixedPoint a, MyFixedPoint b)](VRage.MyFixedPoint.Max)
 
 > 
 
-[static MyFixedPoint Min(MyFixedPoint, MyFixedPoint)](VRage.MyFixedPoint.Min)
+[static MyFixedPoint Min(MyFixedPoint a, MyFixedPoint b)](VRage.MyFixedPoint.Min)
 
 > 
 
-[static MyFixedPoint MultiplySafe(MyFixedPoint, float)](VRage.MyFixedPoint.MultiplySafe)
+[static MyFixedPoint MultiplySafe(MyFixedPoint a, float b)](VRage.MyFixedPoint.MultiplySafe)
 
 > 
 
-[static MyFixedPoint MultiplySafe(MyFixedPoint, int)](VRage.MyFixedPoint.MultiplySafe)
+[static MyFixedPoint MultiplySafe(MyFixedPoint a, int b)](VRage.MyFixedPoint.MultiplySafe)
 
 > 
 
-[static MyFixedPoint MultiplySafe(float, MyFixedPoint)](VRage.MyFixedPoint.MultiplySafe)
+[static MyFixedPoint MultiplySafe(float a, MyFixedPoint b)](VRage.MyFixedPoint.MultiplySafe)
 
 > 
 
-[static MyFixedPoint MultiplySafe(int, MyFixedPoint)](VRage.MyFixedPoint.MultiplySafe)
+[static MyFixedPoint MultiplySafe(int a, MyFixedPoint b)](VRage.MyFixedPoint.MultiplySafe)
 
 > 
 
-[static MyFixedPoint MultiplySafe(MyFixedPoint, MyFixedPoint)](VRage.MyFixedPoint.MultiplySafe)
+[static MyFixedPoint MultiplySafe(MyFixedPoint a, MyFixedPoint b)](VRage.MyFixedPoint.MultiplySafe)
 
 > 
 
-[static MyFixedPoint Round(MyFixedPoint)](VRage.MyFixedPoint.Round)
+[static MyFixedPoint Round(MyFixedPoint a)](VRage.MyFixedPoint.Round)
 
 > 
 
-[bool Equals(object)](VRage.MyFixedPoint.Equals)
+[bool Equals(object obj)](VRage.MyFixedPoint.Equals)
 
 > 
 

@@ -41,23 +41,23 @@ Stores an arbitrary collection of 2D CurveKey points, and provides methods for e
 
 > Creates a copy of the Curve.
 
-[void ComputeTangent(int, CurveTangent)](VRageMath.Curve.ComputeTangent)
+[void ComputeTangent(int keyIndex, CurveTangent tangentType)](VRageMath.Curve.ComputeTangent)
 
 > Computes both the TangentIn and the TangentOut for a CurveKey specified by its index.
 
-[void ComputeTangent(int, CurveTangent, CurveTangent)](VRageMath.Curve.ComputeTangent)
+[void ComputeTangent(int keyIndex, CurveTangent tangentInType, CurveTangent tangentOutType)](VRageMath.Curve.ComputeTangent)
 
 > Computes a specified type of TangentIn and a specified type of TangentOut for a given CurveKey.
 
-[void ComputeTangents(CurveTangent)](VRageMath.Curve.ComputeTangents)
+[void ComputeTangents(CurveTangent tangentType)](VRageMath.Curve.ComputeTangents)
 
 > Computes all tangents for all CurveKeys in this Curve, using a specified tangent type for both TangentIn and TangentOut.
 
-[void ComputeTangents(CurveTangent, CurveTangent)](VRageMath.Curve.ComputeTangents)
+[void ComputeTangents(CurveTangent tangentInType, CurveTangent tangentOutType)](VRageMath.Curve.ComputeTangents)
 
 > Computes all tangents for all CurveKeys in this Curve, using different tangent types for TangentOut and TangentIn.
 
-[float Evaluate(float)](VRageMath.Curve.Evaluate)
+[float Evaluate(float position)](VRageMath.Curve.Evaluate)
 
 > Finds the value at a position on the Curve.
 

@@ -303,11 +303,11 @@ Describes terminal block (PB scripting interface)
 
 #### Methods
 
-[void GetActions(List&lt;ITerminalAction&gt;, Func&lt;ITerminalAction, bool&gt; = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)
+[void GetActions(List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)
 
 > Get all terminal actions available for block
 
-[ITerminalAction GetActionWithName(string)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActionWithName)
+[ITerminalAction GetActionWithName(string name)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActionWithName)
 
 > Get first found terminal action with name
 
@@ -317,7 +317,7 @@ Describes terminal block (PB scripting interface)
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
-[IMyInventory GetInventory(int)](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)
+[IMyInventory GetInventory(int index)](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)
 
 > Search for inventory component with maching index.  
 >   
@@ -343,15 +343,15 @@ Describes terminal block (PB scripting interface)
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
-[void GetProperties(List&lt;ITerminalProperty&gt;, Func&lt;ITerminalProperty, bool&gt; = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetProperties)
+[void GetProperties(List&lt;ITerminalProperty&gt; resultList, Func&lt;ITerminalProperty, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetProperties)
 
 > Get all terminal actions available for block.
 
-[ITerminalProperty GetProperty(string)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetProperty)
+[ITerminalProperty GetProperty(string id)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetProperty)
 
 > Finds terminal property with provided id
 
-[MyRelationsBetweenPlayerAndBlock GetUserRelationToOwner(long, MyRelationsBetweenPlayerAndBlock = MyRelationsBetweenPlayerAndBlock.NoOwnership)](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetUserRelationToOwner)
+[MyRelationsBetweenPlayerAndBlock GetUserRelationToOwner(long playerId, MyRelationsBetweenPlayerAndBlock defaultNoUser = MyRelationsBetweenPlayerAndBlock.NoOwnership)](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetUserRelationToOwner)
 
 > Gets relation to owner of block  
 >   
@@ -361,17 +361,17 @@ Describes terminal block (PB scripting interface)
 
 > Returns if local player can use block. Executes [HasPlayerAccess(long, MyRelationsBetweenPlayerAndBlock = MyRelationsBetweenPlayerAndBlock.NoOwnership)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.HasPlayerAccess) with local player identityId. On Dedicated Server as identityId it is using 0 as playerId
 
-[bool HasPlayerAccess(long, MyRelationsBetweenPlayerAndBlock = MyRelationsBetweenPlayerAndBlock.NoOwnership)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.HasPlayerAccess)
+[bool HasPlayerAccess(long playerId, MyRelationsBetweenPlayerAndBlock defaultNoUser = MyRelationsBetweenPlayerAndBlock.NoOwnership)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.HasPlayerAccess)
 
 > Returns if local player can use block. It is also checking for admin access.
 
-[bool IsSameConstructAs(IMyTerminalBlock)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.IsSameConstructAs)
+[bool IsSameConstructAs(IMyTerminalBlock other)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.IsSameConstructAs)
 
 > Determines whether this block is [VRage.Game.ModAPI.GridLinkTypeEnum.Mechanical](https://docs.microsoft.com/en-us/dotnet/api/vrage.game.modapi.gridlinktypeenum.mechanical?view=netframework-4.6) connected to the other. This is any block connected with rotors or pistons or other mechanical devices, but not things like connectors. This will in most cases constitute your complete construct.    
 >     
 > Be aware that using merge blocks combines grids into one, so this function will not filter out grids connected that way. Also be aware that detaching the heads of pistons and rotors will cause this connection to change.
 
-[void SearchActionsOfName(string, List&lt;ITerminalAction&gt;, Func&lt;ITerminalAction, bool&gt; = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SearchActionsOfName)
+[void SearchActionsOfName(string name, List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SearchActionsOfName)
 
 > Get all terminal actions available for block. NOTE: First called `    
 >     
@@ -379,11 +379,11 @@ Describes terminal block (PB scripting interface)
 >     
 > ` check
 
-[void SetCustomName(string)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)
+[void SetCustomName(string text)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)
 
 > _**Obsolete:** Use the setter of Customname_
 
-[void SetCustomName(StringBuilder)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)
+[void SetCustomName(StringBuilder text)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)
 
 > _**Obsolete:** Use the setter of Customname_
 

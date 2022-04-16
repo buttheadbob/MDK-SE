@@ -26,17 +26,17 @@ Defines a ray.
 
 #### Constructors
 
-[Ray(Vector3, Vector3)](VRageMath.Ray..ctor)
+[Ray(Vector3 position, Vector3 direction)](VRageMath.Ray..ctor)
 
 > 
 
 #### Methods
 
-[bool Equals(Ray)](VRageMath.Ray.Equals)
+[bool Equals(Ray other)](VRageMath.Ray.Equals)
 
 > Determines whether the specified Ray is equal to the current Ray.
 
-[bool Equals(object)](VRageMath.Ray.Equals)
+[bool Equals(object obj)](VRageMath.Ray.Equals)
 
 > Determines whether two instances of Ray are equal.
 
@@ -44,31 +44,31 @@ Defines a ray.
 
 > Gets the hash code for this instance.
 
-[float? Intersects(BoundingBox)](VRageMath.Ray.Intersects)
+[float? Intersects(BoundingBox box)](VRageMath.Ray.Intersects)
 
 > Checks whether the Ray intersects a specified BoundingBox.
 
-[void Intersects(ref BoundingBox, out float?)](VRageMath.Ray.Intersects)
+[void Intersects(ref BoundingBox box, out float? result)](VRageMath.Ray.Intersects)
 
 > Checks whether the current Ray intersects a BoundingBox.
 
-[float? Intersects(BoundingFrustum)](VRageMath.Ray.Intersects)
+[float? Intersects(BoundingFrustum frustum)](VRageMath.Ray.Intersects)
 
 > Checks whether the Ray intersects a specified BoundingFrustum.
 
-[float? Intersects(Plane)](VRageMath.Ray.Intersects)
+[float? Intersects(Plane plane)](VRageMath.Ray.Intersects)
 
 > Determines whether this Ray intersects a specified Plane.
 
-[void Intersects(ref Plane, out float?)](VRageMath.Ray.Intersects)
+[void Intersects(ref Plane plane, out float? result)](VRageMath.Ray.Intersects)
 
 > Determines whether this Ray intersects a specified Plane.
 
-[float? Intersects(BoundingSphere)](VRageMath.Ray.Intersects)
+[float? Intersects(BoundingSphere sphere)](VRageMath.Ray.Intersects)
 
 > Checks whether the Ray intersects a specified BoundingSphere.
 
-[void Intersects(ref BoundingSphere, out float?)](VRageMath.Ray.Intersects)
+[void Intersects(ref BoundingSphere sphere, out float? result)](VRageMath.Ray.Intersects)
 
 > Checks whether the current Ray intersects a BoundingSphere.
 

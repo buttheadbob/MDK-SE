@@ -20,11 +20,11 @@ public class MyTupleComparer<T1, T2>: IEqualityComparer<MyTuple<T1, T2>>
 
 #### Methods
 
-[bool Equals(MyTuple&lt;T1, T2&gt;, MyTuple&lt;T1, T2&gt;)](VRage.MyTupleComparer`2.Equals)
+[bool Equals(MyTuple&lt;T1, T2&gt; x, MyTuple&lt;T1, T2&gt; y)](VRage.MyTupleComparer`2.Equals)
 
 > 
 
-[int GetHashCode(MyTuple&lt;T1, T2&gt;)](VRage.MyTupleComparer`2.GetHashCode)
+[int GetHashCode(MyTuple&lt;T1, T2&gt; obj)](VRage.MyTupleComparer`2.GetHashCode)
 
 > 
 

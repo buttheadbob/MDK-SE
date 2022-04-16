@@ -114,11 +114,11 @@ Grid interface
 
 #### Methods
 
-[bool CubeExists(Vector3I)](VRage.Game.ModAPI.Ingame.IMyCubeGrid.CubeExists)
+[bool CubeExists(Vector3I pos)](VRage.Game.ModAPI.Ingame.IMyCubeGrid.CubeExists)
 
 > Returns true if there is any block occupying given position
 
-[IMySlimBlock GetCubeBlock(Vector3I)](VRage.Game.ModAPI.Ingame.IMyCubeGrid.GetCubeBlock)
+[IMySlimBlock GetCubeBlock(Vector3I pos)](VRage.Game.ModAPI.Ingame.IMyCubeGrid.GetCubeBlock)
 
 > Get cube block at given position
 
@@ -128,7 +128,7 @@ Grid interface
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
-[IMyInventory GetInventory(int)](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)
+[IMyInventory GetInventory(int index)](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)
 
 > Search for inventory component with maching index.  
 >   
@@ -140,17 +140,17 @@ Grid interface
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
-[Vector3D GridIntegerToWorld(Vector3I)](VRage.Game.ModAPI.Ingame.IMyCubeGrid.GridIntegerToWorld)
+[Vector3D GridIntegerToWorld(Vector3I gridCoords)](VRage.Game.ModAPI.Ingame.IMyCubeGrid.GridIntegerToWorld)
 
 > Converts grid coordinates to world space
 
-[bool IsSameConstructAs(IMyCubeGrid)](VRage.Game.ModAPI.Ingame.IMyCubeGrid.IsSameConstructAs)
+[bool IsSameConstructAs(IMyCubeGrid other)](VRage.Game.ModAPI.Ingame.IMyCubeGrid.IsSameConstructAs)
 
 > Determines whether this grid is [VRage.Game.ModAPI.GridLinkTypeEnum.Mechanical](https://docs.microsoft.com/en-us/dotnet/api/vrage.game.modapi.gridlinktypeenum.mechanical?view=netframework-4.6) connected to the other. This is any grid connected with rotors or pistons or other mechanical devices, but not things like connectors. This will in most cases constitute your complete construct.    
 >     
 > Be aware that using merge blocks combines grids into one, so this function will not filter out grids connected that way. Also be aware that detaching the heads of pistons and rotors will cause this connection to change.
 
-[Vector3I WorldToGridInteger(Vector3D)](VRage.Game.ModAPI.Ingame.IMyCubeGrid.WorldToGridInteger)
+[Vector3I WorldToGridInteger(Vector3D coords)](VRage.Game.ModAPI.Ingame.IMyCubeGrid.WorldToGridInteger)
 
 > Converts world coordinates to grid space cell coordinates
 

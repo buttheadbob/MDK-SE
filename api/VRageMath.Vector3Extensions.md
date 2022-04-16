@@ -13,7 +13,7 @@ Useful Vector3 extensions
 
 #### Methods
 
-[static Vector3 Project(this Vector3, Vector3)](VRageMath.Vector3Extensions.Project)
+[static Vector3 Project(this Vector3 projectedOntoVector, Vector3 projectedVector)](VRageMath.Vector3Extensions.Project)
 
 > Calculates projection vector
 

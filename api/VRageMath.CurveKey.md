@@ -43,15 +43,15 @@ Represents a point in a multi-point curve.
 
 > 
 
-[CurveKey(float, float)](VRageMath.CurveKey..ctor)
+[CurveKey(float position, float value)](VRageMath.CurveKey..ctor)
 
 > 
 
-[CurveKey(float, float, float, float)](VRageMath.CurveKey..ctor)
+[CurveKey(float position, float value, float tangentIn, float tangentOut)](VRageMath.CurveKey..ctor)
 
 > 
 
-[CurveKey(float, float, float, float, CurveContinuity)](VRageMath.CurveKey..ctor)
+[CurveKey(float position, float value, float tangentIn, float tangentOut, CurveContinuity continuity)](VRageMath.CurveKey..ctor)
 
 > 
 
@@ -61,15 +61,15 @@ Represents a point in a multi-point curve.
 
 > Creates a copy of the CurveKey.
 
-[int CompareTo(CurveKey)](VRageMath.CurveKey.CompareTo)
+[int CompareTo(CurveKey other)](VRageMath.CurveKey.CompareTo)
 
 > Compares this instance to another CurveKey and returns an indication of their relative values.
 
-[bool Equals(CurveKey)](VRageMath.CurveKey.Equals)
+[bool Equals(CurveKey other)](VRageMath.CurveKey.Equals)
 
 > Determines whether the specified Object is equal to the CurveKey.
 
-[bool Equals(object)](VRageMath.CurveKey.Equals)
+[bool Equals(object obj)](VRageMath.CurveKey.Equals)
 
 > Returns a value that indicates whether the current instance is equal to a specified object.
 

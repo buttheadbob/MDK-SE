@@ -42,17 +42,17 @@ public struct Vector4I: IComparable<Vector4I>
 
 #### Constructors
 
-[Vector4I(int, int, int, int)](VRageMath.Vector4I..ctor)
+[Vector4I(int x, int y, int z, int w)](VRageMath.Vector4I..ctor)
 
 > 
 
-[Vector4I(Vector3I, int)](VRageMath.Vector4I..ctor)
+[Vector4I(Vector3I xyz, int w)](VRageMath.Vector4I..ctor)
 
 > 
 
 #### Methods
 
-[int CompareTo(Vector4I)](VRageMath.Vector4I.CompareTo)
+[int CompareTo(Vector4I other)](VRageMath.Vector4I.CompareTo)
 
 > 
 

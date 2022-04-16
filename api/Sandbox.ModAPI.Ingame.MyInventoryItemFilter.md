@@ -27,11 +27,11 @@ public struct MyInventoryItemFilter
 
 #### Constructors
 
-[MyInventoryItemFilter(string, bool = default)](Sandbox.ModAPI.Ingame.MyInventoryItemFilter..ctor)
+[MyInventoryItemFilter(string itemId, bool allSubTypes = default)](Sandbox.ModAPI.Ingame.MyInventoryItemFilter..ctor)
 
 > 
 
-[MyInventoryItemFilter(MyDefinitionId, bool = default)](Sandbox.ModAPI.Ingame.MyInventoryItemFilter..ctor)
+[MyInventoryItemFilter(MyDefinitionId itemId, bool allSubTypes = default)](Sandbox.ModAPI.Ingame.MyInventoryItemFilter..ctor)
 
 > 
 

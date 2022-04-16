@@ -24,13 +24,13 @@ public struct BoxCornerEnumerator: IEnumerator<Vector3>, IDisposable, IEnumerato
 
 #### Constructors
 
-[BoxCornerEnumerator(Vector3, Vector3)](VRageMath.BoxCornerEnumerator..ctor)
+[BoxCornerEnumerator(Vector3 min, Vector3 max)](VRageMath.BoxCornerEnumerator..ctor)
 
 > 
 
 #### Methods
 
-[void Add(object)](VRageMath.BoxCornerEnumerator.Add)
+[void Add(object tmp)](VRageMath.BoxCornerEnumerator.Add)
 
 > 
 

@@ -88,61 +88,61 @@ public struct MyOrientedBoundingBox: IEquatable<MyOrientedBoundingBox>
 
 #### Constructors
 
-[MyOrientedBoundingBox(ref Matrix)](VRageMath.MyOrientedBoundingBox..ctor)
+[MyOrientedBoundingBox(ref Matrix matrix)](VRageMath.MyOrientedBoundingBox..ctor)
 
 > 
 
-[MyOrientedBoundingBox(Vector3, Vector3, Quaternion)](VRageMath.MyOrientedBoundingBox..ctor)
+[MyOrientedBoundingBox(Vector3 center, Vector3 halfExtents, Quaternion orientation)](VRageMath.MyOrientedBoundingBox..ctor)
 
 > 
 
 #### Methods
 
-[static ContainmentType Contains(ref BoundingBox, ref MyOrientedBoundingBox)](VRageMath.MyOrientedBoundingBox.Contains)
+[static ContainmentType Contains(ref BoundingBox boxA, ref MyOrientedBoundingBox oboxB)](VRageMath.MyOrientedBoundingBox.Contains)
 
 > 
 
-[static ContainmentType Contains(BoundingFrustum, ref MyOrientedBoundingBox)](VRageMath.MyOrientedBoundingBox.Contains)
+[static ContainmentType Contains(BoundingFrustum frustum, ref MyOrientedBoundingBox obox)](VRageMath.MyOrientedBoundingBox.Contains)
 
 > 
 
-[static ContainmentType Contains(ref BoundingSphere, ref MyOrientedBoundingBox)](VRageMath.MyOrientedBoundingBox.Contains)
+[static ContainmentType Contains(ref BoundingSphere sphere, ref MyOrientedBoundingBox box)](VRageMath.MyOrientedBoundingBox.Contains)
 
 > 
 
-[static ContainmentType ContainsRelativeBox(ref Vector3, ref Vector3, ref Matrix)](VRageMath.MyOrientedBoundingBox.ContainsRelativeBox)
+[static ContainmentType ContainsRelativeBox(ref Vector3 hA, ref Vector3 hB, ref Matrix mB)](VRageMath.MyOrientedBoundingBox.ContainsRelativeBox)
 
 > 
 
-[static MyOrientedBoundingBox Create(BoundingBox, Matrix)](VRageMath.MyOrientedBoundingBox.Create)
+[static MyOrientedBoundingBox Create(BoundingBox boundingBox, Matrix matrix)](VRageMath.MyOrientedBoundingBox.Create)
 
 > 
 
-[static MyOrientedBoundingBox CreateFromBoundingBox(BoundingBox)](VRageMath.MyOrientedBoundingBox.CreateFromBoundingBox)
+[static MyOrientedBoundingBox CreateFromBoundingBox(BoundingBox box)](VRageMath.MyOrientedBoundingBox.CreateFromBoundingBox)
 
 > 
 
-[static bool GetNormalBetweenEdges(int, int, int, out Vector3)](VRageMath.MyOrientedBoundingBox.GetNormalBetweenEdges)
+[static bool GetNormalBetweenEdges(int axis, int edge0, int edge1, out Vector3 normal)](VRageMath.MyOrientedBoundingBox.GetNormalBetweenEdges)
 
 > Returns normal between two cube edge of same direction
 
-[ContainmentType Contains(ref BoundingBox)](VRageMath.MyOrientedBoundingBox.Contains)
+[ContainmentType Contains(ref BoundingBox box)](VRageMath.MyOrientedBoundingBox.Contains)
 
 > 
 
-[ContainmentType Contains(ref MyOrientedBoundingBox)](VRageMath.MyOrientedBoundingBox.Contains)
+[ContainmentType Contains(ref MyOrientedBoundingBox other)](VRageMath.MyOrientedBoundingBox.Contains)
 
 > 
 
-[ContainmentType Contains(BoundingFrustum)](VRageMath.MyOrientedBoundingBox.Contains)
+[ContainmentType Contains(BoundingFrustum frustum)](VRageMath.MyOrientedBoundingBox.Contains)
 
 > 
 
-[ContainmentType Contains(ref BoundingSphere)](VRageMath.MyOrientedBoundingBox.Contains)
+[ContainmentType Contains(ref BoundingSphere sphere)](VRageMath.MyOrientedBoundingBox.Contains)
 
 > 
 
-[bool Contains(ref Vector3)](VRageMath.MyOrientedBoundingBox.Contains)
+[bool Contains(ref Vector3 point)](VRageMath.MyOrientedBoundingBox.Contains)
 
 > 
 
@@ -150,11 +150,11 @@ public struct MyOrientedBoundingBox: IEquatable<MyOrientedBoundingBox>
 
 > 
 
-[bool Equals(MyOrientedBoundingBox)](VRageMath.MyOrientedBoundingBox.Equals)
+[bool Equals(MyOrientedBoundingBox other)](VRageMath.MyOrientedBoundingBox.Equals)
 
 > 
 
-[bool Equals(object)](VRageMath.MyOrientedBoundingBox.Equals)
+[bool Equals(object obj)](VRageMath.MyOrientedBoundingBox.Equals)
 
 > 
 
@@ -162,7 +162,7 @@ public struct MyOrientedBoundingBox: IEquatable<MyOrientedBoundingBox>
 
 > 
 
-[void GetCorners(Vector3&#91&#93;, int)](VRageMath.MyOrientedBoundingBox.GetCorners)
+[void GetCorners(Vector3&#91&#93; corners, int startIndex)](VRageMath.MyOrientedBoundingBox.GetCorners)
 
 > 
 
@@ -170,31 +170,31 @@ public struct MyOrientedBoundingBox: IEquatable<MyOrientedBoundingBox>
 
 > 
 
-[bool Intersects(ref BoundingBox)](VRageMath.MyOrientedBoundingBox.Intersects)
+[bool Intersects(ref BoundingBox box)](VRageMath.MyOrientedBoundingBox.Intersects)
 
 > 
 
-[bool Intersects(ref MyOrientedBoundingBox)](VRageMath.MyOrientedBoundingBox.Intersects)
+[bool Intersects(ref MyOrientedBoundingBox other)](VRageMath.MyOrientedBoundingBox.Intersects)
 
 > 
 
-[bool Intersects(BoundingFrustum)](VRageMath.MyOrientedBoundingBox.Intersects)
+[bool Intersects(BoundingFrustum frustum)](VRageMath.MyOrientedBoundingBox.Intersects)
 
 > 
 
-[bool Intersects(ref BoundingSphere)](VRageMath.MyOrientedBoundingBox.Intersects)
+[bool Intersects(ref BoundingSphere sphere)](VRageMath.MyOrientedBoundingBox.Intersects)
 
 > 
 
-[float? Intersects(ref Ray)](VRageMath.MyOrientedBoundingBox.Intersects)
+[float? Intersects(ref Ray ray)](VRageMath.MyOrientedBoundingBox.Intersects)
 
 > 
 
-[float? Intersects(ref Line)](VRageMath.MyOrientedBoundingBox.Intersects)
+[float? Intersects(ref Line line)](VRageMath.MyOrientedBoundingBox.Intersects)
 
 > 
 
-[PlaneIntersectionType Intersects(ref Plane)](VRageMath.MyOrientedBoundingBox.Intersects)
+[PlaneIntersectionType Intersects(ref Plane plane)](VRageMath.MyOrientedBoundingBox.Intersects)
 
 > 
 
@@ -202,15 +202,15 @@ public struct MyOrientedBoundingBox: IEquatable<MyOrientedBoundingBox>
 
 > 
 
-[MyOrientedBoundingBox Transform(Quaternion, Vector3)](VRageMath.MyOrientedBoundingBox.Transform)
+[MyOrientedBoundingBox Transform(Quaternion rotation, Vector3 translation)](VRageMath.MyOrientedBoundingBox.Transform)
 
 > 
 
-[MyOrientedBoundingBox Transform(float, Quaternion, Vector3)](VRageMath.MyOrientedBoundingBox.Transform)
+[MyOrientedBoundingBox Transform(float scale, Quaternion rotation, Vector3 translation)](VRageMath.MyOrientedBoundingBox.Transform)
 
 > 
 
-[void Transform(Matrix)](VRageMath.MyOrientedBoundingBox.Transform)
+[void Transform(Matrix matrix)](VRageMath.MyOrientedBoundingBox.Transform)
 
 > 
 

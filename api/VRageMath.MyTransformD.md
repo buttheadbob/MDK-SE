@@ -27,37 +27,37 @@ public struct MyTransformD
 
 #### Constructors
 
-[MyTransformD(Vector3D)](VRageMath.MyTransformD..ctor)
+[MyTransformD(Vector3D position)](VRageMath.MyTransformD..ctor)
 
 > 
 
-[MyTransformD(MatrixD)](VRageMath.MyTransformD..ctor)
+[MyTransformD(MatrixD matrix)](VRageMath.MyTransformD..ctor)
 
 > 
 
-[MyTransformD(ref Vector3D)](VRageMath.MyTransformD..ctor)
+[MyTransformD(ref Vector3D position)](VRageMath.MyTransformD..ctor)
 
 > 
 
-[MyTransformD(ref MatrixD)](VRageMath.MyTransformD..ctor)
+[MyTransformD(ref MatrixD matrix)](VRageMath.MyTransformD..ctor)
 
 > 
 
 #### Methods
 
-[static MyTransformD Transform(ref MyTransformD, ref MyTransformD)](VRageMath.MyTransformD.Transform)
+[static MyTransformD Transform(ref MyTransformD t1, ref MyTransformD t2)](VRageMath.MyTransformD.Transform)
 
 > 
 
-[static void Transform(ref MyTransformD, ref MyTransformD, out MyTransformD)](VRageMath.MyTransformD.Transform)
+[static void Transform(ref MyTransformD t1, ref MyTransformD t2, out MyTransformD result)](VRageMath.MyTransformD.Transform)
 
 > 
 
-[static Vector3D Transform(ref Vector3D, ref MyTransformD)](VRageMath.MyTransformD.Transform)
+[static Vector3D Transform(ref Vector3D v, ref MyTransformD t2)](VRageMath.MyTransformD.Transform)
 
 > 
 
-[static void Transform(ref Vector3D, ref MyTransformD, out Vector3D)](VRageMath.MyTransformD.Transform)
+[static void Transform(ref Vector3D v, ref MyTransformD t2, out Vector3D result)](VRageMath.MyTransformD.Transform)
 
 > 
 

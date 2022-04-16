@@ -13,25 +13,25 @@ public class MyResourceSourceComponent: MyResourceSourceComponentBase
 
 #### Methods
 
-[float CurrentOutputByType(MyDefinitionId)](VRage.Game.Components.MyResourceSourceComponentBase.CurrentOutputByType)
+[float CurrentOutputByType(MyDefinitionId resourceTypeId)](VRage.Game.Components.MyResourceSourceComponentBase.CurrentOutputByType)
 
 > Currently used power output of the producer in MW or litres/h.  
 >   
 > _Inherited from [MyResourceSourceComponentBase](VRage.Game.Components.MyResourceSourceComponentBase)_
 
-[float DefinedOutputByType(MyDefinitionId)](VRage.Game.Components.MyResourceSourceComponentBase.DefinedOutputByType)
+[float DefinedOutputByType(MyDefinitionId resourceTypeId)](VRage.Game.Components.MyResourceSourceComponentBase.DefinedOutputByType)
 
 > Max resource output defined in definition in MW or litres/h.  
 >   
 > _Inherited from [MyResourceSourceComponentBase](VRage.Game.Components.MyResourceSourceComponentBase)_
 
-[float MaxOutputByType(MyDefinitionId)](VRage.Game.Components.MyResourceSourceComponentBase.MaxOutputByType)
+[float MaxOutputByType(MyDefinitionId resourceTypeId)](VRage.Game.Components.MyResourceSourceComponentBase.MaxOutputByType)
 
 > Maximum power output of the producer in MW or litres/h.  
 >   
 > _Inherited from [MyResourceSourceComponentBase](VRage.Game.Components.MyResourceSourceComponentBase)_
 
-[bool ProductionEnabledByType(MyDefinitionId)](VRage.Game.Components.MyResourceSourceComponentBase.ProductionEnabledByType)
+[bool ProductionEnabledByType(MyDefinitionId resourceTypeId)](VRage.Game.Components.MyResourceSourceComponentBase.ProductionEnabledByType)
 
 > Resource production is enabled  
 >   

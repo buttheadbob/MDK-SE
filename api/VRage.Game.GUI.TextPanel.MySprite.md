@@ -48,7 +48,7 @@ public struct MySprite: IEquatable<MySprite>
 
 #### Constructors
 
-[MySprite(SpriteType = SpriteType.TEXTURE, string = null, Vector2? = default, Vector2? = default, Color? = default, string = null, TextAlignment = TextAlignment.CENTER, float = 0)](VRage.Game.GUI.TextPanel.MySprite..ctor)
+[MySprite(SpriteType type = SpriteType.TEXTURE, string data = null, Vector2? position = default, Vector2? size = default, Color? color = default, string fontId = null, TextAlignment alignment = TextAlignment.CENTER, float rotation = 0)](VRage.Game.GUI.TextPanel.MySprite..ctor)
 
 > 
 
@@ -58,23 +58,23 @@ public struct MySprite: IEquatable<MySprite>
 
 > 
 
-[static MySprite CreateClipRect(Rectangle)](VRage.Game.GUI.TextPanel.MySprite.CreateClipRect)
+[static MySprite CreateClipRect(Rectangle rect)](VRage.Game.GUI.TextPanel.MySprite.CreateClipRect)
 
 > 
 
-[static MySprite CreateSprite(string, Vector2, Vector2)](VRage.Game.GUI.TextPanel.MySprite.CreateSprite)
+[static MySprite CreateSprite(string sprite, Vector2 position, Vector2 size)](VRage.Game.GUI.TextPanel.MySprite.CreateSprite)
 
 > 
 
-[static MySprite CreateText(string, string, Color, float = 1, TextAlignment = TextAlignment.CENTER)](VRage.Game.GUI.TextPanel.MySprite.CreateText)
+[static MySprite CreateText(string text, string fontId, Color color, float scale = 1, TextAlignment alignment = TextAlignment.CENTER)](VRage.Game.GUI.TextPanel.MySprite.CreateText)
 
 > 
 
-[bool Equals(MySprite)](VRage.Game.GUI.TextPanel.MySprite.Equals)
+[bool Equals(MySprite other)](VRage.Game.GUI.TextPanel.MySprite.Equals)
 
 > 
 
-[bool Equals(object)](VRage.Game.GUI.TextPanel.MySprite.Equals)
+[bool Equals(object obj)](VRage.Game.GUI.TextPanel.MySprite.Equals)
 
 > 
 

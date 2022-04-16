@@ -22,11 +22,11 @@ This can be used only to compare normal vectors of Vector3I, where X, Y and Z ha
 
 #### Methods
 
-[bool Equals(Vector3I, Vector3I)](VRageMath.Vector3INormalEqualityComparer.Equals)
+[bool Equals(Vector3I x, Vector3I y)](VRageMath.Vector3INormalEqualityComparer.Equals)
 
 > 
 
-[int GetHashCode(Vector3I)](VRageMath.Vector3INormalEqualityComparer.GetHashCode)
+[int GetHashCode(Vector3I x)](VRageMath.Vector3INormalEqualityComparer.GetHashCode)
 
 > 
 

@@ -33,17 +33,17 @@ public struct Line
 
 #### Constructors
 
-[Line(Vector3, Vector3, bool = default)](VRageMath.Line..ctor)
+[Line(Vector3 from, Vector3 to, bool calculateBoundingBox = default)](VRageMath.Line..ctor)
 
 > 
 
 #### Methods
 
-[static float GetShortestDistanceSquared(Line, Line)](VRageMath.Line.GetShortestDistanceSquared)
+[static float GetShortestDistanceSquared(Line line1, Line line2)](VRageMath.Line.GetShortestDistanceSquared)
 
 > 
 
-[static Vector3 GetShortestVector(ref Line, ref Line, out Vector3, out Vector3)](VRageMath.Line.GetShortestVector)
+[static Vector3 GetShortestVector(ref Line line1, ref Line line2, out Vector3 res1, out Vector3 res2)](VRageMath.Line.GetShortestVector)
 
 > 
 

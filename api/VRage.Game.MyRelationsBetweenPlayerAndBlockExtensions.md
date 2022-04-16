@@ -11,7 +11,7 @@ public abstract sealed class MyRelationsBetweenPlayerAndBlockExtensions
 
 #### Methods
 
-[static bool IsFriendly(this MyRelationsBetweenPlayerAndBlock)](VRage.Game.MyRelationsBetweenPlayerAndBlockExtensions.IsFriendly)
+[static bool IsFriendly(this MyRelationsBetweenPlayerAndBlock relations)](VRage.Game.MyRelationsBetweenPlayerAndBlockExtensions.IsFriendly)
 
 > 
 

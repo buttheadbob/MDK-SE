@@ -29,7 +29,7 @@ public struct MyUShort4
 
 #### Constructors
 
-[MyUShort4(uint, uint, uint, uint)](VRageMath.MyUShort4..ctor)
+[MyUShort4(uint x, uint y, uint z, uint w)](VRageMath.MyUShort4..ctor)
 
 > 
 

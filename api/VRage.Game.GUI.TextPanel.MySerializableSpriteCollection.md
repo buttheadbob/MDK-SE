@@ -21,7 +21,7 @@ public struct MySerializableSpriteCollection
 
 #### Constructors
 
-[MySerializableSpriteCollection(MySerializableSprite&#91&#93;, int)](VRage.Game.GUI.TextPanel.MySerializableSpriteCollection..ctor)
+[MySerializableSpriteCollection(MySerializableSprite&#91&#93; sprites, int length)](VRage.Game.GUI.TextPanel.MySerializableSpriteCollection..ctor)
 
 > 
 

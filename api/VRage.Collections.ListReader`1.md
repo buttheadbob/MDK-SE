@@ -33,7 +33,7 @@ public struct ListReader<T>: IEnumerable<T>, IEnumerable, IReadOnlyList<T>, IRea
 
 #### Constructors
 
-[ListReader(List&lt;T&gt;)](VRage.Collections.ListReader`1..ctor)
+[ListReader(List&lt;T&gt; list)](VRage.Collections.ListReader`1..ctor)
 
 > 
 
@@ -43,11 +43,11 @@ public struct ListReader<T>: IEnumerable<T>, IEnumerable, IReadOnlyList<T>, IRea
 
 > 
 
-[int IndexOf(T)](VRage.Collections.ListReader`1.IndexOf)
+[int IndexOf(T item)](VRage.Collections.ListReader`1.IndexOf)
 
 > 
 
-[T ItemAt(int)](VRage.Collections.ListReader`1.ItemAt)
+[T ItemAt(int index)](VRage.Collections.ListReader`1.ItemAt)
 
 > 
 

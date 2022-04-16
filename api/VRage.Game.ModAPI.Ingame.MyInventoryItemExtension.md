@@ -11,7 +11,7 @@ public abstract sealed class MyInventoryItemExtension
 
 #### Methods
 
-[static MyDefinitionId GetDefinitionId(this IMyInventoryItem)](VRage.Game.ModAPI.Ingame.MyInventoryItemExtension.GetDefinitionId)
+[static MyDefinitionId GetDefinitionId(this IMyInventoryItem self)](VRage.Game.ModAPI.Ingame.MyInventoryItemExtension.GetDefinitionId)
 
 > 
 

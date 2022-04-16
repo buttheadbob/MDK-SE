@@ -25,17 +25,17 @@ public struct CapsuleD
 
 #### Constructors
 
-[CapsuleD(Vector3D, Vector3D, float)](VRageMath.CapsuleD..ctor)
+[CapsuleD(Vector3D p0, Vector3D p1, float radius)](VRageMath.CapsuleD..ctor)
 
 > 
 
 #### Methods
 
-[bool Intersect(RayD, ref Vector3D, ref Vector3D, ref Vector3, ref Vector3)](VRageMath.CapsuleD.Intersect)
+[bool Intersect(RayD ray, ref Vector3D p1, ref Vector3D p2, ref Vector3 n1, ref Vector3 n2)](VRageMath.CapsuleD.Intersect)
 
 > 
 
-[bool Intersect(LineD, ref Vector3D, ref Vector3D, ref Vector3, ref Vector3)](VRageMath.CapsuleD.Intersect)
+[bool Intersect(LineD line, ref Vector3D p1, ref Vector3D p2, ref Vector3 n1, ref Vector3 n2)](VRageMath.CapsuleD.Intersect)
 
 > 
 

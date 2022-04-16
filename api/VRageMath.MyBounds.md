@@ -25,17 +25,17 @@ public struct MyBounds
 
 #### Constructors
 
-[MyBounds(float, float, float)](VRageMath.MyBounds..ctor)
+[MyBounds(float min, float max, float def)](VRageMath.MyBounds..ctor)
 
 > 
 
 #### Methods
 
-[float Clamp(float)](VRageMath.MyBounds.Clamp)
+[float Clamp(float value)](VRageMath.MyBounds.Clamp)
 
 > 
 
-[float Normalize(float)](VRageMath.MyBounds.Normalize)
+[float Normalize(float value)](VRageMath.MyBounds.Normalize)
 
 > Normalize value inside the bounds so that 0 is Min and 1 is Max.
 

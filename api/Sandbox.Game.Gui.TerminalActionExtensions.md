@@ -11,15 +11,15 @@ public abstract sealed class TerminalActionExtensions
 
 #### Methods
 
-[static void ApplyAction(this IMyTerminalBlock, string)](Sandbox.Game.Gui.TerminalActionExtensions.ApplyAction)
+[static void ApplyAction(this IMyTerminalBlock block, string name)](Sandbox.Game.Gui.TerminalActionExtensions.ApplyAction)
 
 > 
 
-[static void ApplyAction(this IMyTerminalBlock, string, ListReader&lt;TerminalActionParameter&gt;)](Sandbox.Game.Gui.TerminalActionExtensions.ApplyAction)
+[static void ApplyAction(this IMyTerminalBlock block, string name, ListReader&lt;TerminalActionParameter&gt; parameters)](Sandbox.Game.Gui.TerminalActionExtensions.ApplyAction)
 
 > 
 
-[static ITerminalAction GetAction(this IMyTerminalBlock, string)](Sandbox.Game.Gui.TerminalActionExtensions.GetAction)
+[static ITerminalAction GetAction(this IMyTerminalBlock block, string name)](Sandbox.Game.Gui.TerminalActionExtensions.GetAction)
 
 > 
 

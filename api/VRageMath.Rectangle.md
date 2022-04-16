@@ -60,53 +60,53 @@ Defines a rectangle.
 
 #### Constructors
 
-[Rectangle(int, int, int, int)](VRageMath.Rectangle..ctor)
+[Rectangle(int x, int y, int width, int height)](VRageMath.Rectangle..ctor)
 
 > 
 
 #### Methods
 
-[static Rectangle Intersect(Rectangle, Rectangle)](VRageMath.Rectangle.Intersect)
+[static Rectangle Intersect(Rectangle value1, Rectangle value2)](VRageMath.Rectangle.Intersect)
 
 > Creates a Rectangle defining the area where one rectangle overlaps with another rectangle.
 
-[static void Intersect(ref Rectangle, ref Rectangle, out Rectangle)](VRageMath.Rectangle.Intersect)
+[static void Intersect(ref Rectangle value1, ref Rectangle value2, out Rectangle result)](VRageMath.Rectangle.Intersect)
 
 > Creates a Rectangle defining the area where one rectangle overlaps with another rectangle.
 
-[static Rectangle Union(Rectangle, Rectangle)](VRageMath.Rectangle.Union)
+[static Rectangle Union(Rectangle value1, Rectangle value2)](VRageMath.Rectangle.Union)
 
 > Creates a new Rectangle that exactly contains two other rectangles.
 
-[static void Union(ref Rectangle, ref Rectangle, out Rectangle)](VRageMath.Rectangle.Union)
+[static void Union(ref Rectangle value1, ref Rectangle value2, out Rectangle result)](VRageMath.Rectangle.Union)
 
 > Creates a new Rectangle that exactly contains two other rectangles.
 
-[bool Contains(int, int)](VRageMath.Rectangle.Contains)
+[bool Contains(int x, int y)](VRageMath.Rectangle.Contains)
 
 > Determines whether this Rectangle contains a specified point represented by its x- and y-coordinates.
 
-[bool Contains(Point)](VRageMath.Rectangle.Contains)
+[bool Contains(Point value)](VRageMath.Rectangle.Contains)
 
 > Determines whether this Rectangle contains a specified Point.
 
-[void Contains(ref Point, out bool)](VRageMath.Rectangle.Contains)
+[void Contains(ref Point value, out bool result)](VRageMath.Rectangle.Contains)
 
 > Determines whether this Rectangle contains a specified Point.
 
-[bool Contains(Rectangle)](VRageMath.Rectangle.Contains)
+[bool Contains(Rectangle value)](VRageMath.Rectangle.Contains)
 
 > Determines whether this Rectangle entirely contains a specified Rectangle.
 
-[void Contains(ref Rectangle, out bool)](VRageMath.Rectangle.Contains)
+[void Contains(ref Rectangle value, out bool result)](VRageMath.Rectangle.Contains)
 
 > Determines whether this Rectangle entirely contains a specified Rectangle.
 
-[bool Equals(Rectangle)](VRageMath.Rectangle.Equals)
+[bool Equals(Rectangle other)](VRageMath.Rectangle.Equals)
 
 > Determines whether the specified Object is equal to the Rectangle.
 
-[bool Equals(object)](VRageMath.Rectangle.Equals)
+[bool Equals(object obj)](VRageMath.Rectangle.Equals)
 
 > Returns a value that indicates whether the current instance is equal to a specified object.
 
@@ -114,23 +114,23 @@ Defines a rectangle.
 
 > Gets the hash code for this object.
 
-[void Inflate(int, int)](VRageMath.Rectangle.Inflate)
+[void Inflate(int horizontalAmount, int verticalAmount)](VRageMath.Rectangle.Inflate)
 
 > Pushes the edges of the Rectangle out by the horizontal and vertical values specified.
 
-[bool Intersects(Rectangle)](VRageMath.Rectangle.Intersects)
+[bool Intersects(Rectangle value)](VRageMath.Rectangle.Intersects)
 
 > Determines whether a specified Rectangle intersects with this Rectangle.
 
-[void Intersects(ref Rectangle, out bool)](VRageMath.Rectangle.Intersects)
+[void Intersects(ref Rectangle value, out bool result)](VRageMath.Rectangle.Intersects)
 
 > Determines whether a specified Rectangle intersects with this Rectangle.
 
-[void Offset(Point)](VRageMath.Rectangle.Offset)
+[void Offset(Point amount)](VRageMath.Rectangle.Offset)
 
 > Changes the position of the Rectangle.
 
-[void Offset(int, int)](VRageMath.Rectangle.Offset)
+[void Offset(int offsetX, int offsetY)](VRageMath.Rectangle.Offset)
 
 > Changes the position of the Rectangle.
 

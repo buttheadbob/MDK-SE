@@ -35,21 +35,21 @@ public struct Vector4UByte
 
 #### Constructors
 
-[Vector4UByte(byte, byte, byte, byte)](VRageMath.Vector4UByte..ctor)
+[Vector4UByte(byte x, byte y, byte z, byte w)](VRageMath.Vector4UByte..ctor)
 
 > 
 
 #### Methods
 
-[static Vector4UByte Normalize(Vector3, float)](VRageMath.Vector4UByte.Normalize)
+[static Vector4UByte Normalize(Vector3 vec, float range)](VRageMath.Vector4UByte.Normalize)
 
 > Normalizes Vector3 into Vector4UByte, scales vector from (-range, range) to (0, 255)
 
-[static Vector4UByte Round(Vector3)](VRageMath.Vector4UByte.Round)
+[static Vector4UByte Round(Vector3 vec)](VRageMath.Vector4UByte.Round)
 
 > 
 
-[static Vector4UByte Round(Vector4)](VRageMath.Vector4UByte.Round)
+[static Vector4UByte Round(Vector4 vec)](VRageMath.Vector4UByte.Round)
 
 > 
 

@@ -27,131 +27,131 @@ Workaround because .NET XML serializer is stupid and does not like enum inside s
 
 #### Methods
 
-[static Axis GetAxis(Direction)](VRageMath.Base6Directions.GetAxis)
+[static Axis GetAxis(Direction direction)](VRageMath.Base6Directions.GetAxis)
 
 > 
 
-[static Direction GetBaseAxisDirection(Axis)](VRageMath.Base6Directions.GetBaseAxisDirection)
+[static Direction GetBaseAxisDirection(Axis axis)](VRageMath.Base6Directions.GetBaseAxisDirection)
 
 > 
 
-[static Direction GetClosestDirection(Vector3)](VRageMath.Base6Directions.GetClosestDirection)
+[static Direction GetClosestDirection(Vector3 vec)](VRageMath.Base6Directions.GetClosestDirection)
 
 > 
 
-[static Direction GetClosestDirection(ref Vector3)](VRageMath.Base6Directions.GetClosestDirection)
+[static Direction GetClosestDirection(ref Vector3 vec)](VRageMath.Base6Directions.GetClosestDirection)
 
 > 
 
-[static Direction GetCross(Direction, Direction)](VRageMath.Base6Directions.GetCross)
+[static Direction GetCross(Direction dir1, Direction dir2)](VRageMath.Base6Directions.GetCross)
 
 > 
 
-[static Direction GetDirection(Vector3)](VRageMath.Base6Directions.GetDirection)
+[static Direction GetDirection(Vector3 vec)](VRageMath.Base6Directions.GetDirection)
 
 > 
 
-[static Direction GetDirection(ref Vector3)](VRageMath.Base6Directions.GetDirection)
+[static Direction GetDirection(ref Vector3 vec)](VRageMath.Base6Directions.GetDirection)
 
 > 
 
-[static Direction GetDirection(Vector3I)](VRageMath.Base6Directions.GetDirection)
+[static Direction GetDirection(Vector3I vec)](VRageMath.Base6Directions.GetDirection)
 
 > 
 
-[static Direction GetDirection(ref Vector3I)](VRageMath.Base6Directions.GetDirection)
+[static Direction GetDirection(ref Vector3I vec)](VRageMath.Base6Directions.GetDirection)
 
 > 
 
-[static DirectionFlags GetDirectionFlag(Direction)](VRageMath.Base6Directions.GetDirectionFlag)
+[static DirectionFlags GetDirectionFlag(Direction dir)](VRageMath.Base6Directions.GetDirectionFlag)
 
 > 
 
-[static Direction GetDirectionInAxis(Vector3, Axis)](VRageMath.Base6Directions.GetDirectionInAxis)
+[static Direction GetDirectionInAxis(Vector3 vec, Axis axis)](VRageMath.Base6Directions.GetDirectionInAxis)
 
 > 
 
-[static Direction GetDirectionInAxis(ref Vector3, Axis)](VRageMath.Base6Directions.GetDirectionInAxis)
+[static Direction GetDirectionInAxis(ref Vector3 vec, Axis axis)](VRageMath.Base6Directions.GetDirectionInAxis)
 
 > 
 
-[static Direction GetFlippedDirection(Direction)](VRageMath.Base6Directions.GetFlippedDirection)
+[static Direction GetFlippedDirection(Direction toFlip)](VRageMath.Base6Directions.GetFlippedDirection)
 
 > 
 
-[static Direction GetForward(Quaternion)](VRageMath.Base6Directions.GetForward)
+[static Direction GetForward(Quaternion rot)](VRageMath.Base6Directions.GetForward)
 
 > 
 
-[static Direction GetForward(ref Quaternion)](VRageMath.Base6Directions.GetForward)
+[static Direction GetForward(ref Quaternion rot)](VRageMath.Base6Directions.GetForward)
 
 > 
 
-[static Direction GetForward(ref Matrix)](VRageMath.Base6Directions.GetForward)
+[static Direction GetForward(ref Matrix rotation)](VRageMath.Base6Directions.GetForward)
 
 > 
 
-[static Vector3I GetIntVector(int)](VRageMath.Base6Directions.GetIntVector)
+[static Vector3I GetIntVector(int direction)](VRageMath.Base6Directions.GetIntVector)
 
 > 
 
-[static Vector3I GetIntVector(Direction)](VRageMath.Base6Directions.GetIntVector)
+[static Vector3I GetIntVector(Direction dir)](VRageMath.Base6Directions.GetIntVector)
 
 > 
 
-[static Direction GetLeft(Direction, Direction)](VRageMath.Base6Directions.GetLeft)
+[static Direction GetLeft(Direction up, Direction forward)](VRageMath.Base6Directions.GetLeft)
 
 > 
 
-[static Direction GetOppositeDirection(Direction)](VRageMath.Base6Directions.GetOppositeDirection)
+[static Direction GetOppositeDirection(Direction dir)](VRageMath.Base6Directions.GetOppositeDirection)
 
 > 
 
-[static Quaternion GetOrientation(Direction, Direction)](VRageMath.Base6Directions.GetOrientation)
+[static Quaternion GetOrientation(Direction forward, Direction up)](VRageMath.Base6Directions.GetOrientation)
 
 > 
 
-[static Direction GetPerpendicular(Direction)](VRageMath.Base6Directions.GetPerpendicular)
+[static Direction GetPerpendicular(Direction dir)](VRageMath.Base6Directions.GetPerpendicular)
 
 > 
 
-[static Direction GetUp(Quaternion)](VRageMath.Base6Directions.GetUp)
+[static Direction GetUp(Quaternion rot)](VRageMath.Base6Directions.GetUp)
 
 > 
 
-[static Direction GetUp(ref Quaternion)](VRageMath.Base6Directions.GetUp)
+[static Direction GetUp(ref Quaternion rot)](VRageMath.Base6Directions.GetUp)
 
 > 
 
-[static Direction GetUp(ref Matrix)](VRageMath.Base6Directions.GetUp)
+[static Direction GetUp(ref Matrix rotation)](VRageMath.Base6Directions.GetUp)
 
 > 
 
-[static Vector3 GetVector(int)](VRageMath.Base6Directions.GetVector)
+[static Vector3 GetVector(int direction)](VRageMath.Base6Directions.GetVector)
 
 > 
 
-[static Vector3 GetVector(Direction)](VRageMath.Base6Directions.GetVector)
+[static Vector3 GetVector(Direction dir)](VRageMath.Base6Directions.GetVector)
 
 > 
 
-[static void GetVector(Direction, out Vector3)](VRageMath.Base6Directions.GetVector)
+[static void GetVector(Direction dir, out Vector3 result)](VRageMath.Base6Directions.GetVector)
 
 > 
 
-[static bool IsBaseDirection(ref Vector3)](VRageMath.Base6Directions.IsBaseDirection)
+[static bool IsBaseDirection(ref Vector3 vec)](VRageMath.Base6Directions.IsBaseDirection)
 
 > 
 
-[static bool IsBaseDirection(Vector3)](VRageMath.Base6Directions.IsBaseDirection)
+[static bool IsBaseDirection(Vector3 vec)](VRageMath.Base6Directions.IsBaseDirection)
 
 > 
 
-[static bool IsBaseDirection(ref Vector3I)](VRageMath.Base6Directions.IsBaseDirection)
+[static bool IsBaseDirection(ref Vector3I vec)](VRageMath.Base6Directions.IsBaseDirection)
 
 > 
 
-[static bool IsValidBlockOrientation(Direction, Direction)](VRageMath.Base6Directions.IsValidBlockOrientation)
+[static bool IsValidBlockOrientation(Direction forward, Direction up)](VRageMath.Base6Directions.IsValidBlockOrientation)
 
 > 
 

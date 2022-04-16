@@ -39,31 +39,31 @@ Contains commonly used precalculated values.
 
 #### Methods
 
-[static double Clamp(double, double, double)](VRageMath.MathHelperD.Clamp)
+[static double Clamp(double value, double min, double max)](VRageMath.MathHelperD.Clamp)
 
 > Restricts a value to be within a specified range. Reference page contains links to related code samples.
 
-[static double Distance(double, double)](VRageMath.MathHelperD.Distance)
+[static double Distance(double value1, double value2)](VRageMath.MathHelperD.Distance)
 
 > Calculates the absolute value of the difference of two values.
 
-[static double Max(double, double)](VRageMath.MathHelperD.Max)
+[static double Max(double value1, double value2)](VRageMath.MathHelperD.Max)
 
 > Returns the greater of two values.
 
-[static double Min(double, double)](VRageMath.MathHelperD.Min)
+[static double Min(double value1, double value2)](VRageMath.MathHelperD.Min)
 
 > Returns the lesser of two values.
 
-[static float MonotonicAcos(float)](VRageMath.MathHelperD.MonotonicAcos)
+[static float MonotonicAcos(float cos)](VRageMath.MathHelperD.MonotonicAcos)
 
 > 
 
-[static double ToDegrees(double)](VRageMath.MathHelperD.ToDegrees)
+[static double ToDegrees(double radians)](VRageMath.MathHelperD.ToDegrees)
 
 > Converts radians to degrees.
 
-[static double ToRadians(double)](VRageMath.MathHelperD.ToRadians)
+[static double ToRadians(double degrees)](VRageMath.MathHelperD.ToRadians)
 
 > Converts degrees to radians.
 

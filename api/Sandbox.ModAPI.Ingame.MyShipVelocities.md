@@ -21,7 +21,7 @@ public struct MyShipVelocities
 
 #### Constructors
 
-[MyShipVelocities(Vector3D, Vector3D)](Sandbox.ModAPI.Ingame.MyShipVelocities..ctor)
+[MyShipVelocities(Vector3D linearVelocity, Vector3D angularVelocity)](Sandbox.ModAPI.Ingame.MyShipVelocities..ctor)
 
 > 
 

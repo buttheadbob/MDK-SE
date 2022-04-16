@@ -41,33 +41,33 @@ Represents a segment of a string.
 
 #### Constructors
 
-[StringSegment(string)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment..ctor)
+[StringSegment(string text)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment..ctor)
 
 > 
 
-[StringSegment(string, int, int)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment..ctor)
+[StringSegment(string text, int start, int length)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment..ctor)
 
 > 
 
 #### Methods
 
-[bool Equals(object)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.Equals)
+[bool Equals(object obj)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.Equals)
 
 > Indicates whether this instance and a specified object are equal.
 
-[bool Equals(string)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.Equals)
+[bool Equals(string other)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.Equals)
 
 > Compares this string segment with the given string in a case sensitive manner.
 
-[bool Equals(StringSegment)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.Equals)
+[bool Equals(StringSegment other)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.Equals)
 
 > Compares this string segment with another in a case sensitive manner.
 
-[bool EqualsIgnoreCase(string)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.EqualsIgnoreCase)
+[bool EqualsIgnoreCase(string other)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.EqualsIgnoreCase)
 
 > Compares this string segment with the given string in a case insensitive manner.
 
-[bool EqualsIgnoreCase(StringSegment)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.EqualsIgnoreCase)
+[bool EqualsIgnoreCase(StringSegment other)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.EqualsIgnoreCase)
 
 > Compares this string segment with another in a case insensitive manner.
 
@@ -75,23 +75,23 @@ Represents a segment of a string.
 
 > Returns the hash code for this instance.
 
-[void GetLines(List&lt;StringSegment&gt;)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.GetLines)
+[void GetLines(List&lt;StringSegment&gt; lines)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.GetLines)
 
 > Fills a list with individual string segments representing the lines of text within this string segment, separated by newlines.
 
-[void GetLines(List&lt;string&gt;)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.GetLines)
+[void GetLines(List&lt;string&gt; lines)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.GetLines)
 
 > Fills a list with individual strings representing the lines of text within this string segment, separated by newlines.
 
-[int IndexOf(char)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.IndexOf)
+[int IndexOf(char ch)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.IndexOf)
 
 > Reports the zero-based index of the first occurence of the specified character, relative to [Start](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.Start) . Returns -1 if nothing was found.
 
-[int IndexOf(char, int)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.IndexOf)
+[int IndexOf(char ch, int start)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.IndexOf)
 
 > Reports the zero-based index of the first occurence of the specified character, relative to [Start](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.Start) . Returns -1 if nothing was found.
 
-[int IndexOfAny(Char&#91&#93;)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.IndexOfAny)
+[int IndexOfAny(Char&#91&#93; chars)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.IndexOfAny)
 
 > Reports the zero-based index of the first occurence of one of the provided characters, relative to [Start](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.Start) . Returns -1 if nothing was found.
 

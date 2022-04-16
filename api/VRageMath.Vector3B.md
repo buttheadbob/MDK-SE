@@ -53,25 +53,25 @@ public struct Vector3B
 
 #### Constructors
 
-[Vector3B(sbyte, sbyte, sbyte)](VRageMath.Vector3B..ctor)
+[Vector3B(sbyte x, sbyte y, sbyte z)](VRageMath.Vector3B..ctor)
 
 > 
 
-[Vector3B(Vector3I)](VRageMath.Vector3B..ctor)
+[Vector3B(Vector3I vec)](VRageMath.Vector3B..ctor)
 
 > 
 
 #### Methods
 
-[static Vector3B Fit(Vector3, float)](VRageMath.Vector3B.Fit)
+[static Vector3B Fit(Vector3 vec, float range)](VRageMath.Vector3B.Fit)
 
 > Puts Vector3 into Vector3B, value -127 represents -range, 128 represents range
 
-[static Vector3B Round(Vector3)](VRageMath.Vector3B.Round)
+[static Vector3B Round(Vector3 vec)](VRageMath.Vector3B.Round)
 
 > 
 
-[bool Equals(object)](VRageMath.Vector3B.Equals)
+[bool Equals(object obj)](VRageMath.Vector3B.Equals)
 
 > 
 

@@ -21,7 +21,7 @@ public struct MyTuple<T1, T2>
 
 #### Constructors
 
-[MyTuple(T1, T2)](VRage.MyTuple`2..ctor)
+[MyTuple(T1 item1, T2 item2)](VRage.MyTuple`2..ctor)
 
 > 
 

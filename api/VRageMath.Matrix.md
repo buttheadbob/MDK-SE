@@ -140,405 +140,405 @@ Defines a matrix.
 
 #### Constructors
 
-[Matrix(float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float)](VRageMath.Matrix..ctor)
+[Matrix(float m11, float m12, float m13, float m14, float m21, float m22, float m23, float m24, float m31, float m32, float m33, float m34, float m41, float m42, float m43, float m44)](VRageMath.Matrix..ctor)
 
 > 
 
-[Matrix(float, float, float, float, float, float, float, float, float)](VRageMath.Matrix..ctor)
+[Matrix(float m11, float m12, float m13, float m21, float m22, float m23, float m31, float m32, float m33)](VRageMath.Matrix..ctor)
 
 > 
 
-[Matrix(MatrixD)](VRageMath.Matrix..ctor)
+[Matrix(MatrixD other)](VRageMath.Matrix..ctor)
 
 > 
 
 #### Methods
 
-[static Matrix Add(Matrix, Matrix)](VRageMath.Matrix.Add)
+[static Matrix Add(Matrix matrix1, Matrix matrix2)](VRageMath.Matrix.Add)
 
 > Adds a matrix to another matrix.
 
-[static void Add(ref Matrix, ref Matrix, out Matrix)](VRageMath.Matrix.Add)
+[static void Add(ref Matrix matrix1, ref Matrix matrix2, out Matrix result)](VRageMath.Matrix.Add)
 
 > Adds a matrix to another matrix.
 
-[static Matrix AlignRotationToAxes(ref Matrix, ref Matrix)](VRageMath.Matrix.AlignRotationToAxes)
+[static Matrix AlignRotationToAxes(ref Matrix toAlign, ref Matrix axisDefinitionMatrix)](VRageMath.Matrix.AlignRotationToAxes)
 
 > 
 
-[static Matrix CreateBillboard(Vector3, Vector3, Vector3, Vector3?)](VRageMath.Matrix.CreateBillboard)
+[static Matrix CreateBillboard(Vector3 objectPosition, Vector3 cameraPosition, Vector3 cameraUpVector, Vector3? cameraForwardVector)](VRageMath.Matrix.CreateBillboard)
 
 > Creates a spherical billboard that rotates around a specified object position.
 
-[static void CreateBillboard(ref Vector3, ref Vector3, ref Vector3, Vector3?, out Matrix)](VRageMath.Matrix.CreateBillboard)
+[static void CreateBillboard(ref Vector3 objectPosition, ref Vector3 cameraPosition, ref Vector3 cameraUpVector, Vector3? cameraForwardVector, out Matrix result)](VRageMath.Matrix.CreateBillboard)
 
 > Creates a spherical billboard that rotates around a specified object position.
 
-[static Matrix CreateConstrainedBillboard(Vector3, Vector3, Vector3, Vector3?, Vector3?)](VRageMath.Matrix.CreateConstrainedBillboard)
+[static Matrix CreateConstrainedBillboard(Vector3 objectPosition, Vector3 cameraPosition, Vector3 rotateAxis, Vector3? cameraForwardVector, Vector3? objectForwardVector)](VRageMath.Matrix.CreateConstrainedBillboard)
 
 > Creates a cylindrical billboard that rotates around a specified axis.
 
-[static void CreateConstrainedBillboard(ref Vector3, ref Vector3, ref Vector3, Vector3?, Vector3?, out Matrix)](VRageMath.Matrix.CreateConstrainedBillboard)
+[static void CreateConstrainedBillboard(ref Vector3 objectPosition, ref Vector3 cameraPosition, ref Vector3 rotateAxis, Vector3? cameraForwardVector, Vector3? objectForwardVector, out Matrix result)](VRageMath.Matrix.CreateConstrainedBillboard)
 
 > Creates a cylindrical billboard that rotates around a specified axis.
 
-[static Matrix CreateFromAxisAngle(Vector3, float)](VRageMath.Matrix.CreateFromAxisAngle)
+[static Matrix CreateFromAxisAngle(Vector3 axis, float angle)](VRageMath.Matrix.CreateFromAxisAngle)
 
 > Creates a new Matrix that rotates around an arbitrary vector.
 
-[static void CreateFromAxisAngle(ref Vector3, float, out Matrix)](VRageMath.Matrix.CreateFromAxisAngle)
+[static void CreateFromAxisAngle(ref Vector3 axis, float angle, out Matrix result)](VRageMath.Matrix.CreateFromAxisAngle)
 
 > Creates a new Matrix that rotates around an arbitrary vector.
 
-[static Matrix CreateFromDir(Vector3)](VRageMath.Matrix.CreateFromDir)
+[static Matrix CreateFromDir(Vector3 dir)](VRageMath.Matrix.CreateFromDir)
 
 > 
 
-[static Matrix CreateFromDir(Vector3, Vector3)](VRageMath.Matrix.CreateFromDir)
+[static Matrix CreateFromDir(Vector3 dir, Vector3 suggestedUp)](VRageMath.Matrix.CreateFromDir)
 
 > 
 
-[static Matrix CreateFromPerspectiveFieldOfView(ref Matrix, float, float)](VRageMath.Matrix.CreateFromPerspectiveFieldOfView)
+[static Matrix CreateFromPerspectiveFieldOfView(ref Matrix proj, float nearPlaneDistance, float farPlaneDistance)](VRageMath.Matrix.CreateFromPerspectiveFieldOfView)
 
 > 
 
-[static Matrix CreateFromQuaternion(Quaternion)](VRageMath.Matrix.CreateFromQuaternion)
+[static Matrix CreateFromQuaternion(Quaternion quaternion)](VRageMath.Matrix.CreateFromQuaternion)
 
 > Creates a rotation Matrix from a Quaternion.
 
-[static void CreateFromQuaternion(ref Quaternion, out Matrix)](VRageMath.Matrix.CreateFromQuaternion)
+[static void CreateFromQuaternion(ref Quaternion quaternion, out Matrix result)](VRageMath.Matrix.CreateFromQuaternion)
 
 > Creates a rotation Matrix from a Quaternion.
 
-[static Matrix CreateFromTransformScale(Quaternion, Vector3, Vector3)](VRageMath.Matrix.CreateFromTransformScale)
+[static Matrix CreateFromTransformScale(Quaternion orientation, Vector3 position, Vector3 scale)](VRageMath.Matrix.CreateFromTransformScale)
 
 > 
 
-[static Matrix CreateFromYawPitchRoll(float, float, float)](VRageMath.Matrix.CreateFromYawPitchRoll)
+[static Matrix CreateFromYawPitchRoll(float yaw, float pitch, float roll)](VRageMath.Matrix.CreateFromYawPitchRoll)
 
 > Creates a new rotation matrix from a specified yaw, pitch, and roll.
 
-[static void CreateFromYawPitchRoll(float, float, float, out Matrix)](VRageMath.Matrix.CreateFromYawPitchRoll)
+[static void CreateFromYawPitchRoll(float yaw, float pitch, float roll, out Matrix result)](VRageMath.Matrix.CreateFromYawPitchRoll)
 
 > Fills in a rotation matrix from a specified yaw, pitch, and roll.
 
-[static Matrix CreateLookAt(Vector3, Vector3, Vector3)](VRageMath.Matrix.CreateLookAt)
+[static Matrix CreateLookAt(Vector3 cameraPosition, Vector3 cameraTarget, Vector3 cameraUpVector)](VRageMath.Matrix.CreateLookAt)
 
 > Creates a view matrix.
 
-[static void CreateLookAt(ref Vector3, ref Vector3, ref Vector3, out Matrix)](VRageMath.Matrix.CreateLookAt)
+[static void CreateLookAt(ref Vector3 cameraPosition, ref Vector3 cameraTarget, ref Vector3 cameraUpVector, out Matrix result)](VRageMath.Matrix.CreateLookAt)
 
 > Creates a view matrix.
 
-[static Matrix CreateLookAtInverse(Vector3, Vector3, Vector3)](VRageMath.Matrix.CreateLookAtInverse)
+[static Matrix CreateLookAtInverse(Vector3 cameraPosition, Vector3 cameraTarget, Vector3 cameraUpVector)](VRageMath.Matrix.CreateLookAtInverse)
 
 > 
 
-[static Matrix CreateOrthographic(float, float, float, float)](VRageMath.Matrix.CreateOrthographic)
+[static Matrix CreateOrthographic(float width, float height, float zNearPlane, float zFarPlane)](VRageMath.Matrix.CreateOrthographic)
 
 > Builds an orthogonal projection matrix.
 
-[static void CreateOrthographic(float, float, float, float, out Matrix)](VRageMath.Matrix.CreateOrthographic)
+[static void CreateOrthographic(float width, float height, float zNearPlane, float zFarPlane, out Matrix result)](VRageMath.Matrix.CreateOrthographic)
 
 > Builds an orthogonal projection matrix.
 
-[static Matrix CreateOrthographicOffCenter(float, float, float, float, float, float)](VRageMath.Matrix.CreateOrthographicOffCenter)
+[static Matrix CreateOrthographicOffCenter(float left, float right, float bottom, float top, float zNearPlane, float zFarPlane)](VRageMath.Matrix.CreateOrthographicOffCenter)
 
 > Builds a customized, orthogonal projection matrix.
 
-[static void CreateOrthographicOffCenter(float, float, float, float, float, float, out Matrix)](VRageMath.Matrix.CreateOrthographicOffCenter)
+[static void CreateOrthographicOffCenter(float left, float right, float bottom, float top, float zNearPlane, float zFarPlane, out Matrix result)](VRageMath.Matrix.CreateOrthographicOffCenter)
 
 > Builds a customized, orthogonal projection matrix.
 
-[static Matrix CreatePerspective(float, float, float, float)](VRageMath.Matrix.CreatePerspective)
+[static Matrix CreatePerspective(float width, float height, float nearPlaneDistance, float farPlaneDistance)](VRageMath.Matrix.CreatePerspective)
 
 > Builds a perspective projection matrix and returns the result by value.
 
-[static void CreatePerspective(float, float, float, float, out Matrix)](VRageMath.Matrix.CreatePerspective)
+[static void CreatePerspective(float width, float height, float nearPlaneDistance, float farPlaneDistance, out Matrix result)](VRageMath.Matrix.CreatePerspective)
 
 > Builds a perspective projection matrix and returns the result by reference.
 
-[static Matrix CreatePerspectiveFieldOfView(float, float, float, float)](VRageMath.Matrix.CreatePerspectiveFieldOfView)
+[static Matrix CreatePerspectiveFieldOfView(float fieldOfView, float aspectRatio, float nearPlaneDistance, float farPlaneDistance)](VRageMath.Matrix.CreatePerspectiveFieldOfView)
 
 > Builds a perspective projection matrix based on a field of view and returns by value.
 
-[static void CreatePerspectiveFieldOfView(float, float, float, float, out Matrix)](VRageMath.Matrix.CreatePerspectiveFieldOfView)
+[static void CreatePerspectiveFieldOfView(float fieldOfView, float aspectRatio, float nearPlaneDistance, float farPlaneDistance, out Matrix result)](VRageMath.Matrix.CreatePerspectiveFieldOfView)
 
 > Builds a perspective projection matrix based on a field of view and returns by reference.
 
-[static Matrix CreatePerspectiveFovRhComplementary(float, float, float, float)](VRageMath.Matrix.CreatePerspectiveFovRhComplementary)
+[static Matrix CreatePerspectiveFovRhComplementary(float fieldOfView, float aspectRatio, float nearPlaneDistance, float farPlaneDistance)](VRageMath.Matrix.CreatePerspectiveFovRhComplementary)
 
 > 
 
-[static Matrix CreatePerspectiveFovRhInfinite(float, float, float)](VRageMath.Matrix.CreatePerspectiveFovRhInfinite)
+[static Matrix CreatePerspectiveFovRhInfinite(float fieldOfView, float aspectRatio, float nearPlaneDistance)](VRageMath.Matrix.CreatePerspectiveFovRhInfinite)
 
 > 
 
-[static Matrix CreatePerspectiveFovRhInfiniteComplementary(float, float, float)](VRageMath.Matrix.CreatePerspectiveFovRhInfiniteComplementary)
+[static Matrix CreatePerspectiveFovRhInfiniteComplementary(float fieldOfView, float aspectRatio, float nearPlaneDistance)](VRageMath.Matrix.CreatePerspectiveFovRhInfiniteComplementary)
 
 > 
 
-[static Matrix CreatePerspectiveFovRhInfiniteComplementaryInverse(float, float, float)](VRageMath.Matrix.CreatePerspectiveFovRhInfiniteComplementaryInverse)
+[static Matrix CreatePerspectiveFovRhInfiniteComplementaryInverse(float fieldOfView, float aspectRatio, float nearPlaneDistance)](VRageMath.Matrix.CreatePerspectiveFovRhInfiniteComplementaryInverse)
 
 > 
 
-[static Matrix CreatePerspectiveFovRhInfiniteInverse(float, float, float)](VRageMath.Matrix.CreatePerspectiveFovRhInfiniteInverse)
+[static Matrix CreatePerspectiveFovRhInfiniteInverse(float fieldOfView, float aspectRatio, float nearPlaneDistance)](VRageMath.Matrix.CreatePerspectiveFovRhInfiniteInverse)
 
 > 
 
-[static Matrix CreatePerspectiveFovRhInverse(float, float, float, float)](VRageMath.Matrix.CreatePerspectiveFovRhInverse)
+[static Matrix CreatePerspectiveFovRhInverse(float fieldOfView, float aspectRatio, float nearPlaneDistance, float farPlaneDistance)](VRageMath.Matrix.CreatePerspectiveFovRhInverse)
 
 > 
 
-[static Matrix CreatePerspectiveOffCenter(float, float, float, float, float, float)](VRageMath.Matrix.CreatePerspectiveOffCenter)
+[static Matrix CreatePerspectiveOffCenter(float left, float right, float bottom, float top, float nearPlaneDistance, float farPlaneDistance)](VRageMath.Matrix.CreatePerspectiveOffCenter)
 
 > Builds a customized, perspective projection matrix.
 
-[static void CreatePerspectiveOffCenter(float, float, float, float, float, float, out Matrix)](VRageMath.Matrix.CreatePerspectiveOffCenter)
+[static void CreatePerspectiveOffCenter(float left, float right, float bottom, float top, float nearPlaneDistance, float farPlaneDistance, out Matrix result)](VRageMath.Matrix.CreatePerspectiveOffCenter)
 
 > Builds a customized, perspective projection matrix.
 
-[static Matrix CreateReflection(Plane)](VRageMath.Matrix.CreateReflection)
+[static Matrix CreateReflection(Plane value)](VRageMath.Matrix.CreateReflection)
 
 > Creates a Matrix that reflects the coordinate system about a specified Plane.
 
-[static void CreateReflection(ref Plane, out Matrix)](VRageMath.Matrix.CreateReflection)
+[static void CreateReflection(ref Plane value, out Matrix result)](VRageMath.Matrix.CreateReflection)
 
 > Fills in an existing Matrix so that it reflects the coordinate system about a specified Plane.
 
-[static void CreateRotationFromTwoVectors(ref Vector3, ref Vector3, out Matrix)](VRageMath.Matrix.CreateRotationFromTwoVectors)
+[static void CreateRotationFromTwoVectors(ref Vector3 fromVector, ref Vector3 toVector, out Matrix resultMatrix)](VRageMath.Matrix.CreateRotationFromTwoVectors)
 
 > 
 
-[static Matrix CreateRotationX(float)](VRageMath.Matrix.CreateRotationX)
+[static Matrix CreateRotationX(float radians)](VRageMath.Matrix.CreateRotationX)
 
 > Returns a matrix that can be used to rotate a set of vertices around the x-axis.
 
-[static void CreateRotationX(float, out Matrix)](VRageMath.Matrix.CreateRotationX)
+[static void CreateRotationX(float radians, out Matrix result)](VRageMath.Matrix.CreateRotationX)
 
 > Populates data into a user-specified matrix that can be used to rotate a set of vertices around the x-axis.
 
-[static Matrix CreateRotationY(float)](VRageMath.Matrix.CreateRotationY)
+[static Matrix CreateRotationY(float radians)](VRageMath.Matrix.CreateRotationY)
 
 > Returns a matrix that can be used to rotate a set of vertices around the y-axis.
 
-[static void CreateRotationY(float, out Matrix)](VRageMath.Matrix.CreateRotationY)
+[static void CreateRotationY(float radians, out Matrix result)](VRageMath.Matrix.CreateRotationY)
 
 > Populates data into a user-specified matrix that can be used to rotate a set of vertices around the y-axis.
 
-[static Matrix CreateRotationZ(float)](VRageMath.Matrix.CreateRotationZ)
+[static Matrix CreateRotationZ(float radians)](VRageMath.Matrix.CreateRotationZ)
 
 > Returns a matrix that can be used to rotate a set of vertices around the z-axis.
 
-[static void CreateRotationZ(float, out Matrix)](VRageMath.Matrix.CreateRotationZ)
+[static void CreateRotationZ(float radians, out Matrix result)](VRageMath.Matrix.CreateRotationZ)
 
 > Populates data into a user-specified matrix that can be used to rotate a set of vertices around the z-axis.
 
-[static Matrix CreateScale(float, float, float)](VRageMath.Matrix.CreateScale)
+[static Matrix CreateScale(float xScale, float yScale, float zScale)](VRageMath.Matrix.CreateScale)
 
 > Creates a scaling Matrix.
 
-[static void CreateScale(float, float, float, out Matrix)](VRageMath.Matrix.CreateScale)
+[static void CreateScale(float xScale, float yScale, float zScale, out Matrix result)](VRageMath.Matrix.CreateScale)
 
 > Creates a scaling Matrix.
 
-[static Matrix CreateScale(Vector3)](VRageMath.Matrix.CreateScale)
+[static Matrix CreateScale(Vector3 scales)](VRageMath.Matrix.CreateScale)
 
 > Creates a scaling Matrix.
 
-[static void CreateScale(ref Vector3, out Matrix)](VRageMath.Matrix.CreateScale)
+[static void CreateScale(ref Vector3 scales, out Matrix result)](VRageMath.Matrix.CreateScale)
 
 > Creates a scaling Matrix.
 
-[static Matrix CreateScale(float)](VRageMath.Matrix.CreateScale)
+[static Matrix CreateScale(float scale)](VRageMath.Matrix.CreateScale)
 
 > Creates a scaling Matrix.
 
-[static void CreateScale(float, out Matrix)](VRageMath.Matrix.CreateScale)
+[static void CreateScale(float scale, out Matrix result)](VRageMath.Matrix.CreateScale)
 
 > Creates a scaling Matrix.
 
-[static Matrix CreateShadow(Vector3, Plane)](VRageMath.Matrix.CreateShadow)
+[static Matrix CreateShadow(Vector3 lightDirection, Plane plane)](VRageMath.Matrix.CreateShadow)
 
 > Creates a Matrix that flattens geometry into a specified Plane as if casting a shadow from a specified light source.
 
-[static void CreateShadow(ref Vector3, ref Plane, out Matrix)](VRageMath.Matrix.CreateShadow)
+[static void CreateShadow(ref Vector3 lightDirection, ref Plane plane, out Matrix result)](VRageMath.Matrix.CreateShadow)
 
 > Fills in a Matrix to flatten geometry into a specified Plane as if casting a shadow from a specified light source.
 
-[static Matrix CreateTranslation(Vector3)](VRageMath.Matrix.CreateTranslation)
+[static Matrix CreateTranslation(Vector3 position)](VRageMath.Matrix.CreateTranslation)
 
 > Creates a translation Matrix.
 
-[static void CreateTranslation(ref Vector3, out Matrix)](VRageMath.Matrix.CreateTranslation)
+[static void CreateTranslation(ref Vector3 position, out Matrix result)](VRageMath.Matrix.CreateTranslation)
 
 > Creates a translation Matrix.
 
-[static Matrix CreateTranslation(float, float, float)](VRageMath.Matrix.CreateTranslation)
+[static Matrix CreateTranslation(float xPosition, float yPosition, float zPosition)](VRageMath.Matrix.CreateTranslation)
 
 > Creates a translation Matrix.
 
-[static void CreateTranslation(float, float, float, out Matrix)](VRageMath.Matrix.CreateTranslation)
+[static void CreateTranslation(float xPosition, float yPosition, float zPosition, out Matrix result)](VRageMath.Matrix.CreateTranslation)
 
 > Creates a translation Matrix.
 
-[static Matrix CreateWorld(Vector3)](VRageMath.Matrix.CreateWorld)
+[static Matrix CreateWorld(Vector3 position)](VRageMath.Matrix.CreateWorld)
 
 > 
 
-[static Matrix CreateWorld(Vector3, Vector3, Vector3)](VRageMath.Matrix.CreateWorld)
+[static Matrix CreateWorld(Vector3 position, Vector3 forward, Vector3 up)](VRageMath.Matrix.CreateWorld)
 
 > Creates a world matrix with the specified parameters.
 
-[static void CreateWorld(ref Vector3, ref Vector3, ref Vector3, out Matrix)](VRageMath.Matrix.CreateWorld)
+[static void CreateWorld(ref Vector3 position, ref Vector3 forward, ref Vector3 up, out Matrix result)](VRageMath.Matrix.CreateWorld)
 
 > Creates a world matrix with the specified parameters.
 
-[static Matrix Divide(Matrix, Matrix)](VRageMath.Matrix.Divide)
+[static Matrix Divide(Matrix matrix1, Matrix matrix2)](VRageMath.Matrix.Divide)
 
 > Divides the components of a matrix by the corresponding components of another matrix.
 
-[static void Divide(ref Matrix, ref Matrix, out Matrix)](VRageMath.Matrix.Divide)
+[static void Divide(ref Matrix matrix1, ref Matrix matrix2, out Matrix result)](VRageMath.Matrix.Divide)
 
 > Divides the components of a matrix by the corresponding components of another matrix.
 
-[static Matrix Divide(Matrix, float)](VRageMath.Matrix.Divide)
+[static Matrix Divide(Matrix matrix1, float divider)](VRageMath.Matrix.Divide)
 
 > Divides the components of a matrix by a scalar.
 
-[static void Divide(ref Matrix, float, out Matrix)](VRageMath.Matrix.Divide)
+[static void Divide(ref Matrix matrix1, float divider, out Matrix result)](VRageMath.Matrix.Divide)
 
 > Divides the components of a matrix by a scalar.
 
-[static bool GetEulerAnglesXYZ(ref Matrix, out Vector3)](VRageMath.Matrix.GetEulerAnglesXYZ)
+[static bool GetEulerAnglesXYZ(ref Matrix mat, out Vector3 xyz)](VRageMath.Matrix.GetEulerAnglesXYZ)
 
 > 
 
-[static Matrix Invert(Matrix)](VRageMath.Matrix.Invert)
+[static Matrix Invert(Matrix matrix)](VRageMath.Matrix.Invert)
 
 > Calculates the inverse of a matrix.
 
-[static Matrix Invert(ref Matrix)](VRageMath.Matrix.Invert)
+[static Matrix Invert(ref Matrix matrix)](VRageMath.Matrix.Invert)
 
 > 
 
-[static void Invert(ref Matrix, out Matrix)](VRageMath.Matrix.Invert)
+[static void Invert(ref Matrix matrix, out Matrix result)](VRageMath.Matrix.Invert)
 
 > Calculates the inverse of a matrix.
 
-[static Matrix Lerp(Matrix, Matrix, float)](VRageMath.Matrix.Lerp)
+[static Matrix Lerp(Matrix matrix1, Matrix matrix2, float amount)](VRageMath.Matrix.Lerp)
 
 > Linearly interpolates between the corresponding values of two matrices.
 
-[static void Lerp(ref Matrix, ref Matrix, float, out Matrix)](VRageMath.Matrix.Lerp)
+[static void Lerp(ref Matrix matrix1, ref Matrix matrix2, float amount, out Matrix result)](VRageMath.Matrix.Lerp)
 
 > Linearly interpolates between the corresponding values of two matrices.
 
-[static Matrix Multiply(Matrix, Matrix)](VRageMath.Matrix.Multiply)
+[static Matrix Multiply(Matrix matrix1, Matrix matrix2)](VRageMath.Matrix.Multiply)
 
 > Multiplies a matrix by another matrix.
 
-[static void Multiply(ref Matrix, ref Matrix, out Matrix)](VRageMath.Matrix.Multiply)
+[static void Multiply(ref Matrix matrix1, ref Matrix matrix2, out Matrix result)](VRageMath.Matrix.Multiply)
 
 > Multiplies a matrix by another matrix.
 
-[static Matrix Multiply(Matrix, float)](VRageMath.Matrix.Multiply)
+[static Matrix Multiply(Matrix matrix1, float scaleFactor)](VRageMath.Matrix.Multiply)
 
 > Multiplies a matrix by a scalar value.
 
-[static void Multiply(ref Matrix, float, out Matrix)](VRageMath.Matrix.Multiply)
+[static void Multiply(ref Matrix matrix1, float scaleFactor, out Matrix result)](VRageMath.Matrix.Multiply)
 
 > Multiplies a matrix by a scalar value.
 
-[static void MultiplyRotation(ref Matrix, ref Matrix, out Matrix)](VRageMath.Matrix.MultiplyRotation)
+[static void MultiplyRotation(ref Matrix matrix1, ref Matrix matrix2, out Matrix result)](VRageMath.Matrix.MultiplyRotation)
 
 > Multiplies a matrix by another matrix, only rotation parts.
 
-[static Matrix Negate(Matrix)](VRageMath.Matrix.Negate)
+[static Matrix Negate(Matrix matrix)](VRageMath.Matrix.Negate)
 
 > Negates individual elements of a matrix.
 
-[static void Negate(ref Matrix, out Matrix)](VRageMath.Matrix.Negate)
+[static void Negate(ref Matrix matrix, out Matrix result)](VRageMath.Matrix.Negate)
 
 > Negates individual elements of a matrix.
 
-[static Matrix Normalize(Matrix)](VRageMath.Matrix.Normalize)
+[static Matrix Normalize(Matrix matrix)](VRageMath.Matrix.Normalize)
 
 > 
 
-[static Matrix Orthogonalize(Matrix)](VRageMath.Matrix.Orthogonalize)
+[static Matrix Orthogonalize(Matrix rotationMatrix)](VRageMath.Matrix.Orthogonalize)
 
 > 
 
-[static void Rescale(ref Matrix, float)](VRageMath.Matrix.Rescale)
+[static void Rescale(ref Matrix matrix, float scale)](VRageMath.Matrix.Rescale)
 
 > Same result as Matrix.CreateScale(scale) * matrix, but much faster
 
-[static void Rescale(ref Matrix, ref Vector3)](VRageMath.Matrix.Rescale)
+[static void Rescale(ref Matrix matrix, ref Vector3 scale)](VRageMath.Matrix.Rescale)
 
 > Same result as Matrix.CreateScale(scale) * matrix, but much faster
 
-[static Matrix Rescale(Matrix, float)](VRageMath.Matrix.Rescale)
+[static Matrix Rescale(Matrix matrix, float scale)](VRageMath.Matrix.Rescale)
 
 > 
 
-[static Matrix Rescale(Matrix, Vector3)](VRageMath.Matrix.Rescale)
+[static Matrix Rescale(Matrix matrix, Vector3 scale)](VRageMath.Matrix.Rescale)
 
 > 
 
-[static Matrix Round(ref Matrix)](VRageMath.Matrix.Round)
+[static Matrix Round(ref Matrix matrix)](VRageMath.Matrix.Round)
 
 > 
 
-[static void Slerp(ref Matrix, ref Matrix, float, out Matrix)](VRageMath.Matrix.Slerp)
+[static void Slerp(ref Matrix matrix1, ref Matrix matrix2, float amount, out Matrix result)](VRageMath.Matrix.Slerp)
 
 > Performs spherical linear interpolation of position and rotation.
 
-[static void Slerp(Matrix, Matrix, float, out Matrix)](VRageMath.Matrix.Slerp)
+[static void Slerp(Matrix matrix1, Matrix matrix2, float amount, out Matrix result)](VRageMath.Matrix.Slerp)
 
 > Performs spherical linear interpolation of position and rotation.
 
-[static Matrix Slerp(Matrix, Matrix, float)](VRageMath.Matrix.Slerp)
+[static Matrix Slerp(Matrix matrix1, Matrix matrix2, float amount)](VRageMath.Matrix.Slerp)
 
 > Performs spherical linear interpolation of position and rotation.
 
-[static void SlerpScale(ref Matrix, ref Matrix, float, out Matrix)](VRageMath.Matrix.SlerpScale)
+[static void SlerpScale(ref Matrix matrix1, ref Matrix matrix2, float amount, out Matrix result)](VRageMath.Matrix.SlerpScale)
 
 > Performs spherical linear interpolation of position and rotation and scale.
 
-[static void SlerpScale(Matrix, Matrix, float, out Matrix)](VRageMath.Matrix.SlerpScale)
+[static void SlerpScale(Matrix matrix1, Matrix matrix2, float amount, out Matrix result)](VRageMath.Matrix.SlerpScale)
 
 > Performs spherical linear interpolation of position and rotation and scale.
 
-[static Matrix SlerpScale(Matrix, Matrix, float)](VRageMath.Matrix.SlerpScale)
+[static Matrix SlerpScale(Matrix matrix1, Matrix matrix2, float amount)](VRageMath.Matrix.SlerpScale)
 
 > Performs spherical linear interpolation of position and rotation and scale.
 
-[static void Subtract(ref Matrix, ref Matrix, out Matrix)](VRageMath.Matrix.Subtract)
+[static void Subtract(ref Matrix matrix1, ref Matrix matrix2, out Matrix result)](VRageMath.Matrix.Subtract)
 
 > Subtracts matrices.
 
-[static Matrix Subtract(Matrix, Matrix)](VRageMath.Matrix.Subtract)
+[static Matrix Subtract(Matrix matrix1, Matrix matrix2)](VRageMath.Matrix.Subtract)
 
 > Subtracts matrices.
 
-[static Matrix SwapYZCoordinates(Matrix)](VRageMath.Matrix.SwapYZCoordinates)
+[static Matrix SwapYZCoordinates(Matrix m)](VRageMath.Matrix.SwapYZCoordinates)
 
 > 
 
-[static Matrix Transform(Matrix, Quaternion)](VRageMath.Matrix.Transform)
+[static Matrix Transform(Matrix value, Quaternion rotation)](VRageMath.Matrix.Transform)
 
 > Transforms a Matrix by applying a Quaternion rotation.
 
-[static void Transform(ref Matrix, ref Quaternion, out Matrix)](VRageMath.Matrix.Transform)
+[static void Transform(ref Matrix value, ref Quaternion rotation, out Matrix result)](VRageMath.Matrix.Transform)
 
 > Transforms a Matrix by applying a Quaternion rotation.
 
-[static Matrix Transpose(Matrix)](VRageMath.Matrix.Transpose)
+[static Matrix Transpose(Matrix matrix)](VRageMath.Matrix.Transpose)
 
 > Transposes the rows and columns of a matrix.
 
-[static void Transpose(ref Matrix, out Matrix)](VRageMath.Matrix.Transpose)
+[static void Transpose(ref Matrix matrix, out Matrix result)](VRageMath.Matrix.Transpose)
 
 > Transposes the rows and columns of a matrix.
 
@@ -550,27 +550,27 @@ Defines a matrix.
 
 > Calculates the determinant of the matrix.
 
-[bool Equals(Matrix)](VRageMath.Matrix.Equals)
+[bool Equals(Matrix other)](VRageMath.Matrix.Equals)
 
 > Determines whether the specified Object is equal to the Matrix.
 
-[bool Equals(object)](VRageMath.Matrix.Equals)
+[bool Equals(object obj)](VRageMath.Matrix.Equals)
 
 > Returns a value that indicates whether the current instance is equal to a specified object.
 
-[bool EqualsFast(ref Matrix, float = 0.0001)](VRageMath.Matrix.EqualsFast)
+[bool EqualsFast(ref Matrix other, float epsilon = 0.0001)](VRageMath.Matrix.EqualsFast)
 
 > Compares just position, forward and up
 
-[Direction GetClosestDirection(Vector3)](VRageMath.Matrix.GetClosestDirection)
+[Direction GetClosestDirection(Vector3 referenceVector)](VRageMath.Matrix.GetClosestDirection)
 
 > 
 
-[Direction GetClosestDirection(ref Vector3)](VRageMath.Matrix.GetClosestDirection)
+[Direction GetClosestDirection(ref Vector3 referenceVector)](VRageMath.Matrix.GetClosestDirection)
 
 > 
 
-[Vector3 GetDirectionVector(Direction)](VRageMath.Matrix.GetDirectionVector)
+[Vector3 GetDirectionVector(Direction direction)](VRageMath.Matrix.GetDirectionVector)
 
 > 
 
@@ -582,7 +582,7 @@ Defines a matrix.
 
 > Gets the orientation.
 
-[Vector4 GetRow(int)](VRageMath.Matrix.GetRow)
+[Vector4 GetRow(int row)](VRageMath.Matrix.GetRow)
 
 > 
 
@@ -610,19 +610,19 @@ Defines a matrix.
 
 > 
 
-[void SetDirectionVector(Direction, Vector3)](VRageMath.Matrix.SetDirectionVector)
+[void SetDirectionVector(Direction direction, Vector3 newValue)](VRageMath.Matrix.SetDirectionVector)
 
 > 
 
-[void SetFrom(ref MatrixD)](VRageMath.Matrix.SetFrom)
+[void SetFrom(ref MatrixD m)](VRageMath.Matrix.SetFrom)
 
 > Set this ma
 
-[void SetRotationAndScale(ref MatrixD)](VRageMath.Matrix.SetRotationAndScale)
+[void SetRotationAndScale(ref MatrixD m)](VRageMath.Matrix.SetRotationAndScale)
 
 > 
 
-[void SetRow(int, Vector4)](VRageMath.Matrix.SetRow)
+[void SetRow(int row, Vector4 value)](VRageMath.Matrix.SetRow)
 
 > 
 

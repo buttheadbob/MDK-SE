@@ -27,7 +27,7 @@ public struct SymmetricSerializableRange
 
 #### Constructors
 
-[SymmetricSerializableRange(float, float, bool = default)](VRageMath.SymmetricSerializableRange..ctor)
+[SymmetricSerializableRange(float min, float max, bool mirror = default)](VRageMath.SymmetricSerializableRange..ctor)
 
 > 
 
@@ -57,7 +57,7 @@ public struct SymmetricSerializableRange
 
 > 
 
-[bool ValueBetween(float)](VRageMath.SymmetricSerializableRange.ValueBetween)
+[bool ValueBetween(float value)](VRageMath.SymmetricSerializableRange.ValueBetween)
 
 > 
 

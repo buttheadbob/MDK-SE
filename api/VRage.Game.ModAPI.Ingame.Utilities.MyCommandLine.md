@@ -33,7 +33,7 @@ A utility class to parse arguments from a command line string. Switches are defi
 
 #### Methods
 
-[string Argument(int)](VRage.Game.ModAPI.Ingame.Utilities.MyCommandLine.Argument)
+[string Argument(int index)](VRage.Game.ModAPI.Ingame.Utilities.MyCommandLine.Argument)
 
 > Returns the argument at the given index. Switches are not counted.
 
@@ -41,15 +41,15 @@ A utility class to parse arguments from a command line string. Switches are defi
 
 > Clears all arguments
 
-[bool Switch(string)](VRage.Game.ModAPI.Ingame.Utilities.MyCommandLine.Switch)
+[bool Switch(string name)](VRage.Game.ModAPI.Ingame.Utilities.MyCommandLine.Switch)
 
 > Determines whether the given switch is set. Switches are specified without their prefixed hyphen.
 
-[string Switch(string, int)](VRage.Game.ModAPI.Ingame.Utilities.MyCommandLine.Switch)
+[string Switch(string name, int relativeArgument)](VRage.Game.ModAPI.Ingame.Utilities.MyCommandLine.Switch)
 
 > Gets an argument of a switch. For example, using`Switch("key", 0)`on the command line`someOtherArgument -key value`will return`value`.
 
-[bool TryParse(string)](VRage.Game.ModAPI.Ingame.Utilities.MyCommandLine.TryParse)
+[bool TryParse(string argument)](VRage.Game.ModAPI.Ingame.Utilities.MyCommandLine.TryParse)
 
 > Attempts to parse the given string as a command line
 

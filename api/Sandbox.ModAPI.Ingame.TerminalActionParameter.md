@@ -31,11 +31,11 @@ public struct TerminalActionParameter
 
 #### Methods
 
-[static TerminalActionParameter Deserialize(string, TypeCode)](Sandbox.ModAPI.Ingame.TerminalActionParameter.Deserialize)
+[static TerminalActionParameter Deserialize(string serializedValue, TypeCode typeCode)](Sandbox.ModAPI.Ingame.TerminalActionParameter.Deserialize)
 
 > Creates a [TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter) from a serialized value in a string and a type code.
 
-[static TerminalActionParameter Get(object)](Sandbox.ModAPI.Ingame.TerminalActionParameter.Get)
+[static TerminalActionParameter Get(object value)](Sandbox.ModAPI.Ingame.TerminalActionParameter.Get)
 
 > Creates a [TerminalActionParameter](Sandbox.ModAPI.Ingame.TerminalActionParameter) from the given value.
 

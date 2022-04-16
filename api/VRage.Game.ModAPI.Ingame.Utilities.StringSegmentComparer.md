@@ -28,11 +28,11 @@ A comparer designed to compare [StringSegment](VRage.Game.ModAPI.Ingame.Utilitie
 
 #### Methods
 
-[bool Equals(StringSegment, StringSegment)](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentComparer.Equals)
+[bool Equals(StringSegment x, StringSegment y)](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentComparer.Equals)
 
 > Determines whether the specified objects are equal.
 
-[int GetHashCode(StringSegment)](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentComparer.GetHashCode)
+[int GetHashCode(StringSegment obj)](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentComparer.GetHashCode)
 
 > Returns a hash code for the specified object.
 

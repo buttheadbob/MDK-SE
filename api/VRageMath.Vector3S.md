@@ -49,29 +49,29 @@ public struct Vector3S
 
 #### Constructors
 
-[Vector3S(Vector3I)](VRageMath.Vector3S..ctor)
+[Vector3S(Vector3I vec)](VRageMath.Vector3S..ctor)
 
 > 
 
-[Vector3S(ref Vector3I)](VRageMath.Vector3S..ctor)
+[Vector3S(ref Vector3I vec)](VRageMath.Vector3S..ctor)
 
 > 
 
-[Vector3S(short, short, short)](VRageMath.Vector3S..ctor)
+[Vector3S(short x, short y, short z)](VRageMath.Vector3S..ctor)
 
 > 
 
-[Vector3S(float, float, float)](VRageMath.Vector3S..ctor)
+[Vector3S(float x, float y, float z)](VRageMath.Vector3S..ctor)
 
 > 
 
 #### Methods
 
-[static Vector3S Round(Vector3)](VRageMath.Vector3S.Round)
+[static Vector3S Round(Vector3 v)](VRageMath.Vector3S.Round)
 
 > 
 
-[bool Equals(object)](VRageMath.Vector3S.Equals)
+[bool Equals(object obj)](VRageMath.Vector3S.Equals)
 
 > 
 

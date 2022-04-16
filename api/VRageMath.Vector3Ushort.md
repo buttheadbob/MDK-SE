@@ -25,7 +25,7 @@ public struct Vector3Ushort
 
 #### Constructors
 
-[Vector3Ushort(ushort, ushort, ushort)](VRageMath.Vector3Ushort..ctor)
+[Vector3Ushort(ushort x, ushort y, ushort z)](VRageMath.Vector3Ushort..ctor)
 
 > 
 

@@ -21,13 +21,13 @@ public class MyMovingAverage
 
 #### Constructors
 
-[MyMovingAverage(int, int = 1000)](VRageMath.MyMovingAverage..ctor)
+[MyMovingAverage(int windowSize, int enqueueCountToReset = 1000)](VRageMath.MyMovingAverage..ctor)
 
 > 
 
 #### Methods
 
-[void Enqueue(float)](VRageMath.MyMovingAverage.Enqueue)
+[void Enqueue(float value)](VRageMath.MyMovingAverage.Enqueue)
 
 > 
 

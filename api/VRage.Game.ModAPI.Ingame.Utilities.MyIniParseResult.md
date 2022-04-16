@@ -33,11 +33,11 @@ Represents the results of a configuration parsing.
 
 #### Methods
 
-[bool Equals(MyIniParseResult)](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult.Equals)
+[bool Equals(MyIniParseResult other)](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult.Equals)
 
 > Compares this [MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult) with another.
 
-[bool Equals(object)](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult.Equals)
+[bool Equals(object obj)](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult.Equals)
 
 > Compares this [MyIniParseResult](VRage.Game.ModAPI.Ingame.Utilities.MyIniParseResult) with another.
 

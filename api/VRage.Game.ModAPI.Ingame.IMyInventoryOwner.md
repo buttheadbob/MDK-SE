@@ -31,7 +31,7 @@ Describes interface of object that has inventory (PB scripting interface)
 
 #### Methods
 
-[IMyInventory GetInventory(int)](VRage.Game.ModAPI.Ingame.IMyInventoryOwner.GetInventory)
+[IMyInventory GetInventory(int index)](VRage.Game.ModAPI.Ingame.IMyInventoryOwner.GetInventory)
 
 > Gets inventory by index
 

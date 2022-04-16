@@ -55,7 +55,7 @@ public struct MyDetectedEntityInfo
 
 #### Constructors
 
-[MyDetectedEntityInfo(long, string, MyDetectedEntityType, Vector3D?, MatrixD, Vector3, MyRelationsBetweenPlayerAndBlock, BoundingBoxD, long)](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo..ctor)
+[MyDetectedEntityInfo(long entityId, string name, MyDetectedEntityType type, Vector3D? hitPosition, MatrixD orientation, Vector3 velocity, MyRelationsBetweenPlayerAndBlock relationship, BoundingBoxD boundingBox, long timeStamp)](Sandbox.ModAPI.Ingame.MyDetectedEntityInfo..ctor)
 
 > 
 

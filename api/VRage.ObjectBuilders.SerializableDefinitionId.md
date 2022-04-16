@@ -39,7 +39,7 @@ public struct SerializableDefinitionId
 
 #### Constructors
 
-[SerializableDefinitionId(MyObjectBuilderType, string)](VRage.ObjectBuilders.SerializableDefinitionId..ctor)
+[SerializableDefinitionId(MyObjectBuilderType typeId, string subtypeName)](VRage.ObjectBuilders.SerializableDefinitionId..ctor)
 
 > 
 

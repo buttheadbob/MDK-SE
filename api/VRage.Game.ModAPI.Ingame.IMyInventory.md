@@ -39,63 +39,63 @@ Describes inventory interface (PB scripting interface)
 
 #### Methods
 
-[bool CanItemsBeAdded(MyFixedPoint, MyItemType)](VRage.Game.ModAPI.Ingame.IMyInventory.CanItemsBeAdded)
+[bool CanItemsBeAdded(MyFixedPoint amount, MyItemType itemType)](VRage.Game.ModAPI.Ingame.IMyInventory.CanItemsBeAdded)
 
 > Determines if given amount of items fits into this inventory on top of existing items.
 
-[bool CanTransferItemTo(IMyInventory, MyItemType)](VRage.Game.ModAPI.Ingame.IMyInventory.CanTransferItemTo)
+[bool CanTransferItemTo(IMyInventory otherInventory, MyItemType itemType)](VRage.Game.ModAPI.Ingame.IMyInventory.CanTransferItemTo)
 
 > Determines if there is working conveyor connection for item of give type to be transferred to other inventory.
 
-[bool ContainItems(MyFixedPoint, MyItemType)](VRage.Game.ModAPI.Ingame.IMyInventory.ContainItems)
+[bool ContainItems(MyFixedPoint amount, MyItemType itemType)](VRage.Game.ModAPI.Ingame.IMyInventory.ContainItems)
 
 > Determines if there is at least given amount of items of given type contained inside this inventory.
 
-[MyInventoryItem? FindItem(MyItemType)](VRage.Game.ModAPI.Ingame.IMyInventory.FindItem)
+[MyInventoryItem? FindItem(MyItemType itemType)](VRage.Game.ModAPI.Ingame.IMyInventory.FindItem)
 
 > Tries to find an item of given type inside this inventory.
 
-[void GetAcceptedItems(List&lt;MyItemType&gt;, Func&lt;MyItemType, bool&gt; = null)](VRage.Game.ModAPI.Ingame.IMyInventory.GetAcceptedItems)
+[void GetAcceptedItems(List&lt;MyItemType&gt; itemsTypes, Func&lt;MyItemType, bool&gt; filter = null)](VRage.Game.ModAPI.Ingame.IMyInventory.GetAcceptedItems)
 
 > Returns all items this inventory accepts.
 
-[MyFixedPoint GetItemAmount(MyItemType)](VRage.Game.ModAPI.Ingame.IMyInventory.GetItemAmount)
+[MyFixedPoint GetItemAmount(MyItemType itemType)](VRage.Game.ModAPI.Ingame.IMyInventory.GetItemAmount)
 
 > Sums up total amount of items of given type contained inside this inventory.
 
-[MyInventoryItem? GetItemAt(int)](VRage.Game.ModAPI.Ingame.IMyInventory.GetItemAt)
+[MyInventoryItem? GetItemAt(int index)](VRage.Game.ModAPI.Ingame.IMyInventory.GetItemAt)
 
 > Returns info about item at give position.
 
-[MyInventoryItem? GetItemByID(uint)](VRage.Game.ModAPI.Ingame.IMyInventory.GetItemByID)
+[MyInventoryItem? GetItemByID(uint id)](VRage.Game.ModAPI.Ingame.IMyInventory.GetItemByID)
 
 > Returns info about item contained inside this inventory.
 
-[void GetItems(List&lt;MyInventoryItem&gt;, Func&lt;MyInventoryItem, bool&gt; = null)](VRage.Game.ModAPI.Ingame.IMyInventory.GetItems)
+[void GetItems(List&lt;MyInventoryItem&gt; items, Func&lt;MyInventoryItem, bool&gt; filter = null)](VRage.Game.ModAPI.Ingame.IMyInventory.GetItems)
 
 > Collects all items present inside this inventory and returns snapshot of the current inventory state.
 
-[bool IsConnectedTo(IMyInventory)](VRage.Game.ModAPI.Ingame.IMyInventory.IsConnectedTo)
+[bool IsConnectedTo(IMyInventory otherInventory)](VRage.Game.ModAPI.Ingame.IMyInventory.IsConnectedTo)
 
 > Checks if two inventories are connected.
 
-[bool IsItemAt(int)](VRage.Game.ModAPI.Ingame.IMyInventory.IsItemAt)
+[bool IsItemAt(int position)](VRage.Game.ModAPI.Ingame.IMyInventory.IsItemAt)
 
 > Determines if there is any item on given inventory slot.
 
-[bool TransferItemFrom(IMyInventory, MyInventoryItem, MyFixedPoint? = default)](VRage.Game.ModAPI.Ingame.IMyInventory.TransferItemFrom)
+[bool TransferItemFrom(IMyInventory sourceInventory, MyInventoryItem item, MyFixedPoint? amount = default)](VRage.Game.ModAPI.Ingame.IMyInventory.TransferItemFrom)
 
 > Attempts to transfer item from one inventory to another.
 
-[bool TransferItemFrom(IMyInventory, int, int? = default, bool? = default, MyFixedPoint? = default)](VRage.Game.ModAPI.Ingame.IMyInventory.TransferItemFrom)
+[bool TransferItemFrom(IMyInventory sourceInventory, int sourceItemIndex, int? targetItemIndex = default, bool? stackIfPossible = default, MyFixedPoint? amount = default)](VRage.Game.ModAPI.Ingame.IMyInventory.TransferItemFrom)
 
 > Attempts to transfer item from one inventory to another.
 
-[bool TransferItemTo(IMyInventory, MyInventoryItem, MyFixedPoint? = default)](VRage.Game.ModAPI.Ingame.IMyInventory.TransferItemTo)
+[bool TransferItemTo(IMyInventory dstInventory, MyInventoryItem item, MyFixedPoint? amount = default)](VRage.Game.ModAPI.Ingame.IMyInventory.TransferItemTo)
 
 > Attempts to transfer item from one inventory to another.
 
-[bool TransferItemTo(IMyInventory, int, int? = default, bool? = default, MyFixedPoint? = default)](VRage.Game.ModAPI.Ingame.IMyInventory.TransferItemTo)
+[bool TransferItemTo(IMyInventory dst, int sourceItemIndex, int? targetItemIndex = default, bool? stackIfPossible = default, MyFixedPoint? amount = default)](VRage.Game.ModAPI.Ingame.IMyInventory.TransferItemTo)
 
 > Attempts to transfer item from one inventory to another.
 

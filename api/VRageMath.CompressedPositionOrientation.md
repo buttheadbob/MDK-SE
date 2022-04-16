@@ -29,17 +29,17 @@ Defines a matrix.
 
 #### Constructors
 
-[CompressedPositionOrientation(ref Matrix)](VRageMath.CompressedPositionOrientation..ctor)
+[CompressedPositionOrientation(ref Matrix matrix)](VRageMath.CompressedPositionOrientation..ctor)
 
 > 
 
 #### Methods
 
-[void FromMatrix(ref Matrix)](VRageMath.CompressedPositionOrientation.FromMatrix)
+[void FromMatrix(ref Matrix matrix)](VRageMath.CompressedPositionOrientation.FromMatrix)
 
 > 
 
-[void ToMatrix(out Matrix)](VRageMath.CompressedPositionOrientation.ToMatrix)
+[void ToMatrix(out Matrix result)](VRageMath.CompressedPositionOrientation.ToMatrix)
 
 > 
 

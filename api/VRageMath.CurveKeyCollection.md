@@ -38,11 +38,11 @@ Contains the CurveKeys making up a Curve.
 
 #### Methods
 
-[void Add(object)](VRageMath.CurveKeyCollection.Add)
+[void Add(object tmp)](VRageMath.CurveKeyCollection.Add)
 
 > 
 
-[void Add(CurveKey)](VRageMath.CurveKeyCollection.Add)
+[void Add(CurveKey item)](VRageMath.CurveKeyCollection.Add)
 
 > Adds a CurveKey to the CurveKeyCollection.
 
@@ -54,11 +54,11 @@ Contains the CurveKeys making up a Curve.
 
 > Creates a copy of the CurveKeyCollection.
 
-[bool Contains(CurveKey)](VRageMath.CurveKeyCollection.Contains)
+[bool Contains(CurveKey item)](VRageMath.CurveKeyCollection.Contains)
 
 > Determines whether the CurveKeyCollection contains a specific CurveKey.
 
-[void CopyTo(CurveKey&#91&#93;, int)](VRageMath.CurveKeyCollection.CopyTo)
+[void CopyTo(CurveKey&#91&#93; array, int arrayIndex)](VRageMath.CurveKeyCollection.CopyTo)
 
 > Copies the CurveKeys of the CurveKeyCollection to an array, starting at the array index provided.
 
@@ -66,15 +66,15 @@ Contains the CurveKeys making up a Curve.
 
 > Returns an enumerator that iterates through the CurveKeyCollection.
 
-[int IndexOf(CurveKey)](VRageMath.CurveKeyCollection.IndexOf)
+[int IndexOf(CurveKey item)](VRageMath.CurveKeyCollection.IndexOf)
 
 > Determines the index of a CurveKey in the CurveKeyCollection.
 
-[bool Remove(CurveKey)](VRageMath.CurveKeyCollection.Remove)
+[bool Remove(CurveKey item)](VRageMath.CurveKeyCollection.Remove)
 
 > Removes the first occurrence of a specific CurveKey from the CurveKeyCollection.
 
-[void RemoveAt(int)](VRageMath.CurveKeyCollection.RemoveAt)
+[void RemoveAt(int index)](VRageMath.CurveKeyCollection.RemoveAt)
 
 > Removes the CurveKey at the specified index.
 

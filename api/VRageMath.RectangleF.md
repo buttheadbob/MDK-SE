@@ -56,45 +56,45 @@ Structure using the same layout than [System.Drawing.RectangleF](https://docs.mi
 
 #### Constructors
 
-[RectangleF(Vector2, Vector2)](VRageMath.RectangleF..ctor)
+[RectangleF(Vector2 position, Vector2 size)](VRageMath.RectangleF..ctor)
 
 > 
 
-[RectangleF(float, float, float, float)](VRageMath.RectangleF..ctor)
+[RectangleF(float x, float y, float width, float height)](VRageMath.RectangleF..ctor)
 
 > 
 
 #### Methods
 
-[static bool Intersect(ref RectangleF, ref RectangleF, out RectangleF)](VRageMath.RectangleF.Intersect)
+[static bool Intersect(ref RectangleF value1, ref RectangleF value2, out RectangleF result)](VRageMath.RectangleF.Intersect)
 
 > Creates a Rectangle defining the area where one rectangle overlaps with another rectangle.
 
-[static RectangleF Min(RectangleF?, RectangleF?)](VRageMath.RectangleF.Min)
+[static RectangleF Min(RectangleF? rectangle, RectangleF? scissors)](VRageMath.RectangleF.Min)
 
 > 
 
-[bool Contains(int, int)](VRageMath.RectangleF.Contains)
+[bool Contains(int x, int y)](VRageMath.RectangleF.Contains)
 
 > 
 
-[bool Contains(float, float)](VRageMath.RectangleF.Contains)
+[bool Contains(float x, float y)](VRageMath.RectangleF.Contains)
 
 > 
 
-[bool Contains(Vector2)](VRageMath.RectangleF.Contains)
+[bool Contains(Vector2 vector2D)](VRageMath.RectangleF.Contains)
 
 > 
 
-[bool Contains(Point)](VRageMath.RectangleF.Contains)
+[bool Contains(Point point)](VRageMath.RectangleF.Contains)
 
 > 
 
-[bool Equals(RectangleF)](VRageMath.RectangleF.Equals)
+[bool Equals(RectangleF other)](VRageMath.RectangleF.Equals)
 
 > Equals to other rectangle
 
-[bool Equals(object)](VRageMath.RectangleF.Equals)
+[bool Equals(object obj)](VRageMath.RectangleF.Equals)
 
 > 
 

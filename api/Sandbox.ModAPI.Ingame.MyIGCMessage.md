@@ -27,7 +27,7 @@ Provides info about received message along with received data
 
 #### Constructors
 
-[MyIGCMessage(object, string, long)](Sandbox.ModAPI.Ingame.MyIGCMessage..ctor)
+[MyIGCMessage(object data, string tag, long source)](Sandbox.ModAPI.Ingame.MyIGCMessage..ctor)
 
 > 
 

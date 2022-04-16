@@ -302,13 +302,13 @@ Describes ship controller block (cockpit/remote control/cryopod) (PB scripting i
 
 > Gets information about the current mass of the ship.
 
-[void GetActions(List&lt;ITerminalAction&gt;, Func&lt;ITerminalAction, bool&gt; = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)
+[void GetActions(List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)
 
 > Get all terminal actions available for block  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[ITerminalAction GetActionWithName(string)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActionWithName)
+[ITerminalAction GetActionWithName(string name)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActionWithName)
 
 > Get first found terminal action with name  
 >   
@@ -324,7 +324,7 @@ Describes ship controller block (cockpit/remote control/cryopod) (PB scripting i
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
-[IMyInventory GetInventory(int)](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)
+[IMyInventory GetInventory(int index)](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)
 
 > Search for inventory component with maching index.  
 >   
@@ -354,13 +354,13 @@ Describes ship controller block (cockpit/remote control/cryopod) (PB scripting i
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
-[void GetProperties(List&lt;ITerminalProperty&gt;, Func&lt;ITerminalProperty, bool&gt; = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetProperties)
+[void GetProperties(List&lt;ITerminalProperty&gt; resultList, Func&lt;ITerminalProperty, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetProperties)
 
 > Get all terminal actions available for block.  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[ITerminalProperty GetProperty(string)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetProperty)
+[ITerminalProperty GetProperty(string id)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetProperty)
 
 > Finds terminal property with provided id  
 >   
@@ -378,7 +378,7 @@ Describes ship controller block (cockpit/remote control/cryopod) (PB scripting i
 
 > Gets the total accumulated gravity vector and power at the current location, taking both natural and artificial gravity into account.
 
-[MyRelationsBetweenPlayerAndBlock GetUserRelationToOwner(long, MyRelationsBetweenPlayerAndBlock = MyRelationsBetweenPlayerAndBlock.NoOwnership)](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetUserRelationToOwner)
+[MyRelationsBetweenPlayerAndBlock GetUserRelationToOwner(long playerId, MyRelationsBetweenPlayerAndBlock defaultNoUser = MyRelationsBetweenPlayerAndBlock.NoOwnership)](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetUserRelationToOwner)
 
 > Gets relation to owner of block  
 >   
@@ -390,13 +390,13 @@ Describes ship controller block (cockpit/remote control/cryopod) (PB scripting i
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[bool HasPlayerAccess(long, MyRelationsBetweenPlayerAndBlock = MyRelationsBetweenPlayerAndBlock.NoOwnership)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.HasPlayerAccess)
+[bool HasPlayerAccess(long playerId, MyRelationsBetweenPlayerAndBlock defaultNoUser = MyRelationsBetweenPlayerAndBlock.NoOwnership)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.HasPlayerAccess)
 
 > Returns if local player can use block. It is also checking for admin access.  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[bool IsSameConstructAs(IMyTerminalBlock)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.IsSameConstructAs)
+[bool IsSameConstructAs(IMyTerminalBlock other)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.IsSameConstructAs)
 
 > Determines whether this block is [VRage.Game.ModAPI.GridLinkTypeEnum.Mechanical](https://docs.microsoft.com/en-us/dotnet/api/vrage.game.modapi.gridlinktypeenum.mechanical?view=netframework-4.6) connected to the other. This is any block connected with rotors or pistons or other mechanical devices, but not things like connectors. This will in most cases constitute your complete construct.    
 >     
@@ -404,7 +404,7 @@ Describes ship controller block (cockpit/remote control/cryopod) (PB scripting i
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[void SearchActionsOfName(string, List&lt;ITerminalAction&gt;, Func&lt;ITerminalAction, bool&gt; = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SearchActionsOfName)
+[void SearchActionsOfName(string name, List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SearchActionsOfName)
 
 > Get all terminal actions available for block. NOTE: First called `    
 >     
@@ -414,23 +414,23 @@ Describes ship controller block (cockpit/remote control/cryopod) (PB scripting i
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[void SetCustomName(string)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)
+[void SetCustomName(string text)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)
 
 > _**Obsolete:** Use the setter of Customname_  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[void SetCustomName(StringBuilder)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)
+[void SetCustomName(StringBuilder text)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)
 
 > _**Obsolete:** Use the setter of Customname_  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[bool TryGetPlanetElevation(MyPlanetElevation, out double)](Sandbox.ModAPI.Ingame.IMyShipController.TryGetPlanetElevation)
+[bool TryGetPlanetElevation(MyPlanetElevation detail, out double elevation)](Sandbox.ModAPI.Ingame.IMyShipController.TryGetPlanetElevation)
 
 > Attempts to get the elevation of the ship in relation to the nearest planet. This method is only available when a ship is within the gravity well of a planet.
 
-[bool TryGetPlanetPosition(out Vector3D)](Sandbox.ModAPI.Ingame.IMyShipController.TryGetPlanetPosition)
+[bool TryGetPlanetPosition(out Vector3D position)](Sandbox.ModAPI.Ingame.IMyShipController.TryGetPlanetPosition)
 
 > Attempts to get the world position of the nearest planet. This method is only available when a ship is within the gravity well of a planet.
 

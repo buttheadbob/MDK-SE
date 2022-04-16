@@ -33,37 +33,37 @@ A parser utility structure representing a pointer to a location within a string.
 
 #### Constructors
 
-[TextPtr(string)](VRage.Game.ModAPI.Ingame.Utilities.TextPtr..ctor)
+[TextPtr(string content)](VRage.Game.ModAPI.Ingame.Utilities.TextPtr..ctor)
 
 > 
 
-[TextPtr(string, int)](VRage.Game.ModAPI.Ingame.Utilities.TextPtr..ctor)
+[TextPtr(string content, int index)](VRage.Game.ModAPI.Ingame.Utilities.TextPtr..ctor)
 
 > 
 
 #### Methods
 
-[TextPtr Find(string)](VRage.Game.ModAPI.Ingame.Utilities.TextPtr.Find)
+[TextPtr Find(string str)](VRage.Game.ModAPI.Ingame.Utilities.TextPtr.Find)
 
 > Finds the given text string
 
-[TextPtr Find(char)](VRage.Game.ModAPI.Ingame.Utilities.TextPtr.Find)
+[TextPtr Find(char ch)](VRage.Game.ModAPI.Ingame.Utilities.TextPtr.Find)
 
 > Finds the given character
 
-[TextPtr FindAny(Char&#91&#93;)](VRage.Game.ModAPI.Ingame.Utilities.TextPtr.FindAny)
+[TextPtr FindAny(Char&#91&#93; chs)](VRage.Game.ModAPI.Ingame.Utilities.TextPtr.FindAny)
 
 > Finds one of the given characters
 
-[TextPtr FindAnyInLine(Char&#91&#93;)](VRage.Game.ModAPI.Ingame.Utilities.TextPtr.FindAnyInLine)
+[TextPtr FindAnyInLine(Char&#91&#93; chs)](VRage.Game.ModAPI.Ingame.Utilities.TextPtr.FindAnyInLine)
 
 > Finds one of the given characters within the current line
 
-[TextPtr FindEndOfLine(bool = default)](VRage.Game.ModAPI.Ingame.Utilities.TextPtr.FindEndOfLine)
+[TextPtr FindEndOfLine(bool skipNewline = default)](VRage.Game.ModAPI.Ingame.Utilities.TextPtr.FindEndOfLine)
 
 > Finds the end of the current line
 
-[TextPtr FindInLine(char)](VRage.Game.ModAPI.Ingame.Utilities.TextPtr.FindInLine)
+[TextPtr FindInLine(char ch)](VRage.Game.ModAPI.Ingame.Utilities.TextPtr.FindInLine)
 
 > Finds the given character within the current line
 
@@ -87,15 +87,15 @@ A parser utility structure representing a pointer to a location within a string.
 
 > Determines whether the pointer is currently at the beginning of a line (right after a newline character set or start of the string)
 
-[TextPtr SkipWhitespace(bool = default)](VRage.Game.ModAPI.Ingame.Utilities.TextPtr.SkipWhitespace)
+[TextPtr SkipWhitespace(bool skipNewline = default)](VRage.Game.ModAPI.Ingame.Utilities.TextPtr.SkipWhitespace)
 
 > Skips whitespace
 
-[bool StartsWith(string)](VRage.Game.ModAPI.Ingame.Utilities.TextPtr.StartsWith)
+[bool StartsWith(string what)](VRage.Game.ModAPI.Ingame.Utilities.TextPtr.StartsWith)
 
 > Determines if the current pointer location starts with the given string - in a case sensitive manner.
 
-[bool StartsWithCaseInsensitive(string)](VRage.Game.ModAPI.Ingame.Utilities.TextPtr.StartsWithCaseInsensitive)
+[bool StartsWithCaseInsensitive(string what)](VRage.Game.ModAPI.Ingame.Utilities.TextPtr.StartsWithCaseInsensitive)
 
 > Determines if the current pointer location starts with the given string - in a case insensitive manner.
 

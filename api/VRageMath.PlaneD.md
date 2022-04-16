@@ -26,85 +26,85 @@ Defines a PlaneD.
 
 #### Constructors
 
-[PlaneD(double, double, double, double)](VRageMath.PlaneD..ctor)
+[PlaneD(double a, double b, double c, double d)](VRageMath.PlaneD..ctor)
 
 > 
 
-[PlaneD(Vector3D, double)](VRageMath.PlaneD..ctor)
+[PlaneD(Vector3D normal, double d)](VRageMath.PlaneD..ctor)
 
 > 
 
-[PlaneD(Vector3D, Vector3D)](VRageMath.PlaneD..ctor)
+[PlaneD(Vector3D position, Vector3D normal)](VRageMath.PlaneD..ctor)
 
 > 
 
-[PlaneD(Vector3D, Vector3)](VRageMath.PlaneD..ctor)
+[PlaneD(Vector3D position, Vector3 normal)](VRageMath.PlaneD..ctor)
 
 > 
 
-[PlaneD(Vector4)](VRageMath.PlaneD..ctor)
+[PlaneD(Vector4 value)](VRageMath.PlaneD..ctor)
 
 > 
 
-[PlaneD(Vector3D, Vector3D, Vector3D)](VRageMath.PlaneD..ctor)
+[PlaneD(Vector3D point1, Vector3D point2, Vector3D point3)](VRageMath.PlaneD..ctor)
 
 > 
 
 #### Methods
 
-[static PlaneD Normalize(PlaneD)](VRageMath.PlaneD.Normalize)
+[static PlaneD Normalize(PlaneD value)](VRageMath.PlaneD.Normalize)
 
 > Changes the coefficients of the Normal vector of a PlaneD to make it of unit length.
 
-[static void Normalize(ref PlaneD, out PlaneD)](VRageMath.PlaneD.Normalize)
+[static void Normalize(ref PlaneD value, out PlaneD result)](VRageMath.PlaneD.Normalize)
 
 > Changes the coefficients of the Normal vector of a PlaneD to make it of unit length.
 
-[static PlaneD Transform(PlaneD, MatrixD)](VRageMath.PlaneD.Transform)
+[static PlaneD Transform(PlaneD plane, MatrixD matrix)](VRageMath.PlaneD.Transform)
 
 > Transforms a normalized plane by a Matrix.
 
-[static void Transform(ref PlaneD, ref MatrixD, out PlaneD)](VRageMath.PlaneD.Transform)
+[static void Transform(ref PlaneD plane, ref MatrixD matrix, out PlaneD result)](VRageMath.PlaneD.Transform)
 
 > Transforms a normalized plane by a Matrix.
 
-[double DistanceToPoint(Vector3D)](VRageMath.PlaneD.DistanceToPoint)
+[double DistanceToPoint(Vector3D point)](VRageMath.PlaneD.DistanceToPoint)
 
 > 
 
-[double DistanceToPoint(ref Vector3D)](VRageMath.PlaneD.DistanceToPoint)
+[double DistanceToPoint(ref Vector3D point)](VRageMath.PlaneD.DistanceToPoint)
 
 > 
 
-[double Dot(Vector4)](VRageMath.PlaneD.Dot)
+[double Dot(Vector4 value)](VRageMath.PlaneD.Dot)
 
 > Calculates the dot product of a specified Vector4 and this PlaneD.
 
-[void Dot(ref Vector4, out double)](VRageMath.PlaneD.Dot)
+[void Dot(ref Vector4 value, out double result)](VRageMath.PlaneD.Dot)
 
 > Calculates the dot product of a specified Vector4 and this PlaneD.
 
-[double DotCoordinate(Vector3D)](VRageMath.PlaneD.DotCoordinate)
+[double DotCoordinate(Vector3D value)](VRageMath.PlaneD.DotCoordinate)
 
 > Returns the dot product of a specified Vector3D and the Normal vector of this PlaneD plus the distance (D) value of the PlaneD.
 
-[void DotCoordinate(ref Vector3D, out double)](VRageMath.PlaneD.DotCoordinate)
+[void DotCoordinate(ref Vector3D value, out double result)](VRageMath.PlaneD.DotCoordinate)
 
 > Returns the dot product of a specified Vector3D and the Normal vector of this PlaneD plus the distance (D) value of the PlaneD.
 
-[double DotNormal(Vector3D)](VRageMath.PlaneD.DotNormal)
+[double DotNormal(Vector3D value)](VRageMath.PlaneD.DotNormal)
 
 > Returns the dot product of a specified Vector3D and the Normal vector of this PlaneD.
 
-[void DotNormal(ref Vector3D, out double)](VRageMath.PlaneD.DotNormal)
+[void DotNormal(ref Vector3D value, out double result)](VRageMath.PlaneD.DotNormal)
 
 > Returns the dot product of a specified Vector3D and the Normal vector of this PlaneD.
 
-[bool Equals(PlaneD)](VRageMath.PlaneD.Equals)
+[bool Equals(PlaneD other)](VRageMath.PlaneD.Equals)
 
 > Determines whether the specified PlaneD is equal to the PlaneD.
 
-[bool Equals(object)](VRageMath.PlaneD.Equals)
+[bool Equals(object obj)](VRageMath.PlaneD.Equals)
 
 > Determines whether the specified Object is equal to the PlaneD.
 
@@ -112,27 +112,27 @@ Defines a PlaneD.
 
 > Gets the hash code for this object.
 
-[Vector3D Intersection(ref Vector3D, ref Vector3D)](VRageMath.PlaneD.Intersection)
+[Vector3D Intersection(ref Vector3D from, ref Vector3D direction)](VRageMath.PlaneD.Intersection)
 
 > Gets intersection point in Plane.
 
-[PlaneIntersectionType Intersects(BoundingBoxD)](VRageMath.PlaneD.Intersects)
+[PlaneIntersectionType Intersects(BoundingBoxD box)](VRageMath.PlaneD.Intersects)
 
 > Checks whether the current PlaneD intersects a specified BoundingBox.
 
-[void Intersects(ref BoundingBoxD, out PlaneIntersectionType)](VRageMath.PlaneD.Intersects)
+[void Intersects(ref BoundingBoxD box, out PlaneIntersectionType result)](VRageMath.PlaneD.Intersects)
 
 > Checks whether the current PlaneD intersects a BoundingBox.
 
-[PlaneIntersectionType Intersects(BoundingFrustumD)](VRageMath.PlaneD.Intersects)
+[PlaneIntersectionType Intersects(BoundingFrustumD frustum)](VRageMath.PlaneD.Intersects)
 
 > Checks whether the current PlaneD intersects a specified BoundingFrustum.
 
-[PlaneIntersectionType Intersects(BoundingSphereD)](VRageMath.PlaneD.Intersects)
+[PlaneIntersectionType Intersects(BoundingSphereD sphere)](VRageMath.PlaneD.Intersects)
 
 > Checks whether the current PlaneD intersects a specified BoundingSphere.
 
-[void Intersects(ref BoundingSphere, out PlaneIntersectionType)](VRageMath.PlaneD.Intersects)
+[void Intersects(ref BoundingSphere sphere, out PlaneIntersectionType result)](VRageMath.PlaneD.Intersects)
 
 > Checks whether the current PlaneD intersects a BoundingSphere.
 
@@ -140,7 +140,7 @@ Defines a PlaneD.
 
 > Changes the coefficients of the Normal vector of this PlaneD to make it of unit length.
 
-[Vector3D ProjectPoint(ref Vector3D)](VRageMath.PlaneD.ProjectPoint)
+[Vector3D ProjectPoint(ref Vector3D point)](VRageMath.PlaneD.ProjectPoint)
 
 > 
 

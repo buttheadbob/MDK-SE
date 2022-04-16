@@ -30,35 +30,35 @@ Represents a GPS coordinate
 
 #### Constructors
 
-[MyWaypointInfo(string, double, double, double)](Sandbox.ModAPI.Ingame.MyWaypointInfo..ctor)
+[MyWaypointInfo(string name, double x, double y, double z)](Sandbox.ModAPI.Ingame.MyWaypointInfo..ctor)
 
 > 
 
-[MyWaypointInfo(string, Vector3D)](Sandbox.ModAPI.Ingame.MyWaypointInfo..ctor)
+[MyWaypointInfo(string name, Vector3D coords)](Sandbox.ModAPI.Ingame.MyWaypointInfo..ctor)
 
 > 
 
 #### Methods
 
-[static void FindAll(string, List&lt;MyWaypointInfo&gt;)](Sandbox.ModAPI.Ingame.MyWaypointInfo.FindAll)
+[static void FindAll(string source, List&lt;MyWaypointInfo&gt; gpsList)](Sandbox.ModAPI.Ingame.MyWaypointInfo.FindAll)
 
 > Searches for all GPS coordinates in the given text.
 
-[static bool TryParse(string, out MyWaypointInfo)](Sandbox.ModAPI.Ingame.MyWaypointInfo.TryParse)
+[static bool TryParse(string text, out MyWaypointInfo gps)](Sandbox.ModAPI.Ingame.MyWaypointInfo.TryParse)
 
 > Attempts to parse a GPS coordinate from the given text. The text cannot contain anything but the GPS coordinate.    
 >     
 > A GPS coordinate has the format GPS:Name:X:Y:Z:
 
-[bool Equals(MyWaypointInfo)](Sandbox.ModAPI.Ingame.MyWaypointInfo.Equals)
+[bool Equals(MyWaypointInfo other)](Sandbox.ModAPI.Ingame.MyWaypointInfo.Equals)
 
 > Determines whether this coordinate is the same as another. Uses 0.0001 as the epsilon to counter floating point inaccuracies.
 
-[bool Equals(MyWaypointInfo, double)](Sandbox.ModAPI.Ingame.MyWaypointInfo.Equals)
+[bool Equals(MyWaypointInfo other, double epsilon)](Sandbox.ModAPI.Ingame.MyWaypointInfo.Equals)
 
 > Determines whether this coordinate is the same as another. Uses 0.0001 as the epsilon to counter floating point inaccuracies.
 
-[bool Equals(object)](Sandbox.ModAPI.Ingame.MyWaypointInfo.Equals)
+[bool Equals(object obj)](Sandbox.ModAPI.Ingame.MyWaypointInfo.Equals)
 
 > Determines whether this coordinate is the same as another. Uses 0.0001 as the epsilon to counter floating point inaccuracies.
 

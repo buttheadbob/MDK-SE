@@ -52,21 +52,21 @@ Defines an axis-aligned box-shaped 3D volume.
 
 #### Constructors
 
-[BoundingBox2(Vector2, Vector2)](VRageMath.BoundingBox2..ctor)
+[BoundingBox2(Vector2 min, Vector2 max)](VRageMath.BoundingBox2..ctor)
 
 > 
 
 #### Methods
 
-[static BoundingBox2 CreateFromHalfExtent(Vector2, float)](VRageMath.BoundingBox2.CreateFromHalfExtent)
+[static BoundingBox2 CreateFromHalfExtent(Vector2 center, float halfExtent)](VRageMath.BoundingBox2.CreateFromHalfExtent)
 
 > 
 
-[static BoundingBox2 CreateFromHalfExtent(Vector2, Vector2)](VRageMath.BoundingBox2.CreateFromHalfExtent)
+[static BoundingBox2 CreateFromHalfExtent(Vector2 center, Vector2 halfExtent)](VRageMath.BoundingBox2.CreateFromHalfExtent)
 
 > 
 
-[static BoundingBox2 CreateFromPoints(IEnumerable&lt;Vector2&gt;)](VRageMath.BoundingBox2.CreateFromPoints)
+[static BoundingBox2 CreateFromPoints(IEnumerable&lt;Vector2&gt; points)](VRageMath.BoundingBox2.CreateFromPoints)
 
 > Creates the smallest BoundingBox2 that will contain a group of points.
 
@@ -74,11 +74,11 @@ Defines an axis-aligned box-shaped 3D volume.
 
 > 
 
-[static BoundingBox2 CreateMerged(BoundingBox2, BoundingBox2)](VRageMath.BoundingBox2.CreateMerged)
+[static BoundingBox2 CreateMerged(BoundingBox2 original, BoundingBox2 additional)](VRageMath.BoundingBox2.CreateMerged)
 
 > Creates the smallest BoundingBox2 that contains the two specified BoundingBox2 instances.
 
-[static void CreateMerged(ref BoundingBox2, ref BoundingBox2, out BoundingBox2)](VRageMath.BoundingBox2.CreateMerged)
+[static void CreateMerged(ref BoundingBox2 original, ref BoundingBox2 additional, out BoundingBox2 result)](VRageMath.BoundingBox2.CreateMerged)
 
 > Creates the smallest BoundingBox2 that contains the two specified BoundingBox2 instances.
 
@@ -86,31 +86,31 @@ Defines an axis-aligned box-shaped 3D volume.
 
 > 
 
-[ContainmentType Contains(BoundingBox2)](VRageMath.BoundingBox2.Contains)
+[ContainmentType Contains(BoundingBox2 box)](VRageMath.BoundingBox2.Contains)
 
 > Tests whether the BoundingBox2 contains another BoundingBox2.
 
-[void Contains(ref BoundingBox2, out ContainmentType)](VRageMath.BoundingBox2.Contains)
+[void Contains(ref BoundingBox2 box, out ContainmentType result)](VRageMath.BoundingBox2.Contains)
 
 > Tests whether the BoundingBox2 contains a BoundingBox2.
 
-[ContainmentType Contains(Vector2)](VRageMath.BoundingBox2.Contains)
+[ContainmentType Contains(Vector2 point)](VRageMath.BoundingBox2.Contains)
 
 > Tests whether the BoundingBox2 contains a point.
 
-[void Contains(ref Vector2, out ContainmentType)](VRageMath.BoundingBox2.Contains)
+[void Contains(ref Vector2 point, out ContainmentType result)](VRageMath.BoundingBox2.Contains)
 
 > Tests whether the BoundingBox2 contains a point.
 
-[float Distance(Vector2)](VRageMath.BoundingBox2.Distance)
+[float Distance(Vector2 point)](VRageMath.BoundingBox2.Distance)
 
 > 
 
-[bool Equals(BoundingBox2)](VRageMath.BoundingBox2.Equals)
+[bool Equals(BoundingBox2 other)](VRageMath.BoundingBox2.Equals)
 
 > Determines whether two instances of BoundingBox2 are equal.
 
-[bool Equals(object)](VRageMath.BoundingBox2.Equals)
+[bool Equals(object obj)](VRageMath.BoundingBox2.Equals)
 
 > Determines whether two instances of BoundingBox2 are equal.
 
@@ -118,11 +118,11 @@ Defines an axis-aligned box-shaped 3D volume.
 
 > Gets an array of points that make up the corners of the BoundingBox2.
 
-[void GetCorners(Vector2&#91&#93;)](VRageMath.BoundingBox2.GetCorners)
+[void GetCorners(Vector2&#91&#93; corners)](VRageMath.BoundingBox2.GetCorners)
 
 > Gets the array of points that make up the corners of the BoundingBox2.
 
-[void GetCornersUnsafe(*Vector2)](VRageMath.BoundingBox2.GetCornersUnsafe)
+[void GetCornersUnsafe(*Vector2 corners)](VRageMath.BoundingBox2.GetCornersUnsafe)
 
 > 
 
@@ -130,55 +130,55 @@ Defines an axis-aligned box-shaped 3D volume.
 
 > Gets the hash code for this instance.
 
-[BoundingBox2 GetIncluded(Vector2)](VRageMath.BoundingBox2.GetIncluded)
+[BoundingBox2 GetIncluded(Vector2 point)](VRageMath.BoundingBox2.GetIncluded)
 
 > 
 
-[BoundingBox2 Include(ref Vector2)](VRageMath.BoundingBox2.Include)
+[BoundingBox2 Include(ref Vector2 point)](VRageMath.BoundingBox2.Include)
 
 > return expanded aabb (abb include point)
 
-[BoundingBox2 Include(Vector2)](VRageMath.BoundingBox2.Include)
+[BoundingBox2 Include(Vector2 point)](VRageMath.BoundingBox2.Include)
 
 > 
 
-[BoundingBox2 Include(Vector2, Vector2, Vector2)](VRageMath.BoundingBox2.Include)
+[BoundingBox2 Include(Vector2 p0, Vector2 p1, Vector2 p2)](VRageMath.BoundingBox2.Include)
 
 > 
 
-[BoundingBox2 Include(ref Vector2, ref Vector2, ref Vector2)](VRageMath.BoundingBox2.Include)
+[BoundingBox2 Include(ref Vector2 p0, ref Vector2 p1, ref Vector2 p2)](VRageMath.BoundingBox2.Include)
 
 > 
 
-[BoundingBox2 Include(ref BoundingBox2)](VRageMath.BoundingBox2.Include)
+[BoundingBox2 Include(ref BoundingBox2 box)](VRageMath.BoundingBox2.Include)
 
 > return expanded aabb (abb include point)
 
-[BoundingBox2 Include(BoundingBox2)](VRageMath.BoundingBox2.Include)
+[BoundingBox2 Include(BoundingBox2 box)](VRageMath.BoundingBox2.Include)
 
 > 
 
-[void Inflate(float)](VRageMath.BoundingBox2.Inflate)
+[void Inflate(float size)](VRageMath.BoundingBox2.Inflate)
 
 > 
 
-[void InflateToMinimum(Vector2)](VRageMath.BoundingBox2.InflateToMinimum)
+[void InflateToMinimum(Vector2 minimumSize)](VRageMath.BoundingBox2.InflateToMinimum)
 
 > 
 
-[BoundingBox2 Intersect(BoundingBox2)](VRageMath.BoundingBox2.Intersect)
+[BoundingBox2 Intersect(BoundingBox2 box)](VRageMath.BoundingBox2.Intersect)
 
 > Returns bounding box which is intersection of this and box Result is invalid box when there's no intersection (Min > Max)
 
-[bool Intersects(BoundingBox2)](VRageMath.BoundingBox2.Intersects)
+[bool Intersects(BoundingBox2 box)](VRageMath.BoundingBox2.Intersects)
 
 > Checks whether the current BoundingBox2 intersects another BoundingBox2.
 
-[bool Intersects(ref BoundingBox2)](VRageMath.BoundingBox2.Intersects)
+[bool Intersects(ref BoundingBox2 box)](VRageMath.BoundingBox2.Intersects)
 
 > 
 
-[void Intersects(ref BoundingBox2, out bool)](VRageMath.BoundingBox2.Intersects)
+[void Intersects(ref BoundingBox2 box, out bool result)](VRageMath.BoundingBox2.Intersects)
 
 > Checks whether the current BoundingBox2 intersects another BoundingBox2.
 
@@ -186,7 +186,7 @@ Defines an axis-aligned box-shaped 3D volume.
 
 > 
 
-[void Scale(Vector2)](VRageMath.BoundingBox2.Scale)
+[void Scale(Vector2 scale)](VRageMath.BoundingBox2.Scale)
 
 > 
 
@@ -194,7 +194,7 @@ Defines an axis-aligned box-shaped 3D volume.
 
 > Returns a String that represents the current BoundingBox2.
 
-[BoundingBox2 Translate(Vector2)](VRageMath.BoundingBox2.Translate)
+[BoundingBox2 Translate(Vector2 vctTranlsation)](VRageMath.BoundingBox2.Translate)
 
 > Translate
 

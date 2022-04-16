@@ -26,77 +26,77 @@ Defines a plane.
 
 #### Constructors
 
-[Plane(float, float, float, float)](VRageMath.Plane..ctor)
+[Plane(float a, float b, float c, float d)](VRageMath.Plane..ctor)
 
 > 
 
-[Plane(Vector3, float)](VRageMath.Plane..ctor)
+[Plane(Vector3 normal, float d)](VRageMath.Plane..ctor)
 
 > 
 
-[Plane(Vector3, Vector3)](VRageMath.Plane..ctor)
+[Plane(Vector3 position, Vector3 normal)](VRageMath.Plane..ctor)
 
 > 
 
-[Plane(Vector4)](VRageMath.Plane..ctor)
+[Plane(Vector4 value)](VRageMath.Plane..ctor)
 
 > 
 
-[Plane(Vector3, Vector3, Vector3)](VRageMath.Plane..ctor)
+[Plane(Vector3 point1, Vector3 point2, Vector3 point3)](VRageMath.Plane..ctor)
 
 > 
 
-[Plane(ref Vector3, ref Vector3, ref Vector3)](VRageMath.Plane..ctor)
+[Plane(ref Vector3 point1, ref Vector3 point2, ref Vector3 point3)](VRageMath.Plane..ctor)
 
 > 
 
 #### Methods
 
-[static Plane Normalize(Plane)](VRageMath.Plane.Normalize)
+[static Plane Normalize(Plane value)](VRageMath.Plane.Normalize)
 
 > Changes the coefficients of the Normal vector of a Plane to make it of unit length.
 
-[static void Normalize(ref Plane, out Plane)](VRageMath.Plane.Normalize)
+[static void Normalize(ref Plane value, out Plane result)](VRageMath.Plane.Normalize)
 
 > Changes the coefficients of the Normal vector of a Plane to make it of unit length.
 
-[static Plane Transform(Plane, Matrix)](VRageMath.Plane.Transform)
+[static Plane Transform(Plane plane, Matrix matrix)](VRageMath.Plane.Transform)
 
 > Transforms a normalized Plane by a Matrix.
 
-[static void Transform(ref Plane, ref Matrix, out Plane)](VRageMath.Plane.Transform)
+[static void Transform(ref Plane plane, ref Matrix matrix, out Plane result)](VRageMath.Plane.Transform)
 
 > Transforms a normalized Plane by a Matrix.
 
-[float Dot(Vector4)](VRageMath.Plane.Dot)
+[float Dot(Vector4 value)](VRageMath.Plane.Dot)
 
 > Calculates the dot product of a specified Vector4 and this Plane.
 
-[void Dot(ref Vector4, out float)](VRageMath.Plane.Dot)
+[void Dot(ref Vector4 value, out float result)](VRageMath.Plane.Dot)
 
 > Calculates the dot product of a specified Vector4 and this Plane.
 
-[float DotCoordinate(Vector3)](VRageMath.Plane.DotCoordinate)
+[float DotCoordinate(Vector3 value)](VRageMath.Plane.DotCoordinate)
 
 > Returns the dot product of a specified Vector3 and the Normal vector of this Plane plus the distance (D) value of the Plane.
 
-[void DotCoordinate(ref Vector3, out float)](VRageMath.Plane.DotCoordinate)
+[void DotCoordinate(ref Vector3 value, out float result)](VRageMath.Plane.DotCoordinate)
 
 > Returns the dot product of a specified Vector3 and the Normal vector of this Plane plus the distance (D) value of the Plane.
 
-[double DotNormal(Vector3D)](VRageMath.Plane.DotNormal)
+[double DotNormal(Vector3D value)](VRageMath.Plane.DotNormal)
 
 > Returns the dot product of a specified Vector3 and the Normal vector of this Plane.
 
-[void DotNormal(ref Vector3, out float)](VRageMath.Plane.DotNormal)
+[void DotNormal(ref Vector3 value, out float result)](VRageMath.Plane.DotNormal)
 
 > Returns the dot product of a specified Vector3 and the Normal vector of this Plane.
 
-[bool Equals(Plane)](VRageMath.Plane.Equals)
+[bool Equals(Plane other)](VRageMath.Plane.Equals)
 
 > Determines whether the specified Plane is equal to the Plane.
 
-[bool Equals(object)](VRageMath.Plane.Equals)
+[bool Equals(object obj)](VRageMath.Plane.Equals)
 
 > Determines whether the specified Object is equal to the Plane.
 
@@ -104,27 +104,27 @@ Defines a plane.
 
 > Gets the hash code for this object.
 
-[Vector3D Intersection(ref Vector3D, ref Vector3D)](VRageMath.Plane.Intersection)
+[Vector3D Intersection(ref Vector3D from, ref Vector3D direction)](VRageMath.Plane.Intersection)
 
 > Gets intersection point in Plane.
 
-[PlaneIntersectionType Intersects(BoundingBox)](VRageMath.Plane.Intersects)
+[PlaneIntersectionType Intersects(BoundingBox box)](VRageMath.Plane.Intersects)
 
 > Checks whether the current Plane intersects a specified BoundingBox.
 
-[void Intersects(ref BoundingBox, out PlaneIntersectionType)](VRageMath.Plane.Intersects)
+[void Intersects(ref BoundingBox box, out PlaneIntersectionType result)](VRageMath.Plane.Intersects)
 
 > Checks whether the current Plane intersects a BoundingBox.
 
-[PlaneIntersectionType Intersects(BoundingFrustum)](VRageMath.Plane.Intersects)
+[PlaneIntersectionType Intersects(BoundingFrustum frustum)](VRageMath.Plane.Intersects)
 
 > Checks whether the current Plane intersects a specified BoundingFrustum.
 
-[PlaneIntersectionType Intersects(BoundingSphere)](VRageMath.Plane.Intersects)
+[PlaneIntersectionType Intersects(BoundingSphere sphere)](VRageMath.Plane.Intersects)
 
 > Checks whether the current Plane intersects a specified BoundingSphere.
 
-[void Intersects(ref BoundingSphere, out PlaneIntersectionType)](VRageMath.Plane.Intersects)
+[void Intersects(ref BoundingSphere sphere, out PlaneIntersectionType result)](VRageMath.Plane.Intersects)
 
 > Checks whether the current Plane intersects a BoundingSphere.
 

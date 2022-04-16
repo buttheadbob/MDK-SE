@@ -17,7 +17,7 @@ public struct MyTuple<T1>
 
 #### Constructors
 
-[MyTuple(T1)](VRage.MyTuple`1..ctor)
+[MyTuple(T1 item1)](VRage.MyTuple`1..ctor)
 
 > 
 

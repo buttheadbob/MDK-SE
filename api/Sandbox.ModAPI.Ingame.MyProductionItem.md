@@ -25,7 +25,7 @@ public struct MyProductionItem
 
 #### Constructors
 
-[MyProductionItem(uint, MyDefinitionId, MyFixedPoint)](Sandbox.ModAPI.Ingame.MyProductionItem..ctor)
+[MyProductionItem(uint itemId, MyDefinitionId blueprintId, MyFixedPoint amount)](Sandbox.ModAPI.Ingame.MyProductionItem..ctor)
 
 > 
 

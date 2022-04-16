@@ -29,7 +29,7 @@ Describes block, that has at least 1 text surface (PB scripting interface)
 
 #### Methods
 
-[IMyTextSurface GetSurface(int)](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider.GetSurface)
+[IMyTextSurface GetSurface(int index)](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider.GetSurface)
 
 > Get surface by index
 

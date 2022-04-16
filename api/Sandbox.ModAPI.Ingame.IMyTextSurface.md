@@ -90,11 +90,11 @@ Describes one of block LCDs where you can write text or draw things (PB scriptin
 
 #### Methods
 
-[void AddImagesToSelection(List&lt;string&gt;, bool = default)](Sandbox.ModAPI.Ingame.IMyTextSurface.AddImagesToSelection)
+[void AddImagesToSelection(List&lt;string&gt; ids, bool checkExistence = default)](Sandbox.ModAPI.Ingame.IMyTextSurface.AddImagesToSelection)
 
 > Adds image to list of shown images. You can get image ids by [GetSelectedImages(List<string>)](Sandbox.ModAPI.Ingame.IMyTextSurface.GetSelectedImages) 
 
-[void AddImageToSelection(string, bool = default)](Sandbox.ModAPI.Ingame.IMyTextSurface.AddImageToSelection)
+[void AddImageToSelection(string id, bool checkExistence = default)](Sandbox.ModAPI.Ingame.IMyTextSurface.AddImageToSelection)
 
 > Adds image to list of shown images. You can get image ids by [GetSelectedImages(List<string>)](Sandbox.ModAPI.Ingame.IMyTextSurface.GetSelectedImages) 
 
@@ -106,19 +106,19 @@ Describes one of block LCDs where you can write text or draw things (PB scriptin
 
 > Creates a new draw frame where you can add sprites to be rendered.
 
-[void GetFonts(List&lt;string&gt;)](Sandbox.ModAPI.Ingame.IMyTextSurface.GetFonts)
+[void GetFonts(List&lt;string&gt; fonts)](Sandbox.ModAPI.Ingame.IMyTextSurface.GetFonts)
 
 > Gets a list of available fonts
 
-[void GetScripts(List&lt;string&gt;)](Sandbox.ModAPI.Ingame.IMyTextSurface.GetScripts)
+[void GetScripts(List&lt;string&gt; scripts)](Sandbox.ModAPI.Ingame.IMyTextSurface.GetScripts)
 
 > Gets a list of available scripts
 
-[void GetSelectedImages(List&lt;string&gt;)](Sandbox.ModAPI.Ingame.IMyTextSurface.GetSelectedImages)
+[void GetSelectedImages(List&lt;string&gt; output)](Sandbox.ModAPI.Ingame.IMyTextSurface.GetSelectedImages)
 
 > Outputs the selected image ids to the specified list. NOTE: List is not cleared internally.
 
-[void GetSprites(List&lt;string&gt;)](Sandbox.ModAPI.Ingame.IMyTextSurface.GetSprites)
+[void GetSprites(List&lt;string&gt; sprites)](Sandbox.ModAPI.Ingame.IMyTextSurface.GetSprites)
 
 > Gets a list of available sprites
 
@@ -126,27 +126,27 @@ Describes one of block LCDs where you can write text or draw things (PB scriptin
 
 > Gets current text that is written on surface. Allocates memory (StringBuilder.ToString())! This method doesn't allocate memory [ReadText(StringBuilder, bool = default)](Sandbox.ModAPI.Ingame.IMyTextSurface.ReadText) 
 
-[Vector2 MeasureStringInPixels(StringBuilder, string, float)](Sandbox.ModAPI.Ingame.IMyTextSurface.MeasureStringInPixels)
+[Vector2 MeasureStringInPixels(StringBuilder text, string font, float scale)](Sandbox.ModAPI.Ingame.IMyTextSurface.MeasureStringInPixels)
 
 > Calculates how many pixels a string of a given font and scale will take up.
 
-[void ReadText(StringBuilder, bool = default)](Sandbox.ModAPI.Ingame.IMyTextSurface.ReadText)
+[void ReadText(StringBuilder buffer, bool append = default)](Sandbox.ModAPI.Ingame.IMyTextSurface.ReadText)
 
 > Gets current text that is written on surface.
 
-[void RemoveImageFromSelection(string, bool = default)](Sandbox.ModAPI.Ingame.IMyTextSurface.RemoveImageFromSelection)
+[void RemoveImageFromSelection(string id, bool removeDuplicates = default)](Sandbox.ModAPI.Ingame.IMyTextSurface.RemoveImageFromSelection)
 
 > Removes image from shown images.
 
-[void RemoveImagesFromSelection(List&lt;string&gt;, bool = default)](Sandbox.ModAPI.Ingame.IMyTextSurface.RemoveImagesFromSelection)
+[void RemoveImagesFromSelection(List&lt;string&gt; ids, bool removeDuplicates = default)](Sandbox.ModAPI.Ingame.IMyTextSurface.RemoveImagesFromSelection)
 
 > Removes images from shown images.
 
-[bool WriteText(string, bool = default)](Sandbox.ModAPI.Ingame.IMyTextSurface.WriteText)
+[bool WriteText(string value, bool append = default)](Sandbox.ModAPI.Ingame.IMyTextSurface.WriteText)
 
 > Writes text to surface. If somebody opened LCD text in popup dialog, text can no longer be added to the surface. Resulting text must is capped with 100000 symbols
 
-[bool WriteText(StringBuilder, bool = default)](Sandbox.ModAPI.Ingame.IMyTextSurface.WriteText)
+[bool WriteText(StringBuilder value, bool append = default)](Sandbox.ModAPI.Ingame.IMyTextSurface.WriteText)
 
 > Writes text to surface. If somebody opened LCD text in popup dialog, text can no longer be added to the surface. Resulting text must is capped with 100000 symbols
 

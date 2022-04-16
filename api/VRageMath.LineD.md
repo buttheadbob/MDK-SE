@@ -29,21 +29,21 @@ public struct LineD
 
 #### Constructors
 
-[LineD(Vector3D, Vector3D)](VRageMath.LineD..ctor)
+[LineD(Vector3D from, Vector3D to)](VRageMath.LineD..ctor)
 
 > 
 
-[LineD(Vector3D, Vector3D, double)](VRageMath.LineD..ctor)
+[LineD(Vector3D from, Vector3D to, double lineLength)](VRageMath.LineD..ctor)
 
 > 
 
 #### Methods
 
-[static double GetShortestDistanceSquared(LineD, LineD)](VRageMath.LineD.GetShortestDistanceSquared)
+[static double GetShortestDistanceSquared(LineD line1, LineD line2)](VRageMath.LineD.GetShortestDistanceSquared)
 
 > 
 
-[static Vector3D GetShortestVector(ref LineD, ref LineD, out Vector3D, out Vector3D)](VRageMath.LineD.GetShortestVector)
+[static Vector3D GetShortestVector(ref LineD line1, ref LineD line2, out Vector3D res1, out Vector3D res2)](VRageMath.LineD.GetShortestVector)
 
 > 
 

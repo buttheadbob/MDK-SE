@@ -27,49 +27,49 @@ Use by [MyInventoryItem](VRage.Game.ModAPI.Ingame.MyInventoryItem)
 
 #### Constructors
 
-[MyItemType(string, string)](VRage.Game.ModAPI.Ingame.MyItemType..ctor)
+[MyItemType(string typeId, string subtypeId)](VRage.Game.ModAPI.Ingame.MyItemType..ctor)
 
 > 
 
-[MyItemType(MyObjectBuilderType, MyStringHash)](VRage.Game.ModAPI.Ingame.MyItemType..ctor)
+[MyItemType(MyObjectBuilderType typeId, MyStringHash subTypeIdHash)](VRage.Game.ModAPI.Ingame.MyItemType..ctor)
 
 > 
 
 #### Methods
 
-[static MyItemType MakeAmmo(string)](VRage.Game.ModAPI.Ingame.MyItemType.MakeAmmo)
+[static MyItemType MakeAmmo(string subTypeId)](VRage.Game.ModAPI.Ingame.MyItemType.MakeAmmo)
 
 > 
 
-[static MyItemType MakeComponent(string)](VRage.Game.ModAPI.Ingame.MyItemType.MakeComponent)
+[static MyItemType MakeComponent(string subTypeId)](VRage.Game.ModAPI.Ingame.MyItemType.MakeComponent)
 
 > 
 
-[static MyItemType MakeIngot(string)](VRage.Game.ModAPI.Ingame.MyItemType.MakeIngot)
+[static MyItemType MakeIngot(string subTypeId)](VRage.Game.ModAPI.Ingame.MyItemType.MakeIngot)
 
 > 
 
-[static MyItemType MakeOre(string)](VRage.Game.ModAPI.Ingame.MyItemType.MakeOre)
+[static MyItemType MakeOre(string subTypeId)](VRage.Game.ModAPI.Ingame.MyItemType.MakeOre)
 
 > 
 
-[static MyItemType MakeTool(string)](VRage.Game.ModAPI.Ingame.MyItemType.MakeTool)
+[static MyItemType MakeTool(string subTypeId)](VRage.Game.ModAPI.Ingame.MyItemType.MakeTool)
 
 > 
 
-[static MyItemType Parse(string)](VRage.Game.ModAPI.Ingame.MyItemType.Parse)
+[static MyItemType Parse(string itemType)](VRage.Game.ModAPI.Ingame.MyItemType.Parse)
 
 > 
 
-[int CompareTo(MyItemType)](VRage.Game.ModAPI.Ingame.MyItemType.CompareTo)
+[int CompareTo(MyItemType other)](VRage.Game.ModAPI.Ingame.MyItemType.CompareTo)
 
 > 
 
-[bool Equals(MyItemType)](VRage.Game.ModAPI.Ingame.MyItemType.Equals)
+[bool Equals(MyItemType other)](VRage.Game.ModAPI.Ingame.MyItemType.Equals)
 
 > 
 
-[bool Equals(object)](VRage.Game.ModAPI.Ingame.MyItemType.Equals)
+[bool Equals(object obj)](VRage.Game.ModAPI.Ingame.MyItemType.Equals)
 
 > 
 

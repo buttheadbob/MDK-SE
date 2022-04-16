@@ -19,13 +19,13 @@ A class for simpler traversal of ranges of long vectors
 
 #### Constructors
 
-[Vector3L_RangeIterator(ref Vector3L, ref Vector3L)](VRageMath.Vector3L_RangeIterator..ctor)
+[Vector3L_RangeIterator(ref Vector3L start, ref Vector3L end)](VRageMath.Vector3L_RangeIterator..ctor)
 
 > 
 
 #### Methods
 
-[void GetNext(out Vector3L)](VRageMath.Vector3L_RangeIterator.GetNext)
+[void GetNext(out Vector3L next)](VRageMath.Vector3L_RangeIterator.GetNext)
 
 > 
 

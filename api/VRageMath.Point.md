@@ -32,17 +32,17 @@ Defines a point in 2D space.
 
 #### Constructors
 
-[Point(int, int)](VRageMath.Point..ctor)
+[Point(int x, int y)](VRageMath.Point..ctor)
 
 > 
 
 #### Methods
 
-[bool Equals(Point)](VRageMath.Point.Equals)
+[bool Equals(Point other)](VRageMath.Point.Equals)
 
 > Determines whether two Point instances are equal.
 
-[bool Equals(object)](VRageMath.Point.Equals)
+[bool Equals(object obj)](VRageMath.Point.Equals)
 
 > Determines whether two Point instances are equal.
 

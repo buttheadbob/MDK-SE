@@ -29,7 +29,7 @@ public struct MyTuple<T1, T2, T3, T4>
 
 #### Constructors
 
-[MyTuple(T1, T2, T3, T4)](VRage.MyTuple`4..ctor)
+[MyTuple(T1 item1, T2 item2, T3 item3, T4 item4)](VRage.MyTuple`4..ctor)
 
 > 
 

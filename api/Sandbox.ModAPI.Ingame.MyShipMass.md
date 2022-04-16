@@ -27,7 +27,7 @@ Describes ship mass
 
 #### Constructors
 
-[MyShipMass(float, float, float)](Sandbox.ModAPI.Ingame.MyShipMass..ctor)
+[MyShipMass(float mass, float totalMass, float physicalMass)](Sandbox.ModAPI.Ingame.MyShipMass..ctor)
 
 > 
 

@@ -33,15 +33,15 @@ public class MyCuboid
 
 #### Methods
 
-[void CreateFromSizes(float, float, float, float, float)](VRageMath.MyCuboid.CreateFromSizes)
+[void CreateFromSizes(float width1, float depth1, float width2, float depth2, float length)](VRageMath.MyCuboid.CreateFromSizes)
 
 > 
 
-[void CreateFromVertices(Vector3&#91&#93;)](VRageMath.MyCuboid.CreateFromVertices)
+[void CreateFromVertices(Vector3&#91&#93; vertices)](VRageMath.MyCuboid.CreateFromVertices)
 
 > 
 
-[MyCuboid CreateTransformed(ref Matrix)](VRageMath.MyCuboid.CreateTransformed)
+[MyCuboid CreateTransformed(ref Matrix worldMatrix)](VRageMath.MyCuboid.CreateTransformed)
 
 > 
 

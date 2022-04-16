@@ -19,15 +19,15 @@ Describes terminal block group (PB scripting interface)
 
 #### Methods
 
-[void GetBlocks(List&lt;IMyTerminalBlock&gt;, Func&lt;IMyTerminalBlock, bool&gt; = null)](Sandbox.ModAPI.Ingame.IMyBlockGroup.GetBlocks)
+[void GetBlocks(List&lt;IMyTerminalBlock&gt; blocks, Func&lt;IMyTerminalBlock, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyBlockGroup.GetBlocks)
 
 > Get terminal blocks which assigned to this group
 
-[void GetBlocksOfType&lt;T&gt;(List&lt;IMyTerminalBlock&gt;, Func&lt;IMyTerminalBlock, bool&gt; = null)](Sandbox.ModAPI.Ingame.IMyBlockGroup.GetBlocksOfType)
+[void GetBlocksOfType&lt;T&gt;(List&lt;IMyTerminalBlock&gt; blocks, Func&lt;IMyTerminalBlock, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyBlockGroup.GetBlocksOfType)
 
 > 
 
-[void GetBlocksOfType&lt;T&gt;(List&lt;T&gt;, Func&lt;T, bool&gt; = null)](Sandbox.ModAPI.Ingame.IMyBlockGroup.GetBlocksOfType)
+[void GetBlocksOfType&lt;T&gt;(List&lt;T&gt; blocks, Func&lt;T, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyBlockGroup.GetBlocksOfType)
 
 > 
 

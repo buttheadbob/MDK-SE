@@ -41,53 +41,53 @@ public struct Vector2I
 
 #### Constructors
 
-[Vector2I(int, int)](VRageMath.Vector2I..ctor)
+[Vector2I(int x, int y)](VRageMath.Vector2I..ctor)
 
 > 
 
-[Vector2I(int)](VRageMath.Vector2I..ctor)
+[Vector2I(int width)](VRageMath.Vector2I..ctor)
 
 > 
 
-[Vector2I(Vector2)](VRageMath.Vector2I..ctor)
+[Vector2I(Vector2 vec)](VRageMath.Vector2I..ctor)
 
 > 
 
-[Vector2I(Vector2D)](VRageMath.Vector2I..ctor)
+[Vector2I(Vector2D vec)](VRageMath.Vector2I..ctor)
 
 > 
 
 #### Methods
 
-[static Vector2I Floor(Vector2)](VRageMath.Vector2I.Floor)
+[static Vector2I Floor(Vector2 value)](VRageMath.Vector2I.Floor)
 
 > 
 
-[static void Max(ref Vector2I, ref Vector2I, out Vector2I)](VRageMath.Vector2I.Max)
+[static void Max(ref Vector2I v1, ref Vector2I v2, out Vector2I max)](VRageMath.Vector2I.Max)
 
 > 
 
-[static Vector2I Max(Vector2I, Vector2I)](VRageMath.Vector2I.Max)
+[static Vector2I Max(Vector2I v1, Vector2I v2)](VRageMath.Vector2I.Max)
 
 > 
 
-[static void Min(ref Vector2I, ref Vector2I, out Vector2I)](VRageMath.Vector2I.Min)
+[static void Min(ref Vector2I v1, ref Vector2I v2, out Vector2I min)](VRageMath.Vector2I.Min)
 
 > 
 
-[static Vector2I Min(Vector2I, Vector2I)](VRageMath.Vector2I.Min)
+[static Vector2I Min(Vector2I v1, Vector2I v2)](VRageMath.Vector2I.Min)
 
 > 
 
-[static Vector2I Round(Vector2)](VRageMath.Vector2I.Round)
+[static Vector2I Round(Vector2 value)](VRageMath.Vector2I.Round)
 
 > 
 
-[bool Between(ref Vector2I, ref Vector2I)](VRageMath.Vector2I.Between)
+[bool Between(ref Vector2I start, ref Vector2I end)](VRageMath.Vector2I.Between)
 
 > 
 
-[bool Equals(object)](VRageMath.Vector2I.Equals)
+[bool Equals(object obj)](VRageMath.Vector2I.Equals)
 
 > 
 

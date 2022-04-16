@@ -11,11 +11,11 @@ public abstract sealed class MyMortonCode3D
 
 #### Methods
 
-[static void Decode(int, out Vector3I)](VRageMath.MyMortonCode3D.Decode)
+[static void Decode(int code, out Vector3I value)](VRageMath.MyMortonCode3D.Decode)
 
 > 
 
-[static int Encode(ref Vector3I)](VRageMath.MyMortonCode3D.Encode)
+[static int Encode(ref Vector3I value)](VRageMath.MyMortonCode3D.Encode)
 
 > 
 

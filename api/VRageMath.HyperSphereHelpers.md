@@ -11,15 +11,15 @@ public abstract sealed class HyperSphereHelpers
 
 #### Methods
 
-[static double DistanceToTangent(ref Vector3D, ref Vector3D, double)](VRageMath.HyperSphereHelpers.DistanceToTangent)
+[static double DistanceToTangent(ref Vector3D center, ref Vector3D point, double radius)](VRageMath.HyperSphereHelpers.DistanceToTangent)
 
 > 
 
-[static double DistanceToTangent(ref Vector2D, ref Vector2D, double)](VRageMath.HyperSphereHelpers.DistanceToTangent)
+[static double DistanceToTangent(ref Vector2D center, ref Vector2D point, double radius)](VRageMath.HyperSphereHelpers.DistanceToTangent)
 
 > 
 
-[static double DistanceToTangentProjected(ref Vector3D, ref Vector3D, double, out double)](VRageMath.HyperSphereHelpers.DistanceToTangentProjected)
+[static double DistanceToTangentProjected(ref Vector3D center, ref Vector3D point, double radius, out double distance)](VRageMath.HyperSphereHelpers.DistanceToTangentProjected)
 
 > 
 

@@ -25,17 +25,17 @@ public struct Capsule
 
 #### Constructors
 
-[Capsule(Vector3, Vector3, float)](VRageMath.Capsule..ctor)
+[Capsule(Vector3 p0, Vector3 p1, float radius)](VRageMath.Capsule..ctor)
 
 > 
 
 #### Methods
 
-[bool Intersect(Ray, ref Vector3, ref Vector3, ref Vector3, ref Vector3)](VRageMath.Capsule.Intersect)
+[bool Intersect(Ray ray, ref Vector3 p1, ref Vector3 p2, ref Vector3 n1, ref Vector3 n2)](VRageMath.Capsule.Intersect)
 
 > 
 
-[bool Intersect(Line, ref Vector3, ref Vector3, ref Vector3, ref Vector3)](VRageMath.Capsule.Intersect)
+[bool Intersect(Line line, ref Vector3 p1, ref Vector3 p2, ref Vector3 n1, ref Vector3 n2)](VRageMath.Capsule.Intersect)
 
 > 
 

@@ -21,7 +21,7 @@ public struct SerializableRange
 
 #### Constructors
 
-[SerializableRange(float, float)](VRageMath.SerializableRange..ctor)
+[SerializableRange(float min, float max)](VRageMath.SerializableRange..ctor)
 
 > 
 
@@ -55,7 +55,7 @@ public struct SerializableRange
 
 > 
 
-[bool ValueBetween(float)](VRageMath.SerializableRange.ValueBetween)
+[bool ValueBetween(float value)](VRageMath.SerializableRange.ValueBetween)
 
 > 
 

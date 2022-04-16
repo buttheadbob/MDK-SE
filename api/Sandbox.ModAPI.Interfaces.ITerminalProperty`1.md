@@ -1,9 +1,9 @@
 ← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
-#### ITerminalProperty&lt;TValue&gt; Interface
+#### ITerminalProperty\&lt;TValue\&gt; Interface
 
 ```csharp
-public interface ITerminalProperty<TValue>: ITerminalProperty
+public interface ITerminalProperty\<TValue\>: ITerminalProperty
 ```
 
 **Namespace:** [Sandbox.ModAPI.Interfaces](Sandbox.ModAPI.Interfaces)  

@@ -3,7 +3,7 @@
 #### BoundingSphereD Struct
 
 ```csharp
-public struct BoundingSphereD: IEquatable<BoundingSphereD>
+public struct BoundingSphereD: IEquatable\<BoundingSphereD\>
 ```
 
 Defines a sphere.
@@ -12,7 +12,7 @@ Defines a sphere.
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable<BoundingSphereD>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IEquatable\<BoundingSphereD\>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 

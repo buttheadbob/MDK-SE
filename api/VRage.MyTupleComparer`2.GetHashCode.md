@@ -1,9 +1,9 @@
-← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MyTupleComparer<T1, T2>](VRage.MyTupleComparer`2)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MyTupleComparer\<T1, T2\>](VRage.MyTupleComparer`2)
 
 ### Summary
 
 ```csharp
-public int GetHashCode(MyTuple<T1, T2> obj)
+public int GetHashCode(MyTuple\<T1, T2\> obj)
 ```
 
 ### Returns
@@ -12,4 +12,4 @@ public int GetHashCode(MyTuple<T1, T2> obj)
 
 ### Parameters
 
-* [MyTuple<T1, T2>]() obj
+* [MyTuple\<T1, T2\>]() obj

@@ -1,9 +1,9 @@
 ← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
-#### IAddOp&lt;T&gt; Interface
+#### IAddOp\&lt;T\&gt; Interface
 
 ```csharp
-public interface IAddOp<T>
+public interface IAddOp\<T\>
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

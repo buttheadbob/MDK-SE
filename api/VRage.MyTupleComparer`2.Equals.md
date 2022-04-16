@@ -1,9 +1,9 @@
-← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MyTupleComparer<T1, T2>](VRage.MyTupleComparer`2)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MyTupleComparer\<T1, T2\>](VRage.MyTupleComparer`2)
 
 ### Summary
 
 ```csharp
-public bool Equals(MyTuple<T1, T2> x, MyTuple<T1, T2> y)
+public bool Equals(MyTuple\<T1, T2\> x, MyTuple\<T1, T2\> y)
 ```
 
 ### Returns
@@ -12,5 +12,5 @@ public bool Equals(MyTuple<T1, T2> x, MyTuple<T1, T2> y)
 
 ### Parameters
 
-* [MyTuple<T1, T2>]() x
-* [MyTuple<T1, T2>]() y
+* [MyTuple\<T1, T2\>]() x
+* [MyTuple\<T1, T2\>]() y

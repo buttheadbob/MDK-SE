@@ -30,7 +30,7 @@ public void Main()
 
 |Member|Description|
 |---|---|
-|[Action<string> Echo { get; protected set; }](Sandbox.ModAPI.Ingame.MyGridProgram.Echo)|Prints out text onto the currently running programmable block's detail info area.|
+|[Action\<string\> Echo { get; protected set; }](Sandbox.ModAPI.Ingame.MyGridProgram.Echo)|Prints out text onto the currently running programmable block's detail info area.|
 |[IMyGridTerminalSystem GridTerminalSystem { get; protected set; }](Sandbox.ModAPI.Ingame.MyGridProgram.GridTerminalSystem)|Provides access to the grid terminal system as viewed from this programmable block.|
 |[IMyIntergridCommunicationSystem IGC { get; }](Sandbox.ModAPI.Ingame.MyGridProgram.IGC)||
 |[IMyProgrammableBlock Me { get; protected set; }](Sandbox.ModAPI.Ingame.MyGridProgram.Me)|Gets a reference to the currently running programmable block.|

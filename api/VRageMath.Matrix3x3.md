@@ -3,7 +3,7 @@
 #### Matrix3x3 Struct
 
 ```csharp
-public struct Matrix3x3: IEquatable<Matrix3x3>
+public struct Matrix3x3: IEquatable\<Matrix3x3\>
 ```
 
 Defines a matrix.
@@ -12,7 +12,7 @@ Defines a matrix.
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable<Matrix3x3>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IEquatable\<Matrix3x3\>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 

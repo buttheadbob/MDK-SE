@@ -3,7 +3,7 @@
 #### BoundingBox2 Struct
 
 ```csharp
-public struct BoundingBox2: IEquatable<BoundingBox2>
+public struct BoundingBox2: IEquatable\<BoundingBox2\>
 ```
 
 Defines an axis-aligned box-shaped 3D volume.
@@ -12,7 +12,7 @@ Defines an axis-aligned box-shaped 3D volume.
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable<BoundingBox2>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IEquatable\<BoundingBox2\>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 
@@ -44,7 +44,7 @@ Defines an axis-aligned box-shaped 3D volume.
 |---|---|
 |[static BoundingBox2 CreateFromHalfExtent(Vector2, float)](VRageMath.BoundingBox2.CreateFromHalfExtent)||
 |[static BoundingBox2 CreateFromHalfExtent(Vector2, Vector2)](VRageMath.BoundingBox2.CreateFromHalfExtent)||
-|[static BoundingBox2 CreateFromPoints(IEnumerable<Vector2>)](VRageMath.BoundingBox2.CreateFromPoints)|Creates the smallest BoundingBox2 that will contain a group of points.|
+|[static BoundingBox2 CreateFromPoints(IEnumerable\<Vector2\>)](VRageMath.BoundingBox2.CreateFromPoints)|Creates the smallest BoundingBox2 that will contain a group of points.|
 |[static BoundingBox2 CreateInvalid()](VRageMath.BoundingBox2.CreateInvalid)||
 |[static BoundingBox2 CreateMerged(BoundingBox2, BoundingBox2)](VRageMath.BoundingBox2.CreateMerged)|Creates the smallest BoundingBox2 that contains the two specified BoundingBox2 instances.|
 |[static void CreateMerged(ref BoundingBox2, ref BoundingBox2, out BoundingBox2)](VRageMath.BoundingBox2.CreateMerged)|Creates the smallest BoundingBox2 that contains the two specified BoundingBox2 instances.|

@@ -3,7 +3,7 @@
 #### PlaneD Struct
 
 ```csharp
-public struct PlaneD: IEquatable<PlaneD>
+public struct PlaneD: IEquatable\<PlaneD\>
 ```
 
 Defines a PlaneD.
@@ -12,7 +12,7 @@ Defines a PlaneD.
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable<PlaneD>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IEquatable\<PlaneD\>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 

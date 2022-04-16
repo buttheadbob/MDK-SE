@@ -3,7 +3,7 @@
 #### MyInventoryItem Struct
 
 ```csharp
-public struct MyInventoryItem: IComparable<MyInventoryItem>, IEquatable<MyInventoryItem>
+public struct MyInventoryItem: IComparable\<MyInventoryItem\>, IEquatable\<MyInventoryItem\>
 ```
 
 Snapshot of inventory item at the moment of query. Not updated afterwards!
@@ -12,8 +12,8 @@ Snapshot of inventory item at the moment of query. Not updated afterwards!
 **Assembly:** VRage.Game.dll
 
 **Implements:**  
-* [IComparable<MyInventoryItem>](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netframework-4.6)  
-* [IEquatable<MyInventoryItem>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IComparable\<MyInventoryItem\>](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netframework-4.6)  
+* [IEquatable\<MyInventoryItem\>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 

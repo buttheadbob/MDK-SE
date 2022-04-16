@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public TData As<TData>()
+public TData As\<TData\>()
 ```
 
 ### Returns

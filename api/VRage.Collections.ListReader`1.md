@@ -1,9 +1,9 @@
 ← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
-#### ListReader&lt;T&gt; Struct
+#### ListReader\&lt;T\&gt; Struct
 
 ```csharp
-public struct ListReader<T>: IEnumerable<T>, IEnumerable, IReadOnlyList<T>, IReadOnlyCollection<T>
+public struct ListReader\<T\>: IEnumerable\<T\>, IEnumerable, IReadOnlyList\<T\>, IReadOnlyCollection\<T\>
 ```
 
 **Namespace:** [VRage.Collections](VRage.Collections)  
@@ -11,15 +11,15 @@ public struct ListReader<T>: IEnumerable<T>, IEnumerable, IReadOnlyList<T>, IRea
 
 **Implements:**  
 * [IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.IEnumerable?view=netframework-4.6)  
-* [IEnumerable<T>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netframework-4.6)  
-* [IReadOnlyCollection<T>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IReadOnlyCollection-1?view=netframework-4.6)  
-* [IReadOnlyList<T>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IReadOnlyList-1?view=netframework-4.6)
+* [IEnumerable\<T\>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netframework-4.6)  
+* [IReadOnlyCollection\<T\>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IReadOnlyCollection-1?view=netframework-4.6)  
+* [IReadOnlyList\<T\>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IReadOnlyList-1?view=netframework-4.6)
 
 #### Fields
 
 |Member|Description|
 |---|---|
-|[static ListReader<T> Empty](VRage.Collections.ListReader`1.Empty)||
+|[static ListReader\<T\> Empty](VRage.Collections.ListReader`1.Empty)||
 
 #### Properties
 
@@ -32,13 +32,13 @@ public struct ListReader<T>: IEnumerable<T>, IEnumerable, IReadOnlyList<T>, IRea
 
 |Member|Description|
 |---|---|
-|[ListReader(List<T>)](VRage.Collections.ListReader`1..ctor)||
+|[ListReader(List\<T\>)](VRage.Collections.ListReader`1..ctor)||
 
 #### Methods
 
 |Member|Description|
 |---|---|
-|[Enumerator<T> GetEnumerator()](VRage.Collections.ListReader`1.GetEnumerator)||
+|[Enumerator\<T\> GetEnumerator()](VRage.Collections.ListReader`1.GetEnumerator)||
 |[int IndexOf(T)](VRage.Collections.ListReader`1.IndexOf)||
 |[T ItemAt(int)](VRage.Collections.ListReader`1.ItemAt)||
 

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static TValue Pop<TValue>(this List<TValue> self)
+public static TValue Pop\<TValue\>(this List\<TValue\> self)
 ```
 
 ### Returns
@@ -12,4 +12,4 @@ public static TValue Pop<TValue>(this List<TValue> self)
 
 ### Parameters
 
-* [List<TValue>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) self
+* [List\<TValue\>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) self

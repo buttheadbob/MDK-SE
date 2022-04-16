@@ -3,7 +3,7 @@
 #### RectangleF Struct
 
 ```csharp
-public struct RectangleF: IEquatable<RectangleF>
+public struct RectangleF: IEquatable\<RectangleF\>
 ```
 
 Structure using the same layout than [System.Drawing.RectangleF](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.rectanglef?view=netframework-4.6) 
@@ -12,7 +12,7 @@ Structure using the same layout than [System.Drawing.RectangleF](https://docs.mi
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable<RectangleF>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IEquatable\<RectangleF\>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 

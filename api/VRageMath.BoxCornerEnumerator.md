@@ -3,7 +3,7 @@
 #### BoxCornerEnumerator Struct
 
 ```csharp
-public struct BoxCornerEnumerator: IEnumerator<Vector3>, IDisposable, IEnumerator, IEnumerable<Vector3>, IEnumerable
+public struct BoxCornerEnumerator: IEnumerator\<Vector3\>, IDisposable, IEnumerator, IEnumerable\<Vector3\>, IEnumerable
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
@@ -12,9 +12,9 @@ public struct BoxCornerEnumerator: IEnumerator<Vector3>, IDisposable, IEnumerato
 **Implements:**  
 * [IDisposable](https://docs.microsoft.com/en-us/dotnet/api/System.IDisposable?view=netframework-4.6)  
 * [IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.IEnumerable?view=netframework-4.6)  
-* [IEnumerable<Vector3>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netframework-4.6)  
+* [IEnumerable\<Vector3\>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netframework-4.6)  
 * [IEnumerator](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.IEnumerator?view=netframework-4.6)  
-* [IEnumerator<Vector3>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerator-1?view=netframework-4.6)
+* [IEnumerator\<Vector3\>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerator-1?view=netframework-4.6)
 
 #### Properties
 

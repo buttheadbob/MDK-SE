@@ -3,7 +3,7 @@
 #### StringSegmentIgnoreCaseComparer Class
 
 ```csharp
-public class StringSegmentIgnoreCaseComparer: IEqualityComparer<StringSegment>
+public class StringSegmentIgnoreCaseComparer: IEqualityComparer\<StringSegment\>
 ```
 
 A comparer designed to compare [StringSegment](VRage.Game.ModAPI.Ingame.Utilities.StringSegment) instances in a case insensitive manner. Use [DEFAULT](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentIgnoreCaseComparer.DEFAULT) for a default instance
@@ -12,7 +12,7 @@ A comparer designed to compare [StringSegment](VRage.Game.ModAPI.Ingame.Utilitie
 **Assembly:** VRage.Game.dll
 
 **Implements:**  
-* [IEqualityComparer<StringSegment>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEqualityComparer-1?view=netframework-4.6)
+* [IEqualityComparer\<StringSegment\>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEqualityComparer-1?view=netframework-4.6)
 
 #### Fields
 

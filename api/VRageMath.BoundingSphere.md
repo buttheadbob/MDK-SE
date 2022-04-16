@@ -3,7 +3,7 @@
 #### BoundingSphere Struct
 
 ```csharp
-public struct BoundingSphere: IEquatable<BoundingSphere>
+public struct BoundingSphere: IEquatable\<BoundingSphere\>
 ```
 
 Defines a sphere.
@@ -12,7 +12,7 @@ Defines a sphere.
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable<BoundingSphere>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IEquatable\<BoundingSphere\>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 
@@ -34,7 +34,7 @@ Defines a sphere.
 |[static BoundingSphere CreateFromBoundingBox(BoundingBox)](VRageMath.BoundingSphere.CreateFromBoundingBox)|Creates the smallest BoundingSphere that can contain a specified BoundingBox.|
 |[static void CreateFromBoundingBox(ref BoundingBox, out BoundingSphere)](VRageMath.BoundingSphere.CreateFromBoundingBox)|Creates the smallest BoundingSphere that can contain a specified BoundingBox.|
 |[static BoundingSphere CreateFromFrustum(BoundingFrustum)](VRageMath.BoundingSphere.CreateFromFrustum)|Creates the smallest BoundingSphere that can contain a specified BoundingFrustum.|
-|[static BoundingSphere CreateFromPoints(IEnumerable<Vector3>)](VRageMath.BoundingSphere.CreateFromPoints)|Creates a BoundingSphere that can contain a specified list of points.|
+|[static BoundingSphere CreateFromPoints(IEnumerable\<Vector3\>)](VRageMath.BoundingSphere.CreateFromPoints)|Creates a BoundingSphere that can contain a specified list of points.|
 |[static BoundingSphere CreateInvalid()](VRageMath.BoundingSphere.CreateInvalid)||
 |[static BoundingSphere CreateMerged(BoundingSphere, BoundingSphere)](VRageMath.BoundingSphere.CreateMerged)|Creates a BoundingSphere that contains the two specified BoundingSphere instances.|
 |[static void CreateMerged(ref BoundingSphere, ref BoundingSphere, out BoundingSphere)](VRageMath.BoundingSphere.CreateMerged)|Creates a BoundingSphere that contains the two specified BoundingSphere instances.|

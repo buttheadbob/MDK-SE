@@ -3,7 +3,7 @@
 #### MyItemType Struct
 
 ```csharp
-public struct MyItemType: IComparable<MyItemType>, IEquatable<MyItemType>
+public struct MyItemType: IComparable\<MyItemType\>, IEquatable\<MyItemType\>
 ```
 
 Use by [MyInventoryItem](VRage.Game.ModAPI.Ingame.MyInventoryItem) 
@@ -12,8 +12,8 @@ Use by [MyInventoryItem](VRage.Game.ModAPI.Ingame.MyInventoryItem)
 **Assembly:** VRage.Game.dll
 
 **Implements:**  
-* [IComparable<MyItemType>](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netframework-4.6)  
-* [IEquatable<MyItemType>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IComparable\<MyItemType\>](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netframework-4.6)  
+* [IEquatable\<MyItemType\>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Properties
 

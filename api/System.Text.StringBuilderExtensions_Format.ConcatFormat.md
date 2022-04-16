@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static StringBuilder ConcatFormat<A>(this StringBuilder string_builder, string format_string, A arg1, [NumberFormatInfo numberFormat])
+public static StringBuilder ConcatFormat\<A\>(this StringBuilder string_builder, string format_string, A arg1, [NumberFormatInfo numberFormat])
 ```
 
 ### Returns
@@ -19,7 +19,7 @@ public static StringBuilder ConcatFormat<A>(this StringBuilder string_builder, 
 ### Summary
 
 ```csharp
-public static StringBuilder ConcatFormat<A, B>(this StringBuilder string_builder, string format_string, A arg1, B arg2, [NumberFormatInfo numberFormat])
+public static StringBuilder ConcatFormat\<A, B\>(this StringBuilder string_builder, string format_string, A arg1, B arg2, [NumberFormatInfo numberFormat])
 ```
 
 ### Returns
@@ -36,7 +36,7 @@ public static StringBuilder ConcatFormat<A, B>(this StringBuilder string_builde
 ### Summary
 
 ```csharp
-public static StringBuilder ConcatFormat<A, B, C>(this StringBuilder string_builder, string format_string, A arg1, B arg2, C arg3, [NumberFormatInfo numberFormat])
+public static StringBuilder ConcatFormat\<A, B, C\>(this StringBuilder string_builder, string format_string, A arg1, B arg2, C arg3, [NumberFormatInfo numberFormat])
 ```
 
 ### Returns
@@ -54,7 +54,7 @@ public static StringBuilder ConcatFormat<A, B, C>(this StringBuilder string_bui
 ### Summary
 
 ```csharp
-public static StringBuilder ConcatFormat<A, B, C, D>(this StringBuilder string_builder, string format_string, A arg1, B arg2, C arg3, D arg4, [NumberFormatInfo numberFormat])
+public static StringBuilder ConcatFormat\<A, B, C, D\>(this StringBuilder string_builder, string format_string, A arg1, B arg2, C arg3, D arg4, [NumberFormatInfo numberFormat])
 ```
 
 ### Returns
@@ -73,7 +73,7 @@ public static StringBuilder ConcatFormat<A, B, C, D>(this StringBuilder string_
 ### Summary
 
 ```csharp
-public static StringBuilder ConcatFormat<A, B, C, D, E>(this StringBuilder string_builder, string format_string, A arg1, B arg2, C arg3, D arg4, E arg5, [NumberFormatInfo numberFormat])
+public static StringBuilder ConcatFormat\<A, B, C, D, E\>(this StringBuilder string_builder, string format_string, A arg1, B arg2, C arg3, D arg4, E arg5, [NumberFormatInfo numberFormat])
 ```
 
 ### Returns

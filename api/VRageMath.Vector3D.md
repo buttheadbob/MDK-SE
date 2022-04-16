@@ -3,7 +3,7 @@
 #### Vector3D Struct
 
 ```csharp
-public struct Vector3D: IEquatable<Vector3D>
+public struct Vector3D: IEquatable\<Vector3D\>
 ```
 
 Defines a vector with three components. Vector3 with double floating point precision
@@ -12,7 +12,7 @@ Defines a vector with three components. Vector3 with double floating point preci
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable<Vector3D>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IEquatable\<Vector3D\>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 

@@ -3,7 +3,7 @@
 #### RayD Struct
 
 ```csharp
-public struct RayD: IEquatable<RayD>
+public struct RayD: IEquatable\<RayD\>
 ```
 
 Defines a ray.
@@ -12,7 +12,7 @@ Defines a ray.
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable<RayD>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IEquatable\<RayD\>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 

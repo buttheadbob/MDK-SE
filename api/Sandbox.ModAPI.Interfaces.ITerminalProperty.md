@@ -12,7 +12,7 @@ Terminal block property definition
 **Assembly:** Sandbox.Common.dll
 
 **Inheritors:**  
-* [ITerminalProperty<TValue>](Sandbox.ModAPI.Interfaces.ITerminalProperty`1)
+* [ITerminalProperty\<TValue\>](Sandbox.ModAPI.Interfaces.ITerminalProperty`1)
 
 #### Properties
 

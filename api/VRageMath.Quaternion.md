@@ -3,7 +3,7 @@
 #### Quaternion Struct
 
 ```csharp
-public struct Quaternion: IEquatable<Quaternion>
+public struct Quaternion: IEquatable\<Quaternion\>
 ```
 
 Defines a four-dimensional vector (x,y,z,w), which is used to efficiently rotate an object about the (x, y, z) vector by the angle theta, where w = cos(theta/2).
@@ -12,7 +12,7 @@ Defines a four-dimensional vector (x,y,z,w), which is used to efficiently rotate
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable<Quaternion>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IEquatable\<Quaternion\>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 

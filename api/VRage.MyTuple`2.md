@@ -1,9 +1,9 @@
 ← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
-#### MyTuple&lt;T1, T2&gt; Struct
+#### MyTuple\&lt;T1, T2\&gt; Struct
 
 ```csharp
-public struct MyTuple<T1, T2>
+public struct MyTuple\<T1, T2\>
 ```
 
 **Namespace:** [VRage](VRage)  

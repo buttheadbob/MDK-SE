@@ -3,7 +3,7 @@
 #### MatrixD Struct
 
 ```csharp
-public struct MatrixD: IEquatable<MatrixD>
+public struct MatrixD: IEquatable\<MatrixD\>
 ```
 
 Defines a matrix.
@@ -12,7 +12,7 @@ Defines a matrix.
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable<MatrixD>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IEquatable\<MatrixD\>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 

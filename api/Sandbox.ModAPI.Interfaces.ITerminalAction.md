@@ -22,7 +22,7 @@ public interface ITerminalAction
 |Member|Description|
 |---|---|
 |[void Apply(IMyCubeBlock)](Sandbox.ModAPI.Interfaces.ITerminalAction.Apply)||
-|[void Apply(IMyCubeBlock, ListReader<TerminalActionParameter>)](Sandbox.ModAPI.Interfaces.ITerminalAction.Apply)||
+|[void Apply(IMyCubeBlock, ListReader\<TerminalActionParameter\>)](Sandbox.ModAPI.Interfaces.ITerminalAction.Apply)||
 |[bool IsEnabled(IMyCubeBlock)](Sandbox.ModAPI.Interfaces.ITerminalAction.IsEnabled)||
 |[void WriteValue(IMyCubeBlock, StringBuilder)](Sandbox.ModAPI.Interfaces.ITerminalAction.WriteValue)||
 

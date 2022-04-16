@@ -29,5 +29,5 @@ Provides info about received message along with received data
 
 |Member|Description|
 |---|---|
-|[TData As<TData>()](Sandbox.ModAPI.Ingame.MyIGCMessage.As)||
+|[TData As\<TData\>()](Sandbox.ModAPI.Ingame.MyIGCMessage.As)||
 

@@ -25,6 +25,10 @@ Class having some sugar extensions. Written by Kalvin Osborne, AKA Night Lone.
 
 > Get EntityId of block
 
+[static bool HasAction(this IMyTerminalBlock block, string actionName)](Sandbox.ModAPI.Ingame.TerminalBlockExtentions.HasAction)
+
+> Searches for terminal action with name
+
 [static IMyInventory GetInventory(this IMyTerminalBlock block, int index)](Sandbox.ModAPI.Ingame.TerminalBlockExtentions.GetInventory)
 
 > _**Obsolete:** Use the GetInventoryBase method._
@@ -36,10 +40,6 @@ Class having some sugar extensions. Written by Kalvin Osborne, AKA Night Lone.
 [static bool GetUseConveyorSystem(this IMyTerminalBlock block)](Sandbox.ModAPI.Ingame.TerminalBlockExtentions.GetUseConveyorSystem)
 
 > _**Obsolete:** Use the blocks themselves, this method is no longer reliable_
-
-[static bool HasAction(this IMyTerminalBlock block, string actionName)](Sandbox.ModAPI.Ingame.TerminalBlockExtentions.HasAction)
-
-> Searches for terminal action with name
 
 [static bool HasInventory(this IMyTerminalBlock block)](Sandbox.ModAPI.Ingame.TerminalBlockExtentions.HasInventory)
 

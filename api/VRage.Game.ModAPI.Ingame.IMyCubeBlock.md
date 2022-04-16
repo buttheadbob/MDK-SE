@@ -250,27 +250,9 @@ Basic cube interface
 
 > Tag of faction owning block
 
-[MyRelationsBetweenPlayerAndBlock GetPlayerRelationToOwner()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetPlayerRelationToOwner)
-
-> _**Obsolete:** GetPlayerRelationToOwner() is useless ingame. Mods should use the one in ModAPI.IMyCubeBlock_  
->   
-> Relation of local player to the block Should not be called on Dedicated Server.
-
 [MyRelationsBetweenPlayerAndBlock GetUserRelationToOwner(long playerId, MyRelationsBetweenPlayerAndBlock defaultNoUser = MyRelationsBetweenPlayerAndBlock.NoOwnership)](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetUserRelationToOwner)
 
 > Gets relation to owner of block
-
-[void UpdateIsWorking()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.UpdateIsWorking)
-
-> _**Obsolete**_  
->   
-> Force refresh working state. Call if you change block state that could affect its working status.
-
-[void UpdateVisual()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.UpdateVisual)
-
-> _**Obsolete**_  
->   
-> Updates block visuals (ie. block emissivity)
 
 [IMyInventory GetInventory()](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)
 
@@ -289,4 +271,22 @@ Basic cube interface
 > Gets position in world coordinates  
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
+
+[MyRelationsBetweenPlayerAndBlock GetPlayerRelationToOwner()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetPlayerRelationToOwner)
+
+> _**Obsolete:** GetPlayerRelationToOwner() is useless ingame. Mods should use the one in ModAPI.IMyCubeBlock_  
+>   
+> Relation of local player to the block Should not be called on Dedicated Server.
+
+[void UpdateIsWorking()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.UpdateIsWorking)
+
+> _**Obsolete**_  
+>   
+> Force refresh working state. Call if you change block state that could affect its working status.
+
+[void UpdateVisual()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.UpdateVisual)
+
+> _**Obsolete**_  
+>   
+> Updates block visuals (ie. block emissivity)
 

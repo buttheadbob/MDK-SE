@@ -34,12 +34,6 @@ Describes door block (PB scripting interface)
 
 #### Properties
 
-[bool Open { get; }](Sandbox.ModAPI.Ingame.IMyDoor.Open)
-
-> _**Obsolete:** Use the Status property instead_  
->   
-> Indicates whether door is opened or closed. True when door is opened.
-
 [float OpenRatio { get; }](Sandbox.ModAPI.Ingame.IMyDoor.OpenRatio)
 
 > The current, accurate ratio of the door's current state where 0 is fully closed and 1 is fully open.
@@ -270,6 +264,12 @@ Describes door block (PB scripting interface)
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
+[bool Open { get; }](Sandbox.ModAPI.Ingame.IMyDoor.Open)
+
+> _**Obsolete:** Use the Status property instead_  
+>   
+> Indicates whether door is opened or closed. True when door is opened.
+
 #### Methods
 
 [void CloseDoor()](Sandbox.ModAPI.Ingame.IMyDoor.CloseDoor)
@@ -311,14 +311,6 @@ Describes door block (PB scripting interface)
 [string GetOwnerFactionTag()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetOwnerFactionTag)
 
 > Tag of faction owning block  
->   
-> _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[MyRelationsBetweenPlayerAndBlock GetPlayerRelationToOwner()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetPlayerRelationToOwner)
-
-> _**Obsolete:** GetPlayerRelationToOwner() is useless ingame. Mods should use the one in ModAPI.IMyCubeBlock_  
->   
-> Relation of local player to the block Should not be called on Dedicated Server.  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
@@ -366,12 +358,6 @@ Describes door block (PB scripting interface)
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[void RequestEnable(bool enable)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)
-
-> _**Obsolete:** Use the setter of Enabled_  
->   
-> _Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_
-
 [void SearchActionsOfName(string name, List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SearchActionsOfName)
 
 > Get all terminal actions available for block. NOTE: First called `    
@@ -381,6 +367,20 @@ Describes door block (PB scripting interface)
 > ` check  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
+
+[MyRelationsBetweenPlayerAndBlock GetPlayerRelationToOwner()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetPlayerRelationToOwner)
+
+> _**Obsolete:** GetPlayerRelationToOwner() is useless ingame. Mods should use the one in ModAPI.IMyCubeBlock_  
+>   
+> Relation of local player to the block Should not be called on Dedicated Server.  
+>   
+> _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
+
+[void RequestEnable(bool enable)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)
+
+> _**Obsolete:** Use the setter of Enabled_  
+>   
+> _Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_
 
 [void SetCustomName(string text)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)
 

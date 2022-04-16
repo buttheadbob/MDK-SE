@@ -67,10 +67,6 @@ public abstract sealed class ListExtensions
 
 > 
 
-[static T&#91&#93; GetInternalArray&lt;T&gt;(this List&lt;T&gt; list)](System.Collections.Generic.ListExtensions.GetInternalArray)
-
-> _**Obsolete:** Due to changes required for XBOX this method is obsolete. Do not use it, as now it simply does list.ToArray_
-
 [static void InsertInOrder&lt;T&gt;(this List&lt;T&gt; self, T value, IComparer&lt;T&gt; comparer)](System.Collections.Generic.ListExtensions.InsertInOrder)
 
 > 
@@ -130,4 +126,8 @@ public abstract sealed class ListExtensions
 [static O&#91&#93; ToArray&lt;I, O&gt;(this IList&lt;I&gt; collection, Func&lt;I, O&gt; selector)](System.Collections.Generic.ListExtensions.ToArray)
 
 > 
+
+[static T&#91&#93; GetInternalArray&lt;T&gt;(this List&lt;T&gt; list)](System.Collections.Generic.ListExtensions.GetInternalArray)
+
+> _**Obsolete:** Due to changes required for XBOX this method is obsolete. Do not use it, as now it simply does list.ToArray_
 

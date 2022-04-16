@@ -29,12 +29,6 @@ public interface IMyLandingGear: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBl
 
 > Toggles the autolock of the landing gear.
 
-[bool IsBreakable { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyLandingGear.IsBreakable)
-
-> _**Obsolete:** Landing gear are not breakable anymore._  
->   
-> Gets if the landing gear lock can be broken with force.
-
 [bool IsLocked { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyLandingGear.IsLocked)
 
 > Gets whether the landing gear is currently locked.
@@ -269,6 +263,12 @@ public interface IMyLandingGear: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBl
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
+[bool IsBreakable { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyLandingGear.IsBreakable)
+
+> _**Obsolete:** Landing gear are not breakable anymore._  
+>   
+> Gets if the landing gear lock can be broken with force.
+
 #### Methods
 
 [void Lock()](SpaceEngineers.Game.ModAPI.Ingame.IMyLandingGear.Lock)
@@ -317,14 +317,6 @@ public interface IMyLandingGear: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBl
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[MyRelationsBetweenPlayerAndBlock GetPlayerRelationToOwner()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetPlayerRelationToOwner)
-
-> _**Obsolete:** GetPlayerRelationToOwner() is useless ingame. Mods should use the one in ModAPI.IMyCubeBlock_  
->   
-> Relation of local player to the block Should not be called on Dedicated Server.  
->   
-> _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
 [Vector3D GetPosition()](VRage.Game.ModAPI.Ingame.IMyEntity.GetPosition)
 
 > Gets position in world coordinates  
@@ -369,12 +361,6 @@ public interface IMyLandingGear: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBl
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[void RequestEnable(bool enable)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)
-
-> _**Obsolete:** Use the setter of Enabled_  
->   
-> _Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_
-
 [void SearchActionsOfName(string name, List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SearchActionsOfName)
 
 > Get all terminal actions available for block. NOTE: First called `    
@@ -384,6 +370,20 @@ public interface IMyLandingGear: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBl
 > ` check  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
+
+[MyRelationsBetweenPlayerAndBlock GetPlayerRelationToOwner()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetPlayerRelationToOwner)
+
+> _**Obsolete:** GetPlayerRelationToOwner() is useless ingame. Mods should use the one in ModAPI.IMyCubeBlock_  
+>   
+> Relation of local player to the block Should not be called on Dedicated Server.  
+>   
+> _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
+
+[void RequestEnable(bool enable)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)
+
+> _**Obsolete:** Use the setter of Enabled_  
+>   
+> _Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_
 
 [void SetCustomName(string text)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)
 

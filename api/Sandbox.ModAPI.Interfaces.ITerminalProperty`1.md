@@ -40,10 +40,6 @@ public interface ITerminalProperty<TValue>: ITerminalProperty
 
 > 
 
-[TValue GetMininum(IMyCubeBlock block)](Sandbox.ModAPI.Interfaces.ITerminalProperty`1.GetMininum)
-
-> _**Obsolete:** Use GetMinimum instead_
-
 [TValue GetValue(IMyCubeBlock block)](Sandbox.ModAPI.Interfaces.ITerminalProperty`1.GetValue)
 
 > 
@@ -51,4 +47,8 @@ public interface ITerminalProperty<TValue>: ITerminalProperty
 [void SetValue(IMyCubeBlock block, TValue value)](Sandbox.ModAPI.Interfaces.ITerminalProperty`1.SetValue)
 
 > 
+
+[TValue GetMininum(IMyCubeBlock block)](Sandbox.ModAPI.Interfaces.ITerminalProperty`1.GetMininum)
+
+> _**Obsolete:** Use GetMinimum instead_
 

@@ -55,18 +55,6 @@ Describes battery block (PB scripting interface)
 
 > Gets maximum stored power
 
-[bool OnlyDischarge { get; set; }](Sandbox.ModAPI.Ingame.IMyBatteryBlock.OnlyDischarge)
-
-> _**Obsolete:** Use ChargeMode instead_
-
-[bool OnlyRecharge { get; set; }](Sandbox.ModAPI.Ingame.IMyBatteryBlock.OnlyRecharge)
-
-> _**Obsolete:** Use ChargeMode instead_
-
-[bool SemiautoEnabled { get; set; }](Sandbox.ModAPI.Ingame.IMyBatteryBlock.SemiautoEnabled)
-
-> _**Obsolete:** Semi-auto is no longer a valid mode, if you want to check for Auto instead, use ChargeMode_
-
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -301,6 +289,18 @@ Describes battery block (PB scripting interface)
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
+[bool OnlyDischarge { get; set; }](Sandbox.ModAPI.Ingame.IMyBatteryBlock.OnlyDischarge)
+
+> _**Obsolete:** Use ChargeMode instead_
+
+[bool OnlyRecharge { get; set; }](Sandbox.ModAPI.Ingame.IMyBatteryBlock.OnlyRecharge)
+
+> _**Obsolete:** Use ChargeMode instead_
+
+[bool SemiautoEnabled { get; set; }](Sandbox.ModAPI.Ingame.IMyBatteryBlock.SemiautoEnabled)
+
+> _**Obsolete:** Semi-auto is no longer a valid mode, if you want to check for Auto instead, use ChargeMode_
+
 #### Methods
 
 [void GetActions(List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)
@@ -330,14 +330,6 @@ Describes battery block (PB scripting interface)
 [string GetOwnerFactionTag()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetOwnerFactionTag)
 
 > Tag of faction owning block  
->   
-> _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[MyRelationsBetweenPlayerAndBlock GetPlayerRelationToOwner()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetPlayerRelationToOwner)
-
-> _**Obsolete:** GetPlayerRelationToOwner() is useless ingame. Mods should use the one in ModAPI.IMyCubeBlock_  
->   
-> Relation of local player to the block Should not be called on Dedicated Server.  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
@@ -385,12 +377,6 @@ Describes battery block (PB scripting interface)
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[void RequestEnable(bool enable)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)
-
-> _**Obsolete:** Use the setter of Enabled_  
->   
-> _Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_
-
 [void SearchActionsOfName(string name, List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SearchActionsOfName)
 
 > Get all terminal actions available for block. NOTE: First called `    
@@ -400,6 +386,20 @@ Describes battery block (PB scripting interface)
 > ` check  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
+
+[MyRelationsBetweenPlayerAndBlock GetPlayerRelationToOwner()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetPlayerRelationToOwner)
+
+> _**Obsolete:** GetPlayerRelationToOwner() is useless ingame. Mods should use the one in ModAPI.IMyCubeBlock_  
+>   
+> Relation of local player to the block Should not be called on Dedicated Server.  
+>   
+> _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
+
+[void RequestEnable(bool enable)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)
+
+> _**Obsolete:** Use the setter of Enabled_  
+>   
+> _Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_
 
 [void SetCustomName(string text)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)
 

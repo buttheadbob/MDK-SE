@@ -317,10 +317,6 @@ Describes functional block (block with Enabled/Disabled toggle) (PB scripting in
 
 #### Methods
 
-[void RequestEnable(bool enable)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)
-
-> _**Obsolete:** Use the setter of Enabled_
-
 [void GetActions(List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)
 
 > Get all terminal actions available for block  
@@ -348,14 +344,6 @@ Describes functional block (block with Enabled/Disabled toggle) (PB scripting in
 [string GetOwnerFactionTag()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetOwnerFactionTag)
 
 > Tag of faction owning block  
->   
-> _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[MyRelationsBetweenPlayerAndBlock GetPlayerRelationToOwner()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetPlayerRelationToOwner)
-
-> _**Obsolete:** GetPlayerRelationToOwner() is useless ingame. Mods should use the one in ModAPI.IMyCubeBlock_  
->   
-> Relation of local player to the block Should not be called on Dedicated Server.  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
@@ -412,6 +400,18 @@ Describes functional block (block with Enabled/Disabled toggle) (PB scripting in
 > ` check  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
+
+[void RequestEnable(bool enable)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)
+
+> _**Obsolete:** Use the setter of Enabled_
+
+[MyRelationsBetweenPlayerAndBlock GetPlayerRelationToOwner()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetPlayerRelationToOwner)
+
+> _**Obsolete:** GetPlayerRelationToOwner() is useless ingame. Mods should use the one in ModAPI.IMyCubeBlock_  
+>   
+> Relation of local player to the block Should not be called on Dedicated Server.  
+>   
+> _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
 [void SetCustomName(string text)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)
 

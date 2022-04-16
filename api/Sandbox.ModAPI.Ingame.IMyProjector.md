@@ -35,33 +35,9 @@ Describes projector block (PB scripting interface)
 
 > Gets or sets projection offset
 
-[int ProjectionOffsetX { get; }](Sandbox.ModAPI.Ingame.IMyProjector.ProjectionOffsetX)
-
-> _**Obsolete:** Use ProjectionOffset vector instead._
-
-[int ProjectionOffsetY { get; }](Sandbox.ModAPI.Ingame.IMyProjector.ProjectionOffsetY)
-
-> _**Obsolete:** Use ProjectionOffset vector instead._
-
-[int ProjectionOffsetZ { get; }](Sandbox.ModAPI.Ingame.IMyProjector.ProjectionOffsetZ)
-
-> _**Obsolete:** Use ProjectionOffset vector instead._
-
 [Vector3I ProjectionRotation { get; set; }](Sandbox.ModAPI.Ingame.IMyProjector.ProjectionRotation)
 
 > Get or sets projection rotation. These values are not in degrees. 1 = 90 degrees, 2 = 180 degrees
-
-[int ProjectionRotX { get; }](Sandbox.ModAPI.Ingame.IMyProjector.ProjectionRotX)
-
-> _**Obsolete:** Use ProjectionRotation vector instead._
-
-[int ProjectionRotY { get; }](Sandbox.ModAPI.Ingame.IMyProjector.ProjectionRotY)
-
-> _**Obsolete:** Use ProjectionRotation vector instead._
-
-[int ProjectionRotZ { get; }](Sandbox.ModAPI.Ingame.IMyProjector.ProjectionRotZ)
-
-> _**Obsolete:** Use ProjectionRotation vector instead._
 
 [int RemainingArmorBlocks { get; }](Sandbox.ModAPI.Ingame.IMyProjector.RemainingArmorBlocks)
 
@@ -317,6 +293,30 @@ Describes projector block (PB scripting interface)
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
+[int ProjectionOffsetX { get; }](Sandbox.ModAPI.Ingame.IMyProjector.ProjectionOffsetX)
+
+> _**Obsolete:** Use ProjectionOffset vector instead._
+
+[int ProjectionOffsetY { get; }](Sandbox.ModAPI.Ingame.IMyProjector.ProjectionOffsetY)
+
+> _**Obsolete:** Use ProjectionOffset vector instead._
+
+[int ProjectionOffsetZ { get; }](Sandbox.ModAPI.Ingame.IMyProjector.ProjectionOffsetZ)
+
+> _**Obsolete:** Use ProjectionOffset vector instead._
+
+[int ProjectionRotX { get; }](Sandbox.ModAPI.Ingame.IMyProjector.ProjectionRotX)
+
+> _**Obsolete:** Use ProjectionRotation vector instead._
+
+[int ProjectionRotY { get; }](Sandbox.ModAPI.Ingame.IMyProjector.ProjectionRotY)
+
+> _**Obsolete:** Use ProjectionRotation vector instead._
+
+[int ProjectionRotZ { get; }](Sandbox.ModAPI.Ingame.IMyProjector.ProjectionRotZ)
+
+> _**Obsolete:** Use ProjectionRotation vector instead._
+
 #### Methods
 
 [void UpdateOffsetAndRotation()](Sandbox.ModAPI.Ingame.IMyProjector.UpdateOffsetAndRotation)
@@ -350,14 +350,6 @@ Describes projector block (PB scripting interface)
 [string GetOwnerFactionTag()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetOwnerFactionTag)
 
 > Tag of faction owning block  
->   
-> _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[MyRelationsBetweenPlayerAndBlock GetPlayerRelationToOwner()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetPlayerRelationToOwner)
-
-> _**Obsolete:** GetPlayerRelationToOwner() is useless ingame. Mods should use the one in ModAPI.IMyCubeBlock_  
->   
-> Relation of local player to the block Should not be called on Dedicated Server.  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
@@ -411,12 +403,6 @@ Describes projector block (PB scripting interface)
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[void RequestEnable(bool enable)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)
-
-> _**Obsolete:** Use the setter of Enabled_  
->   
-> _Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_
-
 [void SearchActionsOfName(string name, List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SearchActionsOfName)
 
 > Get all terminal actions available for block. NOTE: First called `    
@@ -426,6 +412,20 @@ Describes projector block (PB scripting interface)
 > ` check  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
+
+[MyRelationsBetweenPlayerAndBlock GetPlayerRelationToOwner()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetPlayerRelationToOwner)
+
+> _**Obsolete:** GetPlayerRelationToOwner() is useless ingame. Mods should use the one in ModAPI.IMyCubeBlock_  
+>   
+> Relation of local player to the block Should not be called on Dedicated Server.  
+>   
+> _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
+
+[void RequestEnable(bool enable)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)
+
+> _**Obsolete:** Use the setter of Enabled_  
+>   
+> _Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_
 
 [void SetCustomName(string text)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)
 

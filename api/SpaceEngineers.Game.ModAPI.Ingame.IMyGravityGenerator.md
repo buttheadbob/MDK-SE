@@ -21,21 +21,9 @@ public interface IMyGravityGenerator: IMyGravityGeneratorBase, IMyFunctionalBloc
 
 #### Properties
 
-[float FieldDepth { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGenerator.FieldDepth)
-
-> _**Obsolete:** Use FieldSize.Z_
-
-[float FieldHeight { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGenerator.FieldHeight)
-
-> _**Obsolete:** Use FieldSize.Y_
-
 [Vector3 FieldSize { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGenerator.FieldSize)
 
 > Gets or sets the gravity field as a Vector3(W,H,D).
-
-[float FieldWidth { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGenerator.FieldWidth)
-
-> _**Obsolete:** Use FieldSize.X_
 
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
@@ -126,14 +114,6 @@ public interface IMyGravityGenerator: IMyGravityGeneratorBase, IMyFunctionalBloc
 > Id of entity  
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
-
-[float Gravity { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorBase.Gravity)
-
-> _**Obsolete:** Use GravityAcceleration._  
->   
-> Gets the gravity acceleration  
->   
-> _Inherited from [IMyGravityGeneratorBase](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorBase)_
 
 [float GravityAcceleration { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorBase.GravityAcceleration)
 
@@ -273,6 +253,26 @@ public interface IMyGravityGenerator: IMyGravityGeneratorBase, IMyFunctionalBloc
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
+[float FieldDepth { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGenerator.FieldDepth)
+
+> _**Obsolete:** Use FieldSize.Z_
+
+[float FieldHeight { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGenerator.FieldHeight)
+
+> _**Obsolete:** Use FieldSize.Y_
+
+[float FieldWidth { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGenerator.FieldWidth)
+
+> _**Obsolete:** Use FieldSize.X_
+
+[float Gravity { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorBase.Gravity)
+
+> _**Obsolete:** Use GravityAcceleration._  
+>   
+> Gets the gravity acceleration  
+>   
+> _Inherited from [IMyGravityGeneratorBase](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorBase)_
+
 #### Methods
 
 [void GetActions(List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)
@@ -302,14 +302,6 @@ public interface IMyGravityGenerator: IMyGravityGeneratorBase, IMyFunctionalBloc
 [string GetOwnerFactionTag()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetOwnerFactionTag)
 
 > Tag of faction owning block  
->   
-> _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[MyRelationsBetweenPlayerAndBlock GetPlayerRelationToOwner()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetPlayerRelationToOwner)
-
-> _**Obsolete:** GetPlayerRelationToOwner() is useless ingame. Mods should use the one in ModAPI.IMyCubeBlock_  
->   
-> Relation of local player to the block Should not be called on Dedicated Server.  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
@@ -357,12 +349,6 @@ public interface IMyGravityGenerator: IMyGravityGeneratorBase, IMyFunctionalBloc
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[void RequestEnable(bool enable)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)
-
-> _**Obsolete:** Use the setter of Enabled_  
->   
-> _Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_
-
 [void SearchActionsOfName(string name, List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SearchActionsOfName)
 
 > Get all terminal actions available for block. NOTE: First called `    
@@ -372,6 +358,20 @@ public interface IMyGravityGenerator: IMyGravityGeneratorBase, IMyFunctionalBloc
 > ` check  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
+
+[MyRelationsBetweenPlayerAndBlock GetPlayerRelationToOwner()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetPlayerRelationToOwner)
+
+> _**Obsolete:** GetPlayerRelationToOwner() is useless ingame. Mods should use the one in ModAPI.IMyCubeBlock_  
+>   
+> Relation of local player to the block Should not be called on Dedicated Server.  
+>   
+> _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
+
+[void RequestEnable(bool enable)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)
+
+> _**Obsolete:** Use the setter of Enabled_  
+>   
+> _Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_
 
 [void SetCustomName(string text)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)
 

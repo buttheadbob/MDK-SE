@@ -341,14 +341,6 @@ Describes terminal block (PB scripting interface)
 >     
 > ` check
 
-[void SetCustomName(string text)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)
-
-> _**Obsolete:** Use the setter of Customname_
-
-[void SetCustomName(StringBuilder text)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)
-
-> _**Obsolete:** Use the setter of Customname_
-
 [IMyInventory GetInventory()](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)
 
 > Simply get the MyInventoryBase component stored in this entity.  
@@ -367,14 +359,6 @@ Describes terminal block (PB scripting interface)
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[MyRelationsBetweenPlayerAndBlock GetPlayerRelationToOwner()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetPlayerRelationToOwner)
-
-> _**Obsolete:** GetPlayerRelationToOwner() is useless ingame. Mods should use the one in ModAPI.IMyCubeBlock_  
->   
-> Relation of local player to the block Should not be called on Dedicated Server.  
->   
-> _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
 [Vector3D GetPosition()](VRage.Game.ModAPI.Ingame.IMyEntity.GetPosition)
 
 > Gets position in world coordinates  
@@ -384,6 +368,22 @@ Describes terminal block (PB scripting interface)
 [MyRelationsBetweenPlayerAndBlock GetUserRelationToOwner(long playerId, MyRelationsBetweenPlayerAndBlock defaultNoUser = MyRelationsBetweenPlayerAndBlock.NoOwnership)](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetUserRelationToOwner)
 
 > Gets relation to owner of block  
+>   
+> _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
+
+[void SetCustomName(string text)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)
+
+> _**Obsolete:** Use the setter of Customname_
+
+[void SetCustomName(StringBuilder text)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)
+
+> _**Obsolete:** Use the setter of Customname_
+
+[MyRelationsBetweenPlayerAndBlock GetPlayerRelationToOwner()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetPlayerRelationToOwner)
+
+> _**Obsolete:** GetPlayerRelationToOwner() is useless ingame. Mods should use the one in ModAPI.IMyCubeBlock_  
+>   
+> Relation of local player to the block Should not be called on Dedicated Server.  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 

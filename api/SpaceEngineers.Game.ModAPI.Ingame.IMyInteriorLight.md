@@ -36,12 +36,6 @@ public interface IMyInteriorLight: IMyLightingBlock, IMyFunctionalBlock, IMyTerm
 >   
 > _Inherited from [IMyLightingBlock](Sandbox.ModAPI.Ingame.IMyLightingBlock)_
 
-[float BlinkLenght { get; }](Sandbox.ModAPI.Ingame.IMyLightingBlock.BlinkLenght)
-
-> _**Obsolete:** Use BlinkLength instead._  
->   
-> _Inherited from [IMyLightingBlock](Sandbox.ModAPI.Ingame.IMyLightingBlock)_
-
 [float BlinkLength { get; set; }](Sandbox.ModAPI.Ingame.IMyLightingBlock.BlinkLength)
 
 > Gets or sets how much of the blinking interval should be spent with the light on, as a value between 0 and 1.  
@@ -246,12 +240,6 @@ public interface IMyInteriorLight: IMyLightingBlock, IMyFunctionalBlock, IMyTerm
 >   
 > _Inherited from [IMyLightingBlock](Sandbox.ModAPI.Ingame.IMyLightingBlock)_
 
-[float ReflectorRadius { get; }](Sandbox.ModAPI.Ingame.IMyLightingBlock.ReflectorRadius)
-
-> _**Obsolete:** Use Radius_  
->   
-> _Inherited from [IMyLightingBlock](Sandbox.ModAPI.Ingame.IMyLightingBlock)_
-
 [bool ShowInInventory { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)
 
 > Represent terminal gui toggle `Show block in Inventory Screen`. Gets or sets its value  
@@ -306,6 +294,18 @@ public interface IMyInteriorLight: IMyLightingBlock, IMyFunctionalBlock, IMyTerm
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
+[float BlinkLenght { get; }](Sandbox.ModAPI.Ingame.IMyLightingBlock.BlinkLenght)
+
+> _**Obsolete:** Use BlinkLength instead._  
+>   
+> _Inherited from [IMyLightingBlock](Sandbox.ModAPI.Ingame.IMyLightingBlock)_
+
+[float ReflectorRadius { get; }](Sandbox.ModAPI.Ingame.IMyLightingBlock.ReflectorRadius)
+
+> _**Obsolete:** Use Radius_  
+>   
+> _Inherited from [IMyLightingBlock](Sandbox.ModAPI.Ingame.IMyLightingBlock)_
+
 #### Methods
 
 [void GetActions(List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)
@@ -335,14 +335,6 @@ public interface IMyInteriorLight: IMyLightingBlock, IMyFunctionalBlock, IMyTerm
 [string GetOwnerFactionTag()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetOwnerFactionTag)
 
 > Tag of faction owning block  
->   
-> _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[MyRelationsBetweenPlayerAndBlock GetPlayerRelationToOwner()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetPlayerRelationToOwner)
-
-> _**Obsolete:** GetPlayerRelationToOwner() is useless ingame. Mods should use the one in ModAPI.IMyCubeBlock_  
->   
-> Relation of local player to the block Should not be called on Dedicated Server.  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
@@ -390,12 +382,6 @@ public interface IMyInteriorLight: IMyLightingBlock, IMyFunctionalBlock, IMyTerm
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[void RequestEnable(bool enable)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)
-
-> _**Obsolete:** Use the setter of Enabled_  
->   
-> _Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_
-
 [void SearchActionsOfName(string name, List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SearchActionsOfName)
 
 > Get all terminal actions available for block. NOTE: First called `    
@@ -405,6 +391,20 @@ public interface IMyInteriorLight: IMyLightingBlock, IMyFunctionalBlock, IMyTerm
 > ` check  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
+
+[MyRelationsBetweenPlayerAndBlock GetPlayerRelationToOwner()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetPlayerRelationToOwner)
+
+> _**Obsolete:** GetPlayerRelationToOwner() is useless ingame. Mods should use the one in ModAPI.IMyCubeBlock_  
+>   
+> Relation of local player to the block Should not be called on Dedicated Server.  
+>   
+> _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
+
+[void RequestEnable(bool enable)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)
+
+> _**Obsolete:** Use the setter of Enabled_  
+>   
+> _Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_
 
 [void SetCustomName(string text)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)
 

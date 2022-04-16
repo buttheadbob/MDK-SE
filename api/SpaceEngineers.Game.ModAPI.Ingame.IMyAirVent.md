@@ -31,12 +31,6 @@ Describes Air Vent block (PB scripting interface)
 
 > Gets whether this vent is in depressurize state
 
-[bool IsDepressurizing { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyAirVent.IsDepressurizing)
-
-> _**Obsolete:** IsDepressurizing is deprecated, please use Depressurize instead._  
->   
-> Gets whether this vet is depressurizing
-
 [bool PressurizationEnabled { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyAirVent.PressurizationEnabled)
 
 > Gets whether this vent has pressurization enabled.
@@ -267,17 +261,17 @@ Describes Air Vent block (PB scripting interface)
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
+[bool IsDepressurizing { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyAirVent.IsDepressurizing)
+
+> _**Obsolete:** IsDepressurizing is deprecated, please use Depressurize instead._  
+>   
+> Gets whether this vet is depressurizing
+
 #### Methods
 
 [float GetOxygenLevel()](SpaceEngineers.Game.ModAPI.Ingame.IMyAirVent.GetOxygenLevel)
 
 > Gets Oxygen level in room
-
-[bool IsPressurized()](SpaceEngineers.Game.ModAPI.Ingame.IMyAirVent.IsPressurized)
-
-> _**Obsolete:** IsPressurized() is deprecated, please use CanPressurize instead._  
->   
-> Gets whether this vent can be pressurized
 
 [void GetActions(List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)
 
@@ -306,14 +300,6 @@ Describes Air Vent block (PB scripting interface)
 [string GetOwnerFactionTag()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetOwnerFactionTag)
 
 > Tag of faction owning block  
->   
-> _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[MyRelationsBetweenPlayerAndBlock GetPlayerRelationToOwner()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetPlayerRelationToOwner)
-
-> _**Obsolete:** GetPlayerRelationToOwner() is useless ingame. Mods should use the one in ModAPI.IMyCubeBlock_  
->   
-> Relation of local player to the block Should not be called on Dedicated Server.  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
@@ -361,12 +347,6 @@ Describes Air Vent block (PB scripting interface)
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[void RequestEnable(bool enable)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)
-
-> _**Obsolete:** Use the setter of Enabled_  
->   
-> _Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_
-
 [void SearchActionsOfName(string name, List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SearchActionsOfName)
 
 > Get all terminal actions available for block. NOTE: First called `    
@@ -376,6 +356,26 @@ Describes Air Vent block (PB scripting interface)
 > ` check  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
+
+[bool IsPressurized()](SpaceEngineers.Game.ModAPI.Ingame.IMyAirVent.IsPressurized)
+
+> _**Obsolete:** IsPressurized() is deprecated, please use CanPressurize instead._  
+>   
+> Gets whether this vent can be pressurized
+
+[MyRelationsBetweenPlayerAndBlock GetPlayerRelationToOwner()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetPlayerRelationToOwner)
+
+> _**Obsolete:** GetPlayerRelationToOwner() is useless ingame. Mods should use the one in ModAPI.IMyCubeBlock_  
+>   
+> Relation of local player to the block Should not be called on Dedicated Server.  
+>   
+> _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
+
+[void RequestEnable(bool enable)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)
+
+> _**Obsolete:** Use the setter of Enabled_  
+>   
+> _Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_
 
 [void SetCustomName(string text)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)
 

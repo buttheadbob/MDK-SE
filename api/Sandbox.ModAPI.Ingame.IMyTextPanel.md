@@ -41,18 +41,6 @@ Describes LCD block (mods interface)
 
 #### Properties
 
-[ShowTextOnScreenFlag ShowOnScreen { get; }](Sandbox.ModAPI.Ingame.IMyTextPanel.ShowOnScreen)
-
-> _**Obsolete:** LCD public text is deprecated_  
->   
-> Indicates what should be shown on the screen, none being an image.
-
-[bool ShowText { get; }](Sandbox.ModAPI.Ingame.IMyTextPanel.ShowText)
-
-> _**Obsolete:** LCD public text is deprecated_  
->   
-> Returns true if the ShowOnScreen flag is set to either PUBLIC or PRIVATE
-
 [TextAlignment Alignment { get; set; }](Sandbox.ModAPI.Ingame.IMyTextSurface.Alignment)
 
 > How should the text be aligned  
@@ -383,59 +371,23 @@ Describes LCD block (mods interface)
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
+[ShowTextOnScreenFlag ShowOnScreen { get; }](Sandbox.ModAPI.Ingame.IMyTextPanel.ShowOnScreen)
+
+> _**Obsolete:** LCD public text is deprecated_  
+>   
+> Indicates what should be shown on the screen, none being an image.
+
+[bool ShowText { get; }](Sandbox.ModAPI.Ingame.IMyTextPanel.ShowText)
+
+> _**Obsolete:** LCD public text is deprecated_  
+>   
+> Returns true if the ShowOnScreen flag is set to either PUBLIC or PRIVATE
+
 #### Methods
-
-[string GetPrivateText()](Sandbox.ModAPI.Ingame.IMyTextPanel.GetPrivateText)
-
-> _**Obsolete:** LCD private text is deprecated_
-
-[string GetPrivateTitle()](Sandbox.ModAPI.Ingame.IMyTextPanel.GetPrivateTitle)
-
-> _**Obsolete:** LCD private text is deprecated_
-
-[string GetPublicText()](Sandbox.ModAPI.Ingame.IMyTextPanel.GetPublicText)
-
-> _**Obsolete:** LCD public text is deprecated_
 
 [string GetPublicTitle()](Sandbox.ModAPI.Ingame.IMyTextPanel.GetPublicTitle)
 
 > Gets popup dialog title
-
-[void ReadPublicText(StringBuilder buffer, bool append = default)](Sandbox.ModAPI.Ingame.IMyTextPanel.ReadPublicText)
-
-> _**Obsolete:** LCD public text is deprecated_
-
-[void SetShowOnScreen(ShowTextOnScreenFlag set)](Sandbox.ModAPI.Ingame.IMyTextPanel.SetShowOnScreen)
-
-> _**Obsolete:** LCD public text is deprecated_
-
-[void ShowPrivateTextOnScreen()](Sandbox.ModAPI.Ingame.IMyTextPanel.ShowPrivateTextOnScreen)
-
-> _**Obsolete:** LCD private text is deprecated_
-
-[void ShowPublicTextOnScreen()](Sandbox.ModAPI.Ingame.IMyTextPanel.ShowPublicTextOnScreen)
-
-> _**Obsolete:** LCD public text is deprecated_
-
-[void ShowTextureOnScreen()](Sandbox.ModAPI.Ingame.IMyTextPanel.ShowTextureOnScreen)
-
-> _**Obsolete:** LCD public text is deprecated_
-
-[bool WritePrivateText(string value, bool append = default)](Sandbox.ModAPI.Ingame.IMyTextPanel.WritePrivateText)
-
-> _**Obsolete:** LCD private text is deprecated_
-
-[bool WritePrivateTitle(string value, bool append = default)](Sandbox.ModAPI.Ingame.IMyTextPanel.WritePrivateTitle)
-
-> _**Obsolete:** LCD private text is deprecated_
-
-[bool WritePublicText(string value, bool append = default)](Sandbox.ModAPI.Ingame.IMyTextPanel.WritePublicText)
-
-> _**Obsolete:** LCD public text is deprecated_
-
-[bool WritePublicText(StringBuilder value, bool append = default)](Sandbox.ModAPI.Ingame.IMyTextPanel.WritePublicText)
-
-> _**Obsolete:** LCD public text is deprecated_
 
 [bool WritePublicTitle(string value, bool append = default)](Sandbox.ModAPI.Ingame.IMyTextPanel.WritePublicTitle)
 
@@ -498,14 +450,6 @@ Describes LCD block (mods interface)
 [string GetOwnerFactionTag()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetOwnerFactionTag)
 
 > Tag of faction owning block  
->   
-> _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[MyRelationsBetweenPlayerAndBlock GetPlayerRelationToOwner()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetPlayerRelationToOwner)
-
-> _**Obsolete:** GetPlayerRelationToOwner() is useless ingame. Mods should use the one in ModAPI.IMyCubeBlock_  
->   
-> Relation of local player to the block Should not be called on Dedicated Server.  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
@@ -601,12 +545,6 @@ Describes LCD block (mods interface)
 >   
 > _Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_
 
-[void RequestEnable(bool enable)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)
-
-> _**Obsolete:** Use the setter of Enabled_  
->   
-> _Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_
-
 [void SearchActionsOfName(string name, List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SearchActionsOfName)
 
 > Get all terminal actions available for block. NOTE: First called `    
@@ -616,6 +554,80 @@ Describes LCD block (mods interface)
 > ` check  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
+
+[bool WriteText(string value, bool append = default)](Sandbox.ModAPI.Ingame.IMyTextSurface.WriteText)
+
+> Writes text to surface. If somebody opened LCD text in popup dialog, text can no longer be added to the surface. Resulting text must is capped with 100000 symbols  
+>   
+> _Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_
+
+[bool WriteText(StringBuilder value, bool append = default)](Sandbox.ModAPI.Ingame.IMyTextSurface.WriteText)
+
+> Writes text to surface. If somebody opened LCD text in popup dialog, text can no longer be added to the surface. Resulting text must is capped with 100000 symbols  
+>   
+> _Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_
+
+[string GetPrivateText()](Sandbox.ModAPI.Ingame.IMyTextPanel.GetPrivateText)
+
+> _**Obsolete:** LCD private text is deprecated_
+
+[string GetPrivateTitle()](Sandbox.ModAPI.Ingame.IMyTextPanel.GetPrivateTitle)
+
+> _**Obsolete:** LCD private text is deprecated_
+
+[string GetPublicText()](Sandbox.ModAPI.Ingame.IMyTextPanel.GetPublicText)
+
+> _**Obsolete:** LCD public text is deprecated_
+
+[void ReadPublicText(StringBuilder buffer, bool append = default)](Sandbox.ModAPI.Ingame.IMyTextPanel.ReadPublicText)
+
+> _**Obsolete:** LCD public text is deprecated_
+
+[void SetShowOnScreen(ShowTextOnScreenFlag set)](Sandbox.ModAPI.Ingame.IMyTextPanel.SetShowOnScreen)
+
+> _**Obsolete:** LCD public text is deprecated_
+
+[void ShowPrivateTextOnScreen()](Sandbox.ModAPI.Ingame.IMyTextPanel.ShowPrivateTextOnScreen)
+
+> _**Obsolete:** LCD private text is deprecated_
+
+[void ShowPublicTextOnScreen()](Sandbox.ModAPI.Ingame.IMyTextPanel.ShowPublicTextOnScreen)
+
+> _**Obsolete:** LCD public text is deprecated_
+
+[void ShowTextureOnScreen()](Sandbox.ModAPI.Ingame.IMyTextPanel.ShowTextureOnScreen)
+
+> _**Obsolete:** LCD public text is deprecated_
+
+[bool WritePrivateText(string value, bool append = default)](Sandbox.ModAPI.Ingame.IMyTextPanel.WritePrivateText)
+
+> _**Obsolete:** LCD private text is deprecated_
+
+[bool WritePrivateTitle(string value, bool append = default)](Sandbox.ModAPI.Ingame.IMyTextPanel.WritePrivateTitle)
+
+> _**Obsolete:** LCD private text is deprecated_
+
+[bool WritePublicText(string value, bool append = default)](Sandbox.ModAPI.Ingame.IMyTextPanel.WritePublicText)
+
+> _**Obsolete:** LCD public text is deprecated_
+
+[bool WritePublicText(StringBuilder value, bool append = default)](Sandbox.ModAPI.Ingame.IMyTextPanel.WritePublicText)
+
+> _**Obsolete:** LCD public text is deprecated_
+
+[MyRelationsBetweenPlayerAndBlock GetPlayerRelationToOwner()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetPlayerRelationToOwner)
+
+> _**Obsolete:** GetPlayerRelationToOwner() is useless ingame. Mods should use the one in ModAPI.IMyCubeBlock_  
+>   
+> Relation of local player to the block Should not be called on Dedicated Server.  
+>   
+> _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
+
+[void RequestEnable(bool enable)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)
+
+> _**Obsolete:** Use the setter of Enabled_  
+>   
+> _Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_
 
 [void SetCustomName(string text)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)
 
@@ -644,16 +656,4 @@ Describes LCD block (mods interface)
 > Updates block visuals (ie. block emissivity)  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[bool WriteText(string value, bool append = default)](Sandbox.ModAPI.Ingame.IMyTextSurface.WriteText)
-
-> Writes text to surface. If somebody opened LCD text in popup dialog, text can no longer be added to the surface. Resulting text must is capped with 100000 symbols  
->   
-> _Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_
-
-[bool WriteText(StringBuilder value, bool append = default)](Sandbox.ModAPI.Ingame.IMyTextSurface.WriteText)
-
-> Writes text to surface. If somebody opened LCD text in popup dialog, text can no longer be added to the surface. Resulting text must is capped with 100000 symbols  
->   
-> _Inherited from [IMyTextSurface](Sandbox.ModAPI.Ingame.IMyTextSurface)_
 

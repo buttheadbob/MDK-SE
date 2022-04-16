@@ -45,10 +45,6 @@ Terminal block extension for property access
 
 > 
 
-[static T GetMininum&lt;T&gt;(this IMyTerminalBlock block, string propertyId)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.GetMininum)
-
-> _**Obsolete:** Use GetMinimum instead_
-
 [static T GetValue&lt;T&gt;(this IMyTerminalBlock block, string propertyId)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.GetValue)
 
 > 
@@ -84,4 +80,8 @@ Terminal block extension for property access
 [static void SetValueFloat(this IMyTerminalBlock block, string propertyId, float value)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.SetValueFloat)
 
 > Set float value of property
+
+[static T GetMininum&lt;T&gt;(this IMyTerminalBlock block, string propertyId)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.GetMininum)
+
+> _**Obsolete:** Use GetMinimum instead_
 

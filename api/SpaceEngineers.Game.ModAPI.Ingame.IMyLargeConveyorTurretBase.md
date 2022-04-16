@@ -395,14 +395,6 @@ public interface IMyLargeConveyorTurretBase: IMyLargeTurretBase, IMyUserControll
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[MyRelationsBetweenPlayerAndBlock GetPlayerRelationToOwner()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetPlayerRelationToOwner)
-
-> _**Obsolete:** GetPlayerRelationToOwner() is useless ingame. Mods should use the one in ModAPI.IMyCubeBlock_  
->   
-> Relation of local player to the block Should not be called on Dedicated Server.  
->   
-> _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
 [Vector3D GetPosition()](VRage.Game.ModAPI.Ingame.IMyEntity.GetPosition)
 
 > Gets position in world coordinates  
@@ -465,12 +457,6 @@ public interface IMyLargeConveyorTurretBase: IMyLargeTurretBase, IMyUserControll
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[void RequestEnable(bool enable)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)
-
-> _**Obsolete:** Use the setter of Enabled_  
->   
-> _Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_
-
 [void ResetTargetingToDefault()](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.ResetTargetingToDefault)
 
 > Resets targeting to default values  
@@ -484,18 +470,6 @@ public interface IMyLargeConveyorTurretBase: IMyLargeTurretBase, IMyUserControll
 > ` and then `    
 >     
 > ` check  
->   
-> _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[void SetCustomName(string text)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)
-
-> _**Obsolete:** Use the setter of Customname_  
->   
-> _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[void SetCustomName(StringBuilder text)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)
-
-> _**Obsolete:** Use the setter of Customname_  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
@@ -546,6 +520,32 @@ public interface IMyLargeConveyorTurretBase: IMyLargeTurretBase, IMyUserControll
 > Tracks given target with enabled position prediction  
 >   
 > _Inherited from [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)_
+
+[MyRelationsBetweenPlayerAndBlock GetPlayerRelationToOwner()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetPlayerRelationToOwner)
+
+> _**Obsolete:** GetPlayerRelationToOwner() is useless ingame. Mods should use the one in ModAPI.IMyCubeBlock_  
+>   
+> Relation of local player to the block Should not be called on Dedicated Server.  
+>   
+> _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
+
+[void RequestEnable(bool enable)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)
+
+> _**Obsolete:** Use the setter of Enabled_  
+>   
+> _Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_
+
+[void SetCustomName(string text)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)
+
+> _**Obsolete:** Use the setter of Customname_  
+>   
+> _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
+
+[void SetCustomName(StringBuilder text)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)
+
+> _**Obsolete:** Use the setter of Customname_  
+>   
+> _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
 [void UpdateIsWorking()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.UpdateIsWorking)
 

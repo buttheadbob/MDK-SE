@@ -167,14 +167,6 @@ Describes advanced motor stator (PB scripting interface)
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[bool IsLocked { get; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.IsLocked)
-
-> _**Obsolete:** SafetyLock is no longer supported. This is property dummy property only, for backwards compatibility._  
->   
-> Gets if the block is safety locked (welded)  
->   
-> _Inherited from [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)_
-
 [bool IsWorking { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.IsWorking)
 
 > True if block is able to do its work depening on block type (is functional, powered, enabled, etc...)  
@@ -252,22 +244,6 @@ Describes advanced motor stator (PB scripting interface)
 > Gets or sets rotor lock  
 >   
 > _Inherited from [IMyMotorStator](Sandbox.ModAPI.Ingame.IMyMotorStator)_
-
-[bool SafetyLock { get; set; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.SafetyLock)
-
-> _**Obsolete:** SafetyLock is no longer supported. This is property dummy property only, for backwards compatibility._  
->   
-> Gets if the block is safety locked (welded)  
->   
-> _Inherited from [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)_
-
-[float SafetyLockSpeed { get; set; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.SafetyLockSpeed)
-
-> _**Obsolete:** SafetyLock is no longer supported. This is property dummy property only, for backwards compatibility._  
->   
-> Gets or sets the speed at which this device will engage it's safety lock ( [IsLocked](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.IsLocked) ).  
->   
-> _Inherited from [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)_
 
 [bool ShowInInventory { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)
 
@@ -365,6 +341,30 @@ Describes advanced motor stator (PB scripting interface)
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
+[bool IsLocked { get; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.IsLocked)
+
+> _**Obsolete:** SafetyLock is no longer supported. This is property dummy property only, for backwards compatibility._  
+>   
+> Gets if the block is safety locked (welded)  
+>   
+> _Inherited from [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)_
+
+[bool SafetyLock { get; set; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.SafetyLock)
+
+> _**Obsolete:** SafetyLock is no longer supported. This is property dummy property only, for backwards compatibility._  
+>   
+> Gets if the block is safety locked (welded)  
+>   
+> _Inherited from [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)_
+
+[float SafetyLockSpeed { get; set; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.SafetyLockSpeed)
+
+> _**Obsolete:** SafetyLock is no longer supported. This is property dummy property only, for backwards compatibility._  
+>   
+> Gets or sets the speed at which this device will engage it's safety lock ( [IsLocked](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.IsLocked) ).  
+>   
+> _Inherited from [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)_
+
 #### Methods
 
 [void Attach()](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.Attach)
@@ -406,14 +406,6 @@ Describes advanced motor stator (PB scripting interface)
 [string GetOwnerFactionTag()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetOwnerFactionTag)
 
 > Tag of faction owning block  
->   
-> _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[MyRelationsBetweenPlayerAndBlock GetPlayerRelationToOwner()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetPlayerRelationToOwner)
-
-> _**Obsolete:** GetPlayerRelationToOwner() is useless ingame. Mods should use the one in ModAPI.IMyCubeBlock_  
->   
-> Relation of local player to the block Should not be called on Dedicated Server.  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
@@ -461,12 +453,6 @@ Describes advanced motor stator (PB scripting interface)
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[void RequestEnable(bool enable)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)
-
-> _**Obsolete:** Use the setter of Enabled_  
->   
-> _Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_
-
 [void SearchActionsOfName(string name, List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SearchActionsOfName)
 
 > Get all terminal actions available for block. NOTE: First called `    
@@ -476,6 +462,20 @@ Describes advanced motor stator (PB scripting interface)
 > ` check  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
+
+[MyRelationsBetweenPlayerAndBlock GetPlayerRelationToOwner()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetPlayerRelationToOwner)
+
+> _**Obsolete:** GetPlayerRelationToOwner() is useless ingame. Mods should use the one in ModAPI.IMyCubeBlock_  
+>   
+> Relation of local player to the block Should not be called on Dedicated Server.  
+>   
+> _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
+
+[void RequestEnable(bool enable)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)
+
+> _**Obsolete:** Use the setter of Enabled_  
+>   
+> _Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_
 
 [void SetCustomName(string text)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)
 

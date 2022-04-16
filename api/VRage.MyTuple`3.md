@@ -13,13 +13,13 @@ public struct MyTuple<T1, T2, T3>
 
 |Member|Description|
 |---|---|
-|\\[T1 Item1](VRage.MyTuple`3.Item1)||
-|\\[T2 Item2](VRage.MyTuple`3.Item2)||
-|\\[T3 Item3](VRage.MyTuple`3.Item3)||
+|\[T1 Item1](VRage.MyTuple`3.Item1)||
+|\[T2 Item2](VRage.MyTuple`3.Item2)||
+|\[T3 Item3](VRage.MyTuple`3.Item3)||
 
 #### Constructors
 
 |Member|Description|
 |---|---|
-|\\[MyTuple(T1, T2, T3)](VRage.MyTuple`3..ctor)||
+|\[MyTuple(T1, T2, T3)](VRage.MyTuple`3..ctor)||
 

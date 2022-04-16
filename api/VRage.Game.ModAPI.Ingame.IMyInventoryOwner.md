@@ -15,14 +15,14 @@ Describes interface of object that has inventory (PB scripting interface)
 
 |Member|Description|
 |---|---|
-|\\[long EntityId { get; }](VRage.Game.ModAPI.Ingame.IMyInventoryOwner.EntityId)|Gets EntityId, which it belongs to|
-|\\[bool HasInventory { get; }](VRage.Game.ModAPI.Ingame.IMyInventoryOwner.HasInventory)|Gets whether has inventory|
-|\\[int InventoryCount { get; }](VRage.Game.ModAPI.Ingame.IMyInventoryOwner.InventoryCount)|Gets amount of inventories|
-|\\[bool UseConveyorSystem { get; set; }](VRage.Game.ModAPI.Ingame.IMyInventoryOwner.UseConveyorSystem)|Gets or sets if that inventory can interact with|
+|\[long EntityId { get; }](VRage.Game.ModAPI.Ingame.IMyInventoryOwner.EntityId)|Gets EntityId, which it belongs to|
+|\[bool HasInventory { get; }](VRage.Game.ModAPI.Ingame.IMyInventoryOwner.HasInventory)|Gets whether has inventory|
+|\[int InventoryCount { get; }](VRage.Game.ModAPI.Ingame.IMyInventoryOwner.InventoryCount)|Gets amount of inventories|
+|\[bool UseConveyorSystem { get; set; }](VRage.Game.ModAPI.Ingame.IMyInventoryOwner.UseConveyorSystem)|Gets or sets if that inventory can interact with|
 
 #### Methods
 
 |Member|Description|
 |---|---|
-|\\[IMyInventory GetInventory(int)](VRage.Game.ModAPI.Ingame.IMyInventoryOwner.GetInventory)|Gets inventory by index|
+|\[IMyInventory GetInventory(int)](VRage.Game.ModAPI.Ingame.IMyInventoryOwner.GetInventory)|Gets inventory by index|
 

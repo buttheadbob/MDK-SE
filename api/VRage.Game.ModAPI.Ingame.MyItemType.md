@@ -19,29 +19,29 @@ Use by [MyInventoryItem](VRage.Game.ModAPI.Ingame.MyInventoryItem)
 
 |Member|Description|
 |---|---|
-|\\[string SubtypeId { get; }](VRage.Game.ModAPI.Ingame.MyItemType.SubtypeId)|Gets Subtype of Item|
-|\\[string TypeId { get; }](VRage.Game.ModAPI.Ingame.MyItemType.TypeId)|Gets TypeId of Item|
+|\[string SubtypeId { get; }](VRage.Game.ModAPI.Ingame.MyItemType.SubtypeId)|Gets Subtype of Item|
+|\[string TypeId { get; }](VRage.Game.ModAPI.Ingame.MyItemType.TypeId)|Gets TypeId of Item|
 
 #### Constructors
 
 |Member|Description|
 |---|---|
-|\\[MyItemType(string, string)](VRage.Game.ModAPI.Ingame.MyItemType..ctor)||
-|\\[MyItemType(MyObjectBuilderType, MyStringHash)](VRage.Game.ModAPI.Ingame.MyItemType..ctor)||
+|\[MyItemType(string, string)](VRage.Game.ModAPI.Ingame.MyItemType..ctor)||
+|\[MyItemType(MyObjectBuilderType, MyStringHash)](VRage.Game.ModAPI.Ingame.MyItemType..ctor)||
 
 #### Methods
 
 |Member|Description|
 |---|---|
-|\\[static MyItemType MakeAmmo(string)](VRage.Game.ModAPI.Ingame.MyItemType.MakeAmmo)||
-|\\[static MyItemType MakeComponent(string)](VRage.Game.ModAPI.Ingame.MyItemType.MakeComponent)||
-|\\[static MyItemType MakeIngot(string)](VRage.Game.ModAPI.Ingame.MyItemType.MakeIngot)||
-|\\[static MyItemType MakeOre(string)](VRage.Game.ModAPI.Ingame.MyItemType.MakeOre)||
-|\\[static MyItemType MakeTool(string)](VRage.Game.ModAPI.Ingame.MyItemType.MakeTool)||
-|\\[static MyItemType Parse(string)](VRage.Game.ModAPI.Ingame.MyItemType.Parse)||
-|\\[int CompareTo(MyItemType)](VRage.Game.ModAPI.Ingame.MyItemType.CompareTo)||
-|\\[bool Equals(MyItemType)](VRage.Game.ModAPI.Ingame.MyItemType.Equals)||
-|\\[bool Equals(object)](VRage.Game.ModAPI.Ingame.MyItemType.Equals)||
-|\\[int GetHashCode()](VRage.Game.ModAPI.Ingame.MyItemType.GetHashCode)||
-|\\[string ToString()](VRage.Game.ModAPI.Ingame.MyItemType.ToString)||
+|\[static MyItemType MakeAmmo(string)](VRage.Game.ModAPI.Ingame.MyItemType.MakeAmmo)||
+|\[static MyItemType MakeComponent(string)](VRage.Game.ModAPI.Ingame.MyItemType.MakeComponent)||
+|\[static MyItemType MakeIngot(string)](VRage.Game.ModAPI.Ingame.MyItemType.MakeIngot)||
+|\[static MyItemType MakeOre(string)](VRage.Game.ModAPI.Ingame.MyItemType.MakeOre)||
+|\[static MyItemType MakeTool(string)](VRage.Game.ModAPI.Ingame.MyItemType.MakeTool)||
+|\[static MyItemType Parse(string)](VRage.Game.ModAPI.Ingame.MyItemType.Parse)||
+|\[int CompareTo(MyItemType)](VRage.Game.ModAPI.Ingame.MyItemType.CompareTo)||
+|\[bool Equals(MyItemType)](VRage.Game.ModAPI.Ingame.MyItemType.Equals)||
+|\[bool Equals(object)](VRage.Game.ModAPI.Ingame.MyItemType.Equals)||
+|\[int GetHashCode()](VRage.Game.ModAPI.Ingame.MyItemType.GetHashCode)||
+|\[string ToString()](VRage.Game.ModAPI.Ingame.MyItemType.ToString)||
 

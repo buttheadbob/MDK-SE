@@ -16,12 +16,12 @@ public class MyTupleComparer<T1, T2, T3>: IEqualityComparer<MyTuple<T1, T2, T3>>
 
 |Member|Description|
 |---|---|
-|\\[MyTupleComparer()](VRage.MyTupleComparer`3..ctor)||
+|\[MyTupleComparer()](VRage.MyTupleComparer`3..ctor)||
 
 #### Methods
 
 |Member|Description|
 |---|---|
-|\\[bool Equals(MyTuple\\<T1, T2, T3>, MyTuple\\<T1, T2, T3>)](VRage.MyTupleComparer`3.Equals)||
-|\\[int GetHashCode(MyTuple\\<T1, T2, T3>)](VRage.MyTupleComparer`3.GetHashCode)||
+|\[bool Equals(MyTuple\<T1, T2, T3>, MyTuple\<T1, T2, T3>)](VRage.MyTupleComparer`3.Equals)||
+|\[int GetHashCode(MyTuple\<T1, T2, T3>)](VRage.MyTupleComparer`3.GetHashCode)||
 

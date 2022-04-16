@@ -10,4 +10,4 @@ Gets list of upgrades from this block, see [VRage.Game.ObjectBuilders.Definition
 
 ### Parameters
 
-* [List<MyUpgradeModuleInfo>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) upgrades
+* [List\<MyUpgradeModuleInfo>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) upgrades

@@ -10,5 +10,5 @@ Retrieves list of all active broadcast listeners and listeners with pending mess
 
 ### Parameters
 
-* [List<IMyBroadcastListener>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) broadcastListeners
-* [Func<IMyBroadcastListener, bool>](https://docs.microsoft.com/en-us/dotnet/api/System.Func-2?view=netframework-4.6) collect
+* [List\<IMyBroadcastListener>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) broadcastListeners
+* [Func\<IMyBroadcastListener, bool>](https://docs.microsoft.com/en-us/dotnet/api/System.Func-2?view=netframework-4.6) collect

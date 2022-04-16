@@ -14,4 +14,4 @@ Creates the smallest BoundingBox2D that will contain a group of points.
 
 ### Parameters
 
-* [IEnumerable<Vector2D>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netframework-4.6) points
+* [IEnumerable\<Vector2D>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netframework-4.6) points

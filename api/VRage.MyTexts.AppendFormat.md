@@ -29,7 +29,7 @@ public static StringBuilder AppendFormat(this StringBuilder stringBuilder, MySt
 
 * [StringBuilder](https://docs.microsoft.com/en-us/dotnet/api/System.Text.StringBuilder?view=netframework-4.6) stringBuilder
 * [MyStringId](VRage.Utils.MyStringId) textEnum
-* [Object[]](https://docs.microsoft.com/en-us/dotnet/api/System.Object[]?view=netframework-4.6) arg
+* [Object\[]](https://docs.microsoft.com/en-us/dotnet/api/System.Object[]?view=netframework-4.6) arg
 ### Summary
 
 ```csharp

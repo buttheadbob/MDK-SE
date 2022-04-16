@@ -12,7 +12,7 @@ public static V GetValueOrDefault<K, V>(this Dictionary<K, V> dictionary, K key
 
 ### Parameters
 
-* [Dictionary<K, V>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netframework-4.6) dictionary
+* [Dictionary\<K, V>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netframework-4.6) dictionary
 * [K]() key
 ### Summary
 
@@ -26,7 +26,7 @@ public static V GetValueOrDefault<K, V>(this Dictionary<K, V> dictionary, K key
 
 ### Parameters
 
-* [Dictionary<K, V>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netframework-4.6) dictionary
+* [Dictionary\<K, V>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netframework-4.6) dictionary
 * [K]() key
 * [V]() defaultValue
 ### Summary
@@ -41,6 +41,6 @@ public static V GetValueOrDefault<K, V>(this ConcurrentDictionary<K, V> diction
 
 ### Parameters
 
-* [ConcurrentDictionary<K, V>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Concurrent.ConcurrentDictionary-2?view=netframework-4.6) dictionary
+* [ConcurrentDictionary\<K, V>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Concurrent.ConcurrentDictionary-2?view=netframework-4.6) dictionary
 * [K]() key
 * [V]() defaultValue

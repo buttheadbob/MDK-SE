@@ -13,18 +13,18 @@ public class MyCuboidSide
 
 |Member|Description|
 |---|---|
-|\[Line\[] Lines](VRageMath.MyCuboidSide.Lines)||
-|\[Plane Plane](VRageMath.MyCuboidSide.Plane)||
+|[Line\[] Lines](VRageMath.MyCuboidSide.Lines)||
+|[Plane Plane](VRageMath.MyCuboidSide.Plane)||
 
 #### Constructors
 
 |Member|Description|
 |---|---|
-|\[MyCuboidSide()](VRageMath.MyCuboidSide..ctor)||
+|[MyCuboidSide()](VRageMath.MyCuboidSide..ctor)||
 
 #### Methods
 
 |Member|Description|
 |---|---|
-|\[void CreatePlaneFromLines()](VRageMath.MyCuboidSide.CreatePlaneFromLines)||
+|[void CreatePlaneFromLines()](VRageMath.MyCuboidSide.CreatePlaneFromLines)||
 

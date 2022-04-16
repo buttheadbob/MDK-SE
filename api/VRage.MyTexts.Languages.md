@@ -8,5 +8,5 @@ public static DictionaryReader<MyLanguagesEnum, MyLanguageDescription> Languages
 
 ### Returns
 
-[DictionaryReader<MyLanguagesEnum, MyLanguageDescription>](VRage.Collections.DictionaryReader`2[[VRage.MyLanguagesEnum, VRage, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[VRage.MyTexts+MyLanguageDescription, VRage, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]])
+[DictionaryReader\<MyLanguagesEnum, MyLanguageDescription>](VRage.Collections.DictionaryReader`2[[VRage.MyLanguagesEnum, VRage, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[VRage.MyTexts+MyLanguageDescription, VRage, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]])
 

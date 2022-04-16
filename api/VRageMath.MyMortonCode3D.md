@@ -13,6 +13,6 @@ public abstract sealed class MyMortonCode3D
 
 |Member|Description|
 |---|---|
-|\[static void Decode(int, out Vector3I)](VRageMath.MyMortonCode3D.Decode)||
-|\[static int Encode(ref Vector3I)](VRageMath.MyMortonCode3D.Encode)||
+|[static void Decode(int, out Vector3I)](VRageMath.MyMortonCode3D.Decode)||
+|[static int Encode(ref Vector3I)](VRageMath.MyMortonCode3D.Encode)||
 

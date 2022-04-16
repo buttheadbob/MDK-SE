@@ -10,7 +10,7 @@ Gets an array of points that make up the corners of the BoundingBox2I.
 
 ### Returns
 
-[Vector2I[]](VRageMath.Vector2I[])
+[Vector2I\[]](VRageMath.Vector2I[])
 
 ### Summary
 
@@ -22,4 +22,4 @@ Gets the array of points that make up the corners of the BoundingBox2I.
 
 ### Parameters
 
-* [Vector2I[]](VRageMath.Vector2I[]) corners
+* [Vector2I\[]](VRageMath.Vector2I[]) corners

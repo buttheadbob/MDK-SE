@@ -12,9 +12,9 @@ public static int BinaryIntervalSearch<T>(this IList<T> self, T value, [ICompar
 
 ### Parameters
 
-* [IList<T>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1?view=netframework-4.6) self
+* [IList\<T>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1?view=netframework-4.6) self
 * [T]() value
-* [IComparer<T>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IComparer-1?view=netframework-4.6) comparer
+* [IComparer\<T>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IComparer-1?view=netframework-4.6) comparer
 ### Summary
 
 ```csharp
@@ -27,8 +27,8 @@ public static int BinaryIntervalSearch<T>(this IList<T> self, Func<T, bool> les
 
 ### Parameters
 
-* [IList<T>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1?view=netframework-4.6) self
-* [Func<T, bool>](https://docs.microsoft.com/en-us/dotnet/api/System.Func-2?view=netframework-4.6) less
+* [IList\<T>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1?view=netframework-4.6) self
+* [Func\<T, bool>](https://docs.microsoft.com/en-us/dotnet/api/System.Func-2?view=netframework-4.6) less
 ### Summary
 
 ```csharp
@@ -41,6 +41,6 @@ public static int BinaryIntervalSearch<T>(this IList<T> self, T value, Comparis
 
 ### Parameters
 
-* [IList<T>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1?view=netframework-4.6) self
+* [IList\<T>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1?view=netframework-4.6) self
 * [T]() value
-* [Comparison<T>](https://docs.microsoft.com/en-us/dotnet/api/System.Comparison-1?view=netframework-4.6) comparison
+* [Comparison\<T>](https://docs.microsoft.com/en-us/dotnet/api/System.Comparison-1?view=netframework-4.6) comparison

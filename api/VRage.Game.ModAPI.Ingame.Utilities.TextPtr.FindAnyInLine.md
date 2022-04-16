@@ -16,4 +16,4 @@ Finds one of the given characters within the current line
 
 ### Parameters
 
-* [Char[]](https://docs.microsoft.com/en-us/dotnet/api/System.Char[]?view=netframework-4.6) chs
+* [Char\[]](https://docs.microsoft.com/en-us/dotnet/api/System.Char[]?view=netframework-4.6) chs

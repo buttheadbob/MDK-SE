@@ -11,4 +11,4 @@ Changes the sorter to desired mode and filters the provided items. You can pass 
 ### Parameters
 
 * [MyConveyorSorterMode](Sandbox.ModAPI.Ingame.MyConveyorSorterMode) mode
-* [List<MyInventoryItemFilter>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) items
+* [List\<MyInventoryItemFilter>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) items

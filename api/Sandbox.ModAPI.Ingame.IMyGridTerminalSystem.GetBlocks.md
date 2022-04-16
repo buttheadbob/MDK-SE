@@ -10,4 +10,4 @@ Fills the provided list with all the blocks reachable by this grid terminal syst
 
 ### Parameters
 
-* [List<IMyTerminalBlock>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) blocks
+* [List\<IMyTerminalBlock>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) blocks

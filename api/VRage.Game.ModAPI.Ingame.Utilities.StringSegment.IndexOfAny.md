@@ -16,4 +16,4 @@ Reports the zero-based index of the first occurence of one of the provided chara
 
 ### Parameters
 
-* [Char[]](https://docs.microsoft.com/en-us/dotnet/api/System.Char[]?view=netframework-4.6) chars
+* [Char\[]](https://docs.microsoft.com/en-us/dotnet/api/System.Char[]?view=netframework-4.6) chars

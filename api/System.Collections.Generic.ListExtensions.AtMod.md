@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static T AtMod<T>(this List list, int index)
+public static T AtMod<T>(this List<T> list, int index)
 ```
 
 ### Returns
@@ -17,7 +17,7 @@ public static T AtMod<T>(this List list, int index)
 ### Summary
 
 ```csharp
-public static T AtMod<T>(this ListReader list, int index)
+public static T AtMod<T>(this ListReader<T> list, int index)
 ```
 
 ### Returns

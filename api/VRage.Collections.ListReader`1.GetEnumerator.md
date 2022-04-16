@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Enumerator GetEnumerator()
+public Enumerator<T> GetEnumerator()
 ```
 
 ### Returns

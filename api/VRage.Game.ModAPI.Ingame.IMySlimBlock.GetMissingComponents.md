@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetMissingComponents(Dictionary addToDictionary)
+public void GetMissingComponents(Dictionary<System.String, System.Int32> addToDictionary)
 ```
 
 Gets the list of missing components for this block

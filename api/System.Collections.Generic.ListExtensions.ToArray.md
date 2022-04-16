@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static O[] ToArray<I, O>(this IList collection, Func selector)
+public static O[] ToArray<I, O>(this IList<I> collection, Func<I, O> selector)
 ```
 
 ### Returns

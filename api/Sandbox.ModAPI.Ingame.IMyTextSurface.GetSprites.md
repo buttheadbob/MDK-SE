@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetSprites(List sprites)
+public void GetSprites(List<System.String> sprites)
 ```
 
 Gets a list of available sprites

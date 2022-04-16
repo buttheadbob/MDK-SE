@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetBlocks(List blocks, [Func collect])
+public void GetBlocks(List<Sandbox.ModAPI.Ingame.IMyTerminalBlock> blocks, [Func<Sandbox.ModAPI.Ingame.IMyTerminalBlock, System.Boolean> collect])
 ```
 
 Get terminal blocks which assigned to this group

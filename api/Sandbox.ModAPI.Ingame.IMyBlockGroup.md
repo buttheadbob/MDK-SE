@@ -21,7 +21,7 @@ Describes terminal block group (PB scripting interface)
 
 |Member|Description|
 |---|---|
-|[void GetBlocks(List, [Func])](Sandbox.ModAPI.Ingame.IMyBlockGroup.GetBlocks)|Get terminal blocks which assigned to this group|
-|[void GetBlocksOfType(List, [Func])](Sandbox.ModAPI.Ingame.IMyBlockGroup.GetBlocksOfType)||
-|[void GetBlocksOfType(List, [Func])](Sandbox.ModAPI.Ingame.IMyBlockGroup.GetBlocksOfType)||
+|[void GetBlocks(List<Sandbox.ModAPI.Ingame.IMyTerminalBlock>, [Func<Sandbox.ModAPI.Ingame.IMyTerminalBlock, System.Boolean>])](Sandbox.ModAPI.Ingame.IMyBlockGroup.GetBlocks)|Get terminal blocks which assigned to this group|
+|[void GetBlocksOfType(List<Sandbox.ModAPI.Ingame.IMyTerminalBlock>, [Func<Sandbox.ModAPI.Ingame.IMyTerminalBlock, System.Boolean>])](Sandbox.ModAPI.Ingame.IMyBlockGroup.GetBlocksOfType)||
+|[void GetBlocksOfType(List<T>, [Func<T, System.Boolean>])](Sandbox.ModAPI.Ingame.IMyBlockGroup.GetBlocksOfType)||
 

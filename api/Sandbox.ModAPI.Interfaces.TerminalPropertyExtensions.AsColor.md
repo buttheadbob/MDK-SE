@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static ITerminalProperty AsColor(this ITerminalProperty property)
+public static ITerminalProperty<VRageMath.Color> AsColor(this ITerminalProperty property)
 ```
 
 Property type cast

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void OverlapSizeableClusters(ref BoundingBox bbox, List boundList, double minSize)
+public void OverlapSizeableClusters(ref BoundingBox bbox, List<VRageMath.BoundingBox> boundList, double minSize)
 ```
 
 ### Parameters

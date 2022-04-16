@@ -3,7 +3,7 @@
 #### BoundingFrustumD Class
 
 ```csharp
-public class BoundingFrustumD: IEquatable
+public class BoundingFrustumD: IEquatable<VRageMath.BoundingFrustumD>
 ```
 
 Defines a frustum and helps determine whether forms intersect with it.

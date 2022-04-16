@@ -3,7 +3,7 @@
 #### Color Struct
 
 ```csharp
-public struct Color: IPackedVector, IPackedVector, IEquatable
+public struct Color: IPackedVector<System.UInt32>, IPackedVector, IEquatable<VRageMath.Color>
 ```
 
 Represents a four-component color using red, green, blue, and alpha data.

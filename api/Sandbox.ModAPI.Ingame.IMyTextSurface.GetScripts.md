@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetScripts(List scripts)
+public void GetScripts(List<System.String> scripts)
 ```
 
 Gets a list of available scripts

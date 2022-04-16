@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static void RemoveIndices<T>(this List list, List indices)
+public static void RemoveIndices<T>(this List<T> list, List<System.Int32> indices)
 ```
 
 ### Parameters

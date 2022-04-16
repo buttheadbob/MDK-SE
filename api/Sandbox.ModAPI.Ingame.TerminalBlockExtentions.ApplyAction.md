@@ -15,10 +15,10 @@ Finds action by [GetActionWithName(string)](Sandbox.ModAPI.Ingame.IMyTerminalBlo
 ### Summary
 
 ```csharp
-public static void ApplyAction(this IMyTerminalBlock block, string actionName, List parameters)
+public static void ApplyAction(this IMyTerminalBlock block, string actionName, List<Sandbox.ModAPI.Ingame.TerminalActionParameter> parameters)
 ```
 
-Finds action by [GetActionWithName(string)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActionWithName) and calls [Apply(IMyCubeBlock, ListReader)](Sandbox.ModAPI.Interfaces.ITerminalAction.Apply) 
+Finds action by [GetActionWithName(string)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActionWithName) and calls [Apply(IMyCubeBlock, ListReader<Sandbox.ModAPI.Ingame.TerminalActionParameter>)](Sandbox.ModAPI.Interfaces.ITerminalAction.Apply) 
 
 ### Parameters
 

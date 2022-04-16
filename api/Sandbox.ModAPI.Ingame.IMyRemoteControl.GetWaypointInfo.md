@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetWaypointInfo(List waypoints)
+public void GetWaypointInfo(List<Sandbox.ModAPI.Ingame.MyWaypointInfo> waypoints)
 ```
 
 Gets basic information about the currently configured waypoints.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void SearchActionsOfName(string name, List resultList, [Func collect])
+public void SearchActionsOfName(string name, List<Sandbox.ModAPI.Interfaces.ITerminalAction> resultList, [Func<Sandbox.ModAPI.Interfaces.ITerminalAction, System.Boolean> collect])
 ```
 
 Get all terminal actions available for block. NOTE: First called `  

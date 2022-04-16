@@ -20,7 +20,7 @@ public abstract sealed class MyTexts
 |Member|Description|
 |---|---|
 |[static MyStringId GlobalVariantSelector { get; }](VRage.MyTexts.GlobalVariantSelector)|Global selector for translation variants.|
-|[static DictionaryReader Languages { get; }](VRage.MyTexts.Languages)||
+|[static DictionaryReader<VRage.MyLanguagesEnum, VRage.MyTexts+MyLanguageDescription> Languages { get; }](VRage.MyTexts.Languages)||
 
 #### Methods
 
@@ -37,7 +37,7 @@ public abstract sealed class MyTexts
 |[static string GetString(string)](VRage.MyTexts.GetString)||
 |[static string GetSystemLanguage()](VRage.MyTexts.GetSystemLanguage)||
 |[static bool IsTagged(string, int, string)](VRage.MyTexts.IsTagged)||
-|[static void LoadSupportedLanguages(string, HashSet)](VRage.MyTexts.LoadSupportedLanguages)||
+|[static void LoadSupportedLanguages(string, HashSet<VRage.MyLanguagesEnum>)](VRage.MyTexts.LoadSupportedLanguages)||
 |[static void LoadTexts(string, [string], [string])](VRage.MyTexts.LoadTexts)||
 |[static bool MatchesReplaceFormat(string)](VRage.MyTexts.MatchesReplaceFormat)||
 |[static void RegisterEvaluator(string, ITextEvaluator)](VRage.MyTexts.RegisterEvaluator)||

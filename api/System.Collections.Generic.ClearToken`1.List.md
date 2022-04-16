@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public List List
+public List<T> List
 ```
 
 ### Returns

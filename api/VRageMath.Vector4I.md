@@ -3,7 +3,7 @@
 #### Vector4I Struct
 
 ```csharp
-public struct Vector4I: IComparable
+public struct Vector4I: IComparable<VRageMath.Vector4I>
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

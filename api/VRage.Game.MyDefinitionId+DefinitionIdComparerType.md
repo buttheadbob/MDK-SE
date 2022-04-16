@@ -3,7 +3,7 @@
 #### DefinitionIdComparerType Class
 
 ```csharp
-public class DefinitionIdComparerType: IEqualityComparer
+public class DefinitionIdComparerType: IEqualityComparer<VRage.Game.MyDefinitionId>
 ```
 
 **Namespace:** [VRage.Game](VRage.Game)  

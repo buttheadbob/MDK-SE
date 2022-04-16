@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static void FindAll(string source, List gpsList)
+public static void FindAll(string source, List<Sandbox.ModAPI.Ingame.MyWaypointInfo> gpsList)
 ```
 
 Searches for all GPS coordinates in the given text.

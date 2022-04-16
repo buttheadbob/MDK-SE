@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetSelectedImages(List output)
+public void GetSelectedImages(List<System.String> output)
 ```
 
 Outputs the selected image ids to the specified list. NOTE: List is not cleared internally.

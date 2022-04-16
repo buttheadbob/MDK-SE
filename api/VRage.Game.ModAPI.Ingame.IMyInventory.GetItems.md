@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetItems(List items, [Func filter])
+public void GetItems(List<VRage.Game.ModAPI.Ingame.MyInventoryItem> items, [Func<VRage.Game.ModAPI.Ingame.MyInventoryItem, System.Boolean> filter])
 ```
 
 Collects all items present inside this inventory and returns snapshot of the current inventory state.

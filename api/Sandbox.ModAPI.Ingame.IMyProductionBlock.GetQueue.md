@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetQueue(List items)
+public void GetQueue(List<Sandbox.ModAPI.Ingame.MyProductionItem> items)
 ```
 
 Gets the current production queue

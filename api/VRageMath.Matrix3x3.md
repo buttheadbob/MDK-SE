@@ -3,7 +3,7 @@
 #### Matrix3x3 Struct
 
 ```csharp
-public struct Matrix3x3: IEquatable
+public struct Matrix3x3: IEquatable<VRageMath.Matrix3x3>
 ```
 
 Defines a matrix.

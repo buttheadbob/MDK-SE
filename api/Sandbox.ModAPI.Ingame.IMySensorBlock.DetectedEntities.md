@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void DetectedEntities(List entities)
+public void DetectedEntities(List<Sandbox.ModAPI.Ingame.MyDetectedEntityInfo> entities)
 ```
 
 ### Parameters

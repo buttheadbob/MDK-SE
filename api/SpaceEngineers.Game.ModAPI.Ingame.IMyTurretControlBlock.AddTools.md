@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void AddTools(List tools)
+public void AddTools(List<Sandbox.ModAPI.Ingame.IMyFunctionalBlock> tools)
 ```
 
 Adds tools for the block

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetNodeLeaves(int proxyId, List children)
+public void GetNodeLeaves(int proxyId, List<System.Int32> children)
 ```
 
 ### Parameters

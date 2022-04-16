@@ -3,7 +3,7 @@
 #### BoxCornerEnumerator Struct
 
 ```csharp
-public struct BoxCornerEnumerator: IEnumerator, IDisposable, IEnumerator, IEnumerable, IEnumerable
+public struct BoxCornerEnumerator: IEnumerator<VRageMath.Vector3>, IDisposable, IEnumerator, IEnumerable<VRageMath.Vector3>, IEnumerable
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

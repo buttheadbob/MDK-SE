@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static T MaxBy<T>(this IEnumerable source, Func selector)
+public static T MaxBy<T>(this IEnumerable<T> source, Func<T, System.Single> selector)
 ```
 
 ### Returns
@@ -17,7 +17,7 @@ public static T MaxBy<T>(this IEnumerable source, Func selector)
 ### Summary
 
 ```csharp
-public static TItem MaxBy<TItem, TKey>(this IEnumerable source, Func selector, [IComparer comparer])
+public static TItem MaxBy<TItem, TKey>(this IEnumerable<TItem> source, Func<TItem, TKey> selector, [IComparer<TKey> comparer])
 ```
 
 ### Returns

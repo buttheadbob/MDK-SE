@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static TValue GetOrAdd<TKey, TValue, TContext>(this ConcurrentDictionary dictionary, TKey key, TContext context, Func activator)
+public static TValue GetOrAdd<TKey, TValue, TContext>(this ConcurrentDictionary<TKey, TValue> dictionary, TKey key, TContext context, Func<TContext, TKey, TValue> activator)
 ```
 
 ### Returns

@@ -3,7 +3,7 @@
 #### MyItemType Struct
 
 ```csharp
-public struct MyItemType: IComparable, IEquatable
+public struct MyItemType: IComparable<VRage.Game.ModAPI.Ingame.MyItemType>, IEquatable<VRage.Game.ModAPI.Ingame.MyItemType>
 ```
 
 Use by [MyInventoryItem](VRage.Game.ModAPI.Ingame.MyInventoryItem) 

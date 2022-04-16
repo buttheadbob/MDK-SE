@@ -3,7 +3,7 @@
 #### MatrixD Struct
 
 ```csharp
-public struct MatrixD: IEquatable
+public struct MatrixD: IEquatable<VRageMath.MatrixD>
 ```
 
 Defines a matrix.

@@ -3,7 +3,7 @@
 #### ComparerType Class
 
 ```csharp
-public class ComparerType: IEqualityComparer
+public class ComparerType: IEqualityComparer<VRageMath.BoundingBoxD>
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

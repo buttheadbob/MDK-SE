@@ -3,7 +3,7 @@
 #### CurveKeyCollection Class
 
 ```csharp
-public class CurveKeyCollection: ICollection, IEnumerable, IEnumerable
+public class CurveKeyCollection: ICollection<VRageMath.CurveKey>, IEnumerable<VRageMath.CurveKey>, IEnumerable
 ```
 
 Contains the CurveKeys making up a Curve.
@@ -40,7 +40,7 @@ Contains the CurveKeys making up a Curve.
 |[CurveKeyCollection Clone()](VRageMath.CurveKeyCollection.Clone)|Creates a copy of the CurveKeyCollection.|
 |[bool Contains(CurveKey)](VRageMath.CurveKeyCollection.Contains)|Determines whether the CurveKeyCollection contains a specific CurveKey.|
 |[void CopyTo(CurveKey[], int)](VRageMath.CurveKeyCollection.CopyTo)|Copies the CurveKeys of the CurveKeyCollection to an array, starting at the array index provided.|
-|[IEnumerator GetEnumerator()](VRageMath.CurveKeyCollection.GetEnumerator)|Returns an enumerator that iterates through the CurveKeyCollection.|
+|[IEnumerator<VRageMath.CurveKey> GetEnumerator()](VRageMath.CurveKeyCollection.GetEnumerator)|Returns an enumerator that iterates through the CurveKeyCollection.|
 |[int IndexOf(CurveKey)](VRageMath.CurveKeyCollection.IndexOf)|Determines the index of a CurveKey in the CurveKeyCollection.|
 |[bool Remove(CurveKey)](VRageMath.CurveKeyCollection.Remove)|Removes the first occurrence of a specific CurveKey from the CurveKeyCollection.|
 |[void RemoveAt(int)](VRageMath.CurveKeyCollection.RemoveAt)|Removes the CurveKey at the specified index.|

@@ -3,7 +3,7 @@
 #### BoundingBoxD Struct
 
 ```csharp
-public struct BoundingBoxD: IEquatable
+public struct BoundingBoxD: IEquatable<VRageMath.BoundingBoxD>
 ```
 
 Defines an axis-aligned box-shaped 3D volume.
@@ -46,7 +46,7 @@ Defines an axis-aligned box-shaped 3D volume.
 
 |Member|Description|
 |---|---|
-|[static BoundingBoxD CreateFromPoints(IEnumerable)](VRageMath.BoundingBoxD.CreateFromPoints)|Creates the smallest BoundingBox that will contain a group of points.|
+|[static BoundingBoxD CreateFromPoints(IEnumerable<VRageMath.Vector3D>)](VRageMath.BoundingBoxD.CreateFromPoints)|Creates the smallest BoundingBox that will contain a group of points.|
 |[static BoundingBoxD CreateFromSphere(BoundingSphereD)](VRageMath.BoundingBoxD.CreateFromSphere)|Creates the smallest BoundingBox that will contain the specified BoundingSphere.|
 |[static void CreateFromSphere(ref BoundingSphereD, out BoundingBoxD)](VRageMath.BoundingBoxD.CreateFromSphere)|Creates the smallest BoundingBox that will contain the specified BoundingSphere.|
 |[static BoundingBoxD CreateInvalid()](VRageMath.BoundingBoxD.CreateInvalid)||

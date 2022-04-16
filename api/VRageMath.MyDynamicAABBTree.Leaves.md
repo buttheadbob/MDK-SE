@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public DictionaryValuesReader Leaves { get; }
+public DictionaryValuesReader<System.Int32, VRageMath.MyDynamicAABBTree+DynamicTreeNode> Leaves { get; }
 ```
 
 ### Returns

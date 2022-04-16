@@ -3,7 +3,7 @@
 #### CurveKey Class
 
 ```csharp
-public class CurveKey: IEquatable, IComparable
+public class CurveKey: IEquatable<VRageMath.CurveKey>, IComparable<VRageMath.CurveKey>
 ```
 
 Represents a point in a multi-point curve.

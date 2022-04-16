@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetBlocksOfType<T>(List blocks, [Func collect])
+public void GetBlocksOfType<T>(List<Sandbox.ModAPI.Ingame.IMyTerminalBlock> blocks, [Func<Sandbox.ModAPI.Ingame.IMyTerminalBlock, System.Boolean> collect])
 ```
 
 ### Parameters
@@ -13,7 +13,7 @@ public void GetBlocksOfType<T>(List blocks, [Func collect])
 ### Summary
 
 ```csharp
-public void GetBlocksOfType<T>(List blocks, [Func collect])
+public void GetBlocksOfType<T>(List<T> blocks, [Func<T, System.Boolean> collect])
 ```
 
 ### Parameters

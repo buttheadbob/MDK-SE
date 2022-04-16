@@ -3,7 +3,7 @@
 #### MyTupleComparer&lt;T1, T2&gt; Class
 
 ```csharp
-public class MyTupleComparer<T1, T2>: IEqualityComparer
+public class MyTupleComparer<T1, T2>: IEqualityComparer<>
 ```
 
 **Namespace:** [VRage](VRage)  
@@ -22,6 +22,6 @@ public class MyTupleComparer<T1, T2>: IEqualityComparer
 
 |Member|Description|
 |---|---|
-|[bool Equals(MyTuple, MyTuple)](VRage.MyTupleComparer`2.Equals)||
-|[int GetHashCode(MyTuple)](VRage.MyTupleComparer`2.GetHashCode)||
+|[bool Equals(MyTuple<T1, T2>, MyTuple<T1, T2>)](VRage.MyTupleComparer`2.Equals)||
+|[int GetHashCode(MyTuple<T1, T2>)](VRage.MyTupleComparer`2.GetHashCode)||
 

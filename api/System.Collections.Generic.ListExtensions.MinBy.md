@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static T MinBy<T>(this IEnumerable source, Func selector)
+public static T MinBy<T>(this IEnumerable<T> source, Func<T, System.Single> selector)
 ```
 
 ### Returns

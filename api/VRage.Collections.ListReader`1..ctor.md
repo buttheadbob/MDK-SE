@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public ListReader(List list)
+public ListReader(List<T> list)
 ```
 
 ### Parameters

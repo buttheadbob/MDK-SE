@@ -3,7 +3,7 @@
 #### Vector2D Struct
 
 ```csharp
-public struct Vector2D: IEquatable
+public struct Vector2D: IEquatable<VRageMath.Vector2D>
 ```
 
 Defines a vector with two components.

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static void LoadSupportedLanguages(string rootDirectory, HashSet outSupportedLanguages)
+public static void LoadSupportedLanguages(string rootDirectory, HashSet<VRage.MyLanguagesEnum> outSupportedLanguages)
 ```
 
 ### Parameters

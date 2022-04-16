@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void AddToList(List list)
+public void AddToList(List<VRage.Game.GUI.TextPanel.MySprite> list)
 ```
 
 ### Parameters

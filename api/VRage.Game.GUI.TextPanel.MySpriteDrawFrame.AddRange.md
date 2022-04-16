@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void AddRange(IEnumerable sprites)
+public void AddRange(IEnumerable<VRage.Game.GUI.TextPanel.MySprite> sprites)
 ```
 
 ### Parameters

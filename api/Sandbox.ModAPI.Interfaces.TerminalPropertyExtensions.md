@@ -15,11 +15,11 @@ Terminal block extension for property access
 
 |Member|Description|
 |---|---|
-|[static ITerminalProperty As(this ITerminalProperty)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.As)||
-|[static ITerminalProperty AsBool(this ITerminalProperty)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.AsBool)|Property type cast|
-|[static ITerminalProperty AsColor(this ITerminalProperty)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.AsColor)|Property type cast|
-|[static ITerminalProperty AsFloat(this ITerminalProperty)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.AsFloat)|Property type cast|
-|[static ITerminalProperty Cast(this ITerminalProperty)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.Cast)||
+|[static ITerminalProperty<TValue> As(this ITerminalProperty)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.As)||
+|[static ITerminalProperty<System.Boolean> AsBool(this ITerminalProperty)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.AsBool)|Property type cast|
+|[static ITerminalProperty<VRageMath.Color> AsColor(this ITerminalProperty)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.AsColor)|Property type cast|
+|[static ITerminalProperty<System.Single> AsFloat(this ITerminalProperty)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.AsFloat)|Property type cast|
+|[static ITerminalProperty<TValue> Cast(this ITerminalProperty)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.Cast)||
 |[static T GetDefaultValue(this IMyTerminalBlock, string)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.GetDefaultValue)||
 |[static T GetMaximum(this IMyTerminalBlock, string)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.GetMaximum)||
 |[static T GetMinimum(this IMyTerminalBlock, string)](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.GetMinimum)||

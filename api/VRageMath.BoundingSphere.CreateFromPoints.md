@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static BoundingSphere CreateFromPoints(IEnumerable points)
+public static BoundingSphere CreateFromPoints(IEnumerable<VRageMath.Vector3> points)
 ```
 
 Creates a BoundingSphere that can contain a specified list of points.

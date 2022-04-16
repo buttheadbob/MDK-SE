@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static void InsertInOrder<T>(this List self, T value, IComparer comparer)
+public static void InsertInOrder<T>(this List<T> self, T value, IComparer<T> comparer)
 ```
 
 ### Parameters
@@ -14,7 +14,7 @@ public static void InsertInOrder<T>(this List self, T value, IComparer comparer
 ### Summary
 
 ```csharp
-public static void InsertInOrder<T>(this List self, T value)
+public static void InsertInOrder<T>(this List<T> self, T value)
 ```
 
 ### Parameters

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public IEnumerable Vertices { get; }
+public IEnumerable<VRageMath.Vector3> Vertices { get; }
 ```
 
 ### Returns

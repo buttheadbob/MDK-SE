@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void OverlapAllFrustum<T>(ref BoundingFrustum frustum, List elementsList, [bool clear])
+public void OverlapAllFrustum<T>(ref BoundingFrustum frustum, List<T> elementsList, [bool clear])
 ```
 
 ### Parameters
@@ -14,7 +14,7 @@ public void OverlapAllFrustum<T>(ref BoundingFrustum frustum, List elementsList
 ### Summary
 
 ```csharp
-public void OverlapAllFrustum<T>(ref BoundingFrustum frustum, List elementsList, uint requiredFlags, [bool clear])
+public void OverlapAllFrustum<T>(ref BoundingFrustum frustum, List<T> elementsList, uint requiredFlags, [bool clear])
 ```
 
 ### Parameters
@@ -26,7 +26,7 @@ public void OverlapAllFrustum<T>(ref BoundingFrustum frustum, List elementsList
 ### Summary
 
 ```csharp
-public void OverlapAllFrustum<T>(ref BoundingFrustum frustum, List elementsList, List isInsideList, [bool clear])
+public void OverlapAllFrustum<T>(ref BoundingFrustum frustum, List<T> elementsList, List<System.Boolean> isInsideList, [bool clear])
 ```
 
 ### Parameters
@@ -38,7 +38,7 @@ public void OverlapAllFrustum<T>(ref BoundingFrustum frustum, List elementsList
 ### Summary
 
 ```csharp
-public void OverlapAllFrustum<T>(ref BoundingFrustum frustum, Action add)
+public void OverlapAllFrustum<T>(ref BoundingFrustum frustum, Action<T, System.Boolean> add)
 ```
 
 ### Parameters
@@ -58,7 +58,7 @@ public void OverlapAllFrustum<T, Op>(ref BoundingFrustum frustum, ref Op add)
 ### Summary
 
 ```csharp
-public void OverlapAllFrustum<T>(ref BoundingFrustum frustum, List elementsList, List isInsideList, float tSqr, [bool clear])
+public void OverlapAllFrustum<T>(ref BoundingFrustum frustum, List<T> elementsList, List<System.Boolean> isInsideList, float tSqr, [bool clear])
 ```
 
 ### Parameters
@@ -71,7 +71,7 @@ public void OverlapAllFrustum<T>(ref BoundingFrustum frustum, List elementsList
 ### Summary
 
 ```csharp
-public void OverlapAllFrustum<T>(ref BoundingFrustum frustum, Action add, float tSqr)
+public void OverlapAllFrustum<T>(ref BoundingFrustum frustum, Action<T, System.Boolean> add, float tSqr)
 ```
 
 ### Parameters

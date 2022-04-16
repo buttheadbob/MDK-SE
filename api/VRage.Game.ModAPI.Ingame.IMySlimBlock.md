@@ -42,5 +42,5 @@ Basic block interface (PB scripting interface)
 
 |Member|Description|
 |---|---|
-|[void GetMissingComponents(Dictionary)](VRage.Game.ModAPI.Ingame.IMySlimBlock.GetMissingComponents)|Gets the list of missing components for this block|
+|[void GetMissingComponents(Dictionary<System.String, System.Int32>)](VRage.Game.ModAPI.Ingame.IMySlimBlock.GetMissingComponents)|Gets the list of missing components for this block|
 

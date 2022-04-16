@@ -3,7 +3,7 @@
 #### Vector3I Struct
 
 ```csharp
-public struct Vector3I: IEquatable, IComparable
+public struct Vector3I: IEquatable<VRageMath.Vector3I>, IComparable<VRageMath.Vector3I>
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
@@ -78,7 +78,7 @@ public struct Vector3I: IEquatable, IComparable
 |[static int Dot(Vector3I, Vector3I)](VRageMath.Vector3I.Dot)||
 |[static int Dot(ref Vector3I, ref Vector3I)](VRageMath.Vector3I.Dot)||
 |[static void Dot(ref Vector3I, ref Vector3I, out int)](VRageMath.Vector3I.Dot)||
-|[static IEnumerable EnumerateRange(Vector3I, Vector3I)](VRageMath.Vector3I.EnumerateRange)|Enumerate all values in a integer interval (a cuboid). This method is an allocating version of the Vector3I_RangeIterator. This once can be used in the foreach syntax though so it's more convenient for debug routines.|
+|[static IEnumerable<VRageMath.Vector3I> EnumerateRange(Vector3I, Vector3I)](VRageMath.Vector3I.EnumerateRange)|Enumerate all values in a integer interval (a cuboid). This method is an allocating version of the Vector3I_RangeIterator. This once can be used in the foreach syntax though so it's more convenient for debug routines.|
 |[static Vector3I Floor(Vector3)](VRageMath.Vector3I.Floor)||
 |[static Vector3I Floor(Vector3D)](VRageMath.Vector3I.Floor)||
 |[static void Floor(ref Vector3, out Vector3I)](VRageMath.Vector3I.Floor)||
@@ -124,7 +124,7 @@ public struct Vector3I: IEquatable, IComparable
 |[int Length()](VRageMath.Vector3I.Length)||
 |[int RectangularDistance(Vector3I)](VRageMath.Vector3I.RectangularDistance)|Calculates rectangular distance. It's how many sectors you have to travel to get to other sector from current sector.|
 |[int RectangularLength()](VRageMath.Vector3I.RectangularLength)|Calculates rectangular distance of this vector, interpreted as a point, from the origin.|
-|[void ToBytes(List)](VRageMath.Vector3I.ToBytes)||
+|[void ToBytes(List<System.Byte>)](VRageMath.Vector3I.ToBytes)||
 |[string ToString()](VRageMath.Vector3I.ToString)||
 |[int Volume()](VRageMath.Vector3I.Volume)||
 

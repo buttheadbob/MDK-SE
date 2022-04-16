@@ -19,8 +19,8 @@ public class MyCuboid
 
 |Member|Description|
 |---|---|
-|[IEnumerable UniqueLines { get; }](VRageMath.MyCuboid.UniqueLines)||
-|[IEnumerable Vertices { get; }](VRageMath.MyCuboid.Vertices)||
+|[IEnumerable<VRageMath.Line> UniqueLines { get; }](VRageMath.MyCuboid.UniqueLines)||
+|[IEnumerable<VRageMath.Vector3> Vertices { get; }](VRageMath.MyCuboid.Vertices)||
 
 #### Constructors
 

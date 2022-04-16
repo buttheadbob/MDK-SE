@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static V GetValueOrDefault<K, V>(this Dictionary dictionary, K key)
+public static V GetValueOrDefault<K, V>(this Dictionary<K, V> dictionary, K key)
 ```
 
 ### Returns
@@ -17,7 +17,7 @@ public static V GetValueOrDefault<K, V>(this Dictionary dictionary, K key)
 ### Summary
 
 ```csharp
-public static V GetValueOrDefault<K, V>(this Dictionary dictionary, K key, V defaultValue)
+public static V GetValueOrDefault<K, V>(this Dictionary<K, V> dictionary, K key, V defaultValue)
 ```
 
 ### Returns
@@ -32,7 +32,7 @@ public static V GetValueOrDefault<K, V>(this Dictionary dictionary, K key, V de
 ### Summary
 
 ```csharp
-public static V GetValueOrDefault<K, V>(this ConcurrentDictionary dictionary, K key, V defaultValue)
+public static V GetValueOrDefault<K, V>(this ConcurrentDictionary<K, V> dictionary, K key, V defaultValue)
 ```
 
 ### Returns

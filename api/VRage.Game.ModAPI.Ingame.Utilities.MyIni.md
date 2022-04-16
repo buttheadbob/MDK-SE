@@ -135,10 +135,10 @@ This class is NOT THREAD SAFE as it's optimized for programmable block use.
 |[MyIniValue Get(MyIniKey)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Get)|Gets the [MyIniValue](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue) of the given configuration key.|
 |[string GetComment(string, string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.GetComment)|Gets any comment that might be associated with the given key. Returns`null`if the key does not exist or has no comment.|
 |[string GetComment(MyIniKey)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.GetComment)|Gets any comment that might be associated with the given key. Returns`null`if the key does not exist or has no comment.|
-|[void GetKeys(string, List)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.GetKeys)|Fills the provided list with the configuration keys within the given section.|
-|[void GetKeys(List)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.GetKeys)|Fills the provided list with all configuration keys within the currently parsed configuration.|
+|[void GetKeys(string, List<VRage.Game.ModAPI.Ingame.Utilities.MyIniKey>)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.GetKeys)|Fills the provided list with the configuration keys within the given section.|
+|[void GetKeys(List<VRage.Game.ModAPI.Ingame.Utilities.MyIniKey>)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.GetKeys)|Fills the provided list with all configuration keys within the currently parsed configuration.|
 |[string GetSectionComment(string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.GetSectionComment)|Get any comment that might be associated with the given section. Returns`null`if the section does not exist or has no comment.|
-|[void GetSections(List)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.GetSections)|Fills the provided list with the names of all the sections in the currently parsed configuration.|
+|[void GetSections(List<System.String>)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.GetSections)|Fills the provided list with the names of all the sections in the currently parsed configuration.|
 |[void Invalidate()](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Invalidate)|Forces regeneration of the ini content. Only really useful if you want to reformat the configuration file.|
 |[void Set(string, string, string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
 |[void Set(MyIniKey, string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|

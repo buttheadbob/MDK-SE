@@ -3,7 +3,7 @@
 #### ListReader&lt;T&gt; Struct
 
 ```csharp
-public struct ListReader<T>: IEnumerable, IEnumerable, IReadOnlyList, IReadOnlyCollection
+public struct ListReader<T>: IEnumerable<T>, IEnumerable, IReadOnlyList<T>, IReadOnlyCollection<T>
 ```
 
 **Namespace:** [VRage.Collections](VRage.Collections)  
@@ -19,7 +19,7 @@ public struct ListReader<T>: IEnumerable, IEnumerable, IReadOnlyList, IReadOnlyC
 
 |Member|Description|
 |---|---|
-|[static ListReader Empty](VRage.Collections.ListReader`1.Empty)||
+|[static ListReader<T> Empty](VRage.Collections.ListReader`1.Empty)||
 
 #### Properties
 
@@ -32,13 +32,13 @@ public struct ListReader<T>: IEnumerable, IEnumerable, IReadOnlyList, IReadOnlyC
 
 |Member|Description|
 |---|---|
-|[ListReader(List)](VRage.Collections.ListReader`1..ctor)||
+|[ListReader(List<T>)](VRage.Collections.ListReader`1..ctor)||
 
 #### Methods
 
 |Member|Description|
 |---|---|
-|[Enumerator GetEnumerator()](VRage.Collections.ListReader`1.GetEnumerator)||
+|[Enumerator<T> GetEnumerator()](VRage.Collections.ListReader`1.GetEnumerator)||
 |[int IndexOf(T)](VRage.Collections.ListReader`1.IndexOf)||
 |[T ItemAt(int)](VRage.Collections.ListReader`1.ItemAt)||
 

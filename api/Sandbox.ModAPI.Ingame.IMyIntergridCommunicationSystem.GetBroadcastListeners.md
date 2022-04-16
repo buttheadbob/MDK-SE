@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetBroadcastListeners(List broadcastListeners, [Func collect])
+public void GetBroadcastListeners(List<Sandbox.ModAPI.Ingame.IMyBroadcastListener> broadcastListeners, [Func<Sandbox.ModAPI.Ingame.IMyBroadcastListener, System.Boolean> collect])
 ```
 
 Retrieves list of all active broadcast listeners and listeners with pending messages, registered by current programmable block. Returned list is snapshot of current state and is not updated by future operations.

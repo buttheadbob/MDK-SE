@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetUpgradeList(out List upgrades)
+public void GetUpgradeList(out List<VRage.Game.ObjectBuilders.Definitions.MyUpgradeModuleInfo> upgrades)
 ```
 
 Gets list of upgrades from this block, see [VRage.Game.ObjectBuilders.Definitions.MyUpgradeModuleInfo](https://docs.microsoft.com/en-us/dotnet/api/vrage.game.objectbuilders.definitions.myupgrademoduleinfo?view=netframework-4.6) for details

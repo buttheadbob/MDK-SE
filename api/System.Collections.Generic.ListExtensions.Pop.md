@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static TValue Pop<TValue>(this List self)
+public static TValue Pop<TValue>(this List<TValue> self)
 ```
 
 ### Returns

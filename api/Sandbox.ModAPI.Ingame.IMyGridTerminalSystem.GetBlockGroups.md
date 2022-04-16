@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetBlockGroups(List blockGroups, [Func collect])
+public void GetBlockGroups(List<Sandbox.ModAPI.Ingame.IMyBlockGroup> blockGroups, [Func<Sandbox.ModAPI.Ingame.IMyBlockGroup, System.Boolean> collect])
 ```
 
 Fills the provided list with the block groups reachable by this grid terminal system.

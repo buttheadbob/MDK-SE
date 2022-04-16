@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static void ClearAndTrim<T>(this List list, int maxElements)
+public static void ClearAndTrim<T>(this List<T> list, int maxElements)
 ```
 
 ### Parameters

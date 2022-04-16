@@ -12,7 +12,7 @@ Defines a vector with three components.
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable\<Vector3>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IEquatable&lt;Vector3&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 
@@ -149,10 +149,10 @@ Defines a vector with three components.
 |[static void Transform(ref Vector3, ref MatrixI, out Vector3)](VRageMath.Vector3.Transform)||
 |[static Vector3 Transform(Vector3, Quaternion)](VRageMath.Vector3.Transform)|Transforms a Vector3 by a specified Quaternion rotation.|
 |[static void Transform(ref Vector3, ref Quaternion, out Vector3)](VRageMath.Vector3.Transform)|Transforms a Vector3 by a specified Quaternion rotation.|
-|[static void Transform(Vector3\[\], ref Matrix, Vector3\[\])](VRageMath.Vector3.Transform)|Transforms a source array of Vector3s by a specified Matrix and writes the results to an existing destination array.|
-|[static void Transform(Vector3\[\], int, ref Matrix, Vector3\[\], int, int)](VRageMath.Vector3.Transform)|Applies a specified transform Matrix to a specified range of an array of Vector3s and writes the results into a specified range of a destination array.|
-|[static void Transform(Vector3\[\], ref Quaternion, Vector3\[\])](VRageMath.Vector3.Transform)|Transforms a source array of Vector3s by a specified Quaternion rotation and writes the results to an existing destination array.|
-|[static void Transform(Vector3\[\], int, ref Quaternion, Vector3\[\], int, int)](VRageMath.Vector3.Transform)|Applies a specified Quaternion rotation to a specified range of an array of Vector3s and writes the results into a specified range of a destination array.|
+|[static void Transform(Vector3&#91&#93;, ref Matrix, Vector3&#91&#93;)](VRageMath.Vector3.Transform)|Transforms a source array of Vector3s by a specified Matrix and writes the results to an existing destination array.|
+|[static void Transform(Vector3&#91&#93;, int, ref Matrix, Vector3&#91&#93;, int, int)](VRageMath.Vector3.Transform)|Applies a specified transform Matrix to a specified range of an array of Vector3s and writes the results into a specified range of a destination array.|
+|[static void Transform(Vector3&#91&#93;, ref Quaternion, Vector3&#91&#93;)](VRageMath.Vector3.Transform)|Transforms a source array of Vector3s by a specified Quaternion rotation and writes the results to an existing destination array.|
+|[static void Transform(Vector3&#91&#93;, int, ref Quaternion, Vector3&#91&#93;, int, int)](VRageMath.Vector3.Transform)|Applies a specified Quaternion rotation to a specified range of an array of Vector3s and writes the results into a specified range of a destination array.|
 |[static void TransformNoProjection(ref Vector3, ref Matrix, out Vector3)](VRageMath.Vector3.TransformNoProjection)||
 |[static Vector3 TransformNormal(Vector3, Matrix)](VRageMath.Vector3.TransformNormal)|Transforms a 3D vector normal by a matrix.|
 |[static Vector3 TransformNormal(Vector3, MatrixD)](VRageMath.Vector3.TransformNormal)|Transforms a 3D vector normal by a matrix.|
@@ -163,8 +163,8 @@ Defines a vector with three components.
 |[static Vector3 TransformNormal(Vector3, MyBlockOrientation)](VRageMath.Vector3.TransformNormal)||
 |[static void TransformNormal(ref Vector3, MyBlockOrientation, out Vector3)](VRageMath.Vector3.TransformNormal)||
 |[static Vector3 TransformNormal(Vector3, ref Matrix)](VRageMath.Vector3.TransformNormal)||
-|[static void TransformNormal(Vector3\[\], ref Matrix, Vector3\[\])](VRageMath.Vector3.TransformNormal)|Transforms an array of 3D vector normals by a specified Matrix.|
-|[static void TransformNormal(Vector3\[\], int, ref Matrix, Vector3\[\], int, int)](VRageMath.Vector3.TransformNormal)|Transforms a specified range in an array of 3D vector normals by a specified Matrix and writes the results to a specified range in a destination array.|
+|[static void TransformNormal(Vector3&#91&#93;, ref Matrix, Vector3&#91&#93;)](VRageMath.Vector3.TransformNormal)|Transforms an array of 3D vector normals by a specified Matrix.|
+|[static void TransformNormal(Vector3&#91&#93;, int, ref Matrix, Vector3&#91&#93;, int, int)](VRageMath.Vector3.TransformNormal)|Transforms a specified range in an array of 3D vector normals by a specified Matrix and writes the results to a specified range in a destination array.|
 |[static void TransformProjection(ref Vector3, ref Matrix, out Vector3)](VRageMath.Vector3.TransformProjection)|Transforms a Vector3 by the given projection matrix (both ortho and perspective are supported)|
 |[static float TriangleArea(Vector3, Vector3, Vector3)](VRageMath.Vector3.TriangleArea)||
 |[static float TriangleArea(ref Vector3, ref Vector3, ref Vector3)](VRageMath.Vector3.TriangleArea)||

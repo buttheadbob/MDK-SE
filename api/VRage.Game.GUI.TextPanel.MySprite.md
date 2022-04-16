@@ -10,7 +10,7 @@ public struct MySprite: IEquatable<MySprite>
 **Assembly:** VRage.Game.dll
 
 **Implements:**  
-* [IEquatable\<MySprite>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IEquatable&lt;MySprite&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 

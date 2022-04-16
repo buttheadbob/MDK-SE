@@ -10,7 +10,7 @@ Fills a list with individual string segments representing the lines of text with
 
 ### Parameters
 
-* [List\<StringSegment>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) lines
+* [List&lt;StringSegment&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) lines
 ### Summary
 
 ```csharp
@@ -21,4 +21,4 @@ Fills a list with individual strings representing the lines of text within this 
 
 ### Parameters
 
-* [List\<string>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) lines
+* [List&lt;string&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) lines

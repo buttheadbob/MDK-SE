@@ -16,7 +16,7 @@ public struct ClearToken<T>: IDisposable
 
 |Member|Description|
 |---|---|
-|[List\<T> List](System.Collections.Generic.ClearToken`1.List)||
+|[List&lt;T&gt; List](System.Collections.Generic.ClearToken`1.List)||
 
 #### Methods
 

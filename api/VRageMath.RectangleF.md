@@ -12,7 +12,7 @@ Structure using the same layout than [System.Drawing.RectangleF](https://docs.mi
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable\<RectangleF>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IEquatable&lt;RectangleF&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 

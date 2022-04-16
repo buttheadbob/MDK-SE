@@ -17,4 +17,4 @@ BoundingSphere
 ### Parameters
 
 * [BoundingFrustum](VRageMath.BoundingFrustum) frustum
-* [Vector3\[\]](VRageMath.Vector3\[\]) corners
+* [Vector3&#91&#93;](VRageMath.Vector3&#91&#93;) corners

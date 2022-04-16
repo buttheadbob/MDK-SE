@@ -12,7 +12,7 @@ Defines a PlaneD.
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable\<PlaneD>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IEquatable&lt;PlaneD&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 

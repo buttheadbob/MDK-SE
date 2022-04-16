@@ -10,5 +10,5 @@ Because Enum.GetValues(...) returns array of objects
 
 ### Returns
 
-[Direction\[\]](VRageMath.Base6Directions+Direction\[\])
+[Direction&#91&#93;](VRageMath.Base6Directions+Direction&#91&#93;)
 

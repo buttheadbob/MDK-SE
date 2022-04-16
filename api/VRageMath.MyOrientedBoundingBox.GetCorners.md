@@ -8,5 +8,5 @@ public void GetCorners(Vector3[] corners, int startIndex)
 
 ### Parameters
 
-* [Vector3\[\]](VRageMath.Vector3\[\]) corners
+* [Vector3&#91&#93;](VRageMath.Vector3&#91&#93;) corners
 * [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) startIndex

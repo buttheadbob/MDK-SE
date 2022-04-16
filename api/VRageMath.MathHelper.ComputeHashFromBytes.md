@@ -12,4 +12,4 @@ public static int ComputeHashFromBytes(Byte[] bytes)
 
 ### Parameters
 
-* [Byte\[\]](https://docs.microsoft.com/en-us/dotnet/api/System.Byte\[\]?view=netframework-4.6) bytes
+* [Byte&#91&#93;](https://docs.microsoft.com/en-us/dotnet/api/System.Byte&#91&#93;?view=netframework-4.6) bytes

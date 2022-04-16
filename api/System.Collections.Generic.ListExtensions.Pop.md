@@ -12,4 +12,4 @@ public static TValue Pop<TValue>(this List<TValue> self)
 
 ### Parameters
 
-* [List\<TValue>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) self
+* [List&lt;TValue&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) self

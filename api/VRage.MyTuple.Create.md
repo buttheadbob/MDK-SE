@@ -8,7 +8,7 @@ public static MyTuple<T1> Create<T1>(T1 arg1)
 
 ### Returns
 
-[MyTuple\<T1>]()
+[MyTuple&lt;T1&gt;]()
 
 ### Parameters
 
@@ -21,7 +21,7 @@ public static MyTuple<T1, T2> Create<T1, T2>(T1 arg1, T2 arg2)
 
 ### Returns
 
-[MyTuple\<T1, T2>]()
+[MyTuple&lt;T1, T2&gt;]()
 
 ### Parameters
 
@@ -35,7 +35,7 @@ public static MyTuple<T1, T2, T3> Create<T1, T2, T3>(T1 arg1, T2 arg2, T3 arg3)
 
 ### Returns
 
-[MyTuple\<T1, T2, T3>]()
+[MyTuple&lt;T1, T2, T3&gt;]()
 
 ### Parameters
 
@@ -50,7 +50,7 @@ public static MyTuple<T1, T2, T3, T4> Create<T1, T2, T3, T4>(T1 arg1, T2 arg2, T
 
 ### Returns
 
-[MyTuple\<T1, T2, T3, T4>]()
+[MyTuple&lt;T1, T2, T3, T4&gt;]()
 
 ### Parameters
 
@@ -66,7 +66,7 @@ public static MyTuple<T1, T2, T3, T4, T5> Create<T1, T2, T3, T4, T5>(T1 arg1, T2
 
 ### Returns
 
-[MyTuple\<T1, T2, T3, T4, T5>]()
+[MyTuple&lt;T1, T2, T3, T4, T5&gt;]()
 
 ### Parameters
 
@@ -83,7 +83,7 @@ public static MyTuple<T1, T2, T3, T4, T5, T6> Create<T1, T2, T3, T4, T5, T6>(T1 
 
 ### Returns
 
-[MyTuple\<T1, T2, T3, T4, T5, T6>]()
+[MyTuple&lt;T1, T2, T3, T4, T5, T6&gt;]()
 
 ### Parameters
 

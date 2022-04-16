@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [ListReader\<T>](VRage.Collections.ListReader`1)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [ListReader&lt;T&gt;](VRage.Collections.ListReader`1)
 
 ### Summary
 
@@ -8,5 +8,5 @@ public static ListReader<T> Empty
 
 ### Returns
 
-[ListReader\<T>](VRage.Collections.ListReader`1)
+[ListReader&lt;T&gt;](VRage.Collections.ListReader`1)
 

@@ -21,8 +21,8 @@ Dynamic aabb tree implementation as a prunning structure
 
 |Member|Description|
 |---|---|
-|[DictionaryValuesReader\<int, DynamicTreeNode> Leaves { get; }](VRageMath.MyDynamicAABBTree.Leaves)||
-|[ReadOnlySpan\<DynamicTreeNode> Nodes { get; }](VRageMath.MyDynamicAABBTree.Nodes)||
+|[DictionaryValuesReader&lt;int, DynamicTreeNode&gt; Leaves { get; }](VRageMath.MyDynamicAABBTree.Leaves)||
+|[ReadOnlySpan&lt;DynamicTreeNode&gt; Nodes { get; }](VRageMath.MyDynamicAABBTree.Nodes)||
 
 #### Constructors
 
@@ -41,33 +41,33 @@ Dynamic aabb tree implementation as a prunning structure
 |[void Clear()](VRageMath.MyDynamicAABBTree.Clear)||
 |[int CountLeaves(int)](VRageMath.MyDynamicAABBTree.CountLeaves)||
 |[BoundingBox GetAabb(int)](VRageMath.MyDynamicAABBTree.GetAabb)||
-|[void GetAll\<T>(List\<T>, bool, List\<BoundingBox> = null)](VRageMath.MyDynamicAABBTree.GetAll)||
-|[void GetAllNodeBounds(List\<BoundingBox>)](VRageMath.MyDynamicAABBTree.GetAllNodeBounds)||
+|[void GetAll&lt;T&gt;(List&lt;T&gt;, bool, List&lt;BoundingBox&gt; = null)](VRageMath.MyDynamicAABBTree.GetAll)||
+|[void GetAllNodeBounds(List&lt;BoundingBox&gt;)](VRageMath.MyDynamicAABBTree.GetAllNodeBounds)||
 |[void GetChildren(int, out int, out int)](VRageMath.MyDynamicAABBTree.GetChildren)||
 |[void GetFatAABB(int, out BoundingBox)](VRageMath.MyDynamicAABBTree.GetFatAABB)|Get the fat BoundingBox for a proxy.|
 |[int GetHeight()](VRageMath.MyDynamicAABBTree.GetHeight)||
 |[int GetLeafCount()](VRageMath.MyDynamicAABBTree.GetLeafCount)||
 |[int GetLeafCount(int)](VRageMath.MyDynamicAABBTree.GetLeafCount)||
-|[void GetNodeLeaves(int, List\<int>)](VRageMath.MyDynamicAABBTree.GetNodeLeaves)||
+|[void GetNodeLeaves(int, List&lt;int&gt;)](VRageMath.MyDynamicAABBTree.GetNodeLeaves)||
 |[int GetRoot()](VRageMath.MyDynamicAABBTree.GetRoot)||
-|[T GetUserData\<T>(int)](VRageMath.MyDynamicAABBTree.GetUserData)||
+|[T GetUserData&lt;T&gt;(int)](VRageMath.MyDynamicAABBTree.GetUserData)||
 |[bool MoveProxy(int, ref BoundingBox, Vector3)](VRageMath.MyDynamicAABBTree.MoveProxy)|Move a proxy with a swepted BoundingBox. If the proxy has moved outside of its fattened BoundingBox, then the proxy is removed from the tree and re-inserted. Otherwise the function returns immediately.|
-|[void OverlapAllBoundingBox\<T>(ref BoundingBox, List\<T>, uint = 0, bool = default)](VRageMath.MyDynamicAABBTree.OverlapAllBoundingBox)||
-|[void OverlapAllBoundingSphere\<T>(ref BoundingSphere, List\<T>, bool = default)](VRageMath.MyDynamicAABBTree.OverlapAllBoundingSphere)||
-|[void OverlapAllFrustum\<T>(ref BoundingFrustum, List\<T>, bool = default)](VRageMath.MyDynamicAABBTree.OverlapAllFrustum)||
-|[void OverlapAllFrustum\<T>(ref BoundingFrustum, List\<T>, uint, bool = default)](VRageMath.MyDynamicAABBTree.OverlapAllFrustum)||
-|[void OverlapAllFrustum\<T>(ref BoundingFrustum, List\<T>, List\<bool>, bool = default)](VRageMath.MyDynamicAABBTree.OverlapAllFrustum)||
-|[void OverlapAllFrustum\<T>(ref BoundingFrustum, Action\<T, bool>)](VRageMath.MyDynamicAABBTree.OverlapAllFrustum)||
-|[void OverlapAllFrustum\<T, Op>(ref BoundingFrustum, ref Op)](VRageMath.MyDynamicAABBTree.OverlapAllFrustum)||
-|[void OverlapAllFrustum\<T>(ref BoundingFrustum, List\<T>, List\<bool>, float, bool = default)](VRageMath.MyDynamicAABBTree.OverlapAllFrustum)||
-|[void OverlapAllFrustum\<T>(ref BoundingFrustum, Action\<T, bool>, float)](VRageMath.MyDynamicAABBTree.OverlapAllFrustum)||
-|[void OverlapAllFrustum\<T, Op>(ref BoundingFrustum, float, ref Op)](VRageMath.MyDynamicAABBTree.OverlapAllFrustum)||
-|[void OverlapAllFrustumAny\<T>(ref BoundingFrustum, List\<T>, bool = default)](VRageMath.MyDynamicAABBTree.OverlapAllFrustumAny)||
-|[void OverlapAllFrustumConservative\<T>(ref BoundingFrustum, List\<T>, uint, bool = default)](VRageMath.MyDynamicAABBTree.OverlapAllFrustumConservative)||
-|[void OverlapAllLineSegment\<T>(ref Line, List\<MyLineSegmentOverlapResult\<T>>)](VRageMath.MyDynamicAABBTree.OverlapAllLineSegment)||
-|[void OverlapAllLineSegment\<T>(ref Line, List\<MyLineSegmentOverlapResult\<T>>, uint)](VRageMath.MyDynamicAABBTree.OverlapAllLineSegment)||
+|[void OverlapAllBoundingBox&lt;T&gt;(ref BoundingBox, List&lt;T&gt;, uint = 0, bool = default)](VRageMath.MyDynamicAABBTree.OverlapAllBoundingBox)||
+|[void OverlapAllBoundingSphere&lt;T&gt;(ref BoundingSphere, List&lt;T&gt;, bool = default)](VRageMath.MyDynamicAABBTree.OverlapAllBoundingSphere)||
+|[void OverlapAllFrustum&lt;T&gt;(ref BoundingFrustum, List&lt;T&gt;, bool = default)](VRageMath.MyDynamicAABBTree.OverlapAllFrustum)||
+|[void OverlapAllFrustum&lt;T&gt;(ref BoundingFrustum, List&lt;T&gt;, uint, bool = default)](VRageMath.MyDynamicAABBTree.OverlapAllFrustum)||
+|[void OverlapAllFrustum&lt;T&gt;(ref BoundingFrustum, List&lt;T&gt;, List&lt;bool&gt;, bool = default)](VRageMath.MyDynamicAABBTree.OverlapAllFrustum)||
+|[void OverlapAllFrustum&lt;T&gt;(ref BoundingFrustum, Action&lt;T, bool&gt;)](VRageMath.MyDynamicAABBTree.OverlapAllFrustum)||
+|[void OverlapAllFrustum&lt;T, Op&gt;(ref BoundingFrustum, ref Op)](VRageMath.MyDynamicAABBTree.OverlapAllFrustum)||
+|[void OverlapAllFrustum&lt;T&gt;(ref BoundingFrustum, List&lt;T&gt;, List&lt;bool&gt;, float, bool = default)](VRageMath.MyDynamicAABBTree.OverlapAllFrustum)||
+|[void OverlapAllFrustum&lt;T&gt;(ref BoundingFrustum, Action&lt;T, bool&gt;, float)](VRageMath.MyDynamicAABBTree.OverlapAllFrustum)||
+|[void OverlapAllFrustum&lt;T, Op&gt;(ref BoundingFrustum, float, ref Op)](VRageMath.MyDynamicAABBTree.OverlapAllFrustum)||
+|[void OverlapAllFrustumAny&lt;T&gt;(ref BoundingFrustum, List&lt;T&gt;, bool = default)](VRageMath.MyDynamicAABBTree.OverlapAllFrustumAny)||
+|[void OverlapAllFrustumConservative&lt;T&gt;(ref BoundingFrustum, List&lt;T&gt;, uint, bool = default)](VRageMath.MyDynamicAABBTree.OverlapAllFrustumConservative)||
+|[void OverlapAllLineSegment&lt;T&gt;(ref Line, List&lt;MyLineSegmentOverlapResult&lt;T&gt;&gt;)](VRageMath.MyDynamicAABBTree.OverlapAllLineSegment)||
+|[void OverlapAllLineSegment&lt;T&gt;(ref Line, List&lt;MyLineSegmentOverlapResult&lt;T&gt;&gt;, uint)](VRageMath.MyDynamicAABBTree.OverlapAllLineSegment)||
 |[bool OverlapsAnyLeafBoundingBox(ref BoundingBox)](VRageMath.MyDynamicAABBTree.OverlapsAnyLeafBoundingBox)||
-|[void OverlapSizeableClusters(ref BoundingBox, List\<BoundingBox>, double)](VRageMath.MyDynamicAABBTree.OverlapSizeableClusters)||
-|[void Query(Func\<int, bool>, ref BoundingBox)](VRageMath.MyDynamicAABBTree.Query)||
+|[void OverlapSizeableClusters(ref BoundingBox, List&lt;BoundingBox&gt;, double)](VRageMath.MyDynamicAABBTree.OverlapSizeableClusters)||
+|[void Query(Func&lt;int, bool&gt;, ref BoundingBox)](VRageMath.MyDynamicAABBTree.Query)||
 |[void RemoveProxy(int)](VRageMath.MyDynamicAABBTree.RemoveProxy)|Destroy a proxy. This asserts if the id is invalid.|
 

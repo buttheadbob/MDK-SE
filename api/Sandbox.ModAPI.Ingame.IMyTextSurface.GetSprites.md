@@ -10,4 +10,4 @@ Gets a list of available sprites
 
 ### Parameters
 
-* [List\<string>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) sprites
+* [List&lt;string&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) sprites

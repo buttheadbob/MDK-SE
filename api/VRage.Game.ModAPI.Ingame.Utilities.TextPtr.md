@@ -38,8 +38,8 @@ A parser utility structure representing a pointer to a location within a string.
 |---|---|
 |[TextPtr Find(string)](VRage.Game.ModAPI.Ingame.Utilities.TextPtr.Find)|Finds the given text string|
 |[TextPtr Find(char)](VRage.Game.ModAPI.Ingame.Utilities.TextPtr.Find)|Finds the given character|
-|[TextPtr FindAny(Char\[\])](VRage.Game.ModAPI.Ingame.Utilities.TextPtr.FindAny)|Finds one of the given characters|
-|[TextPtr FindAnyInLine(Char\[\])](VRage.Game.ModAPI.Ingame.Utilities.TextPtr.FindAnyInLine)|Finds one of the given characters within the current line|
+|[TextPtr FindAny(Char&#91&#93;)](VRage.Game.ModAPI.Ingame.Utilities.TextPtr.FindAny)|Finds one of the given characters|
+|[TextPtr FindAnyInLine(Char&#91&#93;)](VRage.Game.ModAPI.Ingame.Utilities.TextPtr.FindAnyInLine)|Finds one of the given characters within the current line|
 |[TextPtr FindEndOfLine(bool = default)](VRage.Game.ModAPI.Ingame.Utilities.TextPtr.FindEndOfLine)|Finds the end of the current line|
 |[TextPtr FindInLine(char)](VRage.Game.ModAPI.Ingame.Utilities.TextPtr.FindInLine)|Finds the given character within the current line|
 |[int FindLineNo()](VRage.Game.ModAPI.Ingame.Utilities.TextPtr.FindLineNo)|Determines what line number this pointer is currently at.|

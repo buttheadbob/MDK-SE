@@ -11,15 +11,15 @@ public struct ListReader<T>: IEnumerable<T>, IEnumerable, IReadOnlyList<T>, IRea
 
 **Implements:**  
 * [IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.IEnumerable?view=netframework-4.6)  
-* [IEnumerable\<T>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netframework-4.6)  
-* [IReadOnlyCollection\<T>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IReadOnlyCollection-1?view=netframework-4.6)  
-* [IReadOnlyList\<T>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IReadOnlyList-1?view=netframework-4.6)
+* [IEnumerable&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netframework-4.6)  
+* [IReadOnlyCollection&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IReadOnlyCollection-1?view=netframework-4.6)  
+* [IReadOnlyList&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IReadOnlyList-1?view=netframework-4.6)
 
 #### Fields
 
 |Member|Description|
 |---|---|
-|[static ListReader\<T> Empty](VRage.Collections.ListReader`1.Empty)||
+|[static ListReader&lt;T&gt; Empty](VRage.Collections.ListReader`1.Empty)||
 
 #### Properties
 
@@ -32,13 +32,13 @@ public struct ListReader<T>: IEnumerable<T>, IEnumerable, IReadOnlyList<T>, IRea
 
 |Member|Description|
 |---|---|
-|[ListReader(List\<T>)](VRage.Collections.ListReader`1..ctor)||
+|[ListReader(List&lt;T&gt;)](VRage.Collections.ListReader`1..ctor)||
 
 #### Methods
 
 |Member|Description|
 |---|---|
-|[Enumerator\<T> GetEnumerator()](VRage.Collections.ListReader`1.GetEnumerator)||
+|[Enumerator&lt;T&gt; GetEnumerator()](VRage.Collections.ListReader`1.GetEnumerator)||
 |[int IndexOf(T)](VRage.Collections.ListReader`1.IndexOf)||
 |[T ItemAt(int)](VRage.Collections.ListReader`1.ItemAt)||
 

@@ -8,7 +8,7 @@ public static ITerminalProperty<TValue> As<TValue>(this ITerminalProperty prope
 
 ### Returns
 
-[ITerminalProperty\<TValue>]()
+[ITerminalProperty&lt;TValue&gt;]()
 
 ### Parameters
 

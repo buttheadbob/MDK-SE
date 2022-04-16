@@ -13,7 +13,7 @@ public class MyCuboidSide
 
 |Member|Description|
 |---|---|
-|[Line\[\] Lines](VRageMath.MyCuboidSide.Lines)||
+|[Line&#91&#93; Lines](VRageMath.MyCuboidSide.Lines)||
 |[Plane Plane](VRageMath.MyCuboidSide.Plane)||
 
 #### Constructors

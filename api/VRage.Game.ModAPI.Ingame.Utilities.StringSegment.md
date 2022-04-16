@@ -44,10 +44,10 @@ Represents a segment of a string.
 |[bool EqualsIgnoreCase(string)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.EqualsIgnoreCase)|Compares this string segment with the given string in a case insensitive manner.|
 |[bool EqualsIgnoreCase(StringSegment)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.EqualsIgnoreCase)|Compares this string segment with another in a case insensitive manner.|
 |[int GetHashCode()](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.GetHashCode)|Returns the hash code for this instance.|
-|[void GetLines(List\<StringSegment>)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.GetLines)|Fills a list with individual string segments representing the lines of text within this string segment, separated by newlines.|
-|[void GetLines(List\<string>)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.GetLines)|Fills a list with individual strings representing the lines of text within this string segment, separated by newlines.|
+|[void GetLines(List&lt;StringSegment&gt;)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.GetLines)|Fills a list with individual string segments representing the lines of text within this string segment, separated by newlines.|
+|[void GetLines(List&lt;string&gt;)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.GetLines)|Fills a list with individual strings representing the lines of text within this string segment, separated by newlines.|
 |[int IndexOf(char)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.IndexOf)|Reports the zero-based index of the first occurence of the specified character, relative to [Start](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.Start) . Returns -1 if nothing was found.|
 |[int IndexOf(char, int)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.IndexOf)|Reports the zero-based index of the first occurence of the specified character, relative to [Start](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.Start) . Returns -1 if nothing was found.|
-|[int IndexOfAny(Char\[\])](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.IndexOfAny)|Reports the zero-based index of the first occurence of one of the provided characters, relative to [Start](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.Start) . Returns -1 if nothing was found.|
+|[int IndexOfAny(Char&#91&#93;)](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.IndexOfAny)|Reports the zero-based index of the first occurence of one of the provided characters, relative to [Start](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.Start) . Returns -1 if nothing was found.|
 |[string ToString()](VRage.Game.ModAPI.Ingame.Utilities.StringSegment.ToString)|Returns a string containing just this segment.|
 

@@ -8,5 +8,5 @@ public MyCuboidSide[] Sides
 
 ### Returns
 
-[MyCuboidSide\[\]](VRageMath.MyCuboidSide\[\])
+[MyCuboidSide&#91&#93;](VRageMath.MyCuboidSide&#91&#93;)
 

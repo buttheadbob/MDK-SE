@@ -12,7 +12,7 @@ Defines a ray.
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable\<Ray>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IEquatable&lt;Ray&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 

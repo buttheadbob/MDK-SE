@@ -15,9 +15,9 @@ Workaround because .NET XML serializer is stupid and does not like enum inside s
 
 |Member|Description|
 |---|---|
-|[static Vector3\[\] Directions](VRageMath.Base6Directions.Directions)||
-|[static Direction\[\] EnumDirections](VRageMath.Base6Directions.EnumDirections)|Because Enum.GetValues(...) returns array of objects|
-|[static Vector3I\[\] IntDirections](VRageMath.Base6Directions.IntDirections)||
+|[static Vector3&#91&#93; Directions](VRageMath.Base6Directions.Directions)||
+|[static Direction&#91&#93; EnumDirections](VRageMath.Base6Directions.EnumDirections)|Because Enum.GetValues(...) returns array of objects|
+|[static Vector3I&#91&#93; IntDirections](VRageMath.Base6Directions.IntDirections)||
 
 #### Methods
 

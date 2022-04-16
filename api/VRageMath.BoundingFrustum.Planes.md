@@ -8,5 +8,5 @@ public Plane[] Planes { get; }
 
 ### Returns
 
-[Plane\[\]](VRageMath.Plane\[\])
+[Plane&#91&#93;](VRageMath.Plane&#91&#93;)
 

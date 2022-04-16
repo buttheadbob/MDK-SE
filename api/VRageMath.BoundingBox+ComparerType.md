@@ -10,5 +10,5 @@ public class ComparerType: IEqualityComparer<BoundingBoxD>
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEqualityComparer\<BoundingBoxD>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEqualityComparer-1?view=netframework-4.6)
+* [IEqualityComparer&lt;BoundingBoxD&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEqualityComparer-1?view=netframework-4.6)
 

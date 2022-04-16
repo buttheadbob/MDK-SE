@@ -12,7 +12,7 @@ Defines a matrix.
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable\<Matrix3x3>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IEquatable&lt;Matrix3x3&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 

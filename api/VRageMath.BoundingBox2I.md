@@ -12,7 +12,7 @@ Defines an axis-aligned box-shaped 3D volume.
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable\<BoundingBox2I>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IEquatable&lt;BoundingBox2I&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 
@@ -44,7 +44,7 @@ Defines an axis-aligned box-shaped 3D volume.
 |---|---|
 |[static BoundingBox2I CreateFromHalfExtent(Vector2I, int)](VRageMath.BoundingBox2I.CreateFromHalfExtent)||
 |[static BoundingBox2I CreateFromHalfExtent(Vector2I, Vector2I)](VRageMath.BoundingBox2I.CreateFromHalfExtent)||
-|[static BoundingBox2I CreateFromPoints(IEnumerable\<Vector2I>)](VRageMath.BoundingBox2I.CreateFromPoints)|Creates the smallest BoundingBox2I that will contain a group of points.|
+|[static BoundingBox2I CreateFromPoints(IEnumerable&lt;Vector2I&gt;)](VRageMath.BoundingBox2I.CreateFromPoints)|Creates the smallest BoundingBox2I that will contain a group of points.|
 |[static BoundingBox2I CreateInvalid()](VRageMath.BoundingBox2I.CreateInvalid)||
 |[static BoundingBox2I CreateMerged(BoundingBox2I, BoundingBox2I)](VRageMath.BoundingBox2I.CreateMerged)|Creates the smallest BoundingBox2I that contains the two specified BoundingBox2I instances.|
 |[static void CreateMerged(ref BoundingBox2I, ref BoundingBox2I, out BoundingBox2I)](VRageMath.BoundingBox2I.CreateMerged)|Creates the smallest BoundingBox2I that contains the two specified BoundingBox2I instances.|
@@ -55,8 +55,8 @@ Defines an axis-aligned box-shaped 3D volume.
 |[void Contains(ref Vector2I, out ContainmentType)](VRageMath.BoundingBox2I.Contains)|Tests whether the BoundingBox2I contains a point.|
 |[bool Equals(BoundingBox2I)](VRageMath.BoundingBox2I.Equals)|Determines whether two instances of BoundingBox2I are equal.|
 |[bool Equals(object)](VRageMath.BoundingBox2I.Equals)|Determines whether two instances of BoundingBox2I are equal.|
-|[Vector2I\[\] GetCorners()](VRageMath.BoundingBox2I.GetCorners)|Gets an array of points that make up the corners of the BoundingBox2I.|
-|[void GetCorners(Vector2I\[\])](VRageMath.BoundingBox2I.GetCorners)|Gets the array of points that make up the corners of the BoundingBox2I.|
+|[Vector2I&#91&#93; GetCorners()](VRageMath.BoundingBox2I.GetCorners)|Gets an array of points that make up the corners of the BoundingBox2I.|
+|[void GetCorners(Vector2I&#91&#93;)](VRageMath.BoundingBox2I.GetCorners)|Gets the array of points that make up the corners of the BoundingBox2I.|
 |[void GetCornersUnsafe(*Vector2I)](VRageMath.BoundingBox2I.GetCornersUnsafe)||
 |[int GetHashCode()](VRageMath.BoundingBox2I.GetHashCode)|Gets the hash code for this instance.|
 |[BoundingBox2I GetIncluded(Vector2I)](VRageMath.BoundingBox2I.GetIncluded)||

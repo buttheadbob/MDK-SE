@@ -12,7 +12,7 @@ Defines a frustum and helps determine whether forms intersect with it.
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable\<BoundingFrustum>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IEquatable&lt;BoundingFrustum&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 
@@ -30,7 +30,7 @@ Defines a frustum and helps determine whether forms intersect with it.
 |[Plane Left { get; }](VRageMath.BoundingFrustum.Left)|Gets the left plane of the BoundingFrustum.|
 |[Matrix Matrix { get; set; }](VRageMath.BoundingFrustum.Matrix)|Gets or sets the Matrix that describes this bounding frustum.|
 |[Plane Near { get; }](VRageMath.BoundingFrustum.Near)|Gets the near plane of the BoundingFrustum.|
-|[Plane\[\] Planes { get; }](VRageMath.BoundingFrustum.Planes)||
+|[Plane&#91&#93; Planes { get; }](VRageMath.BoundingFrustum.Planes)||
 |[Plane Right { get; }](VRageMath.BoundingFrustum.Right)|Gets the right plane of the BoundingFrustum.|
 |[Plane Top { get; }](VRageMath.BoundingFrustum.Top)|Gets the top plane of the BoundingFrustum.|
 
@@ -54,8 +54,8 @@ Defines a frustum and helps determine whether forms intersect with it.
 |[void Contains(ref BoundingSphere, out ContainmentType)](VRageMath.BoundingFrustum.Contains)|Checks whether the current BoundingFrustum contains the specified BoundingSphere.|
 |[bool Equals(BoundingFrustum)](VRageMath.BoundingFrustum.Equals)|Determines whether the specified BoundingFrustum is equal to the current BoundingFrustum.|
 |[bool Equals(object)](VRageMath.BoundingFrustum.Equals)|Determines whether the specified Object is equal to the BoundingFrustum.|
-|[Vector3\[\] GetCorners()](VRageMath.BoundingFrustum.GetCorners)|Gets an array of points that make up the corners of the BoundingFrustum. ALLOCATION!|
-|[void GetCorners(Vector3\[\])](VRageMath.BoundingFrustum.GetCorners)|Gets an array of points that make up the corners of the BoundingFrustum.|
+|[Vector3&#91&#93; GetCorners()](VRageMath.BoundingFrustum.GetCorners)|Gets an array of points that make up the corners of the BoundingFrustum. ALLOCATION!|
+|[void GetCorners(Vector3&#91&#93;)](VRageMath.BoundingFrustum.GetCorners)|Gets an array of points that make up the corners of the BoundingFrustum.|
 |[void GetCornersUnsafe(*Vector3)](VRageMath.BoundingFrustum.GetCornersUnsafe)||
 |[int GetHashCode()](VRageMath.BoundingFrustum.GetHashCode)|Gets the hash code for this instance.|
 |[bool Intersects(BoundingBox)](VRageMath.BoundingFrustum.Intersects)|Checks whether the current BoundingFrustum intersects the specified BoundingBox.|

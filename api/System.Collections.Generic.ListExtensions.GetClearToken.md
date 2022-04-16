@@ -8,8 +8,8 @@ public static ClearToken<T> GetClearToken<T>(this List<T> list)
 
 ### Returns
 
-[ClearToken\<T>]()
+[ClearToken&lt;T&gt;]()
 
 ### Parameters
 
-* [List\<T>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) list
+* [List&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) list

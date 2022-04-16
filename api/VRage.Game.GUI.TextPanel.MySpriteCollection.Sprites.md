@@ -8,5 +8,5 @@ public MySprite[] Sprites
 
 ### Returns
 
-[MySprite\[\]](VRage.Game.GUI.TextPanel.MySprite\[\])
+[MySprite&#91&#93;](VRage.Game.GUI.TextPanel.MySprite&#91&#93;)
 

@@ -12,7 +12,7 @@ Defines a four-dimensional vector (x,y,z,w), which is used to efficiently rotate
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable\<Quaternion>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IEquatable&lt;Quaternion&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 

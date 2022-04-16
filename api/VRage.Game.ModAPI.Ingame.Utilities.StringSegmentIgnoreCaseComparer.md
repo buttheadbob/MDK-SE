@@ -12,7 +12,7 @@ A comparer designed to compare [StringSegment](VRage.Game.ModAPI.Ingame.Utilitie
 **Assembly:** VRage.Game.dll
 
 **Implements:**  
-* [IEqualityComparer\<StringSegment>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEqualityComparer-1?view=netframework-4.6)
+* [IEqualityComparer&lt;StringSegment&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEqualityComparer-1?view=netframework-4.6)
 
 #### Fields
 

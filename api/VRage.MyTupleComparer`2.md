@@ -10,7 +10,7 @@ public class MyTupleComparer<T1, T2>: IEqualityComparer<MyTuple<T1, T2>>
 **Assembly:** VRage.Library.dll
 
 **Implements:**  
-* [IEqualityComparer\<MyTuple\<T1, T2>>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEqualityComparer-1?view=netframework-4.6)
+* [IEqualityComparer&lt;MyTuple&lt;T1, T2&gt;&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEqualityComparer-1?view=netframework-4.6)
 
 #### Constructors
 
@@ -22,6 +22,6 @@ public class MyTupleComparer<T1, T2>: IEqualityComparer<MyTuple<T1, T2>>
 
 |Member|Description|
 |---|---|
-|[bool Equals(MyTuple\<T1, T2>, MyTuple\<T1, T2>)](VRage.MyTupleComparer`2.Equals)||
-|[int GetHashCode(MyTuple\<T1, T2>)](VRage.MyTupleComparer`2.GetHashCode)||
+|[bool Equals(MyTuple&lt;T1, T2&gt;, MyTuple&lt;T1, T2&gt;)](VRage.MyTupleComparer`2.Equals)||
+|[int GetHashCode(MyTuple&lt;T1, T2&gt;)](VRage.MyTupleComparer`2.GetHashCode)||
 

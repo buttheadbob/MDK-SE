@@ -10,5 +10,5 @@ Collects all items present inside this inventory and returns snapshot of the cur
 
 ### Parameters
 
-* [List\<MyInventoryItem>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) items
-* [Func\<MyInventoryItem, bool>](https://docs.microsoft.com/en-us/dotnet/api/System.Func-2?view=netframework-4.6) filter
+* [List&lt;MyInventoryItem&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) items
+* [Func&lt;MyInventoryItem, bool&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Func-2?view=netframework-4.6) filter

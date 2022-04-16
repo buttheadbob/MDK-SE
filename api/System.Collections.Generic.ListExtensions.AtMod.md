@@ -12,7 +12,7 @@ public static T AtMod<T>(this List<T> list, int index)
 
 ### Parameters
 
-* [List\<T>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) list
+* [List&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) list
 * [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) index
 ### Summary
 
@@ -26,5 +26,5 @@ public static T AtMod<T>(this ListReader<T> list, int index)
 
 ### Parameters
 
-* [ListReader\<T>]() list
+* [ListReader&lt;T&gt;]() list
 * [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) index

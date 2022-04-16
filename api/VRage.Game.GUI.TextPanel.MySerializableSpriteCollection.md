@@ -14,11 +14,11 @@ public struct MySerializableSpriteCollection
 |Member|Description|
 |---|---|
 |[int Length](VRage.Game.GUI.TextPanel.MySerializableSpriteCollection.Length)||
-|[MySerializableSprite\[\] Sprites](VRage.Game.GUI.TextPanel.MySerializableSpriteCollection.Sprites)||
+|[MySerializableSprite&#91&#93; Sprites](VRage.Game.GUI.TextPanel.MySerializableSpriteCollection.Sprites)||
 
 #### Constructors
 
 |Member|Description|
 |---|---|
-|[MySerializableSpriteCollection(MySerializableSprite\[\], int)](VRage.Game.GUI.TextPanel.MySerializableSpriteCollection..ctor)||
+|[MySerializableSpriteCollection(MySerializableSprite&#91&#93;, int)](VRage.Game.GUI.TextPanel.MySerializableSpriteCollection..ctor)||
 

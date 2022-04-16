@@ -10,4 +10,4 @@ Outputs the selected image ids to the specified list. NOTE: List is not cleared 
 
 ### Parameters
 
-* [List\<string>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) output
+* [List&lt;string&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) output

@@ -12,7 +12,7 @@ Defines a vector with four components.
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable\<Vector4>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IEquatable&lt;Vector4&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 
@@ -100,10 +100,10 @@ Defines a vector with four components.
 |[static void Transform(ref Vector3, ref Quaternion, out Vector4)](VRageMath.Vector4.Transform)|Transforms a Vector3 by a specified Quaternion into a Vector4.|
 |[static Vector4 Transform(Vector4, Quaternion)](VRageMath.Vector4.Transform)|Transforms a Vector4 by a specified Quaternion.|
 |[static void Transform(ref Vector4, ref Quaternion, out Vector4)](VRageMath.Vector4.Transform)|Transforms a Vector4 by a specified Quaternion.|
-|[static void Transform(Vector4\[\], ref Matrix, Vector4\[\])](VRageMath.Vector4.Transform)|Transforms an array of Vector4s by a specified Matrix.|
-|[static void Transform(Vector4\[\], int, ref Matrix, Vector4\[\], int, int)](VRageMath.Vector4.Transform)|Transforms a specified range in an array of Vector4s by a specified Matrix into a specified range in a destination array.|
-|[static void Transform(Vector4\[\], ref Quaternion, Vector4\[\])](VRageMath.Vector4.Transform)|Transforms an array of Vector4s by a specified Quaternion.|
-|[static void Transform(Vector4\[\], int, ref Quaternion, Vector4\[\], int, int)](VRageMath.Vector4.Transform)|Transforms a specified range in an array of Vector4s by a specified Quaternion into a specified range in a destination array.|
+|[static void Transform(Vector4&#91&#93;, ref Matrix, Vector4&#91&#93;)](VRageMath.Vector4.Transform)|Transforms an array of Vector4s by a specified Matrix.|
+|[static void Transform(Vector4&#91&#93;, int, ref Matrix, Vector4&#91&#93;, int, int)](VRageMath.Vector4.Transform)|Transforms a specified range in an array of Vector4s by a specified Matrix into a specified range in a destination array.|
+|[static void Transform(Vector4&#91&#93;, ref Quaternion, Vector4&#91&#93;)](VRageMath.Vector4.Transform)|Transforms an array of Vector4s by a specified Quaternion.|
+|[static void Transform(Vector4&#91&#93;, int, ref Quaternion, Vector4&#91&#93;, int, int)](VRageMath.Vector4.Transform)|Transforms a specified range in an array of Vector4s by a specified Quaternion into a specified range in a destination array.|
 |[static Matrix UnpackOrthoMatrix(ref Vector4)](VRageMath.Vector4.UnpackOrthoMatrix)||
 |[static void UnpackOrthoMatrix(ref Vector4, out Matrix)](VRageMath.Vector4.UnpackOrthoMatrix)||
 |[bool Equals(Vector4)](VRageMath.Vector4.Equals)|Determines whether the specified Object is equal to the Vector4.|

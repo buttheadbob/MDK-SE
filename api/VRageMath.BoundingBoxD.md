@@ -12,7 +12,7 @@ Defines an axis-aligned box-shaped 3D volume.
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable\<BoundingBoxD>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IEquatable&lt;BoundingBoxD&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 
@@ -46,7 +46,7 @@ Defines an axis-aligned box-shaped 3D volume.
 
 |Member|Description|
 |---|---|
-|[static BoundingBoxD CreateFromPoints(IEnumerable\<Vector3D>)](VRageMath.BoundingBoxD.CreateFromPoints)|Creates the smallest BoundingBox that will contain a group of points.|
+|[static BoundingBoxD CreateFromPoints(IEnumerable&lt;Vector3D&gt;)](VRageMath.BoundingBoxD.CreateFromPoints)|Creates the smallest BoundingBox that will contain a group of points.|
 |[static BoundingBoxD CreateFromSphere(BoundingSphereD)](VRageMath.BoundingBoxD.CreateFromSphere)|Creates the smallest BoundingBox that will contain the specified BoundingSphere.|
 |[static void CreateFromSphere(ref BoundingSphereD, out BoundingBoxD)](VRageMath.BoundingBoxD.CreateFromSphere)|Creates the smallest BoundingBox that will contain the specified BoundingSphere.|
 |[static BoundingBoxD CreateInvalid()](VRageMath.BoundingBoxD.CreateInvalid)||
@@ -69,8 +69,8 @@ Defines an axis-aligned box-shaped 3D volume.
 |[bool Equals(BoundingBoxD)](VRageMath.BoundingBoxD.Equals)|Determines whether two instances of BoundingBox are equal.|
 |[bool Equals(object)](VRageMath.BoundingBoxD.Equals)|Determines whether two instances of BoundingBox are equal.|
 |[bool Equals(BoundingBoxD, double)](VRageMath.BoundingBoxD.Equals)||
-|[Vector3D\[\] GetCorners()](VRageMath.BoundingBoxD.GetCorners)|Gets an array of points that make up the corners of the BoundingBox. ALLOCATION!|
-|[void GetCorners(Vector3D\[\])](VRageMath.BoundingBoxD.GetCorners)|Gets the array of points that make up the corners of the BoundingBox.|
+|[Vector3D&#91&#93; GetCorners()](VRageMath.BoundingBoxD.GetCorners)|Gets an array of points that make up the corners of the BoundingBox. ALLOCATION!|
+|[void GetCorners(Vector3D&#91&#93;)](VRageMath.BoundingBoxD.GetCorners)|Gets the array of points that make up the corners of the BoundingBox.|
 |[void GetCornersUnsafe(*Vector3D)](VRageMath.BoundingBoxD.GetCornersUnsafe)||
 |[int GetHashCode()](VRageMath.BoundingBoxD.GetHashCode)|Gets the hash code for this instance.|
 |[BoundingBoxD GetInflated(double)](VRageMath.BoundingBoxD.GetInflated)||

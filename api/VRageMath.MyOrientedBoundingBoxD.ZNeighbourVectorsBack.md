@@ -8,5 +8,5 @@ public static Vector3[] ZNeighbourVectorsBack
 
 ### Returns
 
-[Vector3\[\]](VRageMath.Vector3\[\])
+[Vector3&#91&#93;](VRageMath.Vector3&#91&#93;)
 

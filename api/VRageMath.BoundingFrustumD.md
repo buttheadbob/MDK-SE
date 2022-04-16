@@ -12,7 +12,7 @@ Defines a frustum and helps determine whether forms intersect with it.
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable\<BoundingFrustumD>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IEquatable&lt;BoundingFrustumD&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 
@@ -53,8 +53,8 @@ Defines a frustum and helps determine whether forms intersect with it.
 |[void Contains(ref BoundingSphereD, out ContainmentType)](VRageMath.BoundingFrustumD.Contains)|Checks whether the current BoundingFrustumD contains the specified BoundingSphere.|
 |[bool Equals(BoundingFrustumD)](VRageMath.BoundingFrustumD.Equals)|Determines whether the specified BoundingFrustumD is equal to the current BoundingFrustumD.|
 |[bool Equals(object)](VRageMath.BoundingFrustumD.Equals)|Determines whether the specified Object is equal to the BoundingFrustumD.|
-|[Vector3D\[\] GetCorners()](VRageMath.BoundingFrustumD.GetCorners)|Gets an array of points that make up the corners of the BoundingFrustumD. ALLOCATION!|
-|[void GetCorners(Vector3D\[\])](VRageMath.BoundingFrustumD.GetCorners)|Gets an array of points that make up the corners of the BoundingFrustumD.|
+|[Vector3D&#91&#93; GetCorners()](VRageMath.BoundingFrustumD.GetCorners)|Gets an array of points that make up the corners of the BoundingFrustumD. ALLOCATION!|
+|[void GetCorners(Vector3D&#91&#93;)](VRageMath.BoundingFrustumD.GetCorners)|Gets an array of points that make up the corners of the BoundingFrustumD.|
 |[void GetCornersUnsafe(*Vector3D)](VRageMath.BoundingFrustumD.GetCornersUnsafe)||
 |[int GetHashCode()](VRageMath.BoundingFrustumD.GetHashCode)|Gets the hash code for this instance.|
 |[bool Intersects(BoundingBoxD)](VRageMath.BoundingFrustumD.Intersects)|Checks whether the current BoundingFrustumD intersects the specified BoundingBoxD.|

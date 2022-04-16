@@ -12,7 +12,7 @@ Defines a vector with two components.
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable\<Vector2D>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IEquatable&lt;Vector2D&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 
@@ -90,14 +90,14 @@ Defines a vector with two components.
 |[static void Transform(ref Vector2D, ref Matrix, out Vector2D)](VRageMath.Vector2D.Transform)|Transforms a Vector2D by the given Matrix.|
 |[static Vector2D Transform(Vector2D, Quaternion)](VRageMath.Vector2D.Transform)|Transforms a single Vector2D, or the vector normal (x, y, 0, 0), by a specified Quaternion rotation.|
 |[static void Transform(ref Vector2D, ref Quaternion, out Vector2D)](VRageMath.Vector2D.Transform)|Transforms a Vector2D, or the vector normal (x, y, 0, 0), by a specified Quaternion rotation.|
-|[static void Transform(Vector2D\[\], ref Matrix, Vector2D\[\])](VRageMath.Vector2D.Transform)|Transforms an array of Vector2s by a specified Matrix.|
-|[static void Transform(Vector2D\[\], int, ref Matrix, Vector2D\[\], int, int)](VRageMath.Vector2D.Transform)|Transforms a specified range in an array of Vector2s by a specified Matrix and places the results in a specified range in a destination array.|
-|[static void Transform(Vector2D\[\], ref Quaternion, Vector2D\[\])](VRageMath.Vector2D.Transform)|Transforms an array of Vector2s by a specified Quaternion.|
-|[static void Transform(Vector2D\[\], int, ref Quaternion, Vector2D\[\], int, int)](VRageMath.Vector2D.Transform)|Transforms a specified range in an array of Vector2s by a specified Quaternion and places the results in a specified range in a destination array.|
+|[static void Transform(Vector2D&#91&#93;, ref Matrix, Vector2D&#91&#93;)](VRageMath.Vector2D.Transform)|Transforms an array of Vector2s by a specified Matrix.|
+|[static void Transform(Vector2D&#91&#93;, int, ref Matrix, Vector2D&#91&#93;, int, int)](VRageMath.Vector2D.Transform)|Transforms a specified range in an array of Vector2s by a specified Matrix and places the results in a specified range in a destination array.|
+|[static void Transform(Vector2D&#91&#93;, ref Quaternion, Vector2D&#91&#93;)](VRageMath.Vector2D.Transform)|Transforms an array of Vector2s by a specified Quaternion.|
+|[static void Transform(Vector2D&#91&#93;, int, ref Quaternion, Vector2D&#91&#93;, int, int)](VRageMath.Vector2D.Transform)|Transforms a specified range in an array of Vector2s by a specified Quaternion and places the results in a specified range in a destination array.|
 |[static Vector2D TransformNormal(Vector2D, Matrix)](VRageMath.Vector2D.TransformNormal)|Transforms a 2D vector normal by a matrix.|
 |[static void TransformNormal(ref Vector2D, ref Matrix, out Vector2D)](VRageMath.Vector2D.TransformNormal)|Transforms a vector normal by a matrix.|
-|[static void TransformNormal(Vector2D\[\], ref Matrix, Vector2D\[\])](VRageMath.Vector2D.TransformNormal)|Transforms an array of Vector2D vector normals by a specified Matrix.|
-|[static void TransformNormal(Vector2D\[\], int, ref Matrix, Vector2D\[\], int, int)](VRageMath.Vector2D.TransformNormal)|Transforms a specified range in an array of Vector2D vector normals by a specified Matrix and places the results in a specified range in a destination array.|
+|[static void TransformNormal(Vector2D&#91&#93;, ref Matrix, Vector2D&#91&#93;)](VRageMath.Vector2D.TransformNormal)|Transforms an array of Vector2D vector normals by a specified Matrix.|
+|[static void TransformNormal(Vector2D&#91&#93;, int, ref Matrix, Vector2D&#91&#93;, int, int)](VRageMath.Vector2D.TransformNormal)|Transforms a specified range in an array of Vector2D vector normals by a specified Matrix and places the results in a specified range in a destination array.|
 |[void AssertIsValid()](VRageMath.Vector2D.AssertIsValid)||
 |[bool Between(ref Vector2D, ref Vector2D)](VRageMath.Vector2D.Between)||
 |[bool Equals(Vector2D)](VRageMath.Vector2D.Equals)|Determines whether the specified Object is equal to the Vector2D.|

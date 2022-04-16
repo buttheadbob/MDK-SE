@@ -12,7 +12,7 @@ Prefer getting definition ID using object builder used to create the item. If yo
 **Assembly:** VRage.Game.dll
 
 **Implements:**  
-* [IEquatable\<MyDefinitionId>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IEquatable&lt;MyDefinitionId&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 

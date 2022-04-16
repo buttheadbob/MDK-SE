@@ -10,5 +10,5 @@ Returns an enumerator that iterates through the CurveKeyCollection.
 
 ### Returns
 
-[IEnumerator\<CurveKey>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerator-1?view=netframework-4.6)
+[IEnumerator&lt;CurveKey&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerator-1?view=netframework-4.6)
 

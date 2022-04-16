@@ -76,5 +76,5 @@ public Vector3I(Byte[] bytes, int index)
 
 ### Parameters
 
-* [Byte\[\]](https://docs.microsoft.com/en-us/dotnet/api/System.Byte\[\]?view=netframework-4.6) bytes
+* [Byte&#91&#93;](https://docs.microsoft.com/en-us/dotnet/api/System.Byte&#91&#93;?view=netframework-4.6) bytes
 * [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) index

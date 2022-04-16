@@ -12,7 +12,7 @@ This can be used only to compare normal vectors of Vector3I, where X, Y and Z ha
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEqualityComparer\<Vector3I>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEqualityComparer-1?view=netframework-4.6)
+* [IEqualityComparer&lt;Vector3I&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEqualityComparer-1?view=netframework-4.6)
 
 #### Constructors
 

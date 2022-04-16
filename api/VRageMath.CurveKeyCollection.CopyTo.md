@@ -10,5 +10,5 @@ Copies the CurveKeys of the CurveKeyCollection to an array, starting at the arra
 
 ### Parameters
 
-* [CurveKey\[\]](VRageMath.CurveKey\[\]) array
+* [CurveKey&#91&#93;](VRageMath.CurveKey&#91&#93;) array
 * [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) arrayIndex

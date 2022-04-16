@@ -48,7 +48,7 @@ Contains commonly used precalculated values.
 |[static double Clamp(double, double, double)](VRageMath.MathHelper.Clamp)|Restricts a value to be within a specified range. Reference page contains links to related code samples.|
 |[static MyFixedPoint Clamp(MyFixedPoint, MyFixedPoint, MyFixedPoint)](VRageMath.MathHelper.Clamp)|Restricts a value to be within a specified range. Reference page contains links to related code samples.|
 |[static int Clamp(int, int, int)](VRageMath.MathHelper.Clamp)|Restricts a value to be within a specified range. Reference page contains links to related code samples.|
-|[static int ComputeHashFromBytes(Byte\[\])](VRageMath.MathHelper.ComputeHashFromBytes)||
+|[static int ComputeHashFromBytes(Byte&#91&#93;)](VRageMath.MathHelper.ComputeHashFromBytes)||
 |[static double CubicInterp(double, double, double, double, double)](VRageMath.MathHelper.CubicInterp)||
 |[static float Distance(float, float)](VRageMath.MathHelper.Distance)|Calculates the absolute value of the difference of two values.|
 |[static int Floor(float)](VRageMath.MathHelper.Floor)||

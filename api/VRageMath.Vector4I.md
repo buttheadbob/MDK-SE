@@ -10,7 +10,7 @@ public struct Vector4I: IComparable<Vector4I>
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IComparable\<Vector4I>](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netframework-4.6)
+* [IComparable&lt;Vector4I&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netframework-4.6)
 
 #### Fields
 

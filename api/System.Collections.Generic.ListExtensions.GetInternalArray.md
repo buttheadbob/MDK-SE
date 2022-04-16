@@ -8,8 +8,8 @@ public static T[] GetInternalArray<T>(this List<T> list)
 
 ### Returns
 
-[T\[\]]()
+[T&#91&#93;]()
 
 ### Parameters
 
-* [List\<T>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) list
+* [List&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) list

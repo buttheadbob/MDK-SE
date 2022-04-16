@@ -12,7 +12,7 @@ Represents the combination of a section and a key in a [MyIni](VRage.Game.ModAPI
 **Assembly:** VRage.Game.dll
 
 **Implements:**  
-* [IEquatable\<MyIniKey>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IEquatable&lt;MyIniKey&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 

@@ -8,4 +8,4 @@ public void CreateFromVertices(Vector3[] vertices)
 
 ### Parameters
 
-* [Vector3\[\]](VRageMath.Vector3\[\]) vertices
+* [Vector3&#91&#93;](VRageMath.Vector3&#91&#93;) vertices

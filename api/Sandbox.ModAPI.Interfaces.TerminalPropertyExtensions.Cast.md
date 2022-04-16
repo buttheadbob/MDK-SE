@@ -8,7 +8,7 @@ public static ITerminalProperty<TValue> Cast<TValue>(this ITerminalProperty pro
 
 ### Returns
 
-[ITerminalProperty\<TValue>]()
+[ITerminalProperty&lt;TValue&gt;]()
 
 ### Parameters
 

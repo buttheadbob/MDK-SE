@@ -20,14 +20,14 @@ public abstract sealed class MyTexts
 |Member|Description|
 |---|---|
 |[static MyStringId GlobalVariantSelector { get; }](VRage.MyTexts.GlobalVariantSelector)|Global selector for translation variants.|
-|[static DictionaryReader\<MyLanguagesEnum, MyLanguageDescription> Languages { get; }](VRage.MyTexts.Languages)||
+|[static DictionaryReader&lt;MyLanguagesEnum, MyLanguageDescription&gt; Languages { get; }](VRage.MyTexts.Languages)||
 
 #### Methods
 
 |Member|Description|
 |---|---|
 |[static StringBuilder AppendFormat(this StringBuilder, MyStringId, object)](VRage.MyTexts.AppendFormat)||
-|[static StringBuilder AppendFormat(this StringBuilder, MyStringId, Object\[\])](VRage.MyTexts.AppendFormat)||
+|[static StringBuilder AppendFormat(this StringBuilder, MyStringId, Object&#91&#93;)](VRage.MyTexts.AppendFormat)||
 |[static StringBuilder AppendFormat(this StringBuilder, MyStringId, MyStringId)](VRage.MyTexts.AppendFormat)||
 |[static void Clear()](VRage.MyTexts.Clear)||
 |[static bool Exists(MyStringId)](VRage.MyTexts.Exists)||
@@ -37,7 +37,7 @@ public abstract sealed class MyTexts
 |[static string GetString(string)](VRage.MyTexts.GetString)||
 |[static string GetSystemLanguage()](VRage.MyTexts.GetSystemLanguage)||
 |[static bool IsTagged(string, int, string)](VRage.MyTexts.IsTagged)||
-|[static void LoadSupportedLanguages(string, HashSet\<MyLanguagesEnum>)](VRage.MyTexts.LoadSupportedLanguages)||
+|[static void LoadSupportedLanguages(string, HashSet&lt;MyLanguagesEnum&gt;)](VRage.MyTexts.LoadSupportedLanguages)||
 |[static void LoadTexts(string, string = null, string = null)](VRage.MyTexts.LoadTexts)||
 |[static bool MatchesReplaceFormat(string)](VRage.MyTexts.MatchesReplaceFormat)||
 |[static void RegisterEvaluator(string, ITextEvaluator)](VRage.MyTexts.RegisterEvaluator)||

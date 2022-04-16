@@ -12,5 +12,5 @@ public struct SwitchEnumerator: IEnumerator<string>, IDisposable, IEnumerator
 **Implements:**  
 * [IDisposable](https://docs.microsoft.com/en-us/dotnet/api/System.IDisposable?view=netframework-4.6)  
 * [IEnumerator](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.IEnumerator?view=netframework-4.6)  
-* [IEnumerator\<string>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerator-1?view=netframework-4.6)
+* [IEnumerator&lt;string&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerator-1?view=netframework-4.6)
 

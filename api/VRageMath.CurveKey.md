@@ -12,8 +12,8 @@ Represents a point in a multi-point curve.
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IComparable\<CurveKey>](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netframework-4.6)  
-* [IEquatable\<CurveKey>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IComparable&lt;CurveKey&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netframework-4.6)  
+* [IEquatable&lt;CurveKey&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Properties
 

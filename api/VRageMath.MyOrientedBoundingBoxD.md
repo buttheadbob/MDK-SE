@@ -10,27 +10,27 @@ public struct MyOrientedBoundingBoxD: IEquatable<MyOrientedBoundingBox>
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable\<MyOrientedBoundingBox>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IEquatable&lt;MyOrientedBoundingBox&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 
 |Member|Description|
 |---|---|
 |[static int CornerCount](VRageMath.MyOrientedBoundingBoxD.CornerCount)||
-|[static Int32\[\] EndVertices](VRageMath.MyOrientedBoundingBoxD.EndVertices)||
-|[static Int32\[\] EndXVertices](VRageMath.MyOrientedBoundingBoxD.EndXVertices)||
-|[static Int32\[\] EndYVertices](VRageMath.MyOrientedBoundingBoxD.EndYVertices)||
-|[static Int32\[\] EndZVertices](VRageMath.MyOrientedBoundingBoxD.EndZVertices)||
-|[static Int32\[\] StartVertices](VRageMath.MyOrientedBoundingBoxD.StartVertices)||
-|[static Int32\[\] StartXVertices](VRageMath.MyOrientedBoundingBoxD.StartXVertices)||
-|[static Int32\[\] StartYVertices](VRageMath.MyOrientedBoundingBoxD.StartYVertices)||
-|[static Int32\[\] StartZVertices](VRageMath.MyOrientedBoundingBoxD.StartZVertices)||
-|[static Vector3\[\] XNeighbourVectorsBack](VRageMath.MyOrientedBoundingBoxD.XNeighbourVectorsBack)||
-|[static Vector3\[\] XNeighbourVectorsForw](VRageMath.MyOrientedBoundingBoxD.XNeighbourVectorsForw)||
-|[static Vector3\[\] YNeighbourVectorsBack](VRageMath.MyOrientedBoundingBoxD.YNeighbourVectorsBack)||
-|[static Vector3\[\] YNeighbourVectorsForw](VRageMath.MyOrientedBoundingBoxD.YNeighbourVectorsForw)||
-|[static Vector3\[\] ZNeighbourVectorsBack](VRageMath.MyOrientedBoundingBoxD.ZNeighbourVectorsBack)||
-|[static Vector3\[\] ZNeighbourVectorsForw](VRageMath.MyOrientedBoundingBoxD.ZNeighbourVectorsForw)||
+|[static Int32&#91&#93; EndVertices](VRageMath.MyOrientedBoundingBoxD.EndVertices)||
+|[static Int32&#91&#93; EndXVertices](VRageMath.MyOrientedBoundingBoxD.EndXVertices)||
+|[static Int32&#91&#93; EndYVertices](VRageMath.MyOrientedBoundingBoxD.EndYVertices)||
+|[static Int32&#91&#93; EndZVertices](VRageMath.MyOrientedBoundingBoxD.EndZVertices)||
+|[static Int32&#91&#93; StartVertices](VRageMath.MyOrientedBoundingBoxD.StartVertices)||
+|[static Int32&#91&#93; StartXVertices](VRageMath.MyOrientedBoundingBoxD.StartXVertices)||
+|[static Int32&#91&#93; StartYVertices](VRageMath.MyOrientedBoundingBoxD.StartYVertices)||
+|[static Int32&#91&#93; StartZVertices](VRageMath.MyOrientedBoundingBoxD.StartZVertices)||
+|[static Vector3&#91&#93; XNeighbourVectorsBack](VRageMath.MyOrientedBoundingBoxD.XNeighbourVectorsBack)||
+|[static Vector3&#91&#93; XNeighbourVectorsForw](VRageMath.MyOrientedBoundingBoxD.XNeighbourVectorsForw)||
+|[static Vector3&#91&#93; YNeighbourVectorsBack](VRageMath.MyOrientedBoundingBoxD.YNeighbourVectorsBack)||
+|[static Vector3&#91&#93; YNeighbourVectorsForw](VRageMath.MyOrientedBoundingBoxD.YNeighbourVectorsForw)||
+|[static Vector3&#91&#93; ZNeighbourVectorsBack](VRageMath.MyOrientedBoundingBoxD.ZNeighbourVectorsBack)||
+|[static Vector3&#91&#93; ZNeighbourVectorsForw](VRageMath.MyOrientedBoundingBoxD.ZNeighbourVectorsForw)||
 |[Vector3D Center](VRageMath.MyOrientedBoundingBoxD.Center)||
 |[Vector3D HalfExtent](VRageMath.MyOrientedBoundingBoxD.HalfExtent)||
 |[Quaternion Orientation](VRageMath.MyOrientedBoundingBoxD.Orientation)||
@@ -66,7 +66,7 @@ public struct MyOrientedBoundingBoxD: IEquatable<MyOrientedBoundingBox>
 |[bool Equals(MyOrientedBoundingBox)](VRageMath.MyOrientedBoundingBoxD.Equals)||
 |[bool Equals(object)](VRageMath.MyOrientedBoundingBoxD.Equals)||
 |[BoundingBoxD GetAABB()](VRageMath.MyOrientedBoundingBoxD.GetAABB)||
-|[void GetCorners(Vector3D\[\], int)](VRageMath.MyOrientedBoundingBoxD.GetCorners)||
+|[void GetCorners(Vector3D&#91&#93;, int)](VRageMath.MyOrientedBoundingBoxD.GetCorners)||
 |[int GetHashCode()](VRageMath.MyOrientedBoundingBoxD.GetHashCode)||
 |[bool Intersects(ref BoundingBox)](VRageMath.MyOrientedBoundingBoxD.Intersects)||
 |[bool Intersects(ref BoundingBoxD)](VRageMath.MyOrientedBoundingBoxD.Intersects)||

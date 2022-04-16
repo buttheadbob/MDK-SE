@@ -132,9 +132,9 @@ Transforms an array of 3D vector normals by a specified Matrix.
 
 ### Parameters
 
-* [Vector3\[\]](VRageMath.Vector3\[\]) sourceArray
+* [Vector3&#91&#93;](VRageMath.Vector3&#91&#93;) sourceArray
 * [Matrix](VRageMath.Matrix) matrix
-* [Vector3\[\]](VRageMath.Vector3\[\]) destinationArray
+* [Vector3&#91&#93;](VRageMath.Vector3&#91&#93;) destinationArray
 ### Summary
 
 ```csharp
@@ -145,9 +145,9 @@ Transforms a specified range in an array of 3D vector normals by a specified Mat
 
 ### Parameters
 
-* [Vector3\[\]](VRageMath.Vector3\[\]) sourceArray
+* [Vector3&#91&#93;](VRageMath.Vector3&#91&#93;) sourceArray
 * [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) sourceIndex
 * [Matrix](VRageMath.Matrix) matrix
-* [Vector3\[\]](VRageMath.Vector3\[\]) destinationArray
+* [Vector3&#91&#93;](VRageMath.Vector3&#91&#93;) destinationArray
 * [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) destinationIndex
 * [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) length

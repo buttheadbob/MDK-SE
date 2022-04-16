@@ -12,7 +12,7 @@ public static TValue GetOrAdd<TKey, TValue, TContext>(this ConcurrentDictionary
 
 ### Parameters
 
-* [ConcurrentDictionary\<TKey, TValue>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Concurrent.ConcurrentDictionary-2?view=netframework-4.6) dictionary
+* [ConcurrentDictionary&lt;TKey, TValue&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Concurrent.ConcurrentDictionary-2?view=netframework-4.6) dictionary
 * [TKey]() key
 * [TContext]() context
-* [Func\<TContext, TKey, TValue>](https://docs.microsoft.com/en-us/dotnet/api/System.Func-3?view=netframework-4.6) activator
+* [Func&lt;TContext, TKey, TValue&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Func-3?view=netframework-4.6) activator

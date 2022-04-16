@@ -10,7 +10,7 @@ Gets an array of points that make up the corners of the BoundingBox. ALLOCATION!
 
 ### Returns
 
-[Vector3D\[\]](VRageMath.Vector3D\[\])
+[Vector3D&#91&#93;](VRageMath.Vector3D&#91&#93;)
 
 ### Summary
 
@@ -22,4 +22,4 @@ Gets the array of points that make up the corners of the BoundingBox.
 
 ### Parameters
 
-* [Vector3D\[\]](VRageMath.Vector3D\[\]) corners
+* [Vector3D&#91&#93;](VRageMath.Vector3D&#91&#93;) corners

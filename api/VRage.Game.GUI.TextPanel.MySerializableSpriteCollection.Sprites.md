@@ -8,5 +8,5 @@ public MySerializableSprite[] Sprites
 
 ### Returns
 
-[MySerializableSprite\[\]](VRage.Game.GUI.TextPanel.MySerializableSprite\[\])
+[MySerializableSprite&#91&#93;](VRage.Game.GUI.TextPanel.MySerializableSprite&#91&#93;)
 

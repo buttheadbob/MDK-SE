@@ -8,5 +8,5 @@ public Line[] Lines
 
 ### Returns
 
-[Line\[\]](VRageMath.Line\[\])
+[Line&#91&#93;](VRageMath.Line&#91&#93;)
 

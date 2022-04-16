@@ -10,5 +10,5 @@ public class DefinitionIdComparerType: IEqualityComparer<MyDefinitionId>
 **Assembly:** VRage.Game.dll
 
 **Implements:**  
-* [IEqualityComparer\<MyDefinitionId>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEqualityComparer-1?view=netframework-4.6)
+* [IEqualityComparer&lt;MyDefinitionId&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEqualityComparer-1?view=netframework-4.6)
 

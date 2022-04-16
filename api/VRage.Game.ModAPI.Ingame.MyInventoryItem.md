@@ -12,8 +12,8 @@ Snapshot of inventory item at the moment of query. Not updated afterwards!
 **Assembly:** VRage.Game.dll
 
 **Implements:**  
-* [IComparable\<MyInventoryItem>](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netframework-4.6)  
-* [IEquatable\<MyInventoryItem>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IComparable&lt;MyInventoryItem&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netframework-4.6)  
+* [IEquatable&lt;MyInventoryItem&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 

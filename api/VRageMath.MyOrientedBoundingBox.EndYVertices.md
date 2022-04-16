@@ -8,5 +8,5 @@ public static Int32[] EndYVertices
 
 ### Returns
 
-[Int32\[\]](https://docs.microsoft.com/en-us/dotnet/api/System.Int32\[\]?view=netframework-4.6)
+[Int32&#91&#93;](https://docs.microsoft.com/en-us/dotnet/api/System.Int32&#91&#93;?view=netframework-4.6)
 

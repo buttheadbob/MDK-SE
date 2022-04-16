@@ -3,7 +3,7 @@
 #### MyWaypointInfo Struct
 
 ```csharp
-public struct MyWaypointInfo: IEquatable<Sandbox.ModAPI.Ingame.MyWaypointInfo>
+public struct MyWaypointInfo: IEquatable<MyWaypointInfo>
 ```
 
 Represents a GPS coordinate
@@ -12,7 +12,7 @@ Represents a GPS coordinate
 **Assembly:** Sandbox.Common.dll
 
 **Implements:**  
-* [IEquatable<Sandbox.ModAPI.Ingame.MyWaypointInfo>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IEquatable<MyWaypointInfo>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 
@@ -33,7 +33,7 @@ Represents a GPS coordinate
 
 |Member|Description|
 |---|---|
-|[static void FindAll(string, List<Sandbox.ModAPI.Ingame.MyWaypointInfo>)](Sandbox.ModAPI.Ingame.MyWaypointInfo.FindAll)|Searches for all GPS coordinates in the given text.|
+|[static void FindAll(string, List<MyWaypointInfo>)](Sandbox.ModAPI.Ingame.MyWaypointInfo.FindAll)|Searches for all GPS coordinates in the given text.|
 |[static bool TryParse(string, out MyWaypointInfo)](Sandbox.ModAPI.Ingame.MyWaypointInfo.TryParse)|Attempts to parse a GPS coordinate from the given text. The text cannot contain anything but the GPS coordinate.<br /><br />A GPS coordinate has the format GPS:Name:X:Y:Z:|
 |[bool Equals(MyWaypointInfo)](Sandbox.ModAPI.Ingame.MyWaypointInfo.Equals)|Determines whether this coordinate is the same as another. Uses 0.0001 as the epsilon to counter floating point inaccuracies.|
 |[bool Equals(MyWaypointInfo, double)](Sandbox.ModAPI.Ingame.MyWaypointInfo.Equals)|Determines whether this coordinate is the same as another. Uses 0.0001 as the epsilon to counter floating point inaccuracies.|

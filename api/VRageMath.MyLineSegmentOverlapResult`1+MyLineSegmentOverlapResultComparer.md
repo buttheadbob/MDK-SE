@@ -3,12 +3,12 @@
 #### MyLineSegmentOverlapResultComparer&lt;T&gt; Class
 
 ```csharp
-public class MyLineSegmentOverlapResultComparer<T>: IComparer<>
+public class MyLineSegmentOverlapResultComparer<T>: IComparer<MyLineSegmentOverlapResult<T>>
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IComparer<>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IComparer-1?view=netframework-4.6)
+* [IComparer<MyLineSegmentOverlapResult<T>>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IComparer-1?view=netframework-4.6)
 

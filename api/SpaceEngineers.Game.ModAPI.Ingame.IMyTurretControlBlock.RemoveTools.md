@@ -3,11 +3,11 @@
 ### Summary
 
 ```csharp
-public void RemoveTools(List<Sandbox.ModAPI.Ingame.IMyFunctionalBlock> tool)
+public void RemoveTools(List<IMyFunctionalBlock> tool)
 ```
 
 Removes tools for the block
 
 ### Parameters
 
-* [List<Sandbox.ModAPI.Ingame.IMyFunctionalBlock>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) tool
+* [List<IMyFunctionalBlock>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) tool

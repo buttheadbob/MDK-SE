@@ -3,11 +3,11 @@
 ### Summary
 
 ```csharp
-public void GetQueue(List<Sandbox.ModAPI.Ingame.MyProductionItem> items)
+public void GetQueue(List<MyProductionItem> items)
 ```
 
 Gets the current production queue
 
 ### Parameters
 
-* [List<Sandbox.ModAPI.Ingame.MyProductionItem>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) items
+* [List<MyProductionItem>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) items

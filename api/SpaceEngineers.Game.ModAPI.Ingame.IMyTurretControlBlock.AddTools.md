@@ -3,11 +3,11 @@
 ### Summary
 
 ```csharp
-public void AddTools(List<Sandbox.ModAPI.Ingame.IMyFunctionalBlock> tools)
+public void AddTools(List<IMyFunctionalBlock> tools)
 ```
 
 Adds tools for the block
 
 ### Parameters
 
-* [List<Sandbox.ModAPI.Ingame.IMyFunctionalBlock>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) tools
+* [List<IMyFunctionalBlock>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) tools

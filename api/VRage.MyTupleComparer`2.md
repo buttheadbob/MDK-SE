@@ -3,14 +3,14 @@
 #### MyTupleComparer&lt;T1, T2&gt; Class
 
 ```csharp
-public class MyTupleComparer<T1, T2>: IEqualityComparer<>
+public class MyTupleComparer<T1, T2>: IEqualityComparer<MyTuple<T1, T2>>
 ```
 
 **Namespace:** [VRage](VRage)  
 **Assembly:** VRage.Library.dll
 
 **Implements:**  
-* [IEqualityComparer<>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEqualityComparer-1?view=netframework-4.6)
+* [IEqualityComparer<MyTuple<T1, T2>>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEqualityComparer-1?view=netframework-4.6)
 
 #### Constructors
 

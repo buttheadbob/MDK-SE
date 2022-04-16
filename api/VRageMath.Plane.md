@@ -3,7 +3,7 @@
 #### Plane Struct
 
 ```csharp
-public struct Plane: IEquatable<VRageMath.Plane>
+public struct Plane: IEquatable<Plane>
 ```
 
 Defines a plane.
@@ -12,7 +12,7 @@ Defines a plane.
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable<VRageMath.Plane>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IEquatable<Plane>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 

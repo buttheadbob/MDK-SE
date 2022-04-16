@@ -3,14 +3,14 @@
 #### MySprite Struct
 
 ```csharp
-public struct MySprite: IEquatable<VRage.Game.GUI.TextPanel.MySprite>
+public struct MySprite: IEquatable<MySprite>
 ```
 
 **Namespace:** [VRage.Game.GUI.TextPanel](VRage.Game.GUI.TextPanel)  
 **Assembly:** VRage.Game.dll
 
 **Implements:**  
-* [IEquatable<VRage.Game.GUI.TextPanel.MySprite>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IEquatable<MySprite>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 

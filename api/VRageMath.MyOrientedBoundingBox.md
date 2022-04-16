@@ -3,14 +3,14 @@
 #### MyOrientedBoundingBox Struct
 
 ```csharp
-public struct MyOrientedBoundingBox: IEquatable<VRageMath.MyOrientedBoundingBox>
+public struct MyOrientedBoundingBox: IEquatable<MyOrientedBoundingBox>
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable<VRageMath.MyOrientedBoundingBox>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IEquatable<MyOrientedBoundingBox>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 

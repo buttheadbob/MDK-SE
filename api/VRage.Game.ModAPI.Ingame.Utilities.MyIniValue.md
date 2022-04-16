@@ -34,7 +34,7 @@ Represents the value of a single configuration item.
 
 |Member|Description|
 |---|---|
-|[void GetLines(List<System.String>)](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue.GetLines)|Retrieves each individual line of this value into the provided list.|
+|[void GetLines(List<string>)](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue.GetLines)|Retrieves each individual line of this value into the provided list.|
 |[bool ToBoolean([bool])](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue.ToBoolean)|Attempts to get this value as a [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) . If the value is empty or cannot be understood as this data type, the defaultValue will be returned instead.|
 |[byte ToByte([byte])](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue.ToByte)|Attempts to get this value as a [System.Byte](https://docs.microsoft.com/en-us/dotnet/api/system.byte?view=netframework-4.6) . If the value is empty or cannot be understood as this data type, the defaultValue will be returned instead.|
 |[char ToChar([char])](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue.ToChar)|Attempts to get this value as a [System.Char](https://docs.microsoft.com/en-us/dotnet/api/system.char?view=netframework-4.6) . If the value is empty or cannot be understood as this data type, the defaultValue will be returned instead.|

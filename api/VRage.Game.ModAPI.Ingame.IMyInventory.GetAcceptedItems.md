@@ -3,12 +3,12 @@
 ### Summary
 
 ```csharp
-public void GetAcceptedItems(List<VRage.Game.ModAPI.Ingame.MyItemType> itemsTypes, [Func<VRage.Game.ModAPI.Ingame.MyItemType, System.Boolean> filter])
+public void GetAcceptedItems(List<MyItemType> itemsTypes, [Func<MyItemType, bool> filter])
 ```
 
 Returns all items this inventory accepts.
 
 ### Parameters
 
-* [List<VRage.Game.ModAPI.Ingame.MyItemType>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) itemsTypes
-* [Func<VRage.Game.ModAPI.Ingame.MyItemType, System.Boolean>](https://docs.microsoft.com/en-us/dotnet/api/System.Func-2?view=netframework-4.6) filter
+* [List<MyItemType>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) itemsTypes
+* [Func<MyItemType, bool>](https://docs.microsoft.com/en-us/dotnet/api/System.Func-2?view=netframework-4.6) filter

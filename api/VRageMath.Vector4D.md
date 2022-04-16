@@ -3,7 +3,7 @@
 #### Vector4D Struct
 
 ```csharp
-public struct Vector4D: IEquatable<VRageMath.Vector4>
+public struct Vector4D: IEquatable<Vector4>
 ```
 
 Defines a vector with four components.
@@ -12,7 +12,7 @@ Defines a vector with four components.
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable<VRageMath.Vector4>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IEquatable<Vector4>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 

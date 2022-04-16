@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static T MaxBy<T>(this IEnumerable<T> source, Func<T, System.Single> selector)
+public static T MaxBy<T>(this IEnumerable<T> source, Func<T, float> selector)
 ```
 
 ### Returns
@@ -13,7 +13,7 @@ public static T MaxBy<T>(this IEnumerable<T> source, Func<T, System.Single> sel
 ### Parameters
 
 * [IEnumerable<T>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1?view=netframework-4.6) source
-* [Func<T, System.Single>](https://docs.microsoft.com/en-us/dotnet/api/System.Func-2?view=netframework-4.6) selector
+* [Func<T, float>](https://docs.microsoft.com/en-us/dotnet/api/System.Func-2?view=netframework-4.6) selector
 ### Summary
 
 ```csharp

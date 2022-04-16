@@ -3,14 +3,14 @@
 #### Vector4I Struct
 
 ```csharp
-public struct Vector4I: IComparable<VRageMath.Vector4I>
+public struct Vector4I: IComparable<Vector4I>
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IComparable<VRageMath.Vector4I>](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netframework-4.6)
+* [IComparable<Vector4I>](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netframework-4.6)
 
 #### Fields
 

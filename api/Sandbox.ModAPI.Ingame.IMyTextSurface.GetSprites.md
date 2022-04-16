@@ -3,11 +3,11 @@
 ### Summary
 
 ```csharp
-public void GetSprites(List<System.String> sprites)
+public void GetSprites(List<string> sprites)
 ```
 
 Gets a list of available sprites
 
 ### Parameters
 
-* [List<System.String>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) sprites
+* [List<string>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) sprites

@@ -3,7 +3,7 @@
 #### MyIniKey Struct
 
 ```csharp
-public struct MyIniKey: IEquatable<VRage.Game.ModAPI.Ingame.Utilities.MyIniKey>
+public struct MyIniKey: IEquatable<MyIniKey>
 ```
 
 Represents the combination of a section and a key in a [MyIni](VRage.Game.ModAPI.Ingame.Utilities.MyIni) structure.
@@ -12,7 +12,7 @@ Represents the combination of a section and a key in a [MyIni](VRage.Game.ModAPI
 **Assembly:** VRage.Game.dll
 
 **Implements:**  
-* [IEquatable<VRage.Game.ModAPI.Ingame.Utilities.MyIniKey>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IEquatable<MyIniKey>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 

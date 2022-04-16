@@ -3,7 +3,7 @@
 #### BoundingBoxI Struct
 
 ```csharp
-public struct BoundingBoxI: IEquatable<VRageMath.BoundingBoxI>
+public struct BoundingBoxI: IEquatable<BoundingBoxI>
 ```
 
 Defines an axis-aligned box-shaped 3D volume.
@@ -12,7 +12,7 @@ Defines an axis-aligned box-shaped 3D volume.
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable<VRageMath.BoundingBoxI>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IEquatable<BoundingBoxI>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 
@@ -43,14 +43,14 @@ Defines an axis-aligned box-shaped 3D volume.
 
 |Member|Description|
 |---|---|
-|[static BoundingBoxI CreateFromPoints(IEnumerable<VRageMath.Vector3I>)](VRageMath.BoundingBoxI.CreateFromPoints)|Creates the smallest BoundingBoxI that will contain a group of points.|
+|[static BoundingBoxI CreateFromPoints(IEnumerable<Vector3I>)](VRageMath.BoundingBoxI.CreateFromPoints)|Creates the smallest BoundingBoxI that will contain a group of points.|
 |[static BoundingBoxI CreateFromSphere(BoundingSphere)](VRageMath.BoundingBoxI.CreateFromSphere)|Creates the smallest BoundingBoxI that will contain the specified BoundingSphere.|
 |[static void CreateFromSphere(ref BoundingSphere, out BoundingBoxI)](VRageMath.BoundingBoxI.CreateFromSphere)|Creates the smallest BoundingBoxI that will contain the specified BoundingSphere.|
 |[static BoundingBoxI CreateInvalid()](VRageMath.BoundingBoxI.CreateInvalid)||
 |[static BoundingBoxI CreateMerged(BoundingBoxI, BoundingBoxI)](VRageMath.BoundingBoxI.CreateMerged)|Creates the smallest BoundingBoxI that contains the two specified BoundingBoxI instances.|
 |[static void CreateMerged(ref BoundingBoxI, ref BoundingBoxI, out BoundingBoxI)](VRageMath.BoundingBoxI.CreateMerged)|Creates the smallest BoundingBoxI that contains the two specified BoundingBoxI instances.|
-|[static IEnumerable<VRageMath.Vector3I> EnumeratePoints(BoundingBoxI)](VRageMath.BoundingBoxI.EnumeratePoints)|Enumerate all values in a integer interval (a cuboid). This method is an allocating version of the Vector3I_RangeIterator. This once can be used in the foreach syntax though so it's more convenient for debug routines.|
-|[static IEnumerable<VRageMath.Vector3I> IterateDifference(BoundingBoxI, BoundingBoxI)](VRageMath.BoundingBoxI.IterateDifference)|Iterate every cell contained in {left} - {right}, where we interpret {box} as the set of all distinct Vector3I points inside a 'box'. Containment is taken in a typical inclusive start, exclusive end fashion.|
+|[static IEnumerable<Vector3I> EnumeratePoints(BoundingBoxI)](VRageMath.BoundingBoxI.EnumeratePoints)|Enumerate all values in a integer interval (a cuboid). This method is an allocating version of the Vector3I_RangeIterator. This once can be used in the foreach syntax though so it's more convenient for debug routines.|
+|[static IEnumerable<Vector3I> IterateDifference(BoundingBoxI, BoundingBoxI)](VRageMath.BoundingBoxI.IterateDifference)|Iterate every cell contained in {left} - {right}, where we interpret {box} as the set of all distinct Vector3I points inside a 'box'. Containment is taken in a typical inclusive start, exclusive end fashion.|
 |[ContainmentType Contains(BoundingBoxI)](VRageMath.BoundingBoxI.Contains)|Tests whether the BoundingBoxI contains another BoundingBoxI.|
 |[void Contains(ref BoundingBoxI, out ContainmentType)](VRageMath.BoundingBoxI.Contains)|Tests whether the BoundingBoxI contains a BoundingBoxI.|
 |[ContainmentType Contains(Vector3I)](VRageMath.BoundingBoxI.Contains)|Tests whether the BoundingBoxI contains a point.|

@@ -3,7 +3,7 @@
 #### Rectangle Struct
 
 ```csharp
-public struct Rectangle: IEquatable<VRageMath.Rectangle>
+public struct Rectangle: IEquatable<Rectangle>
 ```
 
 Defines a rectangle.
@@ -12,7 +12,7 @@ Defines a rectangle.
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable<VRageMath.Rectangle>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IEquatable<Rectangle>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 

@@ -3,7 +3,7 @@
 #### BoundingFrustum Class
 
 ```csharp
-public class BoundingFrustum: IEquatable<VRageMath.BoundingFrustum>
+public class BoundingFrustum: IEquatable<BoundingFrustum>
 ```
 
 Defines a frustum and helps determine whether forms intersect with it.
@@ -12,7 +12,7 @@ Defines a frustum and helps determine whether forms intersect with it.
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable<VRageMath.BoundingFrustum>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IEquatable<BoundingFrustum>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Fields
 

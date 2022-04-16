@@ -3,7 +3,7 @@
 #### Color Struct
 
 ```csharp
-public struct Color: IPackedVector<System.UInt32>, IPackedVector, IEquatable<VRageMath.Color>
+public struct Color: IPackedVector<uint>, IPackedVector, IEquatable<Color>
 ```
 
 Represents a four-component color using red, green, blue, and alpha data.
@@ -12,9 +12,9 @@ Represents a four-component color using red, green, blue, and alpha data.
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEquatable<VRageMath.Color>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)  
+* [IEquatable<Color>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)  
 * [IPackedVector](VRageMath.PackedVector.IPackedVector)  
-* [IPackedVector<System.UInt32>](VRageMath.PackedVector.IPackedVector`1[[System.UInt32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]])
+* [IPackedVector<uint>](VRageMath.PackedVector.IPackedVector`1[[System.UInt32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]])
 
 #### Fields
 

@@ -3,7 +3,7 @@
 #### Enumerator Struct
 
 ```csharp
-public struct Enumerator: IEnumerator<System.String>, IDisposable, IEnumerator
+public struct Enumerator: IEnumerator<string>, IDisposable, IEnumerator
 ```
 
 **Namespace:** [VRage.Game.ModAPI.Ingame.Utilities](VRage.Game.ModAPI.Ingame.Utilities)  
@@ -12,5 +12,5 @@ public struct Enumerator: IEnumerator<System.String>, IDisposable, IEnumerator
 **Implements:**  
 * [IDisposable](https://docs.microsoft.com/en-us/dotnet/api/System.IDisposable?view=netframework-4.6)  
 * [IEnumerator](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.IEnumerator?view=netframework-4.6)  
-* [IEnumerator<System.String>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerator-1?view=netframework-4.6)
+* [IEnumerator<string>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerator-1?view=netframework-4.6)
 

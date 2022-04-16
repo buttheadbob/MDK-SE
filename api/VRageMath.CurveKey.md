@@ -3,7 +3,7 @@
 #### CurveKey Class
 
 ```csharp
-public class CurveKey: IEquatable<VRageMath.CurveKey>, IComparable<VRageMath.CurveKey>
+public class CurveKey: IEquatable<CurveKey>, IComparable<CurveKey>
 ```
 
 Represents a point in a multi-point curve.
@@ -12,8 +12,8 @@ Represents a point in a multi-point curve.
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IComparable<VRageMath.CurveKey>](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netframework-4.6)  
-* [IEquatable<VRageMath.CurveKey>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
+* [IComparable<CurveKey>](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable-1?view=netframework-4.6)  
+* [IEquatable<CurveKey>](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)
 
 #### Properties
 

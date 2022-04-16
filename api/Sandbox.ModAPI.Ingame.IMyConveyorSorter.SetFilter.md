@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void SetFilter(MyConveyorSorterMode mode, List<Sandbox.ModAPI.Ingame.MyInventoryItemFilter> items)
+public void SetFilter(MyConveyorSorterMode mode, List<MyInventoryItemFilter> items)
 ```
 
 Changes the sorter to desired mode and filters the provided items. You can pass in`null`to empty the list.
@@ -11,4 +11,4 @@ Changes the sorter to desired mode and filters the provided items. You can pass 
 ### Parameters
 
 * [MyConveyorSorterMode](Sandbox.ModAPI.Ingame.MyConveyorSorterMode) mode
-* [List<Sandbox.ModAPI.Ingame.MyInventoryItemFilter>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) items
+* [List<MyInventoryItemFilter>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) items

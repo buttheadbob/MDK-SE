@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static bool TryDequeueSync<T>(this Queue<T> queue, out T result)
+public static bool TryDequeueSync<T>(this Queue queue, out T result)
 ```
 
 ### Returns

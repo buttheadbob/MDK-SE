@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static void AssertEmpty<K, V>(this Dictionary<K, V> collection)
+public static void AssertEmpty<K, V>(this Dictionary collection)
 ```
 
 ### Parameters

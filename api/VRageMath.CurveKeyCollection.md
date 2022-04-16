@@ -3,7 +3,7 @@
 #### CurveKeyCollection Class
 
 ```csharp
-public class CurveKeyCollection: ICollection<VRageMath.CurveKey>, IEnumerable<VRageMath.CurveKey>, IEnumerable
+public class CurveKeyCollection: ICollection, IEnumerable, IEnumerable
 ```
 
 Contains the CurveKeys making up a Curve.

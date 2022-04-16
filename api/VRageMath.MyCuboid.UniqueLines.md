@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public IEnumerable<VRageMath.Line> UniqueLines { get; }
+public IEnumerable UniqueLines { get; }
 ```
 
 ### Returns

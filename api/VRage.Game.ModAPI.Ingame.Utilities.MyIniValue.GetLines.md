@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetLines(List<System.String> lines)
+public void GetLines(List lines)
 ```
 
 Retrieves each individual line of this value into the provided list.

@@ -12,7 +12,7 @@ public void Apply(IMyCubeBlock block)
 ### Summary
 
 ```csharp
-public void Apply(IMyCubeBlock block, ListReader<Sandbox.ModAPI.Ingame.TerminalActionParameter> terminalActionParameters)
+public void Apply(IMyCubeBlock block, ListReader terminalActionParameters)
 ```
 
 ### Parameters

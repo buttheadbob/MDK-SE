@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetAllNodeBounds(List<VRageMath.BoundingBox> boxsList)
+public void GetAllNodeBounds(List boxsList)
 ```
 
 ### Parameters

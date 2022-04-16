@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetPlayerStoreItems(List<Sandbox.ModAPI.Ingame.MyStoreQueryItem> storeItems)
+public void GetPlayerStoreItems(List storeItems)
 ```
 
 Returns player store items.

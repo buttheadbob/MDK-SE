@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static ListReader<T> Empty
+public static ListReader Empty
 ```
 
 ### Returns

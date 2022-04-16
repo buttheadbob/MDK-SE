@@ -3,7 +3,7 @@
 #### MyWaypointInfo Struct
 
 ```csharp
-public struct MyWaypointInfo: IEquatable<Sandbox.ModAPI.Ingame.MyWaypointInfo>
+public struct MyWaypointInfo: IEquatable
 ```
 
 Represents a GPS coordinate

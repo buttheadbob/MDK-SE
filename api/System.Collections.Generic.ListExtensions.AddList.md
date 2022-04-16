@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static void AddList<T>(this List<T> list, List<T> itemsToAdd)
+public static void AddList<T>(this List list, List itemsToAdd)
 ```
 
 ### Parameters

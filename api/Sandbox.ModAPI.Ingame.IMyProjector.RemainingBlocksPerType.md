@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Dictionary<VRage.Game.MyDefinitionBase, System.Int32> RemainingBlocksPerType { get; }
+public Dictionary RemainingBlocksPerType { get; }
 ```
 
 Gets comprehensive list of blocks left to be welded

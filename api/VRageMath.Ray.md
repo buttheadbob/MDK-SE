@@ -3,7 +3,7 @@
 #### Ray Struct
 
 ```csharp
-public struct Ray: IEquatable<VRageMath.Ray>
+public struct Ray: IEquatable
 ```
 
 Defines a ray.

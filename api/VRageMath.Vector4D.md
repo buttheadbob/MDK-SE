@@ -3,7 +3,7 @@
 #### Vector4D Struct
 
 ```csharp
-public struct Vector4D: IEquatable<VRageMath.Vector4>
+public struct Vector4D: IEquatable
 ```
 
 Defines a vector with four components.

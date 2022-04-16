@@ -3,7 +3,7 @@
 #### Vector3INormalEqualityComparer Class
 
 ```csharp
-public class Vector3INormalEqualityComparer: IEqualityComparer<VRageMath.Vector3I>
+public class Vector3INormalEqualityComparer: IEqualityComparer
 ```
 
 This can be used only to compare normal vectors of Vector3I, where X, Y and Z has values -1, 0 or 1

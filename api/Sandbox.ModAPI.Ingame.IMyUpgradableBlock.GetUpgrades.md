@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetUpgrades(out Dictionary<System.String, System.Single> upgrades)
+public void GetUpgrades(out Dictionary upgrades)
 ```
 
 Get list of upgrades. Read only.

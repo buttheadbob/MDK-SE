@@ -3,7 +3,7 @@
 #### MySprite Struct
 
 ```csharp
-public struct MySprite: IEquatable<VRage.Game.GUI.TextPanel.MySprite>
+public struct MySprite: IEquatable
 ```
 
 **Namespace:** [VRage.Game.GUI.TextPanel](VRage.Game.GUI.TextPanel)  

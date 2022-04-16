@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static BoundingBox2D CreateFromPoints(IEnumerable<VRageMath.Vector2D> points)
+public static BoundingBox2D CreateFromPoints(IEnumerable points)
 ```
 
 Creates the smallest BoundingBox2D that will contain a group of points.

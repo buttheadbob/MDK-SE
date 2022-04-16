@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool Equals(MyTuple<T1, T2> x, MyTuple<T1, T2> y)
+public bool Equals(MyTuple x, MyTuple y)
 ```
 
 ### Returns

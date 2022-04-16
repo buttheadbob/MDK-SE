@@ -3,7 +3,7 @@
 #### RectangleF Struct
 
 ```csharp
-public struct RectangleF: IEquatable<VRageMath.RectangleF>
+public struct RectangleF: IEquatable
 ```
 
 Structure using the same layout than [System.Drawing.RectangleF](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.rectanglef?view=netframework-4.6) 

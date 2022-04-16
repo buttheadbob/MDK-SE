@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public IEnumerator<VRageMath.CurveKey> GetEnumerator()
+public IEnumerator GetEnumerator()
 ```
 
 Returns an enumerator that iterates through the CurveKeyCollection.

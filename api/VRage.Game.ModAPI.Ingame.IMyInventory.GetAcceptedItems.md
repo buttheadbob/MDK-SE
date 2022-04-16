@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetAcceptedItems(List<VRage.Game.ModAPI.Ingame.MyItemType> itemsTypes, [Func<VRage.Game.ModAPI.Ingame.MyItemType, System.Boolean> filter])
+public void GetAcceptedItems(List itemsTypes, [Func filter])
 ```
 
 Returns all items this inventory accepts.

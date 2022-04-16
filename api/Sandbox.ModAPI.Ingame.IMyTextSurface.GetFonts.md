@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetFonts(List<System.String> fonts)
+public void GetFonts(List fonts)
 ```
 
 Gets a list of available fonts

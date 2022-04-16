@@ -3,7 +3,7 @@
 #### Point Struct
 
 ```csharp
-public struct Point: IEquatable<VRageMath.Point>
+public struct Point: IEquatable
 ```
 
 Defines a point in 2D space.

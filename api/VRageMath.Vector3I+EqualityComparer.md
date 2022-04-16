@@ -3,7 +3,7 @@
 #### EqualityComparer Class
 
 ```csharp
-public class EqualityComparer: IEqualityComparer<VRageMath.Vector3I>, IComparer<VRageMath.Vector3I>
+public class EqualityComparer: IEqualityComparer, IComparer
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

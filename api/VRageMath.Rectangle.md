@@ -3,7 +3,7 @@
 #### Rectangle Struct
 
 ```csharp
-public struct Rectangle: IEquatable<VRageMath.Rectangle>
+public struct Rectangle: IEquatable
 ```
 
 Defines a rectangle.

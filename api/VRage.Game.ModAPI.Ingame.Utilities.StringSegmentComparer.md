@@ -3,7 +3,7 @@
 #### StringSegmentComparer Class
 
 ```csharp
-public class StringSegmentComparer: IEqualityComparer<VRage.Game.ModAPI.Ingame.Utilities.StringSegment>
+public class StringSegmentComparer: IEqualityComparer
 ```
 
 A comparer designed to compare [StringSegment](VRage.Game.ModAPI.Ingame.Utilities.StringSegment) instances in a case sensitive manner. Use [DEFAULT](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentComparer.DEFAULT) for a default instance

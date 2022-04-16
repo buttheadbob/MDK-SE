@@ -3,7 +3,7 @@
 #### BoundingBoxD Struct
 
 ```csharp
-public struct BoundingBoxD: IEquatable<VRageMath.BoundingBoxD>
+public struct BoundingBoxD: IEquatable
 ```
 
 Defines an axis-aligned box-shaped 3D volume.

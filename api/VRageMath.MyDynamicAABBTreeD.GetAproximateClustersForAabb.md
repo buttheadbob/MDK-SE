@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetAproximateClustersForAabb(ref BoundingBoxD bbox, double minSize, List<VRageMath.BoundingBoxD> boundList)
+public void GetAproximateClustersForAabb(ref BoundingBoxD bbox, double minSize, List boundList)
 ```
 
 ### Parameters

@@ -41,8 +41,8 @@ Describes one of block LCDs where you can write text or draw things (PB scriptin
 
 |Member|Description|
 |---|---|
-|[void AddImagesToSelection(List, [bool])](Sandbox.ModAPI.Ingame.IMyTextSurface.AddImagesToSelection)|Adds image to list of shown images. You can get image ids by [GetSelectedImages(List<System.String>)](Sandbox.ModAPI.Ingame.IMyTextSurface.GetSelectedImages) |
-|[void AddImageToSelection(string, [bool])](Sandbox.ModAPI.Ingame.IMyTextSurface.AddImageToSelection)|Adds image to list of shown images. You can get image ids by [GetSelectedImages(List<System.String>)](Sandbox.ModAPI.Ingame.IMyTextSurface.GetSelectedImages) |
+|[void AddImagesToSelection(List, [bool])](Sandbox.ModAPI.Ingame.IMyTextSurface.AddImagesToSelection)|Adds image to list of shown images. You can get image ids by [GetSelectedImages(List)](Sandbox.ModAPI.Ingame.IMyTextSurface.GetSelectedImages) |
+|[void AddImageToSelection(string, [bool])](Sandbox.ModAPI.Ingame.IMyTextSurface.AddImageToSelection)|Adds image to list of shown images. You can get image ids by [GetSelectedImages(List)](Sandbox.ModAPI.Ingame.IMyTextSurface.GetSelectedImages) |
 |[void ClearImagesFromSelection()](Sandbox.ModAPI.Ingame.IMyTextSurface.ClearImagesFromSelection)|Removes images from shown images.|
 |[MySpriteDrawFrame DrawFrame()](Sandbox.ModAPI.Ingame.IMyTextSurface.DrawFrame)|Creates a new draw frame where you can add sprites to be rendered.|
 |[void GetFonts(List)](Sandbox.ModAPI.Ingame.IMyTextSurface.GetFonts)|Gets a list of available fonts|

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static void SortNoAlloc<T>(this List<T> list, Comparison<T> comparator)
+public static void SortNoAlloc<T>(this List list, Comparison comparator)
 ```
 
 ### Parameters

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetFilterList(List<Sandbox.ModAPI.Ingame.MyInventoryItemFilter> items)
+public void GetFilterList(List items)
 ```
 
 Gets the items currently being allowed through or rejected, depending on the [Mode](Sandbox.ModAPI.Ingame.IMyConveyorSorter.Mode) .

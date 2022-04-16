@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetSections(List<System.String> names)
+public void GetSections(List names)
 ```
 
 Fills the provided list with the names of all the sections in the currently parsed configuration.

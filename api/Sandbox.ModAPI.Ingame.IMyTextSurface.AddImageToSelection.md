@@ -6,7 +6,7 @@
 public void AddImageToSelection(string id, [bool checkExistence])
 ```
 
-Adds image to list of shown images. You can get image ids by [GetSelectedImages(List<System.String>)](Sandbox.ModAPI.Ingame.IMyTextSurface.GetSelectedImages) 
+Adds image to list of shown images. You can get image ids by [GetSelectedImages(List)](Sandbox.ModAPI.Ingame.IMyTextSurface.GetSelectedImages) 
 
 ### Parameters
 

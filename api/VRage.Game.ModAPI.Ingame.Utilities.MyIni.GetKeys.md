@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetKeys(string section, List<VRage.Game.ModAPI.Ingame.Utilities.MyIniKey> keys)
+public void GetKeys(string section, List keys)
 ```
 
 Fills the provided list with the configuration keys within the given section.
@@ -15,7 +15,7 @@ Fills the provided list with the configuration keys within the given section.
 ### Summary
 
 ```csharp
-public void GetKeys(List<VRage.Game.ModAPI.Ingame.Utilities.MyIniKey> keys)
+public void GetKeys(List keys)
 ```
 
 Fills the provided list with all configuration keys within the currently parsed configuration.

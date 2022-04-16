@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static ITerminalProperty<System.Boolean> AsBool(this ITerminalProperty property)
+public static ITerminalProperty AsBool(this ITerminalProperty property)
 ```
 
 Property type cast

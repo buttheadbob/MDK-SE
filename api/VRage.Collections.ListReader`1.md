@@ -3,7 +3,7 @@
 #### ListReader&lt;T&gt; Struct
 
 ```csharp
-public struct ListReader<T>: IEnumerable<T>, IEnumerable, IReadOnlyList<T>, IReadOnlyCollection<T>
+public struct ListReader<T>: IEnumerable, IEnumerable, IReadOnlyList, IReadOnlyCollection
 ```
 
 **Namespace:** [VRage.Collections](VRage.Collections)  

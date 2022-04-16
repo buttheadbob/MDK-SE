@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MySpriteDrawFrame(Action<VRage.Game.GUI.TextPanel.MySpriteDrawFrame> submitFrameCallback)
+public MySpriteDrawFrame(Action submitFrameCallback)
 ```
 
 ### Parameters

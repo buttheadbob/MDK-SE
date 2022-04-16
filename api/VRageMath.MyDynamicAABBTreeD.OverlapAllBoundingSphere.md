@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void OverlapAllBoundingSphere<T>(ref BoundingSphereD sphere, List<T> overlapElementsList, [bool clear])
+public void OverlapAllBoundingSphere<T>(ref BoundingSphereD sphere, List overlapElementsList, [bool clear])
 ```
 
 ### Parameters
@@ -14,7 +14,7 @@ public void OverlapAllBoundingSphere<T>(ref BoundingSphereD sphere, List<T> ove
 ### Summary
 
 ```csharp
-public void OverlapAllBoundingSphere<T>(ref BoundingSphereD sphere, Action<T> addAction)
+public void OverlapAllBoundingSphere<T>(ref BoundingSphereD sphere, Action addAction)
 ```
 
 ### Parameters

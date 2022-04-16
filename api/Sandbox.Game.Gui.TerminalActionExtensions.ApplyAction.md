@@ -13,7 +13,7 @@ public static void ApplyAction(this IMyTerminalBlock block, string name)
 ### Summary
 
 ```csharp
-public static void ApplyAction(this IMyTerminalBlock block, string name, ListReader<Sandbox.ModAPI.Ingame.TerminalActionParameter> parameters)
+public static void ApplyAction(this IMyTerminalBlock block, string name, ListReader parameters)
 ```
 
 ### Parameters

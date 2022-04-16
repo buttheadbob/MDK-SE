@@ -3,7 +3,7 @@
 #### MyOrientedBoundingBoxD Struct
 
 ```csharp
-public struct MyOrientedBoundingBoxD: IEquatable<VRageMath.MyOrientedBoundingBox>
+public struct MyOrientedBoundingBoxD: IEquatable
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

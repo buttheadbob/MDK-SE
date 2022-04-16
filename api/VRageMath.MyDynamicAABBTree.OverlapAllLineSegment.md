@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void OverlapAllLineSegment<T>(ref Line line, List<> elementsList)
+public void OverlapAllLineSegment<T>(ref Line line, List elementsList)
 ```
 
 ### Parameters
@@ -13,7 +13,7 @@ public void OverlapAllLineSegment<T>(ref Line line, List<> elementsList)
 ### Summary
 
 ```csharp
-public void OverlapAllLineSegment<T>(ref Line line, List<> elementsList, uint requiredFlags)
+public void OverlapAllLineSegment<T>(ref Line line, List elementsList, uint requiredFlags)
 ```
 
 ### Parameters

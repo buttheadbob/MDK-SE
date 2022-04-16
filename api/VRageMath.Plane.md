@@ -3,7 +3,7 @@
 #### Plane Struct
 
 ```csharp
-public struct Plane: IEquatable<VRageMath.Plane>
+public struct Plane: IEquatable
 ```
 
 Defines a plane.

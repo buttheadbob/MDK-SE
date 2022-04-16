@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public ReadOnlySpan<VRageMath.MyDynamicAABBTree+DynamicTreeNode> Nodes { get; }
+public ReadOnlySpan Nodes { get; }
 ```
 
 ### Returns

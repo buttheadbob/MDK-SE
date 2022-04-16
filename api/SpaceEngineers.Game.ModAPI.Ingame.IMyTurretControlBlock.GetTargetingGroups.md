@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public List<System.String> GetTargetingGroups()
+public List GetTargetingGroups()
 ```
 
 Gets all available targeting groups

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static void AddOrInsert<T>(this List<T> list, T item, int index)
+public static void AddOrInsert<T>(this List list, T item, int index)
 ```
 
 ### Parameters

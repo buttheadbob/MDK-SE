@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public int GetHashCode(MyTuple<T1, T2> obj)
+public int GetHashCode(MyTuple obj)
 ```
 
 ### Returns

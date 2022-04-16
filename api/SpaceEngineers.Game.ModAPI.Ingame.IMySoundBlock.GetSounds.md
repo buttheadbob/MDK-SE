@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetSounds(List<System.String> sounds)
+public void GetSounds(List sounds)
 ```
 
 Gets a list of all sound IDs this block can use.

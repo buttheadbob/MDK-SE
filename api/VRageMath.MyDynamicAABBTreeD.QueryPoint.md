@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void QueryPoint(Func<System.Int32, System.Boolean> callback, ref Vector3D point)
+public void QueryPoint(Func callback, ref Vector3D point)
 ```
 
 ### Parameters

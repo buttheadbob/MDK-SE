@@ -3,7 +3,7 @@
 #### BoundingSphereD Struct
 
 ```csharp
-public struct BoundingSphereD: IEquatable<VRageMath.BoundingSphereD>
+public struct BoundingSphereD: IEquatable
 ```
 
 Defines a sphere.

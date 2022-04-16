@@ -3,7 +3,7 @@
 #### PlaneD Struct
 
 ```csharp
-public struct PlaneD: IEquatable<VRageMath.PlaneD>
+public struct PlaneD: IEquatable
 ```
 
 Defines a PlaneD.

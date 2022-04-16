@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetLines(List<VRage.Game.ModAPI.Ingame.Utilities.StringSegment> lines)
+public void GetLines(List lines)
 ```
 
 Fills a list with individual string segments representing the lines of text within this string segment, separated by newlines.
@@ -14,7 +14,7 @@ Fills a list with individual string segments representing the lines of text with
 ### Summary
 
 ```csharp
-public void GetLines(List<System.String> lines)
+public void GetLines(List lines)
 ```
 
 Fills a list with individual strings representing the lines of text within this string segment, separated by newlines.

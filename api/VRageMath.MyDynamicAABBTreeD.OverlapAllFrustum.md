@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void OverlapAllFrustum<T>(ref BoundingFrustumD frustum, List<T> elementsList, [bool clear])
+public void OverlapAllFrustum<T>(ref BoundingFrustumD frustum, List elementsList, [bool clear])
 ```
 
 ### Parameters
@@ -14,7 +14,7 @@ public void OverlapAllFrustum<T>(ref BoundingFrustumD frustum, List<T> elements
 ### Summary
 
 ```csharp
-public void OverlapAllFrustum<T>(ref BoundingFrustumD frustum, List<T> elementsList, uint requiredFlags, [bool clear])
+public void OverlapAllFrustum<T>(ref BoundingFrustumD frustum, List elementsList, uint requiredFlags, [bool clear])
 ```
 
 ### Parameters
@@ -26,7 +26,7 @@ public void OverlapAllFrustum<T>(ref BoundingFrustumD frustum, List<T> elements
 ### Summary
 
 ```csharp
-public void OverlapAllFrustum<T>(ref BoundingFrustumD frustum, List<T> elementsList, List<System.Boolean> isInsideList)
+public void OverlapAllFrustum<T>(ref BoundingFrustumD frustum, List elementsList, List isInsideList)
 ```
 
 ### Parameters
@@ -47,7 +47,7 @@ public void OverlapAllFrustum<T>(ref BoundingFrustumD frustum, T results)
 ### Summary
 
 ```csharp
-public void OverlapAllFrustum<T>(ref BoundingFrustumD frustum, List<T> elementsList, List<System.Boolean> isInsideList, float tSqr, [bool clear])
+public void OverlapAllFrustum<T>(ref BoundingFrustumD frustum, List elementsList, List isInsideList, float tSqr, [bool clear])
 ```
 
 ### Parameters
@@ -60,7 +60,7 @@ public void OverlapAllFrustum<T>(ref BoundingFrustumD frustum, List<T> elements
 ### Summary
 
 ```csharp
-public void OverlapAllFrustum<T>(ref BoundingFrustumD frustum, Action<T, System.Boolean> add, float tSqr)
+public void OverlapAllFrustum<T>(ref BoundingFrustumD frustum, Action add, float tSqr)
 ```
 
 ### Parameters

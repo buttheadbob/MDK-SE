@@ -3,7 +3,7 @@
 #### SwitchCollection Class
 
 ```csharp
-public class SwitchCollection: IReadOnlyCollection<System.String>, IEnumerable<System.String>, IEnumerable
+public class SwitchCollection: IReadOnlyCollection, IEnumerable, IEnumerable
 ```
 
 **Namespace:** [VRage.Game.ModAPI.Ingame.Utilities](VRage.Game.ModAPI.Ingame.Utilities)  

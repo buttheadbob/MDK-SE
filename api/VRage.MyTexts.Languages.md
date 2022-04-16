@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static DictionaryReader<VRage.MyLanguagesEnum, VRage.MyTexts+MyLanguageDescription> Languages { get; }
+public static DictionaryReader Languages { get; }
 ```
 
 ### Returns

@@ -16,7 +16,7 @@ Class having some sugar extensions. Written by Kalvin Osborne, AKA Night Lone.
 |Member|Description|
 |---|---|
 |[static void ApplyAction(this IMyTerminalBlock, string)](Sandbox.ModAPI.Ingame.TerminalBlockExtentions.ApplyAction)|Finds action by [GetActionWithName(string)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActionWithName) and calls [Apply(IMyCubeBlock)](Sandbox.ModAPI.Interfaces.ITerminalAction.Apply) |
-|[static void ApplyAction(this IMyTerminalBlock, string, List)](Sandbox.ModAPI.Ingame.TerminalBlockExtentions.ApplyAction)|Finds action by [GetActionWithName(string)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActionWithName) and calls [Apply(IMyCubeBlock, ListReader<Sandbox.ModAPI.Ingame.TerminalActionParameter>)](Sandbox.ModAPI.Interfaces.ITerminalAction.Apply) |
+|[static void ApplyAction(this IMyTerminalBlock, string, List)](Sandbox.ModAPI.Ingame.TerminalBlockExtentions.ApplyAction)|Finds action by [GetActionWithName(string)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActionWithName) and calls [Apply(IMyCubeBlock, ListReader)](Sandbox.ModAPI.Interfaces.ITerminalAction.Apply) |
 |[static long GetId(this IMyTerminalBlock)](Sandbox.ModAPI.Ingame.TerminalBlockExtentions.GetId)|Get EntityId of block|
 |[static IMyInventory GetInventory(this IMyTerminalBlock, int)](Sandbox.ModAPI.Ingame.TerminalBlockExtentions.GetInventory)|_**Obsolete:** Use the GetInventoryBase method._|
 |[static int GetInventoryCount(this IMyTerminalBlock)](Sandbox.ModAPI.Ingame.TerminalBlockExtentions.GetInventoryCount)|_**Obsolete:** Use the InventoryCount property._|

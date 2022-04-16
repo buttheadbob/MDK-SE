@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void RemoveTools(List<Sandbox.ModAPI.Ingame.IMyFunctionalBlock> tool)
+public void RemoveTools(List tool)
 ```
 
 Removes tools for the block

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetAll<T>(List<T> elementsList, bool clear, [List<VRageMath.BoundingBoxD> boxsList])
+public void GetAll<T>(List elementsList, bool clear, [List boxsList])
 ```
 
 ### Parameters
@@ -14,7 +14,7 @@ public void GetAll<T>(List<T> elementsList, bool clear, [List<VRageMath.Bounding
 ### Summary
 
 ```csharp
-public void GetAll<T>(Action<T> add)
+public void GetAll<T>(Action add)
 ```
 
 ### Parameters
@@ -23,7 +23,7 @@ public void GetAll<T>(Action<T> add)
 ### Summary
 
 ```csharp
-public void GetAll<T>(Action<T, VRageMath.BoundingBoxD> add)
+public void GetAll<T>(Action add)
 ```
 
 ### Parameters

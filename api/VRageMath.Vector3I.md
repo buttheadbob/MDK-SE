@@ -3,7 +3,7 @@
 #### Vector3I Struct
 
 ```csharp
-public struct Vector3I: IEquatable<VRageMath.Vector3I>, IComparable<VRageMath.Vector3I>
+public struct Vector3I: IEquatable, IComparable
 ```
 
 **Namespace:** [VRageMath](VRageMath)  

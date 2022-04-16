@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void OverlapAllBoundingBox<T>(ref BoundingBox bbox, List<T> elementsList, [uint requiredFlags], [bool clear])
+public void OverlapAllBoundingBox<T>(ref BoundingBox bbox, List elementsList, [uint requiredFlags], [bool clear])
 ```
 
 ### Parameters

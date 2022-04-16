@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void Query(Func<System.Int32, System.Boolean> callback, ref BoundingBoxD aabb)
+public void Query(Func callback, ref BoundingBoxD aabb)
 ```
 
 ### Parameters

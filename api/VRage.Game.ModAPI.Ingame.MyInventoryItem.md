@@ -3,7 +3,7 @@
 #### MyInventoryItem Struct
 
 ```csharp
-public struct MyInventoryItem: IComparable<VRage.Game.ModAPI.Ingame.MyInventoryItem>, IEquatable<VRage.Game.ModAPI.Ingame.MyInventoryItem>
+public struct MyInventoryItem: IComparable, IEquatable
 ```
 
 Snapshot of inventory item at the moment of query. Not updated afterwards!

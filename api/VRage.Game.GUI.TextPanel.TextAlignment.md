@@ -13,7 +13,7 @@ public enum TextAlignment
 
 |Member|Description|
 |---|---|
-|TextAlignment CENTER <sub>prohibited</sub>||
-|TextAlignment LEFT <sub>prohibited</sub>||
-|TextAlignment RIGHT <sub>prohibited</sub>||
+|TextAlignment CENTER||
+|TextAlignment LEFT||
+|TextAlignment RIGHT||
 

@@ -15,7 +15,7 @@ Indicates the extent to which bounding volumes intersect or contain one another.
 
 |Member|Description|
 |---|---|
-|ContainmentType Contains <sub>prohibited</sub>|Indicates that one bounding volume completely contains the other.|
-|ContainmentType Disjoint <sub>prohibited</sub>|Indicates there is no overlap between the bounding volumes.|
-|ContainmentType Intersects <sub>prohibited</sub>|Indicates that the bounding volumes partially overlap.|
+|ContainmentType Contains|Indicates that one bounding volume completely contains the other.|
+|ContainmentType Disjoint|Indicates there is no overlap between the bounding volumes.|
+|ContainmentType Intersects|Indicates that the bounding volumes partially overlap.|
 

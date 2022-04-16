@@ -13,7 +13,7 @@ public enum ShowTextOnScreenFlag
 
 |Member|Description|
 |---|---|
-|ShowTextOnScreenFlag NONE <sub>prohibited</sub>||
-|ShowTextOnScreenFlag PRIVATE <sub>prohibited</sub>||
-|ShowTextOnScreenFlag PUBLIC <sub>prohibited</sub>||
+|ShowTextOnScreenFlag NONE||
+|ShowTextOnScreenFlag PRIVATE||
+|ShowTextOnScreenFlag PUBLIC||
 

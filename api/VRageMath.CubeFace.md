@@ -13,10 +13,10 @@ public enum CubeFace
 
 |Member|Description|
 |---|---|
-|CubeFace Backward <sub>prohibited</sub>||
-|CubeFace Down <sub>prohibited</sub>||
-|CubeFace Forward <sub>prohibited</sub>||
-|CubeFace Left <sub>prohibited</sub>||
-|CubeFace Right <sub>prohibited</sub>||
-|CubeFace Up <sub>prohibited</sub>||
+|CubeFace Backward||
+|CubeFace Down||
+|CubeFace Forward||
+|CubeFace Left||
+|CubeFace Right||
+|CubeFace Up||
 

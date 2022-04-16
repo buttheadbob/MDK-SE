@@ -15,10 +15,10 @@ Enum describing relations between player and block
 
 |Member|Description|
 |---|---|
-|MyRelationsBetweenPlayerAndBlock Enemies <sub>prohibited</sub>||
-|MyRelationsBetweenPlayerAndBlock FactionShare <sub>prohibited</sub>||
-|MyRelationsBetweenPlayerAndBlock Friends <sub>prohibited</sub>||
-|MyRelationsBetweenPlayerAndBlock Neutral <sub>prohibited</sub>||
-|MyRelationsBetweenPlayerAndBlock NoOwnership <sub>prohibited</sub>||
-|MyRelationsBetweenPlayerAndBlock Owner <sub>prohibited</sub>||
+|MyRelationsBetweenPlayerAndBlock Enemies||
+|MyRelationsBetweenPlayerAndBlock FactionShare||
+|MyRelationsBetweenPlayerAndBlock Friends||
+|MyRelationsBetweenPlayerAndBlock Neutral||
+|MyRelationsBetweenPlayerAndBlock NoOwnership||
+|MyRelationsBetweenPlayerAndBlock Owner||
 

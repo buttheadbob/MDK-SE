@@ -15,6 +15,6 @@ Defines the continuity of CurveKeys on a Curve.
 
 |Member|Description|
 |---|---|
-|CurveContinuity Smooth <sub>prohibited</sub>|Interpolation can be used between this CurveKey and the next.|
-|CurveContinuity Step <sub>prohibited</sub>|Interpolation cannot be used between this CurveKey and the next. Specifying a position between the two points returns this point.|
+|CurveContinuity Smooth|Interpolation can be used between this CurveKey and the next.|
+|CurveContinuity Step|Interpolation cannot be used between this CurveKey and the next. Specifying a position between the two points returns this point.|
 

@@ -13,8 +13,8 @@ public enum ContentType
 
 |Member|Description|
 |---|---|
-|ContentType IMAGE <sub>prohibited</sub>|_**Obsolete:** Use TEXT_AND_IMAGE instead._|
-|ContentType NONE <sub>prohibited</sub>||
-|ContentType SCRIPT <sub>prohibited</sub>||
-|ContentType TEXT_AND_IMAGE <sub>prohibited</sub>||
+|ContentType IMAGE|_**Obsolete:** Use TEXT_AND_IMAGE instead._|
+|ContentType NONE||
+|ContentType SCRIPT||
+|ContentType TEXT_AND_IMAGE||
 

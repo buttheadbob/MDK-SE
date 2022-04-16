@@ -15,7 +15,7 @@ Describes the charge mode of the battery block
 
 |Member|Description|
 |---|---|
-|ChargeMode Auto <sub>prohibited</sub>|Automatic mode|
-|ChargeMode Discharge <sub>prohibited</sub>|Discharge only|
-|ChargeMode Recharge <sub>prohibited</sub>|Recharge only|
+|ChargeMode Auto|Automatic mode|
+|ChargeMode Discharge|Discharge only|
+|ChargeMode Recharge|Recharge only|
 

@@ -13,7 +13,7 @@ public enum FlightMode
 
 |Member|Description|
 |---|---|
-|FlightMode Circle <sub>prohibited</sub>||
-|FlightMode OneWay <sub>prohibited</sub>||
-|FlightMode Patrol <sub>prohibited</sub>||
+|FlightMode Circle||
+|FlightMode OneWay||
+|FlightMode Patrol||
 

@@ -13,15 +13,15 @@ public enum MyDetectedEntityType
 
 |Member|Description|
 |---|---|
-|MyDetectedEntityType Asteroid <sub>prohibited</sub>||
-|MyDetectedEntityType CharacterHuman <sub>prohibited</sub>||
-|MyDetectedEntityType CharacterOther <sub>prohibited</sub>||
-|MyDetectedEntityType FloatingObject <sub>prohibited</sub>||
-|MyDetectedEntityType LargeGrid <sub>prohibited</sub>||
-|MyDetectedEntityType Meteor <sub>prohibited</sub>||
-|MyDetectedEntityType Missile <sub>prohibited</sub>||
-|MyDetectedEntityType None <sub>prohibited</sub>||
-|MyDetectedEntityType Planet <sub>prohibited</sub>||
-|MyDetectedEntityType SmallGrid <sub>prohibited</sub>||
-|MyDetectedEntityType Unknown <sub>prohibited</sub>||
+|MyDetectedEntityType Asteroid||
+|MyDetectedEntityType CharacterHuman||
+|MyDetectedEntityType CharacterOther||
+|MyDetectedEntityType FloatingObject||
+|MyDetectedEntityType LargeGrid||
+|MyDetectedEntityType Meteor||
+|MyDetectedEntityType Missile||
+|MyDetectedEntityType None||
+|MyDetectedEntityType Planet||
+|MyDetectedEntityType SmallGrid||
+|MyDetectedEntityType Unknown||
 

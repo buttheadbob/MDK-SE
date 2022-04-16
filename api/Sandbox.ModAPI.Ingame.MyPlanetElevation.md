@@ -15,6 +15,6 @@ Describes what detail level to retrieve the planet elevation for.
 
 |Member|Description|
 |---|---|
-|MyPlanetElevation Sealevel <sub>prohibited</sub>|Only return the distance to the planetary sealevel.|
-|MyPlanetElevation Surface <sub>prohibited</sub>|Return the distance to the closest point of the planet. This is the same value displayed in the HUD.|
+|MyPlanetElevation Sealevel|Only return the distance to the planetary sealevel.|
+|MyPlanetElevation Surface|Return the distance to the closest point of the planet. This is the same value displayed in the HUD.|
 

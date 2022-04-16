@@ -11,9 +11,15 @@ public enum TextAlignment
 
 #### Fields
 
-|Member|Description|
-|---|---|
-|TextAlignment CENTER||
-|TextAlignment LEFT||
-|TextAlignment RIGHT||
+TextAlignment CENTER
+
+> 
+
+TextAlignment LEFT
+
+> 
+
+TextAlignment RIGHT
+
+> 
 

@@ -13,10 +13,19 @@ Describes the current status of the door.
 
 #### Fields
 
-|Member|Description|
-|---|---|
-|DoorStatus Closed|The door is fully closed.|
-|DoorStatus Closing|The door is in the process of being closed.|
-|DoorStatus Open|The door is fully open.|
-|DoorStatus Opening|The door is in the process of being opened.|
+DoorStatus Closed
+
+> The door is fully closed.
+
+DoorStatus Closing
+
+> The door is in the process of being closed.
+
+DoorStatus Open
+
+> The door is fully open.
+
+DoorStatus Opening
+
+> The door is in the process of being opened.
 

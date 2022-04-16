@@ -11,9 +11,15 @@ public enum ShowTextOnScreenFlag
 
 #### Fields
 
-|Member|Description|
-|---|---|
-|ShowTextOnScreenFlag NONE||
-|ShowTextOnScreenFlag PRIVATE||
-|ShowTextOnScreenFlag PUBLIC||
+ShowTextOnScreenFlag NONE
+
+> 
+
+ShowTextOnScreenFlag PRIVATE
+
+> 
+
+ShowTextOnScreenFlag PUBLIC
+
+> 
 

@@ -11,9 +11,15 @@ public enum MyJumpDriveStatus
 
 #### Fields
 
-|Member|Description|
-|---|---|
-|MyJumpDriveStatus Charging||
-|MyJumpDriveStatus Jumping||
-|MyJumpDriveStatus Ready||
+MyJumpDriveStatus Charging
+
+> 
+
+MyJumpDriveStatus Jumping
+
+> 
+
+MyJumpDriveStatus Ready
+
+> 
 

@@ -11,7 +11,7 @@ public interface IAddOp<T>
 
 #### Methods
 
-|Member|Description|
-|---|---|
-|[void Add(T, bool)](VRageMath.IAddOp`1.Add)||
+[void Add(T, bool)](VRageMath.IAddOp`1.Add)
+
+> 
 

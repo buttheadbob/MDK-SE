@@ -13,11 +13,23 @@ Describes the current status of the piston.
 
 #### Fields
 
-|Member|Description|
-|---|---|
-|PistonStatus Extended|The piston is in its extended position (stationary).|
-|PistonStatus Extending|The piston is being extended (moving).|
-|PistonStatus Retracted|The piston is in its retracted position (stationary).|
-|PistonStatus Retracting|The piston is being retracted (moving).|
-|PistonStatus Stopped|The piston velocity is 0 (stationary).|
+PistonStatus Extended
+
+> The piston is in its extended position (stationary).
+
+PistonStatus Extending
+
+> The piston is being extended (moving).
+
+PistonStatus Retracted
+
+> The piston is in its retracted position (stationary).
+
+PistonStatus Retracting
+
+> The piston is being retracted (moving).
+
+PistonStatus Stopped
+
+> The piston velocity is 0 (stationary).
 

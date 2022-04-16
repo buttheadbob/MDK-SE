@@ -13,10 +13,19 @@ Describes status for vent block
 
 #### Fields
 
-|Member|Description|
-|---|---|
-|VentStatus Depressurized|Air vent is depressurized|
-|VentStatus Depressurizing|Air vent is in process of depressurizing|
-|VentStatus Pressurized|Air vent is pressurized|
-|VentStatus Pressurizing|Air vent is in process of pressurizing|
+VentStatus Depressurized
+
+> Air vent is depressurized
+
+VentStatus Depressurizing
+
+> Air vent is in process of depressurizing
+
+VentStatus Pressurized
+
+> Air vent is pressurized
+
+VentStatus Pressurizing
+
+> Air vent is in process of pressurizing
 

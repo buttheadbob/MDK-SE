@@ -11,9 +11,15 @@ public enum FlightMode
 
 #### Fields
 
-|Member|Description|
-|---|---|
-|FlightMode Circle||
-|FlightMode OneWay||
-|FlightMode Patrol||
+FlightMode Circle
+
+> 
+
+FlightMode OneWay
+
+> 
+
+FlightMode Patrol
+
+> 
 

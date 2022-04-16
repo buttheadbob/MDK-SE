@@ -11,20 +11,23 @@ public class MyCuboidSide
 
 #### Fields
 
-|Member|Description|
-|---|---|
-|[Line&#91&#93; Lines](VRageMath.MyCuboidSide.Lines)||
-|[Plane Plane](VRageMath.MyCuboidSide.Plane)||
+[Line&#91&#93; Lines](VRageMath.MyCuboidSide.Lines)
+
+> 
+
+[Plane Plane](VRageMath.MyCuboidSide.Plane)
+
+> 
 
 #### Constructors
 
-|Member|Description|
-|---|---|
-|[MyCuboidSide()](VRageMath.MyCuboidSide..ctor)||
+[MyCuboidSide()](VRageMath.MyCuboidSide..ctor)
+
+> 
 
 #### Methods
 
-|Member|Description|
-|---|---|
-|[void CreatePlaneFromLines()](VRageMath.MyCuboidSide.CreatePlaneFromLines)||
+[void CreatePlaneFromLines()](VRageMath.MyCuboidSide.CreatePlaneFromLines)
+
+> 
 

@@ -13,27 +13,33 @@ Defines a matrix.
 
 #### Fields
 
-|Member|Description|
-|---|---|
-|[HalfVector4 Orientation](VRageMath.CompressedPositionOrientation.Orientation)||
-|[Vector3 Position](VRageMath.CompressedPositionOrientation.Position)||
+[HalfVector4 Orientation](VRageMath.CompressedPositionOrientation.Orientation)
+
+> 
+
+[Vector3 Position](VRageMath.CompressedPositionOrientation.Position)
+
+> 
 
 #### Properties
 
-|Member|Description|
-|---|---|
-|[Matrix Matrix { get; set; }](VRageMath.CompressedPositionOrientation.Matrix)||
+[Matrix Matrix { get; set; }](VRageMath.CompressedPositionOrientation.Matrix)
+
+> 
 
 #### Constructors
 
-|Member|Description|
-|---|---|
-|[CompressedPositionOrientation(ref Matrix)](VRageMath.CompressedPositionOrientation..ctor)||
+[CompressedPositionOrientation(ref Matrix)](VRageMath.CompressedPositionOrientation..ctor)
+
+> 
 
 #### Methods
 
-|Member|Description|
-|---|---|
-|[void FromMatrix(ref Matrix)](VRageMath.CompressedPositionOrientation.FromMatrix)||
-|[void ToMatrix(out Matrix)](VRageMath.CompressedPositionOrientation.ToMatrix)||
+[void FromMatrix(ref Matrix)](VRageMath.CompressedPositionOrientation.FromMatrix)
+
+> 
+
+[void ToMatrix(out Matrix)](VRageMath.CompressedPositionOrientation.ToMatrix)
+
+> 
 

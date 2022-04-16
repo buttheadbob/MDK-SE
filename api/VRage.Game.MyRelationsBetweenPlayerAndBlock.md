@@ -13,12 +13,27 @@ Enum describing relations between player and block
 
 #### Fields
 
-|Member|Description|
-|---|---|
-|MyRelationsBetweenPlayerAndBlock Enemies||
-|MyRelationsBetweenPlayerAndBlock FactionShare||
-|MyRelationsBetweenPlayerAndBlock Friends||
-|MyRelationsBetweenPlayerAndBlock Neutral||
-|MyRelationsBetweenPlayerAndBlock NoOwnership||
-|MyRelationsBetweenPlayerAndBlock Owner||
+MyRelationsBetweenPlayerAndBlock Enemies
+
+> 
+
+MyRelationsBetweenPlayerAndBlock FactionShare
+
+> 
+
+MyRelationsBetweenPlayerAndBlock Friends
+
+> 
+
+MyRelationsBetweenPlayerAndBlock Neutral
+
+> 
+
+MyRelationsBetweenPlayerAndBlock NoOwnership
+
+> 
+
+MyRelationsBetweenPlayerAndBlock Owner
+
+> 
 

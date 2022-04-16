@@ -11,11 +11,23 @@ public enum MergeState
 
 #### Fields
 
-|Member|Description|
-|---|---|
-|MergeState Constrained||
-|MergeState Locked||
-|MergeState None||
-|MergeState Unset||
-|MergeState Working||
+MergeState Constrained
+
+> 
+
+MergeState Locked
+
+> 
+
+MergeState None
+
+> 
+
+MergeState Unset
+
+> 
+
+MergeState Working
+
+> 
 

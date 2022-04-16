@@ -11,13 +11,31 @@ public enum MyTransmitTarget
 
 #### Fields
 
-|Member|Description|
-|---|---|
-|MyTransmitTarget Ally||
-|MyTransmitTarget Default||
-|MyTransmitTarget Enemy||
-|MyTransmitTarget Everyone||
-|MyTransmitTarget Neutral||
-|MyTransmitTarget None||
-|MyTransmitTarget Owned||
+MyTransmitTarget Ally
+
+> 
+
+MyTransmitTarget Default
+
+> 
+
+MyTransmitTarget Enemy
+
+> 
+
+MyTransmitTarget Everyone
+
+> 
+
+MyTransmitTarget Neutral
+
+> 
+
+MyTransmitTarget None
+
+> 
+
+MyTransmitTarget Owned
+
+> 
 

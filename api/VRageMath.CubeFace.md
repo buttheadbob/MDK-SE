@@ -11,12 +11,27 @@ public enum CubeFace
 
 #### Fields
 
-|Member|Description|
-|---|---|
-|CubeFace Backward||
-|CubeFace Down||
-|CubeFace Forward||
-|CubeFace Left||
-|CubeFace Right||
-|CubeFace Up||
+CubeFace Backward
+
+> 
+
+CubeFace Down
+
+> 
+
+CubeFace Forward
+
+> 
+
+CubeFace Left
+
+> 
+
+CubeFace Right
+
+> 
+
+CubeFace Up
+
+> 
 

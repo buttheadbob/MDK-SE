@@ -11,13 +11,13 @@ public struct MySpriteCollection
 
 #### Fields
 
-|Member|Description|
-|---|---|
-|[MySprite&#91&#93; Sprites](VRage.Game.GUI.TextPanel.MySpriteCollection.Sprites)||
+[MySprite&#91&#93; Sprites](VRage.Game.GUI.TextPanel.MySpriteCollection.Sprites)
+
+> 
 
 #### Constructors
 
-|Member|Description|
-|---|---|
-|[MySpriteCollection(MySprite&#91&#93;)](VRage.Game.GUI.TextPanel.MySpriteCollection..ctor)||
+[MySpriteCollection(MySprite&#91&#93;)](VRage.Game.GUI.TextPanel.MySpriteCollection..ctor)
+
+> 
 

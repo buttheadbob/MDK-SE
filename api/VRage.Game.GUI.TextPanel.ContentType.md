@@ -11,10 +11,19 @@ public enum ContentType
 
 #### Fields
 
-|Member|Description|
-|---|---|
-|ContentType IMAGE|_**Obsolete:** Use TEXT_AND_IMAGE instead._|
-|ContentType NONE||
-|ContentType SCRIPT||
-|ContentType TEXT_AND_IMAGE||
+ContentType IMAGE
+
+> _**Obsolete:** Use TEXT_AND_IMAGE instead._
+
+ContentType NONE
+
+> 
+
+ContentType SCRIPT
+
+> 
+
+ContentType TEXT_AND_IMAGE
+
+> 
 

@@ -11,21 +11,27 @@ public class MyMovingAverage
 
 #### Properties
 
-|Member|Description|
-|---|---|
-|[float Avg { get; }](VRageMath.MyMovingAverage.Avg)||
-|[double Sum { get; }](VRageMath.MyMovingAverage.Sum)||
+[float Avg { get; }](VRageMath.MyMovingAverage.Avg)
+
+> 
+
+[double Sum { get; }](VRageMath.MyMovingAverage.Sum)
+
+> 
 
 #### Constructors
 
-|Member|Description|
-|---|---|
-|[MyMovingAverage(int, int = 1000)](VRageMath.MyMovingAverage..ctor)||
+[MyMovingAverage(int, int = 1000)](VRageMath.MyMovingAverage..ctor)
+
+> 
 
 #### Methods
 
-|Member|Description|
-|---|---|
-|[void Enqueue(float)](VRageMath.MyMovingAverage.Enqueue)||
-|[void Reset()](VRageMath.MyMovingAverage.Reset)||
+[void Enqueue(float)](VRageMath.MyMovingAverage.Enqueue)
+
+> 
+
+[void Reset()](VRageMath.MyMovingAverage.Reset)
+
+> 
 

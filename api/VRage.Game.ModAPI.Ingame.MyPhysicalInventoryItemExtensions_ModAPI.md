@@ -11,7 +11,7 @@ public abstract sealed class MyPhysicalInventoryItemExtensions_ModAPI
 
 #### Methods
 
-|Member|Description|
-|---|---|
-|[static MyItemInfo GetItemInfo(this MyItemType)](VRage.Game.ModAPI.Ingame.MyPhysicalInventoryItemExtensions_ModAPI.GetItemInfo)||
+[static MyItemInfo GetItemInfo(this MyItemType)](VRage.Game.ModAPI.Ingame.MyPhysicalInventoryItemExtensions_ModAPI.GetItemInfo)
+
+> 
 

@@ -11,9 +11,15 @@ public struct MyLineSegmentOverlapResult<T>
 
 #### Fields
 
-|Member|Description|
-|---|---|
-|[static MyLineSegmentOverlapResultComparer&lt;T&gt; DistanceComparer](VRageMath.MyLineSegmentOverlapResult`1.DistanceComparer)||
-|[double Distance](VRageMath.MyLineSegmentOverlapResult`1.Distance)||
-|[T Element](VRageMath.MyLineSegmentOverlapResult`1.Element)||
+[static MyLineSegmentOverlapResultComparer&lt;T&gt; DistanceComparer](VRageMath.MyLineSegmentOverlapResult`1.DistanceComparer)
+
+> 
+
+[double Distance](VRageMath.MyLineSegmentOverlapResult`1.Distance)
+
+> 
+
+[T Element](VRageMath.MyLineSegmentOverlapResult`1.Element)
+
+> 
 

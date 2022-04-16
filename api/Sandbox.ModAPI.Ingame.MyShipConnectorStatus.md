@@ -13,9 +13,15 @@ Describes the current status of the connector.
 
 #### Fields
 
-|Member|Description|
-|---|---|
-|MyShipConnectorStatus Connectable|This connector is currently near something that it can connect to.|
-|MyShipConnectorStatus Connected|This connector is currently connected to something.|
-|MyShipConnectorStatus Unconnected|This connector is not connected to anything, nor is it near anything connectable.|
+MyShipConnectorStatus Connectable
+
+> This connector is currently near something that it can connect to.
+
+MyShipConnectorStatus Connected
+
+> This connector is currently connected to something.
+
+MyShipConnectorStatus Unconnected
+
+> This connector is not connected to anything, nor is it near anything connectable.
 

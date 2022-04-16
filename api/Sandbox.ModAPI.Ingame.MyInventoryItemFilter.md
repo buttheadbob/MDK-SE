@@ -11,21 +11,27 @@ public struct MyInventoryItemFilter
 
 #### Fields
 
-|Member|Description|
-|---|---|
-|[bool AllSubTypes](Sandbox.ModAPI.Ingame.MyInventoryItemFilter.AllSubTypes)|Determines whether all subtypes of the given item ID should pass this filter check.|
-|[MyDefinitionId ItemId](Sandbox.ModAPI.Ingame.MyInventoryItemFilter.ItemId)|Specifies an item to filter. Set [AllSubTypes](Sandbox.ModAPI.Ingame.MyInventoryItemFilter.AllSubTypes) to true to only check the main type part of this ID.|
+[bool AllSubTypes](Sandbox.ModAPI.Ingame.MyInventoryItemFilter.AllSubTypes)
+
+> Determines whether all subtypes of the given item ID should pass this filter check.
+
+[MyDefinitionId ItemId](Sandbox.ModAPI.Ingame.MyInventoryItemFilter.ItemId)
+
+> Specifies an item to filter. Set [AllSubTypes](Sandbox.ModAPI.Ingame.MyInventoryItemFilter.AllSubTypes) to true to only check the main type part of this ID.
 
 #### Properties
 
-|Member|Description|
-|---|---|
-|[MyItemType ItemType { get; }](Sandbox.ModAPI.Ingame.MyInventoryItemFilter.ItemType)||
+[MyItemType ItemType { get; }](Sandbox.ModAPI.Ingame.MyInventoryItemFilter.ItemType)
+
+> 
 
 #### Constructors
 
-|Member|Description|
-|---|---|
-|[MyInventoryItemFilter(string, bool = default)](Sandbox.ModAPI.Ingame.MyInventoryItemFilter..ctor)||
-|[MyInventoryItemFilter(MyDefinitionId, bool = default)](Sandbox.ModAPI.Ingame.MyInventoryItemFilter..ctor)||
+[MyInventoryItemFilter(string, bool = default)](Sandbox.ModAPI.Ingame.MyInventoryItemFilter..ctor)
+
+> 
+
+[MyInventoryItemFilter(MyDefinitionId, bool = default)](Sandbox.ModAPI.Ingame.MyInventoryItemFilter..ctor)
+
+> 
 

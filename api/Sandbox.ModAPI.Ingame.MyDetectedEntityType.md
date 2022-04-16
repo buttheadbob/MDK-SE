@@ -11,17 +11,47 @@ public enum MyDetectedEntityType
 
 #### Fields
 
-|Member|Description|
-|---|---|
-|MyDetectedEntityType Asteroid||
-|MyDetectedEntityType CharacterHuman||
-|MyDetectedEntityType CharacterOther||
-|MyDetectedEntityType FloatingObject||
-|MyDetectedEntityType LargeGrid||
-|MyDetectedEntityType Meteor||
-|MyDetectedEntityType Missile||
-|MyDetectedEntityType None||
-|MyDetectedEntityType Planet||
-|MyDetectedEntityType SmallGrid||
-|MyDetectedEntityType Unknown||
+MyDetectedEntityType Asteroid
+
+> 
+
+MyDetectedEntityType CharacterHuman
+
+> 
+
+MyDetectedEntityType CharacterOther
+
+> 
+
+MyDetectedEntityType FloatingObject
+
+> 
+
+MyDetectedEntityType LargeGrid
+
+> 
+
+MyDetectedEntityType Meteor
+
+> 
+
+MyDetectedEntityType Missile
+
+> 
+
+MyDetectedEntityType None
+
+> 
+
+MyDetectedEntityType Planet
+
+> 
+
+MyDetectedEntityType SmallGrid
+
+> 
+
+MyDetectedEntityType Unknown
+
+> 
 

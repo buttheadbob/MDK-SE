@@ -11,15 +11,39 @@ public enum TextPanelAccessFlag
 
 #### Fields
 
-|Member|Description|
-|---|---|
-|TextPanelAccessFlag NONE||
-|TextPanelAccessFlag READ_ALL||
-|TextPanelAccessFlag READ_AND_WRITE_ALL||
-|TextPanelAccessFlag READ_AND_WRITE_FACTION||
-|TextPanelAccessFlag READ_ENEMY||
-|TextPanelAccessFlag READ_FACTION||
-|TextPanelAccessFlag WRITE_ALL||
-|TextPanelAccessFlag WRITE_ENEMY||
-|TextPanelAccessFlag WRITE_FACTION||
+TextPanelAccessFlag NONE
+
+> 
+
+TextPanelAccessFlag READ_ALL
+
+> 
+
+TextPanelAccessFlag READ_AND_WRITE_ALL
+
+> 
+
+TextPanelAccessFlag READ_AND_WRITE_FACTION
+
+> 
+
+TextPanelAccessFlag READ_ENEMY
+
+> 
+
+TextPanelAccessFlag READ_FACTION
+
+> 
+
+TextPanelAccessFlag WRITE_ALL
+
+> 
+
+TextPanelAccessFlag WRITE_ENEMY
+
+> 
+
+TextPanelAccessFlag WRITE_FACTION
+
+> 
 

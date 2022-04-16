@@ -13,8 +13,11 @@ Determines what mode an assembler is in.
 
 #### Fields
 
-|Member|Description|
-|---|---|
-|MyAssemblerMode Assembly|The assembler is currently set to assemble new items.|
-|MyAssemblerMode Disassembly|The assembler is currently set to disassemble existing items.|
+MyAssemblerMode Assembly
+
+> The assembler is currently set to assemble new items.
+
+MyAssemblerMode Disassembly
+
+> The assembler is currently set to disassemble existing items.
 

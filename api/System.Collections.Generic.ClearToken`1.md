@@ -14,13 +14,13 @@ public struct ClearToken<T>: IDisposable
 
 #### Fields
 
-|Member|Description|
-|---|---|
-|[List&lt;T&gt; List](System.Collections.Generic.ClearToken`1.List)||
+[List&lt;T&gt; List](System.Collections.Generic.ClearToken`1.List)
+
+> 
 
 #### Methods
 
-|Member|Description|
-|---|---|
-|[void Dispose()](System.Collections.Generic.ClearToken`1.Dispose)||
+[void Dispose()](System.Collections.Generic.ClearToken`1.Dispose)
+
+> 
 

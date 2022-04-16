@@ -11,9 +11,15 @@ public enum SpriteType
 
 #### Fields
 
-|Member|Description|
-|---|---|
-|SpriteType CLIP_RECT||
-|SpriteType TEXT||
-|SpriteType TEXTURE||
+SpriteType CLIP_RECT
+
+> 
+
+SpriteType TEXT
+
+> 
+
+SpriteType TEXTURE
+
+> 
 

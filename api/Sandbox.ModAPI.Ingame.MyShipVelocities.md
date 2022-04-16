@@ -13,12 +13,12 @@ public struct MyShipVelocities
 
 |Member|Description|
 |---|---|
-|\$1Vector3D AngularVelocity](Sandbox.ModAPI.Ingame.MyShipVelocities.AngularVelocity)|Gets the ship's angular velocity (rotation).|
-|\$1Vector3D LinearVelocity](Sandbox.ModAPI.Ingame.MyShipVelocities.LinearVelocity)|Gets the ship's linear velocity (motion).|
+|\\%1Vector3D AngularVelocity](Sandbox.ModAPI.Ingame.MyShipVelocities.AngularVelocity)|Gets the ship's angular velocity (rotation).|
+|\\%1Vector3D LinearVelocity](Sandbox.ModAPI.Ingame.MyShipVelocities.LinearVelocity)|Gets the ship's linear velocity (motion).|
 
 #### Constructors
 
 |Member|Description|
 |---|---|
-|\$1MyShipVelocities(Vector3D, Vector3D)](Sandbox.ModAPI.Ingame.MyShipVelocities..ctor)||
+|\\%1MyShipVelocities(Vector3D, Vector3D)](Sandbox.ModAPI.Ingame.MyShipVelocities..ctor)||
 

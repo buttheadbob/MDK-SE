@@ -3,7 +3,7 @@
 #### Vector3INormalEqualityComparer Class
 
 ```csharp
-public class Vector3INormalEqualityComparer: IEqualityComparer<Vector3I\>
+public class Vector3INormalEqualityComparer: IEqualityComparer<Vector3I>
 ```
 
 This can be used only to compare normal vectors of Vector3I, where X, Y and Z has values -1, 0 or 1
@@ -12,18 +12,18 @@ This can be used only to compare normal vectors of Vector3I, where X, Y and Z ha
 **Assembly:** VRage.Math.dll
 
 **Implements:**  
-* [IEqualityComparer<Vector3I\>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEqualityComparer-1?view=netframework-4.6)
+* [IEqualityComparer<Vector3I>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEqualityComparer-1?view=netframework-4.6)
 
 #### Constructors
 
 |Member|Description|
 |---|---|
-|\$1Vector3INormalEqualityComparer()](VRageMath.Vector3INormalEqualityComparer..ctor)||
+|\\%1Vector3INormalEqualityComparer()](VRageMath.Vector3INormalEqualityComparer..ctor)||
 
 #### Methods
 
 |Member|Description|
 |---|---|
-|\$1bool Equals(Vector3I, Vector3I)](VRageMath.Vector3INormalEqualityComparer.Equals)||
-|\$1int GetHashCode(Vector3I)](VRageMath.Vector3INormalEqualityComparer.GetHashCode)||
+|\\%1bool Equals(Vector3I, Vector3I)](VRageMath.Vector3INormalEqualityComparer.Equals)||
+|\\%1int GetHashCode(Vector3I)](VRageMath.Vector3INormalEqualityComparer.GetHashCode)||
 

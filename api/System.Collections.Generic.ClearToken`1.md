@@ -1,9 +1,9 @@
 ← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
-#### ClearToken&lt;T\&gt; Struct
+#### ClearToken&lt;T&gt; Struct
 
 ```csharp
-public struct ClearToken<T\>: IDisposable
+public struct ClearToken<T>: IDisposable
 ```
 
 **Namespace:** [System.Collections.Generic](System.Collections.Generic)  
@@ -16,11 +16,11 @@ public struct ClearToken<T\>: IDisposable
 
 |Member|Description|
 |---|---|
-|\$1List\$1T\> List](System.Collections.Generic.ClearToken`1.List)||
+|\\%1List\\%1T> List](System.Collections.Generic.ClearToken`1.List)||
 
 #### Methods
 
 |Member|Description|
 |---|---|
-|\$1void Dispose()](System.Collections.Generic.ClearToken`1.Dispose)||
+|\\%1void Dispose()](System.Collections.Generic.ClearToken`1.Dispose)||
 

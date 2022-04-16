@@ -3,12 +3,12 @@
 ### Summary
 
 ```csharp
-public static ITerminalProperty<TValue\> Cast<TValue>(this ITerminalProperty property)
+public static ITerminalProperty<TValue> Cast<TValue>(this ITerminalProperty property)
 ```
 
 ### Returns
 
-[ITerminalProperty<TValue\>]()
+[ITerminalProperty<TValue>]()
 
 ### Parameters
 

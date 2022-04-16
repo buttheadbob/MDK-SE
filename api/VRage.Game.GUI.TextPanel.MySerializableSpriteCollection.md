@@ -13,12 +13,12 @@ public struct MySerializableSpriteCollection
 
 |Member|Description|
 |---|---|
-|\$1int Length](VRage.Game.GUI.TextPanel.MySerializableSpriteCollection.Length)||
-|\$1MySerializableSprite\$1] Sprites](VRage.Game.GUI.TextPanel.MySerializableSpriteCollection.Sprites)||
+|\\%1int Length](VRage.Game.GUI.TextPanel.MySerializableSpriteCollection.Length)||
+|\\%1MySerializableSprite\\%1] Sprites](VRage.Game.GUI.TextPanel.MySerializableSpriteCollection.Sprites)||
 
 #### Constructors
 
 |Member|Description|
 |---|---|
-|\$1MySerializableSpriteCollection(MySerializableSprite\$1], int)](VRage.Game.GUI.TextPanel.MySerializableSpriteCollection..ctor)||
+|\\%1MySerializableSpriteCollection(MySerializableSprite\\%1], int)](VRage.Game.GUI.TextPanel.MySerializableSpriteCollection..ctor)||
 

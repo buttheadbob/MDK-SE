@@ -1,9 +1,9 @@
 ← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
-#### IAddOp&lt;T\&gt; Interface
+#### IAddOp&lt;T&gt; Interface
 
 ```csharp
-public interface IAddOp<T\>
+public interface IAddOp<T>
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
@@ -13,5 +13,5 @@ public interface IAddOp<T\>
 
 |Member|Description|
 |---|---|
-|\$1void Add(T, bool)](VRageMath.IAddOp`1.Add)||
+|\\%1void Add(T, bool)](VRageMath.IAddOp`1.Add)||
 

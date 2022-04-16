@@ -16,29 +16,29 @@ public struct Vector4I: IComparable<Vector4I>
 
 |Member|Description|
 |---|---|
-|\\%1static EqualityComparer Comparer](VRageMath.Vector4I.Comparer)||
-|\\%1int W](VRageMath.Vector4I.W)||
-|\\%1int X](VRageMath.Vector4I.X)||
-|\\%1int Y](VRageMath.Vector4I.Y)||
-|\\%1int Z](VRageMath.Vector4I.Z)||
+|\\$1static EqualityComparer Comparer](VRageMath.Vector4I.Comparer)||
+|\\$1int W](VRageMath.Vector4I.W)||
+|\\$1int X](VRageMath.Vector4I.X)||
+|\\$1int Y](VRageMath.Vector4I.Y)||
+|\\$1int Z](VRageMath.Vector4I.Z)||
 
 #### Properties
 
 |Member|Description|
 |---|---|
-|\\%1int Item { get; set; }](VRageMath.Vector4I.Item)||
+|\\$1int Item { get; set; }](VRageMath.Vector4I.Item)||
 
 #### Constructors
 
 |Member|Description|
 |---|---|
-|\\%1Vector4I(int, int, int, int)](VRageMath.Vector4I..ctor)||
-|\\%1Vector4I(Vector3I, int)](VRageMath.Vector4I..ctor)||
+|\\$1Vector4I(int, int, int, int)](VRageMath.Vector4I..ctor)||
+|\\$1Vector4I(Vector3I, int)](VRageMath.Vector4I..ctor)||
 
 #### Methods
 
 |Member|Description|
 |---|---|
-|\\%1int CompareTo(Vector4I)](VRageMath.Vector4I.CompareTo)||
-|\\%1string ToString()](VRageMath.Vector4I.ToString)||
+|\\$1int CompareTo(Vector4I)](VRageMath.Vector4I.CompareTo)||
+|\\$1string ToString()](VRageMath.Vector4I.ToString)||
 

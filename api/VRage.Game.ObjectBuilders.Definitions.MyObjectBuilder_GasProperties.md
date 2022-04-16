@@ -15,11 +15,11 @@ public class MyObjectBuilder_GasProperties: MyObjectBuilder_DefinitionBase
 
 |Member|Description|
 |---|---|
-|\\%1float EnergyDensity](VRage.Game.ObjectBuilders.Definitions.MyObjectBuilder_GasProperties.EnergyDensity)||
+|\\$1float EnergyDensity](VRage.Game.ObjectBuilders.Definitions.MyObjectBuilder_GasProperties.EnergyDensity)||
 
 #### Constructors
 
 |Member|Description|
 |---|---|
-|\\%1MyObjectBuilder_GasProperties()](VRage.Game.ObjectBuilders.Definitions.MyObjectBuilder_GasProperties..ctor)||
+|\\$1MyObjectBuilder_GasProperties()](VRage.Game.ObjectBuilders.Definitions.MyObjectBuilder_GasProperties..ctor)||
 

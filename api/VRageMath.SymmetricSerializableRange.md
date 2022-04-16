@@ -13,30 +13,30 @@ public struct SymmetricSerializableRange
 
 |Member|Description|
 |---|---|
-|\\%1float Max](VRageMath.SymmetricSerializableRange.Max)||
-|\\%1float Min](VRageMath.SymmetricSerializableRange.Min)||
+|\\$1float Max](VRageMath.SymmetricSerializableRange.Max)||
+|\\$1float Min](VRageMath.SymmetricSerializableRange.Min)||
 
 #### Properties
 
 |Member|Description|
 |---|---|
-|\\%1bool Mirror { get; set; }](VRageMath.SymmetricSerializableRange.Mirror)||
+|\\$1bool Mirror { get; set; }](VRageMath.SymmetricSerializableRange.Mirror)||
 
 #### Constructors
 
 |Member|Description|
 |---|---|
-|\\%1SymmetricSerializableRange(float, float, \\%1bool])](VRageMath.SymmetricSerializableRange..ctor)||
+|\\$1SymmetricSerializableRange(float, float, \\$1bool])](VRageMath.SymmetricSerializableRange..ctor)||
 
 #### Methods
 
 |Member|Description|
 |---|---|
-|\\%1SymmetricSerializableRange ConvertToCosine()](VRageMath.SymmetricSerializableRange.ConvertToCosine)||
-|\\%1SymmetricSerializableRange ConvertToCosineLongitude()](VRageMath.SymmetricSerializableRange.ConvertToCosineLongitude)||
-|\\%1SymmetricSerializableRange ConvertToSine()](VRageMath.SymmetricSerializableRange.ConvertToSine)||
-|\\%1string ToString()](VRageMath.SymmetricSerializableRange.ToString)||
-|\\%1string ToStringAcos()](VRageMath.SymmetricSerializableRange.ToStringAcos)||
-|\\%1string ToStringAsin()](VRageMath.SymmetricSerializableRange.ToStringAsin)||
-|\\%1bool ValueBetween(float)](VRageMath.SymmetricSerializableRange.ValueBetween)||
+|\\$1SymmetricSerializableRange ConvertToCosine()](VRageMath.SymmetricSerializableRange.ConvertToCosine)||
+|\\$1SymmetricSerializableRange ConvertToCosineLongitude()](VRageMath.SymmetricSerializableRange.ConvertToCosineLongitude)||
+|\\$1SymmetricSerializableRange ConvertToSine()](VRageMath.SymmetricSerializableRange.ConvertToSine)||
+|\\$1string ToString()](VRageMath.SymmetricSerializableRange.ToString)||
+|\\$1string ToStringAcos()](VRageMath.SymmetricSerializableRange.ToStringAcos)||
+|\\$1string ToStringAsin()](VRageMath.SymmetricSerializableRange.ToStringAsin)||
+|\\$1bool ValueBetween(float)](VRageMath.SymmetricSerializableRange.ValueBetween)||
 

@@ -21,12 +21,12 @@ Describes block, that has at least 1 text surface (PB scripting interface)
 
 |Member|Description|
 |---|---|
-|\\%1int SurfaceCount { get; }](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider.SurfaceCount)|Get surfaces count|
-|\\%1bool UseGenericLcd { get; }](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider.UseGenericLcd)|Whether generic LCD terminal controls should be created|
+|\\$1int SurfaceCount { get; }](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider.SurfaceCount)|Get surfaces count|
+|\\$1bool UseGenericLcd { get; }](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider.UseGenericLcd)|Whether generic LCD terminal controls should be created|
 
 #### Methods
 
 |Member|Description|
 |---|---|
-|\\%1IMyTextSurface GetSurface(int)](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider.GetSurface)|Get surface by index|
+|\\$1IMyTextSurface GetSurface(int)](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider.GetSurface)|Get surface by index|
 

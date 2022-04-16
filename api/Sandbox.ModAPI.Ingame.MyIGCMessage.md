@@ -15,19 +15,19 @@ Provides info about received message along with received data
 
 |Member|Description|
 |---|---|
-|\\%1object Data](Sandbox.ModAPI.Ingame.MyIGCMessage.Data)|The data received in message.|
-|\\%1long Source](Sandbox.ModAPI.Ingame.MyIGCMessage.Source)|Source/Author of this message.|
-|\\%1string Tag](Sandbox.ModAPI.Ingame.MyIGCMessage.Tag)|Tag designing type of this message.|
+|\\$1object Data](Sandbox.ModAPI.Ingame.MyIGCMessage.Data)|The data received in message.|
+|\\$1long Source](Sandbox.ModAPI.Ingame.MyIGCMessage.Source)|Source/Author of this message.|
+|\\$1string Tag](Sandbox.ModAPI.Ingame.MyIGCMessage.Tag)|Tag designing type of this message.|
 
 #### Constructors
 
 |Member|Description|
 |---|---|
-|\\%1MyIGCMessage(object, string, long)](Sandbox.ModAPI.Ingame.MyIGCMessage..ctor)||
+|\\$1MyIGCMessage(object, string, long)](Sandbox.ModAPI.Ingame.MyIGCMessage..ctor)||
 
 #### Methods
 
 |Member|Description|
 |---|---|
-|\\%1TData As\\%1TData>()](Sandbox.ModAPI.Ingame.MyIGCMessage.As)||
+|\\$1TData As\\$1TData>()](Sandbox.ModAPI.Ingame.MyIGCMessage.As)||
 

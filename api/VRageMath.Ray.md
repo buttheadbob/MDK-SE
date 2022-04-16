@@ -18,28 +18,28 @@ Defines a ray.
 
 |Member|Description|
 |---|---|
-|\\%1Vector3 Direction](VRageMath.Ray.Direction)|Unit vector specifying the direction the Ray is pointing.|
-|\\%1Vector3 Position](VRageMath.Ray.Position)|Specifies the starting point of the Ray.|
+|\\$1Vector3 Direction](VRageMath.Ray.Direction)|Unit vector specifying the direction the Ray is pointing.|
+|\\$1Vector3 Position](VRageMath.Ray.Position)|Specifies the starting point of the Ray.|
 
 #### Constructors
 
 |Member|Description|
 |---|---|
-|\\%1Ray(Vector3, Vector3)](VRageMath.Ray..ctor)||
+|\\$1Ray(Vector3, Vector3)](VRageMath.Ray..ctor)||
 
 #### Methods
 
 |Member|Description|
 |---|---|
-|\\%1bool Equals(Ray)](VRageMath.Ray.Equals)|Determines whether the specified Ray is equal to the current Ray.|
-|\\%1bool Equals(object)](VRageMath.Ray.Equals)|Determines whether two instances of Ray are equal.|
-|\\%1int GetHashCode()](VRageMath.Ray.GetHashCode)|Gets the hash code for this instance.|
-|\\%1float? Intersects(BoundingBox)](VRageMath.Ray.Intersects)|Checks whether the Ray intersects a specified BoundingBox.|
-|\\%1void Intersects(ref BoundingBox, out float?)](VRageMath.Ray.Intersects)|Checks whether the current Ray intersects a BoundingBox.|
-|\\%1float? Intersects(BoundingFrustum)](VRageMath.Ray.Intersects)|Checks whether the Ray intersects a specified BoundingFrustum.|
-|\\%1float? Intersects(Plane)](VRageMath.Ray.Intersects)|Determines whether this Ray intersects a specified Plane.|
-|\\%1void Intersects(ref Plane, out float?)](VRageMath.Ray.Intersects)|Determines whether this Ray intersects a specified Plane.|
-|\\%1float? Intersects(BoundingSphere)](VRageMath.Ray.Intersects)|Checks whether the Ray intersects a specified BoundingSphere.|
-|\\%1void Intersects(ref BoundingSphere, out float?)](VRageMath.Ray.Intersects)|Checks whether the current Ray intersects a BoundingSphere.|
-|\\%1string ToString()](VRageMath.Ray.ToString)|Returns a String that represents the current Ray.|
+|\\$1bool Equals(Ray)](VRageMath.Ray.Equals)|Determines whether the specified Ray is equal to the current Ray.|
+|\\$1bool Equals(object)](VRageMath.Ray.Equals)|Determines whether two instances of Ray are equal.|
+|\\$1int GetHashCode()](VRageMath.Ray.GetHashCode)|Gets the hash code for this instance.|
+|\\$1float? Intersects(BoundingBox)](VRageMath.Ray.Intersects)|Checks whether the Ray intersects a specified BoundingBox.|
+|\\$1void Intersects(ref BoundingBox, out float?)](VRageMath.Ray.Intersects)|Checks whether the current Ray intersects a BoundingBox.|
+|\\$1float? Intersects(BoundingFrustum)](VRageMath.Ray.Intersects)|Checks whether the Ray intersects a specified BoundingFrustum.|
+|\\$1float? Intersects(Plane)](VRageMath.Ray.Intersects)|Determines whether this Ray intersects a specified Plane.|
+|\\$1void Intersects(ref Plane, out float?)](VRageMath.Ray.Intersects)|Determines whether this Ray intersects a specified Plane.|
+|\\$1float? Intersects(BoundingSphere)](VRageMath.Ray.Intersects)|Checks whether the Ray intersects a specified BoundingSphere.|
+|\\$1void Intersects(ref BoundingSphere, out float?)](VRageMath.Ray.Intersects)|Checks whether the current Ray intersects a BoundingSphere.|
+|\\$1string ToString()](VRageMath.Ray.ToString)|Returns a String that represents the current Ray.|
 

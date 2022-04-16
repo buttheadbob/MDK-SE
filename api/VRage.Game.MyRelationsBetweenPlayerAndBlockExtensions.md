@@ -13,5 +13,5 @@ public abstract sealed class MyRelationsBetweenPlayerAndBlockExtensions
 
 |Member|Description|
 |---|---|
-|\\%1static bool IsFriendly(this MyRelationsBetweenPlayerAndBlock)](VRage.Game.MyRelationsBetweenPlayerAndBlockExtensions.IsFriendly)||
+|\\$1static bool IsFriendly(this MyRelationsBetweenPlayerAndBlock)](VRage.Game.MyRelationsBetweenPlayerAndBlockExtensions.IsFriendly)||
 

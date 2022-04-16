@@ -18,95 +18,95 @@ Defines a vector with two components.
 
 |Member|Description|
 |---|---|
-|\\%1static Vector2D One](VRageMath.Vector2D.One)||
-|\\%1static Vector2D PositiveInfinity](VRageMath.Vector2D.PositiveInfinity)||
-|\\%1static Vector2D UnitX](VRageMath.Vector2D.UnitX)||
-|\\%1static Vector2D UnitY](VRageMath.Vector2D.UnitY)||
-|\\%1static Vector2D Zero](VRageMath.Vector2D.Zero)||
-|\\%1double X](VRageMath.Vector2D.X)|Gets or sets the x-component of the vector.|
-|\\%1double Y](VRageMath.Vector2D.Y)|Gets or sets the y-component of the vector.|
+|\\$1static Vector2D One](VRageMath.Vector2D.One)||
+|\\$1static Vector2D PositiveInfinity](VRageMath.Vector2D.PositiveInfinity)||
+|\\$1static Vector2D UnitX](VRageMath.Vector2D.UnitX)||
+|\\$1static Vector2D UnitY](VRageMath.Vector2D.UnitY)||
+|\\$1static Vector2D Zero](VRageMath.Vector2D.Zero)||
+|\\$1double X](VRageMath.Vector2D.X)|Gets or sets the x-component of the vector.|
+|\\$1double Y](VRageMath.Vector2D.Y)|Gets or sets the y-component of the vector.|
 
 #### Properties
 
 |Member|Description|
 |---|---|
-|\\%1double Item { get; set; }](VRageMath.Vector2D.Item)||
+|\\$1double Item { get; set; }](VRageMath.Vector2D.Item)||
 
 #### Constructors
 
 |Member|Description|
 |---|---|
-|\\%1Vector2D(double, double)](VRageMath.Vector2D..ctor)||
-|\\%1Vector2D(double)](VRageMath.Vector2D..ctor)||
+|\\$1Vector2D(double, double)](VRageMath.Vector2D..ctor)||
+|\\$1Vector2D(double)](VRageMath.Vector2D..ctor)||
 
 #### Methods
 
 |Member|Description|
 |---|---|
-|\\%1static Vector2D Add(Vector2D, Vector2D)](VRageMath.Vector2D.Add)|Adds two vectors.|
-|\\%1static void Add(ref Vector2D, ref Vector2D, out Vector2D)](VRageMath.Vector2D.Add)|Adds two vectors.|
-|\\%1static Vector2D Barycentric(Vector2D, Vector2D, Vector2D, double, double)](VRageMath.Vector2D.Barycentric)|Returns a Vector2D containing the 2D Cartesian coordinates of a point specified in barycentric (areal) coordinates relative to a 2D triangle.|
-|\\%1static void Barycentric(ref Vector2D, ref Vector2D, ref Vector2D, double, double, out Vector2D)](VRageMath.Vector2D.Barycentric)|Returns a Vector2D containing the 2D Cartesian coordinates of a point specified in barycentric (areal) coordinates relative to a 2D triangle.|
-|\\%1static Vector2D CatmullRom(Vector2D, Vector2D, Vector2D, Vector2D, double)](VRageMath.Vector2D.CatmullRom)|Performs a Catmull-Rom interpolation using the specified positions.|
-|\\%1static void CatmullRom(ref Vector2D, ref Vector2D, ref Vector2D, ref Vector2D, double, out Vector2D)](VRageMath.Vector2D.CatmullRom)|Performs a Catmull-Rom interpolation using the specified positions.|
-|\\%1static Vector2D Clamp(Vector2D, Vector2D, Vector2D)](VRageMath.Vector2D.Clamp)|Restricts a value to be within a specified range.|
-|\\%1static void Clamp(ref Vector2D, ref Vector2D, ref Vector2D, out Vector2D)](VRageMath.Vector2D.Clamp)|Restricts a value to be within a specified range.|
-|\\%1static Vector2D ClampToSphere(Vector2D, double)](VRageMath.Vector2D.ClampToSphere)||
-|\\%1static void ClampToSphere(ref Vector2D, double)](VRageMath.Vector2D.ClampToSphere)||
-|\\%1static double Distance(Vector2D, Vector2D)](VRageMath.Vector2D.Distance)|Calculates the distance between two vectors.|
-|\\%1static void Distance(ref Vector2D, ref Vector2D, out double)](VRageMath.Vector2D.Distance)|Calculates the distance between two vectors.|
-|\\%1static double DistanceSquared(Vector2D, Vector2D)](VRageMath.Vector2D.DistanceSquared)|Calculates the distance between two vectors squared.|
-|\\%1static void DistanceSquared(ref Vector2D, ref Vector2D, out double)](VRageMath.Vector2D.DistanceSquared)|Calculates the distance between two vectors squared.|
-|\\%1static Vector2D Divide(Vector2D, Vector2D)](VRageMath.Vector2D.Divide)|Divides the components of a vector by the components of another vector.|
-|\\%1static void Divide(ref Vector2D, ref Vector2D, out Vector2D)](VRageMath.Vector2D.Divide)|Divides the components of a vector by the components of another vector.|
-|\\%1static Vector2D Divide(Vector2D, double)](VRageMath.Vector2D.Divide)|Divides a vector by a scalar value.|
-|\\%1static void Divide(ref Vector2D, double, out Vector2D)](VRageMath.Vector2D.Divide)|Divides a vector by a scalar value.|
-|\\%1static double Dot(Vector2D, Vector2D)](VRageMath.Vector2D.Dot)|Calculates the dot product of two vectors. If the two vectors are unit vectors, the dot product returns a doubleing point value between -1 and 1 that can be used to determine some properties of the angle between two vectors. For example, it can show whether the vectors are orthogonal, parallel, or have an acute or obtuse angle between them.|
-|\\%1static void Dot(ref Vector2D, ref Vector2D, out double)](VRageMath.Vector2D.Dot)|Calculates the dot product of two vectors and writes the result to a user-specified variable. If the two vectors are unit vectors, the dot product returns a doubleing point value between -1 and 1 that can be used to determine some properties of the angle between two vectors. For example, it can show whether the vectors are orthogonal, parallel, or have an acute or obtuse angle between them.|
-|\\%1static Vector2D Floor(Vector2D)](VRageMath.Vector2D.Floor)||
-|\\%1static Vector2D Hermite(Vector2D, Vector2D, Vector2D, Vector2D, double)](VRageMath.Vector2D.Hermite)|Performs a Hermite spline interpolation.|
-|\\%1static void Hermite(ref Vector2D, ref Vector2D, ref Vector2D, ref Vector2D, double, out Vector2D)](VRageMath.Vector2D.Hermite)|Performs a Hermite spline interpolation.|
-|\\%1static Vector2D Lerp(Vector2D, Vector2D, double)](VRageMath.Vector2D.Lerp)|Performs a linear interpolation between two vectors.|
-|\\%1static void Lerp(ref Vector2D, ref Vector2D, double, out Vector2D)](VRageMath.Vector2D.Lerp)|Performs a linear interpolation between two vectors.|
-|\\%1static Vector2D Max(Vector2D, Vector2D)](VRageMath.Vector2D.Max)|Returns a vector that contains the highest value from each matching pair of components.|
-|\\%1static void Max(ref Vector2D, ref Vector2D, out Vector2D)](VRageMath.Vector2D.Max)|Returns a vector that contains the highest value from each matching pair of components.|
-|\\%1static Vector2D Min(Vector2D, Vector2D)](VRageMath.Vector2D.Min)|Returns a vector that contains the lowest value from each matching pair of components.|
-|\\%1static void Min(ref Vector2D, ref Vector2D, out Vector2D)](VRageMath.Vector2D.Min)|Returns a vector that contains the lowest value from each matching pair of components.|
-|\\%1static Vector2D Multiply(Vector2D, Vector2D)](VRageMath.Vector2D.Multiply)|Multiplies the components of two vectors by each other.|
-|\\%1static void Multiply(ref Vector2D, ref Vector2D, out Vector2D)](VRageMath.Vector2D.Multiply)|Multiplies the components of two vectors by each other.|
-|\\%1static Vector2D Multiply(Vector2D, double)](VRageMath.Vector2D.Multiply)|Multiplies a vector by a scalar value.|
-|\\%1static void Multiply(ref Vector2D, double, out Vector2D)](VRageMath.Vector2D.Multiply)|Multiplies a vector by a scalar value.|
-|\\%1static Vector2D Negate(Vector2D)](VRageMath.Vector2D.Negate)|Returns a vector pointing in the opposite direction.|
-|\\%1static void Negate(ref Vector2D, out Vector2D)](VRageMath.Vector2D.Negate)|Returns a vector pointing in the opposite direction.|
-|\\%1static Vector2D Normalize(Vector2D)](VRageMath.Vector2D.Normalize)|Creates a unit vector from the specified vector. The result is a vector one unit in length pointing in the same direction as the original vector.|
-|\\%1static void Normalize(ref Vector2D, out Vector2D)](VRageMath.Vector2D.Normalize)|Creates a unit vector from the specified vector, writing the result to a user-specified variable. The result is a vector one unit in length pointing in the same direction as the original vector.|
-|\\%1static Vector2D Reflect(Vector2D, Vector2D)](VRageMath.Vector2D.Reflect)|Determines the reflect vector of the given vector and normal.|
-|\\%1static void Reflect(ref Vector2D, ref Vector2D, out Vector2D)](VRageMath.Vector2D.Reflect)|Determines the reflect vector of the given vector and normal.|
-|\\%1static Vector2D SmoothStep(Vector2D, Vector2D, double)](VRageMath.Vector2D.SmoothStep)|Interpolates between two values using a cubic equation.|
-|\\%1static void SmoothStep(ref Vector2D, ref Vector2D, double, out Vector2D)](VRageMath.Vector2D.SmoothStep)|Interpolates between two values using a cubic equation.|
-|\\%1static Vector2D Subtract(Vector2D, Vector2D)](VRageMath.Vector2D.Subtract)|Subtracts a vector from a vector.|
-|\\%1static void Subtract(ref Vector2D, ref Vector2D, out Vector2D)](VRageMath.Vector2D.Subtract)|Subtracts a vector from a vector.|
-|\\%1static Vector2D Transform(Vector2D, Matrix)](VRageMath.Vector2D.Transform)|Transforms the vector (x, y, 0, 1) by the specified matrix.|
-|\\%1static void Transform(ref Vector2D, ref Matrix, out Vector2D)](VRageMath.Vector2D.Transform)|Transforms a Vector2D by the given Matrix.|
-|\\%1static Vector2D Transform(Vector2D, Quaternion)](VRageMath.Vector2D.Transform)|Transforms a single Vector2D, or the vector normal (x, y, 0, 0), by a specified Quaternion rotation.|
-|\\%1static void Transform(ref Vector2D, ref Quaternion, out Vector2D)](VRageMath.Vector2D.Transform)|Transforms a Vector2D, or the vector normal (x, y, 0, 0), by a specified Quaternion rotation.|
-|\\%1static void Transform(Vector2D\\%1], ref Matrix, Vector2D\\%1])](VRageMath.Vector2D.Transform)|Transforms an array of Vector2s by a specified Matrix.|
-|\\%1static void Transform(Vector2D\\%1], int, ref Matrix, Vector2D\\%1], int, int)](VRageMath.Vector2D.Transform)|Transforms a specified range in an array of Vector2s by a specified Matrix and places the results in a specified range in a destination array.|
-|\\%1static void Transform(Vector2D\\%1], ref Quaternion, Vector2D\\%1])](VRageMath.Vector2D.Transform)|Transforms an array of Vector2s by a specified Quaternion.|
-|\\%1static void Transform(Vector2D\\%1], int, ref Quaternion, Vector2D\\%1], int, int)](VRageMath.Vector2D.Transform)|Transforms a specified range in an array of Vector2s by a specified Quaternion and places the results in a specified range in a destination array.|
-|\\%1static Vector2D TransformNormal(Vector2D, Matrix)](VRageMath.Vector2D.TransformNormal)|Transforms a 2D vector normal by a matrix.|
-|\\%1static void TransformNormal(ref Vector2D, ref Matrix, out Vector2D)](VRageMath.Vector2D.TransformNormal)|Transforms a vector normal by a matrix.|
-|\\%1static void TransformNormal(Vector2D\\%1], ref Matrix, Vector2D\\%1])](VRageMath.Vector2D.TransformNormal)|Transforms an array of Vector2D vector normals by a specified Matrix.|
-|\\%1static void TransformNormal(Vector2D\\%1], int, ref Matrix, Vector2D\\%1], int, int)](VRageMath.Vector2D.TransformNormal)|Transforms a specified range in an array of Vector2D vector normals by a specified Matrix and places the results in a specified range in a destination array.|
-|\\%1void AssertIsValid()](VRageMath.Vector2D.AssertIsValid)||
-|\\%1bool Between(ref Vector2D, ref Vector2D)](VRageMath.Vector2D.Between)||
-|\\%1bool Equals(Vector2D)](VRageMath.Vector2D.Equals)|Determines whether the specified Object is equal to the Vector2D.|
-|\\%1bool Equals(object)](VRageMath.Vector2D.Equals)|Returns a value that indicates whether the current instance is equal to a specified object.|
-|\\%1int GetHashCode()](VRageMath.Vector2D.GetHashCode)|Gets the hash code of the vector object.|
-|\\%1bool IsValid()](VRageMath.Vector2D.IsValid)||
-|\\%1double Length()](VRageMath.Vector2D.Length)|Calculates the length of the vector.|
-|\\%1double LengthSquared()](VRageMath.Vector2D.LengthSquared)|Calculates the length of the vector squared.|
-|\\%1void Normalize()](VRageMath.Vector2D.Normalize)|Turns the current vector into a unit vector. The result is a vector one unit in length pointing in the same direction as the original vector.|
-|\\%1void Rotate(double)](VRageMath.Vector2D.Rotate)||
-|\\%1string ToString()](VRageMath.Vector2D.ToString)|Retrieves a string representation of the current object.|
+|\\$1static Vector2D Add(Vector2D, Vector2D)](VRageMath.Vector2D.Add)|Adds two vectors.|
+|\\$1static void Add(ref Vector2D, ref Vector2D, out Vector2D)](VRageMath.Vector2D.Add)|Adds two vectors.|
+|\\$1static Vector2D Barycentric(Vector2D, Vector2D, Vector2D, double, double)](VRageMath.Vector2D.Barycentric)|Returns a Vector2D containing the 2D Cartesian coordinates of a point specified in barycentric (areal) coordinates relative to a 2D triangle.|
+|\\$1static void Barycentric(ref Vector2D, ref Vector2D, ref Vector2D, double, double, out Vector2D)](VRageMath.Vector2D.Barycentric)|Returns a Vector2D containing the 2D Cartesian coordinates of a point specified in barycentric (areal) coordinates relative to a 2D triangle.|
+|\\$1static Vector2D CatmullRom(Vector2D, Vector2D, Vector2D, Vector2D, double)](VRageMath.Vector2D.CatmullRom)|Performs a Catmull-Rom interpolation using the specified positions.|
+|\\$1static void CatmullRom(ref Vector2D, ref Vector2D, ref Vector2D, ref Vector2D, double, out Vector2D)](VRageMath.Vector2D.CatmullRom)|Performs a Catmull-Rom interpolation using the specified positions.|
+|\\$1static Vector2D Clamp(Vector2D, Vector2D, Vector2D)](VRageMath.Vector2D.Clamp)|Restricts a value to be within a specified range.|
+|\\$1static void Clamp(ref Vector2D, ref Vector2D, ref Vector2D, out Vector2D)](VRageMath.Vector2D.Clamp)|Restricts a value to be within a specified range.|
+|\\$1static Vector2D ClampToSphere(Vector2D, double)](VRageMath.Vector2D.ClampToSphere)||
+|\\$1static void ClampToSphere(ref Vector2D, double)](VRageMath.Vector2D.ClampToSphere)||
+|\\$1static double Distance(Vector2D, Vector2D)](VRageMath.Vector2D.Distance)|Calculates the distance between two vectors.|
+|\\$1static void Distance(ref Vector2D, ref Vector2D, out double)](VRageMath.Vector2D.Distance)|Calculates the distance between two vectors.|
+|\\$1static double DistanceSquared(Vector2D, Vector2D)](VRageMath.Vector2D.DistanceSquared)|Calculates the distance between two vectors squared.|
+|\\$1static void DistanceSquared(ref Vector2D, ref Vector2D, out double)](VRageMath.Vector2D.DistanceSquared)|Calculates the distance between two vectors squared.|
+|\\$1static Vector2D Divide(Vector2D, Vector2D)](VRageMath.Vector2D.Divide)|Divides the components of a vector by the components of another vector.|
+|\\$1static void Divide(ref Vector2D, ref Vector2D, out Vector2D)](VRageMath.Vector2D.Divide)|Divides the components of a vector by the components of another vector.|
+|\\$1static Vector2D Divide(Vector2D, double)](VRageMath.Vector2D.Divide)|Divides a vector by a scalar value.|
+|\\$1static void Divide(ref Vector2D, double, out Vector2D)](VRageMath.Vector2D.Divide)|Divides a vector by a scalar value.|
+|\\$1static double Dot(Vector2D, Vector2D)](VRageMath.Vector2D.Dot)|Calculates the dot product of two vectors. If the two vectors are unit vectors, the dot product returns a doubleing point value between -1 and 1 that can be used to determine some properties of the angle between two vectors. For example, it can show whether the vectors are orthogonal, parallel, or have an acute or obtuse angle between them.|
+|\\$1static void Dot(ref Vector2D, ref Vector2D, out double)](VRageMath.Vector2D.Dot)|Calculates the dot product of two vectors and writes the result to a user-specified variable. If the two vectors are unit vectors, the dot product returns a doubleing point value between -1 and 1 that can be used to determine some properties of the angle between two vectors. For example, it can show whether the vectors are orthogonal, parallel, or have an acute or obtuse angle between them.|
+|\\$1static Vector2D Floor(Vector2D)](VRageMath.Vector2D.Floor)||
+|\\$1static Vector2D Hermite(Vector2D, Vector2D, Vector2D, Vector2D, double)](VRageMath.Vector2D.Hermite)|Performs a Hermite spline interpolation.|
+|\\$1static void Hermite(ref Vector2D, ref Vector2D, ref Vector2D, ref Vector2D, double, out Vector2D)](VRageMath.Vector2D.Hermite)|Performs a Hermite spline interpolation.|
+|\\$1static Vector2D Lerp(Vector2D, Vector2D, double)](VRageMath.Vector2D.Lerp)|Performs a linear interpolation between two vectors.|
+|\\$1static void Lerp(ref Vector2D, ref Vector2D, double, out Vector2D)](VRageMath.Vector2D.Lerp)|Performs a linear interpolation between two vectors.|
+|\\$1static Vector2D Max(Vector2D, Vector2D)](VRageMath.Vector2D.Max)|Returns a vector that contains the highest value from each matching pair of components.|
+|\\$1static void Max(ref Vector2D, ref Vector2D, out Vector2D)](VRageMath.Vector2D.Max)|Returns a vector that contains the highest value from each matching pair of components.|
+|\\$1static Vector2D Min(Vector2D, Vector2D)](VRageMath.Vector2D.Min)|Returns a vector that contains the lowest value from each matching pair of components.|
+|\\$1static void Min(ref Vector2D, ref Vector2D, out Vector2D)](VRageMath.Vector2D.Min)|Returns a vector that contains the lowest value from each matching pair of components.|
+|\\$1static Vector2D Multiply(Vector2D, Vector2D)](VRageMath.Vector2D.Multiply)|Multiplies the components of two vectors by each other.|
+|\\$1static void Multiply(ref Vector2D, ref Vector2D, out Vector2D)](VRageMath.Vector2D.Multiply)|Multiplies the components of two vectors by each other.|
+|\\$1static Vector2D Multiply(Vector2D, double)](VRageMath.Vector2D.Multiply)|Multiplies a vector by a scalar value.|
+|\\$1static void Multiply(ref Vector2D, double, out Vector2D)](VRageMath.Vector2D.Multiply)|Multiplies a vector by a scalar value.|
+|\\$1static Vector2D Negate(Vector2D)](VRageMath.Vector2D.Negate)|Returns a vector pointing in the opposite direction.|
+|\\$1static void Negate(ref Vector2D, out Vector2D)](VRageMath.Vector2D.Negate)|Returns a vector pointing in the opposite direction.|
+|\\$1static Vector2D Normalize(Vector2D)](VRageMath.Vector2D.Normalize)|Creates a unit vector from the specified vector. The result is a vector one unit in length pointing in the same direction as the original vector.|
+|\\$1static void Normalize(ref Vector2D, out Vector2D)](VRageMath.Vector2D.Normalize)|Creates a unit vector from the specified vector, writing the result to a user-specified variable. The result is a vector one unit in length pointing in the same direction as the original vector.|
+|\\$1static Vector2D Reflect(Vector2D, Vector2D)](VRageMath.Vector2D.Reflect)|Determines the reflect vector of the given vector and normal.|
+|\\$1static void Reflect(ref Vector2D, ref Vector2D, out Vector2D)](VRageMath.Vector2D.Reflect)|Determines the reflect vector of the given vector and normal.|
+|\\$1static Vector2D SmoothStep(Vector2D, Vector2D, double)](VRageMath.Vector2D.SmoothStep)|Interpolates between two values using a cubic equation.|
+|\\$1static void SmoothStep(ref Vector2D, ref Vector2D, double, out Vector2D)](VRageMath.Vector2D.SmoothStep)|Interpolates between two values using a cubic equation.|
+|\\$1static Vector2D Subtract(Vector2D, Vector2D)](VRageMath.Vector2D.Subtract)|Subtracts a vector from a vector.|
+|\\$1static void Subtract(ref Vector2D, ref Vector2D, out Vector2D)](VRageMath.Vector2D.Subtract)|Subtracts a vector from a vector.|
+|\\$1static Vector2D Transform(Vector2D, Matrix)](VRageMath.Vector2D.Transform)|Transforms the vector (x, y, 0, 1) by the specified matrix.|
+|\\$1static void Transform(ref Vector2D, ref Matrix, out Vector2D)](VRageMath.Vector2D.Transform)|Transforms a Vector2D by the given Matrix.|
+|\\$1static Vector2D Transform(Vector2D, Quaternion)](VRageMath.Vector2D.Transform)|Transforms a single Vector2D, or the vector normal (x, y, 0, 0), by a specified Quaternion rotation.|
+|\\$1static void Transform(ref Vector2D, ref Quaternion, out Vector2D)](VRageMath.Vector2D.Transform)|Transforms a Vector2D, or the vector normal (x, y, 0, 0), by a specified Quaternion rotation.|
+|\\$1static void Transform(Vector2D\\$1], ref Matrix, Vector2D\\$1])](VRageMath.Vector2D.Transform)|Transforms an array of Vector2s by a specified Matrix.|
+|\\$1static void Transform(Vector2D\\$1], int, ref Matrix, Vector2D\\$1], int, int)](VRageMath.Vector2D.Transform)|Transforms a specified range in an array of Vector2s by a specified Matrix and places the results in a specified range in a destination array.|
+|\\$1static void Transform(Vector2D\\$1], ref Quaternion, Vector2D\\$1])](VRageMath.Vector2D.Transform)|Transforms an array of Vector2s by a specified Quaternion.|
+|\\$1static void Transform(Vector2D\\$1], int, ref Quaternion, Vector2D\\$1], int, int)](VRageMath.Vector2D.Transform)|Transforms a specified range in an array of Vector2s by a specified Quaternion and places the results in a specified range in a destination array.|
+|\\$1static Vector2D TransformNormal(Vector2D, Matrix)](VRageMath.Vector2D.TransformNormal)|Transforms a 2D vector normal by a matrix.|
+|\\$1static void TransformNormal(ref Vector2D, ref Matrix, out Vector2D)](VRageMath.Vector2D.TransformNormal)|Transforms a vector normal by a matrix.|
+|\\$1static void TransformNormal(Vector2D\\$1], ref Matrix, Vector2D\\$1])](VRageMath.Vector2D.TransformNormal)|Transforms an array of Vector2D vector normals by a specified Matrix.|
+|\\$1static void TransformNormal(Vector2D\\$1], int, ref Matrix, Vector2D\\$1], int, int)](VRageMath.Vector2D.TransformNormal)|Transforms a specified range in an array of Vector2D vector normals by a specified Matrix and places the results in a specified range in a destination array.|
+|\\$1void AssertIsValid()](VRageMath.Vector2D.AssertIsValid)||
+|\\$1bool Between(ref Vector2D, ref Vector2D)](VRageMath.Vector2D.Between)||
+|\\$1bool Equals(Vector2D)](VRageMath.Vector2D.Equals)|Determines whether the specified Object is equal to the Vector2D.|
+|\\$1bool Equals(object)](VRageMath.Vector2D.Equals)|Returns a value that indicates whether the current instance is equal to a specified object.|
+|\\$1int GetHashCode()](VRageMath.Vector2D.GetHashCode)|Gets the hash code of the vector object.|
+|\\$1bool IsValid()](VRageMath.Vector2D.IsValid)||
+|\\$1double Length()](VRageMath.Vector2D.Length)|Calculates the length of the vector.|
+|\\$1double LengthSquared()](VRageMath.Vector2D.LengthSquared)|Calculates the length of the vector squared.|
+|\\$1void Normalize()](VRageMath.Vector2D.Normalize)|Turns the current vector into a unit vector. The result is a vector one unit in length pointing in the same direction as the original vector.|
+|\\$1void Rotate(double)](VRageMath.Vector2D.Rotate)||
+|\\$1string ToString()](VRageMath.Vector2D.ToString)|Retrieves a string representation of the current object.|
 

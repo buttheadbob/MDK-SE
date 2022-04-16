@@ -22,6 +22,6 @@ public class MyTupleComparer<T1, T2, T3>: IEqualityComparer<>
 
 |Member|Description|
 |---|---|
-|[Equals(MyTuple, MyTuple)](VRage.MyTupleComparer`3.Equals)||
-|[GetHashCode(MyTuple)](VRage.MyTupleComparer`3.GetHashCode)||
+|[bool Equals(MyTuple, MyTuple)](VRage.MyTupleComparer`3.Equals)||
+|[int GetHashCode(MyTuple)](VRage.MyTupleComparer`3.GetHashCode)||
 

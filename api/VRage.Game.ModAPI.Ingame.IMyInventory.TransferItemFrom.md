@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool TransferItemFrom(IMyInventory sourceInventory, MyInventoryItem item, MyFixedPoint? amount)
+public bool TransferItemFrom(IMyInventory sourceInventory, MyInventoryItem item, [MyFixedPoint? amount])
 ```
 
 Attempts to transfer item from one inventory to another.
@@ -22,7 +22,7 @@ True in case item was successfully transferred, false otherwise
 ### Summary
 
 ```csharp
-public bool TransferItemFrom(IMyInventory sourceInventory, int sourceItemIndex, int? targetItemIndex, bool? stackIfPossible, MyFixedPoint? amount)
+public bool TransferItemFrom(IMyInventory sourceInventory, int sourceItemIndex, [int? targetItemIndex], [bool? stackIfPossible], [MyFixedPoint? amount])
 ```
 
 Attempts to transfer item from one inventory to another.

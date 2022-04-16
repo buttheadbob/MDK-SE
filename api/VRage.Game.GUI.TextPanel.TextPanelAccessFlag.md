@@ -13,13 +13,13 @@ public enum TextPanelAccessFlag
 
 |Member|Description|
 |---|---|
-|NONE||
-|READ_FACTION||
-|WRITE_FACTION||
-|READ_AND_WRITE_FACTION||
-|READ_ENEMY||
-|WRITE_ENEMY||
-|READ_ALL||
-|WRITE_ALL||
-|READ_AND_WRITE_ALL||
+|TextPanelAccessFlag NONE||
+|TextPanelAccessFlag READ_ALL||
+|TextPanelAccessFlag READ_AND_WRITE_ALL||
+|TextPanelAccessFlag READ_AND_WRITE_FACTION||
+|TextPanelAccessFlag READ_ENEMY||
+|TextPanelAccessFlag READ_FACTION||
+|TextPanelAccessFlag WRITE_ALL||
+|TextPanelAccessFlag WRITE_ENEMY||
+|TextPanelAccessFlag WRITE_FACTION||
 

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public TextPtr SkipWhitespace(bool skipNewline)
+public TextPtr SkipWhitespace([bool skipNewline])
 ```
 
 Skips whitespace

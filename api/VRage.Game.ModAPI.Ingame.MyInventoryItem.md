@@ -19,9 +19,9 @@ Snapshot of inventory item at the moment of query. Not updated afterwards!
 
 |Member|Description|
 |---|---|
-|[ItemId](VRage.Game.ModAPI.Ingame.MyInventoryItem.ItemId)|Id of item, unique within a single inventory.|
-|[Amount](VRage.Game.ModAPI.Ingame.MyInventoryItem.Amount)|Amount of stacked items. Kg or count, based on item type.|
-|[Type](VRage.Game.ModAPI.Ingame.MyInventoryItem.Type)|Type of inventory item.|
+|[MyFixedPoint Amount](VRage.Game.ModAPI.Ingame.MyInventoryItem.Amount)|Amount of stacked items. Kg or count, based on item type.|
+|[uint ItemId](VRage.Game.ModAPI.Ingame.MyInventoryItem.ItemId)|Id of item, unique within a single inventory.|
+|[MyItemType Type](VRage.Game.ModAPI.Ingame.MyInventoryItem.Type)|Type of inventory item.|
 
 #### Constructors
 
@@ -33,9 +33,9 @@ Snapshot of inventory item at the moment of query. Not updated afterwards!
 
 |Member|Description|
 |---|---|
-|[Equals(MyInventoryItem)](VRage.Game.ModAPI.Ingame.MyInventoryItem.Equals)||
-|[Equals(object)](VRage.Game.ModAPI.Ingame.MyInventoryItem.Equals)||
-|[GetHashCode()](VRage.Game.ModAPI.Ingame.MyInventoryItem.GetHashCode)||
-|[CompareTo(MyInventoryItem)](VRage.Game.ModAPI.Ingame.MyInventoryItem.CompareTo)||
-|[ToString()](VRage.Game.ModAPI.Ingame.MyInventoryItem.ToString)||
+|[int CompareTo(MyInventoryItem)](VRage.Game.ModAPI.Ingame.MyInventoryItem.CompareTo)||
+|[bool Equals(MyInventoryItem)](VRage.Game.ModAPI.Ingame.MyInventoryItem.Equals)||
+|[bool Equals(object)](VRage.Game.ModAPI.Ingame.MyInventoryItem.Equals)||
+|[int GetHashCode()](VRage.Game.ModAPI.Ingame.MyInventoryItem.GetHashCode)||
+|[string ToString()](VRage.Game.ModAPI.Ingame.MyInventoryItem.ToString)||
 

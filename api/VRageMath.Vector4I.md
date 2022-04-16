@@ -16,17 +16,17 @@ public struct Vector4I: IComparable<VRageMath.Vector4I>
 
 |Member|Description|
 |---|---|
-|[X](VRageMath.Vector4I.X)||
-|[Y](VRageMath.Vector4I.Y)||
-|[Z](VRageMath.Vector4I.Z)||
-|[W](VRageMath.Vector4I.W)||
-|[Comparer](VRageMath.Vector4I.Comparer)||
+|[static EqualityComparer Comparer](VRageMath.Vector4I.Comparer)||
+|[int W](VRageMath.Vector4I.W)||
+|[int X](VRageMath.Vector4I.X)||
+|[int Y](VRageMath.Vector4I.Y)||
+|[int Z](VRageMath.Vector4I.Z)||
 
 #### Properties
 
 |Member|Description|
 |---|---|
-|[Item { get; set; }](VRageMath.Vector4I.Item)||
+|[int Item { get; set; }](VRageMath.Vector4I.Item)||
 
 #### Constructors
 
@@ -39,6 +39,6 @@ public struct Vector4I: IComparable<VRageMath.Vector4I>
 
 |Member|Description|
 |---|---|
-|[CompareTo(Vector4I)](VRageMath.Vector4I.CompareTo)||
-|[ToString()](VRageMath.Vector4I.ToString)||
+|[int CompareTo(Vector4I)](VRageMath.Vector4I.CompareTo)||
+|[string ToString()](VRageMath.Vector4I.ToString)||
 

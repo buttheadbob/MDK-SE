@@ -13,9 +13,9 @@ public struct Capsule
 
 |Member|Description|
 |---|---|
-|[P0](VRageMath.Capsule.P0)||
-|[P1](VRageMath.Capsule.P1)||
-|[Radius](VRageMath.Capsule.Radius)||
+|[Vector3 P0](VRageMath.Capsule.P0)||
+|[Vector3 P1](VRageMath.Capsule.P1)||
+|[float Radius](VRageMath.Capsule.Radius)||
 
 #### Constructors
 
@@ -27,6 +27,6 @@ public struct Capsule
 
 |Member|Description|
 |---|---|
-|[Intersect(Ray, ref Vector3, ref Vector3, ref Vector3, ref Vector3)](VRageMath.Capsule.Intersect)||
-|[Intersect(Line, ref Vector3, ref Vector3, ref Vector3, ref Vector3)](VRageMath.Capsule.Intersect)||
+|[bool Intersect(Ray, ref Vector3, ref Vector3, ref Vector3, ref Vector3)](VRageMath.Capsule.Intersect)||
+|[bool Intersect(Line, ref Vector3, ref Vector3, ref Vector3, ref Vector3)](VRageMath.Capsule.Intersect)||
 

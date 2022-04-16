@@ -13,9 +13,9 @@ public struct MyProductionItem
 
 |Member|Description|
 |---|---|
-|[Amount](Sandbox.ModAPI.Ingame.MyProductionItem.Amount)||
-|[BlueprintId](Sandbox.ModAPI.Ingame.MyProductionItem.BlueprintId)||
-|[ItemId](Sandbox.ModAPI.Ingame.MyProductionItem.ItemId)||
+|[MyFixedPoint Amount](Sandbox.ModAPI.Ingame.MyProductionItem.Amount)||
+|[MyDefinitionId BlueprintId](Sandbox.ModAPI.Ingame.MyProductionItem.BlueprintId)||
+|[uint ItemId](Sandbox.ModAPI.Ingame.MyProductionItem.ItemId)||
 
 #### Constructors
 

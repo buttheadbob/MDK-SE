@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void SendBroadcastMessage<TData>(string tag, TData data, TransmissionDistance transmissionDistance)
+public void SendBroadcastMessage<TData>(string tag, TData data, [TransmissionDistance transmissionDistance])
 ```
 
 ### Parameters

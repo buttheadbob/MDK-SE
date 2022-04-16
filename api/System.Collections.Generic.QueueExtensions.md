@@ -13,6 +13,6 @@ public abstract sealed class QueueExtensions
 
 |Member|Description|
 |---|---|
-|[TryDequeue(this Queue, out T)](System.Collections.Generic.QueueExtensions.TryDequeue)||
-|[TryDequeueSync(this Queue, out T)](System.Collections.Generic.QueueExtensions.TryDequeueSync)||
+|[static bool TryDequeue(this Queue, out T)](System.Collections.Generic.QueueExtensions.TryDequeue)||
+|[static bool TryDequeueSync(this Queue, out T)](System.Collections.Generic.QueueExtensions.TryDequeueSync)||
 

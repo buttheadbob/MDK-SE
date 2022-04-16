@@ -13,36 +13,36 @@ public abstract sealed class MyTexts
 
 |Member|Description|
 |---|---|
-|[GAMEPAD_VARIANT_ID](VRage.MyTexts.GAMEPAD_VARIANT_ID)||
+|[static MyStringId GAMEPAD_VARIANT_ID](VRage.MyTexts.GAMEPAD_VARIANT_ID)||
 
 #### Properties
 
 |Member|Description|
 |---|---|
-|[GlobalVariantSelector { get; }](VRage.MyTexts.GlobalVariantSelector)|Global selector for translation variants.|
-|[Languages { get; }](VRage.MyTexts.Languages)||
+|[static MyStringId GlobalVariantSelector { get; }](VRage.MyTexts.GlobalVariantSelector)|Global selector for translation variants.|
+|[static DictionaryReader Languages { get; }](VRage.MyTexts.Languages)||
 
 #### Methods
 
 |Member|Description|
 |---|---|
-|[GetBestSuitableLanguage(string)](VRage.MyTexts.GetBestSuitableLanguage)||
-|[GetSystemLanguage()](VRage.MyTexts.GetSystemLanguage)||
-|[LoadSupportedLanguages(string, HashSet)](VRage.MyTexts.LoadSupportedLanguages)||
-|[SetGlobalVariantSelector(MyStringId)](VRage.MyTexts.SetGlobalVariantSelector)|Set the global variant to be selected for each translation.|
-|[SubstituteTexts(string, string)](VRage.MyTexts.SubstituteTexts)||
-|[SubstituteTexts(StringBuilder)](VRage.MyTexts.SubstituteTexts)||
-|[Get(MyStringId)](VRage.MyTexts.Get)||
-|[TrySubstitute(string)](VRage.MyTexts.TrySubstitute)||
-|[RegisterEvaluator(string, ITextEvaluator)](VRage.MyTexts.RegisterEvaluator)||
-|[MatchesReplaceFormat(string)](VRage.MyTexts.MatchesReplaceFormat)||
-|[GetString(MyStringId)](VRage.MyTexts.GetString)||
-|[GetString(string)](VRage.MyTexts.GetString)||
-|[Exists(MyStringId)](VRage.MyTexts.Exists)||
-|[Clear()](VRage.MyTexts.Clear)||
-|[IsTagged(string, int, string)](VRage.MyTexts.IsTagged)||
-|[LoadTexts(string, string, string)](VRage.MyTexts.LoadTexts)||
-|[AppendFormat(this StringBuilder, MyStringId, object)](VRage.MyTexts.AppendFormat)||
-|[AppendFormat(this StringBuilder, MyStringId, Object[])](VRage.MyTexts.AppendFormat)||
-|[AppendFormat(this StringBuilder, MyStringId, MyStringId)](VRage.MyTexts.AppendFormat)||
+|[static StringBuilder AppendFormat(this StringBuilder, MyStringId, object)](VRage.MyTexts.AppendFormat)||
+|[static StringBuilder AppendFormat(this StringBuilder, MyStringId, Object[])](VRage.MyTexts.AppendFormat)||
+|[static StringBuilder AppendFormat(this StringBuilder, MyStringId, MyStringId)](VRage.MyTexts.AppendFormat)||
+|[static void Clear()](VRage.MyTexts.Clear)||
+|[static bool Exists(MyStringId)](VRage.MyTexts.Exists)||
+|[static StringBuilder Get(MyStringId)](VRage.MyTexts.Get)||
+|[static MyLanguagesEnum GetBestSuitableLanguage(string)](VRage.MyTexts.GetBestSuitableLanguage)||
+|[static string GetString(MyStringId)](VRage.MyTexts.GetString)||
+|[static string GetString(string)](VRage.MyTexts.GetString)||
+|[static string GetSystemLanguage()](VRage.MyTexts.GetSystemLanguage)||
+|[static bool IsTagged(string, int, string)](VRage.MyTexts.IsTagged)||
+|[static void LoadSupportedLanguages(string, HashSet)](VRage.MyTexts.LoadSupportedLanguages)||
+|[static void LoadTexts(string, [string], [string])](VRage.MyTexts.LoadTexts)||
+|[static bool MatchesReplaceFormat(string)](VRage.MyTexts.MatchesReplaceFormat)||
+|[static void RegisterEvaluator(string, ITextEvaluator)](VRage.MyTexts.RegisterEvaluator)||
+|[static void SetGlobalVariantSelector(MyStringId)](VRage.MyTexts.SetGlobalVariantSelector)|Set the global variant to be selected for each translation.|
+|[static string SubstituteTexts(string, [string])](VRage.MyTexts.SubstituteTexts)||
+|[static StringBuilder SubstituteTexts(StringBuilder)](VRage.MyTexts.SubstituteTexts)||
+|[static string TrySubstitute(string)](VRage.MyTexts.TrySubstitute)||
 

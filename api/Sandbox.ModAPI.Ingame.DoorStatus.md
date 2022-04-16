@@ -15,8 +15,8 @@ Describes the current status of the door.
 
 |Member|Description|
 |---|---|
-|Opening|The door is in the process of being opened.|
-|Open|The door is fully open.|
-|Closing|The door is in the process of being closed.|
-|Closed|The door is fully closed.|
+|DoorStatus Closed|The door is fully closed.|
+|DoorStatus Closing|The door is in the process of being closed.|
+|DoorStatus Open|The door is fully open.|
+|DoorStatus Opening|The door is in the process of being opened.|
 

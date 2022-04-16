@@ -15,13 +15,13 @@ Describes terminal block group (PB scripting interface)
 
 |Member|Description|
 |---|---|
-|[Name { get; }](Sandbox.ModAPI.Ingame.IMyBlockGroup.Name)|Gets name of terminal blocks group|
+|[string Name { get; }](Sandbox.ModAPI.Ingame.IMyBlockGroup.Name)|Gets name of terminal blocks group|
 
 #### Methods
 
 |Member|Description|
 |---|---|
-|[GetBlocks(List, Func)](Sandbox.ModAPI.Ingame.IMyBlockGroup.GetBlocks)|Get terminal blocks which assigned to this group|
-|[GetBlocksOfType(List, Func)](Sandbox.ModAPI.Ingame.IMyBlockGroup.GetBlocksOfType)||
-|[GetBlocksOfType(List, Func)](Sandbox.ModAPI.Ingame.IMyBlockGroup.GetBlocksOfType)||
+|[void GetBlocks(List, [Func])](Sandbox.ModAPI.Ingame.IMyBlockGroup.GetBlocks)|Get terminal blocks which assigned to this group|
+|[void GetBlocksOfType(List, [Func])](Sandbox.ModAPI.Ingame.IMyBlockGroup.GetBlocksOfType)||
+|[void GetBlocksOfType(List, [Func])](Sandbox.ModAPI.Ingame.IMyBlockGroup.GetBlocksOfType)||
 

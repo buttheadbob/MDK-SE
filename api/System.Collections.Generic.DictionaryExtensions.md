@@ -13,11 +13,11 @@ public abstract sealed class DictionaryExtensions
 
 |Member|Description|
 |---|---|
-|[GetValueOrDefault(this Dictionary, K)](System.Collections.Generic.DictionaryExtensions.GetValueOrDefault)||
-|[GetValueOrDefault(this Dictionary, K, V)](System.Collections.Generic.DictionaryExtensions.GetValueOrDefault)||
-|[FirstPair(this Dictionary)](System.Collections.Generic.DictionaryExtensions.FirstPair)||
-|[GetValueOrDefault(this ConcurrentDictionary, K, V)](System.Collections.Generic.DictionaryExtensions.GetValueOrDefault)||
-|[Remove(this ConcurrentDictionary, K)](System.Collections.Generic.DictionaryExtensions.Remove)||
-|[GetOrAdd(this ConcurrentDictionary, TKey, TContext, Func)](System.Collections.Generic.DictionaryExtensions.GetOrAdd)||
-|[AssertEmpty(this Dictionary)](System.Collections.Generic.DictionaryExtensions.AssertEmpty)||
+|[static void AssertEmpty(this Dictionary)](System.Collections.Generic.DictionaryExtensions.AssertEmpty)||
+|[static KeyValuePair FirstPair(this Dictionary)](System.Collections.Generic.DictionaryExtensions.FirstPair)||
+|[static TValue GetOrAdd(this ConcurrentDictionary, TKey, TContext, Func)](System.Collections.Generic.DictionaryExtensions.GetOrAdd)||
+|[static V GetValueOrDefault(this Dictionary, K)](System.Collections.Generic.DictionaryExtensions.GetValueOrDefault)||
+|[static V GetValueOrDefault(this Dictionary, K, V)](System.Collections.Generic.DictionaryExtensions.GetValueOrDefault)||
+|[static V GetValueOrDefault(this ConcurrentDictionary, K, V)](System.Collections.Generic.DictionaryExtensions.GetValueOrDefault)||
+|[static void Remove(this ConcurrentDictionary, K)](System.Collections.Generic.DictionaryExtensions.Remove)||
 

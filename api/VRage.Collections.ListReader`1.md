@@ -19,14 +19,14 @@ public struct ListReader<T>: IEnumerable<T>, IEnumerable, IReadOnlyList<T>, IRea
 
 |Member|Description|
 |---|---|
-|[Empty](VRage.Collections.ListReader`1.Empty)||
+|[static ListReader Empty](VRage.Collections.ListReader`1.Empty)||
 
 #### Properties
 
 |Member|Description|
 |---|---|
-|[Count { get; }](VRage.Collections.ListReader`1.Count)||
-|[Item { get; }](VRage.Collections.ListReader`1.Item)||
+|[int Count { get; }](VRage.Collections.ListReader`1.Count)||
+|[T Item { get; }](VRage.Collections.ListReader`1.Item)||
 
 #### Constructors
 
@@ -38,7 +38,7 @@ public struct ListReader<T>: IEnumerable<T>, IEnumerable, IReadOnlyList<T>, IRea
 
 |Member|Description|
 |---|---|
-|[ItemAt(int)](VRage.Collections.ListReader`1.ItemAt)||
-|[IndexOf(T)](VRage.Collections.ListReader`1.IndexOf)||
-|[GetEnumerator()](VRage.Collections.ListReader`1.GetEnumerator)||
+|[Enumerator GetEnumerator()](VRage.Collections.ListReader`1.GetEnumerator)||
+|[int IndexOf(T)](VRage.Collections.ListReader`1.IndexOf)||
+|[T ItemAt(int)](VRage.Collections.ListReader`1.ItemAt)||
 

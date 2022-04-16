@@ -15,14 +15,14 @@ Defines a matrix.
 
 |Member|Description|
 |---|---|
-|[Position](VRageMath.CompressedPositionOrientation.Position)||
-|[Orientation](VRageMath.CompressedPositionOrientation.Orientation)||
+|[HalfVector4 Orientation](VRageMath.CompressedPositionOrientation.Orientation)||
+|[Vector3 Position](VRageMath.CompressedPositionOrientation.Position)||
 
 #### Properties
 
 |Member|Description|
 |---|---|
-|[Matrix { get; set; }](VRageMath.CompressedPositionOrientation.Matrix)||
+|[Matrix Matrix { get; set; }](VRageMath.CompressedPositionOrientation.Matrix)||
 
 #### Constructors
 
@@ -34,6 +34,6 @@ Defines a matrix.
 
 |Member|Description|
 |---|---|
-|[FromMatrix(ref Matrix)](VRageMath.CompressedPositionOrientation.FromMatrix)||
-|[ToMatrix(out Matrix)](VRageMath.CompressedPositionOrientation.ToMatrix)||
+|[void FromMatrix(ref Matrix)](VRageMath.CompressedPositionOrientation.FromMatrix)||
+|[void ToMatrix(out Matrix)](VRageMath.CompressedPositionOrientation.ToMatrix)||
 

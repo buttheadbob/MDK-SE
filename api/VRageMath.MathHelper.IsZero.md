@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static bool IsZero(float value, float epsilon)
+public static bool IsZero(float value, [float epsilon])
 ```
 
 ### Returns
@@ -17,7 +17,7 @@ public static bool IsZero(float value, float epsilon)
 ### Summary
 
 ```csharp
-public static bool IsZero(double value, float epsilon)
+public static bool IsZero(double value, [float epsilon])
 ```
 
 ### Returns
@@ -31,7 +31,7 @@ public static bool IsZero(double value, float epsilon)
 ### Summary
 
 ```csharp
-public static bool IsZero(Vector3 value, float epsilon)
+public static bool IsZero(Vector3 value, [float epsilon])
 ```
 
 ### Returns
@@ -45,7 +45,7 @@ public static bool IsZero(Vector3 value, float epsilon)
 ### Summary
 
 ```csharp
-public static bool IsZero(Vector3D value, float epsilon)
+public static bool IsZero(Vector3D value, [float epsilon])
 ```
 
 ### Returns
@@ -59,7 +59,7 @@ public static bool IsZero(Vector3D value, float epsilon)
 ### Summary
 
 ```csharp
-public static bool IsZero(Quaternion value, float epsilon)
+public static bool IsZero(Quaternion value, [float epsilon])
 ```
 
 ### Returns

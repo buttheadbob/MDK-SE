@@ -13,6 +13,6 @@ public enum MyCubeSize
 
 |Member|Description|
 |---|---|
-|Large||
-|Small||
+|MyCubeSize Large||
+|MyCubeSize Small||
 

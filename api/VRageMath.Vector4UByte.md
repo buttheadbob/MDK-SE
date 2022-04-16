@@ -13,16 +13,16 @@ public struct Vector4UByte
 
 |Member|Description|
 |---|---|
-|[X](VRageMath.Vector4UByte.X)||
-|[Y](VRageMath.Vector4UByte.Y)||
-|[Z](VRageMath.Vector4UByte.Z)||
-|[W](VRageMath.Vector4UByte.W)||
+|[byte W](VRageMath.Vector4UByte.W)||
+|[byte X](VRageMath.Vector4UByte.X)||
+|[byte Y](VRageMath.Vector4UByte.Y)||
+|[byte Z](VRageMath.Vector4UByte.Z)||
 
 #### Properties
 
 |Member|Description|
 |---|---|
-|[Item { get; set; }](VRageMath.Vector4UByte.Item)||
+|[byte Item { get; set; }](VRageMath.Vector4UByte.Item)||
 
 #### Constructors
 
@@ -34,8 +34,8 @@ public struct Vector4UByte
 
 |Member|Description|
 |---|---|
-|[ToString()](VRageMath.Vector4UByte.ToString)||
-|[Round(Vector3)](VRageMath.Vector4UByte.Round)||
-|[Round(Vector4)](VRageMath.Vector4UByte.Round)||
-|[Normalize(Vector3, float)](VRageMath.Vector4UByte.Normalize)|Normalizes Vector3 into Vector4UByte, scales vector from (-range, range) to (0, 255)|
+|[static Vector4UByte Normalize(Vector3, float)](VRageMath.Vector4UByte.Normalize)|Normalizes Vector3 into Vector4UByte, scales vector from (-range, range) to (0, 255)|
+|[static Vector4UByte Round(Vector3)](VRageMath.Vector4UByte.Round)||
+|[static Vector4UByte Round(Vector4)](VRageMath.Vector4UByte.Round)||
+|[string ToString()](VRageMath.Vector4UByte.ToString)||
 

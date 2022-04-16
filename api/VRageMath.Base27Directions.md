@@ -15,8 +15,8 @@ Base 26 directions and Vector3.Zero Each component is only 0,-1 or 1;
 
 |Member|Description|
 |---|---|
-|[Directions](VRageMath.Base27Directions.Directions)||
-|[DirectionsInt](VRageMath.Base27Directions.DirectionsInt)||
+|[static Vector3[] Directions](VRageMath.Base27Directions.Directions)||
+|[static Vector3I[] DirectionsInt](VRageMath.Base27Directions.DirectionsInt)||
 
 #### Constructors
 
@@ -28,17 +28,17 @@ Base 26 directions and Vector3.Zero Each component is only 0,-1 or 1;
 
 |Member|Description|
 |---|---|
-|[IsBaseDirection(ref Vector3)](VRageMath.Base27Directions.IsBaseDirection)||
-|[IsBaseDirection(ref Vector3I)](VRageMath.Base27Directions.IsBaseDirection)||
-|[IsBaseDirection(Vector3)](VRageMath.Base27Directions.IsBaseDirection)||
-|[GetVector(int)](VRageMath.Base27Directions.GetVector)||
-|[GetVectorInt(int)](VRageMath.Base27Directions.GetVectorInt)||
-|[GetVector(Direction)](VRageMath.Base27Directions.GetVector)||
-|[GetVectorInt(Direction)](VRageMath.Base27Directions.GetVectorInt)||
-|[GetDirection(Vector3)](VRageMath.Base27Directions.GetDirection)|Vector must be normalized, allowed values for components are: 0, 1, -1, 0.707, -0.707, 0.577, -0.577|
-|[GetDirection(Vector3I)](VRageMath.Base27Directions.GetDirection)||
-|[GetDirection(ref Vector3)](VRageMath.Base27Directions.GetDirection)||
-|[GetDirection(ref Vector3I)](VRageMath.Base27Directions.GetDirection)||
-|[GetForward(ref Quaternion)](VRageMath.Base27Directions.GetForward)||
-|[GetUp(ref Quaternion)](VRageMath.Base27Directions.GetUp)||
+|[static Direction GetDirection(Vector3)](VRageMath.Base27Directions.GetDirection)|Vector must be normalized, allowed values for components are: 0, 1, -1, 0.707, -0.707, 0.577, -0.577|
+|[static Direction GetDirection(Vector3I)](VRageMath.Base27Directions.GetDirection)||
+|[static Direction GetDirection(ref Vector3)](VRageMath.Base27Directions.GetDirection)||
+|[static Direction GetDirection(ref Vector3I)](VRageMath.Base27Directions.GetDirection)||
+|[static Direction GetForward(ref Quaternion)](VRageMath.Base27Directions.GetForward)||
+|[static Direction GetUp(ref Quaternion)](VRageMath.Base27Directions.GetUp)||
+|[static Vector3 GetVector(int)](VRageMath.Base27Directions.GetVector)||
+|[static Vector3 GetVector(Direction)](VRageMath.Base27Directions.GetVector)||
+|[static Vector3I GetVectorInt(int)](VRageMath.Base27Directions.GetVectorInt)||
+|[static Vector3I GetVectorInt(Direction)](VRageMath.Base27Directions.GetVectorInt)||
+|[static bool IsBaseDirection(ref Vector3)](VRageMath.Base27Directions.IsBaseDirection)||
+|[static bool IsBaseDirection(ref Vector3I)](VRageMath.Base27Directions.IsBaseDirection)||
+|[static bool IsBaseDirection(Vector3)](VRageMath.Base27Directions.IsBaseDirection)||
 

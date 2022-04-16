@@ -15,9 +15,9 @@ Provides info about received message along with received data
 
 |Member|Description|
 |---|---|
-|[Data](Sandbox.ModAPI.Ingame.MyIGCMessage.Data)|The data received in message.|
-|[Tag](Sandbox.ModAPI.Ingame.MyIGCMessage.Tag)|Tag designing type of this message.|
-|[Source](Sandbox.ModAPI.Ingame.MyIGCMessage.Source)|Source/Author of this message.|
+|[object Data](Sandbox.ModAPI.Ingame.MyIGCMessage.Data)|The data received in message.|
+|[long Source](Sandbox.ModAPI.Ingame.MyIGCMessage.Source)|Source/Author of this message.|
+|[string Tag](Sandbox.ModAPI.Ingame.MyIGCMessage.Tag)|Tag designing type of this message.|
 
 #### Constructors
 
@@ -29,5 +29,5 @@ Provides info about received message along with received data
 
 |Member|Description|
 |---|---|
-|[As()](Sandbox.ModAPI.Ingame.MyIGCMessage.As)||
+|[TData As()](Sandbox.ModAPI.Ingame.MyIGCMessage.As)||
 

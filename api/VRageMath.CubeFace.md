@@ -13,10 +13,10 @@ public enum CubeFace
 
 |Member|Description|
 |---|---|
-|Left||
-|Right||
-|Up||
-|Down||
-|Forward||
-|Backward||
+|CubeFace Backward||
+|CubeFace Down||
+|CubeFace Forward||
+|CubeFace Left||
+|CubeFace Right||
+|CubeFace Up||
 

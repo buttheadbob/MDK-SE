@@ -15,7 +15,7 @@ A class for simpler traversal of ranges of integer vectors
 
 |Member|Description|
 |---|---|
-|[Current](VRageMath.Vector3I_RangeIterator.Current)|Do not modify, public only for optimization!|
+|[Vector3I Current](VRageMath.Vector3I_RangeIterator.Current)|Do not modify, public only for optimization!|
 
 #### Constructors
 
@@ -27,7 +27,7 @@ A class for simpler traversal of ranges of integer vectors
 
 |Member|Description|
 |---|---|
-|[IsValid()](VRageMath.Vector3I_RangeIterator.IsValid)||
-|[GetNext(out Vector3I)](VRageMath.Vector3I_RangeIterator.GetNext)||
-|[MoveNext()](VRageMath.Vector3I_RangeIterator.MoveNext)||
+|[void GetNext(out Vector3I)](VRageMath.Vector3I_RangeIterator.GetNext)||
+|[bool IsValid()](VRageMath.Vector3I_RangeIterator.IsValid)||
+|[void MoveNext()](VRageMath.Vector3I_RangeIterator.MoveNext)||
 

@@ -13,5 +13,5 @@ public abstract sealed class BoundingFrustumExtensions
 
 |Member|Description|
 |---|---|
-|[ToBoundingSphere(this BoundingFrustum, Vector3[])](VRageMath.BoundingFrustumExtensions.ToBoundingSphere)|Creates bounding sphere from bounding frustum. Implementation taken from XNA source, replace IEnumerable with array|
+|[static BoundingSphere ToBoundingSphere(this BoundingFrustum, Vector3[])](VRageMath.BoundingFrustumExtensions.ToBoundingSphere)|Creates bounding sphere from bounding frustum. Implementation taken from XNA source, replace IEnumerable with array|
 

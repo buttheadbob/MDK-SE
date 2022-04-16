@@ -13,30 +13,30 @@ public struct SymmetricSerializableRange
 
 |Member|Description|
 |---|---|
-|[Min](VRageMath.SymmetricSerializableRange.Min)||
-|[Max](VRageMath.SymmetricSerializableRange.Max)||
+|[float Max](VRageMath.SymmetricSerializableRange.Max)||
+|[float Min](VRageMath.SymmetricSerializableRange.Min)||
 
 #### Properties
 
 |Member|Description|
 |---|---|
-|[Mirror { get; set; }](VRageMath.SymmetricSerializableRange.Mirror)||
+|[bool Mirror { get; set; }](VRageMath.SymmetricSerializableRange.Mirror)||
 
 #### Constructors
 
 |Member|Description|
 |---|---|
-|[SymmetricSerializableRange(float, float, bool)](VRageMath.SymmetricSerializableRange..ctor)||
+|[SymmetricSerializableRange(float, float, [bool])](VRageMath.SymmetricSerializableRange..ctor)||
 
 #### Methods
 
 |Member|Description|
 |---|---|
-|[ValueBetween(float)](VRageMath.SymmetricSerializableRange.ValueBetween)||
-|[ToString()](VRageMath.SymmetricSerializableRange.ToString)||
-|[ConvertToCosine()](VRageMath.SymmetricSerializableRange.ConvertToCosine)||
-|[ConvertToSine()](VRageMath.SymmetricSerializableRange.ConvertToSine)||
-|[ConvertToCosineLongitude()](VRageMath.SymmetricSerializableRange.ConvertToCosineLongitude)||
-|[ToStringAsin()](VRageMath.SymmetricSerializableRange.ToStringAsin)||
-|[ToStringAcos()](VRageMath.SymmetricSerializableRange.ToStringAcos)||
+|[SymmetricSerializableRange ConvertToCosine()](VRageMath.SymmetricSerializableRange.ConvertToCosine)||
+|[SymmetricSerializableRange ConvertToCosineLongitude()](VRageMath.SymmetricSerializableRange.ConvertToCosineLongitude)||
+|[SymmetricSerializableRange ConvertToSine()](VRageMath.SymmetricSerializableRange.ConvertToSine)||
+|[string ToString()](VRageMath.SymmetricSerializableRange.ToString)||
+|[string ToStringAcos()](VRageMath.SymmetricSerializableRange.ToStringAcos)||
+|[string ToStringAsin()](VRageMath.SymmetricSerializableRange.ToStringAsin)||
+|[bool ValueBetween(float)](VRageMath.SymmetricSerializableRange.ValueBetween)||
 

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static int BinaryIntervalSearch<T>(this IList<T> self, T value, IComparer<T> comparer)
+public static int BinaryIntervalSearch<T>(this IList<T> self, T value, [IComparer<T> comparer])
 ```
 
 ### Returns

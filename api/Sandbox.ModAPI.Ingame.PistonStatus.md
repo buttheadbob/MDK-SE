@@ -15,9 +15,9 @@ Describes the current status of the piston.
 
 |Member|Description|
 |---|---|
-|Stopped|The piston velocity is 0 (stationary).|
-|Extending|The piston is being extended (moving).|
-|Extended|The piston is in its extended position (stationary).|
-|Retracting|The piston is being retracted (moving).|
-|Retracted|The piston is in its retracted position (stationary).|
+|PistonStatus Extended|The piston is in its extended position (stationary).|
+|PistonStatus Extending|The piston is being extended (moving).|
+|PistonStatus Retracted|The piston is in its retracted position (stationary).|
+|PistonStatus Retracting|The piston is being retracted (moving).|
+|PistonStatus Stopped|The piston velocity is 0 (stationary).|
 

@@ -13,5 +13,5 @@ public abstract sealed class HashSetExtensions
 
 |Member|Description|
 |---|---|
-|[FirstElement(this HashSet)](System.Collections.Generic.HashSetExtensions.FirstElement)||
+|[static T FirstElement(this HashSet)](System.Collections.Generic.HashSetExtensions.FirstElement)||
 

@@ -13,14 +13,14 @@ public class MyCuboid
 
 |Member|Description|
 |---|---|
-|[Sides](VRageMath.MyCuboid.Sides)||
+|[MyCuboidSide[] Sides](VRageMath.MyCuboid.Sides)||
 
 #### Properties
 
 |Member|Description|
 |---|---|
-|[UniqueLines { get; }](VRageMath.MyCuboid.UniqueLines)||
-|[Vertices { get; }](VRageMath.MyCuboid.Vertices)||
+|[IEnumerable UniqueLines { get; }](VRageMath.MyCuboid.UniqueLines)||
+|[IEnumerable Vertices { get; }](VRageMath.MyCuboid.Vertices)||
 
 #### Constructors
 
@@ -32,9 +32,9 @@ public class MyCuboid
 
 |Member|Description|
 |---|---|
-|[CreateFromVertices(Vector3[])](VRageMath.MyCuboid.CreateFromVertices)||
-|[CreateFromSizes(float, float, float, float, float)](VRageMath.MyCuboid.CreateFromSizes)||
-|[GetAABB()](VRageMath.MyCuboid.GetAABB)||
-|[GetLocalAABB()](VRageMath.MyCuboid.GetLocalAABB)||
-|[CreateTransformed(ref Matrix)](VRageMath.MyCuboid.CreateTransformed)||
+|[void CreateFromSizes(float, float, float, float, float)](VRageMath.MyCuboid.CreateFromSizes)||
+|[void CreateFromVertices(Vector3[])](VRageMath.MyCuboid.CreateFromVertices)||
+|[MyCuboid CreateTransformed(ref Matrix)](VRageMath.MyCuboid.CreateTransformed)||
+|[BoundingBox GetAABB()](VRageMath.MyCuboid.GetAABB)||
+|[BoundingBox GetLocalAABB()](VRageMath.MyCuboid.GetLocalAABB)||
 

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static MySprite CreateText(string text, string fontId, Color color, float scale, TextAlignment alignment)
+public static MySprite CreateText(string text, string fontId, Color color, [float scale], [TextAlignment alignment])
 ```
 
 ### Returns

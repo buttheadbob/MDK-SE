@@ -13,31 +13,31 @@ public enum MyLanguagesEnum
 
 |Member|Description|
 |---|---|
-|English||
-|Czech||
-|Slovak||
-|German||
-|Russian||
-|Spanish_Spain||
-|French||
-|Italian||
-|Danish||
-|Dutch||
-|Icelandic||
-|Polish||
-|Finnish||
-|Hungarian||
-|Portuguese_Brazil||
-|Estonian||
-|Norwegian||
-|Spanish_HispanicAmerica||
-|Swedish||
-|Catalan||
-|Croatian||
-|Romanian||
-|Ukrainian||
-|Turkish||
-|Latvian||
-|ChineseChina||
-|Japanese||
+|MyLanguagesEnum Catalan||
+|MyLanguagesEnum ChineseChina||
+|MyLanguagesEnum Croatian||
+|MyLanguagesEnum Czech||
+|MyLanguagesEnum Danish||
+|MyLanguagesEnum Dutch||
+|MyLanguagesEnum English||
+|MyLanguagesEnum Estonian||
+|MyLanguagesEnum Finnish||
+|MyLanguagesEnum French||
+|MyLanguagesEnum German||
+|MyLanguagesEnum Hungarian||
+|MyLanguagesEnum Icelandic||
+|MyLanguagesEnum Italian||
+|MyLanguagesEnum Japanese||
+|MyLanguagesEnum Latvian||
+|MyLanguagesEnum Norwegian||
+|MyLanguagesEnum Polish||
+|MyLanguagesEnum Portuguese_Brazil||
+|MyLanguagesEnum Romanian||
+|MyLanguagesEnum Russian||
+|MyLanguagesEnum Slovak||
+|MyLanguagesEnum Spanish_HispanicAmerica||
+|MyLanguagesEnum Spanish_Spain||
+|MyLanguagesEnum Swedish||
+|MyLanguagesEnum Turkish||
+|MyLanguagesEnum Ukrainian||
 

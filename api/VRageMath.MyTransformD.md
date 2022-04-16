@@ -13,14 +13,14 @@ public struct MyTransformD
 
 |Member|Description|
 |---|---|
-|[Rotation](VRageMath.MyTransformD.Rotation)||
-|[Position](VRageMath.MyTransformD.Position)||
+|[Vector3D Position](VRageMath.MyTransformD.Position)||
+|[Quaternion Rotation](VRageMath.MyTransformD.Rotation)||
 
 #### Properties
 
 |Member|Description|
 |---|---|
-|[TransformMatrix { get; }](VRageMath.MyTransformD.TransformMatrix)||
+|[MatrixD TransformMatrix { get; }](VRageMath.MyTransformD.TransformMatrix)||
 
 #### Constructors
 
@@ -35,8 +35,8 @@ public struct MyTransformD
 
 |Member|Description|
 |---|---|
-|[Transform(ref MyTransformD, ref MyTransformD)](VRageMath.MyTransformD.Transform)||
-|[Transform(ref MyTransformD, ref MyTransformD, out MyTransformD)](VRageMath.MyTransformD.Transform)||
-|[Transform(ref Vector3D, ref MyTransformD)](VRageMath.MyTransformD.Transform)||
-|[Transform(ref Vector3D, ref MyTransformD, out Vector3D)](VRageMath.MyTransformD.Transform)||
+|[static MyTransformD Transform(ref MyTransformD, ref MyTransformD)](VRageMath.MyTransformD.Transform)||
+|[static void Transform(ref MyTransformD, ref MyTransformD, out MyTransformD)](VRageMath.MyTransformD.Transform)||
+|[static Vector3D Transform(ref Vector3D, ref MyTransformD)](VRageMath.MyTransformD.Transform)||
+|[static void Transform(ref Vector3D, ref MyTransformD, out Vector3D)](VRageMath.MyTransformD.Transform)||
 

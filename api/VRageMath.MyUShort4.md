@@ -13,10 +13,10 @@ public struct MyUShort4
 
 |Member|Description|
 |---|---|
-|[X](VRageMath.MyUShort4.X)||
-|[Y](VRageMath.MyUShort4.Y)||
-|[Z](VRageMath.MyUShort4.Z)||
-|[W](VRageMath.MyUShort4.W)||
+|[ushort W](VRageMath.MyUShort4.W)||
+|[ushort X](VRageMath.MyUShort4.X)||
+|[ushort Y](VRageMath.MyUShort4.Y)||
+|[ushort Z](VRageMath.MyUShort4.Z)||
 
 #### Constructors
 

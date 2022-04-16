@@ -15,7 +15,7 @@ A class for simpler traversal of ranges of long vectors
 
 |Member|Description|
 |---|---|
-|[Current](VRageMath.Vector3L_RangeIterator.Current)|Do not modify, public only for optimization!|
+|[Vector3L Current](VRageMath.Vector3L_RangeIterator.Current)|Do not modify, public only for optimization!|
 
 #### Constructors
 
@@ -27,7 +27,7 @@ A class for simpler traversal of ranges of long vectors
 
 |Member|Description|
 |---|---|
-|[IsValid()](VRageMath.Vector3L_RangeIterator.IsValid)||
-|[GetNext(out Vector3L)](VRageMath.Vector3L_RangeIterator.GetNext)||
-|[MoveNext()](VRageMath.Vector3L_RangeIterator.MoveNext)||
+|[void GetNext(out Vector3L)](VRageMath.Vector3L_RangeIterator.GetNext)||
+|[bool IsValid()](VRageMath.Vector3L_RangeIterator.IsValid)||
+|[void MoveNext()](VRageMath.Vector3L_RangeIterator.MoveNext)||
 

@@ -13,17 +13,17 @@ public struct SerializableDefinitionId
 
 |Member|Description|
 |---|---|
-|[TypeId](VRage.ObjectBuilders.SerializableDefinitionId.TypeId)||
-|[SubtypeName](VRage.ObjectBuilders.SerializableDefinitionId.SubtypeName)||
+|[string SubtypeName](VRage.ObjectBuilders.SerializableDefinitionId.SubtypeName)||
+|[MyObjectBuilderType TypeId](VRage.ObjectBuilders.SerializableDefinitionId.TypeId)||
 
 #### Properties
 
 |Member|Description|
 |---|---|
-|[TypeIdStringAttribute { get; set; }](VRage.ObjectBuilders.SerializableDefinitionId.TypeIdStringAttribute)||
-|[TypeIdString { get; set; }](VRage.ObjectBuilders.SerializableDefinitionId.TypeIdString)||
-|[SubtypeIdAttribute { get; set; }](VRage.ObjectBuilders.SerializableDefinitionId.SubtypeIdAttribute)||
-|[SubtypeId { get; set; }](VRage.ObjectBuilders.SerializableDefinitionId.SubtypeId)||
+|[string SubtypeId { get; set; }](VRage.ObjectBuilders.SerializableDefinitionId.SubtypeId)||
+|[string SubtypeIdAttribute { get; set; }](VRage.ObjectBuilders.SerializableDefinitionId.SubtypeIdAttribute)||
+|[string TypeIdString { get; set; }](VRage.ObjectBuilders.SerializableDefinitionId.TypeIdString)||
+|[string TypeIdStringAttribute { get; set; }](VRage.ObjectBuilders.SerializableDefinitionId.TypeIdStringAttribute)||
 
 #### Constructors
 
@@ -35,8 +35,8 @@ public struct SerializableDefinitionId
 
 |Member|Description|
 |---|---|
-|[ShouldSerializeTypeIdString()](VRage.ObjectBuilders.SerializableDefinitionId.ShouldSerializeTypeIdString)||
-|[ShouldSerializeSubtypeId()](VRage.ObjectBuilders.SerializableDefinitionId.ShouldSerializeSubtypeId)||
-|[ToString()](VRage.ObjectBuilders.SerializableDefinitionId.ToString)||
-|[IsNull()](VRage.ObjectBuilders.SerializableDefinitionId.IsNull)||
+|[bool IsNull()](VRage.ObjectBuilders.SerializableDefinitionId.IsNull)||
+|[bool ShouldSerializeSubtypeId()](VRage.ObjectBuilders.SerializableDefinitionId.ShouldSerializeSubtypeId)||
+|[bool ShouldSerializeTypeIdString()](VRage.ObjectBuilders.SerializableDefinitionId.ShouldSerializeTypeIdString)||
+|[string ToString()](VRage.ObjectBuilders.SerializableDefinitionId.ToString)||
 

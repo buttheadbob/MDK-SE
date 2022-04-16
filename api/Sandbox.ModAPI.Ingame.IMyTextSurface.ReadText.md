@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void ReadText(StringBuilder buffer, bool append)
+public void ReadText(StringBuilder buffer, [bool append])
 ```
 
 Gets current text that is written on surface.

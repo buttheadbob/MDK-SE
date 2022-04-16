@@ -13,10 +13,10 @@ public struct LineD
 
 |Member|Description|
 |---|---|
-|[From](VRageMath.LineD.From)||
-|[To](VRageMath.LineD.To)||
-|[Direction](VRageMath.LineD.Direction)||
-|[Length](VRageMath.LineD.Length)||
+|[Vector3D Direction](VRageMath.LineD.Direction)||
+|[Vector3D From](VRageMath.LineD.From)||
+|[double Length](VRageMath.LineD.Length)||
+|[Vector3D To](VRageMath.LineD.To)||
 
 #### Constructors
 
@@ -29,8 +29,8 @@ public struct LineD
 
 |Member|Description|
 |---|---|
-|[GetShortestDistanceSquared(LineD, LineD)](VRageMath.LineD.GetShortestDistanceSquared)||
-|[GetShortestVector(ref LineD, ref LineD, out Vector3D, out Vector3D)](VRageMath.LineD.GetShortestVector)||
-|[GetBoundingBox()](VRageMath.LineD.GetBoundingBox)||
-|[GetHash()](VRageMath.LineD.GetHash)||
+|[static double GetShortestDistanceSquared(LineD, LineD)](VRageMath.LineD.GetShortestDistanceSquared)||
+|[static Vector3D GetShortestVector(ref LineD, ref LineD, out Vector3D, out Vector3D)](VRageMath.LineD.GetShortestVector)||
+|[BoundingBoxD GetBoundingBox()](VRageMath.LineD.GetBoundingBox)||
+|[long GetHash()](VRageMath.LineD.GetHash)||
 

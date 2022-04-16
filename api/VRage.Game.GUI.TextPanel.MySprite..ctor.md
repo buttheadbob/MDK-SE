@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MySprite(SpriteType type, string data, Vector2? position, Vector2? size, Color? color, string fontId, TextAlignment alignment, float rotation)
+public MySprite([SpriteType type], [string data], [Vector2? position], [Vector2? size], [Color? color], [string fontId], [TextAlignment alignment], [float rotation])
 ```
 
 ### Parameters

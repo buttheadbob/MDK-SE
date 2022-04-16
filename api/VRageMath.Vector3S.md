@@ -13,15 +13,15 @@ public struct Vector3S
 
 |Member|Description|
 |---|---|
-|[X](VRageMath.Vector3S.X)||
-|[Y](VRageMath.Vector3S.Y)||
-|[Z](VRageMath.Vector3S.Z)||
-|[Up](VRageMath.Vector3S.Up)||
-|[Down](VRageMath.Vector3S.Down)||
-|[Right](VRageMath.Vector3S.Right)||
-|[Left](VRageMath.Vector3S.Left)||
-|[Forward](VRageMath.Vector3S.Forward)||
-|[Backward](VRageMath.Vector3S.Backward)||
+|[static Vector3S Backward](VRageMath.Vector3S.Backward)||
+|[static Vector3S Down](VRageMath.Vector3S.Down)||
+|[static Vector3S Forward](VRageMath.Vector3S.Forward)||
+|[static Vector3S Left](VRageMath.Vector3S.Left)||
+|[static Vector3S Right](VRageMath.Vector3S.Right)||
+|[static Vector3S Up](VRageMath.Vector3S.Up)||
+|[short X](VRageMath.Vector3S.X)||
+|[short Y](VRageMath.Vector3S.Y)||
+|[short Z](VRageMath.Vector3S.Z)||
 
 #### Constructors
 
@@ -36,8 +36,8 @@ public struct Vector3S
 
 |Member|Description|
 |---|---|
-|[ToString()](VRageMath.Vector3S.ToString)||
-|[GetHashCode()](VRageMath.Vector3S.GetHashCode)||
-|[Equals(object)](VRageMath.Vector3S.Equals)||
-|[Round(Vector3)](VRageMath.Vector3S.Round)||
+|[static Vector3S Round(Vector3)](VRageMath.Vector3S.Round)||
+|[bool Equals(object)](VRageMath.Vector3S.Equals)||
+|[int GetHashCode()](VRageMath.Vector3S.GetHashCode)||
+|[string ToString()](VRageMath.Vector3S.ToString)||
 

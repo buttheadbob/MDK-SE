@@ -9,7 +9,7 @@ public MyDynamicAABBTreeD()
 ### Summary
 
 ```csharp
-public MyDynamicAABBTreeD(Vector3D extension, double aabbMultiplier)
+public MyDynamicAABBTreeD(Vector3D extension, [double aabbMultiplier])
 ```
 
 ### Parameters

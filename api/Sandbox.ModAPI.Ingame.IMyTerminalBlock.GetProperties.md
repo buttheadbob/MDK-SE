@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetProperties(List<Sandbox.ModAPI.Interfaces.ITerminalProperty> resultList, Func<Sandbox.ModAPI.Interfaces.ITerminalProperty, System.Boolean> collect)
+public void GetProperties(List<Sandbox.ModAPI.Interfaces.ITerminalProperty> resultList, [Func<Sandbox.ModAPI.Interfaces.ITerminalProperty, System.Boolean> collect])
 ```
 
 Get all terminal actions available for block.

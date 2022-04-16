@@ -13,9 +13,9 @@ public struct MyBounds
 
 |Member|Description|
 |---|---|
-|[Min](VRageMath.MyBounds.Min)||
-|[Max](VRageMath.MyBounds.Max)||
-|[Default](VRageMath.MyBounds.Default)||
+|[float Default](VRageMath.MyBounds.Default)||
+|[float Max](VRageMath.MyBounds.Max)||
+|[float Min](VRageMath.MyBounds.Min)||
 
 #### Constructors
 
@@ -27,7 +27,7 @@ public struct MyBounds
 
 |Member|Description|
 |---|---|
-|[Normalize(float)](VRageMath.MyBounds.Normalize)|Normalize value inside the bounds so that 0 is Min and 1 is Max.|
-|[Clamp(float)](VRageMath.MyBounds.Clamp)||
-|[ToString()](VRageMath.MyBounds.ToString)||
+|[float Clamp(float)](VRageMath.MyBounds.Clamp)||
+|[float Normalize(float)](VRageMath.MyBounds.Normalize)|Normalize value inside the bounds so that 0 is Min and 1 is Max.|
+|[string ToString()](VRageMath.MyBounds.ToString)||
 

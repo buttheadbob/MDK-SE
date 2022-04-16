@@ -13,7 +13,7 @@ public enum TextAlignment
 
 |Member|Description|
 |---|---|
-|LEFT||
-|RIGHT||
-|CENTER||
+|TextAlignment CENTER||
+|TextAlignment LEFT||
+|TextAlignment RIGHT||
 

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void ReadPublicText(StringBuilder buffer, bool append)
+public void ReadPublicText(StringBuilder buffer, [bool append])
 ```
 
 ### Parameters

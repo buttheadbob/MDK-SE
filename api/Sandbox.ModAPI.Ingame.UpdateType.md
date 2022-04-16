@@ -15,14 +15,14 @@ Enum describes what source triggered the script to run.
 
 |Member|Description|
 |---|---|
-|None||
-|Terminal|Script run by user in the terminal.|
-|Trigger|Script run by a block such as timer, sensor.|
-|Mod|Script run by a mod.|
-|Script|Script run by another programmable block.|
-|Update1|Script is updating every tick.|
-|Update10|Script is updating every 10th tick.|
-|Update100|Script is updating every 100th tick.|
-|Once|Script is updating once before the tick.|
-|IGC|Script run by intergrid communication system.|
+|UpdateType IGC|Script run by intergrid communication system.|
+|UpdateType Mod|Script run by a mod.|
+|UpdateType None||
+|UpdateType Once|Script is updating once before the tick.|
+|UpdateType Script|Script run by another programmable block.|
+|UpdateType Terminal|Script run by user in the terminal.|
+|UpdateType Trigger|Script run by a block such as timer, sensor.|
+|UpdateType Update1|Script is updating every tick.|
+|UpdateType Update10|Script is updating every 10th tick.|
+|UpdateType Update100|Script is updating every 100th tick.|
 

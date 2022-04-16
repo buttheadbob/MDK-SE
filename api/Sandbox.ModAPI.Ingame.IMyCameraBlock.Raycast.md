@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MyDetectedEntityInfo Raycast(double distance, float pitch, float yaw)
+public MyDetectedEntityInfo Raycast(double distance, [float pitch], [float yaw])
 ```
 
 Does a raycast in the direction the camera is facing.

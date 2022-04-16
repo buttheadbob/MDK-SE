@@ -30,10 +30,10 @@ public void Main()
 
 |Member|Description|
 |---|---|
-|[GridTerminalSystem { get; protected set; }](Sandbox.ModAPI.Ingame.MyGridProgram.GridTerminalSystem)|Provides access to the grid terminal system as viewed from this programmable block.|
-|[Me { get; protected set; }](Sandbox.ModAPI.Ingame.MyGridProgram.Me)|Gets a reference to the currently running programmable block.|
-|[Runtime { get; protected set; }](Sandbox.ModAPI.Ingame.MyGridProgram.Runtime)|Gets runtime information for the running grid program.|
-|[Storage { get; protected set; }](Sandbox.ModAPI.Ingame.MyGridProgram.Storage)|Allows you to store data between game sessions.|
-|[Echo { get; protected set; }](Sandbox.ModAPI.Ingame.MyGridProgram.Echo)|Prints out text onto the currently running programmable block's detail info area.|
-|[IGC { get; }](Sandbox.ModAPI.Ingame.MyGridProgram.IGC)||
+|[Action Echo { get; protected set; }](Sandbox.ModAPI.Ingame.MyGridProgram.Echo)|Prints out text onto the currently running programmable block's detail info area.|
+|[IMyGridTerminalSystem GridTerminalSystem { get; protected set; }](Sandbox.ModAPI.Ingame.MyGridProgram.GridTerminalSystem)|Provides access to the grid terminal system as viewed from this programmable block.|
+|[IMyIntergridCommunicationSystem IGC { get; }](Sandbox.ModAPI.Ingame.MyGridProgram.IGC)||
+|[IMyProgrammableBlock Me { get; protected set; }](Sandbox.ModAPI.Ingame.MyGridProgram.Me)|Gets a reference to the currently running programmable block.|
+|[IMyGridProgramRuntimeInfo Runtime { get; protected set; }](Sandbox.ModAPI.Ingame.MyGridProgram.Runtime)|Gets runtime information for the running grid program.|
+|[string Storage { get; protected set; }](Sandbox.ModAPI.Ingame.MyGridProgram.Storage)|Allows you to store data between game sessions.|
 

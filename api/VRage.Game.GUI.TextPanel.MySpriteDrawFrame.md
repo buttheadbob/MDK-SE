@@ -22,10 +22,10 @@ public struct MySpriteDrawFrame: IDisposable
 
 |Member|Description|
 |---|---|
-|[Clip(int, int, int, int)](VRage.Game.GUI.TextPanel.MySpriteDrawFrame.Clip)||
-|[Add(MySprite)](VRage.Game.GUI.TextPanel.MySpriteDrawFrame.Add)||
-|[AddRange(IEnumerable)](VRage.Game.GUI.TextPanel.MySpriteDrawFrame.AddRange)||
-|[ToCollection()](VRage.Game.GUI.TextPanel.MySpriteDrawFrame.ToCollection)||
-|[AddToList(List)](VRage.Game.GUI.TextPanel.MySpriteDrawFrame.AddToList)||
-|[Dispose()](VRage.Game.GUI.TextPanel.MySpriteDrawFrame.Dispose)||
+|[void Add(MySprite)](VRage.Game.GUI.TextPanel.MySpriteDrawFrame.Add)||
+|[void AddRange(IEnumerable)](VRage.Game.GUI.TextPanel.MySpriteDrawFrame.AddRange)||
+|[void AddToList(List)](VRage.Game.GUI.TextPanel.MySpriteDrawFrame.AddToList)||
+|[ClearClipToken Clip(int, int, int, int)](VRage.Game.GUI.TextPanel.MySpriteDrawFrame.Clip)||
+|[void Dispose()](VRage.Game.GUI.TextPanel.MySpriteDrawFrame.Dispose)||
+|[MySpriteCollection ToCollection()](VRage.Game.GUI.TextPanel.MySpriteDrawFrame.ToCollection)||
 

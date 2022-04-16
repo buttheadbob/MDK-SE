@@ -19,8 +19,8 @@ Use by [MyInventoryItem](VRage.Game.ModAPI.Ingame.MyInventoryItem)
 
 |Member|Description|
 |---|---|
-|[TypeId { get; }](VRage.Game.ModAPI.Ingame.MyItemType.TypeId)|Gets TypeId of Item|
-|[SubtypeId { get; }](VRage.Game.ModAPI.Ingame.MyItemType.SubtypeId)|Gets Subtype of Item|
+|[string SubtypeId { get; }](VRage.Game.ModAPI.Ingame.MyItemType.SubtypeId)|Gets Subtype of Item|
+|[string TypeId { get; }](VRage.Game.ModAPI.Ingame.MyItemType.TypeId)|Gets TypeId of Item|
 
 #### Constructors
 
@@ -33,15 +33,15 @@ Use by [MyInventoryItem](VRage.Game.ModAPI.Ingame.MyInventoryItem)
 
 |Member|Description|
 |---|---|
-|[Equals(MyItemType)](VRage.Game.ModAPI.Ingame.MyItemType.Equals)||
-|[Equals(object)](VRage.Game.ModAPI.Ingame.MyItemType.Equals)||
-|[GetHashCode()](VRage.Game.ModAPI.Ingame.MyItemType.GetHashCode)||
-|[CompareTo(MyItemType)](VRage.Game.ModAPI.Ingame.MyItemType.CompareTo)||
-|[ToString()](VRage.Game.ModAPI.Ingame.MyItemType.ToString)||
-|[Parse(string)](VRage.Game.ModAPI.Ingame.MyItemType.Parse)||
-|[MakeOre(string)](VRage.Game.ModAPI.Ingame.MyItemType.MakeOre)||
-|[MakeIngot(string)](VRage.Game.ModAPI.Ingame.MyItemType.MakeIngot)||
-|[MakeComponent(string)](VRage.Game.ModAPI.Ingame.MyItemType.MakeComponent)||
-|[MakeAmmo(string)](VRage.Game.ModAPI.Ingame.MyItemType.MakeAmmo)||
-|[MakeTool(string)](VRage.Game.ModAPI.Ingame.MyItemType.MakeTool)||
+|[static MyItemType MakeAmmo(string)](VRage.Game.ModAPI.Ingame.MyItemType.MakeAmmo)||
+|[static MyItemType MakeComponent(string)](VRage.Game.ModAPI.Ingame.MyItemType.MakeComponent)||
+|[static MyItemType MakeIngot(string)](VRage.Game.ModAPI.Ingame.MyItemType.MakeIngot)||
+|[static MyItemType MakeOre(string)](VRage.Game.ModAPI.Ingame.MyItemType.MakeOre)||
+|[static MyItemType MakeTool(string)](VRage.Game.ModAPI.Ingame.MyItemType.MakeTool)||
+|[static MyItemType Parse(string)](VRage.Game.ModAPI.Ingame.MyItemType.Parse)||
+|[int CompareTo(MyItemType)](VRage.Game.ModAPI.Ingame.MyItemType.CompareTo)||
+|[bool Equals(MyItemType)](VRage.Game.ModAPI.Ingame.MyItemType.Equals)||
+|[bool Equals(object)](VRage.Game.ModAPI.Ingame.MyItemType.Equals)||
+|[int GetHashCode()](VRage.Game.ModAPI.Ingame.MyItemType.GetHashCode)||
+|[string ToString()](VRage.Game.ModAPI.Ingame.MyItemType.ToString)||
 

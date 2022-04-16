@@ -13,11 +13,11 @@ public struct MyTuple<T1, T2, T3, T4, T5>
 
 |Member|Description|
 |---|---|
-|[Item1](VRage.MyTuple`5.Item1)||
-|[Item2](VRage.MyTuple`5.Item2)||
-|[Item3](VRage.MyTuple`5.Item3)||
-|[Item4](VRage.MyTuple`5.Item4)||
-|[Item5](VRage.MyTuple`5.Item5)||
+|[T1 Item1](VRage.MyTuple`5.Item1)||
+|[T2 Item2](VRage.MyTuple`5.Item2)||
+|[T3 Item3](VRage.MyTuple`5.Item3)||
+|[T4 Item4](VRage.MyTuple`5.Item4)||
+|[T5 Item5](VRage.MyTuple`5.Item5)||
 
 #### Constructors
 

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public SymmetricSerializableRange(float min, float max, bool mirror)
+public SymmetricSerializableRange(float min, float max, [bool mirror])
 ```
 
 ### Parameters

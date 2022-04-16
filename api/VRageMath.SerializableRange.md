@@ -13,8 +13,8 @@ public struct SerializableRange
 
 |Member|Description|
 |---|---|
-|[Min](VRageMath.SerializableRange.Min)||
-|[Max](VRageMath.SerializableRange.Max)||
+|[float Max](VRageMath.SerializableRange.Max)||
+|[float Min](VRageMath.SerializableRange.Min)||
 
 #### Constructors
 
@@ -26,12 +26,12 @@ public struct SerializableRange
 
 |Member|Description|
 |---|---|
-|[ValueBetween(float)](VRageMath.SerializableRange.ValueBetween)||
-|[ToString()](VRageMath.SerializableRange.ToString)||
-|[ConvertToCosine()](VRageMath.SerializableRange.ConvertToCosine)||
-|[ConvertToSine()](VRageMath.SerializableRange.ConvertToSine)||
-|[ConvertToCosineLongitude()](VRageMath.SerializableRange.ConvertToCosineLongitude)||
-|[ToStringAsin()](VRageMath.SerializableRange.ToStringAsin)||
-|[ToStringAcos()](VRageMath.SerializableRange.ToStringAcos)||
-|[ToStringLongitude()](VRageMath.SerializableRange.ToStringLongitude)||
+|[SerializableRange ConvertToCosine()](VRageMath.SerializableRange.ConvertToCosine)||
+|[SerializableRange ConvertToCosineLongitude()](VRageMath.SerializableRange.ConvertToCosineLongitude)||
+|[SerializableRange ConvertToSine()](VRageMath.SerializableRange.ConvertToSine)||
+|[string ToString()](VRageMath.SerializableRange.ToString)||
+|[string ToStringAcos()](VRageMath.SerializableRange.ToStringAcos)||
+|[string ToStringAsin()](VRageMath.SerializableRange.ToStringAsin)||
+|[string ToStringLongitude()](VRageMath.SerializableRange.ToStringLongitude)||
+|[bool ValueBetween(float)](VRageMath.SerializableRange.ValueBetween)||
 

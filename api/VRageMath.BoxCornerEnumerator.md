@@ -20,7 +20,7 @@ public struct BoxCornerEnumerator: IEnumerator<VRageMath.Vector3>, IDisposable, 
 
 |Member|Description|
 |---|---|
-|[Current { get; }](VRageMath.BoxCornerEnumerator.Current)||
+|[Vector3 Current { get; }](VRageMath.BoxCornerEnumerator.Current)||
 
 #### Constructors
 
@@ -32,7 +32,7 @@ public struct BoxCornerEnumerator: IEnumerator<VRageMath.Vector3>, IDisposable, 
 
 |Member|Description|
 |---|---|
-|[Add(object)](VRageMath.BoxCornerEnumerator.Add)||
-|[MoveNext()](VRageMath.BoxCornerEnumerator.MoveNext)||
-|[GetEnumerator()](VRageMath.BoxCornerEnumerator.GetEnumerator)||
+|[void Add(object)](VRageMath.BoxCornerEnumerator.Add)||
+|[BoxCornerEnumerator GetEnumerator()](VRageMath.BoxCornerEnumerator.GetEnumerator)||
+|[bool MoveNext()](VRageMath.BoxCornerEnumerator.MoveNext)||
 

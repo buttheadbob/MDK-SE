@@ -13,9 +13,9 @@ public struct MyTuple<T1, T2, T3>
 
 |Member|Description|
 |---|---|
-|[Item1](VRage.MyTuple`3.Item1)||
-|[Item2](VRage.MyTuple`3.Item2)||
-|[Item3](VRage.MyTuple`3.Item3)||
+|[T1 Item1](VRage.MyTuple`3.Item1)||
+|[T2 Item2](VRage.MyTuple`3.Item2)||
+|[T3 Item3](VRage.MyTuple`3.Item3)||
 
 #### Constructors
 

@@ -13,14 +13,14 @@ public struct MyTransform
 
 |Member|Description|
 |---|---|
-|[Rotation](VRageMath.MyTransform.Rotation)||
-|[Position](VRageMath.MyTransform.Position)||
+|[Vector3 Position](VRageMath.MyTransform.Position)||
+|[Quaternion Rotation](VRageMath.MyTransform.Rotation)||
 
 #### Properties
 
 |Member|Description|
 |---|---|
-|[TransformMatrix { get; }](VRageMath.MyTransform.TransformMatrix)||
+|[Matrix TransformMatrix { get; }](VRageMath.MyTransform.TransformMatrix)||
 
 #### Constructors
 
@@ -35,8 +35,8 @@ public struct MyTransform
 
 |Member|Description|
 |---|---|
-|[Transform(ref MyTransform, ref MyTransform)](VRageMath.MyTransform.Transform)||
-|[Transform(ref MyTransform, ref MyTransform, out MyTransform)](VRageMath.MyTransform.Transform)||
-|[Transform(ref Vector3, ref MyTransform)](VRageMath.MyTransform.Transform)||
-|[Transform(ref Vector3, ref MyTransform, out Vector3)](VRageMath.MyTransform.Transform)||
+|[static MyTransform Transform(ref MyTransform, ref MyTransform)](VRageMath.MyTransform.Transform)||
+|[static void Transform(ref MyTransform, ref MyTransform, out MyTransform)](VRageMath.MyTransform.Transform)||
+|[static Vector3 Transform(ref Vector3, ref MyTransform)](VRageMath.MyTransform.Transform)||
+|[static void Transform(ref Vector3, ref MyTransform, out Vector3)](VRageMath.MyTransform.Transform)||
 

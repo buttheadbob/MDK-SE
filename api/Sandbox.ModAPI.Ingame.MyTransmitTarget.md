@@ -13,11 +13,11 @@ public enum MyTransmitTarget
 
 |Member|Description|
 |---|---|
-|None||
-|Owned||
-|Ally||
-|Neutral||
-|Enemy||
-|Everyone||
-|Default||
+|MyTransmitTarget Ally||
+|MyTransmitTarget Default||
+|MyTransmitTarget Enemy||
+|MyTransmitTarget Everyone||
+|MyTransmitTarget Neutral||
+|MyTransmitTarget None||
+|MyTransmitTarget Owned||
 

@@ -13,22 +13,22 @@ public struct Line
 
 |Member|Description|
 |---|---|
-|[From](VRageMath.Line.From)||
-|[To](VRageMath.Line.To)||
-|[Direction](VRageMath.Line.Direction)||
-|[Length](VRageMath.Line.Length)||
-|[BoundingBox](VRageMath.Line.BoundingBox)||
+|[BoundingBox BoundingBox](VRageMath.Line.BoundingBox)||
+|[Vector3 Direction](VRageMath.Line.Direction)||
+|[Vector3 From](VRageMath.Line.From)||
+|[float Length](VRageMath.Line.Length)||
+|[Vector3 To](VRageMath.Line.To)||
 
 #### Constructors
 
 |Member|Description|
 |---|---|
-|[Line(Vector3, Vector3, bool)](VRageMath.Line..ctor)||
+|[Line(Vector3, Vector3, [bool])](VRageMath.Line..ctor)||
 
 #### Methods
 
 |Member|Description|
 |---|---|
-|[GetShortestDistanceSquared(Line, Line)](VRageMath.Line.GetShortestDistanceSquared)||
-|[GetShortestVector(ref Line, ref Line, out Vector3, out Vector3)](VRageMath.Line.GetShortestVector)||
+|[static float GetShortestDistanceSquared(Line, Line)](VRageMath.Line.GetShortestDistanceSquared)||
+|[static Vector3 GetShortestVector(ref Line, ref Line, out Vector3, out Vector3)](VRageMath.Line.GetShortestVector)||
 

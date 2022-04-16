@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool IsEndpointReachable(long address, TransmissionDistance transmissionDistance)
+public bool IsEndpointReachable(long address, [TransmissionDistance transmissionDistance])
 ```
 
 Determines if given endpoint is currently reachable. Similar to sending ICMP message.

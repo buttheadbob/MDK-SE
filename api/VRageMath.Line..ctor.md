@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public Line(Vector3 from, Vector3 to, bool calculateBoundingBox)
+public Line(Vector3 from, Vector3 to, [bool calculateBoundingBox])
 ```
 
 ### Parameters

@@ -18,7 +18,7 @@ A comparer designed to compare [StringSegment](VRage.Game.ModAPI.Ingame.Utilitie
 
 |Member|Description|
 |---|---|
-|[DEFAULT](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentComparer.DEFAULT)|A default instance of [StringSegmentComparer](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentComparer) |
+|[static StringSegmentComparer DEFAULT](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentComparer.DEFAULT)|A default instance of [StringSegmentComparer](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentComparer) |
 
 #### Constructors
 
@@ -30,6 +30,6 @@ A comparer designed to compare [StringSegment](VRage.Game.ModAPI.Ingame.Utilitie
 
 |Member|Description|
 |---|---|
-|[Equals(StringSegment, StringSegment)](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentComparer.Equals)|Determines whether the specified objects are equal.|
-|[GetHashCode(StringSegment)](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentComparer.GetHashCode)|Returns a hash code for the specified object.|
+|[bool Equals(StringSegment, StringSegment)](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentComparer.Equals)|Determines whether the specified objects are equal.|
+|[int GetHashCode(StringSegment)](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentComparer.GetHashCode)|Returns a hash code for the specified object.|
 

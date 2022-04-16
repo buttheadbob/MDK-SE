@@ -16,11 +16,11 @@ public struct ClearToken<T>: IDisposable
 
 |Member|Description|
 |---|---|
-|[List](System.Collections.Generic.ClearToken`1.List)||
+|[List List](System.Collections.Generic.ClearToken`1.List)||
 
 #### Methods
 
 |Member|Description|
 |---|---|
-|[Dispose()](System.Collections.Generic.ClearToken`1.Dispose)||
+|[void Dispose()](System.Collections.Generic.ClearToken`1.Dispose)||
 

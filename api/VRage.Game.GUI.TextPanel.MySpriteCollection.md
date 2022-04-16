@@ -13,7 +13,7 @@ public struct MySpriteCollection
 
 |Member|Description|
 |---|---|
-|[Sprites](VRage.Game.GUI.TextPanel.MySpriteCollection.Sprites)||
+|[MySprite[] Sprites](VRage.Game.GUI.TextPanel.MySpriteCollection.Sprites)||
 
 #### Constructors
 

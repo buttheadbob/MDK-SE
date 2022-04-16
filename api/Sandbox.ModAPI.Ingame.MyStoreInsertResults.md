@@ -15,8 +15,8 @@ Describes results of inserting order or offers into store block
 
 |Member|Description|
 |---|---|
-|Success|Inserted successfuly|
-|Fail_StoreLimitReached|30 orders/offers Per player|
-|Fail_PricePerUnitIsLessThanMinimum|Too cheap|
-|Error|Other errors|
+|MyStoreInsertResults Error|Other errors|
+|MyStoreInsertResults Fail_PricePerUnitIsLessThanMinimum|Too cheap|
+|MyStoreInsertResults Fail_StoreLimitReached|30 orders/offers Per player|
+|MyStoreInsertResults Success|Inserted successfuly|
 

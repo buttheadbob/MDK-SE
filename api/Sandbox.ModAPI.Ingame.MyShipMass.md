@@ -15,9 +15,9 @@ Describes ship mass
 
 |Member|Description|
 |---|---|
-|[BaseMass](Sandbox.ModAPI.Ingame.MyShipMass.BaseMass)|Gets the base mass of the ship.|
-|[TotalMass](Sandbox.ModAPI.Ingame.MyShipMass.TotalMass)|Gets the total mass of the ship, including cargo.|
-|[PhysicalMass](Sandbox.ModAPI.Ingame.MyShipMass.PhysicalMass)|Gets the physical mass of the ship, which accounts for inventory multiplier.|
+|[float BaseMass](Sandbox.ModAPI.Ingame.MyShipMass.BaseMass)|Gets the base mass of the ship.|
+|[float PhysicalMass](Sandbox.ModAPI.Ingame.MyShipMass.PhysicalMass)|Gets the physical mass of the ship, which accounts for inventory multiplier.|
+|[float TotalMass](Sandbox.ModAPI.Ingame.MyShipMass.TotalMass)|Gets the total mass of the ship, including cargo.|
 
 #### Constructors
 

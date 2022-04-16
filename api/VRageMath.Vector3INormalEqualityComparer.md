@@ -24,6 +24,6 @@ This can be used only to compare normal vectors of Vector3I, where X, Y and Z ha
 
 |Member|Description|
 |---|---|
-|[Equals(Vector3I, Vector3I)](VRageMath.Vector3INormalEqualityComparer.Equals)||
-|[GetHashCode(Vector3I)](VRageMath.Vector3INormalEqualityComparer.GetHashCode)||
+|[bool Equals(Vector3I, Vector3I)](VRageMath.Vector3INormalEqualityComparer.Equals)||
+|[int GetHashCode(Vector3I)](VRageMath.Vector3INormalEqualityComparer.GetHashCode)||
 

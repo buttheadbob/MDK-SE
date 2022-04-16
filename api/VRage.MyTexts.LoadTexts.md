@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static void LoadTexts(string rootDirectory, string cultureName, string subcultureName)
+public static void LoadTexts(string rootDirectory, [string cultureName], [string subcultureName])
 ```
 
 ### Parameters

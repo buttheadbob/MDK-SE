@@ -17,6 +17,10 @@ Describes block, which has upgrade effects (PB scripting interface)
 
 #### Properties
 
+[uint UpgradeCount { get; }](Sandbox.ModAPI.Ingame.IMyUpgradableBlock.UpgradeCount)
+
+> Gets number of upgrades applied
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -149,10 +153,6 @@ Describes block, which has upgrade effects (PB scripting interface)
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[uint UpgradeCount { get; }](Sandbox.ModAPI.Ingame.IMyUpgradableBlock.UpgradeCount)
-
-> Gets number of upgrades applied
-
 [BoundingBoxD WorldAABB { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)
 
 > Gets world axis-aligned bounding box  
@@ -185,6 +185,10 @@ Describes block, which has upgrade effects (PB scripting interface)
 
 #### Methods
 
+[void GetUpgrades(out Dictionary&lt;string, float&gt; upgrades)](Sandbox.ModAPI.Ingame.IMyUpgradableBlock.GetUpgrades)
+
+> Get list of upgrades. Read only.
+
 [IMyInventory GetInventory()](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)
 
 > Simply get the MyInventoryBase component stored in this entity.  
@@ -216,10 +220,6 @@ Describes block, which has upgrade effects (PB scripting interface)
 > Gets position in world coordinates  
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
-
-[void GetUpgrades(out Dictionary&lt;string, float&gt; upgrades)](Sandbox.ModAPI.Ingame.IMyUpgradableBlock.GetUpgrades)
-
-> Get list of upgrades. Read only.
 
 [MyRelationsBetweenPlayerAndBlock GetUserRelationToOwner(long playerId, MyRelationsBetweenPlayerAndBlock defaultNoUser = MyRelationsBetweenPlayerAndBlock.NoOwnership)](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetUserRelationToOwner)
 

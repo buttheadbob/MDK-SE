@@ -24,6 +24,38 @@ Describes connector block (PB scripting interface)
 
 #### Properties
 
+[bool CollectAll { get; set; }](Sandbox.ModAPI.Ingame.IMyShipConnector.CollectAll)
+
+> Gets or sets whether this connector should be pulling items into its inventory.
+
+[bool IsConnected { get; }](Sandbox.ModAPI.Ingame.IMyShipConnector.IsConnected)
+
+> _**Obsolete:** Use the Status property_
+
+[bool IsLocked { get; }](Sandbox.ModAPI.Ingame.IMyShipConnector.IsLocked)
+
+> _**Obsolete:** Use the Status property_
+
+[bool IsParkingEnabled { get; set; }](Sandbox.ModAPI.Ingame.IMyShipConnector.IsParkingEnabled)
+
+> Is this block triggered by the parking signal?
+
+[IMyShipConnector OtherConnector { get; }](Sandbox.ModAPI.Ingame.IMyShipConnector.OtherConnector)
+
+> Gets the connector this one is connected to when [Status](Sandbox.ModAPI.Ingame.IMyShipConnector.Status) is [Connected](Sandbox.ModAPI.Ingame.MyShipConnectorStatus.Connected) .
+
+[float PullStrength { get; set; }](Sandbox.ModAPI.Ingame.IMyShipConnector.PullStrength)
+
+> Gets or sets the currently configured strength of the pull when the connector is within range of another.
+
+[MyShipConnectorStatus Status { get; }](Sandbox.ModAPI.Ingame.IMyShipConnector.Status)
+
+> Determines the current status of the connector.
+
+[bool ThrowOut { get; set; }](Sandbox.ModAPI.Ingame.IMyShipConnector.ThrowOut)
+
+> Gets or sets whether this connector should throw out anything placed in its inventory.
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -35,10 +67,6 @@ Describes connector block (PB scripting interface)
 > True if the block has been removed from the world.  
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
-
-[bool CollectAll { get; set; }](Sandbox.ModAPI.Ingame.IMyShipConnector.CollectAll)
-
-> Gets or sets whether this connector should be pulling items into its inventory.
 
 [MyEntityComponentContainer Components { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Components)
 
@@ -136,23 +164,11 @@ Describes connector block (PB scripting interface)
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[bool IsConnected { get; }](Sandbox.ModAPI.Ingame.IMyShipConnector.IsConnected)
-
-> _**Obsolete:** Use the Status property_
-
 [bool IsFunctional { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.IsFunctional)
 
 > Gets if integrity is above breaking threshold  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[bool IsLocked { get; }](Sandbox.ModAPI.Ingame.IMyShipConnector.IsLocked)
-
-> _**Obsolete:** Use the Status property_
-
-[bool IsParkingEnabled { get; set; }](Sandbox.ModAPI.Ingame.IMyShipConnector.IsParkingEnabled)
-
-> Is this block triggered by the parking signal?
 
 [bool IsWorking { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.IsWorking)
 
@@ -196,10 +212,6 @@ Describes connector block (PB scripting interface)
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[IMyShipConnector OtherConnector { get; }](Sandbox.ModAPI.Ingame.IMyShipConnector.OtherConnector)
-
-> Gets the connector this one is connected to when [Status](Sandbox.ModAPI.Ingame.IMyShipConnector.Status) is [Connected](Sandbox.ModAPI.Ingame.MyShipConnectorStatus.Connected) .
-
 [long OwnerId { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.OwnerId)
 
 > IdentityId of player owning block (not steam Id)  
@@ -211,10 +223,6 @@ Describes connector block (PB scripting interface)
 > Position in grid coordinates  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[float PullStrength { get; set; }](Sandbox.ModAPI.Ingame.IMyShipConnector.PullStrength)
-
-> Gets or sets the currently configured strength of the pull when the connector is within range of another.
 
 [bool ShowInInventory { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)
 
@@ -239,14 +247,6 @@ Describes connector block (PB scripting interface)
 > Represent terminal gui toggle `Show On HUD`. Gets or sets its value  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[MyShipConnectorStatus Status { get; }](Sandbox.ModAPI.Ingame.IMyShipConnector.Status)
-
-> Determines the current status of the connector.
-
-[bool ThrowOut { get; set; }](Sandbox.ModAPI.Ingame.IMyShipConnector.ThrowOut)
-
-> Gets or sets whether this connector should throw out anything placed in its inventory.
 
 [BoundingBoxD WorldAABB { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)
 
@@ -287,6 +287,10 @@ Describes connector block (PB scripting interface)
 [void Disconnect()](Sandbox.ModAPI.Ingame.IMyShipConnector.Disconnect)
 
 > Disconnects this connector.
+
+[void ToggleConnect()](Sandbox.ModAPI.Ingame.IMyShipConnector.ToggleConnect)
+
+> Toggles between [Connected](Sandbox.ModAPI.Ingame.MyShipConnectorStatus.Connected) and [Unconnected](Sandbox.ModAPI.Ingame.MyShipConnectorStatus.Unconnected) , depending on the current status. Another connector must be in range for this method to have any effect.
 
 [void GetActions(List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)
 
@@ -397,10 +401,6 @@ Describes connector block (PB scripting interface)
 > _**Obsolete:** Use the setter of Customname_  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[void ToggleConnect()](Sandbox.ModAPI.Ingame.IMyShipConnector.ToggleConnect)
-
-> Toggles between [Connected](Sandbox.ModAPI.Ingame.MyShipConnectorStatus.Connected) and [Unconnected](Sandbox.ModAPI.Ingame.MyShipConnectorStatus.Unconnected) , depending on the current status. Another connector must be in range for this method to have any effect.
 
 [void UpdateIsWorking()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.UpdateIsWorking)
 

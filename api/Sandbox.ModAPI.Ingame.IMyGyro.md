@@ -23,6 +23,26 @@ Describes gyroscope block (PB scripting interface)
 
 #### Properties
 
+[bool GyroOverride { get; set; }](Sandbox.ModAPI.Ingame.IMyGyro.GyroOverride)
+
+> 
+
+[float GyroPower { get; set; }](Sandbox.ModAPI.Ingame.IMyGyro.GyroPower)
+
+> Get or set gyroscope power in
+
+[float Pitch { get; set; }](Sandbox.ModAPI.Ingame.IMyGyro.Pitch)
+
+> 
+
+[float Roll { get; set; }](Sandbox.ModAPI.Ingame.IMyGyro.Roll)
+
+> 
+
+[float Yaw { get; set; }](Sandbox.ModAPI.Ingame.IMyGyro.Yaw)
+
+> 
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -113,14 +133,6 @@ Describes gyroscope block (PB scripting interface)
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
-[bool GyroOverride { get; set; }](Sandbox.ModAPI.Ingame.IMyGyro.GyroOverride)
-
-> 
-
-[float GyroPower { get; set; }](Sandbox.ModAPI.Ingame.IMyGyro.GyroPower)
-
-> Get or set gyroscope power in
-
 [bool HasInventory { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.HasInventory)
 
 > Returns true if this entity has got at least one inventory. Note that one aggregate inventory can contain zero simple inventories => zero will be returned even if GetInventory() != null.  
@@ -193,19 +205,11 @@ Describes gyroscope block (PB scripting interface)
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[float Pitch { get; set; }](Sandbox.ModAPI.Ingame.IMyGyro.Pitch)
-
-> 
-
 [Vector3I Position { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.Position)
 
 > Position in grid coordinates  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[float Roll { get; set; }](Sandbox.ModAPI.Ingame.IMyGyro.Roll)
-
-> 
 
 [bool ShowInInventory { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)
 
@@ -260,10 +264,6 @@ Describes gyroscope block (PB scripting interface)
 > Gets bounding sphere of this entity  
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
-
-[float Yaw { get; set; }](Sandbox.ModAPI.Ingame.IMyGyro.Yaw)
-
-> 
 
 #### Methods
 

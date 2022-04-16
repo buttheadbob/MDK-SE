@@ -24,6 +24,26 @@ Describes antenna block interface (PB scripting interface)
 
 #### Properties
 
+[bool EnableBroadcasting { get; set; }](Sandbox.ModAPI.Ingame.IMyRadioAntenna.EnableBroadcasting)
+
+> Gets or sets if broadcasting is enabled
+
+[string HudText { get; set; }](Sandbox.ModAPI.Ingame.IMyRadioAntenna.HudText)
+
+> Gets or sets text displayed in the spawn menu
+
+[bool IsBroadcasting { get; }](Sandbox.ModAPI.Ingame.IMyRadioAntenna.IsBroadcasting)
+
+> Returns true if antenna is broadcasting
+
+[float Radius { get; set; }](Sandbox.ModAPI.Ingame.IMyRadioAntenna.Radius)
+
+> Gets or sets Broadcasting/Receiving range
+
+[bool ShowShipName { get; set; }](Sandbox.ModAPI.Ingame.IMyRadioAntenna.ShowShipName)
+
+> Gets or sets show shipname on hud
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -102,10 +122,6 @@ Describes antenna block interface (PB scripting interface)
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[bool EnableBroadcasting { get; set; }](Sandbox.ModAPI.Ingame.IMyRadioAntenna.EnableBroadcasting)
-
-> Gets or sets if broadcasting is enabled
-
 [bool Enabled { get; set; }](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.Enabled)
 
 > Represents terminal gui toggle. Gets or sets if block is Enabled  
@@ -124,10 +140,6 @@ Describes antenna block interface (PB scripting interface)
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
-[string HudText { get; set; }](Sandbox.ModAPI.Ingame.IMyRadioAntenna.HudText)
-
-> Gets or sets text displayed in the spawn menu
-
 [int InventoryCount { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.InventoryCount)
 
 > Returns the count of the number of inventories this entity has.  
@@ -139,10 +151,6 @@ Describes antenna block interface (PB scripting interface)
 > Hacking of the block is in progress  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[bool IsBroadcasting { get; }](Sandbox.ModAPI.Ingame.IMyRadioAntenna.IsBroadcasting)
-
-> Returns true if antenna is broadcasting
 
 [bool IsFunctional { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.IsFunctional)
 
@@ -204,10 +212,6 @@ Describes antenna block interface (PB scripting interface)
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[float Radius { get; set; }](Sandbox.ModAPI.Ingame.IMyRadioAntenna.Radius)
-
-> Gets or sets Broadcasting/Receiving range
-
 [bool ShowInInventory { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)
 
 > Represent terminal gui toggle `Show block in Inventory Screen`. Gets or sets its value  
@@ -231,10 +235,6 @@ Describes antenna block interface (PB scripting interface)
 > Represent terminal gui toggle `Show On HUD`. Gets or sets its value  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[bool ShowShipName { get; set; }](Sandbox.ModAPI.Ingame.IMyRadioAntenna.ShowShipName)
-
-> Gets or sets show shipname on hud
 
 [BoundingBoxD WorldAABB { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)
 

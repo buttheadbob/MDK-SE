@@ -27,6 +27,40 @@ Describes blocks linked with [VRage.Game.ModAPI.GridLinkTypeEnum.Mechanical](htt
 
 #### Properties
 
+[bool IsAttached { get; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.IsAttached)
+
+> Gets if the block base is attached to something
+
+[bool IsLocked { get; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.IsLocked)
+
+> _**Obsolete:** SafetyLock is no longer supported. This is property dummy property only, for backwards compatibility._  
+>   
+> Gets if the block is safety locked (welded)
+
+[bool PendingAttachment { get; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.PendingAttachment)
+
+> Gets if the block is looking for a top part
+
+[bool SafetyLock { get; set; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.SafetyLock)
+
+> _**Obsolete:** SafetyLock is no longer supported. This is property dummy property only, for backwards compatibility._  
+>   
+> Gets if the block is safety locked (welded)
+
+[float SafetyLockSpeed { get; set; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.SafetyLockSpeed)
+
+> _**Obsolete:** SafetyLock is no longer supported. This is property dummy property only, for backwards compatibility._  
+>   
+> Gets or sets the speed at which this device will engage it's safety lock ( [IsLocked](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.IsLocked) ).
+
+[IMyAttachableTopBlock Top { get; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.Top)
+
+> Gets the attached top part entity
+
+[IMyCubeGrid TopGrid { get; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.TopGrid)
+
+> Gets the grid of the attached top part
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -129,10 +163,6 @@ Describes blocks linked with [VRage.Game.ModAPI.GridLinkTypeEnum.Mechanical](htt
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
-[bool IsAttached { get; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.IsAttached)
-
-> Gets if the block base is attached to something
-
 [bool IsBeingHacked { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.IsBeingHacked)
 
 > Hacking of the block is in progress  
@@ -144,12 +174,6 @@ Describes blocks linked with [VRage.Game.ModAPI.GridLinkTypeEnum.Mechanical](htt
 > Gets if integrity is above breaking threshold  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[bool IsLocked { get; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.IsLocked)
-
-> _**Obsolete:** SafetyLock is no longer supported. This is property dummy property only, for backwards compatibility._  
->   
-> Gets if the block is safety locked (welded)
 
 [bool IsWorking { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.IsWorking)
 
@@ -199,27 +223,11 @@ Describes blocks linked with [VRage.Game.ModAPI.GridLinkTypeEnum.Mechanical](htt
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[bool PendingAttachment { get; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.PendingAttachment)
-
-> Gets if the block is looking for a top part
-
 [Vector3I Position { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.Position)
 
 > Position in grid coordinates  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[bool SafetyLock { get; set; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.SafetyLock)
-
-> _**Obsolete:** SafetyLock is no longer supported. This is property dummy property only, for backwards compatibility._  
->   
-> Gets if the block is safety locked (welded)
-
-[float SafetyLockSpeed { get; set; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.SafetyLockSpeed)
-
-> _**Obsolete:** SafetyLock is no longer supported. This is property dummy property only, for backwards compatibility._  
->   
-> Gets or sets the speed at which this device will engage it's safety lock ( [IsLocked](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.IsLocked) ).
 
 [bool ShowInInventory { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)
 
@@ -244,14 +252,6 @@ Describes blocks linked with [VRage.Game.ModAPI.GridLinkTypeEnum.Mechanical](htt
 > Represent terminal gui toggle `Show On HUD`. Gets or sets its value  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[IMyAttachableTopBlock Top { get; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.Top)
-
-> Gets the attached top part entity
-
-[IMyCubeGrid TopGrid { get; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.TopGrid)
-
-> Gets the grid of the attached top part
 
 [BoundingBoxD WorldAABB { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)
 

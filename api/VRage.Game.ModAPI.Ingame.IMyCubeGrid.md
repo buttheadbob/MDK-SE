@@ -16,6 +16,30 @@ Grid interface
 
 #### Properties
 
+[string CustomName { get; set; }](VRage.Game.ModAPI.Ingame.IMyCubeGrid.CustomName)
+
+> Getter and setter for display name of the grid (as seen in Info terminal tab)
+
+[float GridSize { get; }](VRage.Game.ModAPI.Ingame.IMyCubeGrid.GridSize)
+
+> Getter of grid size in meters
+
+[MyCubeSize GridSizeEnum { get; }](VRage.Game.ModAPI.Ingame.IMyCubeGrid.GridSizeEnum)
+
+> Getter for grid size enum
+
+[bool IsStatic { get; }](VRage.Game.ModAPI.Ingame.IMyCubeGrid.IsStatic)
+
+> Determines if the grid is static (unmoveable)
+
+[Vector3I Max { get; }](VRage.Game.ModAPI.Ingame.IMyCubeGrid.Max)
+
+> Maximum coordinates of blocks in grid
+
+[Vector3I Min { get; }](VRage.Game.ModAPI.Ingame.IMyCubeGrid.Min)
+
+> Minimum coordinates of blocks in grid
+
 [bool Closed { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Closed)
 
 > True if the block has been removed from the world.  
@@ -27,10 +51,6 @@ Grid interface
 > Gets blocks component logic container  
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
-
-[string CustomName { get; set; }](VRage.Game.ModAPI.Ingame.IMyCubeGrid.CustomName)
-
-> Getter and setter for display name of the grid (as seen in Info terminal tab)
 
 [string DisplayName { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.DisplayName)
 
@@ -44,14 +64,6 @@ Grid interface
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
-[float GridSize { get; }](VRage.Game.ModAPI.Ingame.IMyCubeGrid.GridSize)
-
-> Getter of grid size in meters
-
-[MyCubeSize GridSizeEnum { get; }](VRage.Game.ModAPI.Ingame.IMyCubeGrid.GridSizeEnum)
-
-> Getter for grid size enum
-
 [bool HasInventory { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.HasInventory)
 
 > Returns true if this entity has got at least one inventory. Note that one aggregate inventory can contain zero simple inventories => zero will be returned even if GetInventory() != null.  
@@ -63,18 +75,6 @@ Grid interface
 > Returns the count of the number of inventories this entity has.  
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
-
-[bool IsStatic { get; }](VRage.Game.ModAPI.Ingame.IMyCubeGrid.IsStatic)
-
-> Determines if the grid is static (unmoveable)
-
-[Vector3I Max { get; }](VRage.Game.ModAPI.Ingame.IMyCubeGrid.Max)
-
-> Maximum coordinates of blocks in grid
-
-[Vector3I Min { get; }](VRage.Game.ModAPI.Ingame.IMyCubeGrid.Min)
-
-> Minimum coordinates of blocks in grid
 
 [string Name { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Name)
 
@@ -122,6 +122,20 @@ Grid interface
 
 > Get cube block at given position
 
+[Vector3D GridIntegerToWorld(Vector3I gridCoords)](VRage.Game.ModAPI.Ingame.IMyCubeGrid.GridIntegerToWorld)
+
+> Converts grid coordinates to world space
+
+[bool IsSameConstructAs(IMyCubeGrid other)](VRage.Game.ModAPI.Ingame.IMyCubeGrid.IsSameConstructAs)
+
+> Determines whether this grid is [VRage.Game.ModAPI.GridLinkTypeEnum.Mechanical](https://docs.microsoft.com/en-us/dotnet/api/vrage.game.modapi.gridlinktypeenum.mechanical?view=netframework-4.6) connected to the other. This is any grid connected with rotors or pistons or other mechanical devices, but not things like connectors. This will in most cases constitute your complete construct.    
+>     
+> Be aware that using merge blocks combines grids into one, so this function will not filter out grids connected that way. Also be aware that detaching the heads of pistons and rotors will cause this connection to change.
+
+[Vector3I WorldToGridInteger(Vector3D coords)](VRage.Game.ModAPI.Ingame.IMyCubeGrid.WorldToGridInteger)
+
+> Converts world coordinates to grid space cell coordinates
+
 [IMyInventory GetInventory()](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)
 
 > Simply get the MyInventoryBase component stored in this entity.  
@@ -139,18 +153,4 @@ Grid interface
 > Gets position in world coordinates  
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
-
-[Vector3D GridIntegerToWorld(Vector3I gridCoords)](VRage.Game.ModAPI.Ingame.IMyCubeGrid.GridIntegerToWorld)
-
-> Converts grid coordinates to world space
-
-[bool IsSameConstructAs(IMyCubeGrid other)](VRage.Game.ModAPI.Ingame.IMyCubeGrid.IsSameConstructAs)
-
-> Determines whether this grid is [VRage.Game.ModAPI.GridLinkTypeEnum.Mechanical](https://docs.microsoft.com/en-us/dotnet/api/vrage.game.modapi.gridlinktypeenum.mechanical?view=netframework-4.6) connected to the other. This is any grid connected with rotors or pistons or other mechanical devices, but not things like connectors. This will in most cases constitute your complete construct.    
->     
-> Be aware that using merge blocks combines grids into one, so this function will not filter out grids connected that way. Also be aware that detaching the heads of pistons and rotors will cause this connection to change.
-
-[Vector3I WorldToGridInteger(Vector3D coords)](VRage.Game.ModAPI.Ingame.IMyCubeGrid.WorldToGridInteger)
-
-> Converts world coordinates to grid space cell coordinates
 

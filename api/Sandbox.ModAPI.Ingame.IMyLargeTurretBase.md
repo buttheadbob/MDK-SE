@@ -34,15 +34,71 @@ Describes turret block (PB scripting interface)
 
 > Gets or sets azimuth of turret, this method is not synced, you need to sync azimuth manually
 
+[bool CanControl { get; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.CanControl)
+
+> Returns true if current player can control this block. Always return false on Dedicated Server
+
+[float Elevation { get; set; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.Elevation)
+
+> Gets / sets elevation of turret, this method is not synced, you need to sync elevation manually
+
+[bool EnableIdleRotation { get; set; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.EnableIdleRotation)
+
+> Enable/disable idle rotation for turret, this method is not synced, you need to sync manually
+
+[bool HasTarget { get; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.HasTarget)
+
+> Checks if the turret is locked onto a target
+
+[bool IsAimed { get; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.IsAimed)
+
+> Returns true if turret head looking at target
+
+[bool IsUnderControl { get; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.IsUnderControl)
+
+> Indicates whether a block is locally or remotely controlled.
+
+[float Range { get; set; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.Range)
+
+> Gets and Sets shooting range of the turret
+
+[bool TargetCharacters { get; set; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.TargetCharacters)
+
+> Gets/sets if the turret should target characters.
+
+[bool TargetEnemies { get; set; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.TargetEnemies)
+
+> Gets/sets if the turret should target enemies.
+
+[bool TargetLargeGrids { get; set; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.TargetLargeGrids)
+
+> Gets/sets if the turret should target large grids.
+
+[bool TargetMeteors { get; set; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.TargetMeteors)
+
+> Gets/sets if the turret should target meteors.
+
+[bool TargetMissiles { get; set; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.TargetMissiles)
+
+> Gets/sets if the turret should target missiles.
+
+[bool TargetNeutrals { get; set; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.TargetNeutrals)
+
+> Gets/sets if the turret should target neutrals.
+
+[bool TargetSmallGrids { get; set; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.TargetSmallGrids)
+
+> Gets/sets if the turret should target small grids.
+
+[bool TargetStations { get; set; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.TargetStations)
+
+> Gets/sets if the turret should target stations.
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[bool CanControl { get; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.CanControl)
-
-> Returns true if current player can control this block. Always return false on Dedicated Server
 
 [bool Closed { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Closed)
 
@@ -116,19 +172,11 @@ Describes turret block (PB scripting interface)
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[float Elevation { get; set; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.Elevation)
-
-> Gets / sets elevation of turret, this method is not synced, you need to sync elevation manually
-
 [bool Enabled { get; set; }](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.Enabled)
 
 > Represents terminal gui toggle. Gets or sets if block is Enabled  
 >   
 > _Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_
-
-[bool EnableIdleRotation { get; set; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.EnableIdleRotation)
-
-> Enable/disable idle rotation for turret, this method is not synced, you need to sync manually
 
 [long EntityId { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.EntityId)
 
@@ -142,19 +190,11 @@ Describes turret block (PB scripting interface)
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
-[bool HasTarget { get; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.HasTarget)
-
-> Checks if the turret is locked onto a target
-
 [int InventoryCount { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.InventoryCount)
 
 > Returns the count of the number of inventories this entity has.  
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
-
-[bool IsAimed { get; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.IsAimed)
-
-> Returns true if turret head looking at target
 
 [bool IsBeingHacked { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.IsBeingHacked)
 
@@ -173,10 +213,6 @@ Describes turret block (PB scripting interface)
 > Gets whether block is shooting  
 >   
 > _Inherited from [IMyUserControllableGun](Sandbox.ModAPI.Ingame.IMyUserControllableGun)_
-
-[bool IsUnderControl { get; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.IsUnderControl)
-
-> Indicates whether a block is locally or remotely controlled.
 
 [bool IsWorking { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.IsWorking)
 
@@ -232,10 +268,6 @@ Describes turret block (PB scripting interface)
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[float Range { get; set; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.Range)
-
-> Gets and Sets shooting range of the turret
-
 [bool Shoot { get; set; }](Sandbox.ModAPI.Ingame.IMyUserControllableGun.Shoot)
 
 > Represents terminal gui toggle element "Shoot". Not same as [IsShooting](Sandbox.ModAPI.Ingame.IMyUserControllableGun.IsShooting)   
@@ -265,38 +297,6 @@ Describes turret block (PB scripting interface)
 > Represent terminal gui toggle `Show On HUD`. Gets or sets its value  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[bool TargetCharacters { get; set; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.TargetCharacters)
-
-> Gets/sets if the turret should target characters.
-
-[bool TargetEnemies { get; set; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.TargetEnemies)
-
-> Gets/sets if the turret should target enemies.
-
-[bool TargetLargeGrids { get; set; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.TargetLargeGrids)
-
-> Gets/sets if the turret should target large grids.
-
-[bool TargetMeteors { get; set; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.TargetMeteors)
-
-> Gets/sets if the turret should target meteors.
-
-[bool TargetMissiles { get; set; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.TargetMissiles)
-
-> Gets/sets if the turret should target missiles.
-
-[bool TargetNeutrals { get; set; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.TargetNeutrals)
-
-> Gets/sets if the turret should target neutrals.
-
-[bool TargetSmallGrids { get; set; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.TargetSmallGrids)
-
-> Gets/sets if the turret should target small grids.
-
-[bool TargetStations { get; set; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.TargetStations)
-
-> Gets/sets if the turret should target stations.
 
 [BoundingBoxD WorldAABB { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)
 
@@ -329,6 +329,50 @@ Describes turret block (PB scripting interface)
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
 #### Methods
+
+[MyDetectedEntityInfo GetTargetedEntity()](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.GetTargetedEntity)
+
+> Gets the turret's current detected entity, if any
+
+[string GetTargetingGroup()](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.GetTargetingGroup)
+
+> Gets current targeting group
+
+[List&lt;string&gt; GetTargetingGroups()](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.GetTargetingGroups)
+
+> Gets all available targeting groups
+
+[void ResetTargetingToDefault()](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.ResetTargetingToDefault)
+
+> Resets targeting to default values
+
+[void SetManualAzimuthAndElevation(float azimuth, float elevation)](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.SetManualAzimuthAndElevation)
+
+> Sets azimuth and elevation of the turret, this method is not synced, you need to sync it manually. Call SyncAzimuth or SyncElevation.
+
+[void SetTarget(Vector3D pos)](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.SetTarget)
+
+> Set targets given position
+
+[void SetTargetingGroup(string groupSubtypeId)](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.SetTargetingGroup)
+
+> Sets current targeting group
+
+[void SyncAzimuth()](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.SyncAzimuth)
+
+> Method used to sync azimuth, you need to call it to sync azimuth for other clients/server
+
+[void SyncElevation()](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.SyncElevation)
+
+> Method used to sync elevation of turret, you need to call it to sync elevation for other clients/server
+
+[void SyncEnableIdleRotation()](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.SyncEnableIdleRotation)
+
+> Method used to sync idle rotation and elevation, you need to call it to sync rotation and elevation for other clients/server
+
+[void TrackTarget(Vector3D pos, Vector3 velocity)](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.TrackTarget)
+
+> Tracks given target with enabled position prediction
 
 [void GetActions(List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)
 
@@ -386,18 +430,6 @@ Describes turret block (PB scripting interface)
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[MyDetectedEntityInfo GetTargetedEntity()](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.GetTargetedEntity)
-
-> Gets the turret's current detected entity, if any
-
-[string GetTargetingGroup()](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.GetTargetingGroup)
-
-> Gets current targeting group
-
-[List&lt;string&gt; GetTargetingGroups()](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.GetTargetingGroups)
-
-> Gets all available targeting groups
-
 [MyRelationsBetweenPlayerAndBlock GetUserRelationToOwner(long playerId, MyRelationsBetweenPlayerAndBlock defaultNoUser = MyRelationsBetweenPlayerAndBlock.NoOwnership)](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetUserRelationToOwner)
 
 > Gets relation to owner of block  
@@ -430,10 +462,6 @@ Describes turret block (PB scripting interface)
 >   
 > _Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_
 
-[void ResetTargetingToDefault()](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.ResetTargetingToDefault)
-
-> Resets targeting to default values
-
 [void SearchActionsOfName(string name, List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SearchActionsOfName)
 
 > Get all terminal actions available for block. NOTE: First called `    
@@ -456,39 +484,11 @@ Describes turret block (PB scripting interface)
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[void SetManualAzimuthAndElevation(float azimuth, float elevation)](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.SetManualAzimuthAndElevation)
-
-> Sets azimuth and elevation of the turret, this method is not synced, you need to sync it manually. Call SyncAzimuth or SyncElevation.
-
-[void SetTarget(Vector3D pos)](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.SetTarget)
-
-> Set targets given position
-
-[void SetTargetingGroup(string groupSubtypeId)](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.SetTargetingGroup)
-
-> Sets current targeting group
-
 [void ShootOnce()](Sandbox.ModAPI.Ingame.IMyUserControllableGun.ShootOnce)
 
 > Triggers a single shot.  
 >   
 > _Inherited from [IMyUserControllableGun](Sandbox.ModAPI.Ingame.IMyUserControllableGun)_
-
-[void SyncAzimuth()](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.SyncAzimuth)
-
-> Method used to sync azimuth, you need to call it to sync azimuth for other clients/server
-
-[void SyncElevation()](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.SyncElevation)
-
-> Method used to sync elevation of turret, you need to call it to sync elevation for other clients/server
-
-[void SyncEnableIdleRotation()](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.SyncEnableIdleRotation)
-
-> Method used to sync idle rotation and elevation, you need to call it to sync rotation and elevation for other clients/server
-
-[void TrackTarget(Vector3D pos, Vector3 velocity)](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.TrackTarget)
-
-> Tracks given target with enabled position prediction
 
 [void UpdateIsWorking()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.UpdateIsWorking)
 

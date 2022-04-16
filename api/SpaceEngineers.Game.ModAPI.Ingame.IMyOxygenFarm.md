@@ -20,15 +20,15 @@ public interface IMyOxygenFarm: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlo
 
 #### Properties
 
+[bool CanProduce { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyOxygenFarm.CanProduce)
+
+> Gets if the block can produce gas.
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[bool CanProduce { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyOxygenFarm.CanProduce)
-
-> Gets if the block can produce gas.
 
 [bool Closed { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Closed)
 
@@ -248,6 +248,10 @@ public interface IMyOxygenFarm: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlo
 
 #### Methods
 
+[float GetOutput()](SpaceEngineers.Game.ModAPI.Ingame.IMyOxygenFarm.GetOutput)
+
+> 
+
 [void GetActions(List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)
 
 > Get all terminal actions available for block  
@@ -271,10 +275,6 @@ public interface IMyOxygenFarm: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlo
 > Search for inventory component with maching index.  
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
-
-[float GetOutput()](SpaceEngineers.Game.ModAPI.Ingame.IMyOxygenFarm.GetOutput)
-
-> 
 
 [string GetOwnerFactionTag()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetOwnerFactionTag)
 

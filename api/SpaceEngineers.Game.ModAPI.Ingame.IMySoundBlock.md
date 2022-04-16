@@ -21,6 +21,26 @@ public interface IMySoundBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlo
 
 #### Properties
 
+[bool IsSoundSelected { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock.IsSoundSelected)
+
+> Gets if a sound is currently selected.
+
+[float LoopPeriod { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock.LoopPeriod)
+
+> Gets or sets the loop period of a loopable sound, in seconds.
+
+[float Range { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock.Range)
+
+> Gets or sets the range the sound is audible.
+
+[string SelectedSound { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock.SelectedSound)
+
+> Gets or sets the selected sound.
+
+[float Volume { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock.Volume)
+
+> Gets or sets the volume level of sound
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -135,19 +155,11 @@ public interface IMySoundBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlo
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[bool IsSoundSelected { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock.IsSoundSelected)
-
-> Gets if a sound is currently selected.
-
 [bool IsWorking { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.IsWorking)
 
 > True if block is able to do its work depening on block type (is functional, powered, enabled, etc...)  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[float LoopPeriod { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock.LoopPeriod)
-
-> Gets or sets the loop period of a loopable sound, in seconds.
 
 [float Mass { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.Mass)
 
@@ -197,14 +209,6 @@ public interface IMySoundBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlo
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[float Range { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock.Range)
-
-> Gets or sets the range the sound is audible.
-
-[string SelectedSound { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock.SelectedSound)
-
-> Gets or sets the selected sound.
-
 [bool ShowInInventory { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)
 
 > Represent terminal gui toggle `Show block in Inventory Screen`. Gets or sets its value  
@@ -228,10 +232,6 @@ public interface IMySoundBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlo
 > Represent terminal gui toggle `Show On HUD`. Gets or sets its value  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[float Volume { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock.Volume)
-
-> Gets or sets the volume level of sound
 
 [BoundingBoxD WorldAABB { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)
 
@@ -264,6 +264,18 @@ public interface IMySoundBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlo
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
 #### Methods
+
+[void GetSounds(List&lt;string&gt; sounds)](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock.GetSounds)
+
+> Gets a list of all sound IDs this block can use.
+
+[void Play()](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock.Play)
+
+> Plays the currently selected sound.
+
+[void Stop()](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock.Stop)
+
+> Stops the currently playing sound.
 
 [void GetActions(List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)
 
@@ -321,10 +333,6 @@ public interface IMySoundBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlo
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[void GetSounds(List&lt;string&gt; sounds)](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock.GetSounds)
-
-> Gets a list of all sound IDs this block can use.
-
 [MyRelationsBetweenPlayerAndBlock GetUserRelationToOwner(long playerId, MyRelationsBetweenPlayerAndBlock defaultNoUser = MyRelationsBetweenPlayerAndBlock.NoOwnership)](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetUserRelationToOwner)
 
 > Gets relation to owner of block  
@@ -350,10 +358,6 @@ public interface IMySoundBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlo
 > Be aware that using merge blocks combines grids into one, so this function will not filter out grids connected that way. Also be aware that detaching the heads of pistons and rotors will cause this connection to change.  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[void Play()](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock.Play)
-
-> Plays the currently selected sound.
 
 [void RequestEnable(bool enable)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)
 
@@ -382,10 +386,6 @@ public interface IMySoundBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlo
 > _**Obsolete:** Use the setter of Customname_  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[void Stop()](SpaceEngineers.Game.ModAPI.Ingame.IMySoundBlock.Stop)
-
-> Stops the currently playing sound.
 
 [void UpdateIsWorking()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.UpdateIsWorking)
 

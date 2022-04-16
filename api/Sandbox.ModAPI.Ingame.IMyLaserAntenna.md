@@ -23,6 +23,32 @@ Laser antenna block interface
 
 #### Properties
 
+[bool IsOutsideLimits { get; }](Sandbox.ModAPI.Ingame.IMyLaserAntenna.IsOutsideLimits)
+
+> _**Obsolete:** Check the Status property instead._  
+>   
+> Target is outside movement limits of antenna
+
+[bool IsPermanent { get; set; }](Sandbox.ModAPI.Ingame.IMyLaserAntenna.IsPermanent)
+
+> Gets or sets whether connection is permanent
+
+[float Range { get; set; }](Sandbox.ModAPI.Ingame.IMyLaserAntenna.Range)
+
+> Gets or sets the max range of the laser set in terminal
+
+[bool RequireLoS { get; }](Sandbox.ModAPI.Ingame.IMyLaserAntenna.RequireLoS)
+
+> Determines whether this particular antenna requires line of sight to function.
+
+[MyLaserAntennaStatus Status { get; }](Sandbox.ModAPI.Ingame.IMyLaserAntenna.Status)
+
+> Gets the current status of this antenna.
+
+[Vector3D TargetCoords { get; }](Sandbox.ModAPI.Ingame.IMyLaserAntenna.TargetCoords)
+
+> Gets target coordinates
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -137,16 +163,6 @@ Laser antenna block interface
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[bool IsOutsideLimits { get; }](Sandbox.ModAPI.Ingame.IMyLaserAntenna.IsOutsideLimits)
-
-> _**Obsolete:** Check the Status property instead._  
->   
-> Target is outside movement limits of antenna
-
-[bool IsPermanent { get; set; }](Sandbox.ModAPI.Ingame.IMyLaserAntenna.IsPermanent)
-
-> Gets or sets whether connection is permanent
-
 [bool IsWorking { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.IsWorking)
 
 > True if block is able to do its work depening on block type (is functional, powered, enabled, etc...)  
@@ -201,14 +217,6 @@ Laser antenna block interface
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[float Range { get; set; }](Sandbox.ModAPI.Ingame.IMyLaserAntenna.Range)
-
-> Gets or sets the max range of the laser set in terminal
-
-[bool RequireLoS { get; }](Sandbox.ModAPI.Ingame.IMyLaserAntenna.RequireLoS)
-
-> Determines whether this particular antenna requires line of sight to function.
-
 [bool ShowInInventory { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)
 
 > Represent terminal gui toggle `Show block in Inventory Screen`. Gets or sets its value  
@@ -232,14 +240,6 @@ Laser antenna block interface
 > Represent terminal gui toggle `Show On HUD`. Gets or sets its value  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[MyLaserAntennaStatus Status { get; }](Sandbox.ModAPI.Ingame.IMyLaserAntenna.Status)
-
-> Gets the current status of this antenna.
-
-[Vector3D TargetCoords { get; }](Sandbox.ModAPI.Ingame.IMyLaserAntenna.TargetCoords)
-
-> Gets target coordinates
 
 [BoundingBoxD WorldAABB { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)
 
@@ -276,6 +276,10 @@ Laser antenna block interface
 [void Connect()](Sandbox.ModAPI.Ingame.IMyLaserAntenna.Connect)
 
 > Connect to target defined by SetTargetCoords
+
+[void SetTargetCoords(string coords)](Sandbox.ModAPI.Ingame.IMyLaserAntenna.SetTargetCoords)
+
+> Sets coordinates of target
 
 [void GetActions(List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)
 
@@ -386,10 +390,6 @@ Laser antenna block interface
 > _**Obsolete:** Use the setter of Customname_  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[void SetTargetCoords(string coords)](Sandbox.ModAPI.Ingame.IMyLaserAntenna.SetTargetCoords)
-
-> Sets coordinates of target
 
 [void UpdateIsWorking()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.UpdateIsWorking)
 

@@ -24,6 +24,14 @@ Describes ship tool block (drill/grinder/welder) (PB scripting interface)
 
 #### Properties
 
+[bool IsActivated { get; }](Sandbox.ModAPI.Ingame.IMyShipToolBase.IsActivated)
+
+> True if the tool is activated by mouse click or toggling via terminal.
+
+[bool UseConveyorSystem { get; set; }](Sandbox.ModAPI.Ingame.IMyShipToolBase.UseConveyorSystem)
+
+> Gets or sets if block should push/pull items from conveyor system
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -126,10 +134,6 @@ Describes ship tool block (drill/grinder/welder) (PB scripting interface)
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
-[bool IsActivated { get; }](Sandbox.ModAPI.Ingame.IMyShipToolBase.IsActivated)
-
-> True if the tool is activated by mouse click or toggling via terminal.
-
 [bool IsBeingHacked { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.IsBeingHacked)
 
 > Hacking of the block is in progress  
@@ -219,10 +223,6 @@ Describes ship tool block (drill/grinder/welder) (PB scripting interface)
 > Represent terminal gui toggle `Show On HUD`. Gets or sets its value  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[bool UseConveyorSystem { get; set; }](Sandbox.ModAPI.Ingame.IMyShipToolBase.UseConveyorSystem)
-
-> Gets or sets if block should push/pull items from conveyor system
 
 [BoundingBoxD WorldAABB { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)
 

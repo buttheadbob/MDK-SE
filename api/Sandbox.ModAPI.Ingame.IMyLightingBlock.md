@@ -39,6 +39,26 @@ Describes lighting block (PB scripting interface)
 
 > Adds an offset to the blinking interval, as a value between 0 and 1.
 
+[Color Color { get; set; }](Sandbox.ModAPI.Ingame.IMyLightingBlock.Color)
+
+> Gets or sets the color of the light.
+
+[float Falloff { get; set; }](Sandbox.ModAPI.Ingame.IMyLightingBlock.Falloff)
+
+> Gets or sets the current falloff of the light.
+
+[float Intensity { get; set; }](Sandbox.ModAPI.Ingame.IMyLightingBlock.Intensity)
+
+> Gets or sets the current intensity of the light.
+
+[float Radius { get; set; }](Sandbox.ModAPI.Ingame.IMyLightingBlock.Radius)
+
+> Gets or sets the basic radius of the light.
+
+[float ReflectorRadius { get; }](Sandbox.ModAPI.Ingame.IMyLightingBlock.ReflectorRadius)
+
+> _**Obsolete:** Use Radius_
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -50,10 +70,6 @@ Describes lighting block (PB scripting interface)
 > True if the block has been removed from the world.  
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
-
-[Color Color { get; set; }](Sandbox.ModAPI.Ingame.IMyLightingBlock.Color)
-
-> Gets or sets the color of the light.
 
 [MyEntityComponentContainer Components { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Components)
 
@@ -133,19 +149,11 @@ Describes lighting block (PB scripting interface)
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
-[float Falloff { get; set; }](Sandbox.ModAPI.Ingame.IMyLightingBlock.Falloff)
-
-> Gets or sets the current falloff of the light.
-
 [bool HasInventory { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.HasInventory)
 
 > Returns true if this entity has got at least one inventory. Note that one aggregate inventory can contain zero simple inventories => zero will be returned even if GetInventory() != null.  
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
-
-[float Intensity { get; set; }](Sandbox.ModAPI.Ingame.IMyLightingBlock.Intensity)
-
-> Gets or sets the current intensity of the light.
 
 [int InventoryCount { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.InventoryCount)
 
@@ -218,14 +226,6 @@ Describes lighting block (PB scripting interface)
 > Position in grid coordinates  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[float Radius { get; set; }](Sandbox.ModAPI.Ingame.IMyLightingBlock.Radius)
-
-> Gets or sets the basic radius of the light.
-
-[float ReflectorRadius { get; }](Sandbox.ModAPI.Ingame.IMyLightingBlock.ReflectorRadius)
-
-> _**Obsolete:** Use Radius_
 
 [bool ShowInInventory { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)
 

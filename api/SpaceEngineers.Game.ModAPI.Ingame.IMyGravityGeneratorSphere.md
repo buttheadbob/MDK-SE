@@ -21,6 +21,10 @@ public interface IMyGravityGeneratorSphere: IMyGravityGeneratorBase, IMyFunction
 
 #### Properties
 
+[float Radius { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorSphere.Radius)
+
+> Radius of the gravity field, in meters
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -202,10 +206,6 @@ public interface IMyGravityGeneratorSphere: IMyGravityGeneratorBase, IMyFunction
 > Position in grid coordinates  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[float Radius { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorSphere.Radius)
-
-> Radius of the gravity field, in meters
 
 [bool ShowInInventory { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)
 

@@ -22,6 +22,18 @@ Describes Warhead block (PB scripting interface)
 
 #### Properties
 
+[float DetonationTime { get; set; }](Sandbox.ModAPI.Ingame.IMyWarhead.DetonationTime)
+
+> Gets actual detonation time [s]
+
+[bool IsArmed { get; set; }](Sandbox.ModAPI.Ingame.IMyWarhead.IsArmed)
+
+> Gets or sets whether this warhead block is armed
+
+[bool IsCountingDown { get; }](Sandbox.ModAPI.Ingame.IMyWarhead.IsCountingDown)
+
+> Gets whether this warhead block is counting down
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -82,10 +94,6 @@ Describes Warhead block (PB scripting interface)
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[float DetonationTime { get; set; }](Sandbox.ModAPI.Ingame.IMyWarhead.DetonationTime)
-
-> Gets actual detonation time [s]
-
 [float DisassembleRatio { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.DisassembleRatio)
 
 > Is set in definition Ratio at which is the block disassembled (grinding) Bigger values - longer grinding  
@@ -122,19 +130,11 @@ Describes Warhead block (PB scripting interface)
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
-[bool IsArmed { get; set; }](Sandbox.ModAPI.Ingame.IMyWarhead.IsArmed)
-
-> Gets or sets whether this warhead block is armed
-
 [bool IsBeingHacked { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.IsBeingHacked)
 
 > Hacking of the block is in progress  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[bool IsCountingDown { get; }](Sandbox.ModAPI.Ingame.IMyWarhead.IsCountingDown)
-
-> Gets whether this warhead block is counting down
 
 [bool IsFunctional { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.IsFunctional)
 
@@ -256,6 +256,14 @@ Describes Warhead block (PB scripting interface)
 
 > Detonates the warhead
 
+[bool StartCountdown()](Sandbox.ModAPI.Ingame.IMyWarhead.StartCountdown)
+
+> Start the countdown
+
+[bool StopCountdown()](Sandbox.ModAPI.Ingame.IMyWarhead.StopCountdown)
+
+> Stops the countdown
+
 [void GetActions(List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)
 
 > Get all terminal actions available for block  
@@ -359,14 +367,6 @@ Describes Warhead block (PB scripting interface)
 > _**Obsolete:** Use the setter of Customname_  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[bool StartCountdown()](Sandbox.ModAPI.Ingame.IMyWarhead.StartCountdown)
-
-> Start the countdown
-
-[bool StopCountdown()](Sandbox.ModAPI.Ingame.IMyWarhead.StopCountdown)
-
-> Stops the countdown
 
 [void UpdateIsWorking()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.UpdateIsWorking)
 

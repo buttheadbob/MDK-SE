@@ -23,6 +23,30 @@ Describes production block (assembler/refinery/survival kit) (PB scripting inter
 
 #### Properties
 
+[IMyInventory InputInventory { get; }](Sandbox.ModAPI.Ingame.IMyProductionBlock.InputInventory)
+
+> Gets the input inventory.
+
+[bool IsProducing { get; }](Sandbox.ModAPI.Ingame.IMyProductionBlock.IsProducing)
+
+> Gets whether block is currently producing.
+
+[bool IsQueueEmpty { get; }](Sandbox.ModAPI.Ingame.IMyProductionBlock.IsQueueEmpty)
+
+> Gets whether production queue is empty.
+
+[uint NextItemId { get; }](Sandbox.ModAPI.Ingame.IMyProductionBlock.NextItemId)
+
+> Gets the queue item ID of the next item to be produced.
+
+[IMyInventory OutputInventory { get; }](Sandbox.ModAPI.Ingame.IMyProductionBlock.OutputInventory)
+
+> Gets the output inventory.
+
+[bool UseConveyorSystem { get; set; }](Sandbox.ModAPI.Ingame.IMyProductionBlock.UseConveyorSystem)
+
+> Gets or sets whether this device should use the conveyor system to retrieve and store items.
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -119,10 +143,6 @@ Describes production block (assembler/refinery/survival kit) (PB scripting inter
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
-[IMyInventory InputInventory { get; }](Sandbox.ModAPI.Ingame.IMyProductionBlock.InputInventory)
-
-> Gets the input inventory.
-
 [int InventoryCount { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.InventoryCount)
 
 > Returns the count of the number of inventories this entity has.  
@@ -140,14 +160,6 @@ Describes production block (assembler/refinery/survival kit) (PB scripting inter
 > Gets if integrity is above breaking threshold  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[bool IsProducing { get; }](Sandbox.ModAPI.Ingame.IMyProductionBlock.IsProducing)
-
-> Gets whether block is currently producing.
-
-[bool IsQueueEmpty { get; }](Sandbox.ModAPI.Ingame.IMyProductionBlock.IsQueueEmpty)
-
-> Gets whether production queue is empty.
 
 [bool IsWorking { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.IsWorking)
 
@@ -179,10 +191,6 @@ Describes production block (assembler/refinery/survival kit) (PB scripting inter
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
-[uint NextItemId { get; }](Sandbox.ModAPI.Ingame.IMyProductionBlock.NextItemId)
-
-> Gets the queue item ID of the next item to be produced.
-
 [int NumberInGrid { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.NumberInGrid)
 
 > Order in which were the blocks of same type added to grid Used in default display name  
@@ -194,10 +202,6 @@ Describes production block (assembler/refinery/survival kit) (PB scripting inter
 > Returns block orientation in base 6 directions  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[IMyInventory OutputInventory { get; }](Sandbox.ModAPI.Ingame.IMyProductionBlock.OutputInventory)
-
-> Gets the output inventory.
 
 [long OwnerId { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.OwnerId)
 
@@ -234,10 +238,6 @@ Describes production block (assembler/refinery/survival kit) (PB scripting inter
 > Represent terminal gui toggle `Show On HUD`. Gets or sets its value  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[bool UseConveyorSystem { get; set; }](Sandbox.ModAPI.Ingame.IMyProductionBlock.UseConveyorSystem)
-
-> Gets or sets whether this device should use the conveyor system to retrieve and store items.
 
 [BoundingBoxD WorldAABB { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)
 
@@ -290,6 +290,38 @@ Describes production block (assembler/refinery/survival kit) (PB scripting inter
 [void ClearQueue()](Sandbox.ModAPI.Ingame.IMyProductionBlock.ClearQueue)
 
 > Clears the Queue
+
+[void GetQueue(List&lt;MyProductionItem&gt; items)](Sandbox.ModAPI.Ingame.IMyProductionBlock.GetQueue)
+
+> Gets the current production queue
+
+[void InsertQueueItem(int idx, MyDefinitionId blueprint, MyFixedPoint amount)](Sandbox.ModAPI.Ingame.IMyProductionBlock.InsertQueueItem)
+
+> Inserts a blueprint into the production queue
+
+[void InsertQueueItem(int idx, MyDefinitionId blueprint, decimal amount)](Sandbox.ModAPI.Ingame.IMyProductionBlock.InsertQueueItem)
+
+> Inserts a blueprint into the production queue
+
+[void InsertQueueItem(int idx, MyDefinitionId blueprint, double amount)](Sandbox.ModAPI.Ingame.IMyProductionBlock.InsertQueueItem)
+
+> Inserts a blueprint into the production queue
+
+[void MoveQueueItemRequest(uint queueItemId, int targetIdx)](Sandbox.ModAPI.Ingame.IMyProductionBlock.MoveQueueItemRequest)
+
+> Moves an item in the queue to a target position in the queue.
+
+[void RemoveQueueItem(int idx, MyFixedPoint amount)](Sandbox.ModAPI.Ingame.IMyProductionBlock.RemoveQueueItem)
+
+> Removes an item from the queue
+
+[void RemoveQueueItem(int idx, decimal amount)](Sandbox.ModAPI.Ingame.IMyProductionBlock.RemoveQueueItem)
+
+> Removes an item from the queue
+
+[void RemoveQueueItem(int idx, double amount)](Sandbox.ModAPI.Ingame.IMyProductionBlock.RemoveQueueItem)
+
+> Removes an item from the queue
 
 [void GetActions(List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)
 
@@ -347,10 +379,6 @@ Describes production block (assembler/refinery/survival kit) (PB scripting inter
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[void GetQueue(List&lt;MyProductionItem&gt; items)](Sandbox.ModAPI.Ingame.IMyProductionBlock.GetQueue)
-
-> Gets the current production queue
-
 [MyRelationsBetweenPlayerAndBlock GetUserRelationToOwner(long playerId, MyRelationsBetweenPlayerAndBlock defaultNoUser = MyRelationsBetweenPlayerAndBlock.NoOwnership)](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetUserRelationToOwner)
 
 > Gets relation to owner of block  
@@ -369,18 +397,6 @@ Describes production block (assembler/refinery/survival kit) (PB scripting inter
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[void InsertQueueItem(int idx, MyDefinitionId blueprint, MyFixedPoint amount)](Sandbox.ModAPI.Ingame.IMyProductionBlock.InsertQueueItem)
-
-> Inserts a blueprint into the production queue
-
-[void InsertQueueItem(int idx, MyDefinitionId blueprint, decimal amount)](Sandbox.ModAPI.Ingame.IMyProductionBlock.InsertQueueItem)
-
-> Inserts a blueprint into the production queue
-
-[void InsertQueueItem(int idx, MyDefinitionId blueprint, double amount)](Sandbox.ModAPI.Ingame.IMyProductionBlock.InsertQueueItem)
-
-> Inserts a blueprint into the production queue
-
 [bool IsSameConstructAs(IMyTerminalBlock other)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.IsSameConstructAs)
 
 > Determines whether this block is [VRage.Game.ModAPI.GridLinkTypeEnum.Mechanical](https://docs.microsoft.com/en-us/dotnet/api/vrage.game.modapi.gridlinktypeenum.mechanical?view=netframework-4.6) connected to the other. This is any block connected with rotors or pistons or other mechanical devices, but not things like connectors. This will in most cases constitute your complete construct.    
@@ -388,22 +404,6 @@ Describes production block (assembler/refinery/survival kit) (PB scripting inter
 > Be aware that using merge blocks combines grids into one, so this function will not filter out grids connected that way. Also be aware that detaching the heads of pistons and rotors will cause this connection to change.  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[void MoveQueueItemRequest(uint queueItemId, int targetIdx)](Sandbox.ModAPI.Ingame.IMyProductionBlock.MoveQueueItemRequest)
-
-> Moves an item in the queue to a target position in the queue.
-
-[void RemoveQueueItem(int idx, MyFixedPoint amount)](Sandbox.ModAPI.Ingame.IMyProductionBlock.RemoveQueueItem)
-
-> Removes an item from the queue
-
-[void RemoveQueueItem(int idx, decimal amount)](Sandbox.ModAPI.Ingame.IMyProductionBlock.RemoveQueueItem)
-
-> Removes an item from the queue
-
-[void RemoveQueueItem(int idx, double amount)](Sandbox.ModAPI.Ingame.IMyProductionBlock.RemoveQueueItem)
-
-> Removes an item from the queue
 
 [void RequestEnable(bool enable)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)
 

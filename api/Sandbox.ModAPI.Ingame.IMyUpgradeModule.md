@@ -24,6 +24,14 @@ Describes upgrade module block (PB scripting interface)
 
 #### Properties
 
+[uint Connections { get; }](Sandbox.ModAPI.Ingame.IMyUpgradeModule.Connections)
+
+> Gets number of blocks this block is connected to
+
+[uint UpgradeCount { get; }](Sandbox.ModAPI.Ingame.IMyUpgradeModule.UpgradeCount)
+
+> Gets number of upgrade effects this block has
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -41,10 +49,6 @@ Describes upgrade module block (PB scripting interface)
 > Gets blocks component logic container  
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
-
-[uint Connections { get; }](Sandbox.ModAPI.Ingame.IMyUpgradeModule.Connections)
-
-> Gets number of blocks this block is connected to
 
 [IMyCubeGrid CubeGrid { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.CubeGrid)
 
@@ -220,10 +224,6 @@ Describes upgrade module block (PB scripting interface)
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[uint UpgradeCount { get; }](Sandbox.ModAPI.Ingame.IMyUpgradeModule.UpgradeCount)
-
-> Gets number of upgrade effects this block has
-
 [BoundingBoxD WorldAABB { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)
 
 > Gets world axis-aligned bounding box  
@@ -255,6 +255,10 @@ Describes upgrade module block (PB scripting interface)
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
 #### Methods
+
+[void GetUpgradeList(out List&lt;MyUpgradeModuleInfo&gt; upgrades)](Sandbox.ModAPI.Ingame.IMyUpgradeModule.GetUpgradeList)
+
+> Gets list of upgrades from this block, see [VRage.Game.ObjectBuilders.Definitions.MyUpgradeModuleInfo](https://docs.microsoft.com/en-us/dotnet/api/vrage.game.objectbuilders.definitions.myupgrademoduleinfo?view=netframework-4.6) for details
 
 [void GetActions(List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)
 
@@ -311,10 +315,6 @@ Describes upgrade module block (PB scripting interface)
 > Finds terminal property with provided id  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[void GetUpgradeList(out List&lt;MyUpgradeModuleInfo&gt; upgrades)](Sandbox.ModAPI.Ingame.IMyUpgradeModule.GetUpgradeList)
-
-> Gets list of upgrades from this block, see [VRage.Game.ObjectBuilders.Definitions.MyUpgradeModuleInfo](https://docs.microsoft.com/en-us/dotnet/api/vrage.game.objectbuilders.definitions.myupgrademoduleinfo?view=netframework-4.6) for details
 
 [MyRelationsBetweenPlayerAndBlock GetUserRelationToOwner(long playerId, MyRelationsBetweenPlayerAndBlock defaultNoUser = MyRelationsBetweenPlayerAndBlock.NoOwnership)](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetUserRelationToOwner)
 

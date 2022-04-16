@@ -30,6 +30,10 @@ Describes reactor block (PB scripting interface)
 
 #### Properties
 
+[bool UseConveyorSystem { get; set; }](Sandbox.ModAPI.Ingame.IMyReactor.UseConveyorSystem)
+
+> Gets or sets whether this reactor block should pull items from conveyor system
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -233,10 +237,6 @@ Describes reactor block (PB scripting interface)
 > Represent terminal gui toggle `Show On HUD`. Gets or sets its value  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[bool UseConveyorSystem { get; set; }](Sandbox.ModAPI.Ingame.IMyReactor.UseConveyorSystem)
-
-> Gets or sets whether this reactor block should pull items from conveyor system
 
 [BoundingBoxD WorldAABB { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)
 

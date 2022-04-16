@@ -27,15 +27,91 @@ Describes sensor block (PB scripting interface)
 
 > Gets or sets the back range of the sensor.
 
+[float BottomExtend { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.BottomExtend)
+
+> Gets or sets the bottom range of the sensor.
+
+[bool DetectAsteroids { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectAsteroids)
+
+> Gets or sets if the sensor should detect asteroids or planets.
+
+[bool DetectEnemy { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectEnemy)
+
+> Gets or sets if the sensor should detect enemy players.
+
+[bool DetectFloatingObjects { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectFloatingObjects)
+
+> Gets or sets if the sensor should detect floating objects (components, rocks).
+
+[bool DetectFriendly { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectFriendly)
+
+> Gets or sets if the sensor should detect friendly players.
+
+[bool DetectLargeShips { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectLargeShips)
+
+> Gets or sets if the sensor should detect large ships.
+
+[bool DetectNeutral { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectNeutral)
+
+> Gets or sets if the sensor should detect neutral players.
+
+[bool DetectOwner { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectOwner)
+
+> Gets or sets if the sensor should detect the block owner.
+
+[bool DetectPlayers { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectPlayers)
+
+> Gets or sets if the sensor should detect players.
+
+[bool DetectSmallShips { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectSmallShips)
+
+> Gets or sets if the sensor should detect small ships.
+
+[bool DetectStations { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectStations)
+
+> Gets or sets if the sensor should detect large stations.
+
+[bool DetectSubgrids { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectSubgrids)
+
+> Gets or sets if the sensor should detect subgrids (eg. connected by connector).
+
+[float FrontExtend { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.FrontExtend)
+
+> Gets or sets the front range of the sensor.
+
+[bool IsActive { get; }](Sandbox.ModAPI.Ingame.IMySensorBlock.IsActive)
+
+> Gets if there is any entity currently being detected.
+
+[MyDetectedEntityInfo LastDetectedEntity { get; }](Sandbox.ModAPI.Ingame.IMySensorBlock.LastDetectedEntity)
+
+> 
+
+[float LeftExtend { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.LeftExtend)
+
+> Gets or sets the left range of the sensor.
+
+[float MaxRange { get; }](Sandbox.ModAPI.Ingame.IMySensorBlock.MaxRange)
+
+> Gets the maximum range of the sensor in any direction.
+
+[bool PlayProximitySound { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.PlayProximitySound)
+
+> Gets or sets if the proximity sound plays when an entity is detected.
+
+[float RightExtend { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.RightExtend)
+
+> Gets or sets the right range of the sensor.
+
+[float TopExtend { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.TopExtend)
+
+> Gets or sets the top range of the sensor.
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[float BottomExtend { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.BottomExtend)
-
-> Gets or sets the bottom range of the sensor.
 
 [bool Closed { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Closed)
 
@@ -91,50 +167,6 @@ Describes sensor block (PB scripting interface)
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[bool DetectAsteroids { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectAsteroids)
-
-> Gets or sets if the sensor should detect asteroids or planets.
-
-[bool DetectEnemy { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectEnemy)
-
-> Gets or sets if the sensor should detect enemy players.
-
-[bool DetectFloatingObjects { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectFloatingObjects)
-
-> Gets or sets if the sensor should detect floating objects (components, rocks).
-
-[bool DetectFriendly { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectFriendly)
-
-> Gets or sets if the sensor should detect friendly players.
-
-[bool DetectLargeShips { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectLargeShips)
-
-> Gets or sets if the sensor should detect large ships.
-
-[bool DetectNeutral { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectNeutral)
-
-> Gets or sets if the sensor should detect neutral players.
-
-[bool DetectOwner { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectOwner)
-
-> Gets or sets if the sensor should detect the block owner.
-
-[bool DetectPlayers { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectPlayers)
-
-> Gets or sets if the sensor should detect players.
-
-[bool DetectSmallShips { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectSmallShips)
-
-> Gets or sets if the sensor should detect small ships.
-
-[bool DetectStations { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectStations)
-
-> Gets or sets if the sensor should detect large stations.
-
-[bool DetectSubgrids { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.DetectSubgrids)
-
-> Gets or sets if the sensor should detect subgrids (eg. connected by connector).
-
 [float DisassembleRatio { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.DisassembleRatio)
 
 > Is set in definition Ratio at which is the block disassembled (grinding) Bigger values - longer grinding  
@@ -165,10 +197,6 @@ Describes sensor block (PB scripting interface)
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
-[float FrontExtend { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.FrontExtend)
-
-> Gets or sets the front range of the sensor.
-
 [bool HasInventory { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.HasInventory)
 
 > Returns true if this entity has got at least one inventory. Note that one aggregate inventory can contain zero simple inventories => zero will be returned even if GetInventory() != null.  
@@ -180,10 +208,6 @@ Describes sensor block (PB scripting interface)
 > Returns the count of the number of inventories this entity has.  
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
-
-[bool IsActive { get; }](Sandbox.ModAPI.Ingame.IMySensorBlock.IsActive)
-
-> Gets if there is any entity currently being detected.
 
 [bool IsBeingHacked { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.IsBeingHacked)
 
@@ -203,14 +227,6 @@ Describes sensor block (PB scripting interface)
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[MyDetectedEntityInfo LastDetectedEntity { get; }](Sandbox.ModAPI.Ingame.IMySensorBlock.LastDetectedEntity)
-
-> 
-
-[float LeftExtend { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.LeftExtend)
-
-> Gets or sets the left range of the sensor.
-
 [float Mass { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.Mass)
 
 > Block mass  
@@ -222,10 +238,6 @@ Describes sensor block (PB scripting interface)
 > Maximum coordinates of grid cells occupied by this block  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[float MaxRange { get; }](Sandbox.ModAPI.Ingame.IMySensorBlock.MaxRange)
-
-> Gets the maximum range of the sensor in any direction.
 
 [Vector3I Min { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.Min)
 
@@ -257,19 +269,11 @@ Describes sensor block (PB scripting interface)
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[bool PlayProximitySound { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.PlayProximitySound)
-
-> Gets or sets if the proximity sound plays when an entity is detected.
-
 [Vector3I Position { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.Position)
 
 > Position in grid coordinates  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[float RightExtend { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.RightExtend)
-
-> Gets or sets the right range of the sensor.
 
 [bool ShowInInventory { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)
 
@@ -294,10 +298,6 @@ Describes sensor block (PB scripting interface)
 > Represent terminal gui toggle `Show On HUD`. Gets or sets its value  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[float TopExtend { get; set; }](Sandbox.ModAPI.Ingame.IMySensorBlock.TopExtend)
-
-> Gets or sets the top range of the sensor.
 
 [BoundingBoxD WorldAABB { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)
 

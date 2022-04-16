@@ -21,6 +21,22 @@ public interface IMyGravityGenerator: IMyGravityGeneratorBase, IMyFunctionalBloc
 
 #### Properties
 
+[float FieldDepth { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGenerator.FieldDepth)
+
+> _**Obsolete:** Use FieldSize.Z_
+
+[float FieldHeight { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGenerator.FieldHeight)
+
+> _**Obsolete:** Use FieldSize.Y_
+
+[Vector3 FieldSize { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGenerator.FieldSize)
+
+> Gets or sets the gravity field as a Vector3(W,H,D).
+
+[float FieldWidth { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGenerator.FieldWidth)
+
+> _**Obsolete:** Use FieldSize.X_
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -110,22 +126,6 @@ public interface IMyGravityGenerator: IMyGravityGeneratorBase, IMyFunctionalBloc
 > Id of entity  
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
-
-[float FieldDepth { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGenerator.FieldDepth)
-
-> _**Obsolete:** Use FieldSize.Z_
-
-[float FieldHeight { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGenerator.FieldHeight)
-
-> _**Obsolete:** Use FieldSize.Y_
-
-[Vector3 FieldSize { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGenerator.FieldSize)
-
-> Gets or sets the gravity field as a Vector3(W,H,D).
-
-[float FieldWidth { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGenerator.FieldWidth)
-
-> _**Obsolete:** Use FieldSize.X_
 
 [float Gravity { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorBase.Gravity)
 

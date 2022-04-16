@@ -22,6 +22,14 @@ public interface IMyShipMergeBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCub
 
 #### Properties
 
+[bool IsConnected { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyShipMergeBlock.IsConnected)
+
+> Gets if the merge block is locked to another one.
+
+[MergeState State { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyShipMergeBlock.State)
+
+> State of the merge block
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -130,10 +138,6 @@ public interface IMyShipMergeBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCub
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[bool IsConnected { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyShipMergeBlock.IsConnected)
-
-> Gets if the merge block is locked to another one.
-
 [bool IsFunctional { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.IsFunctional)
 
 > Gets if integrity is above breaking threshold  
@@ -217,10 +221,6 @@ public interface IMyShipMergeBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCub
 > Represent terminal gui toggle `Show On HUD`. Gets or sets its value  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[MergeState State { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyShipMergeBlock.State)
-
-> State of the merge block
 
 [BoundingBoxD WorldAABB { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)
 

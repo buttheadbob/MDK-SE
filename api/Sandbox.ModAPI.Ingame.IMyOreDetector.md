@@ -23,15 +23,19 @@ Describes ore detector block (PB scripting interface)(mods interface)
 
 #### Properties
 
+[bool BroadcastUsingAntennas { get; set; }](Sandbox.ModAPI.Ingame.IMyOreDetector.BroadcastUsingAntennas)
+
+> Gets or sets whether block should use antennas to broadcast ore deposits
+
+[float Range { get; }](Sandbox.ModAPI.Ingame.IMyOreDetector.Range)
+
+> Gets ore detection range in meters
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[bool BroadcastUsingAntennas { get; set; }](Sandbox.ModAPI.Ingame.IMyOreDetector.BroadcastUsingAntennas)
-
-> Gets or sets whether block should use antennas to broadcast ore deposits
 
 [bool Closed { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Closed)
 
@@ -194,10 +198,6 @@ Describes ore detector block (PB scripting interface)(mods interface)
 > Position in grid coordinates  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[float Range { get; }](Sandbox.ModAPI.Ingame.IMyOreDetector.Range)
-
-> Gets ore detection range in meters
 
 [bool ShowInInventory { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)
 

@@ -24,6 +24,14 @@ Describes power producer block (PB scripting interface)
 
 #### Properties
 
+[float CurrentOutput { get; }](Sandbox.ModAPI.Ingame.IMyPowerProducer.CurrentOutput)
+
+> Gets current output in Megawatts
+
+[float MaxOutput { get; }](Sandbox.ModAPI.Ingame.IMyPowerProducer.MaxOutput)
+
+> Gets maximum output in Megawatts
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -47,10 +55,6 @@ Describes power producer block (PB scripting interface)
 > Grid in which the block is placed  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[float CurrentOutput { get; }](Sandbox.ModAPI.Ingame.IMyPowerProducer.CurrentOutput)
-
-> Gets current output in Megawatts
 
 [string CustomData { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomData)
 
@@ -159,10 +163,6 @@ Describes power producer block (PB scripting interface)
 > Maximum coordinates of grid cells occupied by this block  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[float MaxOutput { get; }](Sandbox.ModAPI.Ingame.IMyPowerProducer.MaxOutput)
-
-> Gets maximum output in Megawatts
 
 [Vector3I Min { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.Min)
 

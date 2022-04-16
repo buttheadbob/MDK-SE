@@ -23,6 +23,14 @@ Beacon block interface (PB scripting interface)
 
 #### Properties
 
+[string HudText { get; set; }](Sandbox.ModAPI.Ingame.IMyBeacon.HudText)
+
+> Gets or sets the text to display on the HUD when the beacon is on.
+
+[float Radius { get; set; }](Sandbox.ModAPI.Ingame.IMyBeacon.Radius)
+
+> Broadcasting range (read-only)
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -119,10 +127,6 @@ Beacon block interface (PB scripting interface)
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
-[string HudText { get; set; }](Sandbox.ModAPI.Ingame.IMyBeacon.HudText)
-
-> Gets or sets the text to display on the HUD when the beacon is on.
-
 [int InventoryCount { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.InventoryCount)
 
 > Returns the count of the number of inventories this entity has.  
@@ -194,10 +198,6 @@ Beacon block interface (PB scripting interface)
 > Position in grid coordinates  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[float Radius { get; set; }](Sandbox.ModAPI.Ingame.IMyBeacon.Radius)
-
-> Broadcasting range (read-only)
 
 [bool ShowInInventory { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)
 

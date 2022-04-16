@@ -95,6 +95,10 @@ Describes functional block (block with Enabled/Disabled toggle) (PB scripting in
 
 #### Properties
 
+[bool Enabled { get; set; }](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.Enabled)
+
+> Represents terminal gui toggle. Gets or sets if block is Enabled
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -172,10 +176,6 @@ Describes functional block (block with Enabled/Disabled toggle) (PB scripting in
 > Translated block name  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[bool Enabled { get; set; }](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.Enabled)
-
-> Represents terminal gui toggle. Gets or sets if block is Enabled
 
 [long EntityId { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.EntityId)
 
@@ -317,6 +317,10 @@ Describes functional block (block with Enabled/Disabled toggle) (PB scripting in
 
 #### Methods
 
+[void RequestEnable(bool enable)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)
+
+> _**Obsolete:** Use the setter of Enabled_
+
 [void GetActions(List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)
 
 > Get all terminal actions available for block  
@@ -398,10 +402,6 @@ Describes functional block (block with Enabled/Disabled toggle) (PB scripting in
 > Be aware that using merge blocks combines grids into one, so this function will not filter out grids connected that way. Also be aware that detaching the heads of pistons and rotors will cause this connection to change.  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[void RequestEnable(bool enable)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)
-
-> _**Obsolete:** Use the setter of Enabled_
 
 [void SearchActionsOfName(string name, List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SearchActionsOfName)
 

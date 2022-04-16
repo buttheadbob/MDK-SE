@@ -23,6 +23,10 @@ Describes any virtual mass block (PB Scripting interface)
 
 #### Properties
 
+[float VirtualMass { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyVirtualMass.VirtualMass)
+
+> Gets virtual mass
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -214,10 +218,6 @@ Describes any virtual mass block (PB Scripting interface)
 > Represent terminal gui toggle `Show On HUD`. Gets or sets its value  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[float VirtualMass { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyVirtualMass.VirtualMass)
-
-> Gets virtual mass
 
 [BoundingBoxD WorldAABB { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)
 

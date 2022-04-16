@@ -24,6 +24,10 @@ Describes ship welder interface (PB scripting interface)
 
 #### Properties
 
+[bool HelpOthers { get; set; }](Sandbox.ModAPI.Ingame.IMyShipWelder.HelpOthers)
+
+> Gets and sets whether this welder can help other welders
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -119,10 +123,6 @@ Describes ship welder interface (PB scripting interface)
 > Returns true if this entity has got at least one inventory. Note that one aggregate inventory can contain zero simple inventories => zero will be returned even if GetInventory() != null.  
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
-
-[bool HelpOthers { get; set; }](Sandbox.ModAPI.Ingame.IMyShipWelder.HelpOthers)
-
-> Gets and sets whether this welder can help other welders
 
 [int InventoryCount { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.InventoryCount)
 

@@ -28,12 +28,6 @@ Describes ship controller block (cockpit/remote control/cryopod) (PB scripting i
 
 #### Properties
 
-[SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
-
-> Gets definition.Id assigned to this block  
->   
-> _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
 [bool CanControlShip { get; }](Sandbox.ModAPI.Ingame.IMyShipController.CanControlShip)
 
 > Determines whether this specific ship controller is capable of controlling the ship it's installed on.
@@ -41,6 +35,56 @@ Describes ship controller block (cockpit/remote control/cryopod) (PB scripting i
 [Vector3D CenterOfMass { get; }](Sandbox.ModAPI.Ingame.IMyShipController.CenterOfMass)
 
 > Center of mass in world coordinates
+
+[bool ControlThrusters { get; set; }](Sandbox.ModAPI.Ingame.IMyShipController.ControlThrusters)
+
+> Gets or sets whether thrusters are being controlled by this controller.
+
+[bool ControlWheels { get; set; }](Sandbox.ModAPI.Ingame.IMyShipController.ControlWheels)
+
+> Gets or sets whether wheels are being controlled by this controller.
+
+[bool DampenersOverride { get; set; }](Sandbox.ModAPI.Ingame.IMyShipController.DampenersOverride)
+
+> Gets or sets whether dampeners are currently enabled.
+
+[bool HandBrake { get; set; }](Sandbox.ModAPI.Ingame.IMyShipController.HandBrake)
+
+> Gets or sets the current state of the handbrake.
+
+[bool HasWheels { get; }](Sandbox.ModAPI.Ingame.IMyShipController.HasWheels)
+
+> Determines whether there are any wheels on this ship.
+
+[bool IsMainCockpit { get; set; }](Sandbox.ModAPI.Ingame.IMyShipController.IsMainCockpit)
+
+> Gets or sets if this controller is the main one for current ship Setter checks if there is any other main cockpit on the ship before proceeding
+
+[bool IsUnderControl { get; }](Sandbox.ModAPI.Ingame.IMyShipController.IsUnderControl)
+
+> Indicates whether a block is locally or remotely controlled.
+
+[Vector3 MoveIndicator { get; }](Sandbox.ModAPI.Ingame.IMyShipController.MoveIndicator)
+
+> Directional input from user/autopilot. Values can be very large with high controller sensitivity
+
+[float RollIndicator { get; }](Sandbox.ModAPI.Ingame.IMyShipController.RollIndicator)
+
+> Roll input from user/autopilot. Values can be very large with high controller sensitivity
+
+[Vector2 RotationIndicator { get; }](Sandbox.ModAPI.Ingame.IMyShipController.RotationIndicator)
+
+> Pitch, yaw input from user/autopilot. Values can be very large with high controller sensitivity
+
+[bool ShowHorizonIndicator { get; set; }](Sandbox.ModAPI.Ingame.IMyShipController.ShowHorizonIndicator)
+
+> Gets or sets whether the horizon indicator should be displayed for this block.
+
+[SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
+
+> Gets definition.Id assigned to this block  
+>   
+> _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
 [bool Closed { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Closed)
 
@@ -53,14 +97,6 @@ Describes ship controller block (cockpit/remote control/cryopod) (PB scripting i
 > Gets blocks component logic container  
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
-
-[bool ControlThrusters { get; set; }](Sandbox.ModAPI.Ingame.IMyShipController.ControlThrusters)
-
-> Gets or sets whether thrusters are being controlled by this controller.
-
-[bool ControlWheels { get; set; }](Sandbox.ModAPI.Ingame.IMyShipController.ControlWheels)
-
-> Gets or sets whether wheels are being controlled by this controller.
 
 [IMyCubeGrid CubeGrid { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.CubeGrid)
 
@@ -91,10 +127,6 @@ Describes ship controller block (cockpit/remote control/cryopod) (PB scripting i
 > Gets or sets how block is named in Terminal menu. Work only for Cockpit, LaserAntenna RadioAntenna, SpaceBall, Beacon  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[bool DampenersOverride { get; set; }](Sandbox.ModAPI.Ingame.IMyShipController.DampenersOverride)
-
-> Gets or sets whether dampeners are currently enabled.
 
 [string DefinitionDisplayNameText { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.DefinitionDisplayNameText)
 
@@ -132,19 +164,11 @@ Describes ship controller block (cockpit/remote control/cryopod) (PB scripting i
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
-[bool HandBrake { get; set; }](Sandbox.ModAPI.Ingame.IMyShipController.HandBrake)
-
-> Gets or sets the current state of the handbrake.
-
 [bool HasInventory { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.HasInventory)
 
 > Returns true if this entity has got at least one inventory. Note that one aggregate inventory can contain zero simple inventories => zero will be returned even if GetInventory() != null.  
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
-
-[bool HasWheels { get; }](Sandbox.ModAPI.Ingame.IMyShipController.HasWheels)
-
-> Determines whether there are any wheels on this ship.
 
 [int InventoryCount { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.InventoryCount)
 
@@ -163,14 +187,6 @@ Describes ship controller block (cockpit/remote control/cryopod) (PB scripting i
 > Gets if integrity is above breaking threshold  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[bool IsMainCockpit { get; set; }](Sandbox.ModAPI.Ingame.IMyShipController.IsMainCockpit)
-
-> Gets or sets if this controller is the main one for current ship Setter checks if there is any other main cockpit on the ship before proceeding
-
-[bool IsUnderControl { get; }](Sandbox.ModAPI.Ingame.IMyShipController.IsUnderControl)
-
-> Indicates whether a block is locally or remotely controlled.
 
 [bool IsWorking { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.IsWorking)
 
@@ -195,10 +211,6 @@ Describes ship controller block (cockpit/remote control/cryopod) (PB scripting i
 > Minimum coordinates of grid cells occupied by this block  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[Vector3 MoveIndicator { get; }](Sandbox.ModAPI.Ingame.IMyShipController.MoveIndicator)
-
-> Directional input from user/autopilot. Values can be very large with high controller sensitivity
 
 [string Name { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Name)
 
@@ -229,18 +241,6 @@ Describes ship controller block (cockpit/remote control/cryopod) (PB scripting i
 > Position in grid coordinates  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[float RollIndicator { get; }](Sandbox.ModAPI.Ingame.IMyShipController.RollIndicator)
-
-> Roll input from user/autopilot. Values can be very large with high controller sensitivity
-
-[Vector2 RotationIndicator { get; }](Sandbox.ModAPI.Ingame.IMyShipController.RotationIndicator)
-
-> Pitch, yaw input from user/autopilot. Values can be very large with high controller sensitivity
-
-[bool ShowHorizonIndicator { get; set; }](Sandbox.ModAPI.Ingame.IMyShipController.ShowHorizonIndicator)
-
-> Gets or sets whether the horizon indicator should be displayed for this block.
 
 [bool ShowInInventory { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)
 
@@ -302,6 +302,34 @@ Describes ship controller block (cockpit/remote control/cryopod) (PB scripting i
 
 > Gets information about the current mass of the ship.
 
+[Vector3D GetArtificialGravity()](Sandbox.ModAPI.Ingame.IMyShipController.GetArtificialGravity)
+
+> Gets the detected artificial gravity vector and power at the current location.
+
+[Vector3D GetNaturalGravity()](Sandbox.ModAPI.Ingame.IMyShipController.GetNaturalGravity)
+
+> Gets the detected natural gravity vector and power at the current location.
+
+[double GetShipSpeed()](Sandbox.ModAPI.Ingame.IMyShipController.GetShipSpeed)
+
+> Gets the basic ship speed in meters per second, for when you just need to know how fast you're going.
+
+[MyShipVelocities GetShipVelocities()](Sandbox.ModAPI.Ingame.IMyShipController.GetShipVelocities)
+
+> Determines the linear velocities in meters per second and angular velocities in radians per second. Provides a more accurate representation of the directions and axis speeds.
+
+[Vector3D GetTotalGravity()](Sandbox.ModAPI.Ingame.IMyShipController.GetTotalGravity)
+
+> Gets the total accumulated gravity vector and power at the current location, taking both natural and artificial gravity into account.
+
+[bool TryGetPlanetElevation(MyPlanetElevation detail, out double elevation)](Sandbox.ModAPI.Ingame.IMyShipController.TryGetPlanetElevation)
+
+> Attempts to get the elevation of the ship in relation to the nearest planet. This method is only available when a ship is within the gravity well of a planet.
+
+[bool TryGetPlanetPosition(out Vector3D position)](Sandbox.ModAPI.Ingame.IMyShipController.TryGetPlanetPosition)
+
+> Attempts to get the world position of the nearest planet. This method is only available when a ship is within the gravity well of a planet.
+
 [void GetActions(List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)
 
 > Get all terminal actions available for block  
@@ -314,10 +342,6 @@ Describes ship controller block (cockpit/remote control/cryopod) (PB scripting i
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[Vector3D GetArtificialGravity()](Sandbox.ModAPI.Ingame.IMyShipController.GetArtificialGravity)
-
-> Gets the detected artificial gravity vector and power at the current location.
-
 [IMyInventory GetInventory()](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)
 
 > Simply get the MyInventoryBase component stored in this entity.  
@@ -329,10 +353,6 @@ Describes ship controller block (cockpit/remote control/cryopod) (PB scripting i
 > Search for inventory component with maching index.  
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
-
-[Vector3D GetNaturalGravity()](Sandbox.ModAPI.Ingame.IMyShipController.GetNaturalGravity)
-
-> Gets the detected natural gravity vector and power at the current location.
 
 [string GetOwnerFactionTag()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetOwnerFactionTag)
 
@@ -365,18 +385,6 @@ Describes ship controller block (cockpit/remote control/cryopod) (PB scripting i
 > Finds terminal property with provided id  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[double GetShipSpeed()](Sandbox.ModAPI.Ingame.IMyShipController.GetShipSpeed)
-
-> Gets the basic ship speed in meters per second, for when you just need to know how fast you're going.
-
-[MyShipVelocities GetShipVelocities()](Sandbox.ModAPI.Ingame.IMyShipController.GetShipVelocities)
-
-> Determines the linear velocities in meters per second and angular velocities in radians per second. Provides a more accurate representation of the directions and axis speeds.
-
-[Vector3D GetTotalGravity()](Sandbox.ModAPI.Ingame.IMyShipController.GetTotalGravity)
-
-> Gets the total accumulated gravity vector and power at the current location, taking both natural and artificial gravity into account.
 
 [MyRelationsBetweenPlayerAndBlock GetUserRelationToOwner(long playerId, MyRelationsBetweenPlayerAndBlock defaultNoUser = MyRelationsBetweenPlayerAndBlock.NoOwnership)](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetUserRelationToOwner)
 
@@ -425,14 +433,6 @@ Describes ship controller block (cockpit/remote control/cryopod) (PB scripting i
 > _**Obsolete:** Use the setter of Customname_  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[bool TryGetPlanetElevation(MyPlanetElevation detail, out double elevation)](Sandbox.ModAPI.Ingame.IMyShipController.TryGetPlanetElevation)
-
-> Attempts to get the elevation of the ship in relation to the nearest planet. This method is only available when a ship is within the gravity well of a planet.
-
-[bool TryGetPlanetPosition(out Vector3D position)](Sandbox.ModAPI.Ingame.IMyShipController.TryGetPlanetPosition)
-
-> Attempts to get the world position of the nearest planet. This method is only available when a ship is within the gravity well of a planet.
 
 [void UpdateIsWorking()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.UpdateIsWorking)
 

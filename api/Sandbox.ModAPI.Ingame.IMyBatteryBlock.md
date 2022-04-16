@@ -27,15 +27,51 @@ Describes battery block (PB scripting interface)
 
 #### Properties
 
+[ChargeMode ChargeMode { get; set; }](Sandbox.ModAPI.Ingame.IMyBatteryBlock.ChargeMode)
+
+> Gets or sets charge mode
+
+[float CurrentInput { get; }](Sandbox.ModAPI.Ingame.IMyBatteryBlock.CurrentInput)
+
+> Gets current power input
+
+[float CurrentStoredPower { get; }](Sandbox.ModAPI.Ingame.IMyBatteryBlock.CurrentStoredPower)
+
+> Gets current stored power
+
+[bool HasCapacityRemaining { get; }](Sandbox.ModAPI.Ingame.IMyBatteryBlock.HasCapacityRemaining)
+
+> Gets whether this battery block has any remaining capacity
+
+[bool IsCharging { get; }](Sandbox.ModAPI.Ingame.IMyBatteryBlock.IsCharging)
+
+> Gets whether this battery block is charging
+
+[float MaxInput { get; }](Sandbox.ModAPI.Ingame.IMyBatteryBlock.MaxInput)
+
+> Gets current maximum power input
+
+[float MaxStoredPower { get; }](Sandbox.ModAPI.Ingame.IMyBatteryBlock.MaxStoredPower)
+
+> Gets maximum stored power
+
+[bool OnlyDischarge { get; set; }](Sandbox.ModAPI.Ingame.IMyBatteryBlock.OnlyDischarge)
+
+> _**Obsolete:** Use ChargeMode instead_
+
+[bool OnlyRecharge { get; set; }](Sandbox.ModAPI.Ingame.IMyBatteryBlock.OnlyRecharge)
+
+> _**Obsolete:** Use ChargeMode instead_
+
+[bool SemiautoEnabled { get; set; }](Sandbox.ModAPI.Ingame.IMyBatteryBlock.SemiautoEnabled)
+
+> _**Obsolete:** Semi-auto is no longer a valid mode, if you want to check for Auto instead, use ChargeMode_
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[ChargeMode ChargeMode { get; set; }](Sandbox.ModAPI.Ingame.IMyBatteryBlock.ChargeMode)
-
-> Gets or sets charge mode
 
 [bool Closed { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Closed)
 
@@ -55,19 +91,11 @@ Describes battery block (PB scripting interface)
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[float CurrentInput { get; }](Sandbox.ModAPI.Ingame.IMyBatteryBlock.CurrentInput)
-
-> Gets current power input
-
 [float CurrentOutput { get; }](Sandbox.ModAPI.Ingame.IMyPowerProducer.CurrentOutput)
 
 > Gets current output in Megawatts  
 >   
 > _Inherited from [IMyPowerProducer](Sandbox.ModAPI.Ingame.IMyPowerProducer)_
-
-[float CurrentStoredPower { get; }](Sandbox.ModAPI.Ingame.IMyBatteryBlock.CurrentStoredPower)
-
-> Gets current stored power
 
 [string CustomData { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomData)
 
@@ -135,10 +163,6 @@ Describes battery block (PB scripting interface)
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
-[bool HasCapacityRemaining { get; }](Sandbox.ModAPI.Ingame.IMyBatteryBlock.HasCapacityRemaining)
-
-> Gets whether this battery block has any remaining capacity
-
 [bool HasInventory { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.HasInventory)
 
 > Returns true if this entity has got at least one inventory. Note that one aggregate inventory can contain zero simple inventories => zero will be returned even if GetInventory() != null.  
@@ -156,10 +180,6 @@ Describes battery block (PB scripting interface)
 > Hacking of the block is in progress  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[bool IsCharging { get; }](Sandbox.ModAPI.Ingame.IMyBatteryBlock.IsCharging)
-
-> Gets whether this battery block is charging
 
 [bool IsFunctional { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.IsFunctional)
 
@@ -185,19 +205,11 @@ Describes battery block (PB scripting interface)
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[float MaxInput { get; }](Sandbox.ModAPI.Ingame.IMyBatteryBlock.MaxInput)
-
-> Gets current maximum power input
-
 [float MaxOutput { get; }](Sandbox.ModAPI.Ingame.IMyPowerProducer.MaxOutput)
 
 > Gets maximum output in Megawatts  
 >   
 > _Inherited from [IMyPowerProducer](Sandbox.ModAPI.Ingame.IMyPowerProducer)_
-
-[float MaxStoredPower { get; }](Sandbox.ModAPI.Ingame.IMyBatteryBlock.MaxStoredPower)
-
-> Gets maximum stored power
 
 [Vector3I Min { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.Min)
 
@@ -217,14 +229,6 @@ Describes battery block (PB scripting interface)
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[bool OnlyDischarge { get; set; }](Sandbox.ModAPI.Ingame.IMyBatteryBlock.OnlyDischarge)
-
-> _**Obsolete:** Use ChargeMode instead_
-
-[bool OnlyRecharge { get; set; }](Sandbox.ModAPI.Ingame.IMyBatteryBlock.OnlyRecharge)
-
-> _**Obsolete:** Use ChargeMode instead_
-
 [MyBlockOrientation Orientation { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.Orientation)
 
 > Returns block orientation in base 6 directions  
@@ -242,10 +246,6 @@ Describes battery block (PB scripting interface)
 > Position in grid coordinates  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[bool SemiautoEnabled { get; set; }](Sandbox.ModAPI.Ingame.IMyBatteryBlock.SemiautoEnabled)
-
-> _**Obsolete:** Semi-auto is no longer a valid mode, if you want to check for Auto instead, use ChargeMode_
 
 [bool ShowInInventory { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)
 

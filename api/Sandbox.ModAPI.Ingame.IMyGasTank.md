@@ -35,15 +35,23 @@ Describes gas tank block (PB scripting interface)
 
 > Gets or sets whether storage bottles will be filled automatically when placed within this tank.
 
+[float Capacity { get; }](Sandbox.ModAPI.Ingame.IMyGasTank.Capacity)
+
+> Gets the gas capacity of this tank.
+
+[double FilledRatio { get; }](Sandbox.ModAPI.Ingame.IMyGasTank.FilledRatio)
+
+> Gets the current fill level of this tank as a value between 0 (empty) and 1 (full).
+
+[bool Stockpile { get; set; }](Sandbox.ModAPI.Ingame.IMyGasTank.Stockpile)
+
+> Gets or sets the stockpiling option for this gas tank. When stockpile is on, the tank will only allow itself to be filled, it will not release any gas.
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[float Capacity { get; }](Sandbox.ModAPI.Ingame.IMyGasTank.Capacity)
-
-> Gets the gas capacity of this tank.
 
 [bool Closed { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Closed)
 
@@ -128,10 +136,6 @@ Describes gas tank block (PB scripting interface)
 > Id of entity  
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
-
-[double FilledRatio { get; }](Sandbox.ModAPI.Ingame.IMyGasTank.FilledRatio)
-
-> Gets the current fill level of this tank as a value between 0 (empty) and 1 (full).
 
 [bool HasInventory { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.HasInventory)
 
@@ -235,10 +239,6 @@ Describes gas tank block (PB scripting interface)
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[bool Stockpile { get; set; }](Sandbox.ModAPI.Ingame.IMyGasTank.Stockpile)
-
-> Gets or sets the stockpiling option for this gas tank. When stockpile is on, the tank will only allow itself to be filled, it will not release any gas.
-
 [BoundingBoxD WorldAABB { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)
 
 > Gets world axis-aligned bounding box  
@@ -270,6 +270,10 @@ Describes gas tank block (PB scripting interface)
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
 #### Methods
+
+[void RefillBottles()](Sandbox.ModAPI.Ingame.IMyGasTank.RefillBottles)
+
+> Refills any stored storage bottles.
 
 [void GetActions(List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)
 
@@ -352,10 +356,6 @@ Describes gas tank block (PB scripting interface)
 > Be aware that using merge blocks combines grids into one, so this function will not filter out grids connected that way. Also be aware that detaching the heads of pistons and rotors will cause this connection to change.  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[void RefillBottles()](Sandbox.ModAPI.Ingame.IMyGasTank.RefillBottles)
-
-> Refills any stored storage bottles.
 
 [void RequestEnable(bool enable)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)
 

@@ -23,6 +23,10 @@ Describes collector block (PB scripting interface)
 
 #### Properties
 
+[bool UseConveyorSystem { get; set; }](Sandbox.ModAPI.Ingame.IMyCollector.UseConveyorSystem)
+
+> Gets or sets whether this collector block should push out items from it
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -214,10 +218,6 @@ Describes collector block (PB scripting interface)
 > Represent terminal gui toggle `Show On HUD`. Gets or sets its value  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[bool UseConveyorSystem { get; set; }](Sandbox.ModAPI.Ingame.IMyCollector.UseConveyorSystem)
-
-> Gets or sets whether this collector block should push out items from it
 
 [BoundingBoxD WorldAABB { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)
 

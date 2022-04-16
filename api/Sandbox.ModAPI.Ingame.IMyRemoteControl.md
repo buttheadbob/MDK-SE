@@ -23,6 +23,30 @@ Describes remote control block (PB scripting interface)
 
 #### Properties
 
+[MyWaypointInfo CurrentWaypoint { get; }](Sandbox.ModAPI.Ingame.IMyRemoteControl.CurrentWaypoint)
+
+> Gets the current target waypoint
+
+[Direction Direction { get; set; }](Sandbox.ModAPI.Ingame.IMyRemoteControl.Direction)
+
+> Gets or sets the current flight direction
+
+[FlightMode FlightMode { get; set; }](Sandbox.ModAPI.Ingame.IMyRemoteControl.FlightMode)
+
+> Gets or sets the current flight mode
+
+[bool IsAutoPilotEnabled { get; }](Sandbox.ModAPI.Ingame.IMyRemoteControl.IsAutoPilotEnabled)
+
+> Determines whether the autopilot is currently enabled.
+
+[float SpeedLimit { get; set; }](Sandbox.ModAPI.Ingame.IMyRemoteControl.SpeedLimit)
+
+> Gets or sets the autopilot speed limit
+
+[bool WaitForFreeWay { get; set; }](Sandbox.ModAPI.Ingame.IMyRemoteControl.WaitForFreeWay)
+
+> if true, if collision avoidance is on, autopilot will wait until path is clear to move forward.
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -71,10 +95,6 @@ Describes remote control block (PB scripting interface)
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[MyWaypointInfo CurrentWaypoint { get; }](Sandbox.ModAPI.Ingame.IMyRemoteControl.CurrentWaypoint)
-
-> Gets the current target waypoint
-
 [string CustomData { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomData)
 
 > Gets or sets the Custom Data string. NOTE: Only use this for user input. For storing large mod configs, create your own MyModStorageComponent  
@@ -117,10 +137,6 @@ Describes remote control block (PB scripting interface)
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[Direction Direction { get; set; }](Sandbox.ModAPI.Ingame.IMyRemoteControl.Direction)
-
-> Gets or sets the current flight direction
-
 [float DisassembleRatio { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.DisassembleRatio)
 
 > Is set in definition Ratio at which is the block disassembled (grinding) Bigger values - longer grinding  
@@ -145,10 +161,6 @@ Describes remote control block (PB scripting interface)
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
-[FlightMode FlightMode { get; set; }](Sandbox.ModAPI.Ingame.IMyRemoteControl.FlightMode)
-
-> Gets or sets the current flight mode
-
 [bool HandBrake { get; set; }](Sandbox.ModAPI.Ingame.IMyShipController.HandBrake)
 
 > Gets or sets the current state of the handbrake.  
@@ -172,10 +184,6 @@ Describes remote control block (PB scripting interface)
 > Returns the count of the number of inventories this entity has.  
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
-
-[bool IsAutoPilotEnabled { get; }](Sandbox.ModAPI.Ingame.IMyRemoteControl.IsAutoPilotEnabled)
-
-> Determines whether the autopilot is currently enabled.
 
 [bool IsBeingHacked { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.IsBeingHacked)
 
@@ -303,14 +311,6 @@ Describes remote control block (PB scripting interface)
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[float SpeedLimit { get; set; }](Sandbox.ModAPI.Ingame.IMyRemoteControl.SpeedLimit)
-
-> Gets or sets the autopilot speed limit
-
-[bool WaitForFreeWay { get; set; }](Sandbox.ModAPI.Ingame.IMyRemoteControl.WaitForFreeWay)
-
-> if true, if collision avoidance is on, autopilot will wait until path is clear to move forward.
-
 [BoundingBoxD WorldAABB { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)
 
 > Gets world axis-aligned bounding box  
@@ -351,15 +351,35 @@ Describes remote control block (PB scripting interface)
 
 > Adds a new waypoint.
 
+[void ClearWaypoints()](Sandbox.ModAPI.Ingame.IMyRemoteControl.ClearWaypoints)
+
+> Removes all existing waypoints.
+
+[bool GetNearestPlayer(out Vector3D playerPosition)](Sandbox.ModAPI.Ingame.IMyRemoteControl.GetNearestPlayer)
+
+> Gets the nearest player's position. Will only work if the remote control belongs to an NPC
+
+[void GetWaypointInfo(List&lt;MyWaypointInfo&gt; waypoints)](Sandbox.ModAPI.Ingame.IMyRemoteControl.GetWaypointInfo)
+
+> Gets basic information about the currently configured waypoints.
+
+[void SetAutoPilotEnabled(bool enabled)](Sandbox.ModAPI.Ingame.IMyRemoteControl.SetAutoPilotEnabled)
+
+> Enables or disables the autopilot.
+
+[void SetCollisionAvoidance(bool enabled)](Sandbox.ModAPI.Ingame.IMyRemoteControl.SetCollisionAvoidance)
+
+> Enables or disables collision avoidance.
+
+[void SetDockingMode(bool enabled)](Sandbox.ModAPI.Ingame.IMyRemoteControl.SetDockingMode)
+
+> Enables or disables docking mode.
+
 [MyShipMass CalculateShipMass()](Sandbox.ModAPI.Ingame.IMyShipController.CalculateShipMass)
 
 > Gets information about the current mass of the ship.  
 >   
 > _Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_
-
-[void ClearWaypoints()](Sandbox.ModAPI.Ingame.IMyRemoteControl.ClearWaypoints)
-
-> Removes all existing waypoints.
 
 [void GetActions(List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)
 
@@ -396,10 +416,6 @@ Describes remote control block (PB scripting interface)
 > Gets the detected natural gravity vector and power at the current location.  
 >   
 > _Inherited from [IMyShipController](Sandbox.ModAPI.Ingame.IMyShipController)_
-
-[bool GetNearestPlayer(out Vector3D playerPosition)](Sandbox.ModAPI.Ingame.IMyRemoteControl.GetNearestPlayer)
-
-> Gets the nearest player's position. Will only work if the remote control belongs to an NPC
 
 [string GetOwnerFactionTag()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetOwnerFactionTag)
 
@@ -457,10 +473,6 @@ Describes remote control block (PB scripting interface)
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[void GetWaypointInfo(List&lt;MyWaypointInfo&gt; waypoints)](Sandbox.ModAPI.Ingame.IMyRemoteControl.GetWaypointInfo)
-
-> Gets basic information about the currently configured waypoints.
-
 [bool HasLocalPlayerAccess()](Sandbox.ModAPI.Ingame.IMyTerminalBlock.HasLocalPlayerAccess)
 
 > Returns if local player can use block. Executes [HasPlayerAccess(long, MyRelationsBetweenPlayerAndBlock = MyRelationsBetweenPlayerAndBlock.NoOwnership)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.HasPlayerAccess) with local player identityId. On Dedicated Server as identityId it is using 0 as playerId  
@@ -491,14 +503,6 @@ Describes remote control block (PB scripting interface)
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[void SetAutoPilotEnabled(bool enabled)](Sandbox.ModAPI.Ingame.IMyRemoteControl.SetAutoPilotEnabled)
-
-> Enables or disables the autopilot.
-
-[void SetCollisionAvoidance(bool enabled)](Sandbox.ModAPI.Ingame.IMyRemoteControl.SetCollisionAvoidance)
-
-> Enables or disables collision avoidance.
-
 [void SetCustomName(string text)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)
 
 > _**Obsolete:** Use the setter of Customname_  
@@ -510,10 +514,6 @@ Describes remote control block (PB scripting interface)
 > _**Obsolete:** Use the setter of Customname_  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[void SetDockingMode(bool enabled)](Sandbox.ModAPI.Ingame.IMyRemoteControl.SetDockingMode)
-
-> Enables or disables docking mode.
 
 [bool TryGetPlanetElevation(MyPlanetElevation detail, out double elevation)](Sandbox.ModAPI.Ingame.IMyShipController.TryGetPlanetElevation)
 

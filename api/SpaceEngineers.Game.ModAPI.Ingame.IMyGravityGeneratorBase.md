@@ -21,6 +21,16 @@ public interface IMyGravityGeneratorBase: IMyFunctionalBlock, IMyTerminalBlock, 
 
 #### Properties
 
+[float Gravity { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorBase.Gravity)
+
+> _**Obsolete:** Use GravityAcceleration._  
+>   
+> Gets the gravity acceleration
+
+[float GravityAcceleration { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorBase.GravityAcceleration)
+
+> Gets or sets the gravity acceleration in m/s^2.
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -110,16 +120,6 @@ public interface IMyGravityGeneratorBase: IMyFunctionalBlock, IMyTerminalBlock, 
 > Id of entity  
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
-
-[float Gravity { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorBase.Gravity)
-
-> _**Obsolete:** Use GravityAcceleration._  
->   
-> Gets the gravity acceleration
-
-[float GravityAcceleration { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyGravityGeneratorBase.GravityAcceleration)
-
-> Gets or sets the gravity acceleration in m/s^2.
 
 [bool HasInventory { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.HasInventory)
 

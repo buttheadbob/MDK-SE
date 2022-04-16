@@ -116,18 +116,6 @@ Basic cube interface
 
 > Gets definition.Id assigned to this block
 
-[bool Closed { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Closed)
-
-> True if the block has been removed from the world.  
->   
-> _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
-
-[MyEntityComponentContainer Components { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Components)
-
-> Gets blocks component logic container  
->   
-> _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
-
 [IMyCubeGrid CubeGrid { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.CubeGrid)
 
 > Grid in which the block is placed
@@ -140,33 +128,9 @@ Basic cube interface
 
 > Is set in definition Ratio at which is the block disassembled (grinding) Bigger values - longer grinding
 
-[string DisplayName { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.DisplayName)
-
-> Gets user friendly name of entity. May be null For block terminal name use [DisplayNameText](VRage.Game.ModAPI.Ingame.IMyCubeBlock.DisplayNameText)   
->   
-> _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
-
 [string DisplayNameText { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.DisplayNameText)
 
 > Translated block name
-
-[long EntityId { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.EntityId)
-
-> Id of entity  
->   
-> _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
-
-[bool HasInventory { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.HasInventory)
-
-> Returns true if this entity has got at least one inventory. Note that one aggregate inventory can contain zero simple inventories => zero will be returned even if GetInventory() != null.  
->   
-> _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
-
-[int InventoryCount { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.InventoryCount)
-
-> Returns the count of the number of inventories this entity has.  
->   
-> _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
 [bool IsBeingHacked { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.IsBeingHacked)
 
@@ -192,12 +156,6 @@ Basic cube interface
 
 > Minimum coordinates of grid cells occupied by this block
 
-[string Name { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Name)
-
-> Some entities can have uniq name, and game can find them by name [VRage.ModAPI.IMyEntities.TryGetEntityByName(System.String,VRage.ModAPI.IMyEntity@)](https://docs.microsoft.com/en-us/dotnet/api/vrage.modapi.imyentities.trygetentitybyname(system.string,vrage.modapi.imyentity@)?view=netframework-4.6)   
->   
-> _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
-
 [int NumberInGrid { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.NumberInGrid)
 
 > Order in which were the blocks of same type added to grid Used in default display name
@@ -213,6 +171,48 @@ Basic cube interface
 [Vector3I Position { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.Position)
 
 > Position in grid coordinates
+
+[bool Closed { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Closed)
+
+> True if the block has been removed from the world.  
+>   
+> _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
+
+[MyEntityComponentContainer Components { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Components)
+
+> Gets blocks component logic container  
+>   
+> _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
+
+[string DisplayName { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.DisplayName)
+
+> Gets user friendly name of entity. May be null For block terminal name use [DisplayNameText](VRage.Game.ModAPI.Ingame.IMyCubeBlock.DisplayNameText)   
+>   
+> _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
+
+[long EntityId { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.EntityId)
+
+> Id of entity  
+>   
+> _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
+
+[bool HasInventory { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.HasInventory)
+
+> Returns true if this entity has got at least one inventory. Note that one aggregate inventory can contain zero simple inventories => zero will be returned even if GetInventory() != null.  
+>   
+> _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
+
+[int InventoryCount { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.InventoryCount)
+
+> Returns the count of the number of inventories this entity has.  
+>   
+> _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
+
+[string Name { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Name)
+
+> Some entities can have uniq name, and game can find them by name [VRage.ModAPI.IMyEntities.TryGetEntityByName(System.String,VRage.ModAPI.IMyEntity@)](https://docs.microsoft.com/en-us/dotnet/api/vrage.modapi.imyentities.trygetentitybyname(system.string,vrage.modapi.imyentity@)?view=netframework-4.6)   
+>   
+> _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
 [BoundingBoxD WorldAABB { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)
 
@@ -246,18 +246,6 @@ Basic cube interface
 
 #### Methods
 
-[IMyInventory GetInventory()](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)
-
-> Simply get the MyInventoryBase component stored in this entity.  
->   
-> _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
-
-[IMyInventory GetInventory(int index)](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)
-
-> Search for inventory component with maching index.  
->   
-> _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
-
 [string GetOwnerFactionTag()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetOwnerFactionTag)
 
 > Tag of faction owning block
@@ -267,12 +255,6 @@ Basic cube interface
 > _**Obsolete:** GetPlayerRelationToOwner() is useless ingame. Mods should use the one in ModAPI.IMyCubeBlock_  
 >   
 > Relation of local player to the block Should not be called on Dedicated Server.
-
-[Vector3D GetPosition()](VRage.Game.ModAPI.Ingame.IMyEntity.GetPosition)
-
-> Gets position in world coordinates  
->   
-> _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
 [MyRelationsBetweenPlayerAndBlock GetUserRelationToOwner(long playerId, MyRelationsBetweenPlayerAndBlock defaultNoUser = MyRelationsBetweenPlayerAndBlock.NoOwnership)](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetUserRelationToOwner)
 
@@ -289,4 +271,22 @@ Basic cube interface
 > _**Obsolete**_  
 >   
 > Updates block visuals (ie. block emissivity)
+
+[IMyInventory GetInventory()](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)
+
+> Simply get the MyInventoryBase component stored in this entity.  
+>   
+> _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
+
+[IMyInventory GetInventory(int index)](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)
+
+> Search for inventory component with maching index.  
+>   
+> _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
+
+[Vector3D GetPosition()](VRage.Game.ModAPI.Ingame.IMyEntity.GetPosition)
+
+> Gets position in world coordinates  
+>   
+> _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 

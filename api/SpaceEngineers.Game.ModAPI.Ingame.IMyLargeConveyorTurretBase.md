@@ -23,6 +23,10 @@ public interface IMyLargeConveyorTurretBase: IMyLargeTurretBase, IMyUserControll
 
 #### Properties
 
+[bool UseConveyorSystem { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase.UseConveyorSystem)
+
+> 
+
 [bool AIEnabled { get; }](Sandbox.ModAPI.Ingame.IMyLargeTurretBase.AIEnabled)
 
 > Checks is AI is enabled for turret  
@@ -328,10 +332,6 @@ public interface IMyLargeConveyorTurretBase: IMyLargeTurretBase, IMyUserControll
 > Gets/sets if the turret should target stations.  
 >   
 > _Inherited from [IMyLargeTurretBase](Sandbox.ModAPI.Ingame.IMyLargeTurretBase)_
-
-[bool UseConveyorSystem { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyLargeConveyorTurretBase.UseConveyorSystem)
-
-> 
 
 [BoundingBoxD WorldAABB { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)
 

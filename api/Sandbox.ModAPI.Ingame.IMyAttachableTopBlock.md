@@ -27,6 +27,10 @@ Describes rotor,piston or wheel suspension attachable block (PB scripting interf
 
 > Gets the attached base block
 
+[bool IsAttached { get; }](Sandbox.ModAPI.Ingame.IMyAttachableTopBlock.IsAttached)
+
+> Gets whether the top part is attached to a base block
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -92,10 +96,6 @@ Describes rotor,piston or wheel suspension attachable block (PB scripting interf
 > Returns the count of the number of inventories this entity has.  
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
-
-[bool IsAttached { get; }](Sandbox.ModAPI.Ingame.IMyAttachableTopBlock.IsAttached)
-
-> Gets whether the top part is attached to a base block
 
 [bool IsBeingHacked { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.IsBeingHacked)
 

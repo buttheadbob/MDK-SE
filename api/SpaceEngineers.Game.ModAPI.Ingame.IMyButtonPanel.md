@@ -250,6 +250,22 @@ public interface IMyButtonPanel: IMyTerminalBlock, IMyCubeBlock, IMyEntity
 
 > Clears the custom name of the specified button.
 
+[string GetButtonName(int index)](SpaceEngineers.Game.ModAPI.Ingame.IMyButtonPanel.GetButtonName)
+
+> Gets the button name.
+
+[bool HasCustomButtonName(int index)](SpaceEngineers.Game.ModAPI.Ingame.IMyButtonPanel.HasCustomButtonName)
+
+> Gets if the specified button has a custom name set.
+
+[bool IsButtonAssigned(int index)](SpaceEngineers.Game.ModAPI.Ingame.IMyButtonPanel.IsButtonAssigned)
+
+> Gets if the specified button is assigned an action.
+
+[void SetCustomButtonName(int index, string name)](SpaceEngineers.Game.ModAPI.Ingame.IMyButtonPanel.SetCustomButtonName)
+
+> Sets the custom button name.
+
 [void GetActions(List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)
 
 > Get all terminal actions available for block  
@@ -261,10 +277,6 @@ public interface IMyButtonPanel: IMyTerminalBlock, IMyCubeBlock, IMyEntity
 > Get first found terminal action with name  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[string GetButtonName(int index)](SpaceEngineers.Game.ModAPI.Ingame.IMyButtonPanel.GetButtonName)
-
-> Gets the button name.
 
 [IMyInventory GetInventory()](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)
 
@@ -316,10 +328,6 @@ public interface IMyButtonPanel: IMyTerminalBlock, IMyCubeBlock, IMyEntity
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[bool HasCustomButtonName(int index)](SpaceEngineers.Game.ModAPI.Ingame.IMyButtonPanel.HasCustomButtonName)
-
-> Gets if the specified button has a custom name set.
-
 [bool HasLocalPlayerAccess()](Sandbox.ModAPI.Ingame.IMyTerminalBlock.HasLocalPlayerAccess)
 
 > Returns if local player can use block. Executes [HasPlayerAccess(long, MyRelationsBetweenPlayerAndBlock = MyRelationsBetweenPlayerAndBlock.NoOwnership)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.HasPlayerAccess) with local player identityId. On Dedicated Server as identityId it is using 0 as playerId  
@@ -331,10 +339,6 @@ public interface IMyButtonPanel: IMyTerminalBlock, IMyCubeBlock, IMyEntity
 > Returns if local player can use block. It is also checking for admin access.  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[bool IsButtonAssigned(int index)](SpaceEngineers.Game.ModAPI.Ingame.IMyButtonPanel.IsButtonAssigned)
-
-> Gets if the specified button is assigned an action.
 
 [bool IsSameConstructAs(IMyTerminalBlock other)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.IsSameConstructAs)
 
@@ -353,10 +357,6 @@ public interface IMyButtonPanel: IMyTerminalBlock, IMyCubeBlock, IMyEntity
 > ` check  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[void SetCustomButtonName(int index, string name)](SpaceEngineers.Game.ModAPI.Ingame.IMyButtonPanel.SetCustomButtonName)
-
-> Sets the custom button name.
 
 [void SetCustomName(string text)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SetCustomName)
 

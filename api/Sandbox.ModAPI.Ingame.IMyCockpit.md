@@ -49,6 +49,14 @@ Describes cockpit block (PB scripting interface)
 
 #### Properties
 
+[float OxygenCapacity { get; }](Sandbox.ModAPI.Ingame.IMyCockpit.OxygenCapacity)
+
+> Gets the maximum oxygen capacity of this cockpit.
+
+[float OxygenFilledRatio { get; }](Sandbox.ModAPI.Ingame.IMyCockpit.OxygenFilledRatio)
+
+> Gets the current oxygen level of this cockpit, as a value between 0 (empty) and 1 (full).
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -264,14 +272,6 @@ Describes cockpit block (PB scripting interface)
 > IdentityId of player owning block (not steam Id)  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[float OxygenCapacity { get; }](Sandbox.ModAPI.Ingame.IMyCockpit.OxygenCapacity)
-
-> Gets the maximum oxygen capacity of this cockpit.
-
-[float OxygenFilledRatio { get; }](Sandbox.ModAPI.Ingame.IMyCockpit.OxygenFilledRatio)
-
-> Gets the current oxygen level of this cockpit, as a value between 0 (empty) and 1 (full).
 
 [Vector3I Position { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.Position)
 

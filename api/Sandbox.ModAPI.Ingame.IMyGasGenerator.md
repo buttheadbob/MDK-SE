@@ -30,6 +30,10 @@ Describes Gas generator interface (H2/O2 block) (PB scripting interface)
 
 > Gets or sets bottles auto refill enabled
 
+[bool UseConveyorSystem { get; set; }](Sandbox.ModAPI.Ingame.IMyGasGenerator.UseConveyorSystem)
+
+> Gets or sets whether block can use conveyor system (pull ice and hydrogen/oxygen bottles)
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -221,10 +225,6 @@ Describes Gas generator interface (H2/O2 block) (PB scripting interface)
 > Represent terminal gui toggle `Show On HUD`. Gets or sets its value  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[bool UseConveyorSystem { get; set; }](Sandbox.ModAPI.Ingame.IMyGasGenerator.UseConveyorSystem)
-
-> Gets or sets whether block can use conveyor system (pull ice and hydrogen/oxygen bottles)
 
 [BoundingBoxD WorldAABB { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)
 

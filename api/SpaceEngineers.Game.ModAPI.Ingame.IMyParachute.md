@@ -33,6 +33,14 @@ public interface IMyParachute: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBloc
 
 > Gets or sets the altitude (in meters) that the parachute should auto deploy.
 
+[float OpenRatio { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute.OpenRatio)
+
+> The current, accurate ratio of the door's current state where 0 is fully closed and 1 is fully open.
+
+[DoorStatus Status { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute.Status)
+
+> Determines the current general status of the door.
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -183,10 +191,6 @@ public interface IMyParachute: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBloc
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[float OpenRatio { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute.OpenRatio)
-
-> The current, accurate ratio of the door's current state where 0 is fully closed and 1 is fully open.
-
 [MyBlockOrientation Orientation { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.Orientation)
 
 > Returns block orientation in base 6 directions  
@@ -229,10 +233,6 @@ public interface IMyParachute: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBloc
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[DoorStatus Status { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute.Status)
-
-> Determines the current general status of the door.
-
 [BoundingBoxD WorldAABB { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)
 
 > Gets world axis-aligned bounding box  
@@ -269,6 +269,34 @@ public interface IMyParachute: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBloc
 
 > Closes the door. See [Status](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute.Status) to get the current status.
 
+[Vector3D GetArtificialGravity()](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute.GetArtificialGravity)
+
+> Gets the detected artificial gravity vector and power at the current location.
+
+[Vector3D GetNaturalGravity()](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute.GetNaturalGravity)
+
+> Gets the detected natural gravity vector and power at the current location.
+
+[Vector3D GetTotalGravity()](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute.GetTotalGravity)
+
+> Gets the total accumulated gravity vector and power at the current location, taking both natural and artificial gravity into account.
+
+[Vector3D GetVelocity()](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute.GetVelocity)
+
+> Determines the linear velocities in meters per second at the block position
+
+[void OpenDoor()](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute.OpenDoor)
+
+> Opens the door. See [Status](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute.Status) to get the current status.
+
+[void ToggleDoor()](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute.ToggleDoor)
+
+> Toggles the open state of this door. See [Status](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute.Status) to get the current status.
+
+[bool TryGetClosestPoint(out Vector3D? closestPoint)](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute.TryGetClosestPoint)
+
+> 
+
 [void GetActions(List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)
 
 > Get all terminal actions available for block  
@@ -281,10 +309,6 @@ public interface IMyParachute: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBloc
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[Vector3D GetArtificialGravity()](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute.GetArtificialGravity)
-
-> Gets the detected artificial gravity vector and power at the current location.
-
 [IMyInventory GetInventory()](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)
 
 > Simply get the MyInventoryBase component stored in this entity.  
@@ -296,10 +320,6 @@ public interface IMyParachute: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBloc
 > Search for inventory component with maching index.  
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
-
-[Vector3D GetNaturalGravity()](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute.GetNaturalGravity)
-
-> Gets the detected natural gravity vector and power at the current location.
 
 [string GetOwnerFactionTag()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetOwnerFactionTag)
 
@@ -333,19 +353,11 @@ public interface IMyParachute: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBloc
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[Vector3D GetTotalGravity()](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute.GetTotalGravity)
-
-> Gets the total accumulated gravity vector and power at the current location, taking both natural and artificial gravity into account.
-
 [MyRelationsBetweenPlayerAndBlock GetUserRelationToOwner(long playerId, MyRelationsBetweenPlayerAndBlock defaultNoUser = MyRelationsBetweenPlayerAndBlock.NoOwnership)](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetUserRelationToOwner)
 
 > Gets relation to owner of block  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[Vector3D GetVelocity()](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute.GetVelocity)
-
-> Determines the linear velocities in meters per second at the block position
 
 [bool HasLocalPlayerAccess()](Sandbox.ModAPI.Ingame.IMyTerminalBlock.HasLocalPlayerAccess)
 
@@ -366,10 +378,6 @@ public interface IMyParachute: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBloc
 > Be aware that using merge blocks combines grids into one, so this function will not filter out grids connected that way. Also be aware that detaching the heads of pistons and rotors will cause this connection to change.  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[void OpenDoor()](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute.OpenDoor)
-
-> Opens the door. See [Status](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute.Status) to get the current status.
 
 [void RequestEnable(bool enable)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)
 
@@ -398,14 +406,6 @@ public interface IMyParachute: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBloc
 > _**Obsolete:** Use the setter of Customname_  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[void ToggleDoor()](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute.ToggleDoor)
-
-> Toggles the open state of this door. See [Status](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute.Status) to get the current status.
-
-[bool TryGetClosestPoint(out Vector3D? closestPoint)](SpaceEngineers.Game.ModAPI.Ingame.IMyParachute.TryGetClosestPoint)
-
-> 
 
 [void UpdateIsWorking()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.UpdateIsWorking)
 

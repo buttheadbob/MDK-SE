@@ -25,6 +25,10 @@ Describes gatling gun (PB scripting interface)
 
 #### Properties
 
+[bool UseConveyorSystem { get; }](Sandbox.ModAPI.Ingame.IMySmallGatlingGun.UseConveyorSystem)
+
+> Getter whether gatling gun can pull items from conveyor system
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -228,10 +232,6 @@ Describes gatling gun (PB scripting interface)
 > Represent terminal gui toggle `Show On HUD`. Gets or sets its value  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[bool UseConveyorSystem { get; }](Sandbox.ModAPI.Ingame.IMySmallGatlingGun.UseConveyorSystem)
-
-> Getter whether gatling gun can pull items from conveyor system
 
 [BoundingBoxD WorldAABB { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)
 

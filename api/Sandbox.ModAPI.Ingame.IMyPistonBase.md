@@ -23,6 +23,38 @@ Describes piston block (PB scripting interface)
 
 #### Properties
 
+[float CurrentPosition { get; }](Sandbox.ModAPI.Ingame.IMyPistonBase.CurrentPosition)
+
+> Gets the current position of the piston head relative to the base.
+
+[float HighestPosition { get; }](Sandbox.ModAPI.Ingame.IMyPistonBase.HighestPosition)
+
+> Gets the highest position the piston is capable of moving to.
+
+[float LowestPosition { get; }](Sandbox.ModAPI.Ingame.IMyPistonBase.LowestPosition)
+
+> Gets the lowest position the piston is capable of moving to.
+
+[float MaxLimit { get; set; }](Sandbox.ModAPI.Ingame.IMyPistonBase.MaxLimit)
+
+> Gets or sets the maximum position the piston can extend to. See [LowestPosition](Sandbox.ModAPI.Ingame.IMyPistonBase.LowestPosition) and [HighestPosition](Sandbox.ModAPI.Ingame.IMyPistonBase.HighestPosition) for the limits of this value.
+
+[float MaxVelocity { get; }](Sandbox.ModAPI.Ingame.IMyPistonBase.MaxVelocity)
+
+> Gets the maximum velocity this piston is capable of moving at.
+
+[float MinLimit { get; set; }](Sandbox.ModAPI.Ingame.IMyPistonBase.MinLimit)
+
+> Gets or sets the minimum position the piston can retract to. See [LowestPosition](Sandbox.ModAPI.Ingame.IMyPistonBase.LowestPosition) and [HighestPosition](Sandbox.ModAPI.Ingame.IMyPistonBase.HighestPosition) for the limits of this value.
+
+[PistonStatus Status { get; }](Sandbox.ModAPI.Ingame.IMyPistonBase.Status)
+
+> Gets the current status.
+
+[float Velocity { get; set; }](Sandbox.ModAPI.Ingame.IMyPistonBase.Velocity)
+
+> Gets or sets the velocity of the piston as it extends or retracts. This value can be between negative and positive [MaxVelocity](Sandbox.ModAPI.Ingame.IMyPistonBase.MaxVelocity) .
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -46,10 +78,6 @@ Describes piston block (PB scripting interface)
 > Grid in which the block is placed  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[float CurrentPosition { get; }](Sandbox.ModAPI.Ingame.IMyPistonBase.CurrentPosition)
-
-> Gets the current position of the piston head relative to the base.
 
 [string CustomData { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomData)
 
@@ -123,10 +151,6 @@ Describes piston block (PB scripting interface)
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
-[float HighestPosition { get; }](Sandbox.ModAPI.Ingame.IMyPistonBase.HighestPosition)
-
-> Gets the highest position the piston is capable of moving to.
-
 [int InventoryCount { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.InventoryCount)
 
 > Returns the count of the number of inventories this entity has.  
@@ -165,10 +189,6 @@ Describes piston block (PB scripting interface)
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[float LowestPosition { get; }](Sandbox.ModAPI.Ingame.IMyPistonBase.LowestPosition)
-
-> Gets the lowest position the piston is capable of moving to.
-
 [float Mass { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.Mass)
 
 > Block mass  
@@ -181,23 +201,11 @@ Describes piston block (PB scripting interface)
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[float MaxLimit { get; set; }](Sandbox.ModAPI.Ingame.IMyPistonBase.MaxLimit)
-
-> Gets or sets the maximum position the piston can extend to. See [LowestPosition](Sandbox.ModAPI.Ingame.IMyPistonBase.LowestPosition) and [HighestPosition](Sandbox.ModAPI.Ingame.IMyPistonBase.HighestPosition) for the limits of this value.
-
-[float MaxVelocity { get; }](Sandbox.ModAPI.Ingame.IMyPistonBase.MaxVelocity)
-
-> Gets the maximum velocity this piston is capable of moving at.
-
 [Vector3I Min { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.Min)
 
 > Minimum coordinates of grid cells occupied by this block  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[float MinLimit { get; set; }](Sandbox.ModAPI.Ingame.IMyPistonBase.MinLimit)
-
-> Gets or sets the minimum position the piston can retract to. See [LowestPosition](Sandbox.ModAPI.Ingame.IMyPistonBase.LowestPosition) and [HighestPosition](Sandbox.ModAPI.Ingame.IMyPistonBase.HighestPosition) for the limits of this value.
 
 [string Name { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Name)
 
@@ -275,10 +283,6 @@ Describes piston block (PB scripting interface)
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[PistonStatus Status { get; }](Sandbox.ModAPI.Ingame.IMyPistonBase.Status)
-
-> Gets the current status.
-
 [IMyAttachableTopBlock Top { get; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.Top)
 
 > Gets the attached top part entity  
@@ -290,10 +294,6 @@ Describes piston block (PB scripting interface)
 > Gets the grid of the attached top part  
 >   
 > _Inherited from [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)_
-
-[float Velocity { get; set; }](Sandbox.ModAPI.Ingame.IMyPistonBase.Velocity)
-
-> Gets or sets the velocity of the piston as it extends or retracts. This value can be between negative and positive [MaxVelocity](Sandbox.ModAPI.Ingame.IMyPistonBase.MaxVelocity) .
 
 [BoundingBoxD WorldAABB { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)
 
@@ -327,6 +327,18 @@ Describes piston block (PB scripting interface)
 
 #### Methods
 
+[void Extend()](Sandbox.ModAPI.Ingame.IMyPistonBase.Extend)
+
+> Extends the piston.
+
+[void Retract()](Sandbox.ModAPI.Ingame.IMyPistonBase.Retract)
+
+> Retracts the piston.
+
+[void Reverse()](Sandbox.ModAPI.Ingame.IMyPistonBase.Reverse)
+
+> Reverses the direction of the piston.
+
 [void Attach()](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.Attach)
 
 > Attaches a nearby top part to the block  
@@ -338,10 +350,6 @@ Describes piston block (PB scripting interface)
 > Detaches the top from the base  
 >   
 > _Inherited from [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)_
-
-[void Extend()](Sandbox.ModAPI.Ingame.IMyPistonBase.Extend)
-
-> Extends the piston.
 
 [void GetActions(List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)
 
@@ -430,14 +438,6 @@ Describes piston block (PB scripting interface)
 > _**Obsolete:** Use the setter of Enabled_  
 >   
 > _Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_
-
-[void Retract()](Sandbox.ModAPI.Ingame.IMyPistonBase.Retract)
-
-> Retracts the piston.
-
-[void Reverse()](Sandbox.ModAPI.Ingame.IMyPistonBase.Reverse)
-
-> Reverses the direction of the piston.
 
 [void SearchActionsOfName(string name, List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SearchActionsOfName)
 

@@ -23,15 +23,71 @@ Describes projector block (PB scripting interface)
 
 #### Properties
 
+[int BuildableBlocksCount { get; }](Sandbox.ModAPI.Ingame.IMyProjector.BuildableBlocksCount)
+
+> Get count of blocks which can be welded now
+
+[bool IsProjecting { get; }](Sandbox.ModAPI.Ingame.IMyProjector.IsProjecting)
+
+> Checks if there is an active projection
+
+[Vector3I ProjectionOffset { get; set; }](Sandbox.ModAPI.Ingame.IMyProjector.ProjectionOffset)
+
+> Gets or sets projection offset
+
+[int ProjectionOffsetX { get; }](Sandbox.ModAPI.Ingame.IMyProjector.ProjectionOffsetX)
+
+> _**Obsolete:** Use ProjectionOffset vector instead._
+
+[int ProjectionOffsetY { get; }](Sandbox.ModAPI.Ingame.IMyProjector.ProjectionOffsetY)
+
+> _**Obsolete:** Use ProjectionOffset vector instead._
+
+[int ProjectionOffsetZ { get; }](Sandbox.ModAPI.Ingame.IMyProjector.ProjectionOffsetZ)
+
+> _**Obsolete:** Use ProjectionOffset vector instead._
+
+[Vector3I ProjectionRotation { get; set; }](Sandbox.ModAPI.Ingame.IMyProjector.ProjectionRotation)
+
+> Get or sets projection rotation. These values are not in degrees. 1 = 90 degrees, 2 = 180 degrees
+
+[int ProjectionRotX { get; }](Sandbox.ModAPI.Ingame.IMyProjector.ProjectionRotX)
+
+> _**Obsolete:** Use ProjectionRotation vector instead._
+
+[int ProjectionRotY { get; }](Sandbox.ModAPI.Ingame.IMyProjector.ProjectionRotY)
+
+> _**Obsolete:** Use ProjectionRotation vector instead._
+
+[int ProjectionRotZ { get; }](Sandbox.ModAPI.Ingame.IMyProjector.ProjectionRotZ)
+
+> _**Obsolete:** Use ProjectionRotation vector instead._
+
+[int RemainingArmorBlocks { get; }](Sandbox.ModAPI.Ingame.IMyProjector.RemainingArmorBlocks)
+
+> Get number of armor blocks left to be welded
+
+[int RemainingBlocks { get; }](Sandbox.ModAPI.Ingame.IMyProjector.RemainingBlocks)
+
+> Gets number of blocks left to be welded
+
+[Dictionary&lt;MyDefinitionBase, int&gt; RemainingBlocksPerType { get; }](Sandbox.ModAPI.Ingame.IMyProjector.RemainingBlocksPerType)
+
+> Gets comprehensive list of blocks left to be welded
+
+[bool ShowOnlyBuildable { get; set; }](Sandbox.ModAPI.Ingame.IMyProjector.ShowOnlyBuildable)
+
+> Gets or set should projection show only buildable blocks
+
+[int TotalBlocks { get; }](Sandbox.ModAPI.Ingame.IMyProjector.TotalBlocks)
+
+> Gets total number of blocks in the projection
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[int BuildableBlocksCount { get; }](Sandbox.ModAPI.Ingame.IMyProjector.BuildableBlocksCount)
-
-> Get count of blocks which can be welded now
 
 [bool Closed { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Closed)
 
@@ -141,10 +197,6 @@ Describes projector block (PB scripting interface)
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[bool IsProjecting { get; }](Sandbox.ModAPI.Ingame.IMyProjector.IsProjecting)
-
-> Checks if there is an active projection
-
 [bool IsWorking { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.IsWorking)
 
 > True if block is able to do its work depening on block type (is functional, powered, enabled, etc...)  
@@ -199,50 +251,6 @@ Describes projector block (PB scripting interface)
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[Vector3I ProjectionOffset { get; set; }](Sandbox.ModAPI.Ingame.IMyProjector.ProjectionOffset)
-
-> Gets or sets projection offset
-
-[int ProjectionOffsetX { get; }](Sandbox.ModAPI.Ingame.IMyProjector.ProjectionOffsetX)
-
-> _**Obsolete:** Use ProjectionOffset vector instead._
-
-[int ProjectionOffsetY { get; }](Sandbox.ModAPI.Ingame.IMyProjector.ProjectionOffsetY)
-
-> _**Obsolete:** Use ProjectionOffset vector instead._
-
-[int ProjectionOffsetZ { get; }](Sandbox.ModAPI.Ingame.IMyProjector.ProjectionOffsetZ)
-
-> _**Obsolete:** Use ProjectionOffset vector instead._
-
-[Vector3I ProjectionRotation { get; set; }](Sandbox.ModAPI.Ingame.IMyProjector.ProjectionRotation)
-
-> Get or sets projection rotation. These values are not in degrees. 1 = 90 degrees, 2 = 180 degrees
-
-[int ProjectionRotX { get; }](Sandbox.ModAPI.Ingame.IMyProjector.ProjectionRotX)
-
-> _**Obsolete:** Use ProjectionRotation vector instead._
-
-[int ProjectionRotY { get; }](Sandbox.ModAPI.Ingame.IMyProjector.ProjectionRotY)
-
-> _**Obsolete:** Use ProjectionRotation vector instead._
-
-[int ProjectionRotZ { get; }](Sandbox.ModAPI.Ingame.IMyProjector.ProjectionRotZ)
-
-> _**Obsolete:** Use ProjectionRotation vector instead._
-
-[int RemainingArmorBlocks { get; }](Sandbox.ModAPI.Ingame.IMyProjector.RemainingArmorBlocks)
-
-> Get number of armor blocks left to be welded
-
-[int RemainingBlocks { get; }](Sandbox.ModAPI.Ingame.IMyProjector.RemainingBlocks)
-
-> Gets number of blocks left to be welded
-
-[Dictionary&lt;MyDefinitionBase, int&gt; RemainingBlocksPerType { get; }](Sandbox.ModAPI.Ingame.IMyProjector.RemainingBlocksPerType)
-
-> Gets comprehensive list of blocks left to be welded
-
 [bool ShowInInventory { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)
 
 > Represent terminal gui toggle `Show block in Inventory Screen`. Gets or sets its value  
@@ -267,19 +275,11 @@ Describes projector block (PB scripting interface)
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[bool ShowOnlyBuildable { get; set; }](Sandbox.ModAPI.Ingame.IMyProjector.ShowOnlyBuildable)
-
-> Gets or set should projection show only buildable blocks
-
 [int SurfaceCount { get; }](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider.SurfaceCount)
 
 > Get surfaces count  
 >   
 > _Inherited from [IMyTextSurfaceProvider](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider)_
-
-[int TotalBlocks { get; }](Sandbox.ModAPI.Ingame.IMyProjector.TotalBlocks)
-
-> Gets total number of blocks in the projection
 
 [bool UseGenericLcd { get; }](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider.UseGenericLcd)
 
@@ -318,6 +318,10 @@ Describes projector block (PB scripting interface)
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
 #### Methods
+
+[void UpdateOffsetAndRotation()](Sandbox.ModAPI.Ingame.IMyProjector.UpdateOffsetAndRotation)
+
+> Call this after setting ProjectionOffset and ProjectionRotation to update the projection
 
 [void GetActions(List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)
 
@@ -442,10 +446,6 @@ Describes projector block (PB scripting interface)
 > Force refresh working state. Call if you change block state that could affect its working status.  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[void UpdateOffsetAndRotation()](Sandbox.ModAPI.Ingame.IMyProjector.UpdateOffsetAndRotation)
-
-> Call this after setting ProjectionOffset and ProjectionRotation to update the projection
 
 [void UpdateVisual()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.UpdateVisual)
 

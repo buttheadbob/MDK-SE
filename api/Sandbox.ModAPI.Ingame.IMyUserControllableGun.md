@@ -29,6 +29,14 @@ Describes gun block (PB scripting interface)
 
 #### Properties
 
+[bool IsShooting { get; }](Sandbox.ModAPI.Ingame.IMyUserControllableGun.IsShooting)
+
+> Gets whether block is shooting
+
+[bool Shoot { get; set; }](Sandbox.ModAPI.Ingame.IMyUserControllableGun.Shoot)
+
+> Represents terminal gui toggle element "Shoot". Not same as [IsShooting](Sandbox.ModAPI.Ingame.IMyUserControllableGun.IsShooting) 
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -143,10 +151,6 @@ Describes gun block (PB scripting interface)
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[bool IsShooting { get; }](Sandbox.ModAPI.Ingame.IMyUserControllableGun.IsShooting)
-
-> Gets whether block is shooting
-
 [bool IsWorking { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.IsWorking)
 
 > True if block is able to do its work depening on block type (is functional, powered, enabled, etc...)  
@@ -200,10 +204,6 @@ Describes gun block (PB scripting interface)
 > Position in grid coordinates  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[bool Shoot { get; set; }](Sandbox.ModAPI.Ingame.IMyUserControllableGun.Shoot)
-
-> Represents terminal gui toggle element "Shoot". Not same as [IsShooting](Sandbox.ModAPI.Ingame.IMyUserControllableGun.IsShooting) 
 
 [bool ShowInInventory { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)
 
@@ -260,6 +260,10 @@ Describes gun block (PB scripting interface)
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
 #### Methods
+
+[void ShootOnce()](Sandbox.ModAPI.Ingame.IMyUserControllableGun.ShootOnce)
+
+> Triggers a single shot.
 
 [void GetActions(List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)
 
@@ -370,10 +374,6 @@ Describes gun block (PB scripting interface)
 > _**Obsolete:** Use the setter of Customname_  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[void ShootOnce()](Sandbox.ModAPI.Ingame.IMyUserControllableGun.ShootOnce)
-
-> Triggers a single shot.
 
 [void UpdateIsWorking()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.UpdateIsWorking)
 

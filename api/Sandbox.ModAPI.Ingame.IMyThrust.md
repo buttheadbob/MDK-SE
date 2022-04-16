@@ -49,6 +49,30 @@ Describes assembler block (PB scripting interface)
 
 #### Properties
 
+[float CurrentThrust { get; }](Sandbox.ModAPI.Ingame.IMyThrust.CurrentThrust)
+
+> Gets the current thrust amount, in Newtons (N)
+
+[Vector3I GridThrustDirection { get; }](Sandbox.ModAPI.Ingame.IMyThrust.GridThrustDirection)
+
+> Gets the direction of thrust, relative to ship controller (cockpit).
+
+[float MaxEffectiveThrust { get; }](Sandbox.ModAPI.Ingame.IMyThrust.MaxEffectiveThrust)
+
+> Gets the maximum effective thrust amount, in Newtons (N)
+
+[float MaxThrust { get; }](Sandbox.ModAPI.Ingame.IMyThrust.MaxThrust)
+
+> Gets the maximum thrust amount, in Newtons (N)
+
+[float ThrustOverride { get; set; }](Sandbox.ModAPI.Ingame.IMyThrust.ThrustOverride)
+
+> Gets or sets the override thrust amount, in Newtons (N)
+
+[float ThrustOverridePercentage { get; set; }](Sandbox.ModAPI.Ingame.IMyThrust.ThrustOverridePercentage)
+
+> Gets or sets the thrust override as a percentage between 0 and 1
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -72,10 +96,6 @@ Describes assembler block (PB scripting interface)
 > Grid in which the block is placed  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[float CurrentThrust { get; }](Sandbox.ModAPI.Ingame.IMyThrust.CurrentThrust)
-
-> Gets the current thrust amount, in Newtons (N)
 
 [string CustomData { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomData)
 
@@ -143,10 +163,6 @@ Describes assembler block (PB scripting interface)
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
-[Vector3I GridThrustDirection { get; }](Sandbox.ModAPI.Ingame.IMyThrust.GridThrustDirection)
-
-> Gets the direction of thrust, relative to ship controller (cockpit).
-
 [bool HasInventory { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.HasInventory)
 
 > Returns true if this entity has got at least one inventory. Note that one aggregate inventory can contain zero simple inventories => zero will be returned even if GetInventory() != null.  
@@ -188,14 +204,6 @@ Describes assembler block (PB scripting interface)
 > Maximum coordinates of grid cells occupied by this block  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[float MaxEffectiveThrust { get; }](Sandbox.ModAPI.Ingame.IMyThrust.MaxEffectiveThrust)
-
-> Gets the maximum effective thrust amount, in Newtons (N)
-
-[float MaxThrust { get; }](Sandbox.ModAPI.Ingame.IMyThrust.MaxThrust)
-
-> Gets the maximum thrust amount, in Newtons (N)
 
 [Vector3I Min { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.Min)
 
@@ -256,14 +264,6 @@ Describes assembler block (PB scripting interface)
 > Represent terminal gui toggle `Show On HUD`. Gets or sets its value  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[float ThrustOverride { get; set; }](Sandbox.ModAPI.Ingame.IMyThrust.ThrustOverride)
-
-> Gets or sets the override thrust amount, in Newtons (N)
-
-[float ThrustOverridePercentage { get; set; }](Sandbox.ModAPI.Ingame.IMyThrust.ThrustOverridePercentage)
-
-> Gets or sets the thrust override as a percentage between 0 and 1
 
 [BoundingBoxD WorldAABB { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)
 

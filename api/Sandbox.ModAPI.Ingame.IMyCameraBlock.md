@@ -27,6 +27,26 @@ Describes Camera block (PB scripting interface)
 
 > Gets the maximum distance that this camera can scan, based on the time since the last scan.
 
+[bool EnableRaycast { get; set; }](Sandbox.ModAPI.Ingame.IMyCameraBlock.EnableRaycast)
+
+> Gets or Sets whether the raycast is enabled. When this is true, the available raycast distance will count up, and power usage is increased.
+
+[bool IsActive { get; }](Sandbox.ModAPI.Ingame.IMyCameraBlock.IsActive)
+
+> Gets whether this camera is currently in use by at least one player.
+
+[float RaycastConeLimit { get; }](Sandbox.ModAPI.Ingame.IMyCameraBlock.RaycastConeLimit)
+
+> Gets the maximum positive angle you can apply for pitch and yaw.
+
+[double RaycastDistanceLimit { get; }](Sandbox.ModAPI.Ingame.IMyCameraBlock.RaycastDistanceLimit)
+
+> Gets the maximum distance you can request a raycast. -1 means infinite.
+
+[float RaycastTimeMultiplier { get; }](Sandbox.ModAPI.Ingame.IMyCameraBlock.RaycastTimeMultiplier)
+
+> Gets the raycast time multiplier that converts time in milliseconds to available raycast distance in meters.
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -111,10 +131,6 @@ Describes Camera block (PB scripting interface)
 >   
 > _Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_
 
-[bool EnableRaycast { get; set; }](Sandbox.ModAPI.Ingame.IMyCameraBlock.EnableRaycast)
-
-> Gets or Sets whether the raycast is enabled. When this is true, the available raycast distance will count up, and power usage is increased.
-
 [long EntityId { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.EntityId)
 
 > Id of entity  
@@ -132,10 +148,6 @@ Describes Camera block (PB scripting interface)
 > Returns the count of the number of inventories this entity has.  
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
-
-[bool IsActive { get; }](Sandbox.ModAPI.Ingame.IMyCameraBlock.IsActive)
-
-> Gets whether this camera is currently in use by at least one player.
 
 [bool IsBeingHacked { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.IsBeingHacked)
 
@@ -202,18 +214,6 @@ Describes Camera block (PB scripting interface)
 > Position in grid coordinates  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[float RaycastConeLimit { get; }](Sandbox.ModAPI.Ingame.IMyCameraBlock.RaycastConeLimit)
-
-> Gets the maximum positive angle you can apply for pitch and yaw.
-
-[double RaycastDistanceLimit { get; }](Sandbox.ModAPI.Ingame.IMyCameraBlock.RaycastDistanceLimit)
-
-> Gets the maximum distance you can request a raycast. -1 means infinite.
-
-[float RaycastTimeMultiplier { get; }](Sandbox.ModAPI.Ingame.IMyCameraBlock.RaycastTimeMultiplier)
-
-> Gets the raycast time multiplier that converts time in milliseconds to available raycast distance in meters.
 
 [bool ShowInInventory { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)
 
@@ -282,6 +282,22 @@ Describes Camera block (PB scripting interface)
 [bool CanScan(Vector3D target)](Sandbox.ModAPI.Ingame.IMyCameraBlock.CanScan)
 
 > Checks if the camera can scan to the given target
+
+[MyDetectedEntityInfo Raycast(double distance, float pitch = 0, float yaw = 0)](Sandbox.ModAPI.Ingame.IMyCameraBlock.Raycast)
+
+> Does a raycast in the direction the camera is facing.
+
+[MyDetectedEntityInfo Raycast(Vector3D targetPos)](Sandbox.ModAPI.Ingame.IMyCameraBlock.Raycast)
+
+> Does a raycast to the specific target point.
+
+[MyDetectedEntityInfo Raycast(double distance, Vector3D targetDirection)](Sandbox.ModAPI.Ingame.IMyCameraBlock.Raycast)
+
+> Does a raycast in the given direction (in camera local space).
+
+[int TimeUntilScan(double distance)](Sandbox.ModAPI.Ingame.IMyCameraBlock.TimeUntilScan)
+
+> Calculates time until scan
 
 [void GetActions(List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)
 
@@ -365,18 +381,6 @@ Describes Camera block (PB scripting interface)
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[MyDetectedEntityInfo Raycast(double distance, float pitch = 0, float yaw = 0)](Sandbox.ModAPI.Ingame.IMyCameraBlock.Raycast)
-
-> Does a raycast in the direction the camera is facing.
-
-[MyDetectedEntityInfo Raycast(Vector3D targetPos)](Sandbox.ModAPI.Ingame.IMyCameraBlock.Raycast)
-
-> Does a raycast to the specific target point.
-
-[MyDetectedEntityInfo Raycast(double distance, Vector3D targetDirection)](Sandbox.ModAPI.Ingame.IMyCameraBlock.Raycast)
-
-> Does a raycast in the given direction (in camera local space).
-
 [void RequestEnable(bool enable)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)
 
 > _**Obsolete:** Use the setter of Enabled_  
@@ -404,10 +408,6 @@ Describes Camera block (PB scripting interface)
 > _**Obsolete:** Use the setter of Customname_  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[int TimeUntilScan(double distance)](Sandbox.ModAPI.Ingame.IMyCameraBlock.TimeUntilScan)
-
-> Calculates time until scan
 
 [void UpdateIsWorking()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.UpdateIsWorking)
 

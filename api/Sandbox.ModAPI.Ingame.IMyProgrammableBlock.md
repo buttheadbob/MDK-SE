@@ -24,6 +24,14 @@ Describes programmable block (PB scripting interface)
 
 #### Properties
 
+[bool IsRunning { get; }](Sandbox.ModAPI.Ingame.IMyProgrammableBlock.IsRunning)
+
+> Get whether this programmable block is currently running its program.
+
+[string TerminalRunArgument { get; }](Sandbox.ModAPI.Ingame.IMyProgrammableBlock.TerminalRunArgument)
+
+> Get default terminal argument.
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -138,10 +146,6 @@ Describes programmable block (PB scripting interface)
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[bool IsRunning { get; }](Sandbox.ModAPI.Ingame.IMyProgrammableBlock.IsRunning)
-
-> Get whether this programmable block is currently running its program.
-
 [bool IsWorking { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.IsWorking)
 
 > True if block is able to do its work depening on block type (is functional, powered, enabled, etc...)  
@@ -226,10 +230,6 @@ Describes programmable block (PB scripting interface)
 >   
 > _Inherited from [IMyTextSurfaceProvider](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider)_
 
-[string TerminalRunArgument { get; }](Sandbox.ModAPI.Ingame.IMyProgrammableBlock.TerminalRunArgument)
-
-> Get default terminal argument.
-
 [bool UseGenericLcd { get; }](Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider.UseGenericLcd)
 
 > Whether generic LCD terminal controls should be created  
@@ -267,6 +267,10 @@ Describes programmable block (PB scripting interface)
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
 #### Methods
+
+[bool TryRun(string argument)](Sandbox.ModAPI.Ingame.IMyProgrammableBlock.TryRun)
+
+> Attempts to run this programmable block using the given argument. An already running programmable block cannot be run again. This is equivalent to running`block.ApplyAction("Run", argumentsList);`This should be called from an ingame script. Do not use in mods.
 
 [void GetActions(List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)
 
@@ -383,10 +387,6 @@ Describes programmable block (PB scripting interface)
 > _**Obsolete:** Use the setter of Customname_  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[bool TryRun(string argument)](Sandbox.ModAPI.Ingame.IMyProgrammableBlock.TryRun)
-
-> Attempts to run this programmable block using the given argument. An already running programmable block cannot be run again. This is equivalent to running`block.ApplyAction("Run", argumentsList);`This should be called from an ingame script. Do not use in mods.
 
 [void UpdateIsWorking()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.UpdateIsWorking)
 

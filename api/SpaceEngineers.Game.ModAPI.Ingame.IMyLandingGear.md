@@ -29,6 +29,24 @@ public interface IMyLandingGear: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBl
 
 > Toggles the autolock of the landing gear.
 
+[bool IsBreakable { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyLandingGear.IsBreakable)
+
+> _**Obsolete:** Landing gear are not breakable anymore._  
+>   
+> Gets if the landing gear lock can be broken with force.
+
+[bool IsLocked { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyLandingGear.IsLocked)
+
+> Gets whether the landing gear is currently locked.
+
+[bool IsParkingEnabled { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyLandingGear.IsParkingEnabled)
+
+> 
+
+[LandingGearMode LockMode { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyLandingGear.LockMode)
+
+> Is this block triggered by the parking signal?
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -137,35 +155,17 @@ public interface IMyLandingGear: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBl
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[bool IsBreakable { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyLandingGear.IsBreakable)
-
-> _**Obsolete:** Landing gear are not breakable anymore._  
->   
-> Gets if the landing gear lock can be broken with force.
-
 [bool IsFunctional { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.IsFunctional)
 
 > Gets if integrity is above breaking threshold  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[bool IsLocked { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyLandingGear.IsLocked)
-
-> Gets whether the landing gear is currently locked.
-
-[bool IsParkingEnabled { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyLandingGear.IsParkingEnabled)
-
-> 
-
 [bool IsWorking { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.IsWorking)
 
 > True if block is able to do its work depening on block type (is functional, powered, enabled, etc...)  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[LandingGearMode LockMode { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyLandingGear.LockMode)
-
-> Is this block triggered by the parking signal?
 
 [float Mass { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.Mass)
 
@@ -271,6 +271,22 @@ public interface IMyLandingGear: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBl
 
 #### Methods
 
+[void Lock()](SpaceEngineers.Game.ModAPI.Ingame.IMyLandingGear.Lock)
+
+> Locks the landing gear.
+
+[void ResetAutoLock()](SpaceEngineers.Game.ModAPI.Ingame.IMyLandingGear.ResetAutoLock)
+
+> Resets autolock timer
+
+[void ToggleLock()](SpaceEngineers.Game.ModAPI.Ingame.IMyLandingGear.ToggleLock)
+
+> Toggles the landing gear lock.
+
+[void Unlock()](SpaceEngineers.Game.ModAPI.Ingame.IMyLandingGear.Unlock)
+
+> Unlocks the landing gear.
+
 [void GetActions(List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)
 
 > Get all terminal actions available for block  
@@ -353,19 +369,11 @@ public interface IMyLandingGear: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBl
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[void Lock()](SpaceEngineers.Game.ModAPI.Ingame.IMyLandingGear.Lock)
-
-> Locks the landing gear.
-
 [void RequestEnable(bool enable)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)
 
 > _**Obsolete:** Use the setter of Enabled_  
 >   
 > _Inherited from [IMyFunctionalBlock](Sandbox.ModAPI.Ingame.IMyFunctionalBlock)_
-
-[void ResetAutoLock()](SpaceEngineers.Game.ModAPI.Ingame.IMyLandingGear.ResetAutoLock)
-
-> Resets autolock timer
 
 [void SearchActionsOfName(string name, List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.SearchActionsOfName)
 
@@ -388,14 +396,6 @@ public interface IMyLandingGear: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBl
 > _**Obsolete:** Use the setter of Customname_  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[void ToggleLock()](SpaceEngineers.Game.ModAPI.Ingame.IMyLandingGear.ToggleLock)
-
-> Toggles the landing gear lock.
-
-[void Unlock()](SpaceEngineers.Game.ModAPI.Ingame.IMyLandingGear.Unlock)
-
-> Unlocks the landing gear.
 
 [void UpdateIsWorking()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.UpdateIsWorking)
 

@@ -23,15 +23,33 @@ Describes Air Vent block (PB scripting interface)
 
 #### Properties
 
+[bool CanPressurize { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyAirVent.CanPressurize)
+
+> Gets whether this vent can pressurize. If so room is airtight.
+
+[bool Depressurize { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyAirVent.Depressurize)
+
+> Gets whether this vent is in depressurize state
+
+[bool IsDepressurizing { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyAirVent.IsDepressurizing)
+
+> _**Obsolete:** IsDepressurizing is deprecated, please use Depressurize instead._  
+>   
+> Gets whether this vet is depressurizing
+
+[bool PressurizationEnabled { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyAirVent.PressurizationEnabled)
+
+> Gets whether this vent has pressurization enabled.
+
+[VentStatus Status { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyAirVent.Status)
+
+> Gets the current air vent status
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[bool CanPressurize { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyAirVent.CanPressurize)
-
-> Gets whether this vent can pressurize. If so room is airtight.
 
 [bool Closed { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Closed)
 
@@ -80,10 +98,6 @@ Describes Air Vent block (PB scripting interface)
 > Definition name  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[bool Depressurize { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyAirVent.Depressurize)
-
-> Gets whether this vent is in depressurize state
 
 [string DetailedInfo { get; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.DetailedInfo)
 
@@ -138,12 +152,6 @@ Describes Air Vent block (PB scripting interface)
 > Hacking of the block is in progress  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[bool IsDepressurizing { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyAirVent.IsDepressurizing)
-
-> _**Obsolete:** IsDepressurizing is deprecated, please use Depressurize instead._  
->   
-> Gets whether this vet is depressurizing
 
 [bool IsFunctional { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.IsFunctional)
 
@@ -205,10 +213,6 @@ Describes Air Vent block (PB scripting interface)
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[bool PressurizationEnabled { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyAirVent.PressurizationEnabled)
-
-> Gets whether this vent has pressurization enabled.
-
 [bool ShowInInventory { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)
 
 > Represent terminal gui toggle `Show block in Inventory Screen`. Gets or sets its value  
@@ -232,10 +236,6 @@ Describes Air Vent block (PB scripting interface)
 > Represent terminal gui toggle `Show On HUD`. Gets or sets its value  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[VentStatus Status { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyAirVent.Status)
-
-> Gets the current air vent status
 
 [BoundingBoxD WorldAABB { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)
 
@@ -269,6 +269,16 @@ Describes Air Vent block (PB scripting interface)
 
 #### Methods
 
+[float GetOxygenLevel()](SpaceEngineers.Game.ModAPI.Ingame.IMyAirVent.GetOxygenLevel)
+
+> Gets Oxygen level in room
+
+[bool IsPressurized()](SpaceEngineers.Game.ModAPI.Ingame.IMyAirVent.IsPressurized)
+
+> _**Obsolete:** IsPressurized() is deprecated, please use CanPressurize instead._  
+>   
+> Gets whether this vent can be pressurized
+
 [void GetActions(List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)
 
 > Get all terminal actions available for block  
@@ -298,10 +308,6 @@ Describes Air Vent block (PB scripting interface)
 > Tag of faction owning block  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[float GetOxygenLevel()](SpaceEngineers.Game.ModAPI.Ingame.IMyAirVent.GetOxygenLevel)
-
-> Gets Oxygen level in room
 
 [MyRelationsBetweenPlayerAndBlock GetPlayerRelationToOwner()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetPlayerRelationToOwner)
 
@@ -346,12 +352,6 @@ Describes Air Vent block (PB scripting interface)
 > Returns if local player can use block. It is also checking for admin access.  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[bool IsPressurized()](SpaceEngineers.Game.ModAPI.Ingame.IMyAirVent.IsPressurized)
-
-> _**Obsolete:** IsPressurized() is deprecated, please use CanPressurize instead._  
->   
-> Gets whether this vent can be pressurized
 
 [bool IsSameConstructAs(IMyTerminalBlock other)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.IsSameConstructAs)
 

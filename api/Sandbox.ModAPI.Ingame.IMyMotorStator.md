@@ -28,15 +28,51 @@ Describes motor stator block (PB scripting interface)
 
 > Gets the current angle of the rotor in radians.
 
+[float BrakingTorque { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorStator.BrakingTorque)
+
+> Gets or sets the torque applied when stopping the rotor top
+
+[float Displacement { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorStator.Displacement)
+
+> Gets or sets the vertical displacement of the rotor top
+
+[float LowerLimitDeg { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorStator.LowerLimitDeg)
+
+> Gets or sets the lower angle limit of the rotor in degrees. Set to float.MinValue for no limit.
+
+[float LowerLimitRad { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorStator.LowerLimitRad)
+
+> Gets or sets the lower angle limit of the rotor in radians. Set to float.MinValue for no limit.
+
+[bool RotorLock { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorStator.RotorLock)
+
+> Gets or sets rotor lock
+
+[float TargetVelocityRad { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorStator.TargetVelocityRad)
+
+> Gets or sets the desired velocity of the rotor in radians/second
+
+[float TargetVelocityRPM { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorStator.TargetVelocityRPM)
+
+> Gets or sets the desired velocity of the rotor in RPM
+
+[float Torque { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorStator.Torque)
+
+> Gets or sets the torque applied when moving the rotor top
+
+[float UpperLimitDeg { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorStator.UpperLimitDeg)
+
+> Gets or sets the upper angle limit of the rotor in degrees. Set to float.MaxValue for no limit.
+
+[float UpperLimitRad { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorStator.UpperLimitRad)
+
+> Gets or sets the upper angle limit of the rotor in radians. Set to float.MaxValue for no limit.
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[float BrakingTorque { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorStator.BrakingTorque)
-
-> Gets or sets the torque applied when stopping the rotor top
 
 [bool Closed { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Closed)
 
@@ -97,10 +133,6 @@ Describes motor stator block (PB scripting interface)
 > Is set in definition Ratio at which is the block disassembled (grinding) Bigger values - longer grinding  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[float Displacement { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorStator.Displacement)
-
-> Gets or sets the vertical displacement of the rotor top
 
 [string DisplayName { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.DisplayName)
 
@@ -170,14 +202,6 @@ Describes motor stator block (PB scripting interface)
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[float LowerLimitDeg { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorStator.LowerLimitDeg)
-
-> Gets or sets the lower angle limit of the rotor in degrees. Set to float.MinValue for no limit.
-
-[float LowerLimitRad { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorStator.LowerLimitRad)
-
-> Gets or sets the lower angle limit of the rotor in radians. Set to float.MinValue for no limit.
-
 [float Mass { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.Mass)
 
 > Block mass  
@@ -232,10 +256,6 @@ Describes motor stator block (PB scripting interface)
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[bool RotorLock { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorStator.RotorLock)
-
-> Gets or sets rotor lock
-
 [bool SafetyLock { get; set; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.SafetyLock)
 
 > _**Obsolete:** SafetyLock is no longer supported. This is property dummy property only, for backwards compatibility._  
@@ -276,14 +296,6 @@ Describes motor stator block (PB scripting interface)
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[float TargetVelocityRad { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorStator.TargetVelocityRad)
-
-> Gets or sets the desired velocity of the rotor in radians/second
-
-[float TargetVelocityRPM { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorStator.TargetVelocityRPM)
-
-> Gets or sets the desired velocity of the rotor in RPM
-
 [IMyAttachableTopBlock Top { get; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.Top)
 
 > Gets the attached top part entity  
@@ -295,18 +307,6 @@ Describes motor stator block (PB scripting interface)
 > Gets the grid of the attached top part  
 >   
 > _Inherited from [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)_
-
-[float Torque { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorStator.Torque)
-
-> Gets or sets the torque applied when moving the rotor top
-
-[float UpperLimitDeg { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorStator.UpperLimitDeg)
-
-> Gets or sets the upper angle limit of the rotor in degrees. Set to float.MaxValue for no limit.
-
-[float UpperLimitRad { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorStator.UpperLimitRad)
-
-> Gets or sets the upper angle limit of the rotor in radians. Set to float.MaxValue for no limit.
 
 [BoundingBoxD WorldAABB { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)
 

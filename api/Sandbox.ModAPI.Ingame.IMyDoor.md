@@ -34,6 +34,20 @@ Describes door block (PB scripting interface)
 
 #### Properties
 
+[bool Open { get; }](Sandbox.ModAPI.Ingame.IMyDoor.Open)
+
+> _**Obsolete:** Use the Status property instead_  
+>   
+> Indicates whether door is opened or closed. True when door is opened.
+
+[float OpenRatio { get; }](Sandbox.ModAPI.Ingame.IMyDoor.OpenRatio)
+
+> The current, accurate ratio of the door's current state where 0 is fully closed and 1 is fully open.
+
+[DoorStatus Status { get; }](Sandbox.ModAPI.Ingame.IMyDoor.Status)
+
+> Determines the current general status of the door.
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -184,16 +198,6 @@ Describes door block (PB scripting interface)
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[bool Open { get; }](Sandbox.ModAPI.Ingame.IMyDoor.Open)
-
-> _**Obsolete:** Use the Status property instead_  
->   
-> Indicates whether door is opened or closed. True when door is opened.
-
-[float OpenRatio { get; }](Sandbox.ModAPI.Ingame.IMyDoor.OpenRatio)
-
-> The current, accurate ratio of the door's current state where 0 is fully closed and 1 is fully open.
-
 [MyBlockOrientation Orientation { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.Orientation)
 
 > Returns block orientation in base 6 directions  
@@ -236,10 +240,6 @@ Describes door block (PB scripting interface)
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[DoorStatus Status { get; }](Sandbox.ModAPI.Ingame.IMyDoor.Status)
-
-> Determines the current general status of the door.
-
 [BoundingBoxD WorldAABB { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)
 
 > Gets world axis-aligned bounding box  
@@ -275,6 +275,14 @@ Describes door block (PB scripting interface)
 [void CloseDoor()](Sandbox.ModAPI.Ingame.IMyDoor.CloseDoor)
 
 > Closes the door. See [Status](Sandbox.ModAPI.Ingame.IMyDoor.Status) to get the current status.
+
+[void OpenDoor()](Sandbox.ModAPI.Ingame.IMyDoor.OpenDoor)
+
+> Opens the door. See [Status](Sandbox.ModAPI.Ingame.IMyDoor.Status) to get the current status.
+
+[void ToggleDoor()](Sandbox.ModAPI.Ingame.IMyDoor.ToggleDoor)
+
+> Toggles the open state of this door. See [Status](Sandbox.ModAPI.Ingame.IMyDoor.Status) to get the current status.
 
 [void GetActions(List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)
 
@@ -358,10 +366,6 @@ Describes door block (PB scripting interface)
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[void OpenDoor()](Sandbox.ModAPI.Ingame.IMyDoor.OpenDoor)
-
-> Opens the door. See [Status](Sandbox.ModAPI.Ingame.IMyDoor.Status) to get the current status.
-
 [void RequestEnable(bool enable)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)
 
 > _**Obsolete:** Use the setter of Enabled_  
@@ -389,10 +393,6 @@ Describes door block (PB scripting interface)
 > _**Obsolete:** Use the setter of Customname_  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[void ToggleDoor()](Sandbox.ModAPI.Ingame.IMyDoor.ToggleDoor)
-
-> Toggles the open state of this door. See [Status](Sandbox.ModAPI.Ingame.IMyDoor.Status) to get the current status.
 
 [void UpdateIsWorking()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.UpdateIsWorking)
 

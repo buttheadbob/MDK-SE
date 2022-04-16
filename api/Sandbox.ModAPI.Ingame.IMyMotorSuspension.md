@@ -51,15 +51,89 @@ Describes wheel suspension (PB scripting interface)
 
 > Enables or disables AirShock function.
 
+[bool Brake { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.Brake)
+
+> Gets or sets if brakes are applied to the wheel. This is not a brake override.
+
+[float Damping { get; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.Damping)
+
+> _**Obsolete**_
+
+[float Friction { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.Friction)
+
+> Gets or sets whether suspension friction [0..100]%
+
+[float Height { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.Height)
+
+> Gets or sets whether suspension height in meters. Limited with block definition settings
+
+[bool InvertPropulsion { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.InvertPropulsion)
+
+> Gets or sets whether suspension propulsion is inverted
+
+[bool InvertSteer { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.InvertSteer)
+
+> Gets or sets whether suspension steering is inverted
+
+[bool IsParkingEnabled { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.IsParkingEnabled)
+
+> Gets or sets whether suspension reacts on parking break
+
+[float MaxSteerAngle { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.MaxSteerAngle)
+
+> Gets or sets max steering angle in radians.
+
+[float Power { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.Power)
+
+> Gets or sets whether suspension power [0..100]%
+
+[bool Propulsion { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.Propulsion)
+
+> Gets or sets whether suspension can propulse
+
+[float PropulsionOverride { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.PropulsionOverride)
+
+> Propulsion override proportion, value from -1 to 1.
+
+[float SteerAngle { get; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.SteerAngle)
+
+> Gets suspension current steering angle
+
+[bool Steering { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.Steering)
+
+> Gets or sets whether suspension can steer
+
+[float SteeringOverride { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.SteeringOverride)
+
+> Steering override proportion, value from -1 to 1.
+
+[float SteerReturnSpeed { get; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.SteerReturnSpeed)
+
+> _**Obsolete**_  
+>   
+> Speed at which wheel returns from steering.
+
+[float SteerSpeed { get; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.SteerSpeed)
+
+> _**Obsolete**_  
+>   
+> Speed at which wheel steers.
+
+[float Strength { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.Strength)
+
+> Gets or sets whether suspension strength [0..100]%
+
+[float SuspensionTravel { get; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.SuspensionTravel)
+
+> _**Obsolete**_  
+>   
+> Suspension travel, value from 0 to 1.
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[bool Brake { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.Brake)
-
-> Gets or sets if brakes are applied to the wheel. This is not a brake override.
 
 [bool Closed { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Closed)
 
@@ -103,10 +177,6 @@ Describes wheel suspension (PB scripting interface)
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[float Damping { get; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.Damping)
-
-> _**Obsolete**_
-
 [string DefinitionDisplayNameText { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.DefinitionDisplayNameText)
 
 > Definition name  
@@ -149,33 +219,17 @@ Describes wheel suspension (PB scripting interface)
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
-[float Friction { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.Friction)
-
-> Gets or sets whether suspension friction [0..100]%
-
 [bool HasInventory { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.HasInventory)
 
 > Returns true if this entity has got at least one inventory. Note that one aggregate inventory can contain zero simple inventories => zero will be returned even if GetInventory() != null.  
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
-[float Height { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.Height)
-
-> Gets or sets whether suspension height in meters. Limited with block definition settings
-
 [int InventoryCount { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.InventoryCount)
 
 > Returns the count of the number of inventories this entity has.  
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
-
-[bool InvertPropulsion { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.InvertPropulsion)
-
-> Gets or sets whether suspension propulsion is inverted
-
-[bool InvertSteer { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.InvertSteer)
-
-> Gets or sets whether suspension steering is inverted
 
 [bool IsAttached { get; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.IsAttached)
 
@@ -203,10 +257,6 @@ Describes wheel suspension (PB scripting interface)
 >   
 > _Inherited from [IMyMechanicalConnectionBlock](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock)_
 
-[bool IsParkingEnabled { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.IsParkingEnabled)
-
-> Gets or sets whether suspension reacts on parking break
-
 [bool IsWorking { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.IsWorking)
 
 > True if block is able to do its work depening on block type (is functional, powered, enabled, etc...)  
@@ -224,10 +274,6 @@ Describes wheel suspension (PB scripting interface)
 > Maximum coordinates of grid cells occupied by this block  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[float MaxSteerAngle { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.MaxSteerAngle)
-
-> Gets or sets max steering angle in radians.
 
 [Vector3I Min { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.Min)
 
@@ -271,18 +317,6 @@ Describes wheel suspension (PB scripting interface)
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[float Power { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.Power)
-
-> Gets or sets whether suspension power [0..100]%
-
-[bool Propulsion { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.Propulsion)
-
-> Gets or sets whether suspension can propulse
-
-[float PropulsionOverride { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.PropulsionOverride)
-
-> Propulsion override proportion, value from -1 to 1.
-
 [bool SafetyLock { get; set; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.SafetyLock)
 
 > _**Obsolete:** SafetyLock is no longer supported. This is property dummy property only, for backwards compatibility._  
@@ -322,40 +356,6 @@ Describes wheel suspension (PB scripting interface)
 > Represent terminal gui toggle `Show On HUD`. Gets or sets its value  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[float SteerAngle { get; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.SteerAngle)
-
-> Gets suspension current steering angle
-
-[bool Steering { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.Steering)
-
-> Gets or sets whether suspension can steer
-
-[float SteeringOverride { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.SteeringOverride)
-
-> Steering override proportion, value from -1 to 1.
-
-[float SteerReturnSpeed { get; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.SteerReturnSpeed)
-
-> _**Obsolete**_  
->   
-> Speed at which wheel returns from steering.
-
-[float SteerSpeed { get; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.SteerSpeed)
-
-> _**Obsolete**_  
->   
-> Speed at which wheel steers.
-
-[float Strength { get; set; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.Strength)
-
-> Gets or sets whether suspension strength [0..100]%
-
-[float SuspensionTravel { get; }](Sandbox.ModAPI.Ingame.IMyMotorSuspension.SuspensionTravel)
-
-> _**Obsolete**_  
->   
-> Suspension travel, value from 0 to 1.
 
 [IMyAttachableTopBlock Top { get; }](Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.Top)
 

@@ -25,6 +25,14 @@ Describes conveyor sorter block (PB scripting interface)
 
 #### Properties
 
+[bool DrainAll { get; set; }](Sandbox.ModAPI.Ingame.IMyConveyorSorter.DrainAll)
+
+> Determines whether the sorter should drain any inventories connected to it and push them to the other side - as long as the items passes the filtering as defined by the filter list ( [GetFilterList(List<MyInventoryItemFilter>)](Sandbox.ModAPI.Ingame.IMyConveyorSorter.GetFilterList) ) and [Mode](Sandbox.ModAPI.Ingame.IMyConveyorSorter.Mode) .
+
+[MyConveyorSorterMode Mode { get; }](Sandbox.ModAPI.Ingame.IMyConveyorSorter.Mode)
+
+> Determines the current mode of this sorter.
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -103,10 +111,6 @@ Describes conveyor sorter block (PB scripting interface)
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[bool DrainAll { get; set; }](Sandbox.ModAPI.Ingame.IMyConveyorSorter.DrainAll)
-
-> Determines whether the sorter should drain any inventories connected to it and push them to the other side - as long as the items passes the filtering as defined by the filter list ( [GetFilterList(List<MyInventoryItemFilter>)](Sandbox.ModAPI.Ingame.IMyConveyorSorter.GetFilterList) ) and [Mode](Sandbox.ModAPI.Ingame.IMyConveyorSorter.Mode) .
-
 [bool Enabled { get; set; }](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.Enabled)
 
 > Represents terminal gui toggle. Gets or sets if block is Enabled  
@@ -166,10 +170,6 @@ Describes conveyor sorter block (PB scripting interface)
 > Minimum coordinates of grid cells occupied by this block  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[MyConveyorSorterMode Mode { get; }](Sandbox.ModAPI.Ingame.IMyConveyorSorter.Mode)
-
-> Determines the current mode of this sorter.
 
 [string Name { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Name)
 
@@ -261,6 +261,22 @@ Describes conveyor sorter block (PB scripting interface)
 
 > Adds a single item to the filter list. See [SetFilter(MyConveyorSorterMode, List<MyInventoryItemFilter>)](Sandbox.ModAPI.Ingame.IMyConveyorSorter.SetFilter) to change the filter mode and/or fill the entire list in one go.
 
+[void GetFilterList(List&lt;MyInventoryItemFilter&gt; items)](Sandbox.ModAPI.Ingame.IMyConveyorSorter.GetFilterList)
+
+> Gets the items currently being allowed through or rejected, depending on the [Mode](Sandbox.ModAPI.Ingame.IMyConveyorSorter.Mode) .
+
+[bool IsAllowed(MyDefinitionId id)](Sandbox.ModAPI.Ingame.IMyConveyorSorter.IsAllowed)
+
+> Determines whether a given item type is allowed go through the sorter, depending on the filter list ( [GetFilterList(List<MyInventoryItemFilter>)](Sandbox.ModAPI.Ingame.IMyConveyorSorter.GetFilterList) ) and [Mode](Sandbox.ModAPI.Ingame.IMyConveyorSorter.Mode) .
+
+[void RemoveItem(MyInventoryItemFilter item)](Sandbox.ModAPI.Ingame.IMyConveyorSorter.RemoveItem)
+
+> Removes a single item from the filter list. See [SetFilter(MyConveyorSorterMode, List<MyInventoryItemFilter>)](Sandbox.ModAPI.Ingame.IMyConveyorSorter.SetFilter) to change the filter mode and/or clear the entire list in one go.
+
+[void SetFilter(MyConveyorSorterMode mode, List&lt;MyInventoryItemFilter&gt; items)](Sandbox.ModAPI.Ingame.IMyConveyorSorter.SetFilter)
+
+> Changes the sorter to desired mode and filters the provided items. You can pass in`null`to empty the list.
+
 [void GetActions(List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)
 
 > Get all terminal actions available for block  
@@ -272,10 +288,6 @@ Describes conveyor sorter block (PB scripting interface)
 > Get first found terminal action with name  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[void GetFilterList(List&lt;MyInventoryItemFilter&gt; items)](Sandbox.ModAPI.Ingame.IMyConveyorSorter.GetFilterList)
-
-> Gets the items currently being allowed through or rejected, depending on the [Mode](Sandbox.ModAPI.Ingame.IMyConveyorSorter.Mode) .
 
 [IMyInventory GetInventory()](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)
 
@@ -339,10 +351,6 @@ Describes conveyor sorter block (PB scripting interface)
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[bool IsAllowed(MyDefinitionId id)](Sandbox.ModAPI.Ingame.IMyConveyorSorter.IsAllowed)
-
-> Determines whether a given item type is allowed go through the sorter, depending on the filter list ( [GetFilterList(List<MyInventoryItemFilter>)](Sandbox.ModAPI.Ingame.IMyConveyorSorter.GetFilterList) ) and [Mode](Sandbox.ModAPI.Ingame.IMyConveyorSorter.Mode) .
-
 [bool IsSameConstructAs(IMyTerminalBlock other)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.IsSameConstructAs)
 
 > Determines whether this block is [VRage.Game.ModAPI.GridLinkTypeEnum.Mechanical](https://docs.microsoft.com/en-us/dotnet/api/vrage.game.modapi.gridlinktypeenum.mechanical?view=netframework-4.6) connected to the other. This is any block connected with rotors or pistons or other mechanical devices, but not things like connectors. This will in most cases constitute your complete construct.    
@@ -350,10 +358,6 @@ Describes conveyor sorter block (PB scripting interface)
 > Be aware that using merge blocks combines grids into one, so this function will not filter out grids connected that way. Also be aware that detaching the heads of pistons and rotors will cause this connection to change.  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[void RemoveItem(MyInventoryItemFilter item)](Sandbox.ModAPI.Ingame.IMyConveyorSorter.RemoveItem)
-
-> Removes a single item from the filter list. See [SetFilter(MyConveyorSorterMode, List<MyInventoryItemFilter>)](Sandbox.ModAPI.Ingame.IMyConveyorSorter.SetFilter) to change the filter mode and/or clear the entire list in one go.
 
 [void RequestEnable(bool enable)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)
 
@@ -382,10 +386,6 @@ Describes conveyor sorter block (PB scripting interface)
 > _**Obsolete:** Use the setter of Customname_  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[void SetFilter(MyConveyorSorterMode mode, List&lt;MyInventoryItemFilter&gt; items)](Sandbox.ModAPI.Ingame.IMyConveyorSorter.SetFilter)
-
-> Changes the sorter to desired mode and filters the provided items. You can pass in`null`to empty the list.
 
 [void UpdateIsWorking()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.UpdateIsWorking)
 

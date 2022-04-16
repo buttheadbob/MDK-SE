@@ -35,15 +35,87 @@ Describes Turret Control block (PB scripting interface)
 
 > Gets or Sets rotor for the azimuth angle
 
+[IMyCameraBlock Camera { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.Camera)
+
+> Gets or Sets camera for the block
+
+[IMyMotorStator ElevationRotor { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.ElevationRotor)
+
+> Gets or Sets rotor for the elevation angle
+
+[bool HasTarget { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.HasTarget)
+
+> Gets whether the turret is locked onto a target
+
+[bool IsAimed { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.IsAimed)
+
+> Gets whether this block is aimed at the target
+
+[bool IsUnderControl { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.IsUnderControl)
+
+> Gets whether this block is locally or remotely controlled.
+
+[Vector3 MoveIndicator { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.MoveIndicator)
+
+> Gets movement indicator
+
+[float Range { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.Range)
+
+> Sets or Gets shooting range of the turret
+
+[float RollIndicator { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.RollIndicator)
+
+> Gets roll indicator
+
+[Vector2 RotationIndicator { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.RotationIndicator)
+
+> Gets rotation indicator
+
+[bool TargetCharacters { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.TargetCharacters)
+
+> Gets or Sets if the turret should target characters.
+
+[bool TargetFriends { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.TargetFriends)
+
+> Gets or Sets if the turret should target friends.
+
+[bool TargetLargeGrids { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.TargetLargeGrids)
+
+> Gets or Sets if the turret should target large grids.
+
+[bool TargetMeteors { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.TargetMeteors)
+
+> Gets or Sets if the turret should target meteors.
+
+[bool TargetMissiles { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.TargetMissiles)
+
+> Gets or Sets if the turret should target missiles.
+
+[bool TargetNeutrals { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.TargetNeutrals)
+
+> Gets or Sets if the turret should target neutrals.
+
+[bool TargetSmallGrids { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.TargetSmallGrids)
+
+> Gets or Sets if the turret should target small grids.
+
+[bool TargetStations { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.TargetStations)
+
+> Gets or Sets if the turret should target stations.
+
+[float VelocityMultiplierAzimuthRpm { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.VelocityMultiplierAzimuthRpm)
+
+> Gets or Sets velocity multiplier for azimuth [rpm]
+
+[float VelocityMultiplierElevationRpm { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.VelocityMultiplierElevationRpm)
+
+> Gets or Sets velocity multiplier for elevation [rpm]
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[IMyCameraBlock Camera { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.Camera)
-
-> Gets or Sets camera for the block
 
 [bool Closed { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Closed)
 
@@ -117,10 +189,6 @@ Describes Turret Control block (PB scripting interface)
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[IMyMotorStator ElevationRotor { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.ElevationRotor)
-
-> Gets or Sets rotor for the elevation angle
-
 [bool Enabled { get; set; }](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.Enabled)
 
 > Represents terminal gui toggle. Gets or sets if block is Enabled  
@@ -139,19 +207,11 @@ Describes Turret Control block (PB scripting interface)
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
-[bool HasTarget { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.HasTarget)
-
-> Gets whether the turret is locked onto a target
-
 [int InventoryCount { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.InventoryCount)
 
 > Returns the count of the number of inventories this entity has.  
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
-
-[bool IsAimed { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.IsAimed)
-
-> Gets whether this block is aimed at the target
 
 [bool IsBeingHacked { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.IsBeingHacked)
 
@@ -164,10 +224,6 @@ Describes Turret Control block (PB scripting interface)
 > Gets if integrity is above breaking threshold  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[bool IsUnderControl { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.IsUnderControl)
-
-> Gets whether this block is locally or remotely controlled.
 
 [bool IsWorking { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.IsWorking)
 
@@ -192,10 +248,6 @@ Describes Turret Control block (PB scripting interface)
 > Minimum coordinates of grid cells occupied by this block  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[Vector3 MoveIndicator { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.MoveIndicator)
-
-> Gets movement indicator
 
 [string Name { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Name)
 
@@ -227,18 +279,6 @@ Describes Turret Control block (PB scripting interface)
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[float Range { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.Range)
-
-> Sets or Gets shooting range of the turret
-
-[float RollIndicator { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.RollIndicator)
-
-> Gets roll indicator
-
-[Vector2 RotationIndicator { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.RotationIndicator)
-
-> Gets rotation indicator
-
 [bool ShowInInventory { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)
 
 > Represent terminal gui toggle `Show block in Inventory Screen`. Gets or sets its value  
@@ -262,46 +302,6 @@ Describes Turret Control block (PB scripting interface)
 > Represent terminal gui toggle `Show On HUD`. Gets or sets its value  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[bool TargetCharacters { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.TargetCharacters)
-
-> Gets or Sets if the turret should target characters.
-
-[bool TargetFriends { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.TargetFriends)
-
-> Gets or Sets if the turret should target friends.
-
-[bool TargetLargeGrids { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.TargetLargeGrids)
-
-> Gets or Sets if the turret should target large grids.
-
-[bool TargetMeteors { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.TargetMeteors)
-
-> Gets or Sets if the turret should target meteors.
-
-[bool TargetMissiles { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.TargetMissiles)
-
-> Gets or Sets if the turret should target missiles.
-
-[bool TargetNeutrals { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.TargetNeutrals)
-
-> Gets or Sets if the turret should target neutrals.
-
-[bool TargetSmallGrids { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.TargetSmallGrids)
-
-> Gets or Sets if the turret should target small grids.
-
-[bool TargetStations { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.TargetStations)
-
-> Gets or Sets if the turret should target stations.
-
-[float VelocityMultiplierAzimuthRpm { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.VelocityMultiplierAzimuthRpm)
-
-> Gets or Sets velocity multiplier for azimuth [rpm]
-
-[float VelocityMultiplierElevationRpm { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.VelocityMultiplierElevationRpm)
-
-> Gets or Sets velocity multiplier for elevation [rpm]
 
 [BoundingBoxD WorldAABB { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)
 
@@ -347,6 +347,42 @@ Describes Turret Control block (PB scripting interface)
 
 > Clears tools
 
+[IMyTerminalBlock GetDirectionSource()](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.GetDirectionSource)
+
+> Get block that provides direction of shooting
+
+[Vector3 GetShootDirection()](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.GetShootDirection)
+
+> Get direction of shooting.
+
+[MyDetectedEntityInfo GetTargetedEntity()](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.GetTargetedEntity)
+
+> Gets the turret's current detected entity, if any
+
+[string GetTargetingGroup()](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.GetTargetingGroup)
+
+> Gets current targeting group
+
+[List&lt;string&gt; GetTargetingGroups()](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.GetTargetingGroups)
+
+> Gets all available targeting groups
+
+[void GetTools(List&lt;IMyFunctionalBlock&gt; tools)](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.GetTools)
+
+> Gets tools for the block
+
+[void RemoveTool(IMyFunctionalBlock tool)](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.RemoveTool)
+
+> Removes the tool for the block
+
+[void RemoveTools(List&lt;IMyFunctionalBlock&gt; tool)](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.RemoveTools)
+
+> Removes tools for the block
+
+[void SetTargetingGroup(string groupSubtypeId)](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.SetTargetingGroup)
+
+> Sets current targeting group
+
 [void GetActions(List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)
 
 > Get all terminal actions available for block  
@@ -358,10 +394,6 @@ Describes Turret Control block (PB scripting interface)
 > Get first found terminal action with name  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[IMyTerminalBlock GetDirectionSource()](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.GetDirectionSource)
-
-> Get block that provides direction of shooting
 
 [IMyInventory GetInventory()](VRage.Game.ModAPI.Ingame.IMyEntity.GetInventory)
 
@@ -407,26 +439,6 @@ Describes Turret Control block (PB scripting interface)
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[Vector3 GetShootDirection()](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.GetShootDirection)
-
-> Get direction of shooting.
-
-[MyDetectedEntityInfo GetTargetedEntity()](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.GetTargetedEntity)
-
-> Gets the turret's current detected entity, if any
-
-[string GetTargetingGroup()](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.GetTargetingGroup)
-
-> Gets current targeting group
-
-[List&lt;string&gt; GetTargetingGroups()](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.GetTargetingGroups)
-
-> Gets all available targeting groups
-
-[void GetTools(List&lt;IMyFunctionalBlock&gt; tools)](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.GetTools)
-
-> Gets tools for the block
-
 [MyRelationsBetweenPlayerAndBlock GetUserRelationToOwner(long playerId, MyRelationsBetweenPlayerAndBlock defaultNoUser = MyRelationsBetweenPlayerAndBlock.NoOwnership)](VRage.Game.ModAPI.Ingame.IMyCubeBlock.GetUserRelationToOwner)
 
 > Gets relation to owner of block  
@@ -452,14 +464,6 @@ Describes Turret Control block (PB scripting interface)
 > Be aware that using merge blocks combines grids into one, so this function will not filter out grids connected that way. Also be aware that detaching the heads of pistons and rotors will cause this connection to change.  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[void RemoveTool(IMyFunctionalBlock tool)](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.RemoveTool)
-
-> Removes the tool for the block
-
-[void RemoveTools(List&lt;IMyFunctionalBlock&gt; tool)](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.RemoveTools)
-
-> Removes tools for the block
 
 [void RequestEnable(bool enable)](Sandbox.ModAPI.Ingame.IMyFunctionalBlock.RequestEnable)
 
@@ -488,10 +492,6 @@ Describes Turret Control block (PB scripting interface)
 > _**Obsolete:** Use the setter of Customname_  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[void SetTargetingGroup(string groupSubtypeId)](SpaceEngineers.Game.ModAPI.Ingame.IMyTurretControlBlock.SetTargetingGroup)
-
-> Sets current targeting group
 
 [void UpdateIsWorking()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.UpdateIsWorking)
 

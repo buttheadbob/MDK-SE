@@ -22,6 +22,38 @@ Describes jump drive block (PB scripting interface)
 
 #### Properties
 
+[float CurrentStoredPower { get; }](Sandbox.ModAPI.Ingame.IMyJumpDrive.CurrentStoredPower)
+
+> Gets block stored power
+
+[float JumpDistanceMeters { get; set; }](Sandbox.ModAPI.Ingame.IMyJumpDrive.JumpDistanceMeters)
+
+> Gets or sets jump drive distance in meters.
+
+[float JumpDistanceRatio { get; set; }](Sandbox.ModAPI.Ingame.IMyJumpDrive.JumpDistanceRatio)
+
+> Gets or sets jump drive distance ratio, value from 0 to 1.
+
+[float MaxJumpDistanceMeters { get; }](Sandbox.ModAPI.Ingame.IMyJumpDrive.MaxJumpDistanceMeters)
+
+> Gets maximum jump drive distance.
+
+[float MaxStoredPower { get; }](Sandbox.ModAPI.Ingame.IMyJumpDrive.MaxStoredPower)
+
+> Gets block max stored power
+
+[float MinJumpDistanceMeters { get; }](Sandbox.ModAPI.Ingame.IMyJumpDrive.MinJumpDistanceMeters)
+
+> Gets minimum jump drive distance.
+
+[bool Recharge { get; set; }](Sandbox.ModAPI.Ingame.IMyJumpDrive.Recharge)
+
+> Turns on/off recharging
+
+[MyJumpDriveStatus Status { get; }](Sandbox.ModAPI.Ingame.IMyJumpDrive.Status)
+
+> Gets block status
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -45,10 +77,6 @@ Describes jump drive block (PB scripting interface)
 > Grid in which the block is placed  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[float CurrentStoredPower { get; }](Sandbox.ModAPI.Ingame.IMyJumpDrive.CurrentStoredPower)
-
-> Gets block stored power
 
 [string CustomData { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomData)
 
@@ -146,14 +174,6 @@ Describes jump drive block (PB scripting interface)
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[float JumpDistanceMeters { get; set; }](Sandbox.ModAPI.Ingame.IMyJumpDrive.JumpDistanceMeters)
-
-> Gets or sets jump drive distance in meters.
-
-[float JumpDistanceRatio { get; set; }](Sandbox.ModAPI.Ingame.IMyJumpDrive.JumpDistanceRatio)
-
-> Gets or sets jump drive distance ratio, value from 0 to 1.
-
 [float Mass { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.Mass)
 
 > Block mass  
@@ -166,23 +186,11 @@ Describes jump drive block (PB scripting interface)
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[float MaxJumpDistanceMeters { get; }](Sandbox.ModAPI.Ingame.IMyJumpDrive.MaxJumpDistanceMeters)
-
-> Gets maximum jump drive distance.
-
-[float MaxStoredPower { get; }](Sandbox.ModAPI.Ingame.IMyJumpDrive.MaxStoredPower)
-
-> Gets block max stored power
-
 [Vector3I Min { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.Min)
 
 > Minimum coordinates of grid cells occupied by this block  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[float MinJumpDistanceMeters { get; }](Sandbox.ModAPI.Ingame.IMyJumpDrive.MinJumpDistanceMeters)
-
-> Gets minimum jump drive distance.
 
 [string Name { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Name)
 
@@ -214,10 +222,6 @@ Describes jump drive block (PB scripting interface)
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[bool Recharge { get; set; }](Sandbox.ModAPI.Ingame.IMyJumpDrive.Recharge)
-
-> Turns on/off recharging
-
 [bool ShowInInventory { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)
 
 > Represent terminal gui toggle `Show block in Inventory Screen`. Gets or sets its value  
@@ -241,10 +245,6 @@ Describes jump drive block (PB scripting interface)
 > Represent terminal gui toggle `Show On HUD`. Gets or sets its value  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[MyJumpDriveStatus Status { get; }](Sandbox.ModAPI.Ingame.IMyJumpDrive.Status)
-
-> Gets block status
 
 [BoundingBoxD WorldAABB { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)
 

@@ -25,6 +25,26 @@ Describes assembler block (PB scripting interface)
 
 #### Properties
 
+[bool CooperativeMode { get; set; }](Sandbox.ModAPI.Ingame.IMyAssembler.CooperativeMode)
+
+> Gets or sets whether this assembler should cooperate with other assemblers by adopting parts of their work queue.
+
+[float CurrentProgress { get; }](Sandbox.ModAPI.Ingame.IMyAssembler.CurrentProgress)
+
+> Gets the progress for the item currently in production.
+
+[bool DisassembleEnabled { get; }](Sandbox.ModAPI.Ingame.IMyAssembler.DisassembleEnabled)
+
+> _**Obsolete:** Use the Mode property_
+
+[MyAssemblerMode Mode { get; set; }](Sandbox.ModAPI.Ingame.IMyAssembler.Mode)
+
+> Gets or sets the current work mode of this assembly, whether it's assembling or disassembling.
+
+[bool Repeating { get; set; }](Sandbox.ModAPI.Ingame.IMyAssembler.Repeating)
+
+> Gets or sets whether this assembler should be perpetually repeating its work queue.
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -43,19 +63,11 @@ Describes assembler block (PB scripting interface)
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
-[bool CooperativeMode { get; set; }](Sandbox.ModAPI.Ingame.IMyAssembler.CooperativeMode)
-
-> Gets or sets whether this assembler should cooperate with other assemblers by adopting parts of their work queue.
-
 [IMyCubeGrid CubeGrid { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.CubeGrid)
 
 > Grid in which the block is placed  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[float CurrentProgress { get; }](Sandbox.ModAPI.Ingame.IMyAssembler.CurrentProgress)
-
-> Gets the progress for the item currently in production.
 
 [string CustomData { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.CustomData)
 
@@ -92,10 +104,6 @@ Describes assembler block (PB scripting interface)
 > Gets information about block status. In Control panel bottom right text  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[bool DisassembleEnabled { get; }](Sandbox.ModAPI.Ingame.IMyAssembler.DisassembleEnabled)
-
-> _**Obsolete:** Use the Mode property_
 
 [float DisassembleRatio { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.DisassembleRatio)
 
@@ -193,10 +201,6 @@ Describes assembler block (PB scripting interface)
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[MyAssemblerMode Mode { get; set; }](Sandbox.ModAPI.Ingame.IMyAssembler.Mode)
-
-> Gets or sets the current work mode of this assembly, whether it's assembling or disassembling.
-
 [string Name { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Name)
 
 > Some entities can have uniq name, and game can find them by name [VRage.ModAPI.IMyEntities.TryGetEntityByName(System.String,VRage.ModAPI.IMyEntity@)](https://docs.microsoft.com/en-us/dotnet/api/vrage.modapi.imyentities.trygetentitybyname(system.string,vrage.modapi.imyentity@)?view=netframework-4.6)   
@@ -238,10 +242,6 @@ Describes assembler block (PB scripting interface)
 > Position in grid coordinates  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[bool Repeating { get; set; }](Sandbox.ModAPI.Ingame.IMyAssembler.Repeating)
-
-> Gets or sets whether this assembler should be perpetually repeating its work queue.
 
 [bool ShowInInventory { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)
 

@@ -251,6 +251,18 @@ Describes store block (PB scripting interface)
 
 > Cancels the item (either order or offer).
 
+[void GetPlayerStoreItems(List&lt;MyStoreQueryItem&gt; storeItems)](Sandbox.ModAPI.Ingame.IMyStoreBlock.GetPlayerStoreItems)
+
+> Returns player store items.
+
+[MyStoreInsertResults InsertOffer(MyStoreItemDataSimple item, out long id)](Sandbox.ModAPI.Ingame.IMyStoreBlock.InsertOffer)
+
+> Creates store item offer and returns its id.
+
+[MyStoreInsertResults InsertOrder(MyStoreItemDataSimple item, out long id)](Sandbox.ModAPI.Ingame.IMyStoreBlock.InsertOrder)
+
+> Creates store item order and returns its id.
+
 [void GetActions(List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)
 
 > Get all terminal actions available for block  
@@ -289,10 +301,6 @@ Describes store block (PB scripting interface)
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[void GetPlayerStoreItems(List&lt;MyStoreQueryItem&gt; storeItems)](Sandbox.ModAPI.Ingame.IMyStoreBlock.GetPlayerStoreItems)
-
-> Returns player store items.
-
 [Vector3D GetPosition()](VRage.Game.ModAPI.Ingame.IMyEntity.GetPosition)
 
 > Gets position in world coordinates  
@@ -328,14 +336,6 @@ Describes store block (PB scripting interface)
 > Returns if local player can use block. It is also checking for admin access.  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[MyStoreInsertResults InsertOffer(MyStoreItemDataSimple item, out long id)](Sandbox.ModAPI.Ingame.IMyStoreBlock.InsertOffer)
-
-> Creates store item offer and returns its id.
-
-[MyStoreInsertResults InsertOrder(MyStoreItemDataSimple item, out long id)](Sandbox.ModAPI.Ingame.IMyStoreBlock.InsertOrder)
-
-> Creates store item order and returns its id.
 
 [bool IsSameConstructAs(IMyTerminalBlock other)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.IsSameConstructAs)
 

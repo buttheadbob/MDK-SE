@@ -24,15 +24,33 @@ Spaceball interface
 
 #### Properties
 
+[bool Broadcasting { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall.Broadcasting)
+
+> Gets or sets broadcasting
+
+[float Friction { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall.Friction)
+
+> Ball friction
+
+[bool IsBroadcasting { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall.IsBroadcasting)
+
+> _**Obsolete:** Use IMySpaceBall.Broadcasting_  
+>   
+> Is broadcasting
+
+[float Restitution { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall.Restitution)
+
+> Ball restitution
+
+[float VirtualMass { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall.VirtualMass)
+
+> Virtual mass of ball, in kg
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[bool Broadcasting { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall.Broadcasting)
-
-> Gets or sets broadcasting
 
 [bool Closed { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.Closed)
 
@@ -118,10 +136,6 @@ Spaceball interface
 >   
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
-[float Friction { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall.Friction)
-
-> Ball friction
-
 [bool HasInventory { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.HasInventory)
 
 > Returns true if this entity has got at least one inventory. Note that one aggregate inventory can contain zero simple inventories => zero will be returned even if GetInventory() != null.  
@@ -139,12 +153,6 @@ Spaceball interface
 > Hacking of the block is in progress  
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
-
-[bool IsBroadcasting { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall.IsBroadcasting)
-
-> _**Obsolete:** Use IMySpaceBall.Broadcasting_  
->   
-> Is broadcasting
 
 [bool IsFunctional { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.IsFunctional)
 
@@ -206,10 +214,6 @@ Spaceball interface
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[float Restitution { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall.Restitution)
-
-> Ball restitution
-
 [bool ShowInInventory { get; set; }](Sandbox.ModAPI.Ingame.IMyTerminalBlock.ShowInInventory)
 
 > Represent terminal gui toggle `Show block in Inventory Screen`. Gets or sets its value  
@@ -233,10 +237,6 @@ Spaceball interface
 > Represent terminal gui toggle `Show On HUD`. Gets or sets its value  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[float VirtualMass { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMySpaceBall.VirtualMass)
-
-> Virtual mass of ball, in kg
 
 [float VirtualMass { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyVirtualMass.VirtualMass)
 

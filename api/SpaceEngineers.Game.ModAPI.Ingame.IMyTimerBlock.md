@@ -21,6 +21,18 @@ public interface IMyTimerBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlo
 
 #### Properties
 
+[bool IsCountingDown { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock.IsCountingDown)
+
+> Gets if the timer block is active and counting down
+
+[bool Silent { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock.Silent)
+
+> Gets or sets if the countdown is silent
+
+[float TriggerDelay { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock.TriggerDelay)
+
+> Gets or sets the countdown time, in seconds
+
 [SerializableDefinitionId BlockDefinition { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.BlockDefinition)
 
 > Gets definition.Id assigned to this block  
@@ -129,10 +141,6 @@ public interface IMyTimerBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlo
 >   
 > _Inherited from [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock)_
 
-[bool IsCountingDown { get; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock.IsCountingDown)
-
-> Gets if the timer block is active and counting down
-
 [bool IsFunctional { get; }](VRage.Game.ModAPI.Ingame.IMyCubeBlock.IsFunctional)
 
 > Gets if integrity is above breaking threshold  
@@ -217,14 +225,6 @@ public interface IMyTimerBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlo
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
 
-[bool Silent { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock.Silent)
-
-> Gets or sets if the countdown is silent
-
-[float TriggerDelay { get; set; }](SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock.TriggerDelay)
-
-> Gets or sets the countdown time, in seconds
-
 [BoundingBoxD WorldAABB { get; }](VRage.Game.ModAPI.Ingame.IMyEntity.WorldAABB)
 
 > Gets world axis-aligned bounding box  
@@ -256,6 +256,18 @@ public interface IMyTimerBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlo
 > _Inherited from [IMyEntity](VRage.Game.ModAPI.Ingame.IMyEntity)_
 
 #### Methods
+
+[void StartCountdown()](SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock.StartCountdown)
+
+> Begin countdown
+
+[void StopCountdown()](SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock.StopCountdown)
+
+> Stops current countdown
+
+[void Trigger()](SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock.Trigger)
+
+> Trigger immediately, skips countdown
 
 [void GetActions(List&lt;ITerminalAction&gt; resultList, Func&lt;ITerminalAction, bool&gt; collect = null)](Sandbox.ModAPI.Ingame.IMyTerminalBlock.GetActions)
 
@@ -366,18 +378,6 @@ public interface IMyTimerBlock: IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlo
 > _**Obsolete:** Use the setter of Customname_  
 >   
 > _Inherited from [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock)_
-
-[void StartCountdown()](SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock.StartCountdown)
-
-> Begin countdown
-
-[void StopCountdown()](SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock.StopCountdown)
-
-> Stops current countdown
-
-[void Trigger()](SpaceEngineers.Game.ModAPI.Ingame.IMyTimerBlock.Trigger)
-
-> Trigger immediately, skips countdown
 
 [void UpdateIsWorking()](VRage.Game.ModAPI.Ingame.IMyCubeBlock.UpdateIsWorking)
 

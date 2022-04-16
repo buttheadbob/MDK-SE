@@ -55,8 +55,8 @@ Defines an axis-aligned box-shaped 3D volume.
 |[void Contains(ref Vector2I, out ContainmentType)](VRageMath.BoundingBox2I.Contains)|Tests whether the BoundingBox2I contains a point.|
 |[bool Equals(BoundingBox2I)](VRageMath.BoundingBox2I.Equals)|Determines whether two instances of BoundingBox2I are equal.|
 |[bool Equals(object)](VRageMath.BoundingBox2I.Equals)|Determines whether two instances of BoundingBox2I are equal.|
-|[Vector2I\[] GetCorners()](VRageMath.BoundingBox2I.GetCorners)|Gets an array of points that make up the corners of the BoundingBox2I.|
-|[void GetCorners(Vector2I\[])](VRageMath.BoundingBox2I.GetCorners)|Gets the array of points that make up the corners of the BoundingBox2I.|
+|[Vector2I\[\] GetCorners()](VRageMath.BoundingBox2I.GetCorners)|Gets an array of points that make up the corners of the BoundingBox2I.|
+|[void GetCorners(Vector2I\[\])](VRageMath.BoundingBox2I.GetCorners)|Gets the array of points that make up the corners of the BoundingBox2I.|
 |[void GetCornersUnsafe(*Vector2I)](VRageMath.BoundingBox2I.GetCornersUnsafe)||
 |[int GetHashCode()](VRageMath.BoundingBox2I.GetHashCode)|Gets the hash code for this instance.|
 |[BoundingBox2I GetIncluded(Vector2I)](VRageMath.BoundingBox2I.GetIncluded)||

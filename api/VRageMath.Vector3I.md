@@ -55,7 +55,7 @@ public struct Vector3I: IEquatable<Vector3I>, IComparable<Vector3I>
 |[Vector3I(Vector3D)](VRageMath.Vector3I..ctor)||
 |[Vector3I(Vector3S)](VRageMath.Vector3I..ctor)||
 |[Vector3I(float, float, float)](VRageMath.Vector3I..ctor)||
-|[Vector3I(Byte\[], int)](VRageMath.Vector3I..ctor)||
+|[Vector3I(Byte\[\], int)](VRageMath.Vector3I..ctor)||
 
 #### Methods
 

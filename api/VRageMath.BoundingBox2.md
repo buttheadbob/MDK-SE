@@ -56,8 +56,8 @@ Defines an axis-aligned box-shaped 3D volume.
 |[float Distance(Vector2)](VRageMath.BoundingBox2.Distance)||
 |[bool Equals(BoundingBox2)](VRageMath.BoundingBox2.Equals)|Determines whether two instances of BoundingBox2 are equal.|
 |[bool Equals(object)](VRageMath.BoundingBox2.Equals)|Determines whether two instances of BoundingBox2 are equal.|
-|[Vector2\[] GetCorners()](VRageMath.BoundingBox2.GetCorners)|Gets an array of points that make up the corners of the BoundingBox2.|
-|[void GetCorners(Vector2\[])](VRageMath.BoundingBox2.GetCorners)|Gets the array of points that make up the corners of the BoundingBox2.|
+|[Vector2\[\] GetCorners()](VRageMath.BoundingBox2.GetCorners)|Gets an array of points that make up the corners of the BoundingBox2.|
+|[void GetCorners(Vector2\[\])](VRageMath.BoundingBox2.GetCorners)|Gets the array of points that make up the corners of the BoundingBox2.|
 |[void GetCornersUnsafe(*Vector2)](VRageMath.BoundingBox2.GetCornersUnsafe)||
 |[int GetHashCode()](VRageMath.BoundingBox2.GetHashCode)|Gets the hash code for this instance.|
 |[BoundingBox2 GetIncluded(Vector2)](VRageMath.BoundingBox2.GetIncluded)||

@@ -29,7 +29,7 @@ public struct MySprite: IEquatable<MySprite>
 
 |Member|Description|
 |---|---|
-|[MySprite(\[SpriteType], \[string], \[Vector2?], \[Vector2?], \[Color?], \[string], \[TextAlignment], \[float])](VRage.Game.GUI.TextPanel.MySprite..ctor)||
+|[MySprite(\[SpriteType\], \[string\], \[Vector2?\], \[Vector2?\], \[Color?\], \[string\], \[TextAlignment\], \[float\])](VRage.Game.GUI.TextPanel.MySprite..ctor)||
 
 #### Methods
 
@@ -38,7 +38,7 @@ public struct MySprite: IEquatable<MySprite>
 |[static MySprite CreateClearClipRect()](VRage.Game.GUI.TextPanel.MySprite.CreateClearClipRect)||
 |[static MySprite CreateClipRect(Rectangle)](VRage.Game.GUI.TextPanel.MySprite.CreateClipRect)||
 |[static MySprite CreateSprite(string, Vector2, Vector2)](VRage.Game.GUI.TextPanel.MySprite.CreateSprite)||
-|[static MySprite CreateText(string, string, Color, \[float], \[TextAlignment])](VRage.Game.GUI.TextPanel.MySprite.CreateText)||
+|[static MySprite CreateText(string, string, Color, \[float\], \[TextAlignment\])](VRage.Game.GUI.TextPanel.MySprite.CreateText)||
 |[bool Equals(MySprite)](VRage.Game.GUI.TextPanel.MySprite.Equals)||
 |[bool Equals(object)](VRage.Game.GUI.TextPanel.MySprite.Equals)||
 |[int GetHashCode()](VRage.Game.GUI.TextPanel.MySprite.GetHashCode)||

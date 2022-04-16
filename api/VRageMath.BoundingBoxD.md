@@ -69,8 +69,8 @@ Defines an axis-aligned box-shaped 3D volume.
 |[bool Equals(BoundingBoxD)](VRageMath.BoundingBoxD.Equals)|Determines whether two instances of BoundingBox are equal.|
 |[bool Equals(object)](VRageMath.BoundingBoxD.Equals)|Determines whether two instances of BoundingBox are equal.|
 |[bool Equals(BoundingBoxD, double)](VRageMath.BoundingBoxD.Equals)||
-|[Vector3D\[] GetCorners()](VRageMath.BoundingBoxD.GetCorners)|Gets an array of points that make up the corners of the BoundingBox. ALLOCATION!|
-|[void GetCorners(Vector3D\[])](VRageMath.BoundingBoxD.GetCorners)|Gets the array of points that make up the corners of the BoundingBox.|
+|[Vector3D\[\] GetCorners()](VRageMath.BoundingBoxD.GetCorners)|Gets an array of points that make up the corners of the BoundingBox. ALLOCATION!|
+|[void GetCorners(Vector3D\[\])](VRageMath.BoundingBoxD.GetCorners)|Gets the array of points that make up the corners of the BoundingBox.|
 |[void GetCornersUnsafe(*Vector3D)](VRageMath.BoundingBoxD.GetCornersUnsafe)||
 |[int GetHashCode()](VRageMath.BoundingBoxD.GetHashCode)|Gets the hash code for this instance.|
 |[BoundingBoxD GetInflated(double)](VRageMath.BoundingBoxD.GetInflated)||

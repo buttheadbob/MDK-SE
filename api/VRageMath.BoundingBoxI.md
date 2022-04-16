@@ -59,8 +59,8 @@ Defines an axis-aligned box-shaped 3D volume.
 |[float Distance(Vector3I)](VRageMath.BoundingBoxI.Distance)||
 |[bool Equals(BoundingBoxI)](VRageMath.BoundingBoxI.Equals)|Determines whether two instances of BoundingBoxI are equal.|
 |[bool Equals(object)](VRageMath.BoundingBoxI.Equals)|Determines whether two instances of BoundingBoxI are equal.|
-|[Vector3I\[] GetCorners()](VRageMath.BoundingBoxI.GetCorners)|Gets an array of points that make up the corners of the BoundingBoxI.|
-|[void GetCorners(Vector3I\[])](VRageMath.BoundingBoxI.GetCorners)|Gets the array of points that make up the corners of the BoundingBoxI.|
+|[Vector3I\[\] GetCorners()](VRageMath.BoundingBoxI.GetCorners)|Gets an array of points that make up the corners of the BoundingBoxI.|
+|[void GetCorners(Vector3I\[\])](VRageMath.BoundingBoxI.GetCorners)|Gets the array of points that make up the corners of the BoundingBoxI.|
 |[void GetCornersUnsafe(*Vector3I)](VRageMath.BoundingBoxI.GetCornersUnsafe)||
 |[int GetHashCode()](VRageMath.BoundingBoxI.GetHashCode)|Gets the hash code for this instance.|
 |[BoundingBoxI GetIncluded(Vector3I)](VRageMath.BoundingBoxI.GetIncluded)||

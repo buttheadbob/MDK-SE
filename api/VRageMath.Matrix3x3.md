@@ -106,7 +106,7 @@ Defines a matrix.
 |[float Determinant()](VRageMath.Matrix3x3.Determinant)||
 |[bool Equals(Matrix3x3)](VRageMath.Matrix3x3.Equals)|Determines whether the specified Object is equal to the Matrix3x3.|
 |[bool Equals(object)](VRageMath.Matrix3x3.Equals)|Returns a value that indicates whether the current instance is equal to a specified object.|
-|[bool EqualsFast(ref Matrix3x3, \[float])](VRageMath.Matrix3x3.EqualsFast)|Compares just position, forward and up|
+|[bool EqualsFast(ref Matrix3x3, \[float\])](VRageMath.Matrix3x3.EqualsFast)|Compares just position, forward and up|
 |[Direction GetClosestDirection(Vector3)](VRageMath.Matrix3x3.GetClosestDirection)||
 |[Direction GetClosestDirection(ref Vector3)](VRageMath.Matrix3x3.GetClosestDirection)||
 |[Vector3 GetDirectionVector(Direction)](VRageMath.Matrix3x3.GetDirectionVector)||

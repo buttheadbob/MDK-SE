@@ -23,7 +23,7 @@ public struct Line
 
 |Member|Description|
 |---|---|
-|[Line(Vector3, Vector3, \[bool])](VRageMath.Line..ctor)||
+|[Line(Vector3, Vector3, \[bool\])](VRageMath.Line..ctor)||
 
 #### Methods
 

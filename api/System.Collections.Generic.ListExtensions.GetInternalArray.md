@@ -8,7 +8,7 @@ public static T[] GetInternalArray<T>(this List<T> list)
 
 ### Returns
 
-[T\[]]()
+[T\[\]]()
 
 ### Parameters
 

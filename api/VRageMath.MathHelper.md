@@ -48,7 +48,7 @@ Contains commonly used precalculated values.
 |[static double Clamp(double, double, double)](VRageMath.MathHelper.Clamp)|Restricts a value to be within a specified range. Reference page contains links to related code samples.|
 |[static MyFixedPoint Clamp(MyFixedPoint, MyFixedPoint, MyFixedPoint)](VRageMath.MathHelper.Clamp)|Restricts a value to be within a specified range. Reference page contains links to related code samples.|
 |[static int Clamp(int, int, int)](VRageMath.MathHelper.Clamp)|Restricts a value to be within a specified range. Reference page contains links to related code samples.|
-|[static int ComputeHashFromBytes(Byte\[])](VRageMath.MathHelper.ComputeHashFromBytes)||
+|[static int ComputeHashFromBytes(Byte\[\])](VRageMath.MathHelper.ComputeHashFromBytes)||
 |[static double CubicInterp(double, double, double, double, double)](VRageMath.MathHelper.CubicInterp)||
 |[static float Distance(float, float)](VRageMath.MathHelper.Distance)|Calculates the absolute value of the difference of two values.|
 |[static int Floor(float)](VRageMath.MathHelper.Floor)||
@@ -81,11 +81,11 @@ Contains commonly used precalculated values.
 |[static bool IsValid(Quaternion)](VRageMath.MathHelper.IsValid)||
 |[static bool IsValidNormal(Vector3)](VRageMath.MathHelper.IsValidNormal)||
 |[static bool IsValidOrZero(Matrix)](VRageMath.MathHelper.IsValidOrZero)||
-|[static bool IsZero(float, \[float])](VRageMath.MathHelper.IsZero)||
-|[static bool IsZero(double, \[float])](VRageMath.MathHelper.IsZero)||
-|[static bool IsZero(Vector3, \[float])](VRageMath.MathHelper.IsZero)||
-|[static bool IsZero(Vector3D, \[float])](VRageMath.MathHelper.IsZero)||
-|[static bool IsZero(Quaternion, \[float])](VRageMath.MathHelper.IsZero)||
+|[static bool IsZero(float, \[float\])](VRageMath.MathHelper.IsZero)||
+|[static bool IsZero(double, \[float\])](VRageMath.MathHelper.IsZero)||
+|[static bool IsZero(Vector3, \[float\])](VRageMath.MathHelper.IsZero)||
+|[static bool IsZero(Vector3D, \[float\])](VRageMath.MathHelper.IsZero)||
+|[static bool IsZero(Quaternion, \[float\])](VRageMath.MathHelper.IsZero)||
 |[static bool IsZero(Vector4)](VRageMath.MathHelper.IsZero)||
 |[static float Lerp(float, float, float)](VRageMath.MathHelper.Lerp)|Linearly interpolates between two values.|
 |[static double Lerp(double, double, double)](VRageMath.MathHelper.Lerp)|Linearly interpolates between two values.|

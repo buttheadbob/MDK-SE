@@ -13,7 +13,7 @@ public class MyCuboid
 
 |Member|Description|
 |---|---|
-|[MyCuboidSide\[] Sides](VRageMath.MyCuboid.Sides)||
+|[MyCuboidSide\[\] Sides](VRageMath.MyCuboid.Sides)||
 
 #### Properties
 
@@ -33,7 +33,7 @@ public class MyCuboid
 |Member|Description|
 |---|---|
 |[void CreateFromSizes(float, float, float, float, float)](VRageMath.MyCuboid.CreateFromSizes)||
-|[void CreateFromVertices(Vector3\[])](VRageMath.MyCuboid.CreateFromVertices)||
+|[void CreateFromVertices(Vector3\[\])](VRageMath.MyCuboid.CreateFromVertices)||
 |[MyCuboid CreateTransformed(ref Matrix)](VRageMath.MyCuboid.CreateTransformed)||
 |[BoundingBox GetAABB()](VRageMath.MyCuboid.GetAABB)||
 |[BoundingBox GetLocalAABB()](VRageMath.MyCuboid.GetLocalAABB)||

@@ -94,14 +94,14 @@ Defines a vector with two components.
 |[static void Transform(ref Vector2, ref Matrix, out Vector2)](VRageMath.Vector2.Transform)|Transforms a Vector2 by the given Matrix.|
 |[static Vector2 Transform(Vector2, Quaternion)](VRageMath.Vector2.Transform)|Transforms a single Vector2, or the vector normal (x, y, 0, 0), by a specified Quaternion rotation.|
 |[static void Transform(ref Vector2, ref Quaternion, out Vector2)](VRageMath.Vector2.Transform)|Transforms a Vector2, or the vector normal (x, y, 0, 0), by a specified Quaternion rotation.|
-|[static void Transform(Vector2\[], ref Matrix, Vector2\[])](VRageMath.Vector2.Transform)|Transforms an array of Vector2s by a specified Matrix.|
-|[static void Transform(Vector2\[], int, ref Matrix, Vector2\[], int, int)](VRageMath.Vector2.Transform)|Transforms a specified range in an array of Vector2s by a specified Matrix and places the results in a specified range in a destination array.|
-|[static void Transform(Vector2\[], ref Quaternion, Vector2\[])](VRageMath.Vector2.Transform)|Transforms an array of Vector2s by a specified Quaternion.|
-|[static void Transform(Vector2\[], int, ref Quaternion, Vector2\[], int, int)](VRageMath.Vector2.Transform)|Transforms a specified range in an array of Vector2s by a specified Quaternion and places the results in a specified range in a destination array.|
+|[static void Transform(Vector2\[\], ref Matrix, Vector2\[\])](VRageMath.Vector2.Transform)|Transforms an array of Vector2s by a specified Matrix.|
+|[static void Transform(Vector2\[\], int, ref Matrix, Vector2\[\], int, int)](VRageMath.Vector2.Transform)|Transforms a specified range in an array of Vector2s by a specified Matrix and places the results in a specified range in a destination array.|
+|[static void Transform(Vector2\[\], ref Quaternion, Vector2\[\])](VRageMath.Vector2.Transform)|Transforms an array of Vector2s by a specified Quaternion.|
+|[static void Transform(Vector2\[\], int, ref Quaternion, Vector2\[\], int, int)](VRageMath.Vector2.Transform)|Transforms a specified range in an array of Vector2s by a specified Quaternion and places the results in a specified range in a destination array.|
 |[static Vector2 TransformNormal(Vector2, Matrix)](VRageMath.Vector2.TransformNormal)|Transforms a 2D vector normal by a matrix.|
 |[static void TransformNormal(ref Vector2, ref Matrix, out Vector2)](VRageMath.Vector2.TransformNormal)|Transforms a vector normal by a matrix.|
-|[static void TransformNormal(Vector2\[], ref Matrix, Vector2\[])](VRageMath.Vector2.TransformNormal)|Transforms an array of Vector2 vector normals by a specified Matrix.|
-|[static void TransformNormal(Vector2\[], int, ref Matrix, Vector2\[], int, int)](VRageMath.Vector2.TransformNormal)|Transforms a specified range in an array of Vector2 vector normals by a specified Matrix and places the results in a specified range in a destination array.|
+|[static void TransformNormal(Vector2\[\], ref Matrix, Vector2\[\])](VRageMath.Vector2.TransformNormal)|Transforms an array of Vector2 vector normals by a specified Matrix.|
+|[static void TransformNormal(Vector2\[\], int, ref Matrix, Vector2\[\], int, int)](VRageMath.Vector2.TransformNormal)|Transforms a specified range in an array of Vector2 vector normals by a specified Matrix and places the results in a specified range in a destination array.|
 |[void AssertIsValid()](VRageMath.Vector2.AssertIsValid)||
 |[bool Between(ref Vector2, ref Vector2)](VRageMath.Vector2.Between)||
 |[bool Equals(Vector2)](VRageMath.Vector2.Equals)|Determines whether the specified Object is equal to the Vector2.|

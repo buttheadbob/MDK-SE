@@ -161,11 +161,11 @@ Defines a matrix.
 |[static void Transform(ref MatrixD, ref Quaternion, out MatrixD)](VRageMath.MatrixD.Transform)|Transforms a Matrix by applying a Quaternion rotation.|
 |[static MatrixD Transpose(MatrixD)](VRageMath.MatrixD.Transpose)|Transposes the rows and columns of a matrix.|
 |[static void Transpose(ref MatrixD, out MatrixD)](VRageMath.MatrixD.Transpose)|Transposes the rows and columns of a matrix.|
-|[void AssertIsValid(\[string])](VRageMath.MatrixD.AssertIsValid)||
+|[void AssertIsValid(\[string\])](VRageMath.MatrixD.AssertIsValid)||
 |[double Determinant()](VRageMath.MatrixD.Determinant)|Calculates the determinant of the matrix.|
 |[bool Equals(MatrixD)](VRageMath.MatrixD.Equals)|Determines whether the specified Object is equal to the Matrix.|
 |[bool Equals(object)](VRageMath.MatrixD.Equals)|Returns a value that indicates whether the current instance is equal to a specified object.|
-|[bool EqualsFast(ref MatrixD, \[double])](VRageMath.MatrixD.EqualsFast)|Compares just position, forward and up|
+|[bool EqualsFast(ref MatrixD, \[double\])](VRageMath.MatrixD.EqualsFast)|Compares just position, forward and up|
 |[Direction GetClosestDirection(Vector3D)](VRageMath.MatrixD.GetClosestDirection)||
 |[Direction GetClosestDirection(ref Vector3D)](VRageMath.MatrixD.GetClosestDirection)||
 |[Vector3D GetDirectionVector(Direction)](VRageMath.MatrixD.GetDirectionVector)||

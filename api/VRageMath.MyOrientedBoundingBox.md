@@ -17,20 +17,20 @@ public struct MyOrientedBoundingBox: IEquatable<MyOrientedBoundingBox>
 |Member|Description|
 |---|---|
 |[static int CornerCount](VRageMath.MyOrientedBoundingBox.CornerCount)||
-|[static Int32\[] EndVertices](VRageMath.MyOrientedBoundingBox.EndVertices)||
-|[static Int32\[] EndXVertices](VRageMath.MyOrientedBoundingBox.EndXVertices)||
-|[static Int32\[] EndYVertices](VRageMath.MyOrientedBoundingBox.EndYVertices)||
-|[static Int32\[] EndZVertices](VRageMath.MyOrientedBoundingBox.EndZVertices)||
-|[static Int32\[] StartVertices](VRageMath.MyOrientedBoundingBox.StartVertices)||
-|[static Int32\[] StartXVertices](VRageMath.MyOrientedBoundingBox.StartXVertices)||
-|[static Int32\[] StartYVertices](VRageMath.MyOrientedBoundingBox.StartYVertices)||
-|[static Int32\[] StartZVertices](VRageMath.MyOrientedBoundingBox.StartZVertices)||
-|[static Vector3\[] XNeighbourVectorsBack](VRageMath.MyOrientedBoundingBox.XNeighbourVectorsBack)||
-|[static Vector3\[] XNeighbourVectorsForw](VRageMath.MyOrientedBoundingBox.XNeighbourVectorsForw)||
-|[static Vector3\[] YNeighbourVectorsBack](VRageMath.MyOrientedBoundingBox.YNeighbourVectorsBack)||
-|[static Vector3\[] YNeighbourVectorsForw](VRageMath.MyOrientedBoundingBox.YNeighbourVectorsForw)||
-|[static Vector3\[] ZNeighbourVectorsBack](VRageMath.MyOrientedBoundingBox.ZNeighbourVectorsBack)||
-|[static Vector3\[] ZNeighbourVectorsForw](VRageMath.MyOrientedBoundingBox.ZNeighbourVectorsForw)||
+|[static Int32\[\] EndVertices](VRageMath.MyOrientedBoundingBox.EndVertices)||
+|[static Int32\[\] EndXVertices](VRageMath.MyOrientedBoundingBox.EndXVertices)||
+|[static Int32\[\] EndYVertices](VRageMath.MyOrientedBoundingBox.EndYVertices)||
+|[static Int32\[\] EndZVertices](VRageMath.MyOrientedBoundingBox.EndZVertices)||
+|[static Int32\[\] StartVertices](VRageMath.MyOrientedBoundingBox.StartVertices)||
+|[static Int32\[\] StartXVertices](VRageMath.MyOrientedBoundingBox.StartXVertices)||
+|[static Int32\[\] StartYVertices](VRageMath.MyOrientedBoundingBox.StartYVertices)||
+|[static Int32\[\] StartZVertices](VRageMath.MyOrientedBoundingBox.StartZVertices)||
+|[static Vector3\[\] XNeighbourVectorsBack](VRageMath.MyOrientedBoundingBox.XNeighbourVectorsBack)||
+|[static Vector3\[\] XNeighbourVectorsForw](VRageMath.MyOrientedBoundingBox.XNeighbourVectorsForw)||
+|[static Vector3\[\] YNeighbourVectorsBack](VRageMath.MyOrientedBoundingBox.YNeighbourVectorsBack)||
+|[static Vector3\[\] YNeighbourVectorsForw](VRageMath.MyOrientedBoundingBox.YNeighbourVectorsForw)||
+|[static Vector3\[\] ZNeighbourVectorsBack](VRageMath.MyOrientedBoundingBox.ZNeighbourVectorsBack)||
+|[static Vector3\[\] ZNeighbourVectorsForw](VRageMath.MyOrientedBoundingBox.ZNeighbourVectorsForw)||
 |[Vector3 Center](VRageMath.MyOrientedBoundingBox.Center)||
 |[Vector3 HalfExtent](VRageMath.MyOrientedBoundingBox.HalfExtent)||
 |[Quaternion Orientation](VRageMath.MyOrientedBoundingBox.Orientation)||
@@ -62,7 +62,7 @@ public struct MyOrientedBoundingBox: IEquatable<MyOrientedBoundingBox>
 |[bool Equals(MyOrientedBoundingBox)](VRageMath.MyOrientedBoundingBox.Equals)||
 |[bool Equals(object)](VRageMath.MyOrientedBoundingBox.Equals)||
 |[BoundingBox GetAABB()](VRageMath.MyOrientedBoundingBox.GetAABB)||
-|[void GetCorners(Vector3\[], int)](VRageMath.MyOrientedBoundingBox.GetCorners)||
+|[void GetCorners(Vector3\[\], int)](VRageMath.MyOrientedBoundingBox.GetCorners)||
 |[int GetHashCode()](VRageMath.MyOrientedBoundingBox.GetHashCode)||
 |[bool Intersects(ref BoundingBox)](VRageMath.MyOrientedBoundingBox.Intersects)||
 |[bool Intersects(ref MyOrientedBoundingBox)](VRageMath.MyOrientedBoundingBox.Intersects)||

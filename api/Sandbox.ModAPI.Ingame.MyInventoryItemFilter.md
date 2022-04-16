@@ -26,6 +26,6 @@ public struct MyInventoryItemFilter
 
 |Member|Description|
 |---|---|
-|[MyInventoryItemFilter(string, \[bool])](Sandbox.ModAPI.Ingame.MyInventoryItemFilter..ctor)||
-|[MyInventoryItemFilter(MyDefinitionId, \[bool])](Sandbox.ModAPI.Ingame.MyInventoryItemFilter..ctor)||
+|[MyInventoryItemFilter(string, \[bool\])](Sandbox.ModAPI.Ingame.MyInventoryItemFilter..ctor)||
+|[MyInventoryItemFilter(MyDefinitionId, \[bool\])](Sandbox.ModAPI.Ingame.MyInventoryItemFilter..ctor)||
 

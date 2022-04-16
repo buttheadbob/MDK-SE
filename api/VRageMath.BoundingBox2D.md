@@ -57,8 +57,8 @@ Defines an axis-aligned box-shaped 2D volume.
 |[double Distance(Vector2D)](VRageMath.BoundingBox2D.Distance)||
 |[bool Equals(BoundingBox2D)](VRageMath.BoundingBox2D.Equals)|Determines whether two instances of BoundingBox2D are equal.|
 |[bool Equals(object)](VRageMath.BoundingBox2D.Equals)|Determines whether two instances of BoundingBox2D are equal.|
-|[Vector2D\[] GetCorners()](VRageMath.BoundingBox2D.GetCorners)|Gets an array of points that make up the corners of the BoundingBox2D.|
-|[void GetCorners(Vector2D\[])](VRageMath.BoundingBox2D.GetCorners)|Gets the array of points that make up the corners of the BoundingBox2D.|
+|[Vector2D\[\] GetCorners()](VRageMath.BoundingBox2D.GetCorners)|Gets an array of points that make up the corners of the BoundingBox2D.|
+|[void GetCorners(Vector2D\[\])](VRageMath.BoundingBox2D.GetCorners)|Gets the array of points that make up the corners of the BoundingBox2D.|
 |[void GetCornersUnsafe(*Vector2D)](VRageMath.BoundingBox2D.GetCornersUnsafe)||
 |[int GetHashCode()](VRageMath.BoundingBox2D.GetHashCode)|Gets the hash code for this instance.|
 |[BoundingBox2D GetIncluded(Vector2D)](VRageMath.BoundingBox2D.GetIncluded)||

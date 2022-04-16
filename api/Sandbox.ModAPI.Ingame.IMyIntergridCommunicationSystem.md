@@ -26,6 +26,6 @@ This is the entry point for all communication operations.
 |[void GetBroadcastListeners(List<Sandbox.ModAPI.Ingame.IMyBroadcastListener>, [Func<Sandbox.ModAPI.Ingame.IMyBroadcastListener, System.Boolean>])](Sandbox.ModAPI.Ingame.IMyIntergridCommunicationSystem.GetBroadcastListeners)|Retrieves list of all active broadcast listeners and listeners with pending messages, registered by current programmable block. Returned list is snapshot of current state and is not updated by future operations.|
 |[bool IsEndpointReachable(long, [TransmissionDistance])](Sandbox.ModAPI.Ingame.IMyIntergridCommunicationSystem.IsEndpointReachable)|Determines if given endpoint is currently reachable. Similar to sending ICMP message.|
 |[IMyBroadcastListener RegisterBroadcastListener(string)](Sandbox.ModAPI.Ingame.IMyIntergridCommunicationSystem.RegisterBroadcastListener)|Registers broadcast listener with given tag for current programmable block. In case there is already another active broadcast lister with given tag new listener is NOT registered and the already active one is returned instead.|
-|[void SendBroadcastMessage(string, TData, [TransmissionDistance])](Sandbox.ModAPI.Ingame.IMyIntergridCommunicationSystem.SendBroadcastMessage)||
-|[bool SendUnicastMessage(long, string, TData)](Sandbox.ModAPI.Ingame.IMyIntergridCommunicationSystem.SendUnicastMessage)||
+|[void SendBroadcastMessage<TData>(string, TData, [TransmissionDistance])](Sandbox.ModAPI.Ingame.IMyIntergridCommunicationSystem.SendBroadcastMessage)||
+|[bool SendUnicastMessage<TData>(long, string, TData)](Sandbox.ModAPI.Ingame.IMyIntergridCommunicationSystem.SendUnicastMessage)||
 

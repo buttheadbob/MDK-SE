@@ -8,5 +8,5 @@ public MyStringHash SubtypeId
 
 ### Returns
 
-MyStringHash
+MyStringHash <sub>prohibited</sub>
 

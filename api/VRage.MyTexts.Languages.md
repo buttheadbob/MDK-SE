@@ -8,5 +8,5 @@ public static DictionaryReader<MyLanguagesEnum, MyLanguageDescription> Languages
 
 ### Returns
 
-DictionaryReader&lt;MyLanguagesEnum, MyLanguageDescription&gt;
+DictionaryReader&lt;MyLanguagesEnum, MyLanguageDescription&gt; <sub>prohibited</sub>
 

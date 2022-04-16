@@ -15,9 +15,9 @@ Flags set how often the script will run itself.
 
 |Member|Description|
 |---|---|
-|UpdateFrequency None|Does not run autonomously.|
-|UpdateFrequency Once|Run once before the next tick. Flag is un-set automatically after the update|
-|UpdateFrequency Update1|Run every game tick.|
-|UpdateFrequency Update10|Run every 10th game tick.|
-|UpdateFrequency Update100|Run every 100th game tick.|
+|UpdateFrequency None <sub>prohibited</sub>|Does not run autonomously.|
+|UpdateFrequency Once <sub>prohibited</sub>|Run once before the next tick. Flag is un-set automatically after the update|
+|UpdateFrequency Update1 <sub>prohibited</sub>|Run every game tick.|
+|UpdateFrequency Update10 <sub>prohibited</sub>|Run every 10th game tick.|
+|UpdateFrequency Update100 <sub>prohibited</sub>|Run every 100th game tick.|
 

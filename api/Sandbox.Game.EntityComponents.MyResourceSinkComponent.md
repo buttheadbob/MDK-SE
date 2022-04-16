@@ -9,5 +9,5 @@ public class MyResourceSinkComponent: MyResourceSinkComponentBase
 **Namespace:** [Sandbox.Game.EntityComponents](Sandbox.Game.EntityComponents)  
 **Assembly:** Sandbox.Game.dll
 
-**Inheritance:**   MyEntityComponentBase ˃ [MyResourceSinkComponentBase](VRage.Game.Components.MyResourceSinkComponentBase)
+**Inheritance:**   MyEntityComponentBase <sub>prohibited</sub> ˃ [MyResourceSinkComponentBase](VRage.Game.Components.MyResourceSinkComponentBase)
 

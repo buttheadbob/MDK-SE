@@ -8,5 +8,5 @@ public MyObjectBuilder_ToolbarItemActionParameter GetObjectBuilder()
 
 ### Returns
 
-MyObjectBuilder_ToolbarItemActionParameter
+MyObjectBuilder_ToolbarItemActionParameter <sub>prohibited</sub>
 

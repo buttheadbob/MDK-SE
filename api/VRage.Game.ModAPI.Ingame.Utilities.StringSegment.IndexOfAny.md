@@ -16,4 +16,4 @@ Reports the zero-based index of the first occurence of one of the provided chara
 
 ### Parameters
 
-* Char&#91&#93; chars
+* Char&#91&#93; <sub>prohibited</sub> chars

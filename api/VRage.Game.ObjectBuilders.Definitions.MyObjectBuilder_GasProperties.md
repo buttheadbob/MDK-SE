@@ -9,7 +9,7 @@ public class MyObjectBuilder_GasProperties: MyObjectBuilder_DefinitionBase
 **Namespace:** [VRage.Game.ObjectBuilders.Definitions](VRage.Game.ObjectBuilders.Definitions)  
 **Assembly:** VRage.Game.dll
 
-**Inheritance:**   MyObjectBuilder_DefinitionBase
+**Inheritance:**   MyObjectBuilder_DefinitionBase <sub>prohibited</sub>
 
 #### Fields
 

@@ -15,7 +15,7 @@ Describes the current status of the connector.
 
 |Member|Description|
 |---|---|
-|MyShipConnectorStatus Connectable|This connector is currently near something that it can connect to.|
-|MyShipConnectorStatus Connected|This connector is currently connected to something.|
-|MyShipConnectorStatus Unconnected|This connector is not connected to anything, nor is it near anything connectable.|
+|MyShipConnectorStatus Connectable <sub>prohibited</sub>|This connector is currently near something that it can connect to.|
+|MyShipConnectorStatus Connected <sub>prohibited</sub>|This connector is currently connected to something.|
+|MyShipConnectorStatus Unconnected <sub>prohibited</sub>|This connector is not connected to anything, nor is it near anything connectable.|
 

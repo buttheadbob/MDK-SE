@@ -8,5 +8,5 @@ public DictionaryValuesReader<int, DynamicTreeNode> Leaves { get; }
 
 ### Returns
 
-DictionaryValuesReader&lt;int, DynamicTreeNode&gt;
+DictionaryValuesReader&lt;int, DynamicTreeNode&gt; <sub>prohibited</sub>
 

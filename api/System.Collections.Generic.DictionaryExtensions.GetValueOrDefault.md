@@ -41,6 +41,6 @@ public static V GetValueOrDefault<K, V>(this ConcurrentDictionary<K, V> diction
 
 ### Parameters
 
-* ConcurrentDictionary&lt;K, V&gt; dictionary
+* ConcurrentDictionary&lt;K, V&gt; <sub>prohibited</sub> dictionary
 * [K]() key
 * [V]() defaultValue

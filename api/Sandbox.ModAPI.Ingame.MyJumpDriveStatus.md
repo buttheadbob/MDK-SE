@@ -13,7 +13,7 @@ public enum MyJumpDriveStatus
 
 |Member|Description|
 |---|---|
-|MyJumpDriveStatus Charging||
-|MyJumpDriveStatus Jumping||
-|MyJumpDriveStatus Ready||
+|MyJumpDriveStatus Charging <sub>prohibited</sub>||
+|MyJumpDriveStatus Jumping <sub>prohibited</sub>||
+|MyJumpDriveStatus Ready <sub>prohibited</sub>||
 

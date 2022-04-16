@@ -13,7 +13,7 @@ public enum LandingGearMode
 
 |Member|Description|
 |---|---|
-|LandingGearMode Locked||
-|LandingGearMode ReadyToLock||
-|LandingGearMode Unlocked||
+|LandingGearMode Locked <sub>prohibited</sub>||
+|LandingGearMode ReadyToLock <sub>prohibited</sub>||
+|LandingGearMode Unlocked <sub>prohibited</sub>||
 

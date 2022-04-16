@@ -13,9 +13,9 @@ public enum MergeState
 
 |Member|Description|
 |---|---|
-|MergeState Constrained||
-|MergeState Locked||
-|MergeState None||
-|MergeState Unset||
-|MergeState Working||
+|MergeState Constrained <sub>prohibited</sub>||
+|MergeState Locked <sub>prohibited</sub>||
+|MergeState None <sub>prohibited</sub>||
+|MergeState Unset <sub>prohibited</sub>||
+|MergeState Working <sub>prohibited</sub>||
 

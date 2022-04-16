@@ -12,4 +12,4 @@ public static int ComputeHashFromBytes(Byte[] bytes)
 
 ### Parameters
 
-* Byte&#91&#93; bytes
+* Byte&#91&#93; <sub>prohibited</sub> bytes

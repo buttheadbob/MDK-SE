@@ -16,4 +16,4 @@ Finds one of the given characters within the current line
 
 ### Parameters
 
-* Char&#91&#93; chs
+* Char&#91&#93; <sub>prohibited</sub> chs

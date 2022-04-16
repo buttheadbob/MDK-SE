@@ -43,4 +43,4 @@ public static int BinaryIntervalSearch<T>(this IList<T> self, T value, Comparis
 
 * [IList&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IList-1?view=netframework-4.6) self
 * [T]() value
-* Comparison&lt;T&gt; comparison
+* Comparison&lt;T&gt; <sub>prohibited</sub> comparison

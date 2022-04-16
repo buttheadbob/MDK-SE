@@ -8,5 +8,5 @@ public static void Remove<K, V>(this ConcurrentDictionary<K, V> dictionary, K k
 
 ### Parameters
 
-* ConcurrentDictionary&lt;K, V&gt; dictionary
+* ConcurrentDictionary&lt;K, V&gt; <sub>prohibited</sub> dictionary
 * [K]() key

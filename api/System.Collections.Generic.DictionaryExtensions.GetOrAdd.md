@@ -12,7 +12,7 @@ public static TValue GetOrAdd<TKey, TValue, TContext>(this ConcurrentDictionary
 
 ### Parameters
 
-* ConcurrentDictionary&lt;TKey, TValue&gt; dictionary
+* ConcurrentDictionary&lt;TKey, TValue&gt; <sub>prohibited</sub> dictionary
 * [TKey]() key
 * [TContext]() context
 * [Func&lt;TContext, TKey, TValue&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Func-3?view=netframework-4.6) activator

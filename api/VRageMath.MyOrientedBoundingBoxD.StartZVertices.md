@@ -8,5 +8,5 @@ public static Int32[] StartZVertices
 
 ### Returns
 
-Int32&#91&#93;
+Int32&#91&#93; <sub>prohibited</sub>
 

@@ -8,5 +8,5 @@ public static MyStringId GAMEPAD_VARIANT_ID
 
 ### Returns
 
-MyStringId
+MyStringId <sub>prohibited</sub>
 

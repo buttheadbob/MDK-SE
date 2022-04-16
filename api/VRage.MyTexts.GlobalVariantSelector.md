@@ -10,5 +10,5 @@ Global selector for translation variants.
 
 ### Returns
 
-MyStringId
+MyStringId <sub>prohibited</sub>
 

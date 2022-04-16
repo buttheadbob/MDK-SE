@@ -12,7 +12,7 @@ public static string GetString(MyStringId id)
 
 ### Parameters
 
-* MyStringId id
+* MyStringId <sub>prohibited</sub> id
 ### Summary
 
 ```csharp

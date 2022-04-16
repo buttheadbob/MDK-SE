@@ -8,5 +8,5 @@ public ReadOnlySpan<DynamicTreeNode> Nodes { get; }
 
 ### Returns
 
-ReadOnlySpan&lt;DynamicTreeNode&gt;
+ReadOnlySpan&lt;DynamicTreeNode&gt; <sub>prohibited</sub>
 

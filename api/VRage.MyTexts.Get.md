@@ -12,4 +12,4 @@ public static StringBuilder Get(MyStringId id)
 
 ### Parameters
 
-* MyStringId id
+* MyStringId <sub>prohibited</sub> id

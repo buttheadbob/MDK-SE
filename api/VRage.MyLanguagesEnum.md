@@ -13,31 +13,31 @@ public enum MyLanguagesEnum
 
 |Member|Description|
 |---|---|
-|MyLanguagesEnum Catalan||
-|MyLanguagesEnum ChineseChina||
-|MyLanguagesEnum Croatian||
-|MyLanguagesEnum Czech||
-|MyLanguagesEnum Danish||
-|MyLanguagesEnum Dutch||
-|MyLanguagesEnum English||
-|MyLanguagesEnum Estonian||
-|MyLanguagesEnum Finnish||
-|MyLanguagesEnum French||
-|MyLanguagesEnum German||
-|MyLanguagesEnum Hungarian||
-|MyLanguagesEnum Icelandic||
-|MyLanguagesEnum Italian||
-|MyLanguagesEnum Japanese||
-|MyLanguagesEnum Latvian||
-|MyLanguagesEnum Norwegian||
-|MyLanguagesEnum Polish||
-|MyLanguagesEnum Portuguese_Brazil||
-|MyLanguagesEnum Romanian||
-|MyLanguagesEnum Russian||
-|MyLanguagesEnum Slovak||
-|MyLanguagesEnum Spanish_HispanicAmerica||
-|MyLanguagesEnum Spanish_Spain||
-|MyLanguagesEnum Swedish||
-|MyLanguagesEnum Turkish||
-|MyLanguagesEnum Ukrainian||
+|MyLanguagesEnum Catalan <sub>prohibited</sub>||
+|MyLanguagesEnum ChineseChina <sub>prohibited</sub>||
+|MyLanguagesEnum Croatian <sub>prohibited</sub>||
+|MyLanguagesEnum Czech <sub>prohibited</sub>||
+|MyLanguagesEnum Danish <sub>prohibited</sub>||
+|MyLanguagesEnum Dutch <sub>prohibited</sub>||
+|MyLanguagesEnum English <sub>prohibited</sub>||
+|MyLanguagesEnum Estonian <sub>prohibited</sub>||
+|MyLanguagesEnum Finnish <sub>prohibited</sub>||
+|MyLanguagesEnum French <sub>prohibited</sub>||
+|MyLanguagesEnum German <sub>prohibited</sub>||
+|MyLanguagesEnum Hungarian <sub>prohibited</sub>||
+|MyLanguagesEnum Icelandic <sub>prohibited</sub>||
+|MyLanguagesEnum Italian <sub>prohibited</sub>||
+|MyLanguagesEnum Japanese <sub>prohibited</sub>||
+|MyLanguagesEnum Latvian <sub>prohibited</sub>||
+|MyLanguagesEnum Norwegian <sub>prohibited</sub>||
+|MyLanguagesEnum Polish <sub>prohibited</sub>||
+|MyLanguagesEnum Portuguese_Brazil <sub>prohibited</sub>||
+|MyLanguagesEnum Romanian <sub>prohibited</sub>||
+|MyLanguagesEnum Russian <sub>prohibited</sub>||
+|MyLanguagesEnum Slovak <sub>prohibited</sub>||
+|MyLanguagesEnum Spanish_HispanicAmerica <sub>prohibited</sub>||
+|MyLanguagesEnum Spanish_Spain <sub>prohibited</sub>||
+|MyLanguagesEnum Swedish <sub>prohibited</sub>||
+|MyLanguagesEnum Turkish <sub>prohibited</sub>||
+|MyLanguagesEnum Ukrainian <sub>prohibited</sub>||
 

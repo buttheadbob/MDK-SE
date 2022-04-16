@@ -18,5 +18,5 @@ public MyItemType(MyObjectBuilderType typeId, MyStringHash subTypeIdHash)
 
 ### Parameters
 
-* MyObjectBuilderType typeId
-* MyStringHash subTypeIdHash
+* MyObjectBuilderType <sub>prohibited</sub> typeId
+* MyStringHash <sub>prohibited</sub> subTypeIdHash

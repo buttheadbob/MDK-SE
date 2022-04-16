@@ -12,4 +12,4 @@ public static bool Exists(MyStringId id)
 
 ### Parameters
 
-* MyStringId id
+* MyStringId <sub>prohibited</sub> id

@@ -10,5 +10,5 @@ Gets the skin of the block
 
 ### Returns
 
-MyStringHash
+MyStringHash <sub>prohibited</sub>
 

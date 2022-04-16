@@ -15,8 +15,8 @@ Describes results of inserting order or offers into store block
 
 |Member|Description|
 |---|---|
-|MyStoreInsertResults Error|Other errors|
-|MyStoreInsertResults Fail_PricePerUnitIsLessThanMinimum|Too cheap|
-|MyStoreInsertResults Fail_StoreLimitReached|30 orders/offers Per player|
-|MyStoreInsertResults Success|Inserted successfuly|
+|MyStoreInsertResults Error <sub>prohibited</sub>|Other errors|
+|MyStoreInsertResults Fail_PricePerUnitIsLessThanMinimum <sub>prohibited</sub>|Too cheap|
+|MyStoreInsertResults Fail_StoreLimitReached <sub>prohibited</sub>|30 orders/offers Per player|
+|MyStoreInsertResults Success <sub>prohibited</sub>|Inserted successfuly|
 

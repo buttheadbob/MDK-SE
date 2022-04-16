@@ -10,5 +10,5 @@ Gets blocks component logic container
 
 ### Returns
 
-MyEntityComponentContainer
+MyEntityComponentContainer <sub>prohibited</sub>
 

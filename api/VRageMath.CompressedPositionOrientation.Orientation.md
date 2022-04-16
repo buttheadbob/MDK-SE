@@ -8,5 +8,5 @@ public HalfVector4 Orientation
 
 ### Returns
 
-HalfVector4
+HalfVector4 <sub>prohibited</sub>
 

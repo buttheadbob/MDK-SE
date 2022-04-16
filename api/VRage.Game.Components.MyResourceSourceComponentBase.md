@@ -9,7 +9,7 @@ public abstract class MyResourceSourceComponentBase: MyEntityComponentBase
 **Namespace:** [VRage.Game.Components](VRage.Game.Components)  
 **Assembly:** VRage.Game.dll
 
-**Inheritance:**   MyEntityComponentBase
+**Inheritance:**   MyEntityComponentBase <sub>prohibited</sub>
 
 **Inheritors:**  
 * [MyResourceSourceComponent](Sandbox.Game.EntityComponents.MyResourceSourceComponent)

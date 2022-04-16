@@ -15,6 +15,6 @@ Determines the current mode of a conveyor sorter.
 
 |Member|Description|
 |---|---|
-|MyConveyorSorterMode Blacklist|The items in the filter list are not allowed through this sorter.|
-|MyConveyorSorterMode Whitelist|The items in the filter list are the only items allowed through this sorter.|
+|MyConveyorSorterMode Blacklist <sub>prohibited</sub>|The items in the filter list are not allowed through this sorter.|
+|MyConveyorSorterMode Whitelist <sub>prohibited</sub>|The items in the filter list are the only items allowed through this sorter.|
 

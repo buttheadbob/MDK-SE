@@ -13,7 +13,7 @@ public enum SpriteType
 
 |Member|Description|
 |---|---|
-|SpriteType CLIP_RECT||
-|SpriteType TEXT||
-|SpriteType TEXTURE||
+|SpriteType CLIP_RECT <sub>prohibited</sub>||
+|SpriteType TEXT <sub>prohibited</sub>||
+|SpriteType TEXTURE <sub>prohibited</sub>||
 

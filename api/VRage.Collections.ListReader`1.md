@@ -19,26 +19,26 @@ public struct ListReader<T>: IEnumerable<T>, IEnumerable, IReadOnlyList<T>, IRea
 
 |Member|Description|
 |---|---|
-|\\$1static ListReader\\$1T> Empty](VRage.Collections.ListReader`1.Empty)||
+|\\[static ListReader\\<T> Empty](VRage.Collections.ListReader`1.Empty)||
 
 #### Properties
 
 |Member|Description|
 |---|---|
-|\\$1int Count { get; }](VRage.Collections.ListReader`1.Count)||
-|\\$1T Item { get; }](VRage.Collections.ListReader`1.Item)||
+|\\[int Count { get; }](VRage.Collections.ListReader`1.Count)||
+|\\[T Item { get; }](VRage.Collections.ListReader`1.Item)||
 
 #### Constructors
 
 |Member|Description|
 |---|---|
-|\\$1ListReader(List\\$1T>)](VRage.Collections.ListReader`1..ctor)||
+|\\[ListReader(List\\<T>)](VRage.Collections.ListReader`1..ctor)||
 
 #### Methods
 
 |Member|Description|
 |---|---|
-|\\$1Enumerator\\$1T> GetEnumerator()](VRage.Collections.ListReader`1.GetEnumerator)||
-|\\$1int IndexOf(T)](VRage.Collections.ListReader`1.IndexOf)||
-|\\$1T ItemAt(int)](VRage.Collections.ListReader`1.ItemAt)||
+|\\[Enumerator\\<T> GetEnumerator()](VRage.Collections.ListReader`1.GetEnumerator)||
+|\\[int IndexOf(T)](VRage.Collections.ListReader`1.IndexOf)||
+|\\[T ItemAt(int)](VRage.Collections.ListReader`1.ItemAt)||
 

@@ -13,13 +13,13 @@ public struct MyProductionItem
 
 |Member|Description|
 |---|---|
-|\\$1MyFixedPoint Amount](Sandbox.ModAPI.Ingame.MyProductionItem.Amount)||
-|\\$1MyDefinitionId BlueprintId](Sandbox.ModAPI.Ingame.MyProductionItem.BlueprintId)||
-|\\$1uint ItemId](Sandbox.ModAPI.Ingame.MyProductionItem.ItemId)||
+|\\[MyFixedPoint Amount](Sandbox.ModAPI.Ingame.MyProductionItem.Amount)||
+|\\[MyDefinitionId BlueprintId](Sandbox.ModAPI.Ingame.MyProductionItem.BlueprintId)||
+|\\[uint ItemId](Sandbox.ModAPI.Ingame.MyProductionItem.ItemId)||
 
 #### Constructors
 
 |Member|Description|
 |---|---|
-|\\$1MyProductionItem(uint, MyDefinitionId, MyFixedPoint)](Sandbox.ModAPI.Ingame.MyProductionItem..ctor)||
+|\\[MyProductionItem(uint, MyDefinitionId, MyFixedPoint)](Sandbox.ModAPI.Ingame.MyProductionItem..ctor)||
 

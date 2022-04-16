@@ -13,13 +13,13 @@ public struct MyStoreItemDataSimple
 
 |Member|Description|
 |---|---|
-|\\$1int Amount { get; }](VRage.Game.ModAPI.Ingame.MyStoreItemDataSimple.Amount)|Gets amount for buy/sell|
-|\\$1MyItemType ItemId { get; }](VRage.Game.ModAPI.Ingame.MyStoreItemDataSimple.ItemId)|Gets definition id of the item|
-|\\$1int PricePerUnit { get; }](VRage.Game.ModAPI.Ingame.MyStoreItemDataSimple.PricePerUnit)|Gets price per unit|
+|\\[int Amount { get; }](VRage.Game.ModAPI.Ingame.MyStoreItemDataSimple.Amount)|Gets amount for buy/sell|
+|\\[MyItemType ItemId { get; }](VRage.Game.ModAPI.Ingame.MyStoreItemDataSimple.ItemId)|Gets definition id of the item|
+|\\[int PricePerUnit { get; }](VRage.Game.ModAPI.Ingame.MyStoreItemDataSimple.PricePerUnit)|Gets price per unit|
 
 #### Constructors
 
 |Member|Description|
 |---|---|
-|\\$1MyStoreItemDataSimple(SerializableDefinitionId, int, int)](VRage.Game.ModAPI.Ingame.MyStoreItemDataSimple..ctor)||
+|\\[MyStoreItemDataSimple(SerializableDefinitionId, int, int)](VRage.Game.ModAPI.Ingame.MyStoreItemDataSimple..ctor)||
 

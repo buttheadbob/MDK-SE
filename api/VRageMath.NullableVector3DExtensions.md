@@ -13,6 +13,6 @@ public abstract sealed class NullableVector3DExtensions
 
 |Member|Description|
 |---|---|
-|\\$1static void AssertIsValid(this Vector3D?)](VRageMath.NullableVector3DExtensions.AssertIsValid)||
-|\\$1static bool IsValid(this Vector3D?)](VRageMath.NullableVector3DExtensions.IsValid)||
+|\\[static void AssertIsValid(this Vector3D?)](VRageMath.NullableVector3DExtensions.AssertIsValid)||
+|\\[static bool IsValid(this Vector3D?)](VRageMath.NullableVector3DExtensions.IsValid)||
 

@@ -109,70 +109,70 @@ This class is NOT THREAD SAFE as it's optimized for programmable block use.
 
 |Member|Description|
 |---|---|
-|\\$1string EndComment { get; set; }](VRage.Game.ModAPI.Ingame.Utilities.MyIni.EndComment)|Get or set a comment to be placed after the last section or item. Is`null`if the section does not exist or has no comment.|
-|\\$1string EndContent { get; set; }](VRage.Game.ModAPI.Ingame.Utilities.MyIni.EndContent)|You can terminate a configuration stream by entering "---" on a separate line. This property will contain all the content after this line.|
+|\\[string EndComment { get; set; }](VRage.Game.ModAPI.Ingame.Utilities.MyIni.EndComment)|Get or set a comment to be placed after the last section or item. Is`null`if the section does not exist or has no comment.|
+|\\[string EndContent { get; set; }](VRage.Game.ModAPI.Ingame.Utilities.MyIni.EndContent)|You can terminate a configuration stream by entering "---" on a separate line. This property will contain all the content after this line.|
 
 #### Constructors
 
 |Member|Description|
 |---|---|
-|\\$1MyIni()](VRage.Game.ModAPI.Ingame.Utilities.MyIni..ctor)||
+|\\[MyIni()](VRage.Game.ModAPI.Ingame.Utilities.MyIni..ctor)||
 
 #### Methods
 
 |Member|Description|
 |---|---|
-|\\$1static bool HasSection(string, string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.HasSection)|Determines if the given configuration contains what looks like the given section. It does not verify that the content is actually in a valid format, just if there's a line starting with [section].|
-|\\$1void AddSection(string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.AddSection)|Adds an empty section|
-|\\$1void Clear()](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Clear)|Empties this configuration|
-|\\$1bool ContainsKey(string, string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.ContainsKey)|Determines whether a configuration key (section/key) exists in the currently parsed configuration.|
-|\\$1bool ContainsKey(MyIniKey)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.ContainsKey)|Determines whether a configuration key (section/key) exists in the currently parsed configuration.|
-|\\$1bool ContainsSection(string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.ContainsSection)|Determines whether a section of a given name exists in the currently parsed configuration.|
-|\\$1void Delete(string, string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Delete)|Deletes the given configuration key.|
-|\\$1void Delete(MyIniKey)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Delete)|Deletes the given configuration key.|
-|\\$1bool DeleteSection(string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.DeleteSection)|Deletes an entire selection|
-|\\$1MyIniValue Get(string, string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Get)|Gets the [MyIniValue](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue) of the given configuration key.|
-|\\$1MyIniValue Get(MyIniKey)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Get)|Gets the [MyIniValue](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue) of the given configuration key.|
-|\\$1string GetComment(string, string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.GetComment)|Gets any comment that might be associated with the given key. Returns`null`if the key does not exist or has no comment.|
-|\\$1string GetComment(MyIniKey)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.GetComment)|Gets any comment that might be associated with the given key. Returns`null`if the key does not exist or has no comment.|
-|\\$1void GetKeys(string, List\\$1MyIniKey>)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.GetKeys)|Fills the provided list with the configuration keys within the given section.|
-|\\$1void GetKeys(List\\$1MyIniKey>)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.GetKeys)|Fills the provided list with all configuration keys within the currently parsed configuration.|
-|\\$1string GetSectionComment(string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.GetSectionComment)|Get any comment that might be associated with the given section. Returns`null`if the section does not exist or has no comment.|
-|\\$1void GetSections(List\\$1string>)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.GetSections)|Fills the provided list with the names of all the sections in the currently parsed configuration.|
-|\\$1void Invalidate()](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Invalidate)|Forces regeneration of the ini content. Only really useful if you want to reformat the configuration file.|
-|\\$1void Set(string, string, string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
-|\\$1void Set(MyIniKey, string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
-|\\$1void Set(string, string, bool)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
-|\\$1void Set(MyIniKey, bool)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
-|\\$1void Set(string, string, byte)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
-|\\$1void Set(MyIniKey, byte)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
-|\\$1void Set(string, string, sbyte)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
-|\\$1void Set(MyIniKey, sbyte)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
-|\\$1void Set(string, string, ushort)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
-|\\$1void Set(MyIniKey, ushort)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
-|\\$1void Set(string, string, short)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
-|\\$1void Set(MyIniKey, short)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
-|\\$1void Set(string, string, uint)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
-|\\$1void Set(MyIniKey, uint)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
-|\\$1void Set(string, string, int)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
-|\\$1void Set(MyIniKey, int)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
-|\\$1void Set(string, string, ulong)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
-|\\$1void Set(MyIniKey, ulong)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
-|\\$1void Set(string, string, long)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
-|\\$1void Set(MyIniKey, long)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
-|\\$1void Set(string, string, float)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
-|\\$1void Set(MyIniKey, float)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
-|\\$1void Set(string, string, double)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
-|\\$1void Set(MyIniKey, double)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
-|\\$1void Set(string, string, decimal)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
-|\\$1void Set(MyIniKey, decimal)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
-|\\$1void SetComment(string, string, string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.SetComment)|Sets a comment on a given item. The item must already exist. Set the comment to`null`to remove it.|
-|\\$1void SetComment(MyIniKey, string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.SetComment)|Sets a comment on a given item. The item must already exist. Set the comment to`null`to remove it.|
-|\\$1void SetEndComment(string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.SetEndComment)|Sets a comment to be placed after the last section or item. Set the comment to`null`to remove it.|
-|\\$1void SetSectionComment(string, string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.SetSectionComment)|Sets a comment on a given section. The section must already exist. Set the comment to`null`to remove it.|
-|\\$1string ToString()](VRage.Game.ModAPI.Ingame.Utilities.MyIni.ToString)|Generates a configuration file from the currently parsed configuration|
-|\\$1bool TryParse(string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.TryParse)|Attempts to parse the given content as a configuration file.|
-|\\$1bool TryParse(string, out MyIniParseResult)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.TryParse)|Attempts to parse the given content as a configuration file.|
-|\\$1bool TryParse(string, string, out MyIniParseResult)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.TryParse)|Attempts to parse the given content as a configuration file. OBSERVE: Use only for read-only operations. If you parse a single section and run [ToString()](VRage.Game.ModAPI.Ingame.Utilities.MyIni.ToString) , you will only get the parsed section, the rest will be discarded.|
-|\\$1bool TryParse(string, string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.TryParse)|Attempts to parse the given content as a configuration file. OBSERVE: Use only for read-only operations. If you parse a single section and run [ToString()](VRage.Game.ModAPI.Ingame.Utilities.MyIni.ToString) , you will only get the parsed section, the rest will be discarded.|
+|\\[static bool HasSection(string, string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.HasSection)|Determines if the given configuration contains what looks like the given section. It does not verify that the content is actually in a valid format, just if there's a line starting with [section].|
+|\\[void AddSection(string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.AddSection)|Adds an empty section|
+|\\[void Clear()](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Clear)|Empties this configuration|
+|\\[bool ContainsKey(string, string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.ContainsKey)|Determines whether a configuration key (section/key) exists in the currently parsed configuration.|
+|\\[bool ContainsKey(MyIniKey)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.ContainsKey)|Determines whether a configuration key (section/key) exists in the currently parsed configuration.|
+|\\[bool ContainsSection(string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.ContainsSection)|Determines whether a section of a given name exists in the currently parsed configuration.|
+|\\[void Delete(string, string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Delete)|Deletes the given configuration key.|
+|\\[void Delete(MyIniKey)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Delete)|Deletes the given configuration key.|
+|\\[bool DeleteSection(string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.DeleteSection)|Deletes an entire selection|
+|\\[MyIniValue Get(string, string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Get)|Gets the [MyIniValue](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue) of the given configuration key.|
+|\\[MyIniValue Get(MyIniKey)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Get)|Gets the [MyIniValue](VRage.Game.ModAPI.Ingame.Utilities.MyIniValue) of the given configuration key.|
+|\\[string GetComment(string, string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.GetComment)|Gets any comment that might be associated with the given key. Returns`null`if the key does not exist or has no comment.|
+|\\[string GetComment(MyIniKey)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.GetComment)|Gets any comment that might be associated with the given key. Returns`null`if the key does not exist or has no comment.|
+|\\[void GetKeys(string, List\\<MyIniKey>)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.GetKeys)|Fills the provided list with the configuration keys within the given section.|
+|\\[void GetKeys(List\\<MyIniKey>)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.GetKeys)|Fills the provided list with all configuration keys within the currently parsed configuration.|
+|\\[string GetSectionComment(string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.GetSectionComment)|Get any comment that might be associated with the given section. Returns`null`if the section does not exist or has no comment.|
+|\\[void GetSections(List\\<string>)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.GetSections)|Fills the provided list with the names of all the sections in the currently parsed configuration.|
+|\\[void Invalidate()](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Invalidate)|Forces regeneration of the ini content. Only really useful if you want to reformat the configuration file.|
+|\\[void Set(string, string, string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
+|\\[void Set(MyIniKey, string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
+|\\[void Set(string, string, bool)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
+|\\[void Set(MyIniKey, bool)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
+|\\[void Set(string, string, byte)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
+|\\[void Set(MyIniKey, byte)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
+|\\[void Set(string, string, sbyte)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
+|\\[void Set(MyIniKey, sbyte)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
+|\\[void Set(string, string, ushort)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
+|\\[void Set(MyIniKey, ushort)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
+|\\[void Set(string, string, short)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
+|\\[void Set(MyIniKey, short)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
+|\\[void Set(string, string, uint)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
+|\\[void Set(MyIniKey, uint)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
+|\\[void Set(string, string, int)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
+|\\[void Set(MyIniKey, int)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
+|\\[void Set(string, string, ulong)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
+|\\[void Set(MyIniKey, ulong)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
+|\\[void Set(string, string, long)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
+|\\[void Set(MyIniKey, long)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
+|\\[void Set(string, string, float)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
+|\\[void Set(MyIniKey, float)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
+|\\[void Set(string, string, double)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
+|\\[void Set(MyIniKey, double)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
+|\\[void Set(string, string, decimal)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
+|\\[void Set(MyIniKey, decimal)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.Set)|Sets the value of the given configuration key.|
+|\\[void SetComment(string, string, string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.SetComment)|Sets a comment on a given item. The item must already exist. Set the comment to`null`to remove it.|
+|\\[void SetComment(MyIniKey, string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.SetComment)|Sets a comment on a given item. The item must already exist. Set the comment to`null`to remove it.|
+|\\[void SetEndComment(string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.SetEndComment)|Sets a comment to be placed after the last section or item. Set the comment to`null`to remove it.|
+|\\[void SetSectionComment(string, string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.SetSectionComment)|Sets a comment on a given section. The section must already exist. Set the comment to`null`to remove it.|
+|\\[string ToString()](VRage.Game.ModAPI.Ingame.Utilities.MyIni.ToString)|Generates a configuration file from the currently parsed configuration|
+|\\[bool TryParse(string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.TryParse)|Attempts to parse the given content as a configuration file.|
+|\\[bool TryParse(string, out MyIniParseResult)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.TryParse)|Attempts to parse the given content as a configuration file.|
+|\\[bool TryParse(string, string, out MyIniParseResult)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.TryParse)|Attempts to parse the given content as a configuration file. OBSERVE: Use only for read-only operations. If you parse a single section and run [ToString()](VRage.Game.ModAPI.Ingame.Utilities.MyIni.ToString) , you will only get the parsed section, the rest will be discarded.|
+|\\[bool TryParse(string, string)](VRage.Game.ModAPI.Ingame.Utilities.MyIni.TryParse)|Attempts to parse the given content as a configuration file. OBSERVE: Use only for read-only operations. If you parse a single section and run [ToString()](VRage.Game.ModAPI.Ingame.Utilities.MyIni.ToString) , you will only get the parsed section, the rest will be discarded.|
 

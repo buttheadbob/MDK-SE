@@ -13,8 +13,8 @@ public struct MyStoreQueryItem
 
 |Member|Description|
 |---|---|
-|\\$1int Amount](Sandbox.ModAPI.Ingame.MyStoreQueryItem.Amount)|Gets amount for buy/sell|
-|\\$1long Id](Sandbox.ModAPI.Ingame.MyStoreQueryItem.Id)|Id of the store item. Ex. Needed for removing item from store.|
-|\\$1SerializableDefinitionId ItemId](Sandbox.ModAPI.Ingame.MyStoreQueryItem.ItemId)|Gets definition id of the item|
-|\\$1int PricePerUnit](Sandbox.ModAPI.Ingame.MyStoreQueryItem.PricePerUnit)|Gets price per unit|
+|\\[int Amount](Sandbox.ModAPI.Ingame.MyStoreQueryItem.Amount)|Gets amount for buy/sell|
+|\\[long Id](Sandbox.ModAPI.Ingame.MyStoreQueryItem.Id)|Id of the store item. Ex. Needed for removing item from store.|
+|\\[SerializableDefinitionId ItemId](Sandbox.ModAPI.Ingame.MyStoreQueryItem.ItemId)|Gets definition id of the item|
+|\\[int PricePerUnit](Sandbox.ModAPI.Ingame.MyStoreQueryItem.PricePerUnit)|Gets price per unit|
 

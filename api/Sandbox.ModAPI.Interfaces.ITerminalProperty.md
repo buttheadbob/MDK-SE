@@ -18,6 +18,6 @@ Terminal block property definition
 
 |Member|Description|
 |---|---|
-|\\$1string Id { get; }](Sandbox.ModAPI.Interfaces.ITerminalProperty.Id)|Property Id (value name)|
-|\\$1string TypeName { get; }](Sandbox.ModAPI.Interfaces.ITerminalProperty.TypeName)|Property type (bool - [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) , float - [System.Single](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) , color - [Color](VRageMath.Color) )|
+|\\[string Id { get; }](Sandbox.ModAPI.Interfaces.ITerminalProperty.Id)|Property Id (value name)|
+|\\[string TypeName { get; }](Sandbox.ModAPI.Interfaces.ITerminalProperty.TypeName)|Property type (bool - [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=netframework-4.6) , float - [System.Single](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netframework-4.6) , color - [Color](VRageMath.Color) )|
 

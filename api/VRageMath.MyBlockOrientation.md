@@ -13,34 +13,34 @@ public struct MyBlockOrientation
 
 |Member|Description|
 |---|---|
-|\\$1static MyBlockOrientation Identity](VRageMath.MyBlockOrientation.Identity)||
-|\\$1Direction Forward](VRageMath.MyBlockOrientation.Forward)||
-|\\$1Direction Up](VRageMath.MyBlockOrientation.Up)||
+|\\[static MyBlockOrientation Identity](VRageMath.MyBlockOrientation.Identity)||
+|\\[Direction Forward](VRageMath.MyBlockOrientation.Forward)||
+|\\[Direction Up](VRageMath.MyBlockOrientation.Up)||
 
 #### Properties
 
 |Member|Description|
 |---|---|
-|\\$1bool IsValid { get; }](VRageMath.MyBlockOrientation.IsValid)||
-|\\$1Direction Left { get; }](VRageMath.MyBlockOrientation.Left)||
+|\\[bool IsValid { get; }](VRageMath.MyBlockOrientation.IsValid)||
+|\\[Direction Left { get; }](VRageMath.MyBlockOrientation.Left)||
 
 #### Constructors
 
 |Member|Description|
 |---|---|
-|\\$1MyBlockOrientation(Direction, Direction)](VRageMath.MyBlockOrientation..ctor)||
-|\\$1MyBlockOrientation(ref Quaternion)](VRageMath.MyBlockOrientation..ctor)||
-|\\$1MyBlockOrientation(ref Matrix)](VRageMath.MyBlockOrientation..ctor)||
+|\\[MyBlockOrientation(Direction, Direction)](VRageMath.MyBlockOrientation..ctor)||
+|\\[MyBlockOrientation(ref Quaternion)](VRageMath.MyBlockOrientation..ctor)||
+|\\[MyBlockOrientation(ref Matrix)](VRageMath.MyBlockOrientation..ctor)||
 
 #### Methods
 
 |Member|Description|
 |---|---|
-|\\$1bool Equals(object)](VRageMath.MyBlockOrientation.Equals)||
-|\\$1int GetHashCode()](VRageMath.MyBlockOrientation.GetHashCode)||
-|\\$1void GetMatrix(out Matrix)](VRageMath.MyBlockOrientation.GetMatrix)||
-|\\$1void GetQuaternion(out Quaternion)](VRageMath.MyBlockOrientation.GetQuaternion)||
-|\\$1string ToString()](VRageMath.MyBlockOrientation.ToString)||
-|\\$1Direction TransformDirection(Direction)](VRageMath.MyBlockOrientation.TransformDirection)||
-|\\$1Direction TransformDirectionInverse(Direction)](VRageMath.MyBlockOrientation.TransformDirectionInverse)||
+|\\[bool Equals(object)](VRageMath.MyBlockOrientation.Equals)||
+|\\[int GetHashCode()](VRageMath.MyBlockOrientation.GetHashCode)||
+|\\[void GetMatrix(out Matrix)](VRageMath.MyBlockOrientation.GetMatrix)||
+|\\[void GetQuaternion(out Quaternion)](VRageMath.MyBlockOrientation.GetQuaternion)||
+|\\[string ToString()](VRageMath.MyBlockOrientation.ToString)||
+|\\[Direction TransformDirection(Direction)](VRageMath.MyBlockOrientation.TransformDirection)||
+|\\[Direction TransformDirectionInverse(Direction)](VRageMath.MyBlockOrientation.TransformDirectionInverse)||
 

@@ -13,5 +13,5 @@ public struct Vector2B
 
 |Member|Description|
 |---|---|
-|\\$1Vector2B(byte, byte)](VRageMath.Vector2B..ctor)||
+|\\[Vector2B(byte, byte)](VRageMath.Vector2B..ctor)||
 

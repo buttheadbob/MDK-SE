@@ -18,18 +18,18 @@ A comparer designed to compare [StringSegment](VRage.Game.ModAPI.Ingame.Utilitie
 
 |Member|Description|
 |---|---|
-|\\$1static StringSegmentIgnoreCaseComparer DEFAULT](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentIgnoreCaseComparer.DEFAULT)|A default instance of [StringSegmentIgnoreCaseComparer](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentIgnoreCaseComparer) |
+|\\[static StringSegmentIgnoreCaseComparer DEFAULT](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentIgnoreCaseComparer.DEFAULT)|A default instance of [StringSegmentIgnoreCaseComparer](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentIgnoreCaseComparer) |
 
 #### Constructors
 
 |Member|Description|
 |---|---|
-|\\$1StringSegmentIgnoreCaseComparer()](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentIgnoreCaseComparer..ctor)||
+|\\[StringSegmentIgnoreCaseComparer()](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentIgnoreCaseComparer..ctor)||
 
 #### Methods
 
 |Member|Description|
 |---|---|
-|\\$1bool Equals(StringSegment, StringSegment)](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentIgnoreCaseComparer.Equals)|Determines whether the specified objects are equal.|
-|\\$1int GetHashCode(StringSegment)](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentIgnoreCaseComparer.GetHashCode)|Returns a hash code for the specified object.|
+|\\[bool Equals(StringSegment, StringSegment)](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentIgnoreCaseComparer.Equals)|Determines whether the specified objects are equal.|
+|\\[int GetHashCode(StringSegment)](VRage.Game.ModAPI.Ingame.Utilities.StringSegmentIgnoreCaseComparer.GetHashCode)|Returns a hash code for the specified object.|
 

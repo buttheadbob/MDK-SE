@@ -15,13 +15,13 @@ Describes terminal block group (PB scripting interface)
 
 |Member|Description|
 |---|---|
-|\\$1string Name { get; }](Sandbox.ModAPI.Ingame.IMyBlockGroup.Name)|Gets name of terminal blocks group|
+|\\[string Name { get; }](Sandbox.ModAPI.Ingame.IMyBlockGroup.Name)|Gets name of terminal blocks group|
 
 #### Methods
 
 |Member|Description|
 |---|---|
-|\\$1void GetBlocks(List\\$1IMyTerminalBlock>, \\$1Func\\$1IMyTerminalBlock, bool>])](Sandbox.ModAPI.Ingame.IMyBlockGroup.GetBlocks)|Get terminal blocks which assigned to this group|
-|\\$1void GetBlocksOfType\\$1T>(List\\$1IMyTerminalBlock>, \\$1Func\\$1IMyTerminalBlock, bool>])](Sandbox.ModAPI.Ingame.IMyBlockGroup.GetBlocksOfType)||
-|\\$1void GetBlocksOfType\\$1T>(List\\$1T>, \\$1Func\\$1T, bool>])](Sandbox.ModAPI.Ingame.IMyBlockGroup.GetBlocksOfType)||
+|\\[void GetBlocks(List\\<IMyTerminalBlock>, \\[Func\\<IMyTerminalBlock, bool>])](Sandbox.ModAPI.Ingame.IMyBlockGroup.GetBlocks)|Get terminal blocks which assigned to this group|
+|\\[void GetBlocksOfType\\<T>(List\\<IMyTerminalBlock>, \\[Func\\<IMyTerminalBlock, bool>])](Sandbox.ModAPI.Ingame.IMyBlockGroup.GetBlocksOfType)||
+|\\[void GetBlocksOfType\\<T>(List\\<T>, \\[Func\\<T, bool>])](Sandbox.ModAPI.Ingame.IMyBlockGroup.GetBlocksOfType)||
 

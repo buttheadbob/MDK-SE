@@ -20,19 +20,19 @@ public struct BoxCornerEnumerator: IEnumerator<Vector3>, IDisposable, IEnumerato
 
 |Member|Description|
 |---|---|
-|\\$1Vector3 Current { get; }](VRageMath.BoxCornerEnumerator.Current)||
+|\\[Vector3 Current { get; }](VRageMath.BoxCornerEnumerator.Current)||
 
 #### Constructors
 
 |Member|Description|
 |---|---|
-|\\$1BoxCornerEnumerator(Vector3, Vector3)](VRageMath.BoxCornerEnumerator..ctor)||
+|\\[BoxCornerEnumerator(Vector3, Vector3)](VRageMath.BoxCornerEnumerator..ctor)||
 
 #### Methods
 
 |Member|Description|
 |---|---|
-|\\$1void Add(object)](VRageMath.BoxCornerEnumerator.Add)||
-|\\$1BoxCornerEnumerator GetEnumerator()](VRageMath.BoxCornerEnumerator.GetEnumerator)||
-|\\$1bool MoveNext()](VRageMath.BoxCornerEnumerator.MoveNext)||
+|\\[void Add(object)](VRageMath.BoxCornerEnumerator.Add)||
+|\\[BoxCornerEnumerator GetEnumerator()](VRageMath.BoxCornerEnumerator.GetEnumerator)||
+|\\[bool MoveNext()](VRageMath.BoxCornerEnumerator.MoveNext)||
 

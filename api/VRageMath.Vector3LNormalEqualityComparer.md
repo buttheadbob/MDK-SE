@@ -18,12 +18,12 @@ This can be used only to compare normal vectors of Vector3L, where X, Y and Z ha
 
 |Member|Description|
 |---|---|
-|\\$1Vector3LNormalEqualityComparer()](VRageMath.Vector3LNormalEqualityComparer..ctor)||
+|\\[Vector3LNormalEqualityComparer()](VRageMath.Vector3LNormalEqualityComparer..ctor)||
 
 #### Methods
 
 |Member|Description|
 |---|---|
-|\\$1bool Equals(Vector3L, Vector3L)](VRageMath.Vector3LNormalEqualityComparer.Equals)||
-|\\$1int GetHashCode(Vector3L)](VRageMath.Vector3LNormalEqualityComparer.GetHashCode)||
+|\\[bool Equals(Vector3L, Vector3L)](VRageMath.Vector3LNormalEqualityComparer.Equals)||
+|\\[int GetHashCode(Vector3L)](VRageMath.Vector3LNormalEqualityComparer.GetHashCode)||
 

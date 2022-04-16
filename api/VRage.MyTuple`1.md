@@ -1,9 +1,9 @@
 ← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
-#### MyTuple\&lt;T1\&gt; Struct
+#### MyTuple&lt;T1\&gt; Struct
 
 ```csharp
-public struct MyTuple\<T1\>
+public struct MyTuple<T1\>
 ```
 
 **Namespace:** [VRage](VRage)  
@@ -13,11 +13,11 @@ public struct MyTuple\<T1\>
 
 |Member|Description|
 |---|---|
-|[T1 Item1](VRage.MyTuple`1.Item1)||
+|\$1T1 Item1](VRage.MyTuple`1.Item1)||
 
 #### Constructors
 
 |Member|Description|
 |---|---|
-|[MyTuple(T1)](VRage.MyTuple`1..ctor)||
+|\$1MyTuple(T1)](VRage.MyTuple`1..ctor)||
 

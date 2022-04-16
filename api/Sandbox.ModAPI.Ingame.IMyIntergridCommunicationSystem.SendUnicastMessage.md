@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool SendUnicastMessage\<TData\>(long addressee, string tag, TData data)
+public bool SendUnicastMessage<TData>(long addressee, string tag, TData data)
 ```
 
 ### Returns

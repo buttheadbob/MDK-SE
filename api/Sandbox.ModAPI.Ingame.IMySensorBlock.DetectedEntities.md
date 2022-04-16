@@ -3,9 +3,9 @@
 ### Summary
 
 ```csharp
-public void DetectedEntities(List\<MyDetectedEntityInfo\> entities)
+public void DetectedEntities(List<MyDetectedEntityInfo\> entities)
 ```
 
 ### Parameters
 
-* [List\<MyDetectedEntityInfo\>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) entities
+* [List<MyDetectedEntityInfo\>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) entities

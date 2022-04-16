@@ -1,4 +1,4 @@
-← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MyLineSegmentOverlapResult\<T\>](VRageMath.MyLineSegmentOverlapResult`1)
+← [Index](Api-Index) ← [Namespace Index](Namespace-Index) ← [MyLineSegmentOverlapResult<T\>](VRageMath.MyLineSegmentOverlapResult`1)
 
 ### Summary
 

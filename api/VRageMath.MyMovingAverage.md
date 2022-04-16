@@ -13,19 +13,19 @@ public class MyMovingAverage
 
 |Member|Description|
 |---|---|
-|[float Avg { get; }](VRageMath.MyMovingAverage.Avg)||
-|[double Sum { get; }](VRageMath.MyMovingAverage.Sum)||
+|\$1float Avg { get; }](VRageMath.MyMovingAverage.Avg)||
+|\$1double Sum { get; }](VRageMath.MyMovingAverage.Sum)||
 
 #### Constructors
 
 |Member|Description|
 |---|---|
-|[MyMovingAverage(int, [int])](VRageMath.MyMovingAverage..ctor)||
+|\$1MyMovingAverage(int, \$1int])](VRageMath.MyMovingAverage..ctor)||
 
 #### Methods
 
 |Member|Description|
 |---|---|
-|[void Enqueue(float)](VRageMath.MyMovingAverage.Enqueue)||
-|[void Reset()](VRageMath.MyMovingAverage.Reset)||
+|\$1void Enqueue(float)](VRageMath.MyMovingAverage.Enqueue)||
+|\$1void Reset()](VRageMath.MyMovingAverage.Reset)||
 

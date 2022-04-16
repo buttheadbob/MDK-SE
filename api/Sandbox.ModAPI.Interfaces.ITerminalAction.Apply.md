@@ -12,10 +12,10 @@ public void Apply(IMyCubeBlock block)
 ### Summary
 
 ```csharp
-public void Apply(IMyCubeBlock block, ListReader\<TerminalActionParameter\> terminalActionParameters)
+public void Apply(IMyCubeBlock block, ListReader<TerminalActionParameter\> terminalActionParameters)
 ```
 
 ### Parameters
 
 * [IMyCubeBlock](VRage.Game.ModAPI.Ingame.IMyCubeBlock) block
-* [ListReader\<TerminalActionParameter\>](VRage.Collections.ListReader`1[[Sandbox.ModAPI.Ingame.TerminalActionParameter, Sandbox.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]) terminalActionParameters
+* [ListReader<TerminalActionParameter\>](VRage.Collections.ListReader`1[[Sandbox.ModAPI.Ingame.TerminalActionParameter, Sandbox.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]) terminalActionParameters

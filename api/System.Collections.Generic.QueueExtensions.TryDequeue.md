@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static bool TryDequeue\<T\>(this Queue\<T\> queue, out T result)
+public static bool TryDequeue<T>(this Queue<T\> queue, out T result)
 ```
 
 ### Returns
@@ -12,5 +12,5 @@ public static bool TryDequeue\<T\>(this Queue\<T\> queue, out T result)
 
 ### Parameters
 
-* [Queue\<T\>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Queue-1?view=netframework-4.6) queue
+* [Queue<T\>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Queue-1?view=netframework-4.6) queue
 * [T]() result

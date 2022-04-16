@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static T FirstElement\<T\>(this HashSet\<T\> hashset)
+public static T FirstElement<T>(this HashSet<T\> hashset)
 ```
 
 ### Returns
@@ -12,4 +12,4 @@ public static T FirstElement\<T\>(this HashSet\<T\> hashset)
 
 ### Parameters
 
-* [HashSet\<T\>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netframework-4.6) hashset
+* [HashSet<T\>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.HashSet-1?view=netframework-4.6) hashset

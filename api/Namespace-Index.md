@@ -143,7 +143,7 @@ This index contains all types and members available to ingame scripting - with e
 
 [ITerminalAction](Sandbox.ModAPI.Interfaces.ITerminalAction)  
 [ITerminalProperty](Sandbox.ModAPI.Interfaces.ITerminalProperty)  
-[ITerminalProperty\&lt;TValue\&gt;](Sandbox.ModAPI.Interfaces.ITerminalProperty`1)  
+[ITerminalProperty&lt;TValue\&gt;](Sandbox.ModAPI.Interfaces.ITerminalProperty`1)  
 [TerminalPropertyExtensions](Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions)
 
 ### SpaceEngineers.Game.ModAPI.Ingame
@@ -183,7 +183,7 @@ This index contains all types and members available to ingame scripting - with e
 
 ### System.Collections.Generic
 
-[ClearToken\&lt;T\&gt;](System.Collections.Generic.ClearToken`1)  
+[ClearToken&lt;T\&gt;](System.Collections.Generic.ClearToken`1)  
 [DictionaryExtensions](System.Collections.Generic.DictionaryExtensions)  
 [HashSetExtensions](System.Collections.Generic.HashSetExtensions)  
 [ListExtensions](System.Collections.Generic.ListExtensions)  
@@ -200,18 +200,18 @@ This index contains all types and members available to ingame scripting - with e
 [MyTexts](VRage.MyTexts)  
 [MyTexts.MyLanguageDescription](VRage.MyTexts+MyLanguageDescription)  
 [MyTuple](VRage.MyTuple)  
-[MyTuple\&lt;T1, T2, T3, T4, T5, T6\&gt;](VRage.MyTuple`6)  
-[MyTuple\&lt;T1, T2, T3, T4, T5\&gt;](VRage.MyTuple`5)  
-[MyTuple\&lt;T1, T2, T3, T4\&gt;](VRage.MyTuple`4)  
-[MyTuple\&lt;T1, T2, T3\&gt;](VRage.MyTuple`3)  
-[MyTuple\&lt;T1, T2\&gt;](VRage.MyTuple`2)  
-[MyTuple\&lt;T1\&gt;](VRage.MyTuple`1)  
-[MyTupleComparer\&lt;T1, T2, T3\&gt;](VRage.MyTupleComparer`3)  
-[MyTupleComparer\&lt;T1, T2\&gt;](VRage.MyTupleComparer`2)
+[MyTuple&lt;T1, T2, T3, T4, T5, T6\&gt;](VRage.MyTuple`6)  
+[MyTuple&lt;T1, T2, T3, T4, T5\&gt;](VRage.MyTuple`5)  
+[MyTuple&lt;T1, T2, T3, T4\&gt;](VRage.MyTuple`4)  
+[MyTuple&lt;T1, T2, T3\&gt;](VRage.MyTuple`3)  
+[MyTuple&lt;T1, T2\&gt;](VRage.MyTuple`2)  
+[MyTuple&lt;T1\&gt;](VRage.MyTuple`1)  
+[MyTupleComparer&lt;T1, T2, T3\&gt;](VRage.MyTupleComparer`3)  
+[MyTupleComparer&lt;T1, T2\&gt;](VRage.MyTupleComparer`2)
 
 ### VRage.Collections
 
-[ListReader\&lt;T\&gt;](VRage.Collections.ListReader`1)
+[ListReader&lt;T\&gt;](VRage.Collections.ListReader`1)
 
 ### VRage.Game
 
@@ -321,7 +321,7 @@ This index contains all types and members available to ingame scripting - with e
 [CurveLoopType](VRageMath.CurveLoopType)  
 [CurveTangent](VRageMath.CurveTangent)  
 [HyperSphereHelpers](VRageMath.HyperSphereHelpers)  
-[IAddOp\&lt;T\&gt;](VRageMath.IAddOp`1)  
+[IAddOp&lt;T\&gt;](VRageMath.IAddOp`1)  
 [Line](VRageMath.Line)  
 [LineD](VRageMath.LineD)  
 [MathHelper](VRageMath.MathHelper)  
@@ -337,8 +337,8 @@ This index contains all types and members available to ingame scripting - with e
 [MyDynamicAABBTree](VRageMath.MyDynamicAABBTree)  
 [MyDynamicAABBTree.DynamicTreeNode](VRageMath.MyDynamicAABBTree+DynamicTreeNode)  
 [MyDynamicAABBTreeD](VRageMath.MyDynamicAABBTreeD)  
-[MyLineSegmentOverlapResult\&lt;T\&gt;](VRageMath.MyLineSegmentOverlapResult`1)  
-[MyLineSegmentOverlapResult\&lt;T\&gt;.MyLineSegmentOverlapResultComparer\&lt;T\&gt;](VRageMath.MyLineSegmentOverlapResult`1+MyLineSegmentOverlapResultComparer)  
+[MyLineSegmentOverlapResult&lt;T\&gt;](VRageMath.MyLineSegmentOverlapResult`1)  
+[MyLineSegmentOverlapResult&lt;T\&gt;.MyLineSegmentOverlapResultComparer&lt;T\&gt;](VRageMath.MyLineSegmentOverlapResult`1+MyLineSegmentOverlapResultComparer)  
 [MyMath](VRageMath.MyMath)  
 [MyMortonCode3D](VRageMath.MyMortonCode3D)  
 [MyMovingAverage](VRageMath.MyMovingAverage)  

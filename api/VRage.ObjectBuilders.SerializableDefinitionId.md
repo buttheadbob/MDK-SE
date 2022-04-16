@@ -13,30 +13,30 @@ public struct SerializableDefinitionId
 
 |Member|Description|
 |---|---|
-|[string SubtypeName](VRage.ObjectBuilders.SerializableDefinitionId.SubtypeName)||
-|[MyObjectBuilderType TypeId](VRage.ObjectBuilders.SerializableDefinitionId.TypeId)||
+|\$1string SubtypeName](VRage.ObjectBuilders.SerializableDefinitionId.SubtypeName)||
+|\$1MyObjectBuilderType TypeId](VRage.ObjectBuilders.SerializableDefinitionId.TypeId)||
 
 #### Properties
 
 |Member|Description|
 |---|---|
-|[string SubtypeId { get; set; }](VRage.ObjectBuilders.SerializableDefinitionId.SubtypeId)||
-|[string SubtypeIdAttribute { get; set; }](VRage.ObjectBuilders.SerializableDefinitionId.SubtypeIdAttribute)||
-|[string TypeIdString { get; set; }](VRage.ObjectBuilders.SerializableDefinitionId.TypeIdString)||
-|[string TypeIdStringAttribute { get; set; }](VRage.ObjectBuilders.SerializableDefinitionId.TypeIdStringAttribute)||
+|\$1string SubtypeId { get; set; }](VRage.ObjectBuilders.SerializableDefinitionId.SubtypeId)||
+|\$1string SubtypeIdAttribute { get; set; }](VRage.ObjectBuilders.SerializableDefinitionId.SubtypeIdAttribute)||
+|\$1string TypeIdString { get; set; }](VRage.ObjectBuilders.SerializableDefinitionId.TypeIdString)||
+|\$1string TypeIdStringAttribute { get; set; }](VRage.ObjectBuilders.SerializableDefinitionId.TypeIdStringAttribute)||
 
 #### Constructors
 
 |Member|Description|
 |---|---|
-|[SerializableDefinitionId(MyObjectBuilderType, string)](VRage.ObjectBuilders.SerializableDefinitionId..ctor)||
+|\$1SerializableDefinitionId(MyObjectBuilderType, string)](VRage.ObjectBuilders.SerializableDefinitionId..ctor)||
 
 #### Methods
 
 |Member|Description|
 |---|---|
-|[bool IsNull()](VRage.ObjectBuilders.SerializableDefinitionId.IsNull)||
-|[bool ShouldSerializeSubtypeId()](VRage.ObjectBuilders.SerializableDefinitionId.ShouldSerializeSubtypeId)||
-|[bool ShouldSerializeTypeIdString()](VRage.ObjectBuilders.SerializableDefinitionId.ShouldSerializeTypeIdString)||
-|[string ToString()](VRage.ObjectBuilders.SerializableDefinitionId.ToString)||
+|\$1bool IsNull()](VRage.ObjectBuilders.SerializableDefinitionId.IsNull)||
+|\$1bool ShouldSerializeSubtypeId()](VRage.ObjectBuilders.SerializableDefinitionId.ShouldSerializeSubtypeId)||
+|\$1bool ShouldSerializeTypeIdString()](VRage.ObjectBuilders.SerializableDefinitionId.ShouldSerializeTypeIdString)||
+|\$1string ToString()](VRage.ObjectBuilders.SerializableDefinitionId.ToString)||
 

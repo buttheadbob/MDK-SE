@@ -13,11 +13,11 @@ public abstract sealed class DictionaryExtensions
 
 |Member|Description|
 |---|---|
-|[static void AssertEmpty\<K, V\>(this Dictionary\<K, V\>)](System.Collections.Generic.DictionaryExtensions.AssertEmpty)||
-|[static KeyValuePair\<K, V\> FirstPair\<K, V\>(this Dictionary\<K, V\>)](System.Collections.Generic.DictionaryExtensions.FirstPair)||
-|[static TValue GetOrAdd\<TKey, TValue, TContext\>(this ConcurrentDictionary\<TKey, TValue\>, TKey, TContext, Func\<TContext, TKey, TValue\>)](System.Collections.Generic.DictionaryExtensions.GetOrAdd)||
-|[static V GetValueOrDefault\<K, V\>(this Dictionary\<K, V\>, K)](System.Collections.Generic.DictionaryExtensions.GetValueOrDefault)||
-|[static V GetValueOrDefault\<K, V\>(this Dictionary\<K, V\>, K, V)](System.Collections.Generic.DictionaryExtensions.GetValueOrDefault)||
-|[static V GetValueOrDefault\<K, V\>(this ConcurrentDictionary\<K, V\>, K, V)](System.Collections.Generic.DictionaryExtensions.GetValueOrDefault)||
-|[static void Remove\<K, V\>(this ConcurrentDictionary\<K, V\>, K)](System.Collections.Generic.DictionaryExtensions.Remove)||
+|\$1static void AssertEmpty\$1K, V>(this Dictionary\$1K, V\>)](System.Collections.Generic.DictionaryExtensions.AssertEmpty)||
+|\$1static KeyValuePair\$1K, V\> FirstPair\$1K, V>(this Dictionary\$1K, V\>)](System.Collections.Generic.DictionaryExtensions.FirstPair)||
+|\$1static TValue GetOrAdd\$1TKey, TValue, TContext>(this ConcurrentDictionary\$1TKey, TValue\>, TKey, TContext, Func\$1TContext, TKey, TValue\>)](System.Collections.Generic.DictionaryExtensions.GetOrAdd)||
+|\$1static V GetValueOrDefault\$1K, V>(this Dictionary\$1K, V\>, K)](System.Collections.Generic.DictionaryExtensions.GetValueOrDefault)||
+|\$1static V GetValueOrDefault\$1K, V>(this Dictionary\$1K, V\>, K, V)](System.Collections.Generic.DictionaryExtensions.GetValueOrDefault)||
+|\$1static V GetValueOrDefault\$1K, V>(this ConcurrentDictionary\$1K, V\>, K, V)](System.Collections.Generic.DictionaryExtensions.GetValueOrDefault)||
+|\$1static void Remove\$1K, V>(this ConcurrentDictionary\$1K, V\>, K)](System.Collections.Generic.DictionaryExtensions.Remove)||
 

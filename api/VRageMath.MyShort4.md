@@ -13,8 +13,8 @@ public struct MyShort4
 
 |Member|Description|
 |---|---|
-|[short W](VRageMath.MyShort4.W)||
-|[short X](VRageMath.MyShort4.X)||
-|[short Y](VRageMath.MyShort4.Y)||
-|[short Z](VRageMath.MyShort4.Z)||
+|\$1short W](VRageMath.MyShort4.W)||
+|\$1short X](VRageMath.MyShort4.X)||
+|\$1short Y](VRageMath.MyShort4.Y)||
+|\$1short Z](VRageMath.MyShort4.Z)||
 

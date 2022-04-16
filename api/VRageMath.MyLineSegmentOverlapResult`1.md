@@ -1,9 +1,9 @@
 ← [Index](Api-Index) ← [Namespace Index](Namespace-Index)
 
-#### MyLineSegmentOverlapResult\&lt;T\&gt; Struct
+#### MyLineSegmentOverlapResult&lt;T\&gt; Struct
 
 ```csharp
-public struct MyLineSegmentOverlapResult\<T\>
+public struct MyLineSegmentOverlapResult<T\>
 ```
 
 **Namespace:** [VRageMath](VRageMath)  
@@ -13,7 +13,7 @@ public struct MyLineSegmentOverlapResult\<T\>
 
 |Member|Description|
 |---|---|
-|[static MyLineSegmentOverlapResultComparer\<T\> DistanceComparer](VRageMath.MyLineSegmentOverlapResult`1.DistanceComparer)||
-|[double Distance](VRageMath.MyLineSegmentOverlapResult`1.Distance)||
-|[T Element](VRageMath.MyLineSegmentOverlapResult`1.Element)||
+|\$1static MyLineSegmentOverlapResultComparer\$1T\> DistanceComparer](VRageMath.MyLineSegmentOverlapResult`1.DistanceComparer)||
+|\$1double Distance](VRageMath.MyLineSegmentOverlapResult`1.Distance)||
+|\$1T Element](VRageMath.MyLineSegmentOverlapResult`1.Element)||
 

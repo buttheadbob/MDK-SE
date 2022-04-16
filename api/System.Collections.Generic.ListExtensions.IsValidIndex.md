@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static bool IsValidIndex\<T\>(this List\<T\> list, int index)
+public static bool IsValidIndex<T>(this List<T\> list, int index)
 ```
 
 ### Returns
@@ -12,5 +12,5 @@ public static bool IsValidIndex\<T\>(this List\<T\> list, int index)
 
 ### Parameters
 
-* [List\<T\>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) list
+* [List<T\>](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netframework-4.6) list
 * [int](https://docs.microsoft.com/en-us/dotnet/api/System.Int32?view=netframework-4.6) index

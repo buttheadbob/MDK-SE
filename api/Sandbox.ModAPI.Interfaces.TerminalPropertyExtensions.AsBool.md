@@ -10,7 +10,7 @@ Property type cast
 
 ### Returns
 
-[ITerminalProperty\<bool>](Sandbox.ModAPI.Interfaces.ITerminalProperty`1[[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]])
+[ITerminalProperty\<bool>](Sandbox.ModAPI.Interfaces.ITerminalProperty`1\[\[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\]\])
 
 reference to [Sandbox.ModAPI.Interfaces.ITerminalProperty`1](https://docs.microsoft.com/en-us/dotnet/api/sandbox.modapi.interfaces.iterminalproperty`1?view=netframework-4.6) value of specified type (bool)
 

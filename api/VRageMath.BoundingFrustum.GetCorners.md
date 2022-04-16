@@ -10,7 +10,7 @@ Gets an array of points that make up the corners of the BoundingFrustum. ALLOCAT
 
 ### Returns
 
-[Vector3\[\]](VRageMath.Vector3[])
+[Vector3\[\]](VRageMath.Vector3\[\])
 
 ### Summary
 
@@ -22,4 +22,4 @@ Gets an array of points that make up the corners of the BoundingFrustum.
 
 ### Parameters
 
-* [Vector3\[\]](VRageMath.Vector3[]) corners
+* [Vector3\[\]](VRageMath.Vector3\[\]) corners

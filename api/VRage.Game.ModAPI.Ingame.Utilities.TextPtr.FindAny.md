@@ -16,4 +16,4 @@ Finds one of the given characters
 
 ### Parameters
 
-* [Char&#91&#93;](https://docs.microsoft.com/en-us/dotnet/api/System.Char&#91&#93;?view=netframework-4.6) chs
+* Char&#91&#93; chs

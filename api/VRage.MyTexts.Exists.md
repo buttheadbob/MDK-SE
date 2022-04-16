@@ -12,4 +12,4 @@ public static bool Exists(MyStringId id)
 
 ### Parameters
 
-* [MyStringId](VRage.Utils.MyStringId) id
+* MyStringId id

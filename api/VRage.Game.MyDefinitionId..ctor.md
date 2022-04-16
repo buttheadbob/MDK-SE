@@ -8,7 +8,7 @@ public MyDefinitionId(MyObjectBuilderType type)
 
 ### Parameters
 
-* [MyObjectBuilderType](VRage.ObjectBuilders.MyObjectBuilderType) type
+* MyObjectBuilderType type
 ### Summary
 
 ```csharp
@@ -17,7 +17,7 @@ public MyDefinitionId(MyObjectBuilderType type, string subtypeName)
 
 ### Parameters
 
-* [MyObjectBuilderType](VRage.ObjectBuilders.MyObjectBuilderType) type
+* MyObjectBuilderType type
 * [string](https://docs.microsoft.com/en-us/dotnet/api/System.String?view=netframework-4.6) subtypeName
 ### Summary
 
@@ -27,8 +27,8 @@ public MyDefinitionId(MyObjectBuilderType type, MyStringHash subtypeId)
 
 ### Parameters
 
-* [MyObjectBuilderType](VRage.ObjectBuilders.MyObjectBuilderType) type
-* [MyStringHash](VRage.Utils.MyStringHash) subtypeId
+* MyObjectBuilderType type
+* MyStringHash subtypeId
 ### Summary
 
 ```csharp
@@ -37,5 +37,5 @@ public MyDefinitionId(MyRuntimeObjectBuilderId type, MyStringHash subtypeId)
 
 ### Parameters
 
-* [MyRuntimeObjectBuilderId](VRage.ObjectBuilders.MyRuntimeObjectBuilderId) type
-* [MyStringHash](VRage.Utils.MyStringHash) subtypeId
+* MyRuntimeObjectBuilderId type
+* MyStringHash subtypeId

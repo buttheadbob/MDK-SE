@@ -10,5 +10,5 @@ Global selector for translation variants.
 
 ### Returns
 
-[MyStringId](VRage.Utils.MyStringId)
+MyStringId
 

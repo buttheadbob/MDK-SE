@@ -12,7 +12,7 @@ All programmable block scripts derive from this class, meaning that all properti
 **Assembly:** Sandbox.Common.dll
 
 **Implements:**  
-* [IMyGridProgram](Sandbox.ModAPI.IMyGridProgram)
+* IMyGridProgram
 
 #### Example
 

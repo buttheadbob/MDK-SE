@@ -41,6 +41,6 @@ public static V GetValueOrDefault<K, V>(this ConcurrentDictionary<K, V> diction
 
 ### Parameters
 
-* [ConcurrentDictionary&lt;K, V&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Concurrent.ConcurrentDictionary-2?view=netframework-4.6) dictionary
+* ConcurrentDictionary&lt;K, V&gt; dictionary
 * [K]() key
 * [V]() defaultValue

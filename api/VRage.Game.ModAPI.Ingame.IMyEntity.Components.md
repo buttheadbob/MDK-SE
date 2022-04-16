@@ -10,5 +10,5 @@ Gets blocks component logic container
 
 ### Returns
 
-[MyEntityComponentContainer](VRage.Game.Components.MyEntityComponentContainer)
+MyEntityComponentContainer
 

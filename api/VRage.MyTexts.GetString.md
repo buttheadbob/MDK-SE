@@ -12,7 +12,7 @@ public static string GetString(MyStringId id)
 
 ### Parameters
 
-* [MyStringId](VRage.Utils.MyStringId) id
+* MyStringId id
 ### Summary
 
 ```csharp

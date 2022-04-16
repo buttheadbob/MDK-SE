@@ -8,5 +8,5 @@ public static Int32[] StartVertices
 
 ### Returns
 
-[Int32&#91&#93;](https://docs.microsoft.com/en-us/dotnet/api/System.Int32&#91&#93;?view=netframework-4.6)
+Int32&#91&#93;
 

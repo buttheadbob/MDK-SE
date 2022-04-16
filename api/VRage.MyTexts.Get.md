@@ -12,4 +12,4 @@ public static StringBuilder Get(MyStringId id)
 
 ### Parameters
 
-* [MyStringId](VRage.Utils.MyStringId) id
+* MyStringId id

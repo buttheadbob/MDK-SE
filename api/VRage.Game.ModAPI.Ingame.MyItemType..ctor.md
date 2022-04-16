@@ -18,5 +18,5 @@ public MyItemType(MyObjectBuilderType typeId, MyStringHash subTypeIdHash)
 
 ### Parameters
 
-* [MyObjectBuilderType](VRage.ObjectBuilders.MyObjectBuilderType) typeId
-* [MyStringHash](VRage.Utils.MyStringHash) subTypeIdHash
+* MyObjectBuilderType typeId
+* MyStringHash subTypeIdHash

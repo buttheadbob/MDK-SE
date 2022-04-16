@@ -10,4 +10,4 @@ Set the global variant to be selected for each translation.
 
 ### Parameters
 
-* [MyStringId](VRage.Utils.MyStringId) variantName
+* MyStringId variantName

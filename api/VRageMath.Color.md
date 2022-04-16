@@ -13,8 +13,8 @@ Represents a four-component color using red, green, blue, and alpha data.
 
 **Implements:**  
 * [IEquatable&lt;Color&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1?view=netframework-4.6)  
-* [IPackedVector](VRageMath.PackedVector.IPackedVector)  
-* [IPackedVector&lt;uint&gt;](VRageMath.PackedVector.IPackedVector`1&#91&#91System.UInt32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#93;&#93;)
+* IPackedVector  
+* IPackedVector&lt;uint&gt;
 
 #### Fields
 

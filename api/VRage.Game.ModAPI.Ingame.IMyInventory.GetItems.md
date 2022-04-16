@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetItems(List<MyInventoryItem> items, Func<MyInventoryItem, bool> filter = default)
+public void GetItems(List<MyInventoryItem> items, Func<MyInventoryItem, bool> filter = null)
 ```
 
 Collects all items present inside this inventory and returns snapshot of the current inventory state.

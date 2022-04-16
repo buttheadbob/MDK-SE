@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetAll<T>(List<T> elementsList, bool clear, List<BoundingBox> boxsList = default)
+public void GetAll<T>(List<T> elementsList, bool clear, List<BoundingBox> boxsList = null)
 ```
 
 ### Parameters

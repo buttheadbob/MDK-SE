@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetBlockGroups(List<IMyBlockGroup> blockGroups, Func<IMyBlockGroup, bool> collect = default)
+public void GetBlockGroups(List<IMyBlockGroup> blockGroups, Func<IMyBlockGroup, bool> collect = null)
 ```
 
 Fills the provided list with the block groups reachable by this grid terminal system.

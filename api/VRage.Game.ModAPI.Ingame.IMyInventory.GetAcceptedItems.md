@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetAcceptedItems(List<MyItemType> itemsTypes, Func<MyItemType, bool> filter = default)
+public void GetAcceptedItems(List<MyItemType> itemsTypes, Func<MyItemType, bool> filter = null)
 ```
 
 Returns all items this inventory accepts.

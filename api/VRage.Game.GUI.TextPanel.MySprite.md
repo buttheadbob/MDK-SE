@@ -29,7 +29,7 @@ public struct MySprite: IEquatable<MySprite>
 
 |Member|Description|
 |---|---|
-|[MySprite(SpriteType = SpriteType.TEXTURE, string = default, Vector2? = default, Vector2? = default, Color? = default, string = default, TextAlignment = TextAlignment.CENTER, float = 0)](VRage.Game.GUI.TextPanel.MySprite..ctor)||
+|[MySprite(SpriteType = SpriteType.TEXTURE, string = null, Vector2? = default, Vector2? = default, Color? = default, string = null, TextAlignment = TextAlignment.CENTER, float = 0)](VRage.Game.GUI.TextPanel.MySprite..ctor)||
 
 #### Methods
 

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetActions(List<ITerminalAction> resultList, Func<ITerminalAction, bool> collect = default)
+public void GetActions(List<ITerminalAction> resultList, Func<ITerminalAction, bool> collect = null)
 ```
 
 Get all terminal actions available for block

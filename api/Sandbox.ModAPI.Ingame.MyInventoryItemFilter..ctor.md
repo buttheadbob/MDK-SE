@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MyInventoryItemFilter(string itemId, [bool allSubTypes])
+public MyInventoryItemFilter(string itemId, bool allSubTypes = default)
 ```
 
 ### Parameters
@@ -13,7 +13,7 @@ public MyInventoryItemFilter(string itemId, [bool allSubTypes])
 ### Summary
 
 ```csharp
-public MyInventoryItemFilter(MyDefinitionId itemId, [bool allSubTypes])
+public MyInventoryItemFilter(MyDefinitionId itemId, bool allSubTypes = default)
 ```
 
 ### Parameters

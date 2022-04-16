@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void SearchBlocksOfName(string name, List<IMyTerminalBlock> blocks, [Func<IMyTerminalBlock, bool> collect])
+public void SearchBlocksOfName(string name, List<IMyTerminalBlock> blocks, Func<IMyTerminalBlock, bool> collect = default)
 ```
 
 Fills the provided list with the blocks reachable by this grid terminal system. This means all blocks on the same grid, or connected via rotors, pistons or connectors.

@@ -20,7 +20,7 @@ public class MyMovingAverage
 
 |Member|Description|
 |---|---|
-|[MyMovingAverage(int, \[int\])](VRageMath.MyMovingAverage..ctor)||
+|[MyMovingAverage(int, int = 1000)](VRageMath.MyMovingAverage..ctor)||
 
 #### Methods
 

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool HasPlayerAccess(long playerId, [MyRelationsBetweenPlayerAndBlock defaultNoUser])
+public bool HasPlayerAccess(long playerId, MyRelationsBetweenPlayerAndBlock defaultNoUser = MyRelationsBetweenPlayerAndBlock.NoOwnership)
 ```
 
 Returns if local player can use block. It is also checking for admin access.

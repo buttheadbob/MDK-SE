@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void SearchActionsOfName(string name, List<ITerminalAction> resultList, [Func<ITerminalAction, bool> collect])
+public void SearchActionsOfName(string name, List<ITerminalAction> resultList, Func<ITerminalAction, bool> collect = default)
 ```
 
 Get all terminal actions available for block. NOTE: First called `  

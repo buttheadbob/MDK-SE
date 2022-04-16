@@ -17,7 +17,7 @@ public static T MaxBy<T>(this IEnumerable<T> source, Func<T, float> selector)
 ### Summary
 
 ```csharp
-public static TItem MaxBy<TItem, TKey>(this IEnumerable<TItem> source, Func<TItem, TKey> selector, [IComparer<TKey> comparer])
+public static TItem MaxBy<TItem, TKey>(this IEnumerable<TItem> source, Func<TItem, TKey> selector, IComparer<TKey> comparer = default)
 ```
 
 ### Returns

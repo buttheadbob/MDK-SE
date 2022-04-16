@@ -102,6 +102,6 @@ Defines a four-dimensional vector (x,y,z,w), which is used to efficiently rotate
 |[void SetComponent(int, float)](VRageMath.Quaternion.SetComponent)||
 |[string ToString()](VRageMath.Quaternion.ToString)|Retireves a string representation of the current object.|
 |[string ToString(string)](VRageMath.Quaternion.ToString)||
-|[string ToStringAxisAngle(\[string\])](VRageMath.Quaternion.ToStringAxisAngle)||
+|[string ToStringAxisAngle(string = "G")](VRageMath.Quaternion.ToStringAxisAngle)||
 |[Vector4 ToVector4()](VRageMath.Quaternion.ToVector4)||
 

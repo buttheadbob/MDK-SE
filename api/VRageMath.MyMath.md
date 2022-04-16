@@ -36,7 +36,7 @@ public abstract sealed class MyMath
 |[static Vector3 MaxComponents(ref Vector3, ref Vector3)](VRageMath.MyMath.MaxComponents)|Return vector with each component max|
 |[static int Mod(int, int)](VRageMath.MyMath.Mod)||
 |[static long Mod(long, int)](VRageMath.MyMath.Mod)||
-|[static float NormalizeAngle(float, \[float\])](VRageMath.MyMath.NormalizeAngle)||
+|[static float NormalizeAngle(float, float = 0)](VRageMath.MyMath.NormalizeAngle)||
 |[static Vector3 QuaternionToEuler(Quaternion)](VRageMath.MyMath.QuaternionToEuler)|QuaternionToEuler|
 |[static Vector3 VectorFromColor(byte, byte, byte)](VRageMath.MyMath.VectorFromColor)|Calculates color from vector|
 |[static Vector4 VectorFromColor(byte, byte, byte, byte)](VRageMath.MyMath.VectorFromColor)||

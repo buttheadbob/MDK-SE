@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void AssertIsValid([string message])
+public void AssertIsValid(string message = default)
 ```
 
 ### Parameters

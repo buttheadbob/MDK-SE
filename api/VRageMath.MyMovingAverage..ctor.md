@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MyMovingAverage(int windowSize, [int enqueueCountToReset])
+public MyMovingAverage(int windowSize, int enqueueCountToReset = 1000)
 ```
 
 ### Parameters

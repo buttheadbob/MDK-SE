@@ -38,11 +38,11 @@ public abstract sealed class MyTexts
 |[static string GetSystemLanguage()](VRage.MyTexts.GetSystemLanguage)||
 |[static bool IsTagged(string, int, string)](VRage.MyTexts.IsTagged)||
 |[static void LoadSupportedLanguages(string, HashSet\<MyLanguagesEnum>)](VRage.MyTexts.LoadSupportedLanguages)||
-|[static void LoadTexts(string, \[string\], \[string\])](VRage.MyTexts.LoadTexts)||
+|[static void LoadTexts(string, string = default, string = default)](VRage.MyTexts.LoadTexts)||
 |[static bool MatchesReplaceFormat(string)](VRage.MyTexts.MatchesReplaceFormat)||
 |[static void RegisterEvaluator(string, ITextEvaluator)](VRage.MyTexts.RegisterEvaluator)||
 |[static void SetGlobalVariantSelector(MyStringId)](VRage.MyTexts.SetGlobalVariantSelector)|Set the global variant to be selected for each translation.|
-|[static string SubstituteTexts(string, \[string\])](VRage.MyTexts.SubstituteTexts)||
+|[static string SubstituteTexts(string, string = default)](VRage.MyTexts.SubstituteTexts)||
 |[static StringBuilder SubstituteTexts(StringBuilder)](VRage.MyTexts.SubstituteTexts)||
 |[static string TrySubstitute(string)](VRage.MyTexts.TrySubstitute)||
 

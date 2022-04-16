@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool EqualsFast(ref MatrixD other, [double epsilon])
+public bool EqualsFast(ref MatrixD other, double epsilon = 0.0001)
 ```
 
 Compares just position, forward and up

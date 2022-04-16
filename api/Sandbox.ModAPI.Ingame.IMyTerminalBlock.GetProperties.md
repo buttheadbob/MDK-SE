@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetProperties(List<ITerminalProperty> resultList, [Func<ITerminalProperty, bool> collect])
+public void GetProperties(List<ITerminalProperty> resultList, Func<ITerminalProperty, bool> collect = default)
 ```
 
 Get all terminal actions available for block.

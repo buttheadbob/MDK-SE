@@ -167,7 +167,7 @@ Defines a matrix.
 |[float Determinant()](VRageMath.Matrix.Determinant)|Calculates the determinant of the matrix.|
 |[bool Equals(Matrix)](VRageMath.Matrix.Equals)|Determines whether the specified Object is equal to the Matrix.|
 |[bool Equals(object)](VRageMath.Matrix.Equals)|Returns a value that indicates whether the current instance is equal to a specified object.|
-|[bool EqualsFast(ref Matrix, \[float\])](VRageMath.Matrix.EqualsFast)|Compares just position, forward and up|
+|[bool EqualsFast(ref Matrix, float = 0.0001)](VRageMath.Matrix.EqualsFast)|Compares just position, forward and up|
 |[Direction GetClosestDirection(Vector3)](VRageMath.Matrix.GetClosestDirection)||
 |[Direction GetClosestDirection(ref Vector3)](VRageMath.Matrix.GetClosestDirection)||
 |[Vector3 GetDirectionVector(Direction)](VRageMath.Matrix.GetDirectionVector)||

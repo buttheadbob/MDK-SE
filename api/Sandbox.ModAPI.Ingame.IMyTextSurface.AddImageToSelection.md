@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void AddImageToSelection(string id, [bool checkExistence])
+public void AddImageToSelection(string id, bool checkExistence = default)
 ```
 
 Adds image to list of shown images. You can get image ids by [GetSelectedImages(List<string>)](Sandbox.ModAPI.Ingame.IMyTextSurface.GetSelectedImages) 

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public MyRelationsBetweenPlayerAndBlock GetUserRelationToOwner(long playerId, [MyRelationsBetweenPlayerAndBlock defaultNoUser])
+public MyRelationsBetweenPlayerAndBlock GetUserRelationToOwner(long playerId, MyRelationsBetweenPlayerAndBlock defaultNoUser = MyRelationsBetweenPlayerAndBlock.NoOwnership)
 ```
 
 Gets relation to owner of block

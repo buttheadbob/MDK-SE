@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public static string SubstituteTexts(string text, [string context])
+public static string SubstituteTexts(string text, string context = default)
 ```
 
 ### Returns

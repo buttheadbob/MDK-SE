@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void OverlapAllFrustumConservative<T>(ref BoundingFrustum frustum, List<T> elementsList, uint requiredFlags, [bool clear])
+public void OverlapAllFrustumConservative<T>(ref BoundingFrustum frustum, List<T> elementsList, uint requiredFlags, bool clear = default)
 ```
 
 ### Parameters

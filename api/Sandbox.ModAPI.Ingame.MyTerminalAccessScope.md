@@ -6,7 +6,7 @@
 public enum MyTerminalAccessScope
 ```
 
-Determines how [CanAccess(IMyTerminalBlock, [MyTerminalAccessScope])](Sandbox.ModAPI.Ingame.IMyGridTerminalSystem.CanAccess) limits its access check.
+Determines how [CanAccess(IMyTerminalBlock, MyTerminalAccessScope = MyTerminalAccessScope.All)](Sandbox.ModAPI.Ingame.IMyGridTerminalSystem.CanAccess) limits its access check.
 
 **Namespace:** [Sandbox.ModAPI.Ingame](Sandbox.ModAPI.Ingame)  
 **Assembly:** Sandbox.Common.dll

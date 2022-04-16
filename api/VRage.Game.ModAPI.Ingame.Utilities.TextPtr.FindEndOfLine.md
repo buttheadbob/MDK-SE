@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public TextPtr FindEndOfLine([bool skipNewline])
+public TextPtr FindEndOfLine(bool skipNewline = default)
 ```
 
 Finds the end of the current line

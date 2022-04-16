@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetBlocks(List<IMyTerminalBlock> blocks, [Func<IMyTerminalBlock, bool> collect])
+public void GetBlocks(List<IMyTerminalBlock> blocks, Func<IMyTerminalBlock, bool> collect = default)
 ```
 
 Get terminal blocks which assigned to this group

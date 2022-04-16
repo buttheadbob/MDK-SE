@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool WritePrivateTitle(string value, [bool append])
+public bool WritePrivateTitle(string value, bool append = default)
 ```
 
 ### Returns

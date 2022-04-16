@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void RemoveImagesFromSelection(List<string> ids, [bool removeDuplicates])
+public void RemoveImagesFromSelection(List<string> ids, bool removeDuplicates = default)
 ```
 
 Removes images from shown images.

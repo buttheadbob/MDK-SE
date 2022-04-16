@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void OverlapAllBoundingBox<T>(ref BoundingBoxD bbox, List<T> elementsList, [uint requiredFlags], [bool clear])
+public void OverlapAllBoundingBox<T>(ref BoundingBoxD bbox, List<T> elementsList, uint requiredFlags = 0, bool clear = default)
 ```
 
 ### Parameters
@@ -15,7 +15,7 @@ public void OverlapAllBoundingBox<T>(ref BoundingBoxD bbox, List<T> elementsLis
 ### Summary
 
 ```csharp
-public void OverlapAllBoundingBox<T>(ref MyOrientedBoundingBoxD obb, List<T> elementsList, [uint requiredFlags], [bool clear])
+public void OverlapAllBoundingBox<T>(ref MyOrientedBoundingBoxD obb, List<T> elementsList, uint requiredFlags = 0, bool clear = default)
 ```
 
 ### Parameters

@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool CanAccess(IMyTerminalBlock block, [MyTerminalAccessScope scope])
+public bool CanAccess(IMyTerminalBlock block, MyTerminalAccessScope scope = MyTerminalAccessScope.All)
 ```
 
 Checks if the grid terminal system can still access the given [IMyTerminalBlock](Sandbox.ModAPI.Ingame.IMyTerminalBlock) . A block is no longer accessible if it's destroyed, detached, it's ownership has changed or is otherwise disconnected from this grid terminal system.
@@ -21,7 +21,7 @@ Checks if the grid terminal system can still access the given [IMyTerminalBlock]
 ### Summary
 
 ```csharp
-public bool CanAccess(IMyCubeGrid grid, [MyTerminalAccessScope scope])
+public bool CanAccess(IMyCubeGrid grid, MyTerminalAccessScope scope = MyTerminalAccessScope.All)
 ```
 
 Checks if the grid terminal system can still access the given [IMyCubeGrid](VRage.Game.ModAPI.Ingame.IMyCubeGrid) . A grid is no longer accessible if it's destroyed, detached, it's ownership has changed or is otherwise disconnected from this grid terminal system.

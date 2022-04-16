@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void OverlapAllLineSegment<T>(ref LineD line, List<MyLineSegmentOverlapResult<T>> elementsList, [bool clear])
+public void OverlapAllLineSegment<T>(ref LineD line, List<MyLineSegmentOverlapResult<T>> elementsList, bool clear = default)
 ```
 
 ### Parameters
@@ -14,7 +14,7 @@ public void OverlapAllLineSegment<T>(ref LineD line, List<MyLineSegmentOverlapR
 ### Summary
 
 ```csharp
-public void OverlapAllLineSegment<T>(ref LineD line, List<MyLineSegmentOverlapResult<T>> elementsList, uint requiredFlags, [bool clear])
+public void OverlapAllLineSegment<T>(ref LineD line, List<MyLineSegmentOverlapResult<T>> elementsList, uint requiredFlags, bool clear = default)
 ```
 
 ### Parameters

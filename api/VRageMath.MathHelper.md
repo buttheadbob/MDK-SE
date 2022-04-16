@@ -81,11 +81,11 @@ Contains commonly used precalculated values.
 |[static bool IsValid(Quaternion)](VRageMath.MathHelper.IsValid)||
 |[static bool IsValidNormal(Vector3)](VRageMath.MathHelper.IsValidNormal)||
 |[static bool IsValidOrZero(Matrix)](VRageMath.MathHelper.IsValidOrZero)||
-|[static bool IsZero(float, \[float\])](VRageMath.MathHelper.IsZero)||
-|[static bool IsZero(double, \[float\])](VRageMath.MathHelper.IsZero)||
-|[static bool IsZero(Vector3, \[float\])](VRageMath.MathHelper.IsZero)||
-|[static bool IsZero(Vector3D, \[float\])](VRageMath.MathHelper.IsZero)||
-|[static bool IsZero(Quaternion, \[float\])](VRageMath.MathHelper.IsZero)||
+|[static bool IsZero(float, float = 1E-05)](VRageMath.MathHelper.IsZero)||
+|[static bool IsZero(double, float = 1E-05)](VRageMath.MathHelper.IsZero)||
+|[static bool IsZero(Vector3, float = 1E-05)](VRageMath.MathHelper.IsZero)||
+|[static bool IsZero(Vector3D, float = 1E-05)](VRageMath.MathHelper.IsZero)||
+|[static bool IsZero(Quaternion, float = 1E-05)](VRageMath.MathHelper.IsZero)||
 |[static bool IsZero(Vector4)](VRageMath.MathHelper.IsZero)||
 |[static float Lerp(float, float, float)](VRageMath.MathHelper.Lerp)|Linearly interpolates between two values.|
 |[static double Lerp(double, double, double)](VRageMath.MathHelper.Lerp)|Linearly interpolates between two values.|

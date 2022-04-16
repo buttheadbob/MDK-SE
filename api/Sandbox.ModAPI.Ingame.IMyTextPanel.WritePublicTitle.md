@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public bool WritePublicTitle(string value, [bool append])
+public bool WritePublicTitle(string value, bool append = default)
 ```
 
 Writes LCD popup dialog title If somebody opened LCD text in popup dialog, text can no longer be added.

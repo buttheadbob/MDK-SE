@@ -21,7 +21,7 @@ public abstract sealed class ListExtensions
 |[static void AssertEmpty\<T>(this List\<T>)](System.Collections.Generic.ListExtensions.AssertEmpty)||
 |[static T AtMod\<T>(this List\<T>, int)](System.Collections.Generic.ListExtensions.AtMod)||
 |[static T AtMod\<T>(this ListReader\<T>, int)](System.Collections.Generic.ListExtensions.AtMod)||
-|[static int BinaryIntervalSearch\<T>(this IList\<T>, T, \[IComparer\<T>\])](System.Collections.Generic.ListExtensions.BinaryIntervalSearch)||
+|[static int BinaryIntervalSearch\<T>(this IList\<T>, T, IComparer\<T> = default)](System.Collections.Generic.ListExtensions.BinaryIntervalSearch)||
 |[static int BinaryIntervalSearch\<T>(this IList\<T>, Func\<T, bool>)](System.Collections.Generic.ListExtensions.BinaryIntervalSearch)||
 |[static int BinaryIntervalSearch\<T>(this IList\<T>, T, Comparison\<T>)](System.Collections.Generic.ListExtensions.BinaryIntervalSearch)||
 |[static void ClearAndTrim\<T>(this List\<T>, int)](System.Collections.Generic.ListExtensions.ClearAndTrim)||
@@ -33,7 +33,7 @@ public abstract sealed class ListExtensions
 |[static bool IsSorted\<T>(this List\<T>, IComparer\<T>)](System.Collections.Generic.ListExtensions.IsSorted)||
 |[static bool IsValidIndex\<T>(this List\<T>, int)](System.Collections.Generic.ListExtensions.IsValidIndex)||
 |[static T MaxBy\<T>(this IEnumerable\<T>, Func\<T, float>)](System.Collections.Generic.ListExtensions.MaxBy)||
-|[static TItem MaxBy\<TItem, TKey>(this IEnumerable\<TItem>, Func\<TItem, TKey>, \[IComparer\<TKey>\])](System.Collections.Generic.ListExtensions.MaxBy)||
+|[static TItem MaxBy\<TItem, TKey>(this IEnumerable\<TItem>, Func\<TItem, TKey>, IComparer\<TKey> = default)](System.Collections.Generic.ListExtensions.MaxBy)||
 |[static T MinBy\<T>(this IEnumerable\<T>, Func\<T, float>)](System.Collections.Generic.ListExtensions.MinBy)||
 |[static void Move\<T>(this List\<T>, int, int)](System.Collections.Generic.ListExtensions.Move)||
 |[static TValue Pop\<TValue>(this List\<TValue>)](System.Collections.Generic.ListExtensions.Pop)||

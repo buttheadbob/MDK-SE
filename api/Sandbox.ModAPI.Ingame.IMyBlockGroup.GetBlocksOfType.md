@@ -3,7 +3,7 @@
 ### Summary
 
 ```csharp
-public void GetBlocksOfType<T>(List<IMyTerminalBlock> blocks, [Func<IMyTerminalBlock, bool> collect])
+public void GetBlocksOfType<T>(List<IMyTerminalBlock> blocks, Func<IMyTerminalBlock, bool> collect = default)
 ```
 
 ### Parameters
@@ -13,7 +13,7 @@ public void GetBlocksOfType<T>(List<IMyTerminalBlock> blocks, [Func<IMyTerminalB
 ### Summary
 
 ```csharp
-public void GetBlocksOfType<T>(List<T> blocks, [Func<T, bool> collect])
+public void GetBlocksOfType<T>(List<T> blocks, Func<T, bool> collect = default)
 ```
 
 ### Parameters

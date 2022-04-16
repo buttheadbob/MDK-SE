@@ -26,7 +26,7 @@ public struct SymmetricSerializableRange
 
 |Member|Description|
 |---|---|
-|[SymmetricSerializableRange(float, float, \[bool\])](VRageMath.SymmetricSerializableRange..ctor)||
+|[SymmetricSerializableRange(float, float, bool = default)](VRageMath.SymmetricSerializableRange..ctor)||
 
 #### Methods
 
